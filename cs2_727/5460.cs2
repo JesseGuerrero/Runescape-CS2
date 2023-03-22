@@ -1,0 +1,49 @@
+//script5460(5460)()(int)
+int iVar0
+iVar0 = 0
+if(load_varpbit(9991) == 1)
+	iVar0 = iVar0 + 220
+if(load_varpbit(9992) == 1)
+	iVar0 = iVar0 + 220
+if(load_varpbit(9993) == 1)
+	iVar0 = iVar0 + 220
+if(load_varpbit(9994) == 1)
+	iVar0 = iVar0 + 200
+if(load_varpbit(9995) == 1)
+	iVar0 = iVar0 + 160
+if(load_varpbit(9996) == 1)
+	iVar0 = iVar0 + 160
+if(load_varpbit(9997) == 1)
+	iVar0 = iVar0 + 130
+if(load_varpbit(9998) == 1)
+	iVar0 = iVar0 + 270
+if(load_varpbit(9999) == 1)
+	iVar0 = iVar0 + 110
+if(load_varpbit(10000) == 1)
+	iVar0 = iVar0 + 140
+if(load_varpbit(10001) == 1)
+	iVar0 = iVar0 + 200
+if(load_varpbit(10002) == 1)
+	iVar0 = iVar0 + 90
+if(load_varpbit(10003) == 1)
+	iVar0 = iVar0 + 80
+if(load_varpbit(10004) == 1)
+	iVar0 = iVar0 + 90
+if(load_varpbit(10005) == 1)
+	iVar0 = iVar0 + 280
+if(load_varpbit(10006) == 1)
+	iVar0 = iVar0 + 200
+if(load_varpbit(10007) == 1)
+	iVar0 = iVar0 + 50
+if(load_varpbit(10008) == 1)
+	iVar0 = iVar0 + 240
+if(load_varpbit(10009) == 1)
+	iVar0 = iVar0 + 260
+if(load_varpbit(10010) == 1)
+	iVar0 = iVar0 + 70
+if(load_varpbit(10011) == 1)
+	iVar0 = iVar0 + -50
+if(load_varpbit(10012) == 1)
+	iVar0 = iVar0 + -40
+return iVar0
+return 0

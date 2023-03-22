@@ -1,0 +1,28 @@
+//script1663(1663)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 0
+if(cc_find(arg1, arg0) == 1)
+	if(cc_ishidden() == 0) {
+		cc_sethide(0)
+		if(cc_gety() + cc_getheight() < if_getscrolly(arg0)) {
+			cc_setmodelangle(1500, 0, 1024, 512, 0, 0)
+			cc_setposition(0, 1, if_gety(arg0), 0)
+			return
+		}
+		if(cc_gety() >= if_getscrolly(arg0) + if_getheight(arg0)) {
+			cc_setmodelangle(1500, 0, 0, 512, 0, 0)
+			cc_setposition(0, 1, (if_gety(arg0) + if_getheight(arg0)) - cc_getheight(), 0)
+			return
+		}
+		iVar3 = (cc_gety() - if_getscrolly(arg0)) + if_gety(arg0)
+		if(iVar3 > if_getheight(arg2) - cc_getheight()) {
+			cc_setmodelangle(1500, 0, 256, 512, 0, 0)
+			cc_setposition(0, 1, iVar3 - cc_getheight(), 0)
+		} else  {
+			cc_setmodelangle(1500, 0, 768, 512, 0, 0)
+			cc_setposition(0, 1, iVar3 + cc_getheight(), 0)
+		}
+		return
+	}
+cc_sethide(1)
+return

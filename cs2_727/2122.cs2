@@ -1,0 +1,51 @@
+//script2122(2122)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+iVar2 = (arg0 / 10) * 64
+cc_create(arg0 - 1, 4, arg1)
+cc_setsize(0, 0, 17, if_getwidth(arg1) - 10)
+cc_setposition(0, 0, iVar2 + 2, 5)
+cc_settextfont(495)
+cc_settextalign(0, 0, 0)
+cc_setcolor(ff981f)
+cc_settext(arg0)
+iVar3 = 0
+while(iVar3 < 7) {
+	script_2123(arg0 + iVar3, iVar3, arg1, iVar2)
+	iVar3 = iVar3 + 1
+}
+cc_create(arg0 + 7, 4, arg1)
+cc_setsize(0, 0, 64, 100)
+cc_setposition(0, 0, iVar2, if_getwidth(arg1) - 100)
+cc_settextfont(495)
+cc_settextalign(0, 1, 1)
+cc_setcolor(ff981f)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		cc_settext("Points:" + "<br>" + to_string(load_varpbit(5903)))
+		break
+	case 11:
+		cc_settext("Points:" + "<br>" + to_string(load_varpbit(5904)))
+		break
+	case 21:
+		cc_settext("Points:" + "<br>" + to_string(load_varpbit(5905)))
+		break
+	case 31:
+		cc_settext("Points:" + "<br>" + to_string(load_varpbit(5906)))
+		break
+	case 41:
+		cc_settext("Points:" + "<br>" + to_string(load_varpbit(5907)))
+		cc_settext("")
+		break
+
+}
+if(arg0 + 10 < 43) {
+	cc_create(arg0 + 8, 5, arg1)
+	cc_setgraphic(962)
+	cc_setsize(0, 0, 32, if_getwidth(arg1))
+	cc_settiling(1)
+	cc_setposition(0, 0, iVar2 + 58, 0)
+}
+return

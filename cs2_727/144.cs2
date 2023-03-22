@@ -1,0 +1,16 @@
+//script144(144)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = 0
+if(cc_find(arg1, arg0) == 1)
+	if(client_clock() >= arg3) {
+		cc_delete()
+		return
+	} else 
+		if(modulo(40, client_clock()) < 20) {
+			iVar4 = client_clock() - arg2
+			iVar4 = iVar4 * 255
+			iVar4 = iVar4 / (arg3 - arg2)
+			cc_settrans(iVar4)
+		} else 
+			cc_settrans(255)
+return

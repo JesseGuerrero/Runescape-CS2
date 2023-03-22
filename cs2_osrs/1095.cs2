@@ -1,0 +1,31 @@
+void script_1095(string string0) {
+	int int0;
+	int0 = getLineCount(string0, widget(156, 8).getWidth(), 495) * 12 + 5;
+	widget(156, 8).clearChildren();
+	CHILD.createChild(widget(156, 8), 4, 0);
+	CHILD.setSize(0, 40, 1, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setRGB(0xFFA82F);
+	CHILD.setFont(496);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText("Bug News");
+	CHILD.createChild(widget(156, 8), 4, 1);
+	CHILD.setSize(0, int0, 1, 0);
+	CHILD.setPosition(0, 40, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setText(string0);
+	widget(156, 8).setScrollPos(0, 0);
+	widget(156, 9).clearChildren();
+	int0 = int0 + 40;
+	if (int0 > widget(156, 8).getHeight()) {
+		widget(156, 8).setScrollMax(0, int0);
+	} else {
+		widget(156, 8).setScrollMax(0, 0);
+	}
+	script_31(widget(156, 9), widget(156, 8), 792, 789, 790, 791, 773, 788);
+	return;
+}

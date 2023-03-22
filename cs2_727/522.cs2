@@ -1,0 +1,10 @@
+//script522(522)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = stat_visible_xp(arg1)
+iVar3 = stat_visible_xp(arg1)
+iVar2 = script_523(arg1)
+iVar4 = iVar3 - iVar2
+if_settext(arg0, to_string(iVar4))
+return

@@ -1,0 +1,205 @@
+//script5764(5764)(int arg0, int arg1, int arg2)(int)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+iVar10 = -1
+if(arg2 == -1)
+	arg2 = 0
+iVar11 = enum(arg1, arg2, 'i', 'J')
+iVar9 = enum(5483, iVar11, 'J', 'J')
+if(iVar9 != -1)
+	iVar11 = iVar9
+iVar12 = struct_param(2232, iVar11)
+iVar13 = enum_getoutputcount(arg1) - 1
+iVar14 = 0
+if(iVar13 >= 0)
+	while(iVar14 == 0) {
+		iVar8 = enum(arg1, iVar13, 'i', 'J')
+		iVar9 = enum(5483, iVar8, 'J', 'J')
+		if(iVar9 != -1)
+			iVar8 = iVar9
+		if(script_3227(struct_param(1268, iVar8)) != 2 || script_5732(iVar8) != 0)
+			if(script_5729(iVar8, arg0) == 1)
+				if(script_3224(struct_param(1268, iVar8)) == 1) {
+					iVar10 = struct_param(2232, iVar8)
+					if(iVar10 == iVar12)
+						if(iVar13 != arg2)
+							switch(iVar10) {
+								case default:
+									break
+								case 4:
+									if(iVar13 > iVar3 || iVar13 < iVar3 || iVar3 > arg2)
+										iVar3 = iVar13
+									break
+								case 3:
+									if(iVar13 > iVar4 || iVar13 < iVar4 || iVar4 > arg2)
+										iVar4 = iVar13
+									break
+								case 2:
+									if(iVar13 > iVar5 || iVar13 < iVar5 || iVar5 > arg2)
+										iVar5 = iVar13
+									break
+								case 1:
+									if(iVar13 > iVar6 || iVar13 < iVar6 || iVar6 > arg2)
+										iVar6 = iVar13
+									break
+								case 0:
+									if(iVar13 > iVar7 || iVar13 < iVar7 || iVar7 > arg2)
+										iVar7 = iVar13
+									break
+
+							}
+					else
+						switch(iVar10) {
+							case default:
+								break
+							case 4:
+								if(iVar13 > iVar3)
+									iVar3 = iVar13
+								break
+							case 3:
+								if(iVar13 > iVar4)
+									iVar4 = iVar13
+								break
+							case 2:
+								if(iVar13 > iVar5)
+									iVar5 = iVar13
+								break
+							case 1:
+								if(iVar13 > iVar6)
+									iVar6 = iVar13
+								break
+							case 0:
+								if(iVar13 > iVar7)
+									iVar7 = iVar13
+								break
+
+						}
+				}
+		iVar13 = iVar13 - 1
+	}
+iVar15 = -1
+switch(iVar12) {
+	case default:
+		break
+	case 4:
+		if(iVar3 < arg2)
+			if(iVar3 > -1)
+				iVar15 = iVar3
+			else
+				if(iVar4 > -1)
+					iVar15 = iVar4
+				else
+					if(iVar5 > -1)
+						iVar15 = iVar5
+					else
+						if(iVar6 > -1)
+							iVar15 = iVar6
+						else
+							if(iVar7 > -1)
+								iVar15 = iVar7
+							else
+								if(iVar3 > -1)
+									iVar15 = iVar3
+		break
+	case 3:
+		if(iVar4 < arg2)
+			if(iVar4 > -1)
+				iVar15 = iVar4
+			else
+				if(iVar5 > -1)
+					iVar15 = iVar5
+				else
+					if(iVar6 > -1)
+						iVar15 = iVar6
+					else
+						if(iVar7 > -1)
+							iVar15 = iVar7
+						else
+							if(iVar3 > -1)
+								iVar15 = iVar3
+							else
+								if(iVar4 > -1)
+									iVar15 = iVar4
+		break
+	case 2:
+		if(iVar5 < arg2)
+			if(iVar5 > -1)
+				iVar15 = iVar5
+			else
+				if(iVar6 > -1)
+					iVar15 = iVar6
+				else
+					if(iVar7 > -1)
+						iVar15 = iVar7
+					else
+						if(iVar3 > -1)
+							iVar15 = iVar3
+						else
+							if(iVar4 > -1)
+								iVar15 = iVar4
+							else
+								if(iVar5 > -1)
+									iVar15 = iVar5
+		break
+	case 1:
+		if(iVar6 < arg2)
+			if(iVar6 > -1)
+				iVar15 = iVar6
+			else
+				if(iVar7 > -1)
+					iVar15 = iVar7
+				else
+					if(iVar3 > -1)
+						iVar15 = iVar3
+					else
+						if(iVar4 > -1)
+							iVar15 = iVar4
+						else
+							if(iVar5 > -1)
+								iVar15 = iVar5
+							else
+								if(iVar6 > -1)
+									iVar15 = iVar6
+		break
+	case 0:
+		if(iVar7 < arg2)
+			if(iVar7 > -1)
+				iVar15 = iVar7
+			else
+				if(iVar3 > -1)
+					iVar15 = iVar3
+				else
+					if(iVar4 > -1)
+						iVar15 = iVar4
+					else
+						if(iVar5 > -1)
+							iVar15 = iVar5
+						else
+							if(iVar6 > -1)
+								iVar15 = iVar6
+							else
+								if(iVar7 > -1)
+									iVar15 = iVar7
+		break
+
+}
+return iVar15
+return 0

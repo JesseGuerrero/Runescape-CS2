@@ -1,0 +1,26 @@
+//script4552(4552)()(int)
+int iVar0
+int iVar1
+int iVar2
+if_settext(if_gethash(550, 18), "Friends List" + "<br>" + "RuneScape " + to_string(world_id()))
+instr6708(if_gethash(550, 6), script_124, "")
+if_setscrollsize(36044810, 0, 0)
+if_setscrollpos(if_gethash(550, 10), 0, 0)
+script_31(36044811, 36044810, 5666, 5663, 5664, 5665, 5686, 5685)
+iVar0 = 36044800
+cc_deleteall(iVar0)
+iVar1 = 0
+iVar2 = 0
+while(iVar2 < 200) {
+	iVar1 = (iVar2 * 15) + 5
+	if(modulo(2, iVar2) != 0) {
+		cc_create(if_getnextsubid(iVar0), 3, iVar0)
+		cc_setsize(0, 2, 15, 16384)
+		cc_setposition(0, 0, iVar1, 0)
+		cc_setcolor(232220)
+		cc_setfill(1)
+		cc_settrans(128)
+	}
+	iVar2 = iVar2 + 1
+}
+return script_125(load_varc(1036))

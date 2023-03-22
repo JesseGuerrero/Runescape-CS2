@@ -1,0 +1,6 @@
+//script4089(4089)()(void)
+int iVar0
+iVar0 = 35913900
+if(instr6644() >= 2)
+	iVar0 = 48889965
+return

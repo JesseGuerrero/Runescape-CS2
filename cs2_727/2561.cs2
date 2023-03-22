@@ -1,0 +1,87 @@
+//script2561(2561)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+if(load_varc(844) == 0) {
+	if_setgraphic(if_gethash(863, 27), 1135)
+	if_setgraphic(if_gethash(863, 28), 1134)
+} else  {
+	if_setgraphic(if_gethash(863, 27), 1134)
+	if_setgraphic(if_gethash(863, 28), 1135)
+}
+if(load_varc(844) == 0)
+	if(load_varc(845) == 1) {
+		if_settext(if_gethash(863, 57), "Dwarf")
+		iVar0 = 175
+		iVar1 = 5300
+		iVar2 = 60
+	} else 
+		if(load_varc(845) == 2) {
+			if_settext(if_gethash(863, 57), "Goblin")
+			iVar0 = 175
+			iVar1 = 4800
+			iVar2 = 110
+		} else 
+			if(load_varc(845) == 3) {
+				if_settext(if_gethash(863, 57), "Elf")
+				iVar0 = 225
+				iVar1 = 4800
+				iVar2 = 60
+			}
+else
+	if(load_varc(844) == 1)
+		if(load_varc(845) == 1) {
+			if_settext(if_gethash(863, 57), "Dwarf")
+			iVar0 = 350
+			iVar1 = 10100
+			iVar2 = 60
+		} else 
+			if(load_varc(845) == 2) {
+				if_settext(if_gethash(863, 57), "Goblin")
+				iVar0 = 350
+				iVar1 = 9600
+				iVar2 = 110
+			} else 
+				if(load_varc(845) == 3) {
+					if_settext(if_gethash(863, 57), "Elf")
+					iVar0 = 400
+					iVar1 = 9600
+					iVar2 = 60
+				}
+iVar3 = 100
+if_settext(if_gethash(863, 15), script_46(iVar3, ","))
+if_settext(if_gethash(863, 5), to_string(iVar0))
+if_settext(if_gethash(863, 7), to_string(iVar1))
+if_settext(if_gethash(863, 9), to_string(iVar2))
+if_settext(if_gethash(863, 58), enum(2386, load_varc(845), 'i', 's'))
+if(load_varc(845) == 1)
+	if(load_varc(844) == 0)
+		if_setmodel(if_gethash(863, 34), 47798)
+	else
+		if(load_varc(845) == 2)
+			if(load_varc(844) == 0)
+				if_setmodel(if_gethash(863, 34), 47794)
+			else
+				if(load_varc(845) == 3)
+					if(load_varc(844) == 0)
+						if_setmodel(if_gethash(863, 34), 47792)
+					else
+						if(load_varc(845) == 1)
+							if(load_varc(844) == 1)
+								if_setmodel(if_gethash(863, 34), 47786)
+							else
+								if(load_varc(845) == 2)
+									if(load_varc(844) == 1)
+										if_setmodel(if_gethash(863, 34), 47787)
+									else
+										if(load_varc(845) == 3)
+											if(load_varc(844) == 1)
+												if_setmodel(if_gethash(863, 34), 47796)
+store_varc(839, load_varpbit(6351))
+store_varc(846, load_varpbit(6380))
+return

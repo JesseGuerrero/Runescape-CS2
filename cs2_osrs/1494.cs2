@@ -1,0 +1,14 @@
+void script_1494() {
+	if (VARPBIT[5662] > 0) {
+		CHILD.setRGB(0x009F00);
+		_CHILD.setRGB(0x009F00);
+		_CHILD.setPosition(0, 0, 0, 1);
+		_CHILD.setSize(VARPBIT[5662] * 16384 / 50, 0, 2, 1);
+	} else {
+		CHILD.setRGB(0xFF0000);
+		_CHILD.setRGB(0xFF0000);
+		_CHILD.setPosition(0, 0, 1, 1);
+		_CHILD.setSize(10, 1, 0, 0);
+	}
+	return;
+}

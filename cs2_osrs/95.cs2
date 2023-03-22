@@ -1,0 +1,12 @@
+void script_95() {
+	if (length(STRING[28]) > 0) {
+		if (VARC[62] == 1) {
+			datamap('i', 'I', 683, 2).setContextMenuOption(10, "<col=00afff>" + "Resume autochat" + "</col>");
+		} else {
+			datamap('i', 'I', 683, 2).setContextMenuOption(10, "<col=00afff>" + "Pause autochat" + "</col>");
+		}
+	} else {
+		datamap('i', 'I', 683, 2).setContextMenuOption(10, "");
+	}
+	return;
+}

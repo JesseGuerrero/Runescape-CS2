@@ -1,0 +1,109 @@
+void script_89(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	Widget widget5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	string str0;
+	string str1;
+	string str2;
+	int1 = 4;
+	if (datamap('g', 'i', 1136, script_900()) > 0) {
+		if (VARC[41] == -1 && script_922() == 1) {
+			int1 = int1 + 23;
+		} else {
+			int1 = int1 + 165;
+		}
+	}
+	int2 = int1;
+	int3 = widget(163, 0).getWidth();
+	int4 = 0;
+	widget5 = datamap('i', 'I', 580, int4);
+	int6 = 0;
+	str0 = "";
+	if (getSystemUpdateTimer() > 0) {
+		int6 = getSystemUpdateTimer() / 50 % 60;
+		if (int6 < 10) {
+			str0 = "System update in: " + getSystemUpdateTimer() / 3000 + ":0" + int6;
+		} else {
+			str0 = "System update in: " + getSystemUpdateTimer() / 3000 + ":" + int6;
+		}
+		int2 = int2 + script_199(str0, int4, widget5, widget(163, 0), int3, 0, 13, int2, 2, 0xFFFF00, true);
+		widget5.setNoOptions();
+		widget5.setSize(0, 0, 0, 0);
+		int4 = int4 + 1;
+		widget5 = datamap('i', 'I', 580, int4);
+	}
+	int7 = -1;
+	int8 = -1;
+	str1 = "";
+	str2 = "";
+	if (VARC[55] > getClientCycle() - 3000 && m5017(14) > 0) {
+		int7, int8, str1, str2, str0 = m5003(14, 0);
+		if (int7 != -1) {
+			int2 = int2 + script_199(str0, int4, widget5, widget(163, 0), int3, 0, 13, int2, 2, 0xFFFF00, true);
+			widget5.setNoOptions();
+			widget5.setSize(0, 0, 0, 0);
+			int4 = int4 + 1;
+			widget5 = datamap('i', 'I', 580, int4);
+		}
+	}
+	int7 = arg0;
+	int9 = 0;
+	if (VARP[287] == 1 && (VARC[41] != -1 || VARPBIT[4089] == 0)) {
+		while (int7 != -1 && widget5 != null && int2 - int1 < 57) {
+			int9, int8, str1, str2, str0 = m5004(int7);
+			if (script_91(int9, str1, int8) == 1) {
+				switch (int9) {
+					case 3:
+					case 7:
+						int2 = int2 + script_203("From\u00a0" + str1 + ":", str0, int4, widget5, widget(163, 0), int3, 0, 13, int2, 2, 0x00FFFF, true);
+						break;
+					case 6:
+						int2 = int2 + script_203("To\u00a0" + str1 + ":", str0, int4, widget5, widget(163, 0), int3, 0, 13, int2, 2, 0x00FFFF, true);
+						break;
+					default:
+						int2 = int2 + script_199(str0, int4, widget5, widget(163, 0), int3, 0, 13, int2, 2, 0x00FFFF, true);
+						if (int9 == 5 && VARPBIT[1627] == 0) {
+							VARC[65] = int8 + 500 + 1;
+							widget(162, 0).hookFrame(&script_664(false));
+						}
+						break;
+				}
+				widget5.setNoOptions();
+				if (int9 == 3 || int9 == 6 || int9 == 7) {
+					widget5.setOptionBase("<col=ffffff>" + str1);
+					if (isFriend(str1) == true) {
+						widget5.setContextMenuOption(8, "Message");
+					} else {
+						widget5.setContextMenuOption(8, "Add friend");
+						widget5.setContextMenuOption(9, "Add ignore");
+					}
+					widget5.setContextMenuOption(10, "Report");
+				}
+				int4 = int4 + 1;
+				widget5 = datamap('i', 'I', 580, int4);
+			}
+			int7 = m5019(int7);
+		}
+	}
+	while (widget5 != null) {
+		widget5.setNoOptions();
+		widget5.setSize(0, 0, 0, 0);
+		if (CHILD.setChild(widget(163, 0), int4 * 2) == true) {
+			CHILD.setText("");
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget(163, 0), int4 * 2 + 1) == true) {
+			CHILD.setText("");
+			CHILD.setHidden(true);
+		}
+		int4 = int4 + 1;
+		widget5 = datamap('i', 'I', 580, int4);
+	}
+	return;
+}

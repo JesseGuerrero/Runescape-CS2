@@ -1,0 +1,12 @@
+//script3628(3628)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+arg7 = arg7 + 1
+if(arg7 == 1) {
+	if_setposition(arg0, 0, 0, arg2 + arg4, arg1 + arg3)
+	if_setitem(arg0, -1, arg5)
+} else 
+	if_setposition(arg0, 0, 0, arg2 + ((arg4 * (arg8 - arg7)) / arg8), arg1 + ((arg3 * (arg8 - arg7)) / arg8))
+if(arg7 == arg8)
+	instr6342(arg0, None, "")
+else
+	instr6342(arg0, script_3628, "Iiiiioiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+return

@@ -1,0 +1,11 @@
+//script4083(4083)()(void)
+if(instr6004(if_gethash(1061, 3)) == 1)
+	if(cc_getspriteid() == 4032)
+		cc_setgraphic(4031)
+if(instr6004(if_gethash(1061, 4)) == 1)
+	if(cc_getspriteid() == 4035)
+		cc_setgraphic(4034)
+if(instr6004(if_gethash(1061, 5)) == 1)
+	if(cc_getspriteid() == 4038)
+		cc_setgraphic(4037)
+return

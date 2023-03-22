@@ -1,0 +1,12 @@
+void script_162(int arg0, Widget widget1, Widget widget2, int arg3) {
+	if (CHILD.setChild(widget1, arg0) == true) {
+		arg3 = arg3 - getScrollY(widget1);
+		if (arg3 < 10) {
+			script_157(widget2, widget1, getScrollY(widget1) - 4, 1);
+		}
+		if (arg3 + CHILD.getHeight() > widget1.getHeight() - 10) {
+			script_157(widget2, widget1, getScrollY(widget1) + 4, 1);
+		}
+	}
+	return;
+}

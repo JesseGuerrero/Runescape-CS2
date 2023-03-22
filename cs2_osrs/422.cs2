@@ -1,0 +1,70 @@
+void script_422(Widget widget0, Widget widget1, int arg2, int arg3, int arg4, int arg5, int arg6) {
+	int int7;
+	int int8;
+	string str0;
+	widget0.clearChildren();
+	int7 = 0;
+	int8 = 0;
+	str0 = "Creature";
+	if (VARP[262] == 98) {
+		if (VARP[261] > 0) {
+			int8, str0 = 1, datamap('i', 's', 1174, VARP[263]);
+			widget1.setText(VARP[261] + " x " + str0);
+		} else if (VARP[261] == -1) {
+			int8, str0 = 1, datamap('i', 's', 1174, VARP[263]);
+			widget1.setText(str0);
+		} else {
+			widget1.setText("None");
+		}
+	} else if (VARP[261] > 0 && VARP[262] != 0) {
+		int8, str0 = 1, datamap('i', 's', 693, VARP[262]);
+		widget1.setText(VARP[261] + " x " + str0);
+	} else {
+		widget1.setText("None");
+	}
+	CHILD.createChild(widget0, 5, int7);
+	int7 = int7 + 1;
+	_CHILD.createChild(widget0, 4, int7);
+	int7 = int7 + 1;
+	CHILD.setSize(85, 22, 0, 0);
+	_CHILD.setSize(85, 22, 0, 0);
+	CHILD.setPosition(275, 62, 0, 0);
+	_CHILD.setPosition(275, 62, 0, 0);
+	CHILD.setSprite(812);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText("Cancel task");
+	if (int8 == 1) {
+		_CHILD.setRGB(0xFF981F);
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		CHILD.setContextMenuOption(1, "Cancel");
+		CHILD.hookOptionClick(&script_423(str0, false, widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6)));
+	} else {
+		_CHILD.setRGB(0x7F4C0F);
+	}
+	CHILD.createChild(widget0, 5, int7);
+	int7 = int7 + 1;
+	_CHILD.createChild(widget0, 4, int7);
+	int7 = int7 + 1;
+	CHILD.setSize(85, 22, 0, 0);
+	_CHILD.setSize(85, 22, 0, 0);
+	CHILD.setPosition(375, 62, 0, 0);
+	_CHILD.setPosition(375, 62, 0, 0);
+	CHILD.setSprite(812);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText("Block task");
+	if (int8 == 1 && VARP[262] != 97 && VARP[262] != 105 && VARP[262] != 98) {
+		_CHILD.setRGB(0xFF981F);
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		CHILD.setContextMenuOption(1, "Block");
+		CHILD.hookOptionClick(&script_423(str0, true, widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6)));
+	} else {
+		_CHILD.setRGB(0x7F4C0F);
+	}
+	return;
+}

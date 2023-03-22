@@ -1,0 +1,71 @@
+//script205(205)(int arg0)(void)
+if(load_varpbit(8902) > 0)
+	if(load_varpbit(8902) < 13) {
+		if(if_getspriteid(if_gethash(825, 94)) == 5459)
+			if_setgraphic(if_gethash(825, 94), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 94)) == 5458)
+				if_setgraphic(if_gethash(825, 94), 5455)
+		if(if_getspriteid(if_gethash(825, 98)) == 5459)
+			if_setgraphic(if_gethash(825, 98), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 98)) == 5458)
+				if_setgraphic(if_gethash(825, 98), 5455)
+		if(if_getspriteid(if_gethash(825, 102)) == 5459)
+			if_setgraphic(if_gethash(825, 102), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 102)) == 5458)
+				if_setgraphic(if_gethash(825, 102), 5455)
+		if(if_getspriteid(if_gethash(825, 106)) == 5459)
+			if_setgraphic(if_gethash(825, 106), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 106)) == 5458)
+				if_setgraphic(if_gethash(825, 106), 5455)
+		if(if_getspriteid(if_gethash(825, 110)) == 5459)
+			if_setgraphic(if_gethash(825, 110), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 110)) == 5458)
+				if_setgraphic(if_gethash(825, 110), 5455)
+		if(if_getspriteid(if_gethash(825, 114)) == 5459)
+			if_setgraphic(if_gethash(825, 114), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 114)) == 5458)
+				if_setgraphic(if_gethash(825, 114), 5455)
+		if(if_getspriteid(if_gethash(825, 118)) == 5459)
+			if_setgraphic(if_gethash(825, 118), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 118)) == 5458)
+				if_setgraphic(if_gethash(825, 118), 5455)
+		if(if_getspriteid(if_gethash(825, 122)) == 5459)
+			if_setgraphic(if_gethash(825, 122), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 122)) == 5458)
+				if_setgraphic(if_gethash(825, 122), 5455)
+		if(if_getspriteid(if_gethash(825, 126)) == 5459)
+			if_setgraphic(if_gethash(825, 126), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 126)) == 5458)
+				if_setgraphic(if_gethash(825, 126), 5455)
+		if(if_getspriteid(if_gethash(825, 130)) == 5459)
+			if_setgraphic(if_gethash(825, 130), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 130)) == 5458)
+				if_setgraphic(if_gethash(825, 130), 5455)
+		if(if_getspriteid(if_gethash(825, 0)) == 5459)
+			if_setgraphic(if_gethash(825, 0), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 0)) == 5458)
+				if_setgraphic(if_gethash(825, 0), 5455)
+		if(if_getspriteid(if_gethash(825, 137)) == 5459)
+			if_setgraphic(if_gethash(825, 137), 5457)
+		else
+			if(if_getspriteid(if_gethash(825, 137)) == 5458)
+				if_setgraphic(if_gethash(825, 137), 5455)
+	}
+if(if_getspriteid(arg0) == 5456)
+	if_setgraphic(arg0, 5458)
+if(if_getspriteid(arg0) == 5455)
+	if_setgraphic(arg0, 5458)
+if(if_getspriteid(arg0) == 5457)
+	if_setgraphic(arg0, 5459)
+return

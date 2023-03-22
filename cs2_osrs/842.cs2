@@ -1,0 +1,6 @@
+void script_842(Widget widget0, Widget widget1, int arg2) {
+	widget0.setContextMenuOption(1, "Fixed mode");
+	widget1.setContextMenuOption(1, "Resizable mode");
+	script_843(widget0, widget1, arg2);
+	return;
+}

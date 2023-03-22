@@ -1,0 +1,10 @@
+//script117(117)()(void)
+if(load_varpbit(3756) < 1 || load_varpbit(3756) > 20) {
+	instr6342(if_gethash(746, 57), None, "")
+	instr6342(if_gethash(548, 111), None, "")
+	script_736(-1, -1, -1, -1)
+	script_1364()
+	return
+}
+script_2756()
+return

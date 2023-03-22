@@ -1,0 +1,35 @@
+int script_228(Widget widget0, string string1, int arg2) {
+	int int2;
+	Sprite sprite3;
+	widget0.clearChildren();
+	script_98(widget0, 0, 297, 0, 0, 1, 1, 2, 2, 1, 1);
+	CHILD.createChild(widget0, 4, 1);
+	CHILD.setPosition(0, 6, 1, 0);
+	CHILD.setSize(12, 24, 1, 0);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(496);
+	CHILD.setText(string1);
+	int2 = getChildId();
+	script_98(widget0, 2, 310, 0, 0, 0, 0, 25, 30, 0, 0);
+	script_98(widget0, 3, 311, 0, 0, 2, 0, 25, 30, 0, 0);
+	script_98(widget0, 4, 312, 0, 0, 0, 2, 25, 30, 0, 0);
+	script_98(widget0, 5, 313, 0, 0, 2, 2, 25, 30, 0, 0);
+	script_98(widget0, 6, 314, 0, 14, 1, 0, 12, 26, 1, 0);
+	script_98(widget0, 7, 172, -15, 0, 0, 1, 36, 60, 0, 1);
+	script_98(widget0, 8, 315, -15, 0, 2, 1, 36, 60, 0, 1);
+	script_98(widget0, 9, 314, 0, -15, 1, 0, 50, 36, 1, 0);
+	script_98(widget0, 10, 173, 0, -15, 1, 2, 50, 36, 1, 0);
+	sprite3 = 535;
+	if (isBitFlagged(arg2, 0) == false) {
+		script_98(widget0, 11, sprite3, 3, 6, 2, 0, 26, 23, 0, 0);
+		CHILD.hookMouseExit(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite3, null));
+		sprite3 = 536;
+		CHILD.hookMouseEnter(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite3, null));
+		CHILD.setContextMenuOption(1, "Close");
+		CHILD.hookOptionClick(&script_29());
+		CHILD.hookKey(&script_131(KEY_TYPED));
+	}
+	return int2;
+}

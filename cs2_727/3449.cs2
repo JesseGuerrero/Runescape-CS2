@@ -1,0 +1,4 @@
+//script3449(3449)(int arg0, int arg1)(void)
+if_setitem(if_gethash(1189, 1), 0, arg0)
+if_setspritescale(if_gethash(1189, 1), arg1)
+return

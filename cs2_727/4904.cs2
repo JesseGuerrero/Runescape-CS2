@@ -1,0 +1,7 @@
+//script4904(4904)(int arg0, int arg1, int arg2)(int)
+int iVar3
+int iVar4
+iVar3 = enum(3997, arg0, 'i', 'g')
+iVar4 = enum(iVar3, arg1, 'i', 'g')
+return enum(iVar4, arg2, 'i', 'd')
+return -1

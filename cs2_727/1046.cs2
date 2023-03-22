@@ -1,0 +1,105 @@
+//script1046(1046)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar7 = 1
+iVar8 = 0
+iVar9 = 1000
+iVar10 = -1
+if(char_isalphanumeric(arg1) == 1) {
+	while(iVar8 < arg6) {
+		if(cc_find(script_1844(iVar8) + 1, arg3) == 1)
+			if(string_indexof_char(cc_gettext().toLowerCase(), 0, char_tolowercase(arg1)) == 0)
+				if(cc_find(0, arg3) == 1) {
+					cc_setposition(0, 0, cc_gety(), cc_getx())
+					cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+					cc_setcolor(577e45)
+					cc_setfill(1)
+					if(iVar8 < load_varc(128))
+						if(cc_gety() < if_getscrolly(arg3))
+							script_72(arg4, arg3, cc_gety())
+					else
+						if(iVar8 > load_varc(128))
+							if(cc_gety() + cc_getheight() > if_getheight(arg3) + if_getscrolly(arg3))
+								script_72(arg4, arg3, (cc_gety() + cc_getheight()) - if_getheight(arg3))
+					store_varc(128, iVar8)
+					return
+				}
+		iVar8 = iVar8 + 1
+	}
+	return
+}
+if(arg0 == 104) {
+	if(arg6 == 0)
+		return
+	if(load_varc(128) <= 0)
+		store_varc(128, arg6 - 1)
+	else
+		store_varc(128, load_varc(128) - 1)
+	if(cc_find(script_1844(load_varc(128)) + 1, arg3) == 1) {
+		if(cc_find(0, arg3) == 1) {
+			cc_setposition(0, 0, cc_gety(), cc_getx())
+			cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+			cc_setcolor(577e45)
+			cc_setfill(1)
+		}
+		if(cc_gety() < if_getscrolly(arg3))
+			script_72(arg4, arg3, if_getscrolly(arg3) - cc_getheight())
+		else
+			if(cc_gety() + cc_getheight() > if_getheight(arg3) + if_getscrolly(arg3))
+				script_72(arg4, arg3, if_getscrollheight(arg3))
+	}
+	return
+}
+if(arg0 == 105) {
+	if(arg6 == 0)
+		return
+	if(load_varc(128) == arg6 - 1)
+		store_varc(128, 0)
+	else
+		store_varc(128, load_varc(128) + 1)
+	if(cc_find(script_1844(load_varc(128)) + 1, arg3) == 1) {
+		if(cc_find(0, arg3) == 1) {
+			cc_setposition(0, 0, cc_gety(), cc_getx())
+			cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+			cc_setcolor(577e45)
+			cc_setfill(1)
+		}
+		if(cc_gety() + cc_getheight() > if_getheight(arg3) + if_getscrolly(arg3))
+			script_72(arg4, arg3, if_getscrolly(arg3) + cc_getheight())
+		else
+			if(cc_gety() < if_getscrolly(arg3))
+				script_72(arg4, arg3, 0)
+	}
+	return
+}
+if(arg0 == 102) {
+	script_1050(load_varc(126), load_varc_string(27))
+	return
+}
+if(arg0 == 13) {
+	script_1054()
+	return
+}
+if(arg0 == 84) {
+	if(load_varc(128) >= 0)
+		if(cc_find(load_varc(128) + 1, arg3) == 1)
+			script_1074(arg2, arg5, script_1844(load_varc(128)))
+	return
+}
+if(arg0 == 85) {
+	if(load_varc(127) == 0)
+		script_1054()
+	else {
+		store_varc(128, -1)
+		if_sethide(if_gethash(137, 7), 1)
+		if_sethide(if_gethash(137, 9), 1)
+		if_sethide(if_gethash(137, 13), 1)
+		if_sethide(if_gethash(137, 17), 0)
+		if_sethide(if_gethash(137, 1), 0)
+		if_sethide(if_gethash(137, 3), 1)
+	}
+	return
+}
+return

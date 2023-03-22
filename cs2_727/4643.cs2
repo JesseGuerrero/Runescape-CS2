@@ -1,0 +1,43 @@
+//script4643(4643)(int arg0)(int)
+switch(arg0) {
+	case default:
+		return 0
+
+	case 1:
+		if(stat_base(0) >= 30)
+			if(stat_base(6) >= 30)
+				if(stat_base(4) >= 30)
+					return 1
+				else
+					return 0
+		break
+	case 4:
+		if(stat_base(2) >= 70)
+			return 1
+		else
+			return 0
+		break
+	case 2:
+		if(stat_base(16) >= 55)
+			if(stat_base(17) >= 55)
+				return 1
+			else
+				return 0
+		break
+	case 3:
+		if(stat_base(17) >= 45)
+			if(stat_base(0) >= 60)
+				if(stat_base(24) >= 55)
+					return 1
+				else
+					return 0
+		break
+	case 6:
+		if(stat_base(2) >= 75)
+			return 1
+		else
+			return 0
+		break
+
+}
+return 0

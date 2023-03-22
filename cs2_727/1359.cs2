@@ -1,0 +1,7 @@
+//script1359(1359)(string arg0, string arg1)(void)
+if(world_members() == 0) {
+	if_setonmouseover(if_gethash(335, 44), script_5484, "IIs", -2147483645, if_gethash(335, 56), arg0)
+	if_setonmouseover(if_gethash(335, 45), script_5484, "IIs", -2147483645, if_gethash(335, 56), arg1)
+	store_varc(2, 0)
+}
+return

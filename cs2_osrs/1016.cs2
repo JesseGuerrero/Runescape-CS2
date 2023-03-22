@@ -1,0 +1,8 @@
+void script_1016(Widget widget0) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setSize(17, 17, 0, 0);
+	CHILD.setPosition(4, 0, 0, 1);
+	_ = script_715(widget0, 1);
+	return;
+}

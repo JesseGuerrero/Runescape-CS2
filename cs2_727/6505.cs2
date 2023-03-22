@@ -1,0 +1,10 @@
+//script6505(6505)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 < 13) {
+	script_5902(iVar0)
+	iVar0 = iVar0 + 1
+}
+script_5903()
+return
+return

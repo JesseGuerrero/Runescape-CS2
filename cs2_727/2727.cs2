@@ -1,0 +1,5 @@
+//script2727(2727)()(int)
+if(bit_flagged(10, instr6589()) == 1)
+	return 1
+return 0
+return -1

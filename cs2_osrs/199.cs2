@@ -1,0 +1,24 @@
+int script_199(string string0, int arg1, Widget widget2, Widget widget3, int arg4, int arg5, int arg6, int arg7, int arg8, Color color9, boolean boolean10) {
+	int int10;
+	int int11;
+	int10 = arg4 - arg5;
+	int11 = getLineCount(string0, int10, 495) * arg6;
+	if (arg8 == 0) {
+		arg7 = arg7 - int11;
+	}
+	if (CHILD.setChild(widget3, arg1 * 2) == true) {
+		widget2.setSize(int10, int11, 0, 0);
+		widget2.setPosition(arg5, arg7, 0, arg8);
+		CHILD.setHidden(false);
+		CHILD.setSize(int10, int11, 0, 0);
+		CHILD.setPosition(arg5, arg7, 0, arg8);
+		CHILD.setText(string0);
+		CHILD.setRGB(color9);
+		CHILD.setTextAntiMacro(boolean10);
+	}
+	if (CHILD.setChild(widget3, arg1 * 2 + 1) == true) {
+		CHILD.setText("");
+		CHILD.setHidden(true);
+	}
+	return int11;
+}

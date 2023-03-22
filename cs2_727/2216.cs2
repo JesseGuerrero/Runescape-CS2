@@ -1,0 +1,9 @@
+//script2216(2216)()(void)
+if(load_varp(1700) == 2) {
+	if(load_varc(1137) == 0)
+		sound_synth(0, 1, 8731)
+	store_varc(1137, 1)
+	instr6342(if_gethash(932, 1), script_2214, "")
+} else 
+	send_message("There is nothing to push off!")
+return

@@ -1,0 +1,7 @@
+//script5709(5709)(int arg0)(void)
+if(cc_find(arg0, if_gethash(1218, 161)) == 1)
+	if(arg0 < 2)
+		cc_setcolor(8beb74)
+	else
+		cc_setcolor(e6be78)
+return

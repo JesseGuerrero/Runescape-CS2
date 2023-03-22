@@ -1,0 +1,17 @@
+//script1626(1626)()(void)
+string sVar0
+string sVar1
+sVar0 = "Curtsy"
+sVar1 = "Bow"
+if(gender() > 0) {
+	if_setgraphic(if_gethash(464, 4), 2317)
+	if_setonmouseover(if_gethash(464, 4), script_38, "IIsii", -2147483645, if_gethash(464, 54), sVar0, 50, 150)
+	instr6213(if_gethash(464, 4), 1, sVar0)
+	instr6213(if_gethash(464, 4), 2, sVar1)
+} else  {
+	if_setgraphic(if_gethash(464, 4), 703)
+	if_setonmouseover(if_gethash(464, 4), script_38, "IIsii", -2147483645, if_gethash(464, 54), sVar1, 50, 150)
+	instr6213(if_gethash(464, 4), 2, sVar0)
+	instr6213(if_gethash(464, 4), 1, sVar1)
+}
+return

@@ -1,0 +1,31 @@
+void script_1727(int arg0, Widget widget1, Widget widget2) {
+	int int3;
+	int int4;
+	if (cs2method6605() == 0) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	int3 = cs2method6603();
+	int4 = -1;
+	if (arg0 == 1) {
+		if (int3 < 50) {
+			int4 = 50;
+		} else if (int3 < 75) {
+			int4 = 75;
+		} else if (int3 < 100) {
+			int4 = 100;
+		} else {
+			int4 = 200;
+		}
+	} else if (int3 > 100) {
+		int4 = 100;
+	} else if (int3 > 75) {
+		int4 = 75;
+	} else if (int3 > 50) {
+		int4 = 50;
+	} else {
+		int4 = 25;
+	}
+	script_1721(int4, widget1, widget2);
+	return;
+}

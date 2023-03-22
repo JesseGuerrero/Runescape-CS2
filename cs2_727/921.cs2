@@ -1,0 +1,5 @@
+//script921(921)(int arg0, int arg1, string arg2)(void)
+int iVar2
+iVar2 = paramheight(arg0, 494, arg1)
+script_924(iVar2, arg0, 1, 494, arg0)
+return

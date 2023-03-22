@@ -1,0 +1,7 @@
+//script2512(2512)()(void)
+if_settext(if_gethash(654, 10), script_46(enum(2454, 1, 'i', 'i'), ","))
+if_settext(if_gethash(654, 59), script_46(enum(2454, 2, 'i', 'i'), ","))
+if_settext(if_gethash(654, 51), script_46(enum(2454, 3, 'i', 'i'), ","))
+if_settext(if_gethash(654, 43), script_46(enum(2454, 4, 'i', 'i'), ","))
+if_settext(if_gethash(654, 68), script_46(enum(2454, 5, 'i', 'i'), ","))
+return

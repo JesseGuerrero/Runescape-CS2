@@ -1,0 +1,55 @@
+//script2123(2123)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+cc_create(arg0, 5, arg2)
+cc_setposition(0, 0, arg3 + 22, 5 + ((36 + 20) * arg1))
+cc_setsize(0, 0, 32, 36)
+iVar4 = enum(2240, arg0, 'i', 'o')
+if(iVar4 != -1) {
+	cc_setoutline(1)
+	cc_setgraphicshadow(3153952)
+	cc_setitem(-1, iVar4)
+	cc_setop("Claim", 1)
+	cc_setop("Examine", 10)
+	cc_setopbase("<col=ff9040>" + item_name(iVar4) + "</col>")
+	if(((inv_total(iVar4, 93) + inv_total(iVar4, 94)) + inv_total(iVar4, 95)) + inv_total(iVar4, 530) > 0)
+		cc_settrans(200)
+	else
+		if(arg0 / 10 == 1 / 10)
+			if(load_varpbit(2698) > 0)
+				cc_settrans(200)
+			else
+				cc_settrans(0)
+		else
+			if(arg0 == 11)
+				if(load_varpbit(2776) > 0)
+					cc_settrans(200)
+				else
+					cc_settrans(0)
+			else
+				if(arg0 / 10 == 11 / 10)
+					if(load_varpbit(2699) > 0)
+						cc_settrans(200)
+					else
+						cc_settrans(0)
+				else
+					if(arg0 / 10 == 21 / 10)
+						if(load_varpbit(2700) > 0)
+							cc_settrans(200)
+						else
+							cc_settrans(0)
+					else
+						if(arg0 / 10 == 31 / 10)
+							if(load_varpbit(2701) > 0)
+								cc_settrans(200)
+							else
+								cc_settrans(0)
+						else
+							if(arg0 / 10 == 41 / 10)
+								if(load_varpbit(2702) > 0)
+									cc_settrans(200)
+								else
+									cc_settrans(0)
+							else
+								cc_settrans(0)
+}
+return

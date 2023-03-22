@@ -1,0 +1,21 @@
+void script_388(Widget widget0) {
+	int int1;
+	int1 = script_384();
+	if (script_1138() == 1) {
+		if (VARPBIT[4965] > 0) {
+			widget0.setText("Protection");
+		} else if (VARC[78] == 1) {
+			widget0.setText("Guarded");
+		} else if (VARC[78] == 2) {
+			widget0.setText("No PvP");
+		} else {
+			widget0.setText("Deadman");
+		}
+	} else if (int1 > 0) {
+		widget0.setText("Level: " + int1);
+	} else {
+		widget0.setText("");
+	}
+	script_387(int1);
+	return;
+}

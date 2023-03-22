@@ -1,0 +1,40 @@
+//script5881(5881)()(void)
+int iVar0
+int iVar1
+iVar0 = max((load_varc(1800) + load_varpbit(10862)) + load_varpbit(11026), 0)
+if_settext(if_gethash(1253, 95), to_string(iVar0))
+if_settext(if_gethash(1253, 161), to_string(iVar0))
+if_settext(if_gethash(1253, 88), to_string(load_varpbit(10862)))
+if_settext(if_gethash(1253, 89), to_string(load_varc(1800)))
+if_settext(if_gethash(1253, 90), to_string(load_varpbit(11026)))
+if_settext(if_gethash(1139, 6), to_string(iVar0))
+if_setcolor(82116696, 0xD5D9DC)
+if_setcolor(82116697, 0xD5D9DC)
+if_setcolor(82116698, 0xD5D9DC)
+if_setcolor(82116693, 0xD5D9DC)
+if_setcolor(82116694, 0xD5D9DC)
+if_setcolor(82116695, 0xD5D9DC)
+iVar1 = 0
+if(load_varpbit(10862) > 0) {
+	if_setcolor(82116696, 0xF2B741)
+	if_setcolor(82116693, 0xF2B741)
+} else 
+	if(load_varpbit(11026) > 0) {
+		if_setcolor(82116698, 0xF2B741)
+		if_setcolor(82116695, 0xF2B741)
+	} else 
+		if(load_varc(1800) > 0) {
+			if_setcolor(82116697, 0xF2B741)
+			if_setcolor(82116694, 0xF2B741)
+		}
+iVar1 = 1
+if(playermember() == 1)
+	iVar1 = 2
+if(load_varpbit(10862) >= iVar1)
+	if_setcolor(82116696, 0xE22C2C)
+if(load_varc(1800) >= 600)
+	if_setcolor(82116697, 0xE22C2C)
+if(load_varpbit(11026) >= 10)
+	if_setcolor(82116698, 0xE22C2C)
+script_1968()
+return

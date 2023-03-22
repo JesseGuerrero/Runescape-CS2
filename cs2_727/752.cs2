@@ -1,0 +1,11 @@
+//script752(752)()(void)
+if(load_varpbit(4534) == 0)
+	if(load_varpbit(4290) == 0) {
+		if_settext(if_gethash(662, 43), "---")
+		return
+	}
+if(load_varpbit(4290) == 0)
+	if_settext(if_gethash(662, 43), to_string(load_varpbit(4534)) + ".00")
+else
+	if_settext(if_gethash(662, 43), to_string(load_varpbit(4534)) + ".30")
+return

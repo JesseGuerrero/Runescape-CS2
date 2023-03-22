@@ -1,0 +1,22 @@
+//script6382(6382)()(void)
+if(playermember() == 0) {
+	if_sethide(if_gethash(746, 268), 1)
+	if_sethide(if_gethash(746, 275), 0)
+	if_sethide(if_gethash(548, 233), 1)
+	if_sethide(if_gethash(548, 240), 0)
+	if_sethide(if_gethash(906, 533), 1)
+	if_sethide(if_gethash(906, 540), 0)
+} else  {
+	if_sethide(if_gethash(746, 268), 0)
+	if_sethide(if_gethash(746, 275), 1)
+	if_sethide(if_gethash(548, 233), 0)
+	if_sethide(if_gethash(548, 240), 1)
+	if_sethide(if_gethash(906, 533), 0)
+	if_sethide(if_gethash(906, 540), 1)
+}
+instr6239(if_gethash(906, 509), script_6342, "")
+instr6239(if_gethash(906, 517), script_6344, "")
+instr6239(if_gethash(906, 525), script_6343, "")
+instr6239(if_gethash(906, 533), script_6345, "")
+instr6239(if_gethash(906, 540), script_6346, "")
+return

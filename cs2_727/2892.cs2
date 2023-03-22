@@ -1,0 +1,8 @@
+//script2892(2892)(int arg0, int arg1)(void)
+if(client_clock() - arg1 >= 180)
+	store_varc(1086, 1)
+if(client_clock() - arg1 >= 1000) {
+	instr6342(if_gethash(476, 24), None, "")
+	if_sethide(if_gethash(476, 24), 1)
+}
+return

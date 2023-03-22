@@ -1,0 +1,14 @@
+int script_774(Widget widget0, int arg1, string string2, int arg3) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		_CHILD.createChild(widget0, 4, arg3);
+		arg3 = arg3 + 1;
+		_CHILD.setSize(CHILD.getWidth(), CHILD.getHeight(), 0, 0);
+		_CHILD.setPosition(CHILD.getX(), CHILD.getY(), 0, 0);
+		_CHILD.setRGB(0xFF981F);
+		_CHILD.setFont(494);
+		_CHILD.setTextAntiMacro(true);
+		_CHILD.setTextAlignment(1, 1, 0);
+		_CHILD.setText(string2);
+	}
+	return arg3;
+}

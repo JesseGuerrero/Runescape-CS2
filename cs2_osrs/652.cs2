@@ -1,0 +1,11 @@
+void script_652(Widget widget0, int arg1) {
+	playSoundEffect(2266, 1, 0);
+	widget0 = widget0.getLayer();
+	if (widget0 == null) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

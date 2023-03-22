@@ -1,0 +1,19 @@
+//script4244(4244)()(int)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		return 9954
+
+	case 1:
+		return 9991
+
+	case 2:
+		return 9955
+
+	case 3:
+		return 9956
+
+
+}
+return -1

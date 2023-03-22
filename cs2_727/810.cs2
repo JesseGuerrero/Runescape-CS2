@@ -1,0 +1,20 @@
+//script810(810)()(void)
+if(world_members() == 1) {
+	if_sethide(if_gethash(747, 5), 0)
+	if_sethide(if_gethash(747, 0), 0)
+	if_sethide(if_gethash(747, 2), 0)
+	if_sethide(if_gethash(747, 1), 0)
+	if_sethide(if_gethash(747, 8), 0)
+	script_817(23)
+	if_sethide(if_gethash(747, 7), 0)
+	if_setcolor(48955399, script_805(23))
+	if_settext(if_gethash(747, 7), to_string(stat(23)))
+} else  {
+	if_sethide(if_gethash(747, 5), 1)
+	if_sethide(if_gethash(747, 0), 1)
+	if_sethide(if_gethash(747, 7), 1)
+	if_sethide(if_gethash(747, 2), 1)
+	if_sethide(if_gethash(747, 1), 1)
+	if_sethide(if_gethash(747, 8), 1)
+}
+return

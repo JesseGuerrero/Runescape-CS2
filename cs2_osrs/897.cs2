@@ -1,0 +1,10 @@
+void script_897(Widget widget0, int arg1, int arg2) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		if (getClientCycle() >= arg2) {
+			CHILD.deleteChild();
+		} else {
+			script_898(widget0);
+		}
+	}
+	return;
+}

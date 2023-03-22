@@ -1,0 +1,23 @@
+void script_120(Widget widget0, string string1, string string2, string arg3, int arg4) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 4, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setText(string1);
+	CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg4), arg3, 25, 512));
+	CHILD.hookMouseExit(&script_40(widget(arg4)));
+	CHILD.createChild(widget0, 4, 1);
+	CHILD.setSize(20, 17, 1, 0);
+	CHILD.setPosition(0, 0, 2, 2);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setText(string2);
+	CHILD.createChild(widget0, 5, 2);
+	CHILD.setSize(17, 17, 0, 0);
+	CHILD.setPosition(0, 0, 0, 2);
+	return;
+}

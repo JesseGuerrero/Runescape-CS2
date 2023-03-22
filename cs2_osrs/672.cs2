@@ -1,0 +1,31 @@
+void script_672(Widget widget0, Widget arg1, int arg2, int arg3, int arg4, int arg5) {
+	int int6;
+	Item item7;
+	Item item8;
+	int6 = getItemContainerLength(93);
+	if (arg2 < 0 || arg2 >= int6) {
+		return;
+	}
+	if (arg1 != widget0) {
+		if (CHILD.setChild(widget0, arg2) == true) {
+			CHILD.setTrans(arg4);
+			CHILD.hookFrame(&script_488(CTX_WIDGET, CTX_WIDGET_CHILD, arg5, getClientCycle() + 30));
+		}
+		return;
+	}
+	if (arg2 == arg3 || arg3 < 0 || arg3 >= int6) {
+		return;
+	}
+	item7 = getItemIdInSlot(93, arg2);
+	if (item7 == null) {
+		return;
+	}
+	item8 = getItemIdInSlot(93, arg3);
+	if (CHILD.setChild(widget0, arg3) == true) {
+		script_671(item7, getItemAmtInSlot(93, arg2));
+	}
+	if (CHILD.setChild(widget0, arg2) == true) {
+		script_671(item8, getItemAmtInSlot(93, arg3));
+	}
+	return;
+}

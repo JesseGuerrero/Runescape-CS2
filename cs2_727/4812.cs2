@@ -1,0 +1,11 @@
+//script4812(4812)(int arg0, int arg1, int arg2, string arg3)(void)
+if(script_4761(arg2) == 0)
+	return
+if(load_varc(2) != 1) {
+	arg0 = arg0 + "<br>" + "Requires tier " + to_string(arg1) + " resources."
+	if_setgraphic(if_gethash(1258, 496), arg0)
+	if_settext(if_gethash(1258, 497), arg0)
+	if_sethide(if_gethash(1258, 485), 0)
+	store_varc(2, 1)
+}
+return

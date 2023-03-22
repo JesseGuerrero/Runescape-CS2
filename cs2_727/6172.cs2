@@ -1,0 +1,89 @@
+//script6172(6172)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+iVar2 = enum(5838, arg0, 'i', 'J')
+if(iVar2 == -1)
+	return arg1
+iVar3 = struct_param(2390, iVar2)
+iVar4 = struct_param(2391, iVar2)
+sVar0 = struct_param(2392, iVar2)
+iVar5 = 10735
+if(cc_find(arg0, if_gethash(1273, 14)) == 1) {
+	cc_setgraphic(10734)
+	cc_setsize(0, 0, 78, 84)
+	cc_setposition(0, 0, iVar4, iVar3)
+	cc_setnoclickthrough(1)
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar5)
+	instr6092(script_6170, "Ii", -2147483645, -2147483643)
+	cc_setonmouseover(script_568, "IiIsii", if_gethash(1273, 14), arg0, if_gethash(1273, 18), sVar0, 5, 300)
+	cc_setop("Buy 1", 1)
+	cc_setop("Buy 2", 2)
+	cc_setop("Buy 5", 3)
+	cc_setop("Buy 10", 4)
+	instr6687(script_6171, "iI", arg0, -2147483645)
+	if(struct_param(2378, iVar2) == 0) {
+		cc_setopbase(struct_param(2376, iVar2))
+		cc_create(arg1, 4, 83427342)
+		cc_setsize(0, 0, 14, 84)
+		cc_setposition(0, 0, iVar4 - 30, iVar3)
+		cc_settext(struct_param(2376, iVar2))
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(495)
+		cc_settextshadow(0)
+		cc_setcolor(ffffff)
+		arg1 = arg1 + 1
+		cc_setopbase(struct_param(2376, iVar2))
+	} else  {
+		cc_setopbase(struct_param(2376, iVar2) + " " + struct_param(2377, iVar2))
+		cc_create(arg1, 4, 83427342)
+		cc_setsize(0, 0, 14, 84)
+		cc_setposition(0, 0, iVar4 - 37, iVar3)
+		if(world_language() == 3 || world_language() == 2)
+			cc_settext(struct_param(2377, iVar2))
+		else
+			cc_settext(struct_param(2376, iVar2))
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(495)
+		cc_settextshadow(0)
+		cc_setcolor(ffffff)
+		arg1 = arg1 + 1
+		cc_create(arg1, 4, 83427342)
+		cc_setsize(0, 0, 14, 84)
+		cc_setposition(0, 0, iVar4 - 23, iVar3)
+		if(world_language() == 3 || world_language() == 2)
+			cc_settext(struct_param(2376, iVar2))
+		else
+			cc_settext(struct_param(2377, iVar2))
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(495)
+		cc_settextshadow(0)
+		cc_setcolor(ffffff)
+		arg1 = arg1 + 1
+		cc_setopbase(append(struct_param(2377, iVar2), append(" ", struct_param(2376, iVar2))))
+	}
+	cc_create(arg1, 4, 83427342)
+	cc_setsize(0, 0, 14, 84)
+	cc_setposition(0, 0, iVar4 + 82, iVar3)
+	cc_settext(struct_param(2380, iVar2) + " Points")
+	cc_settextalign(0, 1, 1)
+	cc_settextfont(496)
+	cc_settextshadow(0)
+	cc_setcolor(fa8119)
+	arg1 = arg1 + 1
+	cc_create(arg1, 6, 83427342)
+	cc_setsize(0, 0, 20, 20)
+	cc_setmodel(struct_param(2383, iVar2))
+	cc_setmodelangle(struct_param(2384, iVar2), struct_param(2387, iVar2), struct_param(2386, iVar2), struct_param(2385, iVar2), struct_param(2389, iVar2), struct_param(2388, iVar2))
+	if(arg0 < 4)
+		cc_setretex(2055, 2040, 1)
+	iVar3 = (iVar3 + struct_param(2388, iVar2)) + ((84 - cc_getwidth()) / 2)
+	iVar4 = (iVar4 + struct_param(2389, iVar2)) + ((70 - cc_getheight()) / 2)
+	cc_setposition(0, 0, iVar4, iVar3)
+	cc_setnoclickthrough(0)
+	arg1 = arg1 + 1
+}
+return arg1
+return 0

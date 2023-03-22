@@ -1,0 +1,11 @@
+//script2169(2169)()(void)
+int iVar0
+if(world_members() == 1)
+	store_varc(693, load_varpbit(4536))
+else
+	store_varc(693, 0)
+store_varc(694, load_varpbit(4538))
+store_varc(692, load_varpbit(4537))
+script_2162(1, load_varc(693), load_varc(694), load_varc(692), load_varc(1103))
+iVar0 = 0
+return

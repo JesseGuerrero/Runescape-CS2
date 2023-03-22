@@ -1,0 +1,16 @@
+//script2769(2769)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+if(cc_find(0, arg1) == 1) {
+	iVar2 = arg0 - client_clock()
+	if(iVar2 <= 0) {
+		instr6556(None, "")
+		cc_delete()
+		return
+	}
+	iVar3 = 255 - cc_gettransparency()
+	cc_settrans(min(254, cc_gettransparency() + (iVar3 / iVar2)))
+}
+return

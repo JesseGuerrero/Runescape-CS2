@@ -1,0 +1,9 @@
+//script642(642)(int arg0)(void)
+int iVar1
+if_setgraphic(arg0, 1168)
+iVar1 = 0
+while(iVar1 < 6) {
+	script_41(script_626(iVar1))
+	iVar1 = iVar1 + 1
+}
+return

@@ -1,0 +1,125 @@
+//script1787(1787)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16)(void)
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+string sVar0
+sVar0 = ""
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+if(load_varc(271) == 1)
+	if_settext(arg3, fc_getchatdisplayname() + ":")
+else
+	if_settext(arg3, "This clan:")
+if_settext(arg5, to_string(load_varc(261)))
+if_settext(arg11, to_string(load_varc(262)))
+if(load_varpbit(5280) > 0) {
+	if(load_varc(263) < 65535)
+		if_settext(arg7, script_46(load_varc(263), ","))
+	else
+		if_settext(arg7, "<col=ff0000>" + "You rock!" + "</col>")
+	if(load_varc(264) < 65535)
+		if_settext(arg13, script_46(load_varc(264), ","))
+	else
+		if_settext(arg13, "<col=ff0000>" + "They rock!" + "</col>")
+	if_sethide(arg6, 0)
+	if_sethide(arg12, 0)
+	if_sethide(arg7, 0)
+	if_sethide(arg13, 0)
+	iVar17 = 1
+	if(load_varpbit(5280) < 15) {
+		sVar0 = "/ " + script_46(enum(1605, load_varpbit(5280), 'i', 'i'), ",")
+		if_settext(arg8, sVar0)
+		if_settext(arg14, sVar0)
+		if_sethide(arg8, 0)
+		if_sethide(arg14, 0)
+		iVar18 = 1
+	} else  {
+		if_sethide(arg8, 1)
+		if_sethide(arg14, 1)
+	}
+} else  {
+	if_sethide(arg6, 1)
+	if_sethide(arg12, 1)
+	if_sethide(arg7, 1)
+	if_sethide(arg13, 1)
+	if_sethide(arg8, 1)
+	if_sethide(arg14, 1)
+}
+if(load_varc(260) == 1) {
+	instr6342(arg16, None, "")
+	if(load_varpbit(5281) > 0) {
+		if_settext(arg15, "Time remaining:")
+		if(load_varc(270) > 60)
+			script_1791(arg16)
+		else
+			if(load_varc(270) > 1)
+				if_settext(arg16, to_string(load_varc(270)) + " minutes")
+			else
+				if(load_varc(270) == 1)
+					if_settext(arg16, "<col=ff0000>" + "1 minute" + "</col>")
+				else
+					if_settext(arg16, "<col=ff0000>" + "Not much!" + "</col>")
+		if_sethide(arg15, 0)
+		if_sethide(arg16, 0)
+		iVar19 = 1
+	} else  {
+		if_sethide(arg15, 1)
+		if_sethide(arg16, 1)
+	}
+} else  {
+	if_settext(arg15, "Countdown to battle:")
+	if(load_varc(265) != load_varc(270)) {
+		store_varc(265, load_varc(270))
+		script_1790(arg16)
+		instr6342(arg16, script_1789, "Iii", arg16, client_clock(), load_varc(270))
+	}
+	if_sethide(arg15, 0)
+	if_sethide(arg16, 0)
+	iVar19 = 1
+}
+iVar20 = parawidth(if_gettext(arg3), 494, 512)
+iVar21 = parawidth(if_gettext(arg9), 494, 512)
+iVar20 = max(iVar20, (parawidth(if_gettext(arg4), 494, 512) + 10) + parawidth(if_gettext(arg5), 494, 512))
+iVar21 = max(iVar21, (parawidth(if_gettext(arg10), 494, 512) + 10) + parawidth(if_gettext(arg11), 494, 512))
+iVar22 = if_getheight(arg3) + if_getheight(arg4)
+if(iVar17 == 1) {
+	iVar20 = max(iVar20, (parawidth(if_gettext(arg6), 494, 512) + 10) + parawidth(if_gettext(arg7), 494, 512))
+	iVar21 = max(iVar21, (parawidth(if_gettext(arg12), 494, 512) + 10) + parawidth(if_gettext(arg13), 494, 512))
+	iVar22 = iVar22 + if_getheight(arg6)
+	if(iVar18 == 1) {
+		iVar20 = max(iVar20, parawidth(if_gettext(arg8), 494, 512))
+		iVar21 = max(iVar21, parawidth(if_gettext(arg14), 494, 512))
+		iVar22 = iVar22 + if_getheight(arg8)
+	}
+}
+iVar23 = (iVar20 + 10) + iVar21
+if(iVar19 == 0) {
+	if_setsize(arg0, 0, 0, iVar22 + 8, iVar23 + 8)
+	if_setsize(arg1, 0, 0, if_getheight(arg0), if_getwidth(arg0))
+	script_1788(iVar20, arg3, arg4, arg5, arg6, arg7, arg8, iVar21, arg9, arg10, arg11, arg12, arg13, arg14, iVar23)
+	if_setposition(arg2, 0, 0, 4, (4 + iVar20) + 5)
+	if_setsize(arg2, 0, 0, iVar22, 0)
+	script_1086(arg0, 0, 0, 0)
+	return
+}
+iVar24 = iVar22
+iVar22 = ((iVar22 + 10) + if_getheight(arg15)) + if_getheight(arg16)
+iVar23 = max(iVar23, parawidth(if_gettext(arg15), 494, 512))
+iVar23 = max(iVar23, parawidth(if_gettext(arg16), 494, 512))
+if_setsize(arg0, 0, 0, iVar22 + 8, iVar23 + 8)
+if_setsize(arg1, 0, 0, if_getheight(arg0), if_getwidth(arg0))
+script_1788(iVar20, arg3, arg4, arg5, arg6, arg7, arg8, iVar21, arg9, arg10, arg11, arg12, arg13, arg14, iVar23)
+if_setposition(arg2, 0, 0, 4, (4 + iVar20) + ((iVar23 - (iVar20 + iVar21)) / 2))
+if_setsize(arg2, 0, 0, iVar24, 0)
+if_setsize(arg15, 0, 0, if_getheight(arg15), iVar23)
+if_setsize(arg16, 0, 0, if_getheight(arg16), iVar23)
+if_setposition(arg15, 0, 0, (4 + iVar24) + 10, 4)
+if_setposition(arg16, 0, 0, ((4 + iVar24) + 10) + if_getheight(arg15), 4)
+script_1086(arg0, (4 + iVar24) + 5, 0, 0)
+return

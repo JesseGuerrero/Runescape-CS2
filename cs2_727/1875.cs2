@@ -1,0 +1,26 @@
+//script1875(1875)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+iVar2 = 59375781
+if_setposition(arg1, 0, 0, if_gety(arg1), script_1551(load_varc(1097), 494, if_getx(iVar2) - 15, arg0))
+iVar3 = if_getwidth(iVar2) - 0
+iVar4 = string_length(arg0)
+sVar0 = ""
+if(load_varc(1097) > 0)
+	sVar0 = substring(arg0, min(iVar4, load_varc(1097)), 0)
+iVar5 = stringwidth(494, sVar0) - iVar3
+if_setposition(arg0, 1, 0, 0, 0)
+if_setsize(arg0, 0, 0, if_getheight(arg0), max(iVar3, stringwidth(494, arg0)))
+if(iVar5 > 0) {
+	if_setposition(arg0, 0, 0, if_gety(arg0), if_getx(arg0) - iVar5)
+	if_setposition(arg1, 0, 0, if_gety(arg1), min(iVar3 - 1, if_getx(arg1) - iVar5))
+}
+if(applet_hasfocus() == 1)
+	if_sethide(arg1, 0)
+else
+	if_sethide(arg1, 1)
+instr6342(arg0, script_1876, "iI", client_clock(), arg1)
+return

@@ -1,0 +1,73 @@
+void script_861(Item item0, Item item1, Item item2, int arg3) {
+	string str0;
+	widget(127, 1).clearChildren();
+	widget(127, 12).clearChildren();
+	_ = script_835(widget(127, 12), 0);
+	CHILD.createChild(widget(127, 1), 3, 0);
+	CHILD.setHidden(true);
+	widget(127, 13).setRGB(0xA6A692);
+	widget(127, 12).hookFrame(null);
+	if (item0 != null) {
+		widget(127, 13).setText("Remove this key");
+		widget(127, 12).hookMouseHover(&script_45(widget(127, 13), 16777215));
+		widget(127, 12).hookMouseExit(&script_45(widget(127, 13), 10921618));
+		widget(127, 12).setContextMenuOption(1, "Remove");
+		widget(127, 12).setOptionBase("<col=ff9040>" + getItemName(item0) + "</col>");
+		widget(127, 12).hookOptionClick(&script_862(CTX_MENU_OPTION, CTX_WIDGET, CHILD.getLayer(), getChildId()));
+	} else {
+		widget(127, 13).setText("---");
+		widget(127, 12).hookMouseHover(null);
+		widget(127, 12).hookMouseExit(null);
+		widget(127, 12).setNoOptions();
+		widget(127, 12).hookOptionClick(null);
+	}
+	str0 = "";
+	CHILD.createChild(widget(127, 1), 3, 1);
+	CHILD.setHidden(true);
+	widget(127, 18).setModel(5626);
+	widget(127, 19).setIsHidden(true);
+	widget(127, 18).hookFrame(null);
+	if (item1 != null) {
+		widget(127, 18).hookMouseHover(&script_69(false, widget(127, 19)));
+		widget(127, 18).hookMouseExit(&script_69(true, widget(127, 19)));
+		widget(127, 18).setContextMenuOption(1, "Previous:");
+		widget(127, 18).setOptionBase("<col=ff9040>" + getItemName(item1) + "</col>");
+		widget(127, 18).hookOptionClick(&script_864(CTX_MENU_OPTION, CTX_WIDGET, 5626, 5627, widget(127, 19), CHILD.getLayer(), getChildId()));
+		widget(127, 18).hookMousePress(null);
+	} else {
+		widget(127, 18).hookMouseHover(null);
+		widget(127, 18).hookMouseExit(null);
+		widget(127, 18).setNoOptions();
+		if (item2 != null) {
+			str0 = "This is the first key on your key ring.";
+		} else {
+			str0 = "There are no more keys on your key ring.";
+		}
+		widget(127, 18).hookMousePress(&script_860(str0));
+	}
+	CHILD.createChild(widget(127, 1), 3, 2);
+	CHILD.setHidden(true);
+	widget(127, 15).setModel(5625);
+	widget(127, 16).setIsHidden(true);
+	widget(127, 15).hookFrame(null);
+	if (item2 != null) {
+		widget(127, 15).hookMouseHover(&script_69(false, widget(127, 16)));
+		widget(127, 15).hookMouseExit(&script_69(true, widget(127, 16)));
+		widget(127, 15).setContextMenuOption(1, "Next:");
+		widget(127, 15).setOptionBase("<col=ff9040>" + getItemName(item2) + "</col>");
+		widget(127, 15).hookOptionClick(&script_864(CTX_MENU_OPTION, CTX_WIDGET, 5625, 5629, widget(127, 16), CHILD.getLayer(), getChildId()));
+		widget(127, 15).hookMousePress(null);
+	} else {
+		widget(127, 15).hookMouseHover(null);
+		widget(127, 15).hookMouseExit(null);
+		widget(127, 15).setNoOptions();
+		if (item1 != null) {
+			str0 = "This is the last key on your key ring.";
+		} else {
+			str0 = "There are no more keys on your key ring.";
+		}
+		widget(127, 15).hookMousePress(&script_860(str0));
+	}
+	widget(127, 14).setText("Key total: " + arg3);
+	return;
+}

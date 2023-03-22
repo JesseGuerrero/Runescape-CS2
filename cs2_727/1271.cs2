@@ -1,0 +1,115 @@
+//script1271(1271)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar1 = 1
+iVar2 = 0
+switch(load_varpbit(1010)) {
+	case default:
+		break
+	case 0:
+		if_settext(if_gethash(13, 28), "First click the FIRST digit.")
+		if_settext(if_gethash(13, 1), "?")
+		if_settext(if_gethash(13, 2), "?")
+		if_settext(if_gethash(13, 3), "?")
+		if_settext(if_gethash(13, 4), "?")
+		break
+	case 1:
+		if_settext(if_gethash(13, 28), "Now click the SECOND digit.")
+		if_settext(if_gethash(13, 1), "*")
+		if_settext(if_gethash(13, 2), "?")
+		if_settext(if_gethash(13, 3), "?")
+		if_settext(if_gethash(13, 4), "?")
+		break
+	case 2:
+		if_settext(if_gethash(13, 28), "Time for the THIRD digit.")
+		if_settext(if_gethash(13, 1), "*")
+		if_settext(if_gethash(13, 2), "*")
+		if_settext(if_gethash(13, 3), "?")
+		if_settext(if_gethash(13, 4), "?")
+		break
+	case 3:
+		if_settext(if_gethash(13, 28), "Finally, the FOURTH digit.")
+		if_settext(if_gethash(13, 1), "*")
+		if_settext(if_gethash(13, 2), "*")
+		if_settext(if_gethash(13, 3), "*")
+		if_settext(if_gethash(13, 4), "?")
+		iVar1 = 0
+		if_settext(if_gethash(13, 28), "Please wait...")
+		if_settext(if_gethash(13, 1), "*")
+		if_settext(if_gethash(13, 2), "*")
+		if_settext(if_gethash(13, 3), "*")
+		if_settext(if_gethash(13, 4), "*")
+		iVar1 = 1
+		break
+
+}
+iVar3 = 0
+if(arg0 == 0) {
+	while(iVar3 < 10) {
+		if_sethide(enum(3555, iVar3, 'i', 'I'), iVar1)
+		if_sethide(enum(3554, iVar3, 'i', 'I'), iVar2)
+		iVar3 = iVar3 + 1
+	}
+	return
+}
+iVar4 = random(10)
+globalArrays[0] = [10, 105]
+globalArrays[0][0] = iVar4
+globalArrays[0][1] = modulo(10, iVar4 + 1)
+globalArrays[0][2] = modulo(10, iVar4 + 2)
+globalArrays[0][3] = modulo(10, iVar4 + 3)
+globalArrays[0][4] = modulo(10, iVar4 + 4)
+globalArrays[0][5] = modulo(10, iVar4 + 5)
+globalArrays[0][6] = modulo(10, iVar4 + 6)
+globalArrays[0][7] = modulo(10, iVar4 + 7)
+globalArrays[0][8] = modulo(10, iVar4 + 8)
+globalArrays[0][9] = modulo(10, iVar4 + 9)
+iVar5 = 0
+while(iVar3 < 10) {
+	iVar5 = random(9)
+	iVar4 = globalArrays[0][9]
+	globalArrays[0][9] = globalArrays[0][iVar5]
+	globalArrays[0][iVar5] = iVar4
+	if_setposition(enum(3557, iVar3, 'i', 'I'), 1, 1, 20 - random_inclusive(40), 25 - random_inclusive(50))
+	if_sethide(enum(3555, iVar3, 'i', 'I'), iVar1)
+	if_sethide(enum(3554, iVar3, 'i', 'I'), iVar2)
+	iVar3 = iVar3 + 1
+}
+iVar6 = if_getwidth(if_gethash(13, 6))
+iVar7 = if_getheight(if_gethash(13, 6))
+iVar8 = (if_getwidth(if_gethash(13, 5)) - iVar6) / 3
+iVar9 = (if_getheight(if_gethash(13, 5)) - iVar7) / 2
+iVar10 = iVar8 * 2
+iVar11 = iVar9 * 2
+iVar12 = iVar8 * 3
+if_setposition(enum(3556, globalArrays[0][0], 'i', 'I'), 0, 0, 0, 0)
+if_setposition(enum(3555, globalArrays[0][0], 'i', 'I'), 0, 0, 0, 0)
+if_setposition(enum(3556, globalArrays[0][1], 'i', 'I'), 0, 0, 0, iVar8)
+if_setposition(enum(3555, globalArrays[0][1], 'i', 'I'), 0, 0, 0, iVar8)
+if_setposition(enum(3556, globalArrays[0][2], 'i', 'I'), 0, 0, 0, iVar10)
+if_setposition(enum(3555, globalArrays[0][2], 'i', 'I'), 0, 0, 0, iVar10)
+if_setposition(enum(3556, globalArrays[0][3], 'i', 'I'), 0, 0, 0, iVar12)
+if_setposition(enum(3555, globalArrays[0][3], 'i', 'I'), 0, 0, 0, iVar12)
+if_setposition(enum(3556, globalArrays[0][4], 'i', 'I'), 0, 0, iVar9, 0)
+if_setposition(enum(3555, globalArrays[0][4], 'i', 'I'), 0, 0, iVar9, 0)
+if_setposition(enum(3556, globalArrays[0][5], 'i', 'I'), 0, 0, iVar9, iVar8)
+if_setposition(enum(3555, globalArrays[0][5], 'i', 'I'), 0, 0, iVar9, iVar8)
+if_setposition(enum(3556, globalArrays[0][6], 'i', 'I'), 0, 0, iVar9, iVar10)
+if_setposition(enum(3555, globalArrays[0][6], 'i', 'I'), 0, 0, iVar9, iVar10)
+if_setposition(enum(3556, globalArrays[0][7], 'i', 'I'), 0, 0, iVar11, 0)
+if_setposition(enum(3555, globalArrays[0][7], 'i', 'I'), 0, 0, iVar11, 0)
+if_setposition(enum(3556, globalArrays[0][8], 'i', 'I'), 0, 0, iVar11, iVar8)
+if_setposition(enum(3555, globalArrays[0][8], 'i', 'I'), 0, 0, iVar11, iVar8)
+if_setposition(enum(3556, globalArrays[0][9], 'i', 'I'), 0, 0, iVar11, iVar10)
+if_setposition(enum(3555, globalArrays[0][9], 'i', 'I'), 0, 0, iVar11, iVar10)
+return

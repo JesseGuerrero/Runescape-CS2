@@ -1,0 +1,26 @@
+void script_1023(int arg0, int arg1, Skill arg2, Widget widget3, Widget widget4, Widget widget5, Widget arg6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19, Widget widget20, Widget widget21, Widget widget22, Widget arg23, Widget arg24) {
+	int int25;
+	int int26;
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	int25 = 0;
+	int26 = 0;
+	if (arg1 == -1) {
+		VARPBIT[4703] = 0;
+	} else {
+		VARPBIT[4703] = arg1 + 1;
+		int25, int26 = script_1002(arg2);
+		if (int26 == -1) {
+			VARPBIT[4704] = 1;
+		} else if (int26 > int25) {
+			VARPBIT[4704] = 2;
+		} else {
+			VARPBIT[4704] = 0;
+		}
+		VARP[261], VARP[262] = int25, int26;
+	}
+	script_1026(widget3, widget4, widget5, arg6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19, widget20, widget21, widget22, arg23, arg24);
+	return;
+}

@@ -1,0 +1,32 @@
+//script2496(2496)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 1
+iVar1 = script_2497()
+iVar2 = -1
+iVar3 = -1
+while(iVar0 <= 9 || enum(2400, iVar0, 'i', 'I') != 2949145) {
+	if(iVar0 <= iVar1) {
+		iVar2 = enum(2400, iVar0, 'i', 'I')
+		iVar3 = enum(2402, iVar0, 'i', 'I')
+		hook_mouse_press(iVar2, script_2499, "I", -2147483645)
+		hook_mouse_press(iVar3, script_2499, "I", iVar2)
+		if_setcolor(iVar3, 0xE1981F)
+		instr6213(iVar2, 1, "Select")
+		instr6213(iVar3, 1, "Select")
+		if_settext(iVar3, enum(2403, iVar0, 'i', 's'))
+	} else  {
+		iVar2 = enum(2400, iVar0, 'i', 'I')
+		iVar3 = enum(2402, iVar0, 'i', 'I')
+		hook_mouse_press(iVar2, None, "")
+		hook_mouse_press(iVar3, None, "")
+		if_setcolor(iVar3, 0x996600)
+		instr6220(iVar2)
+		instr6220(iVar3)
+		if_settext(iVar3, enum(2403, iVar0, 'i', 's') + " - Locked")
+	}
+	iVar0 = iVar0 + 1
+}
+return

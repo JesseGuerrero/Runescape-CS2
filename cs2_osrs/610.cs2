@@ -1,0 +1,7 @@
+void script_610(Widget widget0, string string1, string string2) {
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	script_611(string1, string2, widget0, widget0.getWidth(), 0, 495, 495, 12, 5);
+	return;
+}

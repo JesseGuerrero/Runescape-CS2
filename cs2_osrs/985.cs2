@@ -1,0 +1,15 @@
+void script_985(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4, int arg5, Widget widget6, Widget widget7) {
+	Widget widget8;
+	VARPBIT[4690] = arg5;
+	script_982(widget1, widget2, widget3, arg4);
+	widget8 = widget0.getLayer();
+	widget1.setPosition(widget8.getX() + 40, widget8.getY() + 22, 0, 0);
+	if (widget1.getY() + widget1.getHeight() > widget2.getHeight()) {
+		widget1.setPosition(widget1.getX(), widget8.getY() + 6 - widget1.getHeight(), 0, 0);
+	}
+	widget7.setSprite(1181);
+	widget2.setIsHidden(false);
+	widget6.setIsHidden(false);
+	widget6.hookMousePress(&script_987(widget6, widget2, widget7));
+	return;
+}

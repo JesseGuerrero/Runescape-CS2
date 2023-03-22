@@ -1,0 +1,3 @@
+//script6188(6188)(int arg0)(int, int)
+return inv_getnum(arg0, 665), inv_getitem(arg0, 665)
+return 0, -1

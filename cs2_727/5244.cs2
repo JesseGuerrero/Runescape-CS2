@@ -1,0 +1,11 @@
+//script5244(5244)(int arg0)(void)
+if(arg0 == 1) {
+	if_setgraphic(if_gethash(1128, 331), 6370)
+	if_setgraphic(if_gethash(1128, 332), 6371)
+	if_setgraphic(if_gethash(1128, 333), 6372)
+} else  {
+	if_setgraphic(if_gethash(1128, 0), 6370)
+	if_setgraphic(if_gethash(1128, 1), 6371)
+	if_setgraphic(if_gethash(1128, 2), 6372)
+}
+return

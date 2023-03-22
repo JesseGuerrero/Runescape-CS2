@@ -1,0 +1,8 @@
+//script1272(1272)()(void)
+string sVar0
+sVar0 = "null"
+sVar0 = "House options"
+if_setonmouseover(if_gethash(261, 16), script_5332, "IIsii", -2147483645, if_gethash(261, 31), sVar0, 25, 180)
+store_varc(2, 0)
+script_5641(17104912, 0)
+return

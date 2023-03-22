@@ -1,0 +1,24 @@
+void script_565(Widget widget0, int arg1, int arg2, Model model3) {
+	int int4;
+	int int5;
+	if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, 1) == true) {
+		script_566(widget0, arg1, arg2, model3);
+		return;
+	}
+	int4 = widget0.getWidth();
+	int5 = widget0.getHeight();
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 3, 0);
+	CHILD.setSize(int4, int5, 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setTrans(255);
+	_CHILD.createChild(widget0, 6, 1);
+	_CHILD.setSize(int4, int5, 0, 0);
+	_CHILD.setPosition(0, 0, 0, 0);
+	_CHILD.set3DRotation(0, 150, 80, 0, 0, 1500);
+	_CHILD.setAnimation(2657);
+	script_566(widget0, arg1, arg2, model3);
+	return;
+}

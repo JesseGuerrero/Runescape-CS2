@@ -1,0 +1,17 @@
+//script6406(6406)()(void)
+if_settext(if_gethash(1308, 342), to_string(load_varpbit(4781)))
+if(load_varpbit(4781) == 0)
+	if_setcolor(85721430, 0xB52F10)
+if(load_varpbit(4781) < 400) {
+	script_6414(85721102, 0)
+	if(load_varpbit(4781) < 75) {
+		script_6414(85721158, 0)
+		if(load_varpbit(4781) < 35) {
+			script_6414(85721160, 0)
+			script_6414(85721162, 0)
+			script_6414(85721164, 0)
+		}
+	}
+}
+script_6403()
+return

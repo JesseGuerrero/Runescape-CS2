@@ -1,0 +1,6 @@
+//script4752(4752)()(void)
+if(if_gethide(if_gethash(1143, 26)) == 1)
+	if_sethide(if_gethash(1143, 26), 0)
+else
+	if_sethide(if_gethash(1143, 26), 1)
+return

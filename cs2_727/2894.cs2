@@ -1,0 +1,4 @@
+//script2894(2894)(int arg0)(void)
+if(load_varpbit(7093) >= 0)
+	if_settext(arg0, to_string(load_varpbit(7093)))
+return

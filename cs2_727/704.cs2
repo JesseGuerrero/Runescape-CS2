@@ -1,0 +1,35 @@
+//script704(704)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return load_varc(203)
+
+	case 2:
+		return load_varc(204)
+
+	case 3:
+		return load_varc(205)
+
+	case 4:
+		return load_varc(206)
+
+	case 5:
+		return load_varc(207)
+
+	case 6:
+		return load_varc(208)
+
+	case 7:
+		return load_varc(209)
+
+	case 8:
+		return load_varc(210)
+
+	case 9:
+		return load_varc(211)
+
+
+}
+return 0
+return 0

@@ -1,0 +1,56 @@
+//script6306(6306)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+if_sethide(if_gethash(1301, 0), 0)
+if_sethide(if_gethash(1301, 1), 0)
+if_sethide(if_gethash(1301, 2), 0)
+if_sethide(if_gethash(1301, 5), 0)
+if_sethide(if_gethash(1301, 3), 0)
+if(instr6644() == 1)
+	if_setposition(if_gethash(1301, 6), 0, 1, 0, -35)
+else
+	if_setposition(if_gethash(1301, 6), 0, 1, 0, 0)
+if_settrans(if_gethash(1301, 0), 0)
+if_settrans(if_gethash(1301, 1), 0)
+if_settrans(if_gethash(1301, 2), 0)
+if_settrans(if_gethash(1301, 5), 0)
+if_sethide(if_gethash(1301, 8), 1)
+if_sethide(if_gethash(1301, 9), 1)
+if_sethide(if_gethash(1301, 7), 1)
+switch(world_language()) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1301, 0), 11410)
+		if_setgraphic(if_gethash(1301, 1), 11411)
+		if_setgraphic(if_gethash(1301, 2), 11412)
+		if_setgraphic(if_gethash(1301, 5), 11413)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1301, 0), 11414)
+		if_setgraphic(if_gethash(1301, 1), 11415)
+		if_setgraphic(if_gethash(1301, 2), 11416)
+		if_setgraphic(if_gethash(1301, 5), 11417)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1301, 0), 11418)
+		if_setgraphic(if_gethash(1301, 1), 11419)
+		if_setgraphic(if_gethash(1301, 2), 11420)
+		if_setgraphic(if_gethash(1301, 5), 11421)
+		break
+
+}
+if_sethide(if_gethash(1301, 8), 0)
+if_setmodel(if_gethash(1301, 7), 32143)
+iVar0 = 8
+instr6342(if_gethash(1301, 6), script_6308, "iii", client_clock() + 100, client_clock() + 200, client_clock() + 500)
+if_sethide(if_gethash(1301, 4), 0)
+iVar1 = random(150)
+iVar2 = random(50)
+instr6342(if_gethash(1301, 0), script_6307, "ii", iVar0, client_clock() + 25)
+instr6342(if_gethash(1301, 1), script_6307, "ii", iVar0, client_clock() + 25)
+instr6342(if_gethash(1301, 2), script_6307, "ii", iVar0, client_clock() + 25)
+instr6342(if_gethash(1301, 5), script_6307, "ii", iVar0, client_clock() + 25)
+return

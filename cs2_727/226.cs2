@@ -1,0 +1,7 @@
+//script226(226)()(void)
+script_231()
+script_232()
+if_sethide(if_gethash(594, 149), 0)
+if_sethide(if_gethash(594, 210), 0)
+if_sethide(if_gethash(594, 212), 1)
+return

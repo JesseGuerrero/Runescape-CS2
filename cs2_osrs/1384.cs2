@@ -1,0 +1,6 @@
+void script_1384(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5) {
+	int int6;
+	int6 = (VARPBIT[5330] - 1) % arg2;
+	widget0.setPosition(int6 % arg1 * arg3 - arg4, int6 / arg1 * arg3 - arg5, 0, 2);
+	return;
+}

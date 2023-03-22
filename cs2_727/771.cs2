@@ -1,0 +1,17 @@
+//script771(771)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 6287:
+		return inv_total(6287, 93) + inv_total(7801, 93)
+
+	case 6979:
+		return (inv_total(6979, 93) + inv_total(6981, 93)) + inv_total(6983, 93)
+
+	case 2462:
+		return (((((inv_total(2462, 93) + inv_total(2460, 93)) + inv_total(2464, 93)) + inv_total(2466, 93)) + inv_total(2468, 93)) + inv_total(2470, 93)) + inv_total(2472, 93)
+		return script_1(93, arg0)
+
+
+}
+return 0

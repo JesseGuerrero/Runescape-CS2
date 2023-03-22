@@ -1,0 +1,14 @@
+//script820(820)()(void)
+if(load_varpbit(4286) != 101) {
+	if_settext(if_gethash(663, 19), to_string(load_varpbit(4286)) + "%")
+	if(load_varpbit(4286) > 74)
+		if_setcolor(43450387, 0xFF0000)
+	else
+		if_setcolor(43450387, 0xFFFFFF)
+} else 
+	if_settext(if_gethash(663, 19), "NA")
+if(load_varpbit(4285) != 101)
+	if_settext(if_gethash(663, 17), to_string(load_varpbit(4285)) + "%")
+else
+	if_settext(if_gethash(663, 17), "NA")
+return

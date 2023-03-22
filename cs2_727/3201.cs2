@@ -1,0 +1,20 @@
+//script3201(3201)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 85:
+		if(if_gethide(if_gethash(915, 102)) == 1)
+			script_3192()
+		break
+	case 1:
+		script_3196(1, 59965552, 59965553, 59965550, 59965542, 59965458)
+		break
+	case 13:
+		if(if_gethide(if_gethash(915, 102)) == 0)
+			script_3198(59965552, 59965553, 59965550, 59965542, 59965458)
+		else
+			script_3194()
+		break
+
+}
+return

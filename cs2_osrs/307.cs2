@@ -1,0 +1,5 @@
+void script_307(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	playSoundEffect(2266, 1, 0);
+	script_308(widget0, widget1, widget2, widget3, widget4);
+	return;
+}

@@ -1,0 +1,28 @@
+//script1440(1440)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 40173583:
+		instr6879(if_gethash(613, 15), 1, load_varp(1068))
+		break
+	case 40173584:
+		instr6879(if_gethash(613, 16), 1, load_varp(1069))
+		break
+	case 40173585:
+		instr6879(if_gethash(613, 17), 1, load_varp(1070))
+		break
+	case 40173577:
+		instr6879(if_gethash(613, 9), 1, load_varp(1065))
+		break
+	case 40173578:
+		instr6879(if_gethash(613, 10), 1, load_varp(1066))
+		break
+	case 40173579:
+		instr6879(if_gethash(613, 11), 1, load_varp(1067))
+		break
+	case 40173580:
+		instr6879(if_gethash(613, 12), 1, load_varp(856))
+		break
+
+}
+return

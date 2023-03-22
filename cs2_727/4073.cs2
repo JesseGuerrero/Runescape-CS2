@@ -1,0 +1,9 @@
+//script4073(4073)()(void)
+if(load_varpbit(8669) == 0) {
+	store_varc(1432, 0)
+	script_4057(69337090)
+} else  {
+	store_varc(1432, 0)
+	script_4055(69337091)
+}
+return

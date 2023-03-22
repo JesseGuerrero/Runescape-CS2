@@ -1,0 +1,7 @@
+//script6212(6212)()(void)
+if(load_varc(1411) == 1)
+	store_varc(1411, 0)
+else
+	store_varc(1411, 1)
+script_6211(59375988, 59375989, load_varc(1411), 1)
+return

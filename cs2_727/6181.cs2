@@ -1,0 +1,28 @@
+//script6181(6181)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = -1
+iVar1 = 0
+iVar2 = -1
+while(iVar1 < enum_getoutputcount(5840)) {
+	iVar2 = enum(5840, iVar1, 'i', 'I')
+	if(iVar2 != -1) {
+		cc_create(0, 3, iVar2)
+		cc_setposition(0, 0, 2, 2)
+		cc_setsize(1, 1, 2, 2)
+		iVar0 = enum(5839, iVar2, 'I', 'J')
+		if(iVar0 != -1) {
+			cc_setcolor(0)
+			iVar0 = -1
+		}
+		cc_setfill(1)
+		cc_create(1, 5, iVar2)
+		cc_setposition(0, 0, 0, 0)
+		cc_setsize(0, 0, 20, 20)
+		cc_setgraphic(2288)
+		iVar2 = -1
+	}
+	iVar1 = iVar1 + 1
+}
+return

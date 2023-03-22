@@ -1,0 +1,7 @@
+//script1141(1141)()(void)
+if(script_1431() == 1)
+	if(instr6644() < 2)
+		instr6342(if_gethash(548, 30), script_1175, "")
+	else
+		instr6342(if_gethash(746, 18), script_1175, "")
+return

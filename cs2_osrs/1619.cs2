@@ -1,0 +1,7 @@
+void script_1619(Widget widget0, int arg1) {
+	if (getClientCycle() < arg1) {
+		return;
+	}
+	script_1617(widget0);
+	return;
+}

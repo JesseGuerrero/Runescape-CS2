@@ -1,0 +1,31 @@
+void script_54(Widget widget0) {
+	int int1;
+	int int2;
+	widget0.clearChildren();
+	int1 = widget0.getWidth();
+	int2 = widget0.getHeight();
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setPosition(10, 0, 0, 0);
+	CHILD.setSize(int1 - 20, int2, 0, 0);
+	CHILD.setSprite(1048);
+	CHILD.setSpriteTiling(true);
+	CHILD.createChild(widget0, 5, 1);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(36, int2, 0, 0);
+	CHILD.setSprite(174);
+	CHILD.createChild(widget0, 5, 2);
+	CHILD.setPosition(int1 - 36, 0, 0, 0);
+	CHILD.setSize(36, int2, 0, 0);
+	CHILD.setSprite(176);
+	CHILD.createChild(widget0, 4, 3);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(int1, int2, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(getOption(1, widget0));
+	widget0.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+	return;
+}

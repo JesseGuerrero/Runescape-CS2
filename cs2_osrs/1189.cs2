@@ -1,0 +1,15 @@
+void script_1189(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Enable a head-up display that shows your house favour while you're in Kourend. It is automatically hidden while other head-up displays are active.";
+	if (VARPBIT[619] == 1) {
+		CHILD.setSprite(699);
+		widget0.setContextMenuOption(1, "Disable");
+		str0 = "Disable the head-up display that shows your house favour while you're in Kourend. It is automatically hidden while other head-up displays are active.";
+	} else {
+		CHILD.setSprite(698);
+		widget0.setContextMenuOption(1, "Enable");
+	}
+	_CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

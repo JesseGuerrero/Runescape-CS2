@@ -1,0 +1,24 @@
+//script1410(1410)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 255
+iVar2 = 0
+if(load_varc(814) < 256)
+	iVar1 = 255 - load_varc(814)
+else
+	if(load_varc(814) < 510)
+		iVar1 = modulo(255, load_varc(814))
+	else
+		iVar1 = 255
+if(load_varc(119) == 4)
+	iVar2 = 8
+else
+	if(load_varc(119) == 3)
+		iVar2 = 4
+	else
+		iVar1 = 255
+if_settrans(arg0, iVar1)
+store_varc(814, load_varc(814) + iVar2)
+if(load_varc(814) > 510)
+	store_varc(814, 0)
+return

@@ -1,0 +1,8 @@
+//script87(87)(int arg0)(void)
+instr6180(arg0, 1)
+if_settext(arg0, "Score: " + to_string(load_varpbit(2121)))
+if(load_varpbit(2121) == 0)
+	if_setcolor(arg0, 0xFF0000)
+else
+	if_setcolor(arg0, 0xFFFF00)
+return

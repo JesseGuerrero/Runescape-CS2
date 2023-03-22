@@ -1,0 +1,42 @@
+void script_778(int arg0, int arg1, Widget widget2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, Widget widget15, int arg16) {
+	int int17;
+	if (arg1 != 1 || VARP[1151] == -1) {
+		return;
+	}
+	int17 = 0;
+	if (arg0 == 1) {
+		if (VARPBIT[4398] < 2147483647) {
+			VARPBIT[4398] = VARPBIT[4398] + 1;
+		}
+		playSoundEffect(3929, 1, 0);
+	} else if (arg0 == -1) {
+		if (VARPBIT[4398] > 1) {
+			VARPBIT[4398] = VARPBIT[4398] - 1;
+		}
+		playSoundEffect(3930, 1, 0);
+	} else if (arg0 == 5) {
+		int17 = VARPBIT[4398] / 20;
+		if (int17 <= 0) {
+			int17 = 1;
+		}
+		if (2147483647 - int17 < VARPBIT[4398]) {
+			VARPBIT[4398] = 2147483647;
+		} else {
+			VARPBIT[4398] = VARPBIT[4398] + int17;
+		}
+		playSoundEffect(3929, 1, 0);
+	} else if (arg0 == -5) {
+		int17 = VARPBIT[4398] / 20;
+		if (int17 <= 0) {
+			int17 = 1;
+		}
+		if (int17 >= VARPBIT[4398]) {
+			VARPBIT[4398] = 1;
+		} else {
+			VARPBIT[4398] = VARPBIT[4398] - int17;
+		}
+		playSoundEffect(3930, 1, 0);
+	}
+	script_779(widget2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13, arg14, widget15, arg16);
+	return;
+}

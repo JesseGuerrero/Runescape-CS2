@@ -1,0 +1,14 @@
+//script4023(4023)(int arg0)(void)
+if(arg0 == 0) {
+	if_setgraphic(if_gethash(917, 43), 4324)
+	if_setgraphic(if_gethash(917, 45), 4324)
+	if_setgraphic(if_gethash(917, 44), 4325)
+	if_setgraphic(if_gethash(917, 47), 4309)
+} else  {
+	script_41(60096623)
+	if_setgraphic(if_gethash(917, 43), 4322)
+	if_setgraphic(if_gethash(917, 45), 4322)
+	if_setgraphic(if_gethash(917, 44), 4323)
+	if_setgraphic(if_gethash(917, 47), 4308)
+}
+return

@@ -1,0 +1,19 @@
+void script_1568(int arg0, Widget widget1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, string arg8) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (CHILD.setChild(widget1, arg2) == true) {
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTrans(200);
+	}
+	widget1.setNoOptions();
+	widget1.hookOptionClick(null);
+	widget1.hookMouseHover(null);
+	widget1.hookMouseExit(null);
+	widget1.hookFrame(&script_1569(widget1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, getClientCycle() + 80));
+	if (CHILD.setChild(widget(499, 13), arg7) == true) {
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

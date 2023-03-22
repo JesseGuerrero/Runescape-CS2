@@ -1,0 +1,48 @@
+//script2421(2421)()(void)
+if_setmodel(if_gethash(674, 13), 46997)
+if_setmodel(if_gethash(674, 15), 46976)
+if_setmodel(if_gethash(674, 14), 46974)
+if_setmodel(if_gethash(674, 16), 46995)
+if_setmodel(if_gethash(674, 17), 46986)
+if(load_varc(737) == 1) {
+	if_setmodel(if_gethash(674, 13), 46982)
+	sound_synth(0, 1, 6691)
+	if_sethide(if_gethash(674, 10), 1)
+} else 
+	if(load_varc(737) == 2) {
+		if_setmodel(if_gethash(674, 15), 46979)
+		sound_synth(0, 1, 6694)
+		if_setmodel(if_gethash(674, 6), 46964)
+	} else 
+		if(load_varc(737) == 3) {
+			if_setmodel(if_gethash(674, 14), 46989)
+			if_setmodel(if_gethash(674, 6), 46956)
+		} else 
+			if(load_varc(737) == 4) {
+				if_setmodel(if_gethash(674, 16), 46981)
+				sound_synth(0, 1, 6695)
+				if_setmodel(if_gethash(674, 6), 46965)
+			} else 
+				if(load_varc(737) == 5) {
+					if_setmodel(if_gethash(674, 17), 46996)
+					sound_synth(0, 1, 6690)
+					if_sethide(if_gethash(674, 5), 0)
+				} else 
+					if(load_varc(737) == 6)
+						if_setmodelanim(if_gethash(674, 9), 11761)
+					else
+						if(load_varc(737) == 7)
+							if_setmodelanim(if_gethash(674, 9), 11760)
+						else
+							if(load_varc(737) == 8)
+								if_setmodelanim(if_gethash(674, 9), 11759)
+							else
+								if(load_varc(737) == 9)
+									if_setmodelanim(if_gethash(674, 9), 11763)
+								else
+									if(load_varc(737) == 10)
+										if_setmodelanim(if_gethash(674, 9), 11764)
+									else
+										if(load_varc(737) == 11)
+											if_setmodelanim(if_gethash(674, 9), 11765)
+return

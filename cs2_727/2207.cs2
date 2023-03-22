@@ -1,0 +1,4 @@
+//script2207(2207)()(void)
+if(load_varc(1137) == 0)
+	instr6342(if_gethash(932, 1), script_2212, "")
+return

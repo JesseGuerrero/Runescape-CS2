@@ -1,0 +1,65 @@
+//script1456(1456)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 8
+iVar4 = 5
+iVar5 = 0
+iVar6 = inv_size(if_gethash(0, 95))
+script_1464()
+iVar1 = script_1467(iVar5).get(0)
+while(iVar5 <= 9) {
+	iVar0 = iVar1
+	if(iVar5 != 0) {
+		if_sethide(enum(1611, iVar5, 'i', 'I'), 0)
+		if_setposition(enum(1611, iVar5, 'i', 'I'), 0, 0, iVar4 - 2, iVar3 - 2)
+	}
+	while(iVar0 < iVar2) {
+		if(cc_find(iVar0, if_gethash(762, 95)) == 1)
+			if(inv_getnum(iVar0, 95) != 0) {
+				cc_setposition(0, 0, iVar4, iVar3)
+				cc_sethide(0)
+				iVar3 = iVar3 + 44
+				if(iVar3 >= 44 * 10) {
+					iVar3 = 8
+					iVar4 = iVar4 + 44
+				}
+			} else 
+				iVar0 = 1000
+		iVar0 = iVar0 + 1
+	}
+	if(iVar3 != 8) {
+		if_setposition(enum(1612, iVar5, 'i', 'I'), 0, 0, iVar4, iVar3)
+		if_setsize(enum(1612, iVar5, 'i', 'I'), 0, 0, 32, (44 * 10) - iVar3)
+		if_sethide(enum(1612, iVar5, 'i', 'I'), 0)
+		iVar4 = iVar4 + 44
+	}
+	if(iVar5 == 0)
+		iVar5 = 2
+	else
+		iVar5 = iVar5 + 1
+	iVar1 = script_1467(iVar5).get(0)
+	if(iVar1 == iVar2)
+		iVar5 = 100
+	if(enum(1610, iVar5, 'i', 'I') != -1) {
+		if_sethide(enum(1610, iVar5, 'i', 'I'), 0)
+		if_setposition(enum(1610, iVar5, 'i', 'I'), 0, 0, iVar4, 0)
+		iVar4 = iVar4 + 15
+		iVar3 = 0
+	}
+}
+if_setscrollsize(49938527, iVar4, if_getwidth(if_gethash(762, 95)))
+if_setscrollpos(if_gethash(762, 95), load_varc(203), 0)
+cc_deleteall(if_gethash(762, 116))
+if(iVar4 > if_getheight(if_gethash(762, 95))) {
+	script_31(49938548, 49938527, 792, 789, 790, 791, 773, 788)
+	script_157(49938548, 49938527, if_getscrolly(49938527), 1)
+}
+return

@@ -1,0 +1,6 @@
+void script_327(Widget widget0) {
+	script_187(widget0);
+	widget0.hookVARP(&script_186(widget0), 301, 300, 284);
+	widget0.hookContainer(&script_186(widget0), 94);
+	return;
+}

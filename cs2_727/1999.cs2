@@ -1,0 +1,56 @@
+//script1999(1999)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar9 = load_varp(2525)
+iVar10 = load_varp(2526)
+iVar11 = load_varp(2527)
+iVar12 = load_varp(2528)
+if(arg3 == 0)
+	if(iVar10 != 0 || iVar11 != 0 || iVar12 != 0 || load_varp(2525) != 0)
+		arg3 = 1
+if(arg3 == 1)
+	if(load_varc(1745) == 1) {
+		if(instr6867() == 0)
+		if(instr6867() == 1) {
+			script_1299(arg1, arg2)
+			instr6342(arg0, None, "")
+			detailset_soundvol(arg4)
+			detailset_musicvol(arg5)
+			detailset_bgsoundvol(arg6)
+			detailset_voiceovervolume(arg7)
+			instr6629(arg8)
+			store_varc(1745, 0)
+			return
+		}
+	} else  {
+		if(playermember() == 0)
+			if(iVar11 > 0)
+				if(iVar11 < iVar12) {
+					if(instr6838(5) == 1)
+					store_varc(1745, 1)
+					script_5874()
+					return
+				}
+		if(instr6797() <= iVar9 + 30) {
+			if(instr6838(1) == 1)
+			store_varc(1745, 1)
+			script_5874()
+		} else 
+			if(instr6797() <= iVar9 + 182) {
+				if(instr6838(2) == 1)
+				store_varc(1745, 1)
+				script_5874()
+			} else 
+				if(instr6797() <= iVar9 + 365) {
+					if(instr6838(3) == 1)
+					store_varc(1745, 1)
+					script_5874()
+				} else  {
+					if(instr6838(4) == 1)
+					store_varc(1745, 1)
+					script_5874()
+				}
+	}
+return

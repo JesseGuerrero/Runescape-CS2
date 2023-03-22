@@ -1,0 +1,11 @@
+void script_1656(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, int arg10) {
+	script_31(widget8, widget7, 792, 789, 790, 791, 773, 788);
+	if (VARC[185] != 1 && VARC[185] != 2 && VARC[185] != 3 && VARC[185] != 6 && VARC[185] != 7 && VARC[185] != 4 && VARC[185] != 5) {
+		VARC[185] = 0;
+	}
+	script_1658(widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, arg10);
+	widget0.hookClanList(&script_1657(widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget(arg10)));
+	widget0.hookFriendList(&script_1657(widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget(arg10)));
+	widget0.hookVARP(&script_1657(widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget(arg10)), 1431, 93);
+	return;
+}

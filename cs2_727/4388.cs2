@@ -1,0 +1,13 @@
+//script4388(4388)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = -1
+iVar3 = -1
+if(activeclansettings_find_affined() == 1) {
+	iVar2 = script_4384(load_varpbit(9086), load_varpbit(9087), 0).get(0)
+	if_setgraphic(arg0, iVar2)
+	if_setgraphic(arg1, iVar3)
+	if_setcolor(arg0, hsvtorgb(load_varp(2094)))
+	if_setcolor(arg1, hsvtorgb(load_varp(2095)))
+}
+return

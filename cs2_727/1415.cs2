@@ -1,0 +1,29 @@
+//script1415(1415)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+while(iVar0 <= inv_size(if_gethash(0, 93))) {
+	cc_create(iVar0, 5, 21168133)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, 40 * iVar2, 5 + (40 * iVar1))
+	if(inv_getitem(iVar0, 93) != -1) {
+		cc_setitem(inv_getnum(iVar0, 93), inv_getitem(iVar0, 93))
+		cc_setopbase("<col=ff9040>" + item_name(inv_getitem(iVar0, 93)))
+		cc_setop("<col=00ff00>" + "Value", 1)
+		cc_setop("Pack " + "<col=ff0000>" + "1", 2)
+		cc_setop("Pack " + "<col=ff0000>" + "5", 3)
+		cc_setop("Pack " + "<col=ff0000>" + "All", 4)
+		cc_setop("Pack " + "<col=ff0000>" + "X", 5)
+		cc_setop("Examine", 10)
+	}
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+	if(iVar1 > 6) {
+		iVar1 = 0
+		iVar2 = iVar2 + 1
+	}
+}
+return

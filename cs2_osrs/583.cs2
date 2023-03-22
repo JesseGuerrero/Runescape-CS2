@@ -1,0 +1,15 @@
+void script_583(int arg0, Widget widget1, int arg2, int arg3) {
+	if (arg0 != 1 || arg3 < 0 || arg3 >= 32) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (isBitFlagged(VARP[92], arg3) == true) {
+		VARP[92] = unflagBit(VARP[92], arg3);
+	} else {
+		VARP[92] = flagBit(VARP[92], arg3);
+	}
+	if (CHILD.setChild(widget1, arg2 + 1) == true && _CHILD.setChild(widget1, arg2 + 2) == true) {
+		script_585(widget1, arg3);
+	}
+	return;
+}

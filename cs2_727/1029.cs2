@@ -1,0 +1,47 @@
+//script1029(1029)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+cc_deleteall(if_gethash(157, 23))
+cc_deleteall(if_gethash(157, 25))
+if_settext(if_gethash(157, 14), "Quick-chat - Shortcut Reference")
+if_sethide(if_gethash(157, 35), 0)
+if_sethide(if_gethash(157, 17), 1)
+hook_mouse_press(if_gethash(157, 30), script_784, "gii", 1486, 0, 7)
+if_settext(if_gethash(157, 30), "User Guide")
+iVar2 = 0
+iVar3 = 20
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+sVar0 = ""
+cc_create(iVar4, 5, 10289177)
+cc_setgraphic(1074)
+cc_setposition(0, 0, iVar3 - 22, 35)
+cc_setsize(0, 0, 32, 400)
+iVar4 = iVar4 + 1
+while(iVar2 < arg1) {
+	iVar2 = iVar2 + 1
+	script_1034(iVar4, 35, iVar3, 400, 100, 16776960, enum(arg0, iVar5, 'i', 's'))
+	iVar4 = iVar4 + 1
+	iVar5 = iVar5 + 1
+	sVar0 = enum(arg0, iVar5, 'i', 's')
+	iVar6 = paramheight(sVar0, 495, 300) * 12
+	script_1034(iVar4, 150, iVar3, 300, iVar6, 16777215, sVar0)
+	iVar4 = iVar4 + 1
+	iVar5 = iVar5 + 1
+	iVar3 = (iVar3 + iVar6) + 10
+	cc_create(iVar4, 5, 10289177)
+	cc_setgraphic(1074)
+	cc_setposition(0, 0, iVar3 - 20, 35)
+	cc_setsize(0, 0, 32, 400)
+	iVar4 = iVar4 + 1
+}
+if(iVar3 > if_getheight(if_gethash(157, 25))) {
+	if_setscrollsize(10289177, iVar3, 0)
+	script_31(10289176, 10289177, 792, 789, 790, 791, 773, 788)
+}
+return

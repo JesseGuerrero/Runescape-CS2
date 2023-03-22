@@ -1,0 +1,15 @@
+void script_1014(Widget widget0) {
+	if (CHILD.setChild(widget0, 0) == true) {
+		CHILD.setTrans(255);
+		CHILD.hookMouseEnter(null);
+		CHILD.hookMouseExit(null);
+	}
+	if (CHILD.setChild(widget0, 3) == true) {
+		CHILD.setTrans(0);
+		CHILD.setSprite(773);
+	}
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setRGB(0xFFB83F);
+	}
+	return;
+}

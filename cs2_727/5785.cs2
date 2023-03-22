@@ -1,0 +1,28 @@
+//script5785(5785)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+iVar1 = 98
+iVar2 = script_5795(arg0)
+if(iVar2 == -1)
+	return
+script_5796(arg0, 0, 80216070, 80216069, 80216065, -1, -1, -1)
+sVar0 = struct_param(2225, iVar2)
+iVar3 = 15 * paramheight(sVar0, 3793, 144)
+if_settext(if_gethash(1224, 0), sVar0)
+if_setsize(if_gethash(1224, 2), 0, 0, min(iVar1, iVar3), if_getwidth(if_gethash(1224, 2)))
+if(iVar3 < iVar1) {
+	if_sethide(if_gethash(1224, 4), 1)
+	if_setsize(if_gethash(1224, 3), 1, 1, 0, 3)
+} else  {
+	iVar3 = iVar3 + 5
+	if_setscrollsize(80216067, max(if_getheight(if_gethash(1224, 3)), iVar3), 0)
+	if_setscrollpos(if_gethash(1224, 3), 0, 0)
+	if_setsize(if_gethash(1224, 3), 1, 1, 0, if_getwidth(if_gethash(1224, 4)) + 4)
+	if_sethide(if_gethash(1224, 4), 0)
+	script_31(80216068, 80216067, 5666, 5663, 5664, 5665, 5686, 5685)
+}
+if_setsize(if_gethash(1224, 7), 0, 0, min(iVar3 + 155, 261), if_getwidth(if_gethash(1224, 7)))
+if_setsize(if_gethash(746, 9), 0, 0, 261, 190)
+return

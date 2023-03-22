@@ -1,0 +1,11 @@
+void script_1576(Widget widget0, int arg1, int arg2, int arg3) {
+	int int4;
+	if (getClientCycle() % 50 == 0) {
+		return;
+	}
+	int4 = (getClientCycle() - arg3) / 50;
+	if (CHILD.setChild(widget0, arg1) == true) {
+		script_1575(arg2 + int4, arg2, arg3);
+	}
+	return;
+}

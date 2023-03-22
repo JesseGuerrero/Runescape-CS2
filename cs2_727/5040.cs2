@@ -1,0 +1,41 @@
+//script5040(5040)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+cc_deleteall(if_gethash(1111, 15))
+iVar0 = 0
+iVar1 = 0
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = 200
+if(clan_vars_enabled() == 1) {
+	while(iVar0 < 200) {
+		cc_create(iVar0, 5, 72810511)
+		iVar1 = script_5019(iVar0).get(0)
+		if(iVar1 != 0) {
+			iVar2 = enum(3943, iVar1, 'i', 'J')
+			if(iVar2 != -1) {
+				cc_setgraphic(struct_param(1465, iVar2))
+				if(struct_param(1466, iVar2) == 1)
+					cc_settiling(1)
+				else
+					cc_settiling(0)
+				script_5041(iVar2, iVar3, iVar4, iVar5)
+				iVar6 = iVar6 - 1
+			} else 
+				cc_sethide(1)
+		} else 
+			cc_sethide(1)
+		iVar0 = iVar0 + 1
+	}
+	if_settext(if_gethash(1111, 84), to_string(iVar6))
+} else 
+	if_settext(if_gethash(1111, 84), "...")
+script_41(72810615)
+return

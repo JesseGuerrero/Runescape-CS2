@@ -1,0 +1,29 @@
+//script62(62)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar4 = (arg1 + arg2) / 2
+iVar5 = globalArrays[0][iVar4]
+globalArrays[0][iVar4] = globalArrays[0][arg2]
+globalArrays[0][arg2] = iVar5
+iVar6 = arg1
+iVar7 = arg1
+iVar8 = -1
+while(iVar7 < arg2) {
+	if(compare(enum(arg3, iVar5, 'I', 's').toLowerCase(), enum(arg3, globalArrays[0][iVar7], 'I', 's').toLowerCase()) < iVar7 & 1) {
+		iVar8 = globalArrays[0][iVar7]
+		globalArrays[0][iVar7] = globalArrays[0][iVar6]
+		globalArrays[0][iVar6] = iVar8
+		iVar6 = iVar6 + 1
+	}
+	iVar7 = iVar7 + 1
+}
+globalArrays[0][arg2] = globalArrays[0][iVar6]
+globalArrays[0][iVar6] = iVar5
+if(arg1 < iVar6 - 1)
+	script_62(0, arg1, iVar6 - 1, arg3)
+if(iVar6 + 1 < arg2)
+	script_62(0, iVar6 + 1, arg2, arg3)
+return

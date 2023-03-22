@@ -1,0 +1,6 @@
+void script_531(Widget widget0, int arg1) {
+	widget0.hookMouseExit(&script_40(widget(arg1)));
+	script_534(widget0, arg1);
+	widget0.setContextMenuOption(1, "Roof-removal");
+	return;
+}

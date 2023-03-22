@@ -1,0 +1,4 @@
+//script2907(2907)(int arg0, int arg1)(void)
+if_settext(arg1, "")
+if_settrans(arg0, 0)
+return

@@ -1,0 +1,34 @@
+void script_838(Widget widget0, Sprite sprite1, Sprite sprite2, Sprite sprite3, Sprite sprite4, Sprite sprite5, Sprite sprite6, int arg7) {
+	int int8;
+	int int9;
+	int8 = 0;
+	int9 = 0;
+	if (arg7 == 1) {
+		int8, int9 = 235, 180;
+	}
+	if (CHILD.setChild(widget0, 0) == true) {
+		CHILD.setSprite(sprite1);
+		CHILD.setTrans(int8);
+	}
+	if (CHILD.setChild(widget0, 1) == true) {
+		CHILD.setSprite(sprite3);
+		CHILD.setTrans(int8);
+	}
+	if (CHILD.setChild(widget0, 2) == true) {
+		CHILD.setSprite(sprite2);
+		CHILD.setTrans(int8);
+	}
+	if (CHILD.setChild(widget0, 3) == true) {
+		CHILD.setSprite(sprite4);
+		CHILD.setTrans(int8);
+	}
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setSprite(sprite5);
+		CHILD.setTrans(int9);
+	}
+	if (CHILD.setChild(widget0, 5) == true) {
+		CHILD.setSprite(sprite6);
+		CHILD.setTrans(int9);
+	}
+	return;
+}

@@ -1,0 +1,12 @@
+//script6454(6454)()(void)
+int iVar0
+int iVar1
+string sVar0
+iVar0 = 1093
+if(gender() == 1)
+	iVar0 = 3872
+sVar0 = chat_playername()
+iVar1 = stringwidth(4040, sVar0) + 40
+if_settext(if_gethash(1311, 67), sVar0)
+if_setsize(if_gethash(1311, 35), 0, 0, 34, iVar1)
+return

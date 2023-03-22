@@ -1,0 +1,8 @@
+void script_932(Widget widget0, int arg1, int arg2, int arg3) {
+	int int4;
+	int4 = widget0.getHeight();
+	if (int4 != arg3 && CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		script_933(widget0, int4);
+	}
+	return;
+}

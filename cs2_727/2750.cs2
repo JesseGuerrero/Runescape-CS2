@@ -1,0 +1,8 @@
+//script2750(2750)(int arg0)(void)
+if_settext(if_gethash(204, 62), to_string(2009 - arg0))
+if_sethide(if_gethash(204, 110), 1)
+if_sethide(if_gethash(204, 111), 1)
+if_sethide(if_gethash(204, 101), 1)
+if_sethide(if_gethash(204, 28), 1)
+if_sethide(if_gethash(204, 61), 0)
+return

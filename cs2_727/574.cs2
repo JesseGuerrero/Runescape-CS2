@@ -1,0 +1,16 @@
+//script574(574)(int arg0, int arg1)(void)
+string sVar0
+if(arg0 == 84) {
+	store_varc(81, 0)
+	instr6342(if_gethash(389, 9), None, "")
+	script_576()
+	return
+}
+sVar0 = script_74(0, arg0, arg1, load_varc_string(22))
+if(compare(sVar0, load_varc_string(22)) == 0)
+	return
+store_varc_string(22, sVar0)
+if_settext(if_gethash(389, 9), escape(load_varc_string(22)) + "*")
+store_varc(81, 50)
+instr6342(if_gethash(389, 9), script_575, "")
+return

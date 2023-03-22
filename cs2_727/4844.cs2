@@ -1,0 +1,19 @@
+//script4844(4844)(int arg0)(void)
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		if(arg0 == load_varpbit(9563))
+			script_4846(arg0)
+		break
+	case 2:
+		if(arg0 == load_varpbit(9572))
+			script_4846(arg0)
+		break
+	case 3:
+		if(arg0 == load_varpbit(9581))
+			script_4846(arg0)
+		break
+
+}
+return

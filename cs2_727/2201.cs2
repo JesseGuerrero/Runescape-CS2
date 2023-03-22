@@ -1,0 +1,9 @@
+//script2201(2201)()(void)
+if(load_varp(1701) == 1)
+	script_2200()
+else
+	script_2199()
+script_2209()
+if_sethide(load_varc(1136), 0)
+instr6342(if_gethash(932, 1), script_2210, "")
+return

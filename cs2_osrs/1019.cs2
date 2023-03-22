@@ -1,0 +1,11 @@
+void script_1019(int arg0, Widget widget1, int arg2, int arg3) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (CHILD.setChild(widget1, arg2) == true) {
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.hookFrame(&script_1020(CTX_WIDGET, CTX_WIDGET_CHILD, arg3, getClientCycle() + 30));
+	}
+	return;
+}

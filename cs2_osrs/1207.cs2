@@ -1,0 +1,7 @@
+void script_1207(Widget widget0, Widget widget1, int arg2) {
+	if (CHILD.setChild(widget0, 0) == true) {
+		CHILD.setSprite(1078);
+	}
+	script_837(widget0, -1, widget1, datamap('i', 's', 1264, arg2), 25, 512);
+	return;
+}

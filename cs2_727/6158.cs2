@@ -1,0 +1,23 @@
+//script6158(6158)()(void)
+if_settext(if_gethash(1274, 5), to_string(load_varc(1909)))
+if_settext(if_gethash(1274, 2), to_string(load_varc(1916)))
+switch(load_varc(1917)) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1274, 8), 10708)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1274, 8), 10709)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1274, 8), 10710)
+		if_setgraphic(if_gethash(1274, 8), 1726)
+		break
+
+}
+if(load_varc(1918) == 1)
+	if_sethide(if_gethash(1274, 9), 0)
+else
+	if_sethide(if_gethash(1274, 9), 1)
+return

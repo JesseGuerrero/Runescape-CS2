@@ -1,0 +1,11 @@
+//script5017(5017)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+if_setgraphic(arg0, arg2)
+if_setgraphic(arg1, arg3)
+if(arg6 >= 5) {
+	if_setcolor(arg0, hsvtorgb(arg4))
+	if_setcolor(arg1, hsvtorgb(arg5))
+} else  {
+	if_setcolor(arg0, hsvtorgb(6716))
+	if_setcolor(arg1, hsvtorgb(6716))
+}
+return

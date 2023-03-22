@@ -1,0 +1,6 @@
+//script3683(3683)()(void)
+script_1548(14)
+store_varc_string(196, "")
+instr6342(if_gethash(187, 18), script_832, "")
+if_setgraphic(if_gethash(187, 18), 3245)
+return

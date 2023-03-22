@@ -1,0 +1,10 @@
+void script_743(Widget widget0, int arg1, int arg2) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		if (arg2 > 0) {
+			arg2 = arg2 - 1;
+		}
+		CHILD.setText(script_744(arg2));
+		CHILD.hookFrame(&script_743(CTX_WIDGET, CTX_WIDGET_CHILD, arg2));
+	}
+	return;
+}

@@ -1,0 +1,23 @@
+void script_1394(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int int4;
+	int2 = (getClientCycle() - arg1) % 40;
+	int3 = 0;
+	if (int2 <= 20) {
+		int3 = 120 + mathMethod4006(0, int2, 0, 20, 100);
+	} else {
+		int3 = 120 + (100 - mathMethod4006(0, int2 - 20, 0, 20, 100));
+	}
+	int4 = int3 + 30;
+	if (CHILD.setChild(widget0, 1) == true) {
+		CHILD.setTrans(int4);
+	}
+	if (CHILD.setChild(widget0, 2) == true) {
+		CHILD.setTrans(int3);
+	}
+	if (CHILD.setChild(widget0, 3) == true) {
+		CHILD.setTrans(int4);
+	}
+	return;
+}

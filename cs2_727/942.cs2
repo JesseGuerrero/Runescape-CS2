@@ -1,0 +1,42 @@
+//script942(942)(int arg0)(int, string)
+if(load_varp(1469) == enum(2536, arg0, 'i', 'c'))
+	return 0, "null"
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 1, enum(2535, 0, 'i', 's')
+
+	case 1:
+		return 1, enum(2535, 1, 'i', 's')
+
+	case 2:
+		return 1, enum(2535, 2, 'i', 's')
+
+	case 3:
+		return 1, enum(2535, 3, 'i', 's')
+
+	case 4:
+		return 1, enum(2535, 4, 'i', 's')
+
+	case 5:
+		if(load_varpbit(720) == 20)
+			return 1, enum(2535, 5, 'i', 's')
+		break
+	case 6:
+		if(load_varpbit(722) == 20)
+			return 1, enum(2535, 6, 'i', 's')
+		break
+	case 7:
+		if(load_varpbit(724) == 20)
+			return 1, enum(2535, 7, 'i', 's')
+		break
+	case 8:
+		if(load_varpbit(3959) >= 3)
+			return 1, enum(2535, 8, 'i', 's')
+		return -1, "null"
+
+
+}
+return 0, "null"
+return 0, ""

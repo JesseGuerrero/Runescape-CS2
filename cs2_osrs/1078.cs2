@@ -1,0 +1,11 @@
+void script_1078(Widget widget0, Widget widget1, int arg2) {
+	VARPBIT[3983] = arg2;
+	if (VARPBIT[3983] == 1) {
+		widget0.setSprite(699);
+		widget1.setSprite(697);
+	} else {
+		widget0.setSprite(697);
+		widget1.setSprite(699);
+	}
+	return;
+}

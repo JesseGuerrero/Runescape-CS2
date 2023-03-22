@@ -1,0 +1,6 @@
+void script_532(boolean arg0, Widget widget1, Widget arg2) {
+	playSoundEffect(2266, 1, 0);
+	setHideRoofs(arg0);
+	script_534(widget1, arg2);
+	return;
+}

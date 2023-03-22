@@ -1,0 +1,23 @@
+//script4943(4943)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = 0
+iVar3 = 82444474
+if(arg0 == 0)
+	if(load_varpbit(9552) == 2) {
+		iVar1 = if_getx(iVar3) + 12
+		iVar2 = 156
+	} else  {
+		iVar1 = if_getx(iVar3) - 12
+		iVar2 = -150
+	}
+iVar1 = max(-150, iVar1)
+iVar1 = min(156, iVar1)
+if_setposition(iVar3, 0, 0, if_gety(iVar3), iVar1)
+if(iVar1 == iVar2) {
+	instr6342(iVar3, None, "")
+	script_5220()
+}
+return

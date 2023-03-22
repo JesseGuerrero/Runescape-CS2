@@ -1,0 +1,8 @@
+//script2051(2051)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, string arg8, string arg9, string arg10)(void)
+if(cc_find(arg1, arg0) == 1)
+	script_2052(arg2, arg3, arg4, arg5, arg6, arg7, arg0, arg1, arg2)
+else {
+	cc_create(arg1, 4, arg0)
+	script_2052(arg2, arg3, arg4, arg5, arg6, arg7, arg0, arg1, arg2)
+}
+return

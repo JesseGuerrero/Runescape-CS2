@@ -1,0 +1,77 @@
+//script5067(5067)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+iVar0 = 0
+iVar1 = enum_getoutputcount(3943)
+iVar2 = 0
+while(iVar0 < iVar1) {
+	if(load_varpbit(9516) == iVar0)
+		iVar2 = 1
+	else
+		iVar2 = 0
+	if(enum_hasoutput(iVar0, 3944, 105) == 1)
+		script_5059(72810550, iVar0, iVar2)
+	if(enum_hasoutput(iVar0, 3945, 105) == 1)
+		script_5059(72810553, iVar0, iVar2)
+	if(enum_hasoutput(iVar0, 3946, 105) == 1)
+		script_5059(72810556, iVar0, iVar2)
+	if(enum_hasoutput(iVar0, 3947, 105) == 1)
+		script_5059(72810559, iVar0, iVar2)
+	iVar0 = iVar0 + 1
+}
+cc_deleteall(if_gethash(1111, 27))
+cc_deleteall(if_gethash(1111, 28))
+cc_deleteall(if_gethash(1111, 29))
+cc_deleteall(if_gethash(1111, 30))
+iVar3 = 0
+iVar4 = enum(3943, load_varpbit(9516), 'i', 'J')
+sVar0 = ""
+iVar5 = -1
+if(iVar4 != -1) {
+	if_settext(if_gethash(1111, 26), struct_param(1463, iVar4))
+	if_setgraphic(if_gethash(1111, 24), struct_param(1465, iVar4))
+	sVar0 = struct_param(1464, iVar4)
+	if(struct_param(1466, iVar4) == 1)
+		if(iVar4 != 1918)
+			sVar0 = append("<br>" + "<br>" + "Drag your mouse over the grid to fill an area with this element.", sVar0)
+	iVar3 = iVar3 + script_5068(iVar3, sVar0)
+	iVar5 = struct_param(1470, iVar4)
+	if(iVar5 != -1) {
+		iVar3 = iVar3 + 5
+		iVar3 = iVar3 + script_5068(iVar3, enum(iVar5, -1, 'i', 's'))
+		if_setposition(if_gethash(1111, 28), 0, 1, iVar3, 0)
+		iVar3 = iVar3 + script_5069(iVar5, 72810524, 1, load_varpbit(9517))
+	} else 
+		if_setsize(if_gethash(1111, 28), 0, 1, 0, 0)
+	iVar5 = struct_param(1471, iVar4)
+	if(iVar5 != -1) {
+		iVar3 = iVar3 + 5
+		iVar3 = iVar3 + script_5068(iVar3, enum(iVar5, -1, 'i', 's'))
+		if_setposition(if_gethash(1111, 29), 0, 1, iVar3, 0)
+		iVar3 = iVar3 + script_5069(iVar5, 72810525, 2, load_varpbit(9518))
+	} else 
+		if_setsize(if_gethash(1111, 29), 0, 1, 0, 0)
+	iVar5 = struct_param(1472, iVar4)
+	if(iVar5 != -1) {
+		iVar3 = iVar3 + 5
+		iVar3 = iVar3 + script_5068(iVar3, enum(iVar5, -1, 'i', 's'))
+		if_setposition(if_gethash(1111, 30), 0, 1, iVar3, 0)
+		iVar3 = iVar3 + script_5069(iVar5, 72810526, 3, load_varpbit(9519))
+	} else 
+		if_setsize(if_gethash(1111, 30), 0, 1, 0, 0)
+} else  {
+	if_settext(if_gethash(1111, 26), "")
+	if_setgraphic(if_gethash(1111, 24), -1)
+}
+if(iVar3 > if_getheight(if_gethash(1111, 27)))
+	if_setscrollsize(72810523, iVar3, 0)
+else
+	if_setscrollsize(72810523, 0, 0)
+if_setscrollpos(if_gethash(1111, 27), min(iVar3, if_getscrolly(72810523)), 0)
+script_31(72810527, 72810523, 6507, 6504, 6505, 6506, 6499, 6498)
+return

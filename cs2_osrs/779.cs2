@@ -1,0 +1,115 @@
+void script_779(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, Widget widget13, int arg14) {
+	int int15;
+	string str0;
+	if (VARPBIT[4397] == 1) {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, arg6) == true) {
+			CHILD.setTrans(0);
+			CHILD.hookFrame(null);
+		}
+		if (CHILD.setChild(widget0, arg12) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, arg4) == true) {
+			CHILD.setText("Sell offer");
+		}
+		if (CHILD.setChild(widget0, arg5) == true) {
+			CHILD.setSprite(1119);
+		}
+		if (CHILD.setChild(widget0, arg2) == true) {
+			CHILD.setContextMenuOption(1, "All");
+		}
+		if (CHILD.setChild(widget0, arg3) == true) {
+			CHILD.setText("All");
+		}
+	} else {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setHidden(false);
+		}
+		if (CHILD.setChild(widget0, arg6) == true) {
+			CHILD.setTrans(100);
+			CHILD.hookFrame(&script_811(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle(), 100, 250));
+		}
+		if (CHILD.setChild(widget0, arg12) == true) {
+			CHILD.setHidden(false);
+		}
+		if (CHILD.setChild(widget0, arg4) == true) {
+			CHILD.setText("Buy offer");
+		}
+		if (CHILD.setChild(widget0, arg5) == true) {
+			CHILD.setSprite(1118);
+		}
+		if (CHILD.setChild(widget0, arg2) == true) {
+			CHILD.setContextMenuOption(1, "+1K");
+		}
+		if (CHILD.setChild(widget0, arg3) == true) {
+			CHILD.setText("+1K");
+		}
+	}
+	str0 = ",";
+	int15 = 0;
+	if (VARP[1151] != -1) {
+		if (CHILD.setChild(widget0, arg7) == true) {
+			CHILD.setItemNoNum((Item)VARP[1151], VARPBIT[4396]);
+		}
+		if (CHILD.setChild(widget0, arg8) == true) {
+			CHILD.setText(getItemName((Item)VARP[1151]));
+		}
+		if (CHILD.setChild(widget0, arg9) == true) {
+			CHILD.setText(script_46(VARPBIT[4396], str0));
+		}
+		if (CHILD.setChild(widget0, arg10) == true) {
+			if (VARPBIT[4398] == 1) {
+				CHILD.setText("1 coin");
+			} else {
+				CHILD.setText(script_46(VARPBIT[4398], str0) + " coins");
+			}
+		}
+		if (VARPBIT[4396] > 0 && 2147483647 / VARPBIT[4396] < VARPBIT[4398]) {
+			if (CHILD.setChild(widget0, arg11) == true) {
+				CHILD.setText("<col=ff0000>" + "Too much money!" + "</col>");
+			}
+			script_780(widget0, arg14, widget13);
+		} else {
+			int15 = VARPBIT[4396] * VARPBIT[4398];
+			if (CHILD.setChild(widget0, arg11) == true) {
+				if (int15 == 1) {
+					CHILD.setText("1 coin");
+				} else {
+					CHILD.setText(script_46(int15, str0) + " coins");
+				}
+			}
+			if (int15 > 0) {
+				_ = script_208(widget13);
+				widget13.hookMouseHover(&script_772(CTX_WIDGET));
+				widget13.hookMouseExit(&script_97(CTX_WIDGET));
+				widget13.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+				if (CHILD.setChild(widget0, arg14) == true) {
+					CHILD.setText("<col=ffffff>" + "Confirm" + "</col>");
+				}
+			} else {
+				script_780(widget0, arg14, widget13);
+			}
+		}
+	} else {
+		if (CHILD.setChild(widget0, arg7) == true) {
+			CHILD.setItemNoNum(6512, 1);
+		}
+		if (CHILD.setChild(widget0, arg8) == true) {
+			CHILD.setText("Choose an item...");
+		}
+		if (CHILD.setChild(widget0, arg9) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget0, arg10) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget0, arg11) == true) {
+			CHILD.setText("");
+		}
+		script_780(widget0, arg14, widget13);
+	}
+	return;
+}

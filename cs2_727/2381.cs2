@@ -1,0 +1,4 @@
+//script2381(2381)(int arg0, int arg1, string arg2)(void)
+if_settext(arg0, arg0)
+if_setcolor(arg0, arg1)
+return

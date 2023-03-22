@@ -1,0 +1,6 @@
+//script4215(4215)()(void)
+if(instr6004(if_gethash(1071, 0)) == 1) {
+	cc_setplayermodel_self()
+	cc_setmodelanim(41)
+}
+return

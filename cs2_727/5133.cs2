@@ -1,0 +1,293 @@
+//script5133(5133)()(void)
+int iVar0
+int iVar1
+string sVar0
+iVar0 = 0
+iVar1 = script_4293()
+if(script_5131() == 1) {
+	if_sethide(if_gethash(1096, 392), 1)
+	if_sethide(if_gethash(1096, 400), 1)
+	if_sethide(if_gethash(1096, 408), 1)
+	if_sethide(if_gethash(1096, 416), 1)
+	if_sethide(if_gethash(1096, 424), 1)
+	if_sethide(if_gethash(1096, 432), 1)
+	if_sethide(if_gethash(1096, 440), 1)
+	if_sethide(if_gethash(1096, 448), 1)
+	if_sethide(if_gethash(1096, 456), 1)
+	if_sethide(if_gethash(1096, 464), 1)
+	if_sethide(if_gethash(1096, 472), 1)
+	switch(load_varc(1569)) {
+		case default:
+			break
+		case 0:
+			if_sethide(if_gethash(1096, 392), 0)
+			if(iVar1 >= 100)
+				iVar0 = 1
+			break
+		case 1:
+			if_sethide(if_gethash(1096, 400), 0)
+			if(iVar1 >= 100)
+				iVar0 = 1
+			break
+		case 2:
+			if_sethide(if_gethash(1096, 408), 0)
+			if(iVar1 >= 100)
+				iVar0 = 1
+			break
+		case 3:
+			if_sethide(if_gethash(1096, 416), 0)
+			if(iVar1 >= 100)
+				iVar0 = 1
+			break
+		case 4:
+			if_sethide(if_gethash(1096, 424), 0)
+			if(iVar1 >= 100)
+				iVar0 = 1
+			break
+		case 5:
+			if_sethide(if_gethash(1096, 432), 0)
+			if(iVar1 >= 100)
+				iVar0 = 1
+			break
+		case 100:
+			if_sethide(if_gethash(1096, 440), 0)
+			if(iVar1 > load_varc(1569))
+				iVar0 = 1
+			break
+		case 101:
+			if_sethide(if_gethash(1096, 448), 0)
+			if(iVar1 > load_varc(1569))
+				iVar0 = 1
+			break
+		case 102:
+			if_sethide(if_gethash(1096, 456), 0)
+			if(iVar1 > load_varc(1569))
+				iVar0 = 1
+			break
+		case 103:
+			if_sethide(if_gethash(1096, 464), 0)
+			if(iVar1 > load_varc(1569))
+				iVar0 = 1
+			break
+		case 125:
+			if_sethide(if_gethash(1096, 472), 0)
+			if(iVar1 > load_varc(1569))
+				iVar0 = 1
+			break
+		case 126:
+			iVar0 = 0
+			break
+		case 127:
+			iVar0 = 0
+			if(iVar1 >= 100)
+				iVar0 = 1
+			break
+
+	}
+}
+sVar0 = ""
+if_sethide(if_gethash(1096, 559), 0)
+if_sethide(if_gethash(1096, 571), 0)
+if_sethide(if_gethash(1096, 604), 0)
+if_sethide(if_gethash(1096, 615), 0)
+if_sethide(if_gethash(1096, 637), 0)
+if_sethide(if_gethash(1096, 484), 0)
+if_sethide(if_gethash(1096, 593), 0)
+if_sethide(if_gethash(1096, 582), 0)
+if_sethide(if_gethash(1096, 626), 0)
+if_sethide(if_gethash(1096, 548), 0)
+if_sethide(if_gethash(1096, 535), 0)
+if_sethide(if_gethash(1096, 753), 0)
+if_sethide(if_gethash(1096, 740), 0)
+if_sethide(if_gethash(1096, 649), 0)
+if_sethide(if_gethash(1096, 660), 0)
+if_sethide(if_gethash(1096, 672), 0)
+if_sethide(if_gethash(1096, 685), 0)
+if_sethide(if_gethash(1096, 697), 0)
+if_sethide(if_gethash(1096, 794), 0)
+if_sethide(if_gethash(1096, 805), 0)
+if_sethide(if_gethash(1096, 816), 0)
+if_sethide(if_gethash(1096, 709), 0)
+if_sethide(if_gethash(1096, 783), 0)
+if_sethide(if_gethash(1096, 721), 0)
+if(iVar0 == 1) {
+	if_sethide(if_gethash(1096, 559), 1)
+	if_sethide(if_gethash(1096, 571), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may upgrade the citadel."
+		if_setonmouseover(if_gethash(1096, 604), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if(script_5145(iVar1) == 0) {
+			sVar0 = "You may only allow upgrades to the citadel if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 604), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 604), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may downgrade the citadel."
+		if_setonmouseover(if_gethash(1096, 615), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if(script_5147(iVar1) == 0) {
+			sVar0 = "You may only allow downgrades to the citadel if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 615), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 615), 1)
+	if(script_6026(iVar1) == 0) {
+		sVar0 = "You may only allow transfer of resources if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 637), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if(load_varc(1569) >= 100)
+			if_sethide(if_gethash(1096, 637), 1)
+	if(script_6012(iVar1) == 0) {
+		sVar0 = "You may only allow recruiting if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 484), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 484), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may change the noticeboard."
+		if_setonmouseover(if_gethash(1096, 593), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if(script_6006(iVar1) == 0) {
+			sVar0 = "You may only allow adding of notices if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 593), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 593), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may change the signpost."
+		if_setonmouseover(if_gethash(1096, 582), script_5139, "sI", sVar0, -2147483645)
+	} else 
+		if(script_6008(iVar1) == 0) {
+			sVar0 = "You may only allow adding to the signpost if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 582), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 582), 1)
+	if(script_6010(iVar1) == 0) {
+		sVar0 = "You may only allow editing of the clan battlefield if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 626), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 626), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may change who may lock the citadel."
+		if_setonmouseover(if_gethash(1096, 548), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if(script_5149(iVar1) == 0) {
+			sVar0 = "You may only allow locking of the citadel if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 548), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 548), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may change who may lock the keep."
+		if_setonmouseover(if_gethash(1096, 535), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if(script_5148(iVar1) == 0) {
+			sVar0 = "You may only allow locking of the keep if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 535), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 535), 1)
+	if(script_5149(iVar1) == 0) {
+		sVar0 = "You may only allow entry to the citadel if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 753), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 753), 1)
+	if(script_5148(iVar1) == 0) {
+		sVar0 = "You may only allow entry to the keep if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 740), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 740), 1)
+	if(script_6014(iVar1) == 0) {
+		sVar0 = "You may only allow starting of battles if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 649), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 649), 1)
+	if(script_6016(iVar1) == 0) {
+		sVar0 = "You may only allow a rank to lead Rated Clan Wars if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 660), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 660), 1)
+	if(script_6018(iVar1) == 0) {
+		sVar0 = "You may only allow a rank to call a vote if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 672), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 672), 1)
+	if(script_6020(iVar1) == 0) {
+		sVar0 = "You may only allow a rank to begin a meeting if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 685), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 685), 1)
+	if(script_6022(iVar1) == 0) {
+		sVar0 = "You may only set a rank as a party tech if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 697), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 697), 1)
+	if(script_6024(iVar1) == 0) {
+		sVar0 = "You may only set a rank as a theatre tech if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 794), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 794), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may set skill plot locks."
+		if_setonmouseover(if_gethash(1096, 805), script_5139, "sI", sVar0, -2147483645)
+	} else 
+		if(script_5962(iVar1) == 0) {
+			sVar0 = "You may only allow a rank to lock plots if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 805), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 805), 1)
+	if(script_5964(iVar1) == 0) {
+		sVar0 = "You may only allow a rank to checkresources if your rank has this permission."
+		if_setonmouseover(if_gethash(1096, 816), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if_sethide(if_gethash(1096, 816), 1)
+	if(load_varc(1569) < 100) {
+		sVar0 = "Only admins and above may set gathering goals."
+		if_setonmouseover(if_gethash(1096, 709), script_5139, "sI", sVar0, -2147483645)
+	} else 
+		if(script_5225(iVar1) == 0) {
+			sVar0 = "You may only allow a rank to gather resources if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 709), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 709), 1)
+	if(load_varc(1569) < 103) {
+		sVar0 = "Only overseers and above may set the citadel's language."
+		if_setonmouseover(if_gethash(1096, 783), script_5139, "sI", sVar0, -2147483645)
+	} else 
+		if(script_6028(iVar1) == 0) {
+			sVar0 = "You may only allow a rank to change the stronghold's language if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 783), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 783), 1)
+	if(load_varc(1569) < 103) {
+		sVar0 = "Only overseers and above may move the build tick."
+		if_setonmouseover(if_gethash(1096, 721), script_5138, "sI", sVar0, -2147483645)
+	} else 
+		if(script_6030(iVar1) == 0) {
+			sVar0 = "You may only allow a rank to change the stronghold's build time if your rank has this permission."
+			if_setonmouseover(if_gethash(1096, 721), script_5138, "sI", sVar0, -2147483645)
+		} else 
+			if_sethide(if_gethash(1096, 721), 1)
+} else  {
+	sVar0 = "Your rank is not high enough to alter this permission."
+	if_setonmouseover(if_gethash(1096, 604), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 615), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 637), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 484), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 593), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 582), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 626), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 548), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 535), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 753), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 740), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 649), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 660), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 672), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 685), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 697), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 794), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 805), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 816), script_5138, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 709), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 783), script_5139, "sI", sVar0, -2147483645)
+	if_setonmouseover(if_gethash(1096, 721), script_5138, "sI", sVar0, -2147483645)
+}
+script_5135()
+return

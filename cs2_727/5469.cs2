@@ -1,0 +1,11 @@
+//script5469(5469)(int arg0)(void)
+int iVar1
+iVar1 = arg0 + 1
+if(iVar1 >= instr6652(0) - 1) {
+	instr6255(if_gethash(1161, 0), None, "")
+	instr6678()
+} else  {
+	instr6677(iVar1, 1, 400, 400, iVar1, 0)
+	instr6255(if_gethash(1161, 0), script_5469, "i", iVar1)
+}
+return

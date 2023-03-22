@@ -1,0 +1,31 @@
+void script_1276(int arg0) {
+	int int1;
+	string str0;
+	int1 = 0;
+	while (CHILD.setChild(widget(226, 4), int1) == true) {
+		CHILD.setSprite(1345);
+		int1 = int1 + 2;
+	}
+	if (CHILD.setChild(widget(226, 4), arg0 * 2) == true) {
+		CHILD.setSprite(1344);
+	}
+	VARC[139] = arg0;
+	script_1277();
+	script_1280();
+	str0 = "";
+	if (arg0 == 0) {
+		str0 = "In Deadman mode, when you die " + "<col=ffffff>" + "unskulled" + "</col>" + " from " + "<col=ffffff>" + "PvM combat" + "</col>" + ", you only lose the items you are carrying at the time. Your 3 most valuable items are protected. You do not lose any experience." + "<br>" + "<br>" + "You may lose more if you die from " + "<col=ffffff>" + "PvP combat" + "</col>" + " or if you are " + "<col=ffffff>" + "skulled" + "</col>" + " at the time.";
+	} else if (arg0 == 1) {
+		if (VARPBIT[5667] == 1) {
+			str0 = "In Deadman mode, when you die from " + "<col=ffffff>" + "PvP combat" + "</col>" + ", you lose the " + "<col=ffffff>" + "10" + "</col>" + " most valuable stacks of items in your bank, as well as " + "<col=ffffff>" + "all" + "</col>" + " of the items you are carrying at the time." + "<br>" + "<br>" + "You will not lose any experience in your protected and unprotected skills if you die " + "<col=ffffff>" + "unskulled" + "</col>" + ".";
+		} else {
+			str0 = "In Deadman mode, when you die from " + "<col=ffffff>" + "PvP combat" + "</col>" + ", you lose the " + "<col=ffffff>" + "10" + "</col>" + " most valuable stacks of items in your bank, as well as " + "<col=ffffff>" + "all" + "</col>" + " of the items you are carrying at the time." + "<br>" + "<br>" + "Dependent on level difference, you may also lose " + "<col=ffffff>" + "up to 25%" + "</col>" + " of your experience in any unprotected skills.";
+		}
+	} else if (arg0 == 2) {
+		str0 = "In Deadman mode, if you die whilst " + "<col=ffffff>" + "skulled" + "</col>" + ", you lose the " + "<col=ffffff>" + "10" + "</col>" + " most valuable stacks of items in your bank, as well as " + "<col=ffffff>" + "all" + "</col>" + " of the items you are carrying at the time." + "<br>" + "<br>" + "Dependent on level difference, you may also lose " + "<col=ffffff>" + "up to 50%" + "</col>" + " of your experience in any unprotected skills. You may lose even more in a " + "<col=ffffff>" + "guarded" + "</col>" + " area.";
+	} else if (arg0 == 3) {
+		str0 = "In Deadman mode, if you die in a " + "<col=ffffff>" + "guarded" + "</col>" + " area whilst " + "<col=ffffff>" + "skulled" + "</col>" + ", you lose the " + "<col=ffffff>" + "10" + "</col>" + " most valuable stacks of items in your bank, as well as " + "<col=ffffff>" + "all" + "</col>" + " of the items you are carrying at the time." + "<br>" + "<br>" + "Dependent on level difference, you may also lose " + "<col=ffffff>" + "up to 10%" + "</col>" + " of your experience in any protected skills, and " + "<col=ffffff>" + "up to 50%" + "</col>" + " in any unprotected skills.";
+	}
+	widget(226, 5).setText(str0);
+	return;
+}

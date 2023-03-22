@@ -1,0 +1,29 @@
+//script5228(5228)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+iVar1 = 0
+sVar0 = ""
+iVar2 = script_4969(arg0)
+iVar3 = -1
+iVar4 = 2
+if(iVar2 == -1)
+	return
+if(clan_vars_enabled() == 1) {
+	iVar1 = script_4949(arg0)
+	if(iVar1 > 0) {
+		sVar0 = "Teleport to the " + enum(4287, iVar1, 'i', 's') + " skill plot."
+		iVar3 = if_getparentlayer(iVar2)
+		if(if_gety(iVar2) > if_getheight(iVar3) / 2)
+			iVar4 = 0
+		if_setonmouseover(iVar2, script_4538, "IIisifdiiiiii", if_gethash(1259, 57), iVar2, -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, iVar4, -2147483647, -2147483646)
+		hook_mouse_exit(iVar2, script_40, "I", if_gethash(1259, 57))
+		instr6213(iVar2, 1, "Teleport to " + enum(4287, iVar1, 'i', 's'))
+		return
+	}
+}
+if_setonmouseover(iVar2, None, "")
+hook_mouse_exit(iVar2, None, "")
+return

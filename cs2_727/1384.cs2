@@ -1,0 +1,757 @@
+//script1384(1384)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		store_varc(0, arg1)
+		break
+	case 1:
+		store_varc(274, arg1)
+		break
+	case 2:
+		store_varc(275, arg1)
+		break
+	case 3:
+		store_varc(276, arg1)
+		break
+	case 4:
+		store_varc(277, arg1)
+		break
+	case 5:
+		store_varc(278, arg1)
+		break
+	case 6:
+		store_varc(279, arg1)
+		break
+	case 7:
+		store_varc(280, arg1)
+		break
+	case 8:
+		store_varc(281, arg1)
+		break
+	case 9:
+		store_varc(282, arg1)
+		break
+	case 10:
+		store_varc(283, arg1)
+		break
+	case 11:
+		store_varc(284, arg1)
+		break
+	case 12:
+		store_varc(285, arg1)
+		break
+	case 13:
+		store_varc(286, arg1)
+		break
+	case 14:
+		store_varc(287, arg1)
+		break
+	case 15:
+		store_varc(288, arg1)
+		break
+	case 16:
+		store_varc(289, arg1)
+		break
+	case 17:
+		store_varc(290, arg1)
+		break
+	case 18:
+		store_varc(291, arg1)
+		break
+	case 19:
+		store_varc(292, arg1)
+		break
+	case 20:
+		store_varc(293, arg1)
+		break
+	case 21:
+		store_varc(294, arg1)
+		break
+	case 22:
+		store_varc(295, arg1)
+		break
+	case 23:
+		store_varc(296, arg1)
+		break
+	case 24:
+		store_varc(297, arg1)
+		break
+	case 25:
+		store_varc(298, arg1)
+		break
+	case 26:
+		store_varc(299, arg1)
+		break
+	case 27:
+		store_varc(300, arg1)
+		break
+	case 28:
+		store_varc(301, arg1)
+		break
+	case 29:
+		store_varc(302, arg1)
+		break
+	case 30:
+		store_varc(303, arg1)
+		break
+	case 31:
+		store_varc(304, arg1)
+		break
+	case 32:
+		store_varc(305, arg1)
+		break
+	case 33:
+		store_varc(306, arg1)
+		break
+	case 34:
+		store_varc(307, arg1)
+		break
+	case 35:
+		store_varc(308, arg1)
+		break
+	case 36:
+		store_varc(309, arg1)
+		break
+	case 37:
+		store_varc(310, arg1)
+		break
+	case 38:
+		store_varc(311, arg1)
+		break
+	case 39:
+		store_varc(312, arg1)
+		break
+	case 40:
+		store_varc(313, arg1)
+		break
+	case 41:
+		store_varc(314, arg1)
+		break
+	case 42:
+		store_varc(315, arg1)
+		break
+	case 43:
+		store_varc(316, arg1)
+		break
+	case 44:
+		store_varc(317, arg1)
+		break
+	case 45:
+		store_varc(318, arg1)
+		break
+	case 46:
+		store_varc(319, arg1)
+		break
+	case 47:
+		store_varc(320, arg1)
+		break
+	case 48:
+		store_varc(321, arg1)
+		break
+	case 49:
+		store_varc(322, arg1)
+		break
+	case 50:
+		store_varc(323, arg1)
+		break
+	case 51:
+		store_varc(324, arg1)
+		break
+	case 52:
+		store_varc(325, arg1)
+		break
+	case 53:
+		store_varc(326, arg1)
+		break
+	case 54:
+		store_varc(327, arg1)
+		break
+	case 55:
+		store_varc(328, arg1)
+		break
+	case 56:
+		store_varc(329, arg1)
+		break
+	case 57:
+		store_varc(330, arg1)
+		break
+	case 58:
+		store_varc(331, arg1)
+		break
+	case 59:
+		store_varc(332, arg1)
+		break
+	case 60:
+		store_varc(333, arg1)
+		break
+	case 61:
+		store_varc(334, arg1)
+		break
+	case 62:
+		store_varc(335, arg1)
+		break
+	case 63:
+		store_varc(336, arg1)
+		break
+	case 64:
+		store_varc(337, arg1)
+		break
+	case 65:
+		store_varc(338, arg1)
+		break
+	case 66:
+		store_varc(339, arg1)
+		break
+	case 67:
+		store_varc(340, arg1)
+		break
+	case 68:
+		store_varc(341, arg1)
+		break
+	case 69:
+		store_varc(342, arg1)
+		break
+	case 70:
+		store_varc(343, arg1)
+		break
+	case 71:
+		store_varc(344, arg1)
+		break
+	case 72:
+		store_varc(345, arg1)
+		break
+	case 73:
+		store_varc(346, arg1)
+		break
+	case 74:
+		store_varc(347, arg1)
+		break
+	case 75:
+		store_varc(348, arg1)
+		break
+	case 76:
+		store_varc(349, arg1)
+		break
+	case 77:
+		store_varc(350, arg1)
+		break
+	case 78:
+		store_varc(351, arg1)
+		break
+	case 79:
+		store_varc(352, arg1)
+		break
+	case 80:
+		store_varc(353, arg1)
+		break
+	case 81:
+		store_varc(354, arg1)
+		break
+	case 82:
+		store_varc(355, arg1)
+		break
+	case 83:
+		store_varc(356, arg1)
+		break
+	case 84:
+		store_varc(357, arg1)
+		break
+	case 85:
+		store_varc(358, arg1)
+		break
+	case 86:
+		store_varc(359, arg1)
+		break
+	case 87:
+		store_varc(360, arg1)
+		break
+	case 88:
+		store_varc(361, arg1)
+		break
+	case 89:
+		store_varc(362, arg1)
+		break
+	case 90:
+		store_varc(363, arg1)
+		break
+	case 91:
+		store_varc(364, arg1)
+		break
+	case 92:
+		store_varc(365, arg1)
+		break
+	case 93:
+		store_varc(366, arg1)
+		break
+	case 94:
+		store_varc(367, arg1)
+		break
+	case 95:
+		store_varc(368, arg1)
+		break
+	case 96:
+		store_varc(369, arg1)
+		break
+	case 97:
+		store_varc(370, arg1)
+		break
+	case 98:
+		store_varc(371, arg1)
+		break
+	case 99:
+		store_varc(372, arg1)
+		break
+	case 100:
+		store_varc(373, arg1)
+		break
+	case 101:
+		store_varc(374, arg1)
+		break
+	case 102:
+		store_varc(375, arg1)
+		break
+	case 103:
+		store_varc(376, arg1)
+		break
+	case 104:
+		store_varc(377, arg1)
+		break
+	case 105:
+		store_varc(378, arg1)
+		break
+	case 106:
+		store_varc(379, arg1)
+		break
+	case 107:
+		store_varc(380, arg1)
+		break
+	case 108:
+		store_varc(381, arg1)
+		break
+	case 109:
+		store_varc(382, arg1)
+		break
+	case 110:
+		store_varc(383, arg1)
+		break
+	case 111:
+		store_varc(384, arg1)
+		break
+	case 112:
+		store_varc(385, arg1)
+		break
+	case 113:
+		store_varc(386, arg1)
+		break
+	case 114:
+		store_varc(387, arg1)
+		break
+	case 115:
+		store_varc(388, arg1)
+		break
+	case 116:
+		store_varc(389, arg1)
+		break
+	case 117:
+		store_varc(390, arg1)
+		break
+	case 118:
+		store_varc(391, arg1)
+		break
+	case 119:
+		store_varc(392, arg1)
+		break
+	case 120:
+		store_varc(393, arg1)
+		break
+	case 121:
+		store_varc(394, arg1)
+		break
+	case 122:
+		store_varc(395, arg1)
+		break
+	case 123:
+		store_varc(396, arg1)
+		break
+	case 124:
+		store_varc(397, arg1)
+		break
+	case 125:
+		store_varc(398, arg1)
+		break
+	case 126:
+		store_varc(399, arg1)
+		break
+	case 127:
+		store_varc(400, arg1)
+		break
+	case 128:
+		store_varc(401, arg1)
+		break
+	case 129:
+		store_varc(402, arg1)
+		break
+	case 130:
+		store_varc(403, arg1)
+		break
+	case 131:
+		store_varc(404, arg1)
+		break
+	case 132:
+		store_varc(405, arg1)
+		break
+	case 133:
+		store_varc(406, arg1)
+		break
+	case 134:
+		store_varc(407, arg1)
+		break
+	case 135:
+		store_varc(408, arg1)
+		break
+	case 136:
+		store_varc(409, arg1)
+		break
+	case 137:
+		store_varc(410, arg1)
+		break
+	case 138:
+		store_varc(411, arg1)
+		break
+	case 139:
+		store_varc(412, arg1)
+		break
+	case 140:
+		store_varc(413, arg1)
+		break
+	case 141:
+		store_varc(414, arg1)
+		break
+	case 142:
+		store_varc(415, arg1)
+		break
+	case 143:
+		store_varc(416, arg1)
+		break
+	case 144:
+		store_varc(417, arg1)
+		break
+	case 145:
+		store_varc(418, arg1)
+		break
+	case 146:
+		store_varc(419, arg1)
+		break
+	case 147:
+		store_varc(420, arg1)
+		break
+	case 148:
+		store_varc(421, arg1)
+		break
+	case 149:
+		store_varc(422, arg1)
+		break
+	case 150:
+		store_varc(423, arg1)
+		break
+	case 151:
+		store_varc(424, arg1)
+		break
+	case 152:
+		store_varc(425, arg1)
+		break
+	case 153:
+		store_varc(426, arg1)
+		break
+	case 154:
+		store_varc(427, arg1)
+		break
+	case 155:
+		store_varc(428, arg1)
+		break
+	case 156:
+		store_varc(429, arg1)
+		break
+	case 157:
+		store_varc(430, arg1)
+		break
+	case 158:
+		store_varc(431, arg1)
+		break
+	case 159:
+		store_varc(432, arg1)
+		break
+	case 160:
+		store_varc(433, arg1)
+		break
+	case 161:
+		store_varc(434, arg1)
+		break
+	case 162:
+		store_varc(435, arg1)
+		break
+	case 163:
+		store_varc(436, arg1)
+		break
+	case 164:
+		store_varc(437, arg1)
+		break
+	case 165:
+		store_varc(438, arg1)
+		break
+	case 166:
+		store_varc(439, arg1)
+		break
+	case 167:
+		store_varc(440, arg1)
+		break
+	case 168:
+		store_varc(441, arg1)
+		break
+	case 169:
+		store_varc(442, arg1)
+		break
+	case 170:
+		store_varc(443, arg1)
+		break
+	case 171:
+		store_varc(444, arg1)
+		break
+	case 172:
+		store_varc(445, arg1)
+		break
+	case 173:
+		store_varc(446, arg1)
+		break
+	case 174:
+		store_varc(447, arg1)
+		break
+	case 175:
+		store_varc(448, arg1)
+		break
+	case 176:
+		store_varc(449, arg1)
+		break
+	case 177:
+		store_varc(450, arg1)
+		break
+	case 178:
+		store_varc(451, arg1)
+		break
+	case 179:
+		store_varc(452, arg1)
+		break
+	case 180:
+		store_varc(453, arg1)
+		break
+	case 181:
+		store_varc(454, arg1)
+		break
+	case 182:
+		store_varc(455, arg1)
+		break
+	case 183:
+		store_varc(456, arg1)
+		break
+	case 184:
+		store_varc(457, arg1)
+		break
+	case 185:
+		store_varc(458, arg1)
+		break
+	case 186:
+		store_varc(459, arg1)
+		break
+	case 187:
+		store_varc(460, arg1)
+		break
+	case 188:
+		store_varc(461, arg1)
+		break
+	case 189:
+		store_varc(462, arg1)
+		break
+	case 190:
+		store_varc(463, arg1)
+		break
+	case 191:
+		store_varc(464, arg1)
+		break
+	case 192:
+		store_varc(465, arg1)
+		break
+	case 193:
+		store_varc(466, arg1)
+		break
+	case 194:
+		store_varc(467, arg1)
+		break
+	case 195:
+		store_varc(468, arg1)
+		break
+	case 196:
+		store_varc(469, arg1)
+		break
+	case 197:
+		store_varc(470, arg1)
+		break
+	case 198:
+		store_varc(471, arg1)
+		break
+	case 199:
+		store_varc(472, arg1)
+		break
+	case 200:
+		store_varc(473, arg1)
+		break
+	case 201:
+		store_varc(474, arg1)
+		break
+	case 202:
+		store_varc(475, arg1)
+		break
+	case 203:
+		store_varc(476, arg1)
+		break
+	case 204:
+		store_varc(477, arg1)
+		break
+	case 205:
+		store_varc(478, arg1)
+		break
+	case 206:
+		store_varc(479, arg1)
+		break
+	case 207:
+		store_varc(480, arg1)
+		break
+	case 208:
+		store_varc(481, arg1)
+		break
+	case 209:
+		store_varc(482, arg1)
+		break
+	case 210:
+		store_varc(483, arg1)
+		break
+	case 211:
+		store_varc(484, arg1)
+		break
+	case 212:
+		store_varc(485, arg1)
+		break
+	case 213:
+		store_varc(486, arg1)
+		break
+	case 214:
+		store_varc(487, arg1)
+		break
+	case 215:
+		store_varc(488, arg1)
+		break
+	case 216:
+		store_varc(489, arg1)
+		break
+	case 217:
+		store_varc(490, arg1)
+		break
+	case 218:
+		store_varc(491, arg1)
+		break
+	case 219:
+		store_varc(492, arg1)
+		break
+	case 220:
+		store_varc(493, arg1)
+		break
+	case 221:
+		store_varc(494, arg1)
+		break
+	case 222:
+		store_varc(495, arg1)
+		break
+	case 223:
+		store_varc(496, arg1)
+		break
+	case 224:
+		store_varc(497, arg1)
+		break
+	case 225:
+		store_varc(498, arg1)
+		break
+	case 226:
+		store_varc(499, arg1)
+		break
+	case 227:
+		store_varc(500, arg1)
+		break
+	case 228:
+		store_varc(501, arg1)
+		break
+	case 229:
+		store_varc(502, arg1)
+		break
+	case 230:
+		store_varc(503, arg1)
+		break
+	case 231:
+		store_varc(504, arg1)
+		break
+	case 232:
+		store_varc(505, arg1)
+		break
+	case 233:
+		store_varc(506, arg1)
+		break
+	case 234:
+		store_varc(507, arg1)
+		break
+	case 235:
+		store_varc(508, arg1)
+		break
+	case 236:
+		store_varc(509, arg1)
+		break
+	case 237:
+		store_varc(510, arg1)
+		break
+	case 238:
+		store_varc(511, arg1)
+		break
+	case 239:
+		store_varc(512, arg1)
+		break
+	case 240:
+		store_varc(513, arg1)
+		break
+	case 241:
+		store_varc(514, arg1)
+		break
+	case 242:
+		store_varc(515, arg1)
+		break
+	case 243:
+		store_varc(516, arg1)
+		break
+	case 244:
+		store_varc(517, arg1)
+		break
+	case 245:
+		store_varc(518, arg1)
+		break
+	case 246:
+		store_varc(519, arg1)
+		break
+	case 247:
+		store_varc(520, arg1)
+		break
+	case 248:
+		store_varc(521, arg1)
+		break
+	case 249:
+		store_varc(522, arg1)
+		break
+
+}
+return

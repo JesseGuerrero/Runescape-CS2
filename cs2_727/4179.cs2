@@ -1,0 +1,95 @@
+//script4179(4179)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+string sVar0
+iVar4 = script_4180(0, arg0, 0, "Boosted stats will be reset.")
+if(load_varpbit(642) > 0)
+	iVar4 = script_4180(iVar4, arg0, 0, "Some worn items will be taken off.")
+if(load_varpbit(4166) == 1)
+	iVar4 = script_4180(iVar4, arg0, 0, "Existing prayers will be stopped.")
+if(iVar4 > if_getheight(arg0)) {
+	if_setscrollsize(arg0, iVar4, 0)
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+	if_sethide(arg1, 0)
+	if_setposition(arg0, 1, 0, 0, 0)
+} else  {
+	if_setscrollsize(arg0, 0, 0)
+	cc_deleteall(arg1)
+	if_sethide(arg1, 1)
+	if_setposition(arg0, 1, 1, 0, 0)
+}
+iVar5 = 0
+if(world_members() == 1)
+	if(inv_total(10148, 93) > 0 || inv_total(10148, 94) > 0 || inv_total(10147, 93) > 0 || inv_total(10147, 94) > 0 || inv_total(10146, 93) > 0 || inv_total(10146, 94) > 0 || inv_total(10149, 93) > 0 || inv_total(10149, 94) > 0)
+		iVar5 = 1
+iVar4 = 0
+if(load_varpbit(4159) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1453), "You cannot forfeit the duel.")
+if(load_varpbit(4160) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1454), "You cannot move.")
+if(load_varpbit(4275) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1464), "You can summon familiars.")
+sVar0 = "You cannot use Ranged attacks."
+if(load_varpbit(4161) == 1) {
+	if(iVar5 == 1)
+		sVar0 = "You cannot use Ranged attacks " + "<col=ffffff>" + "or salamanders" + "</col>" + "."
+	iVar4 = script_4180(iVar4, arg2, load_varc(1455), sVar0)
+}
+sVar0 = "You cannot use melee attacks."
+if(load_varpbit(4162) == 1) {
+	if(iVar5 == 1)
+		sVar0 = "You cannot use melee attacks " + "<col=ffffff>" + "or salamanders" + "</col>" + "."
+	iVar4 = script_4180(iVar4, arg2, load_varc(1456), sVar0)
+}
+sVar0 = "You cannot use Magic attacks."
+if(load_varpbit(4163) == 1) {
+	if(iVar5 == 1)
+		sVar0 = "You cannot use Magic attacks " + "<col=ffffff>" + "or salamanders" + "</col>" + "."
+	iVar4 = script_4180(iVar4, arg2, load_varc(1457), sVar0)
+}
+if(load_varpbit(4169) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1463), "You cannot use special attacks.")
+if(load_varpbit(4168) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1462), "You can only attack with 'fun' weapons.")
+if(load_varpbit(4164) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1458), "You cannot use drinks.")
+if(load_varpbit(4165) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1459), "You cannot use food.")
+if(load_varpbit(4166) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1460), "You cannot use Prayer.")
+if(load_varpbit(4167) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1461), "There will be obstacles in the arena.")
+if(bit_flagged(0, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1465), "You cannot wear items on your head.")
+if(bit_flagged(1, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1466), "You cannot wear items on your back, such as capes.")
+if(bit_flagged(2, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1467), "You cannot wear items on your front, such as amulets.")
+if(bit_flagged(3, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(740), "You cannot wield items in your right hand.")
+if(bit_flagged(4, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(745), "You cannot wear items on your torso.")
+if(bit_flagged(5, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(780), "You cannot wield items in your left hand or use 2-handed weapons.")
+if(bit_flagged(7, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(781), "You cannot wear items on your legs.")
+if(bit_flagged(9, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(782), "You cannot wear items on your hands.")
+if(bit_flagged(10, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(789), "You cannot wear items on your feet.")
+if(bit_flagged(12, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1409), "You cannot use your ring slot.")
+if(bit_flagged(13, load_varpbit(642)) == 1)
+	iVar4 = script_4180(iVar4, arg2, load_varc(1410), "You cannot use your quiver.")
+if(iVar4 > if_getheight(arg2)) {
+	if_setscrollsize(arg2, iVar4, 0)
+	script_31(arg3, arg2, 792, 789, 790, 791, 773, 788)
+	if_sethide(arg3, 0)
+	if_setposition(arg2, 1, 0, 0, 0)
+} else  {
+	if_setscrollsize(arg2, 0, 0)
+	cc_deleteall(arg3)
+	if_sethide(arg3, 1)
+	if_setposition(arg2, 1, 1, 0, 0)
+}
+return

@@ -1,0 +1,125 @@
+//script793(793)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+string sVar0
+cc_deleteall(arg0)
+iVar5 = 0
+iVar6 = 0
+if_setscrollsize(arg0, (((arg4 - arg3) / arg1) + 1) * 57, 0)
+iVar7 = 0
+iVar8 = 1
+iVar9 = 0
+iVar10 = 0
+iVar11 = -1
+iVar12 = 12525
+iVar13 = 12530
+iVar14 = 2859
+iVar15 = 12527
+iVar16 = -1
+iVar17 = -1
+iVar18 = -1
+iVar19 = -1
+iVar20 = -1
+iVar21 = -1
+iVar22 = 1
+iVar23 = 7
+iVar24 = 1
+iVar25 = 1
+iVar26 = 0
+iVar27 = 0
+iVar28 = 0
+iVar29 = 0
+iVar30 = 0
+iVar31 = 0
+sVar0 = "hello"
+iVar32 = 0
+globalArrays[0] = [10, 111]
+iVar33 = -1
+iVar34 = 0
+while(iVar7 <= arg4 - arg3) {
+	iVar5 = (16 + (modulo(arg1, iVar7) * 48)) + (modulo(arg1, iVar7) * 5)
+	iVar6 = ((iVar7 / arg1) * 52) + ((iVar7 / arg1) * 5)
+	cc_create(iVar34, 5, arg0)
+	iVar34 = iVar34 + 1
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar6, iVar5)
+	cc_setgraphic(2205)
+	instr6091(script_6114, "Ii1", -2147483645, iVar34, 0)
+	instr6092(script_6114, "Ii1", -2147483645, iVar34, 1)
+	cc_create(iVar34, 5, arg0)
+	iVar34 = iVar34 + 1
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar6, iVar5)
+	cc_setgraphic(2206)
+	cc_sethide(1)
+	cc_create(iVar34, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, iVar6 + 4, iVar5 + 6)
+	iVar33 = enum(1182, iVar8, 'i', 'o')
+	if(iVar8 == 1)
+		if(script_795(iVar33) == 1)
+			script_794(iVar33, iVar33, arg0, iVar34, arg0, arg1, arg2, arg3, arg4)
+		else
+			script_794(enum(1183, iVar8, 'i', 'o'), iVar33, arg0, iVar34, arg0, arg1, arg2, arg3, arg4)
+	else
+		if(iVar33 == 12292)
+			script_794(iVar33, iVar33, arg0, iVar34, arg0, arg1, arg2, arg3, arg4)
+		else
+			script_794(enum(1183, iVar8, 'i', 'o'), iVar33, arg0, iVar34, arg0, arg1, arg2, arg3, arg4)
+	sVar0 = enum(1187, iVar33, 'o', 's')
+	iVar32 = enum(1185, iVar33, 'o', 'i')
+	if(iVar8 == 1) {
+		cc_setonmouseover(script_770, "iIIisoioioioioioioioioioi", -2147483643, if_gethash(672, 24), if_gethash(672, 16), iVar32, sVar0, iVar12, 1, iVar13, iVar23, iVar14, iVar24, iVar15, iVar25, iVar16, iVar26, iVar17, iVar27, iVar18, iVar28, iVar19, iVar29, iVar20, iVar30, iVar21, iVar31)
+		instr6092(script_40, "I", if_gethash(672, 24))
+	} else  {
+		sVar0 = "You do not have access to this type of summoning pouch."
+		cc_setonmouseover(script_800, "iIIis", -2147483643, if_gethash(672, 24), if_gethash(672, 16), iVar32, sVar0)
+		instr6092(script_40, "I", if_gethash(672, 24))
+	}
+	iVar34 = iVar34 + 1
+	cc_create(iVar34, 5, arg0)
+	iVar34 = iVar34 + 1
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar6 + 38, iVar5 + 2)
+	cc_setitem_nonum(1, 12183)
+	cc_create(iVar34, 4, arg0)
+	iVar34 = iVar34 + 1
+	cc_setsize(0, 0, 12, 31)
+	cc_setposition(0, 0, iVar6 + 39, iVar5 + 13)
+	cc_settextfont(494)
+	cc_setcolor(ffffff)
+	cc_settextalign(0, 1, 2)
+	cc_settext(script_940(item_param(541, iVar33)))
+	cc_settextshadow(1)
+	iVar7 = iVar7 + 1
+	iVar8 = iVar8 + 1
+}
+return

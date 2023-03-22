@@ -1,0 +1,107 @@
+//script4311(4311)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 0
+iVar1 = script_4293()
+iVar2 = -1
+if(script_4309() == 1)
+	iVar2 = load_varc(1500)
+if_settext(if_gethash(1096, 57), "Settings for: " + load_varc_string(347))
+if_sethide(if_gethash(1096, 726), 1)
+if_sethide(if_gethash(1096, 727), 1)
+if_sethide(if_gethash(1096, 729), 1)
+if_sethide(if_gethash(1096, 728), 1)
+if_sethide(if_gethash(1096, 152), 1)
+if_sethide(if_gethash(1096, 153), 1)
+if_sethide(if_gethash(1096, 155), 1)
+if_sethide(if_gethash(1096, 154), 1)
+if_sethide(if_gethash(1096, 351), 1)
+if_sethide(if_gethash(1096, 352), 1)
+if_sethide(if_gethash(1096, 354), 1)
+if_sethide(if_gethash(1096, 353), 1)
+if_sethide(if_gethash(1096, 755), 1)
+if_sethide(if_gethash(1096, 756), 1)
+if_sethide(if_gethash(1096, 758), 1)
+if_sethide(if_gethash(1096, 757), 1)
+if_sethide(if_gethash(1096, 71), 1)
+if_sethide(if_gethash(1096, 310), 0)
+if_sethide(if_gethash(1096, 319), 0)
+if_sethide(if_gethash(1096, 271), 0)
+if_sethide(if_gethash(1096, 257), 0)
+iVar3 = 3720
+if(world_language() == 1)
+	iVar3 = 3727
+else
+	if(world_language() == 2)
+		iVar3 = 3728
+	else
+		if(world_language() == 3)
+			iVar3 = 3729
+if(script_4309() == 1) {
+	if(load_varc(1568) == 1)
+		if_sethide(if_gethash(1096, 71), 0)
+	if(script_4292() == 1)
+		if(iVar1 > iVar2 || iVar1 == 126) {
+			if_sethide(if_gethash(1096, 310), 1)
+			if_sethide(if_gethash(1096, 319), 1)
+			if_sethide(if_gethash(1096, 271), 1)
+			if_sethide(if_gethash(1096, 257), 1)
+			if(iVar2 != 126) {
+				if(load_varc(1565) == 1)
+					if_sethide(if_gethash(1096, 152), 0)
+				else
+					if_sethide(if_gethash(1096, 154), 0)
+				if(load_varc(1566) == 1)
+					if_sethide(if_gethash(1096, 351), 0)
+				else
+					if_sethide(if_gethash(1096, 353), 0)
+				if(load_varc(1567) == 1)
+					if_sethide(if_gethash(1096, 755), 0)
+				else
+					if_sethide(if_gethash(1096, 757), 0)
+			} else  {
+				if_sethide(if_gethash(1096, 155), 0)
+				if_sethide(if_gethash(1096, 354), 0)
+				if_sethide(if_gethash(1096, 758), 0)
+			}
+		} else  {
+			if(load_varc(1565) == 1)
+				if_sethide(if_gethash(1096, 153), 0)
+			else
+				if_sethide(if_gethash(1096, 155), 0)
+			if(load_varc(1566) == 1)
+				if_sethide(if_gethash(1096, 352), 0)
+			else
+				if_sethide(if_gethash(1096, 354), 0)
+			if(load_varc(1567) == 1)
+				if_sethide(if_gethash(1096, 756), 0)
+			else
+				if_sethide(if_gethash(1096, 758), 0)
+		}
+	else {
+		if(load_varc(1564) == 1)
+			if_sethide(if_gethash(1096, 727), 0)
+		else
+			if_sethide(if_gethash(1096, 729), 0)
+		if(load_varc(1565) == 1)
+			if_sethide(if_gethash(1096, 153), 0)
+		else
+			if_sethide(if_gethash(1096, 155), 0)
+		if(load_varc(1566) == 1)
+			if_sethide(if_gethash(1096, 352), 0)
+		else
+			if_sethide(if_gethash(1096, 354), 0)
+		if(load_varc(1567) == 1)
+			if_sethide(if_gethash(1096, 756), 0)
+		else
+			if_sethide(if_gethash(1096, 758), 0)
+	}
+	script_4501(71827721, enum(3715, load_varc(1500), 'i', 's'))
+	if(compare(enum(iVar3, load_varc(1501), 'i', 's'), "") == 0)
+		script_4501(71827707, enum(iVar3, load_varc(1501) - 1, 'i', 's'))
+	else
+		script_4501(71827707, enum(iVar3, load_varc(1501), 'i', 's'))
+}
+return

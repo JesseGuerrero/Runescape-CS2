@@ -1,0 +1,58 @@
+void script_1847(int arg0, int arg1) {
+	int int2;
+	Widget widget3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	string str0;
+	if (isBitFlagged(VARPBIT[5640], 3) == true) {
+		script_41(widget(595, 35));
+		return;
+	}
+	if (VARC[2] == 1) {
+		return;
+	}
+	str0 = datamap('y', 's', 1713, cs2method6695(cs2method6697()));
+	if (length(str0) <= 0) {
+		return;
+	}
+	int2 = 150;
+	widget3 = widget(595, 35).getLayer();
+	if (widget3 != null) {
+		int2 = script_1046(int2, widget3.getWidth());
+	}
+	int2 = int2 - 4;
+	int4 = 4 + getMaxLineWidth(str0, int2, 495);
+	int5 = 7 + 12 * getLineCount(str0, int2, 495);
+	widget(595, 35).setSize(int4, int5, 0, 0);
+	int6 = arg0 + 5;
+	int7 = arg1 + 20;
+	if (widget3 != null) {
+		int6 = script_1046(int6, widget3.getWidth() - int4);
+		if (int7 > widget3.getHeight() - int5) {
+			int7 = arg1 - (int5 + 5);
+		}
+	}
+	widget(595, 35).setPosition(int6, int7, 0, 0);
+	widget(595, 35).clearChildren();
+	CHILD.createChild(widget(595, 35), 3, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0xFFFFA0);
+	CHILD.createChild(widget(595, 35), 3, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x000000);
+	CHILD.createChild(widget(595, 35), 4, 2);
+	CHILD.setSize(4, 1, 1, 1);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setText(str0);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0x000000);
+	VARC[2] = 1;
+	return;
+}

@@ -1,0 +1,45 @@
+//script2739(2739)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+cc_deleteall(arg0)
+iVar2 = inv_size(if_gethash(0, 93))
+iVar3 = -1
+iVar4 = iVar2 / 4
+iVar5 = (if_getwidth(arg0) - (4 * 36)) / 3
+iVar6 = (if_getheight(arg0) - (iVar4 * 32)) / 6
+iVar7 = 0
+while(iVar7 < iVar2) {
+	cc_create(iVar7, 5, arg0)
+	iVar3 = inv_getitem(iVar7, 93)
+	if(iVar3 != -1) {
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, (iVar7 / 4) * (32 + iVar6), modulo(4, iVar7) * (36 + iVar5))
+		cc_setitem(inv_getnum(iVar7, 93), iVar3)
+		cc_setopbase(append(item_name(iVar3), "<col=ff9040>"))
+		cc_setop("Equip", 1)
+		cc_setop("Stats", 9)
+		cc_setuseop("Compare")
+		cc_setop("Examine", 10)
+		cc_setgraphicshadow(3153952)
+		if(arg1 == iVar7)
+			cc_setoutline(2)
+		else
+			cc_setoutline(1)
+		instr6687(script_1620, "Iiiii", -2147483645, -2147483643, 100, 0, 8)
+		instr6103(script_2738, "Ii", arg0, iVar7)
+		instr6094(script_2738, "Ii", arg0, -1)
+		cc_setonmouseover(script_5495, "o", iVar3)
+		instr6092(script_5495, "o", -1)
+	} else 
+		cc_sethide(1)
+	iVar7 = iVar7 + 1
+}
+if(arg1 != -1)
+	if(inv_getitem(arg1, 93) == -1)
+		arg1 = -1
+if_setonmouseleave(arg0, script_2738, "IiY", 1, 93, -2147483645, arg1)
+return

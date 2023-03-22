@@ -1,0 +1,5 @@
+void script_1597(Widget widget0) {
+	widget0.hookFrame(null);
+	widget0.hookDialogAbort(null);
+	return;
+}

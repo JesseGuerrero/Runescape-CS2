@@ -1,0 +1,8 @@
+string script_1298(int arg0) {
+	string str0;
+	str0 = datamap('i', 's', 835, arg0);
+	if (VARPBIT[5037] == 1) {
+		str0 = script_1299(str0, "Nieve", "Steve");
+	}
+	return str0;
+}

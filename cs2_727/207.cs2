@@ -1,0 +1,25 @@
+//script207(207)(int arg0, int arg1, int arg2)(string)
+string sVar0
+string sVar1
+string sVar2
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+if(item_stackable(arg2) == 0)
+	sVar2 = append("<col=ff9040>" + item_name(arg2) + " " + "<col=ffffff>" + "x " + "<col=fff000>" + to_string(arg1) + "<br>", sVar2)
+else
+	if(arg1 < 100000) {
+		sVar0 = tostring_localized(1, arg1)
+		sVar2 = append("<col=ff9040>" + item_name(arg2) + "<col=ffffff>" + " x " + "<col=ffff00>" + sVar0 + "<br>", sVar2)
+	} else 
+		if(arg1 < 10000000) {
+			sVar0 = tostring_localized(1, arg1)
+			sVar1 = tostring_localized(1, arg1 / 1000)
+			sVar2 = append("<col=ff9040>" + item_name(arg2) + "<col=ffffff>" + " x " + "<col=ffffff>" + sVar1 + "K (" + sVar0 + ")" + "<br>", sVar2)
+		} else  {
+			sVar0 = tostring_localized(1, arg1)
+			sVar1 = tostring_localized(1, arg1 / 1000000)
+			sVar2 = append("<col=ff9040>" + item_name(arg2) + "<col=ffffff>" + " x " + "<col=00ff80>" + sVar1 + "M (" + sVar0 + ")" + "<br>", sVar2)
+		}
+return sVar2
+return ""

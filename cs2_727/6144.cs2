@@ -1,0 +1,15 @@
+//script6144(6144)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 1
+iVar2 = 14
+iVar3 = -1
+if_sethide(if_gethash(1270, 35), 1)
+while(iVar1 <= iVar2) {
+	iVar3 = script_6139(iVar1)
+	if(cc_find(0, iVar3) == 1)
+		instr6342(iVar3, script_6145, "Iiiii", -2147483645, cc_getx(), cc_gety(), 0 - random(50), arg0)
+	iVar1 = iVar1 + 1
+}
+return

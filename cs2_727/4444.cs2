@@ -1,0 +1,61 @@
+//script4444(4444)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+iVar1 = 9
+iVar2 = 23
+script_4445()
+if_setgraphic(if_gethash(1110, 92), 6255)
+if_sethide(if_gethash(1110, 64), 1)
+if_settext(if_gethash(1110, 70), "")
+if(load_varc(1513) != 1)
+	store_varc(1513, 1)
+iVar3 = 72744965
+iVar4 = 72744968
+iVar5 = 72744966
+iVar6 = 72744967
+iVar7 = 72744999
+iVar8 = 72744998
+iVar9 = 72744969
+iVar10 = 72745023
+cc_deleteall(iVar3)
+cc_deleteall(iVar4)
+cc_deleteall(iVar5)
+cc_deleteall(iVar6)
+iVar11 = 0
+iVar12 = activeclanchannel_getusercount()
+iVar13 = if_getwidth(iVar7)
+if(arg0 <= -1)
+	arg0 = if_getx(iVar7)
+arg0 = max(0, min(if_getwidth(iVar8) - iVar13, arg0))
+store_varc(1506, arg0)
+if_setposition(iVar7, 1, 0, 0, arg0)
+if_sethide(iVar7, 0)
+return if_setmouseovercursor(iVar7, 149)

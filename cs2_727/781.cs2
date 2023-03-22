@@ -1,0 +1,5 @@
+//script781(781)(int arg0)(string)
+if(arg0 >= 1000)
+	return "*"
+return to_string(arg0)
+return ""

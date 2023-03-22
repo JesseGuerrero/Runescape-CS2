@@ -1,0 +1,22 @@
+//script1176(1176)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(void)
+if(arg1 < arg7 + scale(arg9, 3, 1))
+	if(arg2 < arg8 + scale(arg10, 3, 1)) {
+		if_setmodelangle(arg0, 1000, 0, 768, 512, 0, 0)
+		if_setsize(arg0, 0, 0, 50, 50)
+		if_setposition(arg0, 0, 0, max(22, arg6 + arg4), max(0, arg5 + arg3))
+	} else  {
+		if_setmodelangle(arg0, 1000, 0, 256, 512, 0, 0)
+		if_setsize(arg0, 0, 0, 50, 50)
+		if_setposition(arg0, 0, 0, min(arg10, arg6) - if_getheight(arg0), max(0, arg5 + arg3))
+	}
+else
+	if(arg2 < arg8 + scale(arg10, 3, 1)) {
+		if_setmodelangle(arg0, 1000, 0, 1280, 512, 0, 0)
+		if_setsize(arg0, 0, 0, 50, 50)
+		if_setposition(arg0, 0, 0, max(22, arg6 + arg4), min(arg9, arg5 - if_getwidth(arg0)))
+	} else  {
+		if_setmodelangle(arg0, 1000, 0, 1792, 512, 0, 0)
+		if_setsize(arg0, 0, 0, 50, 50)
+		if_setposition(arg0, 0, 0, min(arg10, arg6) - if_getheight(arg0), min(arg9, arg5 - if_getwidth(arg0)))
+	}
+return

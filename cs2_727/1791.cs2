@@ -1,0 +1,10 @@
+//script1791(1791)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = load_varc(270) / 60
+iVar2 = modulo(60, load_varc(270))
+if(iVar2 >= 10)
+	if_settext(arg0, to_string(iVar1) + "h " + to_string(iVar2) + "m")
+else
+	if_settext(arg0, to_string(iVar1) + "h 0" + to_string(iVar2) + "m")
+return

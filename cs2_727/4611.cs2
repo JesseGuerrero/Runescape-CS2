@@ -1,0 +1,3 @@
+//script4611(4611)()(int, int, int, int)
+instr6237(if_gethash(20, 55), script_4612, "IY", 3, 2172, 2173, 2174, if_gethash(20, 55))
+return script_4613(1310775).get(3), script_4613(1310775).get(2), script_4613(1310775).get(1), script_4613(1310775).get(0)

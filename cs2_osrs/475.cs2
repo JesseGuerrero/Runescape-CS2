@@ -1,0 +1,4 @@
+void script_475(Widget widget0, Model model1, Model model2, int arg3, int arg4) {
+	script_476(widget0, model1, model2, arg3, arg4);
+	return;
+}

@@ -1,0 +1,29 @@
+//script664(664)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11)(void)
+if(if_gethide(arg0) == 0)
+	if(cc_find(0, arg0) == 1) {
+		if(arg4 != -1)
+			if(script_19(arg4, 43384906) < arg5) {
+				cc_setgraphic(arg2)
+				return
+			}
+		if(arg6 != -1)
+			if(script_19(arg6, 43384906) < arg7) {
+				cc_setgraphic(arg2)
+				return
+			}
+		if(arg8 != -1)
+			if(script_19(arg8, 43384906) < arg9) {
+				cc_setgraphic(arg2)
+				return
+			}
+		if(arg10 != -1)
+			if(script_19(arg10, 43384906) < arg11) {
+				cc_setgraphic(arg2)
+				return
+			}
+		if(stat_base(23) < arg3)
+			cc_setgraphic(arg2)
+		else
+			cc_setgraphic(arg1)
+	}
+return

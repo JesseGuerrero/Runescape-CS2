@@ -1,0 +1,376 @@
+//script986(986)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1511, 1, "You can now light " + "<col=000080>" + "normal logs" + "</col>" + ".", "Normal logs"
+
+			case 1:
+				return 596, 1, "Members can now light " + "<col=000080>" + "torches" + "</col>" + ".", "Members: Torch"
+
+			case 2:
+				return 36, 1, "Members can now light " + "<col=000080>" + "candles" + "</col>" + ".", "Members: Candle"
+
+			case 3:
+				return 2862, 1, "Members can now light " + "<col=000080>" + "achey logs" + "</col>" + ".", "Members: Achey logs"
+
+			case 4:
+				return 4531, 4, "Members can now light " + "<col=000080>" + "candle lanterns" + "</col>" + ".", "Members: Candle lantern"
+
+			case 5:
+				return 3438, 5, "Members can now light " + "<col=000080>" + "pyre logs" + "</col>" + ".", "Members: Pyre logs"
+
+			case 6:
+				return 4524, 12, "Members can now light " + "<col=000080>" + "oil lamps" + "</col>" + ".", "Members: Oil lamp"
+
+			case 7:
+				return 1521, 15, "You can now light " + "<col=000080>" + "oak logs" + "</col>" + ".", "Oak logs"
+
+			case 8:
+				return 7225, 20, "Members can now cook with " + "<col=000080>" + "iron spits" + "</col>" + ".", "Members: Iron spit"
+
+			case 9:
+				return 3440, 20, "Members can now light " + "<col=000080>" + "oak pyre logs" + "</col>" + ".", "Members: Oak pyre logs"
+
+			case 10:
+				return 4539, 26, "Members can now light " + "<col=000080>" + "oil lanterns" + "</col>" + ".", "Members: Oil lantern"
+
+			case 11:
+				return 1519, 30, "You can now light " + "<col=000080>" + "willow logs" + "</col>" + ".", "Willow logs"
+
+			case 12:
+				return 7053, 33, "Members can now light " + "<col=000080>" + "harpie bug lanterns" + "</col>" + ". These are not a light source.", "Members: Harpie bug lantern (not a light source)"
+
+			case 13:
+				return 6333, 35, "Members can now light " + "<col=000080>" + "teak logs" + "</col>" + ".", "Members: Teak logs"
+
+			case 14:
+				return 3442, 35, "Members can now light " + "<col=000080>" + "willow pyre logs" + "</col>" + ".", "Members: Willow pyre logs"
+
+			case 15:
+				return 6211, 40, "Members can now light " + "<col=000080>" + "teak pyre logs" + "</col>" + ".", "Members: Teak pyre logs"
+
+			case 16:
+				return 10810, 42, "Members can now light " + "<col=000080>" + "arctic pine logs" + "</col>" + ".", "Members: Arctic pine logs"
+
+			case 17:
+				return 1517, 45, "You can now light " + "<col=000080>" + "maple logs" + "</col>" + ".", "Maple logs"
+
+			case 18:
+				return 10808, 47, "Members can now light " + "<col=000080>" + "arctic pine pyre logs" + "</col>" + ".", "Members: Arctic pine pyre logs"
+
+			case 19:
+				return 4550, 49, "Members can now light " + "<col=000080>" + "bullseye lanterns" + "</col>" + ".", "Members: Bullseye lantern"
+
+			case 20:
+				return 4702, 49, "Members can now light " + "<col=000080>" + "sapphire lanterns" + "</col>" + ".", "Members: Sapphire lantern"
+
+			case 21:
+				return 9065, 49, "Members can now light " + "<col=000080>" + "emerald lanterns" + "</col>" + ".", "Members: Emerald lantern"
+
+			case 22:
+				return 6332, 50, "Members can now light " + "<col=000080>" + "mahogany logs" + "</col>" + ".", "Members: Mahogany logs"
+
+			case 23:
+				return 3444, 50, "Members can now light " + "<col=000080>" + "maple pyre logs" + "</col>" + ".", "Members: Maple pyre logs"
+
+			case 24:
+				return 10973, 52, "Members can now replace " + "<col=000080>" + "Dorgeshuun light orbs" + "</col>" + ".", "Members: Replace Dorgeshuun light orb"
+
+			case 25:
+				return 6213, 55, "Members can now light " + "<col=000080>" + "mahogany pyre logs" + "</col>" + ".", "Members: Mahogany pyre logs"
+
+			case 26:
+				return 12581, 58, "Members can now light " + "<col=000080>" + "eucalyptus logs" + "</col>" + ".", "Members: Eucalyptus logs"
+
+			case 27:
+				return 1515, 60, "You can now light " + "<col=000080>" + "yew logs" + "</col>" + ".", "Yew logs"
+
+			case 28:
+				return 12583, 63, "Members can now light " + "<col=000080>" + "eucalyptus pyre logs" + "</col>" + ".", "Members: Eucalyptus pyre logs"
+
+			case 29:
+				return 5013, 65, "Members can now light " + "<col=000080>" + "cave goblin mining helmets" + "</col>" + ".", "Members: Cave goblin mining helmet"
+
+			case 30:
+				return 3446, 65, "Members can now light " + "<col=000080>" + "yew pyre logs" + "</col>" + ".", "Members: Yew pyre logs"
+
+			case 31:
+				return 1513, 75, "Members can now light " + "<col=000080>" + "magic logs" + "</col>" + ".", "Members: Magic logs"
+
+			case 32:
+				return 21600, 76, "Members can now light " + "<col=000080>" + "blisterwood logs" + "</col>" + ".", "Members: Blisterwood logs"
+
+			case 33:
+				return 3448, 80, "Members can now light " + "<col=000080>" + "magic pyre logs" + "</col>" + ".", "Members: Magic pyre logs"
+
+			case 34:
+				return 21350, 83, "Members can now light " + "<col=000080>" + "curly roots" + "</col>" + " in the jadinko lair.", "Members: Curly root"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To start Firemaking in the manner of the barbarians, talk to Otto Godblessed when you have level 35 Firemaking or higher."
+
+			case 1:
+				return 1511, 21, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "normal logs" + "</col>" + " without a tinderbox.", "Members: Normal Logs"
+
+			case 2:
+				return 2862, 21, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "achey tree logs" + "</col>" + " without a tinderbox.", "Members: Achey tree"
+
+			case 3:
+				return 1521, 35, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "oak logs" + "</col>" + " without a tinderbox.", "Members: Oak"
+
+			case 4:
+				return 1519, 50, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "willow logs" + "</col>" + " without a tinderbox.", "Members: Willow"
+
+			case 5:
+				return 6333, 55, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "teak logs" + "</col>" + " without a tinderbox.", "Members: Teak"
+
+			case 6:
+				return 10810, 62, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "arctic pine logs" + "</col>" + " without a tinderbox.", "Members: Arctic pine"
+
+			case 7:
+				return 1517, 65, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "maple logs" + "</col>" + " without a tinderbox.", "Members: Maple"
+
+			case 8:
+				return 6332, 70, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "mahogany logs" + "</col>" + " without a tinderbox.", "Members: Mahogany"
+
+			case 9:
+				return 12581, 78, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "eucalyptus logs" + "</col>" + " without a tinderbox.", "Members: Eucalyptus"
+
+			case 10:
+				return 1515, 80, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "yew logs" + "</col>" + " without a tinderbox.", "Members: Yew"
+
+			case 11:
+				return 1513, 95, "Members versed in the art of barbarian firemaking can now light " + "<col=000080>" + "magic logs" + "</col>" + " without a tinderbox.", "Members: Magic"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To start Firemaking in the manner of the barbarians, talk to Otto Godblessed when you have level 35 Firemaking or higher. Pyre ships can only be constructed and burnt where the ground is charred, around the lake next to Otto's hut."
+
+			case 1:
+				return 1511, 11, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "logs" + "</col>" + ". (They also need level 11 Crafting.)", "Members: Wood" + "<br>" + " (with 11 Crafting)"
+
+			case 2:
+				return 2862, 11, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "achey tree logs" + "</col>" + ". (They also need level 11 Crafting.)", "Members: Achey" + "<br>" + " (with 11 Crafting)"
+
+			case 3:
+				return 1521, 25, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "oak logs" + "</col>" + ". (They also need level 25 Crafting.)", "Members: Oak" + "<br>" + " (with 25 Crafting)"
+
+			case 4:
+				return 1519, 40, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "willow logs" + "</col>" + ". (They also need level 40 Crafting.)", "Members: Willow" + "<br>" + " (with 40 Crafting)"
+
+			case 5:
+				return 6333, 45, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "teak logs" + "</col>" + ". (They also need level 45 Crafting.)", "Members: Teak" + "<br>" + " (with 45 Crafting)"
+
+			case 6:
+				return 10810, 52, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "arctic pine logs" + "</col>" + ". (They also need level 52 Crafting.)", "Members: Arctic pine" + "<br>" + " (with 52 Crafting)"
+
+			case 7:
+				return 1517, 55, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "maple logs" + "</col>" + ". (They also need level 55 Crafting.)", "Members: Maple" + "<br>" + " (with 55 Crafting)"
+
+			case 8:
+				return 6332, 60, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "mahogany logs" + "</col>" + ". (They also need level 60 Crafting.)", "Members: Mahogany" + "<br>" + " (with 60 Crafting)"
+
+			case 9:
+				return 12581, 68, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "eucalyptus logs" + "</col>" + ". (They also need level 68 Crafting.)", "Members: Eucalyptus" + "<br>" + " (with 68 Crafting)"
+
+			case 10:
+				return 1515, 70, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "yew logs" + "</col>" + ". (They also need level 70 Crafting.)", "Members: Yew" + "<br>" + " (with 70 Crafting)"
+
+			case 11:
+				return 1513, 85, "Members versed in the art of barbarian firemaking now have the Firemaking level required to light pyre ships made out of " + "<col=000080>" + "magic logs" + "</col>" + ". (They also need level 85 Crafting.)", "Members: Magic" + "<br>" + " (with 85 Crafting)"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 590, 1, "You can now light fires with a " + "<col=000080>" + "tinderbox" + "</col>" + ".", "Tinderbox"
+
+			case 1:
+				return 15241, 61, "Members now have the Firemaking level required to fire the " + "<col=000080>" + "chaos dwarf hand cannon" + "</col>" + " (after Forgiveness of a Chaos Dwarf and with 75 Ranged).", "Members: Chaos dwarf hand cannon" + "<br>" + " (after Forgiveness of a Chaos Dwarf and with 75 Ranged)"
+
+			case 2:
+				return 13659, 62, "Members can now wear the " + "<col=000080>" + "Ring of Fire" + "</col>" + " (after All Fired Up).", "Members: Ring of Fire" + "<br>" + " (after All Fired Up)"
+
+			case 3:
+				return 23027, 74, "Members can now use the " + "<col=000080>" + "Book of Char" + "</col>" + " (after The Firemaker's Curse).", "Members: Book of Char" + "<br>" + " (after The Firemaker's Curse)"
+
+			case 4:
+				return 13660, 79, "Members can now wear the " + "<col=000080>" + "Flame Gloves" + "</col>" + " (after All Fired Up).", "Members: Flame Gloves" + "<br>" + " (after All Fired Up)"
+
+			case 5:
+				return 13661, 92, "Members can now use the " + "<col=000080>" + "Inferno Adze" + "</col>" + " (after All Fired Up).", "Members: Inferno Adze" + "<br>" + " (after All Fired Up)"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To use the beacons, you must have completed All Fired Up."
+
+			case 1:
+				return 13662, 43, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "River Salve" + "</col>" + " (after All Fired Up).", "Members: Beacon near the River Salve"
+
+			case 2:
+				return 13662, 43, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Rag and Bone Man" + "</col>" + " (after All Fired Up).", "Members: Beacon near the Rag and Bone Man"
+
+			case 3:
+				return 13662, 48, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Jolly Boar" + "</col>" + " (after All Fired Up).", "Members: Beacon near the Jolly Boar"
+
+			case 4:
+				return 13662, 53, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " north of " + "<col=000080>" + "Varrock Palace" + "</col>" + " (after All Fired Up).", "Members: Beacon north of Varrock Palace"
+
+			case 5:
+				return 13662, 59, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Grand Exchange" + "</col>" + " (after All Fired Up).", "Members: Beacon near the Grand Exchange"
+
+			case 6:
+				return 13662, 62, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "Edgeville" + "</col>" + " (after All Fired Up).", "Members: Beacon near Edgeville"
+
+			case 7:
+				return 13662, 68, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "the Monastery" + "</col>" + " (after All Fired Up and after joining the Monastery).", "Members: Beacon near the Monastery" + "<br>" + " (after joining the Monastery)"
+
+			case 8:
+				return 13662, 72, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "Goblin Village" + "</col>" + " (after All Fired Up and Land of the Goblins).", "Members: Beacon near Goblin Village" + "<br>" + " (after Land of the Goblins)"
+
+			case 9:
+				return 13662, 76, "Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near " + "<col=000080>" + "Burthorpe" + "</col>" + ". (They also need level 56 Smithing and to have completed All Fired Up).", "Members: Beacon near Burthorpe" + "<br>" + " (with 56 Smithing)"
+
+			case 10:
+				return 13662, 79, "Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " east of " + "<col=000080>" + "Death Plateau" + "</col>" + ". (They also need level 42 Construction and to have completed All Fired Up).", "Members: Beacon east of Death Plateau" + "<br>" + " (with 42 Construction)"
+
+			case 11:
+				return 13662, 83, "Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "Trollheim shortcut" + "</col>" + ". (They also need level 64 Agility and to have completed All Fired Up).", "Members: Beacon near the Trollheim shortcut" + "<br>" + " (with 64 Agility)"
+
+			case 12:
+				return 13662, 87, "Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near the entrance to the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + ". (They also need level 60 Crafting and to have completed All Fired Up).", "Members: Beacon near the entrance to the God Wars Dungeon" + "<br>" + " (with 60 Crafting)"
+
+			case 13:
+				return 13662, 89, "Members now have the Firemaking level required to light the " + "<col=000080>" + "beacon" + "</col>" + " near the " + "<col=000080>" + "small temple in the Wilderness" + "</col>" + ". (They will also need level 70 Smithing or level 59 Construction, and to have completed All Fired Up).", "Members: Beacon near small temple in the Wilderness" + "<br>" + " (with 70 Smithing or 59 Construction)"
+
+			case 14:
+				return 13662, 92, "Members can now light the " + "<col=000080>" + "beacon" + "</col>" + " on the " + "<col=000080>" + "Frozen Waste Plateau" + "</col>" + " (after All Fired Up).", "Members: Beacon on the Frozen Waste Plateau"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Firemaking.", "Members: Starved ancient effigies"
+
+			case 1:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Firemaking.", "Members: Nourished ancient effigies"
+
+			case 2:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Firemaking.", "Members: Sated ancient effigies"
+
+			case 3:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Firemaking.", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14667, 1, "Members can now burn " + "<col=000080>" + "basic evil trees" + "</col>", "Members: Burn basic evil tree"
+
+			case 1:
+				return 14667, 15, "Members can now burn " + "<col=000080>" + "evil oak trees" + "</col>", "Members: Burn evil oak tree"
+
+			case 2:
+				return 14667, 30, "Members can now burn " + "<col=000080>" + "evil willow trees" + "</col>", "Members: Burn evil willow tree"
+
+			case 3:
+				return 14667, 45, "Members can now burn " + "<col=000080>" + "evil maple trees" + "</col>", "Members: Burn evil maple tree"
+
+			case 4:
+				return 14619, 55, "Members can now light the phoenix's " + "<col=000080>" + "funeral pyre" + "</col>" + " in the phoenix lair.", "Members: Phoenix Lair - funeral pyre"
+
+			case 5:
+				return 14667, 60, "Members can now burn " + "<col=000080>" + "evil yew trees" + "</col>", "Members: Burn evil yew tree"
+
+			case 6:
+				return 14667, 75, "Members can now burn " + "<col=000080>" + "evil magic trees" + "</col>", "Members: Burn evil magic tree"
+
+			case 7:
+				return 14667, 85, "Members can now burn " + "<col=000080>" + "elder evil trees" + "</col>", "Members: Burn elder evil tree"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Firemaking level increases, you will be able to attempt higher-level firemaking tasks within Daemonheim. You will also be more likely to succeed when attempting firemaking tasks within Daemonheim."
+
+			case 1:
+				return 17682, 1, "You can now light " + "<col=000080>" + "tangle gum branches" + "</col>" + " within Daemonheim.", "Tangle gum branches (Tier 1)"
+
+			case 2:
+				return 17684, 10, "You can now light " + "<col=000080>" + "seeping elm branches" + "</col>" + " within Daemonheim.", "Seeping elm branches (Tier 2)"
+
+			case 3:
+				return 17686, 20, "You can now light " + "<col=000080>" + "blood spindle branches" + "</col>" + " within Daemonheim.", "Blood spindle branches (Tier 3)"
+
+			case 4:
+				return 17688, 30, "You can now light " + "<col=000080>" + "utuku branches" + "</col>" + " within Daemonheim.", "Utuku branches (Tier 4)"
+
+			case 5:
+				return 17690, 40, "You can now light " + "<col=000080>" + "spinebeam branches" + "</col>" + " within Daemonheim.", "Spinebeam branches (Tier 5)"
+
+			case 6:
+				return 17692, 50, "Members can now light " + "<col=000080>" + "bovistrangler branches" + "</col>" + " within Daemonheim.", "Members: Bovistrangler branches (Tier 6)"
+
+			case 7:
+				return 17694, 60, "Members can now light " + "<col=000080>" + "thigat branches" + "</col>" + " within Daemonheim.", "Members: Thigat branches (Tier 7)"
+
+			case 8:
+				return 17696, 70, "Members can now light " + "<col=000080>" + "corpsethorn branches" + "</col>" + " within Daemonheim.", "Members: Corpsethorn branches (Tier 8)"
+
+			case 9:
+				return 17698, 80, "Members can now light " + "<col=000080>" + "entgallow branches" + "</col>" + " within Daemonheim.", "Members: Entgallow branches (Tier 9)"
+
+			case 10:
+				return 17700, 90, "Members can now light " + "<col=000080>" + "grave creeper branches" + "</col>" + " within Daemonheim.", "Members: Grave creeper branches (Tier 10)"
+
+
+		}
+		break
+	case 8:
+		if(arg1 == 0)
+			return 9804, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Firemaking" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "Ignatius" + "<col=000080>" + ", south of " + "<col=800000>" + "Seers' Village" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Firemaking" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+
+}
+return -1, 0, "", ""

@@ -1,0 +1,32 @@
+//script6408(6408)()(void)
+if(load_varpbit(4775) == 1)
+	script_6414(85721124, 1)
+else
+	if(load_varpbit(4781) < 300)
+		script_6414(85721124, 0)
+if(load_varpbit(4776) == 1)
+	script_6414(85721126, 1)
+else
+	if(load_varpbit(4781) < 300)
+		script_6414(85721126, 0)
+if(load_varpbit(4777) == 1)
+	script_6414(85721128, 1)
+else
+	if(load_varpbit(4781) < 400)
+		script_6414(85721128, 0)
+if(load_varpbit(7235) == 1)
+	script_6414(85721325, 1)
+else
+	if(load_varpbit(4781) < 50)
+		script_6414(85721325, 0)
+if(load_varpbit(7237) == 1)
+	script_6414(85721328, 1)
+else
+	if(load_varpbit(4781) < 400)
+		script_6414(85721328, 0)
+if(load_varpbit(7236) == 1)
+	script_6414(85721330, 1)
+else
+	if(load_varpbit(4781) < 2000)
+		script_6414(85721330, 0)
+return

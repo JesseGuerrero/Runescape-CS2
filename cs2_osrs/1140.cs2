@@ -1,0 +1,57 @@
+void script_1140(Widget widget0, int arg1, int arg2) {
+	Skill skill3;
+	string str0;
+	str0 = datamap('i', 's', 108, arg1);
+	skill3 = datamap('i', 'S', 681, arg1);
+	widget0.setContextMenuOption(1, "Protect");
+	widget0.setOptionBase(str0);
+	widget0.hookOptionClick(&script_1142(CTX_MENU_OPTION, widget0, arg1));
+	widget0.hookVARP(&script_1141(widget0, arg1), 1295);
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setPosition(-2, -2, 0, 0);
+	CHILD.setSize(36, 36, 0, 0);
+	CHILD.setSprite(174);
+	CHILD.createChild(widget0, 5, 1);
+	CHILD.setPosition(28, -2, 0, 0);
+	CHILD.setSize(36, 36, 0, 0);
+	CHILD.setSprite(176);
+	CHILD.createChild(widget0, 5, 2);
+	CHILD.setPosition(3 + arg2, 4, 0, 0);
+	CHILD.setSize(25, 25, 0, 0);
+	CHILD.setSprite(datamap('S', 'd', 255, skill3));
+	CHILD.createChild(widget0, 4, 3);
+	CHILD.setPosition(30, 3, 0, 0);
+	CHILD.setSize(32, 12, 0, 0);
+	CHILD.setRGB(0xFFFF00);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.createChild(widget0, 5, 4);
+	CHILD.setPosition(-2, -2, 0, 0);
+	CHILD.setSize(36, 36, 0, 0);
+	CHILD.setSprite(177);
+	CHILD.setTrans(128);
+	CHILD.createChild(widget0, 5, 5);
+	CHILD.setPosition(28, -2, 0, 0);
+	CHILD.setSize(36, 36, 0, 0);
+	CHILD.setSprite(178);
+	CHILD.setTrans(128);
+	CHILD.createChild(widget0, 4, 6);
+	CHILD.setPosition(30, 13, 0, 0);
+	CHILD.setSize(32, 16, 0, 0);
+	CHILD.setRGB(0xFFFF00);
+	CHILD.setFont(496);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.createChild(widget0, 3, 7);
+	CHILD.setPosition(38, 7, 0, 0);
+	CHILD.setSize(17, 2, 0, 0);
+	CHILD.setRGB(0xFF0000);
+	if (isBitFlagged(VARP[1295], arg1 - 1) == true) {
+		script_1145(widget0, arg1);
+	} else {
+		script_1146(widget0, arg1);
+	}
+	return;
+}

@@ -1,0 +1,13 @@
+//script1659(1659)()(void)
+if(load_varc(1733) == 1) {
+	if_setgraphic(if_gethash(1180, 30), 3303)
+	if_sethide(if_gethash(1180, 11), 1)
+	instr6213(if_gethash(1180, 43), 1, "Hide")
+}
+if(load_varc(1734) == 1) {
+	if_set2dangle(if_gethash(1180, 43), 32768)
+	if_sethide(if_gethash(1180, 41), 1)
+	if_setsize(if_gethash(1180, 6), 0, 0, 50, 172)
+	instr6213(if_gethash(1180, 43), 1, "Unhide")
+}
+return

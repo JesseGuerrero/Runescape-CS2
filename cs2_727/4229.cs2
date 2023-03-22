@@ -1,0 +1,8 @@
+//script4229(4229)(int arg0, string arg1)(void)
+if(inv_total(2883, 93) > 0 || inv_getitem(3, 94) == 2883 || inv_total(4827, 93) > 0 || inv_getitem(3, 94) == 4827)
+	if(load_varp(294) >= arg0) {
+		cc_settext(arg0 + "<br>" + "Kills: " + to_string(arg0))
+		return
+	}
+cc_settext(arg0 + "<br>" + "<col=ff0000>" + "Kills: " + to_string(arg0))
+return

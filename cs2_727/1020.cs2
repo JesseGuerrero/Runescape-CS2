@@ -1,0 +1,1041 @@
+//script1020(1020)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 12047, 1, "You can now infuse " + "<col=000080>" + "spirit wolf pouches" + "</col>" + ".", "Spirit wolf - Attack XP" + "<br>" + "Gold charm, wolf bones, 7 shards"
+
+			case 1:
+				return 12043, 4, "You can now infuse " + "<col=000080>" + "dreadfowl pouches" + "</col>" + ".", "Dreadfowl - Magic XP" + "<br>" + "Gold charm, raw chicken, 8 shards"
+
+			case 2:
+				return 19622, 4, "You can now summon " + "<col=000080>" + "meerkats" + "</col>" + ".", "Meerkats" + "<br>" + "Obtained from Treasure Trails."
+
+			case 3:
+				return 12059, 10, "You can now infuse " + "<col=000080>" + "spirit spider pouches" + "</col>" + ".", "Spirit spider - Controlled XP" + "<br>" + "Gold charm, spider carcass, 8 shards"
+
+			case 4:
+				return 12019, 13, "You can now infuse " + "<col=000080>" + "thorny snail pouches" + "</col>" + ".", "Thorny snail - Ranged XP" + "<br>" + "Gold charm, raw thin snail, 9 shards"
+
+			case 5:
+				return 12009, 16, "You can now infuse " + "<col=000080>" + "granite crab pouches" + "</col>" + ".", "Granite crab - Defence XP" + "<br>" + "Gold charm, iron ore, 7 shards"
+
+			case 6:
+				return 12778, 17, "You can now infuse " + "<col=000080>" + "spirit mosquito pouches" + "</col>" + ".", "Spirit mosquito - Attack XP" + "<br>" + "Gold charm, proboscis, 1 shard"
+
+			case 7:
+				return 12049, 18, "You can now infuse " + "<col=000080>" + "desert wyrm pouches" + "</col>" + ".", "Desert wyrm - Strength XP" + "<br>" + "Green charm, bucket of sand, 45 shards"
+
+			case 8:
+				return 12055, 19, "You can now infuse " + "<col=000080>" + "spirit scorpion pouches" + "</col>" + ".", "Spirit scorpion - Controlled XP" + "<br>" + "Crimson charm, bronze claws, 57 shards"
+
+			case 9:
+				return 12808, 22, "You can now infuse " + "<col=000080>" + "spirit Tz-Kih pouches" + "</col>" + ".", "Spirit Tz-Kih - Magic XP" + "<br>" + "Crimson charm, obsidian charm, 64 shards"
+
+			case 10:
+				return 12067, 23, "You can now infuse " + "<col=000080>" + "albino rat pouches" + "</col>" + ".", "Albino rat - Attack XP" + "<br>" + "Blue charm, raw rat meat, 75 shards"
+
+			case 11:
+				return 12063, 25, "You can now infuse " + "<col=000080>" + "spirit kalphite pouches" + "</col>" + ".", "Spirit kalphite - Defence XP" + "<br>" + "Blue charm, potato cactus, 51 shards"
+
+			case 12:
+				return 12091, 28, "You can now infuse " + "<col=000080>" + "compost mound pouches" + "</col>" + ".", "Compost mound - Strength XP" + "<br>" + "Green charm, compost, 47 shards"
+
+			case 13:
+				return 12800, 29, "You can now infuse " + "<col=000080>" + "giant chinchompa pouches" + "</col>" + ".", "Giant chinchompa - Ranged XP" + "<br>" + "Blue charm, chinchompa, 84 shards"
+
+			case 14:
+				return 12053, 31, "You can now infuse " + "<col=000080>" + "vampyre bat pouches" + "</col>" + ".", "Vampyre bat - Controlled XP" + "<br>" + "Crimson charm, vampyre dust, 81 shards"
+
+			case 15:
+				return 12065, 32, "You can now infuse " + "<col=000080>" + "honey badger pouches" + "</col>" + ".", "Honey badger - Strength XP" + "<br>" + "Crimson charm, honeycomb, 84 shards"
+
+			case 16:
+				return 12021, 33, "You can now infuse " + "<col=000080>" + "beaver pouches" + "</col>" + ".", "Beaver" + "<br>" + "Green charm, willow logs, 72 shards"
+
+			case 17:
+				return 12818, 34, "You can now infuse " + "<col=000080>" + "void ravager pouches" + "</col>" + ".", "Void ravager - Strength XP" + "<br>" + "Green charm, ravager charm, 74 shards"
+
+			case 18:
+				return 12780, 34, "You can now infuse " + "<col=000080>" + "void spinner pouches" + "</col>" + ".", "Void spinner - Defence XP" + "<br>" + "Blue charm, spinner charm, 74 shards"
+
+			case 19:
+				return 12798, 34, "You can now infuse " + "<col=000080>" + "void torcher pouches" + "</col>" + ".", "Void torcher - Magic XP" + "<br>" + "Blue charm, torcher charm, 74 shards"
+
+			case 20:
+				return 12814, 34, "You can now infuse " + "<col=000080>" + "void shifter pouches" + "</col>" + ".", "Void shifter - Attack XP" + "<br>" + "Blue charm, shifter charm, 74 shards"
+
+			case 21:
+				return 12073, 36, "You can now infuse " + "<col=000080>" + "bronze minotaur pouches" + "</col>" + ".", "Bronze minotaur - Defence XP" + "<br>" + "Blue charm, bronze bar, 102 shards"
+
+			case 22:
+				return 12087, 40, "You can now infuse " + "<col=000080>" + "bull ant pouches" + "</col>" + ".", "Bull ant - Controlled XP" + "<br>" + "Gold charm, marigolds, 11 shards"
+
+			case 23:
+				return 12071, 41, "You can now infuse " + "<col=000080>" + "macaw pouches" + "</col>" + ".", "Macaw" + "<br>" + "Green charm, guam, 78 shards"
+
+			case 24:
+				return 12051, 42, "You can now infuse " + "<col=000080>" + "evil turnip pouches" + "</col>" + ".", "Evil turnip - Ranged XP" + "<br>" + "Crimson charm, carved turnip, 104 shards"
+
+			case 25:
+				return 12095, 43, "You can now infuse " + "<col=000080>" + "spirit cockatrice pouches" + "</col>" + ".", "Spirit cockatrice - Magic XP" + "<br>" + "Green charm, cockatrice egg, 88 shards"
+
+			case 26:
+				return 12097, 43, "You can now infuse " + "<col=000080>" + "spirit guthatrice pouches" + "</col>" + ".", "Spirit guthatrice - Magic XP" + "<br>" + "Green charm, guthatrice egg, 88 shards"
+
+			case 27:
+				return 12099, 43, "You can now infuse " + "<col=000080>" + "spirit saratrice pouches" + "</col>" + ".", "Spirit saratrice - Magic XP" + "<br>" + "Green charm, saratrice egg, 88 shards"
+
+			case 28:
+				return 12101, 43, "You can now infuse " + "<col=000080>" + "spirit zamatrice pouches" + "</col>" + ".", "Spirit zamatrice - Magic XP" + "<br>" + "Green charm, zamatrice egg, 88 shards"
+
+			case 29:
+				return 12103, 43, "You can now infuse " + "<col=000080>" + "spirit pengatrice pouches" + "</col>" + ".", "Spirit pengatrice - Magic XP" + "<br>" + "Green charm, pengatrice egg, 88 shards"
+
+			case 30:
+				return 12105, 43, "You can now infuse " + "<col=000080>" + "spirit coraxatrice pouches" + "</col>" + ".", "Spirit coraxatrice - Magic XP" + "<br>" + "Green charm, coraxatrice egg, 88 shards"
+
+			case 31:
+				return 12107, 43, "You can now infuse " + "<col=000080>" + "spirit vulatrice pouches" + "</col>" + ".", "Spirit vulatrice - Magic XP" + "<br>" + "Green charm, vulatrice egg, 88 shards"
+
+			case 32:
+				return 12075, 46, "You can now infuse " + "<col=000080>" + "iron minotaur pouches" + "</col>" + ".", "Iron minotaur - Defence XP" + "<br>" + "Blue charm, iron bar, 125 shards"
+
+			case 33:
+				return 12816, 46, "You can now infuse " + "<col=000080>" + "pyrelord" + "</col>" + " pouches.", "Pyrelord - Strength XP" + "<br>" + "Crimson charm, tinderbox, 111 shards"
+
+			case 34:
+				return 12041, 47, "You can now infuse " + "<col=000080>" + "magpie pouches" + "</col>" + ".", "Magpie" + "<br>" + "Green charm, gold ring, 88 shards"
+
+			case 35:
+				return 12061, 49, "You can now infuse " + "<col=000080>" + "bloated leech pouches" + "</col>" + ".", "Bloated leech - Attack XP" + "<br>" + "Crimson charm, raw beef, 117 shards"
+
+			case 36:
+				return 12007, 52, "You can now infuse " + "<col=000080>" + "spirit terrorbird pouches" + "</col>" + ".", "Spirit terrorbird - Controlled XP" + "<br>" + "Gold charm, raw bird meat, 12 shards"
+
+			case 37:
+				return 12035, 54, "You can now infuse " + "<col=000080>" + "abyssal parasite pouches" + "</col>" + ".", "Abyssal parasite - Magic XP" + "<br>" + "Green charm, abyssal charm, 106 shards"
+
+			case 38:
+				return 12027, 55, "You can now infuse " + "<col=000080>" + "spirit jelly pouches" + "</col>" + ".", "Spirit jelly - Strength XP" + "<br>" + "Blue charm, jug of water, 151 shards"
+
+			case 39:
+				return 12077, 56, "You can now infuse " + "<col=000080>" + "steel minotaur pouches" + "</col>" + ".", "Steel minotaur - Defence XP" + "<br>" + "Blue charm, steel bar, 141 shards"
+
+			case 40:
+				return 12531, 56, "You can now infuse " + "<col=000080>" + "ibis pouches" + "</col>" + ".", "Ibis" + "<br>" + "Green charm, harpoon, 109 shards"
+
+			case 41:
+				return 12812, 57, "You can now infuse " + "<col=000080>" + "spirit kyatt pouches" + "</col>" + ".", "Spirit kyatt - Attack XP" + "<br>" + "Blue charm, kyatt fur, 153 shards"
+
+			case 42:
+				return 12784, 57, "You can now infuse " + "<col=000080>" + "spirit larupia pouches" + "</col>" + ".", "Spirit larupia - Controlled XP" + "<br>" + "Blue charm, larupia fur, 155 shards"
+
+			case 43:
+				return 12810, 57, "You can now infuse " + "<col=000080>" + "spirit graahk pouches" + "</col>" + ".", "Spirit graahk - Strength XP" + "<br>" + "Blue charm, graahk fur, 154 shards"
+
+			case 44:
+				return 12023, 58, "You can now infuse " + "<col=000080>" + "karamthulhu overlord pouches" + "</col>" + ".", "Karamthulhu overlord - Ranged XP" + "<br>" + "Blue charm, empty fishbowl, 144 shards"
+
+			case 45:
+				return 12085, 61, "You can now infuse " + "<col=000080>" + "smoke devil pouches" + "</col>" + ".", "Smoke devil - Magic XP" + "<br>" + "Crimson charm, goat's horn dust, 141 shards"
+
+			case 46:
+				return 12037, 62, "You can now infuse " + "<col=000080>" + "abyssal lurker pouches" + "</col>" + ".", "Abyssal lurker - Controlled XP" + "<br>" + "Green charm, abyssal charm, 119 shards"
+
+			case 47:
+				return 12015, 63, "You can now infuse " + "<col=000080>" + "spirit cobra pouches" + "</col>" + ".", "Spirit cobra - Attack XP" + "<br>" + "Crimson charm, snake hide, 116 shards"
+
+			case 48:
+				return 12045, 64, "You can now infuse " + "<col=000080>" + "stranger plant pouches" + "</col>" + ".", "Stranger plant - Controlled XP" + "<br>" + "Crimson charm, bagged plant, 128 shards"
+
+			case 49:
+				return 12079, 66, "You can now infuse " + "<col=000080>" + "mithril minotaur pouches" + "</col>" + ".", "Mithril minotaur - Defence XP" + "<br>" + "Blue charm, mithril bar, 152 shards"
+
+			case 50:
+				return 12123, 66, "You can now infuse " + "<col=000080>" + "barker toad pouches" + "</col>" + ".", "Barker toad - Strength XP" + "<br>" + "Gold charm, swamp toad, 11 shards"
+
+			case 51:
+				return 12031, 67, "You can now infuse " + "<col=000080>" + "war tortoise pouches" + "</col>" + ".", "War tortoise - Defence XP" + "<br>" + "Gold charm, tortoise shell, 1 shard"
+
+			case 52:
+				return 12029, 68, "You can now infuse " + "<col=000080>" + "bunyip pouches" + "</col>" + ".", "Bunyip - Attack XP" + "<br>" + "Green charm, raw shark, 110 shards"
+
+			case 53:
+				return 12033, 69, "You can now infuse " + "<col=000080>" + "fruit bat pouches" + "</col>" + ".", "Fruit bat" + "<br>" + "Green charm, banana, 130 shards"
+
+			case 54:
+				return 12820, 70, "You can now infuse " + "<col=000080>" + "ravenous locust pouches" + "</col>" + ".", "Ravenous locust - Attack XP" + "<br>" + "Crimson charm, pot of flour, 79 shards"
+
+			case 55:
+				return 12057, 71, "You can now infuse " + "<col=000080>" + "arctic bear pouches" + "</col>" + ".", "Arctic bear - Controlled XP" + "<br>" + "Gold charm, polar kebbit fur, 14 shards"
+
+			case 56:
+				return 14623, 72, "You can now infuse " + "<col=000080>" + "phoenix pouches" + "</col>" + " (after In Pyre Need)" + "</col>" + ".", "Phoenix - Magic XP" + "<br>" + "Crimson charm, phoenix quill, 165 shards (after In Pyre Need)"
+
+			case 57:
+				return 12792, 73, "You can now infuse " + "<col=000080>" + "obsidian golem pouches" + "</col>" + ".", "Obsidian golem - Strength XP" + "<br>" + "Blue charm, obsidian charm, 195 shards"
+
+			case 58:
+				return 12069, 74, "You can now infuse " + "<col=000080>" + "granite lobster pouches" + "</col>" + ".", "Granite lobster - Defence XP" + "<br>" + "Crimson charm, granite (500g, 2kg or 5kg), 166 shards"
+
+			case 59:
+				return 12011, 75, "You can now infuse " + "<col=000080>" + "praying mantis pouches" + "</col>" + ".", "Praying mantis - Attack XP" + "<br>" + "Crimson charm, flowers (any except black or white), 168 shards"
+
+			case 60:
+				return 12782, 76, "You can now infuse " + "<col=000080>" + "forge regent pouches" + "</col>" + ".", "Forge regent - Ranged XP" + "<br>" + "Green charm, ruby harvest, 141 shards"
+
+			case 61:
+				return 12081, 76, "You can now infuse " + "<col=000080>" + "adamant minotaur pouches" + "</col>" + ".", "Adamant minotaur - Defence XP" + "<br>" + "Blue charm, adamant bar, 144 shards"
+
+			case 62:
+				return 12794, 77, "You can now infuse " + "<col=000080>" + "talon beast pouches" + "</col>" + ".", "Talon beast - Strength XP" + "<br>" + "Crimson charm, talon beast charm, 174 shards"
+
+			case 63:
+				return 12013, 78, "You can now infuse " + "<col=000080>" + "giant ent pouches" + "</col>" + ".", "Giant ent - Controlled XP" + "<br>" + "Green charm, willow branch, 124 shards"
+
+			case 64:
+				return 12802, 79, "You can now infuse " + "<col=000080>" + "fire titan pouches" + "</col>" + ".", "Fire titan - Magic XP" + "<br>" + "Blue charm, fire talisman, 198 shards"
+
+			case 65:
+				return 12804, 79, "You can now infuse " + "<col=000080>" + "moss titan pouches" + "</col>" + ".", "Moss titan - Strength XP" + "<br>" + "Blue charm, earth talisman, 202 shards"
+
+			case 66:
+				return 12806, 79, "You can now infuse " + "<col=000080>" + "ice titan pouches" + "</col>" + ".", "Ice titan - Attack XP" + "<br>" + "Blue charm, air talisman, water talisman, 198 shards"
+
+			case 67:
+				return 12025, 80, "You can now infuse " + "<col=000080>" + "hydra pouches" + "</col>" + ".", "Hydra - Ranged XP" + "<br>" + "Green charm, water orb, 128 shards"
+
+			case 68:
+				return 12017, 83, "You can now infuse " + "<col=000080>" + "spirit dagannoth pouches" + "</col>" + ".", "Spirit dagannoth - Controlled XP" + "<br>" + "Crimson charm, dagannoth hide, 1 shard"
+
+			case 69:
+				return 12788, 83, "You can now infuse " + "<col=000080>" + "lava titan pouches" + "</col>" + ".", "Lava titan - Strength XP" + "<br>" + "Blue charm, obsidian charm, 219 shards"
+
+			case 70:
+				return 12776, 85, "You can now infuse " + "<col=000080>" + "swamp titan pouches" + "</col>" + ".", "Swamp titan - Attack XP" + "<br>" + "Crimson charm, swamp lizard, 150 shards"
+
+			case 71:
+				return 12083, 86, "You can now infuse " + "<col=000080>" + "rune minotaur pouches" + "</col>" + ".", "Rune minotaur - Defence XP" + "<br>" + "Blue charm, rune bar, 1 shard"
+
+			case 72:
+				return 12039, 88, "You can now infuse " + "<col=000080>" + "unicorn stallion pouches" + "</col>" + ".", "Unicorn stallion - Controlled XP" + "<br>" + "Green charm, unicorn horn, 140 shards"
+
+			case 73:
+				return 12786, 89, "You can now infuse " + "<col=000080>" + "geyser titan pouches" + "</col>" + ".", "Geyser titan - Ranged XP" + "<br>" + "Blue charm, water talisman, 222 shards"
+
+			case 74:
+				return 12089, 92, "You can now infuse " + "<col=000080>" + "wolpertinger pouches" + "</col>" + ".", "Wolpertinger - Magic XP" + "<br>" + "Crimson charm, raw rabbit, wolf bones, 203 shards"
+
+			case 75:
+				return 12796, 93, "You can now infuse " + "<col=000080>" + "abyssal titan pouches" + "</col>" + ".", "Abyssal titan - Attack XP" + "<br>" + "Green charm, abyssal charm, 113 shards"
+
+			case 76:
+				return 12822, 95, "You can now infuse " + "<col=000080>" + "iron titan pouches" + "</col>" + ".", "Iron titan - Defence XP" + "<br>" + "Crimson charm, iron platebody, 198 shards"
+
+			case 77:
+				return 12093, 96, "You can now infuse " + "<col=000080>" + "pack yak pouches" + "</col>" + ".", "Pack yak - Strength XP" + "<br>" + "Crimson charm, yak hide, 211 shards"
+
+			case 78:
+				return 12790, 99, "You can now infuse " + "<col=000080>" + "steel titan pouches" + "</col>" + ".", "Steel titan - Ranged XP" + "<br>" + "Crimson charm, steel platebody, 178 shards"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 12425, 1, "You can now use " + "<col=000080>" + "Howl scrolls" + "</col>" + ".", "Howl"
+
+			case 1:
+				return 12445, 4, "You can now use " + "<col=000080>" + "Dreadfowl Strike scrolls" + "</col>" + ".", "Dreadfowl Strike"
+
+			case 2:
+				return 19621, 4, "You can now use " + "<col=000080>" + "Fetch Casket scrolls" + "</col>" + ".", "Fetch Casket"
+
+			case 3:
+				return 12428, 10, "You can now use " + "<col=000080>" + "Egg Spawn scrolls" + "</col>" + ".", "Egg Spawn"
+
+			case 4:
+				return 12459, 13, "You can now use " + "<col=000080>" + "Slime Spray scrolls" + "</col>" + ".", "Slime Spray"
+
+			case 5:
+				return 12533, 16, "You can now use " + "<col=000080>" + "Stony Shell scrolls" + "</col>" + ".", "Stony Shell"
+
+			case 6:
+				return 12838, 17, "You can now use " + "<col=000080>" + "Pester scrolls" + "</col>" + ".", "Pester"
+
+			case 7:
+				return 12460, 18, "You can now use " + "<col=000080>" + "Electric Lash scrolls" + "</col>" + ".", "Electric Lash"
+
+			case 8:
+				return 12432, 19, "You can now use " + "<col=000080>" + "Venom Shot scrolls" + "</col>" + ".", "Venom Shot"
+
+			case 9:
+				return 12839, 22, "You can now use " + "<col=000080>" + "Fireball Assault scrolls" + "</col>" + ".", "Fireball Assault"
+
+			case 10:
+				return 12430, 23, "You can now use " + "<col=000080>" + "Cheese Feast scrolls" + "</col>" + ".", "Cheese Feast"
+
+			case 11:
+				return 12446, 25, "You can now use " + "<col=000080>" + "Sandstorm scrolls" + "</col>" + ".", "Sandstorm"
+
+			case 12:
+				return 12440, 28, "You can now use " + "<col=000080>" + "Generate Compost scrolls" + "</col>" + ".", "Generate Compost"
+
+			case 13:
+				return 12834, 29, "You can now use " + "<col=000080>" + "Explode scrolls" + "</col>" + ".", "Explode"
+
+			case 14:
+				return 12447, 31, "You can now use " + "<col=000080>" + "Vampyre Touch scrolls" + "</col>" + ".", "Vampyre Touch"
+
+			case 15:
+				return 12433, 32, "You can now use " + "<col=000080>" + "Insane Ferocity scrolls" + "</col>" + ".", "Insane Ferocity"
+
+			case 16:
+				return 12429, 33, "You can now use " + "<col=000080>" + "Multichop scrolls" + "</col>" + ".", "Multichop"
+
+			case 17:
+				return 12443, 34, "You can now use " + "<col=000080>" + "Call to Arms scrolls" + "</col>" + ".", "Call to Arms"
+
+			case 18:
+				return 12461, 36, "You can now use " + "<col=000080>" + "Bronze Bull Rush scrolls" + "</col>" + ".", "Bronze Bull Rush"
+
+			case 19:
+				return 12431, 40, "You can now use " + "<col=000080>" + "Unburden scrolls" + "</col>" + ".", "Unburden"
+
+			case 20:
+				return 12422, 41, "You can now use " + "<col=000080>" + "Herbcall scrolls" + "</col>" + ".", "Herbcall"
+
+			case 21:
+				return 12448, 42, "You can now use " + "<col=000080>" + "Evil Flames scrolls" + "</col>" + ".", "Evil Flames"
+
+			case 22:
+				return 12458, 43, "You can now use " + "<col=000080>" + "Petrifying Gaze scrolls" + "</col>" + ".", "Petrifying Gaze"
+
+			case 23:
+				return 12462, 46, "You can now use " + "<col=000080>" + "Iron Bull Rush scrolls" + "</col>" + ".", "Iron Bull Rush"
+
+			case 24:
+				return 12829, 46, "You can now use " + "<col=000080>" + "Immense Heat scrolls" + "</col>" + ".", "Immense Heat"
+
+			case 25:
+				return 12426, 47, "You can now use " + "<col=000080>" + "Thieving Fingers scrolls" + "</col>" + ".", "Thieving Fingers"
+
+			case 26:
+				return 12444, 49, "You can now use " + "<col=000080>" + "Blood Drain scrolls" + "</col>" + ".", "Blood Drain"
+
+			case 27:
+				return 12441, 52, "You can now use " + "<col=000080>" + "Tireless Run scrolls" + "</col>" + ".", "Tireless Run"
+
+			case 28:
+				return 12454, 54, "You can now use " + "<col=000080>" + "Abyssal Drain scrolls" + "</col>" + ".", "Abyssal Drain"
+
+			case 29:
+				return 12453, 55, "You can now use " + "<col=000080>" + "Dissolve scrolls" + "</col>" + ".", "Dissolve"
+
+			case 30:
+				return 12463, 56, "You can now use " + "<col=000080>" + "Steel Bull Rush scrolls" + "</col>" + ".", "Steel Bull Rush"
+
+			case 31:
+				return 12424, 56, "You can now use " + "<col=000080>" + "Fish Rain scrolls" + "</col>" + ".", "Fish Rain"
+
+			case 32:
+				return 12836, 57, "You can now use " + "<col=000080>" + "Ambush scrolls" + "</col>" + ".", "Ambush"
+
+			case 33:
+				return 12840, 57, "You can now use " + "<col=000080>" + "Rending scrolls" + "</col>" + ".", "Rending"
+
+			case 34:
+				return 12835, 57, "You can now use " + "<col=000080>" + "Goad scrolls" + "</col>" + ".", "Goad"
+
+			case 35:
+				return 12455, 58, "You can now use " + "<col=000080>" + "Doomsphere Device scrolls" + "</col>" + ".", "Doomsphere Device"
+
+			case 36:
+				return 12468, 61, "You can now use " + "<col=000080>" + "Dust Cloud scrolls" + "</col>" + ".", "Dust Cloud"
+
+			case 37:
+				return 12427, 62, "You can now use " + "<col=000080>" + "Abyssal Stealth scrolls" + "</col>" + ".", "Abyssal Stealth"
+
+			case 38:
+				return 12436, 63, "You can now use " + "<col=000080>" + "Ophidian Incubation scrolls" + "</col>" + ".", "Ophidian Incubation"
+
+			case 39:
+				return 12467, 64, "You can now use " + "<col=000080>" + "Poisonous Blast scrolls" + "</col>" + ".", "Poisonous Blast"
+
+			case 40:
+				return 12464, 66, "You can now use " + "<col=000080>" + "Mithril Bull Rush scrolls" + "</col>" + ".", "Mithril Bull Rush"
+
+			case 41:
+				return 12452, 66, "You can now use " + "<col=000080>" + "Toad Bark scrolls" + "</col>" + ".", "Toad Bark"
+
+			case 42:
+				return 12439, 67, "You can now use " + "<col=000080>" + "Testudo scrolls" + "</col>" + ".", "Testudo"
+
+			case 43:
+				return 12438, 68, "You can now use " + "<col=000080>" + "Swallow Whole scrolls" + "</col>" + ".", "Swallow Whole"
+
+			case 44:
+				return 12423, 69, "You can now use " + "<col=000080>" + "Fruitfall scrolls" + "</col>" + ".", "Fruitfall"
+
+			case 45:
+				return 12830, 70, "You can now use " + "<col=000080>" + "Famine scrolls" + "</col>" + ".", "Famine"
+
+			case 46:
+				return 12451, 71, "You can now use " + "<col=000080>" + "Arctic Blast scrolls" + "</col>" + ".", "Arctic Blast"
+
+			case 47:
+				return 14622, 72, "You can now use " + "<col=000080>" + "Rise from the Ashes scrolls" + "</col>" + " (after In Pyre Need).", "Rise from the Ashes (after In Pyre Need)"
+
+			case 48:
+				return 12826, 73, "You can now use " + "<col=000080>" + "Volcanic Strength scrolls" + "</col>" + ".", "Volcanic Strength"
+
+			case 49:
+				return 12449, 74, "You can now use " + "<col=000080>" + "Crushing Claw scrolls" + "</col>" + ".", "Crushing Claw"
+
+			case 50:
+				return 12450, 75, "You can now use " + "<col=000080>" + "Mantis Strike scrolls" + "</col>" + ".", "Mantis Strike"
+
+			case 51:
+				return 12841, 76, "You can now use " + "<col=000080>" + "Inferno scrolls" + "</col>" + ".", "Inferno"
+
+			case 52:
+				return 12465, 76, "You can now use " + "<col=000080>" + "Adamant Bull Rush scrolls" + "</col>" + ".", "Adamant Bull Rush"
+
+			case 53:
+				return 12831, 77, "You can now use " + "<col=000080>" + "Deadly Claw scrolls" + "</col>" + ".", "Deadly Claw"
+
+			case 54:
+				return 12457, 78, "You can now use " + "<col=000080>" + "Acorn Missile scrolls" + "</col>" + ".", "Acorn Missile"
+
+			case 55:
+				return 12824, 79, "You can now use " + "<col=000080>" + "Titan's Constitution scrolls" + "</col>" + ".", "Titan's Constitution"
+
+			case 56:
+				return 12442, 80, "You can now use " + "<col=000080>" + "Regrowth scrolls" + "</col>" + ".", "Regrowth"
+
+			case 57:
+				return 12456, 83, "You can now use " + "<col=000080>" + "Spike Shot scrolls" + "</col>" + ".", "Spike Shot"
+
+			case 58:
+				return 12837, 83, "You can now use " + "<col=000080>" + "Ebon Thunder scrolls" + "</col>" + ".", "Ebon Thunder"
+
+			case 59:
+				return 12832, 85, "You can now use " + "<col=000080>" + "Swamp Plague scrolls" + "</col>" + ".", "Swamp Plague"
+
+			case 60:
+				return 12466, 86, "You can now use " + "<col=000080>" + "Rune Bull Rush scrolls" + "</col>" + ".", "Rune Bull Rush"
+
+			case 61:
+				return 12434, 88, "You can now use " + "<col=000080>" + "Healing Aura scrolls" + "</col>" + ".", "Healing Aura"
+
+			case 62:
+				return 12833, 89, "You can now use " + "<col=000080>" + "Boil scrolls" + "</col>" + ".", "Boil"
+
+			case 63:
+				return 12437, 92, "You can now use " + "<col=000080>" + "Magic Focus scrolls" + "</col>" + ".", "Magic Focus"
+
+			case 64:
+				return 12827, 93, "You can now use " + "<col=000080>" + "Essence Shipment scrolls" + "</col>" + ".", "Essence Shipment"
+
+			case 65:
+				return 12828, 95, "You can now use " + "<col=000080>" + "Iron Within scrolls" + "</col>" + ".", "Iron Within"
+
+			case 66:
+				return 12435, 96, "You can now use " + "<col=000080>" + "Winter Storage scrolls" + "</col>" + ".", "Winter Storage"
+
+			case 67:
+				return 12825, 99, "You can now use " + "<col=000080>" + "Steel of Legends scrolls" + "</col>" + ".", "Steel of Legends"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 12196, 1, "You can now raise " + "<col=000080>" + "bulldogs" + "</col>" + ".", "Bulldog"
+
+			case 1:
+				return 12194, 1, "You can now raise " + "<col=000080>" + "dalmatians" + "</col>" + ".", "Dalmatian"
+
+			case 2:
+				return 12192, 1, "You can now raise " + "<col=000080>" + "greyhounds" + "</col>" + ".", "Greyhound"
+
+			case 3:
+				return 12193, 1, "You can now raise " + "<col=000080>" + "labradors" + "</col>" + ".", "Labrador"
+
+			case 4:
+				return 12195, 1, "You can now raise " + "<col=000080>" + "sheepdogs" + "</col>" + ".", "Sheepdog"
+
+			case 5:
+				return 12191, 1, "You can now raise " + "<col=000080>" + "terriers" + "</col>" + ".", "Terrier"
+
+			case 6:
+				return 14652, 4, "You can now keep " + "<col=000080>" + "creeping hands" + "</col>" + ".", "Creeping hand"
+
+			case 7:
+				return 14653, 4, "You can now keep " + "<col=000080>" + "minitrices" + "</col>" + ".", "Minitrice"
+
+			case 8:
+				return 14654, 4, "You can now keep " + "<col=000080>" + "baby basilisks" + "</col>" + ".", "Baby basilisk"
+
+			case 9:
+				return 14655, 4, "You can now keep " + "<col=000080>" + "baby kurasks" + "</col>" + ".", "Baby kurask"
+
+			case 10:
+				return 14651, 4, "You can now keep " + "<col=000080>" + "abyssal minions" + "</col>" + ".", "Abyssal minion"
+
+			case 11:
+				return 15483, 4, "You can now keep " + "<col=000080>" + "rune guardians" + "</col>" + " (after Rune Mechanics)", "Rune guardian" + "<br>" + " (after Rune Mechanics)"
+
+			case 12:
+				return 12488, 10, "You can now raise " + "<col=000080>" + "geckos" + "</col>" + ".", "Gecko"
+
+			case 13:
+				return 12547, 10, "You can now raise " + "<col=000080>" + "platypodes" + "</col>" + " (after As a First Resort...).", "Platypus" + "<br>" + " (after As a First Resort...)"
+
+			case 14:
+				return 14533, 23, "You can now raise " + "<col=000080>" + "broavs" + "</col>" + " " + "<br>" + " (after While Guthix Sleeps...).", "Broav" + "<br>" + " (after While Guthix Sleeps...)"
+
+			case 15:
+				return 12188, 30, "You can now raise " + "<col=000080>" + "penguins" + "</col>" + ".", "Penguin"
+
+			case 16:
+				return 18668, 37, "You can now raise " + "<col=000080>" + "tooth pets" + "</col>" + ".", "Tooth pet"
+
+			case 17:
+				return 12198, 40, "You can now raise " + "<col=000080>" + "giant crabs" + "</col>" + ".", "Giant crab"
+
+			case 18:
+				return 12485, 50, "You can now raise " + "<col=000080>" + "ravens" + "</col>" + ".", "Raven"
+
+			case 19:
+				return 12200, 60, "You can now raise " + "<col=000080>" + "squirrels" + "</col>" + ".", "Squirrel"
+
+			case 20:
+				return 12185, 70, "You can now raise " + "<col=000080>" + "Saradomin owls" + "</col>" + ".", "Saradomin owl"
+
+			case 21:
+				return 12187, 70, "You can now raise " + "<col=000080>" + "Guthix raptors" + "</col>" + ".", "Guthix raptor"
+
+			case 22:
+				return 12186, 70, "You can now raise " + "<col=000080>" + "Zamorak hawks" + "</col>" + ".", "Zamorak hawk"
+
+			case 23:
+				return 13336, 71, "You can now raise " + "<col=000080>" + "ex-ex-parrots" + "</col>" + " (after Rocking Out).", "Ex-ex-parrot" + "<br>" + " (after Rocking Out)"
+
+			case 24:
+				return 14627, 72, "You can now raise " + "<col=000080>" + "cute phoenix egglings" + "</col>" + " (after In Pyre Need).", "Cute phoenix eggling" + "<br>" + " (after In Pyre Need)"
+
+			case 25:
+				return 14626, 72, "You can now raise " + "<col=000080>" + "mean phoenix egglings" + "</col>" + " (after In Pyre Need).", "Mean phoenix eggling" + "<br>" + " (after In Pyre Need)"
+
+			case 26:
+				return 12199, 80, "You can now raise " + "<col=000080>" + "raccoons" + "</col>" + ".", "Raccoon"
+
+			case 27:
+				return 19894, 80, "You can now raise " + "<col=000080>" + "sneakerpeepers" + "</col>" + ". (You also need level 80 Dungeoneering.)", "Sneakerpeeper" + "<br>" + " (with 80 Dungeoneering)"
+
+			case 28:
+				return 12190, 85, "You can now raise " + "<col=000080>" + "vultures" + "</col>" + ".", "Vulture"
+
+			case 29:
+				return 12203, 90, "You can now raise " + "<col=000080>" + "chameleons" + "</col>" + ".", "Chameleon"
+
+			case 30:
+				return 12201, 95, "You can now raise " + "<col=000080>" + "monkeys" + "</col>" + ".", "Monkey"
+
+			case 31:
+				return 12197, 99, "You can now raise " + "<col=000080>" + "dragons" + "</col>" + ".", "Dragon"
+
+			case 32:
+				return 21512, 99, "You can now keep " + "<col=000080>" + "TzRek Jad" + "</col>" + ".", "TzRek Jad"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 12204, 10, "You can now use " + "<col=000080>" + "antlers" + "</col>" + ".", "Antlers"
+
+			case 1:
+				return 1161, 20, "You can now have " + "<col=000080>" + "adamant full helms" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 30 Defence).", "Adamant full helm" + "<br>" + " (with 30 Defence)"
+
+			case 2:
+				return 6326, 20, "You can now have " + "<col=000080>" + "snakeskin bandanas" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 30 Defence and level 30 Ranged).", "Snakeskin bandana" + "<br>" + " (with 30 Defence and 30 Ranged)"
+
+			case 3:
+				return 14636, 20, "You can now have " + "<col=000080>" + "Slayer helmets" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 10 Defence).", "Slayer helmet" + "<br>" + " (with 10 Defence)"
+
+			case 4:
+				return 12207, 30, "You can now use " + "<col=000080>" + "lizard skulls" + "</col>" + ".", "Lizard skull"
+
+			case 5:
+				return 3385, 30, "You can now have " + "<col=000080>" + "splitbark helms" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 40 Defence and level 40 Magic).", "Splitbark helm" + "<br>" + " (with 40 Defence and 40 Magic)"
+
+			case 6:
+				return 1163, 30, "You can now have " + "<col=000080>" + "rune full helms" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 40 Defence).", "Rune full helm" + "<br>" + " (with 40 Defence)"
+
+			case 7:
+				return 3751, 35, "You can now have " + "<col=000080>" + "Berserker helms" + "</col>" + " enchanted to hold Summoning scrolls. (After Fremennik Trials and with level 45 Defence).", "Berserker helm" + "<br>" + " (after Fremennik Trials with 45 Defence)"
+
+			case 8:
+				return 3755, 35, "You can now have " + "<col=000080>" + "Farseer helms" + "</col>" + " enchanted to hold Summoning scrolls. (After Fremennik Trials and with level 45 Defence).", "Farseer helm" + "<br>" + " (after Fremennik Trials with 45 Defence)"
+
+			case 9:
+				return 3749, 35, "You can now have " + "<col=000080>" + "Archer helms" + "</col>" + " enchanted to hold Summoning scrolls. (After Fremennik Trials and with level 45 Defence).", "Archer helm" + "<br>" + " (after Fremennik Trials with 45 Defence)"
+
+			case 10:
+				return 3753, 35, "You can now have " + "<col=000080>" + "Warrior helms" + "</col>" + " enchanted to hold Summoning scrolls. (After Fremennik Trials and with level 45 Defence).", "Warrior helm" + "<br>" + " (after Fremennik Trials with 45 Defence)"
+
+			case 11:
+				return 10828, 45, "You can now have the " + "<col=000080>" + "Helm of Neitiznot" + "</col>" + " enchanted to hold Summoning scrolls (after Fremennik Isles).", "Helm of Neitiznot" + "<br>" + " (after Fremennik Isles)"
+
+			case 12:
+				return 12210, 50, "You can now use " + "<col=000080>" + "feather headdresses" + "</col>" + ". (You also need Level 79 Crafting to make feather headdresses).", "Feather headdress"
+
+			case 13:
+				return 1149, 50, "You can now have " + "<col=000080>" + "dragon helms" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 60 Defence.)", "Dragon helm" + "<br>" + " (with 60 Defence)"
+
+			case 14:
+				return 19893, 50, "You can now wear " + "<col=000080>" + "spirit capes" + "</col>" + ". (You also need level 50 Defence and 50 Dungeoneering.)", "Spirit cape" + "<br>" + " (with 50 Defence and 50 Dungeoneering)"
+
+			case 15:
+				return 9096, 55, "You can now have " + "<col=000080>" + "lunar helms" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 40 Defence and level 65 Magic.)", "Lunar helm" + "<br>" + " (with 40 Defence and 65 Magic)"
+
+			case 16:
+				return 11718, 60, "You can now have " + "<col=000080>" + "Armadyl helms" + "</col>" + " enchanted to hold Summoning scrolls. (You also need level 70 Defence and level 70 Ranged.)", "Armadyl helm" + "<br>" + " (with 70 Defence and 70 Ranged)"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18778, 91, "You can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using your knowledge of Summoning.", "Starved ancient effigies"
+
+			case 1:
+				return 18779, 93, "You can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using your knowledge of Summoning.", "Nourished ancient effigies"
+
+			case 2:
+				return 18780, 95, "You can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using your knowledge of Summoning.", "Sated ancient effigies"
+
+			case 3:
+				return 18781, 97, "You can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using your knowledge of Summoning.", "Gorged ancient effigies"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14422, 1, "You can now summon " + "<col=000080>" + "class 1 clay beings" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 1 clay being - Strength XP"
+
+			case 1:
+				return 14424, 20, "You can now summon " + "<col=000080>" + "class 2 clay beings" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 2 clay being - Strength XP"
+
+			case 2:
+				return 14426, 40, "You can now summon " + "<col=000080>" + "class 3 clay beings" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 3 clay being - Strength XP"
+
+			case 3:
+				return 14428, 60, "You can now summon " + "<col=000080>" + "class 4 clay beings" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 4 clay being - Strength XP"
+
+			case 4:
+				return 14430, 80, "You can now summon " + "<col=000080>" + "class 5 clay beings" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 5 clay being - Strength XP"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Summoning level increases, you will be able to attempt higher-level summoning tasks within Daemonheim. You will also be more likely to succeed when attempting summoning tasks within Daemonheim."
+
+			case 1:
+				return 17935, 1, "You can now infuse " + "<col=000080>" + "cub bloodrager pouches" + "</col>" + " within Daemonheim.", "Cub bloodrager (Melee, tier 1)" + "<br>" + "Gold charm, novite ore"
+
+			case 2:
+				return 18027, 1, "You can now use " + "<col=000080>" + "Sundering Strike (Tier 1) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 1) scroll"
+
+			case 3:
+				return 17985, 2, "You can now infuse " + "<col=000080>" + "cub deathslinger pouches" + "</col>" + " within Daemonheim.", "Cub deathslinger (Ranged, tier 1)" + "<br>" + "Gold charm, tangle gum branches"
+
+			case 4:
+				return 18037, 2, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 1) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 1) scroll"
+
+			case 5:
+				return 17945, 3, "You can now infuse " + "<col=000080>" + "cub stormbringer pouches" + "</col>" + " within Daemonheim.", "Cub stormbringer (Magic, tier 1)" + "<br>" + "Gold charm, salve nettles"
+
+			case 6:
+				return 18047, 3, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 1) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 1) scroll"
+
+			case 7:
+				return 17955, 5, "You can now infuse " + "<col=000080>" + "cub hoardstalker pouches" + "</col>" + " within Daemonheim.", "Cub hoardstalker (Forager, tier 1)" + "<br>" + "Gold charm, protomastyx hide"
+
+			case 8:
+				return 18057, 5, "You can now use " + "<col=000080>" + " Aptitude (Tier 1) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 1) scroll"
+
+			case 9:
+				return 17975, 7, "You can now infuse " + "<col=000080>" + "cub worldbearer pouches" + "</col>" + " within Daemonheim.", "Cub worldbearer (Beast of burden, tier 1)" + "<br>" + "Gold charm, protoleather torn bag"
+
+			case 10:
+				return 18067, 7, "You can now use " + "<col=000080>" + " Second Wind (Tier 1) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 1) scroll"
+
+			case 11:
+				return 17965, 9, "You can now infuse " + "<col=000080>" + "cub skinweaver pouches" + "</col>" + " within Daemonheim.", "Cub skinweaver (Healer, tier 1)" + "<br>" + "Gold charm, 2 cooked heim crabs"
+
+			case 12:
+				return 18077, 9, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 1) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 1) scroll"
+
+			case 13:
+				return 17936, 11, "You can now infuse " + "<col=000080>" + "little bloodrager pouches" + "</col>" + " within Daemonheim.", "Little bloodrager (Melee, tier 2)" + "<br>" + "Gold charm, bathus ore"
+
+			case 14:
+				return 18028, 11, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 2) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 2) scroll"
+
+			case 15:
+				return 17986, 12, "You can now infuse " + "<col=000080>" + "little deathslinger pouches" + "</col>" + " within Daemonheim.", "Little deathslinger (Ranged, tier 2)" + "<br>" + "Gold charm, seeping elm branches"
+
+			case 16:
+				return 18038, 12, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 2) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 2) scroll"
+
+			case 17:
+				return 17946, 13, "You can now infuse " + "<col=000080>" + "little stormbringer pouches" + "</col>" + " within Daemonheim.", "Little stormbringer (Magic, tier 2)" + "<br>" + "Gold charm, wildercress stems"
+
+			case 18:
+				return 18048, 13, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 2) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 2) scroll"
+
+			case 19:
+				return 17956, 15, "You can now infuse " + "<col=000080>" + "little hoardstalker pouches" + "</col>" + " within Daemonheim.", "Little hoardstalker (Forager, tier 2)" + "<br>" + "Gold charm, submastyx hide"
+
+			case 20:
+				return 18058, 15, "You can now use " + "<col=000080>" + " Aptitude (Tier 2) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 2) scroll"
+
+			case 21:
+				return 17976, 17, "You can now infuse " + "<col=000080>" + "little worldbearer pouches" + "</col>" + " within Daemonheim.", "Little worldbearer (Beast of burden, tier 2)" + "<br>" + "Gold charm, subleather torn bag"
+
+			case 22:
+				return 18068, 17, "You can now use " + "<col=000080>" + " Second Wind (Tier 2) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 2) scroll"
+
+			case 23:
+				return 17966, 19, "You can now infuse " + "<col=000080>" + "little skinweaver pouches" + "</col>" + " within Daemonheim.", "Little skinweaver (Healer, tier 2)" + "<br>" + "Gold charm, 2 cooked red-eye"
+
+			case 24:
+				return 18078, 19, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 2) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 2) scroll"
+
+			case 25:
+				return 17937, 21, "You can now infuse " + "<col=000080>" + "naïve bloodrager pouches" + "</col>" + " within Daemonheim.", "Naïve bloodrager (Melee, tier 3)" + "<br>" + "Gold charm, marmaros ore"
+
+			case 26:
+				return 18029, 21, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 3) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 3) scroll"
+
+			case 27:
+				return 17987, 22, "You can now infuse " + "<col=000080>" + "naïve deathslinger pouches" + "</col>" + " within Daemonheim.", "Naïve deathslinger (Ranged, tier 3)" + "<br>" + "Gold charm, blood spindle branches"
+
+			case 28:
+				return 18039, 22, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 3) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 3) scroll"
+
+			case 29:
+				return 17947, 23, "You can now infuse " + "<col=000080>" + "naïve stormbringer pouches" + "</col>" + " within Daemonheim.", "Naïve stormbringer (Magic, tier 3)" + "<br>" + "Gold charm, blightleaf gauze"
+
+			case 30:
+				return 18049, 23, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 3) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 3) scroll"
+
+			case 31:
+				return 17957, 25, "You can now infuse " + "<col=000080>" + "naïve hoardstalker pouches" + "</col>" + " within Daemonheim.", "Naïve hoardstalker (Forager, tier 3)" + "<br>" + "Gold charm, paramastyx hide"
+
+			case 32:
+				return 18059, 25, "You can now use " + "<col=000080>" + " Aptitude (Tier 3) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 3) scroll"
+
+			case 33:
+				return 17977, 27, "You can now infuse " + "<col=000080>" + "naïve worldbearer pouches" + "</col>" + " within Daemonheim.", "Naïve worldbearer (Beast of burden, tier 3)" + "<br>" + "Gold charm, paraleather torn bag"
+
+			case 34:
+				return 18069, 27, "You can now use " + "<col=000080>" + " Second Wind (Tier 3) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 3) scroll"
+
+			case 35:
+				return 17967, 29, "You can now infuse " + "<col=000080>" + "naïve skinweaver pouches" + "</col>" + " within Daemonheim.", "Naïve skinweaver (Healer, tier 3)" + "<br>" + "Gold charm, 2 cooked dusk eels"
+
+			case 36:
+				return 18079, 29, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 3) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 3) scroll"
+
+			case 37:
+				return 17938, 31, "You can now infuse " + "<col=000080>" + "keen bloodrager pouches" + "</col>" + " within Daemonheim.", "Keen bloodrager (Melee, tier 4)" + "<br>" + "Green charm, kratonite ore"
+
+			case 38:
+				return 18030, 31, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 4) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 4) scroll"
+
+			case 39:
+				return 17988, 32, "You can now infuse " + "<col=000080>" + "keen deathslinger pouches" + "</col>" + " within Daemonheim.", "Keen deathslinger (Ranged, tier 4)" + "<br>" + "Green charm, utuku branches"
+
+			case 40:
+				return 18040, 32, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 4) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 4) scroll"
+
+			case 41:
+				return 17948, 33, "You can now infuse " + "<col=000080>" + "keen stormbringer pouches" + "</col>" + " within Daemonheim.", "Keen stormbringer (Magic, tier 4)" + "<br>" + "Green charm, roseblood stems"
+
+			case 42:
+				return 18050, 33, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 4) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 4) scroll"
+
+			case 43:
+				return 17958, 35, "You can now infuse " + "<col=000080>" + "keen hoardstalker pouches" + "</col>" + " within Daemonheim.", "Keen hoardstalker (Forager, tier 4)" + "<br>" + "Green charm, archaemastyx hide"
+
+			case 44:
+				return 18060, 35, "You can now use " + "<col=000080>" + " Aptitude (Tier 4) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 4) scroll"
+
+			case 45:
+				return 17978, 37, "You can now infuse " + "<col=000080>" + "keen worldbearer pouches" + "</col>" + " within Daemonheim.", "Keen worldbearer (Beast of burden, tier 4)" + "<br>" + "Green charm, archleather torn bag"
+
+			case 46:
+				return 18070, 37, "You can now use " + "<col=000080>" + " Second Wind (Tier 4) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 4) scroll"
+
+			case 47:
+				return 17968, 39, "You can now infuse " + "<col=000080>" + "keen skinweaver pouches" + "</col>" + " within Daemonheim.", "Keen skinweaver (Healer, tier 4)" + "<br>" + "Green charm, 2 cooked giant flatfish"
+
+			case 48:
+				return 18080, 39, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 4) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 4) scroll"
+
+			case 49:
+				return 17939, 41, "You can now infuse " + "<col=000080>" + "brave bloodrager pouches" + "</col>" + " within Daemonheim.", "Brave bloodrager (Melee, tier 5)" + "<br>" + "Green charm, fractite ore"
+
+			case 50:
+				return 18031, 41, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 5) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 5) scroll"
+
+			case 51:
+				return 17989, 42, "You can now infuse " + "<col=000080>" + "brave deathslinger pouches" + "</col>" + " within Daemonheim.", "Brave deathslinger (Ranged, tier 5)" + "<br>" + "Green charm, spinebeam branches"
+
+			case 52:
+				return 18041, 42, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 5) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 5) scroll"
+
+			case 53:
+				return 17949, 43, "You can now infuse " + "<col=000080>" + "brave stormbringer pouches" + "</col>" + " within Daemonheim.", "Brave stormbringer (Magic, tier 5)" + "<br>" + "Green charm, bryll reeds"
+
+			case 54:
+				return 18051, 43, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 5) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 5) scroll"
+
+			case 55:
+				return 17959, 45, "You can now infuse " + "<col=000080>" + "brave hoardstalker pouches" + "</col>" + " within Daemonheim.", "Brave hoardstalker (Forager, tier 5)" + "<br>" + "Green charm, dromomastyx hide"
+
+			case 56:
+				return 18061, 45, "You can now use " + "<col=000080>" + " Aptitude (Tier 5) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 5) scroll"
+
+			case 57:
+				return 17979, 47, "You can now infuse " + "<col=000080>" + "brave worldbearer pouches" + "</col>" + " within Daemonheim.", "Brave worldbearer (Beast of burden, tier 5)" + "<br>" + "Green charm, dromoleather torn bag"
+
+			case 58:
+				return 18071, 47, "You can now use " + "<col=000080>" + " Second Wind (Tier 5) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 5) scroll"
+
+			case 59:
+				return 17969, 49, "You can now infuse " + "<col=000080>" + "brave skinweaver pouches" + "</col>" + " within Daemonheim.", "Brave skinweaver (Healer, tier 5)" + "<br>" + "Green charm, 2 cooked short-finned eels"
+
+			case 60:
+				return 18081, 49, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 5) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 5) scroll"
+
+			case 61:
+				return 17940, 51, "You can now infuse " + "<col=000080>" + "brah bloodrager pouches" + "</col>" + " within Daemonheim.", "Brah bloodrager (Melee, tier 6)" + "<br>" + "Green charm, zephyrium ore"
+
+			case 62:
+				return 18032, 51, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 6) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 6) scroll"
+
+			case 63:
+				return 17990, 52, "You can now infuse " + "<col=000080>" + "brah deathslinger pouches" + "</col>" + " within Daemonheim.", "Brah deathslinger (Ranged, tier 6)" + "<br>" + "Green charm, bovistrangler branches"
+
+			case 64:
+				return 18042, 52, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 6) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 6) scroll"
+
+			case 65:
+				return 17950, 53, "You can now infuse " + "<col=000080>" + "brah stormbringer pouches" + "</col>" + " within Daemonheim.", "Brah stormbringer (Magic, tier 6)" + "<br>" + "Green charm, duskweed sproutings"
+
+			case 66:
+				return 18052, 53, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 6) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 6) scroll"
+
+			case 67:
+				return 17960, 55, "You can now infuse " + "<col=000080>" + "brah hoardstalker pouches" + "</col>" + " within Daemonheim.", "Brah hoardstalker (Forager, tier 6)" + "<br>" + "Green charm, spinomastyx hide"
+
+			case 68:
+				return 18062, 55, "You can now use " + "<col=000080>" + " Aptitude (Tier 6) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 6) scroll"
+
+			case 69:
+				return 17980, 57, "You can now infuse " + "<col=000080>" + "brah worldbearer pouches" + "</col>" + " within Daemonheim.", "Brah worldbearer (Beast of burden, tier 6)" + "<br>" + "Green charm, spinoleather torn bag"
+
+			case 70:
+				return 18072, 57, "You can now use " + "<col=000080>" + " Second Wind (Tier 6) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 6) scroll"
+
+			case 71:
+				return 17970, 59, "You can now infuse " + "<col=000080>" + "brah skinweaver pouches" + "</col>" + " within Daemonheim.", "Brah skinweaver (Healer, tier 6)" + "<br>" + "Green charm, 2 cooked web snippers"
+
+			case 72:
+				return 18082, 59, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 6) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 6) scroll"
+
+			case 73:
+				return 17941, 61, "You can now infuse " + "<col=000080>" + "naabe bloodrager pouches" + "</col>" + " within Daemonheim.", "Naabe bloodrager (Melee, tier 7)" + "<br>" + "Crimson charm, argonite ore"
+
+			case 74:
+				return 18033, 61, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 7) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 7) scroll"
+
+			case 75:
+				return 17991, 62, "You can now infuse " + "<col=000080>" + "naabe deathslinger pouches" + "</col>" + " within Daemonheim.", "Naabe deathslinger (Ranged, tier 7)" + "<br>" + "Crimson charm, thigat branches"
+
+			case 76:
+				return 18043, 62, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 7) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 7) scroll"
+
+			case 77:
+				return 17951, 63, "You can now infuse " + "<col=000080>" + "naabe stormbringer pouches" + "</col>" + " within Daemonheim.", "Naabe stormbringer (Magic, tier 7)" + "<br>" + "Crimson charm, soulbell roots"
+
+			case 78:
+				return 18053, 63, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 7) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 7) scroll"
+
+			case 79:
+				return 17961, 65, "You can now infuse " + "<col=000080>" + "naabe hoardstalker pouches" + "</col>" + " within Daemonheim.", "Naabe hoardstalker (Forager, tier 7)" + "<br>" + "Crimson charm, gallimastyx hide"
+
+			case 80:
+				return 18063, 65, "You can now use " + "<col=000080>" + " Aptitude (Tier 7) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 7) scroll"
+
+			case 81:
+				return 17981, 67, "You can now infuse " + "<col=000080>" + "naabe worldbearer pouches" + "</col>" + " within Daemonheim.", "Naabe worldbearer (Beast of burden, tier 7)" + "<br>" + "Crimson charm, gallileather torn bag"
+
+			case 82:
+				return 18073, 67, "You can now use " + "<col=000080>" + " Second Wind (Tier 7) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 7) scroll"
+
+			case 83:
+				return 17971, 69, "You can now infuse " + "<col=000080>" + "naabe skinweaver pouches" + "</col>" + " within Daemonheim.", "Naabe skinweaver (Healer, tier 7)" + "<br>" + "Crimson charm, 2 cooked bouldabass"
+
+			case 84:
+				return 18083, 69, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 7) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 7) scroll"
+
+			case 85:
+				return 17942, 71, "You can now infuse " + "<col=000080>" + "wise bloodrager pouches" + "</col>" + " within Daemonheim.", "Wise bloodrager (Melee, tier 8)" + "<br>" + "Crimson charm, katagon ore"
+
+			case 86:
+				return 18034, 71, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 8) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 8) scroll"
+
+			case 87:
+				return 17992, 72, "You can now infuse " + "<col=000080>" + "wise deathslinger pouches" + "</col>" + " within Daemonheim.", "Wise deathslinger (Ranged, tier 8)" + "<br>" + "Crimson charm, corpsethorn branches"
+
+			case 88:
+				return 18044, 72, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 8) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 8) scroll"
+
+			case 89:
+				return 17952, 73, "You can now infuse " + "<col=000080>" + "wise stormbringer pouches" + "</col>" + " within Daemonheim.", "Wise stormbringer (Magic, tier 8)" + "<br>" + "Crimson charm, ectograss blades"
+
+			case 90:
+				return 18054, 73, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 8) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 8) scroll"
+
+			case 91:
+				return 17962, 75, "You can now infuse " + "<col=000080>" + "wise hoardstalker pouches" + "</col>" + " within Daemonheim.", "Wise hoardstalker (Forager, tier 8)" + "<br>" + "Crimson charm, stegomastyx hide"
+
+			case 92:
+				return 18064, 75, "You can now use " + "<col=000080>" + " Aptitude (Tier 8) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 8) scroll"
+
+			case 93:
+				return 17982, 77, "You can now infuse " + "<col=000080>" + "wise worldbearer pouches" + "</col>" + " within Daemonheim.", "Wise worldbearer (Beast of burden, tier 8)" + "<br>" + "Crimson charm, stegoleather torn bag"
+
+			case 94:
+				return 18074, 77, "You can now use " + "<col=000080>" + " Second Wind (Tier 8) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 8) scroll"
+
+			case 95:
+				return 17972, 79, "You can now infuse " + "<col=000080>" + "wise skinweaver pouches" + "</col>" + " within Daemonheim.", "Wise skinweaver (Healer, tier 8)" + "<br>" + "Crimson charm, 2 cooked salve eels"
+
+			case 96:
+				return 18084, 79, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 8) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 8) scroll"
+
+			case 97:
+				return 17943, 81, "You can now infuse " + "<col=000080>" + "adept bloodrager pouches" + "</col>" + " within Daemonheim.", "Adept bloodrager (Melee, tier 9)" + "<br>" + "Blue charm, gorgonite ore"
+
+			case 98:
+				return 18035, 81, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 9) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 9) scroll"
+
+			case 99:
+				return 17993, 82, "You can now infuse " + "<col=000080>" + "adept deathslinger pouches" + "</col>" + " within Daemonheim.", "Adept deathslinger (Ranged, tier 9)" + "<br>" + "Blue charm, entgallow branches"
+
+			case 100:
+				return 18045, 82, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 9) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 9) scroll"
+
+			case 101:
+				return 17953, 83, "You can now infuse " + "<col=000080>" + "adept stormbringer pouches" + "</col>" + " within Daemonheim.", "Adept stormbringer (Magic, tier 9)" + "<br>" + "Blue charm, runeleaf fibres"
+
+			case 102:
+				return 18055, 83, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 9) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 9) scroll"
+
+			case 103:
+				return 17963, 85, "You can now infuse " + "<col=000080>" + "adept hoardstalker pouches" + "</col>" + " within Daemonheim.", "Adept hoardstalker (Forager, tier 9)" + "<br>" + "Blue charm, megamastyx hide"
+
+			case 104:
+				return 18065, 85, "You can now use " + "<col=000080>" + " Aptitude (Tier 9) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 9) scroll"
+
+			case 105:
+				return 17983, 87, "You can now infuse " + "<col=000080>" + "adept worldbearer pouches" + "</col>" + " within Daemonheim.", "Adept worldbearer (Beast of burden, tier 9)" + "<br>" + "Blue charm, megaleather torn bag"
+
+			case 106:
+				return 18075, 87, "You can now use " + "<col=000080>" + " Second Wind (Tier 9) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 9) scroll"
+
+			case 107:
+				return 17973, 89, "You can now infuse " + "<col=000080>" + "adept skinweaver pouches" + "</col>" + " within Daemonheim.", "Adept skinweaver (Healer, tier 9)" + "<br>" + "Blue charm, 2 cooked blue crabs"
+
+			case 108:
+				return 18085, 89, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 9) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 9) scroll"
+
+			case 109:
+				return 17944, 91, "You can now infuse " + "<col=000080>" + "sachem bloodrager pouches" + "</col>" + " within Daemonheim.", "Sachem bloodrager (Melee, tier 10)" + "<br>" + "Blue charm, promethium ore"
+
+			case 110:
+				return 18036, 91, "You can now use " + "<col=000080>" + " Sundering Strike (Tier 10) scrolls" + "</col>" + " within Daemonheim.", "Sundering Strike (Tier 10) scroll"
+
+			case 111:
+				return 17994, 92, "You can now infuse " + "<col=000080>" + "sachem deathslinger pouches" + "</col>" + " within Daemonheim.", "Sachem deathslinger (Ranged, tier 10)" + "<br>" + "Blue charm, grave creeper branches"
+
+			case 112:
+				return 18046, 92, "You can now use " + "<col=000080>" + " Poisonous Shot (Tier 10) scrolls" + "</col>" + " within Daemonheim.", "Poisonous Shot (Tier 10) scroll"
+
+			case 113:
+				return 17954, 93, "You can now infuse " + "<col=000080>" + "sachem stormbringer pouches" + "</col>" + " within Daemonheim.", "Sachem stormbringer (Magic, tier 10)" + "<br>" + "Blue charm, spiritbloom fibres"
+
+			case 114:
+				return 18056, 93, "You can now use " + "<col=000080>" + " Snaring Wave (Tier 10) scrolls" + "</col>" + " within Daemonheim.", "Snaring Wave (Tier 10) scroll"
+
+			case 115:
+				return 17964, 95, "You can now infuse " + "<col=000080>" + "sachem hoardstalker pouches" + "</col>" + " within Daemonheim.", "Sachem hoardstalker (Forager, tier 10)" + "<br>" + "Blue charm, tyrannomastyx hide"
+
+			case 116:
+				return 18066, 95, "You can now use " + "<col=000080>" + " Aptitude (Tier 10) scrolls" + "</col>" + " within Daemonheim.", "Aptitude (Tier 10) scroll"
+
+			case 117:
+				return 17984, 97, "You can now infuse " + "<col=000080>" + "sachem worldbearer pouches" + "</col>" + " within Daemonheim.", "Sachem worldbearer (Beast of burden, tier 10)" + "<br>" + "Blue charm, tyrannoleather torn bag"
+
+			case 118:
+				return 18076, 97, "You can now use " + "<col=000080>" + " Second Wind (Tier 10) scrolls" + "</col>" + " within Daemonheim.", "Second Wind (Tier 10) scroll"
+
+			case 119:
+				return 17974, 99, "You can now infuse " + "<col=000080>" + "sachem skinweaver pouches" + "</col>" + " within Daemonheim.", "Sachem skinweaver (Healer, tier 10)" + "<br>" + "Blue charm, 2 cooked cave morays"
+
+			case 120:
+				return 18086, 99, "You can now use " + "<col=000080>" + " Glimmer of Light (Tier 10) scrolls" + "</col>" + " within Daemonheim.", "Glimmer of Light (Tier 10) scroll"
+
+
+		}
+		break
+	case 7:
+		if(arg1 == 0)
+			return 12169, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Summoning" + "<col=000080>" + ".  Why not visit " + "<col=800000>" + "Pikkupstix" + "<col=000080>" + " in " + "<col=800000>" + "Taverley" + "<col=000080>" + "? He has something special only available to true masters of the " + "<col=800000>" + "Summoning" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+
+}
+return -1, 0, "", ""

@@ -1,0 +1,9 @@
+//script957(957)(int arg0, int arg1, int arg2)(void)
+if(load_varpbit(4618) == 0) {
+	script_959(arg0, arg1, 0)
+	if_setgraphic(arg2, 1156)
+} else  {
+	script_959(arg0, arg1, 1)
+	if_setgraphic(arg2, 1157)
+}
+return

@@ -1,0 +1,13 @@
+//script1968(1968)()(void)
+if_sethide(if_gethash(1253, 164), 1)
+if(instr6868("1066") == 1)
+	if(instr6869("1066") == 1)
+		if(load_varpbit(10862) == 0)
+			if(load_varpbit(11026) == 0)
+				if(max(0, load_varc(1800)) == 0)
+					if(load_varpbit(10861) == 0)
+						if(load_varpbit(11325) == 0) {
+							if_setgraphic(if_gethash(1253, 341), script_6270())
+							if_sethide(if_gethash(1253, 164), 0)
+						}
+return

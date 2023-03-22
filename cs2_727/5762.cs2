@@ -1,0 +1,6 @@
+//script5762(5762)()(void)
+if(load_varc(168) == 1) {
+	store_varc(168, -1)
+	script_71(load_varc(168))
+}
+return

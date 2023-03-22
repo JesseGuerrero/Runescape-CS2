@@ -1,0 +1,19 @@
+//script5915(5915)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = arg1 + 1
+iVar3 = 14
+iVar4 = if_getx(arg0) - 14
+iVar5 = if_gety(arg0)
+if_setposition(arg0, 0, 0, iVar5, iVar4)
+if(arg1 == 10) {
+	if_setgraphic(arg0, script_6267(9891))
+	if_setsize(arg0, 0, 0, 60, 200)
+}
+if(iVar4 <= 0 - if_getwidth(arg0))
+	instr6342(arg0, None, "")
+else
+	instr6342(arg0, script_5915, "Ii", -2147483645, iVar2)
+return

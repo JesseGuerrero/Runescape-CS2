@@ -1,0 +1,8 @@
+void script_1176(int arg0) {
+	if (arg0 == 1) {
+		widget(90, 44).setTrans(255);
+	} else {
+		widget(90, 44).setTrans(0);
+	}
+	return;
+}

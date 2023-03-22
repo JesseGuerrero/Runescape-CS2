@@ -1,0 +1,17 @@
+void script_931(Widget widget0, int arg1) {
+	widget0.setSize(512, 0, 0, 1);
+	widget0.setPosition(512 * arg1, 0, 0, 1);
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 6, 0);
+	_CHILD.createChild(widget0, 6, 1);
+	CHILD.setSize(0, 1, 1, 0);
+	_CHILD.setSize(0, 1, 1, 0);
+	CHILD.setPosition(0, 0, 1, 2);
+	_CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setModel(4961);
+	_CHILD.setModel(4962);
+	script_933(widget0, widget0.getHeight());
+	CHILD.setAnimation(1489);
+	_CHILD.setAnimation(1490);
+	return;
+}

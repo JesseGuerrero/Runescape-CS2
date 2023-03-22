@@ -1,0 +1,41 @@
+void script_112(int arg0, char char1, string string2) {
+	if (script_1701(-1, 162) == 0) {
+		return;
+	}
+	if (arg0 == 84) {
+		if (VARC[56] == 1 && length(STRING[22]) <= 0) {
+			if (VARC[5] == 8) {
+				STRING[22] = STRING[128];
+				script_222(string2);
+			} else if (VARC[5] == 10) {
+				STRING[22] = STRING[129];
+				script_222(string2);
+			}
+		}
+		script_681();
+		return;
+	}
+	if (VARC[5] == 6 || VARC[5] == 9 || VARC[5] == 11) {
+		STRING[22] = script_74(STRING[22], 0, arg0, char1);
+	} else if (VARC[5] == 7) {
+		STRING[22] = script_74(STRING[22], 1, arg0, char1);
+	} else if (VARC[5] == 12) {
+		STRING[22] = script_74(STRING[22], 3, arg0, char1);
+		script_549();
+	} else if (VARC[5] == 13) {
+		STRING[22] = script_74(STRING[22], 0, arg0, char1);
+		script_551();
+	} else if (VARC[5] == 14) {
+		if (arg0 == 13) {
+			cs2method3115(-1);
+			playSoundEffect(2266, 1, 0);
+			script_299(1, 1);
+			return;
+		}
+		STRING[22] = script_74(STRING[22], 4, arg0, char1);
+	} else {
+		STRING[22] = script_74(STRING[22], 2, arg0, char1);
+	}
+	script_222(string2);
+	return;
+}

@@ -1,0 +1,6 @@
+//script542(542)(int arg0, int arg1)(void)
+if(stat(12) >= arg1 || load_varpbit(4089) == 1 || load_varp(1093) >= arg1)
+	if_sethide(arg0, 0)
+else
+	if_sethide(arg0, 1)
+return

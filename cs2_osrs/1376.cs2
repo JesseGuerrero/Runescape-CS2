@@ -1,0 +1,245 @@
+void script_1376(int arg0, DataMap datamap1, int arg2, int arg3, int arg4) {
+	Widget widget5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	Item item19;
+	int int20;
+	string str0;
+	widget5 = datamap('i', 'I', 1424, arg0);
+	if (widget5 == null) {
+		return;
+	}
+	if (isBitFlagged(arg4, 30) == true) {
+		arg3, arg4 = flagBit(arg3, 31), unflagBit(arg4, 30);
+	}
+	widget5.setIsHidden(true);
+	int6 = 0;
+	if (isBitFlagged(arg3, 0) == true) {
+		int6 = flagBit(int6, 0);
+	}
+	if (isBitFlagged(arg3, 1) == true) {
+		int6 = flagBit(int6, 1);
+	}
+	if (isBitFlagged(arg3, 2) == true) {
+		int6 = flagBit(int6, 2);
+	}
+	int7 = 0;
+	if (isBitFlagged(arg3, 3) == true) {
+		int7 = flagBit(int7, 0);
+	}
+	if (isBitFlagged(arg3, 4) == true) {
+		int7 = flagBit(int7, 1);
+	}
+	if (isBitFlagged(arg3, 5) == true) {
+		int7 = flagBit(int7, 2);
+	}
+	int8 = 0;
+	if (isBitFlagged(arg3, 6) == true) {
+		int8 = flagBit(int8, 0);
+	}
+	if (isBitFlagged(arg3, 7) == true) {
+		int8 = flagBit(int8, 1);
+	}
+	int9 = 0;
+	if (isBitFlagged(arg3, 8) == true) {
+		int9 = flagBit(int9, 0);
+	}
+	if (isBitFlagged(arg3, 9) == true) {
+		int9 = flagBit(int9, 1);
+	}
+	int10 = 0;
+	if (isBitFlagged(arg3, 10) == true) {
+		int10 = flagBit(int10, 0);
+	}
+	if (isBitFlagged(arg3, 11) == true) {
+		int10 = flagBit(int10, 1);
+	}
+	if (isBitFlagged(arg3, 12) == true) {
+		int10 = flagBit(int10, 2);
+	}
+	if (isBitFlagged(arg3, 13) == true) {
+		int10 = flagBit(int10, 3);
+	}
+	if (isBitFlagged(arg3, 14) == true) {
+		int10 = flagBit(int10, 4);
+	}
+	int11 = 0;
+	if (isBitFlagged(arg3, 15) == true) {
+		int11 = flagBit(int11, 0);
+	}
+	if (isBitFlagged(arg3, 16) == true) {
+		int11 = flagBit(int11, 1);
+	}
+	if (isBitFlagged(arg3, 17) == true) {
+		int11 = flagBit(int11, 2);
+	}
+	if (isBitFlagged(arg4, 0) == true) {
+		int11 = flagBit(int11, 3);
+	}
+	if (isBitFlagged(arg4, 1) == true) {
+		int11 = flagBit(int11, 4);
+	}
+	int12 = 0;
+	if (isBitFlagged(arg3, 18) == true) {
+		int12 = flagBit(int12, 0);
+	}
+	if (isBitFlagged(arg3, 19) == true) {
+		int12 = flagBit(int12, 1);
+	}
+	if (isBitFlagged(arg3, 20) == true) {
+		int12 = flagBit(int12, 2);
+	}
+	if (isBitFlagged(arg4, 2) == true) {
+		int12 = flagBit(int12, 3);
+	}
+	if (isBitFlagged(arg4, 3) == true) {
+		int12 = flagBit(int12, 4);
+	}
+	int13 = 0;
+	if (isBitFlagged(arg3, 21) == true) {
+		int13 = flagBit(int13, 0);
+	}
+	if (isBitFlagged(arg3, 22) == true) {
+		int13 = flagBit(int13, 1);
+	}
+	if (isBitFlagged(arg3, 23) == true) {
+		int13 = flagBit(int13, 2);
+	}
+	if (isBitFlagged(arg4, 4) == true) {
+		int13 = flagBit(int13, 3);
+	}
+	if (isBitFlagged(arg4, 5) == true) {
+		int13 = flagBit(int13, 4);
+	}
+	int14 = 0;
+	if (isBitFlagged(arg3, 24) == true) {
+		int14 = flagBit(int14, 0);
+	}
+	if (isBitFlagged(arg3, 25) == true) {
+		int14 = flagBit(int14, 1);
+	}
+	if (isBitFlagged(arg4, 6) == true) {
+		int14 = flagBit(int14, 2);
+	}
+	if (isBitFlagged(arg4, 7) == true) {
+		int14 = flagBit(int14, 3);
+	}
+	if (isBitFlagged(arg4, 8) == true) {
+		int14 = flagBit(int14, 4);
+	}
+	int15 = 0;
+	if (isBitFlagged(arg3, 26) == true) {
+		int15 = flagBit(int15, 0);
+	}
+	if (isBitFlagged(arg3, 27) == true) {
+		int15 = flagBit(int15, 1);
+	}
+	if (isBitFlagged(arg4, 9) == true) {
+		int15 = flagBit(int15, 2);
+	}
+	if (isBitFlagged(arg4, 10) == true) {
+		int15 = flagBit(int15, 3);
+	}
+	if (isBitFlagged(arg4, 11) == true) {
+		int15 = flagBit(int15, 4);
+	}
+	int16 = 0;
+	if (isBitFlagged(arg3, 28) == true) {
+		int16 = flagBit(int16, 0);
+	}
+	if (isBitFlagged(arg3, 29) == true) {
+		int16 = flagBit(int16, 1);
+	}
+	if (isBitFlagged(arg4, 12) == true) {
+		int16 = flagBit(int16, 2);
+	}
+	if (isBitFlagged(arg4, 13) == true) {
+		int16 = flagBit(int16, 3);
+	}
+	if (isBitFlagged(arg4, 14) == true) {
+		int16 = flagBit(int16, 4);
+	}
+	int17 = 0;
+	if (isBitFlagged(arg3, 30) == true) {
+		int17 = flagBit(int17, 0);
+	}
+	if (isBitFlagged(arg3, 31) == true) {
+		int17 = flagBit(int17, 1);
+	}
+	if (isBitFlagged(arg4, 15) == true) {
+		int17 = flagBit(int17, 2);
+	}
+	if (isBitFlagged(arg4, 16) == true) {
+		int17 = flagBit(int17, 3);
+	}
+	if (isBitFlagged(arg4, 17) == true) {
+		int17 = flagBit(int17, 4);
+	}
+	int18 = 0;
+	if (isBitFlagged(arg4, 18) == true) {
+		int18 = flagBit(int18, 0);
+	}
+	if (isBitFlagged(arg4, 19) == true) {
+		int18 = flagBit(int18, 1);
+	}
+	if (isBitFlagged(arg4, 20) == true) {
+		int18 = flagBit(int18, 2);
+	}
+	if (isBitFlagged(arg4, 21) == true) {
+		int18 = flagBit(int18, 3);
+	}
+	if (isBitFlagged(arg4, 22) == true) {
+		int18 = flagBit(int18, 4);
+	}
+	item19 = datamap('i', 'o', 250, int10);
+	widget5.setOptionBase("<col=ff9040>" + getItemName(item19) + "</col>");
+	script_1385(arg0, int6, int8, int7);
+	widget5.clearChildren();
+	CHILD.createChild(widget5, 5, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSprite(datamap('i', 'd', 1423, int10));
+	CHILD.set2DAngle(16384 * (4 - int9) % 65536);
+	CHILD.createChild(widget5, 5, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSprite(1040);
+	CHILD.setSpriteTiling(true);
+	CHILD.setTrans(75);
+	CHILD.setHidden(true);
+	str0 = getItemName(item19) + ":";
+	int20 = 0;
+	str0, int20 = script_1377(str0, int11, 1425, datamap1, int20);
+	str0, int20 = script_1377(str0, int12, 1426, datamap1, int20);
+	str0, int20 = script_1377(str0, int13, 1427, datamap1, int20);
+	str0, int20 = script_1377(str0, int14, 1428, datamap1, int20);
+	str0, int20 = script_1377(str0, int15, 1429, datamap1, int20);
+	str0, int20 = script_1377(str0, int16, 1430, datamap1, int20);
+	str0, int20 = script_1377(str0, int17, 1431, datamap1, int20);
+	str0, int20 = script_1377(str0, int18, 1432, datamap1, int20);
+	if (int20 > 0) {
+		str0 = concat(str0, "</col>");
+	} else {
+		str0 = concat(str0, " " + "<col=4f4f4f>" + "(empty)" + "</col>");
+	}
+	CHILD.createChild(widget5, 5, 2);
+	CHILD.setSize(17, 17, 0, 0);
+	CHILD.setPosition(2, 2, 0, 0);
+	CHILD.setSprite(1210);
+	script_1380(arg0);
+	widget5.hookVARP(&script_1378(CTX_WIDGET, getChildId(), arg0), 780);
+	widget5.hookMouseHover(&script_1381(true, CTX_WIDGET, getChildId(), str0));
+	widget5.hookMouseExit(&script_1381(false, CTX_WIDGET, getChildId(), str0));
+	return;
+}

@@ -1,0 +1,92 @@
+void script_252(Widget widget0, int arg1, int arg2) {
+	Location location3;
+	int int4;
+	int int5;
+	int int6;
+	string str0;
+	location3 = null;
+	int4 = -1;
+	int5 = -1;
+	int6 = 0;
+	str0 = "";
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setSize(widget0.getWidth(), 14, 0, 0);
+		CHILD.setPosition(0, 32 + arg2 * 15, 0, 0);
+		CHILD.setFont(495);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setTextAlignment(0, 0, 0);
+		str0 = datamap('i', 's', 812, arg1);
+		CHILD.setText(str0);
+		CHILD.setContextMenuOption(1, "Play");
+		CHILD.setOptionBase("<col=ff9040>" + str0);
+		location3 = datamap('i', 'c', 819, arg1);
+		if (location3 != null) {
+			int4, int5 = x(location3), y(location3);
+			switch (int4) {
+				case 1:
+					int6 = VARP[20];
+					break;
+				case 2:
+					int6 = VARP[21];
+					break;
+				case 3:
+					int6 = VARP[22];
+					break;
+				case 4:
+					int6 = VARP[23];
+					break;
+				case 5:
+					int6 = VARP[24];
+					break;
+				case 6:
+					int6 = VARP[25];
+					break;
+				case 7:
+					int6 = VARP[298];
+					break;
+				case 8:
+					int6 = VARP[311];
+					break;
+				case 9:
+					int6 = VARP[346];
+					break;
+				case 10:
+					int6 = VARP[414];
+					break;
+				case 11:
+					int6 = VARP[464];
+					break;
+				case 12:
+					int6 = VARP[598];
+					break;
+				case 13:
+					int6 = VARP[662];
+					break;
+				case 14:
+					int6 = VARP[721];
+					break;
+				case 15:
+					int6 = VARP[906];
+					break;
+				case 16:
+					int6 = VARP[1009];
+					break;
+				case 17:
+					int6 = VARP[1338];
+					break;
+			}
+			if (isBitFlagged(int6, int5) == true) {
+				script_314(0x00FF00);
+			} else if (arg1 == 331 && VARPBIT[1028] > 35) {
+				script_314(0x00FF00);
+			} else {
+				script_314(0xFF0000);
+			}
+		} else {
+			script_314(0x00FF00);
+		}
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+		CHILD.hookFrame(null);
+	}
+	return;
+}

@@ -1,0 +1,92 @@
+//script4716(4716)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+string sVar0
+iVar6 = 48
+iVar7 = 48
+iVar8 = 0
+iVar9 = 0
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+sVar0 = ""
+iVar13 = 1
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 1
+if(if_getscrollwidth(arg0) > 0)
+	iVar16 = if_getscrollwidth(arg0)
+else
+	iVar16 = if_getwidth(arg0)
+iVar16 = iVar16 / (iVar6 + arg3)
+while(iVar8 < enum_getoutputcount(arg2)) {
+	iVar18 = 0
+	iVar10 = enum(arg2, iVar8, 'i', 'J')
+	if(cc_find(iVar8, arg0) == 1) {
+		iVar13 = script_4718(iVar10)
+		if(arg5 == 0) {
+			iVar18 = 1
+			if(struct_param(1422, iVar10) == 13 || struct_param(1422, iVar10) == 14)
+				if(load_varpbit(6090) == 2)
+					iVar18 = 1
+				else
+					iVar18 = 0
+		} else 
+			if(arg5 == 1) {
+				if(iVar13 == 1)
+					iVar18 = 1
+				if(struct_param(1422, iVar10) == 13 || struct_param(1422, iVar10) == 14)
+					if(load_varpbit(6090) == 2)
+						iVar18 = 1
+					else
+						iVar18 = 0
+			} else 
+				if(arg5 == struct_param(1422, iVar10))
+					iVar18 = 1
+				else
+					if(arg5 == struct_param(1423, iVar10))
+						iVar18 = 1
+					else
+						if(arg5 == struct_param(1424, iVar10))
+							iVar18 = 1
+						else
+							if(arg5 == struct_param(1425, iVar10))
+								iVar18 = 1
+							else
+								if(arg5 == struct_param(1426, iVar10))
+									iVar18 = 1
+		if(iVar18 == 1) {
+			cc_sethide(0)
+			iVar14 = (iVar6 + arg3) * modulo(iVar16, iVar9)
+			iVar15 = (iVar9 / iVar16) * (iVar7 + arg4)
+			cc_setposition(0, 0, iVar15, iVar14)
+			iVar9 = iVar9 + 1
+		} else 
+			cc_sethide(1)
+	}
+	iVar8 = iVar8 + 1
+}
+if((arg4 + iVar15) + iVar7 > if_getheight(arg0)) {
+	if_setscrollsize(arg0, iVar7 + iVar15, 0)
+	if_sethide(arg1, 0)
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+} else  {
+	if_setscrollsize(arg0, 0, 0)
+	if_setscrollpos(arg0, 0, 0)
+	cc_deleteall(arg1)
+	if_sethide(arg1, 1)
+}
+return

@@ -1,0 +1,7 @@
+//script77(77)(string arg0)(void)
+script_78(load_varc(4), arg0)
+store_varc(4, load_varc(4) + 1)
+if(load_varc(4) >= 20)
+	store_varc(4, 0)
+store_varc(3, -1)
+return

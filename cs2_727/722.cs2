@@ -1,0 +1,185 @@
+//script722(722)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+if(instr6644() >= 2) {
+	if_setsize(if_gethash(746, 11), 0, 0, instr6141().get(1), instr6141().get(0))
+	script_1650()
+	iVar0 = if_getwidth(if_gethash(746, 52))
+	iVar1 = if_getheight(if_gethash(746, 52))
+	iVar2 = (iVar0 - 512) / 2
+	if(if_isopenwithid(762, 48889885) == 1)
+		if(load_varpbit(8348) == 1)
+			if_setsize(if_gethash(746, 29), 0, 0, 10, 10)
+		else {
+			iVar4 = iVar1 - 185
+			iVar3 = 175
+			if(iVar4 > 942) {
+				iVar4 = 942
+				iVar3 = (((iVar1 - 175) - iVar4) / 2) + 175
+			} else 
+				if(iVar4 < 334) {
+					iVar4 = 334
+					iVar3 = (iVar1 - 334) / 2
+				}
+			if_setsize(if_gethash(746, 29), 0, 0, iVar4, 512)
+			script_1654()
+		}
+	else {
+		if_setsize(if_gethash(746, 29), 0, 0, 334, 512)
+		iVar3 = (iVar1 - 334) / 2
+	}
+	if(iVar2 < 223)
+		iVar2 = 223
+	if(iVar3 < 165)
+		iVar3 = 165
+	if_setposition(if_gethash(746, 29), 2, 2, iVar3, iVar2)
+	if(if_isopenwithid(667, 48889867) == 1) {
+		if_setsize(if_gethash(746, 11), 0, 0, 334, 512)
+		if_setposition(if_gethash(746, 11), 2, 2, max(iVar3, (iVar1 - 334) / 2), iVar2)
+		if_setsize(if_gethash(746, 12), 1, 1, 164, 219)
+		if_setposition(if_gethash(746, 12), 0, 0, 0, 0)
+	} else 
+		if(if_isopenwithid(667, 48889868) == 1) {
+			if_setsize(if_gethash(746, 12), 0, 0, 334, 512)
+			if_setposition(if_gethash(746, 12), 2, 2, max(iVar3, (iVar1 - 334) / 2), iVar2)
+			if_setsize(if_gethash(746, 11), 1, 1, 0, 0)
+			if_setposition(if_gethash(746, 11), 1, 1, 0, 0)
+		} else  {
+			if_setsize(if_gethash(746, 12), 1, 1, 164, 219)
+			if_setposition(if_gethash(746, 12), 0, 0, 0, 0)
+			if_setsize(if_gethash(746, 11), 1, 1, 0, 0)
+			if_setposition(if_gethash(746, 11), 1, 1, 0, 0)
+		}
+	if(iVar0 < 996) {
+		if_setposition(if_gethash(746, 32), 2, 2, 74, 0)
+		if_setsize(if_gethash(746, 20), 0, 0, 74, 240)
+		if_setposition(if_gethash(746, 66), 2, 2, 37, 0)
+		if_setposition(if_gethash(746, 65), 2, 2, 37, 30)
+		if_setposition(if_gethash(746, 64), 2, 2, 37, 60)
+		if_setposition(if_gethash(746, 63), 2, 2, 37, 90)
+		if_setposition(if_gethash(746, 62), 2, 2, 37, 120)
+		if_setposition(if_gethash(746, 61), 2, 2, 37, 150)
+		if_setposition(if_gethash(746, 60), 2, 2, 37, 180)
+		if_setposition(if_gethash(746, 59), 2, 2, 37, 210)
+		if_setposition(if_gethash(746, 98), 2, 2, 37, 0)
+		if_setposition(if_gethash(746, 97), 2, 2, 37, 30)
+		if_setposition(if_gethash(746, 96), 2, 2, 37, 60)
+		if_setposition(if_gethash(746, 95), 2, 2, 37, 90)
+		if_setposition(if_gethash(746, 94), 2, 2, 37, 120)
+		if_setposition(if_gethash(746, 93), 2, 2, 37, 150)
+		if_setposition(if_gethash(746, 92), 2, 2, 37, 180)
+		if_setposition(if_gethash(746, 91), 2, 2, 37, 210)
+		if_setposition(if_gethash(746, 82), 2, 2, 37, 0)
+		if_setposition(if_gethash(746, 81), 2, 2, 37, 30)
+		if_setposition(if_gethash(746, 80), 2, 2, 37, 60)
+		if_setposition(if_gethash(746, 79), 2, 2, 37, 90)
+		if_setposition(if_gethash(746, 78), 2, 2, 37, 120)
+		if_setposition(if_gethash(746, 77), 2, 2, 37, 150)
+		if_setposition(if_gethash(746, 76), 2, 2, 37, 180)
+		if_setposition(if_gethash(746, 75), 2, 2, 37, 210)
+		if_setsize(if_gethash(746, 21), 0, 0, 78, 249)
+		if_setposition(if_gethash(746, 153), 0, 0, 0, 0)
+		if_setposition(if_gethash(746, 155), 0, 0, 0, 30)
+		if_setposition(if_gethash(746, 157), 0, 0, 0, 60)
+		if_setposition(if_gethash(746, 159), 0, 0, 0, 90)
+		if_setposition(if_gethash(746, 161), 0, 0, 0, 120)
+		if_setposition(if_gethash(746, 163), 0, 0, 0, 150)
+		if_setposition(if_gethash(746, 165), 0, 0, 0, 180)
+		if_setposition(if_gethash(746, 167), 0, 0, 0, 210)
+		if_setposition(if_gethash(746, 152), 0, 0, 0, 0)
+		if_setposition(if_gethash(746, 154), 0, 0, 0, 30)
+		if_setposition(if_gethash(746, 156), 0, 0, 0, 60)
+		if_setposition(if_gethash(746, 158), 0, 0, 0, 90)
+		if_setposition(if_gethash(746, 160), 0, 0, 0, 120)
+		if_setposition(if_gethash(746, 162), 0, 0, 0, 150)
+		if_setposition(if_gethash(746, 164), 0, 0, 0, 180)
+		if_setposition(if_gethash(746, 166), 0, 0, 0, 210)
+	} else  {
+		if_setposition(if_gethash(746, 32), 2, 2, 37, 0)
+		if_setsize(if_gethash(746, 20), 0, 0, 37, 480)
+		if_setposition(if_gethash(746, 66), 2, 2, 0, 240)
+		if_setposition(if_gethash(746, 65), 2, 2, 0, 270)
+		if_setposition(if_gethash(746, 64), 2, 2, 0, 300)
+		if_setposition(if_gethash(746, 63), 2, 2, 0, 330)
+		if_setposition(if_gethash(746, 62), 2, 2, 0, 360)
+		if_setposition(if_gethash(746, 61), 2, 2, 0, 390)
+		if_setposition(if_gethash(746, 60), 2, 2, 0, 420)
+		if_setposition(if_gethash(746, 59), 2, 2, 0, 450)
+		if_setposition(if_gethash(746, 98), 2, 2, 0, 240)
+		if_setposition(if_gethash(746, 97), 2, 2, 0, 270)
+		if_setposition(if_gethash(746, 96), 2, 2, 0, 300)
+		if_setposition(if_gethash(746, 95), 2, 2, 0, 330)
+		if_setposition(if_gethash(746, 94), 2, 2, 0, 360)
+		if_setposition(if_gethash(746, 93), 2, 2, 0, 390)
+		if_setposition(if_gethash(746, 92), 2, 2, 0, 420)
+		if_setposition(if_gethash(746, 91), 2, 2, 0, 450)
+		if_setposition(if_gethash(746, 82), 2, 2, 0, 240)
+		if_setposition(if_gethash(746, 81), 2, 2, 0, 270)
+		if_setposition(if_gethash(746, 80), 2, 2, 0, 300)
+		if_setposition(if_gethash(746, 79), 2, 2, 0, 330)
+		if_setposition(if_gethash(746, 78), 2, 2, 0, 360)
+		if_setposition(if_gethash(746, 77), 2, 2, 0, 390)
+		if_setposition(if_gethash(746, 76), 2, 2, 0, 420)
+		if_setposition(if_gethash(746, 75), 2, 2, 0, 450)
+		if_setsize(if_gethash(746, 21), 0, 0, 42, 489)
+		if_setposition(if_gethash(746, 153), 0, 0, 0, 0)
+		if_setposition(if_gethash(746, 155), 0, 0, 0, 30)
+		if_setposition(if_gethash(746, 157), 0, 0, 0, 60)
+		if_setposition(if_gethash(746, 159), 0, 0, 0, 90)
+		if_setposition(if_gethash(746, 161), 0, 0, 0, 120)
+		if_setposition(if_gethash(746, 163), 0, 0, 0, 150)
+		if_setposition(if_gethash(746, 165), 0, 0, 0, 180)
+		if_setposition(if_gethash(746, 167), 0, 0, 0, 210)
+		if_setposition(if_gethash(746, 152), 0, 0, 0, 0)
+		if_setposition(if_gethash(746, 154), 0, 0, 0, 30)
+		if_setposition(if_gethash(746, 156), 0, 0, 0, 60)
+		if_setposition(if_gethash(746, 158), 0, 0, 0, 90)
+		if_setposition(if_gethash(746, 160), 0, 0, 0, 120)
+		if_setposition(if_gethash(746, 162), 0, 0, 0, 150)
+		if_setposition(if_gethash(746, 164), 0, 0, 0, 180)
+		if_setposition(if_gethash(746, 166), 0, 0, 0, 210)
+	}
+} else 
+	if(if_isopenwithid(762, 35913772) == 1)
+		if(load_varpbit(8348) == 1) {
+			if_setsize(if_gethash(548, 44), 0, 0, 10, 10)
+			if_sendtofront(if_gethash(548, 30))
+			if_sendtofront(if_gethash(548, 31))
+			if_sendtofront(if_gethash(548, 37))
+			if_sendtofront(if_gethash(548, 40))
+			if_sendtofront(if_gethash(548, 41))
+			if_sendtofront(if_gethash(548, 42))
+			if_sendtofront(if_gethash(548, 43))
+			if_sendtofront(if_gethash(548, 45))
+			if_sendtofront(if_gethash(548, 46))
+			if_sendtofront(if_gethash(548, 26))
+			if_sendtofront(if_gethash(548, 28))
+			if_sendtofront(if_gethash(548, 29))
+			if_sendtofront(if_gethash(548, 44))
+			if_sendtofront(if_gethash(548, 49))
+		} else  {
+			if_setsize(if_gethash(548, 44), 0, 0, 334, 512)
+			if_sendtofront(if_gethash(548, 28))
+			if_sendtofront(if_gethash(548, 29))
+			if_sendtofront(if_gethash(548, 30))
+			if_sendtofront(if_gethash(548, 31))
+			if_sendtofront(if_gethash(548, 37))
+			if_sendtofront(if_gethash(548, 40))
+			if_sendtofront(if_gethash(548, 41))
+			if_sendtofront(if_gethash(548, 42))
+			if_sendtofront(if_gethash(548, 43))
+			if_sendtofront(if_gethash(548, 26))
+			if_sendtofront(if_gethash(548, 44))
+			if_sendtofront(if_gethash(548, 45))
+			if_sendtofront(if_gethash(548, 46))
+			if_sendtofront(if_gethash(548, 49))
+		}
+return

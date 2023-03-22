@@ -1,0 +1,12 @@
+//script246(246)()(void)
+instr6248(if_gethash(594, 53), script_247, "iz", -2147483640, -2147483639)
+instr6248(if_gethash(137, 55), None, "")
+store_varc(6, 0)
+store_varc(11, 1)
+if(if_gethide(if_gethash(752, 3)) == 0) {
+	if_sethide(if_gethash(752, 3), 1)
+	if_sethide(if_gethash(752, 8), 0)
+	store_varc(5, 0)
+	store_varc_string(22, "")
+}
+return

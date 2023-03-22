@@ -1,0 +1,14 @@
+//script6356(6356)()(int)
+int iVar0
+int iVar1
+iVar0 = cc_gety()
+iVar1 = cc_getparentlayer()
+while(iVar1 != -1) {
+	iVar0 = (iVar0 + if_gety(iVar1)) - if_getscrolly(iVar1)
+	iVar1 = if_getparentlayer(iVar1)
+}
+if(instr6644() < 2)
+	return iVar0 - if_getheight(if_gethash(548, 2))
+else
+	return iVar0 - if_getheight(if_gethash(746, 239))
+return 0

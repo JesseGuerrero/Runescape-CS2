@@ -1,0 +1,23 @@
+//script506(506)(int arg0)(int)
+int iVar1
+iVar1 = chatline_gettype(arg0)
+if(load_varc(41) == 5)
+	if(string_length(load_varc_string(0)) > 0)
+		switch(iVar1) {
+			case default:
+				break
+			case 42:
+				if(compare(removetags(load_varc_string(0)), removetags(instr6573(arg0))) == 0 || compare(removetags(instr6574()), removetags(instr6573(arg0))) == 0) {
+					if(chat_getfilter_trade() == 0)
+						return 1
+					if(chat_getfilter_trade() == 1)
+						if(friend_test(instr6573(arg0)) == 1)
+							return 1
+					if(iVar1 == 1 || iVar1 == 7)
+						return 1
+				}
+				break
+
+		}
+return 0
+return -1

@@ -1,0 +1,6 @@
+//script1080(1080)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1) {
+	cc_sethide(0)
+	cc_setcolor(577e45)
+}
+return

@@ -1,0 +1,12 @@
+int script_384() {
+	int int0;
+	int0 = 0;
+	if (script_247(location(2944, 3520, 0), location(3391, 4351, 3), getMyLocation()) == 1) {
+		int0 = (y(getMyLocation()) - 55 * 64) / 8 + 1;
+	} else if (script_247(location(3008, 10112, 0), location(3071, 10175, 3), getMyLocation()) == 1) {
+		int0 = (y(getMyLocation()) - 155 * 64) / 8 - 1;
+	} else if (script_247(location(2944, 9920, 0), location(3391, 10879, 3), getMyLocation()) == 1) {
+		int0 = (y(getMyLocation()) - 155 * 64) / 8 + 1;
+	}
+	return int0;
+}

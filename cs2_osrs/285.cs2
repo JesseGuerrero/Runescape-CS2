@@ -1,0 +1,68 @@
+void script_285(Widget widget0, int arg1, Widget arg2, int arg3, int arg4, Widget arg5, Widget widget6, Widget widget7, Widget widget8) {
+	int int9;
+	Item item10;
+	Item item11;
+	int int12;
+	int int13;
+	if (arg1 < 0 || arg1 >= 800) {
+		return;
+	}
+	if (arg2 == widget6) {
+		script_1317(arg1, widget0, widget6, widget7, widget8);
+		return;
+	}
+	int9 = script_516(arg3);
+	if (arg2 != widget0 || arg3 < 0 || arg3 >= 800 || script_516(arg1) != int9) {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setTrans(200);
+			CHILD.hookFrame(&script_488(CTX_WIDGET, CTX_WIDGET_CHILD, arg4, getClientCycle() + 10));
+		}
+		return;
+	}
+	item10 = getItemIdInSlot(95, arg1);
+	if (item10 == null) {
+		return;
+	}
+	item11 = getItemIdInSlot(95, arg3);
+	if (VARPBIT[3959] == 0 || arg3 == arg1 + 1 || arg3 == arg1 - 1 || item11 == null && int9 == 0) {
+		if (CHILD.setChild(widget0, arg3) == true) {
+			script_278(item10, getItemAmtInSlot(95, arg1), widget0, arg5, widget6, widget7, widget8);
+		}
+		if (CHILD.setChild(widget0, arg1) == true) {
+			script_278(item11, getItemAmtInSlot(95, arg3), widget0, arg5, widget6, widget7, widget8);
+		}
+		return;
+	}
+	if (item11 == null || script_514() == 1) {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setTrans(200);
+			CHILD.hookFrame(&script_488(CTX_WIDGET, CTX_WIDGET_CHILD, arg4, getClientCycle() + 10));
+		}
+		return;
+	}
+	int12 = -1;
+	int13 = -1;
+	if (arg3 < arg1) {
+		int12 = arg1;
+		while (int12 > arg3) {
+			if (CHILD.setChild(widget0, int12) == true) {
+				int13 = int12 - 1;
+				script_278(getItemIdInSlot(95, int13), getItemAmtInSlot(95, int13), widget0, arg5, widget6, widget7, widget8);
+			}
+			int12 = int12 - 1;
+		}
+	} else {
+		int12 = arg1;
+		while (int12 < arg3) {
+			if (CHILD.setChild(widget0, int12) == true) {
+				int13 = int12 + 1;
+				script_278(getItemIdInSlot(95, int13), getItemAmtInSlot(95, int13), widget0, arg5, widget6, widget7, widget8);
+			}
+			int12 = int12 + 1;
+		}
+	}
+	if (CHILD.setChild(widget0, arg3) == true) {
+		script_278(item10, getItemAmtInSlot(95, arg1), widget0, arg5, widget6, widget7, widget8);
+	}
+	return;
+}

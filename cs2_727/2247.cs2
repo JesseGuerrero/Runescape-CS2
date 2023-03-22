@@ -1,0 +1,72 @@
+//script2247(2247)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 3016
+if(world_members() == 1)
+	iVar6 = 3015
+if(modulo(5, enum_getoutputcount(iVar6)) == 0)
+	iVar3 = (enum_getoutputcount(iVar6) / 5) * 67
+else
+	iVar3 = ((enum_getoutputcount(iVar6) / 5) * 67) + 67
+cc_deleteall(if_gethash(940, 1))
+if_setscrollsize(61603841, iVar3, 5 * 60)
+while(iVar0 < enum_getoutputcount(iVar6)) {
+	cc_create(iVar4, 5, 61603842)
+	cc_setop(item_name(struct_param(1070, enum(iVar6, iVar0, 'i', 'J'))), 1)
+	instr6687(script_2250, "i", iVar4)
+	iVar5 = iVar4
+	iVar4 = iVar4 + 1
+	cc_setgraphic(2206)
+	if(stat_base(24) < struct_param(1071, enum(iVar6, iVar0, 'i', 'J')))
+		cc_setcolor(ff0000)
+	cc_setsize(0, 0, 55, 52)
+	cc_setposition(0, 0, (iVar2 * 67) - 1, iVar1 * 60)
+	cc_sethide(1)
+	cc_create(iVar4, 5, 61603842)
+	iVar4 = iVar4 + 1
+	cc_setgraphic(2205)
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, (iVar2 * 67) + 1, (iVar1 * 60) + 2)
+	cc_setonmouseover(script_2248, "i", iVar5)
+	instr6092(script_2249, "i", iVar5)
+	cc_create(iVar4, 5, 61603842)
+	iVar4 = iVar4 + 1
+	cc_setgraphic(2184)
+	cc_setcolor(c80000)
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, (iVar2 * 67) + 40, (iVar1 * 60) + 5)
+	cc_create(iVar4, 4, 61603842)
+	iVar4 = iVar4 + 1
+	cc_setcolor(e2e2a2)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_settextalign(0, 1, 1)
+	cc_settext(script_940(struct_param(1072, enum(iVar6, iVar0, 'i', 'J'))))
+	cc_setsize(0, 0, 12, 31)
+	cc_setposition(0, 0, (iVar2 * 67) + 40, (iVar1 * 60) + 18)
+	cc_create(iVar4, 5, 61603842)
+	iVar4 = iVar4 + 1
+	cc_setitem(-1, struct_param(1070, enum(iVar6, (iVar4 - 5) / 5, 'i', 'J')))
+	cc_setsize(0, 0, 25, 25)
+	cc_setposition(0, 0, (iVar2 * 67) + 9, (iVar1 * 60) + 13)
+	iVar1 = iVar1 + 1
+	if(iVar1 >= 5) {
+		iVar1 = 0
+		iVar2 = iVar2 + 1
+	}
+	iVar0 = iVar0 + 1
+}
+if(if_getscrolly(61603841) == 0)
+	script_31(61603875, 61603841, 792, 789, 790, 791, 773, 788)
+return

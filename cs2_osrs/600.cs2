@@ -1,0 +1,4 @@
+void script_600(int arg0, int arg1, int arg2, Widget widget3) {
+	widget3.setTextAlignment(arg0, arg1, arg2);
+	return;
+}

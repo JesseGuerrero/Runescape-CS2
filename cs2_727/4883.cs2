@@ -1,0 +1,117 @@
+//script4883(4883)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+iVar2 = script_4964(arg0)
+iVar3 = script_4971(iVar2)
+iVar4 = if_getparentlayer(arg0)
+iVar5 = if_getparentlayer(iVar4)
+iVar6 = script_5216(iVar2)
+if(iVar6 == -1)
+	iVar6 = arg0
+sVar0 = ""
+iVar7 = 0
+if(clan_vars_enabled() == 1) {
+	switch(arg0) {
+		case default:
+			break
+		case 82444846:
+			arg1 = 1
+			arg0 = "Build a new party room chair customisation."
+			if(load_clan_varbit(2210) > 0)
+				iVar7 = 1
+			break
+		case 82444854:
+			arg1 = 1
+			arg0 = "Build a new party room table customisation."
+			if(load_clan_varbit(2220) > 0)
+				iVar7 = 1
+			break
+		case 82444850:
+			arg1 = 1
+			arg0 = "Build a new flag customisation."
+			if(load_clan_varbit(2240) > 0)
+				iVar7 = 1
+			break
+		case 82444858:
+			arg1 = 1
+			arg0 = "Build a new potted plant customisation."
+			if(load_clan_varbit(2190) > 0)
+				iVar7 = 1
+			break
+		case 82444862:
+			arg1 = 1
+			arg0 = "Build a new sundial customisation."
+			if(load_clan_varbit(2230) > 0)
+				iVar7 = 1
+			break
+		case 82444866:
+			arg1 = 1
+			arg0 = "Build a new keep flag customisation."
+			if(load_clan_varbit(2200) > 0)
+				iVar7 = 1
+			break
+		case 82444870:
+			arg1 = 1
+			arg0 = "Build a new keep tapestry customisation."
+			if(load_clan_varbit(2260) > 0)
+				iVar7 = 1
+			break
+		case 82444874:
+			arg1 = 1
+			arg0 = "Build a new keep banner customisation."
+			if(load_clan_varbit(2270) > 0)
+				iVar7 = 1
+			break
+		case 82444878:
+			arg1 = 1
+			arg0 = "Build a new keep shield customisation."
+			if(load_clan_varbit(2280) > 0)
+				iVar7 = 1
+			break
+		case 82444882:
+			arg1 = 1
+			arg0 = "Build a new keep fireplace customisation."
+			if(load_clan_varbit(2250) > 0)
+				iVar7 = 1
+			break
+		case 82444886:
+			arg1 = 1
+			arg0 = "Build a new keep lower window customisation."
+			if(load_clan_varbit(2290) > 0)
+				iVar7 = 1
+			break
+		case 82444890:
+			arg1 = 1
+			arg0 = "Build a new keep upper window customisation."
+			if(load_clan_varbit(2300) > 0)
+				iVar7 = 1
+			break
+		case 82444894:
+			arg1 = 1
+			arg0 = "Build a new keep door customisation."
+			if(load_clan_varbit(2310) > 0)
+				iVar7 = 1
+			break
+		case 82444898:
+			arg1 = 1
+			arg0 = "Build a new keep wall pattern customisation."
+			if(load_clan_varbit(2320) > 0)
+				iVar7 = 1
+			arg0 = "Build over: " + script_4914(iVar3)
+			break
+
+	}
+	if(iVar7 == 1)
+		arg0 = "Build over " + script_4914(iVar3)
+	if(if_getx(iVar4) < (if_getwidth(iVar5) / 2) - 30)
+		arg1 = 1
+}
+if_setonmouseover(arg0, script_4538, "IIisifdiiiiii", if_gethash(1258, 119), arg0, -1, arg0, 120, 3793, 3793, 16777215, 13, 4, arg1, -2147483647, -2147483646)
+if_setonmouseover(iVar6, script_4538, "IIisifdiiiiii", if_gethash(1258, 119), arg0, -1, arg0, 120, 3793, 3793, 16777215, 13, 4, arg1, -2147483647, -2147483646)
+hook_mouse_exit(arg0, script_40, "I", if_gethash(1258, 119))
+return

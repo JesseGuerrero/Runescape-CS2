@@ -1,0 +1,10 @@
+//script1374(1374)(int arg0)(void)
+if(arg0 == 1) {
+	if_sethide(if_gethash(755, 46), 0)
+	instr6213(if_gethash(755, 6), 1, "Hide overview")
+} else  {
+	if_sethide(if_gethash(755, 46), 1)
+	instr6213(if_gethash(755, 6), 1, "Show overview")
+}
+instr6239(if_gethash(755, 6), script_1373, "")
+return

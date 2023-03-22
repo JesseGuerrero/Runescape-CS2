@@ -1,0 +1,8 @@
+//script354(354)(int arg0, int arg1)(void)
+if(arg0 != 1 || arg1 == load_varc(1020))
+	return
+sound_synth(0, 1, 9819)
+store_varc(1020, arg1)
+store_varpbit(6501, arg1)
+script_391()
+return

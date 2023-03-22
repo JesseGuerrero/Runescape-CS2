@@ -1,0 +1,91 @@
+//script4880(4880)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+sVar0 = ""
+iVar1 = 0
+iVar2 = 0
+iVar3 = 3
+iVar4 = 0
+iVar5 = 2236962
+iVar6 = -1
+iVar7 = 0
+iVar8 = script_4964(arg0)
+iVar9 = 0
+iVar10 = 0
+switch(arg0) {
+	case default:
+		break
+	case 82444844:
+		iVar10 = 1
+		break
+
+}
+if(clan_vars_enabled() == 1) {
+	cc_deleteall(arg0)
+	script_4407(arg0, 1, 178)
+	iVar7 = script_4971(iVar8)
+	iVar6 = script_5171(iVar7)
+	cc_create(0, 5, arg0)
+	cc_setsize(0, 0, 18, 18)
+	cc_setposition(1, 1, 0, 0)
+	if(iVar10 == 1)
+		cc_settrans(255)
+	switch(iVar8) {
+		case default:
+			break
+		case 48:
+			iVar2 = 1
+			iVar3 = 1
+			break
+
+	}
+	iVar2 = 0
+	iVar3 = 3
+	if(iVar9 > 0) {
+		iVar1 = 1
+		iVar5 = 12303291
+	} else  {
+		iVar1 = 0
+		iVar5 = 2236962
+	}
+	if(iVar2 == 1)
+		if(iVar1 == 1)
+			sVar0 = "Build over the existing blanket change."
+		else
+			sVar0 = "Build a new blanket change."
+	else {
+		switch(iVar8) {
+			case default:
+				break
+			case 28:
+				if(iVar1 == 1)
+					sVar0 = "Build over the existing statue."
+				else
+					sVar0 = "Build a new statue."
+				break
+
+		}
+		if(iVar1 == 1)
+			sVar0 = "Build over the existing customisation."
+		else
+			sVar0 = "Build a new customisation."
+	}
+}
+iVar11 = script_5216(iVar8)
+if(iVar2 == 0) {
+	if_sethide(if_getparentlayer(arg0), 1)
+	if(iVar11 != -1)
+		if_setonmouseover(iVar11, script_4882, "Isi", -2147483645, sVar0, iVar3)
+}
+if_setonmouseover(arg0, script_4882, "Isi", -2147483645, sVar0, iVar3)
+return

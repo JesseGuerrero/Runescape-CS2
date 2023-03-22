@@ -1,0 +1,35 @@
+//script1616(1616)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+if(arg0 != arg2)
+	return
+iVar4 = inv_size(if_gethash(0, 93))
+arg1 = modulo(iVar4, arg1)
+arg3 = modulo(iVar4, arg3)
+iVar5 = -1
+iVar6 = 0
+if(cc_find(arg1, arg0) == 1)
+	if(cc_find(arg3, arg2) == 1) {
+		iVar5 = cc_containeritemid()
+		cc_setitem(instr6150(), cc_containeritemid())
+		cc_setitem(iVar6, iVar5)
+		cc_resetopname()
+		cc_resetopname()
+		if(cc_containeritemid() != -1) {
+			cc_sethide(0)
+			script_2833(cc_containeritemid())
+		} else  {
+			instr6095(None, "")
+			cc_sethide(1)
+		}
+		if(cc_find(arg3, arg2) == 1)
+			if(cc_containeritemid() != -1) {
+				cc_sethide(0)
+				script_2833(cc_containeritemid())
+			} else  {
+				instr6095(None, "")
+				cc_sethide(1)
+			}
+	}
+return

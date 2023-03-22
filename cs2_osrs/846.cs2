@@ -1,0 +1,6 @@
+void script_846(int arg0, Widget widget1, Widget widget2, Widget arg3) {
+	if (getDisplayMode() != arg0) {
+		script_843(widget1, widget2, arg3);
+	}
+	return;
+}

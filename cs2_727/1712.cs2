@@ -1,0 +1,56 @@
+//script1712(1712)(int arg0)(int)
+int iVar1
+iVar1 = 0
+if(inv_getitem(2, 94) == 19892)
+	iVar1 = scale(5, 100, stat_base(arg0))
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if(load_varpbit(6852) > 0)
+			return 0 - script_1714(0, script_1718(0, 10 + iVar1))
+		else
+			if(load_varpbit(6847) > 0)
+				return 0 - script_1714(0, script_1718(0, 10 + iVar1))
+			else
+				return 0
+		break
+	case 2:
+		if(load_varpbit(6853) > 0)
+			return 0 - script_1714(2, script_1718(2, 10 + iVar1))
+		else
+			if(load_varpbit(6848) > 0)
+				return 0 - script_1714(2, script_1718(2, 10 + iVar1))
+			else
+				return 0
+		break
+	case 1:
+		if(load_varpbit(6854) > 0)
+			return 0 - script_1714(1, script_1718(1, 10 + iVar1))
+		else
+			if(load_varpbit(6849) > 0)
+				return 0 - script_1714(1, script_1718(1, 10 + iVar1))
+			else
+				return 0
+		break
+	case 4:
+		if(load_varpbit(6855) > 0)
+			return 0 - script_1714(4, script_1718(4, 10 + iVar1))
+		else
+			if(load_varpbit(6850) > 0)
+				return 0 - script_1714(4, script_1718(4, 10 + iVar1))
+			else
+				return 0
+		break
+	case 6:
+		if(load_varpbit(6856) > 0)
+			return 0 - script_1714(6, script_1718(0, 10 + iVar1))
+		else
+			if(load_varpbit(6851) > 0)
+				return 0 - script_1714(6, script_1718(0, 10 + iVar1))
+			else
+				return 0
+		break
+
+}
+return 0

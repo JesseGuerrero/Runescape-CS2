@@ -1,0 +1,13 @@
+void script_400(Widget widget0, int arg1) {
+	if (getClientCycle() < arg1) {
+		return;
+	}
+	widget(398, 19).setIsHidden(false);
+	widget(398, 20).setIsHidden(false);
+	widget(398, 21).setIsHidden(false);
+	widget(398, 22).setIsHidden(false);
+	widget(398, 23).setIsHidden(false);
+	widget(398, 24).setIsHidden(false);
+	widget0.hookFrame(null);
+	return;
+}

@@ -1,0 +1,6 @@
+void script_914(int arg0, DataMap datamap1, int arg2) {
+	if (arg0 == 1) {
+		script_71(datamap1, arg2, 1);
+	}
+	return;
+}

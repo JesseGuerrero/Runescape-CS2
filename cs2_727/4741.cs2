@@ -1,0 +1,30 @@
+//script4741(4741)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = -1
+iVar2 = -1
+if(load_varpbit(9904) < 99999)
+	if(load_varpbit(9903) != 0) {
+		iVar2 = enum(3879, load_varpbit(9903), 'i', 'v')
+		if(cc_find(load_varpbit(9904), if_gethash(1144, 0)) == 1) {
+			iVar0 = inv_getnum(load_varpbit(9904), iVar2)
+			if(iVar0 > 0) {
+				iVar1 = inv_getitem(load_varpbit(9904), iVar2)
+				if(iVar1 != -1) {
+					if_sethide(if_gethash(1144, 23), 1)
+					if_sethide(if_gethash(1144, 22), 0)
+					if_sethide(if_gethash(1144, 9), 0)
+					if_sethide(if_gethash(1144, 39), 0)
+					if(iVar0 == 1)
+						if_settext(if_gethash(1144, 49), "Are you sure you want to delete " + "<col=ffff80>" + item_name(iVar1) + "</col>" + "?")
+					else
+						if_settext(if_gethash(1144, 49), "Are you sure you want to delete " + "<col=ffff80>" + item_name(iVar1) + "</col>" + " (" + "<col=ffffff>" + to_string(iVar0) + "</col>" + " items)?")
+					if_setitem(if_gethash(1144, 50), iVar0, iVar1)
+				}
+			}
+		}
+	}
+return
+return

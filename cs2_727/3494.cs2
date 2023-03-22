@@ -1,0 +1,129 @@
+//script3494(3494)(int arg0)(void)
+int iVar1
+sound_synth(0, 1, 9499)
+if_setposition(if_gethash(993, 112), 0, 0, 52, if_getx(if_gethash(993, 112)))
+if_setposition(if_gethash(993, 27), 0, 0, 52, if_getx(if_gethash(993, 27)))
+if_setposition(if_gethash(993, 26), 0, 0, 52, if_getx(if_gethash(993, 26)))
+if_setsize(if_gethash(993, 160), 2, 2, 16384, 0)
+if_setsize(if_gethash(993, 67), 2, 2, 16384, 0)
+if_setsize(if_gethash(993, 109), 2, 2, 16384, 0)
+if_sethide(if_gethash(993, 254), 1)
+if_sethide(if_gethash(993, 239), 1)
+if_sethide(if_gethash(993, 224), 1)
+if_sethide(if_gethash(993, 209), 1)
+if_settrans(if_gethash(993, 257), 255)
+if_settrans(if_gethash(993, 242), 255)
+if_settrans(if_gethash(993, 227), 255)
+if_settrans(if_gethash(993, 212), 255)
+if_sethide(if_gethash(993, 194), 1)
+if_sethide(if_gethash(993, 195), 1)
+if_sethide(if_gethash(993, 196), 1)
+if_sethide(if_gethash(993, 197), 1)
+if_sethide(if_gethash(993, 261), 1)
+switch(load_varc(1184)) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(8065) == 1)
+			if_settext(if_gethash(993, 139), "In use")
+		else
+			if_settext(if_gethash(993, 139), "Switch-to")
+		if(load_varpbit(8065) == 2)
+			if_settext(if_gethash(993, 46), "In use")
+		else
+			if_settext(if_gethash(993, 46), "Switch-to")
+		if(load_varpbit(8065) == 3)
+			if_settext(if_gethash(993, 88), "In use")
+		else
+			if_settext(if_gethash(993, 88), "Switch-to")
+		break
+	case 2:
+		if(load_varpbit(8065) == 4)
+			if_settext(if_gethash(993, 139), "In use")
+		else
+			if_settext(if_gethash(993, 139), "Switch-to")
+		if(load_varpbit(8065) == 5)
+			if_settext(if_gethash(993, 46), "In use")
+		else
+			if_settext(if_gethash(993, 46), "Switch-to")
+		if(load_varpbit(8065) == 6)
+			if_settext(if_gethash(993, 88), "In use")
+		else
+			if_settext(if_gethash(993, 88), "Switch-to")
+		break
+	case 3:
+		if(load_varpbit(8065) == 7)
+			if_settext(if_gethash(993, 139), "In use")
+		else
+			if_settext(if_gethash(993, 139), "Switch-to")
+		if(load_varpbit(8065) == 8)
+			if_settext(if_gethash(993, 46), "In use")
+		else
+			if_settext(if_gethash(993, 46), "Switch-to")
+		if(load_varpbit(8065) == 9)
+			if_settext(if_gethash(993, 88), "In use")
+		else
+			if_settext(if_gethash(993, 88), "Switch-to")
+		break
+	case 4:
+		if(load_varpbit(8065) == 10)
+			if_settext(if_gethash(993, 139), "In use")
+		else
+			if_settext(if_gethash(993, 139), "Switch-to")
+		if(load_varpbit(8065) == 11)
+			if_settext(if_gethash(993, 46), "In use")
+		else
+			if_settext(if_gethash(993, 46), "Switch-to")
+		if(load_varpbit(8065) == 12)
+			if_settext(if_gethash(993, 88), "In use")
+		else
+			if_settext(if_gethash(993, 88), "Switch-to")
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 65077505:
+		if_sethide(if_gethash(993, 254), 0)
+		if_sethide(if_gethash(993, 194), 0)
+		store_varc(1184, 1)
+		if_setcolor(65077382, 0xFF3264)
+		if_setcolor(65077289, 0xFF3264)
+		if_setcolor(65077331, 0xFF3264)
+		break
+	case 65077490:
+		if_sethide(if_gethash(993, 239), 0)
+		if_sethide(if_gethash(993, 195), 0)
+		store_varc(1184, 2)
+		if_setcolor(65077382, 0x96FF96)
+		if_setcolor(65077289, 0x96FF96)
+		if_setcolor(65077331, 0x96FF96)
+		break
+	case 65077475:
+		if_sethide(if_gethash(993, 224), 0)
+		if_sethide(if_gethash(993, 196), 0)
+		store_varc(1184, 3)
+		if_setcolor(65077382, 0xC8FF)
+		if_setcolor(65077289, 0xC8FF)
+		if_setcolor(65077331, 0xC8FF)
+		break
+	case 65077460:
+		if_sethide(if_gethash(993, 209), 0)
+		if_sethide(if_gethash(993, 197), 0)
+		store_varc(1184, 4)
+		if_setcolor(65077382, 0xFFFFFF)
+		if_setcolor(65077289, 0xFFFFFF)
+		if_setcolor(65077331, 0xFFFFFF)
+		break
+
+}
+iVar1 = enum(3088, load_varc(1184), 'i', 'g')
+if_settext(if_gethash(993, 132), struct_param(1089, enum(iVar1, 1, 'i', 'J')))
+if_settext(if_gethash(993, 133), struct_param(1090, enum(iVar1, 1, 'i', 'J')))
+if_settext(if_gethash(993, 39), struct_param(1089, enum(iVar1, 2, 'i', 'J')))
+if_settext(if_gethash(993, 40), struct_param(1090, enum(iVar1, 2, 'i', 'J')))
+if_settext(if_gethash(993, 81), struct_param(1089, enum(iVar1, 3, 'i', 'J')))
+if_settext(if_gethash(993, 82), struct_param(1090, enum(iVar1, 3, 'i', 'J')))
+store_varc(1186, 0)
+return

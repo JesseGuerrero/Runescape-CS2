@@ -1,0 +1,7 @@
+//script1687(1687)()(void)
+if(load_varc(1044) < instr6652(0) - 1) {
+	store_varc(1044, load_varc(1044) + 1)
+	instr6677(load_varc(1044), 1, 200, 200, load_varc(1044), 0)
+	instr6255(if_gethash(85, 0), script_1679, "")
+}
+return

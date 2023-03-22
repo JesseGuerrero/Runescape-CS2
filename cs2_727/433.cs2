@@ -1,0 +1,3 @@
+//script433(433)()(void)
+if_sethide(if_gethash(1024, 85), 1)
+return

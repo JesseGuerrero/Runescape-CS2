@@ -1,0 +1,28 @@
+//script6189(6189)()(void)
+store_varc(1919, 0)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(906, 388), 10940)
+		break
+	case 1:
+		if_setgraphic(if_gethash(906, 388), 10942)
+		break
+	case 2:
+		if_setgraphic(if_gethash(906, 388), 10941)
+		break
+	case 3:
+		if_setgraphic(if_gethash(906, 388), 10943)
+		break
+
+}
+if_sethide(if_gethash(906, 34), 0)
+if_sethide(if_gethash(906, 338), 1)
+if_sethide(if_gethash(906, 409), 1)
+if_sethide(if_gethash(906, 382), 0)
+if_sethide(if_gethash(906, 31), 1)
+if_settext(if_gethash(906, 396), "By validating your email you'll receive these great rewards:")
+if_setsize(if_gethash(906, 425), 0, 0, if_getheight(if_gethash(906, 390)), 240)
+instr6237(if_gethash(906, 382), script_6214, "Y", 1, 2611)
+return

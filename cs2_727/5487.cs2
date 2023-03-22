@@ -1,0 +1,9 @@
+//script5487(5487)()(void)
+store_varc(1690, -1)
+if_sethide(if_gethash(746, 215), 1)
+if_setsize(if_gethash(746, 215), 0, 0, 0, 0)
+store_varc(1688, 0)
+store_varc(1691, -1)
+store_varc_string(305, "")
+store_varc(1692, -1)
+return

@@ -1,0 +1,12 @@
+void script_1142(int arg0, Widget widget1, int arg2) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (isBitFlagged(VARP[1295], arg2 - 1) == false) {
+		script_1143(widget1, arg2);
+	} else {
+		script_1144(widget1, arg2);
+	}
+	return;
+}

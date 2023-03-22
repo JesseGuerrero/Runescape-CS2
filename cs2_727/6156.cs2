@@ -1,0 +1,6 @@
+//script6156(6156)(int arg0)(void)
+if(arg0 == 0)
+	if_setgraphic(if_gethash(153, 89), 8279)
+else
+	if_setgraphic(if_gethash(153, 89), 8278)
+return

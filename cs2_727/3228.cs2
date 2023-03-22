@@ -1,0 +1,29 @@
+//script3228(3228)(int arg0, int arg1, int arg2)(int)
+int iVar3
+iVar3 = script_5639(arg0, arg1, arg2)
+if(iVar3 == 1)
+	switch(arg0) {
+		case default:
+			break
+		case 7:
+			instr6698(8)
+			break
+		case 8:
+			instr6698(10)
+			break
+
+	}
+else
+	switch(arg0) {
+		case default:
+			break
+		case 7:
+			instr6698(9)
+			break
+		case 8:
+			instr6698(11)
+			break
+
+	}
+return iVar3
+return -1

@@ -1,0 +1,34 @@
+void script_407(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	int int6;
+	int int7;
+	widget0.clearChildren();
+	int6 = 0;
+	int7 = 0;
+	int6, int7 = script_408(widget0, widget1, "Unlock", int6, int7, widget1, widget2, widget3, widget4, widget5);
+	int6, int7 = script_408(widget0, widget2, "Extend", int6, int7, widget1, widget2, widget3, widget4, widget5);
+	int6, int7 = script_408(widget0, widget3, "Buy", int6, int7, widget1, widget2, widget3, widget4, widget5);
+	int6, int7 = script_408(widget0, widget4, "Tasks", int6, int7, widget1, widget2, widget3, widget4, widget5);
+	CHILD.createChild(widget0, 4, int6);
+	CHILD.setPosition(0, 0, 2, 0);
+	CHILD.setSize(int7, 0, 1, 1);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	script_410();
+	CHILD.hookVARP(&script_409(CTX_WIDGET, CTX_WIDGET_CHILD), 661);
+	widget5.setIsHidden(false);
+	if (widget5 != widget1) {
+		widget1.setIsHidden(true);
+	}
+	if (widget5 != widget2) {
+		widget2.setIsHidden(true);
+	}
+	if (widget5 != widget3) {
+		widget3.setIsHidden(true);
+	}
+	if (widget5 != widget4) {
+		widget4.setIsHidden(true);
+	}
+	return;
+}

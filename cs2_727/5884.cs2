@@ -1,0 +1,57 @@
+//script5884(5884)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar0 = -1
+if(load_varc(1785) == 1)
+	return
+if(load_varc(1781) < 0 || load_varc(1781) >= 13)
+	return
+store_varc(1785, 1)
+iVar1 = 0
+iVar2 = 0
+iVar1 = script_5886(load_varpbit(10860)).get(0)
+instr6342(if_gethash(1253, 52), script_5885, "ii", iVar1, iVar2)
+iVar3 = script_5936(load_varpbit(10860))
+iVar4 = struct_param(2268, iVar3)
+iVar5 = inv_getitem(load_varpbit(10860), 665)
+iVar6 = inv_getnum(load_varpbit(10860), 665)
+iVar0 = script_5941(load_varpbit(10860))
+if(load_varpbit(10861) > 0) {
+	if_setitem(if_gethash(1253, 202), iVar6, iVar5)
+	if_setitem(if_gethash(1253, 35), iVar6, iVar5)
+	if_settext(if_gethash(1253, 162), script_5909(iVar4, load_varpbit(10865), iVar5, iVar6))
+	if_setgraphic(if_gethash(1253, 201), iVar0)
+	if_setgraphic(if_gethash(1253, 34), iVar0)
+} else  {
+	if_setitem(if_gethash(1253, 202), 0, -1)
+	if_setitem(if_gethash(1253, 35), 0, -1)
+	if_settext(if_gethash(1253, 162), "")
+	if_setgraphic(if_gethash(1253, 201), -1)
+	if_setgraphic(if_gethash(1253, 34), -1)
+}
+if_settext(if_gethash(1253, 161), "Spins remaining: " + to_string(max((load_varpbit(10862) + load_varpbit(11026)) + load_varc(1800), 0)))
+if(playermember() == 0) {
+	if_settext(if_gethash(1253, 161), "Members get two spins a day. Subscribe now to claim your earned spin.")
+	if_sethide(if_gethash(1253, 259), 1)
+	if_settext(if_gethash(1253, 264), "Subscribe")
+	instr6213(if_gethash(1253, 258), 1, "Subscribe")
+	if(item_members(iVar5) == 1)
+		if(playermember() == 0) {
+			if_settext(if_gethash(1253, 180), "Subscribe to claim")
+			instr6213(if_gethash(1253, 177), 1, "Subscribe")
+		}
+} else  {
+	if_settext(if_gethash(1253, 264), "Play again")
+	instr6213(if_gethash(1253, 258), 1, "Play")
+	if_settext(if_gethash(1253, 180), "Claim item")
+	instr6213(if_gethash(1253, 177), 1, "Claim")
+}
+script_5910(iVar4)
+script_1968()
+script_6506()
+return

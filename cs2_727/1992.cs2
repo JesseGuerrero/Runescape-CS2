@@ -1,0 +1,14 @@
+//script1992(1992)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = (((((load_varpbit(5811) + load_varpbit(5806)) + load_varpbit(5810)) + load_varpbit(5809)) + load_varpbit(5808)) + load_varpbit(5812)) + load_varpbit(5813)
+if(load_varpbit(5807) == 5)
+	iVar0 = iVar0 + 1
+if(load_varpbit(5814) == 5)
+	iVar0 = iVar0 + 1
+if(load_varpbit(5815) == 5)
+	iVar0 = iVar0 + 1
+if(load_varpbit(5816) == 5)
+	iVar0 = iVar0 + 1
+return iVar0
+return 0

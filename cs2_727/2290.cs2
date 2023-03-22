@@ -1,0 +1,14 @@
+//script2290(2290)(int arg0, int arg1)(void)
+if(script_2297(arg1) == 0) {
+	if(script_2295(arg1) == 0)
+		return
+	if(cc_find(arg1, arg0) == 1) {
+		cc_setgraphic(181)
+		cc_setop("Deselect", 1)
+	}
+} else 
+	if(cc_find(arg1, arg0) == 1) {
+		cc_setgraphic(180)
+		cc_setop("Select", 1)
+	}
+return

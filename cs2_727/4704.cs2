@@ -1,0 +1,216 @@
+//script4704(4704)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = -1
+iVar0 = instr6714().get(0)
+switch(iVar0) {
+	case default:
+		break
+	case 0:
+		break
+	case 1:
+		break
+	case 2:
+		break
+	case 3:
+		send_message("Your password has been updated. Please leave the world and log in again.")
+		break
+	case 4:
+		send_message("Your account has been disabled. Check your Message Centre for details.")
+		break
+	case 5:
+		send_message("Your account has not logged out from its last session. Try again in a few minutes.")
+		break
+	case 6:
+		send_message("RuneScape has been updated! Please try again in a few minutes.")
+		break
+	case 7:
+		send_message("This world is full. Please try back later.")
+		break
+	case 8:
+		send_message("Unable to connect: login server offline.")
+		break
+	case 9:
+		send_message("Login limit exceeded: too many connections from your address.")
+		break
+	case 10:
+		send_message("Unable to connect: bad session id.")
+		break
+	case 11:
+		send_message("Your password is an extremely common choice, and is not secure. You must change it.")
+		break
+	case 12:
+		send_message("You need a member's account to log in to this world.")
+		break
+	case 13:
+		send_message("Could not complete login. Please try back later.")
+		break
+	case 14:
+		send_message("The server is being updated. Please wait a few minutes and try again.")
+		break
+	case 15:
+		break
+	case 16:
+		send_message("Too many incorrect logins from your address. Please wait 5 minutes before trying again.")
+		break
+	case 17:
+		send_message("You are standing in a members-only area. To play on this world, move to a free area first.")
+		break
+	case 18:
+		send_message("Your account has been locked. If you have not received an account recovery email, please select 'Recover Account'.")
+		break
+	case 19:
+		send_message("Fullscreen is currently a members-only feature. To log in, either exit fullscreen via the options menu or use a member's account.")
+		break
+	case 20:
+		send_message("Invalid loginserver requested. Please try back later.")
+		break
+	case 21:
+		break
+	case 22:
+		send_message("Malformed login packet. Please try again.")
+		break
+	case 23:
+		send_message("No reply from login server. Please wait a minute and try again.")
+		break
+	case 24:
+		send_message("Error loading your profile. Please contact customer support.")
+		break
+	case 25:
+		send_message("Unexpected loginserver response. Please try back later.")
+		break
+	case 26:
+		send_message("This computer's address has been blocked, as it was used to break our rules.")
+		break
+	case 27:
+		send_message("Service unavailable.")
+		break
+	case 28:
+		break
+	case 29:
+		switch(instr6774()) {
+			case default:
+				break
+			case 0:
+				send_message("You must have a Combat Level of at least 20 (not including Summoning) to enter a PvP world.")
+				break
+			case 1:
+				send_message("You are currently carrying lent items and cannot enter a PvP world.")
+				break
+			case 2:
+				send_message("You must be standing in the Wilderness or Edgeville to enter this bounty world.")
+				break
+			case 3:
+				send_message("You must have a total skill level of 1,000 or greater to enter this world.")
+				break
+			case 5:
+				send_message("You must have a total skill level of 1,500 or greater to enter this world.")
+				break
+			case 4:
+				send_message("You must move to a safe area before you can log in to a PvP or bounty world.")
+				send_message("Unexpected server response. Please try back later.")
+				break
+
+		}
+		break
+	case 30:
+		send_message("This is not a member's account. Please choose a 'free' world from the website to play on this account.")
+		break
+	case 31:
+		break
+	case 32:
+		send_message("Your account has negative membership credit. Please log into the billing system to add credit to your account.")
+		break
+	case 33:
+		break
+	case 34:
+		break
+	case 35:
+		break
+	case 36:
+		break
+	case 37:
+		send_message("Your account is currently inaccessible. Please try again in a few minutes.")
+		break
+	case 38:
+		break
+	case 39:
+		send_message("The instance you tried to join no longer exists. Please try back later.")
+		break
+	case 40:
+		send_message("You need a member's account to log in to this instance.")
+		break
+	case 41:
+		send_message("The instance you tried to join is full. Please try back later.")
+		break
+	case 42:
+		break
+	case 43:
+		break
+	case 44:
+		send_message("Our systems are currently unavailable. Please try again in a few minutes.")
+		break
+	case 48:
+		send_message("Client token failure - please reload this page.")
+		break
+	case 45:
+		switch(iVar2) {
+			case default:
+				break
+			case 0:
+				switch(iVar1) {
+					case default:
+						break
+					case 0:
+						send_message("You must be near the TzHaar Fight Pits entrance to enter a global match.")
+						break
+
+				}
+				send_message("Unable to log in. Please try back later.")
+				break
+			case 1:
+				switch(iVar1) {
+					case default:
+						break
+					case 1:
+						send_message("There was an error connecting to your meeting room. Please try again.")
+						break
+					case 2:
+						send_message("You need a higher rank to enter that private tent.")
+						break
+					case 3:
+						send_message("You need an invitation to enter that private room.")
+						send_message("Unable to log in. Please try back later.")
+						break
+
+				}
+				break
+			case 4:
+				switch(iVar1) {
+					case default:
+						break
+					case 1:
+						send_message("You need to clear some inventory space to enter a Flash Factory game.")
+						break
+					case 2:
+						send_message("You must dismiss your follower before entering a Flash Factory game.")
+						break
+
+				}
+				send_message("Unable to log in. Please try back later.")
+				break
+
+		}
+		break
+	case 46:
+		send_message("This instance is marked for deletion/rebuild. Please try again in a few minutes.")
+		break
+	case 47:
+		send_message("You need to validate your email address to log in.")
+		break
+
+}
+return

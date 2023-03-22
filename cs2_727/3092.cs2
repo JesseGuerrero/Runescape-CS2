@@ -1,0 +1,6 @@
+//script3092(3092)(int arg0)(void)
+store_varc(547, arg0)
+if_sethide(if_gethash(906, 58), 1)
+if(load_varc(547) == 1)
+	script_3062(59375802)
+return

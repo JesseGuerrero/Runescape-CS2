@@ -1,0 +1,9 @@
+//script3940(3940)()(void)
+instr6248(if_gethash(137, 55), None, "")
+instr6248(if_gethash(890, 40), script_3944, "iz1", -2147483640, -2147483639, 0)
+hook_mouse_press(if_gethash(890, 45), script_3217, "iIIIi", -2147483647, if_gethash(890, 44), if_gethash(890, 45), if_gethash(890, 46), 16)
+store_varc(1099, 0)
+store_varc_string(330, "")
+store_varc(1412, 0)
+script_3218(58327084, 58327085, 58327086, 16, load_varc_string(330))
+return

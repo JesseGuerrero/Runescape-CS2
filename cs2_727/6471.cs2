@@ -1,0 +1,55 @@
+//script6471(6471)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar3 = -1
+iVar4 = arg1 - 2
+iVar5 = 1
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+if(iVar5 == 1)
+	while(iVar7 < 10000) {
+		iVar5 = 0
+		iVar3 = iVar3 + 1
+		iVar6 = iVar3
+		while(iVar6 <= iVar4) {
+			iVar9 = struct_param(2532, enum(arg2, globalArrays[0][iVar6], 'i', 'J'))
+			iVar10 = struct_param(2532, enum(arg2, globalArrays[0][iVar6 + 1], 'i', 'J'))
+			if(iVar10 == -1)
+				iVar4 = iVar6 + 1
+			else
+				if(iVar9 > iVar10) {
+					iVar8 = globalArrays[0][iVar6]
+					globalArrays[0][iVar6] = globalArrays[0][iVar6 + 1]
+					globalArrays[0][iVar6 + 1] = iVar8
+					iVar5 = 1
+				}
+			iVar6 = iVar6 + 1
+		}
+		if(iVar5 == 1) {
+			iVar5 = 0
+			iVar4 = iVar4 - 1
+			iVar6 = iVar4
+			while(iVar6 >= iVar3) {
+				iVar9 = struct_param(2532, enum(arg2, globalArrays[0][iVar6], 'i', 'J'))
+				iVar10 = struct_param(2532, enum(arg2, globalArrays[0][iVar6 + 1], 'i', 'J'))
+				if(iVar9 > iVar10) {
+					iVar8 = globalArrays[0][iVar6]
+					globalArrays[0][iVar6] = globalArrays[0][iVar6 + 1]
+					globalArrays[0][iVar6 + 1] = iVar8
+					iVar5 = 1
+				}
+				iVar6 = iVar6 - 1
+			}
+		}
+		iVar7 = iVar7 + 1
+	}
+return

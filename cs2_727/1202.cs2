@@ -1,0 +1,6 @@
+//script1202(1202)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = 100
+store_varc(1186, modulo(360, load_varc(1186) + 1))
+if_setmodelangle(arg0, instr6277(arg0), modulo(2048, arg3 + scale(enum(3385, load_varc(1186), 'i', 'i'), 10000, iVar4)), modulo(2048, arg2 + scale(enum(3384, load_varc(1186), 'i', 'i'), 10000, iVar4)), arg1, if_getoffsety(arg0), if_getoffsetx(arg0))
+return

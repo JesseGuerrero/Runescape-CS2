@@ -1,0 +1,5 @@
+void script_1549(int arg0, int arg1) {
+	script_1551(arg0, arg1);
+	CHILD.hookClanList(&script_1550(CTX_WIDGET, CTX_WIDGET_CHILD, arg0, (boolean)arg1));
+	return;
+}

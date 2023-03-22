@@ -1,0 +1,9 @@
+void script_1484(int arg0) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	widget(215, 41).setIsHidden(false);
+	widget(215, 42).setIsHidden(false);
+	return;
+}

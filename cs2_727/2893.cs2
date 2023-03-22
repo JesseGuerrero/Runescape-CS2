@@ -1,0 +1,7 @@
+//script2893(2893)()(void)
+if(load_varc(1086) == 1) {
+	instr6342(if_gethash(476, 24), None, "")
+	if_sethide(if_gethash(476, 24), 1)
+	store_varc(1086, 0)
+}
+return

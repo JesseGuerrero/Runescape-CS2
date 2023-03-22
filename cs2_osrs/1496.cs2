@@ -1,0 +1,18 @@
+void script_1496(int arg0) {
+	int int1;
+	string str0;
+	str0 = "";
+	int1 = VARP[1588];
+	if (arg0 == 1) {
+		if (int1 <= 0) {
+			str0 = "<col=ff0000>" + "Capped Combat XP" + "</col>";
+		} else {
+			str0 = "<col=ff0000>" + script_1697(int1, ",") + "</col>" + " XP to Combat Cap";
+		}
+		widget(90, 42).hookMouseHover(&script_526(CTX_WIDGET, -1, widget(90, 51), str0, 25, 512));
+	} else {
+		widget(90, 42).hookMouseHover(null);
+		widget(90, 42).hookVARP(null);
+	}
+	return;
+}

@@ -1,0 +1,19 @@
+//script5861(5861)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+string sVar2
+iVar1 = 0
+sVar0 = ""
+iVar2 = 0
+sVar1 = ""
+iVar3 = 0
+iVar4 = 0
+sVar2 = ""
+iVar1 = worldlist_getinfo(arg0).get(0)
+iVar5 = worldlist_setworld(arg0, sVar2)
+return

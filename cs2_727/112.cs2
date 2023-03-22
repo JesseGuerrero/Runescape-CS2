@@ -1,0 +1,150 @@
+//script112(112)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 84:
+		if(load_varc(5) == 12) {
+			script_1806(load_varc_string(22))
+			return
+		}
+		if(load_varc(5) == 13) {
+			resume_stringdialog(load_varc_string(22))
+			script_1548(13)
+			return
+		}
+		if(string_length(load_varc_string(22)) > 0)
+			if(load_varc(5) == 4 || load_varc(5) == 5)
+				if(ignore_count() < 0)
+					send_message("Unable to update Ignore List: system busy")
+				else
+					if(load_varc(5) == 4)
+						ignore_add(load_varc_string(22))
+					else
+						if(load_varc(5) == 5)
+							if(ignore_test(script_4591(load_varc_string(22))) == 1)
+								ignore_del(script_4591(load_varc_string(22)))
+							else
+								send_message("That player is not on your ignore list.")
+			else
+				if(load_varc(5) < 7)
+					if(friend_count() < 0)
+						send_message("Unable to complete action - system busy")
+					else
+						if(load_varc(5) == 2)
+							friend_add(load_varc_string(22))
+						else
+							if(load_varc(5) == 3)
+								if(friend_test(script_4591(load_varc_string(22))) == 1)
+									friend_del(script_4591(load_varc_string(22)))
+								else
+									send_message("That player is not on your friends list.")
+							else
+								if(load_varc(5) == 6) {
+									if(chat_getfilter_private() == 2) {
+										chat_setfilter(chat_getfilter_trade(), 1, chat_getfilter_public())
+										script_178()
+										script_84()
+										script_89()
+									}
+									send_private_message(load_varc_string(22), load_varc_string(23))
+								}
+				else
+					if(load_varc(5) == 11)
+						script_1478()
+					else
+						if(load_varc(5) == 7) {
+							store_varc_string(22, script_2332(load_varc_string(22), "K", "000"))
+							store_varc_string(22, script_2332(load_varc_string(22), "k", "000"))
+							store_varc_string(22, script_2332(load_varc_string(22), "M", "000000"))
+							store_varc_string(22, script_2332(load_varc_string(22), "m", "000000"))
+							if(world_language() == 1) {
+								store_varc_string(22, script_2332(load_varc_string(22), "T", "000"))
+								store_varc_string(22, script_2332(load_varc_string(22), "t", "000"))
+							}
+							resume_countdialog(script_5390(load_varc_string(22)))
+						} else 
+							if(load_varc(5) == 8) {
+								store_varc_string(201, escape(load_varc_string(22)))
+								store_varc(1026, 1)
+								resume_namedialog(load_varc_string(22))
+							} else 
+								if(load_varc(5) == 9)
+									if(compare(load_varc_string(33).toLowerCase(), load_varc_string(22).toLowerCase()) != 0)
+										resume_stringdialog(load_varc_string(22))
+									else
+										send_message("Please do not enter your password here!")
+								else
+									if(load_varc(5) == 10) {
+										store_varc_string(202, escape(load_varc_string(22)))
+										store_varc(1027, 1)
+										fc_joinchat(load_varc_string(22))
+									} else 
+										if(load_varc(5) == 15)
+											script_1633(load_varc_string(22))
+										else
+											if(load_varc(5) == 16)
+												script_4465(load_varc_string(22))
+		else
+			if(load_varc(5) == 14) {
+				script_3683()
+				return
+			} else 
+				if(load_varc(5) == 7)
+		if_sethide(if_gethash(752, 3), 1)
+		if_sethide(if_gethash(752, 7), 1)
+		if_sethide(if_gethash(752, 8), 0)
+		store_varc(5, 0)
+		if(instr6644() >= 2)
+			script_1364()
+		return
+
+	case 13:
+		if(load_varc(5) == 12) {
+			script_1806(load_varc_string(38))
+			script_1548(0)
+		} else 
+			if(load_varc(5) == 14)
+				script_3683()
+		return
+
+	case 103:
+		if(instr6606() == 0)
+			return
+		store_varc(1029, script_1553(arg0, load_varc(1029), load_varc_string(22)))
+		switch(load_varc(5)) {
+			case default:
+				break
+			case 1:
+				if(arg0 == 83)
+					script_1548(1)
+				return
+
+			case 11:
+				store_varc_string(22, script_802(load_varc(1029), 0, arg0, arg1, load_varc_string(22)).get(1))
+				break
+			case 7:
+				store_varc_string(22, script_802(load_varc(1029), 6, arg0, arg1, load_varc_string(22)).get(1))
+				break
+			case 13:
+				store_varc_string(22, script_802(load_varc(1029), 5, arg0, arg1, load_varc_string(22)).get(1))
+				break
+			case 14:
+				store_varc_string(22, script_802(load_varc(1029), 4, arg0, arg1, load_varc_string(22)).get(1))
+				store_varc_string(22, script_802(load_varc(1029), 2, arg0, arg1, load_varc_string(22)).get(1))
+				break
+
+		}
+		break
+
+}
+if_settext(if_gethash(752, 5), escape(load_varc_string(22)))
+script_1557()
+if(load_varc(5) == 11)
+	script_1475()
+else
+	if(load_varc(5) == 14) {
+		store_varc_string(196, load_varc_string(22).toLowerCase())
+		store_varc(89, 1)
+		script_3680()
+	}
+return

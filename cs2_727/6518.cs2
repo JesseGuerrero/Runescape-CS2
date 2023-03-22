@@ -1,0 +1,88 @@
+//script6518(6518)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+if_sethide(if_gethash(1302, 37), 0)
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		iVar2 = load_varc(1973)
+		iVar3 = load_varc(1974)
+		iVar4 = load_varc(1975)
+		iVar5 = load_varc(1976)
+		iVar6 = -50
+		iVar7 = -100
+		break
+	case 2:
+		iVar2 = load_varc(1977)
+		iVar3 = load_varc(1978)
+		iVar4 = load_varc(1979)
+		iVar5 = load_varc(1980)
+		iVar6 = -25
+		iVar7 = -50
+		break
+	case 3:
+		iVar2 = load_varc(1981)
+		iVar3 = load_varc(1982)
+		iVar4 = load_varc(1983)
+		iVar5 = load_varc(1984)
+		iVar6 = 0
+		iVar7 = 0
+		break
+	case 4:
+		iVar2 = load_varc(1985)
+		iVar3 = load_varc(1986)
+		iVar4 = load_varc(1987)
+		iVar5 = load_varc(1988)
+		iVar6 = 25
+		iVar7 = 50
+		break
+	case 5:
+		iVar2 = load_varc(1989)
+		iVar3 = load_varc(1990)
+		iVar4 = load_varc(1991)
+		iVar5 = load_varc(1992)
+		iVar6 = 50
+		iVar7 = 100
+		break
+
+}
+if_settext(if_gethash(1302, 44), enum(5995, iVar2, 'i', 's'))
+if(iVar2 == 0)
+	if(iVar3 == 0)
+		if(iVar4 == 0)
+			if(iVar5 == 0)
+				if_settext(if_gethash(1302, 43), "No active conditions")
+			else
+				if_settext(if_gethash(1302, 43), enum(5995, iVar3, 'i', 's'))
+if_settext(if_gethash(1302, 42), enum(5995, iVar4, 'i', 's'))
+sVar0 = ""
+switch(iVar5) {
+	case default:
+		break
+	case 1:
+		sVar0 = "Mildly struggling"
+		break
+	case 2:
+		sVar0 = "Severely struggling"
+		break
+	case 3:
+		sVar0 = "Removed from the race"
+		break
+
+}
+if_settext(if_gethash(1302, 45), sVar0)
+if_setposition(if_gethash(1302, 39), 0, 1, 71, iVar6)
+if_setposition(if_gethash(1302, 40), 0, 1, 47, iVar7)
+return

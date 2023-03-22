@@ -1,0 +1,9 @@
+void script_472(int arg0, Widget widget1) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	widget1.setSprite(813);
+	widget1.hookFrame(&script_473(CTX_WIDGET, getClientCycle() + 10));
+	return;
+}

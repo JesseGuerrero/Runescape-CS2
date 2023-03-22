@@ -1,0 +1,44 @@
+//script1319(1319)()(void)
+if(load_varpbit(4834) == 1) {
+	if_setmodel(if_gethash(262, 24), 18796)
+	store_varc(163, 1)
+} else  {
+	if_setmodel(if_gethash(262, 24), 18794)
+	store_varc(163, 0)
+}
+if(load_varpbit(4834) == 2) {
+	if_setmodel(if_gethash(262, 25), 18796)
+	store_varc(164, 1)
+} else  {
+	if_setmodel(if_gethash(262, 25), 18794)
+	store_varc(164, 0)
+}
+if(load_varpbit(4834) == 3) {
+	if_setmodel(if_gethash(262, 20), 18796)
+	store_varc(162, 1)
+} else  {
+	if_setmodel(if_gethash(262, 20), 18794)
+	store_varc(162, 0)
+}
+if(load_varpbit(4834) == 4) {
+	if_setmodel(if_gethash(262, 21), 18792)
+	store_varc(165, 1)
+} else  {
+	if_setmodel(if_gethash(262, 21), 18790)
+	store_varc(165, 0)
+}
+if(load_varpbit(4834) == 5) {
+	if_setmodel(if_gethash(262, 22), 18792)
+	store_varc(166, 1)
+} else  {
+	if_setmodel(if_gethash(262, 22), 18790)
+	store_varc(166, 0)
+}
+if(load_varpbit(4834) == 6) {
+	if_setmodel(if_gethash(262, 23), 18792)
+	store_varc(167, 1)
+} else  {
+	if_setmodel(if_gethash(262, 23), 18790)
+	store_varc(167, 0)
+}
+return

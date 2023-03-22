@@ -1,0 +1,60 @@
+void script_147(int arg0) {
+	if (arg0 == 0) {
+		VARC[12] = getClientCycle();
+	} else if (arg0 == 1) {
+		VARC[13] = getClientCycle();
+	} else if (arg0 == 2) {
+		VARC[14] = getClientCycle();
+	} else if (arg0 == 3) {
+		VARC[15] = getClientCycle();
+	} else if (arg0 == 4) {
+		VARC[16] = getClientCycle();
+	} else if (arg0 == 5) {
+		VARC[17] = getClientCycle();
+	} else if (arg0 == 6) {
+		VARC[18] = getClientCycle();
+	} else if (arg0 == 7) {
+		VARC[19] = getClientCycle();
+	} else if (arg0 == 8) {
+		VARC[20] = getClientCycle();
+	} else if (arg0 == 9) {
+		VARC[21] = getClientCycle();
+	} else if (arg0 == 10) {
+		VARC[22] = getClientCycle();
+	} else if (arg0 == 11) {
+		VARC[23] = getClientCycle();
+	} else if (arg0 == 12) {
+		VARC[24] = getClientCycle();
+	} else if (arg0 == 13) {
+		VARC[25] = getClientCycle();
+	} else if (arg0 == 14) {
+		VARC[26] = getClientCycle();
+	} else if (arg0 == 15) {
+		VARC[27] = getClientCycle();
+	} else if (arg0 == 16) {
+		VARC[28] = getClientCycle();
+	} else if (arg0 == 17) {
+		VARC[29] = getClientCycle();
+	} else if (arg0 == 18) {
+		VARC[30] = getClientCycle();
+	} else if (arg0 == 19) {
+		VARC[31] = getClientCycle();
+	} else if (arg0 == 20) {
+		VARC[32] = getClientCycle();
+	} else if (arg0 == 21) {
+		VARC[33] = getClientCycle();
+	} else if (arg0 == 22) {
+		VARC[34] = getClientCycle();
+	} else if (arg0 == 23) {
+		VARC[35] = getClientCycle();
+	} else if (arg0 == 24) {
+		VARC[36] = getClientCycle();
+	} else if (arg0 == 25) {
+		VARC[37] = getClientCycle();
+	} else if (arg0 == 26) {
+		VARC[38] = getClientCycle();
+	} else if (arg0 == 27) {
+		VARC[39] = getClientCycle();
+	}
+	return;
+}

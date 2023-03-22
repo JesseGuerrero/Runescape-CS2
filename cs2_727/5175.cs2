@@ -1,0 +1,21 @@
+//script5175(5175)(int arg0)(int, int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+while(iVar1 <= 1091) {
+	iVar4 = enum(3483, iVar1, 'i', 'J')
+	if(struct_param(1267, iVar4) == arg0)
+		if(struct_param(1322, iVar4) == 0) {
+			iVar3 = iVar3 + 1
+			if(script_3227(iVar1) == 2)
+				iVar2 = iVar2 + 1
+		}
+	iVar1 = iVar1 + 1
+}
+return iVar3, iVar2
+return 0, 0

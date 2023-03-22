@@ -1,0 +1,113 @@
+//script3118(3118)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+cc_deleteall(arg1)
+iVar4 = 0
+sVar0 = ""
+iVar5 = 0
+sVar1 = ""
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+sVar2 = ""
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+iVar13 = -1
+iVar14 = 0
+iVar15 = 0
+iVar4 = worldlist_getinfo(arg0).get(0)
+if_sethide(arg1, 0)
+iVar16 = -1
+sVar3 = ""
+iVar17 = -1
+sVar4 = ""
+sVar5 = ""
+iVar16 = script_3117(arg0, iVar4, -1, iVar6, iVar5, sVar0, sVar1).get(0)
+if(arg3 == 0) {
+	if(arg0 == load_varc(998))
+		iVar15 = 2109969
+	else
+		if(arg0 == load_varc(999))
+			iVar15 = 2112529
+	iVar13 = 1541
+	iVar14 = 16579684
+	script_2996(arg1, 0, if_getwidth(arg1), 20, 0, 0, iVar15, 1, 0)
+	script_2996(arg1, 1, 23, 20, 0, 0, 6316128, 1, 0)
+	cc_sethide(1)
+	script_2996(arg1, 2, 25, 20, 25, 0, 4210752, 1, 0)
+	cc_setsize(0, 1, 20, 25)
+	cc_sethide(1)
+	script_2996(arg1, 3, 0, 20, 0, 0, 11685120, 1, 0)
+	cc_setsize(0, 1, 20, 0)
+	if(world_id() == arg0)
+		cc_sethide(0)
+	else
+		cc_sethide(1)
+	script_2994(arg1, 4, 13, 12, if_getx(if_gethash(910, 68)) + ((if_getwidth(if_gethash(910, 68)) - 13) / 2), 4, iVar13, 0, 0, 0, 0)
+	script_2995(arg1, 5, if_getwidth(arg1) - (if_getx(if_gethash(910, 70)) + 2), 20, if_getx(if_gethash(910, 70)) + 2, 0, iVar14, 494, 0, 1, 0, 1, "World " + to_string(arg0) + " is running in a different language or is unavailable.")
+	script_2995(arg1, 6, if_getwidth(if_gethash(910, 77)), 20, if_getx(if_gethash(910, 77)), 0, 0, 494, 0, 1, 0, 1, "")
+	instr6091(script_3121, "I", arg1)
+	instr6092(script_3123, "I", arg1)
+	script_2995(arg1, 7, if_getwidth(if_gethash(910, 78)), 20, if_getx(if_gethash(910, 78)), 0, 0, 494, 0, 1, 0, 1, "")
+	instr6091(script_3120, "I", arg1)
+	instr6092(script_3122, "I", arg1)
+	cc_setop("Remove", 1)
+	cc_setopbase("Favourite")
+	instr6687(script_3134, "i", arg0)
+	return
+}
+script_2996(arg1, 0, if_getwidth(arg1), 20, 0, 0, iVar15, 1, 0)
+script_2996(arg1, 1, 23, 20, 0, 0, 6316128, 1, 0)
+cc_sethide(1)
+script_2996(arg1, 2, 25, 20, 25, 0, 4210752, 1, 0)
+cc_setsize(0, 1, 20, 25)
+cc_sethide(1)
+script_2996(arg1, 3, 0, 20, 0, 0, 11685120, 1, 0)
+cc_setsize(0, 1, 20, 0)
+if(world_id() == arg0)
+	cc_sethide(0)
+else
+	cc_sethide(1)
+script_2994(arg1, 4, 13, 12, if_getx(if_gethash(910, 68)) + ((if_getwidth(if_gethash(910, 68)) - 13) / 2), 4, iVar13, 0, 0, 0, 0)
+script_2994(arg1, 5, 19, 18, if_getx(if_gethash(910, 70)) + 2, 1, iVar10, 0, 0, 0, 0)
+script_2995(arg1, 6, if_getwidth(if_gethash(910, 69)) - 25, 20, if_getx(if_gethash(910, 69)) + 25, 0, iVar14, 494, 0, 1, 0, 1, to_string(arg0))
+script_2995(arg1, 7, if_getwidth(if_gethash(910, 71)) - 6, 20, if_getx(if_gethash(910, 71)) + 3, 0, iVar14, 494, 0, 1, 0, 1, sVar5)
+script_2994(arg1, 8, 24, 12, if_getx(if_gethash(910, 73)) + 4, 4, iVar16, 0, 0, 0, 0)
+script_2995(arg1, 9, if_getwidth(if_gethash(910, 72)) - 30, 20, if_getx(if_gethash(910, 72)) + 30, 0, iVar14, 494, 0, 1, 0, 1, sVar3)
+script_2995(arg1, 10, if_getwidth(if_gethash(910, 74)) - 10, 20, if_getx(if_gethash(910, 74)) + 5, 0, iVar14, 494, 0, 1, 0, 1, sVar4)
+script_2994(arg1, 11, 17, 17, if_getx(if_gethash(910, 75)) + ((if_getwidth(if_gethash(910, 75)) - 17) / 2), 1, iVar17, 0, 0, 0, 0)
+script_2995(arg1, 12, if_getwidth(if_gethash(910, 75)) - 10, 20, if_getx(if_gethash(910, 76)) + 5, 0, iVar14, 494, 0, 1, 0, 1, to_string(iVar9))
+script_2995(arg1, 13, if_getwidth(if_gethash(910, 77)), 20, if_getx(if_gethash(910, 77)), 0, 0, 494, 0, 1, 0, 1, "")
+instr6091(script_3121, "I", arg1)
+instr6092(script_3123, "I", arg1)
+cc_setop("Select", 1)
+cc_setopbase("World " + to_string(arg0))
+instr6687(script_3129, "iiis", -2147483644, arg2, arg0, sVar2)
+script_2995(arg1, 14, if_getwidth(if_gethash(910, 78)), 20, if_getx(if_gethash(910, 78)), 0, 0, 494, 0, 1, 0, 1, "")
+instr6091(script_3120, "I", arg1)
+instr6092(script_3122, "I", arg1)
+cc_setop("Remove", 1)
+cc_setopbase("Favourite")
+instr6687(script_3134, "i", arg0)
+return
+return

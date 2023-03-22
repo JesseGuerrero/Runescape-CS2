@@ -1,0 +1,16 @@
+//script5516(5516)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+if(instr6004(arg1) == 1)
+	if(instr6771(358) > 0) {
+		iVar2 = instr6771(358) - 1
+		iVar3 = iVar2 + 10
+		while(iVar3 >= iVar2) {
+			if(cc_find(iVar3, arg0) == 1)
+				instr6556(script_5518, "Ii", -2147483645, -2147483643)
+			iVar3 = iVar3 - 1
+		}
+	}
+return

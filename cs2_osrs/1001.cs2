@@ -1,0 +1,9 @@
+string script_1001(int arg0) {
+	if (arg0 < 0) {
+		return "";
+	}
+	if (arg0 >= 1000) {
+		return "- " + "<col=ff0000>" + "COMPLETE!" + "</col>";
+	}
+	return arg0 / 10 + "." + arg0 % 10 + "%";
+}

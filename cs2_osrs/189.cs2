@@ -1,0 +1,29 @@
+void script_189(Widget widget0, int arg1, int arg2) {
+	int int3;
+	int int4;
+	int3 = widget(593, 32).getWidth();
+	int4 = mathMethod4006(0, arg1, 0, 1000, 146) - int3;
+	if (int4 > 0) {
+		if (arg2 == 0) {
+			int4 = int4 / 2;
+			if (int4 == 0) {
+				int4 = 1;
+			}
+		}
+		int3 = int3 + int4;
+		widget0.hookFrame(&script_188(widget0, arg1));
+	} else if (int4 < 0) {
+		if (arg2 == 0) {
+			int4 = int4 / 2;
+			if (int4 == 0) {
+				int4 = -1;
+			}
+		}
+		int3 = int3 + int4;
+		widget0.hookFrame(&script_188(widget0, arg1));
+	} else {
+		widget0.hookFrame(null);
+	}
+	widget(593, 32).setSize(int3, 12, 0, 0);
+	return;
+}

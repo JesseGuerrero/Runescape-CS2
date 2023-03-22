@@ -1,0 +1,23 @@
+//script2576(2576)(int arg0, int arg1)(void)
+string sVar0
+sVar0 = ""
+switch(arg0) {
+	case default:
+		break
+	case 51183658:
+		sVar0 = "How much time is left for this round."
+		break
+	case 51183659:
+		sVar0 = "How many orbs the green team have captured this round."
+		break
+	case 51183651:
+		sVar0 = "How many orbs the yellow team have captured this round."
+		break
+	case 51183662:
+		sVar0 = "How active you have been during this round."
+		return
+
+
+}
+script_39(arg0, arg1, 25, if_getwidth(if_getlayer(arg1)), sVar0)
+return

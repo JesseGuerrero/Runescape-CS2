@@ -1,0 +1,36 @@
+//script350(350)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+if(arg0 != 1)
+	return
+if(arg1 == 1) {
+	if(gender() == 1)
+		return
+	base_idkit(-1, 0)
+	base_idkit(-1, 1)
+	base_idkit(struct_param(788, enum(3302, load_varpbit(8091), 'i', 'J')), 7)
+	base_idkit(-1, 8)
+} else  {
+	if(gender() == 0)
+		return
+	base_idkit(-1, 7)
+	base_idkit(-1, 8)
+	base_idkit(struct_param(788, enum(3304, load_varpbit(8091), 'i', 'J')), 0)
+	base_idkit(enum(3307, load_varpbit(8091) / 2, 'i', 'K'), 1)
+}
+sound_synth(0, 1, 9819)
+set_gender(script_42(arg1))
+store_varc(196, gender())
+store_varpbit(8093, load_varc(196))
+script_387(arg1)
+store_varc(86, 1)
+store_varpbit(8090, 1)
+iVar2 = enum(3278, load_varc(197) - 1, 'i', 'J')
+iVar3 = -1
+if(iVar2 != -1) {
+	iVar3 = script_384(0, iVar2, arg1)
+	if(iVar3 != -1)
+		script_359(iVar3, arg1)
+}
+script_390(arg1)
+return

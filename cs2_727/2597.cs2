@@ -1,0 +1,99 @@
+//script2597(2597)()(void)
+int iVar0
+int iVar1
+iVar0 = -1
+iVar1 = 0
+switch(load_varc(929)) {
+	case default:
+		break
+	case 0:
+		iVar0 = inv_getitem(load_varc(930), 93)
+		break
+	case 1:
+		iVar0 = inv_getitem(load_varc(931), 93)
+		break
+	case 2:
+		iVar0 = inv_getitem(load_varc(932), 93)
+		break
+	case 3:
+		iVar0 = inv_getitem(load_varc(933), 93)
+		break
+	case 4:
+		iVar0 = inv_getitem(load_varc(934), 93)
+		break
+	case 5:
+		iVar0 = inv_getitem(load_varc(935), 93)
+		break
+	case 6:
+		iVar0 = inv_getitem(load_varc(936), 93)
+		break
+	case 7:
+		iVar0 = inv_getitem(load_varc(937), 93)
+		break
+	case 8:
+		iVar0 = inv_getitem(load_varc(938), 93)
+		break
+	case 9:
+		iVar0 = inv_getitem(load_varc(939), 93)
+		break
+
+}
+if(iVar0 == -1 || item_param(803, iVar0) != 1)
+	return
+switch(load_varc(929)) {
+	case default:
+		break
+	case 0:
+		if(load_varpbit(6405) == 1)
+			iVar1 = 1
+		break
+	case 1:
+		if(load_varpbit(6406) == 1)
+			iVar1 = 1
+		break
+	case 2:
+		if(load_varpbit(6407) == 1)
+			iVar1 = 1
+		break
+	case 3:
+		if(load_varpbit(6408) == 1)
+			iVar1 = 1
+		break
+	case 4:
+		if(load_varpbit(6409) == 1)
+			iVar1 = 1
+		break
+	case 5:
+		if(load_varpbit(6410) == 1)
+			iVar1 = 1
+		break
+	case 6:
+		if(load_varpbit(6411) == 1)
+			iVar1 = 1
+		break
+	case 7:
+		if(load_varpbit(6412) == 1)
+			iVar1 = 1
+		break
+	case 8:
+		if(load_varpbit(6413) == 1)
+			iVar1 = 1
+		break
+	case 9:
+		if(load_varpbit(6414) == 1)
+			iVar1 = 1
+		break
+
+}
+switch(iVar1) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(292, 113), 941)
+		break
+	case 1:
+		if_setgraphic(if_gethash(292, 113), 942)
+		break
+
+}
+return

@@ -1,0 +1,27 @@
+//script4508(4508)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+globalArrays[0] = [arg1, 105]
+iVar3 = 0
+iVar4 = 5
+while(iVar2 <= arg1) {
+	if(cc_find(iVar2, arg0) == 1)
+		if(string_length(cc_gettext()) > 0) {
+			globalArrays[0][iVar3] = iVar2
+			iVar3 = iVar3 + 1
+		}
+	iVar2 = iVar2 + 1
+}
+if(iVar3 > 1)
+	script_4424(0, arg0, 0, iVar3 - 1)
+iVar2 = 0
+while(iVar2 < iVar3) {
+	if(cc_find(globalArrays[0][iVar2], arg0) == 1) {
+		cc_setposition(0, 0, iVar4, 5)
+		iVar4 = iVar4 + cc_getheight()
+	}
+	iVar2 = iVar2 + 1
+}
+return

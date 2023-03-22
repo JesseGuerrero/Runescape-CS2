@@ -1,0 +1,19 @@
+void script_172(int arg0, Item item1, int arg2) {
+	if (item1 != null) {
+		CHILD.setTrans(0);
+		CHILD.setItem(item1, arg2);
+		CHILD.setContextMenuOption(1, "Deposit-1");
+		CHILD.setContextMenuOption(2, "Deposit-5");
+		CHILD.setContextMenuOption(3, "Deposit-10");
+		CHILD.setContextMenuOption(4, "Deposit-All");
+		CHILD.setContextMenuOption(5, "Deposit-X");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setOptionBase("<col=ff9040>" + getItemName(item1) + "</col>");
+		CHILD.hookDragRelease(&script_705(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET_CHILD));
+	} else {
+		CHILD.setTrans(255);
+		CHILD.setItem(6512, 1);
+		CHILD.hookDragRelease(null);
+	}
+	return;
+}

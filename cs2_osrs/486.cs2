@@ -1,0 +1,21 @@
+void script_486(Widget widget0, int arg1, Item item2) {
+	if (getSkillCurrentLvl(6) >= arg1) {
+		_CHILD.setRGB(0x00FF00);
+		if (getItemAmtInContainer(93, item2) > 0) {
+			CHILD.setRGB(0x00FF00);
+			widget0.setContextMenuOption(1, "Enchant Bolts");
+		} else {
+			CHILD.setRGB(0xFF981F);
+			widget0.setNoOptions();
+		}
+	} else {
+		_CHILD.setRGB(0xFF981F);
+		if (getItemAmtInContainer(93, item2) > 0) {
+			CHILD.setRGB(0x00FF00);
+		} else {
+			CHILD.setRGB(0xFF981F);
+		}
+		widget0.setNoOptions();
+	}
+	return;
+}

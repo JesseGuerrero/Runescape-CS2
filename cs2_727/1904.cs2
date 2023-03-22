@@ -1,0 +1,9 @@
+//script1904(1904)(int arg0, int arg1, int arg2)(void)
+cc_deleteall(arg1)
+if(string_length(load_varc_string(30)) > 0)
+	script_1902(arg0, arg1, arg2)
+else {
+	if_setscrollsize(arg1, 0, 0)
+	script_1905(arg1, arg2)
+}
+return

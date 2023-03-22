@@ -1,0 +1,9 @@
+//script4561(4561)(int arg0, int arg1, string arg2)(void)
+int iVar2
+iVar2 = 38600758
+if(cc_find(arg1, arg0) == 1) {
+	if_sethide(iVar2, 0)
+	if_setposition(iVar2, 0, 0, cc_gety(), if_getx(iVar2))
+	cc_setonmouseover(script_4562, "Iiisii", arg0, arg1, client_clock() + 25, arg0, -2147483647, -2147483646)
+}
+return

@@ -1,0 +1,9 @@
+//script1831(1831)(int arg0)(void)
+if(script_1820(arg0) == 0)
+	return
+if(load_varc(254) == 0)
+	store_varc(254, 1)
+else
+	store_varc(254, 0)
+script_1779()
+return

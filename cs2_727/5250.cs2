@@ -1,0 +1,77 @@
+//script5250(5250)(int arg0)(void)
+switch(load_varp(2373)) {
+	case default:
+		break
+	case 2:
+		if(arg0 == 1) {
+			if_settext(if_gethash(1127, 18), "Battle-mage Helm")
+			if_settext(if_gethash(1127, 17), "Strong against melee and magical attacks, weak against ranged.")
+		}
+		if(arg0 == 2) {
+			if_settext(if_gethash(1127, 18), "Trickster Hood")
+			if_settext(if_gethash(1127, 17), "Strong against ranged and magical attacks, weak against melee.")
+		}
+		if(arg0 == 3) {
+			if_settext(if_gethash(1127, 18), "Vanguard Helm")
+			if_settext(if_gethash(1127, 17), "Strong against melee and ranged attacks, weak against magic.")
+		}
+		break
+	case 1:
+		if(arg0 == 1) {
+			if_settext(if_gethash(1127, 18), "Battle-mage robe legs")
+			if_settext(if_gethash(1127, 17), "Strong against melee and magical attacks, weak against ranged.")
+		}
+		if(arg0 == 2) {
+			if_settext(if_gethash(1127, 18), "Trickster robe legs")
+			if_settext(if_gethash(1127, 17), "Strong against ranged and magical attacks, weak against melee.")
+		}
+		if(arg0 == 3) {
+			if_settext(if_gethash(1127, 18), "Vanguard leg armour")
+			if_settext(if_gethash(1127, 17), "Strong against melee and ranged attacks, weak against magic.")
+		}
+		break
+	case 3:
+		if(arg0 == 1) {
+			if_settext(if_gethash(1127, 18), "Battle-mage robe")
+			if_settext(if_gethash(1127, 17), "Strong against melee and magical attacks, weak against ranged.")
+		}
+		if(arg0 == 2) {
+			if_settext(if_gethash(1127, 18), "Trickster robe")
+			if_settext(if_gethash(1127, 17), "Strong against ranged and magical attacks, weak against melee.")
+		}
+		if(arg0 == 3) {
+			if_settext(if_gethash(1127, 18), "Vanguard body armour")
+			if_settext(if_gethash(1127, 17), "Strong against melee and ranged attacks, weak against magic.")
+		}
+		break
+	case 5:
+		if(arg0 == 1) {
+			if_settext(if_gethash(1127, 18), "Battle-mage gloves")
+			if_settext(if_gethash(1127, 17), "Strong against melee and magical attacks, weak against ranged.")
+		}
+		if(arg0 == 2) {
+			if_settext(if_gethash(1127, 18), "Trickster gloves")
+			if_settext(if_gethash(1127, 17), "Strong against ranged and magical attacks, weak against melee.")
+		}
+		if(arg0 == 3) {
+			if_settext(if_gethash(1127, 18), "Vanguard gloves")
+			if_settext(if_gethash(1127, 17), "Strong against melee and ranged attacks, weak against magic.")
+		}
+		break
+	case 4:
+		if(arg0 == 1) {
+			if_settext(if_gethash(1127, 18), "Battle-mage boots")
+			if_settext(if_gethash(1127, 17), "Strong against melee and magical attacks, weak against ranged.")
+		}
+		if(arg0 == 2) {
+			if_settext(if_gethash(1127, 18), "Trickster boots")
+			if_settext(if_gethash(1127, 17), "Strong against ranged and magical attacks, weak against melee.")
+		}
+		if(arg0 == 3) {
+			if_settext(if_gethash(1127, 18), "Vanguard boots")
+			if_settext(if_gethash(1127, 17), "Strong against melee and ranged attacks, weak against magic.")
+		}
+		break
+
+}
+return

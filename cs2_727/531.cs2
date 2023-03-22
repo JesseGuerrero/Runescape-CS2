@@ -1,0 +1,74 @@
+//script531(531)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar4 = -1
+iVar5 = 0
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = 0
+if(arg0 == -1 || arg1 == -1 || arg2 == -1)
+	return
+if(arg0 == 19726399) {
+	iVar5 = script_543(load_varpbit(4090))
+	iVar7 = 19726381
+	iVar8 = 19726382
+}
+if(arg0 == 19726400) {
+	iVar5 = script_543(load_varpbit(4091))
+	iVar7 = 19726383
+	iVar8 = 19726384
+}
+if(arg0 == 19726401) {
+	iVar5 = script_543(load_varpbit(4093))
+	iVar7 = 19726385
+	iVar8 = 19726386
+}
+if(arg0 == 19726402) {
+	iVar5 = script_543(load_varpbit(4095))
+	iVar7 = 19726387
+	iVar8 = 19726388
+}
+if(arg0 == 19726403) {
+	iVar5 = script_543(load_varpbit(4096))
+	iVar7 = 19726389
+	iVar8 = 19726390
+}
+if(arg0 == 19726404) {
+	iVar5 = script_543(load_varpbit(4098))
+	iVar7 = 19726391
+	iVar8 = 19726392
+}
+if(arg0 == 19726405) {
+	iVar5 = script_543(load_varpbit(4100))
+	iVar7 = 19726393
+	iVar8 = 19726394
+}
+if(arg0 == 19726406) {
+	iVar5 = script_543(load_varpbit(4101))
+	iVar7 = 19726395
+	iVar8 = 19726396
+}
+if(arg0 == 19726407) {
+	iVar5 = script_543(load_varpbit(4102))
+	iVar7 = 19726397
+	iVar8 = 19726398
+}
+if(iVar5 == 1) {
+	iVar4 = arg1
+	iVar9 = 0
+	if_setcolor(iVar7, 0xFAB432)
+	if_setcolor(iVar8, 0xFAB432)
+} else  {
+	iVar4 = arg2
+	iVar9 = 1
+	if_setcolor(iVar7, 0x606060)
+	if_setcolor(iVar8, 0x606060)
+}
+if_setgraphic(arg0, iVar4)
+if_sethide(arg3, iVar9)
+return

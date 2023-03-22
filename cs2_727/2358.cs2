@@ -1,0 +1,29 @@
+//script2358(2358)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar1 = enum(2125, arg0, 'I', 'i')
+iVar2 = enum(2124, arg0, 'I', 'i')
+iVar3 = 1
+if(load_varp(1893) == -1) {
+	if(iVar2 == 1)
+		iVar3 = bit_flagged(iVar1, load_varp(1890))
+	else
+		if(iVar2 == 2)
+			iVar3 = bit_flagged(iVar1, load_varp(1891))
+		else
+			iVar3 = bit_flagged(iVar1, load_varp(1892))
+	if(iVar3 == 0)
+		if_sendtoback(arg0)
+	return
+}
+iVar4 = enum(704, load_varp(1893), 'I', 'J')
+iVar5 = struct_param(1222, iVar4)
+iVar6 = struct_param(1223, iVar4)
+iVar7 = enum(1592, load_varp(1893), 'I', 'I')
+if_setposition(iVar7, 0, 0, iVar6, iVar5)
+return

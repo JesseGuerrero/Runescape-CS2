@@ -1,0 +1,44 @@
+//script4838(4838)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = -1
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 1
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		iVar1 = load_varpbit(9567)
+		iVar2 = load_varpbit(9568)
+		iVar3 = load_varpbit(9569)
+		iVar4 = load_varpbit(9563)
+		break
+	case 2:
+		iVar1 = load_varpbit(9576)
+		iVar2 = load_varpbit(9577)
+		iVar3 = load_varpbit(9578)
+		iVar4 = load_varpbit(9572)
+		break
+	case 3:
+		iVar1 = load_varpbit(9585)
+		iVar2 = load_varpbit(9586)
+		iVar3 = load_varpbit(9587)
+		iVar4 = load_varpbit(9581)
+		break
+
+}
+iVar0 = script_4815(iVar4, 1)
+if(iVar0 != -1)
+	script_4839(iVar0, (iVar1 - 1) * 27)
+iVar0 = script_4815(iVar4, 2)
+if(iVar0 != -1)
+	script_4839(iVar0, (iVar2 - 1) * 27)
+iVar0 = script_4815(iVar4, 3)
+if(iVar0 != -1)
+	script_4839(iVar0, (iVar3 - 1) * 27)
+return

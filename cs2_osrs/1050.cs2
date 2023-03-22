@@ -1,0 +1,8 @@
+void script_1050(int arg0) {
+	if (arg0 != 1 || VARPBIT[542] == 1 || VARPBIT[4606] != 0) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	cameraMethod5504(225 + rnd(5), 0);
+	return;
+}

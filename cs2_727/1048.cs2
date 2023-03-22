@@ -1,0 +1,45 @@
+//script1048(1048)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+if(arg0 == 13) {
+	script_1054()
+	return
+}
+if(arg0 == 102) {
+	script_1050(load_varc(126), load_varc_string(27))
+	return
+}
+iVar5 = string_length(to_string(load_varc(129)))
+iVar6 = string_indexof_char("0123456789", 0, arg1)
+if(arg0 == 84) {
+	if(iVar5 > 0)
+		script_1074(arg2, arg4, load_varc(129))
+	else
+		script_1054()
+	return
+}
+if(arg0 == 85)
+	if(iVar5 > 0)
+		store_varc(129, load_varc(129) / 10)
+	else
+		if(load_varc(127) == 0)
+			script_1054()
+		else {
+			if_sethide(if_gethash(137, 7), 1)
+			if_sethide(if_gethash(137, 9), 1)
+			if_sethide(if_gethash(137, 13), 1)
+			if_sethide(if_gethash(137, 17), 0)
+			if_sethide(if_gethash(137, 1), 0)
+			if_sethide(if_gethash(137, 3), 1)
+			return
+		}
+else
+	if(iVar6 >= 0)
+		if(iVar5 < 10)
+			if((load_varc(129) * 10) + iVar6 > 0)
+				store_varc(129, (load_varc(129) * 10) + iVar6)
+if(load_varc(129) > 0)
+	if_settext(arg3, "Please enter a value: " + to_string(load_varc(129)) + "*")
+else
+	if_settext(arg3, "Please enter a value: *")
+return

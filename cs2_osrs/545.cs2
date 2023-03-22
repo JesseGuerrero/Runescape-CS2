@@ -1,0 +1,6 @@
+void script_545(Widget widget0, int arg1, int arg2, int arg3) {
+	if (CHILD.setChild(widget0, arg2) == true && _CHILD.setChild(widget0, arg3) == true) {
+		script_546(widget0, arg1);
+	}
+	return;
+}

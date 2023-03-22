@@ -1,0 +1,8 @@
+//script4289(4289)()(void)
+if(activeclansettings_find_affined() == 1)
+	script_4291()
+else
+	instr6260(if_gethash(1096, 146), script_4290, "")
+if(load_varc(1516) == -1)
+	store_varc(1516, 0)
+return

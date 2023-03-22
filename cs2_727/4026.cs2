@@ -1,0 +1,57 @@
+//script4026(4026)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if(if_gethide(if_gethash(917, 57)) == 1) {
+			if_setgraphic(if_gethash(917, 26), 4316)
+			if_setgraphic(if_gethash(917, 28), 4316)
+			if_setgraphic(if_gethash(917, 27), 4317)
+		}
+		if(if_gethide(if_gethash(917, 58)) == 1) {
+			if_setgraphic(if_gethash(917, 22), 4316)
+			if_setgraphic(if_gethash(917, 24), 4316)
+			if_setgraphic(if_gethash(917, 23), 4317)
+		}
+		if(if_gethide(if_gethash(917, 56)) == 1) {
+			if_setgraphic(if_gethash(917, 18), 4316)
+			if_setgraphic(if_gethash(917, 20), 4316)
+			if_setgraphic(if_gethash(917, 19), 4317)
+		}
+		if(if_gethide(if_gethash(917, 62)) == 1) {
+			if_setgraphic(if_gethash(917, 14), 4316)
+			if_setgraphic(if_gethash(917, 16), 4316)
+			if_setgraphic(if_gethash(917, 15), 4317)
+		}
+		break
+	case 1:
+		if(if_gethide(if_gethash(917, 57)) == 0)
+			return
+		if_setgraphic(if_gethash(917, 26), 4318)
+		if_setgraphic(if_gethash(917, 28), 4318)
+		if_setgraphic(if_gethash(917, 27), 4319)
+		break
+	case 2:
+		if(if_gethide(if_gethash(917, 58)) == 0)
+			return
+		if_setgraphic(if_gethash(917, 22), 4318)
+		if_setgraphic(if_gethash(917, 24), 4318)
+		if_setgraphic(if_gethash(917, 23), 4319)
+		break
+	case 3:
+		if(if_gethide(if_gethash(917, 56)) == 0)
+			return
+		if_setgraphic(if_gethash(917, 18), 4318)
+		if_setgraphic(if_gethash(917, 20), 4318)
+		if_setgraphic(if_gethash(917, 19), 4319)
+		break
+	case 4:
+		if(if_gethide(if_gethash(917, 62)) == 0)
+			return
+		if_setgraphic(if_gethash(917, 14), 4318)
+		if_setgraphic(if_gethash(917, 16), 4318)
+		if_setgraphic(if_gethash(917, 15), 4319)
+		break
+
+}
+return

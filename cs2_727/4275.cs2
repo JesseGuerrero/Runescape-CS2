@@ -1,0 +1,6 @@
+//script4275(4275)()(void)
+if_setmodelanim(if_gethash(1081, 7), 8016)
+if_setmodelanim(if_gethash(1081, 2), 8016)
+if_setmodelanim(if_gethash(1081, 1), 4407)
+if_setmodelanim(if_gethash(1081, 0), 8016)
+return

@@ -1,0 +1,116 @@
+//script1288(1288)()(void)
+if_settext(if_gethash(128, 37), to_string(load_varpbit(861)))
+if_settext(if_gethash(128, 38), to_string(load_varpbit(862)))
+if(load_varpbit(842) == 2) {
+	if_setmodel(if_gethash(128, 1), 8398)
+	if_setmodel(if_gethash(128, 2), 8399)
+	if_setmodel(if_gethash(128, 19), 8430)
+} else 
+	if(load_varpbit(842) == 1) {
+		if_setmodel(if_gethash(128, 1), 8397)
+		if_setmodel(if_gethash(128, 2), 8400)
+		if_setmodel(if_gethash(128, 19), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 19), -1)
+		if_setmodel(if_gethash(128, 1), 8398)
+		if_setmodel(if_gethash(128, 2), 8400)
+	}
+if(load_varpbit(843) == 2) {
+	if_setmodel(if_gethash(128, 3), 8402)
+	if_setmodel(if_gethash(128, 4), 8403)
+	if_setmodel(if_gethash(128, 20), 8430)
+} else 
+	if(load_varpbit(843) == 1) {
+		if_setmodel(if_gethash(128, 3), 8401)
+		if_setmodel(if_gethash(128, 4), 8404)
+		if_setmodel(if_gethash(128, 20), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 20), -1)
+		if_setmodel(if_gethash(128, 3), 8402)
+		if_setmodel(if_gethash(128, 4), 8404)
+	}
+if(load_varpbit(844) == 2) {
+	if_setmodel(if_gethash(128, 5), 8406)
+	if_setmodel(if_gethash(128, 6), 8407)
+	if_setmodel(if_gethash(128, 21), 8430)
+} else 
+	if(load_varpbit(844) == 1) {
+		if_setmodel(if_gethash(128, 5), 8405)
+		if_setmodel(if_gethash(128, 6), 8408)
+		if_setmodel(if_gethash(128, 21), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 21), -1)
+		if_setmodel(if_gethash(128, 5), 8406)
+		if_setmodel(if_gethash(128, 6), 8408)
+	}
+if(load_varpbit(845) == 2) {
+	if_setmodel(if_gethash(128, 7), 8410)
+	if_setmodel(if_gethash(128, 8), 8411)
+	if_setmodel(if_gethash(128, 22), 8430)
+} else 
+	if(load_varpbit(845) == 1) {
+		if_setmodel(if_gethash(128, 7), 8409)
+		if_setmodel(if_gethash(128, 8), 8412)
+		if_setmodel(if_gethash(128, 22), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 22), -1)
+		if_setmodel(if_gethash(128, 7), 8410)
+		if_setmodel(if_gethash(128, 8), 8412)
+	}
+if(load_varpbit(846) == 2) {
+	if_setmodel(if_gethash(128, 9), 8414)
+	if_setmodel(if_gethash(128, 10), 8415)
+	if_setmodel(if_gethash(128, 23), 8430)
+} else 
+	if(load_varpbit(846) == 1) {
+		if_setmodel(if_gethash(128, 9), 8413)
+		if_setmodel(if_gethash(128, 10), 8416)
+		if_setmodel(if_gethash(128, 23), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 23), -1)
+		if_setmodel(if_gethash(128, 9), 8414)
+		if_setmodel(if_gethash(128, 10), 8416)
+	}
+if(load_varpbit(847) == 2) {
+	if_setmodel(if_gethash(128, 11), 8418)
+	if_setmodel(if_gethash(128, 12), 8419)
+	if_setmodel(if_gethash(128, 24), 8430)
+} else 
+	if(load_varpbit(847) == 1) {
+		if_setmodel(if_gethash(128, 11), 8417)
+		if_setmodel(if_gethash(128, 12), 8420)
+		if_setmodel(if_gethash(128, 24), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 24), -1)
+		if_setmodel(if_gethash(128, 11), 8418)
+		if_setmodel(if_gethash(128, 12), 8420)
+	}
+if(load_varpbit(848) == 2) {
+	if_setmodel(if_gethash(128, 13), 8422)
+	if_setmodel(if_gethash(128, 14), 8423)
+	if_setmodel(if_gethash(128, 25), 8430)
+} else 
+	if(load_varpbit(848) == 1) {
+		if_setmodel(if_gethash(128, 13), 8421)
+		if_setmodel(if_gethash(128, 14), 8424)
+		if_setmodel(if_gethash(128, 25), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 25), -1)
+		if_setmodel(if_gethash(128, 13), 8422)
+		if_setmodel(if_gethash(128, 14), 8424)
+	}
+if(load_varpbit(849) == 2) {
+	if_setmodel(if_gethash(128, 15), 8426)
+	if_setmodel(if_gethash(128, 16), 8427)
+	if_setmodel(if_gethash(128, 26), 8430)
+} else 
+	if(load_varpbit(849) == 1) {
+		if_setmodel(if_gethash(128, 15), 8425)
+		if_setmodel(if_gethash(128, 16), 8428)
+		if_setmodel(if_gethash(128, 26), 8429)
+	} else  {
+		if_setmodel(if_gethash(128, 26), -1)
+		if_setmodel(if_gethash(128, 15), 8426)
+		if_setmodel(if_gethash(128, 16), 8428)
+	}
+return

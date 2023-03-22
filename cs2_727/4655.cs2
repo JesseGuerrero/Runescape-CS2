@@ -1,0 +1,10 @@
+//script4655(4655)()(void)
+int iVar0
+if_settext(if_gethash(77, 14), load_varc_string(315))
+if(load_varc(1233) > 200)
+	store_varc(1233, 200)
+iVar0 = load_varc(1233)
+iVar0 = ((iVar0 * 37) / 40) + 14
+if_setsize(if_gethash(77, 16), 0, 1, 18, iVar0)
+if_setposition(if_gethash(77, 17), 0, 0, 15, iVar0 + 1)
+return

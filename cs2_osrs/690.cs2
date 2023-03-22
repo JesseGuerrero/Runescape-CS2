@@ -1,0 +1,24 @@
+void script_690() {
+	if (VARPBIT[1776] == 1) {
+		widget(215, 59).setSprite(697);
+		widget(215, 55).setSprite(699);
+		widget(215, 45).hookOptionClick(&script_1485(CTX_MENU_OPTION));
+		if (VARP[281] < 1000) {
+			widget(215, 53).hookOptionClick(&script_1485(CTX_MENU_OPTION));
+			widget(215, 57).hookOptionClick(&script_692(CTX_MENU_OPTION, 0));
+		} else {
+			widget(215, 57).hookOptionClick(null);
+		}
+	} else {
+		widget(215, 59).setSprite(699);
+		widget(215, 55).setSprite(697);
+		widget(215, 45).hookOptionClick(&script_1485(CTX_MENU_OPTION));
+		if (VARP[281] < 1000) {
+			widget(215, 53).hookOptionClick(&script_692(CTX_MENU_OPTION, 1));
+			widget(215, 57).hookOptionClick(&script_1485(CTX_MENU_OPTION));
+		} else {
+			widget(215, 53).hookOptionClick(null);
+		}
+	}
+	return;
+}

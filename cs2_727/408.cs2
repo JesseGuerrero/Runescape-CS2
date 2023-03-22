@@ -1,0 +1,19 @@
+//script408(408)(int arg0)(void)
+if(load_varc(1363) == arg0)
+	return
+instr6257(if_gethash(1013, 1), script_408, "iY", 1, 1363, load_varc(1363))
+store_varc(1389, 0)
+if(load_varc(1363) == load_varpbit(7510)) {
+	if_sethide(if_gethash(1010, 33), 0)
+	if_sethide(if_gethash(1010, 32), 1)
+	if_sethide(if_gethash(1010, 24), 1)
+	if_settext(if_gethash(1013, 26), "Your Turn")
+	sound_vorbis_volume(255, 0, 1, 3439)
+} else  {
+	if_sethide(if_gethash(1010, 33), 1)
+	if_sethide(if_gethash(1010, 24), 1)
+	if_settext(if_gethash(1013, 26), "Opponent's Turn")
+	if(if_gethide(if_gethash(1010, 7)) == 1)
+		if_sethide(if_gethash(1010, 32), 0)
+}
+return

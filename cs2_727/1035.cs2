@@ -1,0 +1,64 @@
+//script1035(1035)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int iVar4
+iVar4 = 0
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(846)
+cc_setposition(0, 0, arg1, arg0)
+cc_setsize(0, 0, 32, 32)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(828)
+cc_setposition(0, 0, arg1 - 14, arg0)
+cc_setsize(0, 0, 32, arg2)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(847)
+cc_setposition(0, 0, arg1, (arg2 + arg0) - 32)
+cc_setsize(0, 0, 32, 32)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(841)
+cc_setposition(0, 0, arg1, arg0 - 14)
+cc_setsize(0, 0, arg3, 32)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(841)
+cc_setposition(0, 0, arg1, (arg0 + arg2) - 20)
+cc_setsize(0, 0, arg3, 32)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(848)
+cc_setposition(0, 0, (arg1 + arg3) - 32, arg0)
+cc_setsize(0, 0, 32, 32)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(849)
+cc_setposition(0, 0, (arg1 + arg3) - 32, (arg0 + arg2) - 32)
+cc_setsize(0, 0, 32, 32)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, 10289175)
+cc_setgraphic(828)
+cc_setposition(0, 0, (arg1 + arg3) - 20, arg0)
+cc_setsize(0, 0, 32, arg2)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 3, 10289175)
+cc_setposition(0, 0, arg1 + 6, arg0 + 6)
+cc_setsize(0, 0, arg3 - 12, arg2 - 12)
+cc_setcolor(83765e)
+cc_setfill(1)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 3, 10289175)
+cc_setposition(0, 0, arg1 + 3, arg0 + 3)
+cc_setsize(0, 0, arg3, arg2)
+cc_setcolor(0)
+cc_setfill(1)
+cc_settrans(200)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 4, 10289175)
+cc_setposition(0, 0, 10, 10)
+cc_setsize(0, 0, 50, 400)
+cc_setcolor(ffffff)
+cc_settextshadow(1)
+cc_settextfont(495)
+cc_settext(arg0)
+return

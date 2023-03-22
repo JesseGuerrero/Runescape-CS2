@@ -1,0 +1,25 @@
+//script3356(3356)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = invother_getitem(arg1, arg2)
+if(iVar3 == -1) {
+	if_setitem(arg0, 0, -1)
+	if_setsize(arg0, 0, 0, 32, 32)
+	if_setposition(arg0, 1, 1, 0, 0)
+	if_setgraphic(arg0, enum(796, arg1, 'i', 'd'))
+	if_setborderthickness(arg0, 0)
+	if_setspriteshadow(arg0, 0)
+	instr6239(arg0, None, "")
+	instr6220(arg0)
+	return
+}
+if_setsize(arg0, 0, 0, 32, 36)
+if_setposition(arg0, 1, 0, 0, 2)
+if_setitem(arg0, invother_getnum(arg1, arg2), iVar3)
+if_setborderthickness(arg0, 1)
+if_setspriteshadow(arg0, 3153952)
+instr6220(arg0)
+instr6213(arg0, 10, "Examine" + "<col=ff9040>")
+item_useonname(arg0, "<col=ff9040>" + item_name(iVar3))
+if_setonmouseover(arg0, script_5495, "o", iVar3)
+hook_mouse_exit(arg0, script_5495, "o", -1)
+return

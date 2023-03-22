@@ -1,0 +1,4 @@
+//script2249(2249)(int arg0)(void)
+if(cc_find(arg0, if_gethash(940, 2)) == 1)
+	cc_sethide(1)
+return

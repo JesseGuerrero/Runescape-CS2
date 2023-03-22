@@ -1,0 +1,134 @@
+void script_759() {
+	if (isBitFlagged(VARP[286], 0) == true) {
+		widget(482, 50).setSprite(1192);
+	} else {
+		widget(482, 50).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 1) == true) {
+		widget(482, 51).setSprite(1192);
+	} else {
+		widget(482, 51).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 2) == true) {
+		widget(482, 52).setSprite(1192);
+	} else {
+		widget(482, 52).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 3) == true) {
+		widget(482, 53).setSprite(1192);
+	} else {
+		widget(482, 53).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 4) == true) {
+		widget(482, 54).setSprite(1192);
+	} else {
+		widget(482, 54).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 5) == true) {
+		widget(482, 55).setSprite(1192);
+	} else {
+		widget(482, 55).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 6) == true) {
+		widget(482, 56).setSprite(1192);
+	} else {
+		widget(482, 56).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 7) == true) {
+		widget(482, 57).setSprite(1192);
+	} else {
+		widget(482, 57).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 8) == true) {
+		widget(482, 58).setSprite(1192);
+	} else {
+		widget(482, 58).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 9) == true) {
+		widget(482, 59).setSprite(1192);
+	} else {
+		widget(482, 59).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 10) == true) {
+		widget(482, 60).setSprite(1192);
+	} else {
+		widget(482, 60).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 12) == true) {
+		widget(482, 61).setSprite(1192);
+	} else {
+		widget(482, 61).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 13) == true) {
+		widget(482, 62).setSprite(1192);
+	} else {
+		widget(482, 62).setSprite(697);
+	}
+	if (isBitFlagged(VARP[286], 14) == true) {
+		widget(482, 92).setIsHidden(false);
+	} else {
+		widget(482, 92).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 15) == true) {
+		widget(482, 93).setIsHidden(false);
+	} else {
+		widget(482, 93).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 16) == true) {
+		widget(482, 94).setIsHidden(false);
+	} else {
+		widget(482, 94).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 17) == true) {
+		widget(482, 95).setIsHidden(false);
+	} else {
+		widget(482, 95).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 18) == true) {
+		widget(482, 96).setIsHidden(false);
+	} else {
+		widget(482, 96).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 19) == true) {
+		widget(482, 97).setIsHidden(false);
+	} else {
+		widget(482, 97).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 21) == true) {
+		widget(482, 98).setIsHidden(false);
+	} else {
+		widget(482, 98).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 23) == true) {
+		widget(482, 99).setIsHidden(false);
+	} else {
+		widget(482, 99).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 24) == true) {
+		widget(482, 100).setIsHidden(false);
+	} else {
+		widget(482, 100).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 26) == true) {
+		widget(482, 101).setIsHidden(false);
+	} else {
+		widget(482, 101).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	if (isBitFlagged(VARP[286], 27) == true) {
+		widget(482, 102).setIsHidden(false);
+	} else {
+		widget(482, 102).setIsHidden(true);
+		script_41(widget(482, 120));
+	}
+	return;
+}

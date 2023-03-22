@@ -1,0 +1,588 @@
+//script5651(5651)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+if(load_varc(1250) < 1)
+	script_5653()
+iVar0 = 1
+iVar1 = stat_visible_xp(0) - load_varc(1243)
+iVar2 = stat_visible_xp(2) - load_varc(1244)
+iVar3 = stat_visible_xp(1) - load_varc(1245)
+iVar4 = stat_visible_xp(4) - load_varc(1246)
+iVar5 = stat_visible_xp(6) - load_varc(1248)
+iVar6 = stat_visible_xp(3) - load_varc(1250)
+iVar7 = ((((iVar1 + iVar2) + iVar3) + iVar4) + iVar5) + iVar6
+iVar8 = stat_visible_xp(5) - load_varc(1247)
+iVar9 = stat_visible_xp(20) - load_varc(1249)
+iVar10 = stat_visible_xp(12) - load_varc(1251)
+iVar11 = stat_visible_xp(14) - load_varc(1252)
+iVar12 = stat_visible_xp(13) - load_varc(1253)
+iVar13 = stat_visible_xp(10) - load_varc(1254)
+iVar14 = stat_visible_xp(7) - load_varc(1255)
+iVar15 = stat_visible_xp(11) - load_varc(1256)
+iVar16 = stat_visible_xp(8) - load_varc(1257)
+iVar17 = stat_visible_xp(16) - load_varc(1258)
+iVar18 = stat_visible_xp(15) - load_varc(1259)
+iVar19 = stat_visible_xp(17) - load_varc(1260)
+iVar20 = stat_visible_xp(9) - load_varc(1261)
+iVar21 = stat_visible_xp(18) - load_varc(1262)
+iVar22 = stat_visible_xp(19) - load_varc(1263)
+iVar23 = stat_visible_xp(22) - load_varc(1264)
+iVar24 = stat_visible_xp(21) - load_varc(1265)
+iVar25 = stat_visible_xp(23) - load_varc(1266)
+iVar26 = stat_visible_xp(24) - load_varc(1267)
+iVar27 = (((((((((((((((((((((((iVar1 + iVar2) + iVar3) + iVar4) + iVar5) + iVar6) + iVar8) + iVar9) + iVar10) + iVar11) + iVar12) + iVar13) + iVar14) + iVar15) + iVar16) + iVar17) + iVar18) + iVar19) + iVar20) + iVar21) + iVar22) + iVar23) + iVar24) + iVar25) + iVar26
+if(load_varpbit(10444) == 1) {
+	switch(load_varpbit(10440)) {
+		case default:
+			break
+		case 1:
+			if(iVar1 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar1) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 2:
+			if(iVar2 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar2) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 5:
+			if(iVar3 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar3) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 6:
+			if(iVar6 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar6) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 3:
+			if(iVar4 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar4) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 4:
+			if(iVar5 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar5) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 7:
+			if(iVar8 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar8) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 12:
+			if(iVar9 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar9) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 11:
+			if(iVar10 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar10) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 13:
+			if(iVar11 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar11) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 14:
+			if(iVar12 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar12) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 15:
+			if(iVar13 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar13) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 16:
+			if(iVar14 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar14) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 17:
+			if(iVar15 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar15) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 18:
+			if(iVar16 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar16) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 8:
+			if(iVar17 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar17) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 9:
+			if(iVar18 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar18) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 10:
+			if(iVar19 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar19) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 19:
+			if(iVar20 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar20) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 20:
+			if(iVar21 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar21) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 21:
+			if(iVar22 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar22) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 22:
+			if(iVar23 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar23) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 23:
+			if(iVar24 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar24) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 24:
+			if(iVar25 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar25) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 25:
+			if(iVar26 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar26) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 30:
+			if(iVar7 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar7) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 31:
+			if(iVar27 != 0)
+				if_settext(if_gethash(1215, 10), "+" + tostring_localized(1, iVar27) + " xp")
+			else
+				iVar0 = 0
+			iVar0 = 0
+			break
+
+	}
+	if(iVar0 == 1) {
+		if_sethide(if_gethash(1215, 10), 0)
+		if_settrans(if_gethash(1215, 10), 0)
+		instr6342(if_gethash(1215, 10), script_5656, "1Ii", 1, -2147483645, 0)
+	}
+	iVar0 = 1
+}
+if(load_varpbit(10445) == 1) {
+	switch(load_varpbit(10441)) {
+		case default:
+			break
+		case 1:
+			if(iVar1 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar1) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 2:
+			if(iVar2 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar2) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 5:
+			if(iVar3 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar3) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 6:
+			if(iVar6 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar6) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 3:
+			if(iVar4 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar4) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 4:
+			if(iVar5 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar5) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 7:
+			if(iVar8 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar8) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 12:
+			if(iVar9 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar9) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 11:
+			if(iVar10 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar10) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 13:
+			if(iVar11 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar11) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 14:
+			if(iVar12 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar12) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 15:
+			if(iVar13 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar13) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 16:
+			if(iVar14 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar14) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 17:
+			if(iVar15 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar15) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 18:
+			if(iVar16 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar16) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 8:
+			if(iVar17 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar17) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 9:
+			if(iVar18 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar18) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 10:
+			if(iVar19 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar19) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 19:
+			if(iVar20 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar20) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 20:
+			if(iVar21 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar21) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 21:
+			if(iVar22 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar22) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 22:
+			if(iVar23 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar23) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 23:
+			if(iVar24 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar24) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 24:
+			if(iVar25 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar25) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 25:
+			if(iVar26 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar26) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 30:
+			if(iVar7 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar7) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 31:
+			if(iVar27 != 0)
+				if_settext(if_gethash(1215, 11), "+" + tostring_localized(1, iVar27) + " xp")
+			else
+				iVar0 = 0
+			iVar0 = 0
+			break
+
+	}
+	if(iVar0 == 1) {
+		if_sethide(if_gethash(1215, 11), 0)
+		if_settrans(if_gethash(1215, 11), 0)
+		instr6342(if_gethash(1215, 11), script_5656, "1Ii", 1, -2147483645, 0)
+	}
+	iVar0 = 1
+}
+if(load_varpbit(10446) == 1) {
+	switch(load_varpbit(10442)) {
+		case default:
+			break
+		case 1:
+			if(iVar1 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar1) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 2:
+			if(iVar2 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar2) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 5:
+			if(iVar3 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar3) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 6:
+			if(iVar6 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar6) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 3:
+			if(iVar4 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar4) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 4:
+			if(iVar5 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar5) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 7:
+			if(iVar8 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar8) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 12:
+			if(iVar9 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar9) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 11:
+			if(iVar10 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar10) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 13:
+			if(iVar11 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar11) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 14:
+			if(iVar12 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar12) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 15:
+			if(iVar13 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar13) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 16:
+			if(iVar14 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar14) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 17:
+			if(iVar15 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar15) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 18:
+			if(iVar16 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar16) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 8:
+			if(iVar17 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar17) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 9:
+			if(iVar18 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar18) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 10:
+			if(iVar19 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar19) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 19:
+			if(iVar20 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar20) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 20:
+			if(iVar21 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar21) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 21:
+			if(iVar22 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar22) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 22:
+			if(iVar23 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar23) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 23:
+			if(iVar24 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar24) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 24:
+			if(iVar25 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar25) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 25:
+			if(iVar26 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar26) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 30:
+			if(iVar7 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar7) + " xp")
+			else
+				iVar0 = 0
+			break
+		case 31:
+			if(iVar27 != 0)
+				if_settext(if_gethash(1215, 12), "+" + tostring_localized(1, iVar27) + " xp")
+			else
+				iVar0 = 0
+			iVar0 = 0
+			break
+
+	}
+	if(iVar0 == 1) {
+		if_sethide(if_gethash(1215, 12), 0)
+		if_settrans(if_gethash(1215, 12), 0)
+		instr6342(if_gethash(1215, 12), script_5656, "1Ii", 1, -2147483645, 0)
+	}
+}
+script_5652()
+return

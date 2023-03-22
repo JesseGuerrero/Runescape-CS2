@@ -1,0 +1,9 @@
+//script733(733)(int arg0)(void)
+if(load_varpbit(278) == 0)
+	if_setmodelanim(arg0, 1378)
+else
+	if(load_varpbit(278) == 1)
+		if_setmodelanim(arg0, 2115)
+	else
+		if_setmodelanim(arg0, 2117)
+return

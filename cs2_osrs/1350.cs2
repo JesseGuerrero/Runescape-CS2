@@ -1,0 +1,33 @@
+void script_1350(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	int int7;
+	int int8;
+	script_1356(widget3);
+	widget3.hookVARP(&script_1355(widget3), 101);
+	widget0.clearChildren();
+	_ = script_249(widget0, 0);
+	int7 = 10;
+	int8 = script_1351("Free Quests", widget4, 1374, 1377, 19, widget4, widget5, widget6);
+	widget4.setPosition(0, int7, 1, 0);
+	int7 = int7 + int8 + 8;
+	int8 = script_1351("Members' Quests", widget5, 1375, 1378, 112, widget4, widget5, widget6);
+	widget5.setPosition(0, int7, 1, 0);
+	int7 = int7 + int8 + 8;
+	int8 = script_1351("Miniquests", widget6, 1376, 1379, 11, widget4, widget5, widget6);
+	widget6.setPosition(0, int7, 1, 0);
+	int7 = int7 + int8;
+	int7 = int7 + 10;
+	if (int7 > widget1.getHeight()) {
+		widget1.setScrollMax(0, int7);
+		script_31(widget2, widget1, 792, 789, 790, 791, 773, 788);
+		if (CHILD.setChild(widget2, 1) == true) {
+			script_37(widget2, widget1, VARC[10], 1);
+		}
+	} else {
+		VARC[10] = 0;
+		widget1.setScrollMax(0, 0);
+		script_31(widget2, widget1, 792, 789, 790, 791, 773, 788);
+	}
+	script_1354(widget4, widget5, widget6);
+	widget0.hookVARP(&script_1353(widget4, widget5, widget6), 101, 130, 29, 222, 31, 176, 32, 62, 160, 122, 71, 273, 107, 144, 63, 179, 146, 145, 178, 67, 939, 433, 293, 68, 655, 10, 964, 455, 399, 400, 869, 794, 314, 440, 622, 131, 80, 0, 335, 934, 299, 896, 641, 912, 844, 671, 810, 148, 435, 17, 11, 521, 347, 65, 553, 180, 408, 482, 437, 150, 635, 382, 223, 188, 5, 351, 445, 705, 387, 175, 139, 147, 465, 823, 604, 14, 365, 30, 423, 517, 574, 192, 905, 307, 112, 416, 165, 302, 714, 607, 678, 496, 328, 402, 730, 600, 76, 159, 874, 339, 602, 60, 116, 709, 616, 723, 320, 568, 449, 26, 359, 197, 226, 111, 200, 385, 317, 161, 162, 571, 212, 968, 970, 977, 980, 992, 994, 997, 1003, 1016, 1049, 1339, 492, 1318, 1329, 695, 77, 520, 976, 597, 267, 967, 1418, 1535, 1566);
+	return;
+}

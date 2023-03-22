@@ -1,0 +1,39 @@
+void script_296(int arg0, Widget widget1, Widget widget2, int arg3) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	Item item9;
+	int4 = 0;
+	int5 = getItemContainerLength(516);
+	while (int5 > 0 && int4 == 0) {
+		int5 = int5 - 1;
+		if (getItemIdInSlot(516, int5) != null) {
+			int4 = 1;
+		}
+	}
+	widget2.clearChildren();
+	int6 = 0;
+	int7 = (42 - 36) * 3 - 2;
+	int8 = (36 - 32) * 2;
+	item9 = null;
+	int5 = getItemContainerLength(93);
+	while (int5 > 0) {
+		int5 = int5 - 1;
+		if (CHILD.setChild(widget1, int5) == true) {
+			item9 = getItemIdInSlot(93, int5);
+			script_297(item9, getItemAmtInSlot(93, int5), widget1, widget2, int4, arg0, arg3);
+			CHILD.setPosition(int7 + int5 % 4 * 42, int8 + int5 / 4 * 36, 0, 0);
+			if (item9 == 11941 && int4 == 1) {
+				_CHILD.createChild(widget2, 5, int6);
+				int6 = int6 + 1;
+				_CHILD.setSize(34, 34, 0, 0);
+				_CHILD.setPosition(CHILD.getX(), CHILD.getY(), 0, 0);
+				_CHILD.setSprite(155);
+				_CHILD.setTrans(180);
+			}
+		}
+	}
+	return;
+}

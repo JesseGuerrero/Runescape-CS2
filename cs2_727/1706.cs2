@@ -1,0 +1,45 @@
+//script1706(1706)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 10
+if(iVar0 != -1)
+	while(iVar2 > 0) {
+		iVar1 = script_1708(iVar0)
+		if(instr6004(script_1707(iVar0)) == 1)
+			if(iVar1 > 0) {
+				cc_setcolor(32ff32)
+				cc_settext(append("%", append_num("+", iVar1)))
+			} else 
+				if(iVar1 < 0) {
+					cc_setcolor(ff3232)
+					cc_settext(append("%", to_string(iVar1)))
+				} else  {
+					cc_setcolor(ff981f)
+					cc_settext(append("%", to_string(iVar1)))
+				}
+		switch(iVar0) {
+			case default:
+				break
+			case 0:
+				iVar0 = 2
+				break
+			case 2:
+				iVar0 = 1
+				break
+			case 1:
+				iVar0 = 4
+				break
+			case 4:
+				iVar0 = 6
+				break
+			case 6:
+				iVar0 = -1
+				break
+
+		}
+		iVar2 = iVar2 - 1
+	}
+return

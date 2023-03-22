@@ -1,0 +1,76 @@
+//script24(24)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(int)
+int iVar5
+cc_create(arg3 * 3, 4, 32702470)
+cc_setsize(0, 0, 32, 26)
+if(arg0 > 0)
+	cc_settext(to_string(arg0))
+else
+	cc_settext(" ")
+cc_setposition(0, 0, arg4, 0)
+cc_settextalign(0, 0, 2)
+cc_setcolor(46320a)
+cc_settextfont(497)
+cc_settextshadow(0)
+cc_create((arg3 * 3) + 1, 5, 32702470)
+cc_setsize(0, 0, 32, 36)
+if(script_1566(load_varpbit(3288), load_varpbit(3289)) == 1) {
+	if(load_varpbit(3288) == 7)
+		cc_setsize(0, 0, 30, 30)
+	else
+		if(load_varpbit(3288) == 4) {
+			cc_setsize(0, 0, 24, 24)
+			cc_setposition(0, 1, arg4, 0)
+		}
+	cc_setoutline(0)
+	if(arg2 != -1)
+		cc_setgraphic(arg2)
+	else
+		cc_setgraphic(2287)
+} else 
+	if(arg1 != -1)
+		if(arg1 == 18637 || arg1 == 18638) {
+			cc_setsize(0, 0, 24, 24)
+			cc_setposition(0, 1, arg4, 0)
+			cc_setoutline(0)
+			if(arg1 == 18637)
+				cc_setgraphic(3057)
+			else
+				cc_setgraphic(3056)
+		} else  {
+			cc_setoutline(1)
+			cc_setgraphicshadow(6311474)
+			cc_setitem(-1, arg1)
+			if(load_varpbit(3288) == 21)
+				if(load_varpbit(3289) != 10) {
+					cc_setop("Check protection price", 1)
+					instr6687(script_1865, "io", -2147483644, arg1)
+					instr6091(script_1862, "Ii", -2147483645, -2147483643)
+					instr6092(script_1863, "Ii", -2147483645, -2147483643)
+				} else 
+					if(load_varpbit(3288) == 22)
+						if(load_varpbit(3289) != 13)
+							if(load_varpbit(3289) != 14)
+								if(load_varpbit(3289) != 15) {
+									cc_setop("Check materials", 1)
+									instr6687(script_1864, "ioii", -2147483644, arg1, load_varpbit(3289), arg3)
+									instr6091(script_1862, "Ii", -2147483645, -2147483643)
+									instr6092(script_1863, "Ii", -2147483645, -2147483643)
+								}
+		}
+	else
+		cc_setitem(-1, 7620)
+cc_setposition(0, 0, arg4, 28)
+cc_create((arg3 * 3) + 2, 4, 32702470)
+iVar5 = paramheight(arg0, 495, 228)
+cc_setsize(0, 0, iVar5 * 15, 228)
+cc_settext(arg0)
+cc_setposition(0, 0, arg4, 66)
+cc_settextalign(0, 0, 0)
+cc_setcolor(46320a)
+cc_settextfont(495)
+cc_settextshadow(0)
+if(iVar5 * 15 < 32)
+	return 32
+else
+	return (iVar5 * 15) + 5
+return 0

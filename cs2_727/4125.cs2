@@ -1,0 +1,4 @@
+//script4125(4125)(int arg0, int arg1, int arg2, string arg3)(void)
+if(instr6004(arg0) == 1)
+	script_1163(arg0, arg1, arg2, 0, 180, arg0 + instr6771(718))
+return

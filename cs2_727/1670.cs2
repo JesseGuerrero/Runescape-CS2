@@ -1,0 +1,29 @@
+//script1670(1670)(int arg0, int arg1, int arg2, int arg3, string arg4, string arg5, string arg6, string arg7, string arg8, string arg9)(void)
+if(cc_find(arg3, arg2) == 1)
+	if(arg0 != -1) {
+		if(item_param(599, arg1) > 0)
+			cc_setitem_alwaysnum(item_param(599, arg1), arg0)
+		else
+			cc_setitem_alwaysnum(1, arg0)
+		cc_setopbase(item_name(arg1))
+		cc_setop(arg0, 1)
+		cc_setop(arg1, 2)
+		cc_setop(arg2, 3)
+		cc_setop(arg3, 4)
+		cc_setop(arg4, 5)
+		cc_setop("Examine" + "<col=ff9040>", 6)
+		cc_setop(arg5, 7)
+		cc_setgraphicshadow(3355443)
+		cc_setoutline(1)
+	} else  {
+		cc_setitem(0, -1)
+		cc_setopbase("")
+		cc_setop("", 1)
+		cc_setop("", 2)
+		cc_setop("", 3)
+		cc_setop("", 4)
+		cc_setop("", 5)
+		cc_setop("", 6)
+		cc_setop("", 7)
+	}
+return

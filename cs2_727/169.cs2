@@ -1,0 +1,6 @@
+//script169(169)(int arg0, int arg1)(void)
+if(load_varpbit(3905) == arg0)
+	if_setcolor(arg1, 0xDD5032)
+else
+	if_setcolor(arg1, 0x64501E)
+return

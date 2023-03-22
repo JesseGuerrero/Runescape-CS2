@@ -1,0 +1,52 @@
+//script767(767)(int arg0)(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+int iVar1
+globalArrays[0] = [10, 111]
+globalArrays[1] = [10, 105]
+iVar1 = 0
+if(item_param(538, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(538, arg0)
+	globalArrays[1][iVar1] = item_param(539, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(540, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(540, arg0)
+	globalArrays[1][iVar1] = item_param(541, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(542, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(542, arg0)
+	globalArrays[1][iVar1] = item_param(543, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(697, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(697, arg0)
+	globalArrays[1][iVar1] = item_param(698, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(699, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(699, arg0)
+	globalArrays[1][iVar1] = item_param(700, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(701, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(701, arg0)
+	globalArrays[1][iVar1] = item_param(702, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(703, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(703, arg0)
+	globalArrays[1][iVar1] = item_param(704, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(705, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(705, arg0)
+	globalArrays[1][iVar1] = item_param(706, arg0)
+	iVar1 = iVar1 + 1
+}
+if(item_param(707, arg0) != -1) {
+	globalArrays[0][iVar1] = item_param(707, arg0)
+	globalArrays[1][iVar1] = item_param(708, arg0)
+	iVar1 = iVar1 + 1
+}
+return globalArrays[1][9], globalArrays[1][8], globalArrays[1][7], globalArrays[1][6], globalArrays[1][5], globalArrays[1][4], globalArrays[1][3], globalArrays[1][2], globalArrays[1][1], globalArrays[1][0], globalArrays[0][9], globalArrays[0][8], globalArrays[0][7], globalArrays[0][6], globalArrays[0][5], globalArrays[0][4], globalArrays[0][3], globalArrays[0][2], globalArrays[0][1], globalArrays[0][0]
+return 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1

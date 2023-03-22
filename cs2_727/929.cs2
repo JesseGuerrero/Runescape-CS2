@@ -1,0 +1,42 @@
+//script929(929)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = item_param(823, arg0)
+iVar2 = item_param(749, arg0)
+if(iVar2 == -1)
+	return 1
+if(bit_flagged(0, iVar1) == 0)
+	if(stat_base(iVar2) < item_param(750, arg0) || bit_flagged(0, iVar1) == 1 || stat(iVar2) < item_param(750, arg0))
+		return 0
+iVar2 = item_param(751, arg0)
+if(iVar2 == -1)
+	return 1
+if(bit_flagged(1, iVar1) == 0)
+	if(stat_base(iVar2) < item_param(752, arg0) || bit_flagged(1, iVar1) == 1 || stat(iVar2) < item_param(752, arg0))
+		return 0
+iVar2 = item_param(753, arg0)
+if(iVar2 == -1)
+	return 1
+if(bit_flagged(2, iVar1) == 0)
+	if(stat_base(iVar2) < item_param(754, arg0) || bit_flagged(2, iVar1) == 1 || stat(iVar2) < item_param(754, arg0))
+		return 0
+iVar2 = item_param(755, arg0)
+if(iVar2 == -1)
+	return 1
+if(bit_flagged(3, iVar1) == 0)
+	if(stat_base(iVar2) < item_param(756, arg0) || bit_flagged(3, iVar1) == 1 || stat(iVar2) < item_param(756, arg0))
+		return 0
+iVar2 = item_param(757, arg0)
+if(iVar2 == -1)
+	return 1
+if(bit_flagged(4, iVar1) == 0)
+	if(stat_base(iVar2) < item_param(758, arg0) || bit_flagged(4, iVar1) == 1 || stat(iVar2) < item_param(758, arg0))
+		return 0
+iVar2 = item_param(759, arg0)
+if(iVar2 == -1)
+	return 1
+if(bit_flagged(5, iVar1) == 0)
+	if(stat_base(iVar2) < item_param(760, arg0) || bit_flagged(5, iVar1) == 1 || stat(iVar2) < item_param(760, arg0))
+		return 0
+return 1
+return -1

@@ -1,0 +1,20 @@
+//script5056(5056)(int arg0, int arg1)(void)
+if(arg1 == 1) {
+	if(cc_find(0, arg0) == 1)
+		cc_setgraphic(7571)
+	if(cc_find(1, arg0) == 1)
+		cc_setgraphic(7570)
+	if(cc_find(2, arg0) == 1)
+		cc_setgraphic(7572)
+	if(cc_find(3, arg0) == 1)
+		cc_setgraphic(7577)
+	if_setonmouseover(arg0, None, "")
+	hook_mouse_exit(arg0, None, "")
+} else  {
+	script_5058(arg0, 0)
+	if(cc_find(3, arg0) == 1)
+		cc_setgraphic(7576)
+	if_setonmouseover(arg0, script_5057, "I1", -2147483645, 1)
+	hook_mouse_exit(arg0, script_5057, "I1", -2147483645, 0)
+}
+return

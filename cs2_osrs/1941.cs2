@@ -1,0 +1,38 @@
+void script_1941(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	if (VARPBIT[4692] == 1) {
+		widget0.setPosition(0, 30, 1, 0);
+	} else {
+		widget0.setPosition(0, 0, 1, 0);
+	}
+	widget1.setText(str(VARPBIT[4924]));
+	if (VARPBIT[4924] >= 450) {
+		widget1.setRGB(0xC80000);
+	} else {
+		widget1.setRGB(0xFFFF00);
+	}
+	widget2.setText(str(VARPBIT[4925]));
+	if (VARPBIT[4925] >= 450) {
+		widget2.setRGB(0xC80000);
+	} else {
+		widget2.setRGB(0xFFFF00);
+	}
+	widget3.setText(str(VARPBIT[4926]));
+	if (VARPBIT[4926] >= 450) {
+		widget3.setRGB(0xC80000);
+	} else {
+		widget3.setRGB(0xFFFF00);
+	}
+	widget4.setText(str(VARPBIT[4921]));
+	if (VARPBIT[4921] >= 450) {
+		widget4.setRGB(0xC80000);
+	} else {
+		widget4.setRGB(0xFFFF00);
+	}
+	widget5.setText(str(VARPBIT[4922]));
+	if (VARPBIT[4922] >= 450) {
+		widget5.setRGB(0xC80000);
+	} else {
+		widget5.setRGB(0xFFFF00);
+	}
+	return;
+}

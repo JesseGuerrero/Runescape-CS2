@@ -1,0 +1,104 @@
+//script5736(5736)(int arg0, int arg1, int arg2, int arg3)(int)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+iVar4 = enum(3483, arg1, 'i', 'J')
+iVar5 = -1
+iVar6 = 0
+iVar7 = 0
+iVar8 = -1
+iVar9 = 0
+sVar0 = ""
+iVar10 = -1
+switch(arg2) {
+	case default:
+		break
+	case 0:
+		iVar6 = struct_param(1294, iVar4)
+		iVar7 = struct_param(1295, iVar4)
+		break
+	case 1:
+		iVar6 = struct_param(1296, iVar4)
+		iVar7 = struct_param(1297, iVar4)
+		break
+	case 2:
+		iVar6 = struct_param(1298, iVar4)
+		iVar7 = struct_param(1299, iVar4)
+		break
+	case 3:
+		iVar6 = struct_param(1300, iVar4)
+		iVar7 = struct_param(1301, iVar4)
+		break
+	case 4:
+		iVar6 = struct_param(1302, iVar4)
+		iVar7 = struct_param(1303, iVar4)
+		break
+	case 5:
+		iVar6 = struct_param(1304, iVar4)
+		iVar7 = struct_param(1305, iVar4)
+		break
+	case 6:
+		iVar6 = struct_param(1306, iVar4)
+		iVar7 = struct_param(1307, iVar4)
+		break
+	case 7:
+		iVar6 = struct_param(1308, iVar4)
+		iVar7 = struct_param(1309, iVar4)
+		break
+	case 8:
+		iVar6 = struct_param(1310, iVar4)
+		iVar7 = struct_param(1311, iVar4)
+		break
+	case 9:
+		iVar6 = struct_param(1312, iVar4)
+		iVar7 = struct_param(1313, iVar4)
+		break
+	case 10:
+		iVar6 = struct_param(2227, iVar4)
+		iVar7 = struct_param(2228, iVar4)
+		break
+	case 11:
+		iVar6 = struct_param(2229, iVar4)
+		iVar7 = struct_param(2230, iVar4)
+		break
+
+}
+if(iVar6 == 0)
+	return arg0
+else
+	if(iVar6 < 60) {
+		iVar8 = enum(681, iVar6, 'i', 'S')
+		if(iVar8 != -1)
+			sVar0 = "Level " + to_string(iVar7) + " " + enum(108, iVar6, 'i', 's') + " required."
+	} else 
+		if(iVar6 == 61) {
+			iVar10 = enum(2252, iVar7, 'i', 'J')
+			sVar0 = "You must complete the quest '" + struct_param(845, iVar10) + "'."
+		} else 
+			if(iVar6 == 60) {
+				iVar5 = script_5795(iVar7)
+				if(iVar5 == -1)
+					return arg0
+				sVar0 = "You must complete the Task '" + struct_param(1266, iVar5) + "'."
+			} else 
+				sVar0 = removetags(script_3223(arg1, arg2 + 1))
+iVar11 = 0
+if(compare("", sVar0) != 0) {
+	if_sethide(arg3, 0)
+	if_settext(arg3, sVar0)
+	if_settextfont(arg3, 3793)
+	if_settextalign(arg3, 13, 1, 0)
+	iVar11 = if_getwidth(if_getlayer(arg3)) - 18
+	iVar9 = 15 * paramheight(sVar0, 3793, iVar11)
+	if_setsize(arg3, 0, 0, iVar9, iVar11)
+	if_setposition(arg3, 0, 0, arg0, 9)
+} else 
+	iVar9 = 0
+return arg0 + iVar9
+return 0

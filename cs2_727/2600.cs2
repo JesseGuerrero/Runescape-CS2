@@ -1,0 +1,4 @@
+//script2600(2600)()(void)
+sound_synth(0, 1, 6784)
+if_sethide(if_gethash(292, 130), 1)
+return

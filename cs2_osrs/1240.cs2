@@ -1,0 +1,4 @@
+void script_1240(Widget widget0) {
+	widget0.setText("x " + VARPBIT[862]);
+	return;
+}

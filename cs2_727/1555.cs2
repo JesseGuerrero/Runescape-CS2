@@ -1,0 +1,29 @@
+//script1555(1555)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+if_setposition(if_gethash(137, 56), 0, 0, if_gety(if_gethash(137, 56)), script_1551(load_varc(1028), 495, arg0, load_varc_string(1)))
+iVar1 = if_getwidth(if_gethash(137, 54))
+iVar2 = string_length(load_varc_string(1))
+sVar0 = ""
+if(load_varc(1028) > 0)
+	sVar0 = substring(load_varc_string(1), min(iVar2, load_varc(1028)), 0)
+iVar3 = stringwidth(495, sVar0) - iVar1
+if_setposition(if_gethash(137, 55), 2, 0, 0, 0)
+if_setsize(if_gethash(137, 55), 0, 0, if_getheight(if_gethash(137, 55)), max(iVar1, stringwidth(495, if_gettext(if_gethash(137, 55)))))
+if(iVar3 > 0) {
+	if_setposition(if_gethash(137, 55), 2, 0, 0, if_getx(if_gethash(137, 55)) - iVar3)
+	if_setposition(if_gethash(137, 56), 1, 0, 0, if_getx(if_gethash(137, 56)) - iVar3)
+}
+if(string_length(load_varc_string(1)) <= 0) {
+	if_sethide(if_gethash(137, 56), 1)
+	instr6342(if_gethash(137, 55), None, "")
+} else  {
+	if(applet_hasfocus() == 1)
+		if_sethide(if_gethash(137, 56), 0)
+	else
+		if_sethide(if_gethash(137, 56), 1)
+	instr6342(if_gethash(137, 55), script_1400, "iI", client_clock(), if_gethash(137, 56))
+}
+return

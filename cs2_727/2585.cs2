@@ -1,0 +1,9 @@
+//script2585(2585)()(void)
+if_setcolor(19136628, 0xFF9935)
+instr6213(if_gethash(292, 110), 1, "Select light")
+instr6213(if_gethash(292, 111), 1, "Select heavy")
+instr6239(if_gethash(292, 110), script_2589, "I", -2147483645)
+instr6239(if_gethash(292, 111), script_2589, "I", -2147483645)
+hook_mouse_press(if_gethash(292, 110), None, "")
+hook_mouse_press(if_gethash(292, 111), None, "")
+return

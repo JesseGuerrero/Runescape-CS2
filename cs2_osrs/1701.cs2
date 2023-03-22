@@ -1,0 +1,9 @@
+int script_1701(int arg0, int arg1) {
+	if (VARC[187] > getClientCycle()) {
+		return 0;
+	}
+	if (arg1 != 595 && hasChild(datamap('I', 'I', script_900(), widget(161, 14))) == true && VARC[190] == 1) {
+		return 0;
+	}
+	return 1;
+}

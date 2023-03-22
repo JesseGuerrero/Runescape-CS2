@@ -1,0 +1,3 @@
+//script534(534)(int arg0)(void)
+if_setfill(arg0, 0)
+return

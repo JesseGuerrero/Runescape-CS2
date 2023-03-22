@@ -1,0 +1,38 @@
+//script3359(3359)()(int, int, string)
+switch(load_varp(448)) {
+	case default:
+		return 18047, 3, "Snaring Wave (Tier 1)"
+
+	case 17945:
+		return 18047, 3, "Snaring Wave (Tier 1)"
+
+	case 17946:
+		return 18048, 13, "Snaring Wave (Tier 2)"
+
+	case 17947:
+		return 18049, 23, "Snaring Wave (Tier 3)"
+
+	case 17948:
+		return 18050, 33, "Snaring Wave (Tier 4)"
+
+	case 17949:
+		return 18051, 43, "Snaring Wave (Tier 5)"
+
+	case 17950:
+		return 18052, 53, "Snaring Wave (Tier 6)"
+
+	case 17951:
+		return 18053, 63, "Snaring Wave (Tier 7)"
+
+	case 17952:
+		return 18054, 73, "Snaring Wave (Tier 8)"
+
+	case 17953:
+		return 18055, 83, "Snaring Wave (Tier 9)"
+
+	case 17954:
+		return 18056, 93, "Snaring Wave (Tier 10)"
+
+
+}
+return -1, 0, ""

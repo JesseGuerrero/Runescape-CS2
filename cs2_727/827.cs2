@@ -1,0 +1,16 @@
+//script827(827)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(client_clock() >= arg0 + 32)
+	if(client_clock() < arg0 + 140) {
+		if_settext(if_gethash(465, 2), "Varrock Herald")
+		if_settext(if_gethash(465, 3), "Covering all of Misthalin and beyond.")
+		if_settext(if_gethash(465, 4), "1 gp")
+		if_settext(if_gethash(465, 5), "Oo'glog Ogresses Open Health Spa!")
+	} else  {
+		if_settext(if_gethash(465, 2), " ")
+		if_settext(if_gethash(465, 3), " ")
+		if_settext(if_gethash(465, 4), " ")
+		if_settext(if_gethash(465, 5), " ")
+	}
+return

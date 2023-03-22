@@ -1,0 +1,1664 @@
+//script1022(1022)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2349, 1, "You can now smelt " + "<col=000080>" + "bronze" + "</col>" + ".", "Bronze" + "<br>" + " 1 tin ore and 1 copper ore"
+
+			case 1:
+				return 9467, 8, "You now have the Smithing level required to smelt " + "<col=000080>" + "blurite" + "</col>" + " (after The Knight's Sword).", "Blurite" + "<br>" + " (after The Knight's Sword)"
+
+			case 2:
+				return 2351, 15, "You can now smelt " + "<col=000080>" + "iron" + "</col>" + ".", "Iron" + "<br>" + " 50% chance of success, rising until level 45"
+
+			case 3:
+				return 2893, 20, "Members now have the Smithing level required to smelt " + "<col=000080>" + "elemental metal" + "</col>" + " (after Elemental Workshop).", "Members: Elemental metal" + "<br>" + " (after Elemental Workshop)"
+
+			case 4:
+				return 2355, 20, "You can now smelt " + "<col=000080>" + "silver" + "</col>" + ".", "Silver"
+
+			case 5:
+				return 2353, 30, "You can now smelt " + "<col=000080>" + "steel" + "</col>" + ".", "Steel" + "<br>" + " 2 coal and 1 iron ore"
+
+			case 6:
+				return 2357, 40, "You can now smelt " + "<col=000080>" + "gold" + "</col>" + ".", "Gold"
+
+			case 7:
+				return 2351, 45, "Your chance of successfully smelting " + "<col=000080>" + "iron" + "</col>" + " has reached its maximum.", "Iron" + "<br>" + " 80% chance of success"
+
+			case 8:
+				return 2359, 50, "You can now smelt " + "<col=000080>" + "mithril" + "</col>" + ".", "Mithril" + "<br>" + " 4 coal and 1 mithril ore"
+
+			case 9:
+				return 2361, 70, "You can now smelt " + "<col=000080>" + "adamantite" + "</col>" + ".", "Adamant" + "<br>" + " 6 coal and 1 adamantite ore"
+
+			case 10:
+				return 21778, 77, "Members now have the Smithing level required to smelt " + "<col=000080>" + "bane ore" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Bane ore" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 11:
+				return 2363, 85, "You can now smelt " + "<col=000080>" + "runite" + "</col>" + ".", "Rune" + "<br>" + " 8 coal and 1 runite ore"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1205, 1, "You can now smith " + "<col=000080>" + "bronze daggers" + "</col>" + ".", "Bronze dagger" + "<br>" + " 1 bar"
+
+			case 1:
+				return 1139, 1, "You can now smith " + "<col=000080>" + "bronze helms" + "</col>" + ".", "Bronze helm" + "<br>" + " 1 bar"
+
+			case 2:
+				return 1351, 1, "You can now smith " + "<col=000080>" + "bronze hatchets" + "</col>" + ".", "Bronze hatchet" + "<br>" + " 1 bar"
+
+			case 3:
+				return 39, 1, "Members can now smith " + "<col=000080>" + "bronze arrowheads" + "</col>" + ".", "Members: Bronze arrowhead" + "<br>" + " 1 bar makes 15"
+
+			case 4:
+				return 1422, 2, "You can now smith " + "<col=000080>" + "bronze maces" + "</col>" + ".", "Bronze mace" + "<br>" + " 1 bar"
+
+			case 5:
+				return 9375, 3, "Members can now smith " + "<col=000080>" + "bronze crossbow bolts" + "</col>" + ".", "Members: Bronze crossbow bolt" + "<br>" + " 1 bar makes 10"
+
+			case 6:
+				return 1277, 4, "You can now smith " + "<col=000080>" + "bronze swords" + "</col>" + ".", "Bronze sword" + "<br>" + " 1 bar"
+
+			case 7:
+				return 819, 4, "Members now have the Smithing level required to smith bronze dart tips" + "</col>" + " (after Tourist Trap).", "Members: Bronze dart tip" + "<br>" + " (after Tourist Trap)" + "<br>" + " 1 bar makes 10"
+
+			case 8:
+				return 1794, 4, "Members can now smith " + "<col=000080>" + "bronze wire" + "</col>" + ".", "Members: Bronze wire" + "<br>" + " 1 bar"
+
+			case 9:
+				return 4819, 4, "Members can now smith " + "<col=000080>" + "bronze nails" + "</col>" + ".", "Members: Bronze nails" + "<br>" + " 1 bar makes 15"
+
+			case 10:
+				return 1321, 5, "You can now smith " + "<col=000080>" + "bronze scimitars" + "</col>" + ".", "Bronze scimitar" + "<br>" + " 2 bars"
+
+			case 11:
+				return 1237, 5, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "bronze spears" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Bronze spear" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 log"
+
+			case 12:
+				return 11367, 5, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "bronze hastae" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Bronze hasta" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 log"
+
+			case 13:
+				return 1265, 5, "Members now have the Smithing level required to smith bronze " + "<col=000080>" + "pickaxes" + "</col>" + " (after Perils of Ice Mountain).", "Members: Bronze pickaxe" + "<br>" + " (after Perils of Ice Mountain)" + "<br>" + " 2 bars"
+
+			case 14:
+				return 9420, 6, "Members can now smith " + "<col=000080>" + "bronze crossbow limbs" + "</col>" + ".", "Members: Bronze crossbow limbs" + "<br>" + " 1 bar"
+
+			case 15:
+				return 1291, 6, "You can now smith " + "<col=000080>" + "bronze longswords" + "</col>" + ".", "Bronze longsword" + "<br>" + " 2 bars"
+
+			case 16:
+				return 1155, 7, "You can now smith " + "<col=000080>" + "bronze full helms" + "</col>" + ".", "Bronze full helm" + "<br>" + " 2 bars"
+
+			case 17:
+				return 864, 7, "Members can now smith " + "<col=000080>" + "bronze throwing knives" + "</col>" + ".", "Members: Bronze throwing knife" + "<br>" + " 1 bar makes 5"
+
+			case 18:
+				return 1173, 8, "You can now smith " + "<col=000080>" + "bronze square shields" + "</col>" + ".", "Bronze square shield" + "<br>" + " 2 bars"
+
+			case 19:
+				return 1337, 9, "You can now smith " + "<col=000080>" + "bronze warhammers" + "</col>" + ".", "Bronze warhammer" + "<br>" + " 3 bars"
+
+			case 20:
+				return 1375, 10, "You can now smith " + "<col=000080>" + "bronze battleaxes" + "</col>" + ".", "Bronze battleaxe" + "<br>" + " 3 bars"
+
+			case 21:
+				return 1103, 11, "You can now smith " + "<col=000080>" + "bronze chainbodies" + "</col>" + ".", "Bronze chainbody" + "<br>" + " 3 bars"
+
+			case 22:
+				return 1189, 12, "You can now smith " + "<col=000080>" + "bronze kiteshields" + "</col>" + ".", "Bronze kiteshield" + "<br>" + " 3 bars"
+
+			case 23:
+				return 3095, 13, "Members now have the Smithing level required to smith " + "<col=000080>" + "bronze claws" + "</col>" + " (after Death Plateau).", "Members: Bronze claws" + "<br>" + " (after Death Plateau)" + "<br>" + " 2 bars"
+
+			case 24:
+				return 1307, 14, "You can now smith " + "<col=000080>" + "bronze two-handed swords" + "</col>" + ".", "Bronze two-handed sword" + "<br>" + " 3 bars"
+
+			case 25:
+				return 1075, 16, "You can now smith " + "<col=000080>" + "bronze platelegs" + "</col>" + ".", "Bronze platelegs" + "<br>" + " 3 bars"
+
+			case 26:
+				return 1087, 16, "You can now smith " + "<col=000080>" + "bronze plateskirts" + "</col>" + ".", "Bronze plateskirt" + "<br>" + " 3 bars"
+
+			case 27:
+				return 1117, 18, "You can now smith " + "<col=000080>" + "bronze platebodies" + "</col>" + ".", "Bronze platebody" + "<br>" + " 5 bars"
+
+
+		}
+		break
+	case 2:
+		if(arg1 == 0)
+			return 7620, -1, "", "You will not be able to smith blurite until you have completed The Knight's Sword."
+		if(arg1 == 1)
+			return 9376, 8, "Members now have the Smithing level required to smith " + "<col=000080>" + "blurite crossbow bolts" + "</col>" + " (after the Knight's Sword).", "Blurite crossbow bolts" + "<br>" + " 1 bar makes 10"
+		if(arg1 == 2)
+			return 9422, 13, "Members now have the Smithing level required to smith " + "<col=000080>" + "blurite crossbow limbs" + "</col>" + " (after The Knight's Sword).", "Blurite crossbow limbs" + "<br>" + " 1 bar"
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1203, 15, "You can now smith " + "<col=000080>" + "iron daggers" + "</col>" + ".", "Iron dagger" + "<br>" + " 1 bar"
+
+			case 1:
+				return 1349, 16, "You can now smith " + "<col=000080>" + "iron hatchets" + "</col>" + ".", "Iron hatchet" + "<br>" + " 1 bar"
+
+			case 2:
+				return 1420, 17, "You can now smith " + "<col=000080>" + "iron maces" + "</col>" + ".", "Iron mace" + "<br>" + " 1 bar"
+
+			case 3:
+				return 7225, 17, "Members can now smith " + "<col=000080>" + "iron spits" + "</col>" + ".", "Members: Iron spit" + "<br>" + " 1 bar"
+
+			case 4:
+				return 1137, 18, "You can now smith " + "<col=000080>" + "iron helms" + "</col>" + ".", "Iron helm" + "<br>" + " 1 bar"
+
+			case 5:
+				return 9377, 18, "Members can now smith " + "<col=000080>" + "iron crossbow bolts" + "</col>" + ".", "Members: Iron crossbow bolt" + "<br>" + " 1 bar makes 10"
+
+			case 6:
+				return 1279, 19, "You can now smith " + "<col=000080>" + "iron swords" + "</col>" + ".", "Iron sword" + "<br>" + " 1 bar"
+
+			case 7:
+				return 820, 19, "Members now have the Smithing level required to smith " + "<col=000080>" + "iron dart tips" + "</col>" + " (after Tourist Trap).", "Members: Iron dart tip" + "<br>" + " (after Tourist Trap)" + "<br>" + " 1 bar makes 10"
+
+			case 8:
+				return 4820, 19, "Members can now smith " + "<col=000080>" + "iron nails" + "</col>" + ".", "Members: Iron nails" + "<br>" + " 1 bar makes 15"
+
+			case 9:
+				return 1323, 20, "You can now smith " + "<col=000080>" + "iron scimitars" + "</col>" + ".", "Iron scimitar" + "<br>" + " 2 bars"
+
+			case 10:
+				return 1239, 20, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "iron spears" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Iron spear" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 oak log"
+
+			case 11:
+				return 11369, 20, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "iron hastae" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Iron hasta" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 oak log"
+
+			case 12:
+				return 40, 20, "Members can now smith " + "<col=000080>" + "iron arrowheads" + "</col>" + ".", "Members: Iron arrowhead" + "<br>" + " 1 bar makes 15"
+
+			case 13:
+				return 1267, 20, "Members now have the Smithing level required to smith " + "<col=000080>" + "iron pickaxes" + "</col>" + " (after Perils of Ice Mountain).", "Members: Iron pickaxe" + "<br>" + " (after Perils of Ice Mountain)" + "<br>" + " 2 bars"
+
+			case 14:
+				return 1293, 21, "You can now smith " + "<col=000080>" + "iron longswords" + "</col>" + ".", "Iron longsword" + "<br>" + " 2 bars"
+
+			case 15:
+				return 1153, 22, "You can now smith " + "<col=000080>" + "iron full helms" + "</col>" + ".", "Iron full helm" + "<br>" + " 2 bars"
+
+			case 16:
+				return 863, 22, "Members can now smith " + "<col=000080>" + "iron throwing knives" + "</col>" + ".", "Members: Iron throwing knife" + "<br>" + " 1 bar makes 5"
+
+			case 17:
+				return 1175, 23, "You can now smith " + "<col=000080>" + "iron square shields" + "</col>" + ".", "Iron square shield" + "<br>" + " 2 bars"
+
+			case 18:
+				return 9423, 23, "Members can now smith " + "<col=000080>" + "iron crossbow limbs" + "</col>" + ".", "Members: Iron crossbow limbs" + "<br>" + " 1 bar"
+
+			case 19:
+				return 1335, 24, "You can now smith " + "<col=000080>" + "iron warhammers" + "</col>" + ".", "Iron warhammer" + "<br>" + " 3 bars"
+
+			case 20:
+				return 1363, 25, "You can now smith " + "<col=000080>" + "iron battleaxes" + "</col>" + ".", "Iron battleaxe" + "<br>" + " 3 bars"
+
+			case 21:
+				return 1101, 26, "You can now smith " + "<col=000080>" + "iron chainbodies" + "</col>" + ".", "Iron chainbody" + "<br>" + " 3 bars"
+
+			case 22:
+				return 4540, 26, "Members can now smith " + "<col=000080>" + "oil lantern frames" + "</col>" + ".", "Members: Oil lantern frame" + "<br>" + " 1 bar"
+
+			case 23:
+				return 1191, 27, "You can now smith " + "<col=000080>" + "iron kiteshields" + "</col>" + ".", "Iron kiteshield" + "<br>" + " 3 bars"
+
+			case 24:
+				return 3096, 28, "Members now have the Smithing level required to smith " + "<col=000080>" + "iron claws" + "</col>" + " (after Death Plateau).", "Members: Iron claws" + "<br>" + " (after Death Plateau)" + "<br>" + " 2 bars"
+
+			case 25:
+				return 1309, 29, "You can now smith " + "<col=000080>" + "iron two-handed swords" + "</col>" + ".", "Iron two-handed sword" + "<br>" + " 3 bars"
+
+			case 26:
+				return 1067, 31, "You can now smith " + "<col=000080>" + "iron platelegs" + "</col>" + ".", "Iron platelegs" + "<br>" + " 3 bars"
+
+			case 27:
+				return 1081, 31, "You can now smith " + "<col=000080>" + "iron plateskirts" + "</col>" + ".", "Iron plateskirt" + "<br>" + " 3 bars"
+
+			case 28:
+				return 1115, 33, "You can now smith " + "<col=000080>" + "iron platebodies" + "</col>" + ".", "Iron platebody" + "<br>" + " 5 bars"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1207, 30, "You can now smith " + "<col=000080>" + "steel daggers" + "</col>" + ".", "Steel dagger" + "<br>" + " 1 bar"
+
+			case 1:
+				return 1353, 31, "You can now smith " + "<col=000080>" + "steel hatchets" + "</col>" + ".", "Steel hatchet" + "<br>" + " 1 bar"
+
+			case 2:
+				return 1424, 32, "You can now smith " + "<col=000080>" + "steel maces" + "</col>" + ".", "Steel mace" + "<br>" + " 1 bar"
+
+			case 3:
+				return 1141, 33, "You can now smith " + "<col=000080>" + "steel helms" + "</col>" + ".", "Steel helm" + "<br>" + " 1 bar"
+
+			case 4:
+				return 9378, 33, "Members can now smith " + "<col=000080>" + "steel crossbow bolts" + "</col>" + ".", "Members: Steel crossbow bolt" + "<br>" + " 1 bar makes 10"
+
+			case 5:
+				return 1281, 34, "You can now smith " + "<col=000080>" + "steel swords" + "</col>" + ".", "Steel sword" + "<br>" + " 1 bar"
+
+			case 6:
+				return 1539, 34, "You can now smith " + "<col=000080>" + "steel nails" + "</col>" + ".", "Steel nails" + "<br>" + " 1 bar makes 15"
+
+			case 7:
+				return 821, 34, "Members now have the Smithing level required to smith " + "<col=000080>" + "steel dart tips" + "</col>" + " (after Tourist Trap).", "Members: Steel dart tip" + "<br>" + " (after Tourist Trap)" + "<br>" + " 1 bar makes 10"
+
+			case 8:
+				return 1325, 35, "You can now smith " + "<col=000080>" + "steel scimitars" + "</col>" + ".", "Steel scimitar" + "<br>" + " 2 bars"
+
+			case 9:
+				return 1241, 35, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "steel spears" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Steel spear" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 willow log"
+
+			case 10:
+				return 11371, 35, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "steel hastae" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Steel hasta" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 willow log"
+
+			case 11:
+				return 41, 35, "Members can now smith " + "<col=000080>" + "steel arrowheads" + "</col>" + ".", "Members: Steel arrowhead" + "<br>" + " 1 bar makes 15"
+
+			case 12:
+				return 2, 35, "Members now have the Smithing level required to smith " + "<col=000080>" + "steel cannonballs" + "</col>" + " (after Dwarf Cannon).", "Members: Cannonball" + "<br>" + " (after Dwarf Cannon)" + "<br>" + " 1 bar makes 4"
+
+			case 13:
+				return 1269, 35, "Members now have the Smithing level required to smith " + "<col=000080>" + "steel pickaxes" + "</col>" + " (after Perils of Ice Mountain).", "Members: Steel pickaxe" + "<br>" + " (after Perils of Ice Mountain)" + "<br>" + " 2 bars"
+
+			case 14:
+				return 9425, 36, "Members can now smith " + "<col=000080>" + "steel crossbow limbs" + "</col>" + ".", "Members: Steel crossbow limbs" + "<br>" + " 1 bar"
+
+			case 15:
+				return 1295, 36, "You can now smith " + "<col=000080>" + "steel longswords" + "</col>" + ".", "Steel longsword" + "<br>" + " 2 bars"
+
+			case 16:
+				return 2370, 36, "Members can now smith " + "<col=000080>" + "steel studs" + "</col>" + ".", "Members: Steel studs" + "<br>" + " 1 bar"
+
+			case 17:
+				return 1157, 37, "You can now smith " + "<col=000080>" + "steel full helms" + "</col>" + ".", "Steel full helm" + "<br>" + " 2 bars"
+
+			case 18:
+				return 865, 37, "Members can now smith " + "<col=000080>" + "steel throwing knives" + "</col>" + ".", "Members: Steel throwing knife" + "<br>" + " 1 bar makes 5"
+
+			case 19:
+				return 1177, 38, "You can now smith " + "<col=000080>" + "steel square shields" + "</col>" + ".", "Steel square shield" + "<br>" + " 2 bars"
+
+			case 20:
+				return 1339, 39, "You can now smith " + "<col=000080>" + "steel warhammers" + "</col>" + ".", "Steel warhammer" + "<br>" + " 3 bars"
+
+			case 21:
+				return 1365, 40, "You can now smith " + "<col=000080>" + "steel battleaxes" + "</col>" + ".", "Steel battleaxe" + "<br>" + " 3 bars"
+
+			case 22:
+				return 1105, 41, "You can now smith " + "<col=000080>" + "steel chainbodies" + "</col>" + ".", "Steel chainbody" + "<br>" + " 3 bars"
+
+			case 23:
+				return 1193, 42, "You can now smith " + "<col=000080>" + "steel kiteshields" + "</col>" + ".", "Steel kiteshield" + "<br>" + " 3 bars"
+
+			case 24:
+				return 3097, 43, "Members now have the Smithing level required to smith " + "<col=000080>" + "steel claws" + "</col>" + " (after Death Plateau).", "Members: Steel claws" + "<br>" + " (after Death Plateau)" + "<br>" + " 2 bars"
+
+			case 25:
+				return 1311, 44, "You can now smith " + "<col=000080>" + "steel two-handed swords" + "</col>" + ".", "Steel two-handed sword" + "<br>" + " 3 bars"
+
+			case 26:
+				return 1069, 46, "You can now smith " + "<col=000080>" + "steel platelegs" + "</col>" + ".", "Steel platelegs" + "<br>" + " 3 bars"
+
+			case 27:
+				return 1083, 46, "You can now smith " + "<col=000080>" + "steel plateskirts" + "</col>" + ".", "Steel plateskirt" + "<br>" + " 3 bars"
+
+			case 28:
+				return 1119, 48, "You can now smith " + "<col=000080>" + "steel platebodies" + "</col>" + ".", "Steel platebody" + "<br>" + " 5 bars"
+
+			case 29:
+				return 4544, 49, "Members can now smith " + "<col=000080>" + "bullseye lantern frames" + "</col>" + ".", "Members: Bullseye lantern frame" + "<br>" + " 1 bar"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1209, 50, "You can now smith " + "<col=000080>" + "mithril daggers" + "</col>" + ".", "Mithril dagger" + "<br>" + " 1 bar"
+
+			case 1:
+				return 1355, 51, "You can now smith " + "<col=000080>" + "mithril hatchets" + "</col>" + ".", "Mithril hatchet" + "<br>" + " 1 bar"
+
+			case 2:
+				return 1428, 52, "You can now smith " + "<col=000080>" + "mithril maces" + "</col>" + ".", "Mithril mace" + "<br>" + " 1 bar"
+
+			case 3:
+				return 1143, 53, "You can now smith " + "<col=000080>" + "mithril helms" + "</col>" + ".", "Mithril helm" + "<br>" + " 1 bar"
+
+			case 4:
+				return 9379, 53, "Members can now smith " + "<col=000080>" + "mithril crossbow bolts" + "</col>" + ".", "Members: Mithril crossbow bolt" + "<br>" + " 1 bar makes 10"
+
+			case 5:
+				return 1285, 54, "You can now smith " + "<col=000080>" + "mithril swords" + "</col>" + ".", "Mithril sword" + "<br>" + " 1 bar"
+
+			case 6:
+				return 822, 54, "Members now have the Smithing level required to smith " + "<col=000080>" + "mithril dart tips" + "</col>" + " (after Tourist Trap).", "Members: Mithril dart tip" + "<br>" + " (after Tourist Trap)" + "<br>" + " 1 bar makes 10"
+
+			case 7:
+				return 4822, 54, "Members can now smith " + "<col=000080>" + "mithril nails" + "</col>" + ".", "Members: Mithril nail" + "<br>" + " 1 bar makes 15"
+
+			case 8:
+				return 1329, 55, "You can now smith " + "<col=000080>" + "mithril scimitars" + "</col>" + ".", "Mithril scimitar" + "<br>" + " 2 bars"
+
+			case 9:
+				return 1243, 55, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "mithril spears" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Mithril spear" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 maple log"
+
+			case 10:
+				return 11373, 55, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "mithril hastae" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Mithril hasta" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 maple log"
+
+			case 11:
+				return 42, 55, "Members can now smith " + "<col=000080>" + "mithril arrowheads" + "</col>" + ".", "Members: Mithril arrowhead" + "<br>" + " 1 bar makes 15"
+
+			case 12:
+				return 1273, 55, "Members now have the Smithing level required to smith " + "<col=000080>" + "mithril pickaxes" + "</col>" + " (after Perils of Ice Mountain).", "Members: Mithril pickaxe" + "<br>" + " (after Perils of Ice Mountain)" + "<br>" + " 2 bars"
+
+			case 13:
+				return 9427, 56, "Members can now smith " + "<col=000080>" + "mithril crossbow limbs" + "</col>" + ".", "Members: Mithril crossbow limbs" + "<br>" + " 1 bar"
+
+			case 14:
+				return 1299, 56, "You can now smith " + "<col=000080>" + "mithril longswords" + "</col>" + ".", "Mithril longsword" + "<br>" + " 2 bars"
+
+			case 15:
+				return 1159, 57, "You can now smith " + "<col=000080>" + "mithril full helms" + "</col>" + ".", "Mithril full helm" + "<br>" + " 2 bars"
+
+			case 16:
+				return 866, 57, "Members can now smith " + "<col=000080>" + "mithril throwing knives" + "</col>" + ".", "Members: Mithril throwing knife" + "<br>" + " 1 bar makes 5"
+
+			case 17:
+				return 1181, 58, "You can now smith " + "<col=000080>" + "mithril square shields" + "</col>" + ".", "Mithril square shield" + "<br>" + " 2 bars"
+
+			case 18:
+				return 1343, 59, "You can now smith " + "<col=000080>" + "mithril warhammers" + "</col>" + ".", "Mithril warhammer" + "<br>" + " 3 bars"
+
+			case 19:
+				return 9416, 59, "Members can now smith " + "<col=000080>" + "mithril crossbow grapple tips" + "</col>" + ".", "Members: Mithril crossbow grapple tip" + "<br>" + " 1 bar"
+
+			case 20:
+				return 1369, 60, "You can now smith " + "<col=000080>" + "mithril battleaxes" + "</col>" + ".", "Mithril battleaxe" + "<br>" + " 3 bars"
+
+			case 21:
+				return 1109, 61, "You can now smith" + "<col=000080>" + " mithril chainbodies" + "</col>" + ".", "Mithril chainbody" + "<br>" + " 3 bars"
+
+			case 22:
+				return 1197, 62, "You can now smith " + "<col=000080>" + "mithril kiteshields" + "</col>" + ".", "Mithril kiteshield" + "<br>" + " 3 bars"
+
+			case 23:
+				return 3099, 63, "Members now have the Smithing level required to smith " + "<col=000080>" + "mithril claws" + "</col>" + " (after Death Plateau).", "Members: Mithril claws" + "<br>" + " (after Death Plateau)" + "<br>" + " 2 bars"
+
+			case 24:
+				return 1315, 64, "You can now smith " + "<col=000080>" + "mithril two-handed swords" + "</col>" + ".", "Mithril two-handed sword" + "<br>" + " 3 bars"
+
+			case 25:
+				return 1071, 66, "You can now smith " + "<col=000080>" + "mithril platelegs" + "</col>" + ".", "Mithril platelegs" + "<br>" + " 3 bars"
+
+			case 26:
+				return 1085, 66, "You can now smith " + "<col=000080>" + "mithril plateskirts" + "</col>" + ".", "Mithril plateskirt" + "<br>" + " 3 bars"
+
+			case 27:
+				return 1121, 68, "You can now smith " + "<col=000080>" + "mithril platebodies" + "</col>" + ".", "Mithril platebody" + "<br>" + " 5 bars"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1211, 70, "You can now smith " + "<col=000080>" + "adamant daggers" + "</col>" + ".", "Adamant dagger" + "<br>" + " 1 bar"
+
+			case 1:
+				return 1357, 71, "You can now smith " + "<col=000080>" + "adamant hatchets" + "</col>" + ".", "Adamant hatchet" + "<br>" + " 1 bar"
+
+			case 2:
+				return 1430, 72, "You can now smith " + "<col=000080>" + "adamant maces" + "</col>" + ".", "Adamant mace" + "<br>" + " 1 bar"
+
+			case 3:
+				return 1145, 73, "You can now smith " + "<col=000080>" + "adamant helms" + "</col>" + ".", "Adamant helm" + "<br>" + " 1 bar"
+
+			case 4:
+				return 9380, 73, "Members can now smith " + "<col=000080>" + "adamant crossbow bolts" + "</col>" + ".", "Members: Adamant crossbow bolt" + "<br>" + " 1 bar makes 10"
+
+			case 5:
+				return 1287, 74, "You can now smith " + "<col=000080>" + "adamant swords" + "</col>" + ".", "Adamant sword" + "<br>" + " 1 bar"
+
+			case 6:
+				return 823, 74, "Members now have the Smithing level required to smith " + "<col=000080>" + "adamant dart tips" + "</col>" + " (after Tourist Trap).", "Members: Adamant dart tip" + "<br>" + " (after Tourist Trap)" + "<br>" + " 1 bar makes 10"
+
+			case 7:
+				return 4823, 74, "Members can now smith " + "<col=000080>" + "adamant nails" + "</col>" + ".", "Members: Adamant nail" + "<br>" + " 1 bar makes 15"
+
+			case 8:
+				return 1331, 75, "You can now smith " + "<col=000080>" + "adamant scimitars" + "</col>" + ".", "Adamant scimitar" + "<br>" + " 2 bars"
+
+			case 9:
+				return 1245, 75, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "adamant spears" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Adamant spear" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 yew log"
+
+			case 10:
+				return 11375, 75, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "adamant hastae" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Adamant hasta" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 yew log"
+
+			case 11:
+				return 43, 75, "Members can now smith " + "<col=000080>" + "adamant arrowheads" + "</col>" + ".", "Members: Adamant arrowhead" + "<br>" + " 1 bar makes 15"
+
+			case 12:
+				return 1271, 75, "Members now have the Smithing level required to smith " + "<col=000080>" + "adamant pickaxes" + "</col>" + " (after Perils of Ice Mountain).", "Members: Adamant pickaxe" + "<br>" + " (after Perils of Ice Mountain)" + "<br>" + " 2 bars"
+
+			case 13:
+				return 9429, 76, "Members can now smith " + "<col=000080>" + "adamant crossbow limbs" + "</col>" + ".", "Members: Adamant crossbow limbs" + "<br>" + " 1 bar"
+
+			case 14:
+				return 1301, 76, "You can now smith " + "<col=000080>" + "adamant longswords" + "</col>" + ".", "Adamant longsword" + "<br>" + " 2 bars"
+
+			case 15:
+				return 1161, 77, "You can now smith " + "<col=000080>" + "adamant full helms" + "</col>" + ".", "Adamant full helm" + "<br>" + " 2 bars"
+
+			case 16:
+				return 867, 77, "Members can now smith " + "<col=000080>" + "adamant throwing knives" + "</col>" + ".", "Member: Adamant throwing knives" + "<br>" + " 1 bar makes 5"
+
+			case 17:
+				return 1183, 78, "You can now smith " + "<col=000080>" + "adamant square shields" + "</col>" + ".", "Adamant square shield" + "<br>" + " 2 bars"
+
+			case 18:
+				return 1345, 79, "You can now smith " + "<col=000080>" + "adamant warhammers" + "</col>" + ".", "Adamant warhammer" + "<br>" + " 3 bars"
+
+			case 19:
+				return 1371, 80, "You can now smith " + "<col=000080>" + "adamant battleaxes" + "</col>" + ".", "Adamant battleaxe" + "<br>" + " 3 bars"
+
+			case 20:
+				return 1111, 81, "You can now smith " + "<col=000080>" + "adamant chainbodies" + "</col>" + ".", "Adamant chainbody" + "<br>" + " 3 bars"
+
+			case 21:
+				return 1199, 82, "You can now smith " + "<col=000080>" + "adamant kiteshields" + "</col>" + ".", "Adamant kiteshield" + "<br>" + " 3 bars"
+
+			case 22:
+				return 3100, 83, "Members now have the Smithing level required to smith " + "<col=000080>" + "adamant claws" + "</col>" + " (after Death Plateau).", "Members: Adamant claws" + "<br>" + " (after Death Plateau)" + "<br>" + " 2 bars"
+
+			case 23:
+				return 1317, 84, "You can now smith " + "<col=000080>" + "adamant two-handed swords" + "</col>" + ".", "Adamant two-handed sword" + "<br>" + " 3 bars"
+
+			case 24:
+				return 1073, 86, "You can now smith " + "<col=000080>" + "adamant platelegs" + "</col>" + ".", "Adamant platelegs" + "<br>" + " 3 bars"
+
+			case 25:
+				return 1091, 86, "You can now smith " + "<col=000080>" + "adamant plateskirts" + "</col>" + ".", "Adamant plateskirt" + "<br>" + " 3 bars"
+
+			case 26:
+				return 1123, 88, "You can now smith " + "<col=000080>" + "adamant platebodies" + "</col>" + ".", "Adamant platebody" + "<br>" + " 5 bars"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1213, 85, "You can now smith " + "<col=000080>" + "rune daggers" + "</col>" + ".", "Rune dagger" + "<br>" + " 1 bar"
+
+			case 1:
+				return 1359, 86, "You can now smith " + "<col=000080>" + "rune hatchets" + "</col>" + ".", "Rune hatchet" + "<br>" + " 1 bar"
+
+			case 2:
+				return 1432, 87, "You can now smith " + "<col=000080>" + "rune maces" + "</col>" + ".", "Rune mace" + "<br>" + " 1 bar"
+
+			case 3:
+				return 1147, 88, "You can now smith " + "<col=000080>" + "rune helms" + "</col>" + ".", "Rune helm" + "<br>" + " 1 bar"
+
+			case 4:
+				return 9381, 88, "Members can now smith " + "<col=000080>" + "rune crossbow bolts" + "</col>" + ".", "Members: Rune crossbow bolt" + "<br>" + " 1 bar makes 10"
+
+			case 5:
+				return 1289, 89, "You can now smith " + "<col=000080>" + "rune swords" + "</col>" + ".", "Rune sword" + "<br>" + " 1 bar"
+
+			case 6:
+				return 824, 89, "Members now have the Smithing level required to smith " + "<col=000080>" + "rune dart tips" + "</col>" + " (after Tourist Trap).", "Members: Rune dart tip " + "<br>" + " (after Tourist Trap)" + "<br>" + " 1 bar makes 10"
+
+			case 7:
+				return 4824, 89, "Members can now smith " + "<col=000080>" + "rune nails" + "</col>" + ".", "Members: Rune nails" + "<br>" + " 1 bar makes 15"
+
+			case 8:
+				return 1333, 90, "You can now smith " + "<col=000080>" + "rune scimitars" + "</col>" + ".", "Rune scimitar" + "<br>" + " 2 bars"
+
+			case 9:
+				return 1247, 90, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "rune spears" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Rune spear" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 magic log"
+
+			case 10:
+				return 11377, 90, "Members who are versed in the art of barbarian smithing now have the Smithing level required to smith " + "<col=000080>" + "rune hastae" + "</col>" + " (after Tai Bwo Wannai Trio).", "Members: Rune hasta" + "<br>" + " (after Tai Bwo Wannai Trio and learning barbarian smithing)" + "<br>" + " 1 bar, 1 magic log"
+
+			case 11:
+				return 44, 90, "Members can now smith " + "<col=000080>" + "rune arrowheads" + "</col>" + ".", "Members: Rune arrowhead" + "<br>" + " 1 bar makes 15"
+
+			case 12:
+				return 1275, 90, "Members now have the Smithing level required to smith " + "<col=000080>" + "rune pickaxes" + "</col>" + " (after Perils of Ice Mountain).", "Members: Rune pickaxe" + "<br>" + " (after Perils of Ice Mountain)" + "<br>" + " 2 bars"
+
+			case 13:
+				return 9431, 91, "Members can now smith " + "<col=000080>" + "rune crossbow limbs" + "</col>" + ".", "Members: Rune crossbow limbs" + "<br>" + " 1 bar"
+
+			case 14:
+				return 1303, 91, "You can now smith " + "<col=000080>" + "rune longswords" + "</col>" + ".", "Rune longsword" + "<br>" + " 2 bars"
+
+			case 15:
+				return 1163, 92, "You can now smith " + "<col=000080>" + "rune full helms" + "</col>" + ".", "Rune full helm" + "<br>" + " 2 bars"
+
+			case 16:
+				return 868, 92, "Members can now smith " + "<col=000080>" + "rune throwing knives" + "</col>" + ".", "Members: Rune throwing knife" + "<br>" + " 1 bar makes 5"
+
+			case 17:
+				return 1185, 93, "You can now smith " + "<col=000080>" + "rune square shields" + "</col>" + ".", "Rune square shield" + "<br>" + " 2 bars"
+
+			case 18:
+				return 1347, 94, "You can now smith " + "<col=000080>" + "rune warhammers" + "</col>" + ".", "Rune warhammer" + "<br>" + " 3 bars"
+
+			case 19:
+				return 1373, 95, "You can now smith " + "<col=000080>" + "rune battleaxes" + "</col>" + ".", "Rune battleaxe" + "<br>" + " 3 bars"
+
+			case 20:
+				return 1113, 96, "You can now smith " + "<col=000080>" + "rune chainbodies" + "</col>" + ".", "Rune chainbody" + "<br>" + " 3 bars"
+
+			case 21:
+				return 1201, 97, "You can now smith " + "<col=000080>" + "rune kiteshields" + "</col>" + ".", "Rune kiteshield" + "<br>" + " 3 bars"
+
+			case 22:
+				return 3101, 98, "Members now have the Smithing level required to smith " + "<col=000080>" + "rune claws" + "</col>" + " (after Death Plateau).", "Members: Rune claws" + "<br>" + " (after Death Plateau)" + "<br>" + " 2 bars"
+
+			case 23:
+				return 1319, 99, "You can now smith " + "<col=000080>" + "rune two-handed swords" + "</col>" + ".", "Rune two-handed sword" + "<br>" + " 3 bars"
+
+			case 24:
+				return 1079, 99, "You can now smith " + "<col=000080>" + "rune platelegs" + "</col>" + ".", "Rune platelegs" + "<br>" + " 3 bars"
+
+			case 25:
+				return 1093, 99, "You can now smith " + "<col=000080>" + "rune plateskirts" + "</col>" + ".", "Rune plateskirt" + "<br>" + " 3 bars"
+
+			case 26:
+				return 1127, 99, "You can now smith " + "<col=000080>" + "rune platebodies" + "</col>" + ".", "Rune platebody" + "<br>" + " 5 bars"
+
+
+		}
+		break
+	case 8:
+		if(arg1 == 0)
+			return 721, 50, "Members now have the Smithing level required to smith " + "<col=000080>" + "gold bowls" + "</col>" + " (after starting Legends' Quest).", "Members: Gold bowl" + "<br>" + " (after starting Legends' Quest)"
+		if(arg1 == 1)
+			return 4567, 50, "Members now have the Smithing level required to smith " + "<col=000080>" + "gold helmets" + "</col>" + " (after starting Between a Rock...).", "Members: Gold helmet" + "<br>" + " (after starting Between a Rock...)"
+		break
+	case 9:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2890, 20, "Members now have the Smithing level required to smith " + "<col=000080>" + "elemental shields" + "</col>" + " (after Elemental Workshop I).", "Members: Elemental shield" + "<br>" + " (after Elemental Workshop I)"
+
+			case 1:
+				return 9729, 30, "Members now have the Smithing level required to smith " + "<col=000080>" + "elemental helms" + "</col>" + " (after Elemental Workshop II).", "Members: Elemental helmet" + "<br>" + " (after Elemental Workshop II)"
+
+			case 2:
+				return 9731, 30, "Members now have the Smithing level required to smith " + "<col=000080>" + "mind shields" + "</col>" + " (after Elemental Workshop II).", "Members: Mind shield" + "<br>" + " (after Elemental Workshop II)"
+
+			case 3:
+				return 9733, 30, "Members now have the Smithing level required to smith " + "<col=000080>" + "mind helmets" + "</col>" + " (after Elemental Workshop II).", "Members: Mind helmet" + "<br>" + " (after Elemental Workshop II)"
+
+			case 4:
+				return 18691, 33, "Members now have the Smithing level required to smith " + "<col=000080>" + "body shields" + "</col>" + " (after Elemental Workshop III).", "Members: Body shield" + "<br>" + " (after Elemental Workshop III)"
+
+			case 5:
+				return 18693, 33, "Members now have the Smithing level required to smith " + "<col=000080>" + "body helmets" + "</col>" + " (after Elemental Workshop III).", "Members: Body helmet" + "<br>" + " (after Elemental Workshop III)"
+
+			case 6:
+				return 18699, 33, "Members now have the Smithing level required to smith " + "<col=000080>" + "elemental bodies" + "</col>" + " (after Elemental Workshop III).", "Members: Elemental body" + "<br>" + " (after Elemental Workshop III)"
+
+			case 7:
+				return 18697, 33, "Members now have the Smithing level required to smith " + "<col=000080>" + "mind bodies" + "</col>" + " (after Elemental Workshop III).", "Members: Mind body" + "<br>" + " (after Elemental Workshop III)"
+
+			case 8:
+				return 18695, 33, "Members now have the Smithing level required to smith " + "<col=000080>" + "body bodies" + "</col>" + " (after Elemental Workshop III).", "Members: Body body" + "<br>" + " (after Elemental Workshop III)"
+
+			case 9:
+				return 20458, 38, "Members now have the Smithing level required to smith " + "<col=000080>" + "elemental gloves" + "</col>" + " (after Elemental Workshop IV).", "Members: Elemental gloves" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 10:
+				return 20460, 38, "Members now have the Smithing level required to smith " + "<col=000080>" + "mind gloves" + "</col>" + " (after Elemental Workshop IV).", "Members: Mind gloves" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 11:
+				return 20462, 38, "Members now have the Smithing level required to smith " + "<col=000080>" + "body gloves" + "</col>" + " (after Elemental Workshop IV).", "Members: Body gloves" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 12:
+				return 20436, 38, "Members now have the Smithing level required to smith " + "<col=000080>" + "cosmic shields" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic shield" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 13:
+				return 20440, 38, "Members now have the Smithing level required to smith " + "<col=000080>" + "cosmic helmets" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic helmet" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 14:
+				return 20444, 38, "Members now have the Smithing level required to smith " + "<col=000080>" + "cosmic bodies" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic body" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 15:
+				return 20464, 38, "Members now have the Smithing level required to smith " + "<col=000080>" + "cosmic gloves" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic gloves" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 16:
+				return 20448, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "elemental boots" + "</col>" + " (after Elemental Workshop IV).", "Members: Elemental boots" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 17:
+				return 20450, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "mind boots" + "</col>" + " (after Elemental Workshop IV).", "Members: Mind boots" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 18:
+				return 20452, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "body boots" + "</col>" + " (after Elemental Workshop IV).", "Members: Body boots" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 19:
+				return 20454, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "cosmic boots" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic boots" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 20:
+				return 20438, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "chaos shields" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos shield" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 21:
+				return 20442, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "chaos helmets" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos helmet" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 22:
+				return 20446, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "chaos bodies" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos body" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 23:
+				return 20466, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "chaos gloves" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos gloves" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 24:
+				return 20456, 42, "Members now have the Smithing level required to smith " + "<col=000080>" + "chaos boots" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos boots" + "<br>" + " (after Elemental Workshop IV)"
+
+
+		}
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21823, 80, "Members now have the Smithing level required to smith " + "<col=000080>" + "dragonbane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Dragonbane arrowheads (after Ritual of the Mahjarrat)"
+
+			case 1:
+				return 21828, 80, "Members now have the Smithing level required to smith " + "<col=000080>" + "wallasalkibane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Wallasalkibane arrowheads (after Ritual of the Mahjarrat)"
+
+			case 2:
+				return 21833, 80, "Members now have the Smithing level required to smith " + "<col=000080>" + "basiliskbane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Basiliskbane arrowheads (after Ritual of the Mahjarrat)"
+
+			case 3:
+				return 21838, 80, "Members now have the Smithing level required to smith " + "<col=000080>" + "abyssalbane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Abyssalbane arrowheads (after Ritual of the Mahjarrat)"
+
+			case 4:
+				return 21843, 82, "Members now have the Smithing level required to smith " + "<col=000080>" + "dragonbane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Dragonbane bolts (unf) (after Ritual of the Mahjarrat)"
+
+			case 5:
+				return 21853, 82, "Members now have the Smithing level required to smith " + "<col=000080>" + "wallasalkibane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Wallasalkibane bolts (unf) (after Ritual of the Mahjarrat)"
+
+			case 6:
+				return 21848, 82, "Members now have the Smithing level required to smith " + "<col=000080>" + "basiliskbane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Basiliskbane bolts (unf) (after Ritual of the Mahjarrat)"
+
+			case 7:
+				return 21858, 82, "Members now have the Smithing level required to smith " + "<col=000080>" + "abyssalbane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Abyssalbane bolts (unf) (after Ritual of the Mahjarrat)"
+
+
+		}
+		break
+	case 11:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 20506, 1, "You can now smith " + "<col=000080>" + "bronze rails" + "</col>" + ".", "Bronze rails"
+
+			case 1:
+				return 20507, 2, "You can now smith " + "<col=000080>" + "bronze base plates" + "</col>" + ".", "Bronze base plate"
+
+			case 2:
+				return 20511, 3, "You can now combine bronze rails with bronze base plates to make " + "<col=000080>" + "bronze track (40% complete)" + "</col>" + ".", "Bronze track (40% complete)"
+
+			case 3:
+				return 20508, 5, "You can now smith " + "<col=000080>" + "bronze spikes" + "</col>" + ".", "Bronze spikes"
+
+			case 4:
+				return 20512, 6, "You can now combine bronze track (40% complete) with bronze spikes to make " + "<col=000080>" + "bronze track (60% complete)" + "</col>" + ".", "Bronze track (60% complete)"
+
+			case 5:
+				return 20509, 8, "You can now smith " + "<col=000080>" + "bronze joints" + "</col>" + ".", "Bronze joint"
+
+			case 6:
+				return 20513, 9, "You can now combine bronze track (60% complete) with a bronze joint to make " + "<col=000080>" + "bronze track (80% complete)" + "</col>" + ".", "Bronze track (80% complete)"
+
+			case 7:
+				return 20510, 11, "You can now smith " + "<col=000080>" + "bronze ties" + "</col>" + ".", "Bronze ties"
+
+			case 8:
+				return 20514, 12, "You can now combine bronze track (80% complete) with bronze ties to make " + "<col=000080>" + "bronze track (100% complete)" + "</col>" + ".", "Bronze track (100% complete)"
+
+			case 9:
+				return 20515, 15, "You can now smith " + "<col=000080>" + "iron rails" + "</col>" + ".", "Iron rails"
+
+			case 10:
+				return 20516, 19, "You can now smith " + "<col=000080>" + "iron base plates" + "</col>" + ".", "Iron base plate"
+
+			case 11:
+				return 20525, 20, "You can now combine iron rails with iron base plates to make " + "<col=000080>" + "iron track (40% complete)" + "</col>" + ".", "Iron track (40% complete)"
+
+			case 12:
+				return 20517, 24, "You can now smith " + "<col=000080>" + "iron spikes" + "</col>" + ".", "Iron spikes"
+
+			case 13:
+				return 20526, 25, "You can now combine iron track (40% complete) with iron spikes to make " + "<col=000080>" + "iron track (60% complete)" + "</col>" + ".", "Iron track (60% complete)"
+
+			case 14:
+				return 20518, 29, "You can now smith " + "<col=000080>" + "iron joints" + "</col>" + ".", "Iron joint"
+
+			case 15:
+				return 20572, 30, "You can now smith iron burial armour for miners, warriors and smiths.", "Iron burial armour"
+
+			case 16:
+				return 20527, 30, "You can now combine iron track (60% complete) with an iron joint to make " + "<col=000080>" + "iron track (80% complete)" + "</col>" + ".", "Iron track (80% complete)"
+
+			case 17:
+				return 20519, 34, "You can now smith " + "<col=000080>" + "iron ties" + "</col>" + ".", "Iron ties"
+
+			case 18:
+				return 20528, 35, "You can now combine iron track (80% complete) with iron ties to make " + "<col=000080>" + "iron track (100% complete)" + "</col>" + ".", "Iron track (100% complete)"
+
+			case 19:
+				return 20520, 39, "Members can now smith " + "<col=000080>" + "steel rails" + "</col>" + ".", "Members: Steel rails"
+
+			case 20:
+				return 20521, 44, "Members can now smith " + "<col=000080>" + "steel base plates" + "</col>" + ".", "Members: Steel base plate"
+
+			case 21:
+				return 20573, 45, "You can now smith steel burial armour for miners, warriors and smiths.", "Steel burial armour"
+
+			case 22:
+				return 20529, 45, "Members can now combine steel rails with steel base plates to make " + "<col=000080>" + "steel track (40% complete)" + "</col>" + ".", "Members: Steel track (40% complete)"
+
+			case 23:
+				return 20522, 49, "Members can now smith " + "<col=000080>" + "steel spikes" + "</col>" + ".", "Members: Steel spikes"
+
+			case 24:
+				return 2347, 50, "Members can now fix burst pipes in the Artisans Workshop.", "Members: Fix pipes"
+
+			case 25:
+				return 20530, 50, "Members can now combine steel track (40% complete) with steel spikes to make " + "<col=000080>" + "steel track (60% complete)" + "</col>" + ".", "Members: Steel track (60% complete)"
+
+			case 26:
+				return 20523, 54, "Members can now smith " + "<col=000080>" + "steel joints" + "</col>" + ".", "Members: Steel joint"
+
+			case 27:
+				return 20531, 55, "Members can now combine steel track (60% complete) with a steel joint to make " + "<col=000080>" + "steel track (80% complete)" + "</col>" + ".", "Members: Steel track (80% complete)"
+
+			case 28:
+				return 20524, 59, "Members can now smith " + "<col=000080>" + "steel ties" + "</col>" + ".", "Members: Steel ties"
+
+			case 29:
+				return 20574, 60, "Members can now smith mithril burial armour for miners, warriors and smiths.", "Members: Mithril burial armour"
+
+			case 30:
+				return 20532, 60, "Members can now combine steel track (80% complete) with steel ties to make " + "<col=000080>" + "steel track (100% complete)" + "</col>" + ".", "Members: Steel track (100% complete)"
+
+			case 31:
+				return 20480, 62, "Members can now repair cannons in the cannon repair workshop.", "Members: Cannon repair"
+
+			case 32:
+				return 20560, 70, "Members can now smith iron ceremonial swords.", "Members: Iron ceremonial swords"
+
+			case 33:
+				return 20575, 70, "Members can now smith adamant burial armour for miners, warriors and smiths.", "Members: Adamant burial armour"
+
+			case 34:
+				return 20561, 75, "Members can now smith steel ceremonial swords.", "Members: Steel ceremonial swords"
+
+			case 35:
+				return 2347, 78, "Members will now smith ceremonial swords more precisely, hitting fewer 0s and generally being more precise.", "Members: Greater precision"
+
+			case 36:
+				return 20562, 80, "Members can now smith mithril ceremonial swords.", "Members: Mithril ceremonial swords"
+
+			case 37:
+				return 2347, 83, "Members will now smith ceremonial swords more precisely, hitting fewer 0s and generally being more precise.", "Members: Greater precision"
+
+			case 38:
+				return 20563, 85, "Members can now smith adamant ceremonial swords.", "Members: Adamant ceremonial swords"
+
+			case 39:
+				return 2347, 88, "Members will now smith ceremonial swords more precisely, hitting fewer 0s and generally being more precise.", "Members: Greater precision"
+
+			case 40:
+				return 20576, 90, "Members can now smith rune burial armour for miners, warriors and smiths.", "Members: Rune burial armour"
+
+			case 41:
+				return 20564, 90, "Members can now smith rune ceremonial swords", "Members: Rune ceremonial swords"
+
+			case 42:
+				return 2347, 93, "Members will now smith ceremonial swords more precisely, hitting fewer 0s and generally being more precise.", "Members: Greater precision"
+
+			case 43:
+				return 2347, 97, "Members will now smith ceremonial swords more precisely, hitting fewer 0s and generally being more precise.", "Members: Greater precision"
+
+			case 44:
+				return 2347, 99, "Members will now smith ceremonial swords more precisely, hitting fewer 0s and generally being more precise.", "Members: Greater precision"
+
+
+		}
+		break
+	case 12:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 19670, 55, "You can now use " + "<col=000080>" + "scrolls of efficiency" + "</col>" + ". (You also need level 55 Dungeoneering.)", "Scroll of efficiency" + "<br>" + " (with 55 Dungeoneering)"
+
+			case 1:
+				return 1187, 60, "Members can now make " + "<col=000080>" + "dragon square shields" + "</col>" + ".", "Members: Dragon square shield"
+
+			case 2:
+				return 11690, 80, "Members can now make " + "<col=000080>" + "godsword blades" + "</col>" + ".", "Members: Godsword blade"
+
+			case 3:
+				return 13746, 85, "Members can now create " + "<col=000080>" + "arcane spirit shields" + "</col>" + " (after Summer's End, with level 90 Prayer).", "Members: Arcane spirit shields" + "<br>" + " (after Summer's End and with 90 Prayer)"
+
+			case 4:
+				return 13748, 85, "Members can now create " + "<col=000080>" + "divine spirit shields" + "</col>" + " (after Summer's End, with level 90 Prayer).", "Members: Divine spirit shields" + "<br>" + " (after Summer's End and with 90 Prayer)"
+
+			case 5:
+				return 13750, 85, "Members can now create " + "<col=000080>" + "elysian spirit shields" + "</col>" + " (after Summer's End, with level 90 Prayer).", "Members: Elysian spirit shields" + "<br>" + " (after Summer's End and with 90 Prayer)"
+
+			case 6:
+				return 13752, 85, "Members can now create " + "<col=000080>" + "spectral spirit shields" + "</col>" + " (after Summer's End, with level 90 Prayer).", "Members: Spectral spirit shields" + "<br>" + " (after Summer's End and with 90 Prayer)"
+
+			case 7:
+				return 11283, 90, "Members can now make " + "<col=000080>" + "dragonfire shields" + "</col>" + " from anti-dragonbreath shields and draconic visages.", "Members: Dragonfire shield"
+
+			case 8:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Smithing.", "Members: Starved ancient effigies"
+
+			case 9:
+				return 14479, 92, "Members can now repair " + "<col=000080>" + "dragon platebodies" + "</col>" + " (after While Guthix Sleeps).", "Members: Repair dragon platebody"
+
+			case 10:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Smithing.", "Members: Nourished ancient effigies"
+
+			case 11:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Smithing.", "Members: Sated ancient effigies"
+
+			case 12:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Smithing.", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 13:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14297, 1, "Members can now make " + "<col=000080>" + "class 1 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 dagger"
+
+			case 1:
+				return 14132, 1, "Members can now make " + "<col=000080>" + "class 1 hatchets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 hatchet"
+
+			case 2:
+				return 14367, 1, "Members can now make " + "<col=000080>" + "class 1 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 helmet"
+
+			case 3:
+				return 14287, 1, "Members can now make " + "<col=000080>" + "class 1 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 scimitar"
+
+			case 4:
+				return 14122, 1, "Members can now make " + "<col=000080>" + "class 1 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 pickaxe"
+
+			case 5:
+				return 14307, 1, "Members can now make " + "<col=000080>" + "class 1 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 warhammer"
+
+			case 6:
+				return 14357, 1, "Members can now make " + "<col=000080>" + "class 1 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 platelegs"
+
+			case 7:
+				return 14347, 1, "Members can now make " + "<col=000080>" + "class 1 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 platebody"
+
+			case 8:
+				return 14299, 20, "Members can now make " + "<col=000080>" + "class 2 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 dagger"
+
+			case 9:
+				return 14134, 20, "Members can now make " + "<col=000080>" + "class 2 hatchets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 hatchet"
+
+			case 10:
+				return 14369, 20, "Members can now make " + "<col=000080>" + "class 2 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 helmet"
+
+			case 11:
+				return 14289, 20, "Members can now make " + "<col=000080>" + "class 2 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 scimitar"
+
+			case 12:
+				return 14124, 20, "Members can now make " + "<col=000080>" + "class 2 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 pickaxe"
+
+			case 13:
+				return 14309, 20, "Members can now make " + "<col=000080>" + "class 2 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 warhammer"
+
+			case 14:
+				return 14359, 20, "Members can now make " + "<col=000080>" + "class 2 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 platelegs"
+
+			case 15:
+				return 14349, 20, "Members can now make " + "<col=000080>" + "class 2 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 platebody"
+
+			case 16:
+				return 14301, 40, "Members can now make " + "<col=000080>" + "class 3 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 dagger"
+
+			case 17:
+				return 14136, 40, "Members can now make " + "<col=000080>" + "class 3 hatchets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 hatchet"
+
+			case 18:
+				return 14371, 40, "Members can now make " + "<col=000080>" + "class 3 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 helmet"
+
+			case 19:
+				return 14291, 40, "Members can now make " + "<col=000080>" + "class 3 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 scimitar"
+
+			case 20:
+				return 14126, 40, "Members can now make " + "<col=000080>" + "class 3 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 pickaxe"
+
+			case 21:
+				return 14311, 40, "Members can now make " + "<col=000080>" + "class 3 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 warhammer"
+
+			case 22:
+				return 14361, 40, "Members can now make " + "<col=000080>" + "class 3 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 platelegs"
+
+			case 23:
+				return 14351, 40, "Members can now make " + "<col=000080>" + "class 3 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 platebody"
+
+			case 24:
+				return 13256, 60, "Members can now use the " + "<col=000080>" + "anvils" + "</col>" + " at the Blast Furnace.", "Members: Blast Furnace - Anvils"
+
+			case 25:
+				return 14303, 60, "Members can now make " + "<col=000080>" + "class 4 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 dagger"
+
+			case 26:
+				return 14138, 60, "Members can now make " + "<col=000080>" + "class 4 hatchets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 hatchet"
+
+			case 27:
+				return 14373, 60, "Members can now make " + "<col=000080>" + "class 4 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 helmet"
+
+			case 28:
+				return 14293, 60, "Members can now make " + "<col=000080>" + "class 4 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 scimitar"
+
+			case 29:
+				return 14128, 60, "Members can now make " + "<col=000080>" + "class 4 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 pickaxe"
+
+			case 30:
+				return 14313, 60, "Members can now make " + "<col=000080>" + "class 4 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 warhammer"
+
+			case 31:
+				return 14363, 60, "Members can now make " + "<col=000080>" + "class 4 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 platelegs"
+
+			case 32:
+				return 14353, 60, "Members can now make " + "<col=000080>" + "class 4 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 platebody"
+
+			case 33:
+				return 14305, 80, "Members can now make " + "<col=000080>" + "class 5 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 dagger"
+
+			case 34:
+				return 14140, 80, "Members can now make " + "<col=000080>" + "class 5 hatchets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 hatchet"
+
+			case 35:
+				return 14375, 80, "Members can now make " + "<col=000080>" + "class 5 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 helmet"
+
+			case 36:
+				return 14295, 80, "Members can now make " + "<col=000080>" + "class 5 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 scimitar"
+
+			case 37:
+				return 14130, 80, "Members can now make " + "<col=000080>" + "class 5 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 pickaxe"
+
+			case 38:
+				return 14315, 80, "Members can now make " + "<col=000080>" + "class 5 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 warhammer"
+
+			case 39:
+				return 14365, 80, "Members can now make " + "<col=000080>" + "class 5 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 platelegs"
+
+			case 40:
+				return 14355, 80, "Members can now make " + "<col=000080>" + "class 5 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 platebody"
+
+
+		}
+		break
+	case 14:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Smithing level increases, you will be able to attempt higher-level smithing tasks within Daemonheim. You will also be more likely to succeed when attempting smithing tasks within Daemonheim."
+
+			case 1:
+				return 17650, 1, "You can now smelt " + "<col=000080>" + "novite" + "</col>" + " within Daemonheim.", "Novite (Tier 1)"
+
+			case 2:
+				return 17885, 1, "You can now smith " + "<col=000080>" + "novite arrowheads" + "</col>" + " within Daemonheim.", "Novite arrowheads (Tier 1) (20)" + "<br>" + " 1 bar"
+
+			case 3:
+				return 16757, 1, "You can now smith " + "<col=000080>" + "novite daggers" + "</col>" + " within Daemonheim.", "Novite dagger (Tier 1)" + "<br>" + " 1 bar"
+
+			case 4:
+				return 16339, 1, "You can now smith " + "<col=000080>" + "novite boots" + "</col>" + " within Daemonheim.", "Novite boots (Tier 1)" + "<br>" + " 1 bar"
+
+			case 5:
+				return 16273, 1, "You can now smith " + "<col=000080>" + "novite gauntlets" + "</col>" + " within Daemonheim.", "Novite gauntlets (Tier 1)" + "<br>" + " 1 bar"
+
+			case 6:
+				return 16361, 2, "You can now smith " + "<col=000080>" + "novite hatchets" + "</col>" + " within Daemonheim.", "Novite hatchet (Tier 1)" + "<br>" + " 1 bar"
+
+			case 7:
+				return 16295, 2, "You can now smith " + "<col=000080>" + "novite pickaxes" + "</col>" + " within Daemonheim.", "Novite pickaxe (Tier 1)" + "<br>" + " 1 bar"
+
+			case 8:
+				return 17019, 3, "You can now smith " + "<col=000080>" + "novite warhammers" + "</col>" + " within Daemonheim.", "Novite warhammer (Tier 1)" + "<br>" + " 2 bars"
+
+			case 9:
+				return 16935, 3, "You can now smith " + "<col=000080>" + "novite rapiers" + "</col>" + " within Daemonheim.", "Novite rapier (Tier 1)" + "<br>" + " 2 bars"
+
+			case 10:
+				return 16383, 4, "You can now smith " + "<col=000080>" + "novite longswords" + "</col>" + " within Daemonheim.", "Novite longsword (Tier 1)" + "<br>" + " 2 bars"
+
+			case 11:
+				return 16691, 5, "You can now smith " + "<col=000080>" + "novite full helms" + "</col>" + " within Daemonheim.", "Novite full helm (Tier 1)" + "<br>" + " 2 bars"
+
+			case 12:
+				return 15753, 5, "You can now smith " + "<col=000080>" + "novite battleaxes" + "</col>" + " within Daemonheim.", "Novite battleaxe (Tier 1)" + "<br>" + " 2 bars"
+
+			case 13:
+				return 17341, 6, "You can now smith " + "<col=000080>" + "novite kiteshields" + "</col>" + " within Daemonheim.", "Novite kiteshield (Tier 1)" + "<br>" + " 3 bars"
+
+			case 14:
+				return 16713, 6, "You can now smith " + "<col=000080>" + "novite chainbodies" + "</col>" + " within Daemonheim.", "Novite chainbody (Tier 1)" + "<br>" + " 3 bars"
+
+			case 15:
+				return 16669, 7, "You can now smith " + "<col=000080>" + "novite platelegs" + "</col>" + " within Daemonheim.", "Novite platelegs (Tier 1)" + "<br>" + " 3 bars"
+
+			case 16:
+				return 16647, 7, "You can now smith " + "<col=000080>" + "novite plateskirts" + "</col>" + " within Daemonheim.", "Novite plateskirt (Tier 1)" + "<br>" + " 3 bars"
+
+			case 17:
+				return 17063, 7, "You can now smith " + "<col=000080>" + "novite spears" + "</col>" + " within Daemonheim.", "Novite spear (Tier 1)" + "<br>" + " 4 bars"
+
+			case 18:
+				return 16405, 8, "You can now smith " + "<col=000080>" + "novite mauls" + "</col>" + " within Daemonheim.", "Novite maul (Tier 1)" + "<br>" + " 4 bars"
+
+			case 19:
+				return 16889, 8, "You can now smith " + "<col=000080>" + "novite 2h swords" + "</col>" + " within Daemonheim.", "Novite 2h sword (Tier 1)" + "<br>" + " 4 bars"
+
+			case 20:
+				return 17239, 9, "You can now smith " + "<col=000080>" + "novite platebodies" + "</col>" + " within Daemonheim.", "Novite platebody (Tier 1)" + "<br>" + " 5 bars"
+
+			case 21:
+				return 17652, 10, "You can now smelt " + "<col=000080>" + "bathus" + "</col>" + " within Daemonheim.", "Bathus (Tier 2)"
+
+			case 22:
+				return 17890, 10, "You can now smith " + "<col=000080>" + "bathus arrowheads" + "</col>" + " within Daemonheim.", "Bathus arrowheads (Tier 2) (20)" + "<br>" + " 1 bar"
+
+			case 23:
+				return 16765, 10, "You can now smith " + "<col=000080>" + "bathus daggers" + "</col>" + " within Daemonheim.", "Bathus dagger (Tier 2)" + "<br>" + " 1 bar"
+
+			case 24:
+				return 16341, 11, "You can now smith " + "<col=000080>" + "bathus boots" + "</col>" + " within Daemonheim.", "Bathus boots (Tier 2)" + "<br>" + " 1 bar"
+
+			case 25:
+				return 16275, 11, "You can now smith " + "<col=000080>" + "bathus gauntlets" + "</col>" + " within Daemonheim.", "Bathus gauntlets (Tier 2)" + "<br>" + " 1 bar"
+
+			case 26:
+				return 16363, 12, "You can now smith " + "<col=000080>" + "bathus hatchets" + "</col>" + " within Daemonheim.", "Bathus hatchet (Tier 2)" + "<br>" + " 1 bar"
+
+			case 27:
+				return 16297, 12, "You can now smith " + "<col=000080>" + "bathus pickaxes" + "</col>" + " within Daemonheim.", "Bathus pickaxe (Tier 2)" + "<br>" + " 1 bar"
+
+			case 28:
+				return 17021, 13, "You can now smith " + "<col=000080>" + "bathus warhammers" + "</col>" + " within Daemonheim.", "Bathus warhammer (Tier 2)" + "<br>" + " 2 bars"
+
+			case 29:
+				return 16937, 13, "You can now smith " + "<col=000080>" + "bathus rapiers" + "</col>" + " within Daemonheim.", "Bathus rapier (Tier 2)" + "<br>" + " 2 bars"
+
+			case 30:
+				return 16385, 14, "You can now smith " + "<col=000080>" + "bathus longswords" + "</col>" + " within Daemonheim.", "Bathus longsword (Tier 2)" + "<br>" + " 2 bars"
+
+			case 31:
+				return 16693, 15, "You can now smith " + "<col=000080>" + "bathus full helms" + "</col>" + " within Daemonheim.", "Bathus full helm (Tier 2)" + "<br>" + " 2 bars"
+
+			case 32:
+				return 15755, 15, "You can now smith " + "<col=000080>" + "bathus battleaxes" + "</col>" + " within Daemonheim.", "Bathus battleaxe (Tier 2)" + "<br>" + " 2 bars"
+
+			case 33:
+				return 17343, 16, "You can now smith " + "<col=000080>" + "bathus kiteshields" + "</col>" + " within Daemonheim.", "Bathus kiteshield (Tier 2)" + "<br>" + " 3 bars"
+
+			case 34:
+				return 16715, 16, "You can now smith " + "<col=000080>" + "bathus chainbodies" + "</col>" + " within Daemonheim.", "Bathus chainbody (Tier 2)" + "<br>" + " 3 bars"
+
+			case 35:
+				return 16671, 17, "You can now smith " + "<col=000080>" + "bathus platelegs" + "</col>" + " within Daemonheim.", "Bathus platelegs (Tier 2)" + "<br>" + " 3 bars"
+
+			case 36:
+				return 16649, 17, "You can now smith " + "<col=000080>" + "bathus plateskirts" + "</col>" + " within Daemonheim.", "Bathus plateskirt (Tier 2)" + "<br>" + " 3 bars"
+
+			case 37:
+				return 17071, 17, "You can now smith " + "<col=000080>" + "bathus spears" + "</col>" + " within Daemonheim.", "Bathus spear (Tier 2)" + "<br>" + " 4 bars"
+
+			case 38:
+				return 16407, 18, "You can now smith " + "<col=000080>" + "bathus mauls" + "</col>" + " within Daemonheim.", "Bathus maul (Tier 2)" + "<br>" + " 4 bars"
+
+			case 39:
+				return 16891, 18, "You can now smith " + "<col=000080>" + "bathus 2h swords" + "</col>" + " within Daemonheim.", "Bathus 2h sword (Tier 2)" + "<br>" + " 4 bars"
+
+			case 40:
+				return 17241, 19, "You can now smith " + "<col=000080>" + "bathus platebodies" + "</col>" + " within Daemonheim.", "Bathus platebody (Tier 2)" + "<br>" + " 5 bars"
+
+			case 41:
+				return 17654, 20, "You can now smelt " + "<col=000080>" + "marmaros" + "</col>" + " within Daemonheim.", "Marmaros (Tier 3)"
+
+			case 42:
+				return 17895, 20, "You can now smith " + "<col=000080>" + "marmaros arrowheads" + "</col>" + " within Daemonheim.", "Marmaros arrowheads (Tier 3) (20)" + "<br>" + " 1 bar"
+
+			case 43:
+				return 16773, 20, "You can now smith " + "<col=000080>" + "marmaros daggers" + "</col>" + " within Daemonheim.", "Marmaros dagger (Tier 3)" + "<br>" + " 1 bar"
+
+			case 44:
+				return 16343, 21, "You can now smith " + "<col=000080>" + "marmaros boots" + "</col>" + " within Daemonheim.", "Marmaros boots (Tier 3)" + "<br>" + " 1 bar"
+
+			case 45:
+				return 16277, 21, "You can now smith " + "<col=000080>" + "marmaros gauntlets" + "</col>" + " within Daemonheim.", "Marmaros gauntlets (Tier 3)" + "<br>" + " 1 bar"
+
+			case 46:
+				return 16365, 22, "You can now smith " + "<col=000080>" + "marmaros hatchets" + "</col>" + " within Daemonheim.", "Marmaros hatchet (Tier 3)" + "<br>" + " 1 bar"
+
+			case 47:
+				return 16299, 22, "You can now smith " + "<col=000080>" + "marmaros pickaxes" + "</col>" + " within Daemonheim.", "Marmaros pickaxe (Tier 3)" + "<br>" + " 1 bar"
+
+			case 48:
+				return 17023, 23, "You can now smith " + "<col=000080>" + "marmaros warhammers" + "</col>" + " within Daemonheim.", "Marmaros warhammer (Tier 3)" + "<br>" + " 2 bars"
+
+			case 49:
+				return 16939, 23, "You can now smith " + "<col=000080>" + "marmaros rapiers" + "</col>" + " within Daemonheim.", "Marmaros rapier (Tier 3)" + "<br>" + " 2 bars"
+
+			case 50:
+				return 16387, 24, "You can now smith " + "<col=000080>" + "marmaros longswords" + "</col>" + " within Daemonheim.", "Marmaros longsword (Tier 3)" + "<br>" + " 2 bars"
+
+			case 51:
+				return 16695, 25, "You can now smith " + "<col=000080>" + "marmaros full helms" + "</col>" + " within Daemonheim.", "Marmaros full helm (Tier 3)" + "<br>" + " 2 bars"
+
+			case 52:
+				return 15757, 25, "You can now smith " + "<col=000080>" + "marmaros battleaxes" + "</col>" + " within Daemonheim.", "Marmaros battleaxe (Tier 3)" + "<br>" + " 2 bars"
+
+			case 53:
+				return 17345, 26, "You can now smith " + "<col=000080>" + "marmaros kiteshields" + "</col>" + " within Daemonheim.", "Marmaros kiteshield (Tier 3)" + "<br>" + " 3 bars"
+
+			case 54:
+				return 16717, 26, "You can now smith " + "<col=000080>" + "marmaros chainbodies" + "</col>" + " within Daemonheim.", "Marmaros chainbody (Tier 3)" + "<br>" + " 3 bars"
+
+			case 55:
+				return 16673, 27, "You can now smith " + "<col=000080>" + "marmaros platelegs" + "</col>" + " within Daemonheim.", "Marmaros platelegs (Tier 3)" + "<br>" + " 3 bars"
+
+			case 56:
+				return 16651, 27, "You can now smith " + "<col=000080>" + "marmaros plateskirts" + "</col>" + " within Daemonheim.", "Marmaros plateskirt (Tier 3)" + "<br>" + " 3 bars"
+
+			case 57:
+				return 17079, 27, "You can now smith " + "<col=000080>" + "marmaros spears" + "</col>" + " within Daemonheim.", "Marmaros spear (Tier 3)" + "<br>" + " 4 bars"
+
+			case 58:
+				return 16409, 28, "You can now smith " + "<col=000080>" + "marmaros mauls" + "</col>" + " within Daemonheim.", "Marmaros maul (Tier 3)" + "<br>" + " 4 bars"
+
+			case 59:
+				return 16893, 28, "You can now smith " + "<col=000080>" + "marmaros 2h swords" + "</col>" + " within Daemonheim.", "Marmaros 2h sword (Tier 3)" + "<br>" + " 4 bars"
+
+			case 60:
+				return 17243, 29, "You can now smith " + "<col=000080>" + "marmaros platebodies" + "</col>" + " within Daemonheim.", "Marmaros platebody (Tier 3)" + "<br>" + " 5 bars"
+
+			case 61:
+				return 17656, 30, "You can now smelt " + "<col=000080>" + "kratonite" + "</col>" + " within Daemonheim.", "Kratonite (Tier 4)"
+
+			case 62:
+				return 17900, 30, "You can now smith " + "<col=000080>" + "kratonite arrowheads" + "</col>" + " within Daemonheim.", "Kratonite arrowheads (Tier 4) (20)" + "<br>" + " 1 bar"
+
+			case 63:
+				return 16781, 30, "You can now smith " + "<col=000080>" + "kratonite daggers" + "</col>" + " within Daemonheim.", "Kratonite dagger (Tier 4)" + "<br>" + " 1 bar"
+
+			case 64:
+				return 16345, 31, "You can now smith " + "<col=000080>" + "kratonite boots" + "</col>" + " within Daemonheim.", "Kratonite boots (Tier 4)" + "<br>" + " 1 bar"
+
+			case 65:
+				return 16279, 31, "You can now smith " + "<col=000080>" + "kratonite gauntlets" + "</col>" + " within Daemonheim.", "Kratonite gauntlets (Tier 4)" + "<br>" + " 1 bar"
+
+			case 66:
+				return 16367, 32, "You can now smith " + "<col=000080>" + "kratonite hatchets" + "</col>" + " within Daemonheim.", "Kratonite hatchet (Tier 4)" + "<br>" + " 1 bar"
+
+			case 67:
+				return 16301, 32, "You can now smith " + "<col=000080>" + "kratonite pickaxes" + "</col>" + " within Daemonheim.", "Kratonite pickaxe (Tier 4)" + "<br>" + " 1 bar"
+
+			case 68:
+				return 17025, 33, "You can now smith " + "<col=000080>" + "kratonite warhammers" + "</col>" + " within Daemonheim.", "Kratonite warhammer (Tier 4)" + "<br>" + " 2 bars"
+
+			case 69:
+				return 16941, 33, "You can now smith " + "<col=000080>" + "kratonite rapiers" + "</col>" + " within Daemonheim.", "Kratonite rapier (Tier 4)" + "<br>" + " 2 bars"
+
+			case 70:
+				return 16389, 34, "You can now smith " + "<col=000080>" + "kratonite longswords" + "</col>" + " within Daemonheim.", "Kratonite longsword (Tier 4)" + "<br>" + " 2 bars"
+
+			case 71:
+				return 16697, 35, "You can now smith " + "<col=000080>" + "kratonite full helms" + "</col>" + " within Daemonheim.", "Kratonite full helm (Tier 4)" + "<br>" + " 2 bars"
+
+			case 72:
+				return 15759, 35, "You can now smith " + "<col=000080>" + "kratonite battleaxes" + "</col>" + " within Daemonheim.", "Kratonite battleaxe (Tier 4)" + "<br>" + " 2 bars"
+
+			case 73:
+				return 17347, 36, "You can now smith " + "<col=000080>" + "kratonite kiteshields" + "</col>" + " within Daemonheim.", "Kratonite kiteshield (Tier 4)" + "<br>" + " 3 bars"
+
+			case 74:
+				return 16719, 36, "You can now smith " + "<col=000080>" + "kratonite chainbodies" + "</col>" + " within Daemonheim.", "Kratonite chainbody (Tier 4)" + "<br>" + " 3 bars"
+
+			case 75:
+				return 16675, 37, "You can now smith " + "<col=000080>" + "kratonite platelegs" + "</col>" + " within Daemonheim.", "Kratonite platelegs (Tier 4)" + "<br>" + " 3 bars"
+
+			case 76:
+				return 16653, 37, "You can now smith " + "<col=000080>" + "kratonite plateskirts" + "</col>" + " within Daemonheim.", "Kratonite plateskirt (Tier 4)" + "<br>" + " 3 bars"
+
+			case 77:
+				return 17087, 37, "You can now smith " + "<col=000080>" + "kratonite spears" + "</col>" + " within Daemonheim.", "Kratonite spear (Tier 4)" + "<br>" + " 4 bars"
+
+			case 78:
+				return 16411, 38, "You can now smith " + "<col=000080>" + "kratonite mauls" + "</col>" + " within Daemonheim.", "Kratonite maul (Tier 4)" + "<br>" + " 4 bars"
+
+			case 79:
+				return 16895, 38, "You can now smith " + "<col=000080>" + "kratonite 2h swords" + "</col>" + " within Daemonheim.", "Kratonite 2h sword (Tier 4)" + "<br>" + " 4 bars"
+
+			case 80:
+				return 17245, 39, "You can now smith " + "<col=000080>" + "kratonite platebodies" + "</col>" + " within Daemonheim.", "Kratonite platebody (Tier 4)" + "<br>" + " 5 bars"
+
+			case 81:
+				return 17658, 40, "You can now smelt " + "<col=000080>" + "fractite" + "</col>" + " within Daemonheim.", "Fractite (Tier 5)"
+
+			case 82:
+				return 17905, 40, "You can now smith " + "<col=000080>" + "fractite arrowheads" + "</col>" + " within Daemonheim.", "Fractite arrowheads (Tier 5) (20)" + "<br>" + " 1 bar"
+
+			case 83:
+				return 16789, 40, "You can now smith " + "<col=000080>" + "fractite daggers" + "</col>" + " within Daemonheim.", "Fractite dagger (Tier 5)" + "<br>" + " 1 bar"
+
+			case 84:
+				return 16347, 41, "You can now smith " + "<col=000080>" + "fractite boots" + "</col>" + " within Daemonheim.", "Fractite boots (Tier 5)" + "<br>" + " 1 bar"
+
+			case 85:
+				return 16281, 41, "You can now smith " + "<col=000080>" + "fractite gauntlets" + "</col>" + " within Daemonheim.", "Fractite gauntlets (Tier 5)" + "<br>" + " 1 bar"
+
+			case 86:
+				return 16369, 42, "You can now smith " + "<col=000080>" + "fractite hatchets" + "</col>" + " within Daemonheim.", "Fractite hatchet (Tier 5)" + "<br>" + " 1 bar"
+
+			case 87:
+				return 16303, 42, "You can now smith " + "<col=000080>" + "fractite pickaxes" + "</col>" + " within Daemonheim.", "Fractite pickaxe (Tier 5)" + "<br>" + " 1 bar"
+
+			case 88:
+				return 17027, 43, "You can now smith " + "<col=000080>" + "fractite warhammers" + "</col>" + " within Daemonheim.", "Fractite warhammer (Tier 5)" + "<br>" + " 2 bars"
+
+			case 89:
+				return 16943, 43, "You can now smith " + "<col=000080>" + "fractite rapiers" + "</col>" + " within Daemonheim.", "Fractite rapier (Tier 5)" + "<br>" + " 2 bars"
+
+			case 90:
+				return 16391, 44, "You can now smith " + "<col=000080>" + "fractite longswords" + "</col>" + " within Daemonheim.", "Fractite longsword (Tier 5)" + "<br>" + " 2 bars"
+
+			case 91:
+				return 16699, 45, "You can now smith " + "<col=000080>" + "fractite full helms" + "</col>" + " within Daemonheim.", "Fractite full helm (Tier 5)" + "<br>" + " 2 bars"
+
+			case 92:
+				return 15761, 45, "You can now smith " + "<col=000080>" + "fractite battleaxes" + "</col>" + " within Daemonheim.", "Fractite battleaxe (Tier 5)" + "<br>" + " 2 bars"
+
+			case 93:
+				return 17349, 46, "You can now smith " + "<col=000080>" + "fractite kiteshields" + "</col>" + " within Daemonheim.", "Fractite kiteshield (Tier 5)" + "<br>" + " 3 bars"
+
+			case 94:
+				return 16721, 46, "You can now smith " + "<col=000080>" + "fractite chainbodies" + "</col>" + " within Daemonheim.", "Fractite chainbody (Tier 5)" + "<br>" + " 3 bars"
+
+			case 95:
+				return 16677, 47, "You can now smith " + "<col=000080>" + "fractite platelegs" + "</col>" + " within Daemonheim.", "Fractite platelegs (Tier 5)" + "<br>" + " 3 bars"
+
+			case 96:
+				return 16655, 47, "You can now smith " + "<col=000080>" + "fractite plateskirts" + "</col>" + " within Daemonheim.", "Fractite plateskirt (Tier 5)" + "<br>" + " 3 bars"
+
+			case 97:
+				return 17095, 47, "You can now smith " + "<col=000080>" + "fractite spears" + "</col>" + " within Daemonheim.", "Fractite spear (Tier 5)" + "<br>" + " 4 bars"
+
+			case 98:
+				return 16413, 48, "You can now smith " + "<col=000080>" + "fractite mauls" + "</col>" + " within Daemonheim.", "Fractite maul (Tier 5)" + "<br>" + " 4 bars"
+
+			case 99:
+				return 16897, 48, "You can now smith " + "<col=000080>" + "fractite 2h swords" + "</col>" + " within Daemonheim.", "Fractite 2h sword (Tier 5)" + "<br>" + " 4 bars"
+
+			case 100:
+				return 17247, 49, "You can now smith " + "<col=000080>" + "fractite platebodies" + "</col>" + " within Daemonheim.", "Fractite platebody (Tier 5)" + "<br>" + " 5 bars"
+
+			case 101:
+				return 17660, 50, "Members can now smelt " + "<col=000080>" + "zephyrium" + "</col>" + " within Daemonheim.", "Members: Zephyrium (Tier 6)"
+
+			case 102:
+				return 17910, 50, "Members can now smith " + "<col=000080>" + "zephyrium arrowheads" + "</col>" + " within Daemonheim.", "Members: Zephyrium arrowheads (Tier 6) (20)" + "<br>" + " 1 bar"
+
+			case 103:
+				return 16797, 50, "Members can now smith " + "<col=000080>" + "zephyrium daggers" + "</col>" + " within Daemonheim.", "Members: Zephyrium dagger (Tier 6)" + "<br>" + " 1 bar"
+
+			case 104:
+				return 16349, 51, "Members can now smith " + "<col=000080>" + "zephyrium boots" + "</col>" + " within Daemonheim.", "Members: Zephyrium boots (Tier 6)" + "<br>" + " 1 bar"
+
+			case 105:
+				return 16283, 51, "Members can now smith " + "<col=000080>" + "zephyrium gauntlets" + "</col>" + " within Daemonheim.", "Members: Zephyrium gauntlets (Tier 6)" + "<br>" + " 1 bar"
+
+			case 106:
+				return 16371, 52, "Members can now smith " + "<col=000080>" + "zephyrium hatchets" + "</col>" + " within Daemonheim.", "Members: Zephyrium hatchet (Tier 6)" + "<br>" + " 1 bar"
+
+			case 107:
+				return 16305, 52, "Members can now smith " + "<col=000080>" + "zephyrium pickaxes" + "</col>" + " within Daemonheim.", "Members: Zephyrium pickaxe (Tier 6)" + "<br>" + " 1 bar"
+
+			case 108:
+				return 17029, 53, "Members can now smith " + "<col=000080>" + "zephyrium warhammers" + "</col>" + " within Daemonheim.", "Members: Zephyrium warhammer (Tier 6)" + "<br>" + " 2 bars"
+
+			case 109:
+				return 16945, 53, "Members can now smith " + "<col=000080>" + "zephyrium rapiers" + "</col>" + " within Daemonheim.", "Members: Zephyrium rapier (Tier 6)" + "<br>" + " 2 bars"
+
+			case 110:
+				return 16393, 54, "Members can now smith " + "<col=000080>" + "zephyrium longswords" + "</col>" + " within Daemonheim.", "Members: Zephyrium longsword (Tier 6)" + "<br>" + " 2 bars"
+
+			case 111:
+				return 16701, 55, "Members can now smith " + "<col=000080>" + "zephyrium full helms" + "</col>" + " within Daemonheim.", "Members: Zephyrium full helm (Tier 6)" + "<br>" + " 2 bars"
+
+			case 112:
+				return 15763, 55, "Members can now smith " + "<col=000080>" + "zephyrium battleaxes" + "</col>" + " within Daemonheim.", "Members: Zephyrium battleaxe (Tier 6)" + "<br>" + " 2 bars"
+
+			case 113:
+				return 17351, 56, "Members can now smith " + "<col=000080>" + "zephyrium kiteshields" + "</col>" + " within Daemonheim.", "Members: Zephyrium kiteshield (Tier 6)" + "<br>" + " 3 bars"
+
+			case 114:
+				return 16723, 56, "Members can now smith " + "<col=000080>" + "zephyrium chainbodies" + "</col>" + " within Daemonheim.", "Members: Zephyrium chainbody (Tier 6)" + "<br>" + " 3 bars"
+
+			case 115:
+				return 16679, 57, "Members can now smith " + "<col=000080>" + "zephyrium platelegs" + "</col>" + " within Daemonheim.", "Members: Zephyrium platelegs (Tier 6)" + "<br>" + " 3 bars"
+
+			case 116:
+				return 16657, 57, "Members can now smith " + "<col=000080>" + "zephyrium plateskirts" + "</col>" + " within Daemonheim.", "Members: Zephyrium plateskirt (Tier 6)" + "<br>" + " 3 bars"
+
+			case 117:
+				return 17103, 57, "Members can now smith " + "<col=000080>" + "zephyrium spears" + "</col>" + " within Daemonheim.", "Members: Zephyrium spear (Tier 6)" + "<br>" + " 4 bars"
+
+			case 118:
+				return 16415, 58, "Members can now smith " + "<col=000080>" + "zephyrium mauls" + "</col>" + " within Daemonheim.", "Members: Zephyrium maul (Tier 6)" + "<br>" + " 4 bars"
+
+			case 119:
+				return 16899, 58, "Members can now smith " + "<col=000080>" + "zephyrium 2h swords" + "</col>" + " within Daemonheim.", "Members: Zephyrium 2h sword (Tier 6)" + "<br>" + " 4 bars"
+
+			case 120:
+				return 17249, 59, "Members can now smith " + "<col=000080>" + "zephyrium platebodies" + "</col>" + " within Daemonheim.", "Members: Zephyrium platebody (Tier 6)" + "<br>" + " 5 bars"
+
+			case 121:
+				return 17662, 60, "Members can now smelt " + "<col=000080>" + "argonite" + "</col>" + " within Daemonheim.", "Members: Argonite (Tier 7)"
+
+			case 122:
+				return 17915, 60, "Members can now smith " + "<col=000080>" + "argonite arrowheads" + "</col>" + " within Daemonheim.", "Members: Argonite arrowheads (Tier 7) (20)" + "<br>" + " 1 bar"
+
+			case 123:
+				return 16805, 60, "Members can now smith " + "<col=000080>" + "argonite daggers" + "</col>" + " within Daemonheim.", "Members: Argonite dagger (Tier 7)" + "<br>" + " 1 bar"
+
+			case 124:
+				return 16351, 61, "Members can now smith " + "<col=000080>" + "argonite boots" + "</col>" + " within Daemonheim.", "Members: Argonite boots (Tier 7)" + "<br>" + " 1 bar"
+
+			case 125:
+				return 16285, 61, "Members can now smith " + "<col=000080>" + "argonite gauntlets" + "</col>" + " within Daemonheim.", "Members: Argonite gauntlets (Tier 7)" + "<br>" + " 1 bar"
+
+			case 126:
+				return 16373, 62, "Members can now smith " + "<col=000080>" + "argonite hatchets" + "</col>" + " within Daemonheim.", "Members: Argonite hatchet (Tier 7)" + "<br>" + " 1 bar"
+
+			case 127:
+				return 16307, 62, "Members can now smith " + "<col=000080>" + "argonite pickaxes" + "</col>" + " within Daemonheim.", "Members: Argonite pickaxe (Tier 7)" + "<br>" + " 1 bar"
+
+			case 128:
+				return 17031, 63, "Members can now smith " + "<col=000080>" + "argonite warhammers" + "</col>" + " within Daemonheim.", "Members: Argonite warhammer (Tier 7)" + "<br>" + " 2 bars"
+
+			case 129:
+				return 16947, 63, "Members can now smith " + "<col=000080>" + "argonite rapiers" + "</col>" + " within Daemonheim.", "Members: Argonite rapier (Tier 7)" + "<br>" + " 2 bars"
+
+			case 130:
+				return 16395, 64, "Members can now smith " + "<col=000080>" + "argonite longswords" + "</col>" + " within Daemonheim.", "Members: Argonite longsword (Tier 7)" + "<br>" + " 2 bars"
+
+			case 131:
+				return 16703, 65, "Members can now smith " + "<col=000080>" + "argonite full helms" + "</col>" + " within Daemonheim.", "Members: Argonite full helm (Tier 7)" + "<br>" + " 2 bars"
+
+			case 132:
+				return 15765, 65, "Members can now smith " + "<col=000080>" + "argonite battleaxes" + "</col>" + " within Daemonheim.", "Members: Argonite battleaxe (Tier 7)" + "<br>" + " 2 bars"
+
+			case 133:
+				return 17353, 66, "Members can now smith " + "<col=000080>" + "argonite kiteshields" + "</col>" + " within Daemonheim.", "Members: Argonite kiteshield (Tier 7)" + "<br>" + " 3 bars"
+
+			case 134:
+				return 16725, 66, "Members can now smith " + "<col=000080>" + "argonite chainbodies" + "</col>" + " within Daemonheim.", "Members: Argonite chainbody (Tier 7)" + "<br>" + " 3 bars"
+
+			case 135:
+				return 16681, 67, "Members can now smith " + "<col=000080>" + "argonite platelegs" + "</col>" + " within Daemonheim.", "Members: Argonite platelegs (Tier 7)" + "<br>" + " 3 bars"
+
+			case 136:
+				return 16659, 67, "Members can now smith " + "<col=000080>" + "argonite plateskirts" + "</col>" + " within Daemonheim.", "Members: Argonite plateskirt (Tier 7)" + "<br>" + " 3 bars"
+
+			case 137:
+				return 17111, 67, "Members can now smith " + "<col=000080>" + "argonite spears" + "</col>" + " within Daemonheim.", "Members: Argonite spear (Tier 7)" + "<br>" + " 4 bars"
+
+			case 138:
+				return 16417, 68, "Members can now smith " + "<col=000080>" + "argonite mauls" + "</col>" + " within Daemonheim.", "Members: Argonite maul (Tier 7)" + "<br>" + " 4 bars"
+
+			case 139:
+				return 16901, 68, "Members can now smith " + "<col=000080>" + "argonite 2h swords" + "</col>" + " within Daemonheim.", "Members: Argonite 2h sword (Tier 7)" + "<br>" + " 4 bars"
+
+			case 140:
+				return 17251, 69, "Members can now smith " + "<col=000080>" + "argonite platebodies" + "</col>" + " within Daemonheim.", "Members: Argonite platebody (Tier 7)" + "<br>" + " 5 bars"
+
+			case 141:
+				return 17664, 70, "Members can now smelt " + "<col=000080>" + "katagon" + "</col>" + " within Daemonheim.", "Members: Katagon (Tier 8)"
+
+			case 142:
+				return 17920, 70, "Members can now smith " + "<col=000080>" + "katagon arrowheads" + "</col>" + " within Daemonheim.", "Members: Katagon arrowheads (Tier 8) (20)" + "<br>" + " 1 bar"
+
+			case 143:
+				return 16813, 70, "Members can now smith " + "<col=000080>" + "katagon daggers" + "</col>" + " within Daemonheim.", "Members: Katagon dagger (Tier 8)" + "<br>" + " 1 bar"
+
+			case 144:
+				return 16353, 71, "Members can now smith " + "<col=000080>" + "katagon boots" + "</col>" + " within Daemonheim.", "Members: Katagon boots (Tier 8)" + "<br>" + " 1 bar"
+
+			case 145:
+				return 16287, 71, "Members can now smith " + "<col=000080>" + "katagon gauntlets" + "</col>" + " within Daemonheim.", "Members: Katagon gauntlets (Tier 8)" + "<br>" + " 1 bar"
+
+			case 146:
+				return 16375, 72, "Members can now smith " + "<col=000080>" + "katagon hatchets" + "</col>" + " within Daemonheim.", "Members: Katagon hatchet (Tier 8)" + "<br>" + " 1 bar"
+
+			case 147:
+				return 16309, 72, "Members can now smith " + "<col=000080>" + "katagon pickaxes" + "</col>" + " within Daemonheim.", "Members: Katagon pickaxe (Tier 8)" + "<br>" + " 1 bar"
+
+			case 148:
+				return 17033, 73, "Members can now smith " + "<col=000080>" + "katagon warhammers" + "</col>" + " within Daemonheim.", "Members: Katagon warhammer (Tier 8)" + "<br>" + " 2 bars"
+
+			case 149:
+				return 16949, 73, "Members can now smith " + "<col=000080>" + "katagon rapiers" + "</col>" + " within Daemonheim.", "Members: Katagon rapier (Tier 8)" + "<br>" + " 2 bars"
+
+			case 150:
+				return 16397, 74, "Members can now smith " + "<col=000080>" + "katagon longswords" + "</col>" + " within Daemonheim.", "Members: Katagon longsword (Tier 8)" + "<br>" + " 2 bars"
+
+			case 151:
+				return 16705, 75, "Members can now smith " + "<col=000080>" + "katagon full helms" + "</col>" + " within Daemonheim.", "Members: Katagon full helm (Tier 8)" + "<br>" + " 2 bars"
+
+			case 152:
+				return 15767, 75, "Members can now smith " + "<col=000080>" + "katagon battleaxes" + "</col>" + " within Daemonheim.", "Members: Katagon battleaxe (Tier 8)" + "<br>" + " 2 bars"
+
+			case 153:
+				return 17355, 76, "Members can now smith " + "<col=000080>" + "katagon kiteshields" + "</col>" + " within Daemonheim.", "Members: Katagon kiteshield (Tier 8)" + "<br>" + " 3 bars"
+
+			case 154:
+				return 16727, 76, "Members can now smith " + "<col=000080>" + "katagon chainbodies" + "</col>" + " within Daemonheim.", "Members: Katagon chainbody (Tier 8)" + "<br>" + " 3 bars"
+
+			case 155:
+				return 16683, 77, "Members can now smith " + "<col=000080>" + "katagon platelegs" + "</col>" + " within Daemonheim.", "Members: Katagon platelegs (Tier 8)" + "<br>" + " 3 bars"
+
+			case 156:
+				return 16661, 77, "Members can now smith " + "<col=000080>" + "katagon plateskirts" + "</col>" + " within Daemonheim.", "Members: Katagon plateskirt (Tier 8)" + "<br>" + " 3 bars"
+
+			case 157:
+				return 17119, 77, "Members can now smith " + "<col=000080>" + "katagon spears" + "</col>" + " within Daemonheim.", "Members: Katagon spear (Tier 8)" + "<br>" + " 4 bars"
+
+			case 158:
+				return 16419, 78, "Members can now smith " + "<col=000080>" + "katagon mauls" + "</col>" + " within Daemonheim.", "Members: Katagon maul (Tier 8)" + "<br>" + " 4 bars"
+
+			case 159:
+				return 16903, 78, "Members can now smith " + "<col=000080>" + "katagon 2h swords" + "</col>" + " within Daemonheim.", "Members: Katagon 2h sword (Tier 8)" + "<br>" + " 4 bars"
+
+			case 160:
+				return 17253, 79, "Members can now smith " + "<col=000080>" + "katagon platebodies" + "</col>" + " within Daemonheim.", "Members: Katagon platebody (Tier 8)" + "<br>" + " 5 bars"
+
+			case 161:
+				return 17666, 80, "Members can now smelt " + "<col=000080>" + "gorgonite" + "</col>" + " within Daemonheim.", "Members: Gorgonite (Tier 9)"
+
+			case 162:
+				return 17925, 80, "Members can now smith " + "<col=000080>" + "gorgonite arrowheads" + "</col>" + " within Daemonheim.", "Members: Gorgonite arrowheads (Tier 9) (20)" + "<br>" + " 1 bar"
+
+			case 163:
+				return 16821, 80, "Members can now smith " + "<col=000080>" + "gorgonite daggers" + "</col>" + " within Daemonheim.", "Members: Gorgonite dagger (Tier 9)" + "<br>" + " 1 bar"
+
+			case 164:
+				return 16355, 81, "Members can now smith " + "<col=000080>" + "gorgonite boots" + "</col>" + " within Daemonheim.", "Members: Gorgonite boots (Tier 9)" + "<br>" + " 1 bar"
+
+			case 165:
+				return 16289, 81, "Members can now smith " + "<col=000080>" + "gorgonite gauntlets" + "</col>" + " within Daemonheim.", "Members: Gorgonite gauntlets (Tier 9)" + "<br>" + " 1 bar"
+
+			case 166:
+				return 16377, 82, "Members can now smith " + "<col=000080>" + "gorgonite hatchets" + "</col>" + " within Daemonheim.", "Members: Gorgonite hatchet (Tier 9)" + "<br>" + " 1 bar"
+
+			case 167:
+				return 16311, 82, "Members can now smith " + "<col=000080>" + "gorgonite pickaxes" + "</col>" + " within Daemonheim.", "Members: Gorgonite pickaxe (Tier 9)" + "<br>" + " 1 bar"
+
+			case 168:
+				return 17035, 83, "Members can now smith " + "<col=000080>" + "gorgonite warhammers" + "</col>" + " within Daemonheim.", "Members: Gorgonite warhammer (Tier 9)" + "<br>" + " 2 bars"
+
+			case 169:
+				return 16951, 83, "Members can now smith " + "<col=000080>" + "gorgonite rapiers" + "</col>" + " within Daemonheim.", "Members: Gorgonite rapier (Tier 9)" + "<br>" + " 2 bars"
+
+			case 170:
+				return 16399, 84, "Members can now smith " + "<col=000080>" + "gorgonite longswords" + "</col>" + " within Daemonheim.", "Members: Gorgonite longsword (Tier 9)" + "<br>" + " 2 bars"
+
+			case 171:
+				return 16707, 85, "Members can now smith " + "<col=000080>" + "gorgonite full helms" + "</col>" + " within Daemonheim.", "Members: Gorgonite full helm (Tier 9)" + "<br>" + " 2 bars"
+
+			case 172:
+				return 15769, 85, "Members can now smith " + "<col=000080>" + "gorgonite battleaxes" + "</col>" + " within Daemonheim.", "Members: Gorgonite battleaxe (Tier 9)" + "<br>" + " 2 bars"
+
+			case 173:
+				return 17357, 86, "Members can now smith " + "<col=000080>" + "gorgonite kiteshields" + "</col>" + " within Daemonheim.", "Members: Gorgonite kiteshield (Tier 9)" + "<br>" + " 3 bars"
+
+			case 174:
+				return 16729, 86, "Members can now smith " + "<col=000080>" + "gorgonite chainbodies" + "</col>" + " within Daemonheim.", "Members: Gorgonite chainbody (Tier 9)" + "<br>" + " 3 bars"
+
+			case 175:
+				return 16685, 87, "Members can now smith " + "<col=000080>" + "gorgonite platelegs" + "</col>" + " within Daemonheim.", "Members: Gorgonite platelegs (Tier 9)" + "<br>" + " 3 bars"
+
+			case 176:
+				return 16663, 87, "Members can now smith " + "<col=000080>" + "gorgonite plateskirts" + "</col>" + " within Daemonheim.", "Members: Gorgonite plateskirt (Tier 9)" + "<br>" + " 3 bars"
+
+			case 177:
+				return 17127, 87, "Members can now smith " + "<col=000080>" + "gorgonite spears" + "</col>" + " within Daemonheim.", "Members: Gorgonite spear (Tier 9)" + "<br>" + " 4 bars"
+
+			case 178:
+				return 16421, 88, "Members can now smith " + "<col=000080>" + "gorgonite mauls" + "</col>" + " within Daemonheim.", "Members: Gorgonite maul (Tier 9)" + "<br>" + " 4 bars"
+
+			case 179:
+				return 16905, 88, "Members can now smith " + "<col=000080>" + "gorgonite 2h swords" + "</col>" + " within Daemonheim.", "Members: Gorgonite 2h sword (Tier 9)" + "<br>" + " 4 bars"
+
+			case 180:
+				return 17255, 89, "Members can now smith " + "<col=000080>" + "gorgonite platebodies" + "</col>" + " within Daemonheim.", "Members: Gorgonite platebody (Tier 9)" + "<br>" + " 5 bars"
+
+			case 181:
+				return 17668, 90, "Members can now smelt " + "<col=000080>" + "Promethium" + "</col>" + " within Daemonheim.", "Members: Promethium (Tier 10)"
+
+			case 182:
+				return 17930, 90, "Members can now smith " + "<col=000080>" + "promethium arrowheads" + "</col>" + " within Daemonheim.", "Members: Promethium arrowheads (Tier 10) (20)" + "<br>" + " 1 bar"
+
+			case 183:
+				return 16829, 90, "Members can now smith " + "<col=000080>" + "promethium daggers" + "</col>" + " within Daemonheim.", "Members: Promethium dagger (Tier 10)" + "<br>" + " 1 bar"
+
+			case 184:
+				return 16357, 91, "Members can now smith " + "<col=000080>" + "promethium boots" + "</col>" + " within Daemonheim.", "Members: Promethium boots (Tier 10)" + "<br>" + " 1 bar"
+
+			case 185:
+				return 16291, 91, "Members can now smith " + "<col=000080>" + "promethium gauntlets" + "</col>" + " within Daemonheim.", "Members: Promethium gauntlets (Tier 10)" + "<br>" + " 1 bar"
+
+			case 186:
+				return 16379, 92, "Members can now smith " + "<col=000080>" + "promethium hatchets" + "</col>" + " within Daemonheim.", "Members: Promethium hatchet (Tier 10)" + "<br>" + " 1 bar"
+
+			case 187:
+				return 16313, 92, "Members can now smith " + "<col=000080>" + "promethium pickaxes" + "</col>" + " within Daemonheim.", "Members: Promethium pickaxe (Tier 10)" + "<br>" + " 1 bar"
+
+			case 188:
+				return 17037, 93, "Members can now smith " + "<col=000080>" + "promethium warhammers" + "</col>" + " within Daemonheim.", "Members: Promethium warhammer (Tier 10)" + "<br>" + " 2 bars"
+
+			case 189:
+				return 16953, 93, "Members can now smith " + "<col=000080>" + "promethium rapiers" + "</col>" + " within Daemonheim.", "Members: Promethium rapier (Tier 10)" + "<br>" + " 2 bars"
+
+			case 190:
+				return 16401, 94, "Members can now smith " + "<col=000080>" + "promethium longswords" + "</col>" + " within Daemonheim.", "Members: Promethium longsword (Tier 10)" + "<br>" + " 2 bars"
+
+			case 191:
+				return 16709, 95, "Members can now smith " + "<col=000080>" + "promethium full helms" + "</col>" + " within Daemonheim.", "Members: Promethium full helm (Tier 10)" + "<br>" + " 2 bars"
+
+			case 192:
+				return 15771, 95, "Members can now smith " + "<col=000080>" + "promethium battleaxes" + "</col>" + " within Daemonheim.", "Members: Promethium battleaxe (Tier 10)" + "<br>" + " 2 bars"
+
+			case 193:
+				return 17359, 96, "Members can now smith " + "<col=000080>" + "promethium kiteshields" + "</col>" + " within Daemonheim.", "Members: Promethium kiteshield (Tier 10)" + "<br>" + " 3 bars"
+
+			case 194:
+				return 16731, 96, "Members can now smith " + "<col=000080>" + "promethium chainbodies" + "</col>" + " within Daemonheim.", "Members: Promethium chainbody (Tier 10)" + "<br>" + " 3 bars"
+
+			case 195:
+				return 16687, 97, "Members can now smith " + "<col=000080>" + "promethium platelegs" + "</col>" + " within Daemonheim.", "Members: Promethium platelegs (Tier 10)" + "<br>" + " 3 bars"
+
+			case 196:
+				return 16665, 97, "Members can now smith " + "<col=000080>" + "promethium plateskirts" + "</col>" + " within Daemonheim.", "Members: Promethium plateskirt (Tier 10)" + "<br>" + " 3 bars"
+
+			case 197:
+				return 17135, 97, "Members can now smith " + "<col=000080>" + "promethium spears" + "</col>" + " within Daemonheim.", "Members: Promethium spear (Tier 10)" + "<br>" + " 4 bars"
+
+			case 198:
+				return 16423, 98, "Members can now smith " + "<col=000080>" + "promethium mauls" + "</col>" + " within Daemonheim.", "Members: Promethium maul (Tier 10)" + "<br>" + " 4 bars"
+
+			case 199:
+				return 16907, 98, "Members can now smith " + "<col=000080>" + "promethium 2h swords" + "</col>" + " within Daemonheim.", "Members: Promethium 2h sword (Tier 10)" + "<br>" + " 4 bars"
+
+			case 200:
+				return 17257, 99, "Members can now smith " + "<col=000080>" + "promethium platebodies" + "</col>" + " within Daemonheim.", "Members: Promethium platebody (Tier 10)" + "<br>" + " 5 bars"
+
+
+		}
+		break
+	case 15:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9795, 99, "<col=000080>" + "Congratulations! You are now a master smith. Members can visit " + "<col=800000>" + "Thurgo" + "<col=000080>" + ", who lives near " + "<col=800000>" + "Mudskipper Point" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Smithing" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

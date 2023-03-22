@@ -1,0 +1,41 @@
+//script5797(5797)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(int)
+int iVar11
+int iVar12
+int iVar13
+iVar11 = 1
+iVar12 = arg4
+iVar13 = arg4
+if_setsize(arg6, 0, 1, iVar12, 0)
+if(arg3 == 1) {
+	cc_deleteall(arg6)
+	if(arg7 != -1)
+		cc_deleteall(arg7)
+	cc_deleteall(arg8)
+	if_setscrollsize(arg9, 0, 0)
+	if_setsize(arg6, 1, 1, 0, 0)
+	if_setsize(arg9, 1, 1, 0, 17)
+}
+while(iVar11 < arg2 + 1) {
+	iVar13 = script_5798(arg0, arg1, iVar11, iVar12, arg6, arg7, arg10, "")
+	if(iVar12 == iVar13)
+		iVar11 = arg2 + 1
+	else
+		iVar11 = iVar11 + 1
+	iVar12 = iVar13
+}
+if_setsize(arg6, 0, 0, iVar12, if_getwidth(arg6))
+if(arg7 != -1)
+	if_setsize(arg7, 0, 0, iVar12, if_getwidth(arg7))
+if(iVar12 < arg5) {
+	if_sethide(arg8, 1)
+	if_setsize(arg9, 1, 1, 0, 3)
+} else  {
+	iVar12 = iVar12 + 5
+	if_setscrollsize(arg9, max(if_getheight(arg9), iVar12), 0)
+	if_setsize(arg9, 1, 1, 0, if_getwidth(arg8) + 2)
+	if_sethide(arg8, 0)
+	script_31(arg8, arg9, 5666, 5663, 5664, 5665, 5686, 5685)
+}
+store_varc(1772, iVar13)
+return iVar13
+return 0

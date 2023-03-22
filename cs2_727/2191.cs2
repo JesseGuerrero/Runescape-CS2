@@ -1,0 +1,21 @@
+//script2191(2191)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11)(void)
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+iVar12 = parawidth(if_gettext(arg1), 494, 512)
+iVar13 = parawidth(if_gettext(arg2), 494, 512)
+iVar14 = parawidth(if_gettext(arg3), 494, 512)
+iVar15 = parawidth(if_gettext(arg4), 494, 512)
+iVar16 = parawidth(if_gettext(arg5), 494, 512)
+iVar17 = parawidth(if_gettext(arg10), 494, 512)
+script_2337(arg0)
+instr6342(arg0, script_2336, "Ii", arg0, instr6644())
+script_2335(arg0, arg2, arg3, arg4, arg5, iVar12, iVar13, iVar14, iVar15, iVar16, arg6, arg7, arg8, arg9, arg10, arg11, iVar17)
+instr6237(arg0, script_2333, "IIIIIiiiiiIIIIIIiY", 3, 1048, 1058, 2040, arg0, arg2, arg3, arg4, arg5, iVar12, iVar13, iVar14, iVar15, iVar16, arg6, arg7, arg8, arg9, arg10, arg11, iVar17)
+if_setsize(if_gethash(601, 0), 0, 0, 75, 100)
+if_settrans(if_gethash(601, 1), 255)
+store_varc(1435, 255)
+return

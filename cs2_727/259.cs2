@@ -1,0 +1,3 @@
+//script259(259)(int arg0)(int)
+return ((inv_total(arg0, 93) + inv_total(arg0, 95)) + inv_total(arg0, 94)) + inv_total(arg0, 530)
+return 0

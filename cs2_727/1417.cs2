@@ -1,0 +1,41 @@
+//script1417(1417)(int arg0)(int, int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+if(load_varc(1387) == 1)
+	return
+iVar1 = script_1502(arg0)
+iVar2 = -1
+iVar3 = if_getx(arg0)
+iVar4 = if_gety(arg0)
+if(load_varpbit(7516) == iVar1)
+	iVar2 = script_486(load_varpbit(7520))
+else
+	if(load_varpbit(7517) == iVar1)
+		iVar2 = script_486(load_varpbit(7521))
+	else
+		if(load_varpbit(7518) == iVar1)
+			iVar2 = script_486(load_varpbit(7526))
+		else
+			if(load_varpbit(7519) == iVar1)
+				iVar2 = script_486(load_varpbit(7527))
+			else
+				if(load_varpbit(7522) == iVar1)
+					iVar2 = script_486(load_varpbit(7530))
+				else
+					if(load_varpbit(7523) == iVar1)
+						iVar2 = script_486(load_varpbit(7531))
+					else
+						if(load_varpbit(7524) == iVar1)
+							iVar2 = script_486(load_varpbit(7532))
+						else
+							if(load_varpbit(7525) == iVar1)
+								iVar2 = script_486(load_varpbit(7533))
+							else
+								if(load_varpbit(7528) == iVar1)
+									iVar2 = script_486(load_varpbit(7534))
+								else
+									if(load_varpbit(7529) == iVar1)
+										iVar2 = script_486(load_varpbit(7535))
+return iVar2, iVar2

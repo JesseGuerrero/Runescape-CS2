@@ -1,0 +1,8 @@
+void script_1748(int arg0, int arg1, int arg2, int arg3, int arg4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, int arg9) {
+	if (getClientCycle() < arg0) {
+		return;
+	}
+	VARC[191], VARC[192], VARC[193], VARC[194] = arg1, arg2, arg3, arg4;
+	script_1745(widget5, widget6, widget7, widget8, arg9);
+	return;
+}

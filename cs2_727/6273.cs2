@@ -1,0 +1,6 @@
+//script6273(6273)(int arg0, int arg1)(void)
+if(load_varc(1934) == arg1)
+	if_setgraphic(arg0, 11231)
+else
+	if_setgraphic(arg0, 11229)
+return

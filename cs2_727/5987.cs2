@@ -1,0 +1,78 @@
+//script5987(5987)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+if(arg0 == -1)
+	return
+cc_deleteall(arg0)
+iVar2 = 0
+iVar2 = if_getnextsubid(arg0)
+cc_create(iVar2, 5, arg0)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(0, 1, 27, 22)
+cc_setgraphic(6084)
+cc_settiling(1)
+cc_sethflip(1)
+iVar2 = if_getnextsubid(arg0)
+cc_create(iVar2, 5, arg0)
+cc_setposition(1, 0, 0, 0)
+cc_setsize(0, 0, 27, 11)
+cc_setgraphic(6083)
+cc_settiling(1)
+iVar2 = if_getnextsubid(arg0)
+cc_create(iVar2, 5, arg0)
+cc_setposition(1, 2, 0, 0)
+cc_setsize(0, 0, 27, 11)
+cc_setgraphic(6083)
+cc_settiling(1)
+cc_sethflip(1)
+iVar2 = if_getnextsubid(arg0)
+cc_create(iVar2, 5, arg0)
+cc_setposition(1, 0, 0, 21)
+cc_setsize(0, 0, 27, 11)
+cc_setgraphic(6085)
+cc_settiling(1)
+cc_sethflip(1)
+iVar3 = -1
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		iVar3 = 7381
+		break
+	case 2:
+		iVar3 = 7380
+		break
+	case 3:
+		iVar3 = 7384
+		break
+	case 4:
+		iVar3 = 7378
+		break
+	case 5:
+		iVar3 = 7377
+		break
+	case 6:
+		iVar3 = 7379
+		break
+	case 7:
+		iVar3 = 7376
+		break
+	case 9:
+		iVar3 = 7382
+		break
+	case 8:
+		iVar3 = 7383
+		break
+	case 10:
+		iVar3 = 7385
+		return
+
+
+}
+iVar2 = if_getnextsubid(arg0)
+cc_create(iVar2, 5, arg0)
+cc_setposition(1, 0, 0, 5)
+cc_setsize(0, 0, 20, 20)
+cc_setgraphic(iVar3)
+cc_settiling(1)
+return

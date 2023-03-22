@@ -1,0 +1,5 @@
+//script6011(6011)(int arg0)(int)
+if(activeclansettings_find_affined() == 1)
+	return script_6012(arg0)
+return 0
+return 0

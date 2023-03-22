@@ -1,0 +1,56 @@
+//script2250(2250)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = arg0 / 5
+iVar2 = 3016
+if(world_members() == 1)
+	iVar2 = 3015
+if(world_members() == 1)
+	if(iVar1 == 41 || world_members() == 0 || iVar1 == 17) {
+		if_sethide(if_gethash(940, 42), 1)
+		if_settext(if_gethash(940, 40), struct_param(1078, enum(iVar2, iVar1, 'i', 'J')))
+		if_sethide(if_gethash(940, 43), 0)
+		if_settext(if_gethash(940, 43), item_name(struct_param(1070, enum(iVar2, iVar1, 'i', 'J'))))
+		if_sethide(if_gethash(940, 44), 0)
+		if_setitem(if_gethash(940, 44), -1, struct_param(1070, enum(iVar2, iVar1, 'i', 'J')))
+		if_sethide(if_gethash(940, 41), 0)
+		if_sethide(if_gethash(940, 66), 0)
+		if_sethide(if_gethash(940, 64), 0)
+		if_sethide(if_gethash(940, 62), 0)
+		if_sethide(if_gethash(940, 63), 0)
+		if_sethide(if_gethash(940, 67), 1)
+		if_sethide(if_gethash(940, 68), 1)
+		if_settext(if_gethash(940, 62), "1 : 1xp")
+	} else 
+		if(stat_base(24) < struct_param(1071, enum(iVar2, iVar1, 'i', 'J'))) {
+			if_sethide(if_gethash(940, 42), 1)
+			if_settext(if_gethash(940, 40), struct_param(1078, enum(iVar2, iVar1, 'i', 'J')))
+			if_sethide(if_gethash(940, 43), 0)
+			if_settext(if_gethash(940, 43), item_name(struct_param(1070, enum(iVar2, iVar1, 'i', 'J'))))
+			if_sethide(if_gethash(940, 44), 0)
+			if_setitem(if_gethash(940, 44), -1, struct_param(1070, enum(iVar2, iVar1, 'i', 'J')))
+			if_sethide(if_gethash(940, 41), 0)
+			if_sethide(if_gethash(940, 66), 1)
+			if_sethide(if_gethash(940, 64), 1)
+			if_sethide(if_gethash(940, 62), 1)
+			if_sethide(if_gethash(940, 63), 1)
+			if_sethide(if_gethash(940, 67), 0)
+			if_sethide(if_gethash(940, 68), 0)
+			if_settext(if_gethash(940, 68), "Dungeoneering " + to_string(struct_param(1071, enum(iVar2, iVar1, 'i', 'J'))) + " required")
+		} else  {
+			if_sethide(if_gethash(940, 42), 1)
+			if_settext(if_gethash(940, 40), struct_param(1078, enum(iVar2, iVar1, 'i', 'J')))
+			if_sethide(if_gethash(940, 43), 0)
+			if_settext(if_gethash(940, 43), item_name(struct_param(1070, enum(iVar2, iVar1, 'i', 'J'))))
+			if_sethide(if_gethash(940, 44), 0)
+			if_setitem(if_gethash(940, 44), -1, struct_param(1070, enum(iVar2, iVar1, 'i', 'J')))
+			if_sethide(if_gethash(940, 41), 0)
+			if_sethide(if_gethash(940, 66), 0)
+			if_sethide(if_gethash(940, 64), 0)
+			if_sethide(if_gethash(940, 62), 0)
+			if_sethide(if_gethash(940, 63), 0)
+			if_sethide(if_gethash(940, 67), 1)
+			if_sethide(if_gethash(940, 68), 1)
+			if_settext(if_gethash(940, 62), to_string(struct_param(1072, enum(iVar2, iVar1, 'i', 'J'))))
+		}
+return

@@ -1,0 +1,7 @@
+//script6316(6316)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(int, int, int)
+int iVar5
+if_setoptionname(arg1, arg0)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+cc_deleteall(arg4)
+return script_4513(arg4, 1748), script_4513(arg3, 1747), script_4513(arg2, 1746)

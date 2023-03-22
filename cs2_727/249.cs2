@@ -1,0 +1,18 @@
+//script249(249)()(void)
+store_varc(799, load_varc(799) + 1)
+if(load_varc(799) >= 30) {
+	store_varc(799, 0)
+	if(load_varc(798) == 1)
+		store_varc(798, 0)
+	else
+		store_varc(798, 1)
+}
+if(load_varc(798) == 1)
+	if_settext(if_gethash(594, 53), escape(load_varc_string(24)) + "<col=ffff00>" + " ")
+else
+	if_settext(if_gethash(594, 53), escape(load_varc_string(24)) + "<col=ffff00>" + "|")
+if(compare("", load_varc_string(24)) == 0)
+	if_setcolor(38928442, 0xBBBBBB)
+else
+	if_setcolor(38928442, 0xFFFFFF)
+return

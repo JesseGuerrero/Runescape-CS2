@@ -1,0 +1,14 @@
+//script716(716)(int arg0)(void)
+if(arg0 == 50724876) {
+	if_setmodel(if_gethash(774, 11), 41312)
+	sound_synth(0, 1, 5111)
+} else 
+	if(arg0 == 50724877) {
+		if_setmodel(if_gethash(774, 11), 41303)
+		sound_synth(0, 1, 5112)
+	} else 
+		if(arg0 == 50724878) {
+			if_setmodel(if_gethash(774, 11), 41305)
+			sound_synth(0, 1, 5110)
+		}
+return

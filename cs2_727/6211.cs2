@@ -1,0 +1,31 @@
+//script6211(6211)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar4 = 10872
+iVar5 = 10876
+iVar6 = 10871
+iVar7 = 10875
+iVar8 = 16368741
+iVar9 = 15052881
+if(arg3 == 1) {
+	if(arg1 != -1)
+		if_setcolor(arg1, iVar8)
+	if(arg0 != -1)
+		if(arg2 == 1)
+			if_setgraphic(arg0, iVar4)
+		else
+			if_setgraphic(arg0, iVar5)
+} else  {
+	if(arg1 != -1)
+		if_setcolor(arg1, iVar9)
+	if(arg0 != -1)
+		if(arg2 == 1)
+			if_setgraphic(arg0, iVar6)
+		else
+			if_setgraphic(arg0, iVar7)
+}
+return

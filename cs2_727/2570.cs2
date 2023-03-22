@@ -1,0 +1,96 @@
+//script2570(2570)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = -1
+store_varc(930, -1)
+store_varc(931, -1)
+store_varc(932, -1)
+store_varc(933, -1)
+store_varc(934, -1)
+store_varc(935, -1)
+store_varc(936, -1)
+store_varc(937, -1)
+store_varc(938, -1)
+store_varc(939, -1)
+if(load_varpbit(6429) > 0)
+	if(load_varpbit(6429) < 11)
+		store_varc(929, load_varpbit(6429) - 1)
+	else
+		store_varc(929, 0)
+if(iVar1 < 10)
+	while(iVar0 < 28) {
+		iVar2 = inv_getitem(iVar0, 93)
+		if(item_param(802, iVar2) == 1 || item_param(803, iVar2) == 1) {
+			if_settext(enum(2423, iVar1, 'i', 'I'), "Squad " + to_string(iVar1 + 1))
+			if(item_param(806, iVar2) == 0)
+				if_setgraphic(enum(2427, iVar1, 'i', 'I'), 2023)
+			else
+				if(item_param(806, iVar2) == 1)
+					if_setgraphic(enum(2427, iVar1, 'i', 'I'), 2022)
+			if(item_param(805, iVar2) == 1)
+				if_setgraphic(enum(2426, iVar1, 'i', 'I'), 2016)
+			else
+				if(item_param(805, iVar2) == 2)
+					if_setgraphic(enum(2426, iVar1, 'i', 'I'), 2018)
+				else
+					if(item_param(805, iVar2) == 3)
+						if_setgraphic(enum(2426, iVar1, 'i', 'I'), 2017)
+			if(item_param(803, iVar2) == 1)
+				if_setcolor(enum(2429, iVar1, 'i', 'I'), 0xCC0000)
+			else
+				if_setcolor(enum(2429, iVar1, 'i', 'I'), 0x0)
+			switch(iVar1) {
+				case default:
+					break
+				case 0:
+					store_varc(930, iVar0)
+					break
+				case 1:
+					store_varc(931, iVar0)
+					break
+				case 2:
+					store_varc(932, iVar0)
+					break
+				case 3:
+					store_varc(933, iVar0)
+					break
+				case 4:
+					store_varc(934, iVar0)
+					break
+				case 5:
+					store_varc(935, iVar0)
+					break
+				case 6:
+					store_varc(936, iVar0)
+					break
+				case 7:
+					store_varc(937, iVar0)
+					break
+				case 8:
+					store_varc(938, iVar0)
+					break
+				case 9:
+					store_varc(939, iVar0)
+					break
+
+			}
+			iVar1 = iVar1 + 1
+		}
+		iVar0 = iVar0 + 1
+	}
+if(iVar1 < 10)
+	while(iVar1 < 10) {
+		if_settext(enum(2423, iVar1, 'i', 'I'), "No squad")
+		if_settext(enum(2424, iVar1, 'i', 'I'), "")
+		if_setgraphic(enum(2427, iVar1, 'i', 'I'), -1)
+		if_setgraphic(enum(2426, iVar1, 'i', 'I'), -1)
+		instr6239(enum(2422, iVar1, 'i', 'I'), None, "")
+		instr6220(enum(2422, iVar1, 'i', 'I'))
+		iVar1 = iVar1 + 1
+	}
+script_2599()
+script_2573()
+return

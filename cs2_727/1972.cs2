@@ -1,0 +1,23 @@
+//script1972(1972)(int arg0, int arg1, int arg2)(void)
+if(arg2 != 1)
+	return
+sound_synth(0, 1, 4911)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		store_varc(618, modulo(26, load_varc(618) + 1))
+		break
+	case 1:
+		store_varc(619, modulo(26, load_varc(619) + 1))
+		break
+	case 2:
+		store_varc(620, modulo(26, load_varc(620) + 1))
+		break
+	case 3:
+		store_varc(621, modulo(26, load_varc(621) + 1))
+		break
+
+}
+script_1971(arg0, arg1)
+return

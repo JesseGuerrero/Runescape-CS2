@@ -1,0 +1,52 @@
+//script1394(1394)()(void)
+int iVar0
+int iVar1
+int iVar2
+string sVar0
+sVar0 = ""
+iVar0 = 0
+iVar1 = 0
+if(load_varpbit(457) == 1) {
+	sVar0 = append("Ahrim" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(458) == 1) {
+	sVar0 = append("Dharok" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(459) == 1) {
+	sVar0 = append("Guthan" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(460) == 1) {
+	sVar0 = append("Karil" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(461) == 1) {
+	sVar0 = append("Torag" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(462) == 1) {
+	sVar0 = append("Verac" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9873) == 1) {
+	sVar0 = append("Akrisae" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if(compare("", sVar0) == 0) {
+	sVar0 = "None"
+	iVar0 = 1
+}
+iVar2 = 52 + (iVar0 * 12)
+if_setsize(if_gethash(24, 1), 0, 0, iVar2, if_getwidth(if_gethash(24, 1)))
+if_settext(if_gethash(24, 3), sVar0)
+if_settext(if_gethash(24, 6), to_string(max(load_varpbit(464) - iVar1, 0)))
+return

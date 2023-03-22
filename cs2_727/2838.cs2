@@ -1,0 +1,25 @@
+//script2838(2838)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = coordx(coord()) - modulo(64, coordx(coord()))
+iVar1 = coordz(coord()) - modulo(64, coordz(coord()))
+iVar2 = movecoord(iVar1, 0, iVar0, 0)
+instr6650(6, 0)
+instr6650(6, 1)
+instr6651(0, 790, script_2808(iVar2, 54662856, 55072469), 1025, script_2808(iVar2, 54662856, 55072469), 0, 0)
+instr6651(0, 265, script_2808(iVar2, 54662856, 55072472), 355, script_2808(iVar2, 54662856, 55072472), 0, 1)
+instr6651(0, 506, script_2808(iVar2, 54662856, 55072482), 506, script_2808(iVar2, 54662856, 55072482), 1, 0)
+instr6651(0, 190, script_2808(iVar2, 54662856, 55072485), 190, script_2808(iVar2, 54662856, 55072485), 1, 1)
+instr6651(0, 506, script_2808(iVar2, 54662856, 55072479), 506, script_2808(iVar2, 54662856, 55072479), 2, 0)
+instr6651(0, 210, script_2808(iVar2, 54662856, 55072484), 195, script_2808(iVar2, 54662856, 55072484), 2, 1)
+instr6651(0, 506, script_2808(iVar2, 54662856, 55072475), 506, script_2808(iVar2, 54662856, 55072476), 3, 0)
+instr6651(0, 70, script_2808(iVar2, 54662856, 55072478), 115, script_2808(iVar2, 54662856, 55072479), 3, 1)
+instr6651(0, 506, script_2808(iVar2, 54662856, 55072473), 506, script_2808(iVar2, 54662856, 55072474), 4, 0)
+instr6651(0, 330, script_2808(iVar2, 54662856, 55072477), 240, script_2808(iVar2, 54662856, 55072478), 4, 1)
+instr6651(0, 506, script_2808(iVar2, 54662856, 55072471), 506, script_2808(iVar2, 54662856, 55072472), 5, 0)
+instr6651(0, 350, script_2808(iVar2, 54662856, 55072487), 350, script_2808(iVar2, 54662856, 55072485), 5, 1)
+store_varc(1068, 0)
+instr6255(if_gethash(384, 0), script_2840, "")
+instr6677(load_varc(1068), 1, 100, 100, load_varc(1068), 0)
+return

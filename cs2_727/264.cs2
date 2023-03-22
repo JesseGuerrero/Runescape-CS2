@@ -1,0 +1,4 @@
+//script264(264)(int arg0)(void)
+store_varc(1110, arg0)
+script_261()
+return

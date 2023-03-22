@@ -1,0 +1,7 @@
+void script_845(Widget widget0, Widget widget1, Sprite sprite2, int arg3) {
+	if (CHILD.setChild(widget0, arg3) == true) {
+		CHILD.setSprite(sprite2);
+	}
+	script_41(widget1);
+	return;
+}

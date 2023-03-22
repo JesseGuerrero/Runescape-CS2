@@ -1,0 +1,78 @@
+//script593(593)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+string sVar1
+iVar1 = enum(1079, load_varp(1112), 'i', 'v')
+iVar2 = inv_getitem(0, iVar1)
+if_setitem(if_gethash(105, 206), inv_getnum(0, iVar1), iVar2)
+instr6220(if_gethash(105, 206))
+if(iVar2 != -1) {
+	if(item_cert(iVar2) != iVar2)
+		if(inv_getnum(0, iVar1) > 1) {
+			instr6213(if_gethash(105, 206), 1, "Collect-notes")
+			instr6213(if_gethash(105, 206), 2, "Collect-items")
+		} else  {
+			instr6213(if_gethash(105, 206), 1, "Collect-items")
+			instr6213(if_gethash(105, 206), 2, "Collect-notes")
+		}
+	else
+		instr6213(if_gethash(105, 206), 1, "Collect")
+	item_useonname(6881486, item_name(iVar2))
+} else 
+	item_useonname(6881486, "")
+iVar3 = inv_getitem(1, iVar1)
+if_setitem(if_gethash(105, 208), inv_getnum(1, iVar1), iVar3)
+instr6220(if_gethash(105, 208))
+if(iVar3 != -1) {
+	if(item_cert(iVar3) != iVar3)
+		if(inv_getnum(1, iVar1) > 1) {
+			instr6213(if_gethash(105, 208), 1, "Collect-notes")
+			instr6213(if_gethash(105, 208), 2, "Collect-items")
+		} else  {
+			instr6213(if_gethash(105, 208), 1, "Collect-items")
+			instr6213(if_gethash(105, 208), 2, "Collect-notes")
+		}
+	else
+		instr6213(if_gethash(105, 208), 1, "Collect")
+	item_useonname(6881488, item_name(iVar3))
+} else 
+	item_useonname(6881488, "")
+if_setonmouseleave(if_gethash(105, 197), script_589, "Y", 1, iVar1)
+iVar4 = stockmarket_getoffertype(arg0)
+iVar5 = stockmarket_getoffercount(arg0)
+iVar6 = stockmarket_getoffercompletedcount(arg0)
+iVar7 = stockmarket_getoffercompletedgold(arg0)
+sVar0 = tostring_localized(1, iVar6)
+sVar1 = tostring_localized(1, iVar7)
+cc_deleteall(if_gethash(105, 199))
+if(instr6004(if_gethash(105, 199)) == 1)
+	if(stockmarket_isofferadding(arg0) == 1) {
+		cc_create(0, 4, 6881479)
+		cc_setposition(0, 0, 0, 0)
+		cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+		cc_settextfont(494)
+		cc_setcolor(dbd884)
+		cc_settext("Submitting offer...")
+		cc_settextalign(0, 1, 1)
+	} else 
+		script_652(0, 0, cc_getwidth(), cc_getheight(), arg0, 6881479, 0, 6881490, 2)
+if(stockmarket_isofferfinished(arg0) == 1) {
+	if(iVar4 == 0)
+		if_settext(if_gethash(105, 198), "You bought a total of " + "<col=cc9900>" + sVar0 + "</col>" + "<br>" + "for a total price of " + "<col=cc9900>" + sVar1 + "</col>" + " gp.")
+	else
+		if_settext(if_gethash(105, 198), "You sold a total of " + "<col=cc9900>" + sVar0 + "</col>" + "<br>" + "for a total price of " + "<col=cc9900>" + sVar1 + "</col>" + " gp.")
+	if_sethide(if_gethash(105, 200), 1)
+} else  {
+	if(iVar4 == 0)
+		if_settext(if_gethash(105, 198), "You have bought a total of " + "<col=cc9900>" + sVar0 + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=cc9900>" + sVar1 + "</col>" + " gp.")
+	else
+		if_settext(if_gethash(105, 198), "You have sold a total of " + "<col=cc9900>" + sVar0 + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=cc9900>" + sVar1 + "</col>" + " gp.")
+	if_sethide(if_gethash(105, 200), 0)
+}
+return

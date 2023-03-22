@@ -1,0 +1,5 @@
+//script3166(3166)(int arg0, string arg1)(void)
+script_2995(arg0, 0, 0, 0, 0, 0, 16777215, 494, 1, 1, 0, 1, arg0)
+cc_setsize(1, 1, 0, 0)
+return
+return

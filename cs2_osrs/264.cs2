@@ -1,0 +1,51 @@
+void script_264(int arg0) {
+	widget(207, 0).setIsHidden(false);
+	widget(207, 1).setIsHidden(false);
+	widget(207, 0).setPosition(0, 0, 0, 0);
+	widget(207, 0).setSize(1, 1, 0, 0);
+	widget(207, 0).setTextAlignment(2, 2, 0);
+	widget(207, 0).hookFrame(&script_265(widget(207, 1)));
+	script_267(arg0, widget(207, 1));
+	if (arg0 == 1) {
+		widget(207, 0).hookVARP(null);
+	} else {
+		widget(207, 0).hookVARP(&script_266(widget(207, 1)), 1065, 1058);
+	}
+	CHILD.createChild(widget(207, 1), 3, 17);
+	CHILD.setSize(46, 55, 0, 0);
+	CHILD.setPosition(5, 30, 2, 0);
+	CHILD.setRGB(0x7F460F);
+	CHILD.setFilled(true);
+	CHILD.setTrans(100);
+	CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 0, null));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 100, null));
+	CHILD.setContextMenuOption(1, "Examine");
+	CHILD.setOptionBase("<col=ff9040>" + "Coffer");
+	_CHILD.createChild(widget(207, 1), 3, 18);
+	_CHILD.setSize(46, 55, 0, 0);
+	_CHILD.setPosition(5, 30, 2, 0);
+	_CHILD.setRGB(0x7F460F);
+	_CHILD.setFilled(false);
+	_CHILD.createChild(widget(207, 1), 5, 19);
+	_CHILD.setSize(44, 53, 0, 0);
+	_CHILD.setPosition(6, 31, 2, 0);
+	_CHILD.setSprite(1040);
+	_CHILD.setSpriteTiling(true);
+	_CHILD.setTrans(100);
+	_CHILD.createChild(widget(207, 1), 4, 20);
+	_CHILD.setSize(46, 51, 0, 0);
+	_CHILD.setPosition(5, 32, 2, 0);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setFont(495);
+	_CHILD.setTextAlignment(1, 0, 0);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText("Coffer");
+	_CHILD.createChild(widget(207, 1), 5, 21);
+	_CHILD.setSize(36, 32, 0, 0);
+	_CHILD.setPosition(11, 49, 2, 0);
+	_CHILD.setShadowColor(0x333333);
+	_CHILD.setOutlineThickness(1);
+	_CHILD.hookVARP(&script_270(CTX_WIDGET, getChildId(), CTX_WIDGET_CHILD), 1058, 638);
+	script_271();
+	return;
+}

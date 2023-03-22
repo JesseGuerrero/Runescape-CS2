@@ -1,0 +1,22 @@
+//script2124(2124)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+int iVar9
+store_varc(681, random(2048))
+store_varc(684, random(2048))
+store_varc(687, random(2048))
+store_varc(690, random(2048))
+store_varc(680, 25 - random_inclusive(50))
+store_varc(682, 25 - random_inclusive(50))
+store_varc(683, 25 - random_inclusive(50))
+store_varc(685, 25 - random_inclusive(50))
+store_varc(686, 25 - random_inclusive(50))
+store_varc(688, 25 - random_inclusive(50))
+store_varc(689, 25 - random_inclusive(50))
+store_varc(691, 25 - random_inclusive(50))
+script_2127(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+instr6342(arg0, script_2126, "IIIIIIII", arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+iVar9 = client_clock() + 100
+instr6342(if_gethash(420, 25), script_5613, "Iiiii", if_gethash(420, 25), random(63), random(127), random(2), iVar9)
+instr6342(if_gethash(420, 22), script_5613, "Iiiii", if_gethash(420, 22), random(63), random(127), random(2), iVar9)
+instr6342(if_gethash(420, 23), script_5613, "Iiiii", if_gethash(420, 23), random(63), random(127), random(2), iVar9)
+instr6342(if_gethash(420, 21), script_5613, "Iiiii", if_gethash(420, 21), random(63), random(127), random(2), iVar9)
+return

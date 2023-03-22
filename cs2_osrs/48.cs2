@@ -1,0 +1,7 @@
+void script_48(Widget widget0, int arg1, Color color2, int arg3) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setRGB(color2);
+		CHILD.hookFrame(&script_221(CTX_WIDGET, CTX_WIDGET_CHILD, arg3, getClientCycle() + 10));
+	}
+	return;
+}

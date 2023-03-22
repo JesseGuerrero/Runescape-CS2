@@ -1,0 +1,71 @@
+//script1692(1692)(int arg0, int arg1, int arg2)(int, int)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+string sVar1
+iVar3 = enum(845, arg2, 'i', 'J')
+sVar0 = struct_param(925, iVar3)
+iVar4 = (paramheight(sVar0, 495, if_getwidth(arg0) - 22) * 12) + 5
+iVar5 = (32 + iVar4) + 10
+cc_setsize(0, 1, iVar5, 0)
+cc_setposition(0, 1, arg1, 0)
+cc_setfill(1)
+cc_setcolor(0)
+cc_settrans(255)
+instr6091(script_2140, "Iii", -2147483645, -2147483643, 200)
+instr6092(script_2140, "Iii", -2147483645, -2147483643, 255)
+cc_setop("Take", 1)
+cc_setop("Examine", 10)
+cc_setopbase("<col=ff9040>" + item_name(struct_param(813, iVar3)))
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, 32, 36)
+cc_setposition(0, 0, arg1 + 4, 2)
+cc_setitem_nonum(1, struct_param(813, iVar3))
+cc_setoutline(1)
+cc_setgraphicshadow(3153952)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_setposition(0, 2, arg1 + 4, 2)
+cc_setcolor(fff08c)
+cc_settextalign(0, 1, 0)
+cc_settextshadow(1)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_setsize(0, 1, 12, 36 + 4)
+cc_setposition(0, 2, (arg1 + 4) + (32 - cc_getheight()), 2)
+cc_settextfont(494)
+cc_setcolor(ff981f)
+cc_settextalign(0, 1, 0)
+cc_settextshadow(1)
+iVar6 = struct_param(923, iVar3)
+if(iVar6 != -1) {
+	cc_setsize(0, 1, 32 - cc_getheight(), 36 + 4)
+	cc_settext(struct_param(845, iVar6))
+} else  {
+	cc_setsize(0, 1, 32, 36 + 4)
+	cc_sethide(1)
+}
+sVar1 = struct_param(924, iVar3)
+if(paramheight(sVar1, 496, cc_getwidth()) <= 1)
+	cc_settextfont(496)
+else
+	if(paramheight(sVar1, 495, cc_getwidth()) <= 1)
+		cc_settextfont(495)
+	else
+		cc_settextfont(494)
+cc_settext(sVar1)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_setsize(0, 1, iVar4, 22)
+cc_setposition(0, 0, (arg1 + 32) + 6, 2)
+cc_settextfont(495)
+cc_setcolor(fff08c)
+cc_settextalign(0, 1, 0)
+cc_settextshadow(1)
+cc_settext(sVar0)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 1, 32, 0)
+cc_setposition(0, 0, (arg1 + iVar5) - 16, 0)
+cc_setgraphic(995)
+cc_settiling(1)
+return instr6151(), arg1 + iVar5
+return 0, 0

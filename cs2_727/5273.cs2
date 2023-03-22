@@ -1,0 +1,6 @@
+//script5273(5273)(int arg0, string arg1)(void)
+if_sethide(if_gethash(1137, 7), 0)
+if_settext(if_gethash(1137, 10), arg0)
+if(instr6004(if_gethash(1137, 7)) == 1)
+	cc_setparam_int(arg0, 1103)
+return

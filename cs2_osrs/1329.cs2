@@ -1,0 +1,29 @@
+int, int, int script_1329(string string0, Widget widget1, Widget widget2, Widget widget3, int arg4, int arg5, int arg6) {
+	int int6;
+	int int7;
+	int6 = 18;
+	int7 = 6;
+	arg5 = arg5;
+	CHILD.createChild(widget3, 6, arg4);
+	CHILD.setPosition(arg5, arg6, 0, 0);
+	CHILD.setSize(32, 32, 0, 0);
+	arg5 = arg5 + 6 + CHILD.getWidth();
+	CHILD.setModel(datamap('i', 'm', 1316, arg4));
+	CHILD.set3DRotation(0, 20, 0, 1871, 0, 600);
+	CHILD.setAnimation(6613);
+	_CHILD.createChild(widget2, 4, arg4);
+	_CHILD.setPosition(arg5, arg6, 0, 0);
+	_CHILD.setSize(50, 32, 0, 0);
+	_CHILD.setFont(494);
+	_CHILD.setRGB(0xFF9900);
+	_CHILD.setTextAlignment(0, 0, 0);
+	_CHILD.setText(string0);
+	arg5 = arg5 + _CHILD.getWidth();
+	if (arg5 + CHILD.getWidth() + int7 + _CHILD.getWidth() > widget1.getWidth()) {
+		arg5 = 15;
+		arg6 = arg6 + 80;
+	} else {
+		arg5 = arg5 + int6;
+	}
+	return arg4 + 1, arg5, arg6;
+}

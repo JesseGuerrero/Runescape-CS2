@@ -1,0 +1,7 @@
+//script4351(4351)(int arg0)(void)
+if(load_varpbit(9139) == load_varp(2128))
+	store_varpbit(9139, 0)
+else
+	store_varpbit(9139, load_varp(2128))
+script_4353(arg0)
+return

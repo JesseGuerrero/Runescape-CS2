@@ -1,0 +1,5 @@
+//script2715(2715)()(void)
+if_sethide(if_gethash(669, 14), 0)
+if_sethide(if_gethash(669, 27), 0)
+if_sethide(if_gethash(669, 13), 1)
+return

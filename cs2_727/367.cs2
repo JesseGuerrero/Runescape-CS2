@@ -1,0 +1,19 @@
+//script367(367)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = 0
+if(arg2 == 1)
+	iVar3 = arg1 + 17
+else
+	iVar3 = arg1
+iVar4 = if_getheight(arg0)
+if(iVar4 < iVar3) {
+	if_setsize(arg0, 0, 0, min(iVar3, iVar4 + 2), if_getwidth(arg0))
+	if(modulo(arg1, iVar4) == 0)
+		sound_synth(0, 1, 9840)
+} else 
+	if(iVar4 > iVar3)
+		if_setsize(arg0, 0, 0, max(iVar3, iVar4 - 2), if_getwidth(arg0))
+	else
+		instr6342(arg0, None, "")
+return

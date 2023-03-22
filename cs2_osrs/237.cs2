@@ -1,0 +1,29 @@
+void script_237(int arg0) {
+	int int1;
+	Item item2;
+	int int3;
+	Item item4;
+	int int5;
+	Item item6;
+	int int7;
+	Item item8;
+	int int9;
+	string str0;
+	int1 = 0;
+	str0 = "";
+	item2 = null;
+	int3 = 0;
+	item4 = null;
+	int5 = 0;
+	item6 = null;
+	int7 = 0;
+	item8 = null;
+	int9 = 0;
+	int1, str0, item2, int3, item4, int5, item6, int7, item8, int9 = script_242(arg0);
+	if (getSkillCurrentLvl(6) >= int1 && (item2 == null || script_19(item2) >= int3) && (item4 == null || script_19(item4) >= int5) && (item6 == null || script_19(item6) >= int7) && (item8 == null || script_19(item8) >= int9)) {
+		CHILD.setSprite(datamap('i', 'd', 796, arg0));
+		return;
+	}
+	CHILD.setSprite(datamap('i', 'd', 795, arg0));
+	return;
+}

@@ -1,0 +1,12 @@
+//script5921(5921)()(void)
+int iVar0
+int iVar1
+iVar0 = 82116636
+iVar1 = 82116656
+if_setposition(iVar1, 1, 1, -16, 118)
+if_sethide(iVar0, 1)
+if_sethide(iVar1, 0)
+instr6342(iVar1, script_5922, "Ii", -2147483645, 118)
+store_varc(1784, 0)
+sound_vorbis_rate(127, 100, 0, 1, 9882)
+return

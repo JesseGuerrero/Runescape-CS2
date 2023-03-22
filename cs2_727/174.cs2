@@ -1,0 +1,6 @@
+//script174(174)(int arg0)(void)
+if(load_varc(42) == arg0) {
+	store_varc(42, -1)
+	script_178()
+}
+return

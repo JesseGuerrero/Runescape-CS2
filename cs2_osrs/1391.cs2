@@ -1,0 +1,43 @@
+int script_1391(Widget widget0, int arg1, string string2, int arg3, int arg4, int arg5, int arg6) {
+	int int6;
+	int int7;
+	int6 = getMaxLineWidth(string2, 512, 494) + 10;
+	widget0.setSize(int6, widget0.getHeight(), 0, 0);
+	widget0.clearChildren();
+	int7 = 0;
+	if (arg1 == arg3) {
+		int7 = script_836(widget0, 0);
+	} else {
+		int7 = script_835(widget0, 0);
+	}
+	CHILD.createChild(widget0, 4, int7);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string2);
+	if (arg1 == arg3) {
+		if (arg1 == arg6) {
+			CHILD.setRGB(0xFFFF00);
+		} else {
+			CHILD.setRGB(0xFFFFFF);
+		}
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+		widget0.setNoOptions();
+	} else {
+		if (arg1 == arg6) {
+			CHILD.setRGB(0xFFFF00);
+			widget0.hookMouseExit(&script_85(CTX_WIDGET, int7, 16776960));
+		} else {
+			CHILD.setRGB(0xFF981F);
+			widget0.hookMouseExit(&script_85(CTX_WIDGET, int7, 16750623));
+		}
+		widget0.hookMouseHover(&script_85(CTX_WIDGET, int7, 16777215));
+		widget0.hookOptionClick(&script_1388(true, arg1, arg4, arg5));
+		widget0.setContextMenuOption(1, string2);
+	}
+	return int6;
+}

@@ -1,0 +1,9 @@
+int script_234() {
+	if (VARPBIT[3923] == 1) {
+		return 1;
+	}
+	if (VARPBIT[5314] == 1) {
+		return 1;
+	}
+	return 0;
+}

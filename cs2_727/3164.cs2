@@ -1,0 +1,12 @@
+//script3164(3164)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if(activeclanchannel_find_affined() == 1) {
+	script_3165(arg0, arg1, arg2, arg3, arg4, arg5)
+	if(if_gethide(if_gethash(906, 212)) == 0)
+		script_3161(1)
+	else
+		script_3161(0)
+} else  {
+	script_4547(arg0, arg1, arg2, arg3, arg4, arg5)
+	script_3161(0)
+}
+return

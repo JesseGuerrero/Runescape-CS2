@@ -1,0 +1,10 @@
+//script2886(2886)()(void)
+int iVar0
+store_varc(1078, load_varpbit(7189))
+store_varc(1086, 0)
+iVar0 = client_clock()
+instr6342(if_gethash(476, 24), script_2892, "Ii", if_gethash(476, 24), iVar0)
+sound_synth(0, 1, 8641)
+instr6256(if_gethash(476, 0), script_2887, "")
+script_2888()
+return

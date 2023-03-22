@@ -1,0 +1,60 @@
+//script4130(4130)(int arg0)(void)
+int iVar1
+iVar1 = 0
+switch(load_varc(1452)) {
+	case default:
+		break
+	case 1:
+		cc_create(iVar1, 3, arg0)
+		cc_setfill(1)
+		cc_setcolor(eeeeaa)
+		cc_setsize(1, 0, 0, 30)
+		cc_setposition(0, 0, 0, 0)
+		cc_sethide(1)
+		iVar1 = iVar1 + 1
+		cc_create(iVar1, 5, arg0)
+		cc_setgraphic(3181)
+		cc_setsize(1, 0, 0, 30)
+		cc_setposition(0, 0, 0, 0)
+		cc_sethide(1)
+		iVar1 = iVar1 + 1
+		cc_create(iVar1, 3, arg0)
+		cc_setfill(1)
+		cc_setcolor(eeeeaa)
+		cc_setsize(1, 0, 0, 30)
+		cc_setposition(2, 2, 0, 0)
+		cc_sethide(1)
+		iVar1 = iVar1 + 1
+		cc_create(iVar1, 5, arg0)
+		cc_setgraphic(3182)
+		cc_setsize(1, 0, 0, 30)
+		cc_setposition(2, 2, 0, 0)
+		cc_sethide(1)
+		iVar1 = iVar1 + 1
+		script_665(0, 50, arg0, iVar1)
+		break
+	case 2:
+		while(iVar1 < 4) {
+			if(cc_find(iVar1, arg0) == 1)
+				cc_sethide(0)
+			iVar1 = iVar1 + 1
+		}
+		script_667(50, arg0, iVar1)
+		break
+	case 3:
+		script_665(0, 50, arg0, 4)
+		break
+	case 4:
+		while(iVar1 < 4) {
+			if(cc_find(iVar1, arg0) == 1)
+				cc_sethide(1)
+			iVar1 = iVar1 + 1
+		}
+		script_667(50, arg0, iVar1)
+		break
+	case 5:
+		cc_deleteall(arg0)
+		break
+
+}
+return

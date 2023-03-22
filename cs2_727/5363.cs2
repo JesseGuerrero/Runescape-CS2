@@ -1,0 +1,7 @@
+//script5363(5363)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(arg2 == 0)
+		cc_settrans(0)
+	else
+		cc_settrans(255)
+return

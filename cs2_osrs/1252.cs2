@@ -1,0 +1,22 @@
+void script_1252(Widget widget0, string string1, Item arg2, Item arg3) {
+	int int3;
+	int3 = 0;
+	if (arg2 == 3839) {
+		int3 = VARP[261];
+	} else if (arg2 == 3843) {
+		int3 = VARP[262];
+	} else if (arg2 == 3841) {
+		int3 = VARP[263];
+	} else if (arg2 == 12607) {
+		int3 = VARP[264];
+	} else if (arg2 == 12609) {
+		int3 = VARP[265];
+	} else {
+		if (!(arg2 == 12611)) {
+			return;
+		}
+		int3 = VARP[266];
+	}
+	script_1253(widget0, int3, string1, arg2, arg3);
+	return;
+}

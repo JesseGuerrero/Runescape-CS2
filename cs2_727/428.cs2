@@ -1,0 +1,3 @@
+//script428(428)()(void)
+if_settext(if_gethash(1024, 5), "Command Points: " + to_string(load_varpbit(7514)))
+return

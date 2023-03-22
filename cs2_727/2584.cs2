@@ -1,0 +1,12 @@
+//script2584(2584)()(void)
+if_setcolor(19136629, 0xFF9935)
+instr6213(if_gethash(292, 102), 1, "Select dwarf")
+instr6213(if_gethash(292, 104), 1, "Select goblin")
+instr6213(if_gethash(292, 103), 1, "Select elf")
+instr6239(if_gethash(292, 102), script_2586, "I", -2147483645)
+instr6239(if_gethash(292, 104), script_2586, "I", -2147483645)
+instr6239(if_gethash(292, 103), script_2586, "I", -2147483645)
+hook_mouse_press(if_gethash(292, 102), None, "")
+hook_mouse_press(if_gethash(292, 104), None, "")
+hook_mouse_press(if_gethash(292, 103), None, "")
+return

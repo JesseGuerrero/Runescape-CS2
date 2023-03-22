@@ -1,0 +1,79 @@
+//script917(917)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+cc_deleteall(if_gethash(449, 8))
+store_varc(742, 0)
+iVar0 = inv_total(load_varc(743), 93)
+iVar1 = -1
+if((2147483647 - inv_total(995, 93)) - inv_total(995, 623) > 0)
+	iVar1 = inv_total(995, 93) + inv_total(995, 623)
+else
+	iVar1 = 2147483647
+if_setcolor(29425666, load_varc(1241))
+if_setcolor(29425678, load_varc(1241))
+if_setcolor(29425686, load_varc(1241))
+if_setcolor(29425688, load_varc(1241))
+if(load_varc(743) != -1) {
+	if(load_varc(743) == 995)
+		iVar0 = iVar1
+	script_919()
+	if_sethide(if_gethash(449, 15), 0)
+	if_setsize(if_gethash(449, 6), 0, 2, 147, 16384)
+} else  {
+	instr6879(if_gethash(449, 23), -1, -1)
+	if_sethide(if_gethash(449, 15), 1)
+	if_setsize(if_gethash(449, 6), 0, 2, 187, 16384)
+	if(load_varp(1109) != -1)
+		if(script_5567(995, load_varp(1111) * load_varp(1110)) == 0)
+			if_setcolor(29425689, 0xFF0000)
+		else
+			if_setcolor(29425689, load_varc(1241))
+}
+if(load_varc(743) == -1)
+	switch(iVar1) {
+		case default:
+			break
+		case 0:
+			if_settext(if_gethash(449, 25), "You have no coins.")
+			break
+		case 1:
+			if_settext(if_gethash(449, 25), "You have one coin.")
+			break
+		case 2147483647:
+			if_settext(if_gethash(449, 25), "You have more than " + script_940(iVar1) + " coins!")
+			if_settext(if_gethash(449, 25), "You have " + script_940(iVar1) + " coins.")
+			break
+
+	}
+else
+	switch(iVar0) {
+		case default:
+			break
+		case 0:
+			if_settext(if_gethash(449, 25), "You have no " + enum(62, load_varc(743), 'o', 's') + ".")
+			break
+		case 1:
+			if_settext(if_gethash(449, 25), "You have one " + enum(923, load_varc(743), 'o', 's') + ".")
+			break
+		case 2147483647:
+			if_settext(if_gethash(449, 25), "You have more than " + script_940(iVar0) + " " + enum(62, load_varc(743), 'o', 's') + "!")
+			if_settext(if_gethash(449, 25), "You have " + script_940(iVar0) + " " + enum(62, load_varc(743), 'o', 's') + ".")
+			break
+
+	}
+iVar2 = 181
+iVar3 = script_920(iVar2)
+if(iVar3 > if_getheight(if_gethash(449, 8))) {
+	iVar2 = 165
+	cc_deleteall(if_gethash(449, 8))
+	iVar3 = script_920(iVar2)
+} else 
+	cc_deleteall(if_gethash(449, 9))
+if_setscrollsize(29425672, iVar3, iVar2)
+if_setsize(if_gethash(449, 8), 1, 0, 6, iVar2)
+if_setscrollpos(if_gethash(449, 8), 0, 0)
+if(iVar3 > if_getheight(if_gethash(449, 8)))
+	script_31(29425673, 29425672, 792, 789, 790, 791, 773, 788)
+return

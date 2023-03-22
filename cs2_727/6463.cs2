@@ -1,0 +1,43 @@
+//script6463(6463)(int arg0)(void)
+if(arg0 == 0)
+	return
+script_6476(0, 0, 85917711, 85917712, 85917717)
+hook_mouse_enter(if_gethash(1311, 27), script_6475, "iiIII", 0, 1, if_gethash(1311, 15), if_gethash(1311, 16), if_gethash(1311, 21))
+hook_mouse_exit(if_gethash(1311, 27), script_6475, "iiIII", 0, 0, if_gethash(1311, 15), if_gethash(1311, 16), if_gethash(1311, 21))
+script_6476(0, 0, 85917713, 85917714, 85917715)
+hook_mouse_enter(if_gethash(1311, 30), script_6475, "iiIII", 0, 1, if_gethash(1311, 17), if_gethash(1311, 18), if_gethash(1311, 19))
+hook_mouse_exit(if_gethash(1311, 30), script_6475, "iiIII", 0, 0, if_gethash(1311, 17), if_gethash(1311, 18), if_gethash(1311, 19))
+script_6476(0, 0, 85917719, 85917720, 85917721)
+hook_mouse_enter(if_gethash(1311, 28), script_6475, "iiIII", 0, 1, if_gethash(1311, 23), if_gethash(1311, 24), if_gethash(1311, 25))
+hook_mouse_exit(if_gethash(1311, 28), script_6475, "iiIII", 0, 0, if_gethash(1311, 23), if_gethash(1311, 24), if_gethash(1311, 25))
+script_6476(0, 0, 85917727, 85917728, 85917729)
+hook_mouse_enter(if_gethash(1311, 29), script_6475, "iiIII", 0, 1, if_gethash(1311, 31), if_gethash(1311, 32), if_gethash(1311, 33))
+hook_mouse_exit(if_gethash(1311, 29), script_6475, "iiIII", 0, 0, if_gethash(1311, 31), if_gethash(1311, 32), if_gethash(1311, 33))
+if_sethide(if_gethash(1311, 68), 1)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		script_6476(1, 0, 85917713, 85917714, 85917715)
+		hook_mouse_enter(if_gethash(1311, 30), script_6475, "iiIII", 1, 1, if_gethash(1311, 17), if_gethash(1311, 18), if_gethash(1311, 19))
+		hook_mouse_exit(if_gethash(1311, 30), script_6475, "iiIII", 1, 0, if_gethash(1311, 17), if_gethash(1311, 18), if_gethash(1311, 19))
+		break
+	case 2:
+		script_6476(1, 0, 85917711, 85917712, 85917717)
+		hook_mouse_enter(if_gethash(1311, 27), script_6475, "iiIII", 1, 1, if_gethash(1311, 15), if_gethash(1311, 16), if_gethash(1311, 21))
+		hook_mouse_exit(if_gethash(1311, 27), script_6475, "iiIII", 1, 0, if_gethash(1311, 15), if_gethash(1311, 16), if_gethash(1311, 21))
+		if_sethide(if_gethash(1311, 68), 0)
+		break
+	case 3:
+		script_6476(1, 0, 85917719, 85917720, 85917721)
+		hook_mouse_enter(if_gethash(1311, 28), script_6475, "iiIII", 1, 1, if_gethash(1311, 23), if_gethash(1311, 24), if_gethash(1311, 25))
+		hook_mouse_exit(if_gethash(1311, 28), script_6475, "iiIII", 1, 0, if_gethash(1311, 23), if_gethash(1311, 24), if_gethash(1311, 25))
+		break
+	case 4:
+		script_6476(1, 0, 85917727, 85917728, 85917729)
+		hook_mouse_enter(if_gethash(1311, 29), script_6475, "iiIII", 1, 1, if_gethash(1311, 31), if_gethash(1311, 32), if_gethash(1311, 33))
+		hook_mouse_exit(if_gethash(1311, 29), script_6475, "iiIII", 1, 0, if_gethash(1311, 31), if_gethash(1311, 32), if_gethash(1311, 33))
+		break
+
+}
+return

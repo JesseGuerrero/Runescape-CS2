@@ -1,0 +1,74 @@
+//script86(86)(int arg0, int arg1, string arg2)(void)
+int iVar2
+string sVar0
+arg0 = removetags(arg0)
+sVar0 = removetags(chat_getcrownedname(arg1))
+iVar2 = chatline_gettype(arg1)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		opplayer(4, arg0)
+		break
+	case 2:
+		opplayer(1, arg0)
+		break
+	case 3:
+		opplayer(7, arg0)
+		break
+	case 4:
+		opplayer(1, arg0)
+		break
+	case 5:
+		opplayer(9, arg0)
+		break
+	case 6:
+		if(script_2709() == 0) {
+			send_message("You cannot add a friend until you have entered your date of birth")
+			return
+		}
+		if(friend_test(arg0) == 1)
+			if(world_isquickchat() == 0)
+				if(userdetail_quickchat() == 0) {
+					store_varc(1650, 1)
+					store_varc_string(23, arg0)
+					script_1558(0)
+					return
+				}
+		else
+			friend_add(arg0)
+		break
+	case 7:
+		ignore_add(arg0)
+		break
+	case 8:
+		store_varc_string(24, arg0)
+		break
+	case 9:
+		if(iVar2 == 17)
+			script_1052(4, chat_quickchatid(arg1), chat_getcrownedname(arg1))
+		else
+			if(iVar2 == 18)
+				script_1052(5, chat_quickchatid(arg1), chat_getcrownedname(arg1))
+			else
+				if(iVar2 == 20)
+					script_1052(6, chat_quickchatid(arg1), chat_getcrownedname(arg1))
+				else
+					if(iVar2 == 42)
+						script_1052(9, chat_quickchatid(arg1), chat_getcrownedname(arg1))
+					else
+						if(iVar2 == 45)
+							script_1052(11, chat_quickchatid(arg1), chat_getcrownedname(arg1))
+		break
+	case 10:
+		if(iVar2 == 41 || iVar2 == 42)
+			script_4465(arg0)
+		else
+			if(iVar2 == 9 || iVar2 == 20)
+				script_1633(arg0)
+			else
+				opplayer(5, arg0)
+		break
+
+}
+return

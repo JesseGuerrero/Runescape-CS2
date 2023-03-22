@@ -1,0 +1,185 @@
+//script5683(5683)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+cc_deleteall(if_gethash(1218, 30))
+cc_deleteall(if_gethash(1218, 72))
+store_varc(1753, arg0)
+store_varc(1754, 1)
+iVar1 = 0
+iVar2 = -1
+iVar3 = 0
+iVar4 = 0
+iVar5 = 30
+iVar6 = 0
+if_settext(if_gethash(1218, 172), "Milestones")
+if_sethide(if_gethash(1218, 3), 0)
+if(arg0 > 0) {
+	if_sethide(if_gethash(1218, 6), 0)
+	if_sethide(if_gethash(1218, 7), 0)
+	if_settext(if_gethash(1218, 85), enum(108, arg0, 'i', 's'))
+	if_settext(if_gethash(1218, 86), to_string(stat_base(enum(681, arg0, 'i', 'S'))))
+	cc_deleteall(if_gethash(1218, 161))
+	iVar2 = enum(5421, arg0, 'i', 'g')
+	iVar6 = enum_getoutputcount(iVar2)
+	iVar1 = 35 + (enum_getoutputcount(iVar2) * 15)
+	if_setsize(if_gethash(1218, 7), 0, 0, iVar1, 150)
+	while(iVar3 < iVar6) {
+		cc_create(iVar4, 4, 79823009)
+		instr6091(script_5708, "i", iVar4)
+		instr6092(script_5709, "i", iVar4)
+		instr6088(script_5710, "ii", arg0, iVar4)
+		iVar4 = iVar4 + 1
+		cc_setposition(0, 0, iVar5, 0)
+		cc_settextfont(4040)
+		cc_settextshadow(1)
+		if(iVar3 < 2)
+			cc_setcolor(8beb74)
+		else
+			cc_setcolor(e6be78)
+		cc_settext(enum(iVar2, iVar3, 'i', 's'))
+		cc_settextalign(0, 2, 1)
+		cc_setsize(0, 1, 15, 0)
+		iVar5 = iVar5 + 15
+		iVar3 = iVar3 + 1
+	}
+}
+if_setgraphic(if_gethash(1218, 31), 7844)
+if_setgraphic(if_gethash(1218, 82), 7844)
+if_setgraphic(if_gethash(1218, 112), 7844)
+if_setgraphic(if_gethash(1218, 106), 7844)
+if_setgraphic(if_gethash(1218, 145), 7844)
+if_setgraphic(if_gethash(1218, 124), 7844)
+if_setgraphic(if_gethash(1218, 91), 7844)
+if_setgraphic(if_gethash(1218, 109), 7844)
+if_setgraphic(if_gethash(1218, 155), 7844)
+if_setgraphic(if_gethash(1218, 148), 7844)
+if_setgraphic(if_gethash(1218, 142), 7844)
+if_setgraphic(if_gethash(1218, 127), 7844)
+if_setgraphic(if_gethash(1218, 117), 7844)
+if_setgraphic(if_gethash(1218, 133), 7844)
+if_setgraphic(if_gethash(1218, 100), 7844)
+if_setgraphic(if_gethash(1218, 136), 7844)
+if_setgraphic(if_gethash(1218, 97), 7844)
+if_setgraphic(if_gethash(1218, 94), 7844)
+if_setgraphic(if_gethash(1218, 103), 7844)
+if_setgraphic(if_gethash(1218, 130), 7844)
+if_setgraphic(if_gethash(1218, 139), 7844)
+if_setgraphic(if_gethash(1218, 88), 7844)
+if_setgraphic(if_gethash(1218, 158), 7844)
+if_setgraphic(if_gethash(1218, 121), 7844)
+if_setgraphic(if_gethash(1218, 152), 7844)
+iVar7 = 0
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1218, 82), 9287)
+		iVar7 = 0
+		break
+	case 2:
+		if_setgraphic(if_gethash(1218, 88), 9287)
+		iVar7 = -640
+		break
+	case 5:
+		if_setgraphic(if_gethash(1218, 91), 9287)
+		iVar7 = 0
+		break
+	case 3:
+		if_setgraphic(if_gethash(1218, 94), 9287)
+		iVar7 = -640
+		break
+	case 7:
+		if_setgraphic(if_gethash(1218, 97), 9287)
+		iVar7 = -640
+		break
+	case 4:
+		if_setgraphic(if_gethash(1218, 100), 9287)
+		iVar7 = -320
+		break
+	case 6:
+		if_setgraphic(if_gethash(1218, 112), 9287)
+		iVar7 = 0
+		break
+	case 8:
+		if_setgraphic(if_gethash(1218, 31), 9287)
+		iVar7 = 0
+		break
+	case 9:
+		if_setgraphic(if_gethash(1218, 117), 9287)
+		iVar7 = -320
+		break
+	case 10:
+		if_setgraphic(if_gethash(1218, 121), 9287)
+		iVar7 = -640
+		break
+	case 11:
+		if_setgraphic(if_gethash(1218, 124), 9287)
+		iVar7 = 0
+		break
+	case 19:
+		if_setgraphic(if_gethash(1218, 127), 9287)
+		iVar7 = -320
+		break
+	case 13:
+		if_setgraphic(if_gethash(1218, 136), 9287)
+		iVar7 = -320
+		break
+	case 14:
+		if_setgraphic(if_gethash(1218, 139), 9287)
+		iVar7 = -640
+		break
+	case 15:
+		if_setgraphic(if_gethash(1218, 142), 9287)
+		iVar7 = -320
+		break
+	case 16:
+		if_setgraphic(if_gethash(1218, 145), 9287)
+		iVar7 = 0
+		break
+	case 17:
+		if_setgraphic(if_gethash(1218, 148), 9287)
+		iVar7 = -320
+		break
+	case 18:
+		if_setgraphic(if_gethash(1218, 152), 9287)
+		iVar7 = -960
+		break
+	case 12:
+		if_setgraphic(if_gethash(1218, 103), 9287)
+		iVar7 = -640
+		break
+	case 20:
+		if_setgraphic(if_gethash(1218, 130), 9287)
+		iVar7 = -640
+		break
+	case 21:
+		if_setgraphic(if_gethash(1218, 155), 9287)
+		iVar7 = -320
+		break
+	case 22:
+		if_setgraphic(if_gethash(1218, 106), 9287)
+		iVar7 = 0
+		break
+	case 23:
+		if_setgraphic(if_gethash(1218, 133), 9287)
+		iVar7 = -320
+		break
+	case 24:
+		if_setgraphic(if_gethash(1218, 158), 9287)
+		iVar7 = -640
+		break
+	case 25:
+		if_setgraphic(if_gethash(1218, 109), 9287)
+		iVar7 = 0
+		break
+
+}
+store_varc(1752, 0)
+instr6342(if_gethash(1218, 74), None, "")
+if_setposition(if_gethash(1218, 32), 0, 0, iVar7, if_getx(if_gethash(1218, 32)))
+return

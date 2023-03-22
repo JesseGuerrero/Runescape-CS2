@@ -1,0 +1,339 @@
+void script_430() {
+	int int0;
+	int int1;
+	Item item2;
+	int0 = 0;
+	if (VARP[197] < 16) {
+		int0 = 1;
+	}
+	int1 = 0;
+	item2 = datamap('i', 'o', 1253, VARPBIT[3216]);
+	if (item2 == 2349) {
+		script_431(widget(312, 2), "Dagger", 1205, 0, item2);
+		script_431(widget(312, 3), "Sword", 1277, 0, item2);
+		script_431(widget(312, 4), "Scimitar", 1321, 0, item2);
+		script_431(widget(312, 5), "Long sword", 1291, 0, item2);
+		script_431(widget(312, 6), "2-hand sword", 1307, 0, item2);
+		script_431(widget(312, 7), "Axe", 1351, 0, item2);
+		script_431(widget(312, 8), "Mace", 1422, 0, item2);
+		script_431(widget(312, 9), "Warhammer", 1337, 0, item2);
+		script_431(widget(312, 10), "Battle axe", 1375, 0, item2);
+		if (VARP[314] >= 80) {
+			script_431(widget(312, 11), "Claws", 3095, 0, item2);
+		} else {
+			script_431(widget(312, 11), "", null, 0, item2);
+		}
+		script_431(widget(312, 12), "Chain body", 1103, 0, item2);
+		script_431(widget(312, 13), "Plate legs", 1075, 0, item2);
+		script_431(widget(312, 14), "Plate skirt", 1087, 0, item2);
+		script_431(widget(312, 15), "Plate body", 1117, 0, item2);
+		script_431(widget(312, 16), "Nails", 4819, 0, item2);
+		script_431(widget(312, 17), "Medium helm", 1139, 0, item2);
+		script_431(widget(312, 18), "Full helm", 1155, 0, item2);
+		script_431(widget(312, 19), "Square shield", 1173, 0, item2);
+		script_431(widget(312, 20), "Kite shield", 1189, 0, item2);
+		script_431(widget(312, 21), "", null, 0, item2);
+		script_431(widget(312, 22), "", null, 0, item2);
+		script_431(widget(312, 23), "Dart tips", 819, int0, item2);
+		script_431(widget(312, 24), "Arrowtips", 39, 0, item2);
+		script_431(widget(312, 25), "Knives", 864, 0, item2);
+		script_431(widget(312, 26), "Bronze wire", 1794, 0, item2);
+		script_431(widget(312, 27), "", null, 0, item2);
+		if (isMember() == true) {
+			script_431(widget(312, 28), "Bolts", 9375, 0, item2);
+			script_431(widget(312, 29), "Limbs", 9420, 0, item2);
+			script_431(widget(312, 30), "Javelin heads", 19570, 0, item2);
+		} else {
+			script_431(widget(312, 28), "", null, 0, item2);
+			script_431(widget(312, 29), "", null, 0, item2);
+			script_431(widget(312, 30), "", null, 0, item2);
+		}
+	} else if (item2 == 2351) {
+		script_431(widget(312, 2), "Dagger", 1203, 0, item2);
+		script_431(widget(312, 3), "Sword", 1279, 0, item2);
+		script_431(widget(312, 4), "Scimitar", 1323, 0, item2);
+		script_431(widget(312, 5), "Long sword", 1293, 0, item2);
+		script_431(widget(312, 6), "2-hand sword", 1309, 0, item2);
+		script_431(widget(312, 7), "Axe", 1349, 0, item2);
+		script_431(widget(312, 8), "Mace", 1420, 0, item2);
+		script_431(widget(312, 9), "Warhammer", 1335, 0, item2);
+		script_431(widget(312, 10), "Battle axe", 1363, 0, item2);
+		if (VARP[314] >= 80) {
+			script_431(widget(312, 11), "Claws", 3096, 0, item2);
+		} else {
+			script_431(widget(312, 11), "", null, 0, item2);
+		}
+		script_431(widget(312, 12), "Chain body", 1101, 0, item2);
+		script_431(widget(312, 13), "Plate legs", 1067, 0, item2);
+		script_431(widget(312, 14), "Plate skirt", 1081, 0, item2);
+		script_431(widget(312, 15), "Plate body", 1115, 0, item2);
+		script_431(widget(312, 16), "Nails", 4820, 0, item2);
+		script_431(widget(312, 17), "Medium helm", 1137, 0, item2);
+		script_431(widget(312, 18), "Full helm", 1153, 0, item2);
+		script_431(widget(312, 19), "Square shield", 1175, 0, item2);
+		script_431(widget(312, 20), "Kite shield", 1191, 0, item2);
+		script_431(widget(312, 21), "Oil lantern frame", 4540, 0, item2);
+		script_431(widget(312, 22), "", null, 0, item2);
+		script_431(widget(312, 23), "Dart tips", 820, int0, item2);
+		script_431(widget(312, 24), "Arrowtips", 40, 0, item2);
+		script_431(widget(312, 25), "Knives", 863, 0, item2);
+		script_431(widget(312, 26), "Iron spit", 7225, 0, item2);
+		script_431(widget(312, 27), "", null, 0, item2);
+		if (isMember() == true) {
+			script_431(widget(312, 28), "Bolts", 9377, 0, item2);
+			script_431(widget(312, 29), "Limbs", 9423, 0, item2);
+			script_431(widget(312, 30), "Javelin heads", 19572, 0, item2);
+		} else {
+			script_431(widget(312, 28), "", null, 0, item2);
+			script_431(widget(312, 29), "", null, 0, item2);
+			script_431(widget(312, 30), "", null, 0, item2);
+		}
+	} else if (item2 == 2353) {
+		script_431(widget(312, 2), "Dagger", 1207, 0, item2);
+		script_431(widget(312, 3), "Sword", 1281, 0, item2);
+		script_431(widget(312, 4), "Scimitar", 1325, 0, item2);
+		script_431(widget(312, 5), "Long sword", 1295, 0, item2);
+		script_431(widget(312, 6), "2-hand sword", 1311, 0, item2);
+		script_431(widget(312, 7), "Axe", 1353, 0, item2);
+		script_431(widget(312, 8), "Mace", 1424, 0, item2);
+		script_431(widget(312, 9), "Warhammer", 1339, 0, item2);
+		script_431(widget(312, 10), "Battle axe", 1365, 0, item2);
+		if (VARP[314] >= 80) {
+			script_431(widget(312, 11), "Claws", 3097, 0, item2);
+		} else {
+			script_431(widget(312, 11), "", null, 0, item2);
+		}
+		script_431(widget(312, 12), "Chain body", 1105, 0, item2);
+		script_431(widget(312, 13), "Plate legs", 1069, 0, item2);
+		script_431(widget(312, 14), "Plate skirt", 1083, 0, item2);
+		script_431(widget(312, 15), "Plate body", 1119, 0, item2);
+		script_431(widget(312, 16), "Nails", 1539, 0, item2);
+		script_431(widget(312, 17), "Medium helm", 1141, 0, item2);
+		script_431(widget(312, 18), "Full helm", 1157, 0, item2);
+		script_431(widget(312, 19), "Square shield", 1177, 0, item2);
+		script_431(widget(312, 20), "Kite shield", 1193, 0, item2);
+		script_431(widget(312, 21), "Bullseye lantern", 4544, 0, item2);
+		script_431(widget(312, 22), "", null, 0, item2);
+		script_431(widget(312, 23), "Dart tips", 821, int0, item2);
+		script_431(widget(312, 24), "Arrowtips", 41, 0, item2);
+		script_431(widget(312, 25), "Knives", 865, 0, item2);
+		script_431(widget(312, 26), "Studs", 2370, 0, item2);
+		script_431(widget(312, 27), "", null, 0, item2);
+		if (isMember() == true) {
+			script_431(widget(312, 28), "Bolts", 9378, 0, item2);
+			script_431(widget(312, 29), "Limbs", 9425, 0, item2);
+			script_431(widget(312, 30), "Javelin heads", 19574, 0, item2);
+		} else {
+			script_431(widget(312, 28), "", null, 0, item2);
+			script_431(widget(312, 29), "", null, 0, item2);
+			script_431(widget(312, 30), "", null, 0, item2);
+		}
+	} else if (item2 == 2359) {
+		script_431(widget(312, 2), "Dagger", 1209, 0, item2);
+		script_431(widget(312, 3), "Sword", 1285, 0, item2);
+		script_431(widget(312, 4), "Scimitar", 1329, 0, item2);
+		script_431(widget(312, 5), "Long sword", 1299, 0, item2);
+		script_431(widget(312, 6), "2-hand sword", 1315, 0, item2);
+		script_431(widget(312, 7), "Axe", 1355, 0, item2);
+		script_431(widget(312, 8), "Mace", 1428, 0, item2);
+		script_431(widget(312, 9), "Warhammer", 1343, 0, item2);
+		script_431(widget(312, 10), "Battle axe", 1369, 0, item2);
+		if (VARP[314] >= 80) {
+			script_431(widget(312, 11), "Claws", 3099, 0, item2);
+		} else {
+			script_431(widget(312, 11), "", null, 0, item2);
+		}
+		script_431(widget(312, 12), "Chain body", 1109, 0, item2);
+		script_431(widget(312, 13), "Plate legs", 1071, 0, item2);
+		script_431(widget(312, 14), "Plate skirt", 1085, 0, item2);
+		script_431(widget(312, 15), "Plate body", 1121, 0, item2);
+		script_431(widget(312, 16), "Nails", 4822, 0, item2);
+		script_431(widget(312, 17), "Medium helm", 1143, 0, item2);
+		script_431(widget(312, 18), "Full helm", 1159, 0, item2);
+		script_431(widget(312, 19), "Square shield", 1181, 0, item2);
+		script_431(widget(312, 20), "Kite shield", 1197, 0, item2);
+		script_431(widget(312, 21), "", null, 0, item2);
+		script_431(widget(312, 22), "", null, 0, item2);
+		script_431(widget(312, 23), "Dart tips", 822, int0, item2);
+		script_431(widget(312, 24), "Arrowtips", 42, 0, item2);
+		script_431(widget(312, 25), "Knives", 866, 0, item2);
+		script_431(widget(312, 27), "", null, 0, item2);
+		if (isMember() == true) {
+			script_431(widget(312, 28), "Bolts", 9379, 0, item2);
+			script_431(widget(312, 29), "Limbs", 9427, 0, item2);
+			script_431(widget(312, 30), "Javelin heads", 19576, 0, item2);
+			script_431(widget(312, 26), "Grapple Tip", 9416, 0, item2);
+		} else {
+			script_431(widget(312, 28), "", null, 0, item2);
+			script_431(widget(312, 29), "", null, 0, item2);
+			script_431(widget(312, 30), "", null, 0, item2);
+			script_431(widget(312, 26), "", null, 0, item2);
+		}
+	} else if (item2 == 2361) {
+		script_431(widget(312, 2), "Dagger", 1211, 0, item2);
+		script_431(widget(312, 3), "Sword", 1287, 0, item2);
+		script_431(widget(312, 4), "Scimitar", 1331, 0, item2);
+		script_431(widget(312, 5), "Long sword", 1301, 0, item2);
+		script_431(widget(312, 6), "2-hand sword", 1317, 0, item2);
+		script_431(widget(312, 7), "Axe", 1357, 0, item2);
+		script_431(widget(312, 8), "Mace", 1430, 0, item2);
+		script_431(widget(312, 9), "Warhammer", 1345, 0, item2);
+		script_431(widget(312, 10), "Battle axe", 1371, 0, item2);
+		if (VARP[314] >= 80) {
+			script_431(widget(312, 11), "Claws", 3100, 0, item2);
+		} else {
+			script_431(widget(312, 11), "", null, 0, item2);
+		}
+		script_431(widget(312, 12), "Chain body", 1111, 0, item2);
+		script_431(widget(312, 13), "Plate legs", 1073, 0, item2);
+		script_431(widget(312, 14), "Plate skirt", 1091, 0, item2);
+		script_431(widget(312, 15), "Plate body", 1123, 0, item2);
+		script_431(widget(312, 16), "Nails", 4823, 0, item2);
+		script_431(widget(312, 17), "Medium helm", 1145, 0, item2);
+		script_431(widget(312, 18), "Full helm", 1161, 0, item2);
+		script_431(widget(312, 19), "Square shield", 1183, 0, item2);
+		script_431(widget(312, 20), "Kite shield", 1199, 0, item2);
+		script_431(widget(312, 21), "", null, 0, item2);
+		script_431(widget(312, 22), "", null, 0, item2);
+		script_431(widget(312, 23), "Dart tips", 823, int0, item2);
+		script_431(widget(312, 24), "Arrowtips", 43, 0, item2);
+		script_431(widget(312, 25), "Knives", 867, 0, item2);
+		script_431(widget(312, 26), "", null, 0, item2);
+		script_431(widget(312, 27), "", null, 0, item2);
+		if (isMember() == true) {
+			script_431(widget(312, 28), "Bolts", 9380, 0, item2);
+			script_431(widget(312, 29), "Limbs", 9429, 0, item2);
+			script_431(widget(312, 30), "Javelin heads", 19578, 0, item2);
+		} else {
+			script_431(widget(312, 28), "", null, 0, item2);
+			script_431(widget(312, 29), "", null, 0, item2);
+			script_431(widget(312, 30), "", null, 0, item2);
+		}
+	} else if (item2 == 2363) {
+		script_431(widget(312, 2), "Dagger", 1213, 0, item2);
+		script_431(widget(312, 3), "Sword", 1289, 0, item2);
+		script_431(widget(312, 4), "Scimitar", 1333, 0, item2);
+		script_431(widget(312, 5), "Long sword", 1303, 0, item2);
+		script_431(widget(312, 6), "2-hand sword", 1319, 0, item2);
+		script_431(widget(312, 7), "Axe", 1359, 0, item2);
+		script_431(widget(312, 8), "Mace", 1432, 0, item2);
+		script_431(widget(312, 9), "Warhammer", 1347, 0, item2);
+		script_431(widget(312, 10), "Battle axe", 1373, 0, item2);
+		if (VARP[314] >= 80) {
+			script_431(widget(312, 11), "Claws", 3101, 0, item2);
+		} else {
+			script_431(widget(312, 11), "", null, 0, item2);
+		}
+		script_431(widget(312, 12), "Chain body", 1113, 0, item2);
+		script_431(widget(312, 13), "Plate legs", 1079, 0, item2);
+		script_431(widget(312, 14), "Plate skirt", 1093, 0, item2);
+		script_431(widget(312, 15), "Plate body", 1127, 0, item2);
+		script_431(widget(312, 16), "Nails", 4824, 0, item2);
+		script_431(widget(312, 17), "Medium helm", 1147, 0, item2);
+		script_431(widget(312, 18), "Full helm", 1163, 0, item2);
+		script_431(widget(312, 19), "Square shield", 1185, 0, item2);
+		script_431(widget(312, 20), "Kite shield", 1201, 0, item2);
+		script_431(widget(312, 21), "", null, 0, item2);
+		script_431(widget(312, 22), "", null, 0, item2);
+		script_431(widget(312, 23), "Dart tips", 824, int0, item2);
+		script_431(widget(312, 24), "Arrowtips", 44, 0, item2);
+		script_431(widget(312, 25), "Knives", 868, 0, item2);
+		script_431(widget(312, 26), "", null, 0, item2);
+		script_431(widget(312, 27), "", null, 0, item2);
+		if (isMember() == true) {
+			script_431(widget(312, 28), "Bolts", 9381, 0, item2);
+			script_431(widget(312, 29), "Limbs", 9431, 0, item2);
+			script_431(widget(312, 30), "Javelin heads", 19580, 0, item2);
+		} else {
+			script_431(widget(312, 28), "", null, 0, item2);
+			script_431(widget(312, 29), "", null, 0, item2);
+			script_431(widget(312, 30), "", null, 0, item2);
+		}
+	} else if (item2 == 13354) {
+		if (VARPBIT[4898] < datamap('i', 'i', 1267, 13)) {
+			int1 = 1;
+		} else {
+			int1 = 0;
+		}
+		script_431(widget(312, 2), "Gloves (1)", 13538, int1, item2);
+		script_431(widget(312, 3), "Boots (1)", 13539, int1, item2);
+		script_431(widget(312, 4), "Helm (1)", 13540, int1, item2);
+		script_431(widget(312, 5), "Greaves (1)", 13541, int1, item2);
+		script_431(widget(312, 6), "Platebody (1)", 13542, int1, item2);
+		if (VARPBIT[4898] < datamap('i', 'i', 1267, 14)) {
+			int1 = 1;
+		} else {
+			int1 = 0;
+		}
+		script_431(widget(312, 7), "Gloves (2)", 13543, int1, item2);
+		script_431(widget(312, 8), "Boots (2)", 13544, int1, item2);
+		script_431(widget(312, 9), "Helm (2)", 13545, int1, item2);
+		script_431(widget(312, 10), "Greaves (2)", 13546, int1, item2);
+		script_431(widget(312, 11), "Platebody (2)", 13547, int1, item2);
+		if (VARPBIT[4898] < datamap('i', 'i', 1267, 15)) {
+			int1 = 1;
+		} else {
+			int1 = 0;
+		}
+		script_431(widget(312, 12), "Gloves (3)", 13548, int1, item2);
+		script_431(widget(312, 13), "Boots (3)", 13549, int1, item2);
+		script_431(widget(312, 14), "Helm (3)", 13550, int1, item2);
+		script_431(widget(312, 15), "Greaves (3)", 13551, int1, item2);
+		script_431(widget(312, 16), "Platebody (3)", 13552, int1, item2);
+		if (VARPBIT[4898] < datamap('i', 'i', 1267, 16)) {
+			int1 = 1;
+		} else {
+			int1 = 0;
+		}
+		script_431(widget(312, 17), "Gloves (4)", 13553, int1, item2);
+		script_431(widget(312, 18), "Boots (4)", 13554, int1, item2);
+		script_431(widget(312, 19), "Helm (4)", 13555, int1, item2);
+		script_431(widget(312, 20), "Greaves (4)", 13556, int1, item2);
+		script_431(widget(312, 21), "", null, 0, item2);
+		script_431(widget(312, 22), "Platebody (4)", 13557, int1, item2);
+		if (VARPBIT[4898] < datamap('i', 'i', 1267, 17)) {
+			int1 = 1;
+		} else {
+			int1 = 0;
+		}
+		script_431(widget(312, 23), "Gloves (5)", 13558, int1, item2);
+		script_431(widget(312, 24), "Boots (5)", 13559, int1, item2);
+		script_431(widget(312, 25), "Helm (5)", 13560, int1, item2);
+		script_431(widget(312, 26), "Greaves (5)", 13561, int1, item2);
+		script_431(widget(312, 27), "Platebody (5)", 13562, int1, item2);
+		script_431(widget(312, 28), "", null, 0, item2);
+		script_431(widget(312, 29), "", null, 0, item2);
+		script_431(widget(312, 30), "", null, 0, item2);
+	} else {
+		script_431(widget(312, 2), "", null, 0, item2);
+		script_431(widget(312, 3), "", null, 0, item2);
+		script_431(widget(312, 4), "", null, 0, item2);
+		script_431(widget(312, 5), "", null, 0, item2);
+		script_431(widget(312, 6), "", null, 0, item2);
+		script_431(widget(312, 7), "", null, 0, item2);
+		script_431(widget(312, 8), "", null, 0, item2);
+		script_431(widget(312, 9), "", null, 0, item2);
+		script_431(widget(312, 10), "", null, 0, item2);
+		script_431(widget(312, 11), "", null, 0, item2);
+		script_431(widget(312, 12), "", null, 0, item2);
+		script_431(widget(312, 13), "", null, 0, item2);
+		script_431(widget(312, 14), "", null, 0, item2);
+		script_431(widget(312, 15), "", null, 0, item2);
+		script_431(widget(312, 16), "", null, 0, item2);
+		script_431(widget(312, 17), "", null, 0, item2);
+		script_431(widget(312, 18), "", null, 0, item2);
+		script_431(widget(312, 19), "", null, 0, item2);
+		script_431(widget(312, 20), "", null, 0, item2);
+		script_431(widget(312, 21), "", null, 0, item2);
+		script_431(widget(312, 22), "", null, 0, item2);
+		script_431(widget(312, 23), "", null, 0, item2);
+		script_431(widget(312, 24), "", null, 0, item2);
+		script_431(widget(312, 25), "", null, 0, item2);
+		script_431(widget(312, 26), "", null, 0, item2);
+		script_431(widget(312, 27), "", null, 0, item2);
+		script_431(widget(312, 28), "", null, 0, item2);
+		script_431(widget(312, 29), "", null, 0, item2);
+		script_431(widget(312, 30), "", null, 0, item2);
+	}
+	return;
+}

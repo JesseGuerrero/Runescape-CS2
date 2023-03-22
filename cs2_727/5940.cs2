@@ -1,0 +1,32 @@
+//script5940(5940)()(void)
+store_varc(1411, 1)
+store_varc_string(363, "")
+store_varc_string(364, "")
+store_varc(1919, 0)
+if_sethide(if_gethash(906, 31), 1)
+if_sethide(if_gethash(906, 34), 0)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(906, 344), 10940)
+		if_setgraphic(if_gethash(906, 376), 10795)
+		break
+	case 1:
+		if_setgraphic(if_gethash(906, 344), 10942)
+		if_setgraphic(if_gethash(906, 376), 10797)
+		break
+	case 2:
+		if_setgraphic(if_gethash(906, 344), 10941)
+		if_setgraphic(if_gethash(906, 376), 10796)
+		break
+	case 3:
+		if_setgraphic(if_gethash(906, 344), 10943)
+		if_setgraphic(if_gethash(906, 376), 10798)
+		break
+
+}
+if_settext(if_gethash(906, 352), "Validate your email now for increased account security and these great rewards:")
+if_setsize(if_gethash(906, 346), 0, 0, if_getheight(if_gethash(906, 346)), 240)
+instr6237(if_gethash(906, 338), script_6213, "Y", 1, 2611)
+return

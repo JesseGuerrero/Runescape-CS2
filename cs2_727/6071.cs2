@@ -1,0 +1,55 @@
+//script6071(6071)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(1178, 31), 8742)
+		if_setgraphic(if_gethash(1178, 37), 8743)
+		if_setgraphic(if_gethash(1178, 38), 8744)
+		if_setgraphic(if_gethash(1178, 39), 8745)
+		if_setgraphic(if_gethash(1178, 40), 8746)
+		if_setgraphic(if_gethash(1178, 41), 8747)
+		if_setgraphic(if_gethash(1178, 42), 8748)
+		if_setgraphic(if_gethash(1178, 43), 8749)
+		if_setgraphic(if_gethash(1178, 44), 8750)
+		if_setgraphic(if_gethash(1178, 49), 8758)
+		if_setgraphic(if_gethash(1178, 50), 8759)
+		if_setgraphic(if_gethash(1178, 51), 8760)
+		if_setgraphic(if_gethash(1178, 52), 8761)
+		if_sethide(if_gethash(1178, 49), 0)
+		if_sethide(if_gethash(1178, 50), 0)
+		if_sethide(if_gethash(1178, 51), 0)
+		if_sethide(if_gethash(1178, 52), 0)
+		if_sethide(if_gethash(1178, 53), 1)
+		if_sethide(if_gethash(1178, 54), 1)
+		if_sethide(if_gethash(1178, 46), 1)
+		if_sethide(if_gethash(1178, 45), 0)
+		if_sethide(if_gethash(1178, 76), 0)
+		if_sethide(if_gethash(1178, 74), 0)
+		break
+	case 1:
+		if_setgraphic(if_gethash(1178, 31), 10428)
+		if_setgraphic(if_gethash(1178, 37), 10429)
+		if_setgraphic(if_gethash(1178, 38), 10430)
+		if_setgraphic(if_gethash(1178, 39), 10431)
+		if_setgraphic(if_gethash(1178, 40), 10432)
+		if_setgraphic(if_gethash(1178, 41), 10433)
+		if_setgraphic(if_gethash(1178, 42), 10434)
+		if_setgraphic(if_gethash(1178, 43), 10435)
+		if_setgraphic(if_gethash(1178, 44), 10436)
+		if_setgraphic(if_gethash(1178, 53), 8762)
+		if_setgraphic(if_gethash(1178, 54), 8763)
+		if_sethide(if_gethash(1178, 53), 0)
+		if_sethide(if_gethash(1178, 54), 0)
+		if_sethide(if_gethash(1178, 49), 1)
+		if_sethide(if_gethash(1178, 50), 1)
+		if_sethide(if_gethash(1178, 51), 1)
+		if_sethide(if_gethash(1178, 52), 1)
+		if_sethide(if_gethash(1178, 46), 0)
+		if_sethide(if_gethash(1178, 45), 1)
+		if_sethide(if_gethash(1178, 76), 1)
+		if_sethide(if_gethash(1178, 74), 1)
+		break
+
+}
+return

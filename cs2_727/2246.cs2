@@ -1,0 +1,20 @@
+//script2246(2246)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = inv_getitem(arg3, arg2)
+if(iVar4 == -1) {
+	if_sethide(arg0, 1)
+	if_sethide(arg1, 0)
+}
+if_sethide(arg0, 0)
+if_sethide(arg1, 1)
+if_setitem(arg0, inv_getnum(arg3, 94), iVar4)
+instr6220(arg0)
+instr6239(arg0, script_1620, "Iiiii", -2147483645, -1, 100, 0, 8)
+if(item_param(1047, iVar4) > 0)
+	if(item_param(1050, iVar4) > 0 || item_param(1051, iVar4) > 0)
+		instr6213(arg0, 3, "Destroy")
+	else
+		instr6213(arg0, 3, "Bind")
+instr6213(arg0, 10, "Examine")
+item_useonname(arg0, "<col=ff9040>" + item_name(iVar4))
+return

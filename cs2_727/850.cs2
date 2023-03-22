@@ -1,0 +1,5 @@
+//script850(850)(int arg0)(int)
+if(modulo(2, arg0) == 0)
+	return 1
+return 0
+return 0

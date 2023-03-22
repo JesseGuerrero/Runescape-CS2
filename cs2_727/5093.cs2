@@ -1,0 +1,5 @@
+//script5093(5093)(int arg0, int arg1)(void)
+store_varc(995, max(0, load_varc(995) - 1))
+if(cc_find(arg1, arg0) == 1)
+	cc_settext(script_5094())
+return

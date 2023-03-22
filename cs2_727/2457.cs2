@@ -1,0 +1,12 @@
+//script2457(2457)(int arg0, int arg1)(void)
+if(if_isopen(48889965) == 1)
+	return
+if(if_isopen(script_8(95)) == 0)
+	return
+store_varc(10, 0)
+script_1304(arg0)
+if(load_varc(168) == arg0)
+	store_varc(168, -1)
+else
+	store_varc(168, arg0)
+return

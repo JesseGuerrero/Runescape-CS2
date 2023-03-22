@@ -1,0 +1,15 @@
+//script1598(1598)(int arg0)(void)
+if(load_varc(53) < client_clock()) {
+	if(load_varpbit(4072) == 1 || load_varpbit(4073) == 1)
+		if_setgraphic(arg0, 1071)
+	else
+		if(load_varpbit(4071) == 1)
+			if(load_varpbit(4465) == 1)
+				if_setgraphic(arg0, 306)
+			else
+				if_setgraphic(arg0, 1069)
+		else
+			if_setgraphic(arg0, 1070)
+	store_varc(53, client_clock() + 500)
+}
+return

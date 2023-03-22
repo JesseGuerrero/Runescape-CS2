@@ -1,0 +1,51 @@
+int script_1936(int arg0) {
+	switch (arg0) {
+		case 4:
+			return VARP[1437];
+		case 6:
+			return VARP[1438];
+		case 1:
+			return VARP[1439];
+		case 2:
+			return VARP[1436];
+		case 0:
+			return VARP[1435];
+		case 3:
+			return VARP[1440];
+		case 9:
+			return VARP[1453];
+		case 14:
+			return VARP[1447];
+		case 8:
+			return VARP[1452];
+		case 15:
+			return VARP[1443];
+		case 10:
+			return VARP[1449];
+		case 5:
+			return VARP[1441];
+		case 16:
+			return VARP[1442];
+		case 17:
+			return VARP[1444];
+		case 7:
+			return VARP[1450];
+		case 21:
+			return VARP[1457];
+		case 12:
+			return VARP[1445];
+		case 20:
+			return VARP[1446];
+		case 18:
+			return VARP[1454];
+		case 19:
+			return VARP[1455];
+		case 22:
+			return VARP[1456];
+		case 11:
+			return VARP[1451];
+		case 13:
+			return VARP[1448];
+	}
+	return -1;
+}

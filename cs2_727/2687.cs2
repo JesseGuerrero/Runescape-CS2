@@ -1,0 +1,15 @@
+//script2687(2687)()(int)
+if(load_varp(1447) < 100)
+	return 10000
+else
+	if(load_varp(1447) < 200)
+		return 12500
+	else
+		if(load_varp(1447) < 300)
+			return 15000
+		else
+			if(load_varp(1447) < 400)
+				return 17500
+			else
+				return 20000
+return 0

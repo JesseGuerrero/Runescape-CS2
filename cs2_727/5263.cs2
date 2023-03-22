@@ -1,0 +1,16 @@
+//script5263(5263)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 28180558
+iVar2 = 28180559
+if(load_varpbit(9814) == 1) {
+	if_setposition(iVar1, 0, 0, if_gety(arg0), if_getx(arg0))
+	if_sethide(arg0, 1)
+	if_sethide(iVar1, 0)
+} else 
+	if(load_varpbit(9815) == 1) {
+		if_setposition(iVar2, 0, 0, if_gety(arg0), if_getx(arg0))
+		if_sethide(arg0, 1)
+		if_sethide(iVar2, 0)
+	}
+return

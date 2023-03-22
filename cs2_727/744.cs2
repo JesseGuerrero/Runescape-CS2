@@ -1,0 +1,29 @@
+//script744(744)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+iVar5 = -1
+iVar6 = -1
+if(arg0 == 1179657) {
+	if(arg2 == 1179657) {
+		if(cc_find(arg1, arg0) == 1)
+			if(cc_find(arg3, arg2) == 1) {
+				iVar5 = cc_containeritemid()
+				cc_setitem_nonum(1, iVar6)
+				cc_setitem_nonum(1, iVar5)
+				cc_setopbase("<col=ff9040>" + item_name(iVar6) + "</col>")
+				cc_setopbase("<col=ff9040>" + item_name(iVar5) + "</col>")
+			}
+		return
+	}
+	if(arg2 == 1179665) {
+		script_1535(arg1, 0)
+		script_59(arg4)
+	}
+	return
+}
+if(arg0 == 1179665)
+	if(arg2 == 1179657) {
+		script_1535(arg3, arg1)
+		script_59(arg4)
+	}
+return

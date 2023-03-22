@@ -1,0 +1,6 @@
+//script3479(3479)(int arg0, int arg1, int arg2, int arg3)(void)
+if_sethide(arg1, 1)
+if_sethide(arg2, 1)
+sound_synth(0, 1, 2871)
+instr6342(arg0, script_3480, "III1i", arg0, arg1, arg2, arg3, client_clock())
+return

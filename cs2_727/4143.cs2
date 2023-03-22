@@ -1,0 +1,17 @@
+//script4143(4143)()(void)
+string sVar0
+sVar0 = "null"
+if(load_varpbit(8780) == 1) {
+	if_setgraphic(if_gethash(261, 11), 4583)
+	sVar0 = "Toggle Profanity Filter" + "<br>" + "(filter is currently off)"
+	if_setonmouseover(if_gethash(261, 11), script_5332, "IIsii", -2147483645, if_gethash(261, 31), sVar0, 25, 180)
+	store_varc(2, 0)
+} else 
+	if(load_varpbit(8780) == 0) {
+		if_setgraphic(if_gethash(261, 11), 4584)
+		sVar0 = "Toggle Profanity Filter" + "<br>" + "(filter is currently on)"
+		if_setonmouseover(if_gethash(261, 11), script_5332, "IIsii", -2147483645, if_gethash(261, 31), sVar0, 25, 180)
+		store_varc(2, 0)
+	}
+script_5643(17104907, modulo(2, load_varpbit(8780) + 1))
+return

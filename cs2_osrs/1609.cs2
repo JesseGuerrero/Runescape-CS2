@@ -1,0 +1,44 @@
+void script_1609(Widget widget0, int arg1, int arg2, int arg3, Widget widget4, int arg5) {
+	int int6;
+	int int7;
+	int int8;
+	int6 = 5;
+	int7 = 0;
+	int8 = getScrollY(widget0);
+	if (arg3 - int8 < 15) {
+		if (arg5 <= getClientCycle()) {
+			if (CHILD.setChild(widget0, arg1) == true) {
+				CHILD.hookDragStart(&script_1609(CTX_WIDGET, CTX_WIDGET_CHILD, MOUSE_X, MOUSE_Y, widget4, getClientCycle() + 2));
+				return;
+			}
+		} else if (arg5 - getClientCycle() < 5) {
+			if (CHILD.setChild(widget0, arg1) == true) {
+				CHILD.hookDragStart(&script_1609(CTX_WIDGET, CTX_WIDGET_CHILD, MOUSE_X, MOUSE_Y, widget4, arg5 + 2));
+				return;
+			}
+		} else if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.hookDragStart(&script_1609(CTX_WIDGET, CTX_WIDGET_CHILD, MOUSE_X, MOUSE_Y, widget4, arg5 + 1));
+		}
+		if (arg3 < 5) {
+			int6 = 8;
+		}
+		if (int8 > int6) {
+			int8 = int8 - int6;
+		} else {
+			int8 = 0;
+		}
+		script_72(widget4, widget0, int8);
+	} else {
+		int7 = widget0.getHeight() - 32 - arg3;
+		if (int7 < 20) {
+			if (int7 < -5) {
+				int6 = 10;
+			} else if (int7 < 5) {
+				int6 = 8;
+			}
+			int8 = int8 + int6;
+			script_72(widget4, widget0, int8);
+		}
+	}
+	return;
+}

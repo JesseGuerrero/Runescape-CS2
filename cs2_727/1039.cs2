@@ -1,0 +1,76 @@
+//script1039(1039)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+store_varc(128, -1)
+iVar4 = item_find(load_varc_string(30), load_varc(161))
+iVar5 = if_getwidth(arg1)
+iVar6 = iVar5 - 8
+if(iVar4 == -1) {
+	cc_create(0, 4, arg1)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 14, iVar5)
+	cc_settextfont(495)
+	cc_settext("Too many results. Please refine your search.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(0)
+	cc_settextshadow(0)
+	if_setscrollsize(arg1, 0, 0)
+	script_1042(arg1, arg2)
+	return
+}
+if(iVar4 == 0) {
+	cc_create(0, 4, arg1)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 14, iVar5)
+	cc_settextfont(495)
+	cc_settext("No matching items found.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(0)
+	cc_settextshadow(0)
+	if_setscrollsize(arg1, 0, 0)
+	script_1042(arg1, arg2)
+	return
+}
+iVar7 = 1
+iVar8 = item_findnext()
+sVar0 = ""
+cc_create(0, 3, arg1)
+while(iVar8 != -1) {
+	if(compare(item_name(iVar8), sVar0) != 0)
+		if(enum(1547, iVar8, 'o', 'i') == 0)
+			if(compare("null", item_name(iVar8).toLowerCase()) != 0) {
+				sVar0 = item_name(iVar8)
+				cc_create(iVar7, 4, arg1)
+				cc_setposition(0, 0, 14 * (iVar7 - 1), 4)
+				cc_setsize(0, 0, 14, iVar6)
+				cc_setcolor(0)
+				cc_settext(item_name(iVar8))
+				cc_settextfont(495)
+				cc_settextshadow(0)
+				instr6091(script_1043, "iI", iVar7, arg1)
+				instr6088(script_1075, "Ieo", arg0, arg3, iVar8)
+				iVar7 = iVar7 + 1
+			}
+	iVar8 = item_findnext()
+}
+if(iVar7 == 1) {
+	cc_create(0, 4, arg1)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 14, iVar5)
+	cc_settextfont(495)
+	cc_settext("No matching items found.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(0)
+	cc_settextshadow(0)
+	if_setscrollsize(arg1, 0, 0)
+	script_1042(arg1, arg2)
+	return
+}
+instr6248(if_gethash(137, 13), script_1038, "izIIIIei", -2147483640, -2147483639, if_gethash(137, 1), if_gethash(137, 14), if_gethash(137, 16), if_gethash(137, 15), arg3, iVar7 - 1)
+if_setscrollsize(arg1, 14 * (iVar7 - 1), 0)
+script_1042(arg1, arg2)
+return

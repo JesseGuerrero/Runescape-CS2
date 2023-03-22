@@ -1,0 +1,17 @@
+void script_1617(Widget widget0) {
+	int int1;
+	int1 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 4, int1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(getOption(1, widget0));
+	widget0.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+	widget0.hookOptionClick(&script_1618(CTX_MENU_OPTION, widget0));
+	widget0.hookFrame(null);
+	return;
+}

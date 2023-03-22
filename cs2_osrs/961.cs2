@@ -1,0 +1,6 @@
+int script_961(int arg0, int arg1) {
+	if (arg0 <= 0 || isBitFlagged(arg1, 21) == true) {
+		return 0;
+	}
+	return 1;
+}

@@ -1,0 +1,21 @@
+//script5942(5942)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 82051072
+iVar1 = 82051074
+iVar2 = max(if_getwidth(iVar1), 1)
+iVar3 = max(if_getheight(iVar1), 1)
+store_varc(1787, max(-1, load_varc(1787)))
+store_varc(1788, max(-1, load_varc(1788)))
+if(load_varc(1787) == -1)
+	if(load_varc(1788) == -1) {
+		store_varc(1787, iVar2 / 2)
+		store_varc(1788, iVar3 / 2)
+	}
+store_varc(1787, min(iVar2 - if_getwidth(iVar0), load_varc(1787)))
+store_varc(1788, min((iVar2 - if_getheight(iVar0)) + 79, load_varc(1788)))
+instr6256(iVar1, script_5944, "")
+script_5945(load_varc(1787), load_varc(1788))
+return

@@ -1,0 +1,7 @@
+//script4182(4182)()(void)
+if_settext(if_gethash(1072, 53), to_string(load_varpbit(8857)) + "/" + to_string(4000))
+if_settext(if_gethash(1072, 57), to_string(load_varpbit(8859)) + "/" + to_string(4000))
+if_settext(if_gethash(1072, 61), to_string(load_varpbit(8862)) + "/" + to_string(4000))
+if_settext(if_gethash(1072, 65), to_string(load_varpbit(8863)) + "/" + to_string(4000))
+if_settext(if_gethash(1072, 49), to_string(load_varpbit(8865)) + "/" + to_string(8000))
+return

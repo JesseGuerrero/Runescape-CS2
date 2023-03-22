@@ -1,0 +1,3 @@
+//script2331(2331)(int arg0)(void)
+if_sethide(arg0, 1)
+return

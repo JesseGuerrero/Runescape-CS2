@@ -1,0 +1,10 @@
+void script_272(int arg0) {
+	if (arg0 == -1) {
+		msg("Your coffer is protected by your Bank PIN. You can unlock it at the eastern side of the enclosure.");
+	} else if (arg0 == 0) {
+		msg("Your coffer is empty. You can deposit money into the pouch at the eastern side of the enclosure.");
+	} else {
+		msg("You have " + script_46(arg0, ",") + " coins in the coffer.");
+	}
+	return;
+}

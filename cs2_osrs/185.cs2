@@ -1,0 +1,15 @@
+int script_185(int arg0) {
+	if (arg0 == 2) {
+		return m5000();
+	}
+	if (arg0 == 3) {
+		return m5005();
+	}
+	if (arg0 == 4) {
+		return VARP[1054];
+	}
+	if (arg0 == 5) {
+		return m5016();
+	}
+	return 0;
+}

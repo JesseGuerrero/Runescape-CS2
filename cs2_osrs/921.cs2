@@ -1,0 +1,9 @@
+int script_921() {
+	if (script_922() == 0) {
+		return 0;
+	}
+	if (VARPBIT[4608] == 0) {
+		return 0;
+	}
+	return 1;
+}

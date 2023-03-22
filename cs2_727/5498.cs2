@@ -1,0 +1,8 @@
+//script5498(5498)(int arg0, int arg1)(void)
+if(cc_find(arg0, arg1) == 1)
+	if(cc_gettransparency() < 255)
+		if(cc_gettransparency() + 5 > 255)
+			cc_settrans(255)
+		else
+			cc_settrans(cc_gettransparency() + 5)
+return

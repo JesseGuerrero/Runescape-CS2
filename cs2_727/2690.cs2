@@ -1,0 +1,22 @@
+//script2690(2690)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = 0
+iVar3 = 5
+while(cc_find(iVar1, if_gethash(1022, 15)) == 1)
+	iVar1 = iVar1 + 1
+if(arg0 > 4) {
+	iVar3 = iVar3 + 40
+	iVar2 = (arg0 - 5) * 40
+} else 
+	iVar2 = arg0 * 40
+iVar2 = iVar2 + 17
+cc_create(iVar1, 5, 66977807)
+cc_setgraphic(937)
+cc_setsize(0, 0, 32, 10)
+cc_setposition(0, 0, iVar3, iVar2)
+cc_sethide(0)
+instr6556(script_144, "Iiii", if_gethash(1022, 15), iVar1, client_clock(), client_clock() + 750)
+return

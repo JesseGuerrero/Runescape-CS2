@@ -1,0 +1,4 @@
+//script5295(5295)(int arg0, int arg1)(void)
+if_sethide(arg1, 1)
+instr6527(arg0, None, "")
+return

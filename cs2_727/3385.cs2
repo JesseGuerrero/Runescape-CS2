@@ -1,0 +1,35 @@
+//script3385(3385)()(void)
+string sVar0
+if_opensubclient(976, 48758808)
+sVar0 = ""
+if(instr6784() == 1) {
+	sVar0 = "There was a problem with your current graphic settings, so you have been given default settings for safety. Click below to auto-choose best graphics settings."
+	if_settext(if_gethash(976, 2), sVar0)
+	if_setsize(if_gethash(976, 0), 0, 0, (22 * paramheight(sVar0, 3793, if_getwidth(if_gethash(976, 2)))) + 86, if_getwidth(if_gethash(976, 0)))
+	if_setsize(if_gethash(976, 4), 0, 0, if_getheight(if_gethash(976, 4)), stringwidth(3793, if_gettext(if_gethash(976, 4))))
+} else 
+	if(load_varc(1277) == 1)
+		if(load_varc(1240) == -1) {
+			sVar0 = "This is your first time playing. Click below to auto-choose best graphics settings. Choose 'Leave Alone' to continue with default settings."
+			if_settext(if_gethash(976, 2), sVar0)
+			if_setsize(if_gethash(976, 0), 0, 0, (22 * paramheight(sVar0, 3793, if_getwidth(if_gethash(976, 2)))) + 86, if_getwidth(if_gethash(976, 0)))
+			if_setsize(if_gethash(976, 4), 0, 0, if_getheight(if_gethash(976, 4)), stringwidth(3793, if_gettext(if_gethash(976, 4))))
+		} else 
+			if(load_varc(1240) == -1) {
+				sVar0 = "This is your first time playing, click below to auto choose best graphics settings."
+				if_settext(if_gethash(976, 2), sVar0)
+				if_setposition(if_gethash(976, 2), 0, 1, 10, 0)
+				if_setsize(if_gethash(976, 2), 1, 0, 68, if_getwidth(if_gethash(976, 2)))
+				if_setposition(if_gethash(976, 3), 2, 1, 17, 0)
+				if_setsize(if_gethash(976, 0), 0, 0, (22 * paramheight(sVar0, 3793, if_getwidth(if_gethash(976, 2)))) + 68, if_getwidth(if_gethash(976, 0)))
+				if_sethide(if_gethash(976, 4), 1)
+			} else  {
+				sVar0 = "Available graphics options have changed. Click below to auto choose best graphics settings."
+				if(load_varc(1277) == 1)
+					sVar0 = "Available graphics options have changed. Click below to auto-choose best graphics settings. Choose 'Leave Alone' to continue with your current settings."
+				if_settext(if_gethash(976, 2), sVar0)
+				if_setsize(if_gethash(976, 0), 0, 0, (22 * paramheight(sVar0, 3793, if_getwidth(if_gethash(976, 2)))) + 86, if_getwidth(if_gethash(976, 0)))
+				if_setsize(if_gethash(976, 4), 0, 0, if_getheight(if_gethash(976, 4)), stringwidth(3793, if_gettext(if_gethash(976, 4))))
+			}
+store_varc(1277, 1)
+return

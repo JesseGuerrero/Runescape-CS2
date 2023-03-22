@@ -1,0 +1,12 @@
+void script_930(Widget widget0) {
+	if (VARPBIT[3755] == 1) {
+		widget0.setSprite(179);
+		widget0.setContextMenuOption(1, "Disable");
+		widget0.hookOptionClick(&script_1269(CTX_MENU_OPTION, widget0, 0));
+	} else {
+		widget0.setSprite(170);
+		widget0.setContextMenuOption(1, "Enable");
+		widget0.hookOptionClick(&script_1269(CTX_MENU_OPTION, widget0, 1));
+	}
+	return;
+}

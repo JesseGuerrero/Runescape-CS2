@@ -1,0 +1,13 @@
+//script746(746)(int arg0)(void)
+if(arg0 == 1) {
+	if_sethide(if_gethash(18, 42), 0)
+	hook_mouse_enter(if_gethash(18, 29), None, "")
+	hook_mouse_exit(if_gethash(18, 29), None, "")
+} else  {
+	if_sethide(if_gethash(18, 42), 1)
+	hook_mouse_enter(if_gethash(18, 29), script_748, "1", 1)
+	hook_mouse_exit(if_gethash(18, 29), script_748, "1", 0)
+}
+script_749(0)
+script_41(1179689)
+return

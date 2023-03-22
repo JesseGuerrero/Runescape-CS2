@@ -1,0 +1,8 @@
+void script_1450(Widget widget0, int arg1, Widget widget2) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setHidden(false);
+		CHILD.hookFrame(&script_756(widget0, arg1, getClientCycle()));
+	}
+	script_1442(widget2, 5);
+	return;
+}

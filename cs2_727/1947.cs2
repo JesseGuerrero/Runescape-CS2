@@ -1,0 +1,11 @@
+//script1947(1947)()(void)
+if(load_varc(600) < 1)
+	if(load_varc(603) < 1)
+		send_message("The awards tab is not available for this scoring.")
+	else {
+		if_sethide(if_gethash(810, 84), 1)
+		if_sethide(if_gethash(810, 85), 0)
+		if_sethide(if_gethash(810, 86), 1)
+		if_sethide(if_gethash(810, 144), 0)
+	}
+return

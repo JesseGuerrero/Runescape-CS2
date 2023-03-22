@@ -1,0 +1,47 @@
+//script1013(1013)(int arg0)(int, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 1, "Allotments"
+
+	case 1:
+		return 1, "Hops"
+
+	case 2:
+		return 1, "Trees"
+
+	case 3:
+		return 1, "Fruit Trees"
+
+	case 4:
+		return 1, "Bushes"
+
+	case 5:
+		return 1, "Flowers"
+
+	case 6:
+		return 1, "Herbs"
+
+	case 7:
+		return 1, "Special"
+
+	case 8:
+		return 1, "Equipment"
+
+	case 9:
+		return 1, "Other"
+
+	case 10:
+		return 1, "Minigames"
+
+	case 11:
+		return 1, "Dungeoneering"
+
+	case 12:
+		return 1, "Milestones"
+		return -1, ""
+
+
+}
+return 0, ""

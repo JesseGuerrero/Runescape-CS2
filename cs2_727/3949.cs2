@@ -1,0 +1,9 @@
+//script3949(3949)(int arg0, int arg1)(void)
+if(arg1 == 1) {
+	if_setcolor(arg0, 0xFAFAFA)
+	if_settext(arg0, append(removetags(if_gettext(arg0)), "<u=fafafa>"))
+} else  {
+	if_setcolor(arg0, 0xEBE0BC)
+	if_settext(arg0, append(removetags(if_gettext(arg0)), "<u=ebe0bc>"))
+}
+return

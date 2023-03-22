@@ -1,0 +1,6 @@
+//script5270(5270)(int arg0, int arg1, int arg2)(void)
+if_settext(if_gethash(1137, 48), to_string(arg0))
+if_settext(if_gethash(1137, 39), to_string(arg1 + arg2))
+if_settext(if_gethash(1137, 67), to_string(arg1))
+if_settext(if_gethash(1137, 73), to_string(arg2))
+return

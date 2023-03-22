@@ -1,0 +1,10 @@
+void script_596(Widget widget0, Widget widget1) {
+	if (VARPBIT[4286] <= 0) {
+		widget1.setIsHidden(true);
+		widget0.hookFrame(null);
+		return;
+	}
+	widget1.setIsHidden(false);
+	script_598(widget0, widget1, VARPBIT[4286] * 30 - 20);
+	return;
+}

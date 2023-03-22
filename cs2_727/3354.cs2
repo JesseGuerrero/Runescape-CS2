@@ -1,0 +1,26 @@
+//script3354(3354)(int arg0)(int, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 0, "Bosses"
+
+	case 1:
+		return 0, "Floors"
+
+	case 2:
+		return 0, "Item Binding"
+
+	case 3:
+		return 0, "Rewards"
+
+	case 4:
+		return 0, "Areas"
+
+	case 5:
+		return 0, "Milestones"
+		return -1, ""
+
+
+}
+return 0, ""

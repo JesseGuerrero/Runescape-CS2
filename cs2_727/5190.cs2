@@ -1,0 +1,15 @@
+//script5190(5190)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 25
+iVar3 = if_getwidth(if_gethash(1122, 67)) * arg0
+if(arg1 == 0) {
+	if_setscrollpos(if_gethash(1122, 68), 0, iVar3)
+	if_sethide(if_gethash(1122, 69), 1)
+	return
+}
+if_sethide(if_gethash(1122, 69), 0)
+if(iVar3 < if_getscrollx(if_gethash(1122, 68)))
+	iVar2 = 0 - iVar2
+instr6342(if_gethash(1122, 68), script_5191, "ii", iVar3, iVar2)
+return

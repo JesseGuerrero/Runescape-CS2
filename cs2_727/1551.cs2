@@ -1,0 +1,7 @@
+//script1551(1551)(int arg0, int arg1, int arg2, string arg3)(int)
+arg0 = script_1602(arg0)
+arg0 = min(arg0, string_length(arg0))
+if(arg0 <= 0)
+	return arg2
+return stringwidth(arg1, substring(arg0, arg0, 0)) + arg2
+return 0

@@ -1,0 +1,10 @@
+//script516(516)()(void)
+if(load_varc(52) < 300)
+	store_varc(52, load_varc(52) + 1)
+if(load_varc(51) > 0)
+	if(modulo(3, load_varc(52)) == 0) {
+		store_varc(51, load_varc(51) - 3)
+		store_varc(50, load_varc(50) + 1)
+		if_setmodelangle(if_gethash(615, 0), load_varc(51), 0, 0, 0, load_varc(50), 0)
+	}
+return

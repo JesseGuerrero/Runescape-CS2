@@ -1,0 +1,7 @@
+int script_510(int arg0, Widget widget1, int arg2) {
+	if (CHILD.setChild(widget1, 800 + arg0 - 1) == true) {
+		CHILD.setPosition(0, arg2 + 5, 0, 0);
+		CHILD.setHidden(false);
+	}
+	return arg2 + 12;
+}

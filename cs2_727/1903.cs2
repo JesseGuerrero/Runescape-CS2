@@ -1,0 +1,7 @@
+//script1903(1903)(int arg0, int arg1, int arg2, int arg3)(void)
+store_varc(129, load_varc(129) - 1)
+if(load_varc(129) > 0)
+	return
+instr6342(arg1, None, "")
+script_1904(arg0, arg2, arg3)
+return

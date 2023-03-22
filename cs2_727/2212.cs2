@@ -1,0 +1,9 @@
+//script2212(2212)()(void)
+if(if_getx(load_varc(1136)) < if_getwidth(if_gethash(932, 1)) - 1) {
+	instr6342(if_gethash(932, 1), script_2212, "")
+	if_setposition(load_varc(1136), 0, 0, if_gety(load_varc(1136)), 1 + if_getx(load_varc(1136)))
+} else  {
+	if_sethide(load_varc(1136), 1)
+	if_setposition(load_varc(1136), 0, 0, 120, 0)
+}
+return

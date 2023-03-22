@@ -1,0 +1,14 @@
+//script790(790)()(string)
+int iVar0
+string sVar0
+iVar0 = random(75)
+sVar0 = ""
+if(iVar0 < 25)
+	sVar0 = "Did you know that most monsters can drop bonus spins?"
+else
+	if(iVar0 < 50)
+		sVar0 = "Earn bonus spins for gathering resources, making things, and other skilling."
+	else
+		sVar0 = "Keep doing the things you like: there are lots of ways to get bonus spins!"
+return sVar0
+return ""

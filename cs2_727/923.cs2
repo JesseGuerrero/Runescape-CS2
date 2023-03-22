@@ -1,0 +1,14 @@
+//script923(923)(int arg0, string arg1, string arg2, string arg3)(void)
+int iVar1
+int iVar2
+iVar1 = paramheight(arg0, 494, arg0)
+iVar2 = paramheight(arg1, 494, arg0)
+if(iVar2 > iVar1)
+	iVar1 = iVar2
+iVar2 = paramheight(arg2, 494, arg0)
+if(iVar2 > iVar1)
+	iVar1 = iVar2
+script_924(iVar1, 0, 0, 494, arg0)
+script_924(iVar1, 1, 0, 494, arg1)
+script_924(iVar1, 2, 1, 494, arg2)
+return

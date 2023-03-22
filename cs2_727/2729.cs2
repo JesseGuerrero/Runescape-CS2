@@ -1,0 +1,12 @@
+//script2729(2729)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = instr6644()
+if(iVar4 != 1)
+	if(arg3 != 1)
+		return
+else
+	if(arg3 == 1)
+		return
+script_2730(arg1, arg2, iVar4)
+instr6342(arg0, script_2729, "IIIi", -2147483645, arg1, arg2, iVar4)
+return

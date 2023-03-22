@@ -1,0 +1,17 @@
+//script1583(1583)(int arg0, int arg1, string arg2)(void)
+int iVar2
+string sVar0
+sVar0 = arg0
+iVar2 = if_getwidth(arg0)
+if(parawidth(sVar0 + " ", 495, iVar2) > iVar2) {
+	while(parawidth(sVar0 + "... ", 495, 2147483647) > iVar2)
+		sVar0 = substring(sVar0, string_length(sVar0) - 1, 0)
+	if_setonmouseover(arg0, script_38, "IIsii", -2147483645, arg1, arg0, 25, 5000)
+	hook_mouse_exit(arg0, script_40, "I", arg1)
+	arg0 = sVar0 + "..."
+} else  {
+	if_setonmouseover(arg0, None, "")
+	hook_mouse_exit(arg0, None, "")
+}
+if_settext(arg0, arg0)
+return

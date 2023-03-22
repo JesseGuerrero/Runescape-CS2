@@ -1,0 +1,11 @@
+//script269(269)(int arg0, int arg1)(void)
+if(arg0 <= instr6652(0) - 2)
+	instr6677(arg0, 1, 1500, 1500, arg0, 0)
+else {
+	instr6255(arg1, None, "")
+	instr6236()
+	script_675()
+	return
+}
+instr6255(arg1, script_269, "iI", min(1 + arg0, instr6652(0) - 1), arg1)
+return

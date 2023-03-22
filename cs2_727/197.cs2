@@ -1,0 +1,12 @@
+//script197(197)(int arg0, int arg1)(void)
+int iVar2
+string sVar0
+string sVar1
+iVar2 = arg1 - 1
+sVar0 = ""
+sVar1 = ""
+sVar0 = friend_getnames(arg0).get(0)
+friend_setrank(sVar0, iVar2)
+if(cc_find((arg0 * 2) + 1, if_gethash(1108, 22)) == 1)
+	cc_settext(enum(5853, iVar2, 'i', 's'))
+return

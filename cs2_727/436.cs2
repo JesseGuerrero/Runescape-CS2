@@ -1,0 +1,9 @@
+//script436(436)(int arg0)(void)
+if(arg0 == 67239958) {
+	if_setgraphic(if_gethash(1026, 21), 1135)
+	if_setgraphic(if_gethash(1026, 23), 1134)
+} else  {
+	if_setgraphic(if_gethash(1026, 21), 1134)
+	if_setgraphic(if_gethash(1026, 23), 1135)
+}
+return

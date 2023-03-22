@@ -1,0 +1,28 @@
+//script6339(6339)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = -1
+while(iVar2 < arg1) {
+	if(cc_find(iVar2, arg0) == 1)
+		if(script_6340(iVar2) == 1) {
+			iVar5 = enum(5918, iVar2, 'i', 'o')
+			iVar4 = enum(5919, iVar2, 'i', 'i')
+			if(item_stackable(iVar5) == 0 || iVar2 == 0)
+				iVar4 = iVar4 - inv_total(iVar5, 93)
+			if(iVar4 > 0) {
+				cc_setitem(iVar4, iVar5)
+				cc_sethide(0)
+				cc_setposition(0, 0, 50 * (iVar3 / 3), 50 * modulo(3, iVar3))
+				iVar3 = iVar3 + 1
+			} else 
+				cc_sethide(1)
+		} else 
+			cc_sethide(1)
+	iVar2 = iVar2 + 1
+}
+return

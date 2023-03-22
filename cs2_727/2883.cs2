@@ -1,0 +1,5 @@
+//script2883(2883)()(void)
+if(load_varpbit(4393) == 1 || load_varpbit(542) == 1)
+	return
+script_39(12255244, 12255249, 25, 189, "Clear playlist")
+return

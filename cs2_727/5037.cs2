@@ -1,0 +1,6 @@
+//script5037(5037)(int arg0)(int, int)
+int iVar1
+int iVar2
+if_sethide(if_gethash(1111, 6), 0)
+if_sethide(if_gethash(1111, 1), 1)
+return script_4510(72810499, 1737), script_4510(72810498, 1736)

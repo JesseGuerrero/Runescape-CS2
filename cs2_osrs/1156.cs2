@@ -1,0 +1,22 @@
+void script_1156(Item item0, int arg1, int arg2) {
+	if (item0 != null) {
+		CHILD.setTrans(0);
+		CHILD.setItem(item0, arg1);
+		CHILD.setNoOptions();
+		CHILD.setContextMenuOption(1, "Withdraw-1");
+		CHILD.setContextMenuOption(2, "Withdraw-5");
+		CHILD.setContextMenuOption(3, "Withdraw-10");
+		CHILD.setContextMenuOption(4, "Withdraw-X");
+		CHILD.setContextMenuOption(5, "Withdraw-All");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setOptionBase("<col=ff981f>" + getItemName(item0));
+		CHILD.hookDragRelease(&script_1157(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET_CHILD));
+	} else {
+		CHILD.setTrans(255);
+		CHILD.setItemNoNum(6512, 1);
+		CHILD.setNoOptions();
+		CHILD.hookDragStart(null);
+		CHILD.hookDragRelease(null);
+	}
+	return;
+}

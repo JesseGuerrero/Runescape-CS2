@@ -1,0 +1,6 @@
+//script5357(5357)(int arg0, int arg1)(void)
+if(cc_find(arg0, arg1) == 1) {
+	cc_setgraphic(7766)
+	if_settext(if_gethash(1143, 49), "")
+}
+return

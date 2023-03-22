@@ -1,0 +1,12 @@
+void script_102(string string0) {
+	if (VARC[5] <= 0 || VARC[5] == 1) {
+		script_677();
+		widget(162, 32).setText(string0);
+		widget(162, 33).setText("Click to continue");
+		widget(162, 33).setTextAlignment(1, 1, 0);
+		VARC[5] = 1;
+		widget(162, 31).hookMousePress(&script_101(1));
+		widget(162, 33).hookKey(null);
+	}
+	return;
+}

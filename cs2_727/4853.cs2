@@ -1,0 +1,31 @@
+//script4853(4853)()(void)
+script_4863()
+switch(load_varpbit(9552)) {
+	case default:
+		break
+	case 0:
+		if_sethide(if_gethash(1259, 5), 1)
+		if(load_varc(1794) == 0)
+			if_sethide(if_gethash(1259, 5), 0)
+		break
+	case 1:
+		script_4860()
+		script_4862()
+		break
+	case 2:
+		script_4860()
+		break
+	case 4:
+		script_4860()
+		script_4861()
+		break
+	case 3:
+		script_5170()
+		script_4860()
+		script_4858()
+		break
+
+}
+script_4856()
+script_4857()
+return

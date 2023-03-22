@@ -1,0 +1,16 @@
+//script1785(1785)(int arg0, int arg1, int arg2, int arg3, string arg4)(int, int)
+cc_create(arg1, 4, 51904515)
+cc_setposition(0, 0, arg0, 0)
+cc_settextfont(495)
+cc_settextshadow(1)
+cc_setsize(0, 0, (paramheight(arg0, 495, arg2) * 12) + 5, arg2)
+cc_settext(arg0)
+if(arg3 == 1) {
+	cc_settextalign(0, 0, 1)
+	cc_setcolor(ff981f)
+	return arg1 + 1, (arg0 + cc_getheight()) + 12
+}
+cc_settextalign(0, 0, 0)
+cc_setcolor(c8aa64)
+return arg1 + 1, (arg0 + cc_getheight()) + 5
+return 0, 0

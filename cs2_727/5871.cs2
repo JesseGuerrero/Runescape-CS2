@@ -1,0 +1,147 @@
+//script5871(5871)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+if(load_varpbit(8594) != arg0)
+	return
+iVar2 = 79953936
+iVar3 = 79953937
+iVar4 = 79953922
+iVar5 = 79953923
+iVar6 = 79953975
+iVar7 = 79953978
+iVar8 = 79953966
+iVar9 = 79953969
+iVar10 = 1
+iVar11 = 1
+if(arg1 <= 0)
+	arg1 = max(1, load_varpbit(10854))
+if(arg1 == 1)
+	iVar10 = 0
+iVar12 = script_5795(arg0)
+iVar13 = 1
+iVar14 = 0
+iVar15 = 1
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+while(iVar15 < 9) {
+	switch(iVar15) {
+		case default:
+			break
+		case 1:
+			sVar1 = struct_param(1274, iVar12)
+			sVar2 = struct_param(1275, iVar12)
+			sVar3 = struct_param(1276, iVar12)
+			break
+		case 2:
+			sVar1 = struct_param(1275, iVar12)
+			sVar2 = struct_param(1276, iVar12)
+			sVar3 = struct_param(1277, iVar12)
+			break
+		case 3:
+			sVar1 = struct_param(1276, iVar12)
+			sVar2 = struct_param(1277, iVar12)
+			sVar3 = struct_param(1278, iVar12)
+			break
+		case 4:
+			sVar1 = struct_param(1277, iVar12)
+			sVar2 = struct_param(1278, iVar12)
+			sVar3 = struct_param(1279, iVar12)
+			break
+		case 5:
+			sVar1 = struct_param(1278, iVar12)
+			sVar2 = struct_param(1279, iVar12)
+			sVar3 = struct_param(1280, iVar12)
+			break
+		case 6:
+			sVar1 = struct_param(1279, iVar12)
+			sVar2 = struct_param(1280, iVar12)
+			sVar3 = struct_param(1281, iVar12)
+			break
+		case 7:
+			sVar1 = struct_param(1280, iVar12)
+			sVar2 = struct_param(1281, iVar12)
+			break
+		case 8:
+			sVar1 = struct_param(1281, iVar12)
+			break
+
+	}
+	if(compare("", sVar2) == 0)
+		if(iVar14 == 0) {
+			iVar13 = iVar15
+			iVar14 = 1
+		}
+	if(compare("", sVar3) == 0)
+		if(iVar14 == 0)
+			if(iVar2 == -1) {
+				iVar13 = iVar15
+				iVar14 = 1
+			}
+	if(iVar15 == arg1)
+		sVar0 = sVar1
+	iVar15 = iVar15 + 1
+}
+if(iVar13 <= arg1)
+	iVar11 = 0
+if(compare("", struct_param(1274, iVar12)) == 0) {
+	arg1 = 0
+	iVar13 = 0
+}
+if_settext(iVar4, to_string(arg1))
+if_settext(iVar5, to_string(iVar13))
+if_setscrollpos(iVar2, 0, 0)
+cc_deleteall(iVar2)
+if(arg1 == 0)
+	if(iVar13 == 0)
+		sVar0 = "There are no hints available for this Task. Good luck!"
+iVar16 = script_5798(arg0, iVar12, 0, 0, iVar2, -1, -1, sVar0)
+iVar17 = if_getheight(if_gethash(1220, 14))
+instr6239(if_gethash(1220, 55), script_5870, "ii", arg0, arg1 + 1)
+if_sethide(if_gethash(1220, 58), iVar11)
+instr6239(if_gethash(1220, 46), script_5870, "ii", arg0, arg1 - 1)
+if_sethide(if_gethash(1220, 49), iVar10)
+if(iVar13 < 2) {
+	if_sethide(if_gethash(1220, 15), 1)
+	iVar17 = iVar17 + if_getheight(if_gethash(1220, 15))
+} else 
+	if(load_varpbit(9030) == 0 || script_3999(load_varpbit(10700)) == 0 || load_varpbit(10700) == load_varpbit(8576))
+		if_sethide(if_gethash(1220, 15), 0)
+	else {
+		if_sethide(if_gethash(1220, 15), 1)
+		iVar17 = iVar17 + if_getheight(if_gethash(1220, 15))
+	}
+if_setsize(if_gethash(1220, 14), 0, 0, iVar17, if_getwidth(if_gethash(1220, 14)))
+if_setsize(iVar2, 1, 1, 0, 3)
+if(iVar16 < iVar17) {
+	if_sethide(iVar3, 1)
+	if_setscrollsize(iVar2, if_getheight(iVar2), 0)
+	if_setscrollpos(iVar2, 0, 0)
+} else  {
+	iVar16 = iVar16 + 5
+	if_setscrollsize(iVar2, max(if_getheight(iVar2), iVar16), 0)
+	if_setsize(iVar2, 1, 1, 0, if_getwidth(iVar3) + 2)
+	if_setscrollpos(iVar2, 0, 0)
+	if_sethide(iVar3, 0)
+	script_31(iVar3, iVar2, 5666, 5663, 5664, 5665, 5686, 5685)
+}
+return

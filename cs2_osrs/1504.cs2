@@ -1,0 +1,6 @@
+void script_1504() {
+	if (length(cs2method3625()) > 0) {
+		sendUnknownVarByteEmptyFriendPacketMethod3620();
+	}
+	return;
+}

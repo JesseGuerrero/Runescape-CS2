@@ -1,0 +1,22 @@
+//script6347(6347)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar3 = detailget_soundeffect_volume()
+iVar4 = detailget_music_volume()
+iVar5 = detailget_ambientsound_volume()
+iVar6 = detailget_voiceover_volume()
+iVar7 = instr6783()
+if(load_varp(2567) != 0) {
+	if(load_varc(1882) == 1)
+		if(playermember() == 0)
+			instr6342(if_gethash(906, 0), script_1999, "I1iiiiiii", if_gethash(906, 0), arg0, arg1, 0, iVar3, iVar4, iVar5, iVar6, iVar7)
+		else {
+			instr6342(if_gethash(906, 0), None, "")
+			script_1299(arg0, arg1)
+		}
+	store_varc(1882, 0)
+}
+return

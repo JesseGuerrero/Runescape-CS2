@@ -1,0 +1,6 @@
+//script2498(2498)()(void)
+store_varc(837, load_varpbit(6350))
+if(load_varc(837) > 0)
+	if(load_varc(837) <= 9)
+		script_2500(enum(2400, load_varc(837), 'i', 'I'))
+return

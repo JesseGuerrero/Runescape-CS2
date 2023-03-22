@@ -1,0 +1,38 @@
+void script_995(Widget widget0, Widget widget1, Widget widget2, int arg3, Widget widget4, Widget widget5) {
+	Sprite sprite6;
+	Sprite sprite7;
+	int int8;
+	int int9;
+	int int10;
+	Widget widget11;
+	script_997(widget0, widget1, widget4, widget5);
+	sprite6 = 494;
+	sprite7 = 494;
+	int8 = 16;
+	if (VARPBIT[4693] == 1) {
+		sprite6, sprite7, int8 = 495, 495, 25;
+	} else if (VARPBIT[4693] == 2) {
+		sprite6, sprite7, int8 = 496, 496, 25;
+	}
+	int9 = 28 + getMaxLineWidth("+8,888,888,888", 512, sprite6) + 2;
+	widget1.setSize(int9, widget1.getHeight(), 0, 0);
+	widget2.setFont(sprite7);
+	int10 = 0;
+	widget11 = datamap('i', 'I', 1163, int10);
+	while (widget11 != null) {
+		if (CHILD.setChild(widget11, 0) == true) {
+			CHILD.setRGB(datamap('i', 'i', 1169, VARPBIT[4695]));
+			script_996(widget11, int8, sprite6, sprite7, getText());
+		}
+		int10 = int10 + 1;
+		widget11 = datamap('i', 'I', 1163, int10);
+	}
+	if (VARPBIT[4692] == 2) {
+		widget1.setPosition(2, 20, 0, 0);
+	} else if (VARPBIT[4692] == 1) {
+		widget1.setPosition(0, 2, 1, 0);
+	} else {
+		widget1.setPosition(2, 2, 2, 0);
+	}
+	return;
+}

@@ -1,0 +1,31 @@
+//script6213(6213)()(void)
+if(load_varp(2611) == 1) {
+	switch(world_language()) {
+		case default:
+			break
+		case 0:
+			if_setgraphic(if_gethash(906, 344), 10944)
+			break
+		case 1:
+			if_setgraphic(if_gethash(906, 344), 10946)
+			break
+		case 2:
+			if_setgraphic(if_gethash(906, 344), 10945)
+			break
+		case 3:
+			if_setgraphic(if_gethash(906, 344), 10947)
+			break
+
+	}
+	if_sethide(if_gethash(906, 346), 1)
+	if_setposition(if_gethash(906, 352), 0, 0, 130, if_getx(if_gethash(906, 352)))
+	if_sethide(if_gethash(906, 351), 0)
+	if_settext(if_gethash(906, 351), "")
+	if_settext(if_gethash(906, 353), " - Over 150 extra Quests" + "<br>" + " - 9 Exclusive Skills" + "<br>" + " - Over 40 Minigames" + "<br>" + " - Join the Members Loyalty Programme" + "<br>" + " - Extra Spins on the Squeal of Fortune" + "<br>" + " - Unlock over 400 extra bank spaces" + "<br>" + " - And much more!" + "<br>" + "<br>" + "You'll also get some extra rewards for validating," + "<br>" + "including a title, cape and bank space!")
+	if_setposition(if_gethash(906, 353), 0, 0, 181, if_getx(if_gethash(906, 353)))
+	if_settext(if_gethash(906, 352), "Congratulations! You're eligible for a 14 day Free Members trial! Start your trial now by validating your email and you'll soon be enjoying the full benefits of membership, including:")
+	if_setsize(if_gethash(906, 346), 0, 0, if_getheight(if_gethash(906, 346)), 300)
+	instr6237(if_gethash(906, 338), None, "")
+	if_sethide(if_gethash(906, 377), 1)
+}
+return

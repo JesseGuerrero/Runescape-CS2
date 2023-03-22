@@ -1,0 +1,11 @@
+void script_452(string string0) {
+	if (length(string0) > 0) {
+		if (length(cs2method3625()) > 0) {
+			sendUnknownVarByteEmptyFriendPacketMethod3620();
+		}
+		script_680();
+		STRING[129] = removeTags(string0);
+		sendUnknownFriendPacketMethod3619(string0);
+	}
+	return;
+}

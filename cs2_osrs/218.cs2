@@ -1,0 +1,33 @@
+int, int script_218(string string0, Widget widget1, Widget widget2, int arg3, int arg4, int arg5, int arg6) {
+	int int6;
+	string str1;
+	string str2;
+	int6 = getLineCount(string0, arg3, 495) * 14 + 2;
+	CHILD.createChild(widget1, 4, arg4);
+	_CHILD.createChild(widget2, 3, arg4);
+	CHILD.setPosition(0, arg5, 1, 0);
+	_CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, int6, 1, 0);
+	_CHILD.setSize(0, 0, 1, 1);
+	CHILD.setFont(495);
+	CHILD.setRGB(0x46320A);
+	CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 7758394));
+	CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 4600330));
+	CHILD.setTextAlignment(1, 0, 14);
+	CHILD.setText(string0);
+	str1 = "";
+	str2 = "";
+	arg4 = arg4 + 1;
+	if (arg6 == 1 && arg4 < 36) {
+		if (arg4 < 10) {
+			str1 = str(arg4);
+		} else {
+			str1 = datamap('i', 's', 1401, arg4 - 9);
+			str2 = datamap('i', 's', 1402, arg4 - 9);
+		}
+		string0 = concat("<col=735a28>" + str1 + "</col>" + ": ", string0);
+		_CHILD.hookKey(&script_57(KEY_TYPED, KEY_PRESSED, widget1, getChildId(), -1, str1, str2, 4600330, 0));
+	}
+	CHILD.setText(string0);
+	return arg4, arg5 + int6;
+}

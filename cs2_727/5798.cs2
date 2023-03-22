@@ -1,0 +1,118 @@
+//script5798(5798)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, string arg7)(int)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+string sVar1
+iVar7 = arg2 - 1
+if(iVar7 == -1)
+	iVar7 = if_getnextsubid(arg4)
+if(script_3999(arg0) == 0)
+	arg1 = script_5795(arg0)
+else
+	arg1 = script_5795(struct_param(1268, arg1))
+if(arg1 == -1)
+	return arg3
+sVar0 = ""
+sVar1 = "Click to toggle a map hint for this step."
+iVar8 = 0
+switch(arg2) {
+	case default:
+		break
+	case 0:
+		sVar0 = arg0
+		break
+	case 1:
+		sVar0 = struct_param(1274, arg1)
+		if(struct_param(1282, arg1) != -1)
+			if(struct_param(1282, arg1) != 103815360)
+				iVar8 = 1
+		break
+	case 2:
+		sVar0 = struct_param(1275, arg1)
+		if(struct_param(1283, arg1) != -1)
+			if(struct_param(1283, arg1) != 103815360)
+				iVar8 = 1
+		break
+	case 3:
+		sVar0 = struct_param(1276, arg1)
+		if(struct_param(1284, arg1) != -1)
+			if(struct_param(1284, arg1) != 103815360)
+				iVar8 = 1
+		break
+	case 4:
+		sVar0 = struct_param(1277, arg1)
+		if(struct_param(1285, arg1) != -1)
+			if(struct_param(1285, arg1) != 103815360)
+				iVar8 = 1
+		break
+	case 5:
+		sVar0 = struct_param(1278, arg1)
+		if(struct_param(1286, arg1) != -1)
+			if(struct_param(1286, arg1) != 103815360)
+				iVar8 = 1
+		break
+	case 6:
+		sVar0 = struct_param(1279, arg1)
+		if(struct_param(1287, arg1) != -1)
+			if(struct_param(1287, arg1) != 103815360)
+				iVar8 = 1
+		break
+	case 7:
+		sVar0 = struct_param(1280, arg1)
+		if(struct_param(1288, arg1) != -1)
+			if(struct_param(1288, arg1) != 103815360)
+				iVar8 = 1
+		break
+	case 8:
+		sVar0 = struct_param(1281, arg1)
+		if(struct_param(1289, arg1) != -1)
+			if(struct_param(1289, arg1) != 103815360)
+				iVar8 = 1
+		break
+
+}
+if(compare("", sVar0) == 0)
+	return arg3
+iVar9 = if_getwidth(arg4) - 26
+iVar10 = 20
+if(iVar8 == 0) {
+	iVar9 = iVar9 + 20
+	iVar10 = 0
+}
+iVar11 = max(15 * paramheight(sVar0, 3793, iVar9), iVar10 + 5)
+cc_create(iVar7, 4, arg4)
+cc_settext(sVar0)
+cc_sethide(0)
+cc_settextfont(3793)
+cc_setcolor(f7edb7)
+if(iVar8 == 1) {
+	cc_setop("Toggle-hint", 1)
+	cc_setopcursor(172, 1)
+}
+cc_settextalign(13, 1, 0)
+cc_setsize(0, 0, iVar11, iVar9)
+cc_setposition(0, 3, arg3, 0)
+if(arg5 != -1) {
+	cc_create(iVar7, 5, arg5)
+	if(iVar8 == 1) {
+		cc_sethide(0)
+		cc_setop("Toggle-hint", 1)
+		cc_setopcursor(172, 1)
+		cc_setsize(0, 0, 18, 17)
+		cc_setposition(0, 3, arg3 + ((iVar11 - cc_getheight()) / 2), 0)
+		if(load_varpbit(8578) == arg2)
+			if(load_varpbit(8594) == arg0) {
+				cc_setgraphic(9615)
+				script_5779(1, iVar7, arg5)
+			} else  {
+				cc_setgraphic(9618)
+				script_5779(0, iVar7, arg5)
+			}
+	}
+}
+arg3 = arg3 + iVar11
+return arg3
+return 0

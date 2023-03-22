@@ -1,0 +1,49 @@
+void script_888(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9) {
+	if (VARPBIT[146] > 0) {
+		widget0.setText("Health " + VARPBIT[146] + "%");
+	} else {
+		widget0.setText("<col=ff0000>" + "Health " + VARPBIT[146] + "%" + "</col>");
+	}
+	if (VARPBIT[147] == 1) {
+		widget1.setText("<col=ff0000>" + "Unlocked" + "</col>");
+	} else {
+		widget1.setText("Locked");
+	}
+	if (VARPBIT[148] == 1) {
+		widget2.setText("<col=ff0000>" + "Cleared" + "</col>");
+	} else {
+		widget2.setText("Collapsed");
+	}
+	if (VARPBIT[149] == 1) {
+		widget3.setText("<col=ff0000>" + "Cleared" + "</col>");
+	} else {
+		widget3.setText("Collapsed");
+	}
+	if (VARPBIT[150] == 1) {
+		widget4.setText("<col=ff0000>" + "Destroyed" + "</col>");
+	} else {
+		widget4.setText("Operational");
+	}
+	if (VARPBIT[143] == 0) {
+		widget5.setText("Safe");
+	} else if (VARPBIT[143] == 1) {
+		widget5.setText("<col=ff0000>" + "Taken" + "</col>");
+	} else if (VARPBIT[143] == 2) {
+		widget5.setText("<col=ffff00>" + "Dropped" + "</col>");
+	} else {
+		widget5.setText("");
+	}
+	if (VARPBIT[153] == 0) {
+		widget6.setText("Safe");
+	} else if (VARPBIT[153] == 1) {
+		widget6.setText("<col=ff0000>" + "Taken" + "</col>");
+	} else if (VARPBIT[153] == 2) {
+		widget6.setText("<col=ffff00>" + "Dropped" + "</col>");
+	} else {
+		widget6.setText("");
+	}
+	widget7.setText(VARPBIT[145] + " = Saradomin");
+	widget8.setText("Zamorak = " + VARPBIT[155]);
+	widget9.setText(VARP[380] + " Min");
+	return;
+}

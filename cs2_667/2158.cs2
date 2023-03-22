@@ -1,0 +1,9 @@
+int script_2158(int first, int one, int second) {
+	if (first < one) {
+		return 0;
+	}
+	if (first < second) {
+		return 1;
+	}
+	return 2;
+}

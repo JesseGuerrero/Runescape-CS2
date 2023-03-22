@@ -1,0 +1,21 @@
+//script2566(2566)()(void)
+if_settext(if_gethash(843, 7), load_varc_string(182))
+if_settext(if_gethash(843, 8), load_varc_string(183))
+if(load_varc(945) == 0)
+	if_setmodel(if_gethash(843, 18), 47798)
+else
+	if(load_varc(945) == 1)
+		if_setmodel(if_gethash(843, 18), 47794)
+	else
+		if(load_varc(945) == 2)
+			if_setmodel(if_gethash(843, 18), 47792)
+		else
+			if(load_varc(945) == 3)
+				if_setmodel(if_gethash(843, 18), 47786)
+			else
+				if(load_varc(945) == 4)
+					if_setmodel(if_gethash(843, 18), 47787)
+				else
+					if(load_varc(945) == 5)
+						if_setmodel(if_gethash(843, 18), 47796)
+return

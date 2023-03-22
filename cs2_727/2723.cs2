@@ -1,0 +1,27 @@
+//script2723(2723)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+iVar5 = 10285
+iVar6 = 10286
+iVar7 = 10287
+if(arg4 == 1)
+	if(arg3 == 1) {
+		iVar5 = 10288
+		iVar6 = 10289
+		iVar7 = 10290
+	}
+else
+	if(arg3 == 1) {
+		iVar5 = 10781
+		iVar6 = 10782
+		iVar7 = 10783
+	} else  {
+		iVar5 = 10778
+		iVar6 = 10779
+		iVar7 = 10780
+	}
+if_setgraphic(arg0, iVar5)
+if_setgraphic(arg1, iVar6)
+if_setgraphic(arg2, iVar7)
+return

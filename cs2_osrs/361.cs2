@@ -1,0 +1,13 @@
+void script_361(int arg0, Widget widget1, Widget arg2) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (VARP[170] <= 0) {
+		VARP[170] = 1;
+	} else {
+		VARP[170] = 0;
+	}
+	script_362(widget1, arg2);
+	return;
+}

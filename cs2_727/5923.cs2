@@ -1,0 +1,8 @@
+//script5923(5923)()(void)
+int iVar0
+int iVar1
+iVar0 = 82116655
+iVar1 = if_getwidth(iVar0)
+if_setsize(iVar0, 0, 0, 1, iVar1)
+instr6342(iVar0, script_5924, "I", -2147483645)
+return

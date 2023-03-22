@@ -1,0 +1,42 @@
+//script1230(1230)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+while(iVar3 < 16) {
+	iVar0 = inv_getitem(iVar3, 308)
+	switch(iVar0) {
+		case default:
+			break
+		case 6422:
+			iVar1 = 8975
+			break
+		case 6424:
+			iVar1 = 8987
+			break
+		case 6426:
+			iVar1 = 8979
+			break
+		case 6428:
+			iVar1 = 8980
+			iVar1 = -1
+			break
+
+	}
+	iVar2 = enum(2273, iVar3, 'i', 'I')
+	if(instr6004(iVar2) == 1)
+		cc_setmodel(iVar1)
+	else
+	if(iVar0 == 6422 || iVar0 == 6422 || iVar0 == 6424 || iVar0 == 6426 || iVar0 == 6428) {
+		iVar2 = enum(2276, iVar3, 'i', 'I')
+		if(instr6004(iVar2) == 1)
+			cc_setcolor(440000)
+		else
+	}
+	iVar3 = iVar3 + 1
+}
+return

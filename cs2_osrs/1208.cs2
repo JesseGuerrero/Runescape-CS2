@@ -1,0 +1,33 @@
+int, int script_1208(int arg0, int arg1, int arg2, int arg3, int arg4, Widget widget5) {
+	CHILD.createChild(widget5, 4, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setPosition(0, arg2, 1, 0);
+	CHILD.setSize(0, 30, 1, 0);
+	arg2 = arg2 + 30;
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(496);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	script_1211(arg3, arg4);
+	CHILD.hookVARP(&script_1210(CTX_WIDGET, CTX_WIDGET_CHILD, arg3), 1317, 1318);
+	CHILD.createChild(widget5, 4, arg1);
+	arg1 = arg1 + 1;
+	_CHILD.createChild(widget5, 4, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setPosition(0, arg2, 0, 0);
+	_CHILD.setPosition(0, arg2, 2, 0);
+	CHILD.setSize(arg0, 20, 0, 0);
+	_CHILD.setSize(arg0 + 10, 20, 1, 0);
+	arg2 = arg2 + 20;
+	CHILD.setRGB(0xFF981F);
+	_CHILD.setRGB(0xFF981F);
+	CHILD.setFont(496);
+	_CHILD.setFont(496);
+	CHILD.setTextAlignment(1, 0, 0);
+	_CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAntiMacro(true);
+	CHILD.setText("Favour");
+	_CHILD.setText("Activity");
+	return arg1, arg2;
+}

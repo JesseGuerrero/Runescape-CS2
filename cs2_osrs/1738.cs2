@@ -1,0 +1,61 @@
+void script_1738(string string0, Widget widget1) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	string str1;
+	string str2;
+	int1 = -1;
+	int2 = -1;
+	int3 = 0;
+	int4 = 0;
+	str1 = "";
+	int5 = 0;
+	str2 = "";
+	int6 = -1;
+	if (length(string0) > 0) {
+		_CHILD.setText(string0);
+		CHILD.hookKey(null);
+		VARC[190], VARC[187] = 0, getClientCycle() + 2;
+	} else {
+		int3 = length(STRING[138]);
+		if (int3 > 0) {
+			if (int3 > 1) {
+				int1, int2 = cs2method6639();
+				while (int6 == -1 && int1 != -1) {
+					str1 = cs2method6693(int1);
+					int4 = length(str1);
+					if (int4 > 0) {
+						str1 = script_1299(str1, "<br>", " ");
+						int4 = length(str1);
+						int5 = indexOf(lower(str1), lower(STRING[138]), 0);
+						if (int5 != -1) {
+							if (int5 > 0) {
+								str2 = "<col=ff0000>" + substr(str1, 0, int5);
+							}
+							str2 = concat(str2, "<col=ffffff>" + substr(str1, int5, int5 + int3));
+							if (int5 + int3 < int4) {
+								str2 = concat(str2, "<col=ff0000>" + substr(str1, int5 + int3, int4));
+							}
+							int6 = int2;
+						}
+					}
+					int1, int2 = cs2method6640();
+				}
+			}
+			if (int6 != -1) {
+				_CHILD.setText(str2);
+			} else {
+				_CHILD.setText("<col=ffffff>" + STRING[138] + "<col=ff0000>" + "*" + "</col>");
+			}
+		} else {
+			_CHILD.setText("<col=ff0000>" + "*" + "</col>");
+		}
+		CHILD.hookKey(&script_1737(KEY_TYPED, KEY_PRESSED, widget1, getChildId(), getChildId(), location(int6)));
+		VARC[190] = 1;
+	}
+	script_1739(widget1.getWidth());
+	return;
+}

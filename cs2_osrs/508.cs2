@@ -1,0 +1,13 @@
+void script_508(int arg0) {
+	int int1;
+	if (VARPBIT[4150] == arg0) {
+		_CHILD.setSprite(1079);
+		return;
+	}
+	_CHILD.setSprite(1077);
+	int1 = 1078;
+	CHILD.hookMouseHover(&script_229(CTX_WIDGET, getChildId(), (Sprite)int1, null));
+	int1 = 1077;
+	CHILD.hookMouseExit(&script_229(CTX_WIDGET, getChildId(), (Sprite)int1, null));
+	return;
+}

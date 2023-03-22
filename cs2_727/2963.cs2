@@ -1,0 +1,11 @@
+//script2963(2963)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+if(client_clock() >= arg6) {
+	instr6342(arg0, None, "")
+	if_sethide(arg0, 1)
+	hook_mouse_press(arg3, script_2713, "IIIIII", arg0, arg1, arg2, arg3, arg4, arg5)
+	if_setonmouseover(arg3, script_2961, "II1", arg4, arg5, 1)
+	hook_mouse_exit(arg3, script_2961, "II1", arg4, arg5, 0)
+	if_setgraphic(arg4, 2700)
+	store_varc(986, 1)
+}
+return

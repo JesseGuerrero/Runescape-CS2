@@ -1,0 +1,16 @@
+void script_1569(Widget widget0, int arg1, Color color2, int arg3, int arg4, int arg5, int arg6, string string7, int arg8) {
+	if (getClientCycle() < arg8) {
+		return;
+	}
+	widget0.hookFrame(null);
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setRGB(color2);
+		CHILD.setTrans(arg3);
+	}
+	widget0.hookMouseHover(&script_1015(CTX_WIDGET, arg1, arg4, arg5));
+	widget0.hookMouseExit(&script_1015(CTX_WIDGET, arg1, color2, arg3));
+	widget0.hookOptionClick(&script_1568(CTX_MENU_OPTION, CTX_WIDGET, arg1, color2, arg3, arg4, arg5, arg6, string7));
+	widget0.setContextMenuOption(1, "View party:");
+	widget0.setOptionBase("<col=ff9040>" + removeTags(string7) + "</col>");
+	return;
+}

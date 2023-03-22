@@ -1,0 +1,26 @@
+//script5088(5088)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 0
+if(cc_find(instr6151() + 4, arg0) == 1) {
+	iVar2 = cc_gettransparency()
+	if(arg1 == 0) {
+		iVar2 = max(0, iVar2 - 22)
+		cc_settrans(iVar2)
+		if(cc_find(instr6151() + 6, arg0) == 1)
+			cc_settrans(iVar2)
+		if(cc_find(instr6151() + 8, arg0) == 1)
+			cc_settrans(iVar2)
+		if(iVar2 <= 0)
+			instr6556(None, "")
+	} else  {
+		iVar2 = min(255, iVar2 + 22)
+		cc_settrans(iVar2)
+		if(cc_find(instr6151() + 6, arg0) == 1)
+			cc_settrans(iVar2)
+		if(cc_find(instr6151() + 8, arg0) == 1)
+			cc_settrans(iVar2)
+		if(iVar2 >= 255)
+			instr6556(None, "")
+	}
+}
+return

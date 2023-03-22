@@ -1,0 +1,15 @@
+void script_469(int arg0, int arg1, Widget widget2, int arg3) {
+	if (arg0 == 1 && _CHILD.setChild(widget2, arg3) == true) {
+		if (isBitFlagged(VARPBIT[4102], arg1) == true) {
+			VARPBIT[4102] = unflagBit(VARPBIT[4102], arg1);
+		} else {
+			if (script_464(arg1) == 0) {
+				return;
+			}
+			VARPBIT[4102] = flagBit(VARPBIT[4102], arg1);
+		}
+		playSoundEffect(2266, 1, 0);
+		script_471(arg1);
+	}
+	return;
+}

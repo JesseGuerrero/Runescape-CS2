@@ -1,0 +1,13 @@
+//script5475(5475)(int arg0, int arg1, int arg2, string arg3)(void)
+int iVar3
+iVar3 = 0
+if_setscrollpos(arg1, 0, 0)
+iVar3 = paramheight(arg0, 494, if_getwidth(arg0))
+iVar3 = iVar3 * 12
+if_setscrollsize(arg1, iVar3, 0)
+if(iVar3 > if_getheight(arg1)) {
+	if_sethide(arg2, 0)
+	script_31(arg2, arg1, 8383, 8380, 8381, 8382, 8375, 8374)
+} else 
+	if_sethide(arg2, 1)
+return

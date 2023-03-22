@@ -1,0 +1,304 @@
+//script990(990)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1511, 1, "You can now chop down " + "<col=000080>" + "normal trees" + "</col>" + ".", "Normal tree"
+
+			case 1:
+				return 2862, 1, "Members can now chop down " + "<col=000080>" + "achey trees" + "</col>" + ".", "Members: Achey tree"
+
+			case 2:
+				return 6281, 10, "Members now have the Woodcutting level required to clear " + "<col=000080>" + "light jungle" + "</col>" + " in Tai Bwo Wannai Clean-up (after Jungle Potion).", "Members: Light jungle" + "<br>" + " (after Jungle Potion)"
+
+			case 3:
+				return 1521, 15, "You can now chop down " + "<col=000080>" + "oak trees" + "</col>" + ".", "Oak tree"
+
+			case 4:
+				return 6283, 20, "Members now have the Woodcutting level required to clear " + "<col=000080>" + "medium jungle" + "</col>" + " in Tai Bwo Wannai Clean-up (after Jungle Potion).", "Members: Medium jungle" + "<br>" + " (after Jungle Potion)"
+
+			case 5:
+				return 1519, 30, "You can now chop down " + "<col=000080>" + "willow trees" + "</col>" + ".", "Willow tree"
+
+			case 6:
+				return 6285, 35, "Members now have the Woodcutting level required to clear " + "<col=000080>" + "dense jungle" + "</col>" + " in Tai Bwo Wannai Clean-up (after Jungle Potion).", "Members: Dense jungle" + "<br>" + " (after Jungle Potion)"
+
+			case 7:
+				return 6333, 35, "Members now have the Woodcutting level required to chop down " + "<col=000080>" + "teak trees" + "</col>" + " (after Jungle Potion).", "Members: Teak tree" + "<br>" + " (after Jungle Potion)"
+
+			case 8:
+				return 13756, 37, "Members now have the Woodcutting level required to chop " + "<col=000080>" + "cursed willow tree roots" + "</col>" + " (after starting Summer's End).", "Members: Cursed willow tree roots" + "<br>" + " (after starting Summer's End)"
+
+			case 9:
+				return 1517, 45, "You can now chop down " + "<col=000080>" + "maple trees" + "</col>" + ".", "Maple tree"
+
+			case 10:
+				return 3239, 45, "Members can now chop down " + "<col=000080>" + "hollow trees" + "</col>" + ".", "Members: Hollow tree"
+
+			case 11:
+				return 6332, 50, "Members now have the Woodcutting level required to chop down " + "<col=000080>" + "mahogany trees" + "</col>" + " (after Jungle Potion).", "Members: Mahogany tree" + "<br>" + " (after Jungle Potion)"
+
+			case 12:
+				return 10810, 54, "Members can now chop down " + "<col=000080>" + "arctic pine trees" + "</col>" + ".", "Members: Arctic pine tree"
+
+			case 13:
+				return 12581, 58, "Members can now chop down " + "<col=000080>" + "eucalyptus trees" + "</col>" + ".", "Members: Eucalyptus tree"
+
+			case 14:
+				return 1515, 60, "You can now chop down " + "<col=000080>" + "yew trees" + "</col>" + ".", "Yew tree"
+
+			case 15:
+				return 15288, 68, "Members can now chop down " + "<col=000080>" + "choking ivy" + "</col>" + ".", "Members: Choking ivy"
+
+			case 16:
+				return 1513, 75, "Members can now chop down " + "<col=000080>" + "magic trees" + "</col>" + ".", "Members: Magic tree"
+
+			case 17:
+				return 21600, 76, "Members can now chop logs from the " + "<col=000080>" + "Blisterwood tree" + "</col>" + ".", "Members: Blisterwood tree"
+
+			case 18:
+				return 8794, 80, "Members can now participate in " + "<col=000080>" + "sawmill training" + "</col>" + ".", "Members: Sawmill training"
+
+			case 19:
+				return 13567, 82, "Members now have the Woodcutting level required to chop down " + "<col=000080>" + "cursed magic trees" + "</col>" + " (after Spirit of Summer).", "Members: Cursed magic tree" + "<br>" + " (after Spirit of Summer)"
+
+			case 20:
+				return 21349, 83, "Members can now chop down " + "<col=000080>" + "straight roots" + "</col>" + " in the jadinko lair.", "Members: Straight root"
+
+			case 21:
+				return 21350, 83, "Members can now chop down " + "<col=000080>" + "curly roots" + "</col>" + " in the jadinko lair.", "Members: Curly root"
+
+			case 22:
+				return 21369, 83, "Members can now chop down " + "<col=000080>" + "mutated roots" + "</col>" + " in the jadinko lair.", "Members: Mutated root"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21340, 1, "Members can now use a " + "<col=000080>" + "Dwarven Army Axe" + "</col>" + ".", "Members: Dwarven Army Axe"
+
+			case 1:
+				return 1351, 1, "You can now use " + "<col=000080>" + "bronze hatchets" + "</col>" + ".", "Bronze hatchet"
+
+			case 2:
+				return 1349, 1, "You can now use " + "<col=000080>" + "iron hatchets" + "</col>" + ".", "Iron hatchet"
+
+			case 3:
+				return 1353, 6, "You can now use " + "<col=000080>" + "steel hatchets" + "</col>" + ".", "Steel hatchet"
+
+			case 4:
+				return 1361, 6, "You can now use " + "<col=000080>" + "black hatchets" + "</col>" + ".", "Black hatchet"
+
+			case 5:
+				return 1355, 21, "You can now use " + "<col=000080>" + "mithril hatchets" + "</col>" + ".", "Mithril hatchet"
+
+			case 6:
+				return 1357, 31, "You can now use " + "<col=000080>" + "adamant hatchets" + "</col>" + ".", "Adamant hatchet"
+
+			case 7:
+				return 14108, 40, "Members can now use " + "<col=000080>" + "sacred clay hatchets" + "</col>", "Members: Sacred clay hatchet"
+
+			case 8:
+				return 14100, 40, "Members can now use " + "<col=000080>" + "volatile hatchets" + "</col>", "Members: Volatile hatchet"
+
+			case 9:
+				return 1359, 41, "You can now use " + "<col=000080>" + "rune hatchets" + "</col>" + ".", "Rune hatchet"
+
+			case 10:
+				return 6739, 61, "Members can now use " + "<col=000080>" + "dragon hatchets" + "</col>" + ".", "Members: Dragon hatchet"
+
+			case 11:
+				return 13661, 61, "Members can now use the " + "<col=000080>" + "Inferno Adze" + "</col>" + " to chop down trees (after All Fired Up and with level 92 Firemaking).", "Members: Inferno Adze" + "<br>" + " (after All Fired Up, with 92 Firemaking)"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7414, 12, "You can now make " + "<col=000080>" + "log canoes" + "</col>" + ".", "Log canoe"
+
+			case 1:
+				return 7414, 27, "You can now make " + "<col=000080>" + "dugout canoes" + "</col>" + ".", "Dugout canoe"
+
+			case 2:
+				return 7414, 42, "You can now make " + "<col=000080>" + "stable dugout canoes" + "</col>" + ".", "Stable dugout canoe"
+
+			case 3:
+				return 7414, 57, "You can now make " + "<col=000080>" + "waka canoes" + "</col>" + ".", "Waka canoe"
+
+
+		}
+		break
+	case 3:
+		if(arg1 == 0)
+			return 10939, 44, "Members can now wear the " + "<col=000080>" + "undead lumberjack" + "</col>" + " clothing.", "Lumberjack clothing"
+		if(arg1 == 1)
+			return 10826, 54, "Members can now make " + "<col=000080>" + "Fremennik round shields" + "</col>" + ".", "Fremennik round shield"
+		if(arg1 == 2)
+			return 10812, 54, "Members can now split " + "<col=000080>" + "arctic pine logs" + "</col>" + ".", "Split arctic pine logs"
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Woodcutting.", "Members: Starved ancient effigies"
+
+			case 1:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Woodcutting.", "Members: Nourished ancient effigies"
+
+			case 2:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Woodcutting.", "Members: Sated ancient effigies"
+
+			case 3:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Woodcutting.", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14667, 1, "Members can now chop " + "<col=000080>" + "basic evil trees" + "</col>", "Chop basic evil tree"
+
+			case 1:
+				return 14132, 1, "Members can now use " + "<col=000080>" + "class 1 hatchets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 1 hatchet"
+
+			case 2:
+				return 14667, 15, "Members can now chop " + "<col=000080>" + "evil oak trees" + "</col>", "Chop evil oak tree"
+
+			case 3:
+				return 14184, 20, "Members can now woodcut " + "<col=000080>" + "class 2 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - woodcut class 2 sacred clay"
+
+			case 4:
+				return 14134, 20, "Members can now use " + "<col=000080>" + "class 2 hatchets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 2 hatchet"
+
+			case 5:
+				return 14667, 30, "Members can now chop " + "<col=000080>" + "evil willow trees" + "</col>", "Chop evil willow tree"
+
+			case 6:
+				return 14186, 40, "Members can now woodcut " + "<col=000080>" + "class 3 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - woodcut class 3 sacred clay"
+
+			case 7:
+				return 14136, 40, "Members can now use " + "<col=000080>" + "class 3 hatchets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 3 hatchet"
+
+			case 8:
+				return 14667, 45, "Members can now chop " + "<col=000080>" + "evil maple trees" + "</col>", "Chop evil maple tree"
+
+			case 9:
+				return 14667, 60, "Members can now chop " + "<col=000080>" + "evil yew trees" + "</col>", "Chop evil yew tree"
+
+			case 10:
+				return 14188, 60, "Members can now woodcut " + "<col=000080>" + "class 4 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - woodcut class 4 sacred clay"
+
+			case 11:
+				return 14138, 60, "Members can now use " + "<col=000080>" + "class 4 hatchets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 4 hatchet"
+
+			case 12:
+				return 14667, 75, "Members can now chop " + "<col=000080>" + "evil magic trees" + "</col>", "Chop evil magic tree"
+
+			case 13:
+				return 14190, 80, "Members can now woodcut " + "<col=000080>" + "class 5 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - woodcut class 5 sacred clay"
+
+			case 14:
+				return 14140, 80, "Members can now use " + "<col=000080>" + "class 5 hatchets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 5 hatchet"
+
+			case 15:
+				return 14667, 85, "Members can now chop " + "<col=000080>" + "elder evil trees" + "</col>", "Chop elder evil tree"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Woodcutting level increases, you will be able to attempt higher-level woodcutting tasks within Daemonheim. You will also be more likely to succeed when attempting woodcutting tasks within Daemonheim."
+
+			case 1:
+				return 17682, 1, "You can now chop down " + "<col=000080>" + "tangle gum trees" + "</col>" + " within Daemonheim.", "Tangle gum tree (Tier 1)"
+
+			case 2:
+				return 16361, 1, "You can now use " + "<col=000080>" + "novite hatchets" + "</col>" + " within Daemonheim.", "Novite hatchet (Tier 1)"
+
+			case 3:
+				return 17684, 10, "You can now chop " + "<col=000080>" + "seeping elm trees" + "</col>" + " within Daemonheim.", "Seeping elm tree (Tier 2)"
+
+			case 4:
+				return 16363, 10, "You can now use " + "<col=000080>" + "bathus hatchets" + "</col>" + " within Daemonheim.", "Bathus hatchet (Tier 2)"
+
+			case 5:
+				return 17686, 20, "You can now chop down " + "<col=000080>" + "blood spindle trees" + "</col>" + " within Daemonheim.", "Blood spindle tree (Tier 3)"
+
+			case 6:
+				return 16365, 20, "You can now use " + "<col=000080>" + "marmaros hatchets" + "</col>" + " within Daemonheim.", "Marmaros hatchet (Tier 3)"
+
+			case 7:
+				return 17688, 30, "You can now chop down " + "<col=000080>" + "utuku trees" + "</col>" + " within Daemonheim.", "Utuku tree (Tier 4)"
+
+			case 8:
+				return 16367, 30, "You can now use " + "<col=000080>" + "kratonite hatchets" + "</col>" + " within Daemonheim.", "Kratonite hatchet (Tier 4)"
+
+			case 9:
+				return 17690, 40, "You can now chop down " + "<col=000080>" + "spinebeam trees" + "</col>" + " within Daemonheim.", "Spinebeam tree (Tier 5)"
+
+			case 10:
+				return 16369, 40, "You can now use " + "<col=000080>" + "fractite hatchets" + "</col>" + " within Daemonheim.", "Fractite hatchet (Tier 5)"
+
+			case 11:
+				return 17692, 50, "Members can now chop down " + "<col=000080>" + "bovistrangler trees" + "</col>" + " within Daemonheim.", "Members: Bovistrangler tree (Tier 6)"
+
+			case 12:
+				return 16371, 50, "Members can now use " + "<col=000080>" + "zephyrium hatchets" + "</col>" + " within Daemonheim.", "Members: Zephyrium hatchet (Tier 6)"
+
+			case 13:
+				return 17694, 60, "Members can now chop down " + "<col=000080>" + "thigat trees" + "</col>" + " within Daemonheim.", "Members: Thigat tree (Tier 7)"
+
+			case 14:
+				return 16373, 60, "Members can now use " + "<col=000080>" + "argonite hatchets" + "</col>" + " within Daemonheim.", "Members: Argonite hatchet (Tier 7)"
+
+			case 15:
+				return 17696, 70, "Members can now chop down " + "<col=000080>" + "corpsethorn trees" + "</col>" + " within Daemonheim.", "Members: Corpsethorn tree (Tier 8)"
+
+			case 16:
+				return 16375, 70, "Members can now use " + "<col=000080>" + "katagon hatchets" + "</col>" + " within Daemonheim.", "Members: Katagon hatchet (Tier 8)"
+
+			case 17:
+				return 17698, 80, "Members can now chop down " + "<col=000080>" + "entgallow trees" + "</col>" + " within Daemonheim.", "Members: Entgallow tree (Tier 9)"
+
+			case 18:
+				return 16377, 80, "Members can now use " + "<col=000080>" + "gorgonite hatchets" + "</col>" + " within Daemonheim.", "Members: Gorgonite hatchet (Tier 9)"
+
+			case 19:
+				return 17700, 90, "Members can now chop down " + "<col=000080>" + "grave creeper trees" + "</col>" + " within Daemonheim.", "Members: Grave creeper tree (Tier 10)"
+
+			case 20:
+				return 16379, 90, "Members can now use " + "<col=000080>" + "promethium hatchets" + "</col>" + " within Daemonheim.", "Members: Promethium hatchet (Tier 10)"
+
+			case 21:
+				return 16381, 99, "Members can now use primal hatchets" + "</col>" + " within Daemonheim.", "Members: Primal hatchet (Tier 11)"
+
+
+		}
+		break
+	case 7:
+		if(arg1 == 0)
+			return 9807, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Woodcutting" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "Wilfred" + "<col=000080>" + ", just to the north of " + "<col=800000>" + "Falador" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Woodcutting" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+
+}
+return -1, 0, "", ""

@@ -1,0 +1,23 @@
+void script_1551(int arg0, int arg1) {
+	int int2;
+	int2 = 235;
+	if (arg0 % 2 == 0) {
+		int2 = 255;
+	}
+	CHILD.setTrans(int2);
+	CHILD.setNoOptions();
+	if (arg1 == 1) {
+		if (clanGetChatCount() > 0 && clanmethod3618() >= clanmethod3616()) {
+			CHILD.setContextMenuOption(6, "Kick");
+			CHILD.hookMouseHover(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 220, null));
+			CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, int2, null));
+		} else {
+			CHILD.hookMouseHover(null);
+			CHILD.hookMouseExit(null);
+		}
+	} else {
+		CHILD.hookMouseHover(null);
+		CHILD.hookMouseExit(null);
+	}
+	return;
+}

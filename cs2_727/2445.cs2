@@ -1,0 +1,27 @@
+//script2445(2445)(int arg0, int arg1, int arg2, string arg3)(int)
+int iVar3
+int iVar4
+iVar3 = if_getwidth(if_gethash(34, 9))
+arg0 = escape(script_2446(arg0))
+cc_create(arg1, 4, 2228233)
+cc_setposition(0, 0, (arg0 * 15) + 5, 0)
+iVar4 = paramheight(arg0, 494, iVar3)
+cc_setsize(0, 1, iVar4 * 14, 0)
+cc_setcolor(0)
+cc_settext(arg0)
+cc_settextfont(494)
+cc_settextalign(14, 1, 0)
+cc_settextshadow(1)
+instr6224(script_2450, "Iii", -2147483645, -2147483643, -2147483646)
+instr6499(script_2451, "I", if_gethash(-32768, 6))
+if(load_varp(1439) == arg1)
+	cc_setop("Unselect", 1)
+else
+	cc_setop("Select", 1)
+cc_setop("Edit", 2)
+cc_setop("Colour", 3)
+cc_setop("Delete", 4)
+instr6687(script_2448, "ii", -2147483644, arg1)
+instr6443(14)
+return arg0 + iVar4
+return 0

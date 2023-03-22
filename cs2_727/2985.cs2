@@ -1,0 +1,4 @@
+//script2985(2985)(int arg0)(void)
+instr6255(arg0, None, "")
+instr6677(1, 1, 450, 450, 1, 0)
+return

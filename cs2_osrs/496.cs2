@@ -1,0 +1,4 @@
+void script_496(Container container0) {
+	script_497(container0);
+	return;
+}

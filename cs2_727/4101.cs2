@@ -1,0 +1,3 @@
+//script4101(4101)(int arg0)(void)
+if_sethide(if_gethash(1056, 173), arg0)
+return

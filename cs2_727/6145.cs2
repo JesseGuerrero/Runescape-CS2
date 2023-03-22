@@ -1,0 +1,22 @@
+//script6145(6145)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+arg3 = arg3 + 1
+if(arg3 < 100)
+	instr6342(arg0, script_6145, "Iiiii", -2147483645, arg1, arg2, arg3, arg4)
+if(arg3 < 0)
+	return
+iVar5 = 25
+iVar6 = scale(iVar5, 6, arg4)
+iVar6 = scale(iVar6, 100, arg3)
+iVar7 = random(iVar6)
+iVar8 = random(iVar6)
+if(random(2) == 0)
+	iVar7 = 0 - iVar7
+if(random(2) == 0)
+	iVar8 = 0 - iVar8
+if(cc_find(0, arg0) == 1)
+	cc_setposition(0, 0, arg2 + iVar8, arg1 + iVar7)
+return

@@ -1,0 +1,14 @@
+void script_13(Widget widget0) {
+	int int1;
+	int int2;
+	if (script_3() == 0) {
+		widget0.setText("");
+		widget0.hookFrame(null);
+		return;
+	}
+	int1 = mathMethod4006(0, 60, 0, 100, VARPBIT[877]);
+	int2 = getClientCycle();
+	widget0.hookFrame(&script_14(widget0, int1, int2));
+	script_15(widget0, int1, int2);
+	return;
+}

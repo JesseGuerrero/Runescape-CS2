@@ -1,0 +1,42 @@
+string, int script_1598(int arg0) {
+	if (arg0 == 0) {
+		return "Tracking", 1;
+	}
+	if (arg0 == 1) {
+		return "Birds", 1;
+	}
+	if (arg0 == 2) {
+		return "Butterflies", 1;
+	}
+	if (arg0 == 3) {
+		return "Implings", 1;
+	}
+	if (arg0 == 4) {
+		return "Deadfall", 1;
+	}
+	if (arg0 == 5) {
+		return "Box Trap", 1;
+	}
+	if (arg0 == 6) {
+		return "Net Trap", 1;
+	}
+	if (arg0 == 7) {
+		return "Pitfalls", 1;
+	}
+	if (arg0 == 8) {
+		return "Falconry", 1;
+	}
+	if (arg0 == 9) {
+		return "Traps", 1;
+	}
+	if (arg0 == 10) {
+		return "Clothing", 1;
+	}
+	if (arg0 == 11) {
+		return "Raids", 1;
+	}
+	if (arg0 == 12) {
+		return "Other", 1;
+	}
+	return "", -1;
+}

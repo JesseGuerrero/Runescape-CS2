@@ -1,0 +1,75 @@
+//script1237(1237)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+string sVar0
+cc_deleteall(arg0)
+iVar1 = 5
+iVar2 = 30
+iVar3 = 30
+iVar4 = 0
+iVar5 = 8
+iVar6 = iVar5
+iVar7 = 6
+iVar8 = 30 + 7
+if(load_varc(1052) == 1)
+	if(load_varpbit(6840) == 0) {
+		iVar5 = 5
+		iVar6 = iVar5
+		iVar8 = 30 + 4
+	}
+iVar9 = 30 + 6
+if(load_varc(181) == 1) {
+	iVar5 = 8
+	iVar6 = iVar5
+	iVar7 = 30
+	iVar8 = 30 + 7
+	iVar9 = 30 + 5
+}
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+sVar0 = ""
+iVar13 = 0
+iVar14 = 30
+if(load_varpbit(6840) == 1)
+	iVar14 = 20
+while(iVar4 < iVar14) {
+	iVar10 = enum(2279, iVar4, 'i', 'J')
+	if(load_varpbit(6840) == 1)
+		iVar10 = enum(863, iVar4, 'i', 'J')
+	iVar12 = struct_param(736, iVar10)
+	iVar11 = struct_param(735, iVar10)
+	sVar0 = struct_param(734, iVar10)
+	iVar13 = struct_param(737, iVar10)
+	cc_create(iVar4, 5, arg0)
+	cc_setsize(0, 0, iVar3, iVar2)
+	cc_setposition(0, 0, iVar7, iVar6)
+	cc_setgraphic(iVar12)
+	cc_setclickmask(0)
+	if(load_varc(181) == 0) {
+		cc_setop("Activate" + "<col=ff9040>", 1)
+		instr6095(script_49, "IIiY", 2, 1395, 1582, -2147483645, if_gethash(271, 7), iVar4)
+		cc_setonmouseover(script_1160, "IiIsii", -2147483645, -2147483643, if_gethash(271, 49), sVar0, 25, 190)
+	}
+	instr6899(script_52, "iddIiY", 1, 5, iVar13, iVar12, iVar11, -2147483645, -2147483643)
+	instr6092(script_40, "I", if_gethash(271, 49))
+	iVar4 = iVar4 + 1
+	if(modulo(iVar1, iVar4) == 0) {
+		iVar6 = iVar5
+		iVar7 = iVar7 + iVar9
+	} else 
+		iVar6 = iVar6 + iVar8
+}
+return

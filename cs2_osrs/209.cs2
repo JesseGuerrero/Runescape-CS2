@@ -1,0 +1,11 @@
+void script_209(string arg0) {
+	int int0;
+	STRING[25] = arg0;
+	int0 = -1;
+	if (VARC[41] == 5) {
+		int0 = script_553();
+		script_84(int0);
+		script_192(int0);
+	}
+	return;
+}

@@ -1,0 +1,9 @@
+//script1957(1957)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = inv_total(arg1, 93)
+if_settext(arg0, to_string(iVar3) + "/" + to_string(arg2))
+if(iVar3 >= arg2)
+	if_setcolor(arg0, 0xFF00)
+else
+	if_setcolor(arg0, 0xFF0000)
+return

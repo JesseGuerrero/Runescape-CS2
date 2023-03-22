@@ -1,0 +1,7 @@
+//script52(52)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(cc_find(arg4, arg3) == 1)
+	if(stat_base(5) < arg0)
+		cc_setgraphic(arg1)
+	else
+		cc_setgraphic(arg2)
+return

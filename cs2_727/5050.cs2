@@ -1,0 +1,8 @@
+//script5050(5050)(int arg0, int arg1, int arg2)(void)
+arg0 = arg0 * arg1
+if(arg2 == 1)
+	if_setscrollpos(if_gethash(1111, 12), max(0, if_getscrolly(72810508) + arg0), if_getscrollx(if_gethash(1111, 12)))
+else
+	if_setscrollpos(if_gethash(1111, 12), if_getscrolly(72810508), max(0, if_getscrollx(if_gethash(1111, 12)) + arg0))
+script_5053(0, 0)
+return

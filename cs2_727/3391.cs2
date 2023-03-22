@@ -1,0 +1,6 @@
+//script3391(3391)()(void)
+if_closesubclient(59375685)
+if_sethide(if_gethash(906, 61), 1)
+if(if_gethide(enum(941, 5, 'i', 'I')) == 0)
+	script_3161(1)
+return

@@ -1,0 +1,33 @@
+//script3340(3340)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+if(world_language() == 1)
+	if(load_varc(1176) == 0) {
+		iVar1 = 3068
+		iVar2 = 3067
+		iVar3 = 3069
+	} else  {
+		iVar1 = 3071
+		iVar2 = 3070
+		iVar3 = 3072
+	}
+else
+	if(load_varc(1176) == 0) {
+		iVar1 = 3014
+		iVar2 = 3013
+		iVar3 = 3015
+	} else  {
+		iVar1 = 3017
+		iVar2 = 3016
+		iVar3 = 3018
+	}
+if_setgraphic(arg0, iVar2)
+hook_mouse_enter(arg0, script_44, "Id", -2147483645, iVar1)
+hook_mouse_exit(arg0, script_44, "Id", -2147483645, iVar2)
+hook_mouse_press(arg0, script_44, "Id", -2147483645, iVar3)
+script_41(61538418)
+return

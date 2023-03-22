@@ -1,0 +1,183 @@
+//script1864(1864)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+if(arg0 != 1)
+	return
+switch(arg2) {
+	case default:
+		break
+	case 12:
+		switch(arg3) {
+			case default:
+				break
+			case 0:
+				send_message("Rick: " + to_string(enum(238, 1, 'i', 'i')) + " coins.")
+				break
+			case 1:
+				send_message("Maid: " + to_string(enum(238, 3, 'i', 'i')) + " coins.")
+				break
+			case 2:
+				send_message("Cook: " + to_string(enum(238, 5, 'i', 'i')) + " coins.")
+				break
+			case 3:
+				send_message("Butler: " + to_string(enum(238, 6, 'i', 'i')) + " coins.")
+				break
+			case 4:
+				send_message("Demon Butler: " + to_string(enum(238, 8, 'i', 'i')) + " coins.")
+				break
+
+		}
+		return
+
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 8170:
+				arg1 = 8415
+				break
+			case 8315:
+				arg1 = 8395
+				break
+			case 8222:
+				arg1 = 8396
+				break
+			case 8121:
+				arg1 = 8397
+				break
+			case 8379:
+				arg1 = 8406
+				break
+			case 8037:
+				arg1 = 8398
+				break
+			case 8255:
+				arg1 = 8401
+				break
+			case 8163:
+				arg1 = 8399
+				break
+			case 8027:
+				arg1 = 8400
+				break
+			case 8259:
+				arg1 = 8403
+				break
+			case 8340:
+				arg1 = 8407
+				break
+			case 9822:
+				arg1 = 9842
+				break
+			case 8068:
+				arg1 = 8405
+				break
+			case 8333:
+				arg1 = 8408
+				break
+			case 8195:
+				arg1 = 8416
+				break
+			case 8363:
+				arg1 = 8409
+				break
+			case 8302:
+				arg1 = 8410
+				break
+			case 8123:
+				arg1 = 8411
+				break
+			case 8122:
+				arg1 = 18800
+				break
+			case 8151:
+				arg1 = 8414
+				break
+
+		}
+		send_message(item_name(arg1) + ": " + tostring_localized(1, item_cost(arg1)) + " coins.")
+		return
+
+	case 15:
+		return
+
+
+}
+globalArrays[0] = [6, 111]
+globalArrays[1] = [6, 105]
+iVar4 = 0
+if(item_param(211, arg1) != -1) {
+	globalArrays[0][0] = item_param(211, arg1)
+	globalArrays[1][0] = item_param(212, arg1)
+	iVar4 = iVar4 + 1
+}
+if(item_param(213, arg1) != -1) {
+	globalArrays[0][1] = item_param(213, arg1)
+	globalArrays[1][1] = item_param(214, arg1)
+	iVar4 = iVar4 + 1
+}
+if(item_param(215, arg1) != -1) {
+	globalArrays[0][2] = item_param(215, arg1)
+	globalArrays[1][2] = item_param(216, arg1)
+	iVar4 = iVar4 + 1
+}
+if(item_param(217, arg1) != -1) {
+	globalArrays[0][3] = item_param(217, arg1)
+	globalArrays[1][3] = item_param(218, arg1)
+	iVar4 = iVar4 + 1
+}
+if(item_param(219, arg1) != -1) {
+	globalArrays[0][4] = item_param(219, arg1)
+	globalArrays[1][4] = item_param(220, arg1)
+	iVar4 = iVar4 + 1
+}
+if(item_param(221, arg1) != -1) {
+	globalArrays[0][5] = item_param(221, arg1)
+	globalArrays[1][5] = item_param(222, arg1)
+	iVar4 = iVar4 + 1
+}
+switch(iVar4) {
+	case default:
+		break
+	case 1:
+		send_message(item_name(arg1) + ":")
+		send_message(tostring_localized(1, globalArrays[1][0]) + " x " + item_name(globalArrays[0][0]))
+		break
+	case 2:
+		send_message(item_name(arg1) + ":")
+		send_message(tostring_localized(1, globalArrays[1][0]) + " x " + item_name(globalArrays[0][0]))
+		send_message(tostring_localized(1, globalArrays[1][1]) + " x " + item_name(globalArrays[0][1]))
+		break
+	case 3:
+		send_message(item_name(arg1) + ":")
+		send_message(tostring_localized(1, globalArrays[1][0]) + " x " + item_name(globalArrays[0][0]))
+		send_message(tostring_localized(1, globalArrays[1][1]) + " x " + item_name(globalArrays[0][1]))
+		send_message(tostring_localized(1, globalArrays[1][2]) + " x " + item_name(globalArrays[0][2]))
+		break
+	case 4:
+		send_message(item_name(arg1) + ":")
+		send_message(tostring_localized(1, globalArrays[1][0]) + " x " + item_name(globalArrays[0][0]))
+		send_message(tostring_localized(1, globalArrays[1][1]) + " x " + item_name(globalArrays[0][1]))
+		send_message(tostring_localized(1, globalArrays[1][2]) + " x " + item_name(globalArrays[0][2]))
+		send_message(tostring_localized(1, globalArrays[1][3]) + " x " + item_name(globalArrays[0][3]))
+		break
+	case 5:
+		send_message(item_name(arg1) + ":")
+		send_message(tostring_localized(1, globalArrays[1][0]) + " x " + item_name(globalArrays[0][0]))
+		send_message(tostring_localized(1, globalArrays[1][1]) + " x " + item_name(globalArrays[0][1]))
+		send_message(tostring_localized(1, globalArrays[1][2]) + " x " + item_name(globalArrays[0][2]))
+		send_message(tostring_localized(1, globalArrays[1][3]) + " x " + item_name(globalArrays[0][3]))
+		send_message(tostring_localized(1, globalArrays[1][4]) + " x " + item_name(globalArrays[0][4]))
+		break
+	case 6:
+		send_message(item_name(arg1) + ":")
+		send_message(tostring_localized(1, globalArrays[1][0]) + " x " + item_name(globalArrays[0][0]))
+		send_message(tostring_localized(1, globalArrays[1][1]) + " x " + item_name(globalArrays[0][1]))
+		send_message(tostring_localized(1, globalArrays[1][2]) + " x " + item_name(globalArrays[0][2]))
+		send_message(tostring_localized(1, globalArrays[1][3]) + " x " + item_name(globalArrays[0][3]))
+		send_message(tostring_localized(1, globalArrays[1][4]) + " x " + item_name(globalArrays[0][4]))
+		send_message(tostring_localized(1, globalArrays[1][5]) + " x " + item_name(globalArrays[0][5]))
+		send_message(item_name(arg1))
+		break
+
+}
+return

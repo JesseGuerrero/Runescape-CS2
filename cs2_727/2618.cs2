@@ -1,0 +1,19 @@
+//script2618(2618)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		instr6663()
+		break
+	case 2:
+		instr6108()
+		break
+	case 3:
+		instr6684()
+		break
+	case 4:
+		instr6823()
+		break
+
+}
+return

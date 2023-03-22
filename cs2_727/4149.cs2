@@ -1,0 +1,17 @@
+//script4149(4149)(int arg0, int arg1, string arg2)(void)
+if(arg1 == 1)
+	script_1361(arg0)
+else
+	script_915(arg0)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+cc_settextfont(495)
+cc_settextshadow(1)
+cc_settextalign(0, 1, 1)
+if(arg1 == 1)
+	cc_setcolor(ffffff)
+else
+	cc_setcolor(ff981f)
+cc_settext(arg0)
+return

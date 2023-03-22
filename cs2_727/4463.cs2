@@ -1,0 +1,27 @@
+//script4463(4463)(int arg0, int arg1)(void)
+int iVar2
+string sVar0
+sVar0 = ""
+iVar2 = 0
+if(activeclanchannel_find_affined() == 1)
+	if(activeclansettings_find_affined() == 1) {
+		sVar0 = activeclanchannel_getuserdisplayname(arg0)
+		if(arg1 == 1)
+			if(friend_test(sVar0) == 1)
+				iVar2 = 1
+			else
+				mes_typed(0, 0, "You only message people on your Friends List.")
+		else
+			if(arg1 == 8)
+				script_4466(sVar0)
+	} else 
+		send_message("You must be in a clan to do that.")
+else
+	send_message("You must be in a clan to do that.")
+if(iVar2 == 1) {
+	store_varc(1650, 1)
+	store_varc_string(23, sVar0)
+	script_1558(0)
+	return
+}
+return

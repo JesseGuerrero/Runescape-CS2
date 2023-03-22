@@ -1,0 +1,104 @@
+int script_1359(int arg0) {
+	if (arg0 < 5) {
+		if (arg0 == 0) {
+			if (VARP[492] >= 4) {
+				return 2;
+			}
+			if (VARP[492] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 1) {
+			if (VARPBIT[4982] >= 3) {
+				return 2;
+			}
+			if (VARPBIT[4976] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 2) {
+			if (VARPBIT[5078] >= 3) {
+				return 2;
+			}
+			if (VARPBIT[5078] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 3) {
+			if (VARP[77] == 2 || VARP[76] >= 6) {
+				return 2;
+			}
+			if (VARP[77] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 4) {
+			if (VARPBIT[821] == 1) {
+				return 2;
+			}
+			if (VARPBIT[816] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 10) {
+		if (arg0 == 5) {
+			if (VARPBIT[1391] == 2047) {
+				return 2;
+			}
+			if (VARPBIT[1383] < 4) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 6) {
+			if (VARPBIT[3330] >= 30) {
+				return 2;
+			}
+			if (VARPBIT[3330] <= 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 7) {
+			if (VARPBIT[1344] >= 3) {
+				return 2;
+			}
+			if (VARPBIT[1344] <= 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 8) {
+			if (VARP[267] >= 8) {
+				return 2;
+			}
+			if (VARP[267] <= 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 9) {
+			if (VARPBIT[3290] >= 3) {
+				return 2;
+			}
+			if (VARPBIT[3290] <= 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 == 10) {
+		if (VARPBIT[5347] >= 3) {
+			return 2;
+		}
+		if (VARPBIT[5347] <= 0) {
+			return 1;
+		}
+		return 0;
+	}
+	return 1;
+}

@@ -1,0 +1,18 @@
+//script2697(2697)(int arg0, int arg1)(void)
+int iVar2
+if(arg0 == detailget_currenttoolkit())
+	return
+instr6745(arg0)
+iVar2 = detailget_currenttoolkit()
+script_2593(iVar2)
+if(arg0 != iVar2) {
+	instr6922(1, iVar2)
+	script_2694(arg1, 1, "RuneScape was unable to enter that display mode." + "<br>" + "<br>" + "Please visit our website for more information.", "", "")
+	script_3387(iVar2, instr6644(), script_2692(iVar2).get(0), script_2692(iVar2).get(1), arg1)
+}
+script_3387(iVar2, instr6644(), script_2692(iVar2).get(0), script_2692(iVar2).get(1), arg1)
+if(iVar2 == 1 || iVar2 == 3)
+	script_2700(1, arg1, 0, 1)
+else
+	instr6922(0, iVar2)
+return

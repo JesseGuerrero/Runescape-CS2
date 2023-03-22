@@ -1,0 +1,6 @@
+//script4628(4628)()(void)
+store_varc(1518, -1)
+store_varc_string(126, "")
+if(instr6004(if_gethash(1110, 20)) == 1)
+	instr6556(script_4629, "i", 0)
+return

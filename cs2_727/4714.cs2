@@ -1,0 +1,8 @@
+//script4714(4714)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(cc_find(arg4, arg0) == 1)
+	cc_setvflip(0)
+if_sethide(arg1, 1)
+if_sethide(arg2, 1)
+if(arg3 != -1)
+	if_sethide(arg3, 1)
+return

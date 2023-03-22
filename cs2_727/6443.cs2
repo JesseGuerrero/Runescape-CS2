@@ -1,0 +1,54 @@
+//script6443(6443)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+iVar3 = 0
+iVar4 = 0
+if(load_varc(1968) == 1) {
+	iVar3 = 200
+	iVar4 = 850
+	arg1 = 80
+} else  {
+	iVar3 = 200
+	iVar4 = 300 + arg0
+	arg1 = 110 + arg1
+}
+if(cc_find(0, if_gethash(1311, 54)) == 1)
+	if(arg2 == 0) {
+		iVar3 = cc_getspriteroll()
+		iVar4 = cc_getspritescale()
+		arg1 = cc_getoffsety()
+	}
+cc_deleteall(if_gethash(1311, 54))
+cc_create(if_getnextsubid(if_gethash(1311, 54)), 6, 85917750)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+if(load_varc(1968) == 1) {
+	cc_setplayerhead_self()
+	if(iVar3 > 1024)
+		iVar3 = max(1572, iVar3)
+	else
+		iVar3 = min(512, iVar3)
+} else 
+	cc_setplayermodel_self()
+cc_setmodelangle(iVar4, 10, iVar3, 10, arg1, 0)
+instr5957(script_6447, "Iiii", -2147483645, -2147483643, -2147483647, load_varc(1968))
+instr6765(script_6448, "Iiiii", -2147483645, -2147483643, -2147483646, load_varc(1968), arg0)
+if(load_varc(1968) == 1)
+	cc_setmodelanim(12287)
+else {
+	if(load_varc(779) != -1)
+		cc_setmodelanim(bas_getanim_ready(load_varc(779)))
+	else
+		cc_setmodelanim(bas_getanim_ready(1426))
+	instr6096(script_1517, "IiY", 1, 779, -2147483645, -2147483643)
+}
+if(load_varc(1969) == 0)
+	instr6342(if_gethash(1311, 134), script_6449, "IIii", -2147483645, if_gethash(1311, 54), 0, load_varc(1968))
+else
+	instr6342(if_gethash(1311, 134), script_6450, "IIii", -2147483645, if_gethash(1311, 54), 0, load_varc(1968))
+store_varc(1969, 0)
+iVar5 = load_varc(1968)
+instr6257(if_gethash(1311, 54), script_6442, "iiiY", 1, 1968, arg0, arg1, iVar5)
+instr6257(if_gethash(1311, 134), script_6445, "I1iY", 1, 1969, if_gethash(1311, 54), load_varc(1969), load_varc(1968))
+return

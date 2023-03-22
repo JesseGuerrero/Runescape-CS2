@@ -1,0 +1,5 @@
+void script_1081(string string0, boolean arg1) {
+	playSoundEffect(2266, 1, 0);
+	cs2method31113(string0, arg1);
+	return;
+}

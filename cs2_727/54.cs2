@@ -1,0 +1,15 @@
+//script54(54)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(script_133(48238016, 860967167, coord()) == 1 || script_133(47189824, 853528447, coord()) == 1)
+	iVar1 = ((coordz(coord()) - 3520) / 8) + 1
+else
+	if(script_133(48244416, 860875391, coord()) == 1)
+		iVar1 = ((coordz(coord()) - 9920) / 8) + 1
+	else {
+		if_settext(arg0, "")
+		return
+	}
+iVar1 = max(0, min(99, iVar1))
+if_settext(arg0, "Level: " + to_string(iVar1))
+return

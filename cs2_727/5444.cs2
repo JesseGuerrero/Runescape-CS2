@@ -1,0 +1,188 @@
+//script5444(5444)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = ""
+sVar5 = ""
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = -1
+iVar14 = -1
+iVar15 = -1
+iVar16 = -1
+iVar17 = -1
+iVar18 = -1
+store_varc(1681, 0)
+if_setgraphic(if_gethash(1168, 28), 8430)
+if_setgraphic(if_gethash(1168, 27), 8430)
+if_setgraphic(if_gethash(1168, 26), 8430)
+if_setgraphic(if_gethash(1168, 25), 8430)
+if_setgraphic(if_gethash(1168, 24), 8430)
+if_setgraphic(if_gethash(1168, 23), 8430)
+if_settext(if_gethash(1168, 101), "Please select a monster.")
+if_settext(if_gethash(1168, 2), "")
+if_setcolor(76546125, 0xF5B241)
+if_setcolor(76546128, 0xF5B241)
+if_setcolor(76546130, 0xF5B241)
+if_setcolor(76546129, 0xF5B241)
+if_setcolor(76546131, 0xF5B241)
+if_setcolor(76546132, 0xF5B241)
+if_setcolor(76546133, 0xF5B241)
+if_setcolor(76546145, 0xF5B241)
+store_varc(1680, arg0)
+if(arg0 == 1) {
+	if_setcolor(76546125, 0xFFFFFF)
+	iVar7 = 1
+	iVar8 = 2
+	iVar9 = 3
+	iVar10 = 4
+	iVar11 = 5
+	iVar12 = 6
+} else 
+	if(arg0 == 2) {
+		if_setcolor(76546128, 0xFFFFFF)
+		iVar7 = 7
+		iVar8 = 8
+		iVar9 = 9
+		iVar10 = 10
+		iVar11 = 11
+		iVar12 = 12
+	} else 
+		if(arg0 == 3) {
+			if_setcolor(76546130, 0xFFFFFF)
+			iVar7 = 13
+			iVar8 = 14
+			iVar9 = 15
+			iVar10 = 16
+			iVar11 = 17
+			iVar12 = 18
+		} else 
+			if(arg0 == 4) {
+				if_setcolor(76546129, 0xFFFFFF)
+				iVar7 = 19
+				iVar8 = 20
+				iVar9 = 21
+				iVar10 = 22
+				iVar11 = 23
+				iVar12 = 24
+			} else 
+				if(arg0 == 5) {
+					if_setcolor(76546131, 0xFFFFFF)
+					iVar7 = 25
+					iVar8 = 26
+					iVar9 = 27
+					iVar10 = 28
+					iVar11 = 29
+					iVar12 = 30
+				} else 
+					if(arg0 == 6) {
+						if_setcolor(76546132, 0xFFFFFF)
+						iVar7 = 31
+						iVar8 = 32
+						iVar9 = 33
+						iVar10 = 34
+						iVar11 = 35
+						iVar12 = 36
+					} else 
+						if(arg0 == 7) {
+							if_setcolor(76546133, 0xFFFFFF)
+							iVar7 = 37
+							iVar8 = 38
+							iVar9 = 39
+							iVar10 = 40
+							iVar11 = 41
+							iVar12 = 42
+						} else 
+							if(arg0 == 8) {
+								if_setcolor(76546145, 0xFFFFFF)
+								iVar7 = 43
+								iVar8 = 44
+								iVar9 = 45
+								iVar10 = 46
+								iVar11 = 47
+								iVar12 = 48
+							}
+iVar1 = enum(5213, iVar7, 'i', 'J')
+iVar2 = enum(5213, iVar8, 'i', 'J')
+iVar3 = enum(5213, iVar9, 'i', 'J')
+iVar4 = enum(5213, iVar10, 'i', 'J')
+iVar5 = enum(5213, iVar11, 'i', 'J')
+iVar6 = enum(5213, iVar12, 'i', 'J')
+sVar0 = struct_param(2095, iVar1)
+sVar1 = struct_param(2095, iVar2)
+sVar2 = struct_param(2095, iVar3)
+sVar3 = struct_param(2095, iVar4)
+sVar4 = struct_param(2095, iVar5)
+sVar5 = struct_param(2095, iVar6)
+iVar13 = struct_param(2101, iVar1)
+iVar14 = struct_param(2101, iVar2)
+iVar15 = struct_param(2101, iVar3)
+iVar16 = struct_param(2101, iVar4)
+iVar17 = struct_param(2101, iVar5)
+iVar18 = struct_param(2101, iVar6)
+if_setgraphic(if_gethash(1168, 17), iVar13)
+if_setgraphic(if_gethash(1168, 18), iVar14)
+if_setgraphic(if_gethash(1168, 19), iVar15)
+if_setgraphic(if_gethash(1168, 20), iVar16)
+if_setgraphic(if_gethash(1168, 21), iVar17)
+if_setgraphic(if_gethash(1168, 22), iVar18)
+if(script_5451(iVar7) == 1)
+	script_5445(0, 76546078, 76546079, 1, sVar0)
+else
+	script_5445(0, 76546078, 76546079, 2, sVar0)
+if(script_5451(iVar8) == 1)
+	script_5445(0, 76546080, 76546081, 1, sVar1)
+else
+	script_5445(0, 76546080, 76546081, 2, sVar1)
+if(script_5451(iVar9) == 1)
+	script_5445(0, 76546082, 76546083, 1, sVar2)
+else
+	script_5445(0, 76546082, 76546083, 2, sVar2)
+if(script_5451(iVar10) == 1)
+	script_5445(0, 76546084, 76546085, 1, sVar3)
+else
+	script_5445(0, 76546084, 76546085, 2, sVar3)
+if(script_5451(iVar11) == 1)
+	script_5445(0, 76546086, 76546087, 1, sVar4)
+else
+	script_5445(0, 76546086, 76546087, 2, sVar4)
+if(script_5451(iVar12) == 1)
+	script_5445(0, 76546088, 76546089, 1, sVar5)
+else
+	script_5445(0, 76546088, 76546089, 2, sVar5)
+return

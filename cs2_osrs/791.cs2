@@ -1,0 +1,66 @@
+void script_791(Widget widget0, int arg1, Widget widget2, int arg3, Container container4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11) {
+	Item item12;
+	int int13;
+	int int14;
+	string str0;
+	string str1;
+	if (CHILD.setChild(widget0, arg7) == true) {
+		script_792(0, container4, widget0, arg5);
+	}
+	if (CHILD.setChild(widget0, arg8) == true) {
+		script_792(1, container4, widget0, arg6);
+	}
+	item12 = null;
+	int13 = 0;
+	int14 = 0;
+	str0 = "";
+	str1 = ",";
+	if (getGENotStarted(arg1) == true) {
+		if (CHILD.setChild(widget0, arg10) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, arg11) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, arg9) == true) {
+			CHILD.setHidden(true);
+			CHILD.setSize(0, CHILD.getHeight(), 0, 0);
+		}
+		widget0.hookMouseHover(null);
+	} else {
+		item12, int13 = getGEItem(arg1), getGEItemAmt(arg1);
+		int14 = getGEItemAmtTransfered(arg1);
+		if (getGEIsSelling(arg1) == 1) {
+			if (CHILD.setChild(widget0, arg10) == true) {
+				CHILD.setHidden(false);
+				CHILD.setSprite(1119);
+			}
+			if (getGEIsDone(arg1) == true) {
+				str0 = "Sold: " + getItemName(item12) + "<br>" + script_46(int14, str1) + " / " + script_46(int13, str1);
+			} else {
+				str0 = "Selling: " + getItemName(item12) + "<br>" + script_46(int14, str1) + " / " + script_46(int13, str1);
+			}
+		} else {
+			if (CHILD.setChild(widget0, arg10) == true) {
+				CHILD.setHidden(false);
+				CHILD.setSprite(1118);
+			}
+			if (getGEIsDone(arg1) == true) {
+				str0 = "Bought: " + getItemName(item12) + "<br>" + script_46(int14, str1) + " / " + script_46(int13, str1);
+			} else {
+				str0 = "Buying: " + getItemName(item12) + "<br>" + script_46(int14, str1) + " / " + script_46(int13, str1);
+			}
+		}
+		widget0.hookMouseHover(&script_526(widget0, -1, widget2, str0, 25, 512));
+		if (CHILD.setChild(widget0, arg11) == true) {
+			CHILD.setHidden(false);
+			CHILD.setItem(item12, int13);
+		}
+		if (CHILD.setChild(widget0, arg9) == true) {
+			CHILD.setHidden(false);
+			script_812(arg1, int13, int14, 0, arg3);
+		}
+	}
+	script_41(widget2);
+	return;
+}

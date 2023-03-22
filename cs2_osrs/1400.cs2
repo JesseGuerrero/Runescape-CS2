@@ -1,0 +1,18 @@
+void script_1400(Widget widget0, Sprite sprite1) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 5, 0);
+	_CHILD.createChild(widget0, 5, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	_CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSprite(195);
+	_CHILD.setSprite(sprite1);
+	CHILD.setTrans(0);
+	_CHILD.setTrans(200);
+	widget0.hookMouseHover(null);
+	widget0.hookMouseExit(null);
+	widget0.hookOptionClick(null);
+	widget0.setNoOptions();
+	return;
+}

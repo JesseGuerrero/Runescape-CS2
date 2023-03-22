@@ -1,0 +1,6 @@
+void script_1301(Widget widget0, int arg1, int arg2, int arg3) {
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		script_1302(widget0, getClientCycle() - arg3);
+	}
+	return;
+}

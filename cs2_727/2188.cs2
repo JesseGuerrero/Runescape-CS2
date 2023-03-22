@@ -1,0 +1,20 @@
+//script2188(2188)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 5:
+		return load_varpbit(7307)
+
+	case 6:
+		return load_varpbit(7308)
+
+	case 7:
+		return load_varpbit(7309)
+
+	case 10:
+		return load_varpbit(11306)
+		return 1
+
+
+}
+return 0

@@ -1,0 +1,23 @@
+//script2135(2135)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = if_getx(arg0)
+iVar4 = if_gety(arg0)
+if(arg1 >= 0)
+	if(arg1 <= if_getwidth(arg0) / 2)
+		iVar3 = iVar3 - (random(2) + 2)
+	else
+		if(arg1 <= if_getwidth(arg0))
+			iVar3 = (iVar3 + random(2)) + 2
+if(arg2 >= 0)
+	if(arg2 <= if_getheight(arg0) / 2)
+		iVar4 = iVar4 - (random(2) + 2)
+	else
+		if(arg2 <= if_getheight(arg0))
+			iVar4 = (iVar4 + random(2)) + 2
+iVar3 = max(0, iVar3)
+iVar4 = max(0, iVar4)
+iVar3 = min(if_getwidth(if_getlayer(arg0)) - if_getwidth(arg0), iVar3)
+iVar4 = min(if_getheight(if_getlayer(arg0)) - if_getheight(arg0), iVar4)
+if_setposition(arg0, 0, 0, iVar4, iVar3)
+return

@@ -1,0 +1,6 @@
+void script_823(Widget widget0, int arg1, DataMap datamap2) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		script_824(datamap2);
+	}
+	return;
+}

@@ -1,0 +1,44 @@
+//script2242(2242)()(void)
+int iVar0
+sound_synth(0, 3, 8727)
+if_settext(if_gethash(927, 22), "Turns taken score: " + to_string(load_varp(1674)) + " x 101 = " + to_string(load_varp(1674) * 101))
+if_settext(if_gethash(927, 26), "Resources spare: " + to_string(load_varp(1688) + (load_varp(1687) + load_varp(1686))) + " x -10 = -" + to_string((load_varp(1688) + (load_varp(1687) + load_varp(1686))) * 10))
+if(load_varp(1674) < 16)
+	if_settext(if_gethash(927, 27), "Completed within turn limit: -100")
+else
+	if_settext(if_gethash(927, 27), "Not completed within turn limit: 0")
+if_settext(if_gethash(927, 28), "Workers employed: " + to_string(load_varp(1681)) + " x -10 = -" + to_string(load_varp(1681) * 10))
+if_settext(if_gethash(927, 32), "Turns taken: " + to_string(load_varp(1674)))
+if(load_varpbit(7324) == 0)
+	if_settext(if_gethash(927, 23), "Oven not repaired: 50")
+else
+	if_settext(if_gethash(927, 23), "Oven repaired: 0")
+if(load_varpbit(7326) == 0)
+	if_settext(if_gethash(927, 24), "Conveyor not repaired: 50")
+else
+	if_settext(if_gethash(927, 24), "Conveyor repaired: 0")
+if(load_varpbit(7325) == 0)
+	if_settext(if_gethash(927, 25), "Painter not repaired: 50")
+else
+	if_settext(if_gethash(927, 25), "Painter repaired: 0")
+iVar0 = 0
+iVar0 = load_varp(1674) * 101
+if(load_varpbit(7325) == 0)
+	iVar0 = iVar0 + 50
+if(load_varpbit(7324) == 0)
+	iVar0 = iVar0 + 50
+if(load_varpbit(7326) == 0)
+	iVar0 = iVar0 + 50
+iVar0 = iVar0 - ((load_varp(1688) + (load_varp(1687) + load_varp(1686))) * 10)
+if(load_varp(1674) < 16)
+	iVar0 = iVar0 - 100
+iVar0 = iVar0 - (load_varp(1681) * 10)
+if(iVar0 < 0)
+	iVar0 = 0
+if(iVar0 > 32768)
+	iVar0 = 32768
+if(iVar0 == load_varpbit(7339))
+	if_settext(if_gethash(927, 31), "Final score: " + to_string(iVar0) + " (New best score)")
+else
+	if_settext(if_gethash(927, 31), "Final score: " + to_string(iVar0))
+return

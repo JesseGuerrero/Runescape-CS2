@@ -1,0 +1,10 @@
+//script2367(2367)()(void)
+if_setparam_int(if_gethash(1054, 30), 0, 1224)
+if_setparam_int(if_gethash(1054, 31), 0, 1224)
+if_setparam_int(if_gethash(1054, 32), 0, 1224)
+if_setparam_int(if_gethash(1054, 33), 0, 1224)
+if_setparam_int(if_gethash(1054, 34), 0, 1224)
+if_setparam_int(if_gethash(1054, 35), 0, 1224)
+if_setparam_int(if_gethash(1054, 36), 0, 1224)
+if_setparam_int(if_gethash(1054, 37), 0, 1224)
+return

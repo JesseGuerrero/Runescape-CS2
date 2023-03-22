@@ -1,0 +1,20 @@
+//script969(969)(int arg0)(void)
+int iVar1
+iVar1 = modulo(32, client_clock())
+if(script_970(arg0) == 0)
+	if(if_gettrans(arg0) != 0)
+		if_settrans(arg0, 0)
+	else
+		instr6342(arg0, None, "")
+else
+	if(iVar1 < 8)
+		if_settrans(arg0, 0)
+	else
+		if(iVar1 < 16)
+			if_settrans(arg0, 85)
+		else
+			if(iVar1 < 24)
+				if_settrans(arg0, 255)
+			else
+				if_settrans(arg0, 85)
+return

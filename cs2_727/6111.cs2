@@ -1,0 +1,33 @@
+//script6111(6111)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = inv_getitem(load_varp(2563), load_varp(2561))
+iVar1 = item_wearpos(iVar0)
+if(iVar1 == -1)
+	return
+iVar2 = inv_getitem(iVar1, 94)
+script_6112(item_param(6, iVar0), item_param(6, iVar2), 82903152, 82903153)
+script_6112(item_param(1, iVar0), item_param(1, iVar2), 82903147, 82903148)
+script_6112(item_param(5, iVar0), item_param(5, iVar2), 82903158, 82903159)
+script_6112(item_param(0, iVar0), item_param(0, iVar2), 82903155, 82903156)
+script_6112(item_param(7, iVar0), item_param(7, iVar2), 82903164, 82903165)
+script_6112(item_param(2, iVar0), item_param(2, iVar2), 82903161, 82903162)
+script_6112(item_param(9, iVar0), item_param(9, iVar2), 82903170, 82903171)
+script_6112(item_param(4, iVar0), item_param(4, iVar2), 82903167, 82903168)
+script_6112(item_param(8, iVar0), item_param(8, iVar2), 82903176, 82903177)
+script_6112(item_param(3, iVar0), item_param(3, iVar2), 82903173, 82903174)
+script_6112(item_param(417, iVar0), item_param(417, iVar2), 82903179, 82903180)
+script_6112(item_param(967, iVar0), item_param(967, iVar2), 82903191, 82903192)
+script_6112(item_param(968, iVar0), item_param(968, iVar2), 82903194, 82903195)
+script_6112(item_param(969, iVar0), item_param(969, iVar2), 82903197, 82903198)
+script_6112(item_param(641, iVar0), item_param(641, iVar2), 82903182, 82903183)
+script_6112(item_param(643, iVar0), item_param(643, iVar2), 82903185, 82903186)
+script_6112(item_param(685, iVar0), item_param(685, iVar2), 82903188, 82903189)
+script_6112(item_param(11, iVar0), item_param(11, iVar2), 82903200, 82903201)
+if(iVar1 == 3)
+	if(enum(3446, iVar0, 'o', '1') == 0)
+		script_6112(item_param(14, iVar0), item_param(14, iVar2), 82903205, 82903206)
+if_settext(if_gethash(1265, 163), script_2001(iVar0))
+if_settext(if_gethash(1265, 101), "Stats for " + item_name(iVar0) + ":")
+return

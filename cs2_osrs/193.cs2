@@ -1,0 +1,39 @@
+int script_193(int arg0, string string1) {
+	if (VARC[41] == 0) {
+		return 1;
+	}
+	if (arg0 == -1) {
+		return 0;
+	}
+	switch (VARC[41]) {
+		case 1:
+			if (datamap('i', '1', 892, arg0) == true) {
+				return 1;
+			}
+			break;
+		case 2:
+			if (arg0 == 1 || arg0 == 2 || arg0 == 90 || arg0 == 91) {
+				return 1;
+			}
+			break;
+		case 3:
+			if (arg0 == 3 || arg0 == 5 || arg0 == 6 || arg0 == 7) {
+				return 1;
+			}
+			break;
+		case 4:
+			if (arg0 == 9 || arg0 == 11 || arg0 == 104) {
+				return 1;
+			}
+			break;
+		case 5:
+			if (arg0 == 101 || arg0 == 103 || arg0 == 102) {
+				return 1;
+			}
+			if (script_210(arg0, string1) == 1) {
+				return 1;
+			}
+			break;
+	}
+	return 0;
+}

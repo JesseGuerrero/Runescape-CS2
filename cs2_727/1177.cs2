@@ -1,0 +1,7 @@
+//script1177(1177)()(void)
+if(load_varp(1414) == 0)
+	return
+store_varc(548, 540)
+if_settext(if_gethash(745, 5), "10")
+instr6342(if_gethash(745, 5), script_1178, "")
+return

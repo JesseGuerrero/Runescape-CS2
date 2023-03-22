@@ -1,0 +1,150 @@
+void script_386() {
+	int int0;
+	int int1;
+	int int2;
+	DataMap datamap3;
+	int int4;
+	int int5;
+	int0 = 0;
+	int1 = 0;
+	int2 = 0;
+	datamap3 = script_900();
+	int4 = 15;
+	if (script_383() == 1) {
+		widget(90, 41).setSize(57, 55, 0, 0);
+		if (VARC[53] == 1) {
+			int4 = 0;
+		}
+		widget(90, 46).setPosition(0, 13, 1, 2);
+		widget(90, 46).setRGB(0xFF981F);
+		widget(90, 45).setIsHidden(false);
+		widget(90, 45).setPosition(0, 0, 1, 2);
+		script_387(script_384());
+		script_866(true, datamap3);
+		widget(90, 47).setIsHidden(true);
+		widget(90, 1).setIsHidden(true);
+	} else if (VARPBIT[5314] == 1) {
+		if (VARPBIT[5320] > 0 && VARPBIT[5316] > 0) {
+			widget(90, 1).setIsHidden(false);
+			widget(90, 1).cs2method2125(1);
+			widget(90, 1).hookFrame(&script_1345());
+			script_1346();
+		} else {
+			widget(90, 1).hookFrame(null);
+			widget(90, 1).setIsHidden(true);
+		}
+	} else if (script_1138() == 1) {
+		int4 = 0;
+		widget(90, 46).setRGB(0xFF981F);
+		if (VARPBIT[4165] >= 4) {
+			if (VARPBIT[4165] > 5) {
+				script_1434(false, datamap3, true);
+				widget(90, 12).setIsHidden(true);
+			} else if (VARPBIT[4165] == 5) {
+				script_1434(false, datamap3, false);
+				widget(90, 12).setIsHidden(false);
+			}
+			widget(90, 1).setIsHidden(false);
+			widget(90, 1).cs2method2125(1);
+			widget(90, 1).hookFrame(&script_245());
+			script_1261();
+		} else {
+			widget(90, 1).hookFrame(null);
+			widget(90, 1).setIsHidden(true);
+		}
+		if (VARPBIT[4965] > 0) {
+			widget(90, 41).setSize(57, 55, 0, 0);
+			widget(90, 45).setIsHidden(true);
+			widget(90, 45).setPosition(0, 12, 1, 2);
+			widget(90, 47).setIsHidden(false);
+			if (VARPBIT[4965] >= 60) {
+				widget(90, 47).setText(VARPBIT[4965] / 60 + "h " + VARPBIT[4965] % 60 + "m");
+			} else {
+				widget(90, 47).setText(VARPBIT[4965] % 60 + "min");
+			}
+		} else if (VARC[78] != 2) {
+			if (VARPBIT[4854] > 0) {
+				widget(90, 41).setSize(57, 66, 0, 0);
+				widget(90, 46).setPosition(0, 25, 1, 2);
+				widget(90, 45).setIsHidden(false);
+				widget(90, 45).setPosition(0, 12, 1, 2);
+				script_387(script_384());
+				widget(90, 47).setIsHidden(false);
+				widget(90, 47).setText(script_1182());
+			} else {
+				widget(90, 41).setSize(57, 55, 0, 0);
+				widget(90, 46).setPosition(0, 13, 1, 2);
+				widget(90, 45).setIsHidden(false);
+				widget(90, 45).setPosition(0, 0, 1, 2);
+				script_387(script_384());
+				widget(90, 47).setIsHidden(true);
+			}
+		} else if (VARPBIT[4854] > 0) {
+			widget(90, 41).setSize(57, 55, 0, 0);
+			widget(90, 46).setPosition(0, 13, 1, 2);
+			widget(90, 45).setIsHidden(true);
+			widget(90, 47).setIsHidden(false);
+			widget(90, 47).setText(script_1182());
+		} else {
+			widget(90, 41).setSize(57, 55, 0, 0);
+			widget(90, 46).setPosition(0, 13, 1, 2);
+			widget(90, 45).setIsHidden(true);
+			widget(90, 47).setIsHidden(true);
+		}
+		script_866(true, datamap3);
+	} else if (script_1942() == 1) {
+		widget(90, 41).setSize(57, 55, 0, 0);
+		int4 = 13;
+		widget(90, 46).setPosition(0, 0, 1, 2);
+		widget(90, 46).setRGB(0xFFFF00);
+		widget(90, 45).setIsHidden(true);
+		if (VARPBIT[5701] >= 1) {
+			if (VARPBIT[5701] > 2) {
+				script_1434(false, datamap3, true);
+				widget(90, 12).setIsHidden(true);
+			} else if (VARPBIT[5701] == 2) {
+				script_1434(false, datamap3, false);
+				widget(90, 12).setIsHidden(false);
+			}
+			widget(90, 1).setIsHidden(false);
+			widget(90, 1).cs2method2125(1);
+			widget(90, 1).hookFrame(&script_1956());
+			script_1957();
+		} else {
+			widget(90, 1).hookFrame(null);
+			widget(90, 1).setIsHidden(true);
+		}
+	} else {
+		widget(90, 41).setSize(57, 55, 0, 0);
+		int4 = 13;
+		widget(90, 46).setPosition(0, 0, 1, 2);
+		widget(90, 46).setRGB(0xFFFF00);
+		widget(90, 45).setIsHidden(true);
+		if (script_568(getMyLocation()) == 1) {
+			if (script_247(location(3264, 4736, 0), location(3391, 4759, 3), getMyLocation()) == 1) {
+				widget(90, 43).setTrans(0);
+			} else {
+				widget(90, 43).setTrans(255);
+			}
+			script_866(true, datamap3);
+		} else {
+			widget(90, 43).setTrans(0);
+			if (script_3() == 1) {
+				script_866(false, datamap3);
+			} else {
+				script_866(true, datamap3);
+			}
+		}
+		widget(90, 47).setIsHidden(true);
+		widget(90, 1).setIsHidden(true);
+	}
+	widget(90, 42).setPosition(0, int4, 1, 0);
+	widget(90, 43).setPosition(0, int4, 1, 0);
+	int5 = datamap('g', 'i', 1135, datamap3);
+	if (int5 > 0) {
+		widget(90, 41).setPosition(29, 170 - int4, 2, 0);
+	} else {
+		widget(90, 41).setPosition(0, 40, 2, 2);
+	}
+	return;
+}

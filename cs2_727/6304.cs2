@@ -1,0 +1,12 @@
+//script6304(6304)()(int)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+while(iVar0 < 10) {
+	if(string_length(script_6302(iVar0)) > 0)
+		iVar1 = iVar1 + 1
+	iVar0 = iVar0 + 1
+}
+return iVar1
+return 0

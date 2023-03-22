@@ -1,0 +1,42 @@
+//script1371(1371)()(void)
+if(load_varpbit(7520) == 0)
+	if_setcolor(66650268, 0x585042)
+else
+	if_setcolor(66650268, 0xFF981F)
+if(load_varpbit(7521) == 0)
+	if_setcolor(66650269, 0x585042)
+else
+	if_setcolor(66650269, 0xFF981F)
+if(load_varpbit(7526) == 0)
+	if_setcolor(66650270, 0x585042)
+else
+	if_setcolor(66650270, 0xFF981F)
+if(load_varpbit(7527) == 0)
+	if_setcolor(66650271, 0x585042)
+else
+	if_setcolor(66650271, 0xFF981F)
+if(load_varpbit(7530) == 0)
+	if_setcolor(66650272, 0x585042)
+else
+	if_setcolor(66650272, 0xFF981F)
+if(load_varpbit(7531) == 0)
+	if_setcolor(66650273, 0x585042)
+else
+	if_setcolor(66650273, 0xFF981F)
+if(load_varpbit(7532) == 0)
+	if_setcolor(66650274, 0x585042)
+else
+	if_setcolor(66650274, 0xFF981F)
+if(load_varpbit(7533) == 0)
+	if_setcolor(66650275, 0x585042)
+else
+	if_setcolor(66650275, 0xFF981F)
+if(load_varpbit(7534) == 0)
+	if_setcolor(66650276, 0x585042)
+else
+	if_setcolor(66650276, 0xFF981F)
+if(load_varpbit(7535) == 0)
+	if_setcolor(66650277, 0x585042)
+else
+	if_setcolor(66650277, 0xFF981F)
+return

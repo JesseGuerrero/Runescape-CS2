@@ -1,0 +1,32 @@
+//script2437(2437)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+switch(load_varc(816)) {
+	case default:
+		break
+	case 0:
+		return
+
+	case 1:
+		iVar2 = load_varc(817)
+		break
+	case 2:
+		iVar2 = scale(100, 125, load_varc(817))
+		break
+	case 3:
+		iVar2 = scale(100, 150, load_varc(817))
+		iVar2 = scale(100, 175, load_varc(817))
+		break
+
+}
+if(iVar2 > 100)
+	iVar2 = 100
+iVar0 = enum(1090, iVar2, 'i', 'i')
+iVar1 = enum(1091, iVar2, 'i', 'i')
+if_setposition(if_gethash(15, 11), 0, 2, iVar0, 91)
+if_setsize(if_gethash(15, 11), 0, 0, iVar1, 18)
+return

@@ -1,0 +1,20 @@
+//script6448(6448)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+iVar5 = 0
+iVar6 = 150 + arg4
+iVar7 = 500 + arg4
+if(arg3 == 1) {
+	iVar6 = 700 + arg4
+	iVar7 = 1000 + arg4
+}
+if(cc_find(arg1, arg0) == 1) {
+	iVar5 = cc_getspritescale()
+	if(arg2 < 0)
+		iVar5 = max(iVar5 - 15, iVar6)
+	else
+		iVar5 = min(iVar5 + 15, iVar7)
+	cc_setmodelzoom(iVar5)
+}
+return

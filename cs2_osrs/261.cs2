@@ -1,0 +1,27 @@
+void script_261(Widget widget0, int arg1, int arg2, int arg3) {
+	int int4;
+	int4 = arg2 - arg1;
+	if (int4 == 0) {
+		widget0.hookFrame(null);
+		script_262(widget0, arg2);
+		return;
+	}
+	if (getClientCycle() < arg3) {
+		if (int4 <= -2) {
+			int4 = int4 / 2;
+		} else if (int4 >= 2) {
+			int4 = int4 / 2;
+		}
+	}
+	arg1 = arg1 + int4;
+	widget0.hookFrame(&script_261(widget0, arg1, arg2, arg3));
+	script_262(widget0, arg1);
+	if (int4 < 0) {
+		if (getClientCycle() % 2 == 0) {
+			playSoundEffect(2157, 1, 0);
+		} else {
+			playSoundEffect(2156, 1, 0);
+		}
+	}
+	return;
+}

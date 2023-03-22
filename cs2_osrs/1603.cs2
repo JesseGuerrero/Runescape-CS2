@@ -1,0 +1,17 @@
+void script_1603(boolean arg0, int arg1, string arg2) {
+	string str1;
+	str1 = "<col=0000ff>" + script_46(arg1, ",") + " x " + arg2 + "</col>" + " - ";
+	if (arg1 > 1) {
+		if (arg0 == true) {
+			str1 = concat(str1, "You will keep these items should you die.");
+		} else {
+			str1 = concat(str1, "You will lose these items should you die.");
+		}
+	} else if (arg0 == true) {
+		str1 = concat(str1, "You will keep this item should you die.");
+	} else {
+		str1 = concat(str1, "You will lose this item should you die.");
+	}
+	msg(str1);
+	return;
+}

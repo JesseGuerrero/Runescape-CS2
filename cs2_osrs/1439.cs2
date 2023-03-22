@@ -1,0 +1,16 @@
+void script_1439(Widget widget0, int arg1, int arg2, int arg3) {
+	if (arg3 >= 7) {
+		CHILD.setSprite(942);
+		widget0.setContextMenuOption(1, "Enable warning");
+		widget0.hookOptionClick(&script_1440(CTX_WIDGET, getChildId(), arg1, arg2, 6));
+	} else if (arg3 == 6) {
+		CHILD.setSprite(941);
+		widget0.setContextMenuOption(1, "Disable warning");
+		widget0.hookOptionClick(&script_1440(CTX_WIDGET, getChildId(), arg1, arg2, 7));
+	} else {
+		CHILD.setSprite(null);
+		widget0.setNoOptions();
+		widget0.hookOptionClick(null);
+	}
+	return;
+}

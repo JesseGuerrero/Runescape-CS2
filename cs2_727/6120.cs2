@@ -1,0 +1,8 @@
+//script6120(6120)(int arg0, int arg1, int arg2, int arg3)(void)
+arg3 = arg3 + 1
+if(arg3 > arg2) {
+	if_sethide(arg0, arg1)
+	instr6342(arg0, None, "")
+} else 
+	instr6342(arg0, script_6120, "I1ii", -2147483645, arg1, arg2, arg3)
+return

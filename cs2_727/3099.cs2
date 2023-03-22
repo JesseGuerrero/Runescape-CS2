@@ -1,0 +1,18 @@
+//script3099(3099)(int arg0, int arg1, int arg2, int arg3, string arg4, string arg5)(void)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = 4044
+iVar5 = 4044
+iVar6 = 4046
+hook_mouse_exit(arg0, script_3071, "IdIdId", arg1, iVar4, arg2, iVar6, arg3, iVar5)
+if_setgraphic(arg1, iVar4)
+if_setgraphic(arg2, iVar6)
+if_setgraphic(arg3, iVar5)
+iVar4 = 4045
+iVar6 = 4047
+iVar5 = 4045
+hook_mouse_enter(arg0, script_3071, "IdIdId", arg1, iVar4, arg2, iVar6, arg3, iVar5)
+if_settext(if_gethash(906, 262), arg0)
+instr6213(if_gethash(906, 258), 1, arg1)
+return

@@ -1,0 +1,18 @@
+//script943(943)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = struct_param(782, enum(169, arg0, 'i', 'J'))
+if(world_members() == 0)
+	send_message("More advanced grouping options are available on a members' world.")
+else
+	if(load_varp(281) < 1000)
+		send_message("More advanced grouping options will be available when you've finished the Tutorial.")
+	else {
+		if(load_varc(693) == arg1)
+			store_varc(694, modulo(2, 1 + load_varc(694)))
+		else {
+			store_varc(693, arg1)
+			store_varc(694, 0)
+		}
+		script_2162(arg0, load_varc(693), load_varc(694), load_varc(692), load_varc(1103))
+	}
+return

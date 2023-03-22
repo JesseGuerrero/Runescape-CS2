@@ -1,0 +1,109 @@
+//script444(444)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+iVar0 = 0
+iVar1 = 0
+iVar2 = -1
+sVar0 = ""
+sVar1 = ""
+globalArrays[0] = [inv_size(if_gethash(0, 583)), 111]
+globalArrays[1] = [inv_size(if_gethash(0, 583)), 105]
+iVar3 = 0
+iVar4 = 99
+iVar5 = 0
+while(iVar0 < inv_size(if_gethash(0, 583))) {
+	iVar2 = inv_getitem(iVar0, 583)
+	iVar1 = inv_getnum(iVar0, 583)
+	if(iVar2 != -1) {
+		iVar4 = 99
+		iVar5 = 0
+		while(iVar5 < inv_size(if_gethash(0, 583)))
+			if(globalArrays[0][iVar5] != -1) {
+				if(globalArrays[0][iVar5] == iVar2) {
+					iVar4 = iVar5
+					iVar5 = inv_size(if_gethash(0, 583))
+				}
+				iVar5 = iVar5 + 1
+			} else 
+				iVar5 = inv_size(if_gethash(0, 583))
+		if(iVar4 == 99) {
+			globalArrays[0][iVar3] = iVar2
+			globalArrays[1][iVar3] = iVar1
+			iVar3 = iVar3 + 1
+		} else 
+			globalArrays[1][iVar4] = globalArrays[1][iVar4] + iVar1
+	}
+	iVar0 = iVar0 + 1
+}
+iVar3 = 0
+while(iVar3 < inv_size(if_gethash(0, 583))) {
+	iVar2 = globalArrays[0][iVar3]
+	if(iVar2 != -1) {
+		iVar1 = globalArrays[1][iVar3]
+		sVar0 = append(script_446(iVar1, iVar2), sVar0)
+	} else 
+		iVar3 = inv_size(if_gethash(0, 583))
+	iVar3 = iVar3 + 1
+}
+iVar0 = 0
+iVar3 = 0
+while(iVar3 < inv_size(if_gethash(0, 583))) {
+	globalArrays[0][iVar3] = -1
+	globalArrays[1][iVar3] = 0
+	iVar3 = iVar3 + 1
+}
+iVar3 = 0
+iVar5 = 0
+while(iVar0 < inv_size(if_gethash(0, 583))) {
+	iVar2 = invother_getitem(iVar0, 583)
+	iVar1 = invother_getnum(iVar0, 583)
+	if(iVar2 != -1) {
+		iVar4 = 99
+		iVar5 = 0
+		while(iVar5 < inv_size(if_gethash(0, 583)))
+			if(globalArrays[0][iVar5] != -1) {
+				if(globalArrays[0][iVar5] == iVar2) {
+					iVar4 = iVar5
+					iVar5 = inv_size(if_gethash(0, 583))
+				}
+				iVar5 = iVar5 + 1
+			} else 
+				iVar5 = inv_size(if_gethash(0, 583))
+		if(iVar4 == 99) {
+			globalArrays[0][iVar3] = iVar2
+			globalArrays[1][iVar3] = iVar1
+			iVar3 = iVar3 + 1
+		} else 
+			globalArrays[1][iVar4] = globalArrays[1][iVar4] + iVar1
+	}
+	iVar0 = iVar0 + 1
+}
+iVar3 = 0
+while(iVar3 < inv_size(if_gethash(0, 583))) {
+	iVar2 = globalArrays[0][iVar3]
+	if(iVar2 != -1) {
+		iVar1 = globalArrays[1][iVar3]
+		sVar1 = append(script_446(iVar1, iVar2), sVar1)
+	} else 
+		iVar3 = inv_size(if_gethash(0, 583))
+	iVar3 = iVar3 + 1
+}
+if(string_length(sVar0) > 0) {
+	if_settext(if_gethash(1023, 14), sVar0)
+	script_447(67043343, 67043341, 67043342)
+	if_sethide(if_gethash(1023, 12), 1)
+} else 
+	if_sethide(if_gethash(1023, 12), 0)
+if(string_length(sVar1) > 0) {
+	if_settext(if_gethash(1023, 21), sVar1)
+	script_447(67043350, 67043348, 67043349)
+	if_sethide(if_gethash(1023, 19), 1)
+} else 
+	if_sethide(if_gethash(1023, 19), 0)
+return

@@ -1,0 +1,14 @@
+//script347(347)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(arg2 == -1) {
+		instr6556(script_1518, "Iii", -2147483645, -2147483643, 0)
+		instr6088(script_347, "Iii", -2147483645, -2147483643, -2147483647)
+	} else  {
+		arg2 = arg2 - (cc_getwidth() / 2)
+		if(arg2 >= 0)
+			instr6556(script_1518, "Iii", -2147483645, -2147483643, 1)
+		else
+			instr6556(script_1518, "Iii", -2147483645, -2147483643, -1)
+		instr6088(script_347, "Iii", -2147483645, -2147483643, -1)
+	}
+return

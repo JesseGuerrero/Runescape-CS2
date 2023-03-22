@@ -1,0 +1,22 @@
+//script1919(1919)()(void)
+if(load_varc(583) > 0)
+	if_setcolor(53280867, 0xC8AA64)
+else
+	if_setcolor(53280867, 0x333333)
+if(load_varc(584) > 0)
+	if_setcolor(53280869, 0xC8AA64)
+else
+	if_setcolor(53280869, 0x333333)
+if(load_varc(585) > 0)
+	if_setcolor(53280871, 0xC8AA64)
+else
+	if_setcolor(53280871, 0x333333)
+if(load_varc(586) > 0)
+	if_setcolor(53280873, 0xC8AA64)
+else
+	if_setcolor(53280873, 0x333333)
+if(load_varc(587) > 0)
+	if_setcolor(53280875, 0xC8AA64)
+else
+	if_setcolor(53280875, 0x333333)
+return

@@ -1,0 +1,51 @@
+void script_962(int arg0, Widget widget1, Widget widget2, Widget widget3) {
+	int int4;
+	int int5;
+	int int6;
+	DataMap datamap7;
+	Item item8;
+	widget1.clearChildren();
+	widget2.clearChildren();
+	int4 = (widget1.getWidth() - 10 * 36) / (10 - 1);
+	int5 = 32 + 10;
+	int6 = 0;
+	datamap7 = 1124;
+	if (script_1942() == 1) {
+		datamap7 = 1735;
+	}
+	item8 = datamap('i', 'O', datamap7, int6);
+	while (item8 != null) {
+		CHILD.createChild(widget1, 5, int6);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setItemNoNum(item8, 10000);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		CHILD.setContextMenuOption(1, "Take");
+		if (itemIsStackable(item8) == false) {
+			CHILD.setContextMenuOption(2, "Take-5");
+			CHILD.setContextMenuOption(3, "Take-10");
+		}
+		CHILD.setContextMenuOption(4, "Take-X");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setOptionBase("<col=ff9040>" + getItemName(item8) + "</col>");
+		CHILD.hookOptionClick(&script_487(CTX_WIDGET, CTX_WIDGET_CHILD, 100, 0));
+		CHILD.setHidden(true);
+		int6 = int6 + 1;
+		item8 = datamap('i', 'O', datamap7, int6);
+	}
+	CHILD.createChild(widget1, 4, int6);
+	CHILD.setSize(0, 50, 1, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText("No matching items found.");
+	CHILD.setHidden(true);
+	script_31(widget2, widget1, 792, 789, 790, 791, 773, 788);
+	if (script_514() == 1) {
+		script_299(1, 1);
+	}
+	script_965(widget1, widget2, widget3, int4, int5);
+	return;
+}

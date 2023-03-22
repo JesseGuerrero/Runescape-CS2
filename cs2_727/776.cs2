@@ -1,0 +1,36 @@
+//script776(776)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+string sVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+sVar0 = "Hello"
+sVar1 = "00:00"
+sVar2 = "1.1x"
+if(load_varpbit(7232) == 1) {
+	iVar0 = load_varpbit(7233) / 60
+	iVar1 = modulo(60, load_varpbit(7233))
+	iVar2 = script_338(16) / 1000
+	iVar3 = modulo(1000, script_338(16)) / 100
+	if(iVar1 < 10)
+		if(iVar0 < 10)
+			sVar1 = "0" + to_string(iVar0) + ":0" + to_string(iVar1)
+		else
+			sVar1 = to_string(iVar0) + ":0" + to_string(iVar1)
+	else
+		if(iVar0 < 10)
+			sVar1 = "0" + to_string(iVar0) + ":" + to_string(iVar1)
+		else
+			sVar1 = to_string(iVar0) + ":" + to_string(iVar1)
+	sVar2 = to_string(iVar2) + "." + to_string(iVar3) + "x"
+	sVar0 = "Multiplier: " + "<col=ff0000>" + sVar2 + "</col>" + "<br>" + "Elapsed: " + "<col=ff0000>" + sVar1 + "</col>" + "<br>" + "Bonus: " + "<col=ff0000>" + to_string(load_varp(1878) / 10) + "xp" + "</col>"
+	if_setonmouseover(if_gethash(1215, 1), script_5647, "s", sVar0)
+	hook_mouse_exit(if_gethash(1215, 1), script_5648, "")
+}
+return

@@ -1,0 +1,120 @@
+//script129(129)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+cc_deleteall(if_gethash(550, 4))
+iVar0 = ignore_count()
+if(iVar0 < 0) {
+	if_settext(if_gethash(550, 45), "Loading Ignore List." + "<br>" + "Please wait.")
+	if_sethide(if_gethash(550, 45), 0)
+	if_settext(if_gethash(550, 34), "")
+	return
+}
+if_settext(if_gethash(550, 34), to_string(iVar0) + " / " + to_string(100))
+if_settext(if_gethash(550, 45), "")
+if_sethide(if_gethash(550, 45), 1)
+iVar1 = 36044804
+iVar2 = 36044802
+iVar3 = 36044803
+iVar4 = 36044830
+iVar5 = 0
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+iVar6 = 0
+iVar7 = 0
+sVar3 = ""
+iVar8 = 0
+iVar9 = 0
+iVar10 = 15
+iVar11 = if_getheight(iVar3) / iVar10
+cc_deleteall(iVar1)
+cc_deleteall(iVar2)
+while(iVar5 < iVar0) {
+	iVar8 = iVar5 * 2
+	iVar9 = iVar5 * iVar10
+	sVar0 = ignore_getnames(iVar5).get(0)
+	if(compare("", sVar1) != 0)
+		iVar6 = 1
+	else
+		iVar6 = 0
+	if(iVar6 == 1)
+		sVar2 = "      " + sVar0
+	else
+		sVar2 = sVar0
+	cc_create(iVar8, 4, 36044804)
+	cc_setsize(0, 0, iVar10, 168)
+	cc_setposition(0, 0, iVar9, 0)
+	cc_setcolor(a4997d)
+	cc_settextfont(3793)
+	cc_settextshadow(1)
+	cc_settextalign(0, 0, 0)
+	if(iVar6 == 1)
+		cc_settext("      " + sVar2)
+	else
+		cc_settext(sVar2)
+	cc_settext(sVar2)
+	cc_setopbase("<col=ffffff>" + sVar0)
+	cc_setop("Remove", 1)
+	instr6687(script_130, "s", ignore_getname_unfiltered(iVar5))
+	if(iVar6 == 1) {
+		iVar7 = stringwidth(3793, "Last known as: " + sVar1) + 8
+		if(iVar7 > if_getwidth(if_gethash(550, 4)))
+			sVar3 = "Last known as:" + "<br>" + sVar1
+		else
+			sVar3 = "Last known as: " + sVar1
+		cc_setonmouseover(script_1594, "IIisii", if_gethash(550, 51), -2147483645, -2147483643, sVar3, -2147483647, -2147483646)
+		instr6092(script_40, "I", if_gethash(550, 51))
+	}
+	cc_create(iVar8 + 1, 5, 36044804)
+	cc_setgraphic(2313)
+	cc_setsize(0, 0, 14, 14)
+	cc_setposition(0, 0, iVar9, 0)
+	if(iVar6 == 0)
+		cc_sethide(1)
+	if(modulo(2, iVar5) != 0) {
+		cc_create(if_getnextsubid(iVar2), 3, 36044802)
+		cc_setsize(0, 2, iVar10, 16384)
+		cc_setposition(0, 0, iVar9, 0)
+		cc_setcolor(232220)
+		cc_setfill(1)
+		cc_settrans(128)
+	}
+	iVar5 = iVar5 + 1
+}
+while(iVar5 < iVar11) {
+	iVar9 = iVar5 * iVar10
+	if(modulo(2, iVar5) != 0) {
+		cc_create(if_getnextsubid(iVar2), 3, 36044802)
+		cc_setsize(0, 2, iVar10, 16384)
+		cc_setposition(0, 0, iVar9, 0)
+		cc_setcolor(232220)
+		cc_setfill(1)
+		cc_settrans(128)
+	}
+	iVar5 = iVar5 + 1
+}
+iVar12 = 0
+iVar13 = 0
+iVar12 = if_getscrolly(iVar3)
+iVar13 = iVar5 * iVar10
+if_setscrollsize(iVar3, iVar13, if_getwidth(iVar3))
+if(iVar12 > iVar13)
+	iVar12 = iVar13
+script_72(iVar4, iVar3, iVar12)
+return

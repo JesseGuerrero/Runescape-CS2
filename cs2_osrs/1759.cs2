@@ -1,0 +1,12 @@
+int script_1759() {
+	int int0;
+	if (isBitFlagged(VARPBIT[5640], 4) == true) {
+		return 0;
+	}
+	int0 = getClientCycle() % 40;
+	if (int0 < 20) {
+		return pow(int0, 2) * 8192 / 400;
+	}
+	int0 = 40 - int0;
+	return 16384 - pow(int0, 2) * 8192 / 400;
+}

@@ -1,0 +1,25 @@
+void script_494(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int int4;
+	if (arg1 == 0 && getClientCycle() % 50 != 0) {
+		return;
+	}
+	if (script_1138() == 1 && VARPBIT[4965] > 0) {
+		return;
+	}
+	if (VARPBIT[4143] == 0 || script_1138() == 0 && script_384() <= 0) {
+		widget0.setIsHidden(true);
+		return;
+	}
+	widget0.setIsHidden(false);
+	if (VARP[1102] == 0) {
+		widget0.setText("Kills:" + VARP[1103] + "<br>" + "Deaths:0" + "<br>" + "K/D Ratio:0");
+		return;
+	}
+	int2 = VARP[1103] * 10 / VARP[1102];
+	int3 = int2 / 10;
+	int4 = int2 % 10;
+	widget0.setText("Kills: " + VARP[1103] + "<br>" + "Deaths: " + VARP[1102] + "<br>" + "K/D Ratio: " + int3 + "." + int4);
+	return;
+}

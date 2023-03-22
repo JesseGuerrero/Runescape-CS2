@@ -1,0 +1,48 @@
+int script_711(Widget widget0, string string1, int arg2) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	Sprite sprite9;
+	widget0.clearChildren();
+	int2 = widget0.getWidth();
+	int3 = widget0.getHeight();
+	script_98(widget0, 0, 297, 1, 1, 0, 0, int2 - 2, int3 - 2, 0, 0);
+	CHILD.createChild(widget0, 4, 1);
+	CHILD.setPosition(6, 6, 0, 0);
+	CHILD.setSize(int2 - 12, 23, 0, 0);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(496);
+	CHILD.setText(string1);
+	int4 = getChildId();
+	int5 = int2 - 32;
+	int6 = int3 - 32;
+	script_98(widget0, 2, 824, 0, 0, 0, 0, 32, 32, 0, 0);
+	script_98(widget0, 3, 825, int5, 0, 0, 0, 32, 32, 0, 0);
+	script_98(widget0, 4, 826, 0, int6, 0, 0, 32, 32, 0, 0);
+	script_98(widget0, 5, 827, int5, int6, 0, 0, 32, 32, 0, 0);
+	int7 = int2 - 64;
+	script_98(widget0, 6, 820, 32, -13, 0, 0, int7, 32, 0, 0);
+	script_98(widget0, 7, 822, 32, int3 - 20, 0, 0, int7, 32, 0, 0);
+	int8 = int3 - 64;
+	script_98(widget0, 8, 821, -13, 32, 0, 0, 32, int8, 0, 0);
+	script_98(widget0, 9, 823, int2 - 20, 32, 0, 0, 32, int8, 0, 0);
+	script_98(widget0, 10, 829, 0, 17, 0, 0, 32, 32, 0, 0);
+	script_98(widget0, 11, 830, int5, 17, 0, 0, 32, 32, 0, 0);
+	script_98(widget0, 12, 828, 11, 15, 0, 0, int2 - 22, 32, 0, 0);
+	sprite9 = 831;
+	if (isBitFlagged(arg2, 0) == false) {
+		script_98(widget0, 13, sprite9, int2 - 26, 10, 0, 0, 16, 16, 0, 0);
+		CHILD.hookMouseExit(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite9, null));
+		sprite9 = 832;
+		CHILD.hookMouseEnter(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite9, null));
+		CHILD.setContextMenuOption(1, "Close");
+		CHILD.hookOptionClick(&script_29());
+	}
+	return int4;
+}

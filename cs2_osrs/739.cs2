@@ -1,0 +1,16 @@
+void script_739(Widget widget0, Widget widget1) {
+	int int2;
+	string str0;
+	str0 = VARPBIT[5653] + " / " + VARPBIT[5654];
+	widget0.setText(str0);
+	int2 = widget(596, 6).getWidth();
+	int2 = VARPBIT[5653] * int2 / VARPBIT[5654];
+	if (int2 == 0 && VARPBIT[5653] > 0) {
+		int2 = 1;
+	}
+	if (int2 == widget(596, 6).getWidth() && VARPBIT[5653] < VARPBIT[5654]) {
+		int2 = int2 - 1;
+	}
+	widget1.setSize(int2, widget1.getHeight(), 0, 0);
+	return;
+}

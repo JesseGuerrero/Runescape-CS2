@@ -1,0 +1,22 @@
+//script4917(4917)()(void)
+if(clan_vars_enabled() == 1) {
+	instr6898(if_gethash(1259, 51), script_4918, "")
+	instr6898(if_gethash(1261, 145), script_4918, "")
+	store_varpbit(9548, load_clan_varbit(2074))
+	store_varpbit(9549, load_clan_varbit(2075))
+	script_5974()
+	script_4991()
+	script_4900()
+	script_4905()
+	script_4907()
+	script_5012()
+	script_5975()
+	script_4864()
+	script_4994()
+	script_4889()
+	script_4853()
+	script_4913()
+} else 
+	send_message("Clan stronghold information not yet available.")
+return
+return

@@ -1,0 +1,20 @@
+//script6385(6385)()(void)
+int iVar0
+string sVar0
+iVar0 = -1
+if(world_language() == 0)
+	iVar0 = 11621
+else
+	if(world_language() == 1)
+		iVar0 = 11623
+	else
+		if(world_language() == 2)
+			iVar0 = 11622
+		else
+			if(world_language() == 3)
+				iVar0 = 11625
+if_setgraphic(if_gethash(396, 11), iVar0)
+script_6387()
+sVar0 = "Cooking - " + enum(5926, load_varpbit(11457), 'i', 's') + ", " + enum(5926, load_varpbit(11458), 'i', 's') + " and " + enum(5926, load_varpbit(11459), 'i', 's')
+if_settext(if_gethash(396, 18), sVar0)
+return

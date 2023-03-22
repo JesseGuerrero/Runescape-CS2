@@ -1,0 +1,8 @@
+//script2102(2102)()(void)
+int iVar0
+script_31(19464198, 19464196, 798, 795, 796, 797, 793, 794)
+iVar0 = (paramheight(if_gettext(if_gethash(297, 7)), 495, if_getwidth(if_gethash(297, 7))) * 12) + 5
+if_setsize(if_gethash(297, 7), 0, 0, iVar0, if_getwidth(if_gethash(297, 7)))
+if_setposition(if_gethash(297, 49), 0, 0, (if_gety(if_gethash(297, 7)) + iVar0) + 5, if_getx(if_gethash(297, 49)))
+script_2104(0)
+return

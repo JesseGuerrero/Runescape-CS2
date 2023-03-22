@@ -1,0 +1,13 @@
+//script301(301)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if(cc_find(arg2, arg1) == 1)
+	cc_setcolor(0)
+if(arg3 != -1)
+	if(cc_find(arg3, arg1) == 1)
+		cc_setcolor(0)
+if(arg0 == 1)
+	if(cc_find(arg4, arg1) == 1)
+		cc_sethide(0)
+else
+	if(cc_find(arg4, arg1) == 1)
+		cc_sethide(1)
+return

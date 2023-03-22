@@ -1,0 +1,7 @@
+//script6169(6169)()(void)
+if_sethide(if_gethash(1273, 16), 0)
+pop_int()
+script_6179()
+pop_int()
+script_6181()
+return

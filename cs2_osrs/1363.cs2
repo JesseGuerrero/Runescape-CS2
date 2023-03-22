@@ -1,0 +1,14 @@
+void script_1363(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	int3 = mathMethod4006(0, widget2.getWidth(), 0, 255, VARPBIT[3377]);
+	widget0.setSize(int3, 0, 0, 1);
+	widget1.setSize(widget2.getWidth() - int3, 0, 0, 1);
+	if (int3 < widget2.getWidth() / 4) {
+		widget0.setRGB(0xEE1111);
+	} else if (int3 < widget2.getWidth() / 2) {
+		widget0.setRGB(0xEEEE11);
+	} else {
+		widget0.setRGB(0x11EE11);
+	}
+	return;
+}

@@ -1,0 +1,12 @@
+//script5534(5534)()(void)
+if(load_varc(1724) == -1)
+	store_varc(1724, 1)
+if(load_varc(1725) == -1)
+	store_varc(1725, 1)
+store_varc(1726, 0)
+store_varc(1808, 0)
+script_5536(load_varc(1725))
+script_5537()
+script_5539()
+script_5543()
+return

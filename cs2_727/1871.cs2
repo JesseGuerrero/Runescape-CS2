@@ -1,0 +1,3 @@
+//script1871(1871)(string arg0)(void)
+if_settext(if_gethash(906, 252), arg0)
+return

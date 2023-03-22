@@ -1,0 +1,9 @@
+//script5519(5519)()(void)
+if_sethide(if_gethash(906, 300), 1)
+if_settext(if_gethash(906, 306), "")
+store_varc(1660, 0)
+if_setposition(if_gethash(906, 307), 0, 0, if_gety(if_gethash(906, 307)), 4)
+if_sethide(if_gethash(906, 315), 0)
+if_sethide(if_gethash(906, 301), 0)
+store_varc(1661, 0)
+return

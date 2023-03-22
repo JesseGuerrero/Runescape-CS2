@@ -1,0 +1,4 @@
+//script5694(5694)()(void)
+if_settext(if_gethash(1218, 195), "")
+if_sethide(if_gethash(1218, 81), 1)
+return

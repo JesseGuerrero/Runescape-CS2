@@ -1,0 +1,22 @@
+//script4636(4636)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 39059514
+iVar1 = 39059500
+iVar2 = 39059513
+if(instr6710() == 1) {
+	iVar0 = 63897649
+	iVar1 = 63897644
+}
+if_settext(iVar0, "Log In")
+if_settext(iVar2, "Log In")
+hook_mouse_press(iVar1, script_2944, "")
+instr6342(iVar1, None, "")
+instr6342(if_gethash(596, 6), None, "")
+if(instr6576() == 1)
+	instr6717()
+instr6694()
+script_2954()
+script_2940(13)
+return

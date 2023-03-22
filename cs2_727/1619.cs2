@@ -1,0 +1,12 @@
+//script1619(1619)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+if(arg0 < 0 || arg0 >= 5 || arg1 < 0 || arg1 >= 5) {
+	send_message("Nothing happens, as if something has gone wrong.")
+	return
+}
+iVar3 = enum(800, arg1, 'i', 'g')
+iVar4 = enum(iVar3, arg0, 'i', 'I')
+if_setmodel(iVar4, enum(797, arg2, 'o', 'm'))
+if_setmodelangle(iVar4, 2180, 0, 0, 520, 0, 0)
+return

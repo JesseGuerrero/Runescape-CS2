@@ -1,0 +1,33 @@
+//script6178(6178)(int arg0, int arg1)(int)
+cc_create(arg0, 5, arg1)
+cc_setgraphic(10711)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, 125, 277)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(10712)
+cc_setposition(0, 2, 0, 0)
+cc_setsize(0, 0, 125, 278)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(10713)
+cc_setposition(0, 0, 125, 0)
+cc_setsize(0, 0, 125, 277)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(10714)
+cc_setposition(0, 2, 125, 0)
+cc_setsize(0, 0, 125, 278)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(10715)
+cc_setposition(0, 0, 250, 0)
+cc_setsize(0, 0, 125, 277)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(10716)
+cc_setposition(0, 2, 250, 0)
+cc_setsize(0, 0, 125, 278)
+arg0 = arg0 + 1
+return arg0
+return 0

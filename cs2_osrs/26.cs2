@@ -1,0 +1,19 @@
+void script_26(Widget widget0, Sprite sprite1, Sprite sprite2) {
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(24, 24, 0, 0);
+	CHILD.setSprite(sprite2);
+	CHILD.setSpriteTiling(false);
+	CHILD.hookMousePress(&script_29());
+	CHILD.hookMouseEnter(&script_27(widget0));
+	CHILD.hookMouseExit(&script_28(widget0));
+	CHILD.createChild(widget0, 5, 1);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(24, 24, 0, 0);
+	CHILD.setSprite(sprite1);
+	CHILD.setSpriteTiling(false);
+	CHILD.hookMousePress(&script_29());
+	CHILD.hookMouseEnter(&script_27(widget0));
+	CHILD.hookMouseExit(&script_28(widget0));
+	return;
+}

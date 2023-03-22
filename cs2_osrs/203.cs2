@@ -1,0 +1,30 @@
+int script_203(string string0, string string1, int arg2, Widget widget3, Widget widget4, int arg5, int arg6, int arg7, int arg8, int arg9, Color color10, boolean boolean11) {
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int10 = arg5 - arg6;
+	int11 = getMaxLineWidth(string0, 2147483647, 495) + 3;
+	int12 = int10 - int11;
+	int13 = getLineCount(string1, int12, 495) * arg7;
+	if (arg9 == 0) {
+		arg8 = arg8 - int13;
+	}
+	if (CHILD.setChild(widget4, arg2 * 2) == true && _CHILD.setChild(widget4, arg2 * 2 + 1) == true) {
+		widget3.setSize(int10, int13, 0, 0);
+		widget3.setPosition(arg6, arg8, 0, arg9);
+		CHILD.setHidden(false);
+		CHILD.setSize(int10, int13, 0, 0);
+		CHILD.setPosition(arg6, arg8, 0, arg9);
+		CHILD.setText(string0);
+		CHILD.setRGB(color10);
+		CHILD.setTextAntiMacro(boolean11);
+		_CHILD.setHidden(false);
+		_CHILD.setSize(int12, int13, 0, 0);
+		_CHILD.setPosition(arg6 + int11, arg8, 0, arg9);
+		_CHILD.setText(string1);
+		_CHILD.setRGB(color10);
+		_CHILD.setTextAntiMacro(boolean11);
+	}
+	return int13;
+}

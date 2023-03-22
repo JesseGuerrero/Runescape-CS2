@@ -1,0 +1,14 @@
+void script_865(Widget widget0) {
+	int int1;
+	widget0.hookFrame(&script_385(false));
+	widget0.hookResize(&script_385(true));
+	widget0.hookWidgetsOpenClose(&script_385(true));
+	widget0.hookVARP(&script_385(true), 1293, 1434, 1542, 1327, 1377, 1378, 1601, 1602);
+	widget(90, 42).hookMouseExit(&script_40(widget(90, 51)));
+	int1 = m3224();
+	if (isBitFlagged(int1, 30) == true) {
+		script_1696();
+	}
+	script_386();
+	return;
+}

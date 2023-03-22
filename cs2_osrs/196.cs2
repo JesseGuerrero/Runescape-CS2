@@ -1,0 +1,6 @@
+void script_196(Widget widget0) {
+	if (CHILD.setChild(widget0) == true && VARPBIT[3468] >= 80) {
+		widget0.setModel(25889);
+	}
+	return;
+}

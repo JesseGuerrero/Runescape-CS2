@@ -1,0 +1,50 @@
+//script4393(4393)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+iVar5 = 0
+iVar6 = 0
+iVar7 = 2
+iVar8 = 5
+iVar9 = 60
+iVar10 = 60
+iVar11 = 0
+iVar12 = 0
+iVar13 = (if_getwidth(arg0) - iVar7) / (iVar7 + iVar10)
+iVar14 = 0
+iVar15 = enum_getoutputcount(arg4)
+while(iVar5 < iVar15) {
+	iVar11 = (iVar10 + iVar7) * (iVar5 - (iVar6 * iVar13))
+	iVar12 = iVar6 * (iVar9 + iVar8)
+	cc_create(iVar5, 5, arg1)
+	cc_setsize(0, 0, iVar9, iVar10)
+	cc_setposition(0, 0, iVar12, iVar11)
+	cc_setgraphic(5523)
+	instr6095(script_4395, "iY", 1, 2093, iVar15)
+	instr6091(script_4396, "iI", -2147483643, arg1)
+	instr6092(script_4397, "iI", -2147483643, arg1)
+	iVar14 = (cc_gety() + cc_getheight()) + iVar8
+	cc_create(iVar5, 5, arg0)
+	cc_setsize(0, 0, iVar9 - 10, iVar10 - 10)
+	cc_setposition(0, 0, iVar12 + 5, iVar11 + 5)
+	cc_setgraphic(enum(arg4, iVar5 + 1, 'i', 'd'))
+	cc_setop("Select", 1)
+	instr6687(script_4394, "iIi", -2147483643, arg1, iVar15)
+	iVar5 = iVar5 + 1
+	if(modulo(iVar13, iVar5) == 0)
+		iVar6 = iVar6 + 1
+}
+if_setscrollpos(arg2, 0, 0)
+if_setscrollsize(arg2, iVar14, 0)
+script_31(arg3, arg2, 5666, 5663, 5664, 5665, 5686, 5685)
+return

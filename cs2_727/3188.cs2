@@ -1,0 +1,27 @@
+//script3188(3188)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+iVar7 = if_getwidth(arg0)
+if(arg1 == 1) {
+	if(iVar7 - arg2 < 55)
+		if_setsize(arg0, 0, 0, 31, min(55 + arg2, iVar7 + 5))
+	else {
+		instr6342(arg0, None, "")
+		if_setsize(arg0, 0, 0, 31, 55 + arg2)
+	}
+	if_setgraphic(arg3, 2569)
+	if_setgraphic(arg4, 2568)
+	if_setgraphic(arg5, 2568)
+	if_setgraphic(arg6, 2614)
+} else  {
+	if(iVar7 > 38)
+		if_setsize(arg0, 0, 0, 31, max(38, iVar7 - 5))
+	else {
+		instr6342(arg0, None, "")
+		if_setsize(arg0, 0, 0, 31, 38)
+	}
+	if_setgraphic(arg3, 2567)
+	if_setgraphic(arg4, 2566)
+	if_setgraphic(arg5, 2566)
+	if_setgraphic(arg6, 2613)
+}
+return

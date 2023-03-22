@@ -1,0 +1,5 @@
+//script3382(3382)(int arg0)(void)
+if_setgraphic(arg0, 4661)
+script_3087(arg0, -1)
+return
+return

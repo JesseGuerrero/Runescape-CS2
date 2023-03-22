@@ -1,0 +1,22 @@
+//script2176(2176)(int arg0)(void)
+string sVar0
+sVar0 = ""
+switch(arg0) {
+	case default:
+		break
+	case 12451843:
+		if(load_varc(692) == 1)
+			sVar0 = "Click to hide the quests you cannot start." + "<br>" + "<br>" + "Some recommended stats and abilities (such as combat levels) are left for you to decide."
+		else
+			sVar0 = "Click to show all quests regardless of requirements."
+		break
+	case 12451847:
+		if(load_varc(692) == 1)
+			sVar0 = "Click to hide the quests you have completed."
+		else
+			sVar0 = "Click to show all quests regardless of completion status."
+		break
+
+}
+script_569(12451862, -1, 12451863, 25, 450, sVar0)
+return

@@ -1,0 +1,5 @@
+//script649(649)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+if(if_gethide(if_gethash(105, 17)) == 0)
+	return
+script_39(arg0, arg1, arg2, arg3, arg0)
+return

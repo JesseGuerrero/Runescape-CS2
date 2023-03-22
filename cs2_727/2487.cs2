@@ -1,0 +1,19 @@
+//script2487(2487)(int arg0)(void)
+if_sethide(if_gethash(844, 10), 1)
+if_sethide(if_gethash(844, 11), 1)
+if_setgraphic(if_gethash(844, 51), 1421)
+if_setgraphic(if_gethash(844, 49), 1421)
+switch(arg0) {
+	case default:
+		break
+	case 55312435:
+		if_sethide(if_gethash(844, 10), 0)
+		if_setgraphic(if_gethash(844, 51), 1420)
+		break
+	case 55312433:
+		if_sethide(if_gethash(844, 11), 0)
+		if_setgraphic(if_gethash(844, 49), 1420)
+		break
+
+}
+return

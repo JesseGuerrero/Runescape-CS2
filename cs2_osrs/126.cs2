@@ -1,0 +1,14 @@
+void script_126(int arg0, string string1) {
+	if (arg0 == 1) {
+		script_107(removeTags(string1));
+	} else if (arg0 == 2) {
+		msg("That player is currently offline.");
+	} else {
+		if (!(arg0 == 3)) {
+			return;
+		}
+		cs2method3606(removeTags(string1));
+	}
+	playSoundEffect(2266, 1, 0);
+	return;
+}

@@ -1,0 +1,207 @@
+//script4791(4791)(int arg0)(int, int, int, int, int, int, int, string)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+string sVar0
+iVar1 = -1
+sVar0 = ""
+iVar2 = 0
+iVar3 = enum(4008, arg0, 'i', 'J')
+if(iVar3 == -1) {
+	send_message("Clan Build Tick : Job ID " + to_string(arg0) + " has no associated struct. Please report this as a bug, quoting this line.")
+	return 0, 0, 0, 0, 0, 0, -1, ""
+}
+iVar4 = struct_param(1481, iVar3)
+iVar5 = struct_param(1482, iVar3)
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = -1
+iVar10 = 0
+iVar11 = -1
+iVar12 = -1
+iVar13 = 0
+if(clan_vars_enabled() == 1)
+	switch(iVar4) {
+		case default:
+			break
+		case 1:
+			sVar0 = "Stronghold"
+			iVar1 = 7418
+			iVar6 = load_clan_varbit(2580)
+			iVar7 = min(iVar6 - 1, load_clan_varbit(2633))
+			iVar2 = load_clan_varbit(2600) + load_clan_varbit(2616)
+			break
+		case 2:
+			sVar0 = "Storehouse"
+			iVar1 = 7419
+			iVar6 = load_clan_varbit(2581)
+			iVar7 = min(iVar6 - 1, load_clan_varbit(2631))
+			iVar2 = load_clan_varbit(2596) + load_clan_varbit(2614)
+			break
+		case 3:
+			sVar0 = "Battlefield"
+			iVar1 = 7417
+			iVar6 = load_clan_varbit(2582)
+			iVar7 = min(iVar6 - 1, load_clan_varbit(2632))
+			iVar2 = load_clan_varbit(2597) + load_clan_varbit(2615)
+			break
+		case 4:
+			switch(iVar5) {
+				case default:
+					break
+				case 1:
+					iVar8 = load_clan_varbit(2553)
+					iVar6 = load_clan_varbit(2567)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2617))
+					iVar2 = load_clan_varbit(2584) + load_clan_varbit(2602)
+					break
+				case 2:
+					iVar8 = load_clan_varbit(2554)
+					iVar6 = load_clan_varbit(2568)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2618))
+					iVar2 = load_clan_varbit(2585) + load_clan_varbit(2603)
+					break
+				case 3:
+					iVar8 = load_clan_varbit(2555)
+					iVar6 = load_clan_varbit(2569)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2620))
+					iVar2 = load_clan_varbit(2586) + load_clan_varbit(2604)
+					break
+				case 4:
+					iVar8 = load_clan_varbit(2556)
+					iVar6 = load_clan_varbit(2570)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2621))
+					iVar2 = load_clan_varbit(2587) + load_clan_varbit(2605)
+					break
+				case 5:
+					iVar8 = load_clan_varbit(2557)
+					iVar6 = load_clan_varbit(2571)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2622))
+					iVar2 = load_clan_varbit(2588) + load_clan_varbit(2606)
+					break
+				case 6:
+					iVar8 = load_clan_varbit(2558)
+					iVar6 = load_clan_varbit(2572)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2623))
+					iVar2 = load_clan_varbit(2589) + load_clan_varbit(2607)
+					break
+				case 7:
+					iVar8 = load_clan_varbit(2560)
+					iVar6 = load_clan_varbit(2573)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2624))
+					iVar2 = load_clan_varbit(2590) + load_clan_varbit(2608)
+					break
+				case 8:
+					iVar8 = load_clan_varbit(2561)
+					iVar6 = load_clan_varbit(2574)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2625))
+					iVar2 = load_clan_varbit(2591) + load_clan_varbit(2609)
+					break
+				case 9:
+					iVar8 = load_clan_varbit(2562)
+					iVar6 = load_clan_varbit(2576)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2626))
+					iVar2 = load_clan_varbit(2592) + load_clan_varbit(2610)
+					break
+				case 10:
+					iVar8 = load_clan_varbit(2563)
+					iVar6 = load_clan_varbit(2577)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2627))
+					iVar2 = load_clan_varbit(2593) + load_clan_varbit(2611)
+					break
+				case 11:
+					iVar8 = load_clan_varbit(2564)
+					iVar6 = load_clan_varbit(2578)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2629))
+					iVar2 = load_clan_varbit(2594) + load_clan_varbit(2612)
+					break
+				case 12:
+					iVar8 = load_clan_varbit(2565)
+					iVar6 = load_clan_varbit(2579)
+					if(iVar8 == 1)
+						iVar13 = 1
+					iVar7 = min(iVar6 - iVar13, load_clan_varbit(2630))
+					iVar2 = load_clan_varbit(2595) + load_clan_varbit(2613)
+					send_message("Clan Build Tick : No skill plot found with index " + to_string(iVar5) + ". Please report this as a bug, quoting this line.")
+					break
+
+			}
+			sVar0 = enum(4287, iVar8, 'i', 's')
+			iVar1 = enum(4288, iVar8, 'i', 'd')
+			break
+		case 5:
+			switch(iVar5) {
+				case default:
+					break
+				case 1:
+					iVar8 = load_clan_varbit(2139)
+					iVar6 = load_clan_varbit(2140)
+					break
+				case 2:
+					iVar8 = load_clan_varbit(2156)
+					iVar6 = load_clan_varbit(2157)
+					break
+				case 3:
+					iVar8 = load_clan_varbit(2173)
+					iVar6 = load_clan_varbit(2174)
+					send_message("Clan Build Tick : No cosmetic job slot found with index " + to_string(iVar5) + ". Please report this as a bug, quoting this line.")
+					break
+
+			}
+			iVar9 = script_4820(iVar5)
+			iVar11 = script_4823(iVar5)
+			iVar12 = script_4826(iVar5)
+			if(arg0 == 16 || arg0 == 17 || arg0 == 18) {
+				sVar0 = "Reset hotspot (slot " + to_string(iVar5) + ")."
+				iVar1 = 6496
+			} else  {
+				sVar0 = enum(iVar11, iVar8, 'i', 's')
+				iVar1 = enum(iVar12, iVar8, 'i', 'd')
+			}
+			send_message("Clan Build Tick : Unexpected job building class " + to_string(iVar4) + ". Please report this as a bug, quoting this line.")
+			return 0, 0, 0, 0, 0, 0, -1, ""
+
+
+	}
+else {
+	send_message("Clan Build Tick : Could not access clan profile.")
+	return 0, 0, 0, 0, 0, 0, -1, ""
+}
+if(arg0 > 600)
+	if(iVar4 != 5)
+		iVar6 = iVar6 + 1
+return iVar8, iVar5, iVar4, iVar2, iVar7, iVar6, iVar1, sVar0
+return 0, 0, 0, 0, 0, 0, -1, ""

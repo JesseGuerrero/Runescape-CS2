@@ -1,0 +1,23 @@
+void script_552(Widget widget0, boolean arg1) {
+	if (length(STRING[28]) <= 0) {
+		widget0.hookFrame(null);
+		VARC[62] = 0;
+		script_95();
+		return;
+	}
+	if (arg1 == true) {
+		widget0.hookFrame(&script_552(CTX_WIDGET, false));
+	}
+	if (VARC[62] == 1) {
+		return;
+	}
+	if (m5000() != 4) {
+		m5001(4, m5005(), m5016());
+		script_178();
+		script_84(script_553());
+	}
+	if (getClientCycle() - VARC[61] >= 150 || arg1 == true) {
+		script_96(STRING[28], 1);
+	}
+	return;
+}

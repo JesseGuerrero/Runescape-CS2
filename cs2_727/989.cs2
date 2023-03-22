@@ -1,0 +1,32 @@
+//script989(989)(int arg0)(int, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 0, "Trees"
+
+	case 1:
+		return 0, "Hatchets"
+
+	case 2:
+		return 0, "Canoes"
+
+	case 3:
+		return 1, "Woodcraft"
+
+	case 4:
+		return 0, "Other"
+
+	case 5:
+		return 1, "Minigames"
+
+	case 6:
+		return 0, "Dungeoneering"
+
+	case 7:
+		return 0, "Milestones"
+		return -1, ""
+
+
+}
+return 0, ""

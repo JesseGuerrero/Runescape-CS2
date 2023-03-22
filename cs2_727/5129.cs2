@@ -1,0 +1,4 @@
+//script5129(5129)()(void)
+if(activeclansettings_find_affined() == 1)
+	script_5132()
+return

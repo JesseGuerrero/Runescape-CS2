@@ -1,0 +1,16 @@
+//script4820(4820)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return script_4821(load_clan_varbit(2148))
+
+	case 2:
+		return script_4821(load_clan_varbit(2165))
+
+	case 3:
+		return script_4821(load_clan_varbit(2182))
+
+
+}
+return -1

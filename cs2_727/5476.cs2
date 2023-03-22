@@ -1,0 +1,77 @@
+//script5476(5476)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+string sVar1
+string sVar2
+iVar2 = -1
+sVar0 = ""
+sVar1 = ""
+iVar3 = -1
+sVar2 = ""
+iVar4 = 0
+if(load_varpbit(9987) == 0) {
+	if_sethide(if_gethash(1163, 103), 1)
+	if_sethide(if_gethash(1163, 104), 0)
+} else  {
+	if_sethide(if_gethash(1163, 103), 0)
+	if_sethide(if_gethash(1163, 104), 1)
+}
+if(load_varpbit(10849) == 0) {
+	if_sethide(if_gethash(1163, 179), 1)
+	if_sethide(if_gethash(1163, 180), 0)
+} else  {
+	if_sethide(if_gethash(1163, 179), 0)
+	if_sethide(if_gethash(1163, 180), 1)
+}
+if(load_varpbit(10850) == 0) {
+	if_sethide(if_gethash(1163, 181), 1)
+	if_sethide(if_gethash(1163, 182), 0)
+} else  {
+	if_sethide(if_gethash(1163, 181), 0)
+	if_sethide(if_gethash(1163, 182), 1)
+}
+if_settext(if_gethash(1163, 34), to_string(load_varpbit(9990)))
+if(load_varpbit(9990) > 0)
+	if_settext(if_gethash(1163, 38), to_string(load_varpbit(9990) / 3))
+else
+	if_settext(if_gethash(1163, 38), "0")
+store_varc(2, 0)
+sound_vorbis_volume(255, 0, 1, 8099)
+if(arg1 == 0) {
+	if_settext(if_gethash(1163, 50), to_string(load_varpbit(9984) + 1))
+	store_varc(1678, 1 + random(48))
+	store_varc(1679, 30)
+	store_varc(1677, arg0)
+	if_sethide(if_gethash(1163, 89), 1)
+	instr6342(if_gethash(1163, 45), script_5477, "")
+} else  {
+	store_varc(1677, arg0)
+	if_settext(if_gethash(1163, 50), to_string(load_varpbit(9984)))
+	iVar2 = enum(5213, load_varc(1677), 'i', 'J')
+	sVar0 = struct_param(2095, iVar2)
+	sVar1 = struct_param(2184, iVar2)
+	iVar3 = struct_param(2101, iVar2)
+	if(struct_param(2097, iVar2) == 1)
+		sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat."
+	else
+		if(struct_param(2097, iVar2) == 2)
+			sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat."
+		else
+			if(struct_param(2097, iVar2) == 3)
+				sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars."
+			else
+				if(struct_param(2097, iVar2) == 4)
+					sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars."
+				else
+					if(struct_param(2097, iVar2) == 5)
+						sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums"
+	if_settext(if_gethash(1163, 88), sVar0)
+	if_settext(if_gethash(1163, 40), sVar1 + "<br>" + "<br>" + sVar2)
+	script_5475(76218408, 76218411, 76218410, sVar1 + "<br>" + "<br>" + sVar2)
+	if_setgraphic(if_gethash(1163, 25), iVar3)
+	iVar4 = script_5459(1)
+	if_settext(if_gethash(1163, 36), to_string(iVar4))
+}
+return

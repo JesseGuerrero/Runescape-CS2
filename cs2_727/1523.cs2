@@ -1,0 +1,15 @@
+//script1523(1523)()(void)
+if(load_varpbit(4895) == 2) {
+	cc_create(0, 4, 18022408)
+	cc_setposition(0, 0, -2, 0)
+	cc_setsize(0, 0, 23, 102)
+	cc_settextfont(645)
+	cc_settextalign(0, 1, 0)
+	cc_settext("Back")
+	cc_setcolor(46320a)
+	cc_settextshadow(0)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+	instr6092(script_1356, "Iii", -2147483645, -2147483643, 4600330)
+	instr6213(if_gethash(275, 8), 1, "Back to Index")
+}
+return

@@ -1,0 +1,9 @@
+//script940(940)(int arg0)(string)
+if(arg0 < 0)
+	return ""
+if(arg0 < 10000)
+	return to_string(arg0)
+if(arg0 < 10000000)
+	return append("K", to_string(arg0 / 1000))
+return append("M", to_string(arg0 / 1000000))
+return ""

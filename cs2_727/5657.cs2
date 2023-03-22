@@ -1,0 +1,17 @@
+//script5657(5657)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1) {
+	if(arg2 < 10) {
+		arg2 = arg2 + 1
+		instr6556(script_5657, "Iii", arg0, arg1, arg2)
+		return
+	}
+	if(cc_gettransparency() < 255) {
+		cc_settrans(min(255, cc_gettransparency() + 2))
+		cc_setposition(0, 1, max(0, cc_gety() - 4), 0)
+	}
+	if(cc_gettransparency() >= 255)
+		cc_delete()
+	else
+		instr6556(script_5657, "Iii", arg0, arg1, arg2)
+}
+return

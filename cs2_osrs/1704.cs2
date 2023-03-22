@@ -1,0 +1,4 @@
+void script_1704() {
+	script_1705(cs2method6699());
+	return;
+}

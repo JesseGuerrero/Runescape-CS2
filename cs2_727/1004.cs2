@@ -1,0 +1,298 @@
+//script1004(1004)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 5574, 10, "Members now have the Prayer level required to wear " + "<col=000080>" + "initiate sallets" + "</col>" + " (after Recruitment Drive, with level 20 Defence).", "Members: Initiate sallet" + "<br>" + " (after Recruitment Drive and with 20 Defence)"
+
+			case 1:
+				return 5575, 10, "Members now have the Prayer level required to wear " + "<col=000080>" + "initiate hauberks" + "</col>" + " (after Recruitment Drive, with level 20 Defence).", "Members: Initiate hauberk" + "<br>" + " (after Recruitment Drive and with 20 Defence)"
+
+			case 2:
+				return 23122, 10, "Members now have the Prayer level required to wear " + "<col=000080>" + "initiate tassets" + "</col>" + " (after Recruitment Drive, with level 20 Defence).", "Members: Initiate tasset" + "<br>" + " (after Recruitment Drive and with 20 Defence)"
+
+			case 3:
+				return 5576, 10, "Members now have the Prayer level required to wear " + "<col=000080>" + "initiate cuisses" + "</col>" + " (after Recruitment Drive, with level 20 Defence).", "Members: Initiate cuisse" + "<br>" + " (after Recruitment Drive and with 20 Defence)"
+
+			case 4:
+				return 9672, 20, "Members now have the Prayer level required to wear " + "<col=000080>" + "proselyte sallets" + "</col>" + " (after Slug Menace, with level 30 Defence).", "Members: Proselyte sallet" + "<br>" + " (after Slug Menace and with 30 Defence)"
+
+			case 5:
+				return 9674, 20, "Members now have the Prayer level required to wear " + "<col=000080>" + "proselyte hauberks" + "</col>" + " (after Slug Menace, with level 30 Defence).", "Members: Proselyte hauberk" + "<br>" + " (after Slug Menace and with 30 Defence)"
+
+			case 6:
+				return 9678, 20, "Members now have the Prayer level required to wear " + "<col=000080>" + "proselyte tassets" + "</col>" + " (after Slug Menace, with level 30 Defence).", "Members: Proselyte tasset" + "<br>" + " (after Slug Menace and with 30 Defence)"
+
+			case 7:
+				return 9676, 20, "Members now have the Prayer level required to wear " + "<col=000080>" + "proselyte cuisses" + "</col>" + " (after Slug Menace, with level 30 Defence).", "Members: Proselyte cuisse" + "<br>" + " (after Slug Menace and with 30 Defence)"
+
+			case 8:
+				return 10462, 20, "Members can now wear " + "<col=000080>" + "Guthix robe tops" + "</col>" + ".", "Members: Guthix robe top"
+
+			case 9:
+				return 10466, 20, "Members can now wear " + "<col=000080>" + "Guthix robe legs" + "</col>" + ".", "Members: Guthix robe legs"
+
+			case 10:
+				return 10458, 20, "Members can now wear " + "<col=000080>" + "Saradomin robe tops" + "</col>" + ".", "Members: Saradomin robe top"
+
+			case 11:
+				return 10464, 20, "Members can now wear " + "<col=000080>" + "Saradomin robe legs" + "</col>" + ".", "Members: Saradomin robe legs"
+
+			case 12:
+				return 10460, 20, "Members can now wear " + "<col=000080>" + "Zamorak robe tops" + "</col>" + ".", "Members: Zamorak robe top"
+
+			case 13:
+				return 10468, 20, "Members can now wear " + "<col=000080>" + "Zamorak robe legs" + "</col>" + ".", "Members: Zamorak robe legs"
+
+			case 14:
+				return 19380, 20, "Members can now wear " + "<col=000080>" + "Armadyl robe tops" + "</col>" + ".", "Members: Armadyl robe top"
+
+			case 15:
+				return 19386, 20, "Members can now wear " + "<col=000080>" + "Armadyl robe legs" + "</col>" + ".", "Members: Armadyl robe legs"
+
+			case 16:
+				return 19384, 20, "Members can now wear " + "<col=000080>" + "Bandos robe tops" + "</col>" + ".", "Members: Bandos robe top"
+
+			case 17:
+				return 19388, 20, "Members can now wear " + "<col=000080>" + "Bandos robe legs" + "</col>" + ".", "Members: Bandos robe legs"
+
+			case 18:
+				return 19382, 20, "Members can now wear " + "<col=000080>" + "Ancient robe tops" + "</col>" + ".", "Members: Ancient robe top"
+
+			case 19:
+				return 19390, 20, "Members can now wear " + "<col=000080>" + "Ancient robe legs" + "</col>" + ".", "Members: Ancient robe legs"
+
+			case 20:
+				return 18337, 21, "Members can now use " + "<col=000080>" + "bonecrushers" + "</col>" + ". (They also need level 21 Dungeoneering.)", "Members: Bonecrusher" + "<br>" + " (with 21 Dungeoneering)"
+
+			case 21:
+				return 11665, 22, "Members now have the Prayer level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + ".", "Members: Void melee helm"
+
+			case 22:
+				return 11664, 22, "Members now have the Prayer level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + ".", "Members: Void ranger helm"
+
+			case 23:
+				return 11663, 22, "Members now have the Prayer level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + ".", "Members: Void mage helm"
+
+			case 24:
+				return 8839, 22, "Members now have the Prayer level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + ".", "Members: Void knight top"
+
+			case 25:
+				return 8840, 22, "Members now have the Prayer level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + ".", "Members: Void knight robe"
+
+			case 26:
+				return 8842, 22, "Members now have the Prayer level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + ".", "Members: Void knight gloves"
+
+			case 27:
+				return 19712, 22, "Members now have the Prayer level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + ".", "Members: Void knight deflector"
+
+			case 28:
+				return 8841, 22, "Members now have the Prayer level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + ".", "Members: Void knight mace"
+
+			case 29:
+				return 7620, 22, "<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", "Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."
+
+			case 30:
+				return 11061, 25, "Members now have the Prayer level required to wield the " + "<col=000080>" + "Ancient Mace" + "</col>" + " (after Another Slice of H.A.M. with level 15 Attack).", "Members: Ancient Mace" + "<br>" + " (after Another Slice of H.A.M., with 15 Attack)"
+
+			case 31:
+				return 19886, 30, "You now have the Prayer level required to wear " + "<col=000080>" + "Twisted bird skull necklaces" + "</col>" + ". (You also need level 30 Dungeoneering.)", "Twisted bird skull necklace" + "<br>" + " (with 30 Dungeoneering)"
+
+			case 32:
+				return 10448, 40, "Members can now wear " + "<col=000080>" + "Guthix cloaks" + "</col>" + ".", "Members: Guthix cloak"
+
+			case 33:
+				return 10454, 40, "Members now have the Prayer level required to wear " + "<col=000080>" + "Guthix mitres" + "</col>" + ". (They also need level 40 Magic.)", "Members: Guthix mitre" + "<br>" + " (with 40 Magic)"
+
+			case 34:
+				return 10446, 40, "Members can now wear " + "<col=000080>" + "Saradomin cloaks" + "</col>" + ".", "Members: Saradomin cloak"
+
+			case 35:
+				return 10452, 40, "Members now have the Prayer level required to wear " + "<col=000080>" + "Saradomin mitres" + "</col>" + ". (They also need level 40 Magic.)", "Members: Saradomin mitre" + "<br>" + " (with 40 Magic)"
+
+			case 36:
+				return 10450, 40, "Members can now wear " + "<col=000080>" + "Zamorak cloaks" + "</col>" + ".", "Members: Zamorak cloak"
+
+			case 37:
+				return 10456, 40, "Members now have the Prayer level required to wear " + "<col=000080>" + "Zamorak mitres" + "</col>" + ". (They also need level 40 Magic.)", "Members: Zamorak mitre" + "<br>" + " (with 40 Magic)"
+
+			case 38:
+				return 19368, 40, "Members can now wear " + "<col=000080>" + "Armadyl cloaks" + "</col>" + ".", "Members: Armadyl cloak"
+
+			case 39:
+				return 19374, 40, "Members now have the Prayer level required to wear " + "<col=000080>" + "Armadyl mitres" + "</col>" + ". (They also need level 40 Magic.)", "Members: Armadyl mitre" + "<br>" + " (with 40 Magic)"
+
+			case 40:
+				return 19370, 40, "Members can now wear " + "<col=000080>" + "Bandos cloaks" + "</col>" + ".", "Members: Bandos cloak"
+
+			case 41:
+				return 19376, 40, "Members now have the Prayer level required to wear " + "<col=000080>" + "Bandos mitres" + "</col>" + ". (They also need level 40 Magic.)", "Members: Bandos mitre" + "<br>" + " (with 40 Magic)"
+
+			case 42:
+				return 19372, 40, "Members can now wear " + "<col=000080>" + "Ancient cloaks" + "</col>" + ".", "Members: Ancient cloak"
+
+			case 43:
+				return 19378, 40, "Members now have the Prayer level required to wear " + "<col=000080>" + "Ancient mitres" + "</col>" + ". (They also need level 40 Magic.)", "Members: Ancient mitre" + "<br>" + " (with 40 Magic)"
+
+			case 44:
+				return 19892, 48, "You now have the Prayer level required to wear " + "<col=000080>" + "Amulets of zealots" + "</col>" + ". (You also need level 48 Dungeoneering.)", "Amulet of zealots" + "<br>" + " (with 48 Dungeoneering)"
+
+			case 45:
+				return 1716, 50, "Members now have the Prayer level required to use completed prayer books to bless " + "<col=000080>" + "holy" + "</col>" + " and " + "<col=000080>" + "unholy symbols" + "</col>" + " (after Horror from the Deep).", "Members: Use completed Prayer books" + "<br>" + "to bless holy and unholy symbols" + "<br>" + " (after Horror from the Deep)"
+
+			case 46:
+				return 13734, 55, "Members now have the Prayer level required to wield " + "<col=000080>" + "spirit shields" + "</col>" + " (after Summer's End, with level 40 Defence).", "Members: Spirit shield" + "<br>" + " (after Summer's End and with 40 Defence)"
+
+			case 47:
+				return 10472, 60, "Members can now wear " + "<col=000080>" + "Guthix stoles" + "</col>" + ".", "Members: Guthix stole"
+
+			case 48:
+				return 10442, 60, "Members can now wield " + "<col=000080>" + "Guthix croziers" + "</col>" + ".", "Members: Guthix crozier"
+
+			case 49:
+				return 10470, 60, "Members can now wear " + "<col=000080>" + "Saradomin stoles" + "</col>" + ".", "Members: Saradomin stole"
+
+			case 50:
+				return 10440, 60, "Members can now wield " + "<col=000080>" + "Saradomin croziers" + "</col>" + ".", "Members: Saradomin crozier"
+
+			case 51:
+				return 10474, 60, "Members can now wear " + "<col=000080>" + "Zamorak stoles" + "</col>" + ".", "Members: Zamorak stole"
+
+			case 52:
+				return 10444, 60, "Members can now wield " + "<col=000080>" + "Zamorak croziers" + "</col>" + ".", "Members: Zamorak crozier"
+
+			case 53:
+				return 19392, 60, "Members can now wear " + "<col=000080>" + "Armadyl stoles" + "</col>" + ".", "Members: Armadyl stole"
+
+			case 54:
+				return 19362, 60, "Members can now wield " + "<col=000080>" + "Armadyl croziers" + "</col>" + ".", "Members: Armadyl crozier"
+
+			case 55:
+				return 19394, 60, "Members can now wear " + "<col=000080>" + "Bandos stoles" + "</col>" + ".", "Members: Bandos stole"
+
+			case 56:
+				return 19364, 60, "Members can now wield " + "<col=000080>" + "Bandos croziers" + "</col>" + ".", "Members: Bandos crozier"
+
+			case 57:
+				return 19396, 60, "Members can now wear " + "<col=000080>" + "Ancient stoles" + "</col>" + ".", "Members: Ancient stole"
+
+			case 58:
+				return 19366, 60, "Members can now wield " + "<col=000080>" + "Ancient croziers" + "</col>" + ".", "Members: Ancient crozier"
+
+			case 59:
+				return 19323, 60, "Members now have the Prayer level required to wield " + "<col=000080>" + "dragon staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 20 Defence.)", "Members: Dragon staff" + "<br>" + " (with 40 Magic, 40 Attack and 20 Defence)"
+
+			case 60:
+				return 19325, 60, "Members now have the Prayer level required to wield " + "<col=000080>" + "penguin staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 20 Defence.)", "Members: Penguin staff" + "<br>" + " (with 40 Magic, 40 Attack and 20 Defence)"
+
+			case 61:
+				return 19327, 60, "Members now have the Prayer level required to wield " + "<col=000080>" + "bat staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 20 Defence.)", "Members: Bat staff" + "<br>" + " (with 40 Magic, 40 Attack and 20 Defence)"
+
+			case 62:
+				return 19329, 60, "Members now have the Prayer level required to wield " + "<col=000080>" + "wolf staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 20 Defence.)", "Members: Wolf staff" + "<br>" + " (with 40 Magic, 40 Attack and 20 Defence)"
+
+			case 63:
+				return 19331, 60, "Members now have the Prayer level required to wield " + "<col=000080>" + "cat staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 20 Defence.)", "Members: Cat staff" + "<br>" + " (with 40 Magic, 40 Attack and 20 Defence)"
+
+			case 64:
+				return 13736, 60, "Members now have the Prayer level required to wield " + "<col=000080>" + "blessed spirit shields" + "</col>" + " (after Summer's End, with level 70 Defence).", "Members: Blessed spirit shield" + "<br>" + " (after Summer's End and with 70 Defence)"
+
+			case 65:
+				return 19887, 60, "Members now have the Prayer level required to wear " + "<col=000080>" + "Split dragon tooth necklaces" + "</col>" + ". (They also need level 60 Dungeoneering.)", "Members: Split dragon tooth necklace" + "<br>" + " (with 60 Dungeoneering)"
+
+			case 66:
+				return 19308, 65, "Members can now wield " + "<col=000080>" + "Third-Age druidic staves" + "</col>" + ".", "Members: Third-Age druidic staff"
+
+			case 67:
+				return 19311, 65, "Members can now wear " + "<col=000080>" + "Third-Age druidic cloaks" + "</col>" + ".", "Members: Third-Age druidic cloak"
+
+			case 68:
+				return 19314, 65, "Members can now wear " + "<col=000080>" + "Third-Age druidic wreaths" + "</col>" + ".", "Members: Third-Age druidic wreath"
+
+			case 69:
+				return 19317, 65, "Members can now wear " + "<col=000080>" + "Third-Age druidic robe tops" + "</col>" + ".", "Members: Third-Age Druidic robe top"
+
+			case 70:
+				return 19320, 65, "Members can now wear " + "<col=000080>" + "Third-Age druidic bottoms" + "</col>" + ".", "Members: Third-Age Druidic robe bottoms"
+
+			case 71:
+				return 13738, 70, "Members now have the Prayer level required to wield " + "<col=000080>" + "arcane spirit shields" + "</col>" + " (after Summer's End, with level 65 Magic and 75 Defence).", "Members: Arcane spirit shield" + "<br>" + " (after Summer's End and with 65 Magic and 75 Defence)"
+
+			case 72:
+				return 13744, 70, "Members now have the Prayer level required to wield " + "<col=000080>" + "spectral spirit shields" + "</col>" + " (after Summer's End, with level 65 Magic and 75 Defence).", "Members: Spectral spirit shield" + "<br>" + " (after Summer's End and with 65 Magic and 75 Defence)"
+
+			case 73:
+				return 21736, 70, "Members now have the Prayer level required to wear " + "<col=000080>" + "Akrisae's hood" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Defence and 70 Magic).", "Members: Akrisae's hood" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Defence and 70 Magic)"
+
+			case 74:
+				return 21752, 70, "Members now have the Prayer level required to wear " + "<col=000080>" + "Akrisae's robe top" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Defence and 70 Magic).", "Members: Akrisae's robe top" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Defence and 70 Magic)"
+
+			case 75:
+				return 21760, 70, "Members now have the Prayer level required to wear " + "<col=000080>" + "Akrisae's robe skirt" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Defence and 70 Magic).", "Members: Akrisae's robe skirt" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Defence and 70 Magic)"
+
+			case 76:
+				return 21744, 70, "Members now have the Prayer level required to use " + "<col=000080>" + "Akrisae's war mace" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Defence and 70 Magic).", "Members: Akrisae's war mace" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Attack and 70 Magic)"
+
+			case 77:
+				return 13740, 75, "Members now have the Prayer level required to wield " + "<col=000080>" + "divine spirit shields" + "</col>" + " (after Summer's End, with level 75 Defence).", "Members: Divine spirit shield" + "<br>" + " (after Summer's End and with 75 Defence)"
+
+			case 78:
+				return 13742, 75, "Members now have the Prayer level required to wield " + "<col=000080>" + "elysian spirit shields" + "</col>" + " (after Summer's End, with level 75 Defence).", "Members: Elysian spirit shield" + "<br>" + " (after Summer's End and with 75 Defence)"
+
+			case 79:
+				return 19888, 90, "Members now have the Prayer level required to wear " + "<col=000080>" + "Demon horn necklaces" + "</col>" + ". (They also need level 90 Dungeoneering.)", "Members: Demon horn necklace" + "<br>" + " (with 90 Dungeoneering)"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Prayer level increases, you will be able to attempt higher-level prayer tasks within Daemonheim. You will also be more likely to succeed when attempting prayer tasks within Daemonheim."
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 11948, 2, "You can now " + "<col=000080>" + "repair" + "</col>" + " somebody else's " + "<col=000080>" + "gravestone" + "</col>" + "!", "Repair somebody else's gravestone"
+
+			case 1:
+				return 13253, 31, "Abbot Langley will now let you enter the " + "<col=000080>" + "Monastery" + "</col>" + " west of " + "<col=000080>" + "Edgeville" + "</col>" + ".", "Monastery"
+
+			case 2:
+				return 11948, 70, "You can now " + "<col=000080>" + "bless somebody else's " + "<col=000080>" + "gravestone" + "</col>" + "!", "Bless somebody else's gravestone"
+
+			case 3:
+				return 13754, 85, "Members can now " + "<col=000080>" + "bless spirit shields" + "</col>" + " (after Summer's End).", "Members: Bless spirit shields" + "<br>" + " (after Summer's End)"
+
+			case 4:
+				return 13746, 90, "Members can now create " + "<col=000080>" + "arcane spirit shields" + "</col>" + " (after Summer's End, with level 85 Smithing).", "Members: Create arcane spirit shields" + "<br>" + " (after Summer's End and with 85 Smithing)"
+
+			case 5:
+				return 13748, 90, "Members can now create " + "<col=000080>" + "divine spirit shields" + "</col>" + " (after Summer's End, with level 85 Smithing).", "Members: Create divine spirit shields" + "<br>" + " (after Summer's End and with 85 Smithing)"
+
+			case 6:
+				return 13750, 90, "Members can now create " + "<col=000080>" + "elysian spirit shields" + "</col>" + " (after Summer's End, with level 85 Smithing).", "Members: Create elysian spirit shields" + "<br>" + " (after Summer's End and with 85 Smithing)"
+
+			case 7:
+				return 13752, 90, "Members can now create " + "<col=000080>" + "spectral spirit shields" + "</col>" + " (after Summer's End, with level 85 Smithing).", "Members: Create spectral spirit shields" + "<br>" + " (after Summer's End and with 85 Smithing)"
+
+			case 8:
+				return 9759, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Prayer" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "Brother Jared" + "<col=000080>" + " upstairs at the " + "<col=800000>" + "Monastery" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Prayer" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

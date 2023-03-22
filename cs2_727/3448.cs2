@@ -1,0 +1,23 @@
+//script3448(3448)()(void)
+if(load_varpbit(7933) != 0)
+	if_sethide(if_gethash(987, 30), 0)
+else
+	if_sethide(if_gethash(987, 30), 1)
+switch(load_varpbit(7933)) {
+	case default:
+		break
+	case 1:
+		if_setposition(if_gethash(987, 30), 0, 0, 28, 16)
+		break
+	case 7:
+		if_setposition(if_gethash(987, 30), 0, 0, 161, 16)
+		break
+	case 6:
+		if_setposition(if_gethash(987, 30), 0, 0, 28, 16 + ((load_varpbit(7933) - 1) * 79))
+		break
+	case 12:
+		if_setposition(if_gethash(987, 30), 0, 0, 161, 16 + ((load_varpbit(7933) - 7) * 79))
+		break
+
+}
+return

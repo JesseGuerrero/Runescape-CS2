@@ -1,0 +1,9 @@
+//script5191(5191)(int arg0, int arg1)(void)
+if_setscrollpos(if_gethash(1122, 68), 0, if_getscrollx(if_gethash(1122, 68)) + arg1)
+if(arg1 < 0)
+	if(if_getscrollx(if_gethash(1122, 68)) <= arg0 || arg1 > 0 || if_getscrollx(if_gethash(1122, 68)) >= arg0) {
+		if_setscrollpos(if_gethash(1122, 68), 0, arg0)
+		instr6342(if_gethash(1122, 68), None, "")
+		if_sethide(if_gethash(1122, 69), 1)
+	}
+return

@@ -1,0 +1,11 @@
+//script1134(1134)(int arg0, int arg1)(void)
+if(load_varp(43) == arg1) {
+	if_setgraphic(arg0, 654)
+	hook_mouse_enter(arg0, script_5645, "Iii", arg0, 1, 1)
+	hook_mouse_exit(arg0, script_5645, "Iii", arg0, 1, 0)
+} else  {
+	if_setgraphic(arg0, 653)
+	hook_mouse_enter(arg0, script_5645, "Iii", arg0, 0, 1)
+	hook_mouse_exit(arg0, script_5645, "Iii", arg0, 0, 0)
+}
+return

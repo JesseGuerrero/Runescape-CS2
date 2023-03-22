@@ -1,0 +1,31 @@
+//script4251(4251)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 80936962:
+		if_setgraphic(if_gethash(1235, 3), 7935)
+		if_setgraphic(if_gethash(1235, 4), 8007)
+		hook_mouse_enter(if_gethash(1235, 2), None, "")
+		hook_mouse_exit(if_gethash(1235, 2), None, "")
+		break
+	case 80936965:
+		if_setgraphic(if_gethash(1235, 6), 7935)
+		if_setgraphic(if_gethash(1235, 7), 8006)
+		hook_mouse_enter(if_gethash(1235, 5), None, "")
+		hook_mouse_exit(if_gethash(1235, 5), None, "")
+		break
+	case 80936968:
+		if_setgraphic(if_gethash(1235, 9), 7935)
+		if_setgraphic(if_gethash(1235, 10), 8008)
+		hook_mouse_enter(if_gethash(1235, 8), None, "")
+		hook_mouse_exit(if_gethash(1235, 8), None, "")
+		break
+	case 80936971:
+		if_setgraphic(if_gethash(1235, 12), 7935)
+		if_setgraphic(if_gethash(1235, 13), 8005)
+		hook_mouse_enter(if_gethash(1235, 11), None, "")
+		hook_mouse_exit(if_gethash(1235, 11), None, "")
+		break
+
+}
+return

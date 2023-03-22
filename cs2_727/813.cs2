@@ -1,0 +1,43 @@
+//script813(813)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = arg0
+iVar2 = -1
+iVar3 = 0
+iVar4 = -1
+iVar3 = script_814(arg0).get(0)
+if_setmodel(iVar4, iVar2)
+script_1421(arg0)
+iVar1 = arg0 - 1
+while(iVar1 > 0) {
+	iVar3 = script_814(iVar1).get(0)
+	if_setmodel(iVar4, iVar2)
+	script_1421(iVar1)
+	if(iVar3 > 1)
+		iVar1 = iVar1 - 1
+	else {
+		iVar1 = iVar1 - 1
+		while(iVar1 > 0) {
+			script_818(iVar1)
+			iVar1 = iVar1 - 1
+		}
+	}
+}
+iVar1 = arg0 + 1
+while(iVar1 <= 14) {
+	iVar3 = script_814(iVar1).get(0)
+	if_setmodel(iVar4, iVar2)
+	script_1421(iVar1)
+	if(iVar3 > 1)
+		iVar1 = iVar1 + 1
+	else {
+		iVar1 = iVar1 + 1
+		while(iVar1 <= 14) {
+			script_818(iVar1)
+			iVar1 = iVar1 + 1
+		}
+	}
+}
+return

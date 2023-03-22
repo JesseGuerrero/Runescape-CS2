@@ -1,0 +1,10 @@
+int script_1045(int arg0, int arg1) {
+	int int2;
+	int2 = 0;
+	if (arg0 > arg1) {
+		int2 = arg0;
+	} else {
+		int2 = arg1;
+	}
+	return int2;
+}

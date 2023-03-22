@@ -1,0 +1,87 @@
+//script2708(2708)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+setup_messagebox(3793, 16753152, 6127, 3792, 3791, 30, 135, 3, 4, 0, 0)
+if_setsize(if_gethash(744, 23), 0, 0, 100, 180)
+if_setgraphic(if_gethash(744, 23), 2498)
+if_setgraphic(if_gethash(744, 8), 4140)
+if_setgraphic(if_gethash(744, 9), 4139)
+if_setgraphic(if_gethash(744, 10), 4141)
+if_setgraphic(if_gethash(744, 11), 4142)
+if_setgraphic(if_gethash(744, 12), 4144)
+if_setgraphic(if_gethash(744, 13), 4143)
+if_setgraphic(if_gethash(744, 14), 4145)
+if_setgraphic(if_gethash(744, 15), 4146)
+if_setgraphic(if_gethash(744, 22), 4129)
+if_setgraphic(if_gethash(744, 97), 4129)
+if_setgraphic(if_gethash(744, 100), 4129)
+if_setgraphic(if_gethash(744, 70), 4067)
+if_sethflip(if_gethash(744, 70), 1)
+if_setvflip(if_gethash(744, 70), 1)
+if_setgraphic(if_gethash(744, 74), 4067)
+if_sethflip(if_gethash(744, 74), 0)
+if_setvflip(if_gethash(744, 74), 1)
+if_setgraphic(if_gethash(744, 4), 4067)
+if_setgraphic(if_gethash(744, 6), 4067)
+instr6752(random(36))
+if(load_varc(176) <= 0)
+	store_varc(176, (random(5) + 1) * 10)
+instr6256(if_gethash(744, 17), script_3229, "")
+script_3964()
+store_varc_string(32, "")
+store_varc_string(33, "")
+instr6680()
+store_varc(547, 0)
+store_varc(1093, 0)
+if_opensubclient(882, 48758834)
+script_2595(0)
+hook_mouse_press(if_gethash(882, 20), script_1173, "i", 11)
+instr6248(if_gethash(744, 17), script_1221, "iz", -2147483640, -2147483639)
+script_2710(arg0, arg1, arg2, arg3, arg4, arg5)
+script_1129()
+script_1427()
+if(frombilling() == 1) {
+	store_varc(1090, 11)
+	store_varc(1091, 11)
+	script_3239(11, 1, 0)
+} else  {
+	if(load_varc(1240) == 2)
+		if(detailget_currenttoolkit() != 0)
+			store_varc(1240, 3)
+	if(instr6097() == 0)
+		if(load_varc(1240) < 3 || instr6784() == 1 || detailget_toolkit() == 0) {
+			store_varc(1090, 0)
+			store_varc(1091, 0)
+			script_3239(0, 1, 0)
+		} else 
+			if(instr6710() == 1) {
+				store_varc(1090, 5)
+				store_varc(1091, 5)
+				script_3239(5, 1, 0)
+				if(load_varc(1273) == 1)
+					return
+				else
+					instr6342(if_gethash(975, 44), script_3381, "Ii", if_gethash(975, 44), 0)
+			} else 
+				if(script_3487(3) == 1)
+					if(load_varc(1407) < 1) {
+						store_varc(1090, 7)
+						store_varc(1091, 7)
+						script_3239(7, 1, 0)
+					} else  {
+						store_varc(1090, 11)
+						store_varc(1091, 11)
+						script_3239(11, 1, 0)
+					}
+				else {
+					store_varc(1090, 11)
+					store_varc(1091, 11)
+					script_3239(11, 1, 0)
+				}
+}
+script_3230()
+if(load_varc(1701) == -1)
+	store_varc(1701, 1)
+if(check_java_version() == 0) {
+	if_opensubclient(405, 48758900)
+	if_setnoclickthrough(48758900, 1)
+}
+return

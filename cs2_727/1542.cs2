@@ -1,0 +1,28 @@
+//script1542(1542)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+iVar0 = iVar0 + 1
+return iVar0
+return 0

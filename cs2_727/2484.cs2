@@ -1,0 +1,52 @@
+//script2484(2484)()(void)
+int iVar0
+iVar0 = 1
+store_varc(838, load_varpbit(6347))
+if(iVar0 <= 4)
+	while(enum(2383, iVar0, 'i', 'I') != 42926100) {
+		if(iVar0 <= load_varc(838)) {
+			if_setcolor(enum(2384, iVar0, 'i', 'I'), 0xE1981F)
+			instr6213(enum(2383, iVar0, 'i', 'I'), 1, "Select")
+			switch(iVar0) {
+				case default:
+					break
+				case 1:
+					if_settext(enum(2384, iVar0, 'i', 'I'), "Conflict")
+					break
+				case 2:
+					if_settext(enum(2384, iVar0, 'i', 'I'), "Siege")
+					break
+				case 3:
+					if_settext(enum(2384, iVar0, 'i', 'I'), "Hoard")
+					break
+				case 4:
+					if_settext(enum(2384, iVar0, 'i', 'I'), "Rescue")
+					break
+
+			}
+		} else  {
+			if_setcolor(enum(2384, iVar0, 'i', 'I'), 0x996600)
+			instr6213(enum(2383, iVar0, 'i', 'I'), 1, "Select")
+			switch(iVar0) {
+				case default:
+					break
+				case 2:
+					if_settext(enum(2384, iVar0, 'i', 'I'), "Siege" + "<br>" + "- Locked")
+					break
+				case 3:
+					if_settext(enum(2384, iVar0, 'i', 'I'), "Hoard" + "<br>" + "- Locked")
+					break
+				case 4:
+					if_settext(enum(2384, iVar0, 'i', 'I'), "Rescue" + "<br>" + "- Locked")
+					break
+
+			}
+		}
+		iVar0 = iVar0 + 1
+	}
+if_setcolor(42926122, 0x996600)
+if_setcolor(42926111, 0x996600)
+if_setcolor(42926118, 0x996600)
+if_setcolor(42926106, 0x996600)
+script_2486()
+return

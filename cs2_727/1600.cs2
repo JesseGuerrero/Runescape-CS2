@@ -1,0 +1,13 @@
+//script1600(1600)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+if(script_1891() == 1) {
+	if_sethide(if_gethash(1109, 20), 0)
+	iVar0 = if_gety(if_gethash(1109, 18))
+	if_setposition(if_gethash(1109, 18), 0, 0, iVar0, 134)
+	return
+}
+script_1632()
+return

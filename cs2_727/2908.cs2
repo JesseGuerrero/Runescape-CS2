@@ -1,0 +1,6 @@
+//script2908(2908)(int arg0)(void)
+if(load_varpbit(7191) == 0)
+	if_sethide(arg0, 1)
+else
+	if_sethide(arg0, 0)
+return

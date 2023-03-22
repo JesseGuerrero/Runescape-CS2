@@ -1,0 +1,30 @@
+//script6360(6360)(int arg0)(void)
+script_6361(0)
+if(script_6352(arg0) == 0)
+	return
+if(script_6365(arg0) == 1)
+	return
+if(script_6352(load_varc(1939)) == 0)
+	store_varc(1939, arg0)
+else
+	if(script_6352(load_varc(1940)) == 0)
+		store_varc(1940, arg0)
+	else
+		if(script_6352(load_varc(1941)) == 0)
+			store_varc(1941, arg0)
+		else
+			if(script_6352(load_varc(1942)) == 0)
+				store_varc(1942, arg0)
+			else
+				if(script_6352(load_varc(1943)) == 0)
+					store_varc(1943, arg0)
+				else
+					if(script_6352(load_varc(1944)) == 0)
+						store_varc(1944, arg0)
+					else
+						if(script_6352(load_varc(1945)) == 0)
+							store_varc(1945, arg0)
+						else
+							if(script_6352(load_varc(1946)) == 0)
+								store_varc(1946, arg0)
+return

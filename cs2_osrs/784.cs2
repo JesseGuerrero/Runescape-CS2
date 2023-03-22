@@ -1,0 +1,7 @@
+void script_784(Widget widget0) {
+	widget(464, 3).clearChildren();
+	script_31(widget(464, 3), widget(464, 2), 792, 789, 790, 791, 773, 788);
+	script_787();
+	widget0.hookContainer(&script_786(), 90);
+	return;
+}

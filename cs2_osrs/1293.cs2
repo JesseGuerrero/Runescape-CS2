@@ -1,0 +1,30 @@
+int script_1293(int arg0, int arg1, int arg2, int arg3, Item item4, int arg5, Item item6, int arg7, Item item8, int arg9, int arg10) {
+	if (arg0 > 0 && script_19(556) < arg0) {
+		return 0;
+	}
+	if (arg1 > 0 && script_19(555) < arg1) {
+		return 0;
+	}
+	if (arg2 > 0 && script_19(557) < arg2) {
+		return 0;
+	}
+	if (arg3 > 0 && script_19(554) < arg3) {
+		return 0;
+	}
+	if (arg5 > 0 && script_19(item4) < arg5) {
+		return 0;
+	}
+	if (arg7 > 0 && script_19(item6) < arg7) {
+		return 0;
+	}
+	if (arg9 > 0 && script_19(item8) < arg9) {
+		return 0;
+	}
+	if (getItemAmtInContainer(93, 13446) == 0) {
+		return 0;
+	}
+	if (getSkillCurrentLvl(6) < arg10) {
+		return 0;
+	}
+	return 1;
+}

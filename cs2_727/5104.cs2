@@ -1,0 +1,13 @@
+//script5104(5104)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if_sethide(arg1, 1)
+if_sethide(arg2, 0)
+if(arg0 == 1) {
+	if_settext(arg3, "Click to add" + "<br>" + "clan relationship")
+	instr6213(arg4, 1, "Add")
+	if_sethide(arg5, 1)
+} else  {
+	if_settext(arg3, "No clan set")
+	instr6220(arg4)
+	if_sethide(arg5, 0)
+}
+return

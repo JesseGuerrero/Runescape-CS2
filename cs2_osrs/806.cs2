@@ -1,0 +1,35 @@
+void script_806(Widget widget0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	int int7;
+	Container container8;
+	script_41(widget6);
+	int7 = VARPBIT[4439] - 1;
+	container8 = datamap('i', 'v', 150, int7);
+	if (container8 == null) {
+		widget2.setIsHidden(true);
+		widget3.setIsHidden(false);
+		widget4.setIsHidden(true);
+		widget5.setIsHidden(true);
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setText("Grand Exchange");
+		}
+		return;
+	}
+	widget2.setIsHidden(false);
+	widget2.setTrans(0);
+	if (getGENotStarted(int7) == true) {
+		widget3.setIsHidden(true);
+		widget4.setIsHidden(true);
+		widget5.setIsHidden(false);
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setText("Grand Exchange: Set up offer");
+		}
+		return;
+	}
+	widget3.setIsHidden(true);
+	widget4.setIsHidden(false);
+	widget5.setIsHidden(true);
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setText("Grand Exchange: Offer status");
+	}
+	return;
+}

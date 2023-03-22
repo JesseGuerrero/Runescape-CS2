@@ -1,0 +1,53 @@
+//script5791(5791)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+string sVar1
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+sVar0 = "Keep doing this for as long as you want."
+iVar4 = 0
+sVar1 = ""
+if_sethide(if_gethash(1220, 8), 1)
+if_sethide(if_gethash(1220, 0), 1)
+if_sethide(if_gethash(1220, 22), 1)
+if(script_3999(load_varpbit(10700)) == 0)
+	if(load_varpbit(10700) == load_varpbit(8576)) {
+		if_sethide(if_gethash(1220, 22), 0)
+		if_sethide(if_gethash(1220, 25), 0)
+		if_sethide(if_gethash(1056, 125), 0)
+		script_4212(79953949, 4040, 15458492, 0, "Recommended")
+		if_setposition(if_gethash(1220, 23), 0, 0, if_gety(if_gethash(1220, 21)) + 2, if_getx(if_gethash(1220, 23)))
+		script_5784(79953941)
+	} else 
+		if(load_varpbit(9030) == 1) {
+			if_sethide(if_gethash(1220, 25), 1)
+			if_sethide(if_gethash(1056, 125), 1)
+			script_4212(79953949, 4040, 15458492, 0, "Next Task")
+			if_setposition(if_gethash(1220, 23), 0, 0, if_gety(if_gethash(1220, 21)) + 2, if_getx(if_gethash(1220, 23)))
+			iVar0 = script_5814(load_varpbit(8576)).get(0)
+			if(iVar0 != 0)
+				if(world_members() == 1) {
+					if_sethide(if_gethash(1220, 8), 0)
+					if_sethide(if_gethash(1220, 0), 0)
+					script_4542(scale(100, iVar2, iVar1), 79953954, 79953959)
+					script_4212(79953959, 494, 15458492, 0, "")
+					if_settext(if_gethash(1220, 10), enum(5482, iVar0, 'i', 's'))
+					if_setcolor(79953930, 0xE5B051)
+					sVar1 = to_string(iVar1) + " of " + to_string(iVar2) + " Tasks done in this stage."
+					if_setonmouseover(if_gethash(1220, 0), script_4538, "IIisifdiiiiii", if_gethash(1220, 28), -2147483645, -1, sVar1, 180, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+				}
+			script_4531(79953941)
+		} else  {
+			if_sethide(if_gethash(1220, 25), 0)
+			if_sethide(if_gethash(1056, 125), 0)
+			script_4212(79953949, 4040, 15458492, 0, "Active Task")
+			if_setposition(if_gethash(1220, 23), 0, 0, if_gety(if_gethash(1220, 21)) + 2, if_getx(if_gethash(1220, 23)))
+			script_4531(79953941)
+		}
+return

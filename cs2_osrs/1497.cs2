@@ -1,0 +1,126 @@
+void script_1497(int arg0, int arg1, int arg2, int arg3) {
+	if (arg3 == 3) {
+		widget(66, 48).setText("<str>" + "Bronze" + "</str>");
+		if (arg2 == 1) {
+			widget(66, 70).setText("<str>" + "Silver" + "</str>");
+			widget(66, 81).setText("<str>" + "Gold" + "</str>");
+			widget(66, 66).setItem(13190, 10);
+			widget(66, 77).setItem(13190, 20);
+		} else if (arg1 == 1) {
+			widget(66, 70).setText("<str>" + "Silver" + "</str>");
+			widget(66, 81).setText("Upgrade" + "<br>" + "to" + "<br>" + "Gold");
+			widget(66, 73).setContextMenuOption(1, "Select Upgrade to Gold");
+			widget(66, 77).setItem(13190, 10);
+		} else if (arg0 == 1) {
+			widget(66, 70).setText("Upgrade" + "<br>" + "to" + "<br>" + "Silver");
+			widget(66, 62).setContextMenuOption(1, "Select Upgrade to Silver");
+			widget(66, 81).setText("Upgrade" + "<br>" + "to" + "<br>" + "Gold");
+			widget(66, 73).setContextMenuOption(1, "Select Upgrade to Gold");
+			widget(66, 66).setItem(13190, 5);
+			widget(66, 77).setItem(13190, 15);
+		} else {
+			widget(66, 70).setText("<str>" + "Silver" + "</str>");
+			widget(66, 81).setText("<str>" + "Gold" + "</str>");
+			widget(66, 66).setItem(13190, 10);
+			widget(66, 77).setItem(13190, 20);
+		}
+	} else if (arg2 == 1) {
+		widget(66, 48).setText("<str>" + "Bronze" + "</str>");
+		widget(66, 70).setText("<str>" + "Silver" + "</str>");
+		widget(66, 81).setText("<str>" + "Gold" + "</str>");
+		widget(66, 66).setItem(13190, 10);
+		widget(66, 77).setItem(13190, 20);
+	} else if (arg1 == 1) {
+		widget(66, 48).setText("<str>" + "Bronze" + "</str>");
+		widget(66, 70).setText("<str>" + "Silver" + "</str>");
+		widget(66, 81).setText("Upgrade" + "<br>" + "to" + "<br>" + "Gold");
+		widget(66, 73).setContextMenuOption(1, "Select Upgrade to Gold");
+		widget(66, 77).setItem(13190, 10);
+	} else if (arg0 == 1) {
+		widget(66, 48).setText("<str>" + "Bronze" + "</str>");
+		widget(66, 70).setText("Upgrade" + "<br>" + "to" + "<br>" + "Silver");
+		widget(66, 62).setContextMenuOption(1, "Select Upgrade to Silver");
+		widget(66, 81).setText("Upgrade" + "<br>" + "to" + "<br>" + "Gold");
+		widget(66, 73).setContextMenuOption(1, "Select Upgrade to Gold");
+		widget(66, 66).setItem(13190, 5);
+		widget(66, 77).setItem(13190, 15);
+	} else {
+		widget(66, 48).setText("Bronze");
+		widget(66, 70).setText("Silver");
+		widget(66, 81).setText("Gold");
+		widget(66, 66).setItem(13190, 10);
+		widget(66, 77).setItem(13190, 20);
+	}
+	if (arg3 == 1) {
+		if (arg2 == 1) {
+			widget(66, 40).hookMouseEnter(null);
+			widget(66, 40).hookMouseExit(null);
+			widget(66, 40).hookOptionClick(null);
+			widget(66, 43).setIsHidden(true);
+			widget(66, 62).hookMouseEnter(null);
+			widget(66, 62).hookMouseExit(null);
+			widget(66, 62).hookOptionClick(null);
+			widget(66, 65).setIsHidden(true);
+			widget(66, 73).hookMouseEnter(null);
+			widget(66, 73).hookMouseExit(null);
+			widget(66, 73).hookOptionClick(null);
+			widget(66, 76).setIsHidden(true);
+			widget(66, 80).setIsHidden(false);
+		}
+		if (arg1 == 1) {
+			widget(66, 40).hookMouseEnter(null);
+			widget(66, 40).hookMouseExit(null);
+			widget(66, 40).hookOptionClick(null);
+			widget(66, 43).setIsHidden(true);
+			widget(66, 62).hookMouseEnter(null);
+			widget(66, 62).hookMouseExit(null);
+			widget(66, 62).hookOptionClick(null);
+			widget(66, 65).setIsHidden(true);
+			widget(66, 69).setIsHidden(false);
+		}
+		if (arg0 == 1) {
+			widget(66, 40).hookMouseEnter(null);
+			widget(66, 40).hookMouseExit(null);
+			widget(66, 40).hookOptionClick(null);
+			widget(66, 43).setIsHidden(true);
+			widget(66, 47).setIsHidden(false);
+		}
+	} else if (arg3 == 3) {
+		widget(66, 40).hookMouseEnter(null);
+		widget(66, 40).hookMouseExit(null);
+		widget(66, 40).hookOptionClick(null);
+		widget(66, 43).setIsHidden(true);
+		if (arg2 == 1) {
+			widget(66, 62).hookMouseEnter(null);
+			widget(66, 62).hookMouseExit(null);
+			widget(66, 62).hookOptionClick(null);
+			widget(66, 65).setIsHidden(true);
+			widget(66, 73).hookMouseEnter(null);
+			widget(66, 73).hookMouseExit(null);
+			widget(66, 73).hookOptionClick(null);
+			widget(66, 76).setIsHidden(true);
+			widget(66, 80).setIsHidden(false);
+		}
+		if (arg1 == 1) {
+			widget(66, 62).hookMouseEnter(null);
+			widget(66, 62).hookMouseExit(null);
+			widget(66, 62).hookOptionClick(null);
+			widget(66, 65).setIsHidden(true);
+			widget(66, 69).setIsHidden(false);
+		}
+	} else {
+		widget(66, 40).hookMouseEnter(null);
+		widget(66, 40).hookMouseExit(null);
+		widget(66, 40).hookOptionClick(null);
+		widget(66, 43).setIsHidden(true);
+		widget(66, 62).hookMouseEnter(null);
+		widget(66, 62).hookMouseExit(null);
+		widget(66, 62).hookOptionClick(null);
+		widget(66, 65).setIsHidden(true);
+		widget(66, 73).hookMouseEnter(null);
+		widget(66, 73).hookMouseExit(null);
+		widget(66, 73).hookOptionClick(null);
+		widget(66, 76).setIsHidden(true);
+	}
+	return;
+}

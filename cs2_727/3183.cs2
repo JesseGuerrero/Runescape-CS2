@@ -1,0 +1,10 @@
+//script3183(3183)()(void)
+if(string_length(load_varc_string(277)) <= 0)
+	return
+store_varc_string(279, load_varc_string(277))
+script_3180()
+if(string_length(load_varc_string(279)) > 0) {
+	script_3190()
+	store_varc(1662, 1)
+}
+return

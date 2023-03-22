@@ -1,0 +1,15 @@
+//script1809(1809)(int arg0, int arg1, int arg2)(void)
+string sVar0
+sVar0 = ""
+if(string_length(load_varc_string(38)) > 0) {
+	sVar0 = script_1814(load_varc_string(38))
+	if_settext(arg1, sVar0)
+	if_setsize(arg1, 0, 0, 15, parawidth(sVar0, 496, 512))
+} else  {
+	if_settext(arg1, "")
+	if_setsize(arg1, 0, 0, 15, 0)
+}
+store_varc(267, -1)
+store_varc_string(39, "")
+script_1811(arg0, arg1, arg2)
+return

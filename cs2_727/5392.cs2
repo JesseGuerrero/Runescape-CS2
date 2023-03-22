@@ -1,0 +1,131 @@
+//script5392(5392)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+iVar3 = if_getwidth(arg0)
+iVar4 = if_getheight(arg0)
+iVar5 = if_getnextsubid(arg0)
+cc_create(iVar5, 5, arg0)
+cc_setposition(0, 1, 0, 0)
+cc_setsize(0, 1, 12, 24)
+cc_setgraphic(8564)
+cc_settiling(1)
+iVar5 = iVar5 + 1
+cc_create(iVar5, 5, arg0)
+cc_setposition(2, 1, 0, 0)
+cc_setsize(0, 1, 12, 24)
+cc_setgraphic(8580)
+cc_settiling(1)
+iVar5 = iVar5 + 1
+cc_create(iVar5, 5, arg0)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, 12, 12)
+cc_setgraphic(8563)
+iVar5 = iVar5 + 1
+cc_create(iVar5, 5, arg0)
+cc_setposition(0, 2, 0, 0)
+cc_setsize(0, 0, 12, 12)
+cc_setgraphic(8565)
+iVar5 = iVar5 + 1
+cc_create(iVar5, 5, arg0)
+cc_setposition(2, 0, 0, 0)
+cc_setsize(0, 0, 12, 12)
+cc_setgraphic(8579)
+iVar5 = iVar5 + 1
+cc_create(iVar5, 5, arg0)
+cc_setposition(2, 2, 0, 0)
+cc_setsize(0, 0, 12, 12)
+cc_setgraphic(8581)
+iVar5 = iVar5 + 1
+if(arg1 == 0 || arg1 < 17 || arg1 > if_getheight(arg0) - 24) {
+	cc_create(iVar5, 5, arg0)
+	cc_setposition(1, 0, 0, 0)
+	cc_setsize(1, 0, 24, 12)
+	cc_setgraphic(8566)
+	iVar5 = iVar5 + 1
+	cc_create(iVar5, 5, arg0)
+	cc_setposition(1, 2, 0, 0)
+	cc_setsize(1, 0, 24, 12)
+	cc_setgraphic(8567)
+	iVar5 = iVar5 + 1
+} else 
+	if(arg2 == 1) {
+		if(arg1 > 17) {
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(0, 0, 12, 0)
+			cc_setsize(0, 0, arg1 - 17, 12)
+			cc_setgraphic(8566)
+			cc_settiling(1)
+			iVar5 = iVar5 + 1
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(0, 2, 12, 0)
+			cc_setsize(0, 0, arg1 - 17, 12)
+			cc_setgraphic(8567)
+			cc_settiling(1)
+			iVar5 = iVar5 + 1
+		}
+		cc_create(iVar5, 5, arg0)
+		cc_setposition(0, 0, arg1 - 5, 0)
+		cc_setsize(0, 0, 12, 12)
+		cc_setgraphic(8568)
+		cc_settiling(1)
+		iVar5 = iVar5 + 1
+		cc_create(iVar5, 5, arg0)
+		cc_setposition(0, 2, arg1 - 5, 0)
+		cc_setsize(0, 0, 12, 12)
+		cc_setgraphic(8570)
+		cc_settiling(1)
+		iVar5 = iVar5 + 1
+		if(arg1 < if_getheight(arg0) - 24) {
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(2, 0, 12, 0)
+			cc_setsize(1, 0, arg1 + 19, 12)
+			cc_setgraphic(8566)
+			iVar5 = iVar5 + 1
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(2, 2, 12, 0)
+			cc_setsize(1, 0, arg1 + 19, 12)
+			cc_setgraphic(8567)
+			iVar5 = iVar5 + 1
+		}
+	} else  {
+		if(arg1 > 17) {
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(2, 0, 12, 0)
+			cc_setsize(0, 0, arg1 - 17, 12)
+			cc_setgraphic(8566)
+			cc_settiling(1)
+			iVar5 = iVar5 + 1
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(2, 2, 12, 0)
+			cc_setsize(0, 0, arg1 - 17, 12)
+			cc_setgraphic(8567)
+			cc_settiling(1)
+			iVar5 = iVar5 + 1
+		}
+		cc_create(iVar5, 5, arg0)
+		cc_setposition(2, 0, arg1 - 5, 0)
+		cc_setsize(0, 0, 12, 12)
+		cc_setgraphic(8568)
+		cc_settiling(1)
+		iVar5 = iVar5 + 1
+		cc_create(iVar5, 5, arg0)
+		cc_setposition(2, 2, arg1 - 5, 0)
+		cc_setsize(0, 0, 12, 12)
+		cc_setgraphic(8570)
+		cc_settiling(1)
+		iVar5 = iVar5 + 1
+		if(arg1 < if_getheight(arg0) - 24) {
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(0, 0, 12, 0)
+			cc_setsize(1, 0, arg1 + 19, 12)
+			cc_setgraphic(8566)
+			iVar5 = iVar5 + 1
+			cc_create(iVar5, 5, arg0)
+			cc_setposition(0, 2, 12, 0)
+			cc_setsize(1, 0, arg1 + 19, 12)
+			cc_setgraphic(8567)
+			iVar5 = iVar5 + 1
+		}
+	}
+return

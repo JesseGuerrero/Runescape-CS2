@@ -1,0 +1,6 @@
+void script_394(Skill skill0, Widget widget1, string string2, int arg3, int arg4, Widget arg5) {
+	if (CHILD.setChild(widget1, arg3) == true && _CHILD.setChild(widget1, arg4) == true) {
+		script_395(skill0, widget1, string2, arg5);
+	}
+	return;
+}

@@ -1,0 +1,304 @@
+//script59(59)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+string sVar0
+string sVar1
+if(load_varpbit(9227) > 1)
+	if_settext(if_gethash(18, 12), "Select " + to_string(load_varpbit(9227)) + " items to keep. The rest will be dropped.")
+else
+	if(load_varpbit(9227) == 1)
+		if_settext(if_gethash(18, 12), "Select an item to keep. The rest will be dropped.")
+	else
+		if_settext(if_gethash(18, 12), "These items will be dropped.")
+globalArrays[0] = [4, 111]
+globalArrays[0][0] = script_750(load_varpbit(9222))
+globalArrays[0][1] = script_750(load_varpbit(9223))
+globalArrays[0][2] = script_750(load_varpbit(9224))
+globalArrays[0][3] = script_750(load_varpbit(9225))
+cc_deleteall(if_gethash(18, 9))
+cc_deleteall(if_gethash(18, 8))
+iVar1 = 15
+iVar2 = -1
+iVar3 = 6014
+iVar4 = 6015
+iVar5 = -1
+if(iVar5 < load_varpbit(9227))
+	while(iVar5 < 4) {
+		iVar5 = max(0, iVar5)
+		cc_create(if_getnextsubid(if_gethash(18, 8)), 5, 1179656)
+		cc_setsize(0, 0, 36, 36)
+		cc_setposition(1, 0, 0, iVar1)
+		cc_setgraphic(iVar3)
+		iVar2 = globalArrays[0][iVar5]
+		cc_create(if_getnextsubid(if_gethash(18, 9)), 5, 1179657)
+		if(load_varpbit(9227) == 0) {
+			cc_setsize(0, 0, 36, 36)
+			cc_setposition(1, 0, 0, iVar1)
+			cc_setgraphic(1132)
+		} else  {
+			cc_setsize(0, 0, 32, 36)
+			cc_setposition(1, 0, 0, iVar1 + 2)
+			if(iVar2 != -1) {
+				cc_setitem_nonum(1, iVar2)
+				cc_setop("Unprotect", 1)
+				cc_setop("Examine", 10)
+				cc_setgraphicshadow(3153952)
+				cc_setoutline(1)
+				cc_setopbase("<col=ff9040>" + item_name(iVar2) + "</col>")
+				instr6676(-1, if_gethash(18, 2))
+				instr6073(2)
+				instr6443(5)
+				instr6075(5)
+				instr6687(script_1620, "Iiiii", -2147483645, -2147483643, 100, 0, 8)
+				instr6499(script_744, "IiIii", -2147483645, -2147483643, if_gethash(-32768, 6), -2147483641, arg0)
+			}
+			instr6091(script_688, "Iid", -2147483645, -2147483643, iVar4)
+			instr6092(script_688, "Iid", -2147483645, -2147483643, iVar3)
+		}
+		iVar1 = (iVar1 + max(cc_getwidth(), cc_getwidth())) + 10
+		iVar5 = iVar5 + 1
+	}
+iVar1 = iVar1 + 9
+if_setsize(if_gethash(18, 3), 0, 0, if_getheight(if_gethash(18, 3)), iVar1)
+cc_deleteall(if_gethash(18, 16))
+cc_deleteall(if_gethash(18, 17))
+cc_deleteall(if_gethash(18, 24))
+cc_deleteall(if_gethash(18, 25))
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = if_getwidth(if_gethash(18, 2))
+iVar13 = iVar12 - (max(if_getwidth(if_gethash(18, 26)), if_getwidth(if_gethash(18, 18))) + 4)
+iVar14 = max(1, iVar13 / 36)
+iVar15 = (iVar13 - (36 * iVar14)) / max(1, iVar14 - 1)
+iVar16 = max(4, iVar15 / 2)
+iVar17 = inv_size(if_gethash(0, 93)) + inv_size(if_gethash(0, 94))
+iVar18 = 0
+iVar19 = 0
+iVar5 = 0
+while(iVar5 <= iVar17) {
+	iVar2 = script_750(iVar5)
+	cc_create(iVar5, 5, 1179665)
+	cc_create(iVar5, 5, 1179673)
+	if(iVar2 != -1) {
+		iVar18 = script_1393(iVar5)
+		iVar19 = 0
+		if(iVar19 < 4)
+			while(iVar18 > 0) {
+				if(globalArrays[0][iVar19] == iVar2) {
+					iVar18 = iVar18 - 1
+					globalArrays[0][iVar19] = -1
+				}
+				iVar19 = iVar19 + 1
+			}
+		if(iVar18 > 0)
+			if(item_param(1397, item_uncert(iVar2)) == 1) {
+				cc_setsize(0, 0, 32, 36)
+				cc_setitem(iVar18, iVar2)
+				cc_setgraphicshadow(3153952)
+				cc_setoutline(1)
+				cc_setop("Examine", 10)
+				cc_setopbase("<col=ff9040>" + item_name(iVar2) + "</col>")
+				iVar10 = iVar8 * (36 + iVar15)
+				iVar11 = iVar9 * (32 + iVar16)
+				cc_setposition(0, 0, iVar11 + 2, iVar10 + 2)
+				iVar8 = iVar8 + 1
+				if(iVar8 >= iVar14)
+					iVar8 = 0
+				cc_sethide(1)
+				cc_create(if_getnextsubid(if_gethash(18, 24)), 5, 1179672)
+				cc_setsize(0, 0, 36, 36)
+				cc_setposition(0, 0, iVar11, iVar10)
+				cc_setgraphic(6016)
+			} else  {
+				cc_setsize(0, 0, 32, 36)
+				cc_setitem(iVar18, iVar2)
+				cc_setgraphicshadow(3153952)
+				cc_setoutline(1)
+				cc_setop("Protect", 1)
+				cc_setop("Examine", 10)
+				cc_setopbase("<col=ff9040>" + item_name(iVar2) + "</col>")
+				iVar10 = iVar6 * (36 + iVar15)
+				iVar11 = iVar7 * (32 + iVar16)
+				cc_setposition(0, 0, iVar11 + 2, iVar10 + 2)
+				instr6676(-1, if_gethash(18, 2))
+				instr6073(2)
+				instr6443(5)
+				instr6075(5)
+				instr6687(script_1620, "Iiiii", -2147483645, -2147483643, 100, 0, 8)
+				instr6499(script_744, "IiIii", -2147483645, -2147483643, if_gethash(-32768, 6), -2147483641, arg0)
+				iVar6 = iVar6 + 1
+				if(iVar6 >= iVar14)
+					iVar6 = 0
+				cc_sethide(1)
+				cc_create(if_getnextsubid(if_gethash(18, 16)), 5, 1179664)
+				cc_setsize(0, 0, 36, 36)
+				cc_setposition(0, 0, iVar11, iVar10)
+				cc_setgraphic(iVar3)
+				instr6091(script_688, "Iid", -2147483645, -2147483643, iVar4)
+				instr6092(script_688, "Iid", -2147483645, -2147483643, iVar3)
+			}
+		else {
+			cc_sethide(1)
+			cc_sethide(1)
+		}
+	} else  {
+		cc_sethide(1)
+		cc_sethide(1)
+	}
+	iVar5 = iVar5 + 1
+}
+if(iVar6 <= 0)
+	iVar7 = max(0, iVar7 - 1)
+if(iVar8 <= 0)
+	iVar9 = max(0, iVar9 - 1)
+iVar20 = (iVar7 + 1) * (32 + iVar16)
+iVar21 = (iVar9 + 1) * (32 + iVar16)
+if(iVar7 < 2)
+	if(iVar7 <= iVar9) {
+		if_setsize(if_gethash(18, 11), 0, 1, (iVar20 + if_getheight(if_gethash(18, 12))) + 6, 0)
+		if_setsize(if_gethash(18, 19), 1, 1, if_getheight(if_gethash(18, 11)) + 3, 0)
+	} else 
+		if(iVar9 < 2)
+			if(iVar9 <= iVar7) {
+				if_setsize(if_gethash(18, 19), 0, 1, (iVar21 + if_getheight(if_gethash(18, 20))) + 6, 0)
+				if_setsize(if_gethash(18, 11), 1, 1, if_getheight(if_gethash(18, 19)) + 3, 0)
+			}
+if(iVar6 <= 0)
+	if(iVar7 <= 0) {
+		cc_create(if_getnextsubid(if_gethash(18, 17)), 4, 1179665)
+		cc_setsize(1, 1, 0, 0)
+		cc_setposition(0, 1, 0, 0)
+		cc_setcolor(ffffff)
+		cc_settextshadow(1)
+		cc_settextfont(495)
+		cc_settextalign(0, 1, 1)
+		cc_settext("You haven't got any more items to choose.")
+	}
+if(iVar20 > if_getheight(if_gethash(18, 15))) {
+	if_setscrollsize(1179663, iVar20, 0)
+	if_setsize(if_gethash(18, 17), 0, 1, iVar20, 0)
+	if_setsize(if_gethash(18, 16), 0, 1, iVar20, 0)
+	script_31(1179666, 1179663, 6507, 6504, 6505, 6506, 6499, 6498)
+	if_sethide(if_gethash(18, 18), 0)
+	if_setposition(if_gethash(18, 15), 1, 0, 0, 2)
+} else  {
+	if_setscrollsize(1179663, 0, 0)
+	if_setsize(if_gethash(18, 17), 1, 1, 0, 0)
+	if_setsize(if_gethash(18, 16), 1, 1, 0, 0)
+	if_setscrollpos(if_gethash(18, 15), 0, 0)
+	cc_deleteall(if_gethash(18, 18))
+	if_sethide(if_gethash(18, 18), 1)
+	if_setposition(if_gethash(18, 15), 1, 1, 0, 0)
+}
+if(iVar21 > if_getheight(if_gethash(18, 23))) {
+	if_setscrollsize(1179671, iVar21, 0)
+	if_setsize(if_gethash(18, 25), 0, 1, iVar21, 0)
+	if_setsize(if_gethash(18, 24), 0, 1, iVar21, 0)
+	script_31(1179674, 1179671, 6507, 6504, 6505, 6506, 6499, 6498)
+	if_sethide(if_gethash(18, 26), 0)
+	if_setposition(if_gethash(18, 23), 1, 0, 0, 2)
+} else  {
+	if_setscrollsize(1179671, 0, 0)
+	if_setsize(if_gethash(18, 25), 1, 1, 0, 0)
+	if_setsize(if_gethash(18, 24), 1, 1, 0, 0)
+	if_setscrollpos(if_gethash(18, 23), 0, 0)
+	cc_deleteall(if_gethash(18, 26))
+	if_sethide(if_gethash(18, 26), 1)
+	if_setposition(if_gethash(18, 23), 1, 1, 0, 0)
+}
+cc_deleteall(if_gethash(18, 45))
+if(load_varp(105) != -1) {
+	if_sethide(if_gethash(18, 27), 1)
+	if_sethide(if_gethash(18, 42), 1)
+	if_setposition(if_gethash(18, 3), 0, 1, 0, 0)
+	return
+}
+if_sethide(if_gethash(18, 27), 0)
+sVar0 = "Your hub (" + enum(3792, load_varpbit(9231), 'i', 's') + ")"
+sVar1 = ""
+iVar22 = 0
+iVar5 = -1
+iVar17 = enum_getoutputcount(3796)
+iVar7 = 2
+iVar23 = 0
+while(iVar5 <= iVar17) {
+	cc_create(iVar5 + 1, 4, 1179693)
+	iVar23 = 0
+	switch(iVar5) {
+		case default:
+			break
+		case -1:
+			iVar23 = 1
+			break
+		case 1:
+			if(load_varpbit(668) == 1)
+				if(world_members() == 1)
+					iVar23 = 1
+			break
+		case 2:
+			if(load_varpbit(3910) == 1)
+				if(world_members() == 1)
+					iVar23 = 1
+			break
+		case 3:
+			if(load_varpbit(6982) == 1)
+				if(world_members() == 1)
+					iVar23 = 1
+			break
+
+	}
+	if(iVar23 == 1) {
+		if(iVar5 == -1)
+			sVar1 = sVar0
+		else
+			sVar1 = enum(3796, iVar5, 'i', 's')
+		iVar22 = max(stringwidth(494, sVar1), iVar22)
+		if(load_varpbit(9228) - 1 != iVar5) {
+			cc_setsize(0, 1, 15, 0)
+			cc_setposition(0, 1, iVar7, 0)
+			cc_settextfont(494)
+			cc_settextalign(0, 1, 1)
+			cc_setcolor(efb063)
+			instr6091(script_743, "Ii1", -2147483645, -2147483643, 1)
+			instr6092(script_743, "Ii1", -2147483645, -2147483643, 0)
+			cc_settext(sVar1)
+			cc_setop("Select", 1)
+			instr6687(script_747, "isi", -2147483644, sVar1, arg0)
+			iVar7 = iVar7 + cc_getheight()
+		} else 
+			if(cc_find(arg0, if_gethash(18, 29)) == 1)
+				cc_settext(sVar1)
+	} else 
+		cc_sethide(1)
+	iVar5 = iVar5 + 1
+}
+iVar22 = iVar22 + 28
+if_setsize(if_gethash(18, 27), 0, 0, if_getheight(if_gethash(18, 27)), iVar22)
+if_setsize(if_gethash(18, 43), 0, 0, iVar7 + 6, iVar22)
+if_setposition(if_gethash(18, 3), 0, 1, 0, max(0, (iVar22 + 1) - ((iVar12 - iVar1) / 2)))
+return

@@ -1,0 +1,6 @@
+//script141(141)()(void)
+if(load_varp(1042) == 1)
+	if_sethide(if_gethash(335, 41), 0)
+if(load_varp(1043) == 1)
+	if_sethide(if_gethash(335, 42), 0)
+return

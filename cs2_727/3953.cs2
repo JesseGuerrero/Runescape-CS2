@@ -1,0 +1,8 @@
+//script3953(3953)(int arg0)(void)
+int iVar1
+iVar1 = script_5638(arg0)
+if(iVar1 == 1)
+	instr6698(6)
+else
+	instr6698(7)
+return

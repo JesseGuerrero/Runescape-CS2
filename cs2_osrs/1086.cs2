@@ -1,0 +1,33 @@
+void script_1086(int arg0, int arg1, Widget widget2, string string3, string arg4) {
+	int int3;
+	int3 = 0;
+	if (arg0 == 1 || arg1 == 0) {
+		int3 = script_198(widget2);
+	} else {
+		int3 = script_208(widget2);
+	}
+	CHILD.createChild(widget2, 4, int3);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	if (arg1 == 0) {
+		CHILD.setRGB(0xFFFFFF);
+	} else if (arg0 == 1) {
+		CHILD.setRGB(0xFFA82F);
+	} else {
+		CHILD.setRGB(0xFF981F);
+	}
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(string3);
+	if (arg1 == 1) {
+		widget2.hookMouseEnter(&script_1085(true, true, widget2, string3, arg4));
+		widget2.hookMouseExit(&script_1085(false, true, widget2, string3, arg4));
+		widget2.hookMousePress(&script_1087(widget2, string3, arg4));
+	} else {
+		widget2.hookMouseHover(null);
+		widget2.hookMouseExit(null);
+		widget2.hookMousePress(null);
+	}
+	return;
+}

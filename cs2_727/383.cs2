@@ -1,0 +1,5 @@
+//script383(383)()(void)
+cc_deleteall(if_gethash(1028, 140))
+if_sethide(if_gethash(1028, 140), 1)
+store_varc(2, -1)
+return

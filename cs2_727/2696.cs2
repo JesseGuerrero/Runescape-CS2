@@ -1,0 +1,33 @@
+//script2696(2696)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(void)
+if(arg10 == 1) {
+	cc_deleteall(if_gethash(742, 21))
+	cc_deleteall(if_gethash(742, 22))
+	if_sethide(if_gethash(742, 20), 1)
+	hook_mouse_press(if_gethash(742, 4), None, "")
+} else 
+	if(arg10 == 2) {
+		cc_deleteall(if_gethash(911, 73))
+		cc_deleteall(if_gethash(911, 66))
+		if_sethide(if_gethash(911, 74), 1)
+		hook_mouse_press(if_gethash(911, 1), None, "")
+	} else  {
+		cc_deleteall(if_gethash(882, 6))
+		cc_deleteall(if_gethash(882, 7))
+		if_sethide(if_gethash(882, 5), 1)
+		hook_mouse_press(if_gethash(882, 4), None, "")
+	}
+if(cc_find(arg2, arg0) == 1)
+	cc_setgraphic(2554)
+if(arg4 != -1)
+	if(cc_find(arg4, arg0) == 1)
+		cc_setcolor(ebe0bc)
+if(cc_find(arg1, arg0) == 1) {
+	instr6088(script_2695, "IiiiiJiiiii", -2147483645, -2147483643, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)
+	instr6091(script_2691, "Ii1ii1", -2147483645, arg2, 1, arg3, 8419437, 1)
+	instr6092(script_2691, "Ii1ii1", -2147483645, arg2, 0, arg3, 6249298, 1)
+	if(cc_find(arg3, arg0) == 1) {
+		cc_setcolor(5f5b52)
+		cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+	}
+}
+return

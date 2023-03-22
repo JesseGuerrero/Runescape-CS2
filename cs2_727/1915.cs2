@@ -1,0 +1,5 @@
+//script1915(1915)()(void)
+if_sethide(if_gethash(813, 75), 1)
+store_varc(582, 0)
+instr6257(if_gethash(813, 27), script_1918, "Y", 5, 583, 584, 585, 586, 587)
+return

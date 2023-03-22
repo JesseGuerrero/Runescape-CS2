@@ -1,0 +1,779 @@
+//script1018(1018)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2142, 1, "You can now cook " + "<col=000080>" + "meat" + "</col>" + ".", "Meat"
+
+			case 1:
+				return 9436, 1, "You can now make " + "<col=000080>" + "sinew" + "</col>" + " by drying beef or bear meat on a range.", "Members: Sinew"
+
+			case 2:
+				return 315, 1, "You can now cook " + "<col=000080>" + "shrimp" + "</col>" + ".", "Shrimp"
+
+			case 3:
+				return 13433, 1, "You can now cook " + "<col=000080>" + "crayfish" + "</col>" + ".", "Crayfish"
+
+			case 4:
+				return 2140, 1, "You can now cook " + "<col=000080>" + "chicken" + "</col>" + ".", "Chicken"
+
+			case 5:
+				return 3228, 1, "Members can now cook " + "<col=000080>" + "rabbits" + "</col>" + ".", "Members: Rabbit"
+
+			case 6:
+				return 319, 1, "You can now cook " + "<col=000080>" + "anchovies" + "</col>" + ".", "Anchovies"
+
+			case 7:
+				return 325, 1, "You can now cook " + "<col=000080>" + "sardines" + "</col>" + ".", "Sardine"
+
+			case 8:
+				return 3151, 1, "Members can now cook " + "<col=000080>" + "karambwanji" + "</col>" + ".", "Members: Karambwanji"
+
+			case 9:
+				return 3146, 1, "Members can now cook " + "<col=000080>" + "karambwan" + "</col>" + ".", "Members: Karambwan"
+
+			case 10:
+				return 1885, 1, "Members can now cook " + "<col=000080>" + "ugthanki kebabs" + "</col>" + ".", "Members: Ugthanki kebab"
+
+			case 11:
+				return 347, 5, "You can now cook " + "<col=000080>" + "herring" + "</col>" + ".", "Herring"
+
+			case 12:
+				return 355, 10, "Members can now cook " + "<col=000080>" + "mackerel" + "</col>" + ".", "Members: Mackerel"
+
+			case 13:
+				return 9980, 11, "Members can now roast " + "<col=000080>" + "bird meat" + "</col>" + " on an iron spit.", "Members: Roasted bird meat"
+
+			case 14:
+				return 3369, 12, "Members can now cook " + "<col=000080>" + "thin snails" + "</col>" + ".", "Members: Thin snail"
+
+			case 15:
+				return 333, 15, "You can now cook " + "<col=000080>" + "trout" + "</col>" + ".", "Trout"
+
+			case 16:
+				return 6297, 16, "Members can now cook " + "<col=000080>" + "spiders" + "</col>" + ".", "Members: Spider"
+
+			case 17:
+				return 7223, 16, "Members can now roast " + "<col=000080>" + "rabbits" + "</col>" + " on a spit.", "Members: Roasted rabbit"
+
+			case 18:
+				return 3371, 17, "Members can now cook " + "<col=000080>" + "lean snails" + "</col>" + ".", "Members: Lean snail"
+
+			case 19:
+				return 339, 18, "Members can now cook " + "<col=000080>" + "cod" + "</col>" + ".", "Members: Cod"
+
+			case 20:
+				return 351, 20, "You can now cook " + "<col=000080>" + "pike" + "</col>" + ".", "Pike"
+
+			case 21:
+				return 9988, 21, "Members can now roast " + "<col=000080>" + "beast meat" + "</col>" + " on a spit.", "Members: Roasted beast meat"
+
+			case 22:
+				return 7521, 21, "Members can now cook " + "<col=000080>" + "giant crab meat" + "</col>" + ".", "Members: Giant crab meat"
+
+			case 23:
+				return 3373, 22, "Members can now cook " + "<col=000080>" + "fat snails" + "</col>" + ".", "Members: Fat snail"
+
+			case 24:
+				return 329, 25, "You can now cook " + "<col=000080>" + "salmon" + "</col>" + ".", "Salmon"
+
+			case 25:
+				return 3381, 28, "Members can now cook " + "<col=000080>" + "slimy eels" + "</col>" + ".", "Members: Slimy eel"
+
+			case 26:
+				return 361, 30, "You can now cook " + "<col=000080>" + "tuna" + "</col>" + ".", "Tuna"
+
+			case 27:
+				return 2878, 30, "Members can now roast " + "<col=000080>" + "chompies" + "</col>" + " on a spit.", "Members: Roasted chompy"
+
+			case 28:
+				return 7530, 31, "Members can now cook " + "<col=000080>" + "fishcakes" + "</col>" + ".", "Members: Fishcake"
+
+			case 29:
+				return 10136, 35, "Members can now cook " + "<col=000080>" + "rainbow fish" + "</col>" + ".", "Members: Rainbow fish"
+
+			case 30:
+				return 5003, 38, "Members can now cook " + "<col=000080>" + "cave eels" + "</col>" + ".", "Members: Cave eel"
+
+			case 31:
+				return 379, 40, "You can now cook " + "<col=000080>" + "lobsters" + "</col>" + ".", "Lobster"
+
+			case 32:
+				return 7568, 41, "Members can now cook " + "<col=000080>" + "jubblies" + "</col>" + ".", "Members: Jubbly"
+
+			case 33:
+				return 365, 43, "Members can now cook " + "<col=000080>" + "bass" + "</col>" + ".", "Members: Bass"
+
+			case 34:
+				return 373, 45, "You can now cook " + "<col=000080>" + "swordfish" + "</col>" + ".", "Swordfish"
+
+			case 35:
+				return 2343, 50, "Members can now cook " + "<col=000080>" + "oomlie wraps" + "</col>" + ".", "Members: Oomlie wrap"
+
+			case 36:
+				return 2149, 53, "Members can now cook " + "<col=000080>" + "lava eels" + "</col>" + ".", "Members: Lava eel"
+
+			case 37:
+				return 7946, 62, "Members can now cook " + "<col=000080>" + "monkfish" + "</col>" + ".", "Members: Monkfish"
+
+			case 38:
+				return 385, 80, "Members can now cook " + "<col=000080>" + "sharks" + "</col>" + ".", "Members: Shark"
+
+			case 39:
+				return 397, 82, "Members can now cook " + "<col=000080>" + "sea turtles" + "</col>" + ".", "Members: Sea turtle"
+
+			case 40:
+				return 15266, 88, "Members can now cook " + "<col=000080>" + "cavefish" + "</col>" + ".", "Members: Cavefish"
+
+			case 41:
+				return 391, 91, "Members can now cook " + "<col=000080>" + "manta rays" + "</col>" + ".", "Members: Manta ray"
+
+			case 42:
+				return 15272, 93, "Members can now cook " + "<col=000080>" + "rocktails" + "</col>" + ".", "Members: Rocktail"
+
+			case 43:
+				return 21521, 95, "Members can now cook " + "<col=000080>" + "tiger sharks" + "</col>" + ".", "Members: Tiger shark"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2309, 1, "You can now bake " + "<col=000080>" + "bread" + "</col>" + ".", "Bread"
+
+			case 1:
+				return 1865, 58, "Members can now bake " + "<col=000080>" + "pitta bread" + "</col>" + ".", "Members: Pitta bread"
+
+			case 2:
+				return 7620, -1, "", "To make bread:"
+
+			case 3:
+				return 7620, -1, "", "1. Pick some wheat and take it to a windmill to make flour."
+
+			case 4:
+				return 7620, -1, "", "2. Use a pot to collect the flour you have made."
+
+			case 5:
+				return 7620, -1, "", "3. Fill a bucket or jug with water from a sink or fountain."
+
+			case 6:
+				return 7620, -1, "", "4. Mix the flour and water to make some bread dough."
+
+			case 7:
+				return 7620, -1, "", "5. Cook the dough by using it with a stove."
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2325, 10, "You can now bake " + "<col=000080>" + "redberry pies" + "</col>" + ".", "Redberry pie"
+
+			case 1:
+				return 2327, 20, "You can now bake " + "<col=000080>" + "meat pies" + "</col>" + ".", "Meat pie"
+
+			case 2:
+				return 7170, 29, "Members can now bake " + "<col=000080>" + "mud pies" + "</col>" + ".", "Members: Mud pie"
+
+			case 3:
+				return 2323, 30, "You can now bake " + "<col=000080>" + "apple pies" + "</col>" + ".", "Apple pie"
+
+			case 4:
+				return 7178, 34, "Members can now bake " + "<col=000080>" + "garden pies" + "</col>" + ".", "Members: Garden pie"
+
+			case 5:
+				return 7188, 47, "Members can now bake " + "<col=000080>" + "fish pies" + "</col>" + ".", "Members: Fish pie"
+
+			case 6:
+				return 7198, 70, "Members can now bake " + "<col=000080>" + "admiral pies" + "</col>" + ".", "Members: Admiral pie"
+
+			case 7:
+				return 7208, 85, "Members can now bake " + "<col=000080>" + "wild pies" + "</col>" + ".", "Members: Wild pie"
+
+			case 8:
+				return 7218, 95, "Members can now bake " + "<col=000080>" + "summer pies" + "</col>" + ".", "Members: Summer pie"
+
+			case 9:
+				return 7620, -1, "", "To make a pie:"
+
+			case 10:
+				return 7620, -1, "", "1. Mix flour and water to make pastry dough."
+
+			case 11:
+				return 7620, -1, "", "2. Place the dough in an empty pie dish."
+
+			case 12:
+				return 7620, -1, "", "3. Use your choice of filling with the empty pie (refer to pie recipe book)."
+
+			case 13:
+				return 7620, -1, "", "4. Cook the pie by using it with a stove."
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2003, 25, "You can now make " + "<col=000080>" + "stews" + "</col>" + ".", "Stew"
+
+			case 1:
+				return 2011, 60, "Members can now make " + "<col=000080>" + "curries" + "</col>" + ".", "Members: Curry"
+
+			case 2:
+				return 7620, -1, "", "To make stew:"
+
+			case 3:
+				return 7620, -1, "", "1. Obtain a bowl and fill it with water from a sink or fountain."
+
+			case 4:
+				return 7620, -1, "", "2. Pick a potato and place it in the bowl."
+
+			case 5:
+				return 7620, -1, "", "3. Cook some meat and place it in the bowl."
+
+			case 6:
+				return 7620, -1, "", "4. Cook the stew by using it with a stove or fire."
+
+			case 7:
+				return 7620, -1, "", "After completing Evil Dave's subquest from Recipe for Disaster, I can add spices to cooked stew."
+
+			case 8:
+				return 7620, -1, "", "To make curry: make uncooked stew as above. Before cooking, add some spices or 3 curry leaves."
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2289, 35, "You can now cook " + "<col=000080>" + "plain pizzas" + "</col>" + ".", "Plain pizza"
+
+			case 1:
+				return 2293, 45, "You can now cook " + "<col=000080>" + "meat pizzas" + "</col>" + ".", "Meat pizza"
+
+			case 2:
+				return 2297, 55, "You can now cook " + "<col=000080>" + "anchovy pizzas" + "</col>" + ".", "Anchovy pizza"
+
+			case 3:
+				return 2301, 65, "Members can now make " + "<col=000080>" + "pineapple pizzas" + "</col>" + ".", "Members: Pineapple pizza"
+
+			case 4:
+				return 7620, -1, "", "To make a pizza:"
+
+			case 5:
+				return 7620, -1, "", "1. Mix flour and water to make a pizza base."
+
+			case 6:
+				return 7620, -1, "", "2. Add a tomato to the pizza."
+
+			case 7:
+				return 7620, -1, "", "3. Add some cheese to the pizza."
+
+			case 8:
+				return 7620, -1, "", "4. Cook the pizza by using it with a stove."
+
+			case 9:
+				return 7620, -1, "", "5. Add your choice of topping to the pizza."
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1891, 40, "You can now bake " + "<col=000080>" + "cakes" + "</col>" + ".", "Cake"
+
+			case 1:
+				return 1897, 50, "You can now bake " + "<col=000080>" + "chocolate cakes" + "</col>" + ".", "Chocolate cake"
+
+			case 2:
+				return 7620, -1, "", "To make a cake:"
+
+			case 3:
+				return 7620, -1, "", "1. Mix flour, eggs and milk together in a cake tin."
+
+			case 4:
+				return 7620, -1, "", "2. Cook the cake by using it with a stove."
+
+			case 5:
+				return 7620, -1, "", "3. Optional: Buy some chocolate and add it to the cake to make a chocolate cake."
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1993, 35, "You can now ferment " + "<col=000080>" + "wine" + "</col>" + ".", "Wine"
+
+			case 1:
+				return 7620, -1, "", "To make wine:"
+
+			case 2:
+				return 7620, -1, "", "1. Fill a jug with water."
+
+			case 3:
+				return 7620, -1, "", "2. Use grapes with the jug of water."
+
+			case 4:
+				return 7620, -1, "", "3. Wait until the wine ferments."
+
+			case 5:
+				return 7620, -1, "", "The wine will ferment while left in your inventory or the bank."
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 4242, 20, "Members can now make " + "<col=000080>" + "nettle tea" + "</col>" + ".", "Nettle tea"
+
+			case 1:
+				return 7620, -1, "", "To make nettle tea:"
+
+			case 2:
+				return 7620, -1, "", "1. Fill a bowl with water."
+
+			case 3:
+				return 7620, -1, "", "2. Put some picked nettles into the bowl of water."
+
+			case 4:
+				return 7620, -1, "", "3. Boil the nettle-water by using it with a range or a fire."
+
+			case 5:
+				return 7620, -1, "", "4. Use the bowl of nettle tea with a cup."
+
+			case 6:
+				return 7620, -1, "", "5. If you take milk, use a bucket of milk on the nettle tea."
+
+
+		}
+		break
+	case 8:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 5763, 14, "Members can now make " + "<col=000080>" + "apple mush" + "</col>" + ".", "Members: Cider" + "<br>" + "4 Apple mush"
+
+			case 1:
+				return 1913, 19, "Members can now brew " + "<col=000080>" + "Dwarven Stout" + "</col>" + ".", "Members: Dwarven Stout" + "<br>" + "4 Hammerstone hops"
+
+			case 2:
+				return 1905, 24, "Members can now brew " + "<col=000080>" + "Asgarnian Ale" + "</col>" + ".", "Members: Asgarnian Ale" + "<br>" + "4 Asgarnian hops"
+
+			case 3:
+				return 1909, 29, "Members can now brew " + "<col=000080>" + "Greenman's Ale" + "</col>" + ".", "Members: Greenman's Ale" + "<br>" + "4 Harralander leaves"
+
+			case 4:
+				return 1907, 34, "Members can now brew " + "<col=000080>" + "Wizard's Mind Bomb" + "</col>" + ".", "Members: Wizard's mind bomb" + "<br>" + "4 Yanillian hops"
+
+			case 5:
+				return 1911, 39, "Members can now brew " + "<col=000080>" + "Dragon Bitter" + "</col>" + ".", "Members: Dragon Bitter" + "<br>" + "4 Krandorian hops"
+
+			case 6:
+				return 2955, 44, "Members can now brew " + "<col=000080>" + "Moonlight Mead" + "</col>" + ".", "Members: Moonlight Mead" + "<br>" + "4 Bittercap mushrooms"
+
+			case 7:
+				return 5751, 49, "Members can now brew " + "<col=000080>" + "Axeman's Folly" + "</col>" + ".", "Members: Axeman's folly" + "<br>" + "1 Oak root"
+
+			case 8:
+				return 5755, 54, "Members can now brew " + "<col=000080>" + "Chef's Delight" + "</col>" + ".", "Members: Chef's Delight" + "<br>" + "4 Portions of chocolate dust"
+
+			case 9:
+				return 5759, 59, "Members can now brew " + "<col=000080>" + "Slayer's Respite" + "</col>" + ".", "Members: Slayer's Respite" + "<br>" + "4 Wildblood hops"
+
+
+		}
+		break
+	case 9:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 6701, 1, "Members can now cook " + "<col=000080>" + "baked potatoes" + "</col>" + ".", "Members: Baked potato"
+
+			case 1:
+				return 7072, 9, "Members can now make " + "<col=000080>" + "spicy sauce" + "</col>" + " toppings.", "Members: Spicy sauce (topping ingredient)"
+
+			case 2:
+				return 7062, 11, "Members can now make " + "<col=000080>" + "chilli con carne" + "</col>" + " toppings.", "Members: Chilli con carne (topping)"
+
+			case 3:
+				return 7078, 13, "Members can now make " + "<col=000080>" + "scrambled egg" + "</col>" + " toppings.", "Members: Scrambled egg (topping ingredient)"
+
+			case 4:
+				return 7064, 23, "Members can now make " + "<col=000080>" + "scrambled egg and tomato" + "</col>" + " toppings.", "Members: Scrambled egg and tomato (topping)"
+
+			case 5:
+				return 5988, 28, "Members can now cook " + "<col=000080>" + "sweetcorn" + "</col>" + ".", "Members: Sweetcorn"
+
+			case 6:
+				return 6703, 39, "Members can now cook " + "<col=000080>" + "baked potatoes with butter" + "</col>" + ".", "Members: Baked potato with butter"
+
+			case 7:
+				return 7054, 41, "Members can now cook " + "<col=000080>" + "baked potatoes with chilli con carne" + "</col>" + ".", "Members: Baked potato with chilli con carne"
+
+			case 8:
+				return 7084, 42, "Members can now make " + "<col=000080>" + "fried onion" + "</col>" + " toppings.", "Members: Fried onion (topping ingredient)"
+
+			case 9:
+				return 7082, 46, "Members can now make " + "<col=000080>" + "fried mushroom" + "</col>" + " toppings.", "Members: Fried mushroom (topping ingredient)"
+
+			case 10:
+				return 6705, 47, "Members can now cook " + "<col=000080>" + "baked potatoes with butter and cheese" + "</col>" + ".", "Members: Baked potato with butter and cheese"
+
+			case 11:
+				return 7056, 51, "Members can now cook " + "<col=000080>" + "baked potatoes with egg and tomato" + "</col>" + ".", "Members: Baked potato with egg and tomato"
+
+			case 12:
+				return 7066, 57, "Members can now make " + "<col=000080>" + "fried mushroom and onion" + "</col>" + " toppings.", "Members: Fried mushroom and onion (topping)"
+
+			case 13:
+				return 7058, 64, "Members can now cook " + "<col=000080>" + "baked potatoes with mushroom and onion" + "</col>" + ".", "Members: Baked potato with mushroom and onion"
+
+			case 14:
+				return 7068, 67, "Members can now make " + "<col=000080>" + "tuna and sweetcorn" + "</col>" + " toppings.", "Members: Tuna and sweetcorn (topping)"
+
+			case 15:
+				return 7060, 68, "Members can now cook " + "<col=000080>" + "baked potatoes with tuna and sweetcorn" + "</col>" + ".", "Members: Baked potato with tuna and sweetcorn"
+
+			case 16:
+				return 7620, -1, "", "To make baked potatoes with toppings:"
+
+			case 17:
+				return 7620, -1, "", "1. Bake the potato on a range."
+
+			case 18:
+				return 7620, -1, "", "2. Add some butter."
+
+			case 19:
+				return 7620, -1, "", "3. If needed, combine topping ingredients by chopping them into a bowl."
+
+			case 20:
+				return 7620, -1, "", "Ingredients for toppings:"
+
+			case 21:
+				return 7620, -1, "", "1. Chilli con carne: meat and spicy sauce (made from garlic and gnome spice)"
+
+			case 22:
+				return 7620, -1, "", "2. Egg and tomato: scrambled egg and tomato"
+
+			case 23:
+				return 7620, -1, "", "3. Mushroom and onion: fried bittercap mushroom and fried onion"
+
+			case 24:
+				return 7620, -1, "", "4. Tuna and sweetcorn: tuna and cooked sweetcorn"
+
+
+		}
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1977, 4, "Members can now make " + "<col=000080>" + "chocolate milk" + "</col>" + ".", "Members: Chocolate milk"
+
+			case 1:
+				return 2130, 21, "Members can now churn " + "<col=000080>" + "cream" + "</col>" + ".", "Members: Cream"
+
+			case 2:
+				return 6697, 38, "Members can now churn " + "<col=000080>" + "butter" + "</col>" + ".", "Members: Butter"
+
+			case 3:
+				return 1985, 48, "Members can now churn " + "<col=000080>" + "cheese" + "</col>" + ".", "Members: Cheese"
+
+			case 4:
+				return 7620, -1, " ", "To make churned dairy products:"
+
+			case 5:
+				return 7620, -1, " ", "1. Get a bucket of milk, a pot of cream or a pot of butter."
+
+			case 6:
+				return 7620, -1, " ", "2. Use the milk, cream or butter in a churn."
+
+			case 7:
+				return 7620, -1, " ", "3. Milk can be churned into cream, then into butter, then into cheese."
+
+
+		}
+		break
+	case 11:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2084, 6, "Members can now mix " + "<col=000080>" + "Fruit Blasts" + "</col>" + ".", "Members: Fruit Blast"
+
+			case 1:
+				return 2048, 8, "Members can now mix " + "<col=000080>" + "pineapple punch" + "</col>" + ".", "Members: Pineapple punch"
+
+			case 2:
+				return 2217, 10, "Members can now cook " + "<col=000080>" + "toad crunchies" + "</col>" + ".", "Members: Toad crunchies"
+
+			case 3:
+				return 2213, 12, "Members can now cook " + "<col=000080>" + "spicy crunchies" + "</col>" + ".", "Members: Spicy crunchies"
+
+			case 4:
+				return 2205, 14, "Members can now cook " + "<col=000080>" + "worm crunchies" + "</col>" + ".", "Members: Worm crunchies"
+
+			case 5:
+				return 2209, 16, "Members can now cook " + "<col=000080>" + "chocolate chip crunchies" + "</col>" + ".", "Members: Chocolate chip crunchies"
+
+			case 6:
+				return 2054, 18, "Members can now mix " + "<col=000080>" + "Wizard Blizzards" + "</col>" + ".", "Members: Wizard Blizzard"
+
+			case 7:
+				return 2080, 20, "Members can now mix " + "<col=000080>" + "Short Green Guys" + "</col>" + ".", "Members: Short Green Guy (SGG)"
+
+			case 8:
+				return 2277, 25, "Members can now cook " + "<col=000080>" + "fruit battas" + "</col>" + ".", "Members: Fruit batta"
+
+			case 9:
+				return 2255, 26, "Members can now cook " + "<col=000080>" + "toad battas" + "</col>" + ".", "Members: Toad batta"
+
+			case 10:
+				return 2253, 27, "Members can now cook " + "<col=000080>" + "worm battas" + "</col>" + ".", "Members: Worm batta"
+
+			case 11:
+				return 2281, 28, "Members can now cook " + "<col=000080>" + "vegetable battas" + "</col>" + ".", "Members: Vegetable batta"
+
+			case 12:
+				return 2259, 29, "Members can now cook " + "<col=000080>" + "cheese and tomato battas" + "</col>" + ".", "Members: Cheese and tomato batta"
+
+			case 13:
+				return 2191, 30, "Members can now cook " + "<col=000080>" + "worm holes" + "</col>" + ".", "Members: Worm hole"
+
+			case 14:
+				return 2092, 32, "Members can now mix " + "<col=000080>" + "Drunk Dragons" + "</col>" + ".", "Members: Drunk Dragon"
+
+			case 15:
+				return 2074, 33, "Members can now mix " + "<col=000080>" + "Chocolate Saturdays" + "</col>" + ".", "Members: Chocolate Saturday"
+
+			case 16:
+				return 2195, 35, "Members can now cook " + "<col=000080>" + "vegetable balls" + "</col>" + ".", "Members: Vegetable ball"
+
+			case 17:
+				return 2064, 37, "Members can now mix " + "<col=000080>" + "Blurberry Specials" + "</col>" + ".", "Members: Blurberry Special"
+
+			case 18:
+				return 2187, 40, "Members can now cook " + "<col=000080>" + "tangled toads' legs" + "</col>" + ".", "Members: Tangled toads' legs"
+
+			case 19:
+				return 2185, 42, "Members can now cook " + "<col=000080>" + "chocolate bombs" + "</col>" + ".", "Members: Chocolate bomb"
+
+
+		}
+		break
+	case 12:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Cooking.", "Members: Starved ancient effigies"
+
+			case 1:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Cooking." + "</col>" + ".", "Members: Nourished ancient effigies"
+
+			case 2:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Cooking." + "</col>" + ".", "Members: Sated ancient effigies"
+
+			case 3:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Cooking." + "</col>" + ".", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 13:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14162, 1, "Members can now cook " + "<col=000080>" + "class 1 food" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 food"
+
+			case 1:
+				return 14164, 20, "Members can now cook " + "<col=000080>" + "class 2 food" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 food"
+
+			case 2:
+				return 14166, 40, "Members can now cook " + "<col=000080>" + "class 3 food" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 food"
+
+			case 3:
+				return 14168, 60, "Members can now cook " + "<col=000080>" + "class 4 food" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 food"
+
+			case 4:
+				return 14170, 80, "Members can now cook " + "<col=000080>" + "class 5 food" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 food"
+
+
+		}
+		break
+	case 14:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Cooking level increases, you will be able to attempt higher-level cooking tasks within Daemonheim. You will also be more likely to succeed when attempting cooking tasks within Daemonheim."
+
+			case 1:
+				return 18093, 1, "Members can now cook " + "<col=000080>" + "cave potatoes" + "</col>" + " within Daemonheim.", "Members: Cave potato"
+
+			case 2:
+				return 18159, 1, "You can now cook " + "<col=000080>" + "heim crabs" + "</col>" + " within Daemonheim.", "Heim crab (Tier 1)"
+
+			case 3:
+				return 18099, 3, "Members can now cook " + "<col=000080>" + "heim crab potatoes" + "</col>" + " within Daemonheim.", "Members: Heim crab potato (Tier 1)"
+
+			case 4:
+				return 18119, 6, "Members can now cook " + "<col=000080>" + "heim crab & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Heim crab & gissel potato (Tier 1)"
+
+			case 5:
+				return 18139, 9, "Members can now cook " + "<col=000080>" + "heim crab & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Heim crab & edicap potato (Tier 1)"
+
+			case 6:
+				return 18161, 10, "You can now cook " + "<col=000080>" + "red-eyes" + "</col>" + " within Daemonheim.", "Red-eye (Tier 2)"
+
+			case 7:
+				return 18101, 13, "Members can now cook " + "<col=000080>" + "red-eye potatoes" + "</col>" + " within Daemonheim.", "Members: Red-eye potato (Tier 2)"
+
+			case 8:
+				return 18121, 16, "Members can now cook " + "<col=000080>" + "red-eye & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Red-eye & gissel potato (Tier 2)"
+
+			case 9:
+				return 18141, 19, "Members can now cook " + "<col=000080>" + "red-eye & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Red-eye & edicap potato (Tier 2)"
+
+			case 10:
+				return 18163, 20, "You can now cook " + "<col=000080>" + "dusk eels" + "</col>" + " within Daemonheim.", "Dusk eel (Tier 3)"
+
+			case 11:
+				return 18103, 23, "Members can now cook " + "<col=000080>" + "dusk eel potatoes" + "</col>" + " within Daemonheim.", "Members: Dusk eel potato (Tier 3)"
+
+			case 12:
+				return 18123, 26, "Members can now cook " + "<col=000080>" + "dusk eel & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Dusk eel & gissel potato (Tier 3)"
+
+			case 13:
+				return 18143, 29, "Members can now cook " + "<col=000080>" + "dusk eel & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Dusk eel & edicap potato (Tier 3)"
+
+			case 14:
+				return 18165, 30, "You can now cook " + "<col=000080>" + "giant flatfish" + "</col>" + " within Daemonheim.", "Giant flatfish (Tier 4)"
+
+			case 15:
+				return 18105, 33, "Members can now cook " + "<col=000080>" + "flatfish potatoes" + "</col>" + " within Daemonheim.", "Members: Flatfish potato (Tier 4)"
+
+			case 16:
+				return 18125, 36, "Members can now cook " + "<col=000080>" + "flatfish & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Flatfish & gissel potato (Tier 4)"
+
+			case 17:
+				return 18145, 39, "Members can now cook " + "<col=000080>" + "flatfish & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Flatfish & edicap potato (Tier 4)"
+
+			case 18:
+				return 18167, 40, "You can now cook " + "<col=000080>" + "short-finned eels" + "</col>" + " within Daemonheim.", "Short-finned eel (Tier 5)"
+
+			case 19:
+				return 18107, 43, "Members can now cook " + "<col=000080>" + "short-fin potatoes" + "</col>" + " within Daemonheim.", "Members: Short-fin potato (Tier 5)"
+
+			case 20:
+				return 18127, 46, "Members can now cook " + "<col=000080>" + "short-fin & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Short-fin & gissel potato (Tier 5)"
+
+			case 21:
+				return 18147, 49, "Members can now cook " + "<col=000080>" + "short-fin & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Short-fin & edicap potato (Tier 5)"
+
+			case 22:
+				return 18169, 50, "Members can now cook " + "<col=000080>" + "web snippers" + "</col>" + " within Daemonheim.", "Members: Web snipper (Tier 6)"
+
+			case 23:
+				return 18109, 53, "Members can now cook " + "<col=000080>" + "spinner potatoes" + "</col>" + " within Daemonheim.", "Members: Snipper potato (Tier 6)"
+
+			case 24:
+				return 18129, 56, "Members can now cook " + "<col=000080>" + "snipper & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Snipper & gissel potato (Tier 6)"
+
+			case 25:
+				return 18149, 59, "Members can now cook " + "<col=000080>" + "snipper & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Snipper & edicap potato (Tier 6)"
+
+			case 26:
+				return 18171, 60, "Members can now cook " + "<col=000080>" + "bouldabass" + "</col>" + " within Daemonheim.", "Members: Bouldabass (Tier 7)"
+
+			case 27:
+				return 18111, 63, "Members can now cook " + "<col=000080>" + "bouldabass potatoes" + "</col>" + " within Daemonheim.", "Members: Bouldabass potato (Tier 7)"
+
+			case 28:
+				return 18131, 66, "Members can now cook " + "<col=000080>" + "bouldabass & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Bouldabass & gissel potato (Tier 7)"
+
+			case 29:
+				return 18151, 69, "Members can now cook " + "<col=000080>" + "bouldabass & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Bouldabass & edicap potato (Tier 7)"
+
+			case 30:
+				return 18173, 70, "Members can now cook " + "<col=000080>" + "salve eels" + "</col>" + " within Daemonheim.", "Members: Salve eel (Tier 8)"
+
+			case 31:
+				return 18113, 73, "Members can now cook " + "<col=000080>" + "salve eel potatoes" + "</col>" + " within Daemonheim.", "Members: Salve eel potato (Tier 8)"
+
+			case 32:
+				return 18133, 76, "Members can now cook " + "<col=000080>" + "salve eel & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Salve eel & gissel potato (Tier 8)"
+
+			case 33:
+				return 18153, 79, "Members can now cook " + "<col=000080>" + "salve eel & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Salve eel & edicap potato (Tier 8)"
+
+			case 34:
+				return 18175, 80, "Members can now cook " + "<col=000080>" + "blue crabs" + "</col>" + " within Daemonheim.", "Members: Blue crab (Tier 9)"
+
+			case 35:
+				return 18115, 83, "Members can now cook " + "<col=000080>" + "blue crab potatoes" + "</col>" + " within Daemonheim.", "Members: Blue crab potato (Tier 9)"
+
+			case 36:
+				return 18135, 86, "Members can now cook " + "<col=000080>" + "blue crab & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Blue crab & gissel potato (Tier 9)"
+
+			case 37:
+				return 18155, 89, "Members can now cook " + "<col=000080>" + "blue crab & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Blue crab & edicap potato (Tier 9)"
+
+			case 38:
+				return 18177, 90, "Members can now cook " + "<col=000080>" + "cave morays" + "</col>" + " within Daemonheim.", "Members: Cave moray (Tier 10)"
+
+			case 39:
+				return 18117, 93, "Members can now cook " + "<col=000080>" + "moray potatoes" + "</col>" + " within Daemonheim.", "Members: Moray potato (Tier 10)"
+
+			case 40:
+				return 18137, 96, "Members can now cook " + "<col=000080>" + "moray & gissel potatoes" + "</col>" + " within Daemonheim.", "Members: Moray & gissel potato (Tier 10)"
+
+			case 41:
+				return 18157, 99, "Members can now cook " + "<col=000080>" + "moray & edicap potatoes" + "</col>" + " within Daemonheim.", "Members: Moray & edicap potato (Tier 10)"
+
+
+		}
+		break
+	case 15:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1949, 32, "You are now qualified to enter the prestigious " + "<col=000080>" + "Chefs' Guild" + "</col>" + ".", "Chefs' Guild"
+
+			case 1:
+				return 9801, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Cooking" + "<col=000080>" + ". Members can visit the " + "<col=800000>" + "head chef" + "<col=000080>" + " at the " + "<col=800000>" + "Cooking Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Cooking" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

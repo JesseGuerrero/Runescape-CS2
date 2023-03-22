@@ -1,0 +1,9 @@
+void script_1277() {
+	int int0;
+	int0 = 1;
+	while (int0 <= 23) {
+		script_1278(int0);
+		int0 = int0 + 1;
+	}
+	return;
+}

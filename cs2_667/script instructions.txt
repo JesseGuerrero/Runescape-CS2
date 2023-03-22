@@ -1,0 +1,1715 @@
+150 createChild void Widget parent int type int index
+
+151 deleteChild void
+
+152 clearChildren void Widget parent
+
+200 setChild boolean Widget parent int index
+
+201 setChild boolean Widget parent
+
+202 sendChildFront void Widget arg0
+
+203 sendChildBack void Widget arg0
+
+204 sendChildFront void
+
+205 sendChildBack void
+
+403 setBaseIdkit void int arg0 Identikit arg1
+
+404 setBaseColor void int arg0 int arg1
+
+410 setFemale void boolean arg0
+
+411 setBaseItem void int arg0 int arg1
+
+1000 setPosition void int x int y int xdrawoffset2 int ydrawoffset2
+
+1001 setSize void int w int h int woffset2 int hoffset2
+
+1003 setHidden void boolean hide
+
+1004 setAspect void int arg0 int arg1
+
+1005 setNoClickThrough void int arg0
+
+1100 setScrollPos void int arg0 int arg1
+
+1101 setRGB void Color rgb
+
+1102 setFilled void boolean filled
+
+1103 setTrans void int arg0
+
+1104 setLineWid void int arg0
+
+1105 setSprite void Sprite sprite
+
+1106 set2DAngle void int arg0
+
+1107 setSpriteTiling void boolean bool
+
+1108 setModel void Model model
+
+1109 set3DRotation void int arg0 int arg1 int rotateX int rotateY int arg4 int distance
+
+1110 setAnimation void Animation anim
+
+1111 setModelOrthog void int arg0
+
+1112 setText void string txt
+
+1113 setFont void Sprite font
+
+1114 setTextAlignment void int textAlignment int arg1 int arg2
+
+1115 setTextAntiMacro void boolean bool
+
+1116 setOutlineThickness void int thickness
+
+1117 setShadowColor void Color rgb
+
+1118 setVFlip void boolean vflip
+
+1119 setHFlip void boolean hflip
+
+1120 setScrollMax void int maxh int maxv
+
+1122 setAlpha void boolean bool
+
+1123 set3DViewDistance void int distance
+
+1124 setLineDirection void int arg0
+
+1125 setArea3D void int a3dx int a3dy
+
+1126 setMaxLines void int arg0
+
+1127 setAttr void int key int value
+
+1128 setAttr void int key string value
+
+1129 setVorbisRelatedNeverCalled void int vorbisId
+
+1130 setVorbisRelatedNeverCalled void int vorbisId
+
+1131 replaceColors void int arg0 int arg1 int arg2
+
+1132 replaceTextures void int arg0 int arg1 int arg2
+
+1133 setFontMono void int arg0
+
+1134 setIntegerAttrAGAIN void int key int value
+
+1135 bindMouseToSpriteShape void boolean bool
+
+1200 setItem void Item id int amt
+
+1201 setNpcHead void NpcDef npcid
+
+1203 setPlayerHead void int playerid
+
+1204 setPlayerFull void int playerid
+
+1205 setItemNoNum void Item id int amt
+
+1206 cs2method1206UNUSED void int arg0 int arg1 int arg2 int arg3
+
+1207 cs2method1207UNUSED void int arg0 int arg1
+
+1208 setItemWearCol void Item id int amt
+
+1209 setItemWearColNoNum void Item id int amt
+
+1210 setMediaType8or9 void int id int value int typebool int arg3
+
+1212 setItemAlwaysNum void Item id int amt
+
+1213 setItemWearColAlwaysNum void Item id int amt
+
+1300 setContextMenuOption void int index string text
+
+1301 setDraggable void Widget arg0 int arg1
+
+1302 setDragRenderBehaviour void int arg0
+
+1303 setDragDeadZone void int arg0
+
+1304 setDragDeadTime void int arg0
+
+1305 setOptionBase void string arg0
+
+1306 setTargetVerb void string arg0
+
+1308 cs2method1308 void int arg0 int arg1
+
+1309 cs2method1309 void int arg0 int arg1
+
+1310 cs2method1310UNUSED void string arg0
+
+1311 cs2method1311 void int arg0
+
+1312 cs2method1312UNUSED void int arg0 int arg1 int arg2
+
+1313 cs2method1313UNUSED void int arg0 int arg1
+
+1314 cs2method1314UNUSED void int arg0
+
+1400 setScriptCallOnMousePressed void ?? dynamic
+
+1401 setScriptCallOnMouseDraggedOver void ?? dynamic
+
+1402 setScriptCallOnMouseReleased void ?? dynamic
+
+1403 setScriptCallOnMouseEntered void ?? dynamic
+
+1404 setScriptCallOnMouseExit void ?? dynamic
+
+1405 setScriptCallOnMouseDragged void ?? dynamic
+
+1406 setScriptCallOnUseWith void ?? dynamic
+
+1407 setScriptCallOnConfigChange void ?? dynamic
+
+1408 setScriptCallOnGameloop void ?? dynamic
+
+1409 setScriptCallOnClickContextMenu void ?? dynamic
+
+1410 setScriptCallOnMouseDragReleased void ?? dynamic
+
+1411 setScriptCallOnHoldingMouse void ?? dynamic
+
+1412 setScriptCallOnMouseOver void ?? dynamic
+
+1414 setScriptCallOnItemContainerUpdate void ?? dynamic
+
+1415 setScriptCallOnSkillChange void ?? dynamic
+
+1416 setScriptCallOnUse void ?? dynamic
+
+1417 setScriptCallOnMouseScroll void ?? dynamic
+
+1418 setScriptCallOnMessage void ?? dynamic
+
+1419 setScriptCallOnKeyPress void ?? dynamic
+
+1420 setScriptCallOnFriendListChange void ?? dynamic
+
+1421 setScriptCallOnClanListChange void ?? dynamic
+
+1422 setScriptCallOnGeneralDataChange void ?? dynamic
+
+1423 setScriptCallOnDialogAbort void ?? dynamic
+
+1424 setScriptCallOnAnyWidgetOpenAndClose void ?? dynamic
+
+1425 setScriptCallOnGrandExchangeUpdate void ?? dynamic
+
+1426 setScriptCallOnMinimapRelatedSetting3 void ?? dynamic
+
+1427 setScriptCallOnWidgetResize void ?? dynamic
+
+1428 setScriptCallOnGlobalConfigChange void ?? dynamic
+
+1429 setScriptCallOnGlobalStringChange void ?? dynamic
+
+1430 setScriptCallOnItemOnItem void ?? dynamic
+
+1431 setScriptCallOnClanChatSettingsStuff void ?? dynamic
+
+1432 setScriptCallOnClanChatDeltaStuff void ?? dynamic
+
+1433 setScriptCallOnCitadelConfigChange void ?? dynamic
+
+1499 removeAllEventListeners void
+
+2400 setScriptCallOnMousePressed void ?? dynamic Widget widget
+
+2401 setScriptCallOnMouseDraggedOver void ?? dynamic Widget widget
+
+2402 setScriptCallOnMouseReleased void ?? dynamic Widget widget
+
+2403 setScriptCallOnMouseEntered void ?? dynamic Widget widget
+
+2404 setScriptCallOnMouseExit void ?? dynamic Widget widget
+
+2405 setScriptCallOnMouseDragged void ?? dynamic Widget widget
+
+2406 setScriptCallOnUseWith void ?? dynamic Widget widget
+
+2407 setScriptCallOnConfigChange void ?? dynamic Widget widget
+
+2408 setScriptCallOnGameloop void ?? dynamic Widget widget
+
+2409 setScriptCallOnClickContextMenu void ?? dynamic Widget widget
+
+2410 setScriptCallOnMouseDragReleased void ?? dynamic Widget widget
+
+2411 setScriptCallOnHoldingMouse void ?? dynamic Widget widget
+
+2412 setScriptCallOnMouseOver void ?? dynamic Widget widget
+
+2414 setScriptCallOnItemContainerUpdate void ?? dynamic Widget widget
+
+2415 setScriptCallOnSkillChange void ?? dynamic Widget widget
+
+2416 setScriptCallOnUse void ?? dynamic Widget widget
+
+2417 setScriptCallOnMouseScroll void ?? dynamic Widget widget
+
+2418 setScriptCallOnMessage void ?? dynamic Widget widget
+
+2419 setScriptCallOnKeyPress void ?? dynamic Widget widget
+
+2420 setScriptCallOnFriendListChange void ?? dynamic Widget widget
+
+2421 setScriptCallOnClanListChange void ?? dynamic Widget widget
+
+2422 setScriptCallOnGeneralDataChange void ?? dynamic Widget widget
+
+2423 setScriptCallOnDialogAbort void ?? dynamic Widget widget
+
+2424 setScriptCallOnAnyWidgetOpenAndClose void ?? dynamic Widget widget
+
+2425 setScriptCallOnGrandExchangeUpdate void ?? dynamic Widget widget
+
+2426 setScriptCallOnMinimapRelatedSetting3 void ?? dynamic Widget widget
+
+2427 setScriptCallOnWidgetResize void ?? dynamic Widget widget
+
+2428 setScriptCallOnGlobalConfigChange void ?? dynamic Widget widget
+
+2429 setScriptCallOnGlobalStringChange void ?? dynamic Widget widget
+
+2430 setScriptCallOnItemOnItem void ?? dynamic Widget widget
+
+2431 setScriptCallOnClanChatSettingsStuff void ?? dynamic Widget widget
+
+2432 setScriptCallOnClanChatDeltaStuff void ?? dynamic Widget widget
+
+2433 setScriptCallOnCitadelConfigChange void ?? dynamic Widget widget
+
+2499 removeAllEventListeners void Widget widget
+
+1500 getX int
+
+1501 getY int
+
+1502 getWidth int
+
+1503 getHeight int
+
+1504 isHidden boolean
+
+1505 getLayer Widget
+
+1506 getParentLayer Widget
+
+1507 getRGB Color
+
+1600 getScrollX int
+
+1601 getScrollY int
+
+1602 getText string
+
+1603 getScrollMaxH int
+
+1604 getScrollMaxV int
+
+1605 get3DDistance int
+
+1606 getRotateX int
+
+1607 getRotateZ int
+
+1608 getRotateY int
+
+1609 getShadeColor int
+
+1610 getModelXOffset int
+
+1611 getModelYOffset int
+
+1612 getSpriteId Sprite
+
+1613 getAttribute ?? int attr
+
+1614 getModelId Model
+
+1618 getFont Sprite
+
+1700 getItemId Item
+
+1701 getItemAmt int
+
+1702 getChildId int
+
+1800 getTargetMask int
+
+1801 getOption string int index
+
+1802 getOptionBase string
+
+2000 setPosition void int x int y int xdrawoffset2 int ydrawoffset2 Widget widget
+
+2001 setSize void int w int h int woffset2 int hoffset2 Widget widget
+
+2003 setIsHidden void boolean boolHidden Widget widget
+
+2004 setAspect void int arg0 int arg1 Widget widget
+
+2005 setNoClickThrough void int arg0 Widget widget
+
+2100 setScrollPos void int arg0 int arg1 Widget widget
+
+2101 setRGB void Color rgb Widget widget
+
+2102 setFilled void boolean filled Widget widget
+
+2103 setTrans void int arg0 Widget widget
+
+2104 setLineWid void int arg0 Widget widget
+
+2105 setSprite void Sprite sprite Widget widget
+
+2106 set2DAngle void int arg0 Widget widget
+
+2107 setSpriteTiling void boolean bool Widget widget
+
+2108 setModel void Model model Widget widget
+
+2109 set3DRotation void int arg0 int arg1 int rotateX int rotateY int arg4 int distance Widget widget
+
+2110 setAnimation void Animation anim Widget widget
+
+2111 setModelOrthog void int arg0 Widget widget
+
+2112 setText void string txt Widget widget
+
+2113 setFont void Sprite font Widget widget
+
+2114 setTextAlignment void int textAlignment int arg1 int arg2 Widget widget
+
+2115 setTextAntiMacro void boolean bool Widget widget
+
+2116 setOutlineThickness void int thickness Widget widget
+
+2117 setShadowColor void Color rgb Widget widget
+
+2118 setVFlip void boolean vflip Widget widget
+
+2119 setHFlip void boolean hflip Widget widget
+
+2120 setScrollMax void int maxh int maxv Widget widget
+
+2122 setAlpha void boolean bool Widget widget
+
+2123 set3DViewDistance void int distance Widget widget
+
+2124 setLineDirection void int arg0 Widget widget
+
+2125 setArea3D void int a3dx int a3dy Widget widget
+
+2126 setMaxLines void int arg0 Widget widget
+
+2127 setAttr void int key int value Widget widget
+
+2128 setAttr void int key string txt Widget widget
+
+2129 setVorbisRelatedNeverCalled void int arg0 Widget widget
+
+2130 setVorbisRelatedNeverCalled void int arg0 Widget widget
+
+2131 replaceColors void int arg0 int arg1 int arg2 Widget widget
+
+2132 replaceTextures void int arg0 int arg1 int arg2 Widget widget
+
+2133 setFontMono void int arg0 Widget widget
+
+2134 setIntegerAttrAGAIN void int key int value Widget widget
+
+2135 bindMouseToSpriteShape void boolean bool Widget widget
+
+2200 setItem void Item id int amt Widget widget
+
+2201 setNpcHead void NpcDef arg0 Widget widget
+
+2203 setPlayerHead void int arg0 Widget widget
+
+2204 setPlayerFull void int arg0 Widget widget
+
+2205 setItemOnWidgetMethod2205 void Item id int amt Widget widget
+
+2206 cs2method2206UNUSED void int arg0 int arg1 int arg2 int arg3 Widget widget
+
+2207 cs2method2207UNUSED void int arg0 int arg1 Widget widget
+
+2208 setItemOnWidgetMethod2208 void Item id int amt Widget widget
+
+2209 setItemOnWidgetMethod2209 void Item id int amt Widget widget
+
+2210 setMediaType8or9 void int id int value int typebool int arg3 Widget widget
+
+2212 setItemNum void Item id int amt Widget widget
+
+2213 setItemWearColNum void Item id int amt Widget widget
+
+2300 setContextMenuOption void int index string text Widget widget
+
+2301 setDraggable void Widget arg0 int arg1 Widget widget
+
+2302 setDragRenderBehaviour void int arg0 Widget widget
+
+2303 setDragDeadZone void int arg0 Widget widget
+
+2304 setDragDeadTime void int arg0 Widget widget
+
+2305 setOptionBase void string arg1 Widget widget
+
+2306 setTargetVerb void string arg1 Widget widget
+
+2308 setTargetCursor void Spell arg0 Spell arg1 Widget widget
+
+2309 cs2method2309 void int arg0 int arg1 Widget widget
+
+2310 cs2method2310 void string arg1 Widget widget
+
+2311 cs2method2311UNUSED void int arg0 Widget widget
+
+2312 cs2method2312UNUSED void int arg0 int arg1 int arg2 Widget widget
+
+2313 cs2method2313UNUSED void int arg0 int arg1 Widget widget
+
+2314 cs2method2314 void int arg0 Widget widget
+
+2500 getX int Widget widget
+
+2501 getY int Widget widget
+
+2502 getWidth int Widget widget
+
+2503 getHeight int Widget widget
+
+2504 isHidden boolean Widget widget
+
+2505 getLayer Widget Widget widget
+
+2506 getParentLayer Widget Widget widget
+
+2507 getRGB Color Widget widget
+
+2600 getScrollX int Widget widget
+
+2601 getScrollY int Widget widget
+
+2602 getText string Widget widget
+
+2603 getScrollMaxH int Widget widget
+
+2604 getScrollMaxV int Widget widget
+
+2605 get3DDistance int Widget widget
+
+2606 getRotateX int Widget widget
+
+2607 getRotateZ int Widget widget
+
+2608 getRotateY int Widget widget
+
+2609 getShadeColor int Widget widget
+
+2610 getModelXOffset int Widget widget
+
+2611 getModelYOffset int Widget widget
+
+2612 getSpriteId Sprite Widget widget
+
+2613 get2DAngle int Widget widget
+
+2614 getModelId Model Widget widget
+
+2617 getFont Sprite Widget widget
+
+2700 getItemId Item Widget widget
+
+2701 getItemAmt int Widget widget
+
+2702 hasChild boolean Widget widget
+
+2703 nextChild int Widget widget
+
+2704 hasChildModal boolean Widget widget int parent
+
+2705 hasChildOverlay boolean Widget widget int parent
+
+2800 getTargetMask int Widget widget
+
+2801 getOption string int index Widget widget
+
+2802 getOptionBase string Widget widget
+
+2927 cs2method2927UNUSED void int arg0
+
+3100 msg void string msg
+
+3101 animateSelf void int animId int speed
+
+3104 sendIntegerInput void string input
+
+3105 sendNameInput void string input
+
+3106 sendStringInput void string input
+
+3107 clickPlayerOption void int option string playerName
+
+3108 cs2method3108UNUSED void int arg0 int arg1 int arg2
+
+3109 cs2method3109 void int arg0 int arg1
+
+3110 sendUnknownPacketMethod3110 void int arg0
+
+3111 open void Widget parent int interfaceId
+
+3112 close void Widget parent
+
+3113 widgetOnPlayer void string playerName
+
+3114 message void int channel int arg1 string msg
+
+3115 cs2method3115 void int arg0 int arg1 int arg2 int arg3 int arg4 int arg5 int arg6 int arg7 int arg8 int arg9 int arg10
+
+3116 sendColorPickerPacket void int color
+
+3117 sendUnknownPacketMethod3117 void string arg0
+
+3200 playSoundEffect void int id int arg1 int delay
+
+3201 playMusic void int id
+
+3202 playMusicEffect void int id int arg1
+
+3203 playSoundEffect void int id int arg1 int delay int volume
+
+3204 playMusic void int id int arg1 int arg2
+
+3205 playMusicEffect void int id int arg1 int volume
+
+3206 playSoundEffect2False void SoundEff id int duration int delay int volume
+
+3207 playSoundEffect2True void SoundEff id int duration int delay int volume
+
+3208 playSoundEffect void int id int arg1 int delay int volume int speed
+
+3209 playSoundEffect2False void SoundEff id int duration int delay int volume int speed
+
+3300 getClientCycle int
+
+3301 getItemIdInSlot Item Container container int slot
+
+3302 getItemAmtInSlot int Container container int slot
+
+3303 getItemAmtInContainer int Container container Item itemId
+
+3304 getItemContainerLength int Container container
+
+3305 getSkillCurrentLvl int Skill skillId
+
+3306 getSkillActualLvl int Skill skillId
+
+3307 getSkillXp int Skill skillId
+
+3308 getMyLocation Location
+
+3309 x int Location poshash
+
+3310 z int Location poshash
+
+3311 y int Location poshash
+
+3312 isMember boolean
+
+3313 getItemIdInInpsectingSlot Item Container container int slot
+
+3314 getItemAmtInInspectingSlot int Container container int slot
+
+3315 getItemAmtInInspectingContainer int Container container Item item
+
+3316 getClientRights int
+
+3317 getSystemUpdateTimer int
+
+3318 getWorldId int
+
+3321 getRunEnergy int
+
+3322 getPlayerWeight int
+
+3323 hasMoreThen5Blackmarks boolean
+
+3324 getBlackmarks int
+
+3325 isSiteSettingsMembers boolean
+
+3326 getMyCombat int
+
+3327 IsFemale boolean
+
+3329 mapQuickchat boolean
+
+3330 getContainerFreeSlots int Container container
+
+3331 getContainerIntAttrCountIgnoreStacks int Container container int nodeid
+
+3332 getContainerIntAttrCount int Container container int nodeid
+
+3333 getLoginTypeRelatedMethod3333 int
+
+3335 getLanguage int
+
+3336 moveCoord Location Location poshash int dx int dz int dy
+
+3337 getAffid int
+
+3338 getBenchmarkToolkit int
+
+3339 getZeroUNUSED int
+
+3340 hasWindowFocus boolean
+
+3341 isFromBilling boolean
+
+3342 getLastMouseY int
+
+3343 getLastMouseX int
+
+3344 unusedMethod3344 string
+
+3345 unusedMethod3345 string
+
+3346 unusedMethod3346 int
+
+3347 unusedMethod3347 int
+
+3349 unusedMethod3349 int
+
+3350 unusedMethod3350 int string arg0
+
+3351 getPressedMouseButtons {int,int,int}
+
+3400 datamap string DataMap definition int key
+
+3408 datamap ?? char keyType char valueType DataMap definition int key
+
+3409 datamapContainsValue boolean char valueType DataMap definition int value
+
+3410 datamapContainsValue boolean DataMap definition string value
+
+3411 datamapSize int DataMap definition
+
+3412 datamapContainsDuplicates int char valueType DataMap definition int value
+
+3413 datamapContainsDuplicates int DataMap definition string value
+
+3414 datamapLookupKey int char valueType char keyType DataMap definition int value int keycount
+
+3415 datamapLookupKey int char keyType DataMap definition int keycount string value
+
+3600 getFriendCount int
+
+3601 getFriendName {string,string} int listIndex
+
+3602 getFriendWorld int int listIndex
+
+3603 getFriendRank int int listIndex
+
+3604 cs2method3604 void string arg1 int arg0
+
+3605 cs2method3605 void string arg0
+
+3606 cs2method3606 void string arg0
+
+3607 cs2method3607 void string arg0
+
+3608 cs2method3608 void string arg0
+
+3609 isFriend boolean string name
+
+3610 getFriendWorldName string int arg0
+
+3611 clanChatDisplayName string
+
+3612 clanGetChatCount int
+
+3613 clanChatUsername string int arg0
+
+3614 clanChatUserWorld int int arg0
+
+3615 clanChatUserRank int int arg0
+
+3616 clanmethod3616 int
+
+3617 clanmethod3617 void string arg0
+
+3618 clanmethod3618 int
+
+3619 sendUnknownFriendPacketMethod3619 void string arg0
+
+3621 getIgnoreCount int
+
+3622 getIgnoreName {string,string} int arg0
+
+3623 cs2method3623 boolean string arg0
+
+3624 cs2method3624 boolean int arg0
+
+3625 cs2method3625 string
+
+3626 cs2method3626 string int arg0
+
+3627 cs2method3627 boolean int arg0
+
+3628 cs2method3628 int string arg0
+
+3629 cs2method3629 int
+
+3630 cs2method3630 void string arg0
+
+3631 cs2method3631UNUSED boolean int arg0
+
+3632 cs2method3632 string int arg0
+
+3633 cs2method3633 string int arg0
+
+3634 cs2method3634 boolean int arg0
+
+3700 cs2method3700 boolean
+
+3701 cs2method3701 boolean
+
+3702 cs2method3702 string
+
+3703 cs2method3703 boolean
+
+3704 cs2method3704 int
+
+3705 cs2method3705 int
+
+3706 cs2method3706UNUSED int
+
+3707 cs2method3707UNUSED int
+
+3709 cs2method3709 int
+
+3710 cs2method3710 string int arg0
+
+3711 cs2method3711 int int arg0
+
+3712 cs2method3712 int
+
+3713 cs2method3713 string int arg0
+
+3714 cs2method3714UNUSED int int arg0 int arg1 int arg2
+
+3715 cs2method3715 int
+
+3716 cs2method3716UNUSED int
+
+3717 cs2method3717 int string arg0
+
+3719 cs2method3719UNUSED void int arg0
+
+3720 cs2method3720UNUSED int int arg0
+
+3750 cs2method3750 boolean
+
+3751 cs2method3751 boolean
+
+3752 cs2method3752 string
+
+3753 cs2method3753 int
+
+3754 cs2method3754 int
+
+3755 cs2method3755 int
+
+3756 cs2method3756 string int arg0
+
+3757 cs2method3757 int int arg0
+
+3758 cs2method3758 int int arg0
+
+3759 cs2method3759 void int arg0
+
+3760 cs2method3760 int string arg0
+
+3790 citadelConfigsInitialized boolean
+
+3903 getGEIsSelling int int slot
+
+3904 getGEItem Item int slot
+
+3905 getGEItemPrice int int slot
+
+3906 getGEItemAmt int int slot
+
+3907 getGEItemAmtTransfered int int slot
+
+3908 getGECashTransfered int int slot
+
+3910 getGENotStarted boolean int slot
+
+3911 getGEIsStatus2 boolean int slot
+
+3912 getGEIsDone boolean int slot
+
+3913 getGEIsStatus1 boolean int slot
+
+4000 add int int arg0 int arg1
+
+4001 subtract int int arg0 int arg1
+
+4002 multiply int int arg0 int arg1
+
+4003 divide int int arg0 int arg1
+
+4004 rndExcl int int max
+
+4005 rnd int int max
+
+4006 mathMethod4006 int int arg0 int arg1 int arg2 int arg3 int arg4
+
+4007 addPercent int int value int percent
+
+4008 flagBit int int value int pos
+
+4009 unflagBit int int value int pos
+
+4010 isBitFlagged boolean int value int pos
+
+4011 mod int int value int mod
+
+4012 pow int int arg0 int arg1
+
+4013 root int int arg0 int arg1
+
+4014 bitAnd int int arg0 int arg1
+
+4015 bitOr int int arg0 int arg1
+
+4016 min int int arg0 int arg1
+
+4017 max int int arg0 int arg1
+
+4018 multiplyDivide int int arg0 int arg1 int arg2
+
+4019 rndRelatedMethod4019 int int arg0 int arg1
+
+4020 getColorRelatedMethod4020 int int arg0
+
+4100 concat string string arg1 int arg0
+
+4101 concat string string arg0 string arg1
+
+4102 concatSignedInt string string arg1 int arg0
+
+4103 lower string string arg0
+
+4104 timeToStr string int arg0
+
+4105 strForGender string string arg0 string arg1
+
+4106 str string int arg0
+
+4107 compare int string str1 string str2
+
+4108 getLineCount int string arg2 int arg0 Sprite font
+
+4109 getMaxLineWidth int string text int arg0 Sprite font
+
+4110 chooseString string boolean boolfirst string str1 string str2
+
+4111 escape string string arg0
+
+4112 concatChar string string str char character
+
+4113 isValidChar boolean char character
+
+4114 isAlphaNumeric boolean char character
+
+4115 isLetter boolean char character
+
+4116 isDigit boolean char character
+
+4117 length int string str
+
+4118 substr string string str int begin int end
+
+4119 removeTags string string str
+
+4120 indexOf int string str char character int fromIndex
+
+4121 indexOf int string str string find int fromIndex
+
+4122 lower char char character
+
+4123 upper char char character
+
+4124 formatNumber string int number int commas
+
+4125 getTextWidth int string str Sprite font
+
+4126 minutesToUtcTime string int arg0
+
+4127 toBase36 string long arg0
+
+4200 getItemName string Item id
+
+4201 getItemGroundOption string Item id int index
+
+4202 getItemOption string Item id int index
+
+4203 getItemValue int Item id
+
+4204 itemIsStackable boolean Item id
+
+4205 getNotedItem Item Item id
+
+4206 getRealItem Item Item id
+
+4207 isMembersItem boolean Item id
+
+4208 itemAttribute ?? Item id int key
+
+4209 getItemDefOpcode129Or130Method4209 int Item arg0 int arg1
+
+4210 cs2method4210 int string arg1 int arg0
+
+4211 nextSearchResult Item
+
+4213 getItemDefOpcode18Method4213 int Item arg0
+
+4214 cs2method4214UNUSED int int arg0 int arg1 int arg2 string arg3
+
+4215 cs2method4215UNUSED int int arg0 int arg1 string arg2 string arg3
+
+4300 getNpcAttribute ?? int npcid int key
+
+4400 getObjectAttribute ?? int objectid int key
+
+4500 getAttributeMapValue ?? AttrMap definition int key
+
+4600 getRenderEmoteMaxSomethingMethod4600 int Stance arg0
+
+4700 cs2method4700UNUSED boolean
+
+4701 cs2method4701UNUSED void string arg0
+
+4702 cs2method4702UNUSED int
+
+5000 cs2method5000 int
+
+5001 cs2method5001 void int arg0 int arg1 int arg2
+
+5002 cs2method5002 void string arg2 int arg0 int arg1 string arg3
+
+5003 cs2method5003 string int arg0
+
+5004 cs2method5004 int int arg0
+
+5005 cs2method5005 int
+
+5006 cs2method5006 void int arg0
+
+5008 cs2method5008 void string arg0
+
+5009 cs2method5009 void string arg0 string arg1
+
+5010 cs2method5010 string int arg0
+
+5011 cs2method5011 string int arg0
+
+5012 cs2method5012 int int arg0
+
+5015 cs2method5015 string
+
+5016 cs2method5016 int
+
+5017 cs2method5017 int
+
+5018 cs2method5018UNUSED int int arg0
+
+5019 cs2method5019 string int arg0
+
+5020 cs2method5020 string
+
+5023 cs2method5023UNUSED int int arg0
+
+5024 cs2method5024 int int arg0
+
+5025 cs2method5025UNUSED string int arg0
+
+5050 cs2method5050 string QcCat arg0
+
+5051 cs2method5051 int QcCat arg0
+
+5052 cs2method5052 int QcCat arg0 int arg1
+
+5053 cs2method5053 int QcCat arg0
+
+5054 cs2method5054 int QcCat arg0 int arg1
+
+5055 cs2method5055 string QcPhrase arg0
+
+5056 cs2method5056 int QcPhrase arg0
+
+5057 cs2method5057 int QcPhrase arg0 int arg1
+
+5058 cs2method5058 void QcPhrase arg0
+
+5060 cs2method5060 void string arg0
+
+5062 cs2method5062 int QcCat arg0 int arg1
+
+5063 cs2method5063UNUSED int int arg0 int arg1
+
+5064 cs2method5064UNUSED int int arg0 int arg1
+
+5065 cs2method5065UNUSED int int arg0 int arg1
+
+5066 cs2method5066 int QcPhrase arg0
+
+5067 cs2method5067 int QcPhrase arg0 int arg1
+
+5068 cs2method5068 void int arg0 int arg1
+
+5069 cs2method5069 void int arg0 int arg1
+
+5070 cs2method5070 int QcPhrase arg0 int arg1 int arg2
+
+5071 cs2method5071 int string arg1 int arg0
+
+5072 cs2method5072 int
+
+5100 isHoldingAlt boolean
+
+5101 isHoldingShift boolean
+
+5102 isHoldingCtrl boolean
+
+5200 setWorldmapZoom void int zoom
+
+5201 getWorldmapZoom int
+
+5205 loadDungeonmap void Map arg0
+
+5206 getDungeonmap Map Location arg0
+
+5207 getDungeonMapName string Map arg0
+
+5208 cs2method5208 {int,int}
+
+5209 cs2method5209 {int,int}
+
+5210 getDungeonmapCenter {int,int} int arg0
+
+5211 cs2method5211UNUSED {int,int} int arg0
+
+5212 cs2method5212 {int,int}
+
+5213 cs2method5213 {int,int}
+
+5214 setPositionInMap void Location arg0
+
+5215 dungeonmapContains boolean int arg0 Map arg1
+
+5218 getMapDefaultZoom int Map arg0
+
+5220 cs2method5220 boolean
+
+5221 cs2method5221 void Location arg0
+
+5222 cs2method5222UNUSED {int,int}
+
+5223 cs2method5223UNUSED void int arg0 int arg1
+
+5224 cs2method5224 {int,int} Location arg0
+
+5225 cs2method5225UNUSED {int,int} int arg0
+
+5226 cs2method5226UNUSED void int arg0
+
+5227 cs2method5227 void Map arg0 Location arg1
+
+5228 cs2method5228UNUSED void int arg0
+
+5229 cs2method5229 boolean
+
+5230 cs2method5230 void int arg0
+
+5231 cs2method5231 void int arg0 int arg1
+
+5232 cs2method5232UNUSED boolean int arg0
+
+5233 cs2method5233UNUSED void int arg0 int arg1
+
+5234 cs2method5234UNUSED boolean int arg0
+
+5235 cs2method5235 int
+
+5236 cs2method5236UNUSED int int arg0 int arg1
+
+5300 cs2method5300 boolean int arg0 int arg1
+
+5302 cs2method5302 int
+
+5303 cs2method5303 {int,int} int arg0
+
+5305 cs2method5305 int
+
+5306 getDisplayMode int
+
+5307 cs2method5307 void int arg0
+
+5308 cs2method5308 int
+
+5309 cs2method5309 void int arg0
+
+5400 cs2method5400 void string arg1 string arg2 int arg0
+
+5401 cs2method5401UNUSED void int arg0 int arg1
+
+5405 cs2method5405 void int arg0 int arg1
+
+5406 cs2method5406 void int arg0 int arg1 Location arg2 int arg3 Location arg4 int arg5 int arg6
+
+5407 cs2method5407 int int arg0
+
+5419 getLastIp5419 string
+
+5420 cs2method5420 int
+
+5421 cs2method5421 void string arg1 int arg0
+
+5422 cs2method5422UNUSED void int arg0 string arg1 string arg2
+
+5423 cs2method5423UNUSED void string arg0
+
+5424 cs2method5424 void int arg0 int arg1 int arg2 int arg3 int arg4 int arg5 int arg6 int arg7 int arg8 int arg9 int arg10
+
+5426 cs2method5426 void int arg0 int arg1
+
+5427 cs2method5427 void int arg0 int arg1
+
+5428 cs2method5428 boolean Widget arg0 int arg1
+
+5429 cs2method5429UNUSED void string arg0
+
+5432 cs2method5432 string
+
+5433 cs2method5433UNUSED void int arg0
+
+5435 hasJavascript boolean
+
+5436 cs2method5436 boolean
+
+5500 cameraMoveTo void Location arg0 int arg1 int arg2 int arg3
+
+5501 cameraPointAt void Location arg0 int arg1 int arg2 int arg3
+
+5502 cameraMethod5502 void int arg0 int arg1 int arg2 int arg3 int arg4 int arg5
+
+5503 cameraUnlock void
+
+5504 cameraMethod5504 void int arg0 int arg1
+
+5505 cameraGetVrot int
+
+5506 cameraGetHrot int
+
+5511 cameraMethod5511 void Location arg0
+
+5514 cs2method5514UNUSED void int arg0
+
+5516 cs2method5516UNUSED int
+
+5517 cs2method5517UNUSED void int arg0
+
+5547 minimapSettingIs1 boolean
+
+5600 directlogin void string arg1 string arg2 int arg0
+
+5604 sendRequestAccount void string arg0
+
+5605 sendCreateAccount void string arg2 string arg3 int arg0 int arg1
+
+5607 getGameloginRc int
+
+5608 getWorldswitchTimer int
+
+5609 getAccountCreateRC int
+
+5611 getDetailedRC int
+
+5612 cs2method5612 void int arg0
+
+5613 getGameloginRC int
+
+5615 setUserAndPass void string arg0 string arg1
+
+5617 getLobbyRC int
+
+5618 discardint void int arg0
+
+5619 discardint void int arg0
+
+5620 getZero int
+
+5621 discard void int arg0 int arg1 string arg2 string arg3
+
+5623 hasSSKey boolean
+
+5624 getUserflowParam {int,int}
+
+5625 isAgeMinor boolean
+
+5627 getLoginResponse {int,int,int}
+
+5628 isLoggingIn boolean
+
+5629 getReturncode42ExtraData int
+
+5631 snlogin void int arg0 int arg1
+
+5632 cs2method5632 void int arg0
+
+5633 getReturncodeExtraData int
+
+6001 cs2method6001 void int arg0
+
+6002 cs2method6002UNUSED void boolean arg0
+
+6003 cs2method6003 void boolean arg0
+
+6005 cs2method6005 void boolean arg0
+
+6007 cs2method6007UNUSED void int arg0
+
+6008 cs2method6008 void boolean arg0
+
+6010 cs2method6010 void boolean arg0
+
+6011 cs2method6011 void int arg0
+
+6012 cs2method6012 void boolean arg0
+
+6014 cs2method6014 void boolean arg0
+
+6015 cs2method6015 void boolean arg0
+
+6016 cs2method6016 void int arg0
+
+6017 cs2method6017 void boolean arg0
+
+6018 cs2method6018 void int arg0
+
+6019 cs2method6019 void int arg0
+
+6020 cs2method6020 void int arg0
+
+6021 cs2method6021 void boolean arg0
+
+6023 cs2method6023 void int arg0
+
+6024 cs2method6024 void int arg0
+
+6025 cs2method6025UNUSED void int arg0
+
+6027 cs2method6027 void int arg0
+
+6028 cs2method6028 void boolean arg0
+
+6029 cs2method6029 void boolean arg0
+
+6030 cs2method6030 void boolean arg0
+
+6031 cs2method6031 void int arg0
+
+6032 cs2method6032 void int arg0 int arg1
+
+6033 cs2method6033 void int arg0
+
+6034 cs2method6034 void boolean arg0
+
+6035 cs2method6035 void boolean arg0
+
+6036 cs2method6036 void int arg0
+
+6037 cs2method6037UNUSED void int arg0
+
+6038 cs2method6038 void int arg0
+
+6039 cs2method6039 void int arg0
+
+6040 cs2method6040UNUSED void int arg0
+
+6041 cs2method6041 void int arg0
+
+6101 cs2method6101 int
+
+6102 cs2method6102 boolean
+
+6103 cs2method6103 boolean
+
+6105 cs2method6105 boolean
+
+6107 cs2method6107UNUSED int
+
+6108 cs2method6108 boolean
+
+6110 cs2method6110 boolean
+
+6111 cs2method6111 int
+
+6112 cs2method6112 boolean
+
+6114 cs2method6114 boolean
+
+6115 cs2method6115 boolean
+
+6116 cs2method6116 int
+
+6117 cs2method6117 boolean
+
+6118 cs2method6118 int
+
+6119 cs2method6119 int
+
+6120 cs2method6120 int
+
+6123 cs2method6123 int
+
+6124 cs2method6124 int
+
+6125 cs2method6125UNUSED int
+
+6127 cs2method6127UNUSED boolean
+
+6128 cs2method6128UNUSED boolean
+
+6129 cs2method6129 int
+
+6130 cs2method6130 boolean
+
+6131 cs2method6131 int
+
+6132 cs2method6132 int
+
+6133 cs2method6133 boolean
+
+6135 cs2method6135 int
+
+6136 cs2method6136 boolean
+
+6138 cs2method6138UNUSED int
+
+6139 cs2method6139 int
+
+6142 cs2method6142UNUSED int
+
+6143 cs2method6143 int
+
+6144 cs2method6144 boolean
+
+6145 cs2method6145UNUSED int
+
+6146 cs2method6146UNUSED int
+
+6147 cs2method6147 boolean
+
+6148 cs2method6148 boolean
+
+6149 cs2method6149 int
+
+6200 cs2method6200 void int arg0 int arg1
+
+6201 cs2method6201 void int arg0 int arg1
+
+6202 cs2method6202 void int arg0 int arg1 int arg2 int arg3
+
+6203 cs2method6203 {int,int}
+
+6204 cs2method6204UNUSED {int,int}
+
+6205 cs2method6205UNUSED {int,int}
+
+6300 getMinute int
+
+6301 getCurrentDaysSinceLaunch int
+
+6302 getDaysSinceLaunch int int day int month int year
+
+6303 getYear int
+
+6304 isLeapYear boolean int year
+
+6305 daysSinceReleaseToDMY {int,int,int} int days
+
+6306 daysSinceReleaseToMillis int int days
+
+6405 canShowVideoAd boolean
+
+6406 isShowingVideoAd boolean
+
+6500 cs2method6500 boolean
+
+6501 getFirstWorldData {int,int,string,int,string,int,int,string}
+
+6502 getNextWorldData {int,int,string,int,string,int,int,string}
+
+6503 setWorldHost boolean int arg0 string arg1
+
+6506 cs2method6506 {int,string,int,string,int,int,string} int arg0
+
+6507 cs2method6507 void int arg0 boolean bool1 int arg2 boolean bool3
+
+6509 cs2method6509 void boolean bool0
+
+6510 cs2method6510 int
+
+6700 cs2method6700UNUSED int
+
+6701 cs2method6701UNUSED {int,int} int arg0
+
+6702 cs2method6702UNUSED string int arg0
+
+6703 cs2method6703UNUSED int int arg0
+
+6704 cs2method6704UNUSED string int arg0 int arg1
+
+6705 getVarSetInPacketUnused int int arg0 int arg1
+
+6707 clickWidgetContext1 void int arg0 int arg1 int arg2
+
+6708 clickWidgetContext2 void int arg0 int arg1 int arg2
+
+6709 clickWidgetContext3 void int arg0 int arg1 int arg2
+
+6710 clickWidgetContext4 void int arg0 int arg1 int arg2
+
+6711 clickWidgetContext5 void int arg0 int arg1 int arg2
+
+6712 clickWidgetContext6 void int arg0 int arg1 int arg2
+
+6713 clickWidgetContext7 void int arg0 int arg1 int arg2
+
+6714 clickWidgetContext8 void int arg0 int arg1 int arg2
+
+6715 clickWidgetContext9 void int arg0 int arg1 int arg2
+
+6716 clickWidgetContext10 void int arg0 int arg1 int arg2
+
+6717 cs2method6717UNUSED void int arg0 int arg1 int arg2
+
+6800 getWorldmapLabelName string int labelid
+
+6801 cs2method6801UNUSED int int arg0
+
+6802 cs2method6802UNUSED int int arg0
+
+6803 cs2method6803UNUSED int int arg0
+
+6804 worldMapLabelAttribute ?? int labelid int key
+
+6900 cs2method6900 boolean
+
+6901 cs2method6901 {int,int,int}
+
+6902 getRecoveryQuestionsDate int
+
+6903 cs2method6903 int
+
+6904 cs2method6904 int
+
+6905 getLastIp string
+
+6906 cs2method6906 int
+
+6907 cs2method6907 int
+
+6908 cs2method6908 int
+
+6909 cs2method6909UNUSED boolean
+
+6910 cs2method6910 int
+
+6911 cs2method6911UNUSED int
+
+6912 cs2method6912 int
+
+6913 cs2method6913UNUSED int
+
+6914 cs2method6914UNUSED boolean
+
+6915 cs2method6915UNUSED int
+
+7000 cs2method7000 {int,int}
+
+7007 cs2method7007 int
+
+7100 cs2method7100UNUSED void int arg0 int arg1
+
+7101 cs2method7101UNUSED void int arg0
+
+7102 cs2method7102UNUSED void int arg0
+
+7103 hasJagtheoraLib boolean
+
+7201 cs2method7201UNUSED boolean
+
+7202 cs2method7202UNUSED boolean
+
+7203 cs2method7203UNUSED boolean
+
+7204 cs2method7204UNUSED boolean
+
+7205 cs2method7205UNUSED boolean
+
+7206 cs2method7206 boolean
+
+7207 cs2method7207UNUSED boolean
+
+7208 cs2method7208UNUSED boolean
+
+7209 cs2method7209UNUSED boolean
+
+7210 cs2method7210UNUSED boolean
+
+7211 cs2method7211 boolean
+
+7212 cs2method7212UNUSED boolean
+
+7213 cs2method7213UNUSED boolean
+
+7214 cs2method7214 boolean
+
+7215 cs2method7215 boolean
+
+7301 cs2method7301UNUSED int int arg0
+
+7302 cs2method7302UNUSED int int arg0
+
+7303 cs2method7303UNUSED int int arg0
+
+7304 cs2method7304UNUSED int int arg0
+
+7305 cs2method7305UNUSED int int arg0
+
+7306 cs2method7306 int int arg0
+
+7307 cs2method7307UNUSED int int arg0
+
+7308 cs2method7308UNUSED int int arg0
+
+7309 cs2method7309UNUSED int int arg0
+
+7310 cs2method7310UNUSED int int arg0
+
+7311 cs2method7311 int int arg0
+
+7312 cs2method7312UNUSED int int arg0
+
+7313 cs2method7313UNUSED int int arg0
+
+7314 cs2method7314 int int arg0
+
+7315 cs2method7315 int int arg0
+
+1202 cs2method1202 void
+
+2202 cs2method2202 void Widget widget
+
+1211 setSelfFull void
+
+2211 setSelfFull void Widget widget
+
+1307 setNoOptions void
+
+2307 setNoOptions void Widget widget
+
+1927 cs2method1927UNUSED void
+
+2927 cs2method2927UNUSED void Widget widget
+
+3103 sendCloseWidgetPacket void
+
+3620 sendUnknownVarByteEmptyFriendPacketMethod3620 void
+
+3718 cs2method3718 void
+
+3761 cs2method3761 void
+
+4212 cs2method4212UNUSED void
+
+5059 cs2method5059 void
+
+5061 cs2method5061 void
+
+5073 cs2method5073UNUSED void
+
+5074 cs2method5074 void
+
+5075 cs2method5075 void
+
+5237 cs2method5237UNUSED void
+
+5301 cs2method5301UNUSED void
+
+5411 cs2method5411 void
+
+5425 cs2method5425UNUSED void
+
+5430 cs2method5430 void
+
+5431 cs2method5431 void
+
+5507 cs2method5507 void
+
+5508 cs2method5508 void
+
+5509 cs2method5509 void
+
+5510 cs2method5510 void
+
+5512 cs2method5512 void
+
+5601 skipLoginstage10 void
+
+5602 resetRCs void
+
+5606 resetAccountCreateRC void
+
+5616 logout void
+
+5622 doNothing void
+
+5626 setAgeMinor void
+
+5630 cancelLogin void
+
+6508 cs2method6508UNUSED void
+
+6706 cs2method6706UNUSED void
+
+7001 cs2method7001 void
+
+7002 cs2method7002 void
+
+7003 cs2method7003 void
+
+7004 cs2method7004 void
+
+7005 cs2method7005 void
+
+7006 cs2method7006 void

@@ -1,0 +1,19 @@
+//script2959(2959)()(void)
+int iVar0
+iVar0 = 1200
+if(instr6644() >= 2) {
+	iVar0 = 8656
+	if_setsize(if_gethash(747, 3), 0, 0, 34, 67)
+	if_setposition(if_gethash(747, 6), 0, 2, 2, 2)
+	if_setgraphic(if_gethash(747, 5), 8625)
+	if_setposition(if_gethash(747, 7), 0, 0, 15, 3)
+	if_setsize(if_gethash(747, 7), 0, 0, 14, 34)
+} else  {
+	if_setsize(if_gethash(747, 3), 0, 0, 34, 57)
+	if_setposition(if_gethash(747, 6), 0, 0, 1, 1)
+	if_setgraphic(if_gethash(747, 5), 1206)
+	if_setposition(if_gethash(747, 7), 0, 0, 15, 31)
+	if_setsize(if_gethash(747, 7), 0, 0, 14, 24)
+}
+if_setgraphic(if_gethash(747, 2), iVar0)
+return

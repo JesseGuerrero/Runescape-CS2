@@ -1,0 +1,7 @@
+void script_727() {
+	if (VARC[67] > 0) {
+		VARC[67] = VARC[67] - 1;
+		script_729();
+	}
+	return;
+}

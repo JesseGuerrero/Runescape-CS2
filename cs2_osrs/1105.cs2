@@ -1,0 +1,5 @@
+void script_1105() {
+	script_927(1);
+	VARC[11], STRING[24], VARC[140] = 0, "", 0;
+	return;
+}

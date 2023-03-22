@@ -1,0 +1,90 @@
+void script_698(Widget widget0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	Color color7;
+	widget0.clearChildren();
+	int1 = widget0.getWidth();
+	int2 = 1;
+	int3 = 0;
+	int4 = -1;
+	int5 = -1;
+	int6 = 27;
+	if (VARPBIT[4803] == 1) {
+		if (VARPBIT[4804] == 1) {
+			int6 = 21;
+		} else {
+			int6 = 25;
+		}
+	} else if (VARPBIT[4804] == 1) {
+		int6 = 23;
+	}
+	color7 = color(datamap('i', 'i', 998, int3));
+	while (color7 != 0xFFFFFF) {
+		CHILD.createChild(widget0, 3, int3);
+		int4 = datamap('i', 'i', 999, int3);
+		if (int4 == 8) {
+			if (VARPBIT[4803] == 1) {
+				if (int4 == VARP[262]) {
+					int5 = int2;
+				}
+				CHILD.setHidden(false);
+				CHILD.setSize(2, int6, 1, 0);
+				CHILD.setPosition(1, int2, 0, 0);
+				CHILD.setFilled(true);
+				CHILD.setRGB(color7);
+				CHILD.setContextMenuOption(1, "Select colour");
+				CHILD.hookOptionClick(&script_697(CTX_MENU_OPTION, int4, widget0));
+				int2 = int2 + int6;
+			} else {
+				CHILD.setHidden(true);
+			}
+		} else if (int4 == 9 || int4 == 10) {
+			if (VARPBIT[4804] == 1) {
+				if (int4 == VARP[262]) {
+					int5 = int2;
+				}
+				CHILD.setHidden(false);
+				CHILD.setSize(2, int6, 1, 0);
+				CHILD.setPosition(1, int2, 0, 0);
+				CHILD.setFilled(true);
+				CHILD.setRGB(color7);
+				CHILD.setContextMenuOption(1, "Select colour");
+				CHILD.hookOptionClick(&script_697(CTX_MENU_OPTION, int4, widget0));
+				int2 = int2 + int6;
+			} else {
+				CHILD.setHidden(true);
+			}
+		} else {
+			if (int4 == VARP[262]) {
+				int5 = int2;
+			}
+			CHILD.setHidden(false);
+			CHILD.setSize(2, int6, 1, 0);
+			CHILD.setPosition(1, int2, 0, 0);
+			CHILD.setFilled(true);
+			CHILD.setRGB(color7);
+			CHILD.setContextMenuOption(1, "Select colour");
+			CHILD.hookOptionClick(&script_697(CTX_MENU_OPTION, int4, widget0));
+			int2 = int2 + int6;
+		}
+		int3 = int3 + 1;
+		color7 = color(datamap('i', 'i', 998, int3));
+	}
+	CHILD.createChild(widget0, 3, int3);
+	CHILD.setSize(0, int2 + 1, 1, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x000000);
+	int3 = int3 + 1;
+	if (int5 != -1) {
+		CHILD.createChild(widget0, 5, int3);
+		CHILD.setSize(25, 25, 0, 0);
+		CHILD.setSprite(442);
+		CHILD.setPosition(0, int5 - (25 - int6) / 2, 1, 0);
+	}
+	return;
+}

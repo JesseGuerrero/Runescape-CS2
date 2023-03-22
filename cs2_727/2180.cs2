@@ -1,0 +1,8 @@
+//script2180(2180)(int arg0)(void)
+int iVar1
+iVar1 = enum(2252, arg0, 'i', 'J')
+if(cc_find(arg0, if_gethash(190, 15)) == 1) {
+	cc_settext(struct_param(845, iVar1))
+	instr6556(None, "")
+}
+return

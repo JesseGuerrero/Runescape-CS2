@@ -1,0 +1,3 @@
+//script4106(4106)(int arg0, string arg1)(int)
+return (if_getwidth(arg0) + max(stringwidth(494, if_gettext(arg0)), stringwidth(495, arg0))) / 2
+return 0

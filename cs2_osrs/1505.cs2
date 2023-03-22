@@ -1,0 +1,35 @@
+void script_1505(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	script_1507(widget1);
+	widget0.hookWidgetsOpenClose(&script_1506(widget1));
+	script_1509(widget2);
+	widget0.hookVARP(&script_1508(widget2), 1227);
+	widget2.clearChildren();
+	int3 = 0;
+	CHILD.createChild(widget2, 5, int3);
+	int3 = int3 + 1;
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSpriteTiling(true);
+	CHILD.setSprite(297);
+	int3 = script_1192(widget2, int3);
+	CHILD.createChild(widget2, 4, int3);
+	int3 = int3 + 1;
+	_CHILD.createChild(widget2, 4, int3);
+	int3 = int3 + 1;
+	CHILD.setSize(8, 0, 1, 1);
+	_CHILD.setSize(8, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	_CHILD.setRGB(0xFFFFFF);
+	CHILD.setFont(495);
+	_CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 1, 0);
+	_CHILD.setTextAlignment(2, 1, 0);
+	script_1511(widget2);
+	widget2.hookVARP(&script_1510(widget2, getChildId(), getChildId()), 1431, 1432);
+	return;
+}

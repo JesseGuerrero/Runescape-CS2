@@ -1,0 +1,14 @@
+//script5739(5739)(int arg0, int arg1, int arg2, int arg3, string arg4)(int)
+int iVar4
+int iVar5
+if_sethide(arg2, 0)
+if_settext(arg2, arg0)
+if_settextfont(arg2, 3793)
+if_settextalign(arg2, 13, 1, 0)
+iVar4 = if_getwidth(arg3) - 18
+iVar4 = iVar4 + 9
+iVar5 = 15 * paramheight(arg0, 3793, iVar4)
+if_setsize(arg2, 0, 0, iVar5, iVar4)
+if_setposition(arg2, 0, 0, arg1, 9)
+return arg1 + iVar5
+return 0

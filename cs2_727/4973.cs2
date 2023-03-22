@@ -1,0 +1,66 @@
+//script4973(4973)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = 0
+iVar2 = 0
+if(clan_vars_enabled() == 1) {
+	iVar1 = script_4949(arg0)
+	switch(arg0) {
+		case default:
+			break
+		case 1:
+			return 7431
+
+		case 2:
+			return 7430
+
+		case 3:
+			return 7433
+
+		case 4:
+			return script_4974(load_clan_varbit(2553))
+
+		case 5:
+			return script_4974(load_clan_varbit(2554))
+
+		case 6:
+			return script_4974(load_clan_varbit(2555))
+
+		case 7:
+			return script_4974(load_clan_varbit(2556))
+
+		case 8:
+			return script_4974(load_clan_varbit(2557))
+
+		case 9:
+			return script_4974(load_clan_varbit(2558))
+
+		case 10:
+			return script_4974(load_clan_varbit(2560))
+
+		case 11:
+			return script_4974(load_clan_varbit(2561))
+
+		case 12:
+			return script_4974(load_clan_varbit(2562))
+
+		case 13:
+			return script_4974(load_clan_varbit(2563))
+
+		case 14:
+			return script_4974(load_clan_varbit(2564))
+
+		case 15:
+			return script_4974(load_clan_varbit(2565))
+
+		case 34:
+			return script_4974(iVar1)
+
+		case 44:
+			return enum(4061, iVar1, 'i', 'd')
+
+
+	}
+}
+return -1
+return -1

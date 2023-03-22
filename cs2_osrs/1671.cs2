@@ -1,0 +1,12 @@
+void script_1671(Widget widget0, string arg1, int arg2) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setSize(7, 5, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSprite(1050);
+	CHILD.setTrans(150);
+	widget0.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(arg2), arg1, 25, 190));
+	widget0.hookMouseExit(&script_40(widget(arg2)));
+	widget0.hookMousePress(&script_1684());
+	return;
+}

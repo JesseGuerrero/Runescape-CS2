@@ -1,0 +1,13 @@
+//script6287(6287)()(void)
+if(load_varc(1931) < 0)
+	store_varc(1931, 0)
+if(load_varc(1931) == 0) {
+	store_varc(1931, 1)
+	if_sethide(if_gethash(1296, 1), 0)
+	if_set2dangle(if_gethash(1296, 4), 32768)
+} else  {
+	store_varc(1931, 0)
+	if_sethide(if_gethash(1296, 1), 1)
+	if_set2dangle(if_gethash(1296, 4), 0)
+}
+return

@@ -1,0 +1,25 @@
+//script6261(6261)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 0
+
+	case 1:
+		return 150
+
+	case 2:
+		return 250
+
+	case 3:
+		return 400
+
+	case 4:
+		return 650
+
+	case 5:
+		return 1000
+
+
+}
+return 0

@@ -1,0 +1,55 @@
+//script2186(2186)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar0 = 60293120
+cc_deleteall(iVar0)
+iVar1 = 0
+iVar2 = 0
+iVar1 = (if_getwidth(iVar0) - (36 * 4)) / 3
+iVar2 = (if_getheight(iVar0) - (32 * 7)) / 6
+cc_deleteall(if_gethash(924, 39))
+iVar3 = enum_getoutputcount(962)
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = -1
+iVar9 = -1
+while(iVar4 < iVar3) {
+	if(instr6004(enum(962, iVar4, 'i', 'I')) == 1) {
+		iVar5 = cc_getx() + 2
+		iVar6 = cc_gety()
+		iVar8 = enum(963, iVar4, 'i', 'g')
+		iVar7 = script_2187(iVar4)
+		cc_create(iVar4, 5, 60555303)
+		cc_setposition(0, 0, iVar6 + 4, iVar5 + 2)
+		cc_setsize(0, 0, 32, 36)
+		cc_setoutline(1)
+		if(iVar7 != 0) {
+			iVar9 = enum(iVar8, iVar7, 'i', 'o')
+			cc_setopbase(item_name(iVar9))
+			cc_setop("Withdraw 1", 1)
+			if(iVar8 == 958 || iVar8 == 2119) {
+				cc_setop("Withdraw 5", 2)
+				cc_setop("Withdraw 10", 3)
+				cc_setop("Withdraw All", 4)
+				cc_setop("Withdraw X", 5)
+				cc_setitem(script_2188(iVar4), iVar9)
+			} else 
+				cc_setitem_nonum(1, iVar9)
+		}
+	} else  {
+		send_message("Nothing happens, as if something is wrong.")
+		return
+	}
+	iVar4 = iVar4 + 1
+}
+return

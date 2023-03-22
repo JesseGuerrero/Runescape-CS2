@@ -1,0 +1,49 @@
+//script2632(2632)(int arg0)(void)
+if(arg0 != 56295424)
+	script_1360(arg0)
+switch(arg0) {
+	case default:
+		break
+	case 56295424:
+		if_settext(if_gethash(859, 28), "Go to")
+		if_settext(if_gethash(859, 29), "Click to view this squad.")
+		break
+	case 56295437:
+		if_settext(if_gethash(859, 28), "Attack")
+		if_settext(if_gethash(859, 29), "Select the enemy squad you wish to attack.")
+		break
+	case 56295438:
+		if_settext(if_gethash(859, 28), "Move")
+		if_settext(if_gethash(859, 29), "Select the destination for your squad.")
+		break
+	case 56295439:
+		if_settext(if_gethash(859, 28), "Explore")
+		if_settext(if_gethash(859, 29), "Send the unit to explore for treasure.")
+		break
+	case 56295440:
+		if(load_varpbit(6357) == 2) {
+			if_settext(if_gethash(859, 28), "Attack wall/catapult")
+			if_settext(if_gethash(859, 29), "Select the wall or catapult you want your squad to attack.")
+		} else 
+			if(load_varpbit(6357) == 3) {
+				if_settext(if_gethash(859, 28), "Collect gold")
+				if_settext(if_gethash(859, 29), "Select the cave entrance from which your squad should gather gold.")
+			} else 
+				if(load_varpbit(6357) == 4) {
+					if_settext(if_gethash(859, 28), "Rescue")
+					if_settext(if_gethash(859, 29), "Select the fissure from which your squad should rescue TzHaar.")
+				}
+		break
+	case 56295441:
+		if(load_varpbit(6357) == 2) {
+			if_settext(if_gethash(859, 28), "Collect")
+			if_settext(if_gethash(859, 29), "Select a resource for your squad to collect.")
+		} else 
+			if(load_varpbit(6357) == 4) {
+				if_settext(if_gethash(859, 28), "Steal")
+				if_settext(if_gethash(859, 29), "Select a lander to steal TzHaar from.")
+			}
+		break
+
+}
+return

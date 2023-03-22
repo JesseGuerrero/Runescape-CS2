@@ -1,0 +1,120 @@
+//script5580(5580)()(void)
+int iVar0
+string sVar0
+string sVar1
+sVar0 = ""
+sVar1 = ""
+iVar0 = -1
+if_sethide(if_gethash(1181, 67), 1)
+if_sethide(if_gethash(1181, 79), 1)
+if_sethide(if_gethash(1181, 91), 1)
+if_sethide(if_gethash(1181, 103), 1)
+if_sethide(if_gethash(1181, 115), 1)
+if_sethide(if_gethash(1181, 127), 1)
+if_sethide(if_gethash(1181, 139), 1)
+if_sethide(if_gethash(1181, 151), 1)
+if_sethide(if_gethash(1181, 222), 1)
+if_sethide(if_gethash(1181, 234), 1)
+if_sethide(if_gethash(1181, 245), 1)
+if_sethide(if_gethash(1181, 256), 1)
+if_sethide(if_gethash(1181, 267), 1)
+if_sethide(if_gethash(1181, 278), 1)
+switch(load_varpbit(10334)) {
+	case default:
+		break
+	case -1:
+		sVar0 = "Select an item to buy"
+		sVar1 = "Select an item to buy"
+		iVar0 = -1
+		break
+	case 1:
+		sVar0 = to_string(load_varpbit(10335)) + "x 1,200 Thieving XP"
+		sVar1 = "1.2k Thieving XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 10 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 67), 0)
+		break
+	case 2:
+		sVar0 = to_string(load_varpbit(10335)) + "x 12,000 Thieving XP"
+		sVar1 = "12k Thieving XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 100 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 79), 0)
+		break
+	case 3:
+		sVar0 = to_string(load_varpbit(10335)) + "x 120,000 Thieving XP"
+		sVar1 = "120k Thieving XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 1000 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 91), 0)
+		break
+	case 4:
+		sVar0 = to_string(load_varpbit(10335)) + "x 1.2M Thieving XP"
+		sVar1 = "1.2M Thieving XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 10000 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 103), 0)
+		break
+	case 5:
+		sVar0 = to_string(load_varpbit(10335)) + "x 950 Agility XP"
+		sVar1 = "950 Agility XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 10 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 115), 0)
+		break
+	case 6:
+		sVar0 = to_string(load_varpbit(10335)) + "x 9,500 Agility XP"
+		sVar1 = "9.5k Agility XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 100 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 127), 0)
+		break
+	case 7:
+		sVar0 = to_string(load_varpbit(10335)) + "x 95,000 Agility XP"
+		sVar1 = "95k Agility XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 1000 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 139), 0)
+		break
+	case 8:
+		sVar0 = to_string(load_varpbit(10335)) + "x 950,000 Agility XP"
+		sVar1 = "950k Agility XP (x" + to_string(load_varpbit(10335)) + ")"
+		iVar0 = 10000 * load_varpbit(10335)
+		if_sethide(if_gethash(1181, 151), 0)
+		break
+	case 9:
+		sVar0 = "Factory mask"
+		sVar1 = "Factory mask"
+		iVar0 = 2250
+		if_sethide(if_gethash(1181, 222), 0)
+		break
+	case 10:
+		sVar0 = "Factory body"
+		sVar1 = "Factory body"
+		iVar0 = 3500
+		if_sethide(if_gethash(1181, 234), 0)
+		break
+	case 11:
+		sVar0 = "Factory legs"
+		sVar1 = "Factory legs"
+		iVar0 = 2750
+		if_sethide(if_gethash(1181, 245), 0)
+		break
+	case 12:
+		sVar0 = "Factory gloves"
+		sVar1 = "Factory gloves"
+		iVar0 = 1750
+		if_sethide(if_gethash(1181, 256), 0)
+		break
+	case 13:
+		sVar0 = "Factory boots"
+		sVar1 = "Factory boots"
+		iVar0 = 1750
+		if_sethide(if_gethash(1181, 267), 0)
+		break
+	case 14:
+		sVar0 = "Rogues' Den multitool"
+		sVar1 = "Vintage Rogues' Den multitool kit"
+		iVar0 = 35
+		if_sethide(if_gethash(1181, 278), 0)
+		return
+
+
+}
+if_settext(if_gethash(1181, 166), sVar0)
+if_settext(if_gethash(1181, 6), "Buy " + sVar0 + " for " + to_string(iVar0) + " points?")
+script_5578(iVar0)
+return

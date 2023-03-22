@@ -1,0 +1,65 @@
+//script621(621)()(void)
+int iVar0
+string sVar0
+iVar0 = 0
+sVar0 = "null"
+script_622()
+if(load_varp(1112) == -1 || stockmarket_isofferempty(load_varp(1112)) == 1 || load_varp(1113) == -1) {
+	script_41(6881490)
+	if_sethide(if_gethash(105, 17), 0)
+	script_628()
+	if_setonmouseleave(if_gethash(105, 197), None, "")
+	store_varc(83, 0)
+	store_varc(82, 0)
+} else  {
+	while(iVar0 < 6) {
+		script_41(script_626(iVar0))
+		iVar0 = iVar0 + 1
+	}
+	if(stockmarket_isofferempty(load_varp(1112)) == 0) {
+		if_sethide(if_gethash(105, 127), 0)
+		if_sethide(if_gethash(105, 197), 0)
+		script_594(stockmarket_getoffertype(load_varp(1112)), stockmarket_getofferitem(load_varp(1112)), stockmarket_getoffercount(load_varp(1112)), stockmarket_getofferprice(load_varp(1112)))
+		script_593(load_varp(1112))
+		if(stockmarket_getoffertype(load_varp(1112)) == 0)
+			sVar0 = "Maximum total cost of purchase"
+		else
+			sVar0 = "Minimum total value of sale"
+		if_setonmouseover(if_gethash(105, 185), script_649, "IIsii", if_gethash(105, 185), if_gethash(105, 210), sVar0, 25, 300)
+		sVar0 = tostring_localized(1, stockmarket_getoffercount(load_varp(1112)) * stockmarket_getofferprice(load_varp(1112)))
+		if_settext(if_gethash(105, 185), sVar0 + " gp")
+	} else  {
+		if_sethide(if_gethash(105, 127), 0)
+		if_sethide(if_gethash(105, 154), 0)
+		if(load_varp(1113) == 0) {
+			if_sethide(if_gethash(105, 188), 0)
+			if(load_varp(1109) != -1) {
+				if_sethide(if_gethash(105, 191), 1)
+				if_sethide(if_gethash(105, 192), 1)
+			} else  {
+				if_sethide(if_gethash(105, 191), 0)
+				if_sethide(if_gethash(105, 192), 0)
+			}
+			sVar0 = "Maximum total cost of purchase"
+		} else  {
+			if_sethide(if_gethash(105, 193), 0)
+			if(load_varp(1109) != -1)
+				if_sethide(if_gethash(105, 195), 1)
+			else
+				if_sethide(if_gethash(105, 195), 0)
+			sVar0 = "Minimum total value of sale"
+		}
+		if_setonmouseover(if_gethash(105, 185), script_649, "IIsii", if_gethash(105, 185), if_gethash(105, 210), sVar0, 25, 300)
+		if(load_varp(1111) > 0)
+			if(load_varp(1110) > 2147483647 / load_varp(1111))
+				if_settext(if_gethash(105, 185), "Too high!")
+			else {
+				sVar0 = tostring_localized(1, load_varp(1110) * load_varp(1111))
+				if_settext(if_gethash(105, 185), sVar0 + " gp")
+			}
+		else
+			if_settext(if_gethash(105, 185), "0 gp")
+		script_594(load_varp(1113), load_varp(1109), load_varp(1110), load_varp(1111))
+	}
+}
+return

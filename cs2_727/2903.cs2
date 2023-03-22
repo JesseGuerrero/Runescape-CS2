@@ -1,0 +1,17 @@
+//script2903(2903)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+if(load_varc(1087) == arg8) {
+	store_varc(1087, 0)
+	if_sethide(arg0, 1)
+	if_sethide(arg1, 1)
+} else  {
+	store_varc(1087, arg8)
+	if_sethide(arg0, 0)
+	if_sethide(arg1, 0)
+}
+if_sethide(arg2, 1)
+if_sethide(arg3, 1)
+if_sethide(arg4, 1)
+if_sethide(arg5, 1)
+if_sethide(arg6, 1)
+if_sethide(arg7, 1)
+return

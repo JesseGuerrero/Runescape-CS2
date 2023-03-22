@@ -1,0 +1,38 @@
+//script3362(3362)()(int, int, string)
+switch(load_varp(448)) {
+	case default:
+		return 18077, 9, "Glimmer of Light (Tier 1)"
+
+	case 17965:
+		return 18077, 9, "Glimmer of Light (Tier 1)"
+
+	case 17966:
+		return 18078, 19, "Glimmer of Light (Tier 2)"
+
+	case 17967:
+		return 18079, 29, "Glimmer of Light (Tier 3)"
+
+	case 17968:
+		return 18080, 39, "Glimmer of Light (Tier 4)"
+
+	case 17969:
+		return 18081, 49, "Glimmer of Light (Tier 5)"
+
+	case 17970:
+		return 18082, 59, "Glimmer of Light (Tier 6)"
+
+	case 17971:
+		return 18083, 69, "Glimmer of Light (Tier 7)"
+
+	case 17972:
+		return 18084, 79, "Glimmer of Light (Tier 8)"
+
+	case 17973:
+		return 18085, 89, "Glimmer of Light (Tier 9)"
+
+	case 17974:
+		return 18086, 99, "Glimmer of Light (Tier 10)"
+
+
+}
+return -1, 0, ""

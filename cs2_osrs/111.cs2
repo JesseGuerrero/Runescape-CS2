@@ -1,0 +1,19 @@
+void script_111() {
+	string str0;
+	if (VARC[11] == 1) {
+		sendCloseWidgetPacket();
+	}
+	script_677();
+	widget(162, 32).setText("Enter the player name whose channel you wish to join:");
+	VARC[5] = 10;
+	script_222("");
+	str0 = "";
+	widget(162, 33).hookKey(&script_112(KEY_TYPED, KEY_PRESSED, str0));
+	script_680();
+	if (length(STRING[129]) > 0) {
+		script_678();
+		CHILD.setText("<col=000000>" + "Last name:" + "</col>" + " " + STRING[129]);
+		CHILD.hookMousePress(&script_682(10, STRING[129]));
+	}
+	return;
+}

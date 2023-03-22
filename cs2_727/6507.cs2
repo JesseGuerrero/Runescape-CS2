@@ -1,0 +1,185 @@
+//script6507(6507)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = if_getspriteid(arg0)
+iVar3 = -1
+switch(iVar2) {
+	case default:
+		break
+	case 11654:
+		iVar3 = 11654
+		break
+	case 11684:
+		iVar3 = 11684
+		break
+	case 11666:
+		iVar3 = 11666
+		break
+	case 11657:
+		iVar3 = 11657
+		break
+	case 11687:
+		iVar3 = 11687
+		break
+	case 11702:
+		iVar3 = 11702
+		break
+	case 11675:
+		iVar3 = 11675
+		break
+	case 11672:
+		iVar3 = 11672
+		break
+	case 11708:
+		iVar3 = 11708
+		break
+	case 11696:
+		iVar3 = 11696
+		break
+	case 11669:
+		iVar3 = 11669
+		break
+	case 11660:
+		iVar3 = 11660
+		break
+	case 11681:
+		iVar3 = 11681
+		break
+	case 11693:
+		iVar3 = 11693
+		break
+	case 11678:
+		iVar3 = 11678
+		break
+	case 11663:
+		iVar3 = 11663
+		break
+	case 11690:
+		iVar3 = 11690
+		break
+	case 11699:
+		iVar3 = 11699
+		break
+	case 11705:
+		iVar3 = 11705
+		break
+	case 11655:
+		iVar3 = 11654
+		break
+	case 11685:
+		iVar3 = 11684
+		break
+	case 11667:
+		iVar3 = 11666
+		break
+	case 11658:
+		iVar3 = 11657
+		break
+	case 11688:
+		iVar3 = 11687
+		break
+	case 11703:
+		iVar3 = 11702
+		break
+	case 11676:
+		iVar3 = 11675
+		break
+	case 11673:
+		iVar3 = 11672
+		break
+	case 11709:
+		iVar3 = 11708
+		break
+	case 11697:
+		iVar3 = 11696
+		break
+	case 11670:
+		iVar3 = 11669
+		break
+	case 11661:
+		iVar3 = 11660
+		break
+	case 11682:
+		iVar3 = 11681
+		break
+	case 11694:
+		iVar3 = 11693
+		break
+	case 11679:
+		iVar3 = 11678
+		break
+	case 11664:
+		iVar3 = 11663
+		break
+	case 11691:
+		iVar3 = 11690
+		break
+	case 11700:
+		iVar3 = 11699
+		break
+	case 11706:
+		iVar3 = 11705
+		break
+	case 11656:
+		iVar3 = 11654
+		break
+	case 11686:
+		iVar3 = 11684
+		break
+	case 11668:
+		iVar3 = 11666
+		break
+	case 11659:
+		iVar3 = 11657
+		break
+	case 11689:
+		iVar3 = 11687
+		break
+	case 11704:
+		iVar3 = 11702
+		break
+	case 11677:
+		iVar3 = 11675
+		break
+	case 11674:
+		iVar3 = 11672
+		break
+	case 11710:
+		iVar3 = 11708
+		break
+	case 11698:
+		iVar3 = 11696
+		break
+	case 11671:
+		iVar3 = 11669
+		break
+	case 11662:
+		iVar3 = 11660
+		break
+	case 11683:
+		iVar3 = 11681
+		break
+	case 11695:
+		iVar3 = 11693
+		break
+	case 11680:
+		iVar3 = 11678
+		break
+	case 11665:
+		iVar3 = 11663
+		break
+	case 11692:
+		iVar3 = 11690
+		break
+	case 11701:
+		iVar3 = 11699
+		break
+	case 11707:
+		iVar3 = 11705
+		break
+
+}
+if_setgraphic(arg0, iVar3)
+script_6510(arg1)
+script_6513(arg1)
+return

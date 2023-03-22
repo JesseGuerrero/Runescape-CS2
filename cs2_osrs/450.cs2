@@ -1,0 +1,83 @@
+void script_450(int arg0, int arg1, int arg2, string string3) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	Item item7;
+	int int8;
+	widget(78, 2).setText(string3);
+	widget(78, 4).clearChildren();
+	widget(78, 5).clearChildren();
+	int3 = (widget(78, 4).getWidth() - 10 * 36) / 9 + 36;
+	int4 = 0;
+	int5 = 0;
+	int6 = 0;
+	item7 = null;
+	int8 = 0;
+	while (int8 <= 84) {
+		if (int8 < 32) {
+			if (isBitFlagged(arg0, int8) == true) {
+				int6 = 1;
+			} else {
+				int6 = 0;
+			}
+		} else if (int8 < 64) {
+			if (isBitFlagged(arg1, int8 - 32) == true) {
+				int6 = 1;
+			} else {
+				int6 = 0;
+			}
+		} else if (int8 < 96) {
+			if (isBitFlagged(arg2, int8 - 64) == true) {
+				int6 = 1;
+			} else {
+				int6 = 0;
+			}
+		} else {
+			int6 = 0;
+		}
+		CHILD.createChild(widget(78, 4), 5, int8);
+		if (int6 == 1) {
+			item7 = datamap('i', 'O', 708, int8);
+			if (item7 != null) {
+				if (getItemAmtInContainer(93, item7) == 0) {
+					CHILD.setHidden(false);
+				} else {
+					CHILD.setHidden(true);
+				}
+				CHILD.setSize(36, 32, 0, 0);
+				CHILD.setPosition(int5 * int3, int4, 0, 0);
+				CHILD.setShadowColor(0x333333);
+				CHILD.setOutlineThickness(1);
+				CHILD.setItem(item7, 1);
+				CHILD.setContextMenuOption(1, "Take");
+				CHILD.setContextMenuOption(10, "Examine");
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item7));
+				if (int5 < 9) {
+					int5 = int5 + 1;
+				} else {
+					int5, int4 = 0, int4 + 32 + 15;
+				}
+			} else {
+				CHILD.setHidden(true);
+			}
+		} else {
+			CHILD.setHidden(true);
+		}
+		int8 = int8 + 1;
+	}
+	if (int5 > 0) {
+		int4 = int4 + 32;
+	} else if (int4 > 0) {
+		int4 = int4 - 15;
+	}
+	if (int4 <= widget(78, 4).getHeight()) {
+		widget(78, 4).setScrollMax(0, 0);
+	} else {
+		widget(78, 4).setScrollMax(0, int4);
+	}
+	widget(78, 4).setScrollPos(0, 0);
+	script_31(widget(78, 5), widget(78, 4), 798, 795, 796, 797, 793, 794);
+	widget(78, 4).hookContainer(&script_474(arg0, arg1, arg2), 93);
+	return;
+}

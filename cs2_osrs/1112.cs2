@@ -1,0 +1,14 @@
+void script_1112(Widget widget0, Widget widget1, Widget widget2) {
+	widget0.clearChildren();
+	script_1113(0, "Allotments", widget0);
+	script_1113(1, "Herbs", widget0);
+	script_1113(2, "Hops", widget0);
+	script_1113(3, "Bushes", widget0);
+	script_1113(4, "Trees", widget0);
+	script_1113(5, "Special", widget0);
+	widget0.setSize((5 + 1) * 72, widget0.getHeight(), 0, 0);
+	script_1116(widget0, widget1, widget2);
+	widget0.hookVARP(&script_1115(widget0, widget1, widget2), 19);
+	script_31(widget2, widget1, 792, 789, 790, 791, 773, 788);
+	return;
+}

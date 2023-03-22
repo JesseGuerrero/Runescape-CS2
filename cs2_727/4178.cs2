@@ -1,0 +1,152 @@
+//script4178(4178)(int arg0, int arg1, int arg2)(void)
+if(arg0 == 1)
+	switch(arg1) {
+		case default:
+			break
+		case 0:
+			if(arg2 == 1)
+				store_varc(1465, client_clock())
+			else
+				store_varc(1465, 0)
+			break
+		case 1:
+			if(arg2 == 1)
+				store_varc(1466, client_clock())
+			else
+				store_varc(1466, 0)
+			break
+		case 2:
+			if(arg2 == 1)
+				store_varc(1467, client_clock())
+			else
+				store_varc(1467, 0)
+			break
+		case 3:
+			if(arg2 == 1)
+				store_varc(740, client_clock())
+			else
+				store_varc(740, 0)
+			break
+		case 4:
+			if(arg2 == 1)
+				store_varc(745, client_clock())
+			else
+				store_varc(745, 0)
+			break
+		case 5:
+			if(arg2 == 1)
+				store_varc(780, client_clock())
+			else
+				store_varc(780, 0)
+			break
+		case 7:
+			if(arg2 == 1)
+				store_varc(781, client_clock())
+			else
+				store_varc(781, 0)
+			break
+		case 9:
+			if(arg2 == 1)
+				store_varc(782, client_clock())
+			else
+				store_varc(782, 0)
+			break
+		case 10:
+			if(arg2 == 1)
+				store_varc(789, client_clock())
+			else
+				store_varc(789, 0)
+			break
+		case 12:
+			if(arg2 == 1)
+				store_varc(1409, client_clock())
+			else
+				store_varc(1409, 0)
+			break
+		case 13:
+			if(arg2 == 1)
+				store_varc(1410, client_clock())
+			else
+				store_varc(1410, 0)
+			break
+
+	}
+else
+	switch(arg1) {
+		case default:
+			break
+		case 0:
+			if(arg2 == 1)
+				store_varc(1453, client_clock())
+			else
+				store_varc(1453, 0)
+			break
+		case 1:
+			if(arg2 == 1)
+				store_varc(1454, client_clock())
+			else
+				store_varc(1454, 0)
+			break
+		case 4:
+			if(arg2 == 1)
+				store_varc(1455, client_clock())
+			else
+				store_varc(1455, 0)
+			break
+		case 5:
+			if(arg2 == 1)
+				store_varc(1456, client_clock())
+			else
+				store_varc(1456, 0)
+			break
+		case 6:
+			if(arg2 == 1)
+				store_varc(1457, client_clock())
+			else
+				store_varc(1453, 6)
+			break
+		case 7:
+			if(arg2 == 1)
+				store_varc(1458, client_clock())
+			else
+				store_varc(1453, 7)
+			break
+		case 8:
+			if(arg2 == 1)
+				store_varc(1459, client_clock())
+			else
+				store_varc(1453, 8)
+			break
+		case 9:
+			if(arg2 == 1)
+				store_varc(1460, client_clock())
+			else
+				store_varc(1453, 9)
+			break
+		case 10:
+			if(arg2 == 1)
+				store_varc(1461, client_clock())
+			else
+				store_varc(1461, 0)
+			break
+		case 12:
+			if(arg2 == 1)
+				store_varc(1462, client_clock())
+			else
+				store_varc(1462, 0)
+			break
+		case 13:
+			if(arg2 == 1)
+				store_varc(1463, client_clock())
+			else
+				store_varc(1463, 0)
+			break
+		case 28:
+			if(arg2 == 1)
+				store_varc(1464, client_clock())
+			else
+				store_varc(1464, 0)
+			break
+
+	}
+return

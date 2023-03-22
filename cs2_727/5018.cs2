@@ -1,0 +1,9 @@
+//script5018(5018)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg4 >= 5) {
+	if_setcolor(arg0, hsvtorgb(arg2))
+	if_setcolor(arg1, hsvtorgb(arg3))
+} else  {
+	if_setcolor(arg0, hsvtorgb(42550))
+	if_setcolor(arg1, hsvtorgb(39382))
+}
+return

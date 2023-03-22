@@ -1,0 +1,27 @@
+//script4068(4068)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 69337110:
+		if(if_getspriteid(if_gethash(1058, 19)) != 4444)
+			if_setposition(arg0, 0, 1, 18, -160)
+		break
+	case 69337111:
+		if(if_getspriteid(if_gethash(1058, 17)) != 4445)
+			if_setposition(arg0, 0, 1, 18, -80)
+		break
+	case 69337112:
+		if(if_getspriteid(if_gethash(1058, 15)) != 4446)
+			if_setposition(arg0, 0, 1, 18, 0)
+		break
+	case 69337114:
+		if(if_getspriteid(if_gethash(1058, 13)) != 4447)
+			if_setposition(arg0, 0, 1, 18, 80)
+		break
+	case 69337113:
+		if(if_getspriteid(if_gethash(1058, 11)) != 4448)
+			if_setposition(arg0, 0, 1, 18, 160)
+		break
+
+}
+return

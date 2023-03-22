@@ -1,0 +1,5 @@
+//script1933(1933)()(void)
+if_sethide(if_gethash(811, 4), 1)
+if_setcolor(53149701, 0xC8AA64)
+script_41(53149731)
+return

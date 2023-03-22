@@ -1,0 +1,10 @@
+//script2994(2994)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(void)
+cc_create(arg1, 5, arg0)
+cc_setsize(0, 0, arg3, arg2)
+cc_setposition(0, 0, arg5, arg4)
+cc_setgraphic(arg6)
+cc_sethflip(arg7)
+cc_setvflip(arg8)
+cc_settiling(arg9)
+cc_settrans(arg10)
+return

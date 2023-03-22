@@ -1,0 +1,72 @@
+void script_1554(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	string str0;
+	script_1556(widget(500, 7), 0, 1, "Sort by name", arg0);
+	script_1556(widget(500, 8), 2, 3, "Sort by combat level", arg0);
+	script_1556(widget(500, 9), 4, 5, "Sort by skill total", arg0);
+	ARRAY0 = new int[arg0];
+	int1 = 0;
+	int2 = 0;
+	while (int2 == 0 && int1 < arg0) {
+		if (CHILD.setChild(widget(500, 10), int1 * 7) == true) {
+			ARRAY0[int1] = int1;
+			int1 = int1 + 1;
+		} else {
+			int2 = 1;
+		}
+	}
+	str0 = "";
+	if (int1 >= 2) {
+		if (VARC[181] == 2 || VARC[181] == 3) {
+			script_1555(0, 0, int1 - 1, 5);
+		} else if (VARC[181] == 4 || VARC[181] == 5) {
+			script_1555(0, 0, int1 - 1, 6);
+		} else {
+			script_1555(0, 0, int1 - 1, 4);
+		}
+	}
+	int3 = 0;
+	int4 = 0;
+	if (VARC[181] == 3 || VARC[181] == 5 || VARC[181] == 1) {
+		int3 = int1;
+		while (int3 > 0) {
+			int3 = int3 - 1;
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7) == true) {
+				CHILD.setPosition(0, int4, 1, 0);
+				script_1549(int3, 1);
+			}
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7 + 1) == true) {
+				CHILD.setPosition(CHILD.getX(), int4, 0, 0);
+			}
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7 + 2) == true) {
+				CHILD.setPosition(CHILD.getX(), int4, 0, 0);
+			}
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7 + 3) == true) {
+				CHILD.setPosition(CHILD.getX(), int4, 0, 0);
+			}
+			int4 = int4 + 13;
+		}
+	} else {
+		while (int3 < int1) {
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7) == true) {
+				CHILD.setPosition(0, int4, 1, 0);
+				script_1549(int3, 1);
+			}
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7 + 1) == true) {
+				CHILD.setPosition(CHILD.getX(), int4, 0, 0);
+			}
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7 + 2) == true) {
+				CHILD.setPosition(CHILD.getX(), int4, 0, 0);
+			}
+			if (CHILD.setChild(widget(500, 10), ARRAY0[int3] * 7 + 3) == true) {
+				CHILD.setPosition(CHILD.getX(), int4, 0, 0);
+			}
+			int4 = int4 + 13;
+			int3 = int3 + 1;
+		}
+	}
+	return;
+}

@@ -1,0 +1,9 @@
+void script_244(Widget widget0, int arg1, int arg2, Widget widget3) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setTrans(arg2);
+	}
+	if (widget3 != null) {
+		script_41(widget3);
+	}
+	return;
+}

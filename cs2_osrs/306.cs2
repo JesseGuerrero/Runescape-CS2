@@ -1,0 +1,76 @@
+void script_306(Widget widget0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	Item item9;
+	string str0;
+	widget0.clearChildren();
+	str0 = "Click on an item to imbue it.";
+	int1 = widget0.getWidth();
+	int2 = getLineCount(str0, int1, 495) * 12 + 5;
+	int3 = int1 / 7;
+	int4 = (int3 - 36) / 2;
+	int5 = 32 + 20;
+	int6 = 0;
+	int7 = getItemContainerLength(93);
+	int8 = 0;
+	item9 = null;
+	while (int6 < int7) {
+		item9 = getItemIdInSlot(93, int6);
+		CHILD.createChild(widget0, 5, int6 * 2);
+		_CHILD.createChild(widget0, 4, int6 * 2 + 1);
+		if (item9 != null) {
+			if (datamap('o', 'O', 815, item9) != null) {
+				CHILD.setPosition(int4 + int8 % 7 * int3, int2 + int8 / 7 * int5, 0, 0);
+				CHILD.setSize(36, 32, 0, 0);
+				CHILD.setItem(item9, getItemAmtInSlot(93, int6));
+				CHILD.setShadowColor(0x333333);
+				CHILD.setOutlineThickness(1);
+				CHILD.setContextMenuOption(1, "Imbue");
+				CHILD.setContextMenuOption(10, "Examine");
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item9));
+				CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 50, null));
+				CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 0, null));
+				_CHILD.setPosition(CHILD.getX(), CHILD.getY() + 32, 0, 0);
+				_CHILD.setSize(36, 15, 0, 0);
+				_CHILD.setFont(494);
+				_CHILD.setTextAntiMacro(true);
+				_CHILD.setRGB(0xFF981F);
+				_CHILD.setTextAlignment(1, 0, 0);
+				_CHILD.setText(script_275(item9));
+				int8 = int8 + 1;
+			} else {
+				CHILD.setHidden(true);
+				_CHILD.setHidden(true);
+			}
+		} else {
+			CHILD.setHidden(true);
+			_CHILD.setHidden(true);
+		}
+		int6 = int6 + 1;
+	}
+	CHILD.createChild(widget0, 4, int6 * 2);
+	CHILD.setSize(int1, int2, 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str0);
+	if (int8 <= 0) {
+		CHILD.createChild(widget0, 4, int6 * 2 + 1);
+		CHILD.setSize(int1, widget0.getHeight() - int2, 0, 0);
+		CHILD.setPosition(0, int2, 0, 0);
+		CHILD.setFont(496);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText("There are no items in your inventory that can be imbued." + "<br>" + "<br>" + "Dominic can imbue crystal bows, crystal shields," + "<br>" + "black masks, salve amulets & certain rings.");
+	}
+	return;
+}

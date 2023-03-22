@@ -1,0 +1,24 @@
+//script5777(5777)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 1
+iVar3 = 0
+while(iVar2 <= 8) {
+	if(arg0 == iVar2)
+		iVar3 = arg1
+	else
+		iVar3 = 0
+	if(if_isopenwithid(917, 48889885) == 1)
+		script_5779(iVar3, iVar2, 60096610)
+	if(if_isopenwithid2(1221, 48889866) == 1)
+		script_5779(iVar3, iVar2, 80019461)
+	if(if_isopenwithid2(1222, 48889866) == 1)
+		script_5779(iVar3, iVar2, 80085020)
+	if(if_isopenwithid2(1219, 48889865) == 1) {
+		script_5779(iVar3, iVar2, 79888389)
+		if(iVar3 == 0)
+			script_5779(0, 1, 79888396)
+	}
+	iVar2 = iVar2 + 1
+}
+return

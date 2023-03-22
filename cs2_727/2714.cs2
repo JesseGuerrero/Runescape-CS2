@@ -1,0 +1,78 @@
+//script2714(2714)(int arg0, int arg1)(void)
+int iVar2
+if(instr6703() == -3)
+	return
+if(instr6323() == -3)
+	return
+if(instr6702() == -3)
+	return
+iVar2 = load_varc(174)
+store_varc(174, arg0)
+store_varc(175, client_clock())
+switch(arg0) {
+	case default:
+		break
+	case 6:
+		if(arg1 == 1) {
+			store_varc(1099, string_length(load_varc_string(122)))
+			script_3218(44105827, 44105771, 44105828, 6, load_varc_string(122))
+		}
+		break
+	case 14:
+		if(arg1 == 1) {
+			store_varc(1099, string_length(load_varc_string(326)))
+			script_3218(44105846, 44105847, 44105848, 14, load_varc_string(326))
+		}
+		break
+	case 7:
+		if(arg1 == 1) {
+			store_varc(1099, string_length(load_varc_string(124)))
+			script_3218(44105817, 44105818, 44105819, 7, script_2949(load_varc_string(124)))
+		}
+		break
+	case 8:
+		if(arg1 == 1) {
+			store_varc(1099, string_length(load_varc_string(125)))
+			script_3218(44105807, 44105808, 44105809, 8, script_2949(load_varc_string(125)))
+		}
+		break
+	case 15:
+		if(arg1 == 1)
+			if(load_varc(1407) < 1) {
+				store_varc(1099, 0)
+				script_3218(44105853, 44105770, 44105854, 15, "")
+			} else  {
+				store_varc(1099, string_length(to_string(load_varc(1407))))
+				script_3218(44105853, 44105770, 44105854, 15, to_string(load_varc(1407)))
+			}
+		break
+
+}
+if(iVar2 == 6)
+	if(arg0 != 6)
+		if(compare(load_varc_string(122), load_varc_string(123)) != 0)
+			script_2283(0, 1)
+	else
+		if(iVar2 == 14)
+			if(arg0 != 14)
+				if(compare(load_varc_string(326), load_varc_string(327)) != 0)
+					script_3953(0)
+			else
+				if(iVar2 == 7)
+					if(arg0 != 7)
+						if(compare(load_varc_string(124), load_varc_string(328)) != 0) {
+							pop_int()
+							if(string_length(load_varc_string(125)) > 0)
+								pop_int()
+						}
+					else
+						if(iVar2 == 8)
+							if(arg0 != 8)
+								if(compare(load_varc_string(125), load_varc_string(329)) != 0)
+									pop_int()
+							else
+								if(iVar2 == 15)
+									if(arg0 != 15)
+										if(load_varc(1408) != load_varc(1407))
+											pop_int()
+return

@@ -1,0 +1,7 @@
+//script5873(5873)()(void)
+int iVar0
+int iVar1
+iVar0 = if_getwidth(if_gethash(429, 58)) - if_getwidth(if_gethash(429, 59))
+iVar1 = scale(iVar0, 127, detailget_voiceover_volume())
+if_setposition(if_gethash(429, 59), 0, 0, 0, iVar1)
+return

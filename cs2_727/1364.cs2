@@ -1,0 +1,339 @@
+//script1364(1364)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = -1
+if(instr6644() >= 2) {
+	cc_deleteall(if_gethash(752, 2))
+	script_5392(49283074, 0, 0)
+	if(if_gethide(if_gethash(752, 8)) == 1)
+		if(if_gethide(if_gethash(752, 3)) == 0 || if_gethide(if_gethash(752, 7)) == 0) {
+			if_sethide(if_gethash(746, 22), 0)
+			if_setgraphic(if_gethash(752, 1), 8489)
+			if_sethide(if_gethash(752, 1), 0)
+			cc_deleteall(if_gethash(752, 2))
+			script_5392(49283074, 0, 0)
+			if_setalpha(if_gethash(752, 1), 0)
+		} else 
+			if(if_isopen(49283085) == 1) {
+				if_sethide(if_gethash(746, 22), 0)
+				if_sethide(if_gethash(752, 13), 0)
+				if_sethide(if_gethash(752, 12), 1)
+				if_sethide(if_gethash(752, 11), 1)
+				if_sethide(if_gethash(752, 10), 1)
+				if_sethide(if_gethash(752, 9), 1)
+				if_sethide(if_gethash(752, 1), 0)
+				if_setalpha(if_gethash(752, 1), 1)
+				if(load_varpbit(542) == 0)
+					if_setgraphic(if_gethash(752, 1), 1204)
+				else
+					if_setgraphic(if_gethash(752, 1), 1205)
+			} else 
+				if(if_isopen(49283084) == 1) {
+					if_sethide(if_gethash(746, 22), 0)
+					if_sethide(if_gethash(752, 13), 1)
+					if_sethide(if_gethash(752, 12), 0)
+					if_sethide(if_gethash(752, 11), 1)
+					if_sethide(if_gethash(752, 10), 1)
+					if_sethide(if_gethash(752, 9), 1)
+					if_sethide(if_gethash(752, 1), 0)
+					if_setalpha(if_gethash(752, 1), 1)
+					if(load_varpbit(542) == 0)
+						if_setgraphic(if_gethash(752, 1), 1204)
+					else
+						if_setgraphic(if_gethash(752, 1), 1205)
+				} else 
+					if(if_isopen(49283083) == 1) {
+						if_sethide(if_gethash(746, 22), 0)
+						if_sethide(if_gethash(752, 13), 1)
+						if_sethide(if_gethash(752, 12), 1)
+						if_sethide(if_gethash(752, 11), 0)
+						if_sethide(if_gethash(752, 10), 1)
+						if_sethide(if_gethash(752, 9), 1)
+						if_sethide(if_gethash(752, 1), 0)
+						if_setalpha(if_gethash(752, 1), 1)
+						if(load_varpbit(542) == 0)
+							if_setgraphic(if_gethash(752, 1), 1204)
+						else
+							if_setgraphic(if_gethash(752, 1), 1205)
+					} else 
+						if(if_isopen(49283082) == 1) {
+							if_sethide(if_gethash(746, 22), 0)
+							if_sethide(if_gethash(752, 13), 1)
+							if_sethide(if_gethash(752, 12), 1)
+							if_sethide(if_gethash(752, 11), 1)
+							if_sethide(if_gethash(752, 10), 0)
+							if_sethide(if_gethash(752, 9), 1)
+							if_sethide(if_gethash(752, 1), 0)
+							if_setalpha(if_gethash(752, 1), 1)
+							if(load_varpbit(542) == 0)
+								if_setgraphic(if_gethash(752, 1), 1204)
+							else
+								if_setgraphic(if_gethash(752, 1), 1205)
+						} else 
+							if(if_isopen(49283081) == 1) {
+								if(load_varc(41) == -1) {
+									if_sethide(if_gethash(746, 22), 1)
+									if_sethide(if_gethash(746, 49), 1)
+								} else  {
+									if_sethide(if_gethash(746, 22), 0)
+									if_sethide(if_gethash(746, 49), 0)
+								}
+								if_sethide(if_gethash(752, 13), 1)
+								if_sethide(if_gethash(752, 12), 1)
+								if_sethide(if_gethash(752, 11), 1)
+								if_sethide(if_gethash(752, 10), 1)
+								if_sethide(if_gethash(752, 9), 0)
+								if_sethide(if_gethash(752, 1), 0)
+								if(if_gethide(if_gethash(137, 0)) == 0) {
+									if_setgraphic(if_gethash(752, 1), 8489)
+									if_setalpha(if_gethash(752, 1), 0)
+									cc_deleteall(if_gethash(752, 2))
+									script_5392(49283074, 0, 0)
+								} else  {
+									cc_deleteall(if_gethash(752, 2))
+									script_5392(49283074, 22, 0)
+									if_setgraphic(if_gethash(752, 1), 1247)
+									if_setalpha(if_gethash(752, 1), 1)
+									if_settiling(if_gethash(752, 1), 0)
+									if_sethide(if_gethash(137, 51), 1)
+									if_sethide(if_gethash(137, 52), 0)
+									script_1301(8978490, 8978489)
+									if_settextshadow(if_gethash(137, 55), 1)
+									if_setcolor(8978487, 0xFFFFFF)
+									script_1558(0)
+									script_84()
+								}
+							}
+	if(if_isopen(48889965) == 1) {
+		if_sethide(if_gethash(746, 57), 1)
+		if_sethide(if_gethash(746, 58), 1)
+		if_sethide(if_gethash(746, 21), 1)
+		if_sethide(if_gethash(746, 109), 0)
+		if_sethide(if_gethash(746, 110), 1)
+		if_sethide(if_gethash(746, 108), 0)
+		if_sethide(if_gethash(746, 111), 1)
+		if_sethide(if_gethash(746, 195), 1)
+	} else  {
+		if_sethide(if_gethash(746, 57), 0)
+		if_sethide(if_gethash(746, 58), 0)
+		if(load_varpbit(6448) == 0)
+			if_sethide(if_gethash(746, 21), 0)
+		if_sethide(if_gethash(746, 111), 0)
+		if_sethide(if_gethash(746, 195), 0)
+		if(if_isopen(48889966) == 0)
+			if_sethide(if_gethash(746, 109), 1)
+		script_71(load_varc(168))
+		if(if_gethide(if_gethash(746, 112)) == 0 || if_gethide(if_gethash(746, 113)) == 0 || if_gethide(if_gethash(746, 114)) == 0 || if_gethide(if_gethash(746, 115)) == 0 || if_gethide(if_gethash(746, 116)) == 0 || if_gethide(if_gethash(746, 117)) == 0 || if_gethide(if_gethash(746, 118)) == 0 || if_gethide(if_gethash(746, 119)) == 0 || if_gethide(if_gethash(746, 120)) == 0 || if_gethide(if_gethash(746, 121)) == 0 || if_gethide(if_gethash(746, 122)) == 0 || if_gethide(if_gethash(746, 123)) == 0 || if_gethide(if_gethash(746, 124)) == 0 || if_gethide(if_gethash(746, 125)) == 0 || if_gethide(if_gethash(746, 126)) == 0 || if_gethide(if_gethash(746, 127)) == 0 || if_gethide(if_gethash(746, 129)) == 0 || if_gethide(if_gethash(746, 130)) == 0)
+			if_sethide(if_gethash(746, 108), 0)
+		else
+			if_sethide(if_gethash(746, 108), 1)
+		instr6342(if_gethash(746, 22), script_2464, "iI", client_clock(), -2147483645)
+	}
+	if_sethide(if_gethash(548, 173), 1)
+	iVar0 = 0
+	while(iVar0 <= 15) {
+		if(if_isopen(script_8(iVar0)) == 1) {
+			if_sethide(script_121(iVar0), 0)
+			if_sethide(script_2458(iVar0), 0)
+		} else  {
+			if_sethide(script_121(iVar0), 1)
+			if_sethide(script_2458(iVar0), 1)
+		}
+		iVar0 = iVar0 + 1
+	}
+	iVar1 = script_8(95)
+	if(if_isopenwithid2(662, iVar1) == 1 || if_isopenwithid2(663, iVar1) == 1)
+		if_sethide(if_gethash(747, 9), 0)
+	else
+		if_sethide(if_gethash(747, 9), 1)
+	iVar0 = 0
+	cc_deleteall(if_gethash(746, 42))
+	if(if_gethide(if_gethash(746, 58)) == 1)
+		while(iVar0 <= 15) {
+			if(instr6004(script_2459(iVar0)) == 1)
+				cc_setparam_int(0, 358)
+			hook_mouse_enter(script_2459(iVar0), None, "")
+			if_setonmouseover(script_2459(iVar0), None, "")
+			hook_mouse_exit(script_2459(iVar0), None, "")
+			if_setgraphic(script_2459(iVar0), 8547)
+			iVar0 = iVar0 + 1
+		}
+	else
+		while(iVar0 <= 15) {
+			if(instr6004(script_2459(iVar0)) == 1)
+				cc_setparam_int(0, 358)
+			if(if_gethide(script_121(iVar0)) == 1) {
+				hook_mouse_enter(script_2459(iVar0), None, "")
+				if_setonmouseover(script_2459(iVar0), None, "")
+				hook_mouse_exit(script_2459(iVar0), None, "")
+				if_setgraphic(script_2459(iVar0), 8547)
+			} else  {
+				hook_mouse_enter(script_2459(iVar0), script_1292, "I1", -2147483645, 1)
+				if_setonmouseover(script_2459(iVar0), script_5515, "IIs", if_gethash(746, 42), script_2459(iVar0), if_getoptionname(script_2458(iVar0), 1))
+				hook_mouse_exit(script_2459(iVar0), script_1292, "I1", -2147483645, 0)
+			}
+			iVar0 = iVar0 + 1
+		}
+	script_1313()
+	if_setposition(if_gethash(745, 0), 0, 0, 0, 0)
+	if_setsize(if_gethash(745, 0), 0, 0, 35, 115)
+	if_setposition(if_gethash(745, 1), 0, 0, 0, 80)
+	if_setposition(if_gethash(745, 2), 0, 0, 0, 40)
+	if_setposition(if_gethash(745, 3), 0, 0, 0, 0)
+	if_setposition(if_gethash(745, 4), 0, 0, 0, 0)
+	if_setposition(if_gethash(745, 5), 0, 0, 0, 0)
+	if_setposition(if_gethash(745, 6), 0, 0, 0, 0)
+	if_setsize(if_gethash(745, 1), 0, 0, 35, 35)
+	if_setsize(if_gethash(745, 2), 0, 0, 35, 35)
+	if_setsize(if_gethash(745, 3), 0, 0, 35, 35)
+	if_setsize(if_gethash(745, 4), 0, 0, 35, 35)
+	if_setsize(if_gethash(745, 5), 0, 0, 35, 35)
+	if_setsize(if_gethash(745, 6), 0, 0, 35, 35)
+	if_setgraphic(if_gethash(745, 1), 1563)
+	if_setgraphic(if_gethash(745, 2), 1562)
+	if_setgraphic(if_gethash(745, 3), 1579)
+	if_setgraphic(if_gethash(745, 4), 1580)
+	if_setgraphic(if_gethash(745, 6), 1581)
+	if(load_varc(1701) == 1)
+		if_setnoclickthrough(48889878, 0)
+	else
+		if_setnoclickthrough(48889878, 1)
+} else  {
+	if(load_varc(41) == -1)
+		if(load_varp(281) >= 1000) {
+			store_varc(41, 0)
+			script_181(0)
+			script_84()
+			script_89()
+		}
+	if_setgraphic(if_gethash(752, 1), 1017)
+	if_sethide(if_gethash(752, 1), 0)
+	cc_deleteall(if_gethash(752, 2))
+	script_1088(49283074, 0)
+	if_setalpha(if_gethash(752, 1), 0)
+	if_settiling(if_gethash(752, 1), 1)
+	if(if_isopen(49283085) == 1) {
+		if_sethide(if_gethash(752, 13), 0)
+		if_sethide(if_gethash(752, 12), 1)
+		if_sethide(if_gethash(752, 11), 1)
+		if_sethide(if_gethash(752, 10), 1)
+		if_sethide(if_gethash(752, 9), 1)
+	} else 
+		if(if_isopen(49283084) == 1) {
+			if_sethide(if_gethash(752, 13), 1)
+			if_sethide(if_gethash(752, 12), 0)
+			if_sethide(if_gethash(752, 11), 1)
+			if_sethide(if_gethash(752, 10), 1)
+			if_sethide(if_gethash(752, 9), 1)
+		} else 
+			if(if_isopen(49283083) == 1) {
+				if_sethide(if_gethash(752, 13), 1)
+				if_sethide(if_gethash(752, 12), 1)
+				if_sethide(if_gethash(752, 11), 0)
+				if_sethide(if_gethash(752, 10), 1)
+				if_sethide(if_gethash(752, 9), 1)
+			} else 
+				if(if_isopen(49283082) == 1) {
+					if_sethide(if_gethash(752, 13), 1)
+					if_sethide(if_gethash(752, 12), 1)
+					if_sethide(if_gethash(752, 11), 1)
+					if_sethide(if_gethash(752, 10), 0)
+					if_sethide(if_gethash(752, 9), 1)
+				} else 
+					if(if_isopen(49283081) == 1) {
+						if_sethide(if_gethash(752, 13), 1)
+						if_sethide(if_gethash(752, 12), 1)
+						if_sethide(if_gethash(752, 11), 1)
+						if_sethide(if_gethash(752, 10), 1)
+						if_sethide(if_gethash(752, 9), 0)
+						if_sethide(if_gethash(137, 51), 0)
+						if_sethide(if_gethash(137, 52), 1)
+						script_1301(8978490, 8978489)
+						if_settextshadow(if_gethash(137, 55), 0)
+						if_setcolor(8978487, 0x0)
+						script_1558(0)
+						script_84()
+					}
+	if(if_isopen(35913900) == 1) {
+		if_sethide(if_gethash(548, 65), 1)
+		if_sethide(if_gethash(548, 66), 1)
+		if_sethide(if_gethash(548, 111), 1)
+		if_sethide(if_gethash(548, 128), 1)
+		if_sethide(if_gethash(548, 172), 0)
+		if_sethide(if_gethash(548, 173), 1)
+		if_sethide(if_gethash(548, 174), 1)
+		if_sethide(if_gethash(548, 159), 1)
+	} else  {
+		if_sethide(if_gethash(548, 65), 0)
+		if_sethide(if_gethash(548, 66), 0)
+		if_sethide(if_gethash(548, 111), 0)
+		if_sethide(if_gethash(548, 128), 0)
+		if_sethide(if_gethash(548, 174), 0)
+		if_sethide(if_gethash(548, 159), 0)
+		if_sethide(if_gethash(746, 109), 1)
+		if(if_isopen(35913901) == 0)
+			if_sethide(if_gethash(548, 173), 1)
+		script_71(load_varc(168))
+		instr6342(if_gethash(548, 168), script_2464, "iI", client_clock(), -2147483645)
+	}
+	iVar0 = 0
+	while(iVar0 <= 15) {
+		if(if_isopen(script_8(iVar0)) == 1) {
+			if_sethide(script_121(iVar0), 0)
+			if_sethide(script_2458(iVar0), 0)
+		} else  {
+			if_sethide(script_121(iVar0), 1)
+			if_sethide(script_2458(iVar0), 1)
+		}
+		iVar0 = iVar0 + 1
+	}
+	iVar1 = script_8(95)
+	if(if_isopenwithid2(662, iVar1) == 1 || if_isopenwithid2(663, iVar1) == 1)
+		if_sethide(if_gethash(747, 9), 0)
+	else
+		if_sethide(if_gethash(747, 9), 1)
+	iVar0 = 0
+	if(if_gethide(if_gethash(548, 65)) == 1)
+		if(if_gethide(if_gethash(548, 111)) == 1)
+			while(iVar0 <= 15) {
+				hook_mouse_enter(script_2459(iVar0), None, "")
+				hook_mouse_exit(script_2459(iVar0), None, "")
+				if_setgraphic(script_2459(iVar0), 1835)
+				iVar0 = iVar0 + 1
+			}
+		else
+			while(iVar0 <= 15) {
+				if(if_gethide(script_121(iVar0)) == 1) {
+					hook_mouse_enter(script_2459(iVar0), None, "")
+					hook_mouse_exit(script_2459(iVar0), None, "")
+					if_setgraphic(script_2459(iVar0), 1835)
+				} else  {
+					hook_mouse_enter(script_2459(iVar0), script_2462, "I1", -2147483645, 1)
+					hook_mouse_exit(script_2459(iVar0), script_2462, "I1", -2147483645, 0)
+				}
+				iVar0 = iVar0 + 1
+			}
+	script_1337()
+	if_setposition(if_gethash(745, 0), 0, 0, 0, 0)
+	if_setsize(if_gethash(745, 0), 0, 0, 25, 82)
+	if_setposition(if_gethash(745, 1), 0, 0, 0, 57)
+	if_setposition(if_gethash(745, 2), 0, 0, 0, 28)
+	if_setposition(if_gethash(745, 3), 0, 0, 0, 0)
+	if_setposition(if_gethash(745, 4), 0, 0, 0, 0)
+	if_setposition(if_gethash(745, 5), 0, 0, 0, 0)
+	if_setposition(if_gethash(745, 6), 0, 0, 0, 0)
+	if_setsize(if_gethash(745, 1), 0, 0, 25, 25)
+	if_setsize(if_gethash(745, 2), 0, 0, 25, 25)
+	if_setsize(if_gethash(745, 3), 0, 0, 25, 25)
+	if_setsize(if_gethash(745, 4), 0, 0, 25, 25)
+	if_setsize(if_gethash(745, 5), 0, 0, 25, 25)
+	if_setsize(if_gethash(745, 6), 0, 0, 25, 25)
+	if_setgraphic(if_gethash(745, 1), 442)
+	if_setgraphic(if_gethash(745, 2), 1073)
+	if_setgraphic(if_gethash(745, 3), 1576)
+	if_setgraphic(if_gethash(745, 4), 1578)
+	if_setgraphic(if_gethash(745, 6), 1577)
+}
+script_722()
+return

@@ -1,0 +1,7 @@
+//script4237(4237)()(void)
+if(load_varc(1495) == 0)
+	if(load_varpbit(8960) > 0)
+		store_varc(1495, client_clock())
+	else
+		return
+return

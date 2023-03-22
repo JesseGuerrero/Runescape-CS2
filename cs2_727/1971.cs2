@@ -1,0 +1,27 @@
+//script1971(1971)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if(load_varc(618) < 0 || load_varc(618) > 25)
+			store_varc(618, 0)
+		if_settext(arg1, enum(2121, load_varc(618), 'i', 's'))
+		break
+	case 1:
+		if(load_varc(619) < 0 || load_varc(619) > 25)
+			store_varc(619, 0)
+		if_settext(arg1, enum(2121, load_varc(619), 'i', 's'))
+		break
+	case 2:
+		if(load_varc(620) < 0 || load_varc(620) > 25)
+			store_varc(620, 0)
+		if_settext(arg1, enum(2121, load_varc(620), 'i', 's'))
+		break
+	case 3:
+		if(load_varc(621) < 0 || load_varc(621) > 25)
+			store_varc(621, 0)
+		if_settext(arg1, enum(2121, load_varc(621), 'i', 's'))
+		break
+
+}
+return

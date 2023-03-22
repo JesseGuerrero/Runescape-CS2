@@ -1,0 +1,6 @@
+void script_1107(Widget widget0, Widget widget1, int arg2) {
+	widget0.hookMouseExit(&script_40(widget(arg2)));
+	script_1111(widget0, widget1, arg2, getDisplayMode());
+	widget0.hookVARP(&script_1108(widget0, widget1, widget(arg2)), 1055, 287);
+	return;
+}

@@ -1,0 +1,7 @@
+//script2891(2891)(int arg0, int arg1)(void)
+if(client_clock() >= arg0) {
+	script_1728(31195153)
+	if_sethide(if_gethash(476, 17), 1)
+	instr6342(arg1, None, "")
+}
+return

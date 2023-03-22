@@ -1,0 +1,3 @@
+//script2751(2751)()(void)
+if_settext(if_gethash(1051, 11), to_string(load_varp(1652)) + " " + enum(950, load_varp(1653), 'i', 's') + " " + to_string(load_varp(1654)))
+return

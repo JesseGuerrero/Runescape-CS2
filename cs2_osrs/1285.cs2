@@ -1,0 +1,27 @@
+Color script_1285(int arg0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	if (arg4 <= arg2) {
+		return color(arg0);
+	}
+	if (arg4 >= arg3) {
+		return color(arg1);
+	}
+	int5 = arg0 / 256 / 256;
+	int6 = arg1 / 256 / 256;
+	int7 = bitAnd(arg0 / 256, 255);
+	int8 = bitAnd(arg1 / 256, 255);
+	int9 = bitAnd(arg0, 255);
+	int10 = bitAnd(arg1, 255);
+	int11 = mathMethod4006(int5, int6, arg2, arg3, arg4);
+	int12 = mathMethod4006(int7, int8, arg2, arg3, arg4);
+	int13 = mathMethod4006(int9, int10, arg2, arg3, arg4);
+	return color(int11 * 256 * 256 + int12 * 256 + int13);
+}

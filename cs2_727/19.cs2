@@ -1,0 +1,358 @@
+//script19(19)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = inv_getitem(3, 94)
+iVar4 = 0
+if(iVar3 == 24203 || iVar3 == 24200)
+	iVar2 = script_6185(arg0, arg1)
+if(arg0 == 556) {
+	if(item_param(972, iVar3) == 1)
+		return 99999999
+	if(inv_total(1381, 94) > 0)
+		return 99999999
+	if(inv_total(15598, 94) > 0)
+		return 99999999
+	if(inv_total(17009, 94) > 0)
+		return 99999999
+	if(inv_total(17011, 94) > 0)
+		return 99999999
+	if(inv_total(16169, 94) > 0)
+		return 99999999
+	if(inv_total(16170, 94) > 0)
+		return 99999999
+	if(load_varpbit(10129) == 1)
+		return 99999999
+	if(script_1(94, 1397) > 0)
+		return 99999999
+	if(script_1(94, 1405) > 0)
+		return 99999999
+	if(script_1(94, 19327) > 0)
+		return 99999999
+	if(script_1(94, 21777) > 0)
+		return 99999999
+	if(script_1(94, 21490) > 0)
+		return 99999999
+	if(script_1(94, 21496) > 0)
+		return 99999999
+	if(script_1(94, 21500) > 0)
+		return 99999999
+	iVar2 = ((((((iVar2 + inv_total(556, 93)) + inv_total(17780, 93)) + inv_total(16091, 93)) + script_1(93, 4697)) + script_1(93, 4695)) + script_1(93, 4696)) + inv_total(20941, 93)
+	if(arg1 == 12582946 || arg1 == 12582951 || arg1 == 12582954 || arg1 == 62259232 || arg1 == 62259237 || arg1 == 62259236)
+		if(inv_getitem(5, 94) == 19671 || inv_getitem(5, 94) == 19867 || inv_getitem(5, 94) == 19865)
+			if(load_varc(1334) > 0)
+				iVar2 = iVar2 + (load_varc(1334) * 2)
+	if(arg1 == 12582957 || arg1 == 62259241)
+		if(inv_getitem(5, 94) == 19671 || inv_getitem(5, 94) == 19867 || inv_getitem(5, 94) == 19865)
+			if(load_varc(1334) > 0)
+				iVar2 = iVar2 + (load_varc(1334) * 3)
+	if(arg1 == 12582961 || arg1 == 12582964 || arg1 == 12582970 || arg1 == 62259242 || arg1 == 62259245 || arg1 == 62259243)
+		if(inv_getitem(5, 94) == 19671 || inv_getitem(5, 94) == 19867 || inv_getitem(5, 94) == 19865)
+			if(load_varc(1335) > 0)
+				iVar2 = iVar2 + (load_varc(1335) * 3)
+	if(arg1 == 12582975 || arg1 == 62259247)
+		if(inv_getitem(5, 94) == 19671 || inv_getitem(5, 94) == 19867 || inv_getitem(5, 94) == 19865)
+			if(load_varc(1335) > 0)
+				iVar2 = iVar2 + (load_varc(1335) * 4)
+	if(arg1 == 12582982 || arg1 == 12582985 || arg1 == 12582989 || arg1 == 12582992 || arg1 == 62259248 || arg1 == 62259254 || arg1 == 62259249 || arg1 == 62259258)
+		if(inv_getitem(5, 94) == 19889 || inv_getitem(5, 94) == 19868 || inv_getitem(5, 94) == 19866)
+			if(load_varc(1402) > 0)
+				iVar2 = iVar2 + (load_varc(1402) * 5)
+	if(arg1 == 12582996 || arg1 == 12582999 || arg1 == 12583001 || arg1 == 12583003 || arg1 == 62259261 || arg1 == 62259263 || arg1 == 62259262 || arg1 == 62259267)
+		if(inv_getitem(5, 94) == 19889 || inv_getitem(5, 94) == 19868 || inv_getitem(5, 94) == 19866)
+			if(load_varc(1403) > 0)
+				iVar2 = iVar2 + (load_varc(1403) * 7)
+	if(script_5481() == 1)
+		iVar2 = iVar2 + inv_total(12850, 93)
+	return iVar2
+}
+if(arg0 == 555) {
+	if(item_param(973, iVar3) == 1)
+		return 99999999
+	if(inv_total(1383, 94) > 0)
+		return 99999999
+	if(inv_total(16997, 94) > 0)
+		return 99999999
+	if(inv_total(16999, 94) > 0)
+		return 99999999
+	if(inv_total(16163, 94) > 0)
+		return 99999999
+	if(inv_total(16164, 94) > 0)
+		return 99999999
+	if(inv_total(18346, 94) > 0)
+		return 99999999
+	if(load_varpbit(10129) == 1)
+		return 99999999
+	if(script_1(94, 1395) > 0)
+		return 99999999
+	if(script_1(94, 1403) > 0)
+		return 99999999
+	if(script_1(94, 6562) > 0)
+		return 99999999
+	if(script_1(94, 6563) > 0)
+		return 99999999
+	if(script_1(94, 11736) > 0)
+		return 99999999
+	if(script_1(94, 11738) > 0)
+		return 99999999
+	if(script_1(94, 19325) > 0)
+		return 99999999
+	if(script_1(94, 21491) > 0)
+		return 99999999
+	if(script_1(94, 21495) > 0)
+		return 99999999
+	if(script_1(94, 21499) > 0)
+		return 99999999
+	if(script_1(94, 21506) > 0)
+		return 99999999
+	if(script_1(94, 21507) > 0)
+		return 99999999
+	if(script_1(94, 21504) > 0)
+		return 99999999
+	if(script_1(94, 21505) > 0)
+		return 99999999
+	iVar2 = ((((((iVar2 + inv_total(555, 93)) + inv_total(17781, 93)) + inv_total(16092, 93)) + script_1(93, 4694)) + script_1(93, 4695)) + script_1(93, 4698)) + inv_total(20940, 93)
+	if(script_5481() == 1)
+		iVar2 = iVar2 + inv_total(12850, 93)
+	return iVar2
+}
+if(arg0 == 557) {
+	if(item_param(974, iVar3) == 1)
+		return 99999999
+	if(inv_total(1385, 94) > 0)
+		return 99999999
+	if(inv_total(17001, 94) > 0)
+		return 99999999
+	if(inv_total(17003, 94) > 0)
+		return 99999999
+	if(inv_total(16165, 94) > 0)
+		return 99999999
+	if(inv_total(16166, 94) > 0)
+		return 99999999
+	if(load_varpbit(10129) == 1)
+		return 99999999
+	if(script_1(94, 1399) > 0)
+		return 99999999
+	if(script_1(94, 1407) > 0)
+		return 99999999
+	if(script_1(94, 3053) > 0)
+		return 99999999
+	if(script_1(94, 3054) > 0)
+		return 99999999
+	if(script_1(94, 6562) > 0)
+		return 99999999
+	if(script_1(94, 6563) > 0)
+		return 99999999
+	if(script_1(94, 19329) > 0)
+		return 99999999
+	if(script_1(94, 21492) > 0)
+		return 99999999
+	if(script_1(94, 21497) > 0)
+		return 99999999
+	if(script_1(94, 21501) > 0)
+		return 99999999
+	if(script_1(94, 21502) > 0)
+		return 99999999
+	if(script_1(94, 21503) > 0)
+		return 99999999
+	if(script_1(94, 21504) > 0)
+		return 99999999
+	if(script_1(94, 21505) > 0)
+		return 99999999
+	iVar2 = ((((((iVar2 + inv_total(557, 93)) + inv_total(17782, 93)) + inv_total(16093, 93)) + script_1(93, 4696)) + script_1(93, 4699)) + script_1(93, 4698)) + inv_total(20942, 93)
+	if(script_5481() == 1)
+		iVar2 = iVar2 + inv_total(12850, 93)
+	return iVar2
+}
+if(arg0 == 554) {
+	if(item_param(975, iVar3) == 1)
+		return 99999999
+	if(inv_total(1387, 94) > 0)
+		return 99999999
+	if(inv_total(17005, 94) > 0)
+		return 99999999
+	if(inv_total(17007, 94) > 0)
+		return 99999999
+	if(inv_total(16167, 94) > 0)
+		return 99999999
+	if(inv_total(16168, 94) > 0)
+		return 99999999
+	if(load_varpbit(10129) == 1)
+		return 99999999
+	if(script_1(94, 1393) > 0)
+		return 99999999
+	if(script_1(94, 1401) > 0)
+		return 99999999
+	if(script_1(94, 3053) > 0)
+		return 99999999
+	if(script_1(94, 3054) > 0)
+		return 99999999
+	if(script_1(94, 11736) > 0)
+		return 99999999
+	if(script_1(94, 11738) > 0)
+		return 99999999
+	if(script_1(94, 19323) > 0)
+		return 99999999
+	if(script_1(94, 21493) > 0)
+		return 99999999
+	if(script_1(94, 21494) > 0)
+		return 99999999
+	if(script_1(94, 21498) > 0)
+		return 99999999
+	if(script_1(94, 21502) > 0)
+		return 99999999
+	if(script_1(94, 21503) > 0)
+		return 99999999
+	if(script_1(94, 21506) > 0)
+		return 99999999
+	if(script_1(94, 21507) > 0)
+		return 99999999
+	iVar2 = ((((((iVar2 + inv_total(554, 93)) + inv_total(17783, 93)) + inv_total(16094, 93)) + script_1(93, 4694)) + script_1(93, 4697)) + script_1(93, 4699)) + inv_total(20939, 93)
+	if(script_5481() == 1)
+		iVar2 = iVar2 + inv_total(12850, 93)
+	return iVar2
+}
+if(arg0 == 8843)
+	return script_1(94, 2416) + script_1(94, 8841)
+if(arg0 == 4170)
+	return ((((((script_1(94, 4170) + script_1(94, 15486)) + script_1(94, 15502)) + script_1(94, 22207)) + script_1(94, 22213)) + script_1(94, 22211)) + script_1(94, 22209)) + script_6185(arg0, arg1)
+if(arg0 == 1409 || arg0 == 2415 || arg0 == 2417)
+	return script_1(94, arg0)
+if(arg0 == 13867)
+	if(script_1(94, 13869) > 0)
+		return script_1(94, 13869)
+	else
+		if(script_1(94, 13941) > 0)
+			return script_1(94, 13941)
+		else
+			if(script_1(94, 13943) > 0)
+				return script_1(94, 13943)
+			else
+				return script_1(94, arg0)
+if(arg0 == 21514)
+	return script_1(94, 21514)
+if(script_5481() == 1)
+	switch(arg0) {
+		case default:
+			break
+		case 21773:
+			return script_1(93, arg0) + script_1(93, 12851)
+
+
+	}
+switch(arg0) {
+	case default:
+		break
+	case 559:
+		if(item_param(2513, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 558:
+		if(item_param(2512, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 564:
+		if(item_param(2518, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 562:
+		if(item_param(2514, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 561:
+		if(item_param(2519, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 560:
+		if(item_param(2515, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 563:
+		if(item_param(2521, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 566:
+		if(item_param(2517, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 565:
+		if(item_param(2516, iVar3) == 1)
+			iVar4 = 99999999
+		break
+	case 9075:
+		if(item_param(2520, iVar3) == 1)
+			iVar4 = 99999999
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 559:
+		return ((((iVar2 + iVar4) + inv_total(559, 93)) + inv_total(17788, 93)) + inv_total(16099, 93)) + inv_total(20944, 93)
+
+	case 558:
+		return ((((iVar2 + iVar4) + inv_total(558, 93)) + inv_total(17784, 93)) + inv_total(16095, 93)) + inv_total(20943, 93)
+
+	case 564:
+		return (((iVar2 + iVar4) + inv_total(564, 93)) + inv_total(17789, 93)) + inv_total(16100, 93)
+
+	case 562:
+		if(arg1 == 12582946 || arg1 == 12582951 || arg1 == 12582954 || arg1 == 12582957 || arg1 == 62259232 || arg1 == 62259237 || arg1 == 62259236 || arg1 == 62259241)
+			if(inv_getitem(5, 94) == 19671 || inv_getitem(5, 94) == 19867 || inv_getitem(5, 94) == 19865)
+				if(load_varc(1334) > 0)
+					return (((((iVar2 + iVar4) + inv_total(562, 93)) + inv_total(17785, 93)) + inv_total(16096, 93)) + load_varc(1334)) + inv_total(20947, 93)
+				else
+					return ((((iVar2 + iVar4) + inv_total(562, 93)) + inv_total(17785, 93)) + inv_total(16096, 93)) + inv_total(20947, 93)
+		break
+	case 561:
+		if(inv_getitem(3, 94) == 18341)
+			if(load_varc(1234) > 0)
+				return (((((iVar2 + iVar4) + inv_total(561, 93)) + inv_total(17791, 93)) + inv_total(16102, 93)) + load_varc(1234)) + inv_total(20946, 93)
+			else
+				return (((iVar2 + iVar4) + inv_total(561, 93)) + inv_total(17791, 93)) + inv_total(16102, 93)
+		break
+	case 560:
+		if(arg1 == 12582961 || arg1 == 12582964 || arg1 == 12582970 || arg1 == 12582975 || arg1 == 62259242 || arg1 == 62259245 || arg1 == 62259243 || arg1 == 62259247)
+			if(inv_getitem(5, 94) == 19671 || inv_getitem(5, 94) == 19867 || inv_getitem(5, 94) == 19865)
+				if(load_varc(1335) > 0)
+					return (((((iVar2 + iVar4) + inv_total(560, 93)) + inv_total(17786, 93)) + inv_total(16097, 93)) + load_varc(1335)) + inv_total(20945, 93)
+				else
+					if(arg1 == 12582996 || arg1 == 12582999 || arg1 == 12583001 || arg1 == 12583003 || arg1 == 62259261 || arg1 == 62259263 || arg1 == 62259262 || arg1 == 62259267)
+						if(inv_getitem(5, 94) == 19889 || inv_getitem(5, 94) == 19868 || inv_getitem(5, 94) == 19866)
+							if(load_varc(1403) > 0)
+								return ((((iVar2 + iVar4) + inv_total(560, 93)) + inv_total(17786, 93)) + inv_total(16097, 93)) + load_varc(1403)
+							else
+								return ((((iVar2 + iVar4) + inv_total(560, 93)) + inv_total(17786, 93)) + inv_total(16097, 93)) + inv_total(20945, 93)
+		break
+	case 563:
+		if(inv_getitem(3, 94) == 18342)
+			if(load_varc(1235) > 0)
+				return (((((iVar2 + iVar4) + inv_total(563, 93)) + inv_total(17792, 93)) + inv_total(16103, 93)) + load_varc(1235)) + inv_total(20948, 93)
+			else
+				return (((iVar2 + iVar4) + inv_total(563, 93)) + inv_total(17792, 93)) + inv_total(16103, 93)
+		break
+	case 566:
+		return (((iVar2 + iVar4) + script_1(93, 566)) + script_1(93, 17793)) + script_1(93, 16104)
+
+	case 565:
+		if(arg1 == 12582982 || arg1 == 12582985 || arg1 == 12582989 || arg1 == 12582992 || arg1 == 62259248 || arg1 == 62259254 || arg1 == 62259249 || arg1 == 62259258)
+			if(inv_getitem(5, 94) == 19889 || inv_getitem(5, 94) == 19868 || inv_getitem(5, 94) == 19866)
+				if(load_varc(1402) > 0)
+					return ((((iVar2 + iVar4) + inv_total(565, 93)) + inv_total(17787, 93)) + inv_total(16098, 93)) + load_varc(1402)
+				else
+					if(arg1 == 12582996 || arg1 == 12582999 || arg1 == 12583001 || arg1 == 12583003 || arg1 == 62259261 || arg1 == 62259263 || arg1 == 62259262 || arg1 == 62259267)
+						if(inv_getitem(5, 94) == 19889 || inv_getitem(5, 94) == 19868 || inv_getitem(5, 94) == 19866)
+							if(load_varc(1403) > 0)
+								return ((((iVar2 + iVar4) + inv_total(565, 93)) + inv_total(17787, 93)) + inv_total(16098, 93)) + load_varc(1403)
+							else
+								return (((iVar2 + iVar4) + script_1(93, 565)) + script_1(93, 17787)) + script_1(93, 16098)
+		break
+	case 9075:
+		return (((iVar2 + iVar4) + script_1(93, 9075)) + script_1(93, 17790)) + script_1(93, 16101)
+
+
+}
+return (iVar2 + iVar4) + script_1(93, arg0)
+return 0

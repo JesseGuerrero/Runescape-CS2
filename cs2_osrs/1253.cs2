@@ -1,0 +1,25 @@
+void script_1253(Widget widget0, int arg1, string string2, int arg3, int arg4) {
+	Item item4;
+	string str1;
+	widget0.hookFrame(null);
+	item4 = (Item)arg3;
+	str1 = "<col=ff0000>" + "Not owned" + "</col>";
+	if (arg1 >= 3) {
+		widget0.setContextMenuOption(1, "Take");
+		item4, str1 = arg4, "<col=00ff00>" + "Complete" + "</col>";
+	} else if (arg1 == 2) {
+		widget0.setContextMenuOption(1, "Take");
+		str1 = "Incomplete";
+	} else if (arg1 == 1) {
+		widget0.setContextMenuOption(1, "Retrieve");
+		str1 = "Missing";
+	} else {
+		widget0.setContextMenuOption(1, "Unlock");
+	}
+	widget0.setOptionBase("<col=ff9040>" + getItemName(item4) + "</col>");
+	script_1255(0, widget0, string2, str1, item4);
+	widget0.hookMouseHover(&script_1254(true, widget0, string2, str1, item4));
+	widget0.hookMouseExit(&script_1254(false, widget0, string2, str1, item4));
+	widget0.hookOptionClick(&script_1256(CTX_MENU_OPTION, widget0, arg1, string2, (Item)arg3, (Item)arg4, item4));
+	return;
+}

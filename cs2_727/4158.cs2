@@ -1,0 +1,3 @@
+//script4158(4158)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(int)
+hook_mouse_press(arg0, script_4162, "I", -2147483645)
+return 4163

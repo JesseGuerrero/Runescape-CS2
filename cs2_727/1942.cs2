@@ -1,0 +1,28 @@
+//script1942(1942)()(void)
+if(load_varc(560) == 0) {
+	store_varc(559, min(load_varc(559) + 6, 255))
+	if(load_varc(559) == 255)
+		store_varc(560, 1)
+} else 
+	if(load_varc(560) == 1) {
+		store_varc(559, max(load_varc(559) - 6, 60))
+		if(load_varc(559) == 60)
+			store_varc(560, 0)
+	}
+if_settrans(if_gethash(809, 14), load_varc(559))
+if(load_varc(561) < 4)
+	if(if_gethide(if_gethash(809, 18)) == 1) {
+		store_varc(562, min(load_varc(562) + 1, 20))
+		if(load_varc(562) == 20) {
+			store_varc(562, 0)
+			if_sethide(if_gethash(809, 18), 0)
+		}
+	} else  {
+		store_varc(562, min(load_varc(562) + 1, 35))
+		if(load_varc(562) == 35) {
+			store_varc(562, 0)
+			if_sethide(if_gethash(809, 18), 1)
+			store_varc(561, min(load_varc(561) + 1, 4))
+		}
+	}
+return

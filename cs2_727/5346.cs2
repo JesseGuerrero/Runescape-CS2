@@ -1,0 +1,72 @@
+//script5346(5346)()(void)
+if_settext(if_gethash(1180, 84), to_string(load_varpbit(10301)))
+if_settext(if_gethash(1180, 70), to_string(load_varc(1732)))
+if_settext(if_gethash(1180, 56), to_string(load_varpbit(10313)) + "%")
+if(load_varc(1731) != 1)
+	if_settext(if_gethash(1180, 77), to_string(load_varc(1731)) + " sets")
+else
+	if_settext(if_gethash(1180, 77), "1 set")
+switch(load_varc(1731)) {
+	case default:
+		break
+	case 0:
+		if_setcolor(77332557, 0xC4312D)
+		break
+	case 1:
+		if_setcolor(77332557, 0xC4312D)
+		break
+	case 2:
+		if_setcolor(77332557, 0xD0C420)
+		break
+	case 3:
+		if_setcolor(77332557, 0xD0C420)
+		break
+	case 4:
+		if_setcolor(77332557, 0xD0C420)
+		break
+	case 5:
+		if_setcolor(77332557, 0x28C851)
+		break
+	case 6:
+		if_setcolor(77332557, 0x28C851)
+		break
+
+}
+if(load_varc(1732) < 3)
+	if_setcolor(77332550, 0xC4312D)
+else
+	if_setcolor(77332550, 0x28C851)
+switch(load_varc(1730)) {
+	case default:
+		break
+	case 0:
+		if_settext(if_gethash(1180, 63), "None")
+		if_setcolor(77332543, 0xC4312D)
+		break
+	case 1:
+		if_settext(if_gethash(1180, 63), "A")
+		if_setcolor(77332543, 0xD0C420)
+		break
+	case 2:
+		if_settext(if_gethash(1180, 63), "B")
+		if_setcolor(77332543, 0xD0C420)
+		break
+	case 3:
+		if_settext(if_gethash(1180, 63), "A & B")
+		if_setcolor(77332543, 0x28C851)
+		break
+
+}
+if_settext(if_gethash(1180, 49), to_string(load_varpbit(10304)) + " mins")
+if(load_varpbit(10304) < 4)
+	if_setcolor(77332529, 0xC4312D)
+else
+	if_setcolor(77332529, 0x28C851)
+if(load_varc(1733) == 0) {
+	if_setgraphic(if_gethash(1180, 30), 3302)
+	if_sethide(if_gethash(1180, 11), 0)
+} else  {
+	if_setgraphic(if_gethash(1180, 30), 3303)
+	if_sethide(if_gethash(1180, 11), 1)
+}
+return

@@ -1,0 +1,31 @@
+//script1470(1470)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 2:
+		return 0
+
+	case 3:
+		return load_varpbit(4885)
+
+	case 4:
+		return load_varpbit(4885) + load_varpbit(4886)
+
+	case 5:
+		return (load_varpbit(4885) + load_varpbit(4886)) + load_varpbit(4887)
+
+	case 6:
+		return ((load_varpbit(4885) + load_varpbit(4886)) + load_varpbit(4887)) + load_varpbit(4888)
+
+	case 7:
+		return (((load_varpbit(4885) + load_varpbit(4886)) + load_varpbit(4887)) + load_varpbit(4888)) + load_varpbit(4889)
+
+	case 8:
+		return ((((load_varpbit(4885) + load_varpbit(4886)) + load_varpbit(4887)) + load_varpbit(4888)) + load_varpbit(4889)) + load_varpbit(4890)
+
+	case 9:
+		return (((((load_varpbit(4885) + load_varpbit(4886)) + load_varpbit(4887)) + load_varpbit(4888)) + load_varpbit(4889)) + load_varpbit(4890)) + load_varpbit(4891)
+
+
+}
+return 0

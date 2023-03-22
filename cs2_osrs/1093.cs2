@@ -1,0 +1,29 @@
+void script_1093(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8) {
+	string str0;
+	VARC[11] = 1;
+	if (widget(162, 31).isHidden() == false) {
+		script_299(1, 1);
+	}
+	script_927(0);
+	STRING[27], STRING[130] = "", "";
+	widget1.setIsHidden(false);
+	widget3.setIsHidden(true);
+	str0 = "Continue";
+	script_1101(0, widget2, str0);
+	widget2.hookMouseEnter(&script_1100(true, CTX_WIDGET, str0));
+	widget2.hookMouseExit(&script_1100(false, CTX_WIDGET, str0));
+	widget2.hookMousePress(&script_1102(widget1, widget3));
+	str0 = "Submit";
+	script_1101(0, widget8, str0);
+	widget8.hookMouseEnter(&script_1100(true, CTX_WIDGET, str0));
+	widget8.hookMouseExit(&script_1100(false, CTX_WIDGET, str0));
+	widget8.hookMousePress(&script_1103());
+	widget8.setNoOptions();
+	widget8.hookOptionClick(null);
+	script_31(widget5, widget4, 792, 789, 790, 791, 773, 788);
+	script_31(widget7, widget6, 792, 789, 790, 791, 773, 788);
+	script_1094(widget4);
+	script_1094(widget6);
+	script_1097(widget4, widget5, widget6, widget7, widget3, widget4, widget6, widget8);
+	return;
+}

@@ -1,0 +1,10 @@
+void script_780(Widget widget0, int arg1, Widget widget2) {
+	_ = script_198(widget2);
+	widget2.hookMouseHover(null);
+	widget2.hookMouseExit(null);
+	widget2.hookOptionClick(null);
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setText("---");
+	}
+	return;
+}

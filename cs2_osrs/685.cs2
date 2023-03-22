@@ -1,0 +1,24 @@
+void script_685(int arg0, int arg1, int arg2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19) {
+	if (arg0 < 0 || arg0 >= 10) {
+		return;
+	}
+	playSoundEffect(1041, 1, 0);
+	if (arg1 == 3) {
+		arg2 = arg2 + arg0;
+		sendIntegerInput(str(arg2));
+		script_653(-1, -1, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19);
+		return;
+	}
+	if (arg1 == 2) {
+		arg2 = arg2 + 10 * arg0;
+	} else if (arg1 == 1) {
+		arg2 = arg2 + 100 * arg0;
+	} else {
+		if (!(arg1 == 0)) {
+			return;
+		}
+		arg2 = 1000 * arg0;
+	}
+	script_653(arg1 + 1, arg2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19);
+	return;
+}

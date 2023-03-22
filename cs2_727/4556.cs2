@@ -1,0 +1,11 @@
+//script4556(4556)(int arg0)(void)
+if(arg0 == 1)
+	if(userdetail_quickchat() == 0) {
+		instr6248(if_gethash(589, 26), script_4555, "iz", -2147483640, -2147483639)
+		instr6342(if_gethash(589, 27), script_4572, "iI", client_clock(), if_gethash(589, 28))
+	} else  {
+		instr6248(if_gethash(589, 26), None, "")
+		instr6342(if_gethash(589, 27), None, "")
+		if_settext(if_gethash(589, 27), escape(load_varc_string(349)))
+	}
+return

@@ -1,0 +1,6 @@
+//script2830(2830)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+store_varc(774, arg1)
+script_2790()
+return

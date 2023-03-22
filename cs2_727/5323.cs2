@@ -1,0 +1,10 @@
+//script5323(5323)()(void)
+if_sethide(if_gethash(797, 21), 1)
+if_sethide(if_gethash(797, 34), 1)
+if_sethide(if_gethash(797, 48), 1)
+if_sethide(if_gethash(797, 62), 1)
+if_sethide(if_gethash(797, 76), 1)
+if_sethide(if_gethash(797, 90), 1)
+if_sethide(if_gethash(797, 104), 1)
+if_sethide(if_gethash(797, 118), 1)
+return

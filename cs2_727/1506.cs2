@@ -1,0 +1,139 @@
+//script1506(1506)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+string sVar0
+iVar0 = -1
+iVar1 = -1
+if(gender() == 1) {
+	iVar0 = 1137
+	iVar1 = 3294
+} else  {
+	iVar0 = 1136
+	iVar1 = 3291
+}
+cc_deleteall(if_gethash(728, 7))
+iVar2 = 0
+iVar3 = enum_getoutputcount(iVar0)
+iVar4 = -1
+sVar0 = ""
+iVar5 = 0
+iVar6 = 0
+while(iVar2 < iVar3) {
+	iVar4 = enum(iVar0, iVar2, 'i', 'K')
+	sVar0 = enum(iVar1, iVar2, 'i', 's')
+	cc_create(if_getnextsubid(if_gethash(728, 7)), 5, 47710215)
+	cc_setsize(0, 0, 17, 17)
+	cc_setposition(0, 0, iVar5 + 1, 0)
+	cc_create(if_getnextsubid(if_gethash(728, 7)), 4, 47710215)
+	cc_setsize(0, 1, 19, 20)
+	cc_setposition(0, 2, iVar5, 0)
+	cc_settextalign(0, 1, 0)
+	cc_setcolor(ff981f)
+	cc_settextfont(495)
+	cc_settext(sVar0)
+	if(iVar4 == load_varc(1014)) {
+		cc_setgraphic(699)
+		iVar6 = iVar5
+	} else  {
+		cc_setgraphic(697)
+		instr6091(script_1356, "Iii", -2147483645, instr6151(), 16777215)
+		instr6092(script_1356, "Iii", -2147483645, instr6151(), 16750623)
+		instr6091(script_1356, "Iii", -2147483645, instr6151(), 16777215)
+		instr6092(script_1356, "Iii", -2147483645, instr6151(), 16750623)
+		cc_setop(sVar0, 1)
+		cc_setop(sVar0, 1)
+		instr6687(script_1507, "iK", -2147483644, iVar4)
+		instr6687(script_1507, "iK", -2147483644, iVar4)
+	}
+	iVar2 = iVar2 + 1
+	iVar5 = iVar5 + 19
+}
+if(iVar5 > if_getheight(if_gethash(728, 7))) {
+	if_setsize(if_gethash(728, 7), 1, 1, 4, 20)
+	if_setscrollsize(47710215, iVar5, 0)
+	if(iVar6 < if_getscrolly(47710215))
+		if_setscrollpos(if_gethash(728, 7), iVar6 - 5, 0)
+	else
+		if(iVar6 + 19 >= if_getscrolly(47710215) + if_getheight(if_gethash(728, 7)))
+			if_setscrollpos(if_gethash(728, 7), (iVar6 + 25) - if_getheight(if_gethash(728, 7)), 0)
+	if_sethide(if_gethash(728, 8), 0)
+	script_31(47710216, 47710215, 792, 789, 790, 791, 773, 788)
+} else  {
+	if_setsize(if_gethash(728, 7), 1, 1, 4, 4)
+	if_setscrollsize(47710215, 0, 0)
+	if_setscrollpos(if_gethash(728, 7), 0, 0)
+	cc_deleteall(if_gethash(728, 8))
+	if_sethide(if_gethash(728, 8), 1)
+}
+cc_deleteall(if_gethash(728, 12))
+iVar3 = enum_getoutputcount(3297)
+iVar7 = 6
+if((((iVar3 - 1) / iVar7) + 1) * 21 > if_getheight(if_gethash(728, 12)))
+	iVar7 = 5
+iVar2 = 0
+iVar5 = 0
+iVar8 = 0
+iVar9 = -1
+iVar10 = 0
+while(iVar2 < iVar3) {
+	sVar0 = enum(3296, iVar2, 'i', 's')
+	iVar10 = enum(3297, iVar2, 'i', 'i')
+	cc_create(if_getnextsubid(if_gethash(728, 12)), 3, 47710220)
+	cc_setsize(0, 0, 21, 21)
+	cc_setfill(1)
+	cc_setposition(0, 0, iVar5, iVar8 * cc_getwidth())
+	cc_setcolor(0)
+	cc_setonmouseover(script_1160, "IiIsii", -2147483645, -2147483643, if_gethash(728, 18), sVar0, 0, 512)
+	instr6092(script_40, "I", if_gethash(728, 18))
+	cc_create(if_getnextsubid(if_gethash(728, 12)), 5, 47710220)
+	cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+	cc_setposition(0, 0, cc_gety(), cc_getx())
+	if(iVar10 == load_varc(1018)) {
+		cc_setgraphic(1043)
+		iVar6 = iVar5
+	} else  {
+		iVar9 = 1041
+		cc_setgraphic(iVar9)
+		instr6092(script_688, "Iid", -2147483645, instr6151(), iVar9)
+		iVar9 = 1042
+		instr6091(script_688, "Iid", -2147483645, instr6151(), iVar9)
+		cc_setop(sVar0, 1)
+		instr6687(script_1508, "ii", -2147483644, iVar10)
+	}
+	iVar2 = iVar2 + 1
+	if(iVar8 < iVar7 - 1)
+		iVar8 = iVar8 + 1
+	else {
+		iVar8 = 0
+		iVar5 = iVar5 + cc_getheight()
+	}
+}
+if(iVar8 != 0)
+	iVar5 = iVar5 + 21
+if(iVar5 > if_getheight(if_gethash(728, 12)) || iVar7 < 6) {
+	if_setsize(if_gethash(728, 12), 1, 1, 4, 20)
+	if_setscrollsize(47710220, iVar5, 0)
+	if(iVar6 < if_getscrolly(47710220))
+		if_setscrollpos(if_gethash(728, 12), iVar6 - 5, 0)
+	else
+		if(iVar6 + 21 >= if_getscrolly(47710220) + if_getheight(if_gethash(728, 12)))
+			if_setscrollpos(if_gethash(728, 12), (iVar6 + 25) - if_getheight(if_gethash(728, 12)), 0)
+	if_sethide(if_gethash(728, 13), 0)
+	script_31(47710221, 47710220, 792, 789, 790, 791, 773, 788)
+} else  {
+	if_setsize(if_gethash(728, 12), 1, 1, 4, 4)
+	if_setscrollsize(47710220, 0, 0)
+	if_setscrollpos(if_gethash(728, 12), 0, 0)
+	cc_deleteall(if_gethash(728, 13))
+	if_sethide(if_gethash(728, 13), 1)
+}
+return

@@ -1,0 +1,58 @@
+void script_578(DataMap datamap0, Widget widget1, int arg2) {
+	DataMap datamap3;
+	int int4;
+	int int5;
+	int int6;
+	string str0;
+	datamap3 = datamap('g', 'g', 373, datamap0);
+	widget1.clearChildren();
+	int4 = widget1.getWidth();
+	CHILD.createChild(widget1, 5, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(int4, widget1.getHeight(), 0, 0);
+	CHILD.setSprite(897);
+	CHILD.setSpriteTiling(true);
+	CHILD.createChild(widget1, 5, 1);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(25, 25, 0, 0);
+	CHILD.setSprite(datamap('g', 'd', 933, datamap0));
+	CHILD.setSpriteTiling(false);
+	CHILD.createChild(widget1, 4, 2);
+	CHILD.setPosition(25, 0, 0, 0);
+	CHILD.setSize(int4 - 25, 25, 0, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(496);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(datamap('i', 's', datamap0, -1));
+	int5 = 25;
+	int6 = 0;
+	str0 = datamap('i', 's', datamap0, int6);
+	while (length(str0) > 0) {
+		CHILD.createChild(widget1, 3, int6 * 3 + 3 + 0);
+		CHILD.setPosition(0, int5, 0, 0);
+		CHILD.setSize(int4, 17, 0, 0);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setFilled(true);
+		CHILD.setTrans(255);
+		CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 220, null));
+		CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg2), datamap('i', 's', datamap3, int6), 25, 512));
+		CHILD.hookMouseExit(&script_586(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg2)));
+		CHILD.setContextMenuOption(1, str0);
+		CHILD.createChild(widget1, 5, int6 * 3 + 3 + 1);
+		CHILD.setPosition(0, int5, 0, 0);
+		CHILD.setSize(17, 17, 0, 0);
+		CHILD.createChild(widget1, 4, int6 * 3 + 3 + 2);
+		CHILD.setPosition(17, int5 + 1, 0, 0);
+		CHILD.setSize(int4 - 17, 16, 0, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(0, 1, 0);
+		CHILD.setText(str0);
+		int6, int5 = int6 + 1, int5 + 17;
+		str0 = datamap('i', 's', datamap0, int6);
+	}
+	script_581(datamap0, widget1, widget1, null, int6);
+	widget1.hookVARP(&script_580(datamap0, widget1, widget1, null, int6), 92);
+	return;
+}

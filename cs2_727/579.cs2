@@ -1,0 +1,10 @@
+//script579(579)(int arg0, int arg1)(void)
+if(cc_find(0, if_gethash(389, 4)) == 1) {
+	cc_setposition(0, 0, 15 * (arg0 - 1), 0)
+	cc_setsize(0, 0, 15, if_getwidth(if_gethash(389, 4)))
+	cc_setcolor(0)
+	cc_settrans(220)
+	cc_setfill(1)
+}
+if_setitem(if_gethash(389, 15), -1, arg1)
+return

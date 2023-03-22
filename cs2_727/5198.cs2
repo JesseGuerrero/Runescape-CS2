@@ -1,0 +1,12 @@
+//script5198(5198)()(void)
+if_setcolor(73531497, hsvtorgb(load_varpbit(9671)))
+if_setcolor(73531504, hsvtorgb(load_varpbit(9672)))
+if_setcolor(73531506, hsvtorgb(load_varpbit(9673)))
+if_setcolor(73531693, hsvtorgb(load_varpbit(9672)))
+if_setcolor(73531700, hsvtorgb(load_varpbit(9671)))
+if_setcolor(73531702, hsvtorgb(load_varpbit(9673)))
+if_setcolor(73531721, hsvtorgb(load_varpbit(9673)))
+if_setcolor(73531739, hsvtorgb(load_varpbit(9673)))
+if_setcolor(73531728, hsvtorgb(load_varpbit(9671)))
+if_setcolor(73531730, hsvtorgb(load_varpbit(9672)))
+return

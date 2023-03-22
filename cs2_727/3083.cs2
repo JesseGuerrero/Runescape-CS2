@@ -1,0 +1,7 @@
+//script3083(3083)(int arg0, int arg1, string arg2)(void)
+if(arg1 < 0)
+	if_setonmouseover(arg0, script_3084, "Iiisii", arg0, arg1, client_clock() + 25, arg0, -2147483647, -2147483646)
+else
+	if(cc_find(arg1, arg0) == 1)
+		cc_setonmouseover(script_3084, "Iiisii", arg0, arg1, client_clock() + 25, arg0, -2147483647, -2147483646)
+return

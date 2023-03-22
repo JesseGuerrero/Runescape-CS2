@@ -1,0 +1,6 @@
+//script1987(1987)()(int)
+if(((script_1995() + script_1983()) + script_1982()) + script_1981() == ((9 + 11) + 10) + 9)
+	return 1
+else
+	return 0
+return 0

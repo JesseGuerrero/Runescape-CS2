@@ -1,0 +1,49 @@
+//script5328(5328)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = 0
+iVar1 = 1
+iVar2 = (if_getwidth(if_gethash(951, 24)) - ((8 - 1) * iVar1)) / 8
+iVar3 = ((iVar2 + iVar1) * 8) - iVar1
+if_setsize(if_gethash(951, 2), 0, 0, if_getheight(if_gethash(951, 2)), iVar3 + 12)
+cc_deleteall(if_gethash(951, 24))
+iVar4 = 0
+while(iVar0 < 8) {
+	cc_create(iVar0 * 6, 5, 62324760)
+	cc_setgraphic(5610)
+	cc_setsize(1, 0, 0, 6)
+	cc_setposition(0, 0, 0, iVar4)
+	cc_setcolor(535353)
+	cc_create((iVar0 * 6) + 1, 5, 62324760)
+	cc_setgraphic(5611)
+	cc_setsize(1, 0, 0, iVar2 - 12)
+	cc_setposition(0, 0, 0, iVar4 + 6)
+	cc_sethide(0)
+	cc_setcolor(535353)
+	cc_create((iVar0 * 6) + 2, 5, 62324760)
+	cc_setgraphic(5612)
+	cc_setsize(1, 0, 0, 6)
+	cc_setposition(0, 0, 0, (iVar4 + iVar2) - 6)
+	cc_setcolor(535353)
+	cc_create((iVar0 * 6) + 3, 5, 62324760)
+	cc_setgraphic(5610)
+	cc_setsize(1, 0, 0, 6)
+	cc_setposition(0, 0, 0, iVar4)
+	cc_create((iVar0 * 6) + 4, 5, 62324760)
+	cc_setgraphic(5611)
+	cc_setsize(1, 0, 0, iVar2 - 12)
+	cc_setposition(0, 0, 0, iVar4 + 6)
+	cc_sethide(0)
+	cc_create((iVar0 * 6) + 5, 5, 62324760)
+	cc_setgraphic(5612)
+	cc_setsize(1, 0, 0, 6)
+	cc_setposition(0, 0, 0, (iVar4 + iVar2) - 6)
+	iVar4 = (iVar4 + iVar1) + iVar2
+	iVar0 = iVar0 + 1
+}
+store_varc(1657, -1)
+store_varc(1658, 0)
+return

@@ -1,0 +1,23 @@
+//script5702(5702)(int arg0)(void)
+switch(arg0) {
+	case default:
+		store_varc(1755, 0)
+		if_settext(if_gethash(1218, 71), "Level: Low-High")
+		break
+	case 1:
+		store_varc(1755, 1)
+		if_settext(if_gethash(1218, 71), "Level: High-Low")
+		break
+	case 2:
+		store_varc(1755, 2)
+		if_settext(if_gethash(1218, 71), "Name: A-Z")
+		break
+	case 3:
+		store_varc(1755, 3)
+		if_settext(if_gethash(1218, 71), "Name: Z-A")
+		break
+
+}
+if_sethide(if_gethash(1218, 66), 1)
+script_5691(load_varc(1753))
+return

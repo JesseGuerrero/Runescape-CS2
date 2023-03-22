@@ -1,0 +1,52 @@
+//script1696(1696)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if(load_varpbit(6830) > 0)
+			return 4
+		else
+			if(load_varpbit(6821) > 0)
+				return 1
+			else
+				return 0
+		break
+	case 2:
+		if(load_varpbit(6834) > 0)
+			return 4
+		else
+			if(load_varpbit(6821) > 0)
+				return 1
+			else
+				return 0
+		break
+	case 1:
+		if(load_varpbit(6833) > 0)
+			return 4
+		else
+			if(load_varpbit(6821) > 0 || load_varpbit(6822) > 0 || load_varpbit(6823) > 0)
+				return 1
+			else
+				return 0
+		break
+	case 4:
+		if(load_varpbit(6831) > 0)
+			return 4
+		else
+			if(load_varpbit(6822) > 0)
+				return 1
+			else
+				return 0
+		break
+	case 6:
+		if(load_varpbit(6832) > 0)
+			return 4
+		else
+			if(load_varpbit(6823) > 0)
+				return 1
+			else
+				return 0
+		break
+
+}
+return 0

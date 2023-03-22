@@ -1,0 +1,4 @@
+//script866(866)(int arg0, int arg1)(void)
+instr6879(arg0, 1, load_varp(853))
+instr6879(arg1, 1, load_varp(854))
+return

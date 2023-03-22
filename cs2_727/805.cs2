@@ -1,0 +1,17 @@
+//script805(805)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = script_807(arg0)
+iVar2 = 5592405
+if(iVar1 > 75)
+	iVar2 = 65280
+else
+	if(iVar1 > 50)
+		iVar2 = 16776960
+	else
+		if(iVar1 > 25)
+			iVar2 = 16750623
+		else
+			iVar2 = 16711680
+return iVar2
+return 0

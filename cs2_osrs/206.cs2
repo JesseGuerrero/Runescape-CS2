@@ -1,0 +1,186 @@
+void script_206() {
+	int int0;
+	int int1;
+	Item item2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	int0 = 0;
+	int1 = 0;
+	item2 = null;
+	str0 = "";
+	str1 = "";
+	ARRAY0 = new Item[28];
+	ARRAY1 = new int[28];
+	int3 = 0;
+	int4 = 99;
+	int5 = 0;
+	while (int0 < 28) {
+		item2 = getItemIdInSlot(134, int0);
+		int1 = getItemAmtInSlot(134, int0);
+		if (item2 != null) {
+			int4 = 99;
+			int5 = 0;
+			while (int5 < 28) {
+				if (ARRAY0[int5] != -1) {
+					if ((Item)ARRAY0[int5] == item2) {
+						int4 = int5;
+						int5 = 28;
+					}
+					int5 = int5 + 1;
+				} else {
+					int5 = 28;
+				}
+			}
+			if (int4 == 99) {
+				ARRAY0[int3] = item2;
+				ARRAY1[int3] = int1;
+				int3 = int3 + 1;
+			} else {
+				ARRAY1[int4] = ARRAY1[int4] + int1;
+			}
+		}
+		int0 = int0 + 1;
+	}
+	int3 = 0;
+	while (int3 < 28) {
+		item2 = (Item)ARRAY0[int3];
+		if (item2 != null) {
+			int1 = ARRAY1[int3];
+			str0 = concat(str0, script_207(2, int1, item2));
+		} else {
+			int3 = 28;
+		}
+		int3 = int3 + 1;
+	}
+	int0 = 0;
+	int3 = 0;
+	while (int3 < 28) {
+		ARRAY0[int3] = -1;
+		ARRAY1[int3] = 0;
+		int3 = int3 + 1;
+	}
+	int3 = 0;
+	int5 = 0;
+	while (int0 < 28) {
+		item2 = getItemIdInInpsectingSlot(134, int0);
+		int1 = getItemAmtInInspectingSlot(134, int0);
+		if (item2 != null) {
+			int4 = 99;
+			int5 = 0;
+			while (int5 < 28) {
+				if (ARRAY0[int5] != -1) {
+					if ((Item)ARRAY0[int5] == item2) {
+						int4 = int5;
+						int5 = 28;
+					}
+					int5 = int5 + 1;
+				} else {
+					int5 = 28;
+				}
+			}
+			if (int4 == 99) {
+				ARRAY0[int3] = item2;
+				ARRAY1[int3] = int1;
+				int3 = int3 + 1;
+			} else {
+				ARRAY1[int4] = ARRAY1[int4] + int1;
+			}
+		}
+		int0 = int0 + 1;
+	}
+	int3 = 0;
+	while (int3 < 28) {
+		item2 = (Item)ARRAY0[int3];
+		if (item2 != null) {
+			int1 = ARRAY1[int3];
+			str1 = concat(str1, script_207(2, int1, item2));
+		} else {
+			int3 = 28;
+		}
+		int3 = int3 + 1;
+	}
+	widget(476, 57).setText(str0);
+	widget(476, 65).setText(str1);
+	str2 = "";
+	str3 = "";
+	if (VARPBIT[642] > 0) {
+		str2 = str2 + "Some worn items will be taken off." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 7) == true || isBitFlagged(VARP[286], 13) == true) {
+		str2 = str2 + "Boosted stats will be restored." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 9) == true) {
+		str2 = str2 + "Existing prayers will be stopped." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 0) == true) {
+		str3 = str3 + "You cannot forfeit the duel." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 1) == true) {
+		str3 = str3 + "You cannot move." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 2) == true) {
+		str3 = str3 + "You cannot switch weapons." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 4) == true) {
+		str3 = str3 + "You cannot use Ranged attacks " + "<col=ff0000>" + "or salamanders" + "<col=ffffff>" + "." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 5) == true) {
+		str3 = str3 + "You cannot use Melee attacks " + "<col=ff0000>" + "or salamanders" + "<col=ffffff>" + "." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 6) == true) {
+		str3 = str3 + "You cannot use Magic attacks " + "<col=ff0000>" + "or salamanders" + "<col=ffffff>" + "." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 13) == true) {
+		str3 = str3 + "You cannot use special attacks." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 12) == true) {
+		str3 = str3 + "You can only attack with 'fun' weapons." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 7) == true) {
+		str3 = str3 + "You cannot use potions or drinks." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 8) == true) {
+		str3 = str3 + "You cannot use food." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 9) == true) {
+		str3 = str3 + "You cannot use Prayer." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 10) == true) {
+		str3 = str3 + "There will be obstacles in the arena." + "<br>";
+	}
+	if (isBitFlagged(VARP[286], 17) == true || isBitFlagged(VARP[286], 19) == true) {
+		str3 = str3 + "You can't use 2H weapons such as bows." + "<br>";
+	}
+	widget(476, 74).setText(str2);
+	widget(476, 76).setText(str3);
+	widget(476, 72).setSize(100, 11 * getLineCount(getText(widget(476, 72)), 100, 494), 0, 0);
+	widget(476, 74).setSize(132, 11 * getLineCount(str2, 132, 494), 0, 0);
+	widget(476, 76).setSize(132, 11 * getLineCount(str3, 132, 494), 0, 0);
+	widget(476, 77).setPosition(2, 2, 0, 0);
+	if (widget(476, 77).isHidden() == true) {
+		widget(476, 71).setPosition(2, 2, 0, 0);
+	} else {
+		widget(476, 71).setPosition(2, widget(476, 77).getY() + widget(476, 77).getHeight() + 2, 0, 0);
+	}
+	widget(476, 72).setPosition(2, widget(476, 71).getY() + widget(476, 71).getHeight() + 2, 0, 0);
+	widget(476, 73).setPosition(2, widget(476, 72).getY() + widget(476, 72).getHeight() + 2, 0, 0);
+	widget(476, 74).setPosition(2, widget(476, 73).getY() + widget(476, 73).getHeight() + 2, 0, 0);
+	widget(476, 75).setPosition(2, widget(476, 74).getY() + widget(476, 74).getHeight() + 2, 0, 0);
+	widget(476, 76).setPosition(2, widget(476, 75).getY() + widget(476, 75).getHeight() + 2, 0, 0);
+	int6 = widget(476, 76).getY() + widget(476, 76).getHeight() + 2;
+	if (int6 > widget(476, 68).getHeight()) {
+		widget(476, 69).setScrollMax(0, int6);
+		widget(476, 70).setIsHidden(false);
+		script_31(widget(476, 70), widget(476, 69), 792, 789, 790, 791, 773, 788);
+	} else {
+		widget(476, 70).setIsHidden(true);
+		widget(476, 69).setScrollPos(0, 0);
+	}
+	return;
+}

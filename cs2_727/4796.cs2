@@ -1,0 +1,51 @@
+//script4796(4796)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11)(int)
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+if(arg1 > 0) {
+	iVar14 = (arg0 * 1000) / arg1
+	iVar12 = iVar12 + 1
+}
+if(arg3 > 0) {
+	iVar15 = (arg2 * 1000) / arg3
+	iVar12 = iVar12 + 1
+}
+if(arg5 > 0) {
+	iVar16 = (arg4 * 1000) / arg5
+	iVar12 = iVar12 + 1
+}
+if(arg7 > 0) {
+	iVar17 = (arg6 * 1000) / arg7
+	iVar12 = iVar12 + 1
+}
+if(arg9 > 0) {
+	iVar18 = (arg8 * 1000) / arg9
+	iVar12 = iVar12 + 1
+}
+if(arg11 > 0) {
+	iVar19 = (arg10 * 1000) / arg11
+	iVar12 = iVar12 + 1
+}
+iVar12 = max(1, iVar12)
+iVar20 = (((((iVar14 + iVar15) + iVar16) + iVar17) + iVar18) + iVar19) / (iVar12 * 10)
+iVar13 = 100 - iVar20
+if(iVar13 == 100)
+	if(arg0 != arg1)
+		if(arg0 != 0 || arg2 != arg3 || arg2 != 0 || arg4 != arg5 || arg4 != 0 || arg6 != arg7 || arg6 != 0 || arg8 != arg9 || arg8 != 0 || arg10 != arg11 || arg10 != 0)
+			iVar13 = 99
+return iVar13
+return 0

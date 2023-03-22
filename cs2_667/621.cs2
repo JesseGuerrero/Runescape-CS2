@@ -1,0 +1,69 @@
+void script_621() {
+	int int0;
+	string str0;
+	int0 = 0;
+	str0 = "null";
+	script_622();
+	if (VAR_GE_CURR_BOX == -1 || getGENotStarted(VAR_GE_CURR_BOX) && VAR_GE_IS_SELLING == -1) {
+		script_41(widget(105, 210));
+		widget(105, 17).setIsHidden(false);
+		script_628();
+		widget(105, 197).setScriptCallOnItemContainerUpdate(-1, "");
+		VARC[83] = 0;
+		VARC[82] = 0;
+	} else {
+		while (int0 < 6) {
+			script_41(script_626(int0));
+			int0 = int0 + 1;
+		}
+		if (!getGENotStarted(VAR_GE_CURR_BOX)) {
+			widget(105, 127).setIsHidden(false);
+			widget(105, 197).setIsHidden(false);
+			script_594(getGEIsSelling(VAR_GE_CURR_BOX), getGEItem(VAR_GE_CURR_BOX), getGEItemAmt(VAR_GE_CURR_BOX), getGEItemPrice(VAR_GE_CURR_BOX));
+			script_593(VAR_GE_CURR_BOX);
+			if (getGEIsSelling(VAR_GE_CURR_BOX) == 0) {
+				str0 = "Maximum total cost of purchase";
+			} else {
+				str0 = "Minimum total value of sale";
+			}
+			widget(105, 185).setScriptCallOnMouseOver(649, widget(105, 185), widget(105, 210), str0, 25, 300, "IIsii");
+			str0 = formatNumber(getGEItemAmt(VAR_GE_CURR_BOX) * getGEItemPrice(VAR_GE_CURR_BOX), 1);
+			widget(105, 185).setText(str0 + " gp");
+		} else {
+			widget(105, 127).setIsHidden(false);
+			widget(105, 154).setIsHidden(false);
+			if (VAR_GE_IS_SELLING == 0) {
+				widget(105, 188).setIsHidden(false);
+				if (VAR_GE_CURR_ITEM != -1) {
+					widget(105, 191).setIsHidden(true);
+					widget(105, 192).setIsHidden(true);
+				} else {
+					widget(105, 191).setIsHidden(false);
+					widget(105, 192).setIsHidden(false);
+				}
+				str0 = "Maximum total cost of purchase";
+			} else {
+				widget(105, 193).setIsHidden(false);
+				if (VAR_GE_CURR_ITEM != -1) {
+					widget(105, 195).setIsHidden(true);
+				} else {
+					widget(105, 195).setIsHidden(false);
+				}
+				str0 = "Minimum total value of sale";
+			}
+			widget(105, 185).setScriptCallOnMouseOver(649, widget(105, 185), widget(105, 210), str0, 25, 300, "IIsii");
+			if (VAR_GE_TOTAL_PRICE > 0) {
+				if (VAR_GE_CURR_ITEM_AMT > 2147483647 / VAR_GE_TOTAL_PRICE) {
+					widget(105, 185).setText("Too high!");
+				} else {
+					str0 = formatNumber(VAR_GE_CURR_ITEM_AMT * VAR_GE_TOTAL_PRICE, 1);
+					widget(105, 185).setText(str0 + " gp");
+				}
+			} else {
+				widget(105, 185).setText("0 gp");
+			}
+			script_594(VAR_GE_IS_SELLING, (Item)VAR_GE_CURR_ITEM, VAR_GE_CURR_ITEM_AMT, VAR_GE_TOTAL_PRICE);
+		}
+	}
+	return;
+}

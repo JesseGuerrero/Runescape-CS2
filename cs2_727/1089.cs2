@@ -1,0 +1,8 @@
+//script1089(1089)()(void)
+if(chat_getfilter_private() == 2) {
+	chat_setfilter(chat_getfilter_trade(), 1, chat_getfilter_public())
+	script_178()
+	script_84()
+	script_89()
+}
+return

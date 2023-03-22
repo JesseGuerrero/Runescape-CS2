@@ -1,0 +1,6 @@
+//script2268(2268)(int arg0)(void)
+if(load_varp(170) == 0)
+	if_settext(arg0, "Right-click the object to see more options.")
+else
+	if_settext(arg0, "Click the object to see more options.")
+return

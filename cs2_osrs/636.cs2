@@ -1,0 +1,18 @@
+void script_636(int arg0) {
+	int int1;
+	if (CHILD.setChild(widget(148, 14), arg0) == true) {
+		CHILD.setHidden(true);
+	}
+	int1 = 0;
+	arg0 = 0;
+	while (int1 == 0 && arg0 <= 36) {
+		if (CHILD.setChild(widget(148, 14), arg0) == true && CHILD.isHidden() == false) {
+			int1 = 1;
+		}
+		arg0 = arg0 + 1;
+	}
+	if (int1 == 0) {
+		script_637(widget(148, 14), widget(148, 15), 0, 0);
+	}
+	return;
+}

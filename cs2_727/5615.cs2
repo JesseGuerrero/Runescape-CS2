@@ -1,0 +1,5 @@
+//script5615(5615)(int arg0)(void)
+int iVar1
+iVar1 = client_clock() + 100
+instr6342(arg0, script_5612, "Iiiiiii", arg0, random(63), random(127), random(2), iVar1, 25, 18)
+return

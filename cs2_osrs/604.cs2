@@ -1,0 +1,7 @@
+void script_604(Widget widget0, int arg1, string string2) {
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	script_606(widget0, arg1, string2);
+	return;
+}

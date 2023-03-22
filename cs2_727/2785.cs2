@@ -1,0 +1,19 @@
+//script2785(2785)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 34:
+		if(load_varp(281) < 93)
+			return 32
+		if(load_varp(281) < 120)
+			return 33
+		return 34
+
+	case 44:
+		store_varc(622, movecoord(8, 0, 24, 29366464))
+		return 0
+
+
+}
+return arg0
+return -1

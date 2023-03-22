@@ -1,0 +1,7 @@
+void script_894(Widget widget0, Model model1) {
+	widget0.setIsHidden(false);
+	widget0.setModel(model1);
+	widget0.setAnimation(2085);
+	widget0.hookFrame(&script_895(widget0, getClientCycle() + 120));
+	return;
+}

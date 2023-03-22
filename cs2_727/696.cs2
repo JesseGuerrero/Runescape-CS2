@@ -1,0 +1,5 @@
+//script696(696)()(void)
+script_675()
+send_message("Cancelled.")
+sound_synth(0, 1, 1042)
+return

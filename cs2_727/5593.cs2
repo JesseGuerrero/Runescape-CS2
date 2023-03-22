@@ -1,0 +1,31 @@
+//script5593(5593)(int arg0, int arg1)(void)
+if(arg0 == 16 || arg1 == 49) {
+	if_setcolor(77856771, 0xDB9000)
+	if_setcolor(77856780, 0xDB9000)
+	if_resume_pausebutton(if_gethash(1188, 11))
+} else 
+	if(arg0 == 17 || arg1 == 50)
+		if(if_gethide(if_gethash(1188, 13)) == 0) {
+			if_setcolor(77856792, 0xDB9000)
+			if_setcolor(77856793, 0xDB9000)
+			if_resume_pausebutton(if_gethash(1188, 13))
+		} else 
+			if(arg0 == 18 || arg1 == 51)
+				if(if_gethide(if_gethash(1188, 14)) == 0) {
+					if_setcolor(77856797, 0xDB9000)
+					if_setcolor(77856798, 0xDB9000)
+					if_resume_pausebutton(if_gethash(1188, 14))
+				} else 
+					if(arg0 == 19 || arg1 == 52)
+						if(if_gethide(if_gethash(1188, 15)) == 0) {
+							if_setcolor(77856802, 0xDB9000)
+							if_setcolor(77856803, 0xDB9000)
+							if_resume_pausebutton(if_gethash(1188, 15))
+						} else 
+							if(arg0 == 20 || arg1 == 53)
+								if(if_gethide(if_gethash(1188, 16)) == 0) {
+									if_setcolor(77856807, 0xDB9000)
+									if_setcolor(77856808, 0xDB9000)
+									if_resume_pausebutton(if_gethash(1188, 16))
+								}
+return

@@ -1,0 +1,11 @@
+int, int script_1687(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	arg1 = script_1045(arg1, 1);
+	int2 = script_1046((widget0.getHeight() - 10) / arg1, 25);
+	int3 = 0 - int2 * (arg1 / 2);
+	if (arg1 % 2 == 0) {
+		int3 = int3 + int2 / 2;
+	}
+	return int3, int2;
+}

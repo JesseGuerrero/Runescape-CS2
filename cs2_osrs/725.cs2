@@ -1,0 +1,6 @@
+void script_725() {
+	VARC[67] = VARP[1202];
+	VARC[68] = VARP[1203];
+	script_729();
+	return;
+}

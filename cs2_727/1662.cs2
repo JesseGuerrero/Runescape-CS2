@@ -1,0 +1,4 @@
+//script1662(1662)(int arg0, int arg1, int arg2)(void)
+if(cc_find(0, arg2) == 1)
+	script_1663(arg0, arg1, arg2)
+return

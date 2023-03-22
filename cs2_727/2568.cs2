@@ -1,0 +1,92 @@
+//script2568(2568)()(void)
+if(cc_find(0, if_gethash(842, 17)) == 1)
+	if(load_varc(857) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(1, if_gethash(842, 17)) == 1)
+	if(load_varc(858) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(2, if_gethash(842, 17)) == 1)
+	if(load_varc(859) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(3, if_gethash(842, 17)) == 1)
+	if(load_varc(860) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(4, if_gethash(842, 17)) == 1)
+	if(load_varc(861) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(5, if_gethash(842, 17)) == 1)
+	if(load_varc(862) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(6, if_gethash(842, 17)) == 1)
+	if(load_varc(863) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(7, if_gethash(842, 17)) == 1)
+	if(load_varc(864) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(8, if_gethash(842, 17)) == 1)
+	if(load_varc(865) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(9, if_gethash(842, 17)) == 1)
+	if(load_varc(866) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(10, if_gethash(842, 17)) == 1)
+	if(load_varc(867) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(11, if_gethash(842, 17)) == 1)
+	if(load_varc(868) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(12, if_gethash(842, 17)) == 1)
+	if(load_varc(869) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(13, if_gethash(842, 17)) == 1)
+	if(load_varc(870) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(14, if_gethash(842, 17)) == 1)
+	if(load_varc(871) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(15, if_gethash(842, 17)) == 1)
+	if(load_varc(872) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(16, if_gethash(842, 17)) == 1)
+	if(load_varc(873) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+if(cc_find(17, if_gethash(842, 17)) == 1)
+	if(load_varc(874) == 0)
+		cc_settrans(190)
+	else
+		cc_settrans(0)
+return

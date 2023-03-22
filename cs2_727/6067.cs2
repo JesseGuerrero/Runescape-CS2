@@ -1,0 +1,5 @@
+//script6067(6067)(int arg0, int arg1, int arg2)(void)
+if_settrans(if_gethash(1183, 1), 255)
+if_settrans(if_gethash(1183, 24), 255)
+instr6248(arg2, script_6068, "izII", -2147483640, -2147483639, arg0, arg1)
+return

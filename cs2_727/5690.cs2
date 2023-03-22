@@ -1,0 +1,198 @@
+//script5690(5690)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+string sVar0
+cc_deleteall(if_gethash(1218, 30))
+cc_deleteall(if_gethash(1218, 72))
+iVar0 = 0
+iVar1 = 0
+sVar0 = ""
+iVar2 = -1
+iVar3 = 0
+iVar4 = enum(5420, load_varc(1753), 'i', 'g')
+iVar5 = enum_getoutputcount(iVar4)
+globalArrays[0] = [iVar5 + 1, 105]
+iVar6 = 0
+iVar7 = 1
+switch(load_varc(1753)) {
+	case default:
+		break
+	case 1:
+		iVar7 = load_varc(1469)
+		break
+	case 2:
+		iVar7 = load_varc(1470)
+		break
+	case 5:
+		iVar7 = load_varc(1471)
+		break
+	case 3:
+		iVar7 = load_varc(1472)
+		break
+	case 7:
+		iVar7 = load_varc(1473)
+		break
+	case 4:
+		iVar7 = load_varc(1474)
+		break
+	case 6:
+		iVar7 = load_varc(1475)
+		break
+	case 8:
+		iVar7 = load_varc(1476)
+		break
+	case 9:
+		iVar7 = load_varc(1477)
+		break
+	case 10:
+		iVar7 = load_varc(1478)
+		break
+	case 11:
+		iVar7 = load_varc(1479)
+		break
+	case 19:
+		iVar7 = load_varc(1480)
+		break
+	case 13:
+		iVar7 = load_varc(1481)
+		break
+	case 14:
+		iVar7 = load_varc(1482)
+		break
+	case 15:
+		iVar7 = load_varc(1483)
+		break
+	case 16:
+		iVar7 = load_varc(1484)
+		break
+	case 17:
+		iVar7 = load_varc(1485)
+		break
+	case 18:
+		iVar7 = load_varc(1486)
+		break
+	case 12:
+		iVar7 = load_varc(1487)
+		break
+	case 20:
+		iVar7 = load_varc(1488)
+		break
+	case 21:
+		iVar7 = load_varc(1489)
+		break
+	case 22:
+		iVar7 = load_varc(1490)
+		break
+	case 23:
+		iVar7 = load_varc(1491)
+		break
+	case 24:
+		iVar7 = load_varc(1492)
+		break
+	case 25:
+		iVar7 = load_varc(1493)
+		break
+
+}
+script_5712(load_varc(1753))
+iVar8 = stat_base(enum(681, load_varc(1753), 'i', 'S'))
+iVar9 = -1
+iVar10 = 0
+if(iVar8 > iVar7) {
+	while(iVar0 != -1) {
+		iVar0 = 0
+		sVar0 = script_1023(enum(681, load_varc(1753), 'i', 'S'), iVar1).get(2)
+		if(iVar0 == 1)
+			iVar3 = script_5686(iVar3, sVar0)
+		iVar1 = iVar1 + 1
+	}
+	while(iVar6 < iVar5) {
+		iVar9 = enum(iVar4, iVar6, 'i', 'J')
+		iVar10 = struct_param(2212, iVar9)
+		if(iVar10 > iVar7)
+			if(iVar10 <= iVar8) {
+				cc_create(if_getnextsubid(if_gethash(1218, 30)), 5, 79822878)
+				if(struct_param(2217, iVar9) == 1)
+					cc_setgraphic(9310)
+				else
+					cc_setgraphic(9308)
+				cc_setsize(0, 0, 40, 540)
+				cc_setposition(0, 0, 0, 0)
+				instr6556(script_5692, "iiJ", -2147483643, iVar3, iVar9)
+				instr6088(script_5697, "iJs", -2147483643, iVar9, struct_param(2211, iVar9))
+				iVar3 = cc_getheight() + iVar3
+			}
+		iVar6 = iVar6 + 1
+	}
+	if(iVar3 > 0) {
+		if_sethide(if_gethash(1218, 6), 1)
+		if_sethide(if_gethash(1218, 7), 1)
+		if_setsize(if_gethash(1218, 4), 0, 0, 260, 546)
+		if_setsize(if_gethash(1218, 5), 0, 0, 260, 16)
+		if_sethide(if_gethash(1218, 2), 0)
+		if_sethide(if_gethash(1218, 3), 1)
+		if_setscrollsize(79822852, iVar3, 0)
+		if_setscrollpos(if_gethash(1218, 4), 0, 0)
+		if_setsize(if_gethash(1218, 30), 0, 1, iVar3, 0)
+		if_setsize(if_gethash(1218, 72), 0, 1, iVar3, 0)
+		script_31(79822853, 79822852, 5666, 5663, 5664, 5665, 5686, 5685)
+		return
+	}
+}
+iVar6 = 0
+if_setsize(if_gethash(1218, 4), 0, 0, 355, 546)
+if_setsize(if_gethash(1218, 5), 0, 0, 355, 16)
+if_sethide(if_gethash(1218, 2), 1)
+while(iVar6 < iVar5) {
+	cc_create(iVar6, 5, 79822878)
+	iVar9 = enum(iVar4, iVar6, 'i', 'J')
+	if(struct_param(2217, iVar9) == 1)
+		cc_setgraphic(9310)
+	else
+		cc_setgraphic(9308)
+	cc_setsize(0, 0, 40, 540)
+	cc_setposition(0, 0, 5, 5)
+	instr6091(script_5695, "i", -2147483643)
+	instr6092(script_5696, "i", -2147483643)
+	instr6088(script_5697, "iJs", -2147483643, iVar9, struct_param(2211, iVar9))
+	globalArrays[0][iVar6] = iVar6
+	iVar6 = iVar6 + 1
+}
+store_varc(1754, 1)
+globalArrays[0][iVar5] = -1
+script_5698(0, 0, iVar5 - 1, iVar4)
+iVar6 = 0
+if_setparam_int(if_gethash(1218, 30), globalArrays[0][iVar6], 2221)
+if_setparam_int(if_gethash(1218, 30), globalArrays[0][iVar5 - 1], 2222)
+while(iVar6 < iVar5) {
+	if(cc_find(globalArrays[0][iVar6], if_gethash(1218, 30)) == 1) {
+		cc_setparam_int(globalArrays[0][iVar6 + 1], 2221)
+		if(iVar6 > 0)
+			cc_setparam_int(globalArrays[0][iVar6 - 1], 2222)
+	}
+	iVar6 = iVar6 + 1
+}
+iVar6 = 0
+script_5699(0, 0, iVar5 - 1, iVar4)
+if_setparam_int(if_gethash(1218, 30), globalArrays[0][iVar6], 2223)
+if_setparam_int(if_gethash(1218, 30), globalArrays[0][iVar5 - 1], 2224)
+while(iVar6 < iVar5) {
+	if(cc_find(globalArrays[0][iVar6], if_gethash(1218, 30)) == 1) {
+		cc_setparam_int(globalArrays[0][iVar6 + 1], 2223)
+		if(iVar6 > 0)
+			cc_setparam_int(globalArrays[0][iVar6 - 1], 2224)
+	}
+	iVar6 = iVar6 + 1
+}
+if_setscrollpos(if_gethash(1218, 4), 0, 0)
+script_5691(load_varc(1753))
+return

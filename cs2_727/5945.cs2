@@ -1,0 +1,15 @@
+//script5945(5945)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = 82051074
+iVar3 = 82051072
+iVar4 = max(if_getwidth(iVar2), 1)
+iVar5 = max(if_getheight(iVar2), 1)
+store_varc(1787, max(arg0, 1))
+store_varc(1788, max(arg1, 1))
+store_varc(1787, min(iVar4 - if_getwidth(iVar3), load_varc(1787)))
+store_varc(1788, min(iVar5 - if_getheight(iVar3), load_varc(1788)))
+if_setposition(iVar3, 3, 3, scale(16384, iVar5, load_varc(1788)), scale(16384, iVar4, load_varc(1787)))
+return

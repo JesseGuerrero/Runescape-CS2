@@ -1,0 +1,388 @@
+//script412(412)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar1 = cam_getangley()
+iVar2 = 0
+iVar3 = -1
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+if(load_varc(1360) < 10) {
+	store_varc(1360, load_varc(1360) + 1)
+	return
+}
+if(load_varc(1359) < 5) {
+	store_varc(1359, load_varc(1359) + 1)
+	return
+} else 
+	store_varc(1359, 0)
+if(iVar1 < 128)
+	iVar1 = 1
+else
+	if(iVar1 < 256)
+		iVar1 = 2
+	else
+		if(iVar1 < 384)
+			iVar1 = 3
+		else
+			if(iVar1 < 512)
+				iVar1 = 4
+			else
+				if(iVar1 < 640)
+					iVar1 = 5
+				else
+					if(iVar1 < 768)
+						iVar1 = 6
+					else
+						if(iVar1 < 896)
+							iVar1 = 7
+						else
+							if(iVar1 < 1024)
+								iVar1 = 8
+							else
+								if(iVar1 < 1152)
+									iVar1 = 9
+								else
+									if(iVar1 < 1280)
+										iVar1 = 10
+									else
+										if(iVar1 < 1408)
+											iVar1 = 11
+										else
+											if(iVar1 < 1536)
+												iVar1 = 12
+											else
+												if(iVar1 < 1664)
+													iVar1 = 13
+												else
+													if(iVar1 < 1792)
+														iVar1 = 14
+													else
+														if(iVar1 < 1920)
+															iVar1 = 15
+														else
+															iVar1 = 16
+switch(arg0) {
+	case default:
+		return
+
+	case 1:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 1
+				break
+			case 3:
+				iVar2 = 8
+				break
+			case 5:
+				iVar2 = 7
+				break
+			case 7:
+				iVar2 = 6
+				break
+			case 9:
+				iVar2 = 5
+				break
+			case 11:
+				iVar2 = 4
+				break
+			case 13:
+				iVar2 = 3
+				break
+			case 15:
+				iVar2 = 2
+				break
+
+		}
+		break
+	case 5:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 5
+				break
+			case 3:
+				iVar2 = 4
+				break
+			case 5:
+				iVar2 = 3
+				break
+			case 7:
+				iVar2 = 2
+				break
+			case 9:
+				iVar2 = 1
+				break
+			case 11:
+				iVar2 = 8
+				break
+			case 13:
+				iVar2 = 7
+				break
+			case 15:
+				iVar2 = 6
+				break
+
+		}
+		break
+	case 7:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 7
+				break
+			case 3:
+				iVar2 = 6
+				break
+			case 5:
+				iVar2 = 5
+				break
+			case 7:
+				iVar2 = 4
+				break
+			case 9:
+				iVar2 = 3
+				break
+			case 11:
+				iVar2 = 2
+				break
+			case 13:
+				iVar2 = 1
+				break
+			case 15:
+				iVar2 = 8
+				break
+
+		}
+		break
+	case 3:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 3
+				break
+			case 3:
+				iVar2 = 2
+				break
+			case 5:
+				iVar2 = 1
+				break
+			case 7:
+				iVar2 = 8
+				break
+			case 9:
+				iVar2 = 7
+				break
+			case 11:
+				iVar2 = 6
+				break
+			case 13:
+				iVar2 = 5
+				break
+			case 15:
+				iVar2 = 4
+				break
+
+		}
+		break
+	case 2:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 2
+				break
+			case 3:
+				iVar2 = 1
+				break
+			case 5:
+				iVar2 = 8
+				break
+			case 7:
+				iVar2 = 7
+				break
+			case 9:
+				iVar2 = 6
+				break
+			case 11:
+				iVar2 = 5
+				break
+			case 13:
+				iVar2 = 4
+				break
+			case 15:
+				iVar2 = 3
+				break
+
+		}
+		break
+	case 4:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 4
+				break
+			case 3:
+				iVar2 = 3
+				break
+			case 5:
+				iVar2 = 2
+				break
+			case 7:
+				iVar2 = 1
+				break
+			case 9:
+				iVar2 = 8
+				break
+			case 11:
+				iVar2 = 7
+				break
+			case 13:
+				iVar2 = 6
+				break
+			case 15:
+				iVar2 = 5
+				break
+
+		}
+		break
+	case 8:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 8
+				break
+			case 3:
+				iVar2 = 7
+				break
+			case 5:
+				iVar2 = 6
+				break
+			case 7:
+				iVar2 = 5
+				break
+			case 9:
+				iVar2 = 4
+				break
+			case 11:
+				iVar2 = 3
+				break
+			case 13:
+				iVar2 = 2
+				break
+			case 15:
+				iVar2 = 1
+				break
+
+		}
+		break
+	case 6:
+		switch(iVar1) {
+			case default:
+				break
+			case 16:
+				iVar2 = 6
+				break
+			case 3:
+				iVar2 = 5
+				break
+			case 5:
+				iVar2 = 4
+				break
+			case 7:
+				iVar2 = 3
+				break
+			case 9:
+				iVar2 = 2
+				break
+			case 11:
+				iVar2 = 1
+				break
+			case 13:
+				iVar2 = 8
+				break
+			case 15:
+				iVar2 = 7
+				break
+
+		}
+		break
+
+}
+switch(iVar2) {
+	case default:
+		return
+
+	case 1:
+		iVar3 = movecoord(1, 0, 0, load_varc(1353))
+		break
+	case 2:
+		iVar3 = movecoord(1, 0, 1, load_varc(1353))
+		break
+	case 3:
+		iVar3 = movecoord(0, 0, 1, load_varc(1353))
+		break
+	case 4:
+		iVar3 = movecoord(-1, 0, 1, load_varc(1353))
+		break
+	case 5:
+		iVar3 = movecoord(-1, 0, 0, load_varc(1353))
+		break
+	case 6:
+		iVar3 = movecoord(-1, 0, -1, load_varc(1353))
+		break
+	case 7:
+		iVar3 = movecoord(0, 0, -1, load_varc(1353))
+		break
+	case 8:
+		iVar3 = movecoord(1, 0, -1, load_varc(1353))
+		break
+
+}
+if(load_varc(1390) == 1) {
+	iVar4 = 44
+	iVar5 = 35
+	iVar6 = 31
+	iVar7 = 17
+} else  {
+	iVar4 = 54
+	iVar5 = 35
+	iVar6 = 36
+	iVar7 = 17
+}
+if(modulo(64, coordx(iVar3)) > iVar4 || modulo(64, coordz(iVar3)) > iVar6 || modulo(64, coordx(iVar3)) < iVar5 || modulo(64, coordz(iVar3)) < iVar7) {
+	if_setcolor(66387987, 0x646464)
+	if_setcolor(66387986, 0x646464)
+	if_setcolor(66387988, 0x646464)
+	if_setcolor(66387989, 0x646464)
+	if_setcolor(66387985, 0x646464)
+	if_setcolor(66387983, 0x646464)
+	if_setcolor(66387984, 0x646464)
+	if_setcolor(66387982, 0x646464)
+	return
+} else  {
+	if_setcolor(66387987, 0x0)
+	if_setcolor(66387986, 0x0)
+	if_setcolor(66387988, 0x0)
+	if_setcolor(66387989, 0x0)
+	if_setcolor(66387985, 0x0)
+	if_setcolor(66387983, 0x0)
+	if_setcolor(66387984, 0x0)
+	if_setcolor(66387982, 0x0)
+	store_varc(1353, iVar3)
+	instr6627(load_varc(1353))
+}
+return

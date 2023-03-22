@@ -1,0 +1,12 @@
+//script4993(4993)()(void)
+if_sethide(if_gethash(1261, 36), 1)
+if_sethide(if_gethash(1261, 37), 1)
+if_sethide(if_gethash(1261, 38), 1)
+if_sethide(if_gethash(1261, 39), 1)
+if_sethide(if_gethash(1261, 40), 1)
+if_sethide(if_gethash(1261, 41), 1)
+if_sethide(if_gethash(1261, 42), 1)
+if_sethide(if_gethash(1261, 43), 1)
+if_sethide(if_gethash(1261, 44), 1)
+if_sethide(if_gethash(1261, 253), 1)
+return

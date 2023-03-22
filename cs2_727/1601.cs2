@@ -1,0 +1,61 @@
+//script1601(1601)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = -1
+iVar2 = -1
+switch(random_inclusive(2)) {
+	case default:
+		break
+	case 0:
+		sound_synth(0, 1, 7813)
+		break
+	case 1:
+		sound_synth(0, 1, 7817)
+		break
+	case 2:
+		sound_synth(0, 1, 7818)
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 63701023:
+		iVar1 = 63700995
+		iVar2 = 63700996
+		break
+	case 63701017:
+		iVar1 = 63700996
+		iVar2 = 63700997
+		break
+	case 63701012:
+		iVar1 = 63700997
+		iVar2 = 63700998
+		break
+	case 63701007:
+		iVar1 = 63700998
+		iVar2 = 63700999
+		break
+	case 63701003:
+		iVar1 = 63700999
+		iVar2 = 63700998
+		break
+	case 63701008:
+		iVar1 = 63700998
+		iVar2 = 63700997
+		break
+	case 63701013:
+		iVar1 = 63700997
+		iVar2 = 63700996
+		break
+	case 63701018:
+		iVar1 = 63700996
+		iVar2 = 63700995
+		script_675()
+		break
+
+}
+if_sethide(iVar1, 1)
+if_sethide(iVar2, 0)
+return
+return

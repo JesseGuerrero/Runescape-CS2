@@ -1,0 +1,6 @@
+void script_240(boolean arg0, Item item1, int arg2, Widget widget3, int arg4, int arg5) {
+	if (CHILD.setChild(widget3, arg4) == true && _CHILD.setChild(widget3, arg5) == true) {
+		script_241(arg0, item1, arg2);
+	}
+	return;
+}

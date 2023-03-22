@@ -1,0 +1,43 @@
+//script868(868)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13)(void)
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+iVar14 = script_718(load_varc(1441))
+iVar15 = script_718(load_varc(1442))
+iVar16 = script_715(iVar14, load_varc(1443), iVar15, load_varc(1444))
+if(instr6004(arg0) == 1) {
+	cc_setparam_string(718, script_4126(iVar16))
+	cc_setcolor(0)
+}
+if(instr6004(arg8) == 1) {
+	cc_setparam_string(718, script_4126(iVar16))
+	cc_setcolor(0)
+}
+if(instr6004(arg1) == 1) {
+	cc_setparam_string(718, script_4126(iVar14))
+	cc_setcolor(0)
+}
+if(instr6004(arg2) == 1) {
+	cc_setparam_string(718, script_4126(iVar15))
+	cc_setcolor(0)
+}
+if_setmodel(arg10, enum(1595, load_varc(1450) / 10, 'i', 'm'))
+if_setmodel(arg11, enum(1595, modulo(10, load_varc(1450)), 'i', 'm'))
+iVar17 = (load_varc(1441) * load_varc(1443)) + (load_varc(1442) * load_varc(1444))
+if(load_varc(1450) < iVar17)
+	if_setgraphic(arg13, 4567)
+else
+	if(load_varc(1450) > iVar17)
+		if_setgraphic(arg13, 4568)
+	else {
+		if_setgraphic(arg13, 4565)
+		sound_vorbis_volume(255, 0, 1, 3559)
+	}
+if(iVar16 == 16711935) {
+	if_setgraphic(arg12, 4565)
+	sound_vorbis_volume(255, 10, 1, 3559)
+} else 
+	if_setgraphic(arg12, 4566)
+script_2472(arg3, arg4, arg5, arg6, arg7, arg9, load_varp(851), load_varp(852), 1109)
+return

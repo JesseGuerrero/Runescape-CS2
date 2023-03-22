@@ -1,0 +1,177 @@
+//script3431(3431)(int arg0, int arg1, int arg2)(void)
+if(arg1 == 1)
+	if(arg0 == 3)
+		if_setcolor(3538969, arg2)
+	else
+		if(arg0 == 4)
+			if_setcolor(3538971, arg2)
+		else
+			if(arg0 == 5)
+				if_setcolor(3538973, arg2)
+			else
+				if(arg0 == 6)
+					if_setcolor(3538975, arg2)
+				else
+					if(arg0 == 7)
+						if_setcolor(3538977, arg2)
+					else
+						if(arg0 == 8)
+							if_setcolor(3538979, arg2)
+else
+	if(arg1 == 2)
+		if(arg0 == 3)
+			if_setcolor(3538981, arg2)
+		else
+			if(arg0 == 4)
+				if_setcolor(3538983, arg2)
+			else
+				if(arg0 == 5)
+					if_setcolor(3538985, arg2)
+				else
+					if(arg0 == 6)
+						if_setcolor(3538987, arg2)
+					else
+						if(arg0 == 7)
+							if_setcolor(3538989, arg2)
+						else
+							if(arg0 == 8)
+								if_setcolor(3538991, arg2)
+	else
+		if(arg1 == 3)
+			if(arg0 == 1)
+				if_setcolor(3538993, arg2)
+			else
+				if(arg0 == 2)
+					if_setcolor(3538995, arg2)
+				else
+					if(arg0 == 3)
+						if_setcolor(3538997, arg2)
+					else
+						if(arg0 == 4)
+							if_setcolor(3538999, arg2)
+						else
+							if(arg0 == 5)
+								if_setcolor(3539001, arg2)
+							else
+								if(arg0 == 6)
+									if_setcolor(3539003, arg2)
+								else
+									if(arg0 == 7)
+										if_setcolor(3539005, arg2)
+									else
+										if(arg0 == 8)
+											if_setcolor(3539007, arg2)
+		else
+			if(arg1 == 4)
+				if(arg0 == 1)
+					if_setcolor(3539009, arg2)
+				else
+					if(arg0 == 2)
+						if_setcolor(3539011, arg2)
+					else
+						if(arg0 == 3)
+							if_setcolor(3539013, arg2)
+						else
+							if(arg0 == 4)
+								if_setcolor(3539015, arg2)
+							else
+								if(arg0 == 5)
+									if_setcolor(3539017, arg2)
+								else
+									if(arg0 == 6)
+										if_setcolor(3539019, arg2)
+									else
+										if(arg0 == 7)
+											if_setcolor(3539021, arg2)
+										else
+											if(arg0 == 8)
+												if_setcolor(3539023, arg2)
+			else
+				if(arg1 == 5)
+					if(arg0 == 1)
+						if_setcolor(3539025, arg2)
+					else
+						if(arg0 == 2)
+							if_setcolor(3539027, arg2)
+						else
+							if(arg0 == 3)
+								if_setcolor(3539029, arg2)
+							else
+								if(arg0 == 4)
+									if_setcolor(3539031, arg2)
+								else
+									if(arg0 == 5)
+										if_setcolor(3539033, arg2)
+									else
+										if(arg0 == 6)
+											if_setcolor(3539035, arg2)
+										else
+											if(arg0 == 7)
+												if_setcolor(3539037, arg2)
+											else
+												if(arg0 == 8)
+													if_setcolor(3539039, arg2)
+				else
+					if(arg1 == 6)
+						if(arg0 == 1)
+							if_setcolor(3539041, arg2)
+						else
+							if(arg0 == 2)
+								if_setcolor(3539043, arg2)
+							else
+								if(arg0 == 3)
+									if_setcolor(3539045, arg2)
+								else
+									if(arg0 == 4)
+										if_setcolor(3539047, arg2)
+									else
+										if(arg0 == 5)
+											if_setcolor(3539049, arg2)
+										else
+											if(arg0 == 6)
+												if_setcolor(3539051, arg2)
+											else
+												if(arg0 == 7)
+													if_setcolor(3539053, arg2)
+												else
+													if(arg0 == 8)
+														if_setcolor(3539055, arg2)
+					else
+						if(arg1 == 7)
+							if(arg0 == 1)
+								if_setcolor(3539057, arg2)
+							else
+								if(arg0 == 2)
+									if_setcolor(3539059, arg2)
+								else
+									if(arg0 == 3)
+										if_setcolor(3539061, arg2)
+									else
+										if(arg0 == 4)
+											if_setcolor(3539063, arg2)
+										else
+											if(arg0 == 5)
+												if_setcolor(3539065, arg2)
+											else
+												if(arg0 == 6)
+													if_setcolor(3539067, arg2)
+						else
+							if(arg1 == 8)
+								if(arg0 == 1)
+									if_setcolor(3539069, arg2)
+								else
+									if(arg0 == 2)
+										if_setcolor(3539071, arg2)
+									else
+										if(arg0 == 3)
+											if_setcolor(3539073, arg2)
+										else
+											if(arg0 == 4)
+												if_setcolor(3539075, arg2)
+											else
+												if(arg0 == 5)
+													if_setcolor(3539077, arg2)
+												else
+													if(arg0 == 6)
+														if_setcolor(3539079, arg2)
+return

@@ -1,0 +1,20 @@
+//script2464(2464)(int arg0, int arg1)(void)
+if(arg0 > client_clock() - 5)
+	return
+instr6342(arg1, None, "")
+if(script_2465(script_1305()) == 0) {
+	if(instr6644() >= 2) {
+		script_71(-1)
+		return
+	}
+	if(script_2465(4) == 1)
+		script_71(4)
+	else
+		if(script_2465(9) == 1)
+			script_71(9)
+		else
+			if(script_2465(12) == 1)
+				if(load_varp(281) > 3)
+					script_71(12)
+}
+return

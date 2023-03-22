@@ -1,0 +1,140 @@
+//script4559(4559)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+string sVar0
+string sVar1
+string sVar2
+if(instr6661(-1, arg3) == 1) {
+	instr6342(arg4, script_4558, "IIIIII", arg0, arg1, arg2, arg3, arg4, arg5)
+	return
+} else 
+	instr6342(arg4, None, "")
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+iVar6 = 0
+iVar7 = fc_getchatcount()
+iVar8 = 0
+sVar0 = ""
+iVar9 = 15
+iVar10 = 17
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+sVar1 = ""
+sVar2 = ""
+iVar17 = 0
+if(iVar7 <= 0) {
+	if_settext(if_gethash(589, 19), "Not in chat")
+	if_settext(if_gethash(589, 20), "None")
+	if_settext(if_gethash(589, 41), "Join Chat Channel")
+	instr6213(if_gethash(589, 39), 1, "Join Chat Channel")
+	script_4560(arg3, "You are not currently in a Friends Chat channel." + "<br>" + "<br>" + "Use the button below if you wish to join a chat channel.")
+	if_setsize(if_gethash(589, 45), 0, 0, if_getheight(if_gethash(589, 44)), if_getwidth(if_gethash(589, 45)))
+	if_setscrollsize(38600755, 0, 0)
+	if_setscrollpos(if_gethash(589, 51), 0, 0)
+	script_72(38600756, 38600755, 0)
+} else  {
+	if_settext(if_gethash(589, 19), fc_getchatdisplayname())
+	if_settext(if_gethash(589, 20), fc_getchatownername())
+	if_settext(if_gethash(589, 41), "Leave chat channel")
+	instr6213(if_gethash(589, 39), 1, "Leave chat channel")
+	if_setsize(if_gethash(589, 45), 1, 0, 4, if_getwidth(if_gethash(589, 45)))
+	while(iVar8 < iVar7) {
+		iVar16 = fc_getchatuserrank(iVar8)
+		sVar2 = fc_getchatusername_unfiltered(iVar8)
+		sVar0 = fc_getdisplayname(iVar8)
+		script_2996(arg3, iVar8, if_getwidth(arg3), iVar9, 0, iVar12, 0, 1, 0)
+		if(modulo(2, iVar8) == 0)
+			cc_setcolor(201911)
+		else
+			cc_setcolor(292016)
+		sVar1 = "Rank: " + enum(5853, iVar16, 'i', 's')
+		instr6091(script_4561, "Iis", arg3, iVar8, sVar1)
+		instr6092(script_4563, "Ii", arg3, iVar8)
+		if(fc_isself(iVar8) == 0) {
+			instr6687(script_4564, "si", sVar2, -2147483644)
+			if(friend_test(removetags(sVar2)) == 1)
+				cc_setop("Remove friend " + sVar0, 8)
+			else
+				if(ignore_test(removetags(sVar2)) == 1)
+					cc_setop("Remove ignore " + sVar0, 9)
+				else {
+					cc_setop("Add friend " + sVar0, 6)
+					cc_setop("Add ignore " + sVar0, 7)
+				}
+		}
+		if(fc_getchatrank() >= fc_getchatminkick())
+			if(fc_getchatrank() > iVar16)
+				cc_setop("Kick/ban " + sVar0, 10)
+		script_2994(arg1, iVar8, 9, 9, 5, iVar12 + 2, script_1599(iVar16), 0, 0, 0, 0)
+		script_2995(arg0, iVar8, 0, iVar9, iVar10, iVar12, 16777215, 494, 0, 1, 0, 1, sVar0)
+		cc_setsize(0, 1, iVar9, iVar10)
+		cc_setmaxlines(1)
+		iVar13 = fc_getchatuserworld(iVar8)
+		if(iVar13 == 0) {
+			sVar0 = "Offline"
+			iVar11 = 16711680
+		} else 
+			if(iVar13 >= 1149)
+				if(iVar13 < 1200)
+					sVar0 = "Beta lobby"
+				else
+					if(iVar13 >= 200)
+						if(iVar13 < 250)
+							sVar0 = "Beta " + to_string(iVar13)
+						else
+							sVar0 = fc_getchatuserworldname(iVar8)
+		if(iVar13 > 0)
+			if(iVar13 == world_id())
+				iVar11 = 65280
+			else
+				iVar11 = 16776960
+		script_2995(arg2, iVar8, 0, iVar9, 5, iVar12, iVar11, 494, 0, 1, 0, 1, sVar0)
+		cc_setsize(0, 1, iVar9, 5)
+		cc_setmaxlines(1)
+		iVar12 = iVar12 + iVar9
+		iVar8 = iVar8 + 1
+	}
+	iVar14 = (if_getheight(arg4) / iVar9) + 1
+	if(iVar14 > iVar7) {
+		while(iVar8 < iVar14) {
+			script_2996(arg3, iVar8, if_getwidth(arg3), iVar9, 0, iVar12, 0, 1, 0)
+			if(modulo(2, iVar8) == 0)
+				cc_setcolor(201911)
+			else
+				cc_setcolor(292016)
+			iVar12 = iVar12 + iVar9
+			iVar8 = iVar8 + 1
+		}
+		iVar15 = if_getheight(arg4)
+	} else 
+		iVar15 = iVar12
+	if(iVar14 <= iVar7) {
+		iVar17 = if_getscrolly(38600755)
+		if_setscrollsize(38600755, iVar15, 0)
+		if(iVar17 > iVar15)
+			iVar17 = iVar15
+		script_72(38600756, 38600755, iVar17)
+	} else  {
+		if_setscrollsize(38600755, 0, 0)
+		if_setscrollpos(if_gethash(589, 51), 0, 0)
+		script_72(38600756, 38600755, 0)
+	}
+}
+script_4573()
+return

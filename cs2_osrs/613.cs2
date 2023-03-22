@@ -1,0 +1,13 @@
+void script_613(Widget widget0, int arg1, int arg2, string arg3, string string4) {
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		_CHILD.setRGB(0xFFFFFF);
+		_CHILD.setText("<u=ffffff>" + arg3 + "</u>");
+		CHILD.hookFrame(&script_614(widget0, arg1, arg2, arg3, string4, getClientCycle() + 25));
+		CHILD.hookMouseEnter(null);
+		CHILD.hookMouseExit(null);
+		CHILD.hookMousePress(null);
+	}
+	playSoundEffect(2266, 1, 0);
+	cs2method31113(string4, 1);
+	return;
+}

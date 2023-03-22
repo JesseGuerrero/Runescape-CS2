@@ -1,0 +1,92 @@
+void script_129(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, int arg6) {
+	int int7;
+	int int8;
+	int int9;
+	string str0;
+	string str1;
+	int7 = getIgnoreCount();
+	if (int7 > 200) {
+		if (VARC[184] != 1) {
+			VARC[184] = 0;
+		}
+		script_1671(widget1, "Sort by name", arg6);
+	} else {
+		script_1653(widget1, 2, 3, "Sort by name", widget0, widget1, widget2, widget3, widget4, widget5, arg6);
+	}
+	script_1653(widget2, 0, 1, "Legacy sort", widget0, widget1, widget2, widget3, widget4, widget5, arg6);
+	widget3.clearChildren();
+	int8 = 0;
+	str0 = "";
+	str1 = "";
+	ARRAY0 = new int[script_1045(int7, 1)];
+	int9 = 0;
+	if (int7 < 0) {
+		widget5.setText("Loading ignore list" + "<br>" + "Please wait...");
+		widget0.setIsHidden(true);
+	} else {
+		widget5.setText("");
+		widget0.setIsHidden(false);
+		while (int8 < int7) {
+			ARRAY0[int8] = int8;
+			str0, str1 = getIgnoreName(int8);
+			CHILD.createChild(widget3, 4, int8 * 2);
+			CHILD.setText(str0);
+			CHILD.setSize(0, 15, 1, 0);
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setFont(495);
+			CHILD.setTextAlignment(0, 0, 0);
+			CHILD.setTextAntiMacro(true);
+			CHILD.setOptionBase("<col=ff9040>" + str0 + "</col>");
+			CHILD.setContextMenuOption(1, "Delete");
+			CHILD.hookOptionClick(&script_130("event_opbase"));
+			_CHILD.createChild(widget3, 5, int8 * 2 + 1);
+			_CHILD.setSize(14, 14, 0, 0);
+			_CHILD.setSprite(1093);
+			_CHILD.setShadowColor(0x333333);
+			if (length(str1) > 0) {
+				str1 = "Previous name:" + "<br>" + str1;
+				CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg6), str1, 25, 190));
+				CHILD.hookMouseExit(&script_40(widget(arg6)));
+				_CHILD.setHidden(false);
+			} else {
+				CHILD.hookMouseEnter(&script_40(widget(arg6)));
+				_CHILD.setHidden(true);
+			}
+			int8 = int8 + 1;
+		}
+		if (int7 >= 2 && (VARC[184] == 2 || VARC[184] == 3)) {
+			script_1655(0, 0, int7 - 1, widget3);
+		}
+		if (int7 >= 1) {
+			if (VARC[184] == 3 || VARC[184] == 1) {
+				int8 = int7;
+				while (int8 > 0) {
+					int8 = int8 - 1;
+					if (CHILD.setChild(widget3, ARRAY0[int8] * 2) == true && _CHILD.setChild(widget3, ARRAY0[int8] * 2 + 1) == true) {
+						CHILD.setPosition(0, int9, 1, 0);
+						_CHILD.setPosition(getMaxLineWidth(getText(), 190, 495) + 3, int9, 0, 0);
+					}
+					int9 = int9 + 15;
+				}
+			} else {
+				int8 = 0;
+				while (int8 < int7) {
+					if (CHILD.setChild(widget3, ARRAY0[int8] * 2) == true && _CHILD.setChild(widget3, ARRAY0[int8] * 2 + 1) == true) {
+						CHILD.setPosition(0, int9, 1, 0);
+						_CHILD.setPosition(getMaxLineWidth(getText(), 190, 495) + 3, int9, 0, 0);
+					}
+					int9, int8 = int9 + 15, int8 + 1;
+				}
+			}
+			int9 = int9 + 5;
+		}
+	}
+	if (int9 > widget3.getHeight()) {
+		widget3.setScrollMax(0, int9);
+		script_72(widget4, widget3, getScrollY(widget3));
+	} else {
+		widget3.setScrollMax(0, 0);
+		script_72(widget4, widget3, 0);
+	}
+	return;
+}

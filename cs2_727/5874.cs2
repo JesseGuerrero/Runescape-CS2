@@ -1,0 +1,7 @@
+//script5874(5874)()(void)
+detailset_soundvol(0)
+detailset_musicvol(0)
+detailset_bgsoundvol(0)
+detailset_voiceovervolume(0)
+instr6629(0)
+return

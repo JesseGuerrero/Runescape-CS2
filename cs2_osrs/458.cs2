@@ -1,0 +1,30 @@
+void script_458(int arg0, Widget widget1, int arg2) {
+	int int3;
+	int int4;
+	Widget widget5;
+	int int6;
+	ARRAY0 = new int[28 + 1];
+	int3 = 0;
+	int4 = 0;
+	widget5 = null;
+	while (int4 <= 28) {
+		widget5 = datamap('i', 'I', 859, int4);
+		if (widget5 != null) {
+			ARRAY0[int3] = int4;
+			int3 = int3 + 1;
+			script_460(int4, widget5, arg2);
+		}
+		int4 = int4 + 1;
+	}
+	if (int3 > 0) {
+		script_465(0, 0, int3 - 1);
+	}
+	int6 = 0;
+	while (int6 < int3) {
+		datamap('i', 'I', 859, ARRAY0[int6]).setPosition(int6 % 5 * 37, int6 / 5 * 37, 0, 0);
+		int6 = int6 + 1;
+	}
+	script_459(widget1);
+	widget1.hookSkill(&script_53(widget1), 5);
+	return;
+}

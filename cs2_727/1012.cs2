@@ -1,0 +1,326 @@
+//script1012(1012)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 556, 1, "You can now craft " + "<col=000080>" + "air runes" + "</col>" + ".", "Air runes"
+
+			case 1:
+				return 558, 2, "You can now craft " + "<col=000080>" + "mind runes" + "</col>" + ".", "Mind runes"
+
+			case 2:
+				return 555, 5, "You can now craft " + "<col=000080>" + "water runes" + "</col>" + ".", "Water runes"
+
+			case 3:
+				return 4695, 6, "Members can now craft " + "<col=000080>" + "mist runes" + "</col>" + ".", "Members: Mist runes"
+
+			case 4:
+				return 557, 9, "You can now craft " + "<col=000080>" + "earth runes" + "</col>" + ".", "Earth runes"
+
+			case 5:
+				return 4696, 10, "Members can now craft " + "<col=000080>" + "dust runes" + "</col>" + ".", "Members: Dust runes"
+
+			case 6:
+				return 4698, 13, "Members can now craft " + "<col=000080>" + "mud runes" + "</col>" + ".", "Members: Mud runes"
+
+			case 7:
+				return 554, 14, "You can now craft " + "<col=000080>" + "fire runes" + "</col>" + ".", "Fire runes"
+
+			case 8:
+				return 4697, 15, "Members can now craft " + "<col=000080>" + "smoke runes" + "</col>" + ".", "Members: Smoke runes"
+
+			case 9:
+				return 4694, 19, "Members can now craft " + "<col=000080>" + "steam runes" + "</col>" + ".", "Members: Steam runes"
+
+			case 10:
+				return 559, 20, "You can now craft " + "<col=000080>" + "body runes" + "</col>" + ".", "Body runes"
+
+			case 11:
+				return 4699, 23, "Members can now craft " + "<col=000080>" + "lava runes" + "</col>" + ".", "Members: Lava runes"
+
+			case 12:
+				return 564, 27, "Members can now craft " + "<col=000080>" + "cosmic runes" + "</col>" + ".", "Members: Cosmic runes"
+
+			case 13:
+				return 562, 35, "Members can now craft " + "<col=000080>" + "chaos runes" + "</col>" + ".", "Members: Chaos runes"
+
+			case 14:
+				return 9075, 40, "Members now have the Runecrafting level required to craft " + "<col=000080>" + "astral runes" + "</col>" + " (after Lunar Diplomacy, or when in Daemonheim).", "Members: Astral runes" + "<br>" + " (after Lunar Diplomacy)"
+
+			case 15:
+				return 561, 44, "Members can now craft " + "<col=000080>" + "nature runes" + "</col>" + ".", "Members: Nature runes"
+
+			case 16:
+				return 563, 54, "Members can now craft " + "<col=000080>" + "law runes" + "</col>" + ".", "Members: Law runes"
+
+			case 17:
+				return 560, 65, "Members now have the Runecrafting level required to craft " + "<col=000080>" + "death runes" + "</col>" + " (after Mourning's Ends Part II, or when in Daemonheim).", "Members: Death runes" + "<br>" + " (after Mourning's Ends Part II)"
+
+			case 18:
+				return 21773, 72, "Members can now craft " + "<col=000080>" + "Armadyl runes" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Armadyl runes" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 19:
+				return 565, 77, "Members now have the Runecrafting level required to craft " + "<col=000080>" + "blood runes" + "</col>" + " (after Legacy of Seergaze, or when in Daemonheim).", "Members: Blood runes" + "<br>" + " (after Legacy of Seergaze)"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, " ", "As your Runecrafting skill develops, you will be able to craft multiple runes from one piece of essence. You only receive experience for each piece of essence crafted, not each rune crafted."
+
+			case 1:
+				return 556, 11, "You can now craft " + "<col=000080>" + "2 air runes" + "</col>" + " from one piece of essence.", "2 Air runes per essence"
+
+			case 2:
+				return 558, 14, "You can now craft " + "<col=000080>" + "2 mind runes" + "</col>" + " from one piece of essence.", "2 Mind runes per essence"
+
+			case 3:
+				return 555, 19, "You can now craft " + "<col=000080>" + "2 water runes" + "</col>" + " from one piece of essence.", "2 Water runes per essence"
+
+			case 4:
+				return 556, 22, "You can now craft " + "<col=000080>" + "3 air runes" + "</col>" + " from one piece of essence.", "3 Air runes per essence"
+
+			case 5:
+				return 557, 26, "You can now craft " + "<col=000080>" + "2 earth runes" + "</col>" + " from one piece of essence.", "2 Earth runes per essence"
+
+			case 6:
+				return 558, 28, "You can now craft " + "<col=000080>" + "3 mind runes" + "</col>" + " from one piece of essence.", "3 Mind runes per essence"
+
+			case 7:
+				return 556, 33, "You can now craft " + "<col=000080>" + "4 air runes" + "</col>" + " from one piece of essence.", "4 Air runes per essence"
+
+			case 8:
+				return 554, 35, "You can now craft " + "<col=000080>" + "2 fire runes" + "</col>" + " from one piece of essence.", "2 Fire runes per essence"
+
+			case 9:
+				return 555, 38, "You can now craft " + "<col=000080>" + "3 water runes" + "</col>" + " from one piece of essence.", "3 Water runes per essence"
+
+			case 10:
+				return 558, 42, "You can now craft " + "<col=000080>" + "4 mind runes" + "</col>" + " from one piece of essence.", "4 Mind runes per essence"
+
+			case 11:
+				return 556, 44, "You can now craft " + "<col=000080>" + "5 air runes" + "</col>" + " from one piece of essence.", "5 Air runes per essence"
+
+			case 12:
+				return 559, 46, "You can now craft " + "<col=000080>" + "2 body runes" + "</col>" + " from one piece of essence.", "2 Body runes per essence"
+
+			case 13:
+				return 557, 52, "You can now craft " + "<col=000080>" + "3 earth runes" + "</col>" + " from one piece of essence.", "3 Earth runes per essence"
+
+			case 14:
+				return 556, 55, "You can now craft " + "<col=000080>" + "6 air runes" + "</col>" + " from one piece of essence.", "6 Air runes per essence"
+
+			case 15:
+				return 558, 56, "You can now craft " + "<col=000080>" + "5 mind runes" + "</col>" + " from one piece of essence.", "5 Mind runes per essence"
+
+			case 16:
+				return 555, 57, "You can now craft " + "<col=000080>" + "4 water runes" + "</col>" + " from one piece of essence.", "4 Water runes per essence"
+
+			case 17:
+				return 564, 59, "Members can now craft " + "<col=000080>" + "2 cosmic runes" + "</col>" + " from one piece of essence.", "Members: 2 Cosmic runes per essence"
+
+			case 18:
+				return 556, 66, "You can now craft " + "<col=000080>" + "7 air runes" + "</col>" + " from one piece of essence.", "7 Air runes per essence"
+
+			case 19:
+				return 558, 70, "You can now craft " + "<col=000080>" + "6 mind runes" + "</col>" + " from one piece of essence.", "6 Mind runes per essence"
+
+			case 20:
+				return 554, 70, "You can now craft " + "<col=000080>" + "3 fire runes" + "</col>" + " from one piece of essence.", "3 Fire runes per essence"
+
+			case 21:
+				return 562, 74, "Members can now craft " + "<col=000080>" + "2 chaos runes" + "</col>" + " from one piece of essence.", "Members: 2 Chaos runes per essence"
+
+			case 22:
+				return 555, 76, "You can now craft " + "<col=000080>" + "5 water runes" + "</col>" + " from one piece of essence.", "5 Water runes per essence"
+
+			case 23:
+				return 556, 77, "You can now craft " + "<col=000080>" + "8 air runes" + "</col>" + " from one piece of essence.", "8 Air runes per essence"
+
+			case 24:
+				return 557, 78, "You can now craft " + "<col=000080>" + "4 earth runes" + "</col>" + " from one piece of essence.", "4 Earth runes per essence"
+
+			case 25:
+				return 9075, 82, "Members can now craft " + "<col=000080>" + "2 astral runes" + "</col>" + " from one piece of essence.", "Members: 2 Astral runes per essence"
+
+			case 26:
+				return 558, 84, "You can now craft " + "<col=000080>" + "7 mind runes" + "</col>" + " from one piece of essence.", "7 Mind runes per essence"
+
+			case 27:
+				return 556, 88, "You can now craft " + "<col=000080>" + "9 air runes" + "</col>" + " from one piece of essence.", "9 Air runes per essence"
+
+			case 28:
+				return 561, 91, "Members can now craft " + "<col=000080>" + "2 nature runes" + "</col>" + " from one piece of essence.", "Members: 2 Nature runes per essence"
+
+			case 29:
+				return 559, 92, "You can now craft " + "<col=000080>" + "3 body runes" + "</col>" + " from one piece of essence.", "3 Body runes per essence"
+
+			case 30:
+				return 555, 95, "You can now craft " + "<col=000080>" + "6 water runes" + "</col>" + " from one piece of essence.", "6 Water runes per essence"
+
+			case 31:
+				return 558, 98, "You can now craft " + "<col=000080>" + "8 mind runes" + "</col>" + " from one piece of essence.", "8 Mind runes per essence"
+
+			case 32:
+				return 556, 99, "You can now craft " + "<col=000080>" + "10 air runes" + "</col>" + " from one piece of essence.", "10 Air runes per essence"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "Pouches allow you to carry extra essence in them and they come in various sizes. As you use the pouches, they degrade and store less essence. Speak to the Dark Mage at the centre of the Abyss to restore them."
+
+			case 1:
+				return 5509, 1, "Members can now use " + "<col=000080>" + "small pouches" + "</col>" + " to store 3 essence.", "Members: Small pouch" + "<br>" + "Holds 3 extra essence"
+
+			case 2:
+				return 12863, 10, "You can now wear " + "<col=000080>" + "air rune crafting gloves" + "</col>" + ".", "Air rune crafting gloves"
+
+			case 3:
+				return 12864, 20, "You can now wear " + "<col=000080>" + "water rune crafting gloves" + "</col>" + ".", "Water rune crafting gloves"
+
+			case 4:
+				return 5510, 25, "Members can now use " + "<col=000080>" + "medium pouches" + "</col>" + " to store 6 essence.", "Members: Medium pouch" + "<br>" + "Holds 6 extra essence"
+
+			case 5:
+				return 12865, 30, "You can now wear " + "<col=000080>" + "earth rune crafting gloves" + "</col>" + ".", "Earth rune crafting gloves"
+
+			case 6:
+				return 19671, 30, "You can now use " + "<col=000080>" + "magical blastboxes" + "</col>" + ". (You also need level 30 Dungeoneering and 30 Magic.)", "Magical blastbox" + "<br>" + " (with 30 Dungeoneering and 30 Magic)"
+
+			case 7:
+				return 5512, 50, "Members can now use " + "<col=000080>" + "large pouches" + "</col>" + " to store 9 essence.", "Members: Large pouch" + "<br>" + "Holds 9 extra essence"
+
+			case 8:
+				return 21517, 50, "Members can now wear " + "<col=000080>" + "Master Runecrafter hats" + "</col>" + ".", "Members: Master Runecrafter hat"
+
+			case 9:
+				return 21516, 50, "Members can now wear " + "<col=000080>" + "Master Runecrafter robes" + "</col>" + ".", "Members: Master Runecrafter robe"
+
+			case 10:
+				return 21518, 50, "Members can now wear " + "<col=000080>" + "Master Runecrafter legs" + "</col>" + ".", "Members: Master Runecrafter legs"
+
+			case 11:
+				return 21519, 50, "Members can now wear " + "<col=000080>" + "Master Runecrafter boots" + "</col>" + ".", "Members: Master Runecrafter boots"
+
+			case 12:
+				return 19889, 70, "Members can now use " + "<col=000080>" + "celestial surgeboxes" + "</col>" + ". (They also need level 70 Magic and level 70 Dungeoneering.)", "Members: Celestial surgebox" + "<br>" + " (with 70 Magic and 70 Dungeoneering)"
+
+			case 13:
+				return 5514, 75, "Members can now use " + "<col=000080>" + "giant pouches" + "</col>" + " to store 12 essence.", "Members: Giant pouch" + "<br>" + "Holds 12 extra essence"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Runecrafting.", "Members: Starved ancient effigies"
+
+			case 1:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Runecrafting.", "Members: Nourished ancient effigies"
+
+			case 2:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Runecrafting.", "Members: Sated ancient effigies"
+
+			case 3:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Runecrafting.", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 12851, 1, "Members can now craft runes from class 1 sacred clay in Stealing Creation.", "Members: Stealing Creation - class 1 sacred clay"
+
+			case 1:
+				return 12851, 20, "Members can now craft runes from class 2 sacred clay in Stealing Creation.", "Members: Stealing Creation - class 2 sacred clay"
+
+			case 2:
+				return 12851, 40, "Members can now craft runes from class 3 sacred clay in Stealing Creation.", "Members: Stealing Creation - class 3 sacred clay"
+
+			case 3:
+				return 12851, 60, "Members can now craft runes from class 4 sacred clay in Stealing Creation.", "Members: Stealing Creation - class 4 sacred clay"
+
+			case 4:
+				return 21536, 75, "Members can now open the engraved sarcophagus in Pyramid Plunder.", "Members: Pyramid Plunder - Engraved Sarcophagus"
+
+			case 5:
+				return 12851, 80, "Members can now craft runes from class 5 sacred clay in Stealing Creation.", "Members: Stealing Creation - class 5 sacred clay"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Runecrafting level increases, you will be able to attempt higher-level runecrafting tasks within Daemonheim. You will also be more likely to succeed when attempting runecrafting tasks within Daemonheim."
+
+			case 1:
+				return 16997, 10, "You can now craft " + "<col=000080>" + "water staves" + "</col>" + " within Daemonheim.", "Water staff"
+
+			case 2:
+				return 17001, 20, "You can now craft " + "<col=000080>" + "earth staves" + "</col>" + " within Daemonheim.", "Earth staff"
+
+			case 3:
+				return 17005, 30, "You can now craft " + "<col=000080>" + "fire staves" + "</col>" + " within Daemonheim.", "Fire staff"
+
+			case 4:
+				return 17009, 40, "You can now craft " + "<col=000080>" + "air staves" + "</col>" + " within Daemonheim.", "Air staff"
+
+			case 5:
+				return 17013, 50, "You can now craft " + "<col=000080>" + "catalytic staves" + "</col>" + " within Daemonheim.", "Catalytic staff"
+
+			case 6:
+				return 16999, 60, "Members can now craft " + "<col=000080>" + "empowered water staves" + "</col>" + " within Daemonheim.", "Members: Empowered water staff"
+
+			case 7:
+				return 17003, 70, "Members can now craft " + "<col=000080>" + "empowered earth staves" + "</col>" + " within Daemonheim.", "Members: Empowered earth staff"
+
+			case 8:
+				return 17007, 80, "Members can now craft " + "<col=000080>" + "empowered fire staves" + "</col>" + " within Daemonheim.", "Members: Empowered fire staff"
+
+			case 9:
+				return 17011, 90, "Members can now craft " + "<col=000080>" + "empowered air staves" + "</col>" + " within Daemonheim.", "Members: Empowered air staff"
+
+			case 10:
+				return 17015, 99, "Members can now craft " + "<col=000080>" + "empowered catalytic staves" + "</col>" + " within Daemonheim.", "Members: Empowered catalytic staff"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 13625, 50, "You can now enter the prestigious " + "<col=000080>" + "Runecrafting Guild" + "</col>" + " and play the " + "<col=000080>" + "Great Orb Project" + "</col>" + ".", "Runecrafting Guild"
+
+			case 1:
+				return 9765, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Runecrafting" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "Larriar" + "<col=000080>" + " in the " + "<col=800000>" + "Runecrafting Guild" + "<col=000080>" + ". She has something special that is only available to true masters of the " + "<col=800000>" + "Runecrafting" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

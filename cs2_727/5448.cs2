@@ -1,0 +1,67 @@
+//script5448(5448)(int arg0)(void)
+int iVar1
+int iVar2
+string sVar0
+string sVar1
+string sVar2
+iVar1 = -1
+sVar0 = ""
+sVar1 = ""
+iVar2 = 0
+sVar2 = ""
+store_varc(1681, arg0)
+iVar2 = ((load_varc(1680) - 1) * 6) + arg0
+if_setgraphic(if_gethash(1168, 28), 8430)
+if_setgraphic(if_gethash(1168, 27), 8430)
+if_setgraphic(if_gethash(1168, 26), 8430)
+if_setgraphic(if_gethash(1168, 25), 8430)
+if_setgraphic(if_gethash(1168, 24), 8430)
+if_setgraphic(if_gethash(1168, 23), 8430)
+if(arg0 == 1)
+	if_setgraphic(if_gethash(1168, 28), 8433)
+else
+	if(arg0 == 2)
+		if_setgraphic(if_gethash(1168, 27), 8433)
+	else
+		if(arg0 == 3)
+			if_setgraphic(if_gethash(1168, 26), 8433)
+		else
+			if(arg0 == 4)
+				if_setgraphic(if_gethash(1168, 25), 8433)
+			else
+				if(arg0 == 5)
+					if_setgraphic(if_gethash(1168, 24), 8433)
+				else
+					if(arg0 == 6)
+						if_setgraphic(if_gethash(1168, 23), 8433)
+iVar1 = enum(5213, iVar2, 'i', 'J')
+sVar0 = struct_param(2095, iVar1)
+sVar1 = struct_param(2184, iVar1)
+if(struct_param(2097, iVar1) == 1)
+	sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat."
+else
+	if(struct_param(2097, iVar1) == 2)
+		sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat."
+	else
+		if(struct_param(2097, iVar1) == 3)
+			sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars."
+		else
+			if(struct_param(2097, iVar1) == 4)
+				sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars."
+			else
+				if(struct_param(2097, iVar1) == 5)
+					sVar2 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums"
+if_settext(if_gethash(1168, 2), sVar0)
+sound_vorbis_volume(180, 0, 1, 8097)
+if(script_5451(iVar2) == 0)
+	if(iVar2 == 1)
+		if_settext(if_gethash(1168, 101), "You must win against this monster in Endurance or Special mode before you can fight it here.")
+	else
+		if(iVar2 == 22 || iVar2 == 10 || iVar2 == 6 || iVar2 == 34 || iVar2 == 23 || iVar2 == 11 || iVar2 == 39)
+			if_settext(if_gethash(1168, 101), "You must win against this monster in Climber, Endurance or Special mode before you can fight it here.")
+		else
+			if_settext(if_gethash(1168, 101), "You must win against this monster in Climber or Endurance mode before you can fight it here.")
+else
+	if_settext(if_gethash(1168, 101), sVar1 + "<br>" + "<br>" + sVar2)
+script_5475(76546149, 76546058, 76546061, sVar1)
+return

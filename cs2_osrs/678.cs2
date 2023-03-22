@@ -1,0 +1,12 @@
+void script_678() {
+	CHILD.createChild(widget(162, 31), 4, 0);
+	CHILD.setSize(widget(162, 31).getWidth(), widget(162, 32).getY(), 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setRGB(0x0000FF);
+	CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+	CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 255));
+	return;
+}

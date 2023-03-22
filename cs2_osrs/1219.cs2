@@ -1,0 +1,23 @@
+void script_1219(Widget widget0) {
+	DataMap datamap1;
+	if (VARPBIT[4692] == 2 || VARPBIT[4692] == 0) {
+		widget0.setPosition(0, 2, 1, 0);
+	} else {
+		widget0.setPosition(2, 2, 2, 0);
+	}
+	datamap1 = null;
+	if (VARPBIT[619] == 1) {
+		datamap1 = script_900();
+		if (datamap1 == null) {
+			return;
+		}
+		if (hasChild(datamap('I', 'I', datamap1, widget(161, 3))) == true || hasChild(datamap('I', 'I', datamap1, widget(161, 6))) == true) {
+			widget0.setIsHidden(true);
+		} else {
+			widget0.setIsHidden(false);
+		}
+	} else {
+		widget0.setIsHidden(true);
+	}
+	return;
+}

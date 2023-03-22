@@ -1,0 +1,17 @@
+void script_1012(boolean arg0, Widget widget1) {
+	if (arg0 == true) {
+		if (CHILD.setChild(widget1, 0) == true) {
+			CHILD.setTrans(100);
+		}
+		if (CHILD.setChild(widget1, 3) == true) {
+			CHILD.setTrans(125);
+			CHILD.setSprite(788);
+		}
+		if (CHILD.setChild(widget1, 4) == true) {
+			CHILD.setRGB(0xFFB83F);
+		}
+	} else {
+		script_1013(widget1);
+	}
+	return;
+}

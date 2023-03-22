@@ -1,0 +1,4 @@
+//script4225(4225)()(void)
+if_setonmouseover(if_gethash(1215, 1), None, "")
+hook_mouse_exit(if_gethash(1215, 1), script_5648, "")
+return

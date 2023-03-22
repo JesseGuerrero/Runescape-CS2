@@ -1,0 +1,98 @@
+//script2643(2643)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar0 = 900
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+store_varc(842, 2)
+iVar4 = -1
+script_2645(56360984)
+cc_deleteall(if_gethash(860, 23))
+if_settext(if_gethash(860, 19), "A list of items you can trade with Mal for investment credit." + "<br>" + "Items highlighted with a green rectangle are present in your bank or inventory.")
+iVar1 = (if_getwidth(if_gethash(860, 23)) - (36 * 10)) / 10
+iVar2 = (if_getheight(if_gethash(860, 23)) - 128) / 3
+iVar5 = 3
+iVar6 = 3
+iVar7 = 0
+if(iVar3 == 0)
+	if(iVar0 >= 900)
+		while(iVar0 < 1800) {
+			iVar4 = enum(1939, iVar0, 'i', 'o')
+			if(iVar4 != 11760)
+				if(iVar4 != -1) {
+					cc_create(iVar0 - 900, 5, 56360983)
+					cc_setsize(0, 0, 32, 36)
+					cc_setposition(0, 0, iVar6 + (((iVar0 - 900) / 10) * (32 + iVar2)), iVar5 + ((36 + iVar1) * modulo(10, iVar0 - 900)))
+					cc_setitem(-1, iVar4)
+					cc_setopbase("<col=ff981f>" + item_name(iVar4))
+					cc_setop("Examine", 1)
+					cc_setgraphicshadow(3355443)
+					cc_setoutline(1)
+					iVar7 = cc_gety()
+					iVar0 = iVar0 + 1
+				} else 
+					iVar3 = 1
+		}
+iVar8 = 0
+iVar9 = 9999
+iVar10 = 0
+iVar11 = 0
+while(iVar8 <= inv_size(if_gethash(0, 93))) {
+	if(inv_getitem(iVar8, 93) != -1) {
+		iVar9 = enum(1941, inv_getitem(iVar8, 93), 'o', 'i')
+		if(iVar9 != 9999)
+			if(iVar9 >= 900) {
+				iVar9 = iVar9 - 900
+				if(cc_find(iVar9, if_gethash(860, 23)) == 1) {
+					iVar10 = cc_getx()
+					iVar11 = cc_gety()
+					cc_setoutline(2)
+					cc_create(iVar0 - 900, 3, 56360983)
+					cc_setsize(0, 0, 32, 36)
+					cc_setposition(0, 0, iVar11 - 1, iVar10 - 1)
+					cc_setcolor(66ff66)
+					cc_settrans(150)
+					iVar0 = iVar0 + 1
+				}
+			}
+	}
+	iVar8 = iVar8 + 1
+}
+iVar8 = 0
+iVar9 = 9999
+while(iVar8 <= inv_size(if_gethash(0, 95))) {
+	if(inv_getitem(iVar8, 95) != -1) {
+		iVar9 = enum(1941, inv_getitem(iVar8, 95), 'o', 'i')
+		if(iVar9 != 9999)
+			if(iVar9 >= 900) {
+				iVar9 = iVar9 - 900
+				if(cc_find(iVar9, if_gethash(860, 23)) == 1) {
+					iVar10 = cc_getx()
+					iVar11 = cc_gety()
+					cc_setoutline(2)
+					cc_create(iVar0 - 900, 3, 56360983)
+					cc_setsize(0, 0, 32, 36)
+					cc_setposition(0, 0, iVar11 - 1, iVar10 - 1)
+					cc_setcolor(66ff66)
+					cc_settrans(150)
+					iVar0 = iVar0 + 1
+				}
+			}
+	}
+	iVar8 = iVar8 + 1
+}
+if_setscrollsize(56360983, iVar7 + 32, if_getwidth(if_gethash(860, 23)))
+if_setscrollpos(if_gethash(860, 23), 0, 0)
+script_31(56360982, 56360983, 792, 789, 790, 791, 773, 788)
+return

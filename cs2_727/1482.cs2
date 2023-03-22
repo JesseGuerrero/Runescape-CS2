@@ -1,0 +1,9 @@
+//script1482(1482)(int arg0)(void)
+int iVar1
+iVar1 = enum(1613, arg0, 'I', 'i')
+if(iVar1 != -1)
+	if(iVar1 != load_varpbit(4893)) {
+		script_1463(iVar1)
+		instr6342(arg0, script_1483, "iI", client_clock() + 15, -2147483645)
+	}
+return

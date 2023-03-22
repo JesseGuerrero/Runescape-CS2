@@ -1,0 +1,37 @@
+void script_37(Widget widget0, Widget widget1, int arg2, int arg3) {
+	int int4;
+	int4 = script_1045(getScrollMaxV(widget1) - widget1.getHeight(), 1);
+	arg2 = script_1045(script_1046(arg2, int4), 0);
+	widget1.setScrollPos(0, arg2);
+	if (widget1 == widget(162, 43)) {
+		VARC[7] = getScrollY(widget1);
+	} else if (widget1 == widget(399, 6)) {
+		VARC[10] = getScrollY(widget1);
+	} else if (widget1 == widget(429, 8)) {
+		VARC[9] = getScrollY(widget1);
+	} else if (widget1 == widget(12, 12)) {
+		VARC[51] = getScrollY(widget1);
+	} else if (widget1 == widget(381, 7)) {
+		VARC[0] = getScrollY(widget1);
+	} else if (widget1 == widget(69, 7)) {
+		VARC[69] = getScrollY(widget1);
+	} else if (widget1 == widget(592, 2) || widget1 == widget(458, 3)) {
+		VARC[58] = getScrollY(widget1);
+	} else if (widget1 == widget(345, 11) || widget1 == widget(400, 10)) {
+		VARC[63] = getScrollY(widget1);
+	} else if (widget1 == widget(179, 5)) {
+		VARC[77] = getScrollY(widget1);
+	} else if (widget1 == widget(75, 2)) {
+		VARC[80] = getScrollY(widget1);
+	} else if (widget1 == widget(129, 13)) {
+		VARC[138] = getScrollY(widget1);
+	} else if (widget1 == widget(499, 13) || widget1 == widget(507, 10) || widget1 == widget(500, 10)) {
+		VARC[179] = getScrollY(widget1);
+	} else if (widget1 == widget(595, 15)) {
+		VARC[182] = getScrollY(widget1);
+	}
+	if (arg3 == 1) {
+		script_740(widget0, widget1);
+	}
+	return;
+}

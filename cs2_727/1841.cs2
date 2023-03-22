@@ -1,0 +1,11 @@
+//script1841(1841)(int arg0, int arg1, int arg2)(int)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_settext(enum(1806, arg1, 'i', 's'))
+cc_setposition(0, 0, arg2, 0)
+cc_setsize(0, 1, 30, 0)
+cc_setcolor(ff981f)
+cc_settextfont(496)
+cc_settextshadow(1)
+cc_settextalign(0, 1, 1)
+return arg2 + cc_getheight()
+return 0

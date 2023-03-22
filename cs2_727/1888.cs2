@@ -1,0 +1,18 @@
+//script1888(1888)()(void)
+if(load_varc(1025) == 1)
+	return
+if(script_2728() == 1)
+	if(load_varpbit(6516) == 0)
+		if(load_varp(281) >= 1000) {
+			if(load_varc(94) > client_clock())
+				return
+			store_varc(94, client_clock() + 1500)
+			if(load_varp(1647) == 1)
+				send_message("Your health is low! Run away from your attacker and speak to Xenia.")
+			else {
+				send_message("Your health is low! Find a safe place away from your attacker")
+				send_message("or eat some food to heal yourself.")
+			}
+		}
+store_varc(1025, 1)
+return

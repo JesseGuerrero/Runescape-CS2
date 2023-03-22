@@ -1,0 +1,17 @@
+//script6290(6290)(int arg0)(void)
+cc_create(0, 4, 84934659)
+cc_setsize(0, 0, 12, 90)
+cc_setposition(0, 0, 0, 0)
+cc_settextfont(494)
+cc_settextalign(0, 1, 2)
+store_varc(1933, 0)
+if(arg0 < 1) {
+	cc_settext("Fee: " + script_46(arg0, ","))
+	cc_setcolor(ff0000)
+} else  {
+	cc_settext("Fee: + " + script_46(arg0, ","))
+	cc_setcolor(ff00)
+}
+cc_settextshadow(1)
+instr6342(if_gethash(1296, 3), script_6291, "")
+return

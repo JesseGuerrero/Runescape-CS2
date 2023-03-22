@@ -1,0 +1,8 @@
+void script_133(int arg0, char char1) {
+	if (script_1701(553, -1) == 0) {
+		return;
+	}
+	STRING[24] = script_74(STRING[24], 2, arg0, char1);
+	widget(553, 7).setText(escape(STRING[24]) + "<col=ffff00>" + "|");
+	return;
+}

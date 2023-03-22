@@ -1,0 +1,29 @@
+//script2325(2325)()(void)
+if(load_varc(766) == 1 || load_varc(766) == 2) {
+	send_message("You can't do that right now.")
+	return
+}
+sound_synth(0, 1, 6421)
+if(if_getx(if_gethash(306, 6)) >= if_getx(if_gethash(306, 18)))
+	if(if_getx(if_gethash(306, 6)) < if_getx(if_gethash(306, 18)) + if_getwidth(if_gethash(306, 18))) {
+		store_varc(765, 1)
+		script_2326(load_varc(761))
+	}
+if(if_getx(if_gethash(306, 7)) >= if_getx(if_gethash(306, 18)))
+	if(if_getx(if_gethash(306, 7)) < if_getx(if_gethash(306, 18)) + if_getwidth(if_gethash(306, 18))) {
+		store_varc(765, 2)
+		script_2326(load_varc(762))
+	}
+if(if_getx(if_gethash(306, 8)) >= if_getx(if_gethash(306, 18)))
+	if(if_getx(if_gethash(306, 8)) < if_getx(if_gethash(306, 18)) + if_getwidth(if_gethash(306, 18))) {
+		store_varc(765, 3)
+		script_2326(load_varc(763))
+	}
+if(if_getx(if_gethash(306, 9)) >= if_getx(if_gethash(306, 18)))
+	if(if_getx(if_gethash(306, 9)) < if_getx(if_gethash(306, 18)) + if_getwidth(if_gethash(306, 18))) {
+		store_varc(765, 4)
+		script_2326(load_varc(764))
+	}
+store_varc(766, 1)
+instr6342(if_gethash(306, 10), script_2328, "I", -2147483645)
+return

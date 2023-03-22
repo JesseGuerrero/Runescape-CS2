@@ -1,0 +1,51 @@
+int script_509(int arg0, int arg1, int arg2, Widget widget3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11) {
+	int int12;
+	Item item13;
+	int int14;
+	int int15;
+	int int16;
+	int12 = 0;
+	if (arg11 == 0 && arg2 > 0 && script_514() == 1) {
+		int12 = arg8 + 15;
+	} else {
+		int12 = arg8;
+	}
+	item13 = null;
+	int14 = 0;
+	int15 = 0;
+	int16 = 0;
+	while (arg0 < arg1) {
+		if (CHILD.setChild(widget3, arg0) == true) {
+			item13 = getItemIdInSlot(95, arg0);
+			if (script_279(item13) == 1) {
+				CHILD.setHidden(false);
+				script_278(item13, getItemAmtInSlot(95, arg0), widget3, arg4, arg5, arg6, arg7);
+				int14 = int12 + int16 * 36;
+				CHILD.setPosition(int15 * (36 + arg9), int14, 0, 0);
+				int14 = int14 + 32;
+				if (int15 < arg10) {
+					int15 = int15 + 1;
+				} else {
+					int15, int16 = 0, int16 + 1;
+				}
+			}
+		}
+		arg0 = arg0 + 1;
+	}
+	if (int14 <= 0) {
+		return arg8;
+	}
+	if (arg11 == 0) {
+		if (int15 > 0 && CHILD.setChild(widget3, 800 + 9 * 2 + arg2) == true) {
+			CHILD.setHidden(false);
+			CHILD.setPosition(int15 * (36 + arg9), int14 - 32, 0, 0);
+			int15 = 8 - int15;
+			CHILD.setSize(int15 * 36 + (int15 - 1) * arg9, 32, 0, 0);
+		}
+		if (int12 > arg8 && CHILD.setChild(widget3, 800 + 9 + arg2 - 1) == true) {
+			CHILD.setPosition(0, arg8, 0, 0);
+			CHILD.setHidden(false);
+		}
+	}
+	return int14;
+}

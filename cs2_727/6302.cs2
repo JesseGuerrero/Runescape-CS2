@@ -1,0 +1,37 @@
+//script6302(6302)(int arg0)(string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varc_string(366)
+
+	case 1:
+		return load_varc_string(367)
+
+	case 2:
+		return load_varc_string(368)
+
+	case 3:
+		return load_varc_string(369)
+
+	case 4:
+		return load_varc_string(370)
+
+	case 5:
+		return load_varc_string(371)
+
+	case 6:
+		return load_varc_string(372)
+
+	case 7:
+		return load_varc_string(373)
+
+	case 8:
+		return load_varc_string(374)
+
+	case 9:
+		return load_varc_string(375)
+
+
+}
+return ""

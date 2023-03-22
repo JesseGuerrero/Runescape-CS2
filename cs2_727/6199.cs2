@@ -1,0 +1,40 @@
+//script6199(6199)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+iVar2 = 0
+iVar3 = 0
+iVar4 = string_length(arg0)
+sVar0 = ""
+iVar5 = 0
+iVar6 = -1
+if(load_varc(1920) == 1) {
+	iVar6 = 59375976
+	if_setposition(arg1, 0, 0, if_gety(arg1), script_1551(load_varc(1921), 3793, if_getx(iVar6) + 4, arg0))
+	if(load_varc(1921) > 0)
+		sVar0 = substring(arg0, min(iVar4, load_varc(1921)), 0)
+} else 
+	if(load_varc(1920) == 2) {
+		iVar6 = 59375983
+		if_setposition(arg1, 0, 0, if_gety(arg1), script_1551(load_varc(1922), 3793, if_getx(iVar6) + 4, arg0))
+		if(load_varc(1922) > 0)
+			sVar0 = substring(arg0, min(iVar4, load_varc(1922)), 0)
+	}
+iVar7 = if_getwidth(iVar6) - 6
+iVar5 = stringwidth(3793, sVar0) - iVar7
+if_setposition(arg0, 1, 0, 0, 4)
+if_setsize(arg0, 0, 0, if_getheight(arg0), max(iVar7, stringwidth(3793, arg0)))
+if(iVar5 > 0) {
+	if_setposition(arg0, 0, 0, if_gety(arg0), if_getx(arg0) - iVar5)
+	if_setposition(arg1, 0, 0, if_gety(arg1), min(iVar7 - 1, if_getx(arg1) - iVar5))
+}
+if(applet_hasfocus() == 1)
+	if_sethide(arg1, 0)
+else
+	if_sethide(arg1, 1)
+instr6342(arg0, script_6201, "iI", client_clock(), arg1)
+return

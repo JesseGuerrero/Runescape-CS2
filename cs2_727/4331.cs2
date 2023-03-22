@@ -1,0 +1,8 @@
+//script4331(4331)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = -1
+iVar3 = -1
+if(activeclansettings_find_listened() == 1)
+	script_4332(arg0, arg1)
+return

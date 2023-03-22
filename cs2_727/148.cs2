@@ -1,0 +1,94 @@
+//script148(148)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varc(12)
+
+	case 1:
+		return load_varc(13)
+
+	case 2:
+		return load_varc(14)
+
+	case 3:
+		return load_varc(15)
+
+	case 4:
+		return load_varc(16)
+
+	case 5:
+		return load_varc(17)
+
+	case 6:
+		return load_varc(18)
+
+	case 7:
+		return load_varc(19)
+
+	case 8:
+		return load_varc(20)
+
+	case 9:
+		return load_varc(21)
+
+	case 10:
+		return load_varc(22)
+
+	case 11:
+		return load_varc(23)
+
+	case 12:
+		return load_varc(24)
+
+	case 13:
+		return load_varc(25)
+
+	case 14:
+		return load_varc(26)
+
+	case 15:
+		return load_varc(27)
+
+	case 16:
+		return load_varc(28)
+
+	case 17:
+		return load_varc(29)
+
+	case 18:
+		return load_varc(30)
+
+	case 19:
+		return load_varc(31)
+
+	case 20:
+		return load_varc(32)
+
+	case 21:
+		return load_varc(33)
+
+	case 22:
+		return load_varc(34)
+
+	case 23:
+		return load_varc(35)
+
+	case 24:
+		return load_varc(36)
+
+	case 25:
+		return load_varc(37)
+
+	case 26:
+		return load_varc(38)
+
+	case 27:
+		return load_varc(39)
+
+	case -1:
+		return load_varc(212)
+
+
+}
+return 0

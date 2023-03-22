@@ -1,0 +1,63 @@
+//script6175(6175)(int arg0, int arg1)(void)
+store_varc(1911, arg0)
+if(load_varc(1910) < 1)
+	if(cc_find(0, arg1) == 1)
+		if(arg0 == 0)
+			cc_setgraphic(10685)
+		else
+			cc_setgraphic(10695)
+if(load_varc(1910) < 2)
+	if(cc_find(1, arg1) == 1)
+		if(arg0 == 1)
+			cc_setgraphic(10686)
+		else
+			cc_setgraphic(10696)
+if(load_varc(1910) < 3)
+	if(cc_find(2, arg1) == 1)
+		if(arg0 == 2)
+			cc_setgraphic(10687)
+		else
+			cc_setgraphic(10697)
+if(load_varc(1910) < 4)
+	if(cc_find(3, arg1) == 1)
+		if(arg0 == 3)
+			cc_setgraphic(10688)
+		else
+			cc_setgraphic(10698)
+if(load_varc(1910) < 5)
+	if(cc_find(4, arg1) == 1)
+		if(arg0 == 4)
+			cc_setgraphic(10689)
+		else
+			cc_setgraphic(10699)
+if(load_varc(1910) < 6)
+	if(cc_find(5, arg1) == 1)
+		if(arg0 == 5)
+			cc_setgraphic(10690)
+		else
+			cc_setgraphic(10700)
+if(load_varc(1910) < 7)
+	if(cc_find(6, arg1) == 1)
+		if(arg0 == 6)
+			cc_setgraphic(10691)
+		else
+			cc_setgraphic(10701)
+if(load_varc(1910) < 8)
+	if(cc_find(7, arg1) == 1)
+		if(arg0 == 7)
+			cc_setgraphic(10692)
+		else
+			cc_setgraphic(10702)
+if(load_varc(1910) < 9)
+	if(cc_find(8, arg1) == 1)
+		if(arg0 == 8)
+			cc_setgraphic(10693)
+		else
+			cc_setgraphic(10703)
+if(load_varc(1910) < 10)
+	if(cc_find(9, arg1) == 1)
+		if(arg0 == 9)
+			cc_setgraphic(10694)
+		else
+			cc_setgraphic(10704)
+return

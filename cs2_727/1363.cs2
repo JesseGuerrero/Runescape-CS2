@@ -1,0 +1,29 @@
+//script1363(1363)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+cc_deleteall(arg0)
+iVar1 = if_getwidth(arg0)
+iVar2 = if_getheight(arg0)
+iVar3 = iVar1 - 9
+iVar4 = iVar2 - 9
+iVar5 = iVar1 - 18
+iVar6 = iVar2 - 18
+cc_create(0, 3, arg0)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, iVar2, iVar1)
+cc_setfill(1)
+cc_setcolor(ffffff)
+cc_settrans(240)
+script_98(arg0, 1, 929, 0, 0, 9, 9)
+script_98(arg0, 2, 930, iVar3, 0, 9, 9)
+script_98(arg0, 3, 931, 0, iVar4, 9, 9)
+script_98(arg0, 4, 932, iVar3, iVar4, 9, 9)
+script_98(arg0, 5, 933, 0, 9, 9, iVar6)
+script_98(arg0, 6, 934, 9, 0, iVar5, 9)
+script_98(arg0, 7, 935, iVar3, 9, 9, iVar6)
+script_98(arg0, 8, 936, 9, iVar4, iVar5, 9)
+return

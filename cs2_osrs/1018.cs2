@@ -1,0 +1,19 @@
+int script_1018(int arg0, Color color1, string string2, Widget widget3) {
+	int int3;
+	int3 = 0;
+	if (arg0 == 1) {
+		int3 = script_198(widget3);
+	} else {
+		int3 = script_208(widget3);
+	}
+	widget3.setContextMenuOption(1, string2);
+	CHILD.createChild(widget3, 4, int3);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(color1);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(string2);
+	return int3;
+}

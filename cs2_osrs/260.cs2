@@ -1,0 +1,4 @@
+void script_260(Widget widget0, int arg1) {
+	widget0.hookFrame(&script_261(widget0, arg1, VARPBIT[3956], getClientCycle() + 8));
+	return;
+}

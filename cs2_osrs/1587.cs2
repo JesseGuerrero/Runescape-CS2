@@ -1,0 +1,19 @@
+void script_1587(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int2 = 0;
+	int3 = 0;
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget(549, 13), arg1) == true) {
+		widget(549, 24).setText("Reset streak:" + "<br>" + getText());
+		widget(549, 19).setSize(getMaxLineWidth(getText(widget(549, 24)), 75, 494) + 10, 50, 0, 0);
+		if (getLineCount(getText(widget(549, 24)), widget(549, 24).getWidth(), 494) > 2) {
+			widget(549, 19).setSize(widget(549, 19).getWidth(), 60, 0, 0);
+		}
+		int2 = getScrollY(widget(549, 5));
+		int3 = getScrollY(widget(549, 5)) + widget(549, 5).getHeight() - widget(549, 19).getHeight();
+		widget(549, 17).setIsHidden(false);
+		widget(549, 19).setIsHidden(false);
+		widget(549, 19).setPosition(12, script_1425(int2, int3, 18 * arg1 + 5), 2, 0);
+	}
+	return;
+}

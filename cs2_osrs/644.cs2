@@ -1,0 +1,9 @@
+void script_644(Widget widget0, int arg1, int arg2) {
+	if (getClientCycle() < arg2) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		script_645(widget0);
+	}
+	return;
+}

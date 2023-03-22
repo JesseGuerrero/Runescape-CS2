@@ -1,0 +1,11 @@
+//script3047(3047)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 2:
+		chat_setfilter(chat_getfilter_trade(), arg0, chat_getfilter_public())
+		break
+
+}
+script_3045()
+return

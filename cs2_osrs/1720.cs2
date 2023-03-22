@@ -1,0 +1,28 @@
+void script_1720(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	if (isBitFlagged(VARPBIT[5640], arg1) == true) {
+		_CHILD.setContextMenuOption(1, "Enable");
+		CHILD.setHidden(false);
+	} else {
+		_CHILD.setContextMenuOption(1, "Disable");
+		CHILD.setHidden(true);
+	}
+	int5 = 1;
+	switch (arg1) {
+		case 0:
+		case 1:
+		case 4:
+			script_1751(widget2, widget3);
+			break;
+		case 2:
+			if (isBitFlagged(VARPBIT[5640], 2) == true) {
+				int5 = 0;
+			}
+			cs2method6634(1129, int5);
+			break;
+		case 3:
+			script_41(widget4);
+			break;
+	}
+	return;
+}

@@ -1,0 +1,6 @@
+//script2210(2210)()(void)
+if(if_getx(load_varc(1136)) < 200) {
+	instr6342(if_gethash(932, 1), script_2210, "")
+	if_setposition(load_varc(1136), 0, 0, if_gety(load_varc(1136)), 1 + if_getx(load_varc(1136)))
+}
+return

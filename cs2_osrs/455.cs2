@@ -1,0 +1,9 @@
+void script_455(int arg0, Widget widget1, Widget widget2, Widget widget3) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	VARPBIT[4103] = 1 - VARPBIT[4103];
+	script_456(widget1, widget2, widget3);
+	return;
+}

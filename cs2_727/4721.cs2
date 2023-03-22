@@ -1,0 +1,33 @@
+//script4721(4721)()(string, string, string, string, string, string, string, string, string, string)
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+string sVar6
+string sVar7
+string sVar8
+string sVar9
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = ""
+sVar5 = ""
+sVar6 = ""
+sVar7 = ""
+sVar8 = ""
+sVar9 = ""
+sVar0 = script_4345(load_clan_setting_varbit(25), load_clan_setting_varbit(26))
+sVar1 = script_4345(load_clan_setting_varbit(27), load_clan_setting_varbit(28))
+sVar2 = script_4345(load_clan_setting_varbit(29), load_clan_setting_varbit(30))
+sVar3 = script_4345(load_clan_setting_varbit(31), load_clan_setting_varbit(32))
+sVar4 = script_4345(load_clan_setting_varbit(33), load_clan_setting_varbit(34))
+sVar5 = script_4345(load_clan_setting_varbit(35), load_clan_setting_varbit(36))
+sVar6 = script_4345(load_clan_setting_varbit(37), load_clan_setting_varbit(38))
+sVar7 = script_4345(load_clan_setting_varbit(39), load_clan_setting_varbit(40))
+sVar8 = script_4345(load_clan_setting_varbit(41), load_clan_setting_varbit(42))
+sVar9 = script_4345(load_clan_setting_varbit(43), load_clan_setting_varbit(44))
+return sVar9, sVar8, sVar7, sVar6, sVar5, sVar4, sVar3, sVar2, sVar1, sVar0
+return "", "", "", "", "", "", "", "", "", ""

@@ -1,0 +1,8 @@
+//script2748(2748)(int arg0)(void)
+if_settext(if_gethash(204, 30), to_string(arg0 + 1))
+if_setvflip(if_gethash(204, 44), 0)
+if_sethide(if_gethash(204, 86), 1)
+if_sethide(if_gethash(204, 87), 1)
+if_sethide(if_gethash(204, 77), 1)
+if_sethide(if_gethash(204, 26), 1)
+return

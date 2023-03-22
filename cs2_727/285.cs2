@@ -1,0 +1,226 @@
+//script285(285)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+string sVar2
+script_41(49479737)
+iVar2 = 1
+iVar3 = -1
+sVar0 = "Hide"
+sVar1 = "Show"
+sVar2 = "`You are here'"
+if(load_varpbit(6174) == 1) {
+	sVar0 = "Show"
+	sVar1 = "Hide"
+	iVar2 = 0
+}
+cc_create(0, 5, arg0)
+cc_create(1, 4, arg0)
+cc_setposition(0, 0, arg1, -1)
+cc_setsize(0, 0, 26, 26)
+cc_setposition(0, 0, arg1, (cc_getx() + cc_getwidth()) - 1)
+cc_setsize(0, 1, cc_getheight(), cc_getx())
+iVar4 = cc_getwidth()
+cc_setgraphic(struct_param(130, 280))
+cc_setcolor(afafaf)
+cc_settextfont(495)
+cc_settextshadow(1)
+cc_settextalign(0, 1, 0)
+cc_settext(sVar2)
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setop(sVar0, 1)
+cc_setop(sVar0, 1)
+sVar2 = "Toggles the " + "<col=7f0000>" + "You are here" + "</col>" + " marker."
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 2, sVar1, iVar2)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 2, sVar1, iVar2)
+script_287(2, iVar2, arg0, arg1)
+arg1 = arg1 + cc_getheight()
+sVar2 = "Intra-map links"
+if(load_varpbit(6175) == 1) {
+	sVar0 = "Show"
+	sVar1 = "Hide"
+	iVar2 = 0
+} else  {
+	sVar0 = "Hide"
+	sVar1 = "Show"
+	iVar2 = 1
+}
+cc_create(3, 5, arg0)
+cc_create(4, 4, arg0)
+cc_setposition(0, 0, arg1, 3)
+cc_setsize(0, 0, 26, 22)
+cc_setposition(0, 0, arg1, cc_getx() + cc_getwidth())
+cc_setsize(0, 1, cc_getheight(), cc_getx() + cc_getx())
+cc_setcolor(afafaf)
+cc_settextfont(495)
+cc_settextshadow(1)
+cc_settextalign(0, 1, 0)
+cc_settext(sVar2)
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setop(sVar0, 1)
+cc_setop(sVar0, 1)
+sVar2 = "Toggles the features that show links within a map."
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 10, sVar1, iVar2)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 10, sVar1, iVar2)
+cc_create(5, 3, arg0)
+cc_setposition(0, 0, arg1 + 12, 4)
+cc_setsize(0, 0, 5, 5)
+cc_setcolor(0)
+cc_setfill(1)
+cc_create(6, 3, arg0)
+cc_setposition(0, 0, arg1 + 12, 17)
+cc_setsize(0, 0, 5, 5)
+cc_setcolor(0)
+cc_setfill(1)
+cc_create(7, 3, arg0)
+cc_setposition(0, 0, arg1 + 11, 3)
+cc_setsize(0, 0, 5, 5)
+cc_setcolor(ffff00)
+cc_setfill(1)
+cc_create(8, 3, arg0)
+cc_setposition(0, 0, arg1 + 11, 16)
+cc_setsize(0, 0, 5, 5)
+cc_setcolor(ffff00)
+cc_setfill(1)
+cc_create(9, 9, arg0)
+cc_setposition(0, 0, arg1 + 13, 5)
+cc_setsize(0, 0, 0, 15)
+cc_setlinewidth(2)
+cc_setcolor(ffff00)
+script_287(10, iVar2, arg0, arg1)
+arg1 = arg1 + cc_getheight()
+sVar2 = "Map labels"
+if(load_varpbit(6176) == 1) {
+	sVar0 = "Show"
+	sVar1 = "Hide"
+	iVar2 = 0
+} else  {
+	sVar0 = "Hide"
+	sVar1 = "Show"
+	iVar2 = 1
+}
+cc_create(11, 4, arg0)
+cc_setposition(0, 0, arg1, 1)
+cc_setsize(0, 0, 26, 23)
+cc_settextfont(494)
+cc_settextalign(0, 1, 1)
+cc_settextshadow(1)
+cc_setcolor(ffffff)
+cc_settext("ABC" + "<br>" + "XYZ")
+cc_create(12, 4, arg0)
+cc_setposition(0, 0, arg1, cc_getx() + cc_getwidth())
+cc_setsize(0, 1, cc_getheight(), cc_getx() + cc_getx())
+cc_setcolor(afafaf)
+cc_settextfont(495)
+cc_settextshadow(1)
+cc_settextalign(0, 1, 0)
+cc_settext(sVar2)
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setop(sVar0, 1)
+cc_setop(sVar0, 1)
+sVar2 = "Toggles most text labels." + "<br>" + "Some are always shown."
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 13, sVar1, iVar2)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 13, sVar1, iVar2)
+script_287(13, iVar2, arg0, arg1)
+arg1 = arg1 + cc_getheight()
+sVar2 = "Icon tooltips"
+if(load_varpbit(6177) == 1) {
+	sVar0 = "Show"
+	sVar1 = "Hide"
+	iVar2 = 0
+} else  {
+	sVar0 = "Hide"
+	sVar1 = "Show"
+	iVar2 = 1
+}
+cc_create(14, 3, arg0)
+cc_setposition(0, 0, arg1 + 6, 3)
+cc_setsize(0, 0, 14, 20)
+cc_setfill(1)
+cc_setcolor(e0e0e)
+cc_create(15, 3, arg0)
+cc_setposition(0, 0, arg1 + 6, 3)
+cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+cc_setfill(0)
+cc_setcolor(ebece6)
+cc_create(16, 4, arg0)
+cc_setposition(0, 0, arg1, (cc_getx() + cc_getwidth()) + 2)
+cc_setsize(0, 1, 26, cc_getx() + cc_getx())
+cc_setcolor(f5b241)
+cc_settextfont(495)
+cc_settextshadow(1)
+cc_settextalign(0, 1, 0)
+cc_settext(sVar2)
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setopbase("<col=ff9040>" + sVar2 + "</col>")
+cc_setop(sVar0, 1)
+cc_setop(sVar0, 1)
+sVar2 = "Toggles icon tooltips."
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 17, sVar1, iVar2)
+instr6687(script_286, "iIiiis1", -2147483644, arg0, instr6151(), instr6151(), 17, sVar1, iVar2)
+script_287(17, iVar2, arg0, arg1)
+arg1 = arg1 + cc_getheight()
+cc_create(18, 5, arg0)
+cc_setsize(0, 0, 26, 26)
+sVar2 = "Double-click the map to set a marker"
+iVar5 = max(cc_getheight(), (paramheight(sVar2, 494, iVar4) * 10) + 3)
+cc_setposition(0, 0, arg1 + ((iVar5 - cc_getheight()) / 2), -1)
+cc_setgraphic(struct_param(130, 972))
+cc_create(19, 4, arg0)
+cc_setposition(0, 2, arg1, 0)
+cc_setsize(0, 0, iVar5, iVar4)
+cc_setcolor(afafaf)
+cc_settextshadow(1)
+if(load_varp(1159) == -1 || load_varp(1159) == 0) {
+	cc_settextalign(0, 1, 1)
+	cc_settextfont(494)
+	cc_settext(sVar2)
+} else  {
+	sVar2 = "Clear your marker"
+	cc_settextalign(0, 1, 0)
+	cc_settextfont(495)
+	cc_settext(sVar2)
+	cc_setop(sVar2, 1)
+	cc_setop(sVar2, 1)
+	sVar2 = "Removes the marker."
+	instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+	instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+	cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+	cc_setonmouseover(script_310, "sIi", sVar2, arg0, instr6151())
+	instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+	instr6092(script_289, "Iii", arg0, instr6151(), 11513775)
+	instr6687(script_286, "iIiiis1", -2147483644, arg0, -1, -1, -1, "", 0)
+	instr6687(script_286, "iIiiis1", -2147483644, arg0, -1, -1, -1, "", 0)
+}
+return arg1 + cc_getheight()
+return 0

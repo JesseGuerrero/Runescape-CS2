@@ -1,0 +1,9 @@
+//script528(528)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg0 == 1) {
+	if_setgraphic(arg3, arg1)
+	if_sethide(arg4, 0)
+} else  {
+	if_setgraphic(arg3, arg2)
+	if_sethide(arg4, 1)
+}
+return

@@ -1,0 +1,6 @@
+void script_1674(Widget widget0, string string1, int arg2) {
+	if (getClientCycle() >= arg2 && VARC[5] != 15) {
+		script_1672(widget0, string1);
+	}
+	return;
+}

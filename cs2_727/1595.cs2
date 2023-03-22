@@ -1,0 +1,16 @@
+//script1595(1595)(int arg0, string arg1, string arg2)(void)
+if(fc_isself(arg0) == 0)
+	if(friend_test(arg1) == 1) {
+		cc_setop("Message " + arg0, 5)
+		cc_setop("Remove friend " + arg0, 7)
+	} else 
+		if(ignore_test(arg1) == 1)
+			cc_setop("Remove ignore " + arg0, 8)
+		else {
+			cc_setop("Add friend " + arg0, 5)
+			cc_setop("Add ignore " + arg0, 6)
+		}
+if(fc_getchatrank() >= fc_getchatminkick())
+	if(fc_getchatrank() > fc_getchatuserrank(arg0))
+		cc_setop("Kick/ban user " + arg0, 9)
+return

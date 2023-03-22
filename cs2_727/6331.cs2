@@ -1,0 +1,8 @@
+//script6331(6331)()(void)
+string sVar0
+sVar0 = "Bury"
+if(load_varpbit(11443) == 1)
+	sVar0 = "Abort"
+if_settext(if_gethash(1304, 24), sVar0)
+instr6213(if_gethash(1304, 22), 1, sVar0)
+return

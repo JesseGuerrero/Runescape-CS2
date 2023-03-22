@@ -1,0 +1,34 @@
+//script2116(2116)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+cc_deleteall(arg0)
+cc_deleteall(arg3)
+if_settext(arg4, "")
+iVar5 = 0
+iVar6 = 0
+iVar7 = (if_getwidth(arg0) - 320) / 3
+while(iVar5 < inv_size(if_gethash(0, 307))) {
+	if(inv_getnum(iVar5, 307) > 0) {
+		script_2117(iVar5, iVar6, iVar7, arg0, arg3, arg4)
+		iVar6 = iVar6 + 1
+	} else 
+		script_2118(iVar5, arg0)
+	iVar5 = iVar5 + 1
+}
+iVar5 = iVar7 + (((iVar6 + 1) / 2) * (iVar7 + 64))
+if_setscrollpos(arg0, 0, 0)
+if(iVar5 > if_getheight(arg0)) {
+	if_setscrollsize(arg0, iVar5, 0)
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+	if_setposition(arg4, 0, 0, if_gety(arg4), 392)
+	if_setposition(arg3, 0, 0, if_gety(arg3), 392)
+	if_sethide(arg2, 0)
+} else  {
+	if_setscrollsize(arg0, 0, 0)
+	cc_deleteall(arg1)
+	if_setposition(arg3, 0, 0, if_gety(arg3), 384)
+	if_setposition(arg4, 0, 0, if_gety(arg4), 384)
+	if_sethide(arg2, 1)
+}
+return

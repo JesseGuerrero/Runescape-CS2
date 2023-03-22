@@ -1,0 +1,8 @@
+void script_866(boolean boolean0, DataMap datamap1) {
+	widget(90, 17).setIsHidden(boolean0);
+	widget(90, 48).setIsHidden(boolean0);
+	if (boolean0 == false && datamap1 != null) {
+		widget(90, 17).setPosition(datamap('g', 'i', 1135, datamap1), 9, 2, 0);
+	}
+	return;
+}

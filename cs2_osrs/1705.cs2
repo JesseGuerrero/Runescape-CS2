@@ -1,0 +1,665 @@
+void script_1705(int arg0) {
+	switch (arg0) {
+		case 41160116:
+			script_1706(297342199);
+			break;
+		case 28890353:
+			script_1706(41471350);
+			break;
+		case 42093725:
+			script_1706(42100125);
+			break;
+		case 42388643:
+			script_1706(42132949);
+			break;
+		case 43125982:
+			script_1706(43132382);
+			break;
+		case 44174547:
+			script_1706(44180946);
+			break;
+		case 41979164:
+			script_1706(41985564);
+			break;
+		case 44633391:
+			script_1706(44639791);
+			break;
+		case 42978625:
+			script_1706(42952259);
+			break;
+		case 41962744:
+			script_1706(43607465);
+			break;
+		case 42100125:
+			script_1706(42093725);
+			break;
+		case 42132949:
+			script_1706(42388643);
+			break;
+		case 43132382:
+			script_1706(43125982);
+			break;
+		case 44180946:
+			script_1706(44174547);
+			break;
+		case 41985564:
+			script_1706(41979164);
+			break;
+		case 44639791:
+			script_1706(44633391);
+			break;
+		case 42952259:
+			script_1706(42978625);
+			break;
+		case 43607465:
+			script_1706(41962744);
+			break;
+		case 41870778:
+			script_1706(41864378);
+			break;
+		case 47910066:
+			script_1706(47916466);
+			break;
+		case 49450144:
+			script_1706(48539059);
+			break;
+		case 49286222:
+			script_1706(49292622);
+			break;
+		case 47916466:
+			script_1706(47910066);
+			break;
+		case 49587635:
+			script_1706(49450144);
+			break;
+		case 49292622:
+			script_1706(49286222);
+			break;
+		case 60313041:
+			script_1706(35443707);
+			break;
+		case 35443707:
+			script_1706(60313041);
+			break;
+		case 45077759:
+			script_1706(54371714);
+			break;
+		case 49450362:
+			script_1706(49473146);
+			break;
+		case 49466635:
+			script_1706(49473035);
+			break;
+		case 50122033:
+			script_1706(50128434);
+			break;
+		case 49473146:
+			script_1706(49466746);
+			break;
+		case 49473035:
+			script_1706(49466635);
+			break;
+		case 50128434:
+			script_1706(50122033);
+			break;
+		case 45829663:
+			script_1706(46032658);
+			break;
+		case 46032658:
+			script_1706(45829663);
+			break;
+		case 47812258:
+			script_1706(584078527);
+			break;
+		case 47207615:
+			script_1706(47812258);
+			break;
+		case 52874276:
+			script_1706(593945894);
+			break;
+		case 54398002:
+			script_1706(54158617);
+			break;
+		case 52356390:
+			script_1706(52874276);
+			break;
+		case 54158617:
+			script_1706(54398002);
+			break;
+		case 44960850:
+			script_1706(44475740);
+			break;
+		case 46025850:
+			script_1706(851273078);
+			break;
+		case 46435512:
+			script_1706(46425529);
+			break;
+		case 46795872:
+			script_1706(46802273);
+			break;
+		case 46287918:
+			script_1706(46359858);
+			break;
+		case 45222902:
+			script_1706(44803333);
+			break;
+		case 44475740:
+			script_1706(44960850);
+			break;
+		case 45966710:
+			script_1706(46025850);
+			break;
+		case 46425529:
+			script_1706(46435512);
+			break;
+		case 46802273:
+			script_1706(46795872);
+			break;
+		case 46359858:
+			script_1706(46287918);
+			break;
+		case 46507180:
+			script_1706(46287798);
+			break;
+		case 44803333:
+			script_1706(45222902);
+			break;
+		case 46916964:
+			script_1706(40637496);
+			break;
+		case 44748417:
+			script_1706(45426610);
+			break;
+		case 45813382:
+			script_1706(45868952);
+			break;
+		case 46344068:
+			script_1706(44748417);
+			break;
+		case 46802791:
+			script_1706(45813382);
+			break;
+		case 41111302:
+			script_1706(41117702);
+			break;
+		case 42929945:
+			script_1706(42903577);
+			break;
+		case 39341873:
+			script_1706(307669049);
+			break;
+		case 35098472:
+			script_1706(575055984);
+			break;
+		case 41117702:
+			script_1706(41111302);
+			break;
+		case 42903577:
+			script_1706(42929945);
+			break;
+		case 39233593:
+			script_1706(39341873);
+			break;
+		case 35039344:
+			script_1706(35098472);
+			break;
+		case 50597363:
+			script_1706(50603763);
+			break;
+		case 50744717:
+			script_1706(50751115);
+			break;
+		case 51055996:
+			script_1706(51062396);
+			break;
+		case 53038466:
+			script_1706(53044866);
+			break;
+		case 52923824:
+			script_1706(52930224);
+			break;
+		case 53153079:
+			script_1706(53159479);
+			break;
+		case 52251931:
+			script_1706(52274718);
+			break;
+		case 50662690:
+			script_1706(51078682);
+			break;
+		case 51039517:
+			script_1706(50488878);
+			break;
+		case 50531528:
+			script_1706(50537928);
+			break;
+		case 51088556:
+			script_1706(51094954);
+			break;
+		case 51858612:
+			script_1706(51602869);
+			break;
+		case 52579474:
+			script_1706(52585872);
+			break;
+		case 51924068:
+			script_1706(51930468);
+			break;
+		case 50859098:
+			script_1706(50849128);
+			break;
+		case 50603763:
+			script_1706(50597363);
+			break;
+		case 50751115:
+			script_1706(50744716);
+			break;
+		case 51062396:
+			script_1706(51055996);
+			break;
+		case 53044866:
+			script_1706(53038466);
+			break;
+		case 52930224:
+			script_1706(52923824);
+			break;
+		case 53159479:
+			script_1706(53153079);
+			break;
+		case 52274718:
+			script_1706(52268315);
+			break;
+		case 51078682:
+			script_1706(50662690);
+			break;
+		case 50488878:
+			script_1706(51039517);
+			break;
+		case 50537928:
+			script_1706(50531528);
+			break;
+		case 51094954:
+			script_1706(51088556);
+			break;
+		case 51602869:
+			script_1706(51874996);
+			break;
+		case 52585872:
+			script_1706(52579472);
+			break;
+		case 51930468:
+			script_1706(51924068);
+			break;
+		case 50849128:
+			script_1706(50859098);
+			break;
+		case 54371714:
+			script_1706(45077759);
+			break;
+		case 49122608:
+			script_1706(28710006);
+			break;
+		case 48926011:
+			script_1706(28710006);
+			break;
+		case 28709904:
+			script_1706(48925939);
+			break;
+		case 57265544:
+			script_1706(56977014);
+			break;
+		case 58051973:
+			script_1706(58156680);
+			break;
+		case 60296618:
+			script_1706(60335850);
+			break;
+		case 57101561:
+			script_1706(57239038);
+			break;
+		case 59837887:
+			script_1706(60106400);
+			break;
+		case 55987663:
+			script_1706(861218506);
+			break;
+		case 56977014:
+			script_1706(57265544);
+			break;
+		case 58156680:
+			script_1706(58051974);
+			break;
+		case 60335780:
+			script_1706(60313002);
+			break;
+		case 57239014:
+			script_1706(57101561);
+			break;
+		case 59844288:
+			script_1706(59854271);
+			break;
+		case 55912139:
+			script_1706(55987663);
+			break;
+		case 61410205:
+			script_1706(61449373);
+			break;
+		case 62508022:
+			script_1706(62514422);
+			break;
+		case 62753782:
+			script_1706(62760182);
+			break;
+		case 61449373:
+			script_1706(61410205);
+			break;
+		case 62514422:
+			script_1706(62508022);
+			break;
+		case 62760182:
+			script_1706(62753782);
+			break;
+		case 40176799:
+			script_1706(49403390);
+			break;
+		case 49403390:
+			script_1706(40176799);
+			break;
+		case 50482524:
+			script_1706(30463099);
+			break;
+		case 30463099:
+			script_1706(50482524);
+			break;
+		case 31347818:
+			script_1706(50482524);
+			break;
+		case 32068440:
+			script_1706(50482524);
+			break;
+		case 32740159:
+			script_1706(50482524);
+			break;
+		case 39783776:
+			script_1706(39806560);
+			break;
+		case 39374171:
+			script_1706(39478867);
+			break;
+		case 40357288:
+			script_1706(40363689);
+			break;
+		case 37326363:
+			script_1706(37283587);
+			break;
+		case 39806560:
+			script_1706(39800160);
+			break;
+		case 39478867:
+			script_1706(39374171);
+			break;
+		case 40363689:
+			script_1706(40357289);
+			break;
+		case 37283587:
+			script_1706(37326363);
+			break;
+		case 47254853:
+			script_1706(47261253);
+			break;
+		case 46566752:
+			script_1706(46573152);
+			break;
+		case 46206254:
+			script_1706(46245422);
+			break;
+		case 46206364:
+			script_1706(46212764);
+			break;
+		case 47140248:
+			script_1706(47146648);
+			break;
+		case 47386035:
+			script_1706(47392435);
+			break;
+		case 46255542:
+			script_1706(46261942);
+			break;
+		case 46648764:
+			script_1706(46655164);
+			break;
+		case 46812607:
+			script_1706(46819007);
+			break;
+		case 46419414:
+			script_1706(47621872);
+			break;
+		case 47261253:
+			script_1706(47254853);
+			break;
+		case 46573152:
+			script_1706(46566752);
+			break;
+		case 47080982:
+			script_1706(53251772);
+			break;
+		case 46212764:
+			script_1706(46206364);
+			break;
+		case 47146648:
+			script_1706(47140248);
+			break;
+		case 47392435:
+			script_1706(47386035);
+			break;
+		case 46261942:
+			script_1706(46255542);
+			break;
+		case 46655164:
+			script_1706(46648764);
+			break;
+		case 46819007:
+			script_1706(46812607);
+			break;
+		case 47113864:
+			script_1706(47720380);
+			break;
+		case 46573328:
+			script_1706(46419414);
+			break;
+		case 54218106:
+			script_1706(54027871);
+			break;
+		case 54027871:
+			script_1706(54218106);
+			break;
+		case 46517866:
+			script_1706(583362409);
+			break;
+		case 46386781:
+			script_1706(583264093);
+			break;
+		case 46321215:
+			script_1706(46278466);
+			break;
+		case 48588713:
+			script_1706(46517866);
+			break;
+		case 48490397:
+			script_1706(46386781);
+			break;
+		case 46278466:
+			script_1706(46321215);
+			break;
+		case 40637496:
+			script_1706(46916964);
+			break;
+		case 41307804:
+			script_1706(39970722);
+			break;
+		case 41668253:
+			script_1706(41691040);
+			break;
+		case 39970722:
+			script_1706(41307804);
+			break;
+		case 41691040:
+			script_1706(41668253);
+			break;
+		case 44803928:
+			script_1706(41061938);
+			break;
+		case 49434377:
+			script_1706(50292752);
+			break;
+		case 50286352:
+			script_1706(49440777);
+			break;
+		case 50630516:
+			script_1706(41603688);
+			break;
+		case 49237883:
+			script_1706(49244283);
+			break;
+		case 49893204:
+			script_1706(49899609);
+			break;
+		case 49434267:
+			script_1706(855549871);
+			break;
+		case 52481633:
+			script_1706(585421086);
+			break;
+		case 52940656:
+			script_1706(52963440);
+			break;
+		case 53153645:
+			script_1706(53143664);
+			break;
+		case 52957024:
+			script_1706(52979803);
+			break;
+		case 50292752:
+			script_1706(49434377);
+			break;
+		case 49440777:
+			script_1706(50286352);
+			break;
+		case 51046512:
+			script_1706(50630516);
+			break;
+		case 49244283:
+			script_1706(49237883);
+			break;
+		case 49899609:
+			script_1706(49893204);
+			break;
+		case 49440661:
+			script_1706(49434267);
+			break;
+		case 52504406:
+			script_1706(52481633);
+			break;
+		case 52963440:
+			script_1706(52940656);
+			break;
+		case 53143664:
+			script_1706(53153645);
+			break;
+		case 52979803:
+			script_1706(52957024);
+			break;
+		case 42093618:
+			script_1706(42100018);
+			break;
+		case 42667014:
+			script_1706(42657031);
+			break;
+		case 42503181:
+			script_1706(42509582);
+			break;
+		case 39521269:
+			script_1706(39396550);
+			break;
+		case 41388878:
+			script_1706(41526350);
+			break;
+		case 42100018:
+			script_1706(42093618);
+			break;
+		case 42657031:
+			script_1706(42667014);
+			break;
+		case 42509582:
+			script_1706(42503181);
+			break;
+		case 39396550:
+			script_1706(39521269);
+			break;
+		case 41395278:
+			script_1706(41388878);
+			break;
+		case 52481121:
+			script_1706(40178041);
+			break;
+		case 40178041:
+			script_1706(52481121);
+			break;
+		case 40735095:
+			script_1706(53415011);
+			break;
+		case 26824281:
+			script_1706(27305795);
+			break;
+		case 27791129:
+			script_1706(28174198);
+			break;
+		case 25611983:
+			script_1706(26503030);
+			break;
+		case 24088133:
+			script_1706(27043586);
+			break;
+		case 27299309:
+			script_1706(28288777);
+			break;
+		case 26283444:
+			script_1706(26175148);
+			break;
+		case 23481942:
+			script_1706(828827486);
+			break;
+		case 21417462:
+			script_1706(21391094);
+			break;
+		case 27305795:
+			script_1706(26824281);
+			break;
+		case 28174198:
+			script_1706(27791129);
+			break;
+		case 26503030:
+			script_1706(25611983);
+			break;
+		case 27043586:
+			script_1706(24088133);
+			break;
+		case 28288777:
+			script_1706(27299309);
+			break;
+		case 26175148:
+			script_1706(26283444);
+			break;
+		case 23521118:
+			script_1706(23481942);
+			break;
+		case 21391094:
+			script_1706(21417462);
+			break;
+		default:
+			playSoundEffect(2277, 1, 0);
+			break;
+	}
+	return;
+}

@@ -1,0 +1,5 @@
+void script_312(Widget widget0) {
+	script_1361(widget0, 0);
+	widget0.hookContainer(&script_1034(widget0), 95);
+	return;
+}

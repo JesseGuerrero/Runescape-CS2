@@ -1,0 +1,98 @@
+//script2136(2136)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+cc_deleteall(arg0)
+iVar1 = (118 + load_varpbit(5855)) + load_varpbit(5855)
+cc_create(0, 4, arg0)
+cc_setsize(0, 0, 32, 200)
+cc_setposition(0, 0, 36, iVar1)
+cc_settextfont(497)
+cc_settextalign(0, 1, 0)
+cc_setcolor(342e10)
+cc_settextshadow(0)
+cc_settext(enum(2224, load_varpbit(5856), 'i', 's'))
+instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+instr6092(script_1356, "Iii", -2147483645, -2147483643, 3419664)
+cc_setop("Select", 1)
+cc_create(1, 4, arg0)
+cc_setsize(0, 0, 32, 200)
+cc_setposition(0, 0, 70, iVar1)
+cc_settextfont(497)
+cc_settextalign(0, 1, 0)
+cc_setcolor(342e10)
+cc_settextshadow(0)
+cc_settext(enum(2224, load_varpbit(5858), 'i', 's'))
+instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+instr6092(script_1356, "Iii", -2147483645, -2147483643, 3419664)
+cc_setop("Select", 1)
+cc_create(2, 4, arg0)
+cc_setsize(0, 0, 32, 200)
+cc_setposition(0, 0, 104, iVar1)
+cc_settextfont(497)
+cc_settextalign(0, 1, 0)
+cc_setcolor(342e10)
+cc_settextshadow(0)
+cc_settext(enum(2224, load_varpbit(5860), 'i', 's'))
+instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+instr6092(script_1356, "Iii", -2147483645, -2147483643, 3419664)
+cc_setop("Select", 1)
+cc_create(3, 6, arg0)
+cc_setsize(0, 0, 144, 226)
+cc_setposition(0, 1, 147, 0)
+switch(load_varpbit(5857)) {
+	case default:
+		break
+	case 0:
+		cc_setmodel(enum(2225, load_varpbit(5862), 'i', 'm'))
+		break
+	case 1:
+		cc_setmodel(enum(2226, load_varpbit(5862), 'i', 'm'))
+		break
+	case 2:
+		cc_setmodel(enum(2227, load_varpbit(5862), 'i', 'm'))
+		cc_setmodel(enum(2228, load_varpbit(5862), 'i', 'm'))
+		break
+
+}
+iVar2 = (load_varpbit(5855) - 5) * 4
+iVar3 = (load_varpbit(5859) - 4) * 4
+cc_setmodelangle((400 + load_varpbit(5863)) + load_varpbit(5863), load_varpbit(5861) ^ 2, load_varpbit(5861) ^ 2, load_varpbit(5861) ^ 2, iVar3, iVar2)
+iVar4 = load_varpbit(5855)
+iVar5 = load_varpbit(5859) / 2
+iVar6 = 0
+switch(load_varpbit(5863)) {
+	case default:
+		break
+	case 0:
+		iVar4 = iVar5
+		break
+	case 1:
+		iVar4 = iVar6
+		break
+	case 2:
+		iVar4 = iVar4
+		break
+
+}
+instr6556(script_2137, "iiiiiIi", iVar4, iVar5, iVar6, iVar2, iVar3, -2147483645, -2147483643)
+cc_create(4, 3, arg0)
+cc_setsize(0, 0, 144, 226)
+cc_setposition(0, 1, 147, 0)
+cc_setcolor(0)
+cc_setfill(1)
+cc_settrans(0)
+instr6556(script_2138, "Iii", -2147483645, -2147483643, 0)
+cc_create(5, 5, arg0)
+cc_setsize(0, 0, 16, 19)
+cc_setposition(0, 0, load_varpbit(5859) + 148, 349)
+cc_sethflip(1)
+cc_setgraphic(1538)
+instr6091(script_2140, "Iii", -2147483645, -2147483643, 125)
+instr6092(script_2140, "Iii", -2147483645, -2147483643, 0)
+cc_setop("Change spin", 1)
+instr6687(script_2139, "iIiii", -2147483644, arg0, instr6151(), iVar2, iVar3)
+return

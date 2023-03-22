@@ -1,0 +1,12 @@
+//script3235(3235)()(void)
+int iVar0
+iVar0 = 39059500
+if(instr6710() == 1)
+	iVar0 = 63897644
+if(load_varc(200) > 0) {
+	hook_mouse_press(iVar0, script_2944, "")
+	instr6342(iVar0, None, "")
+	instr6694()
+	script_2954()
+}
+return

@@ -1,0 +1,4 @@
+//script2382(2382)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	cc_setoutline(arg2)
+return

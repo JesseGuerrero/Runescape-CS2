@@ -1,0 +1,7 @@
+//script2231(2231)()(void)
+if(load_varc(1129) > 0) {
+	sound_synth(0, 1, 8729)
+	store_varc(1129, load_varc(1129) - 1)
+	script_2220()
+}
+return

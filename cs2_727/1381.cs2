@@ -1,0 +1,46 @@
+//script1381(1381)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+if(load_varpbit(7520) == 0)
+	iVar1 = script_1416(66650268, iVar1)
+else
+	iVar0 = script_1403(66650268, iVar0)
+if(load_varpbit(7521) == 0)
+	iVar1 = script_1416(66650269, iVar1)
+else
+	iVar0 = script_1403(66650269, iVar0)
+if(load_varpbit(7526) == 0)
+	iVar1 = script_1416(66650270, iVar1)
+else
+	iVar0 = script_1403(66650270, iVar0)
+if(load_varpbit(7527) == 0)
+	iVar1 = script_1416(66650271, iVar1)
+else
+	iVar0 = script_1403(66650271, iVar0)
+if(load_varpbit(7530) == 0)
+	iVar1 = script_1416(66650272, iVar1)
+else
+	iVar0 = script_1403(66650272, iVar0)
+if(load_varpbit(7531) == 0)
+	iVar1 = script_1416(66650273, iVar1)
+else
+	iVar0 = script_1403(66650273, iVar0)
+if(load_varpbit(7532) == 0)
+	iVar1 = script_1416(66650274, iVar1)
+else
+	iVar0 = script_1403(66650274, iVar0)
+if(load_varpbit(7533) == 0)
+	iVar1 = script_1416(66650275, iVar1)
+else
+	iVar0 = script_1403(66650275, iVar0)
+if(load_varpbit(7534) == 0)
+	iVar1 = script_1416(66650276, iVar1)
+else
+	iVar0 = script_1403(66650276, iVar0)
+if(load_varpbit(7535) == 0)
+	iVar1 = script_1416(66650277, iVar1)
+else
+	iVar0 = script_1403(66650277, iVar0)
+return

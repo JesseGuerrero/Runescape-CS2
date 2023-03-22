@@ -1,0 +1,9 @@
+//script5578(5578)(int arg0)(void)
+if(arg0 == -1 || arg0 > load_varpbit(10300)) {
+	if_sethide(if_gethash(1181, 190), 0)
+	if_sethide(if_gethash(1181, 173), 0)
+} else  {
+	if_sethide(if_gethash(1181, 190), 1)
+	if_sethide(if_gethash(1181, 173), 1)
+}
+return

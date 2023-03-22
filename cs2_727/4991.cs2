@@ -1,0 +1,38 @@
+//script4991(4991)()(void)
+int iVar0
+int iVar1
+script_4993()
+script_4994()
+iVar0 = -1
+iVar1 = 0
+if(clan_vars_enabled() == 1) {
+	iVar0 = load_clan_varbit(2580)
+	if_sethide(if_gethash(1261, 36), 0)
+	if_sethide(if_gethash(1261, 37), 0)
+	if_sethide(if_gethash(1261, 38), 0)
+	if_sethide(if_gethash(1261, 39), 0)
+	iVar1 = 4
+	if(iVar0 >= 2) {
+		if_sethide(if_gethash(1261, 40), 0)
+		iVar1 = iVar1 + 1
+	}
+	if(iVar0 >= 3) {
+		if_sethide(if_gethash(1261, 41), 0)
+		if_sethide(if_gethash(1261, 42), 0)
+		iVar1 = iVar1 + 2
+	}
+	if(iVar0 >= 5) {
+		if_sethide(if_gethash(1261, 44), 0)
+		if_sethide(if_gethash(1261, 253), 0)
+		iVar1 = iVar1 + 2
+	}
+	if(iVar0 >= 6) {
+		if_sethide(if_gethash(1261, 43), 0)
+		iVar1 = iVar1 + 1
+	}
+	if(modulo(2, iVar1) != 0)
+		iVar1 = iVar1 + 1
+	if_setscrollsize(82640952, ((iVar1 / 2) * 58) + 6, if_getwidth(if_gethash(1261, 56)))
+	script_31(82640951, 82640952, 5666, 5663, 5664, 5665, 5686, 5685)
+}
+return

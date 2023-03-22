@@ -1,0 +1,9 @@
+//script3938(3938)()(void)
+if(load_varc(1411) == 1) {
+	store_varc(1411, 0)
+	if_setgraphic(if_gethash(673, 40), 4085)
+} else  {
+	store_varc(1411, 1)
+	if_setgraphic(if_gethash(673, 40), 4087)
+}
+return

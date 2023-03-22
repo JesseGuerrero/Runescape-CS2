@@ -1,0 +1,14 @@
+void script_1381(boolean arg0, Widget widget1, int arg2, string string3) {
+	if (arg0 == true) {
+		if (CHILD.setChild(widget1, arg2) == true) {
+			CHILD.setTrans(175);
+		}
+		script_837(widget1, -1, widget(422, 65), string3, 25, 512 / 2);
+	} else {
+		if (CHILD.setChild(widget1, arg2) == true) {
+			CHILD.setTrans(0);
+		}
+		script_41(widget(422, 65));
+	}
+	return;
+}

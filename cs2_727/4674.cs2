@@ -1,0 +1,125 @@
+//script4674(4674)()(void)
+int iVar0
+iVar0 = load_varpbit(9306)
+if(load_varc(1526) >= 20)
+	if(load_varc(1527) >= 30)
+		if(load_varc(1528) >= 40)
+			if(load_varc(1529) >= 50)
+				return
+if(load_varc(1526) < 20)
+	store_varc(1526, load_varc(1526) + 1)
+if(load_varc(1527) < 30)
+	store_varc(1527, load_varc(1527) + 1)
+if(load_varc(1528) < 40)
+	store_varc(1528, load_varc(1528) + 1)
+if(load_varc(1529) < 50)
+	store_varc(1529, load_varc(1529) + 1)
+switch(iVar0) {
+	case default:
+		break
+	case 1:
+		if(load_varc(1526) >= 20)
+			if(load_varpbit(9320) == 1)
+				if_setgraphic(if_gethash(102, 150), 5917)
+			else
+				if_setgraphic(if_gethash(102, 150), 5921)
+		if(load_varc(1527) >= 30)
+			if(load_varpbit(9321) == 1)
+				if_setgraphic(if_gethash(102, 151), 5917)
+			else
+				if_setgraphic(if_gethash(102, 151), 5921)
+		if(load_varc(1528) >= 40)
+			if(load_varpbit(9322) == 1)
+				if_setgraphic(if_gethash(102, 152), 5917)
+			else
+				if_setgraphic(if_gethash(102, 152), 5921)
+		if(load_varc(1529) >= 50)
+			if(load_varpbit(9323) == 1)
+				if_setgraphic(if_gethash(102, 153), 5917)
+			else
+				if_setgraphic(if_gethash(102, 153), 5921)
+		break
+	case 4:
+		if(load_varc(1526) >= 20)
+			if(load_varpbit(9324) == 1)
+				if_setgraphic(if_gethash(102, 150), 5917)
+			else
+				if_setgraphic(if_gethash(102, 150), 5921)
+		if(load_varc(1527) >= 30)
+			if(load_varpbit(9325) == 1)
+				if_setgraphic(if_gethash(102, 151), 5917)
+			else
+				if_setgraphic(if_gethash(102, 151), 5921)
+		if(load_varc(1528) >= 40)
+			if(load_varpbit(9326) == 1)
+				if_setgraphic(if_gethash(102, 152), 5917)
+			else
+				if_setgraphic(if_gethash(102, 152), 5921)
+		if(load_varc(1529) >= 50)
+			if(load_varpbit(9327) == 1)
+				if_setgraphic(if_gethash(102, 153), 5917)
+			else
+				if_setgraphic(if_gethash(102, 153), 5921)
+		break
+	case 2:
+		if(load_varc(1526) >= 20)
+			if(load_varpbit(9331) == 1)
+				if_setgraphic(if_gethash(102, 64), 5917)
+			else
+				if_setgraphic(if_gethash(102, 64), 5921)
+		if(load_varc(1527) >= 30)
+			if(load_varpbit(9333) == 1)
+				if_setgraphic(if_gethash(102, 148), 5917)
+			else
+				if_setgraphic(if_gethash(102, 148), 5921)
+		if(load_varc(1528) >= 40)
+			if(load_varpbit(9332) == 1)
+				if_setgraphic(if_gethash(102, 149), 5917)
+			else
+				if_setgraphic(if_gethash(102, 149), 5921)
+		break
+	case 3:
+		if(load_varc(1526) >= 20)
+			if(load_varpbit(11066) == 1)
+				if_setgraphic(if_gethash(102, 64), 5917)
+			else
+				if_setgraphic(if_gethash(102, 64), 5921)
+		if(load_varc(1527) >= 30)
+			if(load_varpbit(11067) == 1)
+				if_setgraphic(if_gethash(102, 148), 5917)
+			else
+				if_setgraphic(if_gethash(102, 148), 5921)
+		if(load_varc(1528) >= 40)
+			if(load_varpbit(11085) == 2)
+				if(load_varpbit(11086) == 2)
+					if(load_varpbit(11087) == 2)
+						if(load_varpbit(11088) == 2)
+							if(load_varpbit(11089) == 2)
+								if(load_varpbit(11090) == 2)
+									if(load_varpbit(11091) == 2)
+										if(load_varpbit(11092) == 2)
+											if(load_varpbit(11093) == 2)
+												if_setgraphic(if_gethash(102, 149), 5917)
+											else
+												if_setgraphic(if_gethash(102, 149), 5921)
+		break
+	case 6:
+		if(load_varc(1526) >= 20)
+			if(load_varpbit(11071) == 1)
+				if_setgraphic(if_gethash(102, 64), 5917)
+			else
+				if_setgraphic(if_gethash(102, 64), 5921)
+		if(load_varc(1527) >= 30)
+			if(load_varpbit(11072) == 1)
+				if_setgraphic(if_gethash(102, 148), 5917)
+			else
+				if_setgraphic(if_gethash(102, 148), 5921)
+		if(load_varc(1528) >= 40)
+			if(load_varpbit(11073) == 1)
+				if_setgraphic(if_gethash(102, 149), 5917)
+			else
+				if_setgraphic(if_gethash(102, 149), 5921)
+		break
+
+}
+return

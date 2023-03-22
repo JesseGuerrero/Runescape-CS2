@@ -1,0 +1,8 @@
+//script1868(1868)(int arg0)(void)
+if(modulo(50, client_clock()) == 0)
+	if(get_system_update_timer() > 0) {
+		if_setposition(if_gethash(906, 32), 1, 1, -8, 0)
+		script_1870(59375665)
+		instr6342(arg0, script_1869, "I", if_gethash(906, 49))
+	}
+return

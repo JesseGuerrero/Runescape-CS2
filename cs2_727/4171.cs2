@@ -1,0 +1,4 @@
+//script4171(4171)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	script_4172(arg2)
+return

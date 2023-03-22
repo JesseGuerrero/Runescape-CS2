@@ -1,0 +1,19 @@
+//script5543(5543)()(void)
+int iVar0
+int iVar1
+iVar0 = script_5541()
+iVar1 = 0
+if(world_members() == 0) {
+	iVar0 = min(iVar0, 20)
+	iVar0 = max(iVar0, 0)
+	iVar1 = (iVar0 * 16384) / 20
+	if_setsize(if_gethash(1178, 84), 0, 2, if_getheight(if_gethash(1178, 84)), iVar1)
+	if_settext(if_gethash(1178, 89), to_string(iVar0) + " / " + to_string(20))
+} else  {
+	iVar0 = min(iVar0, 39)
+	iVar0 = max(iVar0, 0)
+	iVar1 = (iVar0 * 16384) / 39
+	if_setsize(if_gethash(1178, 84), 0, 2, if_getheight(if_gethash(1178, 84)), iVar1)
+	if_settext(if_gethash(1178, 89), to_string(iVar0) + " / " + to_string(39))
+}
+return

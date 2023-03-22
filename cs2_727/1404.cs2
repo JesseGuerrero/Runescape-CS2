@@ -1,0 +1,8 @@
+//script1404(1404)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+script_1839(load_varpbit(5367), arg0, arg1, arg2)
+if(arg5 != load_varpbit(6175)) {
+	instr6237(arg4, script_1404, "IIIIIiY", 1, 463, arg0, arg1, arg2, arg3, arg4, load_varpbit(6175))
+	script_2046(arg3)
+}
+script_307()
+return

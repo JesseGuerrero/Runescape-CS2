@@ -1,0 +1,4 @@
+//script4596(4596)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1)
+	cc_settext(load_varc_string(351))
+return

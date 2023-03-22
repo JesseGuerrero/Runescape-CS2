@@ -1,0 +1,4 @@
+void script_1148() {
+	script_1280();
+	return;
+}

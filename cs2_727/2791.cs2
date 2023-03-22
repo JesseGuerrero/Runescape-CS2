@@ -1,0 +1,109 @@
+//script2791(2791)(int arg0)(int, int, int, int, string)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+iVar1 = struct_param(938, enum(869, arg0, 'i', 'J'))
+sVar0 = struct_param(935, enum(869, arg0, 'i', 'J'))
+iVar2 = struct_param(939, enum(869, arg0, 'i', 'J'))
+iVar3 = struct_param(937, enum(869, arg0, 'i', 'J'))
+iVar4 = 1
+iVar5 = 0
+if(struct_param(940, enum(869, arg0, 'i', 'J')) == 1) {
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			if(stat_base(7) < 40) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 1:
+			if(load_varpbit(1527) < 160) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 2:
+			if(load_varp(359) < 100) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 3:
+			if(load_varpbit(5491) > 370)
+				iVar5 = 1
+			break
+		case 5:
+			if(load_varpbit(418) < 26) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 6:
+			if(load_varpbit(5525) == 1)
+				iVar5 = 1
+			break
+		case 7:
+			if(load_varpbit(5491) > 370)
+				iVar5 = 1
+			break
+		case 9:
+			if(stat_base(10) < 15) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 11:
+			if(load_varpbit(3618) < 16 || load_varpbit(5550) == 1) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 12:
+			if(load_varpbit(3293) < 135) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			} else 
+				if(load_varpbit(6180) == 140)
+					iVar5 = 1
+			break
+		case 19:
+			if(load_varpbit(3618) < 28) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 14:
+			if(load_varp(492) < 4) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 16:
+			if(load_varpbit(9067) < 8) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+		case 18:
+			if(load_varp(517) < 2) {
+				iVar1 = struct_param(936, enum(869, arg0, 'i', 'J'))
+				iVar4 = 0
+			}
+			break
+
+	}
+	if(iVar5 == 1) {
+		iVar1 = struct_param(942, enum(869, arg0, 'i', 'J'))
+		iVar4 = 1
+		sVar0 = struct_param(941, enum(869, arg0, 'i', 'J'))
+		iVar3 = struct_param(943, enum(869, arg0, 'i', 'J'))
+		iVar2 = struct_param(944, enum(869, arg0, 'i', 'J'))
+	}
+}
+return iVar2, iVar3, iVar4, iVar1, sVar0
+return -1, 0, 0, -1, ""

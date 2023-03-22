@@ -1,0 +1,4 @@
+//script4702(4702)()(void)
+instr6717()
+store_varc(1100, -1)
+return

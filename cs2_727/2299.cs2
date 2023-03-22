@@ -1,0 +1,17 @@
+//script2299(2299)(int arg0)(void)
+if(load_varc(181) == 1)
+	if(load_varpbit(6840) == 1) {
+		instr6213(arg0, 2, "Finish quick curse selection")
+		if_settext(if_gethash(271, 46), "Select your quick curses:")
+	} else  {
+		instr6213(arg0, 2, "Finish quick prayer selection")
+		if_settext(if_gethash(271, 46), "Select your quick prayers:")
+	}
+else
+	if(load_varpbit(6840) == 1)
+		instr6213(arg0, 2, "Select quick curses")
+	else
+		instr6213(arg0, 2, "Select quick prayers")
+script_817(5)
+script_2303()
+return

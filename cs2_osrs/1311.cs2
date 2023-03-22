@@ -1,0 +1,34 @@
+void script_1311(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int2 = 1;
+	if (VARP[101] > int2) {
+		int2 = VARP[101];
+	}
+	int3 = VARPBIT[5099];
+	if (VARPBIT[5099] < VARP[101]) {
+		int3 = int3 - 1;
+	}
+	if (int3 <= 0 || int2 <= 0) {
+		widget1.setSize(0, 0, 0, 1);
+		widget0.hookFrame(null);
+		return;
+	}
+	if (int3 >= int2) {
+		widget1.setSize(0, 0, 1, 1);
+		widget0.hookFrame(null);
+		return;
+	}
+	int4 = mathMethod4006(0, int3, 0, int2, 16384);
+	int5 = int3 * 30;
+	if (int4 <= 0 || int5 <= 0) {
+		widget1.setSize(0, 0, 0, 1);
+		widget0.hookFrame(null);
+		return;
+	}
+	widget1.setSize(int4, 0, 2, 1);
+	widget0.hookFrame(&script_1307(widget0, widget1, int4, int4 / int5, getClientCycle()));
+	return;
+}

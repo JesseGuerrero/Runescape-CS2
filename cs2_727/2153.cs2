@@ -1,0 +1,67 @@
+//script2153(2153)(int arg0)(int)
+int iVar1
+iVar1 = struct_param(871, arg0)
+if(struct_param(897, arg0) == 1)
+	if(stat_base(0) + stat_base(2) < 130)
+		return 0
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(872, arg0))
+	return 0
+iVar1 = struct_param(873, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(874, arg0))
+	return 0
+iVar1 = struct_param(875, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(876, arg0))
+	return 0
+iVar1 = struct_param(877, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(878, arg0))
+	return 0
+iVar1 = struct_param(879, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(880, arg0))
+	return 0
+iVar1 = struct_param(881, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(882, arg0))
+	return 0
+iVar1 = struct_param(883, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(884, arg0))
+	return 0
+iVar1 = struct_param(885, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(886, arg0))
+	return 0
+iVar1 = struct_param(887, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(888, arg0))
+	return 0
+iVar1 = struct_param(889, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(890, arg0))
+	return 0
+iVar1 = struct_param(891, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(892, arg0))
+	return 0
+iVar1 = struct_param(893, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < struct_param(894, arg0))
+	return 0
+return 1
+return -1

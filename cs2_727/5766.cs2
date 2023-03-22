@@ -1,0 +1,47 @@
+//script5766(5766)(int arg0)(int)
+if(stat_base(0) > arg0)
+	return 1
+if(stat_base(2) > arg0)
+	return 1
+if(stat_base(1) > arg0)
+	return 1
+if(stat_base(3) > arg0)
+	return 1
+if(stat_base(4) > arg0)
+	return 1
+if(stat_base(6) > arg0)
+	return 1
+if(stat_base(16) > arg0)
+	return 1
+if(stat_base(15) > arg0)
+	return 1
+if(stat_base(17) > arg0)
+	return 1
+if(stat_base(12) > arg0)
+	return 1
+if(stat_base(9) > arg0)
+	return 1
+if(stat_base(14) > arg0)
+	return 1
+if(stat_base(13) > arg0)
+	return 1
+if(stat_base(10) > arg0)
+	return 1
+if(stat_base(7) > arg0)
+	return 1
+if(stat_base(11) > arg0)
+	return 1
+if(stat_base(8) > arg0)
+	return 1
+if(stat_base(20) > arg0)
+	return 1
+if(stat_base(18) > arg0)
+	return 1
+if(stat_base(19) > arg0)
+	return 1
+if(stat_base(22) > arg0)
+	return 1
+if(stat_base(24) > arg0)
+	return 1
+return 0
+return 0

@@ -1,0 +1,11 @@
+//script4041(4041)()(void)
+int iVar0
+iVar0 = 0
+if(instr6644() < 2)
+	if_setsize(if_gethash(906, 271), 1, 1, 0, 0)
+else
+	if_setsize(if_gethash(906, 271), 0, 0, 503, 956)
+if(detailget_maxscreensize() == 2)
+	if(instr6644() != 1)
+		if_setsize(if_gethash(906, 271), 0, 0, 503, 800)
+return

@@ -1,0 +1,28 @@
+void script_443(Widget widget0) {
+	int int1;
+	int int2;
+	Item item3;
+	int1 = 0;
+	int2 = 0;
+	item3 = datamap('i', 'O', 852, int2);
+	while (item3 != null) {
+		CHILD.createChild(widget0, 5, int2);
+		if (isMember() == false && isMembersItem(item3) == true) {
+			CHILD.setHidden(true);
+		} else {
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(int1 % 8 * 46, int1 / 8 * 50, 0, 0);
+			int1 = int1 + 1;
+			CHILD.setItem(item3, 1);
+			CHILD.setOptionBase("<col=ff9040>" + getItemName(item3));
+			CHILD.setContextMenuOption(1, "Value");
+			CHILD.setContextMenuOption(2, "Buy");
+			CHILD.setContextMenuOption(10, "Examine");
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+		}
+		int2 = int2 + 1;
+		item3 = datamap('i', 'O', 852, int2);
+	}
+	return;
+}

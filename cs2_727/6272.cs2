@@ -1,0 +1,7 @@
+//script6272(6272)()(void)
+if(load_varc(1929) == 0) {
+	if_sethide(if_gethash(1296, 22), 0)
+	if_sethide(if_gethash(1296, 6), 1)
+	if_setposition(if_gethash(1296, 23), 0, 2, 60, 120)
+}
+return

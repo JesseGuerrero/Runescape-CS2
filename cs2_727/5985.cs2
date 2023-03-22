@@ -1,0 +1,13 @@
+//script5985(5985)(int arg0)(void)
+int iVar1
+cc_deleteall(arg0)
+iVar1 = if_getnextsubid(arg0)
+cc_create(if_getnextsubid(arg0), 3, arg0)
+cc_setcolor(ffffff)
+cc_setfill(1)
+cc_setposition(0, 0, 2, 2)
+cc_setsize(1, 1, 4, 4)
+cc_settrans(255)
+instr6091(script_2140, "Iii", arg0, iVar1, 180)
+instr6092(script_2140, "Iii", arg0, iVar1, 255)
+return

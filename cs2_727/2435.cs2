@@ -1,0 +1,40 @@
+//script2435(2435)()(void)
+int iVar0
+int iVar1
+string sVar0
+string sVar1
+if(load_varc(815) > 0)
+	store_varc(815, load_varc(815) - 1)
+else {
+	script_2436()
+	return
+}
+iVar0 = load_varc(815) / 50
+iVar1 = iVar0 / 60
+iVar0 = iVar0 - (iVar1 * 60)
+sVar0 = ""
+sVar1 = ""
+if(iVar1 == 0)
+	sVar0 = "00"
+else
+	if(iVar1 < 10)
+		sVar0 = "0" + to_string(iVar1)
+	else
+		sVar0 = to_string(iVar1)
+if(iVar0 == 0)
+	sVar1 = "00"
+else
+	if(iVar0 < 10)
+		sVar1 = "0" + to_string(iVar0)
+	else
+		sVar1 = to_string(iVar0)
+if(instr6644() < 2) {
+	if_sethide(if_gethash(548, 39), 0)
+	if_sethide(if_gethash(548, 38), 0)
+	if_settext(if_gethash(548, 39), sVar0 + ":" + sVar1)
+} else  {
+	if_sethide(if_gethash(746, 189), 0)
+	if_sethide(if_gethash(746, 188), 0)
+	if_settext(if_gethash(746, 189), sVar0 + ":" + sVar1)
+}
+return

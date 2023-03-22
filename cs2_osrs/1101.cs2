@@ -1,0 +1,22 @@
+void script_1101(int arg0, Widget widget1, string string2) {
+	int int2;
+	int2 = 0;
+	if (arg0 == 1) {
+		int2 = script_198(widget1);
+	} else {
+		int2 = script_208(widget1);
+	}
+	CHILD.createChild(widget1, 4, int2);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	if (arg0 == 1) {
+		CHILD.setRGB(0xFFA82F);
+	} else {
+		CHILD.setRGB(0xFF981F);
+	}
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(string2);
+	return;
+}

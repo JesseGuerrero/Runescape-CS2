@@ -1,0 +1,26 @@
+//script5196(5196)()(void)
+if_sethide(if_gethash(1122, 55), 1)
+if_sethide(if_gethash(1122, 243), 1)
+if_sethide(if_gethash(1122, 255), 1)
+if_sethide(if_gethash(1122, 267), 1)
+if_sethide(if_gethash(1122, 279), 1)
+if_sethide(if_gethash(1122, 222), 1)
+if_sethide(if_gethash(1122, 231), 1)
+if_sethide(if_gethash(1122, 345), 1)
+if_sethide(if_gethash(1122, 73), 0)
+if(load_varc(1595) < 4) {
+	if_sethide(if_gethash(1122, 279), 0)
+	if_sethide(if_gethash(1122, 231), 0)
+}
+if(load_varc(1595) < 3) {
+	if_sethide(if_gethash(1122, 267), 0)
+	if_sethide(if_gethash(1122, 345), 0)
+}
+if(load_varc(1595) < 2) {
+	if_sethide(if_gethash(1122, 255), 0)
+	if_sethide(if_gethash(1122, 222), 0)
+	if_sethide(if_gethash(1122, 73), 1)
+}
+if(load_varc(1595) < 1)
+	if_sethide(if_gethash(1122, 243), 0)
+return

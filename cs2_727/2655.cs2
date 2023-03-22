@@ -1,0 +1,12 @@
+//script2655(2655)(int arg0, int arg1)(void)
+if(arg0 <= 11) {
+	if_setscrollsize(56885253, 215, 404)
+	script_72(56885254, 56885253, 0)
+} else  {
+	if_setscrollsize(56885253, arg0 * 20, 404)
+	if(arg1 == 1)
+		script_72(56885254, 56885253, 0)
+	else
+		script_72(56885254, 56885253, (arg0 * 20) - 180)
+}
+return

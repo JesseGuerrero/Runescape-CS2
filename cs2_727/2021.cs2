@@ -1,0 +1,17 @@
+//script2021(2021)(int arg0, int arg1)(void)
+if(arg1 == 1) {
+	if(cc_find(0, arg0) == 1)
+		cc_setgraphic(3862)
+	if(cc_find(1, arg0) == 1)
+		cc_setgraphic(3860)
+	if(cc_find(2, arg0) == 1)
+		cc_setgraphic(3861)
+} else  {
+	if(cc_find(0, arg0) == 1)
+		cc_setgraphic(3859)
+	if(cc_find(1, arg0) == 1)
+		cc_setgraphic(3857)
+	if(cc_find(2, arg0) == 1)
+		cc_setgraphic(3858)
+}
+return

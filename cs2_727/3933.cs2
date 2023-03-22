@@ -1,0 +1,10 @@
+//script3933(3933)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if_setcolor(arg0, arg1)
+if(arg2 == 1)
+	if_setgraphic(arg4, enum(3480, arg3, 'i', 'd'))
+else
+	if(arg5 == arg3)
+		if_setgraphic(arg4, enum(736, arg3, 'i', 'd'))
+	else
+		if_setgraphic(arg4, enum(735, arg3, 'i', 'd'))
+return

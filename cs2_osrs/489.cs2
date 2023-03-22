@@ -1,0 +1,6 @@
+void script_489(int arg0, int arg1) {
+	if (isBitFlagged(arg1, arg0) == true) {
+		playSoundEffect(2266, 1, 0);
+	}
+	return;
+}

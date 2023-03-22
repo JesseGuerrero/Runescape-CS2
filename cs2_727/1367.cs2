@@ -1,0 +1,71 @@
+//script1367(1367)()(void)
+if_settext(if_gethash(58, 0), "Zamorak = " + to_string(load_varpbit(155)))
+if_settext(if_gethash(58, 1), to_string(load_varpbit(145)) + " = Saradomin")
+if_settext(if_gethash(58, 6), to_string(load_varp(380)) + " Min")
+if(load_varpbit(136) == 0) {
+	if_settext(if_gethash(58, 9), "Health: " + to_string(load_varpbit(136)) + "%")
+	if_setcolor(3801097, 0xFF0000)
+} else  {
+	if_settext(if_gethash(58, 9), "Health " + to_string(load_varpbit(136)) + "%")
+	if_setcolor(3801097, 0xFF00)
+}
+if(load_varpbit(143) == 0) {
+	if_settext(if_gethash(58, 2), "Safe")
+	if_setcolor(3801090, 0xFF00)
+} else 
+	if(load_varpbit(143) == 1) {
+		if_settext(if_gethash(58, 2), "Taken")
+		if_setcolor(3801090, 0xFF0000)
+	} else 
+		if(load_varpbit(143) == 2) {
+			if_settext(if_gethash(58, 2), "Dropped")
+			if_setcolor(3801090, 0xFFFF00)
+		}
+if(load_varpbit(153) == 0) {
+	if_settext(if_gethash(58, 3), "Safe")
+	if_setcolor(3801091, 0xFF00)
+} else 
+	if(load_varpbit(153) == 1) {
+		if_settext(if_gethash(58, 3), "Taken")
+		if_setcolor(3801091, 0xFF0000)
+	} else 
+		if(load_varpbit(153) == 2) {
+			if_settext(if_gethash(58, 3), "Dropped")
+			if_setcolor(3801091, 0xFFFF00)
+		}
+if(load_varpbit(137) == 1) {
+	if_settext(if_gethash(58, 10), "Unlocked")
+	if_setcolor(3801098, 0xFF0000)
+} else  {
+	if_settext(if_gethash(58, 10), "Locked")
+	if_setcolor(3801098, 0xFF00)
+}
+if(load_varpbit(138) == 1) {
+	if_settext(if_gethash(58, 11), "Cleared")
+	if_setcolor(3801099, 0xFF0000)
+} else  {
+	if_settext(if_gethash(58, 11), "Collapsed")
+	if_setcolor(3801099, 0xFF00)
+}
+if(load_varpbit(139) == 1) {
+	if_settext(if_gethash(58, 12), "Cleared")
+	if_setcolor(3801100, 0xFF0000)
+} else  {
+	if_settext(if_gethash(58, 12), "Collapsed")
+	if_setcolor(3801100, 0xFF00)
+}
+if(load_varpbit(140) == 1) {
+	if_settext(if_gethash(58, 13), "Destroyed")
+	if_setcolor(3801101, 0xFF0000)
+} else  {
+	if_settext(if_gethash(58, 13), "Operational")
+	if_setcolor(3801101, 0xFF00)
+}
+if_setitem(if_gethash(58, 4), -1, 18748)
+if_setitem(if_gethash(58, 5), -1, 18749)
+if_setitem(if_gethash(58, 14), -1, 18750)
+if_setitem(if_gethash(58, 15), -1, 18751)
+if_setitem(if_gethash(58, 16), -1, 18752)
+if_setitem(if_gethash(58, 17), -1, 18753)
+if_setitem(if_gethash(58, 18), -1, 18754)
+return

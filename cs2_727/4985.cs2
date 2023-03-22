@@ -1,0 +1,11 @@
+//script4985(4985)()(void)
+int iVar0
+iVar0 = -1
+if(clan_vars_enabled() == 1)
+	if(load_varpbit(9550) > 0) {
+		iVar0 = script_4948(load_varpbit(9550))
+		if(iVar0 <= 0)
+			script_4899(4)
+		else
+	} else 
+return

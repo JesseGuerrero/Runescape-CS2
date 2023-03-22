@@ -1,0 +1,75 @@
+int, int script_1002(int arg0) {
+	if (arg0 == 0) {
+		return VARP[1229], VARP[1253];
+	}
+	if (arg0 == 2) {
+		return VARP[1230], VARP[1254];
+	}
+	if (arg0 == 4) {
+		return VARP[1231], VARP[1255];
+	}
+	if (arg0 == 6) {
+		return VARP[1232], VARP[1256];
+	}
+	if (arg0 == 1) {
+		return VARP[1233], VARP[1257];
+	}
+	if (arg0 == 3) {
+		return VARP[1234], VARP[1258];
+	}
+	if (arg0 == 5) {
+		return VARP[1235], VARP[1259];
+	}
+	if (arg0 == 16) {
+		return VARP[1236], VARP[1260];
+	}
+	if (arg0 == 15) {
+		return VARP[1237], VARP[1261];
+	}
+	if (arg0 == 17) {
+		return VARP[1238], VARP[1262];
+	}
+	if (arg0 == 12) {
+		return VARP[1239], VARP[1263];
+	}
+	if (arg0 == 20) {
+		return VARP[1240], VARP[1264];
+	}
+	if (arg0 == 14) {
+		return VARP[1241], VARP[1265];
+	}
+	if (arg0 == 13) {
+		return VARP[1242], VARP[1266];
+	}
+	if (arg0 == 10) {
+		return VARP[1243], VARP[1267];
+	}
+	if (arg0 == 7) {
+		return VARP[1244], VARP[1268];
+	}
+	if (arg0 == 11) {
+		return VARP[1245], VARP[1269];
+	}
+	if (arg0 == 8) {
+		return VARP[1246], VARP[1270];
+	}
+	if (arg0 == 9) {
+		return VARP[1247], VARP[1271];
+	}
+	if (arg0 == 18) {
+		return VARP[1248], VARP[1272];
+	}
+	if (arg0 == 19) {
+		return VARP[1249], VARP[1273];
+	}
+	if (arg0 == 22) {
+		return VARP[1250], VARP[1274];
+	}
+	if (arg0 == 21) {
+		return VARP[1251], VARP[1275];
+	}
+	if (arg0 == -1) {
+		return VARP[1228], VARP[1252];
+	}
+	return 0, 0;
+}

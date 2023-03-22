@@ -1,0 +1,287 @@
+//script6367(6367)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 1:
+				store_varc(1939, load_varc(1940))
+				store_varc(1940, -1)
+				break
+			case 2:
+				store_varc(1939, load_varc(1941))
+				store_varc(1941, -1)
+				break
+			case 3:
+				store_varc(1939, load_varc(1942))
+				store_varc(1942, -1)
+				break
+			case 4:
+				store_varc(1939, load_varc(1943))
+				store_varc(1943, -1)
+				break
+			case 5:
+				store_varc(1939, load_varc(1944))
+				store_varc(1944, -1)
+				break
+			case 6:
+				store_varc(1939, load_varc(1945))
+				store_varc(1945, -1)
+				break
+			case 7:
+				store_varc(1939, load_varc(1946))
+				store_varc(1946, -1)
+				break
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				store_varc(1940, load_varc(1939))
+				store_varc(1939, -1)
+				break
+			case 2:
+				store_varc(1940, load_varc(1941))
+				store_varc(1941, -1)
+				break
+			case 3:
+				store_varc(1940, load_varc(1942))
+				store_varc(1942, -1)
+				break
+			case 4:
+				store_varc(1940, load_varc(1943))
+				store_varc(1943, -1)
+				break
+			case 5:
+				store_varc(1940, load_varc(1944))
+				store_varc(1944, -1)
+				break
+			case 6:
+				store_varc(1940, load_varc(1945))
+				store_varc(1945, -1)
+				break
+			case 7:
+				store_varc(1940, load_varc(1946))
+				store_varc(1946, -1)
+				break
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				store_varc(1941, load_varc(1939))
+				store_varc(1939, -1)
+				break
+			case 1:
+				store_varc(1941, load_varc(1940))
+				store_varc(1940, -1)
+				break
+			case 3:
+				store_varc(1941, load_varc(1942))
+				store_varc(1942, -1)
+				break
+			case 4:
+				store_varc(1941, load_varc(1943))
+				store_varc(1943, -1)
+				break
+			case 5:
+				store_varc(1941, load_varc(1944))
+				store_varc(1944, -1)
+				break
+			case 6:
+				store_varc(1941, load_varc(1945))
+				store_varc(1945, -1)
+				break
+			case 7:
+				store_varc(1941, load_varc(1946))
+				store_varc(1946, -1)
+				break
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				store_varc(1942, load_varc(1939))
+				store_varc(1939, -1)
+				break
+			case 1:
+				store_varc(1942, load_varc(1940))
+				store_varc(1940, -1)
+				break
+			case 2:
+				store_varc(1942, load_varc(1941))
+				store_varc(1941, -1)
+				break
+			case 4:
+				store_varc(1942, load_varc(1943))
+				store_varc(1943, -1)
+				break
+			case 5:
+				store_varc(1942, load_varc(1944))
+				store_varc(1944, -1)
+				break
+			case 6:
+				store_varc(1942, load_varc(1945))
+				store_varc(1945, -1)
+				break
+			case 7:
+				store_varc(1942, load_varc(1946))
+				store_varc(1946, -1)
+				break
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				store_varc(1943, load_varc(1939))
+				store_varc(1939, -1)
+				break
+			case 1:
+				store_varc(1943, load_varc(1940))
+				store_varc(1940, -1)
+				break
+			case 2:
+				store_varc(1943, load_varc(1941))
+				store_varc(1941, -1)
+				break
+			case 3:
+				store_varc(1943, load_varc(1942))
+				store_varc(1942, -1)
+				break
+			case 5:
+				store_varc(1943, load_varc(1944))
+				store_varc(1944, -1)
+				break
+			case 6:
+				store_varc(1943, load_varc(1945))
+				store_varc(1945, -1)
+				break
+			case 7:
+				store_varc(1943, load_varc(1946))
+				store_varc(1946, -1)
+				break
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				store_varc(1944, load_varc(1939))
+				store_varc(1939, -1)
+				break
+			case 1:
+				store_varc(1944, load_varc(1940))
+				store_varc(1940, -1)
+				break
+			case 2:
+				store_varc(1944, load_varc(1941))
+				store_varc(1941, -1)
+				break
+			case 3:
+				store_varc(1944, load_varc(1942))
+				store_varc(1942, -1)
+				break
+			case 4:
+				store_varc(1944, load_varc(1943))
+				store_varc(1943, -1)
+				break
+			case 6:
+				store_varc(1944, load_varc(1945))
+				store_varc(1945, -1)
+				break
+			case 7:
+				store_varc(1944, load_varc(1946))
+				store_varc(1946, -1)
+				break
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				store_varc(1945, load_varc(1939))
+				store_varc(1939, -1)
+				break
+			case 1:
+				store_varc(1945, load_varc(1940))
+				store_varc(1940, -1)
+				break
+			case 2:
+				store_varc(1945, load_varc(1941))
+				store_varc(1941, -1)
+				break
+			case 3:
+				store_varc(1945, load_varc(1942))
+				store_varc(1942, -1)
+				break
+			case 4:
+				store_varc(1945, load_varc(1943))
+				store_varc(1943, -1)
+				break
+			case 5:
+				store_varc(1945, load_varc(1944))
+				store_varc(1944, -1)
+				break
+			case 7:
+				store_varc(1945, load_varc(1946))
+				store_varc(1946, -1)
+				break
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				store_varc(1946, load_varc(1939))
+				store_varc(1939, -1)
+				break
+			case 1:
+				store_varc(1946, load_varc(1940))
+				store_varc(1940, -1)
+				break
+			case 2:
+				store_varc(1946, load_varc(1941))
+				store_varc(1941, -1)
+				break
+			case 3:
+				store_varc(1946, load_varc(1942))
+				store_varc(1942, -1)
+				break
+			case 4:
+				store_varc(1946, load_varc(1943))
+				store_varc(1943, -1)
+				break
+			case 5:
+				store_varc(1946, load_varc(1944))
+				store_varc(1944, -1)
+				break
+			case 6:
+				store_varc(1946, load_varc(1945))
+				store_varc(1945, -1)
+				break
+
+		}
+		break
+
+}
+return

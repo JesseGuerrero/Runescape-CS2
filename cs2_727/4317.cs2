@@ -1,0 +1,25 @@
+//script4317(4317)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 0
+if(activeclanchannel_find_affined() == 1) {
+	if(arg1 < 0 || arg1 >= activeclanchannel_getusercount()) {
+		store_varc(1518, -1)
+		store_varc_string(126, "")
+		send_message("That person isn't in your clan channel.")
+		return
+	}
+	if(cc_find(arg1, arg0) == 1)
+		iVar2 = cc_gety()
+	store_varc(1518, arg1)
+	store_varc_string(126, activeclanchannel_getuserdisplayname(arg1))
+	if(instr6004(if_gethash(1110, 20)) == 1) {
+		cc_setsize(0, 0, 19, 1)
+		cc_setposition(0, 2, iVar2, 0)
+		instr6556(script_4629, "i", 1)
+		if_sethide(if_gethash(1110, 13), 0)
+		if_setposition(if_gethash(1110, 13), 0, 2, iVar2, 0)
+	}
+	script_5395()
+} else 
+	send_message("You must be in your clan channel to do that.")
+return

@@ -1,0 +1,6 @@
+//script2379(2379)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg0 != 1)
+	return
+store_varpbit(6099, arg3)
+script_2380(arg1, arg2)
+return

@@ -1,0 +1,3 @@
+//script1964(1964)(int arg0)(void)
+if_settext(arg0, removetags(if_gettext(arg0)))
+return

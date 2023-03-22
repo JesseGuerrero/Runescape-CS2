@@ -1,0 +1,20 @@
+//script5051(5051)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = if_getwidth(if_gethash(1111, 12))
+if(cc_find(3, arg0) == 1)
+	if(arg3 == 1) {
+		if(cc_find(4, arg0) == 1)
+			cc_setposition(0, 1, arg1 + 16, 0)
+		if(cc_find(5, arg0) == 1)
+			cc_setposition(0, 1, ((arg1 + 16) + cc_getheight()) - cc_getheight(), 0)
+		if_setscrollpos(if_gethash(1111, 12), scale(if_getscrollheight(72810508) - iVar4, max(1, (iVar4 - 32) - cc_getheight()), arg1), if_getscrollx(if_gethash(1111, 12)))
+	} else  {
+		if(cc_find(4, arg0) == 1)
+			cc_setposition(1, 0, 0, arg1 + 16)
+		if(cc_find(5, arg0) == 1)
+			cc_setposition(1, 0, 0, ((arg1 + 16) + cc_getwidth()) - cc_getwidth())
+		if_setscrollpos(if_gethash(1111, 12), if_getscrolly(72810508), scale(if_getscrollwidth(if_gethash(1111, 12)) - iVar4, max(1, (iVar4 - 32) - cc_getwidth()), arg1))
+	}
+if(arg2 == 1)
+	script_5053(0, 0)
+return

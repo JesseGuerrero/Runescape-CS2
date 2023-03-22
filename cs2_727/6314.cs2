@@ -1,0 +1,12 @@
+//script6314(6314)(int arg0)(void)
+if(bit_flagged(0, load_varc(841)) == 1) {
+	instr6220(arg0)
+	if_clearscripthooks(arg0)
+	if_setoptionname(arg0, "Back")
+} else  {
+	instr6213(arg0, 1, "Close")
+	instr6239(arg0, script_29, "")
+	if_setoptionname(arg0, "")
+}
+instr6257(arg0, script_6314, "IY", 1, 841, arg0)
+return

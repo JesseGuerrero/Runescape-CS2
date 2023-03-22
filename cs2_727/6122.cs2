@@ -1,0 +1,37 @@
+//script6122(6122)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+if(compare(if_gettext(if_gethash(621, 3)), "") == 0)
+	if_settext(if_gethash(621, 3), to_string(load_varpbit(11074)))
+else
+	if(compare(if_gettext(if_gethash(621, 3)), to_string(load_varpbit(11074))) != 0) {
+		if_settext(if_gethash(621, 2), if_gettext(if_gethash(621, 3)))
+		if_setposition(if_gethash(621, 2), 0, 0, -4, 58)
+		instr6342(if_gethash(621, 2), script_6123, "Iii", -2147483645, 14, 5)
+		if_setposition(if_gethash(621, 3), 0, 0, -22, 58)
+		instr6342(if_gethash(621, 3), script_6123, "Iii", -2147483645, -4, 5)
+		if_settext(if_gethash(621, 3), to_string(load_varpbit(11074)))
+	}
+if(compare(if_gettext(if_gethash(621, 5)), "") == 0)
+	if_settext(if_gethash(621, 5), to_string(load_varpbit(11075)))
+if(compare(if_gettext(if_gethash(621, 5)), to_string(load_varpbit(11075))) != 0) {
+	if_settext(if_gethash(621, 4), if_gettext(if_gethash(621, 5)))
+	if_setposition(if_gethash(621, 4), 0, 0, -4, 394)
+	instr6342(if_gethash(621, 4), script_6123, "Iii", -2147483645, 14, 5)
+	if_setposition(if_gethash(621, 5), 0, 0, -22, 394)
+	instr6342(if_gethash(621, 5), script_6123, "Iii", -2147483645, -4, 5)
+	if_settext(if_gethash(621, 5), to_string(load_varpbit(11075)))
+}
+iVar0 = load_varpbit(11074) - load_varpbit(11075)
+iVar0 = max(0 - 20, min(20, iVar0))
+iVar1 = 16
+iVar2 = 10
+iVar3 = if_getwidth(if_gethash(621, 16)) - ((iVar1 + iVar2) * 2)
+iVar4 = iVar3 / (20 * 2)
+if_setsize(if_gethash(621, 19), 0, 0, if_getheight(if_gethash(621, 19)), iVar2 + (iVar4 * (20 + iVar0)))
+if_setsize(if_gethash(621, 20), 0, 0, if_getheight(if_gethash(621, 20)), iVar2 + (iVar4 * (20 - iVar0)))
+if_setposition(if_gethash(621, 25), 0, 0, if_gety(if_gethash(621, 25)), ((iVar1 + iVar2) + (iVar4 * (20 + iVar0))) - 16)
+return

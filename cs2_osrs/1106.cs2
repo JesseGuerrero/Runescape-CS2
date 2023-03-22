@@ -1,0 +1,30 @@
+void script_1106(Widget widget0, int arg1) {
+	int int2;
+	int2 = 0;
+	if (arg1 <= 60) {
+		if (CHILD.setChild(widget0, 0) == true) {
+			CHILD.setTrans(255 - arg1 * 4);
+		}
+		if (CHILD.setChild(widget0, 1) == true && _CHILD.setChild(widget0, 2) == true) {
+			int2 = 2000 - arg1 * 32;
+			CHILD.set3DRotation(0, 120, 0, 0, 0, int2);
+			_CHILD.set3DRotation(0, 120, 0, 0, 0, int2);
+			CHILD.setModel(7427);
+			_CHILD.setModel(7428);
+		}
+		return;
+	}
+	if (arg1 <= 90) {
+		arg1 = arg1 - 60;
+		if (CHILD.setChild(widget0, 0) == true) {
+			CHILD.setTrans(15 + arg1 * 8);
+		}
+		if (CHILD.setChild(widget0, 1) == true && _CHILD.setChild(widget0, 2) == true) {
+			CHILD.setModel(16238);
+			_CHILD.setModel(16238);
+		}
+		return;
+	}
+	widget0.clearChildren();
+	return;
+}

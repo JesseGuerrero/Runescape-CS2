@@ -1,0 +1,21 @@
+//script6182(6182)(int arg0, int arg1)(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = -1
+while(iVar2 < enum_getoutputcount(5840)) {
+	iVar3 = enum(5840, iVar2, 'i', 'I')
+	if(iVar3 != -1)
+		if(cc_find(1, iVar3) == 1)
+			if(arg1 == iVar2)
+				cc_setgraphic(2289)
+			else
+				cc_setgraphic(2288)
+	iVar2 = iVar2 + 1
+	iVar3 = -1
+}
+iVar4 = enum(5841, arg1, 'i', 'J')
+if(iVar4 == -1)
+	return
+return if_recolour(if_gethash(1273, 24), struct_param(2399, iVar4), 62874, 4), if_recolour(if_gethash(1273, 24), struct_param(2398, iVar4), 62884, 3), if_recolour(if_gethash(1273, 24), struct_param(2397, iVar4), 62894, 2), if_recolour(if_gethash(1273, 24), struct_param(2396, iVar4), 62904, 1), if_recolour(if_gethash(1273, 23), struct_param(2399, iVar4), 62874, 4), if_recolour(if_gethash(1273, 23), struct_param(2398, iVar4), 62884, 3), if_recolour(if_gethash(1273, 23), struct_param(2397, iVar4), 62894, 2), if_recolour(if_gethash(1273, 23), struct_param(2396, iVar4), 62904, 1), if_recolour(if_gethash(1273, 22), struct_param(2399, iVar4), 62874, 4), if_recolour(if_gethash(1273, 22), struct_param(2398, iVar4), 62884, 3), if_recolour(if_gethash(1273, 22), struct_param(2397, iVar4), 62894, 2), if_recolour(if_gethash(1273, 22), struct_param(2396, iVar4), 62904, 1), if_recolour(if_gethash(1273, 21), struct_param(2399, iVar4), 62874, 4), if_recolour(if_gethash(1273, 21), struct_param(2398, iVar4), 62884, 3), if_recolour(if_gethash(1273, 21), struct_param(2397, iVar4), 62894, 2), if_recolour(if_gethash(1273, 21), struct_param(2396, iVar4), 62904, 1)

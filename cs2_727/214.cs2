@@ -1,0 +1,6 @@
+//script214(214)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = if_getlayer(arg0)
+instr6237(iVar2, script_1660, "IiIY", 2, 281, 1255, arg0, arg1, iVar2)
+script_1661(arg0, arg1, iVar2)
+return

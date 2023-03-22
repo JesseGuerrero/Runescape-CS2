@@ -1,0 +1,32 @@
+void script_799(Container container0, string arg1) {
+	int int1;
+	int int2;
+	string str1;
+	widget(237, 1).clearChildren();
+	_ = script_228(widget(237, 1), "Grand Exchange: " + arg1, 0);
+	widget(237, 3).clearChildren();
+	script_31(widget(237, 3), widget(237, 2), 792, 789, 790, 791, 773, 788);
+	widget(237, 4).clearChildren();
+	CHILD.createChild(widget(237, 4), 5, 0);
+	CHILD.setSize(17, 17, 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	str1 = "Column view";
+	int1 = getMaxLineWidth(str1, 512, 495) + 20;
+	widget(237, 4).setSize(int1, 17, 0, 0);
+	_CHILD.createChild(widget(237, 4), 4, 1);
+	_CHILD.setSize(int1, 17, 0, 0);
+	_CHILD.setPosition(0, 0, 0, 0);
+	_CHILD.setRGB(0xFF981F);
+	widget(237, 4).hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget(237, 4).hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+	_CHILD.setFont(495);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(2, 1, 0);
+	_CHILD.setText(str1);
+	int2 = getItemContainerLength(container0);
+	widget(237, 0).hookContainer(&script_800(container0, int2, getChildId()), container0);
+	widget(237, 0).hookVARP(&script_800(container0, int2, getChildId()), 499);
+	widget(237, 4).hookOptionClick(&script_801(CTX_MENU_OPTION, container0, int2, getChildId()));
+	script_802(container0, int2, getChildId());
+	return;
+}

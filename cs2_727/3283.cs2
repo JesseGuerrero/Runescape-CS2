@@ -1,0 +1,19 @@
+//script3283(3283)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+if(arg3 == 0)
+	arg3 = 12
+iVar4 = paramheight(if_gettext(arg1), arg2, if_getwidth(arg1) + 16)
+iVar4 = iVar4 * arg3
+send_message("txt " + to_string(iVar4) + ", layer " + to_string(if_getheight(arg1)))
+if(if_getheight(arg1) >= iVar4) {
+	send_message("No scroll txt " + to_string(iVar4) + ", layer " + to_string(if_getheight(arg1)))
+	if_setsize(arg1, 0, 0, if_getheight(arg1), if_getwidth(arg1) + 16)
+	if_sethide(arg0, 1)
+} else  {
+	iVar4 = paramheight(if_gettext(arg1), arg2, if_getwidth(arg1))
+	iVar4 = iVar4 * arg3
+	if_setscrollsize(arg1, iVar4 + 10, 0)
+	send_message("Scroll txt " + to_string(iVar4) + ", layer " + to_string(if_getheight(arg1)))
+	script_31(arg0, arg1, 792, 789, 790, 791, 773, 788)
+}
+return

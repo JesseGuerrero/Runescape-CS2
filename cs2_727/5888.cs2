@@ -1,0 +1,6 @@
+//script5888(5888)(int arg0, int arg1)(int)
+int iVar2
+iVar2 = arg0 + arg1
+iVar2 = modulo(360, iVar2)
+return iVar2
+return 0

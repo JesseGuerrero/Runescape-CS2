@@ -1,0 +1,26 @@
+//script278(278)(int arg0)(string)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return "Standard"
+
+	case 3:
+		return "Large"
+
+	case 2:
+		return "Slim"
+
+	case 6:
+		return "Double"
+
+	case 5:
+		return "Wood"
+
+	case 4:
+		return "Bone"
+
+
+}
+return "Unknown hook"
+return ""

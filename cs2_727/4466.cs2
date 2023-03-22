@@ -1,0 +1,40 @@
+//script4466(4466)(string arg0)(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar0 = activeclanchannel_getuserslot(arg0)
+if(iVar0 >= 0) {
+	if(iVar0 == -1)
+		return
+	iVar1 = activeclanchannel_getuserrank(iVar0)
+	iVar2 = activeclanchannel_getuserslot(removetags(instr6574()))
+	if(iVar2 >= 0) {
+		if(iVar2 == iVar0) {
+			mes_typed(0, 43, "You cannot temporarily ban yourself.")
+			return
+		}
+		iVar3 = activeclanchannel_getuserrank(iVar2)
+		if(iVar2 == -1)
+			return
+		if(iVar3 >= activeclanchannel_getrankkick())
+			if(iVar1 > -1) {
+				mes_typed(0, 43, "You can only temporarily ban guests.")
+				mes_typed(0, 43, "A clan admin can remove your clanmate.")
+			} else 
+				if(iVar3 > iVar1) {
+					activeclanchannel_kickuser(activeclanchannel_getuserslot(arg0))
+					set_chat_type(2)
+					send_public_chat("[Attempting to kick/ban user from this channel.]")
+				} else 
+					mes_typed(0, 43, "You can only kick people with a lower rank than yourself.")
+		else
+			mes_typed(0, 43, "You do not have sufficient rank to kick.")
+	}
+} else 
+	mes_typed(0, 43, "Could not find that guest to kick from your Clan Chat.")
+return

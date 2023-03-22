@@ -1,0 +1,16 @@
+void script_587(Widget widget0, Widget widget1) {
+	int int2;
+	VARC[59] = -2147483648;
+	widget0.clearChildren();
+	int2 = script_575(widget0, 0);
+	CHILD.createChild(widget0, 4, int2);
+	CHILD.setPosition(5, 0, 0, 0);
+	CHILD.setSize(widget0.getWidth() - 10, widget0.getHeight(), 0, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFF981F);
+	script_590(widget0, getChildId(), widget1, -1);
+	widget1.hookOptionClick(&script_588(CTX_MENU_OPTION, widget0, getChildId(), widget1));
+	return;
+}

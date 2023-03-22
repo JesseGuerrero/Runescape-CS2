@@ -1,0 +1,44 @@
+//script3462(3462)(int arg0, int arg1, int arg2, int arg3)(void)
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 21:
+		if_sethide(arg1, 1)
+		cc_deleteall(arg0)
+		script_2766(0, 75, arg0)
+		break
+	case 22:
+		if_sethide(arg1, 0)
+		cc_deleteall(arg1)
+		script_1088(arg1, 0)
+		cc_deleteall(arg2)
+		cc_create(0, 6, arg2)
+		cc_setsize(0, 1, 85, 0)
+		cc_setposition(0, 1, 0, 0)
+		cc_setplayermodel_self()
+		cc_setmodelangle(850, 0, 0, 0, 30, 0)
+		cc_setmodelanim(14230)
+		instr6556(script_3464, "Ii", -2147483645, -2147483643)
+		script_2647(arg2)
+		if_setsize(arg2, 0, 0, (paramheight(if_gettext(arg3), 494, if_getwidth(arg3)) * 10) + 75, if_getwidth(arg2))
+		instr6675(100, 1000, 1500, movecoord(-3, 0, 0, coord()))
+		instr6162(100, 1000, 0, coord())
+		script_2768(75, arg0)
+		instr6342(arg0, script_3463, "Ic", -2147483645, coord())
+		break
+	case 23:
+		instr6342(arg0, None, "")
+		script_2766(0, 25, arg0)
+		break
+	case 24:
+		instr6236()
+		cc_deleteall(arg1)
+		cc_deleteall(arg2)
+		if_sethide(arg1, 1)
+		script_2768(25, arg0)
+		if_sethide(arg1, 1)
+		instr6236()
+		break
+
+}
+return

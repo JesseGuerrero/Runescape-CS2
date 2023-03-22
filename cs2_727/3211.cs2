@@ -1,0 +1,9 @@
+//script3211(3211)()(void)
+if(instr6644() < 2) {
+	if_setposition(if_gethash(673, 32), 1, 1, 25, -85)
+	if_setposition(if_gethash(673, 37), 1, 1, 25, -85)
+} else  {
+	if_setposition(if_gethash(673, 32), 1, 1, 0, -85)
+	if_setposition(if_gethash(673, 37), 1, 1, 0, -85)
+}
+return

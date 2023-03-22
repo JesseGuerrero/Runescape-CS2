@@ -1,0 +1,19 @@
+void script_7(Widget widget0, int arg1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	int5 = 0;
+	widget3.setIsHidden(true);
+	widget4.setIsHidden(true);
+	while (CHILD.setChild(widget0, int5) == true) {
+		if (int5 == VARPBIT[2459]) {
+			CHILD.setOutlineThickness(2);
+			widget3.setText(datamap('i', 's', 1383, VARPBIT[2459]));
+			widget3.setIsHidden(false);
+			widget4.setIsHidden(false);
+		} else {
+			CHILD.setOutlineThickness(0);
+		}
+		widget2.setText(script_8());
+		int5 = int5 + 1;
+	}
+	return;
+}

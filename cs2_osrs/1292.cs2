@@ -1,0 +1,73 @@
+void script_1292(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19) {
+	widget1.setText("Lumbridge Graveyard");
+	widget3.setText("Draynor Manor");
+	widget5.setText("Mind Altar");
+	widget7.setText("Salve Graveyard");
+	widget9.setText("Fenkenstrain's Castle");
+	widget11.setText("West Ardougne");
+	widget13.setText("Harmony Island");
+	widget15.setText("Wilderness Cemetery");
+	widget17.setText("Barrows");
+	widget19.setText("Ape Atoll");
+	widget0.setItemOnWidgetMethod2205(19613, 0);
+	widget2.setItemOnWidgetMethod2205(19615, 0);
+	widget4.setItemOnWidgetMethod2205(19617, 0);
+	widget6.setItemOnWidgetMethod2205(19619, 0);
+	widget8.setItemOnWidgetMethod2205(19621, 0);
+	widget10.setItemOnWidgetMethod2205(19623, 0);
+	widget12.setItemOnWidgetMethod2205(19625, 0);
+	widget14.setItemOnWidgetMethod2205(19627, 0);
+	widget16.setItemOnWidgetMethod2205(19629, 0);
+	widget18.setItemOnWidgetMethod2205(19631, 0);
+	if (script_1293(0, 0, 2, 0, 563, 1, null, 0, null, 0, 6) == 1) {
+		widget1.setRGB(0xFF981F);
+	} else {
+		widget1.setRGB(0xC80000);
+	}
+	if (script_1293(0, 1, 1, 0, 563, 1, null, 0, null, 0, 17) == 1) {
+		widget3.setRGB(0xFF981F);
+	} else {
+		widget3.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 0, 0, 563, 1, 558, 2, null, 0, 28) == 1) {
+		widget5.setRGB(0xFF981F);
+	} else {
+		widget5.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 0, 0, 563, 1, 566, 2, null, 0, 40) == 1) {
+		widget7.setRGB(0xFF981F);
+	} else {
+		widget7.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 1, 0, 563, 1, 566, 1, null, 0, 48) == 1) {
+		widget9.setRGB(0xFF981F);
+	} else {
+		widget9.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 0, 0, 563, 2, 566, 2, null, 0, 61) == 1) {
+		widget11.setRGB(0xFF981F);
+	} else {
+		widget11.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 0, 0, 563, 1, 566, 1, 561, 1, 65) == 1) {
+		widget13.setRGB(0xFF981F);
+	} else {
+		widget13.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 0, 0, 563, 1, 566, 1, 565, 1, 71) == 1) {
+		widget15.setRGB(0xFF981F);
+	} else {
+		widget15.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 0, 0, 563, 2, 566, 2, 565, 1, 83) == 1) {
+		widget17.setRGB(0xFF981F);
+	} else {
+		widget17.setRGB(0xC80000);
+	}
+	if (script_1293(0, 0, 0, 0, 563, 2, 566, 2, 565, 2, 90) == 1) {
+		widget19.setRGB(0xFF981F);
+	} else {
+		widget19.setRGB(0xC80000);
+	}
+	return;
+}

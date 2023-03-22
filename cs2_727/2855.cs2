@@ -1,0 +1,6 @@
+//script2855(2855)()(void)
+if(script_2869(movecoord(-1, 0, 0, load_varc(1070))) == 1)
+	return
+if(script_2866(coord(), movecoord(-1, 0, 0, load_varc(1070))) < 31)
+	store_varc(1070, movecoord(-1, 0, 0, load_varc(1070)))
+return

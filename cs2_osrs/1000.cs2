@@ -1,0 +1,60 @@
+int script_1000(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int5 = arg2 - arg1;
+	int6 = arg3 - arg1;
+	int7 = 0;
+	int8 = 0;
+	int9 = 0;
+	int10 = 0;
+	if (int5 >= int6) {
+		widget0.setSize(0, 0, 1, 1);
+		if (arg4 == 1) {
+			int8, int9 = 255, 210;
+		} else {
+			int8, int9 = 0, 150;
+		}
+		int10 = 1000;
+	} else if (int5 <= 0) {
+		widget0.setSize(0, 0, 0, 1);
+		int8, int9 = 150, 0;
+	} else if (int6 <= 0) {
+		widget0.setSize(0, 0, 1, 1);
+		int8, int9 = 150, 0;
+	} else if (int6 < 2) {
+		widget0.setSize(0, 0, 0, 1);
+		int8, int9 = 150, 0;
+	} else {
+		if (int6 > 1000000000) {
+			int5, int6 = int5 / 100000, int6 / 100000;
+		} else if (int6 > 100000000) {
+			int5, int6 = int5 / 10000, int6 / 10000;
+		} else if (int6 > 10000000) {
+			int5, int6 = int5 / 1000, int6 / 1000;
+		} else if (int6 > 1000000) {
+			int5, int6 = int5 / 100, int6 / 100;
+		} else if (int6 > 100000) {
+			int5, int6 = int5 / 10, int6 / 10;
+		}
+		if (int5 >= int6) {
+			int6 = int5 + 1;
+		}
+		widget0.setSize(mathMethod4006(0, int5, 0, int6, 16384), 0, 2, 1);
+		int7 = int6 / 2;
+		if (int7 <= 0) {
+			int7 = 1;
+		}
+		if (int5 <= int7) {
+			int8, int9 = 150, mathMethod4006(0, int5, 0, int7, 150);
+		} else {
+			int8, int9 = 150 - mathMethod4006(0, int5 - int7, 0, int7, 150), 150;
+		}
+		int10 = mathMethod4006(0, int5, 0, int6, 1000);
+	}
+	widget0.setRGB(script_246(int8, int9, 0));
+	return int10;
+}

@@ -1,0 +1,10 @@
+void script_1114(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4) {
+	if (arg0 != 1 || arg1 < 0 || arg1 > 5) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	VARPBIT[4776] = arg1;
+	VARC[77] = 0;
+	script_1116(widget2, widget3, widget4);
+	return;
+}

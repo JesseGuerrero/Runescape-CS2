@@ -1,0 +1,7 @@
+//script4613(4613)(int arg0)(int, int, int, int)
+if(load_varpbit(9254) == 0)
+	if(load_varpbit(9255) == 0)
+		if(load_varpbit(9256) == 0)
+			if(load_varpbit(9257) == 0)
+				return
+return if_recolour(arg0, load_varpbit(9257), 62995, 4), if_recolour(arg0, load_varpbit(9256), 65186, 3), if_recolour(arg0, load_varpbit(9255), 65200, 1), if_recolour(arg0, load_varpbit(9254), 65214, 0)

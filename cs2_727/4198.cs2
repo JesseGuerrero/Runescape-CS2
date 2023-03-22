@@ -1,0 +1,4 @@
+//script4198(4198)(int arg0)(void)
+if_sethide(if_gethash(891, 65), 1)
+if_setgraphic(arg0, 5411)
+return

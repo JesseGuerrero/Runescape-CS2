@@ -1,0 +1,85 @@
+//script4725(4725)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+iVar0 = 20316177
+iVar1 = 20316179
+iVar2 = 20316171
+iVar3 = 20316172
+iVar4 = 20316174
+iVar5 = 20316173
+iVar6 = 20316178
+sVar0 = ""
+cc_deleteall(iVar2)
+cc_deleteall(iVar5)
+iVar7 = 15
+iVar8 = 1
+iVar9 = 0
+iVar10 = -1
+iVar11 = -1
+while(iVar8 <= 15) {
+	iVar9 = if_getnextsubid(iVar2)
+	cc_create(iVar9, 4, iVar2)
+	cc_setsize(0, 1, iVar7, 5)
+	cc_setposition(0, 0, iVar9 * iVar7, 5)
+	cc_settext(script_5329(iVar8))
+	cc_settextfont(3793)
+	cc_setcolor(beb28c)
+	cc_settextshadow(1)
+	cc_settextalign(0, 1, 0)
+	iVar10 = 7715
+	iVar11 = 7716
+	cc_create(iVar9, 5, iVar5)
+	cc_setgraphic(iVar10)
+	cc_setop("Target", 1)
+	cc_setsize(0, 0, 13, 12)
+	cc_setposition(0, 2, 1 + (iVar9 * iVar7), 18)
+	instr6091(script_5336, "Iid", -2147483645, -2147483643, iVar11)
+	instr6092(script_5336, "Iid", -2147483645, -2147483643, iVar10)
+	cc_setuseop("Add Actor")
+	instr6218(-1, 176)
+	cc_create(if_getnextsubid(iVar6), 3, iVar6)
+	cc_setsize(0, 0, 13, 12)
+	cc_setposition(0, 2, 1 + (iVar9 * iVar7), 18)
+	sVar0 = "Add someone to the actor list. Click this, then click on the person you would like to add."
+	cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(310, 26), -2147483645, -2147483643, sVar0, 90, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+	instr6092(script_40, "I", if_gethash(310, 26))
+	iVar10 = 7718
+	iVar11 = 7719
+	cc_create(iVar9, 5, iVar4)
+	cc_setgraphic(iVar10)
+	cc_setop("Remove", 1)
+	cc_setsize(0, 0, 13, 12)
+	cc_setposition(0, 2, 1 + (iVar9 * iVar7), 3)
+	instr6091(script_5336, "Iid", -2147483645, -2147483643, iVar11)
+	instr6092(script_5336, "Iid", -2147483645, -2147483643, iVar10)
+	cc_create(if_getnextsubid(iVar6), 3, iVar6)
+	cc_setsize(0, 0, 13, 12)
+	cc_setposition(0, 2, 1 + (iVar9 * iVar7), 3)
+	sVar0 = "Add someone to the actor list. Click this, then click on the person you would like to add."
+	sVar0 = "Remove this person from the actor list."
+	cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(310, 26), -2147483645, -2147483643, sVar0, 90, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+	instr6092(script_40, "I", if_gethash(310, 26))
+	iVar8 = iVar8 + 1
+}
+if(load_varc(1606) == 0) {
+	iVar10 = 6009
+	iVar11 = 6010
+} else  {
+	iVar10 = 6004
+	iVar11 = 6005
+}
+if_setgraphic(if_gethash(310, 20), iVar10)
+hook_mouse_enter(if_gethash(310, 20), script_44, "Id", -2147483645, iVar11)
+hook_mouse_exit(if_gethash(310, 20), script_44, "Id", -2147483645, iVar10)
+return

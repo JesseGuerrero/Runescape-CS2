@@ -1,0 +1,13 @@
+//script1210(1210)(int arg0, int arg1, int arg2, int arg3)(int)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = modulo(arg1, (client_clock() + arg3) - arg2)
+iVar5 = arg1 / 2
+iVar6 = iVar5 - iVar4
+if(iVar6 == 0)
+	return arg0
+if(iVar6 > 0)
+	return arg0 - scale(arg0, iVar5, iVar6)
+return arg0 + scale(arg0, iVar5, iVar6)
+return 0

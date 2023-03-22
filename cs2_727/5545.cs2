@@ -1,0 +1,134 @@
+//script5545(5545)()(int)
+int iVar0
+int iVar1
+int iVar2
+cc_deleteall(if_gethash(1178, 78))
+iVar0 = 0
+iVar1 = 7
+iVar2 = 14
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 1)))
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 1)), if_getwidth(if_gethash(1178, 1)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 8)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 1)) + iVar1)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 9)), if_getwidth(if_gethash(1178, 9)))
+cc_settrans(if_gettrans(if_gethash(1178, 9)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 9)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 1)) + iVar2)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 10)), if_getwidth(if_gethash(1178, 10)))
+cc_settrans(if_gettrans(if_gethash(1178, 10)))
+cc_setitem(-1, if_getcontaineritemid(if_gethash(1178, 10)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 2)))
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 11)), if_getwidth(if_gethash(1178, 11)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 11)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 2)) + iVar1)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 12)), if_getwidth(if_gethash(1178, 12)))
+cc_settrans(if_gettrans(if_gethash(1178, 12)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 12)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 2)) + iVar2)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 13)), if_getwidth(if_gethash(1178, 13)))
+cc_settrans(if_gettrans(if_gethash(1178, 13)))
+cc_setitem(-1, if_getcontaineritemid(if_gethash(1178, 13)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 3)))
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 3)), if_getwidth(if_gethash(1178, 3)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 14)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 3)) + iVar1)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 15)), if_getwidth(if_gethash(1178, 15)))
+cc_settrans(if_gettrans(if_gethash(1178, 15)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 15)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 3)) + iVar2)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 16)), if_getwidth(if_gethash(1178, 16)))
+cc_settrans(if_gettrans(if_gethash(1178, 16)))
+cc_setitem(-1, if_getcontaineritemid(if_gethash(1178, 16)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 4)))
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 4)), if_getwidth(if_gethash(1178, 4)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 17)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 4)) + iVar1)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 18)), if_getwidth(if_gethash(1178, 18)))
+cc_settrans(if_gettrans(if_gethash(1178, 18)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 18)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 4)) + iVar2)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 19)), if_getwidth(if_gethash(1178, 19)))
+cc_settrans(if_gettrans(if_gethash(1178, 19)))
+cc_setitem(-1, if_getcontaineritemid(if_gethash(1178, 19)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 5)))
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 5)), if_getwidth(if_gethash(1178, 5)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 20)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 5)) + iVar1)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 21)), if_getwidth(if_gethash(1178, 21)))
+cc_settrans(if_gettrans(if_gethash(1178, 21)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 21)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 5)) + iVar2)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 22)), if_getwidth(if_gethash(1178, 22)))
+cc_settrans(if_gettrans(if_gethash(1178, 22)))
+cc_setitem(-1, if_getcontaineritemid(if_gethash(1178, 22)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 6)))
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 6)), if_getwidth(if_gethash(1178, 6)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 23)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 6)) + iVar1)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 24)), if_getwidth(if_gethash(1178, 24)))
+cc_settrans(if_gettrans(if_gethash(1178, 24)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 24)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 6)) + iVar2)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 25)), if_getwidth(if_gethash(1178, 25)))
+cc_settrans(if_gettrans(if_gethash(1178, 25)))
+cc_setitem(-1, if_getcontaineritemid(if_gethash(1178, 25)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 7)))
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 7)), if_getwidth(if_gethash(1178, 7)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 26)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 7)) + iVar1)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 27)), if_getwidth(if_gethash(1178, 27)))
+cc_settrans(if_gettrans(if_gethash(1178, 27)))
+cc_setgraphic(if_getspriteid(if_gethash(1178, 27)))
+iVar0 = iVar0 + 1
+cc_create(iVar0, 5, 77201486)
+cc_setposition(1, 0, 0, if_getx(if_gethash(1178, 7)) + iVar2)
+cc_setsize(0, 0, if_getheight(if_gethash(1178, 28)), if_getwidth(if_gethash(1178, 28)))
+cc_settrans(if_gettrans(if_gethash(1178, 28)))
+cc_setitem(-1, if_getcontaineritemid(if_gethash(1178, 28)))
+iVar0 = iVar0 + 1
+if_sethide(if_gethash(1178, 55), 1)
+if_sethide(if_gethash(1178, 30), 1)
+script_6069()
+script_5537()
+script_5539()
+return iVar0
+return 0

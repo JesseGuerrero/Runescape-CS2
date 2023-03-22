@@ -1,0 +1,35 @@
+//script4421(4421)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, long arg10)(void)
+int iVar10
+string sVar0
+iVar10 = enum(3689, arg6, 'i', 'g')
+sVar0 = ""
+if(arg2 >= instr6797())
+	if(arg5 > 0)
+		if(arg4 > 0)
+			if(arg6 > 0) {
+				sVar0 = fromdate(arg2) + "<br>" + enum(3695, arg3, 'i', 's')
+				if(load_clan_setting_varbit(5) == 0)
+					sVar0 = sVar0 + " Game time:"
+				else
+					sVar0 = sVar0 + " Clan time:"
+				if(arg5 > 0)
+					sVar0 = sVar0 + "<br>" + "World " + to_string(arg5)
+				sVar0 = sVar0 + "<br>" + enum(3696, arg4, 'i', 's')
+				if_settext(arg0, sVar0)
+				sVar0 = enum(3687, arg6, 'i', 's')
+				if(iVar10 != -1)
+					if(arg7 > 0)
+						sVar0 = sVar0 + "<br>" + enum(iVar10, arg7, 'i', 's')
+				sVar0 = sVar0 + "<br>" + "Open to: " + enum(3716, arg8, 'i', 's')
+				if(arg9 == 1)
+					sVar0 = sVar0 + "<br>" + "Attendance is mandatory."
+				if_settext(arg1, sVar0)
+				if(arg0 != -2L) {
+					if_sethide(if_gethash(1107, 136), 0)
+					instr6239(if_gethash(1107, 136), script_4330, "§", arg0)
+				} else  {
+					hook_mouse_press(if_gethash(1107, 136), None, "")
+					if_sethide(if_gethash(1107, 52), 1)
+				}
+			}
+return

@@ -1,0 +1,40 @@
+//script21(21)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12)(void)
+if(stat(6) < arg3)
+	if(arg4 == 0 || stat_base(6) < arg3)
+		if(load_varpbit(9071) == 0 || arg0 != 28180504 || arg0 != 28180507 || arg0 != 28180513 || arg0 != 28180525 || arg0 != 28180522)
+			if(load_varpbit(4089) == 1)
+				if(load_varp(1092) < arg3 || enum(1061, arg0, 'I', 'i') == 0) {
+					if_setgraphic(arg0, arg2)
+					return
+				}
+			else {
+				if_setgraphic(arg0, arg2)
+				return
+			}
+if(arg5 != -1)
+	if(script_19(arg5, arg0) < arg6) {
+		if_setgraphic(arg0, arg2)
+		return
+	}
+if(arg7 != -1)
+	if(script_19(arg7, arg0) < arg8) {
+		if_setgraphic(arg0, arg2)
+		return
+	}
+if(arg9 != -1)
+	if(script_19(arg9, arg0) < arg10) {
+		if_setgraphic(arg0, arg2)
+		return
+	}
+if(arg11 != -1)
+	if(script_19(arg11, arg0) < arg12) {
+		if_setgraphic(arg0, arg2)
+		return
+	}
+if(arg0 == 12582939)
+	if(world_members() == 0) {
+		if_setgraphic(arg0, arg2)
+		return
+	}
+if_setgraphic(arg0, arg1)
+return

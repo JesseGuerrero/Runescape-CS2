@@ -1,0 +1,33 @@
+void script_1339(Widget widget0) {
+	int int1;
+	int int2;
+	int int3;
+	Item item4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int1 = 0;
+	int2 = widget0.getWidth();
+	int3 = 0;
+	item4 = null;
+	int5 = 8;
+	int6 = 5;
+	int7 = (int2 - 36 * int6) / (int6 + 1);
+	int8 = (widget0.getHeight() - 32 * int6 - int5) / (int6 + 1);
+	widget0.clearChildren();
+	while (int1 < 25) {
+		if (isBitFlagged(VARP[1356], int1) == true) {
+			item4 = 20356;
+		} else {
+			item4 = 20357;
+		}
+		CHILD.createChild(widget0, 5, int1);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int7 + int1 % int6 * (36 + int7) + 1, int5 + int1 / int6 * (32 + int8), 0, 0);
+		CHILD.setItemNoNum(item4, 0);
+		CHILD.setOutlineThickness(1);
+		int1 = int1 + 1;
+	}
+	return;
+}

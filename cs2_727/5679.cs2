@@ -1,0 +1,6 @@
+//script5679(5679)(int arg0, int arg1)(void)
+if(if_gethide(arg1) == 1) {
+	instr6342(arg0, None, "")
+	if_sethide(arg0, 1)
+}
+return

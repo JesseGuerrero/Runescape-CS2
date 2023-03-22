@@ -1,0 +1,20 @@
+//script5076(5076)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+if(cc_find(arg1, arg0) == 1)
+	if(cc_ishidden() == 1) {
+		iVar2 = (if_getscrollwidth(if_gethash(1111, 12)) - if_getwidth(if_gethash(1111, 12))) / 2
+		iVar3 = iVar2
+	} else  {
+		iVar2 = (cc_getx() + (cc_getwidth() / 2)) - (if_getwidth(if_gethash(1111, 12)) / 2)
+		iVar3 = (cc_gety() + (cc_getheight() / 2)) - (if_getheight(if_gethash(1111, 12)) / 2)
+	}
+else {
+	iVar2 = (if_getscrollwidth(if_gethash(1111, 12)) - if_getwidth(if_gethash(1111, 12))) / 2
+	iVar3 = iVar2
+}
+if_setscrollpos(if_gethash(1111, 12), iVar3, iVar2)
+script_5053(0, 0)
+return

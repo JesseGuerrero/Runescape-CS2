@@ -1,0 +1,103 @@
+void script_1664(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, int arg5) {
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	string str0;
+	string str1;
+	script_1695(0, widget0, widget1, widget2, widget3, widget4, arg5);
+	widget3.hookFrame(&script_1694(getClientCycle() + 8, widget0, widget1, widget2, widget3, widget4, widget(arg5)));
+	widget3.clearChildren();
+	int6 = widget0.getWidth();
+	int7 = 0;
+	int8 = 0;
+	int9 = 0;
+	int10 = 0;
+	str0 = "";
+	str1 = "";
+	int11 = 0;
+	int12 = 0;
+	int13 = 0;
+	int14 = getFriendCount();
+	if (int14 <= -2) {
+		CHILD.createChild(widget3, 4, 0);
+		CHILD.setPosition(0, 0, 0, 1);
+		CHILD.setSize(int6, 16384 / 2, 0, 2);
+		CHILD.setRGB(0xFFFF64);
+		CHILD.setFont(496);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText("Loading friend list" + "<br>" + "Please wait");
+	} else if (int14 == -1) {
+		CHILD.createChild(widget3, 4, 0);
+		CHILD.setPosition(0, 0, 0, 1);
+		CHILD.setSize(int6, 16384 / 2, 0, 2);
+		CHILD.setRGB(0xFFFF64);
+		CHILD.setFont(496);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText("Connecting to server" + "<br>" + "Please wait");
+	} else {
+		int9, int7, int8, int13 = widget3.getWidth(), int6 - 5, widget1.getWidth() - 5, int14 * 15 + 5;
+		while (int12 < int14) {
+			int10 = int12 * 5;
+			str0, str1 = getFriendName(int12);
+			CHILD.createChild(widget3, 3, int10);
+			CHILD.setSize(0, int13, 1, 0);
+			CHILD.setPosition(0, 0, 1, 0);
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setFilled(true);
+			CHILD.setTrans(255);
+			CHILD.setOptionBase("<col=ff9040>" + str0 + "</col>");
+			CHILD.hookFrame(&script_1693(getClientCycle() + int12 / 50, widget3, int10, int12, int14, int9, VARC[186]));
+			CHILD.createChild(widget3, 4, int10 + 1);
+			CHILD.setSize(int7, 15, 0, 0);
+			CHILD.setRGB(0xFFFF64);
+			CHILD.setFont(496);
+			CHILD.setTextAlignment(0, 0, 0);
+			CHILD.setTextAntiMacro(true);
+			CHILD.setText(str0);
+			CHILD.setHidden(true);
+			_CHILD.createChild(widget3, 5, int10 + 2);
+			_CHILD.setSize(14, 14, 0, 0);
+			_CHILD.setSprite(1093);
+			_CHILD.setShadowColor(0x333333);
+			if (length(str1) > 0) {
+				str1 = "Previous name:" + "<br>" + str1;
+				CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg5), str1, 25, int9));
+				CHILD.hookMouseExit(&script_40(widget(arg5)));
+				_CHILD.setTrans(0);
+			} else {
+				CHILD.hookMouseEnter(&script_40(widget(arg5)));
+				_CHILD.setTrans(255);
+			}
+			_CHILD.setHidden(true);
+			CHILD.createChild(widget3, 4, int10 + 3);
+			int11 = getFriendRank(int12);
+			CHILD.setSize(int8, 15, 0, 0);
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setTextAntiMacro(true);
+			CHILD.setTextAlignment(0, 0, 0);
+			CHILD.setFont(496);
+			CHILD.setHidden(true);
+			_CHILD.createChild(widget3, 4, int10 + 4);
+			_CHILD.setSize(0, 0, 0, 0);
+			_CHILD.setHidden(true);
+			script_1668(int11, int12);
+			int12 = int12 + 1;
+		}
+	}
+	if (int13 > widget3.getHeight()) {
+		widget3.setScrollMax(0, int13);
+		script_72(widget4, widget3, getScrollY(widget3));
+	} else {
+		widget3.setScrollMax(0, 0);
+		script_72(widget4, widget3, 0);
+	}
+	return;
+}

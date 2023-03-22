@@ -1,0 +1,24 @@
+//script2128(2128)(int arg0, int arg1)(void)
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		if_setmodel(arg0, 16036)
+		if_setmodelangle(arg0, 800, script_686(load_varc(682), 2048), load_varc(681), script_686(load_varc(680), 2048), 0, 0)
+		break
+	case 2:
+		if_setmodel(arg0, 16025)
+		if_setmodelangle(arg0, 800, script_686(load_varc(685), 2048), load_varc(684), script_686(load_varc(683), 2048), 17, 0)
+		break
+	case 3:
+		if_setmodel(arg0, 16022)
+		if_setmodelangle(arg0, 800, script_686(load_varc(688), 2048), load_varc(687), script_686(load_varc(686), 2048), 0, 0)
+		break
+	case 4:
+		if_setmodel(arg0, 16034)
+		if_setmodelangle(arg0, 800, script_686(load_varc(691), 2048), load_varc(690), script_686(load_varc(689), 2048), 0, 0)
+		if_setmodel(arg0, -1)
+		break
+
+}
+return

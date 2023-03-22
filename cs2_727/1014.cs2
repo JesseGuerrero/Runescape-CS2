@@ -1,0 +1,449 @@
+//script1014(1014)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1942, 1, "You can now plant " + "<col=000080>" + "potatoes" + "</col>" + ".", "Potato"
+
+			case 1:
+				return 1957, 5, "You can now plant " + "<col=000080>" + "onions" + "</col>" + ".", "Onion"
+
+			case 2:
+				return 1965, 7, "You can now plant " + "<col=000080>" + "cabbages" + "</col>" + ".", "Cabbage"
+
+			case 3:
+				return 1982, 12, "You can now plant " + "<col=000080>" + "tomatoes" + "</col>" + ".", "Tomato"
+
+			case 4:
+				return 5986, 20, "You can now plant " + "<col=000080>" + "sweetcorn" + "</col>" + ".", "Sweetcorn"
+
+			case 5:
+				return 5504, 31, "You can now plant " + "<col=000080>" + "strawberries" + "</col>" + ".", "Strawberry"
+
+			case 6:
+				return 5982, 47, "You can now plant " + "<col=000080>" + "watermelons" + "</col>" + ".", "Watermelon"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 6006, 3, "You can now plant " + "<col=000080>" + "barley" + "</col>" + ".", "Barley"
+
+			case 1:
+				return 5994, 4, "You can now plant " + "<col=000080>" + "hammerstone hops" + "</col>" + ".", "Hammerstone hop"
+
+			case 2:
+				return 5996, 8, "You can now plant " + "<col=000080>" + "Asgarnian hops" + "</col>" + ".", "Asgarnian hop"
+
+			case 3:
+				return 5931, 13, "You can now plant " + "<col=000080>" + "jute plants" + "</col>" + ".", "Jute plant"
+
+			case 4:
+				return 5998, 16, "You can now plant " + "<col=000080>" + "Yanillian hops" + "</col>" + ".", "Yanillian hop"
+
+			case 5:
+				return 6000, 21, "You can now plant " + "<col=000080>" + "Krandorian hops" + "</col>" + ".", "Krandorian hop"
+
+			case 6:
+				return 6002, 28, "You can now plant " + "<col=000080>" + "wildblood hops" + "</col>" + ".", "Wildblood hop"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1521, 15, "You can now plant " + "<col=000080>" + "oak trees" + "</col>" + ".", "Oak tree"
+
+			case 1:
+				return 1519, 30, "You can now plant " + "<col=000080>" + "willow trees" + "</col>" + ".", "Willow tree"
+
+			case 2:
+				return 1517, 45, "You can now plant " + "<col=000080>" + "maple trees" + "</col>" + ".", "Maple tree"
+
+			case 3:
+				return 1515, 60, "You can now plant " + "<col=000080>" + "yew trees" + "</col>" + ".", "Yew tree"
+
+			case 4:
+				return 1513, 75, "You can now plant " + "<col=000080>" + "magic trees" + "</col>" + ".", "Magic tree"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1955, 27, "You can now plant " + "<col=000080>" + "apple trees" + "</col>" + ".", "Apple tree"
+
+			case 1:
+				return 1963, 33, "You can now plant " + "<col=000080>" + "banana trees" + "</col>" + ".", "Banana tree"
+
+			case 2:
+				return 2108, 39, "You can now plant " + "<col=000080>" + "orange trees" + "</col>" + ".", "Orange tree"
+
+			case 3:
+				return 5970, 42, "You can now plant " + "<col=000080>" + "curry trees" + "</col>" + ".", "Curry tree"
+
+			case 4:
+				return 2114, 51, "You can now plant " + "<col=000080>" + "pineapple plants" + "</col>" + ".", "Pineapple plant"
+
+			case 5:
+				return 5972, 57, "You can now plant " + "<col=000080>" + "papaya trees" + "</col>" + ".", "Papaya tree"
+
+			case 6:
+				return 5974, 68, "You can now plant " + "<col=000080>" + "palm trees" + "</col>" + ".", "Palm tree"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1951, 10, "You can now plant " + "<col=000080>" + "redberry bushes" + "</col>" + ".", "Redberry bush"
+
+			case 1:
+				return 753, 22, "You can now plant " + "<col=000080>" + "cadavaberry bushes" + "</col>" + ".", "Cadavaberry bush"
+
+			case 2:
+				return 2126, 36, "You can now plant " + "<col=000080>" + "dwellberry bushes" + "</col>" + ".", "Dwellberry bush"
+
+			case 3:
+				return 247, 48, "You can now plant " + "<col=000080>" + "jangerberry bushes" + "</col>" + ".", "Jangerberry bush"
+
+			case 4:
+				return 239, 59, "You can now plant " + "<col=000080>" + "white berry bushes" + "</col>" + ".", "White berry bush"
+
+			case 5:
+				return 6018, 70, "You can now plant " + "<col=000080>" + "poison ivy bushes" + "</col>" + ".", "Poison ivy bush"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 6010, 2, "You can now " + "<col=000080>" + "plant marigolds" + "</col>" + ".", "Marigold" + "<br>" + " Protects onions, tomatoes and potatoes from disease"
+
+			case 1:
+				return 6014, 11, "You can now plant " + "<col=000080>" + "rosemary" + "</col>" + ".", "Rosemary" + "<br>" + " Protects cabbages from disease"
+
+			case 2:
+				return 6012, 24, "You can now plant " + "<col=000080>" + "nasturtiums" + "</col>" + ".", "Nasturtium" + "<br>" + " Protects watermelons from disease"
+
+			case 3:
+				return 5738, 25, "You can now plant " + "<col=000080>" + "woad" + "</col>" + ".", "Woad"
+
+			case 4:
+				return 225, 26, "You can now plant " + "<col=000080>" + "limpwurt" + "</col>" + ".", "Limpwurt"
+
+			case 5:
+				return 14583, 52, "You can now plant " + "<col=000080>" + "white lilies" + "</col>" + ".", "White lily" + "<br>" + " Protects all neighbouring fruit and vegetables from disease"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 249, 9, "You can now plant " + "<col=000080>" + "guam" + "</col>" + ".", "Guam"
+
+			case 1:
+				return 251, 14, "You can now plant " + "<col=000080>" + "marrentill" + "</col>" + ".", "Marrentill"
+
+			case 2:
+				return 253, 19, "You can now plant " + "<col=000080>" + "tarromin" + "</col>" + ".", "Tarromin"
+
+			case 3:
+				return 255, 26, "You can now plant " + "<col=000080>" + "harralander" + "</col>" + ".", "Harralander"
+
+			case 4:
+				return 3261, 29, "You now have the Farming level required to plant " + "<col=000080>" + "goutweed" + "</col>" + " (after Eadgar's Ruse).", "Goutweed" + "<br>" + " (after Eadgar's Ruse)"
+
+			case 5:
+				return 257, 32, "You can now plant " + "<col=000080>" + "ranarr" + "</col>" + ".", "Ranarr"
+
+			case 6:
+				return 12172, 36, "You can now plant " + "<col=000080>" + "spirit weed" + "</col>" + ".", "Spirit weed"
+
+			case 7:
+				return 2998, 38, "You can now plant " + "<col=000080>" + "toadflax" + "</col>" + ".", "Toadflax"
+
+			case 8:
+				return 259, 44, "You can now plant " + "<col=000080>" + "irit" + "</col>" + ".", "Irit"
+
+			case 9:
+				return 14854, 46, "You can now plant " + "<col=000080>" + "wergali" + "</col>" + ".", "Wergali"
+
+			case 10:
+				return 261, 50, "You can now plant " + "<col=000080>" + "avantoe" + "</col>" + ".", "Avantoe"
+
+			case 11:
+				return 263, 56, "You can now plant " + "<col=000080>" + "kwuarm" + "</col>" + ".", "Kwuarm"
+
+			case 12:
+				return 19989, 58, "You can now plant " + "<col=000080>" + "erzille" + "</col>" + " (in a vine herb patch).", "Erzille"
+
+			case 13:
+				return 3000, 62, "You can now plant " + "<col=000080>" + "snapdragon" + "</col>" + ".", "Snapdragon"
+
+			case 14:
+				return 19990, 65, "You can now plant " + "<col=000080>" + "argway" + "</col>" + " (in a vine herb patch).", "Argway"
+
+			case 15:
+				return 265, 67, "You can now plant " + "<col=000080>" + "cadantine" + "</col>" + ".", "Cadantine"
+
+			case 16:
+				return 19991, 70, "You can now plant " + "<col=000080>" + "ugune" + "</col>" + " (in a vine herb patch).", "Ugune"
+
+			case 17:
+				return 2481, 73, "You can now plant " + "<col=000080>" + "lantadyme" + "</col>" + ".", "Lantadyme"
+
+			case 18:
+				return 19992, 76, "You can now plant " + "<col=000080>" + "shengo" + "</col>" + " (in a vine herb patch).", "Shengo"
+
+			case 19:
+				return 267, 79, "You can now plant " + "<col=000080>" + "dwarf weed" + "</col>" + ".", "Dwarf weed"
+
+			case 20:
+				return 19993, 80, "You can now plant " + "<col=000080>" + "samaden" + "</col>" + " (in a vine herb patch).", "Samaden"
+
+			case 21:
+				return 269, 85, "You can now plant " + "<col=000080>" + "torstol" + "</col>" + ".", "Torstol"
+
+			case 22:
+				return 21624, 91, "You can now plant fellstalk" + "</col>" + ".", "Fellstalk"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 12134, 42, "You can now plant " + "<col=000080>" + "evil turnips" + "</col>" + ".", "Evil turnip"
+
+			case 1:
+				return 6004, 53, "You can now plant " + "<col=000080>" + "bittercap mushrooms" + "</col>" + ".", "Bittercap mushroom"
+
+			case 2:
+				return 11779, 53, "You now have the Farming level required to plant " + "<col=000080>" + "jade vines" + "</col>" + " (after Back to my Roots).", "Jade vine" + "<br>" + " (after Back to My Roots)"
+
+			case 3:
+				return 19962, 54, "You can now plant " + "<col=000080>" + "vine blossoms" + "</col>" + " (in a vine flower patch).", "Vine blossoms"
+
+			case 4:
+				return 6016, 55, "You can now plant " + "<col=000080>" + "cacti" + "</col>" + ".", "Cactus"
+
+			case 5:
+				return 19969, 61, "You can now plant " + "<col=000080>" + "lergberry bushes" + "</col>" + " (in a vine bush patch).", "Lergberry bush"
+
+			case 6:
+				return 2398, 63, "You can now plant " + "<col=000080>" + "belladonna" + "</col>" + ".", "Belladonna"
+
+			case 7:
+				return 5980, 72, "You can now plant " + "<col=000080>" + "calquat trees" + "</col>" + ".", "Calquat tree"
+
+			case 8:
+				return 21622, 74, "You can now plant " + "<col=000080>" + "morchella mushrooms" + "</col>" + ".", "Morchella mushroom"
+
+			case 9:
+				return 19970, 77, "You can now plant " + "<col=000080>" + "kalferberry bushes" + "</col>" + " (in a vine bush patch).", "Kalferberry bush"
+
+			case 10:
+				return 6063, 83, "You can now plant " + "<col=000080>" + "spirit trees" + "</col>" + ".", "Spirit tree" + "<br>" + " (only 1 planted at a time)"
+
+			case 11:
+				return 6063, 86, "You now have the Farming level required to plant " + "<col=000080>" + "2 spirit trees" + "</col>" + " (after Prisoner of Glouphrie).", "Spirit tree" + "<br>" + " (only 2 planted at a time, after Prisoner of Glouphrie)"
+
+
+		}
+		break
+	case 8:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 6059, 23, "You now have the ability to make and place a " + "<col=000080>" + "scarecrow" + "</col>" + ".", "Able to make and place a scarecrow"
+
+			case 1:
+				return 7620, -1, "", "Scarecrows help to stop sweetcorn from being attacked by birds, while also helping to prevent disease."
+
+			case 2:
+				return 7620, -1, "", "How to make a scarecrow:"
+
+			case 3:
+				return 7620, -1, "", "1. Fill an empty sack with straw from a haystack."
+
+			case 4:
+				return 7620, -1, "", "2. Drive the hay sack onto a bronze spear."
+
+			case 5:
+				return 7620, -1, "", "3. Place a watermelon at the very top as a head."
+
+			case 6:
+				return 7620, -1, "", "4. Stand the scarecrow in an empty flower patch."
+
+			case 7:
+				return 18336, 25, "You can now use the " + "<col=000080>" + "scroll of life" + "</col>" + ". (You also need level 25 Dungeoneering.)", "Scroll of life" + "<br>" + " (with 25 Dungeoneering)"
+
+
+		}
+		break
+	case 9:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 20704, 60, "Members can access the " + "<col=000080>" + "Livid Farm" + "</col>" + " (with 70 Magic, 60 Agility, 60 Crafting, 50 Construction and Lunar Diplomacy).", "Members: access to the Livid Farm (with 70 Magic, 60 Agility, 60 Crafting, 50 Construction and Lunar Diplomacy)"
+
+			case 1:
+				return 22494, 80, "You can now grow " + "<col=000080>" + "spores" + "</col>" + " on a " + "<col=000080>" + "polypore stick" + "</col>" + ".", "Polypore staff"
+
+			case 2:
+				return 18778, 91, "You can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using your knowledge of Farming.", "Starved ancient effigies"
+
+			case 3:
+				return 18779, 93, "You can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using your knowledge of Farming.", "Nourished ancient effigies"
+
+			case 4:
+				return 18780, 95, "You can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using your knowledge of Farming.", "Sated ancient effigies"
+
+			case 5:
+				return 18781, 97, "You can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using your knowledge of Farming.", "Gorged ancient effigies"
+
+
+		}
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 12625, 1, "You can now play " + "<col=000080>" + "Vinesweeper" + "</col>" + ".", "Vinesweeper"
+
+			case 1:
+				return 14667, 1, "You can now nurture " + "<col=000080>" + "basic evil tree saplings" + "</col>" + ".", "Nurture basic evil tree saplings"
+
+			case 2:
+				return 14667, 7, "You can now nurture " + "<col=000080>" + "evil oak tree saplings" + "</col>" + ".", "Nurture evil oak tree saplings"
+
+			case 3:
+				return 14667, 15, "You can now nurture " + "<col=000080>" + "evil willow tree saplings" + "</col>" + ".", "Nurture evil willow tree saplings"
+
+			case 4:
+				return 14667, 22, "You can now nurture " + "<col=000080>" + "evil maple tree saplings" + "</col>" + ".", "Nurture evil maple tree saplings"
+
+			case 5:
+				return 14667, 30, "You can now nurture " + "<col=000080>" + "evil yew tree saplings" + "</col>" + ".", "Nurture evil yew tree saplings"
+
+			case 6:
+				return 14667, 37, "You can now nurture " + "<col=000080>" + "evil magic tree saplings" + "</col>" + ".", "Nurture evil magic tree saplings"
+
+			case 7:
+				return 14667, 42, "You can now nurture " + "<col=000080>" + "elder evil tree saplings" + "</col>" + ".", "Nurture elder evil tree saplings"
+
+
+		}
+		break
+	case 11:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Farming level increases, you will be able to attempt higher-level farming tasks within Daemonheim. You will also be more likely to succeed when attempting farming tasks within Daemonheim."
+
+			case 1:
+				return 17448, 1, "You can now harvest " + "<col=000080>" + "salve nettles" + "</col>" + " within Daemonheim.", "Salve nettles"
+
+			case 2:
+				return 17823, 1, "You can now plant " + "<col=000080>" + "cave potatoes" + "</col>" + " within Daemonheim.", "Cave potato"
+
+			case 3:
+				return 17826, 7, "You can now plant " + "<col=000080>" + "sagewort" + "</col>" + " within Daemonheim.", "Sagewort"
+
+			case 4:
+				return 17450, 10, "You can now harvest " + "<col=000080>" + "wildercress" + "</col>" + " within Daemonheim.", "Wildercress"
+
+			case 5:
+				return 17827, 18, "You can now plant " + "<col=000080>" + "valerian" + "</col>" + " within Daemonheim.", "Valerian"
+
+			case 6:
+				return 17452, 20, "You can now harvest " + "<col=000080>" + "blightleaves" + "</col>" + " within Daemonheim.", "Blightleaf"
+
+			case 7:
+				return 17828, 29, "You can now plant " + "<col=000080>" + "aloe" + "</col>" + " within Daemonheim.", "Aloe"
+
+			case 8:
+				return 17454, 30, "You can now harvest " + "<col=000080>" + "roseblood" + "</col>" + " within Daemonheim.", "Roseblood"
+
+			case 9:
+				return 17824, 34, "You can now plant " + "<col=000080>" + "gissel mushrooms" + "</col>" + " within Daemonheim.", "Gissel mushroom"
+
+			case 10:
+				return 17829, 40, "You can now plant " + "<col=000080>" + "wormwood" + "</col>" + " within Daemonheim.", "Wormwood"
+
+			case 11:
+				return 17456, 40, "You can now harvest " + "<col=000080>" + "bryll" + "</col>" + " within Daemonheim.", "Bryll"
+
+			case 12:
+				return 17458, 50, "You can now plant " + "<col=000080>" + "duskweed" + "</col>" + " within Daemonheim.", "Duskweed"
+
+			case 13:
+				return 17830, 51, "You can now plant " + "<col=000080>" + "magebane" + "</col>" + " within Daemonheim.", "Magebane"
+
+			case 14:
+				return 17460, 60, "You can now harvest " + "<col=000080>" + "soulbells" + "</col>" + " within Daemonheim.", "Soulbell"
+
+			case 15:
+				return 17831, 62, "You can now plant " + "<col=000080>" + "featherfoil" + "</col>" + " within Daemonheim.", "Featherfoil"
+
+			case 16:
+				return 17825, 68, "You can now plant " + "<col=000080>" + "edicap mushrooms" + "</col>" + " within Daemonheim.", "Edicap mushroom"
+
+			case 17:
+				return 17462, 70, "You can now harvest " + "<col=000080>" + "ectograss" + "</col>" + " within Daemonheim.", "Ectograss"
+
+			case 18:
+				return 17832, 73, "You can now plant " + "<col=000080>" + "winter's grip" + "</col>" + " within Daemonheim.", "Winter's grip"
+
+			case 19:
+				return 17464, 80, "You can now harvest " + "<col=000080>" + "runeleaves" + "</col>" + " within Daemonheim.", "Runeleaf"
+
+			case 20:
+				return 17833, 84, "You can now plant " + "<col=000080>" + "lycopus" + "</col>" + " within Daemonheim.", "Lycopus"
+
+			case 21:
+				return 17466, 90, "You can now harvest " + "<col=000080>" + "spiritbloom" + "</col>" + " within Daemonheim.", "Spiritbloom"
+
+			case 22:
+				return 17834, 95, "You can now plant " + "<col=000080>" + "buckthorn" + "</col>" + " within Daemonheim.", "Buckthorn"
+
+
+		}
+		break
+	case 12:
+		if(arg1 == 0)
+			return 9810, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Farming" + "<col=000080>" + ". Why not visit " + "<col=800000>" + "Martin the Master Gardener" + "<col=000080>" + " in " + "<col=800000>" + "Draynor Village" + "<col=000080>" + "? He has something special that is only available to true masters of the " + "<col=800000>" + "Farming" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+
+}
+return -1, 0, "", ""

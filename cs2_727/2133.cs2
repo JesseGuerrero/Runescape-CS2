@@ -1,0 +1,4 @@
+//script2133(2133)(int arg0)(void)
+if_setmodelanim(arg0, 1)
+sound_synth(0, 1, 819)
+return

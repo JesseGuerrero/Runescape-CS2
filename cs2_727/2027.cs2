@@ -1,0 +1,40 @@
+//script2027(2027)(int arg0)(void)
+if(bit_flagged(0, load_varp(331)) == 1)
+	if_setmodelangle(arg0, 400, 0, 1536, 512, 0, 0)
+else
+	if(bit_flagged(1, load_varp(331)) == 1)
+		if_setmodelangle(arg0, 400, 0, 1664, 512, 0, 0)
+	else
+		if(bit_flagged(2, load_varp(331)) == 1)
+			if_setmodelangle(arg0, 400, 0, 1792, 512, 0, 0)
+		else
+			if(bit_flagged(3, load_varp(331)) == 1)
+				if_setmodelangle(arg0, 400, 0, 1920, 512, 0, 0)
+			else
+				if(bit_flagged(4, load_varp(331)) == 1)
+					if_setmodelangle(arg0, 400, 0, 0, 512, 0, 0)
+				else
+					if(bit_flagged(5, load_varp(331)) == 1)
+						if_setmodelangle(arg0, 400, 0, 128, 512, 0, 0)
+					else
+						if(bit_flagged(6, load_varp(331)) == 1)
+							if_setmodelangle(arg0, 400, 0, 256, 512, 0, 0)
+						else
+							if(bit_flagged(7, load_varp(331)) == 1)
+								if_setmodelangle(arg0, 400, 0, 384, 512, 0, 0)
+							else
+								if(bit_flagged(8, load_varp(331)) == 1)
+									if_setmodelangle(arg0, 400, 0, 512, 512, 0, 0)
+								else
+									if(bit_flagged(9, load_varp(331)) == 1)
+										if_setmodelangle(arg0, 400, 0, 640, 512, 0, 0)
+									else
+										if(bit_flagged(10, load_varp(331)) == 1)
+											if_setmodelangle(arg0, 400, 0, 768, 512, 0, 0)
+										else
+											if(bit_flagged(11, load_varp(331)) == 1)
+												if_setmodelangle(arg0, 400, 0, 896, 512, 0, 0)
+											else
+												if(bit_flagged(12, load_varp(331)) == 1)
+													if_setmodelangle(arg0, 400, 0, 1024, 512, 0, 0)
+return

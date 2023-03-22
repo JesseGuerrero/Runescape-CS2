@@ -1,0 +1,36 @@
+//script2698(2698)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+if(arg0 == instr6644())
+	return
+iVar5 = -1
+if(arg0 != 3) {
+	instr6645(arg0)
+	iVar5 = instr6644()
+	instr6647(iVar5)
+	if(arg0 != iVar5) {
+		script_2694(arg4, 0, "RuneScape was unable to enter that display mode." + "<br>" + "<br>" + "Please visit our website for more information.", "", "")
+		script_2596(arg3, iVar5, arg1, arg2, arg4)
+		return
+	}
+	script_2596(arg3, iVar5, arg1, arg2, arg4)
+	if(arg0 >= 2)
+		if(iVar5 >= 2)
+			store_varc(994, 2)
+	return
+}
+if(playermember() == 0) {
+	script_2694(arg4, 0, "Fullscreen mode is only available to RuneScape members." + "<br>" + "<br>" + "Please visit the RuneScape website to learn about other benefits of membership.", "Members' benefits", "members_benefits.ws")
+	return
+}
+if(instr6704() > load_varc(178))
+	if(instr6639(instr6404(load_varc(178)).get(1), instr6404(load_varc(178)).get(0)) == 1) {
+		script_2596(arg3, arg0, arg1, arg2, arg4)
+		script_2700(2, arg4, 0, 0)
+		return
+	}
+arg0 = instr6406()
+instr6645(arg0)
+if(arg4 == 1)
+	send_message("Unable to enter fullscreen mode at that resolution.")
+script_2596(arg3, arg0, arg1, arg2, arg4)
+return

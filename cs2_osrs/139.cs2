@@ -1,0 +1,10 @@
+void script_139(Widget widget0, int arg1, int arg2) {
+	if (getClientCycle() < arg2) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.hookFrame(null);
+	}
+	script_890(widget(507, 32), "Refresh", widget(507, 3), datamap('I', 'i', 1539, widget(507, 32)));
+	return;
+}

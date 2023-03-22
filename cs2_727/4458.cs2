@@ -1,0 +1,8 @@
+//script4458(4458)()(void)
+if_sethide(if_gethash(1110, 35), 1)
+if_sethide(if_gethash(1110, 37), 0)
+if_sethide(if_gethash(1110, 36), 1)
+if_sethide(if_gethash(1110, 58), 1)
+if_sethide(if_gethash(1110, 60), 0)
+if_sethide(if_gethash(1110, 56), 1)
+return

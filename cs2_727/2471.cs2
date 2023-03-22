@@ -1,0 +1,11 @@
+//script2471(2471)()(void)
+if_sethide(enum(1092, load_varp(1174), 'n', 'I'), 1)
+if(instr6644() >= 2) {
+	if_setgraphic(if_gethash(747, 0), 8644)
+	if_setgraphic(if_gethash(747, 1), 8645)
+} else  {
+	if_setgraphic(if_gethash(747, 0), 1244)
+	if_setgraphic(if_gethash(747, 1), 1245)
+}
+if_sethide(if_gethash(747, 9), 1)
+return

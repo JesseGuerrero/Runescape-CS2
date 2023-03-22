@@ -1,0 +1,6 @@
+//script5230(5230)(int arg0, int arg1, int arg2)(void)
+if(activeclansettings_find_listened() == 1) {
+	script_4340(arg0, load_clan_setting_var(0), arg1, arg2)
+	instr6260(arg2, None, "")
+}
+return

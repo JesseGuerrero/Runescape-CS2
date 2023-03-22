@@ -1,0 +1,25 @@
+//script4160(4160)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+if(arg2 > 0) {
+	instr6342(arg0, script_4159, "Iii", -2147483645, arg1, arg2 - 1)
+	return
+}
+iVar3 = 0
+iVar4 = 0
+if(cc_find(0, arg0) == 1) {
+	iVar3 = cc_gettransparency()
+	if(arg1 == 0)
+		iVar4 = iVar3 - 22
+	else
+		iVar4 = iVar3 + 22
+	iVar4 = max(0, iVar4)
+	iVar4 = min(255, iVar4)
+}
+if(iVar4 == 0)
+	if(arg1 == 0 || iVar4 == 255 || arg1 == 1)
+		instr6342(arg0, None, "")
+	else
+		instr6342(arg0, script_4159, "Iii", -2147483645, arg1, 0)
+script_4161(arg0, iVar4)
+return

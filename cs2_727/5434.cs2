@@ -1,0 +1,90 @@
+//script5434(5434)()(void)
+if(load_varpbit(9991) == 1)
+	if_sethide(if_gethash(1167, 58), 0)
+else
+	if_sethide(if_gethash(1167, 58), 1)
+if(load_varpbit(9997) == 1)
+	if_sethide(if_gethash(1167, 59), 0)
+else
+	if_sethide(if_gethash(1167, 59), 1)
+if(load_varpbit(9998) == 1)
+	if_sethide(if_gethash(1167, 60), 0)
+else
+	if_sethide(if_gethash(1167, 60), 1)
+if(load_varpbit(9994) == 1)
+	if_sethide(if_gethash(1167, 61), 0)
+else
+	if_sethide(if_gethash(1167, 61), 1)
+if(load_varpbit(9999) == 1)
+	if_sethide(if_gethash(1167, 62), 0)
+else
+	if_sethide(if_gethash(1167, 62), 1)
+if(load_varpbit(10000) == 1)
+	if_sethide(if_gethash(1167, 63), 0)
+else
+	if_sethide(if_gethash(1167, 63), 1)
+if(load_varpbit(10001) == 1)
+	if_sethide(if_gethash(1167, 64), 0)
+else
+	if_sethide(if_gethash(1167, 64), 1)
+if(load_varpbit(9993) == 1)
+	if_sethide(if_gethash(1167, 65), 0)
+else
+	if_sethide(if_gethash(1167, 65), 1)
+if(load_varpbit(10004) == 1)
+	if_sethide(if_gethash(1167, 66), 0)
+else
+	if_sethide(if_gethash(1167, 66), 1)
+if(load_varpbit(10012) == 1)
+	if_sethide(if_gethash(1167, 67), 0)
+else
+	if_sethide(if_gethash(1167, 67), 1)
+if(load_varpbit(10005) == 1)
+	if_sethide(if_gethash(1167, 68), 0)
+else
+	if_sethide(if_gethash(1167, 68), 1)
+if(load_varpbit(10008) == 1)
+	if_sethide(if_gethash(1167, 69), 0)
+else
+	if_sethide(if_gethash(1167, 69), 1)
+if(load_varpbit(9992) == 1)
+	if_sethide(if_gethash(1167, 70), 0)
+else
+	if_sethide(if_gethash(1167, 70), 1)
+if(load_varpbit(10003) == 1)
+	if_sethide(if_gethash(1167, 71), 0)
+else
+	if_sethide(if_gethash(1167, 71), 1)
+if(load_varpbit(10007) == 1)
+	if_sethide(if_gethash(1167, 72), 0)
+else
+	if_sethide(if_gethash(1167, 72), 1)
+if(load_varpbit(9995) == 1)
+	if_sethide(if_gethash(1167, 73), 0)
+else
+	if_sethide(if_gethash(1167, 73), 1)
+if(load_varpbit(10009) == 1)
+	if_sethide(if_gethash(1167, 74), 0)
+else
+	if_sethide(if_gethash(1167, 74), 1)
+if(load_varpbit(10002) == 1)
+	if_sethide(if_gethash(1167, 75), 0)
+else
+	if_sethide(if_gethash(1167, 75), 1)
+if(load_varpbit(9996) == 1)
+	if_sethide(if_gethash(1167, 76), 0)
+else
+	if_sethide(if_gethash(1167, 76), 1)
+if(load_varpbit(10010) == 1)
+	if_sethide(if_gethash(1167, 77), 0)
+else
+	if_sethide(if_gethash(1167, 77), 1)
+if(load_varpbit(10006) == 1)
+	if_sethide(if_gethash(1167, 78), 0)
+else
+	if_sethide(if_gethash(1167, 78), 1)
+if(load_varpbit(10011) == 1)
+	if_sethide(if_gethash(1167, 79), 0)
+else
+	if_sethide(if_gethash(1167, 79), 1)
+return

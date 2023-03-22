@@ -1,0 +1,14 @@
+void script_1118(Widget widget0) {
+	if (CHILD.setChild(widget0, 0) == true) {
+		return;
+	}
+	CHILD.createChild(widget0, 4, script_715(widget0, 0));
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText("Loading...");
+	return;
+}

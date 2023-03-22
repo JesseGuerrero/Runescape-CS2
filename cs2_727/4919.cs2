@@ -1,0 +1,23 @@
+//script4919(4919)()(void)
+int iVar0
+iVar0 = 0
+if(clan_vars_enabled() == 1) {
+	if(load_varpbit(9550) > 0)
+		if(if_gethide(if_gethash(1261, 103)) == 0)
+			script_4989(script_4948(load_varpbit(9550)))
+	else {
+		script_5007()
+		script_4935()
+		script_4905()
+		script_4907()
+		script_5012()
+		script_5975()
+		script_4864()
+		script_4994()
+		script_4889()
+		script_4881()
+	}
+	script_4853()
+}
+return
+return

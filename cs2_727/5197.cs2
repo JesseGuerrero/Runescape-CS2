@@ -1,0 +1,15 @@
+//script5197(5197)(int arg0, int arg1, int arg2)(int, int, int, int)
+if(arg2 == 0) {
+	if_sethide(if_gethash(1122, 51), 1)
+	if_sethide(if_gethash(1122, 239), 1)
+	if_sethide(if_gethash(1122, 251), 1)
+	if_sethide(if_gethash(1122, 263), 1)
+	if_sethide(if_gethash(1122, 275), 1)
+	if_sethide(arg0, 0)
+} else 
+	if(arg1 == load_varpbit(9674))
+		if_sethide(arg0, 0)
+	else
+		if_sethide(arg0, 1)
+store_varc(1600, arg1)
+return script_5202(1).get(3), script_5202(1).get(2), script_5202(1).get(1), script_5202(1).get(0)

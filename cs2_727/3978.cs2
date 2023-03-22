@@ -1,0 +1,31 @@
+//script3978(3978)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6)(int)
+int iVar6
+int iVar7
+int iVar8
+if_sethide(arg2, 0)
+if_settext(arg2, arg0)
+if_settextfont(arg2, 3793)
+if_settextalign(arg2, 13, 1, 0)
+iVar6 = if_getwidth(arg5) - 18
+if(script_3999(arg3) == 1)
+	iVar6 = iVar6 + 9
+iVar7 = 0
+if(arg4 != -1) {
+	iVar7 = if_getheight(arg4)
+	iVar6 = iVar6 - 21
+}
+iVar8 = max(15 * paramheight(arg0, 3793, iVar6), iVar7 + 5)
+if_setsize(arg2, 0, 0, iVar8, iVar6)
+if_setposition(arg2, 0, 0, arg1, 9)
+if(script_3999(arg3) == 0)
+	if(arg4 != -1) {
+		if_sethide(arg4, 0)
+		if_setposition(arg4, 0, 2, arg1 + ((iVar8 - if_getheight(arg4)) / 2), 2)
+		if(load_varpbit(8578) == arg0)
+			if(load_varpbit(8594) == arg3)
+				if_setgraphic(arg4, 9615)
+			else
+				if_setgraphic(arg4, 9618)
+	}
+return arg1 + iVar8
+return 0

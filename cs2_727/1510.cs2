@@ -1,0 +1,6 @@
+//script1510(1510)()(void)
+if(load_varpbit(6091) != load_varc(778)) {
+	store_varc(778, load_varpbit(6091))
+	script_1513()
+}
+return

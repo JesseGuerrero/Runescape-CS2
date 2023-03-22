@@ -1,0 +1,43 @@
+//script485(485)(int arg0)(int, int, int, int, int, int, int)
+int iVar1
+int iVar2
+iVar1 = -1
+iVar2 = 0
+if_setcolor(arg0, 0xFF981F)
+switch(load_varpbit(7512)) {
+	case default:
+		return
+
+	case 1:
+		iVar1 = script_486(load_varpbit(7520))
+		break
+	case 2:
+		iVar1 = script_486(load_varpbit(7521))
+		break
+	case 3:
+		iVar1 = script_486(load_varpbit(7526))
+		break
+	case 4:
+		iVar1 = script_486(load_varpbit(7527))
+		break
+	case 5:
+		iVar1 = script_486(load_varpbit(7530))
+		break
+	case 6:
+		iVar1 = script_486(load_varpbit(7531))
+		break
+	case 7:
+		iVar1 = script_486(load_varpbit(7532))
+		break
+	case 8:
+		iVar1 = script_486(load_varpbit(7533))
+		break
+	case 9:
+		iVar1 = script_486(load_varpbit(7534))
+		break
+	case 10:
+		iVar1 = script_486(load_varpbit(7535))
+		break
+
+}
+return iVar1, iVar1, iVar1, iVar1, iVar1, iVar1, iVar1

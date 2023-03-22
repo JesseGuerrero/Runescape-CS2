@@ -1,0 +1,335 @@
+//script1395(1395)()(void)
+if(load_varpbit(2140) >= 30) {
+	if_sethide(if_gethash(391, 22), 0)
+	if_sethide(if_gethash(391, 24), 0)
+} else  {
+	if_sethide(if_gethash(391, 22), 1)
+	if_sethide(if_gethash(391, 24), 1)
+}
+if_settext(if_gethash(391, 115), to_string(load_varpbit(74)))
+if(load_varpbit(83) > 0)
+	if_setcolor(25624663, 0xFFFFFF)
+else
+	if_setcolor(25624663, 0x0)
+if(load_varpbit(83) > 1)
+	if_setcolor(25624664, 0xFFFFFF)
+else
+	if_setcolor(25624664, 0x0)
+if(load_varpbit(83) > 2)
+	if_setcolor(25624665, 0xFFFFFF)
+else
+	if_setcolor(25624665, 0x0)
+if(load_varpbit(83) > 3)
+	if_setcolor(25624667, 0xFFFFFF)
+else
+	if_setcolor(25624667, 0x0)
+if(load_varpbit(83) > 4)
+	if_setcolor(25624668, 0xFFFFFF)
+else
+	if_setcolor(25624668, 0x0)
+if(load_varpbit(83) > 5)
+	if_setcolor(25624669, 0xFFFFFF)
+else
+	if_setcolor(25624669, 0x0)
+if(load_varpbit(83) > 6)
+	if_setcolor(25624670, 0xFFFFFF)
+else
+	if_setcolor(25624670, 0x0)
+if(load_varpbit(83) > 7)
+	if_setcolor(25624671, 0xFFFFFF)
+else
+	if_setcolor(25624671, 0x0)
+if(load_varpbit(83) > 8)
+	if_setcolor(25624672, 0xFFFFFF)
+else
+	if_setcolor(25624672, 0x0)
+if(load_varpbit(83) > 9)
+	if_setcolor(25624673, 0xFFFFFF)
+else
+	if_setcolor(25624673, 0x0)
+if(load_varpbit(84) > 0)
+	if_setcolor(25624620, 0xFFFFFF)
+else
+	if_setcolor(25624620, 0x0)
+if(load_varpbit(84) > 1)
+	if_setcolor(25624621, 0xFFFFFF)
+else
+	if_setcolor(25624621, 0x0)
+if(load_varpbit(84) > 2)
+	if_setcolor(25624622, 0xFFFFFF)
+else
+	if_setcolor(25624622, 0x0)
+if(load_varpbit(84) > 3)
+	if_setcolor(25624623, 0xFFFFFF)
+else
+	if_setcolor(25624623, 0x0)
+if(load_varpbit(84) > 4)
+	if_setcolor(25624624, 0xFFFFFF)
+else
+	if_setcolor(25624624, 0x0)
+if(load_varpbit(84) > 5)
+	if_setcolor(25624625, 0xFFFFFF)
+else
+	if_setcolor(25624625, 0x0)
+if(load_varpbit(84) > 6)
+	if_setcolor(25624626, 0xFFFFFF)
+else
+	if_setcolor(25624626, 0x0)
+if(load_varpbit(84) > 7)
+	if_setcolor(25624627, 0xFFFFFF)
+else
+	if_setcolor(25624627, 0x0)
+if(load_varpbit(84) > 8)
+	if_setcolor(25624628, 0xFFFFFF)
+else
+	if_setcolor(25624628, 0x0)
+if(load_varpbit(84) > 9)
+	if_setcolor(25624629, 0xFFFFFF)
+else
+	if_setcolor(25624629, 0x0)
+if(load_varpbit(82) > 0)
+	if_setcolor(25624650, 0xFFFFFF)
+else
+	if_setcolor(25624650, 0x0)
+if(load_varpbit(82) > 1)
+	if_setcolor(25624651, 0xFFFFFF)
+else
+	if_setcolor(25624651, 0x0)
+if(load_varpbit(82) > 2)
+	if_setcolor(25624652, 0xFFFFFF)
+else
+	if_setcolor(25624652, 0x0)
+if(load_varpbit(82) > 3)
+	if_setcolor(25624653, 0xFFFFFF)
+else
+	if_setcolor(25624653, 0x0)
+if(load_varpbit(82) > 4)
+	if_setcolor(25624654, 0xFFFFFF)
+else
+	if_setcolor(25624654, 0x0)
+if(load_varpbit(82) > 5)
+	if_setcolor(25624655, 0xFFFFFF)
+else
+	if_setcolor(25624655, 0x0)
+if(load_varpbit(82) > 6)
+	if_setcolor(25624656, 0xFFFFFF)
+else
+	if_setcolor(25624656, 0x0)
+if(load_varpbit(82) > 7)
+	if_setcolor(25624657, 0xFFFFFF)
+else
+	if_setcolor(25624657, 0x0)
+if(load_varpbit(82) > 8)
+	if_setcolor(25624658, 0xFFFFFF)
+else
+	if_setcolor(25624658, 0x0)
+if(load_varpbit(82) > 9)
+	if_setcolor(25624659, 0xFFFFFF)
+else
+	if_setcolor(25624659, 0x0)
+if(load_varpbit(81) > 0)
+	if_setcolor(25624634, 0xFFFFFF)
+else
+	if_setcolor(25624634, 0x0)
+if(load_varpbit(81) > 1)
+	if_setcolor(25624635, 0xFFFFFF)
+else
+	if_setcolor(25624635, 0x0)
+if(load_varpbit(81) > 2)
+	if_setcolor(25624636, 0xFFFFFF)
+else
+	if_setcolor(25624636, 0x0)
+if(load_varpbit(81) > 3)
+	if_setcolor(25624637, 0xFFFFFF)
+else
+	if_setcolor(25624637, 0x0)
+if(load_varpbit(81) > 4)
+	if_setcolor(25624638, 0xFFFFFF)
+else
+	if_setcolor(25624638, 0x0)
+if(load_varpbit(81) > 5)
+	if_setcolor(25624639, 0xFFFFFF)
+else
+	if_setcolor(25624639, 0x0)
+if(load_varpbit(81) > 6)
+	if_setcolor(25624640, 0xFFFFFF)
+else
+	if_setcolor(25624640, 0x0)
+if(load_varpbit(81) > 7)
+	if_setcolor(25624641, 0xFFFFFF)
+else
+	if_setcolor(25624641, 0x0)
+if(load_varpbit(81) > 8)
+	if_setcolor(25624642, 0xFFFFFF)
+else
+	if_setcolor(25624642, 0x0)
+if(load_varpbit(81) > 9)
+	if_setcolor(25624646, 0xFFFFFF)
+else
+	if_setcolor(25624646, 0x0)
+if(load_varpbit(2131) > 0)
+	if_setcolor(25624700, 0xFFFFFF)
+else
+	if_setcolor(25624700, 0x0)
+if(load_varpbit(2131) > 1)
+	if_setcolor(25624701, 0xFFFFFF)
+else
+	if_setcolor(25624701, 0x0)
+if(load_varpbit(2131) > 2)
+	if_setcolor(25624702, 0xFFFFFF)
+else
+	if_setcolor(25624702, 0x0)
+if(load_varpbit(2131) > 3)
+	if_setcolor(25624703, 0xFFFFFF)
+else
+	if_setcolor(25624703, 0x0)
+if(load_varpbit(2131) > 4)
+	if_setcolor(25624704, 0xFFFFFF)
+else
+	if_setcolor(25624704, 0x0)
+if(load_varpbit(2131) > 5)
+	if_setcolor(25624705, 0xFFFFFF)
+else
+	if_setcolor(25624705, 0x0)
+if(load_varpbit(2131) > 6)
+	if_setcolor(25624706, 0xFFFFFF)
+else
+	if_setcolor(25624706, 0x0)
+if(load_varpbit(2131) > 7)
+	if_setcolor(25624707, 0xFFFFFF)
+else
+	if_setcolor(25624707, 0x0)
+if(load_varpbit(2131) > 8)
+	if_setcolor(25624708, 0xFFFFFF)
+else
+	if_setcolor(25624708, 0x0)
+if(load_varpbit(2131) > 9)
+	if_setcolor(25624709, 0xFFFFFF)
+else
+	if_setcolor(25624709, 0x0)
+if(load_varpbit(2132) > 0)
+	if_setcolor(25624721, 0xFFFFFF)
+else
+	if_setcolor(25624721, 0x0)
+if(load_varpbit(2132) > 1)
+	if_setcolor(25624722, 0xFFFFFF)
+else
+	if_setcolor(25624722, 0x0)
+if(load_varpbit(2132) > 2)
+	if_setcolor(25624723, 0xFFFFFF)
+else
+	if_setcolor(25624723, 0x0)
+if(load_varpbit(2132) > 3)
+	if_setcolor(25624724, 0xFFFFFF)
+else
+	if_setcolor(25624724, 0x0)
+if(load_varpbit(2132) > 4)
+	if_setcolor(25624725, 0xFFFFFF)
+else
+	if_setcolor(25624725, 0x0)
+if(load_varpbit(2132) > 5)
+	if_setcolor(25624726, 0xFFFFFF)
+else
+	if_setcolor(25624726, 0x0)
+if(load_varpbit(2132) > 6)
+	if_setcolor(25624727, 0xFFFFFF)
+else
+	if_setcolor(25624727, 0x0)
+if(load_varpbit(2132) > 7)
+	if_setcolor(25624728, 0xFFFFFF)
+else
+	if_setcolor(25624728, 0x0)
+if(load_varpbit(2132) > 8)
+	if_setcolor(25624729, 0xFFFFFF)
+else
+	if_setcolor(25624729, 0x0)
+if(load_varpbit(2132) > 9)
+	if_setcolor(25624730, 0xFFFFFF)
+else
+	if_setcolor(25624730, 0x0)
+if(load_varp(1888) > 0)
+	if_setcolor(25624674, 0xFFFFFF)
+else
+	if_setcolor(25624674, 0x0)
+if(load_varp(1888) > 1)
+	if_setcolor(25624675, 0xFFFFFF)
+else
+	if_setcolor(25624675, 0x0)
+if(load_varp(1888) > 2)
+	if_setcolor(25624676, 0xFFFFFF)
+else
+	if_setcolor(25624676, 0x0)
+if(load_varp(1888) > 3)
+	if_setcolor(25624677, 0xFFFFFF)
+else
+	if_setcolor(25624677, 0x0)
+if(load_varp(1888) > 4)
+	if_setcolor(25624680, 0xFFFFFF)
+else
+	if_setcolor(25624680, 0x0)
+if(load_varp(1888) > 5)
+	if_setcolor(25624681, 0xFFFFFF)
+else
+	if_setcolor(25624681, 0x0)
+if(load_varp(1888) > 6)
+	if_setcolor(25624682, 0xFFFFFF)
+else
+	if_setcolor(25624682, 0x0)
+if(load_varp(1888) > 7)
+	if_setcolor(25624683, 0xFFFFFF)
+else
+	if_setcolor(25624683, 0x0)
+if(load_varp(1888) > 8)
+	if_setcolor(25624684, 0xFFFFFF)
+else
+	if_setcolor(25624684, 0x0)
+if(load_varp(1888) > 9)
+	if_setcolor(25624685, 0xFFFFFF)
+else
+	if_setcolor(25624685, 0x0)
+if(load_varp(1888) > 10)
+	if_setcolor(25624686, 0xFFFFFF)
+else
+	if_setcolor(25624686, 0x0)
+if(load_varp(1888) > 11)
+	if_setcolor(25624687, 0xFFFFFF)
+else
+	if_setcolor(25624687, 0x0)
+if(load_varp(1888) > 12)
+	if_setcolor(25624688, 0xFFFFFF)
+else
+	if_setcolor(25624688, 0x0)
+if(load_varp(1888) > 13)
+	if_setcolor(25624689, 0xFFFFFF)
+else
+	if_setcolor(25624689, 0x0)
+if(load_varp(1888) > 14)
+	if_setcolor(25624690, 0xFFFFFF)
+else
+	if_setcolor(25624690, 0x0)
+if(load_varpbit(2134) == 1) {
+	if_setgraphic(if_gethash(391, 155), 180)
+	if_setgraphic(if_gethash(391, 157), 181)
+} else  {
+	if_setgraphic(if_gethash(391, 155), 181)
+	if_setgraphic(if_gethash(391, 157), 180)
+}
+if(load_varpbit(2133) == 0) {
+	if_setgraphic(if_gethash(391, 134), 181)
+	if_setgraphic(if_gethash(391, 135), 180)
+	if_setgraphic(if_gethash(391, 136), 180)
+} else 
+	if(load_varpbit(2133) == 1) {
+		if_setgraphic(if_gethash(391, 134), 180)
+		if_setgraphic(if_gethash(391, 135), 181)
+		if_setgraphic(if_gethash(391, 136), 180)
+	} else  {
+		if_setgraphic(if_gethash(391, 134), 180)
+		if_setgraphic(if_gethash(391, 135), 180)
+		if_setgraphic(if_gethash(391, 136), 181)
+	}
+if(load_varpbit(135) == 0)
+	if_setgraphic(if_gethash(391, 120), 180)
+else
+	if_setgraphic(if_gethash(391, 120), 181)
+return

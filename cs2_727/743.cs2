@@ -1,0 +1,9 @@
+//script743(743)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(arg2 == 1) {
+		if_setposition(if_gethash(18, 46), 0, 0, cc_gety(), cc_getx())
+		if_setsize(if_gethash(18, 46), 0, 0, cc_getheight(), cc_getwidth())
+		if_sethide(if_gethash(18, 46), 0)
+	} else 
+		if_sethide(if_gethash(18, 46), 1)
+return

@@ -1,0 +1,102 @@
+//script6492(6492)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+if(load_varp(2623) == -1)
+	return
+iVar0 = -1
+iVar1 = 0
+iVar2 = -1
+sVar0 = ""
+iVar3 = 0
+while(iVar1 < enum_getoutputcount(5994)) {
+	iVar2 = enum(5994, iVar1, 'i', 'I')
+	if(iVar2 != -1) {
+		if(iVar1 == 0)
+			iVar0 = struct_param(2483, load_varp(2623))
+		else
+			if(iVar1 == 1)
+				iVar0 = struct_param(2484, load_varp(2623))
+			else
+				if(iVar1 == 2)
+					iVar0 = struct_param(2485, load_varp(2623))
+				else
+					if(iVar1 == 3)
+						iVar0 = struct_param(2486, load_varp(2623))
+					else
+						if(iVar1 == 4)
+							iVar0 = struct_param(2487, load_varp(2623))
+						else
+							if(iVar1 == 5)
+								iVar0 = struct_param(2488, load_varp(2623))
+							else
+								if(iVar1 == 6)
+									iVar0 = struct_param(2489, load_varp(2623))
+								else
+									if(iVar1 == 7)
+										iVar0 = struct_param(2490, load_varp(2623))
+									else
+										if(iVar1 == 8)
+											iVar0 = struct_param(2491, load_varp(2623))
+										else
+											if(iVar1 == 9)
+												iVar0 = struct_param(2492, load_varp(2623))
+											else
+												if(iVar1 == 10)
+													iVar0 = struct_param(2493, load_varp(2623))
+												else
+													if(iVar1 == 11)
+														iVar0 = struct_param(2494, load_varp(2623))
+													else
+														if(iVar1 == 12)
+															iVar0 = struct_param(2495, load_varp(2623))
+														else
+															if(iVar1 == 13)
+																iVar0 = struct_param(2496, load_varp(2623))
+															else
+																if(iVar1 == 14)
+																	iVar0 = struct_param(2497, load_varp(2623))
+																else
+																	if(iVar1 == 15)
+																		iVar0 = struct_param(2498, load_varp(2623))
+		if(iVar0 != -1) {
+			cc_create(iVar3, 3, iVar2)
+			cc_setposition(0, 0, 2, 2)
+			cc_setsize(1, 1, 2, 2)
+			cc_setcolor(0)
+			cc_setfill(1)
+			iVar3 = iVar3 + 1
+			if(load_varpbit(11248) == iVar1) {
+				cc_create(iVar3, 3, iVar2)
+				cc_setposition(0, 0, 2, 2)
+				cc_setsize(1, 1, 5, 5)
+				cc_setcolor(3a332b)
+				cc_setfill(0)
+				iVar3 = iVar3 + 1
+			}
+			cc_create(iVar3, 5, iVar2)
+			cc_setposition(0, 0, 0, 0)
+			cc_setsize(0, 0, 20, 20)
+			iVar3 = iVar3 + 1
+			if(load_varpbit(11247) == iVar1) {
+				cc_setgraphic(2289)
+				sVar0 = "This is the current colour for the set."
+			} else  {
+				cc_setgraphic(2288)
+				sVar0 = "Recolour the item you currently have selected to this colour."
+			}
+			if(load_varpbit(11248) == iVar1)
+				if(load_varpbit(11247) != iVar1)
+					sVar0 = "This is your original colour for the set."
+			cc_setonmouseover(script_5334, "IiIsii", iVar2, 0, if_gethash(1315, 1), sVar0, 25, 500)
+			instr6092(script_40, "I", if_gethash(1315, 1))
+			iVar0 = -1
+			iVar3 = 0
+		}
+		iVar2 = -1
+	}
+	iVar1 = iVar1 + 1
+}
+return

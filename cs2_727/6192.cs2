@@ -1,0 +1,41 @@
+//script6192(6192)()(void)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(906, 415), 10787)
+		if_setgraphic(if_gethash(906, 424), 10791)
+		break
+	case 1:
+		if_setgraphic(if_gethash(906, 415), 10789)
+		if_setgraphic(if_gethash(906, 424), 10793)
+		break
+	case 2:
+		if_setgraphic(if_gethash(906, 415), 10788)
+		if_setgraphic(if_gethash(906, 424), 10792)
+		break
+	case 3:
+		if_setgraphic(if_gethash(906, 415), 10790)
+		if_setgraphic(if_gethash(906, 424), 10794)
+		break
+
+}
+if(load_varc(1919) < 1) {
+	if(load_varp(2611) == 1) {
+		script_6190()
+		store_varp(2522, 1)
+		script_196()
+		return
+	}
+	if_settext(if_gethash(906, 418), " - A unique Cape!" + "<br>" + "- An exclusive in-game title 'The Real'" + "<br>" + "- Up to 20 additional Bank Spaces" + "<br>" + "- An XP lamp in a skill of your choice")
+	if_setposition(if_gethash(906, 421), 0, 0, 390, if_getx(if_gethash(906, 421)))
+	if_setposition(if_gethash(906, 425), 0, 0, 278, if_getx(if_gethash(906, 425)))
+	if_sethide(if_gethash(906, 31), 1)
+	if_sethide(if_gethash(906, 34), 0)
+	if_sethide(if_gethash(906, 338), 1)
+	if_sethide(if_gethash(906, 382), 1)
+	if_sethide(if_gethash(906, 409), 0)
+	if_setsize(if_gethash(906, 425), 0, 0, if_getheight(if_gethash(906, 425)), 240)
+} else 
+	script_6190()
+return

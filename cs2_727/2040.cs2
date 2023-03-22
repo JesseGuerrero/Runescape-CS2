@@ -1,0 +1,6 @@
+//script2040(2040)(int arg0)(void)
+if(load_varpbit(949) == 0)
+	if_settext(arg0, "Coal to add: " + to_string(load_varpbit(940)))
+else
+	if_settext(arg0, "Coal in furnace: " + to_string(load_varpbit(949)))
+return

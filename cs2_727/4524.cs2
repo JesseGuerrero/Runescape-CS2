@@ -1,0 +1,8 @@
+//script4524(4524)(int arg0, int arg1)(void)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(2, 2, 16384, 16384)
+cc_setposition(1, 1, 0, 0)
+cc_setgraphic(arg1)
+if_setnoclickthrough(arg0, 1)
+if_sethide(arg0, 1)
+return

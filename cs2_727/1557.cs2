@@ -1,0 +1,8 @@
+//script1557(1557)()(void)
+if_setposition(if_gethash(752, 6), 0, 0, if_gety(if_gethash(752, 6)), script_1552(load_varc(1029), 496, 49283077, -1, load_varc_string(22)))
+if(applet_hasfocus() == 1)
+	if_sethide(if_gethash(752, 6), 0)
+else
+	if_sethide(if_gethash(752, 6), 1)
+instr6342(if_gethash(752, 5), script_1400, "iI", client_clock(), if_gethash(752, 6))
+return

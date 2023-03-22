@@ -1,0 +1,19 @@
+void script_729() {
+	widget(64, 6).setText(script_46(getItemAmtInContainer(93, 13192), ","));
+	widget(64, 13).setText(script_46(getItemAmtInContainer(93, 995), ","));
+	widget(64, 26).setText(str(VARC[67]));
+	widget(64, 32).setText(script_46(VARC[68], ","));
+	widget(64, 37).setText(script_46(VARC[67] * VARC[68], ","));
+	if (VARC[67] * VARC[68] > getItemAmtInContainer(93, 995)) {
+		widget(64, 27).setText("You do not have enough coins for this transaction.");
+		script_730();
+	} else {
+		widget(64, 27).setText("");
+		if (VARC[67] <= 0) {
+			script_730();
+		} else {
+			script_731();
+		}
+	}
+	return;
+}

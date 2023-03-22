@@ -1,0 +1,32 @@
+void script_1563(Widget widget0, Widget widget1) {
+	int int2;
+	int2 = 0;
+	while (int2 < 40) {
+		datamap('i', 'I', 1537, int2).setIsHidden(true);
+		int2 = int2 + 1;
+	}
+	widget0.setScrollMax(0, 0);
+	widget0.setScrollPos(0, 0);
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	VARC[178], VARC[59] = 0, getClientCycle();
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 4, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setRGB(0x808080);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText("Loading...");
+	widget(499, 3).clearChildren();
+	widget(499, 55).setIsHidden(true);
+	CHILD.createChild(widget(499, 3), 3, datamap('I', 'i', 1538, widget(499, 55)));
+	CHILD.setHidden(true);
+	widget(499, 57).setIsHidden(true);
+	CHILD.createChild(widget(499, 3), 3, datamap('I', 'i', 1538, widget(499, 57)));
+	CHILD.setHidden(true);
+	script_1558(widget(499, 55), "Refresh", 32702467, 1538, -1);
+	script_1565();
+	widget(499, 57).hookVARP(&script_1564(), 1427);
+	return;
+}

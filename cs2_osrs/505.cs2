@@ -1,0 +1,78 @@
+void script_505(int arg0, int arg1, int arg2, Widget widget3, Widget widget4, int arg5, int arg6, Widget widget7, int arg8, Widget widget9, int arg10, int arg11, int arg12, int arg13, int arg14) {
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	if (arg13 > 0) {
+		arg13 = arg13 + 8;
+	}
+	int15 = 0;
+	if (arg13 > widget3.getHeight()) {
+		widget3.setScrollMax(0, arg13);
+		if (VARC[51] > 0) {
+			int15 = VARC[51];
+		}
+		script_72(widget4, widget3, int15);
+	} else {
+		widget3.setScrollMax(0, 0);
+		script_72(widget4, widget3, 0);
+	}
+	widget7.setText(str(arg14));
+	widget9.clearChildren();
+	int16 = (widget9.getWidth() - 40 * (9 + 1)) / 2;
+	int17 = 0;
+	while (int17 <= 9) {
+		CHILD.createChild(widget9, 5, int17);
+		CHILD.setSize(41, 40, 0, 0);
+		CHILD.setPosition(int17 * 40 + int16, 0, 0, 0);
+		CHILD.setSpriteTiling(false);
+		int17 = int17 + 1;
+	}
+	int18 = 0;
+	if (VARPBIT[4171] > 0) {
+		int18 = flagBit(int18, 1);
+	}
+	if (VARPBIT[4172] > 0) {
+		int18 = flagBit(int18, 2);
+	}
+	if (VARPBIT[4173] > 0) {
+		int18 = flagBit(int18, 3);
+	}
+	if (VARPBIT[4174] > 0) {
+		int18 = flagBit(int18, 4);
+	}
+	if (VARPBIT[4175] > 0) {
+		int18 = flagBit(int18, 5);
+	}
+	if (VARPBIT[4176] > 0) {
+		int18 = flagBit(int18, 6);
+	}
+	if (VARPBIT[4177] > 0) {
+		int18 = flagBit(int18, 7);
+	}
+	if (VARPBIT[4178] > 0) {
+		int18 = flagBit(int18, 8);
+	}
+	if (VARPBIT[4179] > 0) {
+		int18 = flagBit(int18, 9);
+	}
+	int19 = (40 - 36) / 2;
+	int20 = (40 - 32) / 2;
+	_, _ = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 0, -1, -1, 0, int16, int19, int20, int18);
+	int21 = 0;
+	int22 = 0;
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 1, VARPBIT[4171], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 2, VARPBIT[4172], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 3, VARPBIT[4173], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 4, VARPBIT[4174], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 5, VARPBIT[4175], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 6, VARPBIT[4176], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 7, VARPBIT[4177], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 8, VARPBIT[4178], int21, int22, int16, int19, int20, int18);
+	int21, int22 = script_506(arg0, arg1, arg2, widget3, widget4, arg5, arg6, widget7, arg8, widget9, arg10, arg11, arg12, 9, VARPBIT[4179], int21, int22, int16, int19, int20, int18);
+	return;
+}

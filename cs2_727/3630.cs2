@@ -1,0 +1,4 @@
+//script3630(3630)(int arg0, int arg1, int arg2)(void)
+if_sethide(arg0, 1)
+if_setcolor(arg1, arg2)
+return

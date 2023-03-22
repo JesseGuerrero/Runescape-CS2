@@ -1,0 +1,31 @@
+//script1618(1618)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = -1
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+if_sethide(if_gethash(287, 4), 0)
+if(load_varc(1032) == 1)
+	iVar0 = 221
+else
+	iVar0 = 222
+iVar1 = inv_size(iVar0)
+if(iVar1 != 5 * 5) {
+	send_message("Nothing happens, as if something is wrong.")
+	return
+}
+while(iVar4 < iVar1) {
+	script_1619(iVar2, iVar3, inv_getitem(iVar4, iVar0))
+	iVar2 = iVar2 + 1
+	if(iVar2 >= 5) {
+		iVar2 = 0
+		iVar3 = iVar3 + 1
+	}
+	iVar4 = iVar4 + 1
+}
+return

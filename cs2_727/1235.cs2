@@ -1,0 +1,27 @@
+//script1235(1235)(int arg0)(void)
+if_sethide(if_gethash(181, 1), 0)
+switch(load_varc(180)) {
+	case default:
+		break
+	case 1:
+		if_setmodelangle(arg0, 410, 0, 762, 510, 0, 0)
+		break
+	case 2:
+		if_setmodelangle(arg0, 410, 0, 1241, 514, 0, 0)
+		break
+	case 3:
+		if_setmodelangle(arg0, 410, 1250, 1536, 512, 0, 0)
+		break
+	case 4:
+		if_setmodelangle(arg0, 410, 1250, 0, 512, 0, 0)
+		break
+	case 5:
+		if_setmodelangle(arg0, 410, 1250, 512, 512, 0, 0)
+		break
+	case 6:
+		if_setmodelangle(arg0, 410, 1250, 1024, 512, 0, 0)
+		if_sethide(if_gethash(181, 1), 1)
+		break
+
+}
+return

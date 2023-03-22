@@ -1,0 +1,9 @@
+//script460(460)(int arg0)(void)
+if(stat_base(2) < 25)
+	if_settext(arg0, "<col=c80000>" + "A Strength level of " + to_string(25) + " is required." + "</col>")
+else
+	if(load_varpbit(2086) < 1)
+		if_settext(arg0, "<col=c80000>" + "1 Commendation required." + "</col>")
+	else
+		if_settext(arg0, to_string(((stat_base(2) ^ 2) / 600) * 35) + " XP per Commendation.")
+return

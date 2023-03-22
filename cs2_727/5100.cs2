@@ -1,0 +1,35 @@
+//script5100(5100)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, string arg21)(void)
+if_sethide(arg13, 1)
+if_sethide(arg12, 0)
+if_sethide(arg15, 1)
+instr6213(arg14, 1, "Details")
+if_settext(arg16, arg0)
+switch(arg7) {
+	case default:
+		break
+	case -2:
+		if_setgraphic(arg10, 6194)
+		break
+	case -1:
+		if_setgraphic(arg10, 6195)
+		break
+	case 0:
+		if_setgraphic(arg10, 6196)
+		break
+	case 1:
+		if_setgraphic(arg10, 6197)
+		break
+	case 2:
+		if_setgraphic(arg10, 6198)
+		break
+
+}
+if_setgraphic(arg17, arg1)
+if_setgraphic(arg18, arg2)
+if_setcolor(arg17, hsvtorgb(arg3))
+if_setcolor(arg18, hsvtorgb(arg4))
+if_setcolor(arg19, hsvtorgb(arg5))
+if_setcolor(arg20, hsvtorgb(arg6))
+instr6239(arg14, script_5111, "i1", arg0, arg8)
+if_sethide(arg13, 1)
+return

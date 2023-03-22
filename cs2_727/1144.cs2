@@ -1,0 +1,5 @@
+//script1144(1144)(int arg0)(void)
+if(instr6652(0) == 7)
+	instr6677(5, 1, 400, 600, 5, 0)
+instr6255(arg0, None, "")
+return

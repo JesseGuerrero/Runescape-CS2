@@ -1,0 +1,40 @@
+void script_611(string string0, string string1, Widget widget2, int arg3, int arg4, Sprite sprite5, Sprite sprite6, int arg7, int arg8) {
+	int int7;
+	int int8;
+	int int9;
+	string0 = removeTags(string0);
+	if (length(string0) <= 0 || length(string1) <= 0) {
+		return;
+	}
+	int7 = arg3 - (15 + arg8);
+	int8 = getMaxLineWidth(string0, int7, sprite6);
+	int9 = getLineCount(string0, int7, sprite6) * arg7 + arg8;
+	if (int9 < 15) {
+		int9 = 15;
+	}
+	int7 = int8 + 15 + arg8;
+	CHILD.createChild(widget2, 3, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setSize(int7, int9, 0, 0);
+	int7 = (arg3 - int7) / 2;
+	CHILD.setPosition(int7, VARC[49], 0, 0);
+	CHILD.setFilled(true);
+	CHILD.setTrans(255);
+	_CHILD.createChild(widget2, 4, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	_CHILD.setSize(int8, int9, 0, 0);
+	_CHILD.setPosition(int7 + 15 + arg8, VARC[49], 0, 0);
+	_CHILD.setFont(sprite5);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setTextAntiMacro(true);
+	script_612(widget2, getChildId(), getChildId(), string0, string1);
+	_CHILD.createChild(widget2, 5, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	_CHILD.setSize(15, 15, 0, 0);
+	_CHILD.setPosition(int7, VARC[49] + (int9 - 15) / 2, 0, 0);
+	_CHILD.setShadowColor(0x333333);
+	_CHILD.setSpriteTiling(true);
+	_CHILD.setSprite(1094);
+	VARC[49] = VARC[49] + int9 + 3;
+	return;
+}

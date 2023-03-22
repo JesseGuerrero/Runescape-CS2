@@ -1,0 +1,41 @@
+void script_395(Skill skill0, Widget widget1, string arg2, int arg3) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	string str1;
+	string str2;
+	string str3;
+	CHILD.setText(str(getSkillCurrentLvl(skill0)));
+	int3 = getSkillActualLvl(skill0);
+	_CHILD.setText(str(int3));
+	int4 = getSkillXp(skill0);
+	str1 = ",";
+	str2 = arg2 + " XP:";
+	str3 = script_46(int4, str1);
+	int5 = 0;
+	if (VARPBIT[4181] == 0) {
+		if (int3 < 99) {
+			int5 = datamap('i', 'i', 256, int3 + 1);
+			str2 = concat(str2, "|Next level at:|Remaining XP:");
+			str3 = concat(str3, "|" + script_46(int5, str1) + "|" + script_46(int5 - int4, str1));
+		}
+	} else {
+		str2 = concat(str2, "|Next level at:");
+		str3 = concat(str3, "|" + script_46(datamap('i', 'i', 256, int3 + 1), str1));
+	}
+	int6 = 0;
+	if (script_1138() == 1) {
+		int6 = script_1936(skill0);
+		if (int6 != -1) {
+			int6 = int6 / 10;
+			if (int6 > int4) {
+				str2 = concat(str2, "|" + "<col=7c0808>" + "XP to regain:" + "</col>");
+				str3 = concat(str3, "|" + "<col=7c0808>" + script_46(int6 - int4, str1) + "</col>");
+			}
+		}
+	}
+	widget1.hookMouseHover(&script_992(CTX_WIDGET, -1, widget(arg3), str2, str3, 495, 25 / 5));
+	VARC[2] = 0;
+	return;
+}

@@ -1,0 +1,8 @@
+//script5491(5491)()(int)
+switch(get_currentcursor()) {
+	case default:
+		break
+
+}
+return 8485
+return -1

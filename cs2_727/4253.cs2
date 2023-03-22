@@ -1,0 +1,6 @@
+//script4253(4253)()(void)
+if(load_varpbit(9030) == 1)
+	if_settext(if_gethash(917, 198), "Tutorial is ON")
+else
+	if_settext(if_gethash(917, 198), "Tutorial is OFF")
+return

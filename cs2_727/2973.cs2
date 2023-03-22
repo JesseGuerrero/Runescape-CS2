@@ -1,0 +1,30 @@
+//script2973(2973)()(void)
+if(stat(22) < 56)
+	if_setcolor(30081051, 0x868360)
+else
+	if_setcolor(30081051, 0xEAE7C4)
+if(stat(22) < 57)
+	if_setcolor(30081047, 0x868360)
+else
+	if_setcolor(30081047, 0xEAE7C4)
+if(stat(22) < 59)
+	if_setcolor(30081043, 0x868360)
+else
+	if_setcolor(30081043, 0xEAE7C4)
+if(stat(22) < 62)
+	if_setcolor(30081039, 0x868360)
+else
+	if_setcolor(30081039, 0xEAE7C4)
+if(stat(22) < 65)
+	if_setcolor(30081031, 0x868360)
+else
+	if_setcolor(30081031, 0xEAE7C4)
+if(stat(22) < 70)
+	if_setcolor(30081035, 0x868360)
+else
+	if_setcolor(30081035, 0xEAE7C4)
+if(stat(22) < 80)
+	if_setcolor(30081027, 0x868360)
+else
+	if_setcolor(30081027, 0xEAE7C4)
+return

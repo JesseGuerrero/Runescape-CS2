@@ -1,0 +1,20 @@
+//script446(446)(int arg0, int arg1)(string)
+string sVar0
+string sVar1
+string sVar2
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+if(item_stackable(arg1) == 0)
+	sVar2 = append("<col=ff981f>" + item_name(arg1) + "<col=ffffff>" + " x " + "<col=fff000>" + to_string(arg0) + "<br>", sVar2)
+else
+	if(arg0 < 100000) {
+		sVar0 = script_46(arg0, ",")
+		sVar2 = append("<col=ff981f>" + item_name(arg1) + "<col=ffffff>" + " x " + "<col=fff000>" + sVar0 + "<br>", sVar2)
+	} else  {
+		sVar0 = script_46(arg0, ",")
+		sVar1 = script_46(arg0 / 1000, ",")
+		sVar2 = append("<col=ff981f>" + item_name(arg1) + "<col=ffffff>" + " x " + "<col=ffffff>" + sVar1 + "K (" + sVar0 + ")" + "<br>", sVar2)
+	}
+return sVar2
+return ""

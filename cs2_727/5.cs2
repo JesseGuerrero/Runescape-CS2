@@ -1,0 +1,15 @@
+//script5(5)()(void)
+int iVar0
+int iVar1
+iVar0 = 30
+if(load_varpbit(6840) == 1)
+	iVar0 = 20
+iVar1 = 0
+while(iVar1 < iVar0) {
+	if(cc_find(iVar1, if_gethash(271, 7)) == 1)
+		if(script_2297(iVar1) == 1)
+			if(script_2295(iVar1) == 1)
+				cc_setgraphic(155)
+	iVar1 = iVar1 + 1
+}
+return

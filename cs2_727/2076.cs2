@@ -1,0 +1,12 @@
+//script2076(2076)()(void)
+int iVar0
+iVar0 = 0
+if(load_varc(632) == 0) {
+	if(10 - load_varc(634) > 0)
+		iVar0 = 10 - load_varc(634)
+	else
+		iVar0 = 0
+	if_settext(if_gethash(837, 5), to_string(iVar0))
+} else 
+	if_settext(if_gethash(837, 5), to_string(load_varc(638)))
+return

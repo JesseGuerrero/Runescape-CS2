@@ -1,0 +1,97 @@
+//script4866(4866)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+string sVar0
+string sVar1
+iVar6 = script_4867(arg0)
+iVar7 = script_4868(arg0)
+iVar8 = script_4869(arg0)
+iVar9 = script_4870(arg0)
+iVar10 = if_getparentlayer(iVar7)
+iVar11 = if_getparentlayer(iVar10)
+iVar12 = if_getparentlayer(iVar11)
+iVar13 = 1
+if(clan_vars_enabled() == 1)
+	iVar13 = load_clan_varbit(2581)
+iVar14 = script_5215(arg0)
+iVar15 = if_getwidth(if_getparentlayer(iVar7))
+arg1 = arg1 / 100
+arg5 = max(iVar14, arg5)
+iVar16 = (arg1 * iVar15) / arg5
+iVar17 = (iVar14 * iVar15) / arg5
+iVar18 = (arg2 * iVar15) / arg5
+iVar19 = (arg3 * iVar15) / arg5
+iVar20 = arg1 - (arg2 + arg3)
+iVar21 = (iVar20 * iVar15) / arg5
+if_settext(iVar6, to_string(arg1))
+iVar22 = 0
+if_setsize(iVar7, 0, 0, 9, min(iVar16, iVar18 - 2))
+if_setposition(iVar7, 0, 0, 0, 1)
+if_setsize(iVar8, 0, 0, 9, min(iVar16 - iVar18, iVar19))
+if_setposition(iVar8, 0, 0, 0, iVar18)
+if_setsize(iVar9, 0, 0, 9, min(iVar16 - (iVar18 + iVar19), iVar21 - 2))
+if_setposition(iVar9, 0, 0, 0, (iVar18 + iVar19) + 1)
+iVar23 = -1
+iVar24 = -1
+iVar25 = 7317
+iVar26 = 7314
+iVar23 = script_5223(arg0).get(0)
+if(iVar23 != -1)
+	if(iVar24 != -1) {
+		iVar17 = iVar17 + 82
+		iVar17 = iVar17 - (if_getwidth(iVar24) / 2)
+		if(load_clan_var(2744) == arg0) {
+			iVar25 = 7316
+			iVar26 = 7315
+		}
+		if_sethide(iVar23, 1)
+		if_sethide(iVar24, 1)
+		if(iVar14 > 0) {
+			if_setgraphic(iVar23, iVar25)
+			if_setgraphic(iVar24, iVar26)
+			if_sethide(iVar23, 0)
+			if_sethide(iVar24, 0)
+			if_setposition(iVar24, 1, 0, 0, iVar17)
+		}
+	}
+if(script_5956(arg0) == 3 || script_5956(arg0) == 2) {
+	if_sethide(script_5967(arg0), 0)
+	if_setgraphic(script_5967(arg0), 9996)
+} else 
+	if(script_5956(arg0) == 1) {
+		if_sethide(script_5967(arg0), 0)
+		if_setgraphic(script_5967(arg0), 9997)
+	} else 
+		if_sethide(script_5967(arg0), 1)
+sVar0 = enum(4285, arg0, 'i', 's')
+sVar1 = sVar0 + "<br>" + "Total : " + to_string(arg1) + "<br>" + "Upkeep : " + to_string(arg2) + "<br>" + "Upgrades : " + to_string(arg3) + "<br>" + "(Upgrades part-paid : " + to_string(arg4) + ")" + "<br>" + "Surplus : " + to_string(iVar20)
+if(iVar14 > 0)
+	sVar1 = append("<br>" + "Goal: " + to_string(iVar14), sVar1)
+if(load_clan_var(2744) == arg0)
+	sVar1 = append(" (Primary)", sVar1)
+iVar27 = 2
+if(if_gety(iVar12) > (if_getheight(if_getparentlayer(iVar12)) / 2) - 10)
+	iVar27 = 0
+if_setonmouseover(iVar12, script_4538, "IIisifdiiiiii", if_gethash(1260, 324), -2147483645, -1, sVar1, 120, 3793, 3793, 16777215, 13, 4, iVar27, -2147483647, -2147483646)
+hook_mouse_exit(iVar12, script_40, "I", if_gethash(1260, 324))
+return

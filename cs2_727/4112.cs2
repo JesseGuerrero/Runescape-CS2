@@ -1,0 +1,24 @@
+//script4112(4112)(int arg0)(void)
+int iVar1
+if(load_varp(1109) == -1)
+	return
+iVar1 = 0
+if(arg0 > 100)
+	if(load_varc(85) > 2045222520)
+		iVar1 = 2147483647
+	else
+		if(arg0 < 100)
+			if(load_varc(85) <= 1)
+				iVar1 = 1
+			else {
+				iVar1 = scale(load_varc(85), 100, arg0)
+				if(iVar1 == load_varc(85))
+					if(arg0 >= 100)
+						iVar1 = iVar1 + 1
+					else
+						iVar1 = iVar1 - 1
+			}
+store_varc(85, iVar1)
+if_settext(if_gethash(105, 153), tostring_localized(1, load_varc(85)) + " gp")
+script_609()
+return

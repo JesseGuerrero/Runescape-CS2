@@ -1,0 +1,11 @@
+//script2294(2294)(int arg0)(int)
+if(load_varpbit(6840) == 1)
+	if(struct_param(739, enum(863, arg0, 'i', 'J')) == 1)
+		return 1
+	else
+		return 0
+if(struct_param(739, enum(2279, arg0, 'i', 'J')) == 1)
+	return 1
+else
+	return 0
+return 0

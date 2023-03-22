@@ -1,0 +1,6 @@
+//script1559(1559)(int arg0)(void)
+if(instr6661(-1, if_gethash(752, 9)) == 1)
+	return
+instr6342(if_gethash(752, 9), None, "")
+script_1560(arg0)
+return

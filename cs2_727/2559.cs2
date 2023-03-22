@@ -1,0 +1,11 @@
+//script2559(2559)(int arg0, int arg1)(void)
+if(if_getspriteid(arg0) == 1951)
+	if_setgraphic(arg0, 1946)
+else
+	if(if_getspriteid(arg0) == 1952)
+		if_setgraphic(arg0, 1947)
+	else
+		if(if_getspriteid(arg0) == 1954)
+			if_setgraphic(arg0, 1949)
+script_41(arg1)
+return

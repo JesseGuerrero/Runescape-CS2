@@ -1,0 +1,11 @@
+void script_628(Widget widget0, int arg1, int arg2, string arg3) {
+	playSoundEffect(2266, 1, 0);
+	if (CHILD.setChild(widget0, arg2) == true) {
+		CHILD.setText("<col=ffffff>" + "Loading..." + "</col>");
+		CHILD.hookFrame(&script_629(CTX_WIDGET, CTX_WIDGET_CHILD, arg3, getClientCycle() + 30));
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

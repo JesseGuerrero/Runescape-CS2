@@ -1,0 +1,6 @@
+void script_101(int arg0) {
+	if (VARC[5] == arg0 || VARC[5] <= 0 || arg0 <= 0) {
+		script_299(1, 1);
+	}
+	return;
+}

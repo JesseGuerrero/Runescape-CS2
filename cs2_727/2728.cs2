@@ -1,0 +1,12 @@
+//script2728(2728)()(int)
+int iVar0
+if(script_2761() > 100)
+	return 0
+iVar0 = enum_getoutputcount(681)
+while(iVar0 > 0) {
+	if(stat_base(enum(681, iVar0, 'i', 'S')) > 20)
+		return 0
+	iVar0 = iVar0 - 1
+}
+return 1
+return 0

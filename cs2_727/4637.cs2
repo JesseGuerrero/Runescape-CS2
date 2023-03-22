@@ -1,0 +1,87 @@
+//script4637(4637)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+sVar0 = ""
+iVar1 = 0
+iVar2 = 0
+if_sethide(if_gethash(153, 52), 0)
+if_settext(if_gethash(153, 50), "")
+sound_vorbis_volume(150, 0, 1, 6185)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(if_gethide(if_gethash(153, 104)) == 0)
+			return
+		sVar0 = "Three's Company" + "<br>" + "<br>"
+		if(script_4643(1) == 0)
+			sVar0 = append("<col=cb6b3d>" + "Attack 30, Ranged 30, Magic 30 required to play the unabridged version." + "<br>" + "<br>", sVar0)
+		sVar0 = append("Manage a party of adventurers in this saga. " + "<br>" + "<br>" + "+ Select 'Switch' to change to a target character. " + "<br>" + "+ Select 'Mark' on an enemy to focus your allies' attacks on that target." + "<br>" + "+ Human enemies will focus their attacks on you, animals will attack your allies.", sVar0)
+		cc_create(0, 4, 10027050)
+		break
+	case 2:
+		if(if_gethide(if_gethash(153, 117)) == 0)
+			return
+		sVar0 = "Vengeance" + "<br>" + "<br>"
+		if(script_4643(2) == 0)
+			sVar0 = append("<col=cb6b3d>" + "Agility 55, Thieving 55 required to play the unabridged version." + "<br>" + "<br>", sVar0)
+		sVar0 = append("A tragic tale of grief, warped into furious vengeance." + "<br>" + "<br>" + "+ At some point in this saga, you will become poisoned. Keep an eye on your health. You will not take poison damage whilst in a conversation." + "<br>" + "+ Look for alternative methods of defeating your human foes. Your environment may offer more indirect solutions." + "<br>" + "+ Hellhounds will drop antipoison elixirs that will lessen your suffering temporarily." + "<br>" + "+ Spiders drop food, but their bites may negate the effect of an antipoison elixir." + "<br>" + "+ Choices you make in the saga will lead you towards 'noble' or 'ruthless' vengeance. Each has a different special attack. The further along that path you are, the more potent the special attack.", sVar0)
+		break
+	case 4:
+		if(if_gethide(if_gethash(153, 130)) == 0)
+			return
+		sVar0 = "Thok It To 'Em" + "<br>" + "<br>"
+		if(script_4643(4) == 0)
+			sVar0 = append("<col=cb6b3d>" + "Strength 70 required to play the unabridged version." + "<br>" + "<br>", sVar0)
+		sVar0 = append("Control mighty Thok, Fremennik warrior." + "<br>" + "<br>" + "+ Thok heals damage and recovers special attack by killing enemies. Bosses provide greater health and special attack boosts than normal enemies." + "<br>" + "+ Thok can eat food raw. He likes the taste." + "<br>" + "+ Thok will randomly choose a special attack when you perform one. These include the awe-inspiring 'Northern Kiss'.", sVar0)
+		break
+	case 5:
+		if(if_gethide(if_gethash(153, 173)) == 0)
+			return
+		sVar0 = "Love stories are so often tied to tragedy, and few are as tragic as this tale of two sorcerors."
+		break
+	case 3:
+		if(if_gethide(if_gethash(153, 206)) == 0)
+			return
+		sVar0 = "Nadir" + "<br>" + "<br>"
+		if(script_4643(3) == 0)
+			sVar0 = append("<col=cb6b3d>" + "Attack 60, Thieving 45 required to play the unabridged version." + "<br>" + "<br>", sVar0)
+		sVar0 = append("Take command of the mysterious Moia." + "<br>" + "<br>" + "+ Moia works best undetected. Find information in the minds of others to progress safely." + "<br>" + "+ Avoid the suspicions of those around you to avoid later combat." + "<br>" + "+ At some point in the saga, Moia will enter a special combat mode. Keep an eye on her ability meter." + "<br>" + "+ There is a wealth of information to find. Stay a while, and listen to the people of Daemonheim.", sVar0)
+		break
+	case 6:
+		if(if_gethide(if_gethash(153, 190)) == 0)
+			return
+		sVar0 = "Thok Your Block Off" + "<br>" + "<br>"
+		iVar1 = script_4644(4).get(0)
+		if(iVar1 == 0)
+			if(iVar2 == 0)
+				sVar0 = append("<col=cb6b3d>" + "You must complete " + "</col>" + "Thok It To 'Em" + "<col=cb6b3d>" + " to play this saga." + "<br>" + "<br>", sVar0)
+			else
+				if(script_4643(6) == 0)
+					sVar0 = append("<col=cb6b3d>" + "Strength 75 required to play the unabridged version." + "<br>" + "<br>", sVar0)
+		sVar0 = append("Mighty Thok returns with his brother Marmaros." + "<br>" + "<br>" + "+ Kill more enemies than your brother Marmaros to become the best brother." + "<br>" + "+ Thok heals damage and recovers special attack by killing enemies." + "<br>" + "+ Thok can heal by eating raw fish." + "<br>" + "+ Thok brings his special attack 'Northern Kiss' into battle once again." + "<br>" + "+ Thok will upgrade his fists during the tale, dealing greater damage." + "<br>" + "+ Thok can obtain a special item that will yield him many fish.", sVar0)
+		break
+
+}
+if_settext(if_gethash(153, 44), sVar0)
+iVar3 = paramheight(sVar0, 495, 366)
+iVar4 = iVar3 * 15
+if(cc_find(0, if_gethash(153, 42)) == 1)
+	if(arg0 == 1) {
+		cc_setposition(0, 0, iVar4 + 7, 5)
+		cc_setsize(0, 0, 15, 366)
+		cc_settextalign(0, 1, 1)
+		sVar0 = "All three characters must survive."
+		cc_settext(sVar0)
+		cc_settextfont(496)
+		cc_setcolor(cb6b3d)
+		iVar4 = iVar4 + 24
+	} else 
+		cc_delete()
+if_setscrollsize(10027050, iVar4, 0)
+script_72(10027051, 10027050, 0)
+script_4638(arg0)
+return

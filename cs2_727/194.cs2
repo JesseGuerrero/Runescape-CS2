@@ -1,0 +1,7 @@
+//script194(194)(int arg0)(void)
+if(arg0 == 1)
+	if(fc_getchatcount() > 0)
+		fc_leavechat()
+	else
+		script_111()
+return

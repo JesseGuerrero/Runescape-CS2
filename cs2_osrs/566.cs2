@@ -1,0 +1,16 @@
+void script_566(Widget widget0, int arg1, int arg2, Model model3) {
+	_CHILD.setModel(model3);
+	if (arg1 == 1) {
+		_CHILD.hookFrame(&script_567(CTX_WIDGET, CTX_WIDGET_CHILD));
+		CHILD.setTrans(255);
+		CHILD.hookMouseEnter(null);
+		CHILD.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+		return;
+	}
+	_CHILD.hookFrame(null);
+	CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 225, null));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 255, null));
+	widget0.hookOptionClick(&script_563(CTX_MENU_OPTION, arg2, model3));
+	return;
+}

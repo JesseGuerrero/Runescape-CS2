@@ -1,0 +1,4 @@
+//script4452(4452)(int arg0)(void)
+if(activeclanchannel_find_affined() == 1)
+	script_4436(72744974, arg0)
+return

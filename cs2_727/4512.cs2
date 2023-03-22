@@ -1,0 +1,14 @@
+//script4512(4512)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+if(arg0 == -1 || arg1 == -1)
+	return
+iVar2 = struct_param(1351, arg1)
+iVar3 = struct_param(1358, arg1)
+cc_deleteall(arg0)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(0, 0, 60, 60)
+cc_setgraphic(iVar2)
+cc_settrans(iVar3)
+return

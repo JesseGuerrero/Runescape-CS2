@@ -1,0 +1,23 @@
+void script_1489(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4, int arg5) {
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int6 = widget0.getWidth();
+	int7 = widget0.getHeight();
+	if (int6 == arg4 && int7 == arg5) {
+		return;
+	}
+	int8 = int7 - 10;
+	int9 = 800;
+	if (int9 > int8) {
+		int9 = int8;
+	}
+	int10 = getScrollMaxV(widget2);
+	widget1.setSize(500, int9, 0, 0);
+	script_231(widget3, widget2);
+	script_72(widget3, widget2, VARC[63]);
+	widget0.hookFrame(&script_1488(widget0, widget1, widget2, widget3, int6, int7));
+	return;
+}

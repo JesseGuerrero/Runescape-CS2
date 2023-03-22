@@ -1,0 +1,21 @@
+//script4337(4337)(int arg0)(string)
+int iVar1
+int iVar2
+string sVar0
+string sVar1
+string sVar2
+sVar0 = "+"
+if(arg0 < 0) {
+	sVar0 = "-"
+	arg0 = 0 - arg0
+}
+iVar1 = arg0 / 60
+iVar2 = modulo(60, arg0)
+sVar1 = to_string(iVar1)
+if(iVar1 < 10)
+	sVar1 = "0" + to_string(iVar1)
+sVar2 = to_string(iVar2)
+if(iVar2 < 10)
+	sVar2 = "0" + to_string(iVar2)
+return sVar0 + sVar1 + ":" + sVar2
+return ""

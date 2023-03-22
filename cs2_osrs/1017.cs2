@@ -1,0 +1,4 @@
+void script_1017(boolean arg0, Color color1, string string2, Widget widget3) {
+	_ = script_1018(arg0, color1, string2, widget3);
+	return;
+}

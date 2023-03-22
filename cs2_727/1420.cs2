@@ -1,0 +1,8 @@
+//script1420(1420)()(int)
+if(load_varc(173) != 1)
+	if(load_varpbit(542) != 1 || load_varpbit(542) == 1 || load_varpbit(10196) == 1)
+		if(instr6122() == 1)
+			return 1
+		else
+			return 0
+return 0

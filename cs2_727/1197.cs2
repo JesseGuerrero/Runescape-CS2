@@ -1,0 +1,16 @@
+//script1197(1197)(int arg0)(void)
+if(arg0 >= 6)
+	return
+else
+	if(arg0 == 0) {
+		instr6677(arg0, 1, 400, 100, arg0, 0)
+		instr6255(if_gethash(888, 0), script_1196, "ii", arg0 + 1, client_clock())
+	} else 
+		if(arg0 == 5) {
+			instr6677(arg0, 1, 10, 400, arg0, 0)
+			instr6255(if_gethash(888, 0), script_1196, "ii", arg0 + 1, client_clock())
+		} else  {
+			instr6677(arg0, 1, 400, 400, arg0, 0)
+			instr6255(if_gethash(888, 0), script_1196, "ii", arg0 + 1, client_clock())
+		}
+return

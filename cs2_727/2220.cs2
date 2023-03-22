@@ -1,0 +1,41 @@
+//script2220(2220)()(void)
+if(load_varpbit(7324) == 1)
+	if_sethide(if_gethash(931, 121), 1)
+else
+	if_sethide(if_gethash(931, 121), 0)
+if(load_varpbit(7325) == 1)
+	if_sethide(if_gethash(931, 122), 1)
+else
+	if_sethide(if_gethash(931, 122), 0)
+if(load_varpbit(7326) == 1)
+	if_sethide(if_gethash(931, 123), 1)
+else
+	if_sethide(if_gethash(931, 123), 0)
+if_settext(if_gethash(931, 154), to_string(load_varc(1126)))
+if_settext(if_gethash(931, 148), to_string(load_varc(1127)))
+if_settext(if_gethash(931, 142), to_string(load_varc(1128)))
+if_settext(if_gethash(931, 112), to_string(load_varc(1129)))
+if_settext(if_gethash(931, 136), to_string(load_varc(1131)))
+if_settext(if_gethash(931, 130), to_string(load_varc(1130)))
+if_settext(if_gethash(931, 155), "Total Workers: " + to_string(load_varc(1135)))
+if_settext(if_gethash(931, 115), to_string(load_varp(1687)) + "/15")
+if_settext(if_gethash(931, 117), to_string(load_varp(1688)) + "/15")
+if_settext(if_gethash(931, 116), to_string(load_varp(1686)) + "/15")
+if_settext(if_gethash(931, 120), to_string(load_varp(1689)) + "/7")
+if_settext(if_gethash(931, 118), to_string(load_varp(1690)) + "/7")
+if_settext(if_gethash(931, 119), to_string(load_varp(1691)) + "/7")
+script_2221()
+if_settext(if_gethash(931, 20), "Turn " + to_string(load_varp(1674)) + "/15")
+if(load_varc(1132) == 0)
+	if_setgraphic(if_gethash(931, 121), 941)
+else
+	if_setgraphic(if_gethash(931, 121), 942)
+if(load_varc(1134) == 0)
+	if_setgraphic(if_gethash(931, 122), 941)
+else
+	if_setgraphic(if_gethash(931, 122), 942)
+if(load_varc(1133) == 0)
+	if_setgraphic(if_gethash(931, 123), 941)
+else
+	if_setgraphic(if_gethash(931, 123), 942)
+return

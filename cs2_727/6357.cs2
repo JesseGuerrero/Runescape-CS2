@@ -1,0 +1,65 @@
+//script6357(6357)(int arg0)(int)
+if(arg0 < 0 || arg0 >= 8)
+	return -1
+if(instr6644() >= 2)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			return 48890138
+
+		case 1:
+			return 48890160
+
+		case 2:
+			return 48890182
+
+		case 3:
+			return 48890204
+
+		case 4:
+			return 48890226
+
+		case 5:
+			return 48890248
+
+		case 6:
+			return 48890270
+
+		case 7:
+			return 48890292
+
+
+	}
+else
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			return 35913977
+
+		case 1:
+			return 35913999
+
+		case 2:
+			return 35914021
+
+		case 3:
+			return 35914043
+
+		case 4:
+			return 35914065
+
+		case 5:
+			return 35914087
+
+		case 6:
+			return 35914109
+
+		case 7:
+			return 35914131
+
+
+	}
+return -1
+return -1

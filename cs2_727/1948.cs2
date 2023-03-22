@@ -1,0 +1,6 @@
+//script1948(1948)()(void)
+if_sethide(if_gethash(810, 84), 0)
+if_sethide(if_gethash(810, 85), 1)
+if_sethide(if_gethash(810, 86), 0)
+if_sethide(if_gethash(810, 144), 1)
+return

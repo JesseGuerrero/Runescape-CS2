@@ -1,0 +1,141 @@
+//script2695(2695)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(void)
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = -1
+iVar15 = -1
+iVar16 = -1
+iVar17 = -1
+iVar18 = -1
+iVar19 = -1
+if(arg10 == 1) {
+	iVar14 = 48627716
+	iVar15 = 48627732
+	iVar16 = 48627733
+	iVar17 = 48627734
+	iVar18 = 48627715
+	iVar19 = 48627718
+} else 
+	if(arg10 == 2) {
+		iVar14 = 59703297
+		iVar15 = 59703370
+		iVar16 = 59703369
+		iVar17 = 59703362
+		iVar18 = 59703361
+		iVar19 = 59703299
+	} else  {
+		iVar14 = 57802756
+		iVar15 = 57802757
+		iVar16 = 57802758
+		iVar17 = 57802759
+		iVar18 = 57802755
+		iVar19 = 57802780
+	}
+iVar20 = 0
+if(cc_find(arg1, arg0) == 1) {
+	iVar11 = script_1743() + script_3365(iVar19)
+	iVar20 = script_1744()
+	iVar12 = ((iVar20 + cc_getheight()) - 1) + script_3366(iVar19)
+	iVar13 = cc_getwidth()
+}
+if(if_gethide(iVar15) == 0)
+	if(if_getx(iVar15) == iVar11)
+		if(if_gety(iVar15) == iVar12)
+			return
+cc_deleteall(iVar16)
+cc_deleteall(iVar17)
+if_setscrollpos(iVar16, 0, 0)
+iVar21 = struct_param(683, arg5)
+iVar22 = script_2581(arg5)
+iVar23 = script_829(arg5, iVar21)
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+while(iVar25 <= iVar23) {
+	if(iVar26 != iVar22) {
+		cc_create(if_getnextsubid(iVar16), 4, iVar16)
+		cc_setsize(0, 1, 15, 2)
+		cc_setposition(0, 1, iVar24, 0)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		instr6091(script_1356, "Iii", -2147483645, -2147483643, 2511483)
+		if(arg5 != 1009)
+			if(iVar25 < iVar23) {
+				cc_setcolor(ebe0bc)
+				instr6092(script_1356, "Iii", -2147483645, -2147483643, 15458492)
+			} else  {
+				cc_setcolor(b1e1)
+				instr6092(script_1356, "Iii", -2147483645, -2147483643, 45537)
+			}
+		else
+			if(iVar25 > 0) {
+				cc_setcolor(ebe0bc)
+				instr6092(script_1356, "Iii", -2147483645, -2147483643, 15458492)
+			} else  {
+				cc_setcolor(b1e1)
+				instr6092(script_1356, "Iii", -2147483645, -2147483643, 45537)
+			}
+		if(iVar21 != -1)
+			cc_settext(enum(iVar21, iVar26, 'i', 's'))
+		else
+			cc_settext(script_2693(iVar25))
+		instr6088(script_2699, "iJiiiii", iVar26, arg5, arg6, arg7, arg8, arg9, arg10)
+		iVar24 = iVar24 + cc_getheight()
+	}
+	iVar25 = iVar25 + 1
+	iVar26 = iVar26 + 1
+}
+iVar24 = iVar24 + 2
+iVar27 = 0
+if(arg10 == 1)
+	iVar27 = 334
+else
+	iVar27 = if_getheight(iVar14)
+iVar28 = 1
+if(iVar27 < iVar12 + iVar24) {
+	iVar12 = ((iVar20 + 1) - iVar24) + script_3366(iVar19)
+	if_setposition(iVar18, 0, 1, 0, 0)
+	iVar28 = 0
+} else  {
+	if_setposition(iVar18, 2, 1, 0, 0)
+	if_setscrollsize(iVar16, 0, 0)
+	if_sethide(iVar17, 1)
+}
+if_setposition(iVar15, 0, 0, iVar12, iVar11)
+if_setsize(iVar15, 0, 0, iVar24, iVar13)
+if_sethide(iVar15, 0)
+if(cc_find(arg2, arg0) == 1)
+	cc_setgraphic(2556)
+if(arg4 != -1)
+	if(cc_find(arg4, arg0) == 1)
+		cc_setcolor(b2aa9f)
+if(cc_find(arg1, arg0) == 1) {
+	instr6088(script_2696, "IiiiiJiiiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)
+	instr6091(script_2691, "Ii1ii1", -2147483645, arg2, 1, arg3, 8419437, 0)
+	instr6092(script_2691, "Ii1ii1", -2147483645, arg2, 0, arg3, 6249298, 0)
+	if(cc_find(arg3, arg0) == 1) {
+		cc_setcolor(b2aa9f)
+		if(iVar28 == 1)
+			cc_setsize(0, 0, cc_getheight() + 5, cc_getwidth())
+	}
+}
+hook_mouse_press(iVar14, script_2696, "IiiiiJiiiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)
+return

@@ -1,0 +1,4 @@
+//script3192(3192)()(void)
+script_3194()
+script_3177(load_varc(6), load_varc(1662), load_varc_string(279))
+return

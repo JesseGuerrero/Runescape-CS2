@@ -1,0 +1,4 @@
+void script_917(int arg0, int arg1) {
+	VARC[172], VARC[173] = arg0, arg1;
+	return;
+}

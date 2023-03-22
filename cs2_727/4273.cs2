@@ -1,0 +1,47 @@
+//script4273(4273)()(void)
+if_sethide(if_gethash(1083, 161), 1)
+if_sethide(if_gethash(1083, 160), 1)
+if_sethide(if_gethash(1083, 162), 1)
+if_sethide(if_gethash(1083, 164), 0)
+if_sethide(if_gethash(1083, 157), 1)
+if_sethide(if_gethash(1083, 158), 1)
+if_sethide(if_gethash(1083, 159), 0)
+if_sethide(if_gethash(1083, 243), 1)
+if_sethide(if_gethash(1083, 253), 1)
+if_sethide(if_gethash(1083, 394), 0)
+if_sethide(if_gethash(1083, 165), 1)
+if_settext(if_gethash(1083, 415), to_string(2 * 10))
+if(stat_base(6) < 83)
+	if_settext(if_gethash(1083, 416), to_string((2 / 2) * 10) + " (halved)")
+else
+	if_settext(if_gethash(1083, 416), to_string(2 * 10))
+if(stat_base(6) < 80)
+	if_settext(if_gethash(1083, 417), to_string((12 / 2) * 10) + " (halved)")
+else
+	if_settext(if_gethash(1083, 417), to_string(12 * 10))
+if(stat_base(6) < 86)
+	if_settext(if_gethash(1083, 418), to_string((2 / 2) * 10) + " (halved)")
+else
+	if_settext(if_gethash(1083, 418), to_string(2 * 10))
+if(stat_base(6) < 91)
+	if_settext(if_gethash(1083, 419), to_string((10 / 2) * 10) + " (halved)")
+else
+	if_settext(if_gethash(1083, 419), to_string(10 * 10))
+if_settext(if_gethash(1083, 420), "Magic and Farming")
+if(stat_base(6) < 83)
+	if_settext(if_gethash(1083, 421), "Farming (no Magic)")
+else
+	if_settext(if_gethash(1083, 421), "Magic and Farming")
+if(stat_base(6) < 80)
+	if_settext(if_gethash(1083, 422), "Crafting (no Magic)")
+else
+	if_settext(if_gethash(1083, 422), "Magic and Crafting")
+if(stat_base(6) < 86)
+	if_settext(if_gethash(1083, 423), "Construction (no Magic)")
+else
+	if_settext(if_gethash(1083, 423), "Magic and Construction")
+if(stat_base(6) < 91)
+	if_settext(if_gethash(1083, 424), "Agility (no Magic)")
+else
+	if_settext(if_gethash(1083, 424), "Magic and Agility")
+return

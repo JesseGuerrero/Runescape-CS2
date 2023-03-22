@@ -1,0 +1,46 @@
+//script1465(1465)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+string sVar2
+sVar0 = "Total number of " + "<col=ba1626>" + "free" + "</col>" + " bank slots used"
+sVar1 = "Total number of " + "<col=ba1626>" + "member" + "</col>" + " bank slots used"
+sVar2 = "Total number of " + "<col=ba1626>" + "demo" + "</col>" + " bank slots used"
+iVar0 = script_1329()
+iVar1 = script_1248() - iVar0
+iVar2 = load_varc(1038)
+iVar3 = load_varc(192) - iVar2
+iVar4 = (iVar0 - iVar2) * -1
+iVar5 = iVar3 - (713 - 1)
+if_sethide(if_gethash(762, 22), 0)
+if_sethide(if_gethash(762, 23), 1)
+if(iVar5 > 0) {
+	iVar2 = iVar2 + iVar5
+	iVar3 = 713 - 1
+	if(iVar5 == 1)
+		sVar0 = "Total number of " + "<col=ba1626>" + "free" + "</col>" + " bank slots used" + "<br>" + "<col=ba1626>" + "Note: this includes an overflow of 1 member item" + "</col>"
+	else
+		sVar0 = "Total number of " + "<col=ba1626>" + "free" + "</col>" + " bank slots used" + "<br>" + "<col=ba1626>" + "Note: this includes an overflow of " + to_string(iVar5) + " member items" + "</col>"
+	sVar1 = "Total number of " + "<col=ba1626>" + "member" + "</col>" + " bank slots used"
+} else 
+	if(iVar4 > 0) {
+		iVar3 = iVar3 + iVar4
+		iVar2 = iVar0
+		sVar0 = "Total number of " + "<col=ba1626>" + "free" + "</col>" + " bank slots used"
+		if(iVar4 == 1)
+			sVar1 = "Total number of " + "<col=ba1626>" + "member" + "</col>" + " bank slots used" + "<br>" + "<col=ba1626>" + "Note: this includes an overflow of 1 free item" + "</col>"
+		else
+			sVar1 = "Total number of " + "<col=ba1626>" + "member" + "</col>" + " bank slots used" + "<br>" + "<col=ba1626>" + "Note: this includes an overflow of " + to_string(iVar4) + " free items" + "</col>"
+	}
+if_settext(if_gethash(762, 29), to_string(iVar2))
+if_settext(if_gethash(762, 31), to_string(iVar3))
+if_setonmouseover(if_gethash(762, 29), script_1160, "IiIsii", -2147483645, -1, if_gethash(762, 121), sVar0, 25, 150)
+if_setonmouseover(if_gethash(762, 31), script_1160, "IiIsii", -2147483645, -1, if_gethash(762, 121), sVar1, 25, 150)
+if_settext(if_gethash(762, 30), to_string(iVar0))
+if_settext(if_gethash(762, 32), to_string(iVar1))
+return

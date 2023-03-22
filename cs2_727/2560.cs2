@@ -1,0 +1,12 @@
+//script2560(2560)()(void)
+if_settext(if_gethash(845, 10), enum(2385, 1, 'i', 's'))
+if_settext(if_gethash(845, 14), enum(2385, 2, 'i', 's'))
+if_settext(if_gethash(845, 18), enum(2385, 3, 'i', 's'))
+if_settext(if_gethash(845, 22), enum(2385, 4, 'i', 's'))
+if_settext(if_gethash(845, 26), enum(2385, 5, 'i', 's'))
+if_settext(if_gethash(845, 9), "x " + to_string(load_varc(828)))
+if_settext(if_gethash(845, 13), "x " + to_string(load_varc(829)))
+if_settext(if_gethash(845, 17), "x " + to_string(load_varc(830)))
+if_settext(if_gethash(845, 21), "x " + to_string(load_varc(831)))
+if_settext(if_gethash(845, 25), "x " + to_string(load_varc(832)))
+return

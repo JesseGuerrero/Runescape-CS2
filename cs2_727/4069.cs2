@@ -1,0 +1,4 @@
+//script4069(4069)()(void)
+store_varc(1431, 1)
+instr6342(if_gethash(1058, 68), script_4070, "i", client_clock())
+return

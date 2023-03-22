@@ -1,0 +1,46 @@
+void script_263(Widget widget0, int arg1, int arg2, int arg3) {
+	int int4;
+	int int5;
+	int int6;
+	int4 = pow(50, 2);
+	int5 = 50 * 2;
+	int6 = getClientCycle() - arg3;
+	if (int6 < 50) {
+		if (int6 < 0) {
+			int6 = 0;
+		} else if (int6 == 1) {
+			playSoundEffect(2201, 1, 0);
+		}
+		int6 = 50 - int6;
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setTrans(mathMethod4006(0, int6, 0, 50, 255));
+		}
+		if (CHILD.setChild(widget0, arg2) == true) {
+			CHILD.setPosition(mathMethod4006(0, pow(int6, 2), 0, int4, 16384), CHILD.getY(), 3, 0);
+		}
+		return;
+	}
+	if (int6 < int5) {
+		return;
+	}
+	if (int6 < 50 * 3) {
+		if (int6 == int5) {
+			playSoundEffect(2201, 1, 0);
+		}
+		int6 = int6 - int5;
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setTrans(mathMethod4006(0, int6, 0, 50, 255));
+		}
+		if (CHILD.setChild(widget0, arg2) == true) {
+			CHILD.setPosition(mathMethod4006(0, pow(int6, 2), 0, int4, 16384), CHILD.getY(), 5, 0);
+		}
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.deleteChild();
+	}
+	if (CHILD.setChild(widget0, arg2) == true) {
+		CHILD.deleteChild();
+	}
+	return;
+}

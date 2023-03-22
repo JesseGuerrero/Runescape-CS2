@@ -1,0 +1,302 @@
+//script1016(1016)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1436, 1, "You now have the Mining level required to mine " + "<col=000080>" + "rune essence" + "</col>" + " (after Rune Mysteries).", "Rune essence" + "<br>" + " (after Rune Mysteries)"
+
+			case 1:
+				return 434, 1, "You can now mine " + "<col=000080>" + "clay" + "</col>" + ".", "Clay"
+
+			case 2:
+				return 436, 1, "You can now mine " + "<col=000080>" + "copper ore" + "</col>" + ".", "Copper ore"
+
+			case 3:
+				return 438, 1, "You can now mine " + "<col=000080>" + "tin ore" + "</col>" + ".", "Tin ore"
+
+			case 4:
+				return 3211, 10, "Members can now mine " + "<col=000080>" + "limestone" + "</col>" + ".", "Members: Limestone"
+
+			case 5:
+				return 668, 10, "You can now mine " + "<col=000080>" + "blurite ore" + "</col>" + ".", "Blurite ore"
+
+			case 6:
+				return 440, 15, "You can now mine " + "<col=000080>" + "iron ore" + "</col>" + ".", "Iron ore"
+
+			case 7:
+				return 2892, 20, "Members now have the Mining level required to mine " + "<col=000080>" + "elemental ore" + "</col>" + " (after starting Elemental Workshop).", "Members: Elemental ore" + "<br>" + " (after starting Elemental Workshop)"
+
+			case 8:
+				return 442, 20, "You can now mine " + "<col=000080>" + "silver ore" + "</col>" + ".", "Silver ore"
+
+			case 9:
+				return 453, 30, "You can now mine " + "<col=000080>" + "coal" + "</col>" + ".", "Coal"
+
+			case 10:
+				return 7936, 30, "Members now have the Mining level required to mine " + "<col=000080>" + "pure essence" + "</col>" + " (after Rune Mysteries).", "Members: Pure essence" + "<br>" + " (after Rune Mysteries)"
+
+			case 11:
+				return 6977, 35, "Members can now mine " + "<col=000080>" + "sandstone" + "</col>" + ".", "Members: Sandstone"
+
+			case 12:
+				return 444, 40, "You can now mine " + "<col=000080>" + "gold" + "</col>" + ".", "Gold"
+
+			case 13:
+				return 6983, 45, "Members can now mine " + "<col=000080>" + "granite.", "Members: Granite"
+
+			case 14:
+				return 12630, 46, "Members can now mine " + "<col=000080>" + "rubium ore" + "</col>" + " (after Kennith's Concerns).", "Members: Rubium ore" + "<br>" + " (after Kennith's Concerns)"
+
+			case 15:
+				return 447, 55, "You can now mine " + "<col=000080>" + "mithril ore" + "</col>" + ".", "Mithril ore"
+
+			case 16:
+				return 449, 70, "You can now mine " + "<col=000080>" + "adamantite ore" + "</col>" + ".", "Adamantite ore"
+
+			case 17:
+				return 21778, 77, "Members can now mine " + "<col=000080>" + "bane ore" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Bane ore" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 18:
+				return 451, 85, "You can now mine " + "<col=000080>" + "runite ore" + "</col>" + ".", "Runite ore"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21340, 1, "Members can now use a " + "<col=000080>" + "Dwarven Army Axe" + "</col>" + ".", "Members: Dwarven Army Axe"
+
+			case 1:
+				return 1265, 1, "You can now use " + "<col=000080>" + "bronze pickaxes" + "</col>" + ".", "Bronze pickaxe"
+
+			case 2:
+				return 1267, 1, "You can now use " + "<col=000080>" + "iron pickaxes" + "</col>" + ".", "Iron pickaxe"
+
+			case 3:
+				return 1269, 6, "You can now use " + "<col=000080>" + "steel pickaxes" + "</col>" + ".", "Steel pickaxe"
+
+			case 4:
+				return 1273, 21, "You can now use " + "<col=000080>" + "mithril pickaxes" + "</col>" + ".", "Mithril pickaxe"
+
+			case 5:
+				return 1271, 31, "You can now use " + "<col=000080>" + "adamant pickaxes" + "</col>" + ".", "Adamant pickaxe"
+
+			case 6:
+				return 18339, 35, "You can now use " + "<col=000080>" + "coal bags" + "</col>" + ". (You also need level 35 Dungeoneering.)", "Coal bag" + "<br>" + " (with 35 Dungeoneering)"
+
+			case 7:
+				return 14107, 40, "Members can now use " + "<col=000080>" + "sacred clay pickaxes" + "</col>" + ".", "Members: Sacred clay pickaxe"
+
+			case 8:
+				return 14099, 40, "Members can now use " + "<col=000080>" + "volatile pickaxes" + "</col>" + ".", "Members: Volatile pickaxe"
+
+			case 9:
+				return 1275, 41, "You can now use " + "<col=000080>" + "rune pickaxes" + "</col>" + ".", "Rune pickaxe"
+
+			case 10:
+				return 13661, 41, "Members can now use the " + "<col=000080>" + "Inferno Adze" + "</col>" + " to mine with (after All Fired Up and with level 92 Firemaking).", "Members: Inferno Adze" + "<br>" + " (after All Fired Up, with 92 Firemaking)"
+
+			case 11:
+				return 15259, 61, "Members can now use " + "<col=000080>" + "dragon pickaxes" + "</col>" + ".", "Members: Dragon pickaxe"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1603, 40, "Members now have the Mining level required to mine " + "<col=000080>" + "gem rocks" + "</col>" + " (after Shilo Village).", "Members: Gem rocks" + "<br>" + " (after Shilo Village)"
+
+			case 1:
+				return 13245, 41, "Members now have the Mining level required to mine " + "<col=000080>" + "stone slabs" + "</col>" + " with rune pickaxes (after starting TokTz-Ket-Dill).", "Members: Stone slab" + "<br>" + " (with rune pickaxe, after starting TokTz-Ket-Dill)"
+
+			case 2:
+				return 15263, 73, "Members now have the Mining level required to mine " + "<col=000080>" + "living rock remains" + "</col>" + ".", "Members: Living rock remains"
+
+			case 3:
+				return 453, 77, "Members now have the Mining level required to mine " + "<col=000080>" + "concentrated coal deposits" + "</col>" + ".", "Members: Concentrated coal deposits"
+
+			case 4:
+				return 444, 80, "Members now have the Mining level required to mine " + "<col=000080>" + "concentrated gold deposits" + "</col>" + ".", "Members: Concentrated gold deposits"
+
+			case 5:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Mining.", "Members: Starved ancient effigies"
+
+			case 6:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Mining.", "Members: Nourished ancient effigies"
+
+			case 7:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Mining.", "Members: Sated ancient effigies"
+
+			case 8:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Mining.", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 13727, 10, "Members can now mine size-1 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-1 stars"
+
+			case 1:
+				return 13727, 20, "Members can now mine size-2 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-2 stars"
+
+			case 2:
+				return 13727, 30, "Members can now mine size-3 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-3 stars"
+
+			case 3:
+				return 13727, 40, "Members can now mine size-4 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-4 stars"
+
+			case 4:
+				return 13727, 50, "Members can now mine size-5 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-5 stars"
+
+			case 5:
+				return 13727, 60, "Members can now mine size-6 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-6 stars"
+
+			case 6:
+				return 13727, 70, "Members can now mine size-7 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-7 stars"
+
+			case 7:
+				return 13727, 80, "Members can now mine size-8 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-8 stars"
+
+			case 8:
+				return 13727, 90, "Members can now mine size-9 " + "<col=000080>" + "crashed stars" + "</col>" + ".", "Members: Size-9 stars"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14122, 1, "Members can now use " + "<col=000080>" + "class 1 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 pickaxe"
+
+			case 1:
+				return 14184, 20, "Members can now mine " + "<col=000080>" + "class 2 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - mine class 2 sacred clay"
+
+			case 2:
+				return 14124, 20, "Members can now use " + "<col=000080>" + "class 2 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 pickaxe"
+
+			case 3:
+				return 14186, 40, "Members can now mine " + "<col=000080>" + "class 3 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - mine class 3 sacred clay"
+
+			case 4:
+				return 14126, 40, "Members can now use " + "<col=000080>" + "class 3 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 pickaxe"
+
+			case 5:
+				return 14188, 60, "Members can now mine " + "<col=000080>" + "class 4 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - mine class 4 sacred clay"
+
+			case 6:
+				return 14128, 60, "Members can now use " + "<col=000080>" + "class 4 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 pickaxe"
+
+			case 7:
+				return 14190, 80, "Members can now mine " + "<col=000080>" + "class 5 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - mine class 5 sacred clay"
+
+			case 8:
+				return 14130, 80, "Members can now use " + "<col=000080>" + "class 5 pickaxes" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 pickaxe"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Mining level increases, you will be able to attempt higher-level mining tasks within Daemonheim. You will also be more likely to succeed when attempting mining tasks within Daemonheim."
+
+			case 1:
+				return 17630, 1, "You can now mine " + "<col=000080>" + "novite ore" + "</col>" + " within Daemonheim.", "Novite ore (Tier 1)"
+
+			case 2:
+				return 16295, 1, "You can now use " + "<col=000080>" + "novite pickaxes" + "</col>" + " within Daemonheim.", "Novite pickaxe (Tier 1)"
+
+			case 3:
+				return 17632, 10, "You can now mine " + "<col=000080>" + "bathus ore" + "</col>" + " within Daemonheim.", "Bathus ore (Tier 2)"
+
+			case 4:
+				return 16297, 10, "You can now use " + "<col=000080>" + "bathus pickaxes" + "</col>" + " within Daemonheim.", "Bathus pickaxe (Tier 2)"
+
+			case 5:
+				return 17634, 20, "You can now mine " + "<col=000080>" + "marmaros ore" + "</col>" + " within Daemonheim.", "Marmaros ore (Tier 3)"
+
+			case 6:
+				return 16299, 20, "You can now use " + "<col=000080>" + "marmaros pickaxes" + "</col>" + " within Daemonheim.", "Marmaros pickaxe (Tier 3)"
+
+			case 7:
+				return 17636, 30, "You can now mine " + "<col=000080>" + "kratonite ore" + "</col>" + " within Daemonheim.", "Kratonium ore (Tier 4)"
+
+			case 8:
+				return 16301, 30, "You can now use " + "<col=000080>" + "kratonite pickaxes" + "</col>" + " within Daemonheim.", "Kratonite pickaxe (Tier 4)"
+
+			case 9:
+				return 17638, 40, "You can now mine " + "<col=000080>" + "fractite ore" + "</col>" + " within Daemonheim.", "Fractite ore (Tier 5)"
+
+			case 10:
+				return 16303, 40, "You can now use " + "<col=000080>" + "fractite pickaxes" + "</col>" + " within Daemonheim.", "Fractite pickaxe (Tier 5)"
+
+			case 11:
+				return 17640, 50, "Members can now mine " + "<col=000080>" + "zephyrium ore" + "</col>" + " within Daemonheim.", "Members: Zephyrium ore (Tier 6)"
+
+			case 12:
+				return 16305, 50, "Members can now use " + "<col=000080>" + "zephyrium pickaxes" + "</col>" + " within Daemonheim.", "Members: Zephyrium pickaxe (Tier 6)"
+
+			case 13:
+				return 17642, 60, "Members can now mine " + "<col=000080>" + "argonite ore" + "</col>" + " within Daemonheim.", "Members: Argonite ore (Tier 7)"
+
+			case 14:
+				return 16307, 60, "Members can now use " + "<col=000080>" + "argonite pickaxes" + "</col>" + " within Daemonheim.", "Members: Argonite pickaxe (Tier 7)"
+
+			case 15:
+				return 17644, 70, "Members can now mine " + "<col=000080>" + "katagon ore" + "</col>" + " within Daemonheim.", "Members: Katagon ore (Tier 8)"
+
+			case 16:
+				return 16309, 70, "Members can now use " + "<col=000080>" + "katagon pickaxes" + "</col>" + " within Daemonheim.", "Members: Katagon pickaxe (Tier 8)"
+
+			case 17:
+				return 17646, 80, "Members can now mine " + "<col=000080>" + "gorgonite ore" + "</col>" + " within Daemonheim.", "Members: Gorgonite ore (Tier 9)"
+
+			case 18:
+				return 16311, 80, "Members can now use " + "<col=000080>" + "gorgonite pickaxes" + "</col>" + " within Daemonheim.", "Members: Gorgonite pickaxe (Tier 9)"
+
+			case 19:
+				return 17648, 90, "Members can now mine " + "<col=000080>" + "promethium ore" + "</col>" + " within Daemonheim.", "Members: Promethium ore (Tier 10)"
+
+			case 20:
+				return 16313, 90, "Members can now use " + "<col=000080>" + "promethium pickaxes" + "</col>" + " within Daemonheim.", "Members: Promethium pickaxe (Tier 10)"
+
+			case 21:
+				return 16315, 99, "Members can now use primal pickaxes" + "</col>" + " within Daemonheim.", "Members: Primal pickaxe (Tier 11)"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 447, 60, "You can now enter the world-famous " + "<col=000080>" + "Mining Guild" + "</col>" + ".", "Mining Guild"
+
+			case 1:
+				return 9792, 99, "<col=000080>" + "Congratulations! You are now a master miner. Members can visit the " + "<col=800000>" + "dwarf" + "<col=000080>" + " who guards the entrance to the " + "<col=800000>" + "Mining Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Mining" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

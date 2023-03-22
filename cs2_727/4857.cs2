@@ -1,0 +1,21 @@
+//script4857(4857)()(void)
+if(clan_vars_enabled() == 1) {
+	script_4854()
+	if(load_clan_varbit(2580) < 7) {
+		if_sethide(if_gethash(1258, 21), 1)
+		if_sethide(if_gethash(1258, 20), 1)
+		if_sethide(if_gethash(1258, 9), 1)
+		if_sethide(if_gethash(1258, 10), 1)
+	}
+	if(load_clan_varbit(2580) < 5) {
+		if_sethide(if_gethash(1258, 18), 1)
+		if_sethide(if_gethash(1258, 19), 1)
+		if_sethide(if_gethash(1258, 7), 1)
+		if_sethide(if_gethash(1258, 8), 1)
+	}
+	if(load_clan_varbit(2580) < 3) {
+		if_sethide(if_gethash(1258, 5), 1)
+		if_sethide(if_gethash(1258, 6), 1)
+	}
+}
+return

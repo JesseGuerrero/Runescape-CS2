@@ -1,0 +1,13 @@
+//script5463(5463)()(void)
+if(load_varc(1676) == 0) {
+	store_varc(1676, 1)
+	if_sethide(if_gethash(1159, 31), 1)
+	if_setsize(if_gethash(1159, 23), 0, 0, 37, if_getwidth(if_gethash(1159, 23)))
+	if_set2dangle(if_gethash(1159, 55), 16384)
+} else  {
+	store_varc(1676, 0)
+	if_sethide(if_gethash(1159, 31), 0)
+	if_set2dangle(if_gethash(1159, 55), 49152)
+	script_5464()
+}
+return

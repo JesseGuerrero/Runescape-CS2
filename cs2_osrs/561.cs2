@@ -1,0 +1,13 @@
+void script_561(Widget widget0) {
+	CHILD.createChild(widget0, 4, script_208(widget0));
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(widget0.getWidth(), widget0.getHeight(), 0, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText("Okay");
+	widget0.hookMouseHover(&script_85(widget0, getChildId(), 16777215));
+	widget0.hookMouseExit(&script_85(widget0, getChildId(), 16750623));
+	return;
+}

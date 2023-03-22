@@ -1,0 +1,6 @@
+//script5585(5585)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg0 == 83) {
+	if_settrans(arg3, 0)
+	if_resume_pausebutton(arg2)
+}
+return

@@ -1,0 +1,100 @@
+//script1604(1604)()(void)
+int iVar0
+cc_deleteall(if_gethash(549, 110))
+if_sethide(if_gethash(549, 15), 1)
+iVar0 = 0
+while(iVar0 < 14) {
+	cc_create(iVar0, 5, 35979374)
+	if(iVar0 != 6)
+		if(iVar0 != 8)
+			if(iVar0 != 11)
+				if(inv_getitem(iVar0, 94) != -1) {
+					cc_setsize(0, 0, 32, 36)
+					if(iVar0 == 0)
+						cc_setposition(0, 0, script_788(35979380, 2, 2).get(1), script_788(35979380, 2, 2).get(0))
+					else
+						if(iVar0 == 1)
+							cc_setposition(0, 0, script_788(35979381, 2, 2).get(1), script_788(35979381, 2, 2).get(0))
+						else
+							if(iVar0 == 2)
+								cc_setposition(0, 0, script_788(35979382, 2, 2).get(1), script_788(35979382, 2, 2).get(0))
+							else
+								if(iVar0 == 3)
+									cc_setposition(0, 0, script_788(35979384, 2, 2).get(1), script_788(35979384, 2, 2).get(0))
+								else
+									if(iVar0 == 4)
+										cc_setposition(0, 0, script_788(35979385, 2, 2).get(1), script_788(35979385, 2, 2).get(0))
+									else
+										if(iVar0 == 5)
+											cc_setposition(0, 0, script_788(35979386, 2, 2).get(1), script_788(35979386, 2, 2).get(0))
+										else
+											if(iVar0 == 7)
+												cc_setposition(0, 0, script_788(35979387, 2, 2).get(1), script_788(35979387, 2, 2).get(0))
+											else
+												if(iVar0 == 9)
+													cc_setposition(0, 0, script_788(35979389, 2, 2).get(1), script_788(35979389, 2, 2).get(0))
+												else
+													if(iVar0 == 10)
+														cc_setposition(0, 0, script_788(35979388, 2, 2).get(1), script_788(35979388, 2, 2).get(0))
+													else
+														if(iVar0 == 12)
+															cc_setposition(0, 0, script_788(35979390, 2, 2).get(1), script_788(35979390, 2, 2).get(0))
+														else
+															if(iVar0 == 13)
+																cc_setposition(0, 0, script_788(35979383, 2, 2).get(1), script_788(35979383, 2, 2).get(0))
+					cc_setitem(inv_getnum(iVar0, 94), inv_getitem(iVar0, 94))
+					cc_setopbase(item_name(inv_getitem(iVar0, 94)))
+					cc_setop("Remove" + "<col=ff9040>", 1)
+					cc_setop("Examine" + "<col=ff9040>", 10)
+					cc_setgraphicshadow(1118481)
+					cc_setoutline(1)
+				} else  {
+					cc_setsize(0, 0, 32, 32)
+					if(iVar0 == 0) {
+						cc_setposition(0, 0, script_788(35979380, 2, 2).get(1), script_788(35979380, 2, 2).get(0))
+						cc_setgraphic(156)
+					} else 
+						if(iVar0 == 1) {
+							cc_setposition(0, 0, script_788(35979381, 2, 2).get(1), script_788(35979381, 2, 2).get(0))
+							cc_setgraphic(157)
+						} else 
+							if(iVar0 == 2) {
+								cc_setposition(0, 0, script_788(35979382, 2, 2).get(1), script_788(35979382, 2, 2).get(0))
+								cc_setgraphic(158)
+							} else 
+								if(iVar0 == 3) {
+									cc_setposition(0, 0, script_788(35979384, 2, 2).get(1), script_788(35979384, 2, 2).get(0))
+									cc_setgraphic(159)
+								} else 
+									if(iVar0 == 4) {
+										cc_setposition(0, 0, script_788(35979385, 2, 2).get(1), script_788(35979385, 2, 2).get(0))
+										cc_setgraphic(161)
+									} else 
+										if(iVar0 == 5) {
+											cc_setposition(0, 0, script_788(35979386, 2, 2).get(1), script_788(35979386, 2, 2).get(0))
+											cc_setgraphic(162)
+										} else 
+											if(iVar0 == 7) {
+												cc_setposition(0, 0, script_788(35979387, 2, 2).get(1), script_788(35979387, 2, 2).get(0))
+												cc_setgraphic(163)
+											} else 
+												if(iVar0 == 9) {
+													cc_setposition(0, 0, script_788(35979389, 2, 2).get(1), script_788(35979389, 2, 2).get(0))
+													cc_setgraphic(164)
+												} else 
+													if(iVar0 == 10) {
+														cc_setposition(0, 0, script_788(35979388, 2, 2).get(1), script_788(35979388, 2, 2).get(0))
+														cc_setgraphic(165)
+													} else 
+														if(iVar0 == 12) {
+															cc_setposition(0, 0, script_788(35979390, 2, 2).get(1), script_788(35979390, 2, 2).get(0))
+															cc_setgraphic(160)
+														} else 
+															if(iVar0 == 13) {
+																cc_setposition(0, 0, script_788(35979383, 2, 2).get(1), script_788(35979383, 2, 2).get(0))
+																cc_setgraphic(166)
+															}
+				}
+	iVar0 = iVar0 + 1
+}
+return

@@ -1,0 +1,97 @@
+void script_274(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19, Widget widget20) {
+	int int21;
+	int int22;
+	int int23;
+	int int24;
+	Widget widget25;
+	_ = script_228(widget2, "", 0);
+	int21 = VARC[51];
+	if (script_514() == 1) {
+		script_299(1, 1);
+	} else if (VARC[5] <= 0) {
+		STRING[22] = "";
+	}
+	script_282(widget0, widget1, widget3, widget6, widget7, widget8, widget15, widget16, widget14, widget17, widget18, widget19, widget20);
+	widget14.hookOptionClick(&script_281(CTX_MENU_OPTION, widget0, widget1, widget3, widget6, widget7, widget8, widget15, widget16, widget14, widget17, widget18, widget19, widget20));
+	widget7.clearChildren();
+	script_31(widget7, widget6, 792, 789, 790, 791, 773, 788);
+	script_287(widget9, widget10);
+	widget9.hookVARP(&script_286(widget9, widget10), 304);
+	script_930(widget11);
+	widget11.hookVARP(&script_929(widget11), 1052);
+	script_290(widget12, widget13);
+	widget12.hookVARP(&script_289(widget12, widget13), 115);
+	widget6.clearChildren();
+	int22 = 0;
+	int23 = 0;
+	while (int23 < 800) {
+		CHILD.createChild(widget6, 5, int22);
+		int22 = int22 + 1;
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		CHILD.setDragDeadZone(5);
+		CHILD.setDragDeadTime(5);
+		int23 = int23 + 1;
+	}
+	int24 = widget6.getWidth();
+	int23 = 1;
+	while (int23 <= 9) {
+		CHILD.createChild(widget6, 5, int22);
+		int22 = int22 + 1;
+		CHILD.setSize(int24, 2, 0, 0);
+		CHILD.setSprite(897);
+		CHILD.setSpriteTiling(true);
+		int23 = int23 + 1;
+	}
+	int23 = 1;
+	while (int23 <= 9) {
+		CHILD.createChild(widget6, 4, int22);
+		int22 = int22 + 1;
+		CHILD.setSize(int24, 15, 0, 0);
+		CHILD.setTextAlignment(0, 0, 0);
+		CHILD.setFont(494);
+		CHILD.setRGB(0xE4D8A2);
+		CHILD.hookMouseHover(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 14997666));
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText("Tab " + int23);
+		CHILD.setContextMenuOption(1, "View tab");
+		CHILD.setOptionBase("<col=ff9040>" + int23 + "</col>");
+		CHILD.hookOptionClick(&script_504(widget0, widget1, widget3, widget6, widget7, widget8, widget15, widget16, widget14, widget17, widget18, widget19, widget20, CTX_MENU_OPTION, int23));
+		int23 = int23 + 1;
+	}
+	int23 = 0;
+	while (int23 <= 9) {
+		CHILD.createChild(widget6, 3, int22);
+		int22 = int22 + 1;
+		CHILD.setSize(0, 32, 0, 0);
+		CHILD.setFilled(true);
+		CHILD.setTrans(255);
+		int23 = int23 + 1;
+	}
+	script_503(0, widget0, widget1, widget3, widget6, widget7, widget8, widget15, widget16, widget14, widget17, widget18, widget19, widget20, widget4, widget5);
+	widget6.hookContainer(&script_276(widget0, widget1, widget3, widget6, widget7, widget8, widget15, widget16, widget14, widget17, widget18, widget19, widget20), 95);
+	widget6.hookVARP(&script_276(widget0, widget1, widget3, widget6, widget7, widget8, widget15, widget16, widget14, widget17, widget18, widget19, widget20), 304, 115, 867, 1052, 1053);
+	VARC[51] = int21;
+	widget25 = widget0.getLayer();
+	if (widget25 != null) {
+		script_840(widget0, widget25, -2147483648, -2147483648, widget7, widget6);
+	}
+	widget18.clearChildren();
+	CHILD.createChild(widget18, 6, 0);
+	_CHILD.createChild(widget18, 6, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	_CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setModel(9037);
+	_CHILD.setModel(9056);
+	CHILD.set3DRotation(15, 300, 141, 220, 0, 3500);
+	_CHILD.set3DRotation(15, 300, 141, 220, 0, 3500);
+	_CHILD.setAnimation(2439);
+	_CHILD.setHidden(true);
+	widget18.hookMouseHover(&script_1312(true, widget18, widget20));
+	widget18.hookMouseExit(&script_1312(false, widget18, widget20));
+	return;
+}

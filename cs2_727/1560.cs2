@@ -1,0 +1,10 @@
+//script1560(1560)(int arg0)(void)
+if(arg0 == 1)
+	if(if_isopen(49283082) == 1 || if_isopen(49283083) == 1)
+		if(enum(370, chatline_gettype(0), 'i', '1') == 1)
+			script_1561()
+script_84()
+script_89()
+script_192()
+script_178()
+return

@@ -1,0 +1,17 @@
+//script46(46)(int arg0, string arg1)(string)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = arg0 / 1000000000
+iVar2 = (arg0 - (iVar1 * 1000000000)) / 1000000
+iVar3 = (arg0 - ((iVar1 * 1000000000) + (iVar2 * 1000000))) / 1000
+iVar4 = arg0 - (((iVar1 * 1000000000) + (iVar2 * 1000000)) + (iVar3 * 1000))
+if(iVar1 > 0)
+	return to_string(iVar1) + arg0 + script_47(iVar2) + arg0 + script_47(iVar3) + arg0 + script_47(iVar4)
+if(iVar2 > 0)
+	return to_string(iVar2) + arg0 + script_47(iVar3) + arg0 + script_47(iVar4)
+if(iVar3 > 0)
+	return to_string(iVar3) + arg0 + script_47(iVar4)
+return to_string(arg0)
+return ""

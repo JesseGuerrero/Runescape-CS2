@@ -1,0 +1,15 @@
+//script3939(3939)(int arg0)(void)
+if(arg0 == 1) {
+	if_setcolor(44105769, 0xFAFAFA)
+	if(load_varc(1411) == 1)
+		if_setgraphic(if_gethash(673, 40), 4087)
+	else
+		if_setgraphic(if_gethash(673, 40), 4085)
+} else  {
+	if_setcolor(44105769, 0xEBE0BC)
+	if(load_varc(1411) == 1)
+		if_setgraphic(if_gethash(673, 40), 4086)
+	else
+		if_setgraphic(if_gethash(673, 40), 4084)
+}
+return

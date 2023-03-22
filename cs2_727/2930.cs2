@@ -1,0 +1,30 @@
+//script2930(2930)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9)(void)
+int iVar10
+if(arg7 < arg8) {
+	arg7 = arg7 + 1
+	instr6342(arg0, script_2930, "I1iIIIiiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9)
+	return
+}
+iVar10 = if_getwidth(arg0)
+if(arg1 == 1) {
+	if(iVar10 - arg2 < arg6)
+		if_setsize(arg0, 0, 0, 31, min(arg6 + arg2, iVar10 + arg9))
+	else {
+		instr6342(arg0, None, "")
+		if_setsize(arg0, 0, 0, 31, arg6 + arg2)
+	}
+	if_setgraphic(arg3, 2569)
+	if_setgraphic(arg4, 2568)
+	if_setgraphic(arg5, 2568)
+} else  {
+	if(iVar10 > 32)
+		if_setsize(arg0, 0, 0, 31, max(32, iVar10 - arg9))
+	else {
+		instr6342(arg0, None, "")
+		if_setsize(arg0, 0, 0, 31, 32)
+	}
+	if_setgraphic(arg3, 2567)
+	if_setgraphic(arg4, 2566)
+	if_setgraphic(arg5, 2566)
+}
+return

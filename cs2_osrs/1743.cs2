@@ -1,0 +1,40 @@
+void script_1743(int arg0, Widget widget1, Widget widget2) {
+	int int3;
+	widget2.clearChildren();
+	int3 = 0;
+	if (arg0 == 1) {
+		int3 = script_198(widget2);
+		widget1.setIsHidden(false);
+		widget2.setContextMenuOption(1, "Hide");
+		widget2.hookOptionClick(&script_1742(false, widget1, widget2));
+	} else {
+		int3 = script_208(widget2);
+		widget1.setIsHidden(true);
+		widget2.setContextMenuOption(1, "Show");
+		widget2.hookOptionClick(&script_1742(true, widget1, widget2));
+	}
+	widget2.setOptionBase("<col=ff9040>" + "Overview" + "</col>");
+	CHILD.createChild(widget2, 6, int3);
+	int3 = int3 + 1;
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setModel(3374);
+	CHILD.set3DRotation(0, 0, 512, 1536, 0, 950);
+	CHILD.createChild(widget2, 3, int3);
+	int3 = int3 + 1;
+	_CHILD.createChild(widget2, 3, int3);
+	int3 = int3 + 1;
+	CHILD.setSize(8, 15, 0, 0);
+	_CHILD.setSize(6, 13, 0, 0);
+	CHILD.setPosition(0, 1, 1, 1);
+	_CHILD.setPosition(0, 1, 1, 1);
+	CHILD.setFilled(true);
+	_CHILD.setFilled(true);
+	CHILD.setRGB(0xFFFFFF);
+	_CHILD.setRGB(0xFFFFFF);
+	CHILD.setTrans(255);
+	_CHILD.setTrans(255);
+	widget2.hookMouseHover(&script_1744(CTX_WIDGET, getChildId(), getChildId(), 245));
+	widget2.hookMouseExit(&script_1744(CTX_WIDGET, getChildId(), getChildId(), 255));
+	return;
+}

@@ -1,0 +1,15 @@
+//script3177(3177)(int arg0, int arg1, string arg2)(void)
+int iVar2
+script_41(59768846)
+script_41(59572283)
+store_varc_string(279, "")
+store_varc(6, arg0)
+store_varc(1094, 0)
+iVar2 = 0
+if(playermod() == 1 || staffmodlevel() > 0)
+	iVar2 = 1
+if(arg1 == 1)
+	script_2920(iVar2, playermodlevel(), arg0)
+else
+	script_2921(iVar2, playermodlevel(), removetags(arg0))
+return

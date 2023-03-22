@@ -1,0 +1,61 @@
+//script5538(5538)(int arg0)(void)
+int iVar1
+string sVar0
+sVar0 = ""
+iVar1 = 0
+switch(arg0) {
+	case default:
+		break
+	case 77201410:
+		iVar1 = load_varc(1806)
+		break
+	case 77201411:
+		iVar1 = load_varc(1807)
+		break
+	case 77201412:
+		iVar1 = load_varc(1808)
+		break
+	case 77201413:
+		iVar1 = load_varc(1809)
+		break
+	case 77201414:
+		iVar1 = load_varc(1810)
+		break
+	case 77201438:
+		iVar1 = load_varc(1808)
+		break
+
+}
+switch(load_varc(1725)) {
+	case default:
+		break
+	case 1:
+		sVar0 = item_name(enum(5350, iVar1, 'i', 'o'))
+		break
+	case 2:
+		sVar0 = item_name(enum(5353, iVar1, 'i', 'o'))
+		break
+	case 3:
+		sVar0 = item_name(enum(5356, iVar1, 'i', 'o'))
+		break
+	case 4:
+		sVar0 = item_name(enum(5359, iVar1, 'i', 'o'))
+		break
+	case 11:
+		if(iVar1 == 1)
+			sVar0 = item_name(enum(5732, load_varpbit(4293), 'i', 'o'))
+		else
+			if(iVar1 == 2)
+				sVar0 = item_name(enum(5733, load_varpbit(11047), 'i', 'o'))
+			else
+				sVar0 = item_name(enum(5731, iVar1, 'i', 'o'))
+		break
+	case 12:
+		sVar0 = item_name(enum(5734, iVar1, 'i', 'o'))
+		break
+
+}
+if(iVar1 > 0)
+	if(iVar1 <= script_5550())
+		script_1163(arg0, -1, 77201408, 25, 190, sVar0)
+return

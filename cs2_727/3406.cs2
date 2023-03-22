@@ -1,0 +1,28 @@
+//script3406(3406)()(int, int, int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+while(iVar3 < 100) {
+	switch(chatline_gettype(iVar3)) {
+		case default:
+			break
+		case 18:
+			iVar0 = iVar0 + 1
+			break
+		case 20:
+			iVar2 = iVar2 + 1
+			break
+		case 45:
+			iVar1 = iVar1 + 1
+			break
+
+	}
+	iVar3 = iVar3 + 1
+}
+return iVar2, iVar1, iVar0
+return 0, 0, 0

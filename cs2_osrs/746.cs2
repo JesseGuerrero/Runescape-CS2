@@ -1,0 +1,5 @@
+void script_746(string string0) {
+	widget(68, 7).setText(string0);
+	widget(68, 7).setContextMenuOption(1, removeTags(string0));
+	return;
+}

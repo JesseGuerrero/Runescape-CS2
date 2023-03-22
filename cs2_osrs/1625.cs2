@@ -1,0 +1,8 @@
+void script_1625(int arg0, int arg1, int arg2, int arg3, int arg4, Animation animation5) {
+	CHILD.setModel(3063);
+	CHILD.setSize(32, 32, 0, 0);
+	CHILD.setPosition(arg0, arg1, 0, 0);
+	CHILD.set3DRotation(0, 0, arg2, arg3, 0, arg4);
+	CHILD.setAnimation(animation5);
+	return;
+}

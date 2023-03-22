@@ -1,0 +1,37 @@
+//script584(584)(int arg0, string arg1)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar1 = if_getwidth(arg0)
+iVar2 = if_getheight(arg0)
+iVar3 = iVar1 - 32
+iVar4 = iVar2 - 32
+iVar5 = iVar1 - 64
+iVar6 = iVar2 - 64
+if(iVar5 < 0)
+	iVar5 = 0
+if(iVar6 < 0)
+	iVar6 = 0
+iVar7 = if_getnextsubid(arg0)
+script_98(arg0, iVar7, 856, 0, 0, 32, 32)
+script_98(arg0, iVar7 + 1, 857, iVar3, 0, 32, 32)
+script_98(arg0, iVar7 + 2, 858, 0, iVar4, 32, 32)
+script_98(arg0, iVar7 + 3, 859, iVar3, iVar4, 32, 32)
+script_98(arg0, iVar7 + 4, 1121, 32, 0, iVar5, 3)
+script_98(arg0, iVar7 + 5, 1121, 32, iVar2 - 3, iVar5, 3)
+script_98(arg0, iVar7 + 6, 1122, 0, 32, 3, iVar6)
+script_98(arg0, iVar7 + 7, 1122, iVar1 - 3, 32, 3, iVar6)
+script_98(arg0, iVar7 + 8, 1121, 2, 22, iVar1 - 5, 3)
+cc_create(iVar7 + 9, 4, arg0)
+cc_setposition(0, 0, 3, 3)
+cc_setsize(0, 0, 15, iVar1 - 6)
+cc_settext(arg0)
+cc_settextfont(496)
+cc_settextshadow(1)
+cc_setcolor(cc9900)
+cc_settextalign(0, 1, 1)
+return

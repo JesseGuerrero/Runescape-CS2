@@ -1,0 +1,6 @@
+//script2633(2633)(int arg0)(void)
+if(arg0 != 56295424)
+	script_679(arg0)
+if_settext(if_gethash(859, 28), "")
+if_settext(if_gethash(859, 29), "")
+return

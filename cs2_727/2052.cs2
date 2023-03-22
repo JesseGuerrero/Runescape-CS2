@@ -1,0 +1,17 @@
+//script2052(2052)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6, string arg7, string arg8)(void)
+cc_sethide(0)
+cc_setsize(0, 0, arg1, arg0)
+cc_setposition(1, 1, arg3, arg2)
+cc_setcolor(0)
+cc_settextfont(591)
+cc_settextalign(13, 1, 1)
+cc_settext(arg0)
+if(arg5 != -1) {
+	cc_setopbase("<col=ff9040>" + arg1 + "</col>")
+	cc_setop(arg2, 1)
+	instr6687(script_2053, "iIc", -2147483644, -2147483645, arg5)
+} else  {
+	cc_setop("", 1)
+	instr6687(None, "")
+}
+return

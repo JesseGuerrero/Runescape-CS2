@@ -1,0 +1,17 @@
+//script195(195)(int arg0, int arg1)(void)
+int iVar2
+instr6250(arg0, script_203, "I", -2147483645)
+instr6708(arg0, script_203, "I", -2147483645)
+script_1600()
+cc_deleteall(if_gethash(1109, 4))
+iVar2 = 0
+while(iVar2 < 50) {
+	cc_create(iVar2, 3, 72679428)
+	cc_setsize(0, 1, 19, 0)
+	cc_setposition(0, 1, (iVar2 * 2) * 19, 0)
+	cc_setcolor(232220)
+	cc_setfill(1)
+	cc_settrans(128)
+	iVar2 = iVar2 + 1
+}
+return

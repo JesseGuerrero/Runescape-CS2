@@ -1,0 +1,71 @@
+//script5763(5763)(int arg0)(int)
+int iVar1
+iVar1 = -1
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		iVar1 = 5487
+		break
+	case 16:
+		iVar1 = 5488
+		break
+	case 15:
+		iVar1 = 5489
+		break
+	case 17:
+		iVar1 = 5490
+		break
+	case 9:
+		iVar1 = 5491
+		break
+	case 19:
+		iVar1 = 5492
+		break
+	case 22:
+		iVar1 = 5493
+		break
+	case 21:
+		iVar1 = 5494
+		break
+	case 23:
+		iVar1 = 5495
+		break
+	case 18:
+		iVar1 = 5496
+		break
+	case 14:
+		iVar1 = 5497
+		break
+	case 20:
+		iVar1 = 5498
+		break
+	case 13:
+		iVar1 = 5499
+		break
+	case 12:
+		iVar1 = 5500
+		break
+	case 10:
+		iVar1 = 5501
+		break
+	case 7:
+		iVar1 = 5502
+		break
+	case 11:
+		iVar1 = 5503
+		break
+	case 8:
+		iVar1 = 5504
+		break
+	case 5:
+		iVar1 = 5505
+		break
+	case 24:
+		iVar1 = 5506
+		return -1
+
+
+}
+return iVar1
+return -1

@@ -1,0 +1,42 @@
+//script4472(4472)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		store_varc(1650, 1)
+		store_varc_string(23, arg0)
+		script_1558(0)
+		return
+
+	case 5:
+		send_message("Attempting to add " + arg0 + " to your Friends List.")
+		arg0 = removetags(arg0)
+		friend_add(arg0)
+		break
+	case 6:
+		send_message("Attempting to add " + arg0 + " to your Ignore List.")
+		arg0 = removetags(arg0)
+		ignore_add(arg0)
+		break
+	case 7:
+		send_message("Attempting to remove " + arg0 + " from your Friends List.")
+		arg0 = removetags(arg0)
+		friend_del(arg0)
+		break
+	case 8:
+		send_message("Attempting to remove " + arg0 + " from your Ignore List.")
+		arg0 = removetags(arg0)
+		ignore_del(arg0)
+		break
+	case 9:
+		script_4465(arg0)
+		break
+
+}
+return

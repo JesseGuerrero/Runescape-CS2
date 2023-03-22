@@ -1,0 +1,60 @@
+//script751(751)()(void)
+int iVar0
+int iVar1
+string sVar0
+iVar0 = -1
+sVar0 = ""
+iVar1 = -1
+if(load_varp(1174) != -1)
+	if(load_varp(1174) != 0) {
+		sVar0 = enum(1279, load_varp(1174), 'n', 's')
+		if_setnpchead(43384833, load_varp(1174))
+	} else 
+		if(enum(1320, load_varp(448), 'o', 'n') != 6988) {
+			store_varp(1174, enum(1320, load_varp(448), 'o', 'n'))
+			sVar0 = enum(1279, load_varp(1174), 'n', 's')
+			if_setnpchead(43384833, load_varp(1174))
+		}
+if(compare("Animal", sVar0) == 0)
+	if_settext(if_gethash(662, 54), item_name(load_varp(448)))
+else
+	if(load_varp(448) == 23030)
+		if(load_varp(2480) != -1)
+			if_settext(if_gethash(662, 54), item_name(load_varp(2480)))
+		else
+			if_settext(if_gethash(662, 54), sVar0)
+	else
+		if_settext(if_gethash(662, 54), sVar0)
+if(load_varpbit(4282) > 50) {
+	store_varpbit(4282, load_varpbit(4282) - 50)
+	iVar0 = enum(1275, load_varpbit(4282), 'i', 'A')
+	if_setmodelanim(if_gethash(662, 1), iVar0)
+} else  {
+	iVar0 = enum(1276, load_varpbit(4282), 'i', 'A')
+	if_setmodelanim(if_gethash(662, 1), iVar0)
+}
+if(enum(1283, load_varp(448), 'o', 'o') != 526) {
+	if_sethide(if_gethash(662, 71), 1)
+	if(enum(1282, load_varp(1174), 'n', 'I') != 43384877) {
+		if_sethide(if_gethash(662, 72), 0)
+		if_sethide(if_gethash(662, 66), 0)
+		if_sethide(enum(1282, load_varp(1174), 'n', 'I'), 0)
+		if_sethide(enum(1092, load_varp(1174), 'n', 'I'), 0)
+		if(instr6644() >= 2) {
+			if_setgraphic(if_gethash(747, 0), 8652)
+			if_setgraphic(if_gethash(747, 1), 8645)
+		} else  {
+			if_setgraphic(if_gethash(747, 0), 1802)
+			if_setgraphic(if_gethash(747, 1), 1245)
+		}
+	} else 
+		if_sethide(if_gethash(662, 66), 1)
+} else  {
+	if_sethide(if_gethash(662, 71), 0)
+	if_sethide(if_gethash(662, 66), 1)
+	if(load_varp(448) != -1)
+		if(item_param(394, load_varp(448)) != 0)
+			if_sethide(enum(1092, load_varp(1174), 'n', 'I'), 0)
+}
+script_2671()
+return

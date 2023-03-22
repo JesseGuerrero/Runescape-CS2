@@ -1,0 +1,73 @@
+//script2194(2194)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 79:
+		if(load_varpbit(888) == 0)
+			return 0
+		break
+	case 144:
+		if(load_varpbit(5394) == 0)
+			return 0
+		break
+	case 145:
+		if(load_varpbit(4310) < 10)
+			return 0
+		break
+	case 35:
+		if(load_varpbit(0) == 0)
+			return 0
+		break
+	case 120:
+		if(load_varpbit(1895) < 110)
+			return 0
+		break
+	case 157:
+		if(load_varpbit(3637) < 125)
+			return 0
+		break
+	case 156:
+		if(script_2656() < 100)
+			return 0
+		break
+	case 162:
+		if(load_varpbit(3909) < 8)
+			return 0
+		if(load_varpbit(5834) == 0)
+			return 0
+		if(load_varpbit(5830) == 0)
+			return 0
+		break
+	case 163:
+		if(load_varpbit(5686) == 0)
+			return 0
+		break
+	case 168:
+		if(load_varpbit(1910) < 20)
+			return 0
+		break
+	case 171:
+		if(load_varpbit(7973) == 0)
+			return 0
+		break
+	case 174:
+		if(load_varpbit(7544) == 0)
+			return 0
+		break
+	case 179:
+		if(script_2656() < 100)
+			return 0
+		if(load_varpbit(1914) < 50)
+			return 0
+		if(load_varpbit(8494) < 5)
+			return 0
+		break
+	case 148:
+		if(load_varpbit(8601) < 6)
+			return 0
+		return 1
+
+
+}
+return 1
+return -1

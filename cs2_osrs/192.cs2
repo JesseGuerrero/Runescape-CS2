@@ -1,0 +1,60 @@
+void script_192(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	string str0;
+	string str1;
+	string str2;
+	int1 = VARC[57];
+	VARC[57] = getClientCycle();
+	if (VARC[41] == 0) {
+		return;
+	}
+	int2 = 0;
+	if (VARC[41] == -1) {
+		int2 = 1;
+	}
+	int3 = 0;
+	int4 = -1;
+	str0 = "";
+	str1 = "";
+	str2 = "";
+	while (arg0 != -1) {
+		int3, int4, str0, str1, str2 = m5004(arg0);
+		if (int4 <= int1) {
+			return;
+		}
+		if (script_90(int3, str0, str2, int4, int2, removeTags(m5015())) == 1 && script_210(int3, str0) == 0) {
+			switch (int3) {
+				case 1:
+				case 2:
+					script_180(2);
+					break;
+				case 3:
+				case 5:
+				case 6:
+				case 7:
+					script_180(3);
+					break;
+				case 101:
+				case 102:
+				case 103:
+					script_180(5);
+					break;
+				case 104:
+				case 9:
+				case 11:
+					script_180(4);
+					break;
+				default:
+					if (datamap('i', '1', 892, int3) == true) {
+						script_180(1);
+					}
+					break;
+			}
+		}
+		arg0 = m5019(arg0);
+	}
+	return;
+}

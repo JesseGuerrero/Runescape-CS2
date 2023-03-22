@@ -1,0 +1,24 @@
+string script_1009(int arg0, int arg1) {
+	int int2;
+	int int3;
+	int int4;
+	string str0;
+	string str1;
+	str0 = ",";
+	str1 = "";
+	int2 = 0;
+	int3 = 0;
+	int4 = 0;
+	if (arg0 > 0) {
+		str1 = concat(script_46(arg0, str0), str0);
+		int2 = arg1 / 1000000;
+		int3 = arg1 % 1000000 / 1000;
+		int4 = arg1 % 1000;
+		str1 = concat(concat(str1, script_47(int2)), str0);
+		str1 = concat(concat(str1, script_47(int3)), str0);
+		str1 = concat(str1, script_47(int4));
+	} else {
+		str1 = script_46(arg1, str0);
+	}
+	return str1;
+}

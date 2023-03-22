@@ -1,0 +1,8 @@
+//script2881(2881)()(void)
+if(load_varpbit(4393) == 1 || load_varpbit(542) == 1)
+	return
+if(load_varc(1077) == 1)
+	script_39(12255245, 12255249, 25, 189, "Click here to access full song list")
+else
+	script_39(12255245, 12255249, 25, 189, "Click here to access playlist")
+return

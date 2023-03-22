@@ -1,0 +1,12 @@
+//script1924(1924)()(void)
+if_settext(if_gethash(811, 127), append("<br>" + "points.", to_string(20)))
+if_settext(if_gethash(811, 65), append("<br>" + "points.", to_string(20)))
+if_settext(if_gethash(811, 49), append("<br>" + "points.", to_string(30)))
+if_settext(if_gethash(811, 106), append("<br>" + "points.", to_string(28)))
+if_settext(if_gethash(811, 92), append("<br>" + "points.", to_string(24)))
+if_settext(if_gethash(811, 78), append("<br>" + "points.", to_string(26)))
+if_setitem(if_gethash(811, 74), 1, 14385)
+if_setmodelangle(if_gethash(811, 74), 1715, 625, 876, 1274, 0, 0)
+script_1929()
+store_varc(544, 0)
+return

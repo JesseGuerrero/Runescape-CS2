@@ -1,0 +1,23 @@
+int script_1560(Widget widget0, string string1, int arg2, int arg3) {
+	int int3;
+	widget0.clearChildren();
+	int3 = 0;
+	if (arg2 == 1) {
+		int3 = script_198(widget0);
+	} else {
+		int3 = script_208(widget0);
+	}
+	CHILD.createChild(widget0, 4, int3);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	if (arg3 == 1) {
+		CHILD.setText("<col=7f7f7f>" + "..." + "</col>");
+	} else {
+		CHILD.setText(string1);
+	}
+	return 0;
+}

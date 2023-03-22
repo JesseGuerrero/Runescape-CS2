@@ -1,0 +1,43 @@
+//script5456(5456)()(void)
+if_setgraphic(if_gethash(1156, 101), 8331)
+if_setgraphic(if_gethash(1156, 1), 8331)
+if_setgraphic(if_gethash(1156, 2), 8331)
+if_setgraphic(if_gethash(1156, 3), 8331)
+switch(load_varc(1684)) {
+	case default:
+		break
+	case 1:
+		if_sethide(if_gethash(1156, 96), 0)
+		if_sethide(if_gethash(1156, 97), 1)
+		if_sethide(if_gethash(1156, 98), 1)
+		if_sethide(if_gethash(1156, 99), 1)
+		if_setgraphic(if_gethash(1156, 101), 8334)
+		store_varc(1684, 1)
+		break
+	case 2:
+		if_sethide(if_gethash(1156, 96), 1)
+		if_sethide(if_gethash(1156, 97), 0)
+		if_sethide(if_gethash(1156, 98), 1)
+		if_sethide(if_gethash(1156, 99), 1)
+		if_setgraphic(if_gethash(1156, 1), 8334)
+		store_varc(1684, 2)
+		break
+	case 3:
+		if_sethide(if_gethash(1156, 96), 1)
+		if_sethide(if_gethash(1156, 97), 1)
+		if_sethide(if_gethash(1156, 98), 0)
+		if_sethide(if_gethash(1156, 99), 1)
+		if_setgraphic(if_gethash(1156, 2), 8334)
+		store_varc(1684, 3)
+		break
+	case 4:
+		if_sethide(if_gethash(1156, 96), 1)
+		if_sethide(if_gethash(1156, 97), 1)
+		if_sethide(if_gethash(1156, 98), 1)
+		if_sethide(if_gethash(1156, 99), 0)
+		if_setgraphic(if_gethash(1156, 3), 8334)
+		store_varc(1684, 4)
+		break
+
+}
+return

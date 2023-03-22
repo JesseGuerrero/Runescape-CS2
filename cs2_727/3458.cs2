@@ -1,0 +1,34 @@
+//script3458(3458)(int arg0, int arg1)(void)
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 31:
+		instr6650(3, 0)
+		instr6650(3, 1)
+		instr6651(0, 500, script_3459(62363230, arg1), 500, script_3459(62363230, arg1), 0, 0)
+		instr6651(0, 350, script_3459(62297690, arg1), 350, script_3459(62297690, arg1), 0, 1)
+		instr6651(0, 450, script_3459(62363229, arg1), 450, script_3459(62363229, arg1), 1, 0)
+		instr6651(0, 350, script_3459(62314075, arg1), 350, script_3459(62314075, arg1), 1, 1)
+		instr6651(0, 550, script_3459(62330459, arg1), 550, script_3459(62330459, arg1), 2, 0)
+		instr6651(0, 350, script_3459(62281310, arg1), 350, script_3459(62330464, arg1), 2, 1)
+		instr6677(0, 1, 10, 50, 0, 0)
+		break
+	case 32:
+		instr6677(1, 1, 500, 500, 1, 0)
+		break
+	case 33:
+		script_2766(0, 50, arg0)
+		break
+	case 34:
+		script_2768(25, arg0)
+		break
+	case 35:
+		script_2766(0, 25, arg0)
+		break
+	case 36:
+		script_2768(50, arg0)
+		instr6236()
+		break
+
+}
+return

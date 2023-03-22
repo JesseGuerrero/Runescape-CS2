@@ -1,0 +1,25 @@
+//script3378(3378)(int arg0)(void)
+int iVar1
+int iVar2
+string sVar0
+string sVar1
+string sVar2
+sVar0 = if_gettext(if_gethash(906, 306))
+sVar1 = sVar0
+sVar2 = ""
+if(arg0 == 6) {
+	sVar2 = getclipboard()
+	sVar2 = substring(sVar2, min(string_length(sVar2), 320 - string_length(sVar0)), 0)
+	sVar1 = substring(sVar0, load_varc(1660), 0)
+	sVar1 = append(sVar2, sVar1)
+	sVar1 = append(substring(sVar0, string_length(sVar0), load_varc(1660)), sVar1)
+	store_varc(1660, load_varc(1660) + string_length(sVar2))
+}
+if_settext(if_gethash(906, 306), sVar1)
+iVar1 = stringwidth(instr6289(if_gethash(906, 306)), substring(sVar1, load_varc(1660), 0))
+iVar2 = 4
+if(iVar1 + 4 > if_getwidth(if_gethash(906, 305)))
+	iVar2 = -4 - (iVar1 - if_getwidth(if_gethash(906, 305)))
+if_setposition(if_gethash(906, 306), 0, 0, if_gety(if_gethash(906, 306)), iVar2)
+if_setposition(if_gethash(906, 307), 0, 0, if_gety(if_gethash(906, 307)), script_1551(load_varc(1660), instr6289(if_gethash(906, 306)), iVar2, sVar1))
+return

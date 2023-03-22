@@ -1,0 +1,77 @@
+void script_1547(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 70))) == false) {
+		return;
+	}
+	widget(500, 10).clearChildren();
+	int1 = 0;
+	int2 = 0;
+	int3 = 0;
+	int4 = 0;
+	while (int4 < arg0) {
+		int2, int3 = 0, int4 * 13;
+		CHILD.createChild(widget(500, 10), 3, int4 * 7);
+		CHILD.setSize(0, 13, 1, 0);
+		CHILD.setPosition(0, int3, 1, 0);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setFilled(true);
+		int1 = widget(500, 7).getWidth();
+		CHILD.createChild(widget(500, 10), 4, int4 * 7 + 1);
+		CHILD.setSize(int1, 13, 0, 0);
+		CHILD.setPosition(int2, int3, 0, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		int2 = int2 + int1;
+		int1 = widget(500, 8).getWidth();
+		CHILD.createChild(widget(500, 10), 4, int4 * 7 + 2);
+		CHILD.setSize(int1, 13, 0, 0);
+		CHILD.setPosition(int2, int3, 0, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		int2 = int2 + int1;
+		CHILD.createChild(widget(500, 10), 4, int4 * 7 + 3);
+		CHILD.setSize(int2, 13, 1, 0);
+		CHILD.setPosition(0, int3, 2, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.createChild(widget(500, 10), 4, int4 * 7 + 4);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.createChild(widget(500, 10), 4, int4 * 7 + 5);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.createChild(widget(500, 10), 4, int4 * 7 + 6);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		int4 = int4 + 1;
+	}
+	int5 = int4 * 13;
+	if (int5 > widget(500, 10).getHeight()) {
+		widget(500, 10).setScrollMax(0, int5);
+		script_72(widget(500, 11), widget(500, 10), VARC[179]);
+	} else {
+		widget(500, 10).setScrollMax(0, 0);
+		script_72(widget(500, 11), widget(500, 10), 0);
+		VARC[179] = 0;
+	}
+	return;
+}

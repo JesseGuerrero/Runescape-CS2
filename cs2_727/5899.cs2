@@ -1,0 +1,9 @@
+//script5899(5899)()(void)
+if(load_varc(1782) != load_varc(1783)) {
+	store_varc(1782, load_varc(1782) + 1)
+	script_5900()
+	if(load_varc(1782) >= 13)
+		store_varc(1782, 0)
+}
+script_5890(load_varc(1782))
+return

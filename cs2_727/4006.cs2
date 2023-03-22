@@ -1,0 +1,12 @@
+//script4006(4006)(int arg0)(void)
+if(arg0 == 0) {
+	if_setgraphic(if_gethash(1056, 113), 4324)
+	if_setgraphic(if_gethash(1056, 114), 4324)
+	if_setgraphic(if_gethash(1056, 86), 4325)
+} else  {
+	if_setgraphic(if_gethash(1056, 113), 4322)
+	if_setgraphic(if_gethash(1056, 114), 4322)
+	if_setgraphic(if_gethash(1056, 86), 4323)
+	script_41(69206147)
+}
+return

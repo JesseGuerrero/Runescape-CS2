@@ -1,0 +1,50 @@
+//script5077(5077)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+if(if_gethide(if_gethash(1111, 18)) == 0 || if_gethide(if_gethash(1111, 6)) == 1) {
+	script_41(72810615)
+	return
+}
+if(script_4761(25) == 0)
+	return
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = script_3365(72810502)
+iVar11 = script_3366(72810502)
+iVar12 = if_getwidth(if_gethash(1111, 6))
+iVar13 = if_getheight(if_gethash(1111, 6))
+if(cc_find(arg1, arg0) == 1) {
+	iVar4 = script_1743()
+	iVar9 = iVar4 - iVar10
+	iVar8 = iVar9 + cc_getwidth()
+	if(iVar13 - iVar7 > 150) {
+		script_4540(72810615, arg0, arg1, iVar12, 494, 494, -1, 10, 2, 2, arg2, arg3, arg0)
+		return
+	}
+	if(iVar6 > 125) {
+		script_4540(72810615, arg0, arg1, iVar12, 494, 494, -1, 10, 2, 0, arg2, arg3, arg0)
+		return
+	}
+	if(iVar12 - iVar8 > 150) {
+		script_4540(72810615, arg0, arg1, iVar12, 494, 494, -1, 10, 2, 1, arg2, arg3, arg0)
+		return
+	}
+	if(iVar9 > 225) {
+		script_4540(72810615, arg0, arg1, iVar12, 494, 494, -1, 10, 2, 3, arg2, arg3, arg0)
+		return
+	}
+	script_4540(72810615, arg0, arg1, iVar12, 494, 494, -1, 10, 2, -1, iVar4 + arg2, iVar5 + arg3, arg0)
+}
+return

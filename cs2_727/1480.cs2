@@ -1,0 +1,7 @@
+//script1480(1480)(int arg0, int arg1)(void)
+if(load_varc(188) == 0) {
+	script_41(49938531)
+	return
+}
+script_569(arg0, arg1, 49938531, 25, 150, "Item is in tab " + to_string(script_1468(arg1)))
+return

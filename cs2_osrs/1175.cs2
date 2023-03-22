@@ -1,0 +1,44 @@
+void script_1175() {
+	int int0;
+	int int1;
+	int int2;
+	int int3;
+	int0 = 0;
+	int1 = 0;
+	int2 = 1077;
+	int3 = 1078;
+	while (int0 < 5) {
+		if (VARPBIT[4842] == int0) {
+			if (CHILD.setChild(widget(234, 14), int0) == true) {
+				CHILD.setSprite(1079);
+				CHILD.setContextMenuOption(1, "View tab");
+				CHILD.hookOptionClick(null);
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+			}
+		} else if (CHILD.setChild(widget(234, 14), int0) == true) {
+			if (getItemAmtInContainer(93, datamap('i', 'O', 1244, int0)) <= 0) {
+				CHILD.setSprite(1080);
+				CHILD.setContextMenuOption(1, "");
+				CHILD.hookOptionClick(null);
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+			} else {
+				CHILD.setSprite(1077);
+				CHILD.setContextMenuOption(1, "View tab");
+				CHILD.hookOptionClick(&script_1173(int0));
+				CHILD.hookMouseHover(&script_229(widget(234, 14), int0, (Sprite)int3, null));
+				CHILD.hookMouseExit(&script_229(widget(234, 14), int0, (Sprite)int2, null));
+			}
+		}
+		if (CHILD.setChild(widget(234, 14), 5 + int0) == true) {
+			if (getItemAmtInContainer(93, datamap('i', 'O', 1244, int0)) <= 0) {
+				CHILD.setHidden(true);
+			} else {
+				CHILD.setHidden(false);
+			}
+		}
+		int0 = int0 + 1;
+	}
+	return;
+}

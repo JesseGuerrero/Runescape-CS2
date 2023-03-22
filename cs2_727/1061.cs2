@@ -1,0 +1,23 @@
+//script1061(1061)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+store_varc(159, 0)
+store_varc(158, 0)
+iVar6 = 0
+while(cc_find(iVar6, arg0) == 1) {
+	if(iVar6 == arg2) {
+		instr6091(None, "")
+		instr6092(None, "")
+		if(cc_find(iVar6, arg1) == 1) {
+			cc_sethide(0)
+			cc_setcolor(969777)
+		}
+	} else  {
+		instr6091(script_1082, "iIi", arg4 - 1, arg1, iVar6)
+		instr6092(script_1083, "iIi", arg4 - 1, arg1, iVar6)
+		if(cc_find(iVar6, arg1) == 1)
+			cc_sethide(1)
+	}
+	iVar6 = iVar6 + 1
+}
+script_1062(arg3, arg4, arg5, -1, 0)
+return

@@ -1,0 +1,24 @@
+//script5788(5788)(int arg0)(void)
+int iVar1
+if(load_varpbit(9030) == 1) {
+	if_sethide(if_gethash(1220, 25), 1)
+	script_4212(79953949, 4040, 15458492, 0, "Next Task")
+	if_setposition(if_gethash(1220, 23), 0, 0, if_gety(if_gethash(1220, 21)) + 1, if_getx(if_gethash(1220, 23)))
+} else  {
+	if_sethide(if_gethash(1220, 25), 0)
+	script_4212(79953949, 4040, 15458492, 0, "Active Task")
+	if_setposition(if_gethash(1220, 23), 0, 0, if_gety(if_gethash(1220, 21)) + 1, if_getx(if_gethash(1220, 23)))
+}
+if(load_varpbit(10700) == 0)
+	if(arg0 == 0)
+		if_sethide(if_gethash(1220, 41), 1)
+	else
+		if_sethide(if_gethash(1220, 41), 0)
+iVar1 = script_5795(arg0)
+if(iVar1 == -1)
+	return
+script_5796(arg0, 0, 79953940, 79953939, 79953938, -1, -1, -1)
+if_setsize(if_gethash(746, 9), 0, 0, 277, 190)
+script_5791()
+script_5871(arg0, load_varpbit(8578))
+return

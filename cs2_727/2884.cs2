@@ -1,0 +1,8 @@
+//script2884(2884)()(void)
+if(load_varpbit(4393) == 1 || load_varpbit(542) == 1)
+	return
+if(load_varpbit(7079) == 0)
+	script_39(12255246, 12255249, 25, 189, "Shuffle on")
+else
+	script_39(12255246, 12255249, 25, 189, "Shuffle off")
+return

@@ -1,0 +1,19 @@
+//script6497(6497)(int arg0)(void)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(arg0, 11774)
+		break
+	case 1:
+		if_setgraphic(arg0, 11776)
+		break
+	case 2:
+		if_setgraphic(arg0, 11778)
+		break
+	case 3:
+		if_setgraphic(arg0, 11780)
+		break
+
+}
+return

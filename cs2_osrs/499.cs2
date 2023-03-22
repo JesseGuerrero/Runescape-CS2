@@ -1,0 +1,115 @@
+void script_499(Widget widget0, DataMap datamap1, DataMap datamap2, DataMap datamap3, Model model4, int arg5, int arg6, int arg7, int arg8, int arg9) {
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	Model model23;
+	int int24;
+	string str0;
+	int10 = 0;
+	str0 = datamap('i', 's', datamap1, int10);
+	while (length(str0) > 0) {
+		CHILD.createChild(widget0, 3, int10);
+		CHILD.setFilled(true);
+		CHILD.setRGB(0x000000);
+		CHILD.setTrans(255);
+		CHILD.setContextMenuOption(1, str0);
+		int10 = int10 + 1;
+		str0 = datamap('i', 's', datamap1, int10);
+	}
+	if (int10 <= 0) {
+		return;
+	}
+	int11 = 0;
+	if (arg9 == 1) {
+		int11 = int10 / 2;
+		if (int10 % 2 == 1) {
+			int11 = int11 + 1;
+		}
+	} else {
+		int11 = int10;
+	}
+	int12 = widget0.getWidth() / int11;
+	int13 = 40;
+	int14 = 0;
+	if (int12 <= int13) {
+		int13 = int12;
+	} else {
+		int14 = (int12 - int13) / 2;
+	}
+	int15 = (int12 - 25) / 2;
+	int16 = widget0.getHeight() - 20;
+	if (arg9 == 1) {
+		int16 = int16 / 2;
+	}
+	int17 = 20 + int16 - 25;
+	int18 = 0;
+	if (arg9 == 1) {
+		int18 = int17 + int16;
+	}
+	int19 = int10;
+	int20 = 0;
+	int21 = 0;
+	int22 = 0;
+	model23 = null;
+	int24 = 0;
+	while (int20 < int10) {
+		if (arg9 == 1 && int20 >= int11) {
+			int24, int22 = 1, 20 + int16;
+			int21 = (int20 - int11) * int12;
+		} else {
+			int24, int22, int21 = 0, 20, int20 * int12;
+		}
+		if (CHILD.setChild(widget0, int20) == true) {
+			CHILD.setSize(int13, int16, 0, 0);
+			CHILD.setPosition(int21 + int14, int22, 0, 0);
+		}
+		CHILD.createChild(widget0, 6, int19);
+		int19 = int19 + 1;
+		CHILD.setPosition(int21, int22, 0, 0);
+		CHILD.setSize(int12, int16, 0, 0);
+		CHILD.setModel(datamap('i', 'm', datamap2, int20));
+		CHILD.set3DRotation(0, arg6, 0, arg7, 0, arg5);
+		if (datamap3 != null) {
+			model23 = datamap('i', 'm', datamap3, int20);
+			if (model23 != null) {
+				CHILD.createChild(widget0, 6, int19);
+				int19 = int19 + 1;
+				CHILD.setPosition(int21, int22, 0, 0);
+				CHILD.setSize(int12, int16, 0, 0);
+				CHILD.setModel(model23);
+				CHILD.set3DRotation(0, arg6, 0, arg7, 0, arg5);
+			}
+		}
+		if (model4 != null) {
+			CHILD.createChild(widget0, 6, int19);
+			int19 = int19 + 1;
+			CHILD.setPosition(int21, int22, 0, 0);
+			CHILD.setSize(int12, int16, 0, 0);
+			CHILD.setModel(model4);
+			CHILD.set3DRotation(0, arg6, 0, arg7, 0, arg5);
+		}
+		CHILD.createChild(widget0, 5, int19);
+		int19 = int19 + 1;
+		CHILD.setSize(25, 25, 0, 0);
+		if (int24 == 1) {
+			CHILD.setPosition(int21 + int15, int18, 0, 0);
+		} else {
+			CHILD.setPosition(int21 + int15, int17, 0, 0);
+		}
+		CHILD.setSprite(442);
+		script_501(int20, arg8);
+		CHILD.hookVARP(&script_500(CTX_WIDGET, CTX_WIDGET_CHILD, int20, arg8), 261, 262);
+		int20 = int20 + 1;
+	}
+	return;
+}

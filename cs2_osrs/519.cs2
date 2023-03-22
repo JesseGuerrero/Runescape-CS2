@@ -1,0 +1,6 @@
+void script_519(Widget widget0, int arg1) {
+	CHILD.createChild(widget0, 5, arg1 + 4);
+	CHILD.setPosition(4, 4 + (arg1 + 1) * 17, 0, 0);
+	CHILD.setSize(17, 17, 0, 0);
+	return;
+}

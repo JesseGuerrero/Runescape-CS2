@@ -1,0 +1,19 @@
+//script4614(4614)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1310722:
+		if_setcolor(arg0, hsvtorgb(load_varpbit(9254)))
+		break
+	case 1310728:
+		if_setcolor(arg0, hsvtorgb(load_varpbit(9255)))
+		break
+	case 1310731:
+		if_setcolor(arg0, hsvtorgb(load_varpbit(9256)))
+		break
+	case 1310725:
+		if_setcolor(arg0, hsvtorgb(load_varpbit(9257)))
+		break
+
+}
+return

@@ -1,0 +1,13 @@
+//script6285(6285)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(modulo(6, client_clock()) == 0)
+	if(cc_find(arg0, if_gethash(1296, 14)) == 1) {
+		iVar1 = cc_gettransparency()
+		if(iVar1 >= 235) {
+			cc_delete()
+			instr6342(if_gethash(1296, 14), None, "")
+		} else 
+			cc_settrans(iVar1 + 20)
+	}
+return

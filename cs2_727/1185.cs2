@@ -1,0 +1,5 @@
+//script1185(1185)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = if_getwidth(arg0) - if_getwidth(arg1)
+if_setposition(arg1, 0, 0, 0, (detailget_brightness() - 1) * (iVar2 / 3))
+return

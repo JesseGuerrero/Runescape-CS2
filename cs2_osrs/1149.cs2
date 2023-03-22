@@ -1,0 +1,21 @@
+void script_1149(int arg0, int arg1, string arg2, string string3) {
+	int int2;
+	int int3;
+	Widget widget4;
+	int2 = arg0 * 30;
+	int3 = (49 + int2) / 50;
+	if (int3 == 1) {
+		widget(228, 2).setText("There is 1 second remaining " + arg2);
+	} else {
+		widget(228, 2).setText("There are " + int3 + " seconds remaining " + arg2);
+	}
+	widget(228, 0).setText(string3);
+	widget(228, 1).setIsHidden(false);
+	widget4 = datamap('I', 'I', script_900(), widget(161, 29));
+	if (widget4 == null) {
+		widget4 = widget(228, 0);
+	}
+	widget4.hookFrame(&script_1150(widget4, arg2, getClientCycle(), int2, (boolean)arg1));
+	widget4.hookDialogAbort(&script_1597(widget4));
+	return;
+}

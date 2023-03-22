@@ -1,0 +1,301 @@
+//script1766(1766)()(void)
+string sVar0
+sVar0 = ""
+if(load_varc(232) == 0) {
+	if_setgraphic(if_gethash(548, 120), 1817)
+	if_setgraphic(if_gethash(746, 59), 8687)
+	sVar0 = "Combat Styles"
+	instr6213(if_gethash(548, 112), 1, sVar0)
+	instr6213(if_gethash(746, 75), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 91), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 91), sVar0)
+} else 
+	if(load_varc(232) == 1) {
+		if_setgraphic(if_gethash(548, 120), 7710)
+		if_setgraphic(if_gethash(746, 59), 8713)
+		sVar0 = "Props"
+		instr6213(if_gethash(548, 112), 1, sVar0)
+		instr6213(if_gethash(746, 75), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 91), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 91), sVar0)
+	}
+if(load_varc(822) == 0) {
+	script_4089()
+	if_setgraphic(if_gethash(548, 121), 1820)
+	if_setgraphic(if_gethash(746, 60), 8698)
+	sVar0 = "Task List"
+	instr6213(if_gethash(548, 113), 1, sVar0)
+	instr6213(if_gethash(746, 76), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 92), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 92), sVar0)
+} else 
+	if(load_varc(822) == 1) {
+		if_setgraphic(if_gethash(548, 121), 1812)
+		if_setgraphic(if_gethash(746, 60), 8719)
+		sVar0 = "Camera"
+		instr6213(if_gethash(548, 113), 1, sVar0)
+		instr6213(if_gethash(746, 76), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 92), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 92), sVar0)
+	} else 
+		if(load_varc(822) == 2) {
+			if_setgraphic(if_gethash(548, 121), 7709)
+			if_setgraphic(if_gethash(746, 60), 8712)
+			sVar0 = "Spotlights"
+			instr6213(if_gethash(548, 113), 1, sVar0)
+			instr6213(if_gethash(746, 76), 1, sVar0)
+			if_setonmouseover(if_gethash(746, 92), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 92), sVar0)
+		}
+switch(load_varc(233)) {
+	case default:
+		if_setgraphic(if_gethash(548, 122), 1818)
+		if_setgraphic(if_gethash(746, 61), 8697)
+		sVar0 = "Stats"
+		instr6213(if_gethash(548, 114), 1, sVar0)
+		instr6213(if_gethash(746, 77), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 93), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 93), sVar0)
+		break
+	case 1:
+		if_setgraphic(if_gethash(548, 122), 1815)
+		if_setgraphic(if_gethash(746, 61), 8722)
+		sVar0 = "Squad Commands"
+		instr6213(if_gethash(548, 114), 1, sVar0)
+		instr6213(if_gethash(746, 77), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 93), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 93), sVar0)
+		break
+	case 2:
+		if_setgraphic(if_gethash(548, 122), 7708)
+		if_setgraphic(if_gethash(746, 61), 6130)
+		sVar0 = "Sound Effects"
+		instr6213(if_gethash(548, 114), 1, sVar0)
+		instr6213(if_gethash(746, 77), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 93), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 93), sVar0)
+		break
+	case 4:
+		if_setgraphic(if_gethash(548, 122), 3248)
+		if_setgraphic(if_gethash(746, 61), 8716)
+		sVar0 = "Turn Options"
+		instr6213(if_gethash(548, 114), 1, sVar0)
+		instr6213(if_gethash(746, 77), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 93), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 93), sVar0)
+		break
+	case 5:
+		if_setgraphic(if_gethash(548, 122), 3248)
+		if_setgraphic(if_gethash(746, 61), 8716)
+		sVar0 = "Command Options"
+		instr6213(if_gethash(548, 114), 1, sVar0)
+		instr6213(if_gethash(746, 77), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 93), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 93), sVar0)
+		break
+
+}
+switch(load_varc(234)) {
+	case default:
+		if_setgraphic(if_gethash(548, 123), 1819)
+		if_setgraphic(if_gethash(746, 62), 8695)
+		sVar0 = "Quest Journals"
+		instr6213(if_gethash(548, 115), 1, sVar0)
+		instr6213(if_gethash(746, 78), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 94), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 94), sVar0)
+		break
+	case 1:
+		if_setgraphic(if_gethash(548, 123), 1813)
+		if_setgraphic(if_gethash(746, 62), 8720)
+		sVar0 = "Special Units"
+		instr6213(if_gethash(548, 115), 1, sVar0)
+		instr6213(if_gethash(746, 78), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 94), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 94), sVar0)
+		break
+	case 2:
+		if_setgraphic(if_gethash(548, 123), 3249)
+		if_setgraphic(if_gethash(746, 62), 8717)
+		sVar0 = "Troop Details"
+		instr6213(if_gethash(548, 115), 1, sVar0)
+		instr6213(if_gethash(746, 78), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 94), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 94), sVar0)
+		break
+	case 3:
+		if_setgraphic(if_gethash(548, 123), 3028)
+		if_setgraphic(if_gethash(746, 62), 8727)
+		sVar0 = "Party organiser"
+		instr6213(if_gethash(548, 115), 1, sVar0)
+		instr6213(if_gethash(746, 78), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 94), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 94), sVar0)
+		break
+	case 4:
+		if_setgraphic(if_gethash(548, 123), 1834)
+		if_setgraphic(if_gethash(746, 62), 8724)
+		sVar0 = "Book"
+		instr6213(if_gethash(548, 115), 1, sVar0)
+		instr6213(if_gethash(746, 78), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 94), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 94), sVar0)
+		break
+	case 5:
+		if_setgraphic(if_gethash(548, 123), 7711)
+		if_setgraphic(if_gethash(746, 62), 8714)
+		sVar0 = "Actors"
+		instr6213(if_gethash(548, 115), 1, sVar0)
+		instr6213(if_gethash(746, 78), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 94), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 94), sVar0)
+		break
+
+}
+if(load_varc(235) == 0) {
+	if_setgraphic(if_gethash(548, 124), 1821)
+	if_setgraphic(if_gethash(746, 63), 8690)
+	sVar0 = "Inventory"
+	instr6213(if_gethash(548, 116), 1, sVar0)
+	instr6213(if_gethash(746, 79), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 95), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 95), sVar0)
+} else 
+	if(load_varc(235) == 1) {
+		if_setgraphic(if_gethash(548, 124), 1814)
+		if_setgraphic(if_gethash(746, 63), 8721)
+		sVar0 = "My Squads"
+		instr6213(if_gethash(548, 116), 1, sVar0)
+		instr6213(if_gethash(746, 79), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 95), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 95), sVar0)
+	} else 
+		if(load_varc(235) == 2) {
+			if_setgraphic(if_gethash(548, 124), 3247)
+			if_setgraphic(if_gethash(746, 63), 8715)
+			sVar0 = "Commands"
+			instr6213(if_gethash(548, 116), 1, sVar0)
+			instr6213(if_gethash(746, 79), 1, sVar0)
+			if_setonmouseover(if_gethash(746, 95), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 95), sVar0)
+		}
+if(load_varc(236) == 0) {
+	if_setgraphic(if_gethash(548, 125), 1822)
+	if_setgraphic(if_gethash(746, 64), 6128)
+	sVar0 = "Worn Equipment"
+	instr6213(if_gethash(548, 117), 1, sVar0)
+	instr6213(if_gethash(746, 80), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 96), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 96), sVar0)
+} else 
+	if(load_varc(236) == 1) {
+		if_setgraphic(if_gethash(548, 125), 1833)
+		if_setgraphic(if_gethash(746, 64), 8725)
+		sVar0 = "Acrobat Emotes"
+		instr6213(if_gethash(548, 117), 1, sVar0)
+		instr6213(if_gethash(746, 80), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 96), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 96), sVar0)
+	} else 
+		if(load_varc(236) == 2) {
+			if_setgraphic(if_gethash(548, 125), 1816)
+			if_setgraphic(if_gethash(746, 64), 8723)
+			sVar0 = "Forfeit"
+			instr6213(if_gethash(548, 117), 1, sVar0)
+			instr6213(if_gethash(746, 80), 1, sVar0)
+			if_setonmouseover(if_gethash(746, 96), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 96), sVar0)
+		} else 
+			if(load_varc(236) == 3) {
+				if_setgraphic(if_gethash(548, 125), 3250)
+				if_setgraphic(if_gethash(746, 64), 8718)
+				sVar0 = "Diplomacy"
+				instr6213(if_gethash(548, 117), 1, sVar0)
+				instr6213(if_gethash(746, 80), 1, sVar0)
+				if_setonmouseover(if_gethash(746, 96), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 96), sVar0)
+			} else 
+				if(load_varc(236) == 4) {
+					if_setgraphic(if_gethash(548, 125), 3250)
+					if_setgraphic(if_gethash(746, 64), 8718)
+					sVar0 = "Retreat"
+					instr6213(if_gethash(548, 117), 1, sVar0)
+					instr6213(if_gethash(746, 80), 1, sVar0)
+					if_setonmouseover(if_gethash(746, 96), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 96), sVar0)
+				}
+if(load_varc(237) == 0) {
+	if_setgraphic(if_gethash(548, 126), 1823)
+	if_setgraphic(if_gethash(746, 65), 8694)
+	sVar0 = "Prayer List"
+	if_setonmouseover(if_gethash(746, 97), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 97), sVar0)
+}
+if(load_varc(238) == 0) {
+	if_setgraphic(if_gethash(548, 127), 1824)
+	if_setgraphic(if_gethash(746, 66), 8696)
+	sVar0 = "Magic Spellbook"
+	instr6213(if_gethash(548, 119), 1, sVar0)
+	instr6213(if_gethash(746, 82), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 98), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 98), sVar0)
+}
+if(load_varc(823) == 1) {
+	if_setgraphic(if_gethash(548, 91), 11761)
+	if_setgraphic(if_gethash(746, 67), 11833)
+	sVar0 = "Extras"
+	instr6213(if_gethash(548, 83), 1, sVar0)
+	instr6213(if_gethash(746, 83), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 99), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 99), sVar0)
+} else 
+	if(load_varc(823) == 2) {
+		if_setgraphic(if_gethash(548, 91), 447)
+		if_setgraphic(if_gethash(746, 67), 8726)
+		sVar0 = "Production"
+		instr6213(if_gethash(548, 83), 1, sVar0)
+		instr6213(if_gethash(746, 83), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 99), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 99), sVar0)
+	} else  {
+		if_setgraphic(if_gethash(548, 91), -1)
+		if_setgraphic(if_gethash(746, 67), -1)
+		instr6220(if_gethash(746, 83))
+		instr6220(if_gethash(548, 83))
+		if_setonmouseover(if_gethash(746, 99), None, "")
+	}
+if(load_varc(240) == 0) {
+	if_setgraphic(if_gethash(548, 92), 6238)
+	if_setgraphic(if_gethash(746, 68), 8689)
+	sVar0 = "Friends List"
+	if_setonmouseover(if_gethash(746, 100), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 100), sVar0)
+}
+if(load_varc(241) == 0) {
+	if_setgraphic(if_gethash(548, 93), 6237)
+	if_setgraphic(if_gethash(746, 69), 8685)
+	sVar0 = "Friends Chat"
+	if_setonmouseover(if_gethash(746, 101), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 101), sVar0)
+}
+if(load_varc(242) == 0) {
+	if_setgraphic(if_gethash(548, 94), 1828)
+	if_setgraphic(if_gethash(746, 70), 8686)
+	sVar0 = "Clan Chat"
+	if_setonmouseover(if_gethash(746, 102), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 102), sVar0)
+}
+if(load_varc(243) == 0) {
+	if_setgraphic(if_gethash(548, 95), 1829)
+	if_setgraphic(if_gethash(746, 71), 8693)
+	sVar0 = "Options"
+	if_setonmouseover(if_gethash(746, 103), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 103), sVar0)
+}
+if(load_varc(244) == 0) {
+	if_setgraphic(if_gethash(548, 96), 1830)
+	if_setgraphic(if_gethash(746, 72), 8688)
+	sVar0 = "Emotes"
+	instr6213(if_gethash(548, 88), 1, sVar0)
+	instr6213(if_gethash(746, 88), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 104), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 104), sVar0)
+} else 
+	if(load_varc(244) == 1) {
+		if_setgraphic(if_gethash(548, 96), 3247)
+		if_setgraphic(if_gethash(746, 72), 3247)
+		sVar0 = "Special Attacks"
+		instr6213(if_gethash(548, 88), 1, sVar0)
+		instr6213(if_gethash(746, 88), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 104), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 104), sVar0)
+	}
+if(load_varc(245) == 0) {
+	if_setgraphic(if_gethash(548, 97), 1831)
+	if_setgraphic(if_gethash(746, 73), 8691)
+	sVar0 = "Music Player"
+	instr6213(if_gethash(548, 89), 1, sVar0)
+	instr6213(if_gethash(746, 89), 1, sVar0)
+	if_setonmouseover(if_gethash(746, 105), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 105), sVar0)
+} else 
+	if(load_varc(245) == 1) {
+		if_setgraphic(if_gethash(548, 97), 7707)
+		if_setgraphic(if_gethash(746, 73), 6129)
+		sVar0 = "Face Direction"
+		instr6213(if_gethash(548, 89), 1, sVar0)
+		instr6213(if_gethash(746, 89), 1, sVar0)
+		if_setonmouseover(if_gethash(746, 105), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 105), sVar0)
+	}
+if(load_varc(824) == 0) {
+	if_setgraphic(if_gethash(548, 98), 1832)
+	if_setgraphic(if_gethash(746, 74), 8692)
+	sVar0 = "Notes"
+	if_setonmouseover(if_gethash(746, 106), script_5515, "IIs", if_gethash(746, 42), if_gethash(746, 106), sVar0)
+}
+return

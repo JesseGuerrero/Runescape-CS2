@@ -1,0 +1,10 @@
+//script5274(5274)()(void)
+int iVar0
+iVar0 = 0
+if(instr6004(if_gethash(1137, 7)) == 1) {
+	iVar0 = instr6771(1103) - 1
+	cc_setparam_int(iVar0, 1103)
+}
+if(iVar0 == 0)
+	if_sethide(if_gethash(1137, 7), 1)
+return

@@ -1,0 +1,14 @@
+//script7(7)()(void)
+int iVar0
+int iVar1
+iVar0 = load_varc(10) - 100
+store_varc(10, 0)
+if(iVar0 < -1 || iVar0 == script_1305())
+	return
+iVar1 = script_8(iVar0)
+if(iVar1 == -1)
+	return
+if(if_isopen(iVar1) == 0)
+	return
+script_71(iVar0)
+return

@@ -1,0 +1,3 @@
+//script2055(2055)(int arg0)(string)
+return to_string(coordy(arg0)) + "_" + to_string(coordx(arg0) / 64) + "_" + to_string(coordz(arg0) / 64) + "_" + to_string(modulo(64, coordx(arg0))) + "_" + to_string(modulo(64, coordz(arg0)))
+return ""

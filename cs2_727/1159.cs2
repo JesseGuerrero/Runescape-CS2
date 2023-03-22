@@ -1,0 +1,7 @@
+//script1159(1159)()(void)
+int iVar0
+int iVar1
+iVar0 = if_getwidth(if_gethash(429, 35)) - if_getwidth(if_gethash(429, 36))
+iVar1 = scale(iVar0, 255, detailget_music_volume())
+if_setposition(if_gethash(429, 36), 0, 0, 0, iVar1)
+return

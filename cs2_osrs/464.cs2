@@ -1,0 +1,33 @@
+int script_464(int arg0) {
+	if (getSkillActualLvl(5) < datamap('i', 'i', 861, arg0) && VARPBIT[5314] == 0) {
+		return 0;
+	}
+	if (arg0 == 25) {
+		if ((isMember() == false || getSkillActualLvl(1) < 65 || VARPBIT[3909] < 8) && VARPBIT[5314] == 0) {
+			return 0;
+		}
+	} else if (arg0 == 26) {
+		if ((isMember() == false || getSkillActualLvl(1) < 70 || VARPBIT[3909] < 8) && VARPBIT[5314] == 0) {
+			return 0;
+		}
+	} else if (arg0 == 15 || arg0 == 16 || arg0 == 17) {
+		if (isMember() == false && VARPBIT[5314] == 0) {
+			return 0;
+		}
+	} else if (arg0 == 24) {
+		if ((isMember() == false || getSkillActualLvl(1) < 70 || VARPBIT[5451] == 0) && VARPBIT[5314] == 0) {
+			return 0;
+		}
+	} else if (arg0 == 27) {
+		if ((isMember() == false || getSkillActualLvl(1) < 70 || VARPBIT[5452] == 0) && VARPBIT[5314] == 0) {
+			return 0;
+		}
+	} else if (arg0 == 28) {
+		if (isMember() == false || VARPBIT[5453] == 0 || VARPBIT[5314] == 1) {
+			return 0;
+		}
+	} else if (arg0 == 8 && (script_451() == 1 || script_1138() == 1 || VARPBIT[5314] == 1)) {
+		return 0;
+	}
+	return 1;
+}

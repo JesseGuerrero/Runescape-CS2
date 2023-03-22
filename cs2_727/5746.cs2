@@ -1,0 +1,217 @@
+//script5746(5746)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar0 = script_5763(load_varp(2504))
+iVar1 = load_varp(2504)
+iVar2 = 0
+iVar3 = 0
+iVar4 = enum_getoutputcount(iVar0) - 1
+iVar5 = -1
+iVar6 = -1
+iVar7 = 1
+iVar8 = 1
+iVar9 = 0
+cc_deleteall(if_gethash(1239, 8))
+while(iVar4 >= 0) {
+	iVar9 = 0
+	iVar7 = 1
+	iVar5 = enum(iVar0, iVar4, 'i', 'J')
+	iVar6 = enum(5483, iVar5, 'J', 'J')
+	if(iVar6 != -1)
+		iVar5 = iVar6
+	if(script_5729(iVar5, iVar1) == 0)
+		iVar7 = 0
+	else
+		if(iVar1 == 0) {
+			if(script_1432() < struct_param(2233, iVar5))
+				iVar7 = 0
+			if(iVar7 == 1)
+				switch(struct_param(1294, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1294, iVar5), 'i', 'S')) < struct_param(1295, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1296, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1296, iVar5), 'i', 'S')) < struct_param(1297, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1298, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1298, iVar5), 'i', 'S')) < struct_param(1299, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1300, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1300, iVar5), 'i', 'S')) < struct_param(1301, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1302, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1302, iVar5), 'i', 'S')) < struct_param(1303, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1304, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1304, iVar5), 'i', 'S')) < struct_param(1305, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1306, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1306, iVar5), 'i', 'S')) < struct_param(1307, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1308, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1308, iVar5), 'i', 'S')) < struct_param(1309, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1310, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1310, iVar5), 'i', 'S')) < struct_param(1311, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(1312, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(1312, iVar5), 'i', 'S')) < struct_param(1313, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(2227, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(2227, iVar5), 'i', 'S')) < struct_param(2228, iVar5))
+							iVar7 = 0
+						break
+
+				}
+			if(iVar7 == 1)
+				switch(struct_param(2229, iVar5)) {
+					case default:
+						break
+					case 6:
+						if(stat_base(enum(681, struct_param(2229, iVar5), 'i', 'S')) < struct_param(2230, iVar5))
+							iVar7 = 0
+						break
+
+				}
+		} else  {
+			if(struct_param(1294, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1295, iVar5))
+					iVar7 = 0
+			if(struct_param(1296, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1297, iVar5))
+					iVar7 = 0
+			if(struct_param(1298, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1299, iVar5))
+					iVar7 = 0
+			if(struct_param(1300, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1301, iVar5))
+					iVar7 = 0
+			if(struct_param(1302, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1303, iVar5))
+					iVar7 = 0
+			if(struct_param(1304, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1305, iVar5))
+					iVar7 = 0
+			if(struct_param(1306, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1307, iVar5))
+					iVar7 = 0
+			if(struct_param(1308, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1309, iVar5))
+					iVar7 = 0
+			if(struct_param(1310, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1311, iVar5))
+					iVar7 = 0
+			if(struct_param(1312, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(1313, iVar5))
+					iVar7 = 0
+			if(struct_param(2227, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(2228, iVar5))
+					iVar7 = 0
+			if(struct_param(2229, iVar5) == enum(1482, iVar1, 'S', 'i'))
+				if(stat_base(iVar1) < struct_param(2230, iVar5))
+					iVar7 = 0
+		}
+	if(iVar7 == 1) {
+		iVar8 = script_3224(struct_param(1268, iVar5))
+		if(script_3227(struct_param(1268, iVar5)) == 2)
+			if(script_5732(iVar5) == 0)
+				iVar9 = 1
+			else
+				iVar9 = 0
+		iVar2 = script_5747(iVar5, iVar8, iVar9, iVar2, iVar3).get(0)
+	}
+	iVar4 = max(iVar4 - 1, -1)
+}
+if((1 + iVar3) * 54 > if_getheight(if_gethash(1239, 8))) {
+	if_sethide(if_gethash(1239, 9), 0)
+	if_setscrollsize(81199112, (1 + iVar3) * 54, if_getwidth(if_gethash(1239, 8)))
+	if(load_varc(1771) != -1)
+		if_setscrollpos(if_gethash(1239, 8), load_varc(1771), 0)
+	script_31(81199113, 81199112, 4343, 4340, 4341, 4342, 4337, 4336)
+	hook_mouse_press(if_gethash(1239, 8), script_5751, "")
+} else  {
+	if_sethide(if_gethash(1239, 9), 1)
+	if_setscrollsize(81199112, 0, 0)
+	if_setscrollpos(if_gethash(1239, 8), 0, 0)
+}
+return

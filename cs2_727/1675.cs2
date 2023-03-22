@@ -1,0 +1,6 @@
+//script1675(1675)(int arg0)(void)
+if(arg0 == 0)
+	if_setmodel(if_gethash(84, 19), enum(839, load_varpbit(6764), 'i', 'm'))
+else
+	if_setmodel(if_gethash(84, 19), enum(838, arg0, 'i', 'm'))
+return

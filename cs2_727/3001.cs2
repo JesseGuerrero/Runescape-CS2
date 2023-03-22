@@ -1,0 +1,52 @@
+//script3001(3001)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+sVar0 = ""
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+iVar1 = userdetail_lobby_membership().get(0)
+if(iVar0 == 0)
+	if(playermember() == 1) {
+		sVar0 = format_datetime_from_minutes(iVar1)
+		iVar3 = iVar2 / 1440
+		iVar4 = modulo(1440, iVar2) / 60
+		iVar5 = modulo(60, iVar2)
+		if((iVar3 + iVar4) + iVar5 != 0)
+			sVar1 = " (in " + script_4582(iVar3, iVar4, iVar5) + ")"
+		sVar2 = "Your membership will expire on " + sVar0 + sVar1 + ". Renew now to avoid losing member status. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to renew."
+		sVar3 = "Your membership will expire on " + sVar0 + sVar1 + ". Renew now to avoid losing member status. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to renew."
+		if_settext(if_gethash(907, 54), sVar2)
+		hook_mouse_enter(if_gethash(907, 54), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 54), script_68, "Is", -2147483645, sVar2)
+	}
+iVar6 = userdetail_lobby_lastloginday()
+if(iVar6 == 0) {
+	if_settext(if_gethash(907, 1), "Welcome to RuneScape!")
+	return
+}
+iVar7 = instr6797() - iVar6
+if(iVar7 < 1)
+	if_settext(if_gethash(907, 1), "You last logged in earlier today from: " + userdetail_lobby_lastloginaddress())
+else
+	if(iVar7 == 1)
+		if_settext(if_gethash(907, 1), "You last logged in yesterday from: " + userdetail_lobby_lastloginaddress())
+	else
+		if_settext(if_gethash(907, 1), "You last logged in " + to_string(iVar7) + " days ago from: " + userdetail_lobby_lastloginaddress())
+return

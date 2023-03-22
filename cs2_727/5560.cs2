@@ -1,0 +1,17 @@
+//script5560(5560)(int arg0)(void)
+int iVar1
+int iVar2
+string sVar0
+sVar0 = "null"
+iVar1 = -1
+iVar2 = 0
+if(arg0 != -1)
+	iVar2 = arg0
+else
+	iVar2 = inv_total(995, 623)
+sVar0 = script_5564(arg0).get(1)
+if_setcolor(48890063, iVar1)
+if_setcolor(35913928, iVar1)
+if_settext(if_gethash(746, 207), sVar0)
+if_settext(if_gethash(548, 200), sVar0)
+return

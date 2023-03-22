@@ -1,0 +1,6 @@
+void script_1695(int arg0, Widget widget1, Widget widget2, Widget widget3, int arg4, int arg5, int arg6) {
+	script_1665(arg0, widget1, 2, 3, "Sort by name", widget1, widget2, widget3, arg4, arg5, arg6);
+	script_1665(arg0, widget2, 6, 7, "Sort by rank", widget1, widget2, widget3, arg4, arg5, arg6);
+	script_1665(arg0, widget3, 0, 1, "Legacy sort", widget1, widget2, widget3, arg4, arg5, arg6);
+	return;
+}

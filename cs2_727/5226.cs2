@@ -1,0 +1,4 @@
+//script5226(5226)()(void)
+if(activeclansettings_find_affined() == 1)
+	script_4328(71827804)
+return

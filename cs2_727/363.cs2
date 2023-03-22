@@ -1,0 +1,45 @@
+//script363(363)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, string arg9, string arg10)(void)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+cc_deleteall(arg0)
+if(arg3 == -1) {
+	if_sethide(arg0, 1)
+	instr6220(arg0)
+	return
+}
+if_sethide(arg0, 0)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 1, if_getheight(arg0), 0)
+cc_setposition(0, 0, 0, 0)
+iVar9 = cc_getheight()
+iVar10 = iVar9 - 10
+if(arg6 > 90)
+	cc_setgraphic(10551)
+else
+	cc_setgraphic(10549)
+iVar11 = instr6151()
+iVar12 = 0
+if(arg3 != -1) {
+	cc_create(if_getnextsubid(arg0), 5, arg0)
+	cc_setsize(0, 0, arg6, arg5)
+	if(arg7 == 2)
+		iVar12 = iVar9 - (arg6 + 2)
+	else
+		iVar12 = (iVar9 - arg6) / 2
+	cc_setposition(0, 1, iVar12, 0)
+	cc_settiling(0)
+	cc_setgraphic(arg3)
+}
+if(arg8 == 1) {
+	script_365(arg0, iVar11, 1)
+	if_setonmouseover(arg0, script_366, "Iigii11Isi", if_gethash(-1, 65535), arg1, arg2, iVar11, iVar9, 1, arg4, -2147483645, arg1, -2147483647)
+	hook_mouse_exit(arg0, script_366, "Iigii11Isi", if_gethash(-1, 65535), arg1, arg2, iVar11, iVar9, 0, arg4, -2147483645, arg1, -1)
+	instr6342(arg0, None, "")
+} else  {
+	script_365(arg0, iVar11, 0)
+	if_setonmouseover(arg0, script_366, "Iigii11Isi", arg0, arg1, arg2, iVar11, iVar9, 1, arg4, -2147483645, arg1, -2147483647)
+	hook_mouse_exit(arg0, script_366, "Iigii11Isi", arg0, arg1, arg2, iVar11, iVar9, 0, arg4, -2147483645, arg1, -1)
+}
+return

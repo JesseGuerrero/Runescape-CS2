@@ -1,0 +1,333 @@
+//script391(391)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+string sVar0
+string sVar1
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+iVar10 = -1
+sVar0 = ""
+switch(load_varc(1020)) {
+	case default:
+		break
+	case 0:
+		iVar0 = 67371124
+		iVar6 = 748
+		iVar7 = 746
+		iVar8 = 747
+		iVar9 = 4
+		iVar10 = load_varc(1019)
+		sVar0 = "Select skin colour:"
+		if_sethide(if_gethash(1028, 123), 1)
+		break
+	case 1:
+		iVar0 = 67371125
+		if(gender() == 1) {
+			iVar1 = 3302
+			iVar2 = 3303
+			iVar4 = 7
+		} else  {
+			iVar1 = 3304
+			iVar2 = 3305
+			iVar4 = 0
+		}
+		iVar5 = load_varc(1008)
+		iVar6 = 2345
+		iVar7 = 2343
+		iVar8 = 2344
+		iVar9 = 0
+		iVar10 = load_varc(1015)
+		sVar0 = "Select hairstyle:"
+		if_sethide(if_gethash(1028, 123), 1)
+		break
+	case 2:
+		iVar0 = 67371129
+		if(gender() != 1) {
+			iVar1 = 3307
+			iVar2 = 3306
+			iVar3 = 2340
+			iVar4 = 1
+			iVar5 = load_varc(1009)
+			iVar6 = 2345
+			iVar7 = 2343
+			iVar8 = 2344
+			iVar9 = 0
+			iVar10 = load_varc(1015)
+		}
+		sVar0 = "Select facial hair:"
+		if_sethide(if_gethash(1028, 123), 1)
+		break
+	case 3:
+		iVar0 = 67371126
+		if(gender() == 1) {
+			iVar1 = 3299
+			iVar2 = 3298
+			iVar3 = 1590
+			iVar4 = 9
+		} else  {
+			iVar1 = 3287
+			iVar2 = 3286
+			iVar3 = 689
+			iVar4 = 2
+		}
+		iVar5 = load_varc(1010)
+		iVar6 = 3283
+		iVar7 = 2347
+		iVar8 = 2348
+		iVar9 = 1
+		iVar10 = load_varc(1016)
+		sVar0 = "Select torso:"
+		if_sethide(if_gethash(1028, 123), 0)
+		break
+	case 6:
+		iVar0 = 67371127
+		if(gender() == 1) {
+			iVar1 = 3301
+			iVar2 = 3300
+			iVar3 = 1606
+			iVar4 = 12
+		} else  {
+			iVar1 = 3289
+			iVar2 = 3288
+			iVar3 = 1585
+			iVar4 = 5
+		}
+		iVar5 = load_varc(1013)
+		iVar6 = 3283
+		iVar7 = 2347
+		iVar8 = 2348
+		iVar9 = 2
+		iVar10 = load_varc(1017)
+		sVar0 = "Select legs:"
+		if_sethide(if_gethash(1028, 123), 0)
+		break
+	case 7:
+		iVar0 = 67371128
+		if(gender() == 1) {
+			iVar1 = 1137
+			iVar2 = 3295
+			iVar3 = 3294
+			iVar4 = 13
+		} else  {
+			iVar1 = 1136
+			iVar2 = 3292
+			iVar3 = 3291
+			iVar4 = 6
+		}
+		iVar5 = load_varc(1014)
+		iVar6 = 3297
+		iVar7 = 753
+		iVar8 = 3296
+		iVar9 = 3
+		iVar10 = load_varc(1018)
+		sVar0 = "Select footwear:"
+		if_sethide(if_gethash(1028, 123), 0)
+		break
+
+}
+cc_deleteall(if_gethash(1028, 115))
+hook_mouse_enter(iVar0, None, "")
+hook_mouse_exit(iVar0, script_382, "")
+script_376(67371123, iVar0, -1, 14662200, 12811264, 0, 0)
+if(iVar0 != 67371124) {
+	hook_mouse_enter(if_gethash(1028, 116), script_375, "IIiiiii", if_gethash(1028, 115), -2147483645, -1, 12559689, 12559689, 0, 6)
+	hook_mouse_exit(if_gethash(1028, 116), script_377, "Ii", if_gethash(1028, 115), 6)
+}
+if_setonmouseover(if_gethash(1028, 116), script_378, "sIii", if_getoptionname(if_gethash(1028, 116), 1), -2147483645, -1, -2147483647)
+if(iVar0 != 67371125) {
+	hook_mouse_enter(if_gethash(1028, 117), script_375, "IIiiiii", if_gethash(1028, 115), -2147483645, -1, 12559689, 12559689, 0, 6)
+	hook_mouse_exit(if_gethash(1028, 117), script_377, "Ii", if_gethash(1028, 115), 6)
+}
+if_setonmouseover(if_gethash(1028, 117), script_378, "sIii", if_getoptionname(if_gethash(1028, 117), 1), -2147483645, -1, -2147483647)
+if(iVar0 != 67371129) {
+	hook_mouse_enter(if_gethash(1028, 121), script_375, "IIiiiii", if_gethash(1028, 115), -2147483645, -1, 12559689, 12559689, 0, 6)
+	hook_mouse_exit(if_gethash(1028, 121), script_377, "Ii", if_gethash(1028, 115), 6)
+}
+if_setonmouseover(if_gethash(1028, 121), script_378, "sIii", if_getoptionname(if_gethash(1028, 121), 1), -2147483645, -1, -2147483647)
+if(iVar0 != 67371126) {
+	hook_mouse_enter(if_gethash(1028, 118), script_375, "IIiiiii", if_gethash(1028, 115), -2147483645, -1, 12559689, 12559689, 0, 6)
+	hook_mouse_exit(if_gethash(1028, 118), script_377, "Ii", if_gethash(1028, 115), 6)
+}
+if_setonmouseover(if_gethash(1028, 118), script_378, "sIii", if_getoptionname(if_gethash(1028, 118), 1), -2147483645, -1, -2147483647)
+if(iVar0 != 67371127) {
+	hook_mouse_enter(if_gethash(1028, 119), script_375, "IIiiiii", if_gethash(1028, 115), -2147483645, -1, 12559689, 12559689, 0, 6)
+	hook_mouse_exit(if_gethash(1028, 119), script_377, "Ii", if_gethash(1028, 115), 6)
+}
+if_setonmouseover(if_gethash(1028, 119), script_378, "sIii", if_getoptionname(if_gethash(1028, 119), 1), -2147483645, -1, -2147483647)
+if(iVar0 != 67371128) {
+	hook_mouse_enter(if_gethash(1028, 120), script_375, "IIiiiii", if_gethash(1028, 115), -2147483645, -1, 12559689, 12559689, 0, 6)
+	hook_mouse_exit(if_gethash(1028, 120), script_377, "Ii", if_gethash(1028, 115), 6)
+}
+if_setonmouseover(if_gethash(1028, 120), script_378, "sIii", if_getoptionname(if_gethash(1028, 120), 1), -2147483645, -1, -2147483647)
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = -1
+iVar16 = -1
+iVar17 = -1
+iVar18 = 0
+sVar1 = ""
+cc_deleteall(if_gethash(1028, 128))
+cc_deleteall(if_gethash(1028, 125))
+if(iVar1 != -1)
+	if(iVar2 != -1)
+		if(iVar4 != -1) {
+			iVar14 = (if_getwidth(if_gethash(1028, 128)) - (4 * 65)) / 3
+			iVar12 = enum_getoutputcount(iVar1)
+			while(iVar11 < iVar12) {
+				cc_create(iVar11, 5, 67371136)
+				cc_setsize(0, 0, 65, 65)
+				cc_setposition(0, 0, (iVar11 / 4) * (65 + iVar14), modulo(4, iVar11) * (65 + iVar14))
+				cc_setgraphic(enum(iVar2, iVar11, 'i', 'd'))
+				if(load_varc(1020) == 1) {
+					iVar15 = enum(iVar1, iVar11, 'i', 'J')
+					if(iVar15 != -1) {
+						sVar1 = struct_param(792, iVar15)
+						cc_setop(sVar1, 1)
+						iVar16 = struct_param(788, iVar15)
+					} else 
+						iVar16 = -1
+				} else  {
+					sVar1 = enum(iVar3, iVar11, 'i', 's')
+					cc_setop(sVar1, 1)
+					iVar16 = enum(iVar1, iVar11, 'i', 'K')
+				}
+				if(iVar5 == iVar16) {
+					iVar17 = iVar11
+					iVar18 = cc_gety()
+					if(string_length(sVar1) > 0)
+						sVar0 = sVar0 + " " + sVar1
+					instr6092(script_382, "")
+				} else  {
+					instr6687(script_355, "iKi", -2147483644, iVar16, iVar4)
+					instr6091(script_373, "Iiii1", -2147483645, -2147483643, iVar12 + 1, 2, 1)
+					instr6092(script_373, "Iiii1", -2147483645, -2147483643, iVar12 + 1, 2, 0)
+				}
+				if(string_length(sVar1) > 0)
+					cc_setonmouseover(script_378, "sIii", sVar1, -2147483645, -2147483643, -2147483647)
+				iVar13 = cc_gety()
+				iVar11 = iVar11 + 1
+			}
+			iVar13 = iVar13 + 65
+			cc_create(iVar12, 3, 67371136)
+			if(iVar17 != -1)
+				if(cc_find(iVar17, if_gethash(1028, 128)) == 1) {
+					cc_setsize(0, 0, cc_getheight() - 6, cc_getwidth() - 6)
+					cc_setposition(0, 0, cc_gety() + 3, cc_getx() + 3)
+					cc_setcolor(0)
+					cc_settrans(175)
+					cc_setfill(1)
+				} else 
+					cc_sethide(1)
+		}
+iVar19 = 3466
+if(iVar13 > if_getheight(if_gethash(1028, 128))) {
+	if_setscrollsize(67371136, iVar13, 0)
+	if(iVar18 < if_getscrolly(67371136))
+		if_setscrollpos(if_gethash(1028, 128), iVar18 - 15, 0)
+	else
+		if(iVar18 + 65 >= if_getscrolly(67371136) + if_getheight(if_gethash(1028, 128)))
+			if_setscrollpos(if_gethash(1028, 128), ((iVar18 + 65) + 15) - if_getheight(if_gethash(1028, 128)), 0)
+	script_186(67371134, 67371136, 6118, 6119, 6120, 6115, 6116, 6117, 6122, 6121, 6124, 6123, 6126, 6125)
+} else  {
+	if_setscrollpos(if_gethash(1028, 128), 0, 0)
+	if_setscrollsize(67371136, 0, 0)
+	cc_deleteall(if_gethash(1028, 126))
+	if(load_varc(1020) == 0)
+		script_374(67371136, 20, "Please choose your skin colour" + "<br>" + "from the selection on the right.")
+	else
+		if(load_varc(1020) == 2)
+			if(gender() == 1)
+				script_374(67371136, 20, "Female characters cannot have" + "<br>" + "facial hair in RuneScape.")
+}
+script_374(67371133, 0, sVar0)
+cc_deleteall(if_gethash(1028, 132))
+iVar20 = -1
+iVar17 = -1
+iVar11 = 0
+iVar18 = 0
+iVar21 = 0
+if(iVar6 != -1)
+	if(iVar7 != -1)
+		if(iVar9 != -1) {
+			iVar12 = enum_getoutputcount(iVar6)
+			iVar21 = iVar12 + 6
+			while(iVar11 < iVar12) {
+				cc_create(iVar11, 3, 67371140)
+				cc_setsize(0, 1, 17 - 2, 15)
+				cc_setposition(0, 1, (iVar11 * 17) + 1, 0)
+				cc_setfill(1)
+				cc_setcolor(0)
+				sVar1 = enum(iVar8, iVar11, 'i', 's')
+				cc_setop(sVar1, 1)
+				iVar20 = enum(iVar6, iVar11, 'i', 'i')
+				if(iVar10 == iVar20) {
+					iVar17 = iVar11
+					iVar18 = cc_gety()
+					instr6092(script_382, "")
+				} else  {
+					instr6687(script_357, "iii", -2147483644, iVar20, iVar9)
+					instr6091(script_375, "IIiiiii", -2147483645, -2147483645, -2147483643, 12559689, 12559689, 1, iVar21)
+					instr6092(script_377, "Ii", -2147483645, iVar21)
+				}
+				if(string_length(sVar1) > 0)
+					cc_setonmouseover(script_381, "sIii", sVar1, -2147483645, -2147483643, -2147483646)
+				iVar11 = iVar11 + 1
+			}
+		} else 
+			iVar12 = 0
+iVar13 = max(0, iVar12 * 17)
+if(iVar13 > if_getheight(if_gethash(1028, 129)) - 12) {
+	if_setsize(if_gethash(1028, 132), 1, 1, 12, 23)
+	if_setposition(if_gethash(1028, 132), 1, 0, 0, 5)
+	if_setscrollsize(67371140, iVar13, 0)
+	if(iVar18 < if_getscrolly(67371140))
+		if_setscrollpos(if_gethash(1028, 132), iVar18 - 5, 0)
+	else
+		if(iVar18 + 17 >= if_getscrolly(67371140) + if_getheight(if_gethash(1028, 132)))
+			if_setscrollpos(if_gethash(1028, 132), ((iVar18 + 17) + 5) - if_getheight(if_gethash(1028, 132)), 0)
+	if_sethide(if_gethash(1028, 131), 0)
+	script_186(67371139, 67371140, 6118, 6119, 6120, 6115, 6116, 6117, 6122, 6121, 6124, 6123, 6126, 6125)
+} else  {
+	if_setsize(if_gethash(1028, 132), 1, 1, 12, 10)
+	if_setposition(if_gethash(1028, 132), 1, 1, 0, 0)
+	if_setscrollsize(67371140, 0, 0)
+	if_setscrollpos(if_gethash(1028, 132), 0, 0)
+	cc_deleteall(if_gethash(1028, 131))
+	if_sethide(if_gethash(1028, 131), 1)
+}
+if(iVar17 != -1)
+	script_376(67371140, 67371140, iVar17, 14662200, 12811264, 1, iVar12)
+else
+	script_376(67371140, -1, -1, 0, 0, 1, iVar12)
+script_389()
+return

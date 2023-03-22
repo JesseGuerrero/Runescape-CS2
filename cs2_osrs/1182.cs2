@@ -1,0 +1,12 @@
+string script_1182() {
+	if (VARPBIT[4854] <= 0) {
+		return "";
+	}
+	if (VARPBIT[4854] >= 255) {
+		return datamap('i', 's', 1245, VARPBIT[4855]) + " Ages!";
+	}
+	if (VARPBIT[4854] % 2 == 1) {
+		return datamap('i', 's', 1245, VARPBIT[4855]) + " " + VARPBIT[4854] / 2 + ":30";
+	}
+	return datamap('i', 's', 1245, VARPBIT[4855]) + " " + VARPBIT[4854] / 2 + ":00";
+}

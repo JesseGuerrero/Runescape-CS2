@@ -1,0 +1,6 @@
+//script4015(4015)()(void)
+if_sethide(if_gethash(906, 36), 1)
+instr6342(if_gethash(906, 466), None, "")
+if_sethide(if_gethash(906, 38), 0)
+if_sendtofront(if_gethash(906, 38))
+return

@@ -1,0 +1,6 @@
+//script4169(4169)(int arg0)(void)
+if(bit_flagged(arg0, load_varp(286)) == 1)
+	cc_setgraphic(1135)
+else
+	cc_setgraphic(1134)
+return

@@ -1,0 +1,21 @@
+//script5815(5815)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+iVar0 = if_getx(if_gethash(300, 105))
+iVar1 = if_gety(if_gethash(300, 105))
+iVar0 = script_5816(iVar0, iVar1, 19660881).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660873).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660865).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660857).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660849).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660833).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660905).get(0)
+iVar0 = if_getx(if_gethash(300, 17))
+iVar1 = if_gety(if_gethash(300, 17))
+iVar0 = script_5816(iVar0, iVar1, 19660841).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660825).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660905).get(0)
+iVar0 = script_5816(iVar0, iVar1, 19660817).get(0)
+return

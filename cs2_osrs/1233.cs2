@@ -1,0 +1,26 @@
+void script_1233(Widget widget0, int arg1, int arg2, int arg3) {
+	Color color4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	color4 = 0x000000;
+	int5 = 0;
+	int6 = 0;
+	int7 = 0;
+	int8 = 0;
+	if (CHILD.setChild(widget0, arg1) == true) {
+		color4, int5 = datamap('i', 'i', 1279, arg2), arg3 - getClientCycle();
+		if (int5 <= 0) {
+			CHILD.setRGB(color4);
+			CHILD.hookFrame(null);
+			return;
+		}
+		if (int5 > 30) {
+			int5 = 30;
+		}
+		int6, int7, int8 = script_2(color4);
+		CHILD.setRGB(script_246(int6 + mathMethod4006(0, int5, 0, 30, 255 - int6), int7 + mathMethod4006(0, int5, 0, 30, 255 - int7), int8 + mathMethod4006(0, int5, 0, 30, 255 - int8)));
+	}
+	return;
+}

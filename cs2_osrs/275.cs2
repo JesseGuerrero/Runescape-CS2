@@ -1,0 +1,15 @@
+string script_275(Item item0) {
+	Item item1;
+	int int2;
+	item1 = getRealItem(item0);
+	int2 = getItemAmtInContainer(464, item1);
+	if (int2 <= 0) {
+		if (item1 == 20655) {
+			int2 = 725;
+		} else {
+			int2 = getItemAmtInContainer(108, item1);
+		}
+		int2 = int2 * 1000;
+	}
+	return script_46(int2, ",");
+}

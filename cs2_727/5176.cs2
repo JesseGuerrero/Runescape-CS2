@@ -1,0 +1,294 @@
+//script5176(5176)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+iVar0 = -1
+iVar1 = 60
+iVar2 = 120
+iVar3 = 34
+iVar4 = 60
+iVar5 = 10
+iVar6 = 6
+iVar7 = 60
+iVar8 = 60
+iVar9 = iVar6
+iVar10 = 0
+iVar11 = -1
+iVar12 = -1
+iVar13 = iVar3 - 21
+iVar14 = 3
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 5523
+iVar19 = 5524
+iVar20 = 5525
+iVar21 = 5526
+iVar22 = 5527
+iVar23 = -1
+iVar24 = 0
+iVar25 = enum(4848, load_varpbit(9646), 'i', 'i')
+iVar26 = enum(4849, iVar25, 'i', 'J')
+while(iVar26 != -1) {
+	if(struct_param(1882, iVar26) == 0) {
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 0, iVar9)
+		cc_setsize(0, 0, iVar4, iVar1)
+		if(iVar25 == load_varc(1596))
+			iVar23 = iVar21
+		else
+			iVar23 = iVar18
+		cc_setgraphic(iVar23)
+		instr6091(script_688, "Iid", -2147483645, -2147483643, iVar19)
+		instr6092(script_688, "Iid", -2147483645, -2147483643, iVar23)
+		instr6088(script_688, "Iid", -2147483645, -2147483643, iVar20)
+		instr6450(script_688, "Iid", -2147483645, -2147483643, iVar23)
+		cc_setop("Goal details", 1)
+		instr6687(script_5179, "i", iVar25)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 0, iVar9)
+		cc_setgraphic(struct_param(1881, iVar26))
+		cc_setsize(0, 0, iVar4, iVar1)
+		iVar9 = (iVar9 + iVar1) + iVar5
+	} else  {
+		iVar12 = iVar10
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 0, iVar9)
+		cc_setsize(0, 0, 7, 7)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 0, iVar9 + 7)
+		cc_setsize(0, 0, 7, iVar2 - 14)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 0, (iVar9 + iVar2) - 7)
+		cc_setsize(0, 0, 7, 7)
+		cc_sethflip(1)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 7, iVar9)
+		cc_setsize(0, 0, 7, 7)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 7, iVar9 + 7)
+		cc_setsize(0, 0, 7, iVar2 - 14)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 7, (iVar9 + iVar2) - 7)
+		cc_setsize(0, 0, 7, 7)
+		cc_sethflip(1)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 14, iVar9)
+		cc_setsize(0, 0, iVar13, 7)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 14, iVar9 + 7)
+		cc_setsize(0, 0, iVar13, iVar2 - 14)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, 14, (iVar9 + iVar2) - 7)
+		cc_setsize(0, 0, iVar13, 7)
+		cc_sethflip(1)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3 - 7, iVar9)
+		cc_setsize(0, 0, 7, 7)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3 - 7, iVar9 + 7)
+		cc_setsize(0, 0, 7, iVar2 - 14)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3 - 7, (iVar9 + iVar2) - 7)
+		cc_setsize(0, 0, 7, 7)
+		cc_sethflip(1)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3, iVar9 + iVar14)
+		cc_setsize(0, 0, (iVar4 - iVar3) - 7, 7)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3, (iVar9 + iVar14) + 7)
+		cc_setsize(0, 0, (iVar4 - iVar3) - 7, ((iVar2 - 14) - iVar14) - iVar14)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3, ((iVar9 + iVar2) - 7) - iVar14)
+		cc_setsize(0, 0, (iVar4 - iVar3) - 7, 7)
+		cc_sethflip(1)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar4 - 7, iVar9 + iVar14)
+		cc_setsize(0, 0, 7, 7)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar4 - 7, (iVar9 + iVar14) + 7)
+		cc_setsize(0, 0, 7, ((iVar2 - 14) - iVar14) - iVar14)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar4 - 7, ((iVar9 + iVar2) - 7) - iVar14)
+		cc_setsize(0, 0, 7, 7)
+		cc_sethflip(1)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 4, 73531474)
+		cc_setposition(0, 0, 0, iVar9)
+		cc_setsize(0, 0, iVar3, iVar2)
+		cc_settext("Tasks Complete")
+		cc_settextalign(0, 1, 1)
+		cc_setcolor(ebe0bc)
+		cc_settextfont(3793)
+		iVar10 = iVar10 + 1
+		switch(iVar25) {
+			case default:
+				break
+			case 4:
+				iVar15 = 56
+				if(script_5200(iVar25) == 1)
+					iVar16 = 56
+				else
+					iVar16 = load_varc(1594)
+				break
+			case 8:
+				iVar15 = 17
+				if(script_5200(iVar25) == 1)
+					iVar16 = 17
+				else
+					iVar16 = load_varc(1594)
+				break
+			case 12:
+				iVar15 = 11
+				if(script_5200(iVar25) == 1)
+					iVar16 = 11
+				else
+					iVar16 = load_varc(1594)
+				break
+
+		}
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3, (iVar9 + iVar14) + 7)
+		cc_setsize(0, 0, (iVar4 - iVar3) - 7, ((iVar2 - iVar14) - iVar14) - 14)
+		cc_setgraphic(7536)
+		iVar10 = iVar10 + 1
+		iVar17 = ((((iVar2 - iVar14) - iVar14) - 14) * iVar16) / iVar15
+		cc_create(iVar10, 5, 73531474)
+		cc_setposition(0, 0, iVar3, (iVar9 + iVar14) + 7)
+		cc_setsize(0, 0, (iVar4 - iVar3) - 7, iVar17)
+		cc_setgraphic(7540)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 4, 73531474)
+		cc_setposition(0, 0, iVar3, iVar9)
+		cc_setsize(0, 0, (iVar4 - iVar3) - 7, iVar2)
+		cc_settext(to_string(iVar16) + " of " + to_string(iVar15))
+		cc_settextalign(0, 1, 1)
+		cc_setcolor(ebe0bc)
+		cc_settextfont(3793)
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 3, 73531474)
+		cc_setposition(0, 0, 0, iVar9)
+		cc_setsize(0, 0, iVar4, iVar2)
+		cc_setfill(1)
+		cc_setcolor(0)
+		cc_settrans(255)
+		if(iVar25 == load_varc(1596))
+			iVar24 = 4
+		else
+			iVar24 = 1
+		instr6091(script_5177, "ii", iVar12, 2)
+		instr6092(script_5177, "ii", iVar12, iVar24)
+		instr6088(script_5177, "ii", iVar12, 3)
+		instr6450(script_5177, "ii", iVar12, iVar24)
+		cc_setop("Goal details", 1)
+		instr6687(script_5179, "i", iVar25)
+		iVar9 = (iVar9 + iVar2) + iVar5
+	}
+	if(script_5200(iVar25) == 1) {
+		iVar10 = iVar10 + 1
+		cc_create(iVar10, 5, 73531474)
+		cc_setsize(0, 0, iVar8, iVar7)
+		cc_setposition(0, 0, iVar4 - iVar7, (iVar9 - iVar5) - iVar7)
+		cc_setgraphic(7465)
+	}
+	iVar25 = struct_param(1878, iVar26)
+	iVar26 = enum(4849, iVar25, 'i', 'J')
+	iVar10 = iVar10 + 1
+}
+iVar25 = 14
+iVar26 = enum(4849, iVar25, 'i', 'J')
+while(iVar26 != -1)
+	if(struct_param(2196, iVar26) == 1)
+		if(script_5200(iVar25) == 0) {
+			iVar25 = struct_param(1878, iVar26)
+			iVar26 = enum(4849, iVar25, 'i', 'J')
+		} else  {
+			cc_create(iVar10, 5, 73531474)
+			cc_setsize(0, 0, iVar4, iVar1)
+			cc_setposition(0, 0, 0, iVar9)
+			if(iVar25 == load_varc(1596))
+				iVar23 = iVar21
+			else
+				iVar23 = iVar18
+			cc_setgraphic(iVar23)
+			instr6091(script_688, "Iid", -2147483645, -2147483643, iVar19)
+			instr6092(script_688, "Iid", -2147483645, -2147483643, iVar23)
+			instr6088(script_688, "Iid", -2147483645, -2147483643, iVar20)
+			instr6450(script_688, "Iid", -2147483645, -2147483643, iVar23)
+			cc_setop("Goal details", 1)
+			if(load_varc(1595) > 3) {
+				instr6687(script_5179, "i", iVar25)
+				iVar10 = iVar10 + 1
+				cc_create(iVar10, 5, 73531474)
+				cc_setgraphic(struct_param(1881, iVar26))
+				cc_setsize(0, 0, iVar4, iVar1)
+				cc_setposition(0, 0, 0, iVar9)
+				if(script_5200(iVar25) == 1) {
+					iVar10 = iVar10 + 1
+					cc_create(iVar10, 5, 73531474)
+					cc_setsize(0, 0, iVar8, iVar7)
+					cc_setposition(0, 0, iVar4 - iVar7, (iVar9 + iVar1) - iVar7)
+					cc_setgraphic(7465)
+				}
+			} else  {
+				instr6687(script_5179, "i", 13)
+				iVar10 = iVar10 + 1
+				cc_create(iVar10, 5, 73531474)
+				cc_setgraphic(7454)
+				cc_setsize(0, 0, iVar4, iVar1)
+				cc_setposition(0, 0, 0, iVar9)
+			}
+			iVar25 = struct_param(1878, iVar26)
+			iVar26 = enum(4849, iVar25, 'i', 'J')
+			iVar10 = iVar10 + 1
+			iVar9 = (iVar9 + iVar1) + iVar5
+		}
+iVar27 = (iVar9 - iVar5) + iVar6
+if(iVar27 > if_getwidth(if_gethash(1122, 82)))
+	if_setscrollsize(73531474, if_getheight(if_gethash(1122, 82)), iVar27)
+script_5182()
+script_5178(iVar12, 1)
+return

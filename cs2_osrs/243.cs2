@@ -1,0 +1,204 @@
+int, int script_243(int arg0, int arg1) {
+	if (arg0 == 1) {
+		if (arg1 == -1 || arg1 == 11791 || arg1 == 1409) {
+			return 23, 11;
+		}
+	} else if (arg0 == 2) {
+		if (arg1 == -1 || arg1 == 11791 || arg1 == 1409) {
+			return 63, 11;
+		}
+	} else if (arg0 == 3) {
+		if (arg1 == -1 || arg1 == 11791 || arg1 == 1409) {
+			return 103, 11;
+		}
+	} else if (arg0 == 4) {
+		if (arg1 == -1 || arg1 == 11791 || arg1 == 1409) {
+			return 143, 11;
+		}
+	} else if (arg0 == 5) {
+		if (arg1 == -1) {
+			return 23, 52;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 23, 44;
+		}
+	} else if (arg0 == 6) {
+		if (arg1 == -1) {
+			return 63, 52;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 63, 44;
+		}
+	} else if (arg0 == 7) {
+		if (arg1 == -1) {
+			return 103, 52;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 103, 44;
+		}
+	} else if (arg0 == 8) {
+		if (arg1 == -1) {
+			return 143, 52;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 143, 44;
+		}
+	} else if (arg0 == 9) {
+		if (arg1 == -1) {
+			return 23, 95;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 23, 77;
+		}
+	} else if (arg0 == 10) {
+		if (arg1 == -1) {
+			return 63, 95;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 63, 77;
+		}
+	} else if (arg0 == 11) {
+		if (arg1 == -1) {
+			return 103, 95;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 103, 77;
+		}
+	} else if (arg0 == 12) {
+		if (arg1 == -1) {
+			return 143, 95;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 143, 77;
+		}
+	} else if (arg0 == 13) {
+		if (arg1 == -1) {
+			return 23, 138;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 23, 112;
+		}
+		if (arg1 == 4170 || arg1 == 8841) {
+			return 49, 74;
+		}
+	} else if (arg0 == 14) {
+		if (arg1 == -1) {
+			return 63, 138;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 63, 112;
+		}
+		if (arg1 == 4170 || arg1 == 8841) {
+			return 115, 74;
+		}
+	} else if (arg0 == 15) {
+		if (arg1 == -1) {
+			return 103, 138;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 103, 112;
+		}
+		if (arg1 == 4170 || arg1 == 8841) {
+			return 49, 126;
+		}
+	} else if (arg0 == 16) {
+		if (arg1 == -1) {
+			return 143, 138;
+		}
+		if (arg1 == 11791 || arg1 == 1409) {
+			return 143, 112;
+		}
+		if (arg1 == 4170 || arg1 == 8841) {
+			return 115, 126;
+		}
+	} else if (arg0 == 17) {
+		if (arg1 == 4170 || arg1 == 8841) {
+			return 49, 22;
+		}
+		if (arg1 == 11791) {
+			return 23, 143;
+		}
+	} else if (arg0 == 18) {
+		if (arg1 == 4170) {
+			return 115, 22;
+		}
+		if (arg1 == 11791) {
+			return 63, 143;
+		}
+	} else if (arg0 == 19) {
+		if (arg1 == 8841) {
+			return 115, 22;
+		}
+	} else if (arg0 == 20) {
+		if (arg1 == 11791) {
+			return 103, 143;
+		}
+	} else if (arg0 == 31) {
+		if (arg1 == 4675) {
+			return 23, 11;
+		}
+	} else if (arg0 == 32) {
+		if (arg1 == 4675) {
+			return 63, 11;
+		}
+	} else if (arg0 == 33) {
+		if (arg1 == 4675) {
+			return 103, 11;
+		}
+	} else if (arg0 == 34) {
+		if (arg1 == 4675) {
+			return 143, 11;
+		}
+	} else if (arg0 == 35) {
+		if (arg1 == 4675) {
+			return 23, 54;
+		}
+	} else if (arg0 == 36) {
+		if (arg1 == 4675) {
+			return 63, 54;
+		}
+	} else if (arg0 == 37) {
+		if (arg1 == 4675) {
+			return 103, 54;
+		}
+	} else if (arg0 == 38) {
+		if (arg1 == 4675) {
+			return 143, 54;
+		}
+	} else if (arg0 == 39) {
+		if (arg1 == 4675) {
+			return 23, 97;
+		}
+	} else if (arg0 == 40) {
+		if (arg1 == 4675) {
+			return 63, 97;
+		}
+	} else if (arg0 == 41) {
+		if (arg1 == 4675) {
+			return 103, 97;
+		}
+	} else if (arg0 == 42) {
+		if (arg1 == 4675) {
+			return 143, 97;
+		}
+	} else if (arg0 == 43) {
+		if (arg1 == 4675) {
+			return 23, 140;
+		}
+	} else if (arg0 == 44) {
+		if (arg1 == 4675) {
+			return 63, 140;
+		}
+	} else if (arg0 == 45) {
+		if (arg1 == 4675) {
+			return 103, 140;
+		}
+	} else if (arg0 == 46) {
+		if (arg1 == 4675) {
+			return 143, 140;
+		}
+	} else if (arg0 == 47 && arg1 == 1409) {
+		return 23, 143;
+	}
+	return -1, -1;
+}

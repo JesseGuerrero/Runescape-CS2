@@ -1,0 +1,30 @@
+int script_813() {
+	int int0;
+	int int1;
+	Item item2;
+	int0 = getItemAmtInContainer(93, (Item)VARP[1151]);
+	int1 = 0;
+	item2 = getNotedItem((Item)VARP[1151]);
+	if (item2 != (Item)VARP[1151]) {
+		int1 = getItemAmtInContainer(93, item2);
+		if (2147483647 - int1 < int0) {
+			int0 = 2147483647;
+		} else {
+			int0 = int0 + int1;
+		}
+	} else {
+		item2 = getRealItem((Item)VARP[1151]);
+		if (item2 != (Item)VARP[1151]) {
+			int1 = getItemAmtInContainer(93, item2);
+			if (2147483647 - int1 < int0) {
+				int0 = 2147483647;
+			} else {
+				int0 = int0 + int1;
+			}
+		}
+	}
+	if (int0 <= 0) {
+		int0 = 1;
+	}
+	return int0;
+}

@@ -1,0 +1,21 @@
+//script2955(2955)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar5 = 4044
+iVar6 = 4044
+iVar7 = 4046
+hook_mouse_exit(arg0, script_2924, "IdIdId", arg1, iVar5, arg2, iVar7, arg3, iVar6)
+if_setgraphic(arg1, iVar5)
+if_setgraphic(arg2, iVar7)
+if_setgraphic(arg3, iVar6)
+iVar5 = 4045
+iVar6 = 4045
+iVar7 = 4047
+hook_mouse_enter(arg0, script_2924, "IdIdId", arg1, iVar5, arg2, iVar7, arg3, iVar6)
+iVar8 = 39059474
+if(instr6710() == 1)
+	iVar8 = 63897614
+if_settext(iVar8, arg0)
+return

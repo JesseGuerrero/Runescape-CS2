@@ -1,0 +1,61 @@
+//script4212(4212)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+if(arg0 == -1)
+	return
+iVar4 = if_getx(arg0)
+iVar5 = if_gety(arg0)
+iVar6 = if_getlayer(arg0)
+if_settext(arg0, arg0)
+if_settextfont(arg0, arg1)
+iVar7 = 0
+switch(arg1) {
+	case default:
+		break
+	case 4040:
+		iVar7 = 13
+		break
+	case 3795:
+		iVar7 = 15
+		break
+
+}
+cc_deleteall(iVar6)
+cc_create(if_getnextsubid(iVar6), 4, iVar6)
+cc_setposition(1, 1, -1, 0)
+cc_setsize(1, 1, 0, 0)
+cc_settextalign(iVar7, 1, 1)
+cc_setcolor(0)
+cc_settextfont(arg1)
+cc_settext(arg0)
+cc_create(if_getnextsubid(iVar6), 4, iVar6)
+cc_setposition(1, 1, 1, 0)
+cc_setsize(1, 1, 0, 0)
+cc_settextalign(iVar7, 1, 1)
+cc_setcolor(0)
+cc_settextfont(arg1)
+cc_settext(arg0)
+cc_create(if_getnextsubid(iVar6), 4, iVar6)
+cc_setposition(1, 1, 0, -1)
+cc_setsize(1, 1, 0, 0)
+cc_settextalign(iVar7, 1, 1)
+cc_setcolor(0)
+cc_settextfont(arg1)
+cc_settext(arg0)
+cc_create(if_getnextsubid(iVar6), 4, iVar6)
+cc_setposition(1, 1, 0, 1)
+cc_setsize(1, 1, 0, 0)
+cc_settextalign(iVar7, 1, 1)
+cc_setcolor(0)
+cc_settextfont(arg1)
+cc_settext(arg0)
+cc_create(if_getnextsubid(iVar6), 4, iVar6)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(1, 1, 0, 0)
+cc_settextalign(iVar7, 1, 1)
+cc_setcolor(0)
+cc_settextfont(arg1)
+cc_settext(arg0)
+return

@@ -1,0 +1,64 @@
+//script5625(5625)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 0
+if(instr6004(arg1) == 1) {
+	if(instr6644() == 1)
+		iVar2 = 701400 / if_getheight(arg0)
+	else
+		iVar2 = 2 * (if_getheight(if_gethash(1199, 14)) / 3)
+	cc_setmodelzoom(iVar2)
+	switch(arg1) {
+		case default:
+			break
+		case 78577672:
+			if(cc_gety() <= 0 - cc_getheight()) {
+				script_5623(arg1)
+				instr6342(arg0, None, "")
+				return
+			}
+			cc_setposition(0, 1, cc_gety() - 1, 0)
+			break
+		case 78577670:
+			if(cc_getx() >= if_getwidth(if_gethash(1199, 14)) + (cc_getwidth() / 2)) {
+				script_5623(arg1)
+				instr6342(arg0, None, "")
+				return
+			}
+			cc_setposition(1, 0, 0, cc_getx() + 1)
+			break
+		case 78577666:
+			if(cc_gety() >= if_getheight(if_gethash(1199, 14)) + (cc_getheight() / 2)) {
+				script_5623(arg1)
+				instr6342(arg0, None, "")
+				return
+			}
+			cc_setposition(0, 1, cc_gety() + 1, 0)
+			break
+		case 78577674:
+			if(cc_gety() >= if_getheight(if_gethash(1199, 14)) + (cc_getwidth() / 2)) {
+				script_5623(arg1)
+				instr6342(arg0, None, "")
+				return
+			}
+			cc_setposition(0, 0, cc_gety() + 1, cc_getx() - 1)
+			break
+		case 78577668:
+			if(cc_getx() <= 0 - cc_getwidth()) {
+				script_5623(arg1)
+				instr6342(arg0, None, "")
+				return
+			}
+			cc_setposition(1, 0, 0, cc_getx() - 1)
+			break
+		case 78577676:
+			if(cc_gety() <= 0 - cc_getheight()) {
+				script_5623(arg1)
+				instr6342(arg0, None, "")
+				return
+			}
+			cc_setposition(0, 0, cc_gety() - 1, cc_getx() - 1)
+			break
+
+	}
+}
+return

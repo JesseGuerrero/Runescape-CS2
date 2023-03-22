@@ -1,0 +1,25 @@
+void script_82(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	int int7;
+	if (widget0 != null) {
+		widget5.setNoClickThrough(1);
+		widget0.hookSkill(&script_82(null, widget1, widget2, widget3, widget4, widget5, widget6), 5);
+		widget0.hookVARP(&script_82(null, widget1, widget2, widget3, widget4, widget5, widget6), 375);
+		widget0.hookWidgetsOpenClose(&script_82(null, widget1, widget2, widget3, widget4, widget5, widget6));
+		widget6.hookOptionClick(&script_455(CTX_MENU_OPTION, widget3, widget4, widget6));
+	}
+	int7 = 1072;
+	if (script_918(5) == true) {
+		widget6.hookMouseHover(&script_44(widget5, (Sprite)int7));
+		int7 = 1071;
+		widget6.hookMouseExit(&script_44(widget5, (Sprite)int7));
+		widget6.setIsHidden(false);
+	} else {
+		widget5.setSprite(1071);
+		widget6.hookMouseHover(null);
+		widget6.hookMouseExit(null);
+		widget6.setIsHidden(true);
+	}
+	script_449(widget1, widget2, getSkillCurrentLvl(5), getSkillActualLvl(5));
+	script_456(widget3, widget4, widget6);
+	return;
+}

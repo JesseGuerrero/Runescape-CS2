@@ -1,0 +1,9 @@
+//script2151(2151)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+iVar2 = enum(169, arg0, 'i', 'J')
+iVar3 = enum(struct_param(61, iVar2), arg1, 'i', 'J')
+if(script_1432() < struct_param(896, iVar3))
+	return 0
+return 1
+return -1

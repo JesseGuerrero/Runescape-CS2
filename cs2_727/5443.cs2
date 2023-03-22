@@ -1,0 +1,4 @@
+//script5443(5443)(int arg0)(void)
+sound_vorbis_volume(255, 0, 1, 8088)
+script_5444(arg0)
+return

@@ -1,0 +1,10 @@
+//script133(133)(int arg0, int arg1, int arg2)(int)
+if(coordx(arg2) >= min(coordx(arg1), coordx(arg0)))
+	if(coordz(arg2) >= min(coordz(arg1), coordz(arg0)))
+		if(coordy(arg2) >= min(coordy(arg1), coordy(arg0)))
+			if(coordx(arg2) <= max(coordx(arg1), coordx(arg0)))
+				if(coordz(arg2) <= max(coordz(arg1), coordz(arg0)))
+					if(coordy(arg2) <= max(coordy(arg1), coordy(arg0)))
+						return 1
+return 0
+return -1

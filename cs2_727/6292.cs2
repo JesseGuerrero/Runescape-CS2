@@ -1,0 +1,12 @@
+//script6292(6292)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if_setscrollpos(if_gethash(1296, 9), 0, 0)
+iVar1 = arg0 * 12
+if_setscrollsize(84934665, iVar1, 0)
+if(iVar1 > if_getheight(if_gethash(1296, 9))) {
+	if_sethide(if_gethash(1296, 10), 0)
+	script_31(84934666, 84934665, 8383, 8380, 8381, 8382, 8375, 8374)
+} else 
+	if_sethide(if_gethash(1296, 10), 1)
+return

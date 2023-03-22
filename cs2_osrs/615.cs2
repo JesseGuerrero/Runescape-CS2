@@ -1,0 +1,7 @@
+void script_615(Widget widget0) {
+	int int1;
+	int1 = getClientCycle();
+	widget0.hookFrame(&script_616(widget0, int1));
+	script_617(widget0, int1);
+	return;
+}

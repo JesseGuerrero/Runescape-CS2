@@ -1,0 +1,43 @@
+void script_1464(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, int arg5) {
+	int int6;
+	string str0;
+	widget0.setTrans(0);
+	widget1.setTrans(0);
+	str0 = "Low-Alchemy";
+	if (VARPBIT[5398] == 1) {
+		str0 = "High-Alchemy";
+		widget2.setText("High Alchemy");
+		widget0.setSprite(75);
+		widget0.hookMouseHover(&script_273(CTX_WIDGET, 120));
+		widget0.hookMouseExit(&script_273(CTX_WIDGET, 0));
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+		widget1.setSprite(41);
+		widget1.hookMouseHover(null);
+		widget1.hookMouseExit(null);
+		widget1.hookOptionClick(null);
+	} else {
+		widget2.setText("Low Alchemy");
+		widget0.setSprite(25);
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+		widget1.setSprite(91);
+		widget1.hookMouseHover(&script_273(CTX_WIDGET, 120));
+		widget1.hookMouseExit(&script_273(CTX_WIDGET, 0));
+		widget1.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	}
+	widget4.setText("Charges: " + (30 - VARPBIT[4554]));
+	if (VARPBIT[4554] < 30) {
+		widget4.setRGB(0xFF981F);
+	} else {
+		widget4.setRGB(0xFF0000);
+	}
+	int6 = arg5;
+	while (int6 > 0) {
+		int6 = int6 - 1;
+		if (CHILD.setChild(widget3, int6) == true) {
+			CHILD.setContextMenuOption(1, str0);
+		}
+	}
+	return;
+}

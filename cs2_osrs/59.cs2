@@ -1,0 +1,14 @@
+void script_59(int arg0, string string1, int arg2, int arg3, int arg4) {
+	CHILD.createChild(widget(219, 0), 4, arg0);
+	CHILD.setSize(479, arg3, 0, 0);
+	CHILD.setPosition(0, arg2, 0, 0);
+	CHILD.setRGB(0x000000);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setFont(497);
+	CHILD.setTextAlignment(1, arg4, 0);
+	CHILD.setText(string1);
+	CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+	CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 0));
+	CHILD.hookKey(&script_57(KEY_TYPED, KEY_PRESSED, CTX_WIDGET, CTX_WIDGET_CHILD, -1, str(arg0), "", 0, 0));
+	return;
+}

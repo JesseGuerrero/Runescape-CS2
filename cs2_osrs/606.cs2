@@ -1,0 +1,31 @@
+void script_606(Widget widget0, int arg1, string string2) {
+	int int2;
+	int int3;
+	widget0.hookFrame(null);
+	widget0.clearChildren();
+	if (length(string2) <= 0) {
+		widget0.setIsHidden(true);
+		return;
+	}
+	widget0.setIsHidden(false);
+	int2 = widget0.getWidth();
+	int3 = widget0.getHeight();
+	CHILD.createChild(widget0, 5, 0);
+	_CHILD.createChild(widget0, 4, 1);
+	CHILD.setPosition(0, 0, 0, 0);
+	_CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(int2, int3, 0, 0);
+	_CHILD.setSize(int2, int3, 0, 0);
+	CHILD.setSpriteTiling(true);
+	CHILD.setSprite(812);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText(string2);
+	CHILD.setContextMenuOption(1, string2);
+	CHILD.hookOptionClick(&script_608(widget0, widget(arg1), string2, getChildId(), getChildId()));
+	CHILD.hookMouseEnter(&script_607(true, widget0, getChildId(), getChildId()));
+	CHILD.hookMouseExit(&script_607(false, widget0, getChildId(), getChildId()));
+	return;
+}

@@ -1,0 +1,49 @@
+//script5948(5948)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = -1
+iVar4 = arg2
+if(arg1 == 0)
+	if(arg2 == 0)
+		switch(random(4)) {
+			case default:
+				break
+			case 0:
+				sound_vorbis_volume(20, 0, 1, script_5925(5705))
+				break
+			case 1:
+				sound_vorbis_volume(20, 0, 1, script_5925(5706))
+				break
+			case 2:
+				sound_vorbis_volume(20, 0, 1, script_5925(5707))
+				break
+			case 3:
+				sound_vorbis_volume(20, 0, 1, script_5925(5708))
+				break
+
+		}
+if(arg2 <= 0) {
+	switch(arg1) {
+		case default:
+			break
+		case 1:
+			iVar3 = 9862
+			iVar4 = 15
+			break
+		case 2:
+			iVar3 = 9861
+			iVar4 = 5
+			iVar3 = 9860
+			iVar4 = 5
+			break
+
+	}
+	arg1 = arg1 + 1
+	if(arg1 >= 3)
+		arg1 = 0
+	if(iVar3 != -1)
+		if_setgraphic(if_gethash(1252, 4), iVar3)
+} else 
+	iVar4 = arg2 - 1
+instr6342(arg0, script_5948, "Iii", arg0, arg1, iVar4)
+return

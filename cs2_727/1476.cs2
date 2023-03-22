@@ -1,0 +1,7 @@
+//script1476(1476)(int arg0)(void)
+if(client_clock() >= arg0) {
+	if(load_varc(5) == 11)
+		pop_int()
+	instr6342(if_gethash(762, 17), None, "")
+}
+return

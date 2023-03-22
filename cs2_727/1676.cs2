@@ -1,0 +1,10 @@
+//script1676(1676)(int arg0, int arg1, int arg2)(void)
+if(arg0 != 1)
+	return
+if(arg1 == arg2)
+	return
+script_1675(arg1)
+store_varpbit(6768, arg1)
+cc_deleteall(if_gethash(84, 22))
+pop_int()
+return

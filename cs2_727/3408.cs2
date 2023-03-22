@@ -1,0 +1,10 @@
+//script3408(3408)(int arg0, string arg1)(void)
+string sVar0
+string sVar1
+sVar0 = "<u=88ffff>" + arg0 + "</u>"
+sVar1 = "<u=64c8fa>" + arg0 + "</u>"
+instr6213(arg0, 1, "Open link")
+if_setopcursor(arg0, 146, 1)
+hook_mouse_enter(arg0, script_2381, "Iis", arg0, 8978431, sVar0)
+hook_mouse_exit(arg0, script_2381, "Iis", arg0, 6605050, sVar1)
+return

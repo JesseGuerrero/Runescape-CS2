@@ -1,0 +1,7 @@
+//script2876(2876)()(void)
+if(load_varpbit(7079) == 1)
+	if_setgraphic(if_gethash(187, 14), 2437)
+else
+	if_setgraphic(if_gethash(187, 14), 2436)
+store_varc(2, 0)
+return

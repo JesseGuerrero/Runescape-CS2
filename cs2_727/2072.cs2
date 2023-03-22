@@ -1,0 +1,3 @@
+//script2072(2072)()(void)
+if_settext(if_gethash(276, 59), "Zeal: " + to_string(load_varpbit(5827)))
+return

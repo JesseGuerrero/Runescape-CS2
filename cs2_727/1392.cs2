@@ -1,0 +1,48 @@
+//script1392(1392)()(void)
+int iVar0
+iVar0 = random(4)
+if(iVar0 == 0) {
+	if_setposition(if_gethash(188, 2), 0, 0, 9, 59)
+	if_setposition(if_gethash(188, 3), 0, 0, 50, 59)
+	if_setposition(if_gethash(188, 4), 0, 0, 9, 139)
+	if_setposition(if_gethash(188, 5), 0, 0, 50, 139)
+	if_setposition(if_gethash(188, 6), 0, 0, 9, 219)
+	if_setposition(if_gethash(188, 7), 0, 0, 50, 219)
+	if_setposition(if_gethash(188, 8), 0, 0, 9, 319)
+	if_setposition(if_gethash(188, 9), 0, 0, 50, 319)
+	return
+}
+if(iVar0 == 1) {
+	if_setposition(if_gethash(188, 3), 0, 0, 9, 59)
+	if_setposition(if_gethash(188, 4), 0, 0, 50, 59)
+	if_setposition(if_gethash(188, 5), 0, 0, 9, 139)
+	if_setposition(if_gethash(188, 2), 0, 0, 50, 139)
+	if_setposition(if_gethash(188, 7), 0, 0, 9, 219)
+	if_setposition(if_gethash(188, 8), 0, 0, 50, 219)
+	if_setposition(if_gethash(188, 9), 0, 0, 9, 319)
+	if_setposition(if_gethash(188, 6), 0, 0, 50, 319)
+	return
+}
+if(iVar0 == 2) {
+	if_setposition(if_gethash(188, 4), 0, 0, 9, 59)
+	if_setposition(if_gethash(188, 5), 0, 0, 50, 59)
+	if_setposition(if_gethash(188, 2), 0, 0, 9, 139)
+	if_setposition(if_gethash(188, 3), 0, 0, 50, 139)
+	if_setposition(if_gethash(188, 8), 0, 0, 9, 219)
+	if_setposition(if_gethash(188, 9), 0, 0, 50, 219)
+	if_setposition(if_gethash(188, 6), 0, 0, 9, 319)
+	if_setposition(if_gethash(188, 7), 0, 0, 50, 319)
+	return
+}
+if(iVar0 == 3) {
+	if_setposition(if_gethash(188, 5), 0, 0, 9, 59)
+	if_setposition(if_gethash(188, 2), 0, 0, 50, 59)
+	if_setposition(if_gethash(188, 3), 0, 0, 9, 139)
+	if_setposition(if_gethash(188, 4), 0, 0, 50, 139)
+	if_setposition(if_gethash(188, 9), 0, 0, 9, 219)
+	if_setposition(if_gethash(188, 6), 0, 0, 50, 219)
+	if_setposition(if_gethash(188, 7), 0, 0, 9, 319)
+	if_setposition(if_gethash(188, 8), 0, 0, 50, 319)
+	return
+}
+return

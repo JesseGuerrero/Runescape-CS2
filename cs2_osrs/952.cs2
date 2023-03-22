@@ -1,0 +1,16 @@
+void script_952(int arg0) {
+	int int1;
+	widget(174, 1).setRGB(0x000000);
+	int1 = getClientCycle() - arg0;
+	if (int1 < 50) {
+		widget(174, 1).setTrans(255 - mathMethod4006(0, int1, 0, 50, 255));
+	} else if (int1 < 800) {
+		widget(174, 1).setTrans(0);
+	} else if (int1 < 850) {
+		int1 = int1 - 800;
+		widget(174, 1).setTrans(mathMethod4006(0, int1, 0, 50, 255));
+	} else {
+		widget(174, 0).hookFrame(null);
+	}
+	return;
+}

@@ -1,0 +1,49 @@
+void script_3987(int taskset, int hidecompleted, int hidenontasksets) {
+	int areaId;
+	int int4;
+	int int5;
+	if (taskset == 63) {
+		taskset = VARPBIT[8575];
+	} else if (taskset == 999) {
+		taskset = VARPBIT[8582];
+	}
+	if (hidecompleted == 999) {
+		hidecompleted = VARPBIT[8579];
+	}
+	if (hidenontasksets == 999) {
+		hidenontasksets = VARPBIT[8580];
+	}
+	script_4017(taskset);
+	widget(917, 120).setSprite(datamap('i', 'd', (DataMap)3491, taskset));
+	widget(917, 121).setText(datamap('i', 's', (DataMap)3487, taskset));
+	widget(917, 121).setIsHidden(false);
+	if (ACTIVE.setChild(widget(917, 105))) {
+		ACTIVE.cs2method1309(1, 172);
+	}
+	if (ACTIVE.setChild(widget(917, 117))) {
+		ACTIVE.cs2method1309(1, 56);
+	}
+	if (ACTIVE.setChild(widget(917, 121))) {
+		ACTIVE.cs2method1309(1, 56);
+	}
+	VARC[1422] = -1;
+	areaId = datamap('i', 'i', (DataMap)3482, taskset);
+	widget(917, 98).clearChildren();
+	widget(917, 119).setIsHidden(true);
+	widget(917, 115).setIsHidden(true);
+	int4 = 0;
+	widget(917, 91).setIsHidden(false);
+	if (VARPBIT[9030] == 1) {
+		int4 = script_4243();
+		widget(917, 91).setIsHidden(true);
+	} else if (areaId == 4091) {
+		int4 = script_3988(taskset);
+	} else {
+		int4 = script_3989(areaId, hidecompleted, hidenontasksets);
+	}
+	int5 = int4 + widget(917, 99).getHeight();
+	int5 = max(int5, widget(917, 98).getHeight());
+	widget(917, 98).setScrollMax(0, int5);
+	script_31(widget(917, 100), widget(917, 98), 4343, 4340, 4341, 4342, 4337, 4336);
+	return;
+}

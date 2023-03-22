@@ -1,0 +1,15 @@
+//script864(864)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(void)
+int iVar11
+iVar11 = 0
+if(arg6 == 1)
+	iVar11 = stringwidth(468, if_gettext(arg5))
+else
+	iVar11 = if_getwidth(arg5)
+if(arg1 == 0)
+	if(if_getwidth(arg0) - iVar11 < arg7) {
+		instr6342(arg2, script_2929, "I1IIII1iiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10)
+		return
+	}
+instr6342(arg2, None, "")
+instr6342(arg0, script_2930, "I1iIIIiiii", arg0, arg1, iVar11, arg2, arg3, arg4, arg7, arg8, arg9, arg10)
+return

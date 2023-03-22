@@ -1,0 +1,15 @@
+//script4586(4586)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = -1
+if(arg2 > 0)
+	if(arg3 > 0) {
+		iVar4 = enum(3703, arg2, 'i', 'g')
+		if(iVar4 != -1) {
+			if_settext(arg0, enum(iVar4, arg3, 'i', 's'))
+			if_sethide(arg1, 0)
+			return
+		}
+	}
+if_settext(arg0, "")
+if_sethide(arg1, 1)
+return

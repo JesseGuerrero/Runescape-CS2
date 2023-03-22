@@ -1,0 +1,9 @@
+//script3964(3964)()(void)
+if(load_varc(1414) == 1)
+	if_settext(if_gethash(596, 38), "Username:")
+else
+	if(load_varc(1414) == 2)
+		if_settext(if_gethash(596, 38), "Email:")
+	else
+		if_settext(if_gethash(596, 38), "Login:")
+return

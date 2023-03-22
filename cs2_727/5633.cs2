@@ -1,0 +1,50 @@
+//script5633(5633)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+string sVar1
+string sVar2
+iVar0 = instr6703()
+if(iVar0 == -3)
+	return
+instr6342(if_gethash(673, 26), None, "")
+sVar0 = ""
+iVar1 = 1
+iVar2 = 0
+iVar3 = 2608
+iVar4 = 0
+iVar5 = 0
+sVar1 = ""
+iVar6 = 1
+sVar2 = "Back"
+iVar7 = -1
+if(iVar0 == 2)
+	script_3208(0)
+else {
+	script_2206()
+	switch(iVar0) {
+		case default:
+			iVar7 = 25
+			sVar0 = "Unexpected server response."
+			break
+		case 37:
+			iVar7 = 6
+			iVar1 = 0
+			iVar3 = 2610
+			sVar0 = "RuneScape has been updated! Please reload this page."
+			break
+		case -5:
+			iVar7 = -5
+			sVar0 = "No response from server."
+			break
+
+	}
+	script_2950(iVar7, iVar1, iVar2, iVar3, iVar4, iVar5, iVar6, sVar0, sVar1, sVar2)
+}
+return

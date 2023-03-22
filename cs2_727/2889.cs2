@@ -1,0 +1,8 @@
+//script2889(2889)()(int, int, int, int, int, int, int, int, int, int, int, int)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = enum(927, load_varpbit(7099), 'i', 'n')
+iVar1 = -1
+iVar2 = -1
+return enum(iVar0, npc_param(957), 's', '΢'), 110, 110, 110, 110, iVar0, enum(iVar0, npc_param(956), 's', '΢'), 110, 110, 110, 110, iVar0

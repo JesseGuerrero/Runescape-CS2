@@ -1,0 +1,6 @@
+//script5141(5141)(int arg0)(void)
+if(if_gethide(arg0) == 1)
+	if_sethide(arg0, 0)
+else
+	if_sethide(arg0, 1)
+return

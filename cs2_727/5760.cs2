@@ -1,0 +1,4 @@
+//script5760(5760)(int arg0)(void)
+if(instr6004(arg0) == 1)
+	if_sethide(cc_getparentlayer(), 1)
+return

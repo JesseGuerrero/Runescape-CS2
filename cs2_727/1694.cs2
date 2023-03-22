@@ -1,0 +1,11 @@
+//script1694(1694)(int arg0)(int)
+if(arg0 < 32)
+	return bit_flagged(arg0, load_varc(1040))
+if(arg0 < 64)
+	return bit_flagged(modulo(32, arg0), load_varc(1041))
+if(arg0 < 96)
+	return bit_flagged(modulo(32, arg0), load_varc(1042))
+if(arg0 < 128)
+	return bit_flagged(modulo(32, arg0), load_varc(1702))
+return 0
+return 0

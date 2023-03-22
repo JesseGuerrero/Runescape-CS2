@@ -1,0 +1,15 @@
+void script_382(Widget widget0, Widget widget1, int arg2) {
+	string str0;
+	str0 = "";
+	if (VARP[173] <= 0) {
+		str0 = "Run (currently off) Energy " + getRunEnergy() + "%";
+		widget0.setSprite(761);
+	} else {
+		str0 = "Run (currently on) Energy " + getRunEnergy() + "%";
+		widget0.setSprite(762);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg2), str0, 25, 190));
+	widget1.setText(getRunEnergy() + "%");
+	VARC[2] = 0;
+	return;
+}

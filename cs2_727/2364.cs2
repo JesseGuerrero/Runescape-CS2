@@ -1,0 +1,22 @@
+//script2364(2364)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = 1
+iVar2 = 0
+iVar3 = -1
+iVar4 = -1
+while(iVar1 < 9) {
+	iVar3 = enum(2352, iVar1, 'i', 'I')
+	if(instr6004(iVar3) == 1) {
+		iVar2 = instr6771(1224)
+		iVar4 = enum(3308, iVar2, 'i', 'I')
+		if(arg0 == iVar4) {
+			script_2365(iVar3)
+			return
+		}
+	}
+	iVar1 = iVar1 + 1
+}
+return

@@ -1,0 +1,6 @@
+//script4208(4208)(int arg0, int arg1)(void)
+if(arg1 == 0)
+	if_settrans(arg0, 0)
+else
+	if_settrans(arg0, 255)
+return

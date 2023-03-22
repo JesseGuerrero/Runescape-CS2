@@ -1,0 +1,7 @@
+//script5535(5535)(int arg0)(void)
+if(arg0 == -1)
+	arg0 = load_varc(1725)
+if(arg0 != load_varc(1725))
+	sound_vorbis_volume(255, 0, 1, 6185)
+script_5536(arg0)
+return

@@ -1,0 +1,212 @@
+//script770(770)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, string arg24)(void)
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+cc_deleteall(arg1)
+iVar24 = paramheight("Level " + to_string(arg3) + ": " + arg0, 495, 177)
+iVar25 = 2 + (13 * iVar24)
+iVar26 = 2 + (13 * paramheight("To craft this you need", 494, 177))
+iVar27 = ((((2 + iVar25) + iVar26) + 32) + 14) + 2
+iVar28 = 5
+iVar29 = 5
+iVar30 = 1
+iVar31 = 1
+if(cc_find(arg0, arg2) == 1) {
+	if(arg4 == -1)
+		iVar27 = (iVar27 - 32) - 14
+	if(iVar24 > 1)
+		if(arg12 != -1)
+			iVar27 = iVar27 + 57
+	else
+		if(arg12 != -1)
+			iVar27 = (iVar27 + 32) + 14
+	iVar28 = (cc_gety() - if_getscrolly(arg2)) + 110
+	if(iVar28 > 200)
+		iVar28 = ((cc_gety() - if_getscrolly(arg2)) - iVar27) + 45
+	iVar29 = cc_getx() - 60
+	if(iVar29 < 0)
+		iVar29 = 5
+	if(iVar29 > 270)
+		iVar29 = 285
+	cc_create(0, 3, arg1)
+	cc_setposition(0, 0, iVar28, iVar29)
+	cc_setsize(0, 0, iVar27, 180)
+	cc_setfill(1)
+	cc_setcolor(0)
+	cc_settrans(42)
+	cc_create(1, 3, arg1)
+	cc_setposition(0, 0, iVar28 + 1, iVar29 + 1)
+	cc_setsize(0, 0, iVar27 - 1, 179)
+	cc_setfill(0)
+	cc_setcolor(2e2b23)
+	cc_create(2, 3, arg1)
+	cc_setposition(0, 0, iVar28, iVar29)
+	cc_setsize(0, 0, iVar27 - 1, 179)
+	cc_setfill(0)
+	cc_setcolor(726451)
+	cc_create(3, 4, arg1)
+	cc_setposition(0, 0, iVar28 + 2, iVar29 + 2)
+	cc_setsize(0, 0, iVar25, 177)
+	cc_settextalign(0, 1, 1)
+	cc_settextfont(495)
+	cc_setcolor(ff981f)
+	cc_settextshadow(0)
+	cc_settext("Level " + to_string(arg3) + ": " + arg0)
+	cc_create(4, 4, arg1)
+	cc_setposition(0, 0, (iVar28 + 2) + iVar25, iVar29)
+	cc_setsize(0, 0, iVar26, 177)
+	cc_settextalign(0, 1, 1)
+	cc_settextfont(494)
+	cc_setcolor(af6a1a)
+	cc_settextshadow(0)
+	cc_settext("This item requires")
+	if(arg6 != -1)
+		iVar30 = 2
+	if(arg8 != -1)
+		iVar30 = 3
+	if(arg10 != -1)
+		iVar30 = 4
+	iVar31 = (190 - (iVar30 * 35)) / (iVar30 + 1)
+	if(arg4 != -1) {
+		cc_create(5, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 2) + iVar25) + iVar26, iVar29 + iVar31)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg4)
+		cc_create(6, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 2) + iVar25) + iVar26) + 32, iVar29 + iVar31)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg4) >= arg5)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_781(script_771(arg4)) + "/" + to_string(arg5))
+	}
+	if(arg6 != -1) {
+		cc_create(7, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 2) + iVar25) + iVar26, (iVar29 + (iVar31 * 2)) + 35)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg6)
+		cc_create(8, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 2) + iVar25) + iVar26) + 32, (iVar29 + (iVar31 * 2)) + 35)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg6) >= arg7)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_780(script_771(arg6)) + "/" + to_string(arg7))
+	}
+	if(arg8 != -1) {
+		cc_create(9, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 2) + iVar25) + iVar26, (iVar29 + (iVar31 * 3)) + 70)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg8)
+		cc_create(10, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 2) + iVar25) + iVar26) + 32, (iVar29 + (iVar31 * 3)) + 70)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg8) >= arg9)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_780(script_771(arg8)) + "/" + to_string(arg9))
+	}
+	if(arg10 != -1) {
+		cc_create(11, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 2) + iVar25) + iVar26, (iVar29 + (iVar31 * 4)) + 105)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg10)
+		cc_create(12, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 2) + iVar25) + iVar26) + 32, (iVar29 + (iVar31 * 4)) + 105)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg10) >= arg11)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_780(script_771(arg10)) + "/" + to_string(arg11))
+	}
+	if(arg12 != -1) {
+		cc_create(13, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26), iVar29 + iVar31)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg12)
+		cc_create(14, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26)) + 32, iVar29 + iVar31)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg12) >= arg13)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_780(script_771(arg12)) + "/" + to_string(arg13))
+	}
+	if(arg14 != -1) {
+		cc_create(15, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26), (iVar29 + (iVar31 * 2)) + 35)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg14)
+		cc_create(16, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26)) + 32, (iVar29 + (iVar31 * 2)) + 35)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg14) >= arg15)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_780(script_771(arg14)) + "/" + to_string(arg15))
+	}
+	if(arg16 != -1) {
+		cc_create(15, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26), ((iVar29 + (iVar31 * 3)) + 35) + 2)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg16)
+		cc_create(16, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26)) + 32, ((iVar29 + (iVar31 * 3)) + 35) + 2)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg16) >= arg17)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_780(script_771(arg16)) + "/" + to_string(arg17))
+	}
+	if(arg18 != -1) {
+		cc_create(15, 5, arg1)
+		cc_setposition(0, 0, ((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26), ((iVar29 + (iVar31 * 4)) + 35) + 3)
+		cc_setsize(0, 0, 32, 35)
+		cc_setitem(-1, arg18)
+		cc_create(16, 4, arg1)
+		cc_setposition(0, 0, (((iVar28 + 16) + (2 * iVar25)) + (2 * iVar26)) + 32, ((iVar29 + (iVar31 * 4)) + 35) + 3)
+		cc_setsize(0, 0, 14, 35)
+		cc_settextalign(0, 1, 1)
+		cc_settextfont(494)
+		if(script_771(arg18) >= arg19)
+			cc_setcolor(ff00)
+		else
+			cc_setcolor(ff0000)
+		cc_settextshadow(0)
+		cc_settext(script_780(script_771(arg18)) + "/" + to_string(arg19))
+	}
+}
+return

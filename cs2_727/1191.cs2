@@ -1,0 +1,4 @@
+//script1191(1191)(int arg0, int arg1)(void)
+if(world_language() != 0)
+	if_settextfont(arg0, arg1)
+return

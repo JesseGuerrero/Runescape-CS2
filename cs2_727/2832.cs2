@@ -1,0 +1,7 @@
+//script2832(2832)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+base_color(arg1, 0)
+store_varc(1015, arg1)
+script_2790()
+return

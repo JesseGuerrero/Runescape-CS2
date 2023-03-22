@@ -1,0 +1,8 @@
+void script_1132(Widget widget0, Widget widget1) {
+	widget1.setNoClickThrough(1);
+	widget1.hookMousePress(&script_489(0, 0));
+	widget0.setOptionBase("<col=ff8040>" + "Camera motion" + "</col>");
+	script_1135(widget0, widget1);
+	widget0.hookVARP(&script_1133(widget0, widget1), 19);
+	return;
+}

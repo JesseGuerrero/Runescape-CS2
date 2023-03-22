@@ -1,0 +1,3 @@
+//script6085(6085)(int arg0)(void)
+script_6087(load_varp(118), load_varp(1496), arg0, load_varpbit(11055))
+return

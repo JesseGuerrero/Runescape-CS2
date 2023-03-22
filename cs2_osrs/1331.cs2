@@ -1,0 +1,26 @@
+void script_1331(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, int arg5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12) {
+	if (arg0 == arg1) {
+		widget6.setSprite(1001);
+		widget7.setSprite(1002);
+		widget8.setSprite(1003);
+		widget11.setIsHidden(true);
+		widget12.setIsHidden(true);
+		widget2.setSprite(998);
+		widget3.setSprite(999);
+		widget4.setSprite(1000);
+		widget9.setIsHidden(false);
+		widget10.setIsHidden(false);
+	} else if (arg0 == arg5) {
+		widget2.setSprite(1001);
+		widget3.setSprite(1002);
+		widget4.setSprite(1003);
+		widget9.setIsHidden(true);
+		widget10.setIsHidden(true);
+		widget6.setSprite(998);
+		widget7.setSprite(999);
+		widget8.setSprite(1000);
+		widget11.setIsHidden(false);
+		widget12.setIsHidden(false);
+	}
+	return;
+}

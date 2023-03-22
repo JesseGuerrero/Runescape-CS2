@@ -1,0 +1,18 @@
+//script2438(2438)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = scale(100, 1000, load_varpbit(651))
+if(iVar2 > 100)
+	iVar2 = 100
+iVar0 = enum(1090, iVar2, 'i', 'i')
+iVar1 = enum(1091, iVar2, 'i', 'i')
+if_setposition(if_gethash(15, 14), 0, 2, iVar0, 40)
+if_setsize(if_gethash(15, 14), 0, 0, iVar1, 18)
+if(iVar2 < 25)
+	if_setcolor(983054, 0xFF9900)
+else
+	if_setcolor(983054, 0x6600)
+return

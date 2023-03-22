@@ -1,0 +1,26 @@
+//script2692(2692)(int arg0)(int, int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = enum_getoutputcount(201) - 1
+while(iVar6 >= 0) {
+	iVar1 = enum(201, iVar6, 'i', 'J')
+	iVar3 = iVar3 + 1
+	iVar2 = struct_param(683, iVar1)
+	iVar5 = enum_getoutputcount(iVar2) - 1
+	while(iVar5 >= 0) {
+		iVar4 = max(iVar4, stringwidth(494, enum(iVar2, iVar5, 'i', 's')))
+		iVar5 = iVar5 - 1
+	}
+	iVar6 = iVar6 - 1
+}
+return iVar4, iVar3
+return 0, 0

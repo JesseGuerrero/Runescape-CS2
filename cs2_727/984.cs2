@@ -1,0 +1,265 @@
+//script984(984)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21340, 1, "Members can now wield a " + "<col=000080>" + "Dwarven Army Axe" + "</col>" + ".", "Members: Dwarven Army Axe"
+
+			case 1:
+				return 3196, 5, "Members now have the Strength level required to wield " + "<col=000080>" + "black halberds" + "</col>" + ". (You also need level 10 Attack.)", "Black halberd" + "<br>" + " (with 10 Attack)"
+
+			case 2:
+				return 6599, 5, "Members now have the Strength level required to wield " + "<col=000080>" + "white halberds" + "</col>" + ". (You also need level 10 Attack.)", "White halberd" + "<br>" + " (with 10 Attack)"
+
+			case 3:
+				return 3198, 10, "Members now have the Strength level required to wield " + "<col=000080>" + "mithril halberds" + "</col>" + ". (You also need level 20 Attack.)", "Mithril halberd" + "<br>" + " (with 20 Attack)"
+
+			case 4:
+				return 3200, 15, "Members now have the Strength level required to wield " + "<col=000080>" + "adamant halberds" + "</col>" + ". (You also need level 30 Attack.)", "Adamant halberd" + "<br>" + " (with 30 Attack)"
+
+			case 5:
+				return 3202, 20, "Members now have the Strength level required to wield " + "<col=000080>" + "rune halberds" + "</col>" + ". (You also need level 40 Attack.)", "Rune halberd" + "<br>" + " (with 40 Attack)"
+
+			case 6:
+				return 3204, 30, "Members now have the Strength level required to wield " + "<col=000080>" + "dragon halberds" + "</col>" + ". (They also need level 60 Attack.)", "Dragon halberd" + "<br>" + " (with 60 Attack)"
+
+			case 7:
+				return 8841, 42, "Members now have the Strength level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + ".", "Members: Void knight mace"
+
+			case 8:
+				return 4153, 50, "Members now have the Strength level required to wield " + "<col=000080>" + "granite mauls" + "</col>" + ". (They also need level 50 Attack.)", "Granite maul" + "<br>" + " (with 50 Attack)"
+
+			case 9:
+				return 14679, 50, "Members now have the Strength level required to wield " + "<col=000080>" + "granite maces" + "</col>" + ". (They also need level 50 Attack.)", "Granite mace" + "<br>" + " (with 50 Attack)"
+
+			case 10:
+				return 6528, 60, "Members can now wield " + "<col=000080>" + "Tzhaar-Ket-Om" + "</col>" + ".", "Tzhaar-Ket-Om"
+
+			case 11:
+				return 4718, 70, "Members now have the Strength level required to wield " + "<col=000080>" + "Dharok's greataxe" + "</col>" + ". (They also need level 70 Attack.)", "Dharok's greataxe" + "<br>" + " (with 70 Attack)"
+
+			case 12:
+				return 4747, 70, "Members now have the Strength level required to wield " + "<col=000080>" + "Torag's hammers" + "</col>" + ". (They also need level 70 Attack.)", "Torag's hammers" + "<br>" + " (with 70 Attack)"
+
+			case 13:
+				return 15403, 75, "Members can now wield " + "<col=000080>" + "Balmung" + "</col>" + " (after Blood Runs Deep, with 75 Attack).", "Members: Balmung (after Blood Runs Deep and with 75 Attack)"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 8921, 20, "Members can now wear " + "<col=000080>" + "black masks (with 10 Defence)" + "</col>" + ".", "Members: Black mask" + "<br>" + " (with 10 Defence)"
+
+			case 1:
+				return 15492, 20, "Members can now wear " + "<col=000080>" + "full slayer helmets" + "</col>" + " (after Smoking Kills with 20 Ranged, Magic and 10 Defence).", "Members: Full Slayer helmet" + "<br>" + " (after Smoking Kills with 20 Ranged, Magic and 10 Defence)"
+
+			case 2:
+				return 11665, 42, "Members now have the Strength level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + ".", "Members: Void melee helm"
+
+			case 3:
+				return 11664, 42, "Members now have the Strength level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + ".", "Members: Void ranger helm"
+
+			case 4:
+				return 11663, 42, "Members now have the Strength level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + ".", "Members: Void mage helm"
+
+			case 5:
+				return 8839, 42, "Members now have the Strength level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + ".", "Members: Void knight top"
+
+			case 6:
+				return 8840, 42, "Members now have the Strength level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + ".", "Members: Void knight robe"
+
+			case 7:
+				return 8842, 42, "Members now have the Strength level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + ".", "Members: Void knight gloves"
+
+			case 8:
+				return 19712, 42, "Members now have the Strength level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + ".", "Members: Void knight deflector"
+
+			case 9:
+				return 7620, 42, "<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", "Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."
+
+			case 10:
+				return 10589, 50, "Members now have the Strength level required to wear " + "<col=000080>" + "granite helms" + "</col>" + ". (They also need level 50 Defence.)", "Granite helm" + "<br>" + " (with 50 Defence)"
+
+			case 11:
+				return 10564, 50, "Members now have the Strength level required to wear " + "<col=000080>" + "granite bodies" + "</col>" + ". (They also need level 50 Defence.)", "Granite body" + "<br>" + " (with 50 Defence)"
+
+			case 12:
+				return 6809, 50, "Members now have the Strength level required to wear " + "<col=000080>" + "granite legs" + "</col>" + ". (They also need level 50 Defence.)", "Granite legs" + "<br>" + " (with 50 Defence)"
+
+			case 13:
+				return 3122, 50, "Members now have the Strength level required to wield " + "<col=000080>" + "granite shields" + "</col>" + ". (They also need level 50 Defence.)", "Granite shield" + "<br>" + " (with 50 Defence)"
+
+			case 14:
+				return 20135, 80, "Members can now wear " + "<col=000080>" + "torva full helms" + "</col>" + ". (They also need level 80 Defence and Constitution.)", "Members: Torva full helm" + "<br>" + " (with 80 Defence and Constitution)"
+
+			case 15:
+				return 20139, 80, "Members can now wear " + "<col=000080>" + "torva platebodies" + "</col>" + ". (They also need level 80 Defence and Constitution.)", "Members: Torva platebody" + "<br>" + " (with 80 Defence and Constitution)"
+
+			case 16:
+				return 20143, 80, "Members can now wear " + "<col=000080>" + "torva platelegs" + "</col>" + ". (They also need level 80 Defence and Constitution.)", "Members: Torva platelegs" + "<br>" + " (with 80 Defence and Constitution)"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 6515, 19, "You now have the Strength level required to cross the " + "<col=000080>" + "River Lum" + "</col>" + " to " + "<col=000080>" + "Al Kharid" + "</col>" + ". (You also need level 8 Agility and level 37 Ranged.)", "River crossing to Al Kharid" + "<br>" + " (with 8 Agility and 37 Ranged)"
+
+			case 1:
+				return 6515, 21, "You now have the Strength level required to use the " + "<col=000080>" + "Karamja crossing, south of the volcano" + "</col>" + ". (You also need level 53 Agility and level 42 Ranged.", "Karamja crossing, south of the volcano" + "<br>" + " (with 53 Agility and 42 Ranged)"
+
+			case 2:
+				return 6515, 22, "You now have the Strength level required to make the " + "<col=000080>" + "Water Obelisk Island escape" + "</col>" + ". (You also need level 36 Agility and level 39 Ranged).", "Water Obelisk Island escape" + "<br>" + " (with 36 Agility and 39 Ranged)"
+
+			case 3:
+				return 6517, 35, "You now have the Strength level required to scale " + "<col=000080>" + "Catherby cliff" + "</col>" + " (after Fishing Contest, with level 32 Agility and level 35 Ranged).", "Catherby cliff" + "<br>" + " (after Fishing Contest, with 32 Agility and 35 Ranged)"
+
+			case 4:
+				return 6517, 37, "You now have the Strength level required to scale " + "<col=000080>" + "Falador wall" + "</col>" + ". (You also need level 11 Agility and level 19 Ranged.)", "Falador wall" + "<br>" + " (with 11 Agility and 19 Ranged)"
+
+			case 5:
+				return 6517, 38, "You now have the Strength level required to scale " + "<col=000080>" + "Yanille wall" + "</col>" + ". (You also need level 39 Agility and level 21 Ranged.)", "Yanille wall" + "<br>" + " (with 39 Agility and 21 Ranged)"
+
+			case 6:
+				return 6515, 60, "Members now have the Strength level required to cross " + "<col=000080>" + "Bandos's throne room" + "</col>" + " (after The Chosen Commander and with 60 Agility and 60 Ranged).", "Cross Bandos's Throne Room " + "<br>" + " (after The Chosen Commander and with 60 Agility and 60 Ranged)"
+
+			case 7:
+				return 6515, 80, "You now have the Strength level required to " + "<col=000080>" + "cross the cave, south of Dorgesh-Kaan" + "</col>" + " (after Death to the Dorgeshuun, with 80 Agility and 80 Ranged).", "Cross cave, south of Dorgesh-Kaan " + "<br>" + " (after Death to the Dorgeshuun, with 80 Agility and 80 Ranged)"
+
+
+		}
+		break
+	case 3:
+		if(arg1 == 0)
+			return 4043, 60, "You can now access the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + " via the " + "<col=000080>" + "Strength route" + "</col>" + ".", "God Wars Dungeon access via the Strength route"
+		if(arg1 == 1)
+			return 8122, 70, "You can now enter the " + "<col=000080>" + "Bandos's Stronghold" + "</col>" + " of the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + ".", "Bandos's Stronghold of the God Wars Dungeon"
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To start fishing like a barbarian, talk to Otto Godblessed when you have at least level 48 Fishing and level 15 Agility."
+
+			case 1:
+				return 11328, 15, "Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "leaping trout" + "</col>" + ". (They also need level 15 Agility and level 48 Fishing.)", "Leaping trout" + "<br>" + " (with 15 Agility and 48 Fishing)"
+
+			case 2:
+				return 11330, 30, "Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "leaping salmon" + "</col>" + ". (They also need level 30 Agility and level 58 Fishing.)", "Leaping salmon" + "<br>" + " (with 30 Agility and 58 Fishing)"
+
+			case 3:
+				return 11322, 35, "Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "tuna" + "</col>" + " without a harpoon. (They also need level 55 Fishing.)", "Tuna" + "<br>" + " (with 55 Fishing)"
+
+			case 4:
+				return 11332, 45, "Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "leaping sturgeon" + "</col>" + ". (They also need level 45 Agility and level 70 Fishing.)", "Leaping sturgeon" + "<br>" + " (with 45 Agility and 70 Fishing)"
+
+			case 5:
+				return 11321, 50, "Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "swordfish" + "</col>" + " without a harpoon. (They also need level 70 Fishing.)", "Swordfish" + "<br>" + " (with 70 Fishing)"
+
+			case 6:
+				return 11320, 76, "Members versed in the art of barbarian fishing now have the Strength level required to catch " + "<col=000080>" + "shark" + "</col>" + " without a harpoon. (They also need level 96 Fishing.)", "Shark" + "<br>" + " (with 96 Fishing)"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Strength level increases, you will be able to attempt higher-level strength tasks within Daemonheim. You will also be more likely to succeed when attempting strength tasks within Daemonheim."
+
+			case 1:
+				return 16405, 1, "You can now wield " + "<col=000080>" + "novite mauls" + "</col>" + " within Daemonheim.", "Novite maul (Tier 1)"
+
+			case 2:
+				return 16407, 10, "You can now wield " + "<col=000080>" + "bathus mauls" + "</col>" + " within Daemonheim.", "Bathus maul (Tier 2)"
+
+			case 3:
+				return 16409, 20, "You can now wield " + "<col=000080>" + "marmaros mauls" + "</col>" + " within Daemonheim.", "Marmaros maul (Tier 3)"
+
+			case 4:
+				return 16411, 30, "You can now wield " + "<col=000080>" + "kratonite mauls" + "</col>" + " within Daemonheim.", "Kratonite maul (Tier 4)"
+
+			case 5:
+				return 16413, 40, "You can now wield " + "<col=000080>" + "fractite mauls" + "</col>" + " within Daemonheim.", "Fractite maul (Tier 5)"
+
+			case 6:
+				return 16415, 50, "Members can now wield " + "<col=000080>" + "zephyrium mauls" + "</col>" + " within Daemonheim.", "Members: Zephyrium maul (Tier 6)"
+
+			case 7:
+				return 16417, 60, "Members can now wield " + "<col=000080>" + "argonite mauls" + "</col>" + " within Daemonheim.", "Members: Argonite maul (Tier 7)"
+
+			case 8:
+				return 16419, 70, "Members can now wield " + "<col=000080>" + "katagon mauls" + "</col>" + " within Daemonheim.", "Members: Katagon maul (Tier 8)"
+
+			case 9:
+				return 16421, 80, "Members can now wield " + "<col=000080>" + "gorgonite mauls" + "</col>" + " within Daemonheim.", "Members: Gorgonite maul (Tier 9)"
+
+			case 10:
+				return 16423, 90, "Members can now wield " + "<col=000080>" + "promethium mauls" + "</col>" + " within Daemonheim.", "Members: Promethium maul (Tier 10)"
+
+			case 11:
+				return 16425, 99, "Members can now wield " + "<col=000080>" + "primal mauls" + "</col>" + " within Daemonheim.", "Members: Primal maul (Tier 11)"
+
+
+		}
+		break
+	case 6:
+		if(arg1 == 0)
+			return 20070, -1, "", "You can enter the Warriors' Guild when your Attack and Strength levels add up to 130 or more, or when you reach level 99 in either Attack or Strength."
+		if(arg1 == 1)
+			return 9750, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Strength" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "the guard of the Strength training area" + "<col=000080>" + " at the " + "<col=800000>" + "Warriors' Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Strength" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21537, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage helms" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)", "Members: Battle-mage helm" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 1:
+				return 21539, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage robes" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)", "Members: Battle-mage robe" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 2:
+				return 21541, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage legs" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)", "Members: Battle-mage legs" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 3:
+				return 21543, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage gloves" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)", "Members: Battle-mage gloves" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 4:
+				return 21545, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Battle-mage boots" + "</col>" + ". (They also need level 85 Defence and level 85 Magic.)", "Members: Battle-mage boots" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 5:
+				return 21557, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard helms" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)", "Members: Vanguard helm" + "<br>" + " (with 85 Defence and 85 Ranged)"
+
+			case 6:
+				return 21559, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard body armour" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)", "Members: Vanguard body" + "<br>" + " (with 85 Defence and 85 Ranged)"
+
+			case 7:
+				return 21561, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard leg armour" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)", "Members: Vanguard legs" + "<br>" + " (with 85 Defence and 85 Ranged)"
+
+			case 8:
+				return 21563, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard gloves" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)", "Members: Vanguard gloves" + "<br>" + " (with 85 Defence and 85 Ranged)"
+
+			case 9:
+				return 21565, 85, "Members now have the Strength requirement to wear " + "<col=000080>" + "Vanguard boots" + "</col>" + ". (They also need level 85 Defence and level 85 Ranged.)", "Members: Vanguard boots" + "<br>" + " (with 85 Defence and 85 Ranged)"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

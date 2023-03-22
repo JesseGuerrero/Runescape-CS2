@@ -1,0 +1,21 @@
+//script365(365)(int arg0, int arg1, int arg2)(void)
+if(arg2 == 1)
+	if(cc_find(arg1, arg0) == 1)
+		if(cc_getheight() > 90)
+			cc_setgraphic(10552)
+		else
+			cc_setgraphic(10550)
+else
+	if(arg2 == 2)
+		if(cc_find(arg1, arg0) == 1)
+			if(cc_getheight() > 90)
+				cc_setgraphic(10552)
+			else
+				cc_setgraphic(10550)
+	else
+		if(cc_find(arg1, arg0) == 1)
+			if(cc_getheight() > 90)
+				cc_setgraphic(10551)
+			else
+				cc_setgraphic(10549)
+return

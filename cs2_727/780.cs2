@@ -1,0 +1,7 @@
+//script780(780)(int arg0)(string)
+if(arg0 >= 999999)
+	return "*"
+if(arg0 >= 10000)
+	return append("K", to_string(arg0 / 1000))
+return to_string(arg0)
+return ""

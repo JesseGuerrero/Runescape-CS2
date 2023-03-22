@@ -1,0 +1,13 @@
+//script2436(2436)()(void)
+store_varc(815, 0)
+script_1952()
+if(instr6644() < 2) {
+	instr6342(if_gethash(548, 37), None, "")
+	if_sethide(if_gethash(548, 39), 1)
+	if_sethide(if_gethash(548, 38), 1)
+} else  {
+	instr6342(if_gethash(746, 15), None, "")
+	if_sethide(if_gethash(746, 189), 1)
+	if_sethide(if_gethash(746, 188), 1)
+}
+return

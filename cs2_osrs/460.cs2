@@ -1,0 +1,36 @@
+void script_460(int arg0, Widget widget1, int arg2) {
+	string str0;
+	widget1.clearChildren();
+	str0 = datamap('i', 's', 860, arg0);
+	widget1.setOptionBase("<col=ff9040>" + str0);
+	CHILD.createChild(widget1, 5, 0);
+	CHILD.setSize(34, 34, 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSprite(155);
+	_CHILD.createChild(widget1, 5, 1);
+	_CHILD.setSize(30, 30, 0, 0);
+	_CHILD.setPosition(2, 2, 0, 0);
+	script_463(arg0, widget1, arg2);
+	if (arg0 == 25 || arg0 == 26) {
+		widget1.hookSkill(&script_461(arg0, widget1, getChildId(), getChildId(), widget(arg2)), 5, 1);
+		widget1.hookVARP(&script_461(arg0, widget1, getChildId(), getChildId(), widget(arg2)), 83, 1377, 1050, 284);
+	} else if (arg0 == 24 || arg0 == 27 || arg0 == 28) {
+		widget1.hookSkill(&script_461(arg0, widget1, getChildId(), getChildId(), widget(arg2)), 5, 1);
+		widget1.hookVARP(&script_461(arg0, widget1, getChildId(), getChildId(), widget(arg2)), 83, 1377, 1429, 284);
+	} else {
+		widget1.hookSkill(&script_461(arg0, widget1, getChildId(), getChildId(), widget(arg2)), 5);
+		widget1.hookVARP(&script_461(arg0, widget1, getChildId(), getChildId(), widget(arg2)), 83, 1377, 284);
+	}
+	widget1.hookOptionClick(&script_462(CTX_MENU_OPTION, arg0, widget1, getChildId(), getChildId(), widget(arg2)));
+	script_1966(arg2, widget1, arg0);
+	if (arg0 == 8 && (script_451() == 1 || script_1138() == 1 || VARPBIT[5314] == 1)) {
+		_CHILD.setTrans(100);
+		_CHILD.createChild(widget1, 5, 2);
+		_CHILD.setSize(25, 25, 0, 0);
+		_CHILD.setPosition(5, 4, 0, 0);
+		_CHILD.setSprite(1047);
+	} else {
+		_CHILD.setTrans(0);
+	}
+	return;
+}

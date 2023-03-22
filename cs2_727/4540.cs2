@@ -1,0 +1,351 @@
+//script4540(4540)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, string arg12)(void)
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+if_sethide(arg0, 0)
+cc_deleteall(arg0)
+if(arg4 == -1 || arg5 == -1)
+	arg4 = 5631
+if(arg6 == -1)
+	arg6 = 16777215
+iVar12 = min(arg3, parawidth(arg0, arg4, arg3))
+iVar13 = (max(1, paramheight(arg0, arg4, iVar12)) * arg7) + arg8
+iVar14 = iVar12 + 12
+iVar15 = iVar13 + 12
+switch(arg9) {
+	case default:
+		break
+	case 1:
+		iVar14 = iVar14 + 23
+		break
+	case 0:
+		iVar15 = iVar15 + 22
+		break
+	case 2:
+		iVar15 = iVar15 + 23
+		break
+
+}
+iVar14 = max(45, iVar14)
+if_setsize(arg0, 0, 0, iVar15, iVar14)
+cc_create(if_getnextsubid(arg0), 3, arg0)
+switch(arg9) {
+	case default:
+		break
+	case 3:
+		cc_setsize(1, 1, 2, 25)
+		cc_setposition(1, 0, 0, 1)
+		break
+	case 1:
+		cc_setsize(1, 1, 2, 25)
+		cc_setposition(1, 2, 0, 1)
+		break
+	case 0:
+		cc_setsize(1, 1, 24, 2)
+		cc_setposition(0, 1, 1, 0)
+		break
+	case 2:
+		cc_setsize(1, 1, 25, 2)
+		cc_setposition(2, 1, 1, 0)
+		cc_setsize(1, 1, 2, 2)
+		cc_setposition(1, 1, 0, 0)
+		break
+
+}
+cc_setcolor(0)
+cc_setfill(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+switch(arg9) {
+	case default:
+		break
+	case 3:
+		cc_setsize(0, 1, 10, 27)
+		cc_setposition(0, 0, 0, 2)
+		break
+	case 1:
+		cc_setsize(0, 1, 10, 27)
+		cc_setposition(0, 2, 0, 2)
+		cc_setsize(0, 1, 10, 4)
+		cc_setposition(0, 1, 0, 0)
+		break
+	case 2:
+		cc_setsize(0, 1, 10, 4)
+		cc_setposition(0, 1, 23, 0)
+		break
+
+}
+cc_setgraphic(4649)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+switch(arg9) {
+	case default:
+		break
+	case 3:
+		cc_setsize(0, 1, 10, 27)
+		cc_setposition(2, 0, 0, 2)
+		break
+	case 1:
+		cc_setsize(0, 1, 10, 27)
+		cc_setposition(2, 2, 0, 2)
+		break
+	case 0:
+		cc_setsize(0, 1, 10, 4)
+		cc_setposition(2, 1, 22, 0)
+		cc_setsize(0, 1, 10, 4)
+		cc_setposition(2, 1, 0, 0)
+		break
+
+}
+cc_setgraphic(4649)
+cc_settiling(1)
+cc_setvflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+switch(arg9) {
+	case default:
+		cc_setsize(1, 0, 4, 10)
+		cc_setposition(1, 0, 0, 0)
+		break
+	case 1:
+		cc_setsize(1, 0, 4, 10)
+		cc_setposition(1, 0, 0, 23)
+		break
+	case 0:
+		cc_setsize(1, 0, 26, 10)
+		cc_setposition(0, 0, 2, 0)
+		break
+	case 2:
+		cc_setsize(1, 0, 27, 10)
+		cc_setposition(2, 0, 2, 0)
+		break
+
+}
+cc_setgraphic(4651)
+cc_settiling(1)
+cc_sethflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+switch(arg9) {
+	case default:
+		break
+	case 3:
+		cc_setsize(1, 0, 4, 10)
+		cc_setposition(1, 2, 0, 23)
+		cc_setsize(1, 0, 4, 10)
+		cc_setposition(1, 2, 0, 0)
+		break
+	case 0:
+		cc_setsize(1, 0, 26, 10)
+		cc_setposition(0, 2, 2, 0)
+		break
+	case 2:
+		cc_setsize(1, 0, 27, 10)
+		cc_setposition(2, 2, 2, 0)
+		break
+
+}
+cc_setgraphic(4651)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, 10, 10)
+switch(arg9) {
+	case default:
+		break
+	case 1:
+		cc_setposition(0, 0, 0, 23)
+		cc_setposition(0, 0, 0, 0)
+		break
+	case 2:
+		cc_setposition(0, 0, 23, 0)
+		break
+
+}
+cc_setgraphic(4650)
+cc_sethflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, 10, 10)
+switch(arg9) {
+	case default:
+		break
+	case 3:
+		cc_setposition(0, 2, 0, 23)
+		cc_setposition(0, 2, 0, 0)
+		break
+	case 2:
+		cc_setposition(0, 2, 23, 0)
+		break
+
+}
+cc_setgraphic(4650)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, 10, 10)
+switch(arg9) {
+	case default:
+		break
+	case 1:
+		cc_setposition(2, 0, 0, 23)
+		break
+	case 0:
+		cc_setposition(2, 0, 22, 0)
+		cc_setposition(2, 0, 0, 0)
+		break
+
+}
+cc_setgraphic(4650)
+cc_sethflip(1)
+cc_setvflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, 10, 10)
+switch(arg9) {
+	case default:
+		break
+	case 3:
+		cc_setposition(2, 2, 0, 23)
+		break
+	case 0:
+		cc_setposition(2, 2, 22, 0)
+		cc_setposition(2, 2, 0, 0)
+		break
+
+}
+cc_setgraphic(4650)
+cc_setvflip(1)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_setsize(0, 0, iVar13, iVar12)
+switch(arg9) {
+	case default:
+		break
+	case 3:
+		cc_setposition(1, 0, 0, 6)
+		break
+	case 1:
+		cc_setposition(1, 2, 0, 6)
+		break
+	case 0:
+		cc_setposition(0, 1, 6, 0)
+		break
+	case 2:
+		cc_setposition(2, 1, 6, 0)
+		cc_setposition(1, 1, 0, 0)
+		break
+
+}
+cc_setcolor(0)
+cc_settextfont(arg5)
+cc_settextalign(arg7, 1, 1)
+cc_settext(arg0)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setgraphic(5613)
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = if_getlayer(arg0)
+if(iVar20 != -1) {
+	iVar16 = script_3365(iVar20)
+	iVar17 = iVar16 + if_getwidth(iVar20)
+} else 
+	if(iVar20 != -1)
+		iVar17 = if_getwidth(iVar20)
+	else
+		iVar17 = 765
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = 0
+if(cc_find(arg2, arg1) == 1 || arg2 == -1 || instr6004(arg1) == 1) {
+	iVar21 = script_1743()
+	switch(arg9) {
+		case default:
+			break
+		case 3:
+			iVar25 = iVar21 - iVar14
+			if(iVar26 < iVar18) {
+				iVar27 = iVar26 - iVar18
+				iVar26 = iVar26 - iVar27
+				iVar27 = max(0 - ((iVar15 - 35) / 2), iVar27)
+			} else 
+				if(iVar26 + iVar15 > iVar19) {
+					iVar27 = (iVar26 + iVar15) - iVar19
+					iVar26 = iVar26 - iVar27
+					iVar27 = min((iVar15 - 35) / 2, iVar27)
+				}
+			cc_setsize(0, 0, 24, 25)
+			cc_setposition(1, 2, iVar27, 0)
+			break
+		case 1:
+			iVar25 = iVar21 + iVar23
+			if(iVar26 < iVar18) {
+				iVar27 = iVar26 - iVar18
+				iVar26 = iVar26 - iVar27
+				iVar27 = max(0 - ((iVar15 - 35) / 2), iVar27)
+			} else 
+				if(iVar26 + iVar15 > iVar19) {
+					iVar27 = (iVar26 + iVar15) - iVar19
+					iVar26 = iVar26 - iVar27
+					iVar27 = min((iVar15 - 35) / 2, iVar27)
+				}
+			cc_setsize(0, 0, 24, 25)
+			cc_set2dangle(32768)
+			cc_setposition(1, 0, iVar27, 0)
+			break
+		case 0:
+			iVar25 = (iVar21 + arg10) - (iVar14 / 2)
+			if(iVar25 < iVar16) {
+				iVar27 = iVar25 - iVar16
+				iVar25 = iVar25 - iVar27
+				iVar27 = max(0 - ((iVar14 - 35) / 2), iVar27)
+			} else 
+				if(iVar25 + iVar14 > iVar17) {
+					iVar27 = (iVar25 + iVar14) - iVar17
+					iVar25 = iVar25 - iVar27
+					iVar27 = min((iVar14 - 35) / 2, iVar27)
+				}
+			cc_setsize(0, 0, 25, 24)
+			cc_set2dangle(49152)
+			cc_setposition(2, 1, 0, iVar27)
+			break
+		case 2:
+			iVar25 = (iVar21 + arg10) - (iVar14 / 2)
+			if(iVar25 < iVar16) {
+				iVar27 = iVar25 - iVar16
+				iVar25 = iVar25 - iVar27
+				iVar27 = max(0 - ((iVar14 - 35) / 2), iVar27)
+			} else 
+				if(iVar25 + iVar14 > iVar17) {
+					iVar27 = (iVar25 + iVar14) - iVar17
+					iVar25 = iVar25 - iVar27
+					iVar27 = min((iVar14 - 35) / 2, iVar27)
+				}
+			cc_setsize(0, 0, 25, 24)
+			cc_set2dangle(16384)
+			cc_setposition(0, 1, 0, iVar27)
+			cc_sethide(1)
+			iVar25 = arg10 - (iVar14 / 2)
+			break
+
+	}
+} else 
+	if_sethide(arg0, 1)
+iVar28 = iVar25 - iVar16
+iVar29 = iVar26 - iVar18
+iVar28 = min(if_getwidth(if_getparentlayer(arg0)) - iVar14, max(iVar28, 0))
+iVar29 = min(if_getheight(if_getparentlayer(arg0)) - iVar15, max(iVar29, 0))
+if_setposition(arg0, 0, 0, iVar29, iVar28)
+return

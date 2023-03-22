@@ -1,0 +1,13 @@
+void script_1616(Widget widget0, Widget widget1, Widget widget2) {
+	script_1624(widget1);
+	widget2.clearChildren();
+	if (VARPBIT[5509] == 1 || VARPBIT[3459] == 1) {
+		widget0.setIsHidden(true);
+		widget2.hookOptionClick(null);
+		widget2.hookFrame(null);
+		return;
+	}
+	widget0.setIsHidden(false);
+	script_1617(widget2);
+	return;
+}

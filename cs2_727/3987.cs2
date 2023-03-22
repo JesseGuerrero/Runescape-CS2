@@ -1,0 +1,43 @@
+//script3987(3987)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+script_41(60096623)
+if_sethide(if_gethash(917, 11), 1)
+if(arg0 == 63)
+	arg0 = load_varpbit(8575)
+else
+	if(arg0 == 999)
+		arg0 = load_varpbit(8582)
+if(arg1 == 999)
+	arg1 = load_varpbit(8579)
+if(arg2 == 999)
+	arg2 = load_varpbit(8580)
+if_setgraphic(if_gethash(917, 124), enum(3491, arg0, 'i', 'd'))
+script_4501(60096650, enum(3487, arg0, 'i', 's'))
+if(instr6004(if_gethash(917, 122)) == 1)
+	cc_setopcursor(172, 1)
+store_varc(1422, -1)
+iVar3 = enum(3482, arg0, 'i', 'i')
+cc_deleteall(if_gethash(917, 67))
+if_setscrollpos(if_gethash(917, 67), 0, 0)
+iVar4 = 0
+if_sethide(if_gethash(917, 8), 0)
+if_sethide(if_gethash(917, 9), 1)
+if(load_varpbit(9030) == 1) {
+	if(world_members() == 0)
+		iVar4 = script_4243(3656)
+	else
+		iVar4 = script_4243(5480)
+	if_sethide(if_gethash(917, 8), 1)
+	if_sethide(if_gethash(917, 9), 0)
+} else 
+	if(iVar3 == 4091)
+		iVar4 = script_3988(arg0)
+	else
+		iVar4 = script_3989(iVar3, arg1, arg2)
+iVar5 = iVar4 + if_getheight(if_gethash(917, 117))
+iVar5 = max(if_getheight(if_gethash(917, 67)), iVar5)
+if_setscrollsize(60096579, iVar5, 0)
+script_31(60096580, 60096579, 4343, 4340, 4341, 4342, 4337, 4336)
+return

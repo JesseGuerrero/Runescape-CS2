@@ -1,0 +1,15 @@
+//script1149(1149)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+if(arg1 == arg0) {
+	if_setcolor(arg4, 0xEBE0BC)
+	if_setgraphic(arg3, enum(736, arg0, 'i', 'd'))
+	hook_mouse_enter(arg2, script_3933, "Ii1iIi", arg4, 15458492, 1, arg0, arg3, arg1)
+	hook_mouse_exit(arg2, script_3933, "Ii1iIi", arg4, 11709087, 0, arg0, arg3, arg1)
+	hook_mouse_press(arg2, None, "")
+} else  {
+	if_setcolor(arg4, 0xB2AA9F)
+	if_setgraphic(arg3, enum(735, arg0, 'i', 'd'))
+	hook_mouse_enter(arg2, script_3933, "Ii1iIi", arg4, 15458492, 1, arg0, arg3, arg1)
+	hook_mouse_exit(arg2, script_3933, "Ii1iIi", arg4, 11709087, 0, arg0, arg3, arg1)
+	hook_mouse_press(arg2, script_2698, "iiiii", arg0, arg5, arg6, arg7, arg8)
+}
+return

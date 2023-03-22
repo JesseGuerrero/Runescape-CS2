@@ -1,0 +1,6 @@
+//script540(540)(int arg0, int arg1)(void)
+if(stat(6) >= arg1 || load_varpbit(4089) == 1 || load_varp(1092) >= arg1)
+	if_setcolor(arg0, 0xCC00)
+else
+	if_setcolor(arg0, 0xFF981F)
+return

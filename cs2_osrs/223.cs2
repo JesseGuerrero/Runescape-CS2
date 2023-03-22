@@ -1,0 +1,40 @@
+void script_223() {
+	int int0;
+	int int1;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	str0 = "<col=0000ff>";
+	if (script_921() == 1) {
+		str0 = "<col=9090ff>";
+		widget(162, 42).setRGB(0xFFFFFF);
+		widget(162, 42).setTextAntiMacro(true);
+	} else {
+		widget(162, 42).setRGB(0x000000);
+		widget(162, 42).setTextAntiMacro(false);
+	}
+	int0 = length(STRING[1]);
+	str1 = escape(STRING[1]);
+	str2 = "";
+	if (VARPBIT[1777] == 1) {
+		str2 = "<img=2>";
+	} else if (VARPBIT[1777] == 2) {
+		str2 = "<img=3>";
+	} else if (VARPBIT[1777] == 3) {
+		str2 = "<img=10>";
+	}
+	str3 = str2 + m5015() + ":\u00a0" + str0 + str1 + "</col>";
+	if (int0 < 80) {
+		str3 = concat(str3, str0 + "*" + "</col>");
+	}
+	int1 = getMaxLineWidth(str3, 2147483647, 495);
+	if (int1 > widget(162, 42).getWidth()) {
+		widget(162, 42).setTextAlignment(2, 2, 0);
+	} else {
+		widget(162, 42).setTextAlignment(0, 2, 0);
+	}
+	widget(162, 42).setText(str3);
+	widget(162, 42).setSize(3, 16, 1, 0);
+	return;
+}

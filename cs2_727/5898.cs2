@@ -1,0 +1,40 @@
+//script5898(5898)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = arg1 + 1
+iVar3 = script_5939(load_varc(1781))
+if(iVar2 == 1)
+	script_5919()
+if(iVar2 == 80)
+	script_5921()
+if(iVar2 >= 100) {
+	if_sethide(if_gethash(1253, 50), 1)
+	instr6342(if_gethash(1253, 28), script_5904, "I", -2147483645)
+	instr6342(arg0, None, "")
+	if_sethide(if_gethash(1253, 33), 1)
+	if_sethide(if_gethash(1253, 38), 0)
+	store_varc(1784, 0)
+	script_5906()
+	if(iVar2 == 100)
+		switch(script_5939(load_varc(1781))) {
+			case default:
+				break
+			case 0:
+				sound_jingle(100, 504)
+				break
+			case 1:
+				sound_jingle(100, 501)
+				break
+			case 2:
+				sound_jingle(100, 503)
+				sound_vorbis_volume(50, 0, 1, script_5925(5705))
+				break
+			case 3:
+				sound_jingle(100, 502)
+				sound_vorbis_volume(50, 0, 1, script_5925(5705))
+				break
+
+		}
+} else 
+	instr6342(arg0, script_5898, "Ii", -2147483645, iVar2)
+return

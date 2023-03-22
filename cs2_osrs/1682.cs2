@@ -1,0 +1,15 @@
+void script_1682(Widget widget0, int arg1) {
+	int int2;
+	widget0.clearChildren();
+	int2 = 0;
+	if (arg1 == 1) {
+		int2 = script_198(widget0);
+	} else {
+		int2 = script_208(widget0);
+	}
+	CHILD.createChild(widget0, 6, int2);
+	CHILD.setSize(42, 42, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setItemNoNum(13190, 1);
+	return;
+}

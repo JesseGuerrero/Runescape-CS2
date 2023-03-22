@@ -1,0 +1,15 @@
+void script_332(Widget widget0, Item item1) {
+	int int2;
+	int2 = getItemAmtInContainer(93, item1);
+	if (item1 == 11787) {
+		int2 = int2 + getItemAmtInContainer(93, 12795);
+	}
+	if (int2 > 0) {
+		CHILD.setRGB(0xFFFFFF);
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	} else {
+		CHILD.setRGB(0xAAAAAA);
+		widget0.hookOptionClick(null);
+	}
+	return;
+}

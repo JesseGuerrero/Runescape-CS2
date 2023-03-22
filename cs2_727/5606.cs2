@@ -1,0 +1,8 @@
+//script5606(5606)()(void)
+if_settext(if_gethash(290, 10), to_string(load_varc(1747)))
+if_settext(if_gethash(290, 11), to_string(load_varc(1746)))
+if(load_varc(1748) == 1)
+	if_settext(if_gethash(290, 8), "Whitezag")
+else
+	if_settext(if_gethash(290, 8), "Grayzag")
+return

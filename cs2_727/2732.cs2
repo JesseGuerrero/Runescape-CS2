@@ -1,0 +1,31 @@
+//script2732(2732)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+cc_deleteall(arg0)
+cc_create(0, 3, arg0)
+cc_setsize(1, 1, 2, 2)
+cc_setposition(1, 1, 0, 0)
+cc_setfill(1)
+if(arg3 == 1)
+	cc_setcolor(0)
+else
+	if(arg3 == 2)
+		cc_setcolor(0)
+	else
+		if(arg3 == 3)
+			cc_setcolor(0)
+		else
+			cc_setcolor(0)
+cc_create(1, 5, arg0)
+cc_setsize(0, 0, 20, 20)
+cc_setposition(1, 1, 0, 0)
+iVar4 = 2289
+iVar5 = 2288
+if(arg2 == arg1)
+	cc_setgraphic(iVar4)
+else {
+	cc_setgraphic(iVar5)
+	hook_mouse_enter(arg0, script_688, "Iid", -2147483645, instr6151(), iVar4)
+	hook_mouse_exit(arg0, script_688, "Iid", -2147483645, instr6151(), iVar5)
+}
+return

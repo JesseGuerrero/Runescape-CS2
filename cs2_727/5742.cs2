@@ -1,0 +1,4 @@
+//script5742(5742)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+if_setonmouseover(arg1, script_4538, "IIisifdiiiiii", arg0, arg1, -1, arg0, arg2, -1, -1, -1, 12, 3, arg3, -2147483647, -2147483646)
+hook_mouse_exit(arg1, script_40, "I", arg0)
+return

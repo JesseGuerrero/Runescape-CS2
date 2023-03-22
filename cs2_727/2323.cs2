@@ -1,0 +1,8 @@
+//script2323(2323)(int arg0)(void)
+if(if_getx(arg0) < if_getwidth(if_gethash(306, 1)) - 1) {
+	if(if_getx(arg0) == 140 + if_getwidth(arg0))
+		instr6342(if_gethash(306, 19), script_399, "I", if_gethash(306, 6))
+	if_setposition(arg0, 0, 0, if_gety(arg0), 1 + if_getx(arg0))
+} else 
+	script_2324()
+return

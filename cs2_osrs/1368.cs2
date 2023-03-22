@@ -1,0 +1,21 @@
+void script_1368(Widget widget0, int arg1, int arg2, int arg3, boolean arg4, int arg5) {
+	int int6;
+	int6 = 0;
+	if (CHILD.setChild(widget0, arg1) == true) {
+		if (arg3 == 1 && (arg4 == false || arg5 > 0)) {
+			CHILD.setRGB(0x0000FF);
+			CHILD.hookMouseEnter(null);
+			CHILD.hookMouseExit(null);
+			VARP[261] = arg2;
+			while (int6 <= 16) {
+				if (int6 != arg1 && _CHILD.setChild(widget0, int6) == true) {
+					_CHILD.setRGB(0x333300);
+				}
+				int6 = int6 + 1;
+			}
+			return;
+		}
+		CHILD.setRGB(0x333300);
+	}
+	return;
+}

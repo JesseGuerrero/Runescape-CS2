@@ -1,0 +1,6 @@
+//script1(1)(int arg0, int arg1)(int)
+if(item_members(arg1) == 1)
+	if(world_members() == 0)
+		return 0
+return inv_total(arg1, arg0)
+return 0

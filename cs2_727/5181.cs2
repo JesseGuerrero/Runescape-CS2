@@ -1,0 +1,6 @@
+//script5181(5181)(int arg0)(void)
+if(if_getscrollwidth(if_gethash(1122, 82)) == 0)
+	return
+if_setscrollpos(if_gethash(1122, 82), 0, if_getscrollx(if_gethash(1122, 82)) + (8 * arg0))
+script_5182()
+return

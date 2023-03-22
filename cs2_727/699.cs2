@@ -1,0 +1,30 @@
+//script699(699)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+if(instr6004(arg1) == 1) {
+	iVar2 = cc_getx()
+	if(arg0 < 5) {
+		iVar2 = cc_getx()
+		if(script_700(arg0) == 0)
+			iVar3 = -57
+		else
+			if(script_700(arg0) == 1)
+				iVar3 = -68
+			else
+				iVar3 = -79
+		cc_setposition(1, 0, iVar3, iVar2)
+	} else  {
+		iVar3 = cc_gety()
+		if(script_700(arg0) == 0)
+			iVar2 = -42
+		else
+			if(script_700(arg0) == 1)
+				iVar2 = -53
+			else
+				iVar2 = -64
+		cc_setposition(0, 1, iVar3, iVar2)
+	}
+}
+return

@@ -1,0 +1,97 @@
+//script4830(4830)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		iVar6 = load_varpbit(9562)
+		iVar7 = load_varpbit(9563)
+		iVar9 = load_varpbit(9567)
+		iVar10 = load_varpbit(9568)
+		iVar11 = load_varpbit(9569)
+		iVar12 = load_varpbit(9566)
+		break
+	case 2:
+		iVar6 = load_varpbit(9571)
+		iVar7 = load_varpbit(9572)
+		iVar9 = load_varpbit(9576)
+		iVar10 = load_varpbit(9577)
+		iVar11 = load_varpbit(9578)
+		iVar12 = load_varpbit(9575)
+		break
+	case 3:
+		iVar6 = load_varpbit(9580)
+		iVar7 = load_varpbit(9581)
+		iVar9 = load_varpbit(9585)
+		iVar10 = load_varpbit(9586)
+		iVar11 = load_varpbit(9587)
+		iVar12 = load_varpbit(9584)
+		break
+
+}
+if(iVar12 == 1)
+	return 5
+if(iVar6 == 0)
+	return -1
+iVar1 = enum(4043, iVar6, 'i', 'g')
+if(iVar1 == -1)
+	return -1
+if(iVar7 > 0)
+	if(iVar7 <= 3) {
+		iVar2 = enum(iVar1, iVar7, 'i', 'g')
+		if(iVar2 != -1) {
+			iVar3 = enum(iVar2, 1, 'i', 'g')
+			iVar4 = enum(iVar2, 2, 'i', 'g')
+			iVar5 = enum(iVar2, 3, 'i', 'g')
+			if(iVar3 != -1)
+				if(iVar9 > 0)
+					if(iVar9 <= enum_getoutputcount(iVar3))
+						if(load_clan_varbit(2580) >= struct_param(1567, enum(iVar3, iVar9, 'i', 'J'))) {
+							if(iVar4 == -1)
+							else
+								if(iVar10 > 0)
+									if(iVar10 <= enum_getoutputcount(iVar4))
+										if(load_clan_varbit(2580) < struct_param(1567, enum(iVar4, iVar10, 'i', 'J')))
+											return 2
+									else
+										return 3
+							if(iVar5 == -1)
+							else
+								if(iVar11 > 0)
+									if(iVar11 <= enum_getoutputcount(iVar5))
+										if(load_clan_varbit(2580) < struct_param(1567, enum(iVar5, iVar11, 'i', 'J')))
+											return 2
+									else
+										return 3
+							return 1
+						} else 
+							return 2
+					else
+						return 3
+		}
+	}
+return -1
+return 0

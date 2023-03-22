@@ -1,0 +1,38 @@
+//script1397(1397)()(void)
+if(load_varpbit(1412) == 1)
+	if_setmodel(if_gethash(282, 19), 10112)
+else
+	if_setmodel(if_gethash(282, 19), 10111)
+if(load_varpbit(1412) == 24)
+	if_setmodel(if_gethash(282, 20), 10114)
+else
+	if_setmodel(if_gethash(282, 20), 10113)
+if(load_varpbit(1412) == 32)
+	if_setmodel(if_gethash(282, 18), 10110)
+else
+	if_setmodel(if_gethash(282, 18), 10109)
+if(load_varpbit(1412) == 48)
+	if_setmodel(if_gethash(282, 17), 10108)
+else
+	if_setmodel(if_gethash(282, 17), 10107)
+if(load_varpbit(1412) == 56)
+	if_setmodel(if_gethash(282, 16), 10106)
+else
+	if_setmodel(if_gethash(282, 16), 10105)
+if(load_varpbit(1412) == 60)
+	if_setmodel(if_gethash(282, 15), 10104)
+else
+	if_setmodel(if_gethash(282, 15), 10103)
+if(load_varpbit(1412) == 62)
+	if_setmodel(if_gethash(282, 14), 10102)
+else
+	if_setmodel(if_gethash(282, 14), 10101)
+if(load_varpbit(1412) == 63)
+	if_setmodel(if_gethash(282, 13), 10100)
+else
+	if_setmodel(if_gethash(282, 13), 10099)
+if(load_varpbit(1413) == 1)
+	if_setmodel(if_gethash(282, 12), 10116)
+else
+	if_setmodel(if_gethash(282, 12), 10115)
+return

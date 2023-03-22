@@ -1,0 +1,24 @@
+//script4582(4582)(int arg0, int arg1, int arg2)(string)
+if(arg0 > 0)
+	if(arg1 > 0)
+		if(arg2 > 0)
+			return to_string(arg0) + " " + script_4583(arg0, "day", "days") + ", " + to_string(arg1) + " " + script_4583(arg0, "hour", "hours") + " and " + to_string(arg2) + " " + script_4583(arg0, "minute", "minutes")
+		else
+			return to_string(arg0) + " " + script_4583(arg0, "day", "days") + " and " + to_string(arg1) + " " + script_4583(arg0, "hour", "hours")
+	else
+		if(arg2 > 0)
+			return to_string(arg0) + " " + script_4583(arg0, "day", "days") + " and " + to_string(arg2) + " " + script_4583(arg0, "minute", "minutes")
+		else
+			return to_string(arg0) + " " + script_4583(arg0, "day", "days")
+else
+	if(arg1 > 0)
+		if(arg2 > 0)
+			return to_string(arg1) + " " + script_4583(arg0, "hour", "hours") + " and " + to_string(arg2) + " " + script_4583(arg0, "minute", "minutes")
+		else
+			return to_string(arg1) + " " + script_4583(arg0, "hour", "hours")
+	else
+		if(arg2 > 0)
+			return to_string(arg2) + " " + script_4583(arg0, "minute", "minutes")
+		else
+			return ""
+return ""

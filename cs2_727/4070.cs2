@@ -1,0 +1,6 @@
+//script4070(4070)(int arg0)(void)
+if(client_clock() > arg0 + 25) {
+	store_varc(1431, 0)
+	instr6342(if_gethash(1058, 68), None, "")
+}
+return

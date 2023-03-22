@@ -1,0 +1,19 @@
+void script_195(Widget widget0, string string1) {
+	int int1;
+	widget0.clearChildren();
+	int1 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 4, int1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setText(string1);
+	widget0.setContextMenuOption(1, "Configure");
+	widget0.setOptionBase("<col=ff9040>" + string1 + "</col>");
+	widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	widget0.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+	return;
+}

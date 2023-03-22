@@ -1,0 +1,44 @@
+//script2773(2773)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+if(load_varp(281) < 6)
+	return
+iVar9 = -1
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		instr6823()
+		iVar9 = arg1
+		iVar11 = 2273
+		break
+	case 2:
+		instr6684()
+		iVar9 = arg2
+		iVar11 = 2272
+		break
+	case 3:
+		instr6663()
+		iVar9 = arg3
+		iVar11 = 2274
+		break
+	case 4:
+		instr6108()
+		iVar9 = arg4
+		iVar11 = 2275
+		return
+
+
+}
+if_setgraphic(iVar9, 2276)
+iVar13 = 2271
+instr6342(iVar9, script_1723, "Iidi", -2147483645, -2147483643, iVar13, client_clock() + 10)
+if_setgraphic(iVar10, iVar12)
+instr6342(iVar10, script_1723, "Iidi", -2147483645, -2147483643, iVar11, client_clock() + 10)
+return

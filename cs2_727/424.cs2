@@ -1,0 +1,17 @@
+//script424(424)()(void)
+int iVar0
+int iVar1
+string sVar0
+iVar0 = (load_varc(1365) * 6) / 10
+iVar1 = 0
+sVar0 = "1 minute"
+if(iVar0 < 60) {
+	if_settext(if_gethash(1027, 24), "Your opponent has logged out." + "<br>" + "You may wait for them to return or end the Conquest now and be declared the winner.")
+	return
+}
+if(iVar0 > 120) {
+	iVar1 = iVar0 / 60
+	sVar0 = to_string(iVar1) + " minutes"
+}
+if_settext(if_gethash(1027, 24), "Your opponent has been logged out for " + sVar0 + "." + "<br>" + "You may wait for them to return or end the Conquest now and be declared the winner.")
+return

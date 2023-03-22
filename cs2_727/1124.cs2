@@ -1,0 +1,19 @@
+//script1124(1124)(int arg0)(void)
+int iVar1
+iVar1 = if_gettrans(arg0)
+if(load_varc(992) == 1) {
+	iVar1 = iVar1 + 1
+	if(iVar1 >= 255)
+		store_varc(992, 0)
+} else  {
+	iVar1 = iVar1 - 1
+	if(iVar1 <= 0)
+		store_varc(992, 1)
+}
+if(iVar1 > 255)
+	iVar1 = 255
+else
+	if(iVar1 < 0)
+		iVar1 = 0
+if_settrans(arg0, iVar1)
+return

@@ -1,0 +1,20 @@
+//script4897(4897)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if_sethide(if_gethash(1259, 113), 0)
+		break
+	case 1:
+		if_sethide(if_gethash(1259, 118), 0)
+		break
+	case 2:
+		if_sethide(if_gethash(1259, 128), 0)
+		break
+	case 3:
+		if_sethide(if_gethash(1259, 123), 0)
+		return
+
+
+}
+return

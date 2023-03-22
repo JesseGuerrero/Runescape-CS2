@@ -1,0 +1,64 @@
+//script6196(6196)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+iVar4 = 0
+iVar5 = 0
+switch(arg0) {
+	case default:
+		break
+	case 84:
+		script_6203()
+		return
+
+	case 13:
+		return
+
+	case 103:
+		if(load_varc(1920) == 1) {
+			store_varc(1921, script_6200(arg0, load_varc(1921), load_varc_string(363)))
+			script_6199(59375977, 59375978, load_varc_string(363))
+		} else 
+			if(load_varc(1920) == 2) {
+				store_varc(1922, script_6200(arg0, load_varc(1922), load_varc_string(364)))
+				script_6199(59375984, 59375985, load_varc_string(364))
+			}
+		return
+
+	case 80:
+		if(load_varc(1920) == 1) {
+			store_varc(1920, 2)
+			iVar4 = instr6391(if_gethash(906, 368), string_length(load_varc_string(364))).get(0)
+			script_6198(iVar4, iVar5, 59375984, 59375985)
+		} else 
+			if(load_varc(1920) == 2) {
+				store_varc(1920, 1)
+				iVar4 = instr6391(if_gethash(906, 361), string_length(load_varc_string(363))).get(0)
+				script_6198(iVar4, iVar5, 59375977, 59375978)
+			}
+		break
+	case 101:
+		if(char_isprintable(arg1) == 1 || arg0 == 85 || arg0 == 101) {
+			if(string_indexof_char("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&'*+-/=?^_.{}~@", 0, arg1) == -1)
+				if(arg0 != 85)
+					if(arg0 != 101)
+						return
+			if(arg1 == 60)
+				return
+			if(load_varc(1920) == 1) {
+				store_varc_string(363, script_802(load_varc(1921), arg3, arg0, arg1, load_varc_string(363)).get(1))
+				if_settext(arg2, load_varc_string(363))
+				script_6199(59375977, 59375978, load_varc_string(363))
+				return
+			} else 
+				if(load_varc(1920) == 2) {
+					store_varc_string(364, script_802(load_varc(1922), arg3, arg0, arg1, load_varc_string(364)).get(1))
+					if_settext(arg2, load_varc_string(364))
+					script_6199(59375984, 59375985, load_varc_string(364))
+					return
+				}
+		}
+		return
+
+
+}
+return

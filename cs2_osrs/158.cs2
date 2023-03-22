@@ -1,0 +1,5 @@
+void script_158(Widget widget0, Container container1, int arg2, int arg3, int arg4, int arg5, int arg6, string string7, string string8, string string9, string string10, string string11) {
+	script_160(widget0, container1, arg2, arg3, arg4, arg5, string7, string8, string9, string10, string11, "null", "null", "null", "null", arg6);
+	widget0.hookContainer(&script_159(widget0, container1, arg2, arg3, arg4, widget(arg5), string7, string8, string9, string10, string11, "null", "null", "null", "null", (boolean)arg6), container1);
+	return;
+}

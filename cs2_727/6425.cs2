@@ -1,0 +1,133 @@
+//script6425(6425)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+switch(arg0) {
+	case default:
+		break
+	case 85786644:
+		iVar2 = 85786657
+		iVar3 = 85786658
+		iVar4 = 85786659
+		break
+	case 85786646:
+		iVar2 = 85786649
+		iVar3 = 85786650
+		iVar4 = 85786651
+		break
+	case 85786648:
+		iVar2 = 85786653
+		iVar3 = 85786654
+		iVar4 = 85786655
+		break
+	case 85721153:
+		iVar2 = 85721154
+		iVar3 = 85721155
+		iVar4 = 85721156
+		break
+	case 85721280:
+		iVar2 = 85721144
+		iVar3 = 85721145
+		iVar4 = 85721146
+		break
+	case 85721285:
+		iVar2 = 85721286
+		iVar3 = 85721287
+		iVar4 = 85721288
+		break
+	case 85721293:
+		iVar2 = 85721294
+		iVar3 = 85721295
+		iVar4 = 85721296
+		break
+	case 85721301:
+		iVar2 = 85721302
+		iVar3 = 85721303
+		iVar4 = 85721304
+		break
+	case 85721320:
+		iVar2 = 85721321
+		iVar3 = 85721322
+		iVar4 = 85721323
+		break
+	case 85721404:
+		iVar2 = 85721405
+		iVar3 = 85721406
+		iVar4 = 85721407
+		break
+	case 85721423:
+		iVar2 = 85721424
+		iVar3 = 85721425
+		iVar4 = 85721426
+		break
+	case 85721344:
+		iVar2 = 85721345
+		iVar3 = 85721346
+		iVar4 = 85721347
+		break
+	case 85721366:
+		iVar2 = 85721367
+		iVar3 = 85721368
+		iVar4 = 85721369
+		break
+	case 85721385:
+		iVar2 = 85721386
+		iVar3 = 85721387
+		iVar4 = 85721388
+		break
+	case 85721510:
+		iVar2 = 85721520
+		iVar3 = 85721521
+		iVar4 = 85721522
+		break
+	case 85721536:
+		iVar2 = 85721537
+		iVar3 = 85721538
+		iVar4 = 85721539
+		break
+	case 85721555:
+		iVar2 = 85721556
+		iVar3 = 85721557
+		iVar4 = 85721558
+		break
+	case 85721576:
+		iVar2 = 85721577
+		iVar3 = 85721578
+		iVar4 = 85721579
+		break
+	case 85721599:
+		iVar2 = 85721600
+		iVar3 = 85721601
+		iVar4 = 85721602
+		break
+	case 85721618:
+		iVar2 = 85721619
+		iVar3 = 85721620
+		iVar4 = 85721621
+		return
+
+
+}
+if(iVar2 == -1 || iVar3 == -1 || iVar4 == -1)
+	return
+if(if_getspriteid(iVar2) == 7932)
+	return
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		script_6426(iVar2, iVar3, iVar4)
+		break
+	case 2:
+		script_6427(iVar2, iVar3, iVar4, arg0)
+		break
+	case 3:
+		script_6428(iVar2, iVar3, iVar4)
+		return
+
+
+}
+return

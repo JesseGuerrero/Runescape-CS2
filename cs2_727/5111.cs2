@@ -1,0 +1,8 @@
+//script5111(5111)(int arg0, int arg1)(void)
+store_varp(2317, arg0)
+if(arg1 == 1)
+	script_5108(1)
+else
+	script_5108(0)
+script_5113(arg1)
+return

@@ -1,0 +1,63 @@
+//script3677(3677)(int arg0, int arg1)(void)
+int iVar2
+string sVar0
+iVar2 = 0
+switch(arg0) {
+	case default:
+		break
+	case 65929230:
+		iVar2 = load_varc(1336)
+		break
+	case 65929231:
+		iVar2 = load_varc(1337)
+		break
+	case 65929232:
+		iVar2 = load_varc(1338)
+		break
+	case 65929233:
+		iVar2 = load_varc(1339)
+		break
+	case 65929234:
+		iVar2 = load_varc(1340)
+		break
+	case 65929235:
+		iVar2 = load_varc(1341)
+		break
+	case 65929236:
+		iVar2 = load_varc(1342)
+		break
+	case 65929237:
+		iVar2 = load_varc(1343)
+		break
+	case 65929238:
+		iVar2 = load_varc(1344)
+		break
+	case 65929239:
+		iVar2 = load_varc(1345)
+		break
+	case 65929240:
+		iVar2 = load_varc(1346)
+		break
+	case 65929241:
+		iVar2 = load_varc(1347)
+		break
+	case 65929242:
+		iVar2 = load_varc(1348)
+		break
+	case 65929243:
+		iVar2 = load_varc(1349)
+		break
+	case 65929244:
+		iVar2 = load_varc(1350)
+		break
+	case 65929245:
+		iVar2 = load_varc(1605)
+		break
+	case 65929246:
+		iVar2 = load_varc(1351)
+		break
+
+}
+sVar0 = "Current price: " + script_940(iVar2) + " gp"
+script_569(arg0, arg1, 65929265, 25, if_getwidth(if_getlayer(if_gethash(1006, 49))), sVar0)
+return

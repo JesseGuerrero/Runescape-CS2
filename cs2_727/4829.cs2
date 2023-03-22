@@ -1,0 +1,317 @@
+//script4829(4829)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar1 = script_4830(arg0)
+if(iVar1 != 1)
+	return iVar1
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		iVar2 = load_varpbit(9570)
+		iVar3 = load_varpbit(9562)
+		iVar7 = load_varpbit(9563)
+		iVar4 = load_varpbit(9567)
+		iVar5 = load_varpbit(9568)
+		iVar6 = load_varpbit(9569)
+		break
+	case 2:
+		iVar2 = load_varpbit(9579)
+		iVar3 = load_varpbit(9571)
+		iVar7 = load_varpbit(9572)
+		iVar4 = load_varpbit(9576)
+		iVar5 = load_varpbit(9577)
+		iVar6 = load_varpbit(9578)
+		break
+	case 3:
+		iVar2 = load_varpbit(9588)
+		iVar3 = load_varpbit(9580)
+		iVar7 = load_varpbit(9581)
+		iVar4 = load_varpbit(9585)
+		iVar5 = load_varpbit(9586)
+		iVar6 = load_varpbit(9587)
+		break
+
+}
+switch(iVar2) {
+	case default:
+		break
+	case 100:
+		if(iVar3 == load_clan_varbit(2210))
+			if(iVar7 == load_clan_varbit(2211))
+				if(iVar4 == load_clan_varbit(2216))
+					if(iVar5 == load_clan_varbit(2217))
+						if(iVar6 == load_clan_varbit(2218))
+							iVar1 = 4
+		break
+	case 101:
+		if(iVar3 == load_clan_varbit(2220))
+			if(iVar7 == load_clan_varbit(2221))
+				if(iVar4 == load_clan_varbit(2226))
+					if(iVar5 == load_clan_varbit(2227))
+						if(iVar6 == load_clan_varbit(2228))
+							iVar1 = 4
+		break
+	case 102:
+		if(iVar3 == load_clan_varbit(2240))
+			if(iVar7 == load_clan_varbit(2241))
+				if(iVar4 == load_clan_varbit(2246))
+					if(iVar5 == load_clan_varbit(2247))
+						if(iVar6 == load_clan_varbit(2248))
+							iVar1 = 4
+		break
+	case 103:
+		if(iVar3 == load_clan_varbit(2190))
+			if(iVar7 == load_clan_varbit(2191))
+				if(iVar4 == load_clan_varbit(2196))
+					if(iVar5 == load_clan_varbit(2197))
+						if(iVar6 == load_clan_varbit(2198))
+							iVar1 = 4
+		break
+	case 104:
+		if(iVar3 == load_clan_varbit(2230))
+			if(iVar7 == load_clan_varbit(2231))
+				if(iVar4 == load_clan_varbit(2236))
+					if(iVar5 == load_clan_varbit(2237))
+						if(iVar6 == load_clan_varbit(2238))
+							iVar1 = 4
+		break
+	case 105:
+		if(iVar3 == load_clan_varbit(2200))
+			if(iVar7 == load_clan_varbit(2201))
+				if(iVar4 == load_clan_varbit(2206))
+					if(iVar5 == load_clan_varbit(2207))
+						if(iVar6 == load_clan_varbit(2208))
+							iVar1 = 4
+		break
+	case 106:
+		if(iVar3 == load_clan_varbit(2260))
+			if(iVar7 == load_clan_varbit(2261))
+				if(iVar4 == load_clan_varbit(2266))
+					if(iVar5 == load_clan_varbit(2267))
+						if(iVar6 == load_clan_varbit(2268))
+							iVar1 = 4
+		break
+	case 107:
+		if(iVar3 == load_clan_varbit(2270))
+			if(iVar7 == load_clan_varbit(2271))
+				if(iVar4 == load_clan_varbit(2276))
+					if(iVar5 == load_clan_varbit(2277))
+						if(iVar6 == load_clan_varbit(2278))
+							iVar1 = 4
+		break
+	case 108:
+		if(iVar3 == load_clan_varbit(2280))
+			if(iVar7 == load_clan_varbit(2281))
+				if(iVar4 == load_clan_varbit(2286))
+					if(iVar5 == load_clan_varbit(2287))
+						if(iVar6 == load_clan_varbit(2288))
+							iVar1 = 4
+		break
+	case 109:
+		if(iVar3 == load_clan_varbit(2250))
+			if(iVar7 == load_clan_varbit(2251))
+				if(iVar4 == load_clan_varbit(2256))
+					if(iVar5 == load_clan_varbit(2257))
+						if(iVar6 == load_clan_varbit(2258))
+							iVar1 = 4
+		break
+	case 110:
+		if(iVar3 == load_clan_varbit(2290))
+			if(iVar7 == load_clan_varbit(2291))
+				if(iVar4 == load_clan_varbit(2296))
+					if(iVar5 == load_clan_varbit(2297))
+						if(iVar6 == load_clan_varbit(2298))
+							iVar1 = 4
+		break
+	case 111:
+		if(iVar3 == load_clan_varbit(2300))
+			if(iVar7 == load_clan_varbit(2301))
+				if(iVar4 == load_clan_varbit(2306))
+					if(iVar5 == load_clan_varbit(2307))
+						if(iVar6 == load_clan_varbit(2308))
+							iVar1 = 4
+		break
+	case 112:
+		if(iVar3 == load_clan_varbit(2310))
+			if(iVar7 == load_clan_varbit(2311))
+				if(iVar4 == load_clan_varbit(2316))
+					if(iVar5 == load_clan_varbit(2317))
+						if(iVar6 == load_clan_varbit(2318))
+							iVar1 = 4
+		break
+	case 113:
+		if(iVar3 == load_clan_varbit(2320))
+			if(iVar7 == load_clan_varbit(2321))
+				if(iVar4 == load_clan_varbit(2326))
+					if(iVar5 == load_clan_varbit(2327))
+						if(iVar6 == load_clan_varbit(2328))
+							iVar1 = 4
+		break
+	case 21:
+		if(iVar3 == load_clan_varbit(2330))
+			if(iVar7 == load_clan_varbit(2331))
+				if(iVar4 == load_clan_varbit(2336))
+					if(iVar5 == load_clan_varbit(2337))
+						if(iVar6 == load_clan_varbit(2338))
+							iVar1 = 4
+		break
+	case 22:
+		if(iVar3 == load_clan_varbit(2340))
+			if(iVar7 == load_clan_varbit(2341))
+				if(iVar4 == load_clan_varbit(2346))
+					if(iVar5 == load_clan_varbit(2347))
+						if(iVar6 == load_clan_varbit(2348))
+							iVar1 = 4
+		break
+	case 23:
+		if(iVar3 == load_clan_varbit(2350))
+			if(iVar7 == load_clan_varbit(2351))
+				if(iVar4 == load_clan_varbit(2356))
+					if(iVar5 == load_clan_varbit(2357))
+						if(iVar6 == load_clan_varbit(2358))
+							iVar1 = 4
+		break
+	case 24:
+		if(iVar3 == load_clan_varbit(2360))
+			if(iVar7 == load_clan_varbit(2361))
+				if(iVar4 == load_clan_varbit(2366))
+					if(iVar5 == load_clan_varbit(2367))
+						if(iVar6 == load_clan_varbit(2368))
+							iVar1 = 4
+		break
+	case 25:
+		if(iVar3 == load_clan_varbit(2370))
+			if(iVar7 == load_clan_varbit(2371))
+				if(iVar4 == load_clan_varbit(2376))
+					if(iVar5 == load_clan_varbit(2377))
+						if(iVar6 == load_clan_varbit(2378))
+							iVar1 = 4
+		break
+	case 26:
+		if(iVar3 == load_clan_varbit(2380))
+			if(iVar7 == load_clan_varbit(2381))
+				if(iVar4 == load_clan_varbit(2386))
+					if(iVar5 == load_clan_varbit(2387))
+						if(iVar6 == load_clan_varbit(2388))
+							iVar1 = 4
+		break
+	case 27:
+		if(iVar3 == load_clan_varbit(2390))
+			if(iVar7 == load_clan_varbit(2391))
+				if(iVar4 == load_clan_varbit(2396))
+					if(iVar5 == load_clan_varbit(2397))
+						if(iVar6 == load_clan_varbit(2398))
+							iVar1 = 4
+		break
+	case 28:
+		if(iVar3 == load_clan_varbit(2400))
+			if(iVar7 == load_clan_varbit(2401))
+				if(iVar4 == load_clan_varbit(2406))
+					if(iVar5 == load_clan_varbit(2407))
+						if(iVar6 == load_clan_varbit(2408))
+							iVar1 = 4
+		break
+	case 31:
+		if(iVar3 == load_clan_varbit(2460))
+			if(iVar7 == load_clan_varbit(2461))
+				if(iVar4 == load_clan_varbit(2466))
+					if(iVar5 == load_clan_varbit(2467))
+						if(iVar6 == load_clan_varbit(2468))
+							iVar1 = 4
+		break
+	case 32:
+		if(iVar3 == load_clan_varbit(2470))
+			if(iVar7 == load_clan_varbit(2471))
+				if(iVar4 == load_clan_varbit(2476))
+					if(iVar5 == load_clan_varbit(2477))
+						if(iVar6 == load_clan_varbit(2478))
+							iVar1 = 4
+		break
+	case 33:
+		if(iVar3 == load_clan_varbit(2480))
+			if(iVar7 == load_clan_varbit(2481))
+				if(iVar4 == load_clan_varbit(2486))
+					if(iVar5 == load_clan_varbit(2487))
+						if(iVar6 == load_clan_varbit(2488))
+							iVar1 = 4
+		break
+	case 34:
+		if(iVar3 == load_clan_varbit(2490))
+			if(iVar7 == load_clan_varbit(2491))
+				if(iVar4 == load_clan_varbit(2496))
+					if(iVar5 == load_clan_varbit(2497))
+						if(iVar6 == load_clan_varbit(2498))
+							iVar1 = 4
+		break
+	case 35:
+		if(iVar3 == load_clan_varbit(2500))
+			if(iVar7 == load_clan_varbit(2501))
+				if(iVar4 == load_clan_varbit(2506))
+					if(iVar5 == load_clan_varbit(2507))
+						if(iVar6 == load_clan_varbit(2508))
+							iVar1 = 4
+		break
+	case 41:
+		if(iVar3 == load_clan_varbit(2410))
+			if(iVar7 == load_clan_varbit(2411))
+				if(iVar4 == load_clan_varbit(2416))
+					if(iVar5 == load_clan_varbit(2417))
+						if(iVar6 == load_clan_varbit(2418))
+							iVar1 = 4
+		break
+	case 42:
+		if(iVar3 == load_clan_varbit(2420))
+			if(iVar7 == load_clan_varbit(2421))
+				if(iVar4 == load_clan_varbit(2426))
+					if(iVar5 == load_clan_varbit(2427))
+						if(iVar6 == load_clan_varbit(2428))
+							iVar1 = 4
+		break
+	case 43:
+		if(iVar3 == load_clan_varbit(2430))
+			if(iVar7 == load_clan_varbit(2431))
+				if(iVar4 == load_clan_varbit(2436))
+					if(iVar5 == load_clan_varbit(2437))
+						if(iVar6 == load_clan_varbit(2438))
+							iVar1 = 4
+		break
+	case 44:
+		if(iVar3 == load_clan_varbit(2440))
+			if(iVar7 == load_clan_varbit(2441))
+				if(iVar4 == load_clan_varbit(2446))
+					if(iVar5 == load_clan_varbit(2447))
+						if(iVar6 == load_clan_varbit(2448))
+							iVar1 = 4
+		break
+	case 45:
+		if(iVar3 == load_clan_varbit(2450))
+			if(iVar7 == load_clan_varbit(2451))
+				if(iVar4 == load_clan_varbit(2456))
+					if(iVar5 == load_clan_varbit(2457))
+						if(iVar6 == load_clan_varbit(2458))
+							iVar1 = 4
+		break
+	case 51:
+		if(iVar3 == load_clan_varbit(2510))
+			if(iVar7 == load_clan_varbit(2511))
+				if(iVar4 == load_clan_varbit(2516))
+					if(iVar5 == load_clan_varbit(2517))
+						if(iVar6 == load_clan_varbit(2518))
+							iVar1 = 4
+		break
+
+}
+return iVar1
+return 0

@@ -1,0 +1,3 @@
+//script4047(4047)(int arg0)(void)
+if_settext(arg0, to_string(load_varpbit(8665)))
+return

@@ -1,0 +1,46 @@
+//script161(161)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6, string arg7, string arg8, string arg9, string arg10, string arg11, string arg12, string arg13, string arg14)(void)
+if(cc_find(arg3, arg2) == 1)
+	if(invother_getitem(arg1, arg0) != -1) {
+		cc_setitem(invother_getnum(arg1, arg0), invother_getitem(arg1, arg0))
+		cc_setopbase(item_name(invother_getitem(arg1, arg0)))
+		cc_setop(arg0, 1)
+		cc_setop(arg1, 2)
+		cc_setop(arg2, 3)
+		cc_setop(arg3, 4)
+		cc_setop(arg4, 5)
+		cc_setop(arg5, 6)
+		cc_setop(arg6, 7)
+		cc_setop(arg7, 8)
+		cc_setop(arg8, 9)
+		cc_setop("Examine" + "<col=ff9040>", 10)
+		if(arg4 > 0) {
+			instr6443(5)
+			instr6075(10)
+		}
+		if(arg4 == 1)
+			instr6499(script_155, "viiIiIsssssssss", arg0, -2147483643, -2147483641, -2147483645, arg4, arg5, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+		else
+			if(arg4 == 2)
+				instr6499(script_156, "viiIiIsssssssss", arg0, -2147483643, -2147483641, -2147483645, arg4, arg5, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+		cc_setgraphicshadow(3355443)
+		cc_setoutline(1)
+	} else  {
+		cc_setitem(0, -1)
+		cc_setopbase("")
+		cc_setop("", 1)
+		cc_setop("", 2)
+		cc_setop("", 3)
+		cc_setop("", 4)
+		cc_setop("", 5)
+		cc_setop("", 6)
+		cc_setop("", 7)
+		cc_setop("", 8)
+		cc_setop("", 9)
+		cc_setop("", 10)
+		if(arg4 > 0) {
+			instr6443(0)
+			instr6075(0)
+		}
+		instr6499(None, "")
+	}
+return

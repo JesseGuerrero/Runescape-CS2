@@ -1,0 +1,64 @@
+//script3220(3220)()(void)
+int iVar0
+int iVar1
+string sVar0
+string sVar1
+iVar0 = instr6323()
+if(iVar0 == -3)
+	return
+instr6342(if_gethash(673, 26), None, "")
+iVar1 = 0
+sVar0 = "accountappeal"
+sVar1 = "passwordchoice.ws"
+if(iVar0 == 2) {
+	instr6416()
+	script_2223()
+} else 
+	switch(iVar0) {
+		case default:
+			script_3213(44105821, "Unexpected server response.")
+			break
+		case 3:
+			script_3213(44105821, "Error contacting server.")
+			break
+		case -5:
+			script_3213(44105821, "No response from server.")
+			break
+		case 7:
+			script_3213(44105821, "The server is currently very busy. Please try again shortly.")
+			break
+		case 38:
+			script_3213(44105821, "You cannot create an account at this time. Please try again later.")
+			break
+		case 20:
+			script_3213(44105821, "Email already in use. Try a different email or click " + "<u=ebe0bc>" + "here" + "</u>" + " to recover this account.")
+			break
+		case 21:
+			script_3213(44105821, "Please enter a valid Email address.")
+			break
+		case 37:
+			script_3213(44105821, "RuneScape has been updated. Please reload this page.")
+			break
+		case 30:
+			iVar1 = string_length(load_varc_string(124))
+			if(iVar1 < 5)
+				script_3213(44105811, "Passwords must be at least 5 characters long.")
+			else
+				if(iVar1 > 20)
+					script_3213(44105811, "Passwords must be no more than " + to_string(20) + " characters long.")
+				else
+					script_3213(44105811, "Please supply a valid password.")
+			break
+		case 34:
+			script_3213(44105811, "Please supply a valid password.")
+			break
+		case 31:
+			script_3213(44105811, "Passwords may only contain letters and numbers.")
+			break
+		case 33:
+			script_3213(44105811, "Your password is too easy to guess.")
+			break
+
+	}
+script_3208(0)
+return

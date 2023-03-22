@@ -1,0 +1,5 @@
+//script2774(2774)(int arg0)(void)
+sound_vorbis_volume(255, 0, 1, 10046)
+if_setcolor(arg0, 0xFFFF00)
+instr6342(arg0, script_2775, "iI", client_clock() + 15, -2147483645)
+return

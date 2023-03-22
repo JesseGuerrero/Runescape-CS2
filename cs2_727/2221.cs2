@@ -1,0 +1,19 @@
+//script2221(2221)()(void)
+switch(load_varp(1685)) {
+	case default:
+		break
+	case 0:
+		if_settext(if_gethash(931, 156), "")
+		break
+	case 1:
+		if_settext(if_gethash(931, 156), "Not enough workers.")
+		break
+	case 2:
+		if_settext(if_gethash(931, 156), "Not enough resources.")
+		break
+	case 3:
+		if_settext(if_gethash(931, 156), "Worker limit reached.")
+		break
+
+}
+return

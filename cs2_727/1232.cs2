@@ -1,0 +1,30 @@
+//script1232(1232)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+if_setsize(arg2, 0, 0, (paramheight(if_gettext(arg2), 494, if_getwidth(arg2)) * 12) + 3, if_getwidth(arg2))
+cc_deleteall(arg0)
+iVar3 = (if_getwidth(arg0) - (36 * 8)) / 7
+iVar4 = (if_getheight(arg0) - (32 * 5)) / 4
+iVar5 = 0
+while(iVar5 < inv_size(if_gethash(0, 0))) {
+	cc_create(iVar5, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, (iVar5 / 8) * (32 + iVar4), (36 + iVar3) * modulo(8, iVar5))
+	cc_sethide(0)
+	if(inv_getitem(iVar5, 0) != -1) {
+		cc_setitem(inv_getnum(iVar5, 0), inv_getitem(iVar5, 0))
+		cc_setopbase("<col=ff981f>" + item_name(inv_getitem(iVar5, 0)))
+		cc_setop("Withdraw" + "<col=ff9040>", 1)
+		cc_setop("Withdraw-All" + "<col=ff9040>", 2)
+		cc_setop("Examine" + "<col=ff9040>", 10)
+		instr6443(5)
+		instr6075(10)
+		cc_setgraphicshadow(3355443)
+		cc_setoutline(1)
+		instr6499(script_1233, "IiIiII", arg0, -2147483643, if_gethash(-32768, 6), -2147483641, arg1, arg2)
+	} else 
+		cc_setitem_nonum(0, -1)
+	iVar5 = iVar5 + 1
+}
+return

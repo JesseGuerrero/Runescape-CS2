@@ -1,0 +1,24 @@
+//script4362(4362)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, long arg12)(void)
+int iVar12
+string sVar0
+if(arg9 == 0 || arg8 == 0 || arg6 == 0) {
+	if_setgraphic(arg2, 5936)
+	return
+}
+iVar12 = enum(3689, arg6, 'i', 'g')
+sVar0 = fromdate(arg4) + " at " + enum(3695, arg5, 'i', 's')
+if(load_clan_setting_varbit(5) == 0)
+	sVar0 = sVar0 + " Game Time"
+else
+	sVar0 = sVar0 + " Clan Local Time"
+sVar0 = sVar0 + "<br>" + "<br>" + "World " + to_string(arg9) + " at " + "<br>" + enum(3696, arg8, 'i', 's') + "<br>" + "<br>" + enum(3687, arg6, 'i', 's')
+if(iVar12 != -1)
+	if(arg7 > 0)
+		sVar0 = sVar0 + "<br>" + enum(iVar12, arg7, 'i', 's')
+sVar0 = sVar0 + "<br>" + "<br>" + "Open to " + enum(3716, arg10, 'i', 's')
+if(arg11 == 1)
+	sVar0 = sVar0 + "<br>" + "Attendance is mandatory"
+instr6239(arg1, script_4363, "is§Iiiiii", arg0, sVar0, arg0, arg2, arg4, arg5, arg9, arg8, arg6)
+if_setgraphic(arg3, enum(3688, arg6, 'i', 'd'))
+if_setgraphic(arg2, 5932)
+return

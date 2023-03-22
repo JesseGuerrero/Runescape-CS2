@@ -1,0 +1,6 @@
+string script_1503(string string0, int arg1) {
+	while (length(string0) < arg1) {
+		string0 = concat("0", string0);
+	}
+	return string0;
+}

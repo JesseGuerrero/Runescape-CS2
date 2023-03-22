@@ -1,0 +1,21 @@
+void script_303(Item item0) {
+	CHILD.setSize(36, 32, 0, 0);
+	_CHILD.setSize(36, 15, 0, 0);
+	CHILD.setItem(getRealItem(item0), 1);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	CHILD.setContextMenuOption(1, "Buy-1");
+	CHILD.setContextMenuOption(2, "Buy-5");
+	CHILD.setContextMenuOption(3, "Buy-10");
+	CHILD.setContextMenuOption(4, "Buy-X");
+	CHILD.setContextMenuOption(10, "Examine");
+	CHILD.setOptionBase("<col=ff9040>" + getItemName(item0));
+	CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 50, null));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 0, null));
+	_CHILD.setFont(494);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(1, 0, 0);
+	_CHILD.setText(script_275(item0));
+	return;
+}

@@ -1,0 +1,8 @@
+//script2494(2494)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if_setitem(if_gethash(653, 26), -1, arg0)
+if_setitem(if_gethash(653, 27), -1, arg1)
+if_setitem(if_gethash(653, 28), -1, arg2)
+if_setitem(if_gethash(653, 29), -1, arg3)
+if_setitem(if_gethash(653, 30), -1, arg4)
+if_setitem(if_gethash(653, 31), -1, arg5)
+return

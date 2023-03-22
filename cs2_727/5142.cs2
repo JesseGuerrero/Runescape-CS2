@@ -1,0 +1,14 @@
+//script5142(5142)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 71828024:
+		store_varc(1570, -1)
+		break
+	case 71828012:
+		store_varc(1571, -1)
+		break
+
+}
+if_sethide(arg0, 0)
+return

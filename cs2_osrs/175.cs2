@@ -1,0 +1,78 @@
+void script_175(int arg0, int arg1) {
+	int int2;
+	int2 = script_553();
+	if (arg0 == 1) {
+		if (getDisplayMode() == 2 && VARC[41] == arg1) {
+			VARC[41] = -1;
+		} else {
+			VARC[41] = arg1;
+		}
+		script_923();
+		script_183(arg1, 0);
+		script_178();
+		script_84(int2);
+		script_89(int2);
+	} else if (arg0 == 2) {
+		if (arg1 == 2) {
+			script_184(arg1, 4);
+			script_178();
+			script_84(int2);
+			script_89(int2);
+		} else if (arg1 == 1) {
+			if (VARPBIT[26] == 0) {
+				VARPBIT[26] = 1;
+			} else {
+				VARPBIT[26] = 0;
+			}
+			script_178();
+			script_84(int2);
+			script_89(int2);
+		}
+	} else if (arg0 == 3) {
+		if (arg1 == 1) {
+			return;
+		}
+		script_184(arg1, 0);
+		script_178();
+		script_84(int2);
+		script_89(int2);
+	} else if (arg0 == 4) {
+		script_184(arg1, 1);
+		script_178();
+		script_84(int2);
+		script_89(int2);
+	} else if (arg0 == 5) {
+		script_184(arg1, 2);
+		script_178();
+		script_84(int2);
+		script_89(int2);
+	} else if (arg1 == 2) {
+		if (arg0 == 6) {
+			script_184(arg1, 3);
+			script_178();
+			script_84(int2);
+			script_89(int2);
+		} else if (arg0 == 8) {
+			script_548();
+		} else if (arg0 == 9) {
+			script_550();
+		} else if (arg0 == 10) {
+			if (length(STRING[28]) > 0) {
+				if (VARC[62] == 1) {
+					VARC[62] = 0;
+				} else {
+					VARC[62] = 1;
+				}
+				script_95();
+			} else {
+				VARC[62] = 0;
+				script_95();
+			}
+		}
+	} else if (arg1 == 3 && arg0 == 6) {
+		VARC[175] = getClientCycle();
+		script_84(int2);
+		script_89(int2);
+	}
+	return;
+}

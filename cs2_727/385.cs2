@@ -1,0 +1,75 @@
+//script385(385)(int arg0)(void)
+if(arg0 == load_varc(543))
+	if(arg0 != -1)
+		return
+store_varc(543, arg0)
+switch(arg0) {
+	case default:
+		break
+	case 1112:
+		if_opensubclient(1033, 67371066)
+		break
+	case 1118:
+		if_opensubclient(1043, 67371066)
+		break
+	case 1120:
+		if_opensubclient(1032, 67371066)
+		break
+	case 1127:
+		if_opensubclient(1038, 67371066)
+		break
+	case 1125:
+		if_opensubclient(1034, 67371066)
+		break
+	case 1122:
+		if_opensubclient(1036, 67371066)
+		break
+	case 1128:
+		if_opensubclient(1044, 67371066)
+		break
+	case 1129:
+		if_opensubclient(1042, 67371066)
+		break
+	case 1119:
+		if_opensubclient(1041, 67371066)
+		break
+	case 1114:
+		if_opensubclient(1029, 67371066)
+		break
+	case 1124:
+		if_opensubclient(1030, 67371066)
+		break
+	case 1121:
+		if_opensubclient(1031, 67371066)
+		break
+	case 1115:
+		if_opensubclient(1046, 67371066)
+		break
+	case 1130:
+		if_opensubclient(1047, 67371066)
+		break
+	case 1116:
+		if_opensubclient(1045, 67371066)
+		break
+	case 1126:
+		if_opensubclient(1049, 67371066)
+		break
+	case 1131:
+		if_opensubclient(1035, 67371066)
+		break
+	case 1117:
+		if_opensubclient(1039, 67371066)
+		break
+	case 1113:
+		if_opensubclient(1048, 67371066)
+		break
+	case 1123:
+		if_opensubclient(1037, 67371066)
+		if_opensubclient(1033, 67371066)
+		break
+	case -1:
+		if_closesubclient(67371066)
+		break
+
+}
+return

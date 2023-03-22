@@ -1,0 +1,69 @@
+void script_1216(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, int arg24, int arg25, int arg26, int arg27) {
+	int int28;
+	VARC[81] = arg0;
+	VARC[82] = arg1;
+	VARC[83] = arg2;
+	VARC[84] = arg3;
+	VARC[85] = arg4;
+	VARC[86] = arg5;
+	VARC[87] = arg6;
+	VARC[88] = arg7;
+	VARC[89] = arg8;
+	VARC[90] = arg9;
+	VARC[91] = arg10;
+	VARC[92] = arg11;
+	VARC[93] = arg12;
+	VARC[94] = arg13;
+	VARC[95] = arg14;
+	VARC[96] = arg15;
+	VARC[97] = arg16;
+	VARC[98] = arg17;
+	VARC[99] = arg18;
+	VARC[100] = arg19;
+	VARC[101] = arg20;
+	VARC[102] = arg21;
+	VARC[104] = arg22;
+	VARC[105] = arg23;
+	VARC[106] = arg24;
+	VARC[107] = arg25;
+	VARC[108] = arg26;
+	VARC[109] = arg27;
+	int28 = getItemContainerLength(90);
+	ARRAY0 = new int[int28];
+	ARRAY0[0] = arg0;
+	ARRAY0[1] = arg1;
+	ARRAY0[2] = arg2;
+	ARRAY0[3] = arg3;
+	ARRAY0[4] = arg4;
+	ARRAY0[5] = arg5;
+	ARRAY0[6] = arg6;
+	ARRAY0[7] = arg7;
+	ARRAY0[8] = arg8;
+	ARRAY0[9] = arg9;
+	ARRAY0[10] = arg10;
+	ARRAY0[11] = arg11;
+	ARRAY0[12] = arg12;
+	ARRAY0[13] = arg13;
+	ARRAY0[14] = arg14;
+	ARRAY0[15] = arg15;
+	ARRAY0[16] = arg16;
+	ARRAY0[17] = arg17;
+	ARRAY0[18] = arg18;
+	ARRAY0[19] = arg19;
+	ARRAY0[20] = arg20;
+	ARRAY0[21] = arg21;
+	ARRAY0[22] = arg22;
+	ARRAY0[23] = arg23;
+	ARRAY0[24] = arg24;
+	ARRAY0[25] = arg25;
+	ARRAY0[26] = arg26;
+	ARRAY0[27] = arg27;
+	while (int28 > 0) {
+		int28 = int28 - 1;
+		if (CHILD.setChild(widget(335, 25), int28) == true) {
+			script_1234(getItemAmtInSlot(90, int28), ARRAY0[int28], 21954592);
+		}
+	}
+	script_41(widget(335, 32));
+	return;
+}

@@ -1,0 +1,4 @@
+//script4302(4302)()(void)
+if(activeclansettings_find_affined() == 1)
+	script_4318()
+return

@@ -1,0 +1,12 @@
+//script4309(4309)()(int)
+if(load_varc(1500) != -1)
+	if(load_varc(1501) != -1)
+		if(load_varpbit(9591) != -1)
+			if(load_varpbit(9593) != -1)
+				if(load_varpbit(9592) != -1)
+					if(load_varpbit(9594) != -1)
+						if(load_varc(1568) != -1)
+							if(compare("", load_varc_string(347)) != 0)
+								return 1
+return 0
+return 0

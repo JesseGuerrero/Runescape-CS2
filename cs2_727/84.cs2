@@ -1,0 +1,339 @@
+//script84(84)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+iVar0 = -1
+iVar1 = -1
+iVar2 = 0
+iVar3 = 1
+iVar4 = 1
+if(load_varc(41) == 3)
+	iVar2 = 1
+cc_deleteall(if_gethash(137, 57))
+iVar5 = -1
+iVar6 = script_4467()
+iVar7 = -1
+iVar8 = script_1891()
+store_varc(132, -1)
+sVar0 = "<col=0000ff>"
+sVar1 = "<col=800000>"
+sVar2 = "<col=800080>"
+sVar3 = "<col=00ff00>"
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+sVar4 = "<col=000000>"
+iVar13 = 0
+if(instr6644() >= 2) {
+	sVar0 = "<col=7fa9ff>"
+	sVar1 = "<col=ff5256>"
+	sVar2 = "<col=ff78d9>"
+	sVar3 = "<col=96ff7d>"
+	iVar12 = 16777215
+	sVar4 = "<col=ffffff>"
+	iVar13 = 1
+	iVar10 = enum(3724, load_varpbit(3612), 'i', 'i')
+	iVar9 = enum(3723, load_varpbit(9188), 'i', 'i')
+	iVar11 = enum(3726, load_varpbit(9191), 'i', 'i')
+} else  {
+	iVar10 = enum(3724, load_varpbit(3612), 'i', 'i')
+	iVar9 = enum(3723, load_varpbit(9188), 'i', 'i')
+	iVar11 = enum(3726, load_varpbit(9191), 'i', 'i')
+}
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 2
+iVar21 = 2
+if_setnoclickthrough(48889878, script_734(load_varc(1701)))
+if_setnoclickthrough(35913896, script_734(load_varc(1701)))
+while(iVar18 < 100) {
+	if(script_193(iVar18) == 1)
+		if(script_90(iVar18, iVar2) == 1) {
+			cc_create(iVar14, 4, 8978489)
+			iVar15 = iVar14
+			iVar16 = 1
+			iVar14 = iVar14 + 1
+			iVar17 = chatline_gettype(iVar18)
+			cc_setcolor(0)
+			cc_settextfont(495)
+			cc_settextalign(14, 0, 0)
+			cc_settextshadow(iVar13)
+			cc_setposition(2, 0, iVar21, 3)
+			switch(iVar17) {
+				case default:
+					break
+				case 120:
+					cc_settext(chat_getmessage(iVar18))
+					if(iVar3 == 1)
+						if(iVar17 == 0 || iVar17 == 4 || iVar17 == 27 || iVar17 == 28 || iVar17 == 29 || iVar17 == 26 || iVar17 == 30 || iVar17 == 31) {
+							store_varc(1269, chatline_getcycles20ms(iVar18))
+							iVar3 = 0
+						}
+					break
+				case 2:
+					cc_settext(chat_getcrownedname(iVar18) + ": " + sVar0 + chat_getmessage(iVar18))
+					break
+				case 3:
+					cc_settext("From " + chat_getcrownedname(iVar18) + ": " + sVar1 + chat_getmessage(iVar18))
+					break
+				case 100:
+					cc_settext(sVar2 + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 5:
+					cc_settext(sVar1 + chat_getmessage(iVar18))
+					break
+				case 6:
+					cc_settext("To " + chat_getcrownedname(iVar18) + ": " + sVar1 + chat_getmessage(iVar18))
+					break
+				case 7:
+					cc_settext("From " + chat_getcrownedname(iVar18) + ": " + sVar1 + chat_getmessage(iVar18))
+					break
+				case 101:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 41:
+					cc_setcolor(0)
+					cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + ": " + "</col>" + chat_getmessage(iVar18))
+					break
+				case 9:
+					cc_setcolor(0)
+					cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + ": " + "</col>" + chat_getmessage(iVar18))
+					break
+				case 44:
+					cc_setcolor(0)
+					cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + ": " + "</col>" + chat_getmessage(iVar18))
+					break
+				case 117:
+					cc_settext("<col=7e3200>" + chat_getmessage(iVar18))
+					break
+				case 102:
+					cc_settext("<col=8a2be2>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 105:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 106:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 107:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 118:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 17:
+					if(compare(removetags(chat_getcrownedname(iVar18)), removetags(chat_playername())) != 0)
+						if(instr6584(chat_quickchatid(iVar18)) > 0)
+							cc_settext(chat_getcrownedname(iVar18) + "<img=3>" + ": " + sVar0 + chat_getmessage(iVar18))
+						else
+							cc_settext(chat_getcrownedname(iVar18) + ": " + sVar0 + chat_getmessage(iVar18))
+					break
+				case 18:
+					if(compare(removetags(chat_getcrownedname(iVar18)), removetags(chat_playername())) != 0)
+						if(instr6584(chat_quickchatid(iVar18)) > 0)
+							cc_settext("From " + chat_getcrownedname(iVar18) + "<img=3>" + ": " + sVar1 + chat_getmessage(iVar18))
+						else
+							cc_settext("From " + chat_getcrownedname(iVar18) + ": " + sVar1 + chat_getmessage(iVar18))
+					break
+				case 19:
+					cc_settext("To " + chat_getcrownedname(iVar18) + ": " + sVar1 + chat_getmessage(iVar18))
+					break
+				case 42:
+					cc_setcolor(0)
+					if(compare(removetags(chat_getcrownedname(iVar18)), removetags(chat_playername())) != 0)
+						if(instr6584(chat_quickchatid(iVar18)) > 0)
+							cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + "<img=3>" + ": " + "</col>" + chat_getmessage(iVar18))
+						else
+							cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + ": " + "</col>" + chat_getmessage(iVar18))
+					break
+				case 45:
+					cc_setcolor(0)
+					if(compare(removetags(chat_getcrownedname(iVar18)), removetags(chat_playername())) != 0)
+						if(instr6584(chat_quickchatid(iVar18)) > 0)
+							cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + "<img=3>" + ": " + "</col>" + chat_getmessage(iVar18))
+						else
+							cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + ": " + "</col>" + chat_getmessage(iVar18))
+					break
+				case 20:
+					cc_setcolor(0)
+					if(compare(removetags(chat_getcrownedname(iVar18)), removetags(chat_playername())) != 0)
+						if(instr6584(chat_quickchatid(iVar18)) > 0)
+							cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + "<img=3>" + ": " + "</col>" + chat_getmessage(iVar18))
+						else
+							cc_settext(sVar4 + "[" + "</col>" + sVar0 + chat_getclan(iVar18) + "</col>" + sVar4 + "] " + chat_getcrownedname(iVar18) + ": " + "</col>" + chat_getmessage(iVar18))
+					break
+				case 108:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 112:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 114:
+					cc_settext("<col=7e3200>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 115:
+					cc_settext("<col=7f0000>" + chat_getcrownedname(iVar18) + " " + chat_getmessage(iVar18))
+					break
+				case 116:
+					cc_settext(chat_getmessage(iVar18))
+					break
+
+			}
+			cc_resetopname()
+			instr6687(script_86, "isi", -2147483644, instr6573(iVar18), iVar18)
+			cc_setopbase("<col=ffffff>" + removetags(chat_getcrownedname(iVar18)))
+			switch(iVar17) {
+				case default:
+					break
+				case 6:
+					if(compare(removetags(chat_getcrownedname(iVar18)), removetags(chat_playername())) == 0 || compare(removetags(chat_getcrownedname(iVar18)), removetags(instr6574())) == 0)
+					else {
+						if(friend_test(instr6573(iVar18)) == 1)
+							if(world_isquickchat() == 0)
+								if(userdetail_quickchat() == 0)
+									cc_setop("Message", 6)
+						else {
+							cc_setop("Add friend", 6)
+							cc_setop("Add ignore", 7)
+						}
+						if(load_varpbit(9982) == 1)
+							cc_setop("Report", 8)
+						if(iVar17 == 41)
+							if(iVar6 == 1)
+								cc_setop("Kick/ban", 10)
+						if(iVar17 == 9)
+							if(iVar8 == 1)
+								cc_setop("Kick/ban", 10)
+					}
+					break
+				case 100:
+					cc_setop("Accept trade", 1)
+					break
+				case 118:
+					cc_setop("Accept challenge", 2)
+					break
+				case 102:
+					cc_setop("Give assistance", 3)
+					break
+				case 111:
+					cc_setop("Open invitation", 4)
+					break
+				case 112:
+					cc_setop("Vote", 3)
+					break
+				case 20:
+					if(compare(removetags(chat_getcrownedname(iVar18)), removetags(chat_playername())) == 0 || compare(removetags(chat_getcrownedname(iVar18)), removetags(instr6574())) == 0)
+					else {
+						if(friend_test(instr6573(iVar18)) == 1)
+							if(world_isquickchat() == 0)
+								if(userdetail_quickchat() == 0)
+									cc_setop("Message", 6)
+						else {
+							cc_setop("Add friend", 6)
+							cc_setop("Add ignore", 7)
+						}
+						if(iVar17 == 42)
+							if(iVar6 == 1)
+								cc_setop("Kick/ban", 10)
+						if(iVar17 == 20)
+							if(iVar8 == 1)
+								cc_setop("Kick/ban", 10)
+						if(instr6584(chat_quickchatid(iVar18)) > 0)
+							if(load_varc(132) == -1) {
+								store_varc(132, chat_quickchatid(iVar18))
+								store_varc_string(29, chat_getcrownedname(iVar18))
+								if(iVar17 == 20) {
+									store_varc(133, 6)
+									cc_setop("Quick Response", 9)
+								}
+								if(iVar17 == 42) {
+									store_varc(133, 9)
+									cc_setop("Quick Response", 9)
+								}
+								if(iVar17 == 45) {
+									store_varc(133, 11)
+									cc_setop("Quick Response", 9)
+								} else 
+									if(iVar17 == 18) {
+										store_varc(133, 5)
+										if(friend_test(instr6573(iVar18)) == 1)
+											cc_setop("Quick Response", 9)
+									} else  {
+										store_varc(133, 4)
+										cc_setop("Quick Response", 9)
+									}
+							} else 
+								cc_setop("Quick Response", 9)
+					}
+					break
+				case 108:
+					cc_setop("Accept alliance", 10)
+					break
+				case 117:
+					cc_setop("View invite from", 5)
+					break
+
+			}
+		} else 
+			iVar16 = 0
+	if(iVar4 == 1)
+		switch(chatline_gettype(iVar18)) {
+			case default:
+				break
+			case 18:
+				store_varc_string(276, removetags(instr6573(iVar18)))
+				iVar4 = 0
+				break
+
+		}
+	if(cc_find(iVar15, if_gethash(137, 57)) == 1)
+		if(iVar16 == 1) {
+			iVar19 = max(1, paramheight(cc_gettext(), instr6148(), 484))
+			cc_setsize(0, 0, 14 * iVar19, max(1, min(484, parawidth(cc_gettext(), instr6148(), 484))))
+			iVar20 = iVar20 + cc_getheight()
+			iVar21 = iVar21 + cc_getheight()
+		}
+	iVar18 = iVar18 + 1
+}
+iVar20 = max(if_getheight(if_gethash(137, 57)), iVar20)
+if_setscrollsize(8978489, iVar20, 463)
+if(instr6644() >= 2)
+	script_5509(8978490, 8978489, (load_varc(7) + if_getscrollheight(8978489)) - load_varc(8))
+else
+	script_72(8978490, 8978489, (load_varc(7) + if_getscrollheight(8978489)) - load_varc(8))
+store_varc(7, if_getscrolly(8978489))
+store_varc(8, if_getscrollheight(8978489))
+if_setnoclickthrough(48889878, 1)
+if(instr6644() >= 2)
+	if(load_varc(1701) == 1)
+		if_setnoclickthrough(48889878, 0)
+return

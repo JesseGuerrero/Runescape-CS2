@@ -1,0 +1,6 @@
+//script5150(5150)(int arg0)(void)
+string sVar0
+sVar0 = "It would be advisable to retrieve items you have dropped and do not wish to lose."
+if(instr6004(arg0) == 1)
+	cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(800, 1), -2147483645, -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+return

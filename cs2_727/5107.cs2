@@ -1,0 +1,27 @@
+//script5107(5107)(int arg0)(void)
+if_sethide(if_gethash(1116, 115), 1)
+if_sethide(if_gethash(1116, 122), 1)
+if_sethide(if_gethash(1116, 108), 1)
+if_sethide(if_gethash(1116, 101), 1)
+if_sethide(if_gethash(1116, 94), 1)
+switch(arg0) {
+	case default:
+		break
+	case -2:
+		if_sethide(if_gethash(1116, 115), 0)
+		break
+	case -1:
+		if_sethide(if_gethash(1116, 122), 0)
+		break
+	case 0:
+		if_sethide(if_gethash(1116, 108), 0)
+		break
+	case 1:
+		if_sethide(if_gethash(1116, 101), 0)
+		break
+	case 2:
+		if_sethide(if_gethash(1116, 94), 0)
+		break
+
+}
+return

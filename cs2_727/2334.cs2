@@ -1,0 +1,8 @@
+//script2334(2334)(int arg0)(void)
+if_settext(if_gethash(137, 124), enum(950, arg0, 'i', 's'))
+if_setvflip(if_gethash(137, 130), 0)
+if_sethide(if_gethash(137, 77), 1)
+if_sethide(if_gethash(137, 78), 1)
+if_sethide(if_gethash(137, 76), 1)
+if_sethide(if_gethash(137, 68), 1)
+return

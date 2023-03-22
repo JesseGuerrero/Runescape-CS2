@@ -1,0 +1,5 @@
+void script_969(Widget widget0, string arg1) {
+	widget0.hookMouseHover(&script_38(widget0, widget(481, 76), arg1, 50, 300));
+	widget0.hookMouseExit(&script_40(widget(481, 76)));
+	return;
+}

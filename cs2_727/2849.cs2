@@ -1,0 +1,34 @@
+//script2849(2849)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varpbit(7060)
+
+	case 1:
+		return load_varpbit(7061)
+
+	case 2:
+		return load_varpbit(7062)
+
+	case 3:
+		return load_varpbit(7063)
+
+	case 4:
+		return load_varpbit(7064)
+
+	case 5:
+		return load_varpbit(7065)
+
+	case 6:
+		return load_varpbit(7066)
+
+	case 7:
+		return load_varpbit(7067)
+
+	case 8:
+		return load_varpbit(7068)
+
+
+}
+return 0

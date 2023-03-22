@@ -1,0 +1,8 @@
+//script4197(4197)(int arg0)(void)
+if_sethide(if_gethash(891, 76), 1)
+if_sethide(if_gethash(891, 65), 0)
+if_setgraphic(arg0, 5412)
+if_settext(if_gethash(891, 75), "You are here.")
+if_settext(if_gethash(891, 77), "")
+if_settext(if_gethash(891, 78), "")
+return

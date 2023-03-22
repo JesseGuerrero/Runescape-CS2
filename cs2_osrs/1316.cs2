@@ -1,0 +1,16 @@
+void script_1316(Widget widget0, int arg1) {
+	if (arg1 <= 17) {
+		CHILD.setTrans(255 - arg1 * 15);
+		return;
+	}
+	if (arg1 <= 50) {
+		return;
+	}
+	if (arg1 <= 67) {
+		arg1 = arg1 - 50;
+		CHILD.setTrans(arg1 * 15);
+		return;
+	}
+	widget0.clearChildren();
+	return;
+}

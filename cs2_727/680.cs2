@@ -1,0 +1,24 @@
+//script680(680)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+cc_deleteall(arg0)
+iVar1 = if_getwidth(arg0)
+iVar2 = if_getheight(arg0)
+iVar3 = iVar1 - 9
+iVar4 = iVar2 - 9
+iVar5 = iVar1 - 18
+iVar6 = iVar2 - 18
+script_98(arg0, 0, 297, 0, 0, iVar1, iVar2)
+script_98(arg0, 1, 913, 0, 0, 9, 9)
+script_98(arg0, 2, 914, iVar3, 0, 9, 9)
+script_98(arg0, 3, 915, 0, iVar4, 9, 9)
+script_98(arg0, 4, 916, iVar3, iVar4, 9, 9)
+script_98(arg0, 5, 917, 0, 9, 9, iVar6)
+script_98(arg0, 6, 918, 9, 0, iVar5, 9)
+script_98(arg0, 7, 919, iVar3, 9, 9, iVar6)
+script_98(arg0, 8, 920, 9, iVar4, iVar5, 9)
+return

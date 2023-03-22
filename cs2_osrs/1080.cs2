@@ -1,0 +1,16 @@
+void script_1080(string string0) {
+	widget(165, 27).clearChildren();
+	if (length(string0) <= 0) {
+		return;
+	}
+	CHILD.createChild(widget(165, 27), 3, 0);
+	CHILD.setSize(widget(50, 3).getWidth(), widget(50, 3).getHeight(), 0, 0);
+	CHILD.setPosition(widget(50, 3).getX(), widget(50, 3).getY(), 0, 0);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setTrans(255);
+	CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 220, null));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 255, null));
+	CHILD.hookMousePress(&script_1081(string0, true));
+	return;
+}

@@ -1,0 +1,20 @@
+//script1378(1378)(int arg0, int arg1)(void)
+string sVar0
+string sVar1
+sVar0 = if_gettext(arg0)
+sVar1 = ""
+if(string_length(sVar0) > 0) {
+	switch(arg1) {
+		case default:
+			return
+
+		case 66650337:
+			sVar1 = if_gettext(arg1)
+			break
+
+	}
+	if_settext(arg1, sVar0)
+	if_settext(arg0, sVar1)
+	store_varc(1387, 1)
+}
+return

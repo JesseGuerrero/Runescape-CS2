@@ -1,0 +1,12 @@
+//script5576(5576)()(void)
+if_settext(if_gethash(1181, 60), tostring_localized(1, load_varpbit(10300)))
+if_settext(if_gethash(1181, 166), "Select an item to buy.")
+if_settext(if_gethash(1181, 6), "Select an item to buy.")
+if_setitem(if_gethash(1181, 225), 1, 22959)
+if_setitem(if_gethash(1181, 4), 1, 22958)
+if_setitem(if_gethash(1181, 3), 1, 22960)
+if_setitem(if_gethash(1181, 2), 1, 22961)
+if_setitem(if_gethash(1181, 1), 1, 22962)
+instr6879(if_gethash(1181, 0), 1, 5558)
+script_31(77398061, 77398046, 5666, 5663, 5664, 5665, 5686, 5685)
+return

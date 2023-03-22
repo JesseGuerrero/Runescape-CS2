@@ -1,0 +1,71 @@
+//script2160(2160)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar1 = enum(169, arg0, 'i', 'J')
+if(iVar1 == -1)
+	return
+iVar2 = struct_param(61, iVar1)
+if(iVar2 == -1)
+	return
+iVar3 = struct_param(152, iVar1)
+iVar4 = struct_param(153, iVar1)
+cc_deleteall(iVar3)
+iVar5 = 0
+iVar6 = 0
+iVar7 = -1
+iVar8 = -1
+iVar9 = 0
+if(world_members() == 1)
+	store_varc(693, load_varpbit(4536))
+else
+	store_varc(693, 0)
+store_varc(694, load_varpbit(4538))
+store_varc(1103, load_varpbit(7264))
+store_varc(692, load_varpbit(4537))
+store_varc(272, enum_getoutputcount(iVar2))
+while(iVar6 < load_varc(272)) {
+	iVar7 = enum(iVar2, iVar5, 'i', 'J')
+	cc_create(iVar5, 4, iVar3)
+	if(iVar7 != -1) {
+		iVar6 = iVar6 + 1
+		iVar9 = script_2193(iVar5)
+		cc_setposition(0, 0, 0, 0)
+		cc_setsize(0, 1, 15, 0)
+		cc_setcolor(222222)
+		cc_settextfont(494)
+		cc_settextalign(0, 0, 0)
+		cc_settextshadow(1)
+		cc_settext(struct_param(845, iVar7))
+		if(iVar8 == -1)
+			if(iVar7 == 510)
+				if(arg0 == 1)
+					iVar8 = instr6151()
+	} else 
+		cc_sethide(1)
+	iVar5 = iVar5 + 1
+}
+store_varc(273, iVar5 - 1)
+while(iVar5 < load_varc(273) + 10) {
+	cc_create(iVar5, 4, iVar3)
+	cc_settextfont(496)
+	cc_setsize(0, 1, 30, 0)
+	cc_setsize(0, 1, 20, 0)
+	cc_settextalign(0, 1, 0)
+	cc_settext("")
+	cc_setcolor(ff9900)
+	cc_sethide(1)
+	cc_settextshadow(1)
+	iVar5 = iVar5 + 1
+}
+script_2162(arg0, load_varc(693), load_varc(694), load_varc(692), load_varc(1103))
+script_31(iVar4, iVar3, 5666, 5663, 5664, 5665, 5686, 5685)
+if(iVar8 != -1)
+	script_214(iVar3, iVar8)
+return

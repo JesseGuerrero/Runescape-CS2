@@ -1,0 +1,16 @@
+//script2214(2214)()(void)
+if(load_varc(1137) == 1) {
+	if(if_getx(load_varc(1136)) < 256)
+		if_setposition(load_varc(1136), 0, 0, if_gety(load_varc(1136)), 1 + if_getx(load_varc(1136)))
+	if(if_getx(load_varc(1136)) > 256)
+		if_setposition(load_varc(1136), 0, 0, if_gety(load_varc(1136)), if_getx(load_varc(1136)) - 1)
+	if(if_gety(if_gethash(932, 14)) > 70) {
+		if_setposition(load_varc(1136), 0, 0, if_gety(load_varc(1136)) - 2, if_getx(load_varc(1136)))
+		if_setposition(if_gethash(932, 14), 0, 0, if_gety(if_gethash(932, 14)) - 2, if_getx(if_gethash(932, 14)))
+		instr6342(if_gethash(932, 1), script_2214, "")
+	} else  {
+		if_sethide(load_varc(1136), 1)
+		instr6342(if_gethash(932, 1), script_2215, "")
+	}
+}
+return

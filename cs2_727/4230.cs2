@@ -1,0 +1,56 @@
+//script4230(4230)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg0 < 1) {
+	if_setmodel(if_gethash(495, 2), 20542)
+	if_setmodel(if_gethash(495, 15), 20542)
+	if_setmodel(if_gethash(495, 28), 20542)
+	if_setmodel(if_gethash(495, 41), 20542)
+} else  {
+	if_setmodel(if_gethash(495, 2), 20544)
+	if_setmodel(if_gethash(495, 15), 20544)
+	if_setmodel(if_gethash(495, 28), 20544)
+	if_setmodel(if_gethash(495, 41), 20544)
+}
+if(arg1 < 1) {
+	if_setmodel(if_gethash(495, 3), 20542)
+	if_setmodel(if_gethash(495, 16), 20542)
+	if_setmodel(if_gethash(495, 29), 20542)
+	if_setmodel(if_gethash(495, 42), 20542)
+} else  {
+	if_setmodel(if_gethash(495, 3), 20545)
+	if_setmodel(if_gethash(495, 16), 20545)
+	if_setmodel(if_gethash(495, 29), 20545)
+	if_setmodel(if_gethash(495, 42), 20545)
+}
+if(arg2 < 1) {
+	if_setmodel(if_gethash(495, 4), 20542)
+	if_setmodel(if_gethash(495, 17), 20542)
+	if_setmodel(if_gethash(495, 30), 20542)
+	if_setmodel(if_gethash(495, 43), 20542)
+} else  {
+	if_setmodel(if_gethash(495, 4), 20543)
+	if_setmodel(if_gethash(495, 17), 20543)
+	if_setmodel(if_gethash(495, 30), 20543)
+	if_setmodel(if_gethash(495, 43), 20543)
+}
+if(arg4 != 10)
+	if_setmodel(if_gethash(495, 53), 20542)
+else
+	if(arg3 < 1)
+		if_setmodel(if_gethash(495, 53), 20542)
+if_settext(if_gethash(495, 57), to_string(arg0))
+if_settext(if_gethash(495, 60), to_string(arg0))
+if_settext(if_gethash(495, 63), to_string(arg0))
+if_settext(if_gethash(495, 66), to_string(arg0))
+if_settext(if_gethash(495, 58), to_string(arg1))
+if_settext(if_gethash(495, 61), to_string(arg1))
+if_settext(if_gethash(495, 64), to_string(arg1))
+if_settext(if_gethash(495, 67), to_string(arg1))
+if_settext(if_gethash(495, 59), to_string(arg2))
+if_settext(if_gethash(495, 62), to_string(arg2))
+if_settext(if_gethash(495, 65), to_string(arg2))
+if_settext(if_gethash(495, 68), to_string(arg2))
+if(arg4 != 10)
+	if_settext(if_gethash(495, 69), "0")
+else
+	if_settext(if_gethash(495, 69), to_string(arg3))
+return

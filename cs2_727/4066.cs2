@@ -1,0 +1,12 @@
+//script4066(4066)()(void)
+if_setgraphic(if_gethash(1058, 19), 4459)
+if_setgraphic(if_gethash(1058, 17), 4460)
+if_setgraphic(if_gethash(1058, 15), 4461)
+if_setgraphic(if_gethash(1058, 13), 4462)
+if_setgraphic(if_gethash(1058, 11), 4463)
+if_setposition(if_gethash(1058, 22), 0, 1, 18, -160)
+if_setposition(if_gethash(1058, 23), 0, 1, 18, -80)
+if_setposition(if_gethash(1058, 24), 0, 1, 18, 0)
+if_setposition(if_gethash(1058, 26), 0, 1, 18, 80)
+if_setposition(if_gethash(1058, 25), 0, 1, 18, 160)
+return

@@ -1,0 +1,5 @@
+//script405(405)(int arg0)(void)
+if_settrans(arg0, 255)
+instr6342(arg0, script_406, "I", -2147483645)
+if_settext(arg0, "Conquest Ranking: " + to_string(load_varp(1875)))
+return

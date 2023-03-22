@@ -1,0 +1,6 @@
+void script_951() {
+	widget(174, 1).setRGB(0x000000);
+	widget(174, 1).setTrans(255);
+	widget(174, 0).hookFrame(&script_952(getClientCycle()));
+	return;
+}

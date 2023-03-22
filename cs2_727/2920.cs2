@@ -1,0 +1,38 @@
+//script2920(2920)(int arg0, int arg1, string arg2)(void)
+if_opensubclient(914, 59375711)
+script_3181()
+if(string_length(arg0) > 0)
+	store_varc_string(277, removetags(arg0))
+else
+	store_varc_string(277, "")
+if_settext(if_gethash(914, 27), load_varc_string(277))
+if(if_gethide(enum(941, 5, 'i', 'I')) == 0)
+	script_3161(0)
+instr6248(if_gethash(914, 27), script_3185, "izI", -2147483640, -2147483639, -2147483645)
+instr6239(if_gethash(914, 16), script_3182, "")
+store_varc(1097, string_length(load_varc_string(277)))
+hook_mouse_press(if_gethash(914, 27), script_1878, "iII", -2147483647, if_gethash(914, 27), if_gethash(914, 28))
+script_1879(59899931, 59899932, load_varc_string(277))
+if_sethide(if_gethash(914, 28), 1)
+if(arg0 == 1) {
+	if(load_varc(6) == 0)
+		if_setgraphic(if_gethash(914, 23), 4084)
+	else
+		if_setgraphic(if_gethash(914, 23), 4086)
+	if(arg1 == 5 || arg1 == 6)
+		if_settext(if_gethash(914, 22), "Suggest to mute this player for 48 hours")
+	else
+		if_settext(if_gethash(914, 22), "Mute this player for 48 hours")
+	if_setsize(if_gethash(914, 21), 0, 0, if_getheight(if_gethash(914, 21)), stringwidth(3793, if_gettext(if_gethash(914, 22))) + 18)
+	if_setposition(if_gethash(914, 14), 0, 0, 32, 16)
+	if_setposition(if_gethash(914, 15), 0, 0, 62, 21)
+	if_setposition(if_gethash(914, 16), 0, 0, 60, 299)
+	if_sethide(if_gethash(914, 21), 0)
+} else  {
+	if_setposition(if_gethash(914, 14), 0, 0, 42, 16)
+	if_setposition(if_gethash(914, 15), 0, 0, 82, 21)
+	if_setposition(if_gethash(914, 16), 0, 0, 80, 299)
+	if_sethide(if_gethash(914, 21), 1)
+}
+if_sethide(if_gethash(906, 60), 0)
+return

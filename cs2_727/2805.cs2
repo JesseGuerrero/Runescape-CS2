@@ -1,0 +1,9 @@
+//script2805(2805)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+iVar5 = if_gettrans(arg0)
+iVar6 = min(arg4, max(arg3, iVar5 + arg1))
+if(iVar6 == arg3 || iVar6 == arg4)
+	instr6342(arg0, script_2805, "Iiiii", arg0, arg2, arg1, arg3, arg4)
+if_settrans(arg0, iVar6)
+return

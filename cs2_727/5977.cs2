@@ -1,0 +1,38 @@
+//script5977(5977)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 1
+iVar1 = 0
+iVar2 = -1
+iVar3 = -1
+switch(load_varpbit(9552)) {
+	case default:
+		break
+	case 0:
+		iVar3 = 82509826
+		break
+	case 4:
+		iVar3 = 82640899
+		break
+	case 5:
+		iVar3 = 82444290
+		return
+
+
+}
+if(clan_vars_enabled() == 1) {
+	if(load_varc(1794) < 0)
+		store_varc(1794, 0)
+	if(load_varc(1794) == 0)
+		iVar1 = load_clan_varbit(2598)
+	else
+		iVar1 = load_clan_varbit(2074)
+	iVar0 = load_clan_varbit(2580)
+	iVar2 = script_4904(1, iVar1, iVar0)
+	if(iVar2 == -1)
+		return
+	if_setgraphic(iVar3, iVar2)
+}
+return

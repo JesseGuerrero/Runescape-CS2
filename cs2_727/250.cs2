@@ -1,0 +1,4 @@
+//script250(250)(int arg0)(void)
+if(modulo(5, client_clock()) == 0)
+	script_251(arg0)
+return

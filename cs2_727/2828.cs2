@@ -1,0 +1,7 @@
+//script2828(2828)()(void)
+if(load_varp(2523) < 1)
+	return
+if(compare("#", substring(instr6574(), 1, 0)) == 0)
+	return
+script_5861(load_varp(2523))
+return

@@ -1,0 +1,6 @@
+//script3163(3163)()(void)
+if(fc_getchatcount() > 0)
+	fc_leavechat()
+else
+	script_3015(8, "Join Chat Channel", "", "", "")
+return

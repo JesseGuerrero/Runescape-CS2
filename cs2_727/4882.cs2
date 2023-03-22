@@ -1,0 +1,3 @@
+//script4882(4882)(int arg0, int arg1, string arg2)(void)
+script_4883(arg0, arg1, arg0)
+return

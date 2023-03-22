@@ -1,0 +1,14 @@
+//script2481(2481)()(void)
+if_settargetcursor(if_gethash(855, 17), 15, 14)
+if_settargetcursor(if_gethash(855, 33), 17, 16)
+if_settargetcursor(if_gethash(855, 19), 19, 18)
+if_settargetcursor(if_gethash(855, 9), 21, 20)
+if_settargetcursor(if_gethash(855, 11), 27, 26)
+if_settargetcursor(if_gethash(855, 13), 23, 22)
+if_settargetcursor(if_gethash(855, 15), 25, 24)
+if_settargetcursor(if_gethash(855, 7), 29, 28)
+if_settargetcursor(if_gethash(855, 2), 31, 30)
+if_settargetcursor(if_gethash(855, 3), 33, 32)
+if_settargetcursor(if_gethash(855, 1), 35, 34)
+return
+return

@@ -1,0 +1,7 @@
+void script_833(Widget widget0, Widget widget1, int arg2) {
+	if (widget0 != widget(261, 13)) {
+		return;
+	}
+	script_1048(widget0, widget1, arg2);
+	return;
+}

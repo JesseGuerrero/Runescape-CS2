@@ -1,0 +1,15 @@
+string script_1410(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	string str0;
+	int1 = x(getMyLocation());
+	int2 = y(getMyLocation());
+	int3 = z(getMyLocation()) + arg0;
+	str0 = "No such level: " + int3;
+	if (int3 >= 0 && int3 <= 3) {
+		str0 = "::tele " + int3 + "," + int1 / 64 + "," + int2 / 64 + "," + int1 % 64 + "," + int2 % 64;
+	}
+	msg(str0);
+	return str0;
+}

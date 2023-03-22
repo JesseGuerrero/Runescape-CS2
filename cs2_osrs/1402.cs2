@@ -1,0 +1,31 @@
+void script_1402(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget arg16) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (widget1 == widget9) {
+		VARPBIT[5330] = pow(7 + 2, 2) * 3 + 1;
+	} else if (widget1 == widget10) {
+		VARPBIT[5332] = 1;
+	} else if (widget1 == widget11) {
+		VARPBIT[5331] = (VARPBIT[5331] + 1) % 4;
+		if (CHILD.setChild(widget1, 0) == true) {
+			CHILD.setSprite(196);
+			CHILD.hookFrame(&script_1403(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle() + 10));
+		}
+	} else if (widget1 == widget12) {
+		VARPBIT[5331] = (VARPBIT[5331] + 3) % 4;
+		if (CHILD.setChild(widget1, 0) == true) {
+			CHILD.setSprite(196);
+			CHILD.hookFrame(&script_1403(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle() + 10));
+		}
+	} else if (widget1 == widget13) {
+		VARPBIT[5333] = 0;
+	} else if (widget1 == widget14) {
+		VARPBIT[5332], VARPBIT[5330] = 0, 0;
+	} else if (widget1 == widget15) {
+		VARPBIT[5332] = 0;
+	}
+	script_1397(widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, arg16);
+	return;
+}

@@ -1,0 +1,5 @@
+//script1944(1944)()(void)
+if_settext(if_gethash(802, 16), "")
+if_sethide(if_gethash(802, 19), 1)
+store_varc(581, 0)
+return

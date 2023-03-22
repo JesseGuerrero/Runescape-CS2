@@ -1,0 +1,15 @@
+void script_1650(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Options on your follower are moved lower down the right-click menus (currently off)";
+	if (VARPBIT[5599] == 1) {
+		m6512(true);
+		str0 = "Options on your follower are moved lower down the right-click menus (currently on)";
+		widget0.setSprite(762);
+	} else {
+		m6512(false);
+		widget0.setSprite(761);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

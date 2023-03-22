@@ -1,0 +1,9 @@
+//script4834(4834)(int arg0)(void)
+int iVar1
+iVar1 = if_getnextsubid(arg0) - 1
+while(iVar1 >= 0) {
+	if(cc_find(iVar1, arg0) == 1)
+		cc_setgraphic(6009)
+	iVar1 = iVar1 - 1
+}
+return

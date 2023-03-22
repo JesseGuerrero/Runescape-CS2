@@ -1,0 +1,5 @@
+//script3379(3379)(int arg0)(void)
+store_varc(1661, 0)
+store_varc(1660, 0)
+instr6248(arg0, script_3215, "iz", -2147483640, -2147483639)
+return

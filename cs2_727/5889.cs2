@@ -1,0 +1,51 @@
+//script5889(5889)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar1 = 0
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+while(iVar1 < 13) {
+	iVar6 = script_5939(iVar1)
+	iVar2 = script_5933(iVar1)
+	switch(iVar6) {
+		case default:
+			break
+		case 0:
+			iVar3 = 9873
+			iVar4 = 9874
+			iVar5 = 9875
+			break
+		case 1:
+			iVar3 = 9876
+			iVar4 = 9877
+			iVar5 = 9878
+			break
+		case 2:
+			iVar3 = 9879
+			iVar4 = 9880
+			iVar5 = 9881
+			break
+		case 3:
+			iVar3 = 9882
+			iVar4 = 9883
+			iVar5 = 9884
+			break
+
+	}
+	if(arg0 == 0)
+		if_setgraphic(iVar2, iVar3)
+	else
+		if(arg0 == 1)
+			if_setgraphic(iVar2, iVar4)
+		else
+			if_setgraphic(iVar2, iVar5)
+	iVar1 = iVar1 + 1
+}
+return

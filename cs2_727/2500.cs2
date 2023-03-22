@@ -1,0 +1,16 @@
+//script2500(2500)(int arg0)(void)
+int iVar1
+iVar1 = 1
+while(iVar1 <= 9 || enum(2400, iVar1, 'i', 'I') != 2949145) {
+	if(enum(2400, iVar1, 'i', 'I') != arg0)
+		if_setgraphic(enum(2400, iVar1, 'i', 'I'), 1134)
+	else {
+		if_setgraphic(arg0, 1135)
+		store_varc(837, iVar1)
+	}
+	iVar1 = iVar1 + 1
+}
+if(load_varc(837) > 0)
+	if(load_varc(837) <= 9)
+		if_setmodel(if_gethash(45, 39), enum(2399, load_varc(837), 'i', 'm'))
+return

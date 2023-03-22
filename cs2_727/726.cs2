@@ -1,0 +1,17 @@
+//script726(726)(int arg0, int arg1)(void)
+if(if_isopen(arg1) == 0 || load_varc(199) == -1) {
+	cc_deleteall(arg0)
+	store_varc(199, -1)
+	instr6342(arg0, None, "")
+	instr6256(arg0, None, "")
+	return
+}
+instr6342(arg0, script_727, "II", arg0, arg1)
+instr6256(arg0, script_726, "II", arg0, arg1)
+cc_create(0, 3, arg0)
+cc_setposition(3, 3, 0, 0)
+cc_setsize(2, 2, 16384, 16384)
+cc_setcolor(c7)
+cc_settrans(load_varc(213))
+cc_setfill(1)
+return

@@ -1,0 +1,40 @@
+//script2519(2519)(int arg0)(void)
+int iVar1
+iVar1 = script_2520()
+switch(arg0) {
+	case default:
+		break
+	case 42860558:
+		if(load_varc(847) > 0) {
+			store_varc(847, load_varc(847) - 1)
+			if_settext(if_gethash(654, 13), to_string(load_varc(847)))
+		}
+		break
+	case 42860606:
+		if(load_varc(848) > 0) {
+			store_varc(848, load_varc(848) - 1)
+			if_settext(if_gethash(654, 61), to_string(load_varc(848)))
+		}
+		break
+	case 42860598:
+		if(load_varc(849) > 0) {
+			store_varc(849, load_varc(849) - 1)
+			if_settext(if_gethash(654, 53), to_string(load_varc(849)))
+		}
+		break
+	case 42860590:
+		if(load_varc(850) > 0) {
+			store_varc(850, load_varc(850) - 1)
+			if_settext(if_gethash(654, 45), to_string(load_varc(850)))
+		}
+		break
+	case 42860615:
+		if(load_varc(851) > 0) {
+			store_varc(851, load_varc(851) - 1)
+			if_settext(if_gethash(654, 70), to_string(load_varc(851)))
+		}
+		break
+
+}
+script_2517()
+return

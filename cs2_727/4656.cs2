@@ -1,0 +1,8 @@
+//script4656(4656)(int arg0)(void)
+switch(load_varc(1532)) {
+	case default:
+		break
+
+}
+instr6678()
+return

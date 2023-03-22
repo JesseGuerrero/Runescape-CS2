@@ -1,0 +1,19 @@
+//script6351(6351)()(int)
+int iVar0
+int iVar1
+iVar0 = -1
+iVar1 = 48889904
+if(instr6644() < 2)
+	iVar1 = 35913932
+if(cc_ishidden() == 1)
+	return 0
+iVar0 = cc_getparentlayer()
+while(iVar0 != -1) {
+	if(if_gethide(iVar0) == 1)
+		return 0
+	if(iVar0 == iVar1)
+		return 1
+	iVar0 = if_getparentlayer(iVar0)
+}
+return 0
+return -1

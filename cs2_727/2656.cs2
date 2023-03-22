@@ -1,0 +1,31 @@
+//script2656(2656)()(int)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+iVar0 = iVar0 + load_varpbit(6113)
+iVar1 = (1 + load_varpbit(6114)) / 2
+iVar0 = iVar0 + iVar1
+iVar1 = load_varpbit(6115) / 2
+iVar0 = iVar0 + iVar1
+iVar1 = load_varpbit(6116) / 2
+iVar0 = iVar0 + iVar1
+iVar1 = (load_varpbit(6117) + load_varpbit(6118)) + (load_varpbit(6119) + load_varpbit(6120))
+iVar0 = iVar0 + iVar1
+iVar0 = load_varpbit(6121) + iVar0
+iVar1 = load_varpbit(6122) / 2
+iVar0 = iVar0 + iVar1
+iVar1 = load_varpbit(6123) / 2
+iVar0 = iVar0 + iVar1
+iVar1 = load_varpbit(6124) / 2
+iVar0 = iVar0 + iVar1
+iVar1 = load_varpbit(6125) / 2
+iVar0 = iVar0 + iVar1
+iVar1 = ((load_varpbit(6151) + load_varpbit(6152)) + (load_varpbit(6153) + load_varpbit(6154))) + load_varpbit(6155)
+iVar0 = iVar0 + iVar1
+iVar0 = iVar0 * 4
+if(load_varpbit(6112) == 20)
+	if(iVar0 > 75)
+		store_varpbit(6112, 50)
+return iVar0
+return 0

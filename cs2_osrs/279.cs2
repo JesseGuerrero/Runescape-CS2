@@ -1,0 +1,19 @@
+int script_279(Item item0) {
+	string str0;
+	string str1;
+	str0 = "";
+	str1 = "";
+	if (script_514() == 1) {
+		str1 = script_280();
+		if (length(str1) > 0) {
+			if (item0 != null) {
+				str0 = lower(getItemName(item0));
+			}
+			if (indexOf(str0, str1, 0) != -1) {
+				return 1;
+			}
+			return 0;
+		}
+	}
+	return 1;
+}

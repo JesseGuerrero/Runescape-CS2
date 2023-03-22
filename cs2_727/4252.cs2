@@ -1,0 +1,4 @@
+//script4252(4252)(int arg0)(void)
+if(script_3487(6) == 1)
+	if_settext(arg0, "Congratulations on creating your RuneScape account." + "<br>" + "<br>" + "Check your email to activate your free trial now and enter the exclusive world of RuneScape members today!")
+return

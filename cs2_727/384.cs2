@@ -1,0 +1,38 @@
+//script384(384)(int arg0, int arg1, int arg2)(int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if(arg2 == 1)
+			return struct_param(1175, arg1)
+		return struct_param(1169, arg1)
+
+	case 1:
+		if(arg2 == 1)
+			return struct_param(1176, arg1)
+		return struct_param(1170, arg1)
+
+	case 2:
+		if(arg2 == 1)
+			return struct_param(1177, arg1)
+		return struct_param(1171, arg1)
+
+	case 3:
+		if(arg2 == 1)
+			return struct_param(1178, arg1)
+		return struct_param(1172, arg1)
+
+	case 4:
+		if(arg2 == 1)
+			return struct_param(1179, arg1)
+		return struct_param(1173, arg1)
+
+	case 5:
+		if(arg2 == 1)
+			return struct_param(1180, arg1)
+		return struct_param(1174, arg1)
+
+
+}
+return -1
+return -1

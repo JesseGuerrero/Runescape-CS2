@@ -1,0 +1,9 @@
+void script_542(int arg0, Widget widget1, string string2) {
+	if (arg0 != 1) {
+		return;
+	}
+	script_541(widget1, string2, 1);
+	playSoundEffect(2266, 1, 0);
+	widget1.hookFrame(&script_543(widget1, string2, getClientCycle() + 20));
+	return;
+}

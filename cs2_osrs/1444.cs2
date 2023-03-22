@@ -1,0 +1,17 @@
+Color script_1444(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int1 = 0;
+	int2 = 0;
+	int3 = 0;
+	int1, int2, int3 = script_2(arg0);
+	int4 = rndExcl(30) - rndExcl(30);
+	int1 = script_1425(0, 255, int1 + int4);
+	int4 = rndExcl(30) - rndExcl(30);
+	int2 = script_1425(0, 255, int2 + int4);
+	int4 = rndExcl(30) - rndExcl(30);
+	int3 = script_1425(0, 255, int3 + int4);
+	return script_246(int1, int2, int3);
+}

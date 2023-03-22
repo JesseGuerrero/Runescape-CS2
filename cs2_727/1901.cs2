@@ -1,0 +1,109 @@
+//script1901(1901)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+if(arg0 == 104) {
+	if(arg6 == 0)
+		return
+	if(load_varc(128) <= 0)
+		store_varc(128, arg6 - 1)
+	else
+		store_varc(128, load_varc(128) - 1)
+	if(cc_find(load_varc(128) + 1, arg4) == 1) {
+		if(cc_find(0, arg4) == 1) {
+			cc_setposition(0, 0, cc_gety(), cc_getx())
+			cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+			cc_setcolor(577e45)
+			cc_setfill(1)
+		}
+		if(cc_gety() < if_getscrolly(arg4))
+			script_72(arg5, arg4, if_getscrolly(arg4) - cc_getheight())
+		else
+			if(cc_gety() + cc_getheight() > if_getheight(arg4) + if_getscrolly(arg4))
+				script_72(arg5, arg4, if_getscrollheight(arg4))
+	}
+	return
+}
+if(arg0 == 105) {
+	if(arg6 == 0)
+		return
+	if(load_varc(128) == arg6 - 1)
+		store_varc(128, 0)
+	else
+		store_varc(128, load_varc(128) + 1)
+	if(cc_find(load_varc(128) + 1, arg4) == 1) {
+		if(cc_find(0, arg4) == 1) {
+			cc_setposition(0, 0, cc_gety(), cc_getx())
+			cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+			cc_setcolor(577e45)
+			cc_setfill(1)
+		}
+		if(cc_gety() + cc_getheight() > if_getheight(arg4) + if_getscrolly(arg4))
+			script_72(arg5, arg4, if_getscrolly(arg4) + cc_getheight())
+		else
+			if(cc_gety() < if_getscrolly(arg4))
+				script_72(arg5, arg4, 0)
+	}
+	return
+}
+if(arg0 == 102) {
+	script_1050(load_varc(126), load_varc_string(27))
+	return
+}
+if(arg0 == 13) {
+	script_1054()
+	return
+}
+iVar7 = string_length(load_varc_string(30))
+iVar8 = instr6599(load_varc_string(30), 0)
+iVar9 = 0
+iVar10 = -1
+if(arg0 == 84) {
+	if(load_varc(128) < 0)
+		if(iVar7 > 0) {
+			store_varc(129, 0)
+			instr6342(arg3, None, "")
+			script_1904(arg2, arg4, arg5)
+		} else 
+			script_1054()
+	else
+		if(iVar8 > 0)
+			if(cc_find(load_varc(128) + 1, arg4) == 1)
+				while(iVar9 < iVar8) {
+					iVar10 = instr6613()
+					if(compare(instr6583(iVar10), cc_gettext()) == 0) {
+						script_1071(arg2, iVar10, 0)
+						return
+					}
+					iVar9 = iVar9 + 1
+				}
+	return
+}
+if(arg0 == 85)
+	if(iVar7 > 0)
+		store_varc_string(30, substring(load_varc_string(30), iVar7 - 1, 0))
+	else
+		if(load_varc(127) == 0)
+			script_1054()
+		else {
+			store_varc(128, -1)
+			if_sethide(if_gethash(137, 7), 1)
+			if_sethide(if_gethash(137, 9), 1)
+			if_sethide(if_gethash(137, 13), 1)
+			if_sethide(if_gethash(137, 17), 0)
+			if_sethide(if_gethash(137, 1), 0)
+			if_sethide(if_gethash(137, 3), 1)
+			script_1068(arg2, 0)
+			return
+		}
+else
+	if(char_isprintable(arg1) == 1)
+		if(iVar7 < 80)
+			store_varc_string(30, removetags(append_char(load_varc_string(30), arg1)))
+		else
+			return
+if_settext(arg3, "Search for: " + load_varc_string(30) + "*")
+store_varc(129, 50)
+instr6342(arg3, script_1903, "IIII", arg2, arg3, arg4, arg5)
+return

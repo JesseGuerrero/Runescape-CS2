@@ -1,0 +1,20 @@
+void script_721(Widget widget0, int arg1, int arg2, int arg3) {
+	int int4;
+	int4 = 0;
+	if (CHILD.setChild(widget0, arg1) == true) {
+		int4 = getShadeColor() + arg3;
+		if (arg3 < 0) {
+			if (int4 < arg2) {
+				CHILD.setTrans(arg2);
+				CHILD.hookFrame(null);
+				return;
+			}
+		} else if (int4 > arg2) {
+			CHILD.setTrans(arg2);
+			CHILD.hookFrame(null);
+			return;
+		}
+		CHILD.setTrans(int4);
+	}
+	return;
+}

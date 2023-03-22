@@ -1,0 +1,13 @@
+void script_1364(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	_ = script_228(widget0, "Barbarian Assault Reward Shop", 0);
+	script_1367(widget1, widget2);
+	script_1366();
+	widget1.hookVARP(&script_1365(widget1, widget2), 946, 947, 948, 949, 466, 261, 262, 263);
+	widget1.hookContainer(&script_1365(widget1, widget2), 93);
+	widget4.hookMouseEnter(&script_45(CTX_WIDGET, 16777215));
+	widget4.hookMouseExit(&script_45(CTX_WIDGET, 3355392));
+	widget4.setContextMenuOption(1, "Accept");
+	widget4.hookOptionClick(&script_45(CTX_WIDGET, 3355392));
+	script_31(widget3, widget1, 792, 789, 790, 791, 773, 788);
+	return;
+}

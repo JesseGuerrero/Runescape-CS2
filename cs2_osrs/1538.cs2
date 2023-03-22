@@ -1,0 +1,32 @@
+void script_1538(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	int int8;
+	script_1546(0, widget0, widget1, widget2, widget3, widget4, widget5);
+	widget3.hookOptionClick(&script_1545(CTX_MENU_OPTION, widget0, widget1, widget2, widget3, widget4, widget5));
+	widget1.clearChildren();
+	widget1.setScrollMax(0, 0);
+	widget1.setScrollPos(0, 0);
+	script_31(widget2, widget1, 792, 789, 790, 791, 773, 788);
+	VARC[179] = 0;
+	widget1.clearChildren();
+	widget6.clearChildren();
+	int8 = script_715(widget6, 0);
+	CHILD.createChild(widget6, 4, int8);
+	int8 = int8 + 1;
+	CHILD.setSize(6, 12, 1, 0);
+	CHILD.setPosition(0, 3, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	_CHILD.createChild(widget6, 4, int8);
+	int8 = int8 + 1;
+	_CHILD.setSize(6, 18, 1, 1);
+	_CHILD.setPosition(0, 3, 1, 2);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setFont(495);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setTextAntiMacro(true);
+	widget0.hookVARP(&script_1539(widget6, getChildId(), getChildId(), widget7), 1430, 1429);
+	script_1540(widget6, widget7);
+	return;
+}

@@ -1,0 +1,154 @@
+//script6000(6000)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9)(int, int, int, int, int)
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+string sVar0
+iVar10 = 74907724
+iVar11 = 0
+iVar12 = -1
+sVar0 = ""
+iVar13 = 0
+iVar14 = 5724
+iVar15 = enum_getoutputcount(iVar14)
+globalArrays[0] = [iVar15 + 1, 105]
+globalArrays[1] = [enum_getoutputcount(iVar14), 74]
+iVar16 = 0
+iVar17 = -1
+iVar18 = 0
+iVar19 = 0
+while(iVar18 < iVar15) {
+	globalArrays[0][iVar18] = iVar18
+	iVar18 = iVar18 + 1
+}
+iVar18 = 0
+iVar16 = 1
+iVar20 = 0
+iVar21 = 0
+switch(load_varc(1659)) {
+	case default:
+		globalArrays[0][enum_getoutputcount(iVar14)] = -1
+		script_5999(0, 0, enum_getoutputcount(iVar14), iVar14)
+		iVar18 = iVar15 - 1
+		while(iVar18 >= 0) {
+			if(enum(iVar14, globalArrays[0][iVar18 + 1], 'i', 'J') != -1)
+				globalArrays[1][iVar18] = enum(iVar14, globalArrays[0][iVar18 + 1], 'i', 'J')
+			iVar18 = iVar18 - 1
+		}
+		break
+	case 1:
+		globalArrays[0][enum_getoutputcount(iVar14)] = -1
+		script_5999(0, 0, enum_getoutputcount(iVar14), iVar14)
+		iVar18 = iVar15 - 1
+		while(iVar18 >= 0) {
+			if(enum(iVar14, globalArrays[0][iVar15 - iVar18], 'i', 'J') != -1)
+				globalArrays[1][iVar18] = enum(iVar14, globalArrays[0][iVar15 - iVar18], 'i', 'J')
+			iVar18 = iVar18 - 1
+		}
+		break
+	case 2:
+		globalArrays[0][enum_getoutputcount(iVar14)] = -1
+		script_5998(0, 0, enum_getoutputcount(iVar14), iVar14)
+		iVar18 = iVar15 + 1
+		if(enum(iVar14, globalArrays[0][0], 'i', 'J') != -1)
+			globalArrays[1][iVar18] = enum(iVar14, globalArrays[0][0], 'i', 'J')
+		while(iVar18 >= 0) {
+			if(enum(iVar14, globalArrays[0][iVar18 + 1], 'i', 'J') != -1)
+				globalArrays[1][iVar18] = enum(iVar14, globalArrays[0][iVar18 + 1], 'i', 'J')
+			iVar18 = iVar18 - 1
+		}
+		break
+	case 3:
+		globalArrays[0][enum_getoutputcount(iVar14)] = -1
+		script_5998(0, 0, enum_getoutputcount(iVar14), iVar14)
+		iVar18 = iVar15 - 1
+		while(iVar18 >= 0) {
+			if(enum(iVar14, globalArrays[0][iVar15 - iVar18], 'i', 'J') != -1)
+				globalArrays[1][iVar18] = enum(iVar14, globalArrays[0][iVar15 - iVar18], 'i', 'J')
+			iVar18 = iVar18 - 1
+		}
+		break
+
+}
+iVar18 = 0
+iVar22 = 1
+iVar23 = 1
+while(iVar22 <= 1) {
+	if(iVar23 > 1) {
+		cc_create(arg5, 4, iVar10)
+		arg5 = arg5 + 1
+		if(iVar22 == 1)
+			cc_setposition(0, 0, arg4, 11)
+		else {
+			arg2 = (arg2 + arg3) + arg4
+			cc_setposition(0, 0, arg2, 11)
+		}
+		iVar11 = cc_gety()
+		cc_setsize(0, 0, 13, if_getwidth(iVar10) - 20)
+		switch(iVar22) {
+			case default:
+				break
+			case 1:
+				cc_settext("Tier 1")
+				break
+			case 2:
+				cc_settext("Tier 2")
+				break
+			case 3:
+				cc_settext("Tier 3")
+				break
+			case 4:
+				cc_settext("Tier 4")
+				break
+
+		}
+		cc_settextfont(4040)
+		cc_settextshadow(1)
+		cc_setcolor(e6be78)
+		cc_settextalign(13, 1, 0)
+		if(iVar22 == 1) {
+			cc_create(arg5, 4, iVar10)
+			arg5 = arg5 + 1
+			cc_setposition(0, 2, iVar11, 7)
+			cc_setsize(0, 0, 13, if_getwidth(iVar10) - 20)
+			cc_settext("Scroll Down For More Tiers")
+			cc_settextfont(4040)
+			cc_settextshadow(1)
+			cc_setcolor(e6be78)
+			cc_settextalign(13, 1, 2)
+		}
+		cc_create(arg5, 3, iVar10)
+		arg5 = arg5 + 1
+		if(iVar22 == 1)
+			cc_setposition(0, 0, 23, 11)
+		else {
+			arg2 = arg2 + 17
+			cc_setposition(0, 0, arg2, 11)
+		}
+		cc_setsize(0, 0, 1, if_getwidth(iVar10) - 20)
+		cc_setcolor(e6be78)
+		arg2 = cc_gety() + cc_getheight()
+	}
+	iVar18 = 0
+	arg0 = 0
+	arg1 = arg4
+	while(iVar18 < enum_getoutputcount(iVar14)) {
+		iVar12 = globalArrays[1][iVar18]
+		if(struct_param(1993, iVar12) == iVar22)
+			arg0 = script_5351(iVar12, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9).get(0)
+		iVar18 = iVar18 + 1
+	}
+	iVar22 = iVar22 + 1
+}
+return arg5, arg3, arg2, arg1, arg0
+return 0, 0, 0, 0, 0

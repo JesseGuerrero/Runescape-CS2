@@ -1,0 +1,11 @@
+//script1615(1615)(int arg0, int arg1, int arg2)(void)
+if(arg0 == 1) {
+	if(cc_find(arg2, arg1) == 1)
+		cc_setoutline(2)
+	store_varc(1031, 1 + arg2)
+} else  {
+	if(cc_find(arg2, arg1) == 1)
+		cc_setoutline(1)
+	store_varc(1031, 0)
+}
+return

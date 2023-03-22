@@ -1,0 +1,7 @@
+void script_728() {
+	if (VARC[67] < getItemAmtInContainer(93, 13192)) {
+		VARC[67] = VARC[67] + 1;
+		script_729();
+	}
+	return;
+}

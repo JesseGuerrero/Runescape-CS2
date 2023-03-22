@@ -1,0 +1,14 @@
+void script_1735(Widget widget0) {
+	Sprite sprite1;
+	int int2;
+	sprite1 = 897;
+	int2 = 297;
+	CHILD.setSprite(sprite1);
+	STRING[138] = "";
+	script_1738("Search", widget0);
+	CHILD.hookMouseHover(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, (Sprite)int2, null));
+	CHILD.hookMouseExit(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite1, null));
+	CHILD.setContextMenuOption(1, "Search");
+	CHILD.hookOptionClick(&script_1736(widget0, getChildId(), getChildId()));
+	return;
+}

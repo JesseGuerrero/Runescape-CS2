@@ -1,0 +1,49 @@
+//script2478(2478)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 55967745:
+		if(load_varpbit(6348) == 28)
+			if_setcolor(arg0, 0xFFFF33)
+		else
+			if_setcolor(arg0, 0xFF00)
+		break
+	case 55967746:
+		if(load_varpbit(6348) < 30)
+			if_setcolor(arg0, 0xFF0000)
+		else
+			if(load_varpbit(6348) == 30)
+				if_setcolor(arg0, 0xFFFF33)
+			else
+				if_setcolor(arg0, 0xFF00)
+		break
+	case 55967747:
+		if(load_varpbit(6348) < 32)
+			if_setcolor(arg0, 0xFF0000)
+		else
+			if(load_varpbit(6348) == 32)
+				if_setcolor(arg0, 0xFFFF33)
+			else
+				if_setcolor(arg0, 0xFF00)
+		break
+	case 55967748:
+		if(load_varpbit(6348) < 34)
+			if_setcolor(arg0, 0xFF0000)
+		else
+			if(load_varpbit(6348) == 34)
+				if_setcolor(arg0, 0xFFFF33)
+			else
+				if_setcolor(arg0, 0xFF00)
+		break
+	case 55967749:
+		if(load_varpbit(6348) < 36)
+			if_setcolor(arg0, 0xFF0000)
+		else
+			if(load_varpbit(6348) == 36)
+				if_setcolor(arg0, 0xFFFF33)
+			else
+				if_setcolor(arg0, 0xFF00)
+		break
+
+}
+return

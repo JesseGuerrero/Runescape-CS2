@@ -1,0 +1,89 @@
+void script_419(Container container0, int arg1, int arg2, int arg3) {
+	Item item4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	boolean boolean10;
+	int int11;
+	widget(592, 2).clearChildren();
+	widget(592, 4).clearChildren();
+	if (container0 == null) {
+		return;
+	}
+	item4 = null;
+	int5 = widget(592, 2).getWidth() - 4;
+	int6 = getItemContainerLength(container0);
+	int7 = 0;
+	int8 = 0;
+	int9 = 2;
+	boolean10 = false;
+	while (int7 < int6) {
+		item4 = getItemIdInSlot(container0, int7);
+		if (item4 != null) {
+			if (int7 < 31) {
+				boolean10 = isBitFlagged(arg1, int7);
+			} else {
+				boolean10 = isBitFlagged(arg2, int7 - 31);
+			}
+			CHILD.createChild(widget(592, 2), 3, int8);
+			CHILD.setSize(int5, 61, 0, 0);
+			CHILD.setPosition(2, int9, 0, 0);
+			CHILD.setRGB(0x333333);
+			CHILD.setFilled(false);
+			if (item4 == 10165) {
+				CHILD.setContextMenuOption(1, "More");
+			} else if (item4 == 10166) {
+				CHILD.setContextMenuOption(1, "Back");
+			} else {
+				if (boolean10 == true) {
+					CHILD.setContextMenuOption(1, "Take");
+				}
+				CHILD.setContextMenuOption(10, "Examine");
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item4));
+			}
+			int8 = int8 + 1;
+			CHILD.createChild(widget(592, 2), 5, int8);
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(16, int9 + 14, 0, 0);
+			CHILD.setItem(item4, 1);
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+			int8 = int8 + 1;
+			CHILD.createChild(widget(592, 2), 4, int8);
+			CHILD.setSize(int5 - 79, 61, 0, 0);
+			CHILD.setPosition(79, int9, 0, 0);
+			CHILD.setFont(495);
+			CHILD.setRGB(0xFF981F);
+			CHILD.setTextAntiMacro(true);
+			CHILD.setTextAlignment(0, 1, 0);
+			CHILD.setText(datamap('o', 's', 380, item4));
+			int8 = int8 + 1;
+			CHILD.createChild(widget(592, 2), 3, int8);
+			CHILD.setSize(int5 - 2, 59, 0, 0);
+			CHILD.setPosition(3, int9 + 1, 0, 0);
+			CHILD.setRGB(0x000000);
+			CHILD.setTrans(164);
+			CHILD.setFilled(true);
+			if (boolean10 == true) {
+				CHILD.setHidden(true);
+			}
+			int8 = int8 + 1;
+			int9 = int9 + 62;
+		}
+		int7 = int7 + 1;
+	}
+	int9 = int9 + 1;
+	widget(592, 2).setScrollMax(0, int9);
+	script_31(widget(592, 4), widget(592, 2), 792, 789, 790, 791, 773, 788);
+	int11 = VARC[58];
+	if (arg3 == 1) {
+		VARC[58] = 0;
+	}
+	script_72(widget(592, 4), widget(592, 2), VARC[58]);
+	if (arg3 == 0) {
+		VARC[58] = int11;
+	}
+	return;
+}

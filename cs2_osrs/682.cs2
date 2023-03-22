@@ -1,0 +1,9 @@
+void script_682(int arg0, string arg1) {
+	if (VARC[5] != arg0) {
+		return;
+	}
+	STRING[22] = arg1;
+	script_222("");
+	script_681();
+	return;
+}

@@ -1,0 +1,186 @@
+void script_1119(int arg0, Item item1, Location location2, int arg3) {
+	Widget widget4;
+	Widget widget5;
+	Widget widget6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	string str0;
+	widget4 = datamap('i', 'I', 1235, arg0);
+	widget5 = datamap('i', 'I', 1236, arg0);
+	widget6 = datamap('i', 'I', 1237, arg0);
+	if (widget4 == null || widget5 == null || widget6 == null) {
+		return;
+	}
+	int7 = x(location2) % 64;
+	int8 = y(location2) % 64;
+	if (int8 <= 0) {
+		int8 = 1;
+	}
+	if (int7 > int8) {
+		int7 = int8;
+	}
+	int9 = x(location2) / 64;
+	widget4.clearChildren();
+	VARC[2] = 0;
+	int10 = 0;
+	if (isBitFlagged(arg3, 1) == true || isBitFlagged(arg3, 0) == true) {
+		CHILD.createChild(widget4, 3, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setFilled(true);
+		CHILD.setTrans(240);
+		if (isBitFlagged(arg3, 1) == true) {
+			CHILD.setRGB(0xFF3F3F);
+		} else {
+			CHILD.setRGB(0x7FFF7F);
+		}
+	} else {
+		CHILD.createChild(widget4, 5, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSpriteTiling(true);
+		CHILD.setSprite(1040);
+	}
+	int10 = script_715(widget4, int10);
+	widget6.clearChildren();
+	int10 = 0;
+	CHILD.createChild(widget6, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(0, 20, 1, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setFont(496);
+	CHILD.setTextAlignment(1, 2, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(datamap('i', 's', 1233, arg0));
+	CHILD.createChild(widget6, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(0, 20, 1, 0);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	str0 = "";
+	if (item1 == 1925 || item1 == 6055) {
+		str0 = datamap('i', 's', 1234, arg0);
+	} else {
+		str0 = datamap('o', 's', 1238, item1);
+	}
+	CHILD.setText(str0);
+	int11 = widget6.getHeight();
+	int12 = int11 - 50;
+	int13 = int12 - 4;
+	if (int7 > 0) {
+		CHILD.createChild(widget6, 3, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(10, int12, 0, 0);
+		CHILD.setPosition(10, 25, 0, 2);
+		CHILD.setFilled(true);
+		CHILD.setRGB(0x000000);
+		CHILD.createChild(widget6, 3, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(10, int12, 0, 0);
+		CHILD.setPosition(10, 25, 0, 2);
+		CHILD.setFilled(false);
+		_CHILD.createChild(widget6, 3, int10);
+		int10 = int10 + 1;
+		_CHILD.setSize(6, mathMethod4006(0, int7, 0, int8, int13), 0, 0);
+		_CHILD.setPosition(12, 27, 0, 2);
+		_CHILD.setFilled(true);
+		str0 = concat(str0, " (State: " + int7 + " / " + int8 + ")");
+		if (isBitFlagged(arg3, 1) == true) {
+			CHILD.setRGB(0xFF0000);
+			_CHILD.setRGB(0xFF0000);
+			str0 = concat(str0, "<br>" + "The patch is " + "<col=7f0000>" + "dead" + "</col>" + ".");
+		} else if (isBitFlagged(arg3, 0) == true) {
+			CHILD.setRGB(0xFF981F);
+			_CHILD.setRGB(0xFF981F);
+			str0 = concat(str0, "<br>" + "The patch is " + "<col=003f00>" + "diseased" + "</col>" + ".");
+		} else {
+			CHILD.setRGB(0x00CF00);
+			_CHILD.setRGB(0x00CF00);
+		}
+	} else if (item1 == 1925) {
+		str0 = concat(str0, " (empty)");
+	} else if (item1 == 6055) {
+		str0 = concat(str0, " (weeds)");
+	}
+	if (isBitFlagged(arg3, 2) == true) {
+		CHILD.createChild(widget6, 5, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(36, 36, 0, 0);
+		CHILD.setPosition(0, 20, 1, 2);
+		CHILD.setSprite(760);
+		str0 = concat(str0, "<br>" + "A gardener is protecting this patch.");
+	} else if (isBitFlagged(arg3, 7) == true) {
+		CHILD.createChild(widget6, 5, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(32, 36, 0, 0);
+		CHILD.setPosition(0, 20, 1, 2);
+		CHILD.setSprite(904);
+		str0 = concat(str0, "<br>" + "A House in Kourend is protecting the patch as a favour.");
+	} else if (isBitFlagged(arg3, 3) == true) {
+		CHILD.createChild(widget6, 5, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(0, 20, 1, 2);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		CHILD.setItemNoNum(2472, 1);
+		str0 = concat(str0, "<br>" + "A nearby flower patch is providing protection.");
+	}
+	if (isBitFlagged(arg3, 4) == true || z(location2) == 1) {
+		CHILD.createChild(widget6, 5, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(5, 20, 2, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		if (z(location2) == 1) {
+			CHILD.setItemNoNum(5340, 1);
+			str0 = concat(str0, "<br>" + "The patch has been watered.");
+		} else {
+			CHILD.setItemNoNum(5331, 1);
+			CHILD.setTrans(125);
+			str0 = concat(str0, "<br>" + "The patch is dry.");
+		}
+	}
+	if (isBitFlagged(arg3, 6) == true || isBitFlagged(arg3, 5) == true) {
+		CHILD.createChild(widget6, 5, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(5, 20, 2, 2);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		if (isBitFlagged(arg3, 6) == true) {
+			CHILD.setItemNoNum(6034, 1);
+			str0 = concat(str0, "<br>" + "The patch has been treated with supercompost.");
+		} else {
+			CHILD.setItemNoNum(6032, 1);
+			str0 = concat(str0, "<br>" + "The patch has been treated with compost.");
+		}
+	}
+	if (int9 > 0) {
+		CHILD.createChild(widget6, 4, int10);
+		int10 = int10 + 1;
+		CHILD.setSize(50, 50, 0, 0);
+		CHILD.setPosition(-35, -30, 1, 1);
+		CHILD.setFont(645);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setRGB(0xFFB82F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str(int9));
+		str0 = concat(str0, "<br>" + "Available yield: " + int9);
+	}
+	widget6.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(179, 205), str0, 25, 512));
+	widget6.hookMouseExit(&script_40(widget(179, 205)));
+	return;
+}

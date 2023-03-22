@@ -1,0 +1,1106 @@
+//script1000(1000)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 3224, 10, "Members can now weave " + "<col=000080>" + "cloth" + "</col>" + " on a loom.", "Members: Cloth"
+
+			case 1:
+				return 20754, 10, "Members can now weave a " + "<col=000080>" + "Milestone cape (10)" + "</col>" + " on a loom.", "Members: Milestone cape (10)"
+
+			case 2:
+				return 20755, 20, "Members can now weave a " + "<col=000080>" + "Milestone cape (20)" + "</col>" + " on a loom.", "Members: Milestone cape (20)"
+
+			case 3:
+				return 5418, 21, "Members can now weave " + "<col=000080>" + "vegetable sacks" + "</col>" + " on a loom.", "Members: Vegetable sack"
+
+			case 4:
+				return 20756, 30, "Members can now weave a " + "<col=000080>" + "Milestone cape (30)" + "</col>" + " on a loom.", "Members: Milestone cape (30)"
+
+			case 5:
+				return 5376, 36, "Members can now weave " + "<col=000080>" + "fruit baskets" + "</col>" + " on a loom.", "Members: Fruit basket"
+
+			case 6:
+				return 20757, 40, "Members can now weave a " + "<col=000080>" + "Milestone cape (40)" + "</col>" + " on a loom.", "Members: Milestone cape (40)"
+
+			case 7:
+				return 20758, 50, "Members can now weave a " + "<col=000080>" + "Milestone cape (50)" + "</col>" + " on a loom.", "Members: Milestone cape (50)"
+
+			case 8:
+				return 14859, 52, "Members can now weave " + "<col=000080>" + "seaweed nets" + "</col>" + " on a loom.", "Members: Seaweed net"
+
+			case 9:
+				return 20759, 60, "Members can now weave a " + "<col=000080>" + "Milestone cape (60)" + "</col>" + " on a loom.", "Members: Milestone cape (60)"
+
+			case 10:
+				return 20760, 70, "Members can now weave a " + "<col=000080>" + "Milestone cape (70)" + "</col>" + " on a loom.", "Members: Milestone cape (70)"
+
+			case 11:
+				return 20761, 80, "Members can now weave a " + "<col=000080>" + "Milestone cape (80)" + "</col>" + " on a loom.", "Members: Milestone cape (80)"
+
+			case 12:
+				return 20762, 90, "Members can now weave a " + "<col=000080>" + "Milestone cape (90)" + "</col>" + " on a loom.", "Members: Milestone cape (90)"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1059, 1, "You can now craft " + "<col=000080>" + "leather gloves" + "</col>" + ".", "Leather gloves"
+
+			case 1:
+				return 22458, 3, "Members can now craft " + "<col=000080>" + "fungal visors" + "</col>" + ".", "Members: Fungal visor"
+
+			case 2:
+				return 1061, 7, "You can now craft " + "<col=000080>" + "leather boots" + "</col>" + ".", "Leather boots"
+
+			case 3:
+				return 1167, 9, "You can now craft " + "<col=000080>" + "leather cowls" + "</col>" + ".", "Leather cowl"
+
+			case 4:
+				return 1063, 11, "You can now craft " + "<col=000080>" + "leather vambraces" + "</col>" + ".", "Leather vambraces"
+
+			case 5:
+				return 22462, 12, "Members can now craft " + "<col=000080>" + "fungal leggings" + "</col>" + ".", "Members: Fungal leggings"
+
+			case 6:
+				return 1129, 14, "You can now craft " + "<col=000080>" + "leather bodies" + "</col>" + ".", "Leather body"
+
+			case 7:
+				return 3327, 15, "Members can now craft " + "<col=000080>" + "snail helmets" + "</col>" + ".", "Members: Snail helmet"
+
+			case 8:
+				return 7539, 15, "Members can now craft " + "<col=000080>" + "crab shell armour" + "</col>" + ".", "Members: Crab shell armour"
+
+			case 9:
+				return 1095, 18, "You can now craft " + "<col=000080>" + "leather chaps" + "</col>" + ".", "Leather chaps"
+
+			case 10:
+				return 22466, 21, "Members can now craft " + "<col=000080>" + "fungal ponchos" + "</col>" + ".", "Members: Fungal poncho"
+
+			case 11:
+				return 1131, 28, "You can now craft " + "<col=000080>" + "hard leather bodies" + "</col>" + ".", "Hard leather body"
+
+			case 12:
+				return 10077, 32, "Members can now craft " + "<col=000080>" + "spiked vambraces" + "</col>" + ".", "Members: Spiked vambraces"
+
+			case 13:
+				return 6259, 35, "Members can now craft " + "<col=000080>" + "broodoo shields" + "</col>" + ".", "Members: Broodoo shield"
+
+			case 14:
+				return 1169, 38, "Members can now craft " + "<col=000080>" + "coifs" + "</col>" + ".", "Members: Coif"
+
+			case 15:
+				return 1133, 41, "Members can now craft " + "<col=000080>" + "studded bodies" + "</col>" + ".", "Members: Studded body"
+
+			case 16:
+				return 10824, 43, "Members can now craft " + "<col=000080>" + "yak-hide leg armour" + "</col>" + ".", "Members: Yak-hide leg armour"
+
+			case 17:
+				return 1097, 44, "Members can now craft " + "<col=000080>" + "studded chaps" + "</col>" + ".", "Members: Studded chaps"
+
+			case 18:
+				return 6328, 45, "Members can now craft " + "<col=000080>" + "snakeskin boots" + "</col>" + ".", "Members: Snakeskin boots"
+
+			case 19:
+				return 10822, 46, "Members can now craft " + "<col=000080>" + "yak-hide body armour" + "</col>" + ".", "Members: Yak-hide body armour"
+
+			case 20:
+				return 6330, 47, "Members can now craft " + "<col=000080>" + "snakeskin vambraces" + "</col>" + ".", "Members: Snakeskin vambraces"
+
+			case 21:
+				return 6326, 48, "Members can now craft " + "<col=000080>" + "snakeskin bandanas" + "</col>" + ".", "Members: Snakeskin bandana"
+
+			case 22:
+				return 6324, 51, "Members can now craft " + "<col=000080>" + "snakeskin chaps" + "</col>" + ".", "Members: Snakeskin chaps"
+
+			case 23:
+				return 6322, 53, "Members can now craft " + "<col=000080>" + "snakeskin bodies" + "</col>" + ".", "Members: Snakeskin body"
+
+			case 24:
+				return 13263, 55, "Members can now craft " + "<col=000080>" + "Slayer helmets" + "</col>" + " (after Smoking Kills).", "Members: Slayer helmet" + "<br>" + " (after Smoking Kills)"
+
+			case 25:
+				return 1065, 57, "Members can now craft " + "<col=000080>" + "green dragonhide vambraces" + "</col>" + ".", "Members: Green dragonhide vambraces"
+
+			case 26:
+				return 1099, 60, "Members can now craft " + "<col=000080>" + "green dragonhide chaps" + "</col>" + ".", "Members: Green dragonhide chaps"
+
+			case 27:
+				return 1135, 63, "Members can now craft " + "<col=000080>" + "green dragonhide bodies" + "</col>" + ".", "Members: Green dragonhide body"
+
+			case 28:
+				return 10075, 64, "Members can now repair " + "<col=000080>" + "gloves of silence" + "</col>" + " with dark kebbit fur.", "Members: Repairing gloves of silence"
+
+			case 29:
+				return 22470, 65, "Members can now craft " + "<col=000080>" + "grifolic visors" + "</col>" + ".", "Members: Grifolic visor"
+
+			case 30:
+				return 2487, 66, "Members can now craft " + "<col=000080>" + "blue dragonhide vambraces" + "</col>" + ".", "Members: Blue dragonhide vambraces"
+
+			case 31:
+				return 2493, 68, "Members can now craft " + "<col=000080>" + "blue dragonhide chaps" + "</col>" + ".", "Members: Blue dragonhide chaps"
+
+			case 32:
+				return 2499, 71, "Members can now craft " + "<col=000080>" + "blue dragonhide bodies" + "</col>" + ".", "Members: Blue dragonhide body"
+
+			case 33:
+				return 22474, 72, "Members can now craft " + "<col=000080>" + "grifolic leggings" + "</col>" + ".", "Members: Grifolic leggings"
+
+			case 34:
+				return 2489, 73, "Members can now craft " + "<col=000080>" + "red dragonhide vambraces" + "</col>" + ".", "Members: Red dragonhide vambraces"
+
+			case 35:
+				return 2495, 75, "Members can now craft " + "<col=000080>" + "red dragonhide chaps" + "</col>" + ".", "Members: Red dragonhide chaps"
+
+			case 36:
+				return 2501, 77, "Members can now craft " + "<col=000080>" + "red dragonhide bodies" + "</col>" + ".", "Members: Red dragonhide body"
+
+			case 37:
+				return 22478, 78, "Members can now craft " + "<col=000080>" + "grifolic ponchos" + "</col>" + ".", "Members: Grifolic poncho"
+
+			case 38:
+				return 12210, 79, "Members can now craft " + "<col=000080>" + "feathered headdresses" + "</col>" + ".", "Members: Feathered headdress"
+
+			case 39:
+				return 2491, 79, "Members can now craft " + "<col=000080>" + "black dragonhide vambraces" + "</col>" + ".", "Members: Black dragonhide vambraces"
+
+			case 40:
+				return 2497, 82, "Members can now craft " + "<col=000080>" + "black dragonhide chaps" + "</col>" + ".", "Members: Black dragonhide chaps"
+
+			case 41:
+				return 2503, 84, "Members can now craft " + "<col=000080>" + "black dragonhide bodies" + "</col>" + ".", "Members: Black dragonhide body"
+
+			case 42:
+				return 21508, 85, "Members can now craft " + "<col=000080>" + "necromancer robes" + "</col>" + " by using necromancer kits on Dagon'hai robes.", "Members: Necromancer robes"
+
+			case 43:
+				return 22482, 86, "Members can now craft " + "<col=000080>" + "ganodermic visors" + "</col>" + ".", "Members: Ganodermic visor"
+
+			case 44:
+				return 22486, 92, "Members can now craft " + "<col=000080>" + "ganodermic leggings" + "</col>" + ".", "Members: Ganodermic leggings"
+
+			case 45:
+				return 22490, 98, "Members can now craft " + "<col=000080>" + "ganodermic ponchos" + "</col>" + ".", "Members: Ganodermic poncho"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1759, 1, "You can now spin wool from a sheep into " + "<col=000080>" + "balls of wool" + "</col>" + ".", "Wool"
+
+			case 1:
+				return 1777, 1, "Members can now spin flax into " + "<col=000080>" + "bow strings" + "</col>" + ".", "Members: Flax into bow strings"
+
+			case 2:
+				return 9438, 10, "Members can now spin sinew into " + "<col=000080>" + "crossbow strings" + "</col>" + ".", "Members: Sinew into crossbow strings"
+
+			case 3:
+				return 6038, 19, "Members can now spin magic tree roots into " + "<col=000080>" + "magic strings" + "</col>" + ".", "Members: Magic tree roots into magic strings"
+
+			case 4:
+				return 954, 30, "Members can now spin yak hair into " + "<col=000080>" + "rope.", "Members: Yak hair into rope"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1931, 1, "You can now craft and fire " + "<col=000080>" + "clay pots" + "</col>" + ".", "Pot"
+
+			case 1:
+				return 20382, 1, "You can now craft, fire and attach runes to " + "<col=000080>" + "cracked mining urns" + "</col>" + ".", "Cracked mining urn"
+
+			case 2:
+				return 20352, 2, "You can now craft, fire and attach runes to " + "<col=000080>" + "cracked cooking urns" + "</col>" + ".", "Cracked cooking urn"
+
+			case 3:
+				return 20322, 2, "You can now craft, fire and attach runes to " + "<col=000080>" + "cracked fishing urns" + "</col>" + ".", "Cracked fishing urn"
+
+			case 4:
+				return 20412, 2, "You can now craft, fire and attach runes to " + "<col=000080>" + "impious urns" + "</col>" + ".", "Impious urn"
+
+			case 5:
+				return 20053, 4, "You can now craft and fire " + "<col=000080>" + "clay rings" + "</col>" + ".", "Clay ring"
+
+			case 6:
+				return 20298, 4, "You can now craft, fire and attach runes to " + "<col=000080>" + "cracked woodcutting urns" + "</col>" + ".", "Cracked woodcutting urn"
+
+			case 7:
+				return 20274, 4, "You can now craft, fire and attach runes to " + "<col=000080>" + "cracked smelting urns" + "</col>" + ".", "Cracked smelting urn"
+
+			case 8:
+				return 2313, 7, "You can now craft and fire " + "<col=000080>" + "clay pie dishes" + "</col>" + ".", "Pie dish"
+
+			case 9:
+				return 1923, 8, "You can now craft and fire " + "<col=000080>" + "clay bowls" + "</col>" + ".", "Bowl"
+
+			case 10:
+				return 20358, 12, "You can now craft, fire and attach runes to " + "<col=000080>" + "fragile cooking urns" + "</col>" + ".", "Fragile cooking urn"
+
+			case 11:
+				return 20328, 15, "You can now craft, fire and attach runes to " + "<col=000080>" + "fragile fishing urns" + "</col>" + ".", "Fragile fishing urn"
+
+			case 12:
+				return 20304, 15, "You can now craft, fire and attach runes to " + "<col=000080>" + "fragile woodcutting urns" + "</col>" + ".", "Fragile woodcutting urn"
+
+			case 13:
+				return 20388, 17, "You can now craft, fire and attach runes to " + "<col=000080>" + "fragile mining urns" + "</col>" + ".", "Fragile mining urn"
+
+			case 14:
+				return 20280, 17, "You can now craft, fire and attach runes to " + "<col=000080>" + "fragile smelting urns" + "</col>" + ".", "Fragile smelting urn"
+
+			case 15:
+				return 5350, 19, "Members can now craft and fire " + "<col=000080>" + "clay plant pots" + "</col>" + ".", "Members: Plant pot"
+
+			case 16:
+				return 4440, 25, "Members can now craft and fire " + "<col=000080>" + "clay pot lids" + "</col>" + " (after starting One Small Favour.)", "Members: Pot lid" + "<br>" + " (after starting One Small Favour)"
+
+			case 17:
+				return 20418, 26, "You can now craft, fire and attach runes to " + "<col=000080>" + "accursed urns" + "</col>" + ".", "Accursed urn"
+
+			case 18:
+				return 20394, 32, "You can now craft, fire and attach runes to " + "<col=000080>" + "mining urns" + "</col>" + ".", "Mining urn"
+
+			case 19:
+				return 20286, 35, "You can now craft, fire and attach runes to " + "<col=000080>" + "smelting urns" + "</col>" + ".", "Smelting urn"
+
+			case 20:
+				return 20364, 36, "You can now craft, fire and attach runes to " + "<col=000080>" + "cooking urns" + "</col>" + ".", "Cooking urn"
+
+			case 21:
+				return 20334, 41, "You can now craft, fire and attach runes to " + "<col=000080>" + "fishing urns" + "</col>" + ".", "Fishing urn"
+
+			case 22:
+				return 20310, 44, "You can now craft, fire and attach runes to " + "<col=000080>" + "woodcutting urns" + "</col>" + ".", "Woodcutting urn"
+
+			case 23:
+				return 20400, 48, "Members can now craft, fire and attach runes to " + "<col=000080>" + "strong mining urns" + "</col>" + ".", "Members: Strong mining urn"
+
+			case 24:
+				return 20292, 49, "Members can now craft, fire and attach runes to " + "<col=000080>" + "strong smelting urns" + "</col>" + ".", "Members: Strong smelting urn"
+
+			case 25:
+				return 20370, 51, "Members can now craft, fire and attach runes to " + "<col=000080>" + "strong cooking urns" + "</col>" + ".", "Members: Strong cooking urn"
+
+			case 26:
+				return 20340, 53, "Members can now craft, fire and attach runes to " + "<col=000080>" + "strong fishing urns" + "</col>" + ".", "Members: Strong fishing urn"
+
+			case 27:
+				return 20406, 59, "Members can now craft, fire and attach runes to " + "<col=000080>" + "decorated mining urns" + "</col>" + ".", "Members: Decorated mining urn"
+
+			case 28:
+				return 20316, 61, "Members can now craft, fire and attach runes to " + "<col=000080>" + "strong woodcutting urns" + "</col>" + ".", "Members: Strong woodcutting urn"
+
+			case 29:
+				return 20424, 62, "Members can now craft, fire and attach runes to " + "<col=000080>" + "infernal urns" + "</col>" + ".", "Members: Infernal urn"
+
+			case 30:
+				return 20346, 76, "Members can now craft, fire and attach runes to " + "<col=000080>" + "decorated fishing urns" + "</col>" + ".", "Members: Decorated fishing urn"
+
+			case 31:
+				return 20376, 81, "Members can now craft, fire and attach runes to " + "<col=000080>" + "decorated cooking urns" + "</col>" + ".", "Members: Decorated cooking urn"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1919, 1, "Members can now craft " + "<col=000080>" + "beer glasses" + "</col>" + ".", "Members: Beer glass"
+
+			case 1:
+				return 4527, 4, "Members can now craft " + "<col=000080>" + "candle lanterns" + "</col>" + ".", "Members: Candle lantern"
+
+			case 2:
+				return 4525, 12, "Members can now craft " + "<col=000080>" + "oil lamps" + "</col>" + ".", "Members: Oil lamp"
+
+			case 3:
+				return 4535, 26, "Members can now craft " + "<col=000080>" + "oil lanterns" + "</col>" + ".", "Members: Oil lantern"
+
+			case 4:
+				return 229, 33, "Members can now craft " + "<col=000080>" + "vials" + "</col>" + ".", "Members: Vial"
+
+			case 5:
+				return 6667, 42, "Members can now craft " + "<col=000080>" + "fishbowls" + "</col>" + ".", "Members: Fishbowl"
+
+			case 6:
+				return 567, 46, "Members can now craft " + "<col=000080>" + "glass orbs" + "</col>" + ".", "Members: Glass orb"
+
+			case 7:
+				return 4542, 49, "Members can now craft " + "<col=000080>" + "bullseye lantern lenses" + "</col>" + ".", "Members: Bullseye lantern lens"
+
+			case 8:
+				return 10973, 87, "Members can now craft " + "<col=000080>" + "Dorgeshuun light orbs" + "</col>" + ".", "Members: Dorgeshuun light orb"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21347, 1, "Members can now craft a " + "<col=000080>" + "lapis lazuli brooch" + "</col>" + ".", "Members: Lapis lazuli brooch"
+
+			case 1:
+				return 1609, 1, "Members can now cut " + "<col=000080>" + "opals" + "</col>" + ".", "Members: Cut opal"
+
+			case 2:
+				return 10496, 3, "You can now craft " + "<col=000080>" + "polished buttons" + "</col>" + ".", "Polished buttons"
+
+			case 3:
+				return 1635, 5, "You can now craft " + "<col=000080>" + "gold rings" + "</col>" + ".", "Gold ring"
+
+			case 4:
+				return 1654, 6, "You can now craft " + "<col=000080>" + "gold necklaces" + "</col>" + ".", "Gold necklace"
+
+			case 5:
+				return 11069, 7, "Members can now craft " + "<col=000080>" + "gold bracelets" + "</col>" + ".", "Members: Gold bracelet"
+
+			case 6:
+				return 1692, 8, "You can now craft " + "<col=000080>" + "gold amulets" + "</col>" + ".", "Gold amulet"
+
+			case 7:
+				return 1611, 13, "Members can now cut " + "<col=000080>" + "jade" + "</col>" + ".", "Members: Cut jade"
+
+			case 8:
+				return 1716, 16, "You can now craft " + "<col=000080>" + "holy symbols" + "</col>" + ".", "Holy symbol"
+
+			case 9:
+				return 1613, 16, "Members can now cut " + "<col=000080>" + "red topaz" + "</col>" + ".", "Members: Cut red topaz"
+
+			case 10:
+				return 1722, 17, "Members can now craft " + "<col=000080>" + "unholy symbols" + "</col>" + ".", "Members: Unholy symbol"
+
+			case 11:
+				return 1607, 20, "You can now craft " + "<col=000080>" + "sapphires" + "</col>" + ".", "Cut sapphire"
+
+			case 12:
+				return 1637, 20, "You can now craft " + "<col=000080>" + "sapphire rings" + "</col>" + ".", "Sapphire ring"
+
+			case 13:
+				return 1656, 22, "You can now craft " + "<col=000080>" + "sapphire necklaces" + "</col>" + ".", "Sapphire necklace"
+
+			case 14:
+				return 5525, 23, "You can now craft " + "<col=000080>" + "tiaras" + "</col>" + ".", "Tiara"
+
+			case 15:
+				return 11072, 23, "Members can now craft " + "<col=000080>" + "sapphire bracelets" + "</col>" + ".", "Members: Sapphire bracelet"
+
+			case 16:
+				return 1694, 24, "You can now craft " + "<col=000080>" + "sapphire amulets" + "</col>" + ".", "Sapphire amulet"
+
+			case 17:
+				return 1605, 27, "You can now cut " + "<col=000080>" + "emeralds" + "</col>" + ".", "Cut emerald"
+
+			case 18:
+				return 1639, 27, "You can now craft " + "<col=000080>" + "emerald rings" + "</col>" + ".", "Emerald ring"
+
+			case 19:
+				return 1658, 29, "You can now craft " + "<col=000080>" + "emerald necklaces" + "</col>" + ".", "Emerald necklace"
+
+			case 20:
+				return 11076, 30, "Members can now craft " + "<col=000080>" + "emerald bracelets" + "</col>" + ".", "Members: Emerald bracelet"
+
+			case 21:
+				return 1696, 31, "You can now craft " + "<col=000080>" + "emerald amulets" + "</col>" + ".", "Emerald amulet"
+
+			case 22:
+				return 1603, 34, "You can now cut " + "<col=000080>" + "rubies" + "</col>" + ".", "Cut ruby"
+
+			case 23:
+				return 1641, 34, "You can now craft " + "<col=000080>" + "ruby rings" + "</col>" + ".", "Ruby ring"
+
+			case 24:
+				return 10132, 37, "Members can now craft " + "<col=000080>" + "rabbit-foot necklaces" + "</col>" + ".", "Members: Rabbit-foot necklaces"
+
+			case 25:
+				return 1660, 40, "You can now craft " + "<col=000080>" + "ruby necklaces" + "</col>" + ".", "Ruby necklace"
+
+			case 26:
+				return 11085, 42, "Members can now craft " + "<col=000080>" + "ruby bracelets" + "</col>" + ".", "Members: Ruby bracelet"
+
+			case 27:
+				return 1601, 43, "You can now cut " + "<col=000080>" + "diamonds" + "</col>" + ".", "Cut diamond"
+
+			case 28:
+				return 1643, 43, "You can now craft " + "<col=000080>" + "diamond rings" + "</col>" + ".", "Diamond ring"
+
+			case 29:
+				return 1698, 50, "You can now craft " + "<col=000080>" + "ruby amulets" + "</col>" + ".", "Ruby amulet"
+
+			case 30:
+				return 1615, 55, "Members can now cut " + "<col=000080>" + "dragonstones" + "</col>" + ".", "Members: Cut dragonstone"
+
+			case 31:
+				return 1645, 55, "Members can now craft " + "<col=000080>" + "dragonstone rings" + "</col>" + ".", "Members: Dragonstone ring"
+
+			case 32:
+				return 1662, 56, "You can now craft " + "<col=000080>" + "diamond necklaces" + "</col>" + ".", "Diamond necklace"
+
+			case 33:
+				return 11092, 58, "Members can now craft " + "<col=000080>" + "diamond bracelets" + "</col>" + ".", "Members: Diamond bracelet"
+
+			case 34:
+				return 6573, 67, "Members can now cut " + "<col=000080>" + "onyx" + "</col>" + ".", "Members: Cut onyx"
+
+			case 35:
+				return 6575, 67, "Members can now craft " + "<col=000080>" + "onyx rings" + "</col>" + ".", "Members: Onyx ring"
+
+			case 36:
+				return 1700, 70, "You can now craft " + "<col=000080>" + "diamond amulets" + "</col>" + ".", "Diamond amulet"
+
+			case 37:
+				return 1664, 72, "Members can now craft " + "<col=000080>" + "dragonstone necklaces" + "</col>" + ".", "Members: Dragonstone necklace"
+
+			case 38:
+				return 11115, 74, "Members can now craft " + "<col=000080>" + "dragonstone bracelets" + "</col>" + ".", "Members: Dragonstone bracelet"
+
+			case 39:
+				return 13281, 75, "Members can now craft " + "<col=000080>" + "rings of slaying" + "</col>" + " (after Smoking Kills).", "Members: Ring of slaying" + "<br>" + " (after Smoking Kills)"
+
+			case 40:
+				return 1702, 80, "Members can now craft " + "<col=000080>" + "dragonstone amulets" + "</col>" + ".", "Members: Dragonstone amulet"
+
+			case 41:
+				return 6577, 82, "Members can now craft " + "<col=000080>" + "onyx necklaces" + "</col>" + ".", "Members: Onyx necklace"
+
+			case 42:
+				return 11130, 84, "Members can now craft " + "<col=000080>" + "onyx bracelets" + "</col>" + ".", "Members: Onyx bracelet"
+
+			case 43:
+				return 6581, 90, "Members can now craft " + "<col=000080>" + "onyx amulets" + "</col>" + ".", "Members: Onyx amulet"
+
+			case 44:
+				return 21526, 91, "Members can now craft " + "<col=000080>" + "shark's tooth necklaces" + "</col>" + ".", "Members: Shark's tooth necklace"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2961, 18, "Members can now craft silver sickles.", "Members: Silver sickle"
+
+			case 1:
+				return 9145, 21, "Members can now craft " + "<col=000080>" + "silver crossbow bolts" + "</col>" + ".", "Members: Silver crossbow bolt"
+
+			case 2:
+				return 1395, 54, "Members can now craft " + "<col=000080>" + "water battlestaves" + "</col>" + ".", "Members: Water battlestaff"
+
+			case 3:
+				return 1399, 58, "Members can now craft " + "<col=000080>" + "earth battlestaves" + "</col>" + ".", "Members: Earth battlestaff"
+
+			case 4:
+				return 1393, 62, "Members can now craft " + "<col=000080>" + "fire battlestaves" + "</col>" + ".", "Members: Fire battlestaff"
+
+			case 5:
+				return 1397, 66, "Members can now craft " + "<col=000080>" + "air battlestaves" + "</col>" + ".", "Members: Air battlestaff"
+
+			case 6:
+				return 21777, 77, "Members can now craft " + "<col=000080>" + "Armadyl battlestaves" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Armadyl battlestaff" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 7:
+				return 21490, 85, "Members can now use shade skulls to create " + "<col=000080>" + "skeletal" + "</col>" + " and " + "<col=000080>" + "necromancer staves" + "</col>" + " from Shades of Mort'ton.", "Members: Skeletal and Necromancer Staves"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To start Firemaking in the manner of the barbarians, talk to Otto Godblessed when you have level 35 Firemaking or higher. Pyre ships can only be constructed and burnt where the ground is charred around the lake next to Otto's hut."
+
+			case 1:
+				return 1511, 11, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "wood pyre ships" + "</col>" + ". (They also need level 11 Firemaking.)", "Members: Wood" + "<br>" + " (with 11 Firemaking)"
+
+			case 2:
+				return 2862, 11, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "achey log pyre ships" + "</col>" + ". (They also need level 11 Firemaking.)", "Members: Achey" + "<br>" + " (with 11 Firemaking)"
+
+			case 3:
+				return 1521, 25, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "oak pyre ships" + "</col>" + ". (They also need level 25 Firemaking.)", "Members: Oak" + "<br>" + " (with 25 Firemaking)"
+
+			case 4:
+				return 1519, 40, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "willow pyre ships" + "</col>" + ". (They also need level 40 Firemaking.)", "Members: Willow" + "<br>" + " (with 40 Firemaking)"
+
+			case 5:
+				return 6333, 45, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "teak pyre ships" + "</col>" + ". (They also need level 45 Firemaking.)", "Members: Teak" + "<br>" + " (with 45 Firemaking)"
+
+			case 6:
+				return 10810, 52, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "arctic pine pyre ships" + "</col>" + ". (They also need level 52 Firemaking.)", "Members: Arctic pine" + "<br>" + " (with 52 Firemaking)"
+
+			case 7:
+				return 1517, 55, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "maple pyre ships" + "</col>" + ". (They also need level 55 Firemaking.)", "Members: Maple" + "<br>" + " (with 55 Firemaking)"
+
+			case 8:
+				return 6332, 60, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "mahogany pyre ships" + "</col>" + ". (They also need level 60 Firemaking.)", "Members: Mahogany" + "<br>" + " (with 60 Firemaking)"
+
+			case 9:
+				return 12581, 68, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "eucalyptus pyre ships" + "</col>" + ". (They also need level 68 Firemaking.)", "Members: Eucalyptus" + "<br>" + " (with 68 Firemaking)"
+
+			case 10:
+				return 1515, 70, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "yew pyre ships" + "</col>" + ". (They also need level 70 Firemaking.)", "Members: Yew" + "<br>" + " (with 70 Firemaking)"
+
+			case 11:
+				return 1513, 85, "Members versed in the art of barbarian firemaking now have the Crafting level required to make " + "<col=000080>" + "magic log pyre ships" + "</col>" + ". (They also need level 85 Firemaking.)", "Members: Magic" + "<br>" + " (with 85 Firemaking)"
+
+
+		}
+		break
+	case 8:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 8792, 8, "Members can now craft " + "<col=000080>" + "clockwork mechanisms" + "</col>" + " in the workshop of their player-owned house.", "Members: Clockwork mechanism"
+
+			case 1:
+				return 2522, 10, "Members can now craft " + "<col=000080>" + "toy horseys" + "</col>" + " in the workshop of their player-owned house.", "Members: Toy horsey"
+
+			case 2:
+				return 7761, 13, "Members can now craft " + "<col=000080>" + "clockwork soldiers" + "</col>" + " in the workshop of their player-owned house.", "Members: Clockwork soldier"
+
+			case 3:
+				return 7765, 18, "Members can now craft " + "<col=000080>" + "clockwork dolls" + "</col>" + " in the workshop of their player-owned house.", "Members: Clockwork doll"
+
+			case 4:
+				return 4201, 20, "Members can now make " + "<col=000080>" + "lightning conductors" + "</col>" + " (after starting Creature of Fenkenstrain).", "Members: Conductor" + "<br>" + " (after starting Creature of Fenkenstrain)"
+
+			case 5:
+				return 2574, 23, "Members can now craft " + "<col=000080>" + "sextants" + "</col>" + " in the workshop of their player-owned house.", "Members: Sextant"
+
+			case 6:
+				return 18338, 25, "You can now use " + "<col=000080>" + "gem bags" + "</col>" + ". (You also need level 25 Dungeoneering.)", "Gem bag" + "<br>" + " (with 25 Dungeoneering)"
+
+			case 7:
+				return 2575, 28, "Members can now craft " + "<col=000080>" + "watches" + "</col>" + " in the workshop of their player-owned house.", "Members: Watch"
+
+			case 8:
+				return 10595, 30, "Members can now craft " + "<col=000080>" + "clockwork penguins" + "</col>" + " in the workshop of their player-owned house.", "Members: Clockwork penguins"
+
+			case 9:
+				return 7769, 33, "Members can now craft " + "<col=000080>" + "clockwork mice" + "</col>" + " in the workshop of their player-owned house.", "Members: Clockwork mouse"
+
+			case 10:
+				return 13246, 43, "Members can now make " + "<col=000080>" + "pillars" + "</col>" + " (after starting TokTz-Ket-Dill).", "Members: Pillar" + "<br>" + " (after starting TokTz-Ket-Dill)"
+
+			case 11:
+				return 7771, 85, "Members can now craft " + "<col=000080>" + "clockwork cats" + "</col>" + " in the workshop of their player-owned house.", "Members: Clockwork cat"
+
+
+		}
+		break
+	case 9:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 20704, 60, "Members can access " + "<col=000080>" + "Livid Farm" + "</col>" + " (with 70 Magic, 60 Agility, 60 Farming, 50 Construction and Lunar Diplomacy).", "Members: access to the Livid Farm (with 70 Magic, 60 Agility, 60 Farming, 50 Construction and Lunar Diplomacy)"
+
+			case 1:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Crafting.", "Members: Starved ancient effigies"
+
+			case 2:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Crafting.", "Members: Nourished ancient effigies"
+
+			case 3:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Crafting.", "Members: Sated ancient effigies"
+
+			case 4:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Crafting.", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14152, 1, "Members can now craft " + "<col=000080>" + "class 1 butterfly nets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 butterfly net"
+
+			case 1:
+				return 14142, 1, "Members can now craft " + "<col=000080>" + "class 1 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 harpoon"
+
+			case 2:
+				return 14377, 1, "Members can now craft " + "<col=000080>" + "class 1 staves" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 staff"
+
+			case 3:
+				return 14391, 1, "Members can now craft " + "<col=000080>" + "class 1 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 leather body"
+
+			case 4:
+				return 14401, 1, "Members can now craft " + "<col=000080>" + "class 1 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 chaps"
+
+			case 5:
+				return 14411, 1, "Members can now craft " + "<col=000080>" + "class 1 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 coif"
+
+			case 6:
+				return 14317, 1, "Members can now craft " + "<col=000080>" + "class 1 robe tops" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 robe top"
+
+			case 7:
+				return 14327, 1, "Members can now craft " + "<col=000080>" + "class 1 robe bottoms" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 robe bottom"
+
+			case 8:
+				return 14337, 1, "Members can now craft " + "<col=000080>" + "class 1 hats" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 hat"
+
+			case 9:
+				return 14154, 20, "Members can now craft " + "<col=000080>" + "class 2 butterfly nets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 butterfly net"
+
+			case 10:
+				return 14144, 20, "Members can now craft " + "<col=000080>" + "class 2 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 harpoon"
+
+			case 11:
+				return 14379, 20, "Members can now craft " + "<col=000080>" + "class 2 staves" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 staff"
+
+			case 12:
+				return 14393, 20, "Members can now craft " + "<col=000080>" + "class 2 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 leather body"
+
+			case 13:
+				return 14403, 20, "Members can now craft " + "<col=000080>" + "class 2 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 chaps"
+
+			case 14:
+				return 14413, 20, "Members can now craft " + "<col=000080>" + "class 2 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 coif"
+
+			case 15:
+				return 14319, 20, "Members can now craft " + "<col=000080>" + "class 2 robe tops" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 robe top"
+
+			case 16:
+				return 14329, 20, "Members can now craft " + "<col=000080>" + "class 2 robe bottoms" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 robe bottom"
+
+			case 17:
+				return 14339, 20, "Members can now craft " + "<col=000080>" + "class 2 hats" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 hat"
+
+			case 18:
+				return 14156, 40, "Members can now craft " + "<col=000080>" + "class 3 butterfly nets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 butterfly net"
+
+			case 19:
+				return 14146, 40, "Members can now craft " + "<col=000080>" + "class 3 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 harpoon"
+
+			case 20:
+				return 14381, 40, "Members can now craft " + "<col=000080>" + "class 3 staves" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 staff"
+
+			case 21:
+				return 14395, 40, "Members can now craft " + "<col=000080>" + "class 3 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 leather body"
+
+			case 22:
+				return 14405, 40, "Members can now craft " + "<col=000080>" + "class 3 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 chaps"
+
+			case 23:
+				return 14415, 40, "Members can now craft " + "<col=000080>" + "class 3 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 coif"
+
+			case 24:
+				return 14321, 40, "Members can now craft " + "<col=000080>" + "class 3 robe tops" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 robe top"
+
+			case 25:
+				return 14331, 40, "Members can now craft " + "<col=000080>" + "class 3 robe bottoms" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 robe bottom"
+
+			case 26:
+				return 14341, 40, "Members can now craft " + "<col=000080>" + "class 3 hats" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 hat"
+
+			case 27:
+				return 14619, 52, "Members can now craft the phoenix's " + "<col=000080>" + "funeral pyre" + "</col>" + " in the phoenix lair.", "Members: Phoenix lair - funeral pyre"
+
+			case 28:
+				return 14158, 60, "Members can now craft " + "<col=000080>" + "class 4 butterfly nets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 butterfly net"
+
+			case 29:
+				return 14148, 60, "Members can now craft " + "<col=000080>" + "class 4 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 harpoon"
+
+			case 30:
+				return 14383, 60, "Members can now craft " + "<col=000080>" + "class 4 staves" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 staff"
+
+			case 31:
+				return 14397, 60, "Members can now craft " + "<col=000080>" + "class 4 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 leather body"
+
+			case 32:
+				return 14407, 60, "Members can now craft " + "<col=000080>" + "class 4 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 chaps"
+
+			case 33:
+				return 14417, 60, "Members can now craft " + "<col=000080>" + "class 4 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 coif"
+
+			case 34:
+				return 14323, 60, "Members can now craft " + "<col=000080>" + "class 4 robe tops" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 robe top"
+
+			case 35:
+				return 14333, 60, "Members can now craft " + "<col=000080>" + "class 4 robe bottoms" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 robe bottom"
+
+			case 36:
+				return 14343, 60, "Members can now craft " + "<col=000080>" + "class 4 hats" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 hat"
+
+			case 37:
+				return 14160, 80, "Members can now craft " + "<col=000080>" + "class 5 butterfly nets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 butterfly net"
+
+			case 38:
+				return 14150, 80, "Members can now craft " + "<col=000080>" + "class 5 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 harpoon"
+
+			case 39:
+				return 14385, 80, "Members can now craft " + "<col=000080>" + "class 5 staves" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 staff"
+
+			case 40:
+				return 14399, 80, "Members can now craft " + "<col=000080>" + "class 5 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 leather body"
+
+			case 41:
+				return 14409, 80, "Members can now craft " + "<col=000080>" + "class 5 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 chaps"
+
+			case 42:
+				return 14419, 80, "Members can now craft " + "<col=000080>" + "class 5 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 coif"
+
+			case 43:
+				return 14325, 80, "Members can now craft " + "<col=000080>" + "class 5 robe tops" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 robe top"
+
+			case 44:
+				return 14335, 80, "Members can now craft " + "<col=000080>" + "class 5 robe bottoms" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 robe bottom"
+
+			case 45:
+				return 14345, 80, "Members can now craft " + "<col=000080>" + "class 5 hats" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 hat"
+
+
+		}
+		break
+	case 11:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks (Levels 1-99)" + "<br>" + "As your Crafting level increases, you will be able to attempt higher-level crafting tasks within Daemonheim. You will also be more likely to succeed when attempting crafting tasks within Daemonheim."
+
+			case 1:
+				return 17151, 1, "You can now craft " + "<col=000080>" + "salve gloves" + "</col>" + " within Daemonheim.", "Salve gloves (Tier 1)"
+
+			case 2:
+				return 17195, 1, "You can now craft " + "<col=000080>" + "protoleather vambraces" + "</col>" + " within Daemonheim.", "Protoleather vambraces (Tier 1)"
+
+			case 3:
+				return 16911, 2, "You can now craft " + "<col=000080>" + "salve shoes" + "</col>" + " within Daemonheim.", "Salve shoes (Tier 1)"
+
+			case 4:
+				return 17297, 3, "You can now craft " + "<col=000080>" + "protoleather boots" + "</col>" + " within Daemonheim.", "Protoleather boots (Tier 1)"
+
+			case 5:
+				return 16735, 4, "You can now craft " + "<col=000080>" + "salve hoods" + "</col>" + " within Daemonheim.", "Salve hood (Tier 1)"
+
+			case 6:
+				return 17041, 5, "You can now craft " + "<col=000080>" + "protoleather coifs" + "</col>" + " within Daemonheim.", "Protoleather coif (Tier 1)"
+
+			case 7:
+				return 16845, 6, "You can now craft " + "<col=000080>" + "salve robe bottoms" + "</col>" + " within Daemonheim.", "Salve robe bottom (Tier 1)"
+
+			case 8:
+				return 17319, 7, "You can now craft " + "<col=000080>" + "protoleather chaps" + "</col>" + " within Daemonheim.", "Protoleather chaps (Tier 1)"
+
+			case 9:
+				return 17217, 8, "You can now craft " + "<col=000080>" + "salve robe tops" + "</col>" + " within Daemonheim.", "Salve robe top (Tier 1)"
+
+			case 10:
+				return 17173, 9, "You can now craft " + "<col=000080>" + "protoleather bodies" + "</col>" + " within Daemonheim.", "Protoleather body (Tier 1)"
+
+			case 11:
+				return 17153, 10, "You can now craft " + "<col=000080>" + "wildercress gloves" + "</col>" + " within Daemonheim.", "Wildercress gloves (Tier 2)"
+
+			case 12:
+				return 17197, 11, "You can now craft " + "<col=000080>" + "subleather vambraces" + "</col>" + " within Daemonheim.", "Subleather vambraces (Tier 2)"
+
+			case 13:
+				return 16913, 12, "You can now craft " + "<col=000080>" + "wildercress shoes" + "</col>" + " within Daemonheim.", "Wildercress shoes (Tier 2)"
+
+			case 14:
+				return 17299, 13, "You can now craft " + "<col=000080>" + "subleather boots" + "</col>" + " within Daemonheim.", "Subleather boots (Tier 2)"
+
+			case 15:
+				return 16737, 14, "You can now craft " + "<col=000080>" + "wildercress hoods" + "</col>" + " within Daemonheim.", "Wildercress hood (Tier 2)"
+
+			case 16:
+				return 17043, 15, "You can now craft " + "<col=000080>" + "subleather coifs" + "</col>" + " within Daemonheim.", "Subleather coif (Tier 2)"
+
+			case 17:
+				return 16847, 16, "You can now craft " + "<col=000080>" + "wildercress robe bottoms" + "</col>" + " within Daemonheim.", "Wildercress robe bottom (Tier 2)"
+
+			case 18:
+				return 17321, 17, "You can now craft " + "<col=000080>" + "subleather chaps" + "</col>" + " within Daemonheim.", "Subleather chaps (Tier 2)"
+
+			case 19:
+				return 17219, 18, "You can now craft " + "<col=000080>" + "wildercress robe tops" + "</col>" + " within Daemonheim.", "Wildercress robe top (Tier 2)"
+
+			case 20:
+				return 17175, 19, "You can now craft " + "<col=000080>" + "subleather bodies" + "</col>" + " within Daemonheim.", "Subleather body (Tier 2)"
+
+			case 21:
+				return 17155, 20, "You can now craft " + "<col=000080>" + "blightleaf gloves" + "</col>" + " within Daemonheim.", "Blightleaf gloves (Tier 3)"
+
+			case 22:
+				return 17199, 21, "You can now craft " + "<col=000080>" + "paraleather vambraces" + "</col>" + " within Daemonheim.", "Paraleather vambraces (Tier 3)"
+
+			case 23:
+				return 16915, 22, "You can now craft " + "<col=000080>" + "blightleaf shoes" + "</col>" + " within Daemonheim.", "Blightleaf shoes (Tier 3)"
+
+			case 24:
+				return 17301, 23, "You can now craft " + "<col=000080>" + "paraleather boots" + "</col>" + " within Daemonheim.", "Paraleather boots (Tier 3)"
+
+			case 25:
+				return 16739, 24, "You can now craft " + "<col=000080>" + "blightleaf hoods" + "</col>" + " within Daemonheim.", "Blightleaf hood (Tier 3)"
+
+			case 26:
+				return 17045, 25, "You can now craft " + "<col=000080>" + "paraleather coifs" + "</col>" + " within Daemonheim.", "Paraleather coif (Tier 3)"
+
+			case 27:
+				return 16849, 26, "You can now craft " + "<col=000080>" + "blightleaf robe bottoms" + "</col>" + " within Daemonheim.", "Blightleaf robe bottom (Tier 3)"
+
+			case 28:
+				return 17323, 27, "You can now craft " + "<col=000080>" + "paraleather chaps" + "</col>" + " within Daemonheim.", "Paraleather chaps (Tier 3)"
+
+			case 29:
+				return 17221, 28, "You can now craft " + "<col=000080>" + "blightleaf robe tops" + "</col>" + " within Daemonheim.", "Blightleaf robe top (Tier 3)"
+
+			case 30:
+				return 17177, 29, "You can now craft " + "<col=000080>" + "paraleather bodies" + "</col>" + " within Daemonheim.", "Paraleather body (Tier 3)"
+
+			case 31:
+				return 17157, 30, "You can now craft " + "<col=000080>" + "roseblood gloves" + "</col>" + " within Daemonheim.", "Roseblood gloves (Tier 4)"
+
+			case 32:
+				return 17201, 31, "You can now craft " + "<col=000080>" + "archleather vambraces" + "</col>" + " within Daemonheim.", "Archleather vambraces (Tier 4)"
+
+			case 33:
+				return 16917, 32, "You can now craft " + "<col=000080>" + "roseblood shoes" + "</col>" + " within Daemonheim.", "Roseblood shoes (Tier 4)"
+
+			case 34:
+				return 17303, 33, "You can now craft " + "<col=000080>" + "archleather boots" + "</col>" + " within Daemonheim.", "Archleather boots (Tier 4)"
+
+			case 35:
+				return 16741, 34, "You can now craft " + "<col=000080>" + "roseblood hoods" + "</col>" + " within Daemonheim.", "Roseblood hood (Tier 4)"
+
+			case 36:
+				return 17047, 35, "You can now craft " + "<col=000080>" + "archleather coifs" + "</col>" + " within Daemonheim.", "Archleather coif (Tier 4)"
+
+			case 37:
+				return 16851, 36, "You can now craft " + "<col=000080>" + "roseblood robe bottoms" + "</col>" + " within Daemonheim.", "Roseblood robe bottom (Tier 4)"
+
+			case 38:
+				return 17325, 37, "You can now craft " + "<col=000080>" + "archleather chaps" + "</col>" + " within Daemonheim.", "Archleather chaps (Tier 4)"
+
+			case 39:
+				return 17223, 38, "You can now craft " + "<col=000080>" + "roseblood robe tops" + "</col>" + " within Daemonheim.", "Roseblood robe top (Tier 4)"
+
+			case 40:
+				return 17179, 39, "You can now craft " + "<col=000080>" + "archleather bodies" + "</col>" + " within Daemonheim.", "Archleather body (Tier 4)"
+
+			case 41:
+				return 17159, 40, "You can now craft " + "<col=000080>" + "bryll gloves" + "</col>" + " within Daemonheim.", "Bryll gloves (Tier 5)"
+
+			case 42:
+				return 17203, 41, "You can now craft " + "<col=000080>" + "dromoleather vambraces" + "</col>" + " within Daemonheim.", "Dromoleather vambraces (Tier 5)"
+
+			case 43:
+				return 16919, 42, "You can now craft " + "<col=000080>" + "bryll shoes" + "</col>" + " within Daemonheim.", "Bryll shoes (Tier 5)"
+
+			case 44:
+				return 17305, 43, "You can now craft " + "<col=000080>" + "dromoleather boots" + "</col>" + " within Daemonheim.", "Dromoleather boots (Tier 5)"
+
+			case 45:
+				return 16743, 44, "You can now craft " + "<col=000080>" + "bryll hoods" + "</col>" + " within Daemonheim.", "Bryll hood (Tier 5)"
+
+			case 46:
+				return 17049, 45, "You can now craft " + "<col=000080>" + "dromoleather coifs" + "</col>" + " within Daemonheim.", "Dromoleather coif (Tier 5)"
+
+			case 47:
+				return 16853, 46, "You can now craft " + "<col=000080>" + "bryll robe bottoms" + "</col>" + " within Daemonheim.", "Bryll robe bottom (Tier 5)"
+
+			case 48:
+				return 17327, 47, "You can now craft " + "<col=000080>" + "dromoleather chaps" + "</col>" + " within Daemonheim.", "Dromoleather chaps (Tier 5)"
+
+			case 49:
+				return 17225, 48, "You can now craft " + "<col=000080>" + "bryll robe tops" + "</col>" + " within Daemonheim.", "Bryll robe top (Tier 5)"
+
+			case 50:
+				return 17181, 49, "You can now craft " + "<col=000080>" + "dromoleather bodies" + "</col>" + " within Daemonheim.", "Dromoleather body (Tier 5)"
+
+			case 51:
+				return 17161, 50, "Members can now craft " + "<col=000080>" + "duskweed gloves" + "</col>" + " within Daemonheim.", "Members: Duskweed gloves (Tier 6)"
+
+			case 52:
+				return 17205, 51, "Members can now craft " + "<col=000080>" + "spinoleather vambraces" + "</col>" + " within Daemonheim.", "Members: Spinoleather vambraces (Tier 6)"
+
+			case 53:
+				return 16921, 52, "Members can now craft " + "<col=000080>" + "duskweed shoes" + "</col>" + " within Daemonheim.", "Members: Duskweed shoes (Tier 6)"
+
+			case 54:
+				return 17307, 53, "Members can now craft " + "<col=000080>" + "spinoleather boots" + "</col>" + " within Daemonheim.", "Members: Spinoleather boots (Tier 6)"
+
+			case 55:
+				return 16745, 54, "Members can now craft " + "<col=000080>" + "duskweed hoods" + "</col>" + " within Daemonheim.", "Members: Duskweed hood (Tier 6)"
+
+			case 56:
+				return 17051, 55, "Members can now craft " + "<col=000080>" + "spinoleather coifs" + "</col>" + " within Daemonheim.", "Members: Spinoleather coif (Tier 6)"
+
+			case 57:
+				return 16855, 56, "Members can now craft " + "<col=000080>" + "duskweed robe bottoms" + "</col>" + " within Daemonheim.", "Members: Duskweed robe bottom (Tier 6)"
+
+			case 58:
+				return 17329, 57, "Members can now craft " + "<col=000080>" + "spinoleather chaps" + "</col>" + " within Daemonheim.", "Members: Spinoleather chaps (Tier 6)"
+
+			case 59:
+				return 17227, 58, "Members can now craft " + "<col=000080>" + "duskweed robe tops" + "</col>" + " within Daemonheim.", "Members: Duskweed robe top (Tier 6)"
+
+			case 60:
+				return 17183, 59, "Members can now craft " + "<col=000080>" + "spinoleather bodies" + "</col>" + " within Daemonheim.", "Members: Spinoleather body (Tier 6)"
+
+			case 61:
+				return 17163, 60, "Members can now craft " + "<col=000080>" + "soulbell gloves" + "</col>" + " within Daemonheim.", "Members: Soulbell gloves (Tier 7)"
+
+			case 62:
+				return 17207, 61, "Members can now craft " + "<col=000080>" + "gallileather vambraces" + "</col>" + " within Daemonheim.", "Members: Gallileather vambraces (Tier 7)"
+
+			case 63:
+				return 16923, 62, "Members can now craft " + "<col=000080>" + "soulbell shoes" + "</col>" + " within Daemonheim.", "Members: Soulbell shoes (Tier 7)"
+
+			case 64:
+				return 17309, 63, "Members can now craft " + "<col=000080>" + "gallileather boots" + "</col>" + " within Daemonheim.", "Members: Gallileather boots (Tier 7)"
+
+			case 65:
+				return 16747, 64, "Members can now craft " + "<col=000080>" + "soulbell hoods" + "</col>" + " within Daemonheim.", "Members: Soulbell hood (Tier 7)"
+
+			case 66:
+				return 17053, 65, "Members can now craft " + "<col=000080>" + "gallileather coifs" + "</col>" + " within Daemonheim.", "Members: Gallileather coif (Tier 7)"
+
+			case 67:
+				return 16857, 66, "Members can now craft " + "<col=000080>" + "soulbell robe bottoms" + "</col>" + " within Daemonheim.", "Members: Soulbell robe bottom (Tier 7)"
+
+			case 68:
+				return 17331, 67, "Members can now craft " + "<col=000080>" + "gallileather chaps" + "</col>" + " within Daemonheim.", "Members: Gallileather chaps (Tier 7)"
+
+			case 69:
+				return 17229, 68, "Members can now craft " + "<col=000080>" + "soulbell robe tops" + "</col>" + " within Daemonheim.", "Members: Soulbell robe top (Tier 7)"
+
+			case 70:
+				return 17185, 69, "Members can now craft " + "<col=000080>" + "gallileather bodies" + "</col>" + " within Daemonheim.", "Members: Gallileather body (Tier 7)"
+
+			case 71:
+				return 17165, 70, "Members can now craft " + "<col=000080>" + "ectogloves" + "</col>" + " within Daemonheim.", "Members: Ectogloves (Tier 8)"
+
+			case 72:
+				return 17209, 71, "Members can now craft " + "<col=000080>" + "stegoleather vambraces" + "</col>" + " within Daemonheim.", "Members: Stegoleather vambraces (Tier 8)"
+
+			case 73:
+				return 16925, 72, "Members can now craft " + "<col=000080>" + "ectoshoes" + "</col>" + " within Daemonheim.", "Members: Ectoshoes (Tier 8)"
+
+			case 74:
+				return 17311, 73, "Members can now craft " + "<col=000080>" + "stegoleather boots" + "</col>" + " within Daemonheim.", "Members: Stegoleather boots (Tier 8)"
+
+			case 75:
+				return 16749, 74, "Members can now craft " + "<col=000080>" + "ectohoods" + "</col>" + " within Daemonheim.", "Members: Ectohood (Tier 8)"
+
+			case 76:
+				return 17055, 75, "Members can now craft " + "<col=000080>" + "stegoleather coifs" + "</col>" + " within Daemonheim.", "Members: Stegoleather coif (Tier 8)"
+
+			case 77:
+				return 16859, 76, "Members can now craft " + "<col=000080>" + "ectorobe bottoms" + "</col>" + " within Daemonheim.", "Members: Ectorobe bottom (Tier 8)"
+
+			case 78:
+				return 17333, 77, "Members can now craft " + "<col=000080>" + "stegoleather chaps" + "</col>" + " within Daemonheim.", "Members: Stegoleather chaps (Tier 8)"
+
+			case 79:
+				return 17231, 78, "Members can now craft " + "<col=000080>" + "ectorobe tops" + "</col>" + " within Daemonheim.", "Members: Ectorobe top (Tier 8)"
+
+			case 80:
+				return 17187, 79, "Members can now craft " + "<col=000080>" + "stegoleather bodies" + "</col>" + " within Daemonheim.", "Members: Stegoleather body (Tier 8)"
+
+			case 81:
+				return 17167, 80, "Members can now craft " + "<col=000080>" + "runic gloves" + "</col>" + " within Daemonheim.", "Members: Runic gloves (Tier 9)"
+
+			case 82:
+				return 17211, 81, "Members can now craft " + "<col=000080>" + "megaleather vambraces" + "</col>" + " within Daemonheim.", "Members: Megaleather vambraces (Tier 9)"
+
+			case 83:
+				return 16927, 82, "Members can now craft " + "<col=000080>" + "runic shoes" + "</col>" + " within Daemonheim.", "Members: Runic shoes (Tier 9)"
+
+			case 84:
+				return 17313, 83, "Members can now craft " + "<col=000080>" + "megaleather boots" + "</col>" + " within Daemonheim.", "Members: Megaleather boots (Tier 9)"
+
+			case 85:
+				return 16751, 84, "Members can now craft " + "<col=000080>" + "runic hoods" + "</col>" + " within Daemonheim.", "Members: Runic hood (Tier 9)"
+
+			case 86:
+				return 17057, 85, "Members can now craft " + "<col=000080>" + "megaleather coifs" + "</col>" + " within Daemonheim.", "Members: Megaleather coif (Tier 9)"
+
+			case 87:
+				return 16861, 86, "Members can now craft " + "<col=000080>" + "runic robe bottoms" + "</col>" + " within Daemonheim.", "Members: Runic robe bottom (Tier 9)"
+
+			case 88:
+				return 17335, 87, "Members can now craft " + "<col=000080>" + "megaleather chaps" + "</col>" + " within Daemonheim.", "Members: Megaleather chaps (Tier 9)"
+
+			case 89:
+				return 17233, 88, "Members can now craft " + "<col=000080>" + "runic robe tops" + "</col>" + " within Daemonheim.", "Members: Runic robe top (Tier 9)"
+
+			case 90:
+				return 17189, 89, "Members can now craft " + "<col=000080>" + "megaleather bodies" + "</col>" + " within Daemonheim.", "Members: Megaleather body (Tier 9)"
+
+			case 91:
+				return 17169, 90, "Members can now craft " + "<col=000080>" + "spiritbloom gloves" + "</col>" + " within Daemonheim.", "Members: Spiritbloom gloves (Tier 10)"
+
+			case 92:
+				return 17213, 91, "Members can now craft " + "<col=000080>" + "tyrannoleather vambraces" + "</col>" + " within Daemonheim.", "Members: Tyrannoleather vambraces (Tier 10)"
+
+			case 93:
+				return 16929, 92, "Members can now craft " + "<col=000080>" + "spiritbloom shoes" + "</col>" + " within Daemonheim.", "Members: Spiritbloom shoes (Tier 10)"
+
+			case 94:
+				return 17315, 93, "Members can now craft " + "<col=000080>" + "tyrannoleather boots" + "</col>" + " within Daemonheim.", "Members: Tyrannoleather boots (Tier 10)"
+
+			case 95:
+				return 16753, 94, "Members can now craft " + "<col=000080>" + "spiritbloom hoods" + "</col>" + " within Daemonheim.", "Members: Spiritbloom hood (Tier 10)"
+
+			case 96:
+				return 17059, 95, "Members can now craft " + "<col=000080>" + "tyrannoleather coifs" + "</col>" + " within Daemonheim.", "Members: Tyrannoleather coif (Tier 10)"
+
+			case 97:
+				return 16863, 96, "Members can now craft " + "<col=000080>" + "spiritbloom robe bottoms" + "</col>" + " within Daemonheim.", "Members: Spiritbloom robe bottom (Tier 10)"
+
+			case 98:
+				return 17337, 97, "Members can now craft " + "<col=000080>" + "tyrannoleather chaps" + "</col>" + " within Daemonheim.", "Members: Tyrannoleather chaps (Tier 10)"
+
+			case 99:
+				return 17235, 98, "Members can now craft " + "<col=000080>" + "spiritbloom robe tops" + "</col>" + " within Daemonheim.", "Members: Spiritbloom robe top (Tier 10)"
+
+			case 100:
+				return 17191, 99, "Members can now craft " + "<col=000080>" + "tyrannoleather bodies" + "</col>" + " within Daemonheim.", "Members: Tyrannoleather body (Tier 10)"
+
+
+		}
+		break
+	case 12:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1757, 40, "You can now enter the " + "<col=000080>" + "Crafting Guild" + "<col=000080>" + ".", "Crafting Guild"
+
+			case 1:
+				return 9780, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Crafting" + "<col=000080>" + ". Members can visit the " + "<col=800000>" + "Master Craftsman" + "<col=000080>" + " at the " + "<col=800000>" + "Crafting Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Crafting" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

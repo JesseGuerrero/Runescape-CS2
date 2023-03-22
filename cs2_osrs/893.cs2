@@ -1,0 +1,5 @@
+void script_893(Widget widget0) {
+	widget0.hookOptionClick(null);
+	widget0.hookMouseHover(null);
+	return;
+}

@@ -1,0 +1,65 @@
+//script4602(4602)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		if_sethide(if_gethash(16, 1), 1)
+		if_sethide(if_gethash(16, 52), 1)
+		if_sethide(if_gethash(16, 59), 1)
+		if_sethide(if_gethash(16, 37), 1)
+		if_sethide(if_gethash(16, 4), 1)
+		if_sethide(if_gethash(16, 18), 1)
+		if_sethide(if_gethash(16, 64), 1)
+		if_sethide(if_gethash(16, 76), 1)
+		break
+	case 1:
+		if_sethide(if_gethash(16, 1), 0)
+		if_sethide(if_gethash(16, 52), 0)
+		if_sethide(if_gethash(16, 59), 0)
+		if_sethide(if_gethash(16, 37), 1)
+		if_sethide(if_gethash(16, 4), 1)
+		if_sethide(if_gethash(16, 18), 1)
+		if_sethide(if_gethash(16, 64), 1)
+		if_sethide(if_gethash(16, 76), 1)
+		break
+	case 2:
+		if_sethide(if_gethash(16, 1), 1)
+		if_sethide(if_gethash(16, 52), 1)
+		if_sethide(if_gethash(16, 59), 1)
+		if_sethide(if_gethash(16, 37), 1)
+		if_sethide(if_gethash(16, 4), 1)
+		if_sethide(if_gethash(16, 18), 1)
+		if_sethide(if_gethash(16, 64), 1)
+		if_sethide(if_gethash(16, 76), 0)
+		break
+	case 3:
+		if_sethide(if_gethash(16, 1), 0)
+		if_sethide(if_gethash(16, 52), 0)
+		if_sethide(if_gethash(16, 59), 1)
+		if_sethide(if_gethash(16, 37), 0)
+		if_sethide(if_gethash(16, 4), 1)
+		if_sethide(if_gethash(16, 18), 1)
+		if_sethide(if_gethash(16, 64), 1)
+		if_sethide(if_gethash(16, 76), 1)
+		break
+	case 4:
+		if_sethide(if_gethash(16, 1), 0)
+		if_sethide(if_gethash(16, 52), 0)
+		if_sethide(if_gethash(16, 59), 1)
+		if_sethide(if_gethash(16, 37), 0)
+		if_sethide(if_gethash(16, 4), 0)
+		if_sethide(if_gethash(16, 18), 0)
+		if_sethide(if_gethash(16, 64), 1)
+		if_sethide(if_gethash(16, 76), 1)
+		break
+	case 5:
+		if_sethide(if_gethash(16, 1), 0)
+		if_sethide(if_gethash(16, 52), 0)
+		if_sethide(if_gethash(16, 59), 1)
+		if_sethide(if_gethash(16, 37), 0)
+		if_sethide(if_gethash(16, 4), 0)
+		if_sethide(if_gethash(16, 18), 0)
+		if_sethide(if_gethash(16, 64), 0)
+		if_sethide(if_gethash(16, 76), 1)
+		break
+
+}
+return

@@ -1,0 +1,5 @@
+//script1869(1869)(int arg0)(void)
+if(modulo(50, client_clock()) != 0)
+	return
+script_1870(arg0)
+return

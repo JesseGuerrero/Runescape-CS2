@@ -1,0 +1,117 @@
+void script_909(Widget widget0, DataMap datamap1) {
+	Widget widget2;
+	Widget widget3;
+	Widget widget4;
+	Widget widget5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	Widget widget14;
+	widget2 = datamap('I', 'I', datamap1, widget(161, 2));
+	widget3 = datamap('I', 'I', datamap1, widget(161, 10));
+	widget4 = datamap('I', 'I', datamap1, widget(161, 5));
+	widget5 = datamap('I', 'I', datamap1, widget(161, 12));
+	int6 = datamap('g', 'i', 1135, datamap1);
+	int7 = datamap('g', 'i', 1136, datamap1);
+	int8 = 0;
+	int9 = 0;
+	int10 = 0;
+	int11 = 0;
+	int12 = 0;
+	int13 = 0;
+	if (VARPBIT[4606] != 0) {
+		if (VARPBIT[4606] == 2) {
+			cs2method6200(256, 180);
+			cs2method6201(256, 180);
+			cs2method6202(0, 0, 0, 0);
+			cs2method5530(50);
+		} else {
+			cs2method6200(256, 256);
+			cs2method6201(256, 256);
+			cs2method6202(256, 256, 256, 256);
+			cs2method5530(50);
+		}
+		if (widget2 != null && widget3 != null) {
+			int8, int9 = cs2method6203();
+			widget2.setSize(int8, int9, 0, 0);
+			widget3.setSize(int8, int9, 0, 0);
+			if (widget4 != null && widget5 != null) {
+				int10 = widget0.getWidth();
+				int11 = widget0.getHeight();
+				int12 = int10 - int8;
+				int13 = int11 - int9;
+				if (int12 < 0) {
+					int12 = 0;
+				}
+				if (int13 < 0) {
+					int13 = 0;
+				}
+				int6, int7 = int6 - int12 / 2, int7 - int13 / 2;
+				if (int6 < 0) {
+					int6 = 0;
+				}
+				if (int7 < 0) {
+					int7 = 0;
+				}
+				widget4.setSize(int6, int7, 1, 1);
+				widget5.setSize(int6, int7, 1, 1);
+				script_910(datamap1, datamap('I', 'I', datamap1, widget(161, 11)), widget5, int6, int7);
+			} else {
+				script_910(datamap1, datamap('I', 'I', datamap1, widget(161, 11)), widget3, 0, 0);
+			}
+		}
+	} else {
+		cs2method6200(0, 0);
+		cs2method6202(0, 0, 0, 0);
+		if (VARC[73] >= 195 && VARC[73] <= 700 && VARC[74] >= 175 && VARC[74] <= 715) {
+			script_42(VARC[73], VARC[74]);
+		} else {
+			script_42(256, 320);
+		}
+		int8, int9 = cs2method6203();
+		if (widget2 != null && widget3 != null) {
+			widget2.setSize(int8, int9, 0, 0);
+			widget3.setSize(int8, int9, 0, 0);
+			if (widget4 != null && widget5 != null) {
+				widget4.setSize(int6, int7, 1, 1);
+				widget5.setSize(int6, int7, 1, 1);
+				script_910(datamap1, datamap('I', 'I', datamap1, widget(161, 11)), widget5, int6, int7);
+			} else {
+				script_910(datamap1, datamap('I', 'I', datamap1, widget(161, 11)), widget3, 0, 0);
+			}
+		}
+	}
+	widget14 = datamap('I', 'I', datamap1, widget(161, 13));
+	if (widget14 != null) {
+		if (hasChild(widget14) == true) {
+			if (VARC[173] == -2) {
+				widget14.setSize(512, 0, 0, 1);
+			} else if (VARC[173] == -3) {
+				widget14.setSize(0, 0, 1, 1);
+			} else {
+				widget14.setSize(512, 334, 0, 0);
+			}
+		} else {
+			widget14.setSize(512, 334, 0, 0);
+		}
+	}
+	widget14 = datamap('I', 'I', datamap1, widget(161, 15));
+	if (widget14 != null) {
+		if (hasChild(datamap('I', 'I', datamap1, widget(161, 7))) == true) {
+			if (VARPBIT[4692] != 0) {
+				widget14.setPosition(0, 0, 2, 0);
+			} else {
+				widget14.setPosition(0, 36, 2, 0);
+			}
+		} else {
+			widget14.setPosition(0, 0, 2, 0);
+		}
+	}
+	script_920(widget0, datamap1);
+	return;
+}

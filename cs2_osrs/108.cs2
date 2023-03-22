@@ -1,0 +1,11 @@
+void script_108(string string0) {
+	string str1;
+	script_677();
+	widget(162, 32).setText(string0);
+	VARC[5] = 7;
+	script_222("");
+	str1 = "";
+	widget(162, 33).hookKey(&script_112(KEY_TYPED, KEY_PRESSED, str1));
+	widget(162, 33).hookDialogAbort(&script_138());
+	return;
+}

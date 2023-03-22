@@ -1,0 +1,19 @@
+//script3184(3184)()(void)
+if(load_varc(1200) == 1) {
+	if_settext(if_gethash(933, 277), load_varc_string(312))
+	if_settext(if_gethash(933, 278), enum(2857, load_varc(1215), 'i', 's'))
+	if_settext(if_gethash(933, 279), enum(2857, load_varc(1216), 'i', 's'))
+	if_settext(if_gethash(933, 280), enum(2857, load_varc(1217), 'i', 's'))
+	if_settext(if_gethash(933, 281), enum(2857, load_varc(1218), 'i', 's'))
+	if_settext(if_gethash(933, 282), enum(2857, load_varc(1219), 'i', 's'))
+	if_settext(if_gethash(933, 283), enum(2857, load_varc(1220), 'i', 's'))
+} else  {
+	if_settext(if_gethash(933, 277), "")
+	if_settext(if_gethash(933, 278), "")
+	if_settext(if_gethash(933, 279), "")
+	if_settext(if_gethash(933, 280), "")
+	if_settext(if_gethash(933, 281), "")
+	if_settext(if_gethash(933, 282), "")
+	if_settext(if_gethash(933, 283), "")
+}
+return

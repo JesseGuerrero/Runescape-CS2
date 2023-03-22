@@ -1,0 +1,4 @@
+//script2827(2827)()(void)
+if_sethide(if_gethash(906, 37), 1)
+if_sethide(if_gethash(906, 38), 1)
+return

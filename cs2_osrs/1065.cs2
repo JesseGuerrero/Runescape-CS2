@@ -1,0 +1,7 @@
+void script_1065(Widget widget0) {
+	int int1;
+	int1 = getItemContainerLength(141);
+	script_1067(widget0, int1);
+	widget0.hookContainer(&script_1066(widget0, int1), 141);
+	return;
+}

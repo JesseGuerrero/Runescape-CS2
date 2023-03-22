@@ -1,0 +1,8 @@
+//script2380(2380)(int arg0, int arg1)(void)
+if(arg0 == -1) {
+	if_sethide(arg1, 1)
+	return
+}
+if_sethide(arg1, 0)
+if_setposition(arg1, 0, 0, (if_gety(arg0) + if_getheight(arg0)) - if_getheight(arg1), (if_getx(arg0) + if_getwidth(arg0)) - if_getwidth(arg1))
+return

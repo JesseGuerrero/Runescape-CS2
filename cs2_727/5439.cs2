@@ -1,0 +1,28 @@
+//script5439(5439)()(void)
+if(load_varpbit(9987) == 0) {
+	if_sethide(if_gethash(1168, 289), 1)
+	if_sethide(if_gethash(1168, 290), 0)
+} else  {
+	if_sethide(if_gethash(1168, 289), 0)
+	if_sethide(if_gethash(1168, 290), 1)
+}
+if(load_varpbit(10849) == 0) {
+	if_sethide(if_gethash(1168, 357), 1)
+	if_sethide(if_gethash(1168, 358), 0)
+} else  {
+	if_sethide(if_gethash(1168, 357), 0)
+	if_sethide(if_gethash(1168, 358), 1)
+}
+if(load_varpbit(10850) == 0) {
+	if_sethide(if_gethash(1168, 360), 1)
+	if_sethide(if_gethash(1168, 361), 0)
+} else  {
+	if_sethide(if_gethash(1168, 360), 0)
+	if_sethide(if_gethash(1168, 361), 1)
+}
+if_sethide(if_gethash(1168, 13), 1)
+if_sethide(if_gethash(1168, 12), 1)
+script_5441()
+script_5444(1)
+store_varc(2, 0)
+return

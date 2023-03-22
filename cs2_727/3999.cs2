@@ -1,0 +1,6 @@
+//script3999(3999)(int arg0)(int)
+if(arg0 == 4091 || arg0 == 4092 || arg0 == 1120 || arg0 == 4094 || arg0 == 4095 || arg0 == 4093)
+	return 1
+else
+	return 0
+return 0

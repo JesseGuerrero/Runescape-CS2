@@ -1,0 +1,150 @@
+//script5055(5055)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+cc_deleteall(arg2)
+cc_create(if_getnextsubid(arg2), 5, arg2)
+cc_setsize(1, 1, 0, 40)
+cc_setposition(1, 1, 0, 0)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg2), 5, arg2)
+cc_setsize(1, 0, 0, 20)
+cc_setposition(1, 0, 0, 0)
+cc_create(if_getnextsubid(arg2), 5, arg2)
+cc_setsize(1, 0, 0, 20)
+cc_setposition(1, 2, 0, 0)
+cc_create(if_getnextsubid(arg2), 5, arg2)
+cc_setsize(0, 0, 10, 10)
+cc_setposition(1, 0, 0, 7)
+cc_create(if_getnextsubid(arg2), 4, arg2)
+cc_setsize(1, 1, 0, 20)
+cc_setposition(1, 2, 1, 0)
+cc_settextfont(494)
+cc_settextalign(0, 1, 0)
+cc_setcolor(ffef5f)
+cc_settextshadow(1)
+cc_settext(arg0)
+hook_mouse_press(arg2, script_5064, "i", arg0)
+cc_deleteall(arg3)
+cc_deleteall(arg4)
+iVar5 = 0
+iVar6 = enum_getoutputcount(3943)
+while(iVar5 < iVar6) {
+	cc_create(if_getnextsubid(arg3), 3, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 3, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 3, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 5, arg3)
+	cc_sethide(1)
+	cc_create(if_getnextsubid(arg3), 4, arg3)
+	cc_sethide(1)
+	iVar5 = iVar5 + 1
+}
+iVar7 = -1
+iVar8 = -1
+iVar9 = 0
+iVar5 = 0
+while(iVar5 < iVar6) {
+	iVar7 = enum(arg1, iVar5, 'i', 'i')
+	iVar8 = enum(3943, iVar7, 'i', 'J')
+	if(iVar8 != -1) {
+		if(cc_find(iVar7 * 12, arg3) == 1) {
+			cc_setsize(0, 1, 26, 24)
+			cc_setposition(0, 0, iVar9, 0)
+			cc_settrans(255)
+			cc_setop("Select", 1)
+			instr6687(script_5070, "ii1", -2147483644, iVar7, 0)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 1, arg3) == 1) {
+			cc_setsize(0, 0, 26, 24)
+			cc_setposition(0, 2, iVar9, 0)
+			cc_settrans(255)
+			cc_setop("Select & open settings", 1)
+			instr6687(script_5070, "ii1", -2147483644, iVar7, 1)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 2, arg3) == 1) {
+			cc_setsize(0, 1, 26, 40)
+			cc_setposition(0, 0, iVar9, 8)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 3, arg3) == 1) {
+			cc_setsize(0, 0, 26, 8)
+			cc_setposition(0, 0, iVar9, 0)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 4, arg3) == 1) {
+			cc_setsize(0, 0, 26, 8)
+			cc_setposition(0, 2, iVar9, 24)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 5, arg3) == 1) {
+			cc_setsize(0, 0, 26, 8)
+			cc_setposition(0, 2, iVar9, 8)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 6, arg3) == 1) {
+			cc_setsize(0, 0, 26, 8)
+			cc_setposition(0, 2, iVar9, 16)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 7, arg3) == 1) {
+			cc_setsize(0, 0, 26, 8)
+			cc_setposition(0, 2, iVar9, 0)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 8, arg3) == 1) {
+			cc_setsize(0, 0, 20, 20)
+			cc_setposition(0, 0, iVar9 + 3, 3)
+			cc_setgraphic(struct_param(1465, iVar8))
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 9, arg3) == 1) {
+			cc_setsize(0, 0, 21, 21)
+			cc_setposition(0, 0, iVar9 + 2, 2)
+			cc_setcolor(efdfcf)
+			cc_setfill(0)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 10, arg3) == 1) {
+			cc_setsize(0, 0, 17, 17)
+			cc_setposition(0, 2, iVar9 + 4, 4)
+			cc_sethide(0)
+		}
+		if(cc_find((iVar7 * 12) + 11, arg3) == 1) {
+			cc_setsize(0, 1, 26, 53)
+			cc_setposition(0, 2, iVar9, 24)
+			cc_settextfont(494)
+			cc_settextalign(0, 1, 0)
+			cc_setcolor(ffefdf)
+			cc_settextshadow(1)
+			cc_settext(struct_param(1463, iVar8))
+			cc_sethide(0)
+		}
+		iVar9 = iVar9 + 26
+	}
+	iVar5 = iVar5 + 1
+}
+if_setscrollsize(arg3, iVar9, 0)
+if_setscrollpos(arg3, 0, 0)
+script_31(arg4, arg3, 6507, 6504, 6505, 6506, 6499, 6498)
+return

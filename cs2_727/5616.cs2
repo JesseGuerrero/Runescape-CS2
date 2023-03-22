@@ -1,0 +1,22 @@
+//script5616(5616)()(void)
+if(load_varpbit(10418) == 0)
+	if_setsize(if_gethash(1198, 3), 0, 0, if_getheight(if_gethash(1198, 3)), 0)
+else
+	switch(load_varpbit(10418)) {
+		case default:
+			break
+		case 1:
+			instr6342(if_gethash(1198, 10), script_5617, "i", if_getwidth(if_gethash(1198, 10)) / 4)
+			break
+		case 2:
+			instr6342(if_gethash(1198, 10), script_5617, "i", if_getwidth(if_gethash(1198, 10)) / 2)
+			break
+		case 3:
+			instr6342(if_gethash(1198, 10), script_5617, "i", (if_getwidth(if_gethash(1198, 10)) / 4) * 3)
+			break
+		case 4:
+			instr6342(if_gethash(1198, 10), script_5617, "i", if_getwidth(if_gethash(1198, 10)))
+			break
+
+	}
+return

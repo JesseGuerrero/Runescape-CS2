@@ -1,0 +1,5 @@
+//script3114(3114)(int arg0)(void)
+if(client_clock() > arg0)
+	script_3113()
+return
+return

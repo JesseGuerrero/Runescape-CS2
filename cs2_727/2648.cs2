@@ -1,0 +1,5 @@
+//script2648(2648)(int arg0, int arg1)(void)
+cc_deleteall(arg0)
+store_varc(2, 0)
+script_679(arg1)
+return

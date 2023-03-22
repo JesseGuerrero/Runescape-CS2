@@ -1,0 +1,168 @@
+void script_1198(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19, Widget widget20, Widget widget21, Widget widget22) {
+	int int23;
+	int int24;
+	int int25;
+	int int26;
+	int int27;
+	int int28;
+	int int29;
+	Item item30;
+	widget0.setText("Points: " + script_46(VARPBIT[4893], ","));
+	int23 = 0;
+	if (VARP[262] > 0) {
+		int23 = 20 - mathMethod4006(0, VARP[261], 0, 1000, 20);
+		widget2.setText("Recharge can: " + int23);
+		widget1.setContextMenuOption(1, "Recharge");
+	} else {
+		int23 = 200;
+		widget2.setText("Buy can: " + int23);
+		widget1.setContextMenuOption(1, "Buy");
+	}
+	widget1.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	if (VARPBIT[4893] < int23) {
+		widget2.setRGB(0xFF0000);
+	} else {
+		widget2.setRGB(0xFFFFFF);
+	}
+	if (VARP[263] > 0) {
+		widget5.setContextMenuOption(1, "Buy");
+		widget6.setText("Already owned");
+	} else {
+		int23 = 250;
+		widget5.setContextMenuOption(1, "Buy");
+		widget6.setText("Buy seedbox: " + int23);
+	}
+	widget5.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	if (VARPBIT[4893] < int23 || VARP[263] > 0) {
+		widget6.setRGB(0xFF0000);
+	} else {
+		widget6.setRGB(0xFFFFFF);
+	}
+	if (VARPBIT[5557] == 0) {
+		widget22.setIsHidden(true);
+		widget19.setContextMenuOption(1, "Buy");
+		widget20.setText("Buy Auto-weed: 50");
+		if (VARPBIT[4893] < 50) {
+			widget20.setRGB(0xFF0000);
+		} else {
+			widget20.setRGB(0xFFFFFF);
+		}
+	} else if (VARPBIT[5557] == 1) {
+		widget22.setIsHidden(false);
+		widget22.setSprite(520);
+		widget19.setContextMenuOption(1, "Activate");
+		widget20.setText("Deactivated");
+		widget20.setRGB(0xFF0000);
+	} else {
+		widget22.setIsHidden(false);
+		widget22.setSprite(1210);
+		widget19.setContextMenuOption(1, "Deactivate");
+		widget20.setText("Activated");
+		widget20.setRGB(0xFFFFFF);
+	}
+	widget19.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	widget21.setItemOnWidgetMethod2205(6055, 1);
+	if (VARP[264] == 1) {
+		widget9.setItem(13647, 1);
+		widget12.setItem(13643, 1);
+		widget15.setItem(13641, 1);
+		widget18.setItem(13645, 1);
+	} else {
+		widget9.setItem(13646, 1);
+		widget12.setItem(13642, 1);
+		widget15.setItem(13640, 1);
+		widget18.setItem(13644, 1);
+	}
+	int23 = 75;
+	widget8.setText("Buy hat: " + int23);
+	widget7.setContextMenuOption(1, "Buy");
+	widget7.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	if (VARPBIT[4893] < int23) {
+		widget8.setRGB(0xFF0000);
+	} else {
+		widget8.setRGB(0xFFFFFF);
+	}
+	int23 = 150;
+	widget11.setText("Buy jacket: " + int23);
+	widget10.setContextMenuOption(1, "Buy");
+	widget10.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	if (VARPBIT[4893] < int23) {
+		widget11.setRGB(0xFF0000);
+	} else {
+		widget11.setRGB(0xFFFFFF);
+	}
+	int23 = 125;
+	widget14.setText("Buy legs: " + int23);
+	widget13.setContextMenuOption(1, "Buy");
+	widget13.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	if (VARPBIT[4893] < int23) {
+		widget14.setRGB(0xFF0000);
+	} else {
+		widget14.setRGB(0xFFFFFF);
+	}
+	int23 = 50;
+	widget17.setText("Buy boots: " + int23);
+	widget16.setContextMenuOption(1, "Buy");
+	widget16.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	if (VARPBIT[4893] < int23) {
+		widget17.setRGB(0xFF0000);
+	} else {
+		widget17.setRGB(0xFFFFFF);
+	}
+	int24 = widget3.getWidth() / 3;
+	int25 = 32 + 18;
+	int26 = (int24 - 36) / 2;
+	int27 = 0;
+	widget3.clearChildren();
+	widget4.clearChildren();
+	int28 = 0;
+	int29 = 0;
+	item30 = datamap('i', 'O', 1261, int29);
+	while (item30 != null) {
+		CHILD.createChild(widget3, 5, int29);
+		_CHILD.createChild(widget4, 4, int29);
+		if (item30 != 20747 || VARPBIT[5370] >= 2) {
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+			CHILD.setItemNoNum(getRealItem(item30), 1);
+			CHILD.setOptionBase("<col=ff9040>" + getItemName(item30) + "</col>");
+			CHILD.setContextMenuOption(1, "Value");
+			CHILD.setContextMenuOption(2, "Buy-1");
+			CHILD.setContextMenuOption(3, "Buy-5");
+			CHILD.setContextMenuOption(4, "Buy-X");
+			CHILD.setContextMenuOption(10, "Examine");
+			CHILD.hookOptionClick(&script_487(CTX_WIDGET, CTX_WIDGET_CHILD, 120, 0));
+			_CHILD.setSize(int24, 18, 0, 0);
+			_CHILD.setRGB(0xFFFFFF);
+			_CHILD.setFont(494);
+			_CHILD.setTextAntiMacro(true);
+			_CHILD.setTextAlignment(1, 0, 0);
+			int23 = datamap('o', 'i', 1262, item30);
+			_CHILD.setText(str(int23));
+			if (VARPBIT[4893] < int23) {
+				_CHILD.setRGB(0xFF0000);
+			} else {
+				_CHILD.setRGB(0xFFFFFF);
+			}
+			if (int28 % 3 == 0) {
+				CHILD.setPosition(int26, int27, 0, 0);
+				_CHILD.setPosition(0, int27 + 32, 0, 0);
+			} else if (int28 % 3 == 1) {
+				CHILD.setPosition(0, int27, 1, 0);
+				_CHILD.setPosition(0, int27 + 32, 1, 0);
+			} else {
+				CHILD.setPosition(int26, int27, 2, 0);
+				_CHILD.setPosition(0, int27 + 32, 2, 0);
+				int27 = int27 + int25;
+			}
+			int28 = int28 + 1;
+		} else {
+			CHILD.setHidden(true);
+			_CHILD.setHidden(true);
+		}
+		int29 = int29 + 1;
+		item30 = datamap('i', 'O', 1261, int29);
+	}
+	return;
+}

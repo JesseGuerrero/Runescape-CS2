@@ -1,0 +1,27 @@
+//script6112(6112)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+sVar0 = to_string(arg0)
+sVar1 = to_string(arg1)
+if(arg2 == 82903182 || arg2 == 82903183) {
+	sVar0 = append(to_string(modulo(10, arg0)), append(".", to_string(arg0 / 10)))
+	sVar1 = append(to_string(modulo(10, arg1)), append(".", to_string(arg1 / 10)))
+}
+if_settext(arg2, sVar0)
+if_settext(arg3, "(" + sVar1 + ")")
+iVar4 = 65280
+iVar5 = 16711680
+if(arg2 == 82903205) {
+	iVar4 = 16711680
+	iVar5 = 65280
+}
+if(arg0 > arg1)
+	if_setcolor(arg2, iVar4)
+else
+	if(arg0 < arg1)
+		if_setcolor(arg2, iVar5)
+	else
+		if_setcolor(arg2, 0xFFFFFF)
+return

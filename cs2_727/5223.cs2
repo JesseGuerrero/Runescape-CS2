@@ -1,0 +1,37 @@
+//script5223(5223)(int arg0)(int, int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return 82575407, 82575418
+
+	case 2:
+		return 82575496, 82575506
+
+	case 3:
+		return 82575512, 82575522
+
+	case 4:
+		return 82575528, 82575538
+
+	case 5:
+		return 82575544, 82575554
+
+	case 6:
+		return 82575592, 82575602
+
+	case 7:
+		return 82575608, 82575618
+
+	case 8:
+		return 82575576, 82575586
+
+	case 9:
+		return 82575560, 82575571
+
+	case 10:
+		return 82575624, 82575634
+
+
+}
+return -1, -1

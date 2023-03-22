@@ -1,0 +1,12 @@
+//script1471(1471)()(void)
+instr6220(if_gethash(762, 17))
+instr6239(if_gethash(762, 17), None, "")
+store_varc(190, 0)
+if(load_varc(188) == 0) {
+	store_varpbit(4893, 0)
+	script_1473()
+} else  {
+	store_varpbit(4893, 1)
+	script_1474()
+}
+return

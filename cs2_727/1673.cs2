@@ -1,0 +1,35 @@
+//script1673(1673)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+cc_deleteall(if_gethash(84, 20))
+cc_deleteall(if_gethash(84, 22))
+cc_deleteall(if_gethash(84, 21))
+iVar0 = 0
+iVar1 = 0
+iVar2 = 264
+iVar3 = 0
+if_setposition(if_gethash(84, 20), 0, 0, iVar0, if_getx(if_gethash(84, 20)))
+iVar1 = script_1674(load_varpbit(6768)).get(0)
+if_setscrollsize(5505046, iVar1, 0)
+if_setscrollpos(if_gethash(84, 22), iVar3, 0)
+iVar1 = iVar1 + 4
+if(iVar1 > iVar2) {
+	if_setsize(if_gethash(84, 21), 1, 0, 4, 16)
+	if_setsize(if_gethash(84, 22), 1, 1, 4, 20)
+	if(cc_find(0, if_gethash(84, 21)) == 0)
+		script_31(5505045, 5505046, 792, 789, 790, 791, 773, 788)
+	script_72(5505045, 5505046, if_getscrolly(5505046))
+} else  {
+	if_setsize(if_gethash(84, 21), 1, 0, 4, 0)
+	if_setsize(if_gethash(84, 22), 1, 1, 4, 4)
+}
+if(iVar1 < 111)
+	if_setsize(if_gethash(84, 0), 0, 0, 111 + 68, 350)
+else
+	if(iVar1 < iVar2)
+		if_setsize(if_gethash(84, 0), 0, 0, iVar1 + 70, 350)
+	else
+		if_setsize(if_gethash(84, 0), 0, 0, iVar2 + 70, 350)
+return

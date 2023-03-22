@@ -1,0 +1,18 @@
+//script2142(2142)(int arg0, int arg1, int arg2, string arg3)(int)
+int iVar3
+int iVar4
+iVar3 = paramheight(arg0, 495, 390)
+iVar4 = 15
+cc_create(arg0, 4, 56623110)
+cc_setsize(0, 0, iVar3 * iVar4, 390)
+cc_settext(arg0)
+cc_setposition(0, 0, arg1, 15)
+cc_settextalign(0, 0, 0)
+cc_setcolor(46320a)
+cc_settextfont(495)
+cc_settextshadow(0)
+cc_setop("Teleport", 1)
+instr6091(script_1356, "Iii", -2147483645, -2147483643, 6574120)
+instr6092(script_1356, "Iii", -2147483645, -2147483643, 4600330)
+return (iVar3 * iVar4) + 5
+return 0

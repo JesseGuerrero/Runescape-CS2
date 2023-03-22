@@ -1,0 +1,15 @@
+string, int script_1377(string string0, int arg1, DataMap datamap2, DataMap datamap3, int arg4) {
+	Location location4;
+	Item item5;
+	location4 = datamap('i', 'c', datamap2, arg1);
+	item5 = datamap('c', 'o', datamap3, location4);
+	if (item5 != 8245) {
+		if (arg4 > 0) {
+			string0 = concat(string0, ", " + script_1299(getItemName(item5), " ", "\u00a0"));
+		} else {
+			string0 = concat(string0, "<br>" + "<col=4f4f4f>" + script_1299(getItemName(item5), " ", "\u00a0"));
+		}
+		arg4 = arg4 + 1;
+	}
+	return string0, arg4;
+}

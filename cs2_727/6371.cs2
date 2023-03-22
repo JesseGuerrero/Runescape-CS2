@@ -1,0 +1,42 @@
+//script6371(6371)(int arg0, int arg1)(void)
+instr6342(arg1, None, "")
+if_setsize(script_6358(arg1), 0, 0, 0, 0)
+if_sethide(script_6358(arg1), 1)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		store_varc(1947, -1)
+		store_varc(1948, -1)
+		break
+	case 1:
+		store_varc(1949, -1)
+		store_varc(1950, -1)
+		break
+	case 2:
+		store_varc(1951, -1)
+		store_varc(1952, -1)
+		break
+	case 3:
+		store_varc(1953, -1)
+		store_varc(1954, -1)
+		break
+	case 4:
+		store_varc(1955, -1)
+		store_varc(1956, -1)
+		break
+	case 5:
+		store_varc(1957, -1)
+		store_varc(1958, -1)
+		break
+	case 6:
+		store_varc(1959, -1)
+		store_varc(1960, -1)
+		break
+	case 7:
+		store_varc(1961, -1)
+		store_varc(1962, -1)
+		break
+
+}
+return

@@ -1,0 +1,7 @@
+//script5298(5298)()(void)
+if(load_varpbit(9890) == 1)
+	store_varpbit(9890, 0)
+else
+	store_varpbit(9890, 1)
+script_5301()
+return

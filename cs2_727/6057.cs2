@@ -1,0 +1,27 @@
+//script6057(6057)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = 0
+arg3 = arg3 + 1
+if(cc_find(arg1, arg0) == 1) {
+	iVar4 = cc_getx()
+	if(arg2 == 0)
+		if(iVar4 < -20) {
+			iVar4 = min(-20, iVar4 + 25)
+			if(iVar4 == -20) {
+				arg2 = -1
+				arg3 = 0
+			}
+		}
+	if(arg2 == 1)
+		if(iVar4 - 10 < -219) {
+			cc_delete()
+			return
+		} else 
+			iVar4 = iVar4 - 10
+	else
+		if(arg3 >= 100)
+			arg2 = 1
+	cc_setposition(0, 0, cc_gety(), iVar4)
+	instr6556(script_6057, "Iiii", arg0, arg1, arg2, arg3)
+}
+return

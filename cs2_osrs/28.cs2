@@ -1,0 +1,6 @@
+void script_28(Widget widget0) {
+	if (CHILD.setChild(widget0, 1) == true) {
+		CHILD.setHidden(false);
+	}
+	return;
+}

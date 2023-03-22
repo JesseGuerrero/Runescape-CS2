@@ -1,0 +1,19 @@
+void script_1308(Widget widget0, int arg1, int arg2, int arg3, boolean arg4, Item item5, int arg6) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setTrans(arg2);
+	}
+	if (_CHILD.setChild(widget0, arg3) == true) {
+		if (arg6 >= 2) {
+			if (arg4 == true) {
+				_CHILD.setText("<col=ffffff>" + getItemName(item5) + "</col>" + "<br>" + "x\u00a0" + script_46(arg6, ","));
+			} else {
+				_CHILD.setText("<col=ffb83f>" + getItemName(item5) + "</col>" + "<br>" + "x\u00a0" + script_46(arg6, ","));
+			}
+		} else if (arg4 == true) {
+			_CHILD.setText("<col=ffffff>" + getItemName(item5) + "</col>");
+		} else {
+			_CHILD.setText("<col=ffb83f>" + getItemName(item5) + "</col>");
+		}
+	}
+	return;
+}

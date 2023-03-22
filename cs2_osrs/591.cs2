@@ -1,0 +1,4 @@
+void script_591() {
+	VARC[59] = getClientCycle();
+	return;
+}

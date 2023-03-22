@@ -1,0 +1,13 @@
+//script5232(5232)(int arg0, int arg1)(void)
+if(instr6652(0) == 5)
+	if(load_varc(1007) == 2) {
+		if(arg1 == 1) {
+			instr6677(1, 1, 700, 800, 1, 0)
+			instr6255(arg0, script_5232, "Ii", arg0, 2)
+			return
+		}
+		if(arg1 == 2)
+			instr6677(2, 1, 40, 700, 2, 0)
+	}
+instr6255(arg0, None, "")
+return

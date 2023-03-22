@@ -1,0 +1,4 @@
+//script1501(1501)(int arg0, int arg1)(void)
+script_41(arg1)
+if_settrans(arg0, 0)
+return

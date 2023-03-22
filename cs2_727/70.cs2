@@ -1,0 +1,6 @@
+//script70(70)()(void)
+if(load_varp(560) < 1)
+	if_settext(if_gethash(373, 0), "You're the Winner!")
+else
+	if_settext(if_gethash(373, 0), "Foes Remaining: " + to_string(load_varp(560)))
+return

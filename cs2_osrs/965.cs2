@@ -1,0 +1,26 @@
+void script_965(Widget widget0, Widget widget1, Widget widget2, int arg3, int arg4) {
+	int int5;
+	widget2.clearChildren();
+	int5 = script_835(widget2, 0);
+	CHILD.createChild(widget2, 5, int5);
+	int5 = int5 + 1;
+	CHILD.setSize(29, 22, 0, 0);
+	CHILD.setPosition(0, 0, 0, 1);
+	CHILD.setSprite(1043);
+	CHILD.createChild(widget2, 4, int5);
+	int5 = int5 + 1;
+	CHILD.setSize(33, 0, 1, 1);
+	CHILD.setPosition(4, 0, 2, 1);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText("Search");
+	CHILD.setRGB(0xFF981F);
+	widget2.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget2.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+	widget2.setContextMenuOption(1, "Search");
+	widget2.hookOptionClick(&script_964(true, widget0, widget1, widget2, arg3, arg4));
+	widget2.hookFrame(null);
+	script_967(widget0, widget1, "", arg3, arg4);
+	return;
+}

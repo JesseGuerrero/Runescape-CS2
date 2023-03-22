@@ -1,0 +1,19 @@
+void script_544(Widget widget0, int arg1) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(36, 36, 0, 0);
+	CHILD.setSprite(170);
+	CHILD.createChild(widget0, 5, 1);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(2, 2, 0, 0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	_CHILD.createChild(widget0, 5, 2);
+	_CHILD.setSize(32, 32, 0, 0);
+	_CHILD.setPosition(2, 2, 0, 0);
+	_CHILD.setSprite(datamap('i', 'd', 904, arg1));
+	script_546(widget0, arg1);
+	widget0.hookContainer(&script_545(widget0, arg1, getChildId(), getChildId()), 94);
+	return;
+}

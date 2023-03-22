@@ -1,0 +1,12 @@
+void script_694(Widget widget0, Widget widget1, int arg2, int arg3) {
+	if (arg3 == 1) {
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+		widget0.hookVARP(&script_694(widget0, widget1, arg2, false), 261);
+	}
+	if (VARP[261] == arg2) {
+		widget1.setRGB(0x00FF00);
+	} else {
+		widget1.setRGB(0x000000);
+	}
+	return;
+}

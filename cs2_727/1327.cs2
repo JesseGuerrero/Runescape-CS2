@@ -1,0 +1,28 @@
+//script1327(1327)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+if_setmodel(arg0, enum(1595, load_varpbit(2513) / 10, 'i', 'm'))
+if_setmodel(arg1, enum(1595, modulo(10, load_varpbit(2513)), 'i', 'm'))
+instr6879(arg5, 1, load_varp(853))
+instr6879(arg6, 1, load_varp(854))
+instr6879(arg7, 1, load_varp(855))
+if(load_varpbit(2542) == 0) {
+	if_setmodel(arg3, 17219)
+	if_setmodel(arg2, -1)
+	if_setmodel(arg4, -1)
+	return
+}
+if(load_varpbit(2542) > load_varpbit(2513)) {
+	if_setmodel(arg3, 17219)
+	if_setmodel(arg2, 17221)
+	if_setmodel(arg4, 17217)
+	return
+}
+if(load_varpbit(2542) < load_varpbit(2513)) {
+	if_setmodel(arg3, 17219)
+	if_setmodel(arg2, 17220)
+	if_setmodel(arg4, 17218)
+	return
+}
+if_setmodel(arg3, 17216)
+if_setmodel(arg2, -1)
+if_setmodel(arg4, -1)
+return

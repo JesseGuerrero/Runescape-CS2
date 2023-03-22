@@ -1,0 +1,18 @@
+//script3685(3685)()(void)
+if(load_varc(11) == 1) {
+	send_message("You can't do that while you're reporting abuse.")
+	return
+}
+if(instr6644() >= 2)
+	if_sethide(if_gethash(746, 22), 0)
+if_sethide(if_gethash(752, 3), 0)
+if_sethide(if_gethash(752, 7), 1)
+if_sethide(if_gethash(752, 8), 1)
+if_settext(if_gethash(752, 4), "Enter the name of the song you wish to search for:")
+store_varc(5, 14)
+script_1564("")
+hook_mouse_press(if_gethash(752, 3), None, "")
+script_2026()
+instr6248(if_gethash(752, 5), script_112, "iz", -2147483640, -2147483639)
+script_1188()
+return

@@ -1,0 +1,4 @@
+//script2807(2807)(int arg0)(void)
+if_settrans(arg0, 255)
+instr6342(arg0, None, "")
+return

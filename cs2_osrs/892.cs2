@@ -1,0 +1,112 @@
+void script_892(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, int arg11) {
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	int int23;
+	int int24;
+	int int25;
+	string str0;
+	string str1;
+	script_760(widget3, 2, 3, widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, arg11);
+	script_760(widget4, 0, 1, widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, arg11);
+	script_760(widget5, 4, 5, widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, arg11);
+	script_760(widget6, 8, 9, widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, arg11);
+	script_760(widget7, 6, 7, widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, arg11);
+	if (VARPBIT[4596] == 2) {
+		cs2method6507(7, false, 0, false);
+	} else if (VARPBIT[4596] == 3) {
+		cs2method6507(7, true, 0, false);
+	} else if (VARPBIT[4596] == 4) {
+		cs2method6507(2, false, 0, false);
+	} else if (VARPBIT[4596] == 5) {
+		cs2method6507(2, true, 0, false);
+	} else if (VARPBIT[4596] == 8) {
+		cs2method6507(1, false, 0, false);
+	} else if (VARPBIT[4596] == 9) {
+		cs2method6507(1, true, 0, false);
+	} else if (VARPBIT[4596] == 6) {
+		cs2method6507(3, false, 0, false);
+	} else if (VARPBIT[4596] == 7) {
+		cs2method6507(3, true, 0, false);
+	} else if (VARPBIT[4596] == 1) {
+		cs2method6507(0, true, 7, false);
+	} else {
+		cs2method6507(0, false, 7, false);
+	}
+	int12 = widget3.getHeight();
+	int13 = widget3.getWidth();
+	int14 = widget4.getWidth();
+	int15 = widget5.getWidth();
+	int16 = widget6.getWidth();
+	int17 = widget7.getWidth();
+	widget0.clearChildren();
+	int18 = script_1007();
+	int19 = script_1320();
+	int20 = 0;
+	int21 = 0;
+	int22 = 0;
+	str0 = "";
+	int23 = -1;
+	int24 = 0;
+	str1 = "";
+	int21, int22, str0, int23, int24, str1 = getFirstWorldData();
+	while (int21 > 0) {
+		if (script_961(int21, int22) == 1) {
+			int20 = script_960(widget0, int20, int12, widget2, int21, int21, int22, str0, int23, int24, int13, int14, int15, int16, int17, int18, int19, arg11);
+			int12 = int12 + 16;
+		}
+		int21, int22, str0, int23, int24, str1 = getNextWorldData();
+	}
+	if (int12 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int12);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	widget2.setSize(0, int12, 1, 0);
+	if (VARC[69] < 0) {
+		VARC[69] = 0;
+	}
+	script_72(widget1, widget0, VARC[69]);
+	widget8.clearChildren();
+	widget9.clearChildren();
+	int25 = widget8.getWidth() - (int13 + int14 + int15 + int16);
+	if (VARPBIT[4597] > 0) {
+		widget10.setIsHidden(true);
+		int21, int22, str0, int23, int24, str1 = cs2method6506(VARPBIT[4597]);
+		if (script_961(int21, int22) == 0) {
+			int21, str0, int23, int24 = 0, "Unavailable", -1, 0;
+		}
+		_ = script_960(widget8, 0, 0, widget8, -1, int21, int22, str0, int23, int24, int13, int14, int15, int16, int25, int18, int19, arg11);
+		if (VARPBIT[4598] > 0) {
+			int21, int22, str0, int23, int24, str1 = cs2method6506(VARPBIT[4598]);
+			if (script_961(int21, int22) == 0) {
+				int21, str0, int23, int24 = 0, "Unavailable", -1, 0;
+			}
+			_ = script_960(widget9, 0, 0, widget9, -1, int21, int22, str0, int23, int24, int13, int14, int15, int16, int25, int18, int19, arg11);
+		} else {
+			script_893(widget9);
+		}
+	} else {
+		script_893(widget8);
+		if (VARPBIT[4598] > 0) {
+			widget10.setIsHidden(true);
+			int21, int22, str0, int23, int24, str1 = cs2method6506(VARPBIT[4598]);
+			if (script_961(int21, int22) == 0) {
+				int21, str0, int23, int24 = 0, "Unavailable", -1, 0;
+			}
+			_ = script_960(widget9, 0, 0, widget9, -1, int21, int22, str0, int23, int24, int13, int14, int15, int16, int25, int18, int19, arg11);
+		} else {
+			widget10.setIsHidden(false);
+			script_893(widget9);
+		}
+	}
+	return;
+}

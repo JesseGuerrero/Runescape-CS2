@@ -1,0 +1,7 @@
+//script6091(6091)()(void)
+int iVar0
+iVar0 = load_varp(118)
+if(load_varp(2565) == 1)
+	iVar0 = 93
+script_6093(iVar0)
+return

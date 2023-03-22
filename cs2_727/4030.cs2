@@ -1,0 +1,10 @@
+//script4030(4030)()(void)
+instr6697()
+if(string_length(instr6721()) > 0)
+	script_2714(7, 1)
+else
+	script_2714(6, 1)
+store_varc(1089, -1)
+script_3208(1)
+instr6342(if_gethash(673, 26), script_5633, "")
+return

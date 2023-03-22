@@ -1,0 +1,6 @@
+//script4090(4090)(int arg0, int arg1)(void)
+if(arg0 == 1)
+	instr6342(if_gethash(1202, 0), script_4091, "i", arg1)
+else
+	instr6342(if_gethash(1202, 0), script_4092, "i", arg1)
+return

@@ -1,0 +1,58 @@
+//script6358(6358)(int arg0)(int)
+if(arg0 == -1)
+	return -1
+switch(arg0) {
+	case default:
+		break
+	case 48890138:
+		return 48890139
+
+	case 48890160:
+		return 48890161
+
+	case 48890182:
+		return 48890183
+
+	case 48890204:
+		return 48890205
+
+	case 48890226:
+		return 48890227
+
+	case 48890248:
+		return 48890249
+
+	case 48890270:
+		return 48890271
+
+	case 48890292:
+		return 48890293
+
+	case 35913977:
+		return 35913978
+
+	case 35913999:
+		return 35914000
+
+	case 35914021:
+		return 35914022
+
+	case 35914043:
+		return 35914044
+
+	case 35914065:
+		return 35914066
+
+	case 35914087:
+		return 35914088
+
+	case 35914109:
+		return 35914110
+
+	case 35914131:
+		return 35914132
+		return -1
+
+
+}
+return -1

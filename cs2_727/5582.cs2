@@ -1,0 +1,49 @@
+//script5582(5582)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 240
+if(string_length(if_gettext(arg1)) > 0) {
+	iVar2 = parawidth(if_gettext(arg1), 3793, 500) + 80
+	if(iVar2 > if_getwidth(arg0)) {
+		if_setsize(if_gethash(1193, 11), 0, 0, 20, iVar2)
+		if_setsize(if_gethash(1193, 13), 0, 0, 20, iVar2)
+		if_setsize(if_gethash(1193, 14), 0, 0, 20, iVar2)
+		if_setsize(if_gethash(1193, 15), 0, 0, 20, iVar2)
+	}
+	if(if_gethide(if_gethash(1193, 11)) == 1) {
+		if_setcolor(78184451, 0x666666)
+		if_setcolor(78184460, 0x666666)
+		hook_mouse_enter(if_gethash(1193, 11), None, "")
+		hook_mouse_exit(if_gethash(1193, 11), None, "")
+		if_sethide(if_gethash(1193, 11), 0)
+		if_sethide(if_gethash(1193, 3), 0)
+	}
+	if(if_gethide(if_gethash(1193, 13)) == 1) {
+		if_setcolor(78184471, 0x666666)
+		if_setcolor(78184472, 0x666666)
+		hook_mouse_enter(if_gethash(1193, 13), None, "")
+		hook_mouse_exit(if_gethash(1193, 13), None, "")
+		if_sethide(if_gethash(1193, 13), 0)
+		if_sethide(if_gethash(1193, 23), 0)
+	}
+	if(if_gethide(if_gethash(1193, 14)) == 1) {
+		if_setcolor(78184476, 0x666666)
+		if_setcolor(78184477, 0x666666)
+		hook_mouse_enter(if_gethash(1193, 14), None, "")
+		hook_mouse_exit(if_gethash(1193, 14), None, "")
+		if_sethide(if_gethash(1193, 14), 0)
+		if_sethide(if_gethash(1193, 28), 0)
+	}
+	if(if_gethide(if_gethash(1193, 15)) == 1) {
+		if_setcolor(78184481, 0x666666)
+		if_setcolor(78184482, 0x666666)
+		hook_mouse_enter(if_gethash(1193, 15), None, "")
+		hook_mouse_exit(if_gethash(1193, 15), None, "")
+		if_sethide(if_gethash(1193, 15), 0)
+		if_sethide(if_gethash(1193, 33), 0)
+	}
+	iVar2 = parawidth(if_gettext(if_gethash(1193, 19)), 4040, 500) + 80
+	if(iVar2 > if_getwidth(if_gethash(1193, 5)))
+		if_setsize(if_gethash(1193, 5), 0, 0, 30, iVar2)
+	instr6342(arg0, None, "")
+}
+return

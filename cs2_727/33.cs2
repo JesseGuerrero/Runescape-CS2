@@ -1,0 +1,14 @@
+//script33(33)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = if_getscrolly(arg1) + 4
+switch(arg1) {
+	case default:
+		break
+	case 38666248:
+		iVar2 = script_4754(arg1, iVar2, 0)
+		break
+
+}
+if(cc_find(1, arg0) == 1)
+	script_37(arg0, arg1, iVar2, 1)
+return

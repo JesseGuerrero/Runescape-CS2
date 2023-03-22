@@ -1,0 +1,39 @@
+//script3672(3672)()(void)
+int iVar0
+int iVar1
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+sVar0 = enum(3230, load_varc(1327), 'i', 's')
+sVar1 = enum(3230, load_varc(1326), 'i', 's')
+sVar2 = enum(3231, load_varc(1330), 'i', 's')
+sVar3 = to_string(load_varc(1325)) + "%"
+iVar0 = enum(3233, load_varc(1328), 'i', 'd')
+iVar1 = enum(3233, load_varc(1329), 'i', 'd')
+if_settext(if_gethash(1004, 72), sVar0)
+if_setcolor(65798216, enum(3234, load_varc(1327), 'i', 'i'))
+if_settext(if_gethash(1004, 71), sVar1)
+if_setcolor(65798215, enum(3234, load_varc(1326), 'i', 'i'))
+if_setgraphic(if_gethash(1004, 68), iVar0)
+if_setgraphic(if_gethash(1004, 69), iVar1)
+if_settext(if_gethash(1004, 70), sVar2)
+if_setcolor(65798214, enum(3235, load_varc(1330), 'i', 'i'))
+if_settext(if_gethash(1004, 73), sVar3)
+if(load_varc(1327) != 3)
+	if_sethide(if_gethash(1004, 66), 0)
+else
+	if_sethide(if_gethash(1004, 66), 1)
+if(load_varc(1326) != 3)
+	if_sethide(if_gethash(1004, 63), 0)
+else
+	if_sethide(if_gethash(1004, 63), 1)
+if(load_varc(1331) == 1)
+	if_sethide(if_gethash(1004, 65), 0)
+else
+	if_sethide(if_gethash(1004, 65), 1)
+if(load_varc(1330) > 66)
+	if_sethide(if_gethash(1004, 64), 0)
+else
+	if_sethide(if_gethash(1004, 64), 1)
+return

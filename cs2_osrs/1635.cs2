@@ -1,0 +1,15 @@
+void script_1635(Widget widget0) {
+	int int1;
+	script_1509(widget0);
+	CHILD.setText(str(VARPBIT[5558]));
+	int1 = 81;
+	if (VARPBIT[5556] == 1) {
+		int1 = 162;
+	}
+	if (VARPBIT[5558] >= int1) {
+		CHILD.setRGB(0xFF0000);
+	} else {
+		CHILD.setRGB(0xC8C8C8);
+	}
+	return;
+}

@@ -1,0 +1,17 @@
+//script4507(4507)(int arg0, int arg1, int arg2)(void)
+string sVar0
+sVar0 = ""
+if(cc_find(arg0, arg1) == 1)
+	sVar0 = cc_gettext()
+cc_deleteall(arg2)
+cc_create(if_getnextsubid(arg2), 4, arg2)
+cc_settext(sVar0)
+if(arg2 == 12451867)
+	cc_settextfont(494)
+else
+	cc_settextfont(3793)
+cc_setposition(1, 0, 0, 5)
+cc_setsize(2, 1, 16384, 5)
+cc_settextalign(0, 1, 0)
+cc_setcolor(efb063)
+return

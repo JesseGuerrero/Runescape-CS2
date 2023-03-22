@@ -1,0 +1,6 @@
+//script4776(4776)(int arg0, int arg1, int arg2)(void)
+if(clan_vars_enabled() == 1) {
+	script_4777(arg0, arg1, arg2)
+	store_varc(1560, 0)
+}
+return

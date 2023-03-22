@@ -1,0 +1,18 @@
+//script1251(1251)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+instr6677(arg0, 1, script_1898(arg0).get(1), script_1898(arg0).get(0), arg0, 0)
+if(instr6652(0) <= arg0 + 2) {
+	if_setcolor(arg3, arg4)
+	if_settrans(arg3, 255)
+	if_sethide(arg3, 0)
+	instr6342(arg3, script_1253, "I", arg3)
+	instr6342(arg1, script_1249, "III", arg1, arg2, arg3)
+	instr6255(arg1, None, "")
+	if(load_varc(176) == 2)
+		store_varc(176, (load_varc(176) + 8) + (10 * (random(5 - 1) + 1)))
+	else
+		store_varc(176, load_varc(176) + 8)
+	store_varc(177, client_clock() + 30)
+	return
+}
+instr6255(arg1, script_1250, "iIIIi", arg0 + 1, arg1, arg2, arg3, arg4)
+return

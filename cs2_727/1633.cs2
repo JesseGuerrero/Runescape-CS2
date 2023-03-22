@@ -1,0 +1,66 @@
+//script1633(1633)(string arg0)(void)
+int iVar0
+int iVar1
+string sVar0
+arg0 = removetags(arg0).toLowerCase()
+iVar0 = string_length(arg0)
+iVar1 = 0
+arg0 = script_2332(arg0, "_", " ")
+arg0 = script_2332(arg0, "-", " ")
+arg0 = script_2332(arg0, " ", " ")
+if(string_indexof_string(" ", arg0, 0) == 0)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0, 1)
+		iVar0 = string_length(arg0)
+	}
+if(string_indexof_string(" ", arg0, iVar0 - 1) == iVar0 - 1)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0 - 1, 0)
+		iVar0 = string_length(arg0)
+	}
+if(string_indexof_string(" ", arg0, 0) == 0)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0, 1)
+		iVar0 = string_length(arg0)
+	}
+if(string_indexof_string(" ", arg0, iVar0 - 1) == iVar0 - 1)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0 - 1, 0)
+		iVar0 = string_length(arg0)
+	}
+sVar0 = removetags(instr6574()).toLowerCase()
+iVar0 = string_length(sVar0)
+sVar0 = script_2332(sVar0, "_", " ")
+sVar0 = script_2332(sVar0, "-", " ")
+sVar0 = script_2332(sVar0, " ", " ")
+if(string_indexof_string(" ", sVar0, 0) == 0)
+	while(iVar0 > 0) {
+		sVar0 = substring(sVar0, iVar0, 1)
+		iVar0 = string_length(sVar0)
+	}
+if(string_indexof_string(" ", arg0, iVar0 - 1) == iVar0 - 1)
+	while(iVar0 > 0) {
+		sVar0 = substring(sVar0, iVar0 - 1, 0)
+		iVar0 = string_length(sVar0)
+	}
+if(string_indexof_string(" ", sVar0, 0) == 0)
+	while(iVar0 > 0) {
+		sVar0 = substring(sVar0, iVar0, 1)
+		iVar0 = string_length(sVar0)
+	}
+if(string_indexof_string(" ", sVar0, iVar0 - 1) == iVar0 - 1)
+	while(iVar0 > 0) {
+		sVar0 = substring(sVar0, iVar0 - 1, 0)
+		iVar0 = string_length(sVar0)
+	}
+if(compare("", arg0) != 0) {
+	if(compare(sVar0, arg0) == 0) {
+		script_1890("You cannot kick or ban yourself.")
+		return
+	}
+	fc_kickuser(arg0)
+	arg0 = script_1814(arg0)
+	set_chat_type(1)
+	send_public_chat("[Attempting to kick/ban user from this Friends Chat.]")
+}
+return

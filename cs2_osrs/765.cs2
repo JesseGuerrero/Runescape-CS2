@@ -1,0 +1,13 @@
+void script_765(int arg0, int arg1) {
+	int int2;
+	int2 = -1;
+	if (arg0 == 1) {
+		script_147(arg1);
+		if (CHILD.setChild(widget(335, 28), getItemContainerLength(90) + arg1) == true) {
+			CHILD.hookFrame(&script_766(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle()));
+		}
+	} else if (CHILD.setChild(widget(335, 25), getItemContainerLength(90) + arg1) == true) {
+		CHILD.hookFrame(&script_766(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle()));
+	}
+	return;
+}

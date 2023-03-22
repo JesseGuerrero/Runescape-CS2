@@ -1,0 +1,9 @@
+void script_1325(Widget widget0) {
+	if (VARC[140] == 1) {
+		VARC[140] = 0;
+	} else {
+		VARC[140] = 1;
+	}
+	script_1326(widget0, VARC[140]);
+	return;
+}

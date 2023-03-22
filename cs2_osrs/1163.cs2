@@ -1,0 +1,67 @@
+void script_1163() {
+	int int0;
+	int int1;
+	int int2;
+	widget(234, 14).clearChildren();
+	widget(234, 15).clearChildren();
+	int0 = 0;
+	while (int0 < 5) {
+		CHILD.createChild(widget(234, 14), 5, int0);
+		CHILD.setSize(41, 40, 0, 0);
+		CHILD.setPosition(int0 * 40, 0, 0, 0);
+		CHILD.setOptionBase(str(int0));
+		CHILD.setSpriteTiling(false);
+		int0 = int0 + 1;
+	}
+	int0 = 0;
+	while (int0 < 5) {
+		CHILD.createChild(widget(234, 14), 5, 5 + int0);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int0 * 40 + 3, 4, 0, 0);
+		CHILD.setItemNoNum(13302, 1);
+		CHILD.setShadowColor(0x111111);
+		CHILD.setOutlineThickness(1);
+		int0 = int0 + 1;
+	}
+	int0 = 0;
+	while (int0 < 5) {
+		CHILD.createChild(widget(234, 14), 4, 5 * 2 + int0);
+		CHILD.setSize(41, 38, 0, 0);
+		CHILD.setPosition(int0 * 40, 0, 0, 0);
+		CHILD.setFont(494);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTextAlignment(1, 2, 0);
+		CHILD.setTextAntiMacro(true);
+		int0 = int0 + 1;
+	}
+	int1 = 0;
+	int2 = 0;
+	while (int1 < 5) {
+		while (int2 < 28) {
+			CHILD.createChild(widget(234, 15), 5, int1 * 28 + int2);
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(int2 % 7 * 39, int2 / 7 * 38, 0, 0);
+			CHILD.setShadowColor(0x111111);
+			CHILD.setOutlineThickness(1);
+			CHILD.setContextMenuOption(1, "Bank 1");
+			CHILD.setContextMenuOption(2, "Bank 5");
+			CHILD.setContextMenuOption(3, "Bank 10");
+			CHILD.setContextMenuOption(4, "Bank X");
+			CHILD.setContextMenuOption(5, "Bank All");
+			CHILD.setContextMenuOption(6, "Withdraw 1");
+			CHILD.setContextMenuOption(7, "Withdraw 5");
+			CHILD.setContextMenuOption(8, "Withdraw 10");
+			CHILD.setContextMenuOption(9, "Withdraw X");
+			CHILD.setContextMenuOption(10, "Withdraw All");
+			int2 = int2 + 1;
+		}
+		int1 = int1 + 1;
+		int2 = 0;
+	}
+	script_1174();
+	script_1166();
+	widget(234, 25).hookVARP(&script_1164(), 1299);
+	widget(234, 15).hookVARP(&script_1172(), 1299);
+	widget(234, 15).hookContainer(&script_1170(), 558, 559, 560, 561, 562);
+	return;
+}

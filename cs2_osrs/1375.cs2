@@ -1,0 +1,16 @@
+void script_1375(Widget widget0) {
+	if (VARPBIT[2176] == 1) {
+		CHILD.setTrans(0);
+		_CHILD.setRGB(0xFF981F);
+		widget0.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	} else {
+		CHILD.setTrans(120);
+		_CHILD.setRGB(0x9F9F9F);
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+	}
+	return;
+}

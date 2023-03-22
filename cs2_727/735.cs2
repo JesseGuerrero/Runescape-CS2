@@ -1,0 +1,5 @@
+//script735(735)(int arg0, int arg1, int arg2, int arg3)(void)
+script_41(arg0)
+if(cc_find(arg2, arg1) == 1)
+	cc_setgraphic(arg3)
+return

@@ -1,0 +1,7 @@
+//script6223(6223)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg0 <= arg1) {
+	instr6677(arg0, 1, arg4, arg3, arg0, 0)
+	instr6255(arg2, script_6223, "iiIii", arg0 + 1, arg1, arg2, arg3, arg4)
+} else 
+	instr6255(arg2, None, "")
+return

@@ -1,0 +1,53 @@
+void script_1076(Widget widget0, int arg1, Container container2, int arg3, int arg4) {
+	Item item5;
+	int int6;
+	int int7;
+	item5 = null;
+	int6 = -1;
+	int7 = 0;
+	while (int7 < arg1) {
+		if (CHILD.setChild(widget0, int7 + 1) == true) {
+			item5 = getItemIdInSlot(container2, int7);
+			if (item5 != null) {
+				CHILD.setHidden(false);
+				CHILD.setItem(item5, getItemAmtInSlot(container2, int7));
+				if (item5 == (Item)arg3) {
+					if (arg4 > 1 && arg4 != 5 && arg4 != 10) {
+						CHILD.setContextMenuOption(9, "Buy " + arg4);
+					}
+					if (_CHILD.setChild(widget(300, 2), 0) == true) {
+						_CHILD.setSize(34, 34, 0, 0);
+						_CHILD.setPosition(CHILD.getX(), CHILD.getY(), 0, 0);
+						_CHILD.setSprite(155);
+						_CHILD.setTrans(180);
+					}
+				}
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item5) + "</col>");
+				int6 = CHILD.getY();
+			} else {
+				CHILD.setHidden(true);
+				CHILD.setItemNoNum(6512, 1);
+				CHILD.setOptionBase("");
+				CHILD.setTrans(0);
+				CHILD.hookFrame(null);
+			}
+		}
+		int7 = int7 + 1;
+	}
+	if (int6 != -1) {
+		int6 = int6 + 32;
+	} else {
+		int6 = 0;
+	}
+	if (int6 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int6);
+		script_72(widget(300, 3), widget0, getScrollY(widget0));
+		widget(300, 3).setIsHidden(false);
+	} else {
+		widget(300, 2).setScrollPos(0, 0);
+		widget(300, 2).setScrollMax(0, 0);
+		script_72(widget(300, 3), widget0, 0);
+		widget(300, 3).setIsHidden(true);
+	}
+	return;
+}

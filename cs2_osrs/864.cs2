@@ -1,0 +1,15 @@
+void script_864(int arg0, Widget widget1, Model arg2, Model model3, Widget widget4, Widget widget5, int arg6) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	widget1.setModel(model3);
+	widget4.setIsHidden(false);
+	widget1.hookMouseHover(null);
+	widget1.hookMouseExit(null);
+	widget1.hookFrame(&script_1413(widget1, arg2, widget4, getClientCycle() + 20));
+	if (CHILD.setChild(widget5, arg6) == true) {
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

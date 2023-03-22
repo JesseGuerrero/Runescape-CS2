@@ -1,0 +1,14 @@
+void script_300() {
+	string str0;
+	if (VARC[11] == 1) {
+		sendCloseWidgetPacket();
+	}
+	script_677();
+	widget(162, 32).setText("Show items whose names contain the following text:");
+	VARC[5] = 11;
+	script_222("");
+	str0 = "";
+	widget(162, 33).hookKey(&script_112(KEY_TYPED, KEY_PRESSED, str0));
+	widget(162, 33).hookDialogAbort(&script_138());
+	return;
+}

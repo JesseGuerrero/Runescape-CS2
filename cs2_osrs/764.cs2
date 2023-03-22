@@ -1,0 +1,96 @@
+void script_764() {
+	int int0;
+	int int1;
+	int0 = 0;
+	int1 = 0;
+	widget(476, 39).hookVARP(&script_829(), 286);
+	while (int0 < 11) {
+		CHILD.createChild(widget(476, 11), 5, int0);
+		CHILD.setSize(36, 32, 0, 0);
+		if (int0 == 0) {
+			CHILD.setPosition(60, 7, 0, 0);
+			int1 = 0;
+		}
+		if (int0 == 1) {
+			CHILD.setPosition(19, 46, 0, 0);
+			int1 = 1;
+		}
+		if (int0 == 2) {
+			CHILD.setPosition(60, 46, 0, 0);
+			int1 = 2;
+		}
+		if (int0 == 3) {
+			CHILD.setPosition(98, 46, 0, 0);
+			int1 = 13;
+		}
+		if (int0 == 4) {
+			CHILD.setPosition(19, 85, 0, 0);
+			int1 = 3;
+		}
+		if (int0 == 5) {
+			CHILD.setPosition(60, 85, 0, 0);
+			int1 = 4;
+		}
+		if (int0 == 6) {
+			CHILD.setPosition(101, 85, 0, 0);
+			int1 = 5;
+		}
+		if (int0 == 7) {
+			CHILD.setPosition(60, 125, 0, 0);
+			int1 = 7;
+		}
+		if (int0 == 8) {
+			CHILD.setPosition(19, 165, 0, 0);
+			int1 = 9;
+		}
+		if (int0 == 9) {
+			CHILD.setPosition(60, 165, 0, 0);
+			int1 = 10;
+		}
+		if (int0 == 10) {
+			CHILD.setPosition(101, 165, 0, 0);
+			int1 = 12;
+		}
+		if (getItemIdInSlot(94, int1) != null) {
+			CHILD.setItem(getItemIdInSlot(94, int1), getItemAmtInSlot(94, int1));
+			CHILD.setOptionBase("<col=ff981f>" + getItemName(getItemIdInSlot(94, int1)));
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+			if (int1 == 0) {
+				widget(476, 28).setSprite(null);
+			}
+			if (int1 == 1) {
+				widget(476, 29).setSprite(null);
+			}
+			if (int1 == 2) {
+				widget(476, 30).setSprite(null);
+			}
+			if (int1 == 13) {
+				widget(476, 31).setSprite(null);
+			}
+			if (int1 == 3) {
+				widget(476, 32).setSprite(null);
+			}
+			if (int1 == 4) {
+				widget(476, 33).setSprite(null);
+			}
+			if (int1 == 5) {
+				widget(476, 34).setSprite(null);
+			}
+			if (int1 == 7) {
+				widget(476, 35).setSprite(null);
+			}
+			if (int1 == 9) {
+				widget(476, 38).setSprite(null);
+			}
+			if (int1 == 10) {
+				widget(476, 37).setSprite(null);
+			}
+			if (int1 == 12) {
+				widget(476, 36).setSprite(null);
+			}
+		}
+		int0 = int0 + 1;
+	}
+	return;
+}

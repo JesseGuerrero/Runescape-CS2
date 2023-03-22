@@ -1,0 +1,12 @@
+//script3396(3396)(int arg0)(void)
+int iVar1
+string sVar0
+sVar0 = ""
+iVar1 = -1
+if(cc_find(arg0, if_gethash(979, 27)) == 1) {
+	store_varc_string(279, cc_getuseonname())
+	store_varc(792, load_varc(791))
+	script_3395()
+	script_3397()
+}
+return

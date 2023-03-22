@@ -1,0 +1,46 @@
+//script5883(5883)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar4 = 82116690
+iVar5 = instr6072(iVar4)
+iVar6 = script_669(iVar5, 65535, 360)
+if(arg0 > 0) {
+	arg2 = arg2 + 1
+	arg1 = arg1 + 1
+	if(arg1 >= ((20 / 5) * arg0) + (arg0 * 3)) {
+		arg1 = 0
+		arg0 = arg0 + 1
+	}
+	instr6342(if_gethash(1253, 82), script_5883, "iiii", arg0, arg1, arg2, arg3)
+}
+iVar7 = 8 - arg0
+iVar8 = iVar6 + iVar7
+if(iVar8 > 359)
+	iVar8 = max(iVar8 - 359, 0)
+iVar9 = script_669(iVar8, 360, 65535)
+store_varc(1801, iVar8)
+iVar10 = -1
+iVar11 = -1
+iVar12 = script_5936(load_varpbit(10860))
+if(arg0 == 8) {
+	instr6342(iVar4, None, "")
+	script_5892()
+	instr6342(if_gethash(1253, 52), script_5898, "Ii", -2147483645, 0)
+	if(iVar12 == -1)
+		return
+	iVar10 = struct_param(2266, iVar12)
+	iVar11 = struct_param(2267, iVar12)
+} else 
+	script_5891()
+store_varc(1783, script_5932(iVar8))
+script_5899()
+if_set2dangle(iVar4, iVar9)
+script_5897(iVar6, iVar8)
+return

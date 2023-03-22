@@ -1,0 +1,45 @@
+//script3461(3461)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(load_varc(1007) <= 0) {
+	if_sethide(arg1, 1)
+	if_sethide(arg4, 1)
+	instr6236()
+	return
+}
+if(load_varc(1007) <= 10) {
+	if_sethide(arg1, 1)
+	if_sethide(arg4, 1)
+	script_3470(arg0, script_284(coord()))
+	return
+}
+if(load_varc(1007) <= 20) {
+	if_sethide(arg1, 1)
+	if_sethide(arg4, 1)
+	script_3465(arg0, script_284(coord()))
+	return
+}
+if(load_varc(1007) <= 30) {
+	if_sethide(arg4, 1)
+	script_3462(arg0, arg1, arg2, arg3)
+	return
+}
+if(load_varc(1007) <= 40) {
+	if_sethide(arg1, 1)
+	if_sethide(arg4, 1)
+	script_3458(arg0, script_284(coord()))
+	return
+}
+if(load_varc(1007) <= 100) {
+	if_sethide(arg1, 1)
+	script_3472(arg0, arg4)
+	return
+}
+if(load_varc(1007) <= 200) {
+	if_sethide(arg1, 1)
+	if_sethide(arg4, 1)
+	script_3466(arg0, script_284(coord()))
+	return
+}
+if_sethide(arg1, 1)
+if_sethide(arg4, 1)
+script_6320(arg0, script_284(coord()))
+return

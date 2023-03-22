@@ -1,0 +1,68 @@
+//script5563(5563)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar2 = arg0 + 20
+iVar3 = arg0 + 40
+iVar4 = arg0 + 60
+iVar5 = arg0 + 80
+iVar6 = arg0 + 100
+iVar7 = arg0 + 120
+iVar8 = -1
+if(client_clock() >= iVar7) {
+	if_sethide(arg1, 1)
+	if_settrans(arg1, 255)
+	instr6342(arg1, None, "")
+}
+if(client_clock() < iVar2) {
+	iVar8 = if_gettrans(arg1) - 15
+	if(iVar8 < 0)
+		iVar8 = 0
+	if_settrans(arg1, iVar8)
+	if_setgraphic(if_gethash(746, 209), 8946)
+	if_setgraphic(if_gethash(548, 32), 8957)
+} else 
+	if(client_clock() < iVar3) {
+		iVar8 = if_gettrans(arg1) + 15
+		if(iVar8 > 255)
+			iVar8 = 255
+		if_settrans(arg1, iVar8)
+		if_setgraphic(if_gethash(746, 209), 8945)
+		if_setgraphic(if_gethash(548, 32), 8956)
+	} else 
+		if(client_clock() < iVar4) {
+			iVar8 = if_gettrans(arg1) - 15
+			if(iVar8 < 0)
+				iVar8 = 0
+			if_settrans(arg1, iVar8)
+			if_setgraphic(if_gethash(746, 209), 8946)
+			if_setgraphic(if_gethash(548, 32), 8957)
+		} else 
+			if(client_clock() < iVar5) {
+				iVar8 = if_gettrans(arg1) + 15
+				if(iVar8 > 255)
+					iVar8 = 255
+				if_settrans(arg1, iVar8)
+				if_setgraphic(if_gethash(746, 209), 8945)
+				if_setgraphic(if_gethash(548, 32), 8956)
+			} else 
+				if(client_clock() < iVar6) {
+					iVar8 = if_gettrans(arg1) - 15
+					if(iVar8 < 0)
+						iVar8 = 0
+					if_settrans(arg1, iVar8)
+					if_setgraphic(if_gethash(746, 209), 8946)
+					if_setgraphic(if_gethash(548, 32), 8957)
+				} else  {
+					iVar8 = if_gettrans(arg1) + 15
+					if(iVar8 > 255)
+						iVar8 = 255
+					if_settrans(arg1, iVar8)
+					if_setgraphic(if_gethash(746, 209), 8945)
+					if_setgraphic(if_gethash(548, 32), 8956)
+				}
+return

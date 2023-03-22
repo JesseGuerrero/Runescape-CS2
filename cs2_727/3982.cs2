@@ -1,0 +1,89 @@
+//script3982(3982)(int arg0, string arg1)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 178
+iVar8 = 69206174
+iVar9 = 0
+iVar10 = 0
+iVar11 = -1
+if(instr6004(arg0) == 1) {
+	if(load_varc(1) < client_clock() + 15) {
+		if(load_varc(1) < client_clock())
+			store_varc(1, client_clock())
+		store_varc(1, load_varc(1) + 2)
+		return
+	}
+	store_varc(1, client_clock() + 55)
+	if(load_varc(2) != 1) {
+		iVar1 = cc_getx() + 5
+		iVar2 = (cc_gety() + cc_getheight()) + 5
+		iVar11 = 69206110
+		if(iVar11 != -1)
+			if(iVar7 >= if_getwidth(iVar11))
+				iVar7 = if_getwidth(iVar11)
+		iVar9 = 4 + parawidth(arg0, 495, iVar7 - 4)
+		iVar10 = 4 + (16 * paramheight(arg0, 495, iVar7 - 4))
+		if(iVar11 != -1) {
+			iVar3 = iVar1 - if_getscrollx(iVar11)
+			iVar4 = iVar2 - if_getscrolly(iVar11)
+			if(iVar3 < 0) {
+				iVar1 = if_getscrollx(iVar11)
+				iVar3 = 0
+			}
+			if(iVar4 < 0) {
+				iVar2 = if_getscrolly(iVar11)
+				iVar4 = 0
+			}
+			if(iVar3 > 0) {
+				iVar5 = (iVar3 - if_getwidth(iVar11)) + iVar9
+				if(iVar5 > 0)
+					iVar1 = iVar1 - iVar5
+			}
+			if(iVar4 > 0) {
+				iVar6 = (iVar4 - if_getheight(iVar11)) + iVar10
+				if(iVar6 > 0)
+					iVar2 = ((iVar2 - iVar6) - cc_getheight()) - 10
+			}
+		}
+		if(iVar1 < 0)
+			iVar1 = 0
+		if(iVar2 < 0)
+			iVar2 = 0
+		if_setsize(iVar8, 0, 0, iVar10, iVar9)
+		if_setposition(iVar8, 0, 0, iVar2, iVar1)
+		cc_deleteall(iVar8)
+		cc_create(0, 3, iVar8)
+		cc_setsize(0, 0, if_getheight(iVar8), if_getwidth(iVar8))
+		cc_setfill(1)
+		cc_setcolor(0)
+		cc_settrans(80)
+		cc_create(1, 3, iVar8)
+		cc_setsize(0, 0, if_getheight(iVar8), if_getwidth(iVar8))
+		cc_setfill(0)
+		cc_setcolor(0)
+		cc_create(2, 4, iVar8)
+		cc_setsize(0, 0, if_getheight(iVar8), iVar7 - 4)
+		cc_setposition(0, 0, 0, 2)
+		cc_settext(arg0)
+		cc_settextalign(16, 1, 0)
+		cc_settextfont(495)
+		cc_setcolor(eeeeee)
+		store_varc(2, 1)
+	}
+}
+return

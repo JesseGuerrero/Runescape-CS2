@@ -1,0 +1,56 @@
+//script2967(2967)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+script_3209()
+script_3208(1)
+iVar1 = script_3228(7, 0, 0)
+iVar2 = script_3228(8, 0, 0)
+iVar3 = 1
+if(compare(load_varc_string(125), load_varc_string(124)) != 0)
+	if(string_length(load_varc_string(124)) > 0)
+		if(string_length(load_varc_string(125)) > 0) {
+			script_3213(44105801, "Please ensure both passwords match.")
+			iVar3 = 0
+		}
+iVar4 = 1
+if(string_length(load_varc_string(122)) <= 0) {
+	script_3213(44105821, "Please enter your Email address here.")
+	iVar4 = 0
+}
+if(script_3936(load_varc_string(122)) == 0) {
+	script_3213(44105821, "Please enter a valid Email address.")
+	iVar4 = 0
+}
+iVar5 = 1
+if(string_length(load_varc_string(326)) <= 0) {
+	script_3213(44105840, "Please enter your Email address again here.")
+	iVar5 = 0
+}
+if(compare(load_varc_string(326), load_varc_string(122)) != 0) {
+	script_3213(44105840, "Please ensure both Email addresses match.")
+	iVar5 = 0
+}
+iVar6 = script_3954(0)
+if(iVar4 == 1)
+	if(iVar5 == 1)
+		if(iVar1 == 1)
+			if(iVar2 == 1)
+				if(iVar3 == 1)
+					if(iVar6 == 1)
+						if(load_varc(1407) < 13) {
+							instr6642()
+							script_4038()
+						} else 
+							if(instr6712() == 1)
+								script_4038()
+							else {
+								send_signup_form_packet(load_varc_string(124), load_varc_string(122), load_varc(1411), load_varc(1407))
+								instr6342(if_gethash(673, 26), script_3220, "")
+							}
+					else
+						script_3208(0)
+return

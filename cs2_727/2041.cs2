@@ -1,0 +1,74 @@
+//script2041(2041)()(void)
+if_settext(if_gethash(28, 42), "Bronze: " + to_string(load_varpbit(941)))
+if(load_varpbit(941) > 0) {
+	if_setcolor(1835052, 0xFF981F)
+	if_setcolor(1835050, 0xFF981F)
+} else  {
+	if_setcolor(1835052, 0x999999)
+	if_setcolor(1835050, 0x999999)
+}
+if_settext(if_gethash(28, 39), "Iron: " + to_string(load_varpbit(942)))
+if(load_varpbit(942) > 0) {
+	if_setcolor(1835049, 0xFF981F)
+	if_setcolor(1835047, 0xFF981F)
+} else  {
+	if_setcolor(1835049, 0x999999)
+	if_setcolor(1835047, 0x999999)
+}
+if_settext(if_gethash(28, 37), "Steel: " + to_string(load_varpbit(943)))
+if(load_varpbit(943) > 0) {
+	if_setcolor(1835046, 0xFF981F)
+	if_setcolor(1835045, 0xFF981F)
+} else  {
+	if_setcolor(1835046, 0x999999)
+	if_setcolor(1835045, 0x999999)
+}
+if_settext(if_gethash(28, 34), "Mithril: " + to_string(load_varpbit(944)))
+if(load_varpbit(944) > 0) {
+	if_setcolor(1835043, 0xFF981F)
+	if_setcolor(1835042, 0xFF981F)
+} else  {
+	if_setcolor(1835043, 0x999999)
+	if_setcolor(1835042, 0x999999)
+}
+if_settext(if_gethash(28, 31), "Adamantite: " + to_string(load_varpbit(945)))
+if(load_varpbit(945) > 0) {
+	if_setcolor(1835040, 0xFF981F)
+	if_setcolor(1835039, 0xFF981F)
+} else  {
+	if_setcolor(1835040, 0x999999)
+	if_setcolor(1835039, 0x999999)
+}
+if_settext(if_gethash(28, 28), "Runite: " + to_string(load_varpbit(946)))
+if(load_varpbit(946) > 0) {
+	if_setcolor(1835037, 0xFF981F)
+	if_setcolor(1835036, 0xFF981F)
+} else  {
+	if_setcolor(1835037, 0x999999)
+	if_setcolor(1835036, 0x999999)
+}
+if_settext(if_gethash(28, 25), "Silver: " + to_string(load_varpbit(948)))
+if(load_varpbit(948) > 0) {
+	if_setcolor(1835034, 0xFF981F)
+	if_setcolor(1835033, 0xFF981F)
+} else  {
+	if_setcolor(1835034, 0x999999)
+	if_setcolor(1835033, 0x999999)
+}
+if_settext(if_gethash(28, 22), "Gold: " + to_string(load_varpbit(947)))
+if(load_varpbit(947) > 0) {
+	if_setcolor(1835031, 0xFF981F)
+	if_setcolor(1835030, 0xFF981F)
+} else  {
+	if_setcolor(1835031, 0x999999)
+	if_setcolor(1835030, 0x999999)
+}
+if_settext(if_gethash(28, 2), "Perfect Gold: " + to_string(load_varpbit(958)))
+if(load_varpbit(958) > 0) {
+	if_setcolor(1835012, 0xFF981F)
+	if_setcolor(1835010, 0xFF981F)
+} else  {
+	if_setcolor(1835012, 0x999999)
+	if_setcolor(1835010, 0x999999)
+}
+return

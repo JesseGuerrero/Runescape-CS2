@@ -1,0 +1,33 @@
+//script817(817)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = 31
+iVar2 = 0
+iVar3 = 31
+iVar4 = 3
+iVar5 = 25
+if(arg0 == 5)
+	if(load_varpbit(9816) >= script_5255())
+		iVar2 = 0
+	else
+		if(stat_base(arg0) == 0 || stat_base(arg0) == -1)
+			iVar2 = 0
+		else
+			iVar2 = iVar4 + (iVar5 - scale(iVar5, script_5255(), load_varpbit(9816)))
+else
+	if(stat(arg0) >= stat_base(arg0))
+		iVar2 = 0
+	else
+		if(stat_base(arg0) == 0 || stat_base(arg0) == -1)
+			iVar2 = 0
+		else
+			iVar2 = iVar4 + (iVar5 - scale(iVar5, stat_base(arg0), stat(arg0)))
+if(arg0 == 5)
+	if_setsize(if_gethash(749, 1), 0, 0, iVar2, iVar3)
+else
+	if(arg0 == 23)
+		if_setsize(if_gethash(747, 1), 0, 0, iVar2, iVar3)
+return

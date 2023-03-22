@@ -1,0 +1,21 @@
+//script1671(1671)(int arg0, int arg1)(void)
+string sVar0
+sVar0 = "Empty display"
+switch(arg1) {
+	case default:
+		break
+	case 0:
+		if_setonmouseover(arg0, script_38, "IIsii", -2147483645, if_gethash(81, 40), sVar0, 25, 180)
+		break
+	case 1:
+		if_setonmouseover(arg0, script_38, "IIsii", -2147483645, if_gethash(83, 40), sVar0, 25, 180)
+		break
+	case 2:
+		if_setonmouseover(arg0, script_38, "IIsii", -2147483645, if_gethash(80, 52), sVar0, 25, 180)
+		break
+	case 3:
+		if_setonmouseover(arg0, script_38, "IIsii", -2147483645, if_gethash(82, 38), sVar0, 25, 180)
+		break
+
+}
+return

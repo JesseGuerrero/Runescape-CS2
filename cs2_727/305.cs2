@@ -1,0 +1,7 @@
+//script305(305)(int arg0)(void)
+if(arg0 == 1)
+	if_setcolor(49479694, 0xFF981F)
+else
+	if_setcolor(49479694, 0xFF0000)
+instr6342(if_gethash(755, 14), script_306, "iI", client_clock(), -2147483645)
+return

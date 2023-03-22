@@ -1,0 +1,12 @@
+void script_579(int arg0, int arg1, DataMap arg2, Widget arg3, Widget widget4, Widget widget5, int arg6) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (arg1 < 0 || arg1 >= arg6) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	script_573(arg2, arg1);
+	script_581(arg2, arg3, widget4, widget5, arg6);
+	return;
+}

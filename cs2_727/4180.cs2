@@ -1,0 +1,24 @@
+//script4180(4180)(int arg0, int arg1, int arg2, string arg3)(int)
+int iVar3
+int iVar4
+iVar3 = (paramheight(arg0, 494, if_getwidth(arg1)) * 10) + 2
+iVar4 = client_clock() - arg2
+if(arg2 > 0)
+	if(iVar4 < 255) {
+		cc_create(if_getnextsubid(arg1), 3, arg1)
+		cc_setsize(0, 1, iVar3, 0)
+		cc_setposition(0, 1, arg0, 0)
+		cc_setfill(1)
+		cc_setcolor(ff0000)
+		cc_settrans(max(0, iVar4))
+		instr6556(script_4181, "Ii", -2147483645, -2147483643)
+	}
+cc_create(if_getnextsubid(arg1), 4, arg1)
+cc_setsize(0, 1, iVar3, 0)
+cc_setposition(0, 1, arg0, 0)
+cc_setcolor(aaaaaa)
+cc_settextfont(494)
+cc_settextalign(0, 1, 1)
+cc_settext(arg0)
+return (arg0 + iVar3) + 2
+return 0

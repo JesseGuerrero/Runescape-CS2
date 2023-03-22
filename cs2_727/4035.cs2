@@ -1,0 +1,41 @@
+//script4035(4035)()(int)
+int iVar0
+iVar0 = 88
+if(load_varpbit(5387) == 250)
+	iVar0 = iVar0 + 5
+if(load_varpbit(2561) >= 3)
+	iVar0 = iVar0 + 5
+if(load_varp(131) >= 9)
+	iVar0 = iVar0 + 5
+if(load_varpbit(358) == 15)
+	iVar0 = iVar0 + 10
+if(load_varpbit(6001) >= 45)
+	iVar0 = iVar0 + 10
+if(load_varp(150) >= 160)
+	iVar0 = iVar0 + 5
+if(load_varp(223) >= 9)
+	iVar0 = iVar0 + 5
+if(load_varpbit(1990) >= 430)
+	iVar0 = iVar0 + 5
+if(load_varpbit(1383) >= 4)
+	iVar0 = iVar0 + 5
+if(load_varpbit(5075) == 20)
+	iVar0 = iVar0 + 5
+if(load_varp(14) >= 7)
+	iVar0 = iVar0 + 5
+if(load_varp(112) >= 7)
+	iVar0 = iVar0 + 5
+if(load_varp(302) >= 61)
+	iVar0 = iVar0 + 5
+if(load_varp(63) >= 6)
+	iVar0 = iVar0 + 5
+if(load_varp(145) >= 7 || load_varp(146) >= 4)
+	iVar0 = iVar0 + 5
+if(load_varpbit(1028) >= 70)
+	iVar0 = iVar0 + 5
+if(load_varp(26) >= 80)
+	iVar0 = iVar0 + 5
+if(load_varpbit(3523) >= 150)
+	iVar0 = iVar0 + 5
+return iVar0
+return 0

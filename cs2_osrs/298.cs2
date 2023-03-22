@@ -1,0 +1,27 @@
+void script_298(Widget widget0, int arg1, int arg2, Widget widget3, Widget arg4, Widget arg5) {
+	int int6;
+	Item item7;
+	Item item8;
+	int6 = getItemContainerLength(93);
+	if (arg1 < 0 || arg1 >= int6) {
+		return;
+	}
+	if (arg2 < 0 || arg2 >= int6) {
+		return;
+	}
+	item7 = getItemIdInSlot(93, arg1);
+	if (item7 == null) {
+		return;
+	}
+	item8 = getItemIdInSlot(93, arg2);
+	if (CHILD.setChild(widget0, arg2) == true) {
+		script_297(item7, getItemAmtInSlot(93, arg1), widget0, widget3, 0, arg4, arg5);
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		script_297(item8, getItemAmtInSlot(93, arg2), widget0, widget3, 0, arg4, arg5);
+	}
+	if (item7 == 11941 || item8 == 11941) {
+		widget3.clearChildren();
+	}
+	return;
+}

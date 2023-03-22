@@ -1,0 +1,24 @@
+//script519(519)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = iVar0 + load_varpbit(3579)
+iVar0 = iVar0 + load_varpbit(3580)
+iVar0 = iVar0 + load_varpbit(3581)
+iVar0 = iVar0 + load_varpbit(3582)
+iVar0 = iVar0 + load_varpbit(3583)
+iVar0 = iVar0 + load_varpbit(3584)
+iVar0 = iVar0 + load_varpbit(3585)
+iVar0 = iVar0 + load_varpbit(3586)
+iVar0 = iVar0 + load_varpbit(3587)
+iVar0 = iVar0 + load_varpbit(3588)
+iVar0 = iVar0 + load_varpbit(3589)
+iVar0 = iVar0 + load_varpbit(3590)
+iVar0 = iVar0 + load_varpbit(3591)
+iVar0 = iVar0 + load_varpbit(3592)
+iVar0 = iVar0 + load_varpbit(3593)
+iVar0 = iVar0 + load_varpbit(3594)
+iVar0 = iVar0 + load_varpbit(3595)
+iVar0 = iVar0 + load_varpbit(3597)
+iVar0 = iVar0 + load_varpbit(3596)
+return iVar0
+return 0

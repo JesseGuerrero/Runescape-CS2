@@ -1,0 +1,94 @@
+//script381(381)(int arg0, int arg1, int arg2, string arg3)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar3 = client_clock() + 25
+if(load_varc(1) < iVar3) {
+	store_varc(1, max(load_varc(1) + 2, client_clock()))
+	return
+}
+store_varc(1, iVar3)
+if(if_gethide(if_gethash(1028, 140)) == 0)
+	return
+iVar4 = 0
+if(cc_find(arg1, arg0) == 1 || arg1 == -1 || instr6004(arg0) == 1) {
+	store_varc(2, script_1743())
+	arg2 = max(0, min(cc_getheight(), arg2))
+	iVar4 = script_1744() + arg2
+} else 
+	return
+if_sethide(if_gethash(1028, 140), 0)
+cc_deleteall(if_gethash(1028, 140))
+iVar5 = parawidth(arg0, 495, if_getwidth(if_gethash(1028, 30)))
+iVar6 = (paramheight(arg0, 495, iVar5) * 12) + 5
+iVar7 = iVar5 + 25
+iVar8 = max(17, iVar6 + 8)
+iVar9 = max(0, iVar7 - 25)
+iVar10 = max(0, iVar8 - 14)
+if_setsize(if_gethash(1028, 140), 0, 0, iVar8, iVar7)
+if_setposition(if_gethash(1028, 140), 0, 0, iVar4 - (iVar8 / 2), load_varc(2) - iVar7)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 3, 67371148)
+cc_setsize(0, 0, iVar10, iVar9)
+cc_setposition(1, 0, 0, 7)
+cc_setfill(1)
+cc_setcolor(e3e2e1)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, 7, iVar9)
+cc_setposition(0, 0, 0, 7)
+cc_settiling(1)
+cc_setgraphic(3476)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, 7, iVar9)
+cc_setposition(2, 0, 0, 7)
+cc_settiling(1)
+cc_setvflip(1)
+cc_setgraphic(3476)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, iVar10, 7)
+cc_setposition(1, 0, 0, 0)
+cc_settiling(1)
+cc_setgraphic(3475)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, iVar10, 7)
+cc_setposition(1, 2, 0, 12)
+cc_settiling(1)
+cc_sethflip(1)
+cc_setgraphic(3475)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, 7, 7)
+cc_setposition(0, 0, 0, 0)
+cc_setgraphic(3474)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, 7, 7)
+cc_setposition(0, 2, 0, 12)
+cc_sethflip(1)
+cc_setgraphic(3474)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, 7, 7)
+cc_setposition(2, 0, 0, 0)
+cc_setvflip(1)
+cc_setgraphic(3474)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, 7, 7)
+cc_setposition(2, 2, 0, 12)
+cc_sethflip(1)
+cc_setvflip(1)
+cc_setgraphic(3474)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 5, 67371148)
+cc_setsize(0, 0, 11, 12)
+cc_setposition(1, 2, 0, 0)
+cc_setgraphic(3473)
+cc_set2dangle(16384)
+cc_create(if_getnextsubid(if_gethash(1028, 140)), 4, 67371148)
+cc_setsize(0, 0, iVar6, iVar5)
+cc_setposition(1, 0, 0, 6)
+cc_setcolor(0)
+cc_settextfont(3793)
+cc_settextalign(0, 0, 1)
+cc_settext(arg0)
+return

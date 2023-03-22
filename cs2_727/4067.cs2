@@ -1,0 +1,22 @@
+//script4067(4067)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 69337110:
+		if_setposition(arg0, 0, 1, 13, -160)
+		break
+	case 69337111:
+		if_setposition(arg0, 0, 1, 13, -80)
+		break
+	case 69337112:
+		if_setposition(arg0, 0, 1, 13, 0)
+		break
+	case 69337114:
+		if_setposition(arg0, 0, 1, 13, 80)
+		break
+	case 69337113:
+		if_setposition(arg0, 0, 1, 13, 160)
+		break
+
+}
+return

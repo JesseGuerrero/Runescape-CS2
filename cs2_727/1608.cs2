@@ -1,0 +1,11 @@
+//script1608(1608)()(void)
+int iVar0
+int iVar1
+iVar0 = inv_getitem(3, 94)
+if(script_6500(0) == 1)
+	if(container_free_space(670) < inv_size(if_gethash(0, 670)))
+		iVar0 = inv_getitem(3, 670)
+iVar1 = bas_getanim_ready(item_param(644, iVar0))
+if_setmodelanim(if_gethash(549, 82), iVar1)
+instr6210(if_gethash(549, 82))
+return

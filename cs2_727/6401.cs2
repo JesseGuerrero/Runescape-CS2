@@ -1,0 +1,5 @@
+//script6401(6401)(int arg0, int arg1, int arg2)(void)
+if_setgraphic(arg0, 8355)
+if_setgraphic(arg1, 8356)
+if_setgraphic(arg2, 8357)
+return

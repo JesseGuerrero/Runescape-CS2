@@ -1,0 +1,3 @@
+//script3598(3598)(int arg0, int arg1, int arg2)(void)
+script_3626(3171, 3172, 3173, script_3622(load_varpbit(7392)), arg0, arg1, arg2)
+return

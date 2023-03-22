@@ -1,0 +1,12 @@
+void script_1692(int arg0, Widget widget1, int arg2, string string3, string arg4, string arg5, int arg6) {
+	if (getClientCycle() < arg6) {
+		return;
+	}
+	if (CHILD.setChild(widget1, arg2) == true && _CHILD.setChild(widget(590, 0), arg0) == true) {
+		_CHILD.hookFrame(null);
+		CHILD.setText(string3);
+		CHILD.hookOptionClick(&script_1690(CTX_MENU_OPTION, arg0, widget1, arg2, string3, arg4, arg5));
+		_CHILD.hookKey(&script_1689(KEY_PRESSED, arg0, widget1, arg2, string3, arg4, arg5));
+	}
+	return;
+}

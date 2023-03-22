@@ -1,0 +1,22 @@
+//script1751(1751)(int arg0)(string)
+int iVar1
+if(arg0 < 2)
+	return "in a minute"
+iVar1 = arg0 / 60
+arg0 = modulo(60, arg0)
+if(iVar1 > 1) {
+	if(arg0 > 1)
+		return "in " + to_string(iVar1) + " hours " + to_string(arg0) + " minutes"
+	if(arg0 == 1)
+		return "in " + to_string(iVar1) + " hours 1 minute"
+	return "in " + to_string(iVar1) + " hours"
+}
+if(iVar1 == 1) {
+	if(arg0 > 1)
+		return "in 1 hour " + to_string(arg0) + " minutes"
+	if(arg0 == 1)
+		return "in 1 hour 1 minute"
+	return "in 1 hour"
+}
+return "in " + to_string(arg0) + " minutes"
+return ""

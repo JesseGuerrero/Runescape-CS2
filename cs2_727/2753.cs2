@@ -1,0 +1,22 @@
+//script2753(2753)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+if(arg1 != 1)
+	return
+if(cc_find(arg3, arg2) == 1)
+	cc_delete()
+if(load_varc(5) != arg0 || string_length(arg0) <= 0)
+	return
+store_varc_string(22, removetags(arg0))
+if_settext(if_gethash(752, 5), escape(load_varc_string(22)))
+if(load_varc(5) == 8) {
+	resume_namedialog(load_varc_string(22))
+	script_1548(0)
+} else 
+	if(load_varc(5) == 9) {
+		resume_stringdialog(load_varc_string(22))
+		script_1548(0)
+	} else 
+		if(load_varc(5) == 10) {
+			fc_joinchat(load_varc_string(22))
+			script_1548(0)
+		}
+return

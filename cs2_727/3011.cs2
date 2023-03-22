@@ -1,0 +1,19 @@
+//script3011(3011)(int arg0)(int, int, int, int, int, int, int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 59441184, 59441187, script_3013(arg0), 59441185, 59441183, 59441182, script_3012(arg0)
+
+	case 1:
+		return 59441172, 59441175, script_3013(arg0), 59441173, 59441171, 59441170, script_3012(arg0)
+
+	case 2:
+		return 59441160, 59441163, script_3013(arg0), 59441161, 59441159, 59441158, script_3012(arg0)
+
+	case 3:
+		return 59441198, 59441201, script_3013(arg0), 59441199, 59441197, 59441196, script_3012(arg0)
+
+
+}
+return -1, -1, -1, -1, -1, -1, -1

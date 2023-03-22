@@ -1,0 +1,192 @@
+void script_1702(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int5 = 0;
+	switch (cs2method6616()) {
+		case 1:
+			int5 = script_1753(location(1769, 5366, 1), location(1773, 5366, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1778, 5346, 0), location(1778, 5343, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1744, 5325, 0), location(1744, 5321, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 18:
+			int5 = script_1754(location(1863, 5238, 0), location(1914, 5222, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(1881, 5232, 0), location(1859, 5243, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1902, 5222, 0), location(2042, 5245, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2039, 5240, 0), location(2021, 5223, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2017, 5210, 0), location(2042, 5245, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2040, 5208, 0), location(2042, 5245, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2011, 5192, 0), location(2042, 5245, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2031, 5189, 0), location(2042, 5245, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2026, 5218, 0), location(2123, 5252, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2120, 5258, 0), location(2146, 5287, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2150, 5278, 0), location(2123, 5252, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2148, 5283, 0), location(2358, 5215, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2365, 5212, 0), location(2341, 5219, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 3:
+			int5 = script_1753(location(3056, 9561, 0), location(3056, 9556, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3060, 9555, 0), location(3060, 9557, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 5:
+			int5 = script_1753(location(2736, 5278, 0), location(2736, 5278, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2712, 5293, 0), location(2710, 5293, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2723, 5293, 0), location(2724, 5293, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2705, 5364, 0), location(2705, 5364, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2699, 5328, 0), location(2699, 5328, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2720, 5360, 0), location(2720, 5360, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2731, 5349, 0), location(2731, 5349, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2739, 5325, 0), location(2739, 5325, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2730, 5305, 0), location(2730, 5305, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2723, 5264, 0), location(2724, 5264, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2702, 5305, 0), location(2702, 5305, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2737, 5357, 1), location(2737, 5357, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2701, 5362, 1), location(2701, 5362, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2696, 5303, 1), location(2696, 5303, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2697, 5292, 1), location(2697, 5292, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2722, 5253, 1), location(2722, 5253, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2741, 5258, 1), location(2741, 5258, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2740, 5292, 1), location(2740, 5292, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 6:
+			int5 = script_1753(location(3728, 5693, 0), location(3060, 9765, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3755, 5673, 0), location(3755, 5674, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3056, 9744, 0), location(3718, 5678, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 7:
+			int5 = script_1753(location(2913, 5300, 2), location(2913, 5300, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2920, 5275, 1), location(2920, 5274, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 8:
+			int5 = script_1753(location(3510, 9497, 2), location(3510, 9494, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 9:
+			int5 = script_1753(location(2649, 9592, 0), location(2644, 9595, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2636, 9516, 0), location(2636, 9511, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2685, 9436, 0), location(2696, 9436, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2840, 9509, 0), location(2841, 9509, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2671, 9583, 2), location(2673, 9583, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 10:
+			int5 = script_1754(location(2839, 10130, 0), location(2837, 10141, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2855, 10143, 0), location(2858, 10133, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2843, 10130, 0), location(2887, 10223, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2838, 10123, 0), location(2781, 10161, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 11:
+			int5 = script_1753(location(2508, 10289, 0), location(2514, 10291, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 12:
+			int5 = script_1753(location(3095, 9832, 0), location(3092, 9815, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 14:
+			int5 = script_1754(location(3538, 9905, 0), location(3538, 9909, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(3541, 9905, 0), location(3541, 9909, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(3544, 9905, 0), location(3544, 9909, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(3528, 9911, 0), location(3528, 9870, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 17:
+			int5 = script_1753(location(2699, 9989, 0), location(2703, 9989, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 19:
+			int5 = script_1753(location(2280, 10016, 0), location(2280, 10022, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2429, 9807, 0), location(2435, 9806, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 20:
+			int5 = script_1753(location(2881, 9825, 0), location(2880, 9825, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2887, 9823, 0), location(2888, 9823, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2874, 9847, 0), location(1310, 1236, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 24:
+			int5 = script_1753(location(3163, 4560, 0), location(3163, 4565, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3155, 4559, 0), location(3161, 4559, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3141, 4565, 1), location(3141, 4560, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3144, 4571, 2), location(3144, 4566, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3144, 4582, 1), location(3144, 4577, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3151, 4583, 0), location(3146, 4583, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3166, 4577, 0), location(3161, 4577, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3184, 4571, 0), location(3184, 4566, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3184, 4585, 1), location(3184, 4579, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3170, 4577, 0), location(3175, 4577, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3174, 4561, 1), location(3179, 4561, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3195, 4575, 1), location(3195, 4570, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3189, 4577, 2), location(3194, 4577, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3186, 4585, 1), location(3186, 4578, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3168, 4586, 0), location(3168, 4579, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3161, 4589, 1), location(3166, 4589, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3145, 4594, 0), location(3145, 4589, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3160, 4598, 0), location(3149, 4598, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3168, 4592, 0), location(3168, 4597, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3151, 4597, 1), location(3155, 4597, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3179, 4598, 1), location(3175, 4598, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3147, 4548, 0), location(3144, 4548, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3158, 4553, 0), location(3158, 4556, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3168, 4569, 0), location(3171, 4569, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3184, 4553, 0), location(3184, 4556, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3190, 4598, 0), location(3193, 4598, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3141, 4551, 1), location(3141, 4554, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3158, 4564, 1), location(3158, 4567, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3177, 4577, 1), location(3180, 4577, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3185, 4602, 0), location(3149, 4643, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3149, 4659, 0), location(3149, 4663, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 22:
+			int5 = script_1753(location(2843, 10109, 2), location(2843, 10109, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2843, 10051, 2), location(2843, 10051, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2853, 10062, 1), location(2853, 10062, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2852, 10107, 1), location(2852, 10107, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 23:
+			int5 = script_1753(location(2438, 5167, 0), location(2413, 5118, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2496, 5124, 0), location(2272, 5344, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 25:
+			int5 = script_1753(location(2547, 10143, 0), location(1798, 4406, 3), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1809, 4405, 3), location(1809, 4405, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1823, 4404, 3), location(1823, 4404, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1834, 4389, 3), location(1834, 4389, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1824, 4381, 3), location(1824, 4381, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1838, 4376, 3), location(1838, 4376, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1961, 4392, 3), location(1961, 4392, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1810, 4394, 2), location(1810, 4394, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1799, 4387, 2), location(1799, 4387, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1798, 4382, 2), location(1798, 4382, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1802, 4369, 2), location(1802, 4369, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1826, 4362, 2), location(1826, 4362, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1850, 4385, 2), location(1850, 4385, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1864, 4388, 2), location(1864, 4388, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1863, 4372, 2), location(1863, 4372, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1932, 4379, 2), location(1932, 4379, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1890, 4408, 1), location(1890, 4408, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1957, 4372, 1), location(1957, 4372, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1910, 4367, 0), location(2899, 4449, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1913, 4367, 0), location(2899, 4385, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 26:
+			int5 = script_1753(location(3067, 10252, 0), location(2271, 4680, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2543, 4723, 0), location(2509, 4687, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3048, 10336, 0), location(3046, 10326, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3035, 10158, 0), location(3049, 10165, 3), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(3062, 10131, 0), location(3066, 10142, 3), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 27:
+			int5 = script_1754(location(2598, 9491, 0), location(2599, 9555, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2578, 9585, 0), location(2567, 9524, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1754(location(2579, 9516, 0), location(2578, 9580, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2621, 9497, 0), location(2620, 9563, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2616, 9571, 0), location(2616, 9504, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(2578, 9506, 0), location(2572, 9506, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 28:
+			int5 = script_1753(location(2400, 4379, 0), location(2396, 4379, 0), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+		case 29:
+			int5 = script_1753(location(1437, 10094, 3), location(1437, 10094, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1452, 10068, 3), location(1452, 10068, 2), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1458, 10095, 2), location(1458, 10095, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			int5 = script_1753(location(1458, 10075, 2), location(1458, 10075, 1), 0, 6, widget0, arg1, arg2, arg3, arg4, int5);
+			break;
+	}
+	if (isBitFlagged(VARPBIT[5640], 0) == false) {
+		int5 = script_1757(location(VARC[188]), 1, widget0, arg1, arg2, arg3, arg4, int5);
+	}
+	return;
+}

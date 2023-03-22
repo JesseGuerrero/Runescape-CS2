@@ -1,0 +1,16 @@
+void script_620(int arg0, int arg1) {
+	int int2;
+	boolean boolean3;
+	int int4;
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	int2 = arg0 / 256;
+	boolean3 = script_633(isBitFlagged(arg0, 1));
+	int4 = bitAnd(arg0, 252) / 4;
+	if (isBitFlagged(arg0, 0) == true) {
+		VARC[63] = VARC[49];
+	}
+	script_621(int2, boolean3, script_602(int2), int4, arg1);
+	return;
+}

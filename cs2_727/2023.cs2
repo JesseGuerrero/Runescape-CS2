@@ -1,0 +1,8 @@
+//script2023(2023)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+store_varpbit(8095, max(0, min(load_varpbit(8094), load_varpbit(8095) + arg1)))
+script_2047()
+instr6342(if_gethash(905, 28), script_2024, "i", client_clock() + 15)
+if_sethide(if_gethash(905, 28), 0)
+return

@@ -1,0 +1,29 @@
+void script_1185(Widget widget0, Widget widget1) {
+	string str0;
+	str0 = "";
+	if (VARPBIT[4820] > VARPBIT[4821]) {
+		str0 = "<col=ffffff>" + script_46(VARPBIT[4820], ",") + "</col>" + "<br>" + script_46(VARPBIT[4821], ",");
+	} else if (VARPBIT[4820] < VARPBIT[4821]) {
+		str0 = script_46(VARPBIT[4820], ",") + "<br>" + "<col=ffffff>" + script_46(VARPBIT[4821], ",") + "</col>";
+	} else {
+		str0 = script_46(VARPBIT[4820], ",") + "<br>" + script_46(VARPBIT[4821], ",");
+	}
+	if (VARPBIT[4822] >= 2147483647) {
+		widget0.setText("Your clan:" + "<br>" + "Opponents:" + "<br>" + "Starting soon...");
+		str0 = concat(str0, "<br>");
+	} else if (VARPBIT[4822] > 1) {
+		widget0.setText("Your clan:" + "<br>" + "Opponents:" + "<br>" + "Time:");
+		str0 = concat(str0, "<br>" + VARPBIT[4822] + " mins");
+	} else if (VARPBIT[4822] == 1) {
+		widget0.setText("Your clan:" + "<br>" + "Opponents:" + "<br>" + "Time:");
+		str0 = concat(str0, "<br>" + "1 min");
+	} else if (VARPBIT[4820] == VARPBIT[4821]) {
+		widget0.setText("Your clan:" + "<br>" + "Opponents:" + "<br>");
+		str0 = concat(str0, "<br>" + "Next kill wins!");
+	} else {
+		widget0.setText("Your clan:" + "<br>" + "Opponents:" + "<br>" + "Ending...");
+		str0 = concat(str0, "<br>");
+	}
+	widget1.setText(str0);
+	return;
+}

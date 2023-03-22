@@ -1,0 +1,9 @@
+//script1030(1030)(int arg0)(void)
+if_sethide(if_gethash(157, 17), 1)
+if_sethide(if_gethash(157, 35), 0)
+cc_deleteall(if_gethash(157, 23))
+cc_deleteall(if_gethash(157, 25))
+hook_mouse_press(if_gethash(157, 30), script_1031, "")
+if_settext(if_gethash(157, 30), "Safety Guide")
+script_1033(enum(1485, 0, 'i', 's'))
+return

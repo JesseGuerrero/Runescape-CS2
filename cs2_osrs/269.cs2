@@ -1,0 +1,28 @@
+void script_269(Widget widget0) {
+	int int1;
+	int int2;
+	string str0;
+	string str1;
+	int1 = 9;
+	str0 = getText(widget(207, 0));
+	str1 = "";
+	int2 = 0;
+	while (int1 <= 13) {
+		int2 = indexOf(str0, "|", 0);
+		if (int2 != -1) {
+			str1 = substr(str0, 0, int2);
+			str0 = substr(str0, int2 + 1, length(str0));
+		} else {
+			str1 = str0;
+			str0 = "";
+		}
+		if (length(str1) <= 0) {
+			str1 = "-";
+		}
+		if (CHILD.setChild(widget0, int1) == true) {
+			CHILD.setText(str1);
+		}
+		int1 = int1 + 1;
+	}
+	return;
+}

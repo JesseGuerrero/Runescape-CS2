@@ -1,0 +1,23 @@
+//script2073(2073)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 18087940:
+		if_sethide(if_gethash(276, 79), 0)
+		if_sethide(if_gethash(276, 80), 1)
+		if_sethide(if_gethash(276, 78), 1)
+		break
+	case 18087957:
+		if_sethide(if_gethash(276, 79), 1)
+		if_sethide(if_gethash(276, 80), 1)
+		if_sethide(if_gethash(276, 78), 0)
+		break
+	case 18087941:
+		if_sethide(if_gethash(276, 79), 1)
+		if_sethide(if_gethash(276, 80), 0)
+		if_sethide(if_gethash(276, 78), 1)
+		return
+
+
+}
+return

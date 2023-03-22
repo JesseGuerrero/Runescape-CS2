@@ -1,0 +1,8 @@
+//script6403(6403)()(void)
+if(load_varpbit(4764) < 250) {
+	if_sethide(if_gethash(1308, 83), 0)
+	if_sethide(if_gethash(1308, 85), 0)
+	if_sethide(if_gethash(1308, 87), 0)
+	script_6400(85721176)
+}
+return

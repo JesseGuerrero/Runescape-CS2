@@ -1,0 +1,122 @@
+//script4676(4676)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(9314) == 1) {
+			if_sethide(if_gethash(102, 15), 1)
+			if_sethide(if_gethash(102, 17), 1)
+		} else 
+			if(load_varpbit(9298) == 10)
+				if(stat_base(6) >= 30)
+					if(stat_base(4) >= 30)
+						if(stat_base(0) >= 30) {
+							if_sethide(if_gethash(102, 70), 0)
+							if_sethide(if_gethash(102, 15), 0)
+							if_sethide(if_gethash(102, 17), 0)
+							if(load_varpbit(9315) == 0)
+								if_settext(if_gethash(102, 70), "You receive two new books.")
+						}
+		if(load_varpbit(9315) == 1) {
+			if_sethide(if_gethash(102, 14), 1)
+			if_sethide(if_gethash(102, 16), 1)
+		} else  {
+			if_sethide(if_gethash(102, 70), 0)
+			if_sethide(if_gethash(102, 14), 0)
+			if_sethide(if_gethash(102, 16), 0)
+		}
+		break
+	case 2:
+		if(load_varpbit(9316) == 1) {
+			if_sethide(if_gethash(102, 15), 1)
+			if_sethide(if_gethash(102, 17), 1)
+		} else 
+			if(load_varpbit(9298) == 10)
+				if(stat_base(16) >= 55)
+					if(stat_base(17) >= 55) {
+						if_sethide(if_gethash(102, 70), 0)
+						if_sethide(if_gethash(102, 15), 0)
+						if_sethide(if_gethash(102, 17), 0)
+						if(load_varpbit(9317) == 0)
+							if_settext(if_gethash(102, 70), "You receive two new books.")
+					}
+		if(load_varpbit(9317) == 1) {
+			if_sethide(if_gethash(102, 14), 1)
+			if_sethide(if_gethash(102, 16), 1)
+		} else  {
+			if_sethide(if_gethash(102, 70), 0)
+			if_sethide(if_gethash(102, 14), 0)
+			if_sethide(if_gethash(102, 16), 0)
+		}
+		break
+	case 4:
+		if(load_varpbit(9318) == 1) {
+			if_sethide(if_gethash(102, 15), 1)
+			if_sethide(if_gethash(102, 17), 1)
+		} else 
+			if(load_varpbit(9298) == 10)
+				if(stat_base(2) >= 70) {
+					if_sethide(if_gethash(102, 70), 0)
+					if_sethide(if_gethash(102, 15), 0)
+					if_sethide(if_gethash(102, 17), 0)
+					if(load_varpbit(9319) == 0)
+						if_settext(if_gethash(102, 70), "You receive two new books.")
+				}
+		if(load_varpbit(9319) == 1) {
+			if_sethide(if_gethash(102, 14), 1)
+			if_sethide(if_gethash(102, 16), 1)
+		} else  {
+			if_sethide(if_gethash(102, 70), 0)
+			if_sethide(if_gethash(102, 14), 0)
+			if_sethide(if_gethash(102, 16), 0)
+		}
+		break
+	case 3:
+		if(load_varpbit(11060) == 1) {
+			if_sethide(if_gethash(102, 15), 1)
+			if_sethide(if_gethash(102, 17), 1)
+		} else 
+			if(load_varpbit(9298) == 10)
+				if(stat_base(0) >= 60)
+					if(stat_base(17) >= 45)
+						if(stat_base(24) >= 55) {
+							if_sethide(if_gethash(102, 70), 0)
+							if_sethide(if_gethash(102, 15), 0)
+							if_sethide(if_gethash(102, 17), 0)
+							if(load_varpbit(11061) == 0)
+								if_settext(if_gethash(102, 70), "You receive two new books.")
+						}
+		if(load_varpbit(11061) == 1) {
+			if_sethide(if_gethash(102, 14), 1)
+			if_sethide(if_gethash(102, 16), 1)
+		} else  {
+			if_sethide(if_gethash(102, 70), 0)
+			if_sethide(if_gethash(102, 14), 0)
+			if_sethide(if_gethash(102, 16), 0)
+		}
+		break
+	case 6:
+		if(load_varpbit(11062) == 1) {
+			if_sethide(if_gethash(102, 15), 1)
+			if_sethide(if_gethash(102, 17), 1)
+		} else 
+			if(load_varpbit(9298) == 10)
+				if(stat_base(2) >= 75) {
+					if_sethide(if_gethash(102, 70), 0)
+					if_sethide(if_gethash(102, 15), 0)
+					if_sethide(if_gethash(102, 17), 0)
+					if(load_varpbit(11063) == 0)
+						if_settext(if_gethash(102, 70), "You receive two new books.")
+				}
+		if(load_varpbit(11063) == 1) {
+			if_sethide(if_gethash(102, 14), 1)
+			if_sethide(if_gethash(102, 16), 1)
+		} else  {
+			if_sethide(if_gethash(102, 70), 0)
+			if_sethide(if_gethash(102, 14), 0)
+			if_sethide(if_gethash(102, 16), 0)
+		}
+		break
+
+}
+return

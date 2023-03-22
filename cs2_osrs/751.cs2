@@ -1,0 +1,10 @@
+void script_751(boolean arg0, DataMap datamap1) {
+	if (VARC[66] <= 0) {
+		return;
+	}
+	VARC[66] = VARC[66] - 1;
+	if (VARC[66] <= 0) {
+		script_752(arg0, datamap1);
+	}
+	return;
+}

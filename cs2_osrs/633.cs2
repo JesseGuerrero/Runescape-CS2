@@ -1,0 +1,6 @@
+boolean script_633(int arg0) {
+	if (arg0 >= 1) {
+		return true;
+	}
+	return false;
+}

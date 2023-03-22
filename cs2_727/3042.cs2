@@ -1,0 +1,6 @@
+//script3042(3042)(int arg0, string arg1)(void)
+if(arg0 == 1) {
+	ignore_del(arg0)
+	script_3037()
+}
+return

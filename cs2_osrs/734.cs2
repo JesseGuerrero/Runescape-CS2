@@ -1,0 +1,14 @@
+void script_734(Widget widget0) {
+	widget(66, 8).setItem(13190, -1);
+	widget(66, 19).setItem(13190, -1);
+	widget(66, 20).setItem(13190, -1);
+	widget(66, 31).setItem(13190, -1);
+	widget(66, 32).setItem(13190, -1);
+	widget(66, 33).setItem(13190, -1);
+	widget(66, 44).setItem(13190, 5);
+	widget(66, 66).setItem(13190, 10);
+	widget(66, 77).setItem(13190, 20);
+	script_1935();
+	widget0.hookVARP(&script_732(), 1204, 1209);
+	return;
+}

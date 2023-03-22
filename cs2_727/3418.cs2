@@ -1,0 +1,18 @@
+//script3418(3418)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = 2289
+iVar4 = 2288
+if(arg2 == arg1)
+	if(cc_find(1, arg0) == 1) {
+		cc_setgraphic(iVar3)
+		hook_mouse_enter(arg0, None, "")
+		hook_mouse_exit(arg0, None, "")
+	}
+else
+	if(cc_find(1, arg0) == 1) {
+		cc_setgraphic(iVar4)
+		hook_mouse_enter(arg0, script_688, "Iid", -2147483645, instr6151(), iVar3)
+		hook_mouse_exit(arg0, script_688, "Iid", -2147483645, instr6151(), iVar4)
+	}
+return

@@ -1,0 +1,16 @@
+//script3100(3100)(int arg0)(void)
+int iVar1
+iVar1 = instr6305()
+if(iVar1 == -3)
+	return
+else
+	if(iVar1 == 21)
+		if(arg0 == 13) {
+			script_1873()
+			return
+		} else 
+			if(arg0 == 13) {
+				script_3097()
+				return
+			}
+return

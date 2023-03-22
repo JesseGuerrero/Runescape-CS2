@@ -1,0 +1,17 @@
+//script2164(2164)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = enum(169, arg0, 'i', 'J')
+iVar2 = struct_param(61, iVar1)
+iVar3 = struct_param(152, iVar1)
+iVar4 = 0
+while(iVar4 < load_varc(273) + 10) {
+	if(cc_find(iVar4, iVar3) == 1) {
+		cc_setposition(0, 0, 0, 0)
+		cc_sethide(1)
+	}
+	iVar4 = iVar4 + 1
+}
+return

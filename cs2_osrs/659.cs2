@@ -1,0 +1,1419 @@
+int, int, string script_659(int arg0, int arg1) {
+	if (arg0 == 0) {
+		if (arg1 == 0) {
+			return 1, 8170, "Garden";
+		}
+		if (arg1 == 1) {
+			return 1, 8315, "Parlour";
+		}
+		if (arg1 == 2) {
+			return 5, 8222, "Kitchen";
+		}
+		if (arg1 == 3) {
+			return 10, 8121, "Dining room";
+		}
+		if (arg1 == 4) {
+			return 15, 8379, "Workshop";
+		}
+		if (arg1 == 5) {
+			return 20, 8037, "Bedroom";
+		}
+		if (arg1 == 6) {
+			return 25, 8255, "Hall (skill trophies)";
+		}
+		if (arg1 == 7) {
+			return 30, 8163, "Games room";
+		}
+		if (arg1 == 8) {
+			return 32, 8027, "Combat room";
+		}
+		if (arg1 == 9) {
+			return 35, 8259, "Hall (quest trophies)";
+		}
+		if (arg1 == 10) {
+			return 37, 12706, "Menagerie";
+		}
+		if (arg1 == 11) {
+			return 40, 8340, "Study";
+		}
+		if (arg1 == 12) {
+			return 42, 9822, "Costume room";
+		}
+		if (arg1 == 13) {
+			return 45, 8068, "Chapel";
+		}
+		if (arg1 == 14) {
+			return 50, 8333, "Portal chamber";
+		}
+		if (arg1 == 15) {
+			return 55, 8195, "Formal garden";
+		}
+		if (arg1 == 16) {
+			return 60, 8363, "Throne room";
+		}
+		if (arg1 == 17) {
+			return 65, 8302, "Oubliette";
+		}
+		if (arg1 == 18) {
+			return 65, 20653, "Superior garden";
+		}
+		if (arg1 == 19) {
+			return 70, 8123, "Dungeon";
+		}
+		if (arg1 == 20) {
+			return 75, 8151, "Treasure room";
+		}
+		if (arg1 == 21) {
+			return 80, 20625, "Achievement Gallery";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 1) {
+		if (arg1 == 0) {
+			return 3, 8325, "Clay fireplace";
+		}
+		if (arg1 == 1) {
+			return 5, 8216, "Firepit";
+		}
+		if (arg1 == 2) {
+			return 7, 8230, "Pump and drain";
+		}
+		if (arg1 == 3) {
+			return 11, 8217, "Firepit with hook";
+		}
+		if (arg1 == 4) {
+			return 15, 8389, "Repair bench";
+		}
+		if (arg1 == 5) {
+			return 16, 8392, "Pluming stand";
+		}
+		if (arg1 == 6) {
+			return 16, 8380, "Crafting table 1";
+		}
+		if (arg1 == 7) {
+			return 17, 8218, "Firepit with pot";
+		}
+		if (arg1 == 8) {
+			return 17, 8375, "Wooden workbench";
+		}
+		if (arg1 == 9) {
+			return 24, 8219, "Small oven";
+		}
+		if (arg1 == 10) {
+			return 25, 8381, "Crafting table 2";
+		}
+		if (arg1 == 11) {
+			return 27, 8231, "Pump and tub";
+		}
+		if (arg1 == 12) {
+			return 29, 8220, "Large oven";
+		}
+		if (arg1 == 13) {
+			return 32, 8376, "Oak workbench";
+		}
+		if (arg1 == 14) {
+			return 33, 8326, "Stone fireplace";
+		}
+		if (arg1 == 15) {
+			return 34, 8382, "Crafting table 3";
+		}
+		if (arg1 == 16) {
+			return 34, 8221, "Steel range";
+		}
+		if (arg1 == 17) {
+			return 35, 8390, "Whetstone";
+		}
+		if (arg1 == 18) {
+			return 41, 8393, "Shield easel";
+		}
+		if (arg1 == 19) {
+			return 42, 8222, "Fancy range";
+		}
+		if (arg1 == 20) {
+			return 42, 8383, "Crafting table 4";
+		}
+		if (arg1 == 21) {
+			return 46, 8377, "Steel framed workbench";
+		}
+		if (arg1 == 22) {
+			return 47, 8232, "Sink";
+		}
+		if (arg1 == 23) {
+			return 55, 8391, "Armour stand";
+		}
+		if (arg1 == 24) {
+			return 62, 8378, "Workbench with vice";
+		}
+		if (arg1 == 25) {
+			return 63, 8327, "Marble fireplace";
+		}
+		if (arg1 == 26) {
+			return 66, 8394, "Banner easel";
+		}
+		if (arg1 == 27) {
+			return 77, 8379, "Workbench with lathe";
+		}
+		if (arg1 == 28) {
+			return 80, 20617, "Ancient altar";
+		}
+		if (arg1 == 29) {
+			return 80, 20618, "Lunar altar";
+		}
+		if (arg1 == 30) {
+			return 80, 20619, "Dark altar";
+		}
+		if (arg1 == 31) {
+			return 90, 20620, "Occult altar" + "<br>" + " (upgrade from Ancient)";
+		}
+		if (arg1 == 32) {
+			return 90, 20621, "Occult altar" + "<br>" + " (upgrade from Lunar)";
+		}
+		if (arg1 == 33) {
+			return 90, 20622, "Occult altar" + "<br>" + " (upgrade from Dark)";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 2) {
+		if (arg1 == 0) {
+			return 1, 8309, "Crude wooden chair";
+		}
+		if (arg1 == 1) {
+			return 8, 8310, "Wooden chair";
+		}
+		if (arg1 == 2) {
+			return 10, 8115, "Wooden dining table";
+		}
+		if (arg1 == 3) {
+			return 10, 8108, "Wooden dining bench";
+		}
+		if (arg1 == 4) {
+			return 12, 8246, "Wooden kitchen table";
+		}
+		if (arg1 == 5) {
+			return 14, 8311, "Rocking chair";
+		}
+		if (arg1 == 6) {
+			return 19, 8312, "Oak chair";
+		}
+		if (arg1 == 7) {
+			return 20, 8031, "Wooden bed";
+		}
+		if (arg1 == 8) {
+			return 22, 8116, "Oak dining table";
+		}
+		if (arg1 == 9) {
+			return 22, 8109, "Oak dining bench";
+		}
+		if (arg1 == 10) {
+			return 26, 8313, "Oak armchair";
+		}
+		if (arg1 == 11) {
+			return 30, 8032, "Oak bed";
+		}
+		if (arg1 == 12) {
+			return 31, 8117, "Carved oak dining table";
+		}
+		if (arg1 == 13) {
+			return 31, 8110, "Carved oak dining bench";
+		}
+		if (arg1 == 14) {
+			return 32, 8247, "Oak kitchen table";
+		}
+		if (arg1 == 15) {
+			return 34, 8033, "Large oak bed";
+		}
+		if (arg1 == 16) {
+			return 35, 8314, "Teak armchair";
+		}
+		if (arg1 == 17) {
+			return 38, 8118, "Teak dining table";
+		}
+		if (arg1 == 18) {
+			return 38, 8111, "Teak dining bench";
+		}
+		if (arg1 == 19) {
+			return 40, 8034, "Teak bed";
+		}
+		if (arg1 == 20) {
+			return 44, 8112, "Carved teak dining bench";
+		}
+		if (arg1 == 21) {
+			return 45, 8119, "Carved teak dining table";
+		}
+		if (arg1 == 22) {
+			return 45, 8035, "Large teak bed";
+		}
+		if (arg1 == 23) {
+			return 50, 8315, "Mahogany armchair";
+		}
+		if (arg1 == 24) {
+			return 52, 8120, "Mahogany dining table";
+		}
+		if (arg1 == 25) {
+			return 52, 8113, "Mahogany dining bench";
+		}
+		if (arg1 == 26) {
+			return 52, 8248, "Teak kitchen table";
+		}
+		if (arg1 == 27) {
+			return 53, 8036, "Mahogany four-poster bed";
+		}
+		if (arg1 == 28) {
+			return 60, 8357, "Oak throne";
+		}
+		if (arg1 == 29) {
+			return 60, 8037, "Gilded mahogany four-poster bed";
+		}
+		if (arg1 == 30) {
+			return 61, 8114, "Gilded mahogany dining bench";
+		}
+		if (arg1 == 31) {
+			return 67, 8358, "Teak throne";
+		}
+		if (arg1 == 32) {
+			return 72, 8121, "Gilded mahogany and marble table";
+		}
+		if (arg1 == 33) {
+			return 74, 8359, "Mahogany throne";
+		}
+		if (arg1 == 34) {
+			return 81, 8360, "Gilded mahogany throne";
+		}
+		if (arg1 == 35) {
+			return 88, 8361, "Skeleton throne";
+		}
+		if (arg1 == 36) {
+			return 95, 8362, "Crystal throne";
+		}
+		if (arg1 == 37) {
+			return 99, 8363, "Demonic throne";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 3) {
+		if (arg1 == 0) {
+			return 4, 8319, "Wooden bookcase";
+		}
+		if (arg1 == 1) {
+			return 6, 8223, "Wooden shelves 1";
+		}
+		if (arg1 == 2) {
+			return 7, 8239, "Beer barrel";
+		}
+		if (arg1 == 3) {
+			return 9, 8233, "Wooden larder";
+		}
+		if (arg1 == 4) {
+			return 12, 8240, "Cider barrel";
+		}
+		if (arg1 == 5) {
+			return 12, 8224, "Wooden shelves 2";
+		}
+		if (arg1 == 6) {
+			return 15, 8384, "Tool store 1";
+		}
+		if (arg1 == 7) {
+			return 18, 8241, "Asgarnian Ale barrel";
+		}
+		if (arg1 == 8) {
+			return 20, 8038, "Shoe box";
+		}
+		if (arg1 == 9) {
+			return 21, 8045, "Wooden shaving stand";
+		}
+		if (arg1 == 10) {
+			return 23, 8225, "Wooden shelves 3";
+		}
+		if (arg1 == 11) {
+			return 25, 8385, "Tool store 2";
+		}
+		if (arg1 == 12) {
+			return 26, 8242, "Greenman's Ale barrel";
+		}
+		if (arg1 == 13) {
+			return 27, 8039, "Oak chest of drawers";
+		}
+		if (arg1 == 14) {
+			return 29, 8320, "Oak bookcase";
+		}
+		if (arg1 == 15) {
+			return 29, 8046, "Oak shaving stand";
+		}
+		if (arg1 == 16) {
+			return 33, 8234, "Oak larder";
+		}
+		if (arg1 == 17) {
+			return 34, 8226, "Oak shelves 1";
+		}
+		if (arg1 == 18) {
+			return 35, 8386, "Tool store 3";
+		}
+		if (arg1 == 19) {
+			return 36, 8243, "Dragon Bitter barrel";
+		}
+		if (arg1 == 20) {
+			return 37, 12704, "Oak pet house (3 pets)";
+		}
+		if (arg1 == 21) {
+			return 37, 8047, "Oak dresser";
+		}
+		if (arg1 == 22) {
+			return 39, 8040, "Oak wardrobe (bedroom)";
+		}
+		if (arg1 == 23) {
+			return 40, 8321, "Mahogany bookcase";
+		}
+		if (arg1 == 24) {
+			return 42, 9829, "Oak wardrobe (costume room)";
+		}
+		if (arg1 == 25) {
+			return 43, 8235, "Teak larder";
+		}
+		if (arg1 == 26) {
+			return 44, 9823, "Oak fancy dress box";
+		}
+		if (arg1 == 27) {
+			return 44, 8387, "Tool store 4";
+		}
+		if (arg1 == 28) {
+			return 45, 8227, "Oak shelves 2";
+		}
+		if (arg1 == 29) {
+			return 46, 9826, "Oak armour case";
+		}
+		if (arg1 == 30) {
+			return 46, 8048, "Teak dresser";
+		}
+		if (arg1 == 31) {
+			return 48, 8244, "Chef's Delight barrel";
+		}
+		if (arg1 == 32) {
+			return 48, 9839, "Oak treasure chest";
+		}
+		if (arg1 == 33) {
+			return 48, 12705, "Teak pet house (5 pets)";
+		}
+		if (arg1 == 34) {
+			return 50, 9836, "Oak toy box";
+		}
+		if (arg1 == 35) {
+			return 51, 9830, "Carved oak wardrobe (costume room)";
+		}
+		if (arg1 == 36) {
+			return 51, 8041, "Teak chest of drawers";
+		}
+		if (arg1 == 37) {
+			return 54, 9817, "Oak cape rack";
+		}
+		if (arg1 == 38) {
+			return 55, 8388, "Tool store 5";
+		}
+		if (arg1 == 39) {
+			return 56, 8228, "Teak shelves 1";
+		}
+		if (arg1 == 40) {
+			return 56, 8049, "Fancy teak dresser";
+		}
+		if (arg1 == 41) {
+			return 58, 21213, "Servant's moneybag";
+		}
+		if (arg1 == 42) {
+			return 59, 12706, "Mahogany pet house (7 pets)";
+		}
+		if (arg1 == 43) {
+			return 60, 9831, "Teak wardrobe (costume room)";
+		}
+		if (arg1 == 44) {
+			return 62, 9824, "Teak fancy dress box";
+		}
+		if (arg1 == 45) {
+			return 63, 9818, "Teak cape rack";
+		}
+		if (arg1 == 46) {
+			return 63, 8042, "Teak wardrobe (bedroom)";
+		}
+		if (arg1 == 47) {
+			return 64, 9827, "Teak armour case";
+		}
+		if (arg1 == 48) {
+			return 64, 8050, "Mahogany dresser";
+		}
+		if (arg1 == 49) {
+			return 66, 9840, "Teak treasure chest";
+		}
+		if (arg1 == 50) {
+			return 67, 8229, "Teak shelves 2";
+		}
+		if (arg1 == 51) {
+			return 68, 9837, "Teak toy box";
+		}
+		if (arg1 == 52) {
+			return 69, 9832, "Carved teak wardrobe (costume room)";
+		}
+		if (arg1 == 53) {
+			return 70, 12707, "Consecrated pet house (9 pets)";
+		}
+		if (arg1 == 54) {
+			return 72, 9819, "Mahogany cape rack";
+		}
+		if (arg1 == 55) {
+			return 74, 8051, "Gilded Mahogany dresser";
+		}
+		if (arg1 == 56) {
+			return 75, 8043, "Mahogany wardrobe (bedroom)";
+		}
+		if (arg1 == 57) {
+			return 78, 9833, "Mahogany wardrobe (costume room)";
+		}
+		if (arg1 == 58) {
+			return 80, 9825, "Mahogany fancy dress box";
+		}
+		if (arg1 == 59) {
+			return 81, 20626, "Basic jewellery box";
+		}
+		if (arg1 == 60) {
+			return 81, 9820, "Gilded mahogany cape rack";
+		}
+		if (arg1 == 61) {
+			return 81, 12708, "Desecrated pet house (12 pets)";
+		}
+		if (arg1 == 62) {
+			return 82, 9828, "Mahogany armour case";
+		}
+		if (arg1 == 63) {
+			return 84, 9841, "Mahogany treasure chest";
+		}
+		if (arg1 == 64) {
+			return 86, 20627, "Fancy jewellery box";
+		}
+		if (arg1 == 65) {
+			return 86, 9838, "Mahogany toy box";
+		}
+		if (arg1 == 66) {
+			return 87, 9834, "Gilded mahogany wardrobe (costume room)";
+		}
+		if (arg1 == 67) {
+			return 87, 8044, "Gilded mahogany wardrobe (bedroom)";
+		}
+		if (arg1 == 68) {
+			return 90, 9821, "Marble cape rack";
+		}
+		if (arg1 == 69) {
+			return 91, 20628, "Ornate jewellery box";
+		}
+		if (arg1 == 70) {
+			return 92, 12709, "Natural pet house (many pets)";
+		}
+		if (arg1 == 71) {
+			return 96, 9835, "Marble wardrobe (costume room)";
+		}
+		if (arg1 == 72) {
+			return 99, 9822, "Magic stone cape rack";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 4) {
+		if (arg1 == 0) {
+			return 2, 8316, "Brown rug";
+		}
+		if (arg1 == 1) {
+			return 2, 8322, "Torn curtains";
+		}
+		if (arg1 == 2) {
+			return 13, 8317, "Rug";
+		}
+		if (arg1 == 3) {
+			return 18, 8323, "Curtains";
+		}
+		if (arg1 == 4) {
+			return 25, 8052, "Oak clock";
+		}
+		if (arg1 == 5) {
+			return 40, 8334, "Oak lectern";
+		}
+		if (arg1 == 6) {
+			return 40, 8324, "Opulent curtains";
+		}
+		if (arg1 == 7) {
+			return 41, 8341, "Globe";
+		}
+		if (arg1 == 8) {
+			return 43, 8354, "Alchemical chart";
+		}
+		if (arg1 == 9) {
+			return 44, 8348, "Wooden telescope";
+		}
+		if (arg1 == 10) {
+			return 47, 8335, "Oak eagle lectern";
+		}
+		if (arg1 == 11) {
+			return 47, 8336, "Oak demon lectern";
+		}
+		if (arg1 == 12) {
+			return 50, 8342, "Ornamental globe";
+		}
+		if (arg1 == 13) {
+			return 55, 8053, "Teak clock";
+		}
+		if (arg1 == 14) {
+			return 57, 8337, "Teak eagle lectern";
+		}
+		if (arg1 == 15) {
+			return 57, 8338, "Teak demon lectern";
+		}
+		if (arg1 == 16) {
+			return 59, 8343, "Lunar globe";
+		}
+		if (arg1 == 17) {
+			return 63, 8355, "Astronomical chart";
+		}
+		if (arg1 == 18) {
+			return 64, 8349, "Teak telescope";
+		}
+		if (arg1 == 19) {
+			return 65, 8318, "Opulent rug";
+		}
+		if (arg1 == 20) {
+			return 67, 8339, "Mahogany eagle lectern";
+		}
+		if (arg1 == 21) {
+			return 67, 8340, "Mahogany demon lectern";
+		}
+		if (arg1 == 22) {
+			return 68, 8344, "Celestial globe";
+		}
+		if (arg1 == 23) {
+			return 72, 8128, "Dungeon candles";
+		}
+		if (arg1 == 24) {
+			return 72, 8125, "Decorative dungeon bloodstain";
+		}
+		if (arg1 == 25) {
+			return 77, 8345, "Armillary sphere";
+		}
+		if (arg1 == 26) {
+			return 83, 8356, "Infernal chart";
+		}
+		if (arg1 == 27) {
+			return 83, 8126, "Decorative dungeon pipe";
+		}
+		if (arg1 == 28) {
+			return 84, 8129, "Dungeon torches";
+		}
+		if (arg1 == 29) {
+			return 84, 8350, "Mahogany 'scope";
+		}
+		if (arg1 == 30) {
+			return 85, 8054, "Gilded mahogany clock";
+		}
+		if (arg1 == 31) {
+			return 86, 8346, "Small orrery";
+		}
+		if (arg1 == 32) {
+			return 94, 8127, "Hanging dungeon skeleton";
+		}
+		if (arg1 == 33) {
+			return 94, 8130, "Dungeon skull torches";
+		}
+		if (arg1 == 34) {
+			return 95, 8347, "Large orrery";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 5) {
+		if (arg1 == 0) {
+			return 16, 8102, "Oak wall decoration";
+		}
+		if (arg1 == 1) {
+			return 28, 8085, "Suit of armour";
+		}
+		if (arg1 == 2) {
+			return 35, 8086, "Small portrait";
+		}
+		if (arg1 == 3) {
+			return 36, 8267, "Mounted bass";
+		}
+		if (arg1 == 4) {
+			return 36, 8103, "Teak wall decoration";
+		}
+		if (arg1 == 5) {
+			return 38, 8087, "Minor Slayer monster head";
+		}
+		if (arg1 == 6) {
+			return 38, 8294, "Small map";
+		}
+		if (arg1 == 7) {
+			return 41, 8095, "Rune display cases";
+		}
+		if (arg1 == 8) {
+			return 42, 8090, "Mounted sword";
+		}
+		if (arg1 == 9) {
+			return 44, 8091, "Small landscape";
+		}
+		if (arg1 == 10) {
+			return 47, 8282, "Mounted Anti-Dragon Shield";
+		}
+		if (arg1 == 11) {
+			return 47, 8283, "Mounted Amulet of Glory";
+		}
+		if (arg1 == 12) {
+			return 47, 8284, "Mounted Cape of Legends";
+		}
+		if (arg1 == 13) {
+			return 55, 8093, "Large portrait";
+		}
+		if (arg1 == 14) {
+			return 56, 8104, "Gilded mahogany wall decoration";
+		}
+		if (arg1 == 15) {
+			return 56, 8268, "Mounted swordfish";
+		}
+		if (arg1 == 16) {
+			return 58, 8295, "Medium map";
+		}
+		if (arg1 == 17) {
+			return 58, 8088, "Medium Slayer monster head";
+		}
+		if (arg1 == 18) {
+			return 65, 8094, "Large landscape";
+		}
+		if (arg1 == 19) {
+			return 66, 8105, "Round wall-mounted shield";
+		}
+		if (arg1 == 20) {
+			return 76, 8269, "Mounted shark";
+		}
+		if (arg1 == 21) {
+			return 76, 8106, "Square wall-mounted shield";
+		}
+		if (arg1 == 22) {
+			return 78, 8089, "Major Slayer monster head";
+		}
+		if (arg1 == 23) {
+			return 78, 8296, "Large map";
+		}
+		if (arg1 == 24) {
+			return 80, 20633, "Quest list";
+		}
+		if (arg1 == 25) {
+			return 80, 20630, "Mounted emblem";
+		}
+		if (arg1 == 26) {
+			return 80, 20631, "Mounted coins";
+		}
+		if (arg1 == 27) {
+			return 80, 20632, "Cape hanger";
+		}
+		if (arg1 == 28) {
+			return 83, 20623, "Mahogany adventure log";
+		}
+		if (arg1 == 29) {
+			return 86, 8107, "Wall-mounted kiteshield";
+		}
+		if (arg1 == 30) {
+			return 87, 20629, "Boss lair display";
+		}
+		if (arg1 == 31) {
+			return 88, 20624, "Gilded adventure log";
+		}
+		if (arg1 == 32) {
+			return 93, 20625, "Marble adventure log";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 6) {
+		if (arg1 == 0) {
+			return 30, 8162, "Hoop-and-stick game";
+		}
+		if (arg1 == 1) {
+			return 32, 8023, "Boxing ring";
+		}
+		if (arg1 == 2) {
+			return 34, 8028, "Boxing glove rack";
+		}
+		if (arg1 == 3) {
+			return 34, 8165, "Oak prize chest";
+		}
+		if (arg1 == 4) {
+			return 37, 8156, "Lesser magical balance";
+		}
+		if (arg1 == 5) {
+			return 39, 8159, "Jester game";
+		}
+		if (arg1 == 6) {
+			return 39, 8153, "Clay attack stone";
+		}
+		if (arg1 == 7) {
+			return 41, 8024, "Fencing ring";
+		}
+		if (arg1 == 8) {
+			return 44, 8029, "Weapons rack";
+		}
+		if (arg1 == 9) {
+			return 44, 8166, "Teak prize chest";
+		}
+		if (arg1 == 10) {
+			return 48, 20745, "Combat dummy";
+		}
+		if (arg1 == 11) {
+			return 49, 8160, "Treasure hunt fairy house";
+		}
+		if (arg1 == 12) {
+			return 51, 8025, "Combat ring";
+		}
+		if (arg1 == 13) {
+			return 53, 20746, "Combat dummy (Undead and slayer)";
+		}
+		if (arg1 == 14) {
+			return 54, 8163, "Dartboard";
+		}
+		if (arg1 == 15) {
+			return 54, 8030, "Extra weapons rack";
+		}
+		if (arg1 == 16) {
+			return 54, 8167, "Mahogany prize chest";
+		}
+		if (arg1 == 17) {
+			return 57, 8157, "Medium balance";
+		}
+		if (arg1 == 18) {
+			return 59, 8154, "Limestone attack stone";
+		}
+		if (arg1 == 19) {
+			return 59, 8161, "Hangman game";
+		}
+		if (arg1 == 20) {
+			return 63, 12718, "Simple pet arena";
+		}
+		if (arg1 == 21) {
+			return 71, 8026, "Ranging pedestals";
+		}
+		if (arg1 == 22) {
+			return 73, 12719, "Advanced pet arena";
+		}
+		if (arg1 == 23) {
+			return 77, 8158, "Greater magical balance";
+		}
+		if (arg1 == 24) {
+			return 79, 8155, "Marble attack stone";
+		}
+		if (arg1 == 25) {
+			return 81, 8164, "Archery target";
+		}
+		if (arg1 == 26) {
+			return 81, 8027, "Balance beam";
+		}
+		if (arg1 == 27) {
+			return 83, 12720, "Glorious pet arena";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 7) {
+		if (arg1 == 0) {
+			return 1, 8168, "Exit portal";
+		}
+		if (arg1 == 1) {
+			return 1, 8096, "Low-level plants";
+		}
+		if (arg1 == 2) {
+			return 5, 8169, "Decorative rock";
+		}
+		if (arg1 == 3) {
+			return 5, 8173, "Tree";
+		}
+		if (arg1 == 4) {
+			return 6, 8097, "Mid-level plants";
+		}
+		if (arg1 == 5) {
+			return 10, 8170, "Pond";
+		}
+		if (arg1 == 6) {
+			return 10, 8174, "Nice tree";
+		}
+		if (arg1 == 7) {
+			return 12, 8098, "High-level plants";
+		}
+		if (arg1 == 8) {
+			return 15, 8171, "Imp statue";
+		}
+		if (arg1 == 9) {
+			return 15, 8175, "Oak tree";
+		}
+		if (arg1 == 10) {
+			return 30, 8176, "Willow tree";
+		}
+		if (arg1 == 11) {
+			return 37, 12710, "Grassland pet habitat";
+		}
+		if (arg1 == 12) {
+			return 40, 20634, "Tip jar";
+		}
+		if (arg1 == 13) {
+			return 45, 8177, "Maple tree";
+		}
+		if (arg1 == 14) {
+			return 47, 12711, "Forest pet habitat";
+		}
+		if (arg1 == 15) {
+			return 55, 8196, "Boundary stones";
+		}
+		if (arg1 == 16) {
+			return 56, 8203, "Thorny hedge";
+		}
+		if (arg1 == 17) {
+			return 57, 12712, "Desert pet habitat";
+		}
+		if (arg1 == 18) {
+			return 59, 8197, "Wooden fence";
+		}
+		if (arg1 == 19) {
+			return 60, 8204, "Nice hedge";
+		}
+		if (arg1 == 20) {
+			return 60, 8178, "Yew tree";
+		}
+		if (arg1 == 21) {
+			return 63, 8198, "Stone wall";
+		}
+		if (arg1 == 22) {
+			return 64, 8205, "Small box hedge";
+		}
+		if (arg1 == 23) {
+			return 65, 8192, "Gazebo";
+		}
+		if (arg1 == 24) {
+			return 65, 20639, "Restoration pool";
+		}
+		if (arg1 == 25) {
+			return 65, 20644, "Zen theme";
+		}
+		if (arg1 == 26) {
+			return 65, 20638, "Topiary bush";
+		}
+		if (arg1 == 27) {
+			return 66, 8213, "Sunflower";
+		}
+		if (arg1 == 28) {
+			return 66, 8210, "Rosemary";
+		}
+		if (arg1 == 29) {
+			return 66, 20649, "Teak garden bench";
+		}
+		if (arg1 == 30) {
+			return 67, 8199, "Iron railings";
+		}
+		if (arg1 == 31) {
+			return 67, 12713, "Polar pet habitat";
+		}
+		if (arg1 == 32) {
+			return 68, 8206, "Topiary hedge";
+		}
+		if (arg1 == 33) {
+			return 70, 8172, "Dungeon entrance";
+		}
+		if (arg1 == 34) {
+			return 70, 20640, "Revitalisation pool";
+		}
+		if (arg1 == 35) {
+			return 71, 8214, "Marigolds";
+		}
+		if (arg1 == 36) {
+			return 71, 8211, "Daffodils";
+		}
+		if (arg1 == 37) {
+			return 71, 8200, "Picket fence";
+		}
+		if (arg1 == 38) {
+			return 71, 8193, "Small fountain";
+		}
+		if (arg1 == 39) {
+			return 72, 8207, "Fancy hedge";
+		}
+		if (arg1 == 40) {
+			return 75, 8179, "Magic tree";
+		}
+		if (arg1 == 41) {
+			return 75, 20645, "Otherworldly theme";
+		}
+		if (arg1 == 42) {
+			return 75, 20635, "Spirit tree";
+		}
+		if (arg1 == 43) {
+			return 75, 8194, "Large fountain";
+		}
+		if (arg1 == 44) {
+			return 75, 8201, "Garden fence";
+		}
+		if (arg1 == 45) {
+			return 75, 20647, "Redwood fence";
+		}
+		if (arg1 == 46) {
+			return 76, 8208, "Tall fancy hedge";
+		}
+		if (arg1 == 47) {
+			return 76, 8215, "Roses";
+		}
+		if (arg1 == 48) {
+			return 76, 8212, "Bluebells";
+		}
+		if (arg1 == 49) {
+			return 77, 12714, "Volcanic pet habitat";
+		}
+		if (arg1 == 50) {
+			return 77, 20650, "Gnome bench";
+		}
+		if (arg1 == 51) {
+			return 79, 8202, "Marble wall";
+		}
+		if (arg1 == 52) {
+			return 80, 20641, "Rejuvenation pool";
+		}
+		if (arg1 == 53) {
+			return 80, 8209, "Tall box hedge";
+		}
+		if (arg1 == 54) {
+			return 81, 8195, "Posh fountain";
+		}
+		if (arg1 == 55) {
+			return 83, 20648, "Obsidian fence";
+		}
+		if (arg1 == 56) {
+			return 85, 20636, "Fairy ring";
+		}
+		if (arg1 == 57) {
+			return 85, 20642, "Fancy rejuvenation pool";
+		}
+		if (arg1 == 58) {
+			return 85, 20646, "Volcanic theme";
+		}
+		if (arg1 == 59) {
+			return 88, 20651, "Marble garden bench" + "<br>" + " (decoration only)";
+		}
+		if (arg1 == 60) {
+			return 90, 20643, "Ornate rejuvenation pool";
+		}
+		if (arg1 == 61) {
+			return 95, 20637, "Spirit tree & fairy ring";
+		}
+		if (arg1 == 62) {
+			return 98, 20652, "Obsidian garden bench" + "<br>" + " (decoration only)";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 8) {
+		if (arg1 == 0) {
+			return 61, 8370, "Throne room floor decoration";
+		}
+		if (arg1 == 1) {
+			return 65, 8297, "Oak cage";
+		}
+		if (arg1 == 2) {
+			return 65, 8302, "Oubliette spikes";
+		}
+		if (arg1 == 3) {
+			return 68, 8371, "Steel cage";
+		}
+		if (arg1 == 4) {
+			return 70, 8298, "Oak and steel cage";
+		}
+		if (arg1 == 5) {
+			return 70, 8131, "Skeleton guard";
+		}
+		if (arg1 == 6) {
+			return 71, 8303, "Tentacle pool";
+		}
+		if (arg1 == 7) {
+			return 72, 8143, "Spike trap";
+		}
+		if (arg1 == 8) {
+			return 74, 8372, "Large trapdoor";
+		}
+		if (arg1 == 9) {
+			return 74, 8122, "Oak dungeon door";
+		}
+		if (arg1 == 10) {
+			return 74, 8132, "Guard dog";
+		}
+		if (arg1 == 11) {
+			return 75, 8148, "Wooden dungeon treasure crate";
+		}
+		if (arg1 == 12) {
+			return 75, 8138, "Demon";
+		}
+		if (arg1 == 13) {
+			return 75, 8299, "Steel cage";
+		}
+		if (arg1 == 14) {
+			return 76, 8144, "Man trap";
+		}
+		if (arg1 == 15) {
+			return 77, 8304, "Oubliette flame pit";
+		}
+		if (arg1 == 16) {
+			return 78, 8133, "Hobgoblin guard";
+		}
+		if (arg1 == 17) {
+			return 79, 8149, "Oak dungeon treasure chest";
+		}
+		if (arg1 == 18) {
+			return 80, 8300, "Spiked cage";
+		}
+		if (arg1 == 19) {
+			return 80, 8145, "Tangle vine";
+		}
+		if (arg1 == 20) {
+			return 80, 8139, "Kalphite soldier";
+		}
+		if (arg1 == 21) {
+			return 82, 8373, "Lesser magic cage";
+		}
+		if (arg1 == 22) {
+			return 82, 8134, "Baby red dragon";
+		}
+		if (arg1 == 23) {
+			return 83, 8150, "Teak dungeon treasure chest";
+		}
+		if (arg1 == 24) {
+			return 83, 8305, "Rocnar";
+		}
+		if (arg1 == 25) {
+			return 84, 8123, "Steel-plated oak door";
+		}
+		if (arg1 == 26) {
+			return 84, 8146, "Marble trap";
+		}
+		if (arg1 == 27) {
+			return 85, 8140, "Tok-Xil";
+		}
+		if (arg1 == 28) {
+			return 85, 8301, "Bone cage";
+		}
+		if (arg1 == 29) {
+			return 86, 8135, "Huge spider";
+		}
+		if (arg1 == 30) {
+			return 87, 8151, "Mahogany dungeon treasure chest";
+		}
+		if (arg1 == 31) {
+			return 88, 8147, "Teleport trap";
+		}
+		if (arg1 == 32) {
+			return 89, 8374, "Greater magic cage";
+		}
+		if (arg1 == 33) {
+			return 90, 8136, "Troll guard";
+		}
+		if (arg1 == 34) {
+			return 90, 8141, "Dagannoth";
+		}
+		if (arg1 == 35) {
+			return 91, 8152, "Magic dungeon treasure chest";
+		}
+		if (arg1 == 36) {
+			return 94, 8124, "Marble dungeon door";
+		}
+		if (arg1 == 37) {
+			return 94, 8137, "Hellhound";
+		}
+		if (arg1 == 38) {
+			return 95, 8142, "Steel dragon";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 9) {
+		if (arg1 == 0) {
+			return 45, 8062, "Oak altar";
+		}
+		if (arg1 == 1) {
+			return 45, 8070, "Steel torches (chapel)";
+		}
+		if (arg1 == 2) {
+			return 48, 8055, "Symbol of Saradomin";
+		}
+		if (arg1 == 3) {
+			return 48, 8057, "Symbol of Guthix";
+		}
+		if (arg1 == 4) {
+			return 48, 8056, "Symbol of Zamorak";
+		}
+		if (arg1 == 5) {
+			return 49, 8069, "Wooden torches (chapel)";
+		}
+		if (arg1 == 6) {
+			return 49, 8079, "Chapel windchimes";
+		}
+		if (arg1 == 7) {
+			return 49, 8082, "Small chapel statue";
+		}
+		if (arg1 == 8) {
+			return 49, 8076, "Shuttered chapel window";
+		}
+		if (arg1 == 9) {
+			return 50, 8063, "Teak altar";
+		}
+		if (arg1 == 10) {
+			return 53, 8071, "Steel candlesticks";
+		}
+		if (arg1 == 11) {
+			return 56, 8064, "Cloth-covered teak altar";
+		}
+		if (arg1 == 12) {
+			return 57, 8072, "Gold candlesticks";
+		}
+		if (arg1 == 13) {
+			return 58, 8080, "Chapel bells";
+		}
+		if (arg1 == 14) {
+			return 59, 8058, "Icon of Saradomin";
+		}
+		if (arg1 == 15) {
+			return 59, 8060, "Icon of Guthix";
+		}
+		if (arg1 == 16) {
+			return 59, 8059, "Icon of Zamorak";
+		}
+		if (arg1 == 17) {
+			return 60, 8065, "Cloth-covered mahogany altar";
+		}
+		if (arg1 == 18) {
+			return 61, 8073, "Oak incense burners";
+		}
+		if (arg1 == 19) {
+			return 64, 8066, "Limestone altar";
+		}
+		if (arg1 == 20) {
+			return 65, 8074, "Mahogany incense burners";
+		}
+		if (arg1 == 21) {
+			return 69, 8083, "Medium chapel statue";
+		}
+		if (arg1 == 22) {
+			return 69, 8081, "Chapel organ";
+		}
+		if (arg1 == 23) {
+			return 69, 8077, "Decorative chapel window";
+		}
+		if (arg1 == 24) {
+			return 69, 8075, "Marble incense burner";
+		}
+		if (arg1 == 25) {
+			return 70, 8067, "Marble altar";
+		}
+		if (arg1 == 26) {
+			return 71, 8061, "Icon of Bob the Cat";
+		}
+		if (arg1 == 27) {
+			return 75, 8068, "Gilded marble altar";
+		}
+		if (arg1 == 28) {
+			return 89, 8084, "Large chapel statue";
+		}
+		if (arg1 == 29) {
+			return 89, 8078, "Stained-glass chapel window";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 10) {
+		if (arg1 == 0) {
+			return 30, 21037, "Small storage unit";
+		}
+		if (arg1 == 1) {
+			return 60, 21038, "Medium storage unit";
+		}
+		if (arg1 == 2) {
+			return 90, 21039, "Large storage unit";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 11) {
+		if (arg1 == 0) {
+			return 5, 8236, "Cat blanket";
+		}
+		if (arg1 == 1) {
+			return 19, 8237, "Cat basket";
+		}
+		if (arg1 == 2) {
+			return 26, 8099, "Rope bell pull";
+		}
+		if (arg1 == 3) {
+			return 27, 8249, "Oak staircase";
+		}
+		if (arg1 == 4) {
+			return 27, 20532, "STASH units (easy)";
+		}
+		if (arg1 == 5) {
+			return 33, 8238, "Cushioned cat basket";
+		}
+		if (arg1 == 6) {
+			return 37, 8100, "Teak bell pull";
+		}
+		if (arg1 == 7) {
+			return 37, 12722, "Oak pet feeder";
+		}
+		if (arg1 == 8) {
+			return 38, 12721, "Pet list (for one-off pets)";
+		}
+		if (arg1 == 9) {
+			return 39, 12715, "Oak pet scratching post";
+		}
+		if (arg1 == 10) {
+			return 42, 8351, "Crystal ball";
+		}
+		if (arg1 == 11) {
+			return 42, 20533, "STASH units (medium)";
+		}
+		if (arg1 == 12) {
+			return 48, 8252, "Teak staircase";
+		}
+		if (arg1 == 13) {
+			return 48, 12723, "Teak pet feeder";
+		}
+		if (arg1 == 14) {
+			return 49, 12716, "Teak pet scratching post";
+		}
+		if (arg1 == 15) {
+			return 50, 8328, "Teak portal frame";
+		}
+		if (arg1 == 16) {
+			return 50, 8331, "Teleport focus";
+		}
+		if (arg1 == 17) {
+			return 54, 8352, "Elemental sphere";
+		}
+		if (arg1 == 18) {
+			return 55, 20534, "STASH units (hard)";
+		}
+		if (arg1 == 19) {
+			return 59, 12724, "Mahogany pet feeder";
+		}
+		if (arg1 == 20) {
+			return 59, 12717, "Mahogany pet scratching post";
+		}
+		if (arg1 == 21) {
+			return 60, 8101, "Gilded teak bell pull";
+		}
+		if (arg1 == 22) {
+			return 65, 8332, "Greater teleport focus";
+		}
+		if (arg1 == 23) {
+			return 65, 8329, "Mahogany portal frame";
+		}
+		if (arg1 == 24) {
+			return 66, 8353, "Crystal of power";
+		}
+		if (arg1 == 25) {
+			return 67, 8258, "Limestone spiral staircase";
+		}
+		if (arg1 == 26) {
+			return 68, 8306, "Oak oubliette ladder";
+		}
+		if (arg1 == 27) {
+			return 68, 8364, "Oak lever";
+		}
+		if (arg1 == 28) {
+			return 77, 20535, "STASH units (elite)";
+		}
+		if (arg1 == 29) {
+			return 78, 8307, "Teak oubliette ladder";
+		}
+		if (arg1 == 30) {
+			return 78, 8365, "Teak lever";
+		}
+		if (arg1 == 31) {
+			return 80, 8330, "Marble portal frame";
+		}
+		if (arg1 == 32) {
+			return 80, 8333, "Scrying pool";
+		}
+		if (arg1 == 33) {
+			return 82, 8255, "Marble staircase";
+		}
+		if (arg1 == 34) {
+			return 88, 8308, "Mahogany oubliette ladder";
+		}
+		if (arg1 == 35) {
+			return 88, 8366, "Mahogany lever";
+		}
+		if (arg1 == 36) {
+			return 88, 20536, "STASH units (master)";
+		}
+		if (arg1 == 37) {
+			return 97, 8259, "Marble spiral";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 12) {
+		if (arg1 == 0) {
+			return -1, 7620, "Servants can be hired at the" + "<br>" + "Ardougne Domestic Service Agency.";
+		}
+		if (arg1 == 1) {
+			return 20, 17, "Rick";
+		}
+		if (arg1 == 2) {
+			return 25, 17, "Maid";
+		}
+		if (arg1 == 3) {
+			return 30, 17, "Cook";
+		}
+		if (arg1 == 4) {
+			return 40, 17, "Butler";
+		}
+		if (arg1 == 5) {
+			return 50, 17, "Demon butler";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 13) {
+		if (arg1 == 0) {
+			return 1, 2347, "Maximum rooms: " + (33 - 10);
+		}
+		if (arg1 == 1) {
+			return 1, 8794, "Maximum dimensions: 3x3";
+		}
+		if (arg1 == 2) {
+			return 15, 8794, "Maximum dimensions: 4x4";
+		}
+		if (arg1 == 3) {
+			return 30, 8794, "Maximum dimensions: 5x5";
+		}
+		if (arg1 == 4) {
+			return 45, 8794, "Maximum dimensions: 6x6";
+		}
+		if (arg1 == 5) {
+			return 50, 2347, "Maximum rooms: " + (33 - 9);
+		}
+		if (arg1 == 6) {
+			return 56, 2347, "Maximum rooms: " + (33 - 8);
+		}
+		if (arg1 == 7) {
+			return 60, 8794, "Maximum dimensions: 7x7";
+		}
+		if (arg1 == 8) {
+			return 62, 2347, "Maximum rooms: " + (33 - 7);
+		}
+		if (arg1 == 9) {
+			return 68, 2347, "Maximum rooms: " + (33 - 6);
+		}
+		if (arg1 == 10) {
+			return 74, 2347, "Maximum rooms: " + (33 - 5);
+		}
+		if (arg1 == 11) {
+			return 80, 2347, "Maximum rooms: " + (33 - 4);
+		}
+		if (arg1 == 12) {
+			return 86, 2347, "Maximum rooms: " + (33 - 3);
+		}
+		if (arg1 == 13) {
+			return 92, 2347, "Maximum rooms: " + (33 - 2);
+		}
+		if (arg1 == 14) {
+			return 96, 2347, "Maximum rooms: " + (33 - 1);
+		}
+		if (arg1 == 15) {
+			return 99, 2347, "Maximum rooms: " + 33;
+		}
+		return -1, -1, "";
+	}
+	return -1, -1, "";
+}

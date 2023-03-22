@@ -1,0 +1,10 @@
+//script5779(5779)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1 - 1, arg2) == 1) {
+	if(arg0 == 1)
+		cc_setgraphic(9615)
+	else
+		cc_setgraphic(9618)
+	instr6091(script_4009, "iiIi", 1, arg0, -2147483645, arg1 - 1)
+	instr6092(script_4009, "iiIi", 0, arg0, -2147483645, arg1 - 1)
+}
+return

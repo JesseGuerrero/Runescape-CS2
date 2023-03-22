@@ -1,0 +1,53 @@
+int, int, int script_1279(int arg0) {
+	Skill skill1;
+	int int2;
+	boolean boolean3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	skill1 = datamap('i', 'S', 681, arg0);
+	int2 = getSkillActualLvl(skill1);
+	boolean3 = isBitFlagged(VARP[1295], arg0 - 1);
+	int4 = 50;
+	if (boolean3 == true) {
+		if (VARC[139] < 3) {
+			return int2, int2, 0;
+		}
+		int4 = 90;
+	} else if (VARPBIT[5667] == 1) {
+		if (VARC[139] <= 1) {
+			return int2, int2, 0;
+		}
+	} else {
+		if (VARC[139] <= 0) {
+			return int2, int2, 0;
+		}
+		if (VARC[139] <= 1) {
+			int4 = 75;
+		}
+	}
+	int5 = getSkillXp(skill1);
+	int6 = int4 * int5 / 100;
+	int7 = int2;
+	while (datamap('i', 'i', 256, int7) > int6) {
+		int7 = int7 - 1;
+	}
+	int8 = datamap('i', 'i', 1240, arg0);
+	if (int2 < int8) {
+		int8 = int2;
+	}
+	if (int8 > int7) {
+		int7 = int8;
+	}
+	int9 = datamap('i', 'i', 256, int8);
+	if (int5 < int9) {
+		int9 = int5;
+	}
+	if (int9 > int6) {
+		int6 = int9;
+	}
+	return int2, int7, int5 - int6;
+}

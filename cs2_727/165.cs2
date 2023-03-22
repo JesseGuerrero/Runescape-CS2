@@ -1,0 +1,15 @@
+//script165(165)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = script_166(arg1)
+if(iVar2 == 7) {
+	if_setgraphic(arg0, 833)
+	if_setcolor(enum(688, arg1, 'i', 'I'), 0xFF0000)
+} else 
+	if(iVar2 == 6) {
+		if_setgraphic(arg0, 834)
+		if_setcolor(enum(688, arg1, 'i', 'I'), 0xFF00)
+	} else  {
+		if_setgraphic(arg0, 943)
+		if_setcolor(enum(688, arg1, 'i', 'I'), 0xCCCCCC)
+	}
+return

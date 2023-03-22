@@ -1,0 +1,8 @@
+void script_1694(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget arg5, Widget arg6) {
+	if (getClientCycle() < arg0) {
+		return;
+	}
+	widget4.hookFrame(null);
+	script_1695(1, widget1, widget2, widget3, widget4, arg5, arg6);
+	return;
+}

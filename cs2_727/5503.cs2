@@ -1,0 +1,10 @@
+//script5503(5503)()(void)
+if_settext(if_gethash(906, 4), "Email address")
+if_sethide(if_gethash(906, 300), 0)
+if_settext(if_gethash(906, 306), instr6721())
+store_varc(1660, 0)
+if_setposition(if_gethash(906, 307), 0, 0, if_gety(if_gethash(906, 307)), 4)
+if_sethide(if_gethash(906, 315), 1)
+if_sethide(if_gethash(906, 301), 1)
+store_varc(1661, 1)
+return

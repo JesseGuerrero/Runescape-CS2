@@ -1,0 +1,64 @@
+//script5692(5692)(int arg0, int arg1, int arg2)(void)
+cc_create(if_getnextsubid(if_gethash(1218, 72)), 5, 79822920)
+cc_setsize(0, 0, 32, 36)
+cc_setposition(0, 0, arg1 + 5, 10)
+if(enum(681, struct_param(2215, arg2), 'i', 'S') == -1 || arg2 == -1)
+	return
+if(stat_base(enum(681, struct_param(2215, arg2), 'i', 'S')) < struct_param(2212, arg2)) {
+	cc_setsize(0, 0, 25, 25)
+	cc_setgraphic(8277)
+	cc_setposition(0, 0, arg1 + 9, 13)
+	instr6091(script_5693, "i1", -2147483643, 1)
+	instr6092(script_5694, "")
+} else 
+	if(struct_param(2213, arg2) == -1)
+		cc_setgraphic(struct_param(2214, arg2))
+	else
+		cc_setitem(-1, struct_param(2213, arg2))
+cc_create(if_getnextsubid(if_gethash(1218, 72)), 4, 79822920)
+cc_setposition(0, 0, arg1 + 5, 45)
+cc_settextfont(4040)
+cc_settextshadow(1)
+if(struct_param(2212, arg2) == 0)
+	cc_settext("")
+else
+	cc_settext(to_string(struct_param(2212, arg2)))
+cc_setcolor(db9000)
+cc_settextalign(13, 1, 1)
+cc_setsize(0, 0, 32, 32)
+if(struct_param(2217, arg2) == 1) {
+	cc_create(if_getnextsubid(if_gethash(1218, 72)), 4, 79822920)
+	cc_setposition(0, 0, arg1 + 5, 80)
+	cc_setsize(0, 0, 32, 32)
+	instr6091(script_5693, "i1", -2147483643, 0)
+	instr6092(script_5694, "")
+}
+cc_create(if_getnextsubid(if_gethash(1218, 72)), 4, 79822920)
+cc_setposition(0, 0, arg1 + 8, 100)
+cc_settext(struct_param(2210, arg2))
+cc_settextfont(4040)
+cc_settextshadow(1)
+cc_setcolor(e6be78)
+cc_settextalign(12, 1, 1)
+cc_setsize(0, 0, 16, 430)
+if(compare(struct_param(2216, arg2), "") != 0) {
+	cc_create(if_getnextsubid(if_gethash(1218, 72)), 4, 79822920)
+	cc_setposition(0, 0, arg1 + 23, 100)
+	cc_settextfont(3793)
+	cc_settextshadow(1)
+	cc_settext(struct_param(2216, arg2))
+	cc_setcolor(db9000)
+	cc_settextalign(13, 1, 1)
+	cc_setsize(0, 0, 16, 430)
+}
+if(string_length(struct_param(2211, arg2)) > 0) {
+	cc_create(if_getnextsubid(if_gethash(1218, 72)), 5, 79822920)
+	cc_setposition(0, 2, arg1 + 10, 15)
+	cc_setgraphic(8485)
+	cc_setsize(0, 0, 19, 17)
+}
+if(cc_find(arg0, if_gethash(1218, 30)) == 1) {
+	cc_setposition(0, 0, arg1, 5)
+	instr6556(None, "")
+}
+return

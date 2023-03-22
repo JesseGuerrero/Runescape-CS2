@@ -1,0 +1,58 @@
+int script_1412(int arg0, string string1, string string2, Widget widget3, int arg4, DataMap datamap5, DataMap datamap6) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	widget3.clearChildren();
+	widget3.setPosition(0, arg0, 1, 0);
+	int5 = length(string2);
+	if (int5 < arg4) {
+		arg4 = int5;
+	}
+	if (arg4 <= 0) {
+		widget3.setSize(0, 0, 1, 0);
+		return arg0;
+	}
+	int6 = 0;
+	ARRAY0 = new int[arg4];
+	int7 = 0;
+	while (int7 < arg4) {
+		CHILD.createChild(widget3, 4, int7);
+		CHILD.setSize(0, 18, 1, 0);
+		CHILD.setFont(495);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setText(datamap('i', 's', datamap5, int7));
+		int6 = indexOf(1 + 0 + 2, substr(string2, int7, int7 + 1), 0);
+		if (int6 == 0) {
+			CHILD.setRGB(0xFF0000);
+		} else if (int6 == 1) {
+			CHILD.setRGB(0xFFFF00);
+		} else {
+			CHILD.setRGB(0x0DC10D);
+		}
+		ARRAY0[int7] = int7;
+		int7 = int7 + 1;
+	}
+	if (arg4 > 1) {
+		script_1360(0, 0, arg4 - 1, datamap6);
+	}
+	int8 = 25;
+	int7 = 0;
+	while (int7 < arg4) {
+		if (CHILD.setChild(widget3, ARRAY0[int7]) == true) {
+			CHILD.setPosition(0, int8, 1, 0);
+		}
+		int7, int8 = int7 + 1, int8 + 18;
+	}
+	CHILD.createChild(widget3, 4, int7);
+	CHILD.setSize(0, 25, 1, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setRGB(getModelYOffset(widget(473, 8)));
+	CHILD.setFont(496);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(string1);
+	widget3.setSize(0, int8, 1, 0);
+	return arg0 + int8 + 10;
+}

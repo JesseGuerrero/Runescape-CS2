@@ -1,0 +1,124 @@
+//script4126(4126)(int arg0)(string)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+string sVar1
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 1
+sVar0 = ""
+sVar1 = ""
+iVar1 = script_2413(arg0).get(0)
+iVar1 = script_4127(iVar1, iVar2, iVar3).get(0)
+if(iVar3 == 0)
+	return "Black"
+else
+	if(iVar3 == 255)
+		return "White"
+	else
+		if(iVar3 < 97)
+			sVar0 = "Dark "
+		else
+			if(iVar3 == 127)
+				if(iVar2 >= 240)
+					sVar0 = "Vivid "
+				else
+					if(iVar3 > 157)
+						sVar0 = "Light "
+					else
+						iVar4 = 0
+switch(arg0) {
+	case default:
+		break
+	case 16711935:
+		sVar0 = "Pure "
+		iVar4 = 1
+		break
+
+}
+if(iVar4 == 1) {
+	if(iVar2 == 0)
+		sVar1 = "grey"
+	if(iVar1 < 10)
+		sVar1 = "red"
+	else
+		if(iVar1 < 45)
+			sVar1 = "orange"
+		else
+			if(iVar1 < 75)
+				sVar1 = "yellow"
+			else
+				if(iVar1 < 140)
+					sVar1 = "green"
+				else
+					if(iVar1 < 160)
+						sVar1 = "turquoise"
+					else
+						if(iVar1 < 195)
+							sVar1 = "cyan"
+						else
+							if(iVar1 < 250)
+								sVar1 = "blue"
+							else
+								if(iVar1 < 265)
+									sVar1 = "indigo"
+								else
+									if(iVar1 < 280)
+										sVar1 = "violet"
+									else
+										if(iVar1 < 290)
+											sVar1 = "purple"
+										else
+											if(iVar1 < 305)
+												sVar1 = "magenta"
+											else
+												if(iVar1 < 345)
+													sVar1 = "pink"
+												else
+													sVar1 = "red"
+} else  {
+	if(iVar2 == 0)
+		sVar1 = "Grey"
+	if(iVar1 < 10)
+		sVar1 = "Red"
+	else
+		if(iVar1 < 45)
+			sVar1 = "Orange"
+		else
+			if(iVar1 < 75)
+				sVar1 = "Yellow"
+			else
+				if(iVar1 < 140)
+					sVar1 = "Green"
+				else
+					if(iVar1 < 160)
+						sVar1 = "Turquoise"
+					else
+						if(iVar1 < 195)
+							sVar1 = "Cyan"
+						else
+							if(iVar1 < 250)
+								sVar1 = "Blue"
+							else
+								if(iVar1 < 265)
+									sVar1 = "Indigo"
+								else
+									if(iVar1 < 280)
+										sVar1 = "Violet"
+									else
+										if(iVar1 < 290)
+											sVar1 = "Purple"
+										else
+											if(iVar1 < 305)
+												sVar1 = "Magenta"
+											else
+												if(iVar1 < 345)
+													sVar1 = "Pink"
+												else
+													sVar1 = "Red"
+}
+return sVar0 + sVar1 + "."
+return ""

@@ -1,0 +1,27 @@
+//script5803(5803)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+iVar5 = 9620
+iVar6 = 9621
+iVar7 = 9622
+if(arg3 == 1)
+	if(arg4 == 1) {
+		iVar5 = 9647
+		iVar6 = 9648
+		iVar7 = 9649
+	} else  {
+		iVar5 = 9623
+		iVar6 = 9624
+		iVar7 = 9625
+	}
+else
+	if(arg4 == 1) {
+		iVar5 = 9644
+		iVar6 = 9645
+		iVar7 = 9646
+	}
+if_setgraphic(arg0, iVar5)
+if_setgraphic(arg1, iVar6)
+if_setgraphic(arg2, iVar7)
+return

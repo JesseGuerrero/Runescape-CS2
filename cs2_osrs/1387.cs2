@@ -1,0 +1,9 @@
+int, int, int script_1387(int arg0) {
+	int int1;
+	int int2;
+	int1 = arg0 / pow(2, 28);
+	arg0 = arg0 % pow(2, 28);
+	int2 = arg0 / pow(2, 14);
+	arg0 = arg0 % pow(2, 14);
+	return int2, int1, arg0;
+}

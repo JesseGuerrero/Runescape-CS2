@@ -1,0 +1,6 @@
+//script4021(4021)(string arg0)(void)
+int iVar0
+iVar0 = stringwidth(instr6289(if_gethash(1245, 330)), arg0)
+if_setsize(if_gethash(1245, 326), 0, 0, if_getheight(if_gethash(1245, 326)), iVar0 + 30)
+if_settext(if_gethash(1245, 330), arg0)
+return

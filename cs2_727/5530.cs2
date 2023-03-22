@@ -1,0 +1,40 @@
+//script5530(5530)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = 0
+cc_deleteall(arg3)
+if_setsize(arg3, 0, 0, 64, arg1)
+if_setposition(arg3, 1, 0, 0, arg0)
+iVar4 = iVar4 + script_333(arg3, 6116682, 3024411, 2, 4)
+cc_create(iVar4, 5, arg3)
+cc_setsize(1, 1, 0, 14)
+cc_setposition(1, 1, 0, 0)
+cc_setgraphic(3872)
+cc_settiling(1)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, arg3)
+cc_setsize(1, 0, 0, 8)
+cc_setposition(1, 0, 0, 0)
+cc_setgraphic(3871)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, arg3)
+cc_setsize(1, 0, 0, 8)
+cc_setposition(1, 2, 0, 0)
+cc_setgraphic(3873)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 5, arg3)
+cc_setsize(0, 0, 36, 36)
+cc_setposition(0, 1, 4, 0)
+cc_setgraphicshadow(3153952)
+cc_setoutline(1)
+cc_setitem_nonum(1, arg2)
+iVar4 = iVar4 + 1
+cc_create(iVar4, 4, arg3)
+cc_setsize(1, 1, (4 + 32) - 3, 4 * 2)
+cc_setposition(2, 1, 0, 0)
+cc_settextfont(494)
+cc_settextalign(0, 1, 1)
+cc_setcolor(ff981f)
+cc_settextshadow(1)
+cc_settext(item_name(arg2))
+iVar4 = iVar4 + 1
+return

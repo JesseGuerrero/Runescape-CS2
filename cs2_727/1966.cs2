@@ -1,0 +1,6 @@
+//script1966(1966)(int arg0)(void)
+if(load_varp(261) > 0)
+	if_setcolor(arg0, 0xFFFFFF)
+else
+	if_setcolor(arg0, 0x969696)
+return

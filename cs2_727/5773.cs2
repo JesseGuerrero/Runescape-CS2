@@ -1,0 +1,45 @@
+//script5773(5773)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = -1
+iVar3 = 1
+iVar4 = 0
+while(iVar3 <= 8) {
+	if(arg0 == iVar3)
+		iVar4 = arg1
+	else
+		iVar4 = 0
+	switch(iVar3) {
+		case default:
+			break
+		case 1:
+			iVar2 = 69206090
+			break
+		case 2:
+			iVar2 = 69206092
+			break
+		case 3:
+			iVar2 = 69206094
+			break
+		case 4:
+			iVar2 = 69206096
+			break
+		case 5:
+			iVar2 = 69206098
+			break
+		case 6:
+			iVar2 = 69206100
+			break
+		case 7:
+			iVar2 = 69206180
+			break
+		case 8:
+			iVar2 = 69206182
+			break
+
+	}
+	script_5774(iVar4, iVar2)
+	iVar3 = iVar3 + 1
+}
+return

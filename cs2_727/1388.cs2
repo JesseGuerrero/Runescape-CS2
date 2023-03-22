@@ -1,0 +1,41 @@
+//script1388(1388)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+cc_deleteall(arg0)
+cc_deleteall(if_gethash(271, 6))
+iVar1 = 5
+iVar2 = 15
+iVar3 = 15
+iVar4 = 0
+iVar5 = 6
+iVar6 = 28
+iVar7 = 30
+if(load_varpbit(6840) == 1)
+	iVar7 = 20
+while(iVar4 < iVar7) {
+	cc_create(iVar4, 5, arg0)
+	cc_setsize(0, 0, iVar3, iVar2)
+	cc_settiling(1)
+	cc_setposition(0, 0, iVar6, iVar5)
+	if(script_2297(iVar4) == 0) {
+		cc_setop("Select" + "<col=ff9040>", 1)
+		cc_setgraphic(180)
+	} else  {
+		cc_setop("Deselect" + "<col=ff9040>", 1)
+		cc_setgraphic(181)
+	}
+	instr6687(script_2290, "Ii", -2147483645, -2147483643)
+	instr6095(script_2291, "IiY", 2, 1397, 1587, -2147483645, -2147483643)
+	iVar4 = iVar4 + 1
+	if(modulo(iVar1, iVar4) == 0) {
+		iVar5 = 6
+		iVar6 = iVar6 + 35
+	} else 
+		iVar5 = iVar5 + 37
+}
+return

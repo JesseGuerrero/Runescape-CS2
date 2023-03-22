@@ -1,0 +1,76 @@
+//script6093(6093)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar1 = 82903060
+iVar2 = 82903066
+iVar3 = 82903063
+iVar4 = 82903064
+if(arg0 == load_varp(1496)) {
+	iVar1 = 82903061
+	iVar2 = 82903137
+	iVar3 = 82903135
+	iVar4 = -1
+}
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = -1
+iVar9 = 0
+while(iVar5 < inv_size(arg0)) {
+	iVar8 = inv_getitem(iVar5, arg0)
+	if(iVar8 != -1) {
+		if(cc_find(iVar5, iVar2) == 1)
+			if(cc_containeritemid() == iVar8) {
+				if(item_param(258, iVar8) == 1 || item_param(259, iVar8) == 1)
+					iVar9 = 1
+				else
+					iVar9 = 0
+				if(iVar9 == 1)
+					cc_setitem_nonum(inv_getnum(iVar5, arg0), iVar8)
+				else
+					if(arg0 == 600)
+						if(iVar8 == 1391)
+							cc_setitem_alwaysnum(script_2002(), iVar8)
+						else
+							cc_setitem_alwaysnum(inv_getnum(iVar5, arg0), iVar8)
+			}
+		if(cc_find(iVar5, iVar3) == 1) {
+			iVar7 = script_2720(iVar8)
+			if(load_varp(2565) == 1)
+				if(bit_flagged(iVar5, load_varc(1879)) == 0)
+					iVar7 = -1
+				else
+					iVar7 = script_6077(iVar8)
+			if(iVar7 == -1)
+				cc_settext("N/A")
+			else
+				if(arg0 == load_varp(1496))
+					cc_settext("Free!")
+				else
+					cc_settext(script_940(iVar7))
+		}
+		if(iVar4 != -1)
+			if(cc_find(iVar5, iVar4) == 1)
+				if(load_varp(2565) == 1)
+					if(iVar7 == -1)
+						cc_setgraphic(2180)
+					else
+						cc_setgraphic(enum(200, load_varp(532), 'o', 'd'))
+	} else 
+		if(cc_find(iVar5, iVar1) == 1)
+			if(cc_getspriteid() != -1) {
+				script_6087(load_varp(118), load_varp(1496), load_varp(2565), load_varpbit(11055))
+				if(load_varp(2563) == iVar5)
+					script_6107()
+				return
+			}
+	iVar5 = iVar5 + 1
+}
+return

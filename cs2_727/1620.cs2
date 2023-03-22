@@ -1,0 +1,7 @@
+//script1620(1620)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+arg4 = arg4 + client_clock()
+if(cc_find(arg1, arg0) == 1 || arg1 == -1 || instr6004(arg0) == 1) {
+	cc_settrans(arg2)
+	instr6556(script_1621, "Iiii", arg0, arg1, arg3, arg4)
+}
+return

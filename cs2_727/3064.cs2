@@ -1,0 +1,12 @@
+//script3064(3064)(int arg0)(void)
+if(arg0 == 1) {
+	if_settext(if_gethash(906, 199), "Play")
+	instr6213(if_gethash(906, 186), 1, "Play")
+	instr6239(if_gethash(906, 186), script_3061, "I", if_gethash(906, 186))
+} else  {
+	if_settext(if_gethash(906, 199), "Entering game...")
+	instr6220(if_gethash(906, 186))
+	instr6239(if_gethash(906, 186), None, "")
+}
+script_3065(arg0)
+return

@@ -1,0 +1,5 @@
+//script4368(4368)(int arg0, int arg1)(void)
+instr6248(arg0, script_4369, "IziI", arg0, -2147483639, -2147483640, arg1)
+hook_mouse_press(arg0, script_4370, "IIi", arg0, arg1, -2147483647)
+instr6342(arg0, script_1400, "iI", client_clock(), arg1)
+return

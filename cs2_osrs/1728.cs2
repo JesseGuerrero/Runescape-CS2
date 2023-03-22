@@ -1,0 +1,15 @@
+void script_1728(int arg0, Category arg1, Widget widget2, int arg3) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (CHILD.setChild(widget2, arg3) == true) {
+		playSoundEffect(2266, 1, 0);
+		CHILD.setTrans(200);
+		CHILD.hookOptionClick(null);
+		CHILD.hookMouseHover(null);
+		CHILD.hookMouseExit(null);
+		CHILD.hookFrame(&script_1729(arg1, widget2, arg3, getClientCycle() + 50));
+		cs2method6630(arg1);
+	}
+	return;
+}

@@ -1,0 +1,35 @@
+//script4132(4132)(int arg0, int arg1)(void)
+switch(load_varc(1452)) {
+	case default:
+		break
+	case 201:
+		cc_deleteall(arg0)
+		cc_create(0, 3, arg0)
+		cc_setfill(1)
+		cc_setcolor(7f0000)
+		cc_setsize(1, 1, 0, 0)
+		cc_setposition(0, 0, 0, 0)
+		cc_settrans(255)
+		script_665(0, 50, arg0, 1)
+		break
+	case 202:
+		script_667(50, arg0, 1)
+		break
+	case 203:
+		if(cc_find(0, arg0) == 1)
+			instr6556(script_4133, "Iiiiiiii«", arg0, 0, 3, -3, 150, 255, 50, 0, 3581)
+		break
+	case 204:
+		cc_deleteall(arg0)
+		script_4138(0, 50, arg0)
+		break
+	case 205:
+		script_4140(50, arg0)
+		break
+	case 206:
+		cc_deleteall(arg0)
+		break
+
+}
+return
+return

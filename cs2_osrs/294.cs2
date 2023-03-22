@@ -1,0 +1,26 @@
+void script_294(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	int int7;
+	int int8;
+	widget3.clearChildren();
+	int7 = 0;
+	int8 = getItemContainerLength(93);
+	while (int7 < int8) {
+		CHILD.createChild(widget3, 5, int7);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		CHILD.setDragDeadZone(5);
+		CHILD.setDragDeadTime(5);
+		CHILD.setHidden(false);
+		int7 = int7 + 1;
+	}
+	script_296(widget1, widget3, widget2, widget4);
+	widget1.hookContainer(&script_295(widget1, widget3, widget2, widget4), 93, 516);
+	widget1.hookVARP(&script_295(widget1, widget3, widget2, widget4), 304);
+	script_493(widget5);
+	widget4.hookContainer(&script_492(widget5), 516);
+	script_491(widget1, widget4);
+	widget0.hookVARP(&script_490(-1, widget1, widget4, -1), 115);
+	widget6.hookOptionClick(&script_490(CTX_MENU_OPTION, widget1, widget4, 0));
+	return;
+}

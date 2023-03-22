@@ -1,0 +1,3 @@
+//script5028(5028)(int arg0)(int)
+return arg0 / (2 ^ 13)
+return 0

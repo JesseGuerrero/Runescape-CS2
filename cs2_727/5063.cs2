@@ -1,0 +1,21 @@
+//script5063(5063)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = arg1 * 12
+if(arg2 == 1) {
+	if(cc_find(iVar3 + 5, arg0) == 1)
+		cc_setgraphic(7552)
+	if(cc_find(iVar3 + 6, arg0) == 1)
+		cc_setgraphic(7551)
+	if(cc_find(iVar3 + 7, arg0) == 1)
+		cc_setgraphic(7553)
+} else  {
+	if(cc_find(iVar3 + 5, arg0) == 1)
+		cc_setgraphic(7549)
+	if(cc_find(iVar3 + 6, arg0) == 1)
+		cc_setgraphic(7548)
+	if(cc_find(iVar3 + 7, arg0) == 1)
+		cc_setgraphic(7550)
+}
+if(cc_find(iVar3 + 10, arg0) == 1)
+	cc_setgraphic(7409)
+return

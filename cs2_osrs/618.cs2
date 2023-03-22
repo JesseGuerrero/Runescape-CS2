@@ -1,0 +1,29 @@
+void script_618(Widget widget0, Widget widget1, Widget widget2, int arg3) {
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	if (widget0 == widget(400, 10)) {
+		widget(400, 11).setPosition((widget(400, 10).getWidth() - widget(400, 11).getWidth()) / 2, VARC[49], 0, 0);
+		VARC[49] = VARC[49] + widget(400, 11).getHeight();
+	}
+	if (VARC[49] > widget0.getHeight()) {
+		widget0.setScrollMax(0, VARC[49]);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	widget1.clearChildren();
+	if (arg3 == 1) {
+		widget0.setScrollPos(0, 0);
+		VARC[63] = 0;
+		script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	} else {
+		if (VARC[63] < 0) {
+			VARC[63] = 0;
+		}
+		script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+		script_72(widget1, widget0, VARC[63]);
+	}
+	widget0.setIsHidden(false);
+	widget2.setIsHidden(true);
+	return;
+}

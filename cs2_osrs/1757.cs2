@@ -1,0 +1,85 @@
+int script_1757(Location location0, int arg1, Widget widget2, int arg3, int arg4, int arg5, int arg6, int arg7) {
+	int int8;
+	int int9;
+	Sprite sprite10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	location0 = script_1715(cs2method6616(), location0);
+	if (location0 == null) {
+		if (CHILD.setChild(widget2, arg7) == true) {
+			CHILD.setHidden(true);
+		}
+		return arg7 + 1;
+	}
+	int8 = 0;
+	int9 = 0;
+	int8, int9 = script_1752(location0, 0, widget2, arg3, arg4, arg5, arg6);
+	sprite10 = (Sprite)m6516(arg1, 459);
+	int11 = (int)m6516(arg1, 462);
+	int12 = int11 / 2;
+	int13 = 0;
+	int14 = 0;
+	int15 = widget2.getWidth() / 2;
+	int16 = widget2.getHeight() / 2;
+	if (int8 < 0 - int15) {
+		int8 = int12 - int15;
+		if (int9 < 0 - int16) {
+			sprite10, int13, int9 = m6516(arg1, 461), 16384, int12 - int16;
+		} else if (int9 > int16) {
+			sprite10, int13, int9 = m6516(arg1, 461), 32768, int16 - int12;
+		} else {
+			sprite10, int13 = m6516(arg1, 460), 32768;
+		}
+	} else if (int8 > int15) {
+		int8 = int15 - int12;
+		if (int9 < 0 - int16) {
+			sprite10, int13, int9 = m6516(arg1, 461), 0, int12 - int16;
+		} else if (int9 > int16) {
+			sprite10, int13, int9 = m6516(arg1, 461), 49152, int16 - int12;
+		} else {
+			sprite10, int13 = m6516(arg1, 460), 0;
+		}
+	} else if (int9 < 0 - int16) {
+		sprite10, int13, int9 = m6516(arg1, 460), 16384, int12 - int16;
+	} else if (int9 > int16) {
+		sprite10, int13, int9 = m6516(arg1, 460), 49152, int16 - int12;
+	} else {
+		int13, int14 = script_1759(), 1;
+	}
+	if (isBitFlagged(VARPBIT[5640], 4) == true) {
+		int14 = 0;
+	}
+	if (CHILD.setChild(widget2, arg7) == true) {
+		CHILD.setHidden(false);
+		CHILD.setContextMenuOption(1, "Focus");
+		CHILD.hookOptionClick(&script_1756(CTX_MENU_OPTION, location0, false));
+		CHILD.setPosition(int8, int9, 1, 1);
+		CHILD.setSprite(sprite10);
+		CHILD.set2DAngle(int13);
+		if (int14 == 1) {
+			CHILD.hookFrame(&script_1758(CTX_WIDGET, CTX_WIDGET_CHILD));
+		} else {
+			CHILD.hookFrame(null);
+		}
+	} else {
+		CHILD.createChild(widget2, 5, arg7);
+		CHILD.setHidden(false);
+		CHILD.setContextMenuOption(1, "Focus");
+		CHILD.hookOptionClick(&script_1756(CTX_MENU_OPTION, location0, false));
+		CHILD.setSize(int11, int11, 0, 0);
+		CHILD.setPosition(int8, int9, 1, 1);
+		CHILD.setSprite(sprite10);
+		CHILD.set2DAngle(int13);
+		if (int14 == 1) {
+			CHILD.hookFrame(&script_1758(CTX_WIDGET, CTX_WIDGET_CHILD));
+		} else {
+			CHILD.hookFrame(null);
+		}
+	}
+	arg7 = arg7 + 1;
+	return arg7;
+}

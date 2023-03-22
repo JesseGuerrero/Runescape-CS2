@@ -1,0 +1,11 @@
+//script3369(3369)(int arg0, int arg1, int arg2)(void)
+arg2 = arg2 + 1
+if(cc_find(arg0, if_gethash(1216, 0)) == 1) {
+	instr6556(script_3369, "iii", arg0, arg1, arg2)
+	if(client_clock() > arg1 + 50)
+		cc_setposition(0, 0, max(0, cc_gety() - 2), cc_getx())
+	if(arg2 > 100)
+		if(cc_gety() < 20)
+			cc_delete()
+}
+return

@@ -1,0 +1,8 @@
+//script1390(1390)(int arg0, int arg1, string arg2)(void)
+if_setposition(arg1, 1, 0, 1, script_1551(load_varc(1098), 494, if_getx(arg0), arg0))
+if(applet_hasfocus() == 1)
+	if_sethide(arg1, 0)
+else
+	if_sethide(arg1, 1)
+instr6342(arg0, script_1391, "iI", client_clock(), arg1)
+return

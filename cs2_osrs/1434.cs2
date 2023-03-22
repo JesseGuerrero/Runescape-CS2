@@ -1,0 +1,32 @@
+void script_1434(boolean boolean0, DataMap datamap1, boolean boolean2) {
+	int int3;
+	widget(90, 2).setIsHidden(boolean0);
+	widget(90, 2).setPosition(6, 6, 2, 0);
+	widget(90, 7).setIsHidden(boolean2);
+	if (boolean2 == false) {
+		widget(90, 7).hookVARP(&script_1637(CTX_WIDGET), 1434, 1601, 1602);
+		widget(90, 11).hookVARP(&script_1636(CTX_WIDGET), 1293, 1601, 1602);
+	} else {
+		widget(90, 7).hookFrame(null);
+		widget(90, 7).hookVARP(null);
+		widget(90, 11).hookVARP(null);
+	}
+	if (boolean0 == true) {
+		return;
+	}
+	if (script_1942() == 1) {
+		widget(90, 3).hookVARP(&script_1943(), 1601, 1602);
+		script_1944();
+	} else {
+		widget(90, 3).hookVARP(&script_1641(), 1542);
+		script_1642();
+	}
+	if (datamap1 == null) {
+		return;
+	}
+	int3 = datamap('g', 'i', 1135, datamap1);
+	if (int3 > 0) {
+		widget(90, 2).setPosition(210, 6, 2, 0);
+	}
+	return;
+}

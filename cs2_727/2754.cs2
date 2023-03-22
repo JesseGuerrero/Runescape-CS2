@@ -1,0 +1,6 @@
+//script2754(2754)(int arg0, int arg1, int arg2)(void)
+if(load_varpbit(3756) - 1 != -1)
+	script_2755(arg0, arg1, arg2)
+else
+	instr6342(if_gethash(746, 56), None, "")
+return

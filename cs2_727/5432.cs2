@@ -1,0 +1,28 @@
+//script5432(5432)()(void)
+int iVar0
+iVar0 = 0
+if(load_varc(1663) == 1)
+	iVar0 = 16
+else
+	if(load_varc(1663) == 2)
+		iVar0 = 17
+	else
+		if(load_varc(1663) == 3)
+			iVar0 = 18
+		else
+			if(load_varc(1663) == 4)
+				iVar0 = 19
+			else
+				if(load_varc(1663) == 5)
+					iVar0 = 20
+				else
+					if(load_varc(1663) == 6)
+						iVar0 = 21
+					else
+						if(load_varc(1663) == 7)
+							iVar0 = 22
+						else
+							iVar0 = load_varc(1663) - 7
+if(load_varc(1666) == iVar0)
+	store_varc(1667, 1)
+return

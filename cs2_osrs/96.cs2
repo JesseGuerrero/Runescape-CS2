@@ -1,0 +1,13 @@
+void script_96(string string0, int arg1) {
+	if (VARPBIT[4394] == 1) {
+		if (arg1 == 1) {
+			msg(m5015() + ": " + "<col=2020ef>" + string0 + "</col>");
+		} else {
+			msg(m5015() + ": " + "<col=0000ff>" + string0 + "</col>");
+		}
+	} else {
+		m5008(string0, arg1);
+	}
+	VARC[61] = getClientCycle();
+	return;
+}

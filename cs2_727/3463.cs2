@@ -1,0 +1,12 @@
+//script3463(3463)(int arg0, int arg1)(void)
+if(load_varc(1007) != 22) {
+	instr6342(arg0, None, "")
+	return
+}
+if(coord() == arg1)
+	return
+sound_synth(0, 1, 4874)
+instr6675(75, 1, 1500, movecoord(-3, 0, 0, coord()))
+instr6162(15, 1, 0, coord())
+instr6342(arg0, script_3463, "Ic", -2147483645, coord())
+return

@@ -1,0 +1,66 @@
+//script1421(1421)(int arg0)(void)
+string sVar0
+sVar0 = ""
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		sVar0 = enum(1697, load_varpbit(5146), 'i', 's')
+		if_setonmouseover(if_gethash(575, 3), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 130)
+		break
+	case 2:
+		sVar0 = enum(1698, load_varpbit(5147), 'i', 's')
+		if_setonmouseover(if_gethash(575, 4), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 160)
+		break
+	case 3:
+		sVar0 = enum(1699, load_varpbit(5148), 'i', 's')
+		if_setonmouseover(if_gethash(575, 5), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 4:
+		sVar0 = enum(1700, load_varpbit(5149), 'i', 's')
+		if_setonmouseover(if_gethash(575, 6), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 5:
+		sVar0 = enum(1701, load_varpbit(5150), 'i', 's')
+		if_setonmouseover(if_gethash(575, 7), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 6:
+		sVar0 = enum(1702, load_varpbit(5151), 'i', 's')
+		if_setonmouseover(if_gethash(575, 8), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 7:
+		sVar0 = enum(1703, load_varpbit(5152), 'i', 's')
+		if_setonmouseover(if_gethash(575, 9), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 8:
+		sVar0 = enum(1704, load_varpbit(5153), 'i', 's')
+		if_setonmouseover(if_gethash(575, 10), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 9:
+		sVar0 = enum(1705, load_varpbit(5154), 'i', 's')
+		if_setonmouseover(if_gethash(575, 11), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 10:
+		sVar0 = enum(1706, load_varpbit(5155), 'i', 's')
+		if_setonmouseover(if_gethash(575, 12), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 11:
+		sVar0 = enum(1707, load_varpbit(5156), 'i', 's')
+		if_setonmouseover(if_gethash(575, 13), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 12:
+		sVar0 = enum(1708, load_varpbit(5157), 'i', 's')
+		if_setonmouseover(if_gethash(575, 14), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 13:
+		sVar0 = enum(1709, load_varpbit(5158), 'i', 's')
+		if_setonmouseover(if_gethash(575, 15), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 14:
+		sVar0 = enum(1710, load_varpbit(5159), 'i', 's')
+		if_setonmouseover(if_gethash(575, 16), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+
+}
+store_varc(2, 0)
+return

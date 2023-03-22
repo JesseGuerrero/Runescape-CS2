@@ -1,0 +1,14 @@
+void script_287(Widget widget0, Widget widget1) {
+	if (VARPBIT[3959] == 1) {
+		_ = script_835(widget0, 0);
+		_ = script_836(widget1, 0);
+		widget0.hookOptionClick(&script_288(CTX_MENU_OPTION, widget0, widget1, 0));
+		widget1.hookOptionClick(null);
+	} else {
+		_ = script_836(widget0, 0);
+		_ = script_835(widget1, 0);
+		widget0.hookOptionClick(null);
+		widget1.hookOptionClick(&script_288(CTX_MENU_OPTION, widget0, widget1, 1));
+	}
+	return;
+}

@@ -1,0 +1,8 @@
+string script_280() {
+	string str0;
+	str0 = lower(STRING[22]);
+	if (length(str0) <= 16) {
+		return str0;
+	}
+	return substr(str0, 0, 15);
+}

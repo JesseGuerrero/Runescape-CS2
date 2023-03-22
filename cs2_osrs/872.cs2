@@ -1,0 +1,17 @@
+void script_872(Widget widget0, int arg1, Widget widget2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9) {
+	int int10;
+	int int11;
+	int10 = widget0.getHeight();
+	if (int10 < 334) {
+		int10 = 334;
+	} else if (int10 > 1500) {
+		int10 = 1500;
+	}
+	if (int10 == arg1) {
+		return;
+	}
+	int11 = arg3 - mathMethod4006(0, root(int10 - 334, 2), 0, root(1500 - 334, 2), arg3 - arg4);
+	widget2.set3DRotation(arg5, arg6, arg7, arg8, arg9, int11);
+	widget0.hookFrame(&script_871(widget0, int10, widget2, arg3, arg4, arg5, arg6, arg7, arg8, arg9));
+	return;
+}

@@ -1,0 +1,7 @@
+//script5684(5684)(int arg0)(void)
+if(instr6004(arg0) == 1)
+	if(if_getspriteid(arg0) == 7844)
+		if_setgraphic(arg0, 7845)
+	else
+		if_setgraphic(arg0, 7846)
+return

@@ -1,0 +1,40 @@
+void script_814(Item item0, int arg1, string string2, string string3) {
+	int int2;
+	widget(584, 0).clearChildren();
+	CHILD.createChild(widget(584, 0), 3, 0);
+	_CHILD.createChild(widget(584, 0), 3, 1);
+	CHILD.setHidden(true);
+	_CHILD.setHidden(true);
+	CHILD.setPosition(0, 0, 0, 0);
+	_CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(0, 0, 0, 0);
+	_CHILD.setSize(0, 0, 0, 0);
+	CHILD.createChild(widget(584, 0), 4, 2);
+	CHILD.setSize(0, 30, 1, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setRGB(0x800000);
+	CHILD.setFont(497);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText(string2);
+	int2 = getMaxLineWidth(string2, 479, 497);
+	int2 = script_1045(int2, 330);
+	int2 = (int2 + 57) / 2 + 5;
+	CHILD.createChild(widget(584, 0), 5, 3);
+	_CHILD.createChild(widget(584, 0), 5, 4);
+	CHILD.setSize(57, 13, 0, 0);
+	_CHILD.setSize(57, 13, 0, 0);
+	CHILD.setPosition(0 - int2, 9, 1, 0);
+	_CHILD.setPosition(int2, 9, 1, 0);
+	CHILD.setSprite(302);
+	_CHILD.setSprite(301);
+	if (script_247(location(1920, 4928, 0), location(1983, 4991, 3), getMyLocation()) == 1) {
+		script_815(widget(584, 1), "Yes", 1, "Yy");
+	} else {
+		script_815(widget(584, 1), "Yes", 1, "1Yy");
+	}
+	script_815(widget(584, 3), "No", 0, "2Nn");
+	widget(584, 5).setItem(item0, arg1);
+	widget(584, 6).setText(getItemName(item0));
+	widget(584, 7).setText(string3);
+	return;
+}

@@ -1,0 +1,28 @@
+//script5706(5706)(int arg0, int arg1)(void)
+if(if_gety(arg0) == arg1) {
+	store_varc(1752, 0)
+	instr6342(if_gethash(1218, 74), None, "")
+} else 
+	if(if_gety(arg0) > arg1)
+		if(if_gety(arg0) > arg1 + 70)
+			if_setposition(arg0, 0, 0, if_gety(arg0) - 8, if_getx(arg0))
+		else
+			if(if_gety(arg0) > arg1 + 30)
+				if_setposition(arg0, 0, 0, if_gety(arg0) - 3, if_getx(arg0))
+			else
+				if(if_gety(arg0) > arg1 + 20)
+					if_setposition(arg0, 0, 0, if_gety(arg0) - 2, if_getx(arg0))
+				else
+					if_setposition(arg0, 0, 0, if_gety(arg0) - 1, if_getx(arg0))
+	else
+		if(if_gety(arg0) < arg1 - 70)
+			if_setposition(arg0, 0, 0, if_gety(arg0) + 8, if_getx(arg0))
+		else
+			if(if_gety(arg0) < arg1 - 30)
+				if_setposition(arg0, 0, 0, if_gety(arg0) + 3, if_getx(arg0))
+			else
+				if(if_gety(arg0) < arg1 - 20)
+					if_setposition(arg0, 0, 0, if_gety(arg0) + 2, if_getx(arg0))
+				else
+					if_setposition(arg0, 0, 0, if_gety(arg0) + 1, if_getx(arg0))
+return

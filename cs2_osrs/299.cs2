@@ -1,0 +1,33 @@
+void script_299(int arg0, int arg1) {
+	int int2;
+	int int3;
+	widget(162, 31).setIsHidden(true);
+	widget(162, 40).setIsHidden(false);
+	script_923();
+	int2 = 0;
+	if (arg1 == 1) {
+		int2 = script_553();
+		script_84(int2);
+		script_89(int2);
+		script_223();
+		script_927(1);
+	}
+	VARC[5] = 0;
+	if (arg0 == 1) {
+		STRING[22] = "";
+	}
+	int3 = widget(162, 31).getWidth();
+	widget(162, 32).setPosition(0, 36, 0, 0);
+	widget(162, 32).setSize(int3, 40, 0, 0);
+	widget(162, 33).setPosition(0, 76, 0, 0);
+	widget(162, 33).setSize(int3, 20, 0, 0);
+	widget(162, 32).setIsHidden(false);
+	widget(162, 33).setIsHidden(false);
+	widget(162, 34).setIsHidden(true);
+	widget(162, 38).clearChildren();
+	widget(162, 39).clearChildren();
+	widget(162, 31).hookMousePress(null);
+	widget(162, 31).hookFrame(null);
+	widget(162, 31).clearChildren();
+	return;
+}

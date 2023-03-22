@@ -1,0 +1,223 @@
+void script_239(Widget widget0, int arg1) {
+	int int2;
+	Item item3;
+	int int4;
+	Item item5;
+	int int6;
+	Item item7;
+	int int8;
+	Item item9;
+	int int10;
+	int int11;
+	string str0;
+	if (arg1 == 0) {
+		if (CHILD.setChild(widget0, 47 + 4) == true) {
+			CHILD.setHidden(false);
+		}
+		if (CHILD.setChild(widget0, 47 + 5) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 6) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 7) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 8) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 9) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 10) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 11) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 12) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 13) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 47 + 14) == true) {
+			CHILD.setHidden(true);
+		}
+		return;
+	}
+	if (CHILD.setChild(widget0, 47 + 4) == true) {
+		CHILD.setHidden(true);
+	}
+	int2 = 0;
+	str0 = "";
+	item3 = null;
+	int4 = 0;
+	item5 = null;
+	int6 = 0;
+	item7 = null;
+	int8 = 0;
+	item9 = null;
+	int10 = 0;
+	int2, str0, item3, int4, item5, int6, item7, int8, item9, int10 = script_242(arg1);
+	if (CHILD.setChild(widget0, 47 + 5) == true) {
+		CHILD.setHidden(false);
+		CHILD.setText("Level " + int2 + ": " + datamap('i', 's', 794, arg1));
+	}
+	if (CHILD.setChild(widget0, 47 + 6) == true) {
+		CHILD.setHidden(false);
+		CHILD.setText(str0);
+	}
+	int11 = 4;
+	if (item9 == null) {
+		if (item7 == null) {
+			if (item5 == null) {
+				if (item3 == null) {
+					if (CHILD.setChild(widget0, 47 + 7) == true) {
+						CHILD.setHidden(true);
+					}
+					if (CHILD.setChild(widget0, 47 + 8) == true) {
+						CHILD.setHidden(true);
+					}
+					if (CHILD.setChild(widget0, 47 + 9) == true) {
+						CHILD.setHidden(true);
+					}
+					if (CHILD.setChild(widget0, 47 + 10) == true) {
+						CHILD.setHidden(true);
+					}
+					if (CHILD.setChild(widget0, 47 + 11) == true) {
+						CHILD.setHidden(true);
+					}
+					if (CHILD.setChild(widget0, 47 + 12) == true) {
+						CHILD.setHidden(true);
+					}
+					if (CHILD.setChild(widget0, 47 + 13) == true) {
+						CHILD.setHidden(true);
+					}
+					if (CHILD.setChild(widget0, 47 + 14) == true) {
+						CHILD.setHidden(true);
+					}
+					return;
+				}
+				if (CHILD.setChild(widget0, 47 + 7) == true && _CHILD.setChild(widget0, 47 + 8) == true) {
+					CHILD.setHidden(false);
+					_CHILD.setHidden(false);
+					CHILD.setPosition(77, 215, 0, 0);
+					_CHILD.setPosition(77, 245, 0, 0);
+					script_241(0, item3, int4);
+					CHILD.hookContainer(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+					CHILD.hookVARP(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+				}
+				if (CHILD.setChild(widget0, 47 + 9) == true && _CHILD.setChild(widget0, 47 + 10) == true) {
+					CHILD.setHidden(true);
+					_CHILD.setHidden(true);
+				}
+				if (CHILD.setChild(widget0, 47 + 11) == true && _CHILD.setChild(widget0, 47 + 12) == true) {
+					CHILD.setHidden(true);
+					_CHILD.setHidden(true);
+				}
+				if (CHILD.setChild(widget0, 47 + 13) == true && _CHILD.setChild(widget0, 47 + 14) == true) {
+					CHILD.setHidden(true);
+					_CHILD.setHidden(true);
+				}
+			} else {
+				if (CHILD.setChild(widget0, 47 + 7) == true && _CHILD.setChild(widget0, 47 + 8) == true) {
+					CHILD.setHidden(false);
+					_CHILD.setHidden(false);
+					CHILD.setPosition(45, 215, 0, 0);
+					_CHILD.setPosition(45, 245, 0, 0);
+					script_241(0, item3, int4);
+					CHILD.hookContainer(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+					CHILD.hookVARP(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+				}
+				if (CHILD.setChild(widget0, 47 + 9) == true && _CHILD.setChild(widget0, 47 + 10) == true) {
+					CHILD.setHidden(false);
+					_CHILD.setHidden(false);
+					CHILD.setPosition(109, 215, 0, 0);
+					_CHILD.setPosition(109, 245, 0, 0);
+					script_241(0, item5, int6);
+					CHILD.hookContainer(&script_240(false, item5, int6, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+					CHILD.hookVARP(&script_240(false, item5, int6, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+				}
+				if (CHILD.setChild(widget0, 47 + 11) == true && _CHILD.setChild(widget0, 47 + 12) == true) {
+					CHILD.setHidden(true);
+					_CHILD.setHidden(true);
+				}
+				if (CHILD.setChild(widget0, 47 + 13) == true && _CHILD.setChild(widget0, 47 + 14) == true) {
+					CHILD.setHidden(true);
+					_CHILD.setHidden(true);
+				}
+			}
+		} else {
+			if (CHILD.setChild(widget0, 47 + 7) == true && _CHILD.setChild(widget0, 47 + 8) == true) {
+				CHILD.setHidden(false);
+				_CHILD.setHidden(false);
+				CHILD.setPosition(24, 215, 0, 0);
+				_CHILD.setPosition(24, 245, 0, 0);
+				script_241(0, item3, int4);
+				CHILD.hookContainer(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+				CHILD.hookVARP(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+			}
+			if (CHILD.setChild(widget0, 47 + 9) == true && _CHILD.setChild(widget0, 47 + 10) == true) {
+				CHILD.setHidden(false);
+				_CHILD.setHidden(false);
+				CHILD.setPosition(77, 215, 0, 0);
+				_CHILD.setPosition(77, 245, 0, 0);
+				script_241(0, item5, int6);
+				CHILD.hookContainer(&script_240(false, item5, int6, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+				CHILD.hookVARP(&script_240(false, item5, int6, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+			}
+			if (CHILD.setChild(widget0, 47 + 11) == true && _CHILD.setChild(widget0, 47 + 12) == true) {
+				CHILD.setHidden(false);
+				_CHILD.setHidden(false);
+				CHILD.setPosition(130, 215, 0, 0);
+				_CHILD.setPosition(130, 245, 0, 0);
+				script_241(0, item7, int8);
+				CHILD.hookContainer(&script_240(false, item7, int8, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+				CHILD.hookVARP(&script_240(false, item7, int8, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+			}
+			if (CHILD.setChild(widget0, 47 + 13) == true && _CHILD.setChild(widget0, 47 + 14) == true) {
+				CHILD.setHidden(true);
+				_CHILD.setHidden(true);
+			}
+		}
+	} else {
+		if (CHILD.setChild(widget0, 47 + 7) == true && _CHILD.setChild(widget0, 47 + 8) == true) {
+			CHILD.setHidden(false);
+			_CHILD.setHidden(false);
+			CHILD.setPosition(16, 215, 0, 0);
+			_CHILD.setPosition(16, 245, 0, 0);
+			script_241(0, item3, int4);
+			CHILD.hookContainer(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+			CHILD.hookVARP(&script_240(false, item3, int4, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+		}
+		if (CHILD.setChild(widget0, 47 + 9) == true && _CHILD.setChild(widget0, 47 + 10) == true) {
+			CHILD.setHidden(false);
+			_CHILD.setHidden(false);
+			CHILD.setPosition(57, 215, 0, 0);
+			_CHILD.setPosition(57, 245, 0, 0);
+			script_241(0, item5, int6);
+			CHILD.hookContainer(&script_240(false, item5, int6, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+			CHILD.hookVARP(&script_240(false, item5, int6, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+		}
+		if (CHILD.setChild(widget0, 47 + 11) == true && _CHILD.setChild(widget0, 47 + 12) == true) {
+			CHILD.setHidden(false);
+			_CHILD.setHidden(false);
+			CHILD.setPosition(97, 215, 0, 0);
+			_CHILD.setPosition(97, 245, 0, 0);
+			script_241(0, item7, int8);
+			CHILD.hookContainer(&script_240(false, item7, int8, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+			CHILD.hookVARP(&script_240(false, item7, int8, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+		}
+		if (CHILD.setChild(widget0, 47 + 13) == true && _CHILD.setChild(widget0, 47 + 14) == true) {
+			CHILD.setHidden(false);
+			_CHILD.setHidden(false);
+			CHILD.setPosition(138, 215, 0, 0);
+			_CHILD.setPosition(138, 245, 0, 0);
+			script_241(0, item9, int10);
+			CHILD.hookContainer(&script_240(false, item9, int10, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+			CHILD.hookVARP(&script_240(false, item9, int10, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140, 1377);
+		}
+	}
+	return;
+}

@@ -1,0 +1,5 @@
+//script3096(3096)()(void)
+script_3097()
+if(userdetail_lobby_playage() == 0 || compare("#", substring(instr6574(), 1, 0)) == 0)
+	script_2422()
+return

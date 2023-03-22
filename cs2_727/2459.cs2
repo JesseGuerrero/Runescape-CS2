@@ -1,0 +1,111 @@
+//script2459(2459)(int arg0)(int)
+if(instr6644() >= 2)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			return 48889947
+
+		case 1:
+			return 48889948
+
+		case 2:
+			return 48889949
+
+		case 3:
+			return 48889950
+
+		case 4:
+			return 48889951
+
+		case 5:
+			return 48889952
+
+		case 6:
+			return 48889953
+
+		case 7:
+			return 48889954
+
+		case 8:
+			return 48889955
+
+		case 9:
+			return 48889956
+
+		case 10:
+			return 48889957
+
+		case 11:
+			return 48889958
+
+		case 12:
+			return 48889959
+
+		case 13:
+			return 48889960
+
+		case 14:
+			return 48889961
+
+		case 15:
+			return 48889962
+
+
+	}
+else
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			return 35913831
+
+		case 1:
+			return 35913832
+
+		case 2:
+			return 35913833
+
+		case 3:
+			return 35913834
+
+		case 4:
+			return 35913835
+
+		case 5:
+			return 35913836
+
+		case 6:
+			return 35913837
+
+		case 7:
+			return 35913838
+
+		case 8:
+			return 35913785
+
+		case 9:
+			return 35913786
+
+		case 10:
+			return 35913787
+
+		case 11:
+			return 35913788
+
+		case 12:
+			return 35913789
+
+		case 13:
+			return 35913790
+
+		case 14:
+			return 35913791
+
+		case 15:
+			return 35913792
+
+
+	}
+return -1
+return -1

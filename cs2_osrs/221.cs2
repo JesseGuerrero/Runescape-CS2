@@ -1,0 +1,10 @@
+void script_221(Widget widget0, int arg1, Color color2, int arg3) {
+	if (getClientCycle() < arg3) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setRGB(color2);
+		CHILD.hookFrame(null);
+	}
+	return;
+}

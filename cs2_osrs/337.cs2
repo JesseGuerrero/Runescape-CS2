@@ -1,0 +1,4 @@
+void script_337(Widget widget0) {
+	script_341(widget0, VARPBIT[3973]);
+	return;
+}

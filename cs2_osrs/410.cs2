@@ -1,0 +1,6 @@
+void script_410() {
+	string str0;
+	str0 = ",";
+	CHILD.setText("Reward points: " + script_46(VARPBIT[4068], str0));
+	return;
+}

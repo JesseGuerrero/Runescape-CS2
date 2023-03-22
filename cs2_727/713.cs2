@@ -1,0 +1,58 @@
+//script713(713)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+iVar7 = inv_getitem(0, 541)
+if(iVar7 != -1) {
+	instr6879(arg1, 1, iVar7)
+	if_setborderthickness(arg1, 1)
+	if_setspriteshadow(arg1, 3355443)
+	instr6213(arg1, 1, "Remove")
+	instr6213(arg1, 10, "Examine")
+	item_useonname(arg1, "<col=ff9040>" + item_name(iVar7) + "</col>")
+	if(load_varpbit(5026) == 0) {
+		if_settext(arg2, "<col=ff0000>" + "Until" + "</col>" + "<br>" + "<col=ff0000>" + "logout" + "</col>")
+		instr6220(arg2)
+		instr6213(arg2, 2, "Specify")
+	} else  {
+		if(load_varpbit(5026) == 1)
+			if_settext(arg2, "1 hour")
+		else
+			if_settext(arg2, to_string(load_varpbit(5026)) + " hours")
+		instr6213(arg2, 1, "'Until logout'")
+		instr6213(arg2, 2, "Edit")
+	}
+	item_useonname(arg2, "<col=ff9040>" + "Duration" + "</col>")
+	script_679(arg3)
+	if_setonmouseover(arg3, script_94, "I", arg3)
+	hook_mouse_exit(arg3, script_92, "I", arg3)
+} else  {
+	instr6879(arg1, 0, -1)
+	if_settext(arg2, "")
+	instr6220(arg1)
+	instr6220(arg2)
+	item_useonname(arg1, "")
+	item_useonname(arg2, "")
+	cc_deleteall(arg3)
+	if_setonmouseover(arg3, None, "")
+	hook_mouse_exit(arg3, None, "")
+}
+iVar7 = invother_getitem(0, 541)
+if(iVar7 != -1) {
+	instr6879(arg5, 1, iVar7)
+	if_setborderthickness(arg5, 1)
+	if_setspriteshadow(arg5, 3355443)
+	instr6213(arg5, 10, "Examine")
+	item_useonname(arg5, "<col=ff9040>" + item_name(iVar7) + "</col>")
+	if(load_varpbit(5070) == 0)
+		if_settext(arg6, "<col=ff0000>" + "Until" + "</col>" + "<br>" + "<col=ff0000>" + "logout" + "</col>")
+	else
+		if(load_varpbit(5070) == 1)
+			if_settext(arg6, "1 hour")
+		else
+			if_settext(arg6, to_string(load_varpbit(5070)) + " hours")
+} else  {
+	instr6879(arg5, 0, -1)
+	if_settext(arg6, "")
+	instr6220(arg5)
+	item_useonname(arg5, "")
+}
+return

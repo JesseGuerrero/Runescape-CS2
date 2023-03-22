@@ -1,0 +1,21 @@
+//script5697(5697)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+if(string_length(arg0) <= 0)
+	return
+iVar2 = 0
+iVar3 = 0
+if(cc_find(arg0, if_gethash(1218, 30)) == 1)
+	if(if_gethide(if_gethash(1218, 80)) == 1) {
+		iVar3 = (cc_getheight() + cc_gety()) - 5
+		iVar2 = (max(1, paramheight(arg0, 3793, 500)) * 12) + 30
+		if_settext(if_gethash(1218, 181), arg0)
+		if_setcolor(79823029, 0xDB9000)
+		if_setsize(if_gethash(1218, 80), 0, 0, iVar2, if_getwidth(if_gethash(1218, 80)))
+		if((iVar3 + iVar2) - if_getscrolly(79822852) > if_getheight(if_gethash(1218, 4)))
+			iVar3 = cc_gety() - (iVar2 - 10)
+		if_setposition(if_gethash(1218, 80), 0, 0, iVar3, if_getx(if_gethash(1218, 80)))
+		if_sethide(if_gethash(1218, 80), 0)
+	} else 
+		if_sethide(if_gethash(1218, 80), 1)
+return

@@ -1,0 +1,48 @@
+//script1540(1540)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+string sVar1
+cc_deleteall(arg0)
+iVar1 = 0
+iVar2 = 0
+iVar1 = (if_getwidth(arg0) - (36 * 4)) / 3
+iVar2 = (if_getheight(arg0) - (32 * 7)) / 6
+iVar3 = 0
+iVar4 = inv_size(if_gethash(0, 93))
+iVar5 = -1
+iVar6 = 0
+sVar0 = ""
+sVar1 = ""
+while(iVar3 < iVar4) {
+	cc_create(iVar3, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, (iVar3 / 4) * (32 + iVar2), (36 + iVar1) * modulo(4, iVar3))
+	iVar5 = inv_getitem(iVar3, 93)
+	if(iVar5 != -1) {
+		iVar6 = inv_total(iVar5, 93)
+		sVar0 = item_param(1264, iVar5)
+		if(string_length(sVar0) <= 0)
+			if(bit_flagged(iVar3, load_varc(96)) == 1)
+				sVar0 = item_iop(2, iVar5)
+			else
+				if(bit_flagged(iVar3, load_varc(95)) == 1)
+					sVar0 = "Eat"
+		cc_setonmouseover(script_5495, "o", iVar5)
+		instr6092(script_5495, "o", -1)
+	} else 
+		iVar6 = 0
+	if(iVar6 > 5)
+		script_154(93, iVar3, arg0, iVar3, 1, -1, "Deposit-1", "Deposit-5", "Deposit-10", "Deposit-" + to_string(load_varp(1249)), "Deposit-X", "Deposit-All", "", sVar0, sVar1)
+	else
+		if(iVar6 > 1)
+			script_154(93, iVar3, arg0, iVar3, 1, -1, "Deposit-1", "Deposit-5", "", "Deposit-" + to_string(load_varp(1249)), "Deposit-X", "Deposit-All", "", sVar0, sVar1)
+		else
+			script_154(93, iVar3, arg0, iVar3, 1, -1, "Deposit", "", "", "", "", "", "", sVar0, sVar1)
+	iVar3 = iVar3 + 1
+}
+return

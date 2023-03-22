@@ -1,0 +1,8 @@
+//script5268(5268)(int arg0, string arg1, string arg2)(int)
+int iVar1
+int iVar2
+iVar1 = if_getnextsubid(if_gethash(1137, 109))
+iVar2 = (iVar1 / 2) * 20
+cc_create(iVar1, 4, 74514541)
+cc_settext(arg0)
+return arg0

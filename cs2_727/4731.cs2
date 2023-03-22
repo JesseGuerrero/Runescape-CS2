@@ -1,0 +1,20 @@
+//script4731(4731)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar2 = get_mousebuttons().get(0)
+iVar5 = cam_getangley() + ((load_varc(1653) - arg0) * 2)
+iVar6 = cam_getanglex() - (load_varc(1654) - arg1)
+if(iVar3 == 1)
+	if(load_varc(173) != 1)
+		if(load_varpbit(542) != 1 || load_varpbit(542) == 1 || load_varpbit(10196) == 1)
+			if(instr6122() == 1)
+				cam_setangle(iVar5, iVar6)
+store_varc(1653, arg0)
+store_varc(1654, arg1)
+return

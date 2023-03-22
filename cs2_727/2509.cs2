@@ -1,0 +1,6 @@
+//script2509(2509)(int arg0)(int)
+if(load_varc(840) <= script_2687() - arg0)
+	return 1
+else
+	return 0
+return 0

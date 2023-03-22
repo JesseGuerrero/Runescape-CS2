@@ -1,0 +1,3 @@
+//script6369(6369)(int arg0, int arg1)(void)
+script_6370(script_6348(arg0).get(0), script_6348(arg0).get(1), arg0, arg1)
+return

@@ -1,0 +1,34 @@
+void script_1500(Widget widget0) {
+	string str0;
+	str0 = "Enable (1 coin)";
+	if (VARPBIT[5411] == 0 || VARPBIT[5412] <= 0) {
+		CHILD.setRGB(0x9F9F9F);
+		CHILD.setText("Off");
+		widget0.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 10461087));
+		if (VARPBIT[5412] > 0) {
+			if (VARPBIT[5412] > 1) {
+				str0 = "Enable (" + script_46(VARPBIT[5412], ",") + " coins)";
+			}
+			widget0.setContextMenuOption(1, str0);
+		} else {
+			widget0.setContextMenuOption(1, "Enable");
+		}
+		widget0.setContextMenuOption(2, "");
+		widget0.hookOptionClick(&script_1501(CTX_MENU_OPTION, false, VARPBIT[5412], widget0, getChildId()));
+	} else {
+		CHILD.setRGB(0xFF981F);
+		if (VARPBIT[5412] != 1) {
+			CHILD.setText(script_46(VARPBIT[5412], ",") + " coins");
+		} else {
+			CHILD.setText("1 coin");
+		}
+		widget0.setContextMenuOption(1, "Disable");
+		widget0.setContextMenuOption(2, "Change");
+		widget0.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		widget0.hookOptionClick(&script_1501(CTX_MENU_OPTION, true, 0, widget0, getChildId()));
+	}
+	widget0.hookFrame(null);
+	return;
+}

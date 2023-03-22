@@ -1,0 +1,36 @@
+//script933(933)(int arg0)(int)
+switch(item_param(741, arg0)) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(1852) < item_param(742, arg0))
+			return 0
+		break
+	case 2:
+		if(load_varpbit(3763) < 2)
+			return 0
+		break
+	case 3:
+		if(load_varpbit(4310) < 10)
+			return 0
+		break
+	case 4:
+		if(load_varpbit(1990) < 280)
+			return 0
+		break
+	case 5:
+		if(load_varpbit(1850) < 4)
+			return 0
+		break
+	case 6:
+		if(load_varpbit(3550) < 8)
+			return 0
+		break
+	case 7:
+		if(load_varpbit(998) < 7)
+			return 0
+		return 1
+
+
+}
+return -1

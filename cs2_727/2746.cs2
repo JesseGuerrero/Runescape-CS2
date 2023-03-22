@@ -1,0 +1,26 @@
+//script2746(2746)()(void)
+if(if_gethide(if_gethash(204, 98)) == 1) {
+	if_setvflip(if_gethash(204, 60), 1)
+	if_sethide(if_gethash(204, 98), 0)
+	if_sethide(if_gethash(204, 89), 0)
+	if_sethide(if_gethash(204, 99), 0)
+	if_sethide(if_gethash(204, 27), 0)
+} else  {
+	if_setvflip(if_gethash(204, 60), 0)
+	if_sethide(if_gethash(204, 98), 1)
+	if_sethide(if_gethash(204, 89), 1)
+	if_sethide(if_gethash(204, 99), 1)
+	if_sethide(if_gethash(204, 27), 1)
+}
+if_setvflip(if_gethash(204, 44), 0)
+if_sethide(if_gethash(204, 86), 1)
+if_sethide(if_gethash(204, 77), 1)
+if_sethide(if_gethash(204, 87), 1)
+if_sethide(if_gethash(204, 26), 1)
+if_setvflip(if_gethash(204, 76), 0)
+if_sethide(if_gethash(204, 110), 1)
+if_sethide(if_gethash(204, 101), 1)
+if_sethide(if_gethash(204, 111), 1)
+if_sethide(if_gethash(204, 28), 1)
+if_sethide(if_gethash(204, 113), 1)
+return

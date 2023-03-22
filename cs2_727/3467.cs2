@@ -1,0 +1,6 @@
+//script3467(3467)(int arg0, int arg1, int arg2)(void)
+if(client_clock() - arg1 < arg2)
+	return
+instr6342(arg0, None, "")
+script_2766(0, 50, arg0)
+return

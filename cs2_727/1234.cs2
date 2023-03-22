@@ -1,0 +1,22 @@
+//script1234(1234)(int arg0)(void)
+if(instr6606() == 1)
+	return
+if(load_varc(173) != 1)
+	switch(arg0) {
+		case default:
+			break
+		case 1:
+			instr6663()
+			break
+		case 2:
+			instr6108()
+			break
+		case 3:
+			instr6684()
+			break
+		case 4:
+			instr6823()
+			break
+
+	}
+return

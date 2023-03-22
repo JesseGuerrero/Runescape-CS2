@@ -1,0 +1,10 @@
+//script472(472)(int arg0, int arg1)(void)
+if(stat_base(14) < 25) {
+	if_settext(arg0, "<col=c80000>" + "A Mining level of " + to_string(25) + " is required." + "</col>")
+	return
+}
+if(load_varpbit(2086) < arg1)
+	if_settext(arg0, "<col=c80000>" + to_string(arg1) + " Commendations required." + "</col>")
+else
+	if_settext(arg0, to_string(arg1) + " Commendations.")
+return

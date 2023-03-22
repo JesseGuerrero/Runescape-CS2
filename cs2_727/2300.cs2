@@ -1,0 +1,11 @@
+//script2300(2300)(int arg0)(void)
+if(arg0 != 1)
+	return
+if(load_varp(1397) == 0)
+	return
+if(script_42(load_varc(182)) == 1)
+	store_varc(182, 0)
+else
+	store_varc(182, 1)
+script_2303()
+return

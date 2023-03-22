@@ -1,0 +1,3 @@
+//script624(624)(int arg0)(int)
+return enum(1077, arg0, 'i', 'I')
+return -1

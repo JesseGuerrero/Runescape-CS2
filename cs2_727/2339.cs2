@@ -1,0 +1,45 @@
+//script2339(2339)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+store_varc(770, 0)
+iVar0 = coordx(coord()) - modulo(64, coordx(coord()))
+iVar1 = coordz(coord()) - modulo(64, coordz(coord()))
+iVar2 = 574
+iVar3 = 942
+iVar4 = movecoord(iVar1, 0, iVar0, 0)
+instr6650(14, 0)
+instr6650(14, 1)
+instr6651(0, iVar3, movecoord(26, 0, 27, iVar4), iVar3, movecoord(30, 0, 20, iVar4), 0, 0)
+instr6651(0, iVar2, movecoord(33, 0, 31, iVar4), iVar2, movecoord(36, 0, 25, iVar4), 0, 1)
+instr6651(0, iVar3, movecoord(39, 0, 41, iVar4), iVar3, movecoord(36, 0, 41, iVar4), 1, 0)
+instr6651(0, iVar2, movecoord(46, 0, 38, iVar4), iVar2, movecoord(42, 0, 38, iVar4), 1, 1)
+instr6651(0, iVar3, movecoord(51, 0, 37, iVar4), iVar3, movecoord(49, 0, 35, iVar4), 2, 0)
+instr6651(0, iVar2, movecoord(57, 0, 40, iVar4), iVar2, movecoord(57, 0, 38, iVar4), 2, 1)
+instr6651(0, iVar3, movecoord(37, 0, 31, iVar4), iVar3, movecoord(40, 0, 35, iVar4), 3, 0)
+instr6651(0, iVar2, movecoord(54, 0, 37, iVar4), iVar2, movecoord(54, 0, 38, iVar4), 3, 1)
+instr6651(0, iVar3, movecoord(38, 0, 24, iVar4), iVar3, movecoord(41, 0, 24, iVar4), 4, 0)
+instr6651(0, iVar2, movecoord(41, 0, 7, iVar4), iVar2, movecoord(43, 0, 12, iVar4), 4, 1)
+instr6651(0, iVar3, movecoord(43, 0, 31, iVar4), iVar3, movecoord(43, 0, 30, iVar4), 5, 0)
+instr6651(0, iVar2, movecoord(39, 0, 0, iVar4), iVar2, movecoord(41, 0, 8, iVar4), 5, 1)
+instr6651(0, iVar3, movecoord(43, 0, 37, iVar4), iVar3, movecoord(43, 0, 35, iVar4), 6, 0)
+instr6651(0, iVar2, movecoord(28, 0, 27, iVar4), iVar2, movecoord(27, 0, 36, iVar4), 6, 1)
+instr6651(0, iVar3, movecoord(44, 0, 31, iVar4), iVar3, movecoord(45, 0, 35, iVar4), 7, 0)
+instr6651(0, iVar2, movecoord(31, 0, 35, iVar4), iVar2, movecoord(30, 0, 36, iVar4), 7, 1)
+instr6651(0, iVar3, movecoord(40, 0, 42, iVar4), iVar3, movecoord(40, 0, 41, iVar4), 8, 0)
+instr6651(0, iVar2, movecoord(39, 0, 56, iVar4), iVar2, movecoord(39, 0, 54, iVar4), 8, 1)
+instr6651(0, iVar3, movecoord(45, 0, 44, iVar4), iVar3, movecoord(42, 0, 44, iVar4), 9, 0)
+instr6651(0, iVar2, movecoord(39, 0, 53, iVar4), iVar2, movecoord(40, 0, 54, iVar4), 9, 1)
+instr6651(0, iVar3, movecoord(50, 0, 20, iVar4), iVar3, movecoord(51, 0, 30, iVar4), 10, 0)
+instr6651(0, iVar2, movecoord(42, 0, 26, iVar4), iVar2, movecoord(40, 0, 32, iVar4), 10, 1)
+instr6651(0, iVar3, movecoord(36, 0, 22, iVar4), iVar3, movecoord(39, 0, 22, iVar4), 11, 0)
+instr6651(0, iVar2, movecoord(41, 0, 34, iVar4), iVar2, movecoord(41, 0, 33, iVar4), 11, 1)
+instr6651(0, iVar3, movecoord(27, 0, 42, iVar4), iVar3, movecoord(29, 0, 32, iVar4), 12, 0)
+instr6651(0, iVar2, movecoord(43, 0, 32, iVar4), iVar2, movecoord(42, 0, 32, iVar4), 12, 1)
+instr6651(0, 778, movecoord(46, 0, 47, iVar4), 778, movecoord(40, 0, 47, iVar4), 13, 0)
+instr6651(0, iVar2, movecoord(41, 0, 28, iVar4), iVar2, movecoord(41, 0, 31, iVar4), 13, 1)
+instr6255(if_gethash(558, 0), script_2344, "")
+instr6677(load_varc(770), 1, 900, 500, load_varc(770), 0)
+return

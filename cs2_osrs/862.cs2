@@ -1,0 +1,16 @@
+void script_862(int arg0, Widget widget1, Widget widget2, int arg3) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	widget1.clearChildren();
+	_ = script_836(widget1, 0);
+	widget(127, 13).setRGB(0xFFFFFF);
+	widget(127, 12).hookMouseHover(null);
+	widget(127, 12).hookMouseExit(null);
+	widget1.hookFrame(&script_863(widget1, getClientCycle() + 20));
+	if (CHILD.setChild(widget2, arg3) == true) {
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

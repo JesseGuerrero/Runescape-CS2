@@ -1,0 +1,49 @@
+//script4597(4597)()(void)
+int iVar0
+string sVar0
+string sVar1
+sVar0 = "What if I entered the Wilderness?"
+sVar1 = "Back"
+iVar0 = 0
+if(load_varpbit(9226) >= 2) {
+	if_sethide(if_gethash(17, 28), 1)
+	if_setsize(if_gethash(17, 26), 1, 1, 0, 16)
+	if_setsize(if_gethash(17, 27), 1, 0, 0, 16)
+} else  {
+	iVar0 = max(paramheight(sVar1, 495, if_getwidth(if_gethash(17, 30))), paramheight(sVar0, 495, if_getwidth(if_gethash(17, 30))))
+	iVar0 = (iVar0 * 12) + 10
+	if_setsize(if_gethash(17, 28), 0, 1, iVar0, 10)
+	if_sethide(if_gethash(17, 28), 0)
+	iVar0 = iVar0 + 5
+	if_setsize(if_gethash(17, 26), 1, 1, iVar0, 16)
+	if_setsize(if_gethash(17, 27), 1, 0, iVar0, 16)
+	script_680(1114141)
+	hook_mouse_enter(if_gethash(17, 28), script_95, "I", if_gethash(17, 29))
+	hook_mouse_exit(if_gethash(17, 28), script_93, "I", if_gethash(17, 29))
+	if(load_varpbit(9226) == 1)
+		if_settext(if_gethash(17, 30), sVar1)
+	else
+		if_settext(if_gethash(17, 30), sVar0)
+}
+cc_deleteall(if_gethash(17, 26))
+iVar0 = (paramheight(load_varc_string(352), 494, if_getwidth(if_gethash(17, 26))) * 10) + 2
+cc_create(0, 4, 1114138)
+cc_setsize(0, 1, iVar0, 0)
+cc_setposition(0, 1, 0, 0)
+cc_settextfont(494)
+cc_settextalign(0, 1, 1)
+cc_setcolor(ff981f)
+cc_settextshadow(1)
+cc_settext(load_varc_string(352))
+if(iVar0 > if_getheight(if_gethash(17, 26))) {
+	if_setscrollsize(1114138, iVar0, 0)
+	script_31(1114139, 1114138, 792, 789, 790, 791, 773, 788)
+	if_sethide(if_gethash(17, 27), 0)
+	if_setposition(if_gethash(17, 26), 0, 0, 0, 0)
+} else  {
+	if_setscrollsize(1114138, 0, 0)
+	if_sethide(if_gethash(17, 27), 1)
+	if_setposition(if_gethash(17, 26), 0, 1, 0, 0)
+	if_setscrollpos(if_gethash(17, 26), 0, 0)
+}
+return

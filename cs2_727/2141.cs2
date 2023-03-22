@@ -1,0 +1,26 @@
+//script2141(2141)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+cc_deleteall(if_gethash(864, 6))
+if(load_varp(1469) == -1)
+	return
+iVar0 = 0
+iVar1 = 10
+iVar2 = 0
+iVar3 = 0
+sVar0 = ""
+while(iVar2 != -1) {
+	iVar2 = script_942(iVar3).get(0)
+	if(iVar2 == 1) {
+		iVar1 = iVar1 + script_2142(iVar0, iVar1, iVar3, sVar0)
+		iVar0 = iVar0 + 1
+	}
+	iVar3 = iVar3 + 1
+}
+if_setscrollsize(56623110, iVar1, 296)
+if(iVar1 > 240)
+	script_31(56623111, 56623110, 798, 795, 796, 797, 793, 794)
+return

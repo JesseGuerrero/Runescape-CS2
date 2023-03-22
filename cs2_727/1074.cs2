@@ -1,0 +1,39 @@
+//script1074(1074)(int arg0, int arg1, int arg2)(void)
+switch(load_varc(134)) {
+	case default:
+		break
+	case 0:
+		store_varc(135, arg2)
+		break
+	case 1:
+		store_varc(136, arg2)
+		break
+	case 2:
+		store_varc(137, arg2)
+		break
+	case 3:
+		store_varc(138, arg2)
+		break
+	case 4:
+		store_varc(139, arg2)
+		break
+	case 5:
+		store_varc(140, arg2)
+		break
+	case 6:
+		store_varc(141, arg2)
+		break
+	case 7:
+		store_varc(142, arg2)
+		break
+	case 8:
+		store_varc(143, arg2)
+		break
+	case 9:
+		store_varc(144, arg2)
+		break
+
+}
+store_varc(134, load_varc(134) + 1)
+script_1072(arg0, arg1)
+return

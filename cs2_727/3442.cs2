@@ -1,0 +1,6 @@
+//script3442(3442)(int arg0, int arg1, int arg2)(void)
+if(script_3441() == 1)
+	script_569(arg0, -1, arg1, 50, 150, script_3443(arg2))
+else
+	script_569(arg0, -1, arg1, 50, 150, "A member of the Jury.")
+return

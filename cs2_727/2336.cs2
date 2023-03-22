@@ -1,0 +1,6 @@
+//script2336(2336)(int arg0, int arg1)(void)
+if(instr6644() != arg1) {
+	instr6342(arg0, script_2336, "Ii", arg0, instr6644())
+	script_2337(arg0)
+}
+return

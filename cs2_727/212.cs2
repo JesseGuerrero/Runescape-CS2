@@ -1,0 +1,4 @@
+//script212(212)(string arg0)(void)
+if(compare("", arg0) != 0)
+	instr6655(arg0, 1)
+return

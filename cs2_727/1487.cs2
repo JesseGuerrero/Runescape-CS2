@@ -1,0 +1,15 @@
+//script1487(1487)()(void)
+string sVar0
+sVar0 = ""
+if(load_varp(115) == 0) {
+	if_setgraphic(if_gethash(762, 19), 1431)
+	if_setgraphic(if_gethash(762, 20), 1427)
+	sVar0 = "Switch to note withdrawal mode"
+} else  {
+	if_setgraphic(if_gethash(762, 19), 1433)
+	if_setgraphic(if_gethash(762, 20), 1428)
+	sVar0 = "Switch to item withdrawal mode"
+}
+instr6213(if_gethash(762, 19), 1, sVar0)
+if_setonmouseover(if_gethash(762, 19), script_38, "IIsii", -2147483645, if_gethash(762, 121), sVar0, 25, 150)
+return

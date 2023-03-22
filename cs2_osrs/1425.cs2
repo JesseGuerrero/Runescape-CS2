@@ -1,0 +1,8 @@
+int script_1425(int arg0, int arg1, int arg2) {
+	if (arg1 <= arg0) {
+		arg0, arg1 = arg1, arg0;
+	}
+	arg2 = script_1046(arg1, arg2);
+	arg2 = script_1045(arg0, arg2);
+	return arg2;
+}

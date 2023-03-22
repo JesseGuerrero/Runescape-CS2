@@ -1,0 +1,4 @@
+//script4290(4290)()(int)
+if(activeclansettings_find_affined() == 1)
+	script_4291()
+return script_4295()

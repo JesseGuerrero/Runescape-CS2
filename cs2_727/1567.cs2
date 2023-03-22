@@ -1,0 +1,6 @@
+//script1567(1567)(int arg0, int arg1, int arg2)(int, int, string, string)
+if(arg0 == 7)
+	return script_2788(arg1, arg2).get(1), script_2788(arg1, arg2).get(0), script_2788(arg1, arg2).get(3), script_2788(arg1, arg2).get(2)
+if(arg0 == 4)
+	return script_2787(arg1, arg2).get(1), script_2787(arg1, arg2).get(0), script_2787(arg1, arg2).get(3), script_2787(arg1, arg2).get(2)
+return -1, 0, "", ""

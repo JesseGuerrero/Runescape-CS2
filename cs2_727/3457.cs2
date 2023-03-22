@@ -1,0 +1,53 @@
+//script3457(3457)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = client_clock() - arg1
+if(iVar2 < 100)
+	if(load_varc(1281) > 0) {
+		instr6162(load_varc(1282), 3000, load_varc(1286), load_varc(1285))
+		instr6675(load_varc(1282), 3000, load_varc(1284), load_varc(1283))
+		return
+	} else 
+		if(iVar2 < 200)
+			if(load_varc(1281) > 1) {
+				instr6162(load_varc(1282), 0, load_varc(1290), load_varc(1289))
+				instr6675(load_varc(1282), 0, load_varc(1288), load_varc(1287))
+				return
+			} else 
+				if(iVar2 < 300)
+					if(load_varc(1281) > 2) {
+						instr6162(load_varc(1282), 0, load_varc(1294), load_varc(1293))
+						instr6675(load_varc(1282), 0, load_varc(1292), load_varc(1291))
+						return
+					} else 
+						if(iVar2 < 400)
+							if(load_varc(1281) > 3) {
+								instr6162(load_varc(1282), 0, load_varc(1298), load_varc(1297))
+								instr6675(load_varc(1282), 0, load_varc(1296), load_varc(1295))
+								return
+							} else 
+								if(iVar2 < 500)
+									if(load_varc(1281) > 4) {
+										instr6162(load_varc(1282), 0, load_varc(1302), load_varc(1301))
+										instr6675(load_varc(1282), 0, load_varc(1300), load_varc(1299))
+										return
+									} else 
+										if(iVar2 < 600)
+											if(load_varc(1281) > 5) {
+												instr6162(load_varc(1282), 0, load_varc(1306), load_varc(1305))
+												instr6675(load_varc(1282), 0, load_varc(1304), load_varc(1303))
+												return
+											} else 
+												if(iVar2 < 700)
+													if(load_varc(1281) > 6) {
+														instr6162(load_varc(1282), 0, load_varc(1310), load_varc(1309))
+														instr6675(load_varc(1282), 0, load_varc(1308), load_varc(1307))
+														return
+													} else 
+														if(iVar2 < 800)
+															if(load_varc(1281) > 7) {
+																instr6162(load_varc(1282), 0, load_varc(1314), load_varc(1313))
+																instr6675(load_varc(1282), 0, load_varc(1312), load_varc(1311))
+																return
+															}
+instr6342(arg0, None, "")
+return

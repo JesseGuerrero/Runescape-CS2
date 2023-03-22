@@ -1,0 +1,39 @@
+//script2163(2163)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+string sVar1
+iVar4 = (arg2 + arg3) / 2
+iVar5 = globalArrays[0][iVar4]
+globalArrays[0][iVar4] = globalArrays[0][arg3]
+globalArrays[0][arg3] = iVar5
+iVar6 = arg2
+iVar7 = arg2
+iVar8 = -1
+sVar0 = "null"
+sVar1 = "null"
+sVar1 = struct_param(846, enum(arg1, iVar5, 'i', 'J')).toLowerCase()
+if(compare("", sVar1) == 0)
+	sVar1 = struct_param(845, enum(arg1, iVar5, 'i', 'J')).toLowerCase()
+while(iVar7 < arg3) {
+	sVar0 = struct_param(846, enum(arg1, globalArrays[0][iVar7], 'i', 'J')).toLowerCase()
+	if(compare("", sVar0) == 0)
+		sVar0 = struct_param(845, enum(arg1, globalArrays[0][iVar7], 'i', 'J')).toLowerCase()
+	if(compare(sVar1, sVar0) < iVar7 & 1) {
+		iVar8 = globalArrays[0][iVar7]
+		globalArrays[0][iVar7] = globalArrays[0][iVar6]
+		globalArrays[0][iVar6] = iVar8
+		iVar6 = iVar6 + 1
+	}
+	iVar7 = iVar7 + 1
+}
+globalArrays[0][arg3] = globalArrays[0][iVar6]
+globalArrays[0][iVar6] = iVar5
+if(arg2 < iVar6 - 1)
+	script_2163(0, arg1, arg2, iVar6 - 1)
+if(iVar6 + 1 < arg3)
+	script_2163(0, arg1, iVar6 + 1, arg3)
+return

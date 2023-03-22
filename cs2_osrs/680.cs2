@@ -1,0 +1,7 @@
+void script_680() {
+	if (VARC[56] == 1) {
+		return;
+	}
+	VARC[56], STRING[128], STRING[129] = 1, "", "";
+	return;
+}

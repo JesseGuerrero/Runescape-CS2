@@ -1,0 +1,10 @@
+//script1507(1507)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+if(gender() == 1)
+	base_idkit(arg1, 13)
+else
+	base_idkit(arg1, 6)
+store_varc(1014, arg1)
+script_1506()
+return

@@ -1,0 +1,17 @@
+//script5070(5070)(int arg0, int arg1, int arg2)(void)
+if(arg0 != 1 || enum(3943, arg1, 'i', 'J') == -1)
+	return
+sound_vorbis_volume(200, 0, 1, 6185)
+if(arg1 == load_varpbit(9516))
+	arg2 = if_gethide(if_gethash(1111, 18))
+else {
+	if_setscrollpos(if_gethash(1111, 27), 0, 0)
+	store_varpbit(9517, 0)
+}
+store_varpbit(9516, arg1)
+if(arg2 == 1)
+	script_5073(0)
+else
+	script_5073(1)
+script_5067()
+return

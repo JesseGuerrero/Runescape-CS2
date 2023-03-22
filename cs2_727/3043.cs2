@@ -1,0 +1,4 @@
+//script3043(3043)(int arg0)(void)
+instr6342(arg0, script_3044, "I", arg0)
+script_3045()
+return

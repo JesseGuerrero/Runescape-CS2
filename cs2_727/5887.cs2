@@ -1,0 +1,59 @@
+//script5887(5887)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar2 = 8
+iVar3 = 20
+iVar4 = arg1 / 20
+iVar5 = modulo(20, arg1)
+iVar6 = 0
+if(iVar4 > 0)
+	iVar6 = iVar6 + 140
+if(iVar4 > 1)
+	iVar6 = iVar6 + 120
+if(iVar4 > 2)
+	iVar6 = iVar6 + 100
+if(iVar4 > 3)
+	iVar6 = iVar6 + 80
+if(iVar4 > 4)
+	iVar6 = iVar6 + 60
+if(iVar4 > 5)
+	iVar6 = iVar6 + 40
+if(iVar4 > 6)
+	iVar6 = iVar6 + 20
+iVar7 = 8
+switch(iVar4) {
+	case default:
+		break
+	case 0:
+		iVar7 = 8
+		break
+	case 1:
+		iVar7 = 7
+		break
+	case 2:
+		iVar7 = 6
+		break
+	case 3:
+		iVar7 = 5
+		break
+	case 4:
+		iVar7 = 4
+		break
+	case 5:
+		iVar7 = 3
+		break
+	case 6:
+		iVar7 = 2
+		break
+	case 7:
+		iVar7 = 1
+		break
+
+}
+iVar6 = iVar6 + (iVar7 * iVar5)
+return script_5888(arg0, iVar6)
+return 0

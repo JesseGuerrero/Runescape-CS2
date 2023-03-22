@@ -1,0 +1,4 @@
+//script1547(1547)()(void)
+if(load_varc(5) == 0)
+	script_1548(0)
+return

@@ -1,0 +1,14 @@
+void script_282(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, Widget widget8, int arg9, int arg10, int arg11, int arg12) {
+	if (script_514() == 1) {
+		widget8.setSprite(179);
+		if (VARC[5] == 11) {
+			widget8.hookFrame(&script_283(widget(arg0), widget(arg1), widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget8, widget(arg9), widget(arg10), widget(arg11), widget(arg12)));
+		} else {
+			widget8.hookFrame(null);
+		}
+	} else {
+		widget8.setSprite(170);
+		widget8.hookFrame(null);
+	}
+	return;
+}

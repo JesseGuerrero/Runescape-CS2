@@ -1,0 +1,10 @@
+void script_127(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, int arg7) {
+	widget5.clearChildren();
+	script_31(widget5, widget4, 792, 789, 790, 791, 773, 788);
+	if (VARC[184] != 1 && VARC[184] != 2 && VARC[184] != 3) {
+		VARC[184] = 0;
+	}
+	script_129(widget1, widget2, widget3, widget4, widget5, widget6, arg7);
+	widget0.hookFriendList(&script_630(widget1, widget2, widget3, widget4, widget5, widget6, widget(arg7)));
+	return;
+}

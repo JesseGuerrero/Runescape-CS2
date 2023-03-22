@@ -1,0 +1,15 @@
+void script_1630(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Shift click to drop items (currently off)";
+	if (VARPBIT[5542] == 1) {
+		m3117(true);
+		str0 = "Shift click to drop items (currently on)";
+		widget0.setSprite(762);
+	} else {
+		m3117(false);
+		widget0.setSprite(761);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

@@ -1,0 +1,97 @@
+//script186(186)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13)(void)
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+iVar14 = if_getscrollheight(arg1)
+iVar15 = if_getheight(arg0)
+iVar16 = iVar15 - 32
+iVar17 = 0
+if(iVar14 > 0)
+	iVar17 = scale(iVar16, iVar14, iVar15)
+else
+	iVar17 = iVar16
+iVar17 = max(20, iVar17)
+iVar18 = if_getscrolly(arg1)
+iVar19 = 0
+iVar20 = 0
+if(iVar18 > 0) {
+	iVar19 = iVar14 - if_getheight(arg1)
+	if(iVar19 == 0)
+		iVar19 = 1
+	if(iVar18 > iVar19) {
+		if_setscrollpos(arg1, iVar19, 0)
+		iVar18 = iVar19
+	}
+	iVar20 = scale(iVar16 - iVar17, iVar19, iVar18)
+	iVar20 = min(iVar16 - iVar17, max(0, iVar20))
+}
+cc_create(0, 5, arg0)
+cc_setposition(0, 0, 21, 0)
+cc_setsize(1, 0, 42, 16)
+cc_setgraphic(arg3)
+cc_settiling(1)
+instr6088(script_720, "IIi", arg0, arg1, -2147483646)
+cc_create(1, 5, arg0)
+cc_setposition(0, 0, 16, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg2)
+cc_setalpha(1)
+instr6088(script_720, "IIi", arg0, arg1, -2147483646)
+cc_create(2, 5, arg0)
+cc_setposition(2, 0, 16, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg4)
+cc_setalpha(1)
+instr6088(script_720, "IIi", arg0, arg1, -2147483646)
+cc_create(3, 5, arg0)
+cc_setposition(0, 0, (16 + iVar20) + 5, 0)
+cc_setgraphic(arg6)
+cc_settiling(1)
+instr6676(0, arg0)
+instr6073(1)
+cc_setsize(0, 0, iVar17 - 10, 16)
+instr6224(script_5505, "IIii1", arg0, arg1, -2147483646, 0, 0)
+instr6499(script_5505, "IIii1", arg0, arg1, -2147483646, 0, 1)
+cc_create(4, 5, arg0)
+cc_setposition(0, 0, 16 + iVar20, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg5)
+cc_settiling(0)
+cc_setalpha(1)
+instr6224(script_5505, "IIii1", arg0, arg1, -2147483646, -5, 0)
+instr6499(script_5505, "IIii1", arg0, arg1, -2147483646, -5, 1)
+cc_create(5, 5, arg0)
+cc_setposition(0, 0, ((16 + iVar20) + iVar17) - 5, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg7)
+cc_settiling(0)
+cc_setalpha(1)
+instr6224(script_5505, "IIii1", arg0, arg1, -2147483646, iVar17, 0)
+instr6499(script_5505, "IIii1", arg0, arg1, -2147483646, iVar17, 1)
+cc_create(6, 5, arg0)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, 16, 16)
+cc_setgraphic(arg8)
+cc_settiling(0)
+cc_setalpha(1)
+instr5957(script_187, "II", arg0, arg1)
+instr6091(script_5336, "Iid", -2147483645, 6, arg10)
+instr6092(script_5336, "Iid", -2147483645, 6, arg8)
+instr6088(script_5336, "Iid", -2147483645, 6, arg12)
+cc_create(7, 5, arg0)
+cc_setposition(2, 0, 0, 0)
+cc_setsize(0, 0, 16, 16)
+cc_setgraphic(arg9)
+cc_settiling(0)
+cc_setalpha(1)
+instr5957(script_189, "II", arg0, arg1)
+instr6091(script_5336, "Iid", -2147483645, 7, arg11)
+instr6092(script_5336, "Iid", -2147483645, 7, arg9)
+instr6088(script_5336, "Iid", -2147483645, 7, arg13)
+instr6246(arg0, script_5506, "IIi", arg0, arg1, -2147483646)
+instr6246(arg1, script_5506, "IIi", arg0, arg1, -2147483646)
+return

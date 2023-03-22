@@ -1,0 +1,101 @@
+//script565(565)()(void)
+int iVar0
+int iVar1
+string sVar0
+iVar0 = 50
+iVar1 = 45
+sVar0 = script_20(load_varpbit(4138))
+if(load_varpbit(4140) > 0) {
+	if_sethide(if_gethash(635, 33), 0)
+	if_settext(if_gethash(635, 35), to_string(load_varpbit(4140)))
+	if_settext(if_gethash(635, 32), to_string(load_varpbit(4143)))
+	if_settext(if_gethash(635, 30), sVar0 + " Coins")
+	if(load_varpbit(4144) == 0) {
+		if_setgraphic(if_gethash(635, 15), 223)
+		if_setposition(if_gethash(635, 15), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 2), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 2), 1)
+	if(load_varpbit(4145) == 0) {
+		if_setgraphic(if_gethash(635, 16), 225)
+		if_setposition(if_gethash(635, 16), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 3), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 3), 1)
+	if(load_varpbit(4146) == 0) {
+		if_setgraphic(if_gethash(635, 17), 201)
+		if_setposition(if_gethash(635, 17), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 4), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 4), 1)
+	if(load_varpbit(4147) == 0) {
+		if_setgraphic(if_gethash(635, 18), 226)
+		if_setposition(if_gethash(635, 18), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 5), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 5), 1)
+	if(load_varpbit(4151) == 0) {
+		if_setgraphic(if_gethash(635, 20), 203)
+		if_setposition(if_gethash(635, 20), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 7), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 7), 1)
+	if(load_varpbit(4152) == 1) {
+		if_setgraphic(if_gethash(635, 21), 227)
+		if_setposition(if_gethash(635, 21), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 8), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 8), 1)
+	if(load_varpbit(4276) == 1) {
+		if_setgraphic(if_gethash(635, 19), 222)
+		if_setposition(if_gethash(635, 19), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 6), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 6), 1)
+	iVar0 = 8
+	iVar1 = 45
+	if(load_varpbit(4148) == 0) {
+		if_setgraphic(if_gethash(635, 22), 200)
+		if_setposition(if_gethash(635, 22), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 9), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 9), 1)
+	if(load_varpbit(4149) == 0) {
+		if_setgraphic(if_gethash(635, 23), 197)
+		if_setposition(if_gethash(635, 23), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 10), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 10), 1)
+	if(load_varpbit(4150) == 0) {
+		if_setgraphic(if_gethash(635, 24), 202)
+		if_setposition(if_gethash(635, 24), 0, 0, iVar1, iVar0)
+		if_sethide(if_gethash(635, 11), 0)
+		iVar1 = iVar1 + 29
+	} else 
+		if_sethide(if_gethash(635, 11), 1)
+} else  {
+	if_setgraphic(if_gethash(635, 15), -1)
+	if_setgraphic(if_gethash(635, 16), -1)
+	if_setgraphic(if_gethash(635, 17), -1)
+	if_setgraphic(if_gethash(635, 18), -1)
+	if_setgraphic(if_gethash(635, 20), -1)
+	if_setgraphic(if_gethash(635, 21), -1)
+	if_setgraphic(if_gethash(635, 22), -1)
+	if_setgraphic(if_gethash(635, 24), -1)
+	if_setgraphic(if_gethash(635, 23), -1)
+	if_setgraphic(if_gethash(635, 19), -1)
+	if_settext(if_gethash(635, 32), " ")
+	if_settext(if_gethash(635, 30), " ")
+	if_settext(if_gethash(635, 26), " ")
+	if_sethide(if_gethash(635, 33), 1)
+}
+return

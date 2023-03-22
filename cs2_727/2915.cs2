@@ -1,0 +1,3 @@
+//script2915(2915)()(int)
+return max(0, stat(3)) * 10
+return 0

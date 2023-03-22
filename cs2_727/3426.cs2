@@ -1,0 +1,5 @@
+//script3426(3426)(int arg0)(void)
+string sVar0
+sVar0 = enum(3063, arg0, 'I', 's')
+if_settext(if_gethash(60, 92), sVar0)
+return

@@ -1,0 +1,11 @@
+void script_677() {
+	int int0;
+	int0 = 0;
+	script_299(1, 0);
+	widget(162, 31).setIsHidden(false);
+	widget(162, 40).setIsHidden(true);
+	script_923();
+	script_89(script_553());
+	script_927(0);
+	return;
+}

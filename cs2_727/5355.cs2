@@ -1,0 +1,165 @@
+//script5355(5355)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = -1
+sVar0 = struct_param(1930, arg0)
+if(struct_param(1937, arg0) == 4)
+	if(iVar9 < enum_getoutputcount(5184))
+		while(iVar10 == 0) {
+			if(enum(5184, iVar9, 'i', 'J') == arg0) {
+				if(gender() == 1)
+					sVar0 = enum(5187, iVar9, 'i', 's')
+				else
+					sVar0 = enum(5186, iVar9, 'i', 's')
+				iVar10 = 1
+			}
+			iVar9 = iVar9 + 1
+		}
+if_settext(if_gethash(1143, 45), sVar0)
+if(arg1 == 1) {
+	if_sethide(if_gethash(1143, 46), 1)
+	if_sethide(if_gethash(1143, 47), 1)
+	if_sethide(if_gethash(1143, 39), 1)
+	if_setposition(if_gethash(1143, 48), 0, 1, 186, 0)
+	if_setposition(if_gethash(1143, 52), 0, 1, 228, 0)
+	if_settext(if_gethash(1143, 139), "Reclaim")
+	instr6213(if_gethash(1143, 139), 1, "Reclaim")
+} else  {
+	if_sethide(if_gethash(1143, 46), 0)
+	if_sethide(if_gethash(1143, 47), 0)
+	if_sethide(if_gethash(1143, 39), 0)
+	if_setposition(if_gethash(1143, 48), 0, 1, 239, 0)
+	if_setposition(if_gethash(1143, 52), 0, 1, 266, 0)
+	if_settext(if_gethash(1143, 139), "Buy")
+	instr6213(if_gethash(1143, 139), 1, "Buy")
+	if_settext(if_gethash(1143, 46), append(tostring_localized(1, load_varc(1648)), "My Points: "))
+	if(struct_param(1933, arg0) > 0)
+		if_settext(if_gethash(1143, 47), append(tostring_localized(1, struct_param(1933, arg0)), "Item Cost: "))
+	else
+		if_settext(if_gethash(1143, 47), append(tostring_localized(1, struct_param(1932, arg0)), "Item Cost: "))
+}
+if_sethide(if_gethash(1143, 48), 0)
+if_sethide(if_gethash(1143, 49), 0)
+if(struct_param(1950, arg0) != -1)
+	iVar2 = 5
+else
+	if(struct_param(1949, arg0) != -1)
+		iVar2 = 4
+	else
+		if(struct_param(1948, arg0) != -1)
+			iVar2 = 3
+		else
+			if(struct_param(1947, arg0) != -1)
+				iVar2 = 2
+			else {
+				iVar2 = 1
+				if_sethide(if_gethash(1143, 48), 1)
+				if_sethide(if_gethash(1143, 49), 1)
+				if_setposition(if_gethash(1143, 52), 0, 1, 260, 0)
+			}
+iVar6 = 63
+iVar7 = 57
+iVar5 = (if_getwidth(if_gethash(1143, 52)) - (iVar2 * iVar6)) / (iVar2 + 1)
+iVar8 = iVar5
+cc_deleteall(if_gethash(1143, 52))
+cc_deleteall(if_gethash(1143, 40))
+iVar9 = 0
+while(iVar9 < iVar2) {
+	switch(iVar9) {
+		case default:
+			break
+		case 0:
+			iVar11 = arg0
+			break
+		case 1:
+			iVar11 = struct_param(1947, arg0)
+			break
+		case 2:
+			iVar11 = struct_param(1948, arg0)
+			break
+		case 3:
+			iVar11 = struct_param(1949, arg0)
+			break
+		case 4:
+			iVar11 = struct_param(1950, arg0)
+			break
+
+	}
+	cc_create(iVar3, 3, 74907700)
+	iVar3 = iVar3 + 1
+	cc_setcolor(0)
+	cc_setsize(0, 0, iVar7, iVar6)
+	cc_setposition(0, 0, 0, iVar8)
+	cc_settrans(100)
+	cc_setfill(1)
+	if(iVar2 > 1) {
+		cc_create(iVar4, 4, 74907688)
+		cc_setsize(0, 0, iVar7, iVar6)
+		cc_setposition(0, 0, 0, iVar8)
+		cc_setop("Select", 1)
+		instr6687(script_5358, "iI", iVar4, if_gethash(1143, 52))
+		iVar4 = iVar4 + 1
+	}
+	cc_create(iVar3, 5, 74907700)
+	cc_setgraphic(7766)
+	cc_setsize(0, 0, iVar7, iVar6)
+	cc_setposition(0, 0, 0, iVar8)
+	if(iVar2 > 1) {
+		instr6091(script_5356, "iIJ", iVar3, if_gethash(1143, 52), iVar11)
+		instr6092(script_5357, "iI", iVar3, if_gethash(1143, 52))
+	}
+	iVar3 = iVar3 + 1
+	cc_create(iVar3, 5, 74907700)
+	iVar3 = iVar3 + 1
+	if(struct_param(1937, iVar11) == 1) {
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, ((iVar7 - cc_getheight()) / 2) + 1, (iVar8 + ((iVar6 - cc_getwidth()) / 2)) + 2)
+		cc_setitem(-1, struct_param(1935, iVar11))
+	} else 
+		if(struct_param(1937, iVar11) == 9) {
+			cc_setsize(0, 0, 32, 36)
+			cc_setposition(0, 0, ((iVar7 - cc_getheight()) / 2) + 1, (iVar8 + ((iVar6 - cc_getwidth()) / 2)) + 2)
+			cc_setitem(-1, struct_param(1935, iVar11))
+		} else 
+			if(struct_param(1937, iVar11) == 2) {
+				cc_setgraphic(struct_param(1420, iVar11))
+				cc_setsize(0, 0, 48, 48)
+				cc_setposition(0, 0, (iVar7 - cc_getheight()) / 2, iVar8 + ((iVar6 - cc_getwidth()) / 2))
+			} else 
+				if(struct_param(1937, iVar11) == 3) {
+					cc_setgraphic(struct_param(1441, iVar11))
+					cc_setsize(0, 0, 50, 40)
+					cc_setposition(0, 0, (iVar7 - cc_getheight()) / 2, iVar8 + ((iVar6 - cc_getwidth()) / 2))
+				} else 
+					if(struct_param(1937, iVar11) == 4) {
+						cc_setgraphic(7883)
+						cc_setsize(0, 0, 42, 42)
+						cc_setposition(0, 0, ((iVar7 - cc_getheight()) / 2) + 1, (iVar8 + ((iVar6 - cc_getwidth()) / 2)) + 1)
+					} else 
+						if(struct_param(1937, iVar11) == 5) {
+							cc_setsize(0, 0, 32, 36)
+							cc_setposition(0, 0, (iVar7 - cc_getheight()) / 2, iVar8 + ((iVar6 - cc_getwidth()) / 2))
+							cc_setitem(-1, struct_param(1935, iVar11))
+						}
+	iVar8 = (iVar8 + iVar6) + iVar5
+	iVar9 = iVar9 + 1
+}
+return

@@ -1,0 +1,10 @@
+//script4188(4188)(int arg0)(void)
+if(arg0 == 70385726)
+	if_setcolor(70385721, 0xFF0000)
+if(arg0 == 70385727)
+	if_setcolor(70385722, 0xFF0000)
+if(arg0 == 70385728)
+	if_setcolor(70385723, 0xFF0000)
+if(arg0 == 70385729)
+	if_setcolor(70385724, 0xFF0000)
+return

@@ -1,0 +1,3 @@
+//script3323(3323)()(void)
+if_settext(if_gethash(949, 92), to_string(load_varc(1161)))
+return

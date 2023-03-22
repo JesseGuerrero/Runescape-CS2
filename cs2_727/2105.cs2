@@ -1,0 +1,3 @@
+//script2105(2105)(int arg0, int arg1)(void)
+instr6342(arg0, script_2106, "IIiiii", arg0, arg1, if_getx(arg1), if_gety(arg1), 0, 0)
+return

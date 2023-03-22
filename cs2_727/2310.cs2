@@ -1,0 +1,5 @@
+//script2310(2310)()(void)
+if_setgraphic(if_gethash(137, 156), 2560)
+if_setgraphic(if_gethash(137, 154), 2560)
+if_setgraphic(if_gethash(137, 155), 2561)
+return

@@ -1,0 +1,107 @@
+//script2003(2003)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar0 = 0
+if(stat_base(19) >= 40)
+	iVar0 = load_varpbit(4449)
+else
+	iVar0 = (load_varpbit(4449) * enum(1369, stat_base(19), 'i', 'i')) / 100
+if(load_varpbit(4449) == 1)
+	if_settext(if_gethash(686, 13), "Trade one point" + "<br>" + "for " + tostring_localized(1, iVar0) + " XP?")
+else
+	if_settext(if_gethash(686, 13), "Trade " + tostring_localized(1, load_varpbit(4449)) + " points" + "<br>" + "for " + tostring_localized(1, iVar0) + " XP?")
+cc_deleteall(if_gethash(686, 6))
+iVar1 = enum_getoutputcount(1589)
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = -1
+iVar7 = 0
+iVar8 = 0
+while(iVar8 < iVar1) {
+	iVar6 = enum(1589, iVar8, 'i', 'o')
+	iVar7 = enum(1365, iVar6, 'o', 'i')
+	iVar2 = modulo(9, iVar8) * 50
+	iVar3 = (iVar8 / 9) * 54
+	iVar4 = max(iVar2, iVar4)
+	cc_create(if_getnextsubid(if_gethash(686, 6)), 5, 44957702)
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar3, iVar2)
+	cc_setgraphic(2205)
+	if(iVar6 == 11209) {
+		cc_setop("Trade points for XP", 1)
+		instr6687(script_69, "1I", 0, if_gethash(686, 9))
+	} else  {
+		cc_setopbase("<col=ff981f>" + item_name(iVar6) + "</col>")
+		cc_setop("Value", 1)
+		cc_setop("Buy 1", 2)
+		cc_setop("Buy 5", 3)
+		cc_setop("Buy 10", 4)
+		if(iVar6 != 12625)
+			cc_setop("Buy X", 5)
+		cc_setop("Examine", 10)
+	}
+	instr6091(script_2140, "Iii", -2147483645, instr6151() + 1, 0)
+	instr6092(script_2140, "Iii", -2147483645, instr6151() + 1, 255)
+	cc_create(if_getnextsubid(if_gethash(686, 6)), 5, 44957702)
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar3, iVar2)
+	cc_setgraphic(2206)
+	cc_settrans(255)
+	cc_create(if_getnextsubid(if_gethash(686, 6)), 5, 44957702)
+	if(iVar6 == 11209) {
+		cc_setsize(0, 0, 34, 34)
+		cc_setposition(0, 0, iVar3 + 2, iVar2 + 7)
+		if(world_language() == 1)
+			cc_setgraphic(2714)
+		else
+			cc_setgraphic(2730)
+	} else  {
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, iVar3 + 4, iVar2 + 6)
+		cc_setitem_nonum(5, iVar6)
+		cc_setoutline(1)
+	}
+	cc_setgraphicshadow(3153952)
+	cc_create(if_getnextsubid(if_gethash(686, 6)), 5, 44957702)
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar3 + 38, iVar2 + 2)
+	cc_setitem_nonum(1, 12625)
+	cc_create(if_getnextsubid(if_gethash(686, 6)), 4, 44957702)
+	cc_setsize(0, 0, 12, 31)
+	cc_setposition(0, 0, iVar3 + 39, iVar2 + 13)
+	cc_settextfont(494)
+	cc_settextalign(0, 1, 2)
+	if(iVar7 == -1)
+		cc_settext("N/A")
+	else
+		cc_settext(script_940(iVar7))
+	if(iVar7 <= load_varpbit(4449))
+		cc_setcolor(ffff00)
+	else
+		cc_setcolor(ff0000)
+	cc_settextshadow(1)
+	iVar8 = iVar8 + 1
+}
+iVar4 = iVar4 + 48
+iVar9 = if_getheight(if_gethash(686, 6))
+if_setsize(if_gethash(686, 6), 0, 0, iVar9, iVar4)
+if(iVar5 > iVar9) {
+	if_setposition(if_gethash(686, 6), 1, 0, 0, ((if_getwidth(if_gethash(686, 5)) - if_getwidth(if_gethash(686, 7))) - iVar4) / 2)
+	if_sethide(if_gethash(686, 7), 0)
+	if_setscrollsize(44957702, iVar5, 0)
+	script_31(44957703, 44957702, 792, 789, 790, 791, 773, 788)
+} else  {
+	if_setposition(if_gethash(686, 6), 1, 1, 0, 0)
+	if_sethide(if_gethash(686, 7), 1)
+}
+return

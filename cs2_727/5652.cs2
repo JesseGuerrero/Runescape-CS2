@@ -1,0 +1,8 @@
+//script5652(5652)()(void)
+int iVar0
+int iVar1
+iVar0 = max(if_getwidth(if_gethash(1215, 8)), max(if_getwidth(if_gethash(1215, 6)), if_getwidth(if_gethash(1215, 4))))
+iVar0 = (iVar0 + 43) + max(stringwidth(instr6289(if_gethash(1215, 12)), if_gettext(if_gethash(1215, 12))), max(stringwidth(instr6289(if_gethash(1215, 11)), if_gettext(if_gethash(1215, 11))), stringwidth(instr6289(if_gethash(1215, 10)), if_gettext(if_gethash(1215, 10)))))
+iVar1 = ((load_varpbit(10444) * 25) + (load_varpbit(10445) * 25)) + (load_varpbit(10446) * 25)
+if_setsize(if_gethash(1215, 1), 0, 0, max(1, iVar1), max(1, iVar0))
+return

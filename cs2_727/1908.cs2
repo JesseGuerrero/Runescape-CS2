@@ -1,0 +1,159 @@
+//script1908(1908)()(void)
+int iVar0
+string sVar0
+iVar0 = 12
+sVar0 = ""
+if_setsize(if_gethash(806, 138), 2, 0, (((load_varc(564) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 139), 2, 0, (((load_varc(565) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 140), 2, 0, (((load_varc(566) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 144), 2, 0, (((load_varc(567) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 148), 2, 0, (((load_varc(568) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 82), 2, 0, (((load_varc(569) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 86), 2, 0, (((load_varc(570) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 90), 2, 0, (((load_varc(571) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 94), 2, 0, (((load_varc(572) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 61), 2, 0, (((load_varc(573) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 65), 2, 0, (((load_varc(574) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 69), 2, 0, (((load_varc(575) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 73), 2, 0, (((load_varc(576) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 103), 2, 0, (((load_varc(577) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 107), 2, 0, (((load_varc(578) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 111), 2, 0, (((load_varc(579) * 100) / iVar0) * 16384) / 100, 16)
+if_setsize(if_gethash(806, 115), 2, 0, (((load_varc(580) * 100) / iVar0) * 16384) / 100, 16)
+if(load_varc(564) == 0)
+	sVar0 = "There are no class 1 clay locations in the area."
+else
+	if(load_varc(564) == 1)
+		sVar0 = "There is 1 class 1 clay location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(564)) + " class 1 clay locations in the area."
+if_setonmouseover(if_gethash(806, 138), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(565) == 0)
+	sVar0 = "There are no class 2 fishing locations in the area."
+else
+	if(load_varc(565) == 1)
+		sVar0 = "There is 1 class 2 fishing location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(565)) + " class 2 fishing locations in the area."
+if_setonmouseover(if_gethash(806, 139), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(566) == 0)
+	sVar0 = "There are no class 3 fishing locations in the area."
+else
+	if(load_varc(566) == 1)
+		sVar0 = "There is 1 class 3 fishing location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(566)) + " class 3 fishing locations in the area."
+if_setonmouseover(if_gethash(806, 140), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(567) == 0)
+	sVar0 = "There are no class 4 fishing locations in the area."
+else
+	if(load_varc(567) == 1)
+		sVar0 = "There is 1 class 4 fishing location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(567)) + " class 4 fishing locations in the area."
+if_setonmouseover(if_gethash(806, 144), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(568) == 0)
+	sVar0 = "There are no class 5 fishing locations in the area."
+else
+	if(load_varc(568) == 1)
+		sVar0 = "There is 1 class 5 fishing location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(568)) + " class 5 fishing locations in the area."
+if_setonmouseover(if_gethash(806, 148), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(569) == 0)
+	sVar0 = "There are no class 2 mining locations in the area."
+else
+	if(load_varc(569) == 1)
+		sVar0 = "There is 1 class 2 mining location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(569)) + " class 2 mining locations in the area."
+if_setonmouseover(if_gethash(806, 82), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(570) == 0)
+	sVar0 = "There are no class 3 mining locations in the area."
+else
+	if(load_varc(570) == 1)
+		sVar0 = "There is 1 class 3 mining location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(570)) + " class 3 mining locations in the area."
+if_setonmouseover(if_gethash(806, 86), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(571) == 0)
+	sVar0 = "There are no class 4 mining locations in the area."
+else
+	if(load_varc(571) == 1)
+		sVar0 = "There is 1 class 4 mining location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(571)) + " class 4 mining locations in the area."
+if_setonmouseover(if_gethash(806, 90), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(572) == 0)
+	sVar0 = "There are no class 5 mining locations in the area."
+else
+	if(load_varc(572) == 1)
+		sVar0 = "There is 1 class 5 mining location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(572)) + " class 5 mining locations in the area."
+if_setonmouseover(if_gethash(806, 94), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(573) == 0)
+	sVar0 = "There are no class 2 woodcutting locations in the area."
+else
+	if(load_varc(573) == 1)
+		sVar0 = "There is 1 class 2 woodcutting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(573)) + " class 2 woodcutting locations in the area."
+if_setonmouseover(if_gethash(806, 61), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(574) == 0)
+	sVar0 = "There are no class 3 woodcutting locations in the area."
+else
+	if(load_varc(574) == 1)
+		sVar0 = "There is 1 class 3 woodcutting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(574)) + " class 3 woodcutting locations in the area."
+if_setonmouseover(if_gethash(806, 65), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(575) == 0)
+	sVar0 = "There are no class 4 woodcutting locations in the area."
+else
+	if(load_varc(575) == 1)
+		sVar0 = "There is 1 class 4 woodcutting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(575)) + " class 4 woodcutting locations in the area."
+if_setonmouseover(if_gethash(806, 69), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(576) == 0)
+	sVar0 = "There are no class 5 woodcutting locations in the area."
+else
+	if(load_varc(576) == 1)
+		sVar0 = "There is 1 class 5 woodcutting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(576)) + " class 5 woodcutting locations in the area."
+if_setonmouseover(if_gethash(806, 73), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(577) == 0)
+	sVar0 = "There are no class 2 hunting locations in the area."
+else
+	if(load_varc(577) == 1)
+		sVar0 = "There is 1 class 2 hunting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(577)) + " class 2 hunting locations in the area."
+if_setonmouseover(if_gethash(806, 103), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(578) == 0)
+	sVar0 = "There are no class 3 hunting locations in the area."
+else
+	if(load_varc(578) == 1)
+		sVar0 = "There is 1 class 3 hunting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(578)) + " class 3 hunting locations in the area."
+if_setonmouseover(if_gethash(806, 107), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(579) == 0)
+	sVar0 = "There are no class 4 hunting locations in the area."
+else
+	if(load_varc(579) == 1)
+		sVar0 = "There is 1 class 4 hunting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(579)) + " class 4 hunting locations in the area."
+if_setonmouseover(if_gethash(806, 111), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+if(load_varc(580) == 0)
+	sVar0 = "There are no class 5 hunting locations in the area."
+else
+	if(load_varc(580) == 1)
+		sVar0 = "There is 1 class 5 hunting location in the area."
+	else
+		sVar0 = "There are " + to_string(load_varc(580)) + " class 5 hunting locations in the area."
+if_setonmouseover(if_gethash(806, 115), script_38, "IIsii", -2147483645, if_gethash(806, 49), sVar0, 25, 100)
+return

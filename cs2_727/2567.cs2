@@ -1,0 +1,41 @@
+//script2567(2567)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+iVar5 = 5
+iVar1 = (if_getwidth(if_gethash(842, 17)) - (36 * iVar5)) / (iVar5 - 1)
+iVar2 = (if_getheight(if_gethash(842, 17)) - 128) / 3
+if(inv_total(15001, 93) > 0)
+	iVar4 = 1991
+else
+	if(inv_total(15002, 93) > 0)
+		iVar4 = 1995
+	else
+		if(inv_total(15003, 93) > 0)
+			iVar4 = 1998
+		else
+			if(inv_total(15004, 93) > 0)
+				iVar4 = 1999
+while(iVar3 == 0)
+	if(enum(iVar4, iVar0, 'i', 'o') != 1511) {
+		cc_create(iVar0, 5, 55181329)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, (iVar0 / iVar5) * (32 + iVar2), (36 + iVar1) * modulo(iVar5, iVar0))
+		cc_setitem(-1, enum(iVar4, iVar0, 'i', 'o'))
+		cc_setopbase("<col=ff981f>" + item_name(enum(iVar4, iVar0, 'i', 'o')))
+		cc_setop("Withdraw", 1)
+		cc_setop("Examine", 2)
+		cc_setgraphicshadow(3355443)
+		cc_setoutline(1)
+		iVar0 = iVar0 + 1
+	} else 
+		iVar3 = 1
+return

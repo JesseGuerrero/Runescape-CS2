@@ -1,0 +1,8 @@
+void script_323(Sprite arg0, Sprite arg1, Sprite arg2, Sprite arg3, Sprite sprite4, Sprite sprite5, int arg6, int arg7) {
+	if (arg6 != 1) {
+		return;
+	}
+	VARP[43] = arg7;
+	script_324(arg0, arg1, arg2, arg3, sprite4, sprite5);
+	return;
+}

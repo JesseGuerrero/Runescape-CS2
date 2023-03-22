@@ -1,0 +1,29 @@
+//script769(769)()(void)
+int iVar0
+int iVar1
+iVar0 = enum(1283, load_varp(448), 'o', 'o')
+if(iVar0 == 526) {
+	if_settext(if_gethash(662, 66), "0")
+	return
+}
+iVar1 = inv_total(iVar0, 93)
+if(iVar1 > 0)
+	if(iVar1 > 1000000) {
+		iVar1 = iVar1 / 1000000
+		if_settext(if_gethash(662, 66), to_string(iVar1) + "M")
+		return
+	} else 
+		if(iVar1 > 1000) {
+			iVar1 = iVar1 / 1000
+			if_settext(if_gethash(662, 66), to_string(iVar1) + "K")
+			return
+		} else  {
+			if_settext(if_gethash(662, 66), to_string(inv_total(iVar0, 93)))
+			return
+		}
+else {
+	if_settext(if_gethash(662, 66), "0")
+	return
+}
+return
+return

@@ -1,0 +1,23 @@
+void script_865() {
+	int int0;
+	int int1;
+	int0 = 0;
+	int1 = 0;
+	if (VAR_GE_IS_SELLING == 0) {
+		if (VARC[84] <= 2147482647) {
+			VARC[84] = VARC[84] + 1000;
+		}
+	} else {
+		int0 = getItemAmtInContainer(93, (Item)VAR_GE_CURR_ITEM);
+		if ((Item)VAR_GE_CURR_ITEM != getNotedItem((Item)VAR_GE_CURR_ITEM)) {
+			int1 = getItemAmtInContainer(93, getNotedItem((Item)VAR_GE_CURR_ITEM));
+		}
+		VARC[84] = int0;
+		if (VARC[84] <= 1000000000 && int1 <= 1000000000) {
+			VARC[84] = VARC[84] + int1;
+		}
+	}
+	widget(105, 148).setText(formatNumber(VARC[84], 1));
+	script_602();
+	return;
+}

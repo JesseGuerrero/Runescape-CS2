@@ -1,0 +1,13 @@
+//script1516(1516)(int arg0, int arg1, int arg2)(void)
+cc_create(if_getnextsubid(arg0), 6, arg0)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+cc_setplayermodel_self()
+cc_setmodelangle(arg1, 0, 0, 0, arg2, 0)
+if(load_varc(779) != -1)
+	cc_setmodelanim(bas_getanim_ready(load_varc(779)))
+else
+	cc_setmodelanim(bas_getanim_ready(1426))
+instr6096(script_1517, "IiY", 1, 779, -2147483645, -2147483643)
+instr6088(script_347, "Iii", -2147483645, -2147483643, -2147483647)
+return

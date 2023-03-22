@@ -1,0 +1,19 @@
+void script_1318(int arg0, Widget widget1, int arg2, int arg3, int arg4) {
+	if (getClientCycle() < arg4) {
+		return;
+	}
+	if (CHILD.setChild(widget1, arg2) == true && _CHILD.setChild(widget1, arg3) == true) {
+		CHILD.hookFrame(null);
+		_CHILD.setText("Destroy");
+		_CHILD.setRGB(0xFF981F);
+		CHILD.hookMouseHover(&script_85(widget1, arg3, 16711680));
+		CHILD.hookMouseExit(&script_85(widget1, arg3, 16750623));
+		if (arg0 > 1) {
+			CHILD.setContextMenuOption(1, "Destroy ALL");
+		} else {
+			CHILD.setContextMenuOption(1, "Destroy");
+		}
+		CHILD.hookOptionClick(&script_1319(CTX_MENU_OPTION, widget1));
+	}
+	return;
+}

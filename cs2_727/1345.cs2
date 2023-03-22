@@ -1,0 +1,5 @@
+//script1345(1345)(int arg0, int arg1)(int)
+int iVar2
+iVar2 = (arg0 + if_getscrolly(arg1)) / 15
+return iVar2
+return 0

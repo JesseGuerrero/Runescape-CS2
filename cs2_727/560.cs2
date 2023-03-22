@@ -1,0 +1,4 @@
+//script560(560)(int arg0)(void)
+if_sethide(if_gethash(825, 68), 0)
+if_setmodel(if_gethash(825, 68), arg0)
+return

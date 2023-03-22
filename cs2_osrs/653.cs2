@@ -1,0 +1,88 @@
+void script_653(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18) {
+	int int19;
+	int int20;
+	int int21;
+	if (arg0 == 3) {
+		widget18.setText("Finally, the FOURTH digit.");
+		widget14.setText("*");
+		widget15.setText("*");
+		widget16.setText("*");
+		widget17.setText("?");
+	} else if (arg0 == 2) {
+		widget18.setText("Time for the THIRD digit.");
+		widget14.setText("*");
+		widget15.setText("*");
+		widget16.setText("?");
+		widget17.setText("?");
+	} else if (arg0 == 1) {
+		widget18.setText("Now click the SECOND digit.");
+		widget14.setText("*");
+		widget15.setText("?");
+		widget16.setText("?");
+		widget17.setText("?");
+	} else {
+		if (!(arg0 == 0)) {
+			widget18.setText("Submitting...");
+			widget14.setText("*");
+			widget15.setText("*");
+			widget16.setText("*");
+			widget17.setText("*");
+			widget4.clearChildren();
+			widget5.clearChildren();
+			widget6.clearChildren();
+			widget7.clearChildren();
+			widget8.clearChildren();
+			widget9.clearChildren();
+			widget10.clearChildren();
+			widget11.clearChildren();
+			widget12.clearChildren();
+			widget13.clearChildren();
+			widget2.hookOptionClick(null);
+			widget2.setNoOptions();
+			widget3.hookOptionClick(null);
+			widget3.setNoOptions();
+			return;
+		}
+		widget18.setText("First click the FIRST digit.");
+		widget14.setText("?");
+		widget15.setText("?");
+		widget16.setText("?");
+		widget17.setText("?");
+	}
+	ARRAY0 = new Widget[10];
+	ARRAY0[0] = widget4;
+	ARRAY0[1] = widget5;
+	ARRAY0[2] = widget6;
+	ARRAY0[3] = widget7;
+	ARRAY0[4] = widget8;
+	ARRAY0[5] = widget9;
+	ARRAY0[6] = widget10;
+	ARRAY0[7] = widget11;
+	ARRAY0[8] = widget12;
+	ARRAY0[9] = widget13;
+	int19 = 0;
+	int20 = -1;
+	int21 = 20;
+	while (int21 > 0) {
+		int21 = int21 - 1;
+		int19 = rndExcl(9);
+		int20 = ARRAY0[9];
+		ARRAY0[9] = ARRAY0[int19];
+		ARRAY0[int19] = int20;
+	}
+	script_679(widget(ARRAY0[0]), 0, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[1]), 1, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[2]), 2, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[3]), 3, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[4]), 4, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[5]), 5, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[6]), 6, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[7]), 7, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[8]), 8, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	script_679(widget(ARRAY0[9]), 9, arg0, arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18);
+	widget2.setContextMenuOption(1, getText(widget2));
+	widget2.hookOptionClick(&script_686(12345, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18));
+	widget3.setContextMenuOption(1, getText(widget3));
+	widget3.hookOptionClick(&script_686(54321, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18));
+	return;
+}

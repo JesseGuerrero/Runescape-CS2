@@ -1,0 +1,60 @@
+//script6281(6281)(int arg0)(void)
+if(load_varc(1930) > 0)
+	return
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15746)
+		store_varc(1930, 315)
+		break
+	case 2:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15744)
+		store_varc(1930, 72)
+		break
+	case 3:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15739)
+		store_varc(1930, 140)
+		break
+	case 4:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15720)
+		store_varc(1930, 192)
+		break
+	case 5:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15730)
+		store_varc(1930, 140)
+		break
+	case 6:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15740)
+		store_varc(1930, 212)
+		break
+	case 7:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15738)
+		store_varc(1930, 244)
+		break
+	case 8:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15724)
+		store_varc(1930, 190)
+		break
+	case 9:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15745)
+		store_varc(1930, 190)
+		break
+	case 10:
+		send_message("Playing sound...")
+		sound_vorbis_volume(255, 0, 1, 15742)
+		store_varc(1930, 145)
+		break
+
+}
+instr6342(if_gethash(1297, 165), script_6282, "")
+return

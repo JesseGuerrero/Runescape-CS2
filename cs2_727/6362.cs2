@@ -1,0 +1,32 @@
+//script6362(6362)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varc(1939)
+
+	case 1:
+		return load_varc(1940)
+
+	case 2:
+		return load_varc(1941)
+
+	case 3:
+		return load_varc(1942)
+
+	case 4:
+		return load_varc(1943)
+
+	case 5:
+		return load_varc(1944)
+
+	case 6:
+		return load_varc(1945)
+
+	case 7:
+		return load_varc(1946)
+		return -1
+
+
+}
+return -1

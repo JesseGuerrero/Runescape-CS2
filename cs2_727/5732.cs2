@@ -1,0 +1,24 @@
+//script5732(5732)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+if(script_3999(struct_param(1270, arg0)) == 0)
+	return 0
+iVar1 = 0
+iVar2 = enum_getoutputcount(5508)
+while(iVar1 < iVar2) {
+	if(struct_param(1268, enum(5508, iVar1, 'i', 'J')) == struct_param(1268, arg0))
+		return 0
+	iVar1 = iVar1 + 1
+}
+iVar1 = 0
+iVar3 = enum_getoutputcount(5507)
+while(iVar1 < iVar3) {
+	if(struct_param(1268, enum(5507, iVar1, 'i', 'J')) == struct_param(1268, arg0))
+		return 1
+	iVar1 = iVar1 + 1
+}
+if(script_3227(struct_param(1268, arg0)) == 3)
+	return 3
+return 2
+return 0

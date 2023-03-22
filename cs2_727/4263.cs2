@@ -1,0 +1,4 @@
+//script4263(4263)(int arg0, int arg1, int arg2)(void)
+if_setposition(arg0, 0, 0, arg2, arg1)
+if_sethide(arg0, 0)
+return

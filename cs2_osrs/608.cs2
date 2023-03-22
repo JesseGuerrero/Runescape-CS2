@@ -1,0 +1,15 @@
+void script_608(Widget widget0, Widget widget1, string arg2, int arg3, int arg4) {
+	widget1.cs2method2121_packet();
+	playSoundEffect(2266, 1, 0);
+	if (CHILD.setChild(widget0, arg3) == true && _CHILD.setChild(widget0, arg4) == true) {
+		CHILD.setSprite(813);
+		_CHILD.setRGB(0xFFFFFF);
+		_CHILD.setText("Loading...");
+		CHILD.setNoOptions();
+		CHILD.hookMouseEnter(null);
+		CHILD.hookMouseExit(null);
+		CHILD.hookOptionClick(null);
+	}
+	widget0.hookFrame(&script_605(widget0, widget1, arg2, getClientCycle() + 30));
+	return;
+}

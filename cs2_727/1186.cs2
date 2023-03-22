@@ -1,0 +1,50 @@
+//script1186(1186)()(void)
+int iVar0
+if(instr6644() >= 2)
+	if(if_isopen(49283085) == 1) {
+		if_sethide(if_gethash(752, 1), 0)
+		if_setalpha(if_gethash(752, 1), 1)
+		if(load_varpbit(542) == 0)
+			if_setgraphic(if_gethash(752, 1), 1204)
+		else
+			if_setgraphic(if_gethash(752, 1), 1205)
+	} else 
+		if(if_isopen(49283084) == 1) {
+			if_sethide(if_gethash(752, 1), 0)
+			if_setalpha(if_gethash(752, 1), 1)
+			if(load_varpbit(542) == 0)
+				if_setgraphic(if_gethash(752, 1), 1204)
+			else
+				if_setgraphic(if_gethash(752, 1), 1205)
+		} else 
+			if(if_isopen(49283083) == 1) {
+				if_sethide(if_gethash(752, 1), 0)
+				if_setalpha(if_gethash(752, 1), 1)
+				if(load_varpbit(542) == 0)
+					if_setgraphic(if_gethash(752, 1), 1204)
+				else
+					if_setgraphic(if_gethash(752, 1), 1205)
+			} else 
+				if(if_isopen(49283082) == 1) {
+					if_sethide(if_gethash(752, 1), 0)
+					if_setalpha(if_gethash(752, 1), 1)
+					if(load_varpbit(542) == 0)
+						if_setgraphic(if_gethash(752, 1), 1204)
+					else
+						if_setgraphic(if_gethash(752, 1), 1205)
+				}
+iVar0 = script_734(load_varpbit(6448))
+if_sethide(if_gethash(548, 40), iVar0)
+if_sethide(if_gethash(548, 30), iVar0)
+if_sethide(if_gethash(746, 16), iVar0)
+if_sethide(if_gethash(746, 18), iVar0)
+if_sethide(if_gethash(746, 31), iVar0)
+if(script_1569() == 0) {
+	if_sethide(if_gethash(746, 21), iVar0)
+	if_sethide(if_gethash(746, 32), iVar0)
+} else  {
+	if_sethide(if_gethash(746, 21), 1)
+	if_sethide(if_gethash(746, 32), 0)
+}
+if_sethide(if_gethash(746, 20), iVar0)
+return

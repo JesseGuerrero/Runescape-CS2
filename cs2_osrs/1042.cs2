@@ -1,0 +1,19 @@
+void script_1042(Widget widget0) {
+	Sprite sprite1;
+	int int2;
+	string str0;
+	sprite1 = 1196;
+	int2 = 1198;
+	str0 = "Show";
+	if (VARPBIT[4702] == 1) {
+		sprite1, int2, str0 = 1197, 1199, "Hide";
+		widget0.hookOptionClick(&script_1040(CTX_MENU_OPTION, CTX_WIDGET, 0));
+	} else {
+		widget0.hookOptionClick(&script_1040(CTX_MENU_OPTION, CTX_WIDGET, 1));
+	}
+	widget0.setContextMenuOption(1, str0);
+	widget0.setSprite(sprite1);
+	widget0.hookMouseHover(&script_44(CTX_WIDGET, (Sprite)int2));
+	widget0.hookMouseExit(&script_44(CTX_WIDGET, sprite1));
+	return;
+}

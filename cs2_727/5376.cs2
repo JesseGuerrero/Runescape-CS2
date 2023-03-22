@@ -1,0 +1,13 @@
+//script5376(5376)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 < 8) {
+	if(cc_find((iVar0 * 6) + 3, if_gethash(951, 24)) == 1)
+		instr6556(None, "")
+	if(cc_find((iVar0 * 6) + 4, if_gethash(951, 24)) == 1)
+		instr6556(None, "")
+	if(cc_find((iVar0 * 6) + 5, if_gethash(951, 24)) == 1)
+		instr6556(None, "")
+	iVar0 = iVar0 + 1
+}
+return

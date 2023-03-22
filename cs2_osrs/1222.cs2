@@ -1,0 +1,4 @@
+void script_1222(Widget widget0, int arg1) {
+	widget0.hookFrame(&script_1223(widget0, widget(arg1)));
+	return;
+}

@@ -1,0 +1,27 @@
+//script4127(4127)(int arg0, int arg1, int arg2)(int, int, int)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar3 = min(min(arg2, arg1), arg0)
+iVar4 = max(max(arg2, arg1), arg0)
+iVar5 = iVar4 - iVar3
+iVar6 = 0
+iVar7 = 0
+iVar8 = (iVar3 + iVar4) / 2
+if(iVar5 != 0) {
+	if(iVar8 < 128)
+		iVar7 = scale(255, 2 * iVar8, iVar5)
+	else
+		iVar7 = scale(255, 510 - (2 * iVar8), iVar5)
+	if(arg0 == iVar4)
+		iVar6 = scale(60, 10000, modulo(60000, scale(10000, iVar5, arg1 - arg2) + 60000))
+	if(arg1 == iVar4)
+		iVar6 = scale(60, 10000, scale(10000, iVar5, arg2 - arg0) + 20000)
+	if(arg2 == iVar4)
+		iVar6 = scale(60, 10000, scale(10000, iVar5, arg0 - arg1) + 40000)
+}
+return iVar8, iVar7, iVar6
+return 0, 0, 0

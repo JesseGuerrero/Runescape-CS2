@@ -1,0 +1,39 @@
+void script_1540(int arg0, Widget widget1) {
+	string str0;
+	CHILD.setText("Party size: " + "<col=ffffff>" + VARPBIT[5424] + "</col>");
+	if (VARPBIT[5425] == 0) {
+		if (VARPBIT[5423] == 1) {
+			_CHILD.setText("");
+		} else {
+			_CHILD.setText("Waiting for your leader to begin the raid...");
+		}
+	} else if (VARPBIT[5425] == 1) {
+		_CHILD.setText("Your party is exploring the upper level...");
+	} else if (VARPBIT[5425] == 2) {
+		_CHILD.setText("Your party has reached the lower level...");
+	} else if (VARPBIT[5425] == 3) {
+		_CHILD.setText("Your party has reached the bottom...");
+	} else {
+		_CHILD.setText("Get out! Get out!" + "<br>" + "GET OUT!");
+	}
+	str0 = "Start raid";
+	if (VARPBIT[5423] == 1 && VARPBIT[5425] == 0) {
+		widget1.setSize(getMaxLineWidth(str0, 190, 495) + 20, widget1.getHeight(), 0, 0);
+		widget1.setIsHidden(false);
+		script_1542(0, str0, widget1);
+		widget1.hookMouseHover(&script_1541(true, str0, widget1));
+		widget1.hookMouseExit(&script_1541(false, str0, widget1));
+		widget1.hookOptionClick(&script_1543(CTX_MENU_OPTION, str0, widget1));
+		widget1.hookFrame(null);
+		widget1.setContextMenuOption(1, str0);
+	} else {
+		widget1.setIsHidden(true);
+		widget1.clearChildren();
+		widget1.setNoOptions();
+		widget1.hookMouseHover(null);
+		widget1.hookMouseExit(null);
+		widget1.hookOptionClick(null);
+		widget1.hookFrame(null);
+	}
+	return;
+}

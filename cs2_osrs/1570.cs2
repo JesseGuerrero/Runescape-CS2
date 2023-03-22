@@ -1,0 +1,71 @@
+void script_1570() {
+	int int0;
+	int int1;
+	int int2;
+	int int3;
+	Widget widget4;
+	string str0;
+	string str1;
+	script_1572(widget(499, 7), 0, 1, "Sort by members");
+	script_1572(widget(499, 8), 2, 3, "Sort by target size");
+	script_1572(widget(499, 9), 4, 5, "Sort by leader name");
+	script_1572(widget(499, 10), 6, 7, "Sort by preferred combat level");
+	script_1572(widget(499, 11), 8, 9, "Sort by preferred skill total");
+	script_1572(widget(499, 12), 10, 11, "Sort by age");
+	ARRAY0 = new int[40];
+	int0 = 0;
+	int1 = 0;
+	while (int1 < 40) {
+		if (CHILD.setChild(datamap('i', 'I', 1537, int0), 0) == true) {
+			ARRAY0[int0] = int0;
+			int0 = int0 + 1;
+		}
+		int1 = int1 + 1;
+	}
+	str0 = "";
+	if (int0 >= 2) {
+		if (VARC[180] == 2 || VARC[180] == 3) {
+			script_1571(0, 0, int0 - 1, 8);
+		} else if (VARC[180] == 4 || VARC[180] == 5) {
+			script_1571(0, 0, int0 - 1, 3);
+		} else if (VARC[180] == 6 || VARC[180] == 7) {
+			script_1571(0, 0, int0 - 1, 9);
+		} else if (VARC[180] == 8 || VARC[180] == 9) {
+			script_1571(0, 0, int0 - 1, 10);
+		} else if (VARC[180] == 10 || VARC[180] == 11) {
+			script_1571(0, 0, int0 - 1, 11);
+		} else {
+			script_1571(0, 0, int0 - 1, 7);
+		}
+	}
+	int2 = 0;
+	int3 = 0;
+	widget4 = null;
+	str1 = "";
+	if (VARC[180] == 1 || VARC[180] == 3 || VARC[180] == 5 || VARC[180] == 7 || VARC[180] == 9 || VARC[180] == 11) {
+		int2 = int0;
+		while (int2 > 0) {
+			int2 = int2 - 1;
+			widget4 = datamap('i', 'I', 1537, ARRAY0[int2]);
+			if (widget4 != null) {
+				widget4.setPosition(0, int3, 1, 0);
+				if (CHILD.setChild(widget4, 0) == true && _CHILD.setChild(widget4, 3) == true) {
+					script_1567(int2, widget4, ARRAY0[int2], getText());
+				}
+			}
+			int3 = int3 + 18;
+		}
+	} else {
+		while (int2 < int0) {
+			widget4 = datamap('i', 'I', 1537, ARRAY0[int2]);
+			if (widget4 != null) {
+				widget4.setPosition(0, int3, 1, 0);
+				if (CHILD.setChild(widget4, 0) == true && _CHILD.setChild(widget4, 3) == true) {
+					script_1567(int2, widget4, ARRAY0[int2], getText());
+				}
+			}
+			int3, int2 = int3 + 18, int2 + 1;
+		}
+	}
+	return;
+}

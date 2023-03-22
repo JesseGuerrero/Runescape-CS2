@@ -1,0 +1,25 @@
+void script_1422(Widget widget0, Widget widget1) {
+	int int2;
+	string str0;
+	str0 = "Coffer";
+	widget1.setSize(getMaxLineWidth(str0, 512, 495) + 10, 58, 0, 0);
+	widget1.clearChildren();
+	int2 = script_715(widget1, 0);
+	CHILD.createChild(widget1, 4, int2);
+	_CHILD.createChild(widget1, 5, int2 + 1);
+	CHILD.setSize(0, 10, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setText(str0);
+	_CHILD.setSize(36, 32, 0, 0);
+	_CHILD.setPosition(0, 5, 1, 2);
+	_CHILD.setShadowColor(0x333333);
+	_CHILD.setOutlineThickness(1);
+	script_1424(widget1);
+	widget0.hookWidgetsOpenClose(&script_1423(widget1, getChildId()));
+	widget0.hookVARP(&script_1423(widget1, getChildId()), 1227, 795);
+	return;
+}

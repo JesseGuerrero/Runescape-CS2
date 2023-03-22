@@ -1,0 +1,40 @@
+//script5544(5544)()(void)
+int iVar0
+iVar0 = script_5542()
+if(world_members() == 0)
+	switch(load_varc(1725)) {
+		case default:
+			break
+		case 1:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(7))
+			break
+		case 2:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(6))
+			break
+		case 3:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(6))
+			break
+		case 4:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(1))
+			break
+
+	}
+else
+	switch(load_varc(1725)) {
+		case default:
+			break
+		case 1:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(13))
+			break
+		case 2:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(8))
+			break
+		case 3:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(13))
+			break
+		case 4:
+			if_settext(if_gethash(1178, 74), to_string(iVar0) + " / " + to_string(5))
+			break
+
+	}
+return

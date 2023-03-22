@@ -1,0 +1,13 @@
+//script2346(2346)()(void)
+store_varc(769, load_varc(769) + 1)
+if(load_varc(769) >= instr6652(0) - 1) {
+	store_varc(769, 0)
+	instr6255(if_gethash(582, 0), None, "")
+	return
+}
+if(load_varc(769) == instr6652(0) - 2)
+	instr6677(load_varc(769), 1, 75, 200, load_varc(769), 0)
+else
+	instr6677(load_varc(769), 1, 200, 200, load_varc(769), 0)
+instr6255(if_gethash(582, 0), script_2346, "")
+return

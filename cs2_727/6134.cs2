@@ -1,0 +1,31 @@
+//script6134(6134)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = load_varc(1891)
+store_varc(1891, load_varc(1891) + arg0)
+if(load_varc(1891) > 300)
+	store_varc(1891, load_varc(1891) - 300)
+iVar2 = load_varc(1891)
+iVar3 = 300 / 2
+if(iVar1 <= iVar3)
+	if(load_varc(1891) >= iVar3)
+		switch(arg0) {
+			case default:
+				break
+			case 4:
+				sound_vorbis_volume(50, 0, 1, 14584)
+				break
+			case 8:
+				sound_vorbis_volume(60, 0, 1, 14662)
+				break
+			case 12:
+				sound_vorbis_volume(70, 0, 1, 14608)
+				break
+
+		}
+if(iVar2 > iVar3)
+	iVar2 = 300 - iVar2
+iVar2 = scale(200, iVar3, iVar2)
+if_settrans(if_gethash(1270, 36), iVar2)
+return

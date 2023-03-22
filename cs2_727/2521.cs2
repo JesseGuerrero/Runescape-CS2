@@ -1,0 +1,54 @@
+//script2521(2521)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+iVar5 = -1
+iVar1 = (if_getwidth(if_gethash(848, 2)) - 180) / 4
+iVar2 = (if_getheight(if_gethash(848, 2)) - 128) / 3
+if(iVar0 < 5)
+	while(enum(load_varc(875), iVar0, 'i', 'o') != 11760) {
+		iVar5 = enum(load_varc(875), iVar0, 'i', 'o')
+		switch(iVar0) {
+			case default:
+				break
+			case 0:
+				if_settext(if_gethash(848, 19), item_name(item_uncert(iVar5)))
+				iVar3 = load_varc(876)
+				break
+			case 1:
+				if_settext(if_gethash(848, 20), item_name(item_uncert(iVar5)))
+				iVar3 = load_varc(877)
+				break
+			case 2:
+				if_settext(if_gethash(848, 21), item_name(item_uncert(iVar5)))
+				iVar3 = load_varc(878)
+				break
+			case 3:
+				if_settext(if_gethash(848, 22), item_name(item_uncert(iVar5)))
+				iVar3 = load_varc(879)
+				break
+			case 4:
+				if_settext(if_gethash(848, 23), item_name(item_uncert(iVar5)))
+				iVar3 = load_varc(880)
+				break
+
+		}
+		cc_create(iVar0, 5, 55574530)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, (iVar0 / 5) * (32 + iVar2), (36 + iVar1) * modulo(5, iVar0))
+		cc_setitem(iVar3, item_uncert(iVar5))
+		cc_setopbase("<col=ff981f>" + item_name(item_uncert(iVar5)))
+		cc_setop("Select", 1)
+		cc_setop("Examine", 2)
+		cc_setgraphicshadow(3355443)
+		iVar0 = iVar0 + 1
+	}
+return

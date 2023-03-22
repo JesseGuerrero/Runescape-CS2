@@ -1,0 +1,5 @@
+//script2758(2758)(int arg0)(void)
+instr6237(arg0, script_2759, "IY", 1, 466, -2147483645)
+instr6257(arg0, script_2759, "IY", 1, 173, -2147483645)
+script_2760(arg0)
+return

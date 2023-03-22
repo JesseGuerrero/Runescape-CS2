@@ -1,0 +1,15 @@
+Location script_1715(int arg0, Location location1) {
+	if (arg0 == -1 || location1 == null) {
+		return null;
+	}
+	if (cs2method6621(arg0, location1) == 1) {
+		return location1;
+	}
+	while (z(location1) > 0) {
+		location1 = shiftLocation(location1, 0, -1, 0);
+		if (cs2method6621(arg0, location1) == 1) {
+			return location1;
+		}
+	}
+	return null;
+}

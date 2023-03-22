@@ -1,0 +1,17 @@
+//script4172(4172)(int arg0)(void)
+int iVar1
+iVar1 = inv_getitem(arg0, 94)
+if(iVar1 != -1) {
+	cc_setsize(0, 0, 32, 36)
+	cc_setitem(inv_getnum(arg0, 94), iVar1)
+	cc_setgraphicshadow(3153952)
+	cc_setoutline(1)
+	cc_setposition(1, 1, 0, 2)
+} else  {
+	cc_setsize(0, 0, 32, 32)
+	cc_setgraphic(enum(796, arg0, 'i', 'd'))
+	cc_setgraphicshadow(0)
+	cc_setoutline(0)
+	cc_setposition(1, 1, 0, 0)
+}
+return

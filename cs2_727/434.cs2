@@ -1,0 +1,9 @@
+//script434(434)()(void)
+if(load_varpbit(7509) == 0) {
+	if_setgraphic(if_gethash(1026, 21), 1135)
+	if_setgraphic(if_gethash(1026, 23), 1134)
+} else  {
+	if_setgraphic(if_gethash(1026, 21), 1134)
+	if_setgraphic(if_gethash(1026, 23), 1135)
+}
+return

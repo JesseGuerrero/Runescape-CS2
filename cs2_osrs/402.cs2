@@ -1,0 +1,164 @@
+void script_402(Widget widget0, Widget widget1, int arg2, Widget widget3, Widget widget4) {
+	Widget widget5;
+	Widget widget6;
+	Widget widget7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	boolean boolean12;
+	int int13;
+	Widget widget14;
+	int int15;
+	string str0;
+	if (arg2 == 1) {
+		if (VARC[54] == 1 || VARC[54] == 0) {
+			VARC[54] = VARC[54];
+		} else {
+			VARC[54] = 0;
+		}
+		if (VARC[0] < 0) {
+			VARC[0] = 0;
+		}
+		script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	} else {
+		playSoundEffect(2266, 1, 0);
+		if (VARC[54] == 1) {
+			VARC[54] = 0;
+		} else {
+			VARC[54] = 1;
+		}
+	}
+	widget5 = null;
+	widget6 = null;
+	widget7 = null;
+	int8 = widget0.getWidth() - 20;
+	if (int8 <= 0) {
+		int8 = 143;
+	}
+	widget0.clearChildren();
+	widget4.clearChildren();
+	int9 = 17;
+	int10 = 0;
+	int11 = 0;
+	boolean12 = true;
+	while (int11 < 4) {
+		widget5 = datamap('i', 'I', 1297, int11);
+		widget7 = datamap('i', 'I', 1298, int11);
+		widget6 = datamap('i', 'I', 1299, int11);
+		if (widget5 != null && widget6 != null && widget7 != null) {
+			if (length(getText(widget5)) > 0) {
+				int9 = getLineCount(getText(widget5), int8, 495) * 12 + 5;
+				widget5.setIsHidden(false);
+				widget7.setIsHidden(false);
+				widget6.setIsHidden(false);
+				widget5.setSize(int8, int9, 0, 0);
+				widget7.setSize(int8, int9, 0, 0);
+				widget5.setPosition(20, int10, 0, 0);
+				widget6.setPosition(2, int10, 0, 0);
+				widget7.setPosition(20, int10, 0, 0);
+				widget5.setOptionBase("<col=ff981f>" + getText(widget7) + "</col>");
+				widget5.hookMouseEnter(&script_45(widget7, 16744319));
+				widget5.hookMouseExit(&script_45(widget7, 16727871));
+				boolean12 = false;
+				int10 = int10 + int9 + 3;
+			} else {
+				widget5.setIsHidden(true);
+				widget6.setIsHidden(true);
+				widget7.setIsHidden(true);
+			}
+		}
+		int11 = int11 + 1;
+	}
+	if (boolean12 == false) {
+		int10 = int10 + 3;
+	}
+	widget3.setIsHidden(boolean12);
+	widget4.setSize(0, int10, 1, 0);
+	int13 = 0;
+	widget14 = null;
+	ARRAY0 = new Widget[64];
+	int15 = 0;
+	str0 = "";
+	while (int13 < 64) {
+		widget14 = datamap('i', 'I', 824, int13);
+		if (widget14 != null) {
+			widget6 = datamap('I', 'I', 1296, widget14);
+			if (length(getText(widget14)) > 0) {
+				widget14.setIsHidden(false);
+				if (widget6 != null) {
+					widget6.setIsHidden(false);
+				}
+				ARRAY0[int15] = widget14;
+				int15 = int15 + 1;
+			} else {
+				widget14.setIsHidden(true);
+				if (widget6 != null) {
+					widget6.setIsHidden(true);
+				}
+			}
+		}
+		int13 = int13 + 1;
+	}
+	if (int15 > 0) {
+		if (VARC[54] == 1) {
+			script_1341(0, 0, int15 - 1);
+		} else {
+			script_1342(0, 0, int15 - 1, 823);
+		}
+	}
+	int13 = 0;
+	widget0.clearChildren();
+	while (int13 < int15) {
+		widget6 = datamap('I', 'I', 1296, widget(ARRAY0[int13]));
+		str0 = datamap('I', 's', 823, widget(ARRAY0[int13]));
+		int9 = getLineCount(getText(widget(ARRAY0[int13])), int8, 495) * 12 + 5;
+		if (widget6 != null) {
+			widget6.setPosition(2, int10, 0, 0);
+		}
+		widget(ARRAY0[int13]).setSize(int8, int9, 0, 0);
+		widget(ARRAY0[int13]).setPosition(20, int10, 0, 0);
+		CHILD.createChild(widget0, 4, int13);
+		CHILD.setSize(int8, int9, 0, 0);
+		CHILD.setPosition(20, widget(ARRAY0[int13]).getY(), 0, 0);
+		CHILD.setFont(495);
+		CHILD.setRGB(0xFF3F3F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setTextAlignment(0, 0, 0);
+		CHILD.setText(str0);
+		widget(ARRAY0[int13]).setOptionBase("<col=ff981f>" + str0 + "</col>");
+		widget(ARRAY0[int13]).hookMouseEnter(&script_85(widget0, getChildId(), 16744319));
+		widget(ARRAY0[int13]).hookMouseExit(&script_85(widget0, getChildId(), 16727871));
+		int10 = int10 + int9 + 3;
+		int13 = int13 + 1;
+	}
+	str0 = getText(widget(381, 139));
+	if (length(str0) > 0) {
+		widget(381, 139).setIsHidden(false);
+		int9 = getLineCount(str0, int8, 495) * 12 + 5;
+		widget(381, 139).setSize(int8, int9, 0, 0);
+		widget(381, 139).setPosition(20, int10, 0, 0);
+		widget(381, 139).setRGB(0xFF3F3F);
+		widget(381, 139).hookMouseEnter(&script_45(CTX_WIDGET, 16744319));
+		widget(381, 139).hookMouseExit(&script_45(CTX_WIDGET, 16727871));
+		int10 = int10 + int9 + 3;
+	} else {
+		widget(381, 139).setIsHidden(true);
+	}
+	if (int10 > 0) {
+		int10 = int10 - 3;
+	}
+	int9 = widget0.getHeight();
+	if (int10 > int9) {
+		widget0.setScrollMax(0, int10);
+		int9 = int10 - int9;
+		if (VARC[0] > int9) {
+			VARC[0] = int9;
+		}
+	} else {
+		widget0.setScrollMax(0, 0);
+		VARC[0] = 0;
+	}
+	script_72(widget1, widget0, VARC[0]);
+	return;
+}

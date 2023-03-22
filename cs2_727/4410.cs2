@@ -1,0 +1,4 @@
+//script4410(4410)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	instr6556(script_4411, "Iiii", arg0, arg1, arg2, 0)
+return

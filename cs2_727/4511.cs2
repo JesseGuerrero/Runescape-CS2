@@ -1,0 +1,6 @@
+//script4511(4511)(int arg0, int arg1)(int)
+int iVar2
+if(arg0 == -1 || arg1 == -1)
+	return
+iVar2 = struct_param(1346, arg1)
+return 4163

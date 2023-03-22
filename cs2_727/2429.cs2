@@ -1,0 +1,3 @@
+//script2429(2429)(int arg0)(void)
+if_settext(arg0, load_varc_string(146))
+return

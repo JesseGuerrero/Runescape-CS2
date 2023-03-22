@@ -1,0 +1,12 @@
+//script425(425)()(void)
+if(load_varc(1366) == 1) {
+	instr6213(if_gethash(1019, 16), 1, "Accept Victory")
+	if_settext(if_gethash(1019, 16), "Accept Victory")
+	if_settext(if_gethash(1019, 0), "Your opponent has logged out. You may end the Conquest now and be declared the winner.")
+} else  {
+	instr6213(if_gethash(1019, 16), 1, "Resign")
+	if_settext(if_gethash(1019, 16), "Resign")
+	if_settext(if_gethash(1019, 0), "If you resign, the Conquest will end immediately.")
+	if_close()
+}
+return

@@ -1,0 +1,41 @@
+//script5561(5561)(int arg0, int arg1)(void)
+int iVar2
+string sVar0
+string sVar1
+sVar0 = "null"
+iVar2 = -1
+sVar1 = "null"
+sVar0 = script_5564(arg0).get(1)
+if(arg1 == 0) {
+	sVar1 = "-"
+	iVar2 = 16711680
+} else 
+	if(arg1 == 1)
+		sVar1 = "+"
+if(if_gethide(if_gethash(746, 205)) == 0) {
+	if_settext(if_gethash(746, 214), append(sVar0, sVar1))
+	if_setcolor(48890070, iVar2)
+	if_sethide(if_gethash(746, 213), 0)
+	instr6342(if_gethash(746, 213), script_5562, "i", client_clock())
+}
+if(if_gethide(if_gethash(548, 198)) == 0) {
+	if_settext(if_gethash(548, 203), append(sVar0, sVar1))
+	if_setcolor(35913931, iVar2)
+	if_sethide(if_gethash(548, 202), 0)
+	instr6342(if_gethash(548, 202), script_5562, "i", client_clock())
+}
+if(arg1 == 0) {
+	if_sethide(if_gethash(746, 211), 1)
+	if_sethide(if_gethash(746, 210), 0)
+	instr6342(if_gethash(746, 208), script_5563, "iI", client_clock(), if_gethash(746, 210))
+	if_sethide(if_gethash(548, 34), 0)
+	instr6342(if_gethash(548, 167), script_5563, "iI", client_clock(), if_gethash(548, 34))
+} else 
+	if(arg1 == 1) {
+		if_sethide(if_gethash(746, 210), 1)
+		if_sethide(if_gethash(746, 211), 0)
+		instr6342(if_gethash(746, 208), script_5563, "iI", client_clock(), if_gethash(746, 211))
+		if_sethide(if_gethash(548, 33), 0)
+		instr6342(if_gethash(548, 167), script_5563, "iI", client_clock(), if_gethash(548, 33))
+	}
+return

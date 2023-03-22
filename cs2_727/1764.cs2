@@ -1,0 +1,27 @@
+//script1764(1764)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = if_getwidth(arg0) - if_getwidth(arg1)
+arg2 = max(0, arg2)
+arg2 = min(iVar4, arg2)
+switch(arg3) {
+	case default:
+		break
+	case 0:
+		detailset_musicvol(scale(255, iVar4, arg2))
+		script_1159()
+		break
+	case 1:
+		detailset_soundvol(scale(127, iVar4, arg2))
+		script_1165()
+		break
+	case 2:
+		detailset_bgsoundvol(scale(127, iVar4, arg2))
+		script_1162()
+		break
+	case 3:
+		detailset_voiceovervolume(scale(127, iVar4, arg2))
+		script_5873()
+		break
+
+}
+return

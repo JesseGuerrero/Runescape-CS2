@@ -1,0 +1,9 @@
+//script2808(2808)(int arg0, int arg1, int arg2)(int)
+int iVar3
+int iVar4
+int iVar5
+iVar3 = movecoord(8 * (coordz(arg1) / 8), coordy(arg1), 8 * (coordx(arg1) / 8), 0)
+iVar4 = coordx(arg2) - coordx(iVar3)
+iVar5 = coordz(arg2) - coordz(iVar3)
+return movecoord(iVar5, 0, iVar4, arg0)
+return -1

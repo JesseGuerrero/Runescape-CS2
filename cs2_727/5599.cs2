@@ -1,0 +1,10 @@
+//script5599(5599)(int arg0, int arg1, int arg2, int arg3)(void)
+if(instr6652(0) > arg1 + 1)
+	instr6677(arg1, 1, arg3, arg2, arg1, 0)
+if(instr6652(0) == arg1 + 1)
+	instr6255(arg0, None, "")
+else {
+	arg1 = arg1 + 1
+	instr6255(arg0, script_5599, "Iiii", -2147483645, arg1, 2000, 2000)
+}
+return

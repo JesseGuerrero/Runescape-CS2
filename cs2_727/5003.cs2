@@ -1,0 +1,15 @@
+//script5003(5003)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 75497500:
+		if(load_varpbit(9950) == 1)
+			if_setgraphic(if_gethash(1152, 2), 5523)
+		break
+	case 75497548:
+		if(load_varpbit(9950) == 0)
+			if_setgraphic(if_gethash(1152, 77), 5523)
+		break
+
+}
+return

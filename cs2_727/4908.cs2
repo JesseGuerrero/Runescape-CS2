@@ -1,0 +1,73 @@
+//script4908(4908)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+iVar1 = -1
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = script_4950(arg0)
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = -1
+iVar12 = -1
+iVar13 = -1
+iVar14 = 1
+if(clan_vars_enabled() == 1) {
+	if(load_varc(1794) == 0)
+		iVar12 = script_5116(load_clan_varbit(2598), load_clan_varbit(2580))
+	else
+		iVar12 = script_5116(load_clan_varbit(2074), load_clan_varbit(2580))
+	if(iVar12 == -1)
+		return
+	if(iVar6 == 6 || iVar6 == 5) {
+		iVar5 = script_4971(arg0)
+		iVar13 = script_5171(iVar5)
+	} else 
+		iVar13 = script_4973(arg0)
+	iVar4 = script_4949(arg0)
+	iVar7 = script_4961(arg0, 1)
+	iVar8 = script_4953(iVar7)
+	if(iVar8 > 0)
+		iVar13 = 7432
+	iVar9 = script_4961(arg0, 3)
+	iVar10 = script_4953(iVar9)
+	if(iVar6 == 6 || iVar6 == 6 || iVar6 == 5)
+		if(load_clan_varbit(2148) == iVar5 || load_clan_varbit(2165) == iVar5 || load_clan_varbit(2182) == iVar5)
+			iVar13 = 7432
+	if(iVar10 > 0)
+		iVar13 = 7432
+	if(iVar6 == 5)
+		if(load_clan_varbit(2148) == iVar5 || load_clan_varbit(2165) == iVar5 || load_clan_varbit(2182) == iVar5) {
+			if_setgraphic(script_5216(arg0), 7659)
+			instr6213(script_4972(arg0), 2, "")
+		} else 
+			if(iVar4 > 0) {
+				if_setgraphic(script_5216(arg0), 7657)
+				instr6213(script_4972(arg0), 2, "Reset hotspot to its default state")
+			} else  {
+				if_setgraphic(script_5216(arg0), 7658)
+				instr6213(script_4972(arg0), 2, "")
+			}
+	iVar11 = script_4972(arg0)
+	if(iVar11 == -1)
+		return
+	if(cc_find(0, iVar11) == 1)
+		cc_setgraphic(iVar13)
+	else
+}
+return

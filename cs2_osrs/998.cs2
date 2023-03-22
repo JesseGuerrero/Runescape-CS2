@@ -1,0 +1,35 @@
+void script_998(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4) {
+	int int5;
+	Widget widget6;
+	int int7;
+	if (getClientCycle() < arg4) {
+		return;
+	}
+	int5 = 0;
+	widget6 = null;
+	int7 = 1;
+	if (datamap('i', 'i', 1167, VARPBIT[4694]) > 0) {
+		widget1.setIsHidden(true);
+		widget2.setIsHidden(true);
+		script_41(widget3);
+		widget3.setIsHidden(true);
+		widget6 = datamap('i', 'I', 1163, int5);
+		while (widget6 != null) {
+			widget6.setIsHidden(true);
+			if (CHILD.setChild(widget6, 0) == true) {
+				CHILD.setText("");
+				CHILD.setHidden(true);
+			}
+			while (int7 <= 5) {
+				if (CHILD.setChild(widget6, int7) == true) {
+					CHILD.deleteChild();
+				}
+				int7 = int7 + 1;
+			}
+			int5 = int5 + 1;
+			widget6 = datamap('i', 'I', 1163, int5);
+		}
+	}
+	widget0.hookFrame(null);
+	return;
+}

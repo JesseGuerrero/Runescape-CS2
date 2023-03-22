@@ -1,0 +1,13 @@
+//script666(666)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 0
+if(cc_find(arg2, arg1) == 1) {
+	iVar3 = arg0 - client_clock()
+	if(iVar3 <= 0) {
+		cc_settrans(0)
+		instr6556(None, "")
+		return
+	}
+	cc_settrans(max(1, cc_gettransparency() - (cc_gettransparency() / iVar3)))
+}
+return

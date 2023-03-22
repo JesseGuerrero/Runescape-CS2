@@ -1,0 +1,6 @@
+void script_1211(int arg0, int arg1) {
+	int int2;
+	int2 = mathMethod4006(0, arg1, 0, 1000, 1000);
+	CHILD.setText(datamap('i', 's', 1264, arg0) + ": " + "<col=ffffff>" + int2 / 10 + "." + int2 % 10 + "%" + "</col>");
+	return;
+}

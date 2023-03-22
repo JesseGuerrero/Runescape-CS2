@@ -1,0 +1,15 @@
+//script4338(4338)(int arg0)(string)
+string sVar0
+sVar0 = ""
+if(arg0 < 10)
+	sVar0 = append_num("00:0", arg0)
+else
+	if(arg0 < 60)
+		sVar0 = append_num("00:", arg0)
+	else
+		if(arg0 < 959)
+			sVar0 = "0" + to_string(arg0 / 100) + ":" + to_string(modulo(100, arg0))
+		else
+			sVar0 = to_string(arg0 / 100) + ":" + to_string(modulo(100, arg0))
+return sVar0
+return ""

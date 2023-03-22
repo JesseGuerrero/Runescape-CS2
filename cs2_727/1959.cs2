@@ -1,0 +1,131 @@
+//script1959(1959)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar0 = inv_total(1985, 93)
+iVar1 = inv_total(1982, 93)
+iVar2 = inv_total(2169, 93)
+iVar3 = inv_total(2162, 93)
+iVar4 = inv_total(1957, 93)
+iVar5 = inv_total(1965, 93)
+iVar6 = inv_total(2126, 93)
+iVar7 = inv_total(2128, 93)
+iVar8 = inv_total(2152, 93)
+iVar9 = inv_total(2116, 93)
+iVar10 = inv_total(2110, 93)
+iVar11 = inv_total(2122, 93)
+if(iVar7 >= 4)
+	if(iVar9 >= 1)
+		if(iVar10 >= 1)
+			if(iVar11 >= 1)
+				if_setcolor(28442683, 0xFF00)
+			else
+				if_setcolor(28442683, 0xFF0000)
+if(iVar7 >= 1)
+	if(iVar2 >= 1)
+		if(iVar8 >= 1)
+			if(iVar0 >= 1)
+				if_setcolor(28442684, 0xFF00)
+			else
+				if_setcolor(28442684, 0xFF0000)
+if(iVar3 >= 1)
+	if(iVar2 >= 1)
+		if(iVar0 >= 1)
+			if_setcolor(28442685, 0xFF00)
+		else
+			if_setcolor(28442685, 0xFF0000)
+if(iVar1 >= 2)
+	if(iVar4 >= 1)
+		if(iVar5 >= 1)
+			if(iVar6 >= 1)
+				if(iVar0 >= 1)
+					if_setcolor(28442686, 0xFF00)
+				else
+					if_setcolor(28442686, 0xFF0000)
+if(iVar1 >= 1)
+	if(iVar0 >= 1)
+		if_setcolor(28442687, 0xFF00)
+	else
+		if_setcolor(28442687, 0xFF0000)
+if(inv_total(2128, 93) > 3)
+	if_setitem(if_gethash(434, 4), 120, 2128)
+else
+	if_setitem(if_gethash(434, 4), 120, 9494)
+if(inv_total(2116, 93) > 0)
+	if_setitem(if_gethash(434, 5), 120, 2116)
+else
+	if_setitem(if_gethash(434, 5), 120, 9498)
+if(inv_total(2110, 93) > 0)
+	if_setitem(if_gethash(434, 6), 120, 2110)
+else
+	if_setitem(if_gethash(434, 6), 120, 9498)
+if(inv_total(2122, 93) > 0)
+	if_setitem(if_gethash(434, 7), 120, 2122)
+else
+	if_setitem(if_gethash(434, 7), 120, 9498)
+if(inv_total(2128, 93) > 0)
+	if_setitem(if_gethash(434, 15), 120, 2128)
+else
+	if_setitem(if_gethash(434, 15), 120, 9494)
+if(inv_total(2152, 93) > 0)
+	if_setitem(if_gethash(434, 16), 100, 2152)
+else
+	if_setitem(if_gethash(434, 16), 100, 9499)
+if(inv_total(2169, 93) > 0)
+	if_setitem(if_gethash(434, 17), 90, 2169)
+else
+	if_setitem(if_gethash(434, 17), 90, 9500)
+if(inv_total(1985, 93) > 0)
+	if_setitem(if_gethash(434, 18), 140, 1985)
+else
+	if_setitem(if_gethash(434, 18), 140, 9502)
+if(inv_total(2162, 93) > 0)
+	if_setitem(if_gethash(434, 27), 100, 2162)
+else
+	if_setitem(if_gethash(434, 27), 100, 9501)
+if(inv_total(2169, 93) > 0)
+	if_setitem(if_gethash(434, 26), 90, 2169)
+else
+	if_setitem(if_gethash(434, 26), 90, 9500)
+if(inv_total(1985, 93) > 0)
+	if_setitem(if_gethash(434, 28), 140, 1985)
+else
+	if_setitem(if_gethash(434, 28), 140, 9502)
+if(inv_total(1982, 93) > 1)
+	if_setitem(if_gethash(434, 35), 100, 1982)
+else
+	if_setitem(if_gethash(434, 35), 100, 9503)
+if(inv_total(1957, 93) > 0)
+	if_setitem(if_gethash(434, 36), 140, 1957)
+else
+	if_setitem(if_gethash(434, 36), 140, 9504)
+if(inv_total(1965, 93) > 0)
+	if_setitem(if_gethash(434, 37), 90, 1965)
+else
+	if_setitem(if_gethash(434, 37), 90, 9505)
+if(inv_total(2126, 93) > 0)
+	if_setitem(if_gethash(434, 38), 140, 2126)
+else
+	if_setitem(if_gethash(434, 38), 140, 9496)
+if(inv_total(1985, 93) > 0)
+	if_setitem(if_gethash(434, 39), 140, 1985)
+else
+	if_setitem(if_gethash(434, 39), 140, 9502)
+if(inv_total(1982, 93) > 0)
+	if_setitem(if_gethash(434, 48), 100, 1982)
+else
+	if_setitem(if_gethash(434, 48), 100, 9503)
+if(inv_total(1985, 93) > 0)
+	if_setitem(if_gethash(434, 49), 140, 1985)
+else
+	if_setitem(if_gethash(434, 49), 140, 9502)
+return

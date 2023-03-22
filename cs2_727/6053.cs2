@@ -1,0 +1,10 @@
+//script6053(6053)()(void)
+int iVar0
+script_6052()
+iVar0 = 82116636
+script_5919()
+script_6047(iVar0, 118)
+if_sethide(if_gethash(1253, 33), 1)
+if_sethide(if_gethash(1253, 38), 0)
+script_5921()
+return

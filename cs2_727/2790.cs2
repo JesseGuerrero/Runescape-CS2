@@ -1,0 +1,162 @@
+//script2790(2790)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+string sVar0
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+if(gender() == 1) {
+	iVar0 = 2341
+	iVar3 = load_varc(1008)
+} else 
+	if(load_varc(774) == 1) {
+		if_setgraphic(if_gethash(309, 6), 1056)
+		if_setgraphic(if_gethash(309, 7), 1047)
+		iVar0 = 703
+		iVar1 = 2340
+		iVar3 = load_varc(1009)
+	} else  {
+		if_setgraphic(if_gethash(309, 6), 1048)
+		if_setgraphic(if_gethash(309, 7), 1055)
+		iVar0 = 2338
+		iVar3 = load_varc(1008)
+	}
+cc_deleteall(if_gethash(309, 10))
+iVar4 = 0
+iVar5 = enum_getoutputcount(iVar0)
+iVar6 = -1
+iVar7 = -1
+sVar0 = ""
+iVar8 = 0
+iVar9 = 0
+while(iVar4 < iVar5) {
+	if(iVar1 == -1) {
+		iVar6 = enum(iVar0, iVar4, 'i', 'J')
+		iVar7 = struct_param(788, iVar6)
+		sVar0 = struct_param(792, iVar6)
+	} else  {
+		iVar7 = enum(iVar0, iVar4, 'i', 'K')
+		sVar0 = enum(iVar1, iVar4, 'i', 's')
+	}
+	cc_create(if_getnextsubid(if_gethash(309, 10)), 5, 20250634)
+	cc_setsize(0, 0, 17, 17)
+	cc_setposition(0, 0, iVar8 + 1, 0)
+	cc_create(if_getnextsubid(if_gethash(309, 10)), 4, 20250634)
+	cc_setsize(0, 1, 19, 20)
+	cc_setposition(0, 2, iVar8, 0)
+	cc_settextalign(0, 1, 0)
+	cc_setcolor(ff981f)
+	cc_settextfont(495)
+	cc_settext(sVar0)
+	if(iVar7 == iVar3) {
+		cc_setgraphic(699)
+		iVar9 = iVar8
+	} else  {
+		cc_setgraphic(697)
+		instr6091(script_1356, "Iii", -2147483645, instr6151(), 16777215)
+		instr6092(script_1356, "Iii", -2147483645, instr6151(), 16750623)
+		instr6091(script_1356, "Iii", -2147483645, instr6151(), 16777215)
+		instr6092(script_1356, "Iii", -2147483645, instr6151(), 16750623)
+		cc_setop(sVar0, 1)
+		cc_setop(sVar0, 1)
+		instr6687(script_2831, "iKi", -2147483644, iVar7, iVar2)
+		instr6687(script_2831, "iKi", -2147483644, iVar7, iVar2)
+	}
+	iVar4 = iVar4 + 1
+	iVar8 = iVar8 + 19
+}
+if(iVar8 > if_getheight(if_gethash(309, 10))) {
+	if_setsize(if_gethash(309, 10), 1, 1, 4, 20)
+	if_setscrollsize(20250634, iVar8, 0)
+	if(iVar9 < if_getscrolly(20250634))
+		if_setscrollpos(if_gethash(309, 10), iVar9 - 5, 0)
+	else
+		if(iVar9 + 19 >= if_getscrolly(20250634) + if_getheight(if_gethash(309, 10)))
+			if_setscrollpos(if_gethash(309, 10), (iVar9 + 25) - if_getheight(if_gethash(309, 10)), 0)
+	if_sethide(if_gethash(309, 11), 0)
+	script_31(20250635, 20250634, 792, 789, 790, 791, 773, 788)
+} else  {
+	if_setsize(if_gethash(309, 10), 1, 1, 4, 4)
+	if_setscrollsize(20250634, 0, 0)
+	if_setscrollpos(if_gethash(309, 10), 0, 0)
+	cc_deleteall(if_gethash(309, 11))
+	if_sethide(if_gethash(309, 11), 1)
+}
+cc_deleteall(if_gethash(309, 16))
+iVar5 = enum_getoutputcount(2345)
+iVar10 = 5
+iVar11 = 0
+if((((iVar5 - 1) / iVar10) + 1) * 21 > if_getheight(if_gethash(309, 16)))
+	iVar10 = 4
+iVar4 = 0
+iVar8 = 0
+iVar12 = 0
+iVar13 = -1
+iVar14 = 0
+while(iVar4 < iVar5) {
+	iVar14 = enum(2345, iVar4, 'i', 'i')
+	sVar0 = enum(2344, iVar4, 'i', 's')
+	cc_create(if_getnextsubid(if_gethash(309, 16)), 3, 20250640)
+	cc_setsize(0, 0, 21, 21)
+	cc_setfill(1)
+	cc_setposition(0, 0, iVar8, (iVar12 * cc_getwidth()) + iVar11)
+	cc_setcolor(0)
+	cc_setonmouseover(script_1160, "IiIsii", -2147483645, -2147483643, if_gethash(309, 22), sVar0, 0, 512)
+	instr6092(script_40, "I", if_gethash(309, 22))
+	cc_create(if_getnextsubid(if_gethash(309, 16)), 5, 20250640)
+	cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+	cc_setposition(0, 0, cc_gety(), cc_getx())
+	if(iVar14 == load_varc(1015)) {
+		cc_setgraphic(1043)
+		iVar9 = iVar8
+	} else  {
+		iVar13 = 1041
+		cc_setgraphic(iVar13)
+		instr6092(script_688, "Iid", -2147483645, instr6151(), iVar13)
+		iVar13 = 1042
+		instr6091(script_688, "Iid", -2147483645, instr6151(), iVar13)
+		cc_setop(sVar0, 1)
+		instr6687(script_2832, "ii", -2147483644, iVar14)
+	}
+	iVar4 = iVar4 + 1
+	if(iVar12 < iVar10 - 1)
+		iVar12 = iVar12 + 1
+	else {
+		iVar12 = 0
+		iVar8 = iVar8 + cc_getheight()
+	}
+}
+if(iVar12 != 0)
+	iVar8 = iVar8 + 21
+if(iVar8 > if_getheight(if_gethash(309, 16)) || iVar10 < 5) {
+	if_setsize(if_gethash(309, 16), 1, 1, 4, 20)
+	if_setscrollsize(20250640, iVar8, 0)
+	if(iVar9 < if_getscrolly(20250640))
+		if_setscrollpos(if_gethash(309, 16), iVar9 - 5, 0)
+	else
+		if(iVar9 + 21 >= if_getscrolly(20250640) + if_getheight(if_gethash(309, 16)))
+			if_setscrollpos(if_gethash(309, 16), (iVar9 + 25) - if_getheight(if_gethash(309, 16)), 0)
+	if_sethide(if_gethash(309, 17), 0)
+	script_31(20250641, 20250640, 792, 789, 790, 791, 773, 788)
+} else  {
+	if_setsize(if_gethash(309, 16), 1, 1, 4, 4)
+	if_setscrollsize(20250640, 0, 0)
+	if_setscrollpos(if_gethash(309, 16), 0, 0)
+	cc_deleteall(if_gethash(309, 17))
+	if_sethide(if_gethash(309, 17), 1)
+}
+return

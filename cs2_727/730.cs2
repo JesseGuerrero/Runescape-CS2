@@ -1,0 +1,11 @@
+//script730(730)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = inv_total(13650, 93)
+iVar4 = enum(1680, arg0, 'o', 'i')
+if_settext(arg1, to_string(iVar4) + " tokens")
+if(iVar4 > iVar3 || item_members(arg0) == 1 || world_members() == 0)
+	if_setcolor(arg2, 0xFF0000)
+else
+	if_setcolor(arg2, 0x1B801)
+return

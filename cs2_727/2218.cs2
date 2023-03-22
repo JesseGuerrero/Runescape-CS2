@@ -1,0 +1,13 @@
+//script2218(2218)()(void)
+store_varc(1126, load_varp(1675))
+store_varc(1127, load_varp(1676))
+store_varc(1128, load_varp(1677))
+store_varc(1129, load_varp(1678))
+store_varc(1131, load_varp(1680))
+store_varc(1130, load_varp(1679))
+store_varc(1132, load_varp(1682))
+store_varc(1134, load_varp(1684))
+store_varc(1133, load_varp(1683))
+store_varc(1135, load_varp(1681))
+script_2220()
+return

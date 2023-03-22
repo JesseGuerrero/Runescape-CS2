@@ -1,0 +1,49 @@
+void script_967(Widget widget0, Widget widget1, string string2, int arg3, int arg4) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	DataMap datamap8;
+	Item item9;
+	int4 = 1;
+	if (length(string2) > 0) {
+		int4 = 0;
+	}
+	int5 = 0;
+	int6 = 0;
+	int7 = 0;
+	datamap8 = 1124;
+	if (script_1942() == 1) {
+		datamap8 = 1735;
+	}
+	item9 = datamap('i', 'O', datamap8, int7);
+	while (item9 != null) {
+		if (CHILD.setChild(widget0, int7) == true) {
+			if (int4 == 1 || indexOf(lower(getItemName(item9)), string2, 0) != -1) {
+				CHILD.setHidden(false);
+				int6 = int5 / 10 * arg4;
+				CHILD.setPosition(int5 % 10 * (36 + arg3), int6, 0, 0);
+				int5 = int5 + 1;
+			} else {
+				CHILD.setHidden(true);
+			}
+		}
+		int7 = int7 + 1;
+		item9 = datamap('i', 'O', datamap8, int7);
+	}
+	if (CHILD.setChild(widget0, int7) == true) {
+		if (int5 > 0) {
+			CHILD.setHidden(true);
+		} else {
+			CHILD.setHidden(false);
+		}
+	}
+	int6 = int6 + 32;
+	if (int6 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int6);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	script_72(widget1, widget0, getScrollY(widget0));
+	return;
+}

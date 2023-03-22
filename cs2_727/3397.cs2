@@ -1,0 +1,22 @@
+//script3397(3397)()(void)
+int iVar0
+int iVar1
+if_settext(if_gethash(979, 18), load_varc_string(279))
+iVar0 = 2568
+iVar1 = 2569
+if(compare("", load_varc_string(279)) != 0) {
+	if_settext(if_gethash(979, 40), "Report : Select Player")
+	if_settrans(if_gethash(979, 10), 0)
+	if_settrans(if_gethash(979, 11), 0)
+	if_settrans(if_gethash(979, 12), 0)
+	if_settrans(if_gethash(979, 13), 0)
+	hook_mouse_enter(if_gethash(979, 9), script_3071, "IdIdId", if_gethash(979, 10), iVar0, if_gethash(979, 11), iVar1, if_gethash(979, 12), iVar0)
+} else  {
+	if_settext(if_gethash(979, 40), "Report : Select Player")
+	if_settrans(if_gethash(979, 10), 100)
+	if_settrans(if_gethash(979, 11), 100)
+	if_settrans(if_gethash(979, 12), 100)
+	if_settrans(if_gethash(979, 13), 100)
+	hook_mouse_enter(if_gethash(979, 9), None, "")
+}
+return

@@ -1,0 +1,8 @@
+//script2565(2565)()(void)
+int iVar0
+iVar0 = 0
+store_varc(846, load_varpbit(6380))
+if_settext(if_gethash(863, 30), to_string(load_varpbit(6380)))
+iVar0 = load_varc(839) - (100 * load_varc(846))
+if_settext(if_gethash(863, 14), script_46(iVar0, ","))
+return

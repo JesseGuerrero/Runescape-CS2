@@ -1,0 +1,20 @@
+//script4266(4266)()(void)
+script_4267()
+script_4274()
+if_settext(if_gethash(1083, 85), "")
+if_settext(if_gethash(1083, 87), "Select a reward for more information.")
+if_settext(if_gethash(1083, 89), "")
+if_sethide(if_gethash(1083, 90), 1)
+if_sethide(if_gethash(1083, 164), 1)
+if_sethide(if_gethash(1083, 159), 1)
+if_sethide(if_gethash(1083, 157), 0)
+if_sethide(if_gethash(1083, 158), 0)
+if_sethide(if_gethash(1083, 165), 0)
+if(load_varpbit(9067) < 11) {
+	script_4270()
+	if_settext(if_gethash(1083, 85), "Spells")
+} else  {
+	script_4272()
+	if_settext(if_gethash(1083, 85), "Wishes")
+}
+return

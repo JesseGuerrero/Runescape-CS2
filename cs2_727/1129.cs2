@@ -1,0 +1,10 @@
+//script1129(1129)()(void)
+instr6666(41, 36)
+pop_2_int()
+if(load_varc(987) == 1 || load_varc(987) == 0)
+	detailset_customcursor(load_varc(987))
+else {
+	store_varc(987, 1)
+	detailset_customcursor(load_varc(987))
+}
+return

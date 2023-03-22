@@ -1,0 +1,45 @@
+//script2468(2468)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, string arg8)(void)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+if(load_varc(1) < client_clock() + 25) {
+	if(load_varc(1) < client_clock())
+		store_varc(1, client_clock())
+	store_varc(1, load_varc(1) + 2)
+	return
+}
+store_varc(1, (client_clock() + 25) + 10)
+if(load_varc(2) != 1) {
+	iVar10 = parawidth(arg0, arg7, 2147483647) + 8
+	iVar11 = paramheight(arg0, arg7, iVar10)
+	if(iVar11 > 1)
+		iVar11 = iVar11 * 15
+	else
+		iVar11 = 17
+	if(cc_find(arg1, arg0) == 1) {
+		iVar8 = ((if_getx(arg4) + cc_getx()) + arg2) + 3
+		iVar9 = (((if_gety(arg4) + cc_gety()) + arg3) - iVar11) - if_getscrolly(arg4)
+	} else 
+		return
+	if(iVar8 < 0)
+		iVar8 = 0
+	else
+		if(iVar8 + iVar10 > if_getx(arg4) + if_getwidth(arg4))
+			iVar8 = iVar8 - ((iVar8 + iVar10) - (if_getx(arg4) + if_getwidth(arg4)))
+	if(iVar9 < 0)
+		iVar9 = 0
+	else
+		if(iVar9 + iVar11 > if_gety(arg4) + if_getheight(arg4))
+			iVar9 = iVar9 - ((iVar9 + iVar11) - (if_gety(arg4) + if_getheight(arg4)))
+	if_sethide(arg5, 0)
+	if_setsize(arg5, 0, 0, iVar11, iVar10)
+	if_setposition(arg5, 0, 0, iVar9, iVar8)
+	if_settext(arg6, arg0)
+	store_varc(2, 1)
+}
+return

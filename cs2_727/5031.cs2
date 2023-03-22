@@ -1,0 +1,3 @@
+//script5031(5031)(int arg0)(int)
+return arg0 & 255
+return 0

@@ -1,0 +1,34 @@
+void script_1278(int arg0) {
+	Widget widget1;
+	int int2;
+	int int3;
+	int int4;
+	widget1 = datamap('i', 'I', 1302, arg0);
+	int2 = 0;
+	int3 = 0;
+	int4 = 0;
+	int2, int3, int4 = script_1279(arg0);
+	if (int4 <= 0) {
+		if (CHILD.setChild(widget1, 3) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget1, 6) == true) {
+			CHILD.setText(str(int2));
+		}
+		if (CHILD.setChild(widget1, 7) == true) {
+			CHILD.setHidden(true);
+		}
+	} else {
+		if (CHILD.setChild(widget1, 3) == true) {
+			CHILD.setHidden(false);
+			CHILD.setText(str(int2));
+		}
+		if (CHILD.setChild(widget1, 6) == true) {
+			CHILD.setText(str(int3));
+		}
+		if (CHILD.setChild(widget1, 7) == true) {
+			CHILD.setHidden(false);
+		}
+	}
+	return;
+}

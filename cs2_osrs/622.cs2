@@ -1,0 +1,18 @@
+void script_622(Widget widget0) {
+	int int1;
+	int int2;
+	int int3;
+	widget0.clearChildren();
+	int1 = 0;
+	int2 = 0;
+	int3 = 0;
+	while (int2 < 100) {
+		while (int3 < 32) {
+			CHILD.createChild(widget0, 3, int1);
+			CHILD.setHidden(true);
+			int3, int1 = int3 + 1, int1 + 1;
+		}
+		int2, int3 = int2 + 1, 0;
+	}
+	return;
+}

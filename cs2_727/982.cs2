@@ -1,0 +1,1186 @@
+//script982(982)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1205, 1, "You can now wield " + "<col=000080>" + "bronze daggers" + "</col>" + ".", "Bronze dagger"
+
+			case 1:
+				return 1351, 1, "You can now wield " + "<col=000080>" + "bronze hatchets" + "</col>" + ".", "Bronze hatchet"
+
+			case 2:
+				return 1422, 1, "You can now wield " + "<col=000080>" + "bronze maces" + "</col>" + ".", "Bronze mace"
+
+			case 3:
+				return 3095, 1, "Members can now wield " + "<col=000080>" + "bronze claws" + "</col>" + ".", "Members: Bronze claws"
+
+			case 4:
+				return 1277, 1, "You can now wield " + "<col=000080>" + "bronze swords" + "</col>" + ".", "Bronze sword"
+
+			case 5:
+				return 1291, 1, "You can now wield " + "<col=000080>" + "bronze longswords" + "</col>" + ".", "Bronze longsword"
+
+			case 6:
+				return 1321, 1, "You can now wield " + "<col=000080>" + "bronze scimitars" + "</col>" + ".", "Bronze scimitar"
+
+			case 7:
+				return 1237, 1, "Members can now wield " + "<col=000080>" + "bronze spears" + "</col>" + ".", "Members: Bronze spear"
+
+			case 8:
+				return 1337, 1, "You can now wield " + "<col=000080>" + "bronze warhammers" + "</col>" + ".", "Bronze warhammer"
+
+			case 9:
+				return 1375, 1, "You can now wield " + "<col=000080>" + "bronze battleaxes" + "</col>" + ".", "Bronze battleaxe"
+
+			case 10:
+				return 1307, 1, "You can now wield " + "<col=000080>" + "bronze two-handed swords" + "</col>" + ".", "Bronze two-handed sword"
+
+			case 11:
+				return 3190, 1, "Members can now wield " + "<col=000080>" + "bronze halberds" + "</col>" + ".", "Members: Bronze halberd"
+
+			case 12:
+				return 8844, 1, "Members can now wield " + "<col=000080>" + "bronze defenders" + "</col>" + ".", "Members: Bronze defender"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1203, 1, "You can now wield " + "<col=000080>" + "iron daggers" + "</col>" + ".", "Iron dagger"
+
+			case 1:
+				return 1349, 1, "You can now wield " + "<col=000080>" + "iron hatchets" + "</col>" + ".", "Iron hatchet"
+
+			case 2:
+				return 1420, 1, "You can now wield " + "<col=000080>" + "iron maces" + "</col>" + ".", "Iron mace"
+
+			case 3:
+				return 3096, 1, "Members can now wield " + "<col=000080>" + "iron claws" + "</col>" + ".", "Members: Iron claws"
+
+			case 4:
+				return 1279, 1, "You can now wield " + "<col=000080>" + "iron swords" + "</col>" + ".", "Iron sword"
+
+			case 5:
+				return 1293, 1, "You can now wield " + "<col=000080>" + "iron longswords" + "</col>" + ".", "Iron longsword"
+
+			case 6:
+				return 1323, 1, "You can now wield " + "<col=000080>" + "iron scimitars" + "</col>" + ".", "Iron scimitar"
+
+			case 7:
+				return 20533, 1, "Members can now wield " + "<col=000080>" + "iron ceremonial swords" + "</col>" + ".", "Members: Iron Ceremonial Sword"
+
+			case 8:
+				return 1239, 1, "Members can now wield " + "<col=000080>" + "iron spears" + "</col>" + ".", "Members: Iron spear"
+
+			case 9:
+				return 1335, 1, "You can now wield " + "<col=000080>" + "iron warhammers" + "</col>" + ".", "Iron warhammer"
+
+			case 10:
+				return 1363, 1, "You can now wield " + "<col=000080>" + "iron battleaxes" + "</col>" + ".", "Iron battleaxe"
+
+			case 11:
+				return 1309, 1, "You can now wield " + "<col=000080>" + "iron two-handed swords" + "</col>" + ".", "Iron two-handed sword"
+
+			case 12:
+				return 3192, 1, "Members can now wield " + "<col=000080>" + "iron halberds" + "</col>" + ".", "Members: Iron halberd"
+
+			case 13:
+				return 8845, 1, "Members can now wield " + "<col=000080>" + "iron defenders" + "</col>" + ".", "Members: Iron defender"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1207, 5, "You can now wield " + "<col=000080>" + "steel daggers" + "</col>" + ".", "Steel dagger"
+
+			case 1:
+				return 1353, 5, "You can now wield " + "<col=000080>" + "steel hatchets" + "</col>" + ".", "Steel hatchet"
+
+			case 2:
+				return 1424, 5, "You can now wield " + "<col=000080>" + "steel maces" + "</col>" + ".", "Steel mace"
+
+			case 3:
+				return 3097, 5, "Members can now wield " + "<col=000080>" + "steel claws" + "</col>" + ".", "Members: Steel claws"
+
+			case 4:
+				return 1281, 5, "You can now wield " + "<col=000080>" + "steel swords" + "</col>" + ".", "Steel sword"
+
+			case 5:
+				return 1295, 5, "You can now wield " + "<col=000080>" + "steel longswords" + "</col>" + ".", "Steel longsword"
+
+			case 6:
+				return 1325, 5, "You can now wield " + "<col=000080>" + "steel scimitars" + "</col>" + ".", "Steel scimitar"
+
+			case 7:
+				return 20538, 5, "Members can now wield " + "<col=000080>" + "steel ceremonial swords" + "</col>" + ".", "Members: Steel Ceremonial Sword"
+
+			case 8:
+				return 1241, 5, "Members can now wield " + "<col=000080>" + "steel spears" + "</col>" + ".", "Members: Steel spear"
+
+			case 9:
+				return 1339, 5, "You can now wield " + "<col=000080>" + "steel warhammers" + "</col>" + ".", "Steel warhammer"
+
+			case 10:
+				return 1365, 5, "You can now wield " + "<col=000080>" + "steel battleaxes" + "</col>" + ".", "Steel battleaxe"
+
+			case 11:
+				return 1311, 5, "You can now wield " + "<col=000080>" + "steel two-handed swords" + "</col>" + ".", "Steel two-handed sword"
+
+			case 12:
+				return 3194, 5, "Members can now wield " + "<col=000080>" + "steel halberds" + "</col>" + ".", "Members: Steel halberd"
+
+			case 13:
+				return 8846, 5, "Members now have the Attack level required to wield " + "<col=000080>" + "steel defenders" + "</col>" + ". (They also need level 5 Defence.)", "Members: Steel defender" + "<br>" + " (with 5 Defence)"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1217, 10, "You can now wield " + "<col=000080>" + "black daggers" + "</col>" + ".", "Black dagger"
+
+			case 1:
+				return 1361, 10, "You can now wield " + "<col=000080>" + "black hatchets" + "</col>" + ".", "Black hatchet"
+
+			case 2:
+				return 1426, 10, "You can now wield " + "<col=000080>" + "black maces" + "</col>" + ".", "Black mace"
+
+			case 3:
+				return 3098, 10, "Members can now wield " + "<col=000080>" + "black claws" + "</col>" + ".", "Members: Black claws"
+
+			case 4:
+				return 1283, 10, "You can now wield " + "<col=000080>" + "black swords" + "</col>" + ".", "Black sword"
+
+			case 5:
+				return 1297, 10, "You can now wield " + "<col=000080>" + "black longswords" + "</col>" + ".", "Black longsword"
+
+			case 6:
+				return 1327, 10, "You can now wield " + "<col=000080>" + "black scimitars" + "</col>" + ".", "Black scimitar"
+
+			case 7:
+				return 4580, 10, "Members can now wield " + "<col=000080>" + "black spears" + "</col>" + ".", "Members: Black spear"
+
+			case 8:
+				return 1341, 10, "You can now wield " + "<col=000080>" + "black warhammers" + "</col>" + ".", "Black warhammer"
+
+			case 9:
+				return 1367, 10, "You can now wield " + "<col=000080>" + "black battleaxes" + "</col>" + ".", "Black battleaxe"
+
+			case 10:
+				return 1313, 10, "You can now wield " + "<col=000080>" + "black two-handed swords" + "</col>" + ".", "Black two-handed sword"
+
+			case 11:
+				return 3196, 10, "Members can now wield " + "<col=000080>" + "black halberds" + "</col>" + ".", "Members: Black halberd"
+
+			case 12:
+				return 8847, 10, "Members now have the Attack level required to wield " + "<col=000080>" + "black defenders" + "</col>" + ". (They also need level 10 Defence.)", "Members: Black defender" + "<br>" + " (with 10 Defence)"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To wield any white equipment, you must have completed Wanted!."
+
+			case 1:
+				return 6591, 10, "Members can now wield " + "<col=000080>" + "white daggers" + "</col>" + " (after finishing Wanted!).", "Members: White dagger"
+
+			case 2:
+				return 6601, 10, "Members can now wield " + "<col=000080>" + "white maces" + "</col>" + " (after finishing Wanted!).", "Members: White mace"
+
+			case 3:
+				return 6587, 10, "Members can now wield " + "<col=000080>" + "white claws" + "</col>" + " (after finishing Wanted!).", "Members: White claws"
+
+			case 4:
+				return 6605, 10, "Members can now wield " + "<col=000080>" + "white swords" + "</col>" + " (after finishing Wanted!).", "Members: White sword"
+
+			case 5:
+				return 6607, 10, "Members can now wield " + "<col=000080>" + "white longswords" + "</col>" + " (after finishing Wanted!).", "Members: White longsword"
+
+			case 6:
+				return 6611, 10, "Members can now wield " + "<col=000080>" + "white scimitars" + "</col>" + " (after finishing Wanted!).", "Members: White scimitar"
+
+			case 7:
+				return 6613, 10, "Members can now wield " + "<col=000080>" + "white warhammers" + "</col>" + " (after finishing Wanted!).", "Members: White warhammer"
+
+			case 8:
+				return 6589, 10, "Members can now wield " + "<col=000080>" + "white battleaxes" + "</col>" + " (after finishing Wanted!).", "Members: White battleaxe"
+
+			case 9:
+				return 6609, 10, "Members can now wield " + "<col=000080>" + "white two-handed swords" + "</col>" + " (after finishing Wanted!).", "Members: White two-handed sword"
+
+			case 10:
+				return 6599, 10, "Members can now wield " + "<col=000080>" + "white halberds" + "</col>" + " (after finishing Wanted!).", "Members: White halberd"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1209, 20, "You can now wield mithril daggers" + "</col>" + ".", "Mithril dagger"
+
+			case 1:
+				return 1355, 20, "You can now wield mithril hatchets" + "</col>" + ".", "Mithril hatchet"
+
+			case 2:
+				return 1428, 20, "You can now wield mithril maces" + "</col>" + ".", "Mithril mace"
+
+			case 3:
+				return 3099, 20, "Members can now wield mithril claws" + "</col>" + ".", "Members: Mithril claws"
+
+			case 4:
+				return 1285, 20, "You can now wield mithril swords" + "</col>" + ".", "Mithril sword"
+
+			case 5:
+				return 1299, 20, "You can now wield mithril longswords" + "</col>" + ".", "Mithril longsword"
+
+			case 6:
+				return 1329, 20, "You can now wield mithril scimitars" + "</col>" + ".", "Mithril scimitar"
+
+			case 7:
+				return 20543, 20, "Members can now wield " + "<col=000080>" + "mithril ceremonial swords" + "</col>" + ".", "Members: Mithril Ceremonial Sword"
+
+			case 8:
+				return 1243, 20, "Members can now wield mithril spears" + "</col>" + ".", "Members: Mithril spear"
+
+			case 9:
+				return 1343, 20, "You can now wield mithril warhammers" + "</col>" + ".", "Mithril warhammer"
+
+			case 10:
+				return 1369, 20, "You can now wield mithril battleaxes" + "</col>" + ".", "Mithril battleaxe"
+
+			case 11:
+				return 1315, 20, "You can now wield mithril two-handed swords" + "</col>" + ".", "Mithril two-handed sword"
+
+			case 12:
+				return 3198, 20, "Members can now wield mithril halberds" + "</col>" + ".", "Members: Mithril halberd"
+
+			case 13:
+				return 8848, 20, "Members now have the Attack level required to wield mithril defenders" + "</col>" + ". (They also need level 20 Defence.)", "Members: Mithril defender" + "<br>" + " (with 20 Defence)"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1211, 30, "You can now wield " + "<col=000080>" + "adamant daggers" + "</col>" + ".", "Adamant dagger"
+
+			case 1:
+				return 1357, 30, "You can now wield " + "<col=000080>" + "adamant hatchets" + "</col>" + ".", "Adamant hatchet"
+
+			case 2:
+				return 1430, 30, "You can now wield " + "<col=000080>" + "adamant maces" + "</col>" + ".", "Adamant mace"
+
+			case 3:
+				return 3100, 30, "Members can now wield " + "<col=000080>" + "adamant claws" + "</col>" + ".", "Members: Adamant claws"
+
+			case 4:
+				return 1287, 30, "You can now wield " + "<col=000080>" + "adamant swords" + "</col>" + ".", "Adamant sword"
+
+			case 5:
+				return 1301, 30, "You can now wield " + "<col=000080>" + "adamant longswords" + "</col>" + ".", "Adamant longsword"
+
+			case 6:
+				return 1331, 30, "You can now wield " + "<col=000080>" + "adamant scimitars" + "</col>" + ".", "Adamant scimitar"
+
+			case 7:
+				return 20548, 30, "Members can now wield " + "<col=000080>" + "adamant ceremonial swords" + "</col>" + ".", "Members: Adamant Ceremonial Sword"
+
+			case 8:
+				return 1245, 30, "Members can now wield " + "<col=000080>" + "adamant spears" + "</col>" + ".", "Members: Adamant spear"
+
+			case 9:
+				return 1345, 30, "You can now wield " + "<col=000080>" + "adamant warhammers" + "</col>" + ".", "Adamant warhammer"
+
+			case 10:
+				return 1371, 30, "You can now wield " + "<col=000080>" + "adamant battleaxes" + "</col>" + ".", "Adamant battleaxe"
+
+			case 11:
+				return 1317, 30, "You can now wield " + "<col=000080>" + "adamant two-handed swords" + "</col>" + ".", "Adamant two-handed sword"
+
+			case 12:
+				return 3200, 30, "Members can now wield " + "<col=000080>" + "adamant halberds" + "</col>" + ".", "Members: Adamant halberd"
+
+			case 13:
+				return 8849, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "adamant defenders" + "</col>" + ". (They also need level 30 Defence.)", "Members: Adamant defender" + "<br>" + " (with 30 Defence)"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1213, 40, "You can now wield " + "<col=000080>" + "rune daggers" + "</col>" + ".", "Rune dagger"
+
+			case 1:
+				return 1359, 40, "You can now wield " + "<col=000080>" + "rune hatchets" + "</col>" + ".", "Rune hatchet"
+
+			case 2:
+				return 1432, 40, "You can now wield " + "<col=000080>" + "rune maces" + "</col>" + ".", "Rune mace"
+
+			case 3:
+				return 3101, 40, "Members can now wield " + "<col=000080>" + "rune claws" + "</col>" + ".", "Members: Rune claws"
+
+			case 4:
+				return 1289, 40, "You can now wield " + "<col=000080>" + "rune swords" + "</col>" + ".", "Rune sword"
+
+			case 5:
+				return 1303, 40, "You can now wield " + "<col=000080>" + "rune longswords" + "</col>" + ".", "Rune longsword"
+
+			case 6:
+				return 1333, 40, "You can now wield " + "<col=000080>" + "rune scimitars" + "</col>" + ".", "Rune scimitar"
+
+			case 7:
+				return 20553, 40, "Members can now wield " + "<col=000080>" + "rune ceremonial swords" + "</col>" + ".", "Members: Rune Ceremonial Sword"
+
+			case 8:
+				return 1247, 40, "Members can now wield " + "<col=000080>" + "rune spears" + "</col>" + ".", "Members: Rune spear"
+
+			case 9:
+				return 1347, 40, "You can now wield " + "<col=000080>" + "rune warhammers" + "</col>" + ".", "Rune warhammer"
+
+			case 10:
+				return 1373, 40, "You can now wield " + "<col=000080>" + "rune battleaxes" + "</col>" + ".", "Rune battleaxe"
+
+			case 11:
+				return 1319, 40, "You can now wield " + "<col=000080>" + "rune two-handed swords" + "</col>" + ".", "Rune two-handed sword"
+
+			case 12:
+				return 3202, 40, "Members can now wield " + "<col=000080>" + "rune halberds" + "</col>" + ".", "Members: Rune halberd"
+
+			case 13:
+				return 8850, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "rune defenders" + "</col>" + ". (They also need level 40 Defence.)", "Members: Rune defender" + "<br>" + " (with 40 Defence)"
+
+
+		}
+		break
+	case 8:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1215, 60, "Members can now wield " + "<col=000080>" + "dragon daggers" + "</col>" + " (after Lost City).", "Members: Dragon dagger" + "<br>" + " (after Lost City)"
+
+			case 1:
+				return 6739, 60, "Members can now wield " + "<col=000080>" + "dragon hatchets" + "</col>" + ".", "Members: Dragon hatchet"
+
+			case 2:
+				return 1434, 60, "Members can now wield " + "<col=000080>" + "dragon maces" + "</col>" + " (after Heroes' Quest).", "Members: Dragon mace" + "<br>" + " (after Heroes' Quest)"
+
+			case 3:
+				return 14484, 60, "Members can now wield " + "<col=000080>" + "dragon claws" + "</col>" + ".", "Members: Dragon claws"
+
+			case 4:
+				return 1305, 60, "Members can now wield " + "<col=000080>" + "dragon longswords" + "</col>" + " (after Lost City).", "Members: Dragon longsword" + "<br>" + " (after Lost City)"
+
+			case 5:
+				return 4587, 60, "Members can now wield " + "<col=000080>" + "dragon scimitars" + "</col>" + " (after Monkey Madness).", "Members: Dragon scimitar" + "<br>" + " (after Monkey Madness)"
+
+			case 6:
+				return 1249, 60, "Members can now wield " + "<col=000080>" + "dragon spears" + "</col>" + ".", "Members: Dragon spear"
+
+			case 7:
+				return 1377, 60, "Members can now wield " + "<col=000080>" + "dragon battleaxes" + "</col>" + " (after Heroes' Quest).", "Members: Dragon battleaxe" + "<br>" + " (after Heroes' Quest)"
+
+			case 8:
+				return 7158, 60, "Members can now wield " + "<col=000080>" + "dragon two-handed swords" + "</col>" + ".", "Members: Dragon two-handed sword"
+
+			case 9:
+				return 3204, 60, "Members can now wield " + "<col=000080>" + "dragon halberds" + "</col>" + " (after Regicide).", "Members: Dragon halberd" + "<br>" + " (after Regicide)"
+
+			case 10:
+				return 15259, 60, "Members can now wield " + "<col=000080>" + "dragon pickaxes" + "</col>" + ".", "Members: Dragon pickaxe"
+
+			case 11:
+				return 20072, 60, "Members now have the Attack level required to wield " + "<col=000080>" + "dragon defenders" + "</col>" + ". (They also need level 60 Defence.)", "Members: Dragon defender" + "<br>" + " (with 60 Defence)"
+
+			case 12:
+				return 13976, 60, "You can now wield " + "<col=000080>" + "corrupt dragon daggers" + "</col>" + ".", "Corrupt dragon dagger"
+
+			case 13:
+				return 13985, 60, "You can now wield " + "<col=000080>" + "corrupt dragon maces" + "</col>" + ".", "Corrupt dragon mace"
+
+			case 14:
+				return 13982, 60, "You can now wield " + "<col=000080>" + "corrupt dragon longswords" + "</col>" + ".", "Corrupt dragon longsword"
+
+			case 15:
+				return 13979, 60, "You can now wield " + "<col=000080>" + "corrupt dragon scimitars" + "</col>" + ".", "Corrupt dragon scimitar"
+
+			case 16:
+				return 13988, 60, "You can now wield " + "<col=000080>" + "corrupt dragon spears" + "</col>" + ".", "Corrupt dragon spear"
+
+			case 17:
+				return 13973, 60, "You can now wield " + "<col=000080>" + "corrupt dragon battleaxes" + "</col>" + ".", "Corrupt dragon battleaxe"
+
+
+		}
+		break
+	case 9:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 4710, 70, "Members now have the Attack level required to wield " + "<col=000080>" + "Ahrim's staff" + "</col>" + ". (They also need level 70 Magic.)", "Members: Ahrim's staff" + "<br>" + " (with 70 Magic)"
+
+			case 1:
+				return 4718, 70, "Members now have the Attack level required to wield " + "<col=000080>" + "Dharok's greataxe" + "</col>" + ". (They also need level 70 Strength.)", "Members: Dharok's greataxe" + "<br>" + " (with 70 Strength)"
+
+			case 2:
+				return 4726, 70, "Members can now wield " + "<col=000080>" + "Guthan's spear" + "</col>" + ".", "Members: Guthan's spear"
+
+			case 3:
+				return 4747, 70, "Members now have the Attack level required to wield " + "<col=000080>" + "Torag's hammers" + "</col>" + ". (They also need level 70 Strength.)", "Members: Torag's hammers" + "<br>" + " (with 70 Strength)"
+
+			case 4:
+				return 4755, 70, "Members can now wield " + "<col=000080>" + "Verac's flail" + "</col>" + ".", "Members: Verac's flail"
+
+			case 5:
+				return 21744, 70, "Members now have the Attack level required to wield " + "<col=000080>" + "Akrisae's war mace" + "</col>" + " (after Ritual of the Mahjarrat and with 70 Magic and 70 Prayer).", "Members: Akrisae's war mace" + "<br>" + " (After Ritual of the Mahjarrat and with level 70 Magic and 70 Prayer)"
+
+
+		}
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21340, 1, "Members can now wield a " + "<col=000080>" + "Dwarven Army Axe" + "</col>" + ".", "Members: Dwarven Army Axe"
+
+			case 1:
+				return 15596, 1, "You can now wield " + "<col=000080>" + "Reese's sword" + "</col>" + " (after starting The Blood Pact).", "Reese's sword" + "<br>" + " (after The Blood Pact)"
+
+			case 2:
+				return 2402, 1, "You can now wield " + "<col=000080>" + "Silverlight" + "</col>" + " (after starting Demon Slayer).", "Silverlight" + "<br>" + " (after Demon Slayer)"
+
+			case 3:
+				return 6746, 1, "Members can now wield " + "<col=000080>" + "Darklight" + "</col>" + " (after Shadow of the Storm).", "Members: Darklight" + "<br>" + " (after Shadow of the Storm)"
+
+			case 4:
+				return 2952, 1, "Members can now wield the " + "<col=000080>" + "Wolfbane Dagger" + "</col>" + " (after Priest in Peril.", "Members: Wolfbane Dagger" + "<br>" + " (after Priest in Peril)"
+
+			case 5:
+				return 746, 1, "Members can now wield the " + "<col=000080>" + "Dark Dagger" + "</col>" + ".", "Members: Dark Dagger"
+
+			case 6:
+				return 667, 1, "You can now wield the " + "<col=000080>" + "Faladian/Blurite Sword" + "</col>" + " (after starting The Knight's Sword).", "Faladian/Blurite Sword" + "<br>" + " (after starting The Knight's Sword)"
+
+			case 7:
+				return 10858, 1, "Members can now wield the " + "<col=000080>" + "Shadow Sword" + "</col>" + ".", "Members: Shadow Sword"
+
+			case 8:
+				return 5016, 1, "Members can now wield " + "<col=000080>" + "bone spears" + "</col>" + ".", "Members: Bone spear"
+
+			case 9:
+				return 5018, 1, "Members can now wield " + "<col=000080>" + "bone clubs" + "</col>" + ".", "Members: Bone club"
+
+			case 10:
+				return 8872, 1, "Members can now wield " + "<col=000080>" + "bone daggers" + "</col>" + ".", "Members: Bone dagger"
+
+			case 11:
+				return 6760, 1, "Members can now wield the " + "<col=000080>" + "Guthix Mjolnir" + "</col>" + " (after Making History).", "Members: Guthix Mjolnir" + "<br>" + " (after Making History)"
+
+			case 12:
+				return 6762, 1, "Members can now wield the " + "<col=000080>" + "Saradomin Mjolnir" + "</col>" + " after completing Making History.", "Members: Saradomin Mjolnir" + "<br>" + " (after Making History)"
+
+			case 13:
+				return 6764, 1, "Members can now wield the " + "<col=000080>" + "Zamorak Mjolnir" + "</col>" + " (after Making History).", "Members: Zamorak Mjolnir" + "<br>" + " (after Making History)"
+
+			case 14:
+				return 7668, 1, "Members can now wield the " + "<col=000080>" + "Gadderhammer" + "</col>" + " (after starting In Aid of the Myreque).", "Members: Gadderhammer" + "<br>" + " (after starting In Aid of the Myreque)"
+
+			case 15:
+				return 10491, 1, "Members can now wield the " + "<col=000080>" + "Blessed Axe" + "</col>" + " (after starting Animal Magnetism).", "Members: Blessed Axe" + "<br>" + " (after starting Animal Magnetism)"
+
+			case 16:
+				return 13661, 1, "Members can now wield the " + "<col=000080>" + "Inferno Adze" + "</col>" + " (after All Fired Up).", "Members: Inferno Adze" + "<br>" + " (after All Fired Up and with 92 Firemaking)"
+
+			case 17:
+				return 4068, 5, "Members can now wield " + "<col=000080>" + "basic decorative swords" + "</col>" + ".", "Members: Basic decorative sword"
+
+			case 18:
+				return 12570, 5, "Members can now wield " + "<col=000080>" + "ogre clubs" + "</col>" + ".", "Members: Ogre club"
+
+			case 19:
+				return 11061, 15, "Members now have the Attack level required to wield the " + "<col=000080>" + "Ancient Mace" + "</col>" + " (after Another Slice of H.A.M. and with level 25 Prayer).", "Members: Ancient Mace" + "<br>" + " (after Another Slice of H.A.M. and with 25 Prayer)"
+
+			case 20:
+				return 35, 20, "Members can now wield " + "<col=000080>" + "Excalibur" + "</col>" + " (after starting Merlin's Crystal).", "Members: Excalibur" + "<br>" + " (after starting Merlin's Crystal)"
+
+			case 21:
+				return 4503, 20, "Members can now wield " + "<col=000080>" + "detailed decorative swords" + "</col>" + ".", "Members: Detailed decorative sword"
+
+			case 22:
+				return 13926, 20, "Members now have the Attack level required to wield " + "<col=000080>" + "corrupt Statius's warhammer" + "</col>" + ".", "Members: Corrupt Statius's warhammer"
+
+			case 23:
+				return 13923, 20, "Members now have the Attack level required to wield " + "<col=000080>" + "corrupt Vesta's longsword" + "</col>" + ".", "Members: Corrupt Vesta's longsword"
+
+			case 24:
+				return 13929, 20, "Members now have the Attack level required to wield " + "<col=000080>" + "corrupt Vesta's spear" + "</col>" + ".", "Members: Corrupt Vesta's spear"
+
+			case 25:
+				return 13941, 20, "Members now have the Attack level required to wield " + "<col=000080>" + "corrupt Zuriel's staff" + "</col>" + " (with level 20 Magic).", "Members: Corrupt Zuriel's staff" + "<br>" + " (with 20 Magic)"
+
+			case 26:
+				return 1397, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "air battlestaves" + "</col>" + ". (They also need level 30 Magic.)", "Members: Air battlestaff" + "<br>" + " (with 30 Magic)"
+
+			case 27:
+				return 1399, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "earth battlestaves" + "</col>" + ". (They also need level 30 Magic.)", "Members: Earth battlestaff" + "<br>" + " (with 30 Magic)"
+
+			case 28:
+				return 1393, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "fire battlestaves" + "</col>" + ". (They also need level 30 Magic.)", "Members: Fire battlestaff" + "<br>" + " (with 30 Magic)"
+
+			case 29:
+				return 1395, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "water battlestaves" + "</col>" + ". (They also need level 30 Magic.)", "Members: Water battlestaff" + "<br>" + " (with 30 Magic)"
+
+			case 30:
+				return 3053, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "lava battlestaves" + "</col>" + ". (They also need level 30 Magic.)", "Members: Lava battlestaff" + "<br>" + " (with 30 Magic)"
+
+			case 31:
+				return 6562, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "mud battlestaves" + "</col>" + ". (They also need level 30 Magic.)", "Members: Mud battlestaff" + "<br>" + " (with 30 Magic)"
+
+			case 32:
+				return 21502, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "skeletal battlestaves" + "</col>" + ". (They also need level 30 Magic.)", "Members: Skeletal battlestaves" + "<br>" + " (with 30 Magic)"
+
+			case 33:
+				return 4508, 30, "Members can now wield " + "<col=000080>" + "intricate decorative swords" + "</col>" + ".", "Members: Intricate decorative sword"
+
+			case 34:
+				return 3757, 30, "Members can now wield " + "<col=000080>" + "Fremennik blades" + "</col>" + ".", "Members: Fremennik blade"
+
+			case 35:
+				return 21536, 30, "Members can now wield " + "<col=000080>" + "the Sceptre of the gods" + "</col>" + ". (They also need level 30 Magic.)", "Members: Sceptre of the gods" + "<br>" + " (with 30 Magic)"
+
+			case 36:
+				return 18341, 40, "You can now use " + "<col=000080>" + "nature staves" + "</col>" + ". (You also need level 53 Magic and level 53 Dungeoneering.)", "Nature staff" + "<br>" + " (with 53 Magic and 53 Dungeoneering)"
+
+			case 37:
+				return 18342, 40, "You can now use " + "<col=000080>" + "law staves" + "</col>" + ". (You also need level 45 Magic and level 45 Dungeoneering.)", "Law staff" + "<br>" + " (with 45 Magic and 45 Dungeoneering)"
+
+			case 38:
+				return 1405, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "mystic air staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic air staff" + "<br>" + " (with 40 Magic)"
+
+			case 39:
+				return 1407, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "mystic earth staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic earth staff" + "<br>" + " (with 40 Magic)"
+
+			case 40:
+				return 1401, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "mystic fire staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic fire staff" + "<br>" + " (with 40 Magic)"
+
+			case 41:
+				return 1403, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "mystic water staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic water staff" + "<br>" + " (with 40 Magic)"
+
+			case 42:
+				return 3054, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "mystic lava staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic lava staff" + "<br>" + " (with 40 Magic)"
+
+			case 43:
+				return 6563, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "mystic mud staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic mud staff" + "<br>" + " (with 40 Magic)"
+
+			case 44:
+				return 21498, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "necromancer staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Necromancer staves" + "<br>" + " (with 40 Magic)"
+
+			case 45:
+				return 11738, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "mystic steam staves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic steam staff" + "<br>" + " (with 40 Magic)"
+
+			case 46:
+				return 11037, 40, "Members can now wield " + "<col=000080>" + "brine sabres" + "</col>" + ".", "Members: Brine sabre"
+
+			case 47:
+				return 14097, 40, "Members can now wield " + "<col=000080>" + "sacred clay swords" + "</col>" + ".", "Members: Sacred clay sword"
+
+			case 48:
+				return 4508, 40, "Members can now wield " + "<col=000080>" + "profound decorative swords" + "</col>" + ".", "Members: Profound decorative sword"
+
+			case 49:
+				return 19323, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "dragon staves" + "</col>" + ". (They also need level 40 Magic, level 60 Prayer and level 20 Defence.)", "Members: Dragon staff" + "<br>" + " (with 40 Magic, 60 Prayer and 20 Defence)"
+
+			case 50:
+				return 19325, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "penguin staves" + "</col>" + ". (They also need level 40 Magic, level 60 Prayer and level 20 Defence.)", "Members: Penguin staff" + "<br>" + " (with 40 Magic, 60 Prayer and 20 Defence)"
+
+			case 51:
+				return 19327, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "bat staves" + "</col>" + ". (They also need level 40 Magic, level 60 Prayer and level 20 Defence.)", "Members: Bat staff" + "<br>" + " (with 40 Magic, 60 Prayer and 20 Defence)"
+
+			case 52:
+				return 19329, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "wolf staves" + "</col>" + ". (They also need level 40 Magic, level 60 Prayer and level 20 Defence.)", "Members: Wolf staff" + "<br>" + " (with 40 Magic, 60 Prayer and 20 Defence)"
+
+			case 53:
+				return 19331, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "cat staves" + "</col>" + ". (They also need level 40 Magic, level 60 Prayer and level 20 Defence.)", "Members: Cat staff" + "<br>" + " (with 40 Magic, 60 Prayer and 20 Defence)"
+
+			case 54:
+				return 21777, 40, "Members now have the Attack level required to wield " + "<col=000080>" + "Armadyl battle staves" + "</col>" + ". (They also need level 77 Magic.)", "Members: Armadyl battlestaff" + "<br>" + " (with 77 Magic)"
+
+			case 55:
+				return 11665, 42, "Members now have the Attack level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + ".", "Members: Void melee helm"
+
+			case 56:
+				return 11664, 42, "Members now have the Attack level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + ".", "Members: Void ranger helm"
+
+			case 57:
+				return 11663, 42, "Members now have the Attack level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + ".", "Members: Void mage helm"
+
+			case 58:
+				return 8839, 42, "Members now have the Attack level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + ".", "Members: Void knight top"
+
+			case 59:
+				return 8840, 42, "Members now have the Attack level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + ".", "Members: Void knight robe"
+
+			case 60:
+				return 8842, 42, "Members now have the Attack level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + ".", "Members: Void knight gloves"
+
+			case 61:
+				return 19712, 42, "Members now have the Attack level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + ".", "Members: Void knight deflector"
+
+			case 62:
+				return 8841, 42, "Members now have the Attack level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + ".", "Members: Void knight mace"
+
+			case 63:
+				return 7620, 42, "<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", "Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."
+
+			case 64:
+				return 18365, 45, "You can now wield " + "<col=000080>" + "gravite rapiers" + "</col>" + ". (You also need level 45 Dungeoneering.)", "Gravite rapier" + "<br>" + " (with 45 Dungeoneering)"
+
+			case 65:
+				return 18367, 45, "You can now wield " + "<col=000080>" + "gravite longswords" + "</col>" + ". (You also need level 45 Dungeoneering.)", "Gravite longsword" + "<br>" + " (with 45 Dungeoneering)"
+
+			case 66:
+				return 18369, 45, "You can now wield " + "<col=000080>" + "gravite two-handed swords" + "</col>" + ". (You also need level 45 Dungeoneering.)", "Gravite two-handed sword" + "<br>" + " (with 45 Dungeoneering)"
+
+			case 67:
+				return 4158, 50, "Members now have the Attack level required to wield " + "<col=000080>" + "leaf-bladed spears" + "</col>" + ": melee weapons used for killing turoth and kurask. (They also need level 55 Slayer.)", "Members: Leaf-bladed spear" + "<br>" + " (with 55 Slayer)"
+
+			case 68:
+				return 4675, 50, "Members now have the Attack level required to wield the " + "<col=000080>" + "Ancient Staff" + "</col>" + " (after Desert Treasure and with level 50 Magic).", "Members: Ancient Staff" + "<br>" + " (after Desert Treasure and with 50 Magic)"
+
+			case 69:
+				return 1409, 50, "Members now have the Attack level required to wield " + "<col=000080>" + "Iban's Staff" + "</col>" + " (after Underground Pass and with level 50 Magic).", "Members: Iban's Staff" + "<br>" + " (after Underground Pass and with 50 Magic)"
+
+			case 70:
+				return 4153, 50, "Members can now wield " + "<col=000080>" + "granite mauls" + "</col>" + ". (They also need level 50 Strength.)", "Members: Granite maul" + "<br>" + " (with 50 Strength)"
+
+			case 71:
+				return 14679, 50, "Members can now wield " + "<col=000080>" + "granite maces" + "</col>" + ". (They also need level 50 Strength.)", "Members: Granite mace" + "<br>" + " (with 50 Strength)"
+
+			case 72:
+				return 10581, 50, "Members can now wield " + "<col=000080>" + "Keris" + "</col>" + " (after Contact!).", "Members: Keris" + "<br>" + " (after Contact!)"
+
+			case 73:
+				return 13290, 50, "Members can now wield " + "<col=000080>" + "leaf-bladed swords" + "</col>" + ". (They also need level 55 Slayer).", "Members: Leaf-bladed swords" + "<br>" + " (with 55 Slayer)"
+
+			case 74:
+				return 10887, 60, "Members now have the Attack level required to wield the " + "<col=000080>" + "Barrelchest Anchor" + "</col>" + " (after Great Brain Robbery, with level 40 Strength).", "Members: Barrelchest Anchor" + "<br>" + " (after Great Brain Robbery and with 40 Strength)"
+
+			case 75:
+				return 6523, 60, "Members can now wield " + "<col=000080>" + "TokTz-Xil-Ak" + "</col>" + ".", "Members: TokTz-Xil-Ak"
+
+			case 76:
+				return 6527, 60, "Members can now wield " + "<col=000080>" + "TzHaar-Ket-Em" + "</col>" + ".", "Members: TzHaar-Ket-Em"
+
+			case 77:
+				return 6525, 60, "Members can now wield " + "<col=000080>" + "TokTz-Xil-Ek" + "</col>" + ".", "Members: TokTz-Xil-Ek"
+
+			case 78:
+				return 6526, 60, "Members now have the Attack level required to wield " + "<col=000080>" + "Toktz-Mej-Tal" + "</col>" + ". (They also need level 60 Magic.)", "Members: Toktz-Mej-Tal" + "<br>" + " (with 60 Magic)"
+
+			case 79:
+				return 20671, 60, "Members can now wield " + "<col=000080>" + "Brackish Blades" + "</col>" + ".", "Members: Brackish Blade"
+
+			case 80:
+				return 19669, 62, "Members can now wear " + "<col=000080>" + "rings of vigour" + "</col>" + ". (They also need level 62 Dungeoneering.)", "Members: Ring of vigour" + "<br>" + " (with 62 Dungeoneering)"
+
+			case 81:
+				return 4151, 70, "Members can now wield " + "<col=000080>" + "abyssal whips" + "</col>" + ".", "Members: Abyssal whip"
+
+			case 82:
+				return 15485, 70, "Members can now wield " + "<col=000080>" + "penance master tridents" + "</col>" + ". (They also need level 70 Magic.)", "Members: Penance master trident (with 70 Magic)"
+
+			case 83:
+				return 11730, 70, "Members can now wield " + "<col=000080>" + "Saradomin swords" + "</col>" + ".", "Members: Saradomin sword"
+
+			case 84:
+				return 11716, 70, "Members can now wield " + "<col=000080>" + "Zamorakian spears" + "</col>" + ".", "Members: Zamorakian spear"
+
+			case 85:
+				return 21582, 70, "Members can now wield " + "<col=000080>" + "blisterwood polearms" + "</col>" + " (after The Branches of Darkmeyer.)", "Members: Blisterwood polearm (after The Branches of Darkmeyer)"
+
+			case 86:
+				return 11694, 75, "Members can now wield the " + "<col=000080>" + "Armadyl godsword" + "</col>" + ".", "Members: Armadyl godsword"
+
+			case 87:
+				return 11696, 75, "Members can now wield the " + "<col=000080>" + "Bandos godsword" + "</col>" + ".", "Members: Bandos godsword"
+
+			case 88:
+				return 11698, 75, "Members can now wield the " + "<col=000080>" + "Saradomin godsword" + "</col>" + ".", "Members: Saradomin godsword"
+
+			case 89:
+				return 11700, 75, "Members can now wield the " + "<col=000080>" + "Zamorak godsword" + "</col>" + ".", "Members: Zamorak godsword"
+
+			case 90:
+				return 15403, 75, "Members can now wield " + "<col=000080>" + "Balmung" + "</col>" + " (after Blood Runs Deep, with 75 Strength).", "Members: Balmung (after Blood Runs Deep and with 75 Strength)"
+
+			case 91:
+				return 15486, 75, "Members can now wield the " + "<col=000080>" + "Staff of Light" + "</col>" + " (with 75 Magic).", "Members: Staff of Light (with 75 Magic)"
+
+			case 92:
+				return 21787, 75, "Members now have the Attack level required to wear " + "<col=000080>" + "steadfast boots" + "</col>" + " (with 75 Defence).", "Members: Steadfast boots" + "<br>" + " (with 75 Defence)"
+
+			case 93:
+				return 13902, 78, "Members now have the Attack level required to wield " + "<col=000080>" + "Statius's warhammer" + "</col>" + ".", "Members: Statius's warhammer"
+
+			case 94:
+				return 13899, 78, "Members now have the Attack level required to wield " + "<col=000080>" + "Vesta's longsword" + "</col>" + ".", "Members: Vesta's longsword"
+
+			case 95:
+				return 13905, 78, "Members now have the Attack level required to wield " + "<col=000080>" + "Vesta's spear" + "</col>" + ".", "Members: Vesta's spear"
+
+			case 96:
+				return 13867, 78, "Members now have the Attack level required to wield " + "<col=000080>" + "Zuriel's staff" + "</col>" + " (with level 78 Magic).", "Members: Zuriel's staff" + "<br>" + " (with 78 Magic)"
+
+			case 97:
+				return 22358, 80, "Members can now wear " + "<col=000080>" + "goliath gloves" + "</col>" + ".", "Members: Dominion goliath gloves"
+
+			case 98:
+				return 18349, 80, "Members can now wield " + "<col=000080>" + "chaotic rapiers" + "</col>" + ". (They also need level 80 Dungeoneering.)", "Members: Chaotic rapier" + "<br>" + " (with 80 Dungeoneering)"
+
+			case 99:
+				return 18351, 80, "Members can now wield " + "<col=000080>" + "chaotic longswords" + "</col>" + ". (They also need level 80 Dungeoneering.)", "Members: Chaotic longsword" + "<br>" + " (with 80 Dungeoneering)"
+
+			case 100:
+				return 18353, 80, "Members can now wield " + "<col=000080>" + "chaotic mauls" + "</col>" + ". (They also need level 80 Dungeoneering.)", "Members: Chaotic maul" + "<br>" + " (with 80 Dungeoneering)"
+
+			case 101:
+				return 21371, 85, "Members now have the Attack level required to wield " + "<col=000080>" + "abyssal vine whips" + "</col>" + ". (They also need level 80 Slayer.)", "Members: Abyssal vine whip" + "<br>" + " (with 80 Slayer)"
+
+
+		}
+		break
+	case 11:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 10149, 30, "Members now have the Attack level required to wield " + "<col=000080>" + "swamp lizards" + "</col>" + ". (They also need level 30 Magic and level 30 Ranged.)", "Members: Swamp lizard" + "<br>" + " (with 30 Magic and 30 Ranged)"
+
+			case 1:
+				return 10146, 50, "Members now have the Attack level required to wield " + "<col=000080>" + "orange salamanders" + "</col>" + ". (They also need level 50 Magic and level 50 Ranged.)", "Members: Orange salamander" + "<br>" + " (with 50 Magic and 50 Ranged)"
+
+			case 2:
+				return 10147, 60, "Members now have the Attack level required to wield " + "<col=000080>" + "red salamanders" + "</col>" + ". (They also need level 60 Magic and level 60 Ranged.)", "Members: Red salamander" + "<br>" + " (with 60 Magic and 60 Ranged)"
+
+			case 3:
+				return 10148, 70, "Members now have the Attack level required to wield " + "<col=000080>" + "black salamanders" + "</col>" + ". (They also need level 70 Magic and level 70 Ranged.)", "Members: Black salamander" + "<br>" + " (with 70 Magic and 70 Ranged)"
+
+
+		}
+		break
+	case 12:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14297, 1, "Members can now wield " + "<col=000080>" + "class 1 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 dagger"
+
+			case 1:
+				return 14287, 1, "Members can now wield " + "<col=000080>" + "class 1 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 scimitar"
+
+			case 2:
+				return 14307, 1, "Members can now wield " + "<col=000080>" + "class 1 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 warhammer"
+
+			case 3:
+				return 14299, 20, "Members can now wield " + "<col=000080>" + "class 2 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 dagger"
+
+			case 4:
+				return 14289, 20, "Members can now wield " + "<col=000080>" + "class 2 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 scimitar"
+
+			case 5:
+				return 14309, 20, "Members can now wield " + "<col=000080>" + "class 2 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 warhammer"
+
+			case 6:
+				return 14301, 40, "Members can now wield " + "<col=000080>" + "class 3 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 dagger"
+
+			case 7:
+				return 14291, 40, "Members can now wield " + "<col=000080>" + "class 3 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 scimitar"
+
+			case 8:
+				return 14311, 40, "Members can now wield " + "<col=000080>" + "class 3 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 warhammer"
+
+			case 9:
+				return 14303, 60, "Members can now wield " + "<col=000080>" + "class 4 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 dagger"
+
+			case 10:
+				return 14293, 60, "Members can now wield " + "<col=000080>" + "class 4 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 scimitar"
+
+			case 11:
+				return 14313, 60, "Members can now wield " + "<col=000080>" + "class 4 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 warhammer"
+
+			case 12:
+				return 14305, 80, "Members can now wield " + "<col=000080>" + "class 5 daggers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 dagger"
+
+			case 13:
+				return 14295, 80, "Members can now wield " + "<col=000080>" + "class 5 scimitars" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 scimitar"
+
+			case 14:
+				return 14315, 80, "Members can now wield " + "<col=000080>" + "class 5 warhammers" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 warhammer"
+
+			case 15:
+				return 22346, 90, "Members can now wield the " + "<col=000080>" + "Dominion sword" + "</col>" + " in the Dominion Tower.", "Members: Dominion Tower - Dominion sword"
+
+			case 16:
+				return 22347, 90, "Members can now wield the " + "<col=000080>" + "Dominion staff" + "</col>" + " in the Dominion Tower. (They also need level 90 Magic).", "Members: Dominion Tower - Dominion staff" + "<br>" + " (with 90 magic)"
+
+
+		}
+		break
+	case 13:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 16757, 1, "You can now wield " + "<col=000080>" + "novite daggers" + "</col>" + " within Daemonheim.", "Novite dagger (Tier 1)"
+
+			case 1:
+				return 16935, 1, "You can now wield " + "<col=000080>" + "novite rapiers" + "</col>" + " within Daemonheim.", "Novite rapier (Tier 1)"
+
+			case 2:
+				return 16383, 1, "You can now wield " + "<col=000080>" + "novite longswords" + "</col>" + " within Daemonheim.", "Novite longsword (Tier 1)"
+
+			case 3:
+				return 15753, 1, "You can now wield " + "<col=000080>" + "novite battleaxes" + "</col>" + " within Daemonheim.", "Novite battleaxe (Tier 1)"
+
+			case 4:
+				return 16889, 1, "You can now wield " + "<col=000080>" + "novite 2h swords" + "</col>" + " within Daemonheim.", "Novite 2h swords (Tier 1)"
+
+			case 5:
+				return 17063, 1, "You can now wield " + "<col=000080>" + "novite spears" + "</col>" + " within Daemonheim.", "Novite spears (Tier 1)"
+
+			case 6:
+				return 17019, 1, "You can now wield " + "<col=000080>" + "novite warhammers" + "</col>" + " within Daemonheim.", "Novite warhammer (Tier 1)"
+
+			case 7:
+				return 16361, 1, "You can now wield " + "<col=000080>" + "novite hatchets" + "</col>" + " within Daemonheim.", "Novite hatchet (Tier 1)"
+
+			case 8:
+				return 16295, 1, "You can now wield " + "<col=000080>" + "novite pickaxes" + "</col>" + " within Daemonheim.", "Novite pickaxe (Tier 1)"
+
+			case 9:
+				return 16765, 10, "You can now wield " + "<col=000080>" + "bathus daggers" + "</col>" + " within Daemonheim.", "Bathus dagger (Tier 2)"
+
+			case 10:
+				return 16937, 10, "You can now wield " + "<col=000080>" + "bathus rapiers" + "</col>" + " within Daemonheim.", "Bathus rapier (Tier 2)"
+
+			case 11:
+				return 16385, 10, "You can now wield " + "<col=000080>" + "bathus longswords" + "</col>" + " within Daemonheim.", "Bathus longsword (Tier 2)"
+
+			case 12:
+				return 15755, 10, "You can now wield " + "<col=000080>" + "bathus battleaxes" + "</col>" + " within Daemonheim.", "Bathus battleaxe (Tier 2)"
+
+			case 13:
+				return 16891, 10, "You can now wield " + "<col=000080>" + "bathus 2h swords" + "</col>" + " within Daemonheim.", "Bathus 2h swords (Tier 2)"
+
+			case 14:
+				return 17071, 10, "You can now wield " + "<col=000080>" + "bathus spears" + "</col>" + " within Daemonheim.", "Bathus spears (Tier 2)"
+
+			case 15:
+				return 17021, 10, "You can now wield " + "<col=000080>" + "bathus warhammers" + "</col>" + " within Daemonheim.", "Bathus warhammer (Tier 2)"
+
+			case 16:
+				return 16363, 10, "You can now wield " + "<col=000080>" + "bathus hatchets" + "</col>" + " within Daemonheim.", "Bathus hatchet (Tier 2)"
+
+			case 17:
+				return 16297, 10, "You can now wield " + "<col=000080>" + "bathus pickaxes" + "</col>" + " within Daemonheim.", "Bathus pickaxe (Tier 2)"
+
+			case 18:
+				return 16773, 20, "You can now wield " + "<col=000080>" + "marmaros daggers" + "</col>" + " within Daemonheim.", "Marmaros dagger (Tier 3)"
+
+			case 19:
+				return 16939, 20, "You can now wield " + "<col=000080>" + "marmaros rapiers" + "</col>" + " within Daemonheim.", "Marmaros rapier (Tier 3)"
+
+			case 20:
+				return 16387, 20, "You can now wield " + "<col=000080>" + "marmaros longswords" + "</col>" + " within Daemonheim.", "Marmaros longsword (Tier 3)"
+
+			case 21:
+				return 15757, 20, "You can now wield " + "<col=000080>" + "marmaros battleaxes" + "</col>" + " within Daemonheim.", "Marmaros battleaxe (Tier 3)"
+
+			case 22:
+				return 16893, 20, "You can now wield " + "<col=000080>" + "marmaros 2h swords" + "</col>" + " within Daemonheim.", "Marmaros 2h swords (Tier 3)"
+
+			case 23:
+				return 17079, 20, "You can now wield " + "<col=000080>" + "marmaros spears" + "</col>" + " within Daemonheim.", "Marmaros spears (Tier 3)"
+
+			case 24:
+				return 17023, 20, "You can now wield " + "<col=000080>" + "marmaros warhammers" + "</col>" + " within Daemonheim.", "Marmaros warhammer (Tier 3)"
+
+			case 25:
+				return 16365, 20, "You can now wield " + "<col=000080>" + "marmaros hatchets" + "</col>" + " within Daemonheim.", "Marmaros hatchet (Tier 3)"
+
+			case 26:
+				return 16299, 20, "You can now wield " + "<col=000080>" + "marmaros pickaxes" + "</col>" + " within Daemonheim.", "Marmaros pickaxe (Tier 3)"
+
+			case 27:
+				return 16781, 30, "You can now wield " + "<col=000080>" + "kratonite daggers" + "</col>" + " within Daemonheim.", "Kratonite dagger (Tier 4)"
+
+			case 28:
+				return 16941, 30, "You can now wield " + "<col=000080>" + "kratonite rapiers" + "</col>" + " within Daemonheim.", "Kratonite rapier (Tier 4)"
+
+			case 29:
+				return 16389, 30, "You can now wield " + "<col=000080>" + "kratonite longswords" + "</col>" + " within Daemonheim.", "Kratonite longsword (Tier 4)"
+
+			case 30:
+				return 15759, 30, "You can now wield " + "<col=000080>" + "kratonite battleaxes" + "</col>" + " within Daemonheim.", "Kratonite battleaxe (Tier 4)"
+
+			case 31:
+				return 16895, 30, "You can now wield " + "<col=000080>" + "kratonite 2h swords" + "</col>" + " within Daemonheim.", "Kratonite 2h swords (Tier 4)"
+
+			case 32:
+				return 17087, 30, "You can now wield " + "<col=000080>" + "kratonite spears" + "</col>" + " within Daemonheim.", "Kratonite spears (Tier 4)"
+
+			case 33:
+				return 17025, 30, "You can now wield " + "<col=000080>" + "kratonite warhammers" + "</col>" + " within Daemonheim.", "Kratonite warhammer (Tier 4)"
+
+			case 34:
+				return 16367, 30, "You can now wield " + "<col=000080>" + "kratonite hatchets" + "</col>" + " within Daemonheim.", "Kratonite hatchet (Tier 4)"
+
+			case 35:
+				return 16301, 30, "You can now wield " + "<col=000080>" + "kratonite pickaxes" + "</col>" + " within Daemonheim.", "Kratonite pickaxe (Tier 4)"
+
+			case 36:
+				return 17275, 36, "Members can now wield " + "<col=000080>" + "frostbite daggers" + "</col>" + " within Daemonheim. (They also need level 36 Magic.)", "Members: Frostbite dagger" + "<br>" + " (with 36 Magic)"
+
+			case 37:
+				return 16789, 40, "You can now wield " + "<col=000080>" + "fractite daggers" + "</col>" + " within Daemonheim.", "Fractite dagger (Tier 5)"
+
+			case 38:
+				return 16943, 40, "You can now wield " + "<col=000080>" + "fractite rapiers" + "</col>" + " within Daemonheim.", "Fractite rapier (Tier 5)"
+
+			case 39:
+				return 16391, 40, "You can now wield " + "<col=000080>" + "fractite longswords" + "</col>" + " within Daemonheim.", "Fractite longsword (Tier 5)"
+
+			case 40:
+				return 15761, 40, "You can now wield " + "<col=000080>" + "fractite battleaxes" + "</col>" + " within Daemonheim.", "Fractite battleaxe (Tier 5)"
+
+			case 41:
+				return 16897, 40, "You can now wield " + "<col=000080>" + "fractite 2h swords" + "</col>" + " within Daemonheim.", "Fractite 2h swords (Tier 5)"
+
+			case 42:
+				return 17095, 40, "You can now wield " + "<col=000080>" + "fractite spears" + "</col>" + " within Daemonheim.", "Fractite spears (Tier 5)"
+
+			case 43:
+				return 17027, 40, "You can now wield " + "<col=000080>" + "fractite warhammers" + "</col>" + " within Daemonheim.", "Fractite warhammer (Tier 5)"
+
+			case 44:
+				return 16369, 40, "You can now wield " + "<col=000080>" + "fractite hatchets" + "</col>" + " within Daemonheim.", "Fractite hatchet (Tier 5)"
+
+			case 45:
+				return 16303, 40, "You can now wield " + "<col=000080>" + "fractite pickaxes" + "</col>" + " within Daemonheim.", "Fractite pickaxe (Tier 5)"
+
+			case 46:
+				return 16797, 50, "Members can now wield " + "<col=000080>" + "zephyrium daggers" + "</col>" + " within Daemonheim.", "Members: Zephyrium dagger (Tier 6)"
+
+			case 47:
+				return 16945, 50, "Members can now wield " + "<col=000080>" + "zephyrium rapiers" + "</col>" + " within Daemonheim.", "Members: Zephyrium rapier (Tier 6)"
+
+			case 48:
+				return 16393, 50, "Members can now wield " + "<col=000080>" + "zephyrium longswords" + "</col>" + " within Daemonheim.", "Members: Zephyrium longsword (Tier 6)"
+
+			case 49:
+				return 15763, 50, "Members can now wield " + "<col=000080>" + "zephyrium battleaxes" + "</col>" + " within Daemonheim.", "Members: Zephyrium battleaxe (Tier 6)"
+
+			case 50:
+				return 16899, 50, "Members can now wield " + "<col=000080>" + "zephyrium 2h swords" + "</col>" + " within Daemonheim.", "Members: Zephyrium 2h swords (Tier 6)"
+
+			case 51:
+				return 17103, 50, "Members can now wield " + "<col=000080>" + "zephyrium spears" + "</col>" + " within Daemonheim.", "Members: Zephyrium spears (Tier 6)"
+
+			case 52:
+				return 17029, 50, "Members can now wield " + "<col=000080>" + "zephyrium warhammers" + "</col>" + " within Daemonheim.", "Members: Zephyrium warhammer (Tier 6)"
+
+			case 53:
+				return 16371, 50, "Members can now wield " + "<col=000080>" + "zephyrium hatchets" + "</col>" + " within Daemonheim.", "Members: Zephyrium hatchet (Tier 6)"
+
+			case 54:
+				return 16305, 50, "Members can now wield " + "<col=000080>" + "zephyrium pickaxes" + "</col>" + " within Daemonheim.", "Members: Zephyrium pickaxe (Tier 6)"
+
+			case 55:
+				return 16805, 60, "Members can now wield " + "<col=000080>" + "argonite daggers" + "</col>" + " within Daemonheim.", "Members: Argonite dagger (Tier 7)"
+
+			case 56:
+				return 16947, 60, "Members can now wield " + "<col=000080>" + "argonite rapiers" + "</col>" + " within Daemonheim.", "Members: Argonite rapier (Tier 7)"
+
+			case 57:
+				return 16395, 60, "Members can now wield " + "<col=000080>" + "argonite longswords" + "</col>" + " within Daemonheim.", "Members: Argonite longsword (Tier 7)"
+
+			case 58:
+				return 15765, 60, "Members can now wield " + "<col=000080>" + "argonite battleaxes" + "</col>" + " within Daemonheim.", "Members: Argonite battleaxe (Tier 7)"
+
+			case 59:
+				return 16901, 60, "Members can now wield " + "<col=000080>" + "argonite 2h swords" + "</col>" + " within Daemonheim.", "Members: Argonite 2h swords (Tier 7)"
+
+			case 60:
+				return 17111, 60, "Members can now wield " + "<col=000080>" + "argonite spears" + "</col>" + " within Daemonheim.", "Members: Argonite spears (Tier 7)"
+
+			case 61:
+				return 17031, 60, "Members can now wield " + "<col=000080>" + "argonite warhammers" + "</col>" + " within Daemonheim.", "Members: Argonite warhammer (Tier 7)"
+
+			case 62:
+				return 16373, 60, "Members can now wield " + "<col=000080>" + "argonite hatchets" + "</col>" + " within Daemonheim.", "Members: Argonite hatchet (Tier 7)"
+
+			case 63:
+				return 16307, 60, "Members can now wield " + "<col=000080>" + "argonite pickaxes" + "</col>" + " within Daemonheim.", "Members: Argonite pickaxe (Tier 7)"
+
+			case 64:
+				return 17275, 68, "Members can now wield " + "<col=000080>" + "hailstorm daggers" + "</col>" + " within Daemonheim. (They also need level 68 Magic)", "Members: Hailstorm dagger" + "<br>" + " (with 68 Magic)"
+
+			case 65:
+				return 17293, 68, "Members can now wield " + "<col=000080>" + "doomcore staves" + "</col>" + " within Daemonheim. (They also need level 68 Magic.)", "Members: Doomcore staff" + "<br>" + " (with 68 Magic)"
+
+			case 66:
+				return 16813, 70, "Members can now wield " + "<col=000080>" + "katagon daggers" + "</col>" + " within Daemonheim.", "Members: Katagon dagger (Tier 8)"
+
+			case 67:
+				return 16949, 70, "Members can now wield " + "<col=000080>" + "katagon rapiers" + "</col>" + " within Daemonheim.", "Members: Katagon rapier (Tier 8)"
+
+			case 68:
+				return 16397, 70, "Members can now wield " + "<col=000080>" + "katagon longswords" + "</col>" + " within Daemonheim.", "Members: Katagon longsword (Tier 8)"
+
+			case 69:
+				return 15767, 70, "Members can now wield " + "<col=000080>" + "katagon battleaxes" + "</col>" + " within Daemonheim.", "Members: Katagon battleaxe (Tier 8)"
+
+			case 70:
+				return 16903, 70, "Members can now wield " + "<col=000080>" + "katagon 2h swords" + "</col>" + " within Daemonheim.", "Members: Katagon 2h swords (Tier 8)"
+
+			case 71:
+				return 17119, 70, "Members can now wield " + "<col=000080>" + "katagon spears" + "</col>" + " within Daemonheim.", "Members: Katagon spears (Tier 8)"
+
+			case 72:
+				return 17033, 70, "Members can now wield " + "<col=000080>" + "katagon warhammers" + "</col>" + " within Daemonheim.", "Members: Katagon warhammer (Tier 8)"
+
+			case 73:
+				return 16375, 70, "Members can now wield " + "<col=000080>" + "katagon hatchets" + "</col>" + " within Daemonheim.", "Members: Katagon hatchet (Tier 8)"
+
+			case 74:
+				return 16309, 70, "Members can now wield " + "<col=000080>" + "katagon pickaxes" + "</col>" + " within Daemonheim.", "Members: Katagon pickaxe (Tier 8)"
+
+			case 75:
+				return 16821, 80, "Members can now wield " + "<col=000080>" + "gorgonite daggers" + "</col>" + " within Daemonheim.", "Members: Gorgonite dagger (Tier 9)"
+
+			case 76:
+				return 16951, 80, "Members can now wield " + "<col=000080>" + "gorgonite rapiers" + "</col>" + " within Daemonheim.", "Members: Gorgonite rapier (Tier 9)"
+
+			case 77:
+				return 16399, 80, "Members can now wield " + "<col=000080>" + "gorgonite longswords" + "</col>" + " within Daemonheim.", "Members: Gorgonite longsword (Tier 9)"
+
+			case 78:
+				return 15769, 80, "Members can now wield " + "<col=000080>" + "gorgonite battleaxes" + "</col>" + " within Daemonheim.", "Members: Gorgonite battleaxe (Tier 9)"
+
+			case 79:
+				return 16905, 80, "Members can now wield " + "<col=000080>" + "gorgonite 2h swords" + "</col>" + " within Daemonheim.", "Members: Gorgonite 2h swords (Tier 9)"
+
+			case 80:
+				return 17127, 80, "Members can now wield " + "<col=000080>" + "gorgonite spears" + "</col>" + " within Daemonheim.", "Members: Gorgonite spears (Tier 9)"
+
+			case 81:
+				return 17035, 80, "Members can now wield " + "<col=000080>" + "gorgonite warhammers" + "</col>" + " within Daemonheim.", "Members: Gorgonite warhammer (Tier 9)"
+
+			case 82:
+				return 16377, 80, "Members can now wield " + "<col=000080>" + "gorgonite hatchets" + "</col>" + " within Daemonheim.", "Members: Gorgonite hatchet (Tier 9)"
+
+			case 83:
+				return 16311, 80, "Members can now wield " + "<col=000080>" + "gorgonite pickaxes" + "</col>" + " within Daemonheim.", "Members: Gorgonite pickaxe (Tier 9)"
+
+			case 84:
+				return 16829, 90, "Members can now wield " + "<col=000080>" + "promethium daggers" + "</col>" + " within Daemonheim.", "Members: Promethium dagger (Tier 10)"
+
+			case 85:
+				return 16953, 90, "Members can now wield " + "<col=000080>" + "promethium rapiers" + "</col>" + " within Daemonheim.", "Members: Promethium rapier (Tier 10)"
+
+			case 86:
+				return 16401, 90, "Members can now wield " + "<col=000080>" + "promethium longswords" + "</col>" + " within Daemonheim.", "Members: Promethium longsword (Tier 10)"
+
+			case 87:
+				return 15771, 90, "Members can now wield " + "<col=000080>" + "promethium battleaxes" + "</col>" + " within Daemonheim.", "Members: Promethium battleaxe (Tier 10)"
+
+			case 88:
+				return 16907, 90, "Members can now wield " + "<col=000080>" + "promethium 2h swords" + "</col>" + " within Daemonheim.", "Members: Promethium 2h swords (Tier 10)"
+
+			case 89:
+				return 17135, 90, "Members can now wield " + "<col=000080>" + "promethium spears" + "</col>" + " within Daemonheim.", "Members: Promethium spears (Tier 10)"
+
+			case 90:
+				return 17037, 90, "Members can now wield " + "<col=000080>" + "promethium warhammers" + "</col>" + " within Daemonheim.", "Members: Promethium warhammer (Tier 10)"
+
+			case 91:
+				return 16379, 90, "Members can now wield " + "<col=000080>" + "promethium hatchets" + "</col>" + " within Daemonheim.", "Members: Promethium hatchet (Tier 10)"
+
+			case 92:
+				return 16313, 90, "Members can now wield " + "<col=000080>" + "promethium pickaxes" + "</col>" + " within Daemonheim.", "Members: Promethium pickaxe (Tier 10)"
+
+			case 93:
+				return 16837, 99, "Members can now wield " + "<col=000080>" + "primal daggers" + "</col>" + " within Daemonheim.", "Members: Primal dagger (Tier 11)"
+
+			case 94:
+				return 16955, 99, "Members can now wield " + "<col=000080>" + "primal rapiers" + "</col>" + " within Daemonheim.", "Members: Primal rapier (Tier 11)"
+
+			case 95:
+				return 16403, 99, "Members can now wield " + "<col=000080>" + "primal longswords" + "</col>" + " within Daemonheim.", "Members: Primal longsword (Tier 11)"
+
+			case 96:
+				return 15773, 99, "Members can now wield " + "<col=000080>" + "primal battleaxes" + "</col>" + " within Daemonheim.", "Members: Primal battleaxe (Tier 11)"
+
+			case 97:
+				return 16909, 99, "Members can now wield " + "<col=000080>" + "primal 2h swords" + "</col>" + " within Daemonheim.", "Members: Primal 2h swords (Tier 11)"
+
+			case 98:
+				return 17143, 99, "Members can now wield " + "<col=000080>" + "primal spears" + "</col>" + " within Daemonheim.", "Members: Primal spears (Tier 11)"
+
+			case 99:
+				return 17039, 99, "Members can now wield " + "<col=000080>" + "primal warhammers" + "</col>" + " within Daemonheim.", "Members: Primal warhammer (Tier 11)"
+
+			case 100:
+				return 16381, 99, "Members can now wield " + "<col=000080>" + "primal hatchets" + "</col>" + " within Daemonheim.", "Members: Primal hatchet (Tier 11)"
+
+			case 101:
+				return 16315, 99, "Members can now wield " + "<col=000080>" + "primal pickaxes" + "</col>" + " within Daemonheim.", "Members: Primal pickaxe (Tier 11)"
+
+
+		}
+		break
+	case 14:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 20070, -1, "", "You can enter the Warriors' Guild when your Attack and Strength levels add up to 130 or more, or when you reach level 99 in either Attack or Strength."
+
+			case 1:
+				return 9747, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Attack" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "Ajjat" + "<col=000080>" + " at the " + "<col=800000>" + "Warriors' Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Attack" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

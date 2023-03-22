@@ -1,0 +1,16 @@
+//script5413(5413)()(void)
+string sVar0
+sVar0 = "Shows a 'Report' option when right-clicking on other players or chat."
+if_setonmouseover(if_gethash(261, 28), script_5332, "IIsii", -2147483645, if_gethash(261, 31), sVar0, 25, 180)
+hook_mouse_exit(if_gethash(261, 28), script_40, "I", if_gethash(261, 31))
+store_varc(2, 0)
+if(load_varpbit(9982) == 1) {
+	if_setgraphic(if_gethash(261, 6), 6004)
+	if_setgraphic(if_gethash(261, 7), 6005)
+} else  {
+	if_setgraphic(if_gethash(261, 6), 6009)
+	if_setgraphic(if_gethash(261, 7), 6010)
+}
+script_84()
+script_89()
+return

@@ -1,0 +1,4 @@
+//script2989(2989)()(void)
+if_sethide(if_gethash(72, 58), 1)
+if_sethide(if_gethash(72, 56), 0)
+return

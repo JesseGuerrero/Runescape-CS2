@@ -1,0 +1,24 @@
+//script3278(3278)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+iVar4 = 0
+iVar5 = 0
+switch(arg3) {
+	case default:
+		break
+	case 1:
+		iVar4 = if_getwidth(if_gethash(942, 3)) / 4
+		iVar5 = if_getheight(if_gethash(942, 3)) / 4
+		break
+	case 2:
+		iVar4 = if_getwidth(if_gethash(942, 3)) / 4
+		break
+
+}
+cc_create(load_varc(1149), 5, 61734915)
+store_varc(1149, load_varc(1149) + 1)
+cc_setsize(0, 0, 32, 32)
+cc_setgraphic(arg2)
+cc_setposition(2, 0, (arg1 * 32) + iVar5, (arg0 * 32) + iVar4)
+cc_sethide(0)
+return

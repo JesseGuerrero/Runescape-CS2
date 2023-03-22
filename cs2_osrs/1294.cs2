@@ -1,0 +1,34 @@
+void script_1294(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10) {
+	if (arg0 == 17301529) {
+		script_1296(widget1, 19613, 0, 0, 2, 0, 563, 1, -1, 0, -1, 0, 6, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301531) {
+		script_1296(widget1, 19615, 0, 1, 1, 0, 563, 1, -1, 0, -1, 0, 17, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301533) {
+		script_1296(widget1, 19617, 0, 0, 0, 0, 563, 1, 558, 2, -1, 0, 28, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301535) {
+		script_1296(widget1, 19619, 0, 0, 0, 0, 563, 1, 566, 2, -1, 0, 40, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301537) {
+		script_1296(widget1, 19621, 0, 0, 1, 0, 563, 1, 566, 1, -1, 0, 48, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301539) {
+		script_1296(widget1, 19623, 0, 0, 0, 0, 563, 2, 566, 2, -1, 0, 61, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301541) {
+		script_1296(widget1, 19625, 0, 0, 0, 0, 563, 1, 566, 1, 561, 1, 65, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301543) {
+		script_1296(widget1, 19627, 0, 0, 0, 0, 563, 1, 566, 1, 565, 1, 71, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301545) {
+		script_1296(widget1, 19629, 0, 0, 0, 0, 563, 2, 566, 2, 565, 1, 83, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	if (arg0 == 17301547) {
+		script_1296(widget1, 19631, 0, 0, 0, 0, 563, 2, 566, 2, 565, 2, 90, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10);
+	}
+	widget1.setIsHidden(false);
+	return;
+}

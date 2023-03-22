@@ -1,0 +1,9 @@
+//script6124(6124)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+instr6650(2, 0)
+instr6650(2, 1)
+instr6651(0, arg2, arg0, arg2, arg0, 0, 0)
+instr6651(0, arg6, arg4, arg6, arg4, 0, 1)
+instr6651(0, arg3, arg1, arg3, arg1, 1, 0)
+instr6651(0, arg7, arg5, arg7, arg5, 1, 1)
+instr6677(0, 1, arg8, arg8, 0, 0)
+return

@@ -1,0 +1,6 @@
+//script968(968)(int arg0)(void)
+if(script_970(arg0) == 1)
+	instr6342(arg0, script_969, "I", arg0)
+else
+	instr6342(arg0, None, "")
+return

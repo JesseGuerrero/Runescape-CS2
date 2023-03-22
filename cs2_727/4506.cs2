@@ -1,0 +1,29 @@
+//script4506(4506)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar3 = if_getlayer(arg0)
+if(iVar3 == -1)
+	return
+iVar4 = if_getlayer(iVar3)
+if(iVar4 == -1)
+	return
+iVar5 = if_getlayer(arg1)
+if(iVar5 == -1)
+	return
+if_sethide(iVar3, 0)
+if_setnoclickthrough(iVar3, 1)
+if(arg2 != -1)
+	if_sethide(arg2, 0)
+iVar6 = if_getnextsubid(arg0) - 1
+while(iVar6 >= 0) {
+	if(cc_find(iVar6, arg0) == 1)
+		if(string_length(cc_gettext()) > 0) {
+			cc_setop("Select", 1)
+			instr6687(script_4507, "iII", -2147483643, arg0, arg1)
+		}
+	iVar6 = iVar6 - 1
+}
+script_6360(iVar3)
+return

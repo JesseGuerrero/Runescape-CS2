@@ -1,0 +1,7 @@
+//script303(303)(int arg0, int arg1)(void)
+sound_synth(0, 1, 2266)
+if(arg1 == 0)
+	instr6090(arg0)
+else
+	instr6439(arg0)
+return

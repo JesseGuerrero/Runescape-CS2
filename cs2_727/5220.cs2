@@ -1,0 +1,28 @@
+//script5220(5220)()(void)
+int iVar0
+iVar0 = script_5992()
+switch(iVar0) {
+	case default:
+		break
+	case 0:
+		script_5219(82509857)
+		script_5219(82509881)
+		break
+	case 1:
+		script_5219(82641022)
+		script_5219(82641049)
+		script_5219(82640998)
+		break
+	case 2:
+		script_5219(82444407)
+		script_5219(82444435)
+		script_5219(82444396)
+		script_5219(82444772)
+		break
+	case 3:
+		script_5219(82575684)
+		script_5219(82575453)
+		break
+
+}
+return

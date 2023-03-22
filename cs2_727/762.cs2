@@ -1,0 +1,13 @@
+//script762(762)(int arg0)(int)
+if(arg0 == 0)
+	return 6
+else
+	if(arg0 == 1)
+		return 117
+	else
+		if(arg0 == 2)
+			return 228
+		else
+			if(arg0 == 3)
+				return 340
+return 0

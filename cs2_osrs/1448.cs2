@@ -1,0 +1,113 @@
+void script_1448(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13) {
+	int int14;
+	Widget widget15;
+	int int16;
+	widget(481, 30).clearChildren();
+	int14 = 0;
+	widget15 = null;
+	int16 = -1;
+	ARRAY0 = new Item[14];
+	ARRAY0[0] = arg0;
+	ARRAY0[1] = arg1;
+	ARRAY0[2] = arg2;
+	ARRAY0[3] = arg3;
+	ARRAY0[4] = arg4;
+	ARRAY0[5] = arg5;
+	ARRAY0[6] = arg6;
+	ARRAY0[7] = arg7;
+	ARRAY0[8] = arg8;
+	ARRAY0[9] = arg9;
+	ARRAY0[10] = arg10;
+	ARRAY0[11] = arg11;
+	ARRAY0[12] = arg12;
+	ARRAY0[13] = arg13;
+	while (int14 < 14) {
+		widget15 = datamap('i', 'I', 1505, int14);
+		CHILD.createChild(widget(481, 30), 5, int14);
+		CHILD.setSize(36, 32, 0, 0);
+		if (widget15 != null) {
+			CHILD.setPosition(widget15.getX(), widget15.getY(), 0, 0);
+		} else {
+			CHILD.setPosition(0, 0, 0, 0);
+			CHILD.setSize(0, 0, 0, 0);
+		}
+		if (ARRAY0[int14] != -1) {
+			CHILD.setItemNoNum((Item)ARRAY0[int14], 0);
+			CHILD.setOptionBase("<col=ff981f>" + getItemName((Item)ARRAY0[int14]));
+			CHILD.setContextMenuOption(10, "Examine" + "<col=ff9040>");
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+			widget15.setSprite(null);
+		} else if (widget15 != null) {
+			widget15.setSprite(datamap('i', 'd', 1506, int14));
+		}
+		int14 = int14 + 1;
+	}
+	if (isBitFlagged(VARP[286], 14) == true) {
+		widget(481, 59).setIsHidden(false);
+	} else {
+		widget(481, 59).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 15) == true) {
+		widget(481, 60).setIsHidden(false);
+	} else {
+		widget(481, 60).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 16) == true) {
+		widget(481, 61).setIsHidden(false);
+	} else {
+		widget(481, 61).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 17) == true) {
+		widget(481, 62).setIsHidden(false);
+	} else {
+		widget(481, 62).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 18) == true) {
+		widget(481, 63).setIsHidden(false);
+	} else {
+		widget(481, 63).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 19) == true) {
+		widget(481, 64).setIsHidden(false);
+	} else {
+		widget(481, 64).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 21) == true) {
+		widget(481, 65).setIsHidden(false);
+	} else {
+		widget(481, 65).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 23) == true) {
+		widget(481, 66).setIsHidden(false);
+	} else {
+		widget(481, 66).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 24) == true) {
+		widget(481, 67).setIsHidden(false);
+	} else {
+		widget(481, 67).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 26) == true) {
+		widget(481, 68).setIsHidden(false);
+	} else {
+		widget(481, 68).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	if (isBitFlagged(VARP[286], 27) == true) {
+		widget(481, 69).setIsHidden(false);
+	} else {
+		widget(481, 69).setIsHidden(true);
+		script_41(widget(481, 76));
+	}
+	return;
+}

@@ -1,0 +1,26 @@
+//script775(775)()(int, int, string)
+switch(load_varp(448)) {
+	case default:
+		return 12461, 36, "Bronze Bull Rush"
+
+	case 12073:
+		return 12461, 36, "Bronze Bull Rush"
+
+	case 12075:
+		return 12462, 46, "Iron Bull Rush"
+
+	case 12077:
+		return 12463, 56, "Steel Bull Rush"
+
+	case 12079:
+		return 12464, 66, "Mithril Bull Rush"
+
+	case 12081:
+		return 12465, 76, "Adamant Bull Rush"
+
+	case 12083:
+		return 12466, 86, "Rune Bull Rush"
+
+
+}
+return -1, 0, ""

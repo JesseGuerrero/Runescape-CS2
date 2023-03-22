@@ -1,0 +1,4 @@
+void script_1202(int arg0) {
+	VARC[79] = arg0;
+	return;
+}

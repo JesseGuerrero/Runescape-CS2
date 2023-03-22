@@ -1,0 +1,22 @@
+//script6447(6447)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+if(if_getspriteid(if_gethash(1311, 0)) == 3030)
+	return
+iVar4 = 0
+iVar5 = 0
+arg2 = arg2 - (if_getwidth(arg0) / 2)
+if(cc_find(arg1, arg0) == 1) {
+	if(arg2 > 0)
+		iVar5 = script_686(cc_getspriteroll() - 10, 2048)
+	else
+		if(arg2 < 0)
+			iVar5 = modulo(2048, cc_getspriteroll() + 10)
+	if(arg3 == 1)
+		if(iVar5 > 1024)
+			iVar5 = max(1572, iVar5)
+		else
+			iVar5 = min(512, iVar5)
+	cc_setmodelangle(cc_getspritescale(), cc_getspriteyaw(), iVar5, cc_getspritepitch(), cc_getoffsety(), cc_getoffsetx())
+}
+return

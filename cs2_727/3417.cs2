@@ -1,0 +1,12 @@
+//script3417(3417)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+if(arg0 != 1)
+	return
+if(load_varp(287) == arg1)
+	if(arg1 == 0)
+		arg1 = 1
+	else
+		return
+store_varp(287, arg1)
+sound_synth(0, 1, 2266)
+script_2735(arg2, arg3, arg4, arg5, arg6, arg7)
+return

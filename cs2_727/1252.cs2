@@ -1,0 +1,11 @@
+//script1252(1252)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = if_gettrans(arg0)
+iVar2 = min(255, iVar2 + ((255 * arg1) / 30))
+if_settrans(arg0, iVar2)
+if(iVar2 >= 255) {
+	instr6342(arg0, None, "")
+	if_sethide(arg0, 1)
+	return
+}
+return

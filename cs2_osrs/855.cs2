@@ -1,0 +1,44 @@
+void script_855(Widget widget0, Widget widget1, int arg2) {
+	string str0;
+	str0 = "Resizable mode chatbox:" + "<br>" + "Opaque";
+	if (VARPBIT[4608] == 0) {
+		widget0.setSprite(761);
+		if (CHILD.setChild(widget1, 0) == true) {
+			CHILD.setRGB(0x8F8F8F);
+		}
+		if (CHILD.setChild(widget1, 1) == true) {
+			CHILD.setRGB(0x8F8F8F);
+		}
+		if (CHILD.setChild(widget1, 2) == true) {
+			CHILD.setSprite(697);
+		}
+		widget1.hookMouseHover(null);
+		widget1.hookMouseExit(null);
+		widget1.hookOptionClick(null);
+	} else {
+		widget0.setSprite(762);
+		if (CHILD.setChild(widget1, 0) == true) {
+			CHILD.setRGB(0xFF981F);
+		}
+		if (CHILD.setChild(widget1, 1) == true) {
+			CHILD.setRGB(0xFF981F);
+		}
+		if (VARPBIT[2570] == 1) {
+			str0 = "Resizable mode chatbox:" + "<br>" + "Transparent" + "<br>" + "Click-through is blocked";
+			if (CHILD.setChild(widget1, 2) == true) {
+				CHILD.setSprite(698);
+			}
+		} else {
+			str0 = "Resizable mode chatbox:" + "<br>" + "Transparent" + "<br>" + "Click-through is permitted";
+			if (CHILD.setChild(widget1, 2) == true) {
+				CHILD.setSprite(699);
+			}
+		}
+		widget1.hookMouseHover(&script_121(true, CTX_WIDGET));
+		widget1.hookMouseExit(&script_121(false, CTX_WIDGET));
+		widget1.hookOptionClick(&script_854(CTX_MENU_OPTION, true, widget0, widget1, widget(arg2)));
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg2), str0, 25, 512));
+	VARC[2] = 0;
+	return;
+}

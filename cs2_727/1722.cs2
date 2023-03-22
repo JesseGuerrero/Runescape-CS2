@@ -1,0 +1,7 @@
+//script1722(1722)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+arg4 = arg4 + client_clock()
+if(cc_find(arg1, arg0) == 1 || arg1 == -1 || instr6004(arg0) == 1) {
+	cc_setgraphic(arg2)
+	instr6556(script_1723, "Iidi", arg0, arg1, arg3, arg4)
+}
+return

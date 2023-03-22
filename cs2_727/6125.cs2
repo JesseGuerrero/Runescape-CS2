@@ -1,0 +1,48 @@
+//script6125(6125)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+store_varc(1894, arg1)
+store_varc(1895, arg2)
+store_varc(1896, arg3)
+store_varc(1897, arg4)
+store_varc(1898, arg5)
+store_varc(1899, arg6)
+script_6138(0)
+script_6137(arg1, arg2, arg3, arg4, arg5, arg6)
+script_6130()
+script_6127(arg0)
+store_varc(1893, 0)
+switch(random(6)) {
+	case default:
+		break
+	case 0:
+		store_varc(1900, 4)
+		store_varc(1901, 8)
+		store_varc(1902, 12)
+		break
+	case 1:
+		store_varc(1900, 4)
+		store_varc(1901, 12)
+		store_varc(1902, 8)
+		break
+	case 2:
+		store_varc(1900, 8)
+		store_varc(1901, 4)
+		store_varc(1902, 12)
+		break
+	case 3:
+		store_varc(1900, 8)
+		store_varc(1901, 12)
+		store_varc(1902, 4)
+		break
+	case 4:
+		store_varc(1900, 12)
+		store_varc(1901, 4)
+		store_varc(1902, 8)
+		break
+	case 5:
+		store_varc(1900, 12)
+		store_varc(1901, 8)
+		store_varc(1902, 4)
+		break
+
+}
+return

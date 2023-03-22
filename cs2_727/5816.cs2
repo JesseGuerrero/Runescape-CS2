@@ -1,0 +1,8 @@
+//script5816(5816)(int arg0, int arg1, int arg2)(int, int)
+int iVar3
+int iVar4
+iVar3 = if_getx(arg2)
+iVar4 = if_gety(arg2)
+if_setposition(arg2, 0, 0, arg1, arg0)
+return iVar4, iVar3
+return 0, 0

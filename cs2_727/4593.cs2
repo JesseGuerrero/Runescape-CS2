@@ -1,0 +1,7 @@
+//script4593(4593)(int arg0, string arg1)(int)
+int iVar1
+iVar1 = (paramheight(arg0, 495, if_getwidth(arg0)) * 15) + 5
+if_sethide(arg0, 0)
+if_settext(arg0, arg0)
+return iVar1
+return 0

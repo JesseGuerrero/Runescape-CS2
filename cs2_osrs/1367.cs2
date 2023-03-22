@@ -1,0 +1,190 @@
+void script_1367(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	boolean boolean7;
+	int int8;
+	int int9;
+	Model model10;
+	int int11;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	widget0.clearChildren();
+	widget1.clearChildren();
+	int2 = 0;
+	int3 = 0;
+	int4 = 1;
+	str0 = "";
+	str1 = "";
+	str2 = "";
+	str3 = "";
+	int5 = script_1370();
+	int6 = 0;
+	boolean7 = false;
+	if (int5 > 0) {
+		str3 = "<col=00ff00>" + "Kill Queen (" + int5 + ")" + "</col>";
+	} else {
+		str3 = "<col=cc0000>" + "Kill Queen (" + int5 + ")" + "</col>";
+	}
+	int8 = script_1369();
+	int9 = 0;
+	model10 = datamap('i', 'm', 1403, int4);
+	int11 = 6;
+	while (model10 != null) {
+		if (int4 == 1) {
+			if (VARPBIT[3251] < 5) {
+				int9 = datamap('i', 'i', 1408, VARPBIT[3251]);
+				str2 = int9 + " Attacker points";
+			} else {
+				str2 = " - Mastered - ";
+			}
+			str1 = datamap('i', 's', 1413, VARPBIT[3251]);
+			if (VARPBIT[3251] < 5) {
+				str0 = "Attacker level up to " + (VARPBIT[3251] + 1);
+			} else {
+				str0 = "Attacker level up complete";
+			}
+			model10 = datamap('i', 'm', 1409, VARPBIT[3251]);
+		} else if (int4 == 2) {
+			if (VARPBIT[3254] < 5) {
+				int9 = datamap('i', 'i', 1408, VARPBIT[3254]);
+				str2 = int9 + " Collector points";
+			} else {
+				str2 = " - Mastered - ";
+			}
+			str1 = datamap('i', 's', 1414, VARPBIT[3254]);
+			if (VARPBIT[3254] < 5) {
+				str0 = "Collector level up to " + (VARPBIT[3254] + 1);
+			} else {
+				str0 = "Collector level up complete";
+			}
+			model10 = datamap('i', 'm', 1410, VARPBIT[3254]);
+		} else if (int4 == 3) {
+			if (VARPBIT[3253] < 5) {
+				int9 = datamap('i', 'i', 1408, VARPBIT[3253]);
+				str2 = int9 + " Defender points";
+			} else {
+				str2 = " - Mastered - ";
+			}
+			str1 = datamap('i', 's', 1415, VARPBIT[3253]);
+			if (VARPBIT[3253] < 5) {
+				str0 = "Defender level up to " + (VARPBIT[3253] + 1);
+			} else {
+				str0 = "Defender level up complete";
+			}
+			model10 = datamap('i', 'm', 1411, VARPBIT[3253]);
+		} else if (int4 == 4) {
+			if (VARPBIT[3255] < 5) {
+				int9 = datamap('i', 'i', 1408, VARPBIT[3255]);
+				str2 = int9 + " Healer points";
+			} else {
+				str2 = " - Mastered - ";
+			}
+			str1 = datamap('i', 's', 1416, VARPBIT[3255]);
+			if (VARPBIT[3255] < 5) {
+				str0 = "Healer level up to " + (VARPBIT[3255] + 1);
+			} else {
+				str0 = "Healer level up complete";
+			}
+			model10 = datamap('i', 'm', 1412, VARPBIT[3255]);
+		} else {
+			str0 = datamap('i', 's', 1405, int4);
+			str1 = datamap('i', 's', 1406, int4);
+			str2 = datamap('i', 's', 1407, int4);
+		}
+		CHILD.createChild(widget0, 4, int2);
+		CHILD.setRGB(0xCCCCFF);
+		CHILD.setPosition(248, 6 + 50 * (int4 - 1), 0, 0);
+		CHILD.setSize(83, 40, 0, 0);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str1);
+		int2 = int2 + 1;
+		CHILD.createChild(widget0, 3, int2);
+		CHILD.setPosition(244, 3 + 50 * (int4 - 1), 0, 0);
+		CHILD.setSize(90, 46, 0, 0);
+		CHILD.setRGB(0x333300);
+		int2 = int2 + 1;
+		boolean7 = datamap('i', '1', 1404, int4);
+		if (boolean7 == true) {
+			int6 = 6 + 50 * (int4 - 2) + 49;
+		} else {
+			int6 = 6 + 50 * (int4 - 1);
+		}
+		CHILD.createChild(widget0, 4, int2);
+		CHILD.setRGB(0xCC0000);
+		if (isBitFlagged(int8, int4 - 1) == true) {
+			str2 = "<col=00ff00>" + str2 + "</col>";
+		}
+		CHILD.setPosition(341, int6, 0, 0);
+		if (boolean7 == true) {
+			CHILD.setSize(84, 42, 0, 0);
+		} else {
+			CHILD.setSize(84, 40, 0, 0);
+		}
+		CHILD.setFont(495);
+		if (boolean7 == true) {
+			CHILD.setTextAlignment(1, 0, 0);
+		} else {
+			CHILD.setTextAlignment(1, 1, 0);
+		}
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str2);
+		int2 = int2 + 1;
+		if (boolean7 == true) {
+			int6 = int6 + 28;
+			CHILD.createChild(widget0, 4, int2);
+			CHILD.setPosition(341, int6, 0, 0);
+			CHILD.setSize(84, 15, 0, 0);
+			CHILD.setFont(495);
+			CHILD.setTextAlignment(1, 0, 0);
+			CHILD.setTextAntiMacro(true);
+			CHILD.setText(str3);
+			int2 = int2 + 1;
+		}
+		CHILD.createChild(widget0, 3, int2);
+		CHILD.setPosition(338, 3 + 50 * (int4 - 1), 0, 0);
+		CHILD.setSize(90, 46, 0, 0);
+		CHILD.setRGB(0x333300);
+		int2 = int2 + 1;
+		CHILD.createChild(widget0, 6, int2);
+		CHILD.setModel(model10);
+		CHILD.setPosition(11, 9 + 50 * (int4 - 1), 0, 0);
+		CHILD.setSize(49, 34, 0, 0);
+		CHILD.set3DRotation(0, 0, 0, 0, 0, 2372);
+		int2 = int2 + 1;
+		CHILD.createChild(widget0, 4, int2);
+		CHILD.setRGB(0xCCCCFF);
+		CHILD.setPosition(70, 18 + 50 * (int4 - 1), 0, 0);
+		CHILD.setSize(162, 15, 0, 0);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(0, 0, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str0);
+		int2 = int2 + 1;
+		_CHILD.createChild(widget1, 3, int3);
+		_CHILD.setPosition(2, 3 + 50 * (int4 - 1), 0, 0);
+		_CHILD.setSize(238, 46, 0, 0);
+		if (VARP[261] == int4) {
+			_CHILD.setRGB(0x0000FF);
+		} else {
+			_CHILD.setRGB(0x333300);
+			_CHILD.hookMouseEnter(&script_85(widget1, int3, 16777215));
+			_CHILD.hookMouseExit(&script_85(widget1, int3, 3355392));
+		}
+		_CHILD.setContextMenuOption(1, "Select");
+		_CHILD.setOptionBase("<col=ff9040>" + str0 + "</col>");
+		_CHILD.hookOptionClick(&script_1368(CTX_WIDGET, CTX_WIDGET_CHILD, int4, isBitFlagged(int8, int4 - 1), boolean7, int5));
+		int3 = int3 + 1;
+		int4 = int4 + 1;
+		model10 = datamap('i', 'm', 1403, int4);
+		int11 = int11 + 50;
+	}
+	widget0.setScrollMax(0, int11);
+	return;
+}

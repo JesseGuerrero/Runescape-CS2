@@ -1,0 +1,6 @@
+void script_1561(int arg0, Widget widget1, string string2, Widget widget3, int arg4) {
+	if (arg0 == 1) {
+		script_890(widget1, string2, widget3, arg4);
+	}
+	return;
+}

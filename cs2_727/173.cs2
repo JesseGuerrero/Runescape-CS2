@@ -1,0 +1,4 @@
+//script173(173)(int arg0)(void)
+store_varc(42, arg0)
+script_178()
+return

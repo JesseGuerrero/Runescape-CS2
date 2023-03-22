@@ -1,0 +1,60 @@
+//script4794(4794)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+iVar8 = 1
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = 0
+iVar28 = 0
+iVar29 = 0
+iVar30 = 0
+iVar31 = 0
+iVar32 = 0
+iVar33 = 0
+if(iVar8 <= arg0)
+	while(iVar8 != 0) {
+		arg1 = script_4795(iVar8, arg1, arg2, arg3, arg4, arg5, arg6, arg7).get(0)
+		iVar8 = iVar8 + 1
+	}
+return iVar27, iVar26, iVar25, iVar24, iVar23, iVar22, iVar21, iVar33, iVar32, iVar31, iVar30, iVar29, iVar28, iVar20, iVar19, iVar18, iVar17, iVar16, iVar15, iVar14, iVar13, iVar12, iVar11, iVar10, iVar9
+return 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0

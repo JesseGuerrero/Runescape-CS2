@@ -1,0 +1,11 @@
+void script_123(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, int arg9) {
+	widget1.setText("Friends List - World " + getWorldId());
+	widget7.clearChildren();
+	script_31(widget7, widget6, 792, 789, 790, 791, 773, 788);
+	if (VARC[183] != 1 && VARC[183] != 2 && VARC[183] != 3 && VARC[183] != 4 && VARC[183] != 5) {
+		VARC[183] = 0;
+	}
+	script_125(widget2, widget3, widget4, widget5, widget6, widget7, widget8, arg9);
+	widget0.hookFriendList(&script_631(widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget(arg9)));
+	return;
+}

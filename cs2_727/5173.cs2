@@ -1,0 +1,8 @@
+//script5173(5173)()(int, int)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+iVar0 = script_5813(2).get(0)
+return iVar1, iVar0
+return 0, 0

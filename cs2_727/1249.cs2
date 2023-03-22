@@ -1,0 +1,28 @@
+//script1249(1249)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+if(client_clock() < load_varc(177))
+	return
+iVar3 = modulo(10, load_varc(176))
+iVar4 = -1
+iVar5 = 0
+if(iVar3 == 0) {
+	if_sethide(arg2, 0)
+	instr6342(arg2, None, "")
+	if_settrans(arg2, 0)
+	iVar4 = script_1239(0).get(0)
+	instr6675(100, 100, 1000, iVar4)
+	instr6162(100, 100, 0, iVar4)
+	store_varc(177, client_clock() + 30)
+	store_varc(176, load_varc(176) + 2)
+} else 
+	if(iVar3 == 2) {
+		if(if_gethide(arg1) == 0)
+			instr6342(arg1, script_1252, "Ii", arg1, 3)
+		instr6342(arg2, script_1252, "Ii", arg2, 1)
+		iVar4 = script_1239(1).get(0)
+		script_1251(0, arg0, arg1, arg2, iVar5)
+		instr6342(arg0, None, "")
+	}
+return

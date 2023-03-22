@@ -1,0 +1,123 @@
+//script662(662)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+string sVar0
+iVar1 = enum(1080, arg0, 'i', 'I')
+iVar2 = enum(1081, arg0, 'i', 'I')
+iVar3 = enum(1079, arg0, 'i', 'v')
+cc_deleteall(iVar1)
+iVar4 = if_getwidth(iVar1)
+iVar5 = if_getheight(iVar1)
+iVar6 = (iVar4 / 2) - 40
+iVar7 = iVar5 - 47
+iVar8 = inv_getitem(0, iVar3)
+iVar9 = inv_getitem(1, iVar3)
+iVar10 = enum(1082, arg0, 'i', 'I')
+if(iVar10 != -1)
+	if(playermember() == 1 || stockmarket_isofferempty(arg0) == 0)
+		if_sethide(iVar10, 1)
+	else
+		if_sethide(iVar10, 0)
+script_98(iVar1, 0, 1138, iVar6 - 2, iVar7 - 2, 40, 36)
+iVar11 = 1140
+if(iVar10 == -1 || if_gethide(iVar10) == 1)
+	if(cc_find(0, iVar1) == 1) {
+		instr6091(script_688, "Iid", -2147483645, -2147483643, iVar11)
+		iVar11 = 1138
+		instr6092(script_688, "Iid", -2147483645, -2147483643, iVar11)
+		if(iVar8 != -1) {
+			if(item_cert(iVar8) != iVar8)
+				if(inv_getnum(0, iVar3) > 1) {
+					cc_setop("Collect-notes", 1)
+					cc_setop("Collect-items", 2)
+				} else  {
+					cc_setop("Collect-items", 1)
+					cc_setop("Collect-notes", 2)
+				}
+			else
+				cc_setop("Collect", 1)
+			cc_setopbase(item_name(iVar8))
+		}
+	}
+cc_create(1, 5, iVar1)
+cc_setposition(0, 0, iVar7, iVar6)
+cc_setsize(0, 0, 32, 36)
+cc_setgraphicshadow(3355443)
+cc_setitem(inv_getnum(0, iVar3), iVar8)
+iVar6 = (iVar4 / 2) + 4
+script_98(iVar1, 2, 1138, iVar6 - 2, iVar7 - 2, 40, 36)
+if(iVar10 == -1 || if_gethide(iVar10) == 1)
+	if(cc_find(2, iVar1) == 1) {
+		iVar11 = 1140
+		instr6091(script_688, "Iid", -2147483645, -2147483643, iVar11)
+		iVar11 = 1138
+		instr6092(script_688, "Iid", -2147483645, -2147483643, iVar11)
+		if(iVar9 != -1) {
+			if(item_cert(iVar9) != iVar9)
+				if(inv_getnum(1, iVar3) > 1) {
+					cc_setop("Collect-notes", 1)
+					cc_setop("Collect-items", 2)
+				} else  {
+					cc_setop("Collect-items", 1)
+					cc_setop("Collect-notes", 2)
+				}
+			else
+				cc_setop("Collect", 1)
+			cc_setopbase(item_name(iVar9))
+		}
+	}
+cc_create(3, 5, iVar1)
+cc_setposition(0, 0, iVar7, iVar6)
+cc_setsize(0, 0, 32, 36)
+cc_setgraphicshadow(3355443)
+cc_setitem(inv_getnum(1, iVar3), iVar9)
+script_652(11, 11, iVar4 - 65, 16, arg0, iVar1, 4, iVar2, 0)
+cc_create(9, 3, iVar1)
+iVar6 = iVar4 - 30
+cc_setposition(0, 0, 11, iVar6)
+cc_setsize(0, 0, 16, 18)
+cc_setcolor(0)
+cc_settrans(160)
+cc_setfill(1)
+cc_create(10, 6, iVar1)
+iVar12 = stockmarket_getofferitem(arg0)
+if(stockmarket_isofferempty(arg0) == 0) {
+	cc_setposition(0, 0, 11, iVar6)
+	cc_setsize(0, 0, 16, 18)
+	cc_setitem(0, iVar12)
+	cc_setonmouseover(script_568, "IiIsii", iVar1, 10, iVar2, item_name(iVar12), 25, 106)
+	instr6092(script_40, "I", iVar2)
+}
+cc_create(11, 3, iVar1)
+iVar6 = iVar4 - 50
+cc_setposition(0, 0, 11, iVar6)
+cc_setsize(0, 0, 16, 18)
+cc_setcolor(0)
+cc_settrans(160)
+cc_setfill(1)
+cc_create(12, 5, iVar1)
+sVar0 = "null"
+if(stockmarket_isofferempty(arg0) == 0) {
+	cc_setposition(0, 0, 12, iVar6)
+	cc_setsize(0, 0, 14, 16)
+	if(stockmarket_getoffertype(arg0) == 0) {
+		cc_setgraphic(1157)
+		sVar0 = "Buy"
+	} else  {
+		cc_setgraphic(1156)
+		sVar0 = "Sell"
+	}
+	cc_setonmouseover(script_568, "IiIsii", iVar1, 12, iVar2, sVar0, 25, 106)
+	instr6092(script_40, "I", iVar2)
+}
+return

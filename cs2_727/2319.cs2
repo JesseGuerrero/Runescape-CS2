@@ -1,0 +1,14 @@
+//script2319(2319)()(void)
+if(load_varpbit(8348) == 1) {
+	if_sethide(if_gethash(762, 0), 1)
+	if_sethide(if_gethash(763, 0), 1)
+	if_sethide(if_gethash(667, 1), 0)
+	if_sethide(if_gethash(763, 1), 0)
+} else  {
+	if_sethide(if_gethash(762, 0), 0)
+	if_sethide(if_gethash(763, 0), 0)
+	if_sethide(if_gethash(667, 1), 1)
+	if_sethide(if_gethash(763, 1), 1)
+}
+script_722()
+return

@@ -1,0 +1,14 @@
+//script1921(1921)()(void)
+if(load_varc(551) > 0)
+	if_settext(if_gethash(812, 5), append(")", append_num(append(" (", load_varc_string(40)), load_varc(551))))
+else
+	if_settext(if_gethash(812, 5), load_varc_string(40))
+if(load_varc(552) > 0)
+	if_settext(if_gethash(812, 6), append(")", append_num(append(" (", load_varc_string(41)), load_varc(552))))
+else
+	if_settext(if_gethash(812, 6), load_varc_string(41))
+if(load_varc(553) > 0)
+	if_settext(if_gethash(812, 7), append(")", append_num(append(" (", load_varc_string(42)), load_varc(553))))
+else
+	if_settext(if_gethash(812, 7), load_varc_string(42))
+return

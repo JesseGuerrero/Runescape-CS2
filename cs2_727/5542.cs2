@@ -1,0 +1,104 @@
+//script5542(5542)()(int)
+int iVar0
+iVar0 = 0
+switch(load_varc(1725)) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(10259) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10261) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10244) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10245) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10247) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10260) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10262) == 1)
+			iVar0 = iVar0 + 1
+		if(world_members() == 1) {
+			if(load_varpbit(10264) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10275) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10278) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10280) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10281) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10283) == 1)
+				iVar0 = iVar0 + 1
+		}
+		break
+	case 2:
+		if(load_varpbit(10254) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10255) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10253) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10256) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10257) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10258) == 1)
+			iVar0 = iVar0 + 1
+		if(world_members() == 1) {
+			if(load_varpbit(10277) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10279) == 1)
+				iVar0 = iVar0 + 1
+		}
+		break
+	case 3:
+		if(load_varpbit(10246) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10248) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10249) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10250) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10251) == 1)
+			iVar0 = iVar0 + 1
+		if(load_varpbit(10252) == 1)
+			iVar0 = iVar0 + 1
+		if(world_members() == 1) {
+			if(load_varpbit(10265) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10266) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10267) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10269) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10270) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10282) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10268) == 1)
+				iVar0 = iVar0 + 1
+		}
+		break
+	case 4:
+		if(load_varpbit(10276) == 1)
+			iVar0 = iVar0 + 1
+		if(world_members() == 1) {
+			if(load_varpbit(10271) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10272) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10273) == 1)
+				iVar0 = iVar0 + 1
+			if(load_varpbit(10274) == 1)
+				iVar0 = iVar0 + 1
+		}
+		break
+
+}
+return iVar0
+return 0

@@ -1,0 +1,18 @@
+void script_1574(string string0, int arg1) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int1 = 0;
+	int2 = 0;
+	int3 = length(string0);
+	while (int3 > 0) {
+		int2 = indexOf("0123456789", substr(string0, 0, 1), 0);
+		int1 = int1 + int2 * pow(10, int3 - 1);
+		string0 = substr(string0, 1, int3);
+		int3 = int3 - 1;
+	}
+	int4 = 60 * int1 / 100;
+	script_1575(int4, int4, arg1);
+	return;
+}

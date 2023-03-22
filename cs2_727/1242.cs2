@@ -1,0 +1,9 @@
+//script1242(1242)(int arg0)(void)
+int iVar1
+if_setgraphic(arg0, 3152)
+hook_mouse_press(arg0, script_1950, "I", -2147483645)
+iVar1 = movecoord((coordz(coord()) - modulo(64, coordz(coord()))) + 23, 0, (coordx(coord()) - modulo(64, coordx(coord()))) + 13, 0)
+instr6627(iVar1)
+instr6162(10, 100, 25, iVar1)
+instr6675(10, 100, 2600, movecoord(0, 0, 11, iVar1))
+return

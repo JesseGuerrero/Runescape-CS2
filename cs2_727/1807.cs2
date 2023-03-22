@@ -1,0 +1,10 @@
+//script1807(1807)(int arg0, int arg1, int arg2)(void)
+if(script_42(load_varc(266)) == 0) {
+	store_varc_string(38, "")
+	store_varc_string(39, "")
+	store_varc(266, 1)
+}
+script_1809(arg0, arg1, arg2)
+instr6507(arg0, script_1808, "IIIY", 1, 38, arg0, arg1, arg2)
+instr6247(arg0, script_1810, "III", arg0, arg1, arg2)
+return

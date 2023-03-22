@@ -1,0 +1,18 @@
+//script104(104)()(void)
+if(load_varc(1413) == 0)
+	return
+if(load_varc(11) == 1)
+	script_675()
+if(instr6644() >= 2)
+	if_sethide(if_gethash(746, 22), 0)
+if_sethide(if_gethash(752, 3), 0)
+if_sethide(if_gethash(752, 7), 1)
+if_sethide(if_gethash(752, 8), 1)
+if_settext(if_gethash(752, 4), "Enter name of friend to delete from list")
+store_varc(5, 3)
+script_1564("")
+hook_mouse_press(if_gethash(752, 3), None, "")
+script_2026()
+instr6248(if_gethash(752, 5), script_112, "iz", -2147483640, -2147483639)
+script_1188()
+return

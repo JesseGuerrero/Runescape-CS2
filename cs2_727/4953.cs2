@@ -1,0 +1,98 @@
+//script4953(4953)(int arg0)(int)
+int iVar1
+iVar1 = -1
+if(clan_vars_enabled() == 1)
+	if(load_clan_varbit(2100) == arg0)
+		iVar1 = 1
+	else
+		if(load_clan_varbit(2101) == arg0)
+			iVar1 = 2
+		else
+			if(load_clan_varbit(2102) == arg0)
+				iVar1 = 3
+			else
+				if(load_clan_varbit(2103) == arg0)
+					iVar1 = 4
+				else
+					if(load_clan_varbit(2104) == arg0)
+						iVar1 = 5
+					else
+						if(load_clan_varbit(2105) == arg0)
+							iVar1 = 6
+						else
+							if(load_clan_varbit(2106) == arg0)
+								iVar1 = 7
+							else
+								if(load_clan_varbit(2107) == arg0)
+									iVar1 = 8
+								else
+									if(load_clan_varbit(2108) == arg0)
+										iVar1 = 9
+									else
+										if(load_clan_varbit(2109) == arg0)
+											iVar1 = 10
+										else
+											if(load_clan_varbit(2110) == arg0)
+												iVar1 = 11
+											else
+												if(load_clan_varbit(2111) == arg0)
+													iVar1 = 12
+												else
+													if(load_clan_varbit(2112) == arg0)
+														iVar1 = 13
+													else
+														if(load_clan_varbit(2113) == arg0)
+															iVar1 = 14
+														else
+															if(load_clan_varbit(2114) == arg0)
+																iVar1 = 15
+															else
+																if(load_clan_varbit(2115) == arg0)
+																	iVar1 = 16
+																else
+																	if(load_clan_varbit(2116) == arg0)
+																		iVar1 = 17
+																	else
+																		if(load_clan_varbit(2117) == arg0)
+																			iVar1 = 18
+																		else
+																			if(load_clan_varbit(2118) == arg0)
+																				iVar1 = 19
+																			else
+																				if(load_clan_varbit(2119) == arg0)
+																					iVar1 = 20
+																				else
+																					if(load_clan_varbit(2120) == arg0)
+																						iVar1 = 21
+																					else
+																						if(load_clan_varbit(2121) == arg0)
+																							iVar1 = 22
+																						else
+																							if(load_clan_varbit(2122) == arg0)
+																								iVar1 = 23
+																							else
+																								if(load_clan_varbit(2123) == arg0)
+																									iVar1 = 24
+																								else
+																									if(load_clan_varbit(2124) == arg0)
+																										iVar1 = 25
+																									else
+																										if(load_clan_varbit(2125) == arg0)
+																											iVar1 = 26
+																										else
+																											if(load_clan_varbit(2126) == arg0)
+																												iVar1 = 27
+																											else
+																												if(load_clan_varbit(2127) == arg0)
+																													iVar1 = 28
+																												else
+																													if(load_clan_varbit(2128) == arg0)
+																														iVar1 = 29
+																													else
+																														if(load_clan_varbit(2129) == arg0)
+																															iVar1 = 30
+																														else
+																															if(load_clan_varbit(2130) == arg0)
+																																iVar1 = 31
+return iVar1
+return 0

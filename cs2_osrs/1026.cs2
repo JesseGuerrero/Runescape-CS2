@@ -1,0 +1,177 @@
+void script_1026(Widget widget0, Widget widget1, Widget widget2, int arg3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19, int arg20, int arg21) {
+	int int22;
+	Skill skill23;
+	int22 = 0;
+	while (int22 <= 23) {
+		if (CHILD.setChild(widget2, 23 + 1 + int22 * 3 + 2) == true) {
+			script_1027(datamap('i', 'S', 681, int22 + 1));
+		}
+		int22 = int22 + 1;
+	}
+	skill23 = datamap('i', 'S', 681, VARPBIT[4703]);
+	if (skill23 == null) {
+		if (VARPBIT[4703] != 23 + 1) {
+			widget0.setIsHidden(false);
+			widget1.setIsHidden(false);
+			widget4.setIsHidden(true);
+			return;
+		}
+		widget11.setContextMenuOption(6, "");
+		widget12.setContextMenuOption(6, "");
+		widget13.setContextMenuOption(6, "");
+	} else {
+		widget11.setContextMenuOption(6, "Set to level");
+		widget12.setContextMenuOption(6, "Set to level");
+		widget13.setContextMenuOption(6, "Set to level");
+	}
+	widget0.setIsHidden(true);
+	widget1.setIsHidden(true);
+	widget4.setIsHidden(false);
+	if (CHILD.setChild(widget4, 0) == true) {
+		if (skill23 != null) {
+			CHILD.setText(datamap('S', 's', 680, skill23));
+		} else {
+			CHILD.setText("Total XP");
+		}
+	}
+	if (VARPBIT[4704] == 1) {
+		if (CHILD.setChild(widget5, 0) == true) {
+			CHILD.setSprite(697);
+		}
+		if (CHILD.setChild(widget6, 0) == true) {
+			CHILD.setSprite(699);
+		}
+		if (CHILD.setChild(widget7, 0) == true) {
+			CHILD.setSprite(697);
+		}
+		widget8.setNoClickThrough(0);
+		widget9.setNoClickThrough(1);
+		widget10.setNoClickThrough(0);
+		widget8.hookMousePress(null);
+		widget9.hookMousePress(&script_489(0, 0));
+		widget10.hookMousePress(null);
+		widget8.setTrans(255);
+		widget9.setTrans(240);
+		widget10.setTrans(255);
+		widget5.hookMouseHover(&script_273(widget8, 225));
+		widget6.hookMouseHover(null);
+		widget7.hookMouseHover(&script_273(widget10, 225));
+		widget5.hookMouseExit(&script_273(widget8, 255));
+		widget6.hookMouseExit(null);
+		widget7.hookMouseExit(&script_273(widget10, 255));
+		widget5.hookOptionClick(&script_1024(CTX_MENU_OPTION, 0, widget0, widget1, widget2, widget(arg3), widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19, widget(arg20), widget(arg21)));
+		widget6.hookOptionClick(null);
+		widget7.hookOptionClick(&script_1024(CTX_MENU_OPTION, 2, widget0, widget1, widget2, widget(arg3), widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19, widget(arg20), widget(arg21)));
+		if (skill23 != null) {
+			widget14.setText(script_1028(VARP[261], 1));
+		} else {
+			widget14.setText(script_1029(VARP[261]));
+		}
+		widget15.setText("");
+		widget16.setText("");
+		widget17.setRGB(0xFF981F);
+		widget18.setRGB(0x808080);
+		widget19.setRGB(0x808080);
+		widget11.hookMouseHover(&script_45(widget17, 16777215));
+		widget11.hookMouseExit(&script_45(widget17, 16750623));
+		widget12.hookMouseHover(null);
+		widget12.hookMouseExit(null);
+		widget13.hookMouseHover(null);
+		widget13.hookMouseExit(null);
+		widget11.hookOptionClick(&script_489(CTX_MENU_OPTION, 1216));
+		widget12.hookOptionClick(null);
+		widget13.hookOptionClick(null);
+	} else if (VARPBIT[4704] == 2) {
+		if (CHILD.setChild(widget5, 0) == true) {
+			CHILD.setSprite(697);
+		}
+		if (CHILD.setChild(widget6, 0) == true) {
+			CHILD.setSprite(697);
+		}
+		if (CHILD.setChild(widget7, 0) == true) {
+			CHILD.setSprite(699);
+		}
+		widget8.setNoClickThrough(0);
+		widget9.setNoClickThrough(0);
+		widget10.setNoClickThrough(1);
+		widget8.hookMousePress(null);
+		widget9.hookMousePress(null);
+		widget10.hookMousePress(&script_489(0, 0));
+		widget8.setTrans(255);
+		widget9.setTrans(255);
+		widget10.setTrans(240);
+		widget5.hookMouseHover(&script_273(widget8, 225));
+		widget6.hookMouseHover(&script_273(widget9, 225));
+		widget7.hookMouseHover(null);
+		widget5.hookMouseExit(&script_273(widget8, 255));
+		widget6.hookMouseExit(&script_273(widget9, 255));
+		widget7.hookMouseExit(null);
+		widget5.hookOptionClick(&script_1024(CTX_MENU_OPTION, 0, widget0, widget1, widget2, widget(arg3), widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19, widget(arg20), widget(arg21)));
+		widget6.hookOptionClick(&script_1024(CTX_MENU_OPTION, 1, widget0, widget1, widget2, widget(arg3), widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19, widget(arg20), widget(arg21)));
+		widget7.hookOptionClick(null);
+		widget14.setText("");
+		if (skill23 != null) {
+			widget15.setText(script_1028(VARP[261], 1));
+			widget16.setText(script_1028(VARP[262], 1));
+		} else {
+			widget15.setText(script_1029(VARP[261]));
+			widget16.setText(script_1029(VARP[262]));
+		}
+		widget17.setRGB(0x808080);
+		widget18.setRGB(0xFF981F);
+		widget19.setRGB(0xFF981F);
+		widget11.hookMouseHover(null);
+		widget11.hookMouseExit(null);
+		widget12.hookMouseHover(&script_45(widget18, 16777215));
+		widget12.hookMouseExit(&script_45(widget18, 16750623));
+		widget13.hookMouseHover(&script_45(widget19, 16777215));
+		widget13.hookMouseExit(&script_45(widget19, 16750623));
+		widget11.hookOptionClick(null);
+		widget12.hookOptionClick(&script_489(CTX_MENU_OPTION, 1216));
+		widget13.hookOptionClick(&script_489(CTX_MENU_OPTION, 192));
+	} else {
+		if (CHILD.setChild(widget5, 0) == true) {
+			CHILD.setSprite(699);
+		}
+		if (CHILD.setChild(widget6, 0) == true) {
+			CHILD.setSprite(697);
+		}
+		if (CHILD.setChild(widget7, 0) == true) {
+			CHILD.setSprite(697);
+		}
+		widget8.setNoClickThrough(1);
+		widget9.setNoClickThrough(0);
+		widget10.setNoClickThrough(0);
+		widget8.hookMousePress(&script_489(0, 0));
+		widget9.hookMousePress(null);
+		widget10.hookMousePress(null);
+		widget8.setTrans(240);
+		widget9.setTrans(255);
+		widget10.setTrans(255);
+		widget5.hookMouseHover(null);
+		widget6.hookMouseHover(&script_273(widget9, 225));
+		widget7.hookMouseHover(&script_273(widget10, 225));
+		widget5.hookMouseExit(null);
+		widget6.hookMouseExit(&script_273(widget9, 255));
+		widget7.hookMouseExit(&script_273(widget10, 255));
+		widget5.hookOptionClick(null);
+		widget6.hookOptionClick(&script_1024(CTX_MENU_OPTION, 1, widget0, widget1, widget2, widget(arg3), widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19, widget(arg20), widget(arg21)));
+		widget7.hookOptionClick(&script_1024(CTX_MENU_OPTION, 2, widget0, widget1, widget2, widget(arg3), widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, widget14, widget15, widget16, widget17, widget18, widget19, widget(arg20), widget(arg21)));
+		widget14.setText("");
+		widget15.setText("");
+		widget16.setText("");
+		widget17.setRGB(0x808080);
+		widget18.setRGB(0x808080);
+		widget19.setRGB(0x808080);
+		widget11.hookMouseHover(null);
+		widget11.hookMouseExit(null);
+		widget12.hookMouseHover(null);
+		widget12.hookMouseExit(null);
+		widget13.hookMouseHover(null);
+		widget13.hookMouseExit(null);
+		widget11.hookOptionClick(null);
+		widget12.hookOptionClick(null);
+		widget13.hookOptionClick(null);
+	}
+	return;
+}

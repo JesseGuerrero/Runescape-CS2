@@ -1,0 +1,13 @@
+void script_1126(boolean arg0, Widget widget1, int arg2, int arg3) {
+	if (CHILD.setChild(widget1, arg2) == true && _CHILD.setChild(widget1, arg3) == true) {
+		if (arg0 == true) {
+			CHILD.setRGB(0xFFB83F);
+			_CHILD.setHidden(false);
+			_CHILD.setPosition(CHILD.getX(), CHILD.getY() - 1, 0, 0);
+		} else {
+			CHILD.setRGB(0xFF981F);
+			_CHILD.setHidden(true);
+		}
+	}
+	return;
+}

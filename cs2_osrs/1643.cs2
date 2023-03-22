@@ -1,0 +1,8 @@
+void script_1643(Widget widget0) {
+	if (script_1942() == 1) {
+		widget0.setText("The Graveyard of Shadows");
+	} else {
+		widget0.setText("Barbarian Village");
+	}
+	return;
+}

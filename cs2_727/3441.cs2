@@ -1,0 +1,6 @@
+//script3441(3441)()(int)
+if(inv_total(6465, 94) > 0 || inv_total(15016, 94) > 0)
+	return 1
+else
+	return 0
+return -1

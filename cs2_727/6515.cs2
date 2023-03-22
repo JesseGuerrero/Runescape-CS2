@@ -1,0 +1,38 @@
+//script6515(6515)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = -1
+iVar3 = 137
+if(instr6644() == 1) {
+	iVar3 = 77
+	if_setposition(if_gethash(1302, 17), 2, 1, 95, 0)
+} else 
+	if_setposition(if_gethash(1302, 17), 2, 1, 155, 0)
+if(arg1 == 0) {
+	iVar2 = enum(974, load_varpbit(11646), 'i', 'J')
+	if(iVar2 != -1) {
+		if_settext(if_gethash(1302, 18), struct_param(2559, iVar2))
+		if_settext(if_gethash(1302, 19), struct_param(2560, iVar2))
+		if_sethide(if_gethash(1302, 26), 0)
+		if_setposition(if_gethash(1302, 27), 2, 1, iVar3, 150)
+	}
+} else 
+	if(arg1 == 1) {
+		iVar2 = enum(974, load_varpbit(11647), 'i', 'J')
+		if(iVar2 != -1) {
+			if_settext(if_gethash(1302, 18), struct_param(2559, iVar2))
+			if_settext(if_gethash(1302, 19), struct_param(2560, iVar2))
+			if_sethide(if_gethash(1302, 26), 0)
+			if_setposition(if_gethash(1302, 27), 2, 1, iVar3, 0)
+		}
+	} else 
+		if(arg1 == 2) {
+			iVar2 = enum(974, load_varpbit(11648), 'i', 'J')
+			if(iVar2 != -1) {
+				if_settext(if_gethash(1302, 18), struct_param(2559, iVar2))
+				if_settext(if_gethash(1302, 19), struct_param(2560, iVar2))
+				if_sethide(if_gethash(1302, 26), 0)
+				if_setposition(if_gethash(1302, 27), 2, 1, iVar3, -150)
+			}
+		}
+return

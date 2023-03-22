@@ -1,0 +1,14 @@
+//script2601(2601)(int arg0, int arg1, int arg2, string arg3)(int)
+cc_create(if_getnextsubid(arg2), 4, arg2)
+cc_setsize(0, 0, 16, 211)
+if(arg0 == 1)
+	cc_setposition(0, 2, arg1, 6)
+else
+	cc_setposition(0, 0, arg1, 0)
+cc_settextfont(495)
+cc_settextalign(0, 1, 0)
+cc_setcolor(ebe0bc)
+cc_settextshadow(1)
+cc_settext(arg0)
+return instr6151()
+return 0

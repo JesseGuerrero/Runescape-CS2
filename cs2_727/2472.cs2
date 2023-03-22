@@ -1,0 +1,81 @@
+//script2472(2472)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+if(arg7 == -1)
+	if(arg6 == -1) {
+		if_sethide(arg0, 1)
+		if_sethide(arg2, 1)
+		if_sethide(arg5, 1)
+		if_setposition(arg4, 0, 0, if_gety(enum(arg8, 0, 'i', 'I')) - 10, if_getx(enum(arg8, 0, 'i', 'I')) - 10)
+		return
+	} else 
+		arg7 = 20210
+else
+	if(arg6 == -1)
+		arg6 = 20210
+if_sethide(arg0, 0)
+if_sethide(arg2, 0)
+if_sethide(arg5, 0)
+iVar9 = if_getx(enum(arg8, item_param(359, arg6), 'i', 'I'))
+iVar10 = if_getx(enum(arg8, item_param(359, arg7), 'i', 'I'))
+iVar11 = 0
+iVar12 = -1
+if(iVar9 > iVar10) {
+	iVar12 = arg7
+	arg7 = arg6
+	arg6 = iVar12
+	iVar11 = iVar10
+	iVar10 = iVar9
+	iVar9 = iVar11
+}
+iVar13 = if_gety(enum(arg8, item_param(359, arg6), 'i', 'I'))
+iVar14 = if_gety(enum(arg8, item_param(359, arg7), 'i', 'I'))
+iVar15 = iVar10 - iVar9
+iVar16 = 0
+if_setposition(arg0, 0, 0, iVar13 - 10, iVar9 - 10)
+if_setposition(arg2, 0, 0, iVar14 - 10, iVar10 - 10)
+if(instr6004(arg1) == 1) {
+	cc_setparam_string(718, script_4126(script_718(item_param(359, arg6))))
+	cc_setcolor(0)
+}
+if(instr6004(arg3) == 1) {
+	cc_setparam_string(718, script_4126(script_718(item_param(359, arg7))))
+	cc_setcolor(0)
+}
+iVar17 = 0
+iVar18 = 0
+iVar19 = item_param(358, arg6) + item_param(358, arg7)
+if(iVar13 < iVar14) {
+	iVar16 = iVar14 - iVar13
+	if_setposition(arg5, 0, 0, iVar13, iVar9)
+	if_setlinedirection(arg5, 0)
+	iVar11 = 1
+} else  {
+	iVar16 = iVar13 - iVar14
+	if_setposition(arg5, 0, 0, iVar14, iVar9)
+	if_setlinedirection(arg5, 1)
+	iVar11 = -1
+}
+if_setsize(arg5, 0, 0, iVar16, iVar15)
+if(arg6 == 20210) {
+	iVar17 = (iVar9 + ((iVar15 * item_param(358, arg7)) / (2 * iVar19))) - 10
+	iVar18 = (iVar13 + (iVar11 * ((iVar16 * item_param(358, arg7)) / (2 * iVar19)))) - 10
+} else 
+	if(arg7 == 20210) {
+		iVar17 = (iVar9 + ((iVar15 * ((2 * item_param(358, arg7)) + item_param(358, arg6))) / (2 * iVar19))) - 10
+		iVar18 = (iVar13 + (iVar11 * ((iVar16 * ((2 * item_param(358, arg7)) + item_param(358, arg6))) / (2 * iVar19)))) - 10
+	} else  {
+		iVar17 = (iVar9 + ((iVar15 * item_param(358, arg7)) / iVar19)) - 10
+		iVar18 = (iVar13 + (iVar11 * ((iVar16 * item_param(358, arg7)) / iVar19))) - 10
+	}
+if_setposition(arg4, 0, 0, iVar18, iVar17)
+return

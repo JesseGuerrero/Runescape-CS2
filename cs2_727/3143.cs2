@@ -1,0 +1,8 @@
+//script3143(3143)(int arg0, string arg1)(void)
+if(arg0 == 0)
+	if_setcolor(59637768, 0xEBE0BC)
+else
+	if(arg0 == 1)
+		if_setcolor(59637768, 0xFF0000)
+if_settext(if_gethash(910, 8), arg0)
+return

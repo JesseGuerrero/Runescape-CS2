@@ -1,0 +1,20 @@
+//script946(946)(int arg0, int arg1, int arg2)(void)
+int iVar3
+if(load_varpbit(10837) < 1 || load_varpbit(10837) > 37) {
+	if_sethide(arg1, 1)
+	if_sethide(arg2, 1)
+	return
+}
+if(load_varpbit(10837) == 37)
+	if_settext(arg2, "Har-Aken")
+else
+	if_settext(arg2, "Wave " + to_string(load_varpbit(10837)))
+iVar3 = 0 - if_getheight(arg0)
+if_setposition(arg1, 1, 1, iVar3, 0)
+if_setposition(arg2, 1, 1, iVar3, 0)
+if_sethide(arg1, 0)
+if_sethide(arg2, 0)
+instr6342(arg0, script_1228, "IIIi", arg0, arg1, arg2, client_clock())
+instr6213(arg1, 1, "Dismiss")
+instr6239(arg1, script_1229, "iIII", -2147483644, arg0, arg1, arg2)
+return

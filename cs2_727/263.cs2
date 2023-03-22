@@ -1,0 +1,64 @@
+//script263(263)()(void)
+string sVar0
+if_sethide(if_gethash(923, 16), 1)
+if_sethide(if_gethash(923, 18), 1)
+if_sethide(if_gethash(923, 20), 1)
+if_sethide(if_gethash(923, 22), 1)
+if_sethide(if_gethash(923, 24), 1)
+if_sethide(if_gethash(923, 26), 1)
+if_sethide(if_gethash(923, 28), 1)
+if_sethide(if_gethash(923, 30), 1)
+if_sethide(if_gethash(923, 17), 1)
+if_sethide(if_gethash(923, 19), 1)
+if_sethide(if_gethash(923, 21), 1)
+if_sethide(if_gethash(923, 23), 1)
+if_sethide(if_gethash(923, 25), 1)
+if_sethide(if_gethash(923, 27), 1)
+if_sethide(if_gethash(923, 29), 1)
+if_sethide(if_gethash(923, 31), 1)
+sVar0 = "Bait: None"
+switch(load_varc(1109)) {
+	case default:
+		break
+	case 1:
+		sVar0 = "Bait: worm"
+		if_sethide(if_gethash(923, 17), 0)
+		break
+	case 2:
+		sVar0 = "Bait: maggot"
+		if_sethide(if_gethash(923, 19), 0)
+		break
+	case 4:
+		sVar0 = "Bait: locust"
+		if_sethide(if_gethash(923, 21), 0)
+		break
+	case 3:
+		sVar0 = "Bait: cricket"
+		if_sethide(if_gethash(923, 23), 0)
+		break
+	case 5:
+		sVar0 = "Bait: cray"
+		if_sethide(if_gethash(923, 25), 0)
+		break
+	case 6:
+		sVar0 = "Bait: shrimp"
+		if_sethide(if_gethash(923, 27), 0)
+		break
+	case 7:
+		sVar0 = "Bait: green moth"
+		if_sethide(if_gethash(923, 29), 0)
+		break
+	case 8:
+		sVar0 = "Bait: grey moth"
+		if_sethide(if_gethash(923, 31), 0)
+		break
+
+}
+if_settext(if_gethash(923, 112), sVar0)
+if(load_varc(1109) == 0)
+	instr6342(if_gethash(923, 105), script_6252, "")
+else {
+	instr6342(if_gethash(923, 105), None, "")
+	if_sethide(if_gethash(923, 64), 0)
+}
+return

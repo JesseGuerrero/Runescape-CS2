@@ -1,0 +1,35 @@
+//script1840(1840)(int arg0, int arg1, int arg2)(int)
+int iVar3
+int iVar4
+string sVar0
+iVar3 = enum(1805, arg1, 'i', 'J')
+if(iVar3 == -1)
+	return arg2
+sVar0 = struct_param(596, iVar3)
+iVar4 = struct_param(477, iVar3)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_setposition(0, 0, arg2, 3)
+cc_setsize(0, 0, 15, 15)
+cc_setposition(0, 0, arg2, cc_getx() + cc_getwidth())
+cc_setsize(0, 1, cc_getheight(), cc_getx() + cc_getx())
+cc_setgraphic(struct_param(595, iVar3))
+cc_setcolor(afafaf)
+cc_settextfont(495)
+cc_settextshadow(1)
+cc_settextalign(0, 1, 0)
+cc_settext(sVar0)
+if(iVar4 != -1) {
+	cc_setopbase("<col=ff9040>" + sVar0 + "</col>")
+	cc_setopbase("<col=ff9040>" + sVar0 + "</col>")
+	cc_setop("Highlight", 1)
+	cc_setop("Highlight", 1)
+	instr6687(script_288, "y", iVar4)
+	instr6687(script_288, "y", iVar4)
+	instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+	instr6091(script_1356, "Iii", arg0, instr6151(), 16777215)
+	instr6092(script_1356, "Iii", arg0, instr6151(), 11513775)
+	instr6092(script_1356, "Iii", arg0, instr6151(), 11513775)
+}
+return arg2 + cc_getheight()
+return 0

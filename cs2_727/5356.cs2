@@ -1,0 +1,6 @@
+//script5356(5356)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg0, arg1) == 1) {
+	cc_setgraphic(7767)
+	if_settext(if_gethash(1143, 49), struct_param(1994, arg2))
+}
+return

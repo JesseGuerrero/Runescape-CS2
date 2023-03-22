@@ -1,0 +1,7 @@
+void script_1015(Widget widget0, int arg1, Color color2, int arg3) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setRGB(color2);
+		CHILD.setTrans(arg3);
+	}
+	return;
+}

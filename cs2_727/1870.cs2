@@ -1,0 +1,25 @@
+//script1870(1870)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+iVar1 = 0
+iVar2 = 0
+iVar3 = get_system_update_timer()
+sVar0 = "0"
+if(iVar3 > 0) {
+	iVar1 = modulo(60, iVar3 / 50)
+	iVar2 = iVar3 / 3000
+	if(iVar1 < 10)
+		sVar0 = "System update in: " + to_string(iVar2) + ":0" + to_string(iVar1)
+	else
+		sVar0 = "System update in: " + to_string(iVar2) + ":" + to_string(iVar1)
+	if_settext(arg0, sVar0)
+	if(string_length(sVar0) > 0) {
+		if_setsize(if_gethash(906, 45), 0, 0, if_getheight(if_gethash(906, 45)), stringwidth(494, "System update in: ") + 40)
+		if_sethide(if_gethash(906, 45), 0)
+	} else 
+		if_sethide(if_gethash(906, 45), 1)
+} else 
+	instr6342(arg0, None, "")
+return

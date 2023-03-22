@@ -1,0 +1,24 @@
+//script1157(1157)(int arg0)(void)
+if(arg0 != 1)
+	return
+if(instr6644() >= 2)
+	if_sethide(if_gethash(746, 22), 0)
+if_sethide(if_gethash(752, 3), 0)
+if_sethide(if_gethash(752, 7), 1)
+if_sethide(if_gethash(752, 8), 1)
+if(script_42(load_varc(266)) == 0) {
+	store_varc_string(38, "")
+	store_varc_string(39, "")
+	store_varc(266, 1)
+}
+if(string_length(load_varc_string(38)) > 0)
+	if_settext(if_gethash(752, 4), "Edit the name of your caller:" + "<br>" + "(Delete it to disable this feature.)")
+else
+	if_settext(if_gethash(752, 4), "Enter the name of your caller:")
+store_varc(5, 12)
+script_1564(load_varc_string(38))
+hook_mouse_press(if_gethash(752, 3), script_1805, "")
+script_2026()
+instr6248(if_gethash(752, 5), script_112, "iz", -2147483640, -2147483639)
+script_1188()
+return

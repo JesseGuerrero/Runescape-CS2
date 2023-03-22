@@ -1,0 +1,6 @@
+//script2470(2470)(int arg0, int arg1)(void)
+if_settext(arg1, "")
+if_sethide(arg0, 1)
+store_varc(2, 0)
+store_varc(1, 0)
+return

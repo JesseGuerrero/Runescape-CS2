@@ -1,0 +1,11 @@
+//script3004(3004)(int arg0, int arg1)(void)
+hook_mouse_press(if_gethash(907, 41), None, "")
+hook_mouse_press(if_gethash(907, 29), None, "")
+hook_mouse_press(if_gethash(907, 17), None, "")
+hook_mouse_press(if_gethash(907, 55), None, "")
+if(if_getspriteid(script_3013(arg1)) == 2669)
+	script_3007(script_3011(arg1).get(0), script_3011(arg1).get(1), script_3011(arg1).get(2), script_3011(arg1).get(3), script_3011(arg1).get(4), script_3011(arg1).get(5), script_3011(arg1).get(6))
+else
+	script_3009(script_3011(arg1).get(0), script_3011(arg1).get(1), script_3011(arg1).get(2), script_3011(arg1).get(3), script_3011(arg1).get(4), script_3011(arg1).get(5), script_3011(arg1).get(6))
+instr6342(if_gethash(907, 2), script_3005, "ii", arg1, arg0)
+return

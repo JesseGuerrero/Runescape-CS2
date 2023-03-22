@@ -1,0 +1,13 @@
+//script1376(1376)(int arg0, int arg1, int arg2)(void)
+if(arg0 == 1) {
+	if_sethide(if_gethash(755, 47), 0)
+	instr6213(if_gethash(755, 5), 1, "Hide key")
+	if_setsize(arg1, 1, 1, 0, if_getwidth(if_gethash(755, 47)))
+} else  {
+	if_sethide(if_gethash(755, 47), 1)
+	instr6213(if_gethash(755, 5), 1, "Show key")
+	if_setsize(arg1, 1, 1, 0, 0)
+}
+script_2046(arg1)
+instr6239(if_gethash(755, 5), script_1375, "II", arg1, arg2)
+return

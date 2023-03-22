@@ -1,0 +1,6 @@
+void script_385(boolean arg0) {
+	if (arg0 == true || script_568(getMyLocation()) == 1 || getClientCycle() % 100 == 0) {
+		script_386();
+	}
+	return;
+}

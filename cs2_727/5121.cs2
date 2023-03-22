@@ -1,0 +1,66 @@
+//script5121(5121)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+cc_deleteall(if_gethash(1119, 16))
+iVar0 = 0
+iVar1 = 126 + 1
+iVar2 = -1
+iVar3 = -1
+while(iVar0 <= iVar1) {
+	if(iVar0 > load_varpbit(9545))
+		if(cc_find(iVar0 * 3, if_gethash(1119, 11)) == 1)
+			if(cc_ishidden() == 0) {
+				cc_clearscripts()
+				if(cc_find((iVar0 * 3) + 1, if_gethash(1119, 11)) == 1)
+					if(load_varc(777) == iVar0)
+						cc_setgraphic(5918)
+					else
+						cc_setgraphic(5922)
+				if(cc_find((iVar0 * 3) + 2, if_gethash(1119, 11)) == 1)
+					cc_setcolor(7f7f7f)
+			}
+	else
+		if(load_varc(777) == iVar0) {
+			iVar2 = 5917
+			iVar3 = 5916
+			if(cc_find(iVar0 * 3, if_gethash(1119, 11)) == 1)
+				if(cc_ishidden() == 0) {
+					instr6091(script_5122, "Iidi", -2147483645, -2147483643, iVar2, 16777215)
+					instr6092(script_5122, "Iidi", -2147483645, -2147483643, iVar3, 14671823)
+					if(cc_find((iVar0 * 3) + 1, if_gethash(1119, 11)) == 1)
+						cc_setgraphic(iVar3)
+					if(cc_find((iVar0 * 3) + 2, if_gethash(1119, 11)) == 1)
+						cc_setcolor(dfdfcf)
+				}
+		} else  {
+			iVar2 = 5921
+			iVar3 = 5920
+			if(cc_find(iVar0 * 3, if_gethash(1119, 11)) == 1)
+				if(cc_ishidden() == 0) {
+					instr6091(script_5122, "Iidi", -2147483645, -2147483643, iVar2, 16777215)
+					instr6092(script_5122, "Iidi", -2147483645, -2147483643, iVar3, 13615023)
+					if(cc_find((iVar0 * 3) + 1, if_gethash(1119, 11)) == 1)
+						cc_setgraphic(iVar3)
+					if(cc_find((iVar0 * 3) + 2, if_gethash(1119, 11)) == 1)
+						cc_setcolor(cfbfaf)
+				}
+		}
+	if(iVar0 <= load_varc(777)) {
+		cc_create(iVar0, 3, 73334800)
+		if(iVar0 == load_varc(777)) {
+			cc_setsize(1, 1, 0, 0)
+			cc_setposition(1, 1, 0, 0)
+			cc_settrans(255)
+			cc_setop("Confirm", 1)
+		} else 
+			cc_sethide(1)
+	}
+	iVar0 = iVar0 + 1
+}
+if(load_varc(777) >= 0)
+	if_sethide(if_gethash(1119, 19), 1)
+else
+	if_sethide(if_gethash(1119, 19), 0)
+return

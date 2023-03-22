@@ -1,0 +1,7 @@
+//script2318(2318)(int arg0)(void)
+if(arg0 != 1)
+	return
+sound_synth(0, 1, 2266)
+store_varpbit(8348, 1 - load_varpbit(8348))
+script_2319()
+return

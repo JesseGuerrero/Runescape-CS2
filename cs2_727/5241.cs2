@@ -1,0 +1,8 @@
+//script5241(5241)(int arg0)(void)
+if(load_varc(1184) == 0)
+	if(arg0 == 73793728)
+		if_setcolor(arg0, 0x99917A)
+else
+	if(arg0 == 73793723)
+		if_setcolor(arg0, 0x99917A)
+return

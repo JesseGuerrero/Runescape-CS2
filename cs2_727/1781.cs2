@@ -1,0 +1,18 @@
+//script1781(1781)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 <= 4) {
+	if(cc_find(iVar0 * 4, if_gethash(791, 141)) == 1)
+		if(load_varc(257) == iVar0) {
+			cc_setgraphic(699)
+			script_1783(51839117, 51839118, 51839117, (iVar0 * 4) + 3)
+		} else 
+			if(world_members() == 0)
+				if(struct_param(557, enum(1604, iVar0, 'i', 'J')) == 1)
+					cc_setgraphic(698)
+				else
+					cc_setgraphic(697)
+	iVar0 = iVar0 + 1
+}
+script_1784()
+return

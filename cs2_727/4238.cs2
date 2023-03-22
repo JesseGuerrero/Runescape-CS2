@@ -1,0 +1,21 @@
+//script4238(4238)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 0
+if(load_varc(1495) != 0)
+	iVar3 = max(120 - (client_clock() - load_varc(1495)), 0)
+if(iVar3 >= 60)
+	if(iVar3 <= 120) {
+		if_set2dangle(arg2, min(65353, iVar3 * 545))
+		if_set2dangle(arg1, 0)
+	} else 
+		if(iVar3 > 0)
+			if(iVar3 < 60) {
+				if_set2dangle(arg2, 32768)
+				if_set2dangle(arg1, min(65353, 32768 + (iVar3 * 545)))
+			} else  {
+				if_set2dangle(arg2, 32768)
+				if_set2dangle(arg1, 32768)
+				if(load_varc(1495) != 0)
+					store_varc(1495, 0)
+			}
+return

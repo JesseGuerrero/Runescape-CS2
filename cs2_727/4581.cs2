@@ -1,0 +1,15 @@
+//script4581(4581)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = -1
+iVar2 = -1
+if(activeclanchannel_find_affined() == 1)
+	if(activeclansettings_find_affined() == 1) {
+		iVar1 = activeclanchannel_getuserslot(removetags(instr6574()))
+		if(iVar1 >= 0) {
+			iVar2 = activeclanchannel_getuserrank(iVar1)
+			if(iVar2 >= 100)
+				store_varc_string(350, activeclansettings_getbanneddisplayname(arg0))
+		}
+	}
+return

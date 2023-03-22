@@ -1,0 +1,13 @@
+//script2263(2263)(int arg0, int arg1, string arg2, string arg3)(void)
+if(arg1 != 1) {
+	instr6213(arg0, 1, "Make 1 " + arg1 + "(" + to_string(arg1) + ") ")
+	instr6213(arg0, 2, "Make 5 " + arg1 + "(" + to_string(arg1 * 5) + ")")
+	instr6213(arg0, 3, "Make X " + arg1)
+	instr6213(arg0, 4, "Make All " + arg1)
+	return
+}
+instr6213(arg0, 1, "Make 1 " + arg0)
+instr6213(arg0, 2, "Make 5 " + arg1)
+instr6213(arg0, 3, "Make X " + arg1)
+instr6213(arg0, 4, "Make All " + arg1)
+return

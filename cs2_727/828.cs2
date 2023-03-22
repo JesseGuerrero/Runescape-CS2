@@ -1,0 +1,50 @@
+//script828(828)()(void)
+int iVar0
+int iVar1
+int iVar2
+script_2872()
+globalArrays[0] = [1099 + 1, 105]
+iVar0 = 0
+if(load_varc(89) == 0 || load_varc(89) == -1) {
+	store_varc_string(196, "")
+	store_varc(89, 1)
+}
+while(iVar0 <= 1099) {
+	globalArrays[0][iVar0] = iVar0
+	cc_create(iVar0 * 2, 4, 12255233)
+	cc_create((iVar0 * 2) + 1, 5, 12255233)
+	iVar0 = iVar0 + 1
+}
+script_520(0, 0, 1099, 1347)
+if_setparam_int(if_gethash(187, 4), -1, 1133)
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+while(iVar1 <= 1099) {
+	iVar0 = globalArrays[0][iVar1]
+	if(cc_find(iVar0 * 2, if_gethash(187, 1)) == 1)
+		if(cc_find((iVar0 * 2) + 1, if_gethash(187, 1)) == 1) {
+			if(enum(1351, iVar0, 'i', 'M') != 147)
+				if(enum(1350, iVar0, 'i', 'i') == 0) {
+					cc_settextalign(0, 1, 0)
+					cc_settext(enum_string(iVar0, 1345))
+					cc_setsize(0, 0, 15, 150)
+					cc_setopbase(enum_string(iVar0, 1345))
+					cc_setopbase(enum_string(iVar0, 1345))
+					cc_settextshadow(0)
+					cc_settextfont(494)
+					instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+					cc_setsize(0, 0, 12, 12)
+					if(iVar2 == 0) {
+						if_setparam_int(if_gethash(187, 4), iVar0, 1133)
+						iVar2 = 1
+					}
+				}
+			if(iVar1 < 1099)
+				cc_setparam_int(globalArrays[0][iVar1 + 1], 1133)
+		}
+	iVar1 = iVar1 + 1
+}
+script_31(12255234, 12255233, 792, 789, 790, 791, 773, 788)
+script_3680()
+return

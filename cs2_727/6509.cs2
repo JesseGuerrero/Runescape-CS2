@@ -1,0 +1,39 @@
+//script6509(6509)(int arg0)(void)
+int iVar1
+int iVar2
+return
+iVar1 = -1
+if(arg0 == 0)
+	iVar1 = 85327894
+else
+	if(arg0 == 1)
+		iVar1 = 85327900
+	else
+		if(arg0 == 2)
+			iVar1 = 85327886
+iVar2 = -1
+switch(if_getspriteid(iVar1)) {
+	case default:
+		break
+	case 11642:
+		iVar2 = 11643
+		break
+	case 11630:
+		iVar2 = 11631
+		break
+	case 11633:
+		iVar2 = 11634
+		break
+	case 11627:
+		iVar2 = 11628
+		break
+	case 11636:
+		iVar2 = 11637
+		break
+	case 11639:
+		iVar2 = 11640
+		break
+
+}
+if_setgraphic(iVar1, iVar2)
+return

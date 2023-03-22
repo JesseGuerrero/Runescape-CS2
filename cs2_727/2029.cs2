@@ -1,0 +1,6 @@
+//script2029(2029)(int arg0, int arg1)(void)
+if(load_varp(330) > arg1)
+	if_setcolor(arg0, 0xFF00)
+else
+	if_setcolor(arg0, 0x0)
+return

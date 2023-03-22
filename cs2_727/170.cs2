@@ -1,0 +1,13 @@
+//script170(170)()(void)
+if(load_varpbit(3905) == 1)
+	if_settext(if_gethash(588, 7), to_string(load_varpbit(3901)) + "/5")
+else
+	if(load_varpbit(3905) == 2)
+		if_settext(if_gethash(588, 7), to_string(load_varpbit(3902)) + "/5")
+	else
+		if(load_varpbit(3905) == 3)
+			if_settext(if_gethash(588, 7), to_string(load_varpbit(3903)) + "/5")
+		else
+			if(load_varpbit(3905) == 4)
+				if_settext(if_gethash(588, 7), to_string(load_varpbit(3904)) + "/5")
+return

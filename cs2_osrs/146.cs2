@@ -1,0 +1,33 @@
+void script_146(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	int int4;
+	int int5;
+	Sprite sprite6;
+	int int7;
+	int3 = (widget0.getWidth() - 36 * 7) / 6;
+	int4 = (widget0.getHeight() - 32 * 4) / 3;
+	int5 = getItemContainerLength(93);
+	while (int5 > 0) {
+		int5 = int5 - 1;
+		if (CHILD.setChild(widget0, int5) == true) {
+			CHILD.setNoOptions();
+			CHILD.setPosition(int5 % 7 * (36 + int3), int5 / 7 * (32 + int4), 0, 0);
+			script_172(widget0, getItemIdInSlot(93, int5), getItemAmtInSlot(93, int5));
+		}
+	}
+	sprite6 = 170;
+	int7 = 179;
+	if (getItemAmtInContainer(93, 11941) > 0) {
+		widget1.hookMouseEnter(&script_273(widget2, 75));
+		widget1.hookMouseExit(&script_273(widget2, 0));
+		widget1.hookOptionClick(&script_292(CTX_WIDGET, (Sprite)int7, (Sprite)sprite6, CTX_MENU_OPTION));
+	} else {
+		widget1.hookMouseEnter(null);
+		widget1.hookMouseExit(null);
+		widget1.hookOptionClick(null);
+		widget1.setSprite(sprite6);
+		widget2.setTrans(75);
+		widget1.hookFrame(null);
+	}
+	return;
+}

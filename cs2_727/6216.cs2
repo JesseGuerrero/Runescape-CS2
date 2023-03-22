@@ -1,0 +1,9 @@
+//script6216(6216)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = script_284(coord())
+iVar2 = coordx(arg0) - coordx(17831872)
+iVar3 = coordz(arg0) - coordz(17831872)
+return movecoord(iVar3, 0, iVar2, iVar1)
+return -1

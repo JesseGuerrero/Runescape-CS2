@@ -1,0 +1,16 @@
+//script935(935)(int arg0)(int)
+switch(item_param(762, arg0)) {
+	case default:
+		break
+	case 1:
+		if(load_varp(322) < 10)
+			return 0
+		break
+	case 2:
+		if(load_varpbit(4310) < 10)
+			return 0
+		return 1
+
+
+}
+return -1

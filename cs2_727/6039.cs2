@@ -1,0 +1,33 @@
+//script6039(6039)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar3 = enum(1482, arg0, 'S', 'i')
+iVar4 = script_6035(arg0, load_varc(1798), load_varc(1799), 0)
+iVar5 = 3495
+if(iVar4 == 1)
+	iVar5 = 371
+cc_deleteall(arg1)
+cc_create(0, 5, arg1)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+iVar6 = 10203
+iVar7 = 10204
+if(iVar3 != load_varc(1796)) {
+	cc_setgraphic(iVar6)
+	if(iVar4 == 1) {
+		instr6091(script_688, "Iid", -2147483645, -2147483643, iVar7)
+		instr6092(script_688, "Iid", -2147483645, -2147483643, iVar6)
+	}
+} else 
+	cc_setgraphic(10205)
+cc_create(1, 5, arg1)
+cc_setsize(0, 0, 25, 25)
+cc_setposition(1, 1, 0, 0)
+cc_setgraphic(enum(iVar5, iVar3, 'i', 'd'))
+cc_setop("Choose", 1)
+cc_setopbase(enum(680, arg0, 'S', 's'))
+instr6687(script_6040, "SiII", arg0, iVar3, arg1, arg2)
+return

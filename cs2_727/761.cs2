@@ -1,0 +1,13 @@
+//script761(761)(int arg0)(int)
+if(arg0 == 0)
+	return 36
+else
+	if(arg0 == 1)
+		return 147
+	else
+		if(arg0 == 2)
+			return 258
+		else
+			if(arg0 == 3)
+				return 369
+return 0

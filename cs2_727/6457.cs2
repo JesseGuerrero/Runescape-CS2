@@ -1,0 +1,90 @@
+//script6457(6457)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+iVar0 = -1
+sVar0 = "this colour"
+iVar1 = 0
+iVar2 = -1
+sVar1 = ""
+iVar3 = 0
+while(iVar1 < enum_getoutputcount(5962)) {
+	iVar2 = enum(5962, iVar1, 'i', 'I')
+	if(iVar2 != -1) {
+		if(iVar1 == 0)
+			iVar0 = struct_param(2483, 11063)
+		else
+			if(iVar1 == 1)
+				iVar0 = struct_param(2484, 11063)
+			else
+				if(iVar1 == 2)
+					iVar0 = struct_param(2485, 11063)
+				else
+					if(iVar1 == 3)
+						iVar0 = struct_param(2486, 11063)
+					else
+						if(iVar1 == 4)
+							iVar0 = struct_param(2487, 11063)
+						else
+							if(iVar1 == 5)
+								iVar0 = struct_param(2488, 11063)
+							else
+								if(iVar1 == 6)
+									iVar0 = struct_param(2489, 11063)
+								else
+									if(iVar1 == 7)
+										iVar0 = struct_param(2490, 11063)
+									else
+										if(iVar1 == 8)
+											iVar0 = struct_param(2491, 11063)
+										else
+											if(iVar1 == 9)
+												iVar0 = struct_param(2492, 11063)
+											else
+												if(iVar1 == 10)
+													iVar0 = struct_param(2493, 11063)
+												else
+													if(iVar1 == 11)
+														iVar0 = struct_param(2494, 11063)
+													else
+														if(iVar1 == 12)
+															iVar0 = struct_param(2495, 11063)
+														else
+															if(iVar1 == 13)
+																iVar0 = struct_param(2496, 11063)
+															else
+																if(iVar1 == 14)
+																	iVar0 = struct_param(2497, 11063)
+																else
+																	if(iVar1 == 15)
+																		iVar0 = struct_param(2498, 11063)
+		if(iVar0 != -1) {
+			cc_create(iVar3, 3, iVar2)
+			cc_setposition(0, 0, 2, 2)
+			cc_setsize(1, 1, 2, 2)
+			cc_setcolor(0)
+			cc_setfill(1)
+			iVar3 = iVar3 + 1
+			cc_create(iVar3, 5, iVar2)
+			cc_setposition(0, 0, 0, 0)
+			cc_setsize(0, 0, 20, 20)
+			iVar3 = iVar3 + 1
+			if(load_varc(1967) == iVar1)
+				cc_setgraphic(2289)
+			else
+				cc_setgraphic(2288)
+			sVar0 = struct_param(2548, iVar0)
+			sVar1 = "Recolour this item to " + sVar0 + "."
+			cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1311, 83), -2147483645, -2147483643, sVar1, 350, 3793, 3793, 11974326, 12, 1, 1, -2147483647, -2147483646)
+			instr6092(script_40, "I", if_gethash(1311, 83))
+			iVar0 = -1
+			iVar3 = 0
+		}
+		iVar2 = -1
+	}
+	iVar1 = iVar1 + 1
+}
+return

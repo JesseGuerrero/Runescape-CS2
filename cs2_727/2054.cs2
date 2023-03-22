@@ -1,0 +1,6 @@
+//script2054(2054)(int arg0, int arg1, int arg2)(void)
+if(client_clock() >= arg0) {
+	instr6090(arg2)
+	instr6342(arg1, None, "")
+}
+return

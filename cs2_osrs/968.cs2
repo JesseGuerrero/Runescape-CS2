@@ -1,0 +1,15 @@
+void script_968(Widget widget0, int arg1) {
+	int int2;
+	Widget widget3;
+	int2 = datamap('i', 'i', 1504, arg1);
+	widget3 = widget(482, 118);
+	if (arg1 >= 14 && arg1 <= 27) {
+		widget3 = widget(482, 91);
+	}
+	if (int2 != -1 && CHILD.setChild(widget3, int2) == true) {
+		CHILD.setHidden(false);
+		CHILD.hookFrame(&script_756(widget3, int2, getClientCycle()));
+	}
+	script_1442(widget0, 5);
+	return;
+}

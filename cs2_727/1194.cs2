@@ -1,0 +1,13 @@
+//script1194(1194)()(void)
+int iVar0
+int iVar1
+if(load_varc(1002) == -1)
+	return
+iVar0 = coordx(load_varc(1002)) - coordx(coord())
+if(iVar0 > 10 || iVar0 < -10)
+	return
+iVar1 = coordz(load_varc(1002)) - coordz(coord())
+if(iVar1 > 10 || iVar1 < -10)
+	return
+instr6627(load_varc(1002))
+return

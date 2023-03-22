@@ -1,0 +1,8 @@
+//script5970(5970)()(void)
+instr6898(if_gethash(1259, 51), script_4916, "")
+instr6898(if_gethash(1261, 145), script_4916, "")
+instr6898(if_gethash(1258, 139), script_4916, "")
+instr6898(if_gethash(1260, 106), script_4916, "")
+script_4993()
+script_4853()
+return

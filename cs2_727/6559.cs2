@@ -1,0 +1,24 @@
+//script6559(6559)()(int, int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+if(load_varpbit(11654) == 1) {
+	iVar3 = 1
+	iVar0 = 11724
+	iVar1 = 11725
+	iVar2 = 11726
+} else  {
+	iVar3 = 0
+	iVar0 = 11733
+	iVar1 = 11734
+	iVar2 = 11735
+}
+if_setgraphic(if_gethash(1317, 46), iVar0)
+hook_mouse_exit(if_gethash(1317, 46), script_44, "Id", if_gethash(1317, 46), iVar0)
+hook_mouse_enter(if_gethash(1317, 46), script_44, "Id", if_gethash(1317, 46), iVar1)
+return 44, 44

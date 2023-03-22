@@ -1,0 +1,10 @@
+//script222(222)()(void)
+if(friend_test(load_varc_string(24)) == 1)
+	mes_typed(0, 26, "Sorry, you cannot ignore players in your Friends List.")
+else {
+	ignore_add_temp(load_varc_string(24))
+	mes_typed(0, 26, "You are ignoring " + load_varc_string(24) + " until you log out.")
+}
+store_varc(11, 0)
+script_675()
+return

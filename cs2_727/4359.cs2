@@ -1,0 +1,6 @@
+//script4359(4359)(int arg0)(void)
+if(activeclansettings_find_listened() == 1)
+	script_4361(arg0)
+else
+	instr6260(arg0, script_4360, "I", arg0)
+return

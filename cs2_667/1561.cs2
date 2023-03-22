@@ -1,0 +1,25 @@
+void script_1561() {
+	int int0;
+	int int1;
+	string str0;
+	string str1;
+	str0 = cs2method5003(0);
+	int0 = 1;
+	int1 = 0;
+	str1 = "";
+	while (int1 == 0 && int0 < cs2method5017()) {
+		str1 = cs2method5003(int0);
+		if (getChatLineType(int0) != 0 && getChatLineType(int0) != 4 && getChatLineType(int0) != 27 && getChatLineType(int0) != 28 && getChatLineType(int0) != 29 && getChatLineType(int0) != 26 && getChatLineType(int0) != 30 && getChatLineType(int0) != 31) {
+			int1 = 1;
+		} else if (cs2method5024(int0) <= VARC[1269]) {
+			int1 = 1;
+		} else if (length(removeTags(str1)) > 0) {
+			str0 = concat(concat(str1, "<br>"), str0);
+		} else {
+			str0 = concat("<br>", str0);
+		}
+		int0 = int0 + 1;
+	}
+	script_102(str0);
+	return;
+}

@@ -1,0 +1,8 @@
+void script_1579(Widget widget0, Widget widget1) {
+	int int2;
+	int2 = getItemContainerLength(581);
+	script_1581(widget1, int2);
+	widget0.hookContainer(&script_1580(widget1, int2), 581);
+	widget0.hookVARP(&script_1580(widget1, int2), 1432);
+	return;
+}

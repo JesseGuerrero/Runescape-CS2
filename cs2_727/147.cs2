@@ -1,0 +1,94 @@
+//script147(147)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		store_varc(12, arg1)
+		break
+	case 1:
+		store_varc(13, arg1)
+		break
+	case 2:
+		store_varc(14, arg1)
+		break
+	case 3:
+		store_varc(15, arg1)
+		break
+	case 4:
+		store_varc(16, arg1)
+		break
+	case 5:
+		store_varc(17, arg1)
+		break
+	case 6:
+		store_varc(18, arg1)
+		break
+	case 7:
+		store_varc(19, arg1)
+		break
+	case 8:
+		store_varc(20, arg1)
+		break
+	case 9:
+		store_varc(21, arg1)
+		break
+	case 10:
+		store_varc(22, arg1)
+		break
+	case 11:
+		store_varc(23, arg1)
+		break
+	case 12:
+		store_varc(24, arg1)
+		break
+	case 13:
+		store_varc(25, arg1)
+		break
+	case 14:
+		store_varc(26, arg1)
+		break
+	case 15:
+		store_varc(27, arg1)
+		break
+	case 16:
+		store_varc(28, arg1)
+		break
+	case 17:
+		store_varc(29, arg1)
+		break
+	case 18:
+		store_varc(30, arg1)
+		break
+	case 19:
+		store_varc(31, arg1)
+		break
+	case 20:
+		store_varc(32, arg1)
+		break
+	case 21:
+		store_varc(33, arg1)
+		break
+	case 22:
+		store_varc(34, arg1)
+		break
+	case 23:
+		store_varc(35, arg1)
+		break
+	case 24:
+		store_varc(36, arg1)
+		break
+	case 25:
+		store_varc(37, arg1)
+		break
+	case 26:
+		store_varc(38, arg1)
+		break
+	case 27:
+		store_varc(39, arg1)
+		break
+	case -1:
+		store_varc(212, arg1)
+		break
+
+}
+return

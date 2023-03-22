@@ -1,0 +1,141 @@
+//script89(89)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+if(instr6661(-1, if_gethash(754, 0)) == 1) {
+	instr6342(if_gethash(754, 0), script_1562, "")
+	return
+}
+iVar0 = 0
+iVar1 = -1
+iVar2 = 0
+iVar3 = 0
+if(get_system_update_timer() > 0) {
+	iVar2 = modulo(60, get_system_update_timer() / 50)
+	iVar3 = get_system_update_timer() / 3000
+	if(iVar2 < 10)
+		if_settext(if_gethash(754, 5), "<col=ffff00>" + "System update in: " + to_string(iVar3) + ":0" + to_string(iVar2))
+	else
+		if_settext(if_gethash(754, 5), "<col=ffff00>" + "System update in: " + to_string(iVar3) + ":" + to_string(iVar2))
+	iVar0 = 1
+	instr6220(if_gethash(754, 5))
+	instr6239(if_gethash(754, 5), None, "")
+	if_settextshadow(if_gethash(754, 5), 1)
+}
+iVar4 = 0
+iVar5 = 0
+iVar6 = enum(3056, load_varp(287), 'i', 'i')
+iVar7 = enum(3057, load_varp(287), 'i', '1')
+if(load_varp(287) > 0)
+	if(instr6644() < 2 || load_varc(41) != -1)
+		if(iVar4 < 100)
+			while(iVar0 < 5) {
+				if(script_91(iVar4) == 1) {
+					iVar1 = enum(580, iVar0, 'i', 'I')
+					if_setcolor(iVar1, iVar6)
+					if_settextshadow(iVar1, iVar7)
+					iVar5 = chatline_gettype(iVar4)
+					switch(iVar5) {
+						case default:
+							break
+						case 18:
+							if_settext(iVar1, "From " + chat_getcrownedname(iVar4) + ": " + chat_getmessage(iVar4))
+							break
+						case 5:
+							if_settext(iVar1, chat_getmessage(iVar4))
+							break
+						case 19:
+							if_settext(iVar1, "To " + chat_getcrownedname(iVar4) + ": " + chat_getmessage(iVar4))
+							break
+
+					}
+					instr6220(iVar1)
+					instr6239(iVar1, script_88, "isi", -2147483644, instr6573(iVar4), iVar4)
+					switch(iVar5) {
+						case default:
+							break
+						case 7:
+							item_useonname(iVar1, "<col=ffffff>" + removetags(chat_getcrownedname(iVar4)))
+							if(compare(removetags(chat_getcrownedname(iVar4)), removetags(chat_playername())) != 0) {
+								if(friend_test(instr6573(iVar4)) == 1)
+									if(world_isquickchat() == 0)
+										if(userdetail_quickchat() == 0)
+											instr6213(iVar1, 7, "Message")
+								else {
+									instr6213(iVar1, 7, "Add friend")
+									instr6213(iVar1, 8, "Add ignore")
+								}
+								if(load_varpbit(9982) == 1)
+									instr6213(iVar1, 10, "Report")
+							}
+							break
+						case 19:
+							item_useonname(iVar1, "<col=ffffff>" + removetags(chat_getcrownedname(iVar4)))
+							if(compare(removetags(chat_getcrownedname(iVar4)), removetags(chat_playername())) != 0) {
+								if(friend_test(instr6573(iVar4)) == 1)
+									if(world_isquickchat() == 0)
+										if(userdetail_quickchat() == 0)
+											instr6213(iVar1, 7, "Message")
+								else {
+									instr6213(iVar1, 7, "Add friend")
+									instr6213(iVar1, 8, "Add ignore")
+								}
+								if(iVar5 == 18)
+									if(instr6584(chat_quickchatid(iVar4)) > 0)
+										if(load_varc(132) == -1) {
+											store_varc(132, chat_quickchatid(iVar4))
+											store_varc_string(29, chat_getcrownedname(iVar4))
+											store_varc(133, 5)
+											if(friend_test(instr6573(iVar4)) == 1)
+												instr6213(iVar1, 9, "Quick Response")
+										} else 
+											instr6213(iVar1, 9, "Quick Response")
+							}
+							break
+
+					}
+					iVar0 = iVar0 + 1
+				}
+				iVar4 = iVar4 + 1
+			}
+while(iVar0 < 5) {
+	iVar1 = enum(580, iVar0, 'i', 'I')
+	if_settext(iVar1, "")
+	instr6220(iVar1)
+	iVar0 = iVar0 + 1
+}
+iVar8 = 0
+iVar9 = 0
+if(instr6644() >= 2)
+	iVar9 = 9
+else
+	iVar9 = 5
+iVar8 = 512 - iVar9
+iVar0 = 0
+while(iVar0 < 5) {
+	iVar1 = enum(580, iVar0, 'i', 'I')
+	if_setsize(iVar1, 0, 0, max(1, paramheight(if_gettext(iVar1), instr6289(iVar1), iVar8)) * 14, max(1, min(iVar8, parawidth(if_gettext(iVar1), instr6289(iVar1), iVar8))))
+	iVar0 = iVar0 + 1
+}
+iVar10 = -1
+iVar0 = 0
+iVar1 = enum(580, iVar0, 'i', 'I')
+if_setposition(iVar1, 2, 0, 2, iVar9)
+iVar0 = 1
+while(iVar0 < 5) {
+	iVar1 = enum(580, iVar0, 'i', 'I')
+	iVar10 = enum(580, iVar0 - 1, 'i', 'I')
+	if(iVar1 != -1)
+		if(iVar10 != -1)
+			if_setposition(iVar1, 0, 0, if_gety(iVar10) - if_getheight(iVar1), iVar9)
+	iVar0 = iVar0 + 1
+}
+return

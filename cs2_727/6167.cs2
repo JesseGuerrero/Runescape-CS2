@@ -1,0 +1,19 @@
+//script6167(6167)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 0
+if(arg0 < 1) {
+	arg0 = arg0 + 1
+	instr6342(if_gethash(1273, 14), script_6167, "ii", arg0, arg1)
+} else  {
+	instr6342(if_gethash(1273, 14), None, "")
+	iVar2 = enum_getoutputcount(5838) / 2
+	while(iVar2 < enum_getoutputcount(5838)) {
+		if(cc_find(iVar2, if_gethash(1273, 14)) == 1) {
+			cc_sendtofront()
+			arg1 = script_6172(iVar2, arg1)
+		}
+		iVar2 = iVar2 + 1
+	}
+	if_sendtofront(if_gethash(1273, 18))
+}
+return

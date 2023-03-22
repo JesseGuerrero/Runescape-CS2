@@ -1,0 +1,148 @@
+void script_10(Widget widget0, Widget widget1, int arg2, string arg3, string string4, Item item5, int arg6, Item item7, int arg8, Item item9, int arg10, Item item11, int arg12) {
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	widget1.clearChildren();
+	int11 = 2 + 13 * getLineCount("Level " + arg2 + ": " + arg3, 177, 495);
+	int12 = 2 + 13 * getLineCount(string4, 177, 494);
+	int13 = 2 + int11 + int12 + 32 + 14 + 2;
+	if (item5 == null) {
+		int13 = int13 - 32 - 14;
+	}
+	int14 = 5;
+	if (widget0.getY() < 130) {
+		int14 = 261 - int13 - 5;
+	}
+	CHILD.createChild(widget1, 3, 0);
+	CHILD.setPosition(5, int14, 0, 0);
+	CHILD.setSize(180, int13, 0, 0);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0x000000);
+	CHILD.setTrans(42);
+	CHILD.createChild(widget1, 3, 1);
+	CHILD.setPosition(6, int14 + 1, 0, 0);
+	CHILD.setSize(179, int13 - 1, 0, 0);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x2E2B23);
+	CHILD.createChild(widget1, 3, 2);
+	CHILD.setPosition(5, int14, 0, 0);
+	CHILD.setSize(179, int13 - 1, 0, 0);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x726451);
+	CHILD.createChild(widget1, 4, 3);
+	CHILD.setPosition(7, int14 + 2, 0, 0);
+	CHILD.setSize(177, int11, 0, 0);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setText("Level " + arg2 + ": " + arg3);
+	CHILD.createChild(widget1, 4, 4);
+	CHILD.setPosition(7, int14 + 2 + int11, 0, 0);
+	CHILD.setSize(177, int12, 0, 0);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setFont(494);
+	CHILD.setRGB(0xAF6A1A);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setText(string4);
+	if (widget0 == widget(218, 134) || widget0 == widget(218, 133)) {
+		if (VARPBIT[2451] == 1) {
+			CHILD.setText(string4 + "<br>" + "<col=ff0000>" + "On cooldown" + "</col>");
+		}
+	} else if (widget0 == widget(218, 119) && VARPBIT[5438] > 0) {
+		CHILD.setText(string4 + "<br>" + "<col=ff0000>" + "On cooldown" + "</col>");
+	}
+	int15 = 1;
+	if (item7 != null) {
+		int15 = 2;
+	}
+	if (item9 != null) {
+		int15 = 3;
+	}
+	if (item11 != null) {
+		int15 = 4;
+	}
+	int16 = (190 - int15 * 35) / (int15 + 1);
+	int17 = 0;
+	if (item5 != null) {
+		CHILD.createChild(widget1, 5, 5);
+		CHILD.setPosition(int16, int14 + 2 + int11 + int12, 0, 0);
+		CHILD.setSize(35, 32, 0, 0);
+		CHILD.setItem(item5, -1);
+		CHILD.createChild(widget1, 4, 6);
+		CHILD.setPosition(int16, int14 + 2 + int11 + int12 + 32, 0, 0);
+		CHILD.setSize(35, 14, 0, 0);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(494);
+		int17 = script_19(item5);
+		if (int17 >= arg6) {
+			CHILD.setRGB(0x00FF00);
+		} else {
+			CHILD.setRGB(0xFF0000);
+		}
+		CHILD.setTextAntiMacro(false);
+		CHILD.setText(script_20(int17) + "/" + arg6);
+	}
+	if (item7 != null) {
+		CHILD.createChild(widget1, 5, 7);
+		CHILD.setPosition(int16 * 2 + 35, int14 + 2 + int11 + int12, 0, 0);
+		CHILD.setSize(35, 32, 0, 0);
+		CHILD.setItem(item7, -1);
+		CHILD.createChild(widget1, 4, 8);
+		CHILD.setPosition(int16 * 2 + 35, int14 + 2 + int11 + int12 + 32, 0, 0);
+		CHILD.setSize(35, 14, 0, 0);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(494);
+		int17 = script_19(item7);
+		if (int17 >= arg8) {
+			CHILD.setRGB(0x00FF00);
+		} else {
+			CHILD.setRGB(0xFF0000);
+		}
+		CHILD.setTextAntiMacro(false);
+		CHILD.setText(script_20(int17) + "/" + arg8);
+	}
+	if (item9 != null) {
+		CHILD.createChild(widget1, 5, 9);
+		CHILD.setPosition(int16 * 3 + 70, int14 + 2 + int11 + int12, 0, 0);
+		CHILD.setSize(35, 32, 0, 0);
+		CHILD.setItem(item9, -1);
+		CHILD.createChild(widget1, 4, 10);
+		CHILD.setPosition(int16 * 3 + 70, int14 + 2 + int11 + int12 + 32, 0, 0);
+		CHILD.setSize(35, 14, 0, 0);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(494);
+		int17 = script_19(item9);
+		if (int17 >= arg10) {
+			CHILD.setRGB(0x00FF00);
+		} else {
+			CHILD.setRGB(0xFF0000);
+		}
+		CHILD.setTextAntiMacro(false);
+		CHILD.setText(script_20(int17) + "/" + arg10);
+	}
+	if (item11 != null) {
+		CHILD.createChild(widget1, 5, 11);
+		CHILD.setPosition(int16 * 4 + 105, int14 + 2 + int11 + int12, 0, 0);
+		CHILD.setSize(35, 32, 0, 0);
+		CHILD.setItem(item11, -1);
+		CHILD.createChild(widget1, 4, 12);
+		CHILD.setPosition(int16 * 4 + 105, int14 + 2 + int11 + int12 + 32, 0, 0);
+		CHILD.setSize(35, 14, 0, 0);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(494);
+		int17 = script_19(item11);
+		if (int17 >= arg12) {
+			CHILD.setRGB(0x00FF00);
+		} else {
+			CHILD.setRGB(0xFF0000);
+		}
+		CHILD.setTextAntiMacro(false);
+		CHILD.setText(script_20(int17) + "/" + arg12);
+	}
+	return;
+}

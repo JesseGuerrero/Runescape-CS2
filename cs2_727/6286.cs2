@@ -1,0 +1,15 @@
+//script6286(6286)()(void)
+if(load_varc(1929) < 0)
+	store_varc(1929, 0)
+if(load_varc(1929) == 0) {
+	store_varc(1929, 1)
+	if_sethide(if_gethash(1296, 22), 1)
+	if_sethide(if_gethash(1296, 6), 0)
+	if_setposition(if_gethash(1296, 23), 0, 2, 2, 120)
+} else  {
+	store_varc(1929, 0)
+	if_sethide(if_gethash(1296, 22), 0)
+	if_sethide(if_gethash(1296, 6), 1)
+	if_setposition(if_gethash(1296, 23), 0, 2, 60, 120)
+}
+return

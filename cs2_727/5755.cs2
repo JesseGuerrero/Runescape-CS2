@@ -1,0 +1,152 @@
+//script5755(5755)(int arg0, int arg1)(int, string)
+if(arg0 == 0) {
+	if(script_1432() < struct_param(2233, arg1))
+		return struct_param(2233, arg1), "combat"
+	switch(struct_param(1294, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1294, arg1), 'i', 'S')) < struct_param(1295, arg1))
+				return struct_param(1295, arg1), enum(108, struct_param(1294, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1296, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1296, arg1), 'i', 'S')) < struct_param(1297, arg1))
+				return struct_param(1297, arg1), enum(108, struct_param(1296, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1298, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1298, arg1), 'i', 'S')) < struct_param(1299, arg1))
+				return struct_param(1299, arg1), enum(108, struct_param(1298, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1300, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1300, arg1), 'i', 'S')) < struct_param(1301, arg1))
+				return struct_param(1301, arg1), enum(108, struct_param(1300, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1302, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1302, arg1), 'i', 'S')) < struct_param(1303, arg1))
+				return struct_param(1303, arg1), enum(108, struct_param(1302, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1304, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1304, arg1), 'i', 'S')) < struct_param(1305, arg1))
+				return struct_param(1305, arg1), enum(108, struct_param(1304, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1306, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1306, arg1), 'i', 'S')) < struct_param(1307, arg1))
+				return struct_param(1307, arg1), enum(108, struct_param(1306, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1308, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1308, arg1), 'i', 'S')) < struct_param(1309, arg1))
+				return struct_param(1309, arg1), enum(108, struct_param(1308, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1310, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1310, arg1), 'i', 'S')) < struct_param(1311, arg1))
+				return struct_param(1311, arg1), enum(108, struct_param(1310, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(1312, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(1312, arg1), 'i', 'S')) < struct_param(1313, arg1))
+				return struct_param(1313, arg1), enum(108, struct_param(1312, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(2227, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(2227, arg1), 'i', 'S')) < struct_param(2228, arg1))
+				return struct_param(2228, arg1), enum(108, struct_param(2227, arg1), 'i', 's')
+			break
+
+	}
+	switch(struct_param(2229, arg1)) {
+		case default:
+			break
+		case 6:
+			if(stat_base(enum(681, struct_param(2229, arg1), 'i', 'S')) < struct_param(2230, arg1))
+				return struct_param(2230, arg1), enum(108, struct_param(2229, arg1), 'i', 's')
+			break
+
+	}
+} else  {
+	if(struct_param(1294, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1295, arg1))
+			return struct_param(1295, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1296, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1297, arg1))
+			return struct_param(1297, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1298, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1299, arg1))
+			return struct_param(1299, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1300, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1301, arg1))
+			return struct_param(1301, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1302, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1303, arg1))
+			return struct_param(1303, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1304, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1305, arg1))
+			return struct_param(1305, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1306, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1307, arg1))
+			return struct_param(1307, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1308, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1309, arg1))
+			return struct_param(1309, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1310, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1311, arg1))
+			return struct_param(1311, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(1312, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(1313, arg1))
+			return struct_param(1313, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(2227, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(2228, arg1))
+			return struct_param(2228, arg1), enum(680, arg0, 'S', 's')
+	if(struct_param(2229, arg1) == enum(1482, arg0, 'S', 'i'))
+		if(stat_base(arg0) < struct_param(2230, arg1))
+			return struct_param(2230, arg1), enum(680, arg0, 'S', 's')
+}
+return 0, "error"
+return 0, ""

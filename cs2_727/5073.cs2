@@ -1,0 +1,7 @@
+//script5073(5073)(int arg0)(void)
+if_sethide(if_gethash(1111, 18), arg0)
+if(arg0 == 1)
+	if_sethide(if_gethash(1111, 108), 0)
+else
+	if_sethide(if_gethash(1111, 108), 1)
+return

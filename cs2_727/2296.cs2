@@ -1,0 +1,169 @@
+//script2296(2296)(int arg0)(int)
+int iVar1
+iVar1 = enum(2279, arg0, 'i', 'J')
+if(load_varpbit(6840) == 1) {
+	iVar1 = enum(863, arg0, 'i', 'J')
+	switch(iVar1) {
+		case default:
+			break
+		case 888:
+			return load_varpbit(6820)
+
+		case 889:
+			return load_varpbit(6821)
+
+		case 890:
+			return load_varpbit(6822)
+
+		case 891:
+			return load_varpbit(6823)
+
+		case 892:
+			return load_varpbit(6824)
+
+		case 893:
+			return load_varpbit(6825)
+
+		case 894:
+			return load_varpbit(6826)
+
+		case 895:
+			return load_varpbit(6827)
+
+		case 896:
+			return load_varpbit(6828)
+
+		case 897:
+			return load_varpbit(6829)
+
+		case 898:
+			return load_varpbit(6830)
+
+		case 899:
+			return load_varpbit(6831)
+
+		case 900:
+			return load_varpbit(6832)
+
+		case 901:
+			return load_varpbit(6833)
+
+		case 902:
+			return load_varpbit(6834)
+
+		case 903:
+			return load_varpbit(6835)
+
+		case 904:
+			return load_varpbit(6836)
+
+		case 905:
+			return load_varpbit(6837)
+
+		case 906:
+			return load_varpbit(6838)
+
+		case 907:
+			return load_varpbit(6839)
+			return 0
+
+
+	}
+}
+switch(iVar1) {
+	case default:
+		break
+	case 660:
+		return load_varpbit(5942)
+
+	case 661:
+		return load_varpbit(5943)
+
+	case 662:
+		return load_varpbit(5944)
+
+	case 663:
+		return load_varpbit(5945)
+
+	case 664:
+		return load_varpbit(5946)
+
+	case 665:
+		return load_varpbit(5947)
+
+	case 666:
+		return load_varpbit(5948)
+
+	case 667:
+		return load_varpbit(5949)
+
+	case 668:
+		return load_varpbit(5950)
+
+	case 669:
+		return load_varpbit(5951)
+
+	case 670:
+		return load_varpbit(5952)
+
+	case 671:
+		return load_varpbit(5953)
+
+	case 672:
+		return load_varpbit(5954)
+
+	case 673:
+		return load_varpbit(5955)
+
+	case 674:
+		return load_varpbit(5956)
+
+	case 675:
+		return load_varpbit(5957)
+
+	case 676:
+		return load_varpbit(5958)
+
+	case 677:
+		return load_varpbit(5959)
+
+	case 678:
+		return load_varpbit(5960)
+
+	case 679:
+		return load_varpbit(5961)
+
+	case 680:
+		return load_varpbit(5962)
+
+	case 681:
+		return load_varpbit(5963)
+
+	case 682:
+		return load_varpbit(5964)
+
+	case 683:
+		return load_varpbit(5965)
+
+	case 684:
+		return load_varpbit(5966)
+
+	case 685:
+		return load_varpbit(5967)
+
+	case 1005:
+		return load_varpbit(7768)
+
+	case 686:
+		return load_varpbit(5968)
+
+	case 1006:
+		return load_varpbit(7769)
+
+	case 1029:
+		return load_varpbit(7381)
+		return 0
+
+
+}
+return 0

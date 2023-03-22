@@ -1,0 +1,13 @@
+void script_676(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Login/Logout notification timeout" + "<br>" + "(currently enabled)";
+	if (VARPBIT[1627] <= 0) {
+		widget0.setSprite(762);
+	} else {
+		str0 = "Login/Logout notification timeout" + "<br>" + "(currently disabled)";
+		widget0.setSprite(761);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

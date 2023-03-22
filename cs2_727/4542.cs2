@@ -1,0 +1,10 @@
+//script4542(4542)(int arg0, int arg1, int arg2)(void)
+int iVar3
+arg0 = min(arg0, 100)
+arg0 = max(arg0, 0)
+if(arg1 == -1)
+	return
+iVar3 = (arg0 * 16384) / 100
+if_setsize(arg1, 0, 2, if_getheight(arg1), iVar3)
+script_4212(arg2, 3793, 14014931, 0, to_string(arg0) + "%")
+return

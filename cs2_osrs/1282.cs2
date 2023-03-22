@@ -1,0 +1,6 @@
+void script_1282() {
+	if (CHILD.setChild(widget(257, 0), 0) == true) {
+		CHILD.hookFrame(&script_1284(getClientCycle(), getClientCycle() + 60));
+	}
+	return;
+}

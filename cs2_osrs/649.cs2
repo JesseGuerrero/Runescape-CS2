@@ -1,0 +1,61 @@
+int script_649(int arg0, int arg1, string string2, int arg3) {
+	Widget widget3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	Item item8;
+	string str1;
+	widget3 = datamap('i', 'I', 984, arg1);
+	if (widget3 == null) {
+		return arg0;
+	}
+	widget3.setIsHidden(false);
+	int4 = widget3.getWidth();
+	int5 = widget3.getHeight();
+	widget3.clearChildren();
+	int6 = 0;
+	CHILD.createChild(widget3, 3, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(238, int5, 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x333300);
+	CHILD.createChild(widget3, 4, int6);
+	int6 = int6 + 1;
+	str1 = string2 + ": Lvl " + arg3;
+	int7 = getMaxLineWidth(str1, 512, 495) + 10;
+	if (int7 < 162) {
+		int7 = 162;
+	}
+	CHILD.setSize(int7, int5, 0, 0);
+	CHILD.setPosition(238 - int7, 0, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str1);
+	CHILD.setRGB(0xCCCCFF);
+	widget3.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 15658751));
+	widget3.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 13421823));
+	CHILD.createChild(widget3, 4, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(int4 - 238, int5, 0, 0);
+	CHILD.setPosition(238, 0, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	item8 = datamap('i', 'o', 250, arg1);
+	if (item8 != null) {
+		int7 = getItemValue(item8);
+	} else {
+		int7 = 0;
+	}
+	str1 = ",";
+	CHILD.setText(script_46(int7, str1) + " coins");
+	script_651(int7);
+	CHILD.hookContainer(&script_650(CTX_WIDGET, CTX_WIDGET_CHILD, int7), 93);
+	widget3.setContextMenuOption(1, string2);
+	widget3.hookOptionClick(&script_652(CTX_WIDGET, arg1));
+	widget3.setPosition(0, arg0, 0, 0);
+	return arg0 + int5 + 1;
+}

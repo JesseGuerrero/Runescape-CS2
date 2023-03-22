@@ -1,0 +1,59 @@
+//script2573(2573)()(void)
+int iVar0
+iVar0 = -1
+switch(load_varc(929)) {
+	case default:
+		break
+	case 0:
+		iVar0 = inv_getitem(load_varc(930), 93)
+		break
+	case 1:
+		iVar0 = inv_getitem(load_varc(931), 93)
+		break
+	case 2:
+		iVar0 = inv_getitem(load_varc(932), 93)
+		break
+	case 3:
+		iVar0 = inv_getitem(load_varc(933), 93)
+		break
+	case 4:
+		iVar0 = inv_getitem(load_varc(934), 93)
+		break
+	case 5:
+		iVar0 = inv_getitem(load_varc(935), 93)
+		break
+	case 6:
+		iVar0 = inv_getitem(load_varc(936), 93)
+		break
+	case 7:
+		iVar0 = inv_getitem(load_varc(937), 93)
+		break
+	case 8:
+		iVar0 = inv_getitem(load_varc(938), 93)
+		break
+	case 9:
+		iVar0 = inv_getitem(load_varc(939), 93)
+		break
+
+}
+if(iVar0 == -1 || item_param(802, iVar0) != 1 || item_param(803, iVar0) != 1)
+	return
+script_2575()
+if_settext(if_gethash(292, 99), item_name(iVar0))
+if_setitem(if_gethash(292, 112), -1, iVar0)
+if(item_param(802, iVar0) == 1) {
+	script_2578()
+	script_2584()
+	script_2585()
+	script_2588()
+	script_2591()
+} else 
+	if(item_param(803, iVar0) == 1) {
+		script_2590()
+		script_2587()
+		script_2579()
+		script_2580()
+		script_2583()
+		script_2597()
+	}
+return

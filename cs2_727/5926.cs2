@@ -1,0 +1,42 @@
+//script5926(5926)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = -1
+arg1 = arg1 + 1
+if(arg1 < 3) {
+	instr6342(arg0, script_5926, "Iii", -2147483645, arg1, arg2)
+	return
+}
+arg1 = 0
+arg2 = arg2 + 1
+if(arg2 >= 4 + 15)
+	arg2 = 0
+switch(arg2) {
+	case default:
+		break
+	case 0:
+		iVar3 = 9964
+		break
+	case 1:
+		iVar3 = 9965
+		break
+	case 2:
+		iVar3 = 9966
+		break
+	case 3:
+		iVar3 = 9967
+		break
+	case 4:
+		iVar3 = 9968
+		break
+	case 5:
+		iVar3 = 9969
+		break
+	case 6:
+		iVar3 = 9970
+		iVar3 = -1
+		break
+
+}
+if_setgraphic(arg0, script_6267(iVar3))
+instr6342(arg0, script_5926, "Iii", -2147483645, arg1, arg2)
+return

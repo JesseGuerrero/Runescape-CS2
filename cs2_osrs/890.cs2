@@ -1,0 +1,13 @@
+void script_890(Widget widget0, string string1, Widget widget2, int arg3) {
+	playSoundEffect(2266, 1, 0);
+	_ = script_1560(widget0, string1, 1, 1);
+	widget0.hookMouseHover(null);
+	widget0.hookMouseExit(null);
+	widget0.hookOptionClick(null);
+	widget0.setNoOptions();
+	widget0.hookFrame(&script_1562(widget0, string1, widget2, arg3, getClientCycle() + 80));
+	if (CHILD.setChild(widget2, arg3) == true) {
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

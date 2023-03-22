@@ -1,0 +1,172 @@
+//script6103(6103)()(void)
+string sVar0
+string sVar1
+if_settext(if_gethash(1265, 40), load_varc_string(362))
+sVar0 = ""
+sVar1 = ""
+switch(load_varc(1876)) {
+	case default:
+		break
+	case 6:
+		sVar0 = "This is a piece of apparel."
+		break
+	case 7:
+		sVar0 = "This is a piece of jewellery."
+		break
+	case 9:
+		sVar0 = "This is a shield."
+		break
+	case 14:
+		sVar0 = "This is a melee weapon."
+		break
+	case 15:
+		sVar0 = "This is a ranged weapon."
+		break
+	case 13:
+		sVar0 = "This is a weapon for mages."
+		break
+	case 8:
+		sVar0 = "This is ammunition for a ranged weapon."
+		break
+	case 60:
+		sVar0 = "This is an aura focus."
+		break
+	case 32:
+		sVar0 = "This is a tool."
+		break
+	case 34:
+		sVar0 = "This is a piece of food."
+		break
+	case 109:
+		sVar0 = "This is a usable item."
+		break
+	case 36:
+		sVar0 = "This is a magic rune."
+		break
+
+}
+if_settext(if_gethash(1265, 43), sVar0)
+switch(load_varc(1876)) {
+	case default:
+		break
+	case 0:
+		sVar1 = "It is worn on the head."
+		break
+	case 1:
+		sVar1 = "It is worn on the back."
+		break
+	case 3:
+		sVar1 = "It is worn on the torso."
+		break
+	case 4:
+		sVar1 = "It is worn on the legs."
+		break
+	case 5:
+		sVar1 = "It is worn on the hands."
+		break
+	case 6:
+		sVar1 = "It is worn on the feet."
+		break
+	case 9:
+		sVar1 = "It is held in the left hand."
+		break
+	case 13:
+		sVar1 = "It is wielded in the right hand."
+		break
+	case 15:
+		sVar1 = "It is wielded in both hands."
+		break
+	case 2:
+		sVar1 = "It is worn around the neck."
+		break
+	case 7:
+		sVar1 = "It is worn on the hand."
+		break
+	case 8:
+		sVar1 = "It is carried in the quiver."
+		break
+	case 60:
+		sVar1 = "It imbues you when activated."
+		break
+	case 30:
+		sVar1 = "You can place it in your tool belt to save space."
+		break
+	case 31:
+		sVar1 = "You have one in your tool belt already."
+		break
+	case 34:
+		sVar1 = "It needs cooking to be edible."
+		break
+	case 36:
+		sVar1 = "Runes are needed to cast spells."
+		break
+	case 90:
+		sVar1 = "It is mainly used in combat."
+		break
+	case 91:
+		sVar1 = "It is mainly used in prayer."
+		break
+	case 92:
+		sVar1 = "It is mainly used in agility."
+		break
+	case 93:
+		sVar1 = "It is mainly used in herblore."
+		break
+	case 94:
+		sVar1 = "It is mainly used in thieving."
+		break
+	case 95:
+		sVar1 = "It is mainly used in crafting."
+		break
+	case 96:
+		sVar1 = "It is mainly used in runecrafting."
+		break
+	case 97:
+		sVar1 = "It is mainly used in mining."
+		break
+	case 98:
+		sVar1 = "It is mainly used in smithing."
+		break
+	case 99:
+		sVar1 = "It is mainly used in fishing."
+		break
+	case 100:
+		sVar1 = "It is mainly used in cooking."
+		break
+	case 101:
+		sVar1 = "It is mainly used in firemaking."
+		break
+	case 102:
+		sVar1 = "It is mainly used in woodcutting."
+		break
+	case 103:
+		sVar1 = "It is mainly used in fletching."
+		break
+	case 104:
+		sVar1 = "It is mainly used in slaying."
+		break
+	case 105:
+		sVar1 = "It is mainly used in farming."
+		break
+	case 106:
+		sVar1 = "It is mainly used in construction."
+		break
+	case 107:
+		sVar1 = "It is mainly used in hunting."
+		break
+	case 108:
+		sVar1 = "It is mainly used in summoning."
+		break
+	case 109:
+		sVar1 = "It is mainly used in dungeoneering."
+		break
+
+}
+if_settext(if_gethash(1265, 44), sVar1)
+if(item_members(load_varp(2562)) == 0 || world_members() == 1)
+	if(load_varc(1876) >= 0)
+		if(load_varc(1876) < 30 || load_varc(1876) == 32 || load_varp(2562) == 1265 || load_varp(2562) == 1351)
+			if_sethide(if_gethash(1265, 172), 1)
+		else
+			if_sethide(if_gethash(1265, 172), 0)
+return

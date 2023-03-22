@@ -1,0 +1,69 @@
+//script5865(5865)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(int, int, int, int, int, int, int, int, int, int)
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+iVar11 = modulo(10, arg0)
+iVar12 = modulo(100, arg0) - modulo(10, arg0)
+iVar13 = modulo(1000, arg0) - modulo(100, arg0)
+iVar14 = modulo(10000, arg0) - modulo(1000, arg0)
+iVar15 = modulo(100000, arg0) - modulo(10000, arg0)
+iVar16 = modulo(1000000, arg0) - modulo(100000, arg0)
+iVar17 = modulo(10000000, arg0) - modulo(1000000, arg0)
+iVar18 = modulo(100000000, arg0) - modulo(10000000, arg0)
+iVar19 = modulo(1000000000, arg0) - modulo(100000000, arg0)
+iVar20 = (arg0 - modulo(1000000000, arg0)) / 1000000000
+arg1 = arg1 + iVar11
+arg2 = arg2 + iVar12
+arg3 = arg3 + iVar13
+arg4 = arg4 + iVar14
+arg5 = arg5 + iVar15
+arg6 = arg6 + iVar16
+arg7 = arg7 + iVar17
+arg8 = arg8 + iVar18
+arg9 = arg9 + iVar19
+arg10 = arg10 + iVar20
+if(arg1 >= 10) {
+	arg1 = arg1 - 10
+	arg2 = arg2 + 10
+}
+if(arg2 >= 100) {
+	arg2 = arg2 - 100
+	arg3 = arg3 + 100
+}
+if(arg3 >= 1000) {
+	arg3 = arg3 - 1000
+	arg4 = arg4 + 1000
+}
+if(arg4 >= 10000) {
+	arg4 = arg4 - 10000
+	arg5 = arg5 + 10000
+}
+if(arg5 >= 100000) {
+	arg5 = arg5 - 100000
+	arg6 = arg6 + 100000
+}
+if(arg6 >= 1000000) {
+	arg6 = arg6 - 1000000
+	arg7 = arg7 + 1000000
+}
+if(arg7 >= 10000000) {
+	arg7 = arg7 - 10000000
+	arg8 = arg8 + 10000000
+}
+if(arg8 >= 100000000) {
+	arg8 = arg8 - 100000000
+	arg9 = arg9 + 100000000
+}
+if(arg9 >= 1000000000) {
+	arg9 = arg9 - 1000000000
+	arg10 = arg10 + 1
+}
+return arg10, arg9, arg8, arg7, arg6, arg5, arg4, arg3, arg2, arg1
+return 0, 0, 0, 0, 0, 0, 0, 0, 0, 0

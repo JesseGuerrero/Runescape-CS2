@@ -1,0 +1,4 @@
+//script6461(6461)(int arg0)(void)
+if_sethide(if_gethash(1311, 167), 1)
+script_6464(load_varpbit(11475), arg0, 0)
+return

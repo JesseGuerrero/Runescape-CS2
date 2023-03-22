@@ -1,0 +1,61 @@
+//script5691(5691)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = enum(5420, arg0, 'i', 'g')
+iVar2 = -1
+iVar3 = 5
+iVar4 = -1
+if_sethide(if_gethash(1218, 3), 1)
+if(instr6004(if_gethash(1218, 30)) == 1)
+	switch(load_varc(1755)) {
+		case default:
+			break
+		case 1:
+			iVar2 = instr6771(2223)
+			break
+		case 2:
+			iVar2 = instr6771(2221)
+			break
+		case 3:
+			iVar2 = instr6771(2222)
+			iVar2 = instr6771(2224)
+			break
+
+	}
+cc_deleteall(if_gethash(1218, 72))
+while(iVar2 != -1)
+	if(cc_find(iVar2, if_gethash(1218, 30)) == 1) {
+		iVar4 = enum(iVar1, iVar2, 'i', 'J')
+		if(load_varc(1754) <= 0 || struct_param(2220, iVar4) == load_varc(1754) || load_varc(1754) == 1 || struct_param(2218, iVar4) == 1) {
+			cc_setposition(0, 0, 0, 0)
+			instr6556(script_5692, "iiJ", iVar2, iVar3, iVar4)
+			cc_sethide(0)
+			iVar3 = cc_getheight() + iVar3
+		} else 
+			cc_sethide(1)
+		switch(load_varc(1755)) {
+			case default:
+				break
+			case 1:
+				iVar2 = instr6771(2223)
+				break
+			case 2:
+				iVar2 = instr6771(2221)
+				break
+			case 3:
+				iVar2 = instr6771(2222)
+				iVar2 = instr6771(2224)
+				break
+
+		}
+	} else 
+		iVar2 = -1
+if_setscrollsize(79822852, iVar3, 0)
+if_setscrollpos(if_gethash(1218, 4), 0, 0)
+if_setsize(if_gethash(1218, 30), 0, 1, iVar3, 0)
+if_setsize(if_gethash(1218, 72), 0, 1, iVar3, 0)
+script_31(79822853, 79822852, 5666, 5663, 5664, 5665, 5686, 5685)
+return
+return

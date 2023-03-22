@@ -1,0 +1,9 @@
+void script_970(int arg0, int arg1) {
+	if (arg0 == 1) {
+		cancelLogin();
+	}
+	if (isBitFlagged(arg1, arg0) == true) {
+		playSoundEffect(2266, 1, 0);
+	}
+	return;
+}

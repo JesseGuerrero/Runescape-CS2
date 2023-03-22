@@ -1,0 +1,22 @@
+void script_825(Widget widget0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	widget0.clearChildren();
+	int1 = (42 - 36) * 3 - 2;
+	int2 = (36 - 32) * 2;
+	int3 = 0;
+	int4 = getItemContainerLength(93);
+	while (int3 < int4) {
+		CHILD.createChild(widget0, 5, int3);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int1 + int3 % 4 * 42, int2 + int3 / 4 * 36, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		int3 = int3 + 1;
+	}
+	script_827(widget0);
+	widget0.hookContainer(&script_826(widget0), 93);
+	return;
+}

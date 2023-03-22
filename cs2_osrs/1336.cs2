@@ -1,0 +1,6 @@
+void script_1336(Widget widget0) {
+	_ = script_208(widget0);
+	playSoundEffect(576, 1, 0);
+	widget0.hookFrame(&script_1337(CTX_WIDGET, getClientCycle() + 15));
+	return;
+}

@@ -1,0 +1,11 @@
+//script4573(4573)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+if(script_1891() == 1) {
+	if_sethide(if_gethash(589, 50), 0)
+	return
+}
+script_4574()
+return

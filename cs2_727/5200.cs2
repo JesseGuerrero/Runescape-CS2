@@ -1,0 +1,92 @@
+//script5200(5200)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(7238) >= 60)
+			return 1
+		else
+			return 0
+		break
+	case 2:
+		if(load_varpbit(5733) >= 60)
+			return 1
+		else
+			return 0
+		break
+	case 3:
+		if(load_varpbit(6914) >= 3)
+			return 1
+		else
+			return 0
+		break
+	case 4:
+		if(load_varc(1594) >= 56)
+			return 1
+		else
+			return 0
+		break
+	case 5:
+		if(load_varpbit(5730) >= 100)
+			return 1
+		else
+			return 0
+		break
+	case 6:
+		if(load_varp(145) >= 7 || load_varp(146) >= 4)
+			return 1
+		else
+			return 0
+		break
+	case 7:
+		if(load_varpbit(2561) >= 3)
+			return 1
+		else
+			return 0
+		break
+	case 8:
+		if(load_varc(1594) >= 17)
+			return 1
+		else
+			return 0
+		break
+	case 9:
+		if(load_varpbit(2378) >= 6)
+			return 1
+		else
+			return 0
+		break
+	case 10:
+		if(load_varp(122) >= 7)
+			return 1
+		else
+			return 0
+		break
+	case 11:
+		if(load_varp(130) >= 4)
+			return 1
+		else
+			return 0
+		break
+	case 12:
+		if(load_varc(1594) >= 11)
+			return 1
+		else
+			return 0
+		break
+	case 14:
+		if(load_varp(176) >= 10)
+			return 1
+		else
+			return 0
+		break
+	case 15:
+		if(load_varpbit(10197) >= 25)
+			return 1
+		else
+			return 0
+		break
+
+}
+return 0
+return 0

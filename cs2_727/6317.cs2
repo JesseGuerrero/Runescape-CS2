@@ -1,0 +1,24 @@
+//script6317(6317)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = if_getlayer(arg0)
+iVar3 = (paramheight(load_varc_string(359), instr6289(arg0), if_getwidth(iVar2)) * 15) + 5
+if(iVar3 <= if_getheight(iVar2)) {
+	cc_deleteall(arg1)
+	if_sethide(arg1, 1)
+	if_setscrollsize(iVar2, 0, 0)
+	if_setposition(iVar2, 1, 1, 0, 0)
+	if_setsize(arg0, 1, 1, 0, 0)
+	if_settextalign(arg0, 0, 1, 1)
+} else  {
+	cc_deleteall(arg1)
+	if_sethide(arg1, 0)
+	if_setscrollsize(iVar2, iVar3, 0)
+	if_setposition(iVar2, 1, 0, 0, 0)
+	if_setsize(arg0, 0, 1, iVar3, 0)
+	if_settextalign(arg0, 0, 0, 1)
+	script_31(arg1, iVar2, 798, 795, 796, 797, 793, 794)
+}
+if_setscrollpos(iVar2, 0, 0)
+if_settext(arg0, load_varc_string(359))
+return

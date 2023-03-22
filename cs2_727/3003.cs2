@@ -1,0 +1,20 @@
+//script3003(3003)(int arg0)(void)
+int iVar1
+if(enum(942, arg0, 'i', 'I') == -1)
+	return
+iVar1 = -1
+if(if_getheight(if_gethash(907, 3)) > 30)
+	iVar1 = 0
+else
+	if(if_getheight(if_gethash(907, 4)) > 30)
+		iVar1 = 1
+	else
+		if(if_getheight(if_gethash(907, 5)) > 30)
+			iVar1 = 2
+		else
+			if(if_getheight(if_gethash(907, 43)) > 30)
+				iVar1 = 3
+if(arg0 == iVar1)
+	return
+script_3004(iVar1, arg0)
+return

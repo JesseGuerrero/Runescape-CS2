@@ -1,0 +1,10 @@
+//script2031(2031)(int arg0)(void)
+if(bit_flagged(29, load_varp(331)) == 1)
+	if_setmodelangle(arg0, 1000, 0, 1024, 512, 0, 0)
+else
+	if(bit_flagged(30, load_varp(331)) == 1)
+		if_setmodelangle(arg0, 1000, 0, 1536, 512, 0, 0)
+	else
+		if(bit_flagged(31, load_varp(331)) == 1)
+			if_setmodelangle(arg0, 1000, 0, 0, 512, 0, 0)
+return

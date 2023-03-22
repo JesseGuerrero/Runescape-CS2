@@ -1,0 +1,83 @@
+//script6264(6264)()(int, int, int, int, int, int, int, int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar0 = -1
+iVar1 = 0
+iVar2 = -1
+iVar3 = 0
+iVar4 = load_varpbit(7295)
+iVar5 = -1
+iVar6 = -1
+if(stat_base(10) >= 76) {
+	iVar0 = 384
+	iVar5 = 383
+	iVar2 = 372
+	iVar6 = 371
+} else 
+	if(stat_base(10) >= 50) {
+		iVar0 = 372
+		iVar5 = 371
+		iVar2 = 378
+		iVar6 = 377
+	} else 
+		if(stat_base(10) >= 40) {
+			iVar0 = 378
+			iVar5 = 377
+			iVar2 = 360
+			iVar6 = 359
+		} else 
+			if(stat_base(10) >= 35) {
+				iVar0 = 360
+				iVar5 = 359
+				iVar2 = 332
+				iVar6 = 331
+			} else 
+				if(stat_base(10) >= 30) {
+					iVar0 = 332
+					iVar5 = 331
+					iVar2 = 350
+					iVar6 = 349
+				} else 
+					if(stat_base(10) >= 25) {
+						iVar0 = 350
+						iVar5 = 349
+						iVar2 = 336
+						iVar6 = 335
+					} else 
+						if(stat_base(10) >= 20) {
+							iVar0 = 336
+							iVar5 = 335
+							iVar2 = 346
+							iVar6 = 345
+						} else 
+							if(stat_base(10) >= 10) {
+								iVar0 = 346
+								iVar5 = 345
+								iVar2 = 328
+								iVar6 = 345
+							} else 
+								if(stat_base(10) >= 5) {
+									iVar0 = 328
+									iVar5 = 327
+									iVar2 = 318
+									iVar6 = 317
+								} else  {
+									iVar0 = 318
+									iVar5 = 317
+									iVar2 = -1
+									iVar6 = -1
+								}
+if(iVar2 == -1)
+	iVar1 = load_varpbit(7295) / 2
+else {
+	iVar1 = ((load_varpbit(7295) * 2) / 3) / 2
+	iVar3 = (load_varpbit(7295) / 3) / 2
+	iVar4 = iVar4 - ((iVar1 + iVar3) * 2)
+}
+return iVar6, iVar5, iVar4, 2 * (iVar1 + iVar3), iVar3, iVar2, iVar1, iVar0
+return -1, -1, 0, 0, 0, -1, 0, -1

@@ -1,0 +1,37 @@
+//script6303(6303)(int arg0, string arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		store_varc_string(366, arg0)
+		break
+	case 1:
+		store_varc_string(367, arg0)
+		break
+	case 2:
+		store_varc_string(368, arg0)
+		break
+	case 3:
+		store_varc_string(369, arg0)
+		break
+	case 4:
+		store_varc_string(370, arg0)
+		break
+	case 5:
+		store_varc_string(371, arg0)
+		break
+	case 6:
+		store_varc_string(372, arg0)
+		break
+	case 7:
+		store_varc_string(373, arg0)
+		break
+	case 8:
+		store_varc_string(374, arg0)
+		break
+	case 9:
+		store_varc_string(375, arg0)
+		break
+
+}
+return

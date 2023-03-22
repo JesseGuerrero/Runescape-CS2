@@ -1,0 +1,1948 @@
+//script978(978)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1173, 1, "You can now wield " + "<col=000080>" + "bronze square shields" + "</col>" + ".", "Bronze square shield"
+
+			case 1:
+				return 1189, 1, "You can now wield " + "<col=000080>" + "bronze kiteshields" + "</col>" + ".", "Bronze kiteshield"
+
+			case 2:
+				return 1139, 1, "You can now wear " + "<col=000080>" + "bronze helms" + "</col>" + ".", "Bronze helm"
+
+			case 3:
+				return 1155, 1, "You can now wear " + "<col=000080>" + "bronze full helms" + "</col>" + ".", "Bronze full helm"
+
+			case 4:
+				return 1103, 1, "You can now wear " + "<col=000080>" + "bronze chainbodies" + "</col>" + ".", "Bronze chainbody"
+
+			case 5:
+				return 1117, 1, "You can now wear " + "<col=000080>" + "bronze platebodies" + "</col>" + ".", "Bronze platebody"
+
+			case 6:
+				return 1087, 1, "You can now wear " + "<col=000080>" + "bronze plateskirts" + "</col>" + ".", "Bronze plateskirt"
+
+			case 7:
+				return 1075, 1, "You can now wear " + "<col=000080>" + "bronze platelegs" + "</col>" + ".", "Bronze platelegs"
+
+			case 8:
+				return 4119, 1, "Members can now wear " + "<col=000080>" + "bronze boots" + "</col>" + ".", "Members: Bronze boots"
+
+			case 9:
+				return 8844, 1, "Members can now wield " + "<col=000080>" + "bronze defenders" + "</col>" + ".", "Members: Bronze defender"
+
+			case 10:
+				return 12985, 1, "You can now wear " + "<col=000080>" + "bronze gauntlets" + "</col>" + ".", "Bronze gauntlets"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1175, 1, "You can now wield " + "<col=000080>" + "iron square shields" + "</col>" + ".", "Iron square shield"
+
+			case 1:
+				return 1191, 1, "You can now wield " + "<col=000080>" + "iron kiteshields" + "</col>" + ".", "Iron kiteshield"
+
+			case 2:
+				return 1137, 1, "You can now wear " + "<col=000080>" + "iron helms" + "</col>" + ".", "Iron helm"
+
+			case 3:
+				return 1153, 1, "You can now wear " + "<col=000080>" + "iron full helms" + "</col>" + ".", "Iron full helm"
+
+			case 4:
+				return 1101, 1, "You can now wear " + "<col=000080>" + "iron chainbodies" + "</col>" + ".", "Iron chainbody"
+
+			case 5:
+				return 1115, 1, "You can now wear " + "<col=000080>" + "iron platebodies" + "</col>" + ".", "Iron platebody"
+
+			case 6:
+				return 1081, 1, "You can now wear " + "<col=000080>" + "iron plateskirts" + "</col>" + ".", "Iron plateskirt"
+
+			case 7:
+				return 1067, 1, "You can now wear " + "<col=000080>" + "iron platelegs" + "</col>" + ".", "Iron platelegs"
+
+			case 8:
+				return 4121, 1, "Members can now wear " + "<col=000080>" + "iron boots" + "</col>" + ".", "Members: Iron boots"
+
+			case 9:
+				return 8845, 1, "Members can now wield " + "<col=000080>" + "iron defenders" + "</col>" + ".", "Members: Iron defender"
+
+			case 10:
+				return 12988, 1, "You can now wear " + "<col=000080>" + "iron gauntlets" + "</col>" + ".", "Iron gauntlets"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1177, 5, "You can now wield " + "<col=000080>" + "steel square shields" + "</col>" + ".", "Steel square shield"
+
+			case 1:
+				return 1193, 5, "You can now wield " + "<col=000080>" + "steel kiteshields" + "</col>" + ".", "Steel kiteshield"
+
+			case 2:
+				return 1141, 5, "You can now wear " + "<col=000080>" + "steel helms" + "</col>" + ".", "Steel helm"
+
+			case 3:
+				return 1157, 5, "You can now wear " + "<col=000080>" + "steel full helms" + "</col>" + ".", "Steel full helm"
+
+			case 4:
+				return 1105, 5, "You can now wear " + "<col=000080>" + "steel chainbodies" + "</col>" + ".", "Steel chainbody"
+
+			case 5:
+				return 1119, 5, "You can now wear " + "<col=000080>" + "steel platebodies" + "</col>" + ".", "Steel platebody"
+
+			case 6:
+				return 1083, 5, "You can now wear " + "<col=000080>" + "steel plateskirts" + "</col>" + ".", "Steel plateskirt"
+
+			case 7:
+				return 1069, 5, "You can now wear " + "<col=000080>" + "steel platelegs" + "</col>" + ".", "Steel platelegs"
+
+			case 8:
+				return 4123, 5, "Members can now wear " + "<col=000080>" + "steel boots" + "</col>" + ".", "Members: Steel boots"
+
+			case 9:
+				return 8846, 5, "Members now have the Defence level required to wield " + "<col=000080>" + "steel defenders" + "</col>" + ". (They also need level 5 Attack.)", "Members: Steel defender" + "<br>" + " (with 5 Attack)"
+
+			case 10:
+				return 12991, 5, "You can now wear " + "<col=000080>" + "steel gauntlets" + "</col>" + ".", "Steel gauntlets"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1179, 10, "You can now wield " + "<col=000080>" + "black square shields" + "</col>" + ".", "Black square shield"
+
+			case 1:
+				return 1195, 10, "You can now wield " + "<col=000080>" + "black kiteshields" + "</col>" + ".", "Black kiteshield"
+
+			case 2:
+				return 1151, 10, "You can now wear " + "<col=000080>" + "black helms" + "</col>" + ".", "Black helm"
+
+			case 3:
+				return 1165, 10, "You can now wear " + "<col=000080>" + "black full helms" + "</col>" + ".", "Black full helm"
+
+			case 4:
+				return 1107, 10, "You can now wear " + "<col=000080>" + "black chainbodies" + "</col>" + ".", "Black chainbody"
+
+			case 5:
+				return 1125, 10, "You can now wear " + "<col=000080>" + "black platebodies" + "</col>" + ".", "Black platebody"
+
+			case 6:
+				return 1089, 10, "You can now wear " + "<col=000080>" + "black plateskirts" + "</col>" + ".", "Black plateskirt"
+
+			case 7:
+				return 1077, 10, "You can now wear " + "<col=000080>" + "black platelegs" + "</col>" + ".", "Black platelegs"
+
+			case 8:
+				return 4125, 10, "Members can now wear " + "<col=000080>" + "black boots" + "</col>" + ".", "Members: Black boots"
+
+			case 9:
+				return 8847, 10, "Members now have the Defence level required to wield " + "<col=000080>" + "black defenders" + "</col>" + ". (They also need level 10 Attack.)", "Members: Black defender" + "<br>" + " (with 10 Attack)"
+
+			case 10:
+				return 12994, 10, "You can now wear " + "<col=000080>" + "black gauntlets" + "</col>" + ".", "Black gauntlets"
+
+			case 11:
+				return 14494, 40, "Members can now wear " + "<col=000080>" + "elite black full helms" + "</col>" + ".", "Members: Elite black full helm"
+
+			case 12:
+				return 14492, 40, "Members can now wear " + "<col=000080>" + "elite black platebodies" + "</col>" + ".", "Members: Elite black platebody"
+
+			case 13:
+				return 14490, 40, "Members can now wear " + "<col=000080>" + "elite black platelegs" + "</col>" + ".", "Members: Elite black platelegs"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To use any white equipment, you must have completed Wanted!."
+
+			case 1:
+				return 6631, 10, "Members can now wield " + "<col=000080>" + "white square shields" + "</col>" + " (after finishing Wanted!).", "Members: White square shield"
+
+			case 2:
+				return 6633, 10, "Members can now wield " + "<col=000080>" + "white kiteshields" + "</col>" + " (after finishing Wanted!).", "Members: White kiteshield"
+
+			case 3:
+				return 6621, 10, "Members can now wear " + "<col=000080>" + "white helms" + "</col>" + " (after finishing Wanted!).", "Members: White helm"
+
+			case 4:
+				return 6623, 10, "Members can now wear " + "<col=000080>" + "white full helms" + "</col>" + " (after finishing Wanted!).", "Members: White full helm"
+
+			case 5:
+				return 6615, 10, "Members can now wear " + "<col=000080>" + "white chainbodies" + "</col>" + " (after finishing Wanted!).", "Members: White chainbody"
+
+			case 6:
+				return 6617, 10, "Members can now wear " + "<col=000080>" + "white platebodies" + "</col>" + " (after finishing Wanted!).", "Members: White platebody"
+
+			case 7:
+				return 6627, 10, "Members can now wear " + "<col=000080>" + "white plateskirts" + "</col>" + " (after finishing Wanted!).", "Members: White plateskirt"
+
+			case 8:
+				return 6625, 10, "Members can now wear " + "<col=000080>" + "white platelegs" + "</col>" + " (after finishing Wanted!).", "Members: White platelegs"
+
+			case 9:
+				return 6619, 10, "Members can now wear " + "<col=000080>" + "white boots" + "</col>" + " (after finishing Wanted!).", "Members: White boots"
+
+			case 10:
+				return 6629, 10, "Members can now wear " + "<col=000080>" + "white gloves" + "</col>" + " (after finishing Wanted!).", "Members: White gloves"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1181, 20, "You can now wield " + "<col=000080>" + "mithril square shields" + "</col>" + ".", "Mithril square shield"
+
+			case 1:
+				return 1197, 20, "You can now wield " + "<col=000080>" + "mithril kiteshields" + "</col>" + ".", "Mithril kiteshield"
+
+			case 2:
+				return 1143, 20, "You can now wear " + "<col=000080>" + "mithril helms" + "</col>" + ".", "Mithril helm"
+
+			case 3:
+				return 1159, 20, "You can now wear " + "<col=000080>" + "mithril full helms" + "</col>" + ".", "Mithril full helm"
+
+			case 4:
+				return 1109, 20, "You can now wear " + "<col=000080>" + "mithril chainbodies" + "</col>" + ".", "Mithril chainbody"
+
+			case 5:
+				return 1121, 20, "You can now wear " + "<col=000080>" + "mithril platebodies" + "</col>" + ".", "Mithril platebody"
+
+			case 6:
+				return 1085, 20, "You can now wear " + "<col=000080>" + "mithril plateskirts" + "</col>" + ".", "Mithril plateskirt"
+
+			case 7:
+				return 1071, 20, "You can now wear " + "<col=000080>" + "mithril platelegs" + "</col>" + ".", "Mithril platelegs"
+
+			case 8:
+				return 4127, 20, "Members can now wear " + "<col=000080>" + "mithril boots" + "</col>" + ".", "Members: Mithril boots"
+
+			case 9:
+				return 8848, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "mithril defenders" + "</col>" + ". (They also need level 20 Attack.)", "Members: Defender" + "<br>" + " (with 20 Attack)"
+
+			case 10:
+				return 12997, 20, "You can now wear " + "<col=000080>" + "mithril gauntlets" + "</col>" + ".", "Mithril gauntlets"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1183, 30, "You can now wield " + "<col=000080>" + "adamant square shields" + "</col>" + ".", "Adamant square shield"
+
+			case 1:
+				return 1199, 30, "You can now wield " + "<col=000080>" + "adamant kiteshields" + "</col>" + ".", "Adamant kiteshield"
+
+			case 2:
+				return 1145, 30, "You can now wear " + "<col=000080>" + "adamant helms" + "</col>" + ".", "Adamant helm"
+
+			case 3:
+				return 1161, 30, "You can now wear " + "<col=000080>" + "adamant full helms" + "</col>" + ".", "Adamant full helm"
+
+			case 4:
+				return 1111, 30, "You can now wear " + "<col=000080>" + "adamant chainbodies" + "</col>" + ".", "Adamant chainbody"
+
+			case 5:
+				return 1123, 30, "You can now wear " + "<col=000080>" + "adamant platebodies" + "</col>" + ".", "Adamant platebody"
+
+			case 6:
+				return 1091, 30, "You can now wear " + "<col=000080>" + "adamant plateskirts" + "</col>" + ".", "Adamant plateskirt"
+
+			case 7:
+				return 1073, 30, "You can now wear " + "<col=000080>" + "adamant platelegs" + "</col>" + ".", "Adamant platelegs"
+
+			case 8:
+				return 4129, 30, "Members can now wear " + "<col=000080>" + "adamant boots" + "</col>" + ".", "Members: Adamant boots"
+
+			case 9:
+				return 8849, 30, "Members now have the Defence level required to wield " + "<col=000080>" + "adamant defenders" + "</col>" + ". (They also need level 30 Attack.)", "Members: Adamant defender" + "<br>" + " (with 30 Attack)"
+
+			case 10:
+				return 13000, 30, "You can now wear " + "<col=000080>" + "adamant gauntlets" + "</col>" + ".", "Adamant gauntlets"
+
+			case 11:
+				return 12915, 35, "You can now wield " + "<col=000080>" + "adamant berserker shields" + "</col>" + ".", "Adamant berserker shield"
+
+			case 12:
+				return 12908, 35, "You can now wield " + "<col=000080>" + "adamant spikeshields" + "</col>" + ".", "Adamant spikeshield"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1185, 40, "You can now wield " + "<col=000080>" + "rune square shields" + "</col>" + ".", "Rune square shield"
+
+			case 1:
+				return 1201, 40, "You can now wield " + "<col=000080>" + "rune kiteshields" + "</col>" + ".", "Rune kiteshield"
+
+			case 2:
+				return 1147, 40, "You can now wear " + "<col=000080>" + "rune helms" + "</col>" + ".", "Rune helm"
+
+			case 3:
+				return 1163, 40, "You can now wear " + "<col=000080>" + "rune full helms" + "</col>" + ".", "Rune full helm"
+
+			case 4:
+				return 1113, 40, "You can now wear " + "<col=000080>" + "rune chainbodies" + "</col>" + ".", "Rune chainbody"
+
+			case 5:
+				return 1127, 40, "You can now wear " + "<col=000080>" + "rune platebodies" + "</col>" + " (after Dragon Slayer).", "Rune platebody" + "<br>" + " (after Dragon Slayer)"
+
+			case 6:
+				return 1093, 40, "You can now wear " + "<col=000080>" + "rune plateskirts" + "</col>" + ".", "Rune plateskirt"
+
+			case 7:
+				return 1079, 40, "You can now wear " + "<col=000080>" + "rune platelegs" + "</col>" + ".", "Rune platelegs"
+
+			case 8:
+				return 4131, 40, "Members can now wear " + "<col=000080>" + "rune boots" + "</col>" + ".", "Members: Rune boots"
+
+			case 9:
+				return 8850, 40, "Members now have the Defence level required to wield " + "<col=000080>" + "rune defenders" + "</col>" + ". (They also need level 40 Attack.)", "Members: Rune defender" + "<br>" + " (with 40 Attack)"
+
+			case 10:
+				return 13003, 40, "You can now wear " + "<col=000080>" + "rune gauntlets" + "</col>" + ".", "Rune gauntlets"
+
+			case 11:
+				return 12929, 45, "You can now wield " + "<col=000080>" + "rune berserker shields" + "</col>" + ".", "Rune berserker shield"
+
+			case 12:
+				return 12922, 45, "You can now wield " + "<col=000080>" + "rune spikeshields" + "</col>" + ".", "Rune spikeshield"
+
+
+		}
+		break
+	case 8:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1187, 60, "Members can now wield " + "<col=000080>" + "dragon square shields" + "</col>" + " (after Legends' Quest).", "Members: Dragon square shield" + "<br>" + " (after Legends' Quest)"
+
+			case 1:
+				return 1149, 60, "Members can now wear " + "<col=000080>" + "dragon helms" + "</col>" + ".", "Members: Dragon helm"
+
+			case 2:
+				return 11335, 60, "Members can now wear " + "<col=000080>" + "dragon full helms" + "</col>" + ".", "Members: Dragon full helm"
+
+			case 3:
+				return 3140, 60, "Members can now wear " + "<col=000080>" + "dragon chainbodies" + "</col>" + ".", "Members: Dragon chainbody"
+
+			case 4:
+				return 14479, 60, "Members can now wear " + "<col=000080>" + "dragon platebodies" + "</col>" + ".", "Members: Dragon platebody"
+
+			case 5:
+				return 4585, 60, "Members can now wear " + "<col=000080>" + "dragon plateskirts" + "</col>" + ".", "Members: Dragon plateskirt"
+
+			case 6:
+				return 4087, 60, "Members can now wear " + "<col=000080>" + "dragon platelegs" + "</col>" + ".", "Members: Dragon platelegs"
+
+			case 7:
+				return 13006, 60, "Members can now wear " + "<col=000080>" + "dragon gauntlets" + "</col>" + ".", "Members: Dragon gauntlets"
+
+			case 8:
+				return 11732, 60, "Members can now wear " + "<col=000080>" + "dragon boots" + "</col>" + ".", "Members: Dragon boots"
+
+			case 9:
+				return 20072, 60, "Members now have the Defence level required to wield " + "<col=000080>" + "dragon defenders" + "</col>" + ". (They also need level 60 Attack.)", "Members: Dragon defender" + "<br>" + " (with 60 Attack)"
+
+			case 10:
+				return 13964, 60, "You can now wield " + "<col=000080>" + "corrupt dragon square shields" + "</col>" + ".", "Corrupt dragon square shield"
+
+			case 11:
+				return 13961, 60, "You can now wear " + "<col=000080>" + "corrupt dragon helms" + "</col>" + ".", "Corrupt dragon helm"
+
+			case 12:
+				return 13958, 60, "You can now wear " + "<col=000080>" + "corrupt dragon chainbodies" + "</col>" + ".", "Corrupt dragon chainbody"
+
+			case 13:
+				return 13967, 60, "You can now wear " + "<col=000080>" + "corrupt dragon plateskirts" + "</col>" + ".", "Corrupt dragon plateskirt"
+
+			case 14:
+				return 13970, 60, "You can now wear " + "<col=000080>" + "corrupt dragon platelegs" + "</col>" + ".", "Corrupt dragon platelegs"
+
+
+		}
+		break
+	case 9:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 4708, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Ahrim's hood" + "</col>" + ". (They also need level 70 Magic.)", "Members: Ahrim's hood" + "<br>" + " (with 70 Magic)"
+
+			case 1:
+				return 4712, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Ahrim's robe top" + "</col>" + ". (They also need level 70 Magic.)", "Members: Ahrim's robe top" + "<br>" + " (with 70 Magic)"
+
+			case 2:
+				return 4714, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Ahrim's robe skirt" + "</col>" + ". (They also need level 70 Magic.)", "Members: Ahrim's robe skirt" + "<br>" + " (with 70 Magic)"
+
+			case 3:
+				return 4716, 70, "Members can now wear " + "<col=000080>" + "Dharok's helm" + "</col>" + ".", "Members: Dharok's helm"
+
+			case 4:
+				return 4720, 70, "Members can now wear " + "<col=000080>" + "Dharok's platebody" + "</col>" + ".", "Members: Dharok's platebody"
+
+			case 5:
+				return 4722, 70, "Members can now wear " + "<col=000080>" + "Dharok's platelegs" + "</col>" + ".", "Members: Dharok's platelegs"
+
+			case 6:
+				return 4724, 70, "Members can now wear " + "<col=000080>" + "Guthan's helm" + "</col>" + ".", "Members: Guthan's helm"
+
+			case 7:
+				return 4728, 70, "Members can now wear " + "<col=000080>" + "Guthan's platebody" + "</col>" + ".", "Members: Guthan's platebody"
+
+			case 8:
+				return 4730, 70, "Members can now wear " + "<col=000080>" + "Guthan's chainskirt" + "</col>" + ".", "Members: Guthan's chainskirt"
+
+			case 9:
+				return 4732, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Karil's coif" + "</col>" + ". (They also need level 70 Ranged.)", "Members: Karil's coif" + "<br>" + " (with 70 Ranged)"
+
+			case 10:
+				return 4736, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Karil's leather top" + "</col>" + ". (They also need level 70 Ranged.)", "Members: Karil's leather top" + "<br>" + " (with 70 Ranged)"
+
+			case 11:
+				return 4738, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Karil's leather skirt" + "</col>" + ". (They also need level 70 Ranged.)", "Members: Karil's leather skirt" + "<br>" + " (with 70 Ranged)"
+
+			case 12:
+				return 4745, 70, "Members can now wear " + "<col=000080>" + "Torag's helm" + "</col>" + ".", "Members: Torag's helm"
+
+			case 13:
+				return 4749, 70, "Members can now wear " + "<col=000080>" + "Torag's platebody" + "</col>" + ".", "Members: Torag's platebody"
+
+			case 14:
+				return 4751, 70, "Members can now wear " + "<col=000080>" + "Torag's platelegs" + "</col>" + ".", "Members: Torag's platelegs"
+
+			case 15:
+				return 4753, 70, "Members can now wear " + "<col=000080>" + "Verac's helm" + "</col>" + ".", "Members: Verac's helm"
+
+			case 16:
+				return 4757, 70, "Members can now wear " + "<col=000080>" + "Verac's brassard" + "</col>" + ".", "Members: Verac's brassard"
+
+			case 17:
+				return 4759, 70, "Members can now wear " + "<col=000080>" + "Verac's plateskirt" + "</col>" + ".", "Members: Verac's plateskirt"
+
+			case 18:
+				return 21736, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Akrisae's hood" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic).", "Members: Akrisae's hood" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)"
+
+			case 19:
+				return 21752, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Akrisae's robe top" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic).", "Members: Akrisae's robe top" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)"
+
+			case 20:
+				return 21760, 70, "Members now have the Defence level required to wear " + "<col=000080>" + "Akrisae's robe skirt" + "</col>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic).", "Members: Akrisae's robe skirt" + "<br>" + " (after Ritual of the Mahjarrat and with level 70 Prayer and 70 Magic)"
+
+
+		}
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 6153, 1, "Members can now wear " + "<col=000080>" + "skeletal gloves" + "</col>" + ".", "Members: Skeletal gloves"
+
+			case 1:
+				return 6147, 1, "Members can now wear " + "<col=000080>" + "skeletal boots" + "</col>" + ".", "Members: Skeletal boots"
+
+			case 2:
+				return 2890, 1, "Members can now use " + "<col=000080>" + "elemental equipment" + "</col>" + " (after Elemental Workshop I).", "Members: Elemental equipment" + "<br>" + " (after Elemental Workshop I)"
+
+			case 3:
+				return 9733, 1, "Members can now use " + "<col=000080>" + "mind equipment" + "</col>" + " (after Elemental Workshop II).", "Members: Mind equipment" + "<br>" + " (after Elemental Workshop II)"
+
+			case 4:
+				return 12964, 10, "You now have the Defence level required to wear " + "<col=000080>" + "combat hoods" + "</col>" + ". (You also need level 20 Magic.)", "Combat hood" + "<br>" + " (with 20 Magic)"
+
+			case 5:
+				return 12971, 10, "You now have the Defence level required to wear " + "<col=000080>" + "combat robe tops" + "</col>" + ". (You also need level 20 Magic.)", "Combat robe top" + "<br>" + " (with 20 Magic)"
+
+			case 6:
+				return 12978, 10, "You now have the Defence level required to wear " + "<col=000080>" + "combat robe bottoms" + "</col>" + ". (You also need level 20 Magic.)", "Combat robe bottom" + "<br>" + " (with 20 Magic)"
+
+			case 7:
+				return 12887, 10, "You now have the Defence level required to wear " + "<col=000080>" + "druidic mage hoods" + "</col>" + ". (You also need level 20 Magic.)", "Druidic mage hood" + "<br>" + " (with 20 Magic)"
+
+			case 8:
+				return 12894, 10, "You now have the Defence level required to wear " + "<col=000080>" + "druidic mage tops" + "</col>" + ". (You also need level 20 Magic.)", "Druidic mage top" + "<br>" + " (with 20 Magic)"
+
+			case 9:
+				return 12901, 10, "You now have the Defence level required to wear " + "<col=000080>" + "druidic mage bottoms" + "</col>" + ". (You also need level 20 Magic.)", "Druidic mage bottom" + "<br>" + " (with 20 Magic)"
+
+			case 10:
+				return 7400, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "enchanted hats" + "</col>" + ". (They also need level 40 Magic.)", "Members: Enchanted hat" + "<br>" + " (with 40 Magic)"
+
+			case 11:
+				return 7399, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "enchanted robe tops" + "</col>" + ". (They also need level 40 Magic.)", "Members: Enchanted robe top" + "<br>" + " (with 40 Magic)"
+
+			case 12:
+				return 7398, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "enchanted robes" + "</col>" + ". (They also need level 40 Magic.)", "Members: Enchanted robe" + "<br>" + " (with 40 Magic)"
+
+			case 13:
+				return 4089, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "mystic hats" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic hat" + "<br>" + " (with 40 Magic)"
+
+			case 14:
+				return 4091, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "mystic robe tops" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic robe top" + "<br>" + " (with 40 Magic)"
+
+			case 15:
+				return 4093, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "mystic robes" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic robe" + "<br>" + " (with 40 Magic)"
+
+			case 16:
+				return 4095, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "mystic gloves" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic gloves" + "<br>" + " (with 40 Magic)"
+
+			case 17:
+				return 4097, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "mystic boots" + "</col>" + ". (They also need level 40 Magic.)", "Members: Mystic boots" + "<br>" + " (with 40 Magic)"
+
+			case 18:
+				return 14499, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "Dagon'hai hats" + "</col>" + ". (They also need level 40 Magic.)", "Members: Dagon'hai hat" + "<br>" + " (with 40 Magic)"
+
+			case 19:
+				return 14497, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "Dagon'hai robe tops" + "</col>" + ". (They also need level 40 Magic.)", "Members: Dagon'hai robe top" + "<br>" + " (with 40 Magic)"
+
+			case 20:
+				return 14501, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "Dagon'hai robe bottoms" + "</col>" + ". (They also need level 40 Magic.)", "Members: Dagon'hai robe bottom" + "<br>" + " (with 40 Magic)"
+
+			case 21:
+				return 13938, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Zuriel's hood" + "</col>" + ". (They also need level 20 Magic.)", "Members: Corrupt Zuriel's hood" + "<br>" + " (with 20 Magic)"
+
+			case 22:
+				return 13932, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Zuriel's robe top" + "</col>" + ". (They also need level 20 Magic.)", "Members: Corrupt Zuriel's robe top" + "<br>" + " (with 20 Magic)"
+
+			case 23:
+				return 13935, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Zuriel's robe bottom" + "</col>" + ". (They also need level 20 Magic.)", "Members: Corrupt Zuriel's robe bottom" + "<br>" + " (with 20 Magic)"
+
+			case 24:
+				return 19323, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "dragon staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)", "Members: Dragon staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"
+
+			case 25:
+				return 19325, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "penguin staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)", "Members: Penguin staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"
+
+			case 26:
+				return 19327, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "bat staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)", "Members: Bat staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"
+
+			case 27:
+				return 19329, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "wolf staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)", "Members: Wolf staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"
+
+			case 28:
+				return 19331, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "cat staves" + "</col>" + ". (They also need level 40 Magic, level 40 Attack and level 60 Prayer.)", "Members: Cat staff" + "<br>" + " (with 40 Magic, 40 Attack and 60 Prayer)"
+
+			case 29:
+				return 21509, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "Necromancer hoods" + "</col>" + ". (They also need level 40 Magic.)", "Members: Necromancer hood" + "<br>" + " (with 40 Magic)"
+
+			case 30:
+				return 21508, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "Necromancer robes" + "</col>" + ". (They also need level 40 Magic.)", "Members: Necromancer robe" + "<br>" + " (with 40 Magic)"
+
+			case 31:
+				return 21510, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "Necromancer legs" + "</col>" + ". (They also need level 40 Magic.)", "Members: Necromancer legs" + "<br>" + " (with 40 Magic)"
+
+			case 32:
+				return 6918, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "infinity hats" + "</col>" + ". (They also need level 50 Magic.)", "Members: Infinity hat" + "<br>" + " (with 50 Magic)"
+
+			case 33:
+				return 6916, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "infinity tops" + "</col>" + ". (They also need level 50 Magic.)", "Members: Infinity top" + "<br>" + " (with 50 Magic)"
+
+			case 34:
+				return 6924, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "infinity robe bottoms" + "</col>" + ". (They also need level 50 Magic.)", "Members: Infinity bottom" + "<br>" + " (with 50 Magic)"
+
+			case 35:
+				return 6922, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "infinity gloves" + "</col>" + ". (They also need level 50 Magic.)", "Members: Infinity gloves" + "<br>" + " (with 50 Magic)"
+
+			case 36:
+				return 6920, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "infinity boots" + "</col>" + ". (They also need level 50 Magic.)", "Members: Infinity boots" + "<br>" + " (with 50 Magic)"
+
+			case 37:
+				return 22458, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "fungal visors" + "</col>" + ". (They also need level " + to_string(25) + " Magic.)", "Members: Fungal visor" + "<br>" + " (with " + to_string(25) + " Magic)"
+
+			case 38:
+				return 22466, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "fungal ponchos" + "</col>" + ". (They also need level " + to_string(25) + " Magic.)", "Members: Fungal poncho" + "<br>" + " (with " + to_string(25) + " Magic)"
+
+			case 39:
+				return 22462, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "fungal leggings" + "</col>" + ". (They also need level " + to_string(25) + " Magic.)", "Members: Fungal leggings" + "<br>" + " (with " + to_string(25) + " Magic)"
+
+			case 40:
+				return 10342, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age mage hats" + "</col>" + ". (They also need level 65 Magic.)", "Members: Third-Age mage hat" + "<br>" + " (with 65 Magic)"
+
+			case 41:
+				return 10338, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age robe tops" + "</col>" + ". (They also need level 65 Magic.)", "Members: Third-Age robe top" + "<br>" + " (with 65 Magic)"
+
+			case 42:
+				return 10340, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age robes" + "</col>" + ". (They also need level 65 Magic.)", "Members: Third-Age robe" + "<br>" + " (with 65 Magic)"
+
+			case 43:
+				return 10344, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "Third-Age amulets" + "</col>" + ". (They also need level 65 Magic.)", "Members: Third-Age amulet" + "<br>" + " (with 65 Magic)"
+
+			case 44:
+				return 18695, 33, "Members now have the Defence level required to use " + "<col=000080>" + "body equipment" + "</col>" + " (after Elemental Workshop III and with level 33 Smithing).", "Members: Body equipment (after Elemental Workshop III and with 33 Smithing)"
+
+			case 45:
+				return 3385, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "splitbark helms" + "</col>" + ". (They also need level 40 Magic.)", "Members: Splitbark helm" + "<br>" + " (with 40 Magic)"
+
+			case 46:
+				return 3387, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "splitbark body" + "</col>" + ". (They also need level 40 Magic.)", "Members: Splitbark body" + "<br>" + " (with 40 Magic)"
+
+			case 47:
+				return 3389, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "splitbark legs" + "</col>" + ". (They also need level 40 Magic.)", "Members: Splitbark legs" + "<br>" + " (with 40 Magic)"
+
+			case 48:
+				return 3391, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "splitbark gauntlets" + "</col>" + ". (They also need level 40 Magic.)", "Members: Splitbark gauntlets" + "<br>" + " (with 40 Magic)"
+
+			case 49:
+				return 3393, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "splitbark boots" + "</col>" + ". (They also need level 40 Magic.)", "Members: Splitbark boots" + "<br>" + " (with 40 Magic)"
+
+			case 50:
+				return 6137, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "skeletal helms" + "</col>" + " (after Fremennik Trials and with level 40 Magic).", "Members: Skeletal helm" + "<br>" + " (after Fremennik Trials, with 40 Magic)"
+
+			case 51:
+				return 6139, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "skeletal tops" + "</col>" + " (after Fremennik Trials and with level 40 Magic).", "Members: Skeletal top" + "<br>" + " (after Fremennik Trials, with 40 Magic)"
+
+			case 52:
+				return 6141, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "skeletal bottoms" + "</col>" + " (after Fremennik Trials and with level 40 Magic).", "Members: Skeletal bottoms" + "<br>" + " (after Fremennik Trials, with 40 Magic)"
+
+			case 53:
+				return 9096, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "lunar helms" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic).", "Members: Lunar helm" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"
+
+			case 54:
+				return 9097, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "lunar torsos" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic).", "Members: Lunar torso" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"
+
+			case 55:
+				return 9099, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "lunar gloves" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic).", "Members: Lunar gloves" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"
+
+			case 56:
+				return 9098, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "lunar legs" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic).", "Members: Lunar legs" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"
+
+			case 57:
+				return 9100, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "lunar boots" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic).", "Members: Lunar boots" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"
+
+			case 58:
+				return 9101, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "lunar capes" + "</col>" + " (after Lunar Diplomacy and with level 65 Magic).", "Members: Lunar cape" + "<br>" + " (after Lunar Diplomacy, with 65 Magic)"
+
+			case 59:
+				return 14116, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay hats" + "</col>" + ". (They also need level 40 Magic.)", "Members: Sacred clay hat" + "<br>" + " (with 40 Magic)"
+
+			case 60:
+				return 14114, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay robe tops" + "</col>" + ". (They also need level 40 Magic.)", "Members: Sacred clay robe top" + "<br>" + " (with 40 Magic)"
+
+			case 61:
+				return 14115, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay robe bottoms" + "</col>" + ". (They also need level 40 Magic.)", "Members: Sacred clay robe bottom" + "<br>" + " (with 40 Magic)"
+
+			case 62:
+				return 20436, 40, "Members now have the Defence level required to wield " + "<col=000080>" + "cosmic shields" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic shield" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 63:
+				return 20440, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "cosmic helmets" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic helmet" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 64:
+				return 20444, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "cosmic bodies" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic body" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 65:
+				return 20464, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "cosmic gloves" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic gloves" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 66:
+				return 20454, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "cosmic boots" + "</col>" + " (after Elemental Workshop IV).", "Members: Cosmic boots" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 67:
+				return 3755, 45, "Members can now wear " + "<col=000080>" + "farseer helms" + "</col>" + " (after Fremennik Trials).", "Members: Farseer helm" + "<br>" + " (after Fremennik Trials)"
+
+			case 68:
+				return 12866, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "battle hoods" + "</col>" + ". (They also need level 60 Magic.)", "Members: Battle hood" + "<br>" + " (with 60 Magic)"
+
+			case 69:
+				return 12873, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "battle robe tops" + "</col>" + ". (They also need level 60 Magic.)", "Members: Battle robe top" + "<br>" + " (with 60 Magic)"
+
+			case 70:
+				return 12880, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "battle robe bottoms" + "</col>" + ". (They also need level 60 Magic.)", "Members: Battle robe bottom" + "<br>" + " (with 60 Magic)"
+
+			case 71:
+				return 20438, 50, "Members now have the Defence level required to wield " + "<col=000080>" + "chaos shields" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos shield" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 72:
+				return 20442, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "chaos helmets" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos helmet" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 73:
+				return 20446, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "chaos bodies" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos body" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 74:
+				return 20466, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "chaos gloves" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos gloves" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 75:
+				return 20456, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "chaos boots" + "</col>" + " (after Elemental Workshop IV).", "Members: Chaos boots" + "<br>" + " (after Elemental Workshop IV)"
+
+			case 76:
+				return 22470, 55, "Members now have the Defence level required to wear " + "<col=000080>" + "grifolic visors" + "</col>" + ". (They also need level " + to_string(55) + " Magic.)", "Members: Grifolic visor" + "<br>" + " (with " + to_string(55) + " Magic)"
+
+			case 77:
+				return 22478, 55, "Members now have the Defence level required to wear " + "<col=000080>" + "grifolic ponchos" + "</col>" + ". (They also need level " + to_string(55) + " Magic.)", "Members: Grifolic poncho" + "<br>" + " (with " + to_string(55) + " Magic)"
+
+			case 78:
+				return 22474, 55, "Members now have the Defence level required to wear " + "<col=000080>" + "grifolic leggings" + "</col>" + ". (They also need level " + to_string(55) + " Magic.)", "Members: Grifolic leggings" + "<br>" + " (with " + to_string(55) + " Magic)"
+
+			case 79:
+				return 13864, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Zuriel's hood" + "</col>" + ". (They also need level 78 Magic.)", "Members: Zuriel's hood" + "<br>" + " (with 78 Magic)"
+
+			case 80:
+				return 13858, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Zuriel's robe top" + "</col>" + ". (They also need level 78 Magic.)", "Members: Zuriel's robe top" + "<br>" + " (with 78 Magic)"
+
+			case 81:
+				return 13861, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Zuriel's robe bottom" + "</col>" + ". (They also need level 78 Magic.)", "Members: Zuriel's robe bottom" + "<br>" + " (with 78 Magic)"
+
+			case 82:
+				return 20159, 80, "Members can now wear " + "<col=000080>" + "virtus masks" + "</col>" + ". (They also need level 80 Magic and Constitution.)", "Members: Virtus mask" + "<br>" + " (with 80 Magic and Constitution)"
+
+			case 83:
+				return 20163, 80, "Members can now wear " + "<col=000080>" + "virtus robe tops" + "</col>" + ". (They also need level 80 Magic and Constitution.)", "Members: Virtus robe top" + "<br>" + " (with 80 Magic and Constitution)"
+
+			case 84:
+				return 20167, 80, "Members can now wear " + "<col=000080>" + "virtus robe legs" + "</col>" + ". (They also need level 80 Magic and Constitution.)", "Members: Virtus robe legs" + "<br>" + " (with 80 Magic and Constitution)"
+
+			case 85:
+				return 22482, 85, "Members now have the Defence level required to wear " + "<col=000080>" + "ganodermic visors" + "</col>" + ". (They also need level " + to_string(85) + " Magic.)", "Members: Ganodermic visor" + "<br>" + " (with " + to_string(85) + " Magic)"
+
+			case 86:
+				return 22490, 85, "Members now have the Defence level required to wear " + "<col=000080>" + "ganodermic ponchos" + "</col>" + ". (They also need level " + to_string(85) + " Magic.)", "Members: Ganodermic poncho" + "<br>" + " (with " + to_string(85) + " Magic)"
+
+			case 87:
+				return 22486, 85, "Members now have the Defence level required to wear " + "<col=000080>" + "ganodermic leggings" + "</col>" + ". (They also need level " + to_string(85) + " Magic.)", "Members: Ganodermic leggings" + "<br>" + " (with " + to_string(85) + " Magic)"
+
+
+		}
+		break
+	case 11:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 23048, 1, "Members can now wear " + "<col=000080>" + "Bladestorm Drapes" + "</col>" + ".", "Bladestorm drape"
+
+			case 1:
+				return 1540, 1, "You can now wield " + "<col=000080>" + "anti-dragonbreath shields" + "</col>" + ".", "Anti-dragonbreath shield"
+
+			case 2:
+				return 6149, 1, "Members can now wear " + "<col=000080>" + "spined gloves" + "</col>" + ".", "Members: Spined gloves"
+
+			case 3:
+				return 6143, 1, "Members can now wear " + "<col=000080>" + "spined boots" + "</col>" + ".", "Members: Spined boots"
+
+			case 4:
+				return 6151, 1, "Members can now wear " + "<col=000080>" + "rock-shell gloves" + "</col>" + ".", "Members: Rock-shell gloves"
+
+			case 5:
+				return 6145, 1, "Members can now wear " + "<col=000080>" + "rock-shell boots" + "</col>" + ".", "Members: Rock-shell boots"
+
+			case 6:
+				return 75, 1, "Members can now wear " + "<col=000080>" + "Khazard armour" + "</col>" + ".", "Members: Khazard armour"
+
+			case 7:
+				return 4551, 5, "Members now have the Defence level required to wear " + "<col=000080>" + "spiny helmets" + "</col>" + " to ward off wall beast attacks.", "Members: Spiny helmet"
+
+			case 8:
+				return 4071, 5, "Members can now wear " + "<col=000080>" + "basic decorative helms" + "</col>" + ".", "Members: Basic decorative helm"
+
+			case 9:
+				return 4069, 5, "Members can now wear " + "<col=000080>" + "basic decorative platebodies" + "</col>" + ".", "Members: Basic decorative armour"
+
+			case 10:
+				return 4070, 5, "Members can now wear " + "<col=000080>" + "basic decorative platelegs" + "</col>" + ".", "Members: Basic decorative armour"
+
+			case 11:
+				return 4072, 5, "Members can now wear " + "<col=000080>" + "basic decorative shields" + "</col>" + ".", "Members: Basic decorative shield"
+
+			case 12:
+				return 15490, 10, "Members can now wear " + "<col=000080>" + "focus sights" + "</col>" + ".", "Members: Focus sight" + "<br>" + " (with 20 Ranged)"
+
+			case 13:
+				return 15488, 10, "Members can now wear " + "<col=000080>" + "hexcrests" + "</col>" + ".", "Members: Hexcrest" + "<br>" + " (with 20 Magic)"
+
+			case 14:
+				return 8921, 10, "Members can now wear " + "<col=000080>" + "black masks" + "</col>" + ".", "Members: Black mask" + "<br>" + " (with 20 Strength)"
+
+			case 15:
+				return 13263, 10, "Members can now wear " + "<col=000080>" + "slayer helmets" + "</col>" + " (after Smoking Kills).", "Members: Slayer helmet" + "<br>" + " (after Smoking Kills)"
+
+			case 16:
+				return 15492, 10, "Members can now wear " + "<col=000080>" + "full slayer helmets" + "</col>" + " (after Smoking Kills with 20 Ranged, Magic and Strength).", "Members: Full Slayer helmet" + "<br>" + " (after Smoking Kills with 20 Ranged, Magic and Strength)"
+
+			case 17:
+				return 1133, 20, "You now have the Defence level required to wear " + "<col=000080>" + "studded bodies" + "</col>" + ". (You also need level 20 Ranged.)", "Studded body" + "<br>" + " (with 20 Ranged)"
+
+			case 18:
+				return 10822, 20, "Members can now wear " + "<col=000080>" + "yak-hide bodies" + "</col>" + ".", "Members: Yak-hide bodies"
+
+			case 19:
+				return 10824, 20, "Members can now wear " + "<col=000080>" + "yak-hide legs" + "</col>" + ".", "Members: Yak-hide legs"
+
+			case 20:
+				return 5574, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "initiate sallets" + "</col>" + " (after Recruitment Drive and with level 10 Prayer).", "Members: Initiate sallet" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"
+
+			case 21:
+				return 5575, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "initiate hauberks" + "</col>" + " (after Recruitment Drive and with level 10 Prayer).", "Members: Initiate hauberk" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"
+
+			case 22:
+				return 23122, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "initiate tassets" + "</col>" + " (after Recruitment Drive and with level 10 Prayer).", "Members: Initiate tasset" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"
+
+			case 23:
+				return 5576, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "initiate cuisses" + "</col>" + " (after Recruitment Drive and with level 10 Prayer).", "Members: Initiate cuisse" + "<br>" + " (after Recruitment Drive, with 10 Prayer)"
+
+			case 24:
+				return 4156, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "mirror shields" + "</col>" + " to protect against cockatrices and basilisks. (They also need level 25 Slayer.)", "Members: Mirror shield" + "<br>" + " (with 25 Slayer)"
+
+			case 25:
+				return 4506, 20, "Members can now wear " + "<col=000080>" + "detailed decorative helms" + "</col>" + ".", "Members: Detailed decorative helm"
+
+			case 26:
+				return 4504, 20, "Members can now wear " + "<col=000080>" + "detailed decorative platebodies" + "</col>" + ".", "Members: Detailed decorative armour"
+
+			case 27:
+				return 4505, 20, "Members can now wear " + "<col=000080>" + "detailed decorative platelegs" + "</col>" + ".", "Members: Detailed decorative armour"
+
+			case 28:
+				return 4507, 20, "Members can now wear " + "<col=000080>" + "detailed decorative shields" + "</col>" + ".", "Members: Detailed decorative shield"
+
+			case 29:
+				return 13950, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "corrupt Morrigan's coif" + "</col>" + ". (They also need level 20 Ranged.)", "Members: Corrupt Morrigan's coif" + "<br>" + " (with 20 Ranged)"
+
+			case 30:
+				return 13944, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "corrupt Morrigan's leather body" + "</col>" + ". (They also need level 20 Ranged.)", "Members: Corrupt Morrigan's leather body" + "<br>" + " (with 20 Ranged)"
+
+			case 31:
+				return 13947, 20, "Members now have the Defence level required to wield " + "<col=000080>" + "corrupt Morrigan's leather chaps" + "</col>" + ". (They also need level 20 Ranged.)", "Members: Corrupt Morrigan's leather chaps" + "<br>" + " (with 20 Ranged)"
+
+			case 32:
+				return 13920, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Statius's full helm" + "</col>" + ".", "Members: Corrupt Statius's full helm"
+
+			case 33:
+				return 13908, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Statius's platebody" + "</col>" + ".", "Members: Corrupt Statius's platebody"
+
+			case 34:
+				return 13911, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Vesta's chainbody" + "</col>" + ".", "Members: Corrupt Vesta's chainbody"
+
+			case 35:
+				return 13914, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Statius's platelegs" + "</col>" + ".", "Members: Corrupt Statius's platelegs"
+
+			case 36:
+				return 13917, 20, "Members now have the Defence level required to wear " + "<col=000080>" + "corrupt Vesta's plateskirt" + "</col>" + ".", "Members: Corrupt Vesta's plateskirt"
+
+			case 37:
+				return 10826, 25, "Members can now wield Fremennik round shields" + "</col>" + ".", "Members: Fremennik round shield"
+
+			case 38:
+				return 10954, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "frog-leather bodies" + "</col>" + ". (They also need level 25 Ranged.)", "Members: Frog-leather body" + "<br>" + " (with 25 Ranged)"
+
+			case 39:
+				return 10956, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "frog-leather chaps" + "</col>" + ". (They also need level 25 Ranged.)", "Members: Frog-leather chaps" + "<br>" + " (with 25 Ranged)"
+
+			case 40:
+				return 10958, 25, "Members now have the Defence level required to wear " + "<col=000080>" + "frog-leather boots" + "</col>" + ". (They also need level 25 Ranged.).", "Members: Frog-leather boots" + "<br>" + " (with 25 Ranged)"
+
+			case 41:
+				return 3758, 30, "Members can now wield " + "<col=000080>" + "Fremennik shields" + "</col>" + ".", "Members: Fremennik shield"
+
+			case 42:
+				return 3748, 30, "Members can now wear " + "<col=000080>" + "Fremennik helms" + "</col>" + ".", "Members: Fremennik helm"
+
+			case 43:
+				return 4567, 30, "Members can now wear " + "<col=000080>" + "gold helmets" + "</col>" + ".", "Members: Gold helmet"
+
+			case 44:
+				return 7917, 30, "Members can now wear " + "<col=000080>" + "ram skull helms" + "</col>" + " (after Rag and Bone Man).", "Members: Ram skull helm (after Rag and Bone Man)"
+
+			case 45:
+				return 9672, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "proselyte sallets" + "</col>" + " (after Slug Menace, with level 20 Prayer).", "Members: Proselyte sallet" + "<br>" + " (after Slug Menace and with 20 Prayer)"
+
+			case 46:
+				return 9674, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "proselyte hauberks" + "</col>" + " (after Slug Menace, with level 20 Prayer).", "Members: Proselyte hauberk" + "<br>" + " (after Slug Menace and with 20 Prayer)"
+
+			case 47:
+				return 9678, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "proselyte tassets" + "</col>" + " (after Slug Menace, with level 20 Prayer).", "Members: Proselyte tasset" + "<br>" + " (after Slug Menace and with 20 Prayer)"
+
+			case 48:
+				return 9676, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "proselyte cuisses" + "</col>" + " (after Slug Menace, with level 20 Prayer).", "Members: Proselyte cuisse" + "<br>" + " (after Slug Menace and with 20 Prayer)"
+
+			case 49:
+				return 4511, 30, "Members can now wear " + "<col=000080>" + "intricate decorative helms" + "</col>" + ".", "Members: Intricate decorative helm"
+
+			case 50:
+				return 4509, 30, "Members can now wear " + "<col=000080>" + "intricate decorative platebodies" + "</col>" + ".", "Members: Intricate decorative armour"
+
+			case 51:
+				return 4510, 30, "Members can now wear " + "<col=000080>" + "intricate decorative platelegs" + "</col>" + ".", "Members: Intricate decorative armour"
+
+			case 52:
+				return 4512, 30, "Members can now wear " + "<col=000080>" + "intricate decorative shields" + "</col>" + ".", "Members: Intricate decorative shield"
+
+			case 53:
+				return 6326, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin bandanas" + "</col>" + ". (They also need level 30 Ranged.)", "Members: Snakeskin bandana" + "<br>" + " (with 30 Ranged)"
+
+			case 54:
+				return 6322, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin bodies" + "</col>" + ". (They also need level 30 Ranged.)", "Members: Snakeskin body" + "<br>" + " (with 30 Ranged)"
+
+			case 55:
+				return 6324, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin chaps" + "</col>" + ". (They also need level 30 Ranged.)", "Members: Snakeskin chaps" + "<br>" + " (with 30 Ranged)"
+
+			case 56:
+				return 6330, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin vambraces" + "</col>" + ". (They also need level 30 Ranged.)", "Members: Snakeskin vambraces" + "<br>" + " (with 30 Ranged)"
+
+			case 57:
+				return 6328, 30, "Members now have the Defence level required to wear " + "<col=000080>" + "snakeskin boots" + "</col>" + ". (They also need level 30 Ranged.)", "Members: Snakeskin boots" + "<br>" + " (with 30 Ranged)"
+
+			case 58:
+				return 14936, 35, "Members now have the Defence level required to wear " + "<col=000080>" + "Agile tops" + "</col>" + ". (They also need level 35 Constitution.)", "Members: Agile top" + "<br>" + " (with 35 Constitution)"
+
+			case 59:
+				return 14938, 35, "Members now have the Defence level required to wear " + "<col=000080>" + "Agile legs" + "</col>" + ". (They also need level 35 Constitution.)", "Members: Agile legs" + "<br>" + " (with 35 Constitution)"
+
+			case 60:
+				return 1135, 40, "You now have the Defence level required to wear " + "<col=000080>" + "green dragonhide bodies" + "</col>" + ". (You also need to have completed Dragon Slayer and have level 40 Ranged.)", "Green dragonhide body" + "<br>" + " (after Dragon Slayer and with 40 Ranged)"
+
+			case 61:
+				return 12936, 40, "You now have the Defence level required to wear " + "<col=000080>" + "green dragonhide coifs" + "</col>" + ". (You also need level 40 Ranged.)", "Green dragonhide coif" + "<br>" + " (with 40 Ranged)"
+
+			case 62:
+				return 2499, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "blue dragonhide bodies" + "</col>" + ". (They also need level 50 Ranged.)", "Members: Blue dragonhide body" + "<br>" + " (with 50 Ranged)"
+
+			case 63:
+				return 12943, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "blue dragonhide coifs" + "</col>" + ". (They also need level 50 Ranged.)", "Members: Blue dragonhide coif" + "<br>" + " (with 50 Ranged)"
+
+			case 64:
+				return 2501, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "red dragonhide bodies" + "</col>" + ". (They also need level 60 Ranged.)", "Members: Red dragonhide body" + "<br>" + " (with 60 Ranged)"
+
+			case 65:
+				return 12950, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "red dragonhide coifs" + "</col>" + ". (They also need level 60 Ranged.)", "Members: Red dragonhide coif" + "<br>" + " (with 60 Ranged)"
+
+			case 66:
+				return 2503, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "black dragonhide bodies" + "</col>" + ". (They also need level 70 Ranged.)", "Members: Black dragonhide body" + "<br>" + " (with 70 Ranged)"
+
+			case 67:
+				return 12957, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "black dragonhide coifs" + "</col>" + ". (They also need level 70 Ranged.)", "Members: Black dragonhide coif" + "<br>" + " (with 70 Ranged)"
+
+			case 68:
+				return 10374, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "blessed dragonhide coifs" + "</col>" + ". (They also need level 70 Ranged.)", "Members: Blessed dragonhide coif" + "<br>" + " (with 70 Ranged)"
+
+			case 69:
+				return 6131, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "spined helms" + "</col>" + " (after Fremennik Trials and with level 40 Ranged).", "Members: Spined helm" + "<br>" + " (after Fremennik Trials and with 40 Ranged)"
+
+			case 70:
+				return 6133, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "spined bodies" + "</col>" + " (after Fremennik Trials and with level 40 Ranged).", "Members: Spined body" + "<br>" + " (after Fremennik Trials and with 40 Ranged)"
+
+			case 71:
+				return 6135, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "spined chaps" + "</col>" + " (after Fremennik Trials and with level 40 Ranged).", "Members: Spined chaps" + "<br>" + " (after Fremennik Trials and with 40 Ranged)"
+
+			case 72:
+				return 6128, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "rock-shell helms" + "</col>" + " (after Fremennik Trials).", "Members: Rock-shell helm" + "<br>" + " (after Fremennik Trials)"
+
+			case 73:
+				return 6129, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "rock-shell plates" + "</col>" + " (after Fremennik Trials).", "Members: Rock-shell plate" + "<br>" + " (after Fremennik Trials)"
+
+			case 74:
+				return 6130, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "rock-shell legs" + "</col>" + " (after Fremennik Trials).", "Members: Rock-shell legs" + "<br>" + " (after Fremennik Trials)"
+
+			case 75:
+				return 10551, 40, "Members can now wear " + "<col=000080>" + "fighter torsos" + "</col>" + ".", "Members: Fighter torso"
+
+			case 76:
+				return 10553, 40, "Members can now wear " + "<col=000080>" + "penance gloves" + "</col>" + ".", "Members: Penance gloves"
+
+			case 77:
+				return 10555, 40, "Members can now wear " + "<col=000080>" + "penance skirts" + "</col>" + ".", "Members: Penance skirt"
+
+			case 78:
+				return 10552, 40, "Members can now wear " + "<col=000080>" + "runner boots" + "</col>" + ".", "Members: Runner boots"
+
+			case 79:
+				return 10547, 40, "Members can now wear " + "<col=000080>" + "healer hats" + "</col>" + ".", "Members: Healer hat"
+
+			case 80:
+				return 10548, 40, "Members can now wear " + "<col=000080>" + "fighter hats" + "</col>" + ".", "Members: Fighter hat"
+
+			case 81:
+				return 10550, 40, "Members can now wear " + "<col=000080>" + "ranger hats" + "</col>" + ".", "Members: Ranger hat"
+
+			case 82:
+				return 10549, 40, "Members can now wear " + "<col=000080>" + "runner hats" + "</col>" + ".", "Members: Runner hat"
+
+			case 83:
+				return 13734, 40, "Members now have the Defence level required to wield " + "<col=000080>" + "spirit shields" + "</col>" + " (after Summer's End (with level 55 Prayer).", "Members: Spirit shield" + "<br>" + " (after Summer's End and with 55 Prayer)"
+
+			case 84:
+				return 14096, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay helmets" + "</col>" + ".", "Members: Sacred clay helmet"
+
+			case 85:
+				return 14094, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay platebodies" + "</col>" + ".", "Members: Sacred clay platebody"
+
+			case 86:
+				return 14095, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay platelegs" + "</col>" + ".", "Members: Sacred clay platelegs"
+
+			case 87:
+				return 14120, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay coifs" + "</col>" + ". (They also need level 40 Ranged.)", "Members: Sacred clay coif" + "<br>" + " (with 40 Ranged)"
+
+			case 88:
+				return 14118, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay bodies" + "</col>" + ". (They also need level 40 Ranged.)", "Members: Sacred clay body" + "<br>" + " (with 40 Ranged)"
+
+			case 89:
+				return 14119, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "sacred clay chaps" + "</col>" + ". (They also need level 40 Ranged.)", "Members: Sacred clay chaps" + "<br>" + " (with 40 Ranged)"
+
+			case 90:
+				return 18708, 40, "Members can now wear " + "<col=000080>" + "profound decorative helms" + "</col>" + ".", "Members: Profound decorative helm"
+
+			case 91:
+				return 18706, 40, "Members can now wear " + "<col=000080>" + "profound decorative platebodies" + "</col>" + ".", "Members: Profound decorative armour"
+
+			case 92:
+				return 18707, 40, "Members can now wear " + "<col=000080>" + "profound decorative platelegs" + "</col>" + ".", "Members: Profound decorative armour"
+
+			case 93:
+				return 18709, 40, "Members can now wear " + "<col=000080>" + "profound decorative shields" + "</col>" + ".", "Members: Profound decorative shield"
+
+			case 94:
+				return 18747, 40, "Members now have the Defence level required to wear " + "<col=000080>" + "faithful shields" + "</col>" + ".", "Members: Faithful shield"
+
+			case 95:
+				return 11665, 42, "Members now have the Defence level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + ".", "Members: Void melee helm"
+
+			case 96:
+				return 11664, 42, "Members now have the Defence level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + ".", "Members: Void ranger helm"
+
+			case 97:
+				return 11663, 42, "Members now have the Defence level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + ".", "Members: Void mage helm"
+
+			case 98:
+				return 8839, 42, "Members now have the Defence level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + ".", "Members: Void knight top"
+
+			case 99:
+				return 8840, 42, "Members now have the Defence level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + ".", "Members: Void knight robe"
+
+			case 100:
+				return 8842, 42, "Members now have the Defence level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + ".", "Members: Void knight gloves"
+
+			case 101:
+				return 19712, 42, "Members now have the Defence level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + ".", "Members: Void knight deflector"
+
+			case 102:
+				return 8841, 42, "Members now have the Defence level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + ".", "Members: Void knight mace"
+
+			case 103:
+				return 7620, 42, "<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", "Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."
+
+			case 104:
+				return 3751, 45, "Members now have the Defence level required to wear " + "<col=000080>" + "berserker helms" + "</col>" + " (after Fremennik Trials).", "Members: Berserker helm" + "<br>" + " (after Fremennik Trials)"
+
+			case 105:
+				return 3753, 45, "Members now have the Defence level required to wear " + "<col=000080>" + "warrior helms" + "</col>" + " (after Fremennik Trials).", "Members: Warrior helm" + "<br>" + " (after Fremennik Trials)"
+
+			case 106:
+				return 3749, 45, "Members now have the Defence level required to wear " + "<col=000080>" + "archer helms" + "</col>" + " (after Fremennik Trials).", "Members: Archer helm" + "<br>" + " (after Fremennik Trials)"
+
+			case 107:
+				return 11200, 50, "Members can now wear " + "<col=000080>" + "dwarven helmets" + "</col>" + " (after Grim Tales).", "Members: Dwarven helmet" + "<br>" + " (after Grim Tales)"
+
+			case 108:
+				return 10589, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "granite helms" + "</col>" + ". (They also need level 50 Strength.)", "Members: Granite helm" + "<br>" + " (with 50 Strength)"
+
+			case 109:
+				return 10564, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "granite bodies" + "</col>" + ". (They also need level 50 Strength.)", "Members: Granite body" + "<br>" + " (with 50 Strength)"
+
+			case 110:
+				return 6809, 50, "Members now have the Defence level required to wear " + "<col=000080>" + "granite legs" + "</col>" + ". (They also need level 50 Strength.)", "Members: Granite legs" + "<br>" + " (with 50 Strength)"
+
+			case 111:
+				return 3122, 50, "Members now have the Defence level required to wield " + "<col=000080>" + "granite shields" + "</col>" + ". (They also need level 50 Strength.)", "Members: Granite shield" + "<br>" + " (with 50 Strength)"
+
+			case 112:
+				return 19893, 50, "You can now wear " + "<col=000080>" + "spirit capes" + "</col>" + ". (You also need level 50 Summoning and 50 Dungeoneering.)", "Spirit cape" + "<br>" + " (with 50 Summoning and 50 Dungeoneering)"
+
+			case 113:
+				return 10828, 55, "Members now have the Defence level required to wear the " + "<col=000080>" + "Helm of Neitiznot" + "</col>" + " (after Fremennik Isles).", "Members: Helm of Neitiznot" + "<br>" + " (after Fremennik Isles)"
+
+			case 114:
+				return 6524, 60, "Members can now wield " + "<col=000080>" + "TokTz-Ket-Xil" + "</col>" + ".", "Members: TokTz-Ket-Xil"
+
+			case 115:
+				return 18340, 60, "Members can now wield " + "<col=000080>" + "anti-poison totems" + "</col>" + ". (They also need level 70 Herblore and level 60 Dungeoneering.)", "Members: Anti-poison totem" + "<br>" + " (with 70 Herblore and 60 Dungeoneering)"
+
+			case 116:
+				return 10350, 65, "Members can now wear " + "<col=000080>" + "Third-Age full helms" + "</col>" + ".", "Members: Third-Age full helm"
+
+			case 117:
+				return 10348, 65, "Members can now wear " + "<col=000080>" + "Third-Age platebodies" + "</col>" + ".", "Members: Third-Age platebody"
+
+			case 118:
+				return 10346, 65, "Members can now wear " + "<col=000080>" + "Third-Age platelegs" + "</col>" + ".", "Members: Third-Age platelegs"
+
+			case 119:
+				return 10352, 65, "Members can now wield " + "<col=000080>" + "Third-Age kiteshields" + "</col>" + ".", "Members: Third-Age kiteshield"
+
+			case 120:
+				return 11724, 65, "Members can now wear " + "<col=000080>" + "Bandos chestplates" + "</col>" + ".", "Members: Bandos chestplate"
+
+			case 121:
+				return 11726, 65, "Members can now wear " + "<col=000080>" + "Bandos tassets" + "</col>" + ".", "Members: Bandos tassets"
+
+			case 122:
+				return 11728, 65, "Members can now wear " + "<col=000080>" + "Bandos boots" + "</col>" + ".", "Members: Bandos boots"
+
+			case 123:
+				return 21527, 65, "Members can now equip " + "<col=000080>" + "Sacred clay shields" + "</col>" + ".", "Members: Sacred Clay Shield"
+
+			case 124:
+				return 4224, 70, "Members now have the Defence level required to wield " + "<col=000080>" + "crystal shields" + "</col>" + ". (They also need level 50 Agility.)", "Members: Crystal shield" + "<br>" + " (with 50 Agility)"
+
+			case 125:
+				return 11718, 70, "Members now have the Defence level required to wear Armadyl helmets. (They also need level 70 Ranged.)", "Members: Armadyl helmet" + "<br>" + " (with 70 Ranged)"
+
+			case 126:
+				return 11720, 70, "Members now have the Defence level required to wear Armadyl chestplates. (They also need level 70 Ranged.)", "Members: Armadyl chestplate" + "<br>" + " (with 70 Ranged)"
+
+			case 127:
+				return 11722, 70, "Members now have the Defence level required to wear Armadyl chainskirts. (They also need level 70 Ranged.)", "Members: Armadyl chainskirt" + "<br>" + " (with 70 Ranged)"
+
+			case 128:
+				return 13736, 70, "Members now have the Defence level required to wield " + "<col=000080>" + "blessed spirit shields" + "</col>" + " (after Summer's End, with level 60 Prayer).", "Members: Blessed spirit shield" + "<br>" + " (after Summer's End and with 60 Prayer)"
+
+			case 129:
+				return 11283, 75, "Members can now wield " + "<col=000080>" + "dragonfire shields" + "</col>" + ".", "Members: Dragonfire shield"
+
+			case 130:
+				return 13738, 75, "Members now have the Defence level required to wield " + "<col=000080>" + "arcane spirit shields" + "</col>" + " (after Summer's End, with level 65 Magic and level 70 Prayer).", "Members: Arcane spirit shield" + "<br>" + " (after Summer's End and with 70 Prayer and 65 Magic)"
+
+			case 131:
+				return 13740, 75, "Members now have the Defence level required to wield " + "<col=000080>" + "divine spirit shields" + "</col>" + " (after Summer's End, with level 75 Prayer).", "Members: Divine spirit shield" + "<br>" + " (after Summer's End and with 75 Prayer)"
+
+			case 132:
+				return 13742, 75, "Members now have the Defence level required to wield " + "<col=000080>" + "elysian spirit shields" + "</col>" + " (after Summer's End, with level 75 Prayer).", "Members: Elysian spirit shield" + "<br>" + " (after Summer's End and with 75 Prayer)"
+
+			case 133:
+				return 13744, 75, "Members now have the Defence level required to wield " + "<col=000080>" + "spectral spirit shields" + "</col>" + " (after Summer's End, with level 65 Magic and level 70 Prayer).", "Members: Spectral spirit shield" + "<br>" + " (after Summer's End and with 70 Prayer and 65 Magic)"
+
+			case 134:
+				return 21787, 75, "Members now have the Defence level required to wear " + "<col=000080>" + "steadfast boots" + "</col>" + " (with 75 Attack).", "Members: Steadfast boots" + "<br>" + " (with 75 Attack)"
+
+			case 135:
+				return 21793, 75, "Members now have the Defence level required to wear " + "<col=000080>" + "ragefire boots" + "</col>" + " (with 75 Magic).", "Members: Ragefire boots" + "<br>" + " (with 75 Magic)"
+
+			case 136:
+				return 21790, 75, "Members now have the Defence level required to wear " + "<col=000080>" + "glaiven boots" + "</col>" + " (with 75 Ranged).", "Members: Glaiven boots" + "<br>" + " (with 75 Ranged)"
+
+			case 137:
+				return 13876, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Morrigan's coif" + "</col>" + ". (They also need level 78 Ranged.)", "Members: Morrigan's coif" + "<br>" + " (with 78 Ranged)"
+
+			case 138:
+				return 13870, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Morrigan's leather body" + "</col>" + ". (They also need level 78 Ranged.)", "Members: Morrigan's leather body" + "<br>" + " (with 78 Ranged)"
+
+			case 139:
+				return 13873, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Morrigan's leather chaps" + "</col>" + ". (They also need level 78 Ranged.)", "Members: Morrigan's leather chaps" + "<br>" + " (with 78 Ranged)"
+
+			case 140:
+				return 13896, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Statius's full helm" + "</col>" + ".", "Members: Statius's full helm"
+
+			case 141:
+				return 13884, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Statius's platebody" + "</col>" + ".", "Members: Statius's platebody"
+
+			case 142:
+				return 13887, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Vesta's chainbody" + "</col>" + ".", "Members: Vesta's chainbody"
+
+			case 143:
+				return 13890, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Statius's platelegs" + "</col>" + ".", "Members: Statius's platelegs"
+
+			case 144:
+				return 13893, 78, "Members now have the Defence level required to wear " + "<col=000080>" + "Vesta's plateskirt" + "</col>" + ".", "Members: Vesta's plateskirt"
+
+			case 145:
+				return 18359, 80, "Members can now wield " + "<col=000080>" + "chaotic kiteshields" + "</col>" + ". (They also need level 80 Dungeoneering.)", "Members: Chaotic kiteshield" + "<br>" + " (with 80 Dungeoneering)"
+
+			case 146:
+				return 18361, 80, "Members can now wield " + "<col=000080>" + "eagle-eye kiteshields" + "</col>" + ". (They also need level 80 Dungeoneering.)", "Members: Eagle-eye kiteshield" + "<br>" + " (with 80 Dungeoneering)"
+
+			case 147:
+				return 18363, 80, "Members can now wield " + "<col=000080>" + "farseer kiteshields" + "</col>" + ". (They also need level 80 Dungeoneering.)", "Members: Farseer kiteshield" + "<br>" + " (with 80 Dungeoneering)"
+
+			case 148:
+				return 20135, 80, "Members can now wear " + "<col=000080>" + "torva full helms" + "</col>" + ". (They also need level 80 Strength and Constitution.)", "Members: Torva full helm" + "<br>" + " (with 80 Strength and Constitution)"
+
+			case 149:
+				return 20139, 80, "Members can now wear " + "<col=000080>" + "torva platebodies" + "</col>" + ". (They also need level 80 Strength and Constitution.)", "Members: Torva platebody" + "<br>" + " (with 80 Strength and Constitution)"
+
+			case 150:
+				return 20143, 80, "Members can now wear " + "<col=000080>" + "torva platelegs" + "</col>" + ". (They also need level 80 Strength and Constitution.)", "Members: Torva platelegs" + "<br>" + " (with 80 Strength and Constitution)"
+
+			case 151:
+				return 20147, 80, "Members can now wear " + "<col=000080>" + "pernix cowls" + "</col>" + ". (They also need level 80 Ranged and Constitution.)", "Members: Pernix cowl" + "<br>" + " (with 80 Ranged and Constitution)"
+
+			case 152:
+				return 20151, 80, "Members can now wear " + "<col=000080>" + "pernix bodies" + "</col>" + ". (They also need level 80 Ranged and Constitution.)", "Members: Pernix body" + "<br>" + " (with 80 Ranged and Constitution)"
+
+			case 153:
+				return 20155, 80, "Members can now wear " + "<col=000080>" + "pernix chaps" + "</col>" + ". (They also need level 80 Ranged and Constitution.)", "Members: Pernix chaps" + "<br>" + " (with 80 Ranged and Constitution)"
+
+
+		}
+		break
+	case 12:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14367, 1, "Members can now wear " + "<col=000080>" + "class 1 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 helmet"
+
+			case 1:
+				return 14357, 1, "Members can now wear " + "<col=000080>" + "class 1 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 platelegs"
+
+			case 2:
+				return 14347, 1, "Members can now wear " + "<col=000080>" + "class 1 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 platebody"
+
+			case 3:
+				return 14369, 20, "Members can now wear " + "<col=000080>" + "class 2 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 helmet"
+
+			case 4:
+				return 14359, 20, "Members can now wear " + "<col=000080>" + "class 2 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 platelegs"
+
+			case 5:
+				return 14349, 20, "Members can now wear " + "<col=000080>" + "class 2 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 platebody"
+
+			case 6:
+				return 14371, 40, "Members can now wear " + "<col=000080>" + "class 3 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 helmet"
+
+			case 7:
+				return 14361, 40, "Members can now wear " + "<col=000080>" + "class 3 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 platelegs"
+
+			case 8:
+				return 14351, 40, "Members can now wear " + "<col=000080>" + "class 3 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 platebody"
+
+			case 9:
+				return 14373, 60, "Members can now wear " + "<col=000080>" + "class 4 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 helmet"
+
+			case 10:
+				return 14363, 60, "Members can now wear " + "<col=000080>" + "class 4 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 platelegs"
+
+			case 11:
+				return 14353, 60, "Members can now wear " + "<col=000080>" + "class 4 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 platebody"
+
+			case 12:
+				return 14375, 80, "Members can now wear " + "<col=000080>" + "class 5 helmets" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 helmet"
+
+			case 13:
+				return 14365, 80, "Members can now wear " + "<col=000080>" + "class 5 platelegs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 platelegs"
+
+			case 14:
+				return 14355, 80, "Members can now wear " + "<col=000080>" + "class 5 platebodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 platebody"
+
+			case 15:
+				return 21537, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage helms" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)", "Members: Battle-mage helm" + "<br>" + " (with 85 Magic and 85 Strength)"
+
+			case 16:
+				return 21539, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage robes" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)", "Members: Battle-mage robe" + "<br>" + " (with 85 Magic and 85 Strength)"
+
+			case 17:
+				return 21541, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage legs" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)", "Members: Battle-mage legs" + "<br>" + " (with 85 Magic and 85 Strength)"
+
+			case 18:
+				return 21543, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage gloves" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)", "Members: Battle-mage gloves" + "<br>" + " (with 85 Magic and 85 Strength)"
+
+			case 19:
+				return 21545, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Battle-mage boots" + "</col>" + ". (They also need level 85 Magic and level 85 Strength.)", "Members: Battle-mage boots" + "<br>" + " (with 85 Magic and 85 Strength)"
+
+			case 20:
+				return 21547, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster hoods" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)", "Members: Trickster hood" + "<br>" + " (with 85 Magic and 85 Ranged)"
+
+			case 21:
+				return 21549, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster robes" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)", "Members: Trickster robe" + "<br>" + " (with 85 Magic and 85 Ranged)"
+
+			case 22:
+				return 21551, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster legs" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)", "Members: Trickster legs" + "<br>" + " (with 85 Magic and 85 Ranged)"
+
+			case 23:
+				return 21553, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster gloves" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)", "Members: Trickster gloves" + "<br>" + " (with 85 Magic and 85 Ranged)"
+
+			case 24:
+				return 21555, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Trickster boots" + "</col>" + ". (They also need level 85 Magic and level 85 Ranged)", "Members: Trickster boots" + "<br>" + " (with 85 Magic and 85 Ranged)"
+
+			case 25:
+				return 21557, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard helms" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)", "Members: Vanguard helm" + "<br>" + " (with 85 Ranged and 85 Strength)"
+
+			case 26:
+				return 21559, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard body armour" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)", "Members: Vanguard body" + "<br>" + " (with 85 Ranged and 85 Strength)"
+
+			case 27:
+				return 21561, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard leg armour" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)", "Members: Vanguard legs" + "<br>" + " (with 85 Ranged and 85 Strength)"
+
+			case 28:
+				return 21563, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard gloves" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)", "Members: Vanguard gloves" + "<br>" + " (with 85 Ranged and 85 Strength)"
+
+			case 29:
+				return 21565, 85, "Members now have the Defence requirement to wear " + "<col=000080>" + "Vanguard boots" + "</col>" + ". (They also need level 85 Ranged and level 85 Strength.)", "Members: Vanguard boots" + "<br>" + " (with 85 Ranged and 85 Strength)"
+
+
+		}
+		break
+	case 13:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 16691, 1, "You can now wear " + "<col=000080>" + "novite full helms" + "</col>" + " within Daemonheim.", "Novite full helm (Tier 1)"
+
+			case 1:
+				return 17239, 1, "You can now wear " + "<col=000080>" + "novite platebodies" + "</col>" + " within Daemonheim.", "Novite platebody (Tier 1)"
+
+			case 2:
+				return 16713, 1, "You can now wear " + "<col=000080>" + "novite chainbodies" + "</col>" + " within Daemonheim.", "Novite chainbody (Tier 1)"
+
+			case 3:
+				return 16669, 1, "You can now wear " + "<col=000080>" + "novite platelegs" + "</col>" + " within Daemonheim.", "Novite platelegs (Tier 1)"
+
+			case 4:
+				return 16647, 1, "You can now wear " + "<col=000080>" + "novite plateskirts" + "</col>" + " within Daemonheim.", "Novite plateskirt (Tier 1)"
+
+			case 5:
+				return 16273, 1, "You can now wear " + "<col=000080>" + "novite gauntlets" + "</col>" + " within Daemonheim.", "Novite gauntlets (Tier 1)"
+
+			case 6:
+				return 16339, 1, "You can now wear " + "<col=000080>" + "novite boots" + "</col>" + " within Daemonheim.", "Novite boots (Tier 1)"
+
+			case 7:
+				return 17341, 1, "You can now wield " + "<col=000080>" + "novite kiteshields" + "</col>" + " within Daemonheim.", "Novite kiteshield (Tier 1)"
+
+			case 8:
+				return 16735, 1, "You can now wear " + "<col=000080>" + "salve hoods" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)", "Salve hood (Tier 1)" + "<br>" + " (with 1 Magic)"
+
+			case 9:
+				return 17217, 1, "You can now wear " + "<col=000080>" + "salve robe tops" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)", "Salve robe top (Tier 1)" + "<br>" + " (with 1 Magic)"
+
+			case 10:
+				return 16845, 1, "You can now wear " + "<col=000080>" + "salve robe bottoms" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)", "Salve robe bottom (Tier 1)" + "<br>" + " (with 1 Magic)"
+
+			case 11:
+				return 17151, 1, "You can now wear " + "<col=000080>" + "salve gloves" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)", "Salve gloves (Tier 1)" + "<br>" + " (with 1 Magic)"
+
+			case 12:
+				return 16911, 1, "You can now wear " + "<col=000080>" + "salve boots" + "</col>" + " within Daemonheim. (You also need level 1 Magic.)", "Salve boots (Tier 1)" + "<br>" + " ( with 1 Magic)"
+
+			case 13:
+				return 17041, 1, "You can now wear " + "<col=000080>" + "protoleather coifs" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)", "Protoleather coif (Tier 1)" + "<br>" + " (with 1 Ranged)"
+
+			case 14:
+				return 17173, 1, "You can now wear " + "<col=000080>" + "protoleather bodies" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)", "Protoleather body (Tier 1)" + "<br>" + " (with 1 Ranged)"
+
+			case 15:
+				return 17319, 1, "You can now wear " + "<col=000080>" + "protoleather chaps" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)", "Protoleather chaps (Tier 1)" + "<br>" + " (with 1 Ranged)"
+
+			case 16:
+				return 17195, 1, "You can now wear " + "<col=000080>" + "protoleather vambraces" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)", "Protoleather vambraces (Tier 1)" + "<br>" + " (with 1 Ranged)"
+
+			case 17:
+				return 17297, 1, "You can now wear " + "<col=000080>" + "protoleather boots" + "</col>" + " within Daemonheim. (You also need level 1 Ranged.)", "Protoleather boots (Tier 1)" + "<br>" + " (with 1 Ranged)"
+
+			case 18:
+				return 16693, 10, "You can now wear " + "<col=000080>" + "bathus full helms" + "</col>" + " within Daemonheim.", "Bathus full helm (Tier 2)"
+
+			case 19:
+				return 17241, 10, "You can now wear " + "<col=000080>" + "bathus platebodies" + "</col>" + " within Daemonheim.", "Bathus platebody (Tier 2)"
+
+			case 20:
+				return 16715, 10, "You can now wear " + "<col=000080>" + "bathus chainbodies" + "</col>" + " within Daemonheim.", "Bathus chainbody (Tier 2)"
+
+			case 21:
+				return 16671, 10, "You can now wear " + "<col=000080>" + "bathus platelegs" + "</col>" + " within Daemonheim.", "Bathus platelegs (Tier 2)"
+
+			case 22:
+				return 16649, 10, "You can now wear " + "<col=000080>" + "bathus plateskirts" + "</col>" + " within Daemonheim.", "Bathus plateskirt (Tier 2)"
+
+			case 23:
+				return 16275, 10, "You can now wear " + "<col=000080>" + "bathus gauntlets" + "</col>" + " within Daemonheim.", "Bathus gauntlets (Tier 2)"
+
+			case 24:
+				return 16341, 10, "You can now wear " + "<col=000080>" + "bathus boots" + "</col>" + " within Daemonheim.", "Bathus boots (Tier 2)"
+
+			case 25:
+				return 17343, 10, "You can now wield " + "<col=000080>" + "bathus kiteshields" + "</col>" + " within Daemonheim.", "Bathus kiteshield (Tier 2)"
+
+			case 26:
+				return 16737, 10, "You can now wear " + "<col=000080>" + "wildercress hoods" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)", "Wildercress hood (Tier 2)" + "<br>" + " (with 10 Magic)"
+
+			case 27:
+				return 17219, 10, "You can now wear " + "<col=000080>" + "wildercress robe tops" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)", "Wildercress robe top (Tier 2)" + "<br>" + " (with 10 Magic)"
+
+			case 28:
+				return 16847, 10, "You can now wear " + "<col=000080>" + "wildercress robe bottoms" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)", "Wildercress robe bottom (Tier 2)" + "<br>" + " (with 10 Magic)"
+
+			case 29:
+				return 17153, 10, "You can now wear " + "<col=000080>" + "wildercress gloves" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)", "Wildercress gloves (Tier 2)" + "<br>" + " (with 10 Magic)"
+
+			case 30:
+				return 16913, 10, "You can now wear " + "<col=000080>" + "wildercress boots" + "</col>" + " within Daemonheim. (You also need level 10 Magic.)", "Wildercress boots (Tier 2)" + "<br>" + " (with 10 Magic)"
+
+			case 31:
+				return 17043, 10, "You can now wear " + "<col=000080>" + "subleather coifs" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)", "Subleather coif (Tier 2)" + "<br>" + " (with 10 Ranged)"
+
+			case 32:
+				return 17175, 10, "You can now wear " + "<col=000080>" + "subleather bodies" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)", "Subleather body (Tier 2)" + "<br>" + " (with 10 Ranged)"
+
+			case 33:
+				return 17321, 10, "You can now wear " + "<col=000080>" + "subleather chaps" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)", "Subleather chaps (Tier 2)" + "<br>" + " (with 10 Ranged)"
+
+			case 34:
+				return 17197, 10, "You can now wear " + "<col=000080>" + "subleather vambraces" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)", "Subleather vambraces (Tier 2)" + "<br>" + " (with 10 Ranged)"
+
+			case 35:
+				return 17299, 10, "You can now wear " + "<col=000080>" + "subleather boots" + "</col>" + " within Daemonheim. (You also need level 10 Ranged.)", "Subleather boots (Tier 2)" + "<br>" + " (with 10 Ranged)"
+
+			case 36:
+				return 17261, 15, "Members can now wear " + "<col=000080>" + "silver precision bracelets" + "</col>" + " within Daemonheim.", "Members: Silver precision bracelet "
+
+			case 37:
+				return 16695, 20, "You can now wear " + "<col=000080>" + "marmaros full helms" + "</col>" + " within Daemonheim.", "Marmaros full helm (Tier 3)"
+
+			case 38:
+				return 17243, 20, "You can now wear " + "<col=000080>" + "marmaros platebodies" + "</col>" + " within Daemonheim.", "Marmaros platebody (Tier 3)"
+
+			case 39:
+				return 16717, 20, "You can now wear " + "<col=000080>" + "marmaros chainbodies" + "</col>" + " within Daemonheim.", "Marmaros chainbody (Tier 3)"
+
+			case 40:
+				return 16673, 20, "You can now wear " + "<col=000080>" + "marmaros platelegs" + "</col>" + " within Daemonheim.", "Marmaros platelegs (Tier 3)"
+
+			case 41:
+				return 16651, 20, "You can now wear " + "<col=000080>" + "marmaros plateskirts" + "</col>" + " within Daemonheim.", "Marmaros plateskirt (Tier 3)"
+
+			case 42:
+				return 16277, 20, "You can now wear " + "<col=000080>" + "marmaros gauntlets" + "</col>" + " within Daemonheim.", "Marmaros gauntlets (Tier 3)"
+
+			case 43:
+				return 16343, 20, "You can now wear " + "<col=000080>" + "marmaros boots" + "</col>" + " within Daemonheim.", "Marmaros boots (Tier 3)"
+
+			case 44:
+				return 17345, 20, "You can now wield " + "<col=000080>" + "marmaros kiteshields" + "</col>" + " within Daemonheim.", "Marmaros kiteshield (Tier 3)"
+
+			case 45:
+				return 16739, 20, "You can now wear " + "<col=000080>" + "blightleaf hoods" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)", "Blightleaf hood (Tier 3)" + "<br>" + " (with 20 Magic)"
+
+			case 46:
+				return 17221, 20, "You can now wear " + "<col=000080>" + "blightleaf robe tops" + "</col>" + " within Daemonheim. (You also need 20 Magic).", "Blightleaf robe top (Tier 3)" + "<br>" + " (with 20 Magic)"
+
+			case 47:
+				return 16849, 20, "You can now wear " + "<col=000080>" + "blightleaf robe bottoms" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)", "Blightleaf robe bottom (Tier 3)" + "<br>" + " (with 20 Magic)"
+
+			case 48:
+				return 17155, 20, "You can now wear " + "<col=000080>" + "blightleaf gloves" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)", "Blightleaf gloves (Tier 3)" + "<br>" + " (with 20 Magic)"
+
+			case 49:
+				return 16915, 20, "You can now wear " + "<col=000080>" + "blightleaf boots" + "</col>" + " within Daemonheim. (You also need level 20 Magic.)", "Blightleaf boots (Tier 3)" + "<br>" + " (with 20 Magic)"
+
+			case 50:
+				return 17045, 20, "You can now wear " + "<col=000080>" + "paraleather coifs" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)", "Paraleather coif (Tier 3)" + "<br>" + " (with 20 Ranged)"
+
+			case 51:
+				return 17177, 20, "You can now wear " + "<col=000080>" + "paraleather bodies" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)", "Paraleather body (Tier 3)" + "<br>" + " (with 20 Ranged)"
+
+			case 52:
+				return 17323, 20, "You can now wear " + "<col=000080>" + "paraleather chaps" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)", "Paraleather chaps (Tier 3)" + "<br>" + " (with 20 Ranged)"
+
+			case 53:
+				return 17199, 20, "You can now wear " + "<col=000080>" + "paraleather vambraces" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)", "Paraleather vambraces (Tier 3)" + "<br>" + " (with 20 Ranged)"
+
+			case 54:
+				return 17301, 20, "You can now wear " + "<col=000080>" + "paraleather boots" + "</col>" + " within Daemonheim. (You also need level 20 Ranged.)", "Paraleather boots (Tier 3)" + "<br>" + " (with 20 Ranged)"
+
+			case 55:
+				return 17265, 21, "Members can now wear " + "<col=000080>" + "sunstriker boots" + "</col>" + " within Daemonheim.", "Members: Sunstriker boots "
+
+			case 56:
+				return 17269, 28, "Members can now wear " + "<col=000080>" + "incantor's boots" + "</col>" + " within Daemonheim.", "Members: Incantor's boots "
+
+			case 57:
+				return 16697, 30, "You can now wear " + "<col=000080>" + "kratonite full helms" + "</col>" + " within Daemonheim.", "Kratonite full helm (Tier 4)"
+
+			case 58:
+				return 17245, 30, "You can now wear " + "<col=000080>" + "kratonite platebodies" + "</col>" + " within Daemonheim.", "Kratonite platebody (Tier 4)"
+
+			case 59:
+				return 16719, 30, "You can now wear " + "<col=000080>" + "kratonite chainbodies" + "</col>" + " within Daemonheim.", "Kratonite chainbody (Tier 4)"
+
+			case 60:
+				return 16675, 30, "You can now wear " + "<col=000080>" + "kratonite platelegs" + "</col>" + " within Daemonheim.", "Kratonite platelegs (Tier 4)"
+
+			case 61:
+				return 16653, 30, "You can now wear " + "<col=000080>" + "kratonite plateskirts" + "</col>" + " within Daemonheim.", "Kratonite plateskirt (Tier 4)"
+
+			case 62:
+				return 16279, 30, "You can now wear " + "<col=000080>" + "kratonite gauntlets" + "</col>" + " within Daemonheim.", "Kratonite gauntlets (Tier 4)"
+
+			case 63:
+				return 16345, 30, "You can now wear " + "<col=000080>" + "kratonite boots" + "</col>" + " within Daemonheim.", "Kratonite boots (Tier 4)"
+
+			case 64:
+				return 17347, 30, "You can now wield " + "<col=000080>" + "kratonite kiteshields" + "</col>" + " within Daemonheim.", "Kratonite kiteshield (Tier 4)"
+
+			case 65:
+				return 16741, 30, "You can now wear " + "<col=000080>" + "roseblood hoods" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)", "Roseblood hood (Tier 4)" + "<br>" + " (with 30 Magic)"
+
+			case 66:
+				return 17223, 30, "You can now wear " + "<col=000080>" + "roseblood robe tops" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)", "Roseblood robe top (Tier 4)" + "<br>" + " (with 30 Magic)"
+
+			case 67:
+				return 16851, 30, "You can now wear " + "<col=000080>" + "roseblood robe bottoms" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)", "Roseblood robe bottom (Tier 4)" + "<br>" + " (with 30 Magic)"
+
+			case 68:
+				return 17157, 30, "You can now wear " + "<col=000080>" + "roseblood gloves" + "</col>" + " within Daemonheim. (You also need 30 Magic).", "Roseblood gloves (Tier 4)" + "<br>" + " (with 30 Magic)"
+
+			case 69:
+				return 16917, 30, "You can now wear " + "<col=000080>" + "roseblood boots" + "</col>" + " within Daemonheim. (You also need level 30 Magic.)", "Roseblood boots (Tier 4)" + "<br>" + " (with 30 Magic)"
+
+			case 70:
+				return 17047, 30, "You can now wear " + "<col=000080>" + "archleather coifs" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)", "Archleather coif (Tier 4)" + "<br>" + " (with 30 Ranged)"
+
+			case 71:
+				return 17179, 30, "You can now wear " + "<col=000080>" + "archleather bodies" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)", "Archleather body (Tier 4)" + "<br>" + " (with 30 Ranged)"
+
+			case 72:
+				return 17325, 30, "You can now wear " + "<col=000080>" + "archleather chaps" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)", "Archleather chaps (Tier 4)" + "<br>" + " (with 30 Ranged)"
+
+			case 73:
+				return 17201, 30, "You can now wear " + "<col=000080>" + "archleather vambraces" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)", "Archleather vambraces (Tier 4)" + "<br>" + " (with 30 Ranged)"
+
+			case 74:
+				return 17303, 30, "You can now wear " + "<col=000080>" + "archleather boots" + "</col>" + " within Daemonheim. (You also need level 30 Ranged.)", "Archleather boots (Tier 4)" + "<br>" + " (with 30 Ranged)"
+
+			case 75:
+				return 17273, 33, "Members can now wield " + "<col=000080>" + "flameburst defenders" + "</col>" + " within Daemonheim. (They also need level 33 Magic.)", "Members: Flameburst defender" + "<br>" + " (with 33 Magic)"
+
+			case 76:
+				return 16699, 40, "You can now wear " + "<col=000080>" + "fractite full helms" + "</col>" + " within Daemonheim.", "Fractite full helm (Tier 5)"
+
+			case 77:
+				return 17247, 40, "You can now wear " + "<col=000080>" + "fractite platebodies" + "</col>" + " within Daemonheim.", "Fractite platebody (Tier 5)"
+
+			case 78:
+				return 16721, 40, "You can now wear " + "<col=000080>" + "fractite chainbodies" + "</col>" + " within Daemonheim.", "Fractite chainbody (Tier 5)"
+
+			case 79:
+				return 16677, 40, "You can now wear " + "<col=000080>" + "fractite platelegs" + "</col>" + " within Daemonheim.", "Fractite platelegs (Tier 5)"
+
+			case 80:
+				return 16655, 40, "You can now wear " + "<col=000080>" + "fractite plateskirts" + "</col>" + " within Daemonheim.", "Fractite plateskirt (Tier 5)"
+
+			case 81:
+				return 16281, 40, "You can now wear " + "<col=000080>" + "fractite gauntlets" + "</col>" + " within Daemonheim.", "Fractite gauntlets (Tier 5)"
+
+			case 82:
+				return 16347, 40, "You can now wear " + "<col=000080>" + "fractite boots" + "</col>" + " within Daemonheim.", "Fractite boots (Tier 5)"
+
+			case 83:
+				return 17349, 40, "You can now wield " + "<col=000080>" + "fractite kiteshields" + "</col>" + " within Daemonheim.", "Fractite kiteshield (Tier 5)"
+
+			case 84:
+				return 16743, 40, "You can now wear " + "<col=000080>" + "bryll hoods" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)", "Bryll hood (Tier 5)" + "<br>" + " (with 40 Magic)"
+
+			case 85:
+				return 17225, 40, "You can now wear " + "<col=000080>" + "bryll robe tops" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)", "Bryll robe top (Tier 5)" + "<br>" + " (with 40 Magic)"
+
+			case 86:
+				return 16853, 40, "You can now wear " + "<col=000080>" + "bryll robe bottoms" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)", "Bryll robe bottom (Tier 5)" + "<br>" + " (with 40 Magic)"
+
+			case 87:
+				return 17159, 40, "You can now wear " + "<col=000080>" + "bryll gloves" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)", "Bryll gloves (Tier 5)" + "<br>" + " (with 40 Magic)"
+
+			case 88:
+				return 16919, 40, "You can now wear " + "<col=000080>" + "bryll boots" + "</col>" + " within Daemonheim. (You also need level 40 Magic.)", "Bryll boots (Tier 5)" + "<br>" + " (with 40 Magic)"
+
+			case 89:
+				return 17049, 40, "You can now wear " + "<col=000080>" + "dromoleather coifs" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)", "Dromoleather coif (Tier 5)" + "<br>" + " (with 40 Ranged)"
+
+			case 90:
+				return 17181, 40, "You can now wear " + "<col=000080>" + "dromoleather bodies" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)", "Dromoleather body (Tier 5)" + "<br>" + " (with 40 Ranged)"
+
+			case 91:
+				return 17327, 40, "You can now wear " + "<col=000080>" + "dromoleather chaps" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)", "Dromoleather chaps (Tier 5)" + "<br>" + " (with 40 Ranged)"
+
+			case 92:
+				return 17203, 40, "You can now wear " + "<col=000080>" + "dromoleather vambraces" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)", "Dromoleather vambraces (Tier 5)" + "<br>" + " (with 40 Ranged)"
+
+			case 93:
+				return 17305, 40, "You can now wear " + "<col=000080>" + "dromoleather boots" + "</col>" + " within Daemonheim. (You also need level 40 Ranged.)", "Dromoleather boots (Tier 5)" + "<br>" + " (with 40 Ranged)"
+
+			case 94:
+				return 17263, 45, "Members can now wear " + "<col=000080>" + "golden precision bracelets" + "</col>" + " within Daemonheim.", "Members: Golden precision bracelet "
+
+			case 95:
+				return 17279, 45, "Members can now wear " + "<col=000080>" + "shadow silk hoods" + "</col>" + " within Daemonheim.", "Members: Shadow silk hood "
+
+			case 96:
+				return 17267, 48, "Members can now wear " + "<col=000080>" + "marksman boots" + "</col>" + " within Daemonheim.", "Members: Marksman boots "
+
+			case 97:
+				return 16701, 50, "Members can now wear " + "<col=000080>" + "zephyrium full helms" + "</col>" + " within Daemonheim.", "Members: Zephyrium full helm (Tier 6)"
+
+			case 98:
+				return 17249, 50, "Members can now wear " + "<col=000080>" + "zephyrium platebodies" + "</col>" + " within Daemonheim.", "Members: Zephyrium platebody (Tier 6)"
+
+			case 99:
+				return 16723, 50, "Members can now wear " + "<col=000080>" + "zephyrium chainbodies" + "</col>" + " within Daemonheim.", "Members: Zephyrium chainbody (Tier 6)"
+
+			case 100:
+				return 16679, 50, "Members can now wear " + "<col=000080>" + "zephyrium platelegs" + "</col>" + " within Daemonheim.", "Members: Zephyrium platelegs (Tier 6)"
+
+			case 101:
+				return 16657, 50, "Members can now wear " + "<col=000080>" + "zephyrium plateskirts" + "</col>" + " within Daemonheim.", "Members: Zephyrium plateskirt (Tier 6)"
+
+			case 102:
+				return 16283, 50, "Members can now wear " + "<col=000080>" + "zephyrium gauntlets" + "</col>" + " within Daemonheim.", "Members: Zephyrium gauntlets (Tier 6)"
+
+			case 103:
+				return 16349, 50, "Members can now wear " + "<col=000080>" + "zephyrium boots" + "</col>" + " within Daemonheim.", "Members: Zephyrium boots (Tier 6)"
+
+			case 104:
+				return 17351, 50, "Members can now wield " + "<col=000080>" + "zephyrium kiteshields" + "</col>" + " within Daemonheim.", "Members: Zephyrium kiteshield (Tier 6)"
+
+			case 105:
+				return 16745, 50, "Members can now wear " + "<col=000080>" + "duskweed hoods" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)", "Members: Duskweed hood (Tier 6)" + "<br>" + " (with 50 Magic)"
+
+			case 106:
+				return 17227, 50, "Members can now wear " + "<col=000080>" + "duskweed robe tops" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)", "Members: Duskweed robe top (Tier 6)" + "<br>" + " (with 50 Magic)"
+
+			case 107:
+				return 16855, 50, "Members can now wear " + "<col=000080>" + "duskweed robe bottoms" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)", "Members: Duskweed robe bottom (Tier 6)" + "<br>" + " (with 50 Magic)"
+
+			case 108:
+				return 17161, 50, "Members can now wear " + "<col=000080>" + "duskweed gloves" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)", "Members: Duskweed gloves (Tier 6)" + "<br>" + " (with 50 Magic)"
+
+			case 109:
+				return 16921, 50, "Members can now wear " + "<col=000080>" + "duskweed boots" + "</col>" + " within Daemonheim. (They also need level 50 Magic.)", "Members: Duskweed boots (Tier 6)" + "<br>" + " (with 50 Magic)"
+
+			case 110:
+				return 17051, 50, "Members can now wear " + "<col=000080>" + "spinoleather coifs" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)", "Members: Spinoleather coif (Tier 6)" + "<br>" + " (with 50 Ranged)"
+
+			case 111:
+				return 17183, 50, "Members can now wear " + "<col=000080>" + "spinoleather bodies" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)", "Members: Spinoleather body (Tier 6)" + "<br>" + " (with 50 Ranged)"
+
+			case 112:
+				return 17329, 50, "Members can now wear " + "<col=000080>" + "spinoleather chaps" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)", "Members: Spinoleather chaps (Tier 6)" + "<br>" + " (with 50 Ranged)"
+
+			case 113:
+				return 17205, 50, "Members can now wear " + "<col=000080>" + "spinoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)", "Members: Spinoleather vambraces (Tier 6)" + "<br>" + " (with 50 Ranged)"
+
+			case 114:
+				return 17307, 50, "Members can now wear " + "<col=000080>" + "spinoleather boots" + "</col>" + " within Daemonheim. (They also need level 50 Ranged.)", "Members: Spinoleather boots (Tier 6)" + "<br>" + " (with 50 Ranged)"
+
+			case 115:
+				return 17271, 54, "Members can now wear " + "<col=000080>" + "sorcerer's boots" + "</col>" + " within Daemonheim.", "Members: Sorcerer's boots "
+
+			case 116:
+				return 17281, 57, "Members can now wear " + "<col=000080>" + "absorption boots" + "</col>" + " within Daemonheim. (They also need level 57 Ranged.)", "Members: Absorption boots" + "<br>" + " (with 57 Ranged) "
+
+			case 117:
+				return 16703, 60, "Members can now wear " + "<col=000080>" + "argonite full helms" + "</col>" + " within Daemonheim.", "Members: Argonite full helm (Tier 7)"
+
+			case 118:
+				return 17251, 60, "Members can now wear " + "<col=000080>" + "argonite platebodies" + "</col>" + " within Daemonheim.", "Members: Argonite platebody (Tier 7)"
+
+			case 119:
+				return 16725, 60, "Members can now wear " + "<col=000080>" + "argonite chainbodies" + "</col>" + " within Daemonheim.", "Members: Argonite chainbody (Tier 7)"
+
+			case 120:
+				return 16681, 60, "Members can now wear " + "<col=000080>" + "argonite platelegs" + "</col>" + " within Daemonheim.", "Members: Argonite platelegs (Tier 7)"
+
+			case 121:
+				return 16659, 60, "Members can now wear " + "<col=000080>" + "argonite plateskirts" + "</col>" + " within Daemonheim.", "Members: Argonite plateskirt (Tier 7)"
+
+			case 122:
+				return 16285, 60, "Members can now wear " + "<col=000080>" + "argonite gauntlets" + "</col>" + " within Daemonheim.", "Members: Argonite gauntlets (Tier 7)"
+
+			case 123:
+				return 16351, 60, "Members can now wear " + "<col=000080>" + "argonite boots" + "</col>" + " within Daemonheim.", "Members: Argonite boots (Tier 7)"
+
+			case 124:
+				return 17353, 60, "Members can now wield " + "<col=000080>" + "argonite kiteshields" + "</col>" + " within Daemonheim.", "Members: Argonite kiteshield (Tier 7)"
+
+			case 125:
+				return 16747, 60, "Members can now wear " + "<col=000080>" + "soulbell hoods" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)", "Members: Soulbell hood (Tier 7)" + "<br>" + " (with 60 Magic)"
+
+			case 126:
+				return 17229, 60, "Members can now wear " + "<col=000080>" + "soulbell robe tops" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)", "Members: Soulbell robe top (Tier 7)" + "<br>" + " (with 60 Magic)"
+
+			case 127:
+				return 16857, 60, "Members can now wear " + "<col=000080>" + "soulbell robe bottoms" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)", "Members: Soulbell robe bottom (Tier 7)" + "<br>" + " (with 60 Magic)"
+
+			case 128:
+				return 17163, 60, "Members can now wear " + "<col=000080>" + "soulbell gloves" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)", "Members: Soulbell gloves (Tier 7)" + "<br>" + " with 60 Magic)"
+
+			case 129:
+				return 16923, 60, "Members can now wear " + "<col=000080>" + "soulbell boots" + "</col>" + " within Daemonheim. (They also need level 60 Magic.)", "Members: Soulbell boots (Tier 7)" + "<br>" + " (with 60 Magic)"
+
+			case 130:
+				return 17053, 60, "Members can now wear " + "<col=000080>" + "gallileather coifs" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)", "Members: Gallileather coif (Tier 7)" + "<br>" + " (with 60 Ranged)"
+
+			case 131:
+				return 17185, 60, "Members can now wear " + "<col=000080>" + "gallileather bodies" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)", "Members: Gallileather body (Tier 7)" + "<br>" + " (with 60 Ranged)"
+
+			case 132:
+				return 17331, 60, "Members can now wear " + "<col=000080>" + "gallileather chaps" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)", "Members: Gallileather chaps (Tier 7)" + "<br>" + " (with 60 Ranged)"
+
+			case 133:
+				return 17207, 60, "Members can now wear " + "<col=000080>" + "gallileather vambraces" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)", "Members: Gallileather vambraces (Tier 7)" + "<br>" + " (with 60 Ranged)"
+
+			case 134:
+				return 17309, 60, "Members can now wear " + "<col=000080>" + "gallileather boots" + "</col>" + " within Daemonheim. (They also need level 60 Ranged.)", "Members: Gallileather boots (Tier 7)" + "<br>" + " (with 60 Ranged)"
+
+			case 135:
+				return 17285, 65, "Members can now wield " + "<col=000080>" + "protector's wards" + "</col>" + " within Daemonheim.", "Members: Protector's ward"
+
+			case 136:
+				return 16705, 70, "Members can now wear " + "<col=000080>" + "katagon full helms" + "</col>" + " within Daemonheim.", "Members: Katagon full helm (Tier 8)"
+
+			case 137:
+				return 17253, 70, "Members can now wear " + "<col=000080>" + "katagon platebodies" + "</col>" + " within Daemonheim.", "Members: Katagon platebody (Tier 8)"
+
+			case 138:
+				return 16727, 70, "Members can now wear " + "<col=000080>" + "katagon chainbodies" + "</col>" + " within Daemonheim.", "Members: Katagon chainbody (Tier 8)"
+
+			case 139:
+				return 16683, 70, "Members can now wear " + "<col=000080>" + "katagon platelegs" + "</col>" + " within Daemonheim.", "Members: Katagon platelegs (Tier 8)"
+
+			case 140:
+				return 16661, 70, "Members can now wear " + "<col=000080>" + "katagon plateskirts" + "</col>" + " within Daemonheim.", "Members: Katagon plateskirt (Tier 8)"
+
+			case 141:
+				return 16287, 70, "Members can now wear " + "<col=000080>" + "katagon gauntlets" + "</col>" + " within Daemonheim.", "Members: Katagon gauntlets (Tier 8)"
+
+			case 142:
+				return 16353, 70, "Members can now wear " + "<col=000080>" + "katagon boots" + "</col>" + " within Daemonheim.", "Members: Katagon boots (Tier 8)"
+
+			case 143:
+				return 17355, 70, "Members can now wield " + "<col=000080>" + "katagon kiteshields" + "</col>" + " within Daemonheim.", "Members: Katagon kiteshield (Tier 8)"
+
+			case 144:
+				return 16749, 70, "Members can now wear " + "<col=000080>" + "ectohoods" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)", "Members: Ectohood (Tier 8)" + "<br>" + " (with 70 Magic)"
+
+			case 145:
+				return 17231, 70, "Members can now wear " + "<col=000080>" + "ectorobe tops" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)", "Members: Ectorobe top (Tier 8)" + "<br>" + " (with 70 Magic)"
+
+			case 146:
+				return 16859, 70, "Members can now wear " + "<col=000080>" + "ectorobe bottoms" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)", "Members: Ectorobe bottom (Tier 8)" + "<br>" + " (with 70 Magic)"
+
+			case 147:
+				return 17165, 70, "Members can now wear " + "<col=000080>" + "ectogloves" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)", "Members: Ectogloves (Tier 8)" + "<br>" + " (with 70 Magic)"
+
+			case 148:
+				return 16925, 70, "Members can now wear " + "<col=000080>" + "ectoboots" + "</col>" + " within Daemonheim. (They also need level 70 Magic.)", "Members: Ectoboots (Tier 8)" + "<br>" + " (with 70 Magic)"
+
+			case 149:
+				return 17055, 70, "Members can now wear " + "<col=000080>" + "stegoleather coifs" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)", "Members: Stegoleather coif (Tier 8)" + "<br>" + " (with 70 Ranged)"
+
+			case 150:
+				return 17187, 70, "Members can now wear " + "<col=000080>" + "stegoleather bodies" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)", "Members: Stegoleather body (Tier 8)" + "<br>" + " (with 70 Ranged)"
+
+			case 151:
+				return 17333, 70, "Members can now wear " + "<col=000080>" + "stegoleather chaps" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)", "Members: Stegoleather chaps (Tier 8)" + "<br>" + " (with 70 Ranged)"
+
+			case 152:
+				return 17209, 70, "Members can now wear " + "<col=000080>" + "stegoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)", "Members: Stegoleather vambraces (Tier 8)" + "<br>" + " (with 70 Ranged)"
+
+			case 153:
+				return 17311, 70, "Members can now wear " + "<col=000080>" + "stegoleather boots" + "</col>" + " within Daemonheim. (They also need level 70 Ranged.)", "Members: Stegoleather boots (Tier 8)" + "<br>" + " (with 70 Ranged)"
+
+			case 154:
+				return 16707, 80, "Members can now wear " + "<col=000080>" + "gorgonite full helms" + "</col>" + " within Daemonheim.", "Members: Gorgonite full helm (Tier 9)"
+
+			case 155:
+				return 17255, 80, "Members can now wear " + "<col=000080>" + "gorgonite platebodies" + "</col>" + " within Daemonheim.", "Members: Gorgonite platebody (Tier 9)"
+
+			case 156:
+				return 16729, 80, "Members can now wear " + "<col=000080>" + "gorgonite chainbodies" + "</col>" + " within Daemonheim.", "Members: Gorgonite chainbody (Tier 9)"
+
+			case 157:
+				return 16685, 80, "Members can now wear " + "<col=000080>" + "gorgonite platelegs" + "</col>" + " within Daemonheim.", "Members: Gorgonite platelegs (Tier 9)"
+
+			case 158:
+				return 16663, 80, "Members can now wear " + "<col=000080>" + "gorgonite plateskirts" + "</col>" + " within Daemonheim.", "Members: Gorgonite plateskirt (Tier 9)"
+
+			case 159:
+				return 16289, 80, "Members can now wear " + "<col=000080>" + "gorgonite gauntlets" + "</col>" + " within Daemonheim.", "Members: Gorgonite gauntlets (Tier 9)"
+
+			case 160:
+				return 16355, 80, "Members can now wear " + "<col=000080>" + "gorgonite boots" + "</col>" + " within Daemonheim.", "Members: Gorgonite boots (Tier 9)"
+
+			case 161:
+				return 17357, 80, "Members can now wield " + "<col=000080>" + "gorgonite kiteshields" + "</col>" + " within Daemonheim.", "Members: Gorgonite kiteshield (Tier 9)"
+
+			case 162:
+				return 16751, 80, "Members can now wear " + "<col=000080>" + "runic hoods" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)", "Members: Runic hood (Tier 9)" + "<br>" + " (with 80 Magic)"
+
+			case 163:
+				return 17233, 80, "Members can now wear " + "<col=000080>" + "runic robe tops" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)", "Members: Runic robe top (Tier 9)" + "<br>" + " (with 80 Magic)"
+
+			case 164:
+				return 16861, 80, "Members can now wear " + "<col=000080>" + "runic robe bottoms" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)", "Members: Runic robe bottom (Tier 9)" + "<br>" + " (with 80 Magic)"
+
+			case 165:
+				return 17167, 80, "Members can now wear " + "<col=000080>" + "runic gloves" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)", "Members: Runic gloves (Tier 9)" + "<br>" + " (with 80 Magic)"
+
+			case 166:
+				return 16927, 80, "Members can now wear " + "<col=000080>" + "runic boots" + "</col>" + " within Daemonheim. (They also need level 80 Magic.)", "Members: Runic boots (Tier 9)" + "<br>" + " (with 80 Magic)"
+
+			case 167:
+				return 17057, 80, "Members can now wear " + "<col=000080>" + "megaleather coifs" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)", "Members: Megaleather coif (Tier 9)" + "<br>" + " (with 80 Ranged)"
+
+			case 168:
+				return 17189, 80, "Members can now wear " + "<col=000080>" + "megaleather bodies" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)", "Members: Megaleather body (Tier 9)" + "<br>" + " (with 80 Ranged)"
+
+			case 169:
+				return 17335, 80, "Members can now wear " + "<col=000080>" + "megaleather chaps" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)", "Members: Megaleather chaps (Tier 9)" + "<br>" + " (with 80 Ranged)"
+
+			case 170:
+				return 17211, 80, "Members can now wear " + "<col=000080>" + "megaleather vambraces" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)", "Members: Megaleather vambraces (Tier 9)" + "<br>" + " (with 80 Ranged)"
+
+			case 171:
+				return 17313, 80, "Members can now wear " + "<col=000080>" + "megaleather boots" + "</col>" + " within Daemonheim. (They also need level 80 Ranged.)", "Members: Megaleather boots (Tier 9)" + "<br>" + " (with 80 Ranged)"
+
+			case 172:
+				return 17283, 83, "Members can now wear " + "<col=000080>" + "grounding boots" + "</col>" + " within Daemonheim. (They also need level 83 Ranged.)", "Members: Grounding boots" + "<br>" + " (with 83 Ranged) "
+
+			case 173:
+				return 16709, 90, "Members can now wear " + "<col=000080>" + "promethium full helms" + "</col>" + " within Daemonheim.", "Members: Promethium full helm (Tier 10)"
+
+			case 174:
+				return 17257, 90, "Members can now wear " + "<col=000080>" + "promethium platebodies" + "</col>" + " within Daemonheim.", "Members: Promethium platebody (Tier 10)"
+
+			case 175:
+				return 16731, 90, "Members can now wear " + "<col=000080>" + "promethium chainbodies" + "</col>" + " within Daemonheim.", "Members: Promethium chainbody (Tier 10)"
+
+			case 176:
+				return 16687, 90, "Members can now wear " + "<col=000080>" + "promethium platelegs" + "</col>" + " within Daemonheim.", "Members: Promethium platelegs (Tier 10)"
+
+			case 177:
+				return 16665, 90, "Members can now wear " + "<col=000080>" + "promethium plateskirts" + "</col>" + " within Daemonheim.", "Members: Promethium plateskirt (Tier 10)"
+
+			case 178:
+				return 16291, 90, "Members can now wear " + "<col=000080>" + "promethium gauntlets" + "</col>" + " within Daemonheim.", "Members: Promethium gauntlets (Tier 10)"
+
+			case 179:
+				return 16357, 90, "Members can now wear " + "<col=000080>" + "promethium boots" + "</col>" + " within Daemonheim.", "Members: Promethium boots (Tier 10)"
+
+			case 180:
+				return 17359, 90, "Members can now wield " + "<col=000080>" + "promethium kiteshields" + "</col>" + " within Daemonheim.", "Members: Promethium kiteshield (Tier 10)"
+
+			case 181:
+				return 16753, 90, "Members can now wear " + "<col=000080>" + "spiritbloom hoods" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)", "Members: Spiritbloom hood (Tier 10)" + "<br>" + " (with 90 Magic)"
+
+			case 182:
+				return 17235, 90, "Members can now wear " + "<col=000080>" + "spiritbloom robe tops" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)", "Members: Spiritbloom robe top (Tier 10)" + "<br>" + " (with 90 Magic)"
+
+			case 183:
+				return 16863, 90, "Members can now wear " + "<col=000080>" + "spiritbloom robe bottoms" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)", "Members: Spiritbloom robe bottom (Tier 10)" + "<br>" + " (with 90 Magic)"
+
+			case 184:
+				return 17169, 90, "Members can now wear " + "<col=000080>" + "spiritbloom gloves" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)", "Members: Spiritbloom gloves (Tier 10)" + "<br>" + " (with 90 Magic)"
+
+			case 185:
+				return 16929, 90, "Members can now wear " + "<col=000080>" + "spiritbloom boots" + "</col>" + " within Daemonheim. (They also need level 90 Magic.)", "Members: Spiritbloom boots (Tier 10)" + "<br>" + " (with 90 Magic)"
+
+			case 186:
+				return 17059, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather coifs" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)", "Members: Tyrannoleather coif (Tier 10)" + "<br>" + " (with 90 Ranged)"
+
+			case 187:
+				return 17191, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather bodies" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)", "Members: Tyrannoleather body (Tier 10)" + "<br>" + " (with 90 Ranged)"
+
+			case 188:
+				return 17337, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather chaps" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)", "Members: Tyrannoleather chaps (Tier 10)" + "<br>" + " (with 90 Ranged)"
+
+			case 189:
+				return 17213, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)", "Members: Tyrannoleather vambraces (Tier 10)" + "<br>" + " (with 90 Ranged)"
+
+			case 190:
+				return 17315, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather boots" + "</col>" + " within Daemonheim. (They also need level 90 Ranged.)", "Members: Tyrannoleather boots (Tier 10)" + "<br>" + " (with 90 Ranged)"
+
+			case 191:
+				return 17287, 94, "Members can now wield " + "<col=000080>" + "guardian's wards" + "</col>" + " within Daemonheim.", "Members: Guardian's ward "
+
+			case 192:
+				return 16711, 99, "Members can now wear " + "<col=000080>" + "primal full helms" + "</col>" + " within Daemonheim.", "Members: Primal full helm (Tier 11)"
+
+			case 193:
+				return 17259, 99, "Members can now wear " + "<col=000080>" + "primal platebodies" + "</col>" + " within Daemonheim.", "Members: Primal platebody (Tier 11)"
+
+			case 194:
+				return 16733, 99, "Members can now wear " + "<col=000080>" + "primal chainbodies" + "</col>" + " within Daemonheim.", "Members: Primal chainbody (Tier 11)"
+
+			case 195:
+				return 16689, 99, "Members can now wear " + "<col=000080>" + "primal platelegs" + "</col>" + " within Daemonheim.", "Members: Primal platelegs (Tier 11)"
+
+			case 196:
+				return 16667, 99, "Members can now wear " + "<col=000080>" + "primal plateskirts" + "</col>" + " within Daemonheim.", "Members: Primal plateskirt (Tier 11)"
+
+			case 197:
+				return 16293, 99, "Members can now wear " + "<col=000080>" + "primal gauntlets" + "</col>" + " within Daemonheim.", "Members: Primal gauntlets (Tier 11)"
+
+			case 198:
+				return 16359, 99, "Members can now wear " + "<col=000080>" + "primal boots" + "</col>" + " within Daemonheim.", "Members: Primal boots (Tier 11)"
+
+			case 199:
+				return 17361, 99, "Members can now wield " + "<col=000080>" + "primal kiteshields" + "</col>" + " within Daemonheim.", "Members: Primal kiteshield (Tier 11)"
+
+			case 200:
+				return 16755, 99, "Members can now wear " + "<col=000080>" + "celestial hoods" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)", "Members: Celestial hood (Tier 11)" + "<br>" + " (with 99 Magic)"
+
+			case 201:
+				return 17237, 99, "Members can now wear " + "<col=000080>" + "celestial robe tops" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)", "Members: Celestial robe top (Tier 11)" + "<br>" + " (with 99 Magic)"
+
+			case 202:
+				return 16865, 99, "Members can now wear " + "<col=000080>" + "celestial robe bottoms" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)", "Members: Celestial robe bottom (Tier 11)" + "<br>" + " (with 99 Magic)"
+
+			case 203:
+				return 17171, 99, "Members can now wear " + "<col=000080>" + "celestial gloves" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)", "Members: Celestial gloves (Tier 11)" + "<br>" + " (with 99 Magic)"
+
+			case 204:
+				return 16931, 99, "Members can now wear " + "<col=000080>" + "celestial boots" + "</col>" + " within Daemonheim. (They also need level 99 Magic.)", "Members: Celestial boots (Tier 11)" + "<br>" + " (with 99 Magic)"
+
+			case 205:
+				return 17061, 99, "Members can now wear " + "<col=000080>" + "sagittarian coifs" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)", "Members: Sagittarian coif (Tier 11)" + "<br>" + " (with 99 Ranged)"
+
+			case 206:
+				return 17193, 99, "Members can now wear " + "<col=000080>" + "sagittarian bodies" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)", "Members: Sagittarian body (Tier 11)" + "<br>" + " (with 99 Ranged)"
+
+			case 207:
+				return 17339, 99, "Members can now wear " + "<col=000080>" + "sagittarian chaps" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)", "Members: Sagittarian chaps (Tier 11)" + "<br>" + " (with 99 Ranged)"
+
+			case 208:
+				return 17215, 99, "Members can now wear " + "<col=000080>" + "sagittarian vambraces" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)", "Members: Sagittarian vambraces (Tier 11)" + "<br>" + " (with 99 Ranged)"
+
+			case 209:
+				return 17317, 99, "Members can now wear " + "<col=000080>" + "sagittarian boots" + "</col>" + " within Daemonheim. (They also need level 99 Ranged.)", "Members: Sagittarian boots (Tier 11)" + "<br>" + " (with 99 Ranged)"
+
+
+		}
+		break
+	case 14:
+		if(arg1 == 0)
+			return 9753, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Defence" + "<col=000080>" + ". Members can visit the " + "<col=800000>" + "Melee Instructor" + "<col=000080>" + " in " + "<col=800000>" + "Lumbridge" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Defence" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+
+}
+return -1, 0, "", ""

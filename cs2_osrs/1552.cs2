@@ -1,0 +1,9 @@
+void script_1552(string string0) {
+	if (clanGetChatCount() > 0 && clanmethod3618() >= clanmethod3616()) {
+		playSoundEffect(2266, 1, 0);
+		script_215(string0);
+	} else {
+		msg("You don't have permission to do that.");
+	}
+	return;
+}

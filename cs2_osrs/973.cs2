@@ -1,0 +1,18 @@
+void script_973(Widget widget0, int arg1, int arg2) {
+	if (VARP[211] == arg2) {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setTrans(175);
+		}
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+	} else {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setTrans(255);
+		}
+		widget0.hookMouseHover(&script_244(CTX_WIDGET, arg1, 200, null));
+		widget0.hookMouseExit(&script_244(CTX_WIDGET, arg1, 255, null));
+		widget0.hookOptionClick(&script_972(CTX_MENU_OPTION, widget0, arg1, arg2));
+	}
+	return;
+}

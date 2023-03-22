@@ -1,0 +1,24 @@
+//script134(134)()(void)
+if(playermodlevel() == 5 || playermodlevel() == 6) {
+	if_settext(if_gethash(594, 83), "Suggest to mute this player for 48 hours")
+	if_settext(if_gethash(594, 10), "Suggest to mute this player for 48 hours")
+	if_settext(if_gethash(594, 60), "Suggest to mute this player for 48 hours")
+} else  {
+	if_settext(if_gethash(594, 83), "Mute this player for 48 hours")
+	if_settext(if_gethash(594, 10), "Mute this player for 48 hours")
+	if_settext(if_gethash(594, 60), "Mute this player for 48 hours")
+}
+if(load_varc(6) == 1)
+	store_varc(6, 0)
+else
+	store_varc(6, 1)
+if(load_varc(6) == 0) {
+	if_setgraphic(if_gethash(594, 82), 1768)
+	if_setgraphic(if_gethash(594, 9), 1768)
+	if_setgraphic(if_gethash(594, 59), 1768)
+} else  {
+	if_setgraphic(if_gethash(594, 82), 1770)
+	if_setgraphic(if_gethash(594, 9), 1770)
+	if_setgraphic(if_gethash(594, 59), 1770)
+}
+return

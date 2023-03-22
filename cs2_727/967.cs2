@@ -1,0 +1,14 @@
+//script967(967)(int arg0, int arg1)(int)
+if(arg1 > arg0) {
+	if(arg1 - arg0 <= 1024)
+		return min(arg1, arg0 + 6)
+	if(arg0 >= 6)
+		return arg0 - 6
+	return max(arg1, script_686(arg0 - 6, 2048))
+}
+if(arg0 - arg1 <= 1024)
+	return max(arg1, arg0 - 6)
+if(arg0 < 2048 - 6)
+	return arg0 + 6
+return min(arg1, modulo(2048, arg0 + 6))
+return 0

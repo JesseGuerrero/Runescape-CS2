@@ -1,0 +1,957 @@
+//script1010(1010)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 841, 1, "You can now use " + "<col=000080>" + "standard bows" + "</col>" + ".", "Standard bow" + "<br>" + " Ammo: Arrows up to iron"
+
+			case 1:
+				return 843, 5, "You can now use " + "<col=000080>" + "oak bows" + "</col>" + ".", "Oak bow" + "<br>" + " Ammo: Arrows up to steel"
+
+			case 2:
+				return 849, 20, "You can now use " + "<col=000080>" + "willow bows" + "</col>" + ".", "Willow bow" + "<br>" + " Ammo: Arrows up to mithril"
+
+			case 3:
+				return 853, 30, "You can now use " + "<col=000080>" + "maple bows" + "</col>" + ".", "Maple bow" + "<br>" + " Ammo: Arrows up to adamant"
+
+			case 4:
+				return 2883, 30, "Members now have the Ranged level to use " + "<col=000080>" + "ogre bows" + "</col>" + " (after Big Chompy Bird Hunting).", "Members: Ogre bow (after Big Chompy Bird Hunting)" + "<br>" + " Ammo: Ogre arrows"
+
+			case 5:
+				return 4827, 30, "Members now have the Ranged level to use " + "<col=000080>" + "ogre composite bows" + "</col>" + " (after Zogre Flesh Eaters).", "Members: Ogre composite bow (after Zogre Flesh Eaters)" + "<br>" + " Ammo: 'Brutal' arrows up to rune"
+
+			case 6:
+				return 857, 40, "Members can now use " + "<col=000080>" + "yew bows" + "</col>" + ".", "Members: Yew bow" + "<br>" + " Ammo: Arrows up to rune"
+
+			case 7:
+				return 14121, 40, "Members can now wield " + "<col=000080>" + "sacred clay bows" + "</col>" + ".", "Members: Sacred clay bow" + "<br>" + " Ammo: Arrows up to rune"
+
+			case 8:
+				return 18331, 45, "You can now use " + "<col=000080>" + "maple longbows (focused)" + "</col>" + ". (You also need level 45 Dungeoneering.)", "Maple longbow (focused)" + "<br>" + " Ammo: Arrows up to rune" + "<br>" + " (with 45 Dungeoneering)"
+
+			case 9:
+				return 18373, 45, "You can now wield " + "<col=000080>" + "gravite shortbows" + "</col>" + ". (You also need level 45 Dungeoneering.)", "Gravite shortbow" + "<br>" + " Ammo: Arrows up to rune" + "<br>" + " (with 45 Dungeoneering)"
+
+			case 10:
+				return 861, 50, "Members can now use " + "<col=000080>" + "magic bows" + "</col>" + ".", "Members: Magic bow" + "<br>" + " Ammo: Arrows up to rune"
+
+			case 11:
+				return 6724, 50, "Members can now use the " + "<col=000080>" + "Seercull" + "</col>" + ".", "Members: Seercull" + "<br>" + " Ammo: Arrows up to rune"
+
+			case 12:
+				return 18332, 55, "Members can now use " + "<col=000080>" + "magic longbows (focused)" + "</col>" + ". (They also need level 45 Dungeoneering.)", "Members: Magic longbow (focused)" + "<br>" + " Ammo: Arrows up to rune" + "<br>" + " (with 45 Dungeoneering)"
+
+			case 13:
+				return 19143, 55, "Members can now wield " + "<col=000080>" + "Saradomin bows" + "</col>" + ".", "Members: Saradomin bow" + "<br>" + " Ammo: Arrows up to rune"
+
+			case 14:
+				return 19146, 55, "Members can now wield " + "<col=000080>" + "Guthix bows" + "</col>" + ".", "Members: Guthix bow" + "<br>" + " Ammo: Arrows up to rune"
+
+			case 15:
+				return 19149, 55, "Members can now wield " + "<col=000080>" + "Zamorak bows" + "</col>" + ".", "Members: Zamorak bow" + "<br>" + " Ammo: Arrows up to rune"
+
+			case 16:
+				return 11235, 60, "Members can now use " + "<col=000080>" + "dark bows" + "</col>" + ".", "Members: Dark bow" + "<br>" + " Ammo: Arrows up to dragon"
+
+			case 17:
+				return 4212, 70, "Members now have the Ranged level to use " + "<col=000080>" + "crystal bows" + "</col>" + " (after Roving Elves, with level 50 Agility).", "Members: Crystal bow (after Roving Elves and with 50 Agility)" + "<br>" + " Ammo: None"
+
+			case 18:
+				return 20171, 80, "Members now have the Ranged level to use " + "<col=000080>" + "Zaryte bows" + "</col>" + ".", "Members: Zaryte bow" + "<br>" + " Ammo: None"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 806, 1, "Members can now throw " + "<col=000080>" + "bronze darts" + "</col>" + ".", "Members: Bronze dart"
+
+			case 1:
+				return 825, 1, "Members can now throw " + "<col=000080>" + "bronze javelins" + "</col>" + ".", "Members: Bronze javelin"
+
+			case 2:
+				return 800, 1, "Members can now throw " + "<col=000080>" + "bronze throwing axes" + "</col>" + ".", "Members: Bronze throwing axe"
+
+			case 3:
+				return 864, 1, "Members can now throw " + "<col=000080>" + "bronze throwing knives" + "</col>" + ".", "Members: Bronze throwing knife"
+
+			case 4:
+				return 807, 1, "Members can now throw " + "<col=000080>" + "iron darts" + "</col>" + ".", "Members: Iron dart"
+
+			case 5:
+				return 826, 1, "Members can now throw " + "<col=000080>" + "iron javelins" + "</col>" + ".", "Members: Iron javelin"
+
+			case 6:
+				return 801, 1, "Members can now throw " + "<col=000080>" + "iron throwing axes" + "</col>" + ".", "Members: Iron throwing axe"
+
+			case 7:
+				return 863, 1, "Members can now throw " + "<col=000080>" + "iron throwing knives" + "</col>" + ".", "Members: Iron throwing knife"
+
+			case 8:
+				return 808, 5, "Members can now throw " + "<col=000080>" + "steel darts" + "</col>" + ".", "Members: Steel dart"
+
+			case 9:
+				return 827, 5, "Members can now throw " + "<col=000080>" + "steel javelins" + "</col>" + ".", "Members: Steel javelin"
+
+			case 10:
+				return 802, 5, "Members can now throw " + "<col=000080>" + "steel throwing axes" + "</col>" + ".", "Members: Steel throwing axe"
+
+			case 11:
+				return 865, 5, "Members can now throw " + "<col=000080>" + "steel throwing knives" + "</col>" + ".", "Members: Steel throwing knife"
+
+			case 12:
+				return 3093, 10, "Members can now throw " + "<col=000080>" + "black darts" + "</col>" + ".", "Members: Black dart"
+
+			case 13:
+				return 869, 10, "Members can now throw " + "<col=000080>" + "black throwing knives" + "</col>" + ".", "Members: Black throwing knife"
+
+			case 14:
+				return 809, 20, "Members can now throw " + "<col=000080>" + "mithril darts" + "</col>" + ".", "Members: Mithril dart"
+
+			case 15:
+				return 828, 20, "Members can now throw " + "<col=000080>" + "mithril javelins" + "</col>" + ".", "Members: Mithril javelin"
+
+			case 16:
+				return 803, 20, "Members can now throw " + "<col=000080>" + "mithril throwing axes" + "</col>" + ".", "Members: Mithril throwing axe"
+
+			case 17:
+				return 866, 20, "Members can now throw " + "<col=000080>" + "mithril throwing knives" + "</col>" + ".", "Members: Mithril throwing knife"
+
+			case 18:
+				return 13953, 20, "Members can now throw " + "<col=000080>" + "corrupt Morrigan's javelin" + "</col>" + ".", "Members: Corrupt Morrigan's javelin"
+
+			case 19:
+				return 13957, 20, "Members can now throw " + "<col=000080>" + "corrupt Morrigan's throwing axe" + "</col>" + ".", "Members: Corrupt Morrigan's throwing axe"
+
+			case 20:
+				return 810, 30, "Members can now throw " + "<col=000080>" + "adamant darts.", "Members: Adamant dart"
+
+			case 21:
+				return 829, 30, "Members can now throw " + "<col=000080>" + "adamant javelins" + "</col>" + ".", "Members: Adamant javelin"
+
+			case 22:
+				return 804, 30, "Members can now throw " + "<col=000080>" + "adamant throwing axes" + "</col>" + ".", "Members: Adamant throwing axe"
+
+			case 23:
+				return 867, 30, "Members can now throw " + "<col=000080>" + "adamant throwing knives" + "</col>" + ".", "Members: Adamant throwing knife"
+
+			case 24:
+				return 811, 40, "Members can now throw " + "<col=000080>" + "rune darts" + "</col>" + ".", "Members: Rune dart"
+
+			case 25:
+				return 830, 40, "Members can now throw " + "<col=000080>" + "rune javelins" + "</col>" + ".", "Members: Rune javelin"
+
+			case 26:
+				return 805, 40, "Members can now throw " + "<col=000080>" + "rune throwing axes" + "</col>" + ".", "Members: Rune throwing axe"
+
+			case 27:
+				return 868, 40, "Members can now throw " + "<col=000080>" + "rune throwing knives" + "</col>" + ".", "Members: Rune throwing knife"
+
+			case 28:
+				return 10033, 45, "Members can now throw " + "<col=000080>" + "chinchompas" + "</col>" + ".", "Members: Chinchompa"
+
+			case 29:
+				return 10034, 55, "Members can now throw " + "<col=000080>" + "red chinchompas" + "</col>" + ".", "Members: Red chinchompa"
+
+			case 30:
+				return 11230, 60, "Members can now throw " + "<col=000080>" + "dragon darts" + "</col>" + ".", "Members: Dragon dart"
+
+			case 31:
+				return 6522, 60, "Members can now throw " + "<col=000080>" + "Toktz-Xil-Ul" + "</col>" + ".", "Members: Toktz-Xil-Ul"
+
+			case 32:
+				return 21581, 70, "Members can now throw " + "<col=000080>" + "blisterwood stakes" + "</col>" + " (after The Branches of Darkmeyer).", "Members: Blisterwood stake (after The Branches of Darkmeyer)"
+
+			case 33:
+				return 21364, 72, "Members can now throw " + "<col=000080>" + "sagaies" + "</col>" + ".", "Members: Sagaie"
+
+			case 34:
+				return 21365, 76, "Members can now throw " + "<col=000080>" + "bolas" + "</col>" + ".", "Members: Bolas"
+
+			case 35:
+				return 13879, 78, "Members can now throw " + "<col=000080>" + "Morrigan's javelin" + "</col>" + ".", "Members: Morrigan's javelin"
+
+			case 36:
+				return 13883, 78, "Members can now throw " + "<col=000080>" + "Morrigan's throwing axe" + "</col>" + ".", "Members: Morrigan's throwing axe"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 1129, 1, "You can now wear " + "<col=000080>" + "plain leather" + "</col>" + " items.", "Plain leather items"
+
+			case 1:
+				return 1131, 1, "You now have the Ranged level required to wear " + "<col=000080>" + "hard leather" + "</col>" + " bodies. (You also need level 10 Defence.)", "Hard leather body" + "<br>" + " (with 10 Defence)"
+
+			case 2:
+				return 6143, 1, "Members can now wear " + "<col=000080>" + "spined boots" + "</col>" + ".", "Members: Spined boots"
+
+			case 3:
+				return 6149, 1, "Members can now wear " + "<col=000080>" + "spined gloves" + "</col>" + ".", "Members: Spined gloves"
+
+			case 4:
+				return 3749, 1, "Members now have the Ranged level required to wear " + "<col=000080>" + "archer helms" + "</col>" + " (after Fremennik Trials and with level 45 Defence).", "Members: Archer helm (after Fremennik Trials and with 45 Defence)"
+
+			case 5:
+				return 1133, 20, "You now have the Ranged level required to wear " + "<col=000080>" + "studded leather bodies" + "</col>" + ". (You also need level 20 Defence.)", "Studded leather body" + "<br>" + " (with 20 Defence)"
+
+			case 6:
+				return 1097, 20, "You can now wear " + "<col=000080>" + "studded leather chaps" + "</col>" + ".", "Studded leather chaps"
+
+			case 7:
+				return 1169, 20, "You can now wear " + "<col=000080>" + "coifs" + "</col>" + ".", "Coif"
+
+			case 8:
+				return 13950, 20, "Members now have the Ranged level required to wield " + "<col=000080>" + "corrupt Morrigan's coif" + "</col>" + ". (They also need level 20 Defence)", "Members: Corrupt Morrigan's coif" + "<br>" + " (with 20 Defence)"
+
+			case 9:
+				return 13944, 20, "Members now have the Ranged level required to wield " + "<col=000080>" + "corrupt Morrigan's leather body" + "</col>" + ". (They also need level 20 Defence)", "Members: Corrupt Morrigan's leather body" + "<br>" + " (with 20 Defence)"
+
+			case 10:
+				return 13947, 20, "Members now have the Ranged level required to wield " + "<col=000080>" + "corrupt Morrigan's leather chaps" + "</col>" + ". (They also need level 20 Defence)", "Members: Corrupt Morrigan's leather chaps" + "<br>" + " (with 20 Defence)"
+
+			case 11:
+				return 15490, 20, "Members can now wear " + "<col=000080>" + "focus sights" + "</col>" + ".", "Members: Focus sight" + "<br>" + " (with 10 Defence)"
+
+			case 12:
+				return 15492, 20, "Members can now wear " + "<col=000080>" + "full slayer helmets" + "</col>" + " (after Smoking Kills with 10 Defence, 20 Magic and Strength).", "Members: Full Slayer helmet" + "<br>" + " (after Smoking Kills with 10 Defence, 20 Magic and Strength)"
+
+			case 13:
+				return 10954, 25, "Members now have the Ranged level required to wear " + "<col=000080>" + "frog-leather bodies" + "</col>" + ". (They also need level 25 Defence.)", "Members: Frog-leather body" + "<br>" + " (with 25 Defence)"
+
+			case 14:
+				return 10956, 25, "Members now have the Ranged level required to wear " + "<col=000080>" + "frog-leather chaps" + "</col>" + ". (They also need level 25 Defence.)", "Members: Frog-leather chaps" + "<br>" + " (with 25 Defence)"
+
+			case 15:
+				return 10958, 25, "Members now have the Ranged level required to wear " + "<col=000080>" + "frog-leather boots" + "</col>" + ". (They also need level 25 Defence.).", "Members: Frog-leather boots" + "<br>" + " (with 25 Defence)"
+
+			case 16:
+				return 6322, 30, "Members now have the Ranged level required to wear " + "<col=000080>" + "snakeskin bodies" + "</col>" + ". (They also need level 30 Defence.)", "Members: Snakeskin body" + "<br>" + " (with 30 Defence)"
+
+			case 17:
+				return 6324, 30, "Members now have the Ranged level required to wear " + "<col=000080>" + "snakeskin chaps" + "</col>" + ". (They also need level 30 Defence.)", "Members: Snakeskin chaps" + "<br>" + " (with 30 Defence)"
+
+			case 18:
+				return 6330, 30, "Members now have the Ranged level required to wear " + "<col=000080>" + "snakeskin vambraces" + "</col>" + ". (They also need level 30 Defence.)", "Members: Snakeskin vambraces" + "<br>" + " (with 30 Defence)"
+
+			case 19:
+				return 6326, 30, "Members now have the Ranged level required to wear " + "<col=000080>" + "snakeskin bandanas" + "</col>" + ". (They also need level 30 Defence.)", "Members: Snakeskin bandana" + "<br>" + " (with 30 Defence)"
+
+			case 20:
+				return 6328, 30, "Members now have the Ranged level required to wear " + "<col=000080>" + "snakeskin boots" + "</col>" + ". (They also need level 30 Defence.)", "Members: Snakeskin boots" + "<br>" + " (with 30 Defence)"
+
+			case 21:
+				return 2577, 40, "Members can now wear " + "<col=000080>" + "ranger boots" + "</col>" + ".", "Members: Ranger boots"
+
+			case 22:
+				return 2581, 40, "Members can now wear " + "<col=000080>" + "Robin Hood hats" + "</col>" + ".", "Members: Robin Hood hat"
+
+			case 23:
+				return 1065, 40, "You can now wear " + "<col=000080>" + "green dragonhide vambraces" + "</col>" + ".", "Green dragonhide vambraces"
+
+			case 24:
+				return 1099, 40, "You can now wear " + "<col=000080>" + "green dragonhide chaps" + "</col>" + ".", "Green dragonhide chaps"
+
+			case 25:
+				return 1135, 40, "You now have the Ranged level required to wear " + "<col=000080>" + "green dragonhide bodies" + "</col>" + ". (You also need to have completed Dragon Slayer and have level 40 Defence.)", "Green dragonhide body" + "<br>" + " (after Dragon Slayer and with 40 Defence)"
+
+			case 26:
+				return 12936, 40, "You now have the Ranged level required to wear " + "<col=000080>" + "green dragonhide coifs" + "</col>" + ". (You also need level 40 Defence.)", "Green dragonhide coif" + "<br>" + " (with 40 Defence)"
+
+			case 27:
+				return 6133, 40, "Members now have the Ranged level required to wear " + "<col=000080>" + "spined bodies" + "</col>" + " (after Fremennik Trials, with level 40 Defence).", "Members: Spined body" + "<br>" + " (after Fremennik Trials and with 40 Defence)"
+
+			case 28:
+				return 6135, 40, "Members now have the Ranged level required to wear " + "<col=000080>" + "spined chaps" + "</col>" + " (after Fremennik Trials, with level 40 Defence).", "Members: Spined chaps" + "<br>" + " (after Fremennik Trials and with 40 Defence)"
+
+			case 29:
+				return 6131, 40, "Members now have the Ranged level required to wear " + "<col=000080>" + "spined helms" + "</col>" + " (after Fremennik Trials, with level 40 Defence).", "Members: Spined helm" + "<br>" + " (after Fremennik Trials and with 40 Defence)"
+
+			case 30:
+				return 14120, 40, "Members now have the Ranged level required to wear " + "<col=000080>" + "sacred clay coifs" + "</col>" + ". (They also need level 40 Defence.)", "Members: Sacred clay coif" + "<br>" + " (with 40 Defence)"
+
+			case 31:
+				return 14118, 40, "Members now have the Ranged level required to wear " + "<col=000080>" + "sacred clay bodies" + "</col>" + ". (They also need level 40 Defence.)", "Members: Sacred clay body" + "<br>" + " (with 40 Defence)"
+
+			case 32:
+				return 14119, 40, "Members now have the Ranged level required to wear " + "<col=000080>" + "sacred clay chaps" + "</col>" + ". (They also need level 40 Defence.)", "Members: Sacred clay chaps" + "<br>" + " (with 40 Defence)"
+
+			case 33:
+				return 11665, 42, "Members now have the Ranged level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + ".", "Members: Void melee helm"
+
+			case 34:
+				return 11664, 42, "Members now have the Ranged level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + ".", "Members: Void ranger helm"
+
+			case 35:
+				return 11663, 42, "Members now have the Ranged level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + ".", "Members: Void mage helm"
+
+			case 36:
+				return 8839, 42, "Members now have the Ranged level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + ".", "Members: Void knight top"
+
+			case 37:
+				return 8840, 42, "Members now have the Ranged level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + ".", "Members: Void knight robe"
+
+			case 38:
+				return 8842, 42, "Members now have the Ranged level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + ".", "Members: Void knight gloves"
+
+			case 39:
+				return 19712, 42, "Members now have the Ranged level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + ".", "Members: Void knight deflector"
+
+			case 40:
+				return 7620, 42, "<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", "Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."
+
+			case 41:
+				return 2487, 50, "Members can now wear " + "<col=000080>" + "blue dragonhide vambraces" + "</col>" + ".", "Members: Blue dragonhide vambraces"
+
+			case 42:
+				return 2493, 50, "Members can now wear " + "<col=000080>" + "blue dragonhide chaps" + "</col>" + ".", "Members: Blue dragonhide chaps"
+
+			case 43:
+				return 2499, 50, "Members now have the Ranged level required to wear " + "<col=000080>" + "blue dragonhide bodies" + "</col>" + ". (They also need level 40 Defence.)", "Members: Blue dragonhide body" + "<br>" + " (with 40 Defence)"
+
+			case 44:
+				return 12943, 50, "Members now have the Ranged level required to wear " + "<col=000080>" + "blue dragonhide coifs" + "</col>" + ". (They also need level 40 Defence.)", "Members: Blue dragonhide coif" + "<br>" + " (with 40 Defence)"
+
+			case 45:
+				return 2489, 60, "Members can now wear " + "<col=000080>" + "red dragonhide vambraces" + "</col>" + ".", "Members: Red dragonhide vambraces"
+
+			case 46:
+				return 2495, 60, "Members can now wear " + "<col=000080>" + "red dragonhide chaps" + "</col>" + ".", "Members: Red dragonhide chaps"
+
+			case 47:
+				return 2501, 60, "Members now have the Ranged level required to wear " + "<col=000080>" + "red dragonhide bodies" + "</col>" + ". (They also need level 40 Defence.)", "Members: Red dragonhide body" + "<br>" + " (with 40 Defence)"
+
+			case 48:
+				return 12950, 60, "Members now have the Ranged level required to wear " + "<col=000080>" + "red dragonhide coifs" + "</col>" + ". (They also need level 40 Defence.)", "Members: Red dragonhide coif" + "<br>" + " (with 40 Defence)"
+
+			case 49:
+				return 10334, 65, "Members now have the Ranged level required to wear " + "<col=000080>" + "Third-Age range coifs" + "</col>" + ". (They also need level 45 Defence.)", "Members: Third-Age range coif" + "<br>" + " (with 45 Defence)"
+
+			case 50:
+				return 10330, 65, "Members now have the Ranged level required to wear " + "<col=000080>" + "Third-Age range tops" + "</col>" + ". (They also need level 45 Defence.)", "Members: Third-Age range top" + "<br>" + " (with 45 Defence)"
+
+			case 51:
+				return 10332, 65, "Members now have the Ranged level required to wear " + "<col=000080>" + "Third-Age range legs" + "</col>" + ". (They also need level 45 Defence.)", "Members: Third-Age range legs" + "<br>" + " (with 45 Defence)"
+
+			case 52:
+				return 10336, 65, "Members now have the Ranged level required to wear " + "<col=000080>" + "Third-Age range vambraces" + "</col>" + ". (They also need level 45 Defence.)", "Members: Third-Age range vambraces" + "<br>" + " (with 45 Defence)"
+
+			case 53:
+				return 2491, 70, "Members can now wear " + "<col=000080>" + "black dragonhide vambraces" + "</col>" + ".", "Members: Black dragonhide vambraces"
+
+			case 54:
+				return 2497, 70, "Members can now wear " + "<col=000080>" + "black dragonhide chaps" + "</col>" + ".", "Members: Black dragonhide chaps"
+
+			case 55:
+				return 2503, 70, "Members now have the Ranged level required to wear " + "<col=000080>" + "black dragonhide bodies" + "</col>" + ". (They also need level 40 Defence.)", "Members: Black dragonhide body" + "<br>" + " (with 40 Defence)"
+
+			case 56:
+				return 12957, 70, "Members now have the Ranged level required to wear " + "<col=000080>" + "black dragonhide coifs" + "</col>" + ". (They also need level 40 Defence.)", "Members: Black dragonhide coif" + "<br>" + " (with 40 Defence)"
+
+			case 57:
+				return 10374, 70, "Members now have the Ranged level required to wear " + "<col=000080>" + "blessed dragonhide coifs" + "</col>" + ". (They also need level 40 Defence.)", "Members: Blessed dragonhide coif" + "<br>" + " (with 40 Defence)"
+
+			case 58:
+				return 4732, 70, "Members now have the Ranged level required to wear " + "<col=000080>" + "Karil's Coif" + "</col>" + ". (They also need level 70 Defence.)", "Members: Karil's coif" + "<br>" + " (with 70 Defence)"
+
+			case 59:
+				return 4736, 70, "Members now have the Ranged level required to wear " + "<col=000080>" + "Karil's leather top" + "</col>" + ". (They also need level 70 Defence.)", "Members: Karil's leather top" + "<br>" + " (with 70 Defence)"
+
+			case 60:
+				return 4738, 70, "Members now have the Ranged level required to wear " + "<col=000080>" + "Karil's leather skirt" + "</col>" + ". (They also need level 70 Defence.)", "Members: Karil's leather skirt" + "<br>" + " (with 70 Defence)"
+
+			case 61:
+				return 11718, 70, "Members now have the Ranged level required to wear Armadyl helmets. (They also need level 70 Defence.)", "Members: Armadyl helmet" + "<br>" + " (with 70 Defence)"
+
+			case 62:
+				return 11720, 70, "Members now have the Ranged level required to wear Armadyl chestplates. (They also need level 70 Defence.)", "Members: Armadyl chestplate" + "<br>" + " (with 70 Defence)"
+
+			case 63:
+				return 11722, 70, "Members now have the Ranged level required to wear Armadyl chainskirts. (They also need level 70 Defence.)", "Members: Armadyl chainskirt" + "<br>" + " (with 70 Defence)"
+
+			case 64:
+				return 18347, 73, "Members can now wear " + "<col=000080>" + "mercenary's gloves" + "</col>" + ". (They also need level 73 Dungeoneering.)", "Members: Mercenary's gloves" + "<br>" + " (with 73 Dungeoneering)"
+
+			case 65:
+				return 21790, 75, "Members now have the Ranged level required to wear " + "<col=000080>" + "glaiven boots" + "</col>" + " (with 75 Defence).", "Members: Glaiven boots" + "<br>" + " (with 75 Defence)"
+
+			case 66:
+				return 13876, 78, "Members now have the Ranged level required to wield " + "<col=000080>" + "Morrigan's coif" + "</col>" + ". (They also need level 78 Defence)", "Members: Morrigan's coif" + "<br>" + " (with 78 Defence)"
+
+			case 67:
+				return 13870, 78, "Members now have the Ranged level required to wield " + "<col=000080>" + "Morrigan's leather body" + "</col>" + ". (They also need level 78 Defence)", "Members: Morrigan's leather body" + "<br>" + " (with 78 Defence)"
+
+			case 68:
+				return 13873, 78, "Members now have the Ranged level required to wield " + "<col=000080>" + "Morrigan's leather chaps" + "</col>" + ". (They also need level 78 Defence)", "Members: Morrigan's leather chaps" + "<br>" + " (with 78 Defence)"
+
+			case 69:
+				return 20147, 80, "Members can now wear " + "<col=000080>" + "pernix cowls" + "</col>" + ". (They also need level 80 Defence and Constitution.)", "Members: Pernix cowl" + "<br>" + " (with 80 Defence and Constitution)"
+
+			case 70:
+				return 20151, 80, "Members can now wear " + "<col=000080>" + "pernix bodies" + "</col>" + ". (They also need level 80 Defence and Constitution.)", "Members: Pernix body" + "<br>" + " (with 80 Defence and Constitution)"
+
+			case 71:
+				return 20155, 80, "Members can now wear " + "<col=000080>" + "pernix chaps" + "</col>" + ". (They also need level 80 Defence and Constitution.)", "Members: Pernix chaps" + "<br>" + " (with 80 Defence and Constitution)"
+
+			case 72:
+				return 22362, 80, "Members can now wear " + "<col=000080>" + "swift gloves" + "</col>" + ".", "Members: Swift gloves"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 837, 1, "You can now " + "<col=000080>" + "fire crossbows" + "</col>" + ".", "Crossbow" + "<br>" + "  Ammo: Bronze crossbow bolts"
+
+			case 1:
+				return 767, 1, "You can now fire " + "<col=000080>" + "phoenix crossbows" + "</col>" + ".", "Phoenix crossbow" + "<br>" + "  Ammo: Bronze crossbow bolts"
+
+			case 2:
+				return 9174, 1, "Members can now fire " + "<col=000080>" + "bronze crossbows" + "</col>" + ".", "Members: Bronze crossbow" + "<br>" + "  Ammo: Bronze crossbow bolts"
+
+			case 3:
+				return 9176, 16, "Members can now fire " + "<col=000080>" + "blurite crossbows" + "</col>" + ".", "Members: Blurite crossbow" + "<br>" + "  Ammo: Bolts up to blurite"
+
+			case 4:
+				return 9177, 26, "Members can now fire " + "<col=000080>" + "iron crossbows" + "</col>" + ".", "Members: Iron crossbow" + "<br>" + "  Ammo: Bolts up to iron"
+
+			case 5:
+				return 8880, 28, "Members can now fire " + "<col=000080>" + "Dorgeshuun crossbows" + "</col>" + ".", "Members: Dorgeshuun crossbow" + "<br>" + "  Ammo: Bolts up to iron"
+
+			case 6:
+				return 9179, 31, "Members can now fire " + "<col=000080>" + "steel crossbows" + "</col>" + ".", "Members: Steel crossbow" + "<br>" + "  Ammo: Bolts up to steel"
+
+			case 7:
+				return 13081, 33, "Members can now fire " + "<col=000080>" + "black crossbows" + "</col>" + ".", "Members: Black crossbow" + "<br>" + "  Ammo: Bolts up to black"
+
+			case 8:
+				return 9181, 36, "Members can now fire " + "<col=000080>" + "mithril crossbows" + "</col>" + ".", "Members: Mithril crossbow" + "<br>" + "  Ammo: Bolts up to mithril"
+
+			case 9:
+				return 9183, 46, "Members can now fire " + "<col=000080>" + "adamant crossbows" + "</col>" + ".", "Members: Adamant crossbow" + "<br>" + "  Ammo: Bolts up to adamant"
+
+			case 10:
+				return 14684, 48, "Members can now fire " + "<col=000080>" + "Zanik's crossbow" + "</col>" + " (after The Chosen Commander).", "Members: Zanik's crossbow (after The Chosen Commander)" + "<br>" + "  Ammo: Bolts up to adamant"
+
+			case 11:
+				return 10156, 50, "Members can now fire " + "<col=000080>" + "hunters' crossbows" + "</col>" + ".", "Members: Hunters' crossbow" + "<br>" + "  Ammo: Kebbit and long kebbit bolts"
+
+			case 12:
+				return 9185, 61, "Members can now fire " + "<col=000080>" + "runite crossbows" + "</col>" + ".", "Members: Runite crossbow" + "<br>" + "  Ammo: Bolts up to rune"
+
+			case 13:
+				return 4734, 70, "Members can now use " + "<col=000080>" + "Karil's crossbow" + "</col>" + ".", "Members: Karil's crossbow" + "<br>" + " Ammo: Bolt racks"
+
+			case 14:
+				return 18358, 80, "Members can now wield " + "<col=000080>" + "chaotic crossbows" + "</col>" + ". (They also need level 80 Dungeoneering.)", "Members: Chaotic crossbow" + "<br>" + "  Ammo: Bolts up to rune" + "<br>" + " (with 80 Dungeoneering)"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 6517, 19, "Members now have the Ranged level required to scale the " + "<col=000080>" + "Falador wall" + "</col>" + ". (They also need level 11 Agility and level 37 Strength.)", "Members: Falador wall" + "<br>" + " (with 11 Agility and 37 Strength)"
+
+			case 1:
+				return 6517, 21, "Members now have the Ranged level required to scale the " + "<col=000080>" + "Yanille wall" + "</col>" + ". (You also need level 39 Agility and level 38 Strength.)", "Members: Yanille wall " + "<br>" + " (with 39 Agility and 38 Strength)"
+
+			case 2:
+				return 6517, 35, "Members now have the Ranged level required to scale the " + "<col=000080>" + "Catherby cliff" + "</col>" + " (after Fishing Contest, with level 32 Agility and 35 Strength).", "Members: Catherby cliff " + "<br>" + " (after Fishing Contest, with 32 Agility and 35 Strength)"
+
+			case 3:
+				return 6515, 37, "Members now have the Ranged level required to cross the " + "<col=000080>" + "River Lum" + "</col>" + " to " + "<col=000080>" + "Al Kharid" + "</col>" + ". (You also need level 8 Agility and level 19 Strength.)", "Members: River crossing to Al Kharid " + "<br>" + " (with 8 Agility and 19 Strength)"
+
+			case 4:
+				return 6515, 39, "Members now have the Ranged level required to complete the " + "<col=000080>" + "Water Obelisk Island escape" + "</col>" + ". (You also need level 36 Agility and level 22 Strength).", "Members: Water Obelisk Island escape " + "<br>" + " (with 36 Agility and 22 Strength)"
+
+			case 5:
+				return 6515, 42, "Members now have the Ranged level required to use the " + "<col=000080>" + "Karamja Agility shortcut" + "</col>" + ". (You also need level 53 Agility and level 21 Strength.)", "Members: Karamja crossing, south of the volcano " + "<br>" + " (with 53 Agility and 21 Strength)"
+
+			case 6:
+				return 6515, 60, "Members now have the Ranged level required to cross " + "<col=000080>" + "Bandos's throne room" + "</col>" + " (after The Chosen Commander and with 60 Agility and 60 Strength.", "Members: Cross Bandos's throne room " + "<br>" + " (after The Chosen Commander and with 60 Agility and 60 Strength)"
+
+			case 7:
+				return 6515, 80, "Members now have the Ranged level required to cross the " + "<col=000080>" + "cave south of Dorgesh-Kaan" + "</col>" + ". (You also need level 80 Agility and 80 Strength.", "Members: Cross cave, south of Dorgesh-Kaan " + "<br>" + " (with 80 Agility and 80 Strength)"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 10149, 30, "Members now have the Ranged level required to use " + "<col=000080>" + "swamp lizards" + "</col>" + ". (They also need level 30 Attack and level 30 Magic.)", "Members: Swamp lizard" + "<br>" + " (with 30 Attack and 30 Magic)"
+
+			case 1:
+				return 10146, 50, "Members now have the Ranged level required to use " + "<col=000080>" + "orange salamanders" + "</col>" + ". (They also need level 50 Attack and level 50 Magic.)", "Members: Orange salamander" + "<br>" + " (with 50 Attack and 50 Magic)"
+
+			case 2:
+				return 10147, 60, "Members now have the Ranged level required to use " + "<col=000080>" + "red salamanders" + "</col>" + ". (They also need level 60 Attack and level 60 Magic.)", "Members: Red salamander" + "<br>" + " (with 60 Attack and 60 Magic)"
+
+			case 3:
+				return 10148, 70, "Members now have the Ranged level required to use " + "<col=000080>" + "black salamanders" + "</col>" + ". (They also need level 70 Attack and level 70 Magic.)", "Members: Black salamander" + "<br>" + " (with 70 Attack and 70 Magic)"
+
+
+		}
+		break
+	case 6:
+		if(arg1 == 0)
+			return 9419, 70, "Members can now enter " + "<col=000080>" + "Armadyl's Eyrie" + "</col>" + " in the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + ".", "Members: Armadyl's Eyrie in the God Wars Dungeon"
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 19830, 1, "You can now use a " + "<col=000080>" + "sling" + "</col>" + ".", "Sling" + "<br>" + " Ammo: None needed"
+
+			case 1:
+				return 15597, 1, "You can now use " + "<col=000080>" + "Kayle's sling" + "</col>" + " (after The Blood Pact).", "Kayle's sling (after The Blood Pact)" + "<br>" + " Ammo: None needed"
+
+			case 2:
+				return 10498, 30, "Members now have the Ranged level required to use " + "<col=000080>" + "Ava's Attractor" + "</col>" + " (after Animal Magnetism).", "Members: Ava's Attractor (after Animal Magnetism)"
+
+			case 3:
+				return 8841, 42, "Members now have the Ranged level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + ".", "Members: Void knight mace"
+
+			case 4:
+				return 18330, 45, "You can now use " + "<col=000080>" + "longbow sights" + "</col>" + ". (You also need level 45 Dungeoneering.)", "Longbow sight" + "<br>" + " (with 45 Dungeoneering)"
+
+			case 5:
+				return 10499, 50, "Members now have the Ranged level required to use " + "<col=000080>" + "Ava's Accumulator" + "</col>" + " (after Animal Magnetism).", "Members: Ava's Accumulator (after Animal Magnetism)"
+
+			case 6:
+				return 20068, 50, "Members now have the Ranged level required to use " + "<col=000080>" + "Ava's Alerter" + "</col>" + " (after Do No Evil).", "Members: Ava's Alerter (after Do No Evil)"
+
+			case 7:
+				return 4150, 50, "Members now have the Ranged level required to shoot " + "<col=000080>" + "broad arrows" + "</col>" + ", Ranged weapons used for killing turoth and kurask. (You also need level 55 Slayer.)", "Members: Broad arrows" + "<br>" + " (with 55 Slayer)"
+
+			case 8:
+				return 13280, 50, "Members now have the Ranged level required to shoot " + "<col=000080>" + "broad-tipped bolts" + "</col>" + ", Ranged weapons used for killing turoth and kurask. (You also need level 55 Slayer.)", "Members: Broad-tipped bolts" + "<br>" + " (with 55 Slayer)"
+
+			case 9:
+				return 21640, 50, "Members now have the Ranged level required to shoot " + "<col=000080>" + "bane arrows" + "</col>" + ", Ranged weapons used for effectively killing specific creatures. (after Ritual of the Mahjarrat.)", "Members: Bane arrows" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 10:
+				return 21660, 50, "Members now have the Ranged level required to shoot " + "<col=000080>" + "bane bolts" + "</col>" + ", Ranged weapons used for effectively killing specific creatures. (after Ritual of the Mahjarrat.)", "Members: Bane bolts" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 11:
+				return 15241, 75, "Members now have the Ranged level required to fire the " + "<col=000080>" + "chaos dwarf hand cannon" + "</col>" + " (after Forgiveness of a Chaos Dwarf and with 61 Firemaking).", "Members: Chaos dwarf hand cannon" + "<br>" + " (with 61 Firemaking and after Forgiveness of a Chaos Dwarf)"
+
+
+		}
+		break
+	case 8:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14192, 1, "Members can now wield " + "<col=000080>" + "class 1 bows" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 bow"
+
+			case 1:
+				return 14411, 1, "Members can now wear " + "<col=000080>" + "class 1 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 coif"
+
+			case 2:
+				return 14391, 1, "Members can now wear " + "<col=000080>" + "class 1 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 leather body"
+
+			case 3:
+				return 14401, 1, "Members can now wear " + "<col=000080>" + "class 1 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 chaps"
+
+			case 4:
+				return 14194, 20, "Members can now wield " + "<col=000080>" + "class 2 bows" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 bow"
+
+			case 5:
+				return 14413, 20, "Members can now wear " + "<col=000080>" + "class 2 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 coif"
+
+			case 6:
+				return 14393, 20, "Members can now wear " + "<col=000080>" + "class 2 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 leather body"
+
+			case 7:
+				return 14403, 20, "Members can now wear " + "<col=000080>" + "class 2 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 chaps"
+
+			case 8:
+				return 14196, 40, "Members can now wield " + "<col=000080>" + "class 3 bows" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 bow"
+
+			case 9:
+				return 14415, 40, "Members can now wear " + "<col=000080>" + "class 3 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 coif"
+
+			case 10:
+				return 14395, 40, "Members can now wear " + "<col=000080>" + "class 3 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 leather body"
+
+			case 11:
+				return 14405, 40, "Members can now wear " + "<col=000080>" + "class 3 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 chaps"
+
+			case 12:
+				return 14198, 60, "Members can now wield " + "<col=000080>" + "class 4 bows" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 bow"
+
+			case 13:
+				return 14417, 60, "Members can now wear " + "<col=000080>" + "class 4 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 coif"
+
+			case 14:
+				return 14397, 60, "Members can now wear " + "<col=000080>" + "class 4 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 leather body"
+
+			case 15:
+				return 14407, 60, "Members can now wear " + "<col=000080>" + "class 4 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 chaps"
+
+			case 16:
+				return 14200, 80, "Members can now wield " + "<col=000080>" + "class 5 bows" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 bow"
+
+			case 17:
+				return 14419, 80, "Members can now wear " + "<col=000080>" + "class 5 coifs" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 coif"
+
+			case 18:
+				return 14399, 80, "Members can now wear " + "<col=000080>" + "class 5 leather bodies" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 leather body"
+
+			case 19:
+				return 14409, 80, "Members can now wear " + "<col=000080>" + "class 5 chaps" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 chaps"
+
+			case 20:
+				return 21547, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Trickster hoods" + "</col>" + ". (They also need level 85 Defence and level 85 Magic)", "Members: Trickster hood" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 21:
+				return 21549, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Trickster robes" + "</col>" + ". (They also need level 85 Defence and level 85 Magic)", "Members: Trickster robe" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 22:
+				return 21551, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Trickster legs" + "</col>" + ". (They also need level 85 Defence and level 85 Magic)", "Members: Trickster legs" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 23:
+				return 21553, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Trickster gloves" + "</col>" + ". (They also need level 85 Defence and level 85 Magic)", "Members: Trickster gloves" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 24:
+				return 21555, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Trickster boots" + "</col>" + ". (They also need level 85 Defence and level 85 Magic)", "Members: Trickster boots" + "<br>" + " (with 85 Defence and 85 Magic)"
+
+			case 25:
+				return 21557, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Vanguard helms" + "</col>" + ". (They also need level 85 Defence and level 85 Strength.)", "Members: Vanguard helm" + "<br>" + " (with 85 Defence and 85 Strength)"
+
+			case 26:
+				return 21559, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Vanguard body armour" + "</col>" + ". (They also need level 85 Defence and level 85 Strength.)", "Members: Vanguard body" + "<br>" + " (with 85 Defence and 85 Strength)"
+
+			case 27:
+				return 21561, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Vanguard leg armour" + "</col>" + ". (They also need level 85 Defence and level 85 Strength.)", "Members: Vanguard legs" + "<br>" + " (with 85 Defence and 85 Strength)"
+
+			case 28:
+				return 21563, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Vanguard gloves" + "</col>" + ". (They also need level 85 Defence and level 85 Strength.)", "Members: Vanguard gloves" + "<br>" + " (with 85 Defence and 85 Strength)"
+
+			case 29:
+				return 21565, 85, "Members now have the Ranged requirement to wear " + "<col=000080>" + "Vanguard boots" + "</col>" + ". (They also need level 85 Defence and level 85 Strength.)", "Members: Vanguard boots" + "<br>" + " (with 85 Defence and 85 Strength)"
+
+			case 30:
+				return 22348, 90, "Members can now wield " + "<col=000080>" + "Dominion crossbows" + "</col>" + " in the Dominion Tower.", "Members: Dominion crossbow" + "<br>" + "  Ammo: Bolts up to rune"
+
+
+		}
+		break
+	case 9:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Ranged level increases, you will be able to attempt higher-level ranged tasks within Daemonheim. You will also be more likely to succeed when attempting ranged tasks within Daemonheim."
+
+			case 1:
+				return 16867, 1, "You can now wield " + "<col=000080>" + "tangle gum shortbows" + "</col>" + " within Daemonheim.", "Tangle gum shortbow (Tier 1)"
+
+			case 2:
+				return 16317, 1, "You can now wield " + "<col=000080>" + "tangle gum shortbows" + "</col>" + " within Daemonheim.", "Tangle gum longbow (Tier 1)"
+
+			case 3:
+				return 16427, 1, "You can now use " + "<col=000080>" + "novite arrows" + "</col>" + " within Daemonheim.", "Novite arrows (Tier 1)"
+
+			case 4:
+				return 17041, 1, "You can now wear " + "<col=000080>" + "protoleather coif" + "</col>" + " within Daemonheim. (You also need level 1 Defence.)", "Protoleather coifs (Tier 1)" + "<br>" + " (with 1 Defence)"
+
+			case 5:
+				return 17173, 1, "You can now wear " + "<col=000080>" + "protoleather bodies" + "</col>" + " within Daemonheim. (You also need level 1 Defence).", "Protoleather body (Tier 1)" + "<br>" + " (with 1 Defence)"
+
+			case 6:
+				return 17319, 1, "You can now wear " + "<col=000080>" + "protoleather chaps" + "</col>" + " within Daemonheim. (You also need level 1 Defence).", "Protoleather chaps (Tier 1)" + "<br>" + " (with 1 Defence)"
+
+			case 7:
+				return 17195, 1, "You can now wear " + "<col=000080>" + "protoleather vambraces" + "</col>" + " within Daemonheim. (You also need level 1 Defence).", "Protoleather vambraces (Tier 1)" + "<br>" + " (with 1 Defence)"
+
+			case 8:
+				return 17297, 1, "You can now wear " + "<col=000080>" + "protoleather boots" + "</col>" + " within Daemonheim. (You also need level 1 Defence).", "Protoleather boots (Tier 1)" + "<br>" + " (with 1 Defence)"
+
+			case 9:
+				return 16869, 10, "You can now wield " + "<col=000080>" + "seeping elm shortbows" + "</col>" + " within Daemonheim.", "Seeping elm shortbow (Tier 2)"
+
+			case 10:
+				return 16319, 10, "You can now wield " + "<col=000080>" + "seeping elm longbows" + "</col>" + " within Daemonheim.", "Seeping elm longbow (Tier 2)"
+
+			case 11:
+				return 16432, 10, "You can now use " + "<col=000080>" + "bathus arrows" + "</col>" + " within Daemonheim.", "Bathus arrows (Tier 2)"
+
+			case 12:
+				return 17043, 10, "You can now wear " + "<col=000080>" + "subleather coif" + "</col>" + " within Daemonheim. (You also need level 10 Defence).", "Subleather coifs (Tier 2)" + "<br>" + " (with 10 Defence)"
+
+			case 13:
+				return 17175, 10, "You can now wear " + "<col=000080>" + "subleather bodies" + "</col>" + " within Daemonheim. (You also need level 10 Defence).", "Subleather body (Tier 2)" + "<br>" + " (with 10 Defence)"
+
+			case 14:
+				return 17321, 10, "You can now wear " + "<col=000080>" + "subleather chaps" + "</col>" + " within Daemonheim. (You also need level 10 Defence).", "Subleather chaps (Tier 2)" + "<br>" + " (with 10 Defence)"
+
+			case 15:
+				return 17197, 10, "You can now wear " + "<col=000080>" + "subleather vambraces" + "</col>" + " within Daemonheim. (You also need level 10 Defence).", "Subleather vambraces (Tier 2)" + "<br>" + " (with 10 Defence)"
+
+			case 16:
+				return 17299, 10, "You can now wear " + "<col=000080>" + "subleather boots" + "</col>" + " within Daemonheim. (You also need level 10 Defence).", "Subleather boots (Tier 2)" + "<br>" + " (with 10 Defence)"
+
+			case 17:
+				return 16871, 20, "You can now wield " + "<col=000080>" + "blood spindle shortbows" + "</col>" + " within Daemonheim.", "Blood spindle shortbow (Tier 3)"
+
+			case 18:
+				return 16321, 20, "You can now wield " + "<col=000080>" + "blood spindle longbows" + "</col>" + " within Daemonheim.", "Blood spindle longbow (Tier 3)"
+
+			case 19:
+				return 16437, 20, "You can now use " + "<col=000080>" + "marmaros arrows" + "</col>" + " within Daemonheim.", "Marmaros arrows (Tier 3)"
+
+			case 20:
+				return 17045, 20, "You can now wear " + "<col=000080>" + "paraleather coifs" + "</col>" + " within Daemonheim. (You also need level 20 Defence).", "Paraleather coif (Tier 3)" + "<br>" + " (with 20 Defence)"
+
+			case 21:
+				return 17177, 20, "You can now wear " + "<col=000080>" + "paraleather bodies" + "</col>" + " within Daemonheim. (You also need level 20 Defence).", "Paraleather body (Tier 3)" + "<br>" + " (with 20 Defence)"
+
+			case 22:
+				return 17323, 20, "You can now wear " + "<col=000080>" + "paraleather chaps" + "</col>" + " within Daemonheim. (You also need level 20 Defence).", "Paraleather chaps (Tier 3)" + "<br>" + " (with 20 Defence)"
+
+			case 23:
+				return 17199, 20, "You can now wear " + "<col=000080>" + "paraleather vambraces" + "</col>" + " within Daemonheim. (You also need level 20 Defence).", "Paraleather vambraces (Tier 3)" + "<br>" + " (with 20 Defence)"
+
+			case 24:
+				return 17301, 20, "You can now wear " + "<col=000080>" + "paraleather boots" + "</col>" + " within Daemonheim. (You also need level 20 Defence).", "Paraleather boots (Tier 3)" + "<br>" + " (with 20 Defence)"
+
+			case 25:
+				return 16873, 30, "You can now wield " + "<col=000080>" + "utuku shortbows" + "</col>" + " within Daemonheim.", "Utuku shortbow (Tier 4)"
+
+			case 26:
+				return 16323, 30, "You can now wield " + "<col=000080>" + "utuku longbows" + "</col>" + " within Daemonheim.", "Utuku longbow (Tier 4)"
+
+			case 27:
+				return 16442, 30, "You can now use " + "<col=000080>" + "kratonite arrows" + "</col>" + " within Daemonheim.", "Kratonite arrows (Tier 4)"
+
+			case 28:
+				return 17047, 30, "You can now wear " + "<col=000080>" + "archleather coifs" + "</col>" + " within Daemonheim. (You also need level 30 Defence).", "Archleather coif (Tier 4)" + "<br>" + " (with 30 Defence)"
+
+			case 29:
+				return 17179, 30, "You can now wear " + "<col=000080>" + "archleather bodies" + "</col>" + " within Daemonheim. (You also need level 30 Defence).", "Archleather body (Tier 4)" + "<br>" + " (with 30 Defence)"
+
+			case 30:
+				return 17325, 30, "You can now wear " + "<col=000080>" + "archleather chaps" + "</col>" + " within Daemonheim. (You also need level 30 Defence).", "Archleather chaps (Tier 4)" + "<br>" + " (with 30 Defence)"
+
+			case 31:
+				return 17201, 30, "You can now wear " + "<col=000080>" + "archleather vambraces" + "</col>" + " within Daemonheim. (You also need level 30 Defence).", "Archleather vambraces (Tier 4)" + "<br>" + " (with 30 Defence)"
+
+			case 32:
+				return 17303, 30, "You can now wear " + "<col=000080>" + "archleather boots" + "</col>" + " within Daemonheim. (You also need level 30 Defence).", "Archleather boots (Tier 4)" + "<br>" + " (with 30 Defence)"
+
+			case 33:
+				return 16875, 40, "You can now wield " + "<col=000080>" + "spinebeam shortbows" + "</col>" + " within Daemonheim.", "Spinebeam shortbow (Tier 5)"
+
+			case 34:
+				return 16325, 40, "You can now wield " + "<col=000080>" + "spinebeam longbows" + "</col>" + " within Daemonheim.", "Spinebeam longbow (Tier 5)"
+
+			case 35:
+				return 16447, 40, "You can now use " + "<col=000080>" + "fractite arrows" + "</col>" + " within Daemonheim.", "Fractite arrows (Tier 5)"
+
+			case 36:
+				return 17049, 40, "You can now wear " + "<col=000080>" + "dromoleather coifs" + "</col>" + " within Daemonheim. (You also need level 40 Defence).", "Dromoleather coif (Tier 5)" + "<br>" + " (with 40 Defence)"
+
+			case 37:
+				return 17181, 40, "You can now wear " + "<col=000080>" + "dromoleather bodies" + "</col>" + " within Daemonheim. (You also need level 40 Defence).", "Dromoleather body (Tier 5)" + "<br>" + " (with 40 Defence)"
+
+			case 38:
+				return 17327, 40, "You can now wear " + "<col=000080>" + "dromoleather chaps" + "</col>" + " within Daemonheim. (You also need level 40 Defence).", "Dromoleather chaps (Tier 5)" + "<br>" + " (with 40 Defence)"
+
+			case 39:
+				return 17203, 40, "You can now wear " + "<col=000080>" + "dromoleather vambraces" + "</col>" + " within Daemonheim. (You also need level 40 Defence).", "Dromoleather vambraces (Tier 5)" + "<br>" + " (with 40 Defence)"
+
+			case 40:
+				return 17305, 40, "You can now wear " + "<col=000080>" + "dromoleather boots" + "</col>" + " within Daemonheim. (You also need level 40 Defence).", "Dromoleather boots (Tier 5)" + "<br>" + " (with 40 Defence)"
+
+			case 41:
+				return 16877, 50, "Members can now wield " + "<col=000080>" + "bovistrangler shortbows" + "</col>" + " within Daemonheim.", "Members: Bovistrangler shortbow (Tier 6)"
+
+			case 42:
+				return 16327, 50, "Members can now wield " + "<col=000080>" + "bovistrangler longbows" + "</col>" + " within Daemonheim.", "Members: Bovistrangler longbow (Tier 6)"
+
+			case 43:
+				return 16452, 50, "Members can now use " + "<col=000080>" + "zephyrium arrows" + "</col>" + " within Daemonheim.", "Members: Zephyrium arrows (Tier 6)"
+
+			case 44:
+				return 17051, 50, "Members can now wear " + "<col=000080>" + "spinoleather coifs" + "</col>" + " within Daemonheim. (They also need level 50 Defence).", "Members: Spinoleather coif (Tier 6)" + "<br>" + " (with 50 Defence)"
+
+			case 45:
+				return 17183, 50, "Members can now wear " + "<col=000080>" + "spinoleather bodies" + "</col>" + " within Daemonheim. (They also need level 50 Defence).", "Members: Spinoleather body (Tier 6)" + "<br>" + " (with 50 Defence)"
+
+			case 46:
+				return 17329, 50, "Members can now wear " + "<col=000080>" + "spinoleather chaps" + "</col>" + " within Daemonheim. (They also need level 50 Defence).", "Members: Spinoleather chaps (Tier 6)" + "<br>" + " (with 50 Defence)"
+
+			case 47:
+				return 17205, 50, "Members can now wear " + "<col=000080>" + "spinoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 50 Defence).", "Members: Spinoleather vambraces (Tier 6)" + "<br>" + " (with 50 Defence)"
+
+			case 48:
+				return 17307, 50, "Members can now wear " + "<col=000080>" + "spinoleather boots" + "</col>" + " within Daemonheim. (They also need level 50 Defence).", "Members: Spinoleather boots (Tier 6)" + "<br>" + " (with 50 Defence)"
+
+			case 49:
+				return 16879, 60, "Members can now wield " + "<col=000080>" + "thigat shortbows" + "</col>" + " within Daemonheim.", "Members: Thigat shortbow (Tier 7)"
+
+			case 50:
+				return 16329, 60, "Members can now wield " + "<col=000080>" + "thigat longbows" + "</col>" + " within Daemonheim.", "Members: Thigat longbow (Tier 7)"
+
+			case 51:
+				return 16457, 60, "Members can now use " + "<col=000080>" + "argonite arrows" + "</col>" + " within Daemonheim.", "Members: Argonite arrows (Tier 7)"
+
+			case 52:
+				return 17053, 60, "Members can now wear " + "<col=000080>" + "gallileather coifs" + "</col>" + " within Daemonheim. (They also need level 60 Defence).", "Members: Gallileather coif (Tier 7)" + "<br>" + " (with 60 Defence)"
+
+			case 53:
+				return 17185, 60, "Members can now wear " + "<col=000080>" + "gallileather bodies" + "</col>" + " within Daemonheim. (They also need level 60 Defence).", "Members: Gallileather body (Tier 7)" + "<br>" + " (with 60 Defence)"
+
+			case 54:
+				return 17331, 60, "Members can now wear " + "<col=000080>" + "gallileather chaps" + "</col>" + " within Daemonheim. (They also need level 60 Defence).", "Members: Gallileather chaps (Tier 7)" + "<br>" + " (with 60 Defence)"
+
+			case 55:
+				return 17207, 60, "Members can now wear " + "<col=000080>" + "gallileather vambraces" + "</col>" + " within Daemonheim. (They also need level 60 Defence).", "Members: Gallileather vambraces (Tier 7)" + "<br>" + " (with 60 Defence)"
+
+			case 56:
+				return 17309, 60, "Members can now wear " + "<col=000080>" + "gallileather boots" + "</col>" + " within Daemonheim. (They also need level 60 Defence).", "Members: Gallileather boots (Tier 7)" + "<br>" + " (with 60 Defence)"
+
+			case 57:
+				return 16881, 70, "Members can now wield " + "<col=000080>" + "corpsethorn shortbows" + "</col>" + " within Daemonheim.", "Members: Corpsethorn shortbow (Tier 8)"
+
+			case 58:
+				return 16331, 70, "Members can now wield " + "<col=000080>" + "corpsethorn longbows" + "</col>" + " within Daemonheim.", "Members: Corpsethorn longbow (Tier 8)"
+
+			case 59:
+				return 16462, 70, "Members can now use " + "<col=000080>" + "katagon arrows" + "</col>" + " within Daemonheim.", "Members: Katagon arrows (Tier 8)"
+
+			case 60:
+				return 17055, 70, "Members can now wear " + "<col=000080>" + "stegoleather coifs" + "</col>" + " within Daemonheim. (They also need level 70 Defence).", "Members: Stegoleather coif (Tier 8)" + "<br>" + " (with 70 Defence)"
+
+			case 61:
+				return 17187, 70, "Members can now wear " + "<col=000080>" + "stegoleather bodies" + "</col>" + " within Daemonheim. (They also need level 70 Defence).", "Members: Stegoleather body (Tier 8)" + "<br>" + " (with 70 Defence)"
+
+			case 62:
+				return 17333, 70, "Members can now wear " + "<col=000080>" + "stegoleather chaps" + "</col>" + " within Daemonheim. (They also need level 70 Defence).", "Members: Stegoleather chaps (Tier 8)" + "<br>" + " (with 70 Defence)"
+
+			case 63:
+				return 17209, 70, "Members can now wear " + "<col=000080>" + "stegoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 70 Defence).", "Members: Stegoleather vambraces (Tier 8)" + "<br>" + " (with 70 Defence)"
+
+			case 64:
+				return 17311, 70, "Members can now wear " + "<col=000080>" + "stegoleather boots" + "</col>" + " within Daemonheim. (They also need level 70 Defence).", "Members: Stegoleather boots (Tier 8)" + "<br>" + " (with 70 Defence)"
+
+			case 65:
+				return 16883, 80, "Members can now wield " + "<col=000080>" + "entgallow shortbows" + "</col>" + " within Daemonheim.", "Members: Entgallow shortbow (Tier 9)"
+
+			case 66:
+				return 16333, 80, "Members can now wield " + "<col=000080>" + "entgallow longbows" + "</col>" + " within Daemonheim.", "Members: Entgallow longbow (Tier 9)"
+
+			case 67:
+				return 16467, 80, "Members can now use " + "<col=000080>" + "gorgonite arrows" + "</col>" + " within Daemonheim.", "Members: Gorgonite arrows (Tier 9)"
+
+			case 68:
+				return 17057, 80, "Members can now wear " + "<col=000080>" + "megaleather coifs" + "</col>" + " within Daemonheim. (They also need level 80 Defence).", "Members: Megaleather coif (Tier 9)" + "<br>" + " (with 80 Defence)"
+
+			case 69:
+				return 17189, 80, "Members can now wear " + "<col=000080>" + "megaleather bodies" + "</col>" + " within Daemonheim. (They also need level 80 Defence).", "Members: Megaleather body (Tier 9)" + "<br>" + " (with 80 Defence)"
+
+			case 70:
+				return 17335, 80, "Members can now wear " + "<col=000080>" + "megaleather chaps" + "</col>" + " within Daemonheim. (They also need level 80 Defence).", "Members: Megaleather chaps (Tier 9)" + "<br>" + " (with 80 Defence)"
+
+			case 71:
+				return 17211, 80, "Members can now wear " + "<col=000080>" + "megaleather vambraces" + "</col>" + " within Daemonheim. (They also need level 80 Defence).", "Members: Megaleather vambraces (Tier 9)" + "<br>" + " (with 80 Defence)"
+
+			case 72:
+				return 17313, 80, "Members can now wear " + "<col=000080>" + "megaleather boots" + "</col>" + " within Daemonheim. (They also need level 80 Defence).", "Members: Megaleather boots (Tier 9)" + "<br>" + " (with 80 Defence)"
+
+			case 73:
+				return 17283, 83, "Members can now wear " + "<col=000080>" + "grounding boots" + "</col>" + " within Daemonheim. (They also need level 83 Defence.)", "Members: Grounding boots" + "<br>" + " (with 83 Defence)"
+
+			case 74:
+				return 16885, 90, "Members can now wield " + "<col=000080>" + "grave creeper shortbows" + "</col>" + " within Daemonheim.", "Members: Grave creeper shortbow (Tier 10)"
+
+			case 75:
+				return 16335, 90, "Members can now wield " + "<col=000080>" + "grave creeper longbows" + "</col>" + " within Daemonheim.", "Members: Grave creeper longbow (Tier 10)"
+
+			case 76:
+				return 16472, 90, "Members can now use " + "<col=000080>" + "promethium arrows" + "</col>" + " within Daemonheim.", "Members: Promethium arrows (Tier 10)"
+
+			case 77:
+				return 17059, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather coifs" + "</col>" + " within Daemonheim. (They also need level 90 Defence).", "Members: Tyrannoleather coif (Tier 10)" + "<br>" + " (with 90 Defence)"
+
+			case 78:
+				return 17191, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather bodies" + "</col>" + " within Daemonheim. (They also need level 90 Defence).", "Members: Tyrannoleather body (Tier 10)" + "<br>" + " (with 90 Defence)"
+
+			case 79:
+				return 17337, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather chaps" + "</col>" + " within Daemonheim. (They also need level 90 Defence).", "Members: Tyrannoleather chaps (Tier 10)" + "<br>" + " (with 90 Defence)"
+
+			case 80:
+				return 17213, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather vambraces" + "</col>" + " within Daemonheim. (They also need level 90 Defence).", "Members: Tyrannoleather vambraces (Tier 10)" + "<br>" + " (with 90 Defence)"
+
+			case 81:
+				return 17315, 90, "Members can now wear " + "<col=000080>" + "tyrannoleather boots" + "</col>" + " within Daemonheim. (They also need level 90 Defence).", "Members: Tyrannoleather boots (Tier 10)" + "<br>" + " (with 90 Defence)"
+
+			case 82:
+				return 17295, 98, "Members can now wield " + "<col=000080>" + "hexhunter shortbows" + "</col>" + " within Daemonheim.", "Members: Hexhunter bow"
+
+			case 83:
+				return 16887, 99, "Members can now wield " + "<col=000080>" + "sagittarian shortbows" + "</col>" + " within Daemonheim.", "Members: Sagittarian shortbow (Tier 11)"
+
+			case 84:
+				return 16337, 99, "Members can now wield " + "<col=000080>" + "sagittarian longbows" + "</col>" + " within Daemonheim.", "Members: Sagittarian longbow (Tier 11)"
+
+			case 85:
+				return 16477, 99, "Members can now use " + "<col=000080>" + "sagittarian arrows" + "</col>" + " within Daemonheim.", "Members: Sagittarian arrows (Tier 11)"
+
+			case 86:
+				return 17061, 99, "Members can now wear " + "<col=000080>" + "sagittarian coifs" + "</col>" + " within Daemonheim. (They also need level 99 Defence).", "Members: Sagittarian coif (Tier 11)" + "<br>" + " (with 99 Defence)"
+
+			case 87:
+				return 17193, 99, "Members can now wear " + "<col=000080>" + "sagittarian bodies" + "</col>" + " within Daemonheim. (They also need level 99 Defence).", "Members: Sagittarian body (Tier 11)" + "<br>" + " (with 99 Defence)"
+
+			case 88:
+				return 17339, 99, "Members can now wear " + "<col=000080>" + "sagittarian chaps" + "</col>" + " within Daemonheim. (They also need level 99 Defence).", "Members: Sagittarian chaps (Tier 11)" + "<br>" + " (with 99 Defence)"
+
+			case 89:
+				return 17215, 99, "Members can now wear " + "<col=000080>" + "sagittarian vambraces" + "</col>" + " within Daemonheim. (They also need level 99 Defence).", "Members: Sagittarian vambraces (Tier 11)" + "<br>" + " (with 99 Defence)"
+
+			case 90:
+				return 17317, 99, "Members can now wear " + "<col=000080>" + "sagittarian boots" + "</col>" + " within Daemonheim. (They also need level 99 Defence).", "Members: Sagittarian boots (Tier 11)" + "<br>" + " (with 99 Defence)"
+
+
+		}
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 8164, 40, "Members can now enter the prestigious " + "<col=000080>" + "Ranging Guild" + "</col>" + " in Hemenster and play the " + "<col=000080>" + "Target Practice" + "</col>" + " game there.", "Members: Ranging Guild"
+
+			case 1:
+				return 9756, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Ranged" + "<col=000080>" + ". Members can visit the " + "<col=800000>" + "armour salesman" + "<col=000080>" + " at the " + "<col=800000>" + "Ranging Guild" + "<col=000080>" + ". He has something special only available to true masters of the " + "<col=800000>" + "Ranged" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

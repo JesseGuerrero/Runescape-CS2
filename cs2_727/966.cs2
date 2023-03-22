@@ -1,0 +1,8 @@
+//script966(966)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = instr6279(arg0)
+if(iVar2 != arg1) {
+	if_setmodelangle(arg0, instr6277(arg0), script_967(iVar2, arg1), instr6280(arg0), instr6292(arg0), 0, 0)
+	store_varc(125, client_clock())
+}
+return

@@ -1,0 +1,172 @@
+//script1953(1953)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar0 = inv_total(2015, 93)
+iVar1 = inv_total(2019, 93)
+iVar2 = inv_total(2017, 93)
+iVar3 = inv_total(2108, 93)
+iVar4 = inv_total(2102, 93)
+iVar5 = inv_total(2128, 93)
+iVar6 = inv_total(2120, 93)
+iVar7 = inv_total(1973, 93)
+iVar8 = inv_total(2114, 93)
+iVar9 = inv_total(2126, 93)
+iVar10 = inv_total(1927, 93)
+iVar11 = inv_total(2021, 93)
+if(iVar0 >= 2)
+	if(iVar1 >= 1)
+		if(iVar3 >= 1)
+			if(iVar6 >= 1)
+				if(iVar4 >= 1)
+					if_setcolor(28573777, 0xFF00)
+				else
+					if_setcolor(28573777, 0xFF0000)
+if(iVar0 >= 1)
+	if(iVar6 >= 3)
+		if_setcolor(28573778, 0xFF00)
+	else
+		if_setcolor(28573778, 0xFF0000)
+if(iVar8 >= 1)
+	if(iVar4 >= 1)
+		if(iVar3 >= 1)
+			if_setcolor(28573779, 0xFF00)
+		else
+			if_setcolor(28573779, 0xFF0000)
+if(iVar8 >= 2)
+	if(iVar4 >= 1)
+		if(iVar3 >= 1)
+			if_setcolor(28573780, 0xFF00)
+		else
+			if_setcolor(28573780, 0xFF0000)
+if(iVar0 >= 1)
+	if(iVar1 >= 1)
+		if(iVar9 >= 1)
+			if_setcolor(28573781, 0xFF00)
+		else
+			if_setcolor(28573781, 0xFF0000)
+if(iVar2 >= 1)
+	if(iVar5 >= 1)
+		if(iVar10 >= 1)
+			if(iVar7 >= 1)
+				if_setcolor(28573782, 0xFF00)
+			else
+				if_setcolor(28573782, 0xFF0000)
+if(iVar0 >= 1)
+	if(iVar1 >= 1)
+		if(iVar11 >= 1)
+			if(iVar4 >= 2)
+				if(iVar3 >= 1)
+					if_setcolor(28573783, 0xFF00)
+				else
+					if_setcolor(28573783, 0xFF0000)
+if(inv_total(2114, 93) > 0)
+	if_setitem(if_gethash(436, 24), 100, 2114)
+else
+	if_setitem(if_gethash(436, 24), 100, 9497)
+if(inv_total(2102, 93) > 0)
+	if_setitem(if_gethash(436, 25), 140, 2102)
+else
+	if_setitem(if_gethash(436, 25), 140, 9492)
+if(inv_total(2108, 93) > 0)
+	if_setitem(if_gethash(436, 26), 140, 2108)
+else
+	if_setitem(if_gethash(436, 26), 140, 9493)
+if(inv_total(2015, 93) > 1)
+	if_setitem(if_gethash(436, 4), 120, 2015)
+else
+	if_setitem(if_gethash(436, 4), 120, 9491)
+if(inv_total(2019, 93) > 0)
+	if_setitem(if_gethash(436, 5), 120, 2019)
+else
+	if_setitem(if_gethash(436, 5), 120, 9491)
+if(inv_total(2108, 93) > 0)
+	if_setitem(if_gethash(436, 6), 140, 2108)
+else
+	if_setitem(if_gethash(436, 6), 140, 9493)
+if(inv_total(2120, 93) > 0)
+	if_setitem(if_gethash(436, 7), 140, 2120)
+else
+	if_setitem(if_gethash(436, 7), 140, 9555)
+if(inv_total(2102, 93) > 0)
+	if_setitem(if_gethash(436, 8), 140, 2102)
+else
+	if_setitem(if_gethash(436, 8), 140, 9492)
+if(inv_total(2015, 93) > 0)
+	if_setitem(if_gethash(436, 17), 120, 2015)
+else
+	if_setitem(if_gethash(436, 17), 120, 9491)
+if(inv_total(2120, 93) > 2)
+	if_setitem(if_gethash(436, 18), 120, 2120)
+else
+	if_setitem(if_gethash(436, 18), 140, 9555)
+if(inv_total(2015, 93) > 0)
+	if_setitem(if_gethash(436, 62), 120, 2015)
+else
+	if_setitem(if_gethash(436, 62), 120, 9491)
+if(inv_total(2019, 93) > 0)
+	if_setitem(if_gethash(436, 64), 120, 2019)
+else
+	if_setitem(if_gethash(436, 64), 120, 9491)
+if(inv_total(2021, 93) > 0)
+	if_setitem(if_gethash(436, 63), 120, 2021)
+else
+	if_setitem(if_gethash(436, 63), 120, 9556)
+if(inv_total(2108, 93) > 0)
+	if_setitem(if_gethash(436, 65), 140, 2108)
+else
+	if_setitem(if_gethash(436, 65), 140, 9493)
+if(inv_total(2102, 93) > 1)
+	if_setitem(if_gethash(436, 66), 140, 2102)
+else
+	if_setitem(if_gethash(436, 66), 140, 9492)
+if(inv_total(2017, 93) > 0)
+	if_setitem(if_gethash(436, 51), 120, 2017)
+else
+	if_setitem(if_gethash(436, 51), 120, 9491)
+if(inv_total(2128, 93) > 0)
+	if_setitem(if_gethash(436, 52), 120, 2128)
+else
+	if_setitem(if_gethash(436, 52), 120, 9494)
+if(inv_total(1973, 93) > 0)
+	if_setitem(if_gethash(436, 54), 140, 1973)
+else
+	if_setitem(if_gethash(436, 54), 140, 9507)
+if(inv_total(1927, 93) > 0)
+	if_setitem(if_gethash(436, 53), 100, 1927)
+else
+	if_setitem(if_gethash(436, 53), 100, 9495)
+if(inv_total(2114, 93) > 1)
+	if_setitem(if_gethash(436, 33), 100, 2114)
+else
+	if_setitem(if_gethash(436, 33), 100, 9497)
+if(inv_total(2102, 93) > 0)
+	if_setitem(if_gethash(436, 34), 140, 2102)
+else
+	if_setitem(if_gethash(436, 34), 140, 9492)
+if(inv_total(2108, 93) > 0)
+	if_setitem(if_gethash(436, 35), 140, 2108)
+else
+	if_setitem(if_gethash(436, 35), 140, 9493)
+if(inv_total(2015, 93) > 0)
+	if_setitem(if_gethash(436, 42), 120, 2015)
+else
+	if_setitem(if_gethash(436, 42), 120, 9491)
+if(inv_total(2019, 93) > 0)
+	if_setitem(if_gethash(436, 43), 120, 2019)
+else
+	if_setitem(if_gethash(436, 43), 120, 9491)
+if(inv_total(2126, 93) > 0)
+	if_setitem(if_gethash(436, 44), 140, 2126)
+else
+	if_setitem(if_gethash(436, 44), 140, 9496)
+return

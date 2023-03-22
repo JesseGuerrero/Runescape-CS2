@@ -1,0 +1,22 @@
+void script_1383(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5) {
+	Widget widget6;
+	int int7;
+	int int8;
+	int int9;
+	if (arg0 > arg2) {
+		script_1385(arg0, 0, 3, 0);
+		return;
+	}
+	widget6 = datamap('i', 'I', 1424, arg0);
+	if (widget6 == null) {
+		return;
+	}
+	widget6.setIsHidden(true);
+	int7 = 0;
+	int8 = 0;
+	int9 = 0;
+	int7, int8, int9 = script_1387(arg1);
+	widget6.setSize(arg3, arg3, 0, 0);
+	widget6.setPosition(int7 * arg3 - arg4, int9 * arg3 - arg5, 0, 2);
+	return;
+}

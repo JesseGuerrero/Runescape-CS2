@@ -1,0 +1,6 @@
+//script6395(6395)()(void)
+if_sethide(if_gethash(1307, 42), 0)
+if_sethide(if_gethash(1307, 72), 0)
+if_settext(if_gethash(1307, 108), "Rewards Locked")
+if_settext(if_gethash(1307, 109), "Bronze rewards will be unlocked once the Gielinor Games have begun.")
+return

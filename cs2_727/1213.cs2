@@ -1,0 +1,15 @@
+//script1213(1213)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(arg0 == 0) {
+	while(iVar1 < 10) {
+		script_5498(iVar1, 48889902)
+		iVar1 = iVar1 + 1
+	}
+	if(cc_find(9, if_gethash(746, 46)) == 1)
+		if(cc_gettransparency() == 255)
+			script_5500()
+} else 
+	if(instr6004(if_gethash(746, 46)) == 1)
+		instr6556(script_1213, "i", arg0 - 1)
+return

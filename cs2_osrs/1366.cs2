@@ -1,0 +1,7 @@
+void script_1366() {
+	widget(491, 13).setText(str(script_1371()));
+	widget(491, 14).setText(str(script_1372()));
+	widget(491, 15).setText(str(script_1374()));
+	widget(491, 16).setText(str(script_1373()));
+	return;
+}

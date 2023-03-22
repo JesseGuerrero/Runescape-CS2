@@ -1,0 +1,12 @@
+void script_184(int arg0, int arg1) {
+	if (arg0 == 2) {
+		m5001(arg1, m5005(), m5016());
+	} else if (arg0 == 3) {
+		m5001(m5000(), arg1, m5016());
+	} else if (arg0 == 4) {
+		VARP[1054] = arg1;
+	} else if (arg0 == 5) {
+		m5001(m5000(), m5005(), arg1);
+	}
+	return;
+}

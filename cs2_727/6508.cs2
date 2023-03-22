@@ -1,0 +1,211 @@
+//script6508(6508)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = if_getspriteid(arg0)
+iVar3 = -1
+switch(iVar2) {
+	case default:
+		break
+	case -1:
+		iVar3 = 11656
+		break
+	case 11655:
+		iVar3 = 11656
+		break
+	case 11685:
+		iVar3 = 11686
+		break
+	case 11667:
+		iVar3 = 11668
+		break
+	case 11658:
+		iVar3 = 11659
+		break
+	case 11688:
+		iVar3 = 11689
+		break
+	case 11703:
+		iVar3 = 11704
+		break
+	case 11676:
+		iVar3 = 11677
+		break
+	case 11673:
+		iVar3 = 11674
+		break
+	case 11709:
+		iVar3 = 11710
+		break
+	case 11697:
+		iVar3 = 11698
+		break
+	case 11670:
+		iVar3 = 11671
+		break
+	case 11661:
+		iVar3 = 11662
+		break
+	case 11682:
+		iVar3 = 11683
+		break
+	case 11694:
+		iVar3 = 11695
+		break
+	case 11679:
+		iVar3 = 11680
+		break
+	case 11664:
+		iVar3 = 11665
+		break
+	case 11691:
+		iVar3 = 11692
+		break
+	case 11700:
+		iVar3 = 11701
+		break
+	case 11706:
+		iVar3 = 11707
+		break
+	case 11654:
+		iVar3 = 11656
+		break
+	case 11684:
+		iVar3 = 11686
+		break
+	case 11666:
+		iVar3 = 11668
+		break
+	case 11657:
+		iVar3 = 11659
+		break
+	case 11687:
+		iVar3 = 11689
+		break
+	case 11702:
+		iVar3 = 11704
+		break
+	case 11675:
+		iVar3 = 11677
+		break
+	case 11672:
+		iVar3 = 11674
+		break
+	case 11708:
+		iVar3 = 11710
+		break
+	case 11696:
+		iVar3 = 11698
+		break
+	case 11669:
+		iVar3 = 11671
+		break
+	case 11660:
+		iVar3 = 11662
+		break
+	case 11681:
+		iVar3 = 11683
+		break
+	case 11693:
+		iVar3 = 11695
+		break
+	case 11678:
+		iVar3 = 11680
+		break
+	case 11663:
+		iVar3 = 11665
+		break
+	case 11690:
+		iVar3 = 11692
+		break
+	case 11699:
+		iVar3 = 11701
+		break
+	case 11705:
+		iVar3 = 11707
+		break
+	case 11656:
+		iVar3 = 11656
+		break
+	case 11686:
+		iVar3 = 11686
+		break
+	case 11668:
+		iVar3 = 11668
+		break
+	case 11659:
+		iVar3 = 11659
+		break
+	case 11689:
+		iVar3 = 11689
+		break
+	case 11704:
+		iVar3 = 11704
+		break
+	case 11677:
+		iVar3 = 11677
+		break
+	case 11674:
+		iVar3 = 11674
+		break
+	case 11710:
+		iVar3 = 11710
+		break
+	case 11698:
+		iVar3 = 11698
+		break
+	case 11671:
+		iVar3 = 11671
+		break
+	case 11662:
+		iVar3 = 11662
+		break
+	case 11683:
+		iVar3 = 11683
+		break
+	case 11695:
+		iVar3 = 11695
+		break
+	case 11680:
+		iVar3 = 11680
+		break
+	case 11665:
+		iVar3 = 11665
+		break
+	case 11692:
+		iVar3 = 11692
+		break
+	case 11701:
+		iVar3 = 11701
+		break
+	case 11707:
+		iVar3 = 11707
+		break
+
+}
+if_setgraphic(arg0, iVar3)
+switch(random(6)) {
+	case default:
+		break
+	case 0:
+		sound_vorbis_volume(255, 0, 1, 16777)
+		break
+	case 1:
+		sound_vorbis_volume(255, 0, 1, 16774)
+		break
+	case 2:
+		sound_vorbis_volume(255, 0, 1, 16781)
+		break
+	case 3:
+		sound_vorbis_volume(255, 0, 1, 16773)
+		break
+	case 4:
+		sound_vorbis_volume(255, 0, 1, 16775)
+		break
+	case 5:
+		sound_vorbis_volume(255, 0, 1, 16779)
+		break
+
+}
+script_6511(arg1)
+script_6514(arg1)
+return

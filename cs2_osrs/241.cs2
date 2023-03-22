@@ -1,0 +1,17 @@
+void script_241(int arg0, Item item1, int arg2) {
+	int int3;
+	CHILD.setItem(item1, 1);
+	int3 = script_19(item1);
+	if (int3 >= arg2) {
+		_CHILD.setRGB(0x00FF00);
+		if (arg0 == 1) {
+			_CHILD.setText(arg2 + "/" + arg2);
+		} else {
+			_CHILD.setText(script_20(int3) + "/" + arg2);
+		}
+	} else {
+		_CHILD.setRGB(0xFF0000);
+		_CHILD.setText(script_20(int3) + "/" + arg2);
+	}
+	return;
+}

@@ -1,0 +1,81 @@
+//script4920(4920)()(void)
+int iVar0
+int iVar1
+int iVar2
+string sVar0
+string sVar1
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+switch(load_varpbit(9552)) {
+	case default:
+		break
+	case 0:
+		iVar0 = 82510013
+		iVar1 = 82510007
+		iVar2 = 82509871
+		break
+	case 4:
+		iVar0 = 82641271
+		iVar1 = 82641265
+		iVar2 = 82641037
+		break
+	case 5:
+		iVar0 = 82444911
+		iVar1 = 82444905
+		iVar2 = 82444423
+		break
+	case 6:
+		iVar0 = 82575678
+		iVar1 = 82575672
+		iVar2 = 82575462
+		break
+
+}
+sVar0 = ""
+if(load_varc(1557) == 0)
+	if(load_varc(1558) < 6)
+		if(load_varc(1558) == 0)
+			if(load_varc(1559) < 20)
+			else
+if(load_varc(1557) == 0)
+	if(load_varc(1558) == 0)
+		if(load_varc(1559) == 0) {
+			if_settext(iVar1, "Due!")
+			return
+		}
+if(load_varc(1557) > 0)
+	sVar0 = append(to_string(load_varc(1557)) + "d ", sVar0)
+if(load_varc(1558) > 0)
+	sVar0 = append(to_string(load_varc(1558)) + "h ", sVar0)
+if(load_varc(1559) > 0)
+	sVar0 = append(to_string(load_varc(1559)) + "m", sVar0)
+if_settext(iVar1, sVar0)
+sVar1 = ""
+if(clan_vars_enabled() == 1) {
+	if_settext(iVar0, to_string(load_clan_var(2136)))
+	if(script_4786(load_clan_varbit(2580) - load_clan_varbit(2633)) == 1) {
+		if_setcolor(iVar0, 0x28C851)
+		sVar1 = "Sufficient full members have visited to allow all upkeep and upgrades."
+	} else 
+		if(script_4787(load_clan_varbit(2580) - load_clan_varbit(2633)) == 1)
+			if(load_clan_varbit(2580) == 7) {
+				if_setcolor(iVar0, 0x28C851)
+				sVar1 = "Sufficient full members have visited to allow all upkeep and upgrades."
+			} else  {
+				if_setcolor(iVar0, 0xD0C420)
+				sVar1 = "Sufficient full members have visited to allow all upkeep, but not to upgrade your citadel."
+			}
+		else
+			if(load_clan_var(2136) > 4) {
+				if_setcolor(iVar0, 0xC4312D)
+				sVar1 = "More full members must visit your citadel to allow you to perform upkeep on it."
+			} else  {
+				if_setcolor(iVar0, 0xC4312D)
+				sVar1 = "More full members must visit your citadel to avoid losing access to it next build tick."
+			}
+	if_setonmouseover(iVar2, script_4538, "IIisifdiiiiii", if_gethash(1259, 57), -2147483645, -1, sVar1, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+	hook_mouse_exit(iVar2, script_40, "I", if_gethash(1259, 57))
+}
+return
+return

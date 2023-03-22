@@ -1,0 +1,17 @@
+void script_1405(int arg0, int arg1, Item item2, Widget widget3, int arg4) {
+	if (arg0 != 1) {
+		if (arg0 == 10) {
+			msg(getItemName(item2) + ".");
+		}
+		return;
+	}
+	if (CHILD.setChild(widget3, arg4) == true) {
+		CHILD.setTrans(120);
+		CHILD.hookFrame(&script_488(CTX_WIDGET, CTX_WIDGET_CHILD, 0, getClientCycle() + 10));
+	}
+	playSoundEffect(2266, 1, 0);
+	if (CHILD.setChild(widget(458, 2), arg1) == true) {
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

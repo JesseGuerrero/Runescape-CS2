@@ -1,0 +1,4 @@
+//script5495(5495)(int arg0)(void)
+store_varc(1691, arg0)
+store_varc(1692, -1)
+return

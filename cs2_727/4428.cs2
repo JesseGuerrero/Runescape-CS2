@@ -1,0 +1,7 @@
+//script4428(4428)()(int)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 72745014
+instr6342(iVar0, script_4431, "I", -2147483645)
+return if_setmouseovercursor(if_gethash(1110, 28), 149)

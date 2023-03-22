@@ -1,0 +1,9 @@
+//script1138(1138)(int arg0)(void)
+int iVar1
+string sVar0
+iVar1 = 14014931
+if(load_varp(301) > 0)
+	iVar1 = 16750623
+sVar0 = if_gettext(arg0)
+script_4212(arg0, 3793, iVar1, 0, sVar0)
+return

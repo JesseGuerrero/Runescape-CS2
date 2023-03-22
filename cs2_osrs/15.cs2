@@ -1,0 +1,21 @@
+void script_15(Widget widget0, int arg1, int arg2) {
+	int int3;
+	int int4;
+	if (widget(90, 46).isHidden() == false) {
+		widget0.setText("");
+		return;
+	}
+	int3 = arg1 - (getClientCycle() - arg2) / 50;
+	if (int3 <= 0) {
+		widget0.setText("Hurry!");
+		return;
+	}
+	int4 = int3 / 60;
+	int3 = int3 % 60;
+	if (int3 >= 10) {
+		widget0.setText(int4 + ":" + int3);
+	} else {
+		widget0.setText(int4 + ":0" + int3);
+	}
+	return;
+}

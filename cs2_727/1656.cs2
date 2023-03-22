@@ -1,0 +1,10 @@
+//script1656(1656)()(void)
+if(load_varpbit(6673) == 0) {
+	instr6239(if_gethash(767, 10), script_29, "")
+	if_sethide(if_gethash(767, 54), 1)
+} else  {
+	instr6239(if_gethash(767, 10), None, "")
+	if_sethide(if_gethash(767, 54), 0)
+	script_679(50266167)
+}
+return

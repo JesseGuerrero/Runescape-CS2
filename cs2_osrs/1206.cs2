@@ -1,0 +1,74 @@
+void script_1206(Widget widget0, Widget widget1, int arg2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12) {
+	Sprite sprite13;
+	Widget widget14;
+	Widget widget15;
+	int int16;
+	widget8.setIsHidden(true);
+	widget9.setIsHidden(true);
+	widget10.setIsHidden(true);
+	widget11.setIsHidden(true);
+	widget12.setIsHidden(true);
+	sprite13 = 1077;
+	if (CHILD.setChild(widget3, 0) == true) {
+		CHILD.setSprite(sprite13);
+	}
+	if (CHILD.setChild(widget4, 0) == true) {
+		CHILD.setSprite(sprite13);
+	}
+	if (CHILD.setChild(widget5, 0) == true) {
+		CHILD.setSprite(sprite13);
+	}
+	if (CHILD.setChild(widget6, 0) == true) {
+		CHILD.setSprite(sprite13);
+	}
+	if (CHILD.setChild(widget7, 0) == true) {
+		CHILD.setSprite(sprite13);
+	}
+	widget3.hookMouseHover(&script_1207(CTX_WIDGET, widget(arg2), 3));
+	widget4.hookMouseHover(&script_1207(CTX_WIDGET, widget(arg2), 2));
+	widget5.hookMouseHover(&script_1207(CTX_WIDGET, widget(arg2), 4));
+	widget6.hookMouseHover(&script_1207(CTX_WIDGET, widget(arg2), 5));
+	widget7.hookMouseHover(&script_1207(CTX_WIDGET, widget(arg2), 1));
+	widget3.hookMouseExit(&script_229(CTX_WIDGET, 0, sprite13, widget(arg2)));
+	widget4.hookMouseExit(&script_229(CTX_WIDGET, 0, sprite13, widget(arg2)));
+	widget5.hookMouseExit(&script_229(CTX_WIDGET, 0, sprite13, widget(arg2)));
+	widget6.hookMouseExit(&script_229(CTX_WIDGET, 0, sprite13, widget(arg2)));
+	widget7.hookMouseExit(&script_229(CTX_WIDGET, 0, sprite13, widget(arg2)));
+	widget3.hookOptionClick(&script_1205(3, widget0, widget1, widget(arg2), widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12));
+	widget4.hookOptionClick(&script_1205(2, widget0, widget1, widget(arg2), widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12));
+	widget5.hookOptionClick(&script_1205(4, widget0, widget1, widget(arg2), widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12));
+	widget6.hookOptionClick(&script_1205(5, widget0, widget1, widget(arg2), widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12));
+	widget7.hookOptionClick(&script_1205(1, widget0, widget1, widget(arg2), widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12));
+	widget14 = null;
+	widget15 = null;
+	if (VARC[79] == 3) {
+		widget14, widget15 = widget3, widget8;
+	} else if (VARC[79] == 2) {
+		widget14, widget15 = widget4, widget9;
+	} else if (VARC[79] == 4) {
+		widget14, widget15 = widget5, widget10;
+	} else if (VARC[79] == 5) {
+		widget14, widget15 = widget6, widget11;
+	} else {
+		if (!(VARC[79] == 1)) {
+			return;
+		}
+		widget14, widget15 = widget7, widget12;
+	}
+	widget15.setIsHidden(false);
+	if (CHILD.setChild(widget14, 0) == true) {
+		CHILD.setSprite(1079);
+	}
+	widget14.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(arg2), datamap('i', 's', 1264, VARC[79]), 25, 512));
+	widget14.hookMouseExit(&script_40(widget(arg2)));
+	widget14.hookOptionClick(&script_489(0, 0));
+	int16 = widget15.getHeight();
+	if (int16 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int16);
+		script_72(widget1, widget0, getScrollY(widget0));
+	} else {
+		widget0.setScrollMax(0, 0);
+		script_72(widget1, widget0, 0);
+	}
+	return;
+}

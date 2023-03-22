@@ -1,0 +1,6 @@
+//script1170(1170)()(void)
+if(if_gettrans(if_gethash(601, 1)) > load_varc(1435))
+	if_settrans(if_gethash(601, 1), max(if_gettrans(if_gethash(601, 1)) - 1, 50))
+else
+	if_settrans(if_gethash(601, 1), min(if_gettrans(if_gethash(601, 1)) + 1, 255))
+return

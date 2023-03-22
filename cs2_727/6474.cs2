@@ -1,0 +1,32 @@
+//script6474(6474)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = load_varpbit(11480)
+if(arg0 == 85917864)
+	iVar2 = modulo(2, load_varpbit(11480) + 1)
+if(arg1 == 1)
+	if(arg0 == 85917765)
+		if(iVar2 == 1)
+			if_setgraphic(arg0, 10487)
+		else
+			if_setgraphic(arg0, 10487)
+	else
+		if(arg0 == 85917864)
+			if(iVar2 == 1)
+				if_setgraphic(arg0, 10485)
+			else
+				if_setgraphic(arg0, 10485)
+else {
+	script_41(85917779)
+	if(arg0 == 85917765)
+		if(iVar2 == 1)
+			if_setgraphic(arg0, 10487)
+		else
+			if_setgraphic(arg0, 10486)
+	else
+		if(arg0 == 85917864)
+			if(iVar2 == 1)
+				if_setgraphic(arg0, 10485)
+			else
+				if_setgraphic(arg0, 10484)
+}
+return

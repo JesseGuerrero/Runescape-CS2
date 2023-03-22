@@ -1,0 +1,3 @@
+//script146(146)(int arg0)(void)
+script_147(arg0, client_clock())
+return

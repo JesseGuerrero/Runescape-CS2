@@ -1,0 +1,68 @@
+//script1514(1514)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+if(arg0 != 1)
+	return
+iVar3 = -1
+iVar4 = 2
+iVar5 = 3
+iVar6 = 4
+if(gender() == 1)
+	iVar4 = 9
+iVar7 = -1
+switch(arg2) {
+	case default:
+		break
+	case 9:
+		iVar3 = script_361(arg1, 3)
+		if(iVar3 != -1) {
+			store_varc(1010, struct_param(1182, iVar3))
+			base_idkit(load_varc(1010), iVar4)
+			store_varc(1011, struct_param(1183, iVar3))
+			base_idkit(load_varc(1011), iVar5)
+			store_varc(1012, struct_param(1184, iVar3))
+			base_idkit(load_varc(1012), iVar6)
+		} else  {
+			base_idkit(arg1, arg2)
+			store_varc(1010, arg1)
+			if(load_varc(1011) == -1 || script_361(load_varc(1011), 4) != -1) {
+				if(gender() == 1)
+					iVar7 = 61
+				else
+					iVar7 = 26
+				base_idkit(iVar7, iVar5)
+				store_varc(1011, iVar7)
+			}
+			if(load_varc(1012) == -1 || script_361(load_varc(1012), 5) != -1) {
+				if(gender() == 1)
+					iVar7 = 68
+				else
+					iVar7 = 34
+				base_idkit(iVar7, iVar6)
+				store_varc(1012, iVar7)
+			}
+		}
+		break
+	case 10:
+		if(script_361(load_varc(1010), 3) == -1) {
+			base_idkit(arg1, arg2)
+			store_varc(1011, arg1)
+		}
+		break
+	case 11:
+		if(script_361(load_varc(1010), 3) == -1) {
+			base_idkit(arg1, arg2)
+			store_varc(1012, arg1)
+		}
+		break
+	case 12:
+		base_idkit(arg1, arg2)
+		store_varc(1013, arg1)
+		break
+
+}
+script_1513()
+return

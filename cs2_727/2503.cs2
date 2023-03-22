@@ -1,0 +1,5 @@
+//script2503(2503)()(void)
+if(load_varc(837) > 0)
+	if(load_varc(837) <= 9)
+		if_settext(if_gethash(291, 33), enum(2403, load_varc(837), 'i', 's'))
+return

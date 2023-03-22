@@ -1,0 +1,6 @@
+//script2571(2571)(int arg0)(void)
+if(container_total_param(803, 93) + container_total_param(802, 93) < 1 + arg0)
+	return
+store_varc(929, arg0)
+script_2573()
+return

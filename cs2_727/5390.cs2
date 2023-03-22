@@ -1,0 +1,24 @@
+//script5390(5390)(string arg0)(string)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = string_length(arg0)
+if(iVar0 < 10)
+	return arg0
+if(iVar0 > 10)
+	return to_string(2147483647)
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+while(iVar3 < 10) {
+	iVar1 = string_indexof_string(substring(arg0, iVar3 + 1, iVar3), "0123456789", 0)
+	iVar2 = modulo(10, 2147483647 / (10 ^ (9 - iVar3)))
+	if(iVar1 < iVar2)
+		return arg0
+	if(iVar1 > iVar2)
+		return to_string(2147483647)
+	iVar3 = iVar3 + 1
+}
+return arg0
+return ""

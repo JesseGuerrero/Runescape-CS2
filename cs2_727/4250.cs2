@@ -1,0 +1,4 @@
+//script4250(4250)(int arg0, int arg1)(void)
+if_sethide(arg0, 1)
+if_sethide(arg1, 0)
+return

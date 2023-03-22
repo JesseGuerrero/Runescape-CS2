@@ -1,0 +1,32 @@
+//script5430(5430)()(void)
+int iVar0
+iVar0 = 0
+if(load_varc(1668) == 1) {
+	if(load_varc(1667) == 1)
+		if(modulo(50, client_clock()) == 0)
+			store_varc(1665, load_varc(1665) + 1)
+	if(modulo(load_varc(1665), client_clock()) == 0) {
+		iVar0 = script_5431(0)
+		if(iVar0 == 0)
+			return
+		iVar0 = script_5431(1)
+		if(iVar0 == 0)
+			return
+		iVar0 = script_5431(2)
+		if(iVar0 == 0)
+			return
+	}
+} else 
+	if(load_varc(1668) == 2)
+		if(modulo(load_varc(1665), client_clock()) == 0) {
+			iVar0 = script_5431(0)
+			if(iVar0 == 0)
+				return
+			iVar0 = script_5431(1)
+			if(iVar0 == 0)
+				return
+			iVar0 = script_5431(2)
+			if(iVar0 == 0)
+				return
+		}
+return

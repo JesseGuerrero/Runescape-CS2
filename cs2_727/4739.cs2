@@ -1,0 +1,20 @@
+//script4739(4739)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+iVar3 = 0
+iVar4 = -1
+iVar5 = -1
+if(load_varpbit(9903) != 0) {
+	iVar5 = enum(3879, load_varpbit(9903), 'i', 'v')
+	if(arg2 == 1)
+		if(cc_find(arg1, if_gethash(1144, 0)) == 1) {
+			iVar4 = inv_getitem(arg1, iVar5)
+			if(iVar4 != -1) {
+				store_varpbit(9904, arg1)
+				script_4741()
+			}
+		}
+}
+return
+return

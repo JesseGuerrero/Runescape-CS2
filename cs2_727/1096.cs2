@@ -1,0 +1,4 @@
+//script1096(1096)()(void)
+script_1098()
+if_setsize(if_gethash(746, 11), 0, 0, instr6141().get(1), instr6141().get(0))
+return

@@ -1,0 +1,18 @@
+//script6501(6501)()(void)
+int iVar0
+if(script_1420() == 0) {
+	send_message("You cannot currently alter your camera zoom.")
+	return
+}
+if(load_varc(1971) < 170)
+	store_varc(1971, 270)
+iVar0 = scale(load_varc(1971), 5, 4)
+if(iVar0 < 170)
+	iVar0 = 170
+else
+	if(iVar0 > 216)
+		iVar0 = 216
+instr6764(load_varc(1971), iVar0)
+instr6790(180, 180)
+instr6686(400)
+return

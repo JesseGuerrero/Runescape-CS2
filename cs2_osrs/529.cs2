@@ -1,0 +1,7 @@
+void script_529(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	if (widget1.isHidden() == true) {
+		playSoundEffect(2266, 1, 0);
+	}
+	script_530(arg0, widget1, widget2, widget3, widget4, widget5, widget6);
+	return;
+}

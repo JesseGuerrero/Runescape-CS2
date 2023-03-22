@@ -1,0 +1,17 @@
+//script2077(2077)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+if(load_varc(632) == 0) {
+	iVar0 = 3 - load_varc(635)
+	if(iVar0 == 1)
+		if_settext(if_gethash(837, 9), "New game: " + to_string(iVar0) + " min")
+	else
+		if_settext(if_gethash(837, 9), "New game: " + to_string(iVar0) + " mins")
+} else  {
+	iVar1 = 20 - load_varc(636)
+	iVar0 = iVar1 + 3
+	if_settext(if_gethash(837, 9), "New game: " + to_string(iVar0) + " mins")
+}
+return

@@ -1,0 +1,36 @@
+//script4377(4377)()(void)
+int iVar0
+int iVar1
+int iVar2
+if(load_varp(2134) == load_varc(1499))
+	if_settext(if_gethash(1101, 74), "You have voted.")
+else
+	if_settext(if_gethash(1101, 74), "You have not yet voted." + "<br>" + "How would you like to vote?")
+if(load_varpbit(9151) == 0)
+	if_settext(if_gethash(1101, 12), "Results of last vote:")
+else
+	if(load_varpbit(9154) == 1 || load_varpbit(9154) == 0)
+		if_settext(if_gethash(1101, 12), "Vote open for less than a minute.")
+	else
+		if_settext(if_gethash(1101, 12), "Vote open for less than " + to_string(load_varpbit(9154)) + " minutes.")
+iVar0 = load_varpbit(9149) + load_varpbit(9150)
+iVar1 = 0
+iVar2 = 0
+if(iVar0 > 0)
+	if(iVar0 == load_varpbit(9149))
+		iVar1 = 100
+	else
+		if(iVar0 == load_varpbit(9150))
+			iVar2 = 100
+		else {
+			iVar1 = (100 * load_varpbit(9149)) / iVar0
+			if(load_varpbit(9150) == 0)
+				iVar2 = 0
+			else
+				iVar2 = 100 - iVar1
+		}
+if_settext(if_gethash(1101, 7), to_string(load_varpbit(9149)))
+if_settext(if_gethash(1101, 8), to_string(load_varpbit(9150)))
+script_4542(iVar1, 72155187, 72155192)
+script_4542(iVar2, 72155197, 72155202)
+return

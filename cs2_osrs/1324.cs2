@@ -1,0 +1,13 @@
+void script_1324(Widget widget0) {
+	if (m3323() == 1 || getClientRights() > 0) {
+		if (VARC[6] == 1) {
+			VARC[6] = 0;
+		} else {
+			VARC[6] = 1;
+		}
+		script_1326(widget0, VARC[6]);
+	} else {
+		msg("Only moderators may do that.");
+	}
+	return;
+}

@@ -1,0 +1,454 @@
+//script2787(2787)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2287, -1, " ", "You can see what each spell does by selecting the spellbook icon on your side interface. Move your mouse over the icon of the spell you want and a description will be available."
+
+			case 1:
+				return 3759, 1, "You can now cast " + "<col=000080>" + "Wind Rush" + "</col>" + ".", "Wind Rush"
+
+			case 2:
+				return 15, 1, "You can now cast " + "<col=000080>" + "Wind Strike" + "</col>" + ".", "Wind Strike"
+
+			case 3:
+				return 16, 3, "You can now cast " + "<col=000080>" + "Confuse" + "</col>" + ".", "Confuse"
+
+			case 4:
+				return 17, 5, "You can now cast " + "<col=000080>" + "Water Strike" + "</col>" + ".", "Water Strike"
+
+			case 5:
+				return 19, 9, "You can now cast " + "<col=000080>" + "Earth Strike" + "</col>" + ".", "Earth Strike"
+
+			case 6:
+				return 1564, 10, "You can now cast " + "<col=000080>" + "Teleport to Mobilising Armies" + "</col>" + ".", "Members: Teleport to Mobilising Armies"
+
+			case 7:
+				return 20, 11, "You can now cast " + "<col=000080>" + "Weaken" + "</col>" + ".", "Weaken"
+
+			case 8:
+				return 21, 13, "You can now cast " + "<col=000080>" + "Fire Strike" + "</col>" + ".", "Fire Strike"
+
+			case 9:
+				return 22, 15, "You can now cast " + "<col=000080>" + "Bones to Bananas" + "</col>" + ".", "Bones to Bananas"
+
+			case 10:
+				return 23, 17, "You can now cast " + "<col=000080>" + "Wind Bolt" + "</col>" + ".", "Wind Bolt"
+
+			case 11:
+				return 24, 19, "You can now cast " + "<col=000080>" + "Curse" + "</col>" + ".", "Curse"
+
+			case 12:
+				return 319, 20, "You can now cast " + "<col=000080>" + "Bind" + "</col>" + ".", "Bind"
+
+			case 13:
+				return 25, 21, "You can now cast " + "<col=000080>" + "Low Level Alchemy" + "</col>" + ".", "Low Level Alchemy"
+
+			case 14:
+				return 26, 23, "You can now cast " + "<col=000080>" + "Water Bolt" + "</col>" + ".", "Water Bolt"
+
+			case 15:
+				return 27, 25, "You can now cast " + "<col=000080>" + "Teleport to Varrock" + "</col>" + ".", "Teleport to Varrock"
+
+			case 16:
+				return 29, 29, "You can now cast " + "<col=000080>" + "Earth Bolt" + "</col>" + ".", "Earth Bolt"
+
+			case 17:
+				return 30, 31, "You can now cast " + "<col=000080>" + "Teleport to Lumbridge" + "</col>" + ".", "Teleport to Lumbridge"
+
+			case 18:
+				return 31, 33, "You can now cast " + "<col=000080>" + "Telekinetic Grab" + "</col>" + ".", "Telekinetic Grab"
+
+			case 19:
+				return 32, 35, "You can now cast " + "<col=000080>" + "Fire Bolt" + "</col>" + ".", "Fire Bolt"
+
+			case 20:
+				return 33, 37, "You can now cast " + "<col=000080>" + "Teleport to Falador" + "</col>" + ".", "Teleport to Falador"
+
+			case 21:
+				return 34, 39, "You can now cast " + "<col=000080>" + "Crumble Undead" + "</col>" + ".", "Crumble Undead"
+
+			case 22:
+				return 355, 40, "Members can now cast " + "<col=000080>" + "Teleport to House" + "</col>" + ".", "Members: Teleport to House"
+
+			case 23:
+				return 35, 41, "You can now cast " + "<col=000080>" + "Wind Blast" + "</col>" + ".", "Wind Blast"
+
+			case 24:
+				return 36, 43, "You can now cast " + "<col=000080>" + "Superheat Item" + "</col>" + ".", "Superheat Item"
+
+			case 25:
+				return 37, 45, "Members can now cast " + "<col=000080>" + "Teleport to Camelot" + "</col>" + ".", "Members: Teleport to Camelot"
+
+			case 26:
+				return 38, 47, "You can now cast " + "<col=000080>" + "Water Blast" + "</col>" + ".", "Water Blast"
+
+			case 27:
+				return 320, 50, "Members can now cast " + "<col=000080>" + "Snare" + "</col>" + ".", "Members: Snare"
+
+			case 28:
+				return 324, 50, "Members now have the Magic level required to cast " + "<col=000080>" + "Magic Dart" + "</col>" + ". (They also need level 55 Slayer.)", "Members: Magic Dart" + "<br>" + " (with level 55 Slayer)"
+
+			case 29:
+				return 53, 50, "Members now have the Magic level required to cast " + "<col=000080>" + "Iban's Blast" + "</col>" + " (after Underground Pass).", "Members: Iban's Blast" + "<br>" + " (after Underground Pass)"
+
+			case 30:
+				return 54, 51, "Members can now cast " + "<col=000080>" + "Teleport to Ardougne" + "</col>" + ".", "Members: Teleport to Ardougne" + "<br>" + " (after Plague City)"
+
+			case 31:
+				return 40, 53, "You can now cast " + "<col=000080>" + "Earth Blast" + "</col>" + ".", "Earth Blast"
+
+			case 32:
+				return 41, 55, "You can now cast " + "<col=000080>" + "High-level Alchemy" + "</col>" + ".", "High-level Alchemy"
+
+			case 33:
+				return 55, 58, "Members now have the Magic level required to cast " + "<col=000080>" + "Teleport to the Watchtower" + "</col>" + " (after Watchtower).", "Members: Teleport to the Watchtower" + "<br>" + " (after Watchtower)"
+
+			case 34:
+				return 44, 59, "You can now cast " + "<col=000080>" + "Fire Blast" + "</col>" + ".", "Fire Blast"
+
+			case 35:
+				return 354, 60, "Members can now learn " + "<col=000080>" + "Bones to Peaches" + "</col>" + " in the Mage Training Arena.", "Members: Bones to Peaches" + "<br>" + " (after Mage Training Arena)"
+
+			case 36:
+				return 61, 60, "Members can now learn " + "<col=000080>" + "Saradomin Strike" + "</col>" + " in the Mage Arena.", "Members: Saradomin Strike" + "<br>" + " (after Mage Arena)"
+
+			case 37:
+				return 60, 60, "Members can now learn " + "<col=000080>" + "Claws of Guthix" + "</col>" + " in the Mage Arena.", "Members: Claws of Guthix" + "<br>" + " (after Mage Arena)"
+
+			case 38:
+				return 59, 60, "Members can now learn " + "<col=000080>" + "Flames of Zamorak" + "</col>" + " in the Mage Arena.", "Members: Flames of Zamorak" + "<br>" + " (after Mage Arena)"
+
+			case 39:
+				return 323, 61, "Members now have the Magic level required to cast " + "<col=000080>" + "Teleport to Trollheim" + "</col>" + " (after Eadgar's Ruse).", "Members: Teleport to Trollheim" + "<br>" + " (after Eadgar's Ruse)"
+
+			case 40:
+				return 46, 62, "Members can now cast " + "<col=000080>" + "Wind Wave" + "</col>" + ".", "Members: Wind Wave"
+
+			case 41:
+				return 357, 64, "Members now have the Magic level required to cast " + "<col=000080>" + "Teleport to Ape Atoll" + "</col>" + " (after saving Awowogei in Recipe for Disaster).", "Members: Teleport to Ape Atoll" + "<br>" + " (after saving Awowogei in Recipe for Disaster)"
+
+			case 42:
+				return 48, 65, "Members can now cast " + "<col=000080>" + "Water Wave" + "</col>" + ".", "Members: Water Wave"
+
+			case 43:
+				return 56, 66, "Members can now cast " + "<col=000080>" + "Vulnerability" + "</col>" + ".", "Members: Vulnerability"
+
+			case 44:
+				return 51, 70, "Members can now cast " + "<col=000080>" + "Earth Wave" + "</col>" + ".", "Members: Earth Wave"
+
+			case 45:
+				return 57, 73, "Members can now cast " + "<col=000080>" + "Enfeeble" + "</col>" + ".", "Members: Enfeeble"
+
+			case 46:
+				return 349, 74, "Members can now cast " + "<col=000080>" + "Tele-other to Lumbridge" + "</col>" + ".", "Members: Tele-other Lumbridge"
+
+			case 47:
+				return 52, 75, "Members can now cast " + "<col=000080>" + "Fire Wave" + "</col>" + ".", "Members: Fire Wave"
+
+			case 48:
+				return 7699, 77, "Members can now cast " + "<col=000080>" + "Storm of Armadyl" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Storm of Armadyl" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 49:
+				return 321, 79, "Members can now cast " + "<col=000080>" + "Entangle" + "</col>" + ".", "Members: Entangle"
+
+			case 50:
+				return 58, 80, "Members can now cast " + "<col=000080>" + "Stun" + "</col>" + ".", "Members: Stun"
+
+			case 51:
+				return 322, 80, "Members can now cast " + "<col=000080>" + "Charge" + "</col>" + ".", "Members: Charge"
+
+			case 52:
+				return 500, 81, "Members can now cast " + "<col=000080>" + "Wind Surge" + "</col>" + ".", "Members: Wind Surge"
+
+			case 53:
+				return 350, 82, "Members can now cast " + "<col=000080>" + "Tele-other to Falador" + "</col>" + ".", "Members: Tele-other Falador"
+
+			case 54:
+				return 1565, 85, "You can now cast " + "<col=000080>" + "Teleport Block" + "</col>" + ".", "Teleport Block"
+
+			case 55:
+				return 501, 85, "Members can now cast " + "<col=000080>" + "Water Surge" + "</col>" + ".", "Members: Water Surge"
+
+			case 56:
+				return 811, 90, "Members can now cast " + "<col=000080>" + "Earth Surge" + "</col>" + ".", "Members: Earth Surge"
+
+			case 57:
+				return 351, 90, "Members can now cast " + "<col=000080>" + "Tele-other to Camelot" + "</col>" + ".", "Members: Tele-other to Camelot"
+
+			case 58:
+				return 814, 95, "Members can now cast " + "<col=000080>" + "Fire Surge" + "</col>" + ".", "Members: Fire Surge"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2287, -1, "", "Once you have completed Desert Treasure, you will be able to access the Ancient Magicks spellbook."
+
+			case 1:
+				return 356, -1, "", "Members: Home teleport (to Edgeville)"
+
+			case 2:
+				return 329, 50, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Smoke Rush" + "</col>" + ".", "Members: Smoke Rush"
+
+			case 3:
+				return 337, 52, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Shadow Rush" + "</col>" + ".", "Members: Shadow Rush"
+
+			case 4:
+				return 341, 54, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Paddewwa" + "</col>" + ".", "Members: Teleport to Paddewwa"
+
+			case 5:
+				return 333, 56, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Blood Rush" + "</col>" + ".", "Members: Blood Rush"
+
+			case 6:
+				return 325, 58, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Ice Rush" + "</col>" + ".", "Members: Ice Rush"
+
+			case 7:
+				return 342, 60, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Senntisten" + "</col>" + ".", "Members: Teleport to Senntisten"
+
+			case 8:
+				return 1568, 61, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Miasmic Rush" + "</col>" + ".", "Members: Miasmic Rush"
+
+			case 9:
+				return 330, 62, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Smoke Burst" + "</col>" + ".", "Members: Smoke Burst"
+
+			case 10:
+				return 338, 64, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Shadow Burst" + "</col>" + ".", "Members: Shadow Burst"
+
+			case 11:
+				return 343, 66, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Kharyrll" + "</col>" + ".", "Members: Teleport to Kharyrll"
+
+			case 12:
+				return 334, 68, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Blood Burst" + "</col>" + ".", "Members: Blood Burst"
+
+			case 13:
+				return 326, 70, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Ice Burst" + "</col>" + ".", "Members: Ice Burst"
+
+			case 14:
+				return 344, 72, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Lassar" + "</col>" + ".", "Members: Teleport to Lassar"
+
+			case 15:
+				return 1569, 73, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Miasmic Burst" + "</col>" + ".", "Members: Miasmic Burst"
+
+			case 16:
+				return 331, 74, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Smoke Blitz" + "</col>" + ".", "Members: Smoke Blitz"
+
+			case 17:
+				return 339, 76, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Shadow Blitz" + "</col>" + ".", "Members: Shadow Blitz"
+
+			case 18:
+				return 345, 78, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Dareeyak" + "</col>" + ".", "Members: Teleport to Dareeyak"
+
+			case 19:
+				return 335, 80, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Blood Blitz" + "</col>" + ".", "Members: Blood Blitz"
+
+			case 20:
+				return 327, 82, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Ice Blitz" + "</col>" + ".", "Members: Ice Blitz"
+
+			case 21:
+				return 346, 84, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Carrallangar" + "</col>" + ".", "Members: Teleport to Carrallangar"
+
+			case 22:
+				return 1567, 85, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Miasmic Blitz" + "</col>" + ".", "Members: Miasmic Blitz"
+
+			case 23:
+				return 332, 86, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Smoke Barrage" + "</col>" + ".", "Members: Smoke Barrage"
+
+			case 24:
+				return 340, 88, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Shadow Barrage" + "</col>" + ".", "Members: Shadow Barrage"
+
+			case 25:
+				return 347, 90, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Annakarl" + "</col>" + ".", "Members: Teleport to Annakarl"
+
+			case 26:
+				return 336, 92, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Blood Barrage" + "</col>" + ".", "Members: Blood Barrage"
+
+			case 27:
+				return 328, 94, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Ice Barrage" + "</col>" + ".", "Members: Ice Barrage"
+
+			case 28:
+				return 348, 96, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Teleport to Ghorrock" + "</col>" + ".", "Members: Teleport to Ghorrock"
+
+			case 29:
+				return 1566, 97, "Members using the Ancient Magicks spellbook can now cast " + "<col=000080>" + "Miasmic Barrage" + "</col>" + ".", "Members: Miasmic Barrage"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 2287, -1, "", "Once you have completed Lunar Diplomacy, you will be able to access the Lunar spellbook."
+
+			case 1:
+				return 356, -1, "", "Members: Home teleport (to Lunar Isle)"
+
+			case 2:
+				return 543, 65, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Bake Pie" + "</col>" + ".", "Members: Bake Pie"
+
+			case 3:
+				return 567, 66, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Cure Plant" + "</col>" + ".", "Members: Cure Plant"
+
+			case 4:
+				return 577, 66, "Members using the Lunar or Dungeoneering spellbook now have the Magic level required to cast " + "<col=000080>" + "Monster Examine" + "</col>" + " (after Dream Mentor).", "Members: Monster Examine" + "<br>" + " (after Dream Mentor)"
+
+			case 5:
+				return 568, 67, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Contact" + "</col>" + " (after Dream Mentor).", "Members: Contact"
+
+			case 6:
+				return 559, 68, "Members using the Lunar or Dungeoneering spellbook can now cast " + "<col=000080>" + "Cure Other" + "</col>" + ".", "Members: Cure Other"
+
+			case 7:
+				return 578, 68, "Members using the Lunar or Dungeoneering spellbook now have the Magic level required to cast " + "<col=000080>" + "Humidify" + "</col>" + " (after Dream Mentor).", "Members: Humidify" + "<br>" + " (after Dream Mentor)"
+
+			case 8:
+				return 544, 69, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to Moonclan Island" + "</col>" + ".", "Members: Teleport to Moonclan Island"
+
+			case 9:
+				return 569, 70, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to Moonclan Island" + "</col>" + ".", "Members: Group Teleport to Moonclan Island"
+
+			case 10:
+				return 562, 71, "Members using the Lunar or Dungeoneering spellbook can now cast " + "<col=000080>" + "Cure Me" + "</col>" + ".", "Members: Cure Me"
+
+			case 11:
+				return 579, 71, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Hunter Kit" + "</col>" + " (after Dream Mentor).", "Members: Hunter Kit" + "<br>" + " (after Dream Mentor)"
+
+			case 12:
+				return 583, 71, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to Ourania" + "</col>" + ".", "Members: Teleport to Ourania"
+
+			case 13:
+				return 545, 72, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to Waterbirth" + "</col>" + ".", "Members: Teleport to Waterbirth"
+
+			case 14:
+				return 4585, 72, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to South Falador" + "</col>" + " (unlocked at the Livid Farm).", "Members: Teleport to South Falador" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 15:
+				return 570, 73, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to Waterbirth" + "</col>" + ".", "Members: Group Teleport to Waterbirth"
+
+			case 16:
+				return 565, 74, "Members using the Lunar or Dungeoneering spellbook can now cast " + "<col=000080>" + "Cure Group" + "</col>" + ".", "Members: Cure Group"
+
+			case 17:
+				return 4586, 75, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Repair Rune Pouch" + "</col>" + " (unlocked at the Livid Farm).", "Members: Repair Rune Pouch" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 18:
+				return 547, 75, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to the Barbarian Outpost" + "</col>" + ".", "Members: Teleport to the Barbarian Outpost"
+
+			case 19:
+				return 576, 75, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Stat Spy" + "</col>" + " (after Dream Mentor).", "Members: Stat Spy" + "<br>" + " (after Dream Mentor)"
+
+			case 20:
+				return 4587, 76, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Teleport to North Ardougne" + "</col>" + " (unlocked at the Livid Farm).", "Members: Teleport to North Ardougne" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 21:
+				return 571, 76, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to the Barbarian Outpost" + "</col>" + ".", "Members: Group Teleport to the Barbarian Outpost"
+
+			case 22:
+				return 548, 77, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Superglass Make" + "</col>" + ".", "Members: Superglass Make"
+
+			case 23:
+				return 4588, 78, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Remote Farming" + "</col>" + " (unlocked at the Livid Farm).", "Members: Remote Farming" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 24:
+				return 549, 78, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to Port Khazard" + "</col>" + ".", "Members: Teleport to Port Khazard"
+
+			case 25:
+				return 572, 79, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to Port Khazard" + "</col>" + ".", "Members: Group Teleport to Port Khazard"
+
+			case 26:
+				return 580, 79, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Dream" + "</col>" + " (after Dream Mentor).", "Members: Dream" + "<br>" + " (after Dream Mentor)"
+
+			case 27:
+				return 4590, 80, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Spiritualise Food" + "</col>" + " (unlocked at the Livid Farm).", "Members: Spiritualise Food" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 28:
+				return 550, 80, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "String Jewellery" + "</col>" + ".", "Members: String Jewellery"
+
+			case 29:
+				return 554, 81, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Stat Restore Potion Share" + "</col>" + ".", "Members: Stat Restore Potion Share"
+
+			case 30:
+				return 552, 82, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Magic Imbue" + "</col>" + ".", "Members: Magic Imbue"
+
+			case 31:
+				return 4589, 83, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Make Leather" + "</col>" + " (unlocked at the Livid Farm).", "Members: Make Leather" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 32:
+				return 553, 83, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Fertile Soil" + "</col>" + ".", "Members: Fertile Soil"
+
+			case 33:
+				return 551, 84, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Boost Potion Share" + "</col>" + ".", "Members: Boost Potion Share"
+
+			case 34:
+				return 555, 85, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to the Fishing Guild" + "</col>" + ".", "Members: Teleport to the Fishing Guild"
+
+			case 35:
+				return 573, 86, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to the Fishing Guild" + "</col>" + ".", "Members: Group Teleport to the Fishing Guild"
+
+			case 36:
+				return 581, 86, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Plank Make" + "</col>" + " (after Dream Mentor).", "Members: Plank Make" + "<br>" + " (after Dream Mentor)"
+
+			case 37:
+				return 556, 87, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to Catherby" + "</col>" + ".", "Members: Teleport to Catherby"
+
+			case 38:
+				return 7684, 87, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Tune Bane Ore" + "</col>" + " (after Ritual of the Mahjarrat).", "Members: Tune Bane Ore" + "<br>" + " (after Ritual of the Mahjarrat)"
+
+			case 39:
+				return 574, 88, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to Catherby" + "</col>" + ".", "Members: Group Teleport to Catherby"
+
+			case 40:
+				return 557, 89, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to the Ice Plateau" + "</col>" + ".", "Members: Teleport to the Ice Plateau"
+
+			case 41:
+				return 4591, 90, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Disruption Shield" + "</col>" + " (unlocked at the Livid Farm).", "Members: Disruption Shield" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 42:
+				return 575, 90, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to the Ice Plateau" + "</col>" + ".", "Members: Group Teleport to the Ice Plateau"
+
+			case 43:
+				return 558, 91, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Energy Transfer" + "</col>" + ".", "Members: Energy Transfer"
+
+			case 44:
+				return 560, 92, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Heal Other" + "</col>" + ".", "Members: Heal Other"
+
+			case 45:
+				return 7685, 92, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Teleport to Trollheim" + "</col>" + ". (unlocked at the Livid Farm).", "Members: Teleport to Trollheim" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 46:
+				return 561, 93, "Members using the Lunar or Dungeoneering spellbook can now cast " + "<col=000080>" + "Vengeance Other" + "</col>" + ".", "Members: Vengeance Other"
+
+			case 47:
+				return 7686, 93, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Group Teleport to Trollheim" + "</col>" + ". (unlocked at the Livid Farm).", "Members: Group Teleport to Trollheim" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 48:
+				return 564, 94, "Members using the Lunar or Dungeoneering spellbook can now cast " + "<col=000080>" + "Vengeance" + "</col>" + ".", "Members: Vengeance"
+
+			case 49:
+				return 4592, 95, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Vengeance Group" + "</col>" + " (unlocked at the Livid Farm).", "Members: Vengeance Group" + "<br>" + " (unlocked at the Livid Farm)"
+
+			case 50:
+				return 566, 95, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Heal Group" + "</col>" + ".", "Members: Heal Group"
+
+			case 51:
+				return 582, 96, "Members using the Lunar spellbook now have the Magic level required to cast " + "<col=000080>" + "Spellbook Swap" + "</col>" + " (after Dream Mentor).", "Members: Spellbook Swap" + "<br>" + " (after Dream Mentor)"
+
+			case 52:
+				return 7687, 99, "Members using the Lunar spellbook can now cast " + "<col=000080>" + "Borrowed Power" + "</col>" + ". (unlocked at the Livid Farm).", "Members: Borrowed Power" + "<br>" + " (unlocked at the Livid Farm)"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

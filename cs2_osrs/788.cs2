@@ -1,0 +1,14 @@
+void script_788(int arg0, Widget widget1, Widget widget2, Widget widget3) {
+	int int4;
+	Widget widget5;
+	int4 = 0;
+	widget5 = datamap('i', 'I', 1011, int4);
+	while (widget5 != null) {
+		script_789(widget5, int4, widget3);
+		int4 = int4 + 1;
+		widget5 = datamap('i', 'I', 1011, int4);
+	}
+	script_141(widget1, "Inventory", "Collect to inventory");
+	script_141(widget2, "Bank", "Collect to bank");
+	return;
+}

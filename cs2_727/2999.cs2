@@ -1,0 +1,196 @@
+//script2999(2999)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar0 = "www"
+switch(userdetail_lobby_emailstatus()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(907, 34), 2672)
+		script_3010(script_3011(0).get(0), script_3011(0).get(1), script_3011(0).get(2), script_3011(0).get(3), script_3011(0).get(4), script_3011(0).get(5), script_3011(0).get(6))
+		if_settext(if_gethash(907, 39), "Unregistered")
+		sVar2 = "You do not currently have an email address registered. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to register."
+		sVar3 = "You do not currently have an email address registered. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to register."
+		if_settext(if_gethash(907, 40), sVar2)
+		hook_mouse_enter(if_gethash(907, 40), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 40), script_68, "Is", -2147483645, sVar2)
+		sVar1 = "account_settings.ws?mod=emailNew"
+		break
+	case 1:
+		if_setgraphic(if_gethash(907, 34), 2672)
+		script_3010(script_3011(0).get(0), script_3011(0).get(1), script_3011(0).get(2), script_3011(0).get(3), script_3011(0).get(4), script_3011(0).get(5), script_3011(0).get(6))
+		if_settext(if_gethash(907, 39), "Pending Parental Confirmation")
+		sVar2 = "You have registered your email address. We are currently waiting for your parent to confirm their email address. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to submit a confirmation code."
+		sVar3 = "You have registered your email address. We are currently waiting for your parent to confirm their email address. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to submit a confirmation code."
+		if_settext(if_gethash(907, 40), sVar2)
+		hook_mouse_enter(if_gethash(907, 40), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 40), script_68, "Is", -2147483645, sVar2)
+		sVar1 = "account_settings.ws?mod=emailNew"
+		break
+	case 2:
+		if_setgraphic(if_gethash(907, 34), 2672)
+		script_3010(script_3011(0).get(0), script_3011(0).get(1), script_3011(0).get(2), script_3011(0).get(3), script_3011(0).get(4), script_3011(0).get(5), script_3011(0).get(6))
+		if_settext(if_gethash(907, 39), "Pending Confirmation")
+		sVar2 = "Your email address is currently pending confirmation. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to submit a confirmation code."
+		sVar3 = "Your email address is currently pending confirmation. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to submit a confirmation code."
+		if_settext(if_gethash(907, 40), sVar2)
+		hook_mouse_enter(if_gethash(907, 40), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 40), script_68, "Is", -2147483645, sVar2)
+		sVar1 = "account_settings.ws?mod=emailNew"
+		break
+	case 3:
+		if_setgraphic(if_gethash(907, 34), 2669)
+		script_3008(script_3011(0).get(0), script_3011(0).get(1), script_3011(0).get(2), script_3011(0).get(3), script_3011(0).get(4), script_3011(0).get(5), script_3011(0).get(6))
+		if_settext(if_gethash(907, 39), "Registered")
+		sVar2 = "Your email address is now registered. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to view or change your email preferences."
+		sVar3 = "Your email address is now registered. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to view or change your email preferences."
+		if_settext(if_gethash(907, 40), sVar2)
+		hook_mouse_enter(if_gethash(907, 40), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 40), script_68, "Is", -2147483645, sVar2)
+		sVar1 = "account_settings.ws?mod=email"
+		break
+	case 4:
+		if_setgraphic(if_gethash(907, 34), 2669)
+		script_3008(script_3011(0).get(0), script_3011(0).get(1), script_3011(0).get(2), script_3011(0).get(3), script_3011(0).get(4), script_3011(0).get(5), script_3011(0).get(6))
+		if_settext(if_gethash(907, 39), "No longer registered")
+		sVar2 = "Your account no longer has a registered email address. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to register again."
+		sVar3 = "Your account no longer has a registered email address. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to register again."
+		if_settext(if_gethash(907, 40), sVar2)
+		hook_mouse_enter(if_gethash(907, 40), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 40), script_68, "Is", -2147483645, sVar2)
+		sVar1 = "account_settings.ws?mod=email"
+		break
+
+}
+hook_mouse_press(if_gethash(907, 40), script_3088, "ss1", sVar0, sVar1, 1)
+script_3376(59441192)
+iVar0 = userdetail_lobby_recoveryday()
+sVar0 = "www"
+if(iVar0 == 0) {
+	if_setgraphic(if_gethash(907, 22), 2672)
+	script_3010(script_3011(1).get(0), script_3011(1).get(1), script_3011(1).get(2), script_3011(1).get(3), script_3011(1).get(4), script_3011(1).get(5), script_3011(1).get(6))
+	if_settext(if_gethash(907, 27), "Not Set")
+	sVar2 = "You do not have any recovery questions set. It will be more difficult to recover your password if it gets stolen or you forget it. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to set your recovery questions."
+	sVar3 = "You do not have any recovery questions set. It will be more difficult to recover your password if it gets stolen or you forget it. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to set your recovery questions."
+	if_settext(if_gethash(907, 28), sVar2)
+	hook_mouse_enter(if_gethash(907, 28), script_68, "Is", -2147483645, sVar3)
+	hook_mouse_exit(if_gethash(907, 28), script_68, "Is", -2147483645, sVar2)
+	sVar1 = "account_settings.ws?mod=recoveries"
+} else 
+	if(iVar0 < instr6797() + 1) {
+		if_setgraphic(if_gethash(907, 22), 2669)
+		script_3008(script_3011(1).get(0), script_3011(1).get(1), script_3011(1).get(2), script_3011(1).get(3), script_3011(1).get(4), script_3011(1).get(5), script_3011(1).get(6))
+		if_settext(if_gethash(907, 27), "Set")
+		sVar2 = "Recovery questions last set: " + fromdate(iVar0) + ". Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to change your recovery questions."
+		sVar3 = "Recovery questions last set: " + fromdate(iVar0) + ". Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to change your recovery questions."
+		if_settext(if_gethash(907, 28), sVar2)
+		hook_mouse_enter(if_gethash(907, 28), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 28), script_68, "Is", -2147483645, sVar2)
+		sVar1 = "account_settings.ws?mod=recoveries"
+	} else  {
+		if_setgraphic(if_gethash(907, 22), 2672)
+		script_3010(script_3011(1).get(0), script_3011(1).get(1), script_3011(1).get(2), script_3011(1).get(3), script_3011(1).get(4), script_3011(1).get(5), script_3011(1).get(6))
+		if_settext(if_gethash(907, 27), "Changed")
+		sVar2 = "Your new recovery questions will become active on " + fromdate(iVar0) + ". If you didn't request this, cancel it and change your password immediately. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to cancel."
+		sVar3 = "Your new recovery questions will become active on " + fromdate(iVar0) + ". If you didn't request this, cancel it and change your password immediately. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to cancel."
+		if_settext(if_gethash(907, 28), sVar2)
+		hook_mouse_enter(if_gethash(907, 28), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 28), script_68, "Is", -2147483645, sVar2)
+		sVar1 = "account_settings.ws?mod=recoveries"
+	}
+hook_mouse_press(if_gethash(907, 28), script_3088, "ss1", sVar0, sVar1, 1)
+script_3376(59441180)
+iVar1 = userdetail_lobby_unreadmessages()
+if(iVar1 == 0) {
+	if_setgraphic(if_gethash(907, 10), 2669)
+	script_3008(script_3011(2).get(0), script_3011(2).get(1), script_3011(2).get(2), script_3011(2).get(3), script_3011(2).get(4), script_3011(2).get(5), script_3011(2).get(6))
+	if_settext(if_gethash(907, 15), to_string(iVar1) + " Unread")
+	sVar2 = "You have no unread messages. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to open your Message Centre."
+	sVar3 = "You have no unread messages. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to open your Message Centre."
+	if_settext(if_gethash(907, 16), sVar2)
+	hook_mouse_enter(if_gethash(907, 16), script_68, "Is", -2147483645, sVar3)
+	hook_mouse_exit(if_gethash(907, 16), script_68, "Is", -2147483645, sVar2)
+} else  {
+	if_setgraphic(if_gethash(907, 10), 2672)
+	script_3010(script_3011(2).get(0), script_3011(2).get(1), script_3011(2).get(2), script_3011(2).get(3), script_3011(2).get(4), script_3011(2).get(5), script_3011(2).get(6))
+	if_settext(if_gethash(907, 15), to_string(iVar1) + " Unread")
+	if(iVar1 == 1) {
+		sVar2 = "You have 1 unread message. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to open your Message Centre."
+		sVar3 = "You have 1 unread message. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to open your Message Centre."
+	} else  {
+		sVar2 = "You have " + to_string(iVar1) + " unread messages. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to open your Message Centre."
+		sVar3 = "You have " + to_string(iVar1) + " unread messages. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to open your Message Centre."
+	}
+	if_settext(if_gethash(907, 16), sVar2)
+	hook_mouse_enter(if_gethash(907, 16), script_68, "Is", -2147483645, sVar3)
+	hook_mouse_exit(if_gethash(907, 16), script_68, "Is", -2147483645, sVar2)
+}
+script_3376(59441168)
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar3 = userdetail_lobby_membership().get(0)
+sVar4 = format_datetime_from_minutes(iVar3)
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+sVar5 = ""
+if(iVar2 == 1) {
+	if_setgraphic(if_gethash(907, 48), 2669)
+	script_3008(script_3011(3).get(0), script_3011(3).get(1), script_3011(3).get(2), script_3011(3).get(3), script_3011(3).get(4), script_3011(3).get(5), script_3011(3).get(6))
+	if_settext(if_gethash(907, 53), "Subscription Active")
+	sVar2 = "You have an active subscription. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to view your account information. Make sure you play on a members' world to enjoy all of your members' benefits."
+	sVar3 = "You have an active subscription. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to view your account information. Make sure you play on a members' world to enjoy all of your members' benefits."
+	if_settext(if_gethash(907, 54), sVar2)
+	hook_mouse_enter(if_gethash(907, 54), script_68, "Is", -2147483645, sVar3)
+	hook_mouse_exit(if_gethash(907, 54), script_68, "Is", -2147483645, sVar2)
+	sVar0 = "billing_core"
+	sVar1 = "userdetails.ws"
+} else 
+	if(playermember() == 1) {
+		iVar5 = iVar4 / 1440
+		iVar6 = modulo(1440, iVar4) / 60
+		iVar7 = modulo(60, iVar4)
+		if((iVar5 + iVar6) + iVar7 != 0)
+			sVar5 = " (in " + script_4582(iVar5, iVar6, iVar7) + ")"
+		if_setgraphic(if_gethash(907, 48), 2669)
+		script_3008(script_3011(3).get(0), script_3011(3).get(1), script_3011(3).get(2), script_3011(3).get(3), script_3011(3).get(4), script_3011(3).get(5), script_3011(3).get(6))
+		if_settext(if_gethash(907, 53), "Expires " + sVar4)
+		sVar2 = "Your membership will expire on " + sVar4 + sVar5 + ". Renew now to avoid losing member status. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to renew."
+		sVar3 = "Your membership will expire on " + sVar4 + sVar5 + ". Renew now to avoid losing member status. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to renew."
+		if_settext(if_gethash(907, 54), sVar2)
+		hook_mouse_enter(if_gethash(907, 54), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 54), script_68, "Is", -2147483645, sVar2)
+		sVar0 = "dob"
+		sVar1 = "set_members_dob.ws"
+	} else  {
+		if_setgraphic(if_gethash(907, 48), 2672)
+		script_3010(script_3011(3).get(0), script_3011(3).get(1), script_3011(3).get(2), script_3011(3).get(3), script_3011(3).get(4), script_3011(3).get(5), script_3011(3).get(6))
+		if_settext(if_gethash(907, 53), "Not a Member")
+		sVar2 = "You are not a member. Members get loads of extra benefits and features. Click " + "<col=0166ff>" + "<u=0166ff>" + "here" + "</u>" + "</col>" + " to become a member."
+		sVar3 = "You are not a member. Members get loads of extra benefits and features. Click " + "<col=0296fe>" + "<u=0296fe>" + "here" + "</u>" + "</col>" + " to become a member."
+		if_settext(if_gethash(907, 54), sVar2)
+		hook_mouse_enter(if_gethash(907, 54), script_68, "Is", -2147483645, sVar3)
+		hook_mouse_exit(if_gethash(907, 54), script_68, "Is", -2147483645, sVar2)
+		sVar0 = "dob"
+		sVar1 = "set_members_dob.ws"
+	}
+hook_mouse_press(if_gethash(907, 54), script_3088, "ss1", sVar0, sVar1, 1)
+script_3376(59441206)
+return

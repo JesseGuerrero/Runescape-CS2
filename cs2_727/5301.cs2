@@ -1,0 +1,30 @@
+//script5301(5301)()(void)
+if(load_varpbit(9888) == 1) {
+	if_setcolor(54001677, 0xAAAA00)
+	if_settext(if_gethash(824, 59), "On")
+} else  {
+	if_setcolor(54001677, 0x0)
+	if_settext(if_gethash(824, 59), "Off")
+}
+if(load_varpbit(9889) == 1) {
+	if_setcolor(54001764, 0xAAAA00)
+	if_settext(if_gethash(824, 101), "On")
+} else  {
+	if_setcolor(54001764, 0x0)
+	if_settext(if_gethash(824, 101), "Off")
+}
+if(load_varpbit(9890) == 1) {
+	if_setcolor(54001817, 0xAAAA00)
+	if_settext(if_gethash(824, 154), "On")
+} else  {
+	if_setcolor(54001817, 0x0)
+	if_settext(if_gethash(824, 154), "Off")
+}
+if(load_varpbit(9891) == 1) {
+	if_setcolor(54001854, 0xAAAA00)
+	if_settext(if_gethash(824, 191), "On")
+} else  {
+	if_setcolor(54001854, 0x0)
+	if_settext(if_gethash(824, 191), "Off")
+}
+return

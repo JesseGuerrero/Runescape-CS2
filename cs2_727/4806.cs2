@@ -1,0 +1,182 @@
+//script4806(4806)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+iVar13 = -1
+iVar14 = -1
+iVar15 = -1
+iVar5 = script_4818(arg1, arg2).get(0)
+switch(arg2) {
+	case default:
+		break
+	case 1:
+		if_settext(iVar15, enum(4044, arg4, 'i', 's'))
+		break
+	case 2:
+		if_settext(iVar15, enum(4045, arg4, 'i', 's'))
+		break
+	case 3:
+		if_settext(iVar15, enum(4046, arg4, 'i', 's'))
+		break
+
+}
+if_sethide(iVar5, 0)
+iVar16 = 0
+iVar17 = 1
+iVar18 = -1
+iVar19 = 0
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		switch(arg2) {
+			case default:
+				break
+			case 1:
+				iVar19 = load_varpbit(9567)
+				break
+			case 2:
+				iVar19 = load_varpbit(9568)
+				break
+			case 3:
+				iVar19 = load_varpbit(9569)
+				break
+
+		}
+		break
+	case 2:
+		switch(arg2) {
+			case default:
+				break
+			case 1:
+				iVar19 = load_varpbit(9576)
+				break
+			case 2:
+				iVar19 = load_varpbit(9577)
+				break
+			case 3:
+				iVar19 = load_varpbit(9578)
+				break
+
+		}
+		break
+	case 3:
+		switch(arg2) {
+			case default:
+				break
+			case 1:
+				iVar19 = load_varpbit(9585)
+				break
+			case 2:
+				iVar19 = load_varpbit(9586)
+				break
+			case 3:
+				iVar19 = load_varpbit(9587)
+				break
+
+		}
+		break
+
+}
+while(iVar17 <= enum_getoutputcount(arg0)) {
+	iVar18 = enum(arg0, iVar17, 'i', 'J')
+	if(iVar18 != -1) {
+		cc_create(iVar16, 3, iVar14)
+		cc_setsize(0, 1, 26, 0)
+		cc_setposition(0, 0, iVar16 * 27, 0)
+		cc_setfill(1)
+		cc_setcolor(2c2820)
+		cc_create(iVar16, 5, iVar6)
+		cc_setgraphic(struct_param(1565, iVar18))
+		cc_setsize(0, 0, 22, 22)
+		cc_setposition(0, 0, 2 + (iVar16 * 27), 0)
+		cc_setonmouseover(script_4812, "sdii", struct_param(1566, iVar18), struct_param(1565, iVar18), struct_param(1567, iVar18), 25)
+		instr6092(script_4813, "")
+		cc_create(iVar16, 5, iVar7)
+		cc_setgraphic(struct_param(1572, iVar18))
+		cc_setsize(0, 0, 20, 20)
+		cc_setposition(0, 0, 2 + (iVar16 * 27), 1)
+		instr6092(script_40, "I", if_gethash(1258, 484))
+		cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1258, 484), -2147483645, -2147483643, struct_param(1570, iVar18), 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		cc_create(iVar16, 4, iVar10)
+		cc_settext(to_string(struct_param(1573, iVar18)))
+		cc_setsize(0, 1, 26, 0)
+		cc_setposition(0, 0, iVar16 * 27, 0)
+		cc_settextshadow(0)
+		cc_settextfont(494)
+		cc_settextalign(0, 1, 1)
+		cc_setcolor(ffffff)
+		if(iVar8 != -1) {
+			cc_create(iVar16, 5, iVar8)
+			cc_setgraphic(struct_param(1576, iVar18))
+			cc_setsize(0, 0, 20, 20)
+			cc_setposition(0, 0, 2 + (iVar16 * 27), 1)
+			instr6092(script_40, "I", if_gethash(1258, 484))
+			cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1258, 484), -2147483645, -2147483643, struct_param(1574, iVar18), 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		}
+		if(iVar11 != -1) {
+			cc_create(iVar16, 4, iVar11)
+			cc_settext(to_string(struct_param(1577, iVar18)))
+			cc_setsize(0, 1, 26, 0)
+			cc_setposition(0, 0, iVar16 * 27, 0)
+			cc_settextshadow(0)
+			cc_settextfont(494)
+			cc_settextalign(0, 1, 1)
+			cc_setcolor(ffffff)
+		}
+		if(iVar9 != -1) {
+			cc_create(iVar16, 5, iVar9)
+			cc_setgraphic(struct_param(1580, iVar18))
+			cc_setsize(0, 0, 20, 20)
+			cc_setposition(0, 0, 2 + (iVar16 * 27), 0)
+			instr6092(script_40, "I", if_gethash(1258, 484))
+			cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1258, 484), -2147483645, -2147483643, struct_param(1578, iVar18), 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		}
+		if(iVar12 != -1) {
+			cc_create(iVar16, 4, iVar12)
+			cc_settext(to_string(struct_param(1581, iVar18)))
+			cc_setsize(0, 1, 26, 0)
+			cc_setposition(0, 0, iVar16 * 27, 0)
+			cc_settextshadow(0)
+			cc_settextfont(494)
+			cc_settextalign(0, 1, 1)
+			cc_setcolor(ffffff)
+		}
+		cc_create(iVar16, 5, iVar13)
+		cc_setsize(0, 0, 16, 16)
+		cc_setposition(0, 0, 5 + (iVar16 * 27), 1)
+		if(arg3 == 0) {
+			cc_setop("Select", 1)
+			instr6687(script_4832, "Ii", -2147483645, -2147483643)
+		}
+		if(iVar19 == iVar16 + 1)
+			cc_setgraphic(6004)
+		else
+			cc_setgraphic(6009)
+		iVar16 = iVar16 + 1
+	}
+	iVar17 = iVar17 + 1
+	iVar18 = -1
+}
+if_setparam_int(iVar5, iVar16 * 27, 1564)
+return

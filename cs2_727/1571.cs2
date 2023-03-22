@@ -1,0 +1,17 @@
+//script1571(1571)(int arg0, int arg1, int arg2)(void)
+int iVar3
+string sVar0
+sVar0 = load_varc_string(203)
+iVar3 = if_getwidth(arg0)
+if(parawidth(sVar0 + " ", arg2, iVar3) > iVar3) {
+	while(stringwidth(arg2, sVar0 + "... ") > iVar3)
+		sVar0 = substring(sVar0, string_length(sVar0) - 1, 0)
+	sVar0 = sVar0 + "..."
+	if_setonmouseover(arg0, script_38, "IIsii", -2147483645, arg1, load_varc_string(203), 25, 5000)
+	hook_mouse_exit(arg0, script_40, "I", arg1)
+} else  {
+	if_setonmouseover(arg0, None, "")
+	hook_mouse_exit(arg0, None, "")
+}
+if_settext(arg0, sVar0)
+return

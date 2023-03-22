@@ -1,0 +1,3 @@
+//script2505(2505)(int arg0)(void)
+if_settext(arg0, "Limit: " + script_46(script_2687(), ","))
+return

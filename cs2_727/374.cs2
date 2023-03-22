@@ -1,0 +1,10 @@
+//script374(374)(int arg0, int arg1, string arg2)(void)
+cc_create(if_getnextsubid(arg0), 4, arg0)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 1, 1)
+cc_settextfont(3793)
+cc_setcolor(cdbe9a)
+cc_settextshadow(0)
+cc_settextalign(arg1, 1, 1)
+cc_settext(arg0)
+return

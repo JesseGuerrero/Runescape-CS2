@@ -1,0 +1,55 @@
+void script_1361(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	string str0;
+	int2 = -1;
+	int3 = 0;
+	int4 = 800;
+	if (arg1 == 0) {
+		while (int4 > 0) {
+			int4 = int4 - 1;
+			if (getItemIdInSlot(95, int4) == null) {
+				int3 = 1;
+				int4 = 0;
+			}
+		}
+	}
+	widget0.clearChildren();
+	int5 = 0;
+	if (int3 == 1) {
+		int5 = script_836(widget0, int5);
+	} else {
+		int5 = script_835(widget0, int5);
+	}
+	CHILD.createChild(widget0, 5, int5);
+	int5 = int5 + 1;
+	CHILD.setSize(28, 28, 0, 0);
+	CHILD.setPosition(8, 0, 0, 1);
+	CHILD.setSprite(1193);
+	str0 = "Fill bank";
+	widget0.setContextMenuOption(1, str0);
+	int6 = getMaxLineWidth(str0, widget0.getLayer().getWidth() - 46, 495);
+	CHILD.createChild(widget0, 4, int5);
+	CHILD.setSize(int6, 0, 0, 1);
+	CHILD.setPosition(46, 0, 0, 1);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setFont(495);
+	CHILD.setText(str0);
+	if (int3 == 1) {
+		CHILD.setRGB(0xFF981F);
+		widget0.hookMouseEnter(&script_85(CTX_WIDGET, int5, 16777215));
+		widget0.hookMouseExit(&script_85(CTX_WIDGET, int5, 16750623));
+		widget0.hookOptionClick(&script_1362(CTX_MENU_OPTION, widget0));
+	} else {
+		CHILD.setRGB(0x8F8F8F);
+		widget0.hookMouseEnter(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+	}
+	widget0.setSize(int6 + 54, widget0.getHeight(), 0, 0);
+	return;
+}

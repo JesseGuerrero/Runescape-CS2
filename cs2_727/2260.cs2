@@ -1,0 +1,179 @@
+//script2260(2260)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar1 = if_getwidth(arg0)
+iVar2 = if_getheight(arg0)
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 2987
+iVar7 = 2988
+if(world_members() == 1)
+	if(load_varc(1320) == 2) {
+		iVar6 = 2989
+		iVar7 = 2990
+	} else 
+		if(load_varc(1320) == 3) {
+			iVar6 = 2991
+			iVar7 = 2992
+		} else 
+			if(load_varc(1320) == 4) {
+				iVar6 = 2993
+				iVar7 = 2994
+			} else  {
+				iVar6 = 2987
+				iVar7 = 2988
+			}
+else
+	if(load_varc(1320) == 2) {
+		iVar6 = 2997
+		iVar7 = 2998
+	} else 
+		if(load_varc(1320) == 3) {
+			iVar6 = 2999
+			iVar7 = 3000
+		} else 
+			if(load_varc(1320) == 4) {
+				iVar6 = 3001
+				iVar7 = 3002
+			} else  {
+				iVar6 = 2995
+				iVar7 = 2996
+			}
+cc_deleteall(arg0)
+cc_deleteall(if_gethash(956, 25))
+cc_create(iVar3, 4, arg0)
+iVar3 = iVar3 + 1
+cc_setsize(0, 0, 12, 31)
+cc_setposition(0, 0, 0, 0)
+cc_settextfont(494)
+cc_settextalign(0, 1, 0)
+cc_settext("Resources:")
+cc_setcolor(c69b01)
+cc_settextshadow(1)
+cc_create(iVar3, 5, arg0)
+iVar3 = iVar3 + 1
+cc_setsize(0, 0, 12, 160)
+cc_setposition(0, 0, 7, 0)
+cc_setgraphic(1074)
+iVar5 = iVar5 + 20
+iVar8 = iVar3
+while(iVar3 - iVar8 < enum_getoutputcount(iVar6) * 5) {
+	cc_create(iVar3, 5, arg0)
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar5, iVar4)
+	cc_setgraphic(2205)
+	cc_setopbase("<col=ff981f>" + item_name(enum(iVar6, (iVar3 - iVar8) / 5, 'i', 'o')) + "</col>")
+	cc_setop("Info", 1)
+	cc_setop("Buy 1", 2)
+	cc_setop("Buy 5", 3)
+	cc_setop("Buy 10", 4)
+	cc_setop("Buy 50", 5)
+	cc_setop("Buy 250", 6)
+	cc_setop("Examine", 10)
+	instr6091(script_2261, "Ii1", -2147483645, iVar3 + 1, 0)
+	instr6092(script_2261, "Ii1", -2147483645, iVar3 + 1, 1)
+	cc_create(iVar3 + 1, 5, arg0)
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar5, iVar4)
+	cc_setgraphic(2206)
+	cc_sethide(1)
+	cc_create(iVar3 + 2, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, iVar5 + 4, iVar4 + 6)
+	cc_setitem_nonum(1, enum(iVar6, (iVar3 - iVar8) / 5, 'i', 'o'))
+	cc_setgraphicshadow(3153952)
+	cc_setoutline(1)
+	cc_create(iVar3 + 3, 5, arg0)
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar5 + 38, iVar4 + 2)
+	cc_setgraphic(2181)
+	cc_create(iVar3 + 4, 4, arg0)
+	cc_setsize(0, 0, 12, 31)
+	cc_setposition(0, 0, iVar5 + 39, iVar4 + 13)
+	cc_settextfont(494)
+	cc_settextalign(0, 1, 2)
+	cc_settext(script_940(script_2262(enum(iVar6, (iVar3 - iVar8) / 5, 'i', 'o'))))
+	cc_setcolor(e2e2a2)
+	cc_settextshadow(1)
+	iVar4 = iVar4 + 50
+	if(iVar4 + 48 > iVar1) {
+		iVar4 = 0
+		iVar5 = iVar5 + 54
+	}
+	iVar3 = iVar3 + 5
+}
+if(iVar4 != 0) {
+	iVar4 = 0
+	iVar5 = iVar5 + 52
+}
+cc_create(iVar3, 4, arg0)
+iVar3 = iVar3 + 1
+cc_setsize(0, 0, 12, 31)
+cc_setposition(0, 0, iVar5 + 10, 0)
+cc_settextfont(494)
+cc_settextalign(0, 1, 0)
+cc_settext("Tools:")
+cc_setcolor(c69b01)
+cc_settextshadow(1)
+cc_create(iVar3, 5, arg0)
+iVar3 = iVar3 + 1
+cc_setsize(0, 0, 12, 160)
+cc_setposition(0, 0, iVar5 + 17, 0)
+cc_setgraphic(1074)
+iVar5 = iVar5 + 30
+iVar8 = iVar3
+while(iVar3 - iVar8 < enum_getoutputcount(iVar7) * 5) {
+	cc_create(iVar3, 5, arg0)
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar5, iVar4)
+	cc_setgraphic(2205)
+	cc_setopbase("<col=ff981f>" + item_name(enum(iVar7, (iVar3 - iVar8) / 5, 'i', 'o')) + "</col>")
+	cc_setop("Info", 1)
+	cc_setop("Buy 1", 2)
+	cc_setop("Buy 5", 3)
+	cc_setop("Buy 10", 4)
+	cc_setop("Buy 50", 5)
+	cc_setop("Buy 250", 6)
+	cc_setop("Examine", 10)
+	instr6091(script_2261, "Ii1", -2147483645, iVar3 + 1, 0)
+	instr6092(script_2261, "Ii1", -2147483645, iVar3 + 1, 1)
+	cc_create(iVar3 + 1, 5, arg0)
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar5, iVar4)
+	cc_setgraphic(2206)
+	cc_sethide(1)
+	cc_create(iVar3 + 2, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, iVar5 + 4, iVar4 + 6)
+	cc_setitem_nonum(1, enum(iVar7, (iVar3 - iVar8) / 5, 'i', 'o'))
+	cc_setgraphicshadow(3153952)
+	cc_setoutline(1)
+	cc_create(iVar3 + 3, 5, arg0)
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar5 + 38, iVar4 + 2)
+	cc_setgraphic(2181)
+	cc_create(iVar3 + 4, 4, arg0)
+	cc_setsize(0, 0, 12, 31)
+	cc_setposition(0, 0, iVar5 + 39, iVar4 + 13)
+	cc_settextfont(494)
+	cc_settextalign(0, 1, 2)
+	cc_settext(script_940(script_2262(enum(iVar7, (iVar3 - iVar8) / 5, 'i', 'o'))))
+	cc_setcolor(e2e2a2)
+	cc_settextshadow(1)
+	iVar4 = iVar4 + 50
+	if(iVar4 + 48 > iVar1) {
+		iVar4 = 0
+		iVar5 = iVar5 + 54
+	}
+	iVar3 = iVar3 + 5
+}
+if_setscrollsize(arg0, iVar5 + 52, 0)
+script_31(62652441, arg0, 792, 789, 790, 791, 773, 788)
+return

@@ -1,0 +1,9 @@
+//script1146(1146)(int arg0)(int)
+if(arg0 >= 10000000)
+	return 65408
+else
+	if(arg0 >= 100000)
+		return 16777215
+	else
+		return 16776960
+return 0

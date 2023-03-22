@@ -1,0 +1,19 @@
+//script5481(5481)()(int)
+if(load_varpbit(4540) == 2 || load_varpbit(4540) == 3)
+	return 1
+if(load_varpbit(5493) != 0)
+	return 1
+switch(inv_getitem(1, 94)) {
+	case default:
+		break
+	case 15449:
+		return 1
+
+
+}
+if(load_varpbit(10131) == 1)
+	return 1
+if(load_varc(186) == 1)
+	return 1
+return 0
+return -1

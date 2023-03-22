@@ -1,0 +1,43 @@
+//script893(893)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+if(load_varc(112) < 10) {
+	store_varc(112, load_varc(112) + 1)
+	return
+}
+store_varc(112, 0)
+iVar0 = 20 - 0
+iVar1 = 80 - 0
+iVar2 = iVar1 / iVar0
+iVar3 = load_varpbit(4523) * iVar2
+if(load_varc(111) < iVar3)
+	store_varc(111, load_varc(111) + 1)
+else
+	if(load_varc(111) > iVar3)
+		store_varc(111, load_varc(111) - 1)
+if(load_varc(114) == 0)
+	if(load_varc(113) > 0)
+		store_varc(113, load_varc(113) - 1)
+	else
+		store_varc(114, 1)
+else
+	if(load_varc(113) < 4)
+		store_varc(113, load_varc(113) + 1)
+	else
+		store_varc(114, 0)
+iVar4 = load_varc(111) + (load_varc(113) + 2)
+iVar5 = 1024 / iVar1
+iVar4 = iVar4 * iVar5
+iVar4 = iVar4 + 512
+iVar4 = 2048 - iVar4
+if_setmodelangle(if_gethash(717, 4), 388, iVar4, 0, 0, 0, 0)
+iVar6 = enum(1422, load_varpbit(4519), 'i', 'i') * (1024 / iVar0)
+iVar6 = iVar6 + 512
+iVar6 = 2048 - iVar6
+if_setmodelangle(if_gethash(717, 3), 365, iVar6, 0, 0, 0, 0)
+return

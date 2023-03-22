@@ -1,0 +1,40 @@
+//script2713(2713)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+hook_mouse_press(arg3, None, "")
+if_setonmouseover(arg3, None, "")
+if_setonmouseover(arg3, None, "")
+iVar6 = -1
+iVar7 = 0
+if(load_varc(986) == 1) {
+	if_settrans(arg1, 0)
+	if_setcolor(arg1, 0x0)
+	if_sethide(arg1, 0)
+	instr6342(arg1, None, "")
+	instr6342(arg2, None, "")
+	store_varc(176, load_varc(176) - modulo(10, load_varc(176)))
+	iVar6 = script_1239(0).get(0)
+	instr6675(100, 100, 1000, iVar6)
+	instr6162(100, 100, 0, iVar6)
+	if_sethide(arg0, 0)
+	instr6342(arg0, script_2962, "IIIIIIi", arg0, arg1, arg2, arg3, arg4, arg5, client_clock() + 30)
+	store_varc(986, 0)
+	store_varc(994, 2)
+} else  {
+	instr6255(arg0, None, "")
+	if(if_gethide(arg1) == 1) {
+		if_settrans(arg1, 255)
+		if_sethide(arg1, 0)
+	}
+	if_setcolor(arg1, 0x0)
+	instr6342(arg1, script_1253, "I", -2147483645)
+	if(if_gethide(arg2) == 1) {
+		if_settrans(arg2, 255)
+		if_sethide(arg2, 0)
+	}
+	instr6342(arg2, script_1253, "I", -2147483645)
+	instr6342(arg0, script_2963, "IIIIIIi", arg0, arg1, arg2, arg3, arg4, arg5, client_clock() + 30)
+	store_varc(986, 1)
+}
+script_3230()
+return

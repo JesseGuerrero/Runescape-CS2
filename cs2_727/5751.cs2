@@ -1,0 +1,4 @@
+//script5751(5751)()(void)
+if(instr6004(if_gethash(1239, 8)) == 1)
+	store_varc(1771, cc_getscrolly())
+return

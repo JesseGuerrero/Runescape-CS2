@@ -1,0 +1,33 @@
+//script1239(1239)(int arg0)(int, int)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = load_varc(176) / 10
+if(iVar1 > 5) {
+	iVar1 = 1
+	store_varc(176, iVar1 * 10)
+}
+iVar2 = -1
+iVar3 = 0
+switch(iVar1) {
+	case default:
+		break
+	case 1:
+		iVar2 = script_3415(arg0).get(0)
+		break
+	case 2:
+		iVar2 = script_3371(arg0).get(0)
+		break
+	case 3:
+		iVar2 = script_3372(arg0).get(0)
+		break
+	case 4:
+		iVar2 = script_3373(arg0).get(0)
+		break
+	case 5:
+		iVar2 = script_3374(arg0).get(0)
+		break
+
+}
+return iVar3, iVar2
+return 0, -1

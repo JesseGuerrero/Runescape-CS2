@@ -1,0 +1,4 @@
+//script5708(5708)(int arg0)(void)
+if(cc_find(arg0, if_gethash(1218, 161)) == 1)
+	cc_setcolor(db9000)
+return

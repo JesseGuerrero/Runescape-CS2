@@ -1,0 +1,9 @@
+void script_345(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	script_348(widget1, widget2, widget3, widget4);
+	widget0.hookVARP(&script_347(widget1, widget2, widget3, widget4), 166);
+	widget1.hookOptionClick(&script_346(CTX_MENU_OPTION, 1, widget1, widget2, widget3, widget4));
+	widget2.hookOptionClick(&script_346(CTX_MENU_OPTION, 2, widget1, widget2, widget3, widget4));
+	widget3.hookOptionClick(&script_346(CTX_MENU_OPTION, 3, widget1, widget2, widget3, widget4));
+	widget4.hookOptionClick(&script_346(CTX_MENU_OPTION, 4, widget1, widget2, widget3, widget4));
+	return;
+}

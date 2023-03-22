@@ -1,0 +1,27 @@
+//script6310(6310)(int arg0)(void)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(1300, 0), 11422)
+		if_setgraphic(if_gethash(1300, 1), 11423)
+		if_setgraphic(if_gethash(1300, 2), 11424)
+		break
+	case 1:
+		if_setgraphic(if_gethash(1300, 0), 11428)
+		if_setgraphic(if_gethash(1300, 1), 11429)
+		if_setgraphic(if_gethash(1300, 2), 11430)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1300, 0), 11431)
+		if_setgraphic(if_gethash(1300, 1), 11432)
+		if_setgraphic(if_gethash(1300, 2), 11433)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1300, 0), 11425)
+		if_setgraphic(if_gethash(1300, 1), 11426)
+		if_setgraphic(if_gethash(1300, 2), 11427)
+		break
+
+}
+return

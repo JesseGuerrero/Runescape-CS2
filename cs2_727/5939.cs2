@@ -1,0 +1,22 @@
+//script5939(5939)(int arg0)(int)
+int iVar1
+iVar1 = 0
+if(arg0 == load_varpbit(11155) - 1)
+	iVar1 = 3
+else
+	switch(arg0) {
+		case default:
+			break
+		case 12:
+			iVar1 = 0
+			break
+		case 11:
+			iVar1 = 1
+			break
+		case 8:
+			iVar1 = 2
+			break
+
+	}
+return iVar1
+return 0

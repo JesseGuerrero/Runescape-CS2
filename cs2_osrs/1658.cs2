@@ -1,0 +1,158 @@
+void script_1658(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, int arg9) {
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	string str0;
+	script_1659(widget2, 6, 7, "Sort by rank", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, arg9);
+	script_1659(widget3, 2, 3, "Sort by name", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, arg9);
+	script_1659(widget4, 4, 5, "Sort by world", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, arg9);
+	script_1659(widget5, 0, 1, "Legacy sort", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, arg9);
+	widget6.clearChildren();
+	int10 = 0;
+	str0 = "";
+	int11 = -1;
+	int12 = -1;
+	int13 = clanmethod3618();
+	int14 = clanmethod3616();
+	int15 = clanGetChatCount();
+	ARRAY0 = new int[script_1045(int15, 1)];
+	int16 = widget2.getWidth();
+	int17 = (int16 - 9) / 2;
+	int18 = 3;
+	int19 = 0;
+	int20 = 0;
+	while (int20 < int15) {
+		int10 = int20 * 5;
+		ARRAY0[int20] = int10;
+		str0 = clanChatUsername(int20);
+		int11 = clanChatUserWorld(int20);
+		int12 = clanChatUserRank(int20);
+		CHILD.createChild(widget6, 4, int10);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(0, 1, 0);
+		CHILD.setText(str0);
+		CHILD.setSize(int16, 15, 1, 0);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTextAntiMacro(false);
+		_CHILD.createChild(widget6, 4, int10 + 1);
+		_CHILD.setFont(494);
+		_CHILD.setTextAlignment(2, 1, 0);
+		_CHILD.setText("World " + int11);
+		_CHILD.setSize(int16, 15, 1, 0);
+		if (int11 == getWorldId()) {
+			_CHILD.setRGB(0x0DC10D);
+		} else {
+			_CHILD.setRGB(0xFFFF64);
+		}
+		_CHILD.setTextAntiMacro(false);
+		_CHILD.createChild(widget6, 5, int10 + 2);
+		_CHILD.setSize(9, 9, 0, 0);
+		_CHILD.setSprite(datamap('i', 'd', 706, int12));
+		if (cs2method3624(int20) == false) {
+			if (isFriend(str0) == true) {
+				CHILD.setContextMenuOption(9, "Remove friend " + str0);
+				_CHILD.setContextMenuOption(9, "Remove friend " + str0);
+			} else if (cs2method3623(str0) == true) {
+				CHILD.setContextMenuOption(10, "Remove ignore " + str0);
+				_CHILD.setContextMenuOption(10, "Remove ignore " + str0);
+			} else {
+				CHILD.setContextMenuOption(7, "Add friend " + str0);
+				_CHILD.setContextMenuOption(7, "Add friend " + str0);
+				CHILD.setContextMenuOption(8, "Add ignore " + str0);
+				_CHILD.setContextMenuOption(8, "Add ignore " + str0);
+			}
+		}
+		if (script_1942() == 0 && int13 >= int14 && int13 > int12) {
+			CHILD.setContextMenuOption(6, "Kick user " + str0);
+			_CHILD.setContextMenuOption(6, "Kick user " + str0);
+		}
+		CHILD.hookOptionClick(&script_214(str0, CTX_MENU_OPTION));
+		_CHILD.hookOptionClick(&script_214(str0, CTX_MENU_OPTION));
+		CHILD.createChild(widget6, 4, int10 + 3);
+		CHILD.setSize(0, 0, 0, 0);
+		CHILD.setHidden(true);
+		CHILD.setText(concat(script_1503(str(int11), 5), int20));
+		CHILD.createChild(widget6, 4, int10 + 4);
+		CHILD.setSize(0, 0, 0, 0);
+		CHILD.setHidden(true);
+		CHILD.setText(concat(script_1503(str(int12), 3), int20));
+		int20 = int20 + 1;
+	}
+	if (int15 >= 2) {
+		if (VARC[185] == 2 || VARC[185] == 3) {
+			script_1661(0, 0, int15 - 1, 0, widget6);
+		} else if (VARC[185] == 4 || VARC[185] == 5) {
+			script_1661(0, 0, int15 - 1, 3, widget6);
+		} else if (VARC[185] == 6 || VARC[185] == 7) {
+			script_1661(0, 0, int15 - 1, 4, widget6);
+		}
+	}
+	if (int15 >= 1) {
+		if (VARC[185] == 3 || VARC[185] == 5 || VARC[185] == 7 || VARC[185] == 1) {
+			int20 = int15;
+			while (int20 > 0) {
+				int20 = int20 - 1;
+				if (CHILD.setChild(widget6, ARRAY0[int20]) == true) {
+					CHILD.setPosition(0, int19, 2, 0);
+				}
+				if (CHILD.setChild(widget6, ARRAY0[int20] + 1) == true) {
+					CHILD.setPosition(0, int19, 2, 0);
+				}
+				if (CHILD.setChild(widget6, ARRAY0[int20] + 2) == true) {
+					CHILD.setPosition(1, int19 + 1, 0, 0);
+				}
+				int19 = int19 + 15;
+			}
+		} else {
+			int20 = 0;
+			while (int20 < int15) {
+				if (CHILD.setChild(widget6, ARRAY0[int20]) == true) {
+					CHILD.setPosition(0, int19, 2, 0);
+				}
+				if (CHILD.setChild(widget6, ARRAY0[int20] + 1) == true) {
+					CHILD.setPosition(0, int19, 2, 0);
+				}
+				if (CHILD.setChild(widget6, ARRAY0[int20] + 2) == true) {
+					CHILD.setPosition(1, int19 + 1, 0, 0);
+				}
+				int19, int20 = int19 + 15, int20 + 1;
+			}
+		}
+		int19 = int19 + 5;
+	}
+	widget8.setNoOptions();
+	if (int15 > 0) {
+		widget0.setText("<col=ffff64>" + clanChatDisplayName() + "</col>");
+		widget1.setText("<col=ffffff>" + cs2method3625() + "</col>");
+		widget8.setText("Leave Chat");
+		if (VARPBIT[5432] == 1 || VARPBIT[4289] != 0) {
+			widget8.setContextMenuOption(6, "Leave Chat");
+			widget8.hookOptionClick(&script_194(CTX_MENU_OPTION, 6));
+		} else {
+			widget8.setContextMenuOption(1, "Leave Chat");
+			widget8.hookOptionClick(&script_194(CTX_MENU_OPTION, 1));
+		}
+	} else {
+		widget0.setText("Not in chat");
+		widget1.setText("None");
+		widget8.setText("Join Chat");
+		widget8.setContextMenuOption(1, "Join Chat");
+		widget8.hookOptionClick(&script_194(CTX_MENU_OPTION, 1));
+	}
+	if (int19 > widget6.getHeight()) {
+		widget6.setScrollMax(0, int19);
+		script_72(widget7, widget6, getScrollY(widget6));
+	} else {
+		widget6.setScrollMax(0, 0);
+		script_72(widget7, widget6, 0);
+	}
+	return;
+}

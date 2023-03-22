@@ -1,0 +1,46 @@
+//script6422(6422)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		iVar1 = 85786657
+		iVar2 = 85786658
+		iVar3 = 85786659
+		iVar4 = 85786660
+		iVar5 = 85786645
+		break
+	case 2:
+		iVar1 = 85786649
+		iVar2 = 85786650
+		iVar3 = 85786651
+		iVar4 = 85786661
+		iVar5 = 85786647
+		break
+	case 3:
+		iVar1 = 85786653
+		iVar2 = 85786654
+		iVar3 = 85786655
+		iVar4 = 85786662
+		iVar5 = 85786652
+		return
+
+
+}
+if(iVar1 == -1 || iVar2 == -1 || iVar3 == -1 || iVar4 == -1)
+	return
+if_setgraphic(iVar1, 7932)
+if_setgraphic(iVar2, 7933)
+if_setgraphic(iVar3, 7934)
+if_setcolor(iVar4, 0x606062)
+if_sethide(iVar5, 0)
+return

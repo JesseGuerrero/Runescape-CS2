@@ -1,0 +1,6 @@
+//script3526(3526)(int arg0)(void)
+if(script_3546(11) == script_3547(11))
+	script_3633(arg0)
+else
+	script_3634(arg0)
+return

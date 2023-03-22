@@ -1,0 +1,102 @@
+//script4042(4042)()(void)
+switch(load_varpbit(8648)) {
+	case default:
+		break
+	case 1:
+		if_setposition(enum(755, 1, 'i', 'I'), 0, 1, 0, -130)
+		break
+	case 2:
+		if_setposition(enum(755, 2, 'i', 'I'), 0, 1, 0, -130)
+		break
+	case 3:
+		if_setposition(enum(755, 3, 'i', 'I'), 0, 1, 0, -130)
+		break
+	case 4:
+		if_setposition(enum(755, 4, 'i', 'I'), 0, 1, 0, -130)
+		break
+	case 5:
+		if_setposition(enum(755, 5, 'i', 'I'), 0, 1, 0, -130)
+		break
+
+}
+switch(load_varpbit(8649)) {
+	case default:
+		break
+	case 1:
+		if_setposition(enum(755, 1, 'i', 'I'), 0, 1, 0, -65)
+		break
+	case 2:
+		if_setposition(enum(755, 2, 'i', 'I'), 0, 1, 0, -65)
+		break
+	case 3:
+		if_setposition(enum(755, 3, 'i', 'I'), 0, 1, 0, -65)
+		break
+	case 4:
+		if_setposition(enum(755, 4, 'i', 'I'), 0, 1, 0, -65)
+		break
+	case 5:
+		if_setposition(enum(755, 5, 'i', 'I'), 0, 1, 0, -65)
+		break
+
+}
+switch(load_varpbit(8650)) {
+	case default:
+		break
+	case 1:
+		if_setposition(enum(755, 1, 'i', 'I'), 0, 1, 0, 0)
+		break
+	case 2:
+		if_setposition(enum(755, 2, 'i', 'I'), 0, 1, 0, 0)
+		break
+	case 3:
+		if_setposition(enum(755, 3, 'i', 'I'), 0, 1, 0, 0)
+		break
+	case 4:
+		if_setposition(enum(755, 4, 'i', 'I'), 0, 1, 0, 0)
+		break
+	case 5:
+		if_setposition(enum(755, 5, 'i', 'I'), 0, 1, 0, 0)
+		break
+
+}
+switch(load_varpbit(8651)) {
+	case default:
+		break
+	case 1:
+		if_setposition(enum(755, 1, 'i', 'I'), 0, 1, 0, 65)
+		break
+	case 2:
+		if_setposition(enum(755, 2, 'i', 'I'), 0, 1, 0, 65)
+		break
+	case 3:
+		if_setposition(enum(755, 3, 'i', 'I'), 0, 1, 0, 65)
+		break
+	case 4:
+		if_setposition(enum(755, 4, 'i', 'I'), 0, 1, 0, 65)
+		break
+	case 5:
+		if_setposition(enum(755, 5, 'i', 'I'), 0, 1, 0, 65)
+		break
+
+}
+switch(load_varpbit(8652)) {
+	case default:
+		break
+	case 1:
+		if_setposition(enum(755, 1, 'i', 'I'), 0, 1, 0, 130)
+		break
+	case 2:
+		if_setposition(enum(755, 2, 'i', 'I'), 0, 1, 0, 130)
+		break
+	case 3:
+		if_setposition(enum(755, 3, 'i', 'I'), 0, 1, 0, 130)
+		break
+	case 4:
+		if_setposition(enum(755, 4, 'i', 'I'), 0, 1, 0, 130)
+		break
+	case 5:
+		if_setposition(enum(755, 5, 'i', 'I'), 0, 1, 0, 130)
+		break
+
+}
+return

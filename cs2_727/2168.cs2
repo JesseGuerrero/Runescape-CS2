@@ -1,0 +1,7 @@
+//script2168(2168)()(void)
+if(world_members() == 0)
+	send_message("More advanced sorting options are available on a members' world.")
+else
+	if(load_varp(281) < 1000)
+		send_message("More advanced sorting options are available after the Tutorial.")
+return

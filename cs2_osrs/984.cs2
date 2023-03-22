@@ -1,0 +1,17 @@
+void script_984() {
+	widget(121, 21).setText(datamap('i', 's', 1159, VARPBIT[4675]));
+	widget(121, 27).setText(datamap('i', 's', 1159, VARPBIT[4676]));
+	widget(121, 33).setText(datamap('i', 's', 1159, VARPBIT[4677]));
+	widget(121, 39).setText(datamap('i', 's', 1159, VARPBIT[4678]));
+	widget(121, 45).setText(datamap('i', 's', 1159, VARPBIT[4679]));
+	widget(121, 51).setText(datamap('i', 's', 1159, VARPBIT[4680]));
+	widget(121, 57).setText(datamap('i', 's', 1159, VARPBIT[4682]));
+	widget(121, 63).setText(datamap('i', 's', 1159, VARPBIT[4684]));
+	widget(121, 69).setText(datamap('i', 's', 1159, VARPBIT[4685]));
+	widget(121, 75).setText(datamap('i', 's', 1159, VARPBIT[4689]));
+	widget(121, 81).setText(datamap('i', 's', 1159, VARPBIT[4686]));
+	widget(121, 87).setText(datamap('i', 's', 1159, VARPBIT[4687]));
+	widget(121, 93).setText(datamap('i', 's', 1159, VARPBIT[4683]));
+	widget(121, 99).setText(datamap('i', 's', 1159, VARPBIT[4688]));
+	return;
+}

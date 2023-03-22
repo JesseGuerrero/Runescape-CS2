@@ -1,0 +1,32 @@
+//script1001(1001)(int arg0)(int, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 1, "Potions"
+
+	case 1:
+		return 1, "Herbs"
+
+	case 2:
+		return 1, "Barbarian potions"
+
+	case 3:
+		return 1, "Equipment"
+
+	case 4:
+		return 1, "Other"
+
+	case 5:
+		return 1, "Minigames"
+
+	case 6:
+		return 1, "Dungeoneering"
+
+	case 7:
+		return 1, "Milestones"
+		return -1, ""
+
+
+}
+return 0, ""

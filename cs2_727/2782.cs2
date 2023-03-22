@@ -1,0 +1,88 @@
+//script2782(2782)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+string sVar0
+if(string_length(load_varc_string(321)) <= 0) {
+	if_sethide(if_gethash(667, 49), 1)
+	if_sethide(if_gethash(670, 1), 1)
+	if_sethide(if_gethash(763, 3), 1)
+	return
+}
+cc_deleteall(if_gethash(667, 51))
+iVar0 = stringwidth(496, load_varc_string(321))
+iVar1 = parawidth(load_varc_string(322), 494, 2147483647)
+iVar2 = parawidth(load_varc_string(323), 494, 2147483647)
+iVar3 = parawidth(load_varc_string(324), 494, 2147483647)
+iVar4 = 0
+iVar5 = 0
+sVar0 = "Superior stats are shown in " + "<col=ffffff>" + "white" + "</col>" + "."
+if(string_length(load_varc_string(325)) > 0) {
+	iVar4 = parawidth(load_varc_string(325), 494, 2147483647)
+	iVar5 = stringwidth(494, sVar0)
+}
+iVar6 = (paramheight(load_varc_string(324), 494, 2147483647) * 10) + 3
+iVar7 = ((5 + iVar2) + 5) + iVar3
+if(iVar4 > 0) {
+	iVar7 = (iVar7 + 5) + iVar4
+	iVar7 = max(iVar5 + 10, iVar7)
+}
+iVar7 = max(iVar1, iVar7)
+iVar8 = max(if_getwidth(if_gethash(667, 62)), max(iVar0, iVar7))
+iVar9 = 0
+if(iVar8 > iVar7)
+	iVar9 = (iVar8 - iVar7) / 2
+cc_create(if_getnextsubid(if_gethash(667, 51)), 4, 43712563)
+cc_setposition(0, 0, 25, iVar9 + 10)
+cc_setsize(0, 1, iVar6, cc_getx())
+cc_settextfont(494)
+cc_settextshadow(1)
+cc_setcolor(ff981f)
+cc_settext(load_varc_string(322))
+cc_create(if_getnextsubid(if_gethash(667, 51)), 4, 43712563)
+cc_setposition(0, 0, 25, iVar9 + 15)
+cc_setsize(0, 1, iVar6, cc_getx())
+cc_settextfont(494)
+cc_settextshadow(1)
+cc_setcolor(ff981f)
+cc_settext(load_varc_string(323))
+cc_create(if_getnextsubid(if_gethash(667, 51)), 4, 43712563)
+cc_setposition(0, 0, 25, ((iVar9 + 15) + iVar2) + 5)
+cc_setsize(0, 0, iVar6, iVar3)
+cc_settextfont(494)
+cc_settextshadow(1)
+cc_setcolor(ff981f)
+cc_settextalign(0, 0, 1)
+cc_settext(load_varc_string(324))
+if(iVar4 > 0) {
+	cc_create(if_getnextsubid(if_gethash(667, 51)), 4, 43712563)
+	cc_setposition(0, 0, 25, ((((iVar9 + 15) + iVar2) + 5) + iVar3) + 5)
+	cc_setsize(0, 0, iVar6, iVar4)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_setcolor(ff981f)
+	cc_settextalign(0, 0, 1)
+	cc_settext(load_varc_string(325))
+	cc_create(if_getnextsubid(if_gethash(667, 51)), 4, 43712563)
+	cc_setposition(0, 1, 25 + iVar6, 0)
+	cc_setsize(0, 0, 12, iVar5)
+	cc_settextalign(0, 1, 1)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_setcolor(ff981f)
+	cc_settext(sVar0)
+	iVar6 = iVar6 + cc_getheight()
+}
+if_setsize(if_gethash(667, 51), 0, 0, iVar6 + 60, iVar8 + 20)
+if_settext(if_gethash(667, 61), load_varc_string(321))
+if_sethide(if_gethash(667, 49), 0)
+if_sethide(if_gethash(670, 1), 0)
+if_sethide(if_gethash(763, 3), 0)
+return

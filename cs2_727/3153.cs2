@@ -1,0 +1,8 @@
+//script3153(3153)(int arg0, int arg1)(void)
+if_sethide(if_gethash(910, 14), 1)
+if(arg1 < 0)
+	if_setonmouseover(arg0, None, "")
+else
+	if(cc_find(arg1, arg0) == 1)
+		cc_setonmouseover(None, "")
+return

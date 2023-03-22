@@ -1,0 +1,14 @@
+//script2504(2504)()(void)
+int iVar0
+iVar0 = 0
+if_settext(if_gethash(291, 73), load_varc_string(180))
+if_settext(if_gethash(291, 28), load_varc_string(181))
+iVar0 = (paramheight(load_varc_string(180), 497, 207) * 17) + 5
+if_setsize(if_gethash(291, 73), 0, 0, iVar0, 207)
+if_setscrollsize(19071048, iVar0, 0)
+script_72(19071045, 19071048, 0)
+iVar0 = (paramheight(load_varc_string(181), 497, 207) * 17) + 5
+if_setsize(if_gethash(291, 28), 0, 0, iVar0, 207)
+if_setscrollsize(19071044, iVar0, 0)
+script_72(19071046, 19071044, 0)
+return

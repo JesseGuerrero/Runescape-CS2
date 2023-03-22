@@ -1,0 +1,11 @@
+//script4750(4750)()(void)
+int iVar0
+int iVar1
+if(instr6644() <= 1) {
+	if_setposition(if_gethash(933, 1), 1, 1, 0, 0)
+	return
+}
+iVar0 = (if_getwidth(if_gethash(933, 0)) - if_getwidth(if_gethash(933, 1))) / 2
+iVar1 = (if_getheight(if_gethash(933, 0)) - if_getheight(if_gethash(933, 1))) / 2
+if_setposition(if_gethash(933, 1), 2, 2, max(165, iVar1), max(223, iVar0))
+return

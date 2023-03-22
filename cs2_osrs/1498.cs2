@@ -1,0 +1,12 @@
+void script_1498(Widget widget0) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 4, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	script_1500(widget0);
+	widget0.hookVARP(&script_1499(widget0, getChildId()), 284);
+	return;
+}

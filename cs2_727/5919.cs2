@@ -1,0 +1,9 @@
+//script5919(5919)()(void)
+int iVar0
+iVar0 = 82116636
+if_setposition(iVar0, 1, 1, -16, -35)
+if_sethide(if_gethash(1253, 28), 0)
+if_sethide(if_gethash(1253, 48), 1)
+instr6342(iVar0, script_5920, "Ii", -2147483645, -35)
+sound_vorbis_volume(100, 0, 1, 14234)
+return

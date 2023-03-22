@@ -1,0 +1,14 @@
+//script3963(3963)(int arg0, int arg1, int arg2, int arg3)(void)
+string sVar0
+sVar0 = removetags(if_gettext(arg1))
+if(arg0 != -1)
+	if(arg3 == 1) {
+		if_settext(arg1, "<u=fafafa>" + sVar0 + "</u>")
+		if_setcolor(arg1, 0xFAFAFA)
+		if_setsize(arg0, 0, 0, if_getheight(arg0), stringwidth(arg2, sVar0))
+	} else  {
+		if_settext(arg1, "<u=c8c8c8>" + sVar0 + "</u>")
+		if_setcolor(arg1, 0xC8C8C8)
+		if_setsize(arg0, 0, 0, if_getheight(arg0), stringwidth(arg2, sVar0))
+	}
+return

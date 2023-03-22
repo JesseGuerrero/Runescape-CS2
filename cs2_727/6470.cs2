@@ -1,0 +1,10 @@
+//script6470(6470)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = if_gety(arg1) + if_getheight(arg1)
+iVar3 = 0
+if(if_getscrolly(85917770) + if_getheight(if_gethash(1311, 43)) < iVar2) {
+	iVar3 = min(if_getscrollheight(85917770), if_gety(arg0))
+	script_72(85917774, 85917770, iVar3)
+}
+return

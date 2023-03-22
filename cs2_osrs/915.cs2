@@ -1,0 +1,12 @@
+void script_915(int arg0) {
+	DataMap datamap1;
+	datamap1 = script_900();
+	if (datamap1 == null) {
+		return;
+	}
+	if (arg0 == -1 && datamap('g', '1', 1134, datamap1) == false) {
+		arg0 = 8;
+	}
+	script_916(arg0, datamap1);
+	return;
+}

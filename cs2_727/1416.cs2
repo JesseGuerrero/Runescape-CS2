@@ -1,0 +1,5 @@
+//script1416(1416)(int arg0, int arg1)(int)
+if_setposition(arg0, 0, 0, 225 - (arg1 * if_getheight(arg0)), if_getx(arg0))
+arg1 = arg1 + 1
+return arg1
+return 0

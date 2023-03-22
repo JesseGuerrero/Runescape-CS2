@@ -1,0 +1,33 @@
+//script6336(6336)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = -1
+iVar4 = 0
+while(iVar2 < arg1) {
+	if(cc_find(iVar2, arg0) == 1) {
+		iVar3 = inv_getitem(iVar2, 93)
+		if(iVar3 != -1) {
+			cc_sethide(0)
+			iVar4 = inv_getnum(iVar2, 93)
+			cc_setitem(iVar4, iVar3)
+			cc_setopbase(script_4033(iVar3) + item_name(iVar3))
+			cc_resetopname()
+			if(iVar4 > 2) {
+				cc_setop("Add-1", 1)
+				cc_setop("Add-All", 2)
+				cc_setop("Add-X", 3)
+			} else 
+				if(iVar4 == 2) {
+					cc_setop("Add-1", 1)
+					cc_setop("Add-All", 2)
+				} else 
+					cc_setop("Add", 1)
+			cc_setop("Examine", 10)
+		} else 
+			cc_sethide(1)
+	}
+	iVar2 = iVar2 + 1
+}
+return

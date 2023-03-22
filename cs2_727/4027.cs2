@@ -1,0 +1,4 @@
+//script4027(4027)(int arg0)(void)
+cc_deleteall(arg0)
+pop_int()
+return

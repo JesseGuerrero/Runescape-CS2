@@ -1,0 +1,29 @@
+//script4341(4341)(int arg0, int arg1, int arg2)(string, string)
+int iVar3
+string sVar0
+string sVar1
+string sVar2
+sVar0 = to_string(arg1)
+sVar1 = to_string(arg2)
+iVar3 = 0
+sVar2 = ""
+iVar3 = ((60 * arg1) + arg0) + arg2
+if(iVar3 < 0)
+	iVar3 = 1440 + iVar3
+arg2 = modulo(60, iVar3)
+arg1 = iVar3 / 60
+if(arg1 > 23)
+	arg1 = arg1 - 24
+else
+	if(arg1 < 0)
+		arg1 = 24 - arg1
+if(arg1 < 10)
+	sVar0 = "0" + to_string(arg1)
+else
+	sVar0 = to_string(arg1)
+if(arg2 < 10)
+	sVar1 = "0" + to_string(arg2)
+else
+	sVar1 = to_string(arg2)
+return sVar1, sVar0
+return "", ""

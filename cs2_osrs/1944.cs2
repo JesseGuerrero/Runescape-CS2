@@ -1,0 +1,5 @@
+void script_1944() {
+	widget(90, 5).setText("Champions remaining:");
+	widget(90, 6).setText(str(VARPBIT[5706]));
+	return;
+}

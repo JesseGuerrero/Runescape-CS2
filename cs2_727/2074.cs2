@@ -1,0 +1,6 @@
+//script2074(2074)()(void)
+if(load_varc(632) == 0)
+	if_settext(if_gethash(837, 8), "Players needed")
+else
+	if_settext(if_gethash(837, 8), "Players in game")
+return

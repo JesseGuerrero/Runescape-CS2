@@ -1,0 +1,24 @@
+//script1211(1211)(int arg0, int arg1, int arg2, string arg3)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+store_varc(1700, arg2)
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+if(instr6004(if_gethash(746, 46)) == 1) {
+	instr6556(None, "")
+	instr6556(script_1213, "i", load_varc(1694) + (string_length(arg0) * 2))
+}
+if(instr6004(if_gethash(746, 46)) == 1) {
+	iVar3 = min(20 + parawidth(arg0, 496, 180), 200)
+	iVar4 = 22 + (15 * paramheight(arg0, 496, 180))
+	if(compare("", if_gettext(if_gethash(746, 46))) != 0)
+		cc_setsize(0, 0, iVar4, iVar3)
+	script_1212(iVar3, iVar4, arg0)
+	if_setsize(if_gethash(746, 46), 0, 0, iVar4, iVar3)
+	if_setposition(if_gethash(746, 46), 1, 1, arg1, arg0)
+}
+return

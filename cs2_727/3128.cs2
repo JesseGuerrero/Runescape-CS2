@@ -1,0 +1,5 @@
+//script3128(3128)(int arg0, int arg1, int arg2)(void)
+if(arg0 == 1)
+	script_3135(arg2)
+return
+return

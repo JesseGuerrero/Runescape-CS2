@@ -1,0 +1,5 @@
+//script632(632)(int arg0)(void)
+if(stockmarket_isofferempty(arg0) == 0)
+	if(cc_find(0, script_623(arg0)) == 1)
+		cc_settrans(255)
+return

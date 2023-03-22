@@ -1,0 +1,11 @@
+//script6231(6231)()(void)
+if(load_varp(2611) == 1) {
+	if_sethide(if_gethash(906, 31), 0)
+	if_sethide(if_gethash(906, 34), 1)
+	store_varp(2522, 1)
+	script_196()
+} else  {
+	if_sethide(if_gethash(906, 34), 1)
+	script_3062(59375616)
+}
+return

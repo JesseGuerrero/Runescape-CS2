@@ -1,0 +1,158 @@
+//script300(300)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, string arg9)(int)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+iVar9 = 0
+iVar10 = 0
+iVar9 = script_296(arg0, arg1, arg3, arg4, arg5, arg6, arg7).get(0)
+iVar11 = struct_param(650, arg2)
+iVar12 = struct_param(651, arg2)
+iVar13 = (parawidth(arg0, 591, 512) + iVar11) + iVar11
+iVar14 = (((paramheight(arg0, 591, if_getwidth(arg3)) * 13) + 2) + iVar12) + iVar12
+iVar15 = struct_param(647, arg2)
+iVar16 = struct_param(648, arg2)
+iVar17 = struct_param(649, arg2)
+iVar18 = struct_param(652, arg2)
+iVar19 = (iVar13 - iVar11) / 2
+iVar20 = (iVar14 - iVar12) / 2
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10, iVar9)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10, iVar9)
+	cc_setsize(0, 0, iVar14 - (iVar12 * 2), iVar13 - (iVar11 * 2))
+	cc_setgraphic(struct_param(646, arg2))
+	cc_settiling(1)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10 - iVar20, iVar9)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10 - iVar20, iVar9)
+	cc_setsize(0, 0, iVar12, iVar13 - (iVar11 * 2))
+	cc_setgraphic(iVar16)
+	cc_settiling(1)
+	cc_setvflip(0)
+	cc_sethflip(0)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10 + iVar20, iVar9)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10 + iVar20, iVar9)
+	cc_setsize(0, 0, iVar12, iVar13 - (iVar11 * 2))
+	cc_setgraphic(iVar16)
+	cc_settiling(1)
+	cc_setvflip(1)
+	cc_sethflip(0)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10, iVar9 - iVar19)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10, iVar9 - iVar19)
+	cc_setsize(0, 0, iVar14 - (iVar12 * 2), iVar11)
+	cc_setgraphic(iVar17)
+	cc_settiling(1)
+	cc_setvflip(0)
+	cc_sethflip(0)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10, iVar9 + iVar19)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10, iVar9 + iVar19)
+	cc_setsize(0, 0, iVar14 - (iVar12 * 2), iVar11)
+	cc_setgraphic(iVar17)
+	cc_settiling(1)
+	cc_setvflip(0)
+	cc_sethflip(1)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10 - iVar20, iVar9 - iVar19)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10 - iVar20, iVar9 - iVar19)
+	cc_setsize(0, 0, iVar12, iVar11)
+	cc_setgraphic(iVar15)
+	cc_settiling(0)
+	cc_setvflip(0)
+	cc_sethflip(0)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10 - iVar20, iVar9 + iVar19)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10 - iVar20, iVar9 + iVar19)
+	cc_setsize(0, 0, iVar12, iVar11)
+	cc_setgraphic(iVar15)
+	cc_settiling(0)
+	cc_setvflip(0)
+	cc_sethflip(1)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10 + iVar20, iVar9 - iVar19)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10 + iVar20, iVar9 - iVar19)
+	cc_setsize(0, 0, iVar12, iVar11)
+	cc_setgraphic(iVar15)
+	cc_settiling(0)
+	cc_setvflip(1)
+	cc_sethflip(0)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10 + iVar20, iVar9 + iVar19)
+else {
+	cc_create(arg8, 5, arg3)
+	cc_setposition(1, 1, iVar10 + iVar20, iVar9 + iVar19)
+	cc_setsize(0, 0, iVar12, iVar11)
+	cc_setgraphic(iVar15)
+	cc_settiling(0)
+	cc_setvflip(1)
+	cc_sethflip(1)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10 + 1, iVar9 + 1)
+else {
+	cc_create(arg8, 4, arg3)
+	cc_setposition(1, 1, iVar10 + 1, iVar9 + 1)
+	cc_setsize(0, 0, iVar14, iVar13)
+	cc_setcolor(0)
+	cc_settextalign(13, 1, 1)
+	cc_settextfont(591)
+	cc_settext(arg0)
+}
+arg8 = arg8 + 1
+if(cc_find(arg8, arg3) == 1)
+	cc_setposition(1, 1, iVar10, iVar9)
+else {
+	cc_create(arg8, 4, arg3)
+	cc_setposition(1, 1, iVar10, iVar9)
+	cc_setsize(0, 0, iVar14, iVar13)
+	cc_setcolor(0)
+	cc_settextalign(13, 1, 1)
+	cc_settextfont(591)
+	cc_settext(arg0)
+}
+arg8 = arg8 + 1
+return arg8
+return 0

@@ -1,0 +1,9 @@
+//script927(927)(int arg0)(int)
+if(item_param(749, arg0) != -1)
+	return 1
+if(item_param(743, arg0) > -1)
+	return 1
+if(item_param(741, arg0) == 1)
+	return 1
+return 0
+return -1

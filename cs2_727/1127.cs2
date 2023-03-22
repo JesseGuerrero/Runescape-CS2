@@ -1,0 +1,28 @@
+//script1127(1127)(int arg0)(void)
+int iVar1
+string sVar0
+iVar1 = -1
+sVar0 = ""
+switch(arg0) {
+	case default:
+		break
+	case 12582914:
+		sVar0 = "Toggle defensive casting."
+		iVar1 = 12583008
+		break
+	case 12648466:
+		sVar0 = "Toggle defensive casting."
+		iVar1 = 12648501
+		break
+	case 28180500:
+		sVar0 = "Toggle defensive casting."
+		iVar1 = 28180545
+		break
+	case 62259202:
+		sVar0 = "Toggle defensive casting."
+		iVar1 = 62259272
+		break
+
+}
+script_39(arg0, iVar1, 25, if_getwidth(if_getlayer(iVar1)), sVar0)
+return

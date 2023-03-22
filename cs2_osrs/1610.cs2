@@ -1,0 +1,24 @@
+void script_1610(Widget widget0, int arg1, int arg2, Widget arg3) {
+	int int4;
+	Item item5;
+	Item item6;
+	int4 = getItemContainerLength(583);
+	if (arg1 < 0 || arg1 >= int4) {
+		return;
+	}
+	if (arg2 < 0 || arg2 >= int4) {
+		return;
+	}
+	item5 = getItemIdInSlot(583, arg1);
+	if (item5 == null) {
+		return;
+	}
+	item6 = getItemIdInSlot(583, arg2);
+	if (CHILD.setChild(widget0, arg2) == true) {
+		_ = script_1608(item5, getItemAmtInSlot(583, arg1), 0, arg3);
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		_ = script_1608(item6, getItemAmtInSlot(583, arg2), 0, arg3);
+	}
+	return;
+}

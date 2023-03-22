@@ -1,0 +1,17 @@
+void script_501(int arg0, int arg1) {
+	int int2;
+	int2 = 0;
+	if (arg1 == 1) {
+		int2 = VARP[261];
+	} else if (arg1 == 2) {
+		int2 = VARP[262];
+	} else if (arg1 == 3) {
+		int2 = VARP[263];
+	}
+	if (int2 == arg0) {
+		CHILD.setTrans(0);
+	} else {
+		CHILD.setTrans(255);
+	}
+	return;
+}

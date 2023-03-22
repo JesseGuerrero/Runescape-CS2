@@ -1,0 +1,35 @@
+//script3198(3198)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+iVar5 = -1
+iVar6 = 0
+if_sethide(arg3, 1)
+if_settext(arg0, "")
+if_settext(arg1, "")
+if_setsize(arg2, 0, 0, 300, if_getwidth(arg2))
+switch(arg4) {
+	case default:
+		break
+	case 59834368:
+		iVar5 = 59375695
+		iVar6 = 300
+		break
+	case 59899904:
+		iVar5 = 59375711
+		iVar6 = 122
+		break
+	case 64159744:
+		iVar5 = 59375685
+		iVar6 = 303
+		break
+	case 59965458:
+		iVar5 = 59375703
+		iVar6 = 312
+		break
+
+}
+if(iVar5 != -1) {
+	if_setsize(iVar5, 0, 0, iVar6, if_getwidth(iVar5))
+	if_setsize(arg4, 0, 0, iVar6, if_getwidth(arg4))
+}
+return

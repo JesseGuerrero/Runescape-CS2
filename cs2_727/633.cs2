@@ -1,0 +1,7 @@
+//script633(633)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = if_gettrans(arg0) + arg3
+if_settrans(arg0, iVar4)
+if(iVar4 >= arg2)
+	instr6342(arg0, script_634, "Iiii", arg0, arg1, arg2, arg3)
+return

@@ -1,0 +1,56 @@
+//script2846(2846)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+cc_deleteall(arg0)
+iVar1 = 308
+iVar2 = 55
+iVar3 = 0
+iVar4 = enum_getoutputcount(903)
+while(iVar3 < iVar4) {
+	cc_create(iVar3, 6, arg0)
+	cc_setsize(0, 0, 50, 50)
+	cc_setposition(0, 0, iVar2, iVar1)
+	cc_setmodel(enum(903, iVar3, 'i', 'm'))
+	cc_setmodelangle(2750, 0, 0, 512, 0, 0)
+	instr6499(script_2848, "IiIiii", -2147483645, -2147483643, if_gethash(-32768, 6), -2147483641, -2147483647, -2147483646)
+	instr6073(2)
+	instr6443(14)
+	cc_setop("Select", 1)
+	iVar3 = iVar3 + 1
+	if(iVar3 == 3) {
+		iVar1 = 308 + 48
+		iVar2 = 55
+	} else 
+		if(iVar3 == 6) {
+			iVar1 = 308 + 96
+			iVar2 = 55
+		} else 
+			iVar2 = 48 + iVar2
+}
+iVar1 = 113
+iVar2 = 83
+iVar4 = enum_getoutputcount(904)
+iVar4 = iVar4 + iVar3
+iVar5 = 0
+while(iVar3 < iVar4) {
+	cc_create(iVar3, 3, arg0)
+	cc_setsize(0, 0, 50, 50)
+	cc_setposition(0, 0, iVar2, iVar1)
+	cc_settrans(255)
+	iVar3 = iVar3 + 1
+	iVar5 = iVar5 + 1
+	if(iVar5 == 3) {
+		iVar1 = 113
+		iVar2 = 83 + 52
+	} else 
+		if(iVar5 == 6) {
+			iVar1 = 113
+			iVar2 = 83 + 104
+		} else 
+			iVar1 = 50 + iVar1
+}
+script_2847(arg0)
+return

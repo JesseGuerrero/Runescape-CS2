@@ -1,0 +1,71 @@
+//script193(193)(int arg0)(int)
+int iVar1
+if(load_varc(41) == 0)
+	return 1
+iVar1 = chatline_gettype(arg0)
+if(iVar1 == -1)
+	return 0
+else
+	if(iVar1 == 115 || iVar1 == 120)
+		return 1
+switch(load_varc(41)) {
+	case default:
+		break
+	case 1:
+		if(iVar1 == 0 || iVar1 == 4 || iVar1 == 27 || iVar1 == 28 || iVar1 == 29 || iVar1 == 109 || iVar1 == 110 || iVar1 == 26 || iVar1 == 117)
+			return 1
+		break
+	case 2:
+		if(iVar1 == 1 || iVar1 == 2 || iVar1 == 17 || iVar1 == 116)
+			return 1
+		break
+	case 3:
+		switch(iVar1) {
+			case default:
+				break
+			case 31:
+				return 1
+
+
+		}
+		break
+	case 4:
+		switch(iVar1) {
+			case default:
+				break
+			case 20:
+				return 1
+
+
+		}
+		break
+	case 5:
+		switch(iVar1) {
+			case default:
+				break
+			case 119:
+				return 1
+
+
+		}
+		if(script_506(arg0) == 1)
+			return 1
+		break
+	case 6:
+		if(iVar1 == 102 || iVar1 == 104)
+			return 1
+		break
+	case 7:
+		switch(iVar1) {
+			case default:
+				break
+			case 45:
+				return 1
+
+
+		}
+		break
+
+}
+return 0
+return -1

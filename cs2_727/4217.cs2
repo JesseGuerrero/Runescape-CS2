@@ -1,0 +1,82 @@
+//script4217(4217)()(int, int)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+iVar0 = iVar0 + stat_visible_xp(7)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(12)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(11)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(10)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(6)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(14)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(5)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(4)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(20)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(13)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(8)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(16)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(15)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(9)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(17)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(18)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(0)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(1)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(2)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(3)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(19)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(22)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(21)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(23)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+iVar0 = iVar0 + stat_visible_xp(24)
+if(iVar0 > 1000000000)
+	iVar1 = iVar1 + 1
+return iVar1, iVar0
+return 0, 0

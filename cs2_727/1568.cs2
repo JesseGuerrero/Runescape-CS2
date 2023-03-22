@@ -1,0 +1,6 @@
+//script1568(1568)(int arg0)(void)
+if(world_language() == 1)
+	if_setgraphic(arg0, 2295)
+else
+	if_setgraphic(arg0, 2281)
+return

@@ -1,0 +1,9 @@
+void script_1424(Widget widget0) {
+	_CHILD.setItem(995, VARPBIT[5357]);
+	if (VARPBIT[4692] == 2) {
+		widget0.setPosition(0, 10, 1, 0);
+	} else {
+		widget0.setPosition(5, 20, 0, 0);
+	}
+	return;
+}

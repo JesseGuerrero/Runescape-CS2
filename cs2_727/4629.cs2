@@ -1,0 +1,20 @@
+//script4629(4629)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(instr6004(if_gethash(1110, 20)) == 1) {
+	if(arg0 == 1) {
+		iVar1 = cc_getwidth() + 3
+		iVar1 = min(iVar1, 48)
+		if(iVar1 == 48)
+			instr6556(None, "")
+	} else  {
+		iVar1 = cc_getwidth() - 3
+		iVar1 = max(iVar1, 1)
+		if(iVar1 == 1) {
+			instr6556(None, "")
+			if_sethide(if_gethash(1110, 13), 1)
+		}
+	}
+	cc_setsize(0, 0, 19, iVar1)
+}
+return

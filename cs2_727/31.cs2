@@ -1,0 +1,71 @@
+//script31(31)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+iVar8 = if_getscrollheight(arg1)
+iVar9 = if_getheight(arg0)
+iVar10 = iVar9 - 32
+iVar11 = 0
+if(iVar8 > 0)
+	iVar11 = scale(iVar10, iVar8, iVar9)
+else
+	iVar11 = iVar10
+iVar11 = max(10, iVar11)
+iVar12 = if_getscrolly(arg1)
+iVar13 = 0
+iVar14 = 0
+if(iVar12 > 0) {
+	iVar13 = iVar8 - if_getheight(arg1)
+	if(iVar13 == 0)
+		iVar13 = 1
+	if(iVar12 > iVar13) {
+		if_setscrollpos(arg1, iVar13, 0)
+		iVar12 = iVar13
+	}
+	iVar14 = scale(iVar10 - iVar11, iVar13, iVar12)
+	iVar14 = min(iVar10 - iVar11, max(0, iVar14))
+}
+cc_create(0, 5, arg0)
+cc_setposition(0, 0, 16, 0)
+cc_setsize(1, 0, 32, 16)
+cc_setgraphic(arg2)
+cc_settiling(1)
+instr6088(script_34, "IIi", arg0, arg1, -2147483646)
+cc_create(1, 5, arg0)
+cc_setposition(0, 0, 16 + iVar14, 0)
+cc_setgraphic(arg4)
+cc_settiling(1)
+instr6676(0, arg0)
+instr6073(1)
+cc_setsize(0, 0, iVar11, 16)
+instr6224(script_35, "IIi1", arg0, arg1, -2147483646, 0)
+instr6499(script_35, "IIi1", arg0, arg1, -2147483646, 1)
+cc_create(2, 5, arg0)
+cc_setposition(0, 0, 16 + iVar14, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg3)
+cc_settiling(0)
+cc_create(3, 5, arg0)
+cc_setposition(0, 0, ((16 + iVar14) + iVar11) - 5, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg5)
+cc_settiling(0)
+cc_create(4, 5, arg0)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, 16, 16)
+cc_setgraphic(arg6)
+cc_settiling(0)
+instr5957(script_32, "II", arg0, arg1)
+cc_create(5, 5, arg0)
+cc_setposition(2, 0, 0, 0)
+cc_setsize(0, 0, 16, 16)
+cc_setgraphic(arg7)
+cc_settiling(0)
+instr5957(script_33, "II", arg0, arg1)
+instr6246(arg0, script_36, "IIi", arg0, arg1, -2147483646)
+instr6246(arg1, script_36, "IIi", arg0, arg1, -2147483646)
+return

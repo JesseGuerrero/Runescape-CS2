@@ -1,0 +1,19 @@
+//script113(113)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = 0
+iVar2 = 0
+if(random(2) == 0)
+	iVar1 = 5 + random(12)
+else
+	iVar1 = -5 - random(12)
+if(random(2) == 0)
+	iVar2 = 5 + random(12)
+else
+	iVar2 = -5 - random(12)
+iVar3 = random(63)
+iVar4 = random(127)
+return iVar3

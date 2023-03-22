@@ -1,0 +1,20 @@
+//script276(276)(int arg0)(string)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return "Lake"
+
+	case 2:
+		return "River"
+
+	case 3:
+		return "Beach"
+
+	case 4:
+		return "Docks"
+
+
+}
+return "Waterfront"
+return ""

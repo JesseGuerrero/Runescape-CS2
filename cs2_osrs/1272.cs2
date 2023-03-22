@@ -1,0 +1,58 @@
+void script_1272(Widget widget0, int arg1) {
+	Item item2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	string str0;
+	item2 = null;
+	int3 = 0;
+	int4 = 0;
+	if (arg1 == 0) {
+		while (int4 < 800) {
+			item2 = getItemIdInSlot(95, int4);
+			if ((Item)m4209(item2) != item2) {
+				int3 = int3 + 1;
+			}
+			int4 = int4 + 1;
+		}
+	}
+	widget0.clearChildren();
+	int5 = 0;
+	if (int3 > 0) {
+		int5 = script_836(widget0, int5);
+	} else {
+		int5 = script_835(widget0, int5);
+	}
+	CHILD.createChild(widget0, 5, int5);
+	int5 = int5 + 1;
+	CHILD.setSize(29, 22, 0, 0);
+	CHILD.setPosition(3, 0, 0, 1);
+	CHILD.setSprite(1342);
+	str0 = "Release all placeholders";
+	if (int3 > 0) {
+		str0 = concat(str0, " (" + script_46(int3, ",") + ")");
+	}
+	widget0.setContextMenuOption(6, str0);
+	int6 = getMaxLineWidth(str0, widget0.getLayer().getWidth() - 40, 495);
+	CHILD.createChild(widget0, 4, int5);
+	CHILD.setSize(int6, 0, 0, 1);
+	CHILD.setPosition(8, 0, 2, 1);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setFont(495);
+	CHILD.setText(str0);
+	if (int3 > 0) {
+		CHILD.setRGB(0xFF981F);
+		widget0.hookMouseEnter(&script_85(CTX_WIDGET, int5, 16777215));
+		widget0.hookMouseExit(&script_85(CTX_WIDGET, int5, 16750623));
+		widget0.hookOptionClick(&script_1273(CTX_MENU_OPTION, widget0));
+	} else {
+		CHILD.setRGB(0x8F8F8F);
+		widget0.hookMouseEnter(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+	}
+	widget0.setSize(int6 + 40, widget0.getHeight(), 0, 0);
+	return;
+}

@@ -1,0 +1,35 @@
+int, int script_1409(Item item0, int arg1, int arg2, int arg3) {
+	Model model4;
+	int int5;
+	CHILD.createChild(widget(468, 2), 6, arg2);
+	arg2 = arg2 + 1;
+	_CHILD.createChild(widget(468, 2), 4, arg2);
+	arg2 = arg2 + 1;
+	CHILD.setPosition(0, arg3, 0, 0);
+	_CHILD.setPosition(0, arg3, 2, 0);
+	CHILD.setSize(80, 80, 0, 0);
+	_CHILD.setSize(80, 80, 1, 0);
+	arg3 = arg3 + 80;
+	model4 = datamap('o', 'm', 1469, item0);
+	if (model4 != null) {
+		CHILD.setModel(model4);
+		CHILD.set3DRotation(0, 165, 0, 0, 0, 400);
+	} else {
+		CHILD.setNpcHead(3360);
+		CHILD.set3DRotation(10, 30, 92, 1955, 0, 1100);
+		CHILD.setAnimation(579);
+	}
+	_CHILD.setRGB(0xFFE6A0);
+	_CHILD.setFont(497);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(1, 1, 0);
+	int5 = datamap('o', 'i', 139, item0) - 1;
+	if (int5 >= 0 && int5 < 32) {
+		if (isBitFlagged(arg1, int5) == true) {
+			_CHILD.setText("<str>" + datamap('o', 's', 1470, item0) + "</str>");
+		} else {
+			_CHILD.setText(datamap('o', 's', 1470, item0));
+		}
+	}
+	return arg2, arg3;
+}

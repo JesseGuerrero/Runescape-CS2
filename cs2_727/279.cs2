@@ -1,0 +1,4 @@
+//script279(279)()(void)
+store_varp(2694, load_varp(1241))
+if_sethide(if_gethash(977, 31), 1)
+return

@@ -1,0 +1,30 @@
+void script_308(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	int int6;
+	widget0.clearChildren();
+	int5 = 0;
+	int6 = 0;
+	int5, int6 = script_309(widget0, widget1, "Resources", int5, int6, widget1, widget2, widget3, widget4);
+	int5, int6 = script_309(widget0, widget2, "Upgrades", int5, int6, widget1, widget2, widget3, widget4);
+	int5, int6 = script_309(widget0, widget3, "Benefits", int5, int6, widget1, widget2, widget3, widget4);
+	CHILD.createChild(widget0, 4, int5);
+	CHILD.setPosition(int6, 0, 0, 0);
+	CHILD.setSize(widget0.getWidth() - int6, widget0.getHeight(), 0, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	script_311();
+	CHILD.hookVARP(&script_310(CTX_WIDGET, CTX_WIDGET_CHILD), 1060);
+	widget4.setIsHidden(false);
+	if (widget4 != widget1) {
+		widget1.setIsHidden(true);
+	}
+	if (widget4 != widget2) {
+		widget2.setIsHidden(true);
+	}
+	if (widget4 != widget3) {
+		widget3.setIsHidden(true);
+	}
+	return;
+}

@@ -1,0 +1,10 @@
+//script6249(6249)()(void)
+if_sethide(if_gethash(732, 234), 1)
+if_sethide(if_gethash(732, 235), 1)
+if_sethide(if_gethash(732, 236), 1)
+if_sethide(if_gethash(732, 237), 0)
+if_setcolor(47972584, 0x0)
+if_setcolor(47972591, 0x0)
+if_setcolor(47972593, 0x0)
+if_setcolor(47972390, 0xFFFFFF)
+return

@@ -1,0 +1,11 @@
+void script_1379(int arg0, Widget widget1, int arg2) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	VARPBIT[5329] = arg2;
+	if (CHILD.setChild(widget1, 2) == true) {
+		script_1380(arg2);
+	}
+	return;
+}

@@ -1,0 +1,16 @@
+//script2866(2866)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+iVar2 = coordx(arg0) - coordx(arg1)
+if(iVar2 < 0)
+	iVar2 = iVar2 * -1
+iVar3 = coordz(arg0) - coordz(arg1)
+if(iVar3 < 0)
+	iVar3 = iVar3 * -1
+if(iVar2 > iVar3)
+	return iVar2
+else
+	return iVar3
+return 0

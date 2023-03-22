@@ -1,0 +1,23 @@
+//script5287(5287)()(void)
+sound_vorbis_rate(random_sound_pitch(20, 20), 200, 0, 1, 7513)
+if(instr6072(if_gethash(555, 48)) == 32768) {
+	if_set2dangle(if_gethash(555, 49), 49152)
+	if_set2dangle(if_gethash(555, 48), 49152)
+	return
+}
+if(instr6072(if_gethash(555, 48)) == 16384) {
+	if_set2dangle(if_gethash(555, 49), 32768)
+	if_set2dangle(if_gethash(555, 48), 32768)
+	return
+}
+if(instr6072(if_gethash(555, 48)) == 0) {
+	if_set2dangle(if_gethash(555, 49), 16384)
+	if_set2dangle(if_gethash(555, 48), 16384)
+	return
+}
+if(instr6072(if_gethash(555, 48)) == 49152) {
+	if_set2dangle(if_gethash(555, 49), 0)
+	if_set2dangle(if_gethash(555, 48), 0)
+	return
+}
+return

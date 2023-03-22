@@ -1,0 +1,18 @@
+//script6146(6146)(int arg0)(void)
+int iVar1
+iVar1 = 1
+if(random(2) == 0)
+	iVar1 = 0 - iVar1
+switch(load_varc(1903)) {
+	case default:
+		break
+	case 0:
+		cam_setangle(load_varc(1907), load_varc(1908))
+		script_6147(arg0, random(8), 400 + load_varc(1906), -1, iVar1)
+		break
+	case 4:
+		instr6236()
+		break
+
+}
+return

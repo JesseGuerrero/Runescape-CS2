@@ -1,0 +1,562 @@
+//script1006(1006)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9951, 1, "You can now lay " + "<col=000080>" + "1 trap" + "</col>" + " at a time.", "Lay 1 trap at a time"
+
+			case 1:
+				return 10006, 1, "You can now set " + "<col=000080>" + "bird snares" + "</col>" + ".", "Bird snare setting"
+
+			case 2:
+				return 10150, 1, "You can now use a " + "<col=000080>" + "noose wand" + "</col>" + " when tracking.", "Noose wand"
+
+			case 3:
+				return 10010, 15, "You can now use a " + "<col=000080>" + "butterfly net" + "</col>" + " and " + "<col=000080>" + "butterfly jar" + "</col>" + " to catch " + "<col=000080>" + "butterflies" + "</col>" + ".", "Butterfly netting"
+
+			case 4:
+				return 9951, 20, "You can now lay up to " + "<col=000080>" + "2 traps" + "</col>" + " at a time.", "Lay up to 2 traps at a time"
+
+			case 5:
+				return 1511, 23, "You can now set a " + "<col=000080>" + "deadfall trap" + "</col>" + " up to a limit of 1.", "Set a deadfall trap (limit of 1)"
+
+			case 6:
+				return 10008, 27, "You can now set a " + "<col=000080>" + "box trap" + "</col>" + ".", "Set a box trap"
+
+			case 7:
+				return 10031, 27, "You can now set a " + "<col=000080>" + "rabbit snare" + "</col>" + ".", "Set a rabbit snare"
+
+			case 8:
+				return 303, 29, "You can now set a " + "<col=000080>" + "net trap" + "</col>" + ".", "Set a net trap"
+
+			case 9:
+				return 10029, 31, "You can now set a " + "<col=000080>" + "pitfall trap" + "</col>" + ".", "Set a pitfall trap"
+
+			case 10:
+				return 594, 39, "You can now use " + "<col=000080>" + "smoke" + "</col>" + " to mask the scent on a trap.", "Use smoke to mask the scent on a trap"
+
+			case 11:
+				return 9951, 40, "You can now lay up to " + "<col=000080>" + "3 traps" + "</col>" + " at a time.", "Lay up to 3 traps at a time"
+
+			case 12:
+				return 14110, 40, "You can now use " + "<col=000080>" + "sacred clay butterfly nets" + "</col>", "Sacred clay butterfly net"
+
+			case 13:
+				return 14102, 40, "You can now use " + "<col=000080>" + "volatile butterfly nets" + "</col>", "Volatile butterfly net"
+
+			case 14:
+				return 10023, 43, "You can now hunt with a " + "<col=000080>" + "falcon" + "</col>" + ".", "Hunt with a falcon"
+
+			case 15:
+				return 9951, 60, "You can now lay up to " + "<col=000080>" + "4 traps" + "</col>" + " at a time.", "Lay up to 4 traps at a time"
+
+			case 16:
+				return 19965, 70, "You can now set a " + "<col=000080>" + "marasamaw plant" + "</col>" + " trap.", "Marasamaw plants (herblore habitat)"
+
+			case 17:
+				return 10025, 71, "You can now set a " + "<col=000080>" + "magical imp box" + "</col>" + " trap.", "Magical imp box"
+
+			case 18:
+				return 9951, 80, "You can now lay up to " + "<col=000080>" + " 5 traps" + "</col>" + " at a time.", "Lay up to 5 traps at a time"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9953, 1, "You can now track " + "<col=000080>" + "polar kebbits" + "</col>" + ".", "Polar kebbit (polar)"
+
+			case 1:
+				return 9954, 3, "You can now track " + "<col=000080>" + "common kebbits" + "</col>" + ".", "Common kebbit (woodland)"
+
+			case 2:
+				return 9955, 7, "You can now track " + "<col=000080>" + "feldip weasels" + "</col>" + ".", "Feldip weasel (jungle)"
+
+			case 3:
+				return 9956, 13, "You can now track " + "<col=000080>" + "desert devils" + "</col>" + ".", "Desert devil (desert)"
+
+			case 4:
+				return 14832, 45, "You can now track " + "<col=000080>" + "penguins" + "</col>" + " (after Hunt for Red Raktuber).", "Penguins (polar)" + "<br>" + " (after Hunt for Red Raktuber)"
+
+			case 5:
+				return 9961, 49, "You can now track " + "<col=000080>" + "razor-backed kebbits" + "</col>" + ".", "Razor-backed kebbit (woodland)"
+
+			case 6:
+				return 19954, 71, "You can now track " + "<col=000080>" + "shadow jadinkos" + "</col>" + ".", "Shadow jadinko (herblore habitat)"
+
+			case 7:
+				return 19958, 78, "You can now track " + "<col=000080>" + "diseased jadinkos" + "</col>" + ".", "Diseased jadinko (herblore habitat)"
+
+			case 8:
+				return 19955, 79, "You can now track " + "<col=000080>" + "camouflaged jadinkos" + "</col>" + ".", "Camouflaged jadinko (herblore habitat)"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9965, 1, "You can now trap " + "<col=000080>" + "crimson swifts" + "</col>" + ".", "Crimson swift (jungle)"
+
+			case 1:
+				return 9968, 5, "You can now trap " + "<col=000080>" + "golden warblers" + "</col>" + ".", "Golden warbler (desert)"
+
+			case 2:
+				return 9966, 9, "You can now trap " + "<col=000080>" + "copper longtails" + "</col>" + ".", "Copper longtail (woodland)"
+
+			case 3:
+				return 9967, 11, "You can now trap " + "<col=000080>" + "cerulean twitches" + "</col>" + ".", "Cerulean twitch (polar)"
+
+			case 4:
+				return 9969, 19, "You can now trap " + "<col=000080>" + "tropical wagtails" + "</col>" + ".", "Tropical wagtail (jungle)"
+
+			case 5:
+				return 12586, 39, "You can now trap " + "<col=000080>" + "wimpy birds" + "</col>" + " (after starting As a First Resort...).", "Wimpy bird (jungle)" + "<br>" + " (after starting As a First Resort...)" + "<br>" + " Required lure: smouldering tansymum"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9970, 15, "You can now net " + "<col=000080>" + "ruby harvest butterflies" + "</col>" + ".", "Ruby harvest butterfly (woodland)"
+
+			case 1:
+				return 11238, 17, "You can now net " + "<col=000080>" + "baby implings" + "</col>" + ".", "Baby impling"
+
+			case 2:
+				return 11240, 22, "You can now net " + "<col=000080>" + "young implings" + "</col>" + ".", "Young impling"
+
+			case 3:
+				return 9971, 25, "You can now net " + "<col=000080>" + "sapphire glacialis butterflies" + "</col>" + ".", "Sapphire glacialis butterfly (polar)"
+
+			case 4:
+				return 11242, 28, "You can now net " + "<col=000080>" + "gourmet implings" + "</col>" + ".", "Gourmet impling"
+
+			case 5:
+				return 9972, 35, "You can now net " + "<col=000080>" + "snowy knight butterflies" + "</col>" + ".", "Snowy knight butterfly (polar)"
+
+			case 6:
+				return 11244, 36, "You can now net " + "<col=000080>" + "earth implings" + "</col>" + ".", "Earth impling"
+
+			case 7:
+				return 11246, 42, "You can now net " + "<col=000080>" + "essence implings" + "</col>" + ".", "Essence impling"
+
+			case 8:
+				return 9973, 45, "You can now net " + "<col=000080>" + "black warlock butterflies" + "</col>" + ".", "Black warlock butterfly (jungle)"
+
+			case 9:
+				return 11248, 50, "You can now net " + "<col=000080>" + "eclectic implings" + "</col>" + ".", "Eclectic impling"
+
+			case 10:
+				return 15513, 54, "You can now net " + "<col=000080>" + "spirit implings" + "</col>" + ".", "Spirit impling"
+
+			case 11:
+				return 11250, 58, "You can now net " + "<col=000080>" + "nature implings" + "</col>" + ".", "Nature impling"
+
+			case 12:
+				return 11252, 65, "You can now net " + "<col=000080>" + "magpie implings" + "</col>" + ".", "Magpie impling"
+
+			case 13:
+				return 11254, 74, "You can now net " + "<col=000080>" + "ninja implings" + "</col>" + ".", "Ninja impling"
+
+			case 14:
+				return 13337, 76, "You can now net " + "<col=000080>" + "pirate implings" + "</col>" + " (after Rocking Out).", "Pirate impling" + "<br>" + " (after Rocking Out)"
+
+			case 15:
+				return 11256, 83, "You can now net " + "<col=000080>" + "dragon implings" + "</col>" + ".", "Dragon impling"
+
+			case 16:
+				return 15515, 87, "You can now net " + "<col=000080>" + "zombie implings" + "</col>" + ".", "Zombie impling"
+
+			case 17:
+				return 15517, 91, "You can now net " + "<col=000080>" + "kingly implings" + "</col>" + ".", "Kingly impling"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9962, 23, "You can now use deadfall traps to hunt " + "<col=000080>" + "wild kebbits" + "</col>" + ".", "Wild kebbit (woodland)" + "<br>" + " Preferred bait: Raw meat"
+
+			case 1:
+				return 9958, 33, "You can now use deadfall traps to hunt " + "<col=000080>" + "barb-tailed kebbits" + "</col>" + ".", "Barb-tailed kebbit (jungle)" + "<br>" + " Preferred bait: Raw rainbow fish"
+
+			case 2:
+				return 9957, 37, "You can now use deadfall traps to hunt " + "<col=000080>" + "prickly kebbits" + "</col>" + ".", "Prickly kebbit (northern woodland)" + "<br>" + " Preferred bait: Barley"
+
+			case 3:
+				return 12587, 44, "You now have the Hunter level required to use deadfall traps to hunt " + "<col=000080>" + "diseased kebbits" + "</col>" + " (after starting As a First Resort...).", "Diseased kebbit (jungle)" + "<br>" + " (after starting As a First Resort...)" + "<br>" + " Required lure: smouldering fever grass"
+
+			case 4:
+				return 9959, 51, "You can now use deadfall traps to hunt " + "<col=000080>" + "sabre-toothed kebbits" + "</col>" + ".", "Sabre-toothed kebbit (polar)" + "<br>" + " Preferred bait: Raw meat"
+
+			case 5:
+				return 14832, 51, "You can now use deadfall traps to hunt " + "<col=000080>" + "penguins" + "</col>" + " (after Hunt for Red Raktuber).", "Penguins (polar)" + "<br>" + " (after Hunt for Red Raktuber)" + "<br>" + " Preferred bait: Raw cod"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 10092, 27, "You can now catch " + "<col=000080>" + "ferrets" + "</col>" + " with box traps (after Eagles' Peak).", "Ferret (woodland)" + "<br>" + " (after Eagles' Peak)"
+
+			case 1:
+				return 12184, 27, "You now have the Hunter level required to catch " + "<col=000080>" + "geckos" + "</col>" + " with box traps. (You also need level 10 Summoning.)", "Gecko" + "<br>" + " (with 10 Summoning)"
+
+			case 2:
+				return 12199, 27, "You now have the Hunter level required to catch " + "<col=000080>" + "raccoons" + "</col>" + " with box traps. (You also need level 80 Summoning.)", "Raccoon" + "<br>" + " (with 80 Summoning)"
+
+			case 3:
+				return 12201, 27, "You now have the Hunter level required to catch " + "<col=000080>" + "monkeys" + "</col>" + " with box traps. (You also need level 95 Summoning.)", "Monkey" + "<br>" + " (with 95 Summoning)" + "<br>" + " Preferred bait: Bananas"
+
+			case 4:
+				return 12585, 48, "You now have the Hunter level required to catch " + "<col=000080>" + "platypodes" + "</col>" + " with box traps (after As a First Resort... and with level 10 Summoning).", "Platypus (jungle)" + "<br>" + " (with 10 Summoning)" + "<br>" + " (after starting As a First Resort...)" + "<br>" + " Required lure: Smouldering lavender"
+
+			case 5:
+				return 9976, 53, "You can now catch " + "<col=000080>" + "chinchompas" + "</col>" + " with box traps.", "Chinchompa (woodland)" + "<br>" + " Preferred bait: Spicy chopped tomatoes"
+
+			case 6:
+				return 14832, 56, "You can now catch " + "<col=000080>" + "penguins" + "</col>" + " with box traps (after Hunt for Red Raktuber).", "Penguin (polar)" + "<br>" + " (after Hunt for Red Raktuber)" + "<br>" + " Preferred bait: Raw cod"
+
+			case 7:
+				return 9977, 63, "You can now catch " + "<col=000080>" + "red chinchompas" + "</col>" + " with box traps.", "Red chinchompa (jungle)" + "<br>" + " Preferred bait: Spicy minced meat"
+
+			case 8:
+				return 12544, 66, "You can now catch " + "<col=000080>" + "pawyas" + "</col>" + " with box traps.", "Pawya (Isafdar)" + "<br>" + " Required bait: Papaya fruit"
+
+			case 9:
+				return 19951, 70, "You can now catch " + "<col=000080>" + "common jadinkos" + "</col>" + " with marasamaw plants.", "Common jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+			case 10:
+				return 19957, 74, "You can now catch " + "<col=000080>" + "igneous jadinkos" + "</col>" + " with marasamaw plants.", "Igneous jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+			case 11:
+				return 19960, 75, "You can now catch " + "<col=000080>" + "cannibal jadinkos" + "</col>" + " with marasamaw plants.", "Cannibal jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+			case 12:
+				return 19953, 76, "You can now catch " + "<col=000080>" + "aquatic jadinkos" + "</col>" + " with marasamaw plants.", "Aquatic jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+			case 13:
+				return 19952, 77, "You can now catch " + "<col=000080>" + "amphibious jadinkos" + "</col>" + " with marasamaw plants.", "Amphibious jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+			case 14:
+				return 12537, 77, "You can now catch " + "<col=000080>" + "grenwall" + "</col>" + " with box traps.", "Grenwall (Isafdar)" + "<br>" + " Required bait: Raw pawya meat"
+
+			case 15:
+				return 19959, 78, "You can now catch " + "<col=000080>" + "carrion jadinkos" + "</col>" + " with marasamaw plants.", "Carrion jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+			case 16:
+				return 19956, 80, "You can now catch " + "<col=000080>" + "draconic jadinkos" + "</col>" + " with marasamaw plants.", "Draconic jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+			case 17:
+				return 19961, 81, "You can now catch " + "<col=000080>" + "Saradomin, Guthix and Zamorak jadinkos" + "</col>" + " with marasamaw plants.", "Saradomin, Guthix and Zamorak jadinko (using marasamaw plants)" + "<br>" + " Preferred bait: Withered vines"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 10149, 29, "You can now catch " + "<col=000080>" + "swamp lizards" + "</col>" + " with net traps.", "Swamp lizard (swamp)" + "<br>" + " Preferred bait: Guam tar"
+
+			case 1:
+				return 12200, 29, "You now have the Hunter level required to catch " + "<col=000080>" + "squirrels" + "</col>" + " with net traps. (You also need level 60 Summoning.)", "Squirrel" + "<br>" + " (with 60 Summoning)" + "<br>" + " Preferred bait: Nuts"
+
+			case 2:
+				return 10146, 47, "You can now catch " + "<col=000080>" + "orange salamanders" + "</col>" + " with net traps.", "Orange salamander (desert)" + "<br>" + " Preferred bait: Marrentill tar"
+
+			case 3:
+				return 14832, 50, "You can now catch " + "<col=000080>" + "penguins" + "</col>" + " with net traps (after Hunt for Red Raktuber).", "Penguin (polar)" + "<br>" + " (after Hunt for Red Raktuber)"
+
+			case 4:
+				return 10147, 59, "You can now catch " + "<col=000080>" + "red salamanders" + "</col>" + " with net traps.", "Red salamander (lava)" + "<br>" + " Preferred bait: Tarromin tar"
+
+			case 5:
+				return 10148, 67, "You can now catch " + "<col=000080>" + "black salamanders" + "</col>" + " with net traps.", "Black salamander (lava)" + "<br>" + " Preferred bait: Harralander tar"
+
+
+		}
+		break
+	case 7:
+		if(arg1 == 0)
+			return 10045, 31, "You can now catch " + "<col=000080>" + "spined larupias" + "</col>" + " with pit traps.", "Spined larupia (jungle)"
+		if(arg1 == 1)
+			return 10051, 41, "You can now catch " + "<col=000080>" + "horned graahks" + "</col>" + " with pit traps.", "Horned graahk (Karamja)"
+		if(arg1 == 2)
+			return 10039, 55, "You can now catch " + "<col=000080>" + "sabre-toothed kyatts" + "</col>" + " with pit traps.", "Sabre-toothed kyatt (polar)"
+		break
+	case 8:
+		if(arg1 == 0)
+			return 9960, 43, "You can now hunt " + "<col=000080>" + "spotted kebbits" + "</col>" + " with a falcon.", "Spotted kebbit (woodland)"
+		if(arg1 == 1)
+			return 9963, 57, "You can now hunt " + "<col=000080>" + "dark kebbits" + "</col>" + " with a falcon.", "Dark kebbit (woodland)"
+		if(arg1 == 2)
+			return 9964, 69, "You can now hunt " + "<col=000080>" + "dashing kebbits" + "</col>" + " with a falcon.", "Dashing kebbit (woodland)"
+		break
+	case 9:
+		if(arg1 == 0)
+			return 9952, 71, "You can now catch " + "<col=000080>" + "imps" + "</col>" + " in " + "<col=000080>" + "imp boxes" + "</col>" + ".", "Imp (worldwide)" + "<br>" + " Preferred bait: Magical beads"
+		break
+	case 10:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9975, 27, "You now have the Hunter level required to use a " + "<col=000080>" + "ferret" + "</col>" + " to hunt " + "<col=000080>" + "white rabbits" + "</col>" + " (after Eagles' Peak).", "White rabbit (woodland)" + "<br>" + " Use a ferret to flush the rabbit out of its hole" + "<br>" + " (after Eagles' Peak)"
+
+			case 1:
+				return 9974, 27, "You now have the Hunter level required to lasso " + "<col=000080>" + "giant eagles" + "</col>" + " (after Eagles' Peak).", "Giant eagle (various)" + "<br>" + " (after Eagles' Peak)"
+
+			case 2:
+				return 19808, 72, "You now have the Hunter level required to transmute " + "<col=000080>" + "charm sprites" + "</col>" + " into Summoning charm slices.", "Charm sprites (south of the Tree Gnome Stronghold)" + "<br>" + " Use Hunter skill to catch charm sprites and gain Summoning charms"
+
+			case 3:
+				return 18778, 91, "You can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using your knowledge of Hunter.", "Starved ancient effigies"
+
+			case 4:
+				return 18779, 93, "You can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using your knowledge of Hunter.", "Nourished ancient effigies"
+
+			case 5:
+				return 18780, 95, "You can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using your knowledge of Hunter.", "Sated ancient effigies"
+
+			case 6:
+				return 18781, 97, "You can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using your knowledge of Hunter.", "Gorged ancient effigies"
+
+
+		}
+		break
+	case 11:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 10065, 1, "You can now wear " + "<col=000080>" + "polar kebbit fur clothing" + "</col>" + ".", "Polar kebbit fur clothing (polar)"
+
+			case 1:
+				return 10053, 1, "You can now wear " + "<col=000080>" + "common kebbit fur clothing" + "</col>" + ".", "Common kebbit fur clothing (woodland)"
+
+			case 2:
+				return 10057, 4, "You can now wear " + "<col=000080>" + "feldip weasel fur clothing" + "</col>" + ".", "Feldip weasel fur clothing (jungle)"
+
+			case 3:
+				return 10061, 10, "You can now wear " + "<col=000080>" + "desert devil fur clothing" + "</col>" + ".", "Desert devil fur clothing (desert)"
+
+			case 4:
+				return 10132, 24, "You can now wear a " + "<col=000080>" + "lucky rabbit's foot" + "</col>" + ".", "Lucky rabbit's foot"
+
+			case 5:
+				return 10045, 28, "You can now wear " + "<col=000080>" + "larupia fur clothing" + "</col>" + ".", "Larupia fur clothing"
+
+			case 6:
+				return 10051, 38, "You can now wear " + "<col=000080>" + "graahk-hide clothing" + "</col>" + ".", "Graahk-hide clothing"
+
+			case 7:
+				return 10069, 40, "You can now wear " + "<col=000080>" + "spotted capes" + "</col>" + ".", "Spotted capes"
+
+			case 8:
+				return 10039, 52, "You can now wear " + "<col=000080>" + "kyatt fur clothing" + "</col>" + ".", "Kyatt fur clothing"
+
+			case 9:
+				return 10075, 54, "You can now wear " + "<col=000080>" + "gloves of silence" + "</col>" + ".", "Gloves of silence"
+
+			case 10:
+				return 10071, 66, "You can now wear " + "<col=000080>" + "spottier capes" + "</col>" + ".", "Spottier capes"
+
+			case 11:
+				return 20046, 70, "You can now wear " + "<col=000080>" + "witchdoctor clothing" + "</col>" + ".", "Witchdoctor clothing"
+
+
+		}
+		break
+	case 12:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 11238, 17, "You can now catch " + "<col=000080>" + "baby implings" + "</col>" + " barehanded.", "Baby impling"
+
+			case 1:
+				return 11240, 22, "You can now catch " + "<col=000080>" + "young implings" + "</col>" + " barehanded.", "Young impling"
+
+			case 2:
+				return 11242, 28, "You can now catch " + "<col=000080>" + "gourmet implings" + "</col>" + " barehanded.", "Gourmet impling"
+
+			case 3:
+				return 11244, 36, "You can now catch " + "<col=000080>" + "earth implings" + "</col>" + " barehanded.", "Earth impling"
+
+			case 4:
+				return 11246, 42, "You can now catch " + "<col=000080>" + "essence implings" + "</col>" + " barehanded.", "Essence impling"
+
+			case 5:
+				return 11248, 50, "You can now catch " + "<col=000080>" + "eclectic implings" + "</col>" + " barehanded.", "Eclectic impling"
+
+			case 6:
+				return 15513, 54, "You can now catch " + "<col=000080>" + "spirit implings" + "</col>" + " barehanded.", "Spirit impling"
+
+			case 7:
+				return 11250, 58, "You can now catch " + "<col=000080>" + "nature implings" + "</col>" + " barehanded.", "Nature impling"
+
+			case 8:
+				return 11252, 65, "You can now catch " + "<col=000080>" + "magpie implings" + "</col>" + " barehanded.", "Magpie impling"
+
+			case 9:
+				return 11254, 74, "You can now catch " + "<col=000080>" + "ninja implings" + "</col>" + " barehanded.", "Ninja impling"
+
+			case 10:
+				return 13337, 76, "You can now catch " + "<col=000080>" + "pirate implings" + "</col>" + " barehanded (after Rocking Out).", "Pirate impling" + "<br>" + " (after Rocking Out)"
+
+			case 11:
+				return 9970, 80, "You now have the Hunter level to catch " + "<col=000080>" + "ruby harvest butterflies" + "</col>" + " barehanded. This feat will give you Hunter and Agility experience upon a successful catch. (You also need level 75 Agility.)", "Catch ruby harvest butterfly barehanded (woodland)" + "<br>" + " (with 75 Agility)"
+
+			case 12:
+				return 11256, 83, "You can now catch " + "<col=000080>" + "dragon implings" + "</col>" + " barehanded.", "Dragon impling"
+
+			case 13:
+				return 9971, 85, "You now have the Hunter level to catch " + "<col=000080>" + "sapphire glacialis butterflies" + "</col>" + " barehanded. This feat will give you Hunter and Agility experience upon a successful catch. (You also need level 80 Agility.)", "Catch sapphire glacialis butterfly barehanded (polar)" + "<br>" + " (with 80 Agility)"
+
+			case 14:
+				return 15515, 87, "You can now catch " + "<col=000080>" + "zombie implings" + "</col>" + " barehanded.", "Zombie impling"
+
+			case 15:
+				return 9972, 90, "You now have the Hunter level to catch " + "<col=000080>" + "snowy knight butterflies" + "</col>" + " barehanded. This feat will give you Hunter and Agility experience upon a successful catch. (You also need level 85 Agility.)", "Catch snowy knight butterfly barehanded (polar)" + "<br>" + " (with 85 Agility)"
+
+			case 16:
+				return 15517, 91, "You can now catch " + "<col=000080>" + "kingly implings" + "</col>" + " barehanded.", "Kingly impling"
+
+			case 17:
+				return 9973, 95, "You now have the Hunter level to catch " + "<col=000080>" + "black warlock butterflies" + "</col>" + " barehanded. This feat will give you Hunter and Agility experience upon a successful catch. (You also need level 90 Agility.)", "Catch black warlock butterfly barehanded (jungle)" + "<br>" + " (with 90 Agility)"
+
+
+		}
+		break
+	case 13:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14152, 1, "Members can now use " + "<col=000080>" + "class 1 butterfly nets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 1 butterfly net"
+
+			case 1:
+				return 14184, 20, "Members can now net " + "<col=000080>" + "class 2 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - net class 2 sacred clay"
+
+			case 2:
+				return 14154, 20, "Members can now use " + "<col=000080>" + "class 2 butterfly nets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 2 butterfly net"
+
+			case 3:
+				return 14186, 40, "Members can now net " + "<col=000080>" + "class 3 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - net class 3 sacred clay"
+
+			case 4:
+				return 14156, 40, "Members can now use " + "<col=000080>" + "class 3 butterfly nets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 3 butterfly net"
+
+			case 5:
+				return 14188, 60, "Members can now net " + "<col=000080>" + "class 4 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - net class 4 sacred clay"
+
+			case 6:
+				return 14158, 60, "Members can now use " + "<col=000080>" + "class 4 butterfly nets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 4 butterfly net"
+
+			case 7:
+				return 14190, 80, "Members can now net " + "<col=000080>" + "class 5 sacred clay" + "</col>" + " in Stealing Creation.", "Stealing Creation - net class 5 sacred clay"
+
+			case 8:
+				return 14160, 80, "Members can now use " + "<col=000080>" + "class 5 butterfly nets" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 5 butterfly net"
+
+
+		}
+		break
+	case 14:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Hunter level increases, you will be able to attempt higher-level hunter tasks within Daemonheim. You will also be more likely to succeed when attempting hunter tasks within Daemonheim."
+
+			case 1:
+				return 17756, 1, "You can now place " + "<col=000080>" + "tangle gum traps" + "</col>" + " within Daemonheim.", "Tangle gum trap (Tier 1)"
+
+			case 2:
+				return 17424, 1, "You can now gain " + "<col=000080>" + "protomastyx hides" + "</col>" + " from protomastyx carcasses within Daemonheim.", "Protomastyx hide (Tier 1)"
+
+			case 3:
+				return 17758, 10, "You can now place " + "<col=000080>" + "seeping elm traps" + "</col>" + " within Daemonheim.", "Seeping elm trap (Tier 2)"
+
+			case 4:
+				return 17426, 10, "You can now gain " + "<col=000080>" + "submastyx hides" + "</col>" + " from submastyx carcasses within Daemonheim.", "Submastyx hide (Tier 2)"
+
+			case 5:
+				return 17760, 20, "You can now place " + "<col=000080>" + "blood spindle traps" + "</col>" + " within Daemonheim.", "Blood spindle trap (Tier 3)"
+
+			case 6:
+				return 17428, 20, "You can now gain " + "<col=000080>" + "paramastyx hides" + "</col>" + " from paramastyx carcasses within Daemonheim.", "Paramastyx hide (Tier 3)"
+
+			case 7:
+				return 17762, 30, "You can now place " + "<col=000080>" + "utuku traps" + "</col>" + " within Daemonheim.", "Utuku trap (Tier 4)"
+
+			case 8:
+				return 17430, 30, "You can now gain " + "<col=000080>" + "archaemastyx hides" + "</col>" + " from archaemastyx carcasses within Daemonheim.", "Archaemastyx hide (Tier 4)"
+
+			case 9:
+				return 17764, 40, "You can now place " + "<col=000080>" + "spinebeam traps" + "</col>" + " within Daemonheim.", "Spinebeam trap (Tier 5)"
+
+			case 10:
+				return 17432, 40, "You can now gain " + "<col=000080>" + "dromomastyx hides" + "</col>" + " from dromomastyx carcasses within Daemonheim.", "Dromomastyx hide (Tier 5)"
+
+			case 11:
+				return 17766, 50, "You can now place " + "<col=000080>" + "bovistrangler traps" + "</col>" + " within Daemonheim.", "Bovistrangler trap (Tier 6)"
+
+			case 12:
+				return 17434, 50, "You can now gain " + "<col=000080>" + "spinomastyx hides" + "</col>" + " from spinomastyx carcasses within Daemonheim.", "Spinomastyx hide (Tier 6)"
+
+			case 13:
+				return 17768, 60, "You can now place " + "<col=000080>" + "thigat traps" + "</col>" + " within Daemonheim.", "Thigat trap (Tier 7)"
+
+			case 14:
+				return 17436, 60, "You can now gain " + "<col=000080>" + "gallimastyx hides" + "</col>" + " from gallimastyx carcasses within Daemonheim.", "Gallimastyx hide (Tier 7)"
+
+			case 15:
+				return 17770, 70, "You can now place " + "<col=000080>" + "corpsethorn traps" + "</col>" + " within Daemonheim.", "Corpsethorn trap (Tier 8)"
+
+			case 16:
+				return 17438, 70, "You can now gain " + "<col=000080>" + "stegomastyx hides" + "</col>" + " from stegomastyx carcasses within Daemonheim.", "Stegomastyx hide (Tier 8)"
+
+			case 17:
+				return 17772, 80, "You can now place " + "<col=000080>" + "entgallow traps" + "</col>" + " within Daemonheim.", "Entgallow trap (Tier 9)"
+
+			case 18:
+				return 17440, 80, "You can now gain " + "<col=000080>" + "megamastyx hides" + "</col>" + " from megamastyx carcasses within Daemonheim.", "Megamastyx hide (Tier 9)"
+
+			case 19:
+				return 17774, 90, "You can now place " + "<col=000080>" + "grave creeper traps" + "</col>" + " within Daemonheim.", "Grave creeper trap (Tier 10)"
+
+			case 20:
+				return 17442, 90, "You can now gain " + "<col=000080>" + "tyrannomastyx hides" + "</col>" + " from tyrannomastyx carcasses within Daemonheim.", "Tyrannomastyx hide (Tier 10)"
+
+
+		}
+		break
+	case 15:
+		if(arg1 == 0)
+			return 9948, 99, "<col=000080>" + "Congratulations! You are now a master " + "<col=800000>" + "Hunter" + "<col=000080>" + ". Why not visit the " + "<col=800000>" + "Hunter Expert" + "<col=000080>" + ", south of the " + "<col=800000>" + "Feldip Hills" + "<col=000080>" + "? She has something special that is only available to true masters of the " + "<col=800000>" + "Hunter" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+
+}
+return -1, 0, "", ""

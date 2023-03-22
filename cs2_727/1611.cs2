@@ -1,0 +1,8 @@
+//script1611(1611)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = ((((((((((((((((((load_varpbit(4003) + load_varpbit(4007)) + load_varpbit(4008)) + load_varpbit(4009)) + load_varpbit(4010)) + load_varpbit(4011)) + load_varpbit(4013)) + load_varpbit(4014)) + load_varpbit(4015)) + load_varpbit(4016)) + load_varpbit(4017)) + load_varpbit(4018)) + load_varpbit(4019)) + load_varpbit(4020)) + load_varpbit(4021)) + load_varpbit(4022)) + load_varpbit(4023)) + load_varpbit(4024)) + load_varpbit(4025)) + load_varpbit(4026)
+if(load_varpbit(4012) == 4)
+	iVar0 = iVar0 + 1
+return iVar0
+return 0

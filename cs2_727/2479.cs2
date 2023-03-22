@@ -1,0 +1,7 @@
+//script2479(2479)()(void)
+if(load_varc(825) < 1)
+	store_varc(825, 6)
+if(load_varc(825) > 0)
+	store_varc(825, load_varc(825) - 1)
+if_settext(if_gethash(37, 35), to_string(load_varc(825)))
+return

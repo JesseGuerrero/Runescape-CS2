@@ -1,0 +1,25 @@
+void script_1158(Widget widget0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	widget0.clearChildren();
+	int1 = 0;
+	int2 = getItemContainerLength(93);
+	int3 = (42 - 36) * 3 - 2;
+	int4 = (36 - 32) * 2;
+	while (int1 < int2) {
+		CHILD.createChild(widget0, 5, int1);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int3 + int1 % 4 * 42, int4 + int1 / 4 * 36, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		CHILD.setDragDeadZone(5);
+		CHILD.setDragDeadTime(5);
+		CHILD.setHidden(false);
+		int1 = int1 + 1;
+	}
+	script_1160(widget0);
+	widget0.hookContainer(&script_1159(widget0), 93);
+	return;
+}

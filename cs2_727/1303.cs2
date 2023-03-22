@@ -1,0 +1,8 @@
+//script1303(1303)(int arg0)(void)
+store_varc(10, 0)
+script_1304(arg0)
+if(load_varc(168) == arg0)
+	store_varc(168, -1)
+else
+	store_varc(168, arg0)
+return

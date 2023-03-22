@@ -1,0 +1,8 @@
+//script6046(6046)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+iVar2 = stringwidth(instr6289(arg0), arg0)
+iVar3 = if_getlayer(arg0)
+if_setsize(iVar3, 0, 0, if_getheight(iVar3), iVar2 + arg1)
+if_settext(arg0, arg0)
+return

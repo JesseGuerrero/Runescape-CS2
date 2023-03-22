@@ -1,0 +1,71 @@
+//script4567(4567)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+if(instr6661(-1, if_gethash(589, 23)) == 1) {
+	instr6342(arg0, script_4566, "I", arg0)
+	return
+}
+cc_deleteall(if_gethash(589, 23))
+sVar0 = "<col=7fa9ff>"
+sVar1 = "<col=ff5256>"
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+sVar2 = ""
+sVar3 = ""
+while(iVar1 < 100) {
+	iVar3 = chatline_gettype(iVar1)
+	sVar2 = chat_getcrownedname(iVar1)
+	sVar3 = instr6573(iVar1)
+	switch(iVar3) {
+		case default:
+			break
+		case 26:
+			iVar2 = script_4568(iVar2, 0, iVar3, chat_getmessage(iVar1), "", "")
+			break
+		case 9:
+			iVar2 = script_4568(iVar2, 1, iVar3, "[" + sVar0 + chat_getclan(iVar1) + "</col>" + "] " + sVar2 + ": " + sVar1 + chat_getmessage(iVar1), sVar2, sVar3)
+			break
+		case 20:
+			iVar2 = script_4568(iVar2, 1, iVar3, "[" + sVar0 + chat_getclan(iVar1) + "</col>" + "] " + sVar2 + ": " + sVar1 + chat_getmessage(iVar1), sVar2, sVar3)
+			break
+		case 115:
+			iVar2 = script_4568(iVar2, 0, iVar3, "<col=ff0000>" + chat_getmessage(iVar1) + "</col>", "", "")
+			break
+
+	}
+	iVar1 = iVar1 + 1
+}
+iVar4 = if_getheight(if_gethash(589, 23)) / 15
+iVar1 = 0
+iVar5 = 0
+if(iVar2 < iVar4) {
+	iVar5 = iVar4 - iVar2
+	while(iVar1 < iVar5) {
+		iVar2 = script_4568(iVar2, 0, 0, "", "", "")
+		iVar1 = iVar1 + 1
+	}
+}
+iVar6 = 0
+iVar7 = 0
+while(iVar7 <= iVar2) {
+	if(cc_find(iVar7, if_gethash(589, 23)) == 1)
+		iVar6 = iVar6 + cc_getheight()
+	iVar7 = iVar7 + 1
+}
+iVar8 = max(iVar4 * 15, iVar6)
+if_setscrollsize(38600727, iVar8, 0)
+script_72(38600728, 38600727, (load_varc(1508) + if_getscrollheight(38600727)) - load_varc(1509))
+store_varc(1508, if_getscrolly(38600727))
+store_varc(1509, if_getscrollheight(38600727))
+return

@@ -1,0 +1,21 @@
+//script5638(5638)(int arg0)(int)
+store_varc_string(327, load_varc_string(326))
+if(string_length(load_varc_string(326)) <= 0) {
+	script_3213(44105840, "Please enter your Email address again here.")
+	return 0
+}
+if(compare(load_varc_string(326), load_varc_string(122)) != 0) {
+	script_3213(44105840, "Please ensure both Email addresses match.")
+	return 0
+}
+if(if_getspriteid(if_gethash(673, 93)) == 4061) {
+	script_3213(44105840, if_gettext(if_gethash(673, 136)))
+	return 0
+}
+if_setgraphic(if_gethash(673, 112), 4059)
+if_sethide(if_gethash(673, 117), 1)
+if_sethide(if_gethash(673, 30), 1)
+if(arg0 == 1)
+	script_2714(7, 1)
+return 1
+return -1

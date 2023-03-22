@@ -1,0 +1,47 @@
+//script1563(1563)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(int)
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+iVar11 = 0
+iVar12 = 0
+iVar11 = script_296(arg0, arg2, arg5, arg6, arg7, arg8, arg9).get(0)
+iVar13 = 0
+iVar14 = 0
+iVar13 = script_296(arg1, arg2, arg5, arg6, arg7, arg8, arg9).get(0)
+iVar15 = iVar11 + ((iVar13 - iVar11) / 2)
+iVar16 = iVar12 + ((iVar14 - iVar12) / 2)
+iVar17 = iVar13 - iVar11
+iVar18 = iVar14 - iVar12
+iVar17 = max(0 - iVar17, iVar17)
+if(cc_find(arg10, arg5) == 1) {
+	cc_setposition(1, 1, iVar16, iVar15)
+	cc_setsize(0, 0, iVar18, iVar17)
+} else  {
+	cc_create(arg10, 3, arg5)
+	cc_setposition(1, 1, iVar16, iVar15)
+	cc_setsize(0, 0, iVar18, iVar17)
+	cc_setcolor(0)
+	cc_setfill(0)
+	cc_settrans(0)
+}
+arg10 = arg10 + 1
+iVar17 = iVar17 + (2 * arg4)
+iVar18 = iVar18 + (2 * arg4)
+if(cc_find(arg10, arg5) == 1) {
+	cc_setposition(1, 1, iVar16, iVar15)
+	cc_setsize(0, 0, iVar18, iVar17)
+} else  {
+	cc_create(arg10, 3, arg5)
+	cc_setposition(1, 1, iVar16, iVar15)
+	cc_setsize(0, 0, iVar18, iVar17)
+	cc_setcolor(0)
+	cc_setfill(0)
+	cc_settrans(0)
+}
+return arg10 + 1
+return 0

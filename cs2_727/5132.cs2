@@ -1,0 +1,6 @@
+//script5132(5132)()(void)
+if(script_5131() == 1) {
+	script_5127()
+	script_5133()
+}
+return

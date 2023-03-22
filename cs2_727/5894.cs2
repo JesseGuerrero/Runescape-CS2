@@ -1,0 +1,35 @@
+//script5894(5894)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+iVar1 = 82116702
+iVar2 = script_5935(arg0)
+iVar3 = -1
+iVar4 = 0
+iVar3 = script_6188(arg0).get(0)
+sVar0 = ""
+iVar5 = 0
+iVar6 = script_5936(arg0)
+iVar7 = struct_param(2268, iVar6)
+switch(iVar7) {
+	case default:
+		break
+	case 10:
+		sVar0 = script_5908(iVar3) + "<br>" + enum(5704, iVar3, 'o', 's')
+		break
+
+}
+sVar0 = script_5908(iVar3) + "<br>" + enum(5704, iVar3, 'o', 's')
+if_settext(if_gethash(1253, 274), sVar0)
+if_sethide(if_gethash(1253, 50), 0)
+iVar8 = (if_getx(iVar2) - (if_getwidth(iVar1) / 2)) + (if_getwidth(iVar2) / 2)
+iVar8 = min(596, iVar8)
+iVar8 = max(1, iVar8)
+if_setposition(iVar1, 0, 0, if_gety(iVar1), iVar8)
+return

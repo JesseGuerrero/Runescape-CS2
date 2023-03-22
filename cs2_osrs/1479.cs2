@@ -1,0 +1,66 @@
+int, int script_1479(int arg0, int arg1, int arg2, int arg3) {
+	Location location4;
+	int int5;
+	int int6;
+	int int7;
+	Location location8;
+	location4 = datamap('l', 'c', 1368, arg0);
+	if (location4 == null) {
+		return 0, 0;
+	}
+	int5 = x(location4);
+	int6 = y(location4);
+	int7 = 0;
+	if (int5 == 1) {
+		int7 = VARP[1365];
+	} else if (int5 == 2) {
+		int7 = VARP[1366];
+	} else if (int5 == 3) {
+		int7 = VARP[1367];
+	} else if (int5 == 4) {
+		int7 = VARP[1368];
+	} else {
+		if (!(int5 == 5)) {
+			return 0, 0;
+		}
+		int7 = VARP[1369];
+	}
+	if (isBitFlagged(int7, int6) == false) {
+		return 0, 0;
+	}
+	location8 = datamap('l', 'c', 1525, arg0);
+	if (location8 != null) {
+		if (getItemIdInSlot(576, x(location8)) != null) {
+			return 1, 1;
+		}
+		if (arg0 == 29032 && isBitFlagged(arg2, 31) == true) {
+			return 1, 1;
+		}
+		return 1, 0;
+	}
+	location8 = datamap('l', 'c', 1440, arg0);
+	if (location8 != null) {
+		int5, int6 = x(location8), y(location8);
+		if (int5 == 1) {
+			int7 = arg1;
+		} else if (int5 == 2) {
+			int7 = arg2;
+		} else {
+			if (!(int5 == 3)) {
+				return 0, 0;
+			}
+			int7 = arg3;
+		}
+		if (isBitFlagged(int7, int6) == true) {
+			return 1, 1;
+		}
+		return 1, 0;
+	}
+	if (arg0 == 29057) {
+		if (isBitFlagged(arg3, 10) == true || isBitFlagged(arg3, 12) == true) {
+			return 1, 1;
+		}
+		return 1, 0;
+	}
+	return 0, 0;
+}

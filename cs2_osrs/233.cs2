@@ -1,0 +1,6 @@
+void script_233(Widget widget0, Model model1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, Animation animation8) {
+	widget0.setModel(model1);
+	widget0.set3DRotation(arg2, arg3, arg4, arg5, arg6, arg7);
+	widget0.setAnimation(animation8);
+	return;
+}

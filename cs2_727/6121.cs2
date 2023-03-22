@@ -1,0 +1,35 @@
+//script6121(6121)(int arg0)(void)
+int iVar1
+string sVar0
+sVar0 = ""
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		sVar0 = "Kill them all!"
+		break
+	case 1:
+		sVar0 = "Kill the enemies until reinforcements stop coming!"
+		break
+	case 2:
+		sVar0 = "Everything is dead! Marmaros has stopped fighting too."
+		break
+	case 3:
+		sVar0 = "Kill that boss!"
+		break
+	case 4:
+		sVar0 = "The boss has legged it with your sword - get him!"
+		break
+	case 5:
+		sVar0 = "Kill more enemies than Marmaros to be the best brother!"
+		sVar0 = "Unexpected value " + to_string(arg0) + "."
+		break
+
+}
+if(compare(if_gettext(if_gethash(621, 34)), sVar0) == 0)
+	return
+iVar1 = stringwidth(494, sVar0)
+if_setsize(if_gethash(621, 34), 0, 0, 32, iVar1)
+if_setsize(if_gethash(621, 11), 0, 0, 28, iVar1 + 64)
+if_settext(if_gethash(621, 34), sVar0)
+return

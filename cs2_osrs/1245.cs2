@@ -1,0 +1,17 @@
+void script_1245(int arg0, Widget widget1, Widget widget2, Model model3, Model model4, Widget widget5, Model model6, Model model7, Widget widget8, Model model9, Model model10) {
+	widget5.setModel(model6);
+	widget8.setModel(model9);
+	if (arg0 == 0) {
+		widget1.setIsHidden(true);
+	} else {
+		widget1.setIsHidden(false);
+		if (arg0 == 1) {
+			widget5.setModel(model7);
+			widget2.setModel(model3);
+		} else if (arg0 == 2) {
+			widget8.setModel(model10);
+			widget2.setModel(model4);
+		}
+	}
+	return;
+}

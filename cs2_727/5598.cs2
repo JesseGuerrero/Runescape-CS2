@@ -1,0 +1,30 @@
+//script5598(5598)(int arg0)(void)
+int iVar1
+iVar1 = script_284(coord())
+switch(load_varc(1749)) {
+	case default:
+		break
+	case 1:
+		script_2768(75, arg0)
+		script_5602(iVar1)
+		instr6677(0, 1, 0, 1000, 0, 0)
+		break
+	case 2:
+		script_5602(iVar1)
+		instr6677(1, 1, 2000, 2000, 1, 0)
+		instr6255(arg0, script_5599, "Iiii", -2147483645, 2, 2000, 2000)
+		break
+	case 3:
+		script_2768(75, arg0)
+		script_5603(iVar1)
+		instr6677(0, 1, 800, 800, 0, 0)
+		instr6255(arg0, script_5600, "Iiii", -2147483645, 1, 800, 800)
+		break
+	case 4:
+		script_5603(iVar1)
+		instr6677(3, 1, 800, 800, 3, 0)
+		instr6255(arg0, script_5601, "Iiii", -2147483645, 4, 800, 800)
+		break
+
+}
+return

@@ -1,0 +1,70 @@
+void script_837(Widget widget0, int arg1, Widget widget2, string string3, int arg4, int arg5) {
+	Widget widget5;
+	int int6;
+	int int7;
+	int int8;
+	Widget widget9;
+	int int10;
+	int int11;
+	if (VARC[1] < getClientCycle() + arg4) {
+		if (VARC[1] < getClientCycle()) {
+			VARC[1] = getClientCycle();
+		}
+		VARC[1] = VARC[1] + 2;
+		return;
+	}
+	VARC[1] = getClientCycle() + arg4 + 10;
+	if (VARC[2] == 1 || widget2.isHidden() == true) {
+		return;
+	}
+	widget5 = widget2.getLayer();
+	if (widget5 != null && arg5 > widget5.getWidth()) {
+		arg5 = widget5.getWidth();
+	}
+	arg5 = arg5 - 4;
+	widget2.setSize(4 + getMaxLineWidth(string3, arg5, 495), 7 + 12 * getLineCount(string3, arg5, 495), 0, 0);
+	int6 = widget0.getX();
+	int7 = widget0.getY();
+	int8 = 0;
+	if (arg1 != -1 && CHILD.setChild(widget0, arg1) == true) {
+		int6, int7, int8 = int6 + CHILD.getX() - getScrollX(widget0), int7 + CHILD.getY() - getScrollY(widget0), CHILD.getHeight();
+	} else {
+		int8 = widget0.getHeight();
+	}
+	widget9 = widget0.getLayer();
+	while (widget9 != null) {
+		int6, int7 = int6 + widget9.getX() - getScrollX(widget9), int7 + widget9.getY() - getScrollY(widget9);
+		widget9 = widget9.getLayer();
+	}
+	int10 = int6 + 5;
+	int11 = int7 + int8 + 5;
+	if (widget5 != null) {
+		if (int10 > widget5.getWidth() - widget2.getWidth()) {
+			int10 = widget5.getWidth() - widget2.getWidth();
+		}
+		if (int11 > widget5.getHeight() - widget2.getHeight()) {
+			int11 = int7 - widget2.getHeight() - 5;
+		}
+	}
+	widget2.setPosition(int10, int11, 0, 0);
+	widget2.clearChildren();
+	CHILD.createChild(widget2, 3, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0xFFFFA0);
+	CHILD.createChild(widget2, 3, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFilled(false);
+	CHILD.setRGB(0x000000);
+	CHILD.createChild(widget2, 4, 2);
+	CHILD.setSize(4, 1, 1, 1);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setText(string3);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0x000000);
+	VARC[2] = 1;
+	return;
+}

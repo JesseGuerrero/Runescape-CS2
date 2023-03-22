@@ -1,0 +1,22 @@
+//script1301(1301)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 0
+if(instr6644() >= 2) {
+	if(if_getnextsubid(arg0) == 8)
+		return
+	else
+		cc_deleteall(arg0)
+	script_186(arg0, arg1, 8605, 8606, 8607, 8602, 8603, 8604, 8597, 8596, 8599, 8598, 8601, 8600)
+} else  {
+	if(if_getnextsubid(arg0) == 6)
+		return
+	else
+		cc_deleteall(arg0)
+	script_31(arg0, arg1, 792, 789, 790, 791, 773, 788)
+	while(iVar2 < if_getnextsubid(arg0)) {
+		if(cc_find(iVar2, arg0) == 1)
+			cc_setalpha(0)
+		iVar2 = iVar2 + 1
+	}
+}
+return

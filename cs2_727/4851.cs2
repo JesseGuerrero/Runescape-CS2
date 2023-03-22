@@ -1,0 +1,126 @@
+//script4851(4851)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+if_sethide(if_gethash(1258, 201), 1)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+cc_deleteall(arg4)
+iVar6 = 0
+iVar7 = 0
+iVar8 = 1
+iVar9 = 0
+iVar10 = 28
+iVar11 = -1
+iVar12 = -1
+iVar13 = -1
+iVar14 = 0
+iVar15 = 0
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		iVar14 = load_varpbit(9562)
+		iVar15 = load_varpbit(9566)
+		break
+	case 2:
+		iVar14 = load_varpbit(9571)
+		iVar15 = load_varpbit(9575)
+		break
+	case 3:
+		iVar14 = load_varpbit(9580)
+		iVar15 = load_varpbit(9584)
+		break
+
+}
+cc_create(0, 3, arg4)
+cc_sethide(1)
+cc_create(0, 4, arg2)
+cc_sethide(1)
+cc_create(0, 5, arg3)
+cc_sethide(1)
+if(iVar15 == 0) {
+	iVar11 = script_4819(load_varpbit(9558))
+	iVar12 = script_4822(load_varpbit(9558))
+	iVar13 = script_4825(load_varpbit(9558))
+	if(iVar11 == -1 || iVar12 == -1 || iVar13 == -1)
+		return
+	iVar6 = min(enum_getoutputcount(iVar12), min(enum_getoutputcount(iVar13), enum_getoutputcount(iVar11)))
+	while(iVar8 <= iVar6) {
+		iVar7 = enum(iVar11, iVar8, 'i', 'i')
+		cc_create(iVar8, 3, arg4)
+		cc_setsize(0, 1, iVar10, 0)
+		cc_setfill(1)
+		if(modulo(2, iVar8) == 0) {
+			cc_setcolor(201f1a)
+			instr6092(script_1356, "Iii", -2147483645, -2147483643, 2105114)
+		} else  {
+			cc_setcolor(1a1712)
+			instr6092(script_1356, "Iii", -2147483645, -2147483643, 1709842)
+		}
+		cc_setposition(0, 0, iVar9, 0)
+		if(script_4828(load_varpbit(9558)) == 0) {
+			instr6687(script_4803, "i", iVar8)
+			cc_setop("Select", 1)
+			instr6091(script_1356, "Iii", -2147483645, -2147483643, 4537648)
+		}
+		if(iVar14 == iVar7) {
+			if_sethide(if_gethash(1258, 201), 0)
+			if_setposition(if_gethash(1258, 201), 0, 0, iVar9, 0)
+		}
+		cc_create(iVar8, 4, arg2)
+		cc_setsize(0, 1, iVar10, 30)
+		cc_setposition(0, 0, iVar9, 30)
+		cc_settext(enum(iVar12, iVar7, 'i', 's'))
+		cc_setcolor(e5e1bb)
+		cc_settextfont(494)
+		cc_settextalign(0, 1, 0)
+		cc_create(iVar8, 5, arg3)
+		cc_setsize(0, 0, 22, 22)
+		cc_setposition(0, 0, 4 + iVar9, 5)
+		cc_setgraphic(enum(iVar13, iVar7, 'i', 'd'))
+		iVar9 = iVar10 * iVar8
+		iVar8 = iVar8 + 1
+	}
+} else  {
+	cc_create(iVar8, 3, arg4)
+	cc_setsize(0, 1, iVar10, 0)
+	cc_setfill(1)
+	if(modulo(2, iVar8) == 0) {
+		cc_setcolor(201f1a)
+		instr6092(script_1356, "Iii", -2147483645, -2147483643, 2105114)
+	} else  {
+		cc_setcolor(1a1712)
+		instr6092(script_1356, "Iii", -2147483645, -2147483643, 1709842)
+	}
+	cc_setposition(0, 0, iVar9, 0)
+	instr6687(script_4803, "i", iVar8)
+	cc_setop("Select", 1)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 4537648)
+	if_sethide(if_gethash(1258, 201), 0)
+	if_setposition(if_gethash(1258, 201), 0, 0, iVar9, 0)
+	cc_create(iVar8, 4, arg2)
+	cc_setsize(0, 1, iVar10, 30)
+	cc_setposition(0, 0, iVar9, 30)
+	cc_settext("Reset hotspot")
+	cc_setcolor(e5e1bb)
+	cc_settextfont(494)
+	cc_settextalign(0, 1, 0)
+	cc_create(iVar8, 5, arg3)
+	cc_setsize(0, 0, 22, 22)
+	cc_setposition(0, 0, 4 + iVar9, 5)
+	cc_setgraphic(6496)
+	cc_set2dangle(49149)
+	iVar9 = iVar10 * iVar8
+}
+if_setscrollpos(arg0, 0, 0)
+if_setscrollsize(arg0, iVar9, 0)
+script_31(arg1, arg0, 5666, 5663, 5664, 5665, 5686, 5685)
+return

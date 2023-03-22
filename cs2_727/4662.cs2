@@ -1,0 +1,64 @@
+//script4662(4662)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+iVar2 = script_4661().get(0)
+if(iVar2 == 1)
+	if(iVar3 >= 3)
+		switch(arg0) {
+			case default:
+				break
+			case 1507330:
+				if_setcolor(arg0, arg1)
+				break
+			case 1507331:
+				if_setcolor(arg0, arg1)
+				break
+			case 1507332:
+				return
+
+			case 1507333:
+				return
+
+
+		}
+	else
+		if(iVar2 == 2)
+			if(iVar3 >= 3)
+				switch(arg0) {
+					case default:
+						break
+					case 1507332:
+						if_setcolor(arg0, arg1)
+						break
+					case 1507333:
+						if_setcolor(arg0, arg1)
+						break
+					case 1507330:
+						return
+
+					case 1507331:
+						return
+
+
+				}
+			else
+				switch(arg0) {
+					case default:
+						break
+					case 1507331:
+						if_setcolor(arg0, arg1)
+						break
+					case 1507332:
+						if_setcolor(arg0, arg1)
+						break
+					case 1507330:
+						return
+
+					case 1507333:
+						return
+
+
+				}
+return

@@ -1,0 +1,9 @@
+//script3141(3141)(int arg0, string arg1)(void)
+if(worldlist_setworld(arg0, arg0) == 1) {
+	store_varc(547, 0)
+	script_3143(0, "Switched to game world " + to_string(arg0))
+} else 
+	script_3143(1, "Sorry, we couldn't contact world " + to_string(arg0) + "." + "<br>" + "Please choose a different world.")
+script_3116()
+return
+return

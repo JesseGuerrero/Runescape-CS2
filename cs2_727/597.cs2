@@ -1,0 +1,10 @@
+//script597(597)()(void)
+string sVar0
+sVar0 = "null"
+if(load_varc(84) < 2147483647) {
+	store_varc(84, load_varc(84) + 1)
+	sVar0 = tostring_localized(1, load_varc(84))
+	if_settext(if_gethash(105, 148), sVar0)
+	script_602()
+}
+return

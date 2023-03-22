@@ -1,0 +1,27 @@
+//script5488(5488)(string arg0)(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+if_sethide(if_gethash(746, 215), 0)
+store_varc(1688, 1)
+cc_deleteall(if_gethash(746, 215))
+if(load_varc(1691) != -1)
+	if(load_varc(1692) != -1) {
+		iVar1 = max(parawidth("Cost : " + script_940(load_varc(1692)), 496, 1000000), parawidth(arg0, 496, 1000000))
+		iVar2 = paramheight(arg0, 496, iVar1) * 28
+	} else  {
+		iVar1 = parawidth(arg0, 496, 1000000)
+		iVar2 = paramheight(arg0, 496, iVar1) * 14
+	}
+script_5490(48890071, iVar1, iVar2, arg0)
+iVar3 = iVar1 + 15
+iVar4 = iVar2 + 15
+script_5489(iVar3, iVar4)
+return

@@ -1,0 +1,23 @@
+void script_1313(int arg0, int arg1, int arg2, int arg3) {
+	if (arg0 == 1) {
+		widget(308, 4).setSprite(24);
+	} else {
+		widget(308, 4).setSprite(74);
+	}
+	if (arg1 == 1) {
+		widget(308, 5).setSprite(24);
+	} else {
+		widget(308, 5).setSprite(74);
+	}
+	if (arg2 == 1) {
+		widget(308, 6).setSprite(24);
+	} else {
+		widget(308, 6).setSprite(74);
+	}
+	if (arg3 == 1) {
+		widget(308, 7).setSprite(24);
+	} else {
+		widget(308, 7).setSprite(74);
+	}
+	return;
+}

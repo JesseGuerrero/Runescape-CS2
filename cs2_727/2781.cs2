@@ -1,0 +1,99 @@
+//script2781(2781)()(string)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+sVar0 = ""
+iVar0 = instr6797()
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar1 = userdetail_lobby_membership().get(0)
+iVar1 = (iVar1 / 1440) - 11745
+iVar4 = userdetail_lobby_ccexpiry()
+iVar5 = userdetail_lobby_graceexpiry()
+iVar6 = iVar5 - iVar0
+if(iVar5 <= iVar4 || iVar6 < 0)
+	iVar6 = 0
+if(iVar4 != 0)
+	if(iVar1 + iVar0 >= iVar4)
+		if(load_varc(1315) != iVar0)
+			if(iVar1 <= 14)
+				if(iVar1 <= 7)
+					if(iVar1 <= 3)
+						if(iVar1 <= 1)
+							if(iVar1 == 0)
+								if(iVar6 > 0)
+									if(iVar6 <= 14)
+										if(iVar6 <= 7)
+											if(iVar6 <= 3)
+												if(iVar6 == 1) {
+													sVar0 = "Your credit card has expired and your membership credit has run out. Please re-subscribe using a new credit card to restart your membership." + "<br>" + "<br>" + "If you renew today, you will pay the lower 'loyalty' rate. After this, your discount will no longer be available."
+													store_varc(1316, iVar0)
+												} else 
+													if(load_varc(1316) + 2 < iVar0) {
+														sVar0 = "Your credit card has expired and your membership credit has run out. Please re-subscribe using a new credit card to restart your membership." + "<br>" + "<br>" + "If you renew within the next " + to_string(iVar6) + " days, you will pay the lower 'loyalty' rate. After this, your discount will no longer be available."
+														store_varc(1316, iVar0)
+													}
+											else
+												if(load_varc(1316) + 4 < iVar0) {
+													sVar0 = "Your credit card has expired and your membership credit has run out. Please re-subscribe using a new credit card to restart your membership." + "<br>" + "<br>" + "If you renew within the next " + to_string(iVar6) + " days, you will pay the lower 'loyalty' rate. After this, your discount will no longer be available."
+													if(iVar6 == 7)
+														store_varc(1316, iVar0)
+													else
+														store_varc(1316, iVar0 - (7 - iVar6))
+												}
+										else
+											if(load_varc(1316) + 7 < iVar0) {
+												sVar0 = "Your credit card has expired and your membership credit has run out. Please re-subscribe using a new credit card to restart your membership." + "<br>" + "<br>" + "If you renew within the next " + to_string(iVar6) + " days, you will pay the lower 'loyalty' rate. After this, your discount will no longer be available."
+												if(iVar6 == 14)
+													store_varc(1316, iVar0)
+												else
+													store_varc(1316, iVar0 - (14 - iVar6))
+											}
+							else {
+								if(iVar6 > 0)
+									sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership." + "<br>" + "<br>" + "If you renew within the next " + to_string(iVar6) + " days, you will continue paying your lower 'loyalty' rate. After this, your discount will no longer be available."
+								else
+									sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership."
+								store_varc(1315, iVar0)
+							}
+						else
+							if(load_varc(1315) + 2 < iVar0) {
+								if(iVar6 > 0)
+									sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership." + "<br>" + "<br>" + "If you renew within the next " + to_string(iVar6) + " days, you will continue paying your lower 'loyalty' rate. After this, your discount will no longer be available."
+								else
+									sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership."
+								if(iVar1 == 3)
+									store_varc(1315, iVar0)
+								else
+									store_varc(1315, iVar0 - (3 - iVar1))
+							}
+					else
+						if(load_varc(1315) + 4 < iVar0) {
+							if(iVar6 > 0)
+								sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership." + "<br>" + "<br>" + "If you renew within the next " + to_string(iVar6) + " days, you will continue paying your lower 'loyalty' rate. After this, your discount will no longer be available."
+							else
+								sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership."
+							if(iVar1 == 7)
+								store_varc(1315, iVar0)
+							else
+								store_varc(1315, iVar0 - (7 - iVar1))
+						}
+				else
+					if(load_varc(1315) + 7 < iVar0) {
+						if(iVar6 > 0)
+							sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership." + "<br>" + "<br>" + "If you renew within the next " + to_string(iVar6) + " days, you will continue paying your lower 'loyalty' rate. After this, your discount will no longer be available."
+						else
+							sVar0 = "Your credit card has expired. Please re-subscribe using a new credit card to continue your membership."
+						if(iVar1 == 14)
+							store_varc(1315, iVar0)
+						else
+							store_varc(1315, iVar0 - (14 - iVar1))
+					}
+return sVar0
+return ""

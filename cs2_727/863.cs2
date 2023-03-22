@@ -1,0 +1,20 @@
+//script863(863)()(void)
+if(load_varpbit(7912) == 1)
+	if(load_varpbit(7921) == 0) {
+		if_setmodel(if_gethash(986, 3), enum(5079, load_varpbit(7919), 'i', 'm'))
+		if_sethide(if_gethash(986, 16), 1)
+		if(load_varpbit(7920) != 0)
+			if_sethide(if_gethash(986, 5), 0)
+		if(load_varpbit(7920) == 1)
+			if_setposition(if_gethash(986, 5), 0, 0, 205, 30)
+		else
+			if(load_varpbit(7920) == 2)
+				if_setposition(if_gethash(986, 5), 0, 0, 205, 112)
+			else
+				if(load_varpbit(7920) == 3)
+					if_setposition(if_gethash(986, 5), 0, 0, 205, 196)
+				else
+					if_sethide(if_gethash(986, 5), 1)
+	} else 
+		if_setmodel(if_gethash(986, 3), -1)
+return

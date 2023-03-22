@@ -1,0 +1,12 @@
+//script3376(3376)(int arg0)(void)
+int iVar1
+int iVar2
+string sVar0
+iVar1 = if_getwidth(arg0)
+sVar0 = removetags(if_gettext(arg0))
+iVar2 = paramheight(sVar0, 3793, iVar1)
+if(iVar2 == 1)
+	if_setsize(arg0, 0, 0, 19, stringwidth(3793, sVar0))
+else
+	if_setsize(arg0, 0, 0, (14 * iVar2) + 5, iVar1)
+return

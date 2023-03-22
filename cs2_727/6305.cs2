@@ -1,0 +1,72 @@
+//script6305(6305)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = if_getspriteid(arg0)
+iVar3 = -1
+switch(iVar2) {
+	case default:
+		break
+	case 11654:
+		iVar3 = 11655
+		break
+	case 11684:
+		iVar3 = 11685
+		break
+	case 11666:
+		iVar3 = 11667
+		break
+	case 11657:
+		iVar3 = 11658
+		break
+	case 11687:
+		iVar3 = 11688
+		break
+	case 11702:
+		iVar3 = 11703
+		break
+	case 11675:
+		iVar3 = 11676
+		break
+	case 11672:
+		iVar3 = 11673
+		break
+	case 11708:
+		iVar3 = 11709
+		break
+	case 11696:
+		iVar3 = 11697
+		break
+	case 11669:
+		iVar3 = 11670
+		break
+	case 11660:
+		iVar3 = 11661
+		break
+	case 11681:
+		iVar3 = 11682
+		break
+	case 11693:
+		iVar3 = 11694
+		break
+	case 11678:
+		iVar3 = 11679
+		break
+	case 11663:
+		iVar3 = 11664
+		break
+	case 11690:
+		iVar3 = 11691
+		break
+	case 11699:
+		iVar3 = 11700
+		break
+	case 11705:
+		iVar3 = 11706
+		break
+
+}
+if_setgraphic(arg0, iVar3)
+sound_vorbis_volume(50, 0, 1, 16778)
+script_6509(arg1)
+script_6512(arg1)
+return

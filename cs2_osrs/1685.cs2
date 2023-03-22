@@ -1,0 +1,73 @@
+void script_1685(int arg0, int arg1, string string2) {
+	int int2;
+	int int3;
+	int int4;
+	string str1;
+	VARC[11] = 1;
+	if (widget(162, 31).isHidden() == false) {
+		script_299(1, 1);
+	}
+	script_927(0);
+	_ = script_228(widget(590, 1), string2, 0);
+	widget(590, 0).clearChildren();
+	int2 = 0;
+	int3 = 0;
+	int4 = script_1686(widget(590, 2), 1, "Ring of Dueling", 2552, arg0);
+	int2, int3 = script_1687(widget(590, 2), 3);
+	int4, int2 = script_1688(widget(590, 2), 1, "Duel Arena", int3, arg0, int4, int2, 0);
+	int4, int2 = script_1688(widget(590, 2), 1, "Castle Wars", int3, arg0, int4, int2, 1);
+	int4, int2 = script_1688(widget(590, 2), 1, "Clan Wars", int3, arg0, int4, int2, 2);
+	int4 = script_1686(widget(590, 3), 1, "Games Necklace", 3853, arg0);
+	int2, int3 = script_1687(widget(590, 3), 5);
+	int4, int2 = script_1688(widget(590, 3), 1, "Burthorpe", int3, arg0, int4, int2, 3);
+	int4, int2 = script_1688(widget(590, 3), 1, "Barbarian Outpost", int3, arg0, int4, int2, 4);
+	int4, int2 = script_1688(widget(590, 3), 1, "Corporeal Beast", int3, arg0, int4, int2, 5);
+	str1 = "Tears of Guthix";
+	if (isBitFlagged(arg1, 0) == false) {
+		str1 = "<str>" + str1 + "</str>";
+	}
+	int4, int2 = script_1688(widget(590, 3), 1, str1, int3, arg0, int4, int2, 6);
+	str1 = "Wintertodt Camp";
+	if (isBitFlagged(arg1, 1) == false) {
+		str1 = "<str>" + str1 + "</str>";
+	}
+	int4, int2 = script_1688(widget(590, 3), 1, str1, int3, arg0, int4, int2, 7);
+	int4 = script_1686(widget(590, 4), 2, "Combat bracelet", 11972, arg0);
+	int2, int3 = script_1687(widget(590, 4), 4);
+	int4, int2 = script_1688(widget(590, 4), 2, "Warriors' Guild", int3, arg0, int4, int2, 8);
+	int4, int2 = script_1688(widget(590, 4), 2, "Champions' Guild", int3, arg0, int4, int2, 9);
+	int4, int2 = script_1688(widget(590, 4), 2, "Monastery", int3, arg0, int4, int2, 10);
+	int4, int2 = script_1688(widget(590, 4), 2, "Ranging Guild", int3, arg0, int4, int2, 11);
+	int4 = script_1686(widget(590, 5), 2, "Skills necklace", 11968, arg0);
+	int2, int3 = script_1687(widget(590, 5), 5);
+	int4, int2 = script_1688(widget(590, 5), 2, "Fishing Guild", int3, arg0, int4, int2, 12);
+	int4, int2 = script_1688(widget(590, 5), 2, "Mining Guild", int3, arg0, int4, int2, 13);
+	int4, int2 = script_1688(widget(590, 5), 2, "Crafting Guild", int3, arg0, int4, int2, 14);
+	int4, int2 = script_1688(widget(590, 5), 2, "Cooking Guild", int3, arg0, int4, int2, 15);
+	str1 = "Woodcutting Guild";
+	if (isBitFlagged(arg1, 1) == false) {
+		str1 = "<str>" + str1 + "</str>";
+	}
+	int4, int2 = script_1688(widget(590, 5), 2, str1, int3, arg0, int4, int2, 16);
+	int4 = script_1686(widget(590, 6), 3, "Ring of Wealth", 11980, arg0);
+	int2, int3 = script_1687(widget(590, 6), 4);
+	str1 = "Miscellania";
+	if (isBitFlagged(arg1, 2) == false) {
+		str1 = "<str>" + str1 + "</str>";
+	}
+	int4, int2 = script_1688(widget(590, 6), 3, str1, int3, arg0, int4, int2, 17);
+	int4, int2 = script_1688(widget(590, 6), 3, "Grand Exchange", int3, arg0, int4, int2, 18);
+	int4, int2 = script_1688(widget(590, 6), 3, "Falador Park", int3, arg0, int4, int2, 19);
+	str1 = "Dondakan's Rock";
+	if (isBitFlagged(arg1, 3) == false) {
+		str1 = "<str>" + str1 + "</str>";
+	}
+	int4, int2 = script_1688(widget(590, 6), 3, str1, int3, arg0, int4, int2, 20);
+	int4 = script_1686(widget(590, 7), 3, "Amulet of Glory", 11978, arg0);
+	int2, int3 = script_1687(widget(590, 7), 4);
+	int4, int2 = script_1688(widget(590, 7), 3, "Edgeville", int3, arg0, int4, int2, 21);
+	int4, int2 = script_1688(widget(590, 7), 3, "Karamja", int3, arg0, int4, int2, 22);
+	int4, int2 = script_1688(widget(590, 7), 3, "Draynor Village", int3, arg0, int4, int2, 23);
+	int4, int2 = script_1688(widget(590, 7), 3, "Al Kharid", int3, arg0, int4, int2, 24);
+	return;
+}

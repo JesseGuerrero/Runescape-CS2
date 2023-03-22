@@ -1,0 +1,4 @@
+//script710(710)()(void)
+if(load_varc(41) == 5)
+	script_84()
+return

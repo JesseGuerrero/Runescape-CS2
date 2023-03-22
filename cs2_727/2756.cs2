@@ -1,0 +1,15 @@
+//script2756(2756)()(void)
+if(load_varpbit(3756) == 16 + 1)
+	script_736(48890054, -1, 35913890, -1)
+else
+	if(load_varpbit(3756) == 18 + 1)
+		script_736(48890057, -1, 35913885, -1)
+	else
+		if(load_varpbit(3756) == 19 + 1)
+			script_736(48890050, -1, 35913883, -1)
+		else
+			if(script_1314(load_varpbit(3756) - 1) == 0)
+				script_736(48889888, -1, 35913742, -1)
+			else
+				script_736(script_1742(load_varpbit(3756) - 1), -1, script_121(load_varpbit(3756) - 1), -1)
+return

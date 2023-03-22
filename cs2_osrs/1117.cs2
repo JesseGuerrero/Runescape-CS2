@@ -1,0 +1,41 @@
+int script_1117(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6) {
+	int int7;
+	int int8;
+	Widget widget9;
+	Widget widget10;
+	Widget widget11;
+	int7 = 0;
+	int8 = 0;
+	widget9 = datamap('i', 'I', 1235, arg0);
+	widget10 = datamap('i', 'I', 1236, arg0);
+	widget11 = datamap('i', 'I', 1237, arg0);
+	if (widget9 != null && widget10 != null && widget11 != null) {
+		if (arg1 == VARPBIT[4776]) {
+			widget9.setIsHidden(false);
+			widget10.setIsHidden(false);
+			widget11.setIsHidden(false);
+			int7 = arg6 % 3;
+			int8 = (arg3 + 2) * (arg6 / 3);
+			if (int7 == 0) {
+				widget9.setPosition(0, int8, 0, 0);
+				widget10.setPosition((arg2 - arg4) / 2, int8 + (arg3 - arg5) / 2, 0, 0);
+				widget11.setPosition(0, int8, 0, 0);
+			} else if (int7 == 1) {
+				widget9.setPosition(0, int8, 1, 0);
+				widget10.setPosition(0, int8 + (arg3 - arg5) / 2, 1, 0);
+				widget11.setPosition(0, int8, 1, 0);
+			} else {
+				widget9.setPosition(0, int8, 2, 0);
+				widget10.setPosition((arg2 - arg4) / 2, int8 + (arg3 - arg5) / 2, 2, 0);
+				widget11.setPosition(0, int8, 2, 0);
+			}
+			arg6 = arg6 + 1;
+		} else {
+			widget9.setIsHidden(true);
+			widget10.setIsHidden(true);
+			widget11.setIsHidden(true);
+			widget10.setPosition(0, 0 - arg3, 0, 0);
+		}
+	}
+	return arg6;
+}

@@ -1,0 +1,30 @@
+//script3159(3159)(int arg0)(void)
+if_setsize(if_gethash(912, 49), 1, 0, 0, if_getx(if_gethash(912, 38)) - if_getx(if_gethash(912, 36)))
+if_setsize(if_gethash(912, 51), 1, 0, 0, (if_getwidth(if_gethash(912, 45)) - if_getwidth(if_gethash(912, 49))) - 2)
+if_setscrollsize(59768877, 0, 0)
+if_setscrollpos(if_gethash(912, 45), 0, 0)
+script_31(59768878, 59768877, 792, 789, 790, 791, 773, 788)
+if_setscrollsize(59768852, 0, 0)
+if_setscrollpos(if_gethash(912, 20), 0, 0)
+script_31(59768853, 59768852, 792, 789, 790, 791, 773, 788)
+instr6260(if_gethash(912, 45), script_3164, "IIIIII", if_gethash(912, 49), if_gethash(912, 50), if_gethash(912, 51), if_gethash(912, 47), if_gethash(912, 45), if_gethash(912, 46))
+instr6261(if_gethash(912, 45), script_3164, "IIIIII", if_gethash(912, 49), if_gethash(912, 50), if_gethash(912, 51), if_gethash(912, 47), if_gethash(912, 45), if_gethash(912, 46))
+if(activeclanchannel_find_affined() == 1) {
+	if_sethide(if_gethash(912, 39), 1)
+	script_3165(59768881, 59768882, 59768883, 59768879, 59768877, 59768878)
+	if(if_gethide(if_gethash(906, 212)) == 0)
+		script_3161(1)
+	else
+		script_3161(0)
+} else  {
+	if_sethide(if_gethash(912, 39), 0)
+	script_3161(0)
+}
+store_varc_string(278, "")
+script_3024(59768860)
+script_3027(59768840)
+store_varc(1098, string_length(load_varc_string(278)))
+hook_mouse_press(if_gethash(912, 24), script_1335, "iII", -2147483647, if_gethash(912, 24), if_gethash(912, 25))
+script_1390(59768856, 59768857, load_varc_string(278))
+if_sethide(if_gethash(912, 25), 1)
+return

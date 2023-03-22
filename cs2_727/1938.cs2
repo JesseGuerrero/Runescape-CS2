@@ -1,0 +1,8 @@
+//script1938(1938)()(void)
+store_varc(556, client_clock() + (2000 * 30))
+store_varc(559, 255)
+store_varc(560, 0)
+store_varc(561, 0)
+store_varc(562, 0)
+if_settextshadow(if_gethash(809, 15), 0)
+return

@@ -1,0 +1,9 @@
+//script4161(4161)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 0
+while(iVar2 < if_getnextsubid(arg0)) {
+	if(cc_find(iVar2, arg0) == 1)
+		cc_settrans(arg1)
+	iVar2 = iVar2 + 1
+}
+return

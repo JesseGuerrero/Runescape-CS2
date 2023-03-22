@@ -1,0 +1,44 @@
+//script4974(4974)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 17:
+		return 7431
+
+	case 18:
+		return 7430
+
+	case 19:
+		return 7433
+
+	case 1:
+		return 7422
+
+	case 2:
+		return 7424
+
+	case 3:
+		return 7423
+
+	case 4:
+		return 7426
+
+	case 5:
+		return 7427
+
+	case 6:
+		return 7425
+
+	case 7:
+		return 7428
+
+	case 113:
+		return enum(4061, arg0, 'i', 'd')
+
+	case 51:
+		return 7434
+
+
+}
+return -1
+return -1

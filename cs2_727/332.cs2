@@ -1,0 +1,7 @@
+//script332(332)(int arg0)(void)
+int iVar1
+iVar1 = 2359
+if(load_varc(783) == 1)
+	iVar1 = 2360
+if_setmodel(if_gethash(725, 83), enum(iVar1, arg0, 'i', 'm'))
+return

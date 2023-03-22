@@ -1,0 +1,11 @@
+//script1833(1833)(int arg0, int arg1)(void)
+if(script_1820(arg0) == 0)
+	return
+if(world_members() == 0)
+	if(struct_param(557, enum(1604, arg1, 'i', 'J')) == 1)
+		return
+if(load_varc(257) != arg1) {
+	store_varc(257, arg1)
+	script_1781()
+}
+return

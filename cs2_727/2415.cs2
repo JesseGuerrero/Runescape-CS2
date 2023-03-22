@@ -1,0 +1,49 @@
+//script2415(2415)()(void)
+if_setmodel(if_gethash(765, 14), 46997)
+if_setmodel(if_gethash(765, 16), 46976)
+if_setmodel(if_gethash(765, 15), 46974)
+if_setmodel(if_gethash(765, 17), 46995)
+if_setmodel(if_gethash(765, 18), 46986)
+if_setmodel(if_gethash(765, 33), 46987)
+if_setmodel(if_gethash(765, 34), 46978)
+if_setmodel(if_gethash(765, 35), 46990)
+if_setmodel(if_gethash(765, 36), 46991)
+if_setmodel(if_gethash(765, 37), 46993)
+if_setmodel(if_gethash(765, 38), 46977)
+if_setmodel(if_gethash(765, 39), 46975)
+if(load_varc(805) == 1)
+	if_setmodel(if_gethash(765, 14), 46982)
+else
+	if(load_varc(805) == 2)
+		if_setmodel(if_gethash(765, 16), 46979)
+	else
+		if(load_varc(805) == 3)
+			if_setmodel(if_gethash(765, 15), 46989)
+		else
+			if(load_varc(805) == 4)
+				if_setmodel(if_gethash(765, 17), 46981)
+			else
+				if(load_varc(805) == 5)
+					if_setmodel(if_gethash(765, 18), 46996)
+				else
+					if(load_varc(805) == 6)
+						if_setmodel(if_gethash(765, 33), 46983)
+					else
+						if(load_varc(805) == 7)
+							if_setmodel(if_gethash(765, 34), 46980)
+						else
+							if(load_varc(805) == 8)
+								if_setmodel(if_gethash(765, 35), 46984)
+							else
+								if(load_varc(805) == 9)
+									if_setmodel(if_gethash(765, 36), 46992)
+								else
+									if(load_varc(805) == 10)
+										if_setmodel(if_gethash(765, 37), 46994)
+									else
+										if(load_varc(805) == 11)
+											if_setmodel(if_gethash(765, 38), 46985)
+										else
+											if(load_varc(805) == 12)
+												if_setmodel(if_gethash(765, 39), 46988)
+return

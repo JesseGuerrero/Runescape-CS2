@@ -1,0 +1,38 @@
+//script5069(5069)(int arg0, int arg1, int arg2, int arg3)(int)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = min(256, enum_getoutputcount(arg0))
+iVar5 = 0
+iVar6 = 0
+while(iVar5 < iVar4) {
+	cc_create(if_getnextsubid(arg1), 3, arg1)
+	cc_setsize(0, 1, 14, 0)
+	cc_setposition(0, 1, iVar6, 0)
+	cc_settrans(255)
+	cc_setop("Select", 1)
+	cc_create(if_getnextsubid(arg1), 5, arg1)
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar6 + 1, 0)
+	if(arg3 == iVar5)
+		cc_setgraphic(5924)
+	else
+		cc_setgraphic(5928)
+	cc_create(if_getnextsubid(arg1), 4, arg1)
+	cc_setsize(0, 1, 14, 17)
+	cc_setposition(0, 2, iVar6, 0)
+	cc_settextfont(494)
+	cc_setcolor(dfcfbf)
+	cc_settextshadow(1)
+	cc_settextalign(0, 1, 0)
+	cc_settext(enum(arg0, iVar5, 'i', 's'))
+	instr6091(script_1356, "Iii", -2147483645, instr6151(), 16777215)
+	instr6092(script_1356, "Iii", -2147483645, instr6151(), 14667711)
+	instr6687(script_5071, "iiig", -2147483644, arg2, iVar5, arg0)
+	iVar6 = iVar6 + 15
+	iVar5 = iVar5 + 1
+}
+iVar6 = max(0, iVar6 - 1)
+if_setsize(arg1, 0, 1, iVar6, 0)
+return iVar6
+return 0

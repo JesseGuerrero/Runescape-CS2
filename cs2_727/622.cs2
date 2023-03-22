@@ -1,0 +1,17 @@
+//script622(622)()(void)
+if(load_varp(1118) == 1) {
+	if_sethide(if_gethash(105, 17), 0)
+	if_sethide(if_gethash(105, 127), 0)
+	if_sethide(if_gethash(105, 154), 0)
+	if_sethide(if_gethash(105, 188), 0)
+	if_sethide(if_gethash(105, 193), 0)
+	if_sethide(if_gethash(105, 197), 0)
+} else  {
+	if_sethide(if_gethash(105, 17), 1)
+	if_sethide(if_gethash(105, 127), 1)
+	if_sethide(if_gethash(105, 154), 1)
+	if_sethide(if_gethash(105, 188), 1)
+	if_sethide(if_gethash(105, 193), 1)
+	if_sethide(if_gethash(105, 197), 1)
+}
+return

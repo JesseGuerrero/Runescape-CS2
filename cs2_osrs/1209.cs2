@@ -1,0 +1,26 @@
+int, int script_1209(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, Widget widget6) {
+	int int7;
+	int int8;
+	CHILD.createChild(widget6, 4, arg1);
+	arg1 = arg1 + 1;
+	_CHILD.createChild(widget6, 4, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setPosition(0, arg2, 0, 0);
+	_CHILD.setPosition(0, arg2, 2, 0);
+	CHILD.setSize(arg0, 20, 0, 0);
+	_CHILD.setSize(arg0 + 10, 20, 1, 0);
+	arg2 = arg2 + 20;
+	CHILD.setFont(495);
+	_CHILD.setFont(495);
+	CHILD.setTextAlignment(2, 0, 0);
+	_CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAntiMacro(true);
+	int7 = datamap('i', 'i', 1267, arg4);
+	int8 = mathMethod4006(0, int7, 0, 1000, 1000);
+	CHILD.setText(int8 / 10 + "." + int8 % 10 + "%");
+	_CHILD.setText(datamap('i', 's', 1266, arg4));
+	script_1213(int7, arg3);
+	CHILD.hookVARP(&script_1212(CTX_WIDGET, CTX_WIDGET_CHILD, getChildId(), arg5, int7), 1317, 1318);
+	return arg1, arg2;
+}

@@ -1,0 +1,15 @@
+void script_448(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Middle mouse button controls the camera (currently off)";
+	if (VARPBIT[4134] == 1) {
+		cs2method3110(0);
+		widget0.setSprite(761);
+	} else {
+		cs2method3110(1);
+		str0 = "Middle mouse button controls the camera (currently on)";
+		widget0.setSprite(762);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

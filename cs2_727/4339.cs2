@@ -1,0 +1,3 @@
+//script4339(4339)(int arg0, int arg1, int arg2)(void)
+instr6260(arg2, script_5230, "iII", arg0, arg1, arg2)
+return

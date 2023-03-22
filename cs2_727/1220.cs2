@@ -1,0 +1,9 @@
+//script1220(1220)(int arg0, int arg1)(void)
+if(detailget_mono_stereo() == 1) {
+	if_setgraphic(arg1, 4086)
+	if_setgraphic(arg0, 4084)
+} else  {
+	if_setgraphic(arg0, 4086)
+	if_setgraphic(arg1, 4084)
+}
+return

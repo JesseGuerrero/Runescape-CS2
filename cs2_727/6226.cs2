@@ -1,0 +1,132 @@
+//script6226(6226)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+if(arg0 == -1)
+	return
+iVar1 = 4
+iVar2 = 4
+iVar3 = 4
+iVar4 = 4
+iVar5 = 29
+iVar6 = 8
+iVar7 = 56
+iVar8 = 7
+iVar9 = 120
+iVar10 = 64
+iVar11 = 53
+iVar12 = 8
+iVar13 = 68
+iVar14 = 43
+if(instr6004(arg0) == 1) {
+	cc_setposition(1, 1, 0, 0)
+	cc_setsize(1, 1, iVar2 * 2, iVar1 * 2)
+}
+cc_deleteall(arg0)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 1, iVar4, iVar12 * 2)
+cc_setposition(0, 1, iVar5, 0)
+cc_setgraphic(5472)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 1, iVar4, iVar12 * 2)
+cc_setposition(2, 1, iVar8, 0)
+cc_setgraphic(5472)
+cc_settiling(1)
+cc_setvflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(1, 0, iVar5 + iVar8, iVar3)
+cc_setposition(0, 0, iVar5, iVar12)
+cc_setgraphic(5473)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(1, 0, iVar5 + iVar8, iVar3)
+cc_setposition(0, 2, iVar5, iVar12)
+cc_setgraphic(5473)
+cc_settiling(1)
+cc_sethflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 1, iVar5, (iVar6 + iVar7) * 2)
+cc_setposition(0, 1, 0, 0)
+cc_setgraphic(5465)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar5, iVar7)
+cc_setposition(0, 0, 0, iVar12)
+cc_setgraphic(5466)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar5, iVar7)
+cc_setposition(0, 2, 0, iVar12)
+cc_setgraphic(5466)
+cc_sethflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 1, iVar8, (iVar10 + iVar9) * 2)
+cc_setposition(2, 1, 0, 0)
+cc_setgraphic(5632)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar8, iVar9)
+cc_setposition(2, 0, 0, iVar10)
+cc_setgraphic(5460)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar8, iVar9)
+cc_setposition(2, 2, 0, iVar10)
+cc_setgraphic(5634)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(1, 0, ((iVar5 + iVar11) + iVar13) + iVar14, iVar12)
+cc_setposition(0, 0, iVar5 + iVar13, 0)
+cc_setgraphic(5468)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar13, iVar12)
+cc_setposition(0, 0, iVar5, 0)
+cc_setgraphic(5464)
+cc_sethflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar14, iVar12)
+cc_setposition(2, 0, iVar11, 0)
+cc_setgraphic(5469)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(1, 0, ((iVar5 + iVar11) + iVar13) + iVar14, iVar12)
+cc_setposition(0, 2, iVar5 + iVar13, 0)
+cc_setgraphic(5468)
+cc_settiling(1)
+cc_sethflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar13, iVar12)
+cc_setposition(0, 2, iVar5, 0)
+cc_setgraphic(5464)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar14, iVar12)
+cc_setposition(2, 2, iVar11, 0)
+cc_setgraphic(5469)
+cc_sethflip(1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar5, iVar6)
+cc_setposition(0, 0, 0, 0)
+cc_setgraphic(5467)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar5, iVar6)
+cc_setposition(0, 2, 0, 0)
+cc_setgraphic(5463)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar11, iVar10)
+cc_setposition(2, 0, 0, 0)
+cc_setgraphic(5461)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setsize(0, 0, iVar11, iVar10)
+cc_setposition(2, 2, 0, 0)
+cc_setgraphic(5461)
+cc_sethflip(1)
+return

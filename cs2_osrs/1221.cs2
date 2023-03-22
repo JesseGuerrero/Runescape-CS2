@@ -1,0 +1,10 @@
+void script_1221(Widget widget0, int arg1) {
+	if (getShadeColor(widget0) < 240) {
+		widget0.setTrans(getShadeColor(widget0) + 5);
+		return;
+	}
+	widget0.setRGB(datamap('i', 'i', 1279, arg1));
+	widget0.hookFrame(null);
+	widget0.setTrans(0);
+	return;
+}

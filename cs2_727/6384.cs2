@@ -1,0 +1,55 @@
+//script6384(6384)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9)(void)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(arg0, 10159)
+		if_setgraphic(arg2, 10160)
+		if_setgraphic(arg1, 10161)
+		if_setgraphic(arg3, 10162)
+		if_setgraphic(arg4, 10163)
+		if_setgraphic(arg5, 10164)
+		if_setgraphic(arg7, 10165)
+		if_setgraphic(arg6, 10166)
+		if_setgraphic(arg8, 10167)
+		if_setgraphic(arg9, 10168)
+		break
+	case 2:
+		if_setgraphic(arg0, 10169)
+		if_setgraphic(arg2, 10170)
+		if_setgraphic(arg1, 10171)
+		if_setgraphic(arg3, 10172)
+		if_setgraphic(arg4, 10173)
+		if_setgraphic(arg5, 10174)
+		if_setgraphic(arg7, 10175)
+		if_setgraphic(arg6, 10176)
+		if_setgraphic(arg8, 10177)
+		if_setgraphic(arg9, 10178)
+		break
+	case 3:
+		if_setgraphic(arg0, 10179)
+		if_setgraphic(arg2, 10180)
+		if_setgraphic(arg1, 10181)
+		if_setgraphic(arg3, 10182)
+		if_setgraphic(arg4, 10183)
+		if_setgraphic(arg5, 10184)
+		if_setgraphic(arg7, 10185)
+		if_setgraphic(arg6, 10186)
+		if_setgraphic(arg8, 10187)
+		if_setgraphic(arg9, 10188)
+		break
+	case 1:
+		if_setgraphic(arg0, 10189)
+		if_setgraphic(arg2, 10190)
+		if_setgraphic(arg1, 10191)
+		if_setgraphic(arg3, 10192)
+		if_setgraphic(arg4, 10193)
+		if_setgraphic(arg5, 10194)
+		if_setgraphic(arg7, 10195)
+		if_setgraphic(arg6, 10196)
+		if_setgraphic(arg8, 10197)
+		if_setgraphic(arg9, 10198)
+		break
+
+}
+return

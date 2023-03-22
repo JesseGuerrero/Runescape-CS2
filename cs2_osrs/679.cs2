@@ -1,0 +1,23 @@
+void script_679(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 3, 0);
+	CHILD.setSize(64, 64, 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFilled(true);
+	CHILD.setTrans(255);
+	_CHILD.createChild(widget0, 4, 1);
+	_CHILD.setSize(10, 15, 0, 0);
+	_CHILD.setPosition(5 + rnd(widget0.getWidth() - 15), 5 + rnd(widget0.getHeight() - 20), 0, 0);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setFont(496);
+	_CHILD.setRGB(0xFF7F00);
+	_CHILD.setTextAntiMacro(false);
+	_CHILD.setText("");
+	_CHILD.hookFrame(&script_683(CTX_WIDGET, CTX_WIDGET_CHILD, arg1, getClientCycle() + 5));
+	CHILD.hookMouseHover(&script_684(false, CTX_WIDGET, CTX_WIDGET_CHILD, getChildId()));
+	CHILD.hookMouseExit(&script_684(true, CTX_WIDGET, CTX_WIDGET_CHILD, getChildId()));
+	CHILD.setContextMenuOption(1, "Select");
+	CHILD.hookOptionClick(&script_685(arg1, arg2, arg3, widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10), widget(arg11), widget(arg12), widget(arg13), widget(arg14), widget(arg15), widget(arg16), widget(arg17), widget(arg18), widget(arg19), widget(arg20)));
+	return;
+}

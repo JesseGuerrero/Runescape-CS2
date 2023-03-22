@@ -1,0 +1,4 @@
+void script_580(DataMap arg0, Widget arg1, Widget widget2, Widget widget3, int arg4) {
+	script_581(arg0, arg1, widget2, widget3, arg4);
+	return;
+}

@@ -1,0 +1,20 @@
+//script348(348)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = script_166(arg2)
+iVar4 = 941
+if(iVar3 >= 7) {
+	if_sethide(arg0, 0)
+	if_setgraphic(arg1, 942)
+	hook_mouse_press(arg0, script_44, "Id", arg1, iVar4)
+} else 
+	if(iVar3 == 6) {
+		if_sethide(arg0, 0)
+		if_setgraphic(arg1, 941)
+		iVar4 = 942
+		hook_mouse_press(arg0, script_44, "Id", arg1, iVar4)
+	} else  {
+		if_sethide(arg0, 1)
+		hook_mouse_press(arg0, None, "")
+	}
+return

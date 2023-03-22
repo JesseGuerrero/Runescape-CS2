@@ -1,0 +1,10 @@
+//script6375(6375)()(int)
+if(script_6351() == 0)
+	return 0
+if(script_6377() == 1)
+	return 0
+if(script_6376() == 1)
+	return 0
+else
+	return 1
+return -1

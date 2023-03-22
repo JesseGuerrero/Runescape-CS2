@@ -1,0 +1,20 @@
+//script945(945)(int arg0, int arg1, int arg2)(void)
+int iVar3
+arg0 = min(arg0, 100)
+arg0 = max(arg0, 0)
+iVar3 = (arg0 * 25) / 10
+if_setposition(if_gethash(1246, 21), 0, 0, 250 - iVar3, 0)
+if_settext(if_gethash(1246, 17), to_string(arg1) + "%")
+if(arg2 == 1) {
+	if_setposition(if_gethash(1246, 5), 0, 0, 217, 32)
+	if_setposition(if_gethash(1246, 6), 0, 0, 167, 32)
+} else 
+	if(arg2 == 2) {
+		if_setposition(if_gethash(1246, 5), 0, 0, 130, 32)
+		if_setposition(if_gethash(1246, 6), 0, 0, 92, 32)
+	} else 
+		if(arg2 == 3) {
+			if_setposition(if_gethash(1246, 5), 0, 0, 67, 32)
+			if_setposition(if_gethash(1246, 6), 0, 0, 42, 32)
+		}
+return

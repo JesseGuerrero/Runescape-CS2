@@ -1,0 +1,7 @@
+//script1517(1517)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(load_varc(779) != -1)
+		cc_setmodelanim(bas_getanim_ready(load_varc(779)))
+	else
+		cc_setmodelanim(bas_getanim_ready(1426))
+return

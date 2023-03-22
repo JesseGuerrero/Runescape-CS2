@@ -1,0 +1,75 @@
+//script5483(5483)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar4 = enum(5331, arg2, 'o', 'i')
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = -1
+switch(arg2) {
+	case default:
+		break
+	case 5329:
+		if(arg3 == 1)
+			if_setonmouseleave(arg0, script_5483, "IIo1Y", 2, 93, 94, arg0, arg1, arg2, 0)
+		iVar5 = inv_total(7409, 94) + inv_total(7409, 93)
+		if(iVar5 > 0)
+			arg2 = 7409
+		iVar5 = iVar5 + inv_total(5329, 93)
+		break
+	case 6797:
+		if(arg3 == 1)
+			if_setonmouseleave(arg0, script_5483, "IIo1Y", 1, 93, arg0, arg1, arg2, 0)
+		iVar6 = 1
+		while(iVar6 <= iVar8) {
+			iVar9 = enum(136, iVar6, 'i', 'o')
+			if(iVar9 != -1)
+				if(iVar9 != 6797) {
+					iVar7 = inv_total(iVar9, 93)
+					if(iVar7 > 0)
+						arg2 = iVar9
+				}
+			iVar6 = iVar6 + 1
+		}
+		if(arg3 == 1)
+			if_setonmouseleave(arg0, script_5483, "IIo1Y", 1, 93, arg0, arg1, arg2, 0)
+		iVar5 = inv_total(arg2, 93)
+		break
+	case 22444:
+		if(arg3 == 1)
+			if_setonmouseleave(arg0, script_5483, "IIo1Y", 1, 93, arg0, arg1, arg2, 0)
+		iVar5 = min(1, inv_total(22444, 93))
+		break
+	case -1:
+		return
+
+
+}
+if(iVar4 > 1)
+	instr6129(arg0, iVar5, arg2)
+else
+	if(iVar5 > 0)
+		if_setitem(arg0, iVar5, arg2)
+	else
+		instr6879(arg0, iVar5, arg2)
+item_useonname(arg0, "<col=ff9040>" + item_name(arg2))
+iVar10 = 6014
+iVar11 = 6015
+if(iVar5 > 0) {
+	if_settrans(arg0, 0)
+	if_setgraphic(arg1, iVar10)
+	hook_mouse_enter(arg1, script_44, "Id", -2147483645, iVar11)
+	hook_mouse_exit(arg1, script_44, "Id", -2147483645, iVar10)
+} else  {
+	if_settrans(arg0, 175)
+	if_setgraphic(arg1, 6016)
+	if_clearscripthooks(arg1)
+}
+return

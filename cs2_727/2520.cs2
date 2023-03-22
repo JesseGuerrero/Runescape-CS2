@@ -1,0 +1,15 @@
+//script2520(2520)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = iVar0 + load_varc(847)
+iVar0 = iVar0 + load_varc(852)
+iVar0 = iVar0 + load_varc(848)
+iVar0 = iVar0 + load_varc(853)
+iVar0 = iVar0 + load_varc(849)
+iVar0 = iVar0 + load_varc(854)
+iVar0 = iVar0 + load_varc(850)
+iVar0 = iVar0 + load_varc(855)
+iVar0 = iVar0 + load_varc(851)
+iVar0 = iVar0 + load_varc(856)
+return iVar0
+return 0

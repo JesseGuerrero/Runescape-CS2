@@ -1,0 +1,36 @@
+int, int script_1063(int arg0) {
+	if (arg0 == 5341) {
+		return VARPBIT[1435], 5341;
+	}
+	if (arg0 == 5343) {
+		return VARPBIT[1436], 5343;
+	}
+	if (arg0 == 952) {
+		return VARPBIT[1437], 952;
+	}
+	if (arg0 == 5329) {
+		if (VARPBIT[1848] == 1) {
+			return VARPBIT[1438], 7409;
+		}
+		return VARPBIT[1438], 5329;
+	}
+	if (arg0 == 6797) {
+		if (VARPBIT[1439] <= 0) {
+			return 0, -1;
+		}
+		return 1, datamap('i', 'O', 136, VARPBIT[1439]);
+	}
+	if (arg0 == 5325) {
+		return VARPBIT[1440], 5325;
+	}
+	if (arg0 == 1925) {
+		return pow(2, 5) * VARPBIT[4731] + VARPBIT[1441], 1925;
+	}
+	if (arg0 == 6032) {
+		return VARPBIT[1442], 6032;
+	}
+	if (arg0 == 6034) {
+		return VARPBIT[1443], 6034;
+	}
+	return 0, -1;
+}

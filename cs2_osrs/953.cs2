@@ -1,0 +1,9 @@
+void script_953(Widget widget0) {
+	Widget widget1;
+	widget0.setText("Score: " + VARPBIT[2121]);
+	widget0.hookVARP(&script_87(CTX_WIDGET), 727);
+	widget1 = widget0.getLayer();
+	script_955(widget1, widget0);
+	widget0.hookWidgetsOpenClose(&script_954(widget1, widget0));
+	return;
+}

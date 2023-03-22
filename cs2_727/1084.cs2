@@ -1,0 +1,6 @@
+//script1084(1084)(int arg0, int arg1, int arg2)(void)
+if(if_gethide(enum(1550, arg0 + 1, 'i', 'I')) == 1)
+	return
+if(cc_find(arg2, arg1) == 1)
+	cc_sethide(1)
+return

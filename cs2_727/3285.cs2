@@ -1,0 +1,6 @@
+//script3285(3285)(int arg0)(void)
+if_setscrollsize(62062628, arg0, 0)
+if_setscrollsize(62062630, arg0, 0)
+if(if_getscrollheight(62062628) < if_getheight(if_gethash(947, 36)))
+	if_sethide(if_gethash(947, 47), 1)
+return

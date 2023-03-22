@@ -1,0 +1,60 @@
+//script2335(2335)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16)(void)
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+if(load_varpbit(8725) < 4000)
+	if_settext(arg15, to_string(load_varpbit(8725)))
+else
+	if_settext(arg15, "Max")
+if(load_varpbit(3939) < 4000)
+	if_settext(arg10, to_string(load_varpbit(3939)))
+else
+	if_settext(arg10, "Max")
+if(load_varpbit(3941) < 4000)
+	if_settext(arg11, to_string(load_varpbit(3941)))
+else
+	if_settext(arg11, "Max")
+if(load_varpbit(3938) < 4000)
+	if_settext(arg12, to_string(load_varpbit(3938)))
+else
+	if_settext(arg12, "Max")
+if(load_varpbit(3942) < 4000)
+	if_settext(arg13, to_string(load_varpbit(3942)))
+else
+	if_settext(arg13, "Max")
+iVar17 = parawidth(if_gettext(arg15), 494, 512)
+iVar18 = parawidth(if_gettext(arg10), 494, 512)
+iVar19 = parawidth(if_gettext(arg11), 494, 512)
+iVar20 = parawidth(if_gettext(arg12), 494, 512)
+iVar21 = parawidth(if_gettext(arg13), 494, 512)
+iVar22 = arg5
+iVar22 = max((arg16 + 10) + iVar17, iVar22)
+iVar22 = max((arg6 + 10) + iVar18, iVar22)
+iVar22 = max((arg7 + 10) + iVar19, iVar22)
+iVar22 = max((arg8 + 10) + iVar20, iVar22)
+iVar22 = max((arg9 + 10) + iVar21, iVar22)
+if_setsize(arg0, 0, 0, if_getheight(arg0), iVar22)
+if(load_varpbit(8725) < 40)
+	if_setcolor(arg14, 0xFF981F)
+else
+	if_setcolor(arg14, 0x66FFFF)
+if(load_varpbit(3939) < 40)
+	if_setcolor(arg1, 0xFF981F)
+else
+	if_setcolor(arg1, 0x66FFFF)
+if(load_varpbit(3941) < 40)
+	if_setcolor(arg2, 0xFF981F)
+else
+	if_setcolor(arg2, 0x66FFFF)
+if(load_varpbit(3938) < 40)
+	if_setcolor(arg3, 0xFF981F)
+else
+	if_setcolor(arg3, 0x66FFFF)
+if(load_varpbit(3942) < 40)
+	if_setcolor(arg4, 0xFF981F)
+else
+	if_setcolor(arg4, 0x66FFFF)
+return

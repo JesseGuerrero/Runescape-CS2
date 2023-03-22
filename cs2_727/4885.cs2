@@ -1,0 +1,68 @@
+//script4885(4885)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+if(clan_vars_enabled() == 1) {
+	iVar2 = script_4964(arg0)
+	iVar3 = script_4971(iVar2)
+	if(script_4886(iVar3) == 0)
+		return
+	if(load_varpbit(9570) == iVar3 || load_varpbit(9579) == iVar3 || load_varpbit(9588) == iVar3)
+		return
+	switch(iVar2) {
+		case default:
+			break
+		case 48:
+			iVar1 = 0
+			break
+
+	}
+	iVar1 = 1
+	if(load_varpbit(9558) > 0)
+		if(script_4828(load_varpbit(9558)) == 0) {
+			switch(load_varpbit(9558)) {
+				case default:
+					break
+				case 1:
+					store_varpbit(9570, iVar3)
+					store_varpbit(9564, iVar1)
+					break
+				case 2:
+					store_varpbit(9579, iVar3)
+					store_varpbit(9573, iVar1)
+					break
+				case 3:
+					store_varpbit(9588, iVar3)
+					store_varpbit(9582, iVar1)
+					break
+
+			}
+			return
+		}
+	if(load_clan_varbit(2148) != iVar3)
+		if(load_clan_varbit(2165) != iVar3)
+			if(load_clan_varbit(2182) != iVar3)
+				if(load_varpbit(9559) == 0) {
+					store_varpbit(9570, iVar3)
+					store_varpbit(9564, iVar1)
+					store_varpbit(9558, 1)
+					script_4849()
+				} else 
+					if(load_varpbit(9560) == 0) {
+						store_varpbit(9579, iVar3)
+						store_varpbit(9573, iVar1)
+						store_varpbit(9558, 2)
+						script_4849()
+					} else 
+						if(load_varpbit(9561) == 0) {
+							store_varpbit(9588, iVar3)
+							store_varpbit(9582, iVar1)
+							store_varpbit(9558, 3)
+							script_4849()
+						}
+}
+return
+return

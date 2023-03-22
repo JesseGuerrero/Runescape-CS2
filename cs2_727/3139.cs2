@@ -1,0 +1,15 @@
+//script3139(3139)(int arg0)(void)
+string sVar0
+if(load_varc(998) == arg0) {
+	script_1857(script_1854())
+	script_1858(0)
+} else 
+	if(load_varc(999) == arg0)
+		script_1858(0)
+store_varc(998, script_1853())
+store_varc(999, script_1854())
+script_3113()
+sVar0 = "Your changes cannot be saved because" + "<br>" + "you are using the unsigned client."
+script_3143(0, "World " + to_string(arg0) + " has been removed from your favourites.")
+script_3065(1)
+return

@@ -1,0 +1,23 @@
+//script871(871)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar0 = 20 - 0
+iVar1 = 80 - 0
+iVar2 = iVar1 / iVar0
+iVar3 = load_varpbit(4523) * iVar2
+iVar4 = 1024 / iVar1
+store_varc(111, iVar3)
+iVar5 = load_varc(111) * iVar4
+iVar5 = iVar5 + 512
+iVar5 = 2048 - iVar5
+if_setmodelangle(if_gethash(717, 4), 388, iVar5, 0, 0, 0, 0)
+script_896()
+iVar6 = enum(1422, load_varpbit(4519), 'i', 'i') * (1024 / iVar0)
+iVar6 = iVar6 + 512
+if_setmodelangle(if_gethash(717, 3), 365, iVar6, 0, 0, 0, 0)
+return

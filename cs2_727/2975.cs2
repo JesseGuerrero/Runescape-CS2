@@ -1,0 +1,11 @@
+//script2975(2975)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg3 == 1) {
+	if_setgraphic(arg0, 4045)
+	if_setgraphic(arg2, 4045)
+	if_setgraphic(arg1, 4047)
+} else  {
+	if_setgraphic(arg0, 4044)
+	if_setgraphic(arg2, 4044)
+	if_setgraphic(arg1, 4046)
+}
+return

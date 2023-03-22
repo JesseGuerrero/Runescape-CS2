@@ -1,0 +1,31 @@
+//script2049(2049)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, string arg11, string arg12)(void)
+int iVar11
+int iVar12
+cc_sethide(0)
+cc_setsize(0, 0, arg2, arg1)
+cc_setposition(1, 1, arg4, arg3)
+cc_set2dangle(arg5)
+cc_settiling(arg6)
+cc_sethflip(arg7)
+cc_setvflip(arg8)
+cc_setgraphic(arg0)
+iVar11 = 0
+iVar12 = 0
+if(arg9 == 1) {
+	cc_setalpha(1)
+	iVar11 = modulo(50, client_clock())
+	iVar12 = 50 / 2
+	if(iVar11 <= iVar12)
+		cc_settrans(255 - scale(255, iVar12, iVar11))
+	else
+		cc_settrans(scale(255, iVar12, iVar11 - iVar12))
+}
+if(arg10 != -1) {
+	cc_setopbase("<col=ff9040>" + arg0 + "</col>")
+	cc_setop(arg1, 1)
+	instr6687(script_2053, "iIc", -2147483644, -2147483645, arg10)
+} else  {
+	cc_setop("", 1)
+	instr6687(None, "")
+}
+return

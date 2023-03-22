@@ -1,0 +1,78 @@
+//script3062(3062)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+string sVar0
+string sVar1
+string sVar2
+iVar1 = 0
+sVar0 = ""
+iVar2 = 0
+sVar1 = ""
+iVar3 = 0
+iVar4 = 0
+sVar2 = ""
+if(load_varc(1100) == 42 || load_varc(1100) == 43)
+	return
+if(instr6803() == 0) {
+	script_3064(0)
+	instr6342(arg0, script_3061, "I", arg0)
+	return
+}
+iVar1 = worldlist_getinfo(world_id()).get(0)
+if(iVar3 < 0) {
+	script_3093(-5, 1, 0, 2608, 0, -1, 1, "Could not connect you to the chosen world. Please choose another.", "", "", "Back", "Back")
+	script_3064(1)
+	instr6342(arg0, None, "")
+	return
+}
+store_varc(1322, 0)
+script_3064(1)
+instr6342(arg0, None, "")
+script_3097()
+store_varc(1100, -1)
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+if(script_2727() == 1)
+	if(load_varc(547) == 0) {
+		script_3076(59375735)
+		script_3074(59375733)
+		script_3026(59375735)
+		script_3025(59375733)
+		if_sethide(if_gethash(906, 58), 0)
+		sound_jingle(0, 349)
+		script_3412(59375728, 59375729)
+		iVar7 = if_getwidth(if_gethash(906, 113))
+		iVar8 = if_getwidth(if_gethash(906, 113))
+		iVar5 = max(stringwidth(496, if_gettext(if_gethash(906, 112))) + 30, 337)
+		iVar8 = max(paramheight(if_gettext(if_gethash(906, 113)), 496, iVar7) * 16, 152)
+		iVar6 = max(iVar8 + 91, 243)
+		if_setsize(if_gethash(906, 113), 0, 0, iVar8, iVar7)
+		if_setsize(if_gethash(906, 110), 0, 0, iVar6, iVar5)
+		return
+	}
+store_varc(200, 0)
+store_varc(1745, 0)
+script_3064(0)
+if(load_varp(2523) > 0)
+	script_5861(load_varp(2523))
+instr6641()
+iVar9 = detailget_soundeffect_volume()
+iVar10 = detailget_music_volume()
+iVar11 = detailget_ambientsound_volume()
+iVar12 = detailget_voiceover_volume()
+iVar13 = instr6783()
+instr6342(arg0, script_3063, "Iiiiiii", arg0, world_id(), iVar9, iVar10, iVar11, iVar12, iVar13)
+return

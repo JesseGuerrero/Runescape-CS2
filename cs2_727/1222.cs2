@@ -1,0 +1,10 @@
+//script1222(1222)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+iVar4 = if_getwidth(if_gethash(746, 32)) - ((arg2 + (arg0 / 2)) + 42)
+iVar5 = if_getheight(if_gethash(746, 32)) - arg3
+if_setsize(if_gethash(746, 46), 0, 0, arg1, arg0)
+iVar4 = max(0, iVar4)
+iVar5 = max(0, iVar5)
+if_setposition(if_gethash(746, 46), 2, 2, iVar5, iVar4)
+return

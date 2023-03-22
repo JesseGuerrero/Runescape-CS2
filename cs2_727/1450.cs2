@@ -1,0 +1,19 @@
+//script1450(1450)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = inv_size(if_gethash(0, 95))
+while(iVar0 < iVar1) {
+	cc_create(iVar0, 5, 49938527)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, 0, 0)
+	cc_sethide(1)
+	if(inv_getitem(iVar0, 95) != -1)
+		script_1453(iVar0)
+	cc_setoutline(1)
+	cc_setgraphicshadow(3355443)
+	cc_setonmouseover(script_1480, "Ii", if_gethash(762, 95), iVar0)
+	instr6092(script_40, "I", if_gethash(762, 99))
+	iVar0 = iVar0 + 1
+}
+return

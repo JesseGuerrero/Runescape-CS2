@@ -1,0 +1,9 @@
+//script4140(4140)(int arg0, int arg1)(void)
+if(cc_find(0, arg1) == 1) {
+	cc_setfill(1)
+	cc_setsize(1, 1, 0, 0)
+	cc_setposition(1, 1, 0, 0)
+	cc_settrans(0)
+	instr6556(script_4141, "iI", client_clock() + arg0, arg1)
+}
+return

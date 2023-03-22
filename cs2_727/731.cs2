@@ -1,0 +1,13 @@
+//script731(731)()(void)
+if_setmodel(if_gethash(781, 15), -1)
+if_setmodel(if_gethash(781, 16), -1)
+if_setmodel(if_gethash(781, 17), -1)
+if_setmodel(if_gethash(781, 18), -1)
+if_setmodel(if_gethash(781, 19), -1)
+if_setmodel(if_gethash(781, 20), -1)
+if_setmodel(if_gethash(781, 21), -1)
+if_setmodel(if_gethash(781, 22), -1)
+if_setmodelanim(if_gethash(781, 33), 10139)
+if_setmodelanim(if_gethash(781, 42), 10139)
+if_sethide(if_gethash(781, 1), 1)
+return

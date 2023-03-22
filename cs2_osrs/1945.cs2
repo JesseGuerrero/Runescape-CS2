@@ -1,0 +1,8 @@
+void script_1945(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	widget0.setText("Torvesta");
+	widget1.setText("B0aty");
+	widget2.setText("Sick Nerd");
+	widget3.setText("Knightenator");
+	widget4.setText("Mmorpgrs");
+	return;
+}

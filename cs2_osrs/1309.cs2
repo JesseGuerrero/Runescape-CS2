@@ -1,0 +1,21 @@
+void script_1309(Widget widget0) {
+	int int1;
+	widget0.clearChildren();
+	int1 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 5, int1);
+	int1 = int1 + 1;
+	CHILD.setSize(64, 32, 0, 0);
+	CHILD.setPosition(-2, 0, 0, 1);
+	CHILD.setSprite(678);
+	_CHILD.createChild(widget0, 4, int1);
+	int1 = int1 + 1;
+	_CHILD.setSize(56, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 2, 1);
+	_CHILD.setFont(495);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setText(getOption(1, widget0));
+	script_1375(widget0);
+	widget0.hookVARP(&script_1310(CTX_WIDGET, getChildId(), getChildId()), 780);
+	return;
+}

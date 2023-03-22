@@ -1,0 +1,4 @@
+//script41(41)(int arg0)(void)
+cc_deleteall(arg0)
+store_varc(2, 0)
+return

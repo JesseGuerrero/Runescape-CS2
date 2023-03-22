@@ -1,0 +1,145 @@
+//script711(711)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+string sVar0
+string sVar1
+instr6239(if_gethash(916, 24), script_2023, "ii", -2147483644, 1)
+instr6239(if_gethash(916, 25), script_2023, "ii", -2147483644, -1)
+script_2020(1, 41, 60030986, "1")
+script_2020(5, 41, 60030987, "5")
+script_2020(10, 41, 60030988, "10")
+iVar0 = if_getwidth(if_gethash(916, 14))
+iVar1 = if_getwidth(if_gethash(905, 3))
+iVar2 = (iVar1 - iVar0) - ((41 * 3) + (5 * 2))
+iVar3 = 0
+iVar4 = 0
+sVar0 = "All"
+sVar1 = "Custom"
+if(script_1103() == 1) {
+	iVar3 = max(stringwidth(494, sVar1), stringwidth(494, sVar0)) + 20
+	script_2020(load_varpbit(8094), iVar3, 60030989, sVar0)
+	script_2020(-1, iVar3, 59310086, sVar1)
+	iVar2 = iVar2 - ((iVar3 * 2) + 5)
+	iVar4 = scale(iVar2, 5, 2)
+	if_setposition(if_gethash(916, 13), 1, 0, 0, iVar4)
+	iVar4 = (iVar4 + iVar3) + 5
+	if_setposition(if_gethash(905, 6), 1, 0, 0, iVar4)
+	iVar4 = iVar4 + iVar3
+	iVar4 = iVar4 + (iVar2 / 5)
+	if_setposition(if_gethash(916, 10), 1, 0, 0, iVar4)
+	iVar4 = (iVar4 + 41) + 5
+	if_setposition(if_gethash(916, 11), 1, 0, 0, iVar4)
+	iVar4 = (iVar4 + 41) + 5
+	if_setposition(if_gethash(916, 12), 1, 0, 0, iVar4)
+} else  {
+	if_sethide(if_gethash(916, 13), 1)
+	if_sethide(if_gethash(905, 6), 1)
+	iVar4 = iVar2 / 2
+	if_setposition(if_gethash(916, 10), 1, 0, 0, iVar4)
+	iVar4 = (iVar4 + 41) + 5
+	if_setposition(if_gethash(916, 11), 1, 0, 0, iVar4)
+	iVar4 = (iVar4 + 41) + 5
+	if_setposition(if_gethash(916, 12), 1, 0, 0, iVar4)
+}
+if_setposition(if_gethash(916, 7), 1, 2, 0, iVar0 - 5)
+if_setposition(if_gethash(905, 5), 1, 2, 0, iVar0)
+iVar5 = iVar1 - iVar0
+if(load_varc(92) == 1) {
+	if_setsize(if_gethash(916, 7), 1, 0, 0, iVar5 + 5)
+	if_setsize(if_gethash(905, 5), 1, 0, 0, iVar5)
+	script_2192(0, iVar5)
+} else  {
+	if_setsize(if_gethash(916, 7), 1, 0, 0, 5)
+	if_setsize(if_gethash(905, 5), 1, 0, 0, 0)
+	script_2192(1, iVar5)
+}
+if_setsize(if_gethash(916, 6), 1, 1, 0, (if_getx(if_gethash(916, 6)) * 2) + iVar0)
+sVar1 = "Show/Hide additional number buttons"
+iVar6 = 3883
+if_setonmouseover(if_gethash(916, 26), script_1160, "IiIsii", -2147483645, -1, if_gethash(905, 29), sVar1, 25, 519)
+hook_mouse_exit(if_gethash(916, 26), script_299, "IId", if_gethash(905, 29), if_gethash(916, 27), iVar6)
+iVar2 = (70 - 56) / 2
+iVar3 = 0
+if(load_varc(755) != -1)
+	iVar3 = parawidth(load_varc_string(132), 494, 2147483647)
+if(load_varc(756) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(133), 494, 2147483647))
+if(load_varc(757) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(134), 494, 2147483647))
+if(load_varc(758) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(135), 494, 2147483647))
+if(load_varc(759) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(136), 494, 2147483647))
+if(load_varc(760) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(137), 494, 2147483647))
+if(load_varc(1139) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(280), 494, 2147483647))
+if(load_varc(1140) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(281), 494, 2147483647))
+if(load_varc(1141) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(282), 494, 2147483647))
+if(load_varc(1142) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(283), 494, 2147483647))
+if(load_varc(120) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(275), 494, 2147483647))
+if(load_varc(185) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(316), 494, 2147483647))
+if(load_varc(87) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(317), 494, 2147483647))
+if(load_varc(90) != -1)
+	iVar3 = max(iVar3, parawidth(load_varc_string(318), 494, 2147483647))
+iVar3 = iVar3 + 4
+iVar3 = max(56, iVar3 + (4 * 2))
+iVar4 = script_1883(iVar2, iVar3, iVar2, load_varc(755), 59310094, load_varc_string(132))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(756), 59310095, load_varc_string(133))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(757), 59310096, load_varc_string(134))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(758), 59310097, load_varc_string(135))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(759), 59310098, load_varc_string(136))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(760), 59310099, load_varc_string(137))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(1139), 59310100, load_varc_string(280))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(1140), 59310106, load_varc_string(281))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(1141), 59310101, load_varc_string(282))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(1142), 59310102, load_varc_string(283))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(120), 59310103, load_varc_string(275))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(185), 59310104, load_varc_string(316))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(87), 59310105, load_varc_string(317))
+iVar4 = script_1883(iVar4, iVar3, iVar2, load_varc(90), 59310107, load_varc_string(318))
+script_2047()
+iVar3 = if_getwidth(if_gethash(905, 7)) - 50
+iVar7 = 3877
+iVar6 = 3879
+iVar8 = 3878
+iVar9 = 3880
+if(iVar4 > iVar3) {
+	if_setsize(if_gethash(905, 13), 1, 0, 0, iVar3)
+	if_setscrollsize(59310093, 0, iVar4)
+	if_setscrollpos(if_gethash(905, 13), 0, load_varc(93))
+	if_setonmouseover(if_gethash(905, 11), script_2369, "Idi", -2147483645, iVar8, -4)
+	if_setonmouseover(if_gethash(905, 12), script_2369, "Idi", -2147483645, iVar9, 4)
+	instr6231(if_gethash(905, 11), script_2369, "Idi", -2147483645, iVar8, -6)
+	instr6231(if_gethash(905, 12), script_2369, "Idi", -2147483645, iVar9, 6)
+	hook_mouse_exit(if_gethash(905, 11), script_44, "Id", -2147483645, iVar7)
+	hook_mouse_exit(if_gethash(905, 12), script_44, "Id", -2147483645, iVar6)
+	script_2370()
+} else  {
+	if_setsize(if_gethash(905, 13), 1, 0, 0, iVar4)
+	if_setscrollsize(59310093, 0, 0)
+	if_setscrollpos(if_gethash(905, 13), 0, 0)
+	if_clearscripthooks(if_gethash(905, 11))
+	if_clearscripthooks(if_gethash(905, 12))
+	if_settrans(if_gethash(905, 11), 150)
+	if_settrans(if_gethash(905, 12), 150)
+}
+if_setgraphic(if_gethash(905, 11), iVar7)
+if_setgraphic(if_gethash(905, 12), iVar6)
+instr6257(if_gethash(905, 2), script_711, "Y", 1, 754)
+instr6237(if_gethash(905, 2), script_2025, "Y", 1, 1363)
+return

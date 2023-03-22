@@ -1,0 +1,10 @@
+//script5441(5441)()(void)
+if_sethide(if_gethash(1168, 10), 0)
+if_sethide(if_gethash(1168, 11), 1)
+if_sethide(if_gethash(1168, 12), 1)
+if(if_getscrollheight(76546058) > if_getheight(if_gethash(1168, 10)))
+	if_sethide(if_gethash(1168, 13), 0)
+if_setcolor(76546127, 0xFFFFFF)
+if_setcolor(76546126, 0xF5B241)
+store_varc(1682, 0)
+return

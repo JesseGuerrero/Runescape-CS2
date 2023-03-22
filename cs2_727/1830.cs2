@@ -1,0 +1,11 @@
+//script1830(1830)(int arg0)(void)
+if(world_members() == 0)
+	return
+if(script_1820(arg0) == 0)
+	return
+if(load_varc(253) == 0)
+	store_varc(253, 1)
+else
+	store_varc(253, 0)
+script_1778()
+return

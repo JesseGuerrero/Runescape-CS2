@@ -1,0 +1,10 @@
+//script6370(6370)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg0 != -1)
+	if(arg1 == -1)
+		if(instr6004(arg0) == 1 || cc_find(arg1, arg0) == 1)
+			if(script_6353() == 1) {
+				script_6372(arg3)
+				return
+			}
+script_6371(arg2, arg3)
+return

@@ -1,0 +1,5 @@
+//script4310(4310)()(void)
+if(script_4309() == 1)
+	script_4306()
+script_4311()
+return

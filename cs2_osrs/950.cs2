@@ -1,0 +1,31 @@
+void script_950(int arg0, int arg1, Color color2, int arg3, int arg4, int arg5) {
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	if (arg5 <= 0) {
+		widget(174, 1).setRGB(color2);
+		widget(174, 1).setTrans(arg3);
+		widget(174, 0).hookFrame(null);
+		return;
+	}
+	int6 = 0;
+	int7 = 0;
+	int8 = 0;
+	int6, int7, int8 = script_2(arg0);
+	int9 = 0;
+	int10 = 0;
+	int11 = 0;
+	int9, int10, int11 = script_2(color2);
+	int12 = int9 - mathMethod4006(0, arg5, 0, arg4, int9 - int6);
+	int13 = int10 - mathMethod4006(0, arg5, 0, arg4, int10 - int7);
+	int14 = int11 - mathMethod4006(0, arg5, 0, arg4, int11 - int8);
+	widget(174, 1).setRGB(script_246(int12, int13, int14));
+	widget(174, 1).setTrans(arg3 - mathMethod4006(0, arg5, 0, arg4, arg3 - arg1));
+	return;
+}

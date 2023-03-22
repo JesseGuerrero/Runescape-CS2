@@ -1,0 +1,13 @@
+void script_1283(int arg0, int arg1) {
+	if (CHILD.setChild(widget(257, 0), 0) == true) {
+		if (getClientCycle() < arg0) {
+			return;
+		}
+		if (getClientCycle() >= arg1) {
+			CHILD.hookFrame(null);
+			return;
+		}
+		CHILD.setRGB(script_1285(0, 32896, arg0, arg1, getClientCycle()));
+	}
+	return;
+}

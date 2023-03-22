@@ -1,0 +1,21 @@
+void script_896(int arg0) {
+	DataMap datamap1;
+	Widget widget2;
+	datamap1 = script_900();
+	if (datamap1 == null) {
+		return;
+	}
+	widget2 = datamap('I', 'I', datamap1, widget(161, 3));
+	if (widget2 == null) {
+		return;
+	}
+	widget2.clearChildren();
+	CHILD.createChild(widget2, 6, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setModel(12027);
+	CHILD.setAnimation(3320);
+	script_898(widget2);
+	CHILD.hookFrame(&script_897(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle() + arg0));
+	return;
+}

@@ -1,0 +1,24 @@
+//script91(91)(int arg0)(int)
+switch(chatline_gettype(arg0)) {
+	case default:
+		break
+	case 7:
+		return 1
+
+	case 18:
+		if(chat_getfilter_private() == 0)
+			return 1
+		if(chat_getfilter_private() == 1)
+			if(friend_test(instr6573(arg0)) == 1)
+				return 1
+		return 0
+
+	case 19:
+		if(chat_getfilter_private() < 2)
+			return 1
+		return 0
+
+
+}
+return 0
+return -1

@@ -1,0 +1,22 @@
+//script6081(6081)()(void)
+int iVar0
+int iVar1
+iVar0 = inv_total(load_varp(532), 93)
+iVar1 = 0
+if(load_varp(118) != -1) {
+	instr6342(if_gethash(1265, 90), None, "")
+	script_6107()
+	if(load_varp(532) == 995)
+		iVar0 = iVar0 + inv_total(load_varp(532), 623)
+	if(iVar0 == 0) {
+		if_settext(if_gethash(1265, 207), "None!")
+		if_setgraphic(if_gethash(1265, 206), 2180)
+	} else  {
+		if_settext(if_gethash(1265, 207), script_940(iVar0))
+		if_setgraphic(if_gethash(1265, 206), enum(200, load_varp(532), 'o', 'd'))
+	}
+	iVar1 = parawidth(if_gettext(if_gethash(1265, 207)), 3793, if_getwidth(if_gethash(1265, 77)))
+	iVar1 = (iVar1 + 2) + if_getwidth(if_gethash(1265, 206))
+	if_setsize(if_gethash(1265, 16), 0, 0, 15, iVar1)
+}
+return

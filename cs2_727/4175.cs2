@@ -1,0 +1,16 @@
+//script4175(4175)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = client_clock() - script_4176(arg3, arg2)
+if(iVar4 >= 255 || iVar4 < 0) {
+	if(cc_find(arg1, arg0) == 1)
+		cc_sethide(1)
+	return
+}
+if(cc_find(arg1, arg0) == 1) {
+	cc_sethide(0)
+	if(modulo(40, iVar4) > 20)
+		cc_settrans(255)
+	else
+		cc_settrans(iVar4)
+}
+return

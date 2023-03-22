@@ -1,0 +1,10 @@
+//script4109(4109)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+iVar6 = if_getwidth(arg5)
+arg0 = max(0, min(if_getwidth(arg4) - iVar6, arg0))
+iVar7 = if_getx(arg4)
+if_setsize(arg2, 1, 0, 0, iVar7 + arg0)
+if_setsize(arg3, 1, 1, 0, (iVar7 + arg0) + iVar6)
+if_setposition(arg5, 1, 0, 0, arg0)
+return

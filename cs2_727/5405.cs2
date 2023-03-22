@@ -1,0 +1,35 @@
+//script5405(5405)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 0
+if(modulo(1, client_clock()) == 0) {
+	iVar3 = if_getwidth(arg2)
+	iVar3 = iVar3 - 490
+	if(load_varc(1669) > iVar3) {
+		instr6342(if_gethash(1172, 5), None, "")
+		return
+	}
+	if(arg0 == 0)
+		if_setposition(arg1, 0, 0, 100, load_varc(1669))
+	else
+		if_setposition(arg1, 2, 2, 100, load_varc(1669))
+	if(load_varc(1669) < 25)
+		store_varc(1669, load_varc(1669) + 14)
+	else
+		if(load_varc(1669) < 50)
+			store_varc(1669, load_varc(1669) + 12)
+		else
+			if(load_varc(1669) < 100)
+				store_varc(1669, load_varc(1669) + 10)
+			else
+				if(load_varc(1669) < 150)
+					store_varc(1669, load_varc(1669) + 8)
+				else
+					if(load_varc(1669) < 200)
+						store_varc(1669, load_varc(1669) + 5)
+					else
+						if(load_varc(1669) < 250)
+							store_varc(1669, load_varc(1669) + 3)
+						else
+							store_varc(1669, load_varc(1669) + 1)
+}
+return

@@ -1,0 +1,13 @@
+void script_741(Widget widget0, Widget widget1) {
+	widget0.clearChildren();
+	widget1.clearChildren();
+	CHILD.createChild(widget0, 3, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFilled(false);
+	_CHILD.createChild(widget1, 3, 0);
+	_CHILD.setFilled(true);
+	script_1494();
+	widget0.hookVARP(&script_1493(widget0, getChildId(), widget1, getChildId()), 243);
+	return;
+}

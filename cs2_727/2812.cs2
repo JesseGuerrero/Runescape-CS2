@@ -1,0 +1,9 @@
+//script2812(2812)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = if_gettrans(arg1)
+iVar3 = min(255, max(225, iVar2 + (arg0 * 1)))
+if(iVar3 == 225 || iVar3 == 255)
+	instr6342(arg1, script_2812, "iI", 0 - arg0, arg1)
+if_settrans(arg1, iVar3)
+return

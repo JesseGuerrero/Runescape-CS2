@@ -1,0 +1,22 @@
+void script_1143(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int2 = 0;
+	int3 = 0;
+	int2, int3 = script_1147();
+	if (datamap('i', 'i', 1239, arg1) == 1) {
+		if (int2 >= 2) {
+			msg("You already have the maximum number of combat skills protected.");
+			return;
+		}
+	} else if (int3 >= 3) {
+		msg("You already have the maximum number of non-combat skills protected.");
+		return;
+	}
+	VARP[1295] = flagBit(VARP[1295], arg1 - 1);
+	script_1145(widget0, arg1);
+	int2, int3 = script_1147();
+	widget(226, 46).setText("Combat " + int2 + "/2");
+	widget(226, 47).setText("Other " + int3 + "/3");
+	return;
+}

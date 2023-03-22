@@ -1,0 +1,52 @@
+//script2312(2312)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 < 31) {
+	cc_create(iVar0, 4, 8978506)
+	cc_setsize(0, 0, 20, 46)
+	cc_setposition(0, 0, iVar0 * 20, 4)
+	cc_settextfont(496)
+	cc_settextalign(0, 1, 1)
+	cc_settext(to_string(iVar0 + 1))
+	cc_setcolor(ffffff)
+	cc_setop("Select", 1)
+	instr6687(script_2316, "i", iVar0)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 65280)
+	instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+	iVar0 = iVar0 + 1
+}
+if_setscrollsize(8978506, iVar0 * 20, 0)
+script_31(8978507, 8978506, 792, 789, 790, 791, 773, 788)
+iVar0 = 0
+while(iVar0 < 12) {
+	cc_create(iVar0, 4, 8978509)
+	cc_setsize(0, 0, 20, 158)
+	cc_setposition(0, 0, iVar0 * 20, 4)
+	cc_settextfont(496)
+	cc_settextalign(0, 1, 1)
+	cc_settext(enum(950, iVar0, 'i', 's'))
+	cc_setcolor(ffffff)
+	cc_setop("Select", 1)
+	instr6687(script_2334, "i", iVar0)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 65280)
+	instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+	iVar0 = iVar0 + 1
+}
+if_setscrollsize(8978509, iVar0 * 20, 0)
+script_31(8978510, 8978509, 792, 789, 790, 791, 773, 788)
+if_sethide(if_gethash(137, 74), 1)
+if_sethide(if_gethash(137, 73), 1)
+if_sethide(if_gethash(137, 75), 1)
+if_sethide(if_gethash(137, 77), 1)
+if_sethide(if_gethash(137, 76), 1)
+if_sethide(if_gethash(137, 78), 1)
+if_sethide(if_gethash(137, 80), 1)
+if_sethide(if_gethash(137, 81), 1)
+if_sethide(if_gethash(137, 79), 1)
+if_sethide(if_gethash(137, 67), 1)
+if_sethide(if_gethash(137, 68), 1)
+if_sethide(if_gethash(137, 69), 1)
+if_sethide(if_gethash(137, 70), 0)
+if_sethide(if_gethash(137, 71), 0)
+if_sethide(if_gethash(137, 72), 0)
+return

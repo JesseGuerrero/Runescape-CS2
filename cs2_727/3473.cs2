@@ -1,0 +1,7 @@
+//script3473(3473)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if(arg1 < instr6652(0) - 1) {
+	instr6677(arg1, 1, arg3, arg2, arg1, 0)
+	instr6255(arg0, script_3473, "Iiiiii", arg0, arg1 + 1, arg4, arg5, 0, 0)
+} else 
+	instr6255(arg0, None, "")
+return

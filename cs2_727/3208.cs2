@@ -1,0 +1,22 @@
+//script3208(3208)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 8702
+iVar2 = 8700
+if(arg0 == 1) {
+	script_3209()
+	hook_mouse_press(if_gethash(673, 63), None, "")
+	hook_mouse_enter(if_gethash(673, 63), None, "")
+	if_settext(if_gethash(673, 69), "Please wait...")
+	if_settext(if_gethash(673, 68), "Please wait...")
+	hook_mouse_press(if_gethash(673, 26), None, "")
+	hook_mouse_enter(if_gethash(673, 26), None, "")
+} else  {
+	hook_mouse_press(if_gethash(673, 63), script_2205, "")
+	hook_mouse_enter(if_gethash(673, 63), script_45, "Ii", -2147483645, 16448250)
+	if_settext(if_gethash(673, 69), "Continue")
+	if_settext(if_gethash(673, 68), "Continue")
+	hook_mouse_press(if_gethash(673, 26), script_2252, "")
+	hook_mouse_enter(if_gethash(673, 26), script_3937, "IdIdIdId", if_gethash(673, 64), iVar1, if_gethash(673, 65), iVar2, if_gethash(673, 66), iVar2, if_gethash(673, 67), iVar1)
+}
+return

@@ -1,0 +1,5 @@
+//script4297(4297)()(void)
+if_sethide(if_gethash(1096, 84), 0)
+if_sethide(if_gethash(1096, 83), 1)
+if(activeclansettings_find_affined() == 1)
+return

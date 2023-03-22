@@ -1,0 +1,166 @@
+//script4795(4795)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+int iVar42
+int iVar43
+int iVar44
+int iVar45
+int iVar46
+string sVar0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = script_4790(arg0)
+iVar28 = -1
+sVar0 = ""
+iVar29 = 0
+iVar30 = 0
+iVar31 = 0
+iVar32 = 0
+iVar33 = 0
+iVar34 = 0
+if(iVar27 < 1 || iVar27 > 900) {
+	send_message("Clan Build Tick : Check resources for invalid job " + to_string(iVar27) + " at position " + to_string(arg0) + ".")
+	return 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+}
+iVar28 = script_4791(iVar27).get(0)
+if(iVar27 > 300)
+	if(iVar27 < 600)
+		iVar30 = iVar30 - iVar31
+if(iVar27 == 616)
+	iVar8 = script_4724(1).get(0)
+else
+	if(iVar27 == 617)
+		iVar8 = script_4724(2).get(0)
+	else
+		if(iVar27 == 618)
+			iVar8 = script_4724(3).get(0)
+		else
+			iVar8 = script_4792(iVar27, iVar30).get(0)
+if(iVar34 == 2)
+	if(iVar27 > 300)
+		if(iVar27 < 600) {
+			iVar8 = iVar8 * 2
+			iVar9 = iVar9 * 2
+			iVar10 = iVar10 * 2
+			iVar11 = iVar11 * 2
+			iVar12 = iVar12 * 2
+			iVar13 = iVar13 * 2
+		}
+if(iVar27 < 300)
+	return 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, iVar13, iVar12, iVar11, iVar10, iVar9, iVar8, arg7, arg6, arg5, arg4, arg3, arg2, arg1
+iVar35 = iVar8
+iVar36 = iVar9
+iVar37 = iVar10
+iVar38 = iVar11
+iVar39 = iVar12
+iVar40 = iVar13
+if(iVar27 > 600)
+	iVar14 = script_4793(iVar29, iVar32).get(0)
+iVar35 = max(iVar35 - iVar14, 0)
+iVar36 = max(iVar36 - iVar15, 0)
+iVar37 = max(iVar37 - iVar16, 0)
+iVar38 = max(iVar38 - iVar17, 0)
+iVar39 = max(iVar39 - iVar18, 0)
+iVar40 = max(iVar40 - iVar19, 0)
+if(iVar35 == 0)
+	if(iVar36 == 0)
+		if(iVar37 == 0)
+			if(iVar38 == 0)
+				if(iVar39 == 0)
+					if(iVar40 == 0)
+						return 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, iVar19, iVar18, iVar17, iVar16, iVar15, iVar14, iVar13, iVar12, iVar11, iVar10, iVar9, iVar8, arg7, arg6, arg5, arg4, arg3, arg2, arg1
+iVar41 = min(arg1, iVar35)
+iVar42 = min(arg2, iVar36)
+iVar43 = min(arg3, iVar37)
+iVar44 = min(arg4, iVar38)
+iVar45 = min(arg5, iVar39)
+iVar46 = min(arg6, iVar40)
+iVar35 = max(iVar35 - iVar41, 0)
+iVar36 = max(iVar36 - iVar42, 0)
+iVar37 = max(iVar37 - iVar43, 0)
+iVar38 = max(iVar38 - iVar44, 0)
+iVar39 = max(iVar39 - iVar45, 0)
+iVar40 = max(iVar40 - iVar46, 0)
+arg1 = max(arg1 - iVar41, 0)
+arg2 = max(arg2 - iVar42, 0)
+arg3 = max(arg3 - iVar43, 0)
+arg4 = max(arg4 - iVar44, 0)
+arg5 = max(arg5 - iVar45, 0)
+arg6 = max(arg6 - iVar46, 0)
+if(iVar35 == 0)
+	if(iVar36 == 0)
+		if(iVar37 == 0)
+			if(iVar38 == 0)
+				if(iVar39 == 0)
+					if(iVar40 == 0)
+						return 100, 0, 0, 0, 0, 0, 0, iVar46, iVar45, iVar44, iVar43, iVar42, iVar41, iVar19, iVar18, iVar17, iVar16, iVar15, iVar14, iVar13, iVar12, iVar11, iVar10, iVar9, iVar8, arg7, arg6, arg5, arg4, arg3, arg2, arg1
+iVar20 = min(arg7 / 1, iVar35)
+iVar35 = max(iVar35 - iVar20, 0)
+arg7 = arg7 - (iVar20 * 1)
+iVar21 = min(arg7 / 1, iVar36)
+iVar36 = max(iVar36 - iVar21, 0)
+arg7 = arg7 - (iVar21 * 1)
+iVar22 = min(arg7 / 3, iVar37)
+iVar37 = max(iVar37 - iVar22, 0)
+arg7 = arg7 - (iVar22 * 3)
+iVar23 = min(arg7 / 1, iVar38)
+iVar38 = max(iVar38 - iVar23, 0)
+arg7 = arg7 - (iVar23 * 1)
+iVar24 = min(arg7 / 1, iVar39)
+iVar39 = max(iVar39 - iVar24, 0)
+arg7 = arg7 - (iVar24 * 1)
+iVar25 = min(arg7 / 3, iVar40)
+iVar40 = max(iVar40 - iVar25, 0)
+arg7 = arg7 - (iVar25 * 3)
+iVar26 = script_4796(iVar35, iVar8, iVar36, iVar9, iVar37, iVar10, iVar38, iVar11, iVar39, iVar12, iVar40, iVar13)
+return iVar26, iVar25, iVar24, iVar23, iVar22, iVar21, iVar20, iVar46, iVar45, iVar44, iVar43, iVar42, iVar41, iVar19, iVar18, iVar17, iVar16, iVar15, iVar14, iVar13, iVar12, iVar11, iVar10, iVar9, iVar8, arg7, arg6, arg5, arg4, arg3, arg2, arg1
+return 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0

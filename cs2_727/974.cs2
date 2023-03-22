@@ -1,0 +1,42 @@
+//script974(974)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6)(int)
+int iVar6
+int iVar7
+iVar6 = 0
+iVar7 = 2287
+cc_create(arg0, 5, 48562177)
+if(script_1566(arg4, arg5) == 1) {
+	if(arg4 == 7)
+		cc_setsize(0, 0, 30, 30)
+	else
+		if(arg4 == 4)
+			cc_setsize(0, 0, 24, 24)
+		else
+			cc_setsize(0, 0, 32, 36)
+	cc_setoutline(0)
+	if(arg3 != -1)
+		cc_setgraphic(arg3)
+	else
+		cc_setgraphic(iVar7)
+} else 
+	if(arg2 == 18637 || arg2 == 18638) {
+		cc_setsize(0, 0, 24, 24)
+		cc_setoutline(0)
+		if(arg2 == 18637)
+			cc_setgraphic(3057)
+		else
+			cc_setgraphic(3056)
+	} else  {
+		cc_setsize(0, 0, 32, 36)
+		cc_setoutline(1)
+		cc_setgraphicshadow(6311474)
+		if(arg2 != -1)
+			cc_setitem(-1, arg2)
+		else
+			cc_setitem(-1, 7620)
+	}
+cc_setposition(0, 0, arg1, 0)
+cc_create(arg0 + 1, 4, 48562177)
+iVar6 = paramheight(arg0, 495, 300)
+cc_setsize(0, 0, iVar6 * 16, 300)
+return iVar6
+return 0

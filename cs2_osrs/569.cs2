@@ -1,0 +1,24 @@
+void script_569(Widget widget0, Widget widget1) {
+	int int2;
+	string str0;
+	widget1.clearChildren();
+	str0 = "Step over the line to fight!";
+	int2 = getMaxLineWidth(str0, 512, 645) + 15;
+	widget1.setSize(int2, 40, 0, 0);
+	CHILD.createChild(widget1, 5, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(int2, 40, 0, 0);
+	CHILD.setSprite(897);
+	CHILD.setSpriteTiling(true);
+	CHILD.setTrans(100);
+	CHILD.createChild(widget1, 4, script_575(widget1, 1));
+	CHILD.setPosition(0, 3, 0, 0);
+	CHILD.setSize(int2, 34, 0, 0);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setFont(645);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFFFFA0);
+	CHILD.setText(str0);
+	widget0.hookFrame(&script_570(widget1));
+	return;
+}

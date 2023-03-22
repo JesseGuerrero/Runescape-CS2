@@ -1,0 +1,10 @@
+//script2825(2825)(int arg0)(void)
+if(load_varc(1064) == instr6652(0) - 1) {
+	if(arg0 == 1)
+		instr6236()
+	instr6255(if_gethash(89, 0), None, "")
+	return
+}
+instr6677(load_varc(1064), 1, enum(load_varc(1067), load_varc(1064) + 1, 'i', 'i'), enum(load_varc(1067), load_varc(1064), 'i', 'i'), load_varc(1064), 0)
+store_varc(1064, load_varc(1064) + 1)
+return

@@ -1,0 +1,6 @@
+void script_1947() {
+	int int0;
+	int0 = VARP[1609];
+	widget(599, 24).setText(int0 + "/50");
+	return;
+}

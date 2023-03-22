@@ -1,0 +1,11 @@
+//script5348(5348)(int arg0)(void)
+string sVar0
+sVar0 = ""
+if(load_varc(1648) > 0)
+	sVar0 = tostring_localized(1, load_varc(1648))
+else {
+	store_varc(1648, 0)
+	sVar0 = "0"
+}
+if_settext(arg0, sVar0)
+return

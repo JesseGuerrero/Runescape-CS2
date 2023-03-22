@@ -1,0 +1,4 @@
+//script538(538)(int arg0, int arg1, int arg2)(void)
+if_setonmouseleave(arg0, script_2348, "IoiY", 1, 93, arg0, arg1, arg2)
+script_2349(arg0, arg1, arg2)
+return

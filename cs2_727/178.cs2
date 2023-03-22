@@ -1,0 +1,81 @@
+//script178(178)()(void)
+int iVar0
+int iVar1
+int iVar2
+instr6253(if_gethash(751, 3), script_177, "")
+iVar0 = 0
+iVar1 = 0
+iVar2 = 8
+if(instr6644() >= 2) {
+	if_sethide(if_gethash(751, 4), 0)
+	if_setsize(if_gethash(751, 3), 0, 0, 27, if_getwidth(if_gethash(751, 3)))
+	if_setposition(if_gethash(751, 5), 0, 0, 0, -3)
+	if_setsize(if_gethash(751, 14), 0, 0, 27, 63)
+	if_setgraphic(if_gethash(751, 15), 8558)
+	while(iVar0 < iVar2) {
+		if(load_varc(42) == iVar0)
+			if(load_varc(41) == iVar0)
+				if_setgraphic(enum(683, iVar0, 'i', 'I'), 8562)
+			else
+				if(load_varc(42) == iVar0)
+					if_setgraphic(enum(683, iVar0, 'i', 'I'), 8560)
+				else
+					if(load_varc(41) == iVar0)
+						if_setgraphic(enum(683, iVar0, 'i', 'I'), 8561)
+					else
+						if(modulo(2, script_179(iVar0) / 25) == 1)
+							if_setgraphic(enum(683, iVar0, 'i', 'I'), 8559)
+						else
+							if_setgraphic(enum(683, iVar0, 'i', 'I'), 8558)
+		iVar0 = iVar0 + 1
+	}
+} else  {
+	if_sethide(if_gethash(751, 4), 1)
+	if_setsize(if_gethash(751, 3), 0, 0, 22, if_getwidth(if_gethash(751, 3)))
+	if_setposition(if_gethash(751, 5), 0, 0, 0, 0)
+	if_setsize(if_gethash(751, 14), 0, 0, 22, 57)
+	if_setgraphic(if_gethash(751, 15), 1024)
+	while(iVar0 < iVar2) {
+		if(load_varc(42) == iVar0)
+			if(load_varc(41) == iVar0)
+				if_setgraphic(enum(683, iVar0, 'i', 'I'), 1023)
+			else
+				if(load_varc(42) == iVar0)
+					if_setgraphic(enum(683, iVar0, 'i', 'I'), 1020)
+				else
+					if(load_varc(41) == iVar0)
+						if_setgraphic(enum(683, iVar0, 'i', 'I'), 1022)
+					else
+						if(modulo(2, script_179(iVar0) / 25) == 1)
+							if_setgraphic(enum(683, iVar0, 'i', 'I'), 1021)
+						else
+							if_setgraphic(enum(683, iVar0, 'i', 'I'), 1019)
+		iVar0 = iVar0 + 1
+	}
+}
+if(script_185(1) == 1)
+	if_settext(enum(684, 1, 'i', 'I'), "<col=ffff00>" + "Filter")
+else
+	if_settext(enum(684, 1, 'i', 'I'), "All")
+iVar0 = 2
+while(iVar0 < iVar2) {
+	iVar1 = script_185(iVar0)
+	if(iVar0 == 3)
+		if(iVar1 == 1)
+			if(friend_count() < 0)
+				if_settext(enum(684, iVar0, 'i', 'I'), "<col=ffff00>" + "Loading")
+			else
+				if(iVar1 == 1)
+					if_settext(enum(684, iVar0, 'i', 'I'), "<col=ffff00>" + "Friends")
+				else
+					if(iVar1 == 2)
+						if_settext(enum(684, iVar0, 'i', 'I'), "<col=ff0000>" + "Off")
+					else
+						if(iVar1 == 3)
+							if_settext(enum(684, iVar0, 'i', 'I'), "<col=00ffff>" + "Hide")
+						else
+							if_settext(enum(684, iVar0, 'i', 'I'), "On")
+	iVar0 = iVar0 + 1
+}
+if_sethide(if_gethash(751, 5), 0)
+return

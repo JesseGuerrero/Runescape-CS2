@@ -1,0 +1,6 @@
+//script1669(1669)()(void)
+if_setonmouseleave(if_gethash(920, 0), script_2175, "Y", 1, 93)
+instr6237(if_gethash(924, 37), script_2175, "Y", 6, 1660, 1661, 1662, 1663, 1664, 2629)
+script_2174()
+script_2186()
+return

@@ -1,0 +1,36 @@
+//script6390(6390)()(int, int, int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+if(world_language() == 0)
+	iVar0 = 11740
+else
+	if(world_language() == 1)
+		iVar0 = 11742
+	else
+		if(world_language() == 2)
+			iVar0 = 11743
+		else
+			if(world_language() == 3)
+				iVar0 = 11741
+if_setgraphic(if_gethash(1307, 74), iVar0)
+if(load_varpbit(11651) == 1) {
+	iVar3 = 1
+	iVar0 = 11718
+	iVar1 = 11719
+	iVar2 = 11720
+} else  {
+	iVar3 = 0
+	iVar0 = 11727
+	iVar1 = 11728
+	iVar2 = 11729
+}
+if_setgraphic(if_gethash(1307, 28), iVar0)
+hook_mouse_exit(if_gethash(1307, 28), script_44, "Id", if_gethash(1307, 28), iVar0)
+hook_mouse_enter(if_gethash(1307, 28), script_44, "Id", if_gethash(1307, 28), iVar1)
+return 44, 44, 44

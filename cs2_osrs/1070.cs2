@@ -1,0 +1,16 @@
+void script_1070(Widget widget0, int arg1) {
+	if (arg1 <= 50) {
+		_CHILD.setTrans(255 - arg1 * 4);
+		CHILD.set3DRotation(0, 0, 512, (48 + arg1 * 40) % 2048, 0, 1050 - arg1 * 20);
+		CHILD.setModel(29403);
+		return;
+	}
+	if (arg1 <= 70) {
+		arg1 = arg1 - 50;
+		_CHILD.setTrans(55 + arg1 * 10);
+		CHILD.setModel(16238);
+		return;
+	}
+	widget0.clearChildren();
+	return;
+}

@@ -1,0 +1,19 @@
+//script6344(6344)()(void)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		instr6648("en/Customer_Support", "rswiki", 0)
+		break
+	case 2:
+		instr6648("fr/Service_clientèle", "rswiki", 0)
+		break
+	case 1:
+		instr6648("de/Kundenbetreuung", "rswiki", 0)
+		break
+	case 3:
+		instr6648("pt/Suporte_ao_Cliente", "rswiki", 0)
+		break
+
+}
+return

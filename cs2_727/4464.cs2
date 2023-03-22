@@ -1,0 +1,15 @@
+//script4464(4464)()(int)
+int iVar0
+iVar0 = -1
+if(activeclansettings_find_affined() == 1)
+	if(activeclanchannel_find_affined() == 1) {
+		iVar0 = activeclansettings_getaffinedslot(removetags(instr6574()))
+		if(iVar0 != -1)
+			if(activeclanchannel_getuserrank(iVar0) >= activeclansettings_getrankkick())
+				return 1
+	} else 
+		send_message("You must be in a clan to do that.")
+else
+	send_message("You must be in a clan to do that.")
+return 0
+return 0

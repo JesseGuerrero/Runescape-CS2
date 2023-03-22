@@ -1,0 +1,23 @@
+void script_1111(Widget widget0, Widget widget1, int arg2, int arg3) {
+	string str0;
+	str0 = "Hide private chat when the chatbox is hidden" + "<br>" + "(not applicable)";
+	if (VARP[287] == 0 || getDisplayMode() == 1) {
+		widget0.setSprite(761);
+		widget1.setTrans(100);
+		widget0.hookOptionClick(null);
+	} else if (VARPBIT[4089] <= 0) {
+		str0 = "Hide private chat when the chatbox is hidden" + "<br>" + "(currently off)";
+		widget0.setSprite(761);
+		widget1.setTrans(0);
+		widget0.hookOptionClick(&script_1109(CTX_MENU_OPTION, widget0, widget1, widget(arg2), 1));
+	} else {
+		str0 = "Hide private chat when the chatbox is hidden" + "<br>" + "(currently on)";
+		widget0.setSprite(762);
+		widget1.setTrans(0);
+		widget0.hookOptionClick(&script_1109(CTX_MENU_OPTION, widget0, widget1, widget(arg2), 0));
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg2), str0, 25, 190));
+	VARC[2] = 0;
+	widget0.hookFrame(&script_1110(arg3, widget0, widget1, widget(arg2)));
+	return;
+}

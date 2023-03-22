@@ -1,0 +1,196 @@
+//script3977(3977)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+script_41(69206147)
+if(arg0 == 0)
+	if(load_varp(281) < 1000)
+		arg0 = 4094
+if(script_3999(arg0) == 1)
+	return
+iVar1 = -1
+sVar0 = ""
+sVar1 = ""
+iVar1 = script_5795(arg0)
+iVar2 = ((struct_param(1293, iVar1) - 1) * 5) + struct_param(1272, iVar1)
+iVar3 = enum(3494, iVar2, 'i', 'J')
+script_5796(arg0, 1, 69206146, 69206104, 69206140, 69206145, 69206144, -1)
+if(iVar1 != -1) {
+	if(struct_param(1270, iVar1) != 4094)
+		sVar0 = struct_param(951, enum(2252, struct_param(1270, iVar1), 'i', 'J'))
+	else
+		sVar0 = struct_param(1292, iVar1)
+	if_settextfont(if_gethash(1056, 124), 3793)
+	if_settextalign(if_gethash(1056, 124), 13, 0, 0)
+	sVar1 = "Task area: " + enum(3487, struct_param(1267, iVar1), 'i', 's')
+	if_setonmouseover(if_gethash(1056, 128), script_38, "IIsii", -2147483645, if_gethash(1056, 131), sVar1, 45, 135)
+	sVar1 = "Task difficulty: " + enum(3488, struct_param(1272, iVar1), 'i', 's')
+	if_setonmouseover(if_gethash(1056, 129), script_38, "IIsii", -2147483645, if_gethash(1056, 131), sVar1, 45, 135)
+}
+sVar2 = ""
+if(compare("", sVar0) == 0)
+	if(load_varp(281) == 1000)
+		if(struct_param(1322, iVar1) == 0)
+			sVar0 = "Completing this Task will earn you coins. The more Tasks you complete, the more any Task is worth."
+if_sethide(if_gethash(1056, 73), 1)
+if_sethide(if_gethash(1056, 74), 1)
+if_sethide(if_gethash(1056, 75), 1)
+if_sethide(if_gethash(1056, 76), 1)
+if_sethide(if_gethash(1056, 77), 1)
+if_sethide(if_gethash(1056, 78), 1)
+if_sethide(if_gethash(1056, 79), 1)
+if_sethide(if_gethash(1056, 80), 1)
+if_sethide(if_gethash(1056, 81), 1)
+if_sethide(if_gethash(1056, 82), 1)
+if_sethide(if_gethash(1056, 83), 1)
+if_sethide(if_gethash(1056, 84), 1)
+if_sethide(if_gethash(1056, 163), 1)
+if_sethide(if_gethash(1056, 164), 1)
+if_sethide(if_gethash(1056, 165), 1)
+if_sethide(if_gethash(1056, 166), 1)
+iVar4 = 10
+iVar5 = 0
+iVar6 = 15
+iVar7 = 0
+sVar3 = ""
+iVar8 = 0
+iVar7 = script_3995(arg0).get(0)
+if(world_language() == 1 || world_language() == 3 || world_language() == 2) {
+	if_sethide(if_gethash(1056, 116), 1)
+	if_sethide(if_gethash(1056, 136), 1)
+} else  {
+	if(world_language() == 0) {
+		if_settext(if_gethash(1056, 115), "    Pin")
+		if_settext(if_gethash(1056, 135), "     Back")
+	}
+	if_sethide(if_gethash(1056, 116), 0)
+	if_sethide(if_gethash(1056, 136), 0)
+}
+if(compare("", struct_param(1274, iVar1)) != 0) {
+	if(struct_param(1282, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(1, iVar4, 69206089, iVar5, 69206090, 69206134, struct_param(1274, iVar1))
+}
+if(compare("", struct_param(1275, iVar1)) != 0) {
+	if(struct_param(1283, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(2, iVar4, 69206091, iVar5, 69206092, 69206134, struct_param(1275, iVar1))
+}
+if(compare("", struct_param(1276, iVar1)) != 0) {
+	if(struct_param(1284, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(3, iVar4, 69206093, iVar5, 69206094, 69206134, struct_param(1276, iVar1))
+}
+if(compare("", struct_param(1277, iVar1)) != 0) {
+	if(struct_param(1285, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(4, iVar4, 69206095, iVar5, 69206096, 69206134, struct_param(1277, iVar1))
+}
+if(compare("", struct_param(1278, iVar1)) != 0) {
+	if(struct_param(1286, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(5, iVar4, 69206097, iVar5, 69206098, 69206134, struct_param(1278, iVar1))
+}
+if(compare("", struct_param(1279, iVar1)) != 0) {
+	if(struct_param(1287, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(6, iVar4, 69206099, iVar5, 69206100, 69206134, struct_param(1279, iVar1))
+}
+if(compare("", struct_param(1280, iVar1)) != 0) {
+	if(struct_param(1288, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(7, iVar4, 69206179, iVar5, 69206180, 69206134, struct_param(1280, iVar1))
+}
+if(compare("", struct_param(1281, iVar1)) != 0) {
+	if(struct_param(1289, iVar1) != -1)
+		iVar5 = arg0
+	else
+		iVar5 = 4094
+	iVar4 = script_3978(8, iVar4, 69206181, iVar5, 69206182, 69206134, struct_param(1281, iVar1))
+}
+iVar4 = max(if_getheight(if_gethash(1056, 118)), iVar4)
+if_setscrollsize(69206134, iVar4, 0)
+script_31(69206135, 69206134, 4343, 4340, 4341, 4342, 4337, 4336)
+if(iVar4 > if_getheight(if_gethash(1056, 118)))
+	if_sethide(if_gethash(1056, 119), 0)
+else
+	if_sethide(if_gethash(1056, 119), 1)
+if_sethide(if_gethash(1056, 63), 1)
+if_sethide(if_gethash(1056, 64), 1)
+if_sethide(if_gethash(1056, 65), 1)
+if_sethide(if_gethash(1056, 66), 1)
+if_sethide(if_gethash(1056, 67), 1)
+if_sethide(if_gethash(1056, 68), 1)
+if_sethide(if_gethash(1056, 69), 1)
+if_sethide(if_gethash(1056, 70), 1)
+iVar4 = script_3978(0, 10, 69206078, 4094, -1, 69206087, sVar0)
+if(iVar3 != -1)
+	if(iVar3 != 1645) {
+		iVar4 = script_3978(0, iVar4, 69206079, 4094, -1, 69206087, struct_param(1273, iVar3))
+		iVar4 = script_3978(0, iVar4, 69206080, 4094, -1, 69206087, struct_param(1292, iVar3))
+		if(compare("", struct_param(1274, iVar3)) != 0)
+			iVar4 = script_3978(0, iVar4, 69206081, 4094, -1, 69206087, struct_param(1274, iVar3))
+		if(compare("", struct_param(1275, iVar3)) != 0)
+			iVar4 = script_3978(0, iVar4, 69206082, 4094, -1, 69206087, struct_param(1275, iVar3))
+		if(compare("", struct_param(1276, iVar3)) != 0)
+			iVar4 = script_3978(0, iVar4, 69206083, 4094, -1, 69206087, struct_param(1276, iVar3))
+		if(compare("", struct_param(1277, iVar3)) != 0)
+			iVar4 = script_3978(0, iVar4, 69206084, 4094, -1, 69206087, struct_param(1277, iVar3))
+		if(compare("", struct_param(1278, iVar3)) != 0)
+			iVar4 = script_3978(0, iVar4, 69206085, 4094, -1, 69206087, struct_param(1278, iVar3))
+		if(compare("", struct_param(1279, iVar3)) != 0)
+			iVar4 = script_3978(0, iVar4, 69206086, 4094, -1, 69206087, struct_param(1279, iVar3))
+	}
+iVar4 = max(if_getheight(if_gethash(1056, 71)), iVar4)
+if_setscrollsize(69206087, iVar4, 0)
+script_31(69206107, 69206087, 4343, 4340, 4341, 4342, 4337, 4336)
+if(iVar4 > if_getheight(if_gethash(1056, 71)))
+	if_sethide(if_gethash(1056, 91), 0)
+else
+	if_sethide(if_gethash(1056, 91), 1)
+sVar4 = ""
+iVar9 = 5
+if(struct_param(1267, iVar1) == 60) {
+	if_sethide(if_gethash(1056, 85), 1)
+	if_sethide(if_gethash(1056, 125), 1)
+	if(load_varp(281) < 135)
+		if(load_varpbit(9029) == 0)
+			if_sethide(if_gethash(1056, 87), 1)
+		else
+			if_sethide(if_gethash(1056, 87), 0)
+} else  {
+	if_sethide(if_gethash(1056, 87), 0)
+	if(script_3227(arg0) == 2 || load_varpbit(9030) == 1 || load_varpbit(10700) != arg0 || script_3999(arg0) == 1 || arg0 == load_varpbit(8576))
+		if_sethide(if_gethash(1056, 85), 1)
+	else
+		if_sethide(if_gethash(1056, 85), 0)
+	if(load_varpbit(10700) == arg0)
+		if_sethide(if_gethash(1056, 125), 0)
+}
+if_setsize(if_gethash(1056, 92), 0, 1, 15 + iVar4, 0)
+return

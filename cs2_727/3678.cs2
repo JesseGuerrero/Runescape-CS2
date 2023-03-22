@@ -1,0 +1,38 @@
+//script3678(3678)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+cc_deleteall(arg0)
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 6
+iVar5 = 5
+if(iVar4 > 1)
+	if(if_getscrollwidth(arg0) > 0)
+		iVar2 = (if_getscrollwidth(arg0) - (36 * iVar4)) / (iVar4 - 1)
+	else
+		iVar2 = (if_getwidth(arg0) - (36 * iVar4)) / (iVar4 - 1)
+if(iVar5 > 1)
+	if(if_getscrollheight(arg0) > 0)
+		iVar3 = (if_getscrollheight(arg0) - (32 * iVar5)) / (iVar5 - 1)
+	else
+		iVar3 = (if_getheight(arg0) - (32 * iVar5)) / (iVar5 - 1)
+while(iVar1 < 30) {
+	cc_create(iVar1, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, (iVar1 / iVar4) * (32 + iVar3), (36 + iVar2) * modulo(iVar4, iVar1))
+	cc_setitem_alwaysnum(bit_flagged(iVar1, load_varc(1352)), enum(3272, iVar1, 'i', 'o'))
+	if(bit_flagged(iVar1, load_varc(1352)) == 1) {
+		cc_setop("Take" + "<col=ff9040>", 1)
+		cc_setoutline(2)
+	} else 
+		cc_settrans(100)
+	cc_setop("Examine" + "<col=ff9040>", 5)
+	cc_setopbase("<col=ff981f>" + enum(3274, iVar1, 'i', 's') + " Piece")
+	instr6687(script_3679, "Ii", -2147483645, iVar1)
+	iVar1 = iVar1 + 1
+}
+return

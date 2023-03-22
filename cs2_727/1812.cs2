@@ -1,0 +1,11 @@
+//script1812(1812)(int arg0, string arg1)(void)
+if(string_length(arg0) == 0) {
+	if_settext(arg0, "")
+	store_varc_string(39, "")
+	instr6342(arg0, None, "")
+	return
+}
+if_settext(arg0, arg0)
+store_varc_string(39, arg0)
+instr6342(arg0, script_1813, "iI", client_clock() + 1000, arg0)
+return

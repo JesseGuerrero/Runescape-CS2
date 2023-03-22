@@ -1,0 +1,34 @@
+//script661(661)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, string arg13, string arg14)(void)
+if(cc_find(0, arg0) == 1) {
+	switch(arg5) {
+		case default:
+			break
+		case 18027:
+			arg4 = script_3357().get(0)
+			break
+		case 18037:
+			arg4 = script_3358().get(0)
+			break
+		case 18047:
+			arg4 = script_3359().get(0)
+			break
+		case 18057:
+			arg4 = script_3360().get(0)
+			break
+		case 18067:
+			arg4 = script_3361().get(0)
+			break
+		case 18077:
+			arg4 = script_3362().get(0)
+			break
+		case 12461:
+			arg4 = script_775().get(0)
+			break
+
+	}
+	arg0 = append(" (" + to_string(load_varpbit(4288)) + " Special Move points)", arg0)
+	script_664(43384906, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12)
+	cc_setonmouseover(script_10, "IIissoioioioi", -2147483645, if_gethash(662, 73), arg4, arg0, arg1, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12)
+	instr6092(script_778, "I", if_gethash(662, 73))
+}
+return

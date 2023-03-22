@@ -1,0 +1,9 @@
+//script5767(5767)()(int)
+if(script_5768() == 1)
+	return 0
+else
+	if(script_5769() == 1)
+		return 0
+	else
+		return 1
+return 0

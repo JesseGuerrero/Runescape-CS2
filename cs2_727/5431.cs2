@@ -1,0 +1,62 @@
+//script5431(5431)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = 0
+iVar2 = 0
+if(cc_find(arg0, if_gethash(1167, 1)) == 1) {
+	iVar2 = cc_gety()
+	iVar1 = iVar2 + 10
+	if(iVar1 > 85)
+		if(iVar1 < 105) {
+			if(load_varc(1664) == 1)
+				store_varc(1666, 21)
+			else
+				if(load_varc(1664) == 2)
+					store_varc(1666, 22)
+				else
+					store_varc(1666, load_varc(1664) - 2)
+			if_settext(if_gethash(1167, 30), enum(5214, load_varc(1666), 'i', 's'))
+			sound_vorbis_volume(80, 0, 1, 8080)
+			if(load_varc(1667) == 1)
+				if(load_varc(1663) == load_varc(1666)) {
+					instr6342(if_gethash(1167, 1), None, "")
+					cc_setposition(0, 1, 90, 0)
+					sound_vorbis_volume(200, 0, 1, 8103)
+					if(arg0 == 0) {
+						if(cc_find(2, if_gethash(1167, 1)) == 1)
+							cc_setposition(0, 1, 0, 0)
+						if(cc_find(1, if_gethash(1167, 1)) == 1)
+							cc_setposition(0, 1, 180, 0)
+					} else 
+						if(arg0 == 1) {
+							if(cc_find(0, if_gethash(1167, 1)) == 1)
+								cc_setposition(0, 1, 0, 0)
+							if(cc_find(2, if_gethash(1167, 1)) == 1)
+								cc_setposition(0, 1, 180, 0)
+						} else 
+							if(arg0 == 2) {
+								if(cc_find(1, if_gethash(1167, 1)) == 1)
+									cc_setposition(0, 1, 0, 0)
+								if(cc_find(0, if_gethash(1167, 1)) == 1)
+									cc_setposition(0, 1, 180, 0)
+							}
+					if_sethide(if_gethash(1167, 50), 0)
+					if_settext(if_gethash(1167, 42), to_string(load_varpbit(10013)))
+					if_sethide(if_gethash(1167, 52), 1)
+					return 0
+				}
+			if(load_varc(1663) != 0)
+				if(load_varc(1667) == 0)
+					script_5432()
+		}
+	if(iVar1 > 0)
+		if(iVar1 < 270)
+			cc_setposition(0, 1, iVar1, 0)
+		else
+			if(iVar1 >= 270) {
+				cc_delete()
+				script_5433(arg0, 0)
+			}
+}
+return 1
+return 0

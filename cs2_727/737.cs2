@@ -1,0 +1,38 @@
+//script737(737)(int arg0)(void)
+int iVar1
+iVar1 = -1
+if(load_varc(99) == 0) {
+	store_varc(99, arg0)
+	return
+}
+if(load_varc(100) == 0) {
+	store_varc(100, arg0)
+	return
+}
+if(load_varc(101) == 0) {
+	store_varc(101, arg0)
+	if(script_739(load_varc(99)) == script_739(load_varc(100)))
+		if(script_739(load_varc(99)) == script_739(load_varc(101))) {
+			iVar1 = enum(1152, script_739(load_varc(99)), 'i', 'm')
+			if_setmodel(enum(1153, load_varc(99), 'i', 'I'), iVar1)
+			if_setmodel(enum(1153, load_varc(100), 'i', 'I'), iVar1)
+			if_setmodel(enum(1153, load_varc(101), 'i', 'I'), iVar1)
+			store_varc(104, set_bit(script_739(load_varc(99)), load_varc(104)))
+			store_varc(99, 0)
+			store_varc(100, 0)
+			store_varc(101, 0)
+			store_varc(102, load_varc(102) + 1)
+			store_varc(105, load_varc(105) - 1)
+			script_738()
+		}
+	return
+}
+if_setmodel(enum(1153, load_varc(99), 'i', 'I'), 31025)
+if_setmodel(enum(1153, load_varc(100), 'i', 'I'), 31025)
+if_setmodel(enum(1153, load_varc(101), 'i', 'I'), 31025)
+store_varc(99, arg0)
+store_varc(100, 0)
+store_varc(101, 0)
+store_varc(105, load_varc(105) - 1)
+script_738()
+return

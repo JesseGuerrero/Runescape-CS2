@@ -1,0 +1,8 @@
+//script1822(1822)(int arg0, int arg1)(void)
+if(script_1820(arg0) == 0)
+	return
+if(load_varc(247) != arg1) {
+	store_varc(247, arg1)
+	script_1771()
+}
+return

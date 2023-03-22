@@ -1,0 +1,17 @@
+void script_1640(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	if (arg1 < 0) {
+		arg1 = 0;
+	}
+	int2 = arg1 / 50;
+	int3 = int2 / 60;
+	int2 = int2 % 60;
+	if (int2 < 10) {
+		widget(90, 10).setText(int3 + ":0" + int2);
+	} else {
+		widget(90, 10).setText(int3 + ":" + int2);
+	}
+	widget0.hookFrame(&script_1639(widget0, arg1 - 1));
+	return;
+}

@@ -1,0 +1,8 @@
+void script_1477(int arg0, int arg1, int arg2) {
+	script_1478(widget(493, 4), widget(493, 5), 1526, arg0, arg1, arg2);
+	script_1478(widget(493, 6), widget(493, 7), 1527, arg0, arg1, arg2);
+	script_1478(widget(493, 8), widget(493, 9), 1528, arg0, arg1, arg2);
+	script_1478(widget(493, 10), widget(493, 11), 1529, arg0, arg1, arg2);
+	script_1478(widget(493, 12), widget(493, 13), 1530, arg0, arg1, arg2);
+	return;
+}

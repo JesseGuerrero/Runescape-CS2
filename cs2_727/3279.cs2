@@ -1,0 +1,52 @@
+//script3279(3279)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int iVar4
+int iVar5
+if(arg0 == -1 || arg1 == -1)
+	return
+iVar4 = 0
+iVar5 = 0
+switch(arg3) {
+	case default:
+		break
+	case 1:
+		iVar4 = if_getwidth(if_gethash(942, 3)) / 4
+		iVar5 = if_getheight(if_gethash(942, 3)) / 4
+		break
+	case 2:
+		iVar4 = if_getwidth(if_gethash(942, 3)) / 4
+		break
+
+}
+cc_create(load_varc(1152), 5, 61734917)
+store_varc(1152, load_varc(1152) + 1)
+switch(arg2) {
+	case default:
+		break
+	case 1:
+		cc_setgraphic(2825)
+		cc_setposition(2, 0, ((arg1 * 32) + 20) + iVar5, ((arg0 * 32) + 6) + iVar4)
+		break
+	case 2:
+		cc_setgraphic(2826)
+		cc_setposition(2, 0, ((arg1 * 32) + 20) + iVar5, ((arg0 * 32) + 20) + iVar4)
+		break
+	case 3:
+		cc_setgraphic(2827)
+		cc_setposition(2, 0, ((arg1 * 32) + 13) + iVar5, ((arg0 * 32) + 13) + iVar4)
+		break
+	case 4:
+		cc_setgraphic(2828)
+		cc_setposition(2, 0, ((arg1 * 32) + 6) + iVar5, ((arg0 * 32) + 6) + iVar4)
+		break
+	case 5:
+		cc_setgraphic(2829)
+		cc_setposition(2, 0, ((arg1 * 32) + 6) + iVar5, ((arg0 * 32) + 20) + iVar4)
+		break
+
+}
+cc_setsize(0, 0, 11, 11)
+cc_setonmouseover(script_3282, "IiIs", -2147483645, -2147483643, if_gethash(942, 7), arg0)
+instr6092(script_40, "I", if_gethash(942, 7))
+cc_setfill(1)
+cc_sethide(0)
+return

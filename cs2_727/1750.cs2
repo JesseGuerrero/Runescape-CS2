@@ -1,0 +1,122 @@
+//script1750(1750)()(void)
+if(load_varpbit(2309) == 1)
+	if_setgraphic(if_gethash(464, 32), 731)
+else
+	if_setgraphic(if_gethash(464, 32), 751)
+if(load_varpbit(2310) == 1)
+	if_setgraphic(if_gethash(464, 30), 729)
+else
+	if_setgraphic(if_gethash(464, 30), 749)
+if(load_varpbit(2311) == 1)
+	if_setgraphic(if_gethash(464, 33), 732)
+else
+	if_setgraphic(if_gethash(464, 33), 752)
+if(load_varpbit(2312) == 1)
+	if_setgraphic(if_gethash(464, 31), 730)
+else
+	if_setgraphic(if_gethash(464, 31), 750)
+if(load_varpbit(532) >= 7) {
+	if_setgraphic(if_gethash(464, 24), 726)
+	if_setgraphic(if_gethash(464, 25), 727)
+} else  {
+	if_setgraphic(if_gethash(464, 24), 746)
+	if_setgraphic(if_gethash(464, 25), 747)
+}
+if(load_varpbit(1367) == 1)
+	if_setgraphic(if_gethash(464, 29), 725)
+else
+	if_setgraphic(if_gethash(464, 29), 745)
+if(load_varpbit(1368) == 1)
+	if_setgraphic(if_gethash(464, 26), 722)
+else
+	if_setgraphic(if_gethash(464, 26), 742)
+if(load_varpbit(1369) == 1)
+	if_setgraphic(if_gethash(464, 27), 723)
+else
+	if_setgraphic(if_gethash(464, 27), 743)
+if(load_varpbit(1370) == 1)
+	if_setgraphic(if_gethash(464, 28), 724)
+else
+	if_setgraphic(if_gethash(464, 28), 744)
+if(load_varpbit(1371) == 1)
+	if_setgraphic(if_gethash(464, 37), 728)
+else
+	if_setgraphic(if_gethash(464, 37), 748)
+if(load_varpbit(1920) == 1)
+	if_setgraphic(if_gethash(464, 35), 734)
+else
+	if_setgraphic(if_gethash(464, 35), 754)
+if(load_varpbit(1921) == 1)
+	if_setgraphic(if_gethash(464, 34), 733)
+else
+	if_setgraphic(if_gethash(464, 34), 753)
+if(load_varpbit(2055) == 1)
+	if_setgraphic(if_gethash(464, 38), 735)
+else
+	if_setgraphic(if_gethash(464, 38), 755)
+if(load_varpbit(2787) == 1)
+	if_setgraphic(if_gethash(464, 39), 736)
+else
+	if_setgraphic(if_gethash(464, 39), 756)
+if(load_varpbit(4075) == 12)
+	if_setgraphic(if_gethash(464, 36), 737)
+else
+	if_setgraphic(if_gethash(464, 36), 757)
+if(load_varpbit(4202) == 1)
+	if_setgraphic(if_gethash(464, 40), 738)
+else
+	if_setgraphic(if_gethash(464, 40), 758)
+if(load_varpbit(4394) == 1)
+	if_setgraphic(if_gethash(464, 41), 739)
+else
+	if_setgraphic(if_gethash(464, 41), 759)
+if(load_varpbit(4476) == 1)
+	if_setgraphic(if_gethash(464, 42), 0)
+else
+	if_setgraphic(if_gethash(464, 42), 5)
+if(load_varpbit(4884) == 1)
+	if_setgraphic(if_gethash(464, 43), 1416)
+else
+	if_setgraphic(if_gethash(464, 43), 1417)
+if(load_varpbit(5490) == 1)
+	if_setgraphic(if_gethash(464, 44), 1585)
+else
+	if_setgraphic(if_gethash(464, 44), 1588)
+if(load_varpbit(5732) == 1)
+	if_setgraphic(if_gethash(464, 45), 1587)
+else
+	if_setgraphic(if_gethash(464, 45), 1590)
+if(load_varpbit(5641) == 1)
+	if_setgraphic(if_gethash(464, 46), 1592)
+else
+	if_setgraphic(if_gethash(464, 46), 1593)
+if(load_varpbit(6014) == 85 || load_varpbit(7322) == 18)
+	if_setgraphic(if_gethash(464, 47), 1215)
+else
+	if_setgraphic(if_gethash(464, 47), 1742)
+script_1626()
+if(load_varpbit(6936) == 1)
+	if_setgraphic(if_gethash(464, 48), 2422)
+else
+	if_setgraphic(if_gethash(464, 48), 2423)
+if(load_varpbit(6095) == 1)
+	if_setgraphic(if_gethash(464, 49), 3757)
+else
+	if_setgraphic(if_gethash(464, 49), 3758)
+if(load_varpbit(8300) == 20)
+	if_setgraphic(if_gethash(464, 50), 3887)
+else
+	if_setgraphic(if_gethash(464, 50), 3889)
+if(load_varpbit(8688) == 1)
+	if_setgraphic(if_gethash(464, 52), 3888)
+else
+	if_setgraphic(if_gethash(464, 52), 4408)
+if(load_varpbit(8601) == 1091)
+	if_setgraphic(if_gethash(464, 51), 4407)
+else
+	if_setgraphic(if_gethash(464, 51), 4409)
+if(load_varpbit(9198) == 60)
+	if_setgraphic(if_gethash(464, 53), 6559)
+else
+	if_setgraphic(if_gethash(464, 53), 6573)
+return

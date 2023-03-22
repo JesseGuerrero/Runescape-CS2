@@ -1,0 +1,15 @@
+//script2289(2289)(int arg0, int arg1, int arg2)(void)
+if(script_2296(arg2) == 0) {
+	if(script_2295(arg2) == 0)
+		return
+	if(cc_find(arg2, arg0) == 1)
+		cc_setop("Deactivate", 1)
+	if(cc_find(arg2, arg1) == 1)
+		cc_setgraphic(155)
+} else  {
+	if(cc_find(arg2, arg0) == 1)
+		cc_setop("Activate", 1)
+	if(cc_find(arg2, arg1) == 1)
+		cc_setgraphic(-1)
+}
+return

@@ -1,0 +1,547 @@
+//script980(980)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 882, 1, "You can now fletch " + "<col=000080>" + "bronze arrows" + "</col>" + ".", "Bronze arrow"
+
+			case 1:
+				return 2866, 5, "You now have the Fletching level required to fletch " + "<col=000080>" + "ogre arrows" + "</col>" + " (after starting Big Chompy Bird Hunting).", "Ogre arrow" + "<br>" + " (after starting Big Chompy Bird Hunting)"
+
+			case 2:
+				return 4773, 7, "You now have the Fletching level required to fletch " + "<col=000080>" + "bronze 'brutal' arrows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Bronze 'brutal' arrow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 3:
+				return 884, 15, "You can now fletch " + "<col=000080>" + "iron arrows" + "</col>" + ".", "Iron arrow"
+
+			case 4:
+				return 4778, 18, "You now have the Fletching level required to fletch " + "<col=000080>" + "iron 'brutal' arrows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Iron 'brutal' arrow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 5:
+				return 886, 30, "You can now fletch " + "<col=000080>" + "steel arrows" + "</col>" + ".", "Steel arrow"
+
+			case 6:
+				return 4783, 33, "You now have the Fletching level required to fletch " + "<col=000080>" + "steel 'brutal' arrows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Steel 'brutal' arrow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 7:
+				return 4788, 38, "You now have the Fletching level required to fletch " + "<col=000080>" + "black 'brutal' arrows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Black 'brutal' arrow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 8:
+				return 888, 45, "You can now fletch " + "<col=000080>" + "mithril arrows" + "</col>" + ".", "Mithril arrow"
+
+			case 9:
+				return 4793, 49, "You now have the Fletching level required to fletch " + "<col=000080>" + "mithril 'brutal' arrows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Mithril 'brutal' arrow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 10:
+				return 13278, 52, "You can now fletch " + "<col=000080>" + "broad leaf arrows" + "</col>" + " (after Smoking Kills).", "Broad leaf arrows" + "<br>" + " (after Smoking Kills)"
+
+			case 11:
+				return 890, 60, "You can now fletch " + "<col=000080>" + "adamant arrows" + "</col>" + ".", "Adamant arrow"
+
+			case 12:
+				return 4798, 62, "You now have the Fletching level required to fletch " + "<col=000080>" + "adamant 'brutal' arrows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Adamant 'brutal' arrow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 13:
+				return 892, 75, "You can now fletch " + "<col=000080>" + "rune arrows" + "</col>" + ".", "Rune arrow"
+
+			case 14:
+				return 21640, 76, "You can now fletch " + "<col=000080>" + "dragonbane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Dragonbane arrows (after Ritual of the Mahjarrat)"
+
+			case 15:
+				return 21645, 76, "You can now fletch " + "<col=000080>" + "wallasalkibane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Wallasalkibane arrows (after Ritual of the Mahjarrat)"
+
+			case 16:
+				return 21650, 76, "You can now fletch " + "<col=000080>" + "basiliskbane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Basiliskbane arrows (after Ritual of the Mahjarrat)"
+
+			case 17:
+				return 21655, 76, "You can now fletch " + "<col=000080>" + "abyssalbane arrowheads" + "</col>" + " (after Ritual of the Mahjarrat).", "Abyssalbane arrows (after Ritual of the Mahjarrat)"
+
+			case 18:
+				return 4803, 77, "You now have the Fletching level required to fletch " + "<col=000080>" + "rune 'brutal' arrows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Rune 'brutal' arrow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 19:
+				return 11212, 90, "You can now fletch " + "<col=000080>" + "dragon arrows" + "</col>" + ".", "Dragon arrow"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 841, 1, "You can now fletch " + "<col=000080>" + "shortbows" + "</col>" + ".", "Shortbow"
+
+			case 1:
+				return 839, 10, "You can now fletch " + "<col=000080>" + "longbows" + "</col>" + ".", "Longbow"
+
+			case 2:
+				return 843, 20, "You can now fletch " + "<col=000080>" + "oak shortbows" + "</col>" + ".", "Oak shortbow"
+
+			case 3:
+				return 845, 25, "You can now fletch " + "<col=000080>" + "oak longbows" + "</col>" + ".", "Oak longbow"
+
+			case 4:
+				return 4827, 30, "You now have the Fletching level required to fletch " + "<col=000080>" + "ogre composite bows" + "</col>" + " (after starting Zogre Flesh Eaters).", "Ogre composite bow" + "<br>" + " (after starting Zogre Flesh Eaters)"
+
+			case 5:
+				return 849, 35, "You can now fletch " + "<col=000080>" + "willow shortbows" + "</col>" + ".", "Willow shortbow"
+
+			case 6:
+				return 847, 40, "You can now fletch " + "<col=000080>" + "willow longbows" + "</col>" + ".", "Willow longbow"
+
+			case 7:
+				return 853, 50, "You can now fletch " + "<col=000080>" + "maple shortbows" + "</col>" + ".", "Maple shortbow"
+
+			case 8:
+				return 851, 55, "You can now fletch " + "<col=000080>" + "maple longbows" + "</col>" + ".", "Maple longbow"
+
+			case 9:
+				return 857, 65, "You can now fletch " + "<col=000080>" + "yew shortbows" + "</col>" + ".", "Yew shortbow"
+
+			case 10:
+				return 855, 70, "You can now fletch " + "<col=000080>" + "yew longbows" + "</col>" + ".", "Yew longbow"
+
+			case 11:
+				return 861, 80, "You can now fletch " + "<col=000080>" + "magic shortbows" + "</col>" + ".", "Magic shortbow"
+
+			case 12:
+				return 859, 85, "You can now fletch " + "<col=000080>" + "magic longbows" + "</col>" + ".", "Magic longbow"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 877, 9, "You can now fletch " + "<col=000080>" + "bronze bolts" + "</col>" + ".", "Bronze bolt"
+
+			case 1:
+				return 879, 11, "You can now fletch " + "<col=000080>" + "opal-tipped bronze bolts" + "</col>" + ".", "Opal-tipped bronze bolt"
+
+			case 2:
+				return 9139, 24, "You now have the Fletching level required to fletch " + "<col=000080>" + "blurite bolts" + "</col>" + " (after The Knight's Sword).", "Blurite bolt" + "<br>" + " (after The Knight's Sword)"
+
+			case 3:
+				return 9335, 26, "You now have the Fletching level required to fletch " + "<col=000080>" + "jade-tipped blurite bolts" + "</col>" + " (after The Knight's Sword).", "Jade-tipped blurite bolt" + "<br>" + " (after The Knight's Sword)"
+
+			case 4:
+				return 10158, 32, "You can now fletch " + "<col=000080>" + "kebbit-tipped hunting bolts" + "</col>" + ".", "Kebbit-tipped hunting bolt"
+
+			case 5:
+				return 9140, 39, "You can now fletch " + "<col=000080>" + "iron bolts" + "</col>" + ".", "Iron bolt"
+
+			case 6:
+				return 880, 41, "You can now fletch " + "<col=000080>" + "pearl-tipped iron bolts" + "</col>" + ".", "Pearl-tipped iron bolt"
+
+			case 7:
+				return 10159, 42, "You can now fletch " + "<col=000080>" + "long kebbit-tipped hunting bolts" + "</col>" + ".", "Long kebbit-tipped hunting bolt"
+
+			case 8:
+				return 9145, 43, "You can now fletch " + "<col=000080>" + "silver bolts" + "</col>" + ".", "Silver bolt"
+
+			case 9:
+				return 9141, 46, "You can now fletch " + "<col=000080>" + "steel bolts" + "</col>" + ".", "Steel bolt"
+
+			case 10:
+				return 9336, 48, "You can now fletch " + "<col=000080>" + "red topaz-tipped steel bolts" + "</col>" + ".", "Red topaz-tipped steel bolt"
+
+			case 11:
+				return 881, 51, "You can now fletch " + "<col=000080>" + "barbed bolts" + "</col>" + ".", "Barbed bolts"
+
+			case 12:
+				return 9142, 54, "You can now fletch " + "<col=000080>" + "mithril bolts" + "</col>" + ".", "Mithril bolt"
+
+			case 13:
+				return 13279, 55, "You can now fletch " + "<col=000080>" + "broad leaf bolts" + "</col>" + " (after Smoking Kills).", "Broad leaf bolts" + "<br>" + " (after Smoking Kills)"
+
+			case 14:
+				return 9337, 56, "You can now fletch " + "<col=000080>" + "sapphire-tipped mithril bolts" + "</col>" + ".", "Sapphire-tipped mithril bolt"
+
+			case 15:
+				return 9338, 58, "You can now fletch " + "<col=000080>" + "emerald-tipped mithril bolts" + "</col>" + ".", "Emerald-tipped mithril bolt"
+
+			case 16:
+				return 9418, 59, "You can now fletch " + "<col=000080>" + "mithril grapple-tipped bolts" + "</col>" + ".", "Mithril grapple-tipped bolt"
+
+			case 17:
+				return 9143, 61, "You can now fletch " + "<col=000080>" + "adamantite bolts" + "</col>" + ".", "Adamantite bolt"
+
+			case 18:
+				return 9339, 63, "You can now fletch " + "<col=000080>" + "ruby-tipped adamantite bolts" + "</col>" + ".", "Ruby-tipped adamantite bolt"
+
+			case 19:
+				return 9340, 65, "You can now fletch " + "<col=000080>" + "diamond-tipped adamantite bolts" + "</col>" + ".", "Diamond-tipped adamantite bolt"
+
+			case 20:
+				return 9144, 69, "You can now fletch " + "<col=000080>" + "runite bolts" + "</col>" + ".", "Runite bolt"
+
+			case 21:
+				return 9341, 71, "You can now fletch " + "<col=000080>" + "dragonstone-tipped runite bolts" + "</col>" + ".", "Dragonstone-tipped runite bolt"
+
+			case 22:
+				return 9342, 73, "You can now fletch " + "<col=000080>" + "onyx-tipped runite bolts" + "</col>" + ".", "Onyx-tipped runite bolt"
+
+			case 23:
+				return 21660, 80, "You can now fletch " + "<col=000080>" + "dragonbane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Dragonbane bolts (after Ritual of the Mahjarrat)"
+
+			case 24:
+				return 21665, 80, "You can now fletch " + "<col=000080>" + "wallasalkibane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Wallasalkibane bolts (after Ritual of the Mahjarrat)"
+
+			case 25:
+				return 21670, 80, "You can now fletch " + "<col=000080>" + "basiliskbane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Basiliskbane bolts (after Ritual of the Mahjarrat)"
+
+			case 26:
+				return 21675, 80, "You can now fletch " + "<col=000080>" + "abyssalbane bolts" + "</col>" + " (after Ritual of the Mahjarrat).", "Abyssalbane bolts (after Ritual of the Mahjarrat)"
+
+			case 27:
+				return 24116, 93, "You can now fletch " + "<col=000080>" + "bakriminel bolts" + "</col>" + ".", "Bakriminel bolts"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 806, 1, "You can now fletch " + "<col=000080>" + "bronze darts" + "</col>" + ".", "Bronze dart"
+
+			case 1:
+				return 807, 22, "You can now fletch " + "<col=000080>" + "iron darts" + "</col>" + ".", "Iron dart"
+
+			case 2:
+				return 808, 37, "You can now fletch " + "<col=000080>" + "steel darts" + "</col>" + ".", "Steel dart"
+
+			case 3:
+				return 809, 52, "You can now fletch " + "<col=000080>" + "mithril darts" + "</col>" + ".", "Mithril dart"
+
+			case 4:
+				return 810, 67, "You can now fletch " + "<col=000080>" + "adamant darts" + "</col>" + ".", "Adamant dart"
+
+			case 5:
+				return 21581, 70, "You can now fletch " + "<col=000080>" + "blisterwood stakes" + "</col>" + " (after The Branches of Darkmeyer).", "Blisterwood stake"
+
+			case 6:
+				return 811, 81, "You can now fletch " + "<col=000080>" + "rune darts" + "</col>" + ".", "Rune dart"
+
+			case 7:
+				return 11230, 95, "You can now fletch " + "<col=000080>" + "dragon darts" + "</col>" + ".", "Dragon dart"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 9440, 9, "You can now fletch " + "<col=000080>" + "bronze and wooden crossbows" + "</col>" + ".", "Bronze/wooden crossbow"
+
+			case 1:
+				return 9442, 24, "You now have the Fletching level required to fletch " + "<col=000080>" + "blurite and oak crossbows" + "</col>" + " (after The Knight's Sword).", "Blurite/oak crossbow" + "<br>" + " (after The Knight's Sword)"
+
+			case 2:
+				return 9444, 39, "You can now fletch " + "<col=000080>" + "iron and willow crossbows" + "</col>" + ".", "Iron/willow crossbow"
+
+			case 3:
+				return 9446, 46, "You can now fletch " + "<col=000080>" + "steel and teak crossbows" + "</col>" + ".", "Steel/teak crossbow"
+
+			case 4:
+				return 9448, 54, "You can now fletch " + "<col=000080>" + "mithril and maple crossbows" + "</col>" + ".", "Mithril/maple crossbow"
+
+			case 5:
+				return 9450, 61, "You can now fletch " + "<col=000080>" + "adamantite and mahogany crossbows" + "</col>" + ".", "Adamantite/mahogany crossbow"
+
+			case 6:
+				return 9452, 69, "You can now fletch " + "<col=000080>" + "runite and yew crossbows" + "</col>" + ".", "Runite/yew crossbow"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 21580, 70, "You can now fletch " + "<col=000080>" + "blisterwood staves" + "</col>" + " (after the Branches of Darkmeyer).", "Blisterwood staff"
+
+			case 1:
+				return 21582, 70, "You can now fletch " + "<col=000080>" + "blisterwood polearms" + "</col>" + " (after the Branches of Darkmeyer).", "Blisterwood polearm"
+
+			case 2:
+				return 21364, 83, "You can now fletch " + "<col=000080>" + "sagaies" + "</col>" + ".", "Sagaie"
+
+			case 3:
+				return 21365, 87, "You can now fletch " + "<col=000080>" + "bolas" + "</col>" + ".", "Bolas"
+
+			case 4:
+				return 18778, 91, "You can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using your knowledge of Fletching.", "Starved ancient effigies"
+
+			case 5:
+				return 18779, 93, "You can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using your knowledge of Fletching.", "Nourished ancient effigies"
+
+			case 6:
+				return 18780, 95, "You can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using your knowledge of Fletching.", "Sated ancient effigies"
+
+			case 7:
+				return 18781, 97, "You can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using your knowledge of Fletching.", "Gorged ancient effigies"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14192, 1, "Members can now fletch " + "<col=000080>" + "class 1 bows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 1 bow"
+
+			case 1:
+				return 14202, 1, "You can now fletch " + "<col=000080>" + "class 1 arrows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 1 arrow"
+
+			case 2:
+				return 14194, 20, "Members can now fletch " + "<col=000080>" + "class 2 bows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 2 bow"
+
+			case 3:
+				return 14203, 20, "You can now fletch " + "<col=000080>" + "class 2 arrows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 2 arrow"
+
+			case 4:
+				return 14196, 40, "Members can now fletch " + "<col=000080>" + "class 3 bows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 3 bow"
+
+			case 5:
+				return 14204, 40, "You can now fletch " + "<col=000080>" + "class 3 arrows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 3 arrow"
+
+			case 6:
+				return 14611, 53, "Members can now fletch " + "<col=000080>" + "cinnamon weaving ribbon" + "</col>" + " in the phoenix lair.", "Phoenix lair - cinnamon weaving ribbon"
+
+			case 7:
+				return 14612, 53, "Members can now fletch " + "<col=000080>" + "sassafras weaving ribbon" + "</col>" + " in the phoenix lair.", "Phoenix lair - sassafras weaving ribbon"
+
+			case 8:
+				return 14613, 53, "Members can now fletch " + "<col=000080>" + "ailanthus weaving ribbon" + "</col>" + " in the phoenix lair.", "Phoenix lair - ailanthus weaving ribbon"
+
+			case 9:
+				return 14614, 53, "Members can now fletch " + "<col=000080>" + "cedar weaving ribbon" + "</col>" + " in the phoenix lair.", "Phoenix lair - cedar weaving ribbon"
+
+			case 10:
+				return 14615, 53, "Members can now fletch " + "<col=000080>" + "mastic weaving ribbon" + "</col>" + " in the phoenix lair.", "Phoenix lair - mastic weaving ribbon"
+
+			case 11:
+				return 14198, 60, "Members can now fletch " + "<col=000080>" + "class 4 bows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 4 bow"
+
+			case 12:
+				return 14205, 60, "You can now fletch " + "<col=000080>" + "class 4 arrows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 4 arrow"
+
+			case 13:
+				return 14200, 80, "Members can now fletch " + "<col=000080>" + "class 5 bows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 5 bow"
+
+			case 14:
+				return 14206, 80, "You can now fletch " + "<col=000080>" + "class 5 arrows" + "</col>" + " in Stealing Creation.", "Stealing Creation - class 5 arrow"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Fletching level increases, you will be able to attempt higher-level fletching tasks within Daemonheim. You will also be more likely to succeed when attempting fletching tasks within Daemonheim."
+
+			case 1:
+				return 17742, 1, "You can now fletch " + "<col=000080>" + "tangle gum branches" + "</col>" + " into " + "<col=000080>" + "15 arrow shafts" + "</col>" + " within Daemonheim.", "Tangle gum" + "<br>" + " 15 Arrow shafts"
+
+			case 2:
+				return 16427, 1, "You can now fletch " + "<col=000080>" + "novite arrows" + "</col>" + " within Daemonheim.", "Novite arrows (Tier 1)"
+
+			case 3:
+				return 16867, 1, "You can now fletch " + "<col=000080>" + "tangle gum shortbows" + "</col>" + " within Daemonheim.", "Tangle gum shortbow (Tier 1)"
+
+			case 4:
+				return 17756, 3, "You can now fletch " + "<col=000080>" + "tangle gum traps" + "</col>" + " within Daemonheim.", "Tangle gum trap (Tier 1)"
+
+			case 5:
+				return 16317, 6, "You can now fletch " + "<col=000080>" + "tangle gum longbows" + "</col>" + " within Daemonheim.", "Tangle gum longbow (Tier 1)"
+
+			case 6:
+				return 16977, 8, "You can now fletch " + "<col=000080>" + "tangle gum staves" + "</col>" + " within Daemonheim.", "Tangle gum staff (Tier 1)"
+
+			case 7:
+				return 17742, 10, "You can now fletch " + "<col=000080>" + "seeping elm branches" + "</col>" + " into " + "<col=000080>" + "21 arrow shafts" + "</col>" + " within Daemonheim.", "Seeping elm" + "<br>" + " 21 Arrow shafts"
+
+			case 8:
+				return 16432, 11, "You can now fletch " + "<col=000080>" + "bathus arrows" + "</col>" + " within Daemonheim.", "Bathus arrows (Tier 2)"
+
+			case 9:
+				return 16869, 11, "You can now fletch " + "<col=000080>" + "seeping elm shortbows" + "</col>" + " within Daemonheim.", "Seeping elm shortbow (Tier 2)"
+
+			case 10:
+				return 17758, 13, "You can now fletch " + "<col=000080>" + "seeping elm traps" + "</col>" + " within Daemonheim.", "Seeping elm trap (Tier 2)"
+
+			case 11:
+				return 16319, 16, "You can now fletch " + "<col=000080>" + "seeping elm longbows" + "</col>" + " within Daemonheim.", "Seeping elm longbow (Tier 2)"
+
+			case 12:
+				return 16979, 18, "You can now fletch " + "<col=000080>" + "seeping elm staves" + "</col>" + " within Daemonheim.", "Seeping elm staff (Tier 2)"
+
+			case 13:
+				return 17742, 20, "You can now fletch " + "<col=000080>" + "blood spindle branches" + "</col>" + " into " + "<col=000080>" + "26 arrow shafts" + "</col>" + " within Daemonheim.", "Blood spindle" + "<br>" + " 26 Arrow shafts"
+
+			case 14:
+				return 16871, 21, "You can now fletch " + "<col=000080>" + "blood spindle shortbows" + "</col>" + " within Daemonheim.", "Blood spindle shortbow (Tier 3)"
+
+			case 15:
+				return 16437, 22, "You can now fletch " + "<col=000080>" + "marmaros arrows" + "</col>" + " within Daemonheim.", "Marmaros arrows (Tier 3)"
+
+			case 16:
+				return 17760, 23, "You can now fletch " + "<col=000080>" + "blood spindle traps" + "</col>" + " within Daemonheim.", "Blood spindle trap (Tier 3)"
+
+			case 17:
+				return 16321, 26, "You can now fletch " + "<col=000080>" + "blood spindle longbows" + "</col>" + " within Daemonheim.", "Blood spindle longbow (Tier 3)"
+
+			case 18:
+				return 16981, 28, "You can now fletch " + "<col=000080>" + "blood spindle staves" + "</col>" + " within Daemonheim.", "Blood spindle staff (Tier 3)"
+
+			case 19:
+				return 17742, 30, "You can now fletch " + "<col=000080>" + "utuku branches" + "</col>" + " into " + "<col=000080>" + "32 arrow shafts" + "</col>" + " within Daemonheim.", "Utuku" + "<br>" + " 32 Arrow shafts"
+
+			case 20:
+				return 16873, 31, "You can now fletch " + "<col=000080>" + "utuku shortbows" + "</col>" + " within Daemonheim.", "Utuku shortbow (Tier 4)"
+
+			case 21:
+				return 16442, 33, "You can now fletch " + "<col=000080>" + "kratonite arrows" + "</col>" + " within Daemonheim.", "Kratonite arrows (Tier 4)"
+
+			case 22:
+				return 17762, 33, "You can now fletch " + "<col=000080>" + "utuku traps" + "</col>" + " within Daemonheim.", "Utuku trap (Tier 4)"
+
+			case 23:
+				return 16323, 36, "You can now fletch " + "<col=000080>" + "utuku longbows" + "</col>" + " within Daemonheim.", "Utuku longbow (Tier 4)"
+
+			case 24:
+				return 16983, 38, "You can now fletch " + "<col=000080>" + "utuku staves" + "</col>" + " within Daemonheim.", "Utuku staff (Tier 4)"
+
+			case 25:
+				return 17742, 40, "You can now fletch " + "<col=000080>" + "spinebeam branches" + "</col>" + " into " + "<col=000080>" + "37 arrow shafts" + "</col>" + " within Daemonheim.", "Spinebeam" + "<br>" + " 37 Arrow shafts"
+
+			case 26:
+				return 16875, 41, "You can now fletch " + "<col=000080>" + "spinebeam shortbows" + "</col>" + " within Daemonheim.", "Spinebeam shortbow (Tier 5)"
+
+			case 27:
+				return 17764, 43, "You can now fletch " + "<col=000080>" + "spinebeam traps" + "</col>" + " within Daemonheim.", "Spinebeam trap (Tier 5)"
+
+			case 28:
+				return 16447, 44, "You can now fletch " + "<col=000080>" + "fractite arrows" + "</col>" + " within Daemonheim.", "Fractite arrows (Tier 5)"
+
+			case 29:
+				return 16325, 46, "You can now fletch " + "<col=000080>" + "spinebeam longbows" + "</col>" + " within Daemonheim.", "Spinebeam longbow (Tier 5)"
+
+			case 30:
+				return 16985, 48, "You can now fletch " + "<col=000080>" + "spinebeam staves" + "</col>" + " within Daemonheim.", "Spinebeam staff (Tier 5)"
+
+			case 31:
+				return 17742, 50, "You can now fletch " + "<col=000080>" + "bovistrangler branches" + "</col>" + " into " + "<col=000080>" + "43 arrow shafts" + "</col>" + " within Daemonheim.", "Bovistrangler" + "<br>" + " 43 Arrow shafts"
+
+			case 32:
+				return 16877, 51, "You can now fletch " + "<col=000080>" + "bovistrangler shortbows" + "</col>" + " within Daemonheim.", "Bovistrangler shortbow (Tier 6)"
+
+			case 33:
+				return 17766, 53, "You can now fletch " + "<col=000080>" + "bovistrangler traps" + "</col>" + " within Daemonheim.", "Bovistrangler trap (Tier 6)"
+
+			case 34:
+				return 16452, 55, "You can now fletch " + "<col=000080>" + "zephyrium arrows" + "</col>" + " within Daemonheim.", "Zephyrium arrows (Tier 6)"
+
+			case 35:
+				return 16327, 56, "You can now fletch " + "<col=000080>" + "bovistrangler longbows" + "</col>" + " within Daemonheim.", "Bovistrangler longbow (Tier 6)"
+
+			case 36:
+				return 16987, 58, "You can now fletch " + "<col=000080>" + "bovistrangler staves" + "</col>" + " within Daemonheim.", "Bovistrangler staff (Tier 6)"
+
+			case 37:
+				return 17742, 60, "You can now fletch " + "<col=000080>" + "thigat branches" + "</col>" + " into " + "<col=000080>" + "48 arrow shafts" + "</col>" + " within Daemonheim.", "Thigat" + "<br>" + " 48 Arrow shafts"
+
+			case 38:
+				return 16879, 61, "You can now fletch " + "<col=000080>" + "thigat shortbows" + "</col>" + " within Daemonheim.", "Thigat shortbow (Tier 7)"
+
+			case 39:
+				return 17768, 63, "You can now fletch " + "<col=000080>" + "thigat traps" + "</col>" + " within Daemonheim.", "Thigat trap (Tier 7)"
+
+			case 40:
+				return 16457, 66, "You can now fletch " + "<col=000080>" + "argonite arrows" + "</col>" + " within Daemonheim.", "Argonite arrows (Tier 7)"
+
+			case 41:
+				return 16329, 66, "You can now fletch " + "<col=000080>" + "thigat longbows" + "</col>" + " within Daemonheim.", "Thigat longbow (Tier 7)"
+
+			case 42:
+				return 16989, 68, "You can now fletch " + "<col=000080>" + "thigat staves" + "</col>" + " within Daemonheim.", "Thigat staff (Tier 7)"
+
+			case 43:
+				return 17742, 70, "You can now fletch " + "<col=000080>" + "corpsethorn branches" + "</col>" + " into " + "<col=000080>" + "54 arrow shafts" + "</col>" + " within Daemonheim.", "Corpsethorn" + "<br>" + " 54 Arrow shafts"
+
+			case 44:
+				return 16881, 71, "You can now fletch " + "<col=000080>" + "corpsethorn shortbows" + "</col>" + " within Daemonheim.", "Corpsethorn shortbow (Tier 8)"
+
+			case 45:
+				return 17770, 73, "You can now fletch " + "<col=000080>" + "corpsethorn traps" + "</col>" + " within Daemonheim.", "Corpsethorn trap (Tier 8)"
+
+			case 46:
+				return 16331, 76, "You can now fletch " + "<col=000080>" + "corpsethorn longbows" + "</col>" + " within Daemonheim.", "Corpsethorn longbow (Tier 8)"
+
+			case 47:
+				return 16462, 77, "You can now fletch " + "<col=000080>" + "katagon arrows" + "</col>" + " within Daemonheim.", "Katagon arrows (Tier 8)"
+
+			case 48:
+				return 16991, 78, "You can now fletch " + "<col=000080>" + "corpsethorn staves" + "</col>" + " within Daemonheim.", "Corpsethorn staff (Tier 8)"
+
+			case 49:
+				return 17742, 80, "You can now fletch " + "<col=000080>" + "entgallow branches" + "</col>" + " into " + "<col=000080>" + "59 arrow shafts" + "</col>" + " within Daemonheim.", "Entgallow" + "<br>" + " 59 Arrow shafts"
+
+			case 50:
+				return 16883, 81, "You can now fletch " + "<col=000080>" + "entgallow shortbows" + "</col>" + " within Daemonheim.", "Entgallow shortbow (Tier 9)"
+
+			case 51:
+				return 17772, 83, "You can now fletch " + "<col=000080>" + "entgallow traps" + "</col>" + " within Daemonheim.", "Entgallow trap (Tier 9)"
+
+			case 52:
+				return 16333, 86, "You can now fletch " + "<col=000080>" + "entgallow longbows" + "</col>" + " within Daemonheim.", "Entgallow longbow (Tier 9)"
+
+			case 53:
+				return 16467, 88, "You can now fletch " + "<col=000080>" + "gorgonite arrows" + "</col>" + " within Daemonheim.", "Gorgonite arrows (Tier 9)"
+
+			case 54:
+				return 16993, 88, "You can now fletch " + "<col=000080>" + "entgallow staves" + "</col>" + " within Daemonheim.", "Entgallow staff (Tier 9)"
+
+			case 55:
+				return 17742, 90, "You can now fletch " + "<col=000080>" + "grave creeper branches" + "</col>" + " into " + "<col=000080>" + "65 arrow shafts" + "</col>" + " within Daemonheim.", "Grave creeper" + "<br>" + " 65 Arrow shafts"
+
+			case 56:
+				return 16885, 91, "You can now fletch " + "<col=000080>" + "grave creeper shortbows" + "</col>" + " within Daemonheim.", "Grave creeper shortbow (Tier 10)"
+
+			case 57:
+				return 17774, 93, "You can now fletch " + "<col=000080>" + "grave creeper traps" + "</col>" + " within Daemonheim.", "Grave creeper trap (Tier 10)"
+
+			case 58:
+				return 16335, 96, "You can now fletch " + "<col=000080>" + "grave creeper longbows" + "</col>" + " within Daemonheim.", "Grave creeper longbow (Tier 10)"
+
+			case 59:
+				return 16995, 98, "You can now fletch " + "<col=000080>" + "grave creeper staves" + "</col>" + " within Daemonheim.", "Grave creeper staff (Tier 10)"
+
+			case 60:
+				return 16472, 99, "You can now fletch promethium arrows" + "</col>" + " within Daemonheim.", "Promethium arrows (Tier 10)"
+
+
+		}
+		break
+	case 8:
+		if(arg1 == 0)
+			return 9783, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Fletching" + "<col=000080>" + ". Why not visit " + "<col=800000>" + "Hickton" + "<col=000080>" + " who runs the " + "<col=800000>" + "bow and arrow shop" + "<col=000080>" + " in " + "<col=800000>" + "Catherby" + "<col=000080>" + "? He has something special that is only available to true masters of the " + "<col=800000>" + "Fletching" + "<col=000080>" + " skill!", "Skill mastery"
+		break
+
+}
+return -1, 0, "", ""

@@ -1,0 +1,21 @@
+//script110(110)(string arg0)(int)
+if(instr6644() >= 2)
+	if_sethide(if_gethash(746, 22), 0)
+if_sethide(if_gethash(752, 3), 0)
+if_sethide(if_gethash(752, 7), 1)
+if_sethide(if_gethash(752, 8), 1)
+if_settext(if_gethash(752, 4), arg0)
+store_varc(5, 9)
+if(compare(load_varc_string(350), "null") == 0)
+	store_varc_string(350, "")
+if(compare(load_varc_string(350), "") != 0) {
+	script_1564(load_varc_string(350))
+	store_varc_string(350, "")
+} else 
+	script_1564("")
+if(compare(load_varc_string(354), "null") == 0)
+	store_varc_string(354, "")
+hook_mouse_press(if_gethash(752, 3), None, "")
+script_2026()
+instr6248(if_gethash(752, 5), script_112, "iz", -2147483640, -2147483639)
+return 138

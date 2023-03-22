@@ -1,0 +1,20 @@
+//script6334(6334)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = inv_size(if_gethash(0, 93))
+iVar2 = (if_getwidth(arg0) - (4 * 36)) / 3
+iVar3 = (if_getheight(arg0) - (7 * 32)) / 6
+iVar4 = 0
+while(iVar4 < iVar1) {
+	cc_create(iVar4, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, (iVar4 / 4) * (32 + iVar3), modulo(4, iVar4) * (36 + iVar2))
+	cc_setgraphicshadow(3153952)
+	cc_setoutline(1)
+	iVar4 = iVar4 + 1
+}
+if_setonmouseleave(arg0, script_6335, "IiY", 1, 93, -2147483645, iVar1)
+script_6336(arg0, iVar1)
+return

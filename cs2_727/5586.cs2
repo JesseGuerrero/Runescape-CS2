@@ -1,0 +1,10 @@
+//script5586(5586)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 240
+if(string_length(if_gettext(arg1)) > 0) {
+	iVar2 = parawidth(if_gettext(arg1), 4040, 500) + 80
+	if(iVar2 > if_getwidth(arg0))
+		if_setsize(arg0, 0, 0, 30, iVar2)
+	instr6342(arg0, None, "")
+}
+return

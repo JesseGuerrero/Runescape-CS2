@@ -1,0 +1,417 @@
+//script3224(3224)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar1 = 0
+iVar2 = enum(3483, arg0, 'i', 'J')
+if(struct_param(1270, iVar2) != 4094)
+	return script_2148(1, struct_param(1270, iVar2))
+iVar3 = -1
+iVar4 = 0
+iVar5 = 0
+iVar6 = 1
+while(iVar6 <= 12) {
+	switch(iVar6) {
+		case default:
+			break
+		case 1:
+			iVar4 = struct_param(1294, iVar2)
+			iVar5 = struct_param(1295, iVar2)
+			break
+		case 2:
+			iVar4 = struct_param(1296, iVar2)
+			iVar5 = struct_param(1297, iVar2)
+			break
+		case 3:
+			iVar4 = struct_param(1298, iVar2)
+			iVar5 = struct_param(1299, iVar2)
+			break
+		case 4:
+			iVar4 = struct_param(1300, iVar2)
+			iVar5 = struct_param(1301, iVar2)
+			break
+		case 5:
+			iVar4 = struct_param(1302, iVar2)
+			iVar5 = struct_param(1303, iVar2)
+			break
+		case 6:
+			iVar4 = struct_param(1304, iVar2)
+			iVar5 = struct_param(1305, iVar2)
+			break
+		case 7:
+			iVar4 = struct_param(1306, iVar2)
+			iVar5 = struct_param(1307, iVar2)
+			break
+		case 8:
+			iVar4 = struct_param(1308, iVar2)
+			iVar5 = struct_param(1309, iVar2)
+			break
+		case 9:
+			iVar4 = struct_param(1310, iVar2)
+			iVar5 = struct_param(1311, iVar2)
+			break
+		case 10:
+			iVar4 = struct_param(1312, iVar2)
+			iVar5 = struct_param(1313, iVar2)
+			break
+		case 11:
+			iVar4 = struct_param(2227, iVar2)
+			iVar5 = struct_param(2228, iVar2)
+			break
+		case 12:
+			iVar4 = struct_param(2229, iVar2)
+			iVar5 = struct_param(2230, iVar2)
+			break
+
+	}
+	if(iVar4 > 0)
+		if(iVar4 < 60)
+			if(stat_base(enum(681, iVar4, 'i', 'S')) < iVar5)
+				return 0
+		else
+			if(iVar4 == 60) {
+				iVar3 = script_5795(iVar5)
+				if(iVar3 == -1)
+					return 0
+				if(script_3227(iVar5) != 2)
+					return 0
+			} else 
+				if(iVar4 == 61)
+					if(script_2193(iVar5) != 2)
+						return 0
+	if(iVar4 == 0)
+		iVar6 = 13
+	else
+		iVar6 = iVar6 + 1
+}
+if(script_1432() < struct_param(2233, iVar2))
+	return 0
+switch(arg0) {
+	case default:
+		return 1
+
+	case 12:
+		if(load_varpbit(5277) == 0)
+			return 0
+		break
+	case 23:
+		if(load_varpbit(2328) == 0)
+			return 0
+		break
+	case 49:
+		if(load_varpbit(4394) == 0)
+			return 0
+		break
+	case 59:
+		if(load_varp(492) < 4)
+			return 0
+		break
+	case 107:
+		if(load_varp(176) < 2 || load_varpbit(3746) == 1 || load_varp(176) < 10)
+			return 0
+		break
+	case 147:
+		if(load_varpbit(2328) == 0)
+			return 0
+		break
+	case 167:
+		if(load_varpbit(2328) == 0)
+			return 0
+		break
+	case 175:
+		if(load_varp(76) < 6)
+			if(load_varpbit(3378) == 0)
+				return 0
+		break
+	case 177:
+		if(load_varpbit(3764) == 0)
+			return 0
+		break
+	case 178:
+		if(load_varpbit(3757) == 0)
+			return 0
+		break
+	case 180:
+		if(load_varpbit(3764) == 0)
+			return 0
+		break
+	case 316:
+		if(load_varpbit(3757) == 0)
+			return 0
+		break
+	case 321:
+		if(load_varpbit(3764) == 0)
+			return 0
+		break
+	case 322:
+		if(load_varpbit(3763) == 0)
+			return 0
+		break
+	case 323:
+		if(load_varpbit(3761) == 0)
+			return 0
+		break
+	case 219:
+		if(script_1432() < 100)
+			return 0
+		break
+	case 331:
+		if(script_1432() < 100)
+			return 0
+		break
+	case 248:
+		if(load_varpbit(3909) < 8)
+			return 0
+		break
+	case 249:
+		if(load_varpbit(2328) == 0)
+			return 0
+		break
+	case 276:
+		if(load_varp(101) < 33)
+			return 0
+		break
+	case 281:
+		if(load_varpbit(2309) < 1)
+			return 0
+		if(load_varpbit(2310) < 1)
+			return 0
+		if(load_varpbit(2311) < 1)
+			return 0
+		if(load_varpbit(2312) < 1)
+			return 0
+		break
+	case 285:
+		if(load_varpbit(3639) < 1)
+			return 0
+		break
+	case 289:
+		if(script_1432() < 40)
+			return 0
+		break
+	case 294:
+		if(load_varpbit(2328) == 0)
+			return 0
+		break
+	case 300:
+		if(script_4035() < 153)
+			return 0
+		break
+	case 3000:
+		if(instr6365() < load_varp(451))
+			return 0
+		if(load_varp(101) < load_varpbit(456))
+			if(script_4218() > 0)
+				return 0
+		break
+	case 3001:
+		if(script_1432() < 40)
+			return 0
+		break
+	case 3002:
+		if(load_varpbit(5276) == 10)
+			return 0
+		if(load_varpbit(5275) == 50)
+			return 0
+		if(load_varpbit(3293) < 135)
+			return 0
+		if(load_varpbit(5277) == 0)
+			return 0
+		break
+	case 3003:
+		if(load_varpbit(1545) >= 2)
+			return 0
+		break
+	case 3005:
+		if(stat(21) < 17)
+			return 0
+		break
+	case 3007:
+		if(load_varpbit(5251) != 0)
+			if(load_varpbit(5252) != 0)
+				if(load_varpbit(5253) != 0)
+					return 0
+		break
+	case 3008:
+		if(load_varp(1199) == instr6797())
+			return 0
+		break
+	case 3009:
+		if(load_varpbit(5133) < 90)
+			return 0
+		break
+	case 3010:
+		if(instr6365() < load_varpbit(6305))
+			return 0
+		break
+	case 3011:
+		if(load_varp(101) < 33)
+			return 0
+		break
+	case 3012:
+		if(stat_base(20) < 50)
+			return 0
+		break
+	case 3013:
+		if(script_1432() < 40)
+			return 0
+		break
+	case 3015:
+		if(stat_base(0) < 65)
+			if(stat_base(1) < 65)
+				return 0
+		break
+	case 3031:
+		if(script_1432() < 48)
+			return 0
+		break
+	case 3034:
+		if(stat_base(2) + stat_base(0) < 130)
+			if(stat_base(0) < 99)
+				if(stat_base(2) < 99)
+					return 0
+		break
+	case 3500:
+		if(script_4098() != 3500)
+			return 0
+		break
+	case 3501:
+		if(script_4098() != 3501)
+			return 0
+		break
+	case 3505:
+		if(script_4098() != 3505)
+			return 0
+		break
+	case 3511:
+		if(script_4098() != 3511)
+			return 0
+		break
+	case 3502:
+		if(script_4098() != 3502)
+			return 0
+		break
+	case 3503:
+		if(script_4098() != 3503)
+			return 0
+		break
+	case 3504:
+		if(script_4098() != 3504)
+			return 0
+		break
+	case 3506:
+		if(script_4098() != 3506)
+			return 0
+		break
+	case 3508:
+		if(script_4098() != 3508)
+			return 0
+		break
+	case 3509:
+		if(script_4098() != 3509)
+			return 0
+		break
+	case 3507:
+		if(script_4098() != 3507)
+			return 0
+		break
+	case 3523:
+		if(script_4098() != 3523)
+			return 0
+		break
+	case 3510:
+		if(script_4098() != 3510)
+			return 0
+		break
+	case 3512:
+		if(script_4098() != 3512)
+			return 0
+		break
+	case 3513:
+		if(script_4098() != 3513)
+			return 0
+		break
+	case 3514:
+		if(script_4098() != 3514)
+			return 0
+		break
+	case 3515:
+		if(load_varp(281) < 135 || load_varp(281) > 160 || load_varpbit(6495) == 0 || load_varpbit(6495) == 1)
+			return 0
+		break
+	case 3516:
+		if(load_varp(281) < 135 || load_varp(281) > 160 || load_varpbit(6495) == 2 || load_varpbit(6495) == 3)
+			return 0
+		break
+	case 3517:
+		if(load_varp(281) < 140 || load_varpbit(6495) == 0 || load_varpbit(6495) == 1 || stat_base(8) > 1)
+			return 0
+		break
+	case 3518:
+		if(load_varp(281) < 140 || load_varpbit(6495) == 2 || load_varpbit(6495) == 3 || stat_base(14) > 1)
+			return 0
+		break
+	case 3519:
+		if(script_4098() != 3519)
+			return 0
+		break
+	case 3520:
+		if(script_4098() != 3521 || load_varpbit(6494) > 2)
+			return 0
+		break
+	case 3521:
+		if(script_4098() != 3521 || load_varpbit(6494) != 5)
+			return 0
+		break
+	case 858:
+		if(load_varp(302) < 60)
+			if(load_varpbit(571) < 5)
+				return 0
+		break
+	case 881:
+		if(load_varp(205) < 7 || load_varp(206) < 7)
+			return 0
+		break
+	case 656:
+		if(load_varpbit(498) != 1)
+			return 0
+		break
+	case 623:
+		if(load_varpbit(7792) < 20)
+			return 0
+		break
+	case 659:
+		if(load_varpbit(1990) < 280)
+			return 0
+		break
+	case 961:
+		if(load_varpbit(2328) == 0)
+			return 0
+		break
+	case 985:
+		if(inv_total(13610, 93) + inv_total(13610, 95) == 0 || load_varpbit(4569) < 490)
+			return 0
+		break
+	case 976:
+		if(load_varpbit(4591) < 200)
+			return 0
+		break
+	case 991:
+		if(script_6034() < 500)
+			return 0
+		break
+	case 980:
+		if(stat_base(1) < 70 || stat_base(0) < 70 || stat_base(4) < 70)
+			return 0
+		break
+	case 982:
+		if(load_varpbit(9757) < 110)
+			return 0
+		break
+
+}
+return 1
+return -1

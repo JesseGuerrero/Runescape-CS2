@@ -1,0 +1,73 @@
+//script1092(1092)(int arg0)(void)
+if(arg0 == 1)
+	if(load_varpbit(1892) == 60)
+		if_setcolor(9502722, 0xFF00)
+	else
+		if(load_varpbit(1892) == 0)
+			if_setcolor(9502722, 0xFF0000)
+		else
+			if_setcolor(9502722, 0xFFFF00)
+else
+	if(arg0 == 2)
+		if(load_varpbit(1867) == 40)
+			if_setcolor(9502723, 0xFF00)
+		else
+			if(load_varpbit(1867) == 0)
+				if_setcolor(9502723, 0xFF0000)
+			else
+				if_setcolor(9502723, 0xFFFF00)
+	else
+		if(arg0 == 3)
+			if(load_varpbit(1895) == 110)
+				if_setcolor(9502724, 0xFF00)
+			else
+				if(load_varpbit(1895) == 0)
+					if_setcolor(9502724, 0xFF0000)
+				else
+					if_setcolor(9502724, 0xFFFF00)
+		else
+			if(arg0 == 4)
+				if(load_varpbit(1896) == 5)
+					if_setcolor(9502725, 0xFF00)
+				else
+					if(load_varpbit(1896) == 0)
+						if_setcolor(9502725, 0xFF0000)
+					else
+						if_setcolor(9502725, 0xFFFF00)
+			else
+				if(arg0 == 5)
+					if(load_varpbit(1878) == 5)
+						if_setcolor(9502726, 0xFF00)
+					else
+						if(load_varpbit(1878) == 0)
+							if_setcolor(9502726, 0xFF0000)
+						else
+							if_setcolor(9502726, 0xFFFF00)
+				else
+					if(arg0 == 6)
+						if(load_varpbit(1910) == 20)
+							if_setcolor(9502727, 0xFF00)
+						else
+							if(load_varpbit(1910) == 0)
+								if_setcolor(9502727, 0xFF0000)
+							else
+								if_setcolor(9502727, 0xFFFF00)
+					else
+						if(arg0 == 7)
+							if(load_varpbit(1904) == 170)
+								if_setcolor(9502728, 0xFF00)
+							else
+								if(load_varpbit(1904) == 0)
+									if_setcolor(9502728, 0xFF0000)
+								else
+									if_setcolor(9502728, 0xFFFF00)
+						else
+							if(arg0 == 8)
+								if(load_varpbit(1914) == 50)
+									if_setcolor(9502729, 0xFF00)
+								else
+									if(load_varpbit(1914) == 0)
+										if_setcolor(9502729, 0xFF0000)
+									else
+										if_setcolor(9502729, 0xFFFF00)
+return

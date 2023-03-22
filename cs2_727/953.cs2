@@ -1,0 +1,16 @@
+//script953(953)()(void)
+switch(load_varc(1400)) {
+	case default:
+		break
+	case 0:
+		if_setcolor(61145414, 0xFFB400)
+		break
+	case 1:
+		if_setcolor(61145414, 0xFF00)
+		break
+	case 2:
+		if_setcolor(61145414, 0xFF0000)
+		break
+
+}
+return

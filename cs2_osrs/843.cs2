@@ -1,0 +1,55 @@
+void script_843(Widget widget0, Widget widget1, int arg2) {
+	int int3;
+	int int4;
+	int int5;
+	string str0;
+	widget0.clearChildren();
+	widget1.clearChildren();
+	str0 = "";
+	int3 = -1;
+	int4 = 0;
+	int5 = getDisplayMode();
+	if (int5 == 2) {
+		int4 = script_836(widget1, 0);
+		CHILD.createChild(widget1, 5, int4);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(54, 46, 0, 0);
+		CHILD.setSprite(1172);
+		str0 = "The game client expands to fill the window.";
+		widget1.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(arg2), str0, 25, 190));
+		widget1.hookMouseExit(&script_40(widget(arg2)));
+		widget1.hookOptionClick(null);
+		int4 = script_835(widget0, 0);
+		CHILD.createChild(widget0, 5, int4);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(54, 46, 0, 0);
+		CHILD.setSprite(1169);
+		int3, str0 = 1171, "The game client is fixed to a static size.";
+		widget0.hookMouseHover(&script_844(CTX_WIDGET, widget(arg2), str0, (Sprite)int3, int4));
+		int3 = 1169;
+		widget0.hookMouseExit(&script_845(CTX_WIDGET, widget(arg2), (Sprite)int3, int4));
+		widget0.hookOptionClick(&script_847(1, widget0, widget1, widget(arg2)));
+	} else {
+		int4 = script_836(widget0, 0);
+		CHILD.createChild(widget0, 5, int4);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(54, 46, 0, 0);
+		CHILD.setSprite(1171);
+		str0 = "The game client is fixed to a static size.";
+		widget0.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(arg2), str0, 25, 190));
+		widget0.hookMouseExit(&script_40(widget(arg2)));
+		widget0.hookOptionClick(null);
+		int4 = script_835(widget1, 0);
+		CHILD.createChild(widget1, 5, int4);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(54, 46, 0, 0);
+		CHILD.setSprite(1170);
+		int3, str0 = 1172, "The game client expands to fill the window.";
+		widget1.hookMouseHover(&script_844(CTX_WIDGET, widget(arg2), str0, (Sprite)int3, int4));
+		int3 = 1170;
+		widget1.hookMouseExit(&script_845(CTX_WIDGET, widget(arg2), (Sprite)int3, int4));
+		widget1.hookOptionClick(&script_847(2, widget0, widget1, widget(arg2)));
+	}
+	widget0.hookFrame(&script_846(int5, widget0, widget1, widget(arg2)));
+	return;
+}

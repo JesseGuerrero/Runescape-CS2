@@ -1,0 +1,12 @@
+void script_666(Widget widget0) {
+	if (CHILD.setChild(widget0, 0) == true) {
+		script_667(datamap('i', 'O', 982, VARPBIT[29]), VARPBIT[1624]);
+	}
+	if (CHILD.setChild(widget0, 1) == true) {
+		script_667(datamap('i', 'O', 982, VARPBIT[1622]), VARPBIT[1625]);
+	}
+	if (CHILD.setChild(widget0, 2) == true) {
+		script_667(datamap('i', 'O', 982, VARPBIT[1623]), VARPBIT[1626]);
+	}
+	return;
+}

@@ -1,0 +1,8 @@
+//script5368(5368)(int arg0)(void)
+int iVar1
+store_varc(1658, load_varc(1658) + 1)
+iVar1 = (load_varc(1658) * 255) / load_varc(1656)
+iVar1 = min(max(iVar1, 0), 255)
+if(cc_find(arg0, if_gethash(951, 24)) == 1)
+	cc_settrans(iVar1)
+return

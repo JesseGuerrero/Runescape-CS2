@@ -1,0 +1,21 @@
+//script5207(5207)(int arg0, int arg1, int arg2)(int, int, int, int)
+int iVar3
+int iVar4
+int iVar5
+iVar3 = 0
+iVar4 = 5526
+iVar5 = 5523
+while(iVar3 < if_getnextsubid(arg0)) {
+	if(cc_find(iVar3, arg0) == 1)
+		if(cc_getspriteid() == iVar4) {
+			cc_clearscripts()
+			cc_setgraphic(iVar5)
+		}
+	iVar3 = iVar3 + 1
+}
+if(cc_find(arg1, arg0) == 1) {
+	cc_clearscripts()
+	cc_setgraphic(iVar4)
+}
+store_varc(1601, arg2)
+return script_5202(0).get(3), script_5202(0).get(2), script_5202(0).get(1), script_5202(0).get(0)

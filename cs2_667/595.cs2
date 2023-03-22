@@ -1,0 +1,5 @@
+void script_595() {
+	VAR_GE_IS_SELLING = 1;
+	script_621();
+	return;
+}

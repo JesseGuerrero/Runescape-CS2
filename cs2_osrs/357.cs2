@@ -1,0 +1,9 @@
+void script_357(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	VARP[872] = arg1;
+	script_358(arg1, widget2, widget3, widget4, widget5, widget6);
+	return;
+}

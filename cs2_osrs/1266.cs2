@@ -1,0 +1,51 @@
+void script_1266(string string0) {
+	Sprite sprite0;
+	int int1;
+	int int2;
+	int int3;
+	string str1;
+	string str2;
+	widget(130, 3).clearChildren();
+	sprite0 = null;
+	int1 = 1040;
+	int2 = 0;
+	while (int2 < 11) {
+		CHILD.createChild(widget(130, 3), 5, int2);
+		CHILD.setSize(0, 15, 1, 0);
+		CHILD.setPosition(0, int2 * 15, 1, 0);
+		if (int2 % 2 == 0) {
+			sprite0 = 897;
+		} else {
+			sprite0 = 297;
+		}
+		CHILD.setSprite(sprite0);
+		CHILD.setSpriteTiling(true);
+		CHILD.hookMouseEnter(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, (Sprite)int1, null));
+		CHILD.hookMouseExit(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite0, null));
+		int2 = int2 + 1;
+	}
+	str1 = "";
+	str2 = "";
+	int3 = int2;
+	int2 = 0;
+	while (int2 < 11) {
+		str1, string0 = script_632(string0);
+		if (length(str1) > 0 && CHILD.setChild(widget(130, 3), int2) == true) {
+			CHILD.setContextMenuOption(1, "Find");
+			CHILD.setOptionBase("<col=ff9040>" + str1 + "</col>");
+			str2, string0 = script_632(string0);
+			_CHILD.createChild(widget(130, 3), 4, int3);
+			CHILD.hookOptionClick(&script_1267(CTX_MENU_OPTION, str1, CTX_WIDGET, int3));
+			int3 = int3 + 1;
+			_CHILD.setSize(0, 15, 1, 0);
+			_CHILD.setPosition(0, int2 * 15, 1, 0);
+			_CHILD.setRGB(0xFFFFFF);
+			_CHILD.setFont(494);
+			_CHILD.setTextAlignment(1, 1, 0);
+			_CHILD.setTextAntiMacro(true);
+			_CHILD.setText(str1 + " " + str2);
+		}
+		int2 = int2 + 1;
+	}
+	return;
+}

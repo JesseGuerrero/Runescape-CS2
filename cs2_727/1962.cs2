@@ -1,0 +1,6 @@
+//script1962(1962)(int arg0, int arg1)(void)
+if(inv_total(2996, 93) >= arg1)
+	if_setcolor(arg0, 0xFF981F)
+else
+	if_setcolor(arg0, 0x77736A)
+return

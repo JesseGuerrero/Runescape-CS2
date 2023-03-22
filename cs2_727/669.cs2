@@ -1,0 +1,17 @@
+//script669(669)(int arg0, int arg1, int arg2)(int)
+int iVar3
+int iVar4
+iVar3 = 0
+iVar4 = 0
+if(arg1 == 0)
+	return 0
+if(arg0 == 0 || arg2 == 0)
+	return 0
+if(arg0 / arg1 >= 2147483647 / arg2)
+	return 2147483647
+else
+	if(modulo(arg1, modulo(arg1, arg0) * modulo(arg1, arg2)) > arg1 / 2)
+		return scale(arg2, arg1, arg0) + 1
+	else
+		return scale(arg2, arg1, arg0)
+return 0

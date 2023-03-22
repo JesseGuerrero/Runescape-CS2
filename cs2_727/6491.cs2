@@ -1,0 +1,55 @@
+//script6491(6491)(int arg0, int arg1)(int)
+cc_create(arg0, 3, arg1)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(1, 1, 0, 0)
+cc_setcolor(b1114)
+cc_setfill(1)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9031)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, 38, 38)
+cc_sethflip(1)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9031)
+cc_setposition(0, 2, 0, 0)
+cc_setsize(0, 0, 38, 38)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9031)
+cc_setposition(2, 0, 0, 0)
+cc_setsize(0, 0, 38, 38)
+cc_sethflip(1)
+cc_setvflip(1)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9031)
+cc_setposition(2, 2, 0, 0)
+cc_setsize(0, 0, 38, 38)
+cc_setvflip(1)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9032)
+cc_setposition(0, 0, 0, 38)
+cc_setsize(0, 1, 6, 74)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9032)
+cc_setposition(2, 0, 0, 38)
+cc_setsize(0, 1, 6, 74)
+cc_setvflip(1)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9033)
+cc_setposition(0, 2, 35, 0)
+cc_setsize(1, 0, 73, 7)
+arg0 = arg0 + 1
+cc_create(arg0, 5, arg1)
+cc_setgraphic(9033)
+cc_setposition(0, 0, 35, 0)
+cc_setsize(1, 0, 73, 7)
+cc_sethflip(1)
+arg0 = arg0 + 1
+return arg0
+return 0

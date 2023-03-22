@@ -1,0 +1,76 @@
+//script319(319)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9, string arg10)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+string sVar0
+cc_deleteall(arg0)
+iVar5 = 0
+iVar6 = 0
+if_setscrollsize(arg0, (((arg4 - arg3) / arg1) + 1) * 57, 0)
+iVar7 = 0
+iVar8 = 1
+iVar9 = 0
+iVar10 = 0
+iVar11 = -1
+sVar0 = "hello"
+iVar12 = 0
+globalArrays[0] = [10, 111]
+iVar13 = -1
+iVar14 = 0
+iVar15 = 0
+while(iVar7 <= arg4 - arg3) {
+	iVar5 = (16 + (modulo(arg1, iVar7) * 48)) + (modulo(arg1, iVar7) * 5)
+	iVar6 = ((iVar7 / arg1) * 52) + ((iVar7 / arg1) * 5)
+	cc_create(iVar15, 5, arg0)
+	iVar15 = iVar15 + 1
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar6, iVar5)
+	cc_setgraphic(2205)
+	instr6091(script_6114, "Ii1", -2147483645, iVar15, 0)
+	instr6092(script_6114, "Ii1", -2147483645, iVar15, 1)
+	cc_create(iVar15, 5, arg0)
+	iVar15 = iVar15 + 1
+	cc_setsize(0, 0, 52, 48)
+	cc_setposition(0, 0, iVar6, iVar5)
+	cc_setgraphic(2206)
+	cc_sethide(1)
+	cc_create(iVar15, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, iVar6 + 4, iVar5 + 6)
+	iVar13 = enum(1182, iVar8, 'i', 'o')
+	iVar14 = enum(1185, item_uncert(iVar13), 'o', 'i')
+	if(iVar13 == 12292)
+		script_760(iVar13, iVar13, arg0, iVar15, arg0, arg1, arg2, arg3, arg4, arg5)
+	else
+		if(inv_total(iVar13, 93) > 0 || inv_total(item_cert(iVar13), 93) > 0)
+			if(stat_base(23) >= enum(1472, iVar14, 'i', 'i'))
+				script_760(iVar13, iVar13, arg0, iVar15, arg0, arg1, arg2, arg3, arg4, arg5)
+			else
+				script_760(enum(1183, iVar8, 'i', 'o'), iVar13, arg0, iVar15, arg0, arg1, arg2, arg3, arg4, arg5)
+	iVar15 = iVar15 + 1
+	cc_create(iVar15, 5, arg0)
+	iVar15 = iVar15 + 1
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar6 + 38, iVar5 + 2)
+	cc_setitem_nonum(1, 12183)
+	cc_create(iVar15, 4, arg0)
+	iVar15 = iVar15 + 1
+	cc_setsize(0, 0, 12, 31)
+	cc_setposition(0, 0, iVar6 + 39, iVar5 + 13)
+	cc_settextfont(494)
+	cc_setcolor(ffffff)
+	cc_settextalign(0, 1, 2)
+	cc_settext(script_940(item_param(457, iVar13)))
+	cc_settextshadow(1)
+	iVar7 = iVar7 + 1
+	iVar8 = iVar8 + 1
+}
+return

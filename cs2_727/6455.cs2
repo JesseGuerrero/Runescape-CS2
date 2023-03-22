@@ -1,0 +1,15 @@
+//script6455(6455)(int arg0)(void)
+if(load_varc(1963) != load_varpbit(11475)) {
+	script_6463(load_varpbit(11475))
+	script_6464(load_varpbit(11475), load_varpbit(11480), 1)
+	if_sethide(if_gethash(1311, 58), 1)
+	if_sethide(if_gethash(1311, 59), 1)
+}
+if(arg0 == 1) {
+	store_varc(1969, 0)
+	script_6443(0, 0, 1)
+	pop_int()
+	script_6457()
+	script_4501(85917813, enum(5957, load_varpbit(11484), 'i', 's'))
+}
+return

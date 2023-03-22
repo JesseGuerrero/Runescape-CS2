@@ -1,0 +1,4 @@
+//script2990(2990)()(void)
+if_setgraphic(if_gethash(72, 75), 4031)
+if_setgraphic(if_gethash(72, 63), 4031)
+return

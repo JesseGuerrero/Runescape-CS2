@@ -1,0 +1,11 @@
+void script_1535(Widget widget0, int arg1, string string2, int arg3) {
+	if (getClientCycle() < arg3) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setRGB(0xFF981F);
+		script_1533(widget0, string2);
+	}
+	script_1531(widget0, arg1, string2);
+	return;
+}

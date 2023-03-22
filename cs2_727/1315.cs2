@@ -1,0 +1,8 @@
+//script1315(1315)(int arg0)(void)
+store_varc(119, load_varp(173))
+instr6237(arg0, script_1316, "IY", 1, 173, arg0)
+if_setonmouseover(arg0, script_1533, "I", arg0)
+hook_mouse_exit(arg0, script_2307, "I", arg0)
+instr6239(arg0, script_1534, "Ii", arg0, -2147483644)
+script_1741(arg0)
+return

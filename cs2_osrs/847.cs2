@@ -1,0 +1,12 @@
+void script_847(int arg0, Widget widget1, Widget widget2, Widget arg3) {
+	if (getDisplayMode() == arg0) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	cs2method5307(arg0);
+	if (cs2method5308() != arg0) {
+		cs2method5309(arg0);
+	}
+	script_843(widget1, widget2, arg3);
+	return;
+}

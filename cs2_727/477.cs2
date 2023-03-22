@@ -1,0 +1,14 @@
+//script477(477)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = if_getx(arg0)
+iVar2 = if_gety(arg0) + if_getheight(arg0)
+if(stat_base(0) < 42 || stat_base(2) < 42 || stat_base(1) < 42 || stat_base(3) < 42 || stat_base(4) < 42 || stat_base(6) < 42 || stat_base(5) < 22) {
+	if(iVar1 + if_getwidth(if_gethash(1011, 386)) >= if_getx(if_gethash(1011, 55)) + if_getwidth(if_gethash(1011, 55)))
+		iVar1 = if_getx(arg0) - (if_getwidth(if_gethash(1011, 386)) - if_getwidth(arg0))
+	if(iVar2 + if_getheight(if_gethash(1011, 386)) >= if_gety(if_gethash(1011, 55)) + if_getheight(if_gethash(1011, 55)))
+		iVar2 = if_gety(arg0) - if_getheight(if_gethash(1011, 386))
+	if_setposition(if_gethash(1011, 386), 0, 0, iVar2, iVar1)
+	if_sethide(if_gethash(1011, 386), 0)
+}
+return

@@ -1,0 +1,10 @@
+//script5286(5286)()(void)
+sound_vorbis_rate(random_sound_pitch(20, 20), 200, 0, 1, 7536)
+if(if_gethide(if_gethash(555, 48)) == 1) {
+	if_sethide(if_gethash(555, 48), 0)
+	if_sethide(if_gethash(555, 49), 1)
+} else  {
+	if_sethide(if_gethash(555, 49), 0)
+	if_sethide(if_gethash(555, 48), 1)
+}
+return

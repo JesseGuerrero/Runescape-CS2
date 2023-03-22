@@ -1,0 +1,6 @@
+void script_1344() {
+	widget(65, 81).setIsHidden(false);
+	widget(65, 87).setIsHidden(true);
+	widget(65, 80).setText("Early Name Change for 1 bond:");
+	return;
+}

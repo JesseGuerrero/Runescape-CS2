@@ -1,0 +1,111 @@
+//script5453(5453)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = -1
+iVar3 = -1
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		iVar2 = 75759706
+		iVar3 = 75759705
+		break
+	case 2:
+		iVar2 = 75759816
+		iVar3 = 75759814
+		break
+	case 3:
+		iVar2 = 75759822
+		iVar3 = 75759820
+		break
+	case 4:
+		iVar2 = 75759828
+		iVar3 = 75759826
+		break
+	case 5:
+		iVar2 = 75759834
+		iVar3 = 75759832
+		break
+	case 6:
+		iVar2 = 75759840
+		iVar3 = 75759838
+		break
+	case 7:
+		iVar2 = 75759846
+		iVar3 = 75759844
+		break
+	case 8:
+		iVar2 = 75759852
+		iVar3 = 75759850
+		break
+	case 9:
+		iVar2 = 75759858
+		iVar3 = 75759856
+		break
+	case 10:
+		iVar2 = 75759864
+		iVar3 = 75759862
+		break
+	case 11:
+		iVar2 = 75759870
+		iVar3 = 75759868
+		break
+	case 12:
+		iVar2 = 75759876
+		iVar3 = 75759874
+		break
+	case 13:
+		iVar2 = 75759882
+		iVar3 = 75759880
+		break
+	case 14:
+		iVar2 = 75759888
+		iVar3 = 75759886
+		break
+	case 15:
+		iVar2 = 75759894
+		iVar3 = 75759892
+		break
+	case 16:
+		iVar2 = 75759900
+		iVar3 = 75759898
+		break
+	case 17:
+		iVar2 = 75759906
+		iVar3 = 75759904
+		break
+	case 18:
+		iVar2 = 75759912
+		iVar3 = 75759910
+		break
+	case 19:
+		iVar2 = 75759918
+		iVar3 = 75759916
+		break
+	case 20:
+		iVar2 = 75759924
+		iVar3 = 75759922
+		break
+	case 21:
+		iVar2 = 75759930
+		iVar3 = 75759928
+		break
+	case 22:
+		iVar2 = 75759942
+		iVar3 = 75759940
+		break
+
+}
+if(arg0 == 1) {
+	if(arg1 == 4 || arg1 == 5 || arg1 == 9 || arg1 == 12 || arg1 == 15 || arg1 == 20 || arg1 == 21 || arg1 == 22)
+		if_settext(iVar2, "<col=37addd>" + "Claim")
+	else
+		if(arg1 == 16 || arg1 == 17 || arg1 == 18 || arg1 == 19)
+			if_settext(iVar2, "<col=37addd>" + "Claim (" + to_string(load_varpbit(10117)) + " set avail)")
+		else
+			if_settext(iVar2, "Unlocked !")
+	if_sethide(iVar3, 1)
+	if_setcolor(iVar2, 0xF5B241)
+} else 
+	if_settext(iVar2, "Locked")
+return

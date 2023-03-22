@@ -1,0 +1,21 @@
+//script5317(5317)()(void)
+if(if_gethide(if_gethash(319, 38)) == 1) {
+	if_sethide(if_gethash(319, 38), 0)
+	if_sethide(if_gethash(319, 30), 1)
+	if_sethide(if_gethash(319, 6), 1)
+	if_sethide(if_gethash(319, 9), 1)
+	if_sethide(if_gethash(319, 10), 1)
+	if_sethide(if_gethash(319, 7), 0)
+	if_sethide(if_gethash(319, 8), 0)
+	if_sethide(if_gethash(319, 12), 0)
+} else  {
+	if_sethide(if_gethash(319, 38), 1)
+	if_sethide(if_gethash(319, 30), 0)
+	if_sethide(if_gethash(319, 6), 0)
+	if_sethide(if_gethash(319, 9), 0)
+	if_sethide(if_gethash(319, 10), 0)
+	if_sethide(if_gethash(319, 7), 1)
+	if_sethide(if_gethash(319, 8), 1)
+	if_sethide(if_gethash(319, 12), 1)
+}
+return

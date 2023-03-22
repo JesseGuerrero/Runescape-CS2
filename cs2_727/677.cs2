@@ -1,0 +1,10 @@
+//script677(677)(int arg0)(void)
+if(arg0 <= 9) {
+	if_setscrollsize(10223618, 225, 358)
+	if_sethide(if_gethash(156, 1), 1)
+} else  {
+	if_sethide(if_gethash(156, 1), 0)
+	if_setscrollsize(10223618, (arg0 * 20) + 30, 358)
+	script_72(10223617, 10223618, 0)
+}
+return

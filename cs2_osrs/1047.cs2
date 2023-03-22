@@ -1,0 +1,4 @@
+void script_1047(Widget widget0, Widget widget1, int arg2) {
+	script_1048(widget0, widget1, arg2 - widget0.getWidth() / 2);
+	return;
+}

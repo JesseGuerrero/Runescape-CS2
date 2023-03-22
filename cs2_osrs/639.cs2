@@ -1,0 +1,8 @@
+void script_639(Widget widget0, Widget widget1) {
+	widget1.clearChildren();
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	script_641(widget0, widget1, 0);
+	widget0.hookContainer(&script_640(widget0, widget1), 517);
+	widget0.hookVARP(&script_640(widget0, widget1), 864, 1416, 783);
+	return;
+}

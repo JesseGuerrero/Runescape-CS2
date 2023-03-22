@@ -1,0 +1,137 @@
+//script5461(5461)()(void)
+int iVar0
+int iVar1
+string sVar0
+string sVar1
+string sVar2
+iVar0 = -1
+sVar0 = ""
+sVar1 = ""
+sVar2 = chat_playername()
+iVar1 = 0
+iVar0 = enum(5332, load_varpbit(9988), 'i', 'J')
+if(iVar0 == -1)
+	iVar0 = enum(5213, load_varpbit(9983), 'i', 'J')
+store_varc(1676, 0)
+sVar0 = struct_param(2095, iVar0)
+if(load_varpbit(9988) == 7)
+	if_sethide(if_gethash(1159, 42), 0)
+else
+	if_sethide(if_gethash(1159, 42), 1)
+store_varc(1670, 0)
+store_varc(1671, 0)
+if_settext(if_gethash(1159, 41), sVar0)
+if_settext(if_gethash(1159, 40), sVar2)
+if(load_varpbit(9984) > 0)
+	sVar1 = "Climber. Floor " + to_string(load_varpbit(9984))
+else
+	if(load_varpbit(9985) > 0)
+		sVar1 = "Endurance. Floor " + to_string(load_varpbit(9985))
+	else
+		if(load_varpbit(9988) > 0)
+			sVar1 = "Special. Fight: " + sVar0
+		else
+			if(load_varpbit(9983) != 0)
+				sVar1 = "Freestyle. Fight: " + sVar0
+			else
+				sVar1 = "Unknown"
+if_settext(if_gethash(1159, 32), sVar1)
+if_setsize(if_gethash(1159, 23), 0, 0, 37, if_getwidth(if_gethash(1159, 23)))
+if_setsize(if_gethash(1159, 31), 0, 0, 1, if_getwidth(if_gethash(1159, 31)))
+if_setsize(if_gethash(1159, 35), 0, 0, if_getheight(if_gethash(1159, 35)), if_getwidth(if_gethash(1159, 33)) - 10)
+if_setsize(if_gethash(1159, 17), 0, 0, if_getheight(if_gethash(1159, 17)), if_getwidth(if_gethash(1159, 39)) - 10)
+sound_vorbis_volume(255, 60, 1, 8105)
+if(load_varpbit(9991) == 1) {
+	script_5462(1, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9997) == 1) {
+	script_5462(2, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9998) == 1) {
+	script_5462(3, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9994) == 1) {
+	script_5462(4, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9999) == 1) {
+	script_5462(5, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10000) == 1) {
+	script_5462(6, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10001) == 1) {
+	script_5462(7, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9993) == 1) {
+	script_5462(8, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10004) == 1) {
+	script_5462(9, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10012) == 1) {
+	script_5462(10, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10005) == 1) {
+	script_5462(11, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10008) == 1) {
+	script_5462(12, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9992) == 1) {
+	script_5462(13, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10003) == 1) {
+	script_5462(14, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10007) == 1) {
+	script_5462(15, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9995) == 1) {
+	script_5462(16, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10009) == 1) {
+	script_5462(17, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10002) == 1) {
+	script_5462(18, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(9996) == 1) {
+	script_5462(19, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10010) == 1) {
+	script_5462(20, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10006) == 1) {
+	script_5462(21, iVar1)
+	iVar1 = iVar1 + 1
+}
+if(load_varpbit(10011) == 1) {
+	script_5462(22, iVar1)
+	iVar1 = iVar1 + 1
+}
+instr6342(if_gethash(1159, 30), script_5467, "")
+store_varc(1674, -45)
+store_varc(1675, -75)
+if_setposition(if_gethash(1159, 22), 0, 1, load_varc(1674), 0)
+if_setposition(if_gethash(1159, 23), 2, 2, load_varc(1675), 3)
+return

@@ -1,0 +1,12 @@
+//script5164(5164)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+iVar5 = if_getheight(arg0)
+iVar6 = ((iVar5 - arg4) * 8) / iVar5
+iVar7 = (arg3 * 128) / if_getwidth(arg0)
+store_varpbit(9643, modulo(8, iVar6))
+store_varpbit(9644, modulo(128, iVar7))
+script_5167(arg3, arg4)
+if_setcolor(arg2, hsvtorgb(load_varp(2347)))
+return

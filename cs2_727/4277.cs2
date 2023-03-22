@@ -1,0 +1,17 @@
+//script4277(4277)()(void)
+int iVar0
+string sVar0
+string sVar1
+iVar0 = (load_varpbit(9186) * 6) / 10
+sVar0 = to_string(iVar0 / 60)
+sVar1 = to_string(modulo(60, iVar0))
+if(string_length(sVar1) < 2)
+	sVar1 = append(sVar1, "0")
+if(load_varpbit(9187) == 0) {
+	if_settext(if_gethash(1088, 12), "Match Starts In:")
+	if_settext(if_gethash(1088, 13), sVar0 + ":" + sVar1)
+} else  {
+	if_settext(if_gethash(1088, 12), "Time Remaining:")
+	if_settext(if_gethash(1088, 13), sVar0 + ":" + sVar1)
+}
+return

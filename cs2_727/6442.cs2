@@ -1,0 +1,9 @@
+//script6442(6442)(int arg0, int arg1, int arg2)(void)
+if(arg2 != load_varc(1968))
+	script_6443(arg0, arg1, 1)
+else
+	if(cc_find(0, if_gethash(1311, 54)) == 1)
+		if(cc_getspritescale() > 500)
+			if(load_varc(1968) == 0)
+				script_6443(0, 0, 1)
+return

@@ -1,0 +1,4 @@
+void script_1900(int arg0, int arg1) {
+	script_41(widget(595, 35));
+	return;
+}

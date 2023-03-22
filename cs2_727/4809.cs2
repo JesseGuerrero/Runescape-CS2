@@ -1,0 +1,19 @@
+//script4809(4809)()(void)
+if_sethide(if_gethash(1258, 443), 1)
+if_sethide(if_gethash(1258, 377), 1)
+if_sethide(if_gethash(1258, 305), 1)
+if_sethide(if_gethash(1258, 431), 1)
+if_sethide(if_gethash(1258, 365), 1)
+if_sethide(if_gethash(1258, 293), 1)
+if(script_4828(load_varpbit(9558)) == 1) {
+	if_sethide(if_gethash(1258, 431), 0)
+	if_sethide(if_gethash(1258, 365), 0)
+	if_sethide(if_gethash(1258, 293), 0)
+} else  {
+	if_sethide(if_gethash(1258, 443), 0)
+	if_sethide(if_gethash(1258, 377), 0)
+	if_sethide(if_gethash(1258, 305), 0)
+}
+script_4840()
+script_4814()
+return

@@ -1,0 +1,5 @@
+void script_1084(Widget widget0, string string1, string string2) {
+	widget0.setSize(getMaxLineWidth(string1, 2147483647, 494) + 28, widget0.getHeight(), 0, 0);
+	script_1086(0, 1, widget0, string1, string2);
+	return;
+}

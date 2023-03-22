@@ -1,0 +1,18 @@
+void script_809(Widget widget0) {
+	int int1;
+	int int2;
+	string str0;
+	str0 = getText(widget0);
+	if (length(str0) <= 0) {
+		CHILD.setTrans(255);
+		widget0.setIsHidden(true);
+		return;
+	}
+	CHILD.setTrans(0);
+	widget0.setIsHidden(false);
+	int1 = 21 + getMaxLineWidth(getText(widget0), 150, 494);
+	int2 = (150 - int1) / 2;
+	CHILD.setPosition(15 + int2, widget0.getY(), 0, 0);
+	widget0.setSize(150 - int2, widget0.getHeight(), 0, 0);
+	return;
+}

@@ -1,0 +1,8 @@
+//script2440(2440)()(void)
+int iVar0
+iVar0 = load_varc(819) / 2
+if(iVar0 < 1)
+	if_settext(if_gethash(15, 17), "Catch: Nothing")
+else
+	if_settext(if_gethash(15, 17), "Catch: " + to_string(iVar0) + " Fish")
+return

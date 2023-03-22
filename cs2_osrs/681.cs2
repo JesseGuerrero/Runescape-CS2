@@ -1,0 +1,75 @@
+void script_681() {
+	int int0;
+	string str0;
+	if (VARC[5] == 14) {
+		VARC[66] = 1;
+		return;
+	}
+	int0 = -1;
+	str0 = "";
+	if (length(STRING[22]) > 0) {
+		if (VARC[5] == 1) {
+			return;
+		}
+		if (VARC[5] == 4 || VARC[5] == 5) {
+			if (getIgnoreCount() < 0) {
+				msg("Unable to update ignore list - system busy.");
+			} else if (VARC[5] == 4) {
+				cs2method3607(STRING[22]);
+			} else if (VARC[5] == 5) {
+				cs2method3608(STRING[22]);
+			}
+		} else if (VARC[5] == 2 || VARC[5] == 3 || VARC[5] == 6) {
+			if (getFriendCount() < 0) {
+				msg("Unable to complete action - system busy.");
+			} else if (VARC[5] == 2) {
+				cs2method3605(STRING[22]);
+			} else if (VARC[5] == 3) {
+				cs2method3606(STRING[22]);
+			} else if (VARC[5] == 6) {
+				if (m5005() == 2) {
+					m5001(m5000(), 1, m5016());
+					script_178();
+					int0 = script_553();
+					script_84(int0);
+					script_89(int0);
+				}
+				if (VARPBIT[4394] == 1) {
+					cs2method3606(STRING[23]);
+				} else {
+					m5009(STRING[23], STRING[22]);
+				}
+				VARC[61] = getClientCycle();
+			}
+		} else if (VARC[5] == 7) {
+			sendIntegerInput(script_212(STRING[22]));
+		} else if (VARC[5] == 8) {
+			STRING[128] = removeTags(STRING[22]);
+			sendNameInput(STRING[22]);
+		} else if (VARC[5] == 9 || VARC[5] == 15) {
+			sendStringInput(STRING[22]);
+		} else if (VARC[5] == 10) {
+			STRING[129] = removeTags(STRING[22]);
+			sendUnknownFriendPacketMethod3619(STRING[22]);
+		} else if (VARC[5] == 12) {
+			if (length(STRING[22]) > 10) {
+				str0 = substr(STRING[22], 0, 9);
+			} else {
+				str0 = STRING[22];
+			}
+			m5021(lower(str0));
+			script_84(script_553());
+		} else if (VARC[5] == 13) {
+			STRING[28], VARC[62] = STRING[22], 0;
+			script_95();
+			widget(162, 10).hookFrame(&script_552(CTX_WIDGET, true));
+		} else if (VARC[5] == 11) {
+			script_299(0, 1);
+			return;
+		}
+	} else if (VARC[5] == 7 || VARC[5] == 8 || VARC[5] == 9 || VARC[5] == 15) {
+		return;
+	}
+	script_299(1, 1);
+	return;
+}

@@ -1,0 +1,47 @@
+//script4002(4002)()(void)
+int iVar0
+int iVar1
+int iVar2
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+if(instr6644() >= 2)
+	if(if_isopenwithid(917, 48889885) == 1)
+		return
+else
+	if(if_isopenwithid(917, 35913772) == 1)
+		return
+sVar0 = "Progress:  "
+iVar0 = load_varc(1424)
+sVar1 = ""
+iVar1 = load_varc(1423)
+sVar2 = ""
+sVar3 = enum(3487, load_varpbit(8575), 'i', 's')
+if(load_varpbit(9030) == 1) {
+	if(world_members() == 1) {
+		iVar0 = load_varpbit(10698)
+		iVar1 = enum_getoutputcount(5480)
+	} else  {
+		iVar0 = load_varpbit(9028)
+		iVar1 = enum_getoutputcount(3656)
+	}
+	sVar3 = "Introductory Tasks"
+}
+sVar1 = to_string(iVar0)
+sVar2 = to_string(iVar1)
+if(load_varpbit(8575) == 61) {
+	sVar3 = "Quest Area"
+	if_sethide(if_gethash(1056, 107), 1)
+	if_sethide(if_gethash(1056, 108), 1)
+} else  {
+	if_sethide(if_gethash(1056, 107), 0)
+	if_sethide(if_gethash(1056, 108), 0)
+}
+iVar2 = (iVar0 * (if_getwidth(if_gethash(1056, 107)) - 2)) / max(iVar1, 1)
+sVar0 = append(sVar1, sVar0)
+if_settext(if_gethash(1056, 104), sVar2)
+if_settext(if_gethash(1056, 102), sVar0)
+if_settext(if_gethash(1056, 106), sVar3)
+if_setsize(if_gethash(1056, 101), 0, 0, 18, iVar2)
+return

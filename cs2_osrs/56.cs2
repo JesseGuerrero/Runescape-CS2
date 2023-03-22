@@ -1,0 +1,102 @@
+int script_56(int arg0) {
+	if (arg0 == 0) {
+		if (VARPBIT[3578] == 2 && VARPBIT[3578] == 2 && VARPBIT[3611] == 2 && VARPBIT[4566] == 1) {
+			return 2;
+		}
+		if (VARPBIT[3576] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 1) {
+		if (VARPBIT[4458] + VARPBIT[4459] + VARPBIT[4460] + VARPBIT[4461] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4448] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 2) {
+		if (VARPBIT[4462] + VARPBIT[4463] + VARPBIT[4464] + VARPBIT[4465] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4449] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 9) {
+		if (VARPBIT[4466] + VARPBIT[4467] + VARPBIT[4468] + VARPBIT[4469] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4457] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 10) {
+		if (VARPBIT[4471] + VARPBIT[4472] + VARPBIT[4473] + VARPBIT[4474] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4456] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 4) {
+		if (VARPBIT[4475] + VARPBIT[4476] + VARPBIT[4477] + VARPBIT[4478] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4451] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 5) {
+		if (VARPBIT[4483] + VARPBIT[4484] + VARPBIT[4485] + VARPBIT[4486] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4452] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 7) {
+		if (VARPBIT[4487] + VARPBIT[4488] + VARPBIT[4489] + VARPBIT[4490] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4454] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 3) {
+		if (VARPBIT[4491] + VARPBIT[4492] + VARPBIT[4493] + VARPBIT[4494] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4450] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 6) {
+		if (VARPBIT[4495] + VARPBIT[4496] + VARPBIT[4497] + VARPBIT[4498] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4453] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	if (arg0 == 8) {
+		if (VARPBIT[4479] + VARPBIT[4480] + VARPBIT[4481] + VARPBIT[4482] == 4) {
+			return 2;
+		}
+		if (VARPBIT[4455] == 0) {
+			return 0;
+		}
+		return 1;
+	}
+	return 0;
+}

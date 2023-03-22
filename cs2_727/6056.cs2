@@ -1,0 +1,13 @@
+//script6056(6056)()(void)
+int iVar0
+iVar0 = 35913745
+if(instr6644() >= 2)
+	iVar0 = 48889897
+cc_deleteall(iVar0)
+cc_create(0, 5, iVar0)
+cc_setsize(0, 0, 200, 220)
+cc_settiling(1)
+cc_setgraphic(script_6267(10219))
+cc_setposition(1, 0, 0, -219)
+instr6556(script_6057, "Iiii", iVar0, 0, 0, 0)
+return

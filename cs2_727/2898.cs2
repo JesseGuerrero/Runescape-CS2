@@ -1,0 +1,4 @@
+//script2898(2898)(int arg0)(void)
+script_1728(arg0)
+if_sethide(arg0, 1)
+return

@@ -1,0 +1,4 @@
+//script1184(1184)(int arg0)(void)
+if_setcolor(arg0, script_806())
+if_settext(arg0, to_string(runenergy_visible()))
+return

@@ -1,0 +1,21 @@
+int script_1392(Widget widget0, string string1) {
+	int int1;
+	int int2;
+	int1 = getMaxLineWidth(string1, 512, 494) + 10;
+	widget0.setSize(int1, widget0.getHeight(), 0, 0);
+	widget0.clearChildren();
+	int2 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 4, int2);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0x7F7F7F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string1);
+	widget0.hookMouseHover(null);
+	widget0.hookMouseExit(null);
+	widget0.hookOptionClick(null);
+	widget0.setNoOptions();
+	return int1;
+}

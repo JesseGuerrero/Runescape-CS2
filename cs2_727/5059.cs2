@@ -1,0 +1,47 @@
+//script5059(5059)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = arg1 * 12
+if(arg2 == 1) {
+	if(cc_find(iVar3 + 2, arg0) == 1)
+		cc_setgraphic(7555)
+	if(cc_find(iVar3 + 3, arg0) == 1)
+		cc_setgraphic(7554)
+	if(cc_find(iVar3 + 4, arg0) == 1)
+		cc_setgraphic(7556)
+	if(cc_find(iVar3, arg0) == 1) {
+		instr6091(None, "")
+		instr6092(None, "")
+	}
+	if(if_gethide(if_gethash(1111, 18)) == 1) {
+		script_5063(arg0, arg1, 0)
+		if(cc_find(iVar3 + 1, arg0) == 1) {
+			instr6091(script_5061, "Ii11", -2147483645, arg1, 1, 0)
+			instr6092(script_5061, "Ii11", -2147483645, arg1, 0, 0)
+		}
+	} else  {
+		if(cc_find(iVar3 + 5, arg0) == 1)
+			cc_setgraphic(7555)
+		if(cc_find(iVar3 + 6, arg0) == 1)
+			cc_setgraphic(7554)
+		if(cc_find(iVar3 + 7, arg0) == 1)
+			cc_setgraphic(7556)
+		if(cc_find(iVar3 + 10, arg0) == 1)
+			cc_setgraphic(7408)
+		if(cc_find(iVar3 + 1, arg0) == 1) {
+			instr6091(None, "")
+			instr6092(None, "")
+		}
+	}
+} else  {
+	script_5062(arg0, arg1, 0)
+	script_5063(arg0, arg1, 0)
+	if(cc_find(iVar3, arg0) == 1) {
+		instr6091(script_5060, "Ii1", -2147483645, arg1, 1)
+		instr6092(script_5060, "Ii1", -2147483645, arg1, 0)
+	}
+	if(cc_find(iVar3 + 1, arg0) == 1) {
+		instr6091(script_5061, "Ii11", -2147483645, arg1, 1, 1)
+		instr6092(script_5061, "Ii11", -2147483645, arg1, 0, 1)
+	}
+}
+return

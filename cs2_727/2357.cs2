@@ -1,0 +1,16 @@
+//script2357(2357)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+if_sendtofront(arg0)
+if(load_varp(1893) == -1)
+	return
+iVar1 = enum(1592, load_varp(1893), 'I', 'I')
+iVar2 = if_getx(arg0)
+iVar3 = if_gety(arg0)
+if(arg0 == 69009490) {
+	iVar2 = (iVar2 + (if_getwidth(arg0) / 2)) - (if_getwidth(iVar1) / 2)
+	iVar3 = (iVar3 + (if_getheight(arg0) / 2)) - (if_getheight(iVar1) / 2)
+}
+if_setposition(iVar1, 0, 0, iVar3, iVar2)
+return

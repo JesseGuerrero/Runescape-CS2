@@ -1,0 +1,9 @@
+void script_524(Widget widget0, int arg1) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget0, arg1 + 4) == true) {
+		CHILD.setSprite(697);
+	}
+	return;
+}

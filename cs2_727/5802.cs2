@@ -1,0 +1,36 @@
+//script5802(5802)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar0 = if_getx(if_gethash(746, 8)) - if_getx(if_gethash(746, 9))
+iVar1 = if_gety(if_gethash(746, 8)) - if_gety(if_gethash(746, 9))
+iVar2 = if_getwidth(if_gethash(746, 8)) - if_getwidth(if_gethash(746, 9))
+iVar3 = if_getheight(if_gethash(746, 8)) - if_getheight(if_gethash(746, 9))
+iVar4 = 15
+iVar5 = max(35, iVar0 / iVar4)
+iVar6 = max(15, iVar1 / iVar4)
+iVar7 = max(15, iVar2 / iVar4)
+iVar8 = max(15, iVar3 / iVar4)
+iVar9 = max(if_getx(if_gethash(746, 8)) - iVar5, if_getx(if_gethash(746, 9)))
+iVar10 = max(if_gety(if_gethash(746, 8)) - iVar6, if_gety(if_gethash(746, 9)))
+iVar11 = max(if_getwidth(if_gethash(746, 8)) - iVar7, if_getwidth(if_gethash(746, 9)))
+iVar12 = max(if_getheight(if_gethash(746, 8)) - iVar8, if_getheight(if_gethash(746, 9)))
+if(iVar0 < 40)
+	if(iVar1 < 5) {
+		if_sethide(if_gethash(746, 8), 1)
+		instr6342(if_gethash(746, 8), None, "")
+	} else  {
+		if_setposition(if_gethash(746, 8), 0, 0, iVar10, iVar9)
+		if_setsize(if_gethash(746, 8), 0, 0, iVar12, iVar11)
+	}
+return

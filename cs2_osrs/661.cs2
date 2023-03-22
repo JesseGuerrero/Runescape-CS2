@@ -1,0 +1,5829 @@
+int, int, string script_661(int arg0, int arg1, int arg2) {
+	if (arg0 == 1) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 1205, "Bronze";
+			}
+			if (arg2 == 1) {
+				return 1, 1203, "Iron";
+			}
+			if (arg2 == 2) {
+				return 5, 1207, "Steel";
+			}
+			if (arg2 == 3) {
+				return 10, 1217, "Black";
+			}
+			if (arg2 == 4) {
+				return 10, 6591, "Members: White";
+			}
+			if (arg2 == 5) {
+				return 20, 1209, "Mithril";
+			}
+			if (arg2 == 6) {
+				return 30, 1211, "Adamant";
+			}
+			if (arg2 == 7) {
+				return 30, 1391, "Members: Battlestaves (with 30 Magic)";
+			}
+			if (arg2 == 8) {
+				return 40, 1213, "Rune";
+			}
+			if (arg2 == 9) {
+				return 40, 11037, "Members: Brine sabre";
+			}
+			if (arg2 == 10) {
+				return 40, 1405, "Members: Mystic staves (with 40 Magic)";
+			}
+			if (arg2 == 11) {
+				return 42, 8841, "Members: Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 12) {
+				return 50, 4153, "Members: Granite maul" + "<br>" + " (with 50 Strength)";
+			}
+			if (arg2 == 13) {
+				return 60, 1215, "Members: Dragon";
+			}
+			if (arg2 == 14) {
+				return 60, 10887, "Members: Barrelchest Anchor" + "<br>" + " (with 40 Strength)";
+			}
+			if (arg2 == 15) {
+				return 60, 6523, "Members: Obsidian weapons";
+			}
+			if (arg2 == 16) {
+				return 65, 12426, "Members: 3rd age weapons";
+			}
+			if (arg2 == 17) {
+				return 70, 13091, "Members: Crystal weaponry" + "<br>" + " (with 50 Agility)";
+			}
+			if (arg2 == 18) {
+				return 70, 11838, "Members: Saradomin sword";
+			}
+			if (arg2 == 19) {
+				return 70, 11824, "Members: Zamorak spear";
+			}
+			if (arg2 == 20) {
+				return 70, 4151, "Members: Abyssal whip & dagger";
+			}
+			if (arg2 == 21) {
+				return 70, 13263, "Members: Abyssal bludgeon" + "<br>" + " (with 70 Strength)";
+			}
+			if (arg2 == 22) {
+				return 70, 4710, "Members: Ahrim's staff" + "<br>" + " (with 70 Magic)";
+			}
+			if (arg2 == 23) {
+				return 70, 4718, "Members: Dharok's greataxe" + "<br>" + " (with 70 Strength)";
+			}
+			if (arg2 == 24) {
+				return 70, 4747, "Members: Torag's hammers" + "<br>" + " (with 70 Strength)";
+			}
+			if (arg2 == 25) {
+				return 70, 4755, "Members: Verac's flail";
+			}
+			if (arg2 == 26) {
+				return 70, 4726, "Members: Guthan's warspear";
+			}
+			if (arg2 == 27) {
+				return 75, 19675, "Members: Arclight";
+			}
+			if (arg2 == 28) {
+				return 75, 11808, "Members: Godswords";
+			}
+			if (arg2 == 29) {
+				return 75, 11791, "Members: Staff of the Dead" + "<br>" + " (with 75 Magic)";
+			}
+			if (arg2 == 30) {
+				return 75, 12006, "Members: Abyssal tentacle";
+			}
+			if (arg2 == 31) {
+				return 75, 12808, "Members: Blessed Saradomin sword";
+			}
+			if (arg2 == 32) {
+				return 75, 21003, "Members: Elder maul" + "<br>" + " (with 75 Strength)";
+			}
+			if (arg2 == 33) {
+				return 75, 21015, "Members: Dinh's bulwark" + "<br>" + " (with 75 Defence)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 42, 8839, "Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			return script_662(arg2);
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 2) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 5, 3196, "Black halberd" + "<br>" + " (with 10 Attack)";
+			}
+			if (arg2 == 1) {
+				return 5, 6599, "White halberd" + "<br>" + " (with 10 Attack)";
+			}
+			if (arg2 == 2) {
+				return 10, 3198, "Mithril halberd" + "<br>" + " (with 20 Attack)";
+			}
+			if (arg2 == 3) {
+				return 15, 3200, "Adamant halberd" + "<br>" + " (with 30 Attack)";
+			}
+			if (arg2 == 4) {
+				return 20, 3202, "Rune halberd" + "<br>" + " (with 40 Attack)";
+			}
+			if (arg2 == 5) {
+				return 30, 3204, "Dragon halberd" + "<br>" + " (with 60 Attack)";
+			}
+			if (arg2 == 6) {
+				return 40, 10887, "Barrelchest Anchor" + "<br>" + " (with 60 Attack)";
+			}
+			if (arg2 == 7) {
+				return 42, 8841, "Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 8) {
+				return 50, 4153, "Granite maul" + "<br>" + " (with 50 Attack)";
+			}
+			if (arg2 == 9) {
+				return 60, 6528, "TzHaar-Ket-Om";
+			}
+			if (arg2 == 10) {
+				return 70, 4718, "Dharok's greataxe" + "<br>" + " (with 70 Attack)";
+			}
+			if (arg2 == 11) {
+				return 70, 4747, "Torag's hammers" + "<br>" + " (with 70 Attack)";
+			}
+			if (arg2 == 12) {
+				return 70, 13263, "Abyssal bludgeon" + "<br>" + " (with 70 Attack)";
+			}
+			if (arg2 == 13) {
+				return 75, 21003, "Elder maul" + "<br>" + " (with 75 Attack)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 42, 8839, "Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 1) {
+				return 50, 10589, "Granite armour" + "<br>" + " (with 50 Defence)";
+			}
+			if (arg2 == 2) {
+				return 75, 13239, "Primordial boots" + "<br>" + " (with 75 Defence)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 19, 6515, "Cross the River Lum to Al Kharid" + "<br>" + " (with 8 Agility and 37 Ranged)";
+			}
+			if (arg2 == 1) {
+				return 21, 6515, "Karamja" + "<br>" + " (with 53 Agility and 42 Ranged)";
+			}
+			if (arg2 == 2) {
+				return 22, 6515, "Escape from the water obelisk island" + "<br>" + " (with 36 Agility and 39 Ranged)";
+			}
+			if (arg2 == 3) {
+				return 35, 6517, "Scale the Catherby cliff" + "<br>" + " (with 32 Agility and 35 Ranged)";
+			}
+			if (arg2 == 4) {
+				return 37, 6517, "Scale Falador wall" + "<br>" + " (with 11 Agility and 19 Ranged)";
+			}
+			if (arg2 == 5) {
+				return 38, 6517, "Scale Yanille wall" + "<br>" + " (with 39 Agility and 21 Ranged)";
+			}
+			if (arg2 == 6) {
+				return 70, 6515, "Cross cave, south of Dorgesh-Kaan " + "<br>" + " (with 70 Agility and 70 Strength, after completing Death to the Dorgeshuun) and access the Armadyl area of the God Wars Dungeon";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 60, 11793, "Access the God Wars Dungeon via the Strength route";
+			}
+			if (arg2 == 1) {
+				return 70, 11793, "Enter the Bandos area of the God Wars Dungeon";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return -1, 7620, "To start fishing like a Barbarian, talk to" + "<br>" + "Otto Godblessed when you have at least" + "<br>" + "level 48 Fishing and level 15 Agility.";
+			}
+			if (arg2 == 1) {
+				return 15, 11328, "Leaping trout" + "<br>" + " (with 15 Agility & 48 Fishing)";
+			}
+			if (arg2 == 2) {
+				return 30, 11330, "Leaping salmon" + "<br>" + " (with 30 Agility & 58 Fishing)";
+			}
+			if (arg2 == 3) {
+				return 35, 359, "Tuna" + "<br>" + " (with 55 Fishing)";
+			}
+			if (arg2 == 4) {
+				return 45, 11332, "Leaping sturgeon" + "<br>" + " (with 45 Agility & 70 Fishing)";
+			}
+			if (arg2 == 5) {
+				return 50, 371, "Swordfish" + "<br>" + " (with 70 Fishing)";
+			}
+			if (arg2 == 6) {
+				return 76, 383, "Shark" + "<br>" + " (with 96 Fishing)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 5) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 1139, "Bronze";
+			}
+			if (arg2 == 1) {
+				return 1, 1137, "Iron";
+			}
+			if (arg2 == 2) {
+				return 5, 1141, "Steel";
+			}
+			if (arg2 == 3) {
+				return 10, 1151, "Black";
+			}
+			if (arg2 == 4) {
+				return 10, 6621, "Members: White";
+			}
+			if (arg2 == 5) {
+				return 10, 11864, "Members: Slayer helm";
+			}
+			if (arg2 == 6) {
+				return 10, 13385, "Members: Xerician armour" + "<br>" + " (with 20 Magic)";
+			}
+			if (arg2 == 7) {
+				return 20, 1143, "Mithril";
+			}
+			if (arg2 == 8) {
+				return 20, 10822, "Members: Yak-hide";
+			}
+			if (arg2 == 9) {
+				return 20, 5574, "Members: Initiate armour" + "<br>" + " (after Recruitment Drive, with 10 Prayer)";
+			}
+			if (arg2 == 10) {
+				return 20, 13379, "Members: Shayzien armour";
+			}
+			if (arg2 == 11) {
+				return 30, 1145, "Adamantite";
+			}
+			if (arg2 == 12) {
+				return 30, 9672, "Members: Proselyte armour" + "<br>" + " (after Slug Menace, with 20 Prayer)";
+			}
+			if (arg2 == 13) {
+				return 35, 20035, "Members: Samurai armour";
+			}
+			if (arg2 == 14) {
+				return 40, 1147, "Rune";
+			}
+			if (arg2 == 15) {
+				return 40, 6128, "Members: Rock-shell armour" + "<br>" + " (after Fremennik Trials)";
+			}
+			if (arg2 == 16) {
+				return 42, 8839, "Members: Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 17) {
+				return 45, 3751, "Members: Fremennik helmets" + "<br>" + " (after Fremennik Trials)";
+			}
+			if (arg2 == 18) {
+				return 45, 12829, "Members: Spirit shield" + "<br>" + "(with 55 Prayer)";
+			}
+			if (arg2 == 19) {
+				return 50, 3122, "Members: Granite" + "<br>" + " (with 50 Strength)";
+			}
+			if (arg2 == 20) {
+				return 55, 10828, "Members: Helm of neitiznot" + "<br>" + " (after Fremennik Isles)";
+			}
+			if (arg2 == 21) {
+				return 60, 1149, "Members: Dragon";
+			}
+			if (arg2 == 22) {
+				return 60, 6524, "Members: Toktz-Ket-Xil";
+			}
+			if (arg2 == 23) {
+				return 60, 11926, "Members: Odium & Malediction wards";
+			}
+			if (arg2 == 24) {
+				return 60, 21301, "Members: Obsidian armour";
+			}
+			if (arg2 == 25) {
+				return 65, 11832, "Members: Bandos armour";
+			}
+			if (arg2 == 26) {
+				return 65, 10350, "Members: 3rd age fighter armour";
+			}
+			if (arg2 == 27) {
+				return 65, 21021, "Members: Ancestral robes" + "<br>" + " (with 75 Magic)";
+			}
+			if (arg2 == 28) {
+				return 70, 4745, "Members: Barrows armour";
+			}
+			if (arg2 == 29) {
+				return 70, 4224, "Members: Elf crystal (with 50 Agility)";
+			}
+			if (arg2 == 30) {
+				return 70, 11826, "Members: Armadyl armour (with 70 Ranged)";
+			}
+			if (arg2 == 31) {
+				return 70, 12831, "Members: Blessed spirit shield" + "<br>" + "(with 60 Prayer)";
+			}
+			if (arg2 == 32) {
+				return 75, 11283, "Members: Dragonfire shield";
+			}
+			if (arg2 == 33) {
+				return 75, 12931, "Members: Serpentine helm";
+			}
+			if (arg2 == 34) {
+				return 75, 12817, "Members: Elysian spirit shield" + "<br>" + "(with 75 Prayer)";
+			}
+			if (arg2 == 35) {
+				return 75, 12825, "Members: Arcane & Spectral spirit shields" + "<br>" + "(with 70 Prayer and 65 Magic)";
+			}
+			if (arg2 == 36) {
+				return 75, 13239, "Members: Primordial boots" + "<br>" + " (with 75 Strength)";
+			}
+			if (arg2 == 37) {
+				return 75, 13235, "Members: Eternal boots" + "<br>" + " (with 75 Magic)";
+			}
+			if (arg2 == 38) {
+				return 75, 13237, "Members: Pegasian boots" + "<br>" + " (with 75 Ranged)";
+			}
+			if (arg2 == 39) {
+				return 75, 21000, "Members: Twisted buckler" + "<br>" + " (with 75 Ranged)";
+			}
+			if (arg2 == 40) {
+				return 75, 21015, "Members: Dinh's bulwark" + "<br>" + " (with 75 Attack)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 40, 10551, "Fighter torso";
+			}
+			if (arg2 == 1) {
+				return 40, 10552, "Runner boots";
+			}
+			if (arg2 == 2) {
+				return 40, 10553, "Penance gloves";
+			}
+			if (arg2 == 3) {
+				return 40, 10555, "Penance skirt" + "<br>" + " (with 60 Ranged)";
+			}
+			if (arg2 == 4) {
+				return 45, 10548, "Fighter hat";
+			}
+			if (arg2 == 5) {
+				return 45, 10550, "Ranger hat";
+			}
+			if (arg2 == 6) {
+				return 45, 10547, "Healer hat";
+			}
+			if (arg2 == 7) {
+				return 45, 10549, "Runner hat";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 70, 3258, "Rigour" + "<br>" + " (with 74 Prayer)";
+			}
+			if (arg2 == 1) {
+				return 70, 3258, "Augury" + "<br>" + " (with 77 Prayer)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 3) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 841, "Standard bows" + "<br>" + " Ammo: Arrows up to iron";
+			}
+			if (arg2 == 1) {
+				return 5, 843, "Oak bows" + "<br>" + " Ammo: Arrows up to steel";
+			}
+			if (arg2 == 2) {
+				return 20, 849, "Willow bows" + "<br>" + " Ammo: Arrows up to mithril";
+			}
+			if (arg2 == 3) {
+				return 30, 853, "Maple bows" + "<br>" + " Ammo: Arrows up to adamant";
+			}
+			if (arg2 == 4) {
+				return 30, 4827, "Members: Ogre composite bows" + "<br>" + " Ammo: 'Brutal' arrows up to rune";
+			}
+			if (arg2 == 5) {
+				return 40, 857, "Members: Yew bows" + "<br>" + " Ammo: Arrows up to rune";
+			}
+			if (arg2 == 6) {
+				return 50, 861, "Members: Magic bows" + "<br>" + " Ammo: Arrows up to amethyst";
+			}
+			if (arg2 == 7) {
+				return 50, 6724, "Members: Seerculls" + "<br>" + " Ammo: Arrows up to amethyst";
+			}
+			if (arg2 == 8) {
+				return 60, 11235, "Members: Dark bows" + "<br>" + " Ammo: Arrows up to dragon";
+			}
+			if (arg2 == 9) {
+				return 65, 12424, "Members: 3rd age bow" + "<br>" + " Ammo: Arrows up to dragon";
+			}
+			if (arg2 == 10) {
+				return 70, 4212, "Members: Crystal bows (with 50 Agility)" + "<br>" + " Ammo: None";
+			}
+			if (arg2 == 11) {
+				return 75, 20997, "Members: Twisted bow" + "<br>" + " Ammo: Arrows up to dragon";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 1, 864, "Bronze items";
+			}
+			if (arg2 == 1) {
+				return 1, 863, "Iron items";
+			}
+			if (arg2 == 2) {
+				return 5, 865, "Steel items";
+			}
+			if (arg2 == 3) {
+				return 10, 869, "Black items";
+			}
+			if (arg2 == 4) {
+				return 20, 866, "Mithril items";
+			}
+			if (arg2 == 5) {
+				return 30, 867, "Adamantite items";
+			}
+			if (arg2 == 6) {
+				return 40, 868, "Rune items";
+			}
+			if (arg2 == 7) {
+				return 45, 10033, "Chinchompas";
+			}
+			if (arg2 == 8) {
+				return 55, 10034, "Carnivorous chinchompas";
+			}
+			if (arg2 == 9) {
+				return 60, 11230, "Dragon darts";
+			}
+			if (arg2 == 10) {
+				return 60, 6522, "TokTz-Xil-Ul";
+			}
+			if (arg2 == 11) {
+				return 61, 20849, "Dragon thrownaxes";
+			}
+			if (arg2 == 12) {
+				return 65, 11959, "Black chinchompas";
+			}
+			if (arg2 == 13) {
+				return 75, 12924, "Toxic blowpipe";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 1, 837, "Crossbow" + "<br>" + " Ammo: Bronze crossbow bolts";
+			}
+			if (arg2 == 1) {
+				return 1, 767, "Phoenix crossbow" + "<br>" + " Ammo: Bronze crossbow bolts";
+			}
+			if (arg2 == 2) {
+				return 1, 9174, "Members: Bronze crossbow" + "<br>" + " Ammo: Bronze crossbow bolts";
+			}
+			if (arg2 == 3) {
+				return 16, 9176, "Members: Blurite crossbow" + "<br>" + " Ammo: Bolts up to blurite";
+			}
+			if (arg2 == 4) {
+				return 26, 9177, "Members: Iron crossbow" + "<br>" + " Ammo: Bolts up to iron";
+			}
+			if (arg2 == 5) {
+				return 28, 8880, "Members: Dorgeshuun crossbow" + "<br>" + " Ammo: Bolts up to iron";
+			}
+			if (arg2 == 6) {
+				return 31, 9179, "Members: Steel crossbow" + "<br>" + " Ammo: Bolts up to steel";
+			}
+			if (arg2 == 7) {
+				return 36, 9181, "Members: Mithril crossbow" + "<br>" + " Ammo: Bolts up to mithril";
+			}
+			if (arg2 == 8) {
+				return 46, 9183, "Members: Adamantite crossbow" + "<br>" + " Ammo: Bolts up to adamant";
+			}
+			if (arg2 == 9) {
+				return 50, 10156, "Members: Hunters' crossbow" + "<br>" + " Ammo: Kebbit bolts";
+			}
+			if (arg2 == 10) {
+				return 61, 9185, "Members: Runite crossbow" + "<br>" + " Ammo: Bolts up to runite";
+			}
+			if (arg2 == 11) {
+				return 65, 21012, "Members: Dragon hunter crossbow" + "<br>" + " Ammo: Bolts up to runite";
+			}
+			if (arg2 == 12) {
+				return 70, 11785, "Members: Armadyl crossbow" + "<br>" + " Ammo: Bolts up to runite";
+			}
+			if (arg2 == 13) {
+				return 70, 4734, "Members: Karils crossbow";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 1, 1129, "Plain leather items";
+			}
+			if (arg2 == 1) {
+				return 1, 1131, "Hard leather body" + "<br>" + " (with 10 Defence)";
+			}
+			if (arg2 == 2) {
+				return 20, 1133, "Studded leather body" + "<br>" + " (with 20 Defence)";
+			}
+			if (arg2 == 3) {
+				return 20, 1097, "Studded leather chaps";
+			}
+			if (arg2 == 4) {
+				return 20, 1169, "Coif";
+			}
+			if (arg2 == 5) {
+				return 25, 10954, "Members: Frog-leather " + "<br>" + " (with 25 Defence)";
+			}
+			if (arg2 == 6) {
+				return 30, 6322, "Members: Snakeskin armour" + "<br>" + " (with 30 Defence)";
+			}
+			if (arg2 == 7) {
+				return 30, 10498, "Members: Ava's attractor" + "<br>" + " (after Animal Magnetism)";
+			}
+			if (arg2 == 8) {
+				return 40, 2577, "Members: Ranger boots";
+			}
+			if (arg2 == 9) {
+				return 40, 2581, "Members: Robin Hood hat";
+			}
+			if (arg2 == 10) {
+				return 40, 12596, "Members: Rangers' tunic";
+			}
+			if (arg2 == 11) {
+				return 40, 19994, "Members: Ranger gloves";
+			}
+			if (arg2 == 12) {
+				return 40, 6133, "Members: Spined armour" + "<br>" + " (after The Fremennik Trials, with 40 Defence)";
+			}
+			if (arg2 == 13) {
+				return 40, 1065, "Green dragonhide vambraces";
+			}
+			if (arg2 == 14) {
+				return 40, 1099, "Green dragonhide chaps";
+			}
+			if (arg2 == 15) {
+				return 40, 1135, "Green dragonhide body" + "<br>" + " (with 40 Defence)";
+			}
+			if (arg2 == 16) {
+				return 42, 8839, "Members: Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 17) {
+				return 50, 10499, "Members: Ava's accumulator" + "<br>" + " (after Animal Magnetism)";
+			}
+			if (arg2 == 18) {
+				return 50, 2487, "Members: Blue dragonhide vambraces";
+			}
+			if (arg2 == 19) {
+				return 50, 2493, "Members: Blue dragonhide chaps";
+			}
+			if (arg2 == 20) {
+				return 50, 2499, "Members: Blue dragonhide body" + "<br>" + " (with 40 Defence)";
+			}
+			if (arg2 == 21) {
+				return 60, 10555, "Members: Penance skirt" + "<br>" + " (with 40 Defence)";
+			}
+			if (arg2 == 22) {
+				return 60, 2489, "Members: Red dragonhide vambraces";
+			}
+			if (arg2 == 23) {
+				return 60, 2495, "Members: Red dragonhide chaps";
+			}
+			if (arg2 == 24) {
+				return 60, 2501, "Members: Red dragonhide body" + "<br>" + " (with 40 Defence)";
+			}
+			if (arg2 == 25) {
+				return 65, 10330, "Members: 3rd age range armour" + "<br>" + " (with 45 Defence)";
+			}
+			if (arg2 == 26) {
+				return 70, 2491, "Members: Black dragonhide vambraces";
+			}
+			if (arg2 == 27) {
+				return 70, 2497, "Members: Black dragonhide chaps";
+			}
+			if (arg2 == 28) {
+				return 70, 2503, "Members: Black dragonhide body" + "<br>" + " (with 40 Defence)";
+			}
+			if (arg2 == 29) {
+				return 70, 10370, "Members: God dragonhide armour" + "<br>" + " (with 40 Defence)";
+			}
+			if (arg2 == 30) {
+				return 70, 11826, "Members: Armadyl armour" + "<br>" + " (with 70 Defence)";
+			}
+			if (arg2 == 31) {
+				return 70, 4736, "Members: Karils leather armour" + "<br>" + " (with 70 Defence)";
+			}
+			if (arg2 == 32) {
+				return 75, 13237, "Members: Pegasian boots" + "<br>" + " (with 75 Defence)";
+			}
+			if (arg2 == 33) {
+				return 75, 21000, "Members: Twisted buckler" + "<br>" + " (with 75 Defence)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 42, 8841, "Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 1) {
+				return 65, 19478, "Light ballista" + "<br>" + " Ammo: All Javelins";
+			}
+			if (arg2 == 2) {
+				return 75, 19481, "Heavy ballista (after Monkey Madness II)" + "<br>" + " Ammo: All Javelins";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 5) {
+			if (arg2 == 0) {
+				return 19, 6517, "Scale Falador wall" + "<br>" + "(with 11 Agility and 37 Strength)";
+			}
+			if (arg2 == 1) {
+				return 21, 6517, "Scale Yanille wall" + "<br>" + "(with 39 Agility and 38 Strength)";
+			}
+			if (arg2 == 2) {
+				return 35, 6517, "Scale the Catherby cliff" + "<br>" + "(with 32 Agility and 35 Strength)";
+			}
+			if (arg2 == 3) {
+				return 37, 6515, "Cross the River Lum to Al Kharid" + "<br>" + "(with 8 Agility and 19 Strength)";
+			}
+			if (arg2 == 4) {
+				return 39, 6515, "Escape from the water obelisk island" + "<br>" + "(with 36 Agility and 22 Strength)";
+			}
+			if (arg2 == 5) {
+				return 42, 6515, "Karamja, south of the volcano" + "<br>" + "(with 53 Agility and 21 Strength)";
+			}
+			if (arg2 == 6) {
+				return 70, 6515, "Cross cave south of Dorgesh-Kaan" + "<br>" + "(with 70 Agility and 70 Strength)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 6) {
+			return script_662(arg2);
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 7) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 3258, "Thick Skin";
+			}
+			if (arg2 == 1) {
+				return 4, 3258, "Burst of Strength";
+			}
+			if (arg2 == 2) {
+				return 7, 3258, "Clarity of Thought";
+			}
+			if (arg2 == 3) {
+				return 8, 3258, "Sharp Eye";
+			}
+			if (arg2 == 4) {
+				return 9, 3258, "Mystic Will";
+			}
+			if (arg2 == 5) {
+				return 10, 3258, "Rock Skin";
+			}
+			if (arg2 == 6) {
+				return 13, 3258, "Superhuman Strength";
+			}
+			if (arg2 == 7) {
+				return 16, 3258, "Improved Reflexes";
+			}
+			if (arg2 == 8) {
+				return 19, 3258, "Rapid Restore";
+			}
+			if (arg2 == 9) {
+				return 22, 3258, "Rapid Heal";
+			}
+			if (arg2 == 10) {
+				return 25, 3258, "Protect Item";
+			}
+			if (arg2 == 11) {
+				return 26, 3258, "Hawk Eye";
+			}
+			if (arg2 == 12) {
+				return 27, 3258, "Mystic Lore";
+			}
+			if (arg2 == 13) {
+				return 28, 3258, "Steel Skin";
+			}
+			if (arg2 == 14) {
+				return 31, 3258, "Ultimate Strength";
+			}
+			if (arg2 == 15) {
+				return 34, 3258, "Incredible Reflexes";
+			}
+			if (arg2 == 16) {
+				return 37, 3258, "Protect from Magic";
+			}
+			if (arg2 == 17) {
+				return 40, 3258, "Protect from Missiles";
+			}
+			if (arg2 == 18) {
+				return 43, 3258, "Protect from Melee";
+			}
+			if (arg2 == 19) {
+				return 44, 3258, "Eagle Eye";
+			}
+			if (arg2 == 20) {
+				return 45, 3258, "Mystic Might";
+			}
+			if (arg2 == 21) {
+				return 46, 3258, "Members: Retribution";
+			}
+			if (arg2 == 22) {
+				return 49, 3258, "Members: Redemption";
+			}
+			if (arg2 == 23) {
+				return 52, 3258, "Members: Smite";
+			}
+			if (arg2 == 24) {
+				return 55, 3258, "Members: Preserve";
+			}
+			if (arg2 == 25) {
+				return 60, 3258, "Members: Chivalry" + "<br>" + " (after King's Ransom)";
+			}
+			if (arg2 == 26) {
+				return 70, 3258, "Members: Piety" + "<br>" + " (after King's Ransom)";
+			}
+			if (arg2 == 27) {
+				return 74, 3258, "Members: Rigour" + "<br>" + " (with 70 Defence)";
+			}
+			if (arg2 == 28) {
+				return 77, 3258, "Members: Augury" + "<br>" + " (with 70 Defence)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 10, 5574, "Initiate armour" + "<br>" + " (after Recruitment Drive, with 20 Defence)";
+			}
+			if (arg2 == 1) {
+				return 20, 9672, "Proselyte armour" + "<br>" + " (after Slug Menace, with 30 Defence)";
+			}
+			if (arg2 == 2) {
+				return 20, 10458, "Vestment robe top";
+			}
+			if (arg2 == 3) {
+				return 20, 10464, "Vestment robe legs";
+			}
+			if (arg2 == 4) {
+				return 22, 8839, "Void Knight equipment" + "<br>" + "(with 42 combat stats)";
+			}
+			if (arg2 == 5) {
+				return 31, 19997, "Holy wraps";
+			}
+			if (arg2 == 6) {
+				return 31, 12598, "Holy sandals";
+			}
+			if (arg2 == 7) {
+				return 40, 10446, "Vestment cloak";
+			}
+			if (arg2 == 8) {
+				return 40, 10452, "Vestment mitre";
+			}
+			if (arg2 == 9) {
+				return 50, 1716, "Use completed prayer books" + "<br>" + "to bless holy and unholy symbols.";
+			}
+			if (arg2 == 10) {
+				return 50, 20747, "Use Bologa's grape blessings.";
+			}
+			if (arg2 == 11) {
+				return 55, 12829, "Spirit Shield" + "<br>" + "(with 45 Defence)";
+			}
+			if (arg2 == 12) {
+				return 60, 10470, "Vestment stole";
+			}
+			if (arg2 == 13) {
+				return 60, 10440, "Crozier";
+			}
+			if (arg2 == 14) {
+				return 60, 12831, "Blessed spirit shield" + "<br>" + "(with 70 Defence)";
+			}
+			if (arg2 == 15) {
+				return 70, 12825, "Arcane & Spectral spirit shields" + "<br>" + "(with 75 Defence and 65 Magic)";
+			}
+			if (arg2 == 16) {
+				return 75, 12817, "Elysian spirit shield" + "<br>" + "(with 75 Defence)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 4) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return -1, 7620, "To view the available spells, select the" + "<br>" + "spellbook icon on the side interface." + "<br>" + "You can see what each spell does by" + "<br>" + "moving your mouse over its icon.";
+			}
+			if (arg2 == 1) {
+				return -1, 7620, "Home teleport (Lumbridge)";
+			}
+			if (arg2 == 2) {
+				return 1, 1391, "Wind strike";
+			}
+			if (arg2 == 3) {
+				return 3, 1391, "Confusion";
+			}
+			if (arg2 == 4) {
+				return 5, 1391, "Water strike";
+			}
+			if (arg2 == 5) {
+				return 7, 1391, "Level 1 enchant";
+			}
+			if (arg2 == 6) {
+				return 9, 1391, "Earth strike";
+			}
+			if (arg2 == 7) {
+				return 11, 1391, "Weaken";
+			}
+			if (arg2 == 8) {
+				return 13, 1391, "Fire strike";
+			}
+			if (arg2 == 9) {
+				return 15, 1391, "Bones to bananas";
+			}
+			if (arg2 == 10) {
+				return 17, 1391, "Wind bolt";
+			}
+			if (arg2 == 11) {
+				return 19, 1391, "Curse";
+			}
+			if (arg2 == 12) {
+				return 20, 1391, "Bind";
+			}
+			if (arg2 == 13) {
+				return 21, 1391, "Low level alchemy";
+			}
+			if (arg2 == 14) {
+				return 23, 1391, "Water bolt";
+			}
+			if (arg2 == 15) {
+				return 25, 1391, "Varrock teleport";
+			}
+			if (arg2 == 16) {
+				return 27, 1391, "Level 2 enchant";
+			}
+			if (arg2 == 17) {
+				return 29, 1391, "Earth bolt";
+			}
+			if (arg2 == 18) {
+				return 31, 1391, "Lumbridge teleport";
+			}
+			if (arg2 == 19) {
+				return 33, 1391, "Telekinetic grab";
+			}
+			if (arg2 == 20) {
+				return 35, 1391, "Fire bolt";
+			}
+			if (arg2 == 21) {
+				return 37, 1391, "Falador teleport";
+			}
+			if (arg2 == 22) {
+				return 39, 1391, "Crumble undead";
+			}
+			if (arg2 == 23) {
+				return 40, 1391, "Teleport to house";
+			}
+			if (arg2 == 24) {
+				return 41, 1391, "Wind blast";
+			}
+			if (arg2 == 25) {
+				return 43, 1391, "Superheat item";
+			}
+			if (arg2 == 26) {
+				return 45, 1391, "Camelot teleport";
+			}
+			if (arg2 == 27) {
+				return 47, 1391, "Water blast";
+			}
+			if (arg2 == 28) {
+				return 49, 1391, "Level 3 enchant";
+			}
+			if (arg2 == 29) {
+				return 50, 1391, "Iban blast" + "<br>" + "(after Underground Pass)";
+			}
+			if (arg2 == 30) {
+				return 50, 1391, "Snare";
+			}
+			if (arg2 == 31) {
+				return 50, 1391, "Magic dart" + "<br>" + "(with 55 Slayer)";
+			}
+			if (arg2 == 32) {
+				return 51, 1391, "Ardougne teleport" + "<br>" + "(after Plague City)";
+			}
+			if (arg2 == 33) {
+				return 53, 1391, "Earth blast";
+			}
+			if (arg2 == 34) {
+				return 55, 1391, "High level alchemy";
+			}
+			if (arg2 == 35) {
+				return 56, 1391, "Charge water orb";
+			}
+			if (arg2 == 36) {
+				return 57, 1391, "Level 4 enchant";
+			}
+			if (arg2 == 37) {
+				return 58, 1391, "Watchtower teleport" + "<br>" + "(after Watchtower)";
+			}
+			if (arg2 == 38) {
+				return 59, 1391, "Fire blast";
+			}
+			if (arg2 == 39) {
+				return 60, 1391, "Charge earth orb";
+			}
+			if (arg2 == 40) {
+				return 60, 1391, "Bones to peaches";
+			}
+			if (arg2 == 41) {
+				return 60, 2416, "God spells" + "<br>" + "(after Mage Arena)";
+			}
+			if (arg2 == 42) {
+				return 61, 1391, "Trollheim Teleport" + "<br>" + "(after Eadgar's Ruse)";
+			}
+			if (arg2 == 43) {
+				return 62, 1391, "Wind wave";
+			}
+			if (arg2 == 44) {
+				return 63, 1391, "Charge fire orb";
+			}
+			if (arg2 == 45) {
+				return 64, 1391, "Teleport to Ape Atoll" + "<br>" + "(after Recipe for Disaster)";
+			}
+			if (arg2 == 46) {
+				return 65, 1391, "Water wave";
+			}
+			if (arg2 == 47) {
+				return 66, 1391, "Charge air orb";
+			}
+			if (arg2 == 48) {
+				return 66, 1391, "Vulnerability";
+			}
+			if (arg2 == 49) {
+				return 68, 1391, "Level 5 enchant";
+			}
+			if (arg2 == 50) {
+				return 69, 1391, "Teleport to Kourend" + "<br>" + "(after unlocking the spell)";
+			}
+			if (arg2 == 51) {
+				return 70, 1391, "Earth wave";
+			}
+			if (arg2 == 52) {
+				return 73, 1391, "Enfeeble";
+			}
+			if (arg2 == 53) {
+				return 74, 1391, "Teleother Lumbridge";
+			}
+			if (arg2 == 54) {
+				return 75, 1391, "Fire wave";
+			}
+			if (arg2 == 55) {
+				return 79, 1391, "Entangle";
+			}
+			if (arg2 == 56) {
+				return 80, 1391, "Stun";
+			}
+			if (arg2 == 57) {
+				return 80, 1391, "Charge" + "<br>" + "(after Mage Arena)";
+			}
+			if (arg2 == 58) {
+				return 82, 1391, "Teleother Falador";
+			}
+			if (arg2 == 59) {
+				return 85, 1391, "Tele block";
+			}
+			if (arg2 == 60) {
+				return 85, 1391, "Teleport to Bounty Target";
+			}
+			if (arg2 == 61) {
+				return 87, 1391, "Level 6 enchant";
+			}
+			if (arg2 == 62) {
+				return 90, 1391, "Teleother Camelot";
+			}
+			if (arg2 == 63) {
+				return 93, 1391, "Level 7 enchant";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return -1, 7620, "Ancient magicks are available after" + "<br>" + "completing the Desert Treasure quest.";
+			}
+			if (arg2 == 1) {
+				return -1, 7620, "Home teleport (Edgeville)";
+			}
+			if (arg2 == 2) {
+				return 50, 4675, "Smoke rush";
+			}
+			if (arg2 == 3) {
+				return 52, 4675, "Shadow rush";
+			}
+			if (arg2 == 4) {
+				return 54, 4675, "Paddewwa teleport";
+			}
+			if (arg2 == 5) {
+				return 56, 4675, "Blood rush";
+			}
+			if (arg2 == 6) {
+				return 58, 4675, "Ice rush";
+			}
+			if (arg2 == 7) {
+				return 60, 4675, "Senntisten teleport";
+			}
+			if (arg2 == 8) {
+				return 62, 4675, "Smoke burst";
+			}
+			if (arg2 == 9) {
+				return 64, 4675, "Shadow burst";
+			}
+			if (arg2 == 10) {
+				return 66, 4675, "Kharyll teleport";
+			}
+			if (arg2 == 11) {
+				return 68, 4675, "Blood burst";
+			}
+			if (arg2 == 12) {
+				return 70, 4675, "Ice burst";
+			}
+			if (arg2 == 13) {
+				return 72, 4675, "Lassar teleport";
+			}
+			if (arg2 == 14) {
+				return 74, 4675, "Smoke blitz";
+			}
+			if (arg2 == 15) {
+				return 76, 4675, "Shadow blitz";
+			}
+			if (arg2 == 16) {
+				return 78, 4675, "Dareeyak teleport";
+			}
+			if (arg2 == 17) {
+				return 80, 4675, "Blood blitz";
+			}
+			if (arg2 == 18) {
+				return 82, 4675, "Ice blitz";
+			}
+			if (arg2 == 19) {
+				return 84, 4675, "Carrallangar teleport";
+			}
+			if (arg2 == 20) {
+				return 85, 4675, "Teleport to Bounty Target";
+			}
+			if (arg2 == 21) {
+				return 86, 4675, "Smoke barrage";
+			}
+			if (arg2 == 22) {
+				return 88, 4675, "Shadow barrage";
+			}
+			if (arg2 == 23) {
+				return 90, 4675, "Annakarl teleport";
+			}
+			if (arg2 == 24) {
+				return 92, 4675, "Blood barrage";
+			}
+			if (arg2 == 25) {
+				return 94, 4675, "Ice barrage";
+			}
+			if (arg2 == 26) {
+				return 96, 4675, "Ghorrock teleport";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return -1, 7620, "Lunar spells are available after" + "<br>" + "completing the Lunar Diplomacy quest.";
+			}
+			if (arg2 == 1) {
+				return -1, 7620, "Home teleport (Lunar Isle)";
+			}
+			if (arg2 == 2) {
+				return 65, 9084, "Bake pie";
+			}
+			if (arg2 == 3) {
+				return 65, 9084, "Geomancy";
+			}
+			if (arg2 == 4) {
+				return 66, 9084, "Cure plant";
+			}
+			if (arg2 == 5) {
+				return 66, 9084, "Monster examine" + "<br>" + "(after Dream Mentor)";
+			}
+			if (arg2 == 6) {
+				return 67, 9084, "NPC Contact";
+			}
+			if (arg2 == 7) {
+				return 68, 9084, "Cure other";
+			}
+			if (arg2 == 8) {
+				return 68, 9084, "Humidify" + "<br>" + "(after Dream Mentor)";
+			}
+			if (arg2 == 9) {
+				return 69, 9084, "Moonclan teleport";
+			}
+			if (arg2 == 10) {
+				return 70, 9084, "Tele group Moonclan";
+			}
+			if (arg2 == 11) {
+				return 71, 9084, "Cure me";
+			}
+			if (arg2 == 12) {
+				return 71, 9084, "Hunter kit" + "<br>" + "(after Dream Mentor)";
+			}
+			if (arg2 == 13) {
+				return 71, 9084, "Ourania teleport";
+			}
+			if (arg2 == 14) {
+				return 72, 9084, "Waterbirth teleport";
+			}
+			if (arg2 == 15) {
+				return 73, 9084, "Tele group Waterbirth";
+			}
+			if (arg2 == 16) {
+				return 74, 9084, "Cure group";
+			}
+			if (arg2 == 17) {
+				return 75, 9084, "Stat spy" + "<br>" + "(after Dream Mentor)";
+			}
+			if (arg2 == 18) {
+				return 75, 9084, "Barbarian teleport";
+			}
+			if (arg2 == 19) {
+				return 76, 9084, "Tele group Barbarian";
+			}
+			if (arg2 == 20) {
+				return 76, 9084, "Spin Flax";
+			}
+			if (arg2 == 21) {
+				return 77, 9084, "Superglass make";
+			}
+			if (arg2 == 22) {
+				return 78, 9084, "Tan Leather";
+			}
+			if (arg2 == 23) {
+				return 78, 9084, "Khazard teleport";
+			}
+			if (arg2 == 24) {
+				return 79, 9084, "Tele group Khazard";
+			}
+			if (arg2 == 25) {
+				return 79, 9084, "Dream" + "<br>" + "(after Dream Mentor)";
+			}
+			if (arg2 == 26) {
+				return 80, 9084, "String jewellery";
+			}
+			if (arg2 == 27) {
+				return 81, 9084, "Stat restore pot share";
+			}
+			if (arg2 == 28) {
+				return 82, 9084, "Magic imbue";
+			}
+			if (arg2 == 29) {
+				return 83, 9084, "Fertile soil";
+			}
+			if (arg2 == 30) {
+				return 84, 9084, "Boost potion share";
+			}
+			if (arg2 == 31) {
+				return 85, 9084, "Fishing guild teleport";
+			}
+			if (arg2 == 32) {
+				return 85, 9084, "Teleport to Bounty Target";
+			}
+			if (arg2 == 33) {
+				return 86, 9084, "Tele group fishing guild";
+			}
+			if (arg2 == 34) {
+				return 86, 9084, "Plank make" + "<br>" + "(after Dream Mentor)";
+			}
+			if (arg2 == 35) {
+				return 87, 9084, "Catherby teleport";
+			}
+			if (arg2 == 36) {
+				return 88, 9084, "Tele group Catherby";
+			}
+			if (arg2 == 37) {
+				return 89, 9084, "Recharge Dragonstone";
+			}
+			if (arg2 == 38) {
+				return 89, 9084, "Ice plateau teleport";
+			}
+			if (arg2 == 39) {
+				return 90, 9084, "Tele group Ice plateau";
+			}
+			if (arg2 == 40) {
+				return 91, 9084, "Energy transfer";
+			}
+			if (arg2 == 41) {
+				return 92, 9084, "Heal other";
+			}
+			if (arg2 == 42) {
+				return 93, 9084, "Vengeance other";
+			}
+			if (arg2 == 43) {
+				return 94, 9084, "Vengeance";
+			}
+			if (arg2 == 44) {
+				return 95, 9084, "Heal group";
+			}
+			if (arg2 == 45) {
+				return 96, 9084, "Spellbook swap" + "<br>" + "(after Dream Mentor)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return -1, 7620, "Arceuus spells are unlocked" + "<br>" + "in Great Kourend.";
+			}
+			if (arg2 == 1) {
+				return -1, 7620, "Home teleport (Dark Altar)";
+			}
+			if (arg2 == 2) {
+				return 3, 13447, "Reanimate goblins";
+			}
+			if (arg2 == 3) {
+				return 6, 13578, "Lumbridge Graveyard teleport";
+			}
+			if (arg2 == 4) {
+				return 7, 13450, "Reanimate monkeys";
+			}
+			if (arg2 == 5) {
+				return 12, 13453, "Reanimate imps";
+			}
+			if (arg2 == 6) {
+				return 16, 13456, "Reanimate minotaurs";
+			}
+			if (arg2 == 7) {
+				return 17, 13578, "Draynor Manor teleport";
+			}
+			if (arg2 == 8) {
+				return 19, 13459, "Reanimate scorpions";
+			}
+			if (arg2 == 9) {
+				return 21, 13462, "Reanimate bears";
+			}
+			if (arg2 == 10) {
+				return 22, 13465, "Reanimate unicorns";
+			}
+			if (arg2 == 11) {
+				return 26, 13468, "Reanimate dogs";
+			}
+			if (arg2 == 12) {
+				return 28, 13578, "Mind Altar teleport";
+			}
+			if (arg2 == 13) {
+				return 30, 13471, "Reanimate chaos druids";
+			}
+			if (arg2 == 14) {
+				return 34, 13578, "Respawn teleport";
+			}
+			if (arg2 == 15) {
+				return 37, 13474, "Reanimate giants";
+			}
+			if (arg2 == 16) {
+				return 40, 13578, "Salve Graveyard teleport";
+			}
+			if (arg2 == 17) {
+				return 40, 13477, "Reanimate ogres";
+			}
+			if (arg2 == 18) {
+				return 43, 13480, "Reanimate elves";
+			}
+			if (arg2 == 19) {
+				return 46, 13483, "Reanimate trolls";
+			}
+			if (arg2 == 20) {
+				return 48, 13578, "Fenkenstrain's Castle teleport";
+			}
+			if (arg2 == 21) {
+				return 52, 13486, "Reanimate horrors";
+			}
+			if (arg2 == 22) {
+				return 57, 13489, "Reanimate kalphite";
+			}
+			if (arg2 == 23) {
+				return 61, 13578, "West Ardougne teleport";
+			}
+			if (arg2 == 24) {
+				return 62, 13492, "Reanimate dagannoth";
+			}
+			if (arg2 == 25) {
+				return 65, 13495, "Reanimate bloodveld";
+			}
+			if (arg2 == 26) {
+				return 65, 13578, "Harmony Island teleport";
+			}
+			if (arg2 == 27) {
+				return 69, 13498, "Reanimate TzHaar";
+			}
+			if (arg2 == 28) {
+				return 71, 13578, "Cemetery teleport";
+			}
+			if (arg2 == 29) {
+				return 72, 13501, "Reanimate demons";
+			}
+			if (arg2 == 30) {
+				return 78, 13504, "Reanimate aviantese";
+			}
+			if (arg2 == 31) {
+				return 78, 5370, "Resurrect crops";
+			}
+			if (arg2 == 32) {
+				return 83, 13578, "Barrows teleport";
+			}
+			if (arg2 == 33) {
+				return 85, 13507, "Reanimate abyssal demons";
+			}
+			if (arg2 == 34) {
+				return 90, 13578, "Ape Atoll teleport";
+			}
+			if (arg2 == 35) {
+				return 93, 13510, "Reanimate dragons";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 20, 2579, "Wizard boots";
+			}
+			if (arg2 == 1) {
+				return 20, 13385, "Xerician armour" + "<br>" + " (with 10 Defence)";
+			}
+			if (arg2 == 2) {
+				return 40, 20517, "Elder chaos druid robes";
+			}
+			if (arg2 == 3) {
+				return 40, 4091, "Mystic robes" + "<br>" + " (with 20 Defence)";
+			}
+			if (arg2 == 4) {
+				return 40, 7399, "Enchanted robes" + "<br>" + " (with 20 Defence)";
+			}
+			if (arg2 == 5) {
+				return 40, 20131, "Robes of darkness" + "<br>" + " (with 20 Defence)";
+			}
+			if (arg2 == 6) {
+				return 40, 3387, "Splitbark armour" + "<br>" + " (with 40 Defence)";
+			}
+			if (arg2 == 7) {
+				return 40, 6139, "Skeletal armour" + "<br>" + " (after The Fremmenik Trials, with 40 Defence)";
+			}
+			if (arg2 == 8) {
+				return 42, 8839, "Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 9) {
+				return 50, 6916, "Infinity robes" + "<br>" + " (with 25 Defence)";
+			}
+			if (arg2 == 10) {
+				return 60, 2413, "God capes" + "<br>" + " (after Mage Arena)";
+			}
+			if (arg2 == 11) {
+				return 65, 9097, "Lunar armour" + "<br>" + " (after Lunar Diplomacy, with 40 Defence)";
+			}
+			if (arg2 == 12) {
+				return 65, 10338, "3rd age robes" + "<br>" + " (with 30 Defence)";
+			}
+			if (arg2 == 13) {
+				return 70, 12002, "Occult necklace";
+			}
+			if (arg2 == 14) {
+				return 70, 4712, "Ahrims robes" + "<br>" + " (with 70 Defence)";
+			}
+			if (arg2 == 15) {
+				return 75, 13235, "Eternal boots" + "<br>" + " (with 75 Defence)";
+			}
+			if (arg2 == 16) {
+				return 75, 21021, "Ancestral robes" + "<br>" + " (with 65 Defence)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 5) {
+			if (arg2 == 0) {
+				return 4, 9236, "Opal-tipped bronze crossbow bolt";
+			}
+			if (arg2 == 1) {
+				return 7, 9240, "Sapphire-tipped mithril crossbow bolt";
+			}
+			if (arg2 == 2) {
+				return 14, 9237, "Jade-tipped blurite crossbow bolt";
+			}
+			if (arg2 == 3) {
+				return 24, 9238, "Pearl-tipped iron crossbow bolt";
+			}
+			if (arg2 == 4) {
+				return 27, 9241, "Emerald-tipped mithril crossbow bolt";
+			}
+			if (arg2 == 5) {
+				return 29, 9239, "Red topaz-tipped steel crossbow bolt";
+			}
+			if (arg2 == 6) {
+				return 49, 9242, "Ruby-tipped adamant crossbow bolt";
+			}
+			if (arg2 == 7) {
+				return 57, 9243, "Diamond-tipped adamant crossbow bolt";
+			}
+			if (arg2 == 8) {
+				return 68, 9244, "Dragonstone-tipped rune crossbow bolt";
+			}
+			if (arg2 == 9) {
+				return 87, 9245, "Onyx-tipped rune crossbow bolt";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 6) {
+			if (arg2 == 0) {
+				return 30, 1391, "Battlestaves (with 30 Attack)";
+			}
+			if (arg2 == 1) {
+				return 40, 1405, "Mystic staves (with 40 Attack)";
+			}
+			if (arg2 == 2) {
+				return 42, 8841, "Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 3) {
+				return 45, 6908, "Beginner wand";
+			}
+			if (arg2 == 4) {
+				return 50, 6910, "Apprentice wand";
+			}
+			if (arg2 == 5) {
+				return 50, 4675, "Ancient staff" + "<br>" + " (after Desert Treasure, with 50 Attack)";
+			}
+			if (arg2 == 6) {
+				return 50, 4170, "Slayer's staff" + "<br>" + " (with 55 Slayer)";
+			}
+			if (arg2 == 7) {
+				return 55, 6912, "Teacher wand";
+			}
+			if (arg2 == 8) {
+				return 60, 6914, "Master wand";
+			}
+			if (arg2 == 9) {
+				return 60, 2416, "God staves" + "<br>" + " (after Mage Arena)";
+			}
+			if (arg2 == 10) {
+				return 60, 6526, "TokTz-Mej-Tal" + "<br>" + " (with 60 Attack)";
+			}
+			if (arg2 == 11) {
+				return 65, 12422, "3rd age wand";
+			}
+			if (arg2 == 12) {
+				return 70, 4710, "Ahrim's staff" + "<br>" + " (with 70 Attack)";
+			}
+			if (arg2 == 13) {
+				return 75, 11791, "Staff of the Dead (with 75 Attack)";
+			}
+			if (arg2 == 14) {
+				return 75, 11905, "Trident of the Seas";
+			}
+			if (arg2 == 15) {
+				return 75, 21006, "Kodai Wand";
+			}
+			if (arg2 == 16) {
+				return 75, 21255, "Slayer's staff (e)" + "<br>" + " (with 55 Slayer)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 7) {
+			if (arg2 == 0) {
+				return 50, 20714, "Tome of Fire";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 8) {
+			return script_662(arg2);
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 6) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return -1, 7620, "Hitpoints are used to tell you how healthy your character is. A character who reaches 0 Hitpoints has died, but will reappear in their chosen respawn location (normally Lumbridge).";
+			}
+			if (arg2 == 1) {
+				return -1, 7620, "If you see any red 'hit splats' during combat, the number shown corresponds to the number of Hitpoints lost as a result of that strike.";
+			}
+			if (arg2 == 2) {
+				return -1, 7620, "Blue hit splats mean no damage has been dealt.";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "Green hit splats are poison damage. (Members)";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "Dark green hit splats are venom damage. (Members)";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "Orange hit splats are disease damage. (Members)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return -1, 10476, "Purple Sweets: Restores 1-3 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 1) {
+				return -1, 319, "Anchovies: Restores 1 Hitpoint";
+			}
+			if (arg2 == 2) {
+				return -1, 315, "Shrimp: Restores 3 Hitpoints";
+			}
+			if (arg2 == 3) {
+				return -1, 2140, "Cooked chicken: Restores 3 Hitpoints";
+			}
+			if (arg2 == 4) {
+				return -1, 325, "Sardine: Restores 3 Hitpoints";
+			}
+			if (arg2 == 5) {
+				return -1, 2142, "Cooked meat: Restores 3 Hitpoints";
+			}
+			if (arg2 == 6) {
+				return -1, 2309, "Bread: Restores 5 Hitpoints";
+			}
+			if (arg2 == 7) {
+				return -1, 347, "Herring: Restores 5 Hitpoints";
+			}
+			if (arg2 == 8) {
+				return -1, 3228, "Cooked Rabbit: Restores 5 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 9) {
+				return -1, 355, "Mackerel: Restores 6 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 10) {
+				return -1, 19662, "Botanical Pie: Restores 6 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 11) {
+				return -1, 3381, "Slimy Eel: Restores 6-10 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 12) {
+				return -1, 333, "Trout: Restores 7 Hitpoints";
+			}
+			if (arg2 == 13) {
+				return -1, 339, "Cod: Restores 7 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 14) {
+				return -1, 7223, "Roast Rabbit: Restores 7 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 15) {
+				return -1, 5003, "Cave Eel: Restores 7-11 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 16) {
+				return -1, 351, "Pike: Restores 8 Hitpoints";
+			}
+			if (arg2 == 17) {
+				return -1, 329, "Salmon: Restores 9 Hitpoints";
+			}
+			if (arg2 == 18) {
+				return -1, 2325, "Redberry pie: Restores 9 Hitpoints";
+			}
+			if (arg2 == 19) {
+				return -1, 361, "Tuna: Restores 10 Hitpoints";
+			}
+			if (arg2 == 20) {
+				return -1, 7518, "Crab meat: Restores 10 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 21) {
+				return -1, 7530, "Cooked fishcake: Restores 11 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 22) {
+				return -1, 1993, "Jug of wine: Restores 11 Hitpoints";
+			}
+			if (arg2 == 23) {
+				return -1, 2327, "Meat pie: Restores 11 Hitpoints";
+			}
+			if (arg2 == 24) {
+				return -1, 2149, "Lava Eel: Restores 11 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 25) {
+				return -1, 7178, "Garden pie: Restores 12 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 26) {
+				return -1, 7188, "Fish pie: Restores 12 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 27) {
+				return -1, 1891, "Cake: Restores 12 Hitpoints";
+			}
+			if (arg2 == 28) {
+				return -1, 379, "Lobster: Restores 12 Hitpoints";
+			}
+			if (arg2 == 29) {
+				return -1, 365, "Bass: Restores 13 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 30) {
+				return -1, 373, "Swordfish: Restores 14 Hitpoints";
+			}
+			if (arg2 == 31) {
+				return -1, 2289, "Plain pizza: Restores 14 Hitpoints";
+			}
+			if (arg2 == 32) {
+				return -1, 2323, "Apple pie: Restores 14 Hitpoints";
+			}
+			if (arg2 == 33) {
+				return -1, 6703, "Potato with butter: Restores 14 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 34) {
+				return -1, 7054, "Chilli Potato: Restores 14 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 35) {
+				return -1, 1897, "Chocolate Cake: Restores 15 Hitpoints";
+			}
+			if (arg2 == 36) {
+				return -1, 7946, "Monkfish: Restores 16 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 37) {
+				return -1, 7198, "Admiral pie: Restores 16 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 38) {
+				return -1, 2293, "Meat pizza: Restores 16 Hitpoints";
+			}
+			if (arg2 == 39) {
+				return -1, 6705, "Potato with cheese: Restores 16 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 40) {
+				return -1, 7056, "Egg Potato: Restores 16 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 41) {
+				return -1, 3144, "Cooked karambwan: Restores 18 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 42) {
+				return -1, 2297, "Anchovy pizza: Restores 18 Hitpoints";
+			}
+			if (arg2 == 43) {
+				return -1, 1885, "Ugthanki kebab: Restores 18 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 44) {
+				return -1, 385, "Shark: Restores 20 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 45) {
+				return -1, 7058, "Mushroom Potato: Restores 20 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 46) {
+				return -1, 397, "Sea Turtle: Restores 21 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 47) {
+				return -1, 391, "Manta Ray: Restores 22 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 48) {
+				return -1, 11936, "Dark Crab: Restores 22 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 49) {
+				return -1, 7060, "Tuna Potato: Restores 22 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 50) {
+				return -1, 7208, "Wild pie: Restores 22 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 51) {
+				return -1, 7218, "Summer pie: Restores 22 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 52) {
+				return -1, 2301, "Pineapple pizza: Restores 22 Hitpoints" + "<br>" + "(Members)";
+			}
+			if (arg2 == 53) {
+				return -1, 13441, "Anglerfish: Restores Hitpoints based on your Hitpoints level up to a maximum of 22 - can boost beyond your level" + "<br>" + "(Members)";
+			}
+			if (arg2 == 54) {
+				return -1, 6687, "Saradomin brew: Restores 15% of your Hitpoints level plus 2 - can boost beyond your level" + "<br>" + "(Members)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 42, 8839, "Void Knight equipment" + "<br>" + "(with 42 combat stats and 22 Prayer)";
+			}
+			if (arg2 == 1) {
+				return 75, 19550, "Enchanted zenyte jewellery";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 8) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 2150, "Gnome Stronghold Agility Course";
+			}
+			if (arg2 == 1) {
+				return 1, 751, "Gnomeball game";
+			}
+			if (arg2 == 2) {
+				return 1, 2996, "Low-level Agility Arena obstacles";
+			}
+			if (arg2 == 3) {
+				return 10, 11849, "Draynor Village rooftop course";
+			}
+			if (arg2 == 4) {
+				return 20, 11849, "Al Kharid rooftop course";
+			}
+			if (arg2 == 5) {
+				return 20, 2996, "Medium-level Agility Arena obstacles";
+			}
+			if (arg2 == 6) {
+				return 25, 1061, "Werewolf Skullball game";
+			}
+			if (arg2 == 7) {
+				return 30, 6970, "Agility Pyramid";
+			}
+			if (arg2 == 8) {
+				return 30, 11849, "Varrock rooftop course";
+			}
+			if (arg2 == 9) {
+				return 30, 10595, "Penguin Agility Course";
+			}
+			if (arg2 == 10) {
+				return 35, 1365, "Barbarian Outpost Agility Course";
+			}
+			if (arg2 == 11) {
+				return 40, 11849, "Canifis rooftop course";
+			}
+			if (arg2 == 12) {
+				return 40, 2996, "High-level Agility Arena obstacles";
+			}
+			if (arg2 == 13) {
+				return 48, 4024, "Ape Atoll Agility Course";
+			}
+			if (arg2 == 14) {
+				return 50, 4211, "Use crystal equipment";
+			}
+			if (arg2 == 15) {
+				return 50, 11849, "Falador rooftop course";
+			}
+			if (arg2 == 16) {
+				return 52, 964, "Wilderness Course";
+			}
+			if (arg2 == 17) {
+				return 60, 4179, "Werewolf Agility Course";
+			}
+			if (arg2 == 18) {
+				return 60, 11849, "Seers' Village rooftop course";
+			}
+			if (arg2 == 19) {
+				return 70, 4550, "Caves south of Dorgesh-Kaan";
+			}
+			if (arg2 == 20) {
+				return 70, 11849, "Pollnivneach rooftop course";
+			}
+			if (arg2 == 21) {
+				return 80, 11849, "Rellekka rooftop course";
+			}
+			if (arg2 == 22) {
+				return 90, 11849, "Ardougne rooftop course";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 10, 6518, "Rope-swing to Moss Giant Island";
+			}
+			if (arg2 == 1) {
+				return 12, 6518, "Stepping stones in Karamja Dungeon";
+			}
+			if (arg2 == 2) {
+				return 15, 6518, "Monkey bars under Edgeville";
+			}
+			if (arg2 == 3) {
+				return 22, 6520, "Pipe contortion in Karamja Dungeon";
+			}
+			if (arg2 == 4) {
+				return 30, 6518, "Stepping stones in south-eastern Karamja";
+			}
+			if (arg2 == 5) {
+				return 34, 6520, "Pipe contortion in Karamja Dungeon";
+			}
+			if (arg2 == 6) {
+				return 45, 6519, "Elf area log balance";
+			}
+			if (arg2 == 7) {
+				return 49, 6520, "Contortion in Yanille Dungeon small room";
+			}
+			if (arg2 == 8) {
+				return 60, 6520, "Access the God Wars Dungeon area via the Agility route";
+			}
+			if (arg2 == 9) {
+				return 67, 6521, "Yanille Dungeon's rubble climb";
+			}
+			if (arg2 == 10) {
+				return 70, 6521, "Enter the Saradomin area of the God Wars Dungeon";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 5, 6517, "Falador Agility shortcut";
+			}
+			if (arg2 == 1) {
+				return 8, 6515, "Cross the River Lum to Al Kharid" + "<br>" + " (with 19 Strength and 37 Ranged)";
+			}
+			if (arg2 == 2) {
+				return 11, 6517, "Scale Falador wall" + "<br>" + " (with 37 Strength and 19 Ranged)";
+			}
+			if (arg2 == 3) {
+				return 14, 6515, "Scale Goblin village wall";
+			}
+			if (arg2 == 4) {
+				return 16, 6516, "Yanille Agility shortcut";
+			}
+			if (arg2 == 5) {
+				return 17, 6516, "Kourend Catacombs Agility shortcut";
+			}
+			if (arg2 == 6) {
+				return 20, 6515, "Coal Truck log balance";
+			}
+			if (arg2 == 7) {
+				return 21, 6516, "Grand Exchange Agility shortcut";
+			}
+			if (arg2 == 8) {
+				return 25, 6517, "Eagles' Peak Agility shortcut";
+			}
+			if (arg2 == 9) {
+				return 26, 6516, "Falador Agility shortcut";
+			}
+			if (arg2 == 10) {
+				return 28, 6515, "Kourend Catacombs pillar jump shortcut";
+			}
+			if (arg2 == 11) {
+				return 31, 6515, "Draynor Manor stones to Champions' Guild";
+			}
+			if (arg2 == 12) {
+				return 32, 6517, "Scale the Catherby cliff" + "<br>" + " (with 35 Strength and 35 Ranged)";
+			}
+			if (arg2 == 13) {
+				return 33, 6515, "Ardougne log balance shortcut";
+			}
+			if (arg2 == 14) {
+				return 34, 6516, "Kourend Catacombs Agility shortcut";
+			}
+			if (arg2 == 15) {
+				return 36, 6517, "Escape from the water obelisk island" + "<br>" + " (with 22 Strength and 39 Ranged)";
+			}
+			if (arg2 == 16) {
+				return 37, 6517, "Gnome Stronghold shortcut";
+			}
+			if (arg2 == 17) {
+				return 38, 6517, "Al Kharid Mining pit cliffside scramble";
+			}
+			if (arg2 == 18) {
+				return 39, 6517, "Scale Yanille wall" + "<br>" + " (with 38 Strength and 21 Ranged)";
+			}
+			if (arg2 == 19) {
+				return 40, 6514, "Kourend lake isle jump";
+			}
+			if (arg2 == 20) {
+				return 41, 6517, "Trollheim easy cliffside scramble";
+			}
+			if (arg2 == 21) {
+				return 42, 6516, "Dwarven Mine narrow crevice";
+			}
+			if (arg2 == 22) {
+				return 42, 6516, "Draynor narrow tunnel";
+			}
+			if (arg2 == 23) {
+				return 43, 6517, "Trollheim medium cliffside scramble";
+			}
+			if (arg2 == 24) {
+				return 44, 6517, "Trollheim advanced cliffside scramble";
+			}
+			if (arg2 == 25) {
+				return 45, 6514, "Kourend river jump";
+			}
+			if (arg2 == 26) {
+				return 46, 6516, "Cosmic Temple - medium narrow walkway";
+			}
+			if (arg2 == 27) {
+				return 46, 6516, "Deep Wilderness - narrow tunnel";
+			}
+			if (arg2 == 28) {
+				return 47, 6517, "Trollheim hard cliffside scramble";
+			}
+			if (arg2 == 29) {
+				return 48, 6515, "Log balance to Fremennik Province";
+			}
+			if (arg2 == 30) {
+				return 49, 6514, "Arceuus essence mine boulder leap";
+			}
+			if (arg2 == 31) {
+				return 50, 6514, "Stepping stone into Morytania near the Nature Grotto.";
+			}
+			if (arg2 == 32) {
+				return 51, 6516, "Pipe from Edgeville dungeon to Varrock Sewers";
+			}
+			if (arg2 == 33) {
+				return 52, 6517, "Arceuus essence mine eastern scramble";
+			}
+			if (arg2 == 34) {
+				return 53, 6517, "Karamja crossing, south of volcano" + "<br>" + " (with 21 Strength and 42 Ranged)";
+			}
+			if (arg2 == 35) {
+				return 54, 6516, "Motherlode Mine dark tunnel";
+			}
+			if (arg2 == 36) {
+				return 55, 6514, "Stepping stone by Miscellania docks";
+			}
+			if (arg2 == 37) {
+				return 57, 6517, "Rellekka east fence shortcut";
+			}
+			if (arg2 == 38) {
+				return 58, 6517, "Port Phasmatys ectopool shortcut";
+			}
+			if (arg2 == 39) {
+				return 59, 6517, "Elven overpass easy cliffside scramble";
+			}
+			if (arg2 == 40) {
+				return 60, 6517, "Wilderness from the God Wars Dungeon area climb";
+			}
+			if (arg2 == 41) {
+				return 60, 6514, "Estuary crossing on Mos Le'Harmless";
+			}
+			if (arg2 == 42) {
+				return 60, 6514, "Pillars in the Wintertodt's Prison.";
+			}
+			if (arg2 == 43) {
+				return 61, 6517, "Slayer Tower medium spiked chain climb";
+			}
+			if (arg2 == 44) {
+				return 62, 6516, "Slayer Dungeon narrow crevice";
+			}
+			if (arg2 == 45) {
+				return 63, 6517, "Taverley dungeon lesser demon fence shortcut";
+			}
+			if (arg2 == 46) {
+				return 64, 6517, "Trollheim Wilderness route";
+			}
+			if (arg2 == 47) {
+				return 65, 6517, "Temple on the Salve to Morytania shortcut";
+			}
+			if (arg2 == 48) {
+				return 66, 6516, "Cosmic Temple advanced narrow walkway";
+			}
+			if (arg2 == 49) {
+				return 66, 6514, "Lumbridge Swamp to the Desert";
+			}
+			if (arg2 == 50) {
+				return 67, 6516, "Heroes' Guild tunnel";
+			}
+			if (arg2 == 51) {
+				return 68, 6517, "Elven overpass medium cliffside scramble";
+			}
+			if (arg2 == 52) {
+				return 69, 6517, "Arceuus essence mine northern scramble";
+			}
+			if (arg2 == 53) {
+				return 70, 6516, "Taverley Dungeon short-cuts to blue dragons";
+			}
+			if (arg2 == 54) {
+				return 71, 6517, "Slayer Tower advanced spiked chain climb";
+			}
+			if (arg2 == 55) {
+				return 72, 6516, "Stronghold Slayer Cave narrow tunnel";
+			}
+			if (arg2 == 56) {
+				return 73, 6517, "Troll Stronghold wall-climb";
+			}
+			if (arg2 == 57) {
+				return 73, 6517, "Arceuus essence mine western descent";
+			}
+			if (arg2 == 58) {
+				return 74, 6514, "Lava Dragon Isle jump";
+			}
+			if (arg2 == 59) {
+				return 76, 6514, "Island crossing near Zul-Andra";
+			}
+			if (arg2 == 60) {
+				return 77, 6514, "Shilo Village river crossing";
+			}
+			if (arg2 == 61) {
+				return 79, 6517, "Kharazi Jungle vine climb" + "<br>" + " (with Legends' Guild access)";
+			}
+			if (arg2 == 62) {
+				return 80, 6514, "Taverley Dungeon spiked blades jump";
+			}
+			if (arg2 == 63) {
+				return 81, 6514, "Slayer Dungeon spiked blades jump";
+			}
+			if (arg2 == 64) {
+				return 82, 6514, "Lava Maze northern jump";
+			}
+			if (arg2 == 65) {
+				return 83, 6514, "Brimhaven Dungeon eastern stepping stones";
+			}
+			if (arg2 == 66) {
+				return 85, 6517, "Elven overpass advanced cliffside scramble";
+			}
+			if (arg2 == 67) {
+				return 86, 6516, "Kalphite Lair shortcut";
+			}
+			if (arg2 == 68) {
+				return 87, 6517, "Brimhaven Dungeon vine to baby green dragons";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return -1, 7620, "To start fishing like a Barbarian, talk to" + "<br>" + "Otto Godblessed when you have at least" + "<br>" + "level 48 Fishing and level 15 Agility.";
+			}
+			if (arg2 == 1) {
+				return 15, 11328, "Leaping trout" + "<br>" + " (with 15 Strength & 48 Fishing)";
+			}
+			if (arg2 == 2) {
+				return 30, 11330, "Leaping salmon" + "<br>" + " (with 30 Strength & 58 Fishing)";
+			}
+			if (arg2 == 3) {
+				return 45, 11332, "Leaping sturgeon" + "<br>" + " (with 45 Strength & 70 Fishing)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 9) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return -1, 7620, "You must complete the Druidic Ritual quest before you can use Herblore.";
+			}
+			if (arg2 == 1) {
+				return 3, 221, "Attack potion" + "<br>" + "Guam leaf & eye of newt";
+			}
+			if (arg2 == 2) {
+				return 5, 235, "Anti-poison potion" + "<br>" + "Marrentill & ground unicorn horn";
+			}
+			if (arg2 == 3) {
+				return 8, 1534, "Relicym's balm";
+			}
+			if (arg2 == 4) {
+				return 12, 225, "Strength potion" + "<br>" + "Tarromin & limpwurt root";
+			}
+			if (arg2 == 5) {
+				return 19, 10142, "Guam tar" + "<br>" + "Guam leaf & swamp tar";
+			}
+			if (arg2 == 6) {
+				return 22, 223, "Stat restore potion" + "<br>" + "Harralander & red spiders' eggs";
+			}
+			if (arg2 == 7) {
+				return 22, 1550, "Guthix balance potion";
+			}
+			if (arg2 == 8) {
+				return 26, 1975, "Energy potion" + "<br>" + "Harralander & chocolate dust";
+			}
+			if (arg2 == 9) {
+				return 30, 239, "Defence potion" + "<br>" + "Ranarr weed & white berries";
+			}
+			if (arg2 == 10) {
+				return 31, 10143, "Marrentill tar" + "<br>" + "Marrentill & swamp tar";
+			}
+			if (arg2 == 11) {
+				return 34, 2152, "Agility potion" + "<br>" + "Toadflax & toad legs";
+			}
+			if (arg2 == 12) {
+				return 36, 9736, "Combat potion" + "<br>" + "Harralander & ground desert goat horn";
+			}
+			if (arg2 == 13) {
+				return 38, 231, "Prayer restore potion" + "<br>" + "Ranarr weed & snape grass";
+			}
+			if (arg2 == 14) {
+				return 39, 10144, "Tarromin tar" + "<br>" + "Tarromin & swamp tar";
+			}
+			if (arg2 == 15) {
+				return 44, 10145, "Harralander tar" + "<br>" + "Harralander & swamp tar";
+			}
+			if (arg2 == 16) {
+				return 45, 221, "Super Attack potion" + "<br>" + "Irit leaf & eye of newt";
+			}
+			if (arg2 == 17) {
+				return 48, 235, "Super anti-poison potion" + "<br>" + "Irit leaf & ground unicorn horn";
+			}
+			if (arg2 == 18) {
+				return 50, 231, "Fishing potion" + "<br>" + "Avantoe & snape grass";
+			}
+			if (arg2 == 19) {
+				return 52, 2970, "Super energy potion" + "<br>" + "Avantoe & Mort Myre fungi";
+			}
+			if (arg2 == 20) {
+				return 53, 10109, "Hunting potion - Avantoe & ground sabre-toothed kebbit teeth";
+			}
+			if (arg2 == 21) {
+				return 55, 225, "Super Strength potion" + "<br>" + "Kwuarm & limpwurt root";
+			}
+			if (arg2 == 22) {
+				return 57, 9016, "Magic essence potion" + "<br>" + "Star flower & ground gorak's claw";
+			}
+			if (arg2 == 23) {
+				return 60, 241, "Weapon poison" + "<br>" + "Kwuarm & ground blue dragon scale";
+			}
+			if (arg2 == 24) {
+				return 63, 223, "Super restore potion" + "<br>" + "Snapdragon & red spiders' eggs";
+			}
+			if (arg2 == 25) {
+				return 65, 10937, "Sanfew serum cure all" + "<br>" + "Super restore potion, snake weed, ground unicorn horn and nail beast nails.";
+			}
+			if (arg2 == 26) {
+				return 66, 239, "Super Defence potion" + "<br>" + "Cadantine & white berries";
+			}
+			if (arg2 == 27) {
+				return 68, 6049, "Extra strong anti-poison potion" + "<br>" + "Coconut milk, toadflax & yew roots";
+			}
+			if (arg2 == 28) {
+				return 69, 241, "Anti-firebreath potion" + "<br>" + "Lantadyme & ground blue dragon scale";
+			}
+			if (arg2 == 29) {
+				return 72, 245, "Ranging potion" + "<br>" + "Dwarf weed & wine of Zamorak";
+			}
+			if (arg2 == 30) {
+				return 73, 6016, "Extra strong weapon poison potion - Coconut milk, cactus spine & red spiders' eggs";
+			}
+			if (arg2 == 31) {
+				return 76, 3138, "Magic potion" + "<br>" + "Lantadyme & potato cactus";
+			}
+			if (arg2 == 32) {
+				return 77, 3961, "Stamina potion" + "<br>" + "Amylase & super energy potion";
+			}
+			if (arg2 == 33) {
+				return 78, 247, "Zamorak brew" + "<br>" + "Torstol & jangerberries";
+			}
+			if (arg2 == 34) {
+				return 79, 6051, "Super strong anti-poison potion" + "<br>" + "Coconut milk, irit leaf & magic tree roots";
+			}
+			if (arg2 == 35) {
+				return 81, 6693, "Saradomin brew" + "<br>" + "Toadflax & crushed birdnest";
+			}
+			if (arg2 == 36) {
+				return 82, 6018, "Super strong weapon poison potion" + "<br>" + "Coconut milk, nightshade & poison ivy berries";
+			}
+			if (arg2 == 37) {
+				return 84, 3256, "Extended antifire potion" + "<br>" + "Antifire potion & ground lava dragon scale";
+			}
+			if (arg2 == 38) {
+				return 87, 3997, "Anti-venom" + "<br>" + "Super strong anti-poison potion & Zulrah's scales";
+			}
+			if (arg2 == 39) {
+				return 90, 12695, "Super combat potion" + "<br>" + "Super attack potion, Super defence potion, Super strength potion & Torstol";
+			}
+			if (arg2 == 40) {
+				return 94, 269, "Super anti-venom" + "<br>" + "Anti-venom & Torstol";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return -1, 7620, "You must complete the Druidic Ritual quest before you can use Herblore";
+			}
+			if (arg2 == 1) {
+				return 3, 249, "Guam leaf";
+			}
+			if (arg2 == 2) {
+				return 3, 1534, "Rogue's purse";
+			}
+			if (arg2 == 3) {
+				return 3, 1526, "Snake weed";
+			}
+			if (arg2 == 4) {
+				return 5, 251, "Marrentill";
+			}
+			if (arg2 == 5) {
+				return 11, 253, "Tarromin";
+			}
+			if (arg2 == 6) {
+				return 20, 255, "Harralander";
+			}
+			if (arg2 == 7) {
+				return 25, 257, "Ranarr weed";
+			}
+			if (arg2 == 8) {
+				return 30, 2998, "Toadflax";
+			}
+			if (arg2 == 9) {
+				return 40, 259, "Irit leaf";
+			}
+			if (arg2 == 10) {
+				return 48, 261, "Avantoe";
+			}
+			if (arg2 == 11) {
+				return 54, 263, "Kwuarm";
+			}
+			if (arg2 == 12) {
+				return 59, 3000, "Snapdragon";
+			}
+			if (arg2 == 13) {
+				return 65, 265, "Cadantine";
+			}
+			if (arg2 == 14) {
+				return 67, 2481, "Lantadyme";
+			}
+			if (arg2 == 15) {
+				return 70, 267, "Dwarf weed";
+			}
+			if (arg2 == 16) {
+				return 75, 269, "Torstol";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return -1, 7620, "You must complete barbarian herblore training before you can make these potions.";
+			}
+			if (arg2 == 1) {
+				return 4, 11429, "Attack mix";
+			}
+			if (arg2 == 2) {
+				return 6, 11433, "Antipoison mix";
+			}
+			if (arg2 == 3) {
+				return 9, 11437, "Relicym's mix";
+			}
+			if (arg2 == 4) {
+				return 14, 11443, "Strength mix";
+			}
+			if (arg2 == 5) {
+				return 24, 11449, "Restore mix";
+			}
+			if (arg2 == 6) {
+				return 29, 11453, "Energy mix";
+			}
+			if (arg2 == 7) {
+				return 33, 11457, "Defence mix";
+			}
+			if (arg2 == 8) {
+				return 37, 11461, "Agility mix";
+			}
+			if (arg2 == 9) {
+				return 40, 11445, "Combat mix";
+			}
+			if (arg2 == 10) {
+				return 42, 11465, "Prayer mix";
+			}
+			if (arg2 == 11) {
+				return 47, 11469, "Super Attack mix";
+			}
+			if (arg2 == 12) {
+				return 51, 11473, "Anti-poison supermix";
+			}
+			if (arg2 == 13) {
+				return 53, 11477, "Fishing mix";
+			}
+			if (arg2 == 14) {
+				return 56, 11481, "Super energy mix";
+			}
+			if (arg2 == 15) {
+				return 58, 11517, "Hunting mix";
+			}
+			if (arg2 == 16) {
+				return 59, 11485, "Super Strength mix";
+			}
+			if (arg2 == 17) {
+				return 61, 11489, "Magic essence mix";
+			}
+			if (arg2 == 18) {
+				return 67, 11493, "Super restore mix";
+			}
+			if (arg2 == 19) {
+				return 71, 11497, "Super Defence mix";
+			}
+			if (arg2 == 20) {
+				return 74, 11501, "Antidote+ mix";
+			}
+			if (arg2 == 21) {
+				return 75, 11505, "Antifire mix";
+			}
+			if (arg2 == 22) {
+				return 80, 11509, "Ranging mix";
+			}
+			if (arg2 == 23) {
+				return 83, 11513, "Magic mix";
+			}
+			if (arg2 == 24) {
+				return 85, 11521, "Zamorak mix";
+			}
+			if (arg2 == 25) {
+				return 86, 12633, "Stamina mix";
+			}
+			if (arg2 == 26) {
+				return 91, 11960, "Extended antifire mix";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return -1, 7620, "Potions may be " + "<col=6f0000>" + "strong" + "</col>" + ", " + "<col=6f0000>" + "standard" + "</col>" + " or " + "<col=6f0000>" + "weak" + "</col>" + ", depending on your Herblore level.";
+			}
+			if (arg2 == 1) {
+				return 47, 20905, "Weak Golpar potions:";
+			}
+			if (arg2 == 2) {
+				return 126 * 47 / 100, 20905, "Standard Golpar potions";
+			}
+			if (arg2 == 3) {
+				return 150 * 47 / 100, 20905, "Strong Golpar potions";
+			}
+			if (arg2 == 4) {
+				return -1, 20920, "Elder potions" + "<br>" + " with Stinkhorn mushroom";
+			}
+			if (arg2 == 5) {
+				return -1, 20944, "Kodai potions" + "<br>" + " with Endarkened juice";
+			}
+			if (arg2 == 6) {
+				return -1, 20932, "Twisted potions" + "<br>" + " with Cicely";
+			}
+			if (arg2 == 7) {
+				return 52, 20908, "Weak Buchu leaf potions:";
+			}
+			if (arg2 == 8) {
+				return 126 * 52 / 100, 20908, "Standard Buchu leaf potions";
+			}
+			if (arg2 == 9) {
+				return 150 * 52 / 100, 20908, "Strong Buchu leaf potions";
+			}
+			if (arg2 == 10) {
+				return -1, 20956, "Revitalisation potions" + "<br>" + " with Stinkhorn mushroom";
+			}
+			if (arg2 == 11) {
+				return -1, 20980, "Xeric's Aid potions" + "<br>" + " with Endarkened juice";
+			}
+			if (arg2 == 12) {
+				return -1, 20968, "Prayer enhance potions" + "<br>" + " with Cicely";
+			}
+			if (arg2 == 13) {
+				return 60, 20902, "Weak Noxifer potions:";
+			}
+			if (arg2 == 14) {
+				return 126 * 60 / 100, 20902, "Standard Noxifer potions";
+			}
+			if (arg2 == 15) {
+				return 150 * 60 / 100, 20902, "Strong Noxifer potions";
+			}
+			if (arg2 == 16) {
+				return -1, 20992, "Overload" + "<br>" + " with Elder, Kodai & Twisted potions";
+			}
+			if (arg2 == 17) {
+				return -1, 20996, "For overload potions, the tier is capped at the tier of the potions used to make it.";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 10) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 3241, "Man";
+			}
+			if (arg2 == 1) {
+				return 10, 3243, "Farmer";
+			}
+			if (arg2 == 2) {
+				return 15, 4295, "Female H.A.M. follower";
+			}
+			if (arg2 == 3) {
+				return 20, 4297, "Male H.A.M. follower";
+			}
+			if (arg2 == 4) {
+				return 25, 3245, "Warrior";
+			}
+			if (arg2 == 5) {
+				return 32, 3247, "Rogue";
+			}
+			if (arg2 == 6) {
+				return 36, 10998, "Cave goblin";
+			}
+			if (arg2 == 7) {
+				return 38, 5068, "Master farmer";
+			}
+			if (arg2 == 8) {
+				return 40, 3249, "Guard";
+			}
+			if (arg2 == 9) {
+				return 45, 3686, "Fremennik";
+			}
+			if (arg2 == 10) {
+				return 45, 6782, "Bearded Pollnivnian bandit";
+			}
+			if (arg2 == 11) {
+				return 53, 4625, "Desert bandit";
+			}
+			if (arg2 == 12) {
+				return 55, 3251, "Knight";
+			}
+			if (arg2 == 13) {
+				return 55, 6781, "Pollnivnian bandit";
+			}
+			if (arg2 == 14) {
+				return 65, 3253, "Watchman";
+			}
+			if (arg2 == 15) {
+				return 65, 6780, "Menaphite thug";
+			}
+			if (arg2 == 16) {
+				return 70, 3255, "Paladin";
+			}
+			if (arg2 == 17) {
+				return 75, 3257, "Gnome";
+			}
+			if (arg2 == 18) {
+				return 80, 3259, "Hero";
+			}
+			if (arg2 == 19) {
+				return 85, 6105, "Elf";
+			}
+			if (arg2 == 20) {
+				return 90, 21278, "TzHaar";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 2, 1965, "Vegetable stall";
+			}
+			if (arg2 == 1) {
+				return 5, 1891, "Cake stall";
+			}
+			if (arg2 == 2) {
+				return 5, 1978, "Tea stall";
+			}
+			if (arg2 == 3) {
+				return 5, 1755, "Crafting stall";
+			}
+			if (arg2 == 4) {
+				return 5, 1963, "Monkey food stall";
+			}
+			if (arg2 == 5) {
+				return 20, 950, "Silk stall";
+			}
+			if (arg2 == 6) {
+				return 22, 7919, "Wine stall";
+			}
+			if (arg2 == 7) {
+				return 25, 19653, "Fruit stall";
+			}
+			if (arg2 == 8) {
+				return 27, 5171, "Seed stall";
+			}
+			if (arg2 == 9) {
+				return 35, 948, "Fur stall";
+			}
+			if (arg2 == 10) {
+				return 42, 331, "Fish stall";
+			}
+			if (arg2 == 11) {
+				return 49, 9174, "Crossbow stall";
+			}
+			if (arg2 == 12) {
+				return 50, 442, "Silver stall";
+			}
+			if (arg2 == 13) {
+				return 65, 556, "Magic stall";
+			}
+			if (arg2 == 14) {
+				return 65, 1323, "Scimitar stall";
+			}
+			if (arg2 == 15) {
+				return 65, 2007, "Spices stall";
+			}
+			if (arg2 == 16) {
+				return 75, 1607, "Gems stall";
+			}
+			if (arg2 == 17) {
+				return 82, 451, "Ore stall";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 13, 995, "Ardougne, Rellekka and the Wilderness";
+			}
+			if (arg2 == 1) {
+				return 28, 561, "Upstairs in Ardougne and Rellekka";
+			}
+			if (arg2 == 2) {
+				return 43, 995, "Upstairs in Ardougne";
+			}
+			if (arg2 == 3) {
+				return 47, 41, "Hemenster and Rellekka";
+			}
+			if (arg2 == 4) {
+				return 52, 4522, "Dorgesh-Kaan (average chests)";
+			}
+			if (arg2 == 5) {
+				return 59, 565, "Chaos druid tower north of Ardougne";
+			}
+			if (arg2 == 6) {
+				return 72, 383, "King Lathas' castle in Ardougne";
+			}
+			if (arg2 == 7) {
+				return 78, 1623, "Dorgesh-Kaan (rich chests)";
+			}
+			if (arg2 == 8) {
+				return 84, 1615, "Wilderness Rogues' Castle";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 1, 10855, "Sorceress's Garden minigame - Winter" + "<br>" + "Al Kharid region";
+			}
+			if (arg2 == 1) {
+				return 15, 10593, "Can steal cowbells from dairy cows";
+			}
+			if (arg2 == 2) {
+				return 21, 9026, "Pyramid Plunder minigame - Room 1" + "<br>" + "In the Jalsavrah Pyramid in Sophanem";
+			}
+			if (arg2 == 3) {
+				return 25, 10853, "Sorceress's Garden minigame - Spring" + "<br>" + "Al Kharid region";
+			}
+			if (arg2 == 4) {
+				return 31, 9032, "Pyramid Plunder - Room 2";
+			}
+			if (arg2 == 5) {
+				return 41, 9036, "Pyramid Plunder - Room 3";
+			}
+			if (arg2 == 6) {
+				return 44, 10981, "Can steal wire from the Dorgeshuun wire machine";
+			}
+			if (arg2 == 7) {
+				return 45, 10854, "Sorceress's Garden minigame - Autumn" + "<br>" + "Al Kharid region";
+			}
+			if (arg2 == 8) {
+				return 49, 13434, "Can pick locks in the Piscarilius district.";
+			}
+			if (arg2 == 9) {
+				return 50, 1623, "Can crack the wall safes in Rogues' Den";
+			}
+			if (arg2 == 10) {
+				return 51, 9042, "Pyramid Plunder - Room 4";
+			}
+			if (arg2 == 11) {
+				return 61, 9038, "Pyramid Plunder - Room 5";
+			}
+			if (arg2 == 12) {
+				return 65, 10852, "Sorceress's Garden minigame - Summer" + "<br>" + "Al Kharid region";
+			}
+			if (arg2 == 13) {
+				return 71, 9040, "Pyramid Plunder - Room 6";
+			}
+			if (arg2 == 14) {
+				return 81, 9028, "Pyramid Plunder - Room 7";
+			}
+			if (arg2 == 15) {
+				return 91, 9034, "Pyramid Plunder - Room 8";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 11) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 21, 5418, "Vegetable sack";
+			}
+			if (arg2 == 1) {
+				return 36, 5376, "Fruit basket";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 1, 1059, "Leather gloves";
+			}
+			if (arg2 == 1) {
+				return 7, 1061, "Leather boots";
+			}
+			if (arg2 == 2) {
+				return 9, 1167, "Leather cowl";
+			}
+			if (arg2 == 3) {
+				return 11, 1063, "Leather vambraces";
+			}
+			if (arg2 == 4) {
+				return 14, 1129, "Leather body";
+			}
+			if (arg2 == 5) {
+				return 14, 13385, "Members: Xerician hat";
+			}
+			if (arg2 == 6) {
+				return 15, 3327, "Members: Snail helmet";
+			}
+			if (arg2 == 7) {
+				return 15, 7539, "Members: Crab shell armour";
+			}
+			if (arg2 == 8) {
+				return 17, 13389, "Members: Xerician robe";
+			}
+			if (arg2 == 9) {
+				return 18, 1095, "Leather chaps";
+			}
+			if (arg2 == 10) {
+				return 22, 13387, "Members: Xerician top";
+			}
+			if (arg2 == 11) {
+				return 28, 1131, "Hard leather body";
+			}
+			if (arg2 == 12) {
+				return 32, 10077, "Members: Spiked vambraces";
+			}
+			if (arg2 == 13) {
+				return 35, 6259, "Members: Broodoo shield";
+			}
+			if (arg2 == 14) {
+				return 38, 1169, "Members: Coif";
+			}
+			if (arg2 == 15) {
+				return 41, 1133, "Members: Studded body";
+			}
+			if (arg2 == 16) {
+				return 43, 10824, "Members: Yak-hide leg armour";
+			}
+			if (arg2 == 17) {
+				return 44, 1097, "Members: Studded chaps";
+			}
+			if (arg2 == 18) {
+				return 45, 6328, "Members: Snakeskin boots";
+			}
+			if (arg2 == 19) {
+				return 46, 10822, "Members: Yak-hide body armour";
+			}
+			if (arg2 == 20) {
+				return 47, 6330, "Members: Snakeskin vambraces";
+			}
+			if (arg2 == 21) {
+				return 48, 6326, "Members: Snakeskin bandana";
+			}
+			if (arg2 == 22) {
+				return 51, 6324, "Members: Snakeskin chaps";
+			}
+			if (arg2 == 23) {
+				return 52, 12931, "Members: Serpentine helm";
+			}
+			if (arg2 == 24) {
+				return 53, 6322, "Members: Snakeskin body";
+			}
+			if (arg2 == 25) {
+				return 55, 11864, "Members: Slayer helm";
+			}
+			if (arg2 == 26) {
+				return 57, 1065, "Members: Green dragonhide vambraces";
+			}
+			if (arg2 == 27) {
+				return 60, 1099, "Members: Green dragonhide chaps";
+			}
+			if (arg2 == 28) {
+				return 63, 1135, "Members: Green dragonhide body";
+			}
+			if (arg2 == 29) {
+				return 66, 2487, "Members: Blue dragonhide vambraces";
+			}
+			if (arg2 == 30) {
+				return 68, 2493, "Members: Blue dragonhide chaps";
+			}
+			if (arg2 == 31) {
+				return 71, 2499, "Members: Blue dragonhide body";
+			}
+			if (arg2 == 32) {
+				return 73, 2489, "Members: Red dragonhide vambraces";
+			}
+			if (arg2 == 33) {
+				return 75, 2495, "Members: Red dragonhide chaps";
+			}
+			if (arg2 == 34) {
+				return 77, 2501, "Members: Red dragonhide body";
+			}
+			if (arg2 == 35) {
+				return 79, 2491, "Members: Black dragonhide vambraces";
+			}
+			if (arg2 == 36) {
+				return 82, 2497, "Members: Black dragonhide chaps";
+			}
+			if (arg2 == 37) {
+				return 84, 2503, "Members: Black dragonhide body";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 1, 1759, "Wool";
+			}
+			if (arg2 == 1) {
+				return 10, 1777, "Members: Flax into bow strings";
+			}
+			if (arg2 == 2) {
+				return 10, 9438, "Members: Sinew into crossbow strings";
+			}
+			if (arg2 == 3) {
+				return 19, 6038, "Members: Magic tree roots into magic strings";
+			}
+			if (arg2 == 4) {
+				return 30, 954, "Members: Yak hair into rope";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 1, 1931, "Pot";
+			}
+			if (arg2 == 1) {
+				return 7, 2313, "Pie dish";
+			}
+			if (arg2 == 2) {
+				return 8, 1923, "Bowl";
+			}
+			if (arg2 == 3) {
+				return 19, 5350, "Members: Plant pot";
+			}
+			if (arg2 == 4) {
+				return 25, 4440, "Members: Pot lid";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 1, 1919, "Beer glass";
+			}
+			if (arg2 == 1) {
+				return 4, 4527, "Candle lantern";
+			}
+			if (arg2 == 2) {
+				return 12, 4525, "Oil lamp";
+			}
+			if (arg2 == 3) {
+				return 26, 4535, "Oil lantern";
+			}
+			if (arg2 == 4) {
+				return 33, 229, "Vial";
+			}
+			if (arg2 == 5) {
+				return 42, 6667, "Fishbowl";
+			}
+			if (arg2 == 6) {
+				return 46, 567, "Glass orb";
+			}
+			if (arg2 == 7) {
+				return 49, 4542, "Bullseye lantern lens";
+			}
+			if (arg2 == 8) {
+				return 87, 10973, "Dorgeshuun light orb";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 5) {
+			if (arg2 == 0) {
+				return 1, 1609, "Members: Cut opal";
+			}
+			if (arg2 == 1) {
+				return 1, 21081, "Members: Opal ring";
+			}
+			if (arg2 == 2) {
+				return 3, 10496, "Polished buttons";
+			}
+			if (arg2 == 3) {
+				return 5, 1635, "Gold ring";
+			}
+			if (arg2 == 4) {
+				return 6, 1654, "Gold necklace";
+			}
+			if (arg2 == 5) {
+				return 7, 11069, "Members: Gold bracelet";
+			}
+			if (arg2 == 6) {
+				return 8, 1692, "Gold amulet";
+			}
+			if (arg2 == 7) {
+				return 13, 1611, "Members: Cut jade";
+			}
+			if (arg2 == 8) {
+				return 13, 21084, "Members: Jade ring";
+			}
+			if (arg2 == 9) {
+				return 16, 1716, "Holy symbol";
+			}
+			if (arg2 == 10) {
+				return 16, 1613, "Members: Cut red topaz";
+			}
+			if (arg2 == 11) {
+				return 16, 21087, "Members: Red topaz ring";
+			}
+			if (arg2 == 12) {
+				return 16, 21090, "Members: Opal necklace";
+			}
+			if (arg2 == 13) {
+				return 17, 1722, "Members: Unholy symbol";
+			}
+			if (arg2 == 14) {
+				return 20, 1607, "Cut sapphire";
+			}
+			if (arg2 == 15) {
+				return 20, 1637, "Sapphire ring";
+			}
+			if (arg2 == 16) {
+				return 22, 1656, "Sapphire necklace";
+			}
+			if (arg2 == 17) {
+				return 22, 21117, "Members: Opal bracelet";
+			}
+			if (arg2 == 18) {
+				return 23, 5525, "Tiara";
+			}
+			if (arg2 == 19) {
+				return 23, 11072, "Members: Sapphire bracelet";
+			}
+			if (arg2 == 20) {
+				return 24, 1694, "Sapphire amulet";
+			}
+			if (arg2 == 21) {
+				return 25, 21093, "Members: Jade necklace";
+			}
+			if (arg2 == 22) {
+				return 27, 1605, "Cut emerald";
+			}
+			if (arg2 == 23) {
+				return 27, 1639, "Emerald ring";
+			}
+			if (arg2 == 24) {
+				return 27, 21108, "Members: Opal amulet";
+			}
+			if (arg2 == 25) {
+				return 29, 1658, "Emerald necklace";
+			}
+			if (arg2 == 26) {
+				return 29, 21120, "Members: Jade bracelet";
+			}
+			if (arg2 == 27) {
+				return 30, 11076, "Members: Emerald bracelet";
+			}
+			if (arg2 == 28) {
+				return 31, 1696, "Emerald amulet";
+			}
+			if (arg2 == 29) {
+				return 32, 21096, "Members: Red topaz necklace";
+			}
+			if (arg2 == 30) {
+				return 34, 1603, "Cut ruby";
+			}
+			if (arg2 == 31) {
+				return 34, 1641, "Ruby ring";
+			}
+			if (arg2 == 32) {
+				return 34, 21111, "Members: Jade amulet";
+			}
+			if (arg2 == 33) {
+				return 37, 10132, "Members: Rabbit-foot necklaces";
+			}
+			if (arg2 == 34) {
+				return 38, 21123, "Members: Red topaz bracelet";
+			}
+			if (arg2 == 35) {
+				return 40, 1660, "Ruby necklace";
+			}
+			if (arg2 == 36) {
+				return 42, 11085, "Members: Ruby bracelet";
+			}
+			if (arg2 == 37) {
+				return 43, 1601, "Cut diamond";
+			}
+			if (arg2 == 38) {
+				return 43, 1643, "Diamond ring";
+			}
+			if (arg2 == 39) {
+				return 45, 21114, "Members: Red topaz amulet";
+			}
+			if (arg2 == 40) {
+				return 50, 1698, "Ruby amulet";
+			}
+			if (arg2 == 41) {
+				return 55, 1615, "Members: Cut dragonstone";
+			}
+			if (arg2 == 42) {
+				return 55, 1645, "Members: Dragonstone ring";
+			}
+			if (arg2 == 43) {
+				return 56, 1662, "Diamond necklace";
+			}
+			if (arg2 == 44) {
+				return 58, 11092, "Members: Diamond bracelet";
+			}
+			if (arg2 == 45) {
+				return 67, 6573, "Members: Cut onyx";
+			}
+			if (arg2 == 46) {
+				return 67, 6575, "Members: Onyx ring";
+			}
+			if (arg2 == 47) {
+				return 70, 1700, "Diamond amulet";
+			}
+			if (arg2 == 48) {
+				return 72, 1664, "Members: Dragonstone necklace";
+			}
+			if (arg2 == 49) {
+				return 74, 11115, "Members: Dragonstone bracelet";
+			}
+			if (arg2 == 50) {
+				return 75, 11866, "Members: Slayer ring";
+			}
+			if (arg2 == 51) {
+				return 80, 1702, "Members: Dragonstone amulet";
+			}
+			if (arg2 == 52) {
+				return 82, 6577, "Members: Onyx necklace";
+			}
+			if (arg2 == 53) {
+				return 84, 11130, "Members: Onyx bracelet";
+			}
+			if (arg2 == 54) {
+				return 89, 19493, "Members: Cut zenyte";
+			}
+			if (arg2 == 55) {
+				return 89, 19538, "Members: Zenyte ring";
+			}
+			if (arg2 == 56) {
+				return 90, 6581, "Members: Onyx amulet";
+			}
+			if (arg2 == 57) {
+				return 92, 19535, "Members: Zenyte necklace";
+			}
+			if (arg2 == 58) {
+				return 95, 19532, "Members: Zenyte bracelet";
+			}
+			if (arg2 == 59) {
+				return 98, 19541, "Members: Zenyte amulet";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 6) {
+			if (arg2 == 0) {
+				return 21, 9414, "Silver crossbow bolts";
+			}
+			if (arg2 == 1) {
+				return 54, 1395, "Water battlestaff";
+			}
+			if (arg2 == 2) {
+				return 58, 1399, "Earth battlestaff";
+			}
+			if (arg2 == 3) {
+				return 59, 12904, "Toxic Staff of the Dead";
+			}
+			if (arg2 == 4) {
+				return 59, 12899, "Trident of the Swamp";
+			}
+			if (arg2 == 5) {
+				return 62, 1393, "Fire battlestaff";
+			}
+			if (arg2 == 6) {
+				return 66, 1397, "Air battlestaff";
+			}
+			if (arg2 == 7) {
+				return 83, 4768, "Amethyst bolt tips";
+			}
+			if (arg2 == 8) {
+				return 85, 21350, "Amethyst arrowtips";
+			}
+			if (arg2 == 9) {
+				return 87, 13220, "Amethyst javelin heads";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 7) {
+			if (arg2 == 0) {
+				return 10, 19665, "Extract sinew from monkey tails";
+			}
+			if (arg2 == 1) {
+				return 30, 2347, "Repair Piscarilius fishing cranes";
+			}
+			if (arg2 == 2) {
+				return 38, 13445, "Dense essence" + "<br>" + "(with 38 Mining)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 19) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 6443, "15 Arrow shafts (Logs)";
+			}
+			if (arg2 == 1) {
+				return 1, 882, "Bronze arrows";
+			}
+			if (arg2 == 2) {
+				return 7, 4773, "Bronze 'brutal' arrows";
+			}
+			if (arg2 == 3) {
+				return 15, 6443, "30 Arrow shafts (Oak logs)";
+			}
+			if (arg2 == 4) {
+				return 15, 884, "Iron arrows";
+			}
+			if (arg2 == 5) {
+				return 18, 4778, "Iron 'brutal' arrows";
+			}
+			if (arg2 == 6) {
+				return 30, 6443, "45 Arrow shafts (Willow logs)";
+			}
+			if (arg2 == 7) {
+				return 30, 886, "Steel arrows";
+			}
+			if (arg2 == 8) {
+				return 33, 4783, "Steel 'brutal' arrows";
+			}
+			if (arg2 == 9) {
+				return 38, 4788, "Black 'brutal' arrows";
+			}
+			if (arg2 == 10) {
+				return 45, 6443, "60 Arrow shafts (Maple logs)";
+			}
+			if (arg2 == 11) {
+				return 45, 888, "Mithril arrows";
+			}
+			if (arg2 == 12) {
+				return 49, 4793, "Mithril 'brutal' arrows";
+			}
+			if (arg2 == 13) {
+				return 52, 4160, "Broad arrows";
+			}
+			if (arg2 == 14) {
+				return 60, 6443, "75 Arrow shafts (Yew logs)";
+			}
+			if (arg2 == 15) {
+				return 60, 890, "Adamant arrows";
+			}
+			if (arg2 == 16) {
+				return 62, 4798, "Adamant 'brutal' arrows";
+			}
+			if (arg2 == 17) {
+				return 75, 6443, "90 Arrow shafts (Magic logs)";
+			}
+			if (arg2 == 18) {
+				return 75, 892, "Rune arrows";
+			}
+			if (arg2 == 19) {
+				return 77, 4803, "Rune 'brutal' arrows";
+			}
+			if (arg2 == 20) {
+				return 82, 21326, "Amethyst arrows";
+			}
+			if (arg2 == 21) {
+				return 90, 6443, "105 Arrow shafts (Redwood logs)";
+			}
+			if (arg2 == 22) {
+				return 90, 11212, "Dragon arrows";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 5, 841, "Shortbows";
+			}
+			if (arg2 == 1) {
+				return 10, 839, "Longbows";
+			}
+			if (arg2 == 2) {
+				return 20, 843, "Oak shortbows";
+			}
+			if (arg2 == 3) {
+				return 25, 845, "Oak longbows";
+			}
+			if (arg2 == 4) {
+				return 30, 4827, "Ogre composite bows";
+			}
+			if (arg2 == 5) {
+				return 35, 849, "Willow shortbows";
+			}
+			if (arg2 == 6) {
+				return 40, 847, "Willow longbows";
+			}
+			if (arg2 == 7) {
+				return 50, 853, "Maple shortbows";
+			}
+			if (arg2 == 8) {
+				return 55, 851, "Maple longbows";
+			}
+			if (arg2 == 9) {
+				return 65, 857, "Yew shortbows";
+			}
+			if (arg2 == 10) {
+				return 70, 855, "Yew longbows";
+			}
+			if (arg2 == 11) {
+				return 80, 861, "Magic shortbows";
+			}
+			if (arg2 == 12) {
+				return 85, 859, "Magic longbows";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 9, 877, "Bronze bolts";
+			}
+			if (arg2 == 1) {
+				return 11, 879, "Opal-tipped bronze bolts";
+			}
+			if (arg2 == 2) {
+				return 24, 9139, "Blurite bolts" + "<br>" + "(after Knight's Sword quest)";
+			}
+			if (arg2 == 3) {
+				return 26, 9335, "Jade-tipped blurite bolts";
+			}
+			if (arg2 == 4) {
+				return 32, 10158, "Kebbit-tipped hunting bolts";
+			}
+			if (arg2 == 5) {
+				return 39, 9140, "Iron bolts";
+			}
+			if (arg2 == 6) {
+				return 41, 880, "Pearl-tipped iron bolts";
+			}
+			if (arg2 == 7) {
+				return 42, 10159, "Long kebbit-tipped hunting bolts";
+			}
+			if (arg2 == 8) {
+				return 43, 9145, "Silver bolts";
+			}
+			if (arg2 == 9) {
+				return 46, 9141, "Steel bolts";
+			}
+			if (arg2 == 10) {
+				return 48, 9336, "Red topaz-tipped steel bolts";
+			}
+			if (arg2 == 11) {
+				return 51, 881, "Barbed-tipped bolts";
+			}
+			if (arg2 == 12) {
+				return 54, 9142, "Mithril bolts";
+			}
+			if (arg2 == 13) {
+				return 55, 11875, "Broad bolts";
+			}
+			if (arg2 == 14) {
+				return 56, 9337, "Sapphire-tipped mithril bolts";
+			}
+			if (arg2 == 15) {
+				return 58, 9338, "Emerald-tipped mithril bolts";
+			}
+			if (arg2 == 16) {
+				return 59, 9418, "Mithril grapple-tipped bolts";
+			}
+			if (arg2 == 17) {
+				return 61, 9143, "Adamantite bolts";
+			}
+			if (arg2 == 18) {
+				return 63, 9339, "Ruby-tipped adamantite bolts";
+			}
+			if (arg2 == 19) {
+				return 65, 9340, "Diamond-tipped adamantite bolts";
+			}
+			if (arg2 == 20) {
+				return 69, 9144, "Runite bolts";
+			}
+			if (arg2 == 21) {
+				return 71, 9341, "Dragonstone-tipped runite bolts";
+			}
+			if (arg2 == 22) {
+				return 73, 9342, "Onyx-tipped runite bolts";
+			}
+			if (arg2 == 23) {
+				return 76, 21316, "Amethyst broad bolts";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 10, 806, "Bronze darts";
+			}
+			if (arg2 == 1) {
+				return 22, 807, "Iron darts";
+			}
+			if (arg2 == 2) {
+				return 37, 808, "Steel darts";
+			}
+			if (arg2 == 3) {
+				return 52, 809, "Mithril darts";
+			}
+			if (arg2 == 4) {
+				return 53, 12926, "Toxic blowpipe";
+			}
+			if (arg2 == 5) {
+				return 67, 810, "Adamant darts";
+			}
+			if (arg2 == 6) {
+				return 81, 811, "Rune darts";
+			}
+			if (arg2 == 7) {
+				return 95, 11230, "Dragon darts";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 9, 9440, "Bronze/wooden crossbows";
+			}
+			if (arg2 == 1) {
+				return 24, 9442, "Blurite/oak crossbows" + "<br>" + "(after Knight's Sword quest)";
+			}
+			if (arg2 == 2) {
+				return 39, 9444, "Iron/willow crossbows";
+			}
+			if (arg2 == 3) {
+				return 46, 9446, "Steel/teak crossbows";
+			}
+			if (arg2 == 4) {
+				return 54, 9448, "Mithril/maple crossbows";
+			}
+			if (arg2 == 5) {
+				return 61, 9450, "Adamantite/mahogany crossbows";
+			}
+			if (arg2 == 6) {
+				return 69, 9452, "Runite/yew crossbows";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 5) {
+			if (arg2 == 0) {
+				return 3, 825, "Bronze javelins";
+			}
+			if (arg2 == 1) {
+				return 17, 826, "Iron javelins";
+			}
+			if (arg2 == 2) {
+				return 32, 827, "Steel javelins";
+			}
+			if (arg2 == 3) {
+				return 47, 19478, "Light ballistae";
+			}
+			if (arg2 == 4) {
+				return 47, 828, "Mithril javelins";
+			}
+			if (arg2 == 5) {
+				return 62, 829, "Adamant javelins";
+			}
+			if (arg2 == 6) {
+				return 72, 19481, "Heavy ballistae";
+			}
+			if (arg2 == 7) {
+				return 77, 830, "Rune javelins";
+			}
+			if (arg2 == 8) {
+				return 84, 21318, "Amethyst javelins";
+			}
+			if (arg2 == 9) {
+				return 92, 19484, "Dragon javelins";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 13) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 1436, "Rune essence" + "<br>" + "(after Rune Mysteries quest)";
+			}
+			if (arg2 == 1) {
+				return 1, 434, "Clay";
+			}
+			if (arg2 == 2) {
+				return 1, 436, "Copper ore";
+			}
+			if (arg2 == 3) {
+				return 1, 438, "Tin ore";
+			}
+			if (arg2 == 4) {
+				return 10, 668, "Blurite ore";
+			}
+			if (arg2 == 5) {
+				return 10, 3211, "Members: Limestone";
+			}
+			if (arg2 == 6) {
+				return 15, 440, "Iron ore";
+			}
+			if (arg2 == 7) {
+				return 20, 442, "Silver ore";
+			}
+			if (arg2 == 8) {
+				return 30, 453, "Coal";
+			}
+			if (arg2 == 9) {
+				return 30, 7936, "Members: Pure essence" + "<br>" + "(after Rune Mysteries quest)";
+			}
+			if (arg2 == 10) {
+				return 30, 12011, "Members: Motherlode mine (lower level)";
+			}
+			if (arg2 == 11) {
+				return 35, 6977, "Members: Sandstone";
+			}
+			if (arg2 == 12) {
+				return 38, 13445, "Members: Dense essence" + "<br>" + "(with 38 Crafting)";
+			}
+			if (arg2 == 13) {
+				return 40, 444, "Gold";
+			}
+			if (arg2 == 14) {
+				return 40, 1629, "Members: Gem rocks";
+			}
+			if (arg2 == 15) {
+				return 42, 13571, "Members: Volcanic sulphur";
+			}
+			if (arg2 == 16) {
+				return 43, 13573, "Members: Lovakengj Blast Mine";
+			}
+			if (arg2 == 17) {
+				return 45, 6983, "Members: Granite";
+			}
+			if (arg2 == 18) {
+				return 55, 447, "Mithril ore";
+			}
+			if (arg2 == 19) {
+				return 65, 13356, "Members: Lovakite ore";
+			}
+			if (arg2 == 20) {
+				return 70, 449, "Adamantite ore";
+			}
+			if (arg2 == 21) {
+				return 72, 12011, "Members: Motherlode mine (upper level)";
+			}
+			if (arg2 == 22) {
+				return 85, 451, "Runite ore";
+			}
+			if (arg2 == 23) {
+				return 92, 21347, "Members: Amethyst";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 1, 1265, "Bronze pickaxe";
+			}
+			if (arg2 == 1) {
+				return 1, 1267, "Iron pickaxe";
+			}
+			if (arg2 == 2) {
+				return 6, 1269, "Steel pickaxe";
+			}
+			if (arg2 == 3) {
+				return 11, 12297, "Black pickaxe";
+			}
+			if (arg2 == 4) {
+				return 20, 21343, "Members: Mining gloves";
+			}
+			if (arg2 == 5) {
+				return 21, 1273, "Mithril pickaxe";
+			}
+			if (arg2 == 6) {
+				return 31, 1271, "Adamant pickaxe";
+			}
+			if (arg2 == 7) {
+				return 41, 1275, "Rune pickaxe";
+			}
+			if (arg2 == 8) {
+				return 55, 21345, "Members: Superior mining gloves";
+			}
+			if (arg2 == 9) {
+				return 61, 11920, "Members: Dragon pickaxe";
+			}
+			if (arg2 == 10) {
+				return 61, 20014, "Members: 3rd age pickaxe";
+			}
+			if (arg2 == 11) {
+				return 61, 13243, "Members: Infernal pickaxe" + "<br>" + "(with 85 Smithing)";
+			}
+			if (arg2 == 12) {
+				return 70, 21392, "Members: Expert mining gloves";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 14) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 2349, "Bronze" + "<br>" + "1 tin ore & 1 copper ore";
+			}
+			if (arg2 == 1) {
+				return 8, 9467, "Members: Blurite" + "<br>" + "(after Knight's Sword quest)";
+			}
+			if (arg2 == 2) {
+				return 15, 2351, "Iron" + "<br>" + "50% chance of success";
+			}
+			if (arg2 == 3) {
+				return 20, 2355, "Silver";
+			}
+			if (arg2 == 4) {
+				return 30, 2353, "Steel" + "<br>" + "2 coal & 1 iron ore";
+			}
+			if (arg2 == 5) {
+				return 40, 2357, "Gold";
+			}
+			if (arg2 == 6) {
+				return 45, 13354, "Members: Lovakite" + "<br>" + "2 coal & 1 lovakite ore";
+			}
+			if (arg2 == 7) {
+				return 50, 2359, "Mithril" + "<br>" + "4 coal & 1 mithril ore";
+			}
+			if (arg2 == 8) {
+				return 70, 2361, "Adamant" + "<br>" + "6 coal & 1 adamantite ore";
+			}
+			if (arg2 == 9) {
+				return 85, 2363, "Runite" + "<br>" + "8 coal & 1 runite ore";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 1, 1205, "Bronze daggers" + "<br>" + "1 bar";
+			}
+			if (arg2 == 1) {
+				return 1, 1351, "Bronze axes" + "<br>" + "1 bar";
+			}
+			if (arg2 == 2) {
+				return 2, 1422, "Bronze maces" + "<br>" + "1 bar";
+			}
+			if (arg2 == 3) {
+				return 3, 1139, "Bronze medium helms" + "<br>" + "1 bar";
+			}
+			if (arg2 == 4) {
+				return 3, 9375, "Members: Bronze crossbow bolts" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 5) {
+				return 4, 1277, "Bronze swords" + "<br>" + "1 bar";
+			}
+			if (arg2 == 6) {
+				return 4, 819, "Members: Bronze dart tips" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 7) {
+				return 4, 1794, "Members: Bronze wire" + "<br>" + "1 bar";
+			}
+			if (arg2 == 8) {
+				return 4, 4819, "Members: Bronze nails" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 9) {
+				return 5, 1321, "Bronze scimitars" + "<br>" + "2 bars";
+			}
+			if (arg2 == 10) {
+				return 5, 1237, "Members: Bronze spears" + "<br>" + "1 bar, 1 log";
+			}
+			if (arg2 == 11) {
+				return 5, 11367, "Members: Bronze hastae" + "<br>" + "1 bar, 1 log";
+			}
+			if (arg2 == 12) {
+				return 5, 39, "Members: Bronze arrowheads" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 13) {
+				return 6, 9420, "Members: Bronze crossbow limbs" + "<br>" + "1 bar";
+			}
+			if (arg2 == 14) {
+				return 6, 1291, "Bronze longswords" + "<br>" + "2 bars";
+			}
+			if (arg2 == 15) {
+				return 6, 3072, "Members: Bronze javelin heads" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 16) {
+				return 7, 1155, "Bronze full helms" + "<br>" + "2 bars";
+			}
+			if (arg2 == 17) {
+				return 7, 864, "Members: Bronze throwing knives" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 18) {
+				return 8, 1173, "Bronze square shields" + "<br>" + "2 bars";
+			}
+			if (arg2 == 19) {
+				return 9, 1337, "Bronze warhammers" + "<br>" + "3 bars";
+			}
+			if (arg2 == 20) {
+				return 10, 1375, "Bronze battleaxes" + "<br>" + "3 bars";
+			}
+			if (arg2 == 21) {
+				return 11, 1103, "Bronze chainbodies" + "<br>" + "3 bars";
+			}
+			if (arg2 == 22) {
+				return 12, 1189, "Bronze kiteshields" + "<br>" + "3 bars";
+			}
+			if (arg2 == 23) {
+				return 13, 3095, "Members: Bronze claws" + "<br>" + "2 bars";
+			}
+			if (arg2 == 24) {
+				return 14, 1307, "Bronze two-handed swords" + "<br>" + "3 bars";
+			}
+			if (arg2 == 25) {
+				return 16, 1075, "Bronze platelegs" + "<br>" + "3 bars";
+			}
+			if (arg2 == 26) {
+				return 16, 1087, "Bronze plateskirts" + "<br>" + "3 bars";
+			}
+			if (arg2 == 27) {
+				return 18, 1117, "Bronze platebodies" + "<br>" + "5 bars";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return -1, 7620, "After completing Knight's Sword, able to make:";
+			}
+			if (arg2 == 1) {
+				return 8, 9376, "Blurite crossbow bolts" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 2) {
+				return 13, 9422, "Blurite crossbow limbs" + "<br>" + "1 bar";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 15, 1203, "Iron daggers" + "<br>" + "1 bar";
+			}
+			if (arg2 == 1) {
+				return 16, 1349, "Iron axes" + "<br>" + "1 bar";
+			}
+			if (arg2 == 2) {
+				return 17, 1420, "Iron maces" + "<br>" + "1 bar";
+			}
+			if (arg2 == 3) {
+				return 17, 7225, "Members: Iron spits" + "<br>" + "1 bar";
+			}
+			if (arg2 == 4) {
+				return 18, 1137, "Iron medium helms" + "<br>" + "1 bar";
+			}
+			if (arg2 == 5) {
+				return 18, 9377, "Members: Iron crossbow bolts" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 6) {
+				return 19, 1279, "Iron swords" + "<br>" + "1 bar";
+			}
+			if (arg2 == 7) {
+				return 19, 820, "Members: Iron dart tips" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 8) {
+				return 19, 4820, "Members: Iron nails" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 9) {
+				return 20, 1323, "Iron scimitars" + "<br>" + "2 bars";
+			}
+			if (arg2 == 10) {
+				return 20, 1239, "Members: Iron spears" + "<br>" + "1 bar, 1 oak log";
+			}
+			if (arg2 == 11) {
+				return 20, 11369, "Members: Iron hastae" + "<br>" + "1 bar, 1 oak log";
+			}
+			if (arg2 == 12) {
+				return 20, 40, "Members: Iron arrowheads" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 13) {
+				return 21, 1293, "Iron longswords" + "<br>" + "2 bars";
+			}
+			if (arg2 == 14) {
+				return 21, 3082, "Members: Iron javelin heads" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 15) {
+				return 22, 1153, "Iron full helms" + "<br>" + "2 bars";
+			}
+			if (arg2 == 16) {
+				return 22, 863, "Members: Iron throwing knives" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 17) {
+				return 23, 1175, "Iron square shields" + "<br>" + "2 bars";
+			}
+			if (arg2 == 18) {
+				return 23, 9423, "Members: Iron crossbow limbs" + "<br>" + "1 bar";
+			}
+			if (arg2 == 19) {
+				return 24, 1335, "Iron warhammers" + "<br>" + "3 bars";
+			}
+			if (arg2 == 20) {
+				return 25, 1363, "Iron battleaxes" + "<br>" + "3 bars";
+			}
+			if (arg2 == 21) {
+				return 26, 1101, "Iron chainbodies" + "<br>" + "3 bars";
+			}
+			if (arg2 == 22) {
+				return 26, 4540, "Members: Oil lantern frames" + "<br>" + "1 bar";
+			}
+			if (arg2 == 23) {
+				return 27, 1191, "Iron kiteshields" + "<br>" + "3 bars";
+			}
+			if (arg2 == 24) {
+				return 28, 3096, "Members: Iron claws" + "<br>" + "2 bars";
+			}
+			if (arg2 == 25) {
+				return 29, 1309, "Iron two-handed swords" + "<br>" + "3 bars";
+			}
+			if (arg2 == 26) {
+				return 31, 1067, "Iron platelegs" + "<br>" + "3 bars";
+			}
+			if (arg2 == 27) {
+				return 31, 1081, "Iron plateskirts" + "<br>" + "3 bars";
+			}
+			if (arg2 == 28) {
+				return 33, 1115, "Iron platebodies" + "<br>" + "5 bars";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 30, 1207, "Steel daggers" + "<br>" + "1 bar";
+			}
+			if (arg2 == 1) {
+				return 31, 1353, "Steel axes" + "<br>" + "1 bar";
+			}
+			if (arg2 == 2) {
+				return 32, 1424, "Steel maces" + "<br>" + "1 bar";
+			}
+			if (arg2 == 3) {
+				return 33, 1141, "Steel medium helms" + "<br>" + "1 bar";
+			}
+			if (arg2 == 4) {
+				return 33, 9378, "Members: Steel crossbow bolts" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 5) {
+				return 34, 1281, "Steel swords" + "<br>" + "1 bar";
+			}
+			if (arg2 == 6) {
+				return 34, 1539, "Steel nails" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 7) {
+				return 34, 821, "Members: Steel dart tips" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 8) {
+				return 35, 1325, "Steel scimitars" + "<br>" + "2 bars";
+			}
+			if (arg2 == 9) {
+				return 35, 1241, "Members: Steel spears" + "<br>" + "1 bar, 1 willow log";
+			}
+			if (arg2 == 10) {
+				return 35, 11371, "Members: Steel hastae" + "<br>" + "1 bar, 1 willow log";
+			}
+			if (arg2 == 11) {
+				return 35, 41, "Members: Steel arrowheads" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 12) {
+				return 35, 2, "Members: Cannonballs" + "<br>" + "1 bar makes 4";
+			}
+			if (arg2 == 13) {
+				return 36, 9425, "Members: Steel crossbow limbs" + "<br>" + "1 bar";
+			}
+			if (arg2 == 14) {
+				return 36, 1295, "Steel longswords" + "<br>" + "2 bars";
+			}
+			if (arg2 == 15) {
+				return 36, 3090, "Members: Steel javelin heads" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 16) {
+				return 36, 2370, "Members: Steel studs" + "<br>" + "1 bar";
+			}
+			if (arg2 == 17) {
+				return 37, 1157, "Steel full helms" + "<br>" + "2 bars";
+			}
+			if (arg2 == 18) {
+				return 37, 865, "Members: Steel throwing knives" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 19) {
+				return 38, 1177, "Steel square shields" + "<br>" + "2 bars";
+			}
+			if (arg2 == 20) {
+				return 39, 1339, "Steel warhammers" + "<br>" + "3 bars";
+			}
+			if (arg2 == 21) {
+				return 40, 1365, "Steel battleaxes" + "<br>" + "3 bars";
+			}
+			if (arg2 == 22) {
+				return 41, 1105, "Steel chainbodies" + "<br>" + "3 bars";
+			}
+			if (arg2 == 23) {
+				return 42, 1193, "Steel kiteshields" + "<br>" + "3 bars";
+			}
+			if (arg2 == 24) {
+				return 43, 3097, "Members: Steel claws" + "<br>" + "2 bars";
+			}
+			if (arg2 == 25) {
+				return 44, 1311, "Steel two-handed swords" + "<br>" + "3 bars";
+			}
+			if (arg2 == 26) {
+				return 46, 1069, "Steel platelegs" + "<br>" + "3 bars";
+			}
+			if (arg2 == 27) {
+				return 46, 1083, "Steel plateskirts" + "<br>" + "3 bars";
+			}
+			if (arg2 == 28) {
+				return 48, 1119, "Steel platebodies" + "<br>" + "5 bars";
+			}
+			if (arg2 == 29) {
+				return 49, 4544, "Members: Bullseye lantern frames" + "<br>" + "1 bar";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 5) {
+			if (arg2 == 0) {
+				return 50, 1209, "Mithril daggers" + "<br>" + "1 bar";
+			}
+			if (arg2 == 1) {
+				return 51, 1355, "Mithril axes" + "<br>" + "1 bar";
+			}
+			if (arg2 == 2) {
+				return 52, 1428, "Mithril maces" + "<br>" + "1 bar";
+			}
+			if (arg2 == 3) {
+				return 53, 1143, "Mithril medium helms" + "<br>" + "1 bar";
+			}
+			if (arg2 == 4) {
+				return 53, 9379, "Members: Mithril crossbow bolts" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 5) {
+				return 54, 1285, "Mithril swords" + "<br>" + "1 bar";
+			}
+			if (arg2 == 6) {
+				return 54, 822, "Members: Mithril dart tips" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 7) {
+				return 54, 4822, "Members: Mithril nails" + "<br>" + "1 bar Makes 15";
+			}
+			if (arg2 == 8) {
+				return 55, 1329, "Mithril scimitars" + "<br>" + "2 bars";
+			}
+			if (arg2 == 9) {
+				return 55, 1243, "Members: Mithril spears" + "<br>" + "1 bar, 1 maple log";
+			}
+			if (arg2 == 10) {
+				return 55, 11373, "Members: Mithril hastae" + "<br>" + "1 bar, 1 maple log";
+			}
+			if (arg2 == 11) {
+				return 55, 42, "Members: Mithril arrowheads" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 12) {
+				return 56, 9427, "Members: Mithril crossbow limbs" + "<br>" + "1 bar";
+			}
+			if (arg2 == 13) {
+				return 56, 1299, "Mithril longswords" + "<br>" + "2 bars";
+			}
+			if (arg2 == 14) {
+				return 56, 3246, "Members: Mithril javelin heads" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 15) {
+				return 57, 1159, "Mithril full helms" + "<br>" + "2 bars";
+			}
+			if (arg2 == 16) {
+				return 57, 866, "Members: Mithril throwing knives" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 17) {
+				return 58, 1181, "Mithril square shields" + "<br>" + "2 bars";
+			}
+			if (arg2 == 18) {
+				return 59, 1343, "Mithril warhammers" + "<br>" + "3 bars";
+			}
+			if (arg2 == 19) {
+				return 59, 9416, "Members: Mithril crossbow grapple tips" + "<br>" + "1 bar";
+			}
+			if (arg2 == 20) {
+				return 60, 1369, "Mithril battleaxes" + "<br>" + "3 bars";
+			}
+			if (arg2 == 21) {
+				return 61, 1109, "Mithril chainbodies" + "<br>" + "3 bars";
+			}
+			if (arg2 == 22) {
+				return 62, 1197, "Mithril kiteshields" + "<br>" + "3 bars";
+			}
+			if (arg2 == 23) {
+				return 63, 3099, "Members: Mithril claws" + "<br>" + "2 bars";
+			}
+			if (arg2 == 24) {
+				return 64, 1315, "Mithril two-handed swords" + "<br>" + "3 bars";
+			}
+			if (arg2 == 25) {
+				return 66, 1071, "Mithril platelegs" + "<br>" + "3 bars";
+			}
+			if (arg2 == 26) {
+				return 66, 1085, "Mithril plateskirts" + "<br>" + "3 bars";
+			}
+			if (arg2 == 27) {
+				return 68, 1121, "Mithril platebodies" + "<br>" + "5 bars";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 6) {
+			if (arg2 == 0) {
+				return 70, 1211, "Adamant daggers" + "<br>" + "1 bar";
+			}
+			if (arg2 == 1) {
+				return 71, 1357, "Adamant axes" + "<br>" + "1 bar";
+			}
+			if (arg2 == 2) {
+				return 72, 1430, "Adamant maces" + "<br>" + "1 bar";
+			}
+			if (arg2 == 3) {
+				return 73, 1145, "Adamant medium helms" + "<br>" + "1 bar";
+			}
+			if (arg2 == 4) {
+				return 73, 9380, "Members: Adamant crossbow bolts" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 5) {
+				return 74, 1287, "Adamant swords" + "<br>" + "1 bar";
+			}
+			if (arg2 == 6) {
+				return 74, 823, "Members: Adamant dart tips" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 7) {
+				return 74, 4823, "Members: Adamant nails" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 8) {
+				return 75, 1331, "Adamant scimitars" + "<br>" + "2 bars";
+			}
+			if (arg2 == 9) {
+				return 75, 1245, "Members: Adamant spears" + "<br>" + "1 bar, 1 yew log";
+			}
+			if (arg2 == 10) {
+				return 75, 11375, "Members: Adamant hastae" + "<br>" + "1 bar, 1 yew log";
+			}
+			if (arg2 == 11) {
+				return 75, 43, "Members: Adamant arrowheads" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 12) {
+				return 76, 9429, "Members: Adamant crossbow limbs" + "<br>" + "1 bar";
+			}
+			if (arg2 == 13) {
+				return 76, 1301, "Adamant longswords" + "<br>" + "2 bars";
+			}
+			if (arg2 == 14) {
+				return 76, 3909, "Members: Adamant javelin heads" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 15) {
+				return 77, 1161, "Adamant full helms" + "<br>" + "2 bars";
+			}
+			if (arg2 == 16) {
+				return 77, 867, "Members: Adamant throwing knives" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 17) {
+				return 78, 1183, "Adamant square shields" + "<br>" + "2 bars";
+			}
+			if (arg2 == 18) {
+				return 79, 1345, "Adamant warhammers" + "<br>" + "3 bars";
+			}
+			if (arg2 == 19) {
+				return 80, 1371, "Adamant battleaxes" + "<br>" + "3 bars";
+			}
+			if (arg2 == 20) {
+				return 81, 1111, "Adamant chainbodies" + "<br>" + "3 bars";
+			}
+			if (arg2 == 21) {
+				return 82, 1199, "Adamant kiteshields" + "<br>" + "3 bars";
+			}
+			if (arg2 == 22) {
+				return 83, 3100, "Members: Adamant claws" + "<br>" + "2 bars";
+			}
+			if (arg2 == 23) {
+				return 84, 1317, "Adamant two-handed swords" + "<br>" + "3 bars";
+			}
+			if (arg2 == 24) {
+				return 86, 1073, "Adamant platelegs" + "<br>" + "3 bars";
+			}
+			if (arg2 == 25) {
+				return 86, 1091, "Adamant plateskirts" + "<br>" + "3 bars";
+			}
+			if (arg2 == 26) {
+				return 88, 1123, "Adamant platebodies" + "<br>" + "5 bars";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 7) {
+			if (arg2 == 0) {
+				return 85, 1213, "Rune daggers" + "<br>" + "1 bar";
+			}
+			if (arg2 == 1) {
+				return 86, 1359, "Rune axes" + "<br>" + "1 bar";
+			}
+			if (arg2 == 2) {
+				return 87, 1432, "Rune maces" + "<br>" + "1 bar";
+			}
+			if (arg2 == 3) {
+				return 88, 1147, "Rune medium helms" + "<br>" + "1 bar";
+			}
+			if (arg2 == 4) {
+				return 88, 9381, "Members: Rune crossbow bolts" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 5) {
+				return 89, 1289, "Rune swords" + "<br>" + "1 bar";
+			}
+			if (arg2 == 6) {
+				return 89, 824, "Members: Rune dart tips" + "<br>" + "1 bar makes 10";
+			}
+			if (arg2 == 7) {
+				return 89, 4824, "Members: Rune nails" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 8) {
+				return 90, 1333, "Rune scimitars" + "<br>" + "2 bars";
+			}
+			if (arg2 == 9) {
+				return 90, 1247, "Members: Rune spears" + "<br>" + "1 bar, 1 magic log";
+			}
+			if (arg2 == 10) {
+				return 90, 11377, "Members: Rune hastae" + "<br>" + "1 bar, 1 magic log";
+			}
+			if (arg2 == 11) {
+				return 90, 44, "Members: Rune arrowheads" + "<br>" + "1 bar makes 15";
+			}
+			if (arg2 == 12) {
+				return 91, 9431, "Members: Rune crossbow limbs" + "<br>" + "1 bar";
+			}
+			if (arg2 == 13) {
+				return 91, 1303, "Rune longswords" + "<br>" + "2 bars";
+			}
+			if (arg2 == 14) {
+				return 91, 3917, "Members: Rune javelin heads" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 15) {
+				return 92, 1163, "Rune full helms" + "<br>" + "2 bars";
+			}
+			if (arg2 == 16) {
+				return 92, 868, "Members: Rune throwing knives" + "<br>" + "1 bar makes 5";
+			}
+			if (arg2 == 17) {
+				return 93, 1185, "Rune square shields" + "<br>" + "2 bars";
+			}
+			if (arg2 == 18) {
+				return 94, 1347, "Rune warhammers" + "<br>" + "3 bars";
+			}
+			if (arg2 == 19) {
+				return 95, 1373, "Rune battleaxes" + "<br>" + "3 bars";
+			}
+			if (arg2 == 20) {
+				return 96, 1113, "Rune chainbodies" + "<br>" + "3 bars";
+			}
+			if (arg2 == 21) {
+				return 97, 1201, "Rune kiteshields" + "<br>" + "3 bars";
+			}
+			if (arg2 == 22) {
+				return 98, 3101, "Members: Rune claws" + "<br>" + "2 bars";
+			}
+			if (arg2 == 23) {
+				return 99, 1319, "Rune two-handed swords" + "<br>" + "3 bars";
+			}
+			if (arg2 == 24) {
+				return 99, 1079, "Rune platelegs" + "<br>" + "3 bars";
+			}
+			if (arg2 == 25) {
+				return 99, 1093, "Rune plateskirts" + "<br>" + "3 bars";
+			}
+			if (arg2 == 26) {
+				return 99, 1127, "Rune platebodies" + "<br>" + "5 bars";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 8) {
+			if (arg2 == 0) {
+				return 45, 13538, "Shayzien supply gloves (1)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 1) {
+				return 47, 13539, "Shayzien supply boots (1)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 2) {
+				return 49, 13540, "Shayzien supply helm (1)" + "<br>" + "2 bars";
+			}
+			if (arg2 == 3) {
+				return 51, 13541, "Shayzien supply greaves (1)" + "<br>" + "3 bars";
+			}
+			if (arg2 == 4) {
+				return 53, 13542, "Shayzien supply platebody (1)" + "<br>" + "4 bars";
+			}
+			if (arg2 == 5) {
+				return 55, 13543, "Shayzien supply gloves (2)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 6) {
+				return 57, 13544, "Shayzien supply boots (2)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 7) {
+				return 59, 13545, "Shayzien supply helm (2)" + "<br>" + "2 bars";
+			}
+			if (arg2 == 8) {
+				return 61, 13546, "Shayzien supply greaves (2)" + "<br>" + "3 bars";
+			}
+			if (arg2 == 9) {
+				return 63, 13547, "Shayzien supply platebody (2)" + "<br>" + "4 bars";
+			}
+			if (arg2 == 10) {
+				return 65, 13548, "Shayzien supply gloves (3)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 11) {
+				return 67, 13549, "Shayzien supply boots (3)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 12) {
+				return 69, 13550, "Shayzien supply helm (3)" + "<br>" + "2 bars";
+			}
+			if (arg2 == 13) {
+				return 71, 13551, "Shayzien supply greaves (3)" + "<br>" + "3 bars";
+			}
+			if (arg2 == 14) {
+				return 73, 13552, "Shayzien supply platebody (3)" + "<br>" + "4 bars";
+			}
+			if (arg2 == 15) {
+				return 75, 13553, "Shayzien supply gloves (4)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 16) {
+				return 77, 13554, "Shayzien supply boots (4)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 17) {
+				return 79, 13555, "Shayzien supply helm (4)" + "<br>" + "2 bars";
+			}
+			if (arg2 == 18) {
+				return 81, 13556, "Shayzien supply greaves (4)" + "<br>" + "3 bars";
+			}
+			if (arg2 == 19) {
+				return 83, 13557, "Shayzien supply platebody (4)" + "<br>" + "4 bars";
+			}
+			if (arg2 == 20) {
+				return 85, 13558, "Shayzien supply gloves (5)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 21) {
+				return 87, 13559, "Shayzien supply boots (5)" + "<br>" + "1 bar";
+			}
+			if (arg2 == 22) {
+				return 89, 13560, "Shayzien supply helm (5)" + "<br>" + "2 bars";
+			}
+			if (arg2 == 23) {
+				return 91, 13561, "Shayzien supply greaves (5)" + "<br>" + "3 bars";
+			}
+			if (arg2 == 24) {
+				return 93, 13562, "Shayzien supply platebody (5)" + "<br>" + "4 bars";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 9) {
+			if (arg2 == 0) {
+				return 60, 1187, "Dragon square shield";
+			}
+			if (arg2 == 1) {
+				return 80, 11798, "Godsword blade";
+			}
+			if (arg2 == 2) {
+				return 85, 12817, "Spirit shields" + "<br>" + "(with 90 Prayer)";
+			}
+			if (arg2 == 3) {
+				return 85, 13243, "Create infernal pickaxe" + "<br>" + "(with 61 Mining)";
+			}
+			if (arg2 == 4) {
+				return 90, 11283, "Dragonfire shield";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 15) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 317, "Shrimp - Net fishing";
+			}
+			if (arg2 == 1) {
+				return 5, 327, "Sardine - Sea bait fishing";
+			}
+			if (arg2 == 2) {
+				return 5, 3150, "Members: Karambwanji - Net fishing";
+			}
+			if (arg2 == 3) {
+				return 10, 345, "Herring - Sea bait fishing";
+			}
+			if (arg2 == 4) {
+				return 15, 321, "Anchovies - Net fishing";
+			}
+			if (arg2 == 5) {
+				return 16, 353, "Members: Mackerel - Big net fishing";
+			}
+			if (arg2 == 6) {
+				return 16, 407, "Members: Oyster - Big net fishing";
+			}
+			if (arg2 == 7) {
+				return 16, 405, "Members: Caskets - Big net fishing";
+			}
+			if (arg2 == 8) {
+				return 20, 335, "Trout - Fly-fishing";
+			}
+			if (arg2 == 9) {
+				return 23, 341, "Members: Cod - Big net fishing";
+			}
+			if (arg2 == 10) {
+				return 25, 349, "Pike - River bait fishing";
+			}
+			if (arg2 == 11) {
+				return 28, 3379, "Members: Slimy eel - River bait fishing";
+			}
+			if (arg2 == 12) {
+				return 30, 331, "Salmon - Fly-fishing";
+			}
+			if (arg2 == 13) {
+				return 33, 5004, "Members: Giant frogspawn - Net fishing";
+			}
+			if (arg2 == 14) {
+				return 35, 359, "Tuna - Harpoon fishing";
+			}
+			if (arg2 == 15) {
+				return 38, 10138, "Members: Rainbow fish - Stripy fly-fishing";
+			}
+			if (arg2 == 16) {
+				return 38, 5001, "Members: Cave eel - River bait fishing";
+			}
+			if (arg2 == 17) {
+				return 40, 377, "Lobster - Lobster pot fishing";
+			}
+			if (arg2 == 18) {
+				return 46, 363, "Members: Bass - Big net fishing";
+			}
+			if (arg2 == 19) {
+				return 50, 371, "Swordfish - Harpoon fishing";
+			}
+			if (arg2 == 20) {
+				return 53, 2148, "Members: Lava eel - Lava bait fishing";
+			}
+			if (arg2 == 21) {
+				return 62, 7944, "Members: Monkfish - Net fishing";
+			}
+			if (arg2 == 22) {
+				return 65, 3142, "Members: Karambwan - Vessel fishing";
+			}
+			if (arg2 == 23) {
+				return 76, 383, "Members: Shark - Harpoon fishing";
+			}
+			if (arg2 == 24) {
+				return 79, 395, "Members: Sea turtle - Trawler minigame";
+			}
+			if (arg2 == 25) {
+				return 80, 21293, "Members: Infernal eel - Lava bait fishing";
+			}
+			if (arg2 == 26) {
+				return 81, 389, "Members: Manta ray - Trawler minigame";
+			}
+			if (arg2 == 27) {
+				return 82, 13439, "Members: Anglerfish - Sandworm bait fishing";
+			}
+			if (arg2 == 28) {
+				return 82, 10572, "Members: Minnow - Net fishing" + "<br>" + "(after Fishing Contest)";
+			}
+			if (arg2 == 29) {
+				return 85, 11934, "Members: Dark crab - Bait Pot fishing";
+			}
+			if (arg2 == 30) {
+				return 87, 13339, "Members: Sacred eel - Swamp bait fishing";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return -1, 7620, "To start fishing like a Barbarian, talk to" + "<br>" + "Otto Godblessed when you have at least" + "<br>" + "level 48 Fishing and level 15 Agility.";
+			}
+			if (arg2 == 1) {
+				return 48, 11328, "Leaping trout" + "<br>" + " (with 15 Agility & 15 Strength)";
+			}
+			if (arg2 == 2) {
+				return 55, 359, "Tuna" + "<br>" + " (with 35 Strength)";
+			}
+			if (arg2 == 3) {
+				return 58, 11330, "Leaping salmon" + "<br>" + " (with 30 Agility & 30 Strength)";
+			}
+			if (arg2 == 4) {
+				return 70, 11332, "Leaping sturgeon" + "<br>" + " (with 45 Agility & 45 Strength)";
+			}
+			if (arg2 == 5) {
+				return 70, 371, "Swordfish" + "<br>" + " (with 50 Strength)";
+			}
+			if (arg2 == 6) {
+				return 96, 383, "Shark" + "<br>" + " (with 76 Strength)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 34, 13258, "Angler's outfit";
+			}
+			if (arg2 == 1) {
+				return 61, 21028, "Dragon harpoon";
+			}
+			if (arg2 == 2) {
+				return 75, 21031, "Infernal harpoon" + "<br>" + "(with 85 Cooking)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 1, 20855, "Pysk fish";
+			}
+			if (arg2 == 1) {
+				return 15, 20857, "Suphi fish";
+			}
+			if (arg2 == 2) {
+				return 30, 20859, "Leckish fish";
+			}
+			if (arg2 == 3) {
+				return 45, 20861, "Brawk fish";
+			}
+			if (arg2 == 4) {
+				return 60, 20863, "Mycil fish";
+			}
+			if (arg2 == 5) {
+				return 75, 20865, "Roqed fish";
+			}
+			if (arg2 == 6) {
+				return 90, 20867, "Kyren fish";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 15, 13429, "Collecting from barrels of fresh fish";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 16) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 2142, "Meat";
+			}
+			if (arg2 == 1) {
+				return 1, 9436, "Members: Sinew" + "<br>" + "(made by drying beef or bear meat on a range)";
+			}
+			if (arg2 == 2) {
+				return 1, 315, "Shrimp";
+			}
+			if (arg2 == 3) {
+				return 1, 2140, "Chicken";
+			}
+			if (arg2 == 4) {
+				return 1, 3228, "Members: Rabbit";
+			}
+			if (arg2 == 5) {
+				return 1, 319, "Anchovies";
+			}
+			if (arg2 == 6) {
+				return 1, 325, "Sardine";
+			}
+			if (arg2 == 7) {
+				return 1, 3146, "Members: Karambwan";
+			}
+			if (arg2 == 8) {
+				return 1, 1885, "Members: Ugthanki kebab";
+			}
+			if (arg2 == 9) {
+				return 5, 347, "Herring";
+			}
+			if (arg2 == 10) {
+				return 10, 355, "Members: Mackerel";
+			}
+			if (arg2 == 11) {
+				return 11, 9980, "Members: Roasted bird meat";
+			}
+			if (arg2 == 12) {
+				return 12, 3369, "Members: Thin snail";
+			}
+			if (arg2 == 13) {
+				return 15, 333, "Trout";
+			}
+			if (arg2 == 14) {
+				return 16, 6297, "Members: Spider";
+			}
+			if (arg2 == 15) {
+				return 16, 7223, "Members: Roasted rabbit";
+			}
+			if (arg2 == 16) {
+				return 17, 3371, "Members: Lean snail";
+			}
+			if (arg2 == 17) {
+				return 18, 339, "Members: Cod";
+			}
+			if (arg2 == 18) {
+				return 20, 351, "Pike";
+			}
+			if (arg2 == 19) {
+				return 21, 9988, "Members: Roasted beast meat";
+			}
+			if (arg2 == 20) {
+				return 21, 7521, "Members: Giant crab meat";
+			}
+			if (arg2 == 21) {
+				return 22, 3373, "Members: Fat snail";
+			}
+			if (arg2 == 22) {
+				return 25, 329, "Salmon";
+			}
+			if (arg2 == 23) {
+				return 28, 3381, "Members: Slimy eel";
+			}
+			if (arg2 == 24) {
+				return 30, 361, "Tuna";
+			}
+			if (arg2 == 25) {
+				return 30, 2878, "Members: Roasted chompy";
+			}
+			if (arg2 == 26) {
+				return 31, 7530, "Members: Fishcakes";
+			}
+			if (arg2 == 27) {
+				return 35, 10136, "Members: Rainbow fish";
+			}
+			if (arg2 == 28) {
+				return 38, 5003, "Members: Cave eel";
+			}
+			if (arg2 == 29) {
+				return 40, 379, "Lobster";
+			}
+			if (arg2 == 30) {
+				return 41, 7568, "Members: Jubbly";
+			}
+			if (arg2 == 31) {
+				return 43, 365, "Members: Bass";
+			}
+			if (arg2 == 32) {
+				return 45, 373, "Swordfish";
+			}
+			if (arg2 == 33) {
+				return 53, 2149, "Members: Lava eel";
+			}
+			if (arg2 == 34) {
+				return 62, 7946, "Members: Monkfish";
+			}
+			if (arg2 == 35) {
+				return 72, 13339, "Members: Dissect sacred eels";
+			}
+			if (arg2 == 36) {
+				return 80, 385, "Members: Shark";
+			}
+			if (arg2 == 37) {
+				return 82, 397, "Members: Sea turtle";
+			}
+			if (arg2 == 38) {
+				return 84, 13441, "Members: Anglerfish";
+			}
+			if (arg2 == 39) {
+				return 90, 11936, "Members: Dark crab";
+			}
+			if (arg2 == 40) {
+				return 91, 391, "Members: Manta ray";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 1, 2309, "Bread";
+			}
+			if (arg2 == 1) {
+				return 58, 1865, "Members: Pitta bread";
+			}
+			if (arg2 == 2) {
+				return -1, 7620, "1. Pick some grain and take it to a windmill to make flour.";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "2. Use a pot to collect the flour you have made.";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "3. Fill a bucket or jug with water from a sink or fountain.";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "4. Mix the flour and water to make some bread dough.";
+			}
+			if (arg2 == 6) {
+				return -1, 7620, "5. Cook the dough by using it with a stove.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 10, 2325, "Redberry pie";
+			}
+			if (arg2 == 1) {
+				return 20, 2327, "Meat pie";
+			}
+			if (arg2 == 2) {
+				return 29, 7170, "Members: Mud pie";
+			}
+			if (arg2 == 3) {
+				return 30, 2323, "Apple pie";
+			}
+			if (arg2 == 4) {
+				return 34, 7178, "Members: Garden pie";
+			}
+			if (arg2 == 5) {
+				return 47, 7188, "Members: Fish pie";
+			}
+			if (arg2 == 6) {
+				return 52, 19662, "Members: Botanical pie";
+			}
+			if (arg2 == 7) {
+				return 70, 7198, "Members: Admiral pie";
+			}
+			if (arg2 == 8) {
+				return 85, 7208, "Members: Wild pie";
+			}
+			if (arg2 == 9) {
+				return 95, 7218, "Members: Summer pie";
+			}
+			if (arg2 == 10) {
+				return -1, 7620, "To make a pie:";
+			}
+			if (arg2 == 11) {
+				return -1, 7620, "1. Mix flour and water to make pastry dough.";
+			}
+			if (arg2 == 12) {
+				return -1, 7620, "2. Place the dough in an empty pie dish.";
+			}
+			if (arg2 == 13) {
+				return -1, 7620, "3. Use your choice of filling with the empty pie (refer to pie recipe book).";
+			}
+			if (arg2 == 14) {
+				return -1, 7620, "4. Cook the pie by using it with a stove.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 25, 2003, "Stew";
+			}
+			if (arg2 == 1) {
+				return 60, 2011, "Members: Curry";
+			}
+			if (arg2 == 2) {
+				return -1, 7620, "To make stew:";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "1. Obtain a bowl and fill it with water from a sink or fountain.";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "2. Pick a potato and place it in the bowl.";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "3. Cook some meat and place it in the bowl.";
+			}
+			if (arg2 == 6) {
+				return -1, 7620, "4. Cook the stew by using it with a stove or fire.";
+			}
+			if (arg2 == 7) {
+				return -1, 7620, "After completing Evil Dave's miniquest" + "<br>" + "from Recipe for Disaster, I can add" + "<br>" + "spices to cooked stew.";
+			}
+			if (arg2 == 8) {
+				return -1, 7620, "To make curry: make uncooked stew as above. Before cooking, add some spices or 3 curry leaves.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 35, 2289, "Plain pizza";
+			}
+			if (arg2 == 1) {
+				return 45, 2293, "Meat pizza";
+			}
+			if (arg2 == 2) {
+				return 55, 2297, "Anchovy pizza";
+			}
+			if (arg2 == 3) {
+				return 65, 2301, "Members: Pineapple pizza";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "To make a pizza:";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "1. Mix flour and water to make a pizza base.";
+			}
+			if (arg2 == 6) {
+				return -1, 7620, "2. Add a tomato to the pizza.";
+			}
+			if (arg2 == 7) {
+				return -1, 7620, "3. Add some cheese to the pizza.";
+			}
+			if (arg2 == 8) {
+				return -1, 7620, "4. Cook the pizza by using it with a stove.";
+			}
+			if (arg2 == 9) {
+				return -1, 7620, "5. Add your choice of topping to the pizza.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 5) {
+			if (arg2 == 0) {
+				return 40, 1891, "Cake";
+			}
+			if (arg2 == 1) {
+				return 50, 1897, "Chocolate cake";
+			}
+			if (arg2 == 2) {
+				return -1, 7620, "To make a cake:";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "1. Mix flour, eggs and milk together in a cake tin.";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "2. Cook the cake by using it with a stove.";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "3. Optional: Buy some chocolate and add it to the cake to make a chocolate cake.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 6) {
+			if (arg2 == 0) {
+				return 35, 1993, "Wine";
+			}
+			if (arg2 == 1) {
+				return 65, 245, "Members: Wine of Zamorak";
+			}
+			if (arg2 == 2) {
+				return -1, 7620, "To make wine:";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "1. Fill a jug with water.";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "2. Use grapes with the jug of water.";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "3. Wait until the wine ferments.";
+			}
+			if (arg2 == 6) {
+				return -1, 7620, "Wine will ferment when left in" + "<br>" + "your inventory or the bank.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 7) {
+			if (arg2 == 0) {
+				return 20, 4242, "Nettle tea";
+			}
+			if (arg2 == 1) {
+				return -1, 7620, "To make nettle tea:";
+			}
+			if (arg2 == 2) {
+				return -1, 7620, "1. Fill a bowl with water.";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "2. Put some picked nettles into the bowl of water.";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "3. Boil the nettle-water by using it with a range or a fire.";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "4. Use the bowl of nettle tea with a cup.";
+			}
+			if (arg2 == 6) {
+				return -1, 7620, "5. If you take milk, use a bucket of milk on the nettle tea.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 8) {
+			if (arg2 == 0) {
+				return 14, 5763, "Cider" + "<br>" + "4 Apple mush";
+			}
+			if (arg2 == 1) {
+				return 19, 1913, "Dwarven Stout" + "<br>" + "4 Hammerstone hops";
+			}
+			if (arg2 == 2) {
+				return 24, 1905, "Asgarnian Ale" + "<br>" + "4 Asgarnian hops";
+			}
+			if (arg2 == 3) {
+				return 29, 1909, "Greenman's Ale" + "<br>" + "4 Harralander leaves";
+			}
+			if (arg2 == 4) {
+				return 34, 1907, "Wizard's Mind Bomb" + "<br>" + "4 Yanillian hops";
+			}
+			if (arg2 == 5) {
+				return 39, 1911, "Dragon Bitter" + "<br>" + "4 Krandorian hops";
+			}
+			if (arg2 == 6) {
+				return 44, 2955, "Moonlight Mead" + "<br>" + "4 Bittercap mushrooms";
+			}
+			if (arg2 == 7) {
+				return 49, 5751, "Axeman's Folly" + "<br>" + "1 Oak root";
+			}
+			if (arg2 == 8) {
+				return 54, 5755, "Chef's Delight" + "<br>" + "4 Portions of chocolate dust";
+			}
+			if (arg2 == 9) {
+				return 59, 5759, "Slayer's Respite" + "<br>" + "4 Wildblood hops";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 9) {
+			if (arg2 == 0) {
+				return 7, 6701, "Baked potato";
+			}
+			if (arg2 == 1) {
+				return 9, 7072, "Spicy sauce (topping ingredient)";
+			}
+			if (arg2 == 2) {
+				return 11, 7062, "Chilli con carne (topping)";
+			}
+			if (arg2 == 3) {
+				return 13, 7078, "Scrambled egg (topping ingredient)";
+			}
+			if (arg2 == 4) {
+				return 23, 7064, "Scrambled egg and tomato (topping)";
+			}
+			if (arg2 == 5) {
+				return 28, 5988, "Sweetcorn";
+			}
+			if (arg2 == 6) {
+				return 39, 6703, "Baked potato with butter";
+			}
+			if (arg2 == 7) {
+				return 41, 7054, "Baked potato with chilli con carne";
+			}
+			if (arg2 == 8) {
+				return 42, 7084, "Fried onion (topping ingredient)";
+			}
+			if (arg2 == 9) {
+				return 46, 7082, "Fried mushroom (topping ingredient)";
+			}
+			if (arg2 == 10) {
+				return 47, 6705, "Baked potato with butter and cheese";
+			}
+			if (arg2 == 11) {
+				return 51, 7056, "Baked potato with egg and tomato";
+			}
+			if (arg2 == 12) {
+				return 57, 7066, "Fried mushroom and onion (topping)";
+			}
+			if (arg2 == 13) {
+				return 64, 7058, "Baked potato with mushroom and onion";
+			}
+			if (arg2 == 14) {
+				return 67, 7068, "Tuna and sweetcorn (topping)";
+			}
+			if (arg2 == 15) {
+				return 68, 7060, "Baked potato with tuna and sweetcorn";
+			}
+			if (arg2 == 16) {
+				return -1, 7620, "To make baked potatoes with toppings:";
+			}
+			if (arg2 == 17) {
+				return -1, 7620, "1. Bake the potato on a range.";
+			}
+			if (arg2 == 18) {
+				return -1, 7620, "2. Add some butter.";
+			}
+			if (arg2 == 19) {
+				return -1, 7620, "3. If needed, combine topping ingredients by chopping them into a bowl.";
+			}
+			if (arg2 == 20) {
+				return -1, 7620, "Ingredients for toppings:";
+			}
+			if (arg2 == 21) {
+				return -1, 7620, "1. Chilli con carne: meat & spicy sauce (made from garlic and gnome spice)";
+			}
+			if (arg2 == 22) {
+				return -1, 7620, "2. Egg and tomato: scrambled egg & tomato";
+			}
+			if (arg2 == 23) {
+				return -1, 7620, "3. Mushroom and onion: fried bittercap mushroom & fried onion";
+			}
+			if (arg2 == 24) {
+				return -1, 7620, "4. Tuna and sweetcorn: tuna & cooked sweetcorn";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 10) {
+			if (arg2 == 0) {
+				return 21, 2130, "Cream";
+			}
+			if (arg2 == 1) {
+				return 38, 6697, "Butter";
+			}
+			if (arg2 == 2) {
+				return 48, 1985, "Cheese";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "To make dairy products:";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "1. Get a bucket of milk, a pot of cream or a pot of butter.";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "2. Use the milk, cream or butter in a churn.";
+			}
+			if (arg2 == 6) {
+				return -1, 7620, "3. Milk can be churned into cream, then into butter, then into cheese.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 11) {
+			if (arg2 == 0) {
+				return 6, 2084, "Fruit Blast";
+			}
+			if (arg2 == 1) {
+				return 8, 2048, "Pineapple Punch";
+			}
+			if (arg2 == 2) {
+				return 10, 2217, "Toad crunchies";
+			}
+			if (arg2 == 3) {
+				return 12, 2213, "Spicy crunchies";
+			}
+			if (arg2 == 4) {
+				return 14, 2205, "Worm crunchies";
+			}
+			if (arg2 == 5) {
+				return 16, 2209, "Chocolate chip crunchies";
+			}
+			if (arg2 == 6) {
+				return 18, 2054, "Wizard Blizzard";
+			}
+			if (arg2 == 7) {
+				return 20, 2080, "Short Green Guy (SGG)";
+			}
+			if (arg2 == 8) {
+				return 25, 2277, "Fruit batta";
+			}
+			if (arg2 == 9) {
+				return 26, 2255, "Toad batta";
+			}
+			if (arg2 == 10) {
+				return 27, 2253, "Worm batta";
+			}
+			if (arg2 == 11) {
+				return 28, 2281, "Vegetable batta";
+			}
+			if (arg2 == 12) {
+				return 29, 2259, "Cheese and tomato batta";
+			}
+			if (arg2 == 13) {
+				return 30, 2191, "Worm hole";
+			}
+			if (arg2 == 14) {
+				return 32, 2092, "Drunk Dragon";
+			}
+			if (arg2 == 15) {
+				return 33, 2074, "Chocolate Saturday";
+			}
+			if (arg2 == 16) {
+				return 35, 2195, "Vegetable ball";
+			}
+			if (arg2 == 17) {
+				return 37, 2064, "Blurberry Special";
+			}
+			if (arg2 == 18) {
+				return 40, 2187, "Tangled toads' legs";
+			}
+			if (arg2 == 19) {
+				return 42, 2185, "Chocolate bomb";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 12) {
+			if (arg2 == 0) {
+				return 1, 20856, "Pysk fish";
+			}
+			if (arg2 == 1) {
+				return 1, 20871, "Guanic bat";
+			}
+			if (arg2 == 2) {
+				return 15, 20858, "Suphi fish";
+			}
+			if (arg2 == 3) {
+				return 15, 20873, "Prael bat";
+			}
+			if (arg2 == 4) {
+				return 30, 20860, "Leckish fish";
+			}
+			if (arg2 == 5) {
+				return 30, 20875, "Giral bat";
+			}
+			if (arg2 == 6) {
+				return 45, 20862, "Brawk fish";
+			}
+			if (arg2 == 7) {
+				return 45, 20877, "Phluxia bat";
+			}
+			if (arg2 == 8) {
+				return 60, 20864, "Mycil fish";
+			}
+			if (arg2 == 9) {
+				return 60, 20879, "Kryket bat";
+			}
+			if (arg2 == 10) {
+				return 75, 20866, "Roqed fish";
+			}
+			if (arg2 == 11) {
+				return 75, 20881, "Murng bat";
+			}
+			if (arg2 == 12) {
+				return 90, 20868, "Kyren fish";
+			}
+			if (arg2 == 13) {
+				return 90, 20883, "Psykk bat";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 17) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 1511, "Normal logs";
+			}
+			if (arg2 == 1) {
+				return 1, 2862, "Members: Achey logs";
+			}
+			if (arg2 == 2) {
+				return 5, 3438, "Members: Pyre logs";
+			}
+			if (arg2 == 3) {
+				return 15, 1521, "Oak logs";
+			}
+			if (arg2 == 4) {
+				return 20, 3440, "Members: Oak pyre logs";
+			}
+			if (arg2 == 5) {
+				return 30, 1519, "Willow logs";
+			}
+			if (arg2 == 6) {
+				return 35, 6333, "Members: Teak logs";
+			}
+			if (arg2 == 7) {
+				return 35, 3442, "Members: Willow pyre logs";
+			}
+			if (arg2 == 8) {
+				return 40, 6211, "Members: Teak pyre logs";
+			}
+			if (arg2 == 9) {
+				return 42, 10810, "Members: Arctic pine logs";
+			}
+			if (arg2 == 10) {
+				return 45, 1517, "Maple logs";
+			}
+			if (arg2 == 11) {
+				return 47, 10808, "Members: Arctic pine pyre logs";
+			}
+			if (arg2 == 12) {
+				return 50, 6332, "Members: Mahogany logs";
+			}
+			if (arg2 == 13) {
+				return 50, 3444, "Members: Maple pyre logs";
+			}
+			if (arg2 == 14) {
+				return 55, 6213, "Members: Mahogany pyre logs";
+			}
+			if (arg2 == 15) {
+				return 60, 1515, "Yew logs";
+			}
+			if (arg2 == 16) {
+				return 65, 3446, "Members: Yew pyre logs";
+			}
+			if (arg2 == 17) {
+				return 75, 1513, "Members: Magic logs";
+			}
+			if (arg2 == 18) {
+				return 80, 3448, "Members: Magic pyre logs";
+			}
+			if (arg2 == 19) {
+				return 90, 19669, "Members: Redwood logs";
+			}
+			if (arg2 == 20) {
+				return 95, 19672, "Members: Redwood pyre logs";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 11, 3438, "Normal Pyre Ships" + "<br>" + "(with 11 Crafting)";
+			}
+			if (arg2 == 1) {
+				return 11, 2862, "Achey Pyre Ships" + "<br>" + "(with 11 Crafting)";
+			}
+			if (arg2 == 2) {
+				return 21, 1511, "Normal Logs";
+			}
+			if (arg2 == 3) {
+				return 21, 2862, "Achey Logs";
+			}
+			if (arg2 == 4) {
+				return 25, 3440, "Oak Pyre Ships" + "<br>" + "(with 25 Crafting)";
+			}
+			if (arg2 == 5) {
+				return 35, 1521, "Oak Logs";
+			}
+			if (arg2 == 6) {
+				return 40, 3442, "Willow Pyre Ships" + "<br>" + "(with 40 Crafting)";
+			}
+			if (arg2 == 7) {
+				return 45, 6211, "Teak Pyre Ships" + "<br>" + "(with 45 Crafting)";
+			}
+			if (arg2 == 8) {
+				return 50, 1519, "Willow Logs";
+			}
+			if (arg2 == 9) {
+				return 52, 10808, "Arctic Pine Pyre Ships" + "<br>" + "(with 52 Crafting)";
+			}
+			if (arg2 == 10) {
+				return 55, 6333, "Teak Logs";
+			}
+			if (arg2 == 11) {
+				return 55, 3444, "Maple Pyre Ships" + "<br>" + "(with 55 Crafting)";
+			}
+			if (arg2 == 12) {
+				return 60, 6213, "Mahogany Pyre Ships" + "<br>" + "(with 60 Crafting)";
+			}
+			if (arg2 == 13) {
+				return 62, 10810, "Arctic Pine Logs";
+			}
+			if (arg2 == 14) {
+				return 65, 1517, "Maple Logs";
+			}
+			if (arg2 == 15) {
+				return 70, 3446, "Yew Pyre Ships" + "<br>" + "(with 70 Crafting)";
+			}
+			if (arg2 == 16) {
+				return 70, 6332, "Mahogany Logs";
+			}
+			if (arg2 == 17) {
+				return 80, 1515, "Yew Logs";
+			}
+			if (arg2 == 18) {
+				return 85, 3448, "Magic Pyre Ships" + "<br>" + "(with 85 Crafting)";
+			}
+			if (arg2 == 19) {
+				return 95, 1513, "Magic Logs";
+			}
+			if (arg2 == 20) {
+				return 95, 19672, "Redwood Pyre ships" + "<br>" + "(with 95 Crafting)";
+			}
+			if (arg2 == 21) {
+				return 99, 19669, "Redwood logs";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 1, 596, "Torches";
+			}
+			if (arg2 == 1) {
+				return 1, 36, "Candles";
+			}
+			if (arg2 == 2) {
+				return 4, 4531, "Candle lanterns";
+			}
+			if (arg2 == 3) {
+				return 12, 4524, "Oil lamps";
+			}
+			if (arg2 == 4) {
+				return 20, 7225, "Members: Iron spits";
+			}
+			if (arg2 == 5) {
+				return 26, 4539, "Oil lanterns";
+			}
+			if (arg2 == 6) {
+				return 33, 7053, "Harpie bug lanterns (not a light source)";
+			}
+			if (arg2 == 7) {
+				return 49, 4550, "Bullseye lanterns";
+			}
+			if (arg2 == 8) {
+				return 49, 4702, "Sapphire lanterns";
+			}
+			if (arg2 == 9) {
+				return 49, 9065, "Emerald lanterns";
+			}
+			if (arg2 == 10) {
+				return 50, 20720, "Bruma torches";
+			}
+			if (arg2 == 11) {
+				return 52, 10973, "Replace Dorgeshuun light orbs";
+			}
+			if (arg2 == 12) {
+				return 65, 5013, "Cave goblin mining helmets";
+			}
+			if (arg2 == 13) {
+				return 85, 13241, "Create infernal axe" + "<br>" + "(with 61 Woodcutting)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 18) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 1511, "Normal trees";
+			}
+			if (arg2 == 1) {
+				return 1, 2862, "Members: Achey trees";
+			}
+			if (arg2 == 2) {
+				return 10, 6281, "Members: Light jungle";
+			}
+			if (arg2 == 3) {
+				return 15, 1521, "Oak trees";
+			}
+			if (arg2 == 4) {
+				return 20, 6283, "Members: Medium jungle";
+			}
+			if (arg2 == 5) {
+				return 30, 1519, "Willow trees";
+			}
+			if (arg2 == 6) {
+				return 35, 6285, "Members: Dense jungle";
+			}
+			if (arg2 == 7) {
+				return 35, 6333, "Members: Teak trees";
+			}
+			if (arg2 == 8) {
+				return 42, 13355, "Members: Juniper trees";
+			}
+			if (arg2 == 9) {
+				return 45, 1517, "Members: Maple trees";
+			}
+			if (arg2 == 10) {
+				return 45, 3239, "Members: Hollow trees";
+			}
+			if (arg2 == 11) {
+				return 50, 6332, "Members: Mahogany trees";
+			}
+			if (arg2 == 12) {
+				return 54, 10810, "Members: Arctic pine trees";
+			}
+			if (arg2 == 13) {
+				return 60, 1515, "Yew trees";
+			}
+			if (arg2 == 14) {
+				return 75, 1513, "Members: Magic trees";
+			}
+			if (arg2 == 15) {
+				return 90, 19669, "Members: Redwood trees";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 1, 1351, "Bronze axe";
+			}
+			if (arg2 == 1) {
+				return 1, 1349, "Iron axe";
+			}
+			if (arg2 == 2) {
+				return 6, 1353, "Steel axe";
+			}
+			if (arg2 == 3) {
+				return 11, 1361, "Black axe";
+			}
+			if (arg2 == 4) {
+				return 21, 1355, "Mithril axe";
+			}
+			if (arg2 == 5) {
+				return 31, 1357, "Adamant axe";
+			}
+			if (arg2 == 6) {
+				return 41, 1359, "Rune axe";
+			}
+			if (arg2 == 7) {
+				return 61, 6739, "Members: Dragon axe";
+			}
+			if (arg2 == 8) {
+				return 61, 20011, "Members: 3rd age axe";
+			}
+			if (arg2 == 9) {
+				return 61, 13241, "Members: Infernal axe" + "<br>" + "(with 85 Firemaking)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 12, 7414, "Log canoe";
+			}
+			if (arg2 == 1) {
+				return 27, 7414, "Dugout canoe";
+			}
+			if (arg2 == 2) {
+				return 42, 7414, "Stable dugout canoe";
+			}
+			if (arg2 == 3) {
+				return 56, 10826, "Members: Fremennik round shield";
+			}
+			if (arg2 == 4) {
+				return 56, 10812, "Members: Split arctic pine logs";
+			}
+			if (arg2 == 5) {
+				return 57, 7414, "Waka canoe";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 12) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 556, "Air runes";
+			}
+			if (arg2 == 1) {
+				return 2, 558, "Mind runes";
+			}
+			if (arg2 == 2) {
+				return 5, 555, "Water runes";
+			}
+			if (arg2 == 3) {
+				return 6, 4695, "Members: Mist runes";
+			}
+			if (arg2 == 4) {
+				return 9, 557, "Earth runes";
+			}
+			if (arg2 == 5) {
+				return 10, 4696, "Members: Dust runes";
+			}
+			if (arg2 == 6) {
+				return 13, 4698, "Members: Mud runes";
+			}
+			if (arg2 == 7) {
+				return 14, 554, "Fire runes";
+			}
+			if (arg2 == 8) {
+				return 15, 4697, "Members: Smoke runes";
+			}
+			if (arg2 == 9) {
+				return 19, 4694, "Members: Steam runes";
+			}
+			if (arg2 == 10) {
+				return 20, 559, "Body runes";
+			}
+			if (arg2 == 11) {
+				return 23, 4699, "Members: Lava runes";
+			}
+			if (arg2 == 12) {
+				return 27, 564, "Members: Cosmic runes";
+			}
+			if (arg2 == 13) {
+				return 35, 562, "Members: Chaos runes";
+			}
+			if (arg2 == 14) {
+				return 40, 9075, "Members: Astral runes";
+			}
+			if (arg2 == 15) {
+				return 44, 561, "Members: Nature runes";
+			}
+			if (arg2 == 16) {
+				return 54, 563, "Members: Law runes";
+			}
+			if (arg2 == 17) {
+				return 65, 560, "Members: Death runes";
+			}
+			if (arg2 == 18) {
+				return 77, 565, "Members: Blood runes";
+			}
+			if (arg2 == 19) {
+				return 90, 566, "Members: Soul runes";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return -1, 7620, "As your Runecrafting skill develops, you will be able to craft multiple runes from one piece of essence. You only receive experience for each piece of essence crafted, not each rune crafted.";
+			}
+			if (arg2 == 1) {
+				return 11, 556, "2 Air runes per essence";
+			}
+			if (arg2 == 2) {
+				return 14, 558, "2 Mind runes per essence";
+			}
+			if (arg2 == 3) {
+				return 19, 555, "2 Water runes per essence";
+			}
+			if (arg2 == 4) {
+				return 22, 556, "3 Air runes per essence";
+			}
+			if (arg2 == 5) {
+				return 26, 557, "2 Earth runes per essence";
+			}
+			if (arg2 == 6) {
+				return 28, 558, "3 Mind runes per essence";
+			}
+			if (arg2 == 7) {
+				return 33, 556, "4 Air runes per essence";
+			}
+			if (arg2 == 8) {
+				return 35, 554, "2 Fire runes per essence";
+			}
+			if (arg2 == 9) {
+				return 38, 555, "3 Water runes per essence";
+			}
+			if (arg2 == 10) {
+				return 42, 558, "4 Mind runes per essence";
+			}
+			if (arg2 == 11) {
+				return 44, 556, "5 Air runes per essence";
+			}
+			if (arg2 == 12) {
+				return 46, 559, "2 Body runes per essence";
+			}
+			if (arg2 == 13) {
+				return 52, 557, "3 Earth runes per essence";
+			}
+			if (arg2 == 14) {
+				return 55, 556, "6 Air runes per essence";
+			}
+			if (arg2 == 15) {
+				return 56, 558, "5 Mind runes per essence";
+			}
+			if (arg2 == 16) {
+				return 57, 555, "4 Water runes per essence";
+			}
+			if (arg2 == 17) {
+				return 59, 564, "Members: 2 Cosmic runes per essence";
+			}
+			if (arg2 == 18) {
+				return 66, 556, "7 Air runes per essence";
+			}
+			if (arg2 == 19) {
+				return 70, 558, "6 Mind runes per essence";
+			}
+			if (arg2 == 20) {
+				return 70, 554, "3 Fire runes per essence";
+			}
+			if (arg2 == 21) {
+				return 74, 562, "Members: 2 Chaos runes per essence";
+			}
+			if (arg2 == 22) {
+				return 76, 555, "5 Water runes per essence";
+			}
+			if (arg2 == 23) {
+				return 77, 556, "8 Air runes per essence";
+			}
+			if (arg2 == 24) {
+				return 78, 557, "4 Earth runes per essence";
+			}
+			if (arg2 == 25) {
+				return 82, 9075, "Members: 2 Astral runes per essence";
+			}
+			if (arg2 == 26) {
+				return 84, 558, "7 Mind runes per essence";
+			}
+			if (arg2 == 27) {
+				return 88, 556, "9 Air runes per essence";
+			}
+			if (arg2 == 28) {
+				return 91, 561, "Members: 2 Nature runes per essence";
+			}
+			if (arg2 == 29) {
+				return 92, 559, "3 Body runes per essence";
+			}
+			if (arg2 == 30) {
+				return 95, 555, "6 Water runes per essence";
+			}
+			if (arg2 == 31) {
+				return 95, 563, "Members: 2 Law runes per essence";
+			}
+			if (arg2 == 32) {
+				return 98, 558, "8 Mind runes per essence";
+			}
+			if (arg2 == 33) {
+				return 99, 556, "10 Air runes per essence";
+			}
+			if (arg2 == 34) {
+				return 99, 560, "Members: 2 Death runes per essence";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return -1, 7620, "Pouches come in various sizes which allow you to carry extra essence in them. As you use the pouches they degrade and store less essence, just speak to the Dark Mage at the centre of the Abyss to restore them.";
+			}
+			if (arg2 == 1) {
+				return 1, 5509, "Small pouch: Holds 3 extra essence";
+			}
+			if (arg2 == 2) {
+				return 25, 5510, "Medium pouch: Holds 6 extra essence";
+			}
+			if (arg2 == 3) {
+				return 50, 5512, "Large pouch: Holds 9 extra essence";
+			}
+			if (arg2 == 4) {
+				return 75, 5514, "Giant pouch: Holds 12 extra essence";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 60, 13235, "Eternal boots (with 60 Magic)";
+			}
+			if (arg2 == 1) {
+				return 60, 13237, "Pegasian boots (with 60 Magic)";
+			}
+			if (arg2 == 2) {
+				return 60, 13239, "Primordial boots (with 60 Magic)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 20) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 5, 4133, "Crawling hands";
+			}
+			if (arg2 == 1) {
+				return 7, 4521, "Cave bugs";
+			}
+			if (arg2 == 2) {
+				return 10, 4134, "Cave crawlers";
+			}
+			if (arg2 == 3) {
+				return 15, 4135, "Banshees";
+			}
+			if (arg2 == 4) {
+				return 17, 4520, "Cave slime";
+			}
+			if (arg2 == 5) {
+				return 20, 4136, "Rockslugs";
+			}
+			if (arg2 == 6) {
+				return 22, 6695, "Desert lizards";
+			}
+			if (arg2 == 7) {
+				return 25, 4137, "Cockatrice";
+			}
+			if (arg2 == 8) {
+				return 30, 4138, "Pyrefiends";
+			}
+			if (arg2 == 9) {
+				return 32, 6661, "Mogres";
+			}
+			if (arg2 == 10) {
+				return 33, 7050, "Harpie bug swarms";
+			}
+			if (arg2 == 11) {
+				return 35, 4519, "Wall beasts";
+			}
+			if (arg2 == 12) {
+				return 37, 7160, "Killerwatts";
+			}
+			if (arg2 == 13) {
+				return 39, 10997, "Molanisks";
+			}
+			if (arg2 == 14) {
+				return 40, 4139, "Basilisks";
+			}
+			if (arg2 == 15) {
+				return 40, 5089, "Sea snakes";
+			}
+			if (arg2 == 16) {
+				return 40, 10591, "Terror dogs";
+			}
+			if (arg2 == 17) {
+				return 42, 6709, "Fever spiders";
+			}
+			if (arg2 == 18) {
+				return 45, 4140, "Infernal mages";
+			}
+			if (arg2 == 19) {
+				return 47, 11047, "Brine rats";
+			}
+			if (arg2 == 20) {
+				return 50, 4141, "Bloodvelds";
+			}
+			if (arg2 == 21) {
+				return 52, 4142, "Jellies";
+			}
+			if (arg2 == 22) {
+				return 55, 4143, "Turoth";
+			}
+			if (arg2 == 23) {
+				return 57, 7420, "Mutated zygomites";
+			}
+			if (arg2 == 24) {
+				return 58, 8900, "Cave horrors";
+			}
+			if (arg2 == 25) {
+				return 60, 4144, "Aberrant spectres";
+			}
+			if (arg2 == 26) {
+				return 63, 11845, "Spiritual rangers";
+			}
+			if (arg2 == 27) {
+				return 65, 4145, "Dust devils";
+			}
+			if (arg2 == 28) {
+				return 68, 11846, "Spiritual warriors";
+			}
+			if (arg2 == 29) {
+				return 70, 4146, "Kurask";
+			}
+			if (arg2 == 30) {
+				return 72, 6811, "Skeletal wyverns";
+			}
+			if (arg2 == 31) {
+				return 75, 4147, "Gargoyles";
+			}
+			if (arg2 == 32) {
+				return 77, 21391, "Brutal black dragons";
+			}
+			if (arg2 == 33) {
+				return 80, 4148, "Nechryael";
+			}
+			if (arg2 == 34) {
+				return 83, 11844, "Spiritual mages";
+			}
+			if (arg2 == 35) {
+				return 85, 4149, "Abyssal demons & sires";
+			}
+			if (arg2 == 36) {
+				return 87, 3272, "Cave kraken";
+			}
+			if (arg2 == 37) {
+				return 90, 6637, "Dark beasts";
+			}
+			if (arg2 == 38) {
+				return 91, 13247, "Cerberus";
+			}
+			if (arg2 == 39) {
+				return 93, 5349, "Smoke devil";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 1, 4551, "Spiny helmet" + "<br>" + " (with 5 Defence)";
+			}
+			if (arg2 == 1) {
+				return 1, 4162, "Rock hammer";
+			}
+			if (arg2 == 2) {
+				return 10, 4164, "Facemask";
+			}
+			if (arg2 == 3) {
+				return 15, 4166, "Earmuffs";
+			}
+			if (arg2 == 4) {
+				return 25, 4156, "Mirror shield" + "<br>" + " (with 20 Defence)";
+			}
+			if (arg2 == 5) {
+				return 32, 6660, "Fishing explosive";
+			}
+			if (arg2 == 6) {
+				return 33, 7053, "Harpie bug lantern" + "<br>" + " (not a light source)";
+			}
+			if (arg2 == 7) {
+				return 35, 8923, "Witchwood icon";
+			}
+			if (arg2 == 8) {
+				return 37, 7159, "Insulated boots";
+			}
+			if (arg2 == 9) {
+				return 39, 10952, "Slayer bell";
+			}
+			if (arg2 == 10) {
+				return 42, 6720, "Slayer gloves";
+			}
+			if (arg2 == 11) {
+				return 55, 4158, "Leaf-bladed spear and sword" + "<br>" + " (with 50 Attack)";
+			}
+			if (arg2 == 12) {
+				return 55, 20727, "Leaf-bladed battleaxe" + "<br>" + " (with 65 Attack)";
+			}
+			if (arg2 == 13) {
+				return 55, 4150, "Broad arrows" + "<br>" + " (with 50 Ranged)";
+			}
+			if (arg2 == 14) {
+				return 55, 4296, "Broad bolts" + "<br>" + " (with 61 Ranged)";
+			}
+			if (arg2 == 15) {
+				return 55, 4170, "Slayer's staff" + "<br>" + " (with 50 Magic)";
+			}
+			if (arg2 == 16) {
+				return 55, 21255, "Slayer's staff (e)" + "<br>" + " (with 75 Magic)";
+			}
+			if (arg2 == 17) {
+				return 57, 7421, "Fungicide spray";
+			}
+			if (arg2 == 18) {
+				return 60, 4168, "Nose peg";
+			}
+			if (arg2 == 19) {
+				return 65, 3902, "Amethyst broad bolts" + "<br>" + " (with 61 Ranged)";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 1, 4155, "Wilderness master" + "<br>" + " (no requirements)";
+			}
+			if (arg2 == 1) {
+				return 1, 4155, "Burthorpe master" + "<br>" + " (with level 3 combat)";
+			}
+			if (arg2 == 2) {
+				return 1, 4155, "Canifis master" + "<br>" + " (with level 20 combat)";
+			}
+			if (arg2 == 3) {
+				return 1, 4155, "Edgeville Dungeon master" + "<br>" + " (with level 40 combat)";
+			}
+			if (arg2 == 4) {
+				return 1, 4155, "Zanaris master" + "<br>" + " (with level 70 combat)";
+			}
+			if (arg2 == 5) {
+				return 1, 4155, "Gnome Stronghold master" + "<br>" + " (with level 85 combat)";
+			}
+			if (arg2 == 6) {
+				return 50, 4155, "Shilo Village master" + "<br>" + " (with level 100 combat)";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 21) {
+		if (arg1 == 0) {
+			if (arg2 == 0) {
+				return 1, 1942, "Potatoes" + "<br>" + "Payment: Compost x2";
+			}
+			if (arg2 == 1) {
+				return 5, 1957, "Onions" + "<br>" + "Payment: Potatoes(10)";
+			}
+			if (arg2 == 2) {
+				return 7, 1965, "Cabbages" + "<br>" + "Payment: Onions(10)";
+			}
+			if (arg2 == 3) {
+				return 12, 1982, "Tomatoes" + "<br>" + "Payment: Cabbages(10) x2";
+			}
+			if (arg2 == 4) {
+				return 20, 5986, "Sweetcorn" + "<br>" + "Payment: Jute fibre x10";
+			}
+			if (arg2 == 5) {
+				return 31, 5504, "Strawberries" + "<br>" + "Payment: Apples(5)";
+			}
+			if (arg2 == 6) {
+				return 47, 5982, "Watermelons" + "<br>" + "Payment: Curry leaf x10";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 1) {
+			if (arg2 == 0) {
+				return 3, 6006, "Barley" + "<br>" + "Payment: Compost x3";
+			}
+			if (arg2 == 1) {
+				return 4, 5994, "Hammerstone hops" + "<br>" + "Payment: Marigolds";
+			}
+			if (arg2 == 2) {
+				return 8, 5996, "Asgarnian hops" + "<br>" + "Payment: Onions(10)";
+			}
+			if (arg2 == 3) {
+				return 13, 5931, "Jute plants" + "<br>" + "Payment: Barley malt x6";
+			}
+			if (arg2 == 4) {
+				return 16, 5998, "Yanillian hops" + "<br>" + "Payment: Tomatoes(5)";
+			}
+			if (arg2 == 5) {
+				return 21, 6000, "Krandorian hops" + "<br>" + "Payment: Cabbages(10) x3";
+			}
+			if (arg2 == 6) {
+				return 28, 6002, "Wildblood hops" + "<br>" + "Payment: Nasturtiums";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 2) {
+			if (arg2 == 0) {
+				return 15, 1521, "Oak trees" + "<br>" + "Payment: Tomatoes(5) ";
+			}
+			if (arg2 == 1) {
+				return 30, 1519, "Willow trees" + "<br>" + "Payment: Apples(5)";
+			}
+			if (arg2 == 2) {
+				return 45, 1517, "Maple trees" + "<br>" + "Payment: Oranges (5)";
+			}
+			if (arg2 == 3) {
+				return 60, 1515, "Yew trees" + "<br>" + "Payment: Cactus spine x10";
+			}
+			if (arg2 == 4) {
+				return 75, 1513, "Magic trees" + "<br>" + "Payment: Coconut x25";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 3) {
+			if (arg2 == 0) {
+				return 27, 1955, "Apple trees" + "<br>" + "Payment: Sweetcorn x9";
+			}
+			if (arg2 == 1) {
+				return 33, 1963, "Banana trees" + "<br>" + "Payment: Apples(5) x4";
+			}
+			if (arg2 == 2) {
+				return 39, 2108, "Orange trees" + "<br>" + "Payment: Strawberries(5) x3";
+			}
+			if (arg2 == 3) {
+				return 42, 5970, "Curry trees" + "<br>" + "Payment: Bananas(5) x5";
+			}
+			if (arg2 == 4) {
+				return 51, 2114, "Pineapple plants" + "<br>" + "Payment: Watermelon x10";
+			}
+			if (arg2 == 5) {
+				return 57, 5972, "Papaya trees" + "<br>" + "Payment: Pineapple x10";
+			}
+			if (arg2 == 6) {
+				return 68, 5974, "Palm trees" + "<br>" + "Payment: Papaya fruit x15";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 4) {
+			if (arg2 == 0) {
+				return 10, 1951, "Redberry bushes" + "<br>" + "Payment: Cabbages(10) x4";
+			}
+			if (arg2 == 1) {
+				return 22, 753, "Cadavaberry bushes" + "<br>" + "Payment: Tomatoes(5) x3";
+			}
+			if (arg2 == 2) {
+				return 36, 2126, "Dwellberry bushes" + "<br>" + "Payment: Strawberries(5) x3";
+			}
+			if (arg2 == 3) {
+				return 48, 247, "Jangerberry bushes" + "<br>" + "Payment: Watermelon x6";
+			}
+			if (arg2 == 4) {
+				return 59, 239, "White berry bushes" + "<br>" + "Payment: Mushroom x8";
+			}
+			if (arg2 == 5) {
+				return 70, 6018, "Poison ivy bushes";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 5) {
+			if (arg2 == 0) {
+				return 2, 6010, "Marigolds" + "<br>" + "Protects onions, tomatoes and potatoes";
+			}
+			if (arg2 == 1) {
+				return 11, 6014, "Rosemary" + "<br>" + "Protects cabbages from disease";
+			}
+			if (arg2 == 2) {
+				return 23, 6059, "Make and place a scarecrow " + "<br>" + "Protects sweetcorn from birds";
+			}
+			if (arg2 == 3) {
+				return 24, 6012, "Nasturtiums" + "<br>" + "Protects watermelons from disease";
+			}
+			if (arg2 == 4) {
+				return 25, 5738, "Woad";
+			}
+			if (arg2 == 5) {
+				return 26, 225, "Limpwurt plants";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 6) {
+			if (arg2 == 0) {
+				return 9, 249, "Guam leaf";
+			}
+			if (arg2 == 1) {
+				return 14, 251, "Marrentill";
+			}
+			if (arg2 == 2) {
+				return 19, 253, "Tarromin";
+			}
+			if (arg2 == 3) {
+				return 26, 255, "Harralander";
+			}
+			if (arg2 == 4) {
+				return 29, 3261, "Goutweed" + "<br>" + "Must have completed Eadgar's Ruse";
+			}
+			if (arg2 == 5) {
+				return 32, 257, "Ranarr weed";
+			}
+			if (arg2 == 6) {
+				return 38, 2998, "Toadflax";
+			}
+			if (arg2 == 7) {
+				return 44, 259, "Irit leaf";
+			}
+			if (arg2 == 8) {
+				return 50, 261, "Avantoe";
+			}
+			if (arg2 == 9) {
+				return 56, 263, "Kwuarm";
+			}
+			if (arg2 == 10) {
+				return 62, 3000, "Snapdragon";
+			}
+			if (arg2 == 11) {
+				return 67, 265, "Cadantine";
+			}
+			if (arg2 == 12) {
+				return 73, 2481, "Lantadyme";
+			}
+			if (arg2 == 13) {
+				return 79, 267, "Dwarf weed";
+			}
+			if (arg2 == 14) {
+				return 85, 269, "Torstol";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 7) {
+			if (arg2 == 0) {
+				return 36, 1987, "Grapes";
+			}
+			if (arg2 == 1) {
+				return 53, 6004, "Bittercap mushrooms";
+			}
+			if (arg2 == 2) {
+				return 55, 6016, "Cacti" + "<br>" + "Payment: Cadava berries x6";
+			}
+			if (arg2 == 3) {
+				return 63, 2398, "Belladonna";
+			}
+			if (arg2 == 4) {
+				return 72, 5980, "Calquat trees" + "<br>" + "Payment: Poison ivy berries x8";
+			}
+			if (arg2 == 5) {
+				return 83, 6063, "Spirit trees" + "<br>" + "(1 planted at a time)";
+			}
+			if (arg2 == 6) {
+				return 91, 6063, "Spirit trees" + "<br>" + "(2 planted at a time)";
+			}
+			if (arg2 == 7) {
+				return 99, 6063, "Spirit trees" + "<br>" + "(unlimited)";
+			}
+			if (arg2 == 8) {
+				return -1, 7620, "Payment: Monkey bar, ground suqah tooth & 5 monkey nuts.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 8) {
+			if (arg2 == 0) {
+				return 23, 6059, "Able to make and place a scarecrow";
+			}
+			if (arg2 == 1) {
+				return -1, 7620, "Scarecrows ward sweetcorn from being attacked by birds, which helps to prevent disease.";
+			}
+			if (arg2 == 2) {
+				return -1, 7620, "How to make a scarecrow:";
+			}
+			if (arg2 == 3) {
+				return -1, 7620, "1. Fill an empty sack with straw from a bale.";
+			}
+			if (arg2 == 4) {
+				return -1, 7620, "2. Drive the hay sack onto a bronze spear.";
+			}
+			if (arg2 == 5) {
+				return -1, 7620, "3. Place a watermelon on top as a head.";
+			}
+			if (arg2 == 6) {
+				return -1, 7620, "4. Stand the scarecrow in an empty flower patch.";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 9) {
+			if (arg2 == 0) {
+				return 23, 6043, "2x oak roots";
+			}
+			if (arg2 == 1) {
+				return 31, 6043, "3x oak roots";
+			}
+			if (arg2 == 2) {
+				return 38, 6045, "2x willow roots";
+			}
+			if (arg2 == 3) {
+				return 39, 6043, "4x oak roots";
+			}
+			if (arg2 == 4) {
+				return 46, 6045, "3x willow roots";
+			}
+			if (arg2 == 5) {
+				return 53, 6047, "2x maple roots";
+			}
+			if (arg2 == 6) {
+				return 54, 6045, "4x willow roots";
+			}
+			if (arg2 == 7) {
+				return 61, 6047, "3x maple roots";
+			}
+			if (arg2 == 8) {
+				return 68, 6049, "2x yew roots";
+			}
+			if (arg2 == 9) {
+				return 69, 6047, "4x maple roots";
+			}
+			if (arg2 == 10) {
+				return 76, 6049, "3x yew roots";
+			}
+			if (arg2 == 11) {
+				return 83, 6051, "2x magic roots";
+			}
+			if (arg2 == 12) {
+				return 84, 6049, "4x yew roots";
+			}
+			if (arg2 == 13) {
+				return 91, 6051, "3x magic roots";
+			}
+			if (arg2 == 14) {
+				return 99, 6051, "4x magic roots";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 10) {
+			if (arg2 == 0) {
+				return 34, 13426, "Golovanova fruit";
+			}
+			if (arg2 == 1) {
+				return 54, 13427, "Bologano fruit";
+			}
+			if (arg2 == 2) {
+				return 74, 13428, "Logavano fruit";
+			}
+			return -1, -1, "";
+		}
+		if (arg1 == 11) {
+			if (arg2 == 0) {
+				return 27, 20905, "Golpar";
+			}
+			if (arg2 == 1) {
+				return 39, 20908, "Buchu leaf";
+			}
+			if (arg2 == 2) {
+				return 55, 20902, "Noxifer";
+			}
+			return -1, -1, "";
+		}
+		return -1, -1, "";
+	}
+	if (arg0 == 22) {
+		return script_659(arg1, arg2);
+	}
+	if (arg0 == 23) {
+		return script_1599(arg1, arg2);
+	}
+	return -1, -1, "";
+}

@@ -1,0 +1,7 @@
+//script2411(2411)(int arg0)(void)
+if(load_varpbit(995) == 0)
+	script_2410(oc_icursor(1, arg0), oc_icursor(2, arg0), -1, oc_icursor(4, arg0), oc_icursor(5, arg0), item_iop(1, arg0), item_iop(2, arg0), "", item_iop(4, arg0), item_iop(5, arg0), item_name(arg0))
+else
+	script_2410(oc_icursor(1, arg0), oc_icursor(2, arg0), oc_icursor(1, arg0), oc_icursor(4, arg0), oc_icursor(5, arg0), "Lletya", item_iop(2, arg0), "Temple", item_iop(4, arg0), item_iop(5, arg0), item_name(arg0))
+instr6095(script_2412, "IioY", 1, 1560, -2147483645, -2147483643, arg0)
+return

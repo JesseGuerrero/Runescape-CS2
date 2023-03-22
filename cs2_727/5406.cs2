@@ -1,0 +1,40 @@
+//script5406(5406)(int arg0, int arg1)(void)
+if_sethide(if_gethash(1172, 2), 1)
+if_sethide(if_gethash(1172, 5), 1)
+if_sethide(if_gethash(1172, 7), 0)
+if(arg0 == 1) {
+	if_settext(if_gethash(1172, 8), "Yeah! You won!")
+	switch(random(2)) {
+		case default:
+			break
+		case 0:
+			sound_vorbis_volume(255, 0, 1, 7897)
+			break
+		case 1:
+			sound_vorbis_volume(255, 0, 1, 7885)
+			break
+
+	}
+	if(load_varpbit(9984) > 0 || load_varpbit(9985) > 0 || load_varpbit(9988) != 0)
+		if_settext(if_gethash(1172, 10), "You now have a dominion factor of: " + script_46(arg1, ","))
+	else
+		if_settext(if_gethash(1172, 10), "")
+} else  {
+	if_settext(if_gethash(1172, 8), "Unlucky, you lost!")
+	switch(random(2)) {
+		case default:
+			break
+		case 0:
+			sound_vorbis_volume(255, 0, 1, 7904)
+			break
+		case 1:
+			sound_vorbis_volume(255, 0, 1, 7874)
+			break
+
+	}
+	if(load_varpbit(9984) > 0 || load_varpbit(9985) > 0 || load_varpbit(9988) != 0)
+		if_settext(if_gethash(1172, 10), "You leave with a dominion factor of: " + script_46(arg1, ","))
+	else
+		if_settext(if_gethash(1172, 10), "")
+}
+return

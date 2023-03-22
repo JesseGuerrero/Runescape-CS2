@@ -1,0 +1,166 @@
+void script_1382(int arg0, Location location1, Location location2, int arg3) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	Widget widget23;
+	int4 = x(location1);
+	int5 = y(location1);
+	int6 = x(location2);
+	int7 = y(location2);
+	int8 = int6 - int4 + 1;
+	int9 = int7 - int5 + 1;
+	int10 = int8;
+	if (int9 > int10) {
+		int10 = int9;
+	}
+	int11 = 32;
+	if (int10 <= 2) {
+		int11 = int11 * 2;
+	} else if (int10 <= 4) {
+		int11 = mathMethod4006(0, 3, 0, 2, int11);
+	}
+	int12 = 0;
+	int13 = 0;
+	int14 = 0;
+	int15 = 0;
+	int16 = 0;
+	if (int8 >= 7 && int9 >= 7) {
+		int12, int13, int14 = int11, int11, 7 * int11;
+	} else {
+		int12, int13 = (int4 - 1) * int11, (int5 - 1) * int11;
+		int14 = (int10 + 2) * int11;
+		int15 = (7 + 2) * int11;
+		int16 = int12 + int14 - int15;
+		if (int16 > 0) {
+			int12 = int12 - int16;
+			if (int12 < 0) {
+				int12 = 0;
+			}
+		}
+		int16 = int13 + int14 - int15;
+		if (int16 > 0) {
+			int13 = int13 - int16;
+			if (int13 < 0) {
+				int13 = 0;
+			}
+		}
+	}
+	widget(422, 5).setSize(int14, int14, 0, 0);
+	int17 = 7 + 2;
+	int18 = pow(int17, 2);
+	int19 = 0;
+	int20 = 0;
+	widget(422, 5).clearChildren();
+	int21 = 0;
+	int22 = 0;
+	while (int22 < int18) {
+		CHILD.createChild(widget(422, 5), 3, int21);
+		int21 = int21 + 1;
+		CHILD.setSize(int11, int11, 0, 0);
+		int19, int20 = int22 % int17, int22 / int17;
+		CHILD.setPosition(int19 * int11 - int12, int20 * int11 - int13, 0, 2);
+		CHILD.setFilled(false);
+		CHILD.setHidden(true);
+		int22 = int22 + 1;
+	}
+	int22 = 0;
+	while (int22 < int18) {
+		CHILD.createChild(widget(422, 5), 3, int21);
+		int21 = int21 + 1;
+		CHILD.setSize(int11, int11, 0, 0);
+		int19, int20 = int22 % int17, int22 / int17;
+		CHILD.setPosition(int19 * int11 - int12, int20 * int11 - int13, 0, 2);
+		CHILD.setFilled(false);
+		CHILD.setHidden(true);
+		int22 = int22 + 1;
+	}
+	int22 = 0;
+	while (int22 < int18) {
+		CHILD.createChild(widget(422, 5), 3, int21);
+		int21 = int21 + 1;
+		CHILD.setSize(int11, int11, 0, 0);
+		int19, int20 = int22 % int17, int22 / int17;
+		CHILD.setPosition(int19 * int11 - int12, int20 * int11 - int13, 0, 2);
+		CHILD.setFilled(false);
+		CHILD.setHidden(true);
+		int22 = int22 + 1;
+	}
+	script_1383(1, VARC[141], arg0, int11, int12, int13);
+	script_1383(2, VARC[142], arg0, int11, int12, int13);
+	script_1383(3, VARC[143], arg0, int11, int12, int13);
+	script_1383(4, VARC[144], arg0, int11, int12, int13);
+	script_1383(5, VARC[145], arg0, int11, int12, int13);
+	script_1383(6, VARC[146], arg0, int11, int12, int13);
+	script_1383(7, VARC[147], arg0, int11, int12, int13);
+	script_1383(8, VARC[148], arg0, int11, int12, int13);
+	script_1383(9, VARC[149], arg0, int11, int12, int13);
+	script_1383(10, VARC[150], arg0, int11, int12, int13);
+	script_1383(11, VARC[151], arg0, int11, int12, int13);
+	script_1383(12, VARC[152], arg0, int11, int12, int13);
+	script_1383(13, VARC[153], arg0, int11, int12, int13);
+	script_1383(14, VARC[154], arg0, int11, int12, int13);
+	script_1383(15, VARC[155], arg0, int11, int12, int13);
+	script_1383(16, VARC[156], arg0, int11, int12, int13);
+	script_1383(17, VARC[157], arg0, int11, int12, int13);
+	script_1383(18, VARC[158], arg0, int11, int12, int13);
+	script_1383(19, VARC[159], arg0, int11, int12, int13);
+	script_1383(20, VARC[160], arg0, int11, int12, int13);
+	script_1383(21, VARC[161], arg0, int11, int12, int13);
+	script_1383(22, VARC[162], arg0, int11, int12, int13);
+	script_1383(23, VARC[163], arg0, int11, int12, int13);
+	script_1383(24, VARC[164], arg0, int11, int12, int13);
+	script_1383(25, VARC[165], arg0, int11, int12, int13);
+	script_1383(26, VARC[166], arg0, int11, int12, int13);
+	script_1383(27, VARC[167], arg0, int11, int12, int13);
+	script_1383(28, VARC[168], arg0, int11, int12, int13);
+	script_1383(29, VARC[169], arg0, int11, int12, int13);
+	script_1383(30, VARC[170], arg0, int11, int12, int13);
+	script_1383(31, VARC[174], arg0, int11, int12, int13);
+	script_1383(32, VARC[176], arg0, int11, int12, int13);
+	script_1383(33, VARC[177], arg0, int11, int12, int13);
+	widget23 = datamap('i', 'I', 1424, -1);
+	widget23.setSize(int11, int11, 0, 0);
+	widget(422, 40).hookVARP(&script_1384(widget23, int17, int18, int11, int12, int13), 780);
+	widget23.clearChildren();
+	CHILD.createChild(widget23, 5, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setSprite(null);
+	CHILD.createChild(widget23, 3, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(2, 2, 1, 1);
+	CHILD.setRGB(0xFFFF00);
+	CHILD.setFilled(false);
+	CHILD.setTrans(255);
+	CHILD.createChild(widget23, 3, 2);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(4, 4, 1, 1);
+	CHILD.setRGB(0xFFFF00);
+	CHILD.setFilled(false);
+	CHILD.setTrans(255);
+	CHILD.createChild(widget23, 3, 3);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(6, 6, 1, 1);
+	CHILD.setRGB(0xFFFF00);
+	CHILD.setFilled(false);
+	CHILD.setTrans(255);
+	widget23.setIsHidden(true);
+	script_1389(arg3, z(location1), z(location2));
+	return;
+}

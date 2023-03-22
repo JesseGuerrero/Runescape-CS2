@@ -1,0 +1,15 @@
+//script806(806)()(int)
+int iVar0
+iVar0 = 5592405
+if(runenergy_visible() > 75)
+	iVar0 = 65280
+else
+	if(runenergy_visible() > 50)
+		iVar0 = 16776960
+	else
+		if(runenergy_visible() > 25)
+			iVar0 = 16750623
+		else
+			iVar0 = 16711680
+return iVar0
+return 0

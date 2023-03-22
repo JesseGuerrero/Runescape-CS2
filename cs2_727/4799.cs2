@@ -1,0 +1,16 @@
+//script4799(4799)()(int)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 1
+while(iVar2 <= 31) {
+	iVar0 = script_4790(iVar2)
+	if(iVar0 >= 604)
+		if(iVar0 <= 615)
+			iVar1 = iVar1 + 1
+	iVar2 = iVar2 + 1
+}
+return iVar1
+return 0

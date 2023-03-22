@@ -1,0 +1,3 @@
+//script5595(5595)(int arg0)(void)
+if_setcolor(arg0, 0xFAE7D4)
+return

@@ -1,0 +1,69 @@
+void script_324(int arg0, int arg1, int arg2, int arg3, Sprite sprite4, Sprite sprite5) {
+	if (VARP[43] == 0) {
+		if (arg0 != -1) {
+			widget(593, 4).setSprite(sprite5);
+		}
+		if (arg1 != -1) {
+			widget(593, 8).setSprite(sprite4);
+		}
+		if (arg2 != -1) {
+			widget(593, 12).setSprite(sprite4);
+		}
+		if (arg3 != -1) {
+			widget(593, 16).setSprite(sprite4);
+		}
+	} else if (VARP[43] == 1) {
+		if (arg0 != -1) {
+			widget(593, 4).setSprite(sprite4);
+		}
+		if (arg1 != -1) {
+			widget(593, 8).setSprite(sprite5);
+		}
+		if (arg2 != -1) {
+			widget(593, 12).setSprite(sprite4);
+		}
+		if (arg3 != -1) {
+			widget(593, 16).setSprite(sprite4);
+		}
+	} else if (VARP[43] == 2) {
+		if (arg0 != -1) {
+			widget(593, 4).setSprite(sprite4);
+		}
+		if (arg1 != -1) {
+			widget(593, 8).setSprite(sprite4);
+		}
+		if (arg2 != -1) {
+			widget(593, 12).setSprite(sprite5);
+		}
+		if (arg3 != -1) {
+			widget(593, 16).setSprite(sprite4);
+		}
+	} else if (VARP[43] == 3) {
+		if (arg0 != -1) {
+			widget(593, 4).setSprite(sprite4);
+		}
+		if (arg1 != -1) {
+			widget(593, 8).setSprite(sprite4);
+		}
+		if (arg2 != -1) {
+			widget(593, 12).setSprite(sprite4);
+		}
+		if (arg3 != -1) {
+			widget(593, 16).setSprite(sprite5);
+		}
+	} else {
+		if (arg0 != -1) {
+			widget(593, 4).setSprite(sprite4);
+		}
+		if (arg1 != -1) {
+			widget(593, 8).setSprite(sprite4);
+		}
+		if (arg2 != -1) {
+			widget(593, 12).setSprite(sprite4);
+		}
+		if (arg3 != -1) {
+			widget(593, 16).setSprite(sprite4);
+		}
+	}
+	return;
+}

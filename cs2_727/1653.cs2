@@ -1,0 +1,7 @@
+//script1653(1653)()(int)
+if(if_gethide(if_gethash(752, 8)) == 1)
+	if(if_gethide(if_gethash(752, 3)) == 0 || if_gethide(if_gethash(752, 7)) == 0 || if_isopen(49283085) == 1 || if_isopen(49283084) == 1 || if_isopen(49283083) == 1 || if_isopen(49283082) == 1 || if_gethide(if_gethash(137, 0)) == 0)
+		return 1
+	else
+		return 0
+return -1

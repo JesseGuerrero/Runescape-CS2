@@ -1,0 +1,47 @@
+int script_553() {
+	int int0;
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	string str0;
+	string str1;
+	string str2;
+	int0 = -1;
+	int1 = -1;
+	str0 = "";
+	str1 = "";
+	str2 = "";
+	int2 = -1;
+	int3 = -2147483648;
+	int4 = -2147483648;
+	int5 = 0;
+	while (int5 <= 107) {
+		if (m5017(int5) > 0) {
+			int0, int1, str0, str1, str2 = m5003(int5, 0);
+			if (int1 > int3 || int0 > int2) {
+				int3 = int1;
+				int2 = int0;
+			}
+			switch (int5) {
+				case 3:
+				case 6:
+				case 7:
+					if (int1 > int4) {
+						int4 = int1;
+						STRING[0] = removeTags(str0);
+					}
+					break;
+				case 14:
+					if (int0 != -1 && int1 > getClientCycle() - 3000) {
+						VARC[55] = int1;
+						widget(162, 0).hookFrame(&script_664(false));
+					}
+					break;
+			}
+		}
+		int5 = int5 + 1;
+	}
+	return int2;
+}

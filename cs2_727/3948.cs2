@@ -1,0 +1,3 @@
+//script3948(3948)(int arg0)(void)
+if_setposition(if_gethash(890, 37), 0, 1, arg0, if_getx(if_gethash(890, 37)))
+return

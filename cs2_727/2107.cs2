@@ -1,0 +1,8 @@
+//script2107(2107)(int arg0, int arg1, int arg2, int arg3)(void)
+instr6180(12124191, 1)
+instr6180(12124192, 1)
+if_setmodel(arg0, 7753)
+if_setmodel(arg1, 7752)
+if_setmodel(arg2, 20104)
+if_setmodel(arg3, 7751)
+return

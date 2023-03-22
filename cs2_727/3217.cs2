@@ -1,0 +1,37 @@
+//script3217(3217)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+string sVar0
+if(instr6703() == -3)
+	return
+if(instr6323() == -3)
+	return
+if(instr6702() == -3)
+	return
+sVar0 = ""
+switch(arg4) {
+	case default:
+		break
+	case 6:
+		sVar0 = load_varc_string(122)
+		break
+	case 14:
+		sVar0 = load_varc_string(326)
+		break
+	case 7:
+		sVar0 = script_2949(load_varc_string(124))
+		break
+	case 8:
+		sVar0 = script_2949(load_varc_string(125))
+		break
+	case 15:
+		if(load_varc(1407) > 0)
+			sVar0 = to_string(load_varc(1407))
+		break
+	case 16:
+		sVar0 = load_varc_string(330)
+		break
+
+}
+store_varc(1099, script_1401(arg0, 3793, 0, sVar0))
+script_3218(arg1, arg2, arg3, arg4, sVar0)
+script_2714(arg4, 0)
+return

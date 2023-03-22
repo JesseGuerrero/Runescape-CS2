@@ -1,0 +1,6 @@
+//script1789(1789)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = client_clock() - arg1
+store_varc(265, max(0, arg2 - (iVar3 / 30)))
+script_1790(arg0)
+return

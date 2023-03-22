@@ -1,0 +1,5 @@
+void script_1492(Widget widget0) {
+	script_1700(widget0);
+	widget0.hookWidgetsOpenClose(&script_1699(CTX_WIDGET));
+	return;
+}

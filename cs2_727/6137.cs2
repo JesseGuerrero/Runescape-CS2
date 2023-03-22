@@ -1,0 +1,34 @@
+//script6137(6137)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+iVar6 = 80
+iVar7 = 40
+iVar8 = 20
+sVar0 = "Place beacon"
+cc_create(0, 3, 83230842)
+cc_setsize(0, 0, iVar6, iVar6)
+cc_setposition(0, 0, arg1 - iVar7, arg0 - iVar7)
+script_6136(sVar0)
+cc_create(1, 3, 83230842)
+cc_setsize(0, 0, iVar7, iVar7)
+cc_setposition(0, 0, arg1 - iVar8, arg0 - iVar8)
+script_6136(sVar0)
+cc_create(0, 3, 83230843)
+cc_setsize(0, 0, iVar6, iVar6)
+cc_setposition(0, 0, arg3 - iVar7, arg2 - iVar7)
+script_6136(sVar0)
+cc_create(1, 3, 83230843)
+cc_setsize(0, 0, iVar7, iVar7)
+cc_setposition(0, 0, arg3 - iVar8, arg2 - iVar8)
+script_6136(sVar0)
+cc_create(0, 3, 83230844)
+cc_setsize(0, 0, iVar6, iVar6)
+cc_setposition(0, 0, arg5 - iVar7, arg4 - iVar7)
+script_6136(sVar0)
+cc_create(1, 3, 83230844)
+cc_setsize(0, 0, iVar7, iVar7)
+cc_setposition(0, 0, arg5 - iVar8, arg4 - iVar8)
+script_6136(sVar0)
+return

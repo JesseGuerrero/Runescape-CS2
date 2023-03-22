@@ -1,0 +1,13 @@
+void script_691(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4) {
+	if (arg0 != 1) {
+		return;
+	}
+	VARPBIT[1777] = arg1;
+	playSoundEffect(2266, 1, 0);
+	script_689(widget2, widget3, widget4);
+	if (arg1 != 0) {
+		widget(215, 41).setIsHidden(false);
+		widget(215, 42).setIsHidden(false);
+	}
+	return;
+}

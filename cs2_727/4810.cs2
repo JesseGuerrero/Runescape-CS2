@@ -1,0 +1,93 @@
+//script4810(4810)()(void)
+int iVar0
+iVar0 = 1
+if_setposition(if_gethash(1258, 391), 0, 0, iVar0, 4)
+iVar0 = iVar0 + 13
+if_setposition(if_gethash(1258, 418), 0, 0, iVar0, 0)
+iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 418))
+if(if_getheight(if_gethash(1258, 406)) > 0) {
+	if_sethide(if_gethash(1258, 392), 0)
+	if_setposition(if_gethash(1258, 392), 0, 0, iVar0, 4)
+	iVar0 = iVar0 + 13
+	if_setposition(if_gethash(1258, 406), 0, 0, iVar0, 0)
+	iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 406))
+} else  {
+	if_sethide(if_gethash(1258, 392), 1)
+	if_setposition(if_gethash(1258, 406), 0, 0, iVar0, 0)
+}
+if(if_getheight(if_gethash(1258, 394)) > 0) {
+	if_sethide(if_gethash(1258, 393), 0)
+	if_setposition(if_gethash(1258, 393), 0, 0, iVar0, 4)
+	iVar0 = iVar0 + 13
+	if_setposition(if_gethash(1258, 394), 0, 0, iVar0, 0)
+	iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 394))
+} else  {
+	if_sethide(if_gethash(1258, 393), 1)
+	if_setposition(if_gethash(1258, 394), 0, 0, iVar0, 0)
+}
+if_setposition(if_gethash(1258, 430), 0, 0, iVar0, 0)
+iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 430))
+if_setscrollsize(82444678, iVar0, 0)
+if(if_gethide(if_gethash(1258, 390)) == 0)
+	script_31(82444526, 82444678, 5666, 5663, 5664, 5665, 5686, 5685)
+iVar0 = 1
+if_setposition(if_gethash(1258, 319), 0, 0, iVar0, 4)
+iVar0 = iVar0 + 13
+if_setposition(if_gethash(1258, 350), 0, 0, iVar0, 0)
+iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 350))
+if(if_getheight(if_gethash(1258, 336)) > 0) {
+	if_sethide(if_gethash(1258, 320), 0)
+	if_setposition(if_gethash(1258, 320), 0, 0, iVar0, 4)
+	iVar0 = iVar0 + 13
+	if_setposition(if_gethash(1258, 336), 0, 0, iVar0, 0)
+	iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 336))
+} else  {
+	if_sethide(if_gethash(1258, 320), 1)
+	if_setposition(if_gethash(1258, 336), 0, 0, iVar0, 0)
+}
+if(if_getheight(if_gethash(1258, 322)) > 0) {
+	if_sethide(if_gethash(1258, 321), 0)
+	if_setposition(if_gethash(1258, 321), 0, 0, iVar0, 4)
+	iVar0 = iVar0 + 13
+	if_setposition(if_gethash(1258, 322), 0, 0, iVar0, 0)
+	iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 322))
+} else  {
+	if_sethide(if_gethash(1258, 321), 1)
+	if_setposition(if_gethash(1258, 322), 0, 0, iVar0, 0)
+}
+if_setposition(if_gethash(1258, 364), 0, 0, iVar0, 0)
+iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 364))
+if_setscrollsize(82444606, iVar0, 0)
+if(if_gethide(if_gethash(1258, 318)) == 0)
+	script_31(82444526, 82444606, 5666, 5663, 5664, 5665, 5686, 5685)
+iVar0 = 1
+if_setposition(if_gethash(1258, 241), 0, 0, iVar0, 4)
+iVar0 = iVar0 + 13
+if_setposition(if_gethash(1258, 276), 0, 0, iVar0, 0)
+iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 276))
+if(if_getheight(if_gethash(1258, 260)) > 0) {
+	if_sethide(if_gethash(1258, 242), 0)
+	if_setposition(if_gethash(1258, 242), 0, 0, iVar0, 4)
+	iVar0 = iVar0 + 13
+	if_setposition(if_gethash(1258, 260), 0, 0, iVar0, 0)
+	iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 260))
+} else  {
+	if_sethide(if_gethash(1258, 242), 1)
+	if_setposition(if_gethash(1258, 260), 0, 0, iVar0, 0)
+}
+if(if_getheight(if_gethash(1258, 244)) > 0) {
+	if_sethide(if_gethash(1258, 243), 0)
+	if_setposition(if_gethash(1258, 243), 0, 0, iVar0, 4)
+	iVar0 = iVar0 + 13
+	if_setposition(if_gethash(1258, 244), 0, 0, iVar0, 0)
+	iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 244))
+} else  {
+	if_sethide(if_gethash(1258, 243), 1)
+	if_setposition(if_gethash(1258, 244), 0, 0, iVar0, 0)
+}
+if_setposition(if_gethash(1258, 292), 0, 0, iVar0, 0)
+iVar0 = (iVar0 + 1) + if_getheight(if_gethash(1258, 292))
+if_setscrollsize(82444528, iVar0, 0)
+if(if_gethide(if_gethash(1258, 240)) == 0)
+	script_31(82444526, 82444528, 5666, 5663, 5664, 5665, 5686, 5685)
+return

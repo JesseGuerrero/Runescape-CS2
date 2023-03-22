@@ -1,0 +1,22 @@
+//script949(949)()(void)
+if(load_varc(1198) == 1) {
+	if_sethide(if_gethash(933, 322), 0)
+	if_sethide(if_gethash(933, 323), 0)
+}
+if(load_varc(1199) == 1) {
+	if_sethide(if_gethash(933, 321), 0)
+	if_sethide(if_gethash(933, 324), 0)
+}
+if(load_varc(1200) == 1) {
+	if_sethide(if_gethash(933, 320), 0)
+	if_sethide(if_gethash(933, 325), 0)
+}
+if(load_varc(1201) == 1) {
+	if_sethide(if_gethash(933, 319), 0)
+	if_sethide(if_gethash(933, 326), 0)
+}
+if(load_varc(1202) == 1) {
+	if_sethide(if_gethash(933, 318), 0)
+	if_sethide(if_gethash(933, 327), 0)
+}
+return

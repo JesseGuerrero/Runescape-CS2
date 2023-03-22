@@ -1,0 +1,230 @@
+void script_1004(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, int arg24, int arg25, int arg26, int arg27, int arg28, int arg29, int arg30, int arg31) {
+	int int32;
+	int int33;
+	int int34;
+	int int35;
+	int int36;
+	Sprite sprite37;
+	Sprite sprite38;
+	int int39;
+	int int40;
+	int int41;
+	int int42;
+	int int43;
+	int int44;
+	Widget widget45;
+	string str0;
+	int32 = 23 + 1;
+	ARRAY0 = new Skill[int32];
+	ARRAY1 = new int[int32];
+	int33 = 0;
+	int34 = getSkillXp(10) - arg23;
+	if (int34 > 0) {
+		ARRAY0[int33] = 10;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(0) - arg9;
+	if (int34 > 0) {
+		ARRAY0[int33] = 0;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(2) - arg10;
+	if (int34 > 0) {
+		ARRAY0[int33] = 2;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(4) - arg11;
+	if (int34 > 0) {
+		ARRAY0[int33] = 4;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(6) - arg12;
+	if (int34 > 0) {
+		ARRAY0[int33] = 6;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(1) - arg13;
+	if (int34 > 0) {
+		ARRAY0[int33] = 1;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(3) - arg14;
+	if (int34 > 0) {
+		ARRAY0[int33] = 3;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(5) - arg15;
+	if (int34 > 0) {
+		ARRAY0[int33] = 5;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(16) - arg16;
+	if (int34 > 0) {
+		ARRAY0[int33] = 16;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(15) - arg17;
+	if (int34 > 0) {
+		ARRAY0[int33] = 15;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(17) - arg18;
+	if (int34 > 0) {
+		ARRAY0[int33] = 17;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(12) - arg19;
+	if (int34 > 0) {
+		ARRAY0[int33] = 12;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(20) - arg20;
+	if (int34 > 0) {
+		ARRAY0[int33] = 20;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(14) - arg21;
+	if (int34 > 0) {
+		ARRAY0[int33] = 14;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(13) - arg22;
+	if (int34 > 0) {
+		ARRAY0[int33] = 13;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(7) - arg24;
+	if (int34 > 0) {
+		ARRAY0[int33] = 7;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(11) - arg25;
+	if (int34 > 0) {
+		ARRAY0[int33] = 11;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(8) - arg26;
+	if (int34 > 0) {
+		ARRAY0[int33] = 8;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(9) - arg27;
+	if (int34 > 0) {
+		ARRAY0[int33] = 9;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(18) - arg28;
+	if (int34 > 0) {
+		ARRAY0[int33] = 18;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(19) - arg29;
+	if (int34 > 0) {
+		ARRAY0[int33] = 19;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(22) - arg30;
+	if (int34 > 0) {
+		ARRAY0[int33] = 22;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int34 = getSkillXp(21) - arg31;
+	if (int34 > 0) {
+		ARRAY0[int33] = 21;
+		ARRAY1[int33] = int34;
+		int33 = int33 + 1;
+	}
+	int35 = 0;
+	int36 = 0;
+	sprite37 = 494;
+	sprite38 = 494;
+	int39 = 16;
+	int40 = 0;
+	int41 = 0;
+	int42 = 0;
+	int43 = 0;
+	int44 = 0;
+	widget45 = null;
+	str0 = "";
+	if (int33 > 0 && arg14 > 0 && getClientCycle() - VARC[76] > 10) {
+		if (VARPBIT[4693] == 1) {
+			sprite37, sprite38, int39 = 495, 495, 25;
+		} else if (VARPBIT[4693] == 2) {
+			sprite37, sprite38, int39 = 496, 496, 25;
+		}
+		int40 = widget6.getHeight();
+		if (int40 < 100) {
+			int40 = 100;
+		}
+		int41 = int39 * datamap('i', 'i', 1171, VARPBIT[4722]) / int40 + 1;
+		while (int35 < int33) {
+			if (int36 == 0) {
+				VARC[72] = ARRAY0[int35];
+				int36 = 1;
+			}
+			if (VARC[71] > 0 && VARC[71] > getClientCycle() - int41) {
+				int42 = VARC[71] + int41;
+			} else {
+				int42 = getClientCycle();
+			}
+			if (int42 < getClientCycle() + int41 * arg8) {
+				widget45 = datamap('i', 'I', 1163, VARC[70]);
+				widget45.setIsHidden(false);
+				int44 = ARRAY1[int35];
+				CHILD.createChild(widget45, 5, 1);
+				CHILD.setSprite(datamap('S', 'd', 255, (Skill)ARRAY0[int35]));
+				CHILD.setPosition(0, 0, 0, 5);
+				CHILD.setHidden(true);
+				int43 = 1;
+				int35 = int35 + 1;
+				while (VARPBIT[4696] == 1 && int35 < int33 && int43 < 5 && int44 < 1000000) {
+					int44 = int44 + ARRAY1[int35];
+					int43 = int43 + 1;
+					CHILD.createChild(widget45, 5, int43);
+					CHILD.setSprite(datamap('S', 'd', 255, (Skill)ARRAY0[int35]));
+					CHILD.setPosition(0, 0, 0, 5);
+					CHILD.setHidden(true);
+					int35 = int35 + 1;
+				}
+				str0 = script_46(int44, ",");
+				if (CHILD.setChild(widget45, 0) == true) {
+					CHILD.setText(str0);
+					CHILD.setPosition(0, 0, 0, 5);
+					CHILD.setHidden(true);
+					script_996(widget45, int39, sprite37, sprite38, str0);
+				}
+				widget45.hookFrame(&script_1005(widget45, int42));
+				VARC[71] = int42;
+				VARC[70] = (VARC[70] + 1) % arg8;
+			} else {
+				int35 = int33;
+			}
+		}
+		script_997(widget0, widget1, widget6, widget7);
+	}
+	script_999(widget1, widget2, widget3, widget4, widget5, widget6, widget7);
+	script_1003(widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, arg8);
+	return;
+}

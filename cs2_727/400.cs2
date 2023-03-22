@@ -1,0 +1,29 @@
+//script400(400)(string arg0, string arg1, string arg2)(string)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+iVar0 = 0
+iVar1 = 0
+sVar0 = ""
+sVar1 = ""
+iVar2 = string_length(arg0)
+iVar3 = string_length(arg1)
+if(iVar2 > 0) {
+	iVar1 = string_indexof_string(arg1, arg0, iVar1)
+	while(iVar1 != -1) {
+		sVar1 = substring(arg0, iVar1, iVar0)
+		if(compare("", sVar1) != 0)
+			sVar0 = sVar0 + sVar1 + arg2
+		iVar1 = iVar1 + iVar3
+		iVar0 = iVar1
+		iVar1 = string_indexof_string(arg1, arg0, iVar1)
+	}
+	sVar1 = substring(arg0, iVar2, iVar0)
+	if(compare("", sVar1) != 0)
+		sVar0 = sVar0 + sVar1
+}
+return sVar0
+return ""

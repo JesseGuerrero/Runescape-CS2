@@ -1,0 +1,4 @@
+void script_1003(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8) {
+	widget0.hookSkill(&script_1004(widget0, widget(arg1), widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), arg8, getSkillXp(0), getSkillXp(2), getSkillXp(4), getSkillXp(6), getSkillXp(1), getSkillXp(3), getSkillXp(5), getSkillXp(16), getSkillXp(15), getSkillXp(17), getSkillXp(12), getSkillXp(20), getSkillXp(14), getSkillXp(13), getSkillXp(10), getSkillXp(7), getSkillXp(11), getSkillXp(8), getSkillXp(9), getSkillXp(18), getSkillXp(19), getSkillXp(22), getSkillXp(21)));
+	return;
+}

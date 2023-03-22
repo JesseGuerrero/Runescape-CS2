@@ -1,0 +1,5 @@
+//script64(64)()(void)
+if_settext(if_gethash(532, 1), to_string(load_varpbit(3637)) + "/" + to_string(183))
+if(load_varpbit(3637) == 183)
+	if_setcolor(34865153, 0xFF00)
+return

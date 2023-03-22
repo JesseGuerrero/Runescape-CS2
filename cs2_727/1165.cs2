@@ -1,0 +1,7 @@
+//script1165(1165)()(void)
+int iVar0
+int iVar1
+iVar0 = if_getwidth(if_gethash(429, 42)) - if_getwidth(if_gethash(429, 43))
+iVar1 = scale(iVar0, 127, detailget_soundeffect_volume())
+if_setposition(if_gethash(429, 43), 0, 0, 0, iVar1)
+return

@@ -1,0 +1,49 @@
+//script1293(1293)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+cc_deleteall(arg0)
+iVar1 = 5
+iVar2 = 34
+iVar3 = 34
+iVar4 = 0
+iVar5 = 6
+iVar6 = iVar5
+iVar7 = 3
+iVar8 = 34 + 3
+if(load_varc(1052) == 1)
+	if(load_varpbit(6840) == 0) {
+		iVar5 = 3
+		iVar6 = iVar5
+		iVar8 = 34 + 0
+	}
+iVar9 = 34 + 2
+if(load_varc(181) == 1) {
+	iVar5 = 6
+	iVar6 = iVar5
+	iVar7 = 28
+	iVar8 = 34 + 5
+	iVar9 = 34 + 3
+}
+iVar10 = 30
+if(load_varpbit(6840) == 1)
+	iVar10 = 20
+while(iVar4 < iVar10) {
+	cc_create(iVar4, 5, arg0)
+	cc_setsize(0, 0, iVar3, iVar2)
+	cc_setposition(0, 0, iVar7, iVar6)
+	iVar4 = iVar4 + 1
+	if(modulo(iVar1, iVar4) == 0) {
+		iVar6 = iVar5
+		iVar7 = iVar7 + iVar9
+	} else 
+		iVar6 = iVar6 + iVar8
+}
+return

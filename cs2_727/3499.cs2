@@ -1,0 +1,31 @@
+//script3499(3499)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 0
+if(arg0 > 20000000)
+	arg0 = 0
+if(coordz(coord()) > 6400 || coordz(coord()) > coordz(48238975)) {
+	if_setmodelangle(arg1, 275, 40, modulo(2047, instr6280(arg1) - 30), 512, 0, 0)
+	if_sethide(arg2, 1)
+} else 
+	if(script_133(33556928, 869257279, coord()) == 0) {
+		if(modulo(68, arg0) > 34)
+			if_setmodelangle(arg1, 275, 40, modulo(2047, instr6280(arg1) - 30), 512, 0, 0)
+		else
+			if_setmodelangle(arg1, 275, 40, modulo(2047, instr6280(arg1) + 30), 512, 0, 0)
+		if_sethide(arg2, 1)
+	} else 
+		if(coordy(coord()) - coordy(load_varc(1323)) > 0) {
+			if_setmodelangle(arg1, 275, 40, modulo(2047, instr6280(arg1) + 30), 512, 0, 0)
+			if_sethide(arg2, 1)
+		} else  {
+			iVar3 = script_3500(coordx(coord()), coordz(coord()), coordx(load_varc(1323)), coordz(load_varc(1323)))
+			if(iVar3 == -1) {
+				if_setmodelangle(arg1, 275, 40, 0, 0, 0, 0)
+				if_sethide(arg2, 0)
+			} else  {
+				if_setmodelangle(arg1, 275, 40, (2047 * iVar3) / 65535, 512, 0, 0)
+				if_sethide(arg2, 1)
+			}
+		}
+instr6342(arg1, script_3499, "iII", arg0 + 1, arg1, arg2)
+return

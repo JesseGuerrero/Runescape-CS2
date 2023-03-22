@@ -1,0 +1,7 @@
+//script856(856)()(void)
+sound_synth(0, 1, 2605)
+if(load_varpbit(4400) < 7 - 1) {
+	store_varc(108, load_varpbit(4400) + 1)
+	script_861()
+}
+return

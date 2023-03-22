@@ -1,0 +1,8 @@
+//script5862(5862)(int arg0)(void)
+if(arg0 == 5509)
+	if(load_varpbit(603) > 0 || arg0 == 5510 || load_varpbit(604) > 0 || arg0 == 5512 || load_varpbit(605) > 0 || arg0 == 5514 || load_varpbit(606) > 0)
+		script_2410(oc_icursor(2, arg0), oc_icursor(1, arg0), oc_icursor(3, arg0), oc_icursor(4, arg0), oc_icursor(5, arg0), item_iop(2, arg0), item_iop(1, arg0), item_iop(3, arg0), item_iop(4, arg0), item_iop(5, arg0), item_name(arg0))
+	else
+		script_2410(oc_icursor(1, arg0), oc_icursor(2, arg0), oc_icursor(3, arg0), oc_icursor(4, arg0), oc_icursor(5, arg0), item_iop(1, arg0), item_iop(2, arg0), item_iop(3, arg0), item_iop(4, arg0), item_iop(5, arg0), item_name(arg0))
+instr6095(script_5863, "IioY", 1, 486, -2147483645, -2147483643, arg0)
+return

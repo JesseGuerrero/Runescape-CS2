@@ -1,0 +1,27 @@
+//script6062(6062)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 10277
+iVar3 = 10281
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		break
+	case 2:
+		iVar2 = 10278
+		iVar3 = 10282
+		break
+	case 1:
+		iVar2 = 10279
+		iVar3 = 10283
+		break
+	case 3:
+		iVar2 = 10280
+		iVar3 = 10284
+		break
+
+}
+if_setgraphic(arg0, iVar2)
+if_setgraphic(arg1, iVar3)
+return

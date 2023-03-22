@@ -1,0 +1,8 @@
+//script714(714)(int arg0)(void)
+cc_create(4, 5, arg0)
+cc_setgraphic(937)
+cc_setsize(0, 0, 32, 10)
+cc_setposition(1, 1, 0, 0)
+cc_sethide(0)
+instr6556(script_144, "Iiii", arg0, 4, client_clock(), client_clock() + 750)
+return

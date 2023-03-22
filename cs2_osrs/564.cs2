@@ -1,0 +1,28 @@
+void script_564(int arg0, Model model1) {
+	if (arg0 == 0) {
+		script_565(widget(93, 4), 1, arg0, model1);
+	} else {
+		script_565(widget(93, 4), 0, arg0, model1);
+	}
+	if (arg0 == 1) {
+		script_565(widget(93, 5), 1, arg0, model1);
+	} else {
+		script_565(widget(93, 5), 0, arg0, model1);
+	}
+	if (arg0 == 2) {
+		script_565(widget(93, 6), 1, arg0, model1);
+	} else {
+		script_565(widget(93, 6), 0, arg0, model1);
+	}
+	if (arg0 == 3) {
+		script_565(widget(93, 7), 1, arg0, model1);
+	} else {
+		script_565(widget(93, 7), 0, arg0, model1);
+	}
+	if (arg0 == 4) {
+		script_565(widget(93, 8), 1, arg0, model1);
+	} else {
+		script_565(widget(93, 8), 0, arg0, model1);
+	}
+	return;
+}

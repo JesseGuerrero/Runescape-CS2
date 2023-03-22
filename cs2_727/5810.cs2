@@ -1,0 +1,9 @@
+//script5810(5810)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 5450
+iVar2 = 5451
+if_setgraphic(arg0, iVar1)
+hook_mouse_enter(arg0, script_44, "Id", -2147483645, iVar2)
+hook_mouse_exit(arg0, script_44, "Id", -2147483645, iVar1)
+return

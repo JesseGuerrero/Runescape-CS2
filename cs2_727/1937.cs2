@@ -1,0 +1,4 @@
+//script1937(1937)()(void)
+if_settext(if_gethash(811, 32), to_string(load_varc(549)))
+script_1928()
+return

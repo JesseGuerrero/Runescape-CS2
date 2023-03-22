@@ -1,0 +1,7 @@
+void script_1734(Widget widget0, int arg1, int arg2) {
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		playSoundEffect(2266, 1, 0);
+		script_1735(widget0);
+	}
+	return;
+}

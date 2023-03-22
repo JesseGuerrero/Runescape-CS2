@@ -1,0 +1,154 @@
+//script243(243)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = 1
+switch(arg0) {
+	case default:
+		script_675()
+		break
+	case 38928641:
+		iVar2 = 38928637
+		iVar3 = 38928638
+		iVar4 = 38928639
+		break
+	case 38928642:
+		iVar2 = 38928668
+		iVar3 = 38928669
+		iVar4 = 38928670
+		break
+	case 38928643:
+		iVar2 = 38928644
+		iVar3 = 38928645
+		iVar4 = 38928646
+		break
+	case 38928648:
+		iVar2 = 38928664
+		iVar3 = 38928665
+		iVar4 = 38928666
+		break
+	case 38928649:
+		iVar2 = 38928660
+		iVar3 = 38928661
+		iVar4 = 38928662
+		break
+	case 38928650:
+		iVar2 = 38928651
+		iVar3 = 38928652
+		iVar4 = 38928653
+		break
+	case 38928655:
+		iVar2 = 38928656
+		iVar3 = 38928657
+		iVar4 = 38928658
+		break
+	case 38928672:
+		iVar2 = 38928621
+		iVar3 = 38928622
+		iVar4 = 38928623
+		break
+	case 38928673:
+		iVar2 = 38928679
+		iVar3 = 38928680
+		iVar4 = 38928681
+		break
+	case 38928674:
+		iVar2 = 38928675
+		iVar3 = 38928676
+		iVar4 = 38928677
+		break
+	case 38928683:
+		iVar2 = 38928625
+		iVar3 = 38928626
+		iVar4 = 38928627
+		break
+	case 38928684:
+		iVar2 = 38928629
+		iVar3 = 38928630
+		iVar4 = 38928631
+		break
+	case 38928690:
+		iVar2 = 38928633
+		iVar3 = 38928634
+		iVar4 = 38928635
+		break
+	case 38928685:
+		iVar2 = 38928686
+		iVar3 = 38928687
+		iVar4 = 38928688
+		break
+	case 38928386:
+		iVar2 = 38928395
+		iVar3 = 38928396
+		iVar4 = 38928397
+		iVar5 = 0
+		break
+	case 38928460:
+		iVar2 = 38928461
+		iVar3 = 38928462
+		iVar4 = 38928463
+		iVar5 = 0
+		break
+	case 38928387:
+		iVar2 = 38928388
+		iVar3 = 38928389
+		iVar4 = 38928390
+		iVar5 = 0
+		break
+	case 38928438:
+		iVar2 = 38928439
+		iVar3 = 38928440
+		iVar4 = 38928441
+		iVar5 = 0
+		break
+	case 38928509:
+		iVar2 = 38928510
+		iVar3 = 38928511
+		iVar4 = 38928512
+		iVar5 = 0
+		break
+	case 38928514:
+		iVar2 = 38928515
+		iVar3 = 38928516
+		iVar4 = 38928517
+		iVar5 = 0
+		break
+
+}
+if(arg1 == 0)
+	if(iVar5 == 1) {
+		if(iVar2 != -1)
+			if_setgraphic(iVar2, 1750)
+		if(iVar3 != -1)
+			if_setgraphic(iVar3, 1751)
+		if(iVar4 != -1)
+			if_setgraphic(iVar4, 1752)
+	} else  {
+		if(iVar2 != -1)
+			if_setgraphic(iVar2, 1756)
+		if(iVar3 != -1)
+			if_setgraphic(iVar3, 1757)
+		if(iVar4 != -1)
+			if_setgraphic(iVar4, 1758)
+	}
+else
+	if(iVar5 == 1) {
+		if(iVar2 != -1)
+			if_setgraphic(iVar2, 1753)
+		if(iVar3 != -1)
+			if_setgraphic(iVar3, 1754)
+		if(iVar4 != -1)
+			if_setgraphic(iVar4, 1755)
+	} else  {
+		if(iVar2 != -1)
+			if_setgraphic(iVar2, 1759)
+		if(iVar3 != -1)
+			if_setgraphic(iVar3, 1760)
+		if(iVar4 != -1)
+			if_setgraphic(iVar4, 1761)
+	}
+return

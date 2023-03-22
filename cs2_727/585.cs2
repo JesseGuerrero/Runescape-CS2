@@ -1,0 +1,5 @@
+//script585(585)()(void)
+instr6237(if_gethash(105, 127), script_588, "Y", 1, 1109)
+instr6254(if_gethash(105, 15), script_586, "")
+script_621()
+return

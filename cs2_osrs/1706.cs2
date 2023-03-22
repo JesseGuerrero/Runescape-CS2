@@ -1,0 +1,5 @@
+void script_1706(int arg0) {
+	playSoundEffect(2266, 1, 0);
+	VARC[189] = arg0;
+	return;
+}

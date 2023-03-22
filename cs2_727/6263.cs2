@@ -1,0 +1,290 @@
+//script6263(6263)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+string sVar0
+string sVar1
+if_settext(if_gethash(925, 32), to_string(load_varpbit(7295)))
+if_settext(if_gethash(925, 14), to_string(load_varpbit(7285)))
+if(load_varpbit(11303) == 0) {
+	if_sethide(if_gethash(925, 2), 1)
+	if_sethide(if_gethash(925, 1), 1)
+} else  {
+	if_sethide(if_gethash(925, 2), 0)
+	if_sethide(if_gethash(925, 1), 0)
+}
+if_setitem(if_gethash(925, 29), load_varc(1119), load_varc(1118))
+item_useonname(60620829, item_name(load_varc(1118)))
+if_setitem(if_gethash(925, 30), load_varc(1121), load_varc(1120))
+item_useonname(60620830, item_name(load_varc(1120)))
+switch(load_varc(1118)) {
+	case default:
+		break
+	case 384:
+		if_settext(if_gethash(925, 63), "Shark")
+		break
+	case 372:
+		if_settext(if_gethash(925, 63), "Swordfish")
+		break
+	case 378:
+		if_settext(if_gethash(925, 63), "Lobster")
+		break
+	case 360:
+		if_settext(if_gethash(925, 63), "Tuna")
+		break
+	case 332:
+		if_settext(if_gethash(925, 63), "Salmon")
+		break
+	case 350:
+		if_settext(if_gethash(925, 63), "Pike")
+		break
+	case 336:
+		if_settext(if_gethash(925, 63), "Trout")
+		break
+	case 346:
+		if_settext(if_gethash(925, 63), "Herring")
+		break
+	case 328:
+		if_settext(if_gethash(925, 63), "Sardine")
+		break
+	case 318:
+		if_settext(if_gethash(925, 63), "Shrimp")
+		if_settext(if_gethash(925, 63), "")
+		break
+
+}
+switch(load_varc(1120)) {
+	case default:
+		break
+	case 384:
+		if_settext(if_gethash(925, 64), "Shark")
+		break
+	case 372:
+		if_settext(if_gethash(925, 64), "Swordfish")
+		break
+	case 378:
+		if_settext(if_gethash(925, 64), "Lobster")
+		break
+	case 360:
+		if_settext(if_gethash(925, 64), "Tuna")
+		break
+	case 332:
+		if_settext(if_gethash(925, 64), "Salmon")
+		break
+	case 350:
+		if_settext(if_gethash(925, 64), "Pike")
+		break
+	case 336:
+		if_settext(if_gethash(925, 64), "Trout")
+		break
+	case 346:
+		if_settext(if_gethash(925, 64), "Herring")
+		break
+	case 328:
+		if_settext(if_gethash(925, 64), "Sardine")
+		break
+	case 318:
+		if_settext(if_gethash(925, 64), "Shrimp")
+		if_settext(if_gethash(925, 64), "")
+		break
+
+}
+iVar0 = -1
+iVar1 = 0
+iVar2 = -1
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = -1
+iVar7 = -1
+iVar0 = script_6264().get(0)
+if(iVar4 == 0)
+	if_settext(if_gethash(925, 65), "(Insufficient tokens)")
+else
+	if_settext(if_gethash(925, 65), to_string(iVar4) + " tokens")
+if(iVar4 == 0 || load_varpbit(7295) < iVar4)
+	if_sethide(if_gethash(925, 176), 0)
+else
+	if_sethide(if_gethash(925, 176), 1)
+sVar0 = "Noted raw fish appropriate for your Fishing level:" + "<br>"
+if(load_varpbit(11303) == 1) {
+	if(iVar0 != -1)
+		sVar0 = sVar0 + to_string(iVar1) + "x " + item_name(iVar0) + "<br>"
+	if(iVar2 != -1)
+		sVar0 = sVar0 + to_string(iVar3) + "x " + item_name(iVar2) + "<br>"
+	if_settext(if_gethash(925, 197), sVar0)
+	if_settext(if_gethash(925, 198), "Cost: " + to_string(iVar4) + " tokens")
+}
+sVar1 = "This tackle box holds:" + "<br>"
+iVar8 = 0
+iVar9 = load_varpbit(7306) + 1
+if(script_2189(iVar9, 0) == 1)
+	iVar8 = iVar8 + 1
+if(script_2189(iVar9, 1) == 1)
+	iVar8 = iVar8 + 1
+if(script_2189(iVar9, 2) == 1)
+	iVar8 = iVar8 + 1
+if(script_2189(iVar9, 3) == 1)
+	iVar8 = iVar8 + 1
+if(script_2189(iVar9, 4) == 1)
+	iVar8 = iVar8 + 1
+if(iVar8 == 1)
+	sVar1 = sVar1 + to_string(iVar8) + " fishing tool" + "<br>"
+else
+	if(iVar8 > 0)
+		sVar1 = sVar1 + to_string(iVar8) + " fishing tools" + "<br>"
+iVar10 = 0
+if(script_2189(iVar9, 5) == 1)
+	iVar10 = iVar10 + 1
+if(script_2189(iVar9, 6) == 1)
+	iVar10 = iVar10 + 1
+if(script_2189(iVar9, 7) == 1)
+	iVar10 = iVar10 + 1
+if(iVar10 == 1)
+	sVar1 = sVar1 + to_string(iVar10) + " stack of " + to_string(script_6261(iVar9)) + " bait" + "<br>"
+else
+	if(iVar10 > 0)
+		sVar1 = sVar1 + to_string(iVar10) + " stacks of " + to_string(script_6261(iVar9)) + " bait" + "<br>"
+iVar11 = 0
+if(script_2189(iVar9, 8) == 1)
+	iVar11 = iVar11 + 1
+if(script_2189(iVar9, 9) == 1)
+	iVar11 = iVar11 + 1
+if(iVar11 == 1)
+	sVar1 = sVar1 + to_string(iVar11) + " fishing gloves" + "<br>"
+else
+	if(iVar11 > 0)
+		sVar1 = sVar1 + to_string(iVar11) + " fishing gloves" + "<br>"
+iVar12 = 0
+if(script_2189(iVar9, 10) == 1)
+	iVar12 = iVar12 + 1
+if(iVar12 == 1)
+	sVar1 = sVar1 + to_string(iVar12) + " stack of " + to_string(script_6262(iVar9)) + " raw fish" + "<br>"
+else
+	if(iVar12 > 0)
+		sVar1 = sVar1 + to_string(iVar12) + " stacks of " + to_string(script_6262(iVar9)) + " raw fish" + "<br>"
+sVar1 = sVar1 + "The fishing outfit" + "<br>"
+iVar4 = enum(5886, iVar9, 'i', 'i')
+if(load_varpbit(11303) == 2) {
+	if_settext(if_gethash(925, 197), sVar1)
+	if_settext(if_gethash(925, 198), "Cost: " + to_string(iVar4) + " tokens")
+}
+if_settext(if_gethash(925, 25), to_string(iVar4) + " tokens")
+iVar13 = enum(5887, iVar9, 'i', 'i')
+if_settext(if_gethash(925, 24), "Requires " + to_string(iVar13) + " medals")
+if(script_259(15666) == 0)
+	if(script_259(15667) == 0)
+		if(script_259(15668) == 0)
+			if(script_259(15669) == 0)
+				if(script_259(15670) == 0)
+					if(load_varpbit(7306) > 0)
+						if_sethide(if_gethash(925, 185), 1)
+					else
+						if(load_varpbit(7295) < iVar4 || load_varpbit(7285) < iVar13 || load_varpbit(7306) == 5)
+							if_sethide(if_gethash(925, 185), 0)
+						else
+							if_sethide(if_gethash(925, 185), 1)
+switch(load_varpbit(7306)) {
+	case default:
+		break
+	case 0:
+		if_settext(if_gethash(925, 21), "Beginner's tackle box")
+		if_setitem(if_gethash(925, 188), -1, 15666)
+		break
+	case 1:
+		if_settext(if_gethash(925, 21), "Basic tackle box")
+		if_setitem(if_gethash(925, 188), -1, 15667)
+		break
+	case 2:
+		if_settext(if_gethash(925, 21), "Standard tackle box")
+		if_setitem(if_gethash(925, 188), -1, 15668)
+		break
+	case 3:
+		if_settext(if_gethash(925, 21), "Professional tackle box")
+		if_setitem(if_gethash(925, 188), -1, 15669)
+		break
+	case 4:
+		if_settext(if_gethash(925, 21), "Champion's tackle box")
+		if_setitem(if_gethash(925, 188), -1, 15670)
+		break
+	case 5:
+		if_settext(if_gethash(925, 21), "Champion's tackle box")
+		if_settext(if_gethash(925, 25), "(Purchased)")
+		if_settext(if_gethash(925, 24), "")
+		if_setitem(if_gethash(925, 188), -1, 15670)
+		break
+
+}
+if_setmodelangle(if_gethash(925, 188), 1440, 0, 1666, 250, 0, 0)
+instr6879(if_gethash(925, 90), 0, 24427)
+if(load_varpbit(11307) == 1)
+	if_settext(if_gethash(925, 91), "(Purchased)")
+else {
+	if(load_varpbit(11303) == 3) {
+		if_settext(if_gethash(925, 198), "Cost: " + to_string(140) + " tokens")
+		if_settext(if_gethash(925, 197), "Wear this fishing hat to increase the amount of Fishing experience you earn.")
+	}
+	if_settext(if_gethash(925, 91), to_string(140) + " tokens")
+}
+if(load_varpbit(7295) < 140)
+	if(load_varpbit(11307) == 0)
+		if_sethide(if_gethash(925, 87), 0)
+	else
+		if_sethide(if_gethash(925, 87), 1)
+instr6879(if_gethash(925, 116), 0, 24428)
+if(load_varpbit(11308) == 1)
+	if_settext(if_gethash(925, 117), "(Purchased)")
+else {
+	if(load_varpbit(11303) == 4) {
+		if_settext(if_gethash(925, 198), "Cost: " + to_string(140) + " tokens")
+		if_settext(if_gethash(925, 197), "Wear this fishing jacket to increase the amount of Fishing experience you earn.")
+	}
+	if_settext(if_gethash(925, 117), to_string(140) + " tokens")
+}
+if(load_varpbit(7295) < 140)
+	if(load_varpbit(11308) == 0)
+		if_sethide(if_gethash(925, 113), 0)
+	else
+		if_sethide(if_gethash(925, 113), 1)
+instr6879(if_gethash(925, 168), 0, 24429)
+if(load_varpbit(11309) == 1)
+	if_settext(if_gethash(925, 169), "(Purchased)")
+else {
+	if(load_varpbit(11303) == 5) {
+		if_settext(if_gethash(925, 198), "Cost: " + to_string(140) + " tokens")
+		if_settext(if_gethash(925, 197), "Wear these fishing waders to increase the amount of Fishing experience you earn.")
+	}
+	if_settext(if_gethash(925, 169), to_string(140) + " tokens")
+}
+if(load_varpbit(7295) < 140)
+	if(load_varpbit(11309) == 0)
+		if_sethide(if_gethash(925, 165), 0)
+	else
+		if_sethide(if_gethash(925, 165), 1)
+instr6879(if_gethash(925, 142), 0, 24430)
+if(load_varpbit(11310) == 1)
+	if_settext(if_gethash(925, 143), "(Purchased)")
+else {
+	if(load_varpbit(11303) == 6) {
+		if_settext(if_gethash(925, 198), "Cost: " + to_string(140) + " tokens")
+		if_settext(if_gethash(925, 197), "Wear these fishing boots to increase the amount of Fishing experience you earn.")
+	}
+	if_settext(if_gethash(925, 143), to_string(140) + " tokens")
+}
+if(load_varpbit(7295) < 140)
+	if(load_varpbit(11310) == 0)
+		if_sethide(if_gethash(925, 139), 0)
+	else
+		if_sethide(if_gethash(925, 139), 1)
+return

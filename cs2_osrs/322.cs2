@@ -1,0 +1,48 @@
+void script_322(int arg0, Widget widget1, int arg2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	Item item8;
+	int int9;
+	int int10;
+	string str0;
+	item8 = null;
+	str0 = "Choose an item from the shop.";
+	int9 = 0;
+	int10 = 0;
+	if (arg0 <= 1) {
+		playSoundEffect(2266, 1, 0);
+		widget3.setIsHidden(true);
+		widget4.setIsHidden(false);
+		widget6.clearChildren();
+		widget7.setPosition(92, 165, 0, 0);
+		widget6.setIsHidden(true);
+		item8 = datamap('i', 'O', 840, arg2);
+		if (item8 != null) {
+			str0 = "<u=ff981f>" + getItemName(item8) + "</u>" + "<br>" + "<br>" + datamap('o', 's', 843, item8) + "<br>" + "<br>";
+			int9 = datamap('o', 'i', 842, item8);
+			int10 = datamap('o', 'i', 841, item8);
+			if (int9 != 1) {
+				if (int10 > 1) {
+					str0 = concat(str0, "Cost: " + int9 + " points for " + int10);
+				} else {
+					str0 = concat(str0, "Cost: " + int9 + " points each");
+				}
+			} else if (int10 > 1) {
+				str0 = concat(str0, "Cost: 1 point for " + int10);
+			} else {
+				str0 = concat(str0, "Cost: 1 point each");
+			}
+		}
+		widget5.setText(str0);
+		widget7.setContextMenuOption(1, "Back");
+		widget7.hookOptionClick(&script_319(false, CTX_MENU_OPTION, widget3, widget4, widget5, widget6, widget7));
+		return;
+	}
+	if (arg0 >= 10) {
+		return;
+	}
+	if (CHILD.setChild(widget1, arg2) == true) {
+		CHILD.setTrans(75);
+		playSoundEffect(2266, 1, 0);
+		CHILD.hookFrame(&script_326(widget1, arg2, getClientCycle() + 10));
+	}
+	return;
+}

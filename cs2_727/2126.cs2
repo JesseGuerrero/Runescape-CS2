@@ -1,0 +1,27 @@
+//script2126(2126)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+store_varc(681, modulo(2048, (load_varc(681) + random(4)) + 2))
+store_varc(684, modulo(2048, (load_varc(684) + random(4)) + 2))
+store_varc(687, modulo(2048, (load_varc(687) + random(4)) + 2))
+store_varc(690, modulo(2048, (load_varc(690) + random(4)) + 2))
+if(load_varc(680) < 20)
+	if(load_varc(680) < -20 || random(2) == 0)
+		store_varc(680, min(25, (load_varc(680) + random(3)) + 1))
+	else
+		store_varc(680, max(-25, load_varc(680) - (random(3) + 1)))
+if(load_varc(683) < 20)
+	if(load_varc(683) < -20 || random(2) == 0)
+		store_varc(683, min(25, (load_varc(683) + random(3)) + 1))
+	else
+		store_varc(683, max(-25, load_varc(683) - (random(3) + 1)))
+if(load_varc(686) < 20)
+	if(load_varc(686) < -20 || random(2) == 0)
+		store_varc(686, min(25, (load_varc(686) + random(3)) + 1))
+	else
+		store_varc(686, max(-25, load_varc(686) - (random(3) + 1)))
+if(load_varc(689) < 20)
+	if(load_varc(689) < -20 || random(2) == 0)
+		store_varc(689, min(25, (load_varc(689) + random(3)) + 1))
+	else
+		store_varc(689, max(-25, load_varc(689) - (random(3) + 1)))
+script_2127(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7)
+return

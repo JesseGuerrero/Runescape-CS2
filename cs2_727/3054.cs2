@@ -1,0 +1,95 @@
+//script3054(3054)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+string sVar0
+string sVar1
+string sVar2
+if(instr6661(-1, if_gethash(909, 52)) == 1) {
+	instr6342(arg0, script_3053, "I", arg0)
+	return
+}
+cc_deleteall(if_gethash(909, 52))
+sVar0 = "<col=ff5256>"
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+sVar1 = ""
+sVar2 = ""
+iVar4 = 1
+while(iVar2 < 100) {
+	iVar3 = chatline_gettype(iVar2)
+	sVar1 = chat_getcrownedname(iVar2)
+	sVar2 = instr6573(iVar2)
+	switch(iVar3) {
+		case default:
+			break
+		case 31:
+			iVar1 = script_3055(iVar1, 0, iVar3, chat_getmessage(iVar2), "", "")
+			break
+		case 3:
+			iVar1 = script_3055(iVar1, 1, iVar3, "From " + sVar1 + ": " + sVar0 + chat_getmessage(iVar2), sVar1, sVar2)
+			if(iVar4 == 1)
+				store_varc_string(276, sVar2)
+			break
+		case 5:
+			iVar1 = script_3055(iVar1, 0, iVar3, sVar0 + chat_getmessage(iVar2), sVar1, sVar2)
+			break
+		case 6:
+			iVar1 = script_3055(iVar1, 1, iVar3, "To " + sVar1 + ": " + sVar0 + chat_getmessage(iVar2), sVar1, sVar2)
+			break
+		case 7:
+			iVar1 = script_3055(iVar1, 1, iVar3, "From " + sVar1 + ": " + sVar0 + chat_getmessage(iVar2), sVar1, sVar2)
+			if(iVar4 == 1)
+				store_varc_string(276, sVar2)
+			break
+		case 18:
+			iVar1 = script_3055(iVar1, 1, iVar3, "From " + sVar1 + ": " + sVar0 + chat_getmessage(iVar2), sVar1, sVar2)
+			if(iVar4 == 1)
+				store_varc_string(276, sVar2)
+			break
+		case 19:
+			iVar1 = script_3055(iVar1, 1, iVar3, "To " + sVar1 + ": " + sVar0 + chat_getmessage(iVar2), sVar1, sVar2)
+			break
+		case 115:
+			iVar1 = script_3055(iVar1, 0, iVar3, "<col=ff0000>" + chat_getmessage(iVar2) + "</col>", "", "")
+			break
+
+	}
+	iVar2 = iVar2 + 1
+}
+iVar5 = if_getheight(if_gethash(909, 52)) / 15
+iVar2 = 0
+iVar6 = 0
+if(iVar1 < iVar5) {
+	iVar6 = iVar5 - iVar1
+	while(iVar2 < iVar6) {
+		iVar1 = script_3055(iVar1, 0, 0, "", "", "")
+		iVar2 = iVar2 + 1
+	}
+}
+iVar7 = 0
+iVar8 = 0
+while(iVar8 <= iVar1) {
+	if(cc_find(iVar8, if_gethash(909, 52)) == 1)
+		iVar7 = iVar7 + cc_getheight()
+	iVar8 = iVar8 + 1
+}
+iVar9 = max(iVar5 * 15, iVar7)
+if(iVar9 > if_getheight(if_gethash(909, 52))) {
+	if_setscrollsize(59572276, iVar9, 0)
+	script_72(59572277, 59572276, (load_varc(1122) + if_getscrollheight(59572276)) - load_varc(1123))
+} else  {
+	if_setscrollsize(59572276, 0, 0)
+	if_setscrollpos(if_gethash(909, 52), 0, 0)
+	script_72(59572277, 59572276, 0)
+}
+store_varc(1122, if_getscrolly(59572276))
+store_varc(1123, if_getscrollheight(59572276))
+return

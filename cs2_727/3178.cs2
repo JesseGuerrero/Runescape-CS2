@@ -1,0 +1,9 @@
+//script3178(3178)(int arg0)(void)
+if(load_varc(6) == 0) {
+	store_varc(6, 1)
+	if_setgraphic(arg0, 4086)
+} else  {
+	store_varc(6, 0)
+	if_setgraphic(arg0, 4084)
+}
+return

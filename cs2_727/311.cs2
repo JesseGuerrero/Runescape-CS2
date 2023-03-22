@@ -1,0 +1,7 @@
+//script311(311)(int arg0, int arg1, string arg2)(void)
+if(load_varpbit(6177) == 1) {
+	cc_deleteall(if_gethash(755, 57))
+	return
+}
+script_312(arg0 + 3, arg1 + 3, arg0)
+return

@@ -1,0 +1,35 @@
+//script3367(3367)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+cc_create(if_getnextsubid(if_gethash(1216, 3)), 4, 79691779)
+cc_setposition(2, 1, 25, 0)
+cc_setsize(0, 1, 33, 0)
+iVar3 = stringwidth(3795, arg0) + stringwidth(3795, "New")
+instr6556(script_3368, "isi", -2147483643, arg0, client_clock() + (arg0 * arg1))
+iVar2 = cc_getx()
+cc_create(if_getnextsubid(if_gethash(1216, 3)), 5, 79691779)
+cc_setposition(2, 1, 24, 0)
+cc_setsize(0, 0, 33, iVar3)
+cc_settiling(1)
+iVar4 = 9240
+instr6556(script_4226, "idi", -2147483643, iVar4, client_clock() + (arg0 * arg1))
+cc_sendtoback()
+iVar2 = cc_getx()
+iVar3 = cc_getwidth()
+cc_create(if_getnextsubid(if_gethash(1216, 3)), 5, 79691779)
+cc_setposition(2, 0, 24, iVar2 - 50)
+cc_setsize(0, 0, 33, 50)
+iVar4 = 9239
+instr6556(script_4226, "idi", -2147483643, iVar4, client_clock() + (arg0 * arg1))
+cc_sendtoback()
+cc_create(if_getnextsubid(if_gethash(1216, 3)), 5, 79691779)
+cc_setposition(2, 0, 24, iVar2 + iVar3)
+cc_setsize(0, 0, 33, 50)
+iVar4 = 9241
+instr6556(script_4226, "idi", -2147483643, iVar4, client_clock() + (arg0 * arg1))
+cc_sendtoback()
+return

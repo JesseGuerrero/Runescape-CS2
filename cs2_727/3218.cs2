@@ -1,0 +1,27 @@
+//script3218(3218)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+if_setposition(arg2, 0, 0, if_gety(arg2), script_1551(load_varc(1099), 3793, if_getx(arg0) + 6, arg0))
+iVar4 = if_getwidth(arg0) - 11
+iVar5 = string_length(arg0)
+sVar0 = ""
+if(load_varc(1099) > 0)
+	sVar0 = substring(arg0, min(iVar5, load_varc(1099)), 0)
+iVar6 = stringwidth(3793, sVar0) - iVar4
+if_setposition(arg1, 0, 0, if_gety(arg1), 6)
+if_setsize(arg1, 0, 0, if_getheight(arg1), max(iVar4, stringwidth(3793, arg0)))
+if(iVar6 > 0) {
+	if_setposition(arg1, 0, 0, if_gety(arg1), if_getx(arg1) - iVar6)
+	if_setposition(arg2, 0, 0, if_gety(arg2), if_getx(arg2) - iVar6)
+}
+if(applet_hasfocus() == 1)
+	if_sethide(arg2, 0)
+else
+	if_sethide(arg2, 1)
+if(arg3 == 16)
+	instr6342(arg0, script_3955, "iI", client_clock(), arg2)
+else
+	instr6342(arg0, script_3219, "iIi", client_clock(), arg2, arg3)
+return

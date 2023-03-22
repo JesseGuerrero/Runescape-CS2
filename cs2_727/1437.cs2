@@ -1,0 +1,82 @@
+//script1437(1437)()(void)
+if(load_varp(406) > 1)
+	if_setcolor(24313861, 0x8080FF)
+else
+	if_setcolor(24313861, 0x0)
+if(load_varp(406) > 2)
+	if_setcolor(24313862, 0x8080FF)
+else
+	if_setcolor(24313862, 0x0)
+if(load_varp(406) > 3)
+	if_setcolor(24313863, 0x8080FF)
+else
+	if_setcolor(24313863, 0x0)
+if(load_varp(406) > 4)
+	if_setcolor(24313864, 0x8080FF)
+else
+	if_setcolor(24313864, 0x0)
+if(load_varp(406) > 5)
+	if_setcolor(24313865, 0x8080FF)
+else
+	if_setcolor(24313865, 0x0)
+if(load_varp(406) > 6)
+	if_setcolor(24313866, 0x8080FF)
+else
+	if_setcolor(24313866, 0x0)
+if(load_varp(406) > 7)
+	if_setcolor(24313867, 0x8080FF)
+else
+	if_setcolor(24313867, 0x0)
+if(load_varp(406) > 8)
+	if_setcolor(24313868, 0x8080FF)
+else
+	if_setcolor(24313868, 0x0)
+if(load_varp(406) > 9)
+	if_setcolor(24313869, 0x8080FF)
+else
+	if_setcolor(24313869, 0x0)
+if(load_varp(406) > 10)
+	if_setcolor(24313870, 0x8080FF)
+else
+	if_setcolor(24313870, 0x0)
+if(load_varp(406) > 11)
+	if_setcolor(24313871, 0x8080FF)
+else
+	if_setcolor(24313871, 0x0)
+if(load_varp(406) > 12)
+	if_setcolor(24313872, 0x8080FF)
+else
+	if_setcolor(24313872, 0x0)
+if(load_varp(406) > 13)
+	if_setcolor(24313873, 0x8080FF)
+else
+	if_setcolor(24313873, 0x0)
+if(load_varp(406) > 14)
+	if_setcolor(24313874, 0x8080FF)
+else
+	if_setcolor(24313874, 0x0)
+if(load_varp(406) > 15)
+	if_setcolor(24313875, 0x8080FF)
+else
+	if_setcolor(24313875, 0x0)
+if(load_varp(406) > 16)
+	if_setcolor(24313876, 0x8080FF)
+else
+	if_setcolor(24313876, 0x0)
+if(load_varp(406) > 17)
+	if_setcolor(24313877, 0x8080FF)
+else
+	if_setcolor(24313877, 0x0)
+if(load_varp(406) > 18)
+	if_setcolor(24313878, 0x8080FF)
+else
+	if_setcolor(24313878, 0x0)
+if(load_varp(406) > 19)
+	if_setcolor(24313879, 0x8080FF)
+else
+	if_setcolor(24313879, 0x0)
+if(load_varp(406) > 20)
+	if_setcolor(24313880, 0x8080FF)
+else
+	if_setcolor(24313880, 0x0)
+return

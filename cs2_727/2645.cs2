@@ -1,0 +1,10 @@
+//script2645(2645)(int arg0)(void)
+if(load_varc(842) == 1) {
+	if_settext(arg0, "Next page")
+	instr6239(if_gethash(860, 20), script_2641, "")
+} else 
+	if(load_varc(842) == 2) {
+		if_settext(arg0, "Previous page")
+		instr6239(if_gethash(860, 20), script_2640, "")
+	}
+return

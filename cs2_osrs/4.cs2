@@ -1,0 +1,5 @@
+void script_4(int arg0, Widget widget1, Widget arg2, Widget widget3, Widget widget4, Widget widget5) {
+	VARPBIT[2459] = arg0;
+	script_7(widget1, arg2, widget3, widget4, widget5);
+	return;
+}

@@ -1,0 +1,20 @@
+//script2115(2115)(int arg0, int arg1)(void)
+int iVar2
+if(script_42(load_varc(679)) == 0)
+	return
+if_sethide(arg1, 0)
+if(load_varc(677) == -1 || load_varc(678) == -1)
+	return
+if(load_varc(675) == -1 || load_varc(676) == -1) {
+	store_varc(675, 56070889)
+	store_varc(676, 56087272)
+}
+iVar2 = random_inclusive(50) + 50
+instr6650(2, 0)
+instr6651(0, 450 + (iVar2 / 2), load_varc(675), 450, load_varc(675), 0, 0)
+instr6651(0, 450 + (iVar2 * 2), load_varc(676), 450 + iVar2, load_varc(676), 1, 0)
+instr6650(2, 1)
+instr6651(0, 250, load_varc(677), 250, load_varc(677), 0, 1)
+instr6651(0, 150, load_varc(678), 150, load_varc(678), 1, 1)
+instr6677(0, 1, 200, 200, 0, 0)
+return

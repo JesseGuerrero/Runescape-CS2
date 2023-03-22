@@ -1,0 +1,74 @@
+//script1902(1902)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+store_varc(128, -1)
+iVar3 = instr6599(load_varc_string(30), 0)
+iVar4 = if_getwidth(arg1)
+iVar5 = iVar4 - 8
+if(iVar3 == -1) {
+	cc_create(0, 4, arg1)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 14, iVar4)
+	cc_settextfont(495)
+	cc_settext("Too many results. Please refine your search.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(0)
+	cc_settextshadow(0)
+	if_setscrollsize(arg1, 0, 0)
+	script_1905(arg1, arg2)
+	return
+}
+if(iVar3 == 0) {
+	cc_create(0, 4, arg1)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 14, iVar4)
+	cc_settextfont(495)
+	cc_settext("No matching items found.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(0)
+	cc_settextshadow(0)
+	if_setscrollsize(arg1, 0, 0)
+	script_1905(arg1, arg2)
+	return
+}
+iVar6 = 1
+iVar7 = instr6613()
+sVar0 = ""
+cc_create(0, 3, arg1)
+while(iVar7 != -1) {
+	if(compare(instr6583(iVar7), sVar0) != 0) {
+		sVar0 = instr6583(iVar7)
+		cc_create(iVar6, 4, arg1)
+		cc_setposition(0, 0, 14 * (iVar6 - 1), 4)
+		cc_setsize(0, 0, 14, iVar5)
+		cc_setcolor(0)
+		cc_settext(instr6583(iVar7))
+		cc_settextfont(495)
+		cc_settextshadow(0)
+		instr6091(script_1906, "iI", iVar6, arg1)
+		instr6088(script_1070, "Iei", arg0, iVar7, 0)
+		iVar6 = iVar6 + 1
+	}
+	iVar7 = instr6613()
+}
+if(iVar6 == 1) {
+	cc_create(0, 4, arg1)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 14, iVar4)
+	cc_settextfont(495)
+	cc_settext("No matching items found.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(0)
+	cc_settextshadow(0)
+	if_setscrollsize(arg1, 0, 0)
+	script_1905(arg1, arg2)
+	return
+}
+instr6248(if_gethash(137, 13), script_1901, "izIIIIi", -2147483640, -2147483639, if_gethash(137, 1), if_gethash(137, 14), if_gethash(137, 16), if_gethash(137, 15), iVar6 - 1)
+if_setscrollsize(arg1, 14 * (iVar6 - 1), 0)
+script_1905(arg1, arg2)
+return

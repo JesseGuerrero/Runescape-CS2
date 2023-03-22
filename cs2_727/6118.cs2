@@ -1,0 +1,13 @@
+//script6118(6118)(int arg0, int arg1)(void)
+if_setcolor(68812804, arg1)
+if_setcolor(68812807, arg0)
+if_setcolor(68812808, arg0)
+if_setcolor(68812809, arg0)
+if_setcolor(68812810, arg0)
+if_setcolor(68812811, arg0)
+if_setcolor(68812812, arg0)
+if_setcolor(68812813, arg0)
+if_setcolor(68812814, arg0)
+if_setcolor(68812815, arg0)
+if_setcolor(68812816, arg0)
+return

@@ -1,0 +1,28 @@
+//script2623(2623)()(void)
+int iVar0
+iVar0 = 1
+while(enum(2451, iVar0, 'i', 'I') != 55705624) {
+	if_settext(enum(2451, iVar0, 'i', 'I'), "")
+	iVar0 = iVar0 + 1
+}
+if_settext(if_gethash(850, 25), "Welcome to Mobilising Armies.")
+switch(load_varpbit(6352)) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(850, 50), 1906)
+		break
+	case 2:
+		if_setgraphic(if_gethash(850, 50), 1904)
+		break
+	case 3:
+		if_setgraphic(if_gethash(850, 50), 1905)
+		break
+	case 4:
+		if_setgraphic(if_gethash(850, 50), 1907)
+		break
+
+}
+script_157(55705645, 55705646, if_getscrollheight(55705646), 1)
+instr6248(if_gethash(850, 48), script_2625, "iz", -2147483640, -2147483639)
+return

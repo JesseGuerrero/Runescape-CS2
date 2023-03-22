@@ -1,0 +1,37 @@
+void script_1449(Widget widget0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int1 = 0;
+	widget0.clearChildren();
+	int2 = 0;
+	int3 = 0;
+	int4 = 4;
+	int5 = 7;
+	int6 = 0;
+	int7 = 0;
+	if (getScrollMaxH(widget0) > 0) {
+		int2 = (getScrollMaxH(widget0) - 36 * int4) / (int4 - 1);
+	} else {
+		int2 = (widget0.getWidth() - 36 * int4) / (int4 - 1);
+	}
+	if (getScrollMaxV(widget0) > 0) {
+		int3 = (getScrollMaxV(widget0) - 32 * int5) / (int5 - 1);
+	} else {
+		int3 = (widget0.getHeight() - 32 * int5) / (int5 - 1);
+	}
+	while (int1 < getItemContainerLength(134)) {
+		CHILD.createChild(widget0, 3, int1);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition((36 + int2) * (int1 % int4), int1 / int4 * (32 + int3), 0, 0);
+		CHILD.setFilled(true);
+		CHILD.setRGB(0xFF0000);
+		CHILD.setHidden(true);
+		int1 = int1 + 1;
+	}
+	return;
+}

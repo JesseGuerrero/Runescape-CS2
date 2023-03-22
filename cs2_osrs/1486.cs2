@@ -1,0 +1,37 @@
+void script_1486(Widget widget0, int arg1, int arg2) {
+	int int3;
+	widget0.clearChildren();
+	int3 = 0;
+	if (arg1 == arg2) {
+		int3 = script_836(widget0, 0);
+		CHILD.createChild(widget0, 4, int3);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setText(str(arg1));
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookMousePress(null);
+		CHILD.setNoClickThrough(1);
+		widget0.setNoClickThrough(1);
+	} else {
+		int3 = script_835(widget0, 0);
+		CHILD.createChild(widget0, 4, int3);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setText(str(arg1));
+		widget0.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		widget0.hookMousePress(&script_489(0, -1));
+		CHILD.setNoClickThrough(0);
+		widget0.setNoClickThrough(0);
+	}
+	return;
+}

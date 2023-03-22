@@ -1,0 +1,6 @@
+//script2131(2131)(int arg0, int arg1)(void)
+instr6342(arg0, script_2132, "IiiIi", arg0, random(6) - 3, random(6) - 3, arg1, 0)
+hook_mouse_enter(arg0, script_2133, "I", arg0)
+if_setonmouseover(arg0, script_2135, "Iii", arg0, -2147483647, -2147483646)
+hook_mouse_exit(arg0, script_2134, "I", arg0)
+return

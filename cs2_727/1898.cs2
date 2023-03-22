@@ -1,0 +1,38 @@
+//script1898(1898)(int arg0)(int, int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varc(533), load_varc(523)
+
+	case 1:
+		return load_varc(534), load_varc(524)
+
+	case 2:
+		return load_varc(535), load_varc(525)
+
+	case 3:
+		return load_varc(536), load_varc(526)
+
+	case 4:
+		return load_varc(537), load_varc(527)
+
+	case 5:
+		return load_varc(538), load_varc(528)
+
+	case 6:
+		return load_varc(539), load_varc(529)
+
+	case 7:
+		return load_varc(540), load_varc(530)
+
+	case 8:
+		return load_varc(541), load_varc(531)
+
+	case 9:
+		return load_varc(542), load_varc(532)
+
+
+}
+return 0, 0
+return 0, 0

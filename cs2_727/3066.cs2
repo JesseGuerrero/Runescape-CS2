@@ -1,0 +1,23 @@
+//script3066(3066)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg0 > 0) {
+	if_setgraphic(arg2, 4661)
+	if_settext(arg3, to_string(arg0))
+	if(arg4 == 1) {
+		instr6213(arg2, 1, "Click Here To Play")
+		instr6239(arg2, script_3067, "i", arg1)
+	} else  {
+		instr6220(arg2)
+		instr6239(arg2, None, "")
+	}
+	hook_mouse_enter(arg2, script_3068, "I", arg2)
+	hook_mouse_exit(arg2, script_3069, "I", arg2)
+} else  {
+	if_setgraphic(arg2, 4660)
+	if_settext(arg3, "")
+	hook_mouse_enter(arg2, None, "")
+	hook_mouse_exit(arg2, None, "")
+	instr6239(arg2, None, "")
+	instr6220(arg2)
+}
+return
+return

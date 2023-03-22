@@ -1,0 +1,4 @@
+//script3157(3157)(int arg0)(void)
+if(cc_find(1, arg0) == 1)
+	cc_sethide(1)
+return

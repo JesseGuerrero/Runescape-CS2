@@ -1,0 +1,16 @@
+//script6326(6326)(int arg0, int arg1, int arg2)(void)
+if(arg0 == 1) {
+	if_setgraphic(arg1, 11510)
+	if_settrans(arg1, 100)
+	if_sethide(arg2, 1)
+	if_settrans(arg2, 255)
+	if_clearscripthooks(arg1)
+	if_clearscripthooks(arg2)
+} else  {
+	if_setgraphic(arg1, 11508)
+	if_settrans(arg1, 100)
+	if_sethide(arg2, 0)
+	if_setonmouseover(arg2, script_6327, "I", -2147483645)
+	instr6239(arg1, script_6329, "iI", -2147483644, arg2)
+}
+return

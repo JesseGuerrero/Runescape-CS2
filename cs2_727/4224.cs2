@@ -1,0 +1,9 @@
+//script4224(4224)(int arg0)(void)
+if(arg0 == 61145417) {
+	if_sethide(if_gethash(933, 329), 1)
+	if_sethide(if_gethash(933, 330), 0)
+} else  {
+	if_sethide(if_gethash(933, 330), 1)
+	if_sethide(if_gethash(933, 329), 0)
+}
+return

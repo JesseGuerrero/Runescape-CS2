@@ -1,0 +1,85 @@
+//script2184(2184)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+cc_deleteall(arg0)
+iVar3 = (if_getwidth(arg0) - (5 * 36)) / 6
+iVar4 = 0
+iVar5 = -1
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+if(container_free_space(90) < inv_size(if_gethash(0, 90)))
+	while(iVar4 < inv_size(if_gethash(0, 90))) {
+		iVar6 = inv_getnum(iVar4, 90)
+		cc_create(iVar4 * 2, 5, arg0)
+		cc_create((iVar4 * 2) + 1, 4, arg0)
+		if(iVar6 > 0) {
+			iVar5 = inv_getitem(iVar4, 90)
+			cc_setsize(0, 0, 32, 36)
+			iVar8 = ((iVar4 / 5) * (32 + 40)) + 2
+			cc_setposition(0, 0, iVar8, (modulo(5, iVar4) * (36 + iVar3)) + iVar3)
+			cc_sethide(0)
+			cc_setitem(iVar6, iVar5)
+			cc_setgraphicshadow(3355443)
+			cc_setoutline(1)
+			cc_setop("Remove-1", 1)
+			cc_setop("Remove-5", 2)
+			cc_setop("Remove-10", 3)
+			cc_setop("Remove-All", 4)
+			cc_setop("Remove-X", 5)
+			cc_setop("Examine", 10)
+			cc_setopbase("<col=ff9040>" + item_name(iVar5))
+			cc_setsize(0, 0, 40, (36 + iVar3) - 6)
+			cc_setposition(0, 0, iVar8 + 32, ((modulo(5, iVar4) * (36 + iVar3)) + (iVar3 / 2)) + 3)
+			cc_sethide(0)
+			cc_settextalign(0, 0, 1)
+			cc_settextfont(494)
+			cc_setcolor(ffffff)
+			cc_settextshadow(1)
+			iVar7 = script_2185(iVar4)
+			if(iVar6 > 1)
+				cc_settext(tostring_localized(1, iVar6) + " x " + tostring_localized(1, iVar7) + "<br>" + "= " + tostring_localized(1, iVar6 * iVar7))
+			else
+				cc_settext(tostring_localized(1, iVar7))
+		} else  {
+			cc_setsize(0, 0, 0, 0)
+			cc_setposition(0, 0, 0, 0)
+			cc_sethide(1)
+			cc_setsize(0, 0, 0, 0)
+			cc_setposition(0, 0, 0, 0)
+			cc_sethide(1)
+		}
+		iVar4 = iVar4 + 1
+	}
+else {
+	cc_create(0, 4, arg0)
+	cc_setsize(0, 1, if_getheight(arg0), 0)
+	cc_setposition(0, 1, 0, 0)
+	cc_setcolor(ffffff)
+	cc_settextshadow(1)
+	cc_settextalign(0, 1, 1)
+	cc_settextfont(495)
+	cc_settext("Click on items in your inventory to check their values.")
+}
+iVar8 = (iVar8 + 32) + 40
+if(iVar8 > if_getheight(arg0)) {
+	if_setscrollsize(arg0, iVar8, 0)
+	if_setposition(arg0, 0, 1, if_gety(arg0), -8)
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+	if(cc_find(1, arg1) == 1)
+		script_37(arg1, arg0, if_getscrolly(arg0), 1)
+} else  {
+	if_setscrollsize(arg0, 0, 0)
+	if_setscrollpos(arg0, 0, 0)
+	cc_deleteall(arg1)
+	if_setposition(arg0, 0, 1, if_gety(arg0), 0)
+}
+if(load_varc(728) < 0)
+	if_settext(arg2, "Total value:" + "<br>" + "---")
+else
+	if_settext(arg2, "Total value:" + "<br>" + tostring_localized(1, load_varc(728)))
+return

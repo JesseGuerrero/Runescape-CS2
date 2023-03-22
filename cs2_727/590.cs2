@@ -1,0 +1,12 @@
+//script590(590)(int arg0, int arg1)(void)
+if(arg1 == 1) {
+	store_varp(1112, arg0)
+	store_varp(1109, -1)
+	if(stockmarket_isofferempty(arg0) == 1) {
+		store_varp(1113, -1)
+		store_varp(1111, 1)
+		store_varp(1110, 0)
+	}
+	script_621()
+}
+return

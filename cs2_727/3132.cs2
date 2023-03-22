@@ -1,0 +1,10 @@
+//script3132(3132)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(load_varc(998) == arg2 || load_varc(999) == arg2)
+		cc_setgraphic(1541)
+	else
+		cc_setgraphic(1545)
+if_sethide(if_gethash(910, 65), 1)
+if_sethide(if_gethash(910, 66), 1)
+return
+return

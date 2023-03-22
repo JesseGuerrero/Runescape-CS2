@@ -1,0 +1,36 @@
+void script_530(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	int int7;
+	if (widget(arg1) == widget4) {
+		widget3.setIsHidden(true);
+		widget4.setIsHidden(false);
+		widget5.setIsHidden(true);
+		widget6.setIsHidden(true);
+	} else if (widget(arg1) == widget5) {
+		widget3.setIsHidden(true);
+		widget4.setIsHidden(true);
+		widget5.setIsHidden(false);
+		widget6.setIsHidden(true);
+	} else if (widget(arg1) == widget6) {
+		widget3.setIsHidden(true);
+		widget4.setIsHidden(true);
+		widget5.setIsHidden(true);
+		widget6.setIsHidden(false);
+	} else {
+		widget3.setIsHidden(false);
+		widget4.setIsHidden(true);
+		widget5.setIsHidden(true);
+		widget6.setIsHidden(true);
+	}
+	int7 = 0;
+	while (int7 < 4) {
+		if (CHILD.setChild(widget2, int7 * 2) == true) {
+			if (int7 == arg0) {
+				CHILD.setSprite(762);
+			} else {
+				CHILD.setSprite(761);
+			}
+		}
+		int7 = int7 + 1;
+	}
+	return;
+}

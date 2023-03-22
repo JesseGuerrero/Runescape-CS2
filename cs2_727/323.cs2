@@ -1,0 +1,4 @@
+//script323(323)(int arg0, int arg1)(void)
+if_settext(arg0, "Room:" + "<br>" + to_string(load_varpbit(2377)) + " / 8")
+if_settext(arg1, "Level:" + "<br>" + to_string(load_varpbit(2376)))
+return

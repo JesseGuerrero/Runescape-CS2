@@ -1,0 +1,11 @@
+//script2420(2420)()(void)
+if_sethide(if_gethash(674, 18), 1)
+if_sethide(if_gethash(674, 19), 0)
+if_setmodelanim(if_gethash(674, 19), -1)
+if_setmodelanim(if_gethash(674, 9), -1)
+if_sethide(if_gethash(674, 10), 0)
+if_setmodel(if_gethash(674, 6), 46967)
+if_sethide(if_gethash(674, 5), 1)
+if_setmodelanim(if_gethash(674, 9), 11762)
+store_varc(737, 0)
+return

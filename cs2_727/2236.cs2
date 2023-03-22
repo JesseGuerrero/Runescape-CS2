@@ -1,0 +1,11 @@
+//script2236(2236)()(void)
+if(load_varc(1135) < 15)
+	if((load_varp(1687) + load_varp(1688)) + load_varp(1686) > 1) {
+		sound_synth(0, 1, 8729)
+		store_varc(1135, load_varc(1135) + 1)
+	} else  {
+		store_varp(1685, 2)
+		sound_vorbis_volume(255, 0, 1, 10046)
+	}
+script_2220()
+return

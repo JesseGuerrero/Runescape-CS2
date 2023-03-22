@@ -1,0 +1,6 @@
+void script_138() {
+	if (VARC[5] == 7 || VARC[5] == 8 || VARC[5] == 9 || VARC[5] == 11 || VARC[5] == 14 || VARC[5] == 15) {
+		script_299(1, 1);
+	}
+	return;
+}

@@ -1,0 +1,13 @@
+void script_1966(int arg0, Widget widget1, int arg2) {
+	string str0;
+	str0 = datamap('i', 's', 860, arg2);
+	str0 = concat("Level " + datamap('i', 'i', 861, arg2) + "<br>", str0);
+	str0 = concat(str0, "<br>" + datamap('i', 's', 862, arg2));
+	if (VARPBIT[5711] == 0) {
+		widget1.hookMouseHover(&script_38(CTX_WIDGET, widget(arg0), str0, 25, widget1.getLayer().getWidth()));
+		widget1.hookMouseExit(&script_40(widget(arg0)));
+	} else {
+		widget1.hookMouseHover(null);
+	}
+	return;
+}

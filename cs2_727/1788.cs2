@@ -1,0 +1,22 @@
+//script1788(1788)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14)(void)
+int iVar15
+if_setsize(arg1, 0, 0, if_getheight(arg1), arg0)
+if_setsize(arg2, 0, 0, if_getheight(arg2), arg0)
+if_setsize(arg3, 0, 0, if_getheight(arg3), arg0)
+if_setsize(arg4, 0, 0, if_getheight(arg4), arg0)
+if_setsize(arg5, 0, 0, if_getheight(arg5), arg0)
+if_setsize(arg6, 0, 0, if_getheight(arg6), arg0)
+if_setsize(arg8, 0, 0, if_getheight(arg8), arg7)
+if_setsize(arg9, 0, 0, if_getheight(arg9), arg7)
+if_setsize(arg10, 0, 0, if_getheight(arg10), arg7)
+if_setsize(arg11, 0, 0, if_getheight(arg11), arg7)
+if_setsize(arg12, 0, 0, if_getheight(arg12), arg7)
+if_setsize(arg13, 0, 0, if_getheight(arg13), arg7)
+iVar15 = (4 + arg14) - arg7
+if_setposition(arg8, 0, 0, if_gety(arg8), iVar15)
+if_setposition(arg9, 0, 0, if_gety(arg9), iVar15)
+if_setposition(arg10, 0, 0, if_gety(arg10), iVar15)
+if_setposition(arg11, 0, 0, if_gety(arg11), iVar15)
+if_setposition(arg12, 0, 0, if_gety(arg12), iVar15)
+if_setposition(arg13, 0, 0, if_gety(arg13), iVar15)
+return

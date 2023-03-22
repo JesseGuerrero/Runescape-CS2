@@ -1,0 +1,52 @@
+//script5106(5106)()(void)
+if_sethide(if_gethash(1116, 33), 1)
+if_sethide(if_gethash(1116, 161), 1)
+if_sethide(if_gethash(1116, 210), 1)
+if_sethide(if_gethash(1116, 259), 1)
+if_sethide(if_gethash(1116, 308), 1)
+if_sethide(if_gethash(1116, 357), 1)
+if_sethide(if_gethash(1116, 406), 1)
+if_sethide(if_gethash(1116, 455), 1)
+if_sethide(if_gethash(1116, 504), 1)
+switch(load_varp(2317)) {
+	case default:
+		break
+	case 1:
+		if_sethide(if_gethash(1116, 33), 0)
+		script_5107(load_varp(2307))
+		break
+	case 2:
+		if_sethide(if_gethash(1116, 161), 0)
+		script_5107(load_varp(2308))
+		break
+	case 3:
+		if_sethide(if_gethash(1116, 210), 0)
+		script_5107(load_varp(2309))
+		break
+	case 4:
+		if_sethide(if_gethash(1116, 259), 0)
+		script_5107(load_varp(2310))
+		break
+	case 5:
+		if_sethide(if_gethash(1116, 308), 0)
+		script_5107(load_varp(2311))
+		break
+	case 6:
+		if_sethide(if_gethash(1116, 357), 0)
+		script_5107(load_varp(2312))
+		break
+	case 7:
+		if_sethide(if_gethash(1116, 406), 0)
+		script_5107(load_varp(2313))
+		break
+	case 8:
+		if_sethide(if_gethash(1116, 455), 0)
+		script_5107(load_varp(2314))
+		break
+	case 9:
+		if_sethide(if_gethash(1116, 504), 0)
+		script_5107(load_varp(2315))
+		break
+
+}
+return

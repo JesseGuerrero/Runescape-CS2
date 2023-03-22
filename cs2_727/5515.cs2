@@ -1,0 +1,170 @@
+//script5515(5515)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar2 = if_getnextsubid(arg0)
+iVar3 = 0
+iVar4 = max(stringwidth(4040, arg0) + 22, 84)
+iVar5 = script_3365(arg1)
+iVar6 = script_3366(arg1)
+iVar7 = (iVar5 + (if_getwidth(arg1) / 2)) - 6
+iVar8 = 0
+if(iVar5 - 4 <= if_getwidth(arg0) - iVar4)
+	iVar8 = iVar5 - 4
+else
+	iVar8 = if_getwidth(arg0) - iVar4
+iVar9 = iVar6 - 38
+if(instr6004(arg1) == 1)
+	if(instr6771(358) > 0)
+		if(cc_find(instr6771(358) - 1, arg0) == 0)
+			cc_setparam_int(iVar2 + 1, 358)
+		else {
+			iVar2 = instr6771(358) - 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9, iVar8)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9, (iVar8 + iVar4) - 10)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9 + 18, (iVar8 + iVar4) - 10)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9 + 18, iVar8)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9, iVar8 + 10)
+				cc_setsize(0, 0, 11, iVar4 - 20)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9 + 18, iVar8 + 10)
+				cc_setsize(0, 0, 11, iVar4 - 20)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9 + 11, iVar8)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9 + 11, (iVar8 + iVar4) - 10)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9 + 11, iVar8 + 10)
+				cc_setsize(0, 0, 7, iVar4 - 20)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9 + 24, iVar7)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			iVar2 = iVar2 + 1
+			if(cc_find(iVar2, arg0) == 1) {
+				cc_setposition(0, 0, iVar9, iVar8)
+				cc_setsize(0, 0, 29, iVar4)
+				cc_settext(arg0)
+				instr6556(script_5517, "Ii", -2147483645, -2147483643)
+			}
+			return
+		}
+	else
+		cc_setparam_int(iVar2 + 1, 358)
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9, iVar8)
+cc_setsize(0, 0, 11, 10)
+cc_setgraphic(8511)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9, (iVar8 + iVar4) - 10)
+cc_setsize(0, 0, 11, 10)
+cc_setgraphic(8513)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9 + 18, (iVar8 + iVar4) - 10)
+cc_setsize(0, 0, 11, 10)
+cc_setgraphic(8519)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9 + 18, iVar8)
+cc_setsize(0, 0, 11, 10)
+cc_setgraphic(8517)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9, iVar8 + 10)
+cc_setsize(0, 0, 11, iVar4 - 20)
+cc_setgraphic(8512)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9 + 18, iVar8 + 10)
+cc_setsize(0, 0, 11, iVar4 - 20)
+cc_setgraphic(8518)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9 + 11, iVar8)
+cc_setsize(0, 0, 7, 10)
+cc_setgraphic(8514)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9 + 11, (iVar8 + iVar4) - 10)
+cc_setsize(0, 0, 7, 10)
+cc_setgraphic(8516)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9 + 11, iVar8 + 10)
+cc_setsize(0, 0, 7, iVar4 - 20)
+cc_setgraphic(8515)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, arg0)
+cc_setposition(0, 0, iVar9 + 24, iVar7)
+cc_setsize(0, 0, 12, 12)
+cc_setgraphic(8541)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 4, arg0)
+cc_setposition(0, 0, iVar9, iVar8)
+cc_setsize(0, 0, 29, iVar4)
+cc_settext(arg0)
+cc_settextfont(4040)
+cc_setcolor(f5b241)
+cc_settextalign(0, 1, 1)
+cc_settrans(255)
+instr6556(script_5517, "Ii", -2147483645, -2147483643)
+return

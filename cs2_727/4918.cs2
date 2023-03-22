@@ -1,0 +1,16 @@
+//script4918(4918)()(void)
+if(clan_vars_enabled() == 1) {
+	script_4919()
+	script_4900()
+	script_4905()
+	script_4907()
+	script_5012()
+	script_5975()
+	script_4864()
+	script_4994()
+	script_4889()
+	script_4853()
+	script_4988(load_varpbit(9550))
+} else 
+	script_675()
+return

@@ -1,0 +1,41 @@
+void script_996(Widget widget0, int arg1, Sprite sprite2, Sprite sprite3, string string4) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int4 = 0;
+	if (length(string4) > 0) {
+		int4 = getMaxLineWidth(string4, 512, sprite2);
+	}
+	int5 = arg1 - 1;
+	int6 = 0;
+	int7 = 1;
+	while (int7 <= 5) {
+		if (_CHILD.setChild(widget0, int7) == true) {
+			int6 = int7;
+		}
+		int7 = int7 + 1;
+	}
+	int8 = int5 * int6 + 3 + int4;
+	if (VARPBIT[4692] == 2) {
+		widget0.setPosition(0, 0, 0, 1);
+	} else if (VARPBIT[4692] == 1) {
+		widget0.setPosition(0, 0, 1, 1);
+	} else {
+		widget0.setPosition(0, 0, 2, 1);
+	}
+	widget0.setSize(int8, 0, 0, 1);
+	CHILD.setFont(sprite3);
+	CHILD.setSize(0, arg1, 1, 0);
+	CHILD.setPosition(0, CHILD.getY(), 1, 0);
+	int7 = 1;
+	while (int7 <= int6) {
+		if (_CHILD.setChild(widget0, int7) == true) {
+			_CHILD.setSize(arg1, arg1, 0, 0);
+			_CHILD.setPosition((int7 - 1) * int5, _CHILD.getY(), 0, 0);
+		}
+		int7 = int7 + 1;
+	}
+	return;
+}

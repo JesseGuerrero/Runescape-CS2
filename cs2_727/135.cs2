@@ -1,0 +1,15 @@
+//script135(135)(int arg0)(void)
+int iVar1
+iVar1 = -1
+if(string_length(load_varc_string(24)) > 0)
+	chat_sendabusereport("", load_varc_string(24), load_varc(6), arg0)
+if(compare(chat_playername(), load_varc_string(24)) == 0) {
+	script_675()
+	return
+}
+if(ignore_test(load_varc_string(24)) == 0)
+	if(compare(chat_playername(), load_varc_string(24)) != 0)
+		script_221()
+	else
+		script_675()
+return

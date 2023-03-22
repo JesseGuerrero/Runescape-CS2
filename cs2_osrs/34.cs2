@@ -1,0 +1,6 @@
+void script_34(Widget widget0, Widget arg1, int arg2) {
+	if (CHILD.setChild(widget0, 1) == true) {
+		CHILD.cs2method3109(0, CHILD.getHeight() / 2);
+	}
+	return;
+}

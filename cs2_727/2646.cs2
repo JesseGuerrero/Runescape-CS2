@@ -1,0 +1,84 @@
+//script2646(2646)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+if(load_varc(842) == 3) {
+	store_varc(842, 1)
+	if_settext(arg0, "Check bank & inventory")
+	if_settext(if_gethash(860, 18), "Commodities")
+	if_sethide(if_gethash(860, 20), 0)
+	script_2645(56360980)
+	script_2642()
+	return
+}
+store_varc(842, 3)
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+store_varc(842, 3)
+iVar6 = -1
+if_sethide(if_gethash(860, 20), 1)
+if_settext(arg0, "View all commodities")
+if_settext(if_gethash(860, 18), "Commodities in your bank & inventory")
+cc_deleteall(if_gethash(860, 23))
+if_settext(if_gethash(860, 19), "A list of items already in your inventory or bank that you can trade with Mal for investment credit.")
+iVar3 = (if_getwidth(if_gethash(860, 23)) - (36 * 10)) / (10 - 1)
+iVar4 = (if_getheight(if_gethash(860, 23)) - 128) / 3
+iVar7 = 0
+while(iVar1 <= inv_size(if_gethash(0, 95))) {
+	iVar6 = inv_getitem(iVar1, 95)
+	if(iVar6 != -1)
+		if(enum_hasoutput(iVar6, 1939, 111) == 1) {
+			cc_create(iVar2, 5, 56360983)
+			cc_setsize(0, 0, 32, 36)
+			cc_setposition(0, 0, (iVar2 / 10) * (32 + iVar4), (36 + iVar3) * modulo(10, iVar2))
+			cc_setitem(-1, iVar6)
+			cc_setopbase("<col=ff981f>" + item_name(iVar6))
+			cc_setop("Examine", 1)
+			cc_setgraphicshadow(3355443)
+			cc_setoutline(1)
+			iVar2 = iVar2 + 1
+			iVar7 = cc_gety()
+		}
+	iVar1 = iVar1 + 1
+}
+iVar8 = 0
+while(iVar8 <= inv_size(if_gethash(0, 93))) {
+	iVar6 = inv_getitem(iVar8, 93)
+	if(iVar6 != -1)
+		if(enum_hasoutput(iVar6, 1939, 111) == 1) {
+			cc_create(iVar2, 5, 56360983)
+			cc_setsize(0, 0, 32, 36)
+			cc_setposition(0, 0, (iVar2 / 10) * (32 + iVar4), (36 + iVar3) * modulo(10, iVar2))
+			cc_setitem(-1, iVar6)
+			cc_setopbase("<col=ff981f>" + item_name(iVar6))
+			cc_setop("Examine", 1)
+			cc_setgraphicshadow(3355443)
+			cc_setoutline(1)
+			iVar2 = iVar2 + 1
+			iVar7 = cc_gety()
+		}
+	iVar8 = iVar8 + 1
+}
+if(iVar2 == 0) {
+	cc_create(iVar2, 4, 56360983)
+	cc_setsize(0, 0, 32, 200)
+	cc_setposition(4, 1, 0, 0)
+	cc_settext("No valid commodities were found in your bank or inventory.")
+	cc_settextfont(496)
+	cc_settextalign(0, 1, 1)
+	cc_settextshadow(0)
+	cc_setcolor(ff981f)
+	iVar2 = 1
+}
+if_setscrollsize(56360983, iVar7 + 32, if_getwidth(if_gethash(860, 23)))
+if_setscrollpos(if_gethash(860, 23), 0, 0)
+script_31(56360982, 56360983, 792, 789, 790, 791, 773, 788)
+return

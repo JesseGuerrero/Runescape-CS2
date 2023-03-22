@@ -1,0 +1,26 @@
+//script2492(2492)()(void)
+if(compare("", load_varc_string(184)) == 0) {
+	if_setonmouseover(if_gethash(862, 50), script_38, "IIsii", if_gethash(862, 50), if_gethash(862, 11), load_varc_string(184), 50, 250)
+	hook_mouse_exit(if_gethash(862, 50), script_40, "I", if_gethash(862, 11))
+}
+if(compare("", load_varc_string(185)) == 0) {
+	if_setonmouseover(if_gethash(862, 51), script_38, "IIsii", if_gethash(862, 51), if_gethash(862, 11), load_varc_string(185), 50, 250)
+	hook_mouse_exit(if_gethash(862, 51), script_40, "I", if_gethash(862, 11))
+}
+if(compare("", load_varc_string(186)) == 0) {
+	if_setonmouseover(if_gethash(862, 52), script_38, "IIsii", if_gethash(862, 52), if_gethash(862, 11), load_varc_string(186), 50, 250)
+	hook_mouse_exit(if_gethash(862, 52), script_40, "I", if_gethash(862, 11))
+}
+if(compare("", load_varc_string(187)) == 0) {
+	if_setonmouseover(if_gethash(862, 53), script_38, "IIsii", if_gethash(862, 53), if_gethash(862, 11), load_varc_string(187), 50, 250)
+	hook_mouse_exit(if_gethash(862, 53), script_40, "I", if_gethash(862, 11))
+}
+if(compare("", load_varc_string(188)) == 0) {
+	if_setonmouseover(if_gethash(862, 54), script_38, "IIsii", if_gethash(862, 54), if_gethash(862, 11), load_varc_string(188), 50, 250)
+	hook_mouse_exit(if_gethash(862, 54), script_40, "I", if_gethash(862, 11))
+}
+if(compare("", load_varc_string(189)) == 0) {
+	if_setonmouseover(if_gethash(862, 55), script_38, "IIsii", if_gethash(862, 55), if_gethash(862, 11), load_varc_string(189), 50, 250)
+	hook_mouse_exit(if_gethash(862, 55), script_40, "I", if_gethash(862, 11))
+}
+return

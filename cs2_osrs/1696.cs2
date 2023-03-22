@@ -1,0 +1,5 @@
+void script_1696() {
+	widget(90, 42).hookVARP(&script_1495(true), 1588);
+	script_1496(1);
+	return;
+}

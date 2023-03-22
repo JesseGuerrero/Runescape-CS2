@@ -1,0 +1,7 @@
+//script657(657)(int arg0)(void)
+if(cc_find(0, arg0) == 1) {
+	cc_setoutline(2)
+	if(cc_getoptionflags() & 32 != 0)
+		script_71(4)
+}
+return

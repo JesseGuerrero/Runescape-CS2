@@ -1,0 +1,168 @@
+void script_205() {
+	int int0;
+	int int1;
+	int0 = 0;
+	int1 = 0;
+	widget(482, 63).clearChildren();
+	widget(482, 91).clearChildren();
+	while (int0 < 11) {
+		CHILD.createChild(widget(482, 63), 5, int0);
+		CHILD.setSize(36, 32, 0, 0);
+		if (int0 == 0) {
+			CHILD.setPosition(widget(482, 80).getX(), widget(482, 80).getY(), 0, 0);
+			int1 = 0;
+		}
+		if (int0 == 1) {
+			CHILD.setPosition(widget(482, 81).getX(), widget(482, 81).getY(), 0, 0);
+			int1 = 1;
+		}
+		if (int0 == 2) {
+			CHILD.setPosition(widget(482, 82).getX(), widget(482, 82).getY(), 0, 0);
+			int1 = 2;
+		}
+		if (int0 == 3) {
+			CHILD.setPosition(widget(482, 90).getX(), widget(482, 90).getY(), 0, 0);
+			int1 = 13;
+		}
+		if (int0 == 4) {
+			CHILD.setPosition(widget(482, 83).getX(), widget(482, 83).getY(), 0, 0);
+			int1 = 3;
+		}
+		if (int0 == 5) {
+			CHILD.setPosition(widget(482, 84).getX(), widget(482, 84).getY(), 0, 0);
+			int1 = 4;
+		}
+		if (int0 == 6) {
+			CHILD.setPosition(widget(482, 85).getX(), widget(482, 85).getY(), 0, 0);
+			int1 = 5;
+		}
+		if (int0 == 7) {
+			CHILD.setPosition(widget(482, 86).getX(), widget(482, 86).getY(), 0, 0);
+			int1 = 7;
+		}
+		if (int0 == 8) {
+			CHILD.setPosition(widget(482, 87).getX(), widget(482, 87).getY(), 0, 0);
+			int1 = 9;
+		}
+		if (int0 == 9) {
+			CHILD.setPosition(widget(482, 88).getX(), widget(482, 88).getY(), 0, 0);
+			int1 = 10;
+		}
+		if (int0 == 10) {
+			CHILD.setPosition(widget(482, 89).getX(), widget(482, 89).getY(), 0, 0);
+			int1 = 12;
+		}
+		if (getItemIdInSlot(94, int1) != null) {
+			CHILD.setItem(getItemIdInSlot(94, int1), getItemAmtInSlot(94, int1));
+			CHILD.setOptionBase("<col=ff981f>" + getItemName(getItemIdInSlot(94, int1)));
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+			if (int1 == 0) {
+				widget(482, 80).setSprite(null);
+			}
+			if (int1 == 1) {
+				widget(482, 81).setSprite(null);
+			}
+			if (int1 == 2) {
+				widget(482, 82).setSprite(null);
+			}
+			if (int1 == 13) {
+				widget(482, 90).setSprite(null);
+			}
+			if (int1 == 3) {
+				widget(482, 83).setSprite(null);
+			}
+			if (int1 == 4) {
+				widget(482, 84).setSprite(null);
+			}
+			if (int1 == 5) {
+				widget(482, 85).setSprite(null);
+			}
+			if (int1 == 7) {
+				widget(482, 86).setSprite(null);
+			}
+			if (int1 == 9) {
+				widget(482, 87).setSprite(null);
+			}
+			if (int1 == 10) {
+				widget(482, 88).setSprite(null);
+			}
+			if (int1 == 12) {
+				widget(482, 89).setSprite(null);
+			}
+		} else {
+			if (int1 == 0) {
+				widget(482, 80).setSprite(156);
+			}
+			if (int1 == 1) {
+				widget(482, 81).setSprite(157);
+			}
+			if (int1 == 2) {
+				widget(482, 82).setSprite(158);
+			}
+			if (int1 == 13) {
+				widget(482, 90).setSprite(166);
+			}
+			if (int1 == 3) {
+				widget(482, 83).setSprite(159);
+			}
+			if (int1 == 4) {
+				widget(482, 84).setSprite(161);
+			}
+			if (int1 == 5) {
+				widget(482, 85).setSprite(162);
+			}
+			if (int1 == 7) {
+				widget(482, 86).setSprite(163);
+			}
+			if (int1 == 9) {
+				widget(482, 87).setSprite(164);
+			}
+			if (int1 == 10) {
+				widget(482, 88).setSprite(165);
+			}
+			if (int1 == 12) {
+				widget(482, 89).setSprite(160);
+			}
+		}
+		CHILD.createChild(widget(482, 91), 5, int0);
+		CHILD.setSize(10, 32, 0, 0);
+		CHILD.setSprite(937);
+		CHILD.setHidden(true);
+		if (int0 == 0) {
+			CHILD.setPosition(10 + widget(482, 80).getX(), widget(482, 80).getY(), 0, 0);
+		}
+		if (int0 == 1) {
+			CHILD.setPosition(10 + widget(482, 81).getX(), widget(482, 81).getY(), 0, 0);
+		}
+		if (int0 == 2) {
+			CHILD.setPosition(10 + widget(482, 82).getX(), widget(482, 82).getY(), 0, 0);
+		}
+		if (int0 == 3) {
+			CHILD.setPosition(10 + widget(482, 90).getX(), widget(482, 90).getY(), 0, 0);
+		}
+		if (int0 == 4) {
+			CHILD.setPosition(10 + widget(482, 83).getX(), widget(482, 83).getY(), 0, 0);
+		}
+		if (int0 == 5) {
+			CHILD.setPosition(10 + widget(482, 84).getX(), widget(482, 84).getY(), 0, 0);
+		}
+		if (int0 == 6) {
+			CHILD.setPosition(10 + widget(482, 85).getX(), widget(482, 85).getY(), 0, 0);
+		}
+		if (int0 == 7) {
+			CHILD.setPosition(10 + widget(482, 86).getX(), widget(482, 86).getY(), 0, 0);
+		}
+		if (int0 == 8) {
+			CHILD.setPosition(10 + widget(482, 87).getX(), widget(482, 87).getY(), 0, 0);
+		}
+		if (int0 == 9) {
+			CHILD.setPosition(10 + widget(482, 88).getX(), widget(482, 88).getY(), 0, 0);
+		}
+		if (int0 == 10) {
+			CHILD.setPosition(10 + widget(482, 89).getX(), widget(482, 89).getY(), 0, 0);
+		}
+		int0 = int0 + 1;
+	}
+	return;
+}

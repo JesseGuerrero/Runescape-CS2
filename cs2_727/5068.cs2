@@ -1,0 +1,12 @@
+//script5068(5068)(int arg0, string arg1)(int)
+int iVar1
+cc_create(if_getnextsubid(if_gethash(1111, 27)), 4, 72810523)
+cc_settextfont(494)
+cc_settextalign(0, 1, 0)
+cc_setcolor(dfcfbf)
+iVar1 = (paramheight(arg0, 494, if_getwidth(if_gethash(1111, 27))) * 10) + 2
+cc_setsize(0, 1, iVar1, 0)
+cc_settext(arg0)
+cc_setposition(0, 1, arg0, 0)
+return iVar1
+return 0

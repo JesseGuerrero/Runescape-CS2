@@ -1,0 +1,32 @@
+void script_1234(int arg0, int arg1, int arg2) {
+	int int3;
+	string str0;
+	string str1;
+	str0 = "";
+	str1 = ",";
+	int3 = 0;
+	if (arg1 >= 0 && arg0 > 0) {
+		if (2147483647 / arg0 < arg1) {
+			int3 = 2147483647;
+		} else {
+			int3 = arg0 * arg1;
+		}
+		if (arg0 > 1) {
+			if (int3 >= 0 && int3 < 2147483647) {
+				str0 = script_46(arg0, str1) + " x " + script_46(arg1, str1) + "<br>" + "=\u00a0" + script_46(int3, str1);
+			} else {
+				str0 = script_46(arg0, str1) + " x " + script_46(arg1, str1);
+			}
+			CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg2), str0, 25, 512));
+			CHILD.hookMouseExit(&script_40(widget(arg2)));
+		} else {
+			str0 = script_46(arg1, str1);
+			CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg2), str0, 25, 512));
+			CHILD.hookMouseExit(&script_40(widget(arg2)));
+		}
+	} else {
+		CHILD.hookMouseHover(null);
+		CHILD.hookMouseExit(null);
+	}
+	return;
+}

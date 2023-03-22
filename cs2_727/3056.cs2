@@ -1,0 +1,22 @@
+//script3056(3056)(int arg0, string arg1, string arg2)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(friend_test(removetags(arg1)) == 0)
+			friend_add(removetags(arg1))
+		break
+	case 2:
+		if(friend_test(removetags(arg1)) == 0)
+			ignore_add(removetags(arg1))
+		break
+	case 3:
+		script_3015(0, "Send message to " + arg0, "", arg1, "")
+		break
+	case 5:
+		store_varc_string(279, removetags(arg0))
+		script_3190()
+		break
+
+}
+return

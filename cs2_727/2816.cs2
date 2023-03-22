@@ -1,0 +1,7 @@
+//script2816(2816)()(void)
+if(load_varc(1065) != -1) {
+	script_2817()
+	instr6257(if_gethash(89, 0), None, "")
+} else 
+	instr6257(if_gethash(89, 0), script_2816, "Y", 1, 1065)
+return

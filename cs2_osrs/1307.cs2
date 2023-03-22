@@ -1,0 +1,10 @@
+void script_1307(Widget widget0, Widget widget1, int arg2, int arg3, int arg4) {
+	arg2 = arg2 - arg3 * (getClientCycle() - arg4);
+	if (arg2 > 0) {
+		widget1.setSize(arg2, 0, 2, 1);
+	} else {
+		widget1.setSize(0, 0, 0, 1);
+		widget0.hookFrame(null);
+	}
+	return;
+}

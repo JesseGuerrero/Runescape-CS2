@@ -1,0 +1,34 @@
+//script705(705)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		store_varc(203, arg1)
+		break
+	case 2:
+		store_varc(204, arg1)
+		break
+	case 3:
+		store_varc(205, arg1)
+		break
+	case 4:
+		store_varc(206, arg1)
+		break
+	case 5:
+		store_varc(207, arg1)
+		break
+	case 6:
+		store_varc(208, arg1)
+		break
+	case 7:
+		store_varc(209, arg1)
+		break
+	case 8:
+		store_varc(210, arg1)
+		break
+	case 9:
+		store_varc(211, arg1)
+		break
+
+}
+return

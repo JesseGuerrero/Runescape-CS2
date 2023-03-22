@@ -1,0 +1,66 @@
+//script818(818)(int arg0)(void)
+string sVar0
+sVar0 = "No information is available about this beacon."
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setmodel(if_gethash(575, 3), 41805)
+		if_setonmouseover(if_gethash(575, 3), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 130)
+		break
+	case 2:
+		if_setmodel(if_gethash(575, 4), 41805)
+		if_setonmouseover(if_gethash(575, 4), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 160)
+		break
+	case 3:
+		if_setmodel(if_gethash(575, 5), 41805)
+		if_setonmouseover(if_gethash(575, 5), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 4:
+		if_setmodel(if_gethash(575, 6), 41805)
+		if_setonmouseover(if_gethash(575, 6), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 5:
+		if_setmodel(if_gethash(575, 7), 41805)
+		if_setonmouseover(if_gethash(575, 7), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 6:
+		if_setmodel(if_gethash(575, 8), 41805)
+		if_setonmouseover(if_gethash(575, 8), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 7:
+		if_setmodel(if_gethash(575, 9), 41805)
+		if_setonmouseover(if_gethash(575, 9), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 8:
+		if_setmodel(if_gethash(575, 10), 41805)
+		if_setonmouseover(if_gethash(575, 10), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 9:
+		if_setmodel(if_gethash(575, 11), 41805)
+		if_setonmouseover(if_gethash(575, 11), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 10:
+		if_setmodel(if_gethash(575, 12), 41805)
+		if_setonmouseover(if_gethash(575, 12), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 11:
+		if_setmodel(if_gethash(575, 13), 41805)
+		if_setonmouseover(if_gethash(575, 13), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 12:
+		if_setmodel(if_gethash(575, 14), 41805)
+		if_setonmouseover(if_gethash(575, 14), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 13:
+		if_setmodel(if_gethash(575, 15), 41805)
+		if_setonmouseover(if_gethash(575, 15), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+	case 14:
+		if_setmodel(if_gethash(575, 16), 41805)
+		if_setonmouseover(if_gethash(575, 16), script_38, "IIsii", -2147483645, if_gethash(575, 2), sVar0, 25, 200)
+		break
+
+}
+store_varc(2, 0)
+return

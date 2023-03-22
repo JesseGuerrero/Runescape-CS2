@@ -1,0 +1,20 @@
+//script4828(4828)(int arg0)(int)
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(9559) == 1)
+			return 1
+		break
+	case 2:
+		if(load_varpbit(9560) == 1)
+			return 1
+		break
+	case 3:
+		if(load_varpbit(9561) == 1)
+			return 1
+		break
+
+}
+return 0
+return -1

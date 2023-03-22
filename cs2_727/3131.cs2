@@ -1,0 +1,11 @@
+//script3131(3131)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1) {
+	if_sethide(if_gethash(910, 65), 0)
+	if_sethide(if_gethash(910, 66), 0)
+	if_setposition(if_gethash(910, 65), 0, 0, cc_gety(), if_getx(if_gethash(910, 65)))
+	if_setposition(if_gethash(910, 66), 0, 0, cc_gety(), if_getx(if_gethash(910, 66)))
+}
+if_setcolor(59637826, 0x404040)
+if_setcolor(59637825, 0x606060)
+return
+return

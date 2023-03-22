@@ -1,0 +1,18 @@
+//script1461(1461)(int arg0)(void)
+int iVar1
+int iVar2
+string sVar0
+iVar1 = enum(1614, arg0, 'i', 'I')
+iVar2 = enum(1615, arg0, 'i', 'I')
+if_sethide(iVar1, 0)
+if_sethide(iVar2, 0)
+if_setitem(iVar2, -1, -1)
+if_setgraphic(iVar2, 1435)
+if_setborderthickness(iVar2, 0)
+if_setspriteshadow(iVar2, 0)
+instr6220(iVar1)
+hook_mouse_press(iVar1, script_1481, "")
+sVar0 = "Drag an item here to create a new tab"
+if_setonmouseover(iVar1, script_38, "IIsii", -2147483645, if_gethash(762, 121), sVar0, 25, 150)
+hook_mouse_exit(iVar1, script_40, "I", if_gethash(762, 121))
+return

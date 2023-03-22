@@ -1,0 +1,3 @@
+//script788(788)(int arg0, int arg1, int arg2)(int, int)
+return if_gety(arg0) + arg2, if_getx(arg0) + arg1
+return 0, 0

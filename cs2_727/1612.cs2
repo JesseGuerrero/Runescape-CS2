@@ -1,0 +1,48 @@
+//script1612(1612)(int arg0, int arg1)(void)
+int iVar2
+string sVar0
+iVar2 = inv_getitem(arg1, 94)
+if(iVar2 == -1) {
+	if_setitem(arg0, 0, -1)
+	if_setsize(arg0, 0, 0, 32, 32)
+	if_setposition(arg0, 1, 1, 0, 0)
+	if_setgraphic(arg0, enum(796, arg1, 'i', 'd'))
+	if_setborderthickness(arg0, 0)
+	if_setspriteshadow(arg0, 0)
+	instr6239(arg0, None, "")
+	instr6220(arg0)
+	return
+}
+if_setsize(arg0, 0, 0, 32, 36)
+if_setposition(arg0, 1, 0, 0, 2)
+if_setitem(arg0, inv_getnum(arg1, 94), iVar2)
+if_setborderthickness(arg0, 1)
+if_setspriteshadow(arg0, 3153952)
+instr6239(arg0, script_1620, "Iiiii", -2147483645, -1, 100, 0, 8)
+instr6220(arg0)
+if(item_param(2091, iVar2) == 1)
+else
+	if(item_param(1430, iVar2) != 0)
+		if(playermember() == 1 || item_members(iVar2) == 0)
+		else
+			instr6213(arg0, 1, "Remove")
+sVar0 = item_param(528, iVar2)
+if(string_length(sVar0) > 0)
+	instr6213(arg0, 2, sVar0)
+sVar0 = item_param(529, iVar2)
+if(string_length(sVar0) > 0)
+	instr6213(arg0, 3, sVar0)
+sVar0 = item_param(530, iVar2)
+if(string_length(sVar0) > 0)
+	instr6213(arg0, 4, sVar0)
+sVar0 = item_param(531, iVar2)
+if(string_length(sVar0) > 0)
+	instr6213(arg0, 5, sVar0)
+sVar0 = item_param(1211, iVar2)
+if(string_length(sVar0) > 0)
+	instr6213(arg0, 6, sVar0)
+instr6213(arg0, 10, "Examine")
+item_useonname(arg0, "<col=ff9040>" + item_name(iVar2))
+if_setonmouseover(arg0, script_5495, "o", iVar2)
+hook_mouse_exit(arg0, script_5495, "o", -1)
+return

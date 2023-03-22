@@ -1,0 +1,7 @@
+//script1759(1759)(int arg0, int arg1)(void)
+if(load_varc(220) > 0)
+	if_sethide(arg0, 0)
+else
+	if_sethide(arg0, 1)
+if_settext(arg1, to_string(load_varc(220)))
+return

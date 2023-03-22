@@ -1,0 +1,14 @@
+int, int script_749() {
+	int int0;
+	int int1;
+	Widget widget2;
+	int0 = CHILD.getX();
+	int1 = CHILD.getY();
+	widget2 = CHILD.getLayer();
+	while (widget2 != null) {
+		int0 = int0 + widget2.getX() - getScrollX(widget2);
+		int1 = int1 + widget2.getY() - getScrollY(widget2);
+		widget2 = widget2.getLayer();
+	}
+	return int0, int1;
+}

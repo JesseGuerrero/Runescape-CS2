@@ -1,0 +1,9 @@
+//script1475(1475)()(void)
+store_varc_string(138, load_varc_string(22))
+if(client_clock() > load_varc(191)) {
+	pop_int()
+	instr6342(if_gethash(762, 17), None, "")
+	store_varc(191, client_clock() + 10)
+} else 
+	instr6342(if_gethash(762, 17), script_1476, "i", load_varc(191))
+return

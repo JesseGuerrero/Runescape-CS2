@@ -1,0 +1,37 @@
+//script934(934)(int arg0)(string)
+int iVar1
+string sVar0
+sVar0 = ""
+iVar1 = item_param(742, arg0)
+switch(item_param(741, arg0)) {
+	case default:
+		break
+	case 1:
+		if(iVar1 == 1)
+			sVar0 = "Rescued 1 dignitary in Recipe for Disaster"
+		else
+			sVar0 = "Rescued " + to_string(iVar1) + " dignitaries in Recipe for Disaster"
+		return script_913(load_varpbit(1852), item_param(742, arg0), sVar0)
+
+	case 2:
+		return script_913(load_varpbit(3763), 2, "Barbarian spearmaking")
+
+	case 3:
+		return script_913(load_varpbit(4310), 10, "Complete: Chaos Tunnels")
+
+	case 4:
+		return script_913(load_varpbit(1990), 280, "Part of quest: In Aid of the Myreque")
+
+	case 5:
+		return script_913(load_varpbit(1850), 4, "Part of quest: Recipe for Disaster")
+
+	case 6:
+		return script_913(load_varpbit(3550), 8, "Part of quest: Another Slice of H.A.M.")
+
+	case 7:
+		return script_913(load_varpbit(998), 7, "You need to complete the first puzzle in the Elemental Workshop IV Quest.")
+		return ""
+
+
+}
+return ""

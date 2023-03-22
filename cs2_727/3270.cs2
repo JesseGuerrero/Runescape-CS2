@@ -1,0 +1,11 @@
+//script3270(3270)(int arg0, int arg1)(int)
+int iVar2
+iVar2 = 2
+if(arg0 + (iVar2 - 1) < arg1)
+	return arg0 + iVar2
+else
+	if(arg0 - (iVar2 - 1) > arg1)
+		return arg0 - iVar2
+	else
+		return arg1
+return 0

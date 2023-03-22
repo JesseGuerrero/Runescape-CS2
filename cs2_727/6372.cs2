@@ -1,0 +1,28 @@
+//script6372(6372)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar1 = 0
+iVar2 = 0
+iVar3 = max(2 + cc_getwidth(), 20)
+iVar4 = max(2 + cc_getheight(), 20)
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+if(script_6375() == 1) {
+	iVar1 = script_6355() + (cc_getwidth() / 2)
+	iVar2 = script_6356() + (cc_getheight() / 2)
+	if(instr6004(script_6358(arg0)) == 1) {
+		cc_sethide(0)
+		iVar5 = script_6373(iVar3, iVar4).get(0)
+		cc_setsize(0, 0, iVar6, iVar5)
+		script_6374(iVar7, arg0)
+		cc_setposition(0, 0, iVar2 - (cc_getheight() / 2), iVar1 - (cc_getwidth() / 2))
+	}
+} else 
+	if_sethide(script_6358(arg0), 1)
+return

@@ -1,0 +1,153 @@
+//script4959(4959)(int arg0)(int)
+if(clan_vars_enabled() == 1)
+	switch(arg0) {
+		case default:
+			break
+		case 1:
+			return load_clan_varbit(2580)
+
+		case 2:
+			return load_clan_varbit(2581)
+
+		case 3:
+			return load_clan_varbit(2582)
+
+		case 4:
+			return load_clan_varbit(2567)
+
+		case 5:
+			return load_clan_varbit(2568)
+
+		case 6:
+			return load_clan_varbit(2569)
+
+		case 7:
+			return load_clan_varbit(2570)
+
+		case 8:
+			return load_clan_varbit(2571)
+
+		case 9:
+			return load_clan_varbit(2572)
+
+		case 10:
+			return load_clan_varbit(2573)
+
+		case 11:
+			return load_clan_varbit(2574)
+
+		case 12:
+			return load_clan_varbit(2576)
+
+		case 13:
+			return load_clan_varbit(2577)
+
+		case 14:
+			return load_clan_varbit(2578)
+
+		case 15:
+			return load_clan_varbit(2579)
+
+		case 16:
+			return load_clan_varbit(2331)
+
+		case 17:
+			return load_clan_varbit(2341)
+
+		case 18:
+			return load_clan_varbit(2351)
+
+		case 19:
+			return load_clan_varbit(2361)
+
+		case 20:
+			return load_clan_varbit(2371)
+
+		case 21:
+			return load_clan_varbit(2381)
+
+		case 22:
+			return load_clan_varbit(2391)
+
+		case 23:
+			return load_clan_varbit(2401)
+
+		case 24:
+			return load_clan_varbit(2461)
+
+		case 25:
+			return load_clan_varbit(2471)
+
+		case 26:
+			return load_clan_varbit(2481)
+
+		case 27:
+			return load_clan_varbit(2491)
+
+		case 28:
+			return load_clan_varbit(2501)
+
+		case 29:
+			return load_clan_varbit(2411)
+
+		case 30:
+			return load_clan_varbit(2421)
+
+		case 31:
+			return load_clan_varbit(2431)
+
+		case 32:
+			return load_clan_varbit(2441)
+
+		case 33:
+			return load_clan_varbit(2451)
+
+		case 34:
+			return load_clan_varbit(2511)
+
+		case 35:
+			return load_clan_varbit(2211)
+
+		case 36:
+			return load_clan_varbit(2221)
+
+		case 37:
+			return load_clan_varbit(2241)
+
+		case 38:
+			return load_clan_varbit(2191)
+
+		case 39:
+			return load_clan_varbit(2231)
+
+		case 40:
+			return load_clan_varbit(2201)
+
+		case 41:
+			return load_clan_varbit(2261)
+
+		case 42:
+			return load_clan_varbit(2271)
+
+		case 43:
+			return load_clan_varbit(2281)
+
+		case 44:
+			return load_clan_varbit(2251)
+
+		case 45:
+			return load_clan_varbit(2291)
+
+		case 46:
+			return load_clan_varbit(2301)
+
+		case 47:
+			return load_clan_varbit(2311)
+
+		case 48:
+			return load_clan_varbit(2321)
+
+
+	}
+return 0
+return 0

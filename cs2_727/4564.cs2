@@ -1,0 +1,22 @@
+//script4564(4564)(int arg0, string arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 6:
+		friend_add(removetags(arg0))
+		break
+	case 7:
+		ignore_add(removetags(arg0))
+		break
+	case 8:
+		friend_del(removetags(arg0))
+		break
+	case 9:
+		ignore_del(removetags(arg0))
+		break
+	case 10:
+		script_1633(arg0)
+		break
+
+}
+return

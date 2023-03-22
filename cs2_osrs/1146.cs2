@@ -1,0 +1,11 @@
+void script_1146(Widget widget0, int arg1) {
+	script_1278(arg1);
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget0, 5) == true) {
+		CHILD.setHidden(false);
+	}
+	widget0.setContextMenuOption(1, "Protect");
+	return;
+}

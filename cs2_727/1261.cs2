@@ -1,0 +1,4 @@
+//script1261(1261)()(void)
+if_settext(if_gethash(471, 14), to_string(load_varpbit(2880)))
+if_settext(if_gethash(471, 6), to_string(load_varpbit(2881)))
+return

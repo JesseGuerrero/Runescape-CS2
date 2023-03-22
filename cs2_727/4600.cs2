@@ -1,0 +1,4 @@
+//script4600(4600)(int arg0, string arg1)(void)
+if(arg0 == 10)
+	mes_typed(0, 27, arg0)
+return

@@ -1,0 +1,100 @@
+//script5135(5135)()(void)
+if(script_5131() == 1) {
+	if(load_varc(1571) == 1)
+		if_sethide(if_gethash(1096, 556), 0)
+	else
+		if_sethide(if_gethash(1096, 556), 1)
+	if(load_varc(1570) == 1)
+		if_sethide(if_gethash(1096, 568), 0)
+	else
+		if_sethide(if_gethash(1096, 568), 1)
+	if(load_varc(1572) == 1)
+		if_sethide(if_gethash(1096, 532), 0)
+	else
+		if_sethide(if_gethash(1096, 532), 1)
+	if(load_varc(1574) == 1)
+		if_sethide(if_gethash(1096, 545), 0)
+	else
+		if_sethide(if_gethash(1096, 545), 1)
+	if(load_varc(1573) == 1)
+		if_sethide(if_gethash(1096, 737), 0)
+	else
+		if_sethide(if_gethash(1096, 737), 1)
+	if(load_varc(1575) == 1)
+		if_sethide(if_gethash(1096, 750), 0)
+	else
+		if_sethide(if_gethash(1096, 750), 1)
+	if(load_varc(1576) == 1)
+		if_sethide(if_gethash(1096, 482), 0)
+	else
+		if_sethide(if_gethash(1096, 482), 1)
+	if(load_varc(1577) == 1)
+		if_sethide(if_gethash(1096, 646), 0)
+	else
+		if_sethide(if_gethash(1096, 646), 1)
+	if(load_varc(1578) == 1)
+		if_sethide(if_gethash(1096, 657), 0)
+	else
+		if_sethide(if_gethash(1096, 657), 1)
+	if(load_varc(1579) == 1)
+		if_sethide(if_gethash(1096, 669), 0)
+	else
+		if_sethide(if_gethash(1096, 669), 1)
+	if(load_varc(1580) == 1)
+		if_sethide(if_gethash(1096, 682), 0)
+	else
+		if_sethide(if_gethash(1096, 682), 1)
+	if(load_varc(1581) == 1)
+		if_sethide(if_gethash(1096, 694), 0)
+	else
+		if_sethide(if_gethash(1096, 694), 1)
+	if(load_varc(1582) == 1)
+		if_sethide(if_gethash(1096, 791), 0)
+	else
+		if_sethide(if_gethash(1096, 791), 1)
+	if(load_varc(1583) == 1)
+		if_sethide(if_gethash(1096, 590), 0)
+	else
+		if_sethide(if_gethash(1096, 590), 1)
+	if(load_varc(1584) == 1)
+		if_sethide(if_gethash(1096, 579), 0)
+	else
+		if_sethide(if_gethash(1096, 579), 1)
+	if(load_varc(1585) == 1)
+		if_sethide(if_gethash(1096, 623), 0)
+	else
+		if_sethide(if_gethash(1096, 623), 1)
+	if(load_varc(1586) == 1)
+		if_sethide(if_gethash(1096, 601), 0)
+	else
+		if_sethide(if_gethash(1096, 601), 1)
+	if(load_varc(1587) == 1)
+		if_sethide(if_gethash(1096, 612), 0)
+	else
+		if_sethide(if_gethash(1096, 612), 1)
+	if(load_varc(1588) == 1)
+		if_sethide(if_gethash(1096, 634), 0)
+	else
+		if_sethide(if_gethash(1096, 634), 1)
+	if(load_varc(1792) == 1)
+		if_sethide(if_gethash(1096, 802), 0)
+	else
+		if_sethide(if_gethash(1096, 802), 1)
+	if(load_varc(1793) == 1)
+		if_sethide(if_gethash(1096, 813), 0)
+	else
+		if_sethide(if_gethash(1096, 813), 1)
+	if(load_varc(1589) == 1)
+		if_sethide(if_gethash(1096, 706), 0)
+	else
+		if_sethide(if_gethash(1096, 706), 1)
+	if(load_varc(1649) == 1)
+		if_sethide(if_gethash(1096, 780), 0)
+	else
+		if_sethide(if_gethash(1096, 780), 1)
+	if(load_varc(1590) == 1)
+		if_sethide(if_gethash(1096, 718), 0)
+	else
+		if_sethide(if_gethash(1096, 718), 1)
+}
+return

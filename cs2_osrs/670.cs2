@@ -1,0 +1,11 @@
+void script_670(Widget widget0) {
+	int int1;
+	int1 = getItemContainerLength(93);
+	while (int1 > 0) {
+		int1 = int1 - 1;
+		if (CHILD.setChild(widget0, int1) == true) {
+			script_671(getItemIdInSlot(93, int1), getItemAmtInSlot(93, int1));
+		}
+	}
+	return;
+}

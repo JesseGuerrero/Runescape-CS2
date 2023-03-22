@@ -1,0 +1,31 @@
+//script808(808)()(void)
+int iVar0
+int iVar1
+if_sethide(if_gethash(748, 7), 0)
+iVar0 = scale(100, script_2916(), load_varpbit(7198))
+iVar1 = modulo(32, client_clock())
+if(iVar0 > 25) {
+	store_varc(615, 0)
+	if(if_gettrans(if_gethash(748, 7)) != 0)
+		if_settrans(if_gethash(748, 7), 0)
+	else
+		return
+} else  {
+	if(iVar1 == 1) {
+		if(load_varc(615) <= 0)
+			store_varc(615, client_clock())
+		if(client_clock() - load_varc(615) < 1500)
+			sound_synth(0, 1, 5644)
+	}
+	if(iVar1 < 8)
+		if_settrans(if_gethash(748, 7), 0)
+	else
+		if(iVar1 < 16)
+			if_settrans(if_gethash(748, 7), 85)
+		else
+			if(iVar1 < 24)
+				if_settrans(if_gethash(748, 7), 255)
+			else
+				if_settrans(if_gethash(748, 7), 85)
+}
+return

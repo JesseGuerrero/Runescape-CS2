@@ -1,0 +1,8 @@
+//script4081(4081)()(void)
+if(instr6004(if_gethash(1060, 0)) == 1)
+	cc_setgraphic(4031)
+if(instr6004(if_gethash(1060, 2)) == 1)
+	cc_setgraphic(4034)
+if(instr6004(if_gethash(1060, 1)) == 1)
+	cc_setgraphic(4037)
+return

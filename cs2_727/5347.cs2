@@ -1,0 +1,46 @@
+//script5347(5347)()(void)
+int iVar0
+int iVar1
+iVar0 = -1
+iVar1 = -1
+switch(world_language()) {
+	case default:
+		iVar0 = 7790
+		iVar1 = 7791
+		break
+	case 1:
+		iVar0 = 7794
+		iVar1 = 7795
+		break
+	case 2:
+		iVar0 = 7792
+		iVar1 = 7793
+		break
+	case 3:
+		iVar0 = 7796
+		iVar1 = 7797
+		break
+
+}
+switch(load_varc(1659)) {
+	case default:
+		if_settext(if_gethash(1143, 31), "Sort By...")
+		break
+	case 0:
+		if_settext(if_gethash(1143, 31), "Price: Low-High")
+		break
+	case 1:
+		if_settext(if_gethash(1143, 31), "Price: High-Low")
+		break
+	case 2:
+		if_settext(if_gethash(1143, 31), "Name: A-Z")
+		break
+	case 3:
+		if_settext(if_gethash(1143, 31), "Name: Z-A")
+		break
+
+}
+if_sethide(if_gethash(1143, 26), 1)
+if_setgraphic(if_gethash(1143, 85), iVar0)
+if_setgraphic(if_gethash(1143, 86), iVar1)
+return

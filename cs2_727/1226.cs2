@@ -1,0 +1,122 @@
+//script1226(1226)(int arg0)(void)
+if_sethide(if_gethash(308, 15), 1)
+if_sethide(if_gethash(308, 14), 1)
+if_setgraphic(if_gethash(308, 35), 1134)
+if_sethide(if_gethash(308, 13), 1)
+if_sethide(if_gethash(308, 12), 1)
+if_setgraphic(if_gethash(308, 34), 1134)
+if_sethide(if_gethash(308, 11), 1)
+if_sethide(if_gethash(308, 10), 1)
+if_setgraphic(if_gethash(308, 33), 1134)
+if_sethide(if_gethash(308, 9), 1)
+if_sethide(if_gethash(308, 8), 1)
+if_setgraphic(if_gethash(308, 39), 1134)
+if_sethide(if_gethash(308, 7), 1)
+if_sethide(if_gethash(308, 6), 1)
+if_setgraphic(if_gethash(308, 37), 1134)
+if_sethide(if_gethash(308, 5), 1)
+if_sethide(if_gethash(308, 4), 1)
+if_setgraphic(if_gethash(308, 36), 1134)
+if_sethide(if_gethash(308, 3), 1)
+if_sethide(if_gethash(308, 2), 1)
+if_setgraphic(if_gethash(308, 38), 1134)
+if(gender() == 1)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			if_sethide(if_gethash(308, 15), 0)
+			if_setgraphic(if_gethash(308, 35), 1135)
+			break
+		case 1:
+			if_sethide(if_gethash(308, 13), 0)
+			if_setgraphic(if_gethash(308, 34), 1135)
+			break
+		case 2:
+			if_sethide(if_gethash(308, 11), 0)
+			if_setgraphic(if_gethash(308, 33), 1135)
+			break
+		case 3:
+			if_sethide(if_gethash(308, 9), 0)
+			if_setgraphic(if_gethash(308, 39), 1135)
+			break
+		case 4:
+			if_sethide(if_gethash(308, 7), 0)
+			if_setgraphic(if_gethash(308, 37), 1135)
+			break
+		case 5:
+			if_sethide(if_gethash(308, 5), 0)
+			if_setgraphic(if_gethash(308, 36), 1135)
+			break
+		case 6:
+			if_sethide(if_gethash(308, 3), 0)
+			if_setgraphic(if_gethash(308, 38), 1135)
+			break
+
+	}
+else
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			if_sethide(if_gethash(308, 14), 0)
+			if_setgraphic(if_gethash(308, 35), 1135)
+			break
+		case 1:
+			if_sethide(if_gethash(308, 12), 0)
+			if_setgraphic(if_gethash(308, 34), 1135)
+			break
+		case 2:
+			if_sethide(if_gethash(308, 10), 0)
+			if_setgraphic(if_gethash(308, 33), 1135)
+			break
+		case 3:
+			if_sethide(if_gethash(308, 8), 0)
+			if_setgraphic(if_gethash(308, 39), 1135)
+			break
+		case 4:
+			if_sethide(if_gethash(308, 6), 0)
+			if_setgraphic(if_gethash(308, 37), 1135)
+			break
+		case 5:
+			if_sethide(if_gethash(308, 4), 0)
+			if_setgraphic(if_gethash(308, 36), 1135)
+			break
+		case 6:
+			if_sethide(if_gethash(308, 2), 0)
+			if_setgraphic(if_gethash(308, 38), 1135)
+			break
+
+	}
+if(gender() == 1) {
+	if_sethide(if_gethash(308, 20), 0)
+	if_sethide(if_gethash(308, 22), 0)
+	if_sethide(if_gethash(308, 24), 0)
+	if_sethide(if_gethash(308, 26), 0)
+	if_sethide(if_gethash(308, 28), 0)
+	if_sethide(if_gethash(308, 30), 0)
+	if_sethide(if_gethash(308, 32), 0)
+	if_sethide(if_gethash(308, 19), 1)
+	if_sethide(if_gethash(308, 21), 1)
+	if_sethide(if_gethash(308, 23), 1)
+	if_sethide(if_gethash(308, 25), 1)
+	if_sethide(if_gethash(308, 27), 1)
+	if_sethide(if_gethash(308, 29), 1)
+	if_sethide(if_gethash(308, 31), 1)
+} else  {
+	if_sethide(if_gethash(308, 20), 1)
+	if_sethide(if_gethash(308, 22), 1)
+	if_sethide(if_gethash(308, 24), 1)
+	if_sethide(if_gethash(308, 26), 1)
+	if_sethide(if_gethash(308, 28), 1)
+	if_sethide(if_gethash(308, 30), 1)
+	if_sethide(if_gethash(308, 32), 1)
+	if_sethide(if_gethash(308, 19), 0)
+	if_sethide(if_gethash(308, 21), 0)
+	if_sethide(if_gethash(308, 23), 0)
+	if_sethide(if_gethash(308, 25), 0)
+	if_sethide(if_gethash(308, 27), 0)
+	if_sethide(if_gethash(308, 29), 0)
+	if_sethide(if_gethash(308, 31), 0)
+}
+return

@@ -1,0 +1,8 @@
+void script_1419(int arg0, string arg1, Widget widget2, int arg3) {
+	if (CHILD.setChild(widget2, arg3) == true) {
+		playSoundEffect(2266, 1, 0);
+		CHILD.setRGB(0x8F8F8F);
+		CHILD.hookFrame(&script_1420(getClientCycle() + 30, arg1, widget2, arg3));
+	}
+	return;
+}

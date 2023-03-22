@@ -1,0 +1,13 @@
+//script4039(4039)(int arg0, int arg1)(void)
+if(cc_find(arg0, if_gethash(190, 15)) == 1)
+	if(arg1 == 1)
+		cc_setcolor(ffff)
+	else
+		if(script_2193(arg0) == 2)
+			cc_setcolor(ff00)
+		else
+			if(script_2193(arg0) == 1)
+				cc_setcolor(ffff00)
+			else
+				cc_setcolor(ff0000)
+return

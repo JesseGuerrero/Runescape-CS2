@@ -1,0 +1,8 @@
+void script_1173(int arg0) {
+	if (VARPBIT[4842] != arg0) {
+		VARPBIT[4842] = arg0;
+		playSoundEffect(2266, 1, 0);
+		script_1174();
+	}
+	return;
+}

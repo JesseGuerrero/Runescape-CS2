@@ -1,0 +1,6 @@
+void script_1347(Widget widget0, Widget widget1, Widget widget2) {
+	script_1349(widget0, widget1, widget2);
+	widget0.hookResize(&script_1348(widget0, widget1, widget2));
+	widget0.hookWidgetsOpenClose(&script_1348(widget0, widget1, widget2));
+	return;
+}

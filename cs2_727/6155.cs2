@@ -1,0 +1,23 @@
+//script6155(6155)(int arg0)(void)
+if(arg0 == 0) {
+	if_setgraphic(if_gethash(153, 53), 5883)
+	if_setgraphic(if_gethash(153, 55), 5884)
+	if_setgraphic(if_gethash(153, 59), 5883)
+	if_setgraphic(if_gethash(153, 54), 5873)
+	if_setgraphic(if_gethash(153, 60), 5873)
+	if_setgraphic(if_gethash(153, 57), 5874)
+	if_setgraphic(if_gethash(153, 58), 5893)
+	if_setgraphic(if_gethash(153, 61), 5893)
+	if_setgraphic(if_gethash(153, 56), 5894)
+} else  {
+	if_setgraphic(if_gethash(153, 53), 5881)
+	if_setgraphic(if_gethash(153, 55), 5882)
+	if_setgraphic(if_gethash(153, 59), 5881)
+	if_setgraphic(if_gethash(153, 54), 5871)
+	if_setgraphic(if_gethash(153, 60), 5871)
+	if_setgraphic(if_gethash(153, 57), 5872)
+	if_setgraphic(if_gethash(153, 58), 5891)
+	if_setgraphic(if_gethash(153, 61), 5891)
+	if_setgraphic(if_gethash(153, 56), 5892)
+}
+return

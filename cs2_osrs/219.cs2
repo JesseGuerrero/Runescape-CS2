@@ -1,0 +1,33 @@
+int script_219(Widget widget0, Widget widget1, Widget widget2, string string3, int arg4) {
+	int int4;
+	widget0.clearChildren();
+	widget1.clearChildren();
+	widget2.clearChildren();
+	widget0.setPosition(0, 0, 0, 0);
+	widget0.setSize(512, 334, 0, 0);
+	int4 = 37 + arg4;
+	widget1.setPosition(55, int4, 0, 0);
+	widget2.setPosition(441, int4, 0, 0);
+	int4 = 265 - arg4;
+	widget1.setSize(386, int4, 0, 0);
+	widget2.setSize(16, int4, 0, 0);
+	CHILD.createChild(widget0, 3, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setRGB(0x000000);
+	CHILD.setTrans(200);
+	CHILD.setFilled(true);
+	CHILD.createChild(widget0, 6, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(512, 334, 0, 0);
+	CHILD.setModel(26397);
+	CHILD.set3DRotation(-1, -68, 512, 0, 0, 1020);
+	CHILD.createChild(widget0, 4, 2);
+	CHILD.setPosition(0, 37, 1, 0);
+	CHILD.setSize(512, arg4, 0, 0);
+	CHILD.setFont(645);
+	CHILD.setRGB(0x46320A);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setText(string3);
+	return 3;
+}

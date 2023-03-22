@@ -1,0 +1,77 @@
+void script_1747(int arg0, int arg1, int arg2, int arg3, int arg4, Widget widget5, Widget arg6, Widget widget7, Widget widget8, int arg9) {
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int10 = VARC[191];
+	int11 = VARC[192];
+	int12 = VARC[193];
+	int13 = VARC[194];
+	int14 = 0;
+	int15 = widget5.getWidth();
+	int16 = widget5.getHeight();
+	if (CHILD.setChild(widget5, arg0) == true) {
+		CHILD.setSprite(null);
+		switch (arg0) {
+			case 0:
+				int12, int13 = int12 + (arg1 - arg3), int13 + (arg2 - arg4);
+				break;
+			case 1:
+				int11 = int11 - (arg2 - arg4);
+				break;
+			case 2:
+				int14 = arg1 - arg3;
+				int10, int12 = int10 + int14, int12 + int14;
+				break;
+			case 3:
+				int10 = int10 - (arg1 - arg3);
+				break;
+			case 4:
+				int14 = arg1 - arg3;
+				int10, int12 = int10 + int14, int12 + int14;
+				int14 = arg2 - arg4;
+				int11, int13 = int11 + int14, int13 + int14;
+				break;
+			case 5:
+				int10 = int10 - (arg1 - arg3);
+				int14 = arg2 - arg4;
+				int11, int13 = int11 + int14, int13 + int14;
+				break;
+			case 6:
+				int14 = arg1 - arg3;
+				int10, int12 = int10 + int14, int12 + int14;
+				int11 = int11 - (arg2 - arg4);
+				break;
+			case 7:
+				int10 = int10 - (arg1 - arg3);
+				int11 = int11 - (arg2 - arg4);
+				break;
+		}
+		if (int12 < 10) {
+			int10 = int10 - int12;
+			int12 = 0;
+		}
+		if (int10 < int12 + 10) {
+			int10 = int12;
+		}
+		if (int13 < 10) {
+			int11 = int11 - int13;
+			int13 = 0;
+		}
+		if (int11 < int13 + 10) {
+			int11 = int13;
+		}
+		int10 = script_1045(script_1046(int10, int15 - arg9), 0);
+		int11 = script_1045(script_1046(int11, int16 - 280), 0);
+		int12, int13 = script_1045(script_1046(int12, int10), 0), script_1045(script_1046(int13, int11), 0);
+		widget7.setPosition(int12, int13, 0, 0);
+		widget7.setSize(int10, int11, 1, 1);
+		widget7.setIsHidden(false);
+		widget8.setIsHidden(true);
+		CHILD.hookFrame(&script_1748(getClientCycle() + 3, int10, int11, int12, int13, widget5, arg6, widget7, widget8, arg9));
+	}
+	return;
+}

@@ -1,0 +1,12 @@
+//script499(499)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = script_488(arg0)
+iVar2 = 66322452
+if(iVar1 != -1) {
+	if_settext(if_gethash(1012, 27), struct_param(1150, iVar1))
+	if_settext(if_gethash(1012, 28), struct_param(1152, iVar1))
+	if_sethide(iVar2, 0)
+} else 
+	if_sethide(iVar2, 1)
+return

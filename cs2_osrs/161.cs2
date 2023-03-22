@@ -1,0 +1,52 @@
+void script_161(Container container0, int arg1, Widget widget2, int arg3, int arg4, int arg5, string string6, string string7, string string8, string string9, string string10, string string11, string string12, string string13, string string14, int arg15) {
+	if (CHILD.setChild(widget2, arg3) == true) {
+		if (getItemIdInInpsectingSlot(container0, arg1) != null) {
+			if (arg15 == 1) {
+				CHILD.setItem(getItemIdInInpsectingSlot(container0, arg1), getItemAmtInInspectingSlot(container0, arg1));
+			} else {
+				CHILD.setItemNoNum(getItemIdInInpsectingSlot(container0, arg1), 1);
+			}
+			CHILD.setOptionBase(getItemName(getItemIdInInpsectingSlot(container0, arg1)));
+			CHILD.setContextMenuOption(1, string6);
+			CHILD.setContextMenuOption(2, string7);
+			CHILD.setContextMenuOption(3, string8);
+			CHILD.setContextMenuOption(4, string9);
+			CHILD.setContextMenuOption(5, string10);
+			CHILD.setContextMenuOption(6, string11);
+			CHILD.setContextMenuOption(7, string12);
+			CHILD.setContextMenuOption(8, string13);
+			CHILD.setContextMenuOption(9, string14);
+			CHILD.setContextMenuOption(10, "Examine" + "<col=ff9040>");
+			if (arg4 > 0) {
+				CHILD.setDragDeadZone(5);
+				CHILD.setDragDeadTime(5);
+			}
+			if (arg4 == 1) {
+				CHILD.hookDragRelease(&script_155(container0, CTX_WIDGET_CHILD, DRAG_WIDGET_CHILD, CTX_WIDGET, arg4, widget(arg5), string6, string7, string8, string9, string10, string11, string12, string13, string14));
+			} else if (arg4 == 2) {
+				CHILD.hookDragRelease(&script_156(container0, CTX_WIDGET_CHILD, DRAG_WIDGET_CHILD, CTX_WIDGET, arg4, widget(arg5), string6, string7, string8, string9, string10, string11, string12, string13, string14));
+			}
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+		} else {
+			CHILD.setItem(null, 0);
+			CHILD.setOptionBase("");
+			CHILD.setContextMenuOption(1, "");
+			CHILD.setContextMenuOption(2, "");
+			CHILD.setContextMenuOption(3, "");
+			CHILD.setContextMenuOption(4, "");
+			CHILD.setContextMenuOption(5, "");
+			CHILD.setContextMenuOption(6, "");
+			CHILD.setContextMenuOption(7, "");
+			CHILD.setContextMenuOption(8, "");
+			CHILD.setContextMenuOption(9, "");
+			CHILD.setContextMenuOption(10, "");
+			if (arg4 > 0) {
+				CHILD.setDragDeadZone(0);
+				CHILD.setDragDeadTime(0);
+			}
+			CHILD.hookDragRelease(null);
+		}
+	}
+	return;
+}

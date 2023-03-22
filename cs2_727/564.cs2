@@ -1,0 +1,9 @@
+//script564(564)()(int)
+if(load_varc(1037) > if_getheight(if_gethash(746, 52)) - 117)
+	script_1652(1)
+else
+	script_1650()
+instr6214(if_gethash(746, 49), -1, 48889880)
+instr6235(if_gethash(746, 49), script_1649, "i1", -2147483646, 0)
+instr6240(if_gethash(746, 49), script_1649, "i1", -2147483646, 1)
+return 1

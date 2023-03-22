@@ -1,0 +1,14 @@
+void script_397(int arg0, int arg1, int arg2) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2871, 1, 0);
+	if (arg1 == 1) {
+		VARPBIT[3985] = (VARPBIT[3985] + arg2) % 4;
+	} else if (arg1 == 2) {
+		VARPBIT[3986] = (VARPBIT[3986] + arg2) % 4;
+	} else if (arg1 == 3) {
+		VARPBIT[3987] = (VARPBIT[3987] + arg2) % 4;
+	}
+	return;
+}

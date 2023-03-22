@@ -1,0 +1,22 @@
+void script_919(DataMap datamap0) {
+	Widget widget1;
+	widget1 = null;
+	if (datamap0 == 1131) {
+		if (VARC[171] != -1) {
+			widget1 = datamap('i', 'I', 1137, VARC[171]);
+		}
+		if (hasChild(datamap('I', 'I', datamap0, widget(161, 66))) == true || widget1 != null && hasChild(datamap('I', 'I', datamap0, widget1)) == true) {
+			widget(164, 62).setIsHidden(false);
+		} else {
+			widget(164, 62).setIsHidden(true);
+		}
+		if (datamap('I', 'I', datamap0, widget(161, 50)).isHidden() == true) {
+			datamap('I', 'I', datamap0, widget(161, 38)).setIsHidden(true);
+			datamap('I', 'I', datamap0, widget(161, 45)).setIsHidden(true);
+		} else {
+			datamap('I', 'I', datamap0, widget(161, 38)).setIsHidden(false);
+			datamap('I', 'I', datamap0, widget(161, 45)).setIsHidden(false);
+		}
+	}
+	return;
+}

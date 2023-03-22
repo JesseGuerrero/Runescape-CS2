@@ -1,0 +1,7 @@
+//script5628(5628)(int arg0, int arg1)(void)
+if(if_getwidth(if_gethash(1199, 14)) != arg0)
+	script_5622()
+else
+	if(if_getheight(if_gethash(1199, 14)) != arg1)
+		script_5622()
+return

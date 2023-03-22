@@ -1,0 +1,8 @@
+void script_1073(int arg0) {
+	if (isBitFlagged(VARP[453], arg0) == true) {
+		_CHILD.setHidden(false);
+	} else {
+		_CHILD.setHidden(true);
+	}
+	return;
+}

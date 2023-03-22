@@ -1,0 +1,167 @@
+//script257(257)()(void)
+int iVar0
+int iVar1
+int iVar2
+string sVar0
+sVar0 = ""
+if(load_varc(1111) == -1 || load_varc(1113) == -1 || load_varc(1112) == -1 || load_varc(1114) == -1 || load_varc(1115) == -1 || load_varc(1116) == -1 || load_varc(1117) == -1 || load_varc(1927) == -1)
+	return
+iVar0 = if_getnextsubid(if_gethash(919, 60)) * (18 + 4)
+iVar1 = (if_getnextsubid(if_gethash(919, 60)) + 1) * (18 + 4)
+if_setscrollsize(60227643, iVar1, if_getscrollwidth(if_gethash(919, 59)))
+if_setsize(if_gethash(919, 25), 0, 0, iVar1, if_getwidth(if_gethash(919, 25)))
+cc_create(if_getnextsubid(if_gethash(919, 25)), 4, 60227609)
+if(load_varc(1927) >= 1)
+	cc_setcolor(f1d8b0)
+else
+	cc_setcolor(a4a467)
+cc_setsize(0, 2, 18, 16384)
+cc_setposition(2, 0, iVar0, 0)
+cc_settextfont(494)
+cc_settext(script_1668(load_varc(1111)))
+cc_settextalign(0, 1, 1)
+sVar0 = cc_gettext() + ": The type of fish"
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(919, 24), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(919, 24))
+if_setsize(if_gethash(919, 60), 0, 0, iVar1, if_getwidth(if_gethash(919, 60)))
+cc_create(if_getnextsubid(if_gethash(919, 60)), 4, 60227644)
+if(load_varc(1927) >= 1)
+	cc_setcolor(f1d8b0)
+else
+	cc_setcolor(a4a467)
+cc_setsize(0, 2, 18, 16384)
+cc_setposition(2, 0, iVar0, 0)
+cc_settextfont(494)
+cc_settext(script_276(load_varc(1113)))
+cc_settextalign(0, 1, 1)
+sVar0 = cc_gettext() + ": The habitat in which you caught the fish"
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(919, 24), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(919, 24))
+if_setsize(if_gethash(919, 61), 0, 0, iVar1, if_getwidth(if_gethash(919, 61)))
+cc_create(if_getnextsubid(if_gethash(919, 61)), 4, 60227645)
+if(load_varc(1927) >= 1)
+	cc_setcolor(f1d8b0)
+else
+	cc_setcolor(a4a467)
+cc_setsize(0, 2, 18, 16384)
+cc_setposition(2, 0, iVar0, 0)
+cc_settextfont(494)
+cc_settext(to_string(load_varc(1112)))
+cc_settextalign(0, 1, 1)
+sVar0 = cc_gettext() + ": The weight of the fish"
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(919, 24), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(919, 24))
+if_setsize(if_gethash(919, 62), 0, 0, iVar1, if_getwidth(if_gethash(919, 62)))
+cc_create(if_getnextsubid(if_gethash(919, 62)), 5, 60227646)
+cc_setsize(0, 0, 20, 20)
+cc_setposition(2, 1, iVar0, 0)
+iVar2 = -1
+switch(load_varc(1114)) {
+	case default:
+		break
+	case 1:
+		iVar2 = 15658
+		sVar0 = "Worm"
+		break
+	case 2:
+		iVar2 = 15659
+		sVar0 = "Maggot"
+		break
+	case 3:
+		iVar2 = 15662
+		sVar0 = "Cricket"
+		break
+	case 4:
+		iVar2 = 15663
+		sVar0 = "Locust"
+		break
+	case 5:
+		iVar2 = 15661
+		sVar0 = "Crayfish"
+		break
+	case 6:
+		iVar2 = 15660
+		sVar0 = "Shrimp"
+		break
+	case 7:
+		iVar2 = 15664
+		sVar0 = "Green moth"
+		break
+	case 8:
+		iVar2 = 15665
+		sVar0 = "Grey moth"
+		break
+
+}
+if(load_varc(1927) < 2) {
+	cc_setitem_nonum(0, iVar2)
+	sVar0 = sVar0 + ": The bait you used to catch the fish"
+} else 
+	sVar0 = "You do not know which bait was used to catch this big fish"
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(919, 24), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(919, 24))
+if_setsize(if_gethash(919, 63), 0, 0, iVar1, if_getwidth(if_gethash(919, 63)))
+cc_create(if_getnextsubid(if_gethash(919, 63)), 4, 60227647)
+if(load_varc(1927) >= 1)
+	cc_setcolor(f1d8b0)
+else
+	cc_setcolor(a4a467)
+cc_setsize(0, 2, 18, 16384)
+cc_setposition(2, 0, iVar0, 0)
+cc_settextfont(494)
+if(load_varc(1927) < 2) {
+	cc_settext(script_278(load_varc(1115)))
+	sVar0 = cc_gettext() + ": The hook you used to catch the fish"
+} else 
+	sVar0 = "You do not know which hook was used to catch this big fish"
+cc_settextalign(0, 1, 1)
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(919, 24), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(919, 24))
+if_setsize(if_gethash(919, 64), 0, 0, iVar1, if_getwidth(if_gethash(919, 64)))
+cc_create(if_getnextsubid(if_gethash(919, 64)), 4, 60227648)
+if(load_varc(1927) >= 1)
+	cc_setcolor(f1d8b0)
+else
+	cc_setcolor(a4a467)
+cc_setsize(0, 2, 18, 16384)
+cc_setposition(2, 0, iVar0, 0)
+cc_settextfont(494)
+if(load_varc(1927) < 2) {
+	cc_settext(to_string(load_varc(1116)))
+	sVar0 = cc_gettext() + ": The distance from the shore where you caught the fish"
+} else 
+	sVar0 = "You do not know which weights were used to catch this big fish"
+cc_settextalign(0, 1, 1)
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(919, 24), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(919, 24))
+if_setsize(if_gethash(919, 65), 0, 0, iVar1, if_getwidth(if_gethash(919, 65)))
+cc_create(if_getnextsubid(if_gethash(919, 65)), 4, 60227649)
+if(load_varc(1927) >= 1)
+	cc_setcolor(f1d8b0)
+else
+	cc_setcolor(a4a467)
+cc_setsize(0, 2, 18, 16384)
+cc_setposition(2, 0, iVar0, 0)
+cc_settextfont(494)
+if(load_varc(1927) < 2)
+	cc_settext(to_string(load_varc(1117)) + "%")
+cc_settextalign(0, 1, 1)
+if(load_varc(1117) == 100)
+	sVar0 = cc_gettext() + ": You are catching the highest-quality fish of this type at this habitat."
+else
+	sVar0 = cc_gettext() + ": The quality of the fish you caught. Selecting a more suitable habitat, bait, hook and/or weights increases the rating of catches."
+if(load_varc(1927) == 2)
+	sVar0 = "You helped a contestant to catch this big fish"
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(919, 24), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(919, 24))
+if(if_getheight(if_gethash(919, 47)) == 200)
+	script_31(60227642, 60227643, 5666, 5663, 5664, 5665, 5686, 5685)
+store_varc(1111, -1)
+store_varc(1113, -1)
+store_varc(1112, -1)
+store_varc(1114, -1)
+store_varc(1115, -1)
+store_varc(1116, -1)
+store_varc(1117, -1)
+store_varc(1927, -1)
+return

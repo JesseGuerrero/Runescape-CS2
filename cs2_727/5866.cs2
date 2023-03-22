@@ -1,0 +1,4 @@
+//script5866(5866)()(int, int, int)
+int iVar0
+iVar0 = enum(2252, load_varp(1385), 'i', 'J')
+return script_5867(81592654, 2752), script_5867(81592653, 2751), script_5867(81592652, 2750)

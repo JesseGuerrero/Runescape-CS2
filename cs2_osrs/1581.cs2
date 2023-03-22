@@ -1,0 +1,22 @@
+void script_1581(Widget widget0, int arg1) {
+	Item item2;
+	int int3;
+	widget0.clearChildren();
+	item2 = null;
+	int3 = 0;
+	while (int3 < arg1) {
+		CHILD.createChild(widget0, 5, int3);
+		item2 = getItemIdInSlot(581, int3);
+		if (item2 != null) {
+			script_1582(item2, getItemAmtInSlot(581, int3), int3);
+		} else {
+			CHILD.setHidden(true);
+		}
+		int3 = int3 + 1;
+	}
+	if (VARPBIT[5457] == 1) {
+		CHILD.createChild(widget0, 5, int3);
+		script_1582(20899, 1, int3);
+	}
+	return;
+}

@@ -1,0 +1,4 @@
+//script6460(6460)(int arg0)(void)
+script_6463(arg0)
+script_6464(arg0, load_varpbit(11480), 1)
+return

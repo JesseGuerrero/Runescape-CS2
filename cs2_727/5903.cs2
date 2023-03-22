@@ -1,0 +1,78 @@
+//script5903(5903)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = load_varpbit(11155) - 1
+if(iVar0 < 0)
+	return
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+iVar5 = -1
+while(iVar1 < 13) {
+	iVar2 = iVar1 - iVar0
+	if(iVar2 < 0)
+		iVar2 = iVar2 + 13
+	iVar4 = script_5935(iVar1)
+	iVar5 = script_5933(iVar1)
+	if_setgraphic(iVar5, 9801)
+	if_setsize(iVar5, 0, 0, 55, 55)
+	if_setposition(iVar5, 2, 0, 0, 0)
+	if_settiling(iVar5, 1)
+	switch(iVar2) {
+		case default:
+			break
+		case 0:
+			iVar3 = 349
+			if_setgraphic(iVar5, 9882)
+			if_setsize(iVar5, 0, 0, 77, 55)
+			store_varc(1789, iVar1)
+			if_setposition(if_gethash(1253, 153), 0, 0, if_gety(if_gethash(1253, 153)), iVar3)
+			if_setposition(iVar5, 2, 0, -3, 0)
+			break
+		case 1:
+			iVar3 = 407
+			break
+		case 2:
+			iVar3 = 465
+			break
+		case 3:
+			iVar3 = 523
+			break
+		case 4:
+			iVar3 = 581
+			break
+		case 5:
+			iVar3 = 639
+			break
+		case 6:
+			iVar3 = 697
+			break
+		case 7:
+			iVar3 = -1
+			break
+		case 8:
+			iVar3 = 57
+			break
+		case 9:
+			iVar3 = 116
+			break
+		case 10:
+			iVar3 = 174
+			break
+		case 11:
+			iVar3 = 232
+			break
+		case 12:
+			iVar3 = 290
+			break
+
+	}
+	if_setposition(iVar4, 0, 0, if_gety(iVar4), iVar3)
+	iVar1 = iVar1 + 1
+}
+return

@@ -1,0 +1,31 @@
+void script_1712(int arg0, Location location1, Widget widget2, int arg3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8) {
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	CHILD.setText(cs2method6601(arg0));
+	if (cs2method6616() != arg0) {
+		cs2method6602(arg0);
+	}
+	location1 = script_1715(arg0, location1);
+	if (location1 != null) {
+		cs2method6609(location1);
+	}
+	widget2.hookFrame(&script_1713((Map)arg0, widget2, getChildId(), widget(arg3), widget4, widget5, widget6, widget7, widget8));
+	script_1751(widget4, widget6);
+	int9 = 0;
+	int10 = 0;
+	int9, int10 = cs2method6612(arg0);
+	int9, int10 = script_1045(int9, 1), script_1045(int10, 1);
+	int11 = 200;
+	int12 = 200;
+	if (int9 > int10) {
+		int12 = script_1045(int10 * int11 / int9, 50);
+	} else {
+		int11 = script_1045(int9 * int12 / int10, 50);
+	}
+	widget5.setSize(int11, int12, 0, 0);
+	widget6.hookDrag(&script_1714(MOUSE_X, MOUSE_Y, -1, CTX_WIDGET, int11, int12, int9, int10, cs2method6613(arg0)));
+	script_1721(cs2method6614(arg0), widget7, widget8);
+	return;
+}

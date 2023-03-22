@@ -1,0 +1,17 @@
+//script834(834)(int arg0)(void)
+switch(load_varpbit(278)) {
+	case default:
+		break
+	case 1:
+		if_settrans(arg0, 200)
+		break
+	case 2:
+		if_settrans(arg0, 150)
+		break
+	case 3:
+		if_settrans(arg0, 50)
+		if_settrans(arg0, 255)
+		break
+
+}
+return

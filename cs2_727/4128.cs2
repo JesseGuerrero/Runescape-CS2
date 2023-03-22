@@ -1,0 +1,14 @@
+//script4128(4128)(int arg0)(void)
+if(load_varc(1452) <= 100) {
+	script_4130(arg0)
+	return
+}
+if(load_varc(1452) <= 200) {
+	script_4131(arg0, script_284(coord()))
+	return
+}
+if(load_varc(1452) <= 300) {
+	script_4132(arg0, script_284(coord()))
+	return
+}
+return

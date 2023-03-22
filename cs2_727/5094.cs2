@@ -1,0 +1,22 @@
+//script5094(5094)()(string)
+int iVar0
+int iVar1
+int iVar2
+string sVar0
+string sVar1
+iVar0 = load_varc(995) / 50
+iVar1 = iVar0 / 60
+iVar2 = iVar1 / 60
+iVar1 = modulo(60, iVar1)
+sVar0 = ""
+sVar1 = ""
+if(iVar1 < 10)
+	sVar1 = "0" + to_string(iVar1)
+else
+	sVar1 = to_string(iVar1)
+if(iVar0 < 10)
+	sVar0 = "0" + to_string(iVar0)
+else
+	sVar0 = to_string(iVar0)
+return to_string(iVar2) + ":" + sVar1 + ":" + sVar0
+return ""

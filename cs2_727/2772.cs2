@@ -1,0 +1,25 @@
+//script2772(2772)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = instr6652(0) - 2
+if(load_varc(1007) != 2 || arg1 > iVar2) {
+	instr6255(arg0, None, "")
+	return
+}
+switch(random_inclusive(2)) {
+	case default:
+		break
+	case 0:
+		sound_synth(0, 1, 6645)
+		break
+	case 1:
+		sound_synth(0, 1, 6644)
+		break
+	case 2:
+		sound_synth(0, 1, 6643)
+		break
+
+}
+instr6677(arg1, 1, 2400, 2500, arg1, 0)
+if(arg1 < iVar2)
+	instr6255(arg0, script_2772, "Ii", arg0, arg1 + 1)
+return

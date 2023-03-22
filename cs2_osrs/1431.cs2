@@ -1,0 +1,10 @@
+void script_1431(Widget widget0) {
+	if (VARPBIT[5364] == 1) {
+		CHILD.setSprite(698);
+		widget0.setContextMenuOption(1, "Show");
+	} else {
+		CHILD.setSprite(699);
+		widget0.setContextMenuOption(1, "Hide");
+	}
+	return;
+}

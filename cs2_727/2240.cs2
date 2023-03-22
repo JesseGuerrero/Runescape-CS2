@@ -1,0 +1,12 @@
+//script2240(2240)()(int)
+int iVar0
+iVar0 = 5
+iVar0 = ((((load_varc(1126) + load_varc(1127)) + load_varc(1128)) + load_varc(1129)) + load_varc(1131)) + load_varc(1130)
+if(load_varc(1133) == 1)
+	iVar0 = iVar0 + 1
+if(load_varc(1134) == 1)
+	iVar0 = iVar0 + 1
+if(load_varc(1132) == 1)
+	iVar0 = iVar0 + 1
+return iVar0
+return 0

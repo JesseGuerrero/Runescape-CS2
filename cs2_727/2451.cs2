@@ -1,0 +1,8 @@
+//script2451(2451)(int arg0)(void)
+if_sethide(if_gethash(34, 10), 1)
+if_setgraphic(if_gethash(34, 8), 1845)
+store_varc(821, 0)
+script_2449(0)
+if(arg0 != -1)
+	if_sethide(if_gethash(34, 44), 0)
+return

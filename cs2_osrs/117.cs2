@@ -1,0 +1,13 @@
+void script_117(Widget widget0, int arg1, Widget widget2, Widget widget3, Widget widget4) {
+	if (arg1 == 1) {
+		widget2.setTrans(140);
+		widget3.setTrans(140);
+		widget4.setTrans(140);
+	} else {
+		widget2.setTrans(0);
+		widget3.setTrans(0);
+		widget4.setTrans(0);
+	}
+	widget0.hookWidgetsOpenClose(&script_116(widget0, arg1, widget2, widget3, widget4));
+	return;
+}

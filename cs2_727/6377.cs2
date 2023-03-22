@@ -1,0 +1,35 @@
+//script6377(6377)()(int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = cc_getparent()
+iVar1 = -1
+while(iVar0 != -1) {
+	if(script_6365(iVar0) == 1)
+		return 0
+	iVar1 = iVar0
+	iVar0 = if_getlayer(iVar0)
+}
+if(iVar1 == -1)
+	return 0
+if(script_6378(iVar1) == 1)
+	return 1
+if(script_6366() == 0)
+	return 0
+iVar2 = -1
+iVar3 = 0
+while(iVar3 < 8) {
+	iVar0 = script_6362(iVar3)
+	if(iVar0 == -1)
+		return 0
+	while(iVar0 != -1) {
+		iVar2 = iVar0
+		iVar0 = if_getlayer(iVar0)
+	}
+	if(iVar2 == iVar1 || script_6379(iVar2) == iVar1)
+		return 1
+	iVar3 = iVar3 + 1
+}
+return 0
+return -1

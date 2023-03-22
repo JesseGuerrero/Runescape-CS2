@@ -1,0 +1,8 @@
+//script2000(2000)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = inv_totalcat(arg1, arg0)
+if(iVar3 == arg2)
+	mes_typed(0, 0, "Passed inventory test")
+else
+	mes_typed(0, 0, "Failed inventory test")
+return

@@ -1,0 +1,4 @@
+//script971(971)()(void)
+if(load_varpbit(4757) > 0)
+	if_setgraphic(if_gethash(740, 4), enum(1478, load_varpbit(4757), 'i', 'd'))
+return

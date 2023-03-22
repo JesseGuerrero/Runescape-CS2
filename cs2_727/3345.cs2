@@ -1,0 +1,6 @@
+//script3345(3345)()(void)
+if(load_varc(1175) == 0)
+	script_1163(61538364, -1, 61538418, 25, 200, "P1: Shared XP is ON")
+else
+	script_1163(61538364, -1, 61538418, 25, 200, "P1: Shared XP is OFF")
+return

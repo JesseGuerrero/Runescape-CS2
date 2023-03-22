@@ -1,0 +1,7 @@
+//script3127(3127)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(arg1 == 0)
+		cc_setgraphic(1535)
+	else
+		cc_setgraphic(1536)
+return

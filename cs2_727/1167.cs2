@@ -1,0 +1,84 @@
+//script1167(1167)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar0 = -1
+switch(load_varc(1001)) {
+	case default:
+		break
+	case 1:
+		iVar0 = 738
+		break
+	case 2:
+		iVar0 = 739
+		break
+	case 3:
+		iVar0 = 740
+		break
+	case 4:
+		iVar0 = 741
+		break
+	case 5:
+		iVar0 = 742
+		return
+
+
+}
+if_settext(if_gethash(885, 14), enum(205, load_varc(1001), 'i', 's'))
+iVar1 = 0
+iVar2 = 0
+iVar3 = 16
+iVar4 = 16
+iVar5 = 56
+iVar6 = 50
+iVar7 = enum_getoutputcount(iVar0)
+iVar8 = 5
+iVar9 = -1
+cc_deleteall(if_gethash(885, 16))
+while(iVar1 < iVar7) {
+	iVar9 = enum(iVar0, iVar1, 'i', 'o')
+	if(iVar9 != -1) {
+		cc_create(iVar2, 5, 57999376)
+		cc_setsize(0, 0, 32, 36)
+		instr6065(-1, enum(iVar0, iVar1, 'i', 'o'))
+		cc_setposition(0, 0, 6 + (iVar4 + ((iVar1 / iVar8) * (32 + iVar6))), 11 + (iVar3 + ((36 + iVar5) * modulo(iVar8, iVar1))))
+		cc_setop("Examine", 1)
+		cc_setopbase("<col=ff9040>" + item_name(iVar9))
+		cc_create(iVar2 + 1, 4, 57999376)
+		cc_setsize(0, 0, 10, 56)
+		cc_settextfont(494)
+		cc_setcolor(cc9900)
+		cc_settextshadow(1)
+		cc_settextalign(0, 0, 1)
+		if(compare("", cc_gettext()) == 0)
+			cc_settext("Getting data...")
+		cc_setposition(0, 0, 47 + (iVar4 + ((iVar1 / iVar8) * (32 + iVar6))), iVar3 + ((iVar5 + 36) * modulo(iVar8, iVar1)))
+		if_sethide(enum(737, iVar1, 'i', 'I'), 0)
+		if_setposition(enum(737, iVar1, 'i', 'I'), 0, 0, iVar4 + ((iVar1 / iVar8) * (32 + iVar6)), iVar3 + ((36 + iVar5) * modulo(iVar8, iVar1)))
+		iVar2 = iVar2 + 2
+	}
+	iVar1 = iVar1 + 1
+}
+while(iVar1 < enum_getoutputcount(737)) {
+	if_sethide(enum(737, iVar1, 'i', 'I'), 1)
+	iVar1 = iVar1 + 1
+}
+if(iVar7 <= 15) {
+	if_setscrollpos(if_gethash(885, 16), 0, 0)
+	if_setscrollsize(57999376, 0, 0)
+	cc_deleteall(if_gethash(885, 48))
+	if_sethide(if_gethash(885, 48), 1)
+} else  {
+	if_sethide(if_gethash(885, 48), 0)
+	if_setscrollpos(if_gethash(885, 16), 0, 0)
+	if_setscrollsize(57999376, 60 + (iVar4 + ((iVar7 / iVar8) * (32 + iVar6))), if_getwidth(if_gethash(885, 16)))
+	script_31(57999408, 57999376, 792, 789, 790, 791, 773, 788)
+}
+return

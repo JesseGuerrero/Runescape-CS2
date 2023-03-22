@@ -1,0 +1,21 @@
+//script6160(6160)()(void)
+script_6162()
+switch(world_language()) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1273, 41), 10719)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1273, 41), 10720)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1273, 41), 10718)
+		if_setgraphic(if_gethash(1273, 41), 10717)
+		break
+
+}
+instr6342(if_gethash(1273, 13), script_6164, "Ii", if_gethash(1273, 13), 0)
+if(world_members() == 0)
+	if_sethide(if_gethash(1273, 30), 0)
+return

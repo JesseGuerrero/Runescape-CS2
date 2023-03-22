@@ -1,0 +1,2767 @@
+//script3227(3227)(int arg0)(int)
+if(struct_param(1270, enum(3483, arg0, 'i', 'J')) != 4094)
+	return script_2193(struct_param(1270, enum(3483, arg0, 'i', 'J')))
+else
+	switch(arg0) {
+		case default:
+			return 3
+
+		case 0:
+			if(load_varpbit(6598) == 1)
+				return 2
+			break
+		case 1:
+			if(load_varpbit(6599) == 1)
+				return 2
+			break
+		case 2:
+			if(load_varpbit(6600) == 1)
+				return 2
+			break
+		case 3:
+			if(load_varpbit(6601) == 1)
+				return 2
+			break
+		case 4:
+			if(load_varpbit(6602) == 1)
+				return 2
+			break
+		case 5:
+			if(load_varpbit(6603) == 1)
+				return 2
+			break
+		case 6:
+			if(load_varpbit(6604) == 1)
+				return 2
+			break
+		case 7:
+			if(load_varpbit(6605) == 1)
+				return 2
+			break
+		case 8:
+			if(load_varpbit(6606) == 1)
+				return 2
+			break
+		case 9:
+			if(load_varpbit(6607) == 1)
+				return 2
+			break
+		case 10:
+			if(load_varpbit(6608) == 1)
+				return 2
+			break
+		case 11:
+			if(load_varpbit(6609) == 1)
+				return 2
+			break
+		case 12:
+			if(load_varpbit(1421) == 1)
+				return 2
+			break
+		case 13:
+			if(load_varpbit(6611) == 1)
+				return 2
+			break
+		case 14:
+			if(load_varpbit(6612) == 1)
+				return 2
+			break
+		case 15:
+			if(load_varpbit(6613) == 1)
+				return 2
+			break
+		case 16:
+			if(load_varpbit(6614) == 1)
+				return 2
+			break
+		case 17:
+			if(load_varpbit(6615) == 1)
+				return 2
+			break
+		case 18:
+			if(load_varpbit(6616) == 1)
+				return 2
+			break
+		case 19:
+			if(load_varpbit(6617) == 1)
+				return 2
+			break
+		case 20:
+			if(load_varpbit(6618) == 1)
+				return 2
+			break
+		case 21:
+			if(load_varpbit(6619) == 1)
+				return 2
+			break
+		case 22:
+			if(load_varpbit(6620) == 1)
+				return 2
+			break
+		case 23:
+			if(load_varpbit(6622) == 1)
+				return 2
+			break
+		case 24:
+			if(load_varpbit(6623) == 1)
+				return 2
+			break
+		case 25:
+			if(load_varpbit(6624) == 1)
+				return 2
+			break
+		case 26:
+			if(load_varpbit(6625) == 1)
+				return 2
+			break
+		case 27:
+			if(load_varpbit(6626) == 1)
+				return 2
+			break
+		case 28:
+			if(load_varpbit(6627) == 1)
+				return 2
+			break
+		case 29:
+			if(load_varpbit(6628) == 1)
+				return 2
+			break
+		case 30:
+			if(load_varpbit(6629) == 1)
+				return 2
+			break
+		case 31:
+			if(load_varpbit(6630) == 1)
+				return 2
+			break
+		case 32:
+			if(load_varpbit(6631) == 1)
+				return 2
+			break
+		case 33:
+			if(load_varpbit(6632) == 1)
+				return 2
+			break
+		case 34:
+			if(load_varpbit(6633) == 1)
+				return 2
+			break
+		case 35:
+			if(load_varpbit(6634) == 1)
+				return 2
+			break
+		case 36:
+			if(load_varpbit(6635) == 1)
+				return 2
+			break
+		case 37:
+			if(load_varpbit(6636) == 1)
+				return 2
+			break
+		case 38:
+			if(load_varpbit(6637) == 1)
+				return 2
+			break
+		case 39:
+			if(load_varpbit(6639) == 1)
+				return 2
+			break
+		case 40:
+			if(load_varpbit(6640) == 1)
+				return 2
+			break
+		case 41:
+			if(load_varpbit(6641) == 1)
+				return 2
+			break
+		case 42:
+			if(load_varpbit(6642) == 1)
+				return 2
+			break
+		case 43:
+			if(load_varpbit(6643) == 1)
+				return 2
+			break
+		case 44:
+			if(load_varpbit(6644) == 1)
+				return 2
+			break
+		case 45:
+			if(load_varpbit(6645) == 1)
+				return 2
+			break
+		case 46:
+			if(load_varpbit(6646) == 1)
+				return 2
+			break
+		case 47:
+			if(load_varpbit(6647) == 1)
+				return 2
+			break
+		case 48:
+			if(load_varpbit(6648) == 1)
+				return 2
+			break
+		case 49:
+			if(load_varpbit(6649) == 1)
+				return 2
+			break
+		case 50:
+			if(load_varpbit(6650) == 1)
+				return 2
+			break
+		case 51:
+			if(load_varpbit(6651) == 1)
+				return 2
+			break
+		case 52:
+			if(load_varpbit(6652) == 1)
+				return 2
+			break
+		case 53:
+			if(load_varpbit(6653) == 1)
+				return 2
+			break
+		case 54:
+			if(load_varpbit(6654) == 1)
+				return 2
+			break
+		case 55:
+			if(load_varpbit(6655) == 1)
+				return 2
+			break
+		case 56:
+			if(load_varpbit(6658) == 1)
+				return 2
+			break
+		case 57:
+			if(load_varpbit(6659) == 1)
+				return 2
+			break
+		case 58:
+			if(load_varpbit(6660) == 1)
+				return 2
+			break
+		case 59:
+			if(load_varpbit(6661) == 1)
+				return 2
+			break
+		case 60:
+			if(load_varpbit(6662) == 63)
+				return 2
+			else
+				if(load_varpbit(6662) > 0)
+					return 1
+			break
+		case 61:
+			if(load_varpbit(4949) == 1)
+				return 2
+			break
+		case 62:
+			if(load_varpbit(4950) == 1)
+				return 2
+			break
+		case 63:
+			if(load_varpbit(4951) == 1)
+				return 2
+			break
+		case 64:
+			if(load_varpbit(4952) == 1)
+				return 2
+			break
+		case 65:
+			if(load_varpbit(4953) == 1)
+				return 2
+			break
+		case 66:
+			if(load_varpbit(4954) == 1)
+				return 2
+			break
+		case 67:
+			if(load_varpbit(4955) == 1)
+				return 2
+			break
+		case 68:
+			if(load_varpbit(4956) == 1)
+				return 2
+			break
+		case 69:
+			if(load_varpbit(4957) == 1)
+				return 2
+			break
+		case 70:
+			if(load_varpbit(4958) == 1)
+				return 2
+			break
+		case 71:
+			if(load_varpbit(4959) == 1)
+				return 2
+			break
+		case 72:
+			if(load_varpbit(4960) == 1)
+				return 2
+			break
+		case 73:
+			if(load_varpbit(4961) == 1)
+				return 2
+			break
+		case 74:
+			if(load_varpbit(4962) == 1)
+				return 2
+			break
+		case 75:
+			if(load_varpbit(4963) == 1)
+				return 2
+			break
+		case 76:
+			if(load_varpbit(4964) == 1)
+				return 2
+			break
+		case 77:
+			if(load_varpbit(4965) == 1)
+				return 2
+			break
+		case 78:
+			if(load_varpbit(4966) == 1)
+				return 2
+			break
+		case 79:
+			if(load_varpbit(4967) == 1)
+				return 2
+			break
+		case 80:
+			if(load_varpbit(4968) == 1)
+				return 2
+			break
+		case 81:
+			if(load_varpbit(4969) == 1)
+				return 2
+			break
+		case 82:
+			if(load_varpbit(4970) == 1)
+				return 2
+			break
+		case 83:
+			if(load_varpbit(4971) == 1)
+				return 2
+			break
+		case 84:
+			if(load_varpbit(4972) == 1)
+				return 2
+			break
+		case 85:
+			if(load_varpbit(4973) == 1)
+				return 2
+			break
+		case 86:
+			if(load_varpbit(4974) == 1)
+				return 2
+			break
+		case 87:
+			if(load_varpbit(4975) == 1)
+				return 2
+			break
+		case 88:
+			if(load_varpbit(4976) == 1)
+				return 2
+			break
+		case 89:
+			if(load_varpbit(4977) == 1)
+				return 2
+			break
+		case 90:
+			if(load_varpbit(4978) == 1)
+				return 2
+			break
+		case 91:
+			if(load_varpbit(4979) == 1)
+				return 2
+			break
+		case 92:
+			if(load_varpbit(4980) == 1)
+				return 2
+			break
+		case 93:
+			if(load_varpbit(4981) == 1)
+				return 2
+			break
+		case 94:
+			if(load_varpbit(4982) == 1)
+				return 2
+			break
+		case 95:
+			if(load_varpbit(4983) == 1)
+				return 2
+			break
+		case 96:
+			if(load_varpbit(4984) == 1)
+				return 2
+			break
+		case 97:
+			if(load_varpbit(4985) == 1)
+				return 2
+			break
+		case 98:
+			if(load_varpbit(4986) == 1)
+				return 2
+			break
+		case 99:
+			if(load_varpbit(4987) == 1)
+				return 2
+			break
+		case 100:
+			if(load_varpbit(4988) == 1)
+				return 2
+			break
+		case 101:
+			if(load_varpbit(4989) == 1)
+				return 2
+			break
+		case 102:
+			if(load_varpbit(4991) == 1)
+				return 2
+			break
+		case 103:
+			if(load_varpbit(4992) == 1)
+				return 2
+			break
+		case 104:
+			if(load_varpbit(4993) == 1)
+				return 2
+			break
+		case 105:
+			if(load_varpbit(4994) == 1)
+				return 2
+			break
+		case 106:
+			if(load_varpbit(4995) == 1)
+				return 2
+			break
+		case 107:
+			if(load_varpbit(4996) == 1)
+				return 2
+			break
+		case 108:
+			if(load_varpbit(4997) == 1)
+				return 2
+			break
+		case 109:
+			if(load_varpbit(4998) == 1)
+				return 2
+			break
+		case 110:
+			if(load_varpbit(4999) == 1)
+				return 2
+			break
+		case 111:
+			if(load_varpbit(5998) == 1)
+				return 2
+			break
+		case 112:
+			if(load_varpbit(5001) == 1)
+				return 2
+			break
+		case 113:
+			if(load_varpbit(5002) == 1)
+				return 2
+			break
+		case 114:
+			if(load_varpbit(5003) == 1)
+				return 2
+			break
+		case 351:
+			if(load_varpbit(8180) == 1)
+				return 2
+			break
+		case 352:
+			if(load_varpbit(8181) == 1)
+				return 2
+			break
+		case 353:
+			if(load_varpbit(8188) == 1)
+				return 2
+			break
+		case 354:
+			if(load_varpbit(8191) == 1)
+				return 2
+			break
+		case 355:
+			if(load_varpbit(8192) == 1)
+				return 2
+			break
+		case 356:
+			if(load_varpbit(8193) == 1)
+				return 2
+			break
+		case 357:
+			if(load_varpbit(8194) == 1)
+				return 2
+			break
+		case 115:
+			if(load_varpbit(5691) == 1)
+				return 2
+			break
+		case 116:
+			if(load_varpbit(5692) == 1)
+				return 2
+			break
+		case 117:
+			if(load_varpbit(5693) == 1)
+				return 2
+			break
+		case 118:
+			if(load_varpbit(5694) == 1)
+				return 2
+			break
+		case 119:
+			if(load_varpbit(5695) == 1)
+				return 2
+			break
+		case 120:
+			if(load_varpbit(5696) == 1)
+				return 2
+			break
+		case 121:
+			if(load_varpbit(5697) == 1)
+				return 2
+			break
+		case 122:
+			if(load_varpbit(5698) == 1)
+				return 2
+			break
+		case 123:
+			if(load_varpbit(5699) == 1)
+				return 2
+			break
+		case 124:
+			if(load_varpbit(5700) == 1)
+				return 2
+			break
+		case 125:
+			if(load_varpbit(5701) == 1)
+				return 2
+			break
+		case 126:
+			if(load_varpbit(5702) == 1)
+				return 2
+			break
+		case 127:
+			if(load_varpbit(5703) == 1)
+				return 2
+			break
+		case 128:
+			if(load_varpbit(5704) == 1)
+				return 2
+			break
+		case 129:
+			if(load_varpbit(5705) == 3)
+				return 2
+			else
+				if(load_varpbit(5705) > 0)
+					return 1
+			break
+		case 130:
+			if(load_varpbit(5706) == 1)
+				return 2
+			break
+		case 131:
+			if(load_varpbit(5707) == 1)
+				return 2
+			break
+		case 132:
+			if(load_varpbit(5723) == 1)
+				return 2
+			break
+		case 133:
+			if(load_varpbit(5709) == 3)
+				return 2
+			else
+				if(load_varpbit(5709) > 0)
+					return 1
+			break
+		case 134:
+			if(load_varpbit(5710) == 1)
+				return 2
+			break
+		case 135:
+			if(load_varpbit(5711) == 1)
+				return 2
+			break
+		case 136:
+			if(load_varpbit(5712) == 1)
+				return 2
+			break
+		case 137:
+			if(load_varpbit(5713) == 1)
+				return 2
+			break
+		case 138:
+			if(load_varpbit(5714) == 1)
+				return 2
+			break
+		case 139:
+			if(load_varpbit(5715) == 1)
+				return 2
+			break
+		case 140:
+			if(load_varpbit(5716) == 1)
+				return 2
+			break
+		case 141:
+			if(load_varpbit(5717) == 1)
+				return 2
+			break
+		case 142:
+			if(load_varpbit(5718) == 1)
+				return 2
+			break
+		case 143:
+			if(load_varpbit(5719) == 1)
+				return 2
+			break
+		case 144:
+			if(load_varpbit(5720) == 1)
+				return 2
+			break
+		case 145:
+			if(load_varpbit(5721) == 1)
+				return 2
+			break
+		case 146:
+			if(load_varpbit(5722) == 1)
+				return 2
+			break
+		case 147:
+			if(load_varpbit(5708) == 1)
+				return 2
+			break
+		case 148:
+			if(load_varpbit(5724) == 1)
+				return 2
+			break
+		case 149:
+			if(load_varpbit(5725) == 1)
+				return 2
+			break
+		case 150:
+			if(load_varpbit(5726) == 1)
+				return 2
+			break
+		case 151:
+			if(load_varpbit(5727) == 1)
+				return 2
+			break
+		case 309:
+			if(load_varpbit(8114) == 1)
+				return 2
+			break
+		case 310:
+			if(load_varpbit(8115) == 1)
+				return 2
+			break
+		case 311:
+			if(load_varpbit(8116) == 1)
+				return 2
+			break
+		case 312:
+			if(load_varpbit(8117) == 1)
+				return 2
+			break
+		case 313:
+			if(load_varpbit(8118) == 1)
+				return 2
+			break
+		case 314:
+			if(load_varpbit(8119) == 1)
+				return 2
+			break
+		case 315:
+			if(load_varpbit(8120) == 1)
+				return 2
+			break
+		case 152:
+			if(load_varpbit(5648) == 1)
+				return 2
+			break
+		case 153:
+			if(load_varpbit(5649) == 1)
+				return 2
+			break
+		case 154:
+			if(load_varpbit(5650) == 1)
+				return 2
+			break
+		case 155:
+			if(load_varpbit(5651) == 1)
+				return 2
+			break
+		case 156:
+			if(load_varpbit(5652) == 1)
+				return 2
+			break
+		case 157:
+			if(load_varpbit(5653) == 1)
+				return 2
+			break
+		case 158:
+			if(load_varpbit(5654) == 1)
+				return 2
+			break
+		case 159:
+			if(load_varpbit(5655) == 1)
+				return 2
+			break
+		case 160:
+			if(load_varpbit(5656) == 1)
+				return 2
+			break
+		case 161:
+			if(load_varpbit(5657) == 1)
+				return 2
+			break
+		case 162:
+			if(load_varpbit(5658) == 1)
+				return 2
+			break
+		case 163:
+			if(load_varpbit(5659) == 1)
+				return 2
+			break
+		case 164:
+			if(load_varpbit(5660) == 1)
+				return 2
+			break
+		case 165:
+			if(load_varpbit(5661) == 1)
+				return 2
+			break
+		case 166:
+			if(load_varpbit(5662) == 1)
+				return 2
+			break
+		case 167:
+			if(load_varpbit(5663) == 1)
+				return 2
+			break
+		case 168:
+			if(load_varpbit(5664) == 1)
+				return 2
+			break
+		case 169:
+			if(load_varpbit(5665) == 1)
+				return 2
+			break
+		case 170:
+			if(load_varpbit(5666) == 1)
+				return 2
+			break
+		case 171:
+			if(load_varpbit(5667) == 1)
+				return 2
+			break
+		case 172:
+			if(load_varpbit(5668) == 1)
+				return 2
+			break
+		case 173:
+			if(load_varpbit(5669) == 1)
+				return 2
+			break
+		case 174:
+			if(load_varpbit(5670) == 1)
+				return 2
+			break
+		case 175:
+			if(load_varpbit(5671) == 1)
+				return 2
+			break
+		case 176:
+			if(load_varpbit(5672) == 1)
+				return 2
+			break
+		case 177:
+			if(load_varpbit(5673) == 1)
+				return 2
+			break
+		case 178:
+			if(load_varpbit(5674) == 1)
+				return 2
+			break
+		case 179:
+			if(load_varpbit(5675) == 1)
+				return 2
+			break
+		case 180:
+			if(load_varpbit(5676) == 1)
+				return 2
+			break
+		case 181:
+			if(load_varpbit(5677) == 1)
+				return 2
+			break
+		case 428:
+			if(load_varpbit(9067) > 0)
+				return 2
+			break
+		case 316:
+			if(load_varpbit(8231) == 1)
+				return 2
+			break
+		case 317:
+			if(load_varpbit(8232) == 1)
+				return 2
+			break
+		case 318:
+			if(load_varpbit(8233) == 1)
+				return 2
+			break
+		case 319:
+			if(load_varpbit(8234) == 1)
+				return 2
+			break
+		case 320:
+			if(load_varpbit(8235) == 1)
+				return 2
+			break
+		case 321:
+			if(load_varpbit(8236) == 1)
+				return 2
+			break
+		case 322:
+			if(load_varpbit(8237) == 1)
+				return 2
+			break
+		case 323:
+			if(load_varpbit(8238) == 1)
+				return 2
+			break
+		case 417:
+			if(load_varpbit(8239) == 1)
+				return 2
+			break
+		case 182:
+			if(load_varpbit(3566) == 5)
+				return 2
+			else
+				if(load_varpbit(3566) > 0)
+					return 1
+			break
+		case 183:
+			if(load_varpbit(3567) == 1)
+				return 2
+			break
+		case 184:
+			if(load_varpbit(3568) == 1)
+				return 2
+			break
+		case 185:
+			if(load_varpbit(3569) == 1)
+				return 2
+			break
+		case 186:
+			if(load_varpbit(3570) == 1)
+				return 2
+			break
+		case 187:
+			if(load_varpbit(3571) == 1)
+				return 2
+			break
+		case 188:
+			if(load_varpbit(3572) == 1)
+				return 2
+			break
+		case 189:
+			if(load_varpbit(3573) == 5)
+				return 2
+			else
+				if(load_varpbit(3573) > 0)
+					return 1
+			break
+		case 190:
+			if(load_varpbit(3574) == 1)
+				return 2
+			break
+		case 191:
+			if(load_varpbit(3575) == 1)
+				return 2
+			break
+		case 192:
+			if(load_varpbit(3579) == 1)
+				return 2
+			break
+		case 193:
+			if(load_varpbit(3580) == 1)
+				return 2
+			break
+		case 194:
+			if(load_varpbit(3581) == 1)
+				return 2
+			break
+		case 195:
+			if(load_varpbit(3582) == 1)
+				return 2
+			break
+		case 196:
+			if(load_varpbit(3583) == 1)
+				return 2
+			break
+		case 197:
+			if(load_varpbit(3584) == 1)
+				return 2
+			break
+		case 198:
+			if(load_varpbit(3585) == 1)
+				return 2
+			break
+		case 199:
+			if(load_varpbit(3586) == 1)
+				return 2
+			break
+		case 200:
+			if(load_varpbit(3587) == 1)
+				return 2
+			break
+		case 201:
+			if(load_varpbit(3588) == 1)
+				return 2
+			break
+		case 202:
+			if(load_varpbit(3589) == 1)
+				return 2
+			break
+		case 203:
+			if(load_varpbit(3590) == 1)
+				return 2
+			break
+		case 204:
+			if(load_varpbit(3591) == 1)
+				return 2
+			break
+		case 205:
+			if(load_varpbit(3592) == 1)
+				return 2
+			break
+		case 206:
+			if(load_varpbit(3593) == 1)
+				return 2
+			break
+		case 207:
+			if(load_varpbit(3594) == 1)
+				return 2
+			break
+		case 208:
+			if(load_varpbit(3595) == 1)
+				return 2
+			break
+		case 209:
+			if(load_varpbit(3596) == 1)
+				return 2
+			break
+		case 210:
+			if(load_varpbit(3597) == 1)
+				return 2
+			break
+		case 211:
+			if(load_varpbit(3600) == 1)
+				return 2
+			break
+		case 212:
+			if(load_varpbit(3601) == 1)
+				return 2
+			break
+		case 213:
+			if(load_varpbit(3602) == 1)
+				return 2
+			break
+		case 214:
+			if(load_varpbit(3603) == 1)
+				return 2
+			break
+		case 215:
+			if(load_varpbit(3604) == 1)
+				return 2
+			break
+		case 216:
+			if(load_varpbit(3605) == 1)
+				return 2
+			break
+		case 217:
+			if(load_varpbit(3606) == 1)
+				return 2
+			break
+		case 218:
+			if(load_varpbit(3607) == 5)
+				return 2
+			else
+				if(load_varpbit(3607) > 0)
+					return 1
+			break
+		case 219:
+			if(load_varpbit(3608) == 1)
+				return 2
+			break
+		case 220:
+			if(load_varpbit(3609) == 1)
+				return 2
+			break
+		case 324:
+			if(load_varpbit(8121) == 1)
+				return 2
+			break
+		case 325:
+			if(load_varpbit(8122) == 1)
+				return 2
+			break
+		case 326:
+			if(load_varpbit(8123) == 1)
+				return 2
+			break
+		case 327:
+			if(load_varpbit(8124) == 1)
+				return 2
+			break
+		case 328:
+			if(load_varpbit(8125) == 1)
+				return 2
+			break
+		case 329:
+			if(load_varpbit(8126) == 1)
+				return 2
+			break
+		case 330:
+			if(load_varpbit(8127) == 1)
+				return 2
+			break
+		case 331:
+			if(load_varpbit(8128) == 1)
+				return 2
+			break
+		case 221:
+			if(load_varpbit(5782) == 5)
+				return 2
+			else
+				if(load_varpbit(5782) > 0)
+					return 1
+			break
+		case 222:
+			if(load_varpbit(5783) == 1)
+				return 2
+			break
+		case 223:
+			if(load_varpbit(5784) == 1)
+				return 2
+			break
+		case 224:
+			if(load_varpbit(5785) == 1)
+				return 2
+			break
+		case 225:
+			if(load_varpbit(5786) == 1)
+				return 2
+			break
+		case 226:
+			if(load_varpbit(5787) == 5)
+				return 2
+			break
+		case 227:
+			if(load_varpbit(5788) == 5)
+				return 2
+			else
+				if(load_varpbit(5788) > 0)
+					return 1
+			break
+		case 228:
+			if(load_varpbit(5789) == 5)
+				return 2
+			else
+				if(load_varpbit(5789) > 0)
+					return 1
+			break
+		case 229:
+			if(load_varpbit(5790) == 1)
+				return 2
+			break
+		case 230:
+			if(load_varpbit(5791) == 1)
+				return 2
+			break
+		case 231:
+			if(load_varpbit(5792) == 1)
+				return 2
+			break
+		case 232:
+			if(load_varpbit(5793) == 1)
+				return 2
+			break
+		case 233:
+			if(load_varpbit(5794) == 1)
+				return 2
+			break
+		case 234:
+			if(load_varpbit(5795) == 1)
+				return 2
+			break
+		case 235:
+			if(load_varpbit(5796) == 1)
+				return 2
+			break
+		case 236:
+			if(load_varpbit(5797) == 15)
+				return 2
+			else
+				if(load_varpbit(5797) > 0)
+					return 1
+			break
+		case 237:
+			if(load_varpbit(5798) == 1)
+				return 2
+			break
+		case 238:
+			if(load_varpbit(5799) == 1)
+				return 2
+			break
+		case 239:
+			if(load_varpbit(5800) == 1)
+				return 2
+			break
+		case 240:
+			if(load_varpbit(5801) == 1)
+				return 2
+			break
+		case 241:
+			if(load_varpbit(5802) == 1)
+				return 2
+			break
+		case 242:
+			if(load_varpbit(5803) == 1)
+				return 2
+			break
+		case 243:
+			if(load_varpbit(5804) == 1)
+				return 2
+			break
+		case 244:
+			if(load_varpbit(5805) == 15)
+				return 2
+			else
+				if(load_varpbit(5805) > 0)
+					return 1
+			break
+		case 245:
+			if(load_varpbit(5806) == 1)
+				return 2
+			break
+		case 246:
+			if(load_varpbit(5807) == 5)
+				return 2
+			else
+				if(load_varpbit(5807) > 0)
+					return 1
+			break
+		case 247:
+			if(load_varpbit(5808) == 1)
+				return 2
+			break
+		case 248:
+			if(load_varpbit(5809) == 1)
+				return 2
+			break
+		case 249:
+			if(load_varpbit(5810) == 1)
+				return 2
+			break
+		case 250:
+			if(load_varpbit(5811) == 1)
+				return 2
+			break
+		case 251:
+			if(load_varpbit(5812) == 1)
+				return 2
+			break
+		case 252:
+			if(load_varpbit(5813) == 1)
+				return 2
+			break
+		case 253:
+			if(load_varpbit(5814) == 5)
+				return 2
+			else
+				if(load_varpbit(5814) > 0)
+					return 1
+			break
+		case 254:
+			if(load_varpbit(5815) == 5)
+				return 2
+			else
+				if(load_varpbit(5815) > 0)
+					return 1
+			break
+		case 255:
+			if(load_varpbit(5816) == 5)
+				return 2
+			else
+				if(load_varpbit(5816) > 0)
+					return 1
+			break
+		case 332:
+			if(load_varpbit(8205) == 1)
+				return 2
+			break
+		case 333:
+			if(load_varpbit(8212) == 1)
+				return 2
+			break
+		case 334:
+			if(load_varpbit(8217) == 1)
+				return 2
+			break
+		case 335:
+			if(load_varpbit(8221) == 1)
+				return 2
+			break
+		case 336:
+			if(load_varpbit(8224) == 1)
+				return 2
+			break
+		case 256:
+			if(load_varpbit(3986) == 1)
+				return 2
+			break
+		case 257:
+			if(load_varpbit(3987) == 1)
+				return 2
+			break
+		case 258:
+			if(load_varpbit(3988) == 1)
+				return 2
+			break
+		case 259:
+			if(load_varpbit(3989) == 1)
+				return 2
+			break
+		case 260:
+			if(load_varpbit(3990) == 1)
+				return 2
+			break
+		case 261:
+			if(load_varpbit(3991) == 1)
+				return 2
+			break
+		case 262:
+			if(load_varpbit(3992) == 1)
+				return 2
+			break
+		case 263:
+			if(load_varpbit(3993) == 1)
+				return 2
+			break
+		case 264:
+			if(load_varpbit(3994) == 1)
+				return 2
+			break
+		case 265:
+			if(load_varpbit(3995) == 1)
+				return 2
+			break
+		case 266:
+			if(load_varpbit(3996) == 1)
+				return 2
+			break
+		case 267:
+			if(load_varpbit(3997) == 1)
+				return 2
+			break
+		case 268:
+			if(load_varpbit(3998) == 1)
+				return 2
+			break
+		case 269:
+			if(load_varpbit(3999) == 1)
+				return 2
+			break
+		case 270:
+			if(load_varpbit(4000) == 1)
+				return 2
+			break
+		case 271:
+			if(load_varpbit(4001) == 1)
+				return 2
+			break
+		case 272:
+			if(load_varpbit(4002) == 1)
+				return 2
+			break
+		case 273:
+			if(load_varpbit(4004) == 1)
+				return 2
+			break
+		case 274:
+			if(load_varpbit(4005) == 1)
+				return 2
+			break
+		case 275:
+			if(load_varpbit(4003) == 1)
+				return 2
+			break
+		case 276:
+			if(load_varpbit(4007) == 1)
+				return 2
+			break
+		case 277:
+			if(load_varpbit(4008) == 1)
+				return 2
+			break
+		case 278:
+			if(load_varpbit(4009) == 1)
+				return 2
+			break
+		case 279:
+			if(load_varpbit(4010) == 1)
+				return 2
+			break
+		case 280:
+			if(load_varpbit(4011) == 1)
+				return 2
+			break
+		case 281:
+			if(load_varpbit(4012) == 4)
+				return 2
+			else
+				if(load_varpbit(4012) > 0)
+					return 1
+			break
+		case 282:
+			if(load_varpbit(4013) == 1)
+				return 2
+			break
+		case 283:
+			if(load_varpbit(4014) == 1)
+				return 2
+			break
+		case 284:
+			if(load_varpbit(4015) == 1)
+				return 2
+			break
+		case 285:
+			if(load_varpbit(4016) == 1)
+				return 2
+			break
+		case 286:
+			if(load_varpbit(4017) == 1)
+				return 2
+			break
+		case 287:
+			if(load_varpbit(4018) == 1)
+				return 2
+			break
+		case 288:
+			if(load_varpbit(4019) == 1)
+				return 2
+			break
+		case 289:
+			if(load_varpbit(4020) == 1)
+				return 2
+			break
+		case 290:
+			if(load_varpbit(4021) == 1)
+				return 2
+			break
+		case 291:
+			if(load_varpbit(4022) == 1)
+				return 2
+			break
+		case 292:
+			if(load_varpbit(4023) == 1)
+				return 2
+			break
+		case 293:
+			if(load_varpbit(4024) == 1)
+				return 2
+			break
+		case 294:
+			if(load_varpbit(4025) == 1)
+				return 2
+			break
+		case 295:
+			if(load_varpbit(4026) == 1)
+				return 2
+			break
+		case 296:
+			if(load_varpbit(4027) == 1)
+				return 2
+			break
+		case 297:
+			if(load_varpbit(4028) == 1)
+				return 2
+			break
+		case 298:
+			if(load_varpbit(4029) == 1)
+				return 2
+			break
+		case 299:
+			if(load_varpbit(4030) == 1)
+				return 2
+			break
+		case 300:
+			if(load_varpbit(4031) == 1)
+				return 2
+			break
+		case 301:
+			if(load_varpbit(4032) == 1)
+				return 2
+			break
+		case 302:
+			if(load_varpbit(4033) == 1)
+				return 2
+			break
+		case 303:
+			if(load_varpbit(4034) == 1)
+				return 2
+			break
+		case 304:
+			if(load_varpbit(4035) == 1)
+				return 2
+			break
+		case 305:
+			if(load_varpbit(4036) == 1)
+				return 2
+			break
+		case 306:
+			if(load_varpbit(4037) == 1)
+				return 2
+			break
+		case 307:
+			if(load_varpbit(4038) == 1)
+				return 2
+			break
+		case 308:
+			if(load_varpbit(4039) == 1)
+				return 2
+			break
+		case 337:
+			if(load_varpbit(8136) == 1)
+				return 2
+			break
+		case 338:
+			if(load_varpbit(8137) == 1)
+				return 2
+			break
+		case 339:
+			if(load_varpbit(8138) == 1)
+				return 2
+			break
+		case 340:
+			if(load_varpbit(8139) == 1)
+				return 2
+			break
+		case 341:
+			if(load_varpbit(8140) == 1)
+				return 2
+			break
+		case 342:
+			if(load_varpbit(8141) == 1)
+				return 2
+			break
+		case 343:
+			if(load_varpbit(8145) == 1)
+				return 2
+			break
+		case 344:
+			if(load_varpbit(8146) == 1)
+				return 2
+			break
+		case 345:
+			if(load_varpbit(8148) == 1)
+				return 2
+			break
+		case 358:
+			if(load_varpbit(8517) == 1)
+				return 2
+			break
+		case 359:
+			if(load_varpbit(8518) == 1)
+				return 2
+			break
+		case 360:
+			if(load_varpbit(8519) == 1)
+				return 2
+			break
+		case 361:
+			if(load_varpbit(8520) == 1)
+				return 2
+			break
+		case 362:
+			if(load_varpbit(8521) == 1)
+				return 2
+			break
+		case 363:
+			if(load_varpbit(8522) == 1)
+				return 2
+			break
+		case 412:
+			if(load_varpbit(8523) == 1)
+				return 2
+			break
+		case 365:
+			if(load_varpbit(8524) == 1)
+				return 2
+			break
+		case 413:
+			if(load_varpbit(8525) == 1)
+				return 2
+			break
+		case 366:
+			if(load_varpbit(8526) == 1)
+				return 2
+			break
+		case 368:
+			if(load_varpbit(8527) == 1)
+				return 2
+			break
+		case 369:
+			if(load_varpbit(8528) == 1)
+				return 2
+			break
+		case 370:
+			if(load_varpbit(8529) == 1)
+				return 2
+			break
+		case 367:
+			if(load_varpbit(8530) == 1)
+				return 2
+			break
+		case 371:
+			if(load_varpbit(8531) == 1)
+				return 2
+			break
+		case 372:
+			if(load_varpbit(8532) == 1)
+				return 2
+			break
+		case 373:
+			if(load_varpbit(8533) == 1)
+				return 2
+			break
+		case 374:
+			if(load_varpbit(8534) == 1)
+				return 2
+			break
+		case 375:
+			if(load_varpbit(8535) == 1)
+				return 2
+			break
+		case 376:
+			if(load_varpbit(8536) == 1)
+				return 2
+			break
+		case 377:
+			if(load_varpbit(8537) == 1)
+				return 2
+			break
+		case 378:
+			if(load_varpbit(8538) == 1)
+				return 2
+			break
+		case 379:
+			if(load_varpbit(8539) == 1)
+				return 2
+			break
+		case 380:
+			if(load_varpbit(8540) == 1)
+				return 2
+			break
+		case 381:
+			if(load_varpbit(8541) == 1)
+				return 2
+			break
+		case 382:
+			if(load_varpbit(8542) == 1)
+				return 2
+			break
+		case 383:
+			if(load_varpbit(8543) == 1)
+				return 2
+			break
+		case 384:
+			if(load_varpbit(8544) == 1)
+				return 2
+			break
+		case 385:
+			if(load_varpbit(8545) == 1)
+				return 2
+			break
+		case 386:
+			if(load_varpbit(8546) == 1)
+				return 2
+			break
+		case 387:
+			if(load_varpbit(8547) == 1)
+				return 2
+			break
+		case 388:
+			if(load_varpbit(8548) == 1)
+				return 2
+			break
+		case 389:
+			if(load_varpbit(8549) == 1)
+				return 2
+			break
+		case 390:
+			if(load_varpbit(8550) == 1)
+				return 2
+			break
+		case 391:
+			if(load_varpbit(8551) == 1)
+				return 2
+			break
+		case 392:
+			if(load_varpbit(8552) == 1)
+				return 2
+			break
+		case 393:
+			if(load_varpbit(8553) == 1)
+				return 2
+			break
+		case 394:
+			if(load_varpbit(8554) == 1)
+				return 2
+			break
+		case 395:
+			if(load_varpbit(8555) == 1)
+				return 2
+			break
+		case 396:
+			if(load_varpbit(8556) == 1)
+				return 2
+			break
+		case 397:
+			if(load_varpbit(8557) == 1)
+				return 2
+			break
+		case 398:
+			if(load_varpbit(8558) == 1)
+				return 2
+			break
+		case 399:
+			if(load_varpbit(8559) == 1)
+				return 2
+			break
+		case 414:
+			if(load_varpbit(8560) == 1)
+				return 2
+			break
+		case 415:
+			if(load_varpbit(8573) == 1)
+				return 2
+			break
+		case 416:
+			if(load_varpbit(8574) == 1)
+				return 2
+			break
+		case 400:
+			if(load_varpbit(8561) == 1)
+				return 2
+			break
+		case 401:
+			if(load_varpbit(8562) == 1)
+				return 2
+			break
+		case 402:
+			if(load_varpbit(8563) == 1)
+				return 2
+			break
+		case 403:
+			if(load_varpbit(8564) == 1)
+				return 2
+			break
+		case 404:
+			if(load_varpbit(8565) == 1)
+				return 2
+			break
+		case 405:
+			if(load_varpbit(8566) == 1)
+				return 2
+			break
+		case 406:
+			if(load_varpbit(8567) == 1)
+				return 2
+			break
+		case 407:
+			if(load_varpbit(8568) == 1)
+				return 2
+			break
+		case 408:
+			if(load_varpbit(8569) == 1)
+				return 2
+			break
+		case 409:
+			if(load_varpbit(8570) == 1)
+				return 2
+			break
+		case 410:
+			if(load_varpbit(8571) == 1)
+				return 2
+			break
+		case 411:
+			if(load_varpbit(8572) == 1)
+				return 2
+			break
+		case 418:
+			if(load_varpbit(8781) == 1)
+				return 2
+			break
+		case 3522:
+			if(load_varp(281) >= 7)
+				return 2
+			break
+		case 3500:
+			if(load_varp(281) > 7)
+				return 2
+			break
+		case 3501:
+			if(load_varp(281) > 10)
+				return 2
+			break
+		case 3505:
+			if(load_varp(281) > 49)
+				return 2
+			break
+		case 3511:
+			if(load_varp(281) > 95)
+				return 2
+			break
+		case 3502:
+			if(load_varp(281) > 15)
+				return 2
+			break
+		case 3503:
+			if(load_varp(281) > 30)
+				return 2
+			break
+		case 3504:
+			if(load_varp(281) > 40)
+				return 2
+			break
+		case 3506:
+			if(load_varp(281) > 55)
+				return 2
+			break
+		case 3508:
+			if(load_varp(281) > 60)
+				return 2
+			break
+		case 3509:
+			if(load_varp(281) > 62)
+				return 2
+			break
+		case 3507:
+			if(load_varp(281) > 75)
+				return 2
+			break
+		case 3523:
+			if(load_varp(281) > 70)
+				return 2
+			break
+		case 3510:
+			if(load_varp(281) > 90)
+				return 2
+			break
+		case 3512:
+			if(load_varp(281) > 115)
+				return 2
+			break
+		case 3513:
+			if(load_varp(281) > 127)
+				return 2
+			break
+		case 3514:
+			if(load_varp(281) > 165)
+				return 2
+			break
+		case 3515:
+			if(load_varp(281) > 160)
+				return 2
+			break
+		case 3516:
+			if(load_varp(281) > 160)
+				return 2
+			break
+		case 3517:
+			if(stat_base(8) > 1 || stat_base(14) > 1)
+				return 2
+			break
+		case 3518:
+			if(stat_base(8) > 1 || stat_base(14) > 1)
+				return 2
+			break
+		case 3519:
+			if(load_varp(281) > 170)
+				return 2
+			break
+		case 3520:
+			if(load_varpbit(6494) > 2)
+				return 2
+			break
+		case 422:
+			if(load_varpbit(9013) == 3)
+				return 2
+			break
+		case 423:
+			if(load_varpbit(9015) == 1)
+				return 2
+			break
+		case 424:
+			if(load_varpbit(9016) == 1)
+				return 2
+			break
+		case 425:
+			if(load_varpbit(9018) == 1)
+				return 2
+			break
+		case 419:
+			if(load_varpbit(9019) == 1)
+				return 2
+			break
+		case 420:
+			if(load_varpbit(9010) == 1)
+				return 2
+			break
+		case 421:
+			if(load_varpbit(9011) == 3)
+				return 2
+			else
+				if(load_varpbit(9011) > 0)
+					return 1
+			break
+		case 426:
+			if(load_varpbit(9020) == 1)
+				return 2
+			break
+		case 427:
+			if(load_varpbit(9027) == 1)
+				return 2
+			break
+		case 3525:
+			if(load_varpbit(9021) == 1)
+				return 2
+			break
+		case 3526:
+			if(load_varpbit(9022) == 1)
+				return 2
+			break
+		case 3527:
+			if(load_varpbit(9023) == 1)
+				return 2
+			break
+		case 3528:
+			if(load_varpbit(9024) == 1)
+				return 2
+			break
+		case 3529:
+			if(load_varpbit(9025) == 1)
+				return 2
+			break
+		case 3530:
+			if(load_varpbit(9026) == 1)
+				return 2
+			break
+		case 429:
+			if(load_varpbit(9638) == 1)
+				return 2
+			break
+		case 430:
+			if(load_varpbit(9639) == 1)
+				return 2
+			break
+		case 431:
+			if(load_varpbit(9640) == 1)
+				return 2
+			break
+		case 432:
+			if(load_varpbit(9641) == 1)
+				return 2
+			break
+		case 433:
+			if(load_varpbit(10263) == 1)
+				return 2
+			break
+		case 531:
+			if(load_varpbit(10503) == 1)
+				return 2
+			break
+		case 533:
+			if(load_varpbit(10504) == 1)
+				return 2
+			break
+		case 534:
+			if(load_varpbit(10505) == 1)
+				return 2
+			break
+		case 532:
+			if(load_varpbit(10465) == 1)
+				return 2
+			break
+		case 553:
+			if(load_varpbit(10466) == 1)
+				return 2
+			break
+		case 569:
+			if(load_varpbit(10467) == 1)
+				return 2
+			break
+		case 583:
+			if(load_varpbit(10468) == 1)
+				return 2
+			break
+		case 540:
+			if(load_varpbit(10469) == 1)
+				return 2
+			break
+		case 544:
+			if(load_varpbit(10470) == 1)
+				return 2
+			break
+		case 563:
+			if(load_varpbit(10471) == 1)
+				return 2
+			break
+		case 549:
+			if(load_varpbit(10472) == 1)
+				return 2
+			break
+		case 550:
+			if(load_varpbit(10473) == 1)
+				return 2
+			break
+		case 555:
+			if(load_varpbit(10495) == 1)
+				return 2
+			break
+		case 556:
+			if(load_varpbit(10507) == 1)
+				return 2
+			break
+		case 557:
+			if(load_varpbit(10475) == 1)
+				return 2
+			break
+		case 559:
+			if(load_varpbit(10479) == 1)
+				return 2
+			break
+		case 562:
+			if(load_varpbit(10480) == 1)
+				return 2
+			break
+		case 566:
+			if(load_varpbit(10496) == 1)
+				return 2
+			break
+		case 567:
+			if(load_varpbit(10481) == 1)
+				return 2
+			break
+		case 568:
+			if(load_varpbit(10482) == 1)
+				return 2
+			break
+		case 546:
+			if(load_varpbit(10483) == 1)
+				return 2
+			break
+		case 574:
+			if(load_varpbit(10484) == 1)
+				return 2
+			break
+		case 572:
+			if(load_varpbit(10485) == 1)
+				return 2
+			break
+		case 573:
+			if(load_varpbit(10486) == 1)
+				return 2
+			break
+		case 576:
+			if(load_varpbit(10487) == 1)
+				return 2
+			break
+		case 535:
+			if(load_varpbit(10488) == 1)
+				return 2
+			break
+		case 577:
+			if(load_varpbit(10489) == 1)
+				return 2
+			break
+		case 578:
+			if(load_varpbit(10490) == 1)
+				return 2
+			break
+		case 579:
+			if(load_varpbit(10491) == 1)
+				return 2
+			break
+		case 580:
+			if(load_varpbit(10492) == 1)
+				return 2
+			break
+		case 581:
+			if(load_varpbit(10493) == 1)
+				return 2
+			break
+		case 582:
+			if(load_varpbit(10494) == 1)
+				return 2
+			break
+		case 536:
+			if(load_varpbit(10500) == 1)
+				return 2
+			break
+		case 547:
+			if(load_varpbit(10501) == 1)
+				return 2
+			break
+		case 542:
+			if(load_varpbit(10563) == 1)
+				return 2
+			break
+		case 548:
+			if(load_varpbit(10499) == 1)
+				return 2
+			break
+		case 551:
+			if(load_varpbit(10506) == 1)
+				return 2
+			break
+		case 543:
+			if(load_varpbit(10497) == 1)
+				return 2
+			break
+		case 545:
+			if(load_varpbit(10498) == 1)
+				return 2
+			break
+		case 565:
+			if(load_varpbit(10474) == 1)
+				return 2
+			break
+		case 552:
+			if(load_varpbit(10508) == 1)
+				return 2
+			break
+		case 554:
+			if(load_varpbit(10509) == 1)
+				return 2
+			break
+		case 564:
+			if(load_varpbit(10478) == 1)
+				return 2
+			break
+		case 575:
+			if(load_varpbit(10510) == 1)
+				return 2
+			break
+		case 537:
+			if(load_varpbit(10511) == 1)
+				return 2
+			break
+		case 541:
+			if(load_varpbit(10512) == 1)
+				return 2
+			break
+		case 539:
+			if(load_varpbit(10513) == 1)
+				return 2
+			break
+		case 560:
+			if(load_varpbit(10514) == 1)
+				return 2
+			break
+		case 561:
+			if(load_varpbit(10502) == 1)
+				return 2
+			break
+		case 538:
+			if(load_varpbit(10476) == 1)
+				return 2
+			break
+		case 571:
+			if(load_varpbit(10477) == 1)
+				return 2
+			break
+		case 584:
+			if(load_varpbit(10515) == 1)
+				return 2
+			break
+		case 585:
+			if(load_varpbit(10516) == 1)
+				return 2
+			break
+		case 586:
+			if(load_varpbit(10517) == 1)
+				return 2
+			break
+		case 587:
+			if(load_varpbit(10518) == 1)
+				return 2
+			break
+		case 588:
+			if(load_varpbit(10519) == 1)
+				return 2
+			break
+		case 589:
+			if(load_varpbit(10520) == 1)
+				return 2
+			break
+		case 590:
+			if(load_varpbit(10521) == 1)
+				return 2
+			break
+		case 591:
+			if(load_varpbit(10522) == 1)
+				return 2
+			break
+		case 592:
+			if(load_varpbit(10523) == 1)
+				return 2
+			break
+		case 593:
+			if(load_varpbit(10524) == 1)
+				return 2
+			break
+		case 940:
+			if(load_varpbit(10525) == 1)
+				return 2
+			break
+		case 939:
+			if(load_varpbit(10527) == 1)
+				return 2
+			break
+		case 570:
+			if(load_varpbit(10526) == 1)
+				return 2
+			break
+		case 597:
+			if(load_varpbit(10528) == 1)
+				return 2
+			break
+		case 631:
+			if(load_varpbit(10529) == 1)
+				return 2
+			break
+		case 619:
+			if(load_varpbit(10530) == 1)
+				return 2
+			break
+		case 777:
+			if(load_varpbit(10532) == 1)
+				return 2
+			break
+		case 778:
+			if(load_varpbit(10533) == 1)
+				return 2
+			break
+		case 779:
+			if(load_varpbit(10534) == 1)
+				return 2
+			break
+		case 780:
+			if(load_varpbit(10535) == 1)
+				return 2
+			break
+		case 781:
+			if(load_varpbit(10536) == 1)
+				return 2
+			break
+		case 782:
+			if(load_varpbit(10537) == 1)
+				return 2
+			break
+		case 783:
+			if(load_varpbit(10538) == 1)
+				return 2
+			break
+		case 784:
+			if(load_varpbit(10539) == 1)
+				return 2
+			break
+		case 785:
+			if(load_varpbit(10540) == 1)
+				return 2
+			break
+		case 787:
+			if(load_varpbit(10541) == 1)
+				return 2
+			break
+		case 788:
+			if(load_varpbit(10542) == 1)
+				return 2
+			break
+		case 789:
+			if(load_varpbit(10543) == 1)
+				return 2
+			break
+		case 775:
+			if(load_varpbit(10613) == 1)
+				return 2
+			break
+		case 821:
+			if(load_varpbit(10544) == 1)
+				return 2
+			break
+		case 607:
+			if(load_varpbit(10557) == 1)
+				return 2
+			break
+		case 610:
+			if(load_varpbit(10558) == 1)
+				return 2
+			break
+		case 622:
+			if(load_varpbit(7792) >= 20)
+				return 2
+			break
+		case 623:
+			if(load_varpbit(7792) >= 30)
+				return 2
+			break
+		case 791:
+			if(load_varpbit(10545) == 1)
+				return 2
+			break
+		case 797:
+			if(load_varpbit(10546) == 1)
+				return 2
+			break
+		case 831:
+			if(load_varpbit(10584) == 1)
+				return 2
+			break
+		case 838:
+			if(load_varpbit(10585) == 1)
+				return 2
+			break
+		case 823:
+			if(load_varpbit(10612) == 1)
+				return 2
+			break
+		case 848:
+			if(load_varpbit(10606) == 1)
+				return 2
+			break
+		case 849:
+			if(load_varpbit(10607) == 1)
+				return 2
+			break
+		case 898:
+			if(load_varpbit(10547) == 1)
+				return 2
+			break
+		case 856:
+			if(load_varpbit(10586) == 1)
+				return 2
+			break
+		case 868:
+			if(load_varpbit(10587) == 1)
+				return 2
+			break
+		case 871:
+			if(load_varpbit(10588) == 1)
+				return 2
+			break
+		case 876:
+			if(load_varpbit(10589) == 1)
+				return 2
+			break
+		case 881:
+			if(load_varpbit(10590) == 1)
+				return 2
+			break
+		case 900:
+			if(load_varpbit(10548) == 1)
+				return 2
+			break
+		case 903:
+			if(load_varpbit(3759) == 3)
+				return 2
+			break
+		case 909:
+			if(load_varpbit(10549) == 1)
+				return 2
+			break
+		case 910:
+			if(load_varpbit(10550) == 1)
+				return 2
+			break
+		case 911:
+			if(load_varpbit(10551) == 1)
+				return 2
+			break
+		case 912:
+			if(load_varpbit(10552) == 1)
+				return 2
+			break
+		case 913:
+			if(load_varpbit(10553) == 1)
+				return 2
+			break
+		case 914:
+			if(load_varpbit(10554) == 1)
+				return 2
+			break
+		case 915:
+			if(load_varpbit(10555) == 1)
+				return 2
+			break
+		case 916:
+			if(load_varpbit(10556) == 1)
+				return 2
+			break
+		case 906:
+			if(load_varpbit(10608) == 1)
+				return 2
+			break
+		case 907:
+			if(load_varpbit(10611) == 1)
+				return 2
+			break
+		case 908:
+			if(load_varpbit(10610) == 1)
+				return 2
+			break
+		case 1012:
+			if(load_varpbit(11394) == 1)
+				return 2
+			break
+		case 918:
+			if(load_varpbit(10591) == 1)
+				return 2
+			break
+		case 919:
+			if(load_varpbit(10592) == 1)
+				return 2
+			break
+		case 921:
+			if(load_varpbit(10593) == 1)
+				return 2
+			break
+		case 924:
+			if(load_varpbit(10594) == 1)
+				return 2
+			break
+		case 926:
+			if(load_varpbit(10615) == 1)
+				return 2
+			break
+		case 927:
+			if(load_varpbit(10595) == 1)
+				return 2
+			break
+		case 928:
+			if(load_varpbit(10596) == 1)
+				return 2
+			break
+		case 929:
+			if(load_varpbit(10597) == 1)
+				return 2
+			break
+		case 930:
+			if(load_varpbit(10598) == 1)
+				return 2
+			break
+		case 931:
+			if(load_varpbit(10599) == 1)
+				return 2
+			break
+		case 932:
+			if(load_varpbit(10600) == 1)
+				return 2
+			break
+		case 933:
+			if(load_varpbit(10601) == 1)
+				return 2
+			break
+		case 934:
+			if(load_varpbit(10602) == 1)
+				return 2
+			break
+		case 935:
+			if(load_varpbit(10603) == 1)
+				return 2
+			break
+		case 937:
+			if(load_varpbit(10604) == 1)
+				return 2
+			break
+		case 938:
+			if(load_varpbit(10605) == 1)
+				return 2
+			break
+		case 756:
+			if(load_varpbit(10583) == 1)
+				return 2
+			break
+		case 764:
+			if(load_varpbit(10580) == 1)
+				return 2
+			break
+		case 770:
+			if(load_varpbit(10581) == 1)
+				return 2
+			break
+		case 773:
+			if(load_varpbit(10582) == 1)
+				return 2
+			break
+		case 698:
+			if(load_varpbit(10560) == 1)
+				return 2
+			break
+		case 701:
+			if(load_varpbit(10559) == 1)
+				return 2
+			break
+		case 703:
+			if(load_varpbit(10561) == 1)
+				return 2
+			break
+		case 706:
+			if(load_varpbit(10562) == 1)
+				return 2
+			break
+		case 709:
+			if(load_varpbit(10609) == 1)
+				return 2
+			break
+		case 646:
+			if(load_varpbit(10564) == 1)
+				return 2
+			break
+		case 647:
+			if(load_varpbit(10565) == 1)
+				return 2
+			break
+		case 649:
+			if(load_varpbit(10566) == 1)
+				return 2
+			break
+		case 651:
+			if(load_varpbit(10568) == 1)
+				return 2
+			break
+		case 652:
+			if(load_varpbit(10569) == 1)
+				return 2
+			break
+		case 653:
+			if(load_varpbit(10567) == 1)
+				return 2
+			break
+		case 663:
+			if(load_varpbit(10577) == 1)
+				return 2
+			break
+		case 660:
+			if(load_varpbit(3761) >= 3)
+				return 2
+			break
+		case 679:
+			if(load_varpbit(10578) == 1)
+				return 2
+			break
+		case 695:
+			if(load_varpbit(10614) == 1)
+				return 2
+			break
+		case 713:
+			if(load_varpbit(10572) == 1)
+				return 2
+			break
+		case 715:
+			if(load_varpbit(10573) == 1)
+				return 2
+			break
+		case 718:
+			if(load_varpbit(10570) == 1)
+				return 2
+			break
+		case 720:
+			if(load_varpbit(10574) == 1)
+				return 2
+			break
+		case 722:
+			if(load_varpbit(10571) == 1)
+				return 2
+			break
+		case 729:
+			if(load_varpbit(10576) == 1)
+				return 2
+			break
+		case 733:
+			if(load_varpbit(10575) == 1)
+				return 2
+			break
+		case 735:
+			if(load_varpbit(3758) == 3)
+				return 2
+			break
+		case 521:
+			if(load_varpbit(1850) >= 2)
+				return 2
+			break
+		case 944:
+			if(load_varpbit(10936) == 1)
+				return 2
+			break
+		case 945:
+			if(load_varpbit(10937) == 1)
+				return 2
+			break
+		case 946:
+			if(load_varpbit(10938) == 1)
+				return 2
+			break
+		case 947:
+			if(load_varpbit(10939) == 1)
+				return 2
+			break
+		case 948:
+			if(load_varpbit(10940) == 1)
+				return 2
+			break
+		case 949:
+			if(load_varpbit(10941) == 1)
+				return 2
+			break
+		case 950:
+			if(load_varpbit(10942) == 1)
+				return 2
+			break
+		case 951:
+			if(load_varpbit(10943) == 1)
+				return 2
+			break
+		case 952:
+			if(load_varpbit(10944) == 1)
+				return 2
+			break
+		case 953:
+			if(load_varpbit(10945) == 1)
+				return 2
+			break
+		case 954:
+			if(load_varpbit(10946) == 1)
+				return 2
+			break
+		case 955:
+			if(load_varpbit(10947) == 1)
+				return 2
+			break
+		case 956:
+			if(load_varpbit(10948) == 1)
+				return 2
+			break
+		case 957:
+			if(load_varpbit(10949) == 1)
+				return 2
+			break
+		case 958:
+			if(load_varpbit(10950) == 1)
+				return 2
+			break
+		case 959:
+			if(load_varpbit(10951) == 1)
+				return 2
+			break
+		case 960:
+			if(load_varpbit(10952) == 1)
+				return 2
+			break
+		case 961:
+			if(load_varpbit(10953) == 1)
+				return 2
+			break
+		case 962:
+			if(load_varpbit(11013) == 1)
+				return 2
+			break
+		case 963:
+			if(load_varpbit(10955) == 1)
+				return 2
+			break
+		case 964:
+			if(load_varpbit(10956) == 1)
+				return 2
+			break
+		case 965:
+			if(load_varpbit(10957) == 1)
+				return 2
+			break
+		case 966:
+			if(load_varpbit(10958) == 1)
+				return 2
+			break
+		case 967:
+			if(load_varpbit(10959) == 1)
+				return 2
+			break
+		case 968:
+			if(load_varpbit(10960) == 1)
+				return 2
+			break
+		case 969:
+			if(load_varpbit(10961) == 1)
+				return 2
+			break
+		case 970:
+			if(load_varpbit(10962) == 1)
+				return 2
+			break
+		case 971:
+			if(load_varpbit(10963) == 1)
+				return 2
+			break
+		case 972:
+			if(load_varpbit(10964) == 1)
+				return 2
+			break
+		case 973:
+			if(load_varpbit(10965) == 1)
+				return 2
+			break
+		case 974:
+			if(load_varpbit(10966) == 1)
+				return 2
+			break
+		case 975:
+			if(load_varpbit(10967) == 1)
+				return 2
+			break
+		case 976:
+			if(load_varpbit(10968) == 1)
+				return 2
+			break
+		case 977:
+			if(load_varpbit(10969) == 1)
+				return 2
+			break
+		case 978:
+			if(load_varpbit(10970) == 1)
+				return 2
+			break
+		case 979:
+			if(load_varpbit(10971) == 1)
+				return 2
+			break
+		case 980:
+			if(load_varpbit(10972) == 1)
+				return 2
+			break
+		case 981:
+			if(load_varpbit(10973) == 1)
+				return 2
+			break
+		case 982:
+			if(load_varpbit(10974) == 1)
+				return 2
+			break
+		case 983:
+			if(load_varpbit(10975) == 1)
+				return 2
+			break
+		case 984:
+			if(load_varpbit(10976) == 1)
+				return 2
+			break
+		case 985:
+			if(load_varpbit(10977) == 1)
+				return 2
+			break
+		case 986:
+			if(load_varpbit(10984) == 1)
+				return 2
+			break
+		case 987:
+			if(load_varpbit(10979) == 1)
+				return 2
+			break
+		case 988:
+			if(load_varpbit(10980) == 1)
+				return 2
+			break
+		case 989:
+			if(load_varpbit(11006) == 15)
+				return 2
+			break
+		case 990:
+			if(load_varpbit(10981) == 1)
+				return 2
+			break
+		case 991:
+			if(load_varpbit(10982) == 1)
+				return 2
+			break
+		case 992:
+			if(load_varpbit(10983) == 1)
+				return 2
+			break
+		case 993:
+			if(load_varpbit(11001) == 127)
+				return 2
+			break
+		case 994:
+			if(load_varpbit(10978) == 1)
+				return 2
+			break
+		case 995:
+			if(load_varpbit(10900) == 1)
+				return 2
+			break
+		case 996:
+			if(load_varpbit(10901) == 1)
+				return 2
+			break
+		case 998:
+			if(load_varpbit(10903) == 1)
+				return 2
+			break
+		case 999:
+			if(load_varpbit(10904) == 1)
+				return 2
+			break
+		case 1000:
+			if(load_varpbit(10905) == 1)
+				return 2
+			break
+		case 1001:
+			if(load_varpbit(10906) == 1)
+				return 2
+			break
+		case 1003:
+			if(load_varpbit(10908) == 1)
+				return 2
+			break
+		case 1004:
+			if(load_varpbit(10909) == 1)
+				return 2
+			break
+		case 1005:
+			if(load_varpbit(10910) == 1)
+				return 2
+			break
+		case 1006:
+			if(load_varpbit(10911) == 1)
+				return 2
+			break
+		case 1007:
+			if(load_varpbit(10912) == 1)
+				return 2
+			break
+		case 1010:
+			if(load_varpbit(11156) == 1)
+				return 2
+			break
+
+	}
+return 0
+return 0

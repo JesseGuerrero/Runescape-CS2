@@ -1,0 +1,12 @@
+void script_1575(int arg0, int arg1, int arg2) {
+	int int3;
+	CHILD.hookFrame(&script_1576(CTX_WIDGET, CTX_WIDGET_CHILD, arg1, arg2));
+	int3 = arg0 / 60;
+	arg0 = arg0 % 60;
+	if (arg0 < 10) {
+		CHILD.setText(int3 + ":0" + arg0);
+	} else {
+		CHILD.setText(int3 + ":" + arg0);
+	}
+	return;
+}

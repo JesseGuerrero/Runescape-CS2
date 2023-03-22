@@ -1,0 +1,28 @@
+void script_42(int arg0, int arg1) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	if (VARPBIT[4606] != 0) {
+		return;
+	}
+	arg0 = script_1046(700, arg0);
+	arg0 = script_1045(195, arg0);
+	arg1 = script_1046(715, arg1);
+	arg1 = script_1045(175, arg1);
+	cs2method6201(arg0, arg1);
+	int2 = 0;
+	int3 = 0;
+	int2, int3 = cs2method6203();
+	int4 = int3 - 334;
+	if (int4 < 0) {
+		int4 = 0;
+	} else if (int4 > 100) {
+		int4 = 100;
+	}
+	int5 = arg0 + (arg1 - arg0) * int4 / 100;
+	cs2method5530(25 + 25 * int5 / 256);
+	VARC[73], VARC[74] = arg0, arg1;
+	script_1049();
+	return;
+}

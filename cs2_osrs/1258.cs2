@@ -1,0 +1,14 @@
+void script_1258(int arg0, int arg1, Widget widget2, int arg3, string arg4) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (CHILD.setChild(widget2, arg1) == true) {
+		if (_CHILD.setChild(widget2, arg3) == true) {
+			_CHILD.setText("---");
+			_CHILD.hookFrame(&script_1259(getClientCycle() + 60, widget2, arg3, arg4));
+		}
+		CHILD.cs2method1121_packet();
+	}
+	return;
+}

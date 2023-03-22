@@ -1,0 +1,6 @@
+//script4005(4005)()(void)
+if(instr6004(if_gethash(746, 46)) == 1) {
+	instr6556(None, "")
+	instr6556(script_1213, "i", 0)
+}
+return

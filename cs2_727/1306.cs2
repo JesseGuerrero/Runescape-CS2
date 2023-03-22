@@ -1,0 +1,6 @@
+//script1306(1306)()(void)
+if(instr6644() >= 2)
+	script_1385()
+else
+	script_1386()
+return

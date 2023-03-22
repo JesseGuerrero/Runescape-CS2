@@ -1,0 +1,9 @@
+//script4107(4107)(int arg0, int arg1)(string)
+if(arg1 >= 10000000)
+	return "<col=ff981f>" + item_name(arg0) + "</col>" + " x " + tostring_localized(1, arg1 / 1000000) + "M (" + tostring_localized(1, arg1) + ")"
+if(arg1 >= 10000)
+	return "<col=ff981f>" + item_name(arg0) + "</col>" + " x " + tostring_localized(1, arg1 / 1000) + "K (" + tostring_localized(1, arg1) + ")"
+if(arg1 > 1)
+	return "<col=ff981f>" + item_name(arg0) + "</col>" + " x " + tostring_localized(1, arg1)
+return "<col=ff981f>" + item_name(arg0) + "</col>"
+return ""

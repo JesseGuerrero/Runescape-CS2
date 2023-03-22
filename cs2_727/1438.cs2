@@ -1,0 +1,5 @@
+//script1438(1438)(int arg0, int arg1, int arg2)(void)
+if(load_varc(657) <= 0)
+	return
+script_1439(arg0, arg1, arg2)
+return

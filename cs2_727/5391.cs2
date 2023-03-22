@@ -1,0 +1,178 @@
+//script5391(5391)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar4 = enum(5331, arg2, 'o', 'i')
+iVar5 = 0
+switch(arg2) {
+	case default:
+		break
+	case 5341:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1435)
+		break
+	case 5343:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1436)
+		break
+	case 952:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1437)
+		break
+	case 5325:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1440)
+		break
+	case 7409:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1438)
+		if(iVar5 > 0)
+			if(load_varpbit(1848) == 1)
+				arg2 = 7409
+		break
+	case 6797:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		arg2 = enum(136, load_varpbit(1439), 'i', 'o')
+		if(arg2 != 6797)
+			iVar5 = 1
+		break
+	case 1925:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 2, 615, 1357, -2147483645, arg1, arg2, 0)
+		iVar5 = (load_varpbit(10204) * 32) + load_varpbit(1441)
+		break
+	case 6032:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1442)
+		break
+	case 6034:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 615, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1443)
+		break
+	case 6059:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1357, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(1778)
+		break
+	case 6036:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1357, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10205)
+		break
+	case 20024:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1935, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(8399)
+		break
+	case 20012:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1935, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(8400)
+		break
+	case 20028:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1935, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(8401)
+		break
+	case 20032:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1935, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(8403)
+		break
+	case 20040:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1935, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(8404)
+		break
+	case 20036:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1935, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(8402)
+		break
+	case 19979:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1746, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10206)
+		break
+	case 19980:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1746, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10207)
+		break
+	case 19977:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1746, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10208)
+		break
+	case 19981:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1746, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10209)
+		break
+	case 19983:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1746, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10210)
+		break
+	case 19982:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 2, 1935, 1746, -2147483645, arg1, arg2, 0)
+		iVar5 = (load_varpbit(10212) * 8) + load_varpbit(10211)
+		break
+	case 22449:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1022, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10235)
+		break
+	case 22450:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1059, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10236)
+		break
+	case 22451:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1059, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10237)
+		break
+	case 22448:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 1, 1022, -2147483645, arg1, arg2, 0)
+		iVar5 = load_varpbit(10234)
+		break
+	case 22444:
+		if(arg3 == 1)
+			instr6237(arg0, script_5391, "IIo1Y", 2, 1022, 1059, -2147483645, arg1, arg2, 0)
+		iVar5 = (load_varpbit(10239) * 32) + load_varpbit(10238)
+		return
+
+
+}
+iVar6 = 6014
+if(iVar4 > 1) {
+	instr6129(arg0, iVar5, arg2)
+	if(iVar5 >= iVar4)
+		iVar6 = 6017
+} else 
+	instr6879(arg0, iVar5, arg2)
+item_useonname(arg0, "<col=ff9040>" + item_name(arg2))
+iVar7 = 6015
+if(iVar5 > 0) {
+	if_settrans(arg0, 0)
+	if_setgraphic(arg1, iVar6)
+	hook_mouse_enter(arg1, script_44, "Id", -2147483645, iVar7)
+	hook_mouse_exit(arg1, script_44, "Id", -2147483645, iVar6)
+} else  {
+	if_settrans(arg0, 175)
+	if_setgraphic(arg1, 6016)
+	if_clearscripthooks(arg1)
+}
+return

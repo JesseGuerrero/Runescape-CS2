@@ -1,0 +1,26 @@
+//script5594(5594)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 240
+iVar3 = 20
+if(string_length(if_gettext(arg1)) > 0) {
+	iVar2 = parawidth(if_gettext(arg1), 3793, 500) + 80
+	iVar3 = max(paramheight(if_gettext(arg1), 3793, 500), 1) * 18
+	if(iVar3 > 18)
+		if(string_length(if_gettext(if_gethash(1188, 14))) == 0) {
+			if_setposition(if_gethash(1188, 11), 0, 1, 35, 0)
+			if_setposition(if_gethash(1188, 13), 0, 1, 80, 0)
+		}
+	if(iVar2 > if_getwidth(arg0)) {
+		if_setsize(if_gethash(1188, 11), 0, 0, iVar3, iVar2)
+		if_setsize(if_gethash(1188, 13), 0, 0, iVar3, iVar2)
+		if_setsize(if_gethash(1188, 14), 0, 0, iVar3, iVar2)
+		if_setsize(if_gethash(1188, 15), 0, 0, iVar3, iVar2)
+		if_setsize(if_gethash(1188, 16), 0, 0, iVar3, iVar2)
+	}
+	iVar2 = parawidth(if_gettext(if_gethash(1188, 20)), 4040, 500) + 80
+	if(iVar2 > if_getwidth(if_gethash(1188, 5)))
+		if_setsize(if_gethash(1188, 5), 0, 0, 30, iVar2)
+	instr6342(arg0, None, "")
+}
+return

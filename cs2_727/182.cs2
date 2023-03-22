@@ -1,0 +1,15 @@
+//script182(182)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = script_179(arg0)
+iVar2 = 0
+if(modulo(25, iVar1) == 0) {
+	script_178()
+	iVar2 = iVar1 / 25
+	if(iVar2 <= 1)
+		instr6342(enum(683, arg0, 'i', 'I'), None, "")
+	else
+		script_183(arg0, iVar1 - 1)
+} else 
+	script_183(arg0, iVar1 - 1)
+return

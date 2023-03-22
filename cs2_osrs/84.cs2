@@ -1,0 +1,194 @@
+void script_84(int arg0) {
+	int int1;
+	int int2;
+	Color color3;
+	boolean boolean4;
+	int int5;
+	int int6;
+	int int7;
+	Widget widget8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	string str5;
+	string str6;
+	string str7;
+	string str8;
+	string str9;
+	string str10;
+	string str11;
+	int1 = widget(162, 43).getWidth();
+	str0 = removeTags(m5015());
+	int2 = 0;
+	if (VARC[41] == 3) {
+		int2 = 1;
+	}
+	color3 = 0x000000;
+	boolean4 = false;
+	str1 = "<col=0000ff>";
+	str2 = "<col=7f0000>";
+	str3 = "<col=2020ef>";
+	str4 = "<col=004f00>";
+	str5 = "<col=0000ff>";
+	str6 = "<col=7f0000>";
+	str7 = "<col=7f007f>";
+	str8 = "<col=7e3200>";
+	if (script_921() == 1) {
+		color3, boolean4 = 16777215, 1;
+		str1, str2, str3, str4 = "<col=9090ff>", "<col=bf2020>", "<col=4040ff>", "<col=30ff30>";
+		str5, str6, str7, str8 = "<col=9070ff>", "<col=ef5050>", "<col=df20ff>", "<col=ff20df>";
+	}
+	int5 = 0;
+	int6 = 0;
+	int7 = 0;
+	widget8 = datamap('i', 'I', 579, int7);
+	if ((VARC[41] == 0 || VARC[41] == 2) && length(m5022()) > 0) {
+		int6 = script_199(str1 + "Public chat filtering:" + "</col>" + " " + "<lt>" + lower(escape(m5022())) + "<gt>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+		widget8.setNoOptions();
+		int5 = int5 - int6;
+		int7 = int7 + 1;
+		widget8 = datamap('i', 'I', 579, int7);
+	}
+	int9 = arg0;
+	int10 = 0;
+	int11 = -1;
+	str9 = "";
+	str10 = "";
+	str11 = "";
+	while (int9 != -1 && widget8 != null) {
+		int10, int11, str9, str10, str11 = m5004(int9);
+		if (script_193(int10, str9) == 1 && script_90(int10, str9, str11, int11, int2, str0) == 1) {
+			switch (int10) {
+				case 1:
+				case 2:
+					int6 = script_203(str9 + ":", str1 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 90:
+				case 91:
+					int6 = script_203(str9 + ":", str3 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 3:
+				case 7:
+					int6 = script_203("From\u00a0" + str9 + ":", str2 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 101:
+					int6 = script_199(str7 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 5:
+					int6 = script_199(str2 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					if (VARPBIT[1627] == 0) {
+						VARC[65] = int11 + 500 + 1;
+						widget(162, 0).hookFrame(&script_664(false));
+					}
+					break;
+				case 6:
+					int6 = script_203("To\u00a0" + str9 + ":", str2 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 103:
+				case 104:
+					int6 = script_199(str8 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 9:
+					int6 = script_203("[" + str5 + str10 + "</col>" + "]\u00a0" + str9 + ":", str6 + str11 + "</col>", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 14:
+					int6 = script_203(str4 + "Broadcast:" + "</col>", str11, int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+				case 107:
+					if (getClientCycle() - int11 > 500) {
+						int6 = script_199("jk :P", int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					} else {
+						int6 = script_199(str11, int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					}
+					break;
+				default:
+					int6 = script_199(str11, int7, widget8, widget(162, 43), int1, 3, 14, int5, 0, color3, boolean4);
+					break;
+			}
+			widget8.setNoOptions();
+			switch (int10) {
+				case 1:
+				case 2:
+				case 3:
+				case 6:
+				case 7:
+				case 9:
+				case 90:
+				case 106:
+				case 91:
+					widget8.setOptionBase("<col=ffffff>" + str9);
+					if (compare(str0, removeTags(str9)) != 0) {
+						if (isFriend(str9) == true) {
+							widget8.setContextMenuOption(6, "Message");
+						} else {
+							widget8.setContextMenuOption(6, "Add friend");
+							widget8.setContextMenuOption(7, "Add ignore");
+						}
+						widget8.setContextMenuOption(8, "Report");
+						if (int10 == 9 && clanGetChatCount() > 0 && clanmethod3618() >= clanmethod3616()) {
+							widget8.setContextMenuOption(9, "Kick");
+						}
+					}
+					break;
+				case 101:
+					widget8.setOptionBase("<col=ffffff>" + str9);
+					widget8.setContextMenuOption(1, "Accept trade");
+					break;
+				case 103:
+				case 104:
+					widget8.setOptionBase("<col=ffffff>" + str9);
+					widget8.setContextMenuOption(2, "Accept challenge");
+					break;
+			}
+			int5 = int5 - int6;
+			int7 = int7 + 1;
+			widget8 = datamap('i', 'I', 579, int7);
+		}
+		int9 = m5019(int9);
+	}
+	int12 = int7;
+	while (widget8 != null) {
+		widget8.setNoOptions();
+		widget8.setSize(0, 0, 0, 0);
+		if (CHILD.setChild(widget(162, 43), int7 * 2) == true) {
+			CHILD.setText("");
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget(162, 43), int7 * 2 + 1) == true) {
+			CHILD.setText("");
+			CHILD.setHidden(true);
+		}
+		int7 = int7 + 1;
+		widget8 = datamap('i', 'I', 579, int7);
+	}
+	int5 = int5 - 2;
+	int5 = 0 - int5;
+	int13 = widget(162, 43).getHeight();
+	if (int5 > int13) {
+		int13 = int5;
+	}
+	int7 = int12;
+	while (int7 > 0) {
+		int7 = int7 - 1;
+		widget8 = datamap('i', 'I', 579, int7);
+		int5 = widget8.getY() + int13 - 2;
+		widget8.setPosition(widget8.getX(), int5, 0, 0);
+		if (CHILD.setChild(widget(162, 43), int7 * 2) == true) {
+			CHILD.setPosition(CHILD.getX(), int5, 0, 0);
+		}
+		if (CHILD.setChild(widget(162, 43), int7 * 2 + 1) == true) {
+			CHILD.setPosition(CHILD.getX(), int5, 0, 0);
+		}
+	}
+	widget(162, 43).setScrollMax(0, int13);
+	script_72(widget(162, 544), widget(162, 43), VARC[7] + (int13 - VARC[8]));
+	VARC[7], VARC[8] = getScrollY(widget(162, 43)), int13;
+	return;
+}

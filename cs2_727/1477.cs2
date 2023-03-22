@@ -1,0 +1,18 @@
+//script1477(1477)()(void)
+if(load_varpbit(5007) == 0)
+	if_settext(if_gethash(766, 36), "Quick task:")
+else
+	if_settext(if_gethash(766, 36), "Large task:")
+if_settext(if_gethash(766, 100), to_string(load_varpbit(4216)))
+if_settext(if_gethash(766, 102), to_string((load_varpbit(4208) + 1) * 5))
+if_settext(if_gethash(766, 91), to_string(load_varpbit(4217)))
+if_settext(if_gethash(766, 93), to_string((load_varpbit(4209) + 1) * 5))
+if_settext(if_gethash(766, 81), to_string(load_varpbit(4218)))
+if_settext(if_gethash(766, 83), to_string((load_varpbit(4210) + 1) * 5))
+if_settext(if_gethash(766, 71), to_string(load_varpbit(4219)))
+if_settext(if_gethash(766, 73), to_string((load_varpbit(4211) + 1) * 5))
+if_settext(if_gethash(766, 61), to_string(load_varpbit(4220)))
+if_settext(if_gethash(766, 63), to_string((load_varpbit(4212) + 1) * 5))
+if_settext(if_gethash(766, 51), to_string(load_varpbit(5008)))
+if_settext(if_gethash(766, 53), to_string((load_varpbit(4213) + 1) * 5))
+return

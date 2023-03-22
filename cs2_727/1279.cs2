@@ -1,0 +1,18 @@
+//script1279(1279)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+cc_deleteall(arg0)
+iVar4 = 0
+iVar5 = 0
+iVar4 = (if_getwidth(arg0) - (36 * arg2)) / (arg2 - 1)
+iVar5 = (if_getheight(arg0) - (32 * arg3)) / (arg3 - 1)
+iVar6 = 0
+while(iVar6 <= arg2 * arg3) {
+	cc_create(iVar6, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, (iVar6 / arg2) * (32 + iVar5), (36 + iVar4) * modulo(arg2, iVar6))
+	script_1280(arg1, iVar6, arg0, iVar6)
+	iVar6 = iVar6 + 1
+}
+return

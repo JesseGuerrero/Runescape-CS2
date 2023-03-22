@@ -1,0 +1,5 @@
+//script2455(2455)(int arg0, int arg1)(void)
+if(if_gethide(if_gethash(34, 16)) == 1)
+	if(if_gethide(if_gethash(34, 44)) == 1)
+		if_setgraphic(arg0, arg1)
+return

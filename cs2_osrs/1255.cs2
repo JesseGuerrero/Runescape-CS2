@@ -1,0 +1,33 @@
+void script_1255(int arg0, Widget widget1, string string2, string string3, Item item4) {
+	int int3;
+	int3 = 0;
+	if (arg0 == 1) {
+		int3 = script_198(widget1);
+	} else {
+		int3 = script_208(widget1);
+	}
+	CHILD.createChild(widget1, 6, int3);
+	int3 = int3 + 1;
+	CHILD.setSize(widget1.getWidth() - 40, widget1.getHeight() - 40, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setItemNoNum(item4, 1);
+	CHILD.createChild(widget1, 4, int3);
+	int3 = int3 + 1;
+	_CHILD.createChild(widget1, 4, int3);
+	int3 = int3 + 1;
+	CHILD.setSize(0, 20, 1, 0);
+	_CHILD.setSize(0, 15, 1, 0);
+	CHILD.setPosition(0, 5, 1, 0);
+	_CHILD.setPosition(0, 5, 1, 2);
+	CHILD.setRGB(0xFF981F);
+	_CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	_CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 0, 0);
+	_CHILD.setTextAlignment(1, 2, 0);
+	CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAntiMacro(true);
+	CHILD.setText(string2);
+	_CHILD.setText(string3);
+	return;
+}

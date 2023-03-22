@@ -1,0 +1,4 @@
+void script_834(Widget widget0, int arg1) {
+	widget0.setNoClickThrough(arg1);
+	return;
+}

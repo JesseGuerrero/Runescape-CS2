@@ -1,0 +1,23 @@
+int script_810(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	if (arg4 > 8) {
+		CHILD.createChild(widget0, 5, arg1);
+		arg1 = arg1 + 1;
+		CHILD.setPosition(arg2 + 4, arg3, 0, 0);
+		CHILD.setSize(arg4 - 8, 20, 0, 0);
+		CHILD.setSprite(1124);
+		CHILD.setSpriteTiling(true);
+	}
+	CHILD.createChild(widget0, 5, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setPosition(arg2, arg3, 0, 0);
+	CHILD.setSize(4, 20, 0, 0);
+	CHILD.setSprite(1123);
+	CHILD.setSpriteTiling(false);
+	CHILD.createChild(widget0, 5, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setPosition(arg2 + arg4 - 4, arg3, 0, 0);
+	CHILD.setSize(4, 20, 0, 0);
+	CHILD.setSprite(1125);
+	CHILD.setSpriteTiling(false);
+	return arg1;
+}

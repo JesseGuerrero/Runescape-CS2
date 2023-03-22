@@ -1,0 +1,9 @@
+//script6238(6238)()(void)
+if(load_varc(1925) == 1) {
+	if_sethide(if_gethash(1285, 31), 0)
+	if_sethide(if_gethash(1285, 30), 0)
+} else  {
+	if_sethide(if_gethash(1285, 31), 1)
+	if_sethide(if_gethash(1285, 30), 1)
+}
+return

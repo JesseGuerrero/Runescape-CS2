@@ -1,0 +1,16 @@
+//script3045(3045)()(void)
+switch(chat_getfilter_private()) {
+	case default:
+		break
+	case 0:
+		if_settext(if_gethash(909, 66), "Everybody")
+		break
+	case 1:
+		if_settext(if_gethash(909, 66), "Friends")
+		break
+	case 2:
+		if_settext(if_gethash(909, 66), "Nobody")
+		break
+
+}
+return

@@ -1,0 +1,7 @@
+//script5344(5344)(int arg0, int arg1, int arg2, int arg3)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(cc_getspriteid() == arg2)
+		cc_setgraphic(arg3)
+	else
+		cc_setgraphic(arg2)
+return

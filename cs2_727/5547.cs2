@@ -1,0 +1,13 @@
+//script5547(5547)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(load_varc(1724) < script_5550())
+	if(load_varc(1726) == 0) {
+		store_varc(1808, load_varc(1809))
+		sound_vorbis_volume(50, 0, 1, 9178)
+		store_varc(1724, load_varc(1724) + 1)
+		iVar1 = script_5545()
+		instr6342(if_gethash(1178, 78), script_5551, "iiii", -100, iVar1, 0, arg0)
+		store_varc(1726, 1)
+	}
+return

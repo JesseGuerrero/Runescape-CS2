@@ -1,0 +1,10 @@
+void script_396(Widget widget0, int arg1) {
+	string str0;
+	string str1;
+	widget0.setText("Total level:" + "<br>" + script_1007());
+	str0 = "Total XP:";
+	str1 = script_1009((int, int)script_1008());
+	widget0.hookMouseHover(&script_992(CTX_WIDGET, -1, widget(arg1), str0, str1, 495, 25 / 5));
+	VARC[2] = 0;
+	return;
+}

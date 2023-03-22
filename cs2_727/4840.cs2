@@ -1,0 +1,93 @@
+//script4840(4840)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar0 = 0
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		iVar0 = load_varpbit(9563)
+		break
+	case 2:
+		iVar0 = load_varpbit(9572)
+		break
+	case 3:
+		iVar0 = load_varpbit(9581)
+		break
+
+}
+if(iVar0 == 0)
+	return
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+iVar1 = script_4841(load_varpbit(9558)).get(0)
+iVar10 = enum(4286, iVar1, 'i', 'd')
+iVar11 = enum(4286, iVar3, 'i', 'd')
+iVar12 = enum(4286, iVar5, 'i', 'd')
+switch(iVar0) {
+	case default:
+		break
+	case 1:
+		if(iVar2 > 0)
+			if_settext(if_gethash(1258, 50), to_string(iVar2))
+		else
+			if_settext(if_gethash(1258, 50), "")
+		iVar7 = 82444335
+		iVar8 = 82444336
+		iVar9 = 82444337
+		break
+	case 2:
+		if(iVar2 > 0)
+			if_settext(if_gethash(1258, 59), to_string(iVar2))
+		else
+			if_settext(if_gethash(1258, 59), "")
+		if(iVar4 > 0)
+			if_settext(if_gethash(1258, 60), to_string(iVar4))
+		else
+			if_settext(if_gethash(1258, 60), "")
+		iVar7 = 82444344
+		iVar8 = 82444345
+		iVar9 = 82444346
+		break
+	case 3:
+		if(iVar2 > 0)
+			if_settext(if_gethash(1258, 68), to_string(iVar2))
+		else
+			if_settext(if_gethash(1258, 68), "")
+		if(iVar4 > 0)
+			if_settext(if_gethash(1258, 70), to_string(iVar4))
+		else
+			if_settext(if_gethash(1258, 70), "")
+		if(iVar6 > 0)
+			if_settext(if_gethash(1258, 69), to_string(iVar6))
+		else
+			if_settext(if_gethash(1258, 69), "")
+		iVar7 = 82444353
+		iVar8 = 82444354
+		iVar9 = 82444355
+		return
+
+
+}
+if_setgraphic(iVar7, iVar10)
+if_setgraphic(iVar8, iVar11)
+if_setgraphic(iVar9, iVar12)
+return

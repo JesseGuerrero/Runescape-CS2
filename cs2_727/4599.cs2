@@ -1,0 +1,10 @@
+//script4599(4599)(int arg0, int arg1, int arg2, string arg3)(void)
+if(arg1 > 1)
+	instr6129(arg2, arg1, arg0)
+else
+	instr6879(arg2, 1, arg0)
+instr6239(arg2, script_1620, "Iiiii", -2147483645, -2147483643, 100, 0, 8)
+instr6213(arg2, 10, "Examine")
+item_useonname(arg2, "<col=ff9040>" + item_name(arg0) + "</col>")
+instr6239(arg2, script_4600, "is", -2147483644, arg0)
+return

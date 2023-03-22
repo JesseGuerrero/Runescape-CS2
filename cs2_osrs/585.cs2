@@ -1,0 +1,10 @@
+void script_585(int arg0, int arg1) {
+	if (isBitFlagged(VARP[92], arg1) == true) {
+		CHILD.setSprite(699);
+		_CHILD.setRGB(0xFFFFFF);
+	} else {
+		CHILD.setSprite(698);
+		_CHILD.setRGB(0xFF981F);
+	}
+	return;
+}

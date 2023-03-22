@@ -1,0 +1,25 @@
+void script_258(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int5 = arg3 - arg2;
+	if (int5 == 0) {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.hookFrame(null);
+		}
+		script_259(widget0, arg3);
+		return;
+	}
+	if (getClientCycle() < arg4) {
+		if (int5 <= -2) {
+			int5 = int5 / 2;
+		} else if (int5 >= 2) {
+			int5 = int5 / 2;
+		}
+	}
+	arg2 = arg2 + int5;
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.hookFrame(&script_258(widget0, arg1, arg2, arg3, arg4));
+		script_259(widget0, arg2);
+		playSoundEffect(2304, 1, 0);
+	}
+	return;
+}

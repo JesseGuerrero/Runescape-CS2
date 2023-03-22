@@ -1,0 +1,43 @@
+int, int, int script_1121(int arg0, string string1, int arg2, int arg3, Widget widget4, int arg5, int arg6, int arg7) {
+	int int7;
+	int7 = widget4.getWidth() / 2;
+	if (arg3 == 1) {
+		int7 = int7 + 15;
+	} else {
+		int7 = int7 - 15;
+	}
+	CHILD.createChild(widget4, 3, arg5);
+	arg5 = arg5 + 1;
+	CHILD.setSize(int7, 15, 0, 0);
+	if (arg3 == 1) {
+		CHILD.setPosition(0, arg7, 2, 0);
+		arg7 = arg7 + 15;
+	} else {
+		CHILD.setPosition(0, arg6, 0, 0);
+		arg6 = arg6 + 15;
+	}
+	CHILD.setTrans(255);
+	CHILD.setContextMenuOption(1, "Send report");
+	CHILD.hookOptionClick(&script_1123(arg2));
+	CHILD.hookMouseEnter(&script_1122(CTX_WIDGET, CTX_WIDGET_CHILD, 16711680));
+	CHILD.hookMouseExit(&script_1122(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+	_CHILD.createChild(widget4, 4, arg5);
+	arg5 = arg5 + 1;
+	_CHILD.setSize(15, 15, 0, 0);
+	_CHILD.setPosition(CHILD.getX(), CHILD.getY(), 0, 0);
+	_CHILD.setRGB(0xFFFFFF);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(2, 0, 0);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText(arg0 + ":");
+	_CHILD.createChild(widget4, 4, arg5);
+	arg5 = arg5 + 1;
+	_CHILD.setSize(int7 - 20, 15, 0, 0);
+	_CHILD.setPosition(CHILD.getX() + 20, CHILD.getY(), 0, 0);
+	_CHILD.setRGB(0xFFFFFF);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(0, 0, 0);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText(string1);
+	return arg5, arg6, arg7;
+}

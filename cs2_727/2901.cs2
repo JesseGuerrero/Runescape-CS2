@@ -1,0 +1,4 @@
+//script2901(2901)(int arg0, int arg1, string arg2)(void)
+if_sethide(arg0, 0)
+if_settext(arg1, arg0)
+return

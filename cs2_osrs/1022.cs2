@@ -1,0 +1,43 @@
+void script_1022(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1164, VARPBIT[4692]));
+	}
+	if (CHILD.setChild(widget1, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1165, VARPBIT[4693]));
+	}
+	if (CHILD.setChild(widget2, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1166, VARPBIT[4694]));
+	}
+	if (CHILD.setChild(widget3, 4) == true) {
+		if (VARPBIT[4697] == 31) {
+			CHILD.setText("Most recent");
+		} else if (VARPBIT[4697] == 30) {
+			CHILD.setText("Off");
+		} else if (datamap('i', 'S', 681, VARPBIT[4697]) != null) {
+			CHILD.setText(datamap('i', 's', 108, VARPBIT[4697]));
+		} else {
+			CHILD.setText("Total XP");
+		}
+	}
+	if (CHILD.setChild(widget4, 4) == true) {
+		if (VARPBIT[4698] == 31) {
+			CHILD.setText("Most recent");
+		} else if (VARPBIT[4698] == 30) {
+			CHILD.setText("Total XP goal");
+		} else if (datamap('i', 'S', 681, VARPBIT[4698]) != null) {
+			CHILD.setText(datamap('i', 's', 108, VARPBIT[4698]));
+		} else {
+			CHILD.setText("Off");
+		}
+	}
+	if (CHILD.setChild(widget5, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1168, VARPBIT[4695]));
+	}
+	if (CHILD.setChild(widget6, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1170, VARPBIT[4696]));
+	}
+	if (CHILD.setChild(widget7, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1140, VARPBIT[4722]));
+	}
+	return;
+}

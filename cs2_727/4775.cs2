@@ -1,0 +1,9 @@
+//script4775(4775)()(void)
+if_settext(if_gethash(1115, 37), "")
+if_sethide(if_gethash(1115, 34), 1)
+if_sethide(if_gethash(1115, 80), 1)
+if_sethide(if_gethash(1115, 42), 1)
+if_sethide(if_gethash(1115, 41), 1)
+if_sethide(if_gethash(1115, 119), 1)
+if_settext(if_gethash(1115, 79), "")
+return

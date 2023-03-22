@@ -1,0 +1,14 @@
+//script1745(1745)()(void)
+if(load_varc(217) < 1) {
+	store_varc(217, load_varc(217) + 1)
+	return
+}
+store_varc(217, 0)
+if(load_varc(216) == 1)
+	store_varc(215, load_varc(215) - 9)
+else
+	store_varc(215, load_varc(215) + 9)
+store_varc(215, min(255, load_varc(215)))
+store_varc(215, max(0, load_varc(215)))
+if_settrans(if_gethash(680, 2), load_varc(215))
+return

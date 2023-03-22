@@ -1,0 +1,26 @@
+//script60(60)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 3
+iVar1 = 5
+iVar2 = 0
+while(iVar0 < 255) {
+	while(iVar1 < 235) {
+		cc_create(iVar2, 5, 17039402)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, iVar0, iVar1)
+		if(inv_getitem(iVar2, 514) != -1) {
+			cc_setitem(inv_getnum(iVar2, 514), inv_getitem(iVar2, 514))
+			cc_setopbase(item_name(inv_getitem(iVar2, 514)))
+			cc_setop("Withdraw", 1)
+			cc_setgraphicshadow(1118481)
+			cc_setoutline(1)
+		}
+		iVar1 = iVar1 + 40
+		iVar2 = iVar2 + 1
+	}
+	iVar0 = iVar0 + 44
+	iVar1 = 5
+}
+return

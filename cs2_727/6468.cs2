@@ -1,0 +1,25 @@
+//script6468(6468)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = 5960
+iVar3 = 5961
+iVar4 = enum(iVar2, arg0, 'i', 'I')
+iVar5 = enum(iVar3, arg0, 'i', 'I')
+if(iVar4 == -1 || iVar5 == -1)
+	return arg1
+if(if_getnextsubid(iVar4) > 0)
+	if(if_getnextsubid(iVar5) > 0) {
+		if_setposition(iVar4, 0, 0, arg1, 0)
+		arg1 = arg1 + if_getheight(iVar4)
+		if(if_gethide(iVar5) == 0) {
+			if_setposition(iVar5, 0, 0, arg1, 0)
+			arg1 = arg1 + if_getheight(iVar5)
+		}
+	} else  {
+		if_sethide(iVar4, 1)
+		if_sethide(iVar5, 1)
+	}
+return arg1
+return 0

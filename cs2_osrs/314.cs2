@@ -1,0 +1,5 @@
+void script_314(Color color0) {
+	CHILD.setRGB(color0);
+	CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, color0));
+	return;
+}

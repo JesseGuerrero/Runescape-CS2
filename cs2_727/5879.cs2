@@ -1,0 +1,63 @@
+//script5879(5879)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar0 = 82116660
+iVar1 = 82116661
+store_varc(1782, 0)
+iVar2 = max((load_varc(1800) + load_varpbit(10862)) + load_varpbit(11026), 0)
+if_sethide(if_gethash(1253, 28), 1)
+if_sethide(if_gethash(1253, 48), 1)
+if(load_varpbit(10861) > 0) {
+	if_sethide(if_gethash(1253, 33), 1)
+	if_sethide(if_gethash(1253, 38), 0)
+} else  {
+	if_sethide(if_gethash(1253, 33), 0)
+	if_sethide(if_gethash(1253, 38), 1)
+}
+script_6505()
+script_5910(load_varpbit(10860))
+store_varc(1781, -1)
+store_varc(1785, 0)
+instr6257(iVar0, script_5884, "Y", 1, 1781)
+instr6237(iVar0, script_5901, "Y", 1, 2594)
+instr6257(iVar1, script_6265, "Y", 1, 1928)
+if_setonmouseleave(if_gethash(1253, 79), script_5901, "Y", 1, 665)
+instr6237(if_gethash(1253, 95), script_5880, "Y", 1, 2533)
+instr6257(if_gethash(1253, 95), script_5880, "Y", 1, 1800)
+instr6342(if_gethash(1253, 82), script_5883, "iiii", 0, 0, 0, 0)
+instr6342(if_gethash(1253, 52), script_5912, "i", 0)
+if_settext(if_gethash(1253, 95), to_string(load_varpbit(10862)))
+if_sethide(if_gethash(1253, 37), 0)
+if(load_varpbit(10866) == 5) {
+	if_sethide(if_gethash(1253, 101), 1)
+	if_sethide(if_gethash(1253, 102), 1)
+}
+instr6257(if_gethash(1253, 258), script_5905, "Y", 1, 1790)
+script_5219(82116659)
+store_varc(1784, 0)
+iVar3 = script_4074()
+if_setgraphic(if_gethash(1253, 71), script_6267(iVar3))
+iVar4 = script_6066()
+if_setgraphic(if_gethash(1253, 14), iVar4)
+if_setgraphic(if_gethash(1253, 305), iVar4)
+iVar5 = 82116692
+iVar6 = 1
+if(load_varc(1803) == 1) {
+	iVar6 = 223
+	if_sethflip(if_gethash(1253, 96), 1)
+	if_sethflip(if_gethash(1253, 97), 1)
+	if_sethflip(if_gethash(1253, 98), 1)
+} else  {
+	iVar6 = 5
+	if_sethflip(if_gethash(1253, 96), 0)
+	if_sethflip(if_gethash(1253, 97), 0)
+	if_sethflip(if_gethash(1253, 98), 0)
+}
+if_setsize(iVar5, 0, 0, if_getheight(iVar5), iVar6)
+script_1968()
+return

@@ -1,0 +1,90 @@
+//script2610(2610)(int arg0)(void)
+string sVar0
+sVar0 = ""
+if(load_varpbit(6357) == 2) {
+	if_sethide(arg0, 0)
+	if(load_varpbit(6372) == 15) {
+		if(load_varpbit(6373) > 0) {
+			sVar0 = "Collected " + to_string(load_varpbit(6373)) + " out of 4 rocks"
+			if_setgraphic(if_gethash(37, 36), 1985)
+		} else  {
+			sVar0 = "Send a squad to collect rocks"
+			if_setgraphic(if_gethash(37, 36), 1990)
+		}
+		if_setonmouseover(if_gethash(37, 0), script_38, "IIsii", if_gethash(37, 0), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 0), script_40, "I", if_gethash(37, 41))
+		if(load_varpbit(6373) > 1) {
+			sVar0 = "Collected " + to_string(load_varpbit(6373)) + " out of 4 rocks"
+			if_setgraphic(if_gethash(37, 39), 1985)
+		} else  {
+			sVar0 = "Send a squad to collect rocks."
+			if_setgraphic(if_gethash(37, 39), 1990)
+		}
+		if_setonmouseover(if_gethash(37, 3), script_38, "IIsii", if_gethash(37, 3), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 3), script_40, "I", if_gethash(37, 41))
+		if(load_varpbit(6373) > 2) {
+			sVar0 = "Collected " + to_string(load_varpbit(6373)) + " out of 4 rocks"
+			if_setgraphic(if_gethash(37, 38), 1985)
+		} else  {
+			sVar0 = "Send a squad to collect rocks."
+			if_setgraphic(if_gethash(37, 38), 1990)
+		}
+		if_setonmouseover(if_gethash(37, 4), script_38, "IIsii", if_gethash(37, 4), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 4), script_40, "I", if_gethash(37, 41))
+		if(load_varpbit(6373) > 3) {
+			sVar0 = "Collected " + to_string(load_varpbit(6373)) + " out of 4 rocks"
+			if_setgraphic(if_gethash(37, 37), 1985)
+		} else  {
+			sVar0 = "Send a squad to collect rocks."
+			if_setgraphic(if_gethash(37, 37), 1990)
+		}
+		if_setonmouseover(if_gethash(37, 5), script_38, "IIsii", if_gethash(37, 5), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 5), script_40, "I", if_gethash(37, 41))
+	} else  {
+		if(load_varpbit(6368) > 0) {
+			sVar0 = "Collected wheels"
+			if_setgraphic(if_gethash(37, 36), 1981)
+		} else  {
+			sVar0 = "Send a squad to collect wheels."
+			if_setgraphic(if_gethash(37, 36), 1986)
+		}
+		if_setonmouseover(if_gethash(37, 0), script_38, "IIsii", if_gethash(37, 0), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 0), script_40, "I", if_gethash(37, 41))
+		if(load_varpbit(6370) > 0) {
+			sVar0 = "Collected logs"
+			if_setgraphic(if_gethash(37, 39), 1982)
+		} else  {
+			sVar0 = "Send a squad to collect logs."
+			if_setgraphic(if_gethash(37, 39), 1987)
+		}
+		if_setonmouseover(if_gethash(37, 3), script_38, "IIsii", if_gethash(37, 3), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 3), script_40, "I", if_gethash(37, 41))
+		if(load_varpbit(6371) > 0) {
+			sVar0 = "Collected rope"
+			if_setgraphic(if_gethash(37, 38), 1983)
+		} else  {
+			sVar0 = "Send a squad to collect rope."
+			if_setgraphic(if_gethash(37, 38), 1988)
+		}
+		if_setonmouseover(if_gethash(37, 4), script_38, "IIsii", if_gethash(37, 4), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 4), script_40, "I", if_gethash(37, 41))
+		if(load_varpbit(6369) > 0) {
+			sVar0 = "Collected metal limbs"
+			if_setgraphic(if_gethash(37, 37), 1984)
+		} else  {
+			sVar0 = "Send a squad to collect metal limbs."
+			if_setgraphic(if_gethash(37, 37), 1989)
+		}
+		if_setonmouseover(if_gethash(37, 5), script_38, "IIsii", if_gethash(37, 5), if_gethash(37, 41), sVar0, 50, 150)
+		hook_mouse_exit(if_gethash(37, 5), script_40, "I", if_gethash(37, 41))
+	}
+} else 
+	if(load_varpbit(6357) == 1)
+		if_sethide(arg0, 1)
+	else
+		if(load_varpbit(6357) == 3)
+			if_sethide(arg0, 1)
+		else
+			if(load_varpbit(6357) == 4)
+				if_sethide(arg0, 1)
+return

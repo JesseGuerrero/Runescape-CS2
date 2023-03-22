@@ -1,0 +1,6 @@
+//script413(413)()(void)
+instr6627(coord())
+store_varc(1353, coord())
+store_varc(1359, 0)
+store_varc(1360, 0)
+return

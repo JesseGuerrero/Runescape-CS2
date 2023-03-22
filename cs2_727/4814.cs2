@@ -1,0 +1,267 @@
+//script4814(4814)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+sVar0 = ""
+if_settext(if_gethash(1258, 446), "")
+if_settext(if_gethash(1258, 380), "")
+if_settext(if_gethash(1258, 308), "")
+if_sethide(if_gethash(1258, 444), 0)
+if_sethide(if_gethash(1258, 378), 0)
+if_sethide(if_gethash(1258, 306), 0)
+if_sethide(if_gethash(1258, 446), 1)
+if_sethide(if_gethash(1258, 380), 1)
+if_sethide(if_gethash(1258, 308), 1)
+hook_mouse_exit(if_gethash(1258, 452), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 386), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 314), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 440), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 374), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 302), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 451), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 385), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 313), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 439), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 373), script_40, "I", if_gethash(1258, 147))
+hook_mouse_exit(if_gethash(1258, 301), script_40, "I", if_gethash(1258, 147))
+if(clan_vars_enabled() == 1)
+	if(script_5008() == 0 || script_5144(-1) == 0) {
+		if_sethide(if_gethash(1258, 452), 0)
+		if_sethide(if_gethash(1258, 386), 0)
+		if_sethide(if_gethash(1258, 314), 0)
+		if_sethide(if_gethash(1258, 440), 0)
+		if_sethide(if_gethash(1258, 374), 0)
+		if_sethide(if_gethash(1258, 302), 0)
+		sVar0 = "Your rank may not currently make alterations to this item"
+		if_setonmouseover(if_gethash(1258, 452), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 452), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setonmouseover(if_gethash(1258, 386), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 386), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setonmouseover(if_gethash(1258, 314), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 314), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setonmouseover(if_gethash(1258, 440), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 440), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setonmouseover(if_gethash(1258, 374), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 374), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setonmouseover(if_gethash(1258, 302), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 302), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+	} else  {
+		switch(load_varpbit(9558)) {
+			case default:
+				break
+			case 1:
+				iVar0 = load_varpbit(9563)
+				break
+			case 2:
+				iVar0 = load_varpbit(9572)
+				break
+			case 3:
+				iVar0 = load_varpbit(9581)
+				break
+
+		}
+		switch(script_4829(load_varpbit(9558))) {
+			case default:
+				break
+			case 1:
+				sVar0 = "You may submit this customisation to the build queue."
+				switch(iVar0) {
+					case default:
+						break
+					case 1:
+						if_sethide(if_gethash(1258, 446), 1)
+						if_sethide(if_gethash(1258, 444), 0)
+						if_sethide(if_gethash(1258, 452), 1)
+						if_setonmouseover(if_gethash(1258, 451), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 451), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 2:
+						if_sethide(if_gethash(1258, 380), 1)
+						if_sethide(if_gethash(1258, 378), 0)
+						if_sethide(if_gethash(1258, 386), 1)
+						if_setonmouseover(if_gethash(1258, 385), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 385), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 3:
+						if_sethide(if_gethash(1258, 308), 1)
+						if_sethide(if_gethash(1258, 306), 0)
+						if_sethide(if_gethash(1258, 314), 1)
+						if_setonmouseover(if_gethash(1258, 313), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 313), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+
+				}
+				break
+			case 2:
+				switch(iVar0) {
+					case default:
+						break
+					case 1:
+						sVar0 = "Your citadel can not produce the resouces with which to purchase this customisation."
+						if_settext(if_gethash(1258, 446), sVar0)
+						if_sethide(if_gethash(1258, 452), 0)
+						if_sethide(if_gethash(1258, 446), 0)
+						if_sethide(if_gethash(1258, 444), 1)
+						if_setonmouseover(if_gethash(1258, 452), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 452), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 439), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 439), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 440), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 440), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 2:
+						sVar0 = "Your citadel can not produce the resouces with which to purchase this customisation."
+						if_settext(if_gethash(1258, 380), sVar0)
+						if_sethide(if_gethash(1258, 386), 0)
+						if_sethide(if_gethash(1258, 380), 0)
+						if_sethide(if_gethash(1258, 378), 1)
+						if_setonmouseover(if_gethash(1258, 386), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 386), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 373), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 373), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 374), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 374), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 3:
+						sVar0 = "Your citadel can not produce the resouces with which to purchase this customisation."
+						if_settext(if_gethash(1258, 308), sVar0)
+						if_sethide(if_gethash(1258, 314), 0)
+						if_sethide(if_gethash(1258, 308), 0)
+						if_sethide(if_gethash(1258, 306), 1)
+						if_setonmouseover(if_gethash(1258, 314), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 314), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 301), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 301), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 302), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 302), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+
+				}
+				break
+			case 3:
+				switch(iVar0) {
+					case default:
+						break
+					case 1:
+						sVar0 = "Select valid options for each part of the customisation before adding to the build queue."
+						if_settext(if_gethash(1258, 446), sVar0)
+						if_sethide(if_gethash(1258, 452), 0)
+						if_sethide(if_gethash(1258, 446), 0)
+						if_sethide(if_gethash(1258, 444), 1)
+						if_setonmouseover(if_gethash(1258, 452), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 452), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 439), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 439), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 440), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 440), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 2:
+						sVar0 = "You must select valid options for each part of the customisation before you can add it to the build queue."
+						if_settext(if_gethash(1258, 380), sVar0)
+						if_sethide(if_gethash(1258, 386), 0)
+						if_sethide(if_gethash(1258, 380), 0)
+						if_sethide(if_gethash(1258, 378), 1)
+						if_setonmouseover(if_gethash(1258, 386), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 386), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 373), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 373), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 374), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 374), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 3:
+						sVar0 = "You must select valid options for each part of the customisation before you can add it to the build queue."
+						if_settext(if_gethash(1258, 308), sVar0)
+						if_sethide(if_gethash(1258, 314), 0)
+						if_sethide(if_gethash(1258, 308), 0)
+						if_sethide(if_gethash(1258, 306), 1)
+						if_setonmouseover(if_gethash(1258, 314), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 314), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 301), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 301), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 302), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 302), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+
+				}
+				break
+			case 4:
+				switch(iVar0) {
+					case default:
+						break
+					case 1:
+						sVar0 = "The selection you have chosen is already built in the citadel."
+						if_settext(if_gethash(1258, 446), sVar0)
+						if_sethide(if_gethash(1258, 452), 0)
+						if_sethide(if_gethash(1258, 446), 0)
+						if_sethide(if_gethash(1258, 444), 1)
+						if_setonmouseover(if_gethash(1258, 452), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 452), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 439), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 439), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 440), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 440), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 2:
+						sVar0 = "The selection you have chosen is already built in the citadel."
+						if_settext(if_gethash(1258, 380), sVar0)
+						if_sethide(if_gethash(1258, 386), 0)
+						if_sethide(if_gethash(1258, 380), 0)
+						if_sethide(if_gethash(1258, 378), 1)
+						if_setonmouseover(if_gethash(1258, 386), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 386), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 373), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 373), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 374), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 374), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 3:
+						sVar0 = "The selection you have chosen is already built in the citadel."
+						if_settext(if_gethash(1258, 308), sVar0)
+						if_sethide(if_gethash(1258, 314), 0)
+						if_sethide(if_gethash(1258, 308), 0)
+						if_sethide(if_gethash(1258, 306), 1)
+						if_setonmouseover(if_gethash(1258, 314), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 314), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You may cancel this customisation from the build queue but you will lose any resources already spent."
+						if_setonmouseover(if_gethash(1258, 301), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 301), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 302), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 302), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+
+				}
+				break
+			case 5:
+				switch(iVar0) {
+					case default:
+						break
+					case 1:
+						sVar0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost."
+						if_settext(if_gethash(1258, 446), sVar0)
+						if_sethide(if_gethash(1258, 452), 0)
+						if_sethide(if_gethash(1258, 446), 0)
+						if_sethide(if_gethash(1258, 444), 1)
+						if_setonmouseover(if_gethash(1258, 452), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 386), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost."
+						if_setonmouseover(if_gethash(1258, 439), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 439), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 440), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 440), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 2:
+						sVar0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost."
+						if_settext(if_gethash(1258, 380), sVar0)
+						if_sethide(if_gethash(1258, 386), 0)
+						if_sethide(if_gethash(1258, 380), 0)
+						if_sethide(if_gethash(1258, 378), 1)
+						if_setonmouseover(if_gethash(1258, 386), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 386), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost."
+						if_setonmouseover(if_gethash(1258, 373), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 373), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 374), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 374), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+					case 3:
+						sVar0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost."
+						if_settext(if_gethash(1258, 308), sVar0)
+						if_sethide(if_gethash(1258, 314), 0)
+						if_sethide(if_gethash(1258, 308), 0)
+						if_sethide(if_gethash(1258, 306), 1)
+						if_setonmouseover(if_gethash(1258, 314), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 314), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "This hotspot is currently queued to be reset, you may cancel this reset at no cost."
+						if_setonmouseover(if_gethash(1258, 301), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 301), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						sVar0 = "You do not have the rank to cancel this job."
+						if_setonmouseover(if_gethash(1258, 302), script_4538, "IIisifdiiiiii", if_gethash(1258, 147), if_gethash(1258, 302), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+						break
+
+				}
+				break
+
+		}
+	}
+return

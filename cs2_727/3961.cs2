@@ -1,0 +1,10 @@
+//script3961(3961)(int arg0, int arg1)(void)
+if(arg0 < 50) {
+	arg0 = arg0 + 1
+	instr6342(arg1, script_3961, "iI", arg0, arg1)
+} else  {
+	if_setsize(if_gethash(744, 81), 0, 0, 16, 63)
+	instr6342(arg1, None, "")
+	script_3960(48758892)
+}
+return

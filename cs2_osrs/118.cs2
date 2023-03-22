@@ -1,0 +1,5 @@
+void script_118(int arg0, int arg1, int arg2, int arg3, string string4, string string5) {
+	widget(4, 21).hookContainer(&script_1600(arg0, string4, arg1, arg2, (boolean)arg3, string5), 584, 468, 93, 94);
+	script_1601(arg0, string4, arg1, arg2, arg3, string5);
+	return;
+}

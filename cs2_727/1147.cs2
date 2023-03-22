@@ -1,0 +1,105 @@
+//script1147(1147)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+iVar6 = -1
+iVar7 = -1
+if(arg1 == arg0) {
+	if_setsize(arg3, 0, 0, 27, 106)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			iVar6 = 3095
+			break
+		case 2:
+			switch(world_language()) {
+				case default:
+					iVar6 = 3098
+					break
+				case 1:
+					iVar6 = 3104
+					break
+				case 2:
+					iVar6 = 3110
+					break
+				case 3:
+					iVar6 = 3098
+					break
+
+			}
+			break
+		case 1:
+			iVar6 = 3119
+			break
+		case 3:
+			iVar6 = 3122
+			break
+
+	}
+	if_setgraphic(arg4, iVar6)
+	hook_mouse_enter(arg3, None, "")
+	hook_mouse_exit(arg3, None, "")
+	hook_mouse_press(arg3, None, "")
+} else  {
+	if_setsize(arg3, 0, 0, 27, 106)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			switch(world_language()) {
+				case default:
+					iVar6 = 3093
+					iVar7 = 3094
+					break
+				case 1:
+					iVar6 = 3099
+					iVar7 = 3100
+					break
+				case 2:
+					iVar6 = 3105
+					iVar7 = 3106
+					break
+				case 3:
+					iVar6 = 3111
+					iVar7 = 3112
+					break
+
+			}
+			break
+		case 2:
+			switch(world_language()) {
+				case default:
+					iVar6 = 3096
+					iVar7 = 3097
+					break
+				case 1:
+					iVar6 = 3102
+					iVar7 = 3103
+					break
+				case 2:
+					iVar6 = 3108
+					iVar7 = 3109
+					break
+				case 3:
+					iVar6 = 3096
+					iVar7 = 3097
+					break
+
+			}
+			break
+		case 1:
+			iVar6 = 3117
+			iVar7 = 3118
+			break
+		case 3:
+			iVar6 = 3120
+			iVar7 = 3121
+			break
+
+	}
+	if_setgraphic(arg4, iVar6)
+	hook_mouse_enter(arg3, script_1148, "iIdd1", arg0, arg4, iVar6, iVar7, 1)
+	hook_mouse_exit(arg3, script_1148, "iIdd1", arg0, arg4, iVar6, iVar7, 0)
+	hook_mouse_press(arg3, script_2697, "ii", arg0, arg5)
+}
+return

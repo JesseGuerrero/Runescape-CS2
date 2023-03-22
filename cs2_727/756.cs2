@@ -1,0 +1,84 @@
+//script756(756)()(void)
+if(load_varp(1177) > 60)
+	store_varp(1177, 60)
+if(load_varp(1177) == 60)
+	if_sethide(if_gethash(662, 39), 0)
+else
+	if_sethide(if_gethash(662, 39), 1)
+if(load_varp(1177) >= 57)
+	if_sethide(if_gethash(662, 38), 0)
+else
+	if_sethide(if_gethash(662, 38), 1)
+if(load_varp(1177) >= 54)
+	if_sethide(if_gethash(662, 37), 0)
+else
+	if_sethide(if_gethash(662, 37), 1)
+if(load_varp(1177) >= 51)
+	if_sethide(if_gethash(662, 36), 0)
+else
+	if_sethide(if_gethash(662, 36), 1)
+if(load_varp(1177) >= 48)
+	if_sethide(if_gethash(662, 35), 0)
+else
+	if_sethide(if_gethash(662, 35), 1)
+if(load_varp(1177) >= 45)
+	if_sethide(if_gethash(662, 34), 0)
+else
+	if_sethide(if_gethash(662, 34), 1)
+if(load_varp(1177) >= 42)
+	if_sethide(if_gethash(662, 33), 0)
+else
+	if_sethide(if_gethash(662, 33), 1)
+if(load_varp(1177) >= 39)
+	if_sethide(if_gethash(662, 32), 0)
+else
+	if_sethide(if_gethash(662, 32), 1)
+if(load_varp(1177) >= 36)
+	if_sethide(if_gethash(662, 31), 0)
+else
+	if_sethide(if_gethash(662, 31), 1)
+if(load_varp(1177) >= 33)
+	if_sethide(if_gethash(662, 30), 0)
+else
+	if_sethide(if_gethash(662, 30), 1)
+if(load_varp(1177) >= 30)
+	if_sethide(if_gethash(662, 29), 0)
+else
+	if_sethide(if_gethash(662, 29), 1)
+if(load_varp(1177) >= 27)
+	if_sethide(if_gethash(662, 28), 0)
+else
+	if_sethide(if_gethash(662, 28), 1)
+if(load_varp(1177) >= 24)
+	if_sethide(if_gethash(662, 27), 0)
+else
+	if_sethide(if_gethash(662, 27), 1)
+if(load_varp(1177) >= 21)
+	if_sethide(if_gethash(662, 26), 0)
+else
+	if_sethide(if_gethash(662, 26), 1)
+if(load_varp(1177) >= 18)
+	if_sethide(if_gethash(662, 25), 0)
+else
+	if_sethide(if_gethash(662, 25), 1)
+if(load_varp(1177) >= 15)
+	if_sethide(if_gethash(662, 24), 0)
+else
+	if_sethide(if_gethash(662, 24), 1)
+if(load_varp(1177) >= 12)
+	if_sethide(if_gethash(662, 23), 0)
+else
+	if_sethide(if_gethash(662, 23), 1)
+if(load_varp(1177) >= 9)
+	if_sethide(if_gethash(662, 22), 0)
+else
+	if_sethide(if_gethash(662, 22), 1)
+if(load_varp(1177) >= 6)
+	if_sethide(if_gethash(662, 21), 0)
+else
+	if_sethide(if_gethash(662, 21), 1)
+if(load_varp(1177) >= 3)
+	if_sethide(if_gethash(662, 20), 0)
+else
+	if_sethide(if_gethash(662, 20), 1)
+return

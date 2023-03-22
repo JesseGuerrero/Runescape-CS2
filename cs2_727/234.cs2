@@ -1,0 +1,12 @@
+//script234(234)(int arg0)(void)
+int iVar1
+string sVar0
+sVar0 = ""
+iVar1 = -1
+if(cc_find(arg0, if_gethash(594, 94)) == 1) {
+	store_varc_string(24, cc_getuseonname())
+	store_varc(792, load_varc(791))
+	script_240()
+	script_217()
+}
+return

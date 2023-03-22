@@ -1,0 +1,19 @@
+//script2200(2200)()(void)
+switch(random(4)) {
+	case default:
+		break
+	case 0:
+		store_varc(1136, 61079558)
+		break
+	case 1:
+		store_varc(1136, 61079559)
+		break
+	case 2:
+		store_varc(1136, 61079560)
+		break
+	case 3:
+		store_varc(1136, 61079561)
+		break
+
+}
+return

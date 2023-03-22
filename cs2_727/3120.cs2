@@ -1,0 +1,13 @@
+//script3120(3120)(int arg0)(void)
+if(cc_find(1, arg0) == 1) {
+	cc_sethide(0)
+	cc_setcolor(606060)
+}
+if(cc_find(2, arg0) == 1) {
+	cc_sethide(0)
+	cc_setcolor(404040)
+}
+if(cc_find(4, arg0) == 1)
+	cc_setgraphic(1542)
+return
+return

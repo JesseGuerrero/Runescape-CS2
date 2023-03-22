@@ -1,0 +1,100 @@
+//script2329(2329)()(void)
+if_setcolor(32505860, 0xFF0000)
+if_setcolor(32505861, 0xFF0000)
+if_setcolor(32505862, 0xFF0000)
+if_setcolor(32505863, 0xFF0000)
+if_setcolor(32505864, 0xFF0000)
+if_setcolor(32505865, 0xFF0000)
+if_setcolor(32505866, 0xFF0000)
+if_setcolor(32505867, 0xFF0000)
+if_setcolor(32505868, 0xFF0000)
+if_setcolor(32505869, 0xFF0000)
+if(load_varpbit(3264) == 1)
+	if_setcolor(32505860, 0xFFFF00)
+else
+	if(load_varpbit(3264) == 2) {
+		if_setcolor(32505860, 0xFF00)
+		if_setcolor(32505861, 0xFFFF00)
+	} else 
+		if(load_varpbit(3264) == 3) {
+			if_setcolor(32505860, 0xFF00)
+			if_setcolor(32505861, 0xFF00)
+			if_setcolor(32505862, 0xFFFF00)
+		} else 
+			if(load_varpbit(3264) == 4) {
+				if_setcolor(32505860, 0xFF00)
+				if_setcolor(32505861, 0xFF00)
+				if_setcolor(32505862, 0xFF00)
+				if_setcolor(32505863, 0xFFFF00)
+			} else 
+				if(load_varpbit(3264) == 5) {
+					if_setcolor(32505860, 0xFF00)
+					if_setcolor(32505861, 0xFF00)
+					if_setcolor(32505862, 0xFF00)
+					if_setcolor(32505863, 0xFF00)
+					if_setcolor(32505864, 0xFFFF00)
+				} else 
+					if(load_varpbit(3264) == 6) {
+						if_setcolor(32505860, 0xFF00)
+						if_setcolor(32505861, 0xFF00)
+						if_setcolor(32505862, 0xFF00)
+						if_setcolor(32505863, 0xFF00)
+						if_setcolor(32505864, 0xFF00)
+						if_setcolor(32505865, 0xFFFF00)
+					} else 
+						if(load_varpbit(3264) == 7) {
+							if_setcolor(32505860, 0xFF00)
+							if_setcolor(32505861, 0xFF00)
+							if_setcolor(32505862, 0xFF00)
+							if_setcolor(32505863, 0xFF00)
+							if_setcolor(32505864, 0xFF00)
+							if_setcolor(32505865, 0xFF00)
+							if_setcolor(32505866, 0xFFFF00)
+						} else 
+							if(load_varpbit(3264) == 8) {
+								if_setcolor(32505860, 0xFF00)
+								if_setcolor(32505861, 0xFF00)
+								if_setcolor(32505862, 0xFF00)
+								if_setcolor(32505863, 0xFF00)
+								if_setcolor(32505864, 0xFF00)
+								if_setcolor(32505865, 0xFF00)
+								if_setcolor(32505866, 0xFF00)
+								if_setcolor(32505867, 0xFFFF00)
+							} else 
+								if(load_varpbit(3264) == 9) {
+									if_setcolor(32505860, 0xFF00)
+									if_setcolor(32505861, 0xFF00)
+									if_setcolor(32505862, 0xFF00)
+									if_setcolor(32505863, 0xFF00)
+									if_setcolor(32505864, 0xFF00)
+									if_setcolor(32505865, 0xFF00)
+									if_setcolor(32505866, 0xFF00)
+									if_setcolor(32505867, 0xFF00)
+									if_setcolor(32505868, 0xFFFF00)
+								} else 
+									if(load_varpbit(3264) == 10) {
+										if_setcolor(32505860, 0xFF00)
+										if_setcolor(32505861, 0xFF00)
+										if_setcolor(32505862, 0xFF00)
+										if_setcolor(32505863, 0xFF00)
+										if_setcolor(32505864, 0xFF00)
+										if_setcolor(32505865, 0xFF00)
+										if_setcolor(32505866, 0xFF00)
+										if_setcolor(32505867, 0xFF00)
+										if_setcolor(32505868, 0xFF00)
+										if_setcolor(32505869, 0xFFFF00)
+									} else 
+										if(load_varpbit(3264) == 11) {
+											if_setcolor(32505860, 0xFF00)
+											if_setcolor(32505861, 0xFF00)
+											if_setcolor(32505862, 0xFF00)
+											if_setcolor(32505863, 0xFF00)
+											if_setcolor(32505864, 0xFF00)
+											if_setcolor(32505865, 0xFF00)
+											if_setcolor(32505866, 0xFF00)
+											if_setcolor(32505867, 0xFF00)
+											if_setcolor(32505868, 0xFF00)
+											if_setcolor(32505868, 0xFF00)
+											if_setcolor(32505869, 0xFF00)
+										}
+return

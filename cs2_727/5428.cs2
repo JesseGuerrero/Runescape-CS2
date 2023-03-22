@@ -1,0 +1,8 @@
+//script5428(5428)(int arg0)(void)
+store_varc(1668, 2)
+store_varc(1665, 3)
+store_varc(1667, 1)
+store_varc(1663, arg0)
+instr6342(if_gethash(1167, 1), script_5430, "")
+sound_vorbis_volume(255, 0, 1, 8096)
+return

@@ -1,0 +1,9 @@
+void script_1746(int arg0, int arg1, int arg2, int arg3, int arg4) {
+	CHILD.setSprite(1040);
+	_CHILD.setSprite(1040);
+	CHILD.hookFrame(null);
+	_CHILD.hookFrame(null);
+	CHILD.hookDragStart(&script_1747(CTX_WIDGET_CHILD, MOUSE_X, MOUSE_Y, CHILD.getX(), CHILD.getY(), widget(arg0), widget(arg1), widget(arg2), widget(arg3), arg4));
+	_CHILD.hookDragStart(&script_1747(CTX_WIDGET_CHILD, MOUSE_X, MOUSE_Y, _CHILD.getX(), _CHILD.getY(), widget(arg0), widget(arg1), widget(arg2), widget(arg3), arg4));
+	return;
+}

@@ -1,0 +1,10 @@
+//script6359(6359)()(void)
+if(load_varc(1937) != -1) {
+	script_6360(load_varc(1937))
+	store_varc(1937, -1)
+}
+if(load_varc(1938) != -1) {
+	script_6364(load_varc(1938))
+	store_varc(1938, -1)
+}
+return

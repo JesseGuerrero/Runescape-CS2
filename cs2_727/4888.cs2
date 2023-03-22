@@ -1,0 +1,8 @@
+//script4888(4888)(int arg0)(void)
+script_4944()
+script_4899(2)
+if_sethide(if_gethash(1258, 122), 0)
+if_sethide(if_gethash(1258, 107), 0)
+store_varpbit(9558, arg0)
+script_4849()
+return

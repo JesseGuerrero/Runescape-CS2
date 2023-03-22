@@ -1,0 +1,8 @@
+void script_558(Widget widget0) {
+	if (VARPBIT[4285] == 1) {
+		script_560(widget0, "Waiting");
+	} else {
+		script_561(widget0);
+	}
+	return;
+}

@@ -1,0 +1,72 @@
+void script_755(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	VARC[12] = 0;
+	VARC[13] = 0;
+	VARC[14] = 0;
+	VARC[15] = 0;
+	VARC[16] = 0;
+	VARC[17] = 0;
+	VARC[18] = 0;
+	VARC[19] = 0;
+	VARC[20] = 0;
+	VARC[21] = 0;
+	VARC[22] = 0;
+	VARC[23] = 0;
+	VARC[24] = 0;
+	VARC[25] = 0;
+	VARC[26] = 0;
+	VARC[27] = 0;
+	VARC[28] = 0;
+	VARC[29] = 0;
+	VARC[30] = 0;
+	VARC[31] = 0;
+	VARC[32] = 0;
+	VARC[33] = 0;
+	VARC[34] = 0;
+	VARC[35] = 0;
+	VARC[36] = 0;
+	VARC[37] = 0;
+	VARC[38] = 0;
+	VARC[39] = 0;
+	int5 = getItemContainerLength(90);
+	widget1.clearChildren();
+	widget3.clearChildren();
+	int6 = 0;
+	while (int6 < int5) {
+		CHILD.createChild(widget1, 5, int6);
+		_CHILD.createChild(widget3, 5, int6);
+		CHILD.setSize(36, 32, 0, 0);
+		_CHILD.setSize(36, 32, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		_CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		_CHILD.setOutlineThickness(1);
+		CHILD.setHidden(true);
+		_CHILD.setHidden(true);
+		int6 = int6 + 1;
+	}
+	int7 = 0;
+	int6 = 0;
+	while (int6 < int5) {
+		int7 = int5 + int6;
+		CHILD.createChild(widget1, 5, int7);
+		_CHILD.createChild(widget3, 5, int7);
+		CHILD.setSprite(937);
+		_CHILD.setSprite(937);
+		CHILD.setSize(10, 32, 0, 0);
+		_CHILD.setSize(10, 32, 0, 0);
+		CHILD.setHidden(false);
+		_CHILD.setHidden(false);
+		CHILD.setTrans(255);
+		_CHILD.setTrans(255);
+		int6 = int6 + 1;
+	}
+	int8 = (36 - 10) / 2;
+	script_763(int5, int8, widget1, widget2, widget3, widget4);
+	widget0.hookContainer(&script_762(int5, int8, widget1, widget2, widget3, widget4), 90);
+	widget0.hookVARP(&script_762(int5, int8, widget1, widget2, widget3, widget4), 1042);
+	return;
+}

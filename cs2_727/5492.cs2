@@ -1,0 +1,53 @@
+//script5492(5492)()(int)
+int iVar0
+iVar0 = 0
+while(iVar0 < 10) {
+	switch(iVar0) {
+		case default:
+			break
+		case 0:
+			if(item_param(0, load_varc(1691)) != 0)
+				return 1
+			break
+		case 1:
+			if(item_param(1, load_varc(1691)) != 0)
+				return 1
+			break
+		case 2:
+			if(item_param(2, load_varc(1691)) != 0)
+				return 1
+			break
+		case 3:
+			if(item_param(3, load_varc(1691)) != 0)
+				return 1
+			break
+		case 4:
+			if(item_param(4, load_varc(1691)) != 0)
+				return 1
+			break
+		case 5:
+			if(item_param(5, load_varc(1691)) != 0)
+				return 1
+			break
+		case 6:
+			if(item_param(6, load_varc(1691)) != 0)
+				return 1
+			break
+		case 7:
+			if(item_param(7, load_varc(1691)) != 0)
+				return 1
+			break
+		case 8:
+			if(item_param(8, load_varc(1691)) != 0)
+				return 1
+			break
+		case 9:
+			if(item_param(9, load_varc(1691)) != 0)
+				return 1
+			break
+
+	}
+	iVar0 = iVar0 + 1
+}
+return 0
+return -1

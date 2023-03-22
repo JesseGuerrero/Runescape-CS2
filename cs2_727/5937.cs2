@@ -1,0 +1,31 @@
+//script5937(5937)()(void)
+if(compare("#", substring(instr6574(), 1, 0)) == 0)
+	return
+if(load_varpbit(11162) != 0) {
+	instr6237(if_gethash(906, 235), None, "")
+	return
+}
+switch(load_varp(2610)) {
+	case default:
+		break
+	case 0:
+		script_5940()
+		break
+	case 1:
+		script_6190()
+		break
+	case 5:
+		instr6237(if_gethash(906, 235), script_6204, "Y", 1, 2411)
+		script_6189()
+		break
+	case 3:
+		instr6257(if_gethash(906, 235), None, "")
+		script_6192()
+		break
+	case 4:
+		script_5940()
+		script_6190()
+		break
+
+}
+return

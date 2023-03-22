@@ -1,0 +1,23 @@
+//script6487(6487)()(void)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(1313, 1), 11792)
+		if_setgraphic(if_gethash(1313, 11), 11796)
+		break
+	case 1:
+		if_setgraphic(if_gethash(1313, 1), 11794)
+		if_setgraphic(if_gethash(1313, 11), 11797)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1313, 1), 11793)
+		if_setgraphic(if_gethash(1313, 11), 11798)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1313, 1), 11795)
+		if_setgraphic(if_gethash(1313, 11), 11799)
+		break
+
+}
+return

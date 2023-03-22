@@ -1,0 +1,12 @@
+//script2863(2863)()(void)
+if(load_varc(1074) == 0)
+	if(load_varc(1071) == 0)
+		store_varc(1071, 19)
+	else
+		store_varc(1071, load_varc(1071) - 1)
+else
+	if(load_varc(1074) == 1)
+		store_varc(1072, movecoord(0, 0, -1, load_varc(1072)))
+	else
+		instr6823()
+return

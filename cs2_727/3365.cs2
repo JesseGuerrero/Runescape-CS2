@@ -1,0 +1,11 @@
+//script3365(3365)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = if_getx(arg0)
+iVar2 = if_getlayer(arg0)
+while(iVar2 != -1) {
+	iVar1 = (iVar1 + if_getx(iVar2)) - if_getscrollx(iVar2)
+	iVar2 = if_getlayer(iVar2)
+}
+return iVar1
+return 0

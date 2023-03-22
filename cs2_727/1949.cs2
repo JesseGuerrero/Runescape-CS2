@@ -1,0 +1,7 @@
+//script1949(1949)(int arg0, int arg1, int arg2, int arg3)(void)
+if(cc_find(arg1, arg0) == 1) {
+	cc_setcolor(0)
+	if(arg3 != -1)
+		script_41(arg3)
+}
+return

@@ -1,0 +1,6 @@
+//script6037(6037)(int arg0, int arg1, int arg2)(void)
+instr6257(arg1, script_6038, "SIIY", 4, 1796, 1797, 1798, 1799, arg0, arg1, arg2)
+instr6393(arg1, script_6038, "SIIY", 1, arg0, arg0, arg1, arg2)
+instr6256(arg1, script_6038, "SII", arg0, arg1, arg2)
+script_6039(arg0, arg1, arg2)
+return

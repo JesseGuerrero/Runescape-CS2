@@ -1,0 +1,36 @@
+void script_1935() {
+	widget(66, 7).setIsHidden(true);
+	widget(66, 18).setIsHidden(true);
+	widget(66, 30).setIsHidden(true);
+	widget(66, 54).setIsHidden(true);
+	widget(66, 43).setIsHidden(true);
+	widget(66, 65).setIsHidden(true);
+	widget(66, 76).setIsHidden(true);
+	if (VARP[1204] == 1) {
+		widget(66, 7).setIsHidden(false);
+		script_742("redemption of 1 bond");
+	} else if (VARP[1204] == 2) {
+		widget(66, 18).setIsHidden(false);
+		script_742("redemption of 2 bonds");
+	} else if (VARP[1204] == 3) {
+		widget(66, 30).setIsHidden(false);
+		script_742("redemption of three bonds");
+	} else if (VARP[1204] == 4) {
+		widget(66, 43).setIsHidden(false);
+		script_742("redemption of five bonds");
+	} else if (VARP[1204] == 6) {
+		widget(66, 65).setIsHidden(false);
+		script_742("redemption of the bonds");
+	} else if (VARP[1204] == 7) {
+		widget(66, 76).setIsHidden(false);
+		script_742("redemption of the bonds");
+	} else {
+		widget(66, 88).setIsHidden(true);
+		widget(66, 91).setIsHidden(false);
+		widget(66, 84).setText("Select a membership package from the options above.");
+		widget(66, 92).setText("___");
+		widget(66, 92).setRGB(0xFF981F);
+		widget(66, 88).setOptionBase("");
+	}
+	return;
+}

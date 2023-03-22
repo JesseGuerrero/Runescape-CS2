@@ -1,0 +1,10 @@
+//script6244(6244)()(void)
+int iVar0
+store_varc(1923, load_varc(1923) - (7500 / 50))
+iVar0 = max(100 - scale(100, 7500, load_varc(1923)), 1)
+if(load_varc(1923) <= 0) {
+	store_varc(1923, 0)
+	instr6342(if_gethash(1285, 3), None, "")
+} else 
+	script_4542(iVar0, 84213765, -1)
+return

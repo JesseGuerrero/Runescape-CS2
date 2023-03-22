@@ -1,0 +1,54 @@
+//script5730(5730)(int arg0, int arg1)(int)
+int iVar2
+iVar2 = enum(5510, arg0, 'i', 'i')
+if(script_5765(arg1) == 1)
+	return 1
+if(script_5767() == 1)
+	if(iVar2 >= 10)
+		return 0
+	else
+		if(iVar2 == 0)
+			return 1
+		else
+			switch(iVar2) {
+				case default:
+					break
+				case 1:
+					if(load_varpbit(10515) != 1)
+						return 0
+					break
+				case 2:
+					if(load_varpbit(10516) != 1)
+						return 0
+					break
+				case 3:
+					if(load_varpbit(10517) != 1)
+						return 0
+					break
+				case 4:
+					if(load_varpbit(10518) != 1)
+						return 0
+					break
+				case 5:
+					if(load_varpbit(10519) != 1)
+						return 0
+					break
+				case 6:
+					if(load_varpbit(10520) != 1)
+						return 0
+					break
+				case 7:
+					if(load_varpbit(10521) != 1)
+						return 0
+					break
+				case 8:
+					if(load_varpbit(10522) != 1)
+						return 0
+					break
+				case 9:
+					return 0
+
+
+			}
+return 1
+return -1

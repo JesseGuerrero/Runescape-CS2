@@ -1,0 +1,5 @@
+//script5095(5095)(int arg0)(void)
+instr6237(arg0, script_5096, "Y", 2, 1736, 1735)
+instr6507(arg0, script_5096, "Y", 1, 129)
+script_5097()
+return

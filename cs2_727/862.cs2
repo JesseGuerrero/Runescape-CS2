@@ -1,0 +1,3 @@
+//script862(862)()(void)
+if_settext(if_gethash(689, 8), to_string(load_varpbit(4449)))
+return

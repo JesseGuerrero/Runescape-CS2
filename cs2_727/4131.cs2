@@ -1,0 +1,54 @@
+//script4131(4131)(int arg0, int arg1)(void)
+switch(load_varc(1452)) {
+	case default:
+		break
+	case 101:
+		cc_deleteall(arg0)
+		script_4138(0, 50, arg0)
+		break
+	case 102:
+		instr6650(4, 0)
+		instr6650(4, 1)
+		instr6651(0, 610, script_4129(58069409, arg1), 610, script_4129(58069409, arg1), 0, 0)
+		instr6651(0, 475, script_4129(58118559, arg1), 475, script_4129(58118559, arg1), 0, 1)
+		instr6651(0, 610, script_4129(58167712, arg1), 610, script_4129(58134945, arg1), 1, 0)
+		instr6651(0, 475, script_4129(58167709, arg1), 475, script_4129(58151326, arg1), 1, 1)
+		instr6651(0, 550, script_4129(58167711, arg1), 550, script_4129(58167711, arg1), 2, 0)
+		instr6651(0, 475, script_4129(58167708, arg1), 475, script_4129(58167708, arg1), 2, 1)
+		instr6651(0, 545, script_4129(58184099, arg1), 545, script_4129(58184098, arg1), 3, 0)
+		instr6651(0, 475, script_4129(58151338, arg1), 475, script_4129(58151338, arg1), 3, 1)
+		instr6677(0, 1, 1000, 1000, 0, 0)
+		script_4140(30, arg0)
+		break
+	case 103:
+		instr6650(3, 0)
+		instr6650(3, 1)
+		instr6651(0, 550, script_4129(58167711, arg1), 550, script_4129(58167711, arg1), 0, 0)
+		instr6651(0, 475, script_4129(58167708, arg1), 475, script_4129(58167708, arg1), 0, 1)
+		instr6651(0, 545, script_4129(58184099, arg1), 545, script_4129(58184098, arg1), 1, 0)
+		instr6651(0, 475, script_4129(58151338, arg1), 475, script_4129(58151338, arg1), 1, 1)
+		instr6651(0, 520, script_4129(58167717, arg1), 520, script_4129(58167717, arg1), 2, 0)
+		instr6651(0, 475, script_4129(58151338, arg1), 475, script_4129(58151338, arg1), 2, 1)
+		instr6677(0, 1, 1000, 1000, 0, 0)
+		break
+	case 104:
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 520, script_4129(58167717, arg1), 520, script_4129(58167717, arg1), 0, 0)
+		instr6651(0, 475, script_4129(58151338, arg1), 475, script_4129(58151338, arg1), 0, 1)
+		instr6651(0, 510, script_4129(58036639, arg1), 510, script_4129(58102180, arg1), 1, 0)
+		instr6651(0, 475, script_4129(58003872, arg1), 475, script_4129(58003872, arg1), 1, 1)
+		instr6677(0, 1, 1000, 1000, 0, 0)
+		break
+	case 105:
+		script_4138(0, 50, arg0)
+		break
+	case 106:
+		script_4140(50, arg0)
+		break
+	case 107:
+		cc_deleteall(arg0)
+		break
+
+}
+return

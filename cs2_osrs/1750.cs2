@@ -1,0 +1,96 @@
+void script_1750(Widget widget0, Widget widget1, int arg2, int arg3, int arg4, int arg5, Location arg6) {
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	Location location14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	int int23;
+	int int24;
+	int int25;
+	int int26;
+	int int27;
+	int int28;
+	int int29;
+	int int30;
+	int7 = cs2method6616();
+	if (cs2method6605() == 0 || int7 == -1 || widget0.getWidth() <= 0) {
+		script_1751(widget0, widget1);
+		return;
+	}
+	int8 = 0;
+	int9 = 0;
+	int8, int9 = cs2method6622();
+	if (int8 <= 0) {
+		return;
+	}
+	int10 = 0;
+	int11 = 0;
+	int10, int11 = cs2method6610();
+	int12 = 0;
+	int13 = 0;
+	location14 = null;
+	if (location(VARC[188]) != arg6 && VARC[188] != -1) {
+		location14 = script_1715(int7, location(VARC[188]));
+		if (location14 != null) {
+			int12, int13 = cs2method6617(arg6);
+			if (int12 >= int10 - 25 && int12 <= int10 + 25 && int13 >= int11 - 25 && int13 <= int11 + 25) {
+				cs2method6608(location14);
+			}
+		}
+	}
+	if (int10 == arg2 && int11 == arg3 && int8 == arg4 && int9 == arg5 && location(VARC[188]) == arg6) {
+		return;
+	}
+	widget0.hookFrame(&script_1750(widget0, widget1, int10, int11, int8, int9, location(VARC[188])));
+	int15 = int11 + int9 / 2;
+	int16 = int11 - int9 / 2;
+	int17 = int10 + int8 / 2;
+	int18 = int10 - int8 / 2;
+	script_1702(widget0, int15, int16, int17, int18);
+	int19 = widget1.getWidth();
+	int20 = widget1.getHeight();
+	int21 = 0;
+	int22 = 0;
+	int23 = 0;
+	int24 = 0;
+	int24, int22, int23, int21 = cs2method6613(int7);
+	int25 = 0;
+	int26 = 0;
+	int25, int26 = cs2method6612(int7);
+	int25, int26 = script_1045(int25, 1), script_1045(int26, 1);
+	int27 = (int18 - int24) * int19 / int25;
+	int28 = (int21 - int15) * int20 / int26;
+	int29 = (int17 - int18) * int19 / int25;
+	int30 = (int15 - int16) * int20 / int26;
+	if (CHILD.setChild(widget1, 0) == true && _CHILD.setChild(widget1, 1) == true) {
+		CHILD.setPosition(int27, int28, 0, 0);
+		_CHILD.setPosition(int27, int28, 0, 0);
+		CHILD.setSize(int29, int30, 0, 0);
+		_CHILD.setSize(int29, int30, 0, 0);
+	} else {
+		CHILD.createChild(widget1, 3, 0);
+		_CHILD.createChild(widget1, 3, 1);
+		CHILD.setRGB(0xFF3F3F);
+		_CHILD.setRGB(0xFF3F3F);
+		CHILD.setFilled(false);
+		_CHILD.setFilled(true);
+		CHILD.setTrans(100);
+		_CHILD.setTrans(200);
+		CHILD.setPosition(int27, int28, 0, 0);
+		_CHILD.setPosition(int27, int28, 0, 0);
+		CHILD.setSize(int29, int30, 0, 0);
+		_CHILD.setSize(int29, int30, 0, 0);
+	}
+	return;
+}

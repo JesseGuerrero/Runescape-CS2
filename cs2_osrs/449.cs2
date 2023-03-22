@@ -1,0 +1,30 @@
+void script_449(Widget widget0, Widget widget1, int arg2, int arg3) {
+	Color color4;
+	int int5;
+	if (arg3 <= 0) {
+		arg3 = 1;
+	}
+	if (arg2 <= 0) {
+		arg2 = 0;
+	}
+	widget0.setText(str(arg2));
+	if (arg2 > arg3) {
+		arg2 = arg3;
+	}
+	widget1.setSize(26, 26 * (arg3 - arg2) / arg3, 0, 0);
+	color4 = 0x000000;
+	int5 = arg3 / 2;
+	if (int5 <= 0) {
+		if (arg2 >= arg3) {
+			color4 = 0x00FF00;
+		} else {
+			color4 = 0xFF0000;
+		}
+	} else if (arg2 > int5) {
+		color4 = script_246(255 - 255 * (arg2 - int5) / int5, 255, 0);
+	} else {
+		color4 = script_246(255, arg2 * 255 / int5, 0);
+	}
+	widget0.setRGB(color4);
+	return;
+}

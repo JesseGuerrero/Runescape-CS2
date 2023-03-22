@@ -1,0 +1,72 @@
+//script4729(4729)()(string, string, string, string, string, string, string, string)
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+string sVar6
+string sVar7
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = ""
+sVar5 = ""
+sVar6 = ""
+sVar7 = ""
+switch(world_language()) {
+	case default:
+		sVar0 = "/p"
+		sVar1 = "/c"
+		sVar2 = "/f"
+		sVar3 = "/g"
+		sVar4 = "\p"
+		sVar5 = "\c"
+		sVar6 = "\f"
+		sVar7 = "\g"
+		break
+	case 1:
+		sVar0 = "/a"
+		sVar1 = "/c"
+		sVar2 = "/f"
+		sVar3 = "/g"
+		sVar4 = "\a"
+		sVar5 = "\c"
+		sVar6 = "\f"
+		sVar7 = "\g"
+		break
+	case 2:
+		sVar0 = "/p"
+		sVar1 = "/c"
+		sVar2 = "/a"
+		sVar3 = "/i"
+		sVar4 = "\p"
+		sVar5 = "\c"
+		sVar6 = "\a"
+		sVar7 = "\i"
+		break
+	case 3:
+		sVar0 = "/p"
+		sVar1 = "/c"
+		sVar2 = "/f"
+		sVar3 = "/g"
+		sVar4 = "\p"
+		sVar5 = "\c"
+		sVar6 = "\f"
+		sVar7 = "\g"
+		break
+	case 4:
+		sVar0 = "/p"
+		sVar1 = "/c"
+		sVar2 = "/f"
+		sVar3 = "/g"
+		sVar4 = "\p"
+		sVar5 = "\c"
+		sVar6 = "\f"
+		sVar7 = "\g"
+		break
+
+}
+return sVar7, sVar3, sVar6, sVar2, sVar5, sVar1, sVar4, sVar0
+return "", "", "", "", "", "", "", ""

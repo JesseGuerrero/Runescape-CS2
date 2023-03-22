@@ -1,0 +1,6 @@
+//script4395(4395)(int arg0)(void)
+if(load_varpbit(9086) > 0)
+	script_4398(load_varpbit(9086) - 1, 72417345, arg0)
+if(load_varpbit(9087) > 0)
+	script_4398(load_varpbit(9087) - 1, 72417342, arg0)
+return

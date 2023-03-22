@@ -1,0 +1,39 @@
+int script_91(int arg0, string string1, int arg2) {
+	switch (arg0) {
+		case 7:
+			if (arg2 < VARC[175]) {
+				return 0;
+			}
+			if (cs2method3623(removeTags(string1)) == true) {
+				return 0;
+			}
+			return 1;
+		case 3:
+			if (arg2 < VARC[175]) {
+				return 0;
+			}
+			if (cs2method3623(removeTags(string1)) == true) {
+				return 0;
+			}
+			if (m5005() == 0) {
+				return 1;
+			}
+			if (m5005() == 1 && isFriend(string1) == true) {
+				return 1;
+			}
+			return 0;
+		case 5:
+		case 6:
+			if (arg2 < VARC[175]) {
+				return 0;
+			}
+			if (arg0 == 5 && VARPBIT[1627] == 0 && getClientCycle() - arg2 >= 500) {
+				return 0;
+			}
+			if (m5005() != 2) {
+				return 1;
+			}
+			return 0;
+	}
+	return 0;
+}

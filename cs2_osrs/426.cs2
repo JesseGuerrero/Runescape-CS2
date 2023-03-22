@@ -1,0 +1,89 @@
+void script_426(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7) {
+	int int8;
+	int int9;
+	int int10;
+	widget0.clearChildren();
+	int8 = 0;
+	int9 = -1;
+	if (arg1 == 1) {
+		int8, int9 = VARPBIT[3209], 3;
+	} else if (arg1 == 2) {
+		int8, int9 = VARPBIT[3210], 4;
+	} else if (arg1 == 3) {
+		int8, int9 = VARPBIT[3211], 5;
+	} else if (arg1 == 4) {
+		int8, int9 = VARPBIT[3212], 6;
+	} else if (arg1 == 5) {
+		int8, int9 = VARPBIT[4441], 7;
+	} else {
+		if (!(arg1 == 6)) {
+			return;
+		}
+		int8, int9 = VARPBIT[5023], 8;
+	}
+	int9 = 38 + int9;
+	int10 = 0;
+	CHILD.createChild(widget0, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setPosition(0, 0, 0, 1);
+	CHILD.setSize(85, 0, 0, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setText("Slot " + arg1 + ":");
+	CHILD.createChild(widget0, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(170, 0, 1, 1);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	if (int8 == 0) {
+		if (arg2 == 0) {
+			if (VARPBIT[4538] == 0) {
+				CHILD.setRGB(0xFF0000);
+				CHILD.setFont(494);
+				CHILD.setText("You must complete the Lumbridge & Draynor" + "<br>" + "elite diary to use this slot.");
+			} else {
+				CHILD.setRGB(0xFF981F);
+				CHILD.setFont(495);
+				CHILD.setText("Empty");
+			}
+		} else if (VARP[101] < arg2) {
+			CHILD.setRGB(0xFF0000);
+			CHILD.setFont(495);
+			CHILD.setText("You need " + arg2 + " QP to use this slot.");
+		} else {
+			CHILD.setRGB(0xFF981F);
+			CHILD.setFont(495);
+			CHILD.setText("Empty");
+		}
+	} else {
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setFont(495);
+		CHILD.setText(datamap('i', 's', 693, int8));
+	}
+	CHILD.createChild(widget0, 5, int10);
+	int10 = int10 + 1;
+	_CHILD.createChild(widget0, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setSize(85, 22, 0, 0);
+	_CHILD.setSize(85, 22, 0, 0);
+	CHILD.setPosition(0, 0, 2, 1);
+	_CHILD.setPosition(0, 0, 2, 1);
+	CHILD.setSprite(812);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText("Unblock task");
+	if (int8 != 0) {
+		_CHILD.setRGB(0xFF981F);
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		CHILD.setContextMenuOption(1, "Unblock");
+		CHILD.hookOptionClick(&script_427(int8, int9, widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7)));
+	} else {
+		_CHILD.setRGB(0x7F4C0F);
+	}
+	return;
+}

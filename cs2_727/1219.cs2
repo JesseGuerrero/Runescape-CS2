@@ -1,0 +1,4 @@
+//script1219(1219)(int arg0, int arg1, int arg2)(void)
+detailset_stereo(arg0)
+script_1220(arg1, arg2)
+return

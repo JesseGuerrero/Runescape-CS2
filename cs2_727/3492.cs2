@@ -1,0 +1,26 @@
+//script3492(3492)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 65077384:
+		if_sethide(if_gethash(993, 137), 0)
+		break
+	case 65077291:
+		if_sethide(if_gethash(993, 44), 0)
+		break
+	case 65077333:
+		if_sethide(if_gethash(993, 86), 0)
+		break
+	case 65077526:
+		if_setgraphic(if_gethash(993, 281), 2568)
+		if_setgraphic(if_gethash(993, 282), 2569)
+		if_setgraphic(if_gethash(993, 283), 2568)
+		break
+	case 65077527:
+		if_setgraphic(if_gethash(993, 284), 2568)
+		if_setgraphic(if_gethash(993, 285), 2569)
+		if_setgraphic(if_gethash(993, 286), 2568)
+		break
+
+}
+return

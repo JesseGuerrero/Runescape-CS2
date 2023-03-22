@@ -1,0 +1,7 @@
+void script_71(DataMap datamap0, int arg1, int arg2) {
+	if (arg2 == 1 && VARC[171] == arg1 && datamap('g', '1', 1134, datamap0) == true) {
+		arg1 = -1;
+	}
+	script_916(arg1, datamap0);
+	return;
+}

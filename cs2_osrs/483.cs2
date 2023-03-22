@@ -1,0 +1,48 @@
+void script_483(Widget widget0, Item item1, int arg2, Item item3, Item item4, int arg5, Item item6, int arg7, Item item8, int arg9, string string10) {
+	int int10;
+	int int11;
+	widget0.clearChildren();
+	int10 = widget0.getWidth();
+	int11 = 0;
+	CHILD.createChild(widget0, 4, int11);
+	int11 = int11 + 1;
+	_CHILD.createChild(widget0, 4, int11);
+	int11 = int11 + 1;
+	CHILD.setPosition(0, 0, 0, 0);
+	_CHILD.setPosition(0, 14, 0, 0);
+	CHILD.setSize(int10, 14, 0, 0);
+	_CHILD.setSize(int10, 14, 0, 0);
+	CHILD.setFont(495);
+	_CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAntiMacro(true);
+	CHILD.setText(string10);
+	_CHILD.setText("Magic " + arg2);
+	script_486(widget0, arg2, item3);
+	widget0.hookSkill(&script_485(CTX_WIDGET, getChildId(), getChildId(), arg2, item3), 6);
+	widget0.hookContainer(&script_485(CTX_WIDGET, getChildId(), getChildId(), arg2, item3), 93, 94);
+	widget0.hookVARP(&script_485(CTX_WIDGET, getChildId(), getChildId(), arg2, item3), 638, 375, 1139, 1140);
+	CHILD.createChild(widget0, 6, int11);
+	int11 = int11 + 1;
+	CHILD.setPosition((int10 - 42) / 2, 30, 0, 0);
+	CHILD.setSize(42, 42, 0, 0);
+	CHILD.setItem(item1, 10);
+	if (item4 == null) {
+		return;
+	}
+	if (item6 == null) {
+		int11 = script_484(31, widget0, int11, item4, arg5);
+		return;
+	}
+	if (item8 == null) {
+		int11 = script_484(14, widget0, int11, item4, arg5);
+		int11 = script_484(48, widget0, int11, item6, arg7);
+		return;
+	}
+	int11 = script_484(1, widget0, int11, item4, arg5);
+	int11 = script_484(31, widget0, int11, item6, arg7);
+	int11 = script_484(61, widget0, int11, item8, arg9);
+	return;
+}

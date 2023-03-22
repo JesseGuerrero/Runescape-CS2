@@ -1,0 +1,6 @@
+//script4813(4813)()(void)
+if_setgraphic(if_gethash(1258, 496), -1)
+if_settext(if_gethash(1258, 497), "")
+if_sethide(if_gethash(1258, 485), 1)
+store_varc(2, 0)
+return

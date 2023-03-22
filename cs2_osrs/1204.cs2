@@ -1,0 +1,12 @@
+void script_1204(int arg0, Widget widget1, int arg2) {
+	widget1.clearChildren();
+	CHILD.createChild(widget1, 5, 0);
+	_CHILD.createChild(widget1, 5, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	_CHILD.setSize(32, 32, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setSprite(datamap('i', 'd', 1265, arg0));
+	widget1.setContextMenuOption(1, datamap('i', 's', 1264, arg0));
+	return;
+}

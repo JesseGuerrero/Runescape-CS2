@@ -1,0 +1,16 @@
+//script6077(6077)(int arg0)(int)
+int iVar1
+if(arg0 == -1)
+	return 0
+arg0 = item_uncert(arg0)
+iVar1 = enum(732, arg0, 'o', 'i')
+if(load_varp(532) == 6529)
+	if(iVar1 != -1)
+		return iVar1
+iVar1 = enum(1441, arg0, 'o', 'i')
+if(iVar1 != -1)
+	if(iVar1 > 0)
+		return iVar1
+iVar1 = max(scale(30, 100, item_cost(arg0)), 1)
+return iVar1
+return 0

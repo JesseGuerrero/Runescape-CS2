@@ -1,0 +1,5 @@
+void script_1732(boolean arg0, int arg1, Widget widget2, Widget widget3, Widget widget4) {
+	playSoundEffect(2266, 1, 0);
+	script_1733(arg0, arg1, widget2, widget3, widget4);
+	return;
+}

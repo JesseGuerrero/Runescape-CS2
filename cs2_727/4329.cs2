@@ -1,0 +1,2 @@
+//script4329(4329)(int arg0)(int)
+return if_setmouseovercursor(arg0, 175)

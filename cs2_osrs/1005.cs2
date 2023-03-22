@@ -1,0 +1,44 @@
+void script_1005(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int int4;
+	int2 = 0;
+	int3 = 1;
+	int4 = 0;
+	if (CHILD.setChild(widget0, 0) == true) {
+		arg1 = getClientCycle() - arg1;
+		if (arg1 < 0) {
+			CHILD.setHidden(true);
+			while (int3 <= 5) {
+				if (CHILD.setChild(widget0, int3) == true) {
+					CHILD.setHidden(true);
+				}
+				int3 = int3 + 1;
+			}
+			return;
+		}
+		int4 = datamap('i', 'i', 1171, VARPBIT[4722]);
+		if (arg1 < int4) {
+			int2 = mathMethod4006(0, arg1, 0, int4, 16384);
+			CHILD.setPosition(CHILD.getX(), int2, 0, 5);
+			CHILD.setHidden(false);
+			while (int3 <= 5) {
+				if (CHILD.setChild(widget0, int3) == true) {
+					CHILD.setHidden(false);
+					CHILD.setPosition(CHILD.getX(), int2, 0, 5);
+				}
+				int3 = int3 + 1;
+			}
+			return;
+		}
+		CHILD.setHidden(true);
+		CHILD.setText("");
+	}
+	while (int3 <= 5) {
+		script_1006(widget0, int3);
+		int3 = int3 + 1;
+	}
+	widget0.hookFrame(null);
+	widget0.setIsHidden(true);
+	return;
+}

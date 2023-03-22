@@ -1,0 +1,63 @@
+//script2724(2724)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+iVar8 = 10533
+iVar9 = 10517
+iVar10 = 10537
+iVar11 = 10533
+iVar12 = 10545
+iVar13 = 10529
+iVar14 = 10521
+iVar15 = 10525
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		break
+	case 2:
+		iVar8 = 10534
+		iVar9 = 10518
+		iVar10 = 10538
+		iVar11 = 10534
+		iVar12 = 10546
+		iVar13 = 10530
+		iVar14 = 10522
+		iVar15 = 10526
+		break
+	case 3:
+		iVar8 = 10535
+		iVar9 = 10519
+		iVar10 = 10539
+		iVar11 = 10535
+		iVar12 = 10547
+		iVar13 = 10531
+		iVar14 = 10523
+		iVar15 = 10527
+		break
+	case 1:
+		iVar8 = 10536
+		iVar9 = 10520
+		iVar10 = 10540
+		iVar11 = 10536
+		iVar12 = 10548
+		iVar13 = 10548
+		iVar14 = 10524
+		iVar15 = 10528
+		break
+
+}
+if_setgraphic(arg0, iVar8)
+if_setgraphic(arg1, iVar9)
+if_setgraphic(arg2, iVar10)
+if_setgraphic(arg3, iVar11)
+if_setgraphic(arg4, iVar12)
+if_setgraphic(arg5, iVar13)
+if_setgraphic(arg6, iVar14)
+if_setgraphic(arg7, iVar15)
+return

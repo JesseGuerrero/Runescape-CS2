@@ -1,0 +1,21 @@
+//script6116(6116)(int arg0, int arg1, int arg2)(void)
+if_sethide(arg0, 0)
+switch(load_varc(1884)) {
+	case default:
+		break
+	case 0:
+		if_setposition(arg0, 0, 5, if_gety(arg0), 16383)
+		break
+	case 1:
+		if_setposition(arg0, 5, 0, 16383, if_getx(arg0))
+		break
+	case 2:
+		if_setposition(arg0, 0, 3, if_gety(arg0), 16383)
+		break
+	case 3:
+		if_setposition(arg0, 3, 0, 16383, if_getx(arg0))
+		break
+
+}
+instr6342(arg0, script_6117, "Iiiii", -2147483645, arg1, 0, arg2, 0)
+return

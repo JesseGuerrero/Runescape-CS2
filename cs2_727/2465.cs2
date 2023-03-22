@@ -1,0 +1,5 @@
+//script2465(2465)(int arg0)(int)
+if(if_isopen(script_8(arg0)) == 1)
+	return 1
+return 0
+return -1

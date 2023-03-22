@@ -1,0 +1,74 @@
+//script4350(4350)()(void)
+int iVar0
+int iVar1
+iVar0 = -1
+iVar1 = 0
+switch(load_varp(2128)) {
+	case default:
+		break
+	case 1:
+		iVar1 = load_varpbit(9091)
+		break
+	case 2:
+		iVar1 = load_varpbit(9092)
+		break
+	case 3:
+		iVar1 = load_varpbit(9093)
+		break
+	case 4:
+		iVar1 = load_varpbit(9094)
+		break
+	case 5:
+		iVar1 = load_varpbit(9095)
+		break
+	case 6:
+		iVar1 = load_varpbit(9096)
+		break
+	case 7:
+		iVar1 = load_varpbit(9097)
+		break
+	case 8:
+		iVar1 = load_varpbit(9098)
+		break
+
+}
+if(iVar1 > 0) {
+	iVar0 = enum(3689, iVar1, 'i', 'g')
+	if(iVar0 != -1) {
+		if_sethide(if_gethash(1098, 111), 1)
+		if_setscrollpos(if_gethash(1098, 116), 0, 0)
+		switch(load_varp(2128)) {
+			case default:
+				break
+			case 1:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9131), 'i', 's'))
+				break
+			case 2:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9132), 'i', 's'))
+				break
+			case 3:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9133), 'i', 's'))
+				break
+			case 4:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9134), 'i', 's'))
+				break
+			case 5:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9135), 'i', 's'))
+				break
+			case 6:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9136), 'i', 's'))
+				break
+			case 7:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9137), 'i', 's'))
+				break
+			case 8:
+				script_4499(iVar0, 1, enum_getoutputcount(iVar0), 4, 71958633, 71958643, 71958645, 71958644, 71958767, enum(iVar0, load_varpbit(9138), 'i', 's'))
+				break
+
+		}
+		return
+	}
+}
+script_4501(71958633, "Select a sub-type")
+if_sethide(if_gethash(1098, 111), 0)
+return

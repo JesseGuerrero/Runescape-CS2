@@ -1,0 +1,18 @@
+//script5184(5184)()(void)
+script_5192()
+script_5190(1, 0)
+switch(load_varpbit(9646)) {
+	case default:
+		break
+	case 1:
+		if_settext(if_gethash(1122, 65), "Lumbridge herald cape")
+		break
+	case 2:
+		if_settext(if_gethash(1122, 65), "Varrock herald cape")
+		break
+	case 3:
+		if_settext(if_gethash(1122, 65), "Falador herald cape")
+		break
+
+}
+return

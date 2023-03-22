@@ -1,0 +1,12 @@
+void script_1558(Widget widget0, string string1, int arg2, DataMap datamap3, int arg4) {
+	_ = script_1560(widget0, string1, 0, 0);
+	widget0.hookMouseHover(&script_1559(CTX_WIDGET, string1, true));
+	widget0.hookMouseExit(&script_1559(CTX_WIDGET, string1, false));
+	if (arg4 == -1 && datamap3 != null) {
+		arg4 = datamap('I', 'i', datamap3, widget0);
+	}
+	widget0.hookOptionClick(&script_1561(CTX_MENU_OPTION, widget0, string1, widget(arg2), arg4));
+	widget0.setContextMenuOption(1, removeTags(string1));
+	widget0.hookFrame(null);
+	return;
+}

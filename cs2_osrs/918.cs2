@@ -1,0 +1,5 @@
+boolean script_918(int arg0) {
+	Widget widget1;
+	widget1 = datamap('i', 'I', 1137, arg0);
+	return hasChild(datamap('I', 'I', script_900(), widget1));
+}

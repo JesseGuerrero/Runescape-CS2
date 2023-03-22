@@ -1,0 +1,41 @@
+void script_901(Widget widget0, DataMap datamap1) {
+	int int2;
+	Widget widget3;
+	widget0.hookWidgetsOpenClose(&script_903(CTX_WIDGET, datamap1));
+	widget0.hookResize(&script_904(CTX_WIDGET, datamap1));
+	widget0.hookVARP(&script_902(CTX_WIDGET, datamap1), 1021, 1055, 1431, 1227);
+	int2 = 0;
+	widget3 = datamap('i', 'I', 1138, int2);
+	while (widget3 != null) {
+		widget3 = datamap('I', 'I', datamap1, widget3);
+		if (widget3 != null) {
+			widget3.setContextMenuOption(1, datamap('i', 's', 1141, int2));
+			widget3.hookOptionClick(&script_914(CTX_MENU_OPTION, datamap1, int2));
+		}
+		int2 = int2 + 1;
+		widget3 = datamap('i', 'I', 1138, int2);
+	}
+	if (VARC[171] <= 0 && datamap('g', '1', 1134, datamap1) == false) {
+		VARC[171] = 3;
+	}
+	VARC[172], VARC[173] = -1, -1;
+	widget3 = datamap('I', 'I', datamap1, widget(161, 26));
+	if (widget3 != null) {
+		widget3.clearChildren();
+		CHILD.createChild(widget3, 4, 0);
+		_CHILD.createChild(widget3, 4, 1);
+		CHILD.setSize(0, 0, 1, 1);
+		_CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		_CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setNoClickThrough(1);
+		CHILD.hookMousePress(&script_489(0, 0));
+		_CHILD.setContextMenuOption(1, "Look North");
+		_CHILD.hookOptionClick(&script_1050(CTX_MENU_OPTION));
+	}
+	script_1044();
+	script_907(widget0, datamap1);
+	script_908(widget0, datamap1);
+	script_916(VARC[171], datamap1);
+	return;
+}

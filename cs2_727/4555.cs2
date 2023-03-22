@@ -1,0 +1,33 @@
+//script4555(4555)(int arg0, int arg1)(void)
+if(fc_getchatcount() <= 0 || userdetail_quickchat() == 1 || script_5280() == 1)
+	return
+switch(arg0) {
+	case default:
+		break
+	case 84:
+		if(fc_getchatcount() > 0)
+			if(string_length(load_varc_string(349)) > 0) {
+				set_chat_type(1)
+				send_public_chat(load_varc_string(349))
+			}
+		else
+			mes_typed(0, 11, "You are not in a Friends Chat Channel.")
+		store_varc_string(349, "")
+		if_settext(if_gethash(589, 27), escape(load_varc_string(349)))
+		store_varc(1507, string_length(load_varc_string(349)))
+		script_4571(38600731, 38600732, load_varc_string(349))
+		break
+	case 103:
+		store_varc(1507, script_1553(arg0, load_varc(1507), load_varc_string(349)))
+		script_4571(38600731, 38600732, load_varc_string(349))
+		break
+	case 101:
+		if(char_isprintable(arg1) == 1 || arg0 == 85 || arg0 == 101) {
+			store_varc_string(349, script_802(load_varc(1507), 0, arg0, arg1, load_varc_string(349)).get(1))
+			if_settext(if_gethash(589, 27), escape(load_varc_string(349)))
+			script_4571(38600731, 38600732, load_varc_string(349))
+		}
+		break
+
+}
+return

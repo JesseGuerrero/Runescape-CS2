@@ -1,0 +1,119 @@
+//script594(594)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+string sVar1
+string sVar2
+if_setitem(if_gethash(105, 139), -1, arg1)
+sVar0 = "null"
+sVar1 = "null"
+sVar2 = "null"
+if(arg0 == 0) {
+	if_settext(if_gethash(105, 134), "Buy Offer")
+	if_setgraphic(if_gethash(105, 135), 1157)
+	if_settext(if_gethash(105, 160), "+1")
+	instr6213(if_gethash(105, 160), 1, "Add 1")
+	sVar2 = "Add 1 to quantity"
+	if_setonmouseover(if_gethash(105, 160), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+	if_settext(if_gethash(105, 162), "+10")
+	instr6213(if_gethash(105, 162), 1, "Add 10")
+	sVar2 = "Add 10 to quantity"
+	if_setonmouseover(if_gethash(105, 162), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+	if_settext(if_gethash(105, 164), "+100")
+	instr6213(if_gethash(105, 164), 1, "Add 100")
+	sVar2 = "Add 100 to quantity"
+	if_setonmouseover(if_gethash(105, 164), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+	if_settext(if_gethash(105, 166), "+1K")
+	instr6213(if_gethash(105, 166), 1, "Add 1000")
+	sVar2 = "Add 1,000 to quantity"
+	if_setonmouseover(if_gethash(105, 166), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+} else  {
+	if_settext(if_gethash(105, 134), "Sell Offer")
+	if_setgraphic(if_gethash(105, 135), 1156)
+	if_settext(if_gethash(105, 160), "1")
+	instr6213(if_gethash(105, 160), 1, "Sell 1")
+	sVar2 = "Sell 1"
+	if_setonmouseover(if_gethash(105, 160), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+	if_settext(if_gethash(105, 162), "10")
+	instr6213(if_gethash(105, 162), 1, "Sell 10")
+	sVar2 = "Sell 10"
+	if_setonmouseover(if_gethash(105, 162), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+	if_settext(if_gethash(105, 164), "100")
+	instr6213(if_gethash(105, 164), 1, "Sell 100")
+	sVar2 = "Sell 100"
+	if_setonmouseover(if_gethash(105, 164), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+	if_settext(if_gethash(105, 166), "ALL")
+	instr6213(if_gethash(105, 166), 1, "Sell All")
+	sVar2 = "Sell all"
+	if_setonmouseover(if_gethash(105, 166), script_649, "IIsii", -2147483645, if_gethash(105, 210), sVar2, 25, 300)
+}
+if(arg1 == -1) {
+	if_settext(if_gethash(105, 142), "Choose an item to exchange")
+	if_settext(if_gethash(105, 141), "N/A")
+	if_settext(if_gethash(105, 143), "")
+	if(load_varp(1113) == 0)
+		if(if_gettrans(if_gethash(105, 138)) == 255)
+			instr6342(if_gethash(105, 138), script_634, "Iiii", if_gethash(105, 138), 0, 255, 5)
+	else
+		if(load_varp(1113) == 1) {
+			if_sethide(if_gethash(107, 0), 0)
+			if_settrans(if_gethash(105, 138), 255)
+			instr6342(if_gethash(105, 138), None, "")
+			if(if_gettrans(if_gethash(107, 1)) == 245) {
+				instr6342(if_gethash(107, 1), script_634, "Iiii", if_gethash(107, 1), 155, 255, 2)
+				instr6342(if_gethash(107, 2), script_634, "Iiii", if_gethash(107, 2), 155, 255, 2)
+				instr6342(if_gethash(107, 3), script_634, "Iiii", if_gethash(107, 3), 155, 255, 2)
+				instr6342(if_gethash(107, 4), script_634, "Iiii", if_gethash(107, 4), 155, 255, 2)
+				instr6342(if_gethash(107, 5), script_634, "Iiii", if_gethash(107, 5), 145, 245, 2)
+				instr6342(if_gethash(107, 6), script_634, "Iiii", if_gethash(107, 6), 145, 245, 2)
+				instr6342(if_gethash(107, 7), script_634, "Iiii", if_gethash(107, 7), 145, 245, 2)
+				instr6342(if_gethash(107, 8), script_634, "Iiii", if_gethash(107, 8), 135, 235, 2)
+				instr6342(if_gethash(107, 9), script_634, "Iiii", if_gethash(107, 9), 135, 235, 2)
+				instr6342(if_gethash(107, 10), script_634, "Iiii", if_gethash(107, 10), 135, 235, 2)
+				instr6342(if_gethash(107, 11), script_634, "Iiii", if_gethash(107, 11), 125, 225, 2)
+				instr6342(if_gethash(107, 12), script_634, "Iiii", if_gethash(107, 12), 125, 225, 2)
+				instr6342(if_gethash(107, 13), script_634, "Iiii", if_gethash(107, 13), 125, 225, 2)
+				instr6342(if_gethash(107, 14), script_634, "Iiii", if_gethash(107, 14), 115, 215, 2)
+				instr6342(if_gethash(107, 15), script_634, "Iiii", if_gethash(107, 15), 115, 215, 2)
+				instr6342(if_gethash(107, 16), script_634, "Iiii", if_gethash(107, 16), 115, 215, 2)
+				instr6342(if_gethash(107, 17), script_634, "Iiii", if_gethash(107, 17), 110, 210, 2)
+			}
+		}
+} else  {
+	if_settext(if_gethash(105, 142), item_name(arg1))
+	if(load_varp(1109) != -1) {
+		sVar0 = tostring_localized(1, load_varp(1114))
+		if_settext(if_gethash(105, 141), sVar0 + " gp")
+	} else  {
+		if_settext(if_gethash(105, 143), "Retrieving details...")
+		if_settext(if_gethash(105, 141), "N/A")
+	}
+	if_settrans(if_gethash(105, 138), 255)
+	instr6342(if_gethash(105, 138), None, "")
+	if_sethide(if_gethash(107, 0), 1)
+}
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+if(instr6004(if_gethash(105, 141)) == 1)
+	if(instr6004(if_gethash(105, 140)) == 1) {
+		iVar5 = cc_getwidth()
+		iVar6 = parawidth(cc_gettext(), 494, iVar5)
+		iVar7 = cc_getwidth()
+		iVar4 = (52 + ((iVar5 - iVar6) / 2)) - (iVar7 - 5)
+		cc_setposition(0, 0, cc_gety(), iVar4)
+	}
+if(load_varc(82) <= 0) {
+	sVar0 = tostring_localized(1, arg2)
+	if_settext(if_gethash(105, 148), sVar0)
+	store_varc(84, load_varp(1110))
+}
+if(load_varc(83) <= 0) {
+	sVar0 = tostring_localized(1, arg3)
+	if_settext(if_gethash(105, 153), sVar0 + " gp")
+	store_varc(85, load_varp(1111))
+}
+return

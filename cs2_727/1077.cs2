@@ -1,0 +1,74 @@
+//script1077(1077)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = arg0
+if(arg0 == 105)
+	if(load_varpbit(7774) != 0)
+		arg0 = 1021
+	else
+		if(load_varp(394) == 0)
+			arg0 = 561
+qc_setmessage(arg0)
+iVar2 = 0
+iVar3 = instr6594(arg0)
+iVar4 = -1
+if(iVar2 < iVar3)
+	while(iVar2 < 10) {
+		switch(instr6595(iVar2, arg0)) {
+			case default:
+				break
+			case 0:
+				script_1078(iVar2)
+				break
+			case 1:
+				script_1079(iVar2)
+				break
+			case 10:
+				script_1079(iVar2)
+				break
+			case 2:
+				script_1078(iVar2)
+				break
+
+		}
+		iVar2 = iVar2 + 1
+	}
+if(load_varc(126) == 0 || load_varc(126) == 4)
+	qc_sendpublicmessage()
+else
+	if(load_varc(126) == 1) {
+		iVar4 = script_1090(load_varc_string(27))
+		if(iVar4 == 1) {
+			qc_sendprivatemessage(removetags(load_varc_string(27)))
+			script_1089()
+		} else 
+			if(iVar4 == -1)
+				send_message("Sorry, this user is not on your Friends List.")
+			else
+				send_message("Sorry, your friend is no longer playing RuneScape.")
+	} else 
+		if(load_varc(126) == 5) {
+			qc_sendprivatemessage(removetags(load_varc_string(27)))
+			script_1089()
+		} else 
+			if(load_varc(126) == 3 || load_varc(126) == 7) {
+				qc_sendprivatemessage(removetags(load_varc_string(27)))
+				script_1089()
+			} else 
+				if(load_varc(126) == 2 || load_varc(126) == 6)
+					qc_sendfriendschatmessage()
+				else
+					if(load_varc(126) == 8 || load_varc(126) == 9)
+						if(activeclanchannel_find_affined() == 1)
+							qc_sendclanchatmessage()
+					else
+						if(load_varc(126) == 10 || load_varc(126) == 11)
+							if(activeclanchannel_find_listened() == 1)
+								qc_sendguestclanchatmessage()
+store_varc(130, iVar1)
+store_varc(131, load_varc(126))
+store_varc_string(28, load_varc_string(27))
+script_1054()
+return

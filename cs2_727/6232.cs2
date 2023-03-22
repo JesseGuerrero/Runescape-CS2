@@ -1,0 +1,5 @@
+//script6232(6232)()(void)
+cc_deleteall(if_gethash(1283, 5))
+pop_int()
+script_1516(84082693, 450, 100)
+return

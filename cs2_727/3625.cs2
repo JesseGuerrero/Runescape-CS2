@@ -1,0 +1,33 @@
+//script3625(3625)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+iVar7 = 0
+iVar8 = enum_getoutputcount(arg0)
+iVar9 = -1
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+sound_synth(0, 1, 9506)
+while(iVar7 < iVar8) {
+	iVar9 = enum(arg0, iVar7, 'i', 'I')
+	iVar10 = enum(arg3, modulo(iVar8, iVar7 + arg4), 'i', 'i')
+	iVar13 = modulo(enum_getoutputcount(3170), iVar10 + arg5)
+	if(instr6004(iVar9) == 1) {
+		if(instr6771(1103) != instr6771(1104))
+			if_setitem(iVar9, -1, enum(3170, instr6771(1104), 'i', 'o'))
+		cc_setparam_int(iVar10, 1103)
+		cc_setparam_int(iVar13, 1104)
+		iVar11 = instr6771(1101)
+		iVar12 = instr6771(1102)
+		cc_setposition(0, 0, iVar12, iVar11)
+	}
+	instr6342(iVar9, script_3627, "Iiiiioiii", iVar9, iVar11, iVar12, 25 * enum(arg1, iVar7, 'i', 'i'), 25 * enum(arg2, iVar7, 'i', 'i'), enum(3170, iVar13, 'i', 'o'), iVar13, 0, arg6)
+	iVar7 = iVar7 + 1
+}
+return

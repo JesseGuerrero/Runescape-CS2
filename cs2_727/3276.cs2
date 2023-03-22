@@ -1,0 +1,453 @@
+//script3276(3276)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 100
+iVar9 = 25
+iVar10 = 25
+iVar11 = 50
+iVar12 = 25
+iVar13 = 25
+iVar14 = 50
+iVar15 = 25
+iVar16 = 25
+iVar17 = 50
+iVar18 = 100
+iVar19 = 50
+iVar20 = 25
+iVar21 = 150
+iVar22 = 25
+iVar23 = 100
+iVar24 = 25
+iVar25 = 100
+iVar26 = 25
+iVar27 = 50
+iVar28 = 25
+iVar29 = 50
+iVar30 = 25
+iVar31 = 25
+iVar32 = 25
+iVar33 = 150
+iVar34 = 100
+iVar35 = 200
+iVar36 = 100
+store_varc(1186, 2000)
+store_varc(1185, max(0, load_varc(1185) - 2))
+if_settrans(if_gethash(933, 251), load_varc(1185))
+if_settrans(if_gethash(933, 297), 0)
+if_settrans(if_gethash(933, 298), 0)
+if_settrans(if_gethash(933, 299), 0)
+iVar37 = 0
+if(load_varc(1188) == 2)
+	iVar37 = 792
+else
+	if(load_varc(1188) == 3)
+		iVar37 = 1583
+iVar38 = scale(1267, 10000, load_varc(1195))
+iVar3 = script_3273().get(0)
+iVar39 = iVar5
+iVar40 = script_3274()
+iVar41 = 10000 - (min(6, load_varpbit(7554)) * 1000)
+if_sethide(if_gethash(933, 192), 0)
+if_sethide(if_gethash(933, 17), 0)
+if_sethide(if_gethash(933, 187), 0)
+if_sethide(if_gethash(933, 240), 0)
+if(load_varc(1187) < load_varc(1319)) {
+	if_settext(if_gethash(933, 240), "Floor " + to_string(load_varc(1187)) + ":")
+	if_setcolor(61145328, 0xA00000)
+} else 
+	if_settext(if_gethash(933, 240), "Floor " + to_string(load_varc(1319)) + ":")
+if_sethide(if_gethash(933, 22), 0)
+if_setsize(if_gethash(933, 23), 0, 0, if_getheight(if_gethash(933, 23)) + 5, if_getwidth(if_gethash(933, 23)) + 5)
+sound_synth(0, 1, 8802)
+if_settrans(if_gethash(933, 23), min(if_gettrans(if_gethash(933, 23)) + 30, 255))
+if_sethide(if_gethash(933, 241), 0)
+if_settext(if_gethash(933, 241), to_string(scale(iVar8, 100, (load_varc(1237) + 5) / 10)))
+if_sethide(if_gethash(933, 190), 0)
+if_settrans(if_gethash(933, 190), 255 - ((iVar8 * 255) / 100))
+if_sethide(if_gethash(933, 188), 0)
+if_sethide(if_gethash(933, 227), 0)
+if(world_members() == 1)
+	if_settext(if_gethash(933, 227), "Prestige " + to_string(min(max(load_varpbit(7551), load_varpbit(7550)), 60)))
+else
+	if_settext(if_gethash(933, 227), "Prestige " + to_string(min(max(load_varpbit(7551), load_varpbit(7550)), 35)))
+if_sethide(if_gethash(933, 21), 0)
+if_setsize(if_gethash(933, 24), 0, 0, if_getheight(if_gethash(933, 24)) + 5, if_getwidth(if_gethash(933, 24)) + 5)
+if_settrans(if_gethash(933, 24), 255)
+if_sethide(if_gethash(933, 228), 0)
+if_settext(if_gethash(933, 228), to_string(scale(iVar8, 100, (load_varc(1238) + 5) / 10)))
+if_sethide(if_gethash(933, 191), 0)
+if_settrans(if_gethash(933, 191), 255 - ((iVar8 * 255) / 100))
+if_sethide(if_gethash(933, 189), 0)
+if_sethide(if_gethash(933, 214), 0)
+if_sethide(if_gethash(933, 20), 0)
+if_setsize(if_gethash(933, 25), 0, 0, if_getheight(if_gethash(933, 25)) + 5, if_getwidth(if_gethash(933, 25)) + 5)
+if_settrans(if_gethash(933, 25), 0)
+if_sethide(if_gethash(933, 215), 0)
+if_settext(if_gethash(933, 215), to_string(scale(iVar8, 100, (load_varc(1239) + 5) / 10)))
+if_sethide(if_gethash(933, 186), 1)
+if_sethide(if_gethash(933, 19), 0)
+if_settext(if_gethash(933, 39), to_string(scale(iVar8, 100, (load_varc(1239) + 5) / 10)))
+if_settrans(if_gethash(933, 37), 255)
+if_sethide(if_gethash(933, 83), 0)
+if_sethide(if_gethash(933, 18), 0)
+if_sethide(if_gethash(933, 53), 0)
+if_sethide(if_gethash(933, 54), 0)
+if_sethide(if_gethash(933, 68), 0)
+if_sethide(if_gethash(933, 69), 0)
+if_sethide(if_gethash(933, 70), 0)
+if_sethide(if_gethash(933, 71), 0)
+if_sethide(if_gethash(933, 72), 0)
+if_sethide(if_gethash(933, 73), 0)
+if_sethide(if_gethash(933, 74), 0)
+iVar3 = script_3273().get(0)
+if(load_varc(1188) <= 1) {
+	if_settrans(if_gethash(933, 68), 0)
+	if_settext(if_gethash(933, 74), "+0%")
+} else 
+	if(load_varc(1188) == 2) {
+		if_settrans(if_gethash(933, 69), 0)
+		if_settext(if_gethash(933, 74), "+" + to_string(792 / 100) + "%")
+	} else 
+		if(load_varc(1188) > 2) {
+			if_settrans(if_gethash(933, 70), 0)
+			if_settext(if_gethash(933, 74), "+" + to_string(1583 / 100) + "%")
+		}
+if_sethide(if_gethash(933, 55), 0)
+if_sethide(if_gethash(933, 64), 0)
+if_sethide(if_gethash(933, 75), 0)
+if_setsize(if_gethash(933, 172), 2, 2, 16384, scale(iVar8, 100, scale(16384, 10000, load_varc(1195))))
+iVar0 = 10000 + iVar37
+iVar1 = (10000 + iVar37) + iVar38
+if(iVar1 >= iVar0)
+	if_settext(if_gethash(933, 75), "+" + to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+else
+	if_settext(if_gethash(933, 75), to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+if_settext(if_gethash(933, 96), to_string(((iVar0 + scale(iVar1 - iVar0, 100, iVar8)) + 50) / 100) + "%")
+if_setsize(if_gethash(933, 112), 2, 2, 16384, scale(((iVar0 + scale(iVar1 - iVar0, 100, iVar8)) + 50) / 100, 100, 8192))
+if_sethide(if_gethash(933, 56), 0)
+if_sethide(if_gethash(933, 57), 0)
+if_sethide(if_gethash(933, 78), 0)
+if_sethide(if_gethash(933, 80), 0)
+if_sethide(if_gethash(933, 59), 0)
+if_settrans(if_gethash(933, 78), 255 - ((iVar8 * 255) / 100))
+if_settrans(if_gethash(933, 80), 255 - ((iVar8 * 255) / 100))
+iVar3 = script_3273().get(0)
+if_settext(if_gethash(933, 57), to_string(iVar3) + " : " + to_string(iVar4))
+iVar0 = (10000 + iVar37) + iVar38
+iVar1 = ((10000 + iVar37) + iVar38) + iVar39
+if(iVar1 >= iVar0)
+	if_settext(if_gethash(933, 59), "+" + to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+else
+	if_settext(if_gethash(933, 59), to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+if_sethide(if_gethash(933, 61), 0)
+if_sethide(if_gethash(933, 76), 0)
+iVar0 = ((10000 + iVar37) + iVar38) + iVar39
+iVar1 = (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236)
+if(iVar1 >= iVar0)
+	if_settext(if_gethash(933, 76), "+" + to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+else
+	if_settext(if_gethash(933, 76), to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+if_sethide(if_gethash(933, 62), 0)
+if_sethide(if_gethash(933, 58), 0)
+if_sethide(if_gethash(933, 79), 0)
+if_sethide(if_gethash(933, 81), 0)
+if_sethide(if_gethash(933, 60), 0)
+if_settrans(if_gethash(933, 79), 255 - ((iVar8 * 255) / 100))
+if_settrans(if_gethash(933, 81), 255 - ((iVar8 * 255) / 100))
+if_settext(if_gethash(933, 58), to_string(scale(iVar8, 100, load_varc(1320))))
+iVar0 = (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236)
+iVar1 = scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236))
+if(iVar1 >= iVar0)
+	if_settext(if_gethash(933, 60), "+" + to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+else
+	if_settext(if_gethash(933, 60), to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+if_sethide(if_gethash(933, 63), 0)
+if_sethide(if_gethash(933, 77), 0)
+iVar0 = scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236))
+iVar1 = scale(script_3275(), 10000, scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236)))
+if(iVar1 >= iVar0)
+	if_settext(if_gethash(933, 77), "+" + to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+else
+	if_settext(if_gethash(933, 77), to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+if_sethide(if_gethash(933, 65), 0)
+if_sethide(if_gethash(933, 66), 0)
+if_sethide(if_gethash(933, 67), 0)
+if(load_varpbit(7554) != 0)
+	switch(load_varpbit(7554)) {
+		case default:
+			break
+		case 1:
+			if_sethide(if_gethash(933, 146), 0)
+			if_setgraphic(if_gethash(933, 146), 2849)
+			break
+		case 2:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_setgraphic(if_gethash(933, 146), 2850)
+			if_setgraphic(if_gethash(933, 147), 2849)
+			break
+		case 3:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_setgraphic(if_gethash(933, 147), 2850)
+			if_setgraphic(if_gethash(933, 148), 2849)
+			break
+		case 4:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_setgraphic(if_gethash(933, 148), 2850)
+			if_setgraphic(if_gethash(933, 149), 2849)
+			break
+		case 5:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_setgraphic(if_gethash(933, 149), 2850)
+			if_setgraphic(if_gethash(933, 150), 2849)
+			break
+		case 6:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_setgraphic(if_gethash(933, 150), 2850)
+			if_setgraphic(if_gethash(933, 151), 2849)
+			break
+		case 7:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_setgraphic(if_gethash(933, 151), 2850)
+			if_setgraphic(if_gethash(933, 152), 2849)
+			break
+		case 8:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_setgraphic(if_gethash(933, 152), 2850)
+			if_setgraphic(if_gethash(933, 153), 2849)
+			break
+		case 9:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_sethide(if_gethash(933, 154), 0)
+			if_setgraphic(if_gethash(933, 153), 2850)
+			if_setgraphic(if_gethash(933, 154), 2849)
+			break
+		case 10:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_sethide(if_gethash(933, 154), 0)
+			if_sethide(if_gethash(933, 155), 0)
+			if_setgraphic(if_gethash(933, 154), 2850)
+			if_setgraphic(if_gethash(933, 155), 2849)
+			break
+		case 11:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_sethide(if_gethash(933, 154), 0)
+			if_sethide(if_gethash(933, 155), 0)
+			if_sethide(if_gethash(933, 156), 0)
+			if_setgraphic(if_gethash(933, 155), 2850)
+			if_setgraphic(if_gethash(933, 156), 2849)
+			break
+		case 12:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_sethide(if_gethash(933, 154), 0)
+			if_sethide(if_gethash(933, 155), 0)
+			if_sethide(if_gethash(933, 156), 0)
+			if_sethide(if_gethash(933, 157), 0)
+			if_setgraphic(if_gethash(933, 156), 2850)
+			if_setgraphic(if_gethash(933, 157), 2849)
+			break
+		case 13:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_sethide(if_gethash(933, 154), 0)
+			if_sethide(if_gethash(933, 155), 0)
+			if_sethide(if_gethash(933, 156), 0)
+			if_sethide(if_gethash(933, 157), 0)
+			if_sethide(if_gethash(933, 158), 0)
+			if_setgraphic(if_gethash(933, 157), 2850)
+			if_setgraphic(if_gethash(933, 158), 2849)
+			break
+		case 14:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_sethide(if_gethash(933, 154), 0)
+			if_sethide(if_gethash(933, 155), 0)
+			if_sethide(if_gethash(933, 156), 0)
+			if_sethide(if_gethash(933, 157), 0)
+			if_sethide(if_gethash(933, 158), 0)
+			if_sethide(if_gethash(933, 159), 0)
+			if_setgraphic(if_gethash(933, 158), 2850)
+			if_setgraphic(if_gethash(933, 159), 2849)
+			break
+		case 15:
+			if_sethide(if_gethash(933, 146), 0)
+			if_sethide(if_gethash(933, 147), 0)
+			if_sethide(if_gethash(933, 148), 0)
+			if_sethide(if_gethash(933, 149), 0)
+			if_sethide(if_gethash(933, 150), 0)
+			if_sethide(if_gethash(933, 151), 0)
+			if_sethide(if_gethash(933, 152), 0)
+			if_sethide(if_gethash(933, 153), 0)
+			if_sethide(if_gethash(933, 154), 0)
+			if_sethide(if_gethash(933, 155), 0)
+			if_sethide(if_gethash(933, 156), 0)
+			if_sethide(if_gethash(933, 157), 0)
+			if_sethide(if_gethash(933, 158), 0)
+			if_sethide(if_gethash(933, 159), 0)
+			if_sethide(if_gethash(933, 160), 0)
+			if_setgraphic(if_gethash(933, 159), 2850)
+			if_setgraphic(if_gethash(933, 160), 2849)
+			break
+
+	}
+else {
+	if_settext(if_gethash(933, 67), "n/a")
+	store_varc(1186, load_varc(1186) + 2)
+}
+iVar0 = scale(script_3275(), 10000, scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236)))
+iVar1 = scale(iVar41, 10000, scale(script_3275(), 10000, scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236))))
+if(iVar1 >= iVar0)
+	if_settext(if_gethash(933, 67), "+" + to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+else
+	if_settext(if_gethash(933, 67), to_string((scale(iVar1 - iVar0, 100, iVar8) + 50) / 100) + "%")
+if_sethide(if_gethash(933, 53), 1)
+if(load_varc(1321) > 0) {
+	if_sethide(if_gethash(933, 84), 0)
+	if_settext(if_gethash(933, 94), "Unbalanced party penalty: x" + to_string(((10000 - load_varc(1321)) + 50) / 100) + "%")
+}
+iVar0 = scale(iVar41, 10000, scale(script_3275(), 10000, scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236))))
+iVar1 = scale(10000 - load_varc(1321), 10000, scale(iVar41, 10000, scale(script_3275(), 10000, scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236)))))
+if_settext(if_gethash(933, 96), to_string(((iVar0 + scale(iVar1 - iVar0, 100, iVar8)) + 50) / 100) + "%")
+if_setsize(if_gethash(933, 112), 2, 2, 16384, scale(((iVar0 + scale(iVar1 - iVar0, 100, iVar8)) + 50) / 100, 100, 8192))
+if_sethide(if_gethash(933, 13), 1)
+if_sethide(if_gethash(933, 16), 1)
+if_sethide(if_gethash(933, 14), 1)
+if_sethide(if_gethash(933, 15), 1)
+if_settext(if_gethash(933, 39), to_string(load_varc(1239)))
+iVar0 = load_varc(1239)
+iVar1 = scale(load_varc(1239), 10000, scale(10000 - load_varc(1321), 10000, scale(iVar41, 10000, scale(script_3275(), 10000, scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236))))))
+if(modulo(5, iVar8) == 0)
+	if(if_gety(if_gethash(933, 84)) != 138)
+		if_setposition(if_gethash(933, 84), 0, 0, if_gety(if_gethash(933, 84)) + 1, if_getx(if_gethash(933, 84)))
+if_setsize(if_gethash(933, 111), 0, 0, scale(iVar8, 100, 80), 183)
+if_settext(if_gethash(933, 39), to_string(((iVar0 + scale(iVar1 - iVar0, 100, iVar8)) + 5) / 10) + "%")
+iVar0 = load_varc(1239)
+iVar1 = scale(load_varc(1239), 10000, scale(10000 - load_varc(1321), 10000, scale(iVar41, 10000, scale(script_3275(), 10000, scale(iVar40, 10000, (((10000 + iVar37) + iVar38) + iVar39) + load_varc(1236))))))
+if_settext(if_gethash(933, 41), to_string(((iVar0 + scale(iVar1 - iVar0, 100, iVar8)) + 5) / 100) + "%")
+if_sethide(if_gethash(933, 16), 1)
+if_sethide(if_gethash(933, 14), 1)
+if_sethide(if_gethash(933, 15), 1)
+if(load_varp(1780) < 2000000000)
+	if_settext(if_gethash(933, 41), to_string(((iVar0 + scale(iVar1 - iVar0, 100, iVar8)) + 5) / 100) + "%")
+else
+	if_settext(if_gethash(933, 41), "n/a")
+if_sethide(if_gethash(933, 20), 1)
+if_sethide(if_gethash(933, 21), 1)
+if_sethide(if_gethash(933, 22), 1)
+script_949()
+return

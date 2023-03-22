@@ -1,0 +1,15 @@
+void script_598(Widget widget0, int arg1, int arg2) {
+	int int3;
+	int3 = arg2 % 3000 / 50;
+	if (int3 >= 10) {
+		CHILD.setText(arg2 / 3000 + ":" + int3);
+	} else {
+		CHILD.setText(arg2 / 3000 + ":0" + int3);
+	}
+	widget0.hookFrame(&script_597(widget0, widget(arg1), getChildId(), arg2));
+	if (arg2 > 500) {
+		arg2 = 500;
+	}
+	CHILD.setRGB(script_246(255, mathMethod4006(0, arg2, 0, 500, 152), mathMethod4006(0, arg2, 0, 500, 31)));
+	return;
+}

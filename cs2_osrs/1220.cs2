@@ -1,0 +1,27 @@
+void script_1220(int arg0) {
+	Widget widget1;
+	Widget widget2;
+	widget1 = null;
+	widget2 = null;
+	if (arg0 == 3) {
+		widget1, widget2 = 16056330, 16121875;
+	} else if (arg0 == 2) {
+		widget1, widget2 = 16056333, 16121879;
+	} else if (arg0 == 4) {
+		widget1, widget2 = 16056336, 16121883;
+	} else if (arg0 == 5) {
+		widget1, widget2 = 16056339, 16121887;
+	} else {
+		if (!(arg0 == 1)) {
+			return;
+		}
+		widget1, widget2 = 16056342, 16121891;
+	}
+	if (CHILD.setChild(widget1, 0) == true) {
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.hookFrame(&script_1233(CTX_WIDGET, CTX_WIDGET_CHILD, arg0, getClientCycle() + 30));
+	}
+	widget2.setRGB(0xFFFFFF);
+	widget2.hookFrame(&script_1221(widget2, arg0));
+	return;
+}

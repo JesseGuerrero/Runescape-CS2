@@ -1,0 +1,22 @@
+//script6410(6410)()(void)
+if(load_varpbit(4782) == 0) {
+	script_6414(85721107, 0)
+	script_6414(85721109, 0)
+	if_settext(if_gethash(1308, 421), "You must complete one assignment.")
+	if_settext(if_gethash(1308, 447), "You must complete one assignment.")
+	return
+} else 
+	if(load_varpbit(4781) < 100) {
+		script_6414(85721109, 0)
+		if(load_varp(394) > 0)
+			if_settext(if_gethash(1308, 447), "100 points")
+		else
+			if_settext(if_gethash(1308, 447), "You must have an assignment.")
+		if(load_varpbit(4781) < 30)
+			script_6414(85721107, 0)
+		if(load_varp(394) > 0)
+			if_settext(if_gethash(1308, 421), "30 points.")
+		else
+			if_settext(if_gethash(1308, 421), "You must have an assignment.")
+	}
+return

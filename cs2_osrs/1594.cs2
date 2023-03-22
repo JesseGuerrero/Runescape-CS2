@@ -1,0 +1,5 @@
+void script_1594(Widget widget0) {
+	widget0.hookFrame(null);
+	widget0.setRGB(0xFFFFFF);
+	return;
+}

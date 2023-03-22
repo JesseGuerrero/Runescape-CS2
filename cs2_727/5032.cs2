@@ -1,0 +1,3 @@
+//script5032(5032)(int arg0)(int)
+return (arg0 / (2 ^ 8)) & 15
+return 0

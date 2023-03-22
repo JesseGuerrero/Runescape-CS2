@@ -1,0 +1,8 @@
+//script6411(6411)(int arg0, int arg1, int arg2, string arg3)(void)
+if(arg0 == 1)
+	script_6414(85721109, 0)
+if(arg1 == 1)
+	script_6414(85721107, 0)
+if(arg2 == 1)
+	if_settext(if_gethash(1308, 421), arg0)
+return

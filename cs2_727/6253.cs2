@@ -1,0 +1,25 @@
+//script6253(6253)(int arg0)(void)
+if(arg0 == 60489791)
+	if_sethide(if_gethash(923, 16), 0)
+else
+	if(arg0 == 60489789)
+		if_sethide(if_gethash(923, 18), 0)
+	else
+		if(arg0 == 60489787)
+			if_sethide(if_gethash(923, 20), 0)
+		else
+			if(arg0 == 60489785)
+				if_sethide(if_gethash(923, 22), 0)
+			else
+				if(arg0 == 60489783)
+					if_sethide(if_gethash(923, 24), 0)
+				else
+					if(arg0 == 60489781)
+						if_sethide(if_gethash(923, 26), 0)
+					else
+						if(arg0 == 60489779)
+							if_sethide(if_gethash(923, 28), 0)
+						else
+							if(arg0 == 60489777)
+								if_sethide(if_gethash(923, 30), 0)
+return

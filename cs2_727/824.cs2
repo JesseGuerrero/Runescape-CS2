@@ -1,0 +1,110 @@
+//script824(824)(int arg0, string arg1)(string)
+if(arg0 == 0) {
+	arg0 = append(" ", arg0)
+	return arg0
+}
+if(arg0 == 1) {
+	arg0 = append("a", arg0)
+	return arg0
+}
+if(arg0 == 2) {
+	arg0 = append("b", arg0)
+	return arg0
+}
+if(arg0 == 3) {
+	arg0 = append("c", arg0)
+	return arg0
+}
+if(arg0 == 4) {
+	arg0 = append("d", arg0)
+	return arg0
+}
+if(arg0 == 5) {
+	arg0 = append("e", arg0)
+	return arg0
+}
+if(arg0 == 6) {
+	arg0 = append("f", arg0)
+	return arg0
+}
+if(arg0 == 7) {
+	arg0 = append("g", arg0)
+	return arg0
+}
+if(arg0 == 8) {
+	arg0 = append("h", arg0)
+	return arg0
+}
+if(arg0 == 9) {
+	arg0 = append("i", arg0)
+	return arg0
+}
+if(arg0 == 10) {
+	arg0 = append("j", arg0)
+	return arg0
+}
+if(arg0 == 11) {
+	arg0 = append("k", arg0)
+	return arg0
+}
+if(arg0 == 12) {
+	arg0 = append("l", arg0)
+	return arg0
+}
+if(arg0 == 13) {
+	arg0 = append("m", arg0)
+	return arg0
+}
+if(arg0 == 14) {
+	arg0 = append("n", arg0)
+	return arg0
+}
+if(arg0 == 15) {
+	arg0 = append("o", arg0)
+	return arg0
+}
+if(arg0 == 16) {
+	arg0 = append("p", arg0)
+	return arg0
+}
+if(arg0 == 17) {
+	arg0 = append("q", arg0)
+	return arg0
+}
+if(arg0 == 18) {
+	arg0 = append("r", arg0)
+	return arg0
+}
+if(arg0 == 19) {
+	arg0 = append("s", arg0)
+	return arg0
+}
+if(arg0 == 20) {
+	arg0 = append("t", arg0)
+	return arg0
+}
+if(arg0 == 21) {
+	arg0 = append("u", arg0)
+	return arg0
+}
+if(arg0 == 22) {
+	arg0 = append("v", arg0)
+	return arg0
+}
+if(arg0 == 23) {
+	arg0 = append("w", arg0)
+	return arg0
+}
+if(arg0 == 24) {
+	arg0 = append("x", arg0)
+	return arg0
+}
+if(arg0 == 25) {
+	arg0 = append("y", arg0)
+	return arg0
+}
+if(arg0 == 26) {
+	arg0 = append("z", arg0)
+	return arg0
+}
+return ""

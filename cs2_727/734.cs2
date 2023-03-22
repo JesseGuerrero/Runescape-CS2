@@ -1,0 +1,5 @@
+//script734(734)(int arg0)(int)
+if(arg0 >= 1)
+	return 1
+return 0
+return -1

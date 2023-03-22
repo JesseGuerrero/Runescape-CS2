@@ -1,0 +1,54 @@
+//script6271(6271)(int arg0)(void)
+store_varc(1934, arg0)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1291, 4), 11232)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1291, 5), 11232)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1291, 6), 11232)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1291, 7), 11232)
+		break
+	case 5:
+		if_setgraphic(if_gethash(1291, 8), 11232)
+		break
+	case 6:
+		if_setgraphic(if_gethash(1291, 9), 11232)
+		break
+	case 7:
+		if_setgraphic(if_gethash(1291, 10), 11232)
+		break
+	case 8:
+		if_setgraphic(if_gethash(1291, 11), 11232)
+		break
+	case 9:
+		if_setgraphic(if_gethash(1291, 12), 11232)
+		break
+	case 10:
+		if_setgraphic(if_gethash(1291, 13), 11232)
+		break
+	case 11:
+		if_setgraphic(if_gethash(1291, 14), 11232)
+		break
+	case 12:
+		if_setgraphic(if_gethash(1291, 15), 11232)
+		break
+	case 13:
+		if_setgraphic(if_gethash(1291, 16), 11232)
+		break
+
+}
+if(instr6644() == 1) {
+	if(load_varc(1929) < 0)
+		store_varc(1929, 0)
+	if_sethide(if_gethash(1296, 22), 1)
+	if_sethide(if_gethash(1296, 6), 0)
+	if_setposition(if_gethash(1296, 23), 0, 2, 2, 120)
+}
+return

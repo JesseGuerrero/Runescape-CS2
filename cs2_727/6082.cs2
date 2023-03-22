@@ -1,0 +1,13 @@
+//script6082(6082)()(void)
+cc_deleteall(if_gethash(1265, 20))
+cc_deleteall(if_gethash(1265, 25))
+cc_deleteall(if_gethash(1265, 26))
+cc_deleteall(if_gethash(1265, 24))
+cc_deleteall(if_gethash(1265, 23))
+cc_deleteall(if_gethash(1265, 27))
+cc_deleteall(if_gethash(1265, 21))
+cc_deleteall(if_gethash(1265, 96))
+cc_deleteall(if_gethash(1265, 97))
+cc_deleteall(if_gethash(1265, 95))
+cc_deleteall(if_gethash(1265, 98))
+return

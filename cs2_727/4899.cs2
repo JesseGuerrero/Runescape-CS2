@@ -1,0 +1,69 @@
+//script4899(4899)(int arg0)(void)
+store_varpbit(9552, arg0)
+script_4935()
+script_4940()
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if_sethide(if_gethash(1261, 47), 1)
+		if_sethide(if_gethash(1258, 103), 1)
+		if_sethide(if_gethash(1258, 102), 1)
+		if_sethide(if_gethash(1259, 5), 0)
+		if_settext(if_gethash(1259, 153), "")
+		if_sethide(if_gethash(1259, 150), 1)
+		break
+	case 1:
+		if_sethide(if_gethash(1261, 47), 0)
+		if_sethide(if_gethash(1258, 103), 1)
+		if_sethide(if_gethash(1258, 102), 1)
+		if_settext(if_gethash(1261, 266), "")
+		if_sethide(if_gethash(1261, 263), 1)
+		if_sethide(if_gethash(1259, 5), 1)
+		script_5009()
+		script_5011()
+		break
+	case 2:
+		script_4860()
+		script_4863()
+		script_4859()
+		if_sethide(if_gethash(1261, 47), 1)
+		if_sethide(if_gethash(1258, 103), 0)
+		if_sethide(if_gethash(1258, 102), 0)
+		if_settext(if_gethash(1258, 195), "")
+		if_sethide(if_gethash(1258, 192), 1)
+		if_sethide(if_gethash(1259, 5), 1)
+		script_5009()
+		break
+	case 4:
+		if_sethide(if_gethash(1261, 47), 0)
+		if_sethide(if_gethash(1258, 103), 1)
+		if_sethide(if_gethash(1258, 102), 1)
+		if_settext(if_gethash(1261, 266), "Please select an available spot from the map.")
+		if_sethide(if_gethash(1261, 263), 0)
+		if_sethide(if_gethash(1259, 5), 1)
+		script_5010()
+		script_4935()
+		break
+	case 3:
+		if_sethide(if_gethash(1261, 47), 0)
+		if_sethide(if_gethash(1258, 103), 1)
+		if_sethide(if_gethash(1258, 102), 1)
+		if_settext(if_gethash(1261, 266), "Please select a spot from the map.")
+		if_sethide(if_gethash(1261, 263), 0)
+		if_sethide(if_gethash(1259, 5), 1)
+		script_5010()
+		break
+	case 5:
+		if_sethide(if_gethash(1261, 47), 1)
+		if_sethide(if_gethash(1258, 103), 0)
+		if_sethide(if_gethash(1258, 102), 0)
+		if_settext(if_gethash(1258, 195), "Please select an available spot from the map.")
+		if_sethide(if_gethash(1258, 192), 0)
+		if_sethide(if_gethash(1259, 5), 1)
+		script_5009()
+		break
+
+}
+script_4853()
+return

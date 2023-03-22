@@ -1,0 +1,14 @@
+void script_1103() {
+	if (length(STRING[27]) > 0) {
+		playSoundEffect(2266, 1, 0);
+		if (VARPBIT[4931] < 10) {
+			cs2method3116(0, script_1099(STRING[27]), script_1099(STRING[130]));
+		}
+		sendCloseWidgetPacket();
+		msg("Your bug report has been submitted. Thank you.");
+		return;
+	}
+	playSoundEffect(2277, 1, 0);
+	msg("Please describe the bug.");
+	return;
+}

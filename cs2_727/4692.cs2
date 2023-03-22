@@ -1,0 +1,53 @@
+//script4692(4692)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+string sVar1
+string sVar2
+iVar2 = 36110359
+iVar3 = -1
+sVar0 = ""
+sVar1 = ""
+iVar4 = 0
+iVar5 = 0
+sVar2 = ""
+iVar6 = 0
+switch(arg0) {
+	case default:
+		break
+	case 36110346:
+		iVar6 = 1
+		sVar1 = "Nothing breaks for 30 seconds."
+		break
+	case 36110372:
+		iVar6 = 2
+		sVar1 = "Kill twice as many trolls when repairing things."
+		break
+	case 36110386:
+		iVar6 = 3
+		sVar1 = "Fix twice as fast and counter-acts troll magic run energy effects."
+		break
+	case 36110400:
+		iVar6 = 4
+		sVar1 = "Broken things don't hurt gatehouse health for 30 seconds."
+		if_sethide(iVar2, 1)
+		return
+
+
+}
+if_settext(if_gethash(551, 29), enum(3855, iVar6, 'i', 's'))
+if_settext(if_gethash(551, 30), sVar1)
+if_settext(if_gethash(551, 31), "Cost: " + to_string(enum(3856, iVar6, 'i', 'i')))
+iVar5 = enum(3857, iVar6, 'i', 'i')
+if(iVar5 == 50)
+	sVar2 = "30 sec"
+if(iVar5 == 100)
+	sVar2 = "1 min"
+if_settext(if_gethash(551, 32), "Cooldown: " + sVar2)
+if_setcolor(arg0, 0x363536)
+if_setposition(iVar2, 0, 0, arg1, if_getx(iVar2))
+if_sethide(iVar2, 0)
+return

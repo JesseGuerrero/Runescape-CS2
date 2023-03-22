@@ -1,0 +1,15 @@
+void script_1334(Widget widget0, Widget widget1, string string2) {
+	widget0.setContextMenuOption(1, "Press");
+	widget0.hookOptionClick(&script_1336(CTX_WIDGET));
+	widget0.setOptionBase("<col=ff981f>" + "Button");
+	CHILD.createChild(widget1, 4, 0);
+	CHILD.setText(string2);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setPosition(0, 0, 4, 4);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.hookMouseEnter(&script_1335(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+	CHILD.hookMouseExit(&script_1335(CTX_WIDGET, CTX_WIDGET_CHILD, 16750623));
+	return;
+}

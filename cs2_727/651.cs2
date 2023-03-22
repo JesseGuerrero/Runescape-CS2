@@ -1,0 +1,147 @@
+//script651(651)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+iVar1 = script_623(arg0)
+cc_deleteall(iVar1)
+iVar2 = if_getwidth(iVar1)
+iVar3 = if_getheight(iVar1)
+iVar4 = stockmarket_getoffertype(arg0)
+iVar5 = stockmarket_getoffercount(arg0)
+iVar6 = stockmarket_getoffercompletedcount(arg0)
+iVar7 = stockmarket_getofferitem(arg0)
+iVar8 = stockmarket_getofferprice(arg0)
+sVar0 = ""
+if(stockmarket_isofferempty(arg0) == 1)
+	sVar0 = "Empty"
+else
+	if(stockmarket_getoffertype(arg0) == 0)
+		sVar0 = "Buy"
+	else
+		sVar0 = "Sell"
+cc_create(0, 3, iVar1)
+cc_setsize(0, 0, iVar3, iVar2)
+cc_setposition(0, 0, 0, 0)
+cc_setfill(1)
+cc_setcolor(ffffff)
+cc_settrans(255)
+script_584(iVar1, sVar0)
+iVar9 = if_getnextsubid(iVar1)
+hook_mouse_enter(iVar1, script_629, "i", arg0)
+hook_mouse_exit(iVar1, script_631, "i", arg0)
+if(stockmarket_isofferempty(arg0) == 1) {
+	instr6239(iVar1, None, "")
+	instr6213(iVar1, 1, "")
+	instr6213(iVar1, 2, "")
+	if(arg0 >= 2)
+		if(playermember() == 1)
+			if_sethide(script_624(arg0), 1)
+		else
+			if_sethide(script_624(arg0), 0)
+} else  {
+	instr6213(iVar1, 1, "View Offer")
+	if(stockmarket_isofferfinished(arg0) == 0)
+		instr6213(iVar1, 2, "Abort Offer")
+	else
+		instr6213(iVar1, 2, "")
+}
+sVar1 = tostring_localized(1, iVar5)
+sVar2 = tostring_localized(1, iVar8)
+iVar10 = 0
+iVar11 = 0
+iVar12 = script_627(arg0)
+if_sethide(iVar12, 1)
+iVar13 = script_626(arg0)
+iVar14 = script_625(arg0)
+sVar3 = ""
+iVar15 = 0
+iVar16 = 0
+if(stockmarket_isofferempty(arg0) == 1)
+	if(arg0 < 2 || playermember() == 1)
+		if_sethide(iVar12, 0)
+else {
+	iVar10 = 7
+	iVar11 = iVar3 - 30
+	if(stockmarket_isofferadding(arg0) == 1) {
+		iVar9 = if_getnextsubid(iVar1)
+		cc_create(iVar9, 4, iVar1)
+		cc_setposition(0, 0, iVar11, iVar10)
+		cc_setsize(0, 0, 15, iVar2 - 14)
+		cc_settextfont(494)
+		cc_setcolor(dbd884)
+		cc_settext("Submitting...")
+		cc_settextalign(0, 1, 1)
+	} else 
+		script_652(iVar10, iVar11, iVar2 - 14, 15, arg0, iVar1, iVar9, iVar13, 1)
+	iVar9 = if_getnextsubid(iVar1)
+	cc_create(iVar9, 5, iVar1)
+	iVar9 = iVar9 + 1
+	cc_setposition(0, 0, 30, 6)
+	cc_setsize(0, 0, 36, 40)
+	cc_setgraphic(1137)
+	cc_create(iVar9, 5, iVar1)
+	cc_setposition(0, 0, 32, 8)
+	cc_setsize(0, 0, 32, 36)
+	cc_setitem(iVar5, iVar7)
+	cc_setgraphicshadow(0)
+	sVar0 = tostring_localized(1, iVar5)
+	cc_setonmouseover(script_648, "IiIsii", iVar1, iVar9, iVar13, sVar0, 25, 106)
+	instr6092(script_40, "I", iVar13)
+	iVar9 = iVar9 + 1
+	cc_create(iVar9, 4, iVar1)
+	cc_setposition(0, 0, 30, 48)
+	sVar0 = item_name(iVar7)
+	iVar16 = iVar2 - 53
+	iVar15 = parawidth(sVar0, 494, iVar16)
+	if(iVar15 > iVar16) {
+		iVar10 = string_length(sVar0)
+		if(iVar15 > iVar16)
+			while(iVar10 > 0) {
+				iVar10 = iVar10 - 1
+				sVar0 = substring(sVar0, iVar10, 0) + "..."
+				iVar15 = parawidth(sVar0, 494, iVar16)
+			}
+	}
+	iVar9 = iVar9 + 1
+	iVar3 = paramheight(sVar0, 494, iVar16) * 11
+	if(iVar3 < 22)
+		iVar3 = 22
+	cc_setsize(0, 0, iVar3, iVar16)
+	cc_setcolor(cc9900)
+	cc_settextfont(494)
+	cc_settextalign(0, 0, 0)
+	cc_settextshadow(1)
+	cc_settext(sVar0)
+	cc_create(iVar9, 4, iVar1)
+	iVar9 = iVar9 + 1
+	cc_setposition(0, 0, 32 + iVar3, 48)
+	cc_setsize(0, 0, 15, iVar2 - 53)
+	cc_setcolor(bdbb5b)
+	cc_settextfont(494)
+	cc_settextalign(15, 0, 0)
+	cc_settextshadow(1)
+	cc_settext(sVar2 + " gp")
+	cc_create(iVar9, 5, iVar1)
+	cc_setposition(0, 2, 2, 4)
+	cc_setsize(0, 0, 20, 20)
+	cc_setgraphic(-1)
+	iVar9 = iVar9 + 1
+}
+return

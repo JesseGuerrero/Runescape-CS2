@@ -1,0 +1,75 @@
+//script4648(4648)()(void)
+if_sethide(if_gethash(173, 1), 1)
+if_sethide(if_gethash(173, 3), 1)
+if_sethide(if_gethash(173, 2), 0)
+if_sethide(if_gethash(173, 42), 0)
+if_sethide(if_gethash(173, 58), 0)
+if(bit_flagged(1, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 43), 0)
+else
+	if_sethide(if_gethash(173, 43), 1)
+if(bit_flagged(2, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 44), 0)
+else
+	if_sethide(if_gethash(173, 44), 1)
+if(bit_flagged(3, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 45), 0)
+else
+	if_sethide(if_gethash(173, 45), 1)
+if(bit_flagged(4, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 46), 0)
+else
+	if_sethide(if_gethash(173, 46), 1)
+if(bit_flagged(5, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 47), 0)
+else
+	if_sethide(if_gethash(173, 47), 1)
+if(bit_flagged(6, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 48), 0)
+else
+	if_sethide(if_gethash(173, 48), 1)
+if(bit_flagged(7, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 49), 0)
+else
+	if_sethide(if_gethash(173, 49), 1)
+if(bit_flagged(8, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 51), 0)
+else
+	if_sethide(if_gethash(173, 51), 1)
+if(bit_flagged(9, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 50), 0)
+else
+	if_sethide(if_gethash(173, 50), 1)
+if(bit_flagged(10, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 52), 0)
+else
+	if_sethide(if_gethash(173, 52), 1)
+if(bit_flagged(11, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 56), 0)
+else
+	if_sethide(if_gethash(173, 56), 1)
+if(bit_flagged(12, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 55), 0)
+else
+	if_sethide(if_gethash(173, 55), 1)
+if(bit_flagged(13, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 54), 0)
+else
+	if_sethide(if_gethash(173, 54), 1)
+if(bit_flagged(14, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 53), 0)
+else
+	if_sethide(if_gethash(173, 53), 1)
+if(bit_flagged(15, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 60), 0)
+else
+	if_sethide(if_gethash(173, 60), 1)
+if(bit_flagged(16, load_varp(2194)) == 1) {
+	if_sethide(if_gethash(173, 57), 0)
+	if_sethide(if_gethash(173, 59), 0)
+} else  {
+	if_sethide(if_gethash(173, 57), 1)
+	if_sethide(if_gethash(173, 59), 1)
+}
+script_4653()
+return

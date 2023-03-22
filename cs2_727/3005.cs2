@@ -1,0 +1,116 @@
+//script3005(3005)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = script_3012(arg1)
+iVar3 = if_getheight(iVar2)
+iVar4 = iVar3 - 3
+if(iVar3 > 30) {
+	if(iVar4 < 30)
+		if_setsize(iVar2, 0, 1, 30, 0)
+	else
+		if_setsize(iVar2, 0, 1, iVar4, 0)
+	switch(arg1) {
+		case default:
+			break
+		case 0:
+			iVar4 = if_gety(if_gethash(907, 4)) - 3
+			if(iVar4 < 30)
+				if_setposition(if_gethash(907, 4), 0, 0, 30, 0)
+			else
+				if_setposition(if_gethash(907, 4), 0, 0, iVar4, 0)
+			iVar4 = if_gety(if_gethash(907, 5)) - 3
+			if(iVar4 < 30 * 2)
+				if_setposition(if_gethash(907, 5), 0, 0, 30 * 2, 0)
+			else
+				if_setposition(if_gethash(907, 5), 0, 0, iVar4, 0)
+			iVar4 = if_gety(if_gethash(907, 43)) - 3
+			if(iVar4 < 30 * 3)
+				if_setposition(if_gethash(907, 43), 0, 0, 30 * 3, 0)
+			else
+				if_setposition(if_gethash(907, 43), 0, 0, iVar4, 0)
+			break
+		case 1:
+			iVar4 = if_gety(if_gethash(907, 5)) - 3
+			if(iVar4 < 30 * 2)
+				if_setposition(if_gethash(907, 5), 0, 0, 30 * 2, 0)
+			else
+				if_setposition(if_gethash(907, 5), 0, 0, iVar4, 0)
+			iVar4 = if_gety(if_gethash(907, 43)) - 3
+			if(iVar4 < 30 * 3)
+				if_setposition(if_gethash(907, 43), 0, 0, 30 * 3, 0)
+			else
+				if_setposition(if_gethash(907, 43), 0, 0, iVar4, 0)
+			break
+		case 2:
+			iVar4 = if_gety(if_gethash(907, 43)) - 3
+			if(iVar4 < 30 * 3)
+				if_setposition(if_gethash(907, 43), 0, 0, 30 * 3, 0)
+			else
+				if_setposition(if_gethash(907, 43), 0, 0, iVar4, 0)
+			break
+
+	}
+}
+iVar5 = script_3012(arg0)
+iVar3 = if_getheight(iVar5)
+iVar4 = iVar3 + 3
+if(iVar3 < 88) {
+	if(iVar4 > 88)
+		if_setsize(iVar5, 0, 1, 88, 0)
+	else
+		if_setsize(iVar5, 0, 1, iVar4, 0)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			iVar4 = if_gety(if_gethash(907, 4)) + 3
+			if(iVar4 > 88)
+				if_setposition(if_gethash(907, 4), 0, 0, 88, 0)
+			else
+				if_setposition(if_gethash(907, 4), 0, 0, iVar4, 0)
+			iVar4 = if_gety(if_gethash(907, 5)) + 3
+			if(iVar4 > 88 + 30)
+				if_setposition(if_gethash(907, 5), 0, 0, 88 + 30, 0)
+			else
+				if_setposition(if_gethash(907, 5), 0, 0, iVar4, 0)
+			iVar4 = if_gety(if_gethash(907, 43)) + 3
+			if(iVar4 > 88 + (30 * 2))
+				if_setposition(if_gethash(907, 43), 0, 0, 88 + (30 * 2), 0)
+			else
+				if_setposition(if_gethash(907, 43), 0, 0, iVar4, 0)
+			break
+		case 1:
+			iVar4 = if_gety(if_gethash(907, 5)) + 3
+			if(iVar4 > 88 + 30)
+				if_setposition(if_gethash(907, 5), 0, 0, 88 + 30, 0)
+			else
+				if_setposition(if_gethash(907, 5), 0, 0, iVar4, 0)
+			iVar4 = if_gety(if_gethash(907, 43)) + 3
+			if(iVar4 > 88 + (30 * 2))
+				if_setposition(if_gethash(907, 43), 0, 0, 88 + (30 * 2), 0)
+			else
+				if_setposition(if_gethash(907, 43), 0, 0, iVar4, 0)
+			break
+		case 2:
+			iVar4 = if_gety(if_gethash(907, 43)) + 3
+			if(iVar4 > 88 + (30 * 2))
+				if_setposition(if_gethash(907, 43), 0, 0, 88 + (30 * 2), 0)
+			else
+				if_setposition(if_gethash(907, 43), 0, 0, iVar4, 0)
+			break
+
+	}
+} else  {
+	instr6342(if_gethash(907, 2), None, "")
+	if(if_getspriteid(script_3013(arg1)) == 2669)
+		script_3008(script_3011(arg1).get(0), script_3011(arg1).get(1), script_3011(arg1).get(2), script_3011(arg1).get(3), script_3011(arg1).get(4), script_3011(arg1).get(5), script_3011(arg1).get(6))
+	else
+		script_3010(script_3011(arg1).get(0), script_3011(arg1).get(1), script_3011(arg1).get(2), script_3011(arg1).get(3), script_3011(arg1).get(4), script_3011(arg1).get(5), script_3011(arg1).get(6))
+	hook_mouse_press(if_gethash(907, 55), script_3002, "i", 3)
+	hook_mouse_press(if_gethash(907, 17), script_3002, "i", 2)
+	hook_mouse_press(if_gethash(907, 29), script_3002, "i", 1)
+	hook_mouse_press(if_gethash(907, 41), script_3002, "i", 0)
+}
+return

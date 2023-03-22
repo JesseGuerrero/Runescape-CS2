@@ -1,0 +1,5 @@
+//script1125(1125)(int arg0)(void)
+store_varc(993, 1)
+if(load_varpbit(2668) == 0)
+	if_setgraphic(arg0, 1702)
+return

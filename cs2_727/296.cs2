@@ -1,0 +1,20 @@
+//script296(296)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(int, int)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar7 = 0
+iVar8 = 0
+if(arg1 == 1) {
+	iVar7 = coordx(arg0)
+	iVar8 = coordz(arg0)
+} else 
+	iVar7 = instr6212(arg0).get(0)
+iVar9 = if_getwidth(arg2)
+iVar10 = if_getheight(arg2)
+iVar7 = scale(iVar7 - arg6, arg5 - arg6, iVar9)
+iVar8 = scale(iVar8 - arg4, arg3 - arg4, iVar10)
+iVar7 = iVar7 - (iVar9 / 2)
+iVar8 = (iVar10 / 2) - iVar8
+return iVar8, iVar7
+return 0, 0

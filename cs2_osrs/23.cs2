@@ -1,0 +1,41 @@
+void script_23(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	Item item4;
+	widget0.clearChildren();
+	widget1.clearChildren();
+	int2 = 0;
+	int3 = 0;
+	item4 = datamap('i', 'O', 878, int3);
+	while (item4 != null) {
+		CHILD.createChild(widget0, 5, int3);
+		CHILD.setSize(36, 32, 0, 0);
+		int2 = int3 / 8 * 50;
+		CHILD.setPosition(int3 % 8 * 46, int2, 0, 0);
+		if (VARP[1137] > VARP[1138] && item4 == 12855) {
+			item4 = 12856;
+		}
+		CHILD.setItem(item4, 1);
+		CHILD.setOptionBase("<col=ff9040>" + getItemName(item4));
+		CHILD.setContextMenuOption(1, "Value");
+		CHILD.setContextMenuOption(2, "Buy-1");
+		CHILD.setContextMenuOption(8, "Buy-5");
+		CHILD.setContextMenuOption(9, "Buy-10");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		int3 = int3 + 1;
+		item4 = datamap('i', 'O', 878, int3);
+	}
+	if (int2 > 0) {
+		int2 = int2 + 32;
+	}
+	widget0.setScrollPos(0, 0);
+	if (int2 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int2);
+		script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	return;
+}

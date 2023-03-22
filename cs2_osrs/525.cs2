@@ -1,0 +1,12 @@
+void script_525(Widget widget0, int arg1) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setHidden(true);
+	}
+	if (CHILD.setChild(widget0, arg1 + 4) == true) {
+		CHILD.setSprite(699);
+	}
+	if (CHILD.setChild(widget0, arg1 + 8) == true) {
+		CHILD.setRGB(0xFF981F);
+	}
+	return;
+}

@@ -1,0 +1,11 @@
+//script2366(2366)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 0
+while(iVar3 < arg2) {
+	if(cc_find(iVar3, arg0) == 1)
+		cc_setgraphic(180)
+	iVar3 = iVar3 + 1
+}
+if(cc_find(arg1, arg0) == 1)
+	cc_setgraphic(181)
+return

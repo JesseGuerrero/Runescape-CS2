@@ -1,0 +1,9 @@
+//script1133(1133)(int arg0)(void)
+int iVar1
+iVar1 = inv_getitem(3, 94)
+if(iVar1 != -1)
+	if(item_members(iVar1) == 0 || world_members() == 1)
+		if_settext(arg0, item_name(iVar1))
+	else
+		if_settext(arg0, "Unarmed")
+return

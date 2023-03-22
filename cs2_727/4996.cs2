@@ -1,0 +1,35 @@
+//script4996(4996)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+if_sethide(if_gethash(1261, 115), 0)
+if(clan_vars_enabled() == 1) {
+	script_4899(1)
+	iVar2 = script_4963(arg0)
+	store_varpbit(9550, iVar2)
+	if(iVar2 <= 0) {
+		send_message("You must first select a building.")
+		return
+	}
+	iVar1 = script_4948(iVar2)
+	iVar4 = script_4954(iVar2)
+	if(iVar4 == -1)
+		return
+	iVar5 = script_4955(iVar2)
+	if(iVar5 == -1)
+		return
+	if(iVar1 > 0)
+		iVar3 = script_4959(iVar1)
+	script_4988(load_varpbit(9550))
+	script_4937()
+}
+return

@@ -1,0 +1,25 @@
+//script2345(2345)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+store_varc(769, 0)
+iVar0 = coordx(coord()) - modulo(64, coordx(coord()))
+iVar1 = coordz(coord()) - modulo(64, coordz(coord()))
+iVar2 = movecoord(iVar1, 0, iVar0, 0)
+iVar3 = movecoord(coordz(507944), 0, coordx(507944), iVar2)
+instr6650(5, 0)
+instr6651(0, 900, movecoord(-5, 0, 0, iVar3), 800, movecoord(-5, 0, 0, iVar3), 0, 0)
+instr6651(0, 900, movecoord(0, 0, -5, iVar3), 800, movecoord(-1, 0, -5, iVar3), 1, 0)
+instr6651(0, 900, movecoord(5, 0, 0, iVar3), 800, movecoord(5, 0, -1, iVar3), 2, 0)
+instr6651(0, 900, movecoord(0, 0, 5, iVar3), 800, movecoord(1, 0, 5, iVar3), 3, 0)
+instr6651(0, 900, movecoord(-3, 0, 0, iVar3), 800, movecoord(-3, 0, 0, iVar3), 4, 0)
+instr6650(5, 1)
+instr6651(0, 400, iVar3, 400, iVar3, 0, 1)
+instr6651(0, 400, iVar3, 400, iVar3, 1, 1)
+instr6651(0, 400, iVar3, 400, iVar3, 2, 1)
+instr6651(0, 400, iVar3, 400, iVar3, 3, 1)
+instr6651(0, 500, iVar3, 500, iVar3, 4, 1)
+instr6677(0, 1, 200, 200, 0, 0)
+instr6255(if_gethash(582, 0), script_2346, "")
+return

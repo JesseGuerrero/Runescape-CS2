@@ -1,0 +1,54 @@
+void script_581(int arg0, int arg1, Widget widget2, Widget widget3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int5 = 0;
+	if (widget(arg1) == widget2) {
+		int5 = 3;
+	}
+	int6 = script_572(arg0);
+	int7 = 0;
+	int8 = arg4;
+	while (int8 > 0) {
+		int8 = int8 - 1;
+		if (int8 == int6) {
+			if (CHILD.setChild(widget2, int8 * 3 + int5) == true) {
+				CHILD.hookOptionClick(null);
+			}
+			if (CHILD.setChild(widget2, int8 * 3 + int5 + 1) == true) {
+				CHILD.setSprite(699);
+			}
+			if (CHILD.setChild(widget2, int8 * 3 + int5 + 2) == true) {
+				CHILD.setRGB(0xFFFFFF);
+			}
+			int7 = int8 * 17;
+		} else {
+			if (CHILD.setChild(widget2, int8 * 3 + int5) == true) {
+				CHILD.hookOptionClick(&script_579(CTX_MENU_OPTION, int8, (DataMap)arg0, widget(arg1), widget2, widget3, arg4));
+			}
+			if (CHILD.setChild(widget2, int8 * 3 + int5 + 1) == true) {
+				CHILD.setSprite(697);
+			}
+			if (CHILD.setChild(widget2, int8 * 3 + int5 + 2) == true) {
+				CHILD.setRGB(0xFF981F);
+			}
+		}
+	}
+	if (widget3 == null) {
+		return;
+	}
+	int9 = 0;
+	int10 = getScrollY(widget2);
+	if (int7 < int10) {
+		script_72(widget3, widget2, int7);
+	} else {
+		int7, int9 = int7 + 17, widget2.getHeight();
+		if (int7 > int10 + int9) {
+			script_72(widget3, widget2, int7 - int9);
+		}
+	}
+	return;
+}

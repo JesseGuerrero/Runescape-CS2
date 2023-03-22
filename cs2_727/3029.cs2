@@ -1,0 +1,150 @@
+//script3029(3029)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+if(instr6661(-1, arg3) == 1) {
+	instr6342(arg4, script_3028, "IIIIII", arg0, arg1, arg2, arg3, arg4, arg5)
+	return
+} else 
+	instr6342(arg4, None, "")
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+iVar6 = friend_count()
+iVar7 = 0
+iVar8 = 0
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+iVar9 = 0
+iVar10 = 0
+iVar11 = 15
+iVar12 = 0
+iVar13 = 5
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+sVar3 = ""
+if(iVar6 == -2) {
+	if_settext(if_gethash(909, 38), "Name")
+	script_3038(arg3, "Loading Friends List." + "<br>" + "<br>" + "Please wait.")
+	if_setsize(if_gethash(909, 31), 0, 0, if_getheight(if_gethash(909, 36)), if_getwidth(if_gethash(909, 31)))
+} else 
+	if(iVar6 == -1) {
+		if_settext(if_gethash(909, 38), "Name")
+		script_3038(arg3, "Connecting to server." + "<br>" + "<br>" + "Please wait.")
+		if_setsize(if_gethash(909, 31), 0, 0, if_getheight(if_gethash(909, 36)), if_getwidth(if_gethash(909, 31)))
+	} else 
+		if(iVar6 > 0) {
+			if_settext(if_gethash(909, 38), "Name (" + to_string(iVar6) + "/200)")
+			if_setsize(if_gethash(909, 31), 1, 0, 4, if_getwidth(if_gethash(909, 31)))
+			while(iVar7 < iVar6) {
+				sVar0 = friend_getnames(iVar7).get(0)
+				iVar9 = friend_getworld(iVar7)
+				script_2996(arg3, iVar7, if_getwidth(arg3), iVar11, 0, iVar8, 0, 1, 0)
+				if(modulo(2, iVar7) == 0)
+					cc_setcolor(201911)
+				else
+					cc_setcolor(292016)
+				instr6091(script_3030, "Ii", arg3, iVar7)
+				instr6092(script_3035, "")
+				if(string_length(sVar1) > 0) {
+					iVar16 = stringwidth(494, "Last known as: " + sVar1) + 8
+					if(iVar16 > if_getwidth(if_gethash(909, 19)))
+						sVar3 = "Last known as:" + "<br>" + sVar1
+					else
+						sVar3 = "Last known as: " + sVar1
+					cc_setonmouseover(script_2467, "IisiiIIIf", -2147483645, -2147483643, sVar3, -2147483647, -2147483646, if_gethash(909, 41), if_gethash(909, 32), if_gethash(909, 35), 494)
+				}
+				cc_setopbase(sVar0)
+				if(iVar9 > 0) {
+					cc_setop("Message", 1)
+					cc_setop("Join", 2)
+				} else  {
+					cc_setop("Message", 3)
+					cc_setop("Join", 4)
+				}
+				cc_setop("Delete", 10)
+				instr6687(script_3039, "iisi", -2147483644, iVar9, sVar0, iVar7)
+				script_2994(arg1, iVar7, 14, 14, 5, iVar8 + 1, -1, 0, 0, 0, 0)
+				if(compare("", sVar1) != 0) {
+					cc_setgraphic(2313)
+					iVar13 = 20
+				} else  {
+					cc_setgraphic(-1)
+					iVar13 = 5
+				}
+				sVar2 = sVar0
+				script_2995(arg0, iVar7, 0, iVar11, iVar13, iVar8, 16777215, 494, 0, 1, 0, 1, sVar2)
+				cc_setsize(0, 1, iVar11, iVar13)
+				cc_setmaxlines(1)
+				if(iVar9 == 0) {
+					sVar2 = "Offline"
+					iVar14 = 16711680
+				} else 
+					if(iVar9 >= 1149)
+						if(iVar9 < 1200)
+							sVar2 = "Beta lobby"
+						else
+							if(iVar9 >= 200)
+								if(iVar9 < 250)
+									sVar2 = "Beta " + to_string(iVar9)
+								else
+									sVar2 = friend_getworldname(iVar7)
+				if(iVar9 > 0)
+					if(iVar9 == world_id())
+						iVar14 = 65280
+					else
+						iVar14 = 16776960
+				script_2995(arg2, iVar7, 0, iVar11, 5, iVar8, iVar14, 494, 0, 1, 0, 1, sVar2)
+				cc_setsize(0, 1, iVar11, 5)
+				cc_setmaxlines(1)
+				iVar8 = iVar8 + iVar11
+				iVar7 = iVar7 + 1
+			}
+			iVar10 = (if_getheight(arg4) / iVar11) + 1
+			if(iVar10 > iVar6) {
+				while(iVar7 < iVar10) {
+					script_2996(arg3, iVar7, if_getwidth(arg3), iVar11, 0, iVar8, 0, 1, 0)
+					if(modulo(2, iVar7) == 0)
+						cc_setcolor(201911)
+					else
+						cc_setcolor(292016)
+					iVar8 = iVar8 + iVar11
+					iVar7 = iVar7 + 1
+				}
+				iVar12 = if_getheight(arg4)
+			} else 
+				iVar12 = iVar8
+			if(iVar10 <= iVar6) {
+				iVar15 = if_getscrolly(59572265)
+				if_setscrollsize(59572265, iVar12, 0)
+				if(iVar15 > iVar12)
+					iVar15 = iVar12
+				script_72(59572271, 59572265, iVar15)
+			} else  {
+				if_setscrollsize(59572265, 0, 0)
+				if_setscrollpos(if_gethash(909, 41), 0, 0)
+				script_72(59572271, 59572265, 0)
+			}
+		} else 
+			if(iVar6 == 0) {
+				if_settext(if_gethash(909, 38), "Name")
+				script_3038(arg3, "You have not added any friends to your list.")
+				if_setsize(if_gethash(909, 31), 0, 0, if_getheight(if_gethash(909, 36)), if_getwidth(if_gethash(909, 31)))
+			}
+return
+return

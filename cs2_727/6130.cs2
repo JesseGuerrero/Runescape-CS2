@@ -1,0 +1,7 @@
+//script6130(6130)()(void)
+instr6342(if_gethash(1270, 5), script_6132, "")
+if_setonmouseover(if_gethash(1270, 38), script_6131, "ii", -2147483647, -2147483646)
+store_varc(1891, 0)
+store_varc(1892, 0)
+if_sethide(if_gethash(1270, 35), 1)
+return

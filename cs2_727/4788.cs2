@@ -1,0 +1,5 @@
+//script4788(4788)()(int)
+if(script_4785() == 1)
+	return script_4786(load_clan_varbit(2580))
+return 0
+return 0

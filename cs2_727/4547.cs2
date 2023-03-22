@@ -1,0 +1,12 @@
+//script4547(4547)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+if_sethide(if_gethash(912, 39), 0)
+if_settext(if_gethash(912, 17), "Not in chat")
+if_setsize(if_gethash(912, 38), 0, 0, if_getheight(if_gethash(912, 37)), if_getwidth(if_gethash(912, 38)))
+if_setscrollsize(59768877, 0, 0)
+if_setscrollpos(if_gethash(912, 45), 0, 0)
+script_72(59768878, 59768877, 0)
+return

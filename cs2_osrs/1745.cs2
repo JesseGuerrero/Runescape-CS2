@@ -1,0 +1,55 @@
+void script_1745(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	widget2.setIsHidden(true);
+	widget3.setIsHidden(false);
+	if (script_900() == 1132) {
+		widget1.setPosition(0, 0, 1, 1);
+		widget1.setSize(0, 0, 1, 1);
+		return;
+	}
+	VARC[191] = script_1045(script_1046(VARC[191], widget0.getWidth() - arg4), 0);
+	VARC[192] = script_1045(script_1046(VARC[192], widget0.getHeight() - 280), 0);
+	VARC[193], VARC[194] = script_1045(script_1046(VARC[193], VARC[191]), 0), script_1045(script_1046(VARC[194], VARC[192]), 0);
+	widget1.setPosition(VARC[193], VARC[194], 0, 0);
+	widget1.setSize(VARC[191], VARC[192], 1, 1);
+	int5 = VARC[191] + 6 * 2;
+	int6 = VARC[192] + 6 * 2;
+	int7 = VARC[191] - VARC[193];
+	int8 = VARC[192] - VARC[194];
+	int9 = 0;
+	if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, 1) == true) {
+		CHILD.setSize(int5, 6, 1, 0);
+		_CHILD.setSize(int5, 6, 1, 0);
+		int9 = VARC[193] + 6;
+		CHILD.setPosition(int9, VARC[194], 0, 0);
+		_CHILD.setPosition(int9, int8, 0, 2);
+		script_1746(widget0, widget1, widget2, widget3, arg4);
+	}
+	if (CHILD.setChild(widget0, 2) == true && _CHILD.setChild(widget0, 3) == true) {
+		CHILD.setSize(6, int6, 0, 1);
+		_CHILD.setSize(6, int6, 0, 1);
+		int9 = VARC[194] + 6;
+		CHILD.setPosition(VARC[193], int9, 0, 0);
+		_CHILD.setPosition(int7, int9, 2, 0);
+		script_1746(widget0, widget1, widget2, widget3, arg4);
+	}
+	if (CHILD.setChild(widget0, 4) == true && _CHILD.setChild(widget0, 5) == true) {
+		CHILD.setSize(6, 6, 0, 0);
+		_CHILD.setSize(6, 6, 0, 0);
+		CHILD.setPosition(VARC[193], VARC[194], 0, 0);
+		_CHILD.setPosition(int7, VARC[194], 2, 0);
+		script_1746(widget0, widget1, widget2, widget3, arg4);
+	}
+	if (CHILD.setChild(widget0, 6) == true && _CHILD.setChild(widget0, 7) == true) {
+		CHILD.setSize(6, 6, 0, 0);
+		_CHILD.setSize(6, 6, 0, 0);
+		CHILD.setPosition(VARC[193], int8, 0, 2);
+		_CHILD.setPosition(int7, int8, 2, 2);
+		script_1746(widget0, widget1, widget2, widget3, arg4);
+	}
+	return;
+}

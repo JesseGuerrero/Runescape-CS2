@@ -1,0 +1,46 @@
+void script_648(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	widget0.clearChildren();
+	int2 = 0;
+	while (int2 <= 27) {
+		CHILD.createChild(widget0, 3, int2);
+		CHILD.setHidden(true);
+		int2 = int2 + 1;
+	}
+	int3 = 5;
+	int3 = script_649(int3, 1, "Parlour", 1);
+	int3 = script_649(int3, 2, "Garden", 1);
+	int3 = script_649(int3, 3, "Kitchen", 5);
+	int3 = script_649(int3, 4, "Dining room", 10);
+	int3 = script_649(int3, 12, "Workshop", 15);
+	int3 = script_649(int3, 5, "Bedroom", 20);
+	int3 = script_649(int3, 7, "Hall - Skill trophies", 25);
+	int3 = script_649(int3, 6, "Games room", 30);
+	int3 = script_649(int3, 22, "Combat room", 32);
+	int3 = script_649(int3, 9, "Hall - Quest trophies", 35);
+	int3 = script_649(int3, 25, "Menagerie (outdoors)", 37);
+	int3 = script_649(int3, 24, "Menagerie (indoors)", 37);
+	int3 = script_649(int3, 13, "Study", 40);
+	int3 = script_649(int3, 23, "Costume room", 42);
+	int3 = script_649(int3, 11, "Chapel", 45);
+	int3 = script_649(int3, 14, "Portal chamber", 50);
+	int3 = script_649(int3, 21, "Formal garden", 55);
+	int3 = script_649(int3, 15, "Throne room", 60);
+	int3 = script_649(int3, 16, "Oubliette", 65);
+	int3 = script_649(int3, 26, "Superior garden", 65);
+	int3 = script_649(int3, 17, "Dungeon - Corridor", 70);
+	int3 = script_649(int3, 18, "Dungeon - Junction", 70);
+	int3 = script_649(int3, 19, "Dungeon - Stairs", 70);
+	int3 = script_649(int3, 20, "Treasure room", 75);
+	int3 = script_649(int3, 27, "Achievement gallery", 80);
+	widget1.clearChildren();
+	if (int3 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int3);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	widget0.setScrollPos(0, 0);
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	return;
+}

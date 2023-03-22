@@ -1,0 +1,8 @@
+void script_877(Widget widget0, int arg1) {
+	if (VARPBIT[2463] >= arg1) {
+		widget0.setRGB(0x7F7FFF);
+	} else {
+		widget0.setRGB(0x000000);
+	}
+	return;
+}

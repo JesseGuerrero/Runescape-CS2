@@ -1,0 +1,6 @@
+void script_417(Container container0, int arg1, int arg2, int arg3, string string4) {
+	_ = script_228(widget(592, 1), string4, 0);
+	script_419(container0, arg1, arg2, arg3);
+	widget(592, 2).hookContainer(&script_418(container0, arg1, arg2), container0);
+	return;
+}

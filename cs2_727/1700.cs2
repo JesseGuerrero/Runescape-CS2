@@ -1,0 +1,9 @@
+//script1700(1700)()(void)
+if(load_varc(1052) == 1) {
+	if_settext(if_gethash(271, 12), "Hide stat adjustments.")
+	instr6213(if_gethash(271, 12), 1, "Hide stat adjustments")
+} else  {
+	if_settext(if_gethash(271, 12), "Show stat adjustments.")
+	instr6213(if_gethash(271, 12), 1, "Show stat adjustments")
+}
+return

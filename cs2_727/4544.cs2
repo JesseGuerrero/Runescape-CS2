@@ -1,0 +1,19 @@
+//script4544(4544)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+int iVar8
+iVar8 = if_getlayer(arg0)
+if(iVar8 == -1)
+	return
+if(arg6 == 0 || arg6 == 1)
+	if(if_getwidth(iVar8) == arg4)
+		instr6342(iVar8, script_4545, "IiiIdi", -2147483645, arg5, arg6, arg1, arg2, arg7)
+	else
+		if(if_getwidth(iVar8) == arg5)
+			instr6342(iVar8, script_4546, "IiiIdi", -2147483645, arg4, arg6, arg1, arg3, arg7)
+else
+	if(arg6 == 2 || arg6 == 3)
+		if(if_getheight(iVar8) == arg4)
+			instr6342(iVar8, script_4545, "IiiIdi", -2147483645, arg5, arg6, arg1, arg2, arg7)
+		else
+			if(if_getheight(iVar8) == arg5)
+				instr6342(iVar8, script_4546, "IiiIdi", -2147483645, arg4, arg6, arg1, arg3, arg7)
+return

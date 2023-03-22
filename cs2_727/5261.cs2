@@ -1,0 +1,19 @@
+//script5261(5261)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 74186762:
+		if_sethide(if_gethash(1132, 22), 0)
+		if_settext(if_gethash(1132, 23), "4")
+		if_sethide(if_gethash(1132, 23), 0)
+		instr6342(arg0, script_5262, "iiI", 4, 0, if_gethash(1132, 10))
+		break
+	case 74186763:
+		if_sethide(if_gethash(1132, 27), 0)
+		if_settext(if_gethash(1132, 28), "2")
+		if_sethide(if_gethash(1132, 28), 0)
+		instr6342(arg0, script_5262, "iiI", 2, 0, if_gethash(1132, 11))
+		break
+
+}
+return

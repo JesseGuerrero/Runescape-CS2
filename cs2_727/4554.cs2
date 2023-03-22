@@ -1,0 +1,26 @@
+//script4554(4554)(int arg0)(void)
+if_setsize(if_gethash(589, 55), 1, 0, 0, if_getx(if_gethash(589, 45)) - if_getx(if_gethash(589, 43)))
+if_setsize(if_gethash(589, 57), 1, 0, 0, (if_getwidth(if_gethash(589, 51)) - if_getwidth(if_gethash(589, 55))) - 2)
+if_setscrollsize(38600755, 0, 0)
+if_setscrollpos(if_gethash(589, 51), 0, 0)
+script_31(38600756, 38600755, 792, 789, 790, 791, 773, 788)
+if_setscrollsize(38600727, 0, 0)
+if_setscrollpos(if_gethash(589, 23), 0, 0)
+script_31(38600728, 38600727, 792, 789, 790, 791, 773, 788)
+instr6250(if_gethash(589, 51), script_4558, "IIIIII", if_gethash(589, 55), if_gethash(589, 56), if_gethash(589, 57), if_gethash(589, 53), if_gethash(589, 51), if_gethash(589, 52))
+instr6708(if_gethash(589, 51), script_4558, "IIIIII", if_gethash(589, 55), if_gethash(589, 56), if_gethash(589, 57), if_gethash(589, 53), if_gethash(589, 51), if_gethash(589, 52))
+script_4559(38600759, 38600760, 38600761, 38600757, 38600755, 38600756)
+if(fc_getchatcount() > 0) {
+	if_settext(if_gethash(589, 41), "Leave chat channel")
+	instr6213(if_gethash(589, 39), 1, "Leave chat channel")
+} else  {
+	if_settext(if_gethash(589, 41), "Join chat channel")
+	instr6213(if_gethash(589, 39), 1, "Join chat channel")
+}
+store_varc_string(349, "")
+script_3024(38600735)
+store_varc(1507, string_length(load_varc_string(349)))
+hook_mouse_press(if_gethash(589, 27), script_4570, "iII", -2147483647, if_gethash(589, 27), if_gethash(589, 28))
+script_4571(38600731, 38600732, load_varc_string(349))
+if_sethide(if_gethash(589, 28), 1)
+return

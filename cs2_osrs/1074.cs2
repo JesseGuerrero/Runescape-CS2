@@ -1,0 +1,31 @@
+void script_1074(Container container0, int arg1, int arg2, string string3) {
+	int int3;
+	int int4;
+	int int5;
+	widget(300, 1).clearChildren();
+	widget(300, 2).clearChildren();
+	widget(300, 3).clearChildren();
+	_ = script_228(widget(300, 1), string3, 0);
+	int3 = (widget(300, 2).getWidth() - 8 * 36) / 7 + 36;
+	int4 = getItemContainerLength(container0);
+	int5 = 0;
+	CHILD.createChild(widget(300, 2), 5, 0);
+	while (int5 < int4) {
+		CHILD.createChild(widget(300, 2), 5, int5 + 1);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int5 % 8 * int3, int5 / 8 * int3, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		CHILD.setContextMenuOption(1, "Value");
+		CHILD.setContextMenuOption(2, "Buy 1");
+		CHILD.setContextMenuOption(3, "Buy 5");
+		CHILD.setContextMenuOption(4, "Buy 10");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.hookOptionClick(&script_487(CTX_WIDGET, CTX_WIDGET_CHILD, 125, 0));
+		int5 = int5 + 1;
+	}
+	script_31(widget(300, 3), widget(300, 2), 792, 789, 790, 791, 773, 788);
+	script_1076(widget(300, 2), int4, container0, arg1, arg2);
+	widget(300, 2).hookContainer(&script_1075(CTX_WIDGET, int4, container0, (Item)arg1, arg2), container0);
+	return;
+}

@@ -1,0 +1,43 @@
+//script401(401)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+sVar0 = load_varc_string(320)
+if(string_length(load_varc_string(319)) > 0)
+	if(load_varp(170) == 1)
+		sVar0 = load_varc_string(319)
+if(cc_find(0, arg1) == 1)
+	if(compare(cc_gettext(), sVar0) == 0)
+		return
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+iVar3 = if_getwidth(arg0)
+iVar4 = 0
+if_setscrollpos(arg1, 0, 0)
+if_setposition(arg1, 1, 0, 0, iVar4)
+iVar5 = (paramheight(sVar0, 307, iVar3) * 12) + 3
+if(iVar5 > if_getheight(arg0)) {
+	iVar3 = iVar3 - (if_getwidth(arg2) + 5)
+	if_setsize(arg1, 1, 0, 0, iVar3)
+	iVar5 = (paramheight(sVar0, 307, iVar3) * 12) + 3
+	if_setscrollsize(arg1, iVar5, 0)
+	if_sethide(arg2, 0)
+	script_31(arg2, arg1, 792, 789, 790, 791, 773, 788)
+} else  {
+	iVar5 = if_getheight(arg0)
+	if_setsize(arg1, 1, 0, 0, iVar3)
+	if_setscrollsize(arg1, 0, 0)
+	if_sethide(arg2, 1)
+}
+cc_create(0, 4, arg1)
+cc_setsize(0, 1, iVar5, 0)
+cc_setposition(0, 1, 0, 0)
+cc_settextfont(307)
+cc_settextalign(0, 1, 1)
+cc_setcolor(0)
+cc_settextshadow(0)
+cc_settext(sVar0)
+if_settextfont(if_gethash(200, 4), 307)
+return

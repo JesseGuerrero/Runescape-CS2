@@ -1,0 +1,9 @@
+//script1730(1730)(int arg0, int arg1)(void)
+if(arg1 == -1)
+	if(instr6004(arg0) == 1 || cc_find(arg1, arg0) == 1)
+		if(load_varc(198) != 1) {
+			cc_sethide(0)
+			store_varc(198, 1)
+			instr6556(script_2196, "Iis", arg0, arg1, cc_gettext())
+		}
+return

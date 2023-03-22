@@ -1,0 +1,9 @@
+void script_1672(Widget widget0, string string1) {
+	script_1676(widget0, string1, 0);
+	widget0.setContextMenuOption(1, removeTags(string1));
+	widget0.hookMouseHover(&script_1675(CTX_WIDGET, string1, true));
+	widget0.hookMouseExit(&script_1675(CTX_WIDGET, string1, false));
+	widget0.hookOptionClick(&script_1673(CTX_MENU_OPTION, CTX_WIDGET, string1));
+	widget0.hookFrame(null);
+	return;
+}

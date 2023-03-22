@@ -1,0 +1,14 @@
+void script_1094(Widget widget0) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 5, 0);
+	_CHILD.createChild(widget0, 4, 1);
+	CHILD.setPosition(0, 0, 1, 0);
+	_CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setSpriteTiling(true);
+	CHILD.setSprite(1040);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setFont(495);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(0, 0, 0);
+	return;
+}

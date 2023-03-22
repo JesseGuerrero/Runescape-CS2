@@ -1,0 +1,45 @@
+//script6299(6299)()(string)
+int iVar0
+int iVar1
+string sVar0
+string sVar1
+sVar0 = ""
+iVar0 = modulo(28, instr6797())
+iVar1 = random(3)
+sVar1 = "Did you know that most monsters can drop bonus spins?"
+if(iVar0 >= 0)
+	if(iVar0 <= 6)
+		sVar0 = "Earn a bonus spin this week for redeeming penguin points."
+	else
+		if(iVar0 >= 7)
+			if(iVar0 <= 13)
+				sVar0 = "Earn a bonus spin this week at the Circus."
+			else
+				if(iVar0 >= 14)
+					if(iVar0 <= 20)
+						sVar0 = "Earn a bonus spin this week from an Evil Tree."
+					else
+						if(iVar0 >= 21)
+							if(iVar0 <= 27)
+								sVar0 = "Earn a bonus spin this week from a Shooting Star."
+if(load_varpbit(11033) == 0)
+	sVar1 = sVar0
+else
+	if(iVar1 == 0)
+		if(load_varc(1800) >= 20)
+			sVar1 = "Once the wheel is slowing down, press the button again to skip to a stop."
+		else
+			sVar1 = script_790()
+	else
+		if(iVar1 == 1)
+			if(load_varc(1800) >= 20)
+				sVar1 = "Once a prize is selected, press the button again to skip to the next screen."
+			else
+				sVar1 = script_790()
+		else
+			if(load_varc(1804) == load_varpbit(9472))
+				sVar1 = "Complete Troll Invasion this month for great rewards and a bonus spin."
+			else
+				sVar1 = script_790()
+return sVar1
+return ""

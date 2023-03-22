@@ -1,0 +1,6 @@
+//script1891(1891)()(int)
+if(fc_getchatcount() > 0)
+	if(fc_getchatrank() >= fc_getchatminkick())
+		return 1
+return 0
+return 0

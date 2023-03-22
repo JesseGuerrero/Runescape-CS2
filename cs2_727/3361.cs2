@@ -1,0 +1,38 @@
+//script3361(3361)()(int, int, string)
+switch(load_varp(448)) {
+	case default:
+		return 18067, 7, "Second Wind (Tier 1)"
+
+	case 17975:
+		return 18067, 7, "Second Wind (Tier 1)"
+
+	case 17976:
+		return 18068, 17, "Second Wind (Tier 2)"
+
+	case 17977:
+		return 18069, 27, "Second Wind (Tier 3)"
+
+	case 17978:
+		return 18070, 37, "Second Wind (Tier 4)"
+
+	case 17979:
+		return 18071, 47, "Second Wind (Tier 5)"
+
+	case 17980:
+		return 18072, 57, "Second Wind (Tier 6)"
+
+	case 17981:
+		return 18073, 67, "Second Wind (Tier 7)"
+
+	case 17982:
+		return 18074, 77, "Second Wind (Tier 8)"
+
+	case 17983:
+		return 18075, 87, "Second Wind (Tier 9)"
+
+	case 17984:
+		return 18076, 97, "Second Wind (Tier 10)"
+
+
+}
+return -1, 0, ""

@@ -1,0 +1,64 @@
+void script_1468(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int5 = 0;
+	if (widget0 == widget(arg3)) {
+		if (VARPBIT[5399] == 0) {
+			if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, arg1) == true) {
+				_CHILD.setSprite(697);
+				_CHILD.setTrans(120);
+				CHILD.setRGB(0x7F7F7F);
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+				CHILD.hookOptionClick(null);
+			}
+			if (CHILD.setChild(widget0, 1) == true && _CHILD.setChild(widget0, arg2) == true) {
+				_CHILD.setSprite(697);
+				_CHILD.setTrans(120);
+				CHILD.setRGB(0x7F7F7F);
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+				CHILD.hookOptionClick(null);
+			}
+			return;
+		}
+		int5 = VARPBIT[5402];
+	} else if (widget0 == widget(arg4)) {
+		int5 = VARPBIT[4930];
+	}
+	if (int5 == 1) {
+		if (CHILD.setChild(widget0, 1) == true && _CHILD.setChild(widget0, arg2) == true) {
+			_CHILD.setSprite(699);
+			_CHILD.setTrans(0);
+			CHILD.setRGB(0xFFA82F);
+			CHILD.hookMouseHover(null);
+			CHILD.hookMouseExit(null);
+			CHILD.hookOptionClick(null);
+		}
+		if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, arg1) == true) {
+			_CHILD.setSprite(697);
+			_CHILD.setTrans(0);
+			CHILD.setRGB(0xFF981F);
+			CHILD.hookMouseHover(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+			CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16750623));
+			CHILD.hookOptionClick(&script_1469(CTX_MENU_OPTION, 0, widget0, arg1, arg2, widget(arg3), widget(arg4)));
+		}
+	} else {
+		if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, arg1) == true) {
+			_CHILD.setSprite(699);
+			_CHILD.setTrans(0);
+			CHILD.setRGB(0xFFA82F);
+			CHILD.hookMouseHover(null);
+			CHILD.hookMouseExit(null);
+			CHILD.hookOptionClick(null);
+		}
+		if (CHILD.setChild(widget0, 1) == true && _CHILD.setChild(widget0, arg2) == true) {
+			_CHILD.setSprite(697);
+			_CHILD.setTrans(0);
+			CHILD.setRGB(0xFF981F);
+			CHILD.hookMouseHover(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+			CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16750623));
+			CHILD.hookOptionClick(&script_1469(CTX_MENU_OPTION, 1, widget0, arg1, arg2, widget(arg3), widget(arg4)));
+		}
+	}
+	return;
+}

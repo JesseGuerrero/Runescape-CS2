@@ -1,0 +1,8 @@
+//script5482(5482)()(void)
+int iVar0
+int iVar1
+iVar0 = (65535 * load_varpbit(10192)) / 60
+if_set2dangle(if_gethash(1175, 8), iVar0)
+iVar1 = ((65535 * load_varpbit(10192)) / 60) / 12
+if_set2dangle(if_gethash(1175, 9), iVar1)
+return

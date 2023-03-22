@@ -1,0 +1,10 @@
+void script_1593(Widget widget0) {
+	int int1;
+	int1 = getClientCycle() % 80;
+	if (int1 > 40) {
+		int1 = 80 - int1;
+	}
+	int1 = int1 + 100;
+	widget0.setRGB(script_246(int1, int1, int1));
+	return;
+}

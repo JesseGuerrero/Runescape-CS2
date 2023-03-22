@@ -1,0 +1,10 @@
+void script_1213(int arg0, int arg1) {
+	if (arg1 < arg0) {
+		CHILD.setRGB(0xFF0000);
+		_CHILD.setRGB(0xFF0000);
+	} else {
+		CHILD.setRGB(0xFF981F);
+		_CHILD.setRGB(0xFF981F);
+	}
+	return;
+}

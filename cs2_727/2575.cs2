@@ -1,0 +1,9 @@
+//script2575(2575)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 < enum_getoutputcount(2428)) {
+	if_setcolor(enum(2428, iVar0, 'i', 'I'), 0x666666)
+	iVar0 = iVar0 + 1
+}
+if_setcolor(enum(2428, load_varc(929), 'i', 'I'), 0xFF0033)
+return

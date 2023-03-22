@@ -1,0 +1,32 @@
+void script_812(int arg0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int5 = 0;
+	if (arg3 == 0) {
+		if (arg1 <= 0) {
+			arg1 = 1;
+		}
+		if (arg1 < arg2) {
+			arg1 = arg2;
+		}
+		if (getGEIsDone(arg0) == true) {
+			CHILD.setSize(arg4, CHILD.getHeight(), 0, 0);
+			if (arg2 < arg1) {
+				CHILD.setRGB(0x8F0000);
+			} else {
+				CHILD.setRGB(0x005F00);
+			}
+		} else {
+			CHILD.setRGB(0xD88020);
+			if (arg1 < pow(2, 15)) {
+				CHILD.setSize(mathMethod4006(0, arg2, 0, arg1, arg4), CHILD.getHeight(), 0, 0);
+			} else {
+				int5 = arg1 / 100;
+				CHILD.setSize(mathMethod4006(0, arg2 / int5, 0, arg1 / int5, arg4), CHILD.getHeight(), 0, 0);
+			}
+		}
+	} else {
+		CHILD.setRGB(0x8F0000);
+		CHILD.setSize(arg4, CHILD.getHeight(), 0, 0);
+	}
+	return;
+}

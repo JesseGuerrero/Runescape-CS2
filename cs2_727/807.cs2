@@ -1,0 +1,10 @@
+//script807(807)(int arg0)(int)
+int iVar1
+iVar1 = 0
+if(stat_base(arg0) > 0)
+	if(arg0 == 5)
+		iVar1 = (100 * load_varpbit(9816)) / script_5255()
+	else
+		iVar1 = (100 * stat(arg0)) / stat_base(arg0)
+return iVar1
+return 0

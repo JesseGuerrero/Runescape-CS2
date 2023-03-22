@@ -1,0 +1,6 @@
+//script2631(2631)(int arg0, int arg1, int arg2)(void)
+if(modulo(20, client_clock()) < 10)
+	if_setgraphic(arg0, arg2)
+else
+	if_setgraphic(arg0, arg1)
+return

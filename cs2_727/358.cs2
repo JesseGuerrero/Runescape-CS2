@@ -1,0 +1,104 @@
+//script358(358)(int arg0)(void)
+int iVar1
+int iVar2
+if(arg0 != 1)
+	return
+sound_synth(0, 1, 9830)
+store_varpbit(8092, modulo(8, load_varpbit(8092) + 1))
+iVar1 = 0
+iVar2 = script_361(load_varc(1010), 3)
+if(iVar2 == -1)
+	iVar2 = 1076
+switch(modulo(8, load_varpbit(8091) + load_varpbit(8092))) {
+	case default:
+		iVar1 = struct_param(1187, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1188, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1189, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+	case 1:
+		iVar1 = struct_param(1190, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1191, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1192, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+	case 2:
+		iVar1 = struct_param(1193, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1194, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1195, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+	case 3:
+		iVar1 = struct_param(1196, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1197, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1198, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+	case 4:
+		iVar1 = struct_param(1199, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1200, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1201, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+	case 5:
+		iVar1 = struct_param(1202, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1203, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1204, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+	case 6:
+		iVar1 = struct_param(1205, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1206, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1207, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+	case 7:
+		iVar1 = struct_param(1208, iVar2)
+		store_varc(1016, iVar1)
+		base_color(iVar1, 1)
+		iVar1 = struct_param(1209, iVar2)
+		store_varc(1017, iVar1)
+		base_color(iVar1, 2)
+		iVar1 = struct_param(1210, iVar2)
+		store_varc(1018, iVar1)
+		base_color(iVar1, 3)
+		break
+
+}
+script_391()
+return

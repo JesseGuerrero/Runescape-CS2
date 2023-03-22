@@ -1,0 +1,11 @@
+//script1873(1873)()(void)
+if(load_varc(200) > 0) {
+	if(load_varc(1745) == 1) {
+		instr6680()
+		store_varc(1745, 0)
+	}
+	script_3064(1)
+	instr6342(if_gethash(906, 186), None, "")
+	script_3097()
+}
+return

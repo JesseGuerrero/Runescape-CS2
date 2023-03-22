@@ -1,0 +1,7 @@
+//script4625(4625)()(void)
+if(compare("", load_varc_string(353)) != 0)
+	if(compare("null", load_varc_string(353)) != 0)
+		store_varc_string(354, load_varc_string(353))
+	else
+		store_varc_string(354, "")
+return

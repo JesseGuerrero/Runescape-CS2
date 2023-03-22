@@ -1,0 +1,3 @@
+//script11(11)(int arg0)(void)
+cc_deleteall(arg0)
+return

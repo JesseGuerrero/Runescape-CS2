@@ -1,0 +1,18 @@
+//script1180(1180)()(void)
+if(load_varpbit(7232) == 1)
+	if(world_language() == 1) {
+		if_setgraphic(if_gethash(548, 35), 5570)
+		if_setgraphic(if_gethash(746, 55), 8639)
+	} else  {
+		if_setgraphic(if_gethash(548, 35), 5568)
+		if_setgraphic(if_gethash(746, 55), 8637)
+	}
+else
+	if(world_language() == 1) {
+		if_setgraphic(if_gethash(548, 35), 2714)
+		if_setgraphic(if_gethash(746, 55), 8635)
+	} else  {
+		if_setgraphic(if_gethash(548, 35), 2730)
+		if_setgraphic(if_gethash(746, 55), 8633)
+	}
+return

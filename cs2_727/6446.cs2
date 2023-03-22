@@ -1,0 +1,17 @@
+//script6446(6446)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+arg4 = arg4 + 110
+arg1 = arg1 + arg2
+if(cc_find(0, if_gethash(1311, 54)) == 1) {
+	arg3 = cc_getspriteroll()
+	arg1 = cc_getspritescale()
+	arg4 = cc_getoffsety()
+}
+cc_create(if_getnextsubid(arg0), 6, arg0)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+cc_setmodel(arg5)
+cc_setmodelangle(arg1, 10, arg3, 10, arg4, 0)
+cc_setmodelanim(arg6)
+instr5957(script_6447, "Iiii", -2147483645, -2147483643, -2147483647, 0)
+instr6765(script_6448, "Iiiii", -2147483645, -2147483643, -2147483646, 0, arg2)
+return

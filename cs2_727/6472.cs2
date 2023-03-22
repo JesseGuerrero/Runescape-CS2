@@ -1,0 +1,19 @@
+//script6472(6472)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = 0
+iVar2 = 5960
+iVar3 = 5961
+iVar4 = -1
+iVar5 = -1
+while(iVar1 < enum_getoutputcount(iVar2)) {
+	iVar4 = enum(iVar2, iVar1, 'i', 'I')
+	iVar5 = enum(iVar3, iVar1, 'i', 'I')
+	if_sethide(iVar4, arg0)
+	if_sethide(iVar5, arg0)
+	iVar1 = iVar1 + 1
+}
+return

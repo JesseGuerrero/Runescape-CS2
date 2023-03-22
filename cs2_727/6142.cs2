@@ -1,0 +1,33 @@
+//script6142(6142)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar2 = if_getwidth(if_gethash(1270, 34))
+iVar3 = if_getheight(if_gethash(1270, 34))
+iVar4 = -1
+iVar5 = 0
+iVar6 = 14
+iVar7 = iVar2 / 2
+iVar8 = iVar3 / 2
+iVar9 = (-100 * (arg0 - iVar7)) / iVar7
+iVar10 = (-100 * (arg1 - iVar8)) / iVar8
+iVar11 = 0
+iVar12 = 0
+while(iVar5 <= iVar6) {
+	iVar4 = script_6139(iVar5)
+	iVar11 = (if_getwidth(iVar4) - iVar2) / 2
+	iVar12 = (if_getheight(iVar4) - iVar3) / 2
+	iVar11 = (iVar9 * iVar11) / 100
+	iVar12 = (iVar10 * iVar12) / 100
+	if_setposition(iVar4, 1, 1, iVar12, iVar11)
+	iVar5 = iVar5 + 1
+}
+return

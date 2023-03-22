@@ -1,0 +1,13 @@
+//script2026(2026)()(void)
+if_settextfont(if_gethash(752, 4), 496)
+if_settextfont(if_gethash(752, 5), 496)
+if_setsize(if_gethash(752, 4), 0, 1, 40, 20)
+if_setsize(if_gethash(752, 5), 0, 1, 20, 20)
+if_setposition(if_gethash(752, 4), 0, 1, 20, 0)
+if_setposition(if_gethash(752, 5), 0, 1, 60, 0)
+if_setonmouseover(if_gethash(752, 5), None, "")
+hook_mouse_exit(if_gethash(752, 5), None, "")
+instr6253(if_gethash(752, 5), None, "")
+if_setcolor(49283077, 0x80)
+cc_deleteall(if_gethash(752, 3))
+return

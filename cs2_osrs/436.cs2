@@ -1,0 +1,11 @@
+void script_436(Widget widget0, int arg1, int arg2, boolean arg3) {
+	if (_CHILD.setChild(widget0, arg1) == true && CHILD.setChild(widget0, arg2) == true) {
+		if (arg3 == true) {
+			CHILD.setPosition(_CHILD.getX(), _CHILD.getY(), 0, 0);
+			CHILD.setHidden(false);
+		} else {
+			CHILD.setHidden(true);
+		}
+	}
+	return;
+}

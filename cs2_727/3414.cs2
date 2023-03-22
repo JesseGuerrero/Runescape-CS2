@@ -1,0 +1,4 @@
+//script3414(3414)(int arg0)(void)
+if(load_varpbit(7868) == 2)
+	if_setmodel(arg0, 57477)
+return

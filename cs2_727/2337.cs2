@@ -1,0 +1,6 @@
+//script2337(2337)(int arg0)(void)
+if(instr6644() >= 2)
+	if_setposition(arg0, 0, 2, 10, if_getwidth(if_gethash(746, 14)) + 10)
+else
+	if_setposition(arg0, 0, 2, 10, 10)
+return

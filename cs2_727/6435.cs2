@@ -1,0 +1,9 @@
+//script6435(6435)(int arg0)(void)
+if(load_varp(2664) != -1)
+	script_5335(arg0, -1, 85786624, 60, 200, 1, "You are already in a group.")
+else
+	if(load_varp(2662) != -1)
+		script_5335(arg0, -1, 85786624, 60, 200, 1, "You are already being invited to a group.")
+	else
+		script_5335(arg0, -1, 85786624, 60, 200, 1, "You are already inviting someone to a group.")
+return

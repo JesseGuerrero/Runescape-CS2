@@ -1,0 +1,4 @@
+//script3205(3205)()(void)
+if_closesubclient(59375695)
+if_sethide(if_gethash(906, 71), 1)
+return

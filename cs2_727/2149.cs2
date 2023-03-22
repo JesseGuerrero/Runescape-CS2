@@ -1,0 +1,14 @@
+//script2149(2149)(int arg0)(int)
+if(script_2155(arg0) == 0)
+	return 0
+if(load_varp(101) < struct_param(895, arg0))
+	return 0
+if(load_varc(698) < struct_param(896, arg0))
+	return 0
+if(script_2153(arg0) == 0)
+	return 0
+if(struct_param(898, arg0) == 1)
+	if(script_2194(struct_param(847, arg0)) == 0)
+		return 0
+return 1
+return -1

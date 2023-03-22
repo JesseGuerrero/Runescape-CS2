@@ -1,0 +1,8 @@
+//script2871(2871)(int arg0)(void)
+if(arg0 == 1)
+	if(load_varc(1077) == 1)
+		store_varc(1077, 0)
+	else
+		store_varc(1077, 1)
+script_2872()
+return

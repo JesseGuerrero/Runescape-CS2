@@ -1,0 +1,9 @@
+//script6404(6404)()(void)
+if_settext(if_gethash(1308, 341), "Current points:")
+if_settext(if_gethash(1308, 342), to_string(load_varpbit(4781)))
+if_setposition(if_gethash(1308, 342), 0, 0, 0, 96)
+if(load_varpbit(4781) == 0)
+	if_setcolor(85721430, 0xB52F10)
+else
+	if_setcolor(85721430, 0xFBF5E6)
+return

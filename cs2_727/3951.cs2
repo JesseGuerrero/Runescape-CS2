@@ -1,0 +1,8 @@
+//script3951(3951)()(void)
+store_varc_string(337, load_varc_string(331))
+store_varc_string(338, load_varc_string(332))
+store_varc_string(339, load_varc_string(333))
+store_varc_string(340, load_varc_string(334))
+store_varc_string(341, load_varc_string(335))
+store_varc_string(342, load_varc_string(336))
+return

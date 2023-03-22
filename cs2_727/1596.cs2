@@ -1,0 +1,5 @@
+//script1596(1596)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+if_setgraphic(arg1, 1071)
+return

@@ -1,0 +1,3 @@
+//script860(860)()(void)
+sound_synth(0, 1, 4502)
+return

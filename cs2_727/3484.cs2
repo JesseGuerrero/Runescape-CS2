@@ -1,0 +1,53 @@
+//script3484(3484)(int arg0)(int)
+int iVar1
+iVar1 = 0
+if(load_varpbit(7999) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8000) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8001) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8002) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8003) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8004) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8005) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8006) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8007) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8008) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8009) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8010) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8011) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8012) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8013) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8014) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8015) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8016) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8017) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8018) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8019) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8020) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8021) == arg0)
+	iVar1 = iVar1 + 1
+if(load_varpbit(8022) == arg0)
+	iVar1 = iVar1 + 1
+return iVar1
+return 0

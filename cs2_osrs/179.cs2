@@ -1,0 +1,18 @@
+int script_179(int arg0) {
+	if (arg0 == 1) {
+		return VARC[44];
+	}
+	if (arg0 == 2) {
+		return VARC[45];
+	}
+	if (arg0 == 3) {
+		return VARC[46];
+	}
+	if (arg0 == 4) {
+		return VARC[47];
+	}
+	if (arg0 == 5) {
+		return VARC[48];
+	}
+	return 0;
+}

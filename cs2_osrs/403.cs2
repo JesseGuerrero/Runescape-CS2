@@ -1,0 +1,6 @@
+void script_403(Widget widget0, Model model1, Model model2, int arg3, int arg4, string arg5) {
+	widget0.setOptionBase("<col=ff9040>" + arg5);
+	widget0.hookVARP(&script_475(widget0, model1, model2, arg3, arg4), 261, 262);
+	script_476(widget0, model1, model2, arg3, arg4);
+	return;
+}

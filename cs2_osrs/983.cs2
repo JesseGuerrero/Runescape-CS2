@@ -1,0 +1,4 @@
+void script_983(Widget arg0, int arg1, Widget widget2) {
+	widget2.setIsHidden(true);
+	return;
+}

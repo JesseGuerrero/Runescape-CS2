@@ -1,0 +1,16 @@
+//script5562(5562)(int arg0)(void)
+int iVar1
+iVar1 = (client_clock() - arg0) - 50
+if(iVar1 > 0)
+	iVar1 = 0
+if_setposition(if_gethash(746, 214), 0, 2, 0, iVar1)
+if_setposition(if_gethash(548, 203), 0, 2, 0, iVar1)
+if(client_clock() < arg0 + 150)
+	return
+if_sethide(if_gethash(746, 213), 1)
+if_sethide(if_gethash(548, 202), 1)
+if_setposition(if_gethash(746, 214), 0, 2, 0, -50)
+if_setposition(if_gethash(548, 203), 0, 2, 0, -50)
+instr6342(if_gethash(746, 213), None, "")
+instr6342(if_gethash(548, 202), None, "")
+return

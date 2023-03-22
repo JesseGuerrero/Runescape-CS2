@@ -1,0 +1,30 @@
+//script1032(1032)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+if_setscrollpos(if_gethash(157, 25), 0, 0)
+cc_deleteall(if_gethash(157, 24))
+if_sethide(if_gethash(157, 17), 0)
+if_sethide(if_gethash(157, 35), 0)
+hook_mouse_press(if_gethash(157, 30), script_1028, "")
+if_settext(if_gethash(157, 30), "Shortcut keys")
+cc_deleteall(if_gethash(157, 23))
+cc_deleteall(if_gethash(157, 25))
+script_1033(enum(arg0, arg1, 'i', 's'))
+if_settext(if_gethash(157, 20), "Page " + to_string(arg1 + 1) + " of " + to_string(arg2))
+iVar3 = arg1 + 1
+iVar4 = arg1 - 1
+if(arg1 != arg2 - 1) {
+	hook_mouse_press(if_gethash(157, 21), script_784, "gii", arg0, iVar3, arg2)
+	if_settrans(if_gethash(157, 21), 0)
+} else  {
+	hook_mouse_press(if_gethash(157, 21), None, "")
+	if_settrans(if_gethash(157, 21), 200)
+}
+if(arg1 != 0) {
+	hook_mouse_press(if_gethash(157, 22), script_784, "gii", arg0, iVar4, arg2)
+	if_settrans(if_gethash(157, 22), 0)
+} else  {
+	hook_mouse_press(if_gethash(157, 22), None, "")
+	if_settrans(if_gethash(157, 22), 200)
+}
+return

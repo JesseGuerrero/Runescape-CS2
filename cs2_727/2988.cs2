@@ -1,0 +1,110 @@
+//script2988(2988)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+string sVar2
+sVar0 = "null"
+sVar1 = "null"
+sVar2 = "null"
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+switch(arg0) {
+	case default:
+		sVar1 = "Coming soon"
+		break
+	case 4718660:
+		if(load_varpbit(8386) == 0)
+			return
+		sVar0 = "Common jadinko"
+		sVar1 = "The most abundant form of jadinko. The common jadinkos lack the magical properties of their counterparts; however, they are the easiest of all the jadinkos to attract." + "<br>" + "<br>" + "These jadinkos are caught with marasamaw plants."
+		sVar2 = "To attract common jadinkos:" + "<br>" + "<br>" + "grow any of the vine flowers."
+		iVar5 = 62244
+		break
+	case 4718659:
+		if(load_varpbit(8393) == 0)
+			return
+		sVar0 = "Shadow jadinko"
+		sVar1 = "This species of jadinko is particularly sinister, tied as it is with darkness. Shadow jadinkos produce shadow vines which are useful for those who want to be more stealthy when hunting." + "<br>" + "<br>" + "These jadinkos are caught by tracking."
+		sVar2 = "To attract shadow jadinkos:" + "<br>" + "<br>" + "grow red vine flowers and build an abandoned house."
+		iVar5 = 62253
+		break
+	case 4718658:
+		if(load_varpbit(8394) == 0)
+			return
+		sVar0 = "Diseased jadinko"
+		sVar1 = "The diseased jadinko is a sorry sort of creature, corrupted by some unknown illness that it can never shake. That's unfortunate for the jadinko, but fortunate for the hunter, because the corrupt vines these creatures produce can be made into juju hunter potions that are invaluable for hunting in the habitat." + "<br>" + "<br>" + "These jadinkos are caught by tracking."
+		sVar2 = "To attract diseased jadinkos:" + "<br>" + "<br>" + "grow a banana tree and build a boneyard."
+		iVar5 = 62251
+		break
+	case 4718657:
+		if(load_varpbit(8395) == 0)
+			return
+		sVar0 = "Igneous jadinko"
+		sVar1 = "The igneous jadinko have a great affinity with the earth. They dwell beneath the stones, unless attracted by the sweet scent of lergberry and oranges. Their vines are particularly useful for those who wish to gather herbs more efficiently." + "<br>" + "<br>" + "These jadinkos are caught with marasamaw plants."
+		sVar2 = "To attract igneous jadinkos:" + "<br>" + "<br>" + "grow a lergberry bush, an orange tree, a blue vine plant and construct a thermal vent."
+		iVar5 = 62249
+		break
+	case 4718656:
+		if(load_varpbit(8391) == 0)
+			return
+		sVar0 = "Cannibal jadinko"
+		sVar1 = "These jadinko prey on other jadinkos. They roam the habitat looking for other creatures to snack on. Unlike other jadinkos, the cannibal jadinko's magic is located not in the vine, but in its teeth. The plant teeth can be used to make a deliciously tasty gumbo, if mixed with the right herbs." + "<br>" + "<br>" + "These jadinkos are caught with marasamaw plants."
+		sVar2 = "To attract cannibal jadinkos:" + "<br>" + "<br>" + "grow a kalferberry bush, a green vine flower, construct tall grass and be sure to have used the juju hunter potion on the flower."
+		iVar5 = 62241
+		break
+	case 4718665:
+		if(load_varpbit(8387) == 0)
+			return
+		sVar0 = "Aquatic jadinko"
+		sVar1 = "The aquatic jadinko rarely comes out on land, but, when it does, it's highly sought after by the discerning hunter. The vines that grow from this creature's back can be used to create a juju fishing potion that allows you to catch the elusive baron shark." + "<br>" + "<br>" + "These jadinkos are caught with marasamaw plants."
+		sVar2 = "To attract aquatic jadinkos:" + "<br>" + "<br>" + "grow a kalferberry bush, an apple tree, a red vine flower and construct a pond. You must also be under the effects of a juju hunter potion."
+		iVar5 = 62250
+		break
+	case 4718664:
+		if(load_varpbit(8388) == 0)
+			return
+		sVar0 = "Amphibious jadinko"
+		sVar1 = "The amphibious jadinko is as at home on land as it is in water. These creatures may be slimy and froggish, but their oily vines can be extremely useful. When combined with the appropriate herb, their vines can be used to create potions that attract wood spirits when you are woodcutting, making a lumberjack's life significantly easier." + "<br>" + "<br>" + "These jadinkos are caught with marasamaw plants."
+		sVar2 = "To attract amphibian jadinkos:" + "<br>" + "<br>" + "grow a lergberry bush, a blue flower and construct a pond."
+		iVar5 = 62243
+		break
+	case 4718663:
+		if(load_varpbit(8390) == 0)
+			return
+		sVar0 = "Carrion jadinko"
+		sVar1 = "The carrion jadinko is probably the least pleasant of the jadinko species. They scavenge on the leftovers of other creatures and feast cannibalistically on the remains of other hunted jadinkos. The vines that these creatures produce are particularly pungent and rot rather nicely to create supercompost."
+		sVar2 = "To attract carrion jadinkos:" + "<br>" + "<br>" + "grow a kalferberry bush, a green vine flower and build a boneyard."
+		iVar5 = 62248
+		break
+	case 4718662:
+		if(load_varpbit(8389) == 0)
+			return
+		sVar0 = "Camouflaged jadinko"
+		sVar1 = "The camouflaged jadinko is a stealthy critter that takes great delight in hiding itself in foliage. The magic of its striped vines is particularly odd and cannot be turned into a potion; however, Papa Mambo has mentioned that he has uses for these vines." + "<br>" + "<br>" + "These jadinkos are caught by tracking."
+		sVar2 = "To attract camouflaged jadinkos:" + "<br>" + "<br>" + "grow a lergberry bush and build standing stones. In addition, you must be under the effects of the juju hunter potion."
+		iVar5 = 62245
+		break
+	case 4718661:
+		if(load_varpbit(8392) == 0)
+			return
+		sVar0 = "Draconic jadinko"
+		sVar1 = "While not dragons, these rare and elusive creatures certainly resemble them. They are powerful beasts with a deep connection to the earth: so deep that their vines can be used to create powerful potions that attracts the mining spirits of stone." + "<br>" + "<br>" + "These jadinkos are caught with marasamaw plants."
+		sVar2 = "To attract draconic jadinkos:" + "<br>" + "<br>" + "grow a lergberry bush, a red vine flower and build a dark pit. In addition you will need to be under the influence of the juju hunter potion."
+		iVar5 = 62238
+		break
+
+}
+if_sethide(if_gethash(72, 56), 1)
+if_sethide(if_gethash(72, 58), 0)
+if_settext(if_gethash(72, 60), sVar0)
+if_settext(if_gethash(72, 61), sVar1)
+if_settext(if_gethash(72, 62), sVar2)
+if_setmodel(if_gethash(72, 59), iVar5)
+return

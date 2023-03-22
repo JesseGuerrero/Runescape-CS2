@@ -1,0 +1,22 @@
+void script_1123(int arg0) {
+	if (length(STRING[24]) > 0) {
+		playSoundEffect(2266, 1, 0);
+		if (arg0 == 7 && compare(STRING[24], STRING[136]) == 0) {
+			msg("Thank-you, your abuse report has been received.");
+		} else {
+			m5002(STRING[24], arg0, VARC[6]);
+		}
+		if (VARC[140] == 1) {
+			cs2method3607(STRING[24]);
+		}
+		if (arg0 == 7) {
+			STRING[136] = STRING[24];
+		}
+		sendCloseWidgetPacket();
+		VARC[11], STRING[24] = 0, "";
+		return;
+	}
+	playSoundEffect(2277, 1, 0);
+	msg("Please enter the name of the player you wish to report.");
+	return;
+}

@@ -1,0 +1,19 @@
+//script6203(6203)()(void)
+int iVar0
+int iVar1
+if(compare(load_varc_string(364), load_varc_string(363)) != 0)
+	if(string_length(load_varc_string(363)) > 0 || string_length(load_varc_string(364)) > 0) {
+		script_3093(-5, 1, 0, 2608, 0, -1, 1, "Please ensure both email addresses are the same.", "", "", "Back", "Back")
+		return
+	}
+instr6237(if_gethash(906, 235), script_6204, "Y", 1, 2411)
+script_5522()
+if_settext(if_gethash(906, 252), "Please wait...")
+iVar0 = 0
+iVar1 = 0
+if(load_varc(1411) == 1) {
+	iVar0 = 1
+	iVar1 = 1
+}
+email_validation_add_new_address(load_varc_string(363), iVar1, iVar0, 1)
+return

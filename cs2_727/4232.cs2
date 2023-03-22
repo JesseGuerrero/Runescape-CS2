@@ -1,0 +1,7 @@
+//script4232(4232)(int arg0)(void)
+if(instr6004(arg0) == 1) {
+	instr6091(script_4209, "Ii", arg0, 0)
+	instr6092(script_4209, "Ii", arg0, 1)
+	cc_settrans(255)
+}
+return

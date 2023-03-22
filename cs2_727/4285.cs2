@@ -1,0 +1,31 @@
+//script4285(4285)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+store_varc_string(348, if_gettext(arg0))
+switch(arg3) {
+	case default:
+		break
+	case 84:
+		if(compare(load_varc_string(348), "") != 0)
+			script_4288()
+		break
+	case 103:
+		if(instr6606() == 0)
+			return
+		pop_int()
+		break
+	case 85:
+		if(string_length(load_varc_string(348)) > 0)
+			store_varc_string(348, substring(load_varc_string(348), string_length(load_varc_string(348)) - 1, 0))
+		if(string_length(load_varc_string(348)) < 20)
+			store_varc_string(348, script_74(0, arg3, arg2, load_varc_string(348)))
+		break
+
+}
+store_varc(1504, script_1552(load_varc(1504), 5631, arg0, -1, load_varc_string(348)))
+if_setposition(arg4, 0, 0, if_gety(arg4), load_varc(1504))
+if_settext(arg1, to_string(string_length(load_varc_string(348))) + "/20")
+if(string_length(load_varc_string(348)) >= 15)
+	if_setcolor(arg1, 0xDD0000)
+else
+	if_setcolor(arg1, 0x1F1D19)
+if_settext(arg0, load_varc_string(348))
+return

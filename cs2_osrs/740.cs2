@@ -1,0 +1,14 @@
+void script_740(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	int2 = script_1045(getScrollMaxV(widget1) - widget1.getHeight(), 1);
+	int3 = widget0.getHeight() - 32 - CHILD.getHeight();
+	CHILD.setPosition(0, 16 + int3 * getScrollY(widget1) / int2, 1, 0);
+	if (_CHILD.setChild(widget0, 2) == true) {
+		_CHILD.setPosition(0, CHILD.getY(), 1, 0);
+	}
+	if (_CHILD.setChild(widget0, 3) == true) {
+		_CHILD.setPosition(0, CHILD.getY() + CHILD.getHeight() - 5, 1, 0);
+	}
+	return;
+}

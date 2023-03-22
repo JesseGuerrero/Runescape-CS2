@@ -1,0 +1,20 @@
+string script_1299(string string0, string string1, string string2) {
+	int int0;
+	int int1;
+	int int2;
+	if (compare(string1, string2) == 0) {
+		return string0;
+	}
+	int0 = length(string1);
+	if (int0 <= 0) {
+		return string0;
+	}
+	int1 = 0;
+	int2 = indexOf(string0, string1, 0);
+	while (int2 != -1) {
+		int1 = length(string0);
+		string0 = concat(concat(substr(string0, 0, int2), string2), substr(string0, int2 + int0, int1));
+		int2 = indexOf(string0, string1, 0);
+	}
+	return string0;
+}

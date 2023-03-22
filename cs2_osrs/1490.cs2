@@ -1,0 +1,9 @@
+void script_1490(int arg0, int arg1) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	VARP[1204] = arg1;
+	script_1935();
+	return;
+}

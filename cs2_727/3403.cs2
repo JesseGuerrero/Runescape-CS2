@@ -1,0 +1,21 @@
+//script3403(3403)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = (((if_getheight(if_gethash(909, 13)) - if_gety(if_gethash(909, 61))) - 35) - arg0) - 7
+if(arg1 == 1)
+	iVar2 = iVar2 - modulo(15, iVar2)
+if(iVar2 < 113)
+	iVar2 = 113
+if_setsize(if_gethash(909, 49), 0, 1, iVar2, 20)
+store_varc(1274, arg0)
+if_setposition(if_gethash(909, 62), 0, 0, (if_gety(if_gethash(909, 49)) - if_gety(if_gethash(909, 61))) - 7, 0)
+iVar3 = iVar2 - 8
+iVar3 = iVar3 - modulo(15, iVar3)
+if_setsize(if_gethash(909, 52), 0, 0, iVar3, if_getwidth(if_gethash(909, 52)))
+store_varc(1122, load_varc(1122) - (iVar3 - iVar3))
+script_3054(59572273)
+if_setsize(if_gethash(909, 16), 1, 0, iVar2 + 86, if_getwidth(if_gethash(909, 16)))
+if_setsize(if_gethash(909, 48), 1, 0, iVar2 + 86, if_getwidth(if_gethash(909, 48)))
+script_3029(59572269, 59572268, 59572270, 59572266, 59572265, 59572271)
+script_3041(59572311, 59572310, 59572308, 59572302, 59572303)
+return

@@ -1,0 +1,23 @@
+//script1710(1710)(int arg0)(int)
+int iVar1
+iVar1 = script_1711(arg0)
+if(load_varpbit(6839) > 0)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			iVar1 = iVar1 + 15
+			iVar1 = iVar1 + script_1714(arg0, load_varpbit(6844))
+			break
+		case 2:
+			iVar1 = iVar1 + 23
+			iVar1 = iVar1 + script_1714(arg0, load_varpbit(6845))
+			break
+		case 1:
+			iVar1 = iVar1 + 15
+			iVar1 = iVar1 + script_1714(arg0, load_varpbit(6846))
+			break
+
+	}
+return iVar1
+return 0

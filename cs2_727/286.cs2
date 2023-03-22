@@ -1,0 +1,16 @@
+//script286(286)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6)(void)
+if(arg0 != 1)
+	return
+if(cc_find(arg2, arg1) == 1)
+	cc_setop(arg0, 1)
+if(cc_find(arg3, arg1) == 1)
+	cc_setop(arg0, 1)
+if(cc_find(arg4, arg1) == 1)
+	if(arg5 == 1)
+		cc_sethide(0)
+	else
+		cc_sethide(1)
+if(arg2 == 11)
+	instr6632(arg5, 950)
+sound_synth(0, 1, 2266)
+return

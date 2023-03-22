@@ -1,0 +1,613 @@
+//script5662(5662)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+int iVar42
+int iVar43
+int iVar44
+int iVar45
+int iVar46
+int iVar47
+string sVar0
+script_5651()
+if(load_varpbit(10443) == 1) {
+	if(arg1 == 1)
+		script_5653()
+	return
+}
+iVar2 = 0
+if(arg0 == 0) {
+	script_5659()
+	if(stat_base(0) > 0)
+		if(stat_base(2) > 0)
+			if(stat_base(1) > 0)
+				if(stat_base(4) > 0)
+					if(stat_base(6) > 0)
+						if(stat_base(3) > 0)
+							if(stat_base(5) > 0)
+								if(stat_base(20) > 0)
+									if(stat_base(12) > 0)
+										if(stat_base(14) > 0)
+											if(stat_base(13) > 0)
+												if(stat_base(10) > 0)
+													if(stat_base(7) > 0)
+														if(stat_base(11) > 0)
+															if(stat_base(8) > 0)
+																if(stat_base(16) > 0)
+																	if(stat_base(15) > 0)
+																		if(stat_base(17) > 0)
+																			if(stat_base(9) > 0)
+																				if(stat_base(18) > 0)
+																					if(stat_base(19) > 0)
+																						if(stat_base(22) > 0)
+																							if(stat_base(21) > 0)
+																								if(stat_base(23) > 0)
+																									if(stat_base(24) > 0)
+																										instr6393(if_gethash(1213, 3), script_5661, "1", 1)
+	return
+}
+iVar3 = 0
+iVar4 = stat_visible_xp(0) - load_varc(1243)
+if(iVar4 != 0)
+	iVar3 = iVar3 + 1
+iVar5 = stat_visible_xp(2) - load_varc(1244)
+if(iVar5 != 0)
+	iVar3 = iVar3 + 1
+iVar6 = stat_visible_xp(1) - load_varc(1245)
+if(iVar6 != 0)
+	iVar3 = iVar3 + 1
+iVar7 = stat_visible_xp(4) - load_varc(1246)
+if(iVar7 != 0)
+	iVar3 = iVar3 + 1
+iVar8 = stat_visible_xp(6) - load_varc(1248)
+if(iVar8 != 0)
+	iVar3 = iVar3 + 1
+iVar9 = stat_visible_xp(3) - load_varc(1250)
+if(iVar9 != 0)
+	iVar3 = iVar3 + 1
+iVar10 = stat_visible_xp(5) - load_varc(1247)
+if(iVar10 != 0)
+	iVar3 = iVar3 + 1
+iVar11 = stat_visible_xp(20) - load_varc(1249)
+if(iVar11 != 0)
+	iVar3 = iVar3 + 1
+iVar12 = stat_visible_xp(12) - load_varc(1251)
+if(iVar12 != 0)
+	iVar3 = iVar3 + 1
+iVar13 = stat_visible_xp(14) - load_varc(1252)
+if(iVar13 != 0)
+	iVar3 = iVar3 + 1
+iVar14 = stat_visible_xp(13) - load_varc(1253)
+if(iVar14 != 0)
+	iVar3 = iVar3 + 1
+iVar15 = stat_visible_xp(10) - load_varc(1254)
+if(iVar15 != 0)
+	iVar3 = iVar3 + 1
+iVar16 = stat_visible_xp(7) - load_varc(1255)
+if(iVar16 != 0)
+	iVar3 = iVar3 + 1
+iVar17 = stat_visible_xp(11) - load_varc(1256)
+if(iVar17 != 0)
+	iVar3 = iVar3 + 1
+iVar18 = stat_visible_xp(8) - load_varc(1257)
+if(iVar18 != 0)
+	iVar3 = iVar3 + 1
+iVar19 = stat_visible_xp(16) - load_varc(1258)
+if(iVar19 != 0)
+	iVar3 = iVar3 + 1
+iVar20 = stat_visible_xp(15) - load_varc(1259)
+if(iVar20 != 0)
+	iVar3 = iVar3 + 1
+iVar21 = stat_visible_xp(17) - load_varc(1260)
+if(iVar21 != 0)
+	iVar3 = iVar3 + 1
+iVar22 = stat_visible_xp(9) - load_varc(1261)
+if(iVar22 != 0)
+	iVar3 = iVar3 + 1
+iVar23 = stat_visible_xp(18) - load_varc(1262)
+if(iVar23 != 0)
+	iVar3 = iVar3 + 1
+iVar24 = stat_visible_xp(19) - load_varc(1263)
+if(iVar24 != 0)
+	iVar3 = iVar3 + 1
+iVar25 = stat_visible_xp(22) - load_varc(1264)
+if(iVar25 != 0)
+	iVar3 = iVar3 + 1
+iVar26 = stat_visible_xp(21) - load_varc(1265)
+if(iVar26 != 0)
+	iVar3 = iVar3 + 1
+iVar27 = stat_visible_xp(23) - load_varc(1266)
+if(iVar27 != 0)
+	iVar3 = iVar3 + 1
+iVar28 = stat_visible_xp(24) - load_varc(1267)
+if(iVar28 != 0)
+	iVar3 = iVar3 + 1
+iVar2 = (((((((((((((((((((((((iVar4 + iVar5) + iVar6) + iVar7) + iVar8) + iVar9) + iVar10) + iVar11) + iVar12) + iVar13) + iVar14) + iVar15) + iVar16) + iVar17) + iVar18) + iVar19) + iVar20) + iVar21) + iVar22) + iVar23) + iVar24) + iVar25) + iVar26) + iVar27) + iVar28
+if(iVar2 < 1)
+	return
+iVar29 = 0
+iVar30 = 0
+iVar31 = 0
+iVar32 = 0
+sVar0 = ""
+iVar33 = 0
+iVar34 = -1
+iVar35 = 0
+if(if_gethide(if_gethash(1213, 3)) == 0) {
+	if(load_varp(2044) > 0) {
+		iVar35 = modulo(10, load_varp(2044))
+		if(iVar35 > 0)
+			sVar0 = "(" + to_string(load_varp(2044) / 10) + "." + to_string(iVar35) + " bonus xp)"
+		else
+			sVar0 = "(" + to_string(load_varp(2044) / 10) + " bonus xp)"
+	}
+	cc_create(if_getnextsubid(if_gethash(1213, 1)), 4, 79495169)
+	cc_settext("+" + tostring_localized(1, iVar2) + " xp " + sVar0)
+	instr6556(script_5657, "Iii", -2147483645, instr6151(), 0)
+	cc_setsize(0, 0, 25, 150)
+	cc_settextfont(3795)
+	cc_setcolor(f5b241)
+	cc_settextshadow(1)
+	cc_settextalign(0, 1, 1)
+	cc_setposition(3, 1, 7373, 0)
+} else 
+	cc_deleteall(if_gethash(1213, 1))
+iVar36 = 0
+iVar37 = -1
+iVar38 = -1
+iVar39 = -1
+iVar40 = -1
+iVar41 = -1
+iVar42 = -1
+iVar43 = 0
+iVar44 = 0
+iVar45 = 0
+iVar46 = 0
+iVar47 = 0
+while(iVar36 < iVar3) {
+	if(iVar4 != 0) {
+		iVar37 = 79495198
+		iVar33 = 1
+		iVar43 = load_varp(1969)
+		iVar45 = load_varp(1994)
+		iVar44 = bit_flagged(1, load_varp(1968))
+		iVar4 = 0
+	} else 
+		if(iVar5 != 0) {
+			iVar37 = 79495199
+			iVar33 = 2
+			iVar43 = load_varp(1970)
+			iVar45 = load_varp(1995)
+			iVar44 = bit_flagged(2, load_varp(1968))
+			iVar5 = 0
+		} else 
+			if(iVar6 != 0) {
+				iVar37 = 79495200
+				iVar33 = 5
+				iVar43 = load_varp(1973)
+				iVar45 = load_varp(1998)
+				iVar44 = bit_flagged(5, load_varp(1968))
+				iVar6 = 0
+			} else 
+				if(iVar7 != 0) {
+					iVar37 = 79495201
+					iVar33 = 3
+					iVar43 = load_varp(1971)
+					iVar45 = load_varp(1996)
+					iVar44 = bit_flagged(3, load_varp(1968))
+					iVar7 = 0
+				} else 
+					if(iVar10 != 0) {
+						iVar37 = 79495202
+						iVar33 = 7
+						iVar43 = load_varp(1975)
+						iVar45 = load_varp(2000)
+						iVar44 = bit_flagged(7, load_varp(1968))
+						iVar10 = 0
+					} else 
+						if(iVar8 != 0) {
+							iVar37 = 79495203
+							iVar33 = 4
+							iVar43 = load_varp(1972)
+							iVar45 = load_varp(1997)
+							iVar44 = bit_flagged(4, load_varp(1968))
+							iVar8 = 0
+						} else 
+							if(iVar9 != 0) {
+								iVar37 = 79495204
+								iVar33 = 6
+								iVar43 = load_varp(1974)
+								iVar45 = load_varp(1999)
+								iVar44 = bit_flagged(6, load_varp(1968))
+								iVar9 = 0
+							} else 
+								if(iVar19 != 0) {
+									iVar37 = 79495205
+									iVar33 = 8
+									iVar43 = load_varp(1976)
+									iVar45 = load_varp(2001)
+									iVar44 = bit_flagged(8, load_varp(1968))
+									iVar19 = 0
+								} else 
+									if(iVar20 != 0) {
+										iVar37 = 79495206
+										iVar33 = 9
+										iVar43 = load_varp(1977)
+										iVar45 = load_varp(2002)
+										iVar44 = bit_flagged(9, load_varp(1968))
+										iVar20 = 0
+									} else 
+										if(iVar21 != 0) {
+											iVar37 = 79495207
+											iVar33 = 10
+											iVar43 = load_varp(1978)
+											iVar45 = load_varp(2003)
+											iVar44 = bit_flagged(10, load_varp(1968))
+											iVar21 = 0
+										} else 
+											if(iVar12 != 0) {
+												iVar37 = 79495208
+												iVar33 = 11
+												iVar43 = load_varp(1979)
+												iVar45 = load_varp(2004)
+												iVar44 = bit_flagged(11, load_varp(1968))
+												iVar12 = 0
+											} else 
+												if(iVar22 != 0) {
+													iVar37 = 79495209
+													iVar33 = 19
+													iVar43 = load_varp(1987)
+													iVar45 = load_varp(2012)
+													iVar44 = bit_flagged(19, load_varp(1968))
+													iVar22 = 0
+												} else 
+													if(iVar13 != 0) {
+														iVar37 = 79495210
+														iVar33 = 13
+														iVar43 = load_varp(1981)
+														iVar45 = load_varp(2006)
+														iVar44 = bit_flagged(13, load_varp(1968))
+														iVar13 = 0
+													} else 
+														if(iVar14 != 0) {
+															iVar37 = 79495211
+															iVar33 = 14
+															iVar43 = load_varp(1982)
+															iVar45 = load_varp(2007)
+															iVar44 = bit_flagged(14, load_varp(1968))
+															iVar14 = 0
+														} else 
+															if(iVar15 != 0) {
+																iVar37 = 79495212
+																iVar33 = 15
+																iVar43 = load_varp(1983)
+																iVar45 = load_varp(2008)
+																iVar44 = bit_flagged(15, load_varp(1968))
+																iVar15 = 0
+															} else 
+																if(iVar16 != 0) {
+																	iVar37 = 79495213
+																	iVar33 = 16
+																	iVar43 = load_varp(1984)
+																	iVar45 = load_varp(2009)
+																	iVar44 = bit_flagged(16, load_varp(1968))
+																	iVar16 = 0
+																} else 
+																	if(iVar17 != 0) {
+																		iVar37 = 79495214
+																		iVar33 = 17
+																		iVar43 = load_varp(1985)
+																		iVar45 = load_varp(2010)
+																		iVar44 = bit_flagged(17, load_varp(1968))
+																		iVar17 = 0
+																	} else 
+																		if(iVar18 != 0) {
+																			iVar37 = 79495215
+																			iVar33 = 18
+																			iVar43 = load_varp(1986)
+																			iVar45 = load_varp(2011)
+																			iVar44 = bit_flagged(18, load_varp(1968))
+																			iVar18 = 0
+																		} else 
+																			if(iVar11 != 0) {
+																				iVar37 = 79495216
+																				iVar33 = 12
+																				iVar43 = load_varp(1980)
+																				iVar45 = load_varp(2005)
+																				iVar44 = bit_flagged(12, load_varp(1968))
+																				iVar11 = 0
+																			} else 
+																				if(iVar23 != 0) {
+																					iVar37 = 79495217
+																					iVar33 = 20
+																					iVar43 = load_varp(1988)
+																					iVar45 = load_varp(2013)
+																					iVar44 = bit_flagged(20, load_varp(1968))
+																					iVar23 = 0
+																				} else 
+																					if(iVar24 != 0) {
+																						iVar37 = 79495218
+																						iVar33 = 21
+																						iVar43 = load_varp(1989)
+																						iVar45 = load_varp(2014)
+																						iVar44 = bit_flagged(21, load_varp(1968))
+																						iVar24 = 0
+																					} else 
+																						if(iVar26 != 0) {
+																							iVar37 = 79495219
+																							iVar33 = 23
+																							iVar43 = load_varp(1991)
+																							iVar45 = load_varp(2016)
+																							iVar44 = bit_flagged(23, load_varp(1968))
+																							iVar26 = 0
+																						} else 
+																							if(iVar25 != 0) {
+																								iVar37 = 79495220
+																								iVar33 = 22
+																								iVar43 = load_varp(1990)
+																								iVar45 = load_varp(2015)
+																								iVar44 = bit_flagged(22, load_varp(1968))
+																								iVar25 = 0
+																							} else 
+																								if(iVar27 != 0) {
+																									iVar37 = 79495221
+																									iVar33 = 24
+																									iVar43 = load_varp(1992)
+																									iVar45 = load_varp(2017)
+																									iVar44 = bit_flagged(24, load_varp(1968))
+																									iVar27 = 0
+																								} else 
+																									if(iVar28 != 0) {
+																										iVar37 = 79495222
+																										iVar33 = 25
+																										iVar43 = load_varp(1993)
+																										iVar45 = load_varp(2018)
+																										iVar44 = bit_flagged(25, load_varp(1968))
+																										iVar28 = 0
+																									}
+	if(if_gethide(iVar37) == 0)
+		if(if_getx(iVar37) == if_getx(if_gethash(1213, 12)) + 18)
+			iVar38 = 79495180
+		else
+			if(if_getx(iVar37) == if_getx(if_gethash(1213, 11)) + 18)
+				iVar38 = 79495179
+			else
+				if(if_getx(iVar37) == if_getx(if_gethash(1213, 10)) + 18)
+					iVar38 = 79495178
+				else
+					if(if_getx(iVar37) == if_getx(if_gethash(1213, 9)) + 18)
+						iVar38 = 79495177
+					else
+						if(if_getx(iVar37) == if_getx(if_gethash(1213, 8)) + 18)
+							iVar38 = 79495176
+						else
+							if(if_getx(iVar37) == if_getx(if_gethash(1213, 7)) + 18)
+								iVar38 = 79495175
+							else
+								iVar38 = 79495181
+	else
+		if(if_gethide(if_gethash(1213, 13)) == 1)
+			iVar38 = 79495181
+		else
+			if(if_gethide(if_gethash(1213, 12)) == 1)
+				iVar38 = 79495180
+			else
+				if(if_gethide(if_gethash(1213, 11)) == 1)
+					iVar38 = 79495179
+				else
+					if(if_gethide(if_gethash(1213, 10)) == 1)
+						iVar38 = 79495178
+					else
+						if(if_gethide(if_gethash(1213, 9)) == 1)
+							iVar38 = 79495177
+						else
+							if(if_gethide(if_gethash(1213, 8)) == 1)
+								iVar38 = 79495176
+							else
+								if(if_gethide(if_gethash(1213, 7)) == 1)
+									iVar38 = 79495175
+								else {
+									switch(load_varc(1763)) {
+										case default:
+											iVar38 = 79495181
+											break
+										case 2:
+											iVar38 = 79495180
+											break
+										case 3:
+											iVar38 = 79495179
+											break
+										case 4:
+											iVar38 = 79495178
+											break
+										case 5:
+											iVar38 = 79495177
+											break
+										case 6:
+											iVar38 = 79495176
+											break
+										case 7:
+											iVar38 = 79495175
+											break
+
+									}
+									if_sethide(load_varc(1770), 1)
+								}
+	store_varc(1763, load_varc(1762))
+	store_varc(1762, load_varc(1761))
+	store_varc(1761, load_varc(1760))
+	store_varc(1760, load_varc(1759))
+	store_varc(1759, load_varc(1758))
+	store_varc(1758, load_varc(1757))
+	store_varc(1770, load_varc(1769))
+	store_varc(1769, load_varc(1768))
+	store_varc(1768, load_varc(1767))
+	store_varc(1767, load_varc(1766))
+	store_varc(1766, load_varc(1765))
+	store_varc(1765, load_varc(1764))
+	store_varc(1764, iVar37)
+	switch(iVar38) {
+		case default:
+			store_varc(1757, 1)
+			iVar39 = 79495184
+			iVar40 = 79495185
+			iVar41 = 79495183
+			iVar42 = 79495182
+			iVar47 = load_varc(1774)
+			break
+		case 79495180:
+			store_varc(1757, 2)
+			iVar39 = 79495186
+			iVar40 = 79495187
+			iVar41 = 79495223
+			iVar42 = 79495224
+			iVar47 = load_varc(1775)
+			break
+		case 79495179:
+			store_varc(1757, 3)
+			iVar39 = 79495188
+			iVar40 = 79495189
+			iVar41 = 79495225
+			iVar42 = 79495226
+			iVar47 = load_varc(1776)
+			break
+		case 79495178:
+			store_varc(1757, 4)
+			iVar39 = 79495190
+			iVar40 = 79495191
+			iVar41 = 79495227
+			iVar42 = 79495228
+			iVar47 = load_varc(1777)
+			break
+		case 79495177:
+			store_varc(1757, 5)
+			iVar39 = 79495192
+			iVar40 = 79495193
+			iVar41 = 79495229
+			iVar42 = 79495230
+			iVar47 = load_varc(1778)
+			break
+		case 79495176:
+			store_varc(1757, 6)
+			iVar39 = 79495194
+			iVar40 = 79495195
+			iVar41 = 79495231
+			iVar42 = 79495232
+			iVar47 = load_varc(1779)
+			break
+		case 79495175:
+			store_varc(1757, 7)
+			iVar39 = 79495196
+			iVar40 = 79495197
+			iVar41 = 79495233
+			iVar42 = 79495234
+			iVar47 = load_varc(1780)
+			break
+
+	}
+	iVar34 = enum(681, iVar33, 'i', 'S')
+	if(iVar34 != -1) {
+		if(iVar34 == 24)
+			if(stat_base(iVar34) < 120)
+				iVar46 = 1
+			else
+				if(stat_base(iVar34) < 99)
+					iVar46 = 1
+				else
+					iVar46 = 0
+		if(iVar46 == 1) {
+			iVar30 = enum(716, stat_base(iVar34) + 1, 'i', 'i')
+			iVar30 = iVar30 - enum(716, stat_base(iVar34), 'i', 'i')
+			iVar29 = stat_visible_xp(iVar34) - enum(716, stat_base(iVar34), 'i', 'i')
+			iVar31 = scale(100, iVar30, iVar29)
+			iVar32 = script_5664(iVar33) - enum(716, stat_base(iVar34), 'i', 'i')
+			iVar32 = scale(100, iVar30, iVar32)
+			if(iVar31 < iVar32 || iVar32 < 1 || iVar47 != iVar33) {
+				if_setsize(iVar39, 0, 0, max(1, scale(min(50, iVar31), 50, 45)), if_getwidth(iVar39))
+				if_setsize(iVar40, 0, 0, max(0, max(0, iVar31 - 50) * 2), if_getwidth(iVar40))
+			} else  {
+				if_setsize(iVar39, 0, 0, max(1, if_getheight(iVar39)), if_getwidth(iVar39))
+				if_setsize(iVar40, 0, 0, max(0, if_getheight(iVar40)), if_getwidth(iVar40))
+			}
+			switch(iVar38) {
+				case default:
+					store_varc(1774, iVar33)
+					break
+				case 79495180:
+					store_varc(1775, iVar33)
+					break
+				case 79495179:
+					store_varc(1776, iVar33)
+					break
+				case 79495178:
+					store_varc(1777, iVar33)
+					break
+				case 79495177:
+					store_varc(1778, iVar33)
+					break
+				case 79495176:
+					store_varc(1779, iVar33)
+					break
+				case 79495175:
+					store_varc(1780, iVar33)
+					break
+
+			}
+			instr6342(iVar39, script_5655, "IIii", iVar39, iVar40, iVar31, 0)
+			if_sethide(iVar37, 0)
+			if_settrans(iVar37, 0)
+			instr6342(iVar37, script_5656, "1Ii", 1, -2147483645, 0)
+			if_setposition(iVar37, 0, 0, 17, if_getx(iVar38) + 18)
+			if_sethide(iVar38, 0)
+			if_settrans(iVar38, 0)
+			instr6342(iVar38, script_5656, "1Ii", 1, -2147483645, 0)
+			if_sethide(iVar41, 0)
+			if_settrans(iVar41, 0)
+			instr6342(iVar41, script_5656, "1Ii", 1, -2147483645, 0)
+			if_sethide(iVar42, 0)
+			if_settrans(iVar42, 0)
+			instr6342(iVar42, script_5656, "1Ii", 1, -2147483645, 0)
+		}
+	}
+	iVar36 = iVar36 + 1
+}
+if(arg1 == 1)
+	script_5653()
+return

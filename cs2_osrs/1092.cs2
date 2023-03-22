@@ -1,0 +1,57 @@
+void script_1092(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5) {
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	string str0;
+	string str1;
+	int6 = 0;
+	int7 = 0;
+	int8 = 0;
+	int9 = datamap('i', 'i', 273, int8);
+	while (int9 != -1 && int9 <= 38) {
+		if (int9 < 32 && isBitFlagged(VARP[1076], int9) == false || int9 >= 32 && isBitFlagged(VARP[1344], int9 % 32) == false) {
+			int6, int7 = int6 + 1, int7 + datamap('i', 'i', 836, int9);
+		}
+		int8 = int8 + 1;
+		int9 = datamap('i', 'i', 273, int8);
+	}
+	widget0.clearChildren();
+	int10 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 4, int10);
+	int10 = int10 + 1;
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	str0 = "Nothing more to extend";
+	str1 = "";
+	if (int6 > 0 && int7 > 0) {
+		if (int6 > 1) {
+			int7 = mathMethod4006(0, 95, 0, 100, int7);
+			if (int7 < 2) {
+				int7 = 2;
+			}
+			str0 = "Extend remaining " + int6 + " tasks: " + script_46(int7, ",") + " points";
+		} else {
+			str0 = "Extend remaining task: " + script_46(int7, ",") + " points";
+		}
+		CHILD.setRGB(0xFF981F);
+		CHILD.setText(str0);
+		widget0.hookMouseHover(&script_1083(CTX_WIDGET, 0));
+		widget0.hookMouseExit(&script_1082(CTX_WIDGET, 0));
+		widget0.setContextMenuOption(1, "Extend");
+		widget0.hookOptionClick(&script_414(null, 38 + 9, str1, widget(arg1), widget(arg2), widget(arg3), widget(arg4), widget(arg5), int7));
+	} else {
+		CHILD.setRGB(0x7F4C0F);
+		CHILD.setText(str0);
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.setNoOptions();
+		widget0.hookOptionClick(null);
+	}
+	widget0.setSize(getMaxLineWidth(str0, widget0.getLayer().getWidth(), 494) + 20, widget0.getHeight(), 0, 0);
+	return;
+}

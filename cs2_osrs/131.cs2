@@ -1,0 +1,17 @@
+void script_131(int arg0) {
+	DataMap datamap1;
+	Widget widget2;
+	if (script_1701(-1, -1) == 0) {
+		return;
+	}
+	datamap1 = script_900();
+	if (datamap1 == null) {
+		return;
+	}
+	widget2 = datamap('I', 'I', datamap1, widget(161, 13));
+	if (widget2 != null && arg0 == 13 && VARPBIT[4681] == 1 && hasChild(widget2) == true) {
+		sendCloseWidgetPacket();
+		return;
+	}
+	return;
+}

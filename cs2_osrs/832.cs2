@@ -1,0 +1,4 @@
+void script_832(int arg0, Widget widget1) {
+	widget1.setOutlineThickness(arg0);
+	return;
+}

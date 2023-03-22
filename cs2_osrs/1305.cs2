@@ -1,0 +1,54 @@
+void script_1305(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10) {
+	widget0.setText(str(VARPBIT[455]));
+	if (VARPBIT[455] >= 1) {
+		widget1.setIsHidden(false);
+	} else {
+		widget1.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 2) {
+		widget2.setIsHidden(false);
+	} else {
+		widget2.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 4) {
+		widget3.setIsHidden(false);
+	} else {
+		widget3.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 7) {
+		widget4.setIsHidden(false);
+	} else {
+		widget4.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 11) {
+		widget5.setIsHidden(false);
+	} else {
+		widget5.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 16) {
+		widget6.setIsHidden(false);
+	} else {
+		widget6.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 22) {
+		widget7.setIsHidden(false);
+	} else {
+		widget7.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 29) {
+		widget8.setIsHidden(false);
+	} else {
+		widget8.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 37) {
+		widget9.setIsHidden(false);
+	} else {
+		widget9.setIsHidden(true);
+	}
+	if (VARPBIT[455] >= 46) {
+		widget10.setIsHidden(false);
+	} else {
+		widget10.setIsHidden(true);
+	}
+	return;
+}

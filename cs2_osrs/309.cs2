@@ -1,0 +1,23 @@
+int, int script_309(Widget widget0, int arg1, string string2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8) {
+	CHILD.createChild(widget0, 5, arg3);
+	_CHILD.createChild(widget0, 4, arg3 + 1);
+	CHILD.setSize(85, 22, 0, 0);
+	_CHILD.setSize(85, 22, 0, 0);
+	CHILD.setPosition(arg4, 0, 0, 0);
+	_CHILD.setPosition(arg4, 0, 0, 0);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText(string2);
+	if (arg1 != arg8) {
+		CHILD.setSprite(812);
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		CHILD.setContextMenuOption(1, string2);
+		CHILD.hookOptionClick(&script_307(widget0, widget(arg5), widget(arg6), widget(arg7), widget(arg1)));
+	} else {
+		CHILD.setSprite(813);
+	}
+	return arg3 + 2, arg4 + 90;
+}

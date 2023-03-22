@@ -1,0 +1,4 @@
+//script5643(5643)(int arg0, int arg1)(void)
+hook_mouse_enter(arg0, script_5644, "Iii", arg0, arg1, 1)
+hook_mouse_exit(arg0, script_5644, "Iii", arg0, arg1, 0)
+return

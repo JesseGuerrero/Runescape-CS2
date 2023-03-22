@@ -1,0 +1,6 @@
+//script6445(6445)(int arg0, int arg1, int arg2)(void)
+if(arg1 == 0)
+	instr6342(if_gethash(1311, 134), script_6449, "IIii", -2147483645, arg0, 0, arg2)
+else
+	instr6342(if_gethash(1311, 134), script_6450, "IIii", -2147483645, arg0, 0, arg2)
+return

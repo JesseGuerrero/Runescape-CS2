@@ -1,0 +1,28 @@
+//script4521(4521)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = 0
+if(arg0 == -1)
+	return
+cc_deleteall(arg0)
+iVar4 = if_getnextsubid(arg0)
+cc_create(iVar4, 5, arg0)
+cc_setsize(2, 2, 16384, 16384)
+cc_setposition(1, 1, 0, 0)
+cc_setgraphic(arg1)
+iVar4 = if_getnextsubid(arg0)
+cc_create(iVar4, 5, arg0)
+cc_setsize(2, 2, 16384, 16384)
+cc_setposition(1, 1, 0, 0)
+cc_setgraphic(arg2)
+cc_settrans(255)
+instr6091(script_4410, "Iii", arg0, iVar4, 0)
+instr6092(script_4410, "Iii", arg0, iVar4, 1)
+iVar4 = if_getnextsubid(arg0)
+cc_create(iVar4, 5, arg0)
+cc_setsize(2, 2, 16384, 16384)
+cc_setposition(1, 1, 0, 0)
+cc_setgraphic(arg3)
+cc_settrans(255)
+instr6088(script_5362, "Iii", arg0, iVar4, 0)
+instr6450(script_5362, "Iii", arg0, iVar4, 255)
+return

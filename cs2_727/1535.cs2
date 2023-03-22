@@ -1,0 +1,19 @@
+//script1535(1535)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		store_varpbit(9222, arg1)
+		break
+	case 1:
+		store_varpbit(9223, arg1)
+		break
+	case 2:
+		store_varpbit(9224, arg1)
+		break
+	case 3:
+		store_varpbit(9225, arg1)
+		break
+
+}
+return

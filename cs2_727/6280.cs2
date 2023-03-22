@@ -1,0 +1,26 @@
+//script6280(6280)(int arg0)(void)
+if_sethide(if_gethash(1297, 239), 1)
+if_sethide(if_gethash(1297, 238), 1)
+if_sethide(if_gethash(1297, 237), 1)
+if_sethide(if_gethash(1297, 241), 1)
+if_sethide(if_gethash(1297, 240), 1)
+if_sethide(if_gethash(1297, 270), 1)
+if_sethide(if_gethash(1297, 263), 1)
+if_sethide(if_gethash(1297, 256), 1)
+if(arg0 == 1) {
+	if_settext(if_gethash(1297, 124), "Taunt")
+	if_sethide(if_gethash(1297, 239), 0)
+	if_sethide(if_gethash(1297, 240), 0)
+	if_sethide(if_gethash(1297, 270), 0)
+} else 
+	if(arg0 == 2) {
+		if_settext(if_gethash(1297, 124), "Title")
+		if_sethide(if_gethash(1297, 238), 0)
+		if_sethide(if_gethash(1297, 241), 0)
+		if_sethide(if_gethash(1297, 263), 0)
+	} else  {
+		if_settext(if_gethash(1297, 124), "Reward")
+		if_sethide(if_gethash(1297, 237), 0)
+		if_sethide(if_gethash(1297, 256), 0)
+	}
+return

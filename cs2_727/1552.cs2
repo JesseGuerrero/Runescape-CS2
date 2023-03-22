@@ -1,0 +1,9 @@
+//script1552(1552)(int arg0, int arg1, int arg2, int arg3, string arg4)(int)
+int iVar4
+iVar4 = 0
+if(cc_find(arg3, arg2) == 1 || arg3 == -1 || instr6004(arg2) == 1)
+	iVar4 = cc_getx() + (cc_getwidth() / 2)
+else
+	return 0
+return script_1551(arg0, arg1, iVar4 - (stringwidth(arg1, script_1602(arg0)) / 2), arg0)
+return 0

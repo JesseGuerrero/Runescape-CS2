@@ -1,0 +1,16 @@
+void script_1755(boolean arg0, Widget widget1, int arg2, int arg3, int arg4, Color color5) {
+	if (CHILD.setChild(widget1, arg2) == true) {
+		CHILD.setRGB(color5);
+	}
+	if (arg3 != -1 && CHILD.setChild(widget1, arg3) == true) {
+		CHILD.setRGB(color5);
+	}
+	if (arg0 == true) {
+		if (CHILD.setChild(widget1, arg4) == true) {
+			CHILD.setHidden(false);
+		}
+	} else if (CHILD.setChild(widget1, arg4) == true) {
+		CHILD.setHidden(true);
+	}
+	return;
+}

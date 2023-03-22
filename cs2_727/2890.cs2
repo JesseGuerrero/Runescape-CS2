@@ -1,0 +1,105 @@
+//script2890(2890)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar0 = -1
+iVar1 = 0
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = 1
+iVar9 = 0
+iVar10 = 31195136
+while(iVar8 <= enum_getoutputcount(929)) {
+	if(iVar8 != load_varc(1080))
+		if(iVar8 != load_varc(1081))
+			if(iVar8 != load_varc(1082))
+				if(iVar8 != load_varc(1083))
+					if(iVar8 != load_varc(1084))
+						if(iVar8 != load_varc(1085))
+							if(bit_flagged(iVar8, load_varp(1632)) == 1) {
+								iVar0 = enum(929, iVar8, 'i', 'n')
+								if(iVar0 != -1)
+									if(iVar1 < 6) {
+										iVar1 = iVar1 + 1
+										if(load_varc(1080) == -1)
+											store_varc(1080, iVar8)
+										else
+											if(load_varc(1081) == -1)
+												store_varc(1081, iVar8)
+											else
+												if(load_varc(1082) == -1)
+													store_varc(1082, iVar8)
+												else
+													if(load_varc(1083) == -1)
+														store_varc(1083, iVar8)
+													else
+														if(load_varc(1084) == -1)
+															store_varc(1084, iVar8)
+														else
+															if(load_varc(1085) == -1)
+																store_varc(1085, iVar8)
+										iVar0 = -1
+									}
+							}
+	iVar8 = iVar8 + 1
+}
+iVar8 = 1
+iVar11 = 0
+while(iVar8 <= 6) {
+	iVar10 = enum(925, iVar8, 'i', 'I')
+	if(iVar10 != 31195136)
+		if(if_getspriteid(iVar10) == -1) {
+			switch(iVar8) {
+				case default:
+					break
+				case 1:
+					iVar0 = enum(929, load_varc(1080), 'i', 'n')
+					break
+				case 2:
+					iVar0 = enum(929, load_varc(1081), 'i', 'n')
+					break
+				case 3:
+					iVar0 = enum(929, load_varc(1082), 'i', 'n')
+					break
+				case 4:
+					iVar0 = enum(929, load_varc(1083), 'i', 'n')
+					break
+				case 5:
+					iVar0 = enum(929, load_varc(1084), 'i', 'n')
+					break
+				case 6:
+					iVar0 = enum(929, load_varc(1085), 'i', 'n')
+					break
+
+			}
+			if(iVar0 != -1) {
+				if_setgraphic(iVar10, enum(932, iVar0, 'n', 'd'))
+				if_settext(enum(926, iVar10, 'I', 'I'), enum(930, iVar0, 'n', 's'))
+				if_setonmouseover(iVar10, script_1160, "IiIsii", iVar10, -1, if_gethash(476, 59), enum(930, iVar0, 'n', 's'), 25, 200)
+				hook_mouse_exit(iVar10, script_40, "I", if_gethash(476, 59))
+				if(iVar10 != 31195149)
+					if(iVar10 != 31195150) {
+						if_sethide(if_gethash(476, 17), 0)
+						if_setposition(if_gethash(476, 17), 0, 0, if_gety(iVar10), if_getx(iVar10))
+						script_1725(31195153)
+						iVar11 = client_clock() + 150
+						instr6342(iVar10, script_2891, "iI", iVar11, iVar10)
+					}
+			}
+		}
+	iVar8 = iVar8 + 1
+}
+return

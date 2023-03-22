@@ -1,0 +1,100 @@
+//script2453(2453)(int arg0)(int)
+int iVar1
+iVar1 = 16777215
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		iVar1 = script_2454(load_varpbit(6316))
+		break
+	case 1:
+		iVar1 = script_2454(load_varpbit(6317))
+		break
+	case 2:
+		iVar1 = script_2454(load_varpbit(6318))
+		break
+	case 3:
+		iVar1 = script_2454(load_varpbit(6319))
+		break
+	case 4:
+		iVar1 = script_2454(load_varpbit(6320))
+		break
+	case 5:
+		iVar1 = script_2454(load_varpbit(6321))
+		break
+	case 6:
+		iVar1 = script_2454(load_varpbit(6322))
+		break
+	case 7:
+		iVar1 = script_2454(load_varpbit(6323))
+		break
+	case 8:
+		iVar1 = script_2454(load_varpbit(6324))
+		break
+	case 9:
+		iVar1 = script_2454(load_varpbit(6325))
+		break
+	case 10:
+		iVar1 = script_2454(load_varpbit(6326))
+		break
+	case 11:
+		iVar1 = script_2454(load_varpbit(6327))
+		break
+	case 12:
+		iVar1 = script_2454(load_varpbit(6328))
+		break
+	case 13:
+		iVar1 = script_2454(load_varpbit(6329))
+		break
+	case 14:
+		iVar1 = script_2454(load_varpbit(6330))
+		break
+	case 15:
+		iVar1 = script_2454(load_varpbit(6331))
+		break
+	case 16:
+		iVar1 = script_2454(load_varpbit(6332))
+		break
+	case 17:
+		iVar1 = script_2454(load_varpbit(6333))
+		break
+	case 18:
+		iVar1 = script_2454(load_varpbit(6334))
+		break
+	case 19:
+		iVar1 = script_2454(load_varpbit(6335))
+		break
+	case 20:
+		iVar1 = script_2454(load_varpbit(6336))
+		break
+	case 21:
+		iVar1 = script_2454(load_varpbit(6337))
+		break
+	case 22:
+		iVar1 = script_2454(load_varpbit(6338))
+		break
+	case 23:
+		iVar1 = script_2454(load_varpbit(6339))
+		break
+	case 24:
+		iVar1 = script_2454(load_varpbit(6340))
+		break
+	case 25:
+		iVar1 = script_2454(load_varpbit(6341))
+		break
+	case 26:
+		iVar1 = script_2454(load_varpbit(6342))
+		break
+	case 27:
+		iVar1 = script_2454(load_varpbit(6343))
+		break
+	case 28:
+		iVar1 = script_2454(load_varpbit(6344))
+		break
+	case 29:
+		iVar1 = script_2454(load_varpbit(6345))
+		break
+
+}
+return iVar1
+return 0

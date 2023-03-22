@@ -1,0 +1,300 @@
+//script5574(5574)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+if(load_varpbit(10336) < 9)
+	iVar13 = -108
+else
+	if(load_varpbit(10336) < 17)
+		iVar13 = -54
+	else
+		if(load_varpbit(10336) < 29)
+			iVar13 = 0
+		else
+			if(load_varpbit(10336) < 37)
+				iVar13 = 54
+			else
+				if(load_varpbit(10336) < 46)
+					iVar13 = 108
+iVar14 = 0
+if(load_varpbit(10337) < 9)
+	iVar14 = 108
+else
+	if(load_varpbit(10337) < 17)
+		iVar14 = 54
+	else
+		if(load_varpbit(10337) < 29)
+			iVar14 = 0
+		else
+			if(load_varpbit(10337) < 37)
+				iVar14 = -54
+			else
+				if(load_varpbit(10337) < 46)
+					iVar14 = -108
+if(load_varpbit(10305) == 1)
+	iVar0 = 1
+else
+	if(load_varpbit(10305) == 2)
+		iVar1 = 1
+if(load_varpbit(10306) == 1)
+	iVar0 = 2
+else
+	if(load_varpbit(10306) == 2)
+		iVar1 = 2
+if(load_varpbit(10307) == 1)
+	iVar0 = 3
+else
+	if(load_varpbit(10307) == 2)
+		iVar1 = 3
+if(load_varpbit(10308) == 1)
+	iVar0 = 4
+else
+	if(load_varpbit(10308) == 2)
+		iVar1 = 4
+if(load_varpbit(10309) == 1)
+	iVar0 = 5
+else
+	if(load_varpbit(10309) == 2)
+		iVar1 = 5
+if(load_varpbit(10310) == 1)
+	iVar0 = 6
+else
+	if(load_varpbit(10310) == 2)
+		iVar1 = 6
+if(load_varpbit(10311) == 1)
+	iVar0 = 7
+else
+	if(load_varpbit(10311) == 2)
+		iVar1 = 7
+if(load_varpbit(10312) == 1)
+	iVar0 = 8
+else
+	if(load_varpbit(10312) == 2)
+		iVar1 = 8
+if(load_varpbit(10314) == 1)
+	iVar2 = 1
+else
+	if(load_varpbit(10314) == 2)
+		iVar3 = 1
+if(load_varpbit(10315) == 1)
+	iVar2 = 2
+else
+	if(load_varpbit(10315) == 2)
+		iVar3 = 2
+if(load_varpbit(10316) == 1)
+	iVar2 = 3
+else
+	if(load_varpbit(10316) == 2)
+		iVar3 = 3
+if(load_varpbit(10317) == 1)
+	iVar2 = 4
+else
+	if(load_varpbit(10317) == 2)
+		iVar3 = 4
+if(load_varpbit(10318) == 1)
+	iVar2 = 5
+else
+	if(load_varpbit(10318) == 2)
+		iVar3 = 5
+if(load_varpbit(10319) == 1)
+	iVar2 = 6
+else
+	if(load_varpbit(10319) == 2)
+		iVar3 = 6
+if(load_varpbit(10320) == 1)
+	iVar2 = 7
+else
+	if(load_varpbit(10320) == 2)
+		iVar3 = 7
+if(load_varpbit(10321) == 1)
+	iVar2 = 8
+else
+	if(load_varpbit(10321) == 2)
+		iVar3 = 8
+switch(iVar0) {
+	case default:
+		break
+	case 1:
+		iVar4 = 0
+		iVar5 = -108
+		break
+	case 2:
+		iVar4 = 0
+		iVar5 = -54
+		break
+	case 3:
+		iVar4 = -108
+		iVar5 = 0
+		break
+	case 4:
+		iVar4 = -54
+		iVar5 = 0
+		break
+	case 5:
+		iVar4 = 54
+		iVar5 = 0
+		break
+	case 6:
+		iVar4 = 108
+		iVar5 = 0
+		break
+	case 7:
+		iVar4 = 0
+		iVar5 = 54
+		break
+	case 8:
+		iVar4 = 0
+		iVar5 = 108
+		break
+
+}
+switch(iVar1) {
+	case default:
+		break
+	case 1:
+		iVar6 = 0
+		iVar7 = -108
+		break
+	case 2:
+		iVar6 = 0
+		iVar7 = -54
+		break
+	case 3:
+		iVar6 = -108
+		iVar7 = 0
+		break
+	case 4:
+		iVar6 = -54
+		iVar7 = 0
+		break
+	case 5:
+		iVar6 = 54
+		iVar7 = 0
+		break
+	case 6:
+		iVar6 = 108
+		iVar7 = 0
+		break
+	case 7:
+		iVar6 = 0
+		iVar7 = 54
+		break
+	case 8:
+		iVar6 = 0
+		iVar7 = 108
+		break
+
+}
+switch(iVar2) {
+	case default:
+		break
+	case 1:
+		iVar8 = -54
+		iVar9 = -108
+		break
+	case 2:
+		iVar8 = 54
+		iVar9 = -108
+		break
+	case 3:
+		iVar8 = -108
+		iVar9 = -54
+		break
+	case 4:
+		iVar8 = 108
+		iVar9 = 54
+		break
+	case 5:
+		iVar8 = -108
+		iVar9 = 54
+		break
+	case 6:
+		iVar8 = 108
+		iVar9 = 54
+		break
+	case 7:
+		iVar8 = -54
+		iVar9 = 108
+		break
+	case 8:
+		iVar8 = 54
+		iVar9 = 108
+		break
+
+}
+switch(iVar3) {
+	case default:
+		break
+	case 1:
+		iVar10 = -54
+		iVar11 = -108
+		break
+	case 2:
+		iVar10 = 54
+		iVar11 = -108
+		break
+	case 3:
+		iVar10 = -108
+		iVar11 = -54
+		break
+	case 4:
+		iVar10 = 108
+		iVar11 = 54
+		break
+	case 5:
+		iVar10 = -108
+		iVar11 = 54
+		break
+	case 6:
+		iVar10 = 108
+		iVar11 = 54
+		break
+	case 7:
+		iVar10 = -54
+		iVar11 = 108
+		break
+	case 8:
+		iVar10 = 54
+		iVar11 = 108
+		break
+
+}
+if_sethide(if_gethash(1182, 48), 1)
+if_sethide(if_gethash(1182, 49), 1)
+if_setposition(if_gethash(1182, 48), 1, 1, iVar9, iVar8)
+if_setposition(if_gethash(1182, 49), 1, 1, iVar11, iVar10)
+if_setposition(if_gethash(1182, 46), 1, 1, iVar5, iVar4)
+if_setposition(if_gethash(1182, 45), 1, 1, iVar7, iVar6)
+if_setposition(if_gethash(1182, 47), 1, 1, iVar14, iVar13)
+if(iVar2 != 0)
+	if_sethide(if_gethash(1182, 48), 0)
+if(iVar3 != 0)
+	if_sethide(if_gethash(1182, 49), 0)
+return
+return

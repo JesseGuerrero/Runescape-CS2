@@ -1,0 +1,17 @@
+//script4384(4384)(int arg0, int arg1, int arg2)(int, int)
+int iVar3
+int iVar4
+iVar3 = enum(3686, arg0, 'i', 'd')
+iVar4 = enum(3686, arg1, 'i', 'd')
+if(arg2 == 1)
+	if(load_clan_setting_varbit(10) == 1 || activeclansettings_getaffinedcount() < 5) {
+		iVar3 = 5723
+		iVar4 = 5789
+	} else  {
+		if(iVar3 == -1)
+			iVar3 = 5723
+		if(iVar4 == -1)
+			iVar4 = 5789
+	}
+return iVar4, iVar3
+return -1, -1

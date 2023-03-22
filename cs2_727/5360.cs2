@@ -1,0 +1,17 @@
+//script5360(5360)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg4 == 1) {
+	if(cc_find(arg1, arg0) == 1)
+		cc_setgraphic(7829)
+	if(cc_find(arg2, arg0) == 1)
+		cc_setgraphic(7830)
+	if(cc_find(arg3, arg0) == 1)
+		cc_setgraphic(7831)
+} else  {
+	if(cc_find(arg1, arg0) == 1)
+		cc_setgraphic(7826)
+	if(cc_find(arg2, arg0) == 1)
+		cc_setgraphic(7827)
+	if(cc_find(arg3, arg0) == 1)
+		cc_setgraphic(7828)
+}
+return

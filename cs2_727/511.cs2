@@ -1,0 +1,7 @@
+//script511(511)()(void)
+if(load_varc(51) > 170) {
+	store_varc(51, load_varc(51) - 1)
+	if_setmodelangle(if_gethash(605, 0), load_varc(51), 0, 0, 0, 0, 0)
+} else 
+	if_setmodel(if_gethash(605, 0), -1)
+return

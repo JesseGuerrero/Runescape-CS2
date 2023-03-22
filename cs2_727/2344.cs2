@@ -1,0 +1,21 @@
+//script2344(2344)()(void)
+if(load_varc(770) < instr6652(0)) {
+	store_varc(770, load_varc(770) + 1)
+	switch(load_varc(770)) {
+		case default:
+			instr6255(if_gethash(558, 0), None, "")
+			instr6677(load_varc(770), 1, 500, 900, load_varc(770), 0)
+			break
+		case 11:
+			instr6255(if_gethash(558, 0), script_2344, "")
+			instr6677(load_varc(770), 1, 900, 900, load_varc(770), 0)
+			break
+		case 12:
+			instr6255(if_gethash(558, 0), None, "")
+			instr6677(load_varc(770), 1, 100, 900, load_varc(770), 0)
+			break
+
+	}
+} else 
+	store_varc(770, 0)
+return

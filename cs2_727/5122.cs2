@@ -1,0 +1,6 @@
+//script5122(5122)(int arg0, int arg1, int arg2, int arg3)(void)
+if(cc_find(arg1 + 1, arg0) == 1)
+	cc_setgraphic(arg2)
+if(cc_find(arg1 + 2, arg0) == 1)
+	cc_setcolor(0)
+return

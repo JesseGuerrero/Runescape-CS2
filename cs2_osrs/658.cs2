@@ -1,0 +1,45 @@
+string, int script_658(int arg0) {
+	if (arg0 == 0) {
+		return "Rooms", 1;
+	}
+	if (arg0 == 1) {
+		return "Skills", 1;
+	}
+	if (arg0 == 2) {
+		return "Surfaces", 1;
+	}
+	if (arg0 == 3) {
+		return "Storage", 1;
+	}
+	if (arg0 == 4) {
+		return "Decorative", 1;
+	}
+	if (arg0 == 5) {
+		return "Trophies", 1;
+	}
+	if (arg0 == 6) {
+		return "Games", 1;
+	}
+	if (arg0 == 7) {
+		return "Garden", 1;
+	}
+	if (arg0 == 8) {
+		return "Dungeon", 1;
+	}
+	if (arg0 == 9) {
+		return "Chapel", 1;
+	}
+	if (arg0 == 10) {
+		return "Raids", 1;
+	}
+	if (arg0 == 11) {
+		return "Other", 1;
+	}
+	if (arg0 == 12) {
+		return "Servants", 1;
+	}
+	if (arg0 == 13) {
+		return "House Size", 1;
+	}
+	return "", -1;
+}

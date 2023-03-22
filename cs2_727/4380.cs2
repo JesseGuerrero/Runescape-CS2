@@ -1,0 +1,5 @@
+//script4380(4380)(int arg0, int arg1, int arg2)(void)
+store_varc_string(345, if_gettext(arg0))
+store_varc(1496, script_1552(arg2, 5631, arg0, -1, load_varc_string(345)))
+if_setposition(arg1, 0, 0, 5, load_varc(1496))
+return

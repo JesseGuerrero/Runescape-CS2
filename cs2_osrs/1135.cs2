@@ -1,0 +1,18 @@
+void script_1135(Widget widget0, Widget widget1) {
+	if (VARPBIT[4814] == 1) {
+		widget0.setTrans(150);
+		widget1.setTrans(150);
+		widget0.hookMouseHover(&script_1136(0, 0, widget0, widget1));
+		widget0.hookMouseExit(&script_1136(150, 150, widget0, widget1));
+		widget0.setContextMenuOption(1, "Enable");
+		widget0.hookOptionClick(&script_1134(CTX_MENU_OPTION, 0, widget0, widget1));
+	} else {
+		widget0.setTrans(255);
+		widget1.setTrans(150);
+		widget0.hookMouseHover(&script_1136(255, 0, widget0, widget1));
+		widget0.hookMouseExit(&script_1136(255, 150, widget0, widget1));
+		widget0.setContextMenuOption(1, "Disable");
+		widget0.hookOptionClick(&script_1134(CTX_MENU_OPTION, 1, widget0, widget1));
+	}
+	return;
+}

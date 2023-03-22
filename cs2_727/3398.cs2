@@ -1,0 +1,22 @@
+//script3398(3398)(int arg0, int arg1, int arg2)(void)
+switch(arg0) {
+	case default:
+		break
+	case 84:
+		script_3400()
+		return
+
+	case 13:
+		if(if_gethide(if_gethash(915, 102)) == 0)
+			script_3198(64159808, 64159809, 64159795, 64159787, 64159744)
+		else
+			script_3391()
+		return
+
+	case 1:
+		script_3196(2, 64159808, 64159809, 64159795, 64159787, 64159744)
+		return
+
+
+}
+return

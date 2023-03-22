@@ -1,0 +1,8 @@
+void script_549() {
+	if (length(STRING[22]) > 0) {
+		widget(162, 32).setText("Filter public chat: " + "<col=0000ff>" + escape(lower(STRING[22])) + "</col>");
+	} else {
+		widget(162, 32).setText("Filter public chat: " + "<col=7f0000>" + "[no filter]" + "</col>");
+	}
+	return;
+}

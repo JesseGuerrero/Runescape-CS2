@@ -1,0 +1,36 @@
+//script5619(5619)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = -1
+iVar2 = -1
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		iVar1 = 78577671
+		iVar2 = 78577672
+		break
+	case 2:
+		iVar1 = 78577669
+		iVar2 = 78577670
+		break
+	case 4:
+		iVar1 = 78577665
+		iVar2 = 78577666
+		break
+	case 5:
+		iVar1 = 78577673
+		iVar2 = 78577674
+		break
+	case 6:
+		iVar1 = 78577667
+		iVar2 = 78577668
+		break
+	case 7:
+		iVar1 = 78577675
+		iVar2 = 78577676
+		break
+
+}
+instr6342(iVar1, script_5620, "II", iVar1, iVar2)
+return

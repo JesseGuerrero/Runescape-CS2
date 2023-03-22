@@ -1,0 +1,14 @@
+void script_753(int arg0, int arg1, string string2) {
+	CHILD.createChild(widget(162, 38), 4, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(arg0, arg1, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setRGB(0x000000);
+	CHILD.setText(string2);
+	widget(162, 38).setScrollPos(0, 0);
+	widget(162, 38).setScrollMax(0, 0);
+	script_72(widget(162, 39), widget(162, 38), 0);
+	return;
+}

@@ -1,0 +1,78 @@
+//script1798(1798)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+while(iVar2 < 12) {
+	switch(iVar2) {
+		case default:
+			break
+		case 0:
+			if_setposition(if_gethash(791, 58), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 59), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 60), 0, 0, iVar3, 0)
+			break
+		case 1:
+			if_setposition(if_gethash(791, 61), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 62), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 63), 0, 0, iVar3, 0)
+			break
+		case 2:
+			if_setposition(if_gethash(791, 64), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 65), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 66), 0, 0, iVar3, 0)
+			break
+		case 3:
+			if_setposition(if_gethash(791, 67), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 68), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 69), 0, 0, iVar3, 0)
+			break
+		case 4:
+			if_setposition(if_gethash(791, 70), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 71), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 72), 0, 0, iVar3, 0)
+			break
+		case 5:
+			if_setposition(if_gethash(791, 73), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 74), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 75), 0, 0, iVar3, 0)
+			break
+		case 6:
+			if_setposition(if_gethash(791, 76), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 77), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 78), 0, 0, iVar3, 0)
+			break
+		case 7:
+			if_setposition(if_gethash(791, 79), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 80), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 81), 0, 0, iVar3, 0)
+			break
+		case 8:
+			if_setposition(if_gethash(791, 82), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 83), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 84), 0, 0, iVar3, 0)
+			break
+		case 9:
+			if_setposition(if_gethash(791, 85), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 86), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 87), 0, 0, iVar3, 0)
+			break
+		case 10:
+			if_setposition(if_gethash(791, 88), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 89), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 90), 0, 0, iVar3, 0)
+			break
+		case 11:
+			if_setposition(if_gethash(791, 91), 0, 0, iVar3, 25)
+			if_setposition(if_gethash(791, 92), 0, 0, iVar3, 4)
+			if_setposition(if_gethash(791, 93), 0, 0, iVar3, 0)
+			break
+
+	}
+	iVar3 = iVar3 + 17
+	iVar2 = iVar2 + 1
+}
+if_setscrollsize(arg0, iVar3, 0)
+if_setscrollpos(arg0, 0, 0)
+script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+return

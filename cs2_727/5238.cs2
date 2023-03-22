@@ -1,0 +1,33 @@
+//script5238(5238)(int arg0)(void)
+int iVar1
+string sVar0
+sVar0 = "Ability"
+iVar1 = enum(5033, load_varpbit(9712), 'i', 'J')
+if_sethide(if_gethash(1126, 4), 1)
+if_sethide(if_gethash(1126, 5), 1)
+if_sethide(if_gethash(1126, 6), 1)
+if_sethide(if_gethash(1126, 7), 1)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		sVar0 = struct_param(1900, iVar1)
+		if_sethide(if_gethash(1126, 4), 0)
+		break
+	case 2:
+		sVar0 = struct_param(1903, iVar1)
+		if_sethide(if_gethash(1126, 5), 0)
+		break
+	case 3:
+		sVar0 = struct_param(1906, iVar1)
+		if_sethide(if_gethash(1126, 6), 0)
+		break
+	case 4:
+		sVar0 = struct_param(1909, iVar1)
+		if_sethide(if_gethash(1126, 7), 0)
+		break
+
+}
+if_settext(if_gethash(1126, 49), sVar0)
+if_sethide(if_gethash(1126, 47), 0)
+return

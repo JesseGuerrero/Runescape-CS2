@@ -1,0 +1,9 @@
+void script_1691(string arg0, string arg1, string arg2) {
+	playSoundEffect(2266, 1, 0);
+	CHILD.setText("<col=ffffff>" + "Please wait..." + "</col>");
+	CHILD.hookOptionClick(null);
+	_CHILD.hookKey(null);
+	_CHILD.hookFrame(&script_1692(CTX_WIDGET_CHILD, CHILD.getLayer(), getChildId(), arg0, arg1, arg2, getClientCycle() + 40));
+	_CHILD.cs2method1121_packet();
+	return;
+}

@@ -1,0 +1,4 @@
+//script4774(4774)(int arg0)(void)
+if(arg0 == load_varpbit(9555))
+	script_4775()
+return

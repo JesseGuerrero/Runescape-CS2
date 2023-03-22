@@ -1,0 +1,17 @@
+void script_109(string string0) {
+	string str1;
+	script_677();
+	widget(162, 32).setText(string0);
+	VARC[5] = 8;
+	script_222("");
+	str1 = "";
+	widget(162, 33).hookKey(&script_112(KEY_TYPED, KEY_PRESSED, str1));
+	widget(162, 33).hookDialogAbort(&script_138());
+	script_680();
+	if (length(STRING[128]) > 0) {
+		script_678();
+		CHILD.setText("<col=000000>" + "Last name:" + "</col>" + " " + STRING[128]);
+		CHILD.hookMousePress(&script_682(8, STRING[128]));
+	}
+	return;
+}

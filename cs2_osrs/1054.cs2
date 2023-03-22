@@ -1,0 +1,14 @@
+void script_1054(Widget widget0) {
+	if (VARPBIT[804] == 1) {
+		widget0.setModel(29323);
+	} else if (VARPBIT[804] == 2) {
+		widget0.setModel(3447);
+	} else if (VARPBIT[804] == 3) {
+		widget0.setModel(29322);
+	} else if (VARPBIT[804] == 4) {
+		widget0.setModel(29324);
+	} else {
+		widget0.setModel(16238);
+	}
+	return;
+}

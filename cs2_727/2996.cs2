@@ -1,0 +1,8 @@
+//script2996(2996)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+cc_create(arg1, 3, arg0)
+cc_setsize(0, 0, arg3, arg2)
+cc_setposition(0, 0, arg5, arg4)
+cc_setcolor(0)
+cc_setfill(arg7)
+cc_settrans(arg8)
+return

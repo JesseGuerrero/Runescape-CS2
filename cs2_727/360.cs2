@@ -1,0 +1,29 @@
+//script360(360)(int arg0)(int, int, int)
+switch(load_varpbit(8091)) {
+	case default:
+		return struct_param(1189, arg0), struct_param(1188, arg0), struct_param(1187, arg0)
+
+	case 1:
+		return struct_param(1192, arg0), struct_param(1191, arg0), struct_param(1190, arg0)
+
+	case 2:
+		return struct_param(1195, arg0), struct_param(1194, arg0), struct_param(1193, arg0)
+
+	case 3:
+		return struct_param(1198, arg0), struct_param(1197, arg0), struct_param(1196, arg0)
+
+	case 4:
+		return struct_param(1201, arg0), struct_param(1200, arg0), struct_param(1199, arg0)
+
+	case 5:
+		return struct_param(1204, arg0), struct_param(1203, arg0), struct_param(1202, arg0)
+
+	case 6:
+		return struct_param(1207, arg0), struct_param(1206, arg0), struct_param(1205, arg0)
+
+	case 7:
+		return struct_param(1210, arg0), struct_param(1209, arg0), struct_param(1208, arg0)
+
+
+}
+return 0, 0, 0

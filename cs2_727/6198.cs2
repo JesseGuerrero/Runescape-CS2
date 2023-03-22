@@ -1,0 +1,19 @@
+//script6198(6198)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg2 == 59375977) {
+	store_varc(1920, 1)
+	store_varc(1921, instr6300(arg2, arg1, arg0))
+	script_6199(arg2, arg3, load_varc_string(363))
+} else 
+	if(arg2 == 59375984) {
+		store_varc(1920, 2)
+		store_varc(1922, instr6300(arg2, arg1, arg0))
+		script_6199(arg2, arg3, load_varc_string(364))
+	}
+instr6248(if_gethash(137, 55), None, "")
+if(load_varc(1920) == 1)
+	instr6248(if_gethash(906, 368), None, "")
+else
+	if(load_varc(1920) == 2)
+		instr6248(if_gethash(906, 361), None, "")
+instr6248(arg2, script_6196, "izIi", -2147483640, -2147483639, -2147483645, 0)
+return

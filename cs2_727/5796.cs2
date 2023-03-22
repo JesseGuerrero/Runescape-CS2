@@ -1,0 +1,48 @@
+//script5796(5796)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+iVar8 = script_5795(arg0)
+if(iVar8 == -1)
+	return
+if(arg2 != -1)
+	if(struct_param(1270, iVar8) != 4094)
+		if_setgraphic(arg2, struct_param(952, enum(2252, struct_param(1270, iVar8), 'i', 'J')))
+	else
+		if_setgraphic(arg2, struct_param(1271, iVar8))
+if(arg3 != -1)
+	if_settext(arg3, struct_param(1266, iVar8))
+sVar0 = ""
+if(arg4 != -1) {
+	sVar0 = struct_param(1273, iVar8)
+	if(struct_param(1322, iVar8) == 1)
+		if(arg4 != 80019464)
+			if(arg4 != 79953938)
+				if(arg1 == 1)
+					if(load_varpbit(9030) == 0)
+						sVar0 = append("<br>" + "<br>" + "(This Task is not a requirement for the Taskmaster emote.)", sVar0)
+	if_settext(arg4, sVar0)
+}
+iVar9 = -1
+if(arg5 != -1) {
+	iVar9 = enum(3492, struct_param(1272, iVar8), 'i', 'd')
+	if(script_3996(arg0) == 0)
+		if(script_3999(arg0) == 0)
+			iVar9 = 4346
+	if_setgraphic(arg5, iVar9)
+}
+iVar10 = -1
+if(arg6 != -1) {
+	iVar10 = enum(3491, struct_param(1267, iVar8), 'i', 'd')
+	if_setgraphic(arg6, iVar10)
+}
+iVar11 = -1
+if(arg7 != -1) {
+	if(struct_param(1293, iVar8) != 0)
+		if(struct_param(1293, iVar8) != 63)
+			iVar11 = 4272
+	if_setgraphic(arg7, iVar11)
+}
+return

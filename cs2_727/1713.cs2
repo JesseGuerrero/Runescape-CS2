@@ -1,0 +1,32 @@
+//script1713(1713)(int arg0)(int)
+int iVar1
+iVar1 = 0
+if(inv_getitem(2, 94) == 19892)
+	iVar1 = scale(5, 100, stat_base(arg0))
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if(load_varpbit(6830) == 1)
+			return script_1714(0, script_1718(0, iVar1 + 5))
+		break
+	case 2:
+		if(load_varpbit(6834) == 1)
+			return script_1714(2, script_1718(2, iVar1 + 5))
+		break
+	case 1:
+		if(load_varpbit(6833) == 1)
+			return script_1714(1, script_1718(1, iVar1 + 5))
+		break
+	case 4:
+		if(load_varpbit(6831) == 1)
+			return script_1714(4, script_1718(4, iVar1 + 5))
+		break
+	case 6:
+		if(load_varpbit(6832) == 1)
+			return script_1714(6, script_1718(6, iVar1 + 5))
+		break
+
+}
+return 0
+return 0

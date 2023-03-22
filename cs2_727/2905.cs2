@@ -1,0 +1,32 @@
+//script2905(2905)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+iVar4 = if_getlayer(arg0)
+iVar5 = 0
+if(arg1 == 10010)
+	switch(load_varpbit(7193)) {
+		case default:
+			break
+		case 1:
+			iVar5 = 1
+			break
+		case 2:
+			iVar5 = 1
+			arg1 = 11259
+			break
+
+	}
+else
+	if(arg1 == 11262)
+		iVar5 = load_varpbit(7192)
+	else
+		if(arg1 == 11260)
+			iVar5 = load_varpbit(7194)
+if_settext(arg3, item_name(arg1) + "<br>" + "(" + to_string(iVar5) + "/" + to_string(arg2) + ")")
+instr6879(arg0, -1, arg1)
+if_setborderthickness(arg0, 1)
+if(iVar5 > 0)
+	if_setcolor(arg3, 0xFFFF00)
+else
+	if_setcolor(arg3, 0xCC0000)
+return

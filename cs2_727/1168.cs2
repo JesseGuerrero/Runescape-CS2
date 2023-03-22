@@ -1,0 +1,6 @@
+//script1168(1168)(int arg0, int arg1, string arg2)(void)
+if(modulo(50, client_clock()) != 0)
+	return
+if(cc_find(arg0, if_gethash(885, 16)) == 1)
+	cc_settext(arg0)
+return

@@ -1,0 +1,33 @@
+void script_503(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, int arg9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15) {
+	widget3.clearChildren();
+	CHILD.createChild(widget3, 5, 0);
+	_CHILD.createChild(widget3, 5, 1);
+	CHILD.setPosition(0, 0, 0, 0);
+	_CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(25, 25, 0, 0);
+	_CHILD.setSize(25, 25, 0, 0);
+	_CHILD.setSprite(1083);
+	_CHILD.setSpriteTiling(true);
+	widget3.hookMouseHover(&script_244(CTX_WIDGET, getChildId(), 75, null));
+	widget3.hookMouseExit(&script_244(CTX_WIDGET, getChildId(), 0, null));
+	if (arg0 == 1) {
+		widget14.setIsHidden(true);
+		widget15.setIsHidden(false);
+		CHILD.setSprite(196);
+		widget3.setContextMenuOption(1, "Dismiss menu");
+		widget3.hookOptionClick(&script_232(false, widget(arg1), widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget(arg9), widget10, widget11, widget12, widget13, widget14, widget15));
+		if (script_514() == 1) {
+			script_299(1, 1);
+		}
+		widget7.setText("Bank settings menu");
+	} else {
+		widget14.setIsHidden(false);
+		widget15.setIsHidden(true);
+		CHILD.setSprite(195);
+		widget3.setContextMenuOption(1, "Show menu");
+		widget3.hookOptionClick(&script_232(true, widget(arg1), widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget(arg9), widget10, widget11, widget12, widget13, widget14, widget15));
+		script_277(arg1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, arg9, widget10, widget11, widget12, widget13);
+	}
+	script_41(widget13);
+	return;
+}

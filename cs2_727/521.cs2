@@ -1,0 +1,11 @@
+//script521(521)()(void)
+store_varc(54, stat_visible_xp(20))
+store_varc(55, stat_visible_xp(12))
+store_varc(57, stat_visible_xp(9))
+store_varc(58, stat_visible_xp(7))
+store_varc(60, stat_visible_xp(22))
+store_varc(61, stat_visible_xp(15))
+store_varc(64, stat_visible_xp(6))
+store_varc(66, stat_visible_xp(13))
+store_varc(62, stat_visible_xp(19))
+return

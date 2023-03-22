@@ -1,0 +1,6 @@
+//script6170(6170)(int arg0, int arg1)(void)
+if(arg1 != load_varc(1911))
+	if(cc_find(arg1, arg0) == 1)
+		cc_setgraphic(10734)
+script_5219(83427346)
+return

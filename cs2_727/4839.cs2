@@ -1,0 +1,66 @@
+//script4839(4839)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = -1
+switch(arg0) {
+	case default:
+		break
+	case 82444706:
+		iVar3 = 82444709
+		iVar2 = if_getnextsubid(if_gethash(1258, 426))
+		break
+	case 82444638:
+		iVar3 = 82444641
+		iVar2 = if_getnextsubid(if_gethash(1258, 358))
+		break
+	case 82444564:
+		iVar3 = 82444567
+		iVar2 = if_getnextsubid(if_gethash(1258, 284))
+		break
+	case 82444694:
+		iVar3 = 82444697
+		iVar2 = if_getnextsubid(if_gethash(1258, 414))
+		break
+	case 82444624:
+		iVar3 = 82444627
+		iVar2 = if_getnextsubid(if_gethash(1258, 344))
+		break
+	case 82444548:
+		iVar3 = 82444551
+		iVar2 = if_getnextsubid(if_gethash(1258, 268))
+		break
+	case 82444682:
+		iVar3 = 82444685
+		iVar2 = if_getnextsubid(if_gethash(1258, 402))
+		break
+	case 82444610:
+		iVar3 = 82444613
+		iVar2 = if_getnextsubid(if_gethash(1258, 330))
+		break
+	case 82444532:
+		iVar3 = 82444535
+		iVar2 = if_getnextsubid(if_gethash(1258, 252))
+		break
+
+}
+if(instr6004(arg0) == 1) {
+	cc_setscrollsize(instr6771(1564), 0)
+	if(arg1 >= 0) {
+		cc_setsize(0, 1, 27, 0)
+		cc_setscrollpos(arg1, 0)
+		if(iVar3 != -1) {
+			if_setposition(iVar3, 0, 0, arg1, if_getx(iVar3))
+			if(iVar2 > 1)
+				if_sethide(iVar3, 0)
+			else
+				if_sethide(iVar3, 1)
+		}
+	} else  {
+		cc_setsize(0, 1, instr6771(1564), 0)
+		cc_setscrollpos(0, 0)
+		if(iVar3 != -1)
+			if_sethide(iVar3, 1)
+	}
+}
+return

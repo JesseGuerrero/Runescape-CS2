@@ -1,0 +1,6 @@
+//script3044(3044)(int arg0)(void)
+if(chat_getfilter_private() == -1)
+	return
+instr6342(arg0, None, "")
+script_3045()
+return

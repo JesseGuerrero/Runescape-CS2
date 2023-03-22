@@ -1,0 +1,15 @@
+//script2961(2961)(int arg0, int arg1, int arg2)(void)
+if(arg2 == 1) {
+	if(load_varc(986) == 1)
+		if_setgraphic(arg0, 2702)
+	else
+		if_setgraphic(arg0, 2701)
+	if_setcolor(arg1, 0xEBE0BC)
+} else  {
+	if(load_varc(986) == 1)
+		if_setgraphic(arg0, 2700)
+	else
+		if_setgraphic(arg0, 2703)
+	if_setcolor(arg1, 0xB2AA9F)
+}
+return

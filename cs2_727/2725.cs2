@@ -1,0 +1,273 @@
+//script2725(2725)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 61931540
+iVar2 = -1
+cc_deleteall(iVar1)
+script_41(61931553)
+if(load_varc(1812) == 1) {
+	script_2726(iVar1, 1, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1813) == 1) {
+	script_2726(iVar1, 2, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1814) == 1) {
+	script_2726(iVar1, 3, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1815) == 1) {
+	script_2726(iVar1, 4, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1816) == 1) {
+	script_2726(iVar1, 5, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1817) == 1) {
+	script_2726(iVar1, 6, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1818) == 1) {
+	script_2726(iVar1, 7, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1819) == 1) {
+	script_2726(iVar1, 8, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1820) == 1) {
+	script_2726(iVar1, 9, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1821) == 1) {
+	script_2726(iVar1, 10, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1822) == 1) {
+	script_2726(iVar1, 11, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1823) == 1) {
+	script_2726(iVar1, 12, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1824) == 1) {
+	script_2726(iVar1, 13, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1825) == 1) {
+	script_2726(iVar1, 14, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1826) == 1) {
+	script_2726(iVar1, 15, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1827) == 1) {
+	script_2726(iVar1, 16, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1828) == 1) {
+	script_2726(iVar1, 17, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1829) == 1) {
+	script_2726(iVar1, 18, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1830) == 1) {
+	script_2726(iVar1, 19, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1831) == 1) {
+	script_2726(iVar1, 20, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1832) == 1) {
+	script_2726(iVar1, 21, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1833) == 1) {
+	script_2726(iVar1, 22, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1834) == 1) {
+	script_2726(iVar1, 23, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1835) == 1) {
+	script_2726(iVar1, 24, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1836) == 1) {
+	script_2726(iVar1, 25, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1837) == 1) {
+	script_2726(iVar1, 26, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1838) == 1) {
+	script_2726(iVar1, 27, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1839) == 1) {
+	script_2726(iVar1, 28, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1840) == 1) {
+	script_2726(iVar1, 29, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1841) == 1) {
+	script_2726(iVar1, 30, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1842) == 1) {
+	script_2726(iVar1, 31, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1843) == 1) {
+	script_2726(iVar1, 32, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1844) == 1) {
+	script_2726(iVar1, 33, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1845) == 1) {
+	script_2726(iVar1, 34, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1846) == 1) {
+	script_2726(iVar1, 35, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1847) == 1) {
+	script_2726(iVar1, 36, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1848) == 1) {
+	script_2726(iVar1, 37, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1849) == 1) {
+	script_2726(iVar1, 38, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1850) == 1) {
+	script_2726(iVar1, 39, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1851) == 1) {
+	script_2726(iVar1, 40, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1852) == 1) {
+	script_2726(iVar1, 41, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1853) == 1) {
+	script_2726(iVar1, 42, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1854) == 1) {
+	script_2726(iVar1, 43, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1855) == 1) {
+	script_2726(iVar1, 44, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1856) == 1) {
+	script_2726(iVar1, 45, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1857) == 1) {
+	script_2726(iVar1, 46, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1858) == 1) {
+	script_2726(iVar1, 47, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1859) == 1) {
+	script_2726(iVar1, 48, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1860) == 1) {
+	script_2726(iVar1, 49, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1861) == 1) {
+	script_2726(iVar1, 50, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1862) == 1) {
+	script_2726(iVar1, 51, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1863) == 1) {
+	script_2726(iVar1, 52, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1864) == 1) {
+	script_2726(iVar1, 53, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1865) == 1) {
+	script_2726(iVar1, 54, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1866) == 1) {
+	script_2726(iVar1, 55, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1867) == 1) {
+	script_2726(iVar1, 56, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1868) == 1) {
+	script_2726(iVar1, 57, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1869) == 1) {
+	script_2726(iVar1, 58, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1870) == 1) {
+	script_2726(iVar1, 59, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1871) == 1) {
+	script_2726(iVar1, 60, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1872) == 1) {
+	script_2726(iVar1, 61, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1873) == 1) {
+	script_2726(iVar1, 62, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1874) == 1) {
+	script_2726(iVar1, 63, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(load_varc(1875) == 1) {
+	script_2726(iVar1, 64, iVar0)
+	iVar0 = iVar0 + 1
+}
+if(iVar0 == 0) {
+	if_sethide(if_gethash(945, 22), 1)
+	if_sethide(if_gethash(945, 23), 0)
+} else  {
+	if_sethide(if_gethash(945, 22), 0)
+	if_sethide(if_gethash(945, 23), 1)
+}
+return

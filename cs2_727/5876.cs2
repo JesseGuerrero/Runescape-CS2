@@ -1,0 +1,19 @@
+//script5876(5876)(int arg0)(int, int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return 50, 995
+
+	case 2:
+		return 10000, 995
+
+	case 3:
+		return 10000000, 995
+
+	case 4:
+		return 1, 24155
+
+
+}
+return 0, -1

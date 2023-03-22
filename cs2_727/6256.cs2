@@ -1,0 +1,19 @@
+//script6256(6256)(int arg0)(void)
+if(arg0 == 60489830)
+	if_sethide(if_gethash(923, 5), 0)
+else
+	if(arg0 == 60489826)
+		if_sethide(if_gethash(923, 0), 0)
+	else
+		if(arg0 == 60489822)
+			if_sethide(if_gethash(923, 7), 0)
+		else
+			if(arg0 == 60489819)
+				if_sethide(if_gethash(923, 9), 0)
+			else
+				if(arg0 == 60489815)
+					if_sethide(if_gethash(923, 11), 0)
+				else
+					if(arg0 == 60489811)
+						if_sethide(if_gethash(923, 13), 0)
+return

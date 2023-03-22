@@ -1,0 +1,14 @@
+//script606(606)()(void)
+int iVar0
+int iVar1
+cc_create(0, 5, 43384906)
+cc_setsize(0, 0, 36, 32)
+cc_setposition(0, 0, 0, 0)
+cc_create(0, 5, 48955410)
+cc_setsize(2, 2, 16384, 16384)
+cc_setposition(0, 0, 0, 0)
+iVar0 = 1194
+iVar1 = 1195
+script_659(43384905, iVar0, iVar1, item_param(394, load_varp(448)), enum(1283, load_varp(448), 'o', 'o'), 1, -1, 0, -1, 0, -1, 0, load_varc_string(204), load_varc_string(205))
+script_608()
+return

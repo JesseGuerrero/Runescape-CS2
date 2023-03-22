@@ -1,0 +1,6 @@
+//script4565(4565)(int arg0)(void)
+instr6708(arg0, script_4566, "I", arg0)
+instr6250(arg0, script_4566, "I", arg0)
+instr6247(arg0, script_4566, "I", arg0)
+script_4567(arg0)
+return

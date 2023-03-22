@@ -1,0 +1,9 @@
+void script_1589(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	script_1611("Private", widget5, 494);
+	script_1602(widget1);
+	widget1.hookVARP(&script_1590(widget1), 499);
+	script_31(widget3, widget2, 792, 789, 790, 791, 773, 788);
+	script_1592(widget2, widget3, widget4);
+	widget0.hookContainer(&script_1591(widget2, widget3, widget4), 582);
+	return;
+}

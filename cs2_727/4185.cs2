@@ -1,0 +1,7 @@
+//script4185(4185)(int arg0)(void)
+if(arg0 == 70254623)
+	if_setgraphic(if_gethash(1072, 31), 3865)
+else
+	if(arg0 == 70254624)
+		if_setgraphic(if_gethash(1072, 32), 3866)
+return

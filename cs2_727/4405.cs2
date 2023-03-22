@@ -1,0 +1,11 @@
+//script4405(4405)()(int)
+int iVar0
+int iVar1
+iVar0 = cc_gety()
+iVar1 = cc_getparent()
+while(iVar1 != -1) {
+	iVar0 = (iVar0 + if_gety(iVar1)) - if_getscrolly(iVar1)
+	iVar1 = if_getlayer(iVar1)
+}
+return iVar0
+return 0

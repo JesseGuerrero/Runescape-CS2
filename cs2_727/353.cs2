@@ -1,0 +1,9 @@
+//script353(353)(int arg0)(void)
+sound_synth(0, 1, 9824)
+if(arg0 == 1)
+	if(load_varpbit(8246) == 1) {
+		store_varpbit(8247, 1)
+		if_sethide(if_gethash(1028, 138), 0)
+	}
+script_386(arg0)
+return

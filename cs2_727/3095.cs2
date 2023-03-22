@@ -1,0 +1,43 @@
+//script3095(3095)(int arg0, int arg1, int arg2)(void)
+string sVar0
+string sVar1
+sVar0 = ""
+sVar1 = ""
+switch(arg2) {
+	case default:
+		break
+	case 4:
+		sVar0 = "www"
+		sVar1 = "account_settings.ws?mod=messages"
+		instr6239(arg0, script_3088, "ss1", sVar0, sVar1, 1)
+		break
+	case 11:
+		sVar0 = "www"
+		sVar1 = "account_settings.ws?mod=security"
+		instr6239(arg0, script_3088, "ss1", sVar0, sVar1, 1)
+		break
+	case 18:
+		sVar0 = "accountappeal"
+		sVar1 = "lockchoice.ws"
+		instr6239(arg0, script_3089, "ss1", sVar0, sVar1, 1)
+		break
+	case 31:
+		sVar0 = "www"
+		sVar1 = "account_settings.ws?mod=charname"
+		instr6239(arg0, script_3088, "ss1", sVar0, sVar1, 1)
+		break
+	case -3000:
+		sVar0 = "dob"
+		sVar1 = "set_members_dob.ws"
+		instr6239(arg0, script_3088, "ss1", sVar0, sVar1, 1)
+		break
+	case 21:
+		hook_mouse_press(arg0, script_1872, "")
+		hook_mouse_press(arg1, None, "")
+		return
+		instr6239(arg0, None, "")
+		break
+
+}
+instr6239(arg1, script_3096, "")
+return

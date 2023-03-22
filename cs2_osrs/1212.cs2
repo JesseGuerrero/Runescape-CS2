@@ -1,0 +1,19 @@
+void script_1212(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int5 = 0;
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		if (arg3 == 3) {
+			int5 = VARPBIT[4896];
+		} else if (arg3 == 2) {
+			int5 = VARPBIT[4895];
+		} else if (arg3 == 4) {
+			int5 = VARPBIT[4898];
+		} else if (arg3 == 5) {
+			int5 = VARPBIT[4899];
+		} else if (arg3 == 1) {
+			int5 = VARPBIT[4894];
+		}
+		script_1213(arg4, int5);
+	}
+	return;
+}

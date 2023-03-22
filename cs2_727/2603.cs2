@@ -1,0 +1,8 @@
+//script2603(2603)()(void)
+sound_synth(0, 1, 6784)
+if_sethide(if_gethash(292, 130), 0)
+if_settext(if_gethash(292, 132), "Are you sure you wish to resupply all defeated squads?")
+if_sethide(if_gethash(292, 135), 0)
+if_sethide(if_gethash(292, 134), 1)
+if_sethide(if_gethash(292, 137), 1)
+return

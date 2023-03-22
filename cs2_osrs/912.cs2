@@ -1,0 +1,33 @@
+void script_912(DataMap datamap0) {
+	int int1;
+	Widget widget2;
+	int int3;
+	Widget widget4;
+	Widget widget5;
+	int1 = -1;
+	widget2 = null;
+	int3 = 0;
+	widget4 = datamap('i', 'I', 1138, int3);
+	widget5 = datamap('i', 'I', 1139, int3);
+	while (widget4 != null && widget5 != null) {
+		widget4, widget5 = datamap('I', 'I', datamap0, widget4), datamap('I', 'I', datamap0, widget5);
+		if (widget4 != null && widget5 != null) {
+			if (int3 == VARPBIT[3756] - 1) {
+				widget4.setIsHidden(false);
+				script_913(widget5);
+			} else {
+				widget2 = datamap('i', 'I', 1137, int3);
+				if (hasChild(datamap('I', 'I', datamap0, widget2)) == true) {
+					widget4.setIsHidden(false);
+					widget5.setIsHidden(false);
+				} else {
+					widget4.setIsHidden(true);
+					widget5.setIsHidden(true);
+				}
+			}
+		}
+		int3 = int3 + 1;
+		widget4, widget5 = datamap('i', 'I', 1138, int3), datamap('i', 'I', 1139, int3);
+	}
+	return;
+}

@@ -1,0 +1,75 @@
+//script125(125)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+iVar1 = 36044806
+iVar2 = 36044852
+iVar3 = 36044805
+iVar4 = 36044801
+iVar5 = 36044810
+iVar6 = 36044811
+iVar7 = 36044817
+iVar8 = 36044845
+iVar9 = 36044813
+iVar10 = 36044812
+iVar11 = 36044800
+iVar12 = if_getwidth(iVar9)
+if(arg0 <= -1)
+	arg0 = if_getx(iVar9)
+arg0 = max(0, min(if_getwidth(iVar10) - iVar12, arg0))
+store_varc(1036, arg0)
+if_setposition(iVar9, 1, 0, 0, arg0)
+cc_deleteall(iVar1)
+cc_deleteall(iVar2)
+cc_deleteall(iVar3)
+cc_deleteall(iVar4)
+iVar13 = friend_count()
+if(iVar13 == -2) {
+	if_settext(iVar8, "Loading Friends List." + "<br>" + "Please wait.")
+	if_sethide(iVar8, 0)
+	if_sethide(iVar9, 1)
+	if_sethide(iVar7, 1)
+	return
+}
+if(iVar13 == -1) {
+	if_settext(iVar8, "Connecting to Friend Server." + "<br>" + "Please wait.")
+	if_sethide(iVar8, 0)
+	if_sethide(iVar9, 1)
+	if_sethide(iVar7, 1)
+	return
+}
+if_sethide(iVar9, 0)
+return if_setmouseovercursor(iVar9, 149)

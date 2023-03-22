@@ -1,0 +1,12 @@
+//script2022(2022)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+if(arg1 <= -1) {
+	if_settext(if_gethash(916, 22), "")
+	return
+}
+store_varpbit(8095, min(load_varpbit(8094), arg1))
+script_2047()
+instr6342(if_gethash(905, 28), script_2024, "i", client_clock() + 15)
+if_sethide(if_gethash(905, 28), 0)
+return

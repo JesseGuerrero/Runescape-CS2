@@ -1,0 +1,9 @@
+//script2488(2488)()(void)
+if_sethide(if_gethash(844, 10), 0)
+if_sethide(if_gethash(844, 11), 1)
+if_setgraphic(if_gethash(844, 51), 1420)
+if_setgraphic(if_gethash(844, 49), 1421)
+instr6879(if_gethash(844, 52), 1, 436)
+instr6879(if_gethash(844, 50), 1, 1511)
+script_2490()
+return

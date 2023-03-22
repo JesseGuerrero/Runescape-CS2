@@ -1,0 +1,6 @@
+//script1524(1524)()(void)
+if(cc_find(0, if_gethash(275, 8)) == 1) {
+	cc_deleteall(if_gethash(275, 8))
+	instr6213(if_gethash(275, 8), 1, "null")
+}
+return

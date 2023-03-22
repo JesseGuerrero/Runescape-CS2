@@ -1,0 +1,31 @@
+//script4425(4425)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar4 = (arg2 + arg3) / 2
+iVar5 = globalArrays[0][iVar4]
+globalArrays[0][iVar4] = globalArrays[0][arg3]
+globalArrays[0][arg3] = iVar5
+iVar6 = arg2
+iVar7 = arg2
+iVar8 = -1
+while(iVar7 < arg3) {
+	if(cc_find(iVar5, arg1) == 1)
+		if(cc_find(globalArrays[0][iVar7], arg1) == 1)
+			if(compare(cc_gettext().toLowerCase(), cc_gettext().toLowerCase()) < iVar7 & 1) {
+				iVar8 = globalArrays[0][iVar7]
+				globalArrays[0][iVar7] = globalArrays[0][iVar6]
+				globalArrays[0][iVar6] = iVar8
+				iVar6 = iVar6 + 1
+			}
+	iVar7 = iVar7 + 1
+}
+globalArrays[0][arg3] = globalArrays[0][iVar6]
+globalArrays[0][iVar6] = iVar5
+if(arg2 < iVar6 - 1)
+	script_4425(0, arg1, arg2, iVar6 - 1)
+if(iVar6 + 1 < arg3)
+	script_4425(0, arg1, iVar6 + 1, arg3)
+return

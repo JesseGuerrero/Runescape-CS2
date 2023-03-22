@@ -1,0 +1,45 @@
+//script1183(1183)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+switch(load_varc(808)) {
+	case default:
+		break
+	case 1:
+		if_sethide(arg3, 1)
+		if_sethide(arg4, 1)
+		if_sethide(arg5, 1)
+		if_sethide(arg2, 0)
+		if_settext(arg0, "Draughts")
+		if_settext(arg1, to_string(load_varp(354)))
+		break
+	case 2:
+		if_sethide(arg2, 1)
+		if_sethide(arg4, 1)
+		if_sethide(arg5, 1)
+		if_sethide(arg3, 0)
+		if_settext(arg0, "Runelink")
+		if_settext(arg1, to_string(load_varp(353)))
+		break
+	case 3:
+		if_sethide(arg2, 1)
+		if_sethide(arg3, 1)
+		if_sethide(arg5, 1)
+		if_sethide(arg4, 0)
+		if_settext(arg0, "Runesquares")
+		if_settext(arg1, to_string(load_varp(648)))
+		break
+	case 4:
+		if_sethide(arg2, 1)
+		if_sethide(arg3, 1)
+		if_sethide(arg4, 1)
+		if_sethide(arg5, 0)
+		if_settext(arg0, "Runeversi")
+		if_settext(arg1, to_string(load_varp(649)))
+		if_sethide(arg3, 1)
+		if_sethide(arg4, 1)
+		if_sethide(arg5, 1)
+		if_sethide(arg2, 1)
+		if_settext(arg0, "")
+		if_settext(arg1, "")
+		break
+
+}
+return

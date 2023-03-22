@@ -1,0 +1,6 @@
+//script1654(1654)()(void)
+if(load_varc(193) <= client_clock()) {
+	store_varc(193, client_clock() + 10)
+	instr6342(if_gethash(762, 95), script_1452, "i", load_varc(193))
+}
+return

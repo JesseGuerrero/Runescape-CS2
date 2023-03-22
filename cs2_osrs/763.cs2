@@ -1,0 +1,157 @@
+void script_763(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	int int6;
+	int int7;
+	int int8;
+	Item item9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	if (VARPBIT[4374] == 1) {
+		widget3.setText("Trade modified");
+	} else {
+		widget3.setText("");
+	}
+	if (VARPBIT[4375] == 1) {
+		widget5.setText("Trade modified");
+	} else {
+		widget5.setText("");
+	}
+	ARRAY0 = new int[4];
+	int6 = arg0 / 4;
+	if (int6 < 2) {
+		int6 = 2;
+	}
+	int7 = (widget2.getHeight() - int6 * 32) / (int6 - 1);
+	int8 = (widget2.getWidth() - 12 - 4 * 36) / 3;
+	ARRAY0[0] = 6;
+	ARRAY0[1] = ARRAY0[0] + int8 + 36;
+	ARRAY0[2] = ARRAY0[1] + int8 + 36;
+	ARRAY0[3] = ARRAY0[2] + int8 + 36;
+	ARRAY1 = new int[arg0];
+	ARRAY1[0] = VARC[81];
+	ARRAY1[1] = VARC[82];
+	ARRAY1[2] = VARC[83];
+	ARRAY1[3] = VARC[84];
+	ARRAY1[4] = VARC[85];
+	ARRAY1[5] = VARC[86];
+	ARRAY1[6] = VARC[87];
+	ARRAY1[7] = VARC[88];
+	ARRAY1[8] = VARC[89];
+	ARRAY1[9] = VARC[90];
+	ARRAY1[10] = VARC[91];
+	ARRAY1[11] = VARC[92];
+	ARRAY1[12] = VARC[93];
+	ARRAY1[13] = VARC[94];
+	ARRAY1[14] = VARC[95];
+	ARRAY1[15] = VARC[96];
+	ARRAY1[16] = VARC[97];
+	ARRAY1[17] = VARC[98];
+	ARRAY1[18] = VARC[99];
+	ARRAY1[19] = VARC[100];
+	ARRAY1[20] = VARC[101];
+	ARRAY1[21] = VARC[102];
+	ARRAY1[22] = VARC[104];
+	ARRAY1[23] = VARC[105];
+	ARRAY1[24] = VARC[106];
+	ARRAY1[25] = VARC[107];
+	ARRAY1[26] = VARC[108];
+	ARRAY1[27] = VARC[109];
+	item9 = null;
+	int10 = 0;
+	int11 = 0;
+	int12 = 0;
+	int13 = 0;
+	int14 = 0;
+	int15 = 0;
+	while (int15 < arg0) {
+		if (CHILD.setChild(widget2, int15) == true && _CHILD.setChild(widget2, arg0 + int15) == true) {
+			item9 = getItemIdInSlot(90, int15);
+			if (item9 != null) {
+				int10 = getItemAmtInSlot(90, int15);
+				CHILD.setHidden(false);
+				CHILD.setItem(item9, int10);
+				CHILD.setContextMenuOption(1, "Remove");
+				CHILD.setContextMenuOption(2, "Remove-5");
+				CHILD.setContextMenuOption(3, "Remove-10");
+				CHILD.setContextMenuOption(4, "Remove-All");
+				CHILD.setContextMenuOption(5, "Remove-X");
+				CHILD.setContextMenuOption(10, "Examine");
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item9) + "</col>");
+				script_1234(int10, ARRAY1[int15], 21954592);
+			} else {
+				CHILD.setHidden(true);
+				CHILD.setNoOptions();
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+			}
+			int12, int11 = int15 % 4, int15 / 4;
+			int13 = ARRAY0[int12];
+			int14 = int11 * (32 + int7);
+			CHILD.setPosition(int13, int14, 0, 0);
+			_CHILD.setPosition(int13 + arg1, int14, 0, 0);
+		}
+		int15 = int15 + 1;
+	}
+	int8 = (widget4.getWidth() - 12 - 4 * 36) / 3;
+	ARRAY0[0] = 6;
+	ARRAY0[1] = ARRAY0[0] + int8 + 36;
+	ARRAY0[2] = ARRAY0[1] + int8 + 36;
+	ARRAY0[3] = ARRAY0[2] + int8 + 36;
+	ARRAY1[0] = VARC[110];
+	ARRAY1[1] = VARC[111];
+	ARRAY1[2] = VARC[112];
+	ARRAY1[3] = VARC[113];
+	ARRAY1[4] = VARC[114];
+	ARRAY1[5] = VARC[115];
+	ARRAY1[6] = VARC[116];
+	ARRAY1[7] = VARC[117];
+	ARRAY1[8] = VARC[118];
+	ARRAY1[9] = VARC[119];
+	ARRAY1[10] = VARC[120];
+	ARRAY1[11] = VARC[121];
+	ARRAY1[12] = VARC[122];
+	ARRAY1[13] = VARC[123];
+	ARRAY1[14] = VARC[124];
+	ARRAY1[15] = VARC[125];
+	ARRAY1[16] = VARC[126];
+	ARRAY1[17] = VARC[127];
+	ARRAY1[18] = VARC[128];
+	ARRAY1[19] = VARC[129];
+	ARRAY1[20] = VARC[130];
+	ARRAY1[21] = VARC[131];
+	ARRAY1[22] = VARC[132];
+	ARRAY1[23] = VARC[133];
+	ARRAY1[24] = VARC[134];
+	ARRAY1[25] = VARC[135];
+	ARRAY1[26] = VARC[136];
+	ARRAY1[27] = VARC[137];
+	int15 = 0;
+	while (int15 < arg0) {
+		if (CHILD.setChild(widget4, int15) == true && _CHILD.setChild(widget4, arg0 + int15) == true) {
+			item9 = getItemIdInInpsectingSlot(90, int15);
+			if (item9 != null) {
+				int10 = getItemAmtInInspectingSlot(90, int15);
+				CHILD.setHidden(false);
+				CHILD.setItem(item9, int10);
+				CHILD.setContextMenuOption(10, "Examine");
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item9) + "</col>");
+				script_1234(int10, ARRAY1[int15], 21954592);
+			} else {
+				CHILD.setHidden(true);
+				CHILD.setNoOptions();
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+			}
+			int12, int11 = int15 % 4, int15 / 4;
+			int13 = ARRAY0[int12];
+			int14 = int11 * (32 + int7);
+			CHILD.setPosition(int13, int14, 0, 0);
+			_CHILD.setPosition(int13 + arg1, int14, 0, 0);
+		}
+		int15 = int15 + 1;
+	}
+	return;
+}

@@ -1,0 +1,121 @@
+//script2770(2770)(int arg0, int arg1)(void)
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 1:
+		instr6650(2, 0)
+		instr6651(0, 600, script_2764(60298061, arg1), 600, script_2764(60298061, arg1), 0, 0)
+		instr6651(0, 450, script_2764(60298061, arg1), 450, script_2764(60298061, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 100, script_2764(60298068, arg1), 100, script_2764(60298068, arg1), 0, 1)
+		instr6651(0, 100, script_2764(60298073, arg1), 100, script_2764(60298073, arg1), 1, 1)
+		instr6677(0, 1, 140, 100, 0, 0)
+		instr6342(arg0, script_2771, "Ii", arg0, client_clock())
+		break
+	case 2:
+		instr6342(arg0, None, "")
+		instr6650(10, 0)
+		instr6650(10, 1)
+		instr6651(0, 420, script_2764(60183397, arg1), 400, script_2764(60183397, arg1), 0, 0)
+		instr6651(128, 420, script_2764(60199780, arg1), 400, script_2764(60199780, arg1), 1, 0)
+		instr6651(0, 420, script_2764(60216163, arg1), 400, script_2764(60216163, arg1), 2, 0)
+		instr6651(-128, 420, script_2764(60232546, arg1), 400, script_2764(60232546, arg1), 3, 0)
+		instr6651(0, 420, script_2764(60248929, arg1), 400, script_2764(60248929, arg1), 4, 0)
+		instr6651(128, 420, script_2764(60265312, arg1), 400, script_2764(60265312, arg1), 5, 0)
+		instr6651(0, 420, script_2764(60281695, arg1), 400, script_2764(60281695, arg1), 6, 0)
+		instr6651(-128, 420, script_2764(60298078, arg1), 400, script_2764(60298078, arg1), 7, 0)
+		instr6651(0, 420, script_2764(60298077, arg1), 400, script_2764(60298077, arg1), 8, 0)
+		instr6651(128, 420, script_2764(60298076, arg1), 400, script_2764(60298076, arg1), 9, 0)
+		instr6651(0, 420, script_2764(60298075, arg1), 400, script_2764(60298075, arg1), 10, 0)
+		instr6651(0, 400, script_2764(60298074, arg1), 400, script_2764(60298074, arg1), 0, 1)
+		instr6651(0, 395, script_2764(60298073, arg1), 395, script_2764(60298073, arg1), 1, 1)
+		instr6651(0, 390, script_2764(60298072, arg1), 390, script_2764(60298072, arg1), 2, 1)
+		instr6651(0, 385, script_2764(60298071, arg1), 385, script_2764(60298071, arg1), 3, 1)
+		instr6651(0, 380, script_2764(60298070, arg1), 380, script_2764(60298070, arg1), 4, 1)
+		instr6651(0, 375, script_2764(60298069, arg1), 375, script_2764(60298069, arg1), 5, 1)
+		instr6651(0, 370, script_2764(60298068, arg1), 370, script_2764(60298068, arg1), 6, 1)
+		instr6651(0, 365, script_2764(60298067, arg1), 365, script_2764(60298067, arg1), 7, 1)
+		instr6651(0, 360, script_2764(60298066, arg1), 360, script_2764(60298066, arg1), 8, 1)
+		instr6651(0, 355, script_2764(60298065, arg1), 355, script_2764(60298065, arg1), 9, 1)
+		instr6651(0, 350, script_2764(60298065, arg1), 350, script_2764(60298065, arg1), 10, 1)
+		instr6255(arg0, script_2772, "Ii", arg0, 1)
+		instr6677(0, 1, 2500, 3000, 0, 0)
+		sound_synth(0, 1, 6645)
+		break
+	case 3:
+		instr6255(arg0, None, "")
+		instr6650(2, 0)
+		instr6651(0, 350, script_2764(60298070, arg1), 350, script_2764(60298070, arg1), 0, 0)
+		instr6651(0, 300, script_2764(60298070, arg1), 300, script_2764(60298070, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 300, script_2764(60298078, arg1), 300, script_2764(60298078, arg1), 0, 1)
+		instr6651(0, 350, script_2764(60298078, arg1), 350, script_2764(60298078, arg1), 1, 1)
+		instr6677(0, 1, 50, 60, 0, 0)
+		break
+	case 4:
+		instr6650(2, 0)
+		instr6651(0, 450, script_2764(60363601, arg1), 450, script_2764(60363602, arg1), 0, 0)
+		instr6651(0, 600, script_2764(60330829, arg1), 600, script_2764(60330828, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 400, script_2764(60298066, arg1), 400, script_2764(60298065, arg1), 0, 1)
+		instr6651(0, 350, script_2764(60298066, arg1), 350, script_2764(60298067, arg1), 1, 1)
+		instr6677(0, 1, 200, 250, 0, 0)
+		break
+	case 5:
+		instr6650(2, 0)
+		instr6651(0, 700, script_2764(60363601, arg1), 700, script_2764(60363601, arg1), 0, 0)
+		instr6651(0, 700, script_2764(60363601, arg1), 700, script_2764(60363601, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 350, script_2764(60298061, arg1), 350, script_2764(60298062, arg1), 0, 1)
+		instr6651(0, 350, script_2764(60298061, arg1), 150, script_2764(60298061, arg1), 1, 1)
+		instr6677(0, 1, 100, 100, 0, 0)
+		break
+	case 6:
+		instr6650(2, 0)
+		instr6651(0, 450, script_2764(60347214, arg1), 450, script_2764(60347213, arg1), 0, 0)
+		instr6651(0, 450, script_2764(60314446, arg1), 450, script_2764(60314446, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 400, script_2764(60298066, arg1), 400, script_2764(60298065, arg1), 0, 1)
+		instr6651(0, 400, script_2764(60298066, arg1), 400, script_2764(60298067, arg1), 1, 1)
+		instr6677(0, 1, 60, 60, 0, 0)
+		break
+	case 7:
+		instr6650(2, 0)
+		instr6651(0, 400, script_2764(60314445, arg1), 400, script_2764(60314446, arg1), 0, 0)
+		instr6651(0, 400, script_2764(60314445, arg1), 400, script_2764(60314444, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 350, script_2764(60248909, arg1), 350, script_2764(60248909, arg1), 0, 1)
+		instr6651(0, 350, script_2764(60248909, arg1), 350, script_2764(60248909, arg1), 1, 1)
+		instr6677(0, 1, 30, 30, 0, 0)
+		break
+	case 8:
+		instr6650(2, 0)
+		instr6651(0, 450, script_2764(60363604, arg1), 450, script_2764(60363605, arg1), 0, 0)
+		instr6651(0, 450, script_2764(60363604, arg1), 450, script_2764(60347219, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 400, script_2764(60314453, arg1), 400, script_2764(60330836, arg1), 0, 1)
+		instr6651(0, 400, script_2764(60314453, arg1), 400, script_2764(60298069, arg1), 1, 1)
+		instr6677(0, 1, 150, 150, 0, 0)
+		break
+	case 9:
+		instr6650(2, 0)
+		instr6651(0, 500, script_2764(60330833, arg1), 500, script_2764(60363601, arg1), 0, 0)
+		instr6651(0, 700, script_2764(60248913, arg1), 700, script_2764(60248912, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 250, script_2764(60330828, arg1), 250, script_2764(60330828, arg1), 0, 1)
+		instr6651(0, 250, script_2764(60347212, arg1), 250, script_2764(60347212, arg1), 1, 1)
+		instr6677(0, 1, 30, 30, 0, 0)
+		break
+	case 10:
+		instr6650(2, 0)
+		instr6651(0, 800, script_2764(60363593, arg1), 800, script_2764(60363593, arg1), 0, 0)
+		instr6651(0, 600, script_2764(60363591, arg1), 600, script_2764(60363591, arg1), 1, 0)
+		instr6650(2, 1)
+		instr6651(0, 500, script_2764(60298064, arg1), 500, script_2764(60298064, arg1), 0, 1)
+		instr6651(0, 400, script_2764(60265298, arg1), 400, script_2764(60265298, arg1), 1, 1)
+		instr6677(0, 1, 80, 400, 0, 0)
+		instr6236()
+		break
+
+}
+return

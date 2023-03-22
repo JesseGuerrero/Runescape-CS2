@@ -1,0 +1,27 @@
+//script4618(4618)(int arg0, int arg1)(int, int)
+int iVar2
+int iVar3
+int iVar4
+if(arg0 == 0)
+	return 0, 0
+iVar2 = arg0
+iVar3 = arg1
+iVar4 = 0
+if(load_clan_setting_varbit(5) == 1)
+	iVar4 = max(0 - load_clan_setting_var(0), load_clan_setting_var(0))
+iVar3 = ((arg1 / 10) * 60) + (modulo(10, arg1) * 10)
+if(load_clan_setting_varbit(5) == 1)
+	if(load_clan_setting_var(0) < 0)
+		if(iVar3 + iVar4 >= 1440) {
+			iVar2 = iVar2 + 1
+			iVar3 = (iVar3 + iVar4) - 1440
+		} else 
+			iVar3 = iVar3 + iVar4
+	else
+		if(iVar3 - iVar4 < 0) {
+			iVar2 = iVar2 - 1
+			iVar3 = (1440 + arg1) - iVar4
+		} else 
+			iVar3 = iVar3 - iVar4
+return iVar3, iVar2
+return 0, 0

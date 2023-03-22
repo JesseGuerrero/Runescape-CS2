@@ -1,0 +1,7 @@
+//script6333(6333)(int arg0)(void)
+int iVar1
+iVar1 = max(50, if_gettrans(arg0) - 40)
+if_settrans(arg0, iVar1)
+if(iVar1 <= 50)
+	instr6342(arg0, None, "")
+return

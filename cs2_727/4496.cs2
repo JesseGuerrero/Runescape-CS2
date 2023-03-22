@@ -1,0 +1,28 @@
+//script4496(4496)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+if(arg0 == -1 || arg1 == -1)
+	return
+iVar2 = struct_param(1379, arg1)
+iVar3 = struct_param(1380, arg1)
+iVar4 = struct_param(1381, arg1)
+iVar5 = struct_param(1358, arg1)
+cc_deleteall(arg0)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setposition(1, 0, 0, 0)
+cc_setsize(0, 0, 20, 20)
+cc_setgraphic(iVar2)
+cc_settrans(iVar5)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(0, 1, 20, 20 * 2)
+cc_setgraphic(iVar3)
+cc_settrans(iVar5)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setposition(1, 2, 0, 0)
+cc_setsize(0, 0, 20, 20)
+cc_setgraphic(iVar4)
+cc_settrans(iVar5)
+return

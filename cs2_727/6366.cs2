@@ -1,0 +1,10 @@
+//script6366(6366)()(int)
+int iVar0
+iVar0 = 0
+while(iVar0 < 8)
+	if(script_6352(script_6362(iVar0)) == 0)
+		iVar0 = iVar0 + 1
+	else
+		return 1
+return 0
+return -1

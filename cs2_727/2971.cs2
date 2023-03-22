@@ -1,0 +1,100 @@
+//script2971(2971)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+string sVar2
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+iVar2 = -1
+iVar3 = -1
+switch(arg0) {
+	case default:
+		sVar0 = "Unknown"
+		sVar1 = "This should not get here."
+		sVar2 = "This should never get here."
+		iVar2 = 62129
+		iVar3 = 30081093
+		break
+	case 0:
+		sVar0 = "Nothing."
+		sVar1 = "There are no requirements for building this feature."
+		sVar2 = "This feature is an abscence of anything. Oddly, some creatures prefer the minimalist approach."
+		iVar2 = 62129
+		iVar3 = 30081093
+		break
+	case 1:
+		sVar0 = "Pond"
+		sVar1 = "You need a Construction level of 65 to build a pond."
+		sVar2 = "Ponds attract creatures with an affinity for water. They are essentially very small, man-made lakes...or glorified puddles, depending on your view."
+		iVar3 = 30081092
+		iVar2 = 62128
+		break
+	case 2:
+		sVar0 = "Tall grass"
+		sVar1 = "You need a Construction level of 62 to build tall grass."
+		sVar2 = "Tall grass is favoured by creatures who sneak and hide. It's also a favourite with people too lazy to trim their lawn. Essentially, it's a patch of land allowed to grow wild."
+		iVar3 = 30081094
+		iVar2 = 62134
+		break
+	case 3:
+		sVar0 = "Abandoned house"
+		sVar1 = "You need a Construction level of 57 to build an abandoned house."
+		sVar2 = "Something approximating an abandoned house: popular amongst creatures that think they're domesticated."
+		iVar3 = 30081095
+		iVar2 = 62132
+		break
+	case 4:
+		sVar0 = "Thermal vent"
+		sVar1 = "You need a Construction level of 59 to build a thermal vent."
+		sVar2 = "A home-made volcano, or, at least, something that looks like one. These are popular among earthy creatures."
+		iVar3 = 30081096
+		iVar2 = 62133
+		break
+	case 5:
+		sVar0 = "Standing stones"
+		sVar1 = "You need a Construction level of 70 to build standing stones."
+		sVar2 = "A circle of home-made mystical stones, popular among creatures that are more magically inclined."
+		iVar3 = 30081097
+		iVar2 = 62136
+		break
+	case 6:
+		sVar0 = "Dark pit"
+		sVar1 = "You need a Construction level of 80 to build a dark pit."
+		sVar2 = "A deep, dark, endless pit, popular among the more sinister creatures. Don't look too closely: you might fall in."
+		iVar3 = 30081098
+		iVar2 = 62131
+		break
+	case 7:
+		sVar0 = "Boneyard"
+		sVar1 = "You need a Construction level of 56 to build a boneyard."
+		sVar2 = "An animal graveyard, or a collection of well-made bone mockeries. Popular among scavengers and sinister creatures."
+		iVar3 = 30081099
+		iVar2 = 62135
+		break
+
+}
+script_2973()
+if(stat(22) < arg1) {
+	if_setcolor(30081061, 0xCCCC00)
+	sVar2 = append("<br>" + "<br>" + "You can pay Papa Mambo to build this for you.", sVar2)
+} else 
+	if_setcolor(30081061, 0xCC00)
+if_settext(if_gethash(459, 37), sVar0)
+if_settext(if_gethash(459, 38), sVar1)
+if_settext(if_gethash(459, 36), sVar2)
+if_setmodel(if_gethash(459, 35), iVar2)
+if_sethide(if_gethash(459, 69), 1)
+if_sethide(if_gethash(459, 68), 1)
+if_sethide(if_gethash(459, 70), 1)
+if_sethide(if_gethash(459, 71), 1)
+if_sethide(if_gethash(459, 72), 1)
+if_sethide(if_gethash(459, 73), 1)
+if_sethide(if_gethash(459, 74), 1)
+if_sethide(if_gethash(459, 75), 1)
+if(iVar3 != -1)
+	if_sethide(iVar3, 0)
+else
+	if_sethide(if_gethash(459, 69), 0)
+return

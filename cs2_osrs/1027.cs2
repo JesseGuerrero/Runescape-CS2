@@ -1,0 +1,23 @@
+void script_1027(int arg0) {
+	int int1;
+	int int2;
+	int1 = 0;
+	int2 = 0;
+	int1, int2 = script_1002(arg0);
+	if (int2 == -1) {
+		if (arg0 != -1) {
+			CHILD.setText("Tracking XP since " + "<col=ffffff>" + script_1028(int1, 0) + "</col>" + ".");
+		} else {
+			CHILD.setText("Tracking XP since " + "<col=ffffff>" + script_1029(int1) + "</col>" + ".");
+		}
+	} else if (int2 > int1) {
+		if (arg0 != -1) {
+			CHILD.setText("Goal is " + "<col=ffffff>" + script_1028(int2, 0) + "</col>" + ", starting from " + "<col=ffffff>" + script_1028(int1, 0) + "</col>" + ".");
+		} else {
+			CHILD.setText("Goal is " + "<col=ffffff>" + script_1029(int2) + "</col>" + ", starting from " + "<col=ffffff>" + script_1029(int1) + "</col>" + ".");
+		}
+	} else {
+		CHILD.setText("No tracker or goal set.");
+	}
+	return;
+}

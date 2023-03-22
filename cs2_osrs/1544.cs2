@@ -1,0 +1,11 @@
+void script_1544(int arg0, string string1, Widget widget2) {
+	if (getClientCycle() < arg0) {
+		return;
+	}
+	script_1542(0, string1, widget2);
+	widget2.hookMouseHover(&script_1541(true, string1, widget2));
+	widget2.hookMouseExit(&script_1541(false, string1, widget2));
+	widget2.hookOptionClick(&script_1543(CTX_MENU_OPTION, string1, widget2));
+	widget2.hookFrame(null);
+	return;
+}

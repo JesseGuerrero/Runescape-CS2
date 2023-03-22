@@ -1,0 +1,5 @@
+//script4050(4050)(int arg0, int arg1)(void)
+if(arg1 == 1)
+	sound_synth(0, 1, 10223)
+script_4051(arg0, arg1)
+return

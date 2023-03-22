@@ -1,0 +1,16 @@
+void script_88(int arg0, string string1) {
+	string str1;
+	str1 = removeTags(string1);
+	if (arg0 == 10) {
+		STRING[24] = str1;
+	} else if (isFriend(str1) == true) {
+		if (arg0 == 8 || arg0 == 9) {
+			script_107(str1);
+		}
+	} else if (arg0 == 8) {
+		cs2method3605(str1);
+	} else if (arg0 == 9) {
+		cs2method3607(str1);
+	}
+	return;
+}

@@ -1,0 +1,7 @@
+//script5624(5624)(int arg0, int arg1, int arg2)(void)
+if(arg2 == 1)
+	if_setmodelanim(arg1, 15702)
+else
+	if_setmodelanim(arg1, 15700)
+instr6342(arg0, script_5625, "II", arg0, arg1)
+return

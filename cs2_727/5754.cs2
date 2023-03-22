@@ -1,0 +1,89 @@
+//script5754(5754)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, string arg9)(void)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+if(arg2 == -1)
+	arg2 = enum_getoutputcount(arg0) - 1
+else
+	arg2 = arg2
+if(load_varp(2504) != 0)
+	arg0 = enum(680, load_varp(2504), 'S', 's')
+else
+	arg0 = "Combat"
+cc_deleteall(arg7)
+iVar9 = 0
+iVar10 = 5
+iVar11 = 0
+iVar12 = 0
+while(iVar9 <= arg2) {
+	iVar11 = enum(arg0, iVar9, 'i', 'i')
+	if(script_5733(iVar11) == 1) {
+		cc_create(iVar12, 4, arg7)
+		if(iVar11 != 1)
+			cc_settext(enum(108, iVar11, 'i', 's'))
+		else
+			cc_settext("Combat")
+		if(string_length(enum(108, iVar11, 'i', 's')) == 0) {
+			cc_setposition(0, 0, iVar10, 5)
+			cc_setsize(0, 1, 0, 5)
+			cc_sethide(1)
+		} else  {
+			cc_setposition(0, 0, iVar10, 5)
+			cc_setsize(0, 1, 15, 5)
+			cc_settextfont(3793)
+			cc_setcolor(efb063)
+			cc_settextshadow(1)
+			instr6091(script_4502, "IIi", arg6, arg7, -2147483643)
+			iVar12 = 1 + iVar12
+		}
+		iVar10 = iVar10 + cc_getheight()
+	}
+	iVar9 = 1 + iVar9
+}
+if(arg1 == 1)
+	script_4508(arg7, iVar12 - 1)
+arg3 = min(arg3, iVar12)
+arg3 = max(1, arg3)
+iVar13 = 15 * arg3
+iVar14 = iVar13 + (5 * 2)
+iVar15 = if_getlayer(arg7)
+if(iVar15 == -1)
+	return
+iVar16 = if_getlayer(iVar15)
+if(iVar16 == -1)
+	return
+iVar17 = if_getlayer(iVar16)
+if(iVar17 == -1)
+	return
+if_setsize(iVar16, 0, 0, iVar14 + if_getheight(arg4), if_getwidth(iVar16))
+if_setsize(iVar15, 0, 0, iVar14, if_getwidth(iVar16))
+if(if_getlayer(iVar16) == -1)
+	return
+if(if_getheight(iVar17) < if_getheight(iVar16))
+	return
+if(if_getheight(iVar17) < if_gety(iVar16) + if_getheight(iVar16))
+	if((if_gety(iVar16) + if_getheight(arg4)) - if_getheight(iVar16) < 0)
+		return
+if(if_gety(iVar16) + iVar14 > if_getheight(if_getlayer(iVar16))) {
+	if_setposition(iVar16, 0, 0, if_gety(iVar16) - (if_getheight(iVar16) - if_getheight(arg4)), if_getx(iVar16))
+	if_setposition(iVar15, 0, 0, 0, 0)
+	if_setposition(arg4, 2, 0, 0, 0)
+} else  {
+	if_setposition(arg4, 0, 0, 0, 0)
+	if_setposition(iVar15, 2, 0, 0, 0)
+}
+if_sethide(iVar15, 1)
+hook_mouse_press(arg4, script_4505, "III", arg7, arg4, arg8)
+if_setsize(arg6, 0, 1, 15, 0)
+if_sethide(arg6, 1)
+if_setscrollsize(arg7, iVar10 + 5, 0)
+cc_deleteall(arg5)
+script_31(arg5, arg7, 5666, 5663, 5664, 5665, 5686, 5685)
+script_4501(arg4, arg0)
+return

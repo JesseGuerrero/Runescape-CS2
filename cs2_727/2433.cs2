@@ -1,0 +1,8 @@
+//script2433(2433)()(void)
+if(script_1431() == 0 || compare("null", load_varc_string(148)) == 0)
+	return
+if(instr6644() < 2)
+	if_settext(if_gethash(548, 31), load_varc_string(148))
+else
+	if_settext(if_gethash(746, 184), load_varc_string(148))
+return

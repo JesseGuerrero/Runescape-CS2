@@ -1,0 +1,4 @@
+//script658(658)(int arg0)(void)
+if(cc_find(0, arg0) == 1)
+	cc_setoutline(0)
+return

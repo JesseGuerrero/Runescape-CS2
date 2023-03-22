@@ -1,0 +1,18 @@
+//script4494(4494)(int arg0, int arg1)(void)
+int iVar2
+if(arg0 == -1 || arg1 == -1)
+	return
+iVar2 = struct_param(1346, arg1)
+if(iVar2 == 2) {
+	hook_mouse_enter(arg0, script_4159, "Iii", -2147483645, 0, 0)
+	hook_mouse_exit(arg0, script_4159, "Iii", -2147483645, 1, 0)
+} else 
+	if(iVar2 == 3)
+		hook_mouse_press(arg0, script_4162, "I", -2147483645)
+	else
+		if(iVar2 == 4)
+		else
+			if(iVar2 == 5)
+				return 4163
+script_4496(arg0, arg1)
+return

@@ -1,0 +1,3 @@
+int script_1371() {
+	return VARPBIT[4763] * 512 + VARPBIT[4759];
+}

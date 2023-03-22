@@ -1,0 +1,7 @@
+//script1248(1248)()(int)
+int iVar0
+iVar0 = 800
+if(script_3287() == 0)
+	iVar0 = iVar0 - 20
+return iVar0
+return 0

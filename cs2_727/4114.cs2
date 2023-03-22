@@ -1,0 +1,38 @@
+//script4114(4114)()(void)
+int iVar0
+string sVar0
+string sVar1
+script_662(0)
+script_662(1)
+script_662(2)
+script_662(3)
+script_662(4)
+script_662(5)
+iVar0 = inv_getitem(0, 540)
+if(iVar0 == -1) {
+	if_sethide(if_gethash(109, 45), 1)
+	if_setsize(if_gethash(109, 1), 0, 0, 225, if_getwidth(if_gethash(109, 1)))
+	if_setsize(if_gethash(109, 0), 0, 0, 225, if_getwidth(if_gethash(109, 1)))
+	return
+}
+if_sethide(if_gethash(109, 45), 0)
+if_setsize(if_gethash(109, 1), 0, 0, 305, if_getwidth(if_gethash(109, 1)))
+if_setsize(if_gethash(109, 0), 0, 0, 305, if_getwidth(if_gethash(109, 1)))
+if_setitem(if_gethash(109, 58), -1, iVar0)
+item_useonname(7143482, "<col=ff9040>" + item_name(iVar0) + "</col>")
+sVar0 = "Lent item"
+sVar1 = "Still on loan"
+if_settext(if_gethash(109, 57), sVar0)
+if(load_varp(1267) != -1 || load_varp(1269) > 0) {
+	if_settrans(if_gethash(109, 58), 200)
+	if_setcolor(7143483, 0xFF0000)
+	instr6213(if_gethash(109, 58), 1, "Demand")
+} else  {
+	if_settrans(if_gethash(109, 58), 0)
+	if_setcolor(7143483, 0xDF00)
+	sVar1 = "Available"
+	instr6213(if_gethash(109, 58), 1, "Reclaim")
+}
+if_settext(if_gethash(109, 59), sVar1)
+if_setsize(if_gethash(109, 45), 0, 0, if_getheight(if_gethash(109, 45)), max(if_getwidth(if_gethash(109, 58)), max(stringwidth(494, sVar1), stringwidth(495, sVar0))) + 30)
+return

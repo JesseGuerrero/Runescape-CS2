@@ -1,0 +1,15 @@
+void script_550() {
+	string str0;
+	if (VARC[11] == 1) {
+		sendCloseWidgetPacket();
+	}
+	script_677();
+	STRING[28], VARC[62] = "", 0;
+	script_95();
+	VARC[5] = 13;
+	script_222("");
+	script_551();
+	str0 = "";
+	widget(162, 33).hookKey(&script_112(KEY_TYPED, KEY_PRESSED, str0));
+	return;
+}

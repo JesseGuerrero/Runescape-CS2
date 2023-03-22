@@ -1,0 +1,10 @@
+//script3370(3370)(int arg0, int arg1)(void)
+if(cc_find(arg0, if_gethash(1216, 3)) == 1) {
+	if(client_clock() > arg1 + 50) {
+		cc_setposition(0, 0, max(0, cc_gety() - 2), cc_getx())
+		cc_settrans(min(cc_gettransparency() + 7, 255))
+	}
+	if(cc_gettransparency() >= 255)
+		cc_delete()
+}
+return

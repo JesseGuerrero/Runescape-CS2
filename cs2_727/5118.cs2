@@ -1,0 +1,51 @@
+//script5118(5118)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+script_4534(73334787)
+script_4534(73334791)
+store_varc(777, -1)
+sVar0 = ""
+iVar1 = 0
+iVar2 = 0
+iVar3 = 126 + 1
+while(iVar2 <= iVar3) {
+	cc_create(if_getnextsubid(if_gethash(1119, 11)), 3, 73334795)
+	cc_setsize(0, 1, 14, 0)
+	cc_setposition(0, 1, iVar1, 0)
+	cc_settrans(255)
+	cc_create(if_getnextsubid(if_gethash(1119, 11)), 5, 73334795)
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar1 + 1, 5)
+	sVar0 = enum(3725, iVar2, 'i', 's')
+	if(string_length(sVar0) > 0) {
+		cc_create(if_getnextsubid(if_gethash(1119, 11)), 4, 73334795)
+		cc_setsize(0, 1, 14, 22)
+		cc_setposition(0, 2, iVar1, 0)
+		cc_settextalign(0, 1, 0)
+		cc_settextfont(494)
+		cc_settextshadow(1)
+		cc_settext(sVar0)
+		cc_setop(sVar0, 1)
+		instr6687(script_5119, "i", iVar2)
+		iVar1 = iVar1 + cc_getheight()
+	} else  {
+		cc_sethide(1)
+		cc_sethide(1)
+		cc_create(if_getnextsubid(if_gethash(1119, 11)), 4, 73334795)
+		cc_sethide(1)
+	}
+	iVar2 = iVar2 + 1
+}
+if(iVar1 > if_getheight(if_gethash(1119, 11)))
+	if_setscrollsize(73334795, iVar1, 0)
+else
+	if_setscrollsize(73334795, 0, 0)
+if_setscrollpos(if_gethash(1119, 11), 0, 0)
+script_31(73334796, 73334795, 6507, 6504, 6505, 6506, 6499, 6498)
+script_5121()
+instr6237(arg0, script_5120, "Y", 1, 1734)
+script_5124()
+instr6257(arg0, script_5123, "Y", 1, 696)
+return

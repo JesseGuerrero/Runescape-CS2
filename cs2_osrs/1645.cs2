@@ -1,0 +1,97 @@
+void script_1645(int arg0, Item item1, int arg2, int arg3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	string str0;
+	if (VARC[43] < arg0) {
+		return;
+	}
+	int5 = arg0 * 6;
+	if (arg3 <= 0) {
+		arg3 = 1;
+	}
+	int6 = 0;
+	int7 = arg0 * 38;
+	CHILD.createChild(widget(383, 3), 5, int5);
+	CHILD.setPosition(0, int7, 1, 0);
+	CHILD.setSize(0, 38, 1, 0);
+	CHILD.setSprite(1040);
+	CHILD.setSpriteTiling(true);
+	if (arg0 % 2 == 0) {
+		CHILD.setTrans(0);
+		CHILD.hookMouseEnter(&script_1308(widget(383, 3), int5, 75, int5 + 3, true, item1, arg3));
+		CHILD.hookMouseExit(&script_1308(widget(383, 3), int5, 0, int5 + 3, false, item1, arg3));
+	} else {
+		CHILD.setTrans(125);
+		CHILD.hookMouseEnter(&script_1308(widget(383, 3), int5, 200, int5 + 3, true, item1, arg3));
+		CHILD.hookMouseExit(&script_1308(widget(383, 3), int5, 125, int5 + 3, false, item1, arg3));
+	}
+	CHILD.setContextMenuOption(1, "Buy-offer");
+	CHILD.setContextMenuOption(10, "Examine");
+	CHILD.setOptionBase("<col=ff9040>" + getItemName(item1) + "</col>");
+	int5 = int5 + 1;
+	CHILD.createChild(widget(383, 3), 5, int5);
+	int5 = int5 + 1;
+	CHILD.setPosition(int6, int7 + 1, 0, 0);
+	CHILD.setSize(35, 35, 0, 0);
+	int6 = int6 + 35;
+	_CHILD.createChild(widget(383, 3), 4, int5);
+	int5 = int5 + 1;
+	_CHILD.setPosition(int6, int7, 0, 0);
+	_CHILD.setSize(45, 38, 0, 0);
+	int6 = int6 + 45;
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setFont(494);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(0, 1, 0);
+	if (arg2 == 1) {
+		CHILD.setSprite(1106);
+		_CHILD.setText("Sold:");
+	} else {
+		CHILD.setSprite(1108);
+		_CHILD.setText("Bought:");
+	}
+	CHILD.createChild(widget(383, 3), 4, int5);
+	int5 = int5 + 1;
+	CHILD.setPosition(int6, int7, 0, 0);
+	CHILD.setSize(170, 38, 0, 0);
+	int6 = int6 + 170;
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	if (arg3 >= 2) {
+		CHILD.setText("<col=ffb83f>" + getItemName(item1) + "</col>" + "<br>" + "x\u00a0" + script_46(arg3, ","));
+	} else {
+		CHILD.setText("<col=ffb83f>" + getItemName(item1) + "</col>");
+	}
+	CHILD.createChild(widget(383, 3), 5, int5);
+	int5 = int5 + 1;
+	CHILD.setPosition(int6, int7 + 3, 0, 0);
+	CHILD.setSize(36, 32, 0, 0);
+	int6 = int6 + 36;
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	CHILD.setItem(item1, arg3);
+	CHILD.createChild(widget(383, 3), 4, int5);
+	int5 = int5 + 1;
+	CHILD.setPosition(int6, int7, 0, 0);
+	CHILD.setSize(int6, 38, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	str0 = "";
+	if (arg4 == 1) {
+		str0 = "1\u00a0coin";
+	} else {
+		str0 = script_46(arg4, ",") + "\u00a0coins";
+	}
+	if (arg3 >= 2) {
+		CHILD.setText(str0 + "<br>" + "<col=9f9f9f>" + "=\u00a0" + script_46(arg4 / arg3, ",") + " each" + "</col>");
+	} else {
+		CHILD.setText(str0);
+	}
+	VARC[43] = arg0 + 1;
+	return;
+}

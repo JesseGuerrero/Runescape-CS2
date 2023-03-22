@@ -1,0 +1,50 @@
+int script_1351(string string0, Widget widget1, DataMap datamap2, DataMap datamap3, int arg4, int arg5, int arg6, int arg7) {
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	string str1;
+	widget1.clearChildren();
+	if (arg4 <= 0) {
+		return 0;
+	}
+	str1 = "";
+	int7 = 0;
+	int8 = pow(2, 16);
+	ARRAY0 = new int[arg4];
+	int9 = 0;
+	while (int9 < arg4) {
+		CHILD.createChild(widget1, 4, int9);
+		CHILD.setSize(0, 15, 1, 0);
+		CHILD.setFont(494);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setTextAlignment(0, 0, 0);
+		str1 = datamap('i', 's', datamap2, int9);
+		CHILD.setText(str1);
+		CHILD.setOptionBase("<col=ff9040>" + str1 + "</col>");
+		ARRAY0[int9] = int7 * int8 + int9;
+		CHILD.setContextMenuOption(1, "Read Journal:");
+		int9 = int9 + 1;
+	}
+	if (arg4 > 1) {
+		script_1352(0, 0, arg4 - 1, datamap3, int8);
+	}
+	int10 = 20;
+	int9 = 0;
+	while (int9 < arg4) {
+		if (CHILD.setChild(widget1, ARRAY0[int9] % int8) == true) {
+			CHILD.setPosition(0, int10, 1, 0);
+		}
+		int9, int10 = int9 + 1, int10 + 15;
+	}
+	CHILD.createChild(widget1, 4, int9);
+	CHILD.setSize(0, 20, 1, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(496);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setText(string0);
+	widget1.setSize(0, int10, 1, 0);
+	return int10;
+}

@@ -1,0 +1,12 @@
+//script1391(1391)(int arg0, int arg1)(void)
+if(activeclanchannel_find_affined() == 0) {
+	if_settext(if_gethash(912, 24), "")
+	if_sethide(arg1, 1)
+	return
+}
+if(modulo(40, client_clock() - arg0) < 20)
+	if(applet_hasfocus() == 1)
+		if_sethide(arg1, 0)
+	else
+		if_sethide(arg1, 1)
+return

@@ -1,0 +1,5 @@
+//script6059(6059)()(void)
+if(instr6868("1066") == 1)
+	if(instr6869("1066") == 1)
+		applet_call("1066")
+return

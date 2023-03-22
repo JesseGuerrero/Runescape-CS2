@@ -1,0 +1,31 @@
+//script1082(1082)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = arg0 + 1
+if(if_gethide(enum(1550, iVar3, 'i', 'I')) == 0) {
+	if(cc_find(arg2, arg1) == 1) {
+		cc_sethide(0)
+		cc_setcolor(969777)
+	}
+	if(load_varc(128) >= 0) {
+		iVar3 = iVar3 + 1
+		while(if_gethide(enum(1550, iVar3, 'i', 'I')) == 0)
+			iVar3 = iVar3 + 1
+		if(cc_find(load_varc(128), enum(1551, iVar3 - 1, 'i', 'I')) == 1)
+			cc_sethide(1)
+		store_varc(128, -1)
+	}
+	return
+}
+if(load_varc(128) == arg2)
+	return
+if(load_varc(128) >= 0)
+	if(cc_find(load_varc(128), arg1) == 1)
+		cc_sethide(1)
+if(cc_find(arg2, arg1) == 1) {
+	if(cc_ishidden() == 1) {
+		cc_sethide(0)
+		cc_setcolor(577e45)
+	}
+	store_varc(128, arg2)
+}
+return

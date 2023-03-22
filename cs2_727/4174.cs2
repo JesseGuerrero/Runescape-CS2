@@ -1,0 +1,6 @@
+//script4174(4174)(int arg0)(void)
+if(bit_flagged(arg0, load_varpbit(642)) == 1)
+	cc_sethide(0)
+else
+	cc_sethide(1)
+return

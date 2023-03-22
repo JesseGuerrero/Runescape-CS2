@@ -1,0 +1,15 @@
+//script1790(1790)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = scale(load_varc(265), 5, 3)
+if(iVar1 <= 3) {
+	if_settext(arg0, "<col=ff0000>" + "GET READY!" + "</col>")
+	return
+}
+iVar2 = iVar1 / 60
+iVar1 = modulo(60, iVar1)
+if(iVar1 >= 10)
+	if_settext(arg0, to_string(iVar2) + "m " + to_string(iVar1) + "s")
+else
+	if_settext(arg0, to_string(iVar2) + "m 0" + to_string(iVar1) + "s")
+return

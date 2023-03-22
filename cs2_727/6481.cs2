@@ -1,0 +1,13 @@
+//script6481(6481)(int arg0, int arg1)(void)
+int iVar2
+if(arg0 == -1)
+	return
+store_varc(1964, arg0)
+store_varc(1965, arg1)
+iVar2 = 85917863
+if(cc_find(arg1, arg0) == 1) {
+	store_varc(1966, cc_getparentlayer())
+	if_setsize(iVar2, 0, 0, cc_getheight(), cc_getwidth())
+	if_setposition(iVar2, 0, 0, cc_gety() + if_gety(cc_getparentlayer()), cc_getx())
+}
+return

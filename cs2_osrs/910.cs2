@@ -1,0 +1,26 @@
+void script_910(DataMap datamap0, Widget widget1, Widget widget2, int arg3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	if (widget1 == null) {
+		return;
+	}
+	if (VARC[172] <= -1 || VARC[173] <= -1 || hasChild(datamap('I', 'I', datamap0, widget(161, 13))) == false) {
+		widget1.clearChildren();
+		return;
+	}
+	int5 = widget2.getWidth();
+	int6 = widget2.getHeight();
+	int7 = (int5 - 512) / 2;
+	int8 = (int6 - 334) / 2;
+	int9 = int5 - (int7 + 512);
+	int10 = int6 - (int8 + 334);
+	script_911(widget1, 0, color(VARC[172]), VARC[173], 0, 0, 0, 0, 0, int8, 1, 0);
+	script_911(widget1, 1, color(VARC[172]), VARC[173], 0, 0, 0, 2, 0, int10 + arg4, 1, 0);
+	script_911(widget1, 2, color(VARC[172]), VARC[173], 0, int8, 0, 0, int7, 334, 0, 0);
+	script_911(widget1, 3, color(VARC[172]), VARC[173], 0, int8, 2, 0, int9 + arg3, 334, 0, 0);
+	return;
+}

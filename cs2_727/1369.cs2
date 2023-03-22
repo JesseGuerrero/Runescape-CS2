@@ -1,0 +1,49 @@
+//script1369(1369)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9)(void)
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+script_1088(arg0, 0)
+iVar10 = -1
+if(load_varc(622) != -1) {
+	iVar10 = instr6610(load_varc(622))
+	if(iVar10 == -1)
+		iVar10 = 28
+}
+iVar10 = script_2785(iVar10)
+if(instr6074(iVar10, load_varc(622)) == 1)
+	instr6628(load_varc(622), iVar10)
+else
+	instr6308(iVar10)
+store_varc(172, instr6620(iVar10))
+script_1372()
+script_1374(0)
+script_1376(0, arg5, arg9)
+script_291(0, arg6, arg7, arg8, arg4, arg5)
+script_1839(load_varpbit(5367), arg1, arg2, arg3)
+instr6257(arg0, script_1369, "IIIIIIIIIIY", 1, 622, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9)
+instr6237(arg0, script_1404, "IIIIIiY", 2, 463, 1159, arg1, arg2, arg3, arg5, arg0, load_varpbit(6175))
+instr6248(arg4, script_1382, "izIc", -2147483640, -2147483639, arg4, -1)
+store_varc_string(31, "")
+iVar11 = 0
+iVar12 = 0
+iVar13 = load_varc(622)
+if(load_varpbit(9030) == 1)
+	if(iVar10 == 28)
+		if(world_members() == 1)
+			iVar13 = 47664550
+if(iVar13 != -1) {
+	iVar11 = instr6212(iVar13).get(0)
+	if(iVar11 < 0 || iVar12 < 0) {
+		iVar13 = movecoord(coordz(iVar13), script_686(coordy(iVar13) - 1, 4), coordx(iVar13), 0)
+		iVar11 = instr6212(iVar13).get(0)
+		if(iVar11 < 0 || iVar12 < 0) {
+			iVar13 = movecoord(coordz(iVar13), script_686(coordy(iVar13) - 1, 4), coordx(iVar13), 0)
+			iVar11 = instr6212(iVar13).get(0)
+			if(iVar11 < 0 || iVar12 < 0)
+				return
+		}
+	}
+	instr6342(arg0, script_2054, "iIc", client_clock() + 4, arg0, iVar13)
+}
+return

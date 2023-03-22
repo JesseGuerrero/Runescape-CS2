@@ -1,0 +1,13 @@
+void script_898(Widget widget0) {
+	int int1;
+	int int2;
+	int1 = widget0.getHeight();
+	if (int1 < 334) {
+		int1 = 334;
+	} else if (int1 > 1200) {
+		int1 = 1200;
+	}
+	int2 = 180 - mathMethod4006(0, root(int1 - 334, 2), 0, root(1200 - 334, 2), 130);
+	CHILD.set3DRotation(0, 0, 462, 0, 0, int2);
+	return;
+}

@@ -1,0 +1,29 @@
+void script_1036(int arg0, Widget arg1, int arg2, int arg3, Widget widget4, Widget widget5, Widget widget6, Widget arg7, Widget widget8, Widget arg9, Widget widget10, Widget arg11, Widget widget12, Widget arg13, Widget widget14, Widget arg15, Widget widget16, Widget arg17, Widget widget18, Widget arg19, Widget widget20, Widget arg21) {
+	if (arg0 != 1) {
+		return;
+	}
+	arg2 = arg2 - 1;
+	if (arg2 < 0 || arg2 >= arg3) {
+		return;
+	}
+	if (arg1 == arg7) {
+		VARPBIT[4692] = arg2;
+	} else if (arg1 == arg9) {
+		VARPBIT[4693] = arg2;
+	} else if (arg1 == arg11) {
+		VARPBIT[4694] = arg2;
+	} else if (arg1 == arg13) {
+		VARPBIT[4697] = arg2;
+	} else if (arg1 == arg15) {
+		VARPBIT[4698] = arg2;
+	} else if (arg1 == arg17) {
+		VARPBIT[4695] = arg2;
+	} else if (arg1 == arg19) {
+		VARPBIT[4696] = arg2;
+	} else if (arg1 == arg21) {
+		VARPBIT[4722] = arg2;
+	}
+	script_1022(widget6, widget8, widget10, widget12, widget14, widget16, widget18, widget20);
+	script_1038(widget4, widget5, widget6, widget8, widget10, widget12, widget14, widget16, widget18, widget20);
+	return;
+}

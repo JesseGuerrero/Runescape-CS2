@@ -1,0 +1,63 @@
+//script1175(1175)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+if(modulo(10, client_clock()) != 0)
+	return
+iVar0 = 0
+iVar1 = coordz(coord())
+iVar2 = coordx(coord())
+if(iVar1 > 9919)
+	if(iVar1 < 10368)
+		if(iVar2 > 3007)
+			if(iVar2 < 3136)
+				iVar0 = ((iVar1 - 9920) / 8) + 1
+			else
+				if(iVar1 > 3524)
+					if(iVar1 < 3968)
+						if(iVar2 > 2943)
+							if(iVar2 < 3393)
+								if(load_varpbit(5447) == 0)
+									iVar0 = ((iVar1 - 3520) / 8) + 1
+if(iVar0 < 0)
+	iVar0 = 0
+else
+	if(iVar0 > 60)
+		iVar0 = 60
+iVar3 = comlevel_active()
+iVar4 = 0
+iVar5 = 0
+if(script_208() == 1) {
+	iVar4 = iVar3 - iVar0
+	if(iVar4 < 20)
+		iVar4 = 20
+	iVar5 = iVar3 + iVar0
+	if(iVar5 > 138)
+		iVar5 = 138
+	if(iVar4 == iVar5) {
+		if(instr6644() < 2)
+			if_settext(if_gethash(548, 30), " ")
+		else
+			if_settext(if_gethash(746, 18), " ")
+		return
+	}
+} else  {
+	iVar4 = iVar3 - (iVar0 + (5 + (iVar3 / 10)))
+	if(iVar4 < 20)
+		iVar4 = 20
+	iVar5 = iVar3 + (iVar0 + (5 + (iVar3 / 10)))
+	if(iVar5 > 138)
+		iVar5 = 138
+	if(iVar5 < 139)
+		while(iVar5 - (iVar0 + (5 + (iVar5 / 10))) <= iVar3)
+			iVar5 = iVar5 + 1
+	iVar5 = iVar5 - 1
+}
+if(instr6644() < 2)
+	if_settext(if_gethash(548, 30), to_string(iVar4) + " - " + to_string(iVar5))
+else
+	if_settext(if_gethash(746, 18), to_string(iVar4) + " - " + to_string(iVar5))
+return

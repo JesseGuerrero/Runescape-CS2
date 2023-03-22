@@ -1,0 +1,6 @@
+//script1375(1375)(int arg0, int arg1)(void)
+if(if_gethide(if_gethash(755, 47)) == 1)
+	script_1376(1, arg0, arg1)
+else
+	script_1376(0, arg0, arg1)
+return

@@ -1,0 +1,18 @@
+//script2172(2172)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = load_varc(692)
+iVar2 = load_varc(1103)
+script_41(12451863)
+if(arg0 == 0)
+	if(load_varc(692) == 1)
+		iVar1 = 0
+	else
+		iVar1 = 1
+else
+	if(load_varc(1103) == 1)
+		iVar2 = 0
+	else
+		iVar2 = 1
+script_2162(1, load_varc(693), load_varc(694), iVar1, iVar2)
+return

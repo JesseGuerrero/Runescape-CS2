@@ -1,0 +1,80 @@
+void script_1203(Widget widget0, Widget widget1, int arg2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12) {
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	int int21;
+	int int22;
+	int int23;
+	int int24;
+	int int25;
+	int int26;
+	ARRAY0 = new int[47];
+	int13 = 0;
+	int14 = 0;
+	while (int14 < 47) {
+		int13 = int14 + 1;
+		ARRAY0[int14] = int13;
+		int14 = int14 + 1;
+	}
+	script_1214(0, 0, 47 - 1);
+	if (VARC[79] != 3 && VARC[79] != 2 && VARC[79] != 4 && VARC[79] != 5 && VARC[79] != 1) {
+		VARC[79] = 3;
+	}
+	int15 = getMaxLineWidth("Favour", 512, 496) + 15;
+	widget8.clearChildren();
+	widget9.clearChildren();
+	widget10.clearChildren();
+	widget11.clearChildren();
+	widget12.clearChildren();
+	int16 = 0;
+	int17 = 0;
+	int18 = 0;
+	int19 = 0;
+	int20 = 0;
+	int21 = 0;
+	int22 = 0;
+	int23 = 0;
+	int24 = 0;
+	int25 = 0;
+	int16, int21 = script_1208(int15, int16, int21, 3, VARPBIT[4896], widget8);
+	int17, int22 = script_1208(int15, int17, int22, 2, VARPBIT[4895], widget9);
+	int18, int23 = script_1208(int15, int18, int23, 4, VARPBIT[4898], widget10);
+	int19, int24 = script_1208(int15, int19, int24, 5, VARPBIT[4899], widget11);
+	int20, int25 = script_1208(int15, int20, int25, 1, VARPBIT[4894], widget12);
+	int26 = 0;
+	int14 = 0;
+	while (int14 < 47) {
+		int13 = ARRAY0[int14];
+		int26 = datamap('i', 'i', 1269, int13);
+		if (int26 == 3) {
+			int16, int21 = script_1209(int15, int16, int21, VARPBIT[4896], int13, int26, widget8);
+		} else if (int26 == 2) {
+			int17, int22 = script_1209(int15, int17, int22, VARPBIT[4895], int13, int26, widget9);
+		} else if (int26 == 4) {
+			int18, int23 = script_1209(int15, int18, int23, VARPBIT[4898], int13, int26, widget10);
+		} else if (int26 == 5) {
+			int19, int24 = script_1209(int15, int19, int24, VARPBIT[4899], int13, int26, widget11);
+		} else if (int26 == 1) {
+			int20, int25 = script_1209(int15, int20, int25, VARPBIT[4894], int13, int26, widget12);
+		}
+		int14 = int14 + 1;
+	}
+	widget8.setSize(0, int21, 1, 0);
+	widget9.setSize(0, int22, 1, 0);
+	widget10.setSize(0, int23, 1, 0);
+	widget11.setSize(0, int24, 1, 0);
+	widget12.setSize(0, int25, 1, 0);
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	script_1204(3, widget3, arg2);
+	script_1204(2, widget4, arg2);
+	script_1204(4, widget5, arg2);
+	script_1204(5, widget6, arg2);
+	script_1204(1, widget7, arg2);
+	script_1206(widget0, widget1, arg2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12);
+	return;
+}

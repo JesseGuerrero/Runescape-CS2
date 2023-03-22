@@ -1,0 +1,38 @@
+void script_0(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	widget2.hookVARP(&script_5(widget1, widget0, widget3, widget2, widget4), 702);
+	widget0.clearChildren();
+	widget1.clearChildren();
+	widget2.setIsHidden(true);
+	widget4.setIsHidden(true);
+	widget3.setText("Select a reward" + "<br>" + "<br>" + "on the left to" + "<br>" + "<br>" + "display information" + "<br>" + "<br>" + "here.");
+	int5 = 0;
+	int6 = widget0.getWidth() / 3;
+	int7 = (int6 - 36) / 2;
+	int8 = 20;
+	while (int5 < 9) {
+		CHILD.createChild(widget1, 5, int5);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int7 + (int7 * 2 + 36) * (int5 % 3), int8, 0, 0);
+		CHILD.setItemNoNum(datamap('i', 'o', 1382, int5), 0);
+		CHILD.setContextMenuOption(1, "Details");
+		CHILD.hookOptionClick(&script_4(CTX_WIDGET_CHILD, widget1, widget0, widget3, widget2, widget4));
+		CHILD.hookMouseEnter(&script_9(CTX_WIDGET_CHILD, widget1, widget0));
+		CHILD.hookMouseExit(&script_22(CTX_WIDGET_CHILD, widget1, widget0));
+		CHILD.createChild(widget0, 4, int5);
+		CHILD.setSize(56, 62, 0, 0);
+		CHILD.setPosition(int7 - 10 + ((int7 - 10) * 2 + 56) * (int5 % 3), int8, 0, 0);
+		CHILD.setText(datamap('i', 's', 1383, int5));
+		CHILD.setTextAlignment(1, 2, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(495);
+		int5 = int5 + 1;
+		if (int5 % 3 == 0) {
+			int8 = int8 + 80;
+		}
+	}
+	return;
+}

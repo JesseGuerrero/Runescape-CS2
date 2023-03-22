@@ -1,0 +1,17 @@
+void script_512(Widget widget0, int arg1, Widget arg2, int arg3, int arg4, int arg5) {
+	int int6;
+	int int7;
+	if (arg2 != widget0) {
+		return;
+	}
+	int6 = arg1 - (9 + 1);
+	int7 = arg3 - (9 + 1);
+	if (int6 == 0 || int7 == 0 || isBitFlagged(arg4, int6) == false || isBitFlagged(arg4, int7) == false) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setTrans(200);
+		CHILD.hookFrame(&script_488(CTX_WIDGET, CTX_WIDGET_CHILD, arg5, getClientCycle() + 10));
+	}
+	return;
+}

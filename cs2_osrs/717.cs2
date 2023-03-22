@@ -1,0 +1,9 @@
+void script_717(Widget widget0, Widget widget1) {
+	_ = script_208(widget1);
+	widget0.hookMouseEnter(&script_772(widget1));
+	widget0.hookMouseExit(&script_97(widget1));
+	widget0.hookDraggedOver(&script_772(widget1));
+	widget0.hookMouseRelease(&script_97(widget1));
+	widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 14));
+	return;
+}

@@ -1,0 +1,71 @@
+//script490(490)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar0 = script_488(load_varpbit(7539))
+iVar1 = script_488(load_varpbit(7540))
+iVar2 = script_488(load_varpbit(7541))
+iVar3 = script_488(load_varpbit(7542))
+iVar4 = script_489(load_varpbit(7539))
+iVar5 = script_489(load_varpbit(7540))
+iVar6 = script_489(load_varpbit(7541))
+iVar7 = script_489(load_varpbit(7542))
+if_setcolor(66519098, 0xFF981F)
+if_setcolor(66519100, 0xFF981F)
+if_setcolor(66519102, 0xFF981F)
+if_setcolor(66519104, 0xFF981F)
+if_setcolor(66519108, 0xFF981F)
+if_setcolor(66519110, 0xFF981F)
+if_setcolor(66519112, 0xFF981F)
+if_setcolor(66519114, 0xFF981F)
+if_setcolor(66519106, 0xFF981F)
+if(iVar4 != -1)
+	if_setcolor(iVar4, 0x585042)
+if(iVar5 != -1)
+	if_setcolor(iVar5, 0x585042)
+if(iVar6 != -1)
+	if_setcolor(iVar6, 0x585042)
+if(iVar7 != -1)
+	if_setcolor(iVar7, 0x585042)
+if(iVar0 == -1) {
+	if_sethide(if_gethash(1015, 96), 1)
+	if_sethide(if_gethash(1015, 97), 0)
+} else  {
+	if_sethide(if_gethash(1015, 96), 0)
+	if_sethide(if_gethash(1015, 97), 1)
+	if_settext(if_gethash(1015, 100), struct_param(1150, iVar0))
+	if_setgraphic(if_gethash(1015, 99), struct_param(1153, iVar0))
+}
+if(iVar1 == -1) {
+	if_sethide(if_gethash(1015, 90), 1)
+	if_sethide(if_gethash(1015, 93), 0)
+} else  {
+	if_sethide(if_gethash(1015, 90), 0)
+	if_sethide(if_gethash(1015, 93), 1)
+	if_settext(if_gethash(1015, 92), struct_param(1150, iVar1))
+	if_setgraphic(if_gethash(1015, 91), struct_param(1153, iVar1))
+}
+if(iVar2 == -1) {
+	if_sethide(if_gethash(1015, 84), 1)
+	if_sethide(if_gethash(1015, 87), 0)
+} else  {
+	if_sethide(if_gethash(1015, 84), 0)
+	if_sethide(if_gethash(1015, 87), 1)
+	if_settext(if_gethash(1015, 86), struct_param(1150, iVar2))
+	if_setgraphic(if_gethash(1015, 85), struct_param(1153, iVar2))
+}
+if(iVar3 == -1) {
+	if_sethide(if_gethash(1015, 78), 1)
+	if_sethide(if_gethash(1015, 81), 0)
+} else  {
+	if_sethide(if_gethash(1015, 78), 0)
+	if_sethide(if_gethash(1015, 81), 1)
+	if_settext(if_gethash(1015, 80), struct_param(1150, iVar3))
+	if_setgraphic(if_gethash(1015, 79), struct_param(1153, iVar3))
+}
+return

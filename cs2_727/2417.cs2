@@ -1,0 +1,6 @@
+//script2417(2417)(int arg0)(void)
+if(load_varc(805) == 5 || load_varc(805) == 11)
+	instr6213(arg0, 1, "Pump")
+else
+	instr6213(arg0, 1, "Inspect")
+return

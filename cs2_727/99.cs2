@@ -1,0 +1,41 @@
+//script99(99)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 5
+iVar1 = 5
+iVar2 = 0
+while(iVar0 < 125) {
+	while(iVar1 < 120) {
+		cc_create(iVar2, 5, 41353263)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, iVar0, iVar1)
+		if(inv_getitem(iVar2, 134) != -1) {
+			cc_setitem(inv_getnum(iVar2, 134), inv_getitem(iVar2, 134))
+			cc_setopbase("<col=ff981f>" + item_name(inv_getitem(iVar2, 134)))
+			cc_setop("Remove 1", 1)
+			cc_setop("Remove 5", 2)
+			cc_setop("Remove 10", 3)
+			cc_setop("Remove All", 4)
+			cc_setop("Remove X", 5)
+			cc_setop("Examine", 10)
+			cc_setgraphicshadow(3153952)
+			cc_setoutline(1)
+		}
+		cc_create(iVar2, 5, 41353265)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, iVar0, iVar1)
+		if(invother_getitem(iVar2, 134) != -1) {
+			cc_setitem(invother_getnum(iVar2, 134), invother_getitem(iVar2, 134))
+			cc_setopbase("<col=ff981f>" + item_name(invother_getitem(iVar2, 134)))
+			cc_setop("Examine", 1)
+			cc_setgraphicshadow(3153952)
+			cc_setoutline(1)
+		}
+		iVar1 = iVar1 + 40
+		iVar2 = iVar2 + 1
+	}
+	iVar0 = iVar0 + 42
+	iVar1 = 5
+}
+return

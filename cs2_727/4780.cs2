@@ -1,0 +1,9 @@
+//script4780(4780)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	if(arg2 == 1)
+		cc_setgraphic(7546)
+	else {
+		cc_setgraphic(7545)
+		script_41(73072826)
+	}
+return

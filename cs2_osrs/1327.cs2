@@ -1,0 +1,10 @@
+void script_1327(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, string string8, string string9) {
+	widget0.clearChildren();
+	widget3.clearChildren();
+	widget4.clearChildren();
+	widget7.clearChildren();
+	script_1328(string8, widget0, widget1, widget2, widget3);
+	script_1328(string9, widget4, widget5, widget6, widget7);
+	script_1331(11796493, 11796493, widget(180, 14), widget(180, 15), widget(180, 16), 11796498, widget(180, 19), widget(180, 20), widget(180, 21), widget(180, 4), widget(180, 3), widget(180, 8), widget(180, 7));
+	return;
+}

@@ -1,0 +1,201 @@
+int script_19(Item item0) {
+	int int1;
+	int int2;
+	int int3;
+	Item item4;
+	int int5;
+	Item item6;
+	int1 = 0;
+	int2 = 0;
+	int3 = 0;
+	item4 = getItemIdInSlot(94, 3);
+	if (isMember() == true) {
+		if (getItemAmtInContainer(93, 12791) > 0) {
+			int1, int2, int3 = VARPBIT[29], VARPBIT[1622], VARPBIT[1623];
+		}
+	} else if (item4 != null && isMembersItem(item4) == true) {
+		item4 = null;
+	}
+	int5 = 0;
+	if (item0 == 556) {
+		if (VARPBIT[4145] == 1) {
+			return 2147483647;
+		}
+		if (datamap('o', '1', 988, item4) == true) {
+			return 2147483647;
+		}
+		if (script_234() == 1) {
+			return getItemAmtInContainer(93, 11688);
+		}
+		int5 = getItemAmtInContainer(93, 556);
+		if (isMember() == true) {
+			int5 = script_673(int5, getItemAmtInContainer(93, 4697));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4695));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4696));
+			int5 = script_673(int5, getItemAmtInContainer(93, 11715));
+			if (datamap('i', '1', 983, int1) == true) {
+				int5 = script_673(int5, VARPBIT[1624]);
+			}
+			if (datamap('i', '1', 983, int2) == true) {
+				int5 = script_673(int5, VARPBIT[1625]);
+			}
+			if (datamap('i', '1', 983, int3) == true) {
+				int5 = script_673(int5, VARPBIT[1626]);
+			}
+		}
+		return int5;
+	}
+	if (item0 == 555) {
+		if (VARPBIT[4145] == 1) {
+			return 2147483647;
+		}
+		if (datamap('o', '1', 989, item4) == true) {
+			return 2147483647;
+		}
+		if (script_234() == 1) {
+			return getItemAmtInContainer(93, 11687);
+		}
+		int5 = getItemAmtInContainer(93, 555);
+		if (isMember() == true) {
+			int5 = script_673(int5, getItemAmtInContainer(93, 4694));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4695));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4698));
+			int5 = script_673(int5, getItemAmtInContainer(93, 11716));
+			if (datamap('i', '1', 987, int1) == true) {
+				int5 = script_673(int5, VARPBIT[1624]);
+			}
+			if (datamap('i', '1', 987, int2) == true) {
+				int5 = script_673(int5, VARPBIT[1625]);
+			}
+			if (datamap('i', '1', 987, int3) == true) {
+				int5 = script_673(int5, VARPBIT[1626]);
+			}
+		}
+		return int5;
+	}
+	if (item0 == 557) {
+		if (VARPBIT[4145] == 1) {
+			return 2147483647;
+		}
+		if (datamap('o', '1', 996, item4) == true) {
+			return 2147483647;
+		}
+		if (script_234() == 1) {
+			return getItemAmtInContainer(93, 11689);
+		}
+		int5 = getItemAmtInContainer(93, 557);
+		if (isMember() == true) {
+			int5 = script_673(int5, getItemAmtInContainer(93, 4696));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4699));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4698));
+			int5 = script_673(int5, getItemAmtInContainer(93, 11717));
+			if (datamap('i', '1', 993, int1) == true) {
+				int5 = script_673(int5, VARPBIT[1624]);
+			}
+			if (datamap('i', '1', 993, int2) == true) {
+				int5 = script_673(int5, VARPBIT[1625]);
+			}
+			if (datamap('i', '1', 993, int3) == true) {
+				int5 = script_673(int5, VARPBIT[1626]);
+			}
+		}
+		return int5;
+	}
+	if (item0 == 554) {
+		if (VARPBIT[4145] == 1) {
+			return 2147483647;
+		}
+		if (datamap('o', '1', 997, item4) == true) {
+			return 2147483647;
+		}
+		if (script_234() == 1) {
+			return getItemAmtInContainer(93, 11686);
+		}
+		if (getItemIdInSlot(94, 5) == 20714 && isMember() == true) {
+			return 2147483647;
+		}
+		int5 = getItemAmtInContainer(93, 554);
+		if (isMember() == true) {
+			int5 = script_673(int5, getItemAmtInContainer(93, 4694));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4697));
+			int5 = script_673(int5, getItemAmtInContainer(93, 4699));
+			int5 = script_673(int5, getItemAmtInContainer(93, 11718));
+			if (datamap('i', '1', 994, int1) == true) {
+				int5 = script_673(int5, VARPBIT[1624]);
+			}
+			if (datamap('i', '1', 994, int2) == true) {
+				int5 = script_673(int5, VARPBIT[1625]);
+			}
+			if (datamap('i', '1', 994, int3) == true) {
+				int5 = script_673(int5, VARPBIT[1626]);
+			}
+		}
+		return int5;
+	}
+	if (item0 == 8843) {
+		if (item4 == 2416 || item4 == 8841) {
+			return 1;
+		}
+		return 0;
+	}
+	if (item0 == 2417) {
+		if (item4 == 2417 || item4 == 11791 || item4 == 12902 || item4 == 12904) {
+			return 1;
+		}
+		return 0;
+	}
+	if (item0 == 4170) {
+		if (item4 == 4170 || item4 == 21255 || item4 == 11791 || item4 == 12902 || item4 == 12904) {
+			return 1;
+		}
+		return 0;
+	}
+	if (item0 == 1409) {
+		if (item4 == 1409 || item4 == 12658) {
+			return 1;
+		}
+		return 0;
+	}
+	if (item0 == 2415) {
+		if (item4 == item0) {
+			return 1;
+		}
+		return 0;
+	}
+	item6 = datamap('o', 'o', 13, item0);
+	if (item6 != null) {
+		if (VARPBIT[4145] == 1) {
+			return 2147483647;
+		}
+		if (script_234() == 1) {
+			if (isMember() == true || isMembersItem(item6) == false) {
+				return getItemAmtInContainer(93, item6);
+			}
+			return 0;
+		}
+	}
+	if (isMember() == true) {
+		int5 = getItemAmtInContainer(93, item0);
+		if (item0 == 562) {
+			int5 = script_673(int5, getItemAmtInContainer(93, 11712));
+		} else if (item0 == 560) {
+			int5 = script_673(int5, getItemAmtInContainer(93, 11713));
+		} else if (item0 == 565) {
+			int5 = script_673(int5, getItemAmtInContainer(93, 11714));
+		}
+		if (item0 == datamap('i', 'O', 982, int1)) {
+			int5 = script_673(int5, VARPBIT[1624]);
+		}
+		if (item0 == datamap('i', 'O', 982, int2)) {
+			int5 = script_673(int5, VARPBIT[1625]);
+		}
+		if (item0 == datamap('i', 'O', 982, int3)) {
+			int5 = script_673(int5, VARPBIT[1626]);
+		}
+	} else if (isMembersItem(item0) == false) {
+		int5 = getItemAmtInContainer(93, item0);
+	} else {
+		int5 = 0;
+	}
+	return int5;
+}

@@ -1,0 +1,67 @@
+void script_546(Widget widget0, int arg1) {
+	Item item2;
+	string str0;
+	widget0.setNoOptions();
+	item2 = getItemIdInSlot(94, arg1);
+	if (item2 == null) {
+		CHILD.setHidden(true);
+		_CHILD.setHidden(false);
+		widget0.hookOptionClick(null);
+		widget0.hookVARP(null);
+		return;
+	}
+	CHILD.setHidden(false);
+	_CHILD.setHidden(true);
+	CHILD.setItem(item2, getItemAmtInSlot(94, arg1));
+	widget0.setOptionBase("<col=ff9040>" + getItemName(item2) + "</col>");
+	widget0.setContextMenuOption(1, "Remove");
+	str0 = "";
+	if (isMember() == true || isMembersItem(item2) == false) {
+		str0 = (string)m6515((int)item2, 451);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(2, str0);
+		}
+		str0 = (string)m6515((int)item2, 452);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(3, str0);
+		}
+		str0 = (string)m6515((int)item2, 453);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(4, str0);
+		}
+		str0 = (string)m6515((int)item2, 454);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(5, str0);
+		}
+		str0 = (string)m6515((int)item2, 455);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(6, str0);
+		}
+		str0 = (string)m6515((int)item2, 456);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(7, str0);
+		}
+		str0 = (string)m6515((int)item2, 457);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(8, str0);
+		}
+		str0 = (string)m6515((int)item2, 458);
+		if (length(str0) > 0) {
+			widget0.setContextMenuOption(9, str0);
+		}
+		if (item2 == 6707) {
+			if (VARPBIT[4525] == 1 || VARPBIT[4526] == 1) {
+				widget0.setContextMenuOption(3, "Temple");
+				widget0.setContextMenuOption(4, "Surface");
+			}
+			widget0.hookVARP(&script_545(widget0, arg1, getChildId(), getChildId()), 1190);
+		} else {
+			widget0.hookVARP(null);
+		}
+	} else {
+		widget0.hookVARP(null);
+	}
+	widget0.setContextMenuOption(10, "Examine");
+	widget0.hookOptionClick(&script_487(widget0, getChildId(), 100, 0));
+	return;
+}

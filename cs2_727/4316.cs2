@@ -1,0 +1,5 @@
+//script4316(4316)()(void)
+if_setscrollsize(71499782, 0, 0)
+if_setscrollpos(if_gethash(1091, 6), 0, 0)
+script_31(71499781, 71499782, 5666, 5663, 5664, 5665, 5686, 5685)
+return

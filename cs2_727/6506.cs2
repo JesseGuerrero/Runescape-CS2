@@ -1,0 +1,106 @@
+//script6506(6506)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+iVar0 = script_5936(load_varpbit(10860))
+iVar1 = struct_param(2268, iVar0)
+iVar2 = inv_getitem(load_varpbit(10860), 665)
+iVar3 = inv_getnum(load_varpbit(10860), 665)
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = "Discard the prize."
+sVar5 = "You do not have an unclaimed prize to discard"
+if_settext(if_gethash(1253, 264), "Play again")
+instr6213(if_gethash(1253, 258), 1, "Play")
+if_settext(if_gethash(1253, 180), "Claim item")
+instr6213(if_gethash(1253, 177), 1, "Claim")
+sVar0 = "You do not have a prize to claim."
+sVar1 = "You do not have a prize to claim."
+if(load_varpbit(10861) > 0) {
+	if_settext(if_gethash(1253, 245), "Claim later")
+	if_sethide(if_gethash(1253, 225), 1)
+	switch(load_varc(1790)) {
+		case default:
+			break
+		case 2:
+			sVar0 = "Claim your prize to your inventory."
+			sVar1 = "Your inventory doesn't have room for your prize at the moment."
+			break
+		case 4:
+			sVar0 = "Claim your prize to your bank."
+			sVar1 = "Your bank doesn't have room for your prize at the moment."
+			break
+		case 6:
+			sVar0 = "Claim your prize to your money pouch."
+			sVar1 = "Your money pouch doesn't have room for your prize at the moment."
+			break
+		case 7:
+			sVar0 = "The Squeal of Fortune is not available at the moment. Please try later."
+			sVar1 = "The Squeal of Fortune is not available at the moment. Please try later."
+			sVar4 = "The Squeal of Fortune is not available at the moment. Please try later."
+			sVar5 = "The Squeal of Fortune is not available at the moment. Please try later."
+			if_sethide(if_gethash(1253, 225), 0)
+			if_sethide(if_gethash(1253, 178), 0)
+			break
+
+	}
+	switch(load_varc(1790)) {
+		case default:
+			break
+		case 5:
+			if_sethide(if_gethash(1253, 178), 1)
+			break
+
+	}
+	if_sethide(if_gethash(1253, 178), 0)
+	sVar3 = "You must claim or discard your prize before spinning again."
+	if_sethide(if_gethash(1253, 259), 0)
+	script_5910(iVar1)
+	sVar3 = "You must claim or discard your prize before spinning again."
+} else  {
+	if_settext(if_gethash(1253, 245), "Done")
+	if_sethide(if_gethash(1253, 225), 0)
+	if_sethide(if_gethash(1253, 178), 0)
+	if_settext(if_gethash(1253, 162), "")
+	sVar3 = "You do not have any spins left. Please play again tomorrow."
+}
+sVar2 = "Click to play again."
+if(load_varpbit(10862) == 0)
+	if(load_varpbit(11026) == 0)
+		if(load_varc(1800) == 0 || load_varpbit(10861) > 0)
+			if_sethide(if_gethash(1253, 259), 0)
+		else
+			if_sethide(if_gethash(1253, 259), 1)
+if(playermember() == 0) {
+	if_settext(if_gethash(1253, 161), "Members get two spins a day. Subscribe now to claim your extra spin.")
+	if_settext(if_gethash(1253, 264), "Subscribe")
+	sVar2 = "Click to subscribe."
+	instr6213(if_gethash(1253, 258), 1, "Subscribe")
+	if_sethide(if_gethash(1253, 259), 1)
+	if(item_members(iVar2) == 1)
+		if(playermember() == 0) {
+			if_settext(if_gethash(1253, 180), "Subscribe to claim")
+			instr6213(if_gethash(1253, 177), 1, "Subscribe")
+			sVar0 = "Click to subscribe."
+			if_sethide(if_gethash(1253, 178), 1)
+		}
+}
+if_setonmouseover(if_gethash(1253, 177), script_4538, "IIisifdiiiiii", if_gethash(1253, 51), -2147483645, -1, sVar0, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+if_setonmouseover(if_gethash(1253, 178), script_4538, "IIisifdiiiiii", if_gethash(1253, 51), -2147483645, -1, sVar1, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+if_setonmouseover(if_gethash(1253, 258), script_4538, "IIisifdiiiiii", if_gethash(1253, 51), -2147483645, -1, sVar2, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+if_setonmouseover(if_gethash(1253, 259), script_4538, "IIisifdiiiiii", if_gethash(1253, 51), -2147483645, -1, sVar3, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+if_setonmouseover(if_gethash(1253, 224), script_4538, "IIisifdiiiiii", if_gethash(1253, 51), -2147483645, -1, sVar4, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+if_setonmouseover(if_gethash(1253, 225), script_4538, "IIisifdiiiiii", if_gethash(1253, 51), -2147483645, -1, sVar5, 200, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+script_5219(82116659)
+store_varc(1, 0)
+script_1968()
+return

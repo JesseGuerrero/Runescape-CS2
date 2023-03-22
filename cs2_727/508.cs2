@@ -1,0 +1,17 @@
+//script508(508)()(void)
+store_varc(6, 0)
+if(playermodlevel() == 5 || playermodlevel() == 6) {
+	if_settext(if_gethash(594, 83), "Suggest to mute this player for 48 hours")
+	if_settext(if_gethash(594, 10), "Suggest to mute this player for 48 hours")
+	if_settext(if_gethash(594, 60), "Suggest to mute this player for 48 hours")
+} else  {
+	if_settext(if_gethash(594, 83), "Mute this player for 48 hours")
+	if_settext(if_gethash(594, 10), "Mute this player for 48 hours")
+	if_settext(if_gethash(594, 60), "Mute this player for 48 hours")
+}
+store_varc(11, 1)
+instr6507(if_gethash(594, 32), script_218, "Y", 1, 24)
+store_varc(792, -1)
+script_224()
+script_216()
+return

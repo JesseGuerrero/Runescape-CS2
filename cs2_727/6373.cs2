@@ -1,0 +1,11 @@
+//script6373(6373)(int arg0, int arg1)(int, int, int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = modulo(36, client_clock())
+iVar3 = min(max(arg0, arg0 + enum(5924, iVar2, 'i', 'i')), arg0 + 8)
+iVar4 = min(max(arg1, arg1 + enum(5924, iVar2, 'i', 'i')), arg1 + 8)
+iVar5 = min(max(0, enum(5925, iVar2, 'i', 'i')), 255)
+return iVar5, iVar4, iVar3
+return 0, 0, 0

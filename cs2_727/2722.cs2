@@ -1,0 +1,28 @@
+//script2722(2722)(int arg0, int arg1, int arg2)(void)
+if(cc_find(0, arg0) == 1)
+	if(arg1 == 1)
+		cc_setgraphic(8710)
+	else
+		if(arg2 == 1)
+			cc_setgraphic(8711)
+		else
+			cc_setgraphic(8709)
+if(cc_find(1, arg0) == 1)
+	if(arg1 == 1)
+		cc_setgraphic(8704)
+	else
+		if(arg2 == 1)
+			cc_setgraphic(8705)
+		else
+			cc_setgraphic(8703)
+if(cc_find(2, arg0) == 1)
+	if(arg1 == 1)
+		cc_setgraphic(8704)
+	else
+		if(arg2 == 1)
+			cc_setgraphic(8705)
+		else
+			cc_setgraphic(8703)
+if(arg1 == 0)
+	script_383()
+return

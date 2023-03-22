@@ -1,0 +1,4 @@
+void script_1332() {
+	widget(203, 2).setTextAlignment(1, 1, 17);
+	return;
+}

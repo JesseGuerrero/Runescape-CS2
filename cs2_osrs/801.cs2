@@ -1,0 +1,9 @@
+void script_801(int arg0, Container container1, int arg2, int arg3) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	VARPBIT[4440] = 1 - VARPBIT[4440];
+	script_802(container1, arg2, arg3);
+	return;
+}

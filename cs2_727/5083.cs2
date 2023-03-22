@@ -1,0 +1,7 @@
+//script5083(5083)(int arg0, int arg1, int arg2)(void)
+if(client_clock() < arg2)
+	return
+instr6342(arg0, None, "")
+if(arg1 == load_varc(160))
+	script_72(73007131, 73007130, if_getscrolly(73007130))
+return

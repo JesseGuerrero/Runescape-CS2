@@ -1,0 +1,55 @@
+//script6465(6465)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+iVar2 = enum(5960, arg1, 'i', 'I')
+iVar3 = enum(5961, arg1, 'i', 'I')
+if(iVar2 == -1)
+	return
+if_setsize(iVar2, 0, 1, 34, 0)
+cc_create(0, 5, iVar2)
+if(if_gethide(iVar3) == 1)
+	cc_setgraphic(11863)
+else
+	cc_setgraphic(11866)
+cc_setsize(1, 0, 0, 17)
+cc_setposition(0, 0, 0, 1)
+cc_create(1, 5, iVar2)
+if(if_gethide(iVar3) == 1)
+	cc_setgraphic(11864)
+else
+	cc_setgraphic(11867)
+cc_setsize(1, 1, 0, (17 * 2) + 2)
+cc_setposition(0, 1, 0, 0)
+cc_create(2, 5, iVar2)
+if(if_gethide(iVar3) == 1)
+	cc_setgraphic(11865)
+else
+	cc_setgraphic(11868)
+cc_setsize(1, 0, 0, 17)
+cc_setposition(0, 2, 0, 1)
+iVar4 = enum(5959, arg0, 'i', 'g')
+sVar0 = enum(iVar4, arg1, 'i', 's')
+cc_create(3, 4, iVar2)
+cc_settext(sVar0)
+cc_settextfont(4040)
+cc_setcolor(e5b051)
+cc_setsize(1, 0, 0, stringwidth(4040, sVar0) + 20)
+cc_setposition(0, 0, 0, 4)
+cc_settextalign(13, 1, 1)
+cc_create(4, 5, iVar2)
+cc_setsize(0, 0, 19, 12)
+if(if_gethide(iVar3) == 1) {
+	cc_setgraphic(11808)
+	cc_set2dangle(0)
+	cc_setvflip(0)
+} else  {
+	cc_setgraphic(11808)
+	cc_set2dangle(49152)
+	cc_setvflip(1)
+}
+cc_setposition(1, 2, 0, 10)
+hook_mouse_press(iVar2, script_6469, "i", arg1)
+if_sethide(iVar2, 0)
+return

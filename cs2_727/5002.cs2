@@ -1,0 +1,49 @@
+//script5002(5002)(int arg0)(void)
+int iVar1
+int iVar2
+script_4408(arg0)
+cc_deleteall(arg0)
+cc_create(0, 5, arg0)
+cc_setsize(0, 0, 18, 18)
+cc_setposition(1, 1, 0, 0)
+iVar1 = script_4964(arg0)
+iVar2 = 0
+if(clan_vars_enabled() == 1) {
+	iVar2 = script_4949(iVar1)
+	switch(iVar2) {
+		case default:
+			break
+		case 17:
+			cc_setgraphic(7431)
+			break
+		case 18:
+			cc_setgraphic(7430)
+			break
+		case 19:
+			cc_setgraphic(7433)
+			break
+		case 1:
+			cc_setgraphic(7422)
+			break
+		case 2:
+			cc_setgraphic(7423)
+			break
+		case 3:
+			cc_setgraphic(7424)
+			break
+		case 4:
+			cc_setgraphic(7425)
+			break
+		case 5:
+			cc_setgraphic(7426)
+			break
+		case 6:
+			cc_setgraphic(7427)
+			break
+		case 7:
+			cc_setgraphic(7428)
+			break
+
+	}
+}
+return

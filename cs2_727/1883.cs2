@@ -1,0 +1,12 @@
+//script1883(1883)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(int)
+cc_deleteall(arg4)
+if(arg3 == -1) {
+	if_sethide(arg4, 1)
+	return arg0
+}
+script_1885(arg0, arg1, arg3, arg4, arg0)
+if_sethide(arg4, 0)
+hook_mouse_enter(arg4, script_1894, "iiosI", arg0 - arg2, (arg1 + arg2) + arg2, arg3, arg0, arg4)
+hook_mouse_exit(arg4, script_1884, "iiosI", arg0, arg1, arg3, arg0, arg4)
+return (arg0 + arg1) + arg2
+return 0

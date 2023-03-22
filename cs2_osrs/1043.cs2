@@ -1,0 +1,10 @@
+void script_1043(Widget arg0, Widget arg1, int arg2) {
+	if (arg0 != widget(261, 13)) {
+		return;
+	}
+	if (VARPBIT[4606] != 0) {
+		return;
+	}
+	script_1049();
+	return;
+}

@@ -1,0 +1,9 @@
+//script993(993)(int arg0)(int, string)
+if(arg0 == 0)
+	return 0, "Constitution"
+if(arg0 == 1)
+	return 0, "Armour"
+if(arg0 == 2)
+	return 0, "Milestones"
+return -1, ""
+return 0, ""

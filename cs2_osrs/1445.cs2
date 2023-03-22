@@ -1,0 +1,14 @@
+void script_1445(Widget widget0) {
+	int int1;
+	int1 = 0;
+	widget0.clearChildren();
+	while (int1 < 13) {
+		CHILD.createChild(widget0, 5, int1);
+		CHILD.setSize(5, 16, 0, 0);
+		CHILD.setPosition(0, int1 * 20, 0, 0);
+		CHILD.setSprite(937);
+		CHILD.setHidden(true);
+		int1 = int1 + 1;
+	}
+	return;
+}

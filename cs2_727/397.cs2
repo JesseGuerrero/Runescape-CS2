@@ -1,0 +1,8 @@
+//script397(397)()(void)
+if(load_varc(743) == -1)
+	if(load_varp(1109) != -1)
+		if(script_5567(995, load_varp(1111) * load_varp(1110)) == 0)
+			if_setcolor(29425689, 0xFF0000)
+		else
+			if_setcolor(29425689, load_varc(1241))
+return

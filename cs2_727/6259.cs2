@@ -1,0 +1,10 @@
+//script6259(6259)(int arg0)(void)
+if(arg0 == 60489795)
+	if_sethide(if_gethash(923, 2), 0)
+else
+	if(arg0 == 60489800)
+		if_sethide(if_gethash(923, 68), 0)
+	else
+		if(arg0 == 60489805)
+			if_sethide(if_gethash(923, 73), 0)
+return

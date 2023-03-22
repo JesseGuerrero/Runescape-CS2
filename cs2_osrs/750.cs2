@@ -1,0 +1,14 @@
+void script_750(int arg0, DataMap datamap1, string string2) {
+	script_677();
+	widget(162, 32).setIsHidden(true);
+	widget(162, 33).setPosition(0, 0, 0, 0);
+	widget(162, 34).setIsHidden(false);
+	script_31(widget(162, 39), widget(162, 38), 792, 789, 790, 791, 773, 788);
+	VARC[5] = 14;
+	script_222(string2);
+	widget(162, 33).hookKey(&script_112(KEY_TYPED, KEY_PRESSED, string2));
+	script_752(arg0, datamap1);
+	widget(162, 31).hookFrame(&script_751((boolean)arg0, datamap1));
+	widget(162, 33).hookDialogAbort(&script_138());
+	return;
+}

@@ -1,0 +1,29 @@
+void script_1201(Widget widget0, Widget widget1, int arg2, int arg3, Item item4) {
+	int int5;
+	int int6;
+	int int7;
+	Color color8;
+	string str0;
+	int5 = getItemAmtInContainer(173, item4);
+	if (int5 > 1000) {
+		int5 = 1000;
+	}
+	_CHILD.setSize(int5 * 16384 / 1000, 0, 2, 1);
+	int6 = 0;
+	int7 = 0;
+	if (int5 <= 500) {
+		int6, int7 = 255, mathMethod4006(0, int5, 0, 500, 255);
+	} else {
+		int6, int7 = mathMethod4006(0, 1000 - int5, 0, 500, 255), 255;
+	}
+	color8 = script_246(int6, int7, 0);
+	CHILD.setRGB(color8);
+	_CHILD.setRGB(color8);
+	str0 = getItemName(item4) + ": " + int5 / 10 + "." + int5 % 10 + "% appreciation";
+	widget0.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(arg3), str0, 25, 512));
+	widget1.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(arg3), str0, 25, 512));
+	widget0.hookMouseExit(&script_40(widget(arg3)));
+	widget1.hookMouseExit(&script_40(widget(arg3)));
+	VARC[2] = 0;
+	return;
+}

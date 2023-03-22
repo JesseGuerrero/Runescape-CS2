@@ -1,0 +1,4 @@
+//script3212(3212)(string arg0)(void)
+arg0 = arg0 + "?cty=" + to_string(playercountry())
+script_2934(1, arg0)
+return

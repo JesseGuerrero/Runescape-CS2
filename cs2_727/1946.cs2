@@ -1,0 +1,88 @@
+//script1946(1946)()(void)
+int iVar0
+string sVar0
+iVar0 = 0
+sVar0 = ""
+hook_mouse_exit(if_gethash(810, 10), script_40, "I", if_gethash(810, 5))
+if(load_varc(589) == 99999992) {
+	if_settext(if_gethash(810, 81), "You abandon the game!")
+	if_settext(if_gethash(810, 17), "You abandon the game." + "<br>" + "<br>" + "The mystics don't seem happy and scowl at you, muttering unpleasant sentiments under their breath." + "<br>" + "<br>" + "You notice that you received no score as a result.")
+	if_settext(if_gethash(810, 58), "-100%")
+	if_settext(if_gethash(810, 32), "")
+	if_settext(if_gethash(810, 33), "")
+	sVar0 = "The awards tab is not available when you leave a game early."
+	if_setonmouseover(if_gethash(810, 10), script_38, "IIsii", if_gethash(810, 10), if_gethash(810, 5), sVar0, 25, 189)
+} else  {
+	if(load_varc(588) == 1) {
+		if_settext(if_gethash(810, 32), to_string(load_varc(597)))
+		if_settext(if_gethash(810, 33), to_string(load_varc(598)))
+	} else  {
+		if_settext(if_gethash(810, 32), to_string(load_varc(598)))
+		if_settext(if_gethash(810, 33), to_string(load_varc(597)))
+	}
+	if(load_varc(588) == load_varc(589)) {
+		if_settext(if_gethash(810, 81), "Your valiant team takes the victory!")
+		if(iVar0 == 1)
+			if_settext(if_gethash(810, 17), "With the heroic conquest of all resources and facilities, your team have ripped success from the feeble fingers of your unworthy foes." + "<br>" + "<br>" + "The mystics stand in awe of your power, and you hear them praising you in excited whispers." + "<br>" + "<br>" + "You notice that they have increased your score as a reward.")
+		else
+			if_settext(if_gethash(810, 17), "The heroic, skilful and brave deeds of your team have ripped success from the feeble fingers of your unworthy foes." + "<br>" + "<br>" + "The mystics stand in awe of your power, and you hear them praising you in excited whispers." + "<br>" + "<br>" + "You notice that they have increased your score as a reward.")
+		if_settext(if_gethash(810, 58), "+10%")
+	} else 
+		if(load_varc(589) == 0) {
+			if_settext(if_gethash(810, 81), "The game was a draw!")
+			if_settext(if_gethash(810, 17), "As if ordained by fate, the teams were equally brave and skillful, resulting in a draw." + "<br>" + "<br>" + "The mystics nod knowingly, and you hear them discussing how the balance of the universe is reflected beautifully in the conflict's outcome." + "<br>" + "<br>")
+			if_settext(if_gethash(810, 58), "+0%")
+		} else  {
+			if_settext(if_gethash(810, 81), "The enemy team has defeated you!")
+			if(iVar0 == 1)
+				if_settext(if_gethash(810, 17), "Despite your best efforts, your team was beaten; the victory snatched away as the enemy took control of all resources and facilities." + "<br>" + "<br>" + "The mystics frown at you, and shake their heads sadly." + "<br>" + "<br>" + "You hear them arguing over whether they overestimated you, or if you were just unlucky.")
+			if_settext(if_gethash(810, 17), "Despite your best efforts, your team was beaten; the victory snatched away by your fearsome foes." + "<br>" + "<br>" + "The mystics frown at you, and shake their heads sadly." + "<br>" + "<br>" + "You hear them arguing over whether they overestimated you, or if you were just unlucky.")
+			if_settext(if_gethash(810, 58), "+0%")
+		}
+}
+if_settext(if_gethash(810, 59), to_string(load_varc(590)))
+if_settext(if_gethash(810, 59), to_string(load_varc(590)))
+if_settext(if_gethash(810, 60), to_string(load_varc(591)))
+if_settext(if_gethash(810, 61), to_string(load_varc(592)))
+if_settext(if_gethash(810, 62), to_string(load_varc(593)))
+if_settext(if_gethash(810, 23), to_string(load_varc(594)))
+if_settext(if_gethash(810, 25), to_string(load_varc(595)))
+if(load_varc(589) != 99999992)
+	if_settext(if_gethash(810, 63), to_string(load_varc(596)))
+else
+	if_settext(if_gethash(810, 63), to_string(0))
+if(load_varc(600) > 0 || load_varc(603) > 0) {
+	if_settext(if_gethash(810, 136), to_string(load_varc(599)))
+	if_settext(if_gethash(810, 135), to_string(load_varc(600)))
+	if_settext(if_gethash(810, 139), to_string(load_varc(601)))
+	if_settext(if_gethash(810, 140), to_string(load_varc(602)))
+	if_settext(if_gethash(810, 138), to_string(load_varc(603)))
+	if_settext(if_gethash(810, 137), to_string(load_varc(604)))
+	if_settext(if_gethash(810, 141), to_string(load_varc(605)))
+	if_settext(if_gethash(810, 142), to_string(load_varc(606)))
+	script_1587(53084278, 53084303, 495, load_varc_string(44))
+	script_1587(53084277, 53084303, 495, load_varc_string(45))
+	script_1587(53084281, 53084303, 495, load_varc_string(46))
+	script_1587(53084282, 53084303, 495, load_varc_string(47))
+	script_1587(53084280, 53084303, 495, load_varc_string(48))
+	script_1587(53084279, 53084303, 495, load_varc_string(49))
+	script_1587(53084283, 53084303, 495, load_varc_string(50))
+	script_1587(53084284, 53084303, 495, load_varc_string(51))
+	if(load_varc(607) > 0)
+		if_settext(if_gethash(810, 127), to_string(load_varc(607)))
+	if(load_varc(608) > 0)
+		if_settext(if_gethash(810, 126), to_string(load_varc(608)))
+	if(load_varc(609) > 0)
+		if_settext(if_gethash(810, 130), to_string(load_varc(609)))
+	if(load_varc(610) > 0)
+		if_settext(if_gethash(810, 131), to_string(load_varc(610)))
+	if(load_varc(611) > 0)
+		if_settext(if_gethash(810, 129), to_string(load_varc(611)))
+	if(load_varc(612) > 0)
+		if_settext(if_gethash(810, 128), to_string(load_varc(612)))
+	if(load_varc(613) > 0)
+		if_settext(if_gethash(810, 132), to_string(load_varc(613)))
+	if(load_varc(614) > 0)
+		if_settext(if_gethash(810, 133), to_string(load_varc(614)))
+}
+return

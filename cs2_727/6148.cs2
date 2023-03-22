@@ -1,0 +1,12 @@
+//script6148(6148)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if(load_varc(1903) >= 3) {
+	instr6255(arg0, None, "")
+	return
+}
+if(arg5 < instr6652(0) - 2) {
+	arg5 = arg5 + 1
+	instr6677(0, 1, arg4, arg4, arg5, 0)
+	instr6255(arg0, script_6148, "Iiiiii", arg0, arg1, arg2, arg3, arg4, arg5)
+} else 
+	script_6147(arg0, arg1, arg2, arg4, arg3)
+return

@@ -1,0 +1,45 @@
+//script432(432)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = -1
+iVar3 = 67108949
+switch(arg0) {
+	case default:
+		return
+
+	case 67108929:
+		if(load_varc(1388) == 1)
+			iVar2 = 293
+		else
+			iVar2 = script_488(load_varpbit(7539))
+		break
+	case 67108912:
+		if(load_varc(1388) == 1)
+			iVar2 = 300
+		else
+			iVar2 = script_488(load_varpbit(7540))
+		break
+	case 67108895:
+		if(load_varc(1388) == 1)
+			iVar2 = 305
+		else
+			iVar2 = script_488(load_varpbit(7541))
+		break
+	case 67108878:
+		if(load_varc(1388) == 1)
+			iVar2 = 1044
+		else
+			iVar2 = script_488(load_varpbit(7542))
+		break
+
+}
+if(iVar2 != -1) {
+	if_settext(if_gethash(1024, 92), struct_param(1150, iVar2))
+	if_settext(if_gethash(1024, 93), struct_param(1151, iVar2))
+	if_settext(if_gethash(1024, 94), "Cost: " + to_string(struct_param(1154, iVar2)))
+	if_settext(if_gethash(1024, 95), "Cooldown: " + to_string(struct_param(1155, iVar2)))
+	if_setposition(iVar3, 0, 0, arg1, if_getx(iVar3))
+	if_sethide(iVar3, 0)
+} else 
+	if_sethide(iVar3, 1)
+return

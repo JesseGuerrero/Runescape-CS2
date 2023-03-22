@@ -1,0 +1,9 @@
+//script1861(1861)()(void)
+if_setmodel(if_gethash(799, 10), enum(1318, load_varpbit(5470), 'i', 'm'))
+if_setmodel(if_gethash(799, 11), enum(1318, load_varpbit(5471), 'i', 'm'))
+if_setmodel(if_gethash(799, 12), enum(1318, load_varpbit(5472), 'i', 'm'))
+if_setmodel(if_gethash(799, 13), enum(1318, load_varpbit(5473), 'i', 'm'))
+if_setmodel(if_gethash(799, 14), enum(1318, load_varpbit(5474), 'i', 'm'))
+if_setmodel(if_gethash(799, 15), enum(1318, load_varpbit(5475), 'i', 'm'))
+if_setmodel(if_gethash(799, 16), enum(1318, load_varpbit(5476), 'i', 'm'))
+return

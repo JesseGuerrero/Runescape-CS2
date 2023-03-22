@@ -1,0 +1,18 @@
+//script156(156)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6, string arg7, string arg8, string arg9, string arg10, string arg11, string arg12, string arg13, string arg14)(void)
+int iVar6
+if(arg2 == -1) {
+	script_154(arg0, arg1, arg3, arg1, arg4, arg5, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+	return
+}
+iVar6 = arg1
+while(iVar6 != arg2)
+	if(iVar6 > arg2) {
+		script_154(arg0, iVar6 - 1, arg3, iVar6, arg4, arg5, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+		iVar6 = iVar6 - 1
+	} else 
+		if(iVar6 < arg2) {
+			script_154(arg0, iVar6 + 1, arg3, iVar6, arg4, arg5, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+			iVar6 = iVar6 + 1
+		}
+script_154(arg0, arg1, arg3, arg2, arg4, arg5, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+return

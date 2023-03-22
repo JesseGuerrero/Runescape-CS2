@@ -1,0 +1,93 @@
+//script673(673)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9)(void)
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+iVar10 = enum(1083, arg0, 'i', 'I')
+cc_deleteall(iVar10)
+iVar11 = if_getwidth(iVar10)
+iVar12 = if_getheight(iVar10)
+sVar0 = ""
+if(arg7 == 1)
+	sVar0 = "Empty"
+else
+	if(arg1 == 0)
+		sVar0 = "Buy"
+	else
+		sVar0 = "Sell"
+cc_create(0, 3, iVar10)
+cc_setsize(0, 0, iVar12, iVar11)
+cc_setposition(0, 0, 0, 0)
+cc_setfill(1)
+cc_setcolor(ffffff)
+cc_settrans(255)
+script_584(iVar10, sVar0)
+iVar13 = if_getnextsubid(iVar10)
+if(arg7 == 1)
+	if(arg0 < 2 || playermember() == 1)
+		if(arg9 == arg0)
+			if(cc_find(0, iVar10) == 1)
+				cc_settrans(230)
+	else
+		if_sethide(enum(1085, arg0, 'i', 'I'), 0)
+sVar1 = script_46(arg2, ",")
+sVar2 = script_46(arg6, ",")
+iVar14 = 0
+iVar15 = 0
+iVar16 = enum(1084, arg0, 'i', 'I')
+if_sethide(iVar16, 1)
+sVar3 = ""
+if(arg7 == 1)
+	if(arg0 < 2 || playermember() == 1)
+		if(arg0 == arg9)
+			if_sethide(iVar16, 0)
+		else {
+			cc_create(iVar13, 5, iVar10)
+			cc_setgraphic(1155)
+			cc_setsize(0, 0, 14, 16)
+			cc_setposition(0, 0, 29, 5)
+			iVar13 = iVar13 + 1
+		}
+else {
+	iVar14 = 7
+	iVar15 = iVar12 - 30
+	script_674(iVar14, iVar15, iVar11 - 14, 15, arg0, iVar10, iVar13, 1, arg7, arg8, arg2, arg3)
+	iVar13 = if_getnextsubid(iVar10)
+	cc_create(iVar13, 5, iVar10)
+	iVar13 = iVar13 + 1
+	cc_setposition(0, 0, 30, 6)
+	cc_setsize(0, 0, 36, 40)
+	cc_setgraphic(1137)
+	cc_create(iVar13, 5, iVar10)
+	cc_setposition(0, 0, 32, 8)
+	cc_setsize(0, 0, 32, 36)
+	cc_setitem(arg2, arg5)
+	cc_setgraphicshadow(0)
+	iVar13 = iVar13 + 1
+	cc_create(iVar13, 4, iVar10)
+	iVar13 = iVar13 + 1
+	cc_setposition(0, 0, 30, 48)
+	cc_setsize(0, 0, 22, iVar11 - 53)
+	cc_setcolor(cc9900)
+	cc_settextfont(494)
+	cc_settextalign(0, 0, 0)
+	cc_settextshadow(1)
+	cc_settext(item_name(arg5))
+	cc_create(iVar13, 4, iVar10)
+	iVar13 = iVar13 + 1
+	cc_setposition(0, 0, 54, 48)
+	cc_setsize(0, 0, 15, iVar11 - 53)
+	cc_setcolor(bdbb5b)
+	cc_settextfont(494)
+	cc_settextalign(15, 0, 0)
+	cc_settextshadow(1)
+	cc_settext(sVar2 + " gp")
+}
+return

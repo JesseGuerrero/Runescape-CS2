@@ -1,0 +1,16 @@
+//script6055(6055)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = if_getwidth(arg0)
+iVar3 = 0
+if(arg1 == 0) {
+	iVar3 = min(iVar2 + 12, 223)
+	if(iVar3 == 223)
+		instr6342(arg0, None, "")
+} else  {
+	iVar3 = max(iVar2 - 12, 5)
+	if(iVar3 == 5)
+		instr6342(arg0, None, "")
+}
+if_setsize(arg0, 0, 0, if_getheight(arg0), iVar3)
+return

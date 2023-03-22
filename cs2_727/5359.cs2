@@ -1,0 +1,141 @@
+//script5359(5359)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 4
+iVar9 = struct_param(1935, arg2)
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = ""
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+if(arg3 == 1)
+	if(struct_param(1937, arg2) != 2)
+		if(cc_find(arg1, arg0) == 1) {
+			iVar4 = cc_getx()
+			iVar5 = cc_gety()
+			iVar6 = cc_getwidth()
+			iVar4 = iVar4 + iVar6
+			iVar5 = iVar5 + iVar8
+			iVar15 = if_getscrolly(74907653)
+			if(iVar5 - iVar15 <= 0) {
+				iVar16 = 2
+				iVar5 = iVar15
+			}
+			if_setposition(if_gethash(1143, 79), 0, 0, iVar5, iVar4)
+			if_settext(if_gethash(1143, 114), struct_param(1931, arg2))
+			if(struct_param(1937, arg2) == 1) {
+				iVar10 = item_param(1430, iVar9) / 100
+				sVar0 = "Duration: " + to_string(iVar10) + " mins."
+				iVar11 = item_param(1429, iVar9) / 100
+				sVar1 = "Recharge: " + to_string(iVar11) + " mins."
+				if(iVar10 > 60) {
+					iVar12 = modulo(60, iVar10)
+					iVar10 = iVar10 / 60
+					if(iVar12 > 0)
+						if(iVar10 > 1)
+							sVar0 = "Duration: " + to_string(iVar10) + " hours, " + to_string(iVar12) + " mins."
+						else
+							sVar0 = "Duration: 1 hour, " + to_string(iVar12) + " mins."
+					else
+						if(iVar10 > 1)
+							sVar0 = "Duration: " + to_string(iVar10) + " hours."
+						else
+							sVar0 = "Duration: 1 hour."
+				}
+				if(iVar11 > 60) {
+					iVar12 = modulo(60, iVar11)
+					iVar11 = iVar11 / 60
+					if(iVar12 > 0)
+						if(iVar11 > 1)
+							sVar1 = "Recharge: " + to_string(iVar11) + " hours, " + to_string(iVar12) + " mins."
+						else
+							sVar1 = "Recharge: 1 hour, " + to_string(iVar12) + " mins."
+					else
+						if(iVar11 > 1)
+							sVar1 = "Recharge: " + to_string(iVar11) + " hours."
+						else
+							sVar1 = "Recharge: 1 hour."
+				}
+				sVar2 = "<br>" + "<br>" + sVar0 + "<br>" + sVar1
+				if_settext(if_gethash(1143, 114), append(sVar2, if_gettext(if_gethash(1143, 114))))
+			} else 
+				if(struct_param(1937, arg2) == 4) {
+					if(iVar13 < enum_getoutputcount(5184))
+						while(iVar14 == 0) {
+							if(enum(5184, iVar13, 'i', 'J') == arg2) {
+								sVar4 = enum(5187, iVar13, 'i', 's')
+								sVar3 = enum(5186, iVar13, 'i', 's')
+								iVar14 = 1
+							}
+							iVar13 = iVar13 + 1
+						}
+					sVar3 = append(sVar3, "Male Title: ")
+					sVar4 = append(sVar4, "Female Title: ")
+					if_settext(if_gethash(1143, 114), sVar3 + "<br>" + sVar4)
+				}
+			iVar7 = paramheight(if_gettext(if_gethash(1143, 114)), instr6289(if_gethash(1143, 114)), if_getwidth(if_gethash(1143, 114)))
+			iVar7 = (iVar7 * 13) + (iVar8 * 2)
+			if_setsize(if_gethash(1143, 79), 0, 0, iVar7, if_getwidth(if_gethash(1143, 79)))
+			if_sethide(if_gethash(1143, 79), 0)
+			if((iVar5 - iVar15) + iVar7 > if_getheight(if_gethash(1143, 5))) {
+				iVar5 = iVar15 + (if_getheight(if_gethash(1143, 5)) - iVar7)
+				if_setposition(if_gethash(1143, 79), 0, 0, iVar5, iVar4)
+				iVar16 = 1
+			}
+			if(if_getwidth(if_gethash(1143, 79)) + if_getx(if_gethash(1143, 79)) > if_getwidth(if_gethash(1143, 5))) {
+				iVar4 = (cc_getx() - if_getwidth(if_gethash(1143, 79))) + 2
+				if_setposition(if_gethash(1143, 79), 0, 0, iVar5, iVar4)
+				if_setposition(if_gethash(1143, 32), 0, 2, if_gety(if_gethash(1143, 32)), 12)
+				if_setposition(if_gethash(1143, 111), 0, 2, if_gety(if_gethash(1143, 111)), 10)
+				if_setposition(if_gethash(1143, 112), 0, 2, if_gety(if_gethash(1143, 112)), 11)
+				if_setposition(if_gethash(1143, 114), 0, 2, if_gety(if_gethash(1143, 114)), 14)
+				if_setposition(if_gethash(1143, 113), 0, 2, 10, 0)
+				if_sethflip(if_gethash(1143, 113), 1)
+			} else  {
+				if_setposition(if_gethash(1143, 32), 0, 0, if_gety(if_gethash(1143, 32)), 12)
+				if_setposition(if_gethash(1143, 111), 0, 0, if_gety(if_gethash(1143, 111)), 10)
+				if_setposition(if_gethash(1143, 112), 0, 0, if_gety(if_gethash(1143, 112)), 11)
+				if_setposition(if_gethash(1143, 114), 0, 0, if_gety(if_gethash(1143, 114)), 14)
+				if_setposition(if_gethash(1143, 113), 0, 0, 10, 0)
+				if_sethflip(if_gethash(1143, 113), 0)
+			}
+			if(if_getheight(if_gethash(1143, 79)) < if_getheight(if_gethash(1143, 113)) + 40)
+				if_setposition(if_gethash(1143, 113), 1, 0, 0, if_getx(if_gethash(1143, 113)))
+			else
+				if_setposition(if_gethash(1143, 113), 0, 0, 10, if_getx(if_gethash(1143, 113)))
+			if(iVar16 > 0)
+				if(iVar16 == 1)
+					if_setposition(if_gethash(1143, 113), 2, 0, 0, if_getx(if_gethash(1143, 113)))
+				else
+					if_setposition(if_gethash(1143, 113), 0, 0, 0, if_getx(if_gethash(1143, 113)))
+			return
+		}
+if_sethide(if_gethash(1143, 79), 1)
+return

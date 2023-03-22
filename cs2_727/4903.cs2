@@ -1,0 +1,10 @@
+//script4903(4903)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = load_varc(1800)
+iVar1 = max(load_varc(1970), 0)
+iVar2 = max((iVar0 + load_varpbit(10862)) + load_varpbit(11026), 0)
+if_settext(if_gethash(1139, 6), to_string(iVar2))
+if_settext(if_gethash(1139, 13), to_string(iVar1))
+return

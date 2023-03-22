@@ -1,0 +1,7 @@
+//script3135(3135)(int arg0)(void)
+if(load_varc(998) == arg0 || load_varc(999) == arg0)
+	script_3139(arg0)
+else
+	script_3137(arg0)
+return
+return

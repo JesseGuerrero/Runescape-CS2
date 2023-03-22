@@ -1,0 +1,37 @@
+void script_1179(string string0) {
+	int int0;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	str1 = "";
+	str2 = "";
+	str3 = "";
+	str4 = "";
+	str1, string0 = script_632(string0);
+	str2, string0 = script_632(string0);
+	str3, string0 = script_632(string0);
+	str4, string0 = script_632(string0);
+	widget(522, 20).setText(str1);
+	widget(522, 22).setText(str2);
+	widget(522, 24).setText(str3);
+	widget(522, 26).setText(str4);
+	int0 = getLineCount(str1, widget(522, 20).getWidth(), 495) * 12;
+	if (int0 > widget(522, 18).getHeight()) {
+		widget(522, 19).setScrollMax(0, int0);
+	}
+	int0 = getLineCount(str2, widget(522, 22).getWidth(), 495) * 12;
+	if (int0 > widget(522, 18).getHeight()) {
+		widget(522, 21).setScrollMax(0, int0);
+	}
+	int0 = getLineCount(str3, widget(522, 24).getWidth(), 495) * 12;
+	if (int0 > widget(522, 18).getHeight()) {
+		widget(522, 23).setScrollMax(0, int0);
+	}
+	int0 = getLineCount(str4, widget(522, 26).getWidth(), 495) * 12;
+	if (int0 > widget(522, 18).getHeight()) {
+		widget(522, 25).setScrollMax(0, int0);
+	}
+	script_1181(34209797);
+	return;
+}

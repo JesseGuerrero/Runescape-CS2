@@ -1,0 +1,28 @@
+//script202(202)(int arg0, int arg1, string arg2, string arg3)(void)
+switch(arg0) {
+	case default:
+		break
+	case 5:
+		if(friend_test(arg1) == 1) {
+			store_varc(1650, 1)
+			store_varc_string(23, arg0)
+			script_1558(0)
+			return
+		} else 
+			friend_add(arg0)
+		break
+	case 6:
+		ignore_add(arg0)
+		break
+	case 7:
+		friend_del(arg0)
+		break
+	case 8:
+		ignore_del(arg0)
+		break
+	case 9:
+		script_1633(arg0)
+		break
+
+}
+return

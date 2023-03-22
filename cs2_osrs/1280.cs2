@@ -1,0 +1,43 @@
+void script_1280() {
+	int int0;
+	int int1;
+	int int2;
+	Item item3;
+	widget(226, 16).clearChildren();
+	int0 = 0;
+	int1 = 0;
+	int2 = 0;
+	item3 = null;
+	if (VARC[139] != 0) {
+		int0 = getItemContainerLength(554);
+		while (int1 < int0) {
+			CHILD.createChild(widget(226, 16), 5, int1);
+			item3 = getItemIdInSlot(554, int1);
+			if (item3 != null) {
+				CHILD.setSize(36, 32, 0, 0);
+				CHILD.setPosition(int2 % 7 * 39, int2 / 7 * 38, 0, 0);
+				CHILD.setItem(item3, getItemAmtInSlot(554, int1));
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item3));
+				CHILD.setContextMenuOption(1, "Examine");
+				CHILD.setShadowColor(0x333333);
+				CHILD.setOutlineThickness(1);
+				int2 = int2 + 1;
+			} else {
+				CHILD.setHidden(true);
+			}
+			int1 = int1 + 1;
+		}
+	}
+	if (int2 == 0) {
+		CHILD.createChild(widget(226, 16), 4, int2);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 0, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(0, 0, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText("None.");
+	}
+	widget(226, 16).setSize(0, ((int2 - 1) / 7 + 1) * 38, 1, 0);
+	return;
+}

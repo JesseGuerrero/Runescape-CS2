@@ -1,0 +1,4 @@
+//script3722(3722)(int arg0, int arg1, int arg2)(void)
+if(load_varp(851) != -1)
+	script_1163(arg0, arg1, arg2, 0, 180, item_name(load_varp(851)))
+return

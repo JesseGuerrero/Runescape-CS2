@@ -1,0 +1,42 @@
+//script2848(2848)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+iVar6 = 0
+iVar7 = 0
+if(arg2 != -1)
+	if(arg3 == -1)
+		if(instr6004(arg2) == 1)
+			if(arg2 == 31064075) {
+				iVar6 = arg4
+				iVar7 = arg5
+				if(cc_find(arg1, arg0) == 1)
+					cc_setposition(0, 0, enum(906, arg1, 'i', 'i'), enum(905, arg1, 'i', 'i'))
+			}
+	else {
+		if(arg3 < 9)
+			return
+		if(script_2849(arg3 - 9) == 0) {
+			if(cc_find(arg3, arg2) == 1) {
+				iVar6 = cc_getx()
+				iVar7 = cc_gety()
+			}
+			if(cc_find(arg1, arg0) == 1) {
+				switch(random_inclusive(2)) {
+					case default:
+						break
+					case 0:
+						sound_synth(0, 1, 8502)
+						break
+					case 1:
+						sound_synth(0, 1, 8518)
+						break
+					case 2:
+						sound_synth(0, 1, 8515)
+						break
+
+				}
+				cc_setposition(0, 0, iVar7, iVar6)
+			}
+		}
+	}
+return

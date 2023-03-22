@@ -1,0 +1,10 @@
+//script4761(4761)(int arg0)(int)
+if(load_varc(1) < client_clock() + arg0) {
+	if(load_varc(1) < client_clock())
+		store_varc(1, client_clock())
+	store_varc(1, load_varc(1) + 2)
+	return 0
+}
+store_varc(1, (client_clock() + arg0) + 10)
+return 1
+return -1

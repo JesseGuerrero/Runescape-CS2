@@ -1,0 +1,100 @@
+void script_689(Widget widget0, Widget widget1, Widget widget2) {
+	widget2.clearChildren();
+	if (VARPBIT[1775] > 0) {
+		widget2.setIsHidden(false);
+		_ = script_249(widget2, 0);
+		widget1.setPosition(0, 0, 0, 0);
+	} else {
+		widget2.setIsHidden(true);
+		widget1.setPosition(0, (widget0.getHeight() - widget1.getHeight()) / 2, 0, 0);
+	}
+	if (VARPBIT[1777] == 2) {
+		widget(215, 25).setSprite(699);
+		widget(215, 17).setSprite(697);
+		widget(215, 21).setSprite(697);
+		widget(215, 29).setSprite(697);
+		if (VARPBIT[1776] == 1) {
+			widget(215, 34).setText("<col=ffffff>" + "Selected" + "</col>" + " - PIN.");
+		} else {
+			widget(215, 34).setText("<col=ffffff>" + "Selected" + "</col>" + " - Permanent.");
+		}
+		widget(215, 35).hookOptionClick(&script_1484(CTX_MENU_OPTION));
+		widget(215, 23).hookOptionClick(null);
+		if (VARP[281] < 1000) {
+			widget(215, 15).hookOptionClick(&script_691(CTX_MENU_OPTION, 1, widget0, widget1, widget2));
+			widget(215, 19).hookOptionClick(&script_691(CTX_MENU_OPTION, 3, widget0, widget1, widget2));
+			widget(215, 27).hookOptionClick(&script_691(CTX_MENU_OPTION, 0, widget0, widget1, widget2));
+		} else {
+			widget(215, 15).hookOptionClick(null);
+			widget(215, 19).hookOptionClick(null);
+			widget(215, 27).hookOptionClick(null);
+		}
+		script_690();
+	} else if (VARPBIT[1777] == 1) {
+		widget(215, 25).setSprite(697);
+		widget(215, 17).setSprite(699);
+		widget(215, 21).setSprite(697);
+		widget(215, 29).setSprite(697);
+		if (VARPBIT[1776] == 1) {
+			widget(215, 34).setText("<col=ffffff>" + "Selected" + "</col>" + " - PIN.");
+		} else {
+			widget(215, 34).setText("<col=ffffff>" + "Selected" + "</col>" + " - Permanent.");
+		}
+		widget(215, 35).hookOptionClick(&script_1484(CTX_MENU_OPTION));
+		widget(215, 15).hookOptionClick(null);
+		if (VARP[281] < 1000) {
+			widget(215, 23).hookOptionClick(&script_691(CTX_MENU_OPTION, 2, widget0, widget1, widget2));
+			widget(215, 19).hookOptionClick(&script_691(CTX_MENU_OPTION, 3, widget0, widget1, widget2));
+			widget(215, 27).hookOptionClick(&script_691(CTX_MENU_OPTION, 0, widget0, widget1, widget2));
+		} else {
+			widget(215, 23).hookOptionClick(null);
+			widget(215, 19).hookOptionClick(null);
+			widget(215, 27).hookOptionClick(null);
+		}
+		script_690();
+	} else if (VARPBIT[1777] == 3) {
+		widget(215, 25).setSprite(697);
+		widget(215, 17).setSprite(697);
+		widget(215, 21).setSprite(699);
+		widget(215, 29).setSprite(697);
+		if (VARPBIT[1776] == 1) {
+			widget(215, 34).setText("<col=ffffff>" + "Selected" + "</col>" + " - PIN.");
+		} else {
+			widget(215, 34).setText("<col=ffffff>" + "Selected" + "</col>" + " - Permanent.");
+		}
+		widget(215, 35).hookOptionClick(&script_1484(CTX_MENU_OPTION));
+		widget(215, 19).hookOptionClick(null);
+		if (VARP[281] < 1000) {
+			widget(215, 23).hookOptionClick(&script_691(CTX_MENU_OPTION, 2, widget0, widget1, widget2));
+			widget(215, 15).hookOptionClick(&script_691(CTX_MENU_OPTION, 1, widget0, widget1, widget2));
+			widget(215, 27).hookOptionClick(&script_691(CTX_MENU_OPTION, 0, widget0, widget1, widget2));
+		} else {
+			widget(215, 23).hookOptionClick(null);
+			widget(215, 15).hookOptionClick(null);
+			widget(215, 27).hookOptionClick(null);
+		}
+		script_690();
+	} else {
+		widget(215, 25).setSprite(697);
+		widget(215, 17).setSprite(697);
+		widget(215, 21).setSprite(697);
+		widget(215, 29).setSprite(699);
+		widget(215, 34).setText("<col=ffffff>" + "Selected" + "</col>" + " - None.");
+		widget(215, 35).hookOptionClick(null);
+		if (VARP[281] < 1000) {
+			widget(215, 23).hookOptionClick(&script_691(CTX_MENU_OPTION, 2, widget0, widget1, widget2));
+			widget(215, 19).hookOptionClick(&script_691(CTX_MENU_OPTION, 3, widget0, widget1, widget2));
+			widget(215, 15).hookOptionClick(&script_691(CTX_MENU_OPTION, 1, widget0, widget1, widget2));
+		} else {
+			widget(215, 23).hookOptionClick(null);
+			widget(215, 15).hookOptionClick(null);
+			widget(215, 21).hookOptionClick(null);
+		}
+		widget(215, 27).hookOptionClick(null);
+		widget(215, 59).setSprite(698);
+		widget(215, 55).setSprite(698);
+		widget(215, 57).hookOptionClick(null);
+		widget(215, 53).hookOptionClick(null);
+	}
+	return;
+}

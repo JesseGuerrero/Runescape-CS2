@@ -1,0 +1,8 @@
+//script6119(6119)(int arg0, int arg1, int arg2, int arg3)(void)
+arg3 = arg3 + 1
+if(arg3 > arg2) {
+	if_settrans(arg0, arg1)
+	instr6342(arg0, None, "")
+} else 
+	instr6342(arg0, script_6119, "Iiii", -2147483645, arg1, arg2, arg3)
+return

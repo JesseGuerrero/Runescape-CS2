@@ -1,0 +1,5 @@
+//script2932(2932)(int arg0, string arg1, string arg2)(void)
+if(compare("", arg0) != 0)
+	if(compare("", arg1) != 0)
+		instr6655("loginapplet/loginapplet.ws?ssl=1&expired=0&mod=" + arg0 + "&dest=" + arg1, arg0)
+return

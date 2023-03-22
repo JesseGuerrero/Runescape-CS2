@@ -1,0 +1,8 @@
+//script1802(1802)()(void)
+if_sethide(if_gethash(791, 143), 1)
+if_sethide(if_gethash(791, 146), 1)
+if_sethide(if_gethash(791, 144), 0)
+if_sethide(if_gethash(791, 147), 0)
+if_sethide(if_gethash(791, 145), 0)
+if_sethide(if_gethash(791, 148), 0)
+return

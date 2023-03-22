@@ -1,0 +1,56 @@
+//script2(2)(int arg0)(int, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 1, "Rooms"
+
+	case 1:
+		return 1, "Skills"
+
+	case 2:
+		return 1, "Surfaces"
+
+	case 3:
+		return 1, "Storage"
+
+	case 4:
+		return 1, "Decorative"
+
+	case 5:
+		return 1, "Trophies"
+
+	case 6:
+		return 1, "Games & Sport"
+
+	case 7:
+		return 1, "Garden"
+
+	case 8:
+		return 1, "Dungeon"
+
+	case 9:
+		return 1, "Chapel"
+
+	case 10:
+		return 1, "Other"
+
+	case 11:
+		return 1, "Menagerie"
+
+	case 12:
+		return 1, "Servants"
+
+	case 13:
+		return 1, "Minigames"
+
+	case 14:
+		return 1, "Dungeoneering"
+
+	case 15:
+		return 1, "Milestones"
+		return -1, ""
+
+
+}
+return 0, ""

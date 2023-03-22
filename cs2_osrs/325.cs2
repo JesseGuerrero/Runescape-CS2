@@ -1,0 +1,10 @@
+void script_325() {
+	if (VARP[172] == 0) {
+		widget(593, 27).setSprite(656);
+		widget(593, 28).setText("Auto Retaliate" + "<br>" + "(On)");
+	} else {
+		widget(593, 27).setSprite(655);
+		widget(593, 28).setText("Auto Retaliate" + "<br>" + "(Off)");
+	}
+	return;
+}

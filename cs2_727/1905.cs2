@@ -1,0 +1,16 @@
+//script1905(1905)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = if_getheight(arg0)
+iVar3 = if_getscrollheight(arg0)
+iVar4 = iVar3 - iVar2
+if(iVar4 < 0)
+	iVar4 = 0
+iVar5 = if_getscrolly(arg0)
+if(iVar5 > iVar4)
+	iVar5 = iVar4
+script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+script_72(arg1, arg0, iVar5)
+return

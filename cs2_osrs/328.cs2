@@ -1,0 +1,6 @@
+void script_328(Widget widget0, Widget widget1, Widget widget2, int arg3, int arg4, int arg5, int arg6, int arg7) {
+	widget1.setText("You may spend points to " + "<col=ffffff>" + "Cancel" + "</col>" + " or " + "<col=ffffff>" + "Block" + "</col>" + " your current task." + "<br>" + "If you " + "<col=ffffff>" + "cancel" + "</col>" + " it, you may be assigned that target again in future. " + "<col=ff0000>" + "(" + 30 + " points)" + "</col>" + "<br>" + "If you " + "<col=ffffff>" + "block" + "</col>" + " it, you will not get that assignment again. " + "<col=ff0000>" + "(" + 100 + " points)" + "</col>" + "<br>" + "<col=ffffff>" + "Neither" + "</col>" + " option will reset your current tally of completed Slayer tasks.");
+	script_422(widget0, widget2, arg3, arg4, arg5, arg6, arg7);
+	widget0.hookVARP(&script_421(widget0, widget2, widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7)), 261, 262);
+	return;
+}

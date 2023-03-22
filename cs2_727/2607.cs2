@@ -1,0 +1,4 @@
+//script2607(2607)(int arg0)(void)
+if(cc_find(arg0, if_gethash(88, 5)) == 1)
+	cc_setmodelanim(-1)
+return

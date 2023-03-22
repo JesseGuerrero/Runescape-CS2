@@ -1,0 +1,6 @@
+void script_257(Widget widget0, int arg1, int arg2) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.hookFrame(&script_258(widget0, arg1, arg2, VARPBIT[3949], getClientCycle() + 12));
+	}
+	return;
+}

@@ -1,0 +1,19 @@
+int script_575(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int2 = widget0.getWidth();
+	int3 = widget0.getHeight();
+	CHILD.createChild(widget0, 3, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setSize(int2, int3, 0, 0);
+	CHILD.setRGB(0x777775);
+	CHILD.setFilled(false);
+	CHILD.createChild(widget0, 3, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setPosition(1, 1, 0, 0);
+	CHILD.setSize(int2 - 2, int3 - 2, 0, 0);
+	CHILD.setRGB(0x474745);
+	CHILD.setFilled(false);
+	return arg1;
+}

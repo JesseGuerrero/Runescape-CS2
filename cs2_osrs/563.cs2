@@ -1,0 +1,8 @@
+void script_563(int arg0, int arg1, Model model2) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	script_564(arg1, model2);
+	return;
+}

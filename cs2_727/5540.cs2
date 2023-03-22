@@ -1,0 +1,566 @@
+//script5540(5540)(int arg0, int arg1, int arg2, int arg3)(int)
+int iVar4
+iVar4 = 0
+if(load_varc(1725) == 1) {
+	if(world_members() == 0)
+		if(load_varc(1724) == 7 || load_varc(1724) == 8 || load_varc(1724) == 9 || load_varc(1724) == 10 || load_varc(1724) == 11 || load_varc(1724) == 13)
+			if_settext(if_gethash(1178, 81), "Members Item")
+		else
+			if_settext(if_gethash(1178, 81), item_name(enum(5350, load_varc(1724), 'i', 'o')))
+	switch(arg0) {
+		case default:
+			break
+		case 1:
+			iVar4 = load_varpbit(10259)
+			break
+		case 2:
+			iVar4 = load_varpbit(10260)
+			break
+		case 3:
+			iVar4 = load_varpbit(10247)
+			break
+		case 4:
+			iVar4 = load_varpbit(10261)
+			break
+		case 5:
+			iVar4 = load_varpbit(10244)
+			break
+		case 6:
+			iVar4 = load_varpbit(10262)
+			break
+		case 7:
+			if(world_members() == 0)
+				iVar4 = 0
+			else
+				iVar4 = load_varpbit(10264)
+			break
+		case 8:
+			if(world_members() == 0)
+				iVar4 = 0
+			else
+				iVar4 = load_varpbit(10275)
+			break
+		case 9:
+			if(world_members() == 0)
+				iVar4 = 0
+			else
+				iVar4 = load_varpbit(10278)
+			break
+		case 10:
+			if(world_members() == 0)
+				iVar4 = 0
+			else
+				iVar4 = load_varpbit(10280)
+			break
+		case 11:
+			if(world_members() == 0)
+				iVar4 = 0
+			else
+				iVar4 = load_varpbit(10281)
+			break
+		case 12:
+			iVar4 = load_varpbit(10245)
+			break
+		case 13:
+			if(world_members() == 0)
+				iVar4 = 0
+			else
+				iVar4 = load_varpbit(10283)
+			iVar4 = -1
+			break
+
+	}
+	if(iVar4 == 1) {
+		if_setgraphic(arg2, enum(5348, arg0, 'i', 'd'))
+		if_setitem(arg3, -1, -1)
+	} else 
+		if(iVar4 == 0) {
+			if_setgraphic(arg2, enum(5349, arg0, 'i', 'd'))
+			if_setitem(arg3, -1, -1)
+		}
+} else 
+	if(load_varc(1725) == 2) {
+		if(world_members() == 0)
+			if(load_varc(1724) == 4 || load_varc(1724) == 8)
+				if_settext(if_gethash(1178, 81), "Members Item")
+			else
+				if_settext(if_gethash(1178, 81), item_name(enum(5353, load_varc(1724), 'i', 'o')))
+		switch(arg0) {
+			case default:
+				break
+			case 1:
+				iVar4 = load_varpbit(10253)
+				break
+			case 2:
+				iVar4 = load_varpbit(10254)
+				break
+			case 3:
+				iVar4 = load_varpbit(10258)
+				break
+			case 4:
+				if(world_members() == 0)
+					iVar4 = 0
+				else
+					iVar4 = load_varpbit(10277)
+				break
+			case 5:
+				iVar4 = load_varpbit(10255)
+				break
+			case 6:
+				iVar4 = load_varpbit(10256)
+				break
+			case 7:
+				iVar4 = load_varpbit(10257)
+				break
+			case 8:
+				if(world_members() == 0)
+					iVar4 = 0
+				else
+					iVar4 = load_varpbit(10279)
+				iVar4 = -1
+				break
+
+		}
+		if(iVar4 == 1) {
+			if_setgraphic(arg2, enum(5351, arg0, 'i', 'd'))
+			if_setitem(arg3, -1, -1)
+		} else 
+			if(iVar4 == 0) {
+				if_setgraphic(arg2, enum(5352, arg0, 'i', 'd'))
+				if_setitem(arg3, -1, -1)
+			}
+	} else 
+		if(load_varc(1725) == 3) {
+			if(world_members() == 0)
+				if(load_varc(1724) == 2 || load_varc(1724) == 8 || load_varc(1724) == 9 || load_varc(1724) == 4 || load_varc(1724) == 11 || load_varc(1724) == 12 || load_varc(1724) == 13)
+					if_settext(if_gethash(1178, 81), "Members Item")
+				else
+					if_settext(if_gethash(1178, 81), item_name(enum(5356, load_varc(1724), 'i', 'o')))
+			switch(arg0) {
+				case default:
+					break
+				case 1:
+					iVar4 = load_varpbit(10250)
+					break
+				case 2:
+					if(world_members() == 0)
+						iVar4 = 0
+					else
+						iVar4 = load_varpbit(10268)
+					break
+				case 3:
+					iVar4 = load_varpbit(10246)
+					break
+				case 4:
+					if(world_members() == 0)
+						iVar4 = 0
+					else
+						iVar4 = load_varpbit(10267)
+					break
+				case 5:
+					iVar4 = load_varpbit(10249)
+					break
+				case 6:
+					iVar4 = load_varpbit(10251)
+					break
+				case 7:
+					iVar4 = load_varpbit(10252)
+					break
+				case 8:
+					if(world_members() == 0)
+						iVar4 = 0
+					else
+						iVar4 = load_varpbit(10265)
+					break
+				case 9:
+					if(world_members() == 0)
+						iVar4 = 0
+					else
+						iVar4 = load_varpbit(10266)
+					break
+				case 10:
+					iVar4 = load_varpbit(10248)
+					break
+				case 11:
+					if(world_members() == 0)
+						iVar4 = 0
+					else
+						iVar4 = load_varpbit(10270)
+					break
+				case 12:
+					if(world_members() == 0)
+						iVar4 = 0
+					else
+						iVar4 = load_varpbit(10269)
+					break
+				case 13:
+					if(world_members() == 0)
+						iVar4 = 0
+					else
+						iVar4 = load_varpbit(10282)
+					iVar4 = -1
+					break
+
+			}
+			if(iVar4 == 1) {
+				if_setgraphic(arg2, enum(5354, arg0, 'i', 'd'))
+				if_setitem(arg3, -1, -1)
+			} else 
+				if(iVar4 == 0) {
+					if_setgraphic(arg2, enum(5355, arg0, 'i', 'd'))
+					if_setitem(arg3, -1, -1)
+				}
+		} else 
+			if(load_varc(1725) == 4) {
+				if(world_members() == 0)
+					if(load_varc(1724) == 1 || load_varc(1724) == 2 || load_varc(1724) == 4 || load_varc(1724) == 5)
+						if_settext(if_gethash(1178, 81), "Members Item")
+					else
+						if_settext(if_gethash(1178, 81), item_name(enum(5359, load_varc(1724), 'i', 'o')))
+				switch(arg0) {
+					case default:
+						break
+					case 1:
+						if(world_members() == 0)
+							iVar4 = 0
+						else
+							iVar4 = load_varpbit(10273)
+						break
+					case 2:
+						if(world_members() == 0)
+							iVar4 = 0
+						else
+							iVar4 = load_varpbit(10271)
+						break
+					case 3:
+						iVar4 = load_varpbit(10276)
+						break
+					case 4:
+						if(world_members() == 0)
+							iVar4 = 0
+						else
+							iVar4 = load_varpbit(10272)
+						break
+					case 5:
+						if(world_members() == 0)
+							iVar4 = 0
+						else
+							iVar4 = load_varpbit(10274)
+						iVar4 = -1
+						break
+
+				}
+				if(iVar4 == 1) {
+					if_setgraphic(arg2, enum(5357, arg0, 'i', 'd'))
+					if_setitem(arg3, -1, -1)
+				} else 
+					if(iVar4 == 0) {
+						if_setgraphic(arg2, enum(5358, arg0, 'i', 'd'))
+						if_setitem(arg3, -1, -1)
+					}
+			} else 
+				if(load_varc(1725) == 11) {
+					if(load_varc(1808) == 1)
+						if_settext(if_gethash(1178, 81), item_name(enum(5732, load_varpbit(4293), 'i', 'o')))
+					else
+						if(load_varc(1808) == 2)
+							if_settext(if_gethash(1178, 81), item_name(enum(5733, load_varpbit(11047), 'i', 'o')))
+						else
+							if_settext(if_gethash(1178, 81), item_name(enum(5731, load_varc(1808), 'i', 'o')))
+					switch(arg0) {
+						case default:
+							break
+						case 1:
+							iVar4 = load_varpbit(4293)
+							break
+						case 2:
+							iVar4 = load_varpbit(11047)
+							break
+						case 3:
+							iVar4 = load_varpbit(11051)
+							break
+						case 4:
+							iVar4 = load_varpbit(11048)
+							break
+						case 5:
+							iVar4 = load_varpbit(11053)
+							break
+						case 6:
+							iVar4 = load_varpbit(11050)
+							break
+						case 7:
+							iVar4 = load_varpbit(11052)
+							break
+						case 8:
+							iVar4 = load_varpbit(11049)
+							iVar4 = -1
+							break
+
+					}
+					if(iVar4 >= 1)
+						if(arg0 == 1) {
+							if_setgraphic(arg2, enum(335, iVar4, 'i', 'd'))
+							if_setitem(arg3, -1, -1)
+						} else 
+							if(arg0 == 2) {
+								if_setgraphic(arg2, enum(5729, iVar4, 'i', 'd'))
+								if_setitem(arg3, -1, -1)
+							} else  {
+								if_setgraphic(arg2, enum(334, arg0, 'i', 'd'))
+								if_setitem(arg3, -1, -1)
+							}
+					else
+						if(iVar4 == 0) {
+							if_setgraphic(arg2, enum(5730, arg0, 'i', 'd'))
+							if_setitem(arg3, -1, -1)
+						}
+				} else 
+					if(load_varc(1725) == 12) {
+						if(load_varc(1808) < 1)
+							if_settext(if_gethash(1178, 81), "Empty")
+						else
+							if_settext(if_gethash(1178, 81), item_name(enum(5734, load_varc(1808), 'i', 'o')))
+						while(iVar4 == 0) {
+							switch(arg0) {
+								case default:
+									break
+								case 1:
+									iVar4 = load_varc(1812)
+									break
+								case 2:
+									iVar4 = load_varc(1813)
+									break
+								case 3:
+									iVar4 = load_varc(1814)
+									break
+								case 4:
+									iVar4 = load_varc(1815)
+									break
+								case 5:
+									iVar4 = load_varc(1816)
+									break
+								case 6:
+									iVar4 = load_varc(1817)
+									break
+								case 7:
+									iVar4 = load_varc(1818)
+									break
+								case 8:
+									iVar4 = load_varc(1819)
+									break
+								case 9:
+									iVar4 = load_varc(1820)
+									break
+								case 10:
+									iVar4 = load_varc(1821)
+									break
+								case 11:
+									iVar4 = load_varc(1822)
+									break
+								case 12:
+									iVar4 = load_varc(1823)
+									break
+								case 13:
+									iVar4 = load_varc(1824)
+									break
+								case 14:
+									iVar4 = load_varc(1825)
+									break
+								case 15:
+									iVar4 = load_varc(1826)
+									break
+								case 16:
+									iVar4 = load_varc(1827)
+									break
+								case 17:
+									iVar4 = load_varc(1828)
+									break
+								case 18:
+									iVar4 = load_varc(1829)
+									break
+								case 19:
+									iVar4 = load_varc(1830)
+									break
+								case 20:
+									iVar4 = load_varc(1831)
+									break
+								case 21:
+									iVar4 = load_varc(1832)
+									break
+								case 22:
+									iVar4 = load_varc(1833)
+									break
+								case 23:
+									iVar4 = load_varc(1834)
+									break
+								case 24:
+									iVar4 = load_varc(1835)
+									break
+								case 25:
+									iVar4 = load_varc(1836)
+									break
+								case 26:
+									iVar4 = load_varc(1837)
+									break
+								case 27:
+									iVar4 = load_varc(1838)
+									break
+								case 28:
+									iVar4 = load_varc(1839)
+									break
+								case 29:
+									iVar4 = load_varc(1840)
+									break
+								case 30:
+									iVar4 = load_varc(1841)
+									break
+								case 31:
+									iVar4 = load_varc(1842)
+									break
+								case 32:
+									iVar4 = load_varc(1843)
+									break
+								case 33:
+									iVar4 = load_varc(1844)
+									break
+								case 34:
+									iVar4 = load_varc(1845)
+									break
+								case 35:
+									iVar4 = load_varc(1846)
+									break
+								case 36:
+									iVar4 = load_varc(1847)
+									break
+								case 37:
+									iVar4 = load_varc(1848)
+									break
+								case 38:
+									iVar4 = load_varc(1849)
+									break
+								case 39:
+									iVar4 = load_varc(1850)
+									break
+								case 40:
+									iVar4 = load_varc(1851)
+									break
+								case 41:
+									iVar4 = load_varc(1852)
+									break
+								case 42:
+									iVar4 = load_varc(1853)
+									break
+								case 43:
+									iVar4 = load_varc(1854)
+									break
+								case 44:
+									iVar4 = load_varc(1855)
+									break
+								case 45:
+									iVar4 = load_varc(1856)
+									break
+								case 46:
+									iVar4 = load_varc(1857)
+									break
+								case 47:
+									iVar4 = load_varc(1858)
+									break
+								case 48:
+									iVar4 = load_varc(1859)
+									break
+								case 49:
+									iVar4 = load_varc(1860)
+									break
+								case 50:
+									iVar4 = load_varc(1861)
+									break
+								case 51:
+									iVar4 = load_varc(1862)
+									break
+								case 52:
+									iVar4 = load_varc(1863)
+									break
+								case 53:
+									iVar4 = load_varc(1864)
+									break
+								case 54:
+									iVar4 = load_varc(1865)
+									break
+								case 55:
+									iVar4 = load_varc(1866)
+									break
+								case 56:
+									iVar4 = load_varc(1867)
+									break
+								case 57:
+									iVar4 = load_varc(1868)
+									break
+								case 58:
+									iVar4 = load_varc(1869)
+									break
+								case 59:
+									iVar4 = load_varc(1870)
+									break
+								case 60:
+									iVar4 = load_varc(1871)
+									break
+								case 61:
+									iVar4 = load_varc(1872)
+									break
+								case 62:
+									iVar4 = load_varc(1873)
+									break
+								case 63:
+									iVar4 = load_varc(1874)
+									break
+								case 64:
+									iVar4 = load_varc(1875)
+									iVar4 = -1
+									break
+
+							}
+							if(iVar4 == 0)
+								if(arg0 < load_varc(1808))
+									arg0 = arg0 - 1
+								else
+									if(arg0 >= load_varc(1808))
+										arg0 = arg0 + 1
+						}
+						if(iVar4 == 1) {
+							if_setitem(arg3, -1, enum(5734, arg0, 'i', 'o'))
+							if_setgraphic(arg2, -1)
+						} else 
+							if(iVar4 == 0)
+								if_setgraphic(arg2, -1)
+					} else  {
+						if_settext(if_gethash(1178, 81), "")
+						if_sethide(arg1, 0)
+						if_sethide(arg2, 0)
+						if_sethide(arg3, 0)
+						if_setgraphic(arg1, -1)
+						if_setgraphic(arg2, -1)
+						return -1
+					}
+if(iVar4 >= 1) {
+	if_sethide(arg1, 0)
+	if_sethide(arg2, 0)
+	if_sethide(arg3, 0)
+	if_setgraphic(arg1, 8754)
+} else 
+	if(iVar4 == 0) {
+		if_sethide(arg1, 0)
+		if_sethide(arg2, 0)
+		if_sethide(arg3, 0)
+		if_setgraphic(arg1, 8756)
+	} else  {
+		if_sethide(arg1, 1)
+		if_sethide(arg2, 1)
+		if_sethide(arg3, 1)
+		if_setgraphic(arg1, -1)
+		if_setgraphic(arg2, -1)
+	}
+if(iVar4 >= 0)
+	return arg0
+else
+	return -1
+return 0

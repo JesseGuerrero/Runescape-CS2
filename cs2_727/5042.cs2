@@ -1,0 +1,24 @@
+//script5042(5042)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar2 = get_mouse_x() - script_3365(72810508)
+iVar3 = get_mouse_y() - script_3366(72810508)
+iVar4 = if_getwidth(if_gethash(1111, 12))
+iVar5 = if_getheight(if_gethash(1111, 12))
+if(iVar2 > iVar4 || iVar2 < 0 || iVar3 > iVar5 || iVar3 < 0)
+	iVar2 = iVar4 / 2
+iVar2 = iVar2 + if_getscrollx(if_gethash(1111, 12))
+iVar3 = iVar3 + if_getscrolly(72810508)
+iVar6 = load_varc(1396) * ((112 + 2) + 2)
+store_varc(1396, max(3, min(21, load_varc(1396) - arg1)))
+iVar7 = load_varc(1396) * ((112 + 2) + 2)
+iVar8 = scale(iVar2, iVar6, iVar7) - iVar2
+iVar9 = scale(iVar3, iVar6, iVar7) - iVar3
+script_5044(arg0, iVar8, iVar9)
+return

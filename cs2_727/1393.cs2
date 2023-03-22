@@ -1,0 +1,13 @@
+//script1393(1393)(int arg0)(int)
+int iVar1
+if(arg0 <= 0)
+	return -1
+arg0 = arg0 - 1
+iVar1 = inv_size(if_gethash(0, 94))
+if(arg0 < iVar1)
+	return inv_getnum(arg0, 94)
+arg0 = arg0 - iVar1
+if(arg0 < inv_size(if_gethash(0, 93)))
+	return inv_getnum(arg0, 93)
+return -1
+return 0

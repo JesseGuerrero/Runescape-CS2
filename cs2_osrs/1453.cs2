@@ -1,0 +1,69 @@
+void script_1453(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, int arg24, int arg25, int arg26, int arg27) {
+	int int28;
+	int int29;
+	int int30;
+	int int31;
+	int int32;
+	int int33;
+	int int34;
+	int int35;
+	int int36;
+	widget(481, 29).clearChildren();
+	int28 = 0;
+	int29 = -1;
+	int30 = -1;
+	ARRAY0 = new Item[getItemContainerLength(93)];
+	ARRAY0[0] = arg0;
+	ARRAY0[1] = arg1;
+	ARRAY0[2] = arg2;
+	ARRAY0[3] = arg3;
+	ARRAY0[4] = arg4;
+	ARRAY0[5] = arg5;
+	ARRAY0[6] = arg6;
+	ARRAY0[7] = arg7;
+	ARRAY0[8] = arg8;
+	ARRAY0[9] = arg9;
+	ARRAY0[10] = arg10;
+	ARRAY0[11] = arg11;
+	ARRAY0[12] = arg12;
+	ARRAY0[13] = arg13;
+	ARRAY0[14] = arg14;
+	ARRAY0[15] = arg15;
+	ARRAY0[16] = arg16;
+	ARRAY0[17] = arg17;
+	ARRAY0[18] = arg18;
+	ARRAY0[19] = arg19;
+	ARRAY0[20] = arg20;
+	ARRAY0[21] = arg21;
+	ARRAY0[22] = arg22;
+	ARRAY0[23] = arg23;
+	ARRAY0[24] = arg24;
+	ARRAY0[25] = arg25;
+	ARRAY0[26] = arg26;
+	ARRAY0[27] = arg27;
+	int31 = widget(481, 29).getWidth() - 10;
+	int32 = widget(481, 29).getHeight() - 10;
+	int33 = int31 / 4;
+	int34 = int32 / 7;
+	int35 = 5;
+	int36 = 5;
+	while (int28 < getItemContainerLength(93)) {
+		CHILD.createChild(widget(481, 29), 5, int28);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int35, int36, 0, 0);
+		if (ARRAY0[int28] != -1) {
+			CHILD.setItemNoNum((Item)ARRAY0[int28], 0);
+			CHILD.setOptionBase("<col=ff981f>" + getItemName((Item)ARRAY0[int28]));
+			CHILD.setContextMenuOption(10, "Examine" + "<col=ff9040>");
+			CHILD.setShadowColor(0x333333);
+			CHILD.setOutlineThickness(1);
+		}
+		int35 = int35 + int33;
+		int28 = int28 + 1;
+		if (int28 % 4 == 0) {
+			int35 = 10;
+			int36 = int36 + int34;
+		}
+	}
+	return;
+}

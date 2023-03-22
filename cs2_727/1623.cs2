@@ -1,0 +1,31 @@
+//script1623(1623)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 21561344:
+		if(instr6004(if_gethash(329, 2)) == 1)
+			cc_setgraphic(6355)
+		if(instr6004(if_gethash(329, 3)) == 1)
+			cc_setgraphic(6356)
+		if(instr6004(if_gethash(329, 4)) == 1)
+			cc_setgraphic(6357)
+		break
+	case 33947660:
+		if(instr6004(if_gethash(518, 0)) == 1)
+			cc_setgraphic(6355)
+		if(instr6004(if_gethash(518, 1)) == 1)
+			cc_setgraphic(6356)
+		if(instr6004(if_gethash(518, 2)) == 1)
+			cc_setgraphic(6357)
+		break
+	case 21561345:
+		if(instr6004(if_gethash(329, 40)) == 1)
+			cc_setgraphic(6355)
+		if(instr6004(if_gethash(329, 41)) == 1)
+			cc_setgraphic(6356)
+		if(instr6004(if_gethash(329, 42)) == 1)
+			cc_setgraphic(6357)
+		break
+
+}
+return

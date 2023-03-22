@@ -1,0 +1,9 @@
+//script3122(3122)(int arg0)(void)
+if(cc_find(1, arg0) == 1)
+	cc_sethide(1)
+if(cc_find(2, arg0) == 1)
+	cc_sethide(1)
+if(cc_find(4, arg0) == 1)
+	cc_setgraphic(1541)
+return
+return

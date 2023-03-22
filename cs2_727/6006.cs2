@@ -1,0 +1,42 @@
+//script6006(6006)(int arg0)(int)
+int iVar1
+iVar1 = -1
+iVar1 = activeclansettings_getaffinedslot(removetags(instr6574()))
+if(iVar1 < 0)
+	return 0
+if(arg0 == -1)
+	arg0 = activeclansettings_getaffinedrank(iVar1)
+switch(arg0) {
+	case default:
+		break
+	case 100:
+		if(load_clan_setting_varbit(233) == 1)
+			return 1
+		break
+	case 101:
+		if(load_clan_setting_varbit(234) == 1)
+			return 1
+		break
+	case 102:
+		if(load_clan_setting_varbit(235) == 1)
+			return 1
+		break
+	case 103:
+		if(load_clan_setting_varbit(236) == 1)
+			return 1
+		break
+	case 125:
+		if(load_clan_setting_varbit(237) == 1)
+			return 1
+		break
+	case 126:
+		return 1
+
+	case 127:
+		return 1
+		return 0
+
+
+}
+return 0
+return -1

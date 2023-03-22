@@ -1,0 +1,141 @@
+//script5573(5573)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar1 = 0
+iVar2 = -1
+iVar3 = -1
+iVar4 = 1
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		iVar1 = load_varc(1735)
+		iVar2 = 77332487
+		iVar3 = 77332566
+		break
+	case 1:
+		iVar1 = load_varc(1736)
+		iVar2 = 77332488
+		iVar3 = 77332577
+		iVar4 = -1
+		break
+	case 2:
+		iVar1 = load_varc(1737)
+		iVar2 = 77332492
+		iVar3 = 77332588
+		break
+	case 3:
+		iVar1 = load_varc(1738)
+		iVar2 = 77332493
+		iVar3 = 77332599
+		iVar4 = -1
+		break
+	case 4:
+		iVar1 = load_varc(1739)
+		iVar2 = 77332494
+		iVar3 = 77332610
+		break
+	case 5:
+		iVar1 = load_varc(1740)
+		iVar2 = 77332495
+		iVar3 = 77332621
+		iVar4 = -1
+		break
+	case 6:
+		iVar1 = load_varc(1741)
+		iVar2 = 77332496
+		iVar3 = 77332632
+		break
+	case 7:
+		iVar1 = load_varc(1742)
+		iVar2 = 77332497
+		iVar3 = 77332643
+		iVar4 = -1
+		break
+	case 8:
+		iVar1 = load_varc(1743)
+		iVar2 = 77332498
+		iVar3 = 77332654
+		break
+	case 9:
+		iVar1 = load_varc(1744)
+		iVar2 = 77332499
+		iVar3 = 77332665
+		iVar4 = -1
+		break
+
+}
+iVar5 = scale(100, 200, iVar1)
+iVar6 = -30 - scale(205, 100, iVar5)
+iVar7 = scale(255, 100, iVar5)
+if_setposition(iVar2, 1, 1, iVar6, iVar4 * 150)
+if_settrans(iVar3, iVar7)
+iVar8 = 0
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		store_varc(1735, load_varc(1735) + 1)
+		if(load_varc(1735) > 200) {
+			if_sethide(iVar2, 1)
+			instr6342(iVar2, None, "")
+		}
+		break
+	case 1:
+		store_varc(1736, load_varc(1736) + 1)
+		if(load_varc(1736) > 200)
+			iVar8 = 1
+		break
+	case 2:
+		store_varc(1737, load_varc(1737) + 1)
+		if(load_varc(1737) > 200)
+			iVar8 = 1
+		break
+	case 3:
+		store_varc(1738, load_varc(1738) + 1)
+		if(load_varc(1738) > 200)
+			iVar8 = 1
+		break
+	case 4:
+		store_varc(1739, load_varc(1739) + 1)
+		if(load_varc(1739) > 200)
+			iVar8 = 1
+		break
+	case 5:
+		store_varc(1740, load_varc(1740) + 1)
+		if(load_varc(1740) > 200)
+			iVar8 = 1
+		break
+	case 6:
+		store_varc(1741, load_varc(1741) + 1)
+		if(load_varc(1741) > 200)
+			iVar8 = 1
+		break
+	case 7:
+		store_varc(1742, load_varc(1742) + 1)
+		if(load_varc(1742) > 200)
+			iVar8 = 1
+		break
+	case 8:
+		store_varc(1743, load_varc(1743) + 1)
+		if(load_varc(1743) > 200)
+			iVar8 = 1
+		break
+	case 9:
+		store_varc(1744, load_varc(1744) + 1)
+		if(load_varc(1744) > 200)
+			iVar8 = 1
+		break
+
+}
+if(iVar8 == 1) {
+	if_sethide(iVar2, 1)
+	instr6342(iVar2, None, "")
+}
+return

@@ -1,0 +1,12 @@
+void script_1144(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	VARP[1295] = unflagBit(VARP[1295], arg1 - 1);
+	script_1146(widget0, arg1);
+	int2 = 0;
+	int3 = 0;
+	int2, int3 = script_1147();
+	widget(226, 46).setText("Combat " + int2 + "/2");
+	widget(226, 47).setText("Other " + int3 + "/3");
+	return;
+}

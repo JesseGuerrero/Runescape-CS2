@@ -1,0 +1,51 @@
+//script6387(6387)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+iVar0 = 0
+iVar1 = 11756
+sVar0 = ""
+cc_deleteall(if_gethash(396, 6))
+cc_deleteall(if_gethash(396, 7))
+while(iVar0 < 18) {
+	if(iVar0 != load_varpbit(11465))
+		if(iVar0 != load_varpbit(11466))
+			if(iVar0 != load_varpbit(11467))
+				if(iVar0 != load_varpbit(11468)) {
+					script_6388(11 + (modulo(3, iVar0) * 46), 10 + ((iVar0 / 3) * 40), iVar0, enum(5933, iVar0, 'i', 'o'), 25952262, 25952263)
+					cc_setop("Add", 1)
+					instr6092(script_735, "IIid", if_gethash(396, 14), if_gethash(396, 6), iVar0, iVar1)
+					cc_setonmouseover(script_5334, "IiIsii", if_gethash(396, 7), iVar0, if_gethash(396, 14), item_name(enum(5933, iVar0, 'i', 'o')), 25, 180)
+				} else 
+					script_6388(11 + (modulo(3, iVar0) * 46), 10 + ((iVar0 / 3) * 40), iVar0, -1, 25952262, 25952263)
+	iVar0 = iVar0 + 1
+}
+iVar2 = 2
+iVar3 = 40
+iVar4 = 56
+if(stat_base(7) > 39) {
+	iVar2 = 4
+	iVar3 = 25
+	iVar4 = 26
+} else 
+	if(stat_base(7) > 19) {
+		iVar2 = 3
+		iVar3 = 25
+	}
+script_6388(26, iVar3, 0, enum(5933, load_varpbit(11465), 'i', 'o'), 25952265, 25952266)
+cc_setop("Remove", 1)
+script_6388(86, iVar3, 1, enum(5933, load_varpbit(11466), 'i', 'o'), 25952265, 25952266)
+cc_setop("Remove", 1)
+if(iVar2 > 2) {
+	script_6388(iVar4, iVar3 + 50, 2, enum(5933, load_varpbit(11467), 'i', 'o'), 25952265, 25952266)
+	cc_setop("Remove", 1)
+}
+if(iVar2 > 3) {
+	script_6388(86, iVar3 + 50, 3, enum(5933, load_varpbit(11468), 'i', 'o'), 25952265, 25952266)
+	cc_setop("Remove", 1)
+}
+script_6389(load_varpbit(11465), load_varpbit(11466), load_varpbit(11467), load_varpbit(11468))
+return

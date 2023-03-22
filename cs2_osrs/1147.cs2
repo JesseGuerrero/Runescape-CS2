@@ -1,0 +1,19 @@
+int, int script_1147() {
+	int int0;
+	int int1;
+	int int2;
+	int0 = 0;
+	int1 = 0;
+	int2 = 0;
+	while (int0 < 23) {
+		if (isBitFlagged(VARP[1295], int0) == true) {
+			if (datamap('i', 'i', 1239, int0 + 1) == 1) {
+				int1 = int1 + 1;
+			} else {
+				int2 = int2 + 1;
+			}
+		}
+		int0 = int0 + 1;
+	}
+	return int1, int2;
+}

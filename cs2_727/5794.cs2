@@ -1,0 +1,51 @@
+//script5794(5794)(int arg0)(void)
+int iVar1
+script_5796(arg0, 1, 80084993, 80084994, 80085041, -1, -1, -1)
+iVar1 = script_5795(arg0)
+if_setscrollpos(if_gethash(1222, 27), 0, 0)
+if_setsize(if_gethash(1222, 8), 0, 0, 330, if_getwidth(if_gethash(1222, 8)))
+if_setsize(if_gethash(746, 10), 0, 0, 334, 512)
+switch(arg0) {
+	case default:
+		break
+	case 584:
+		if_setgraphic(if_gethash(1222, 6), 9457)
+		if_setgraphic(if_gethash(1222, 38), 9456)
+		break
+	case 585:
+		if_setgraphic(if_gethash(1222, 6), 9482)
+		if_setgraphic(if_gethash(1222, 38), 9483)
+		break
+	case 586:
+		if_setgraphic(if_gethash(1222, 6), 9467)
+		if_setgraphic(if_gethash(1222, 38), 9468)
+		break
+	case 587:
+		if_setgraphic(if_gethash(1222, 6), 9464)
+		if_setgraphic(if_gethash(1222, 38), 9465)
+		break
+	case 588:
+		if_setgraphic(if_gethash(1222, 6), 9470)
+		if_setgraphic(if_gethash(1222, 38), 9471)
+		break
+	case 589:
+		if_setgraphic(if_gethash(1222, 6), 9473)
+		if_setgraphic(if_gethash(1222, 38), 9474)
+		break
+	case 590:
+		if_setgraphic(if_gethash(1222, 6), 9458)
+		if_setgraphic(if_gethash(1222, 38), 9459)
+		break
+	case 591:
+		if_setgraphic(if_gethash(1222, 6), 9461)
+		if_setgraphic(if_gethash(1222, 38), 9462)
+		break
+	case 592:
+		if_setgraphic(if_gethash(1222, 6), 9476)
+		if_setgraphic(if_gethash(1222, 38), 9477)
+		break
+	case 593:
+		break
+
+}
+return

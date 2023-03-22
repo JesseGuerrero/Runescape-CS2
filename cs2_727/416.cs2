@@ -1,0 +1,9 @@
+//script416(416)(int arg0)(void)
+int iVar1
+iVar1 = if_gettrans(arg0)
+iVar1 = iVar1 + 2
+if(iVar1 < 255)
+	if_settrans(arg0, iVar1)
+else
+	if_sethide(arg0, 1)
+return

@@ -1,0 +1,10 @@
+void script_397() {
+	if (VARC[743] == -1 && VAR_GE_CURR_ITEM != -1) {
+		if (VAR_GE_TOTAL_PRICE * VAR_GE_CURR_ITEM_AMT > getItemAmtInContainer(93, 995)) {
+			widget(449, 25).setRGB(0xFF0000);
+		} else {
+			widget(449, 25).setRGB(color(VARC[1241]));
+		}
+	}
+	return;
+}

@@ -1,0 +1,86 @@
+//script1370(1370)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+if(instr6621() == 0)
+	return
+iVar4 = 1
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = load_varc(172)
+if(arg2 > 0)
+	switch(load_varc(172)) {
+		case default:
+			break
+		case 50:
+			store_varc(172, 37)
+			break
+		case 75:
+			store_varc(172, 50)
+			break
+		case 100:
+			store_varc(172, 75)
+			break
+		case 200:
+			store_varc(172, 100)
+			store_varc(172, 37)
+			iVar4 = 0
+			break
+
+	}
+else {
+	switch(load_varc(172)) {
+		case default:
+			break
+		case 37:
+			store_varc(172, 50)
+			break
+		case 50:
+			store_varc(172, 75)
+			break
+		case 75:
+			store_varc(172, 100)
+			break
+		case 100:
+			store_varc(172, 200)
+			store_varc(172, 200)
+			iVar4 = 0
+			break
+
+	}
+	if(arg3 == 1)
+		if(iVar15 < 200) {
+			iVar5 = instr6612().get(0)
+			iVar9 = if_getwidth(arg1)
+			if(iVar5 > 0)
+				if(iVar6 > 0) {
+					iVar7 = instr6849().get(0)
+					iVar11 = (get_mouse_x() - script_3365(arg1)) - (iVar9 / 2)
+					iVar12 = (get_mouse_y() - script_3366(arg1)) - (iVar10 / 2)
+					iVar13 = scale(iVar11, iVar9, iVar5)
+					iVar7 = iVar7 + iVar13
+					iVar8 = iVar8 - iVar14
+					instr6342(arg0, script_2054, "iIc", client_clock() + 1, arg0, movecoord(iVar8, 0, iVar7, 0))
+				}
+		}
+}
+script_1372()
+script_305(iVar4)
+return

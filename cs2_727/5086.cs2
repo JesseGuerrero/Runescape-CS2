@@ -1,0 +1,19 @@
+//script5086(5086)(int arg0, int arg1, int arg2)(void)
+int iVar3
+if(arg1 == load_varc(160))
+	arg2 = 255
+iVar3 = arg1 * 10
+if(cc_find(iVar3, arg0) == 1)
+	if(arg2 == 255) {
+		instr6556(None, "")
+		if(cc_find(iVar3 + 4, arg0) == 1)
+			cc_settrans(255)
+		if(cc_find(iVar3 + 6, arg0) == 1)
+			cc_settrans(255)
+		if(cc_find(iVar3 + 8, arg0) == 1)
+			cc_settrans(255)
+	} else  {
+		instr6556(script_5087, "Iii", -2147483645, -2147483643, arg2)
+		script_5088(arg0, arg2)
+	}
+return

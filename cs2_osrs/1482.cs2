@@ -1,0 +1,55 @@
+void script_1482(Widget widget0, string string1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7) {
+	widget0.clearChildren();
+	if (widget0 == widget(arg2)) {
+		CHILD.createChild(widget0, 5, 0);
+		CHILD.setSize(20, 20, 0, 0);
+		CHILD.setPosition(0, 0, 0, 1);
+		CHILD.setSprite(998);
+		CHILD.createChild(widget0, 5, 1);
+		CHILD.setSize(40, 20, 1, 0);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSprite(999);
+		CHILD.setSpriteTiling(true);
+		CHILD.createChild(widget0, 5, 2);
+		CHILD.setSize(20, 20, 0, 0);
+		CHILD.setPosition(0, 0, 2, 1);
+		CHILD.setSprite(1000);
+		CHILD.createChild(widget0, 4, 3);
+		CHILD.setSize(10, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setRGB(0xFFA82F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(0, 1, 0);
+		CHILD.setText(string1);
+		widget0.hookMouseEnter(null);
+		widget0.hookMouseExit(null);
+		widget0.hookMousePress(null);
+		return;
+	}
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setSize(20, 20, 0, 0);
+	CHILD.setPosition(0, 0, 0, 1);
+	CHILD.setSprite(1001);
+	CHILD.createChild(widget0, 5, 1);
+	CHILD.setSize(40, 20, 1, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSprite(1002);
+	CHILD.setSpriteTiling(true);
+	CHILD.createChild(widget0, 5, 2);
+	CHILD.setSize(20, 20, 0, 0);
+	CHILD.setPosition(0, 0, 2, 1);
+	CHILD.setSprite(1003);
+	CHILD.createChild(widget0, 4, 3);
+	CHILD.setSize(10, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setText(string1);
+	widget0.hookMouseEnter(&script_1483(true, widget0));
+	widget0.hookMouseExit(&script_1483(false, widget0));
+	widget0.hookMousePress(&script_1480(widget0, widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7)));
+	return;
+}

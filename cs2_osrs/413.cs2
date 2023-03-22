@@ -1,0 +1,28 @@
+void script_413(int arg0, string arg1, int arg2, int arg3, int arg4, int arg5, int arg6) {
+	if (arg0 < 32 && isBitFlagged(VARP[1076], arg0) == true || arg0 >= 32 && isBitFlagged(VARP[1344], arg0 % 32) == true) {
+		if (arg0 == 35) {
+			if (VARPBIT[5362] == 1) {
+				CHILD.setSprite(1212);
+				_CHILD.setContextMenuOption(1, "Enable");
+			} else {
+				CHILD.setSprite(1213);
+				_CHILD.setContextMenuOption(1, "Disable");
+			}
+			_CHILD.hookOptionClick(&script_414(false, arg0, arg1, widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), -1));
+			return;
+		}
+		CHILD.setSprite(1213);
+		if (datamap('i', '1', 854, arg0) == true) {
+			_CHILD.setContextMenuOption(1, "Disable");
+			_CHILD.hookOptionClick(&script_414(false, arg0, arg1, widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), -1));
+		} else {
+			_CHILD.setContextMenuOption(1, "");
+			_CHILD.hookOptionClick(null);
+		}
+	} else {
+		CHILD.setSprite(1211);
+		_CHILD.setContextMenuOption(1, "Unlock");
+		_CHILD.hookOptionClick(&script_414(true, arg0, arg1, widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), -1));
+	}
+	return;
+}

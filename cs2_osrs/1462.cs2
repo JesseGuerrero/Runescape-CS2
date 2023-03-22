@@ -1,0 +1,20 @@
+void script_1462(Widget widget0, int arg1) {
+	Item item2;
+	int int3;
+	item2 = null;
+	int3 = arg1;
+	while (int3 > 0) {
+		int3 = int3 - 1;
+		if (CHILD.setChild(widget0, int3) == true) {
+			item2 = getItemIdInSlot(93, int3);
+			if (item2 != null) {
+				CHILD.setHidden(false);
+				CHILD.setItem(item2, getItemAmtInSlot(93, int3));
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item2) + "</col>");
+			} else {
+				CHILD.setHidden(true);
+			}
+		}
+	}
+	return;
+}

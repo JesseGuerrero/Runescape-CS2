@@ -1,0 +1,19 @@
+//script491(491)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 66519136:
+		if_setcolor(66519140, 0xFFFFFF)
+		break
+	case 66519130:
+		if_setcolor(66519132, 0xFFFFFF)
+		break
+	case 66519124:
+		if_setcolor(66519126, 0xFFFFFF)
+		break
+	case 66519118:
+		if_setcolor(66519120, 0xFFFFFF)
+		break
+
+}
+return

@@ -1,0 +1,41 @@
+//script3215(3215)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+string sVar2
+sVar0 = if_gettext(if_gethash(906, 306))
+sVar1 = sVar0
+sVar2 = ""
+if(arg0 == 96)
+	if(load_varc(1660) > 0)
+		store_varc(1660, load_varc(1660) - 1)
+else
+	if(arg0 == 97)
+		if(load_varc(1660) < string_length(sVar0))
+			store_varc(1660, load_varc(1660) + 1)
+	else
+		if(arg0 == 102)
+			store_varc(1660, 0)
+		else
+			if(arg0 == 103)
+				store_varc(1660, string_length(sVar0))
+			else
+				if(arg0 == 67)
+					if(instr6716() == 1) {
+						sVar2 = getclipboard()
+						sVar2 = substring(sVar2, min(string_length(sVar2), 320 - string_length(sVar0)), 0)
+						sVar1 = substring(sVar0, load_varc(1660), 0)
+						sVar1 = append(sVar2, sVar1)
+						sVar1 = append(substring(sVar0, string_length(sVar0), load_varc(1660)), sVar1)
+						store_varc(1660, load_varc(1660) + string_length(sVar2))
+					} else 
+						sVar1 = script_802(load_varc(1660), 3, arg0, arg1, sVar0).get(1)
+if_settext(if_gethash(906, 306), sVar1)
+iVar2 = stringwidth(instr6289(if_gethash(906, 306)), substring(sVar1, load_varc(1660), 0))
+iVar3 = 4
+if(iVar2 + 4 > if_getwidth(if_gethash(906, 305)))
+	iVar3 = -4 - (iVar2 - if_getwidth(if_gethash(906, 305)))
+if_setposition(if_gethash(906, 306), 0, 0, if_gety(if_gethash(906, 306)), iVar3)
+if_setposition(if_gethash(906, 307), 0, 0, if_gety(if_gethash(906, 307)), script_1551(load_varc(1660), instr6289(if_gethash(906, 306)), iVar3, sVar1))
+return

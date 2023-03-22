@@ -1,0 +1,30 @@
+//script4369(4369)(int arg0, int arg1, int arg2, int arg3)(void)
+store_varc_string(346, if_gettext(arg0))
+switch(arg2) {
+	case default:
+		break
+	case 84:
+		script_4372(1)
+		break
+	case 103:
+		if(instr6606() == 0)
+			return
+		pop_int()
+		break
+	case 85:
+		if(string_length(load_varc_string(346)) > 0)
+			store_varc_string(346, substring(load_varc_string(346), string_length(load_varc_string(346)) - 1, 0))
+		if(arg2 == 67)
+			if(instr6716() == 1) {
+				script_4367()
+				return
+			}
+		if(string_length(load_varc_string(346)) < 13)
+			store_varc_string(346, script_74(0, arg2, arg1, load_varc_string(346)))
+		break
+
+}
+store_varc(1498, script_1552(load_varc(1498), 5631, arg0, -1, load_varc_string(346)))
+if_setposition(arg3, 0, 0, if_gety(arg3), load_varc(1498))
+if_settext(arg0, load_varc_string(346))
+return

@@ -1,0 +1,4 @@
+//script4216(4216)(int arg0)(void)
+if(instr6004(if_gethash(1071, 0)) == 1)
+	cc_setmodelanim(arg0)
+return

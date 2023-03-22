@@ -1,0 +1,5 @@
+//script4583(4583)(int arg0, string arg1, string arg2)(string)
+if(arg0 == 1)
+	return arg0
+return arg1
+return ""

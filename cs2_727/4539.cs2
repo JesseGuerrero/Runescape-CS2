@@ -1,0 +1,55 @@
+//script4539(4539)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, string arg12)(void)
+int iVar12
+int iVar13
+if(script_4761(25) == 0)
+	return
+iVar12 = 0
+iVar13 = 0
+if(cc_find(if_getnextsubid(arg0) - 1, arg0) == 1)
+	if(cc_find(arg2, arg1) == 1 || arg2 == -1 || instr6004(arg1) == 1)
+		if(cc_getspriteid() == 5613)
+			switch(arg9) {
+				case default:
+					break
+				case 3:
+					if(cc_get2dangle() == 0) {
+						iVar13 = if_getheight(arg0)
+						iVar12 = (script_1744() + arg11) - (script_3366(arg0) + (iVar13 / 2))
+						iVar13 = (iVar13 - 35) / 2
+						iVar12 = max(0 - iVar13, min(iVar13, iVar12))
+						cc_setposition(1, 2, iVar12, 0)
+						return
+					}
+					break
+				case 1:
+					if(cc_get2dangle() == 32768) {
+						iVar13 = if_getheight(arg0)
+						iVar12 = (script_1744() + arg11) - (script_3366(arg0) + (iVar13 / 2))
+						iVar13 = (iVar13 - 35) / 2
+						iVar12 = max(0 - iVar13, min(iVar13, iVar12))
+						cc_setposition(1, 0, iVar12, 0)
+						return
+					}
+					break
+				case 0:
+					if(cc_get2dangle() == 49152) {
+						iVar13 = if_getwidth(arg0)
+						iVar12 = (script_1743() + arg10) - (script_3365(arg0) + (iVar13 / 2))
+						iVar13 = (iVar13 - 35) / 2
+						iVar12 = max(0 - iVar13, min(iVar13, iVar12))
+						cc_setposition(2, 1, 0, iVar12)
+						return
+					}
+					if(cc_get2dangle() == 16384) {
+						iVar13 = if_getwidth(arg0)
+						iVar12 = (script_1743() + arg10) - (script_3365(arg0) + (iVar13 / 2))
+						iVar13 = (iVar13 - 35) / 2
+						iVar12 = max(0 - iVar13, min(iVar13, iVar12))
+						cc_setposition(0, 1, 0, iVar12)
+						return
+					}
+					break
+
+			}
+script_4540(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg0)
+return

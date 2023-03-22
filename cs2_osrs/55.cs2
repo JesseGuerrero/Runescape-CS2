@@ -1,0 +1,4 @@
+void script_55(Widget widget0, int arg1, int arg2, string arg3, string arg4) {
+	widget0.hookKey(&script_57(KEY_TYPED, KEY_PRESSED, CTX_WIDGET, -1, arg1, arg3, arg4, arg2, 0));
+	return;
+}

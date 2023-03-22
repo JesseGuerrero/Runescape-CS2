@@ -1,0 +1,33 @@
+void script_573(int arg0, int arg1) {
+	if (arg0 == 374) {
+		VARPBIT[4270] = arg1;
+	}
+	if (arg0 == 913) {
+		VARPBIT[4271] = arg1;
+	}
+	if (arg0 == 915) {
+		VARPBIT[4272] = arg1;
+	}
+	if (arg0 == 917) {
+		VARPBIT[4273] = arg1;
+	}
+	if (arg0 == 919) {
+		VARPBIT[4274] = arg1;
+	}
+	if (arg0 == 921) {
+		VARPBIT[4275] = arg1;
+	}
+	if (arg0 == 923) {
+		VARPBIT[4276] = arg1;
+	}
+	if (arg0 == 925) {
+		VARPBIT[4277] = arg1;
+	}
+	if (arg0 == 927) {
+		VARPBIT[4278] = arg1;
+	}
+	if (arg0 == 929) {
+		VARPBIT[4283] = arg1;
+	}
+	return;
+}

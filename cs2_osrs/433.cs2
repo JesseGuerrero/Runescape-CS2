@@ -1,0 +1,10 @@
+void script_433(boolean arg0) {
+	playSoundEffect(2266, 1, 0);
+	if (arg0 == true) {
+		widget(76, 17).setIsHidden(false);
+	} else {
+		widget(76, 17).setIsHidden(true);
+	}
+	script_435();
+	return;
+}

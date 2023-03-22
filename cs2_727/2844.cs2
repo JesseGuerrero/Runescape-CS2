@@ -1,0 +1,10 @@
+//script2844(2844)()(void)
+if_sethide(if_gethash(473, 39), 1)
+if_sethide(if_gethash(473, 68), 1)
+if_sethide(if_gethash(473, 131), 1)
+if_sethide(if_gethash(473, 176), 0)
+if_sethide(if_gethash(473, 228), 1)
+if_sethide(if_gethash(473, 225), 1)
+if_sethide(if_gethash(473, 222), 1)
+if_sethide(if_gethash(473, 37), 0)
+return

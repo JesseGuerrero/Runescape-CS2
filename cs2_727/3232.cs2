@@ -1,0 +1,121 @@
+//script3232(3232)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, string arg8, string arg9, string arg10)(void)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+iVar8 = 39059462
+iVar9 = 39059463
+iVar10 = 39059469
+iVar11 = 39059468
+iVar12 = 39059470
+iVar13 = 39059517
+iVar14 = 39059471
+iVar15 = 39059472
+iVar16 = 39059473
+iVar17 = 39059518
+iVar18 = 39059519
+iVar19 = 39059520
+if(instr6710() == 1) {
+	iVar8 = 63897626
+	iVar9 = 63897601
+	iVar10 = 63897604
+	iVar11 = 63897603
+	iVar12 = 63897605
+	iVar13 = 63897606
+	iVar14 = 63897611
+	iVar15 = 63897612
+	iVar16 = 63897613
+	iVar17 = 63897607
+	iVar18 = 63897608
+	iVar19 = 63897609
+}
+if(if_gethide(iVar8) == 0)
+	return
+if(load_varc(174) != 5)
+	store_varc(1089, load_varc(174))
+store_varc(174, 5)
+iVar20 = 250
+if(arg4 == 1) {
+	iVar20 = max(stringwidth(3793, arg1) + 36, 250)
+	if(modulo(2, iVar20) > 0)
+		iVar20 = iVar20 + 1
+}
+if_setsize(iVar9, 0, 0, 154, iVar20)
+iVar21 = (paramheight(arg0, 3793, if_getwidth(iVar10)) * 16) + 5
+if_setsize(iVar10, 0, 1, iVar21, 20)
+if_settext(iVar10, arg0)
+if(arg2 == 1) {
+	store_varc(1092, client_clock() + 5)
+	if_setgraphic(iVar11, 4107)
+	if_setsize(iVar11, 0, 0, 111, 111)
+	if_setposition(iVar11, 0, 1, 7, 0)
+	if_setposition(iVar10, 0, 1, 112, 0)
+	instr6342(iVar11, script_2951, "")
+} else  {
+	store_varc(1092, 0)
+	instr6342(iVar11, None, "")
+	if_setgraphic(iVar11, arg3)
+	if_setsize(iVar11, 0, 0, 63, 76)
+	if_setposition(iVar11, 0, 1, 18, 0)
+	if_setposition(iVar10, 0, 1, 123, 0)
+	iVar21 = iVar21 - 35
+}
+iVar22 = 0
+iVar21 = if_gety(iVar10) + iVar21
+if(arg4 == 0)
+	if(arg6 == 0) {
+		iVar22 = 12
+		iVar21 = iVar21 + iVar22
+		if_sethide(iVar12, 1)
+		if_sethide(iVar13, 1)
+	} else 
+		if(arg4 == 1)
+			if(arg6 == 0) {
+				iVar22 = 41
+				iVar21 = iVar21 + iVar22
+				if_setposition(iVar12, 2, 1, 8, 0)
+				if_sethide(iVar12, 0)
+				if_sethide(iVar13, 1)
+				script_2955(iVar12, iVar14, iVar15, iVar16, arg5, arg1)
+			} else 
+				if(arg4 == 0)
+					if(arg6 == 1) {
+						iVar22 = 41
+						iVar21 = iVar21 + iVar22
+						if_setposition(iVar13, 2, 1, 8, 0)
+						if_sethide(iVar13, 0)
+						if_sethide(iVar12, 1)
+						script_2956(iVar13, iVar17, iVar18, iVar19, arg2)
+					} else  {
+						iVar22 = 70
+						iVar21 = iVar21 + iVar22
+						if(arg7 == 0) {
+							if_setposition(iVar12, 2, 1, 40, 0)
+							if_setposition(iVar13, 2, 1, 10, 0)
+						} else  {
+							if_setposition(iVar12, 2, 1, 10, 0)
+							if_setposition(iVar13, 2, 1, 40, 0)
+						}
+						if_sethide(iVar13, 0)
+						if_sethide(iVar12, 0)
+						script_2955(iVar12, iVar14, iVar15, iVar16, arg5, arg1)
+						script_2956(iVar13, iVar17, iVar18, iVar19, arg2)
+					}
+if_setsize(iVar9, 0, 0, iVar21, if_getwidth(iVar9))
+script_2952(iVar12, iVar13, arg0)
+if_setposition(iVar10, 2, 1, iVar22, 0)
+if_sethide(iVar8, 0)
+if_sethide(iVar9, 0)
+if_sethide(if_gethash(596, 5), 1)
+return

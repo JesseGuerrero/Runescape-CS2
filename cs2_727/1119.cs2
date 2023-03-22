@@ -1,0 +1,95 @@
+//script1119(1119)()(int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+iVar0 = enum(2162, load_varpbit(357), 'i', 'J')
+iVar1 = 0
+globalArrays[0] = [4, 105]
+switch(load_varpbit(357)) {
+	case default:
+		break
+	case 0:
+		iVar1 = load_varpbit(5822)
+		globalArrays[0][0] = load_varpbit(6459)
+		globalArrays[0][1] = load_varpbit(6460)
+		globalArrays[0][2] = load_varpbit(6461)
+		globalArrays[0][3] = load_varpbit(6462)
+		break
+	case 1:
+		iVar1 = load_varpbit(5823)
+		globalArrays[0][0] = load_varpbit(6466)
+		globalArrays[0][1] = 0
+		globalArrays[0][2] = 0
+		globalArrays[0][3] = load_varpbit(6467)
+		break
+	case 2:
+		iVar1 = load_varpbit(5824)
+		globalArrays[0][0] = load_varpbit(6463)
+		globalArrays[0][1] = 0
+		globalArrays[0][2] = load_varpbit(6464)
+		globalArrays[0][3] = load_varpbit(6465)
+		break
+	case 3:
+		iVar1 = load_varpbit(7347)
+		globalArrays[0][0] = load_varpbit(7348)
+		globalArrays[0][1] = load_varpbit(7349)
+		globalArrays[0][2] = load_varpbit(7350)
+		globalArrays[0][3] = load_varpbit(7351)
+		break
+
+}
+iVar2 = enum(struct_param(662, iVar0), iVar1, 'i', 'g')
+iVar3 = struct_param(654, iVar0)
+iVar4 = struct_param(655, iVar0)
+iVar5 = enum_getoutputcount(iVar2)
+iVar6 = 0
+iVar7 = 0
+iVar8 = -1
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = -1
+iVar13 = -1
+while(iVar7 < iVar5) {
+	iVar8 = enum(iVar2, iVar7, 'i', 'g')
+	if(iVar8 != -1) {
+		iVar6 = enum_getoutputcount(iVar8)
+		iVar9 = 0
+		iVar11 = 0
+		while(iVar9 < iVar6) {
+			iVar12 = enum(iVar8, iVar11, 'i', 'I')
+			if(iVar12 != -1) {
+				iVar9 = iVar9 + 1
+				iVar13 = enum(727, iVar12, 'I', 'i')
+				if(iVar13 == -1 || globalArrays[0][iVar13] == 0 || world_members() == 1 || enum(743, iVar12, 'I', 'i') == 0) {
+					iVar10 = iVar10 + 1
+					iVar4 = iVar4 + (struct_param(657, iVar0) + struct_param(658, iVar0))
+					if(modulo(struct_param(660, iVar0), iVar10) == 0) {
+						iVar3 = iVar3 + (struct_param(656, iVar0) + struct_param(659, iVar0))
+						iVar4 = struct_param(655, iVar0)
+					}
+				}
+			}
+			iVar11 = iVar11 + 1
+			if(iVar11 > 997)
+				return 1
+		}
+	}
+	iVar7 = iVar7 + 1
+}
+if(iVar3 + struct_param(656, iVar0) >= 229)
+	return 1
+else
+	return 0
+return -1

@@ -1,0 +1,173 @@
+//script1402(1402)()(void)
+if(load_varp(106) == -1)
+	return
+else
+	if(load_varp(106) == 0) {
+		if_setmodel(if_gethash(270, 4), 3062)
+		if_setmodelanim(if_gethash(270, 4), 646)
+	} else 
+		if(load_varp(106) == 1) {
+			if_setmodel(if_gethash(270, 5), 3062)
+			if_setmodelanim(if_gethash(270, 5), 646)
+		} else 
+			if(load_varp(106) == 2) {
+				if_setmodel(if_gethash(270, 6), 3062)
+				if_setmodelanim(if_gethash(270, 6), 646)
+			} else 
+				if(load_varp(106) == 3) {
+					if_setmodel(if_gethash(270, 7), 3062)
+					if_setmodelanim(if_gethash(270, 7), 646)
+				} else 
+					if(load_varp(106) == 4) {
+						if_setmodel(if_gethash(270, 8), 3062)
+						if_setmodelanim(if_gethash(270, 8), 646)
+					} else 
+						if(load_varp(106) == 5) {
+							if_setmodel(if_gethash(270, 9), 3062)
+							if_setmodelanim(if_gethash(270, 9), 646)
+						} else 
+							if(load_varp(106) == 6) {
+								if_setmodel(if_gethash(270, 10), 3062)
+								if_setmodelanim(if_gethash(270, 10), 646)
+							} else 
+								if(load_varp(106) == 7) {
+									if_setmodel(if_gethash(270, 11), 3062)
+									if_setmodelanim(if_gethash(270, 11), 646)
+								} else 
+									if(load_varp(106) == 8) {
+										if_setmodel(if_gethash(270, 12), 3062)
+										if_setmodelanim(if_gethash(270, 12), 646)
+									} else 
+										if(load_varp(106) == 9) {
+											if_setmodel(if_gethash(270, 13), 3062)
+											if_setmodelanim(if_gethash(270, 13), 646)
+										} else 
+											if(load_varp(106) == 10) {
+												if_setmodel(if_gethash(270, 14), 3062)
+												if_setmodelanim(if_gethash(270, 14), 646)
+											} else 
+												if(load_varp(106) == 11) {
+													if_setmodel(if_gethash(270, 15), 3062)
+													if_setmodelanim(if_gethash(270, 15), 646)
+												} else 
+													if(load_varp(106) == 12) {
+														if_setmodel(if_gethash(270, 16), 3062)
+														if_setmodelanim(if_gethash(270, 16), 646)
+													} else 
+														if(load_varp(106) == 13) {
+															if_setmodel(if_gethash(270, 17), 3062)
+															if_setmodelanim(if_gethash(270, 17), 646)
+														} else 
+															if(load_varp(106) == 14) {
+																if_setmodel(if_gethash(270, 18), 3062)
+																if_setmodelanim(if_gethash(270, 18), 646)
+															} else 
+																if(load_varp(106) == 15) {
+																	if_setmodel(if_gethash(270, 19), 3062)
+																	if_setmodelanim(if_gethash(270, 19), 646)
+																} else 
+																	if(load_varp(106) == 16) {
+																		if_setmodel(if_gethash(270, 20), 3062)
+																		if_setmodelanim(if_gethash(270, 20), 646)
+																	} else 
+																		if(load_varp(106) == 17) {
+																			if_setmodel(if_gethash(270, 21), 3062)
+																			if_setmodelanim(if_gethash(270, 21), 646)
+																		} else 
+																			if(load_varp(106) == 18) {
+																				if_setmodel(if_gethash(270, 22), 3062)
+																				if_setmodelanim(if_gethash(270, 22), 646)
+																			} else 
+																				if(load_varp(106) == 19) {
+																					if_setmodel(if_gethash(270, 23), 3062)
+																					if_setmodelanim(if_gethash(270, 23), 646)
+																				} else 
+																					if(load_varp(106) == 20) {
+																						if_setmodel(if_gethash(270, 24), 3062)
+																						if_setmodelanim(if_gethash(270, 24), 646)
+																					} else 
+																						if(load_varp(106) == 21) {
+																							if_setmodel(if_gethash(270, 25), 3062)
+																							if_setmodelanim(if_gethash(270, 25), 646)
+																						} else 
+																							if(load_varp(106) == 22) {
+																								if_setmodel(if_gethash(270, 26), 3062)
+																								if_setmodelanim(if_gethash(270, 26), 646)
+																							} else 
+																								if(load_varp(106) == 23) {
+																									if_setmodel(if_gethash(270, 27), 3062)
+																									if_setmodelanim(if_gethash(270, 27), 646)
+																								} else 
+																									if(load_varp(106) == 24) {
+																										if_setmodel(if_gethash(270, 28), 3062)
+																										if_setmodelanim(if_gethash(270, 28), 646)
+																									} else 
+																										if(load_varp(106) == 25) {
+																											if_setmodel(if_gethash(270, 29), 3062)
+																											if_setmodelanim(if_gethash(270, 29), 646)
+																										} else 
+																											if(load_varp(106) == 26) {
+																												if_setmodel(if_gethash(270, 30), 3062)
+																												if_setmodelanim(if_gethash(270, 30), 646)
+																											} else 
+																												if(load_varp(106) == 27) {
+																													if_setmodel(if_gethash(270, 31), 3062)
+																													if_setmodelanim(if_gethash(270, 31), 646)
+																												} else 
+																													if(load_varp(106) == 28) {
+																														if_setmodel(if_gethash(270, 32), 3062)
+																														if_setmodelanim(if_gethash(270, 32), 646)
+																													} else 
+																														if(load_varp(106) == 29) {
+																															if_setmodel(if_gethash(270, 33), 3062)
+																															if_setmodelanim(if_gethash(270, 33), 646)
+																														} else 
+																															if(load_varp(106) == 30) {
+																																if_setmodel(if_gethash(270, 34), 3062)
+																																if_setmodelanim(if_gethash(270, 34), 646)
+																															} else 
+																																if(load_varp(106) == 31) {
+																																	if_setmodel(if_gethash(270, 35), 3062)
+																																	if_setmodelanim(if_gethash(270, 35), 646)
+																																} else 
+																																	if(load_varp(106) == 32) {
+																																		if_setmodel(if_gethash(270, 36), 3062)
+																																		if_setmodelanim(if_gethash(270, 36), 646)
+																																	} else 
+																																		if(load_varp(106) == 33) {
+																																			if_setmodel(if_gethash(270, 37), 3062)
+																																			if_setmodelanim(if_gethash(270, 37), 646)
+																																		} else 
+																																			if(load_varp(106) == 34) {
+																																				if_setmodel(if_gethash(270, 38), 3062)
+																																				if_setmodelanim(if_gethash(270, 38), 646)
+																																			} else 
+																																				if(load_varp(106) == 35) {
+																																					if_setmodel(if_gethash(270, 39), 3062)
+																																					if_setmodelanim(if_gethash(270, 39), 646)
+																																				} else 
+																																					if(load_varp(106) == 36) {
+																																						if_setmodel(if_gethash(270, 40), 3062)
+																																						if_setmodelanim(if_gethash(270, 40), 646)
+																																					} else 
+																																						if(load_varp(106) == 37) {
+																																							if_setmodel(if_gethash(270, 41), 3062)
+																																							if_setmodelanim(if_gethash(270, 41), 646)
+																																						} else 
+																																							if(load_varp(106) == 38) {
+																																								if_setmodel(if_gethash(270, 42), 3062)
+																																								if_setmodelanim(if_gethash(270, 42), 646)
+																																							} else 
+																																								if(load_varp(106) == 39) {
+																																									if_setmodel(if_gethash(270, 43), 3062)
+																																									if_setmodelanim(if_gethash(270, 43), 646)
+																																								} else 
+																																									if(load_varp(106) == 40) {
+																																										if_setmodel(if_gethash(270, 44), 3062)
+																																										if_setmodelanim(if_gethash(270, 44), 646)
+																																									} else 
+																																										if(load_varp(106) == 41) {
+																																											if_setmodel(if_gethash(270, 45), 3062)
+																																											if_setmodelanim(if_gethash(270, 45), 646)
+																																										}
+return

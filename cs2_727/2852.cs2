@@ -1,0 +1,27 @@
+//script2852(2852)(int arg0)(void)
+if(load_varc(1076) < load_varc(1075) + 250)
+	if(load_varc(1076) > load_varc(1075) - 250)
+		store_varc(1076, load_varc(1075))
+	else
+		if(load_varc(1076) > load_varc(1075))
+			if(load_varc(1076) - 32768 > load_varc(1075)) {
+				store_varc(1076, load_varc(1076) + 250)
+				if(load_varc(1076) > 65535)
+					store_varc(1076, load_varc(1076) - 63335)
+			} else  {
+				store_varc(1076, load_varc(1076) - 250)
+				if(load_varc(1076) < 0)
+					store_varc(1076, load_varc(1076) + 63335)
+			}
+		else
+			if(load_varc(1076) + 32768 < load_varc(1075)) {
+				store_varc(1076, load_varc(1076) - 250)
+				if(load_varc(1076) < 0)
+					store_varc(1076, load_varc(1076) + 63335)
+			} else  {
+				store_varc(1076, load_varc(1076) + 250)
+				if(load_varc(1076) > 65535)
+					store_varc(1076, load_varc(1076) - 63335)
+			}
+if_set2dangle(if_gethash(475, 31), load_varc(1076))
+return

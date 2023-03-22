@@ -1,0 +1,66 @@
+//script4645(4645)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+iVar4 = 0
+iVar3 = script_4644(arg0).get(0)
+switch(arg0) {
+	case default:
+		return
+
+	case 1:
+		iVar1 = 10027024
+		iVar2 = 10027183
+		break
+	case 2:
+		iVar1 = 10027021
+		iVar2 = 10027022
+		break
+	case 4:
+		iVar1 = 10027018
+		iVar2 = 10027019
+		break
+	case 5:
+		iVar1 = 10027009
+		iVar2 = 10027010
+		break
+	case 3:
+		iVar1 = 10027209
+		iVar2 = 10027210
+		break
+	case 6:
+		iVar1 = 10027193
+		iVar2 = 10027194
+		break
+
+}
+if(script_4643(arg0) == 1)
+	if(iVar3 == 1)
+		if(iVar4 == 1) {
+			if_setgraphic(iVar1, 6274)
+			if_sethide(iVar1, 0)
+			if_setgraphic(iVar2, 6275)
+			if_sethide(iVar2, 0)
+		} else  {
+			if_setgraphic(iVar1, 6272)
+			if_sethide(iVar1, 0)
+			if_setgraphic(iVar2, 6275)
+			if_sethide(iVar2, 0)
+		}
+	else {
+		if_setgraphic(iVar1, 6272)
+		if_sethide(iVar1, 0)
+	}
+else
+	if(iVar3 == 1) {
+		if_setgraphic(iVar1, 6275)
+		if_sethide(iVar1, 0)
+	} else  {
+		if_setgraphic(iVar1, 6273)
+		if_sethide(iVar1, 0)
+	}
+return

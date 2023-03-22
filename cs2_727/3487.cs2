@@ -1,0 +1,13 @@
+//script3487(3487)(int arg0)(int)
+int iVar1
+int iVar2
+if(arg0 < 0 || arg0 > 63)
+	return 0
+iVar1 = 0
+iVar2 = 0
+iVar2 = instr6711().get(0)
+if(arg0 < 32)
+	return script_734(bit_flagged(arg0, iVar1))
+else
+	return script_734(bit_flagged(arg0 - 32, iVar2))
+return -1

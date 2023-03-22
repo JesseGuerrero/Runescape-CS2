@@ -1,0 +1,4 @@
+void script_547(Widget widget0) {
+	widget0.setText(getPlayerWeight() + " kg");
+	return;
+}

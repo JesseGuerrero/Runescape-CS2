@@ -1,0 +1,28 @@
+//script357(357)(int arg0, int arg1, int arg2)(void)
+if(arg0 != 1)
+	return
+switch(arg2) {
+	case default:
+		break
+	case 0:
+		store_varc(1015, arg1)
+		break
+	case 1:
+		store_varc(1016, arg1)
+		break
+	case 2:
+		store_varc(1017, arg1)
+		break
+	case 3:
+		store_varc(1018, arg1)
+		break
+	case 4:
+		store_varc(1019, arg1)
+		return
+
+
+}
+sound_synth(0, 1, 9830)
+base_color(arg1, arg2)
+script_391()
+return

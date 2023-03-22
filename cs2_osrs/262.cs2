@@ -1,0 +1,62 @@
+void script_262(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	widget0.hookVARP(&script_260(CTX_WIDGET, arg1), 1067);
+	if (arg1 <= 0) {
+		if (CHILD.setChild(widget0, 4) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 5) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 6) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 7) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 8) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 9) == true) {
+			CHILD.setHidden(true);
+		}
+		return;
+	}
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget0, 5) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget0, 6) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget0, 8) == true) {
+		CHILD.setHidden(false);
+	}
+	int2 = 50 * 3;
+	int3 = 0;
+	if (CHILD.setChild(widget0, 7) == true && _CHILD.setChild(widget0, 9) == true) {
+		CHILD.setHidden(false);
+		_CHILD.setHidden(false);
+		if (arg1 < mathMethod4006(0, 40, 0, 100, 50)) {
+			CHILD.setItem(11737, 1);
+		} else if (arg1 < mathMethod4006(0, 75, 0, 100, 50)) {
+			CHILD.setItem(11736, 1);
+		} else if (arg1 < mathMethod4006(0, 95, 0, 100, 50)) {
+			CHILD.setItem(11735, 1);
+		} else {
+			CHILD.setItem(11734, 1);
+		}
+		if (arg1 < int2) {
+			int3 = arg1;
+		} else {
+			int3 = int2;
+		}
+		int3 = mathMethod4006(0, int3, 0, int2, 255);
+		_CHILD.setRGB(script_246(255, int3, int3));
+		_CHILD.setText(script_46(arg1, ","));
+	}
+	return;
+}

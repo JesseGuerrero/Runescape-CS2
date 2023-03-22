@@ -1,0 +1,8 @@
+//script418(418)()(void)
+if(load_varc(1354) == -1 || load_varc(1357) < 0 || load_varc(1358) < 0)
+	return
+instr6627(load_varc(1354))
+store_varc(1355, cam_getanglex())
+store_varc(1356, cam_getangley())
+instr6342(if_gethash(1013, 0), script_421, "iii", load_varc(1357), load_varc(1358), 0)
+return

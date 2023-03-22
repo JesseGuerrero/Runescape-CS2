@@ -1,0 +1,28 @@
+//script6094(6094)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 82903060
+iVar1 = 10448
+if(load_varpbit(11055) == 1)
+	iVar1 = 10453
+iVar2 = 0
+while(iVar2 < 40) {
+	if(cc_find(iVar2, iVar0) == 1) {
+		cc_setgraphic(iVar1)
+		instr6091(script_6100, "iiiIi", load_varpbit(11055), 0, 1, -2147483645, -2147483643)
+		instr6092(script_6100, "iiiIi", load_varpbit(11055), 0, 0, -2147483645, -2147483643)
+	}
+	iVar2 = iVar2 + 1
+}
+iVar2 = 0
+iVar0 = 82903061
+while(iVar2 < 40) {
+	if(cc_find(iVar2, iVar0) == 1) {
+		cc_setgraphic(iVar1)
+		instr6091(script_6100, "iiiIi", load_varpbit(11055), 0, 1, -2147483645, -2147483643)
+		instr6092(script_6100, "iiiIi", load_varpbit(11055), 0, 0, -2147483645, -2147483643)
+	}
+	iVar2 = iVar2 + 1
+}
+return

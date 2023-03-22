@@ -1,0 +1,46 @@
+//script2378(2378)(int arg0)(void)
+int iVar1
+iVar1 = -1
+switch(load_varpbit(6099)) {
+	case default:
+		break
+	case 0:
+		iVar1 = 58982423
+		break
+	case 1:
+		iVar1 = 58982424
+		break
+	case 2:
+		iVar1 = 58982425
+		break
+	case 3:
+		iVar1 = 58982426
+		break
+	case 4:
+		iVar1 = 58982427
+		break
+	case 5:
+		iVar1 = 58982428
+		break
+	case 6:
+		iVar1 = 58982429
+		break
+	case 7:
+		iVar1 = 58982422
+		break
+	case 8:
+		iVar1 = 58982421
+		break
+	case 9:
+		iVar1 = 58982420
+		break
+	case 10:
+		iVar1 = 58982430
+		break
+	case 11:
+		iVar1 = 58982431
+		break
+
+}
+script_2380(iVar1, arg0)
+return

@@ -1,0 +1,305 @@
+//script3387(3387)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+iVar5 = -1
+iVar6 = -1
+switch(arg4) {
+	case default:
+		break
+	case 1:
+		if_settext(if_gethash(742, 19), "Custom Graphics Options")
+		if_opensubclient(977, 48627718)
+		iVar5 = 48627716
+		iVar6 = 48627732
+		hook_mouse_press(if_gethash(742, 18), script_3386, "iiiii", arg0, arg1, arg2, arg3, arg4)
+		instr6213(if_gethash(742, 18), 1, "Back")
+		break
+	case 0:
+		if_opensubclient(977, 57802780)
+		iVar5 = 57802756
+		iVar6 = 57802757
+		if_sethide(if_gethash(882, 29), 1)
+		if_sethide(if_gethash(882, 23), 0)
+		hook_mouse_press(if_gethash(882, 23), script_3386, "iiiii", arg0, arg1, arg2, arg3, arg4)
+		instr6256(if_gethash(882, 4), script_2917, "1", 1)
+		instr6256(if_gethash(744, 50), script_2919, "1i", 1, arg4)
+		break
+	case 2:
+		if_opensubclient(977, 59703299)
+		iVar5 = 59703297
+		iVar6 = 59703370
+		if_sethide(if_gethash(911, 6), 1)
+		if_sethide(if_gethash(911, 4), 0)
+		hook_mouse_press(if_gethash(911, 4), script_3386, "iiiii", arg0, arg1, arg2, arg3, arg4)
+		instr6256(if_gethash(906, 0), script_2919, "1i", 1, arg4)
+		if_sethide(if_gethash(911, 0), 0)
+		if_setscrollsize(59703298, 510, 0)
+		if_setscrollpos(if_gethash(911, 2), 0, 0)
+		script_31(59703296, 59703298, 792, 789, 790, 791, 773, 788)
+		script_4041()
+		break
+
+}
+if_sethide(iVar6, 1)
+hook_mouse_press(iVar5, None, "")
+iVar7 = 0
+iVar8 = 1
+iVar9 = -1
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+iVar13 = -1
+if_setgraphic(if_gethash(977, 63), -1)
+if_setgraphic(if_gethash(977, 59), -1)
+if_setgraphic(if_gethash(977, 61), -1)
+if_setgraphic(if_gethash(977, 57), -1)
+hook_mouse_enter(if_gethash(977, 62), None, "")
+hook_mouse_enter(if_gethash(977, 58), None, "")
+hook_mouse_enter(if_gethash(977, 60), None, "")
+hook_mouse_enter(if_gethash(977, 56), None, "")
+hook_mouse_exit(if_gethash(977, 62), None, "")
+hook_mouse_exit(if_gethash(977, 58), None, "")
+hook_mouse_exit(if_gethash(977, 60), None, "")
+hook_mouse_exit(if_gethash(977, 56), None, "")
+hook_mouse_press(if_gethash(977, 62), None, "")
+hook_mouse_press(if_gethash(977, 58), None, "")
+hook_mouse_press(if_gethash(977, 60), None, "")
+hook_mouse_press(if_gethash(977, 56), None, "")
+if(detailcanmod_toolkit() == 0) {
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			script_1147(0, arg0, 64028724, 64028734, 64028735, arg4)
+			break
+		case 2:
+			script_1147(2, arg0, 64028724, 64028734, 64028735, arg4)
+			break
+		case 1:
+			script_1147(1, arg0, 64028724, 64028734, 64028735, arg4)
+			break
+		case 3:
+			script_1147(3, arg0, 64028724, 64028734, 64028735, arg4)
+			break
+
+	}
+	if_setposition(if_gethash(977, 52), 0, 2, if_gety(if_gethash(977, 52)), 175)
+	if_setsize(if_gethash(977, 49), 0, 0, if_getheight(if_gethash(977, 50)), 350)
+} else  {
+	if(instr6775() == 1 || arg0 == 0) {
+		iVar9 = 64028724
+		script_1147(0, arg0, 64028724, 64028734, 64028735, arg4)
+		iVar7 = iVar7 + 1
+	}
+	while(iVar8 < 4) {
+		if(detailcanset_renderer(iVar8) < 3) {
+			switch(iVar8) {
+				case default:
+					break
+				case 2:
+					iVar13 = 64028726
+					script_1147(1, arg0, 64028726, 64028732, 64028733, arg4)
+					break
+				case 1:
+					iVar13 = 64028725
+					script_1147(2, arg0, 64028725, 64028730, 64028731, arg4)
+					break
+				case 3:
+					iVar13 = 64028727
+					script_1147(3, arg0, 64028727, 64028728, 64028729, arg4)
+					break
+
+			}
+			iVar7 = iVar7 + 1
+			if(iVar9 == -1)
+				iVar9 = iVar13
+			else
+				if(iVar10 == -1)
+					iVar10 = iVar13
+				else
+					if(iVar11 == -1)
+						iVar11 = iVar13
+					else
+						if(iVar12 == -1)
+							iVar12 = iVar13
+		}
+		iVar8 = iVar8 + 1
+	}
+	switch(iVar7) {
+		case default:
+			break
+		case 1:
+			if_setposition(iVar9, 0, 2, if_gety(iVar9), 175)
+			if_setsize(if_gethash(977, 49), 0, 0, if_getheight(if_gethash(977, 50)), 350)
+			break
+		case 2:
+			if_setposition(iVar9, 0, 0, if_gety(iVar9), 90)
+			if_setposition(iVar10, 0, 2, if_gety(iVar10), 90)
+			if_setsize(if_gethash(977, 49), 0, 0, if_getheight(if_gethash(977, 50)), 400)
+			break
+		case 3:
+			if_setposition(iVar9, 0, 0, if_gety(iVar9), 58)
+			if_setposition(iVar10, 0, 2, if_gety(iVar10), 173)
+			if_setposition(iVar11, 0, 2, if_gety(iVar11), 58)
+			if_setsize(if_gethash(977, 49), 0, 0, if_getheight(if_gethash(977, 50)), 400)
+			break
+
+	}
+}
+iVar14 = 0
+iVar15 = -1
+iVar16 = 64028700
+iVar17 = 64028699
+cc_deleteall(iVar16)
+cc_deleteall(iVar17)
+pop_int()
+script_1185(64028707, 64028708)
+instr6214(if_gethash(977, 36), -1, 64028707)
+pop_int()
+script_6503(64028749, 64028750)
+instr6214(if_gethash(977, 78), -1, 64028749)
+cc_create(if_getnextsubid(iVar17), 3, iVar17)
+cc_setsize(0, 1, 1, 2)
+cc_setposition(0, 0, iVar14 + 3, 1)
+cc_setfill(1)
+cc_setcolor(80786d)
+iVar14 = iVar14 + 20
+iVar18 = 0
+iVar19 = arg3 + 21
+iVar20 = -1
+iVar21 = -1
+iVar22 = -1
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = -1
+while(iVar24 < enum_getoutputcount(201)) {
+	iVar21 = enum(201, iVar24, 'i', 'J')
+	iVar20 = script_2601(iVar18, iVar14, iVar16, struct_param(845, iVar21))
+	cc_create(if_getnextsubid(iVar16), 3, iVar16)
+	cc_setsize(0, 0, 16, iVar19)
+	if(iVar18 == 1)
+		cc_setposition(0, 2, iVar14, 4)
+	else
+		cc_setposition(0, 0, iVar14, 233 - iVar19)
+	cc_setfill(1)
+	cc_setcolor(2e2b26)
+	cc_create(if_getnextsubid(iVar16), 3, iVar16)
+	cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+	cc_setposition(0, 0, cc_gety(), cc_getx())
+	cc_setfill(0)
+	cc_setcolor(5f5b52)
+	iVar15 = instr6151()
+	cc_create(if_getnextsubid(iVar16), 4, iVar16)
+	cc_settextfont(494)
+	cc_settextalign(0, 1, 1)
+	iVar23 = script_2581(iVar21)
+	if(iVar23 <= -1) {
+		cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+		cc_setposition(0, 0, cc_gety(), cc_getx())
+		cc_setcolor(ebe0bc)
+		cc_settext("<col=646464>" + "N/A")
+	} else  {
+		cc_setsize(0, 0, cc_getheight(), arg3)
+		cc_setposition(0, 0, cc_gety(), cc_getx() + 2)
+		iVar22 = struct_param(683, iVar21)
+		iVar25 = script_829(iVar21, iVar22)
+		if(iVar21 != 1009)
+			if(iVar23 < iVar25)
+				cc_setcolor(ebe0bc)
+			else
+				cc_setcolor(b1e1)
+		else
+			if(iVar23 > 0)
+				cc_setcolor(ebe0bc)
+			else
+				cc_setcolor(b1e1)
+		if(bit_flagged(arg0, struct_param(682, iVar21)) != 1) {
+			cc_settext("<col=646464>" + "N/A")
+			cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+			cc_setposition(0, 0, cc_gety(), cc_getx())
+		} else  {
+			cc_settext(enum(iVar22, iVar23, 'i', 's'))
+			cc_create(if_getnextsubid(iVar16), 5, iVar16)
+			cc_setsize(0, 0, 16, 16)
+			cc_setposition(0, 0, iVar14 + ((16 - cc_getheight()) / 2), (cc_getx() + cc_getwidth()) - (cc_getwidth() + 1))
+			cc_setgraphic(2554)
+			instr6091(script_2691, "Ii1ii1", -2147483645, instr6151(), 1, iVar15, 8419437, 1)
+			instr6092(script_2691, "Ii1ii1", -2147483645, instr6151(), 0, iVar15, 6249298, 1)
+			instr6088(script_2695, "IiiiiJiiiii", -2147483645, -2147483643, instr6151(), iVar15, iVar20, iVar21, arg2, arg3, arg0, arg1, arg4)
+		}
+	}
+	if(iVar18 == 1) {
+		iVar18 = 0
+		iVar14 = iVar14 + 20
+		iVar26 = if_getnextsubid(iVar17)
+		cc_create(iVar26, 3, iVar17)
+		cc_setsize(0, 1, 1, 2)
+		cc_setposition(0, 0, iVar14 + 3, 1)
+		cc_setfill(1)
+		cc_setcolor(80786d)
+	} else 
+		iVar18 = 1
+	iVar24 = iVar24 + 1
+}
+if(iVar18 == 1)
+	iVar14 = iVar14 + 20
+if(iVar26 != -1)
+	if(iVar18 == 0)
+		if(cc_find(iVar26, iVar17) == 1)
+			cc_delete()
+if_setsize(if_gethash(977, 26), 0, 0, iVar14 + 5, if_getwidth(if_gethash(977, 26)))
+if_setsize(if_gethash(977, 24), 0, 0, if_gety(if_gethash(977, 26)) + if_getheight(if_gethash(977, 26)), if_getwidth(if_gethash(977, 24)))
+if_setsize(if_gethash(977, 3), 0, 0, if_gety(if_gethash(977, 24)) + if_getheight(if_gethash(977, 24)), if_getwidth(if_gethash(977, 3)))
+switch(arg4) {
+	case default:
+		break
+	case 1:
+		if_setsize(if_gethash(742, 4), 0, 0, 334, if_getwidth(if_gethash(742, 4)))
+		if_setposition(if_gethash(977, 2), 0, 0, if_gety(if_gethash(977, 2)), 0)
+		if_setsize(if_gethash(977, 2), 0, 1, if_getheight(if_gethash(742, 6)) - if_getheight(if_gethash(977, 1)), 20)
+		if_setsize(if_gethash(977, 0), 0, 0, if_getheight(if_gethash(742, 6)), if_getwidth(if_gethash(977, 0)))
+		if_setscrollsize(64028674, if_getheight(if_gethash(977, 3)) + 5, 0)
+		script_31(64028745, 64028674, 792, 789, 790, 791, 773, 788)
+		break
+	case 0:
+		if_setposition(if_gethash(977, 0), 0, 1, 0, 0)
+		if_setposition(if_gethash(882, 28), 0, 1, 0, 0)
+		if_setsize(if_gethash(977, 2), 0, 0, if_getheight(if_gethash(977, 3)), if_getwidth(if_gethash(977, 2)))
+		if_setsize(if_gethash(977, 0), 0, 0, if_gety(if_gethash(977, 2)) + if_getheight(if_gethash(977, 2)), if_getwidth(if_gethash(977, 0)))
+		if_setsize(if_gethash(882, 28), 0, 0, (if_getheight(if_gethash(977, 0)) + 15) + if_getheight(if_gethash(882, 23)), if_getwidth(if_gethash(882, 28)))
+		if_setsize(if_gethash(882, 22), 0, 0, if_getheight(if_gethash(882, 28)) + 5, if_getwidth(if_gethash(882, 22)))
+		if_setsize(if_gethash(882, 8), 0, 0, 40 + if_getheight(if_gethash(882, 22)), if_getwidth(if_gethash(882, 8)))
+		if_setposition(if_gethash(882, 22), 1, 1, 10, 0)
+		break
+	case 2:
+		if_setposition(if_gethash(977, 0), 0, 1, 0, 0)
+		if_setsize(if_gethash(977, 2), 0, 0, if_getheight(if_gethash(977, 3)), if_getwidth(if_gethash(977, 2)))
+		if_setsize(if_gethash(977, 0), 0, 0, if_gety(if_gethash(977, 2)) + if_getheight(if_gethash(977, 2)), if_getwidth(if_gethash(977, 0)))
+		if_setsize(if_gethash(911, 3), 0, 0, (if_getheight(if_gethash(977, 0)) + 5) + if_getheight(if_gethash(911, 4)), if_getwidth(if_gethash(911, 3)))
+		break
+
+}
+script_3451(arg4, 1)
+script_2918(1)
+return

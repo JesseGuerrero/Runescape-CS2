@@ -1,0 +1,78 @@
+//script175(175)(int arg0, int arg1)(void)
+if(load_varp(281) < 1000) {
+	send_message("You can't do this while in the tutorial.")
+	return
+}
+if(load_varpbit(9030) == 1) {
+	send_message("You cannot change your chat filters while you are in the tutorial as you might miss important messages that will help with your progress.")
+	return
+}
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(load_varc(41) == arg1)
+			if(instr6644() >= 2) {
+				store_varc(41, -1)
+				script_1364()
+			} else 
+				if(load_varc(41) == -1) {
+					store_varc(41, arg1)
+					script_1364()
+				} else 
+					store_varc(41, arg1)
+		switch(arg1) {
+			case default:
+				break
+			case 2:
+				store_varc(1651, 0)
+				set_chat_type(0)
+				script_1558(0)
+				break
+			case 4:
+				store_varc(1651, 1)
+				set_chat_type(1)
+				script_1558(0)
+				break
+			case 7:
+				store_varc(1651, 2)
+				set_chat_type(2)
+				script_1558(0)
+				break
+
+		}
+		script_181(load_varc(41))
+		script_178()
+		script_84()
+		script_89()
+		break
+	case 2:
+		script_184(arg1, 0)
+		script_178()
+		script_84()
+		script_89()
+		break
+	case 3:
+		if(arg1 == 3)
+			if(friend_count() < 0)
+				send_message("The friends list is still loading, your selection won't take effect immediately.")
+		script_184(arg1, 1)
+		script_178()
+		script_84()
+		script_89()
+		break
+	case 4:
+		script_184(arg1, 2)
+		script_178()
+		script_84()
+		script_89()
+		break
+	case 5:
+		script_184(arg1, 3)
+		script_178()
+		script_84()
+		script_89()
+		break
+
+}
+return

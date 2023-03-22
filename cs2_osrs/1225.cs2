@@ -1,0 +1,19 @@
+void script_1225(Widget widget0) {
+	int int1;
+	int int2;
+	int1 = widget0.getWidth();
+	int1 = int1 - 5;
+	if (int1 < 120) {
+		int1 = 120;
+	}
+	int2 = widget0.getHeight();
+	int2 = int2 - 2;
+	if (int2 < 60) {
+		int2 = 60;
+	}
+	widget0.setSize(int1, int2, 0, 0);
+	if (int1 == 120 && int2 == 60) {
+		widget0.hookFrame(null);
+	}
+	return;
+}

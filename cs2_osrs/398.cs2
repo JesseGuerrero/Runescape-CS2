@@ -1,0 +1,52 @@
+void script_398(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	int int6;
+	int int7;
+	int int8;
+	int6 = 0;
+	if (arg0 == 1) {
+		int6 = 2048 - VARPBIT[3985] * 512;
+	} else if (arg0 == 2) {
+		int6 = 2048 - VARPBIT[3986] * 512;
+	} else {
+		if (!(arg0 == 3)) {
+			return;
+		}
+		int6 = 2048 - VARPBIT[3987] * 512;
+	}
+	int7 = getRotateZ(widget1);
+	if (int7 < 0 || int7 >= 2048) {
+		int7 = 0;
+	}
+	int8 = 0;
+	if (int7 != int6) {
+		if (int6 < int7) {
+			int6 = int6 + 2048;
+		}
+		int8 = int6 - int7;
+		if (int8 < 1024) {
+			if (int8 > 10) {
+				int7 = int7 + 10;
+			} else {
+				int7 = int6;
+			}
+		} else if (int8 < 2038) {
+			int7 = int7 + 2038;
+		} else {
+			int7 = int6;
+		}
+	}
+	int7 = int7 % 2048;
+	if (int7 < 0) {
+		if (int7 < -2048) {
+			int7 = 0;
+		} else {
+			int7 = int7 + 2048;
+		}
+	}
+	widget1.set3DRotation(0, 0, 0, 0, int7, 1000);
+	widget2.set3DRotation(0, 0, 0, 0, int7, 1000);
+	widget3.set3DRotation(0, 0, 0, 0, int7, 1000);
+	widget4.set3DRotation(0, 0, 0, 0, int7, 1000);
+	widget5.set3DRotation(0, 0, 0, 0, int7, 1000);
+	return;
+}

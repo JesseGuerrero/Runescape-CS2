@@ -1,0 +1,22 @@
+void script_1251(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	string str0;
+	str0 = "Saradomin";
+	script_1253(widget1, VARP[261], str0, 3839, 3840);
+	widget1.hookVARP(&script_1252(widget1, str0, 3839, 3840), 261);
+	str0 = "Guthix";
+	script_1253(widget2, VARP[262], str0, 3843, 3844);
+	widget2.hookVARP(&script_1252(widget2, str0, 3843, 3844), 262);
+	str0 = "Zamorak";
+	script_1253(widget3, VARP[263], str0, 3841, 3842);
+	widget3.hookVARP(&script_1252(widget3, str0, 3841, 3842), 263);
+	str0 = "Bandos";
+	script_1253(widget4, VARP[264], str0, 12607, 12608);
+	widget4.hookVARP(&script_1252(widget4, str0, 12607, 12608), 264);
+	str0 = "Armadyl";
+	script_1253(widget5, VARP[265], str0, 12609, 12610);
+	widget5.hookVARP(&script_1252(widget5, str0, 12609, 12610), 265);
+	str0 = "Ancient";
+	script_1253(widget6, VARP[266], str0, 12611, 12612);
+	widget6.hookVARP(&script_1252(widget6, str0, 12611, 12612), 266);
+	return;
+}

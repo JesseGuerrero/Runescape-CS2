@@ -1,0 +1,10 @@
+//script3635(3635)()(void)
+if_setitem(if_gethash(1001, 171), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3667(14) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1001, 172), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3666(2) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1001, 173), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3668(12) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1001, 174), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3666(5) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1001, 175), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3668(5) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1001, 176), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3666(10) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1001, 177), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3667(5) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1001, 178), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3666(13) + load_varpbit(7387)), 'i', 'o'))
+return

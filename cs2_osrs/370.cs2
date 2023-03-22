@@ -1,0 +1,13 @@
+void script_370(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Split Private Chat" + "<br>" + "(currently off)";
+	if (VARP[287] <= 0) {
+		widget0.setSprite(761);
+	} else {
+		str0 = "Split Private Chat" + "<br>" + "(currently on)";
+		widget0.setSprite(762);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

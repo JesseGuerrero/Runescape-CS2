@@ -1,0 +1,121 @@
+//script4227(4227)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+string sVar0
+string sVar1
+cc_deleteall(arg0)
+iVar2 = 0
+iVar3 = (if_getwidth(arg0) - (125 * 3)) / 2
+iVar4 = enum_getoutputcount(828)
+iVar5 = 0
+iVar6 = 0
+while(iVar2 < iVar4) {
+	cc_create(iVar2, 5, arg0)
+	cc_setsize(0, 0, 125 - 4, 125 - 4)
+	if(iVar5 == 0) {
+		cc_setposition(0, 0, iVar6 + 2, 2)
+		iVar5 = 1
+	} else 
+		if(iVar5 == 1) {
+			cc_setposition(0, 1, iVar6 + 2, 0)
+			iVar5 = 2
+		} else  {
+			cc_setposition(0, 2, iVar6 + 2, 2)
+			iVar5 = 0
+			iVar6 = (iVar6 + 125) + iVar3
+		}
+	cc_setgraphic(297)
+	cc_settiling(1)
+	iVar2 = iVar2 + 1
+}
+if(iVar5 == 0)
+	iVar6 = max(0, iVar6 - iVar3)
+if_setscrollsize(arg0, iVar6, 0)
+script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+iVar7 = -1
+sVar0 = ""
+sVar1 = ""
+iVar8 = 0
+iVar9 = 0
+iVar10 = 125 - 18
+iVar2 = 0
+while(iVar2 < iVar4) {
+	iVar7 = enum(828, iVar2, 'i', 'o')
+	if(iVar7 != -1)
+		if(cc_find(iVar2, arg0) == 1) {
+			sVar0 = item_param(1367, iVar7)
+			iVar3 = item_param(1366, iVar7)
+			iVar5 = cc_getx() - 2
+			iVar8 = (iVar5 + 125) - 9
+			iVar9 = (iVar6 + 125) - 9
+			cc_create(if_getnextsubid(arg0), 6, arg0)
+			cc_setsize(0, 0, 75, 75)
+			cc_setposition(0, 0, iVar6 + 20, iVar5 + 25)
+			cc_setitem_nonum(1, iVar7)
+			cc_create(if_getnextsubid(arg0), 4, arg0)
+			cc_setsize(0, 0, 20, 125)
+			cc_setposition(0, 0, iVar6 + 5, iVar5)
+			cc_settextfont(494)
+			cc_settextalign(0, 1, 1)
+			cc_setcolor(ff981f)
+			cc_settextshadow(1)
+			cc_settext(sVar0)
+			cc_create(if_getnextsubid(arg0), 4, arg0)
+			cc_setsize(0, 0, 20, 125)
+			cc_setposition(0, 0, (iVar6 + 125) - 25, iVar5)
+			cc_settextfont(494)
+			cc_settextalign(0, 1, 1)
+			cc_setcolor(ff981f)
+			cc_settextshadow(1)
+			script_4229(iVar3, sVar1)
+			instr6095(script_4228, "IiisY", 1, 294, -2147483645, -2147483643, iVar3, sVar1)
+			cc_setonmouseleave(script_4228, "IiisY", 2, 93, 94, -2147483645, -2147483643, iVar3, sVar1)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, 9, 9)
+			cc_setposition(0, 0, iVar6, iVar5)
+			cc_setgraphic(913)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, 9, 9)
+			cc_setposition(0, 0, iVar6, iVar8)
+			cc_setgraphic(914)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, 9, 9)
+			cc_setposition(0, 0, iVar9, iVar5)
+			cc_setgraphic(915)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, 9, 9)
+			cc_setposition(0, 0, iVar9, iVar8)
+			cc_setgraphic(916)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, iVar10, 9)
+			cc_setposition(0, 0, iVar6 + 9, iVar5)
+			cc_setgraphic(917)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, 9, iVar10)
+			cc_setposition(0, 0, iVar6, iVar5 + 9)
+			cc_setgraphic(918)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, iVar10, 9)
+			cc_setposition(0, 0, iVar6 + 9, iVar8)
+			cc_setgraphic(919)
+			cc_create(if_getnextsubid(arg0), 5, arg0)
+			cc_setsize(0, 0, 9, iVar10)
+			cc_setposition(0, 0, iVar9, iVar5 + 9)
+			cc_setgraphic(920)
+			cc_setop("Claim", 1)
+			cc_setop("Examine", 10)
+			sVar0 = script_2332(sVar0, "<br>", " ")
+			cc_setopbase("<col=ff9040>" + sVar0)
+			instr6091(script_688, "Iid", -2147483645, -2147483643, 897)
+			instr6092(script_688, "Iid", -2147483645, -2147483643, 297)
+		}
+	iVar2 = iVar2 + 1
+}
+return

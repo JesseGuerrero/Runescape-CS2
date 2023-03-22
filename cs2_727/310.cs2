@@ -1,0 +1,11 @@
+//script310(310)(int arg0, int arg1, string arg2)(void)
+int iVar2
+int iVar3
+iVar2 = 0
+iVar3 = 0
+if(cc_find(arg1, arg0) == 1) {
+	iVar2 = (cc_getx() + cc_getheight()) + 1
+	iVar3 = iVar3 - if_getscrolly(arg0)
+	script_312(iVar2, iVar3, arg0)
+}
+return

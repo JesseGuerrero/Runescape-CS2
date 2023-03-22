@@ -1,0 +1,47 @@
+//script361(361)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar2 = script_734(gender())
+iVar3 = enum_getoutputcount(5735) - 1
+iVar4 = -1
+iVar5 = 0
+iVar6 = -1
+while(iVar3 >= 0) {
+	iVar4 = enum(5735, iVar3, 'i', 'J')
+	if(iVar4 != -1) {
+		iVar5 = 0
+		iVar6 = script_384(0, iVar4, iVar2)
+		while(iVar6 != -1) {
+			switch(arg1) {
+				case default:
+					break
+				case 3:
+					if(struct_param(1182, iVar6) == arg0)
+						return iVar6
+					break
+				case 4:
+					if(struct_param(1183, iVar6) == arg0)
+						return iVar6
+					break
+				case 5:
+					if(struct_param(1184, iVar6) == arg0)
+						return iVar6
+					break
+				case 6:
+					if(struct_param(1185, iVar6) == arg0)
+						return iVar6
+					return -1
+
+
+			}
+			iVar5 = iVar5 + 1
+			iVar6 = script_384(iVar5, iVar4, iVar2)
+		}
+	}
+	iVar3 = iVar3 - 1
+}
+return -1
+return -1

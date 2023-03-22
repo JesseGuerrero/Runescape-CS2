@@ -1,0 +1,21 @@
+//script2720(2720)(int arg0)(int)
+int iVar1
+if(arg0 == -1)
+	return 0
+arg0 = item_uncert(arg0)
+iVar1 = enum(731, arg0, 'o', 'i')
+if(load_varp(532) == 6529)
+	if(iVar1 != -1)
+		if(iVar1 > 0)
+			return iVar1
+iVar1 = enum(733, arg0, 'o', 'i')
+if(iVar1 != -1)
+	if(iVar1 > 0)
+		return iVar1
+if(item_param(258, arg0) == 1 || item_param(259, arg0) == 1)
+	return 99000
+iVar1 = item_cost(arg0)
+if(load_varp(532) == 6529)
+	iVar1 = scale(iVar1, 2, 3)
+return max(1, iVar1)
+return 0

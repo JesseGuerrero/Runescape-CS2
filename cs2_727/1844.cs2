@@ -1,0 +1,758 @@
+//script1844(1844)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varc(0)
+
+	case 1:
+		return load_varc(274)
+
+	case 2:
+		return load_varc(275)
+
+	case 3:
+		return load_varc(276)
+
+	case 4:
+		return load_varc(277)
+
+	case 5:
+		return load_varc(278)
+
+	case 6:
+		return load_varc(279)
+
+	case 7:
+		return load_varc(280)
+
+	case 8:
+		return load_varc(281)
+
+	case 9:
+		return load_varc(282)
+
+	case 10:
+		return load_varc(283)
+
+	case 11:
+		return load_varc(284)
+
+	case 12:
+		return load_varc(285)
+
+	case 13:
+		return load_varc(286)
+
+	case 14:
+		return load_varc(287)
+
+	case 15:
+		return load_varc(288)
+
+	case 16:
+		return load_varc(289)
+
+	case 17:
+		return load_varc(290)
+
+	case 18:
+		return load_varc(291)
+
+	case 19:
+		return load_varc(292)
+
+	case 20:
+		return load_varc(293)
+
+	case 21:
+		return load_varc(294)
+
+	case 22:
+		return load_varc(295)
+
+	case 23:
+		return load_varc(296)
+
+	case 24:
+		return load_varc(297)
+
+	case 25:
+		return load_varc(298)
+
+	case 26:
+		return load_varc(299)
+
+	case 27:
+		return load_varc(300)
+
+	case 28:
+		return load_varc(301)
+
+	case 29:
+		return load_varc(302)
+
+	case 30:
+		return load_varc(303)
+
+	case 31:
+		return load_varc(304)
+
+	case 32:
+		return load_varc(305)
+
+	case 33:
+		return load_varc(306)
+
+	case 34:
+		return load_varc(307)
+
+	case 35:
+		return load_varc(308)
+
+	case 36:
+		return load_varc(309)
+
+	case 37:
+		return load_varc(310)
+
+	case 38:
+		return load_varc(311)
+
+	case 39:
+		return load_varc(312)
+
+	case 40:
+		return load_varc(313)
+
+	case 41:
+		return load_varc(314)
+
+	case 42:
+		return load_varc(315)
+
+	case 43:
+		return load_varc(316)
+
+	case 44:
+		return load_varc(317)
+
+	case 45:
+		return load_varc(318)
+
+	case 46:
+		return load_varc(319)
+
+	case 47:
+		return load_varc(320)
+
+	case 48:
+		return load_varc(321)
+
+	case 49:
+		return load_varc(322)
+
+	case 50:
+		return load_varc(323)
+
+	case 51:
+		return load_varc(324)
+
+	case 52:
+		return load_varc(325)
+
+	case 53:
+		return load_varc(326)
+
+	case 54:
+		return load_varc(327)
+
+	case 55:
+		return load_varc(328)
+
+	case 56:
+		return load_varc(329)
+
+	case 57:
+		return load_varc(330)
+
+	case 58:
+		return load_varc(331)
+
+	case 59:
+		return load_varc(332)
+
+	case 60:
+		return load_varc(333)
+
+	case 61:
+		return load_varc(334)
+
+	case 62:
+		return load_varc(335)
+
+	case 63:
+		return load_varc(336)
+
+	case 64:
+		return load_varc(337)
+
+	case 65:
+		return load_varc(338)
+
+	case 66:
+		return load_varc(339)
+
+	case 67:
+		return load_varc(340)
+
+	case 68:
+		return load_varc(341)
+
+	case 69:
+		return load_varc(342)
+
+	case 70:
+		return load_varc(343)
+
+	case 71:
+		return load_varc(344)
+
+	case 72:
+		return load_varc(345)
+
+	case 73:
+		return load_varc(346)
+
+	case 74:
+		return load_varc(347)
+
+	case 75:
+		return load_varc(348)
+
+	case 76:
+		return load_varc(349)
+
+	case 77:
+		return load_varc(350)
+
+	case 78:
+		return load_varc(351)
+
+	case 79:
+		return load_varc(352)
+
+	case 80:
+		return load_varc(353)
+
+	case 81:
+		return load_varc(354)
+
+	case 82:
+		return load_varc(355)
+
+	case 83:
+		return load_varc(356)
+
+	case 84:
+		return load_varc(357)
+
+	case 85:
+		return load_varc(358)
+
+	case 86:
+		return load_varc(359)
+
+	case 87:
+		return load_varc(360)
+
+	case 88:
+		return load_varc(361)
+
+	case 89:
+		return load_varc(362)
+
+	case 90:
+		return load_varc(363)
+
+	case 91:
+		return load_varc(364)
+
+	case 92:
+		return load_varc(365)
+
+	case 93:
+		return load_varc(366)
+
+	case 94:
+		return load_varc(367)
+
+	case 95:
+		return load_varc(368)
+
+	case 96:
+		return load_varc(369)
+
+	case 97:
+		return load_varc(370)
+
+	case 98:
+		return load_varc(371)
+
+	case 99:
+		return load_varc(372)
+
+	case 100:
+		return load_varc(373)
+
+	case 101:
+		return load_varc(374)
+
+	case 102:
+		return load_varc(375)
+
+	case 103:
+		return load_varc(376)
+
+	case 104:
+		return load_varc(377)
+
+	case 105:
+		return load_varc(378)
+
+	case 106:
+		return load_varc(379)
+
+	case 107:
+		return load_varc(380)
+
+	case 108:
+		return load_varc(381)
+
+	case 109:
+		return load_varc(382)
+
+	case 110:
+		return load_varc(383)
+
+	case 111:
+		return load_varc(384)
+
+	case 112:
+		return load_varc(385)
+
+	case 113:
+		return load_varc(386)
+
+	case 114:
+		return load_varc(387)
+
+	case 115:
+		return load_varc(388)
+
+	case 116:
+		return load_varc(389)
+
+	case 117:
+		return load_varc(390)
+
+	case 118:
+		return load_varc(391)
+
+	case 119:
+		return load_varc(392)
+
+	case 120:
+		return load_varc(393)
+
+	case 121:
+		return load_varc(394)
+
+	case 122:
+		return load_varc(395)
+
+	case 123:
+		return load_varc(396)
+
+	case 124:
+		return load_varc(397)
+
+	case 125:
+		return load_varc(398)
+
+	case 126:
+		return load_varc(399)
+
+	case 127:
+		return load_varc(400)
+
+	case 128:
+		return load_varc(401)
+
+	case 129:
+		return load_varc(402)
+
+	case 130:
+		return load_varc(403)
+
+	case 131:
+		return load_varc(404)
+
+	case 132:
+		return load_varc(405)
+
+	case 133:
+		return load_varc(406)
+
+	case 134:
+		return load_varc(407)
+
+	case 135:
+		return load_varc(408)
+
+	case 136:
+		return load_varc(409)
+
+	case 137:
+		return load_varc(410)
+
+	case 138:
+		return load_varc(411)
+
+	case 139:
+		return load_varc(412)
+
+	case 140:
+		return load_varc(413)
+
+	case 141:
+		return load_varc(414)
+
+	case 142:
+		return load_varc(415)
+
+	case 143:
+		return load_varc(416)
+
+	case 144:
+		return load_varc(417)
+
+	case 145:
+		return load_varc(418)
+
+	case 146:
+		return load_varc(419)
+
+	case 147:
+		return load_varc(420)
+
+	case 148:
+		return load_varc(421)
+
+	case 149:
+		return load_varc(422)
+
+	case 150:
+		return load_varc(423)
+
+	case 151:
+		return load_varc(424)
+
+	case 152:
+		return load_varc(425)
+
+	case 153:
+		return load_varc(426)
+
+	case 154:
+		return load_varc(427)
+
+	case 155:
+		return load_varc(428)
+
+	case 156:
+		return load_varc(429)
+
+	case 157:
+		return load_varc(430)
+
+	case 158:
+		return load_varc(431)
+
+	case 159:
+		return load_varc(432)
+
+	case 160:
+		return load_varc(433)
+
+	case 161:
+		return load_varc(434)
+
+	case 162:
+		return load_varc(435)
+
+	case 163:
+		return load_varc(436)
+
+	case 164:
+		return load_varc(437)
+
+	case 165:
+		return load_varc(438)
+
+	case 166:
+		return load_varc(439)
+
+	case 167:
+		return load_varc(440)
+
+	case 168:
+		return load_varc(441)
+
+	case 169:
+		return load_varc(442)
+
+	case 170:
+		return load_varc(443)
+
+	case 171:
+		return load_varc(444)
+
+	case 172:
+		return load_varc(445)
+
+	case 173:
+		return load_varc(446)
+
+	case 174:
+		return load_varc(447)
+
+	case 175:
+		return load_varc(448)
+
+	case 176:
+		return load_varc(449)
+
+	case 177:
+		return load_varc(450)
+
+	case 178:
+		return load_varc(451)
+
+	case 179:
+		return load_varc(452)
+
+	case 180:
+		return load_varc(453)
+
+	case 181:
+		return load_varc(454)
+
+	case 182:
+		return load_varc(455)
+
+	case 183:
+		return load_varc(456)
+
+	case 184:
+		return load_varc(457)
+
+	case 185:
+		return load_varc(458)
+
+	case 186:
+		return load_varc(459)
+
+	case 187:
+		return load_varc(460)
+
+	case 188:
+		return load_varc(461)
+
+	case 189:
+		return load_varc(462)
+
+	case 190:
+		return load_varc(463)
+
+	case 191:
+		return load_varc(464)
+
+	case 192:
+		return load_varc(465)
+
+	case 193:
+		return load_varc(466)
+
+	case 194:
+		return load_varc(467)
+
+	case 195:
+		return load_varc(468)
+
+	case 196:
+		return load_varc(469)
+
+	case 197:
+		return load_varc(470)
+
+	case 198:
+		return load_varc(471)
+
+	case 199:
+		return load_varc(472)
+
+	case 200:
+		return load_varc(473)
+
+	case 201:
+		return load_varc(474)
+
+	case 202:
+		return load_varc(475)
+
+	case 203:
+		return load_varc(476)
+
+	case 204:
+		return load_varc(477)
+
+	case 205:
+		return load_varc(478)
+
+	case 206:
+		return load_varc(479)
+
+	case 207:
+		return load_varc(480)
+
+	case 208:
+		return load_varc(481)
+
+	case 209:
+		return load_varc(482)
+
+	case 210:
+		return load_varc(483)
+
+	case 211:
+		return load_varc(484)
+
+	case 212:
+		return load_varc(485)
+
+	case 213:
+		return load_varc(486)
+
+	case 214:
+		return load_varc(487)
+
+	case 215:
+		return load_varc(488)
+
+	case 216:
+		return load_varc(489)
+
+	case 217:
+		return load_varc(490)
+
+	case 218:
+		return load_varc(491)
+
+	case 219:
+		return load_varc(492)
+
+	case 220:
+		return load_varc(493)
+
+	case 221:
+		return load_varc(494)
+
+	case 222:
+		return load_varc(495)
+
+	case 223:
+		return load_varc(496)
+
+	case 224:
+		return load_varc(497)
+
+	case 225:
+		return load_varc(498)
+
+	case 226:
+		return load_varc(499)
+
+	case 227:
+		return load_varc(500)
+
+	case 228:
+		return load_varc(501)
+
+	case 229:
+		return load_varc(502)
+
+	case 230:
+		return load_varc(503)
+
+	case 231:
+		return load_varc(504)
+
+	case 232:
+		return load_varc(505)
+
+	case 233:
+		return load_varc(506)
+
+	case 234:
+		return load_varc(507)
+
+	case 235:
+		return load_varc(508)
+
+	case 236:
+		return load_varc(509)
+
+	case 237:
+		return load_varc(510)
+
+	case 238:
+		return load_varc(511)
+
+	case 239:
+		return load_varc(512)
+
+	case 240:
+		return load_varc(513)
+
+	case 241:
+		return load_varc(514)
+
+	case 242:
+		return load_varc(515)
+
+	case 243:
+		return load_varc(516)
+
+	case 244:
+		return load_varc(517)
+
+	case 245:
+		return load_varc(518)
+
+	case 246:
+		return load_varc(519)
+
+	case 247:
+		return load_varc(520)
+
+	case 248:
+		return load_varc(521)
+
+	case 249:
+		return load_varc(522)
+
+
+}
+return 0
+return 0

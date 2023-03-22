@@ -1,0 +1,17 @@
+//script4431(4431)(int arg0)(void)
+string sVar0
+sVar0 = ""
+if(activeclanchannel_find_affined() == 1) {
+	instr6342(arg0, None, "")
+	script_4434()
+	instr6260(if_gethash(1110, 3), script_4433, "")
+	instr6261(if_gethash(1110, 3), script_4433, "")
+	if_setgraphic(if_gethash(1110, 83), 6255)
+} else  {
+	script_4437()
+	sVar0 = "Join Clan Chat channel."
+	if_setonmouseover(if_gethash(1110, 82), script_4538, "IIisifdiiiiii", if_gethash(1110, 124), -2147483645, -1, sVar0, 120, 3793, 3793, 16101953, 13, 4, 0, -2147483647, -2147483646)
+	instr6213(if_gethash(1110, 82), 1, "Join Clan Chat channel")
+	script_4589()
+}
+return

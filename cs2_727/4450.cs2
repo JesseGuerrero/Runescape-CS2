@@ -1,0 +1,7 @@
+//script4450(4450)()(void)
+if(instr6661(-1, if_gethash(1110, 14)) == 1)
+	return
+instr6342(if_gethash(1110, 14), None, "")
+if(activeclanchannel_find_affined() == 1)
+	script_4451()
+return

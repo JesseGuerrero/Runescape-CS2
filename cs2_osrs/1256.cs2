@@ -1,0 +1,13 @@
+void script_1256(int arg0, Widget widget1, int arg2, string string3, Item arg4, Item arg5, Item item6) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	script_1255(1, widget1, string3, "<col=7f7f7f>" + "Requesting..." + "</col>", item6);
+	widget1.hookMouseHover(null);
+	widget1.hookMouseExit(null);
+	widget1.hookOptionClick(null);
+	widget1.setContextMenuOption(1, "");
+	widget1.hookFrame(&script_1257(getClientCycle() + 40, widget1, arg2, string3, arg4, arg5));
+	return;
+}

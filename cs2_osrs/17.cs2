@@ -1,0 +1,7 @@
+void script_17(Widget widget0) {
+	widget0.setOutlineThickness(2);
+	if (isBitFlagged(getTargetMask(widget0), 4) == true) {
+		script_916(3, script_900());
+	}
+	return;
+}

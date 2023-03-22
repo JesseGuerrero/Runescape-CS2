@@ -1,0 +1,31 @@
+//script5623(5623)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(instr6644() == 1)
+	iVar1 = 1800
+else
+	iVar1 = 2 * (if_getheight(if_gethash(1199, 14)) / 3)
+switch(arg0) {
+	case default:
+		break
+	case 78577672:
+		if_setposition(arg0, 0, 0, 0 - if_getheight(arg0), if_getwidth(if_gethash(1199, 14)) / 2)
+		break
+	case 78577670:
+		if_setposition(arg0, 0, 0, if_getheight(if_gethash(1199, 14)) / 2, if_getwidth(if_gethash(1199, 14)))
+		break
+	case 78577666:
+		if_setposition(arg0, 0, 0, if_getheight(if_gethash(1199, 14)), if_getwidth(if_gethash(1199, 14)) / 2)
+		break
+	case 78577674:
+		if_setposition(arg0, 0, 0, if_getheight(if_gethash(1199, 14)), 0 - if_getwidth(arg0))
+		break
+	case 78577668:
+		if_setposition(arg0, 0, 0, if_getheight(if_gethash(1199, 14)) / 2, 0 - if_getwidth(arg0))
+		break
+	case 78577676:
+		if_setposition(arg0, 0, 0, 0 - if_getheight(arg0), 0 - if_getwidth(arg0))
+		break
+
+}
+return

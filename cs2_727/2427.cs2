@@ -1,0 +1,3 @@
+//script2427(2427)(int arg0)(void)
+if_setitem(arg0, 72, enum(172, load_varc(809), 'i', 'o'))
+return

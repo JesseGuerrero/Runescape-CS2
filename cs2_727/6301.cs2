@@ -1,0 +1,8 @@
+//script6301(6301)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 < 10) {
+	script_6303(iVar0, "")
+	iVar0 = iVar0 + 1
+}
+return

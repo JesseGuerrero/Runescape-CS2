@@ -1,0 +1,32 @@
+void script_132(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9) {
+	int int10;
+	int int11;
+	script_1578(widget8);
+	widget0.hookVARP(&script_1577(widget8), 453);
+	widget9.clearChildren();
+	int10 = script_1071("Ahrim", 0, widget9);
+	int11 = script_1071("Dharok", 1, widget9);
+	if (int11 > int10) {
+		int10 = int11;
+	}
+	int11 = script_1071("Guthan", 2, widget9);
+	if (int11 > int10) {
+		int10 = int11;
+	}
+	int11 = script_1071("Karil", 3, widget9);
+	if (int11 > int10) {
+		int10 = int11;
+	}
+	int11 = script_1071("Torag", 4, widget9);
+	if (int11 > int10) {
+		int10 = int11;
+	}
+	int11 = script_1071("Verac", 5, widget9);
+	if (int11 > int10) {
+		int10 = int11;
+	}
+	widget9.setSize(int10 + 20, 102, 0, 0);
+	script_168(widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, -2147483648);
+	widget0.hookWidgetsOpenClose(&script_140(widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, -2147483648));
+	return;
+}

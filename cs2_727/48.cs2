@@ -1,0 +1,8 @@
+//script48(48)()(void)
+if(load_varc(1034) == 1)
+	if(load_varc(1027) == 1)
+		if(string_length(load_varc_string(202)) > 0) {
+			fc_joinchat(load_varc_string(202))
+			store_varc(1034, 2)
+		}
+return

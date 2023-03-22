@@ -1,0 +1,29 @@
+//script293(293)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar3 = (arg1 + arg2) / 2
+iVar4 = globalArrays[0][iVar3]
+globalArrays[0][iVar3] = globalArrays[0][arg2]
+globalArrays[0][arg2] = iVar4
+iVar5 = arg1
+iVar6 = arg1
+iVar7 = 0
+while(iVar6 < arg2) {
+	if(compare(instr6611(enum(708, iVar4, 'i', '`')).toLowerCase(), instr6611(enum(708, globalArrays[0][iVar6], 'i', '`')).toLowerCase()) < iVar6 & 1) {
+		iVar7 = globalArrays[0][iVar6]
+		globalArrays[0][iVar6] = globalArrays[0][iVar5]
+		globalArrays[0][iVar5] = iVar7
+		iVar5 = iVar5 + 1
+	}
+	iVar6 = iVar6 + 1
+}
+globalArrays[0][arg2] = globalArrays[0][iVar5]
+globalArrays[0][iVar5] = iVar4
+if(arg1 < iVar5 - 1)
+	script_293(0, arg1, iVar5 - 1)
+if(iVar5 + 1 < arg2)
+	script_293(0, iVar5 + 1, arg2)
+return

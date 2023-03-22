@@ -1,0 +1,184 @@
+void script_277(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, int arg8, Widget widget9, Widget widget10, Widget widget11, Widget widget12) {
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	Item item19;
+	int int20;
+	int int21;
+	int int22;
+	int int23;
+	int int24;
+	int int25;
+	int int26;
+	int int27;
+	string str0;
+	if (VARPBIT[5102] == 1) {
+		widget10.setIsHidden(false);
+	} else {
+		widget10.setIsHidden(true);
+		script_41(widget12);
+	}
+	if (VARPBIT[5364] == 1) {
+		widget5.setSize(37, 37, 1, 0);
+	} else {
+		widget5.setSize(0, 37, 1, 0);
+	}
+	widget11.setIsHidden(true);
+	widget11.clearChildren();
+	int13 = 0;
+	if (VARPBIT[4170] == 3) {
+		if (VARPBIT[4171] > 0 || VARPBIT[4172] > 0 || VARPBIT[4173] > 0 || VARPBIT[4174] > 0 || VARPBIT[4175] > 0 || VARPBIT[4176] > 0 || VARPBIT[4177] > 0 || VARPBIT[4178] > 0 || VARPBIT[4179] > 0) {
+			int13 = 0;
+		} else {
+			int13 = 1;
+		}
+	}
+	int14 = 0;
+	if (int13 == 1) {
+		widget9.setIsHidden(true);
+		int14 = 11;
+		widget1.setSize(0, 26, 1, 1);
+		widget3.setSize(374, 39, 0, 1);
+		widget4.setSize(16, 39, 0, 1);
+		widget2.setPosition(30, 48, 2, 0);
+	} else {
+		widget9.setIsHidden(false);
+		widget1.setSize(0, 0, 1, 1);
+		widget3.setSize(374, 81, 0, 1);
+		widget4.setSize(16, 81, 0, 1);
+		widget2.setPosition(12, 42, 2, 0);
+	}
+	script_231(widget4, widget3);
+	int15 = 800;
+	int16 = 800 + 9 * 3;
+	while (int15 <= int16) {
+		if (CHILD.setChild(widget3, int15) == true) {
+			CHILD.setHidden(true);
+		}
+		int15 = int15 + 1;
+	}
+	int15 = 0;
+	int17 = 8 - 1;
+	int18 = (widget3.getWidth() - 8 * 36) / int17;
+	item19 = null;
+	int20 = 0;
+	int21 = 0;
+	int22 = -1;
+	int23 = 0;
+	str0 = "";
+	if (VARPBIT[4150] <= 0 || VARPBIT[4150] > 9) {
+		while (int15 < 800) {
+			if (CHILD.setChild(widget3, int15) == true) {
+				CHILD.setHidden(true);
+			}
+			if (getItemIdInSlot(95, int15) != null) {
+				int21, int22 = int21 + 1, int15;
+			}
+			int15 = int15 + 1;
+		}
+		int23 = VARPBIT[4171] + VARPBIT[4172] + VARPBIT[4173] + VARPBIT[4174] + VARPBIT[4175] + VARPBIT[4176] + VARPBIT[4177] + VARPBIT[4178] + VARPBIT[4179];
+		if (int23 <= 0) {
+			int22 = 800 - 1;
+		}
+		int20 = script_509(int23, int22 + 1, 0, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+		int15 = 0;
+		if (VARPBIT[4171] > 0) {
+			int14 = script_510(1, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4171], 1, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4171];
+		}
+		if (VARPBIT[4172] > 0) {
+			int14 = script_510(2, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4172], 2, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4172];
+		}
+		if (VARPBIT[4173] > 0) {
+			int14 = script_510(3, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4173], 3, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4173];
+		}
+		if (VARPBIT[4174] > 0) {
+			int14 = script_510(4, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4174], 4, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4174];
+		}
+		if (VARPBIT[4175] > 0) {
+			int14 = script_510(5, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4175], 5, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4175];
+		}
+		if (VARPBIT[4176] > 0) {
+			int14 = script_510(6, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4176], 6, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4176];
+		}
+		if (VARPBIT[4177] > 0) {
+			int14 = script_510(7, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4177], 7, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4177];
+		}
+		if (VARPBIT[4178] > 0) {
+			int14 = script_510(8, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4178], 8, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4178];
+		}
+		if (VARPBIT[4179] > 0) {
+			int14 = script_510(9, widget3, int20);
+			int20 = script_509(int15, int15 + VARPBIT[4179], 9, widget3, widget4, widget10, widget11, widget12, int14, int18, int17, int13);
+			int15 = int15 + VARPBIT[4179];
+		}
+		if (script_514() == 1) {
+			str0 = script_280();
+			if (length(str0) > 0) {
+				widget6.setText("Showing items: " + "<col=ff0000>" + str0 + "</col>");
+			} else {
+				widget6.setText("Showing items: " + "<col=ff0000>" + "*" + "</col>");
+			}
+		} else {
+			widget6.setText("The Bank of RuneScape");
+		}
+		script_505(arg0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, arg8, widget9, widget10, widget11, widget12, int20, int21);
+		return;
+	}
+	if (script_514() == 1) {
+		script_299(1, 1);
+	}
+	int24 = -1;
+	int25 = -1;
+	int24, int25 = script_513(VARPBIT[4150]);
+	int26 = 0;
+	int27 = 0;
+	while (int15 < 800) {
+		if (CHILD.setChild(widget3, int15) == true) {
+			item19 = getItemIdInSlot(95, int15);
+			if (item19 != null) {
+				int21 = int21 + 1;
+			}
+			if (int15 >= int24 && int15 < int25) {
+				CHILD.setHidden(false);
+				script_278(item19, getItemAmtInSlot(95, int15), widget3, widget4, widget10, widget11, widget12);
+				int20 = int27 * 36;
+				CHILD.setPosition(int26 * (36 + int18), int20, 0, 0);
+				int20 = int20 + 32;
+				if (int26 < int17) {
+					int26 = int26 + 1;
+				} else {
+					int26, int27 = 0, int27 + 1;
+				}
+			} else {
+				CHILD.setHidden(true);
+			}
+		}
+		int15 = int15 + 1;
+	}
+	if (VARPBIT[4170] == 2) {
+		widget6.setText("Tab " + datamap('i', 's', 207, VARPBIT[4150]));
+	} else {
+		widget6.setText("Tab " + VARPBIT[4150]);
+	}
+	script_505(arg0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, arg8, widget9, widget10, widget11, widget12, int20, int21);
+	return;
+}

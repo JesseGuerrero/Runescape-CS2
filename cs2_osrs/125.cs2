@@ -1,0 +1,157 @@
+void script_125(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, int arg7) {
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	string str0;
+	string str1;
+	int8 = getFriendCount();
+	if (int8 > 200) {
+		if (VARC[183] != 1) {
+			VARC[183] = 0;
+		}
+		script_1671(widget1, "Sort by name", arg7);
+		script_1671(widget2, "Sort by world", arg7);
+	} else {
+		script_1669(widget1, 2, 3, "Sort by name", widget0, widget1, widget2, widget3, widget4, widget5, widget6, arg7);
+		script_1669(widget2, 4, 5, "Sort by world", widget0, widget1, widget2, widget3, widget4, widget5, widget6, arg7);
+	}
+	script_1669(widget3, 0, 1, "Legacy sort", widget0, widget1, widget2, widget3, widget4, widget5, widget6, arg7);
+	widget4.clearChildren();
+	int9 = 0;
+	int10 = 0;
+	str0 = "";
+	str1 = "";
+	int11 = 0;
+	ARRAY0 = new int[script_1045(int8, 1)];
+	int12 = 0;
+	if (int8 <= -2) {
+		widget6.setText("Loading friend list" + "<br>" + "Please wait...");
+		widget0.setIsHidden(true);
+	} else if (int8 == -1) {
+		widget6.setText("Connecting to server" + "<br>" + "Please wait...");
+		widget0.setIsHidden(true);
+	} else {
+		widget6.setText("");
+		widget0.setIsHidden(false);
+		while (int9 < int8) {
+			int10 = int9 * 5;
+			ARRAY0[int9] = int10;
+			str0, str1 = getFriendName(int9);
+			CHILD.createChild(widget4, 4, int10);
+			CHILD.setText(str0);
+			CHILD.setSize(0, 15, 1, 0);
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setFont(495);
+			CHILD.setTextAlignment(0, 0, 0);
+			CHILD.setTextAntiMacro(true);
+			CHILD.setOptionBase("<col=ff9040>" + str0 + "</col>");
+			int11 = getFriendWorld(int9);
+			if (int11 != 0) {
+				CHILD.setContextMenuOption(1, "Message");
+				CHILD.setContextMenuOption(2, "");
+			} else {
+				CHILD.setContextMenuOption(1, "");
+				CHILD.setContextMenuOption(2, "Message");
+			}
+			CHILD.setContextMenuOption(3, "Delete");
+			CHILD.hookOptionClick(&script_126(CTX_MENU_OPTION, "event_opbase"));
+			_CHILD.createChild(widget4, 5, int10 + 1);
+			_CHILD.setSize(14, 14, 0, 0);
+			_CHILD.setSprite(1093);
+			_CHILD.setShadowColor(0x333333);
+			if (length(str1) > 0) {
+				str1 = "Previous name:" + "<br>" + str1;
+				CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg7), str1, 25, 190));
+				CHILD.hookMouseExit(&script_40(widget(arg7)));
+				_CHILD.setHidden(false);
+			} else {
+				CHILD.hookMouseEnter(&script_40(widget(arg7)));
+				_CHILD.setHidden(true);
+			}
+			CHILD.createChild(widget4, 4, int10 + 2);
+			CHILD.setSize(0, 15, 1, 0);
+			CHILD.setFont(495);
+			CHILD.setTextAlignment(2, 0, 0);
+			CHILD.setTextAntiMacro(true);
+			if (int11 == 0) {
+				CHILD.setText("Offline");
+				CHILD.setRGB(0xFF0000);
+			} else if (int11 == getWorldId()) {
+				CHILD.setText("World " + int11);
+				CHILD.setRGB(0x0DC10D);
+			} else {
+				if (int11 > 5000) {
+					CHILD.setText("<col=ffff00>" + "Classic " + (int11 - 5000));
+				} else {
+					CHILD.setText("<col=ffff00>" + "World " + int11);
+				}
+				CHILD.setRGB(0xFFFF00);
+			}
+			CHILD.createChild(widget4, 4, int10 + 3);
+			CHILD.setSize(0, 0, 0, 0);
+			CHILD.setHidden(true);
+			CHILD.setText(concat(script_1503(str(int11), 5), int9));
+			CHILD.createChild(widget4, 4, int10 + 4);
+			CHILD.setSize(0, 0, 0, 0);
+			CHILD.setHidden(true);
+			if (VARC[183] == 3) {
+				if (int11 != 0) {
+					CHILD.setText(concat("zzzzzzzzzzzzzzz", str0));
+				} else {
+					CHILD.setText(str0);
+				}
+			} else if (int11 == 0) {
+				CHILD.setText(concat("zzzzzzzzzzzzzzz", str0));
+			} else {
+				CHILD.setText(str0);
+			}
+			int9 = int9 + 1;
+		}
+		if (int8 >= 2) {
+			if (VARC[183] == 2 || VARC[183] == 3) {
+				script_114(0, 0, int8 - 1);
+			} else if (VARC[183] == 4 || VARC[183] == 5) {
+				script_1683(0, 0, int8 - 1);
+			}
+		}
+		if (int8 >= 1) {
+			if (VARC[183] == 3 || VARC[183] == 5 || VARC[183] == 1) {
+				int9 = int8;
+				while (int9 > 0) {
+					int9 = int9 - 1;
+					if (CHILD.setChild(widget4, ARRAY0[int9]) == true && _CHILD.setChild(widget4, ARRAY0[int9] + 1) == true) {
+						CHILD.setPosition(0, int12, 1, 0);
+						_CHILD.setPosition(getMaxLineWidth(getText(), 190, 495) + 3, int12, 0, 0);
+					}
+					if (CHILD.setChild(widget4, ARRAY0[int9] + 2) == true) {
+						CHILD.setPosition(0, int12, 1, 0);
+					}
+					int12 = int12 + 15;
+				}
+			} else {
+				int9 = 0;
+				while (int9 < int8) {
+					if (CHILD.setChild(widget4, ARRAY0[int9]) == true && _CHILD.setChild(widget4, ARRAY0[int9] + 1) == true) {
+						CHILD.setPosition(0, int12, 1, 0);
+						_CHILD.setPosition(getMaxLineWidth(getText(), 190, 495) + 3, int12, 0, 0);
+					}
+					if (CHILD.setChild(widget4, ARRAY0[int9] + 2) == true) {
+						CHILD.setPosition(0, int12, 1, 0);
+					}
+					int12, int9 = int12 + 15, int9 + 1;
+				}
+			}
+			int12 = int12 + 5;
+		}
+	}
+	if (int12 > widget4.getHeight()) {
+		widget4.setScrollMax(0, int12);
+		script_72(widget5, widget4, VARC[9]);
+	} else {
+		widget4.setScrollMax(0, 0);
+		script_72(widget5, widget4, 0);
+	}
+	return;
+}

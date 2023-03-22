@@ -1,0 +1,58 @@
+//script2630(2630)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = -1
+iVar2 = -1
+store_varc(905, arg0)
+store_varc(904, 1)
+switch(arg0) {
+	case default:
+		break
+	case 56295437:
+		arg0 = 56295426
+		iVar1 = 1914
+		iVar2 = 1922
+		break
+	case 56295438:
+		arg0 = 56295432
+		iVar1 = 1915
+		iVar2 = 1923
+		break
+	case 56295439:
+		arg0 = 56295431
+		iVar1 = 1916
+		iVar2 = 1924
+		break
+	case 56295440:
+		if(load_varpbit(6357) == 2) {
+			arg0 = 56295446
+			iVar1 = 1917
+			iVar2 = 1925
+		}
+		if(load_varpbit(6357) == 3) {
+			arg0 = 56295430
+			iVar1 = 1918
+			iVar2 = 1926
+		}
+		if(load_varpbit(6357) == 4) {
+			arg0 = 56295447
+			iVar1 = 1921
+			iVar2 = 1929
+		}
+		break
+	case 56295441:
+		if(load_varpbit(6357) == 2) {
+			arg0 = 56295445
+			iVar1 = 1920
+			iVar2 = 1928
+		}
+		if(load_varpbit(6357) == 4) {
+			arg0 = 56295444
+			iVar1 = 1919
+			iVar2 = 1927
+		}
+		break
+
+}
+instr6342(arg0, script_2631, "Idd", arg0, iVar1, iVar2)
+return

@@ -1,0 +1,38 @@
+//script3360(3360)()(int, int, string)
+switch(load_varp(448)) {
+	case default:
+		return 18057, 5, "Aptitude (Tier 1)"
+
+	case 17955:
+		return 18057, 5, "Aptitude (Tier 1)"
+
+	case 17956:
+		return 18058, 15, "Aptitude (Tier 2)"
+
+	case 17957:
+		return 18059, 25, "Aptitude (Tier 3)"
+
+	case 17958:
+		return 18060, 35, "Aptitude (Tier 4)"
+
+	case 17959:
+		return 18061, 45, "Aptitude (Tier 5)"
+
+	case 17960:
+		return 18062, 55, "Aptitude (Tier 6)"
+
+	case 17961:
+		return 18063, 65, "Aptitude (Tier 7)"
+
+	case 17962:
+		return 18064, 75, "Aptitude (Tier 8)"
+
+	case 17963:
+		return 18065, 85, "Aptitude (Tier 9)"
+
+	case 17964:
+		return 18066, 95, "Aptitude (Tier 10)"
+
+
+}
+return -1, 0, ""

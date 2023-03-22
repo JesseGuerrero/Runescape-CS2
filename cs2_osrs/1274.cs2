@@ -1,0 +1,13 @@
+void script_1274(int arg0, Sprite sprite1, string string2) {
+	CHILD.createChild(widget(226, 4), 5, arg0 * 2);
+	CHILD.setPosition(arg0 * 39, 0, 0, 0);
+	CHILD.setSize(39, 29, 0, 0);
+	CHILD.setSprite(1345);
+	CHILD.setContextMenuOption(1, string2);
+	CHILD.hookOptionClick(&script_1275(arg0));
+	CHILD.createChild(widget(226, 4), 5, arg0 * 2 + 1);
+	CHILD.setPosition(arg0 * 39 + 7, 3, 0, 0);
+	CHILD.setSize(25, 20, 0, 0);
+	CHILD.setSprite(sprite1);
+	return;
+}

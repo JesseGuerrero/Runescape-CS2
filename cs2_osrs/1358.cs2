@@ -1,0 +1,1026 @@
+int script_1358(int arg0) {
+	if (arg0 < 10) {
+		if (arg0 == 0) {
+			if (VARPBIT[3185] == 240) {
+				return 2;
+			}
+			if (VARPBIT[3185] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 1) {
+			if (VARPBIT[299] > 109) {
+				return 2;
+			}
+			if (VARPBIT[299] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 2) {
+			if (VARP[293] == 65) {
+				return 2;
+			}
+			if (VARP[293] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 3) {
+			if (VARP[68] == 16) {
+				return 2;
+			}
+			if (VARP[68] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 4) {
+			if (VARP[655] > 130) {
+				return 2;
+			}
+			if (VARP[655] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 5) {
+			if (VARP[10] == 8) {
+				return 2;
+			}
+			if (VARP[10] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 6) {
+			if (VARPBIT[3274] == 130) {
+				return 2;
+			}
+			if (VARPBIT[3274] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 7) {
+			if (VARPBIT[487] > 12) {
+				return 2;
+			}
+			if (VARPBIT[487] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 8) {
+			if (VARP[399] > 6) {
+				return 2;
+			}
+			if (VARP[399] == 0) {
+				if (VARPBIT[203] == 0) {
+					return 1;
+				}
+				return 0;
+			}
+			return 0;
+		}
+		if (arg0 == 9) {
+			if (VARPBIT[2573] == 320) {
+				return 2;
+			}
+			if (VARPBIT[2573] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 20) {
+		if (arg0 == 10) {
+			if (VARPBIT[2258] == 13) {
+				return 2;
+			}
+			if (VARPBIT[2258] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 11) {
+			if (VARP[314] == 80) {
+				return 2;
+			}
+			if (VARP[314] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 12) {
+			if (VARPBIT[358] == 15) {
+				return 2;
+			}
+			if (VARPBIT[358] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 13) {
+			if (VARPBIT[1465] == 80) {
+				return 2;
+			}
+			if (VARPBIT[1465] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 14) {
+			if (VARP[131] == 9) {
+				return 2;
+			}
+			if (VARP[131] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 15) {
+			if (VARP[80] == 4) {
+				return 2;
+			}
+			if (VARP[80] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 16) {
+			if (VARP[0] > 10) {
+				return 2;
+			}
+			if (VARP[0] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 17) {
+			if (VARP[335] == 110) {
+				return 2;
+			}
+			if (VARP[335] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 18) {
+			if (VARPBIT[2780] == 40) {
+				return 2;
+			}
+			if (VARPBIT[2780] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 19) {
+			if (isBitFlagged(VARP[299], 20) == true) {
+				return 2;
+			}
+			if (isBitFlagged(VARP[299], 1) == false) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 30) {
+		if (arg0 == 20) {
+			if (VARPBIT[2639] == 11) {
+				return 2;
+			}
+			if (VARPBIT[2639] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 21) {
+			if (VARPBIT[1560] > 69) {
+				return 2;
+			}
+			if (VARPBIT[1560] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 22) {
+			if (VARPBIT[2866] == 200) {
+				return 2;
+			}
+			if (VARPBIT[2866] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 23) {
+			if (VARPBIT[2497] == 60) {
+				return 2;
+			}
+			if (VARPBIT[2497] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 24) {
+			if (VARPBIT[1803] == 90) {
+				return 2;
+			}
+			if (VARPBIT[1803] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 25) {
+			if (VARPBIT[2326] > 80) {
+				return 2;
+			}
+			if (VARPBIT[2326] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 26) {
+			if (VARP[148] == 11) {
+				return 2;
+			}
+			if (VARP[148] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 27) {
+			if (VARPBIT[334] > 27) {
+				return 2;
+			}
+			if (VARPBIT[334] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 28) {
+			if (VARP[17] > 13) {
+				return 2;
+			}
+			if (VARP[17] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 29) {
+			if (VARP[11] == 5) {
+				return 2;
+			}
+			if (VARP[11] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 40) {
+		if (arg0 == 30) {
+			if (VARPBIT[822] >= 140) {
+				return 2;
+			}
+			if (VARPBIT[822] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 31) {
+			if (VARP[347] > 9) {
+				return 2;
+			}
+			if (VARP[347] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 32) {
+			if (VARP[65] == 10) {
+				return 2;
+			}
+			if (VARP[65] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 33) {
+			if (VARPBIT[961] == 60) {
+				return 2;
+			}
+			if (VARPBIT[961] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 34) {
+			if (VARP[180] > 5) {
+				return 2;
+			}
+			if (VARP[180] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 35) {
+			if (VARPBIT[217] > 7) {
+				return 2;
+			}
+			if (VARPBIT[217] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 36) {
+			if (VARPBIT[571] > 49) {
+				return 2;
+			}
+			if (VARPBIT[571] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 37) {
+			if (VARPBIT[346] > 9) {
+				return 2;
+			}
+			if (VARPBIT[346] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 38) {
+			if (VARP[150] == 160) {
+				return 2;
+			}
+			if (VARP[150] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 39) {
+			if (VARPBIT[1527] > 159) {
+				return 2;
+			}
+			if (VARPBIT[1527] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 50) {
+		if (arg0 == 40) {
+			if (VARP[382] == 11) {
+				return 2;
+			}
+			if (VARP[382] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 41) {
+			if (VARP[223] == 9) {
+				return 2;
+			}
+			if (VARP[223] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 42) {
+			if (VARP[188] == 15) {
+				return 2;
+			}
+			if (VARP[188] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 43) {
+			if (VARP[5] == 10) {
+				return 2;
+			}
+			if (VARP[5] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 44) {
+			if (VARPBIT[34] > 9) {
+				return 2;
+			}
+			if (VARPBIT[34] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 45) {
+			if (VARPBIT[418] > 25) {
+				return 2;
+			}
+			if (VARPBIT[418] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 46) {
+			if (VARPBIT[1990] > 420) {
+				return 2;
+			}
+			if (VARPBIT[1990] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 47) {
+			if (VARP[387] > 100) {
+				return 2;
+			}
+			if (VARP[387] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 48) {
+			if (VARP[175] > 11) {
+				return 2;
+			}
+			if (VARP[175] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 49) {
+			if (VARP[139] == 75) {
+				return 2;
+			}
+			if (VARP[139] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 60) {
+		if (arg0 == 50) {
+			if (VARP[147] == 6) {
+				return 2;
+			}
+			if (VARP[147] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 51) {
+			if (VARPBIT[532] >= 11) {
+				return 2;
+			}
+			if (VARPBIT[532] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 52) {
+			if (VARPBIT[2448] == 190) {
+				return 2;
+			}
+			if (VARPBIT[2448] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 53) {
+			if (VARPBIT[1383] > 3) {
+				return 2;
+			}
+			if (VARPBIT[1383] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 54) {
+			if (VARP[14] == 7) {
+				return 2;
+			}
+			if (VARP[14] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 55) {
+			if (VARP[365] > 8) {
+				return 2;
+			}
+			if (VARP[365] < 1) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 56) {
+			if (VARP[30] == 80) {
+				return 2;
+			}
+			if (VARP[30] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 57) {
+			if (VARPBIT[260] > 69) {
+				return 2;
+			}
+			if (VARPBIT[260] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 58) {
+			if (VARP[517] > 7) {
+				return 2;
+			}
+			if (VARP[517] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 59) {
+			if (VARPBIT[1103] > 59) {
+				return 2;
+			}
+			if (VARPBIT[1103] < 9) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 70) {
+		if (arg0 == 60) {
+			if (VARP[192] == 2) {
+				return 2;
+			}
+			if (VARP[192] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 61) {
+			if (VARPBIT[2790] > 310) {
+				return 2;
+			}
+			if (VARPBIT[2790] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 62) {
+			if (VARP[307] == 110) {
+				return 2;
+			}
+			if (VARP[307] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 63) {
+			if (VARP[112] > 6) {
+				return 2;
+			}
+			if (VARP[112] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 64) {
+			if (VARP[416] > 275) {
+				return 2;
+			}
+			if (VARP[416] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 65) {
+			if (VARP[165] > 28) {
+				return 2;
+			}
+			if (VARP[165] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 66) {
+			if (VARP[302] > 59) {
+				return 2;
+			}
+			if (VARP[302] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 67) {
+			if (VARP[714] >= 4) {
+				return 2;
+			}
+			if (VARP[714] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 68) {
+			if (VARPBIT[1404] > 126) {
+				return 2;
+			}
+			if (VARPBIT[1404] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 69) {
+			if (VARPBIT[1850] == 5) {
+				return 2;
+			}
+			if (VARPBIT[1850] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 80) {
+		if (arg0 == 70) {
+			if (VARPBIT[657] > 1) {
+				return 2;
+			}
+			if (VARPBIT[657] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 71) {
+			if (VARP[328] > 14) {
+				return 2;
+			}
+			if (VARP[328] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 72) {
+			if (VARP[402] > 5) {
+				return 2;
+			}
+			if (VARP[402] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 73) {
+			if (VARPBIT[2140] > 20) {
+				return 2;
+			}
+			if (VARPBIT[2140] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 74) {
+			if (VARP[600] > 18) {
+				return 2;
+			}
+			if (VARP[600] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 75) {
+			if (VARP[76] == 6) {
+				return 2;
+			}
+			if (VARP[76] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 76) {
+			if (VARP[159] == 12) {
+				return 2;
+			}
+			if (VARP[159] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 77) {
+			if (VARPBIT[2610] == 14) {
+				return 2;
+			}
+			if (VARPBIT[2610] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 78) {
+			if (VARP[339] == 85) {
+				return 2;
+			}
+			if (VARP[339] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 79) {
+			if (VARPBIT[1372] > 124) {
+				return 2;
+			}
+			if (VARPBIT[1372] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 90) {
+		if (arg0 == 80) {
+			if (VARP[60] == 3) {
+				return 2;
+			}
+			if (VARP[60] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 81) {
+			if (VARP[116] > 14) {
+				return 2;
+			}
+			if (VARP[116] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 82) {
+			if (VARPBIT[2011] > 12) {
+				return 2;
+			}
+			if (VARPBIT[2011] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 83) {
+			if (VARPBIT[1444] > 59) {
+				return 2;
+			}
+			if (VARPBIT[1444] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 84) {
+			if (VARPBIT[2098] == 200) {
+				return 2;
+			}
+			if (VARPBIT[2098] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 85) {
+			if (VARP[320] == 6) {
+				return 2;
+			}
+			if (VARP[320] < 3) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 86) {
+			if (VARPBIT[1028] == 70) {
+				return 2;
+			}
+			if (VARPBIT[1028] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 87) {
+			if (VARPBIT[451] > 1) {
+				return 2;
+			}
+			if (VARPBIT[451] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 88) {
+			if (VARP[26] == 80 || VARP[26] == 90) {
+				return 2;
+			}
+			if (VARP[26] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 89) {
+			if (VARP[359] > 99) {
+				return 2;
+			}
+			if (VARP[359] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else if (arg0 < 100) {
+		if (arg0 == 90) {
+			if (VARP[197] == 30) {
+				return 2;
+			}
+			if (VARP[197] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 91) {
+			if (VARP[226] == 7) {
+				return 2;
+			}
+			if (VARP[226] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 92) {
+			if (VARP[111] == 9) {
+				return 2;
+			}
+			if (VARP[111] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 93) {
+			if (VARP[200] == 5) {
+				return 2;
+			}
+			if (VARP[200] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 94) {
+			if (VARP[385] > 44) {
+				return 2;
+			}
+			if (VARP[385] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 95) {
+			if (VARP[317] == 50) {
+				return 2;
+			}
+			if (VARP[317] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 96) {
+			if (VARP[161] == 10) {
+				return 2;
+			}
+			if (isBitFlagged(VARP[162], 11) == false) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 97) {
+			if (VARPBIT[1051] == 11) {
+				return 2;
+			}
+			if (VARPBIT[1051] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 98) {
+			if (VARP[212] > 12) {
+				return 2;
+			}
+			if (VARP[212] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 99) {
+			if (VARPBIT[3293] == 135) {
+				return 2;
+			}
+			if (VARPBIT[3293] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+	} else {
+		if (arg0 == 100) {
+			if (VARPBIT[3311] == 340) {
+				return 2;
+			}
+			if (VARPBIT[3311] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 101) {
+			if (VARPBIT[3337] == 18) {
+				return 2;
+			}
+			if (VARPBIT[3337] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 102) {
+			if (VARP[980] > 129) {
+				return 2;
+			}
+			if (VARP[980] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 103) {
+			if (VARPBIT[3523] > 149) {
+				return 2;
+			}
+			if (VARPBIT[3523] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 104) {
+			if (VARPBIT[3534] == 80) {
+				return 2;
+			}
+			if (VARPBIT[3534] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 105) {
+			if (VARPBIT[3550] == 11) {
+				return 2;
+			}
+			if (VARPBIT[3550] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 106) {
+			if (VARPBIT[3618] == 28) {
+				return 2;
+			}
+			if (VARPBIT[3618] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 107) {
+			if (VARPBIT[2783] == 60) {
+				return 2;
+			}
+			if (VARPBIT[2783] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 108) {
+			if (VARPBIT[3888] == 90) {
+				return 2;
+			}
+			if (VARPBIT[3888] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 109) {
+			if (VARPBIT[5027] > 190) {
+				return 2;
+			}
+			if (VARPBIT[5027] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 110) {
+			if (VARPBIT[5619] >= 7) {
+				return 2;
+			}
+			if (VARPBIT[5619] == 0) {
+				return 1;
+			}
+			return 0;
+		}
+		if (arg0 == 111) {
+			if (VARP[714] >= 6) {
+				return 2;
+			}
+			if (VARP[714] < 4) {
+				return 1;
+			}
+			return 0;
+		}
+	}
+	return 1;
+}

@@ -1,0 +1,25 @@
+//script1678(1678)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = -1
+if(instr6652(0) == 0) {
+	iVar0 = coordx(coord()) - modulo(64, coordx(coord()))
+	iVar1 = coordz(coord()) - modulo(64, coordz(coord()))
+	iVar2 = movecoord(iVar1, 0, iVar0, 0)
+	instr6650(5, 0)
+	instr6650(5, 1)
+	instr6651(0, 400, movecoord(39, 0, 51, iVar2), 400, movecoord(39, 0, 51, iVar2), 0, 0)
+	instr6651(0, 225, movecoord(25, 0, 50, iVar2), 225, movecoord(25, 0, 50, iVar2), 0, 1)
+	instr6651(0, 225, movecoord(29, 0, 51, iVar2), 325, movecoord(29, 0, 51, iVar2), 1, 0)
+	instr6651(0, 175, movecoord(19, 0, 50, iVar2), 175, movecoord(19, 0, 50, iVar2), 1, 1)
+	instr6651(0, 1200, movecoord(23, 0, 57, iVar2), 1200, movecoord(23, 0, 57, iVar2), 2, 0)
+	instr6651(0, 25, movecoord(18, 0, 47, iVar2), 25, movecoord(18, 0, 47, iVar2), 2, 1)
+	instr6651(0, 600, movecoord(5, 0, 46, iVar2), 600, movecoord(5, 0, 46, iVar2), 3, 0)
+	instr6651(0, 250, movecoord(16, 0, 46, iVar2), 250, movecoord(16, 0, 46, iVar2), 3, 1)
+	instr6651(0, 1125, movecoord(27, 0, 41, iVar2), 1125, movecoord(27, 0, 41, iVar2), 4, 0)
+	instr6651(0, 275, movecoord(19, 0, 44, iVar2), 275, movecoord(19, 0, 44, iVar2), 4, 1)
+}
+return

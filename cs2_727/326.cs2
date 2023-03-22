@@ -1,0 +1,8 @@
+//script326(326)()(void)
+if_sethide(if_gethash(725, 86), 0)
+if_sethide(if_gethash(725, 85), 1)
+if_setgraphic(if_gethash(725, 87), 1057)
+if_setgraphic(if_gethash(725, 88), 1049)
+store_varc(783, 1)
+script_328(47513686)
+return

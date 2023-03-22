@@ -1,0 +1,15 @@
+void script_701(Widget widget0) {
+	int int1;
+	int1 = 0;
+	while (int1 <= 46) {
+		if (CHILD.setChild(widget0, int1) == true) {
+			if (script_702(int1) == 1) {
+				CHILD.setSprite(datamap('i', 'd', 1001, int1));
+			} else {
+				CHILD.setSprite(datamap('i', 'd', 1002, int1));
+			}
+		}
+		int1 = int1 + 1;
+	}
+	return;
+}

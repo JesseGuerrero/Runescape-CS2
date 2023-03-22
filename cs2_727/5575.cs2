@@ -1,0 +1,24 @@
+//script5575(5575)()(void)
+int iVar0
+if(load_varc(1728) == 1) {
+	store_varc(1729, load_varc(1729) + 1)
+	if(load_varc(1729) >= 80)
+		store_varc(1728, 0)
+} else  {
+	store_varc(1729, load_varc(1729) - 1)
+	if(load_varc(1729) <= 0)
+		store_varc(1728, 1)
+}
+iVar0 = (255 * load_varc(1729)) / 80
+if(iVar0 < 230)
+	if(iVar0 >= 123)
+		iVar0 = iVar0 - (iVar0 / 20)
+if(iVar0 > 25)
+	if(iVar0 <= 122)
+		iVar0 = iVar0 + (iVar0 / 20)
+if_settrans(if_gethash(1182, 46), iVar0)
+if_settrans(if_gethash(1182, 45), iVar0)
+iVar0 = 255 - iVar0
+if_settrans(if_gethash(1182, 48), iVar0)
+if_settrans(if_gethash(1182, 49), iVar0)
+return

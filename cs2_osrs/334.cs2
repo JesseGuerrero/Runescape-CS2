@@ -1,0 +1,8 @@
+void script_334(Widget widget0, Widget widget1, Widget widget2, Widget widget3) {
+	VARC[50] = 256;
+	script_336(widget1, widget2);
+	widget0.hookFrame(&script_335(widget1, widget2));
+	script_958(widget3);
+	widget0.hookWidgetsOpenClose(&script_957(widget3));
+	return;
+}

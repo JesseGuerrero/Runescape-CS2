@@ -1,0 +1,10 @@
+int, int script_748(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int2 = widget0.getX();
+	int3 = widget0.getY();
+	if (CHILD.setChild(widget0, arg1) == true || arg1 == -1 && CHILD.setChild(widget0) == true) {
+		int2, int3 = script_749();
+	}
+	return int2, int3;
+}

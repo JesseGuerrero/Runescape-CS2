@@ -1,0 +1,11 @@
+void script_495(int arg0, string string1) {
+	Container container1;
+	widget(81, 1).setText(string1);
+	container1 = 516;
+	if (arg0 == 1) {
+		container1 = 93;
+	}
+	script_497(container1);
+	widget(81, 1).hookContainer(&script_496(container1), container1);
+	return;
+}

@@ -1,0 +1,21 @@
+void script_1460(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	int int6;
+	int int7;
+	int6 = getItemContainerLength(93);
+	int7 = 0;
+	while (int7 < int6) {
+		CHILD.createChild(widget4, 5, int7);
+		CHILD.setHidden(true);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(int7 % 4 * (36 + 8), int7 / 4 * 32, 0, 0);
+		CHILD.setOutlineThickness(1);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setContextMenuOption(10, "Examine");
+		int7 = int7 + 1;
+	}
+	script_1462(widget4, int6);
+	widget0.hookContainer(&script_1461(widget4, int6), 93);
+	script_1464(widget1, widget2, widget3, widget4, widget5, int6);
+	widget0.hookVARP(&script_1463(widget1, widget2, widget3, widget4, widget5, int6), 318, 925);
+	return;
+}

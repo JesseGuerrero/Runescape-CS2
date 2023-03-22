@@ -1,0 +1,6 @@
+int script_514() {
+	if (VARC[5] == 11 || VARC[5] <= 0 && length(STRING[22]) > 0) {
+		return 1;
+	}
+	return 0;
+}

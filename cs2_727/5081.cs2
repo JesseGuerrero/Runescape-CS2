@@ -1,0 +1,67 @@
+//script5081(5081)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+if(load_varc(1095) == 0 || load_varc(1095) == -1) {
+	script_5085(arg0)
+	return
+}
+sound_vorbis_volume(200, 0, 1, 6185)
+if_sethide(if_gethash(1114, 22), 0)
+store_varc(160, arg1)
+iVar7 = arg1 * 10
+if(cc_find(iVar7, arg0) == 1)
+	instr6556(None, "")
+if(cc_find(iVar7 + 3, arg0) == 1)
+	cc_setgraphic(6138)
+if(cc_find(iVar7 + 5, arg0) == 1)
+	cc_setgraphic(6137)
+if(cc_find(iVar7 + 7, arg0) == 1)
+	cc_setgraphic(6139)
+if(cc_find(iVar7 + 4, arg0) == 1)
+	cc_settrans(255)
+if(cc_find(iVar7 + 6, arg0) == 1)
+	cc_settrans(255)
+if(cc_find(iVar7 + 8, arg0) == 1)
+	cc_settrans(255)
+cc_deleteall(if_gethash(1114, 26))
+iVar8 = 0
+while(iVar8 < arg3) {
+	cc_create(if_getnextsubid(if_gethash(1114, 26)), 3, 73007130)
+	cc_sethide(1)
+	iVar8 = iVar8 + 1
+}
+iVar9 = script_5089(arg2)
+iVar10 = 0
+iVar8 = 0
+while(iVar8 < arg4) {
+	if(iVar9 != iVar8) {
+		cc_create(if_getnextsubid(if_gethash(1114, 26)), 4, 73007130)
+		cc_setsize(0, 1, 12, 0)
+		cc_setposition(0, 0, iVar10, 0)
+		cc_settextfont(494)
+		cc_settextalign(0, 1, 1)
+		cc_setcolor(efb063)
+		cc_settextshadow(0)
+		cc_settext(enum(arg2, iVar8, 'i', 's'))
+		instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+		instr6092(script_1356, "Iii", -2147483645, -2147483643, 15708259)
+		cc_setop("Select", 1)
+		instr6687(script_5084, "I", arg0)
+		iVar10 = iVar10 + cc_getheight()
+	} else  {
+		cc_create(if_getnextsubid(if_gethash(1114, 26)), 3, 73007130)
+		cc_sethide(1)
+	}
+	iVar8 = iVar8 + 1
+}
+if_setparam_int(if_gethash(1114, 23), arg6, 1476)
+if_setparam_int(if_gethash(1114, 23), iVar10, 1477)
+if_setscrollsize(73007130, iVar10, 0)
+script_5082(arg0)
+if(arg4 > 4)
+	script_31(73007131, 73007130, 6507, 6504, 6505, 6506, 6499, 6498)
+else
+	cc_deleteall(if_gethash(1114, 27))
+return

@@ -1,0 +1,24 @@
+//script6140(6140)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = 10
+iVar3 = (arg0 * 100) - load_varc(1886)
+iVar4 = (arg1 * 100) - load_varc(1887)
+iVar5 = 100
+if(iVar3 <= iVar5)
+	if(iVar3 >= 0 - iVar5)
+		if(iVar4 <= iVar5)
+			if(iVar4 >= 0 - iVar5) {
+				script_6142(arg0, arg1)
+				store_varc(1886, arg0 * 100)
+				store_varc(1887, arg1 * 100)
+			} else  {
+				iVar3 = scale(iVar3, 100, iVar2)
+				iVar4 = scale(iVar4, 100, iVar2)
+				store_varc(1886, load_varc(1886) + iVar3)
+				store_varc(1887, load_varc(1887) + iVar4)
+				script_6142(load_varc(1886) / 100, load_varc(1887) / 100)
+			}
+return

@@ -1,0 +1,5 @@
+//script5102(5102)(int arg0, int arg1, int arg2)(void)
+if_sethide(arg1, 0)
+if_settext(arg2, "Clan settings prevent viewing this relationship")
+if_sethide(arg0, 0)
+return

@@ -1,0 +1,31 @@
+//script4642(4642)()(void)
+string sVar0
+if(load_varp(2192) == 0)
+	return
+sVar0 = "null"
+switch(load_varp(2192)) {
+	case default:
+		break
+	case 1:
+		sVar0 = "Abridged: 750 Dungeoneering XP. 75 Dungeoneering tokens." + "<br>" + "Unabridged: 3750 XP in a choice of Attack, Ranged or Magic."
+		break
+	case 2:
+		sVar0 = "Abridged: 2410 Dungeoneering XP. 241 Dungeoneering tokens." + "<br>" + "Unabridged: 25415 XP in either Agility or Thieving."
+		break
+	case 4:
+		sVar0 = "Abridged: 37080 Dungeoneering XP. 3708 Dungeoneering tokens." + "<br>" + "Unabridged: 75765 Strength XP."
+		break
+	case 3:
+		sVar0 = "Abridged: 3750 Dungeoneering XP. 375 Dungeoneering tokens." + "<br>" + "Unabridged: 21670 Dungeoneering XP. 2167 Dungeoneering tokens. 11660 Thieving XP or 37080 Attack XP."
+		break
+	case 6:
+		sVar0 = "Abridged: 53440 Dungeoneering XP. 5344 Dungeoneering tokens." + "<br>" + "Unabridged: 105010 Strength XP."
+		return
+
+
+}
+sVar0 = append("<br>" + "Replay: Up to " + to_string(enum(5756, load_varp(2192), 'i', 'i')) + " Dungeoneering tokens.", sVar0)
+sound_vorbis_volume(150, 0, 1, 6185)
+if_sethide(if_gethash(153, 52), 1)
+if_settext(if_gethash(153, 50), sVar0)
+return

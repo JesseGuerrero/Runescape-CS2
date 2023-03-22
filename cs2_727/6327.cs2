@@ -1,0 +1,4 @@
+//script6327(6327)(int arg0)(void)
+if_settrans(arg0, max(0, if_gettrans(arg0) - 20))
+instr6342(arg0, script_6328, "Ii", -2147483645, client_clock() + 2)
+return

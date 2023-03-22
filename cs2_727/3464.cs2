@@ -1,0 +1,4 @@
+//script3464(3464)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1)
+	cc_setmodelangle(cc_getspritescale(), cc_getspriteyaw(), modulo(2028, cc_getspriteroll() + 2), cc_getspritepitch(), cc_getoffsety(), cc_getoffsetx())
+return

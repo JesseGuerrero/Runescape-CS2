@@ -1,0 +1,138 @@
+//script3165(3165)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+string sVar0
+string sVar1
+string sVar2
+if(instr6661(-1, arg3) == 1) {
+	instr6342(arg4, script_3164, "IIIIII", arg0, arg1, arg2, arg3, arg4, arg5)
+	return
+} else 
+	instr6342(arg4, None, "")
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+iVar6 = 0
+iVar7 = activeclanchannel_getusercount()
+iVar8 = 0
+sVar0 = ""
+iVar9 = 15
+iVar10 = 17
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+sVar1 = ""
+sVar2 = ""
+iVar17 = 0
+iVar18 = script_4468()
+iVar19 = activeclanchannel_getuserslot(removetags(instr6574()))
+iVar20 = 0
+if(iVar19 != -1)
+	iVar20 = activeclanchannel_getuserrank(iVar19)
+script_1896()
+if_sethide(if_gethash(912, 39), 1)
+if_settext(if_gethash(912, 17), activeclanchannel_getclanname())
+if_setsize(if_gethash(912, 38), 1, 0, 4, if_getwidth(if_gethash(912, 38)))
+while(iVar8 < iVar7) {
+	iVar16 = activeclanchannel_getuserrank(iVar8)
+	sVar2 = activeclanchannel_getuserdisplayname(iVar8)
+	sVar0 = sVar2
+	script_2996(arg3, iVar8, if_getwidth(arg3), iVar9, 0, iVar12, 0, 1, 0)
+	if(modulo(2, iVar8) == 0)
+		cc_setcolor(201911)
+	else
+		cc_setcolor(292016)
+	sVar1 = "Rank: " + enum(3715, iVar16, 'i', 's')
+	instr6091(script_3167, "Iis", arg3, iVar8, sVar1)
+	instr6092(script_3169, "Ii", arg3, iVar8)
+	if(activeclanchannel_getuserslot(removetags(instr6574())) != iVar8) {
+		instr6687(script_3170, "si", sVar2, -2147483644)
+		if(friend_test(removetags(sVar2)) == 1)
+			cc_setop("Remove friend " + sVar0, 8)
+		else
+			if(ignore_test(removetags(sVar2)) == 1)
+				cc_setop("Remove ignore " + sVar0, 9)
+			else {
+				cc_setop("Add friend " + sVar0, 6)
+				cc_setop("Add ignore " + sVar0, 7)
+			}
+	}
+	if(iVar18 == 1)
+		if(iVar20 > iVar16)
+			cc_setop("Kick/ban " + sVar0, 10)
+	script_2994(arg1, iVar8, 9, 9, 5, iVar12 + 2, enum(3712, iVar16, 'i', 'd'), 0, 0, 0, 0)
+	script_2995(arg0, iVar8, 0, iVar9, iVar10, iVar12, 16777215, 494, 0, 1, 0, 1, sVar0)
+	cc_setsize(0, 1, iVar9, iVar10)
+	cc_setmaxlines(1)
+	iVar13 = activeclanchannel_getuserworld(iVar8)
+	if(iVar13 == 0) {
+		sVar0 = "Offline"
+		iVar11 = 16711680
+	} else  {
+		if(iVar13 >= 1149)
+			if(iVar13 < 1200)
+				sVar0 = "Beta lobby"
+			else
+				if(iVar13 >= 1100)
+					sVar0 = "Lobby " + to_string(iVar13 - 1099)
+				else
+					if(iVar13 >= 200)
+						if(iVar13 < 250)
+							sVar0 = "Beta " + to_string(iVar13)
+						else
+							sVar0 = "World " + to_string(iVar13)
+		if(iVar13 == world_id())
+			iVar11 = 65280
+		else
+			iVar11 = 16776960
+	}
+	script_2995(arg2, iVar8, 0, iVar9, 5, iVar12, iVar11, 494, 0, 1, 0, 1, sVar0)
+	cc_setsize(0, 1, iVar9, 5)
+	cc_setmaxlines(1)
+	iVar12 = iVar12 + iVar9
+	iVar8 = iVar8 + 1
+}
+iVar14 = (if_getheight(arg4) / iVar9) + 1
+if(iVar14 > iVar7) {
+	while(iVar8 < iVar14) {
+		script_2996(arg3, iVar8, if_getwidth(arg3), iVar9, 0, iVar12, 0, 1, 0)
+		if(modulo(2, iVar8) == 0)
+			cc_setcolor(201911)
+		else
+			cc_setcolor(292016)
+		iVar12 = iVar12 + iVar9
+		iVar8 = iVar8 + 1
+	}
+	iVar15 = if_getheight(arg4)
+} else 
+	iVar15 = iVar12
+if(iVar14 <= iVar7) {
+	iVar17 = if_getscrolly(59768877)
+	if_setscrollsize(59768877, iVar15, 0)
+	if(iVar17 > iVar15)
+		iVar17 = iVar15
+	script_72(59768878, 59768877, iVar17)
+} else  {
+	if_setscrollsize(59768877, 0, 0)
+	if_setscrollpos(if_gethash(912, 45), 0, 0)
+	script_72(59768878, 59768877, 0)
+}
+script_1896()
+return

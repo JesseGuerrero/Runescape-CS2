@@ -1,0 +1,12 @@
+//script1398(1398)(int arg0, int arg1)(void)
+if_setmodel(if_gethash(282, 19), 10111)
+if_setmodel(if_gethash(282, 20), 10113)
+if_setmodel(if_gethash(282, 18), 10109)
+if_setmodel(if_gethash(282, 17), 10107)
+if_setmodel(if_gethash(282, 16), 10105)
+if_setmodel(if_gethash(282, 15), 10103)
+if_setmodel(if_gethash(282, 14), 10101)
+if_setmodel(if_gethash(282, 13), 10099)
+if_setmodel(arg0, arg1)
+return
+return

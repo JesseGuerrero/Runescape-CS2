@@ -1,0 +1,32 @@
+void script_785(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, int arg24, int arg25, int arg26, int arg27) {
+	VARC[81] = arg0;
+	VARC[82] = arg1;
+	VARC[83] = arg2;
+	VARC[84] = arg3;
+	VARC[85] = arg4;
+	VARC[86] = arg5;
+	VARC[87] = arg6;
+	VARC[88] = arg7;
+	VARC[89] = arg8;
+	VARC[90] = arg9;
+	VARC[91] = arg10;
+	VARC[92] = arg11;
+	VARC[93] = arg12;
+	VARC[94] = arg13;
+	VARC[95] = arg14;
+	VARC[96] = arg15;
+	VARC[97] = arg16;
+	VARC[98] = arg17;
+	VARC[99] = arg18;
+	VARC[100] = arg19;
+	VARC[101] = arg20;
+	VARC[102] = arg21;
+	VARC[104] = arg22;
+	VARC[105] = arg23;
+	VARC[106] = arg24;
+	VARC[107] = arg25;
+	VARC[108] = arg26;
+	VARC[109] = arg27;
+	script_787();
+	return;
+}

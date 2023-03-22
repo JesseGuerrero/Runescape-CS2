@@ -1,0 +1,10 @@
+//script2094(2094)()(void)
+if(load_varc(654) < 100)
+	store_varc(654, load_varc(654) + 1)
+if(load_varc(654) == 50)
+	if_sethide(if_gethash(834, 56), 1)
+if(load_varc(654) == 100) {
+	if_sethide(if_gethash(834, 56), 0)
+	store_varc(654, 0)
+}
+return

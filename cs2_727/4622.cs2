@@ -1,0 +1,5 @@
+//script4622(4622)(int arg0)(void)
+if(if_getspriteid(arg0) == 5936)
+	return
+if_setgraphic(arg0, 5933)
+return

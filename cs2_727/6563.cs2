@@ -1,0 +1,10 @@
+//script6563(6563)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = if_gety(arg0)
+iVar2 = if_getx(arg0)
+iVar3 = if_gettrans(if_gethash(1319, 0))
+if_settrans(if_gethash(1319, 0), min(iVar3 + 1, 255))
+if_settrans(if_gethash(1319, 2), min(iVar3 - 5, 255))
+return

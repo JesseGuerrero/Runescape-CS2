@@ -1,0 +1,6 @@
+//script2609(2609)(int arg0)(void)
+if(load_varpbit(6357) == 1 || load_varpbit(6357) == 4 || load_varpbit(6357) == 3)
+	if_setposition(arg0, 0, 0, 5, 0)
+else
+	if_setposition(arg0, 0, 0, 0, 0)
+return

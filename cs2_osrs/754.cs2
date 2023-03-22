@@ -1,0 +1,9 @@
+void script_754(Item arg0, int arg1) {
+	if (arg1 != 84) {
+		return;
+	}
+	cs2method3115(arg0);
+	playSoundEffect(2266, 1, 0);
+	script_299(1, 1);
+	return;
+}

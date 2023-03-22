@@ -1,0 +1,5 @@
+//script4283(4283)()(int)
+if_settext(if_gethash(1095, 28), activeclansettings_getclanname())
+script_4332(71761964, 71761974)
+script_4334(71761984, 71761985)
+return script_4329(71761949)

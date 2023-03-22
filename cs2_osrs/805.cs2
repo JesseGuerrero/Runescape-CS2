@@ -1,0 +1,24 @@
+void script_805(int arg0, int arg1, int arg2, Widget widget3, int arg4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9) {
+	Container container10;
+	if (arg0 != 1 && arg0 != 2) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (arg0 != 1) {
+		return;
+	}
+	container10 = datamap('i', 'v', 150, arg1);
+	if (container10 == null) {
+		VARPBIT[4439] = 0;
+	} else {
+		if (getGENotStarted(arg1) == true && (getItemIdInSlot(container10, 0) != null || getItemIdInSlot(container10, 1) != null)) {
+			return;
+		}
+		VARPBIT[4439] = arg1 + 1;
+		if (arg2 != -1 && getGENotStarted(arg1) == true) {
+			VARPBIT[4397] = arg2;
+		}
+	}
+	script_806(widget3, arg4, widget5, widget6, widget7, widget8, widget9);
+	return;
+}

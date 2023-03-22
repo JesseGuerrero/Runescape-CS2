@@ -1,0 +1,4 @@
+//script4684(4684)()(void)
+if_setnoclickthrough(48758900, 0)
+if_closesubclient(48758900)
+return

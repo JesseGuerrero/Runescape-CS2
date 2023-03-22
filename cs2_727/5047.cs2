@@ -1,0 +1,41 @@
+//script5047(5047)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar5 = arg0 * ((112 + 2) + 2)
+if_setscrollsize(72810508, iVar5, iVar5)
+iVar6 = iVar5 - if_getwidth(if_gethash(1111, 12))
+if(if_getscrollx(if_gethash(1111, 12)) > iVar6)
+	if_setscrollpos(if_gethash(1111, 12), if_getscrolly(72810508), iVar6)
+if(if_getscrolly(72810508) > iVar6)
+	if_setscrollpos(if_gethash(1111, 12), iVar6, if_getscrollx(if_gethash(1111, 12)))
+if_setsize(if_gethash(1111, 13), 0, 0, iVar5, iVar5)
+if_setsize(if_gethash(1111, 15), 0, 0, iVar5, iVar5)
+iVar7 = 0
+iVar8 = arg0 - 1
+iVar9 = 0
+iVar10 = arg1
+while(iVar10 < arg2) {
+	iVar9 = iVar5 - (((iVar10 + 2) + 1) * arg0)
+	while(iVar7 < 112) {
+		if(cc_find((iVar10 * 112) + iVar7, if_gethash(1111, 13)) == 1) {
+			cc_setsize(0, 0, iVar8, iVar8)
+			cc_setposition(0, 0, iVar9, (iVar7 + 2) * arg0)
+			instr6443(arg0 / 2)
+		}
+		iVar7 = iVar7 + 1
+	}
+	iVar7 = 0
+	iVar10 = iVar10 + 1
+}
+if(arg1 <= 0) {
+	script_5053(arg3, arg4)
+	iVar9 = (arg0 * 2) - 3
+	if_setposition(if_gethash(1111, 14), 0, 0, iVar9, iVar9)
+	iVar9 = (arg0 * 112) + 5
+	if_setsize(if_gethash(1111, 14), 0, 0, iVar9, iVar9)
+}
+return

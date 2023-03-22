@@ -1,0 +1,47 @@
+//script964(964)()(void)
+switch(load_varpbit(2341)) {
+	case default:
+		store_varc(122, 0)
+		break
+	case 1:
+		store_varc(122, 1536)
+		break
+	case 2:
+		store_varc(122, 1024)
+		break
+	case 3:
+		store_varc(122, 512)
+		break
+
+}
+switch(load_varpbit(2342)) {
+	case default:
+		store_varc(123, 0)
+		break
+	case 1:
+		store_varc(123, 1536)
+		break
+	case 2:
+		store_varc(123, 1024)
+		break
+	case 3:
+		store_varc(123, 512)
+		break
+
+}
+switch(load_varpbit(2343)) {
+	case default:
+		store_varc(124, 0)
+		break
+	case 1:
+		store_varc(124, 1536)
+		break
+	case 2:
+		store_varc(124, 1024)
+		break
+	case 3:
+		store_varc(124, 512)
+		break
+
+}
+return

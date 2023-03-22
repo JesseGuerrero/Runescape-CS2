@@ -1,0 +1,9 @@
+void script_1249(Widget widget0, string arg1) {
+	playSoundEffect(2266, 1, 0);
+	script_1248(1, widget0, "---");
+	widget0.hookMouseEnter(null);
+	widget0.hookMouseExit(null);
+	widget0.hookMousePress(null);
+	widget0.hookFrame(&script_1250(getClientCycle() + 60, widget0, arg1));
+	return;
+}

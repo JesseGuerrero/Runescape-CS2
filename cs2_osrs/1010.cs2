@@ -1,0 +1,121 @@
+void script_1010(Widget widget0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, int arg6, int arg7, Widget widget8, int arg9, Widget widget10, int arg11, Widget widget12, int arg13, Widget widget14, int arg15, Widget widget16, int arg17, Widget widget18, int arg19, Widget widget20, int arg21, Widget widget22, int arg23, Widget widget24, Widget widget25, Widget widget26, Widget widget27, Widget widget28, Widget widget29, Widget widget30, Widget widget31, Widget widget32, Widget widget33, Widget widget34, Widget widget35, Widget widget36, Widget widget37, Widget widget38, Widget widget39, Widget widget40, Widget widget41, Widget widget42, Widget widget43, Widget widget44, int arg45) {
+	int int46;
+	int int47;
+	int int48;
+	string str0;
+	widget4.setIsHidden(true);
+	script_1011(widget8, arg9, datamap('i', 's', 1164, -1), "Controls the position of the XP display and droplets.", 170, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	script_1011(widget10, arg11, datamap('i', 's', 1165, -1), "Controls the text size used by the XP display and droplets.", 180, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	script_1011(widget12, arg13, datamap('i', 's', 1166, -1), "Controls how long the XP display remains visible after each event.", 200, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	script_1011(widget14, arg15, "Counter", "Choose which skill will have its details displayed in the number panel." + "<br>" + "<br>" + "'" + "<col=7f0000>" + "Most recent" + "</col>" + "' will show whichever skill gained XP most recently." + "<br>" + "<br>" + "If a " + "<col=7f0000>" + "tracker" + "</col>" + " has been set for the skill, the panel will show XP gained since the tracker's start point.", 300, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	script_1011(widget16, arg17, "Progress bar", "Choose which skill will have its details displayed in the progress bar." + "<br>" + "<br>" + "'" + "<col=7f0000>" + "Most recent" + "</col>" + "' will show whichever skill gained XP most recently." + "<br>" + "<br>" + "If a " + "<col=7f0000>" + "goal" + "</col>" + " has been set for the skill, the bar will show progress towards that goal." + "<br>" + "<br>" + "Otherwise it will show progress towards the next level.", 300, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	script_1011(widget18, arg19, datamap('i', 's', 1168, -1), "Controls the text colour of the droplets.", 150, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	script_1011(widget20, arg21, datamap('i', 's', 1170, -1), "When multiple skills increase together, their droplets may be grouped, within limits.", 300, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	script_1011(widget22, arg23, datamap('i', 's', 1140, -1), "Droplet speed.", 200, arg1, widget4, arg6, arg7, arg45, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22, arg23);
+	widget5.setNoClickThrough(1);
+	widget5.hookMousePress(&script_1037(widget4, widget(arg45), widget8, widget10, widget12, widget14, widget16, widget18, widget20, widget22));
+	script_1022(widget8, widget10, widget12, widget14, widget16, widget18, widget20, widget22);
+	widget0.hookVARP(&script_1021(widget8, widget10, widget12, widget14, widget16, widget18, widget20, widget22), 1227);
+	widget25.clearChildren();
+	ARRAY0 = new Skill[23];
+	int46 = 0;
+	while (int46 <= 23) {
+		CHILD.createChild(widget25, 3, int46);
+		CHILD.setSize(0, 25, 1, 0);
+		CHILD.setPosition(0, int46 * 25, 1, 0);
+		CHILD.setFilled(true);
+		CHILD.hookMouseEnter(&script_1015(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215, 225));
+		if (int46 % 2 == 0) {
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setTrans(255);
+			CHILD.hookMouseExit(&script_1015(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215, 255));
+		} else {
+			CHILD.setRGB(0x000000);
+			CHILD.setTrans(225);
+			CHILD.hookMouseExit(&script_1015(CTX_WIDGET, CTX_WIDGET_CHILD, 0, 225));
+		}
+		CHILD.setContextMenuOption(1, "Configure");
+		if (int46 < 23) {
+			ARRAY0[int46] = datamap('i', 'S', 681, int46 + 1);
+			CHILD.setOptionBase("<col=ff9040>" + datamap('S', 's', 680, (Skill)ARRAY0[int46]) + "</col>");
+			CHILD.hookOptionClick(&script_1023(CTX_MENU_OPTION, CTX_WIDGET_CHILD, (Skill)ARRAY0[int46], widget3, widget24, widget25, widget26, widget27, widget28, widget29, widget30, widget31, widget32, widget33, widget34, widget35, widget36, widget37, widget38, widget39, widget40, widget41, widget42, widget43, widget44));
+		} else {
+			CHILD.setOptionBase("<col=ff9040>" + "Total XP" + "</col>");
+			CHILD.hookOptionClick(&script_1023(CTX_MENU_OPTION, CTX_WIDGET_CHILD, null, widget3, widget24, widget25, widget26, widget27, widget28, widget29, widget30, widget31, widget32, widget33, widget34, widget35, widget36, widget37, widget38, widget39, widget40, widget41, widget42, widget43, widget44));
+		}
+		int46 = int46 + 1;
+	}
+	int47 = 0;
+	int48 = 0;
+	while (int48 <= 23) {
+		int47 = int48 * 25;
+		CHILD.createChild(widget25, 5, int46);
+		int46 = int46 + 1;
+		CHILD.setSize(25, 25, 0, 0);
+		CHILD.setPosition(0, int47, 0, 0);
+		if (int48 < 23) {
+			CHILD.setSprite(datamap('S', 'd', 255, (Skill)ARRAY0[int48]));
+		} else {
+			CHILD.setSprite(222);
+		}
+		CHILD.createChild(widget25, 4, int46);
+		int46 = int46 + 1;
+		CHILD.setSize(80, 25, 0, 0);
+		CHILD.setPosition(28, int47, 0, 0);
+		CHILD.setRGB(0xFFB83F);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(0, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		if (int48 < 23) {
+			CHILD.setText(datamap('S', 's', 680, (Skill)ARRAY0[int48]));
+		} else {
+			CHILD.setText("Total XP");
+		}
+		CHILD.createChild(widget25, 4, int46);
+		int46 = int46 + 1;
+		CHILD.setSize(110, 26, 1, 0);
+		CHILD.setPosition(0, int47, 2, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(0, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		int48 = int48 + 1;
+	}
+	widget26.clearChildren();
+	widget25.setScrollPos(0, 0);
+	int47 = 25 * (23 + 1);
+	if (int47 > widget25.getHeight()) {
+		widget25.setScrollMax(0, int47);
+	} else {
+		widget25.setScrollMax(0, 0);
+	}
+	script_31(widget26, widget25, 792, 789, 790, 791, 773, 788);
+	widget3.setIsHidden(false);
+	widget24.setIsHidden(false);
+	widget27.setIsHidden(true);
+	widget27.clearChildren();
+	CHILD.createChild(widget27, 4, 0);
+	CHILD.setSize(10, 20, 1, 0);
+	CHILD.setPosition(0, 5, 1, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(496);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	_ = script_770(-1, widget27, 1);
+	script_1016(widget28);
+	script_1016(widget29);
+	script_1016(widget30);
+	str0 = "Discard";
+	_ = script_1018(0, 0xFF2020, str0, widget43);
+	widget43.hookMouseEnter(&script_1017(true, 16719904, str0, CTX_WIDGET));
+	widget43.hookMouseExit(&script_1017(false, 16719904, str0, CTX_WIDGET));
+	widget43.hookOptionClick(&script_1023(CTX_MENU_OPTION, -1, null, widget3, widget24, widget25, widget26, widget27, widget28, widget29, widget30, widget31, widget32, widget33, widget34, widget35, widget36, widget37, widget38, widget39, widget40, widget41, widget42, widget43, widget44));
+	str0 = "Save";
+	int46 = script_1018(0, 0x00FF00, str0, widget44);
+	widget44.hookMouseEnter(&script_1017(true, 65280, str0, CTX_WIDGET));
+	widget44.hookMouseExit(&script_1017(false, 65280, str0, CTX_WIDGET));
+	widget44.hookOptionClick(&script_1019(CTX_MENU_OPTION, CTX_WIDGET, int46, 65280));
+	script_1026(widget3, widget24, widget25, widget26, widget27, widget28, widget29, widget30, widget31, widget32, widget33, widget34, widget35, widget36, widget37, widget38, widget39, widget40, widget41, widget42, widget43, widget44);
+	widget2.hookVARP(&script_1025(widget3, widget24, widget25, widget26, widget27, widget28, widget29, widget30, widget31, widget32, widget33, widget34, widget35, widget36, widget37, widget38, widget39, widget40, widget41, widget42, widget43, widget44), 638, 261, 262, 1228, 1229, 1230, 1231, 1232, 1233, 1234, 1235, 1236, 1237, 1238, 1239, 1240, 1241, 1242, 1243, 1244, 1245, 1246, 1247, 1248, 1249, 1250, 1251, 1252, 1253, 1254, 1255, 1256, 1257, 1258, 1259, 1260, 1261, 1262, 1263, 1264, 1265, 1266, 1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275);
+	return;
+}

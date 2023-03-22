@@ -1,0 +1,29 @@
+//script185(185)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return load_varpbit(6161)
+
+	case 2:
+		return chat_getfilter_public()
+
+	case 3:
+		return chat_getfilter_private()
+
+	case 4:
+		return load_varp(2159)
+
+	case 5:
+		return chat_getfilter_trade()
+
+	case 6:
+		return load_varp(1055)
+
+	case 7:
+		return load_varp(1054)
+
+
+}
+return 0
+return 0

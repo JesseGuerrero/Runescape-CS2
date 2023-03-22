@@ -1,0 +1,6 @@
+//script5863(5863)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1) {
+	cc_resetopname()
+	script_5862(arg2)
+}
+return

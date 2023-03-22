@@ -1,0 +1,75 @@
+//script5308(5308)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+iVar0 = 0
+iVar1 = 0
+sVar0 = ""
+iVar2 = -1
+iVar3 = 0
+iVar4 = 7287
+iVar5 = 7706
+iVar6 = 7289
+iVar7 = 2
+iVar8 = 54
+cc_deleteall(if_gethash(823, 3))
+cc_deleteall(if_gethash(823, 4))
+while(iVar0 < enum_getoutputcount(840)) {
+	iVar3 = enum(840, iVar0, 'i', 'i')
+	iVar2 = enum(5173, iVar3, 'i', 'J')
+	if(iVar2 == -1)
+		return
+	sVar0 = struct_param(1974, iVar2) + "<br>" + struct_param(1975, iVar2)
+	cc_create(iVar0, 5, 53936131)
+	cc_setgraphic(iVar4)
+	cc_setsize(0, 0, iVar8, iVar8)
+	if(modulo(3, iVar0) == 0)
+		cc_setposition(0, 0, iVar7 + (iVar1 * (54 + iVar7)), iVar7)
+	else
+		if(modulo(3, iVar0) == 1)
+			cc_setposition(0, 0, iVar7 + (iVar1 * (54 + iVar7)), (iVar7 * 2) + iVar8)
+		else
+			cc_setposition(0, 0, iVar7 + (iVar1 * (54 + iVar7)), (iVar7 * 3) + (iVar8 * 2))
+	if(iVar3 == 0)
+		cc_setop(struct_param(1974, iVar2), 1)
+	else {
+		instr6103(script_5309, "i", -2147483643)
+		instr6094(script_44, "Id", -2147483645, iVar4)
+		if(iVar3 == 1)
+			cc_setuseop(struct_param(1974, iVar2))
+		else
+			if(iVar3 == 2)
+				cc_setuseop(struct_param(1974, iVar2))
+			else
+				cc_setuseop("Place " + struct_param(1974, iVar2))
+		instr6218(-1, 176)
+	}
+	instr6091(script_44, "Id", -2147483645, iVar5)
+	cc_setonmouseover(script_5334, "IiIsii", if_gethash(823, 3), iVar0, if_gethash(823, 15), sVar0, 20, 200)
+	instr6092(script_299, "IId", if_gethash(823, 15), -2147483645, iVar4)
+	cc_create(iVar0, 5, 53936132)
+	cc_setgraphic(struct_param(1983, iVar2))
+	cc_setsize(0, 0, 50, 50)
+	if(modulo(3, iVar0) == 0)
+		cc_setposition(0, 0, (2 + iVar7) + (iVar1 * (54 + iVar7)), iVar7 + 2)
+	else
+		if(modulo(3, iVar0) == 1)
+			cc_setposition(0, 0, (2 + iVar7) + (iVar1 * (54 + iVar7)), 2 + ((iVar7 * 2) + iVar8))
+		else
+			cc_setposition(0, 0, (2 + iVar7) + (iVar1 * (54 + iVar7)), 2 + ((iVar7 * 3) + (iVar8 * 2)))
+	if(modulo(3, iVar0) == 2)
+		iVar1 = iVar1 + 1
+	iVar0 = iVar0 + 1
+}
+iVar1 = iVar1 + 1
+if_setscrollpos(if_gethash(823, 9), 0, 0)
+if_setscrollsize(53936137, iVar7 + (iVar1 * (54 + iVar7)), 0)
+script_31(53936138, 53936137, 6507, 6504, 6505, 6506, 6499, 6498)
+return

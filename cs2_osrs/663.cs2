@@ -1,0 +1,24 @@
+void script_663() {
+	int int0;
+	int int1;
+	int int2;
+	string str0;
+	string str1;
+	string str2;
+	int0 = script_553();
+	int1 = 0;
+	int2 = -1;
+	str0 = "";
+	str1 = "";
+	str2 = "";
+	if (hasChild(widget(162, 545)) == true) {
+		int1, int2, str0, str1, str2 = m5004(int0);
+		if (datamap('i', '1', 892, int1) == true) {
+			script_102(str2);
+		}
+	}
+	script_84(int0);
+	script_89(int0);
+	script_192(int0);
+	return;
+}

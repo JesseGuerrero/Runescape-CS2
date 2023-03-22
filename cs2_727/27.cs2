@@ -1,0 +1,6 @@
+//script27(27)()(void)
+if_settext(if_gethash(197, 8), to_string(load_varpbit(1485)))
+if_settext(if_gethash(197, 11), to_string(load_varpbit(1489)))
+if_settext(if_gethash(197, 9), to_string(load_varpbit(1488)))
+if_settext(if_gethash(197, 10), to_string(load_varpbit(1486)))
+return

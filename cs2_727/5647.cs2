@@ -1,0 +1,15 @@
+//script5647(5647)(string arg0)(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 5
+iVar1 = 13
+if_sethide(if_gethash(1215, 13), 0)
+if_settext(if_gethash(1215, 16), arg0)
+iVar2 = (iVar0 * 2) + parawidth(arg0, instr6289(if_gethash(1215, 16)), 500)
+iVar3 = (iVar0 * 2) + (paramheight(arg0, instr6289(if_gethash(1215, 16)), iVar2) * iVar1)
+if_setsize(if_gethash(1215, 13), 0, 0, iVar3, iVar2)
+iVar3 = ((load_varpbit(10444) * 25) + (load_varpbit(10445) * 25)) + (load_varpbit(10446) * 25)
+if_setposition(if_gethash(1215, 13), 0, 2, iVar3, 0)
+return

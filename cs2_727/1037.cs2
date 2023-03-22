@@ -1,0 +1,42 @@
+//script1037(1037)(int arg0, int arg1)(void)
+string sVar0
+store_varc(161, arg1)
+store_varc(128, -1)
+store_varc(129, 0)
+store_varc_string(30, "")
+sVar0 = instr6583(arg0)
+if(load_varc(126) == 1)
+	sVar0 = "To " + load_varc_string(27) + ": " + "<col=800000>" + sVar0
+else
+	if(load_varc(126) == 2)
+		sVar0 = "[" + "<col=0000ff>" + fc_getchatdisplayname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0
+	else
+		if(load_varc(126) == 8)
+			if(activeclanchannel_find_affined() == 1)
+				sVar0 = "[" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0
+		else
+			if(load_varc(126) == 10)
+				if(activeclanchannel_find_listened() == 1)
+					sVar0 = "[" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0
+			else
+				sVar0 = "<col=0000ff>" + sVar0
+if_sethide(if_gethash(137, 50), 1)
+instr6248(if_gethash(137, 55), None, "")
+if_sethide(if_gethash(137, 0), 0)
+if_sethide(if_gethash(137, 7), 1)
+if_sethide(if_gethash(137, 9), 1)
+if_sethide(if_gethash(137, 13), 0)
+if_sethide(if_gethash(137, 17), 1)
+if_sethide(if_gethash(137, 1), 1)
+if_sethide(if_gethash(137, 3), 0)
+if_setcolor(8978435, 0x0)
+if_settextfont(if_gethash(137, 3), 495)
+if_settextalign(if_gethash(137, 3), 0, 1, 0)
+if_settext(if_gethash(137, 3), sVar0)
+if_settextshadow(if_gethash(137, 3), 0)
+cc_deleteall(if_gethash(137, 16))
+if_settext(if_gethash(137, 14), "Search for: *")
+instr6248(if_gethash(137, 13), script_1038, "izIIIIei", -2147483640, -2147483639, if_gethash(137, 1), if_gethash(137, 14), if_gethash(137, 16), if_gethash(137, 15), arg0, 0)
+if_setscrollsize(8978448, 0, 0)
+script_72(8978447, 8978448, 0)
+return

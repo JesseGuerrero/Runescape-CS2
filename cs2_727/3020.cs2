@@ -1,0 +1,92 @@
+//script3020(3020)(int arg0, string arg1)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+iVar1 = 0
+sVar0 = ""
+sVar1 = ""
+iVar2 = -1
+sVar2 = ""
+sVar3 = ""
+iVar3 = -1
+if(string_length(load_varc_string(277)) > 0)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			if(string_length(load_varc_string(277)) > 0)
+				if(string_length(arg0) > 0) {
+					if(chat_getfilter_private() == 2)
+						script_3047(1)
+					send_private_message(load_varc_string(277), removetags(arg0))
+				}
+			break
+		case 1:
+			if(friend_count() < 0)
+				send_message("Unable to update Friends List - system busy.")
+			else
+				if(string_length(load_varc_string(277)) > 0)
+					friend_add(load_varc_string(277))
+			break
+		case 2:
+			if(ignore_count() < 0)
+				send_message("Unable to update Ignore List - system busy.")
+			else
+				if(string_length(load_varc_string(277)) > 0)
+					ignore_add(load_varc_string(277))
+			break
+		case 3:
+			if(friend_count() < 0)
+				send_message("Unable to update Friends List - system busy.")
+			else
+				if(string_length(load_varc_string(277)) > 0)
+					friend_del(load_varc_string(277))
+			break
+		case 4:
+			if(ignore_count() < 0)
+				send_message("Unable to update Ignore List - system busy.")
+			else
+				if(string_length(load_varc_string(277)) > 0)
+					ignore_del(load_varc_string(277))
+			break
+		case 5:
+			if(fc_getchatcount() <= 0)
+				if(string_length(load_varc_string(277)) > 0)
+					fc_joinchat(load_varc_string(277))
+			break
+		case 6:
+			store_varc(1094, 0)
+			instr6648("index.html", "bugtracker_v4", 0)
+			break
+		case 7:
+			if(string_length(load_varc_string(277)) > 0)
+				script_4465(load_varc_string(277))
+			break
+		case 9:
+			if(fc_getchatcount() > 0)
+				if(string_length(load_varc_string(277)) > 0)
+					script_1633(load_varc_string(277))
+			break
+		case 10:
+			instr6717()
+			store_varc(1100, -1)
+			break
+		case 12:
+			script_3017()
+			instr6717()
+			store_varc(1100, -1)
+			script_4701(1, load_varc(1553), load_varc(1554), load_varc_string(128))
+			return
+
+
+	}
+store_varc(1650, 0)
+if(iVar1 == 1)
+	script_3015(iVar2, sVar0, sVar1, sVar2, sVar3)
+else
+	script_3017()
+return

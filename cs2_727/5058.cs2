@@ -1,0 +1,17 @@
+//script5058(5058)(int arg0, int arg1)(void)
+if(arg1 == 1) {
+	if(cc_find(0, arg0) == 1)
+		cc_setgraphic(7565)
+	if(cc_find(1, arg0) == 1)
+		cc_setgraphic(7564)
+	if(cc_find(2, arg0) == 1)
+		cc_setgraphic(7566)
+} else  {
+	if(cc_find(0, arg0) == 1)
+		cc_setgraphic(7562)
+	if(cc_find(1, arg0) == 1)
+		cc_setgraphic(7561)
+	if(cc_find(2, arg0) == 1)
+		cc_setgraphic(7563)
+}
+return

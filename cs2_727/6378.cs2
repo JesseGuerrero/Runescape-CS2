@@ -1,0 +1,17 @@
+//script6378(6378)(int arg0)(int)
+if(arg0 == -1)
+	return 1
+arg0 = script_6379(arg0)
+if(instr6644() >= 2) {
+	switch(if_getparentlayer(arg0)) {
+		case default:
+			break
+		case 48889866:
+			if(if_isopen(48889885) == 1)
+				return 1
+			break
+
+	}
+	return 0
+}
+return -1

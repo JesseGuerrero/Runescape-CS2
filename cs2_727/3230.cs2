@@ -1,0 +1,43 @@
+//script3230(3230)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 0
+if(instr6644() < 2) {
+	if_setposition(if_gethash(596, 5), 1, 1, 16, 0)
+	if_setposition(if_gethash(596, 6), 1, 1, 16, 0)
+	if_setsize(if_gethash(744, 16), 1, 1, 0, 0)
+	if_setposition(if_gethash(744, 23), 0, 1, 12, 0)
+} else  {
+	if_setposition(if_gethash(596, 5), 1, 1, 0, 0)
+	if_setposition(if_gethash(596, 6), 1, 1, 0, 0)
+	if_setsize(if_gethash(744, 16), 0, 0, 503, 956)
+	iVar0 = if_gety(if_gethash(744, 16))
+	iVar0 = iVar0 - if_getheight(if_gethash(744, 23))
+	iVar0 = iVar0 / 2
+	if_setposition(if_gethash(744, 23), 0, 1, max(0, iVar0), 0)
+}
+iVar1 = 0
+iVar2 = 0
+iVar3 = 2
+iVar1 = if_getx(if_gethash(744, 99)) + if_getx(if_gethash(744, 16))
+iVar1 = iVar1 - (if_getwidth(if_gethash(744, 81)) + iVar3)
+iVar2 = if_gety(if_gethash(744, 101)) + if_gety(if_gethash(744, 16))
+iVar2 = iVar2 + iVar3
+iVar2 = iVar2 + if_getheight(if_gethash(744, 101))
+if_setposition(if_gethash(744, 81), 0, 0, iVar2, iVar1)
+iVar1 = if_getx(if_gethash(744, 81))
+iVar1 = iVar1 + if_getwidth(if_gethash(744, 81))
+iVar1 = if_getwidth(if_gethash(744, 17)) - iVar1
+if_setposition(if_gethash(744, 81), 0, 2, iVar2, iVar1)
+if(detailget_maxscreensize() == 2)
+	if(instr6644() != 1) {
+		if_setposition(if_gethash(744, 81), 0, 2, 57, 9)
+		if_setsize(if_gethash(744, 16), 0, 0, 503, 800)
+	} else 
+		if(if_getwidth(if_gethash(744, 81)) + if_getx(if_gethash(744, 81)) > if_getwidth(if_gethash(744, 17)))
+			if_setposition(if_gethash(744, 81), 0, 2, 5, 5)
+if(load_varc(986) == 0)
+	if_setposition(if_gethash(744, 81), 0, 2, 5, 5)
+return

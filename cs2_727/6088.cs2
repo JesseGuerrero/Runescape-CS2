@@ -1,0 +1,29 @@
+//script6088(6088)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar2 = 82903060
+iVar3 = 82903065
+iVar4 = 82903066
+iVar5 = 82903064
+iVar6 = 82903063
+iVar7 = 82903067
+if(arg1 == 1) {
+	iVar2 = 82903061
+	iVar3 = 82903136
+	iVar4 = 82903137
+	iVar5 = -1
+	iVar6 = 82903135
+	iVar7 = 82903138
+}
+cc_create(arg0, 5, iVar2)
+cc_create(arg0, 4, iVar3)
+cc_create(arg0, 5, iVar4)
+cc_create(arg0, 4, iVar6)
+if(iVar5 != -1)
+	cc_create(arg0, 5, iVar5)
+cc_create(arg0, 5, iVar7)
+return

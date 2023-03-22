@@ -1,0 +1,16 @@
+//script4695(4695)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = client_clock()
+if(iVar2 >= arg0 + 15 || arg0 == 0) {
+	if_settrans(if_gethash(500, 11), arg1)
+	arg0 = iVar2
+	if(load_varc(1548) == 0)
+		arg1 = 255
+	else
+		if(arg1 == 255)
+			arg1 = 0
+		else
+			arg1 = 255
+}
+instr6342(if_gethash(500, 11), script_4695, "ii", arg0, arg1)
+return

@@ -1,0 +1,75 @@
+//script4793(4793)(int arg0, int arg1)(int, int, int, int, int, int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return load_clan_var(2639), load_clan_var(2638), load_clan_var(2637), load_clan_var(2636), load_clan_var(2635), load_clan_var(2634)
+
+	case 2:
+		return load_clan_var(2645), load_clan_var(2644), load_clan_var(2643), load_clan_var(2642), load_clan_var(2641), load_clan_var(2640)
+
+	case 3:
+		return load_clan_var(2651), load_clan_var(2650), load_clan_var(2649), load_clan_var(2648), load_clan_var(2647), load_clan_var(2646)
+
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 1:
+				return load_clan_var(2657), load_clan_var(2656), load_clan_var(2655), load_clan_var(2654), load_clan_var(2653), load_clan_var(2652)
+
+			case 2:
+				return load_clan_var(2663), load_clan_var(2662), load_clan_var(2661), load_clan_var(2660), load_clan_var(2659), load_clan_var(2658)
+
+			case 3:
+				return load_clan_var(2669), load_clan_var(2668), load_clan_var(2667), load_clan_var(2666), load_clan_var(2665), load_clan_var(2664)
+
+			case 4:
+				return load_clan_var(2675), load_clan_var(2674), load_clan_var(2673), load_clan_var(2672), load_clan_var(2671), load_clan_var(2670)
+
+			case 5:
+				return load_clan_var(2681), load_clan_var(2680), load_clan_var(2679), load_clan_var(2678), load_clan_var(2677), load_clan_var(2676)
+
+			case 6:
+				return load_clan_var(2687), load_clan_var(2686), load_clan_var(2685), load_clan_var(2684), load_clan_var(2683), load_clan_var(2682)
+
+			case 7:
+				return load_clan_var(2693), load_clan_var(2692), load_clan_var(2691), load_clan_var(2690), load_clan_var(2689), load_clan_var(2688)
+
+			case 8:
+				return load_clan_var(2699), load_clan_var(2698), load_clan_var(2697), load_clan_var(2696), load_clan_var(2695), load_clan_var(2694)
+
+			case 9:
+				return load_clan_var(2705), load_clan_var(2704), load_clan_var(2703), load_clan_var(2702), load_clan_var(2701), load_clan_var(2700)
+
+			case 10:
+				return load_clan_var(2711), load_clan_var(2710), load_clan_var(2709), load_clan_var(2708), load_clan_var(2707), load_clan_var(2706)
+
+			case 11:
+				return load_clan_var(2717), load_clan_var(2716), load_clan_var(2715), load_clan_var(2714), load_clan_var(2713), load_clan_var(2712)
+
+			case 12:
+				return load_clan_var(2723), load_clan_var(2722), load_clan_var(2721), load_clan_var(2720), load_clan_var(2719), load_clan_var(2718)
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 1:
+				return load_clan_var(2154), load_clan_var(2153), load_clan_var(2152), load_clan_var(2151), load_clan_var(2150), load_clan_var(2149)
+
+			case 2:
+				return load_clan_var(2171), load_clan_var(2170), load_clan_var(2169), load_clan_var(2168), load_clan_var(2167), load_clan_var(2166)
+
+			case 3:
+				return load_clan_var(2188), load_clan_var(2187), load_clan_var(2186), load_clan_var(2185), load_clan_var(2184), load_clan_var(2183)
+
+
+		}
+		break
+
+}
+return 0, 0, 0, 0, 0, 0

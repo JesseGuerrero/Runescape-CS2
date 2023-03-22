@@ -1,0 +1,211 @@
+void script_1939(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19, Widget widget20, Widget widget21, Widget widget22, Widget widget23, Widget widget24, Widget widget25) {
+	widget13.setText(str(VARPBIT[5672]));
+	if (VARPBIT[5672] > 0) {
+		widget13.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 1) {
+			widget0.setItemOnWidgetMethod2205(21374, 0);
+		} else {
+			widget0.setItemOnWidgetMethod2205(12402, 0);
+		}
+	} else {
+		widget13.setRGB(0xC80000);
+		if (VARPBIT[5685] == 1) {
+			widget0.setItemOnWidgetMethod2205(21374, 0);
+		} else {
+			widget0.setItemOnWidgetMethod2205(21361, 0);
+		}
+	}
+	widget14.setText(str(VARPBIT[5673]));
+	if (VARPBIT[5673] > 0) {
+		widget14.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 2) {
+			widget1.setItemOnWidgetMethod2205(21375, 0);
+		} else {
+			widget1.setItemOnWidgetMethod2205(12403, 0);
+		}
+	} else {
+		widget14.setRGB(0xC80000);
+		if (VARPBIT[5685] == 2) {
+			widget1.setItemOnWidgetMethod2205(21375, 0);
+		} else {
+			widget1.setItemOnWidgetMethod2205(21362, 0);
+		}
+	}
+	widget15.setText(str(VARPBIT[5674]));
+	if (VARPBIT[5674] > 0) {
+		widget15.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 3) {
+			widget2.setItemOnWidgetMethod2205(21376, 0);
+		} else {
+			widget2.setItemOnWidgetMethod2205(12404, 0);
+		}
+	} else {
+		widget15.setRGB(0xC80000);
+		if (VARPBIT[5685] == 3) {
+			widget2.setItemOnWidgetMethod2205(21376, 0);
+		} else {
+			widget2.setItemOnWidgetMethod2205(21363, 0);
+		}
+	}
+	widget16.setText(str(VARPBIT[5675]));
+	if (VARPBIT[5675] > 0) {
+		widget16.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 4) {
+			widget3.setItemOnWidgetMethod2205(21377, 0);
+		} else {
+			widget3.setItemOnWidgetMethod2205(12405, 0);
+		}
+	} else {
+		widget16.setRGB(0xC80000);
+		if (VARPBIT[5685] == 4) {
+			widget3.setItemOnWidgetMethod2205(21377, 0);
+		} else {
+			widget3.setItemOnWidgetMethod2205(21364, 0);
+		}
+	}
+	widget17.setText(str(VARPBIT[5676]));
+	if (VARPBIT[5676] > 0) {
+		widget17.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 5) {
+			widget4.setItemOnWidgetMethod2205(21378, 0);
+		} else {
+			widget4.setItemOnWidgetMethod2205(12406, 0);
+		}
+	} else {
+		widget17.setRGB(0xC80000);
+		if (VARPBIT[5685] == 5) {
+			widget4.setItemOnWidgetMethod2205(21378, 0);
+		} else {
+			widget4.setItemOnWidgetMethod2205(21365, 0);
+		}
+	}
+	widget18.setText(str(VARPBIT[5677]));
+	if (VARPBIT[5677] > 0) {
+		widget18.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 6) {
+			widget5.setItemOnWidgetMethod2205(21379, 0);
+		} else {
+			widget5.setItemOnWidgetMethod2205(12407, 0);
+		}
+	} else {
+		widget18.setRGB(0xC80000);
+		if (VARPBIT[5685] == 6) {
+			widget5.setItemOnWidgetMethod2205(21379, 0);
+		} else {
+			widget5.setItemOnWidgetMethod2205(21366, 0);
+		}
+	}
+	widget19.setText(str(VARPBIT[5678]));
+	if (VARPBIT[5678] > 0) {
+		widget19.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 7) {
+			widget6.setItemOnWidgetMethod2205(21380, 0);
+		} else {
+			widget6.setItemOnWidgetMethod2205(12408, 0);
+		}
+	} else {
+		widget19.setRGB(0xC80000);
+		if (VARPBIT[5685] == 7) {
+			widget6.setItemOnWidgetMethod2205(21380, 0);
+		} else {
+			widget6.setItemOnWidgetMethod2205(21367, 0);
+		}
+	}
+	widget20.setText(str(VARPBIT[5679]));
+	if (VARPBIT[5679] > 0) {
+		widget20.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 8) {
+			widget7.setItemOnWidgetMethod2205(21381, 0);
+		} else {
+			widget7.setItemOnWidgetMethod2205(12409, 0);
+		}
+	} else {
+		widget20.setRGB(0xC80000);
+		if (VARPBIT[5685] == 8) {
+			widget7.setItemOnWidgetMethod2205(21381, 0);
+		} else {
+			widget7.setItemOnWidgetMethod2205(21368, 0);
+		}
+	}
+	widget21.setText(str(VARPBIT[5680]));
+	if (VARPBIT[5680] > 0) {
+		widget21.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 9) {
+			widget8.setItemOnWidgetMethod2205(21382, 0);
+		} else {
+			widget8.setItemOnWidgetMethod2205(12410, 0);
+		}
+	} else {
+		widget21.setRGB(0xC80000);
+		if (VARPBIT[5685] == 9) {
+			widget8.setItemOnWidgetMethod2205(21382, 0);
+		} else {
+			widget8.setItemOnWidgetMethod2205(21369, 0);
+		}
+	}
+	widget22.setText(str(VARPBIT[5681]));
+	if (VARPBIT[5681] > 0) {
+		widget22.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 10) {
+			widget9.setItemOnWidgetMethod2205(21383, 0);
+		} else {
+			widget9.setItemOnWidgetMethod2205(12411, 0);
+		}
+	} else {
+		widget22.setRGB(0xC80000);
+		if (VARPBIT[5685] == 10) {
+			widget9.setItemOnWidgetMethod2205(21383, 0);
+		} else {
+			widget9.setItemOnWidgetMethod2205(21370, 0);
+		}
+	}
+	widget23.setText(str(VARPBIT[5682]));
+	if (VARPBIT[5682] > 0) {
+		widget23.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 11) {
+			widget10.setItemOnWidgetMethod2205(21384, 0);
+		} else {
+			widget10.setItemOnWidgetMethod2205(12642, 0);
+		}
+	} else {
+		widget23.setRGB(0xC80000);
+		if (VARPBIT[5685] == 11) {
+			widget10.setItemOnWidgetMethod2205(21384, 0);
+		} else {
+			widget10.setItemOnWidgetMethod2205(21371, 0);
+		}
+	}
+	widget24.setText(str(VARPBIT[5683]));
+	if (VARPBIT[5683] > 0) {
+		widget24.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 12) {
+			widget11.setItemOnWidgetMethod2205(21385, 0);
+		} else {
+			widget11.setItemOnWidgetMethod2205(12938, 0);
+		}
+	} else {
+		widget24.setRGB(0xC80000);
+		if (VARPBIT[5685] == 12) {
+			widget11.setItemOnWidgetMethod2205(21385, 0);
+		} else {
+			widget11.setItemOnWidgetMethod2205(21372, 0);
+		}
+	}
+	widget25.setText(str(VARPBIT[5684]));
+	if (VARPBIT[5684] > 0) {
+		widget25.setRGB(0xFFFF00);
+		if (VARPBIT[5685] == 13) {
+			widget12.setItemOnWidgetMethod2205(21386, 0);
+		} else {
+			widget12.setItemOnWidgetMethod2205(13249, 0);
+		}
+	} else {
+		widget25.setRGB(0xC80000);
+		if (VARPBIT[5685] == 13) {
+			widget12.setItemOnWidgetMethod2205(21386, 0);
+		} else {
+			widget12.setItemOnWidgetMethod2205(21373, 0);
+		}
+	}
+	return;
+}

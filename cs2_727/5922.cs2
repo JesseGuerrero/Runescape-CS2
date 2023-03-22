@@ -1,0 +1,13 @@
+//script5922(5922)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 8
+iVar3 = -162
+iVar4 = max(iVar3, arg1 - iVar2)
+if(iVar4 == iVar3)
+	instr6342(arg0, None, "")
+else
+	instr6342(arg0, script_5922, "Ii", -2147483645, iVar4)
+if_setposition(arg0, 1, 1, -16, iVar4)
+return

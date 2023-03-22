@@ -1,0 +1,39 @@
+void script_827(Widget widget0) {
+	Item item1;
+	int int2;
+	int int3;
+	item1 = null;
+	int2 = 0;
+	int3 = getItemContainerLength(93);
+	while (int3 > 0) {
+		int3 = int3 - 1;
+		if (CHILD.setChild(widget0, int3) == true) {
+			CHILD.setNoOptions();
+			CHILD.hookFrame(null);
+			item1 = getItemIdInSlot(93, int3);
+			if (item1 != null) {
+				CHILD.setHidden(false);
+				CHILD.setItem(item1, getItemAmtInSlot(93, int3));
+				if (datamap('o', 'g', 1034, item1) != null || datamap('o', 'g', 1034, getRealItem(item1)) != null) {
+					if (isMember() == false && isMembersItem(item1) == true) {
+						CHILD.setTrans(130);
+						CHILD.hookOptionClick(null);
+					} else {
+						CHILD.setTrans(0);
+						CHILD.setContextMenuOption(1, "Unpack");
+						CHILD.hookOptionClick(&script_487(CTX_WIDGET, CTX_WIDGET_CHILD, 100, 0));
+					}
+				} else {
+					CHILD.setTrans(130);
+					CHILD.hookOptionClick(null);
+				}
+				CHILD.setContextMenuOption(10, "Examine");
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item1) + "</col>");
+			} else {
+				CHILD.setHidden(true);
+				CHILD.setItem(6512, 1);
+			}
+		}
+	}
+	return;
+}

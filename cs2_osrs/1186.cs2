@@ -1,0 +1,38 @@
+void script_1186(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, int arg13) {
+	int int14;
+	int int15;
+	string str0;
+	widget0.clearChildren();
+	int14 = 0;
+	int15 = 0;
+	int14, int15 = script_1227(widget0, widget1, widget2, 3, int14, int15);
+	int14, int15 = script_1227(widget0, widget3, widget4, 2, int14, int15);
+	int14, int15 = script_1227(widget0, widget5, widget6, 4, int14, int15);
+	int14, int15 = script_1227(widget0, widget7, widget8, 5, int14, int15);
+	int14, int15 = script_1227(widget0, widget9, widget10, 1, int14, int15);
+	str0 = "View tasks";
+	widget11.setContextMenuOption(1, str0);
+	widget11.setSize(getMaxLineWidth(str0, 190, 495) + 10, widget11.getHeight(), 0, 0);
+	script_1230(widget11, str0);
+	str0 = "Favour Overlay";
+	widget12.setOptionBase("<col=ff9040>" + str0 + "</col>");
+	widget12.setSize(getMaxLineWidth(str0, 190, 495) + 20, widget12.getHeight(), 0, 0);
+	CHILD.createChild(widget12, 5, 0);
+	CHILD.setSize(17, 17, 0, 0);
+	CHILD.setPosition(0, 0, 0, 1);
+	_CHILD.createChild(widget12, 4, 1);
+	_CHILD.setSize(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setFont(495);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(2, 1, 0);
+	_CHILD.setText(str0);
+	_CHILD.hookMouseExit(&script_40(widget(arg13)));
+	widget12.hookMouseEnter(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget12.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+	script_1189(widget12, arg13);
+	widget12.hookVARP(&script_1187(widget12, getChildId(), getChildId(), widget(arg13)), 1055);
+	widget12.hookOptionClick(&script_1188(CTX_MENU_OPTION, widget12, getChildId(), getChildId(), widget(arg13)));
+	return;
+}

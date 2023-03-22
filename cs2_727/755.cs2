@@ -1,0 +1,3 @@
+//script755(755)()(void)
+if_settext(if_gethash(662, 41), to_string(stat(23)) + "/" + to_string(stat_base(23)))
+return

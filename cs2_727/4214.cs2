@@ -1,0 +1,28 @@
+//script4214(4214)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = if_gettrans(arg0)
+iVar4 = 0
+if(arg0 == -1)
+	return
+if(arg2 == 0) {
+	if(arg1 == 1)
+		iVar4 = iVar3 + 22
+	else
+		if(arg1 == 0)
+			iVar4 = iVar3 - 22
+		else {
+			instr6342(arg0, None, "")
+			return
+		}
+	iVar4 = max(0, iVar4)
+	iVar4 = min(255, iVar4)
+	if_settrans(arg0, iVar4)
+	if(arg1 == 1)
+		if(iVar4 == 255 || arg1 == 0 || iVar4 == 0)
+			instr6342(arg0, None, "")
+		else
+			instr6342(arg0, script_4214, "Iii", arg0, arg1, 0)
+} else 
+	instr6342(arg0, script_4214, "Iii", arg0, arg1, arg2 - 1)
+return

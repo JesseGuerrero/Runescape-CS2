@@ -1,0 +1,15 @@
+void script_1044() {
+	int int0;
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int0 = 715 - 175;
+	int1 = 700 - 195;
+	int2 = widget(261, 8).getWidth() - widget(261, 13).getWidth();
+	int3 = 0;
+	int4 = 0;
+	int3, int4 = cs2method6203();
+	script_1049();
+	return;
+}

@@ -1,0 +1,30 @@
+//script5389(5389)()(void)
+if(load_varpbit(3423) == 1) {
+	if_sethide(if_gethash(1128, 99), 0)
+	if_setgraphic(if_gethash(1128, 4), 6007)
+}
+if(load_varpbit(3424) == 1) {
+	if_sethide(if_gethash(1128, 129), 0)
+	if_setgraphic(if_gethash(1128, 106), 6007)
+}
+if(load_varpbit(3425) == 1) {
+	if_sethide(if_gethash(1128, 167), 0)
+	if_setgraphic(if_gethash(1128, 144), 6007)
+}
+if(load_varpbit(3426) == 1) {
+	if_sethide(if_gethash(1128, 204), 0)
+	if_setgraphic(if_gethash(1128, 181), 6007)
+}
+if(load_varpbit(3427) == 1) {
+	if_sethide(if_gethash(1128, 241), 0)
+	if_setgraphic(if_gethash(1128, 218), 6007)
+}
+if(load_varpbit(3428) == 1) {
+	if_sethide(if_gethash(1128, 278), 0)
+	if_setgraphic(if_gethash(1128, 255), 6007)
+}
+if(load_varpbit(3429) == 1) {
+	if_sethide(if_gethash(1128, 315), 0)
+	if_setgraphic(if_gethash(1128, 292), 6007)
+}
+return

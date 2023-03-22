@@ -1,0 +1,46 @@
+void script_1731(int arg0, Widget widget1, int arg2, int arg3) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	string str0;
+	string str1;
+	int4 = (arg2 + arg3) / 2;
+	int5 = ARRAY0[int4];
+	ARRAY0[int4] = ARRAY0[arg3];
+	ARRAY0[arg3] = int5;
+	int6 = arg2;
+	int7 = arg2;
+	int8 = -1;
+	str0 = "";
+	str1 = "";
+	while (int7 < arg3) {
+		if (CHILD.setChild(widget1, ARRAY0[int7] * 4 + 3) == true) {
+			str0 = getText();
+		} else {
+			str0 = "";
+		}
+		if (CHILD.setChild(widget1, int5 * 4 + 3) == true) {
+			str1 = getText();
+		} else {
+			str1 = "";
+		}
+		if (compare(str0, str1) <= 0) {
+			int8 = ARRAY0[int7];
+			ARRAY0[int7] = ARRAY0[int6];
+			ARRAY0[int6] = int8;
+			int6 = int6 + 1;
+		}
+		int7 = int7 + 1;
+	}
+	ARRAY0[arg3] = ARRAY0[int6];
+	ARRAY0[int6] = int5;
+	if (arg2 < int6 - 1) {
+		script_1731(0, widget1, arg2, int6 - 1);
+	}
+	if (int6 + 1 < arg3) {
+		script_1731(0, widget1, int6 + 1, arg3);
+	}
+	return;
+}

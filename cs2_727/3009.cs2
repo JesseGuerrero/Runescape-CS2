@@ -1,0 +1,13 @@
+//script3009(3009)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+if_setsize(arg1, 0, 0, 88, 13)
+if_setgraphic(arg1, 4681)
+if_setsize(arg2, 0, 1, 88, 26)
+if_setgraphic(arg2, 4682)
+if_setsize(arg3, 0, 0, 88, 13)
+if_setgraphic(arg3, 4684)
+if_setgraphic(arg5, 2673)
+if_setsize(arg6, 0, 0, 88, 13)
+if_setgraphic(arg6, 4683)
+hook_mouse_enter(arg0, None, "")
+hook_mouse_exit(arg0, None, "")
+return

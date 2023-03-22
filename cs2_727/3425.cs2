@@ -1,0 +1,13 @@
+//script3425(3425)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = enum(3058, arg1, 'I', 'o')
+iVar3 = enum(3059, iVar2, 'o', 'i')
+if(iVar2 == 4055)
+	if_settext(arg0, "Free!")
+else
+	if_settext(arg0, to_string(iVar3))
+if_setitem(arg1, -1, iVar2)
+if_setborderthickness(arg1, 1)
+if_setspriteshadow(arg1, 3355443)
+return

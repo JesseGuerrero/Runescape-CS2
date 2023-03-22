@@ -1,0 +1,9 @@
+//script6153(6153)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+instr6650(2, 0)
+instr6650(2, 1)
+instr6651(0, arg3, movecoord(arg2, 0, arg1, arg0), arg3, movecoord(arg2, 0, arg1, arg0), 0, 0)
+instr6651(0, arg6, movecoord(arg5, 0, arg4, arg0), arg6, movecoord(arg5, 0, arg4, arg0), 0, 1)
+instr6651(0, arg3, movecoord(arg2, 0, arg1, arg0), arg3, movecoord(arg2, 0, arg1, arg0), 1, 0)
+instr6651(0, arg6, movecoord(arg5, 0, arg4, arg0), arg6, movecoord(arg5, 0, arg4, arg0), 1, 1)
+instr6677(0, 1, 999, 999, 0, 0)
+return

@@ -1,0 +1,12 @@
+//script1478(1478)()(void)
+int iVar0
+store_varc_string(138, load_varc_string(22))
+iVar0 = script_1479(load_varc_string(138))
+if(iVar0 > 1)
+	send_message("Search for '" + escape(load_varc_string(138)) + "' returned " + to_string(iVar0) + " results.")
+else
+	if(iVar0 == 1)
+		send_message("Search for '" + escape(load_varc_string(138)) + "' returned " + to_string(iVar0) + " result.")
+	else
+		send_message("Search for '" + escape(load_varc_string(138)) + "' returned 0 results.")
+return

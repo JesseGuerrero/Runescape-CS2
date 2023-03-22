@@ -1,0 +1,7 @@
+//script573(573)()(int)
+cc_deleteall(if_gethash(389, 4))
+if_sethide(if_gethash(752, 8), 0)
+if_sethide(if_gethash(752, 3), 1)
+if_sethide(if_gethash(752, 7), 1)
+instr6248(if_gethash(389, 9), None, "")
+return -1

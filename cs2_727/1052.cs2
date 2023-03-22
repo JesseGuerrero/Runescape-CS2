@@ -1,0 +1,27 @@
+//script1052(1052)(int arg0, int arg1, string arg2)(void)
+if(arg1 == -1 || instr6584(arg1) == 0)
+	return
+store_varc(126, arg0)
+store_varc_string(27, arg0)
+store_varc(127, 1)
+if(instr6644() >= 2) {
+	if_setgraphic(if_gethash(752, 1), 8489)
+	if_setalpha(if_gethash(752, 1), 0)
+	if_sethide(if_gethash(752, 1), 0)
+	cc_deleteall(if_gethash(752, 2))
+	script_5392(49283074, 0, 0)
+	script_1652(0)
+	if_sethide(if_gethash(746, 49), 1)
+}
+if_sethide(if_gethash(137, 50), 1)
+instr6248(if_gethash(137, 55), None, "")
+if_sethide(if_gethash(137, 0), 0)
+if_sethide(if_gethash(137, 7), 1)
+if_sethide(if_gethash(137, 9), 1)
+if_sethide(if_gethash(137, 13), 1)
+if_sethide(if_gethash(137, 17), 0)
+if_sethide(if_gethash(137, 1), 0)
+if_sethide(if_gethash(137, 3), 1)
+if_setscrollpos(if_gethash(137, 17), 0, 0)
+script_1063(8978433, arg1)
+return

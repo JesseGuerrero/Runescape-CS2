@@ -1,0 +1,33 @@
+void script_873(Widget widget0, Widget widget1) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 3, 0);
+	CHILD.setSize(0, 0, 1, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0x000000);
+	CHILD.setTrans(0);
+	CHILD.setHidden(true);
+	CHILD.createChild(widget0, 3, 1);
+	CHILD.setSize(0, 0, 1, 0);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0x000000);
+	CHILD.setTrans(0);
+	CHILD.setHidden(true);
+	CHILD.createChild(widget0, 3, 2);
+	CHILD.setSize(0, 0, 0, 1);
+	CHILD.setPosition(0, 0, 0, 1);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0x000000);
+	CHILD.setTrans(0);
+	CHILD.setHidden(true);
+	CHILD.createChild(widget0, 3, 3);
+	CHILD.setSize(0, 0, 0, 1);
+	CHILD.setPosition(0, 0, 2, 1);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0x000000);
+	CHILD.setTrans(0);
+	CHILD.setHidden(true);
+	script_875(widget0, widget0.getWidth(), widget0.getHeight(), widget1);
+	return;
+}

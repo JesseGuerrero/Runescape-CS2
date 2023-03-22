@@ -1,0 +1,9 @@
+//script4334(4334)(int arg0, int arg1)(void)
+if(activeclansettings_getaffinedcount() >= 5) {
+	if_setcolor(arg0, hsvtorgb(load_clan_setting_var(18)))
+	if_setcolor(arg1, hsvtorgb(load_clan_setting_var(19)))
+} else  {
+	if_setcolor(arg0, hsvtorgb(42550))
+	if_setcolor(arg1, hsvtorgb(39382))
+}
+return

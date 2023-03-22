@@ -1,0 +1,11 @@
+//script6032(6032)()(void)
+if(client_clock() < load_varc(1795) + 200)
+	return
+else {
+	instr6342(if_gethash(906, 236), None, "")
+	instr6237(if_gethash(906, 236), script_5951, "Y", 1, 2527)
+	script_3097()
+	script_3093(-3, 0, 0, 10150, 0, -1, 1, "After you have completed your transaction, click continue to return to the game.", "", "", "Continue", "Continue")
+	instr6239(if_gethash(906, 258), script_5953, "")
+}
+return

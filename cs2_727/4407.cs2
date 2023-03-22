@@ -1,0 +1,5 @@
+//script4407(4407)(int arg0, int arg1, int arg2)(void)
+if(arg1 >= 1)
+	if(arg1 <= 10)
+		if_setopcursor(arg0, arg2, arg1)
+return

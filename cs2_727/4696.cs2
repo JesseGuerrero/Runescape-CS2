@@ -1,0 +1,5 @@
+//script4696(4696)()(void)
+instr6342(if_gethash(500, 8), script_4697, "i", 0)
+if(if_gethide(if_gethash(500, 11)) == 0)
+	instr6342(if_gethash(500, 11), script_4695, "ii", 0, 0)
+return

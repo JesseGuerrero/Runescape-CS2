@@ -1,0 +1,44 @@
+//script2945(2945)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+store_varc(1100, -1)
+if(instr6710() == 0)
+	if(string_length(load_varc_string(32)) == 0 || string_length(load_varc_string(33)) == 0) {
+		script_2940(11)
+		return
+	}
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+store_varc(200, 0)
+store_varc(201, 0)
+iVar4 = 39059514
+iVar5 = 39059500
+if(instr6710() == 1) {
+	iVar4 = 63897649
+	iVar5 = 63897644
+}
+if_settext(iVar4, "Logging in...")
+hook_mouse_press(iVar5, None, "")
+script_2950(-3, 0, 1, -1, 0, -1, 0, "Logging In - Please Wait", "", "")
+if_sethide(if_gethash(596, 8), 1)
+store_varc(1100, -3)
+sVar0 = load_varc_string(32)
+sVar1 = load_varc_string(33)
+if(instr6710() == 1) {
+	sVar0 = ""
+	sVar1 = ""
+}
+instr6707(sVar1, sVar0)
+if(instr6710() == 1)
+	instr6342(if_gethash(975, 26), script_2946, "i", 0)
+else
+	instr6342(if_gethash(596, 6), script_2946, "i", 0)
+return

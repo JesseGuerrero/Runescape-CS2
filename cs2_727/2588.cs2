@@ -1,0 +1,113 @@
+//script2588(2588)()(void)
+int iVar0
+int iVar1
+script_2587()
+iVar0 = -1
+switch(load_varc(929)) {
+	case default:
+		break
+	case 0:
+		iVar0 = inv_getitem(load_varc(930), 93)
+		break
+	case 1:
+		iVar0 = inv_getitem(load_varc(931), 93)
+		break
+	case 2:
+		iVar0 = inv_getitem(load_varc(932), 93)
+		break
+	case 3:
+		iVar0 = inv_getitem(load_varc(933), 93)
+		break
+	case 4:
+		iVar0 = inv_getitem(load_varc(934), 93)
+		break
+	case 5:
+		iVar0 = inv_getitem(load_varc(935), 93)
+		break
+	case 6:
+		iVar0 = inv_getitem(load_varc(936), 93)
+		break
+	case 7:
+		iVar0 = inv_getitem(load_varc(937), 93)
+		break
+	case 8:
+		iVar0 = inv_getitem(load_varc(938), 93)
+		break
+	case 9:
+		iVar0 = inv_getitem(load_varc(939), 93)
+		break
+
+}
+if(iVar0 == -1)
+	return
+iVar1 = item_param(805, iVar0)
+switch(load_varc(929)) {
+	case default:
+		break
+	case 0:
+		if(load_varpbit(6385) != 0)
+			if(load_varpbit(6385) != iVar1)
+				iVar1 = load_varpbit(6385)
+		break
+	case 1:
+		if(load_varpbit(6386) != 0)
+			if(load_varpbit(6386) != iVar1)
+				iVar1 = load_varpbit(6386)
+		break
+	case 2:
+		if(load_varpbit(6387) != 0)
+			if(load_varpbit(6387) != iVar1)
+				iVar1 = load_varpbit(6387)
+		break
+	case 3:
+		if(load_varpbit(6388) != 0)
+			if(load_varpbit(6388) != iVar1)
+				iVar1 = load_varpbit(6388)
+		break
+	case 4:
+		if(load_varpbit(6389) != 0)
+			if(load_varpbit(6389) != iVar1)
+				iVar1 = load_varpbit(6389)
+		break
+	case 5:
+		if(load_varpbit(6390) != 0)
+			if(load_varpbit(6390) != iVar1)
+				iVar1 = load_varpbit(6390)
+		break
+	case 6:
+		if(load_varpbit(6391) != 0)
+			if(load_varpbit(6391) != iVar1)
+				iVar1 = load_varpbit(6391)
+		break
+	case 7:
+		if(load_varpbit(6392) != 0)
+			if(load_varpbit(6392) != iVar1)
+				iVar1 = load_varpbit(6392)
+		break
+	case 8:
+		if(load_varpbit(6393) != 0)
+			if(load_varpbit(6393) != iVar1)
+				iVar1 = load_varpbit(6393)
+		break
+	case 9:
+		if(load_varpbit(6394) != 0)
+			if(load_varpbit(6394) != iVar1)
+				iVar1 = load_varpbit(6394)
+		break
+
+}
+switch(iVar1) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(292, 102), 1135)
+		break
+	case 2:
+		if_setgraphic(if_gethash(292, 104), 1135)
+		break
+	case 3:
+		if_setgraphic(if_gethash(292, 103), 1135)
+		break
+
+}
+return

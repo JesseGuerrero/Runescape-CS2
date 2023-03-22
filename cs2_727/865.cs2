@@ -1,0 +1,20 @@
+//script865(865)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+if(load_varp(1113) == 0)
+	if(load_varc(84) <= 2147482647)
+		store_varc(84, load_varc(84) + 1000)
+else {
+	iVar0 = inv_total(load_varp(1109), 93)
+	if(load_varp(1109) != item_cert(load_varp(1109)))
+		iVar1 = inv_total(item_cert(load_varp(1109)), 93)
+	store_varc(84, iVar0)
+	if(load_varc(84) <= 1000000000)
+		if(iVar1 <= 1000000000)
+			store_varc(84, load_varc(84) + iVar1)
+}
+if_settext(if_gethash(105, 148), tostring_localized(1, load_varc(84)))
+script_602()
+return

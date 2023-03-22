@@ -1,0 +1,22 @@
+//script3144(3144)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+if(cc_find(arg2, arg0) == 1) {
+	if_sethide(if_gethash(910, 65), 0)
+	if_sethide(if_gethash(910, 66), 0)
+	if_setposition(if_gethash(910, 65), 0, 0, cc_gety(), if_getx(if_gethash(910, 65)))
+	if_setposition(if_gethash(910, 66), 0, 0, cc_gety(), if_getx(if_gethash(910, 66)))
+}
+if(cc_find(arg2, arg1) == 1)
+	if(cc_getspriteid() == 1541)
+		cc_setgraphic(1542)
+	else
+		if(cc_getspriteid() == 1545)
+			cc_setgraphic(1546)
+if(arg3 == 1) {
+	if_setcolor(59637825, 0x606060)
+	if_setcolor(59637826, 0x404040)
+} else  {
+	if_setcolor(59637826, 0x606060)
+	if_setcolor(59637825, 0x404040)
+}
+return
+return

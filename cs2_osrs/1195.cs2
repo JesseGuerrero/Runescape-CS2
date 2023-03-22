@@ -1,0 +1,35 @@
+void script_1195(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	if (VARPBIT[4901] == 1) {
+		widget0.setItemOnWidgetMethod2205(13426, 1);
+	} else if (VARPBIT[4901] == 2) {
+		widget0.setItemOnWidgetMethod2205(13427, 1);
+	} else if (VARPBIT[4901] == 3) {
+		widget0.setItemOnWidgetMethod2205(13428, 1);
+	} else {
+		widget0.setItemOnWidgetMethod2205(1965, 1);
+	}
+	int3 = 100;
+	if (VARPBIT[4900] <= 100) {
+		int3 = VARPBIT[4900];
+	}
+	widget1.setText(str(int3));
+	int4 = mathMethod4006(0, 75, 0, 100, 100);
+	int5 = 210;
+	int6 = 0;
+	if (int3 < int4) {
+		int5 = mathMethod4006(0, int3, 0, int4, 152);
+		int6 = mathMethod4006(0, int3, 0, int4, 31);
+	}
+	widget1.setRGB(script_246(255, int5, int6));
+	widget2.setText("Points: " + script_46(VARPBIT[4893], ","));
+	if (VARPBIT[4893] >= 1000) {
+		widget2.setRGB(0xFF0000);
+	} else {
+		widget2.setRGB(0xFF981F);
+	}
+	return;
+}

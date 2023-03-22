@@ -1,0 +1,25 @@
+//script6165(6165)(int arg0)(void)
+if_settext(if_gethash(1273, 68), "0")
+cc_deleteall(if_gethash(1273, 13))
+cc_deleteall(if_gethash(1273, 14))
+cc_deleteall(if_gethash(1273, 15))
+cc_deleteall(if_gethash(1273, 16))
+store_varc(1911, -1)
+if_sethide(if_gethash(1273, 14), 1)
+if_sethide(if_gethash(1273, 15), 1)
+if_sethide(if_gethash(1273, 16), 1)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		script_6166()
+		break
+	case 1:
+		script_6168()
+		break
+	case 2:
+		script_6169()
+		break
+
+}
+return

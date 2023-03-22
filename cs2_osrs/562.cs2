@@ -1,0 +1,4 @@
+void script_562(int arg0, Model model1) {
+	script_564(arg0, model1);
+	return;
+}

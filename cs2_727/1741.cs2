@@ -1,0 +1,48 @@
+//script1741(1741)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar1 = 1199
+iVar2 = 781
+iVar3 = 1794
+iVar4 = 1795
+iVar5 = 1210
+iVar6 = 783
+if(instr6644() >= 2) {
+	iVar1 = 8655
+	iVar2 = 8657
+	iVar3 = 8658
+	iVar4 = 8659
+	iVar5 = 8643
+	iVar6 = 8647
+	if_setsize(if_gethash(750, 3), 0, 0, 34, 67)
+	if_setposition(if_gethash(750, 5), 0, 2, 2, 2)
+	if_setgraphic(arg0, 8625)
+	if_setposition(if_gethash(750, 6), 0, 0, 15, 3)
+	if_setsize(if_gethash(750, 6), 0, 0, 14, 34)
+} else  {
+	if_setsize(if_gethash(750, 3), 0, 0, 34, 57)
+	if_setposition(if_gethash(750, 5), 0, 0, 1, 1)
+	if_setgraphic(arg0, 1206)
+	if_setposition(if_gethash(750, 6), 0, 0, 15, 31)
+	if_setsize(if_gethash(750, 6), 0, 0, 14, 24)
+}
+if(load_varc(119) == 1) {
+	if_setgraphic(if_gethash(750, 2), iVar2)
+	if_setgraphic(if_gethash(750, 0), iVar6)
+	instr6213(arg0, 1, "Turn run mode off")
+} else 
+	if(load_varc(119) == 0) {
+		if_setgraphic(if_gethash(750, 2), iVar1)
+		if_setgraphic(if_gethash(750, 0), iVar5)
+		instr6213(arg0, 1, "Turn run mode on")
+	} else 
+		if(load_varc(119) == 3)
+			if_setgraphic(if_gethash(750, 2), iVar3)
+		else
+			if(load_varc(119) == 4)
+				if_setgraphic(if_gethash(750, 2), iVar4)
+return

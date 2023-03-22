@@ -1,0 +1,72 @@
+//script2784(2784)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+if(arg0 == 0 || coordx(coord()) >= coordx(45094272) || coordx(coord()) <= coordx(852481535) || coordz(coord()) >= coordz(45094272) || coordz(coord()) <= coordz(852481535)) {
+	if(arg6 != -1)
+		if(coordz(coord()) < coordz(45094272) + 8) {
+			if_sethide(arg6, 0)
+			cc_deleteall(arg6)
+			script_1086(arg6, 0, 0, 0)
+		} else 
+			if_sethide(arg6, 1)
+	if(arg7 == 0)
+		if(modulo(50, client_clock()) != 0)
+			return
+	if_setcolor(arg4, 0xFF981F)
+	if_setcolor(arg5, 0xFF981F)
+	if_setgraphic(arg2, 444)
+	if_settext(arg5, "ITEMS ARE" + "<br>" + "SAFE")
+} else 
+	if(arg0 == 1 || coordx(coord()) >= coordx(48240000) || coordx(coord()) <= coordx(855627263) || coordz(coord()) >= coordz(48240000) || coordz(coord()) <= coordz(855627263)) {
+		if(arg6 != -1)
+			if(coordz(coord()) < coordz(48240000) + 8) {
+				if_sethide(arg6, 0)
+				cc_deleteall(arg6)
+				script_1086(arg6, 0, 0, 0)
+			} else 
+				if_sethide(arg6, 1)
+		if(arg7 == 0)
+			if(modulo(50, client_clock()) != 0)
+				return
+		if_setcolor(arg4, 0xFFFF00)
+		if_setcolor(arg5, 0xFFFF00)
+		if_setgraphic(arg2, 445)
+		if_settext(arg5, "ITEMS ARE" + "<br>" + "DROPPED")
+	} else  {
+		if_sethide(arg4, 1)
+		if_sethide(arg5, 1)
+		if_sethide(arg2, 1)
+		if_sethide(arg3, 1)
+		if(arg6 != -1)
+			if_sethide(arg6, 1)
+		cc_deleteall(arg1)
+		return
+	}
+if_sethide(arg4, 0)
+if_sethide(arg5, 0)
+if_sethide(arg2, 0)
+if_sethide(arg3, 0)
+if_settiling(arg2, 1)
+iVar8 = parawidth(if_gettext(arg4), 494, 512)
+iVar8 = max(iVar8, parawidth(if_gettext(arg5), 494, 512))
+iVar8 = iVar8 + 8
+iVar9 = 5
+if_setposition(arg4, 0, 0, iVar9, 0)
+iVar10 = paramheight(if_gettext(arg4), 494, iVar8)
+iVar10 = (iVar10 * 10) + 3
+if_setsize(arg4, 0, 0, iVar10, iVar8)
+iVar9 = (iVar9 + iVar10) - 1
+if_setposition(arg3, 0, 0, iVar9, (iVar8 - if_getwidth(arg3)) / 2)
+iVar9 = (iVar9 + if_getheight(arg3)) - 1
+if_setposition(arg5, 0, 0, iVar9, 0)
+iVar11 = paramheight(if_gettext(arg5), 494, iVar8)
+iVar11 = (iVar11 * 10) + 3
+if_setsize(arg5, 0, 0, iVar10, iVar8)
+iVar9 = (iVar9 + iVar11) + 3
+if_setsize(arg1, 0, 0, iVar9, iVar8)
+if_setsize(arg2, 0, 0, iVar9, iVar8)
+cc_deleteall(arg1)
+script_1086(arg1, 0, 0, 0)
+return

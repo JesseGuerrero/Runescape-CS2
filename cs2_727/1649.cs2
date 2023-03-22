@@ -1,0 +1,8 @@
+//script1649(1649)(int arg0, int arg1)(void)
+if(arg1 == 1)
+	if(arg0 < 0)
+		arg0 = 0
+	else
+		arg0 = (arg0 - modulo(14, arg0)) + 1
+script_1651(arg0, arg1)
+return

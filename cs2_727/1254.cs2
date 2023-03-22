@@ -1,0 +1,5 @@
+//script1254(1254)()(void)
+if_settext(if_gethash(328, 1), to_string(load_varp(343)))
+if_settext(if_gethash(328, 3), to_string(load_varp(344)))
+if_settext(if_gethash(328, 5), to_string(load_varp(345)))
+return

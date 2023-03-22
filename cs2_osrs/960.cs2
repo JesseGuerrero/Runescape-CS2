@@ -1,0 +1,165 @@
+int script_960(Widget widget0, int arg1, int arg2, Widget widget3, int arg4, int arg5, int arg6, string string7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17) {
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	string str1;
+	if (arg4 != -1 && _CHILD.setChild(widget3, arg4) == true) {
+		_CHILD.setHidden(false);
+		_CHILD.setPosition(0, arg2, 1, 0);
+		if (length(string7) > 0) {
+			_CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg17), removeTags(string7), 25, 190));
+		} else {
+			_CHILD.hookMouseHover(null);
+		}
+	} else if (length(string7) > 0) {
+		widget3.hookMouseHover(&script_526(CTX_WIDGET, -1, widget(arg17), removeTags(string7), 25, 190));
+	} else {
+		widget3.hookMouseHover(null);
+	}
+	int17 = 0;
+	int18 = 0;
+	if (getWorldId() == arg5) {
+		int17 = 1;
+	} else if (isBitFlagged(arg6, 7) == true) {
+		int18 = datamap('i', 'i', 1496, arg5);
+		if (isBitFlagged(arg6, 0) == true) {
+			if (arg15 < int18) {
+				int17 = 1;
+			}
+		} else if (arg16 < int18) {
+			int17 = 1;
+		}
+	}
+	CHILD.createChild(widget0, 3, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setSize(0, 16, 1, 0);
+	CHILD.setPosition(0, arg2, 1, 0);
+	CHILD.setFilled(true);
+	if (int17 == 0) {
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTrans(255);
+		if (arg4 != -1 && _CHILD.setChild(widget3, arg4) == true) {
+			_CHILD.hookMouseEnter(&script_244(widget0, getChildId(), 200, null));
+			_CHILD.hookMouseExit(&script_244(widget0, getChildId(), 255, widget(arg17)));
+			_CHILD.hookOptionClick(&script_970(CTX_MENU_OPTION, 6));
+		} else {
+			widget3.hookMouseEnter(&script_244(CTX_WIDGET, getChildId(), 200, null));
+			widget3.hookMouseExit(&script_244(CTX_WIDGET, getChildId(), 255, widget(arg17)));
+			widget3.hookOptionClick(&script_970(CTX_MENU_OPTION, 6));
+		}
+	} else {
+		CHILD.setRGB(0x000000);
+		CHILD.setTrans(175);
+		if (arg4 != -1 && _CHILD.setChild(widget3, arg4) == true) {
+			_CHILD.hookMouseExit(&script_40(widget(arg17)));
+			_CHILD.hookOptionClick(null);
+		} else {
+			widget3.hookMouseExit(&script_40(widget(arg17)));
+			widget3.hookOptionClick(null);
+		}
+	}
+	CHILD.createChild(widget0, 5, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setSize(16, 16, 0, 0);
+	CHILD.setPosition(0, arg2, 0, 0);
+	_CHILD.createChild(widget0, 4, arg1);
+	arg1 = arg1 + 1;
+	_CHILD.setSize(arg11, 16, 0, 0);
+	_CHILD.setPosition(arg10, arg2, 0, 0);
+	_CHILD.setFont(495);
+	_CHILD.setTextAlignment(1, 2, 0);
+	_CHILD.setTextAntiMacro(true);
+	if (arg5 <= 0) {
+		_CHILD.setText("-");
+	} else if (arg5 > 300) {
+		_CHILD.setText(str(arg5 - 300));
+	} else {
+		_CHILD.setText(str(arg5));
+	}
+	if (isBitFlagged(arg6, 2) == true) {
+		CHILD.setSprite(1237);
+		if (int17 == 0) {
+			_CHILD.setRGB(0xF0F000);
+		} else {
+			_CHILD.setRGB(0x7F7F7F);
+		}
+	} else if (isBitFlagged(arg6, 29) == true) {
+		CHILD.setSprite(1238);
+		if (int17 == 0) {
+			_CHILD.setRGB(0xF0F000);
+		} else {
+			_CHILD.setRGB(0x7F7F7F);
+		}
+	} else if (isBitFlagged(arg6, 25) == true) {
+		CHILD.setSprite(1338);
+		if (int17 == 0) {
+			_CHILD.setRGB(0xF0F000);
+		} else {
+			_CHILD.setRGB(0x7F7F7F);
+		}
+	} else if (isBitFlagged(arg6, 0) == true) {
+		CHILD.setSprite(1131);
+		if (int17 == 0) {
+			_CHILD.setRGB(0xF0F000);
+		} else {
+			_CHILD.setRGB(0x7F7F7F);
+		}
+	} else {
+		CHILD.setSprite(1130);
+		if (int17 == 0) {
+			_CHILD.setRGB(0xE0E0E0);
+		} else {
+			_CHILD.setRGB(0x7F7F7F);
+		}
+	}
+	CHILD.createChild(widget0, 5, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setSize(arg12, 15, 0, 0);
+	CHILD.setPosition(arg10 + arg11, arg2, 0, 0);
+	CHILD.setSprite(datamap('i', 'd', 1125, arg8));
+	CHILD.createChild(widget0, 4, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setSize(arg13, 16, 0, 0);
+	CHILD.setPosition(arg14, arg2, 2, 0);
+	if (int17 == 0) {
+		CHILD.setRGB(0xFFFFFF);
+	} else {
+		CHILD.setRGB(0x7F7F7F);
+	}
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str(arg9));
+	int19 = 0;
+	str1 = "";
+	int20 = length(string7);
+	if (int20 <= 0) {
+		string7, int20 = "-", 1;
+	}
+	if (int20 > 0 && getMaxLineWidth(string7, 512, 494) > arg14) {
+		while (int20 > 1 && int19 == 0) {
+			int20 = int20 - 1;
+			str1 = concat(substr(string7, 0, int20), "...");
+			if (getMaxLineWidth(str1, 512, 494) <= arg14) {
+				string7, int19 = str1, 1;
+			}
+		}
+	}
+	CHILD.createChild(widget0, 4, arg1);
+	arg1 = arg1 + 1;
+	CHILD.setSize(arg14, 16, 0, 0);
+	CHILD.setPosition(0, arg2, 2, 0);
+	if (int17 == 1) {
+		CHILD.setRGB(0x7F7F7F);
+	} else if (isBitFlagged(arg6, 2) == true || isBitFlagged(arg6, 29) == true || isBitFlagged(arg6, 25) == true) {
+		CHILD.setRGB(0xFF0000);
+	} else {
+		CHILD.setRGB(0xFF981F);
+	}
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string7);
+	return arg1;
+}

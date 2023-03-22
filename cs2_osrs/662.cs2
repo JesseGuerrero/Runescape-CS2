@@ -1,0 +1,15 @@
+int, int, string script_662(int arg0) {
+	if (arg0 == 0) {
+		return 30, 10149, "Swamp lizard" + "<br>" + " (with 30 Attack, 30 Ranged & 30 Magic)";
+	}
+	if (arg0 == 1) {
+		return 50, 10146, "Orange salamander" + "<br>" + " (with 50 Attack, 50 Ranged & 50 Magic)";
+	}
+	if (arg0 == 2) {
+		return 60, 10147, "Red salamander" + "<br>" + " (with 60 Attack, 60 Ranged & 60 Magic)";
+	}
+	if (arg0 == 3) {
+		return 70, 10148, "Black salamander" + "<br>" + " (with 70 Attack, 70 Ranged & 70 Magic)";
+	}
+	return -1, -1, "";
+}

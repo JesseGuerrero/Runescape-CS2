@@ -1,0 +1,6 @@
+//script826(826)()(void)
+int iVar0
+iVar0 = client_clock()
+instr6342(if_gethash(465, 2), script_827, "i", iVar0)
+sound_synth(58, 1, 4437)
+return

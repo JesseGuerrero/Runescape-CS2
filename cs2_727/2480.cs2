@@ -1,0 +1,57 @@
+//script2480(2480)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar2 = (if_getwidth(if_gethash(41, 15)) - (36 * 10)) / (10 - 1)
+iVar3 = (if_getheight(if_gethash(41, 15)) - 128) / 3
+cc_deleteall(if_gethash(41, 15))
+cc_deleteall(if_gethash(881, 0))
+while(iVar4 == 0)
+	if(enum(load_varc(875), iVar0, 'i', 'o') != 11760) {
+		cc_create(iVar0, 5, 2686991)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, (iVar0 / 10) * (32 + iVar3), (36 + iVar2) * modulo(10, iVar0))
+		cc_setitem(-1, enum(load_varc(875), iVar0, 'i', 'o'))
+		cc_setopbase("<col=ff981f>" + item_name(enum(load_varc(875), iVar0, 'i', 'o')))
+		cc_setop("Value", 1)
+		cc_setop("Buy 1", 2)
+		cc_setop("Examine", 3)
+		cc_setgraphicshadow(3355443)
+		cc_setoutline(1)
+		cc_create(iVar0, 5, 57737216)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, (iVar0 / 4) * 42, 42 * modulo(4, iVar0))
+		cc_setitem(inv_total(enum(load_varc(875), iVar0, 'i', 'o'), 93), enum(load_varc(875), iVar0, 'i', 'o'))
+		cc_setopbase("<col=ff981f>" + item_name(enum(load_varc(875), iVar0, 'i', 'o')))
+		cc_setop("Value", 1)
+		cc_setop("Sell 1", 2)
+		cc_setop("Sell X", 3)
+		cc_setop("Examine", 4)
+		cc_setgraphicshadow(3355443)
+		cc_setoutline(1)
+		iVar0 = iVar0 + 1
+	} else 
+		iVar4 = 1
+iVar1 = iVar0
+iVar0 = 0
+iVar4 = 0
+while(iVar4 == 0) {
+	if(enum(load_varc(875), iVar0, 'i', 'o') != 11760) {
+		cc_create(iVar1, 5, 2686991)
+		cc_setsize(0, 0, 6, 12)
+		cc_setposition(0, 0, (iVar0 / 10) * (32 + iVar3), (36 + iVar2) * modulo(10, iVar0))
+		cc_setgraphic(1066)
+	} else 
+		iVar4 = 1
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+}
+if_settext(if_gethash(41, 17), script_46(load_varp(1448), ","))
+return

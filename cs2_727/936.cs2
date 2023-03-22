@@ -1,0 +1,18 @@
+//script936(936)(int arg0)(string)
+int iVar1
+string sVar0
+sVar0 = ""
+iVar1 = item_param(763, arg0)
+switch(item_param(762, arg0)) {
+	case default:
+		break
+	case 1:
+		return script_913(load_varp(322), 10, "Part of quest: Tai Bwo Wannai Trio")
+
+	case 2:
+		return script_913(load_varpbit(4310), 10, "Complete: Chaos Tunnels")
+		return ""
+
+
+}
+return ""

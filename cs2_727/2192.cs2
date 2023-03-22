@@ -1,0 +1,9 @@
+//script2192(2192)(int arg0, int arg1)(void)
+if(arg0 == 1) {
+	hook_mouse_press(if_gethash(916, 26), script_2355, "1i", 1, arg1)
+	if_sethflip(if_gethash(916, 27), 0)
+} else  {
+	hook_mouse_press(if_gethash(916, 26), script_2355, "1i", 0, arg1)
+	if_sethflip(if_gethash(916, 27), 1)
+}
+return

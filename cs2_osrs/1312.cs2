@@ -1,0 +1,14 @@
+void script_1312(boolean arg0, Widget widget1, Widget widget2) {
+	if (arg0 == true) {
+		script_837(widget1, -1, widget2, "Drag stacks of items to this" + "<br>" + "incinerator to destroy them.", 25, 512);
+		if (_CHILD.setChild(widget1, 1) == true) {
+			_CHILD.setHidden(false);
+		}
+	} else {
+		script_41(widget2);
+		if (_CHILD.setChild(widget1, 1) == true) {
+			_CHILD.setHidden(true);
+		}
+	}
+	return;
+}

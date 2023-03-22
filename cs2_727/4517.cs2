@@ -1,0 +1,4 @@
+//script4517(4517)(int arg0, string arg1)(void)
+if_settext(arg0, arg0)
+script_3984(arg0, 7252)
+return

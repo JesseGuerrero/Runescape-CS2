@@ -1,0 +1,22 @@
+int script_249(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int2 = widget0.getWidth();
+	int3 = widget0.getHeight();
+	script_98(widget0, arg1, 310, 0, 0, 0, 0, 25, 30, 0, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 311, 0, 0, 2, 0, 25, 30, 0, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 312, 0, 0, 0, 2, 25, 30, 0, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 313, 0, 0, 2, 2, 25, 30, 0, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 172, -15, 0, 0, 1, 36, 60, 0, 1);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 315, -15, 0, 2, 1, 36, 60, 0, 1);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 314, 0, -15, 1, 0, 50, 36, 1, 0);
+	arg1 = arg1 + 1;
+	script_98(widget0, arg1, 173, 0, -15, 1, 2, 50, 36, 1, 0);
+	return arg1 + 1;
+}

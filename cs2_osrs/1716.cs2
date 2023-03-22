@@ -1,0 +1,11 @@
+void script_1716(int arg0, Widget widget1) {
+	CHILD.createChild(widget1, 3, arg0);
+	CHILD.setSize(0, 21, 1, 0);
+	CHILD.setPosition(0, 21 * arg0, 1, 0);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setTrans(255);
+	CHILD.hookMouseHover(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 220, null));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 255, null));
+	return;
+}

@@ -1,0 +1,61 @@
+void script_908(Widget widget0, DataMap datamap1) {
+	Widget widget2;
+	if (hasChild(widget(162, 546)) == true) {
+		widget(162, 546).setIsHidden(false);
+		widget(162, 545).setIsHidden(true);
+		widget(162, 41).setIsHidden(true);
+	} else if (hasChild(widget(162, 545)) == true) {
+		widget(162, 546).setIsHidden(true);
+		widget(162, 545).setIsHidden(false);
+		widget(162, 41).setIsHidden(true);
+	} else {
+		widget(162, 546).setIsHidden(true);
+		widget(162, 545).setIsHidden(true);
+		widget(162, 41).setIsHidden(false);
+	}
+	script_912(datamap1);
+	widget2 = null;
+	if (VARC[171] != -1) {
+		widget2 = datamap('i', 'I', 1137, VARC[171]);
+		widget2 = datamap('I', 'I', datamap1, widget2);
+		if (widget2 != null) {
+			if (hasChild(widget2) == true) {
+				if (widget2.isHidden() == true) {
+					script_916(VARC[171], datamap1);
+				}
+			} else if (widget2.isHidden() == false) {
+				script_916(VARC[171], datamap1);
+			}
+		}
+	}
+	if (hasChild(datamap('I', 'I', datamap1, widget(161, 66))) == true) {
+		widget2 = datamap('I', 'I', datamap1, widget(161, 67));
+		if (widget2 != null) {
+			widget2.setIsHidden(true);
+		}
+		widget2 = datamap('I', 'I', datamap1, widget(161, 50));
+		if (widget2 != null) {
+			widget2.setIsHidden(true);
+		}
+		widget2 = datamap('I', 'I', datamap1, widget(161, 34));
+		if (widget2 != null) {
+			widget2.setIsHidden(true);
+		}
+	} else {
+		widget2 = datamap('I', 'I', datamap1, widget(161, 67));
+		if (widget2 != null) {
+			widget2.setIsHidden(false);
+		}
+		widget2 = datamap('I', 'I', datamap1, widget(161, 50));
+		if (widget2 != null) {
+			widget2.setIsHidden(false);
+		}
+		widget2 = datamap('I', 'I', datamap1, widget(161, 34));
+		if (widget2 != null) {
+			widget2.setIsHidden(false);
+		}
+	}
+	script_909(widget0, datamap1);
+	script_919(datamap1);
+	return;
+}

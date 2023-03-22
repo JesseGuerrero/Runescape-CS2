@@ -1,0 +1,16 @@
+void script_463(int arg0, Widget widget1, int arg2) {
+	if (isBitFlagged(VARPBIT[4101], arg0) == true) {
+		widget1.setContextMenuOption(1, "Deactivate");
+		CHILD.setHidden(false);
+	} else {
+		widget1.setContextMenuOption(1, "Activate");
+		CHILD.setHidden(true);
+	}
+	if (script_464(arg0) == 1) {
+		_CHILD.setSprite(datamap('i', 'd', 865, arg0));
+	} else {
+		_CHILD.setSprite(datamap('i', 'd', 864, arg0));
+	}
+	script_1966(arg2, widget1, arg0);
+	return;
+}

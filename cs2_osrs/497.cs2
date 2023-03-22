@@ -1,0 +1,97 @@
+void script_497(Container container0) {
+	int int1;
+	Item item2;
+	int int3;
+	int int4;
+	int int5;
+	string str0;
+	widget(81, 5).clearChildren();
+	int1 = getItemContainerLength(container0);
+	ARRAY0 = new int[int1];
+	ARRAY0[0] = VARC[81];
+	ARRAY0[1] = VARC[82];
+	ARRAY0[2] = VARC[83];
+	ARRAY0[3] = VARC[84];
+	ARRAY0[4] = VARC[85];
+	ARRAY0[5] = VARC[86];
+	ARRAY0[6] = VARC[87];
+	ARRAY0[7] = VARC[88];
+	ARRAY0[8] = VARC[89];
+	ARRAY0[9] = VARC[90];
+	ARRAY0[10] = VARC[91];
+	ARRAY0[11] = VARC[92];
+	ARRAY0[12] = VARC[93];
+	ARRAY0[13] = VARC[94];
+	ARRAY0[14] = VARC[95];
+	ARRAY0[15] = VARC[96];
+	ARRAY0[16] = VARC[97];
+	ARRAY0[17] = VARC[98];
+	ARRAY0[18] = VARC[99];
+	ARRAY0[19] = VARC[100];
+	ARRAY0[20] = VARC[101];
+	ARRAY0[21] = VARC[102];
+	ARRAY0[22] = VARC[104];
+	ARRAY0[23] = VARC[105];
+	ARRAY0[24] = VARC[106];
+	ARRAY0[25] = VARC[107];
+	ARRAY0[26] = VARC[108];
+	ARRAY0[27] = VARC[109];
+	item2 = null;
+	int3 = 0;
+	int4 = 0;
+	str0 = "Invalid item.";
+	int5 = 0;
+	while (int5 < int1) {
+		CHILD.createChild(widget(81, 5), 5, int5);
+		item2 = getItemIdInSlot(container0, int5);
+		if (item2 != null) {
+			int3, int4 = getItemAmtInSlot(container0, int5), int4 + 1;
+			CHILD.setHidden(false);
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(int5 % 4 * (36 + 8), int5 / 4 * 32, 0, 0);
+			CHILD.setOutlineThickness(1);
+			CHILD.setShadowColor(0x333333);
+			CHILD.setItem(item2, int3);
+			if (container0 == 93) {
+				if (item2 == 11941) {
+					CHILD.setTrans(150);
+					CHILD.hookMouseHover(null);
+					CHILD.hookMouseExit(null);
+				} else {
+					CHILD.setTrans(0);
+					CHILD.hookOptionClick(&script_487(CTX_WIDGET, CTX_WIDGET_CHILD, 150, 0));
+					if (ARRAY0[int5] <= -1) {
+						CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(81, 7), str0, 25, 512));
+						CHILD.hookMouseExit(&script_40(widget(81, 7)));
+					} else {
+						script_1234(int3, ARRAY0[int5], 5308423);
+					}
+				}
+				CHILD.setContextMenuOption(1, "Store-1");
+				CHILD.setContextMenuOption(2, "Store-5");
+				CHILD.setContextMenuOption(3, "Store-All");
+				CHILD.setContextMenuOption(4, "Store-X");
+				CHILD.setContextMenuOption(9, "Examine");
+			} else {
+				CHILD.setTrans(0);
+				CHILD.setContextMenuOption(10, "Examine");
+				script_1234(int3, ARRAY0[int5], 5308423);
+			}
+			CHILD.setOptionBase("<col=ff9040>" + getItemName(item2));
+		} else {
+			CHILD.setHidden(true);
+		}
+		int5 = int5 + 1;
+	}
+	if (container0 == 516 && int4 <= 0) {
+		CHILD.createChild(widget(81, 5), 4, int5);
+		CHILD.setPosition(0, 0, 0, 0);
+		CHILD.setSize(widget(81, 5).getWidth(), widget(81, 5).getHeight(), 0, 0);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(495);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setText("The bag is empty.");
+	}
+	return;
+}

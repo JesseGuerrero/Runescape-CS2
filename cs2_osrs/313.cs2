@@ -1,0 +1,50 @@
+void script_313(Widget widget0) {
+	int int1;
+	int int2;
+	Location location3;
+	int int4;
+	int int5;
+	ARRAY0 = new int[18];
+	ARRAY0[1] = VARP[20];
+	ARRAY0[2] = VARP[21];
+	ARRAY0[3] = VARP[22];
+	ARRAY0[4] = VARP[23];
+	ARRAY0[5] = VARP[24];
+	ARRAY0[6] = VARP[25];
+	ARRAY0[7] = VARP[298];
+	ARRAY0[8] = VARP[311];
+	ARRAY0[9] = VARP[346];
+	ARRAY0[10] = VARP[414];
+	ARRAY0[11] = VARP[464];
+	ARRAY0[12] = VARP[598];
+	ARRAY0[13] = VARP[662];
+	ARRAY0[14] = VARP[721];
+	ARRAY0[15] = VARP[906];
+	ARRAY0[16] = VARP[1009];
+	ARRAY0[17] = VARP[1338];
+	int1 = 0;
+	int2 = 0;
+	location3 = null;
+	int4 = -1;
+	int5 = -1;
+	while (int1 <= 535) {
+		int2 = datamap('i', 'i', 818, int1);
+		if (int2 != 0 && CHILD.setChild(widget0, int2) == true) {
+			location3 = datamap('i', 'c', 819, int2);
+			if (location3 != null) {
+				int4, int5 = x(location3), y(location3);
+				if (isBitFlagged(ARRAY0[int4], int5) == true) {
+					script_314(0x00FF00);
+				} else if (int2 == 331 && VARPBIT[1028] > 35) {
+					script_314(0x00FF00);
+				} else {
+					script_314(0xFF0000);
+				}
+			} else {
+				script_314(0x00FF00);
+			}
+		}
+		int1 = int1 + 1;
+	}
+	return;
+}

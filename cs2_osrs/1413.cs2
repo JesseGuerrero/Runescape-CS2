@@ -1,0 +1,11 @@
+void script_1413(Widget widget0, Model model1, Widget widget2, int arg3) {
+	if (getClientCycle() < arg3) {
+		return;
+	}
+	widget0.setModel(model1);
+	widget2.setIsHidden(true);
+	widget0.hookMouseHover(&script_69(false, widget2));
+	widget0.hookMouseExit(&script_69(true, widget2));
+	widget0.hookFrame(null);
+	return;
+}

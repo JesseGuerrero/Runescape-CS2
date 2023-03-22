@@ -1,0 +1,8 @@
+void script_1531(Widget widget0, int arg1, string arg2) {
+	widget0.hookMouseHover(&script_85(CTX_WIDGET, arg1, 16754735));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, arg1, 16750623));
+	widget0.setContextMenuOption(1, "Set");
+	widget0.setOptionBase("<col=ff9040>" + arg2 + "</col>");
+	widget0.hookOptionClick(&script_1534(CTX_MENU_OPTION, widget0, arg1, arg2));
+	return;
+}

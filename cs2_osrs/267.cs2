@@ -1,0 +1,146 @@
+void script_267(int arg0, Widget widget1) {
+	boolean boolean2;
+	int int3;
+	int int4;
+	int int5;
+	string str0;
+	boolean2 = false;
+	if (arg0 == 0 && VARP[1065] == -1) {
+		boolean2 = true;
+		widget1.hookFrame(null);
+	} else {
+		widget1.hookFrame(&script_268(CTX_WIDGET));
+	}
+	CHILD.createChild(widget1, 3, 0);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(5, 30, 0, 0);
+	CHILD.setSize(125, 96, 0, 0);
+	CHILD.setRGB(0x7F460F);
+	CHILD.setFilled(true);
+	CHILD.setTrans(50);
+	CHILD.createChild(widget1, 3, 1);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(5, 30, 0, 0);
+	CHILD.setSize(125, 96, 0, 0);
+	CHILD.setRGB(0x7F460F);
+	CHILD.setFilled(false);
+	script_98(widget1, 2, 1040, 7, 32, 0, 0, 121, 17, 0, 0);
+	CHILD.setHidden(boolean2);
+	CHILD.setTrans(100);
+	CHILD.createChild(widget1, 4, 3);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(7, 32, 0, 0);
+	CHILD.setSize(121, 17, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setText("Rumble Party");
+	script_98(widget1, 4, 897, 7, 50, 0, 0, 121, 14, 0, 0);
+	CHILD.setHidden(boolean2);
+	CHILD.setTrans(150);
+	script_98(widget1, 5, 297, 7, 65, 0, 0, 121, 14, 0, 0);
+	CHILD.setHidden(boolean2);
+	CHILD.setTrans(150);
+	if (arg0 == 1) {
+		CHILD.setContextMenuOption(1, "Kick player");
+		CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 75, null));
+		CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 150, null));
+	}
+	script_98(widget1, 6, 297, 7, 80, 0, 0, 121, 14, 0, 0);
+	CHILD.setHidden(boolean2);
+	CHILD.setTrans(150);
+	if (arg0 == 1) {
+		CHILD.setContextMenuOption(1, "Kick player");
+		CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 75, null));
+		CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 150, null));
+	}
+	script_98(widget1, 7, 297, 7, 95, 0, 0, 121, 14, 0, 0);
+	CHILD.setHidden(boolean2);
+	CHILD.setTrans(150);
+	if (arg0 == 1) {
+		CHILD.setContextMenuOption(1, "Kick player");
+		CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 75, null));
+		CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 150, null));
+	}
+	script_98(widget1, 8, 297, 7, 110, 0, 0, 121, 14, 0, 0);
+	CHILD.setHidden(boolean2);
+	CHILD.setTrans(150);
+	if (arg0 == 1) {
+		CHILD.setContextMenuOption(1, "Kick player");
+		CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 75, null));
+		CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 150, null));
+	}
+	CHILD.createChild(widget1, 4, 9);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(7, 50, 0, 0);
+	CHILD.setSize(121, 14, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.createChild(widget1, 4, 10);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(7, 65, 0, 0);
+	CHILD.setSize(121, 14, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.createChild(widget1, 4, 11);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(7, 80, 0, 0);
+	CHILD.setSize(121, 14, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.createChild(widget1, 4, 12);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(7, 95, 0, 0);
+	CHILD.setSize(121, 14, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.createChild(widget1, 4, 13);
+	CHILD.setHidden(boolean2);
+	CHILD.setPosition(7, 110, 0, 0);
+	CHILD.setSize(121, 14, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 0);
+	if (boolean2 == false) {
+		script_269(widget1);
+	}
+	str0 = "You may invite people to share your Rumble dream. All of you must have funds in the coffer to pay for it." + "<br>" + "Drink from the vial when you're all ready.";
+	if (arg0 == 0) {
+		if (VARP[1065] != -1) {
+			str0 = "When your party leader drinks from the vial," + "<br>" + "you will be invited into their Rumble dream.";
+		} else if (VARPBIT[3946] != 0) {
+			str0 = "Drink from the vial when you're ready to start your dream.";
+		} else {
+			str0 = "You may be invited to join someone's Rumble dream." + "<br>" + "Alternatively, choose a dream of your own from Dominic.";
+		}
+	}
+	int3 = 512 - 280;
+	int4 = getMaxLineWidth(str0, int3, 494) + 8;
+	int5 = getLineCount(str0, int3, 494) * 10 + 3 + 8;
+	script_98(widget1, 14, 297, 0, 20, 1, 0, int4, int5, 0, 0);
+	CHILD.setTrans(50);
+	CHILD.createChild(widget1, 3, 15);
+	CHILD.setPosition(0, 20, 1, 0);
+	CHILD.setSize(int4, int5, 0, 0);
+	CHILD.setRGB(0x000000);
+	CHILD.setFilled(false);
+	CHILD.createChild(widget1, 4, 16);
+	CHILD.setPosition(0, 20, 1, 0);
+	CHILD.setSize(int4, int5, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 1, 10);
+	CHILD.setText(str0);
+	return;
+}

@@ -1,0 +1,23 @@
+void script_1226(Widget widget0, Widget widget1, int arg2) {
+	int int3;
+	int int4;
+	int3 = 0;
+	if (arg2 == 3) {
+		int3 = VARPBIT[4896];
+	} else if (arg2 == 2) {
+		int3 = VARPBIT[4895];
+	} else if (arg2 == 4) {
+		int3 = VARPBIT[4898];
+	} else if (arg2 == 5) {
+		int3 = VARPBIT[4899];
+	} else if (arg2 == 1) {
+		int3 = VARPBIT[4894];
+	}
+	widget0.setSize(mathMethod4006(0, int3, 0, 1000, 16384), 0, 2, 1);
+	if (int3 > 0 && widget0.getWidth() < 2) {
+		widget0.setSize(2, 0, 0, 1);
+	}
+	int4 = mathMethod4006(0, int3, 0, 1000, 1000);
+	widget1.setText(int4 / 10 + "." + int4 % 10 + "%");
+	return;
+}

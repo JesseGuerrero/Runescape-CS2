@@ -1,0 +1,5 @@
+//script544(544)(int arg0)(void)
+int iVar1
+iVar1 = script_2761()
+if_settext(arg0, "Total level: " + to_string(iVar1))
+return

@@ -1,0 +1,182 @@
+void script_1596(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	Item item9;
+	Item item10;
+	int int11;
+	Item item12;
+	int int13;
+	string str0;
+	widget0.clearChildren();
+	widget1.clearChildren();
+	widget2.clearChildren();
+	widget1.hookContainer(&script_1596(widget0, widget1, widget2, widget3, widget(arg4)), 93);
+	int5 = 36;
+	int6 = 32;
+	int7 = 60;
+	int8 = 0;
+	item9 = null;
+	while (int8 < 4) {
+		item9 = datamap('i', 'o', 1521, int8);
+		CHILD.createChild(widget0, 5, int8);
+		CHILD.setSize(int5, int6, 0, 0);
+		CHILD.setPosition(10, 20 + int8 * 60, 0, 0);
+		CHILD.setItemNoNum(datamap('i', 'o', 1521, int8), 0);
+		if (getItemAmtInContainer(93, item9) == 0) {
+			CHILD.setHidden(false);
+		} else {
+			CHILD.setHidden(true);
+		}
+		int8 = int8 + 1;
+	}
+	int8 = 0;
+	while (int8 < 4) {
+		item9 = datamap('i', 'o', 1521, int8);
+		CHILD.createChild(widget0, 4, int8 + 4);
+		CHILD.setSize(210, 20, 0, 0);
+		CHILD.setPosition(int7, 15 + int8 * 60, 0, 0);
+		CHILD.setText(datamap('i', 's', 1522, int8));
+		CHILD.setFont(496);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAlignment(0, 0, 0);
+		int8 = int8 + 1;
+	}
+	int8 = 0;
+	while (int8 < 4) {
+		item9 = datamap('i', 'o', 1521, int8);
+		CHILD.createChild(widget0, 4, int8 + 8);
+		CHILD.setSize(210, 20, 0, 0);
+		CHILD.setPosition(int7, 35 + int8 * 60, 0, 0);
+		CHILD.setText(datamap('i', 's', 1523, int8));
+		CHILD.setFont(495);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAlignment(0, 0, 0);
+		if (getItemAmtInContainer(93, item9) == 0) {
+			CHILD.setHidden(false);
+		} else {
+			CHILD.setHidden(true);
+		}
+		int8 = int8 + 1;
+	}
+	item9 = null;
+	int8 = 0;
+	item10 = datamap('i', 'o', 1515, int8);
+	int11 = 30;
+	item12 = null;
+	str0 = "";
+	int13 = -1;
+	while (item10 != null) {
+		CHILD.createChild(widget1, 5, int8);
+		CHILD.setSize(int5, int6, 0, 0);
+		CHILD.setPosition(int7 + int8 % 3 * 70, int11, 0, 0);
+		item12 = datamap('o', 'o', 1519, item10);
+		int13 = datamap('o', 'i', 1520, item10);
+		if (item12 != null && (getItemAmtInContainer(93, item12) == 0 || getItemAmtInContainer(93, 2355) == 0)) {
+			if (getSkillCurrentLvl(12) >= int13) {
+				str0 = getItemName(item10) + "<br>" + "<col=008000>" + "Requires " + int13 + " Crafting" + "<br>" + "<col=800000>" + "Requires " + getItemName(item12);
+			} else {
+				str0 = getItemName(item10) + "<br>" + "<col=800000>" + "Requires " + int13 + " Crafting" + "<br>" + "<col=800000>" + "Requires " + getItemName(item12);
+			}
+			CHILD.setItemNoNum(datamap('o', 'o', 1518, item10), 0);
+			CHILD.setNoOptions();
+		} else {
+			if (getSkillCurrentLvl(12) >= int13) {
+				str0 = getItemName(item10) + "<br>" + "<col=008000>" + "Requires " + int13 + " Crafting";
+			} else {
+				str0 = getItemName(item10) + "<br>" + "<col=800000>" + "Requires " + int13 + " Crafting";
+			}
+			CHILD.setItemNoNum(item10, 0);
+			CHILD.setContextMenuOption(1, "Craft 1");
+			CHILD.setContextMenuOption(2, "Craft 5");
+			CHILD.setContextMenuOption(3, "Craft 10");
+			CHILD.setContextMenuOption(4, "Craft X");
+			CHILD.setContextMenuOption(5, "Craft All");
+			CHILD.setOptionBase(getItemName(item10));
+		}
+		CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg4), str0, 25, 512));
+		CHILD.hookMouseExit(&script_40(widget(arg4)));
+		item9 = datamap('o', 'o', 1517, item10);
+		if (item9 != null && getItemAmtInContainer(93, item9) == 0) {
+			CHILD.setHidden(true);
+		} else {
+			CHILD.setHidden(false);
+		}
+		int8 = int8 + 1;
+		item10 = datamap('i', 'o', 1515, int8);
+		if (int8 % 3 == 0) {
+			int11 = int11 + 60;
+		}
+	}
+	int8 = 0;
+	item10 = datamap('i', 'o', 1516, int8);
+	if (item10 == null) {
+		return;
+	}
+	item9 = datamap('o', 'o', 1517, item10);
+	int11 = 8;
+	int7 = 25;
+	while (item10 != null) {
+		CHILD.createChild(widget3, 4, int8);
+		CHILD.setSize(80, 30, 0, 0);
+		CHILD.setPosition(int7 + int8 % 2 * 85, int11, 0, 0);
+		CHILD.setText(datamap('o', 's', 1682, item10));
+		CHILD.setFont(495);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAlignment(1, 2, 0);
+		int8 = int8 + 1;
+		item10 = datamap('i', 'o', 1516, int8);
+		item9 = datamap('o', 'o', 1517, item10);
+		if (int8 % 2 == 0) {
+			int11 = int11 + 60;
+		}
+	}
+	item9 = null;
+	int8 = 0;
+	item10 = datamap('i', 'o', 1516, int8);
+	if (item10 == null) {
+		return;
+	}
+	item9 = datamap('o', 'o', 1517, item10);
+	int11 = 35;
+	int7 = 45;
+	while (item10 != null) {
+		CHILD.createChild(widget2, 5, int8);
+		CHILD.setSize(int5, int6, 0, 0);
+		CHILD.setPosition(int7 + int8 % 2 * 90, int11, 0, 0);
+		item9 = datamap('o', 'o', 1517, item10);
+		int13 = datamap('o', 'i', 1520, item10);
+		if (item9 != null && getItemAmtInContainer(93, item9) == 0) {
+			if (getSkillCurrentLvl(12) >= int13) {
+				str0 = getItemName(item10) + "<br>" + "<col=008000>" + "Requires " + int13 + " Crafting" + "<br>" + "<col=800000>" + "Requires mould";
+			} else {
+				str0 = getItemName(item10) + "<br>" + "<col=800000>" + "Requires " + int13 + " Crafting" + "<br>" + "<col=800000>" + "Requires mould";
+			}
+			CHILD.setItemNoNum(item9, 0);
+			CHILD.setNoOptions();
+		} else {
+			if (getSkillCurrentLvl(12) >= int13) {
+				str0 = getItemName(item10) + "<br>" + "<col=008000>" + "Requires " + int13 + " Crafting";
+			} else {
+				str0 = getItemName(item10) + "<br>" + "<col=800000>" + "Requires " + int13 + " Crafting";
+			}
+			CHILD.setItemNoNum(item10, 0);
+			CHILD.setContextMenuOption(1, "Craft 1");
+			CHILD.setContextMenuOption(2, "Craft 5");
+			CHILD.setContextMenuOption(3, "Craft 10");
+			CHILD.setContextMenuOption(4, "Craft X");
+			CHILD.setContextMenuOption(5, "Craft All");
+			CHILD.setOptionBase(getItemName(item10));
+		}
+		CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg4), str0, 25, 512));
+		CHILD.hookMouseExit(&script_40(widget(arg4)));
+		int8 = int8 + 1;
+		item10 = datamap('i', 'o', 1516, int8);
+		item9 = datamap('o', 'o', 1517, item10);
+		if (int8 % 2 == 0) {
+			int11 = int11 + 60;
+		}
+	}
+	return;
+}

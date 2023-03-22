@@ -1,0 +1,11 @@
+//script3088(3088)(int arg0, string arg1, string arg2)(void)
+if(compare("dob", arg0) == 0)
+	if(compare("set_members_dob.ws", arg1) == 0) {
+		lobby_clickhyperlink("packagegroupredirect.ws?value=rs", "purchasepopup.ws?externalName=rs", "billing_core", 1)
+		store_varc(1795, client_clock())
+		instr6342(if_gethash(906, 236), script_6032, "")
+	} else 
+		if(compare("", arg0) != 0)
+			if(compare("", arg1) != 0)
+				instr6648(arg1, arg0, arg0)
+return

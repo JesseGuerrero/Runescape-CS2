@@ -1,0 +1,14 @@
+//script5354(5354)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+if(cc_find(arg1, arg0) == 1) {
+	if(load_varpbit(10914) >= 30)
+		return
+	cc_setgraphic(arg2)
+	if(arg2 == arg3) {
+		instr6091(script_5343, "Iid", arg0, arg1, arg3)
+		instr6092(script_5343, "Iid", arg0, arg1, arg4)
+	} else  {
+		instr6091(script_5343, "Iid", arg0, arg1, arg5)
+		instr6092(script_5343, "Iid", arg0, arg1, arg6)
+	}
+}
+return

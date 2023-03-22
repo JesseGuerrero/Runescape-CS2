@@ -1,0 +1,37 @@
+//script6035(6035)(int arg0, int arg1, int arg2, int arg3)(int)
+if(world_members() == 0)
+	if(enum_hasoutput(arg0, 5472, 83) == 1) {
+		if(arg3 == 1)
+			send_message("You must be on a members' world to gain XP in that skill.")
+		return 0
+	}
+if(stat_base(arg0) < arg1) {
+	if(arg3 == 1)
+		send_message("You must choose a skill in which you already have level " + to_string(arg1) + ".")
+	return 0
+}
+if(arg0 == 22)
+	if(load_varpbit(2187) == 0) {
+		if(arg3 == 1)
+			send_message("You cannot earn Construction XP without owning a house.")
+		return 0
+	}
+switch(arg2) {
+	case default:
+		break
+	case 13439:
+		switch(arg0) {
+			case default:
+				break
+			case 5:
+				break
+
+		}
+		if(arg3 == 1)
+			send_message("You may only use this lamp to increase a skill that you learned about while helping Sir Vant.")
+		return 0
+
+
+}
+return 1
+return -1

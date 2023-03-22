@@ -1,0 +1,26 @@
+void script_427(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	int int7;
+	playSoundEffect(2266, 1, 0);
+	widget2.setIsHidden(true);
+	widget3.setIsHidden(false);
+	widget5.clearChildren();
+	widget6.setPosition(33, 165, 0, 0);
+	widget5.setIsHidden(false);
+	widget4.setText("<u=ff981f>" + datamap('i', 's', 693, arg0) + "</u>" + "<br>" + "<br>" + "Slayer Masters will once again be able to assign you this creature." + "<br>" + "<br>" + "You will not get your points back.");
+	int7 = 0;
+	while (int7 < arg1) {
+		CHILD.createChild(widget5, 3, int7);
+		CHILD.setHidden(true);
+		int7 = int7 + 1;
+	}
+	CHILD.createChild(widget5, 3, arg1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFilled(true);
+	CHILD.setTrans(255);
+	CHILD.setContextMenuOption(1, "Unblock");
+	CHILD.hookOptionClick(&script_319(true, CTX_MENU_OPTION, widget2, widget3, widget4, widget5, widget6));
+	widget6.setContextMenuOption(1, "Back");
+	widget6.hookOptionClick(&script_319(false, CTX_MENU_OPTION, widget2, widget3, widget4, widget5, widget6));
+	return;
+}

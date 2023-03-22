@@ -1,0 +1,26 @@
+void script_1537() {
+	int int0;
+	string str0;
+	string str1;
+	str0 = script_1503(str(VARPBIT[5426]), 3);
+	str1 = script_1503(str(VARPBIT[5427]), 4);
+	int0 = 0;
+	while (int0 < VARC[178]) {
+		if (CHILD.setChild(widget(507, 10), int0 * 6 + 4) == true && _CHILD.setChild(widget(507, 10), int0 * 6 + 2) == true) {
+			if (compare(getText(), str0) < 0) {
+				_CHILD.setRGB(0xFF0000);
+			} else {
+				_CHILD.setRGB(0xFF981F);
+			}
+		}
+		if (CHILD.setChild(widget(507, 10), int0 * 6 + 5) == true && _CHILD.setChild(widget(507, 10), int0 * 6 + 3) == true) {
+			if (compare(getText(), str1) < 0) {
+				_CHILD.setRGB(0xFF0000);
+			} else {
+				_CHILD.setRGB(0xFF981F);
+			}
+		}
+		int0 = int0 + 1;
+	}
+	return;
+}

@@ -1,0 +1,5 @@
+//script675(675)()(void)
+if_close()
+script_1364()
+store_varc(199, -1)
+return

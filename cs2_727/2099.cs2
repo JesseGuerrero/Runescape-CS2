@@ -1,0 +1,17 @@
+//script2099(2099)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+iVar0 = enum(723, load_varc(645), 'i', 'i')
+iVar1 = enum(2196, load_varc(645), 'i', 'i')
+if(load_varc(645) < 15)
+	if_setcolor(54657029, 0x3366FF)
+else
+	if(load_varc(645) > 15)
+		if_setcolor(54657029, 0xE12323)
+	else
+		if_setcolor(54657029, 0x666666)
+if_setposition(if_gethash(834, 5), 0, 2, 66, iVar0)
+if_setsize(if_gethash(834, 5), 0, 0, 8, iVar1)
+return

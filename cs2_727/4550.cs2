@@ -1,0 +1,5 @@
+//script4550(4550)(int arg0)(int)
+if(if_isopenwithid(arg0, 49348612) == 1 || if_isopenwithid(arg0, 48889885) == 1 || if_isopenwithid(arg0, 35913772) == 1)
+	return 1
+return 0
+return -1

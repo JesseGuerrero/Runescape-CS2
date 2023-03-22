@@ -1,0 +1,30 @@
+void script_747(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, int arg10, int arg11, int arg12, int arg13) {
+	int int14;
+	widget1.setText("Loading...");
+	widget2.setScrollPos(0, 0);
+	widget2.setIsHidden(true);
+	widget3.clearChildren();
+	script_31(widget3, widget2, 792, 789, 790, 791, 773, 788);
+	widget5.setIsHidden(true);
+	widget6.setIsHidden(true);
+	widget7.setIsHidden(true);
+	widget8.setIsHidden(true);
+	widget9.setIsHidden(true);
+	widget4.clearChildren();
+	int14 = 0;
+	while (int14 <= 420) {
+		CHILD.createChild(widget4, 5, int14);
+		CHILD.setSize(0, 16, 1, 0);
+		CHILD.setContextMenuOption(1, "Switch");
+		CHILD.setContextMenuOption(2, "Favourite");
+		if (int14 > 300) {
+			CHILD.setOptionBase("<col=ff9040>" + (int14 - 300) + "</col>");
+		} else {
+			CHILD.setOptionBase("<col=ff9040>" + int14 + "</col>");
+		}
+		CHILD.setHidden(true);
+		int14 = int14 + 1;
+	}
+	widget0.hookFrame(&script_841(widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget(arg10), widget(arg11), widget(arg12), widget(arg13)));
+	return;
+}

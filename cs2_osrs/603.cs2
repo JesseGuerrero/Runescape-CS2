@@ -1,0 +1,13 @@
+void script_603(Widget widget0, Widget widget1, Widget widget2, Widget widget3, string string4, string string5) {
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	_ = script_228(widget0, string4, 0);
+	widget2.clearChildren();
+	VARC[43], VARC[49] = 0, 0;
+	widget2.setIsHidden(true);
+	widget3.setIsHidden(false);
+	widget3.setText(string5);
+	widget1.clearChildren();
+	return;
+}

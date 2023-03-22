@@ -1,0 +1,69 @@
+void script_976(Widget widget0, int arg1, string string2) {
+	boolean boolean2;
+	int int3;
+	int int4;
+	int int5;
+	if (arg1 == -1) {
+		if (CHILD.setChild(widget0, 0) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 1) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget0, 2) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 3) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 4) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget0, 5) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget0, 6) == true) {
+			CHILD.setText("");
+		}
+		return;
+	}
+	if (CHILD.setChild(widget0, 0) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget0, 1) == true) {
+		CHILD.setText(string2);
+	}
+	if (CHILD.setChild(widget0, 2) == true) {
+		CHILD.setHidden(false);
+	}
+	boolean2 = isBitFlagged(arg1, 30);
+	arg1 = unflagBit(arg1, 30);
+	int3 = bitAnd(arg1, 1023);
+	arg1 = arg1 / pow(2, 10);
+	int4 = bitAnd(arg1, 1023);
+	arg1 = arg1 / pow(2, 10);
+	int5 = bitAnd(arg1, 1023);
+	if (CHILD.setChild(widget0, 3) == true) {
+		CHILD.setHidden(false);
+		if (boolean2 == true) {
+			CHILD.setRGB(0x009F00);
+		} else {
+			CHILD.setRGB(0x7F0000);
+		}
+		if (int3 >= 99) {
+			CHILD.setSize(25, 0, 0, 1);
+		} else {
+			CHILD.setSize(25, mathMethod4006(0, int3, 0, 99, 16384), 0, 2);
+		}
+	}
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setText(str(int3));
+	}
+	if (CHILD.setChild(widget0, 5) == true) {
+		CHILD.setText(int4 + "%");
+	}
+	if (CHILD.setChild(widget0, 6) == true) {
+		CHILD.setText(str(int5));
+	}
+	return;
+}

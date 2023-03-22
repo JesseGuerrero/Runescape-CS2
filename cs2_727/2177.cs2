@@ -1,0 +1,4 @@
+//script2177(2177)(int arg0)(void)
+if(cc_find(arg0, if_gethash(190, 15)) == 1)
+	instr6556(script_2178, "is", arg0, cc_gettext())
+return

@@ -1,0 +1,45 @@
+//script2654(2654)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = 49020932
+iVar1 = 49020933
+iVar2 = 1197
+iVar3 = 1208
+iVar4 = 1800
+iVar5 = 1801
+if(instr6644() >= 2) {
+	iVar2 = 8653
+	iVar3 = 8641
+	iVar4 = 8650
+	iVar5 = 8651
+	if_setsize(if_gethash(748, 0), 0, 0, 34, 67)
+	if_setposition(if_gethash(748, 3), 0, 2, 2, 2)
+	if_setgraphic(if_gethash(748, 1), 8625)
+	if_setgraphic(if_gethash(748, 2), 8625)
+	if_setposition(if_gethash(748, 8), 0, 0, 15, 3)
+	if_setsize(if_gethash(748, 8), 0, 0, 14, 34)
+} else  {
+	if_setsize(if_gethash(748, 0), 0, 0, 34, 57)
+	if_setposition(if_gethash(748, 3), 0, 0, 1, 1)
+	if_setgraphic(if_gethash(748, 1), 1206)
+	if_setgraphic(if_gethash(748, 2), 1206)
+	if_setposition(if_gethash(748, 8), 0, 0, 15, 31)
+	if_setsize(if_gethash(748, 8), 0, 0, 14, 24)
+}
+if_setgraphic(if_gethash(748, 7), iVar2)
+if(load_varp(102) > 0) {
+	if_setgraphic(iVar0, iVar5)
+	if_setgraphic(iVar1, iVar5)
+} else 
+	if(load_varp(456) > 0) {
+		if_setgraphic(iVar0, iVar4)
+		if_setgraphic(iVar1, iVar4)
+	} else  {
+		if_setgraphic(iVar0, iVar3)
+		if_setgraphic(iVar1, iVar3)
+	}
+return

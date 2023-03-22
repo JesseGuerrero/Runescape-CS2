@@ -1,0 +1,61 @@
+//script376(376)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+if(arg1 == -1) {
+	cc_create(arg6, 3, arg0)
+	cc_sethide(1)
+	cc_create(arg6 + 1, 3, arg0)
+	cc_sethide(1)
+	cc_create(arg6 + 2, 3, arg0)
+	cc_sethide(1)
+	cc_create(arg6 + 3, 3, arg0)
+	cc_sethide(1)
+	cc_create(arg6 + 4, 3, arg0)
+	cc_sethide(1)
+	cc_create(arg6 + 5, 3, arg0)
+	cc_sethide(1)
+	return
+}
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+if(cc_find(arg2, arg1) == 1 || arg2 == -1 || instr6004(arg1) == 1) {
+	iVar7 = cc_getx() - arg5
+	iVar9 = min(if_getwidth(arg0), cc_getwidth() + (arg5 * 2))
+	iVar10 = cc_getheight() + (arg5 * 2)
+} else 
+	return
+cc_create(arg6, 3, arg0)
+cc_setsize(0, 0, 2, iVar9 - 2)
+cc_setposition(0, 0, iVar8, iVar7 + 1)
+cc_setfill(1)
+cc_setcolor(0)
+cc_create(arg6 + 1, 3, arg0)
+cc_setsize(0, 0, 2, iVar9 - 2)
+cc_setposition(0, 0, (iVar8 + iVar10) - 2, iVar7 + 1)
+cc_setfill(1)
+cc_setcolor(0)
+cc_create(arg6 + 2, 3, arg0)
+cc_setsize(0, 0, iVar10 - 2, 2)
+cc_setposition(0, 0, iVar8 + 1, iVar7)
+cc_setfill(1)
+cc_setcolor(0)
+cc_create(arg6 + 3, 3, arg0)
+cc_setsize(0, 0, iVar10 - 2, 2)
+cc_setposition(0, 0, iVar8 + 1, (iVar7 + iVar9) - 2)
+cc_setfill(1)
+cc_setcolor(0)
+cc_create(arg6 + 4, 3, arg0)
+cc_setsize(0, 0, (iVar10 - 2) / 2, 2)
+cc_setposition(0, 0, iVar8 + 1, iVar7)
+cc_setfill(1)
+cc_setcolor(0)
+cc_create(arg6 + 5, 3, arg0)
+cc_setsize(0, 0, (iVar10 - 2) / 2, 2)
+cc_setposition(0, 0, iVar8 + 1, (iVar7 + iVar9) - 2)
+cc_setfill(1)
+cc_setcolor(0)
+return

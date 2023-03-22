@@ -1,0 +1,4 @@
+//script420(420)()(void)
+instr6627(load_varc(1353))
+instr6342(if_gethash(1013, 0), script_421, "iii", load_varc(1355), load_varc(1356), 0)
+return

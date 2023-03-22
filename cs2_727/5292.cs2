@@ -1,0 +1,6 @@
+//script5292(5292)(int arg0, int arg1, int arg2)(void)
+if(arg0 == arg1)
+	if_sethide(arg2, 0)
+else
+	if_sethide(arg2, 1)
+return

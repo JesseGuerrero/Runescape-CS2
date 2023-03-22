@@ -1,0 +1,10 @@
+//script2831(2831)(int arg0, int arg1, int arg2)(void)
+if(arg0 != 1)
+	return
+base_idkit(arg1, arg2)
+if(arg2 == 1)
+	store_varc(1009, arg1)
+else
+	store_varc(1008, arg1)
+script_2790()
+return

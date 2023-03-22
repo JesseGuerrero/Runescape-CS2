@@ -1,0 +1,4 @@
+//script3249(3249)()(void)
+if(load_varc(1201) == 1)
+	if_settext(if_gethash(933, 287), load_varc_string(313))
+return

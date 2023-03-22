@@ -1,0 +1,8 @@
+//script4624(4624)(int arg0, int arg1)(void)
+if(if_getspriteid(arg0) == 5936)
+	return
+if(arg1 == load_varp(2128))
+	if_setgraphic(arg0, 5935)
+else
+	if_setgraphic(arg0, 5932)
+return

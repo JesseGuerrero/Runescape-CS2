@@ -1,0 +1,8 @@
+//script5331(5331)()(void)
+if(load_varc(1606) == 1)
+	store_varc(1606, 0)
+else
+	store_varc(1606, 1)
+script_4725()
+return
+return

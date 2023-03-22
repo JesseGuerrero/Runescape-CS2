@@ -1,0 +1,55 @@
+//script4852(4852)()(void)
+int iVar0
+string sVar0
+iVar0 = -1
+sVar0 = "This build slot is available, select your options and click the buy button."
+if(clan_vars_enabled() == 1) {
+	iVar0 = script_4825(1)
+	if_set2dangle(if_gethash(1258, 230), 0)
+	if_set2dangle(if_gethash(1258, 221), 0)
+	if_set2dangle(if_gethash(1258, 212), 0)
+	if(load_varpbit(9562) > 0)
+		if(load_varpbit(9562) == load_clan_varbit(2139)) {
+			if_setgraphic(if_gethash(1258, 230), enum(iVar0, load_varpbit(9562), 'i', 'd'))
+			sVar0 = "This build slot is full, you may view the contents of it, but to modify you will need to cancel the job."
+		} else 
+			if(load_clan_varbit(2143) == 1) {
+				if_setgraphic(if_gethash(1258, 230), 6496)
+				if_set2dangle(if_gethash(1258, 230), 49149)
+				sVar0 = "This build slot is full, you may view the contents of it, but to modify you will need to cancel the job."
+			} else 
+				if_setgraphic(if_gethash(1258, 230), -1)
+	if_setonmouseover(if_gethash(1258, 228), script_4538, "IIisifdiiiiii", if_gethash(1258, 108), -2147483645, -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 228), script_40, "I", if_gethash(1258, 108))
+	iVar0 = script_4825(2)
+	sVar0 = "This build slot available, select your options and click the buy button."
+	if(load_varpbit(9571) > 0)
+		if(load_varpbit(9571) == load_clan_varbit(2156)) {
+			if_setgraphic(if_gethash(1258, 221), enum(iVar0, load_varpbit(9571), 'i', 'd'))
+			sVar0 = "This build slot is full, you may view the contents of it, but to modify you will need to cancel the job."
+		} else 
+			if(load_clan_varbit(2160) == 1) {
+				if_setgraphic(if_gethash(1258, 221), 6496)
+				if_set2dangle(if_gethash(1258, 221), 49149)
+				sVar0 = "This build slot is full, you may view the contents of it, but to modify you will need to cancel the job."
+			} else 
+				if_setgraphic(if_gethash(1258, 221), -1)
+	if_setonmouseover(if_gethash(1258, 219), script_4538, "IIisifdiiiiii", if_gethash(1258, 108), -2147483645, -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 219), script_40, "I", if_gethash(1258, 108))
+	iVar0 = script_4825(3)
+	sVar0 = "This build slot available, select your options and click the buy button."
+	if(load_varpbit(9580) > 0)
+		if(load_varpbit(9580) == load_clan_varbit(2173)) {
+			if_setgraphic(if_gethash(1258, 212), enum(iVar0, load_varpbit(9580), 'i', 'd'))
+			sVar0 = "This build slot is full, you may view the contents of it, but to modify you will need to cancel the job."
+		} else 
+			if(load_clan_varbit(2177) == 1) {
+				if_setgraphic(if_gethash(1258, 212), 6496)
+				if_set2dangle(if_gethash(1258, 212), 49149)
+				sVar0 = "This build slot is full, you may view the contents of it, but to modify you will need to cancel the job."
+			} else 
+				if_setgraphic(if_gethash(1258, 212), -1)
+	if_setonmouseover(if_gethash(1258, 210), script_4538, "IIisifdiiiiii", if_gethash(1258, 108), -2147483645, -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 210), script_40, "I", if_gethash(1258, 108))
+}
+return

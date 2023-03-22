@@ -1,0 +1,59 @@
+void script_818(int arg0) {
+	Container container1;
+	Item item2;
+	int int3;
+	CHILD.setNoOptions();
+	_CHILD.setNoOptions();
+	container1 = datamap('i', 'v', 150, VARPBIT[4439] - 1);
+	if (container1 == null) {
+		CHILD.setHidden(true);
+		_CHILD.setHidden(true);
+		return;
+	}
+	item2 = getItemIdInSlot(container1, 0);
+	int3 = 0;
+	if (item2 != null) {
+		int3 = getItemAmtInSlot(container1, 0);
+		CHILD.setHidden(false);
+		if (getNotedItem(item2) != item2) {
+			if (int3 == 1) {
+				CHILD.setContextMenuOption(1, "Collect-item");
+				CHILD.setContextMenuOption(2, "Collect-note");
+			} else {
+				CHILD.setContextMenuOption(1, "Collect-notes");
+				CHILD.setContextMenuOption(2, "Collect-items");
+			}
+		} else {
+			CHILD.setContextMenuOption(2, "Collect");
+		}
+		CHILD.setContextMenuOption(3, "Bank");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setItem(item2, int3);
+		CHILD.setOptionBase("<col=ff9040>" + getItemName(item2) + "</col>");
+	} else {
+		CHILD.setHidden(true);
+	}
+	item2 = getItemIdInSlot(container1, 1);
+	if (item2 != null) {
+		int3 = getItemAmtInSlot(container1, 1);
+		_CHILD.setHidden(false);
+		if (getNotedItem(item2) != item2) {
+			if (int3 == 1) {
+				_CHILD.setContextMenuOption(1, "Collect-item");
+				_CHILD.setContextMenuOption(2, "Collect-note");
+			} else {
+				_CHILD.setContextMenuOption(1, "Collect-notes");
+				_CHILD.setContextMenuOption(2, "Collect-items");
+			}
+		} else {
+			_CHILD.setContextMenuOption(2, "Collect");
+		}
+		_CHILD.setContextMenuOption(3, "Bank");
+		_CHILD.setContextMenuOption(10, "Examine");
+		_CHILD.setItem(item2, int3);
+		_CHILD.setOptionBase("<col=ff9040>" + getItemName(item2) + "</col>");
+	} else {
+		_CHILD.setHidden(true);
+	}
+	return;
+}

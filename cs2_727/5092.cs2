@@ -1,0 +1,195 @@
+//script5092(5092)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+string sVar6
+string sVar7
+cc_deleteall(if_gethash(1112, 4))
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = ""
+sVar5 = ""
+sVar6 = ""
+sVar7 = ""
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+if(load_varpbit(9540) != 3) {
+	if(load_varpbit(9520) > 0) {
+		sVar0 = "<br>" + "Members:" + "<br>" + "Score:"
+		sVar3 = sVar0
+		sVar1 = "<br>" + tostring_localized(1, load_varc(788) & 1023)
+		sVar4 = "<br>" + tostring_localized(1, (load_varc(788) / (2 ^ 10)) & 1023)
+		sVar1 = sVar1 + "<br>" + tostring_localized(1, load_varc(786) & 65535)
+		iVar8 = load_varc(786) / (2 ^ 16)
+		if(iVar8 < 0)
+			iVar8 = (2 ^ 16) + iVar8
+		sVar4 = sVar4 + "<br>" + tostring_localized(1, iVar8)
+		iVar8 = enum(3928, load_varpbit(9521), 'i', 'i')
+		if(iVar8 < 2147483647) {
+			sVar1 = sVar1 + " / " + tostring_localized(1, iVar8)
+			sVar4 = sVar4 + " / " + tostring_localized(1, iVar8)
+		}
+		if(load_varpbit(9520) < 2) {
+			sVar6 = "<br>" + "<br>" + "<br>" + "Neutral players:"
+			sVar7 = "<br>" + "<br>" + "<br>" + tostring_localized(1, load_varc(788) / (2 ^ 20))
+		} else 
+			sVar6 = "<br>" + "<br>" + "<br>"
+		if(load_varpbit(9540) == 1)
+			sVar2 = "Your team:"
+		else
+			if(load_varpbit(9540) == 2)
+				sVar2 = "Red team:"
+			else {
+				sVar2 = "Red team:"
+				if(load_varpbit(9520) < 2) {
+					sVar6 = sVar6 + "<br>" + "Your score:"
+					sVar7 = sVar7 + "<br>" + tostring_localized(1, load_varpbit(9541))
+					iVar8 = enum(3928, load_varpbit(9522), 'i', 'i')
+					if(iVar8 < 2147483647)
+						sVar7 = sVar7 + " / " + tostring_localized(1, iVar8)
+				}
+			}
+	} else 
+		sVar6 = "Score:"
+	iVar8 = enum(3940, load_varpbit(9532), 'i', 'i')
+	if(iVar8 != 0) {
+		sVar6 = sVar6 + "<br>" + "Reward for pking:"
+		if(iVar8 > 0)
+			sVar7 = sVar7 + "<br>" + to_string(iVar8)
+		else
+			sVar7 = sVar7 + "<br>" + "A key"
+	}
+	if(load_varc(787) < 0) {
+		sVar6 = sVar6 + "<br>" + "Scoring begins in:"
+		if(load_varc(787) <= -2147483648)
+			sVar7 = sVar7 + "<br>" + "-"
+		else
+			iVar6 = 0 - load_varc(787)
+	}
+	if(load_varpbit(9523) > 0)
+		if(load_varc(787) > 0) {
+			sVar6 = sVar6 + "<br>" + "Time remaining:"
+			iVar6 = load_varc(787)
+		}
+	iVar5 = (paramheight(sVar6, 494, 2147483647) * 10) + 2
+	iVar0 = (parawidth(sVar0, 494, 2147483647) + 3) + parawidth(sVar1, 494, 2147483647)
+	iVar0 = max(parawidth(sVar2, 494, 2147483647), iVar0)
+	iVar1 = (parawidth(sVar3, 494, 2147483647) + 3) + parawidth(sVar4, 494, 2147483647)
+	iVar1 = max(parawidth(sVar5, 494, 2147483647), iVar1)
+	iVar3 = (parawidth(sVar6, 494, 2147483647) + 3) + max(40, parawidth(sVar7, 494, 2147483647))
+	iVar2 = (iVar0 + 5) + iVar1
+	iVar4 = max(iVar2, iVar3)
+	iVar2 = (iVar4 - iVar2) / 2
+	iVar0 = iVar0 + iVar2
+	if_setsize(if_gethash(1112, 1), 0, 0, iVar5 + 8, iVar4 + 8)
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_setsize(1, 0, 0, iVar0)
+	cc_setsize(1, 0, 0, iVar0)
+	cc_setposition(1, 0, 0, 0)
+	cc_setposition(1, 0, 0, 0)
+	cc_settextfont(494)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_settextshadow(1)
+	cc_settextalign(0, 0, 0)
+	cc_settextalign(0, 0, 2)
+	cc_setcolor(ff0000)
+	cc_setcolor(ff0000)
+	cc_settext(sVar0)
+	cc_settext(sVar1)
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_setsize(1, 0, 0, iVar0)
+	cc_setposition(1, 0, 0, 0)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_settextalign(0, 0, 1)
+	cc_setcolor(ff0000)
+	cc_settext(sVar2)
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_setsize(1, 0, 0, iVar1)
+	cc_setsize(1, 0, 0, iVar1)
+	cc_setposition(1, 2, 0, 0)
+	cc_setposition(1, 2, 0, 0)
+	cc_settextfont(494)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_settextshadow(1)
+	cc_settextalign(0, 0, 0)
+	cc_settextalign(0, 0, 2)
+	cc_setcolor(7f7fff)
+	cc_setcolor(7f7fff)
+	cc_settext(sVar3)
+	cc_settext(sVar4)
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_setsize(1, 0, 0, iVar1)
+	cc_setposition(1, 2, 0, 0)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_settextalign(0, 0, 1)
+	cc_setcolor(7f7fff)
+	cc_settext(sVar5)
+	if(string_length(sVar0) > 0) {
+		cc_create(if_getnextsubid(if_gethash(1112, 4)), 9, 72876036)
+		cc_create(if_getnextsubid(if_gethash(1112, 4)), 9, 72876036)
+		cc_setsize(0, 0, 27, 0)
+		cc_setsize(0, 0, 27, 0)
+		cc_setposition(0, 0, 3, iVar0 + 2)
+		cc_setposition(0, 0, cc_gety() + 1, cc_getx() + 1)
+		cc_setcolor(7f7f7f)
+		cc_setcolor(3f3f3f)
+	}
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+	cc_setsize(1, 0, 0, iVar3)
+	cc_setsize(1, 0, 0, iVar3)
+	cc_setposition(1, 1, 0, 0)
+	cc_setposition(1, 1, 0, 0)
+	cc_settextfont(494)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_settextshadow(1)
+	cc_settextalign(0, 0, 0)
+	cc_settextalign(0, 0, 2)
+	cc_setcolor(cfcfcf)
+	cc_setcolor(cfcfcf)
+	cc_settext(sVar6)
+	cc_settext(sVar7)
+	if(iVar6 > 0) {
+		cc_create(if_getnextsubid(if_gethash(1112, 4)), 4, 72876036)
+		cc_setsize(0, 0, 12, iVar3)
+		cc_setposition(2, 2, 0, max(0, iVar4 - iVar3) / 2)
+		cc_settextfont(494)
+		cc_settextshadow(1)
+		cc_settextalign(0, 0, 2)
+		cc_setcolor(cfcfcf)
+		iVar7 = iVar6 * 30
+		if(iVar7 > load_varc(995) || iVar7 + 29 < load_varc(995))
+			store_varc(995, iVar7 + 15)
+		cc_settext(script_5094())
+		instr6556(script_5093, "Ii", -2147483645, -2147483643)
+	}
+}
+return

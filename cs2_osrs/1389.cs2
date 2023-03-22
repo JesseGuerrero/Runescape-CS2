@@ -1,0 +1,131 @@
+void script_1389(int arg0, int arg1, int arg2) {
+	int int3;
+	int int4;
+	int int5;
+	boolean boolean6;
+	int int7;
+	int int8;
+	int int9;
+	Widget widget10;
+	int int11;
+	int int12;
+	int int13;
+	widget(422, 43).hookVARP(&script_1388(false, arg0, arg1, arg2), 780);
+	if (arg0 < arg1) {
+		arg0 = arg1;
+	} else if (arg0 > arg2) {
+		arg0 = arg2;
+	}
+	int3 = 7 + 2;
+	int4 = pow(int3, 2);
+	int5 = 0;
+	boolean6 = true;
+	if (arg0 == 0) {
+		boolean6 = false;
+	}
+	int7 = 0;
+	while (int7 < int4) {
+		if (CHILD.setChild(widget(422, 5), int5) == true) {
+			CHILD.setHidden(boolean6);
+		}
+		int7, int5 = int7 + 1, int5 + 1;
+	}
+	if (arg0 == 1) {
+		boolean6 = false;
+	} else {
+		boolean6 = true;
+	}
+	int7 = 0;
+	while (int7 < int4) {
+		if (CHILD.setChild(widget(422, 5), int5) == true) {
+			CHILD.setHidden(boolean6);
+		}
+		int7, int5 = int7 + 1, int5 + 1;
+	}
+	int7 = 0;
+	while (int7 < int4) {
+		if (CHILD.setChild(widget(422, 5), int5) == true) {
+			CHILD.setHidden(true);
+		}
+		int7, int5 = int7 + 1, int5 + 1;
+	}
+	int8 = -1;
+	int9 = VARPBIT[5330] - 1;
+	if (int9 >= 0 && int9 < int4) {
+		int8 = 0;
+	} else if (int9 >= int4 && int9 < int4 * 2) {
+		int8 = 1;
+	} else if (int9 >= int4 * 2 && int9 < int4 * 3) {
+		int8 = 2;
+	}
+	widget10 = datamap('i', 'I', 1424, -1);
+	if (arg0 == int8) {
+		widget10.setIsHidden(false);
+		if ((CHILD.setChild(widget10, 1) == true || CHILD.setChild(widget10, 2) == true || CHILD.setChild(widget10, 3) == true) && getShadeColor() >= 255) {
+			widget10.hookFrame(&script_1393(CTX_WIDGET, getClientCycle()));
+			script_1394(widget10, getClientCycle());
+		}
+	} else {
+		widget10.setIsHidden(true);
+		if (CHILD.setChild(widget10, 1) == true) {
+			CHILD.setTrans(255);
+		}
+		if (CHILD.setChild(widget10, 2) == true) {
+			CHILD.setTrans(255);
+		}
+		if (CHILD.setChild(widget10, 3) == true) {
+			CHILD.setTrans(255);
+		}
+	}
+	int11 = 0;
+	if (arg1 <= 0) {
+		int11 = script_1391(widget(422, 44), 0, "Dungeon", arg0, arg1, arg2, int8);
+	} else {
+		int11 = script_1392(widget(422, 44), "Dungeon");
+	}
+	int12 = 0;
+	if (arg2 >= 2) {
+		int12 = script_1391(widget(422, 46), 2, "Upstairs", arg0, arg1, arg2, int8);
+	} else {
+		int12 = script_1392(widget(422, 46), "Upstairs");
+	}
+	int13 = widget(422, 45).getLayer().getWidth() - (int11 + script_1391(widget(422, 45), 1, "Ground", arg0, arg1, arg2, int8) + int12);
+	widget(422, 45).setPosition(int11 + int13 / 2, 0, 0, 1);
+	script_1390(1, VARC[141], arg0, int3, int4);
+	script_1390(2, VARC[142], arg0, int3, int4);
+	script_1390(3, VARC[143], arg0, int3, int4);
+	script_1390(4, VARC[144], arg0, int3, int4);
+	script_1390(5, VARC[145], arg0, int3, int4);
+	script_1390(6, VARC[146], arg0, int3, int4);
+	script_1390(7, VARC[147], arg0, int3, int4);
+	script_1390(8, VARC[148], arg0, int3, int4);
+	script_1390(9, VARC[149], arg0, int3, int4);
+	script_1390(10, VARC[150], arg0, int3, int4);
+	script_1390(11, VARC[151], arg0, int3, int4);
+	script_1390(12, VARC[152], arg0, int3, int4);
+	script_1390(13, VARC[153], arg0, int3, int4);
+	script_1390(14, VARC[154], arg0, int3, int4);
+	script_1390(15, VARC[155], arg0, int3, int4);
+	script_1390(16, VARC[156], arg0, int3, int4);
+	script_1390(17, VARC[157], arg0, int3, int4);
+	script_1390(18, VARC[158], arg0, int3, int4);
+	script_1390(19, VARC[159], arg0, int3, int4);
+	script_1390(20, VARC[160], arg0, int3, int4);
+	script_1390(21, VARC[161], arg0, int3, int4);
+	script_1390(22, VARC[162], arg0, int3, int4);
+	script_1390(23, VARC[163], arg0, int3, int4);
+	script_1390(24, VARC[164], arg0, int3, int4);
+	script_1390(25, VARC[165], arg0, int3, int4);
+	script_1390(26, VARC[166], arg0, int3, int4);
+	script_1390(27, VARC[167], arg0, int3, int4);
+	script_1390(28, VARC[168], arg0, int3, int4);
+	script_1390(29, VARC[169], arg0, int3, int4);
+	script_1390(30, VARC[170], arg0, int3, int4);
+	script_1390(31, VARC[174], arg0, int3, int4);
+	script_1390(32, VARC[176], arg0, int3, int4);
+	script_1390(33, VARC[177], arg0, int3, int4);
+	if (int9 != -1 && CHILD.setChild(widget(422, 5), int9) == true) {
+		CHILD.setHidden(true);
+	}
+	return;
+}

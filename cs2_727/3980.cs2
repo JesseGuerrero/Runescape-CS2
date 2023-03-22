@@ -1,0 +1,5 @@
+//script3980(3980)()(void)
+store_varpbit(8576, 4095)
+store_varpbit(8577, 0)
+script_3975()
+return

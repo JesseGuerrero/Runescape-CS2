@@ -1,0 +1,13 @@
+//script3627(3627)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+arg7 = arg7 + 1
+if(arg7 == arg8) {
+	instr6342(arg0, None, "")
+	if_setposition(arg0, 0, 0, arg2, arg1)
+	if_setitem(arg0, -1, arg5)
+	if(instr6004(arg0) == 1)
+		cc_setparam_int(arg6, 1103)
+	return
+}
+if_setposition(arg0, 0, 0, arg2 + ((arg4 * arg7) / arg8), arg1 + ((arg3 * arg7) / arg8))
+instr6342(arg0, script_3627, "Iiiiioiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+return

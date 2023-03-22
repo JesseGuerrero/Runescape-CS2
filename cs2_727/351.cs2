@@ -1,0 +1,31 @@
+//script351(351)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+if(arg1 == load_varc(197) || arg0 != 1)
+	return
+iVar2 = script_734(load_varc(196))
+sound_synth(0, 1, 9830)
+iVar3 = 3278
+iVar4 = enum(iVar3, arg1 - 1, 'i', 'J')
+if(iVar4 == -1) {
+	store_varc(197, 1)
+	store_varpbit(8089, 1)
+	iVar4 = enum(iVar3, 0, 'i', 'J')
+} else  {
+	store_varc(197, arg1)
+	store_varpbit(8089, arg1)
+}
+iVar5 = script_384(0, iVar4, script_734(gender()))
+if(iVar5 == -1) {
+	store_varc(86, 0)
+	store_varpbit(8090, 0)
+} else  {
+	store_varc(86, 1)
+	store_varpbit(8090, 1)
+	script_359(iVar5, iVar2)
+}
+script_387(iVar2)
+script_390(iVar2)
+return

@@ -1,0 +1,4 @@
+//script4385(4385)()(int, int, int, int)
+instr6237(if_gethash(1105, 55), script_4390, "IY", 5, 2093, 2094, 2095, 2096, 2097, if_gethash(1105, 56))
+script_4391(72417336)
+return script_4392(72417336).get(3), script_4392(72417336).get(2), script_4392(72417336).get(1), script_4392(72417336).get(0)

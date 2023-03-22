@@ -1,0 +1,7 @@
+//script5119(5119)(int arg0)(void)
+if(load_varc(777) != arg0) {
+	sound_vorbis_volume(200, 0, 1, 6185)
+	store_varc(777, arg0)
+}
+script_5121()
+return

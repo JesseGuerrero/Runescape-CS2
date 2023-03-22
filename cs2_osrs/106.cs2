@@ -1,0 +1,13 @@
+void script_106() {
+	string str0;
+	if (VARC[11] == 1) {
+		sendCloseWidgetPacket();
+	}
+	script_677();
+	widget(162, 32).setText("Enter name of player to delete from list");
+	VARC[5] = 5;
+	script_222("");
+	str0 = "";
+	widget(162, 33).hookKey(&script_112(KEY_TYPED, KEY_PRESSED, str0));
+	return;
+}

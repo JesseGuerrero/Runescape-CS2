@@ -1,0 +1,7 @@
+//script1488(1488)()(void)
+if(load_varp(304) == 0)
+	store_varp(304, 1)
+else
+	store_varp(304, 0)
+script_1490()
+return

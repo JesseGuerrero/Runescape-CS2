@@ -1,0 +1,7 @@
+//script5900(5900)()(void)
+if(load_varc(1928) == 0)
+	sound_vorbis_rate(150, random(20) + 30, 0, 1, script_5925(5914))
+else
+	if(load_varc(1928) == 1)
+		sound_vorbis_rate(255, random(10) + 20, 0, 1, script_5925(5916))
+return

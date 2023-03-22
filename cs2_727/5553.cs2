@@ -1,0 +1,6 @@
+//script5553(5553)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(if_getspriteid(arg0) == arg1)
+	if_setgraphic(arg0, arg2)
+if(if_getspriteid(arg0) == arg3)
+	if_setgraphic(arg0, arg4)
+return

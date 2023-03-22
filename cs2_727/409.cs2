@@ -1,0 +1,16 @@
+//script409(409)()(void)
+store_varc(1364, load_varc(1364) + 1)
+if(load_varc(1364) == 50)
+	if_settext(if_gethash(1010, 41), "Opponent's Turn")
+else
+	if(load_varc(1364) == 100)
+		if_settext(if_gethash(1010, 41), "Opponent's Turn.")
+	else
+		if(load_varc(1364) == 150)
+			if_settext(if_gethash(1010, 41), "Opponent's Turn..")
+		else
+			if(load_varc(1364) >= 200) {
+				if_settext(if_gethash(1010, 41), "Opponent's Turn...")
+				store_varc(1364, 0)
+			}
+return

@@ -1,0 +1,99 @@
+//script359(359)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar2 = -1
+if(arg1 == 1) {
+	base_idkit(-1, 2)
+	base_idkit(-1, 3)
+	base_idkit(-1, 4)
+	base_idkit(-1, 5)
+	base_idkit(-1, 6)
+	base_idkit(-1, 8)
+	base_idkit(-1, 14)
+	base_idkit(-1, 15)
+	store_varc(1009, -1)
+	iVar2 = struct_param(1182, arg0)
+	if(iVar2 != -1) {
+		store_varc(1010, iVar2)
+		base_idkit(iVar2, 9)
+	}
+	iVar2 = struct_param(1183, arg0)
+	store_varc(1011, iVar2)
+	base_idkit(iVar2, 10)
+	iVar2 = struct_param(1184, arg0)
+	if(iVar2 != -1) {
+		store_varc(1012, iVar2)
+		base_idkit(iVar2, 11)
+	}
+	iVar2 = struct_param(1185, arg0)
+	if(iVar2 != -1) {
+		store_varc(1013, iVar2)
+		base_idkit(iVar2, 12)
+	}
+	iVar2 = struct_param(1186, arg0)
+	if(iVar2 != -1) {
+		store_varc(1014, iVar2)
+		base_idkit(iVar2, 13)
+	}
+} else  {
+	base_idkit(-1, 9)
+	base_idkit(-1, 10)
+	base_idkit(-1, 11)
+	base_idkit(-1, 12)
+	base_idkit(-1, 13)
+	base_idkit(-1, 14)
+	base_idkit(-1, 15)
+	iVar2 = struct_param(1182, arg0)
+	if(iVar2 != -1) {
+		store_varc(1010, iVar2)
+		base_idkit(iVar2, 2)
+	}
+	iVar2 = struct_param(1183, arg0)
+	store_varc(1011, iVar2)
+	base_idkit(iVar2, 3)
+	iVar2 = struct_param(1184, arg0)
+	if(iVar2 != -1) {
+		store_varc(1012, iVar2)
+		base_idkit(iVar2, 4)
+	}
+	iVar2 = struct_param(1185, arg0)
+	if(iVar2 != -1) {
+		store_varc(1013, iVar2)
+		base_idkit(iVar2, 5)
+	}
+	iVar2 = struct_param(1186, arg0)
+	if(iVar2 != -1) {
+		base_idkit(iVar2, 6)
+		store_varc(1014, iVar2)
+	}
+}
+store_varc(1016, script_360(arg0).get(0))
+base_color(load_varc(1016), 1)
+base_color(load_varc(1017), 2)
+base_color(load_varc(1018), 3)
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+if(load_varc(86) != 0) {
+	iVar4 = enum(3278, load_varc(197) - 1, 'i', 'J')
+	if(iVar4 != -1) {
+		iVar3 = struct_param(1163, iVar4)
+		if(iVar3 != -1) {
+			if(inv_size(iVar3) >= 2)
+				iVar5 = inv_getitem(1, iVar3)
+			if(inv_size(iVar3) >= 3)
+				iVar6 = inv_getitem(2, iVar3)
+		}
+	}
+	script_392(iVar4, arg1)
+} else 
+	script_392(-1, arg1)
+set_item(19713, 2)
+set_item(iVar5, 3)
+set_item(iVar6, 5)
+store_varpbit(8092, 0)
+return

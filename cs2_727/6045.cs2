@@ -1,0 +1,5 @@
+//script6045(6045)(int arg0, int arg1)(void)
+if(arg1 == 1)
+	instr6507(arg0, script_6045, "I1Y", 1, 358, arg0, 0)
+script_6046(arg0, 60, load_varc_string(358))
+return

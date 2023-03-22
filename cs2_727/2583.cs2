@@ -1,0 +1,6 @@
+//script2583(2583)()(void)
+if_setcolor(19136626, 0xFF9935)
+instr6213(if_gethash(292, 113), 1, "Resupply")
+instr6239(if_gethash(292, 113), script_2592, "I", -2147483645)
+hook_mouse_press(if_gethash(292, 113), None, "")
+return

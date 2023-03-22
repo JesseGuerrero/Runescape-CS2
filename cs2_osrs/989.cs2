@@ -1,0 +1,9 @@
+void script_989(Widget widget0) {
+	if (VARPBIT[4681] == 0) {
+		VARPBIT[4681] = 1;
+	} else {
+		VARPBIT[4681] = 0;
+	}
+	script_990(widget0);
+	return;
+}

@@ -1,0 +1,5 @@
+//script17(17)(int arg0)(void)
+if_setborderthickness(arg0, 2)
+if(instr6296(arg0) & 32 != 0)
+	script_71(4)
+return

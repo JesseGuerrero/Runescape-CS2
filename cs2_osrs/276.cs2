@@ -1,0 +1,4 @@
+void script_276(Widget arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget arg8, Widget widget9, Widget widget10, Widget widget11, Widget widget12) {
+	script_277(arg0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, arg8, widget9, widget10, widget11, widget12);
+	return;
+}

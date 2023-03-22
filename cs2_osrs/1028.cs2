@@ -1,0 +1,14 @@
+string script_1028(int arg0, int arg1) {
+	int int2;
+	if (arg0 < 0) {
+		return "";
+	}
+	int2 = datamap('i', 'i', 1162, arg0);
+	if (int2 > 0) {
+		if (arg1 == 1) {
+			return "Level\u00a0" + int2;
+		}
+		return "level\u00a0" + int2;
+	}
+	return script_46(arg0, ",") + "\u00a0XP";
+}

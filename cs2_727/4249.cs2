@@ -1,0 +1,29 @@
+//script4249(4249)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, string arg7, string arg8)(int)
+int iVar7
+int iVar8
+iVar7 = stringwidth(495, arg0) + 3
+if_settext(arg1, arg0)
+if(arg3 != -1)
+	if_setposition(arg3, 0, 0, 0, iVar7)
+iVar7 = if_getwidth(arg0) - iVar7
+iVar8 = max(20, (paramheight(arg1, 495, iVar7) * 15) + 3)
+if_setsize(arg0, 0, 1, iVar8, 0)
+if_setsize(arg2, 1, 0, 0, iVar7)
+if_settext(arg2, arg1)
+if_setposition(arg0, 0, 1, arg6, 0)
+if(arg3 != -1)
+	if(arg5 == 2) {
+		if_sethide(arg3, 1)
+		if_sethide(arg2, 0)
+		if_clearscripthooks(arg3)
+	} else  {
+		if_sethide(arg2, 1)
+		if_sethide(arg3, 0)
+		if(arg4 != -1)
+			if_setsize(arg3, 0, 0, if_getheight(arg3), stringwidth(instr6289(arg4), if_gettext(arg4)) + 10)
+		instr6239(arg3, script_4250, "II", arg3, arg2)
+	}
+else
+	if_sethide(arg2, 0)
+return arg6 + iVar8
+return 0

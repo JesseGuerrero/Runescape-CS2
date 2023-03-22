@@ -1,0 +1,63 @@
+void script_1548(int arg0, string string1) {
+	int int1;
+	int int2;
+	int int3;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 70))) == false) {
+		return;
+	}
+	if (length(string1) <= 0) {
+		return;
+	}
+	str1 = "";
+	str1, string1 = script_632(string1);
+	str2 = removeTags(str1);
+	str3 = "";
+	str3, string1 = script_632(string1);
+	if (CHILD.setChild(widget(500, 10), arg0 * 7) == true) {
+		CHILD.setOptionBase("<col=ff9040>" + str2 + "</col>");
+		script_1549(arg0, 0);
+		CHILD.hookOptionClick(&script_1552(str2));
+	}
+	int1 = 0;
+	int2 = 0;
+	int3 = 0;
+	str4 = "";
+	if (CHILD.setChild(widget(500, 10), arg0 * 7 + 1) == true) {
+		int1, int2 = length(str1), CHILD.getWidth();
+		if (int1 > 0 && getMaxLineWidth(str1, 512, 494) > int2) {
+			CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(500, 15), str2, 25, 190));
+			CHILD.hookMouseExit(&script_40(widget(500, 15)));
+			while (int1 > 1 && int3 == 0) {
+				int1 = int1 - 1;
+				str4 = concat(substr(str1, 0, int1), "...");
+				if (getMaxLineWidth(str4, 512, 494) <= int2) {
+					str1, int3 = str4, 1;
+				}
+			}
+		} else {
+			CHILD.hookMouseHover(null);
+			CHILD.hookMouseExit(null);
+		}
+		CHILD.setText(str1);
+	}
+	if (CHILD.setChild(widget(500, 10), arg0 * 7 + 2) == true) {
+		CHILD.setText(str3);
+	}
+	if (CHILD.setChild(widget(500, 10), arg0 * 7 + 3) == true) {
+		CHILD.setText(string1);
+	}
+	if (CHILD.setChild(widget(500, 10), arg0 * 7 + 4) == true) {
+		CHILD.setText(str2);
+	}
+	if (CHILD.setChild(widget(500, 10), arg0 * 7 + 5) == true) {
+		CHILD.setText(concat(script_1503(str3, 3), arg0));
+	}
+	if (CHILD.setChild(widget(500, 10), arg0 * 7 + 6) == true) {
+		CHILD.setText(concat(script_1503(string1, 4), arg0));
+	}
+	return;
+}

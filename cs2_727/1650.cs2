@@ -1,0 +1,35 @@
+//script1650(1650)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = 48889905
+iVar1 = 48889878
+iVar2 = 48889880
+iVar3 = if_gety(iVar2)
+iVar4 = if_getheight(iVar0)
+if(script_1653() == 1) {
+	script_1652(0)
+	if_sethide(iVar0, 1)
+	return
+} else 
+	if(load_varc(41) != -1)
+		if_sethide(iVar0, 0)
+if(load_varc(1037) < 142)
+	store_varc(1037, 142)
+else
+	if(load_varc(1037) > if_getheight(if_gethash(746, 52)) - 117) {
+		script_1651(0, 1)
+		return
+	}
+store_varc(7, load_varc(7) - ((load_varc(1037) + 2) - if_getheight(iVar1)))
+if_setsize(iVar1, 0, 0, load_varc(1037) + 2, 519)
+if_setposition(iVar1, 2, 0, 26, 0)
+iVar5 = ((if_gety(iVar1) - 2) - iVar4) - iVar3
+iVar5 = iVar5 + 4
+if_setposition(iVar0, 0, 0, iVar5, 0)
+if_setposition(if_gethash(746, 25), 0, 0, if_gety(iVar1) - 88, 0)
+script_84()
+return

@@ -1,0 +1,8 @@
+//script4617(4617)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+iVar2 = arg0
+iVar3 = arg1
+iVar2 = script_4618(arg0, arg1).get(0)
+return instr6802(iVar2) + iVar3
+return 0

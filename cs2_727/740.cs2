@@ -1,0 +1,11 @@
+//script740(740)()(void)
+store_varc(106, 0)
+store_varc(106, 0)
+store_varc(99, 0)
+store_varc(100, 0)
+store_varc(101, 0)
+store_varc(104, 0)
+store_varc(102, 0)
+store_varc(105, 20)
+script_738()
+return

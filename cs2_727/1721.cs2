@@ -1,0 +1,62 @@
+//script1721(1721)()(int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+string sVar0
+iVar0 = 0
+iVar1 = 5
+iVar2 = if_getwidth(if_gethash(88, 4)) / iVar1
+iVar3 = 0
+iVar4 = 0
+iVar5 = 125
+iVar6 = 15
+iVar7 = -1
+iVar8 = 2200
+sVar0 = ""
+iVar9 = 0
+iVar10 = -1
+iVar11 = enum_getoutputcount(869)
+iVar12 = (iVar11 / iVar1) * iVar5
+if(modulo(iVar1, iVar11) != 0)
+	iVar12 = iVar12 + iVar5
+cc_deleteall(if_gethash(88, 5))
+cc_deleteall(if_gethash(88, 6))
+if_setscrollsize(5767172, iVar12, iVar1 * iVar2)
+while(iVar0 < iVar11) {
+	cc_create(iVar0, 6, 5767173)
+	cc_setsize(0, 0, iVar5, iVar2)
+	iVar7 = script_2791(iVar0).get(0)
+	cc_setmodel(iVar7)
+	cc_setmodelangle(iVar8, 0, 1950, 5, 20, 1)
+	cc_setposition(0, 0, iVar4 * iVar5, iVar3 * iVar2)
+	if(iVar9 == 1) {
+		cc_setop("Speak-to", 1)
+		instr6091(script_1860, "iA", -2147483643, iVar10)
+		instr6092(script_2607, "i", -2147483643)
+	}
+	cc_create(iVar0, 4, 5767174)
+	cc_setsize(0, 0, iVar5 - (iVar6 * 2), iVar2)
+	cc_setcolor(ff9935)
+	cc_settextfont(494)
+	cc_settextshadow(1)
+	cc_settext(sVar0)
+	cc_settextalign(0, 0, 1)
+	cc_setposition(0, 0, (iVar4 * iVar5) + iVar6, iVar3 * iVar2)
+	iVar3 = iVar3 + 1
+	if(iVar3 >= iVar1) {
+		iVar3 = 0
+		iVar4 = iVar4 + 1
+	}
+	iVar0 = iVar0 + 1
+}
+return script_4529(5767175, 5767172, 7337)

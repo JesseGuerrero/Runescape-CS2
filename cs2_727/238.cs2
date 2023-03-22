@@ -1,0 +1,4 @@
+//script238(238)(int arg0)(void)
+if(cc_find(arg0, if_gethash(594, 93)) == 1)
+	cc_settrans(255)
+return

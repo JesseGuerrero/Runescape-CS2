@@ -1,0 +1,9 @@
+//script5478(5478)()(void)
+store_varc(1683, load_varc(1683) + 1)
+if(load_varc(1683) < 0)
+	if_setposition(if_gethash(1163, 89), 2, 1, load_varc(1683), 0)
+else {
+	if_setposition(if_gethash(1163, 89), 2, 1, 0, 0)
+	instr6342(if_gethash(1163, 45), None, "")
+}
+return

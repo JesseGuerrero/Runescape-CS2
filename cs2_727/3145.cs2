@@ -1,0 +1,11 @@
+//script3145(3145)(int arg0, int arg1, int arg2, int arg3)(void)
+if_sethide(if_gethash(910, 65), 1)
+if_sethide(if_gethash(910, 66), 1)
+if(cc_find(arg2, arg1) == 1)
+	if(cc_getspriteid() == 1542)
+		cc_setgraphic(1541)
+	else
+		if(cc_getspriteid() == 1546)
+			cc_setgraphic(1545)
+return
+return

@@ -1,0 +1,8 @@
+//script6109(6109)()(void)
+int iVar0
+iVar0 = 1
+if(if_gethide(if_gethash(1265, 61)) == 1)
+	iVar0 = 0
+if_sethide(if_gethash(1265, 61), iVar0)
+script_6111()
+return

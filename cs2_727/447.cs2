@@ -1,0 +1,16 @@
+//script447(447)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+sVar0 = if_gettext(arg2)
+iVar3 = if_getwidth(arg2)
+iVar4 = paramheight(sVar0, 494, iVar3)
+iVar5 = (iVar4 * 10) + 5
+if(iVar5 > if_getheight(arg1)) {
+	if_setscrollsize(arg1, iVar5, 0)
+	script_31(arg0, arg1, 2598, 2595, 2596, 2597, 2593, 2594)
+	if_settextalign(arg2, 0, 0, 1)
+	if_setsize(arg2, 0, 0, iVar5, if_getwidth(arg2))
+}
+return

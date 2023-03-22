@@ -1,0 +1,3 @@
+//script3093(3093)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, string arg7, string arg8, string arg9, string arg10, string arg11)(void)
+script_2779(arg0, arg1, arg2, arg3, arg4, arg5, arg6, 250, arg0, arg1, arg2, arg3, arg4)
+return

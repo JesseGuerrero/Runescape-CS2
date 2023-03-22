@@ -1,0 +1,4 @@
+void script_227(Widget widget0, string string1) {
+	_ = script_228(widget0, string1, 0);
+	return;
+}

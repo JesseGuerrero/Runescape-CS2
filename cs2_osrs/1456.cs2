@@ -1,0 +1,99 @@
+void script_1456(Widget widget0, int arg1, int arg2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	Widget widget9;
+	Location location10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	Item item17;
+	int int18;
+	int3 = widget0.getHeight();
+	int4 = widget0.getWidth();
+	int5 = 44;
+	int6 = (int3 - 5 * int5) / 2;
+	int7 = (int4 - 7 * int5) / 2;
+	if (int6 < 0 || int7 < 0) {
+		return;
+	}
+	int8 = 1;
+	widget9 = null;
+	location10 = null;
+	int11 = 0;
+	int12 = 0;
+	int13 = 0;
+	int14 = 0;
+	int15 = 0;
+	int16 = 0;
+	item17 = null;
+	widget0.clearChildren();
+	_CHILD.createChild(widget0, 3, 0);
+	_CHILD.setHidden(true);
+	int18 = 0;
+	while (int8 <= 14) {
+		int16 = 0;
+		widget9 = datamap('i', 'I', 1511, int8);
+		if (widget9 == null) {
+			return;
+		}
+		location10 = datamap('i', 'c', 1512, int8);
+		if (location10 == null) {
+			return;
+		}
+		int11 = y(location10);
+		int12 = x(location10);
+		int13 = int7 + (int12 - 1) * int5;
+		int14 = int6 + (int11 - 1) * int5;
+		widget9.setPosition(int13, int14, 0, 0);
+		widget9.setSize(int5, int5, 0, 0);
+		item17 = datamap('i', 'O', 982, int8);
+		int18 = getItemAmtInContainer(93, item17);
+		if (getItemAmtInContainer(93, 12791) > 0) {
+			if (VARPBIT[29] == int8) {
+				int18 = int18 + VARPBIT[1624];
+			} else if (VARPBIT[1622] == int8) {
+				int18 = int18 + VARPBIT[1625];
+			} else if (VARPBIT[1623] == int8) {
+				int18 = int18 + VARPBIT[1626];
+			}
+		}
+		if (int18 >= 20 || arg2 == 0) {
+			int16 = 1;
+		}
+		widget9.clearChildren();
+		if (int16 == 1) {
+			if (int8 == arg1) {
+				int15 = script_198(widget9);
+			} else {
+				int15 = script_208(widget9);
+			}
+			widget9.hookMouseEnter(&script_1455(widget0, int8, (boolean)arg2));
+			widget9.hookMouseExit(&script_1455(widget0, -1, (boolean)arg2));
+		} else {
+			int15 = script_134(widget9);
+		}
+		widget9.setOptionBase("<col=ff9040>" + getItemName(item17) + "</col>");
+		widget9.setContextMenuOption(1, "Choose");
+		widget9.hookOptionClick(&script_1457(int8, widget0, widget9, int15, (boolean)arg2));
+		CHILD.createChild(widget9, 5, int15);
+		CHILD.setItem(item17, int18);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(2, 0, 1, 1);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		if (int16 == 0) {
+			CHILD.setTrans(125);
+		}
+		_CHILD.createChild(widget0, 3, int8);
+		_CHILD.setHidden(true);
+		int8 = int8 + 1;
+	}
+	return;
+}

@@ -1,0 +1,49 @@
+//script920(920)(int arg0)(int)
+int iVar1
+string sVar0
+store_varc(742, 0)
+sVar0 = ""
+iVar1 = 0
+if(load_varc(741) != -1) {
+	if(compare("Wear", item_iop(2, load_varc(741))) == 0 || compare("Wield", item_iop(2, load_varc(741))) == 0)
+		iVar1 = 1
+	instr6879(if_gethash(449, 13), -1, load_varc(741))
+	instr6879(if_gethash(449, 14), -1, load_varc(741))
+	if(world_members() == 0)
+		if(item_members(load_varc(741)) == 1)
+			script_922(1, arg0, "This is a members item. Additional information is not available on this world.")
+		else {
+			sVar0 = script_914()
+			if(compare("", sVar0) != 0) {
+				script_922(1, arg0, sVar0)
+				store_varc(742, load_varc(742) + 1)
+			}
+			script_921(1, arg0, load_varc_string(25))
+			if(compare("", item_param(690, load_varc(741))) != 0) {
+				script_921(1, arg0, " ")
+				script_921(1, arg0, item_param(690, load_varc(741)))
+			}
+			if(modulo(2, item_param(740, load_varc(741))) == 1) {
+				if(compare("", load_varc_string(26)) != 0)
+					if(iVar1 == 1)
+						script_921(0, arg0, load_varc_string(26))
+				if(compare("", load_varc_string(34)) != 0)
+					script_921(0, arg0, load_varc_string(34))
+			} else  {
+				if(compare("", load_varc_string(34)) != 0)
+					script_921(0, arg0, load_varc_string(34))
+				if(compare("", load_varc_string(26)) != 0)
+					if(iVar1 == 1)
+						script_921(0, arg0, load_varc_string(26))
+			}
+			sVar0 = script_912(load_varc(741))
+			if(compare("", sVar0) != 0)
+				script_921(0, arg0, sVar0)
+			if(compare("", load_varc_string(35)) != 0)
+				if(iVar1 == 1)
+					script_923(arg0, load_varc_string(35), load_varc_string(36), load_varc_string(52))
+		}
+} else 
+	script_921(1, arg0, "Select an item to see its information.")
+return (6 * 2) + (load_varc(742) * 11)
+return 0

@@ -1,0 +1,12 @@
+//script5817(5817)()(void)
+if(load_varc(41) == -1) {
+	store_varc(41, 0)
+	script_1364()
+} else  {
+	store_varc(41, 0)
+	script_181(load_varc(41))
+	script_178()
+	script_84()
+	script_89()
+}
+return

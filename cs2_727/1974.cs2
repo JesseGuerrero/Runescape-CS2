@@ -1,0 +1,4 @@
+//script1974(1974)(int arg0, int arg1, int arg2)(void)
+if_setmodelangle(arg0, arg2, instr6280(arg0), instr6280(arg0), instr6292(arg0), 0, 0)
+if_setitem(arg0, 1, arg1)
+return

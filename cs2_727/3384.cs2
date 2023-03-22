@@ -1,0 +1,28 @@
+//script3384(3384)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 0
+iVar2 = 0
+iVar1 = instr6852().get(0)
+script_2593(iVar1)
+if(iVar1 == 1 || iVar1 == 3) {
+	script_2700(1, arg0, 1, 0)
+	return
+} else  {
+	store_varc(1240, 3)
+	store_varc(1277, 0)
+	instr6922(1, iVar1)
+	if(arg0 == 3)
+		if(instr6710() == 1) {
+			script_1174(5)
+			instr6342(if_gethash(975, 44), script_3381, "Ii", if_gethash(975, 44), 0)
+		} else 
+			if(script_3487(1) == 1)
+				script_1174(11)
+			else
+				script_1174(11)
+	else
+		script_2596(iVar1, instr6644(), script_2692(iVar1).get(0), script_2692(iVar1).get(1), arg0)
+	return
+}
+return

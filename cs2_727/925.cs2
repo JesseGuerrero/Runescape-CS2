@@ -1,0 +1,11 @@
+//script925(925)(int arg0)(int)
+if(script_929(arg0) == 0)
+	return 0
+if(script_930(arg0) == 0)
+	return 0
+if(script_933(arg0) == 0)
+	return 0
+if(script_1432() < item_param(761, arg0))
+	return 0
+return 1
+return -1

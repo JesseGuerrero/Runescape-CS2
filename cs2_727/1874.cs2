@@ -1,0 +1,4 @@
+//script1874(1874)(int arg0, int arg1, int arg2)(void)
+store_varc(1097, script_1401(arg0, 494, 0, load_varc_string(277)))
+script_1875(arg1, arg2, load_varc_string(277))
+return

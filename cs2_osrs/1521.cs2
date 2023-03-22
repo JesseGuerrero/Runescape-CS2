@@ -1,0 +1,76 @@
+void script_1521(int arg0, int arg1, string string2, string string3) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	Skill skill8;
+	string str2;
+	string str3;
+	int2 = 0;
+	int3 = 0;
+	int4 = 0;
+	int5 = 0;
+	int6 = 0;
+	int7 = 1;
+	skill8 = null;
+	str2 = "";
+	str3 = "";
+	if (length(string2) > 0) {
+		if (arg0 == 6) {
+			if (clanGetChatCount() > 0 && clanmethod3618() >= clanmethod3616()) {
+				playSoundEffect(2266, 1, 0);
+				script_215(string2);
+			} else {
+				msg("You don't have permission to do that.");
+			}
+			return;
+		}
+		if (_CHILD.setChild(widget(507, 11), 0) == false) {
+			return;
+		}
+		playSoundEffect(2266, 1, 0);
+		widget(507, 25).setIsHidden(true);
+		widget(507, 26).setIsHidden(false);
+		widget(507, 26).clearChildren();
+		int2 = script_715(widget(507, 26), 0);
+		CHILD.createChild(widget(507, 26), 4, int2);
+		int2 = int2 + 1;
+		CHILD.setSize(0, 15, 1, 0);
+		CHILD.setPosition(0, 0, 1, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 2, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(string2);
+		int3 = (widget(507, 26).getWidth() - 216) / 2;
+		skill8 = datamap('i', 'S', 681, int7);
+		while (skill8 != null) {
+			int5, int6 = int3 + int4 / 5 * 44, 15 + int4 % 5 * 25;
+			str2, string3 = script_632(string3);
+			CHILD.createChild(widget(507, 26), 5, int2);
+			int2 = int2 + 1;
+			_CHILD.createChild(widget(507, 26), 4, int2);
+			int2 = int2 + 1;
+			CHILD.setSize(25, 25, 0, 0);
+			_CHILD.setSize(40, 25, 0, 0);
+			CHILD.setPosition(int5, int6, 0, 0);
+			_CHILD.setPosition(int5, int6, 0, 0);
+			CHILD.setSprite(datamap('S', 'd', 255, skill8));
+			_CHILD.setRGB(0xFF981F);
+			_CHILD.setFont(494);
+			_CHILD.setTextAlignment(2, 1, 0);
+			_CHILD.setTextAntiMacro(true);
+			_CHILD.setText(str2);
+			str3 = string2 + ":" + "<br>" + "Level " + "<col=7f0000>" + str2 + "</col>" + " " + datamap('S', 's', 680, skill8);
+			_CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(507, 33), str3, 25, 200));
+			_CHILD.hookMouseExit(&script_40(widget(507, 33)));
+			int7, int4 = int7 + 1, int4 + 1;
+			skill8 = datamap('i', 'S', 681, int7);
+		}
+		widget(507, 26).hookMousePress(&script_1522());
+		script_1525(arg1);
+	}
+	return;
+}

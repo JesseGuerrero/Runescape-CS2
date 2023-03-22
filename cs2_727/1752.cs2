@@ -1,0 +1,10 @@
+//script1752(1752)(int arg0, int arg1)(void)
+if(load_varc(223) > 0) {
+	if_setmodel(arg0, 15669)
+	if_setcolor(arg1, 0x33FF00)
+} else  {
+	if_setmodel(arg0, 15666)
+	if_setcolor(arg1, 0x910000)
+}
+if_settext(arg1, to_string(load_varc(223)))
+return

@@ -1,0 +1,60 @@
+void script_609(Color color0, int arg1, Sprite sprite2, Sprite sprite3, int arg4, int arg5, Widget widget6, string string7) {
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	Color color13;
+	string str1;
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	int7 = widget6.getWidth();
+	int8 = 0;
+	int9 = 0;
+	int10 = 0;
+	int11 = 0;
+	int12 = 0;
+	int10, int11, int12 = script_2(color0);
+	if (int10 > 64) {
+		int10 = int10 - 32;
+	} else {
+		int10 = int10 / 2;
+	}
+	if (int11 > 64) {
+		int11 = int11 - 32;
+	} else {
+		int11 = int11 / 2;
+	}
+	if (int12 > 64) {
+		int12 = int12 - 32;
+	} else {
+		int12 = int12 / 2;
+	}
+	color13 = script_246(int10, int11, int12);
+	str1 = "";
+	str1, string7 = script_632(string7);
+	while (length(str1) > 0) {
+		int8 = getLineCount(str1, int7, sprite3) * arg4 + arg5;
+		CHILD.createChild(widget6, 4, VARC[43]);
+		VARC[43] = VARC[43] + 1;
+		CHILD.setPosition(0, VARC[49], 0, 0);
+		CHILD.setSize(int7, int8, 0, 0);
+		if (int9 % 2 == 0) {
+			CHILD.setRGB(color0);
+		} else {
+			CHILD.setRGB(color13);
+		}
+		CHILD.setFont(sprite2);
+		CHILD.setTextAlignment(arg1, 0, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str1);
+		VARC[49], int9 = VARC[49] + int8 + 3, int9 + 1;
+		str1, string7 = script_632(string7);
+	}
+	if (int9 > 0) {
+		VARC[49] = VARC[49] + 3;
+	}
+	return;
+}

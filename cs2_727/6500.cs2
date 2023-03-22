@@ -1,0 +1,8 @@
+//script6500(6500)(int arg0)(int)
+if(load_varpbit(11479) == 1) {
+	if(arg0 == 1)
+		send_message("You cannot display cosmetic gear at the moment.")
+	return 0
+}
+return 1
+return -1

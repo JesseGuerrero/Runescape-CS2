@@ -1,0 +1,11 @@
+//script2624(2624)()(void)
+int iVar0
+int iVar1
+iVar0 = 1
+iVar1 = -1
+while(enum(2450, iVar0, 'i', 'I') != 55705624) {
+	iVar1 = enum(2450, iVar0, 'i', 'I')
+	if_settext(iVar1, "<col=800000>" + enum(2449, iVar1, 'I', 's') + "  " + "<col=000000>" + enum(2448, iVar1, 'I', 's'))
+	iVar0 = iVar0 + 1
+}
+return

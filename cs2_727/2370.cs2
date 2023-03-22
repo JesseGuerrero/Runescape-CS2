@@ -1,0 +1,15 @@
+//script2370(2370)()(void)
+int iVar0
+iVar0 = if_getscrollx(if_gethash(905, 13))
+if(iVar0 <= 0) {
+	if_settrans(if_gethash(905, 11), 150)
+	if_setgraphic(if_gethash(905, 11), 3877)
+} else 
+	if_settrans(if_gethash(905, 11), 0)
+if(iVar0 >= if_getscrollwidth(if_gethash(905, 13)) - if_getwidth(if_gethash(905, 13))) {
+	if_settrans(if_gethash(905, 12), 150)
+	if_setgraphic(if_gethash(905, 12), 3879)
+} else 
+	if_settrans(if_gethash(905, 12), 0)
+store_varc(93, iVar0)
+return

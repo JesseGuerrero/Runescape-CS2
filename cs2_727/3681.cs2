@@ -1,0 +1,24 @@
+//script3681(3681)(int arg0)(void)
+string sVar0
+string sVar1
+sVar0 = "Add to playlist"
+sVar1 = "Remove from playlist"
+cc_setop("Play", 1)
+cc_setcolor(ff00)
+instr6092(script_1356, "Iii", -2147483645, -2147483643, 65280)
+cc_sethide(0)
+instr6687(script_2885, "Iiiiii", -2147483645, -2147483643, 150, 0, 20, -2147483644)
+if(arg0 == load_varpbit(7081) || arg0 == load_varpbit(7082) || arg0 == load_varpbit(7083) || arg0 == load_varpbit(7084) || arg0 == load_varpbit(7085) || arg0 == load_varpbit(7086) || arg0 == load_varpbit(7087) || arg0 == load_varpbit(7088) || arg0 == load_varpbit(7089) || arg0 == load_varpbit(7090) || arg0 == load_varpbit(7091) || arg0 == load_varpbit(7092)) {
+	cc_setgraphic(2430)
+	cc_setop(sVar1, 4)
+	cc_setop(sVar1, 4)
+	cc_setonmouseover(script_1160, "IiIsii", if_gethash(187, 1), -2147483643, if_gethash(187, 17), sVar1, 25, 189)
+	instr6092(script_40, "I", if_gethash(187, 17))
+} else  {
+	cc_setop(sVar0, 3)
+	cc_setop(sVar0, 3)
+	cc_setgraphic(2429)
+	cc_setonmouseover(script_1160, "IiIsii", if_gethash(187, 1), -2147483643, if_gethash(187, 17), sVar0, 25, 189)
+	instr6092(script_40, "I", if_gethash(187, 17))
+}
+return

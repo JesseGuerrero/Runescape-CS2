@@ -1,0 +1,29 @@
+void script_348(Widget widget0, Widget widget1, Widget widget2, Widget widget3) {
+	if (VARP[166] == 1) {
+		widget0.setSprite(683);
+		widget1.setSprite(680);
+		widget2.setSprite(681);
+		widget3.setSprite(682);
+	} else if (VARP[166] == 2) {
+		widget0.setSprite(679);
+		widget1.setSprite(684);
+		widget2.setSprite(681);
+		widget3.setSprite(682);
+	} else if (VARP[166] == 3) {
+		widget0.setSprite(679);
+		widget1.setSprite(680);
+		widget2.setSprite(685);
+		widget3.setSprite(682);
+	} else if (VARP[166] == 4) {
+		widget0.setSprite(679);
+		widget1.setSprite(680);
+		widget2.setSprite(681);
+		widget3.setSprite(686);
+	} else {
+		widget0.setSprite(679);
+		widget1.setSprite(680);
+		widget2.setSprite(681);
+		widget3.setSprite(682);
+	}
+	return;
+}

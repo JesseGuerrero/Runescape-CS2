@@ -1,0 +1,37 @@
+//script1715(1715)()(void)
+int iVar0
+iVar0 = -1
+if(load_varc(1043) == -1)
+	return
+switch(load_varc(1043)) {
+	case default:
+		break
+	case 4762:
+		iVar0 = 1572874
+		break
+	case 4764:
+		iVar0 = 1572872
+		break
+	case 4766:
+		iVar0 = 1572873
+		break
+	case 4768:
+		iVar0 = 1572875
+		break
+	case 4770:
+		iVar0 = 1572876
+		break
+	case 4772:
+		iVar0 = 1572877
+		break
+	case 24196:
+		iVar0 = 1572878
+		break
+
+}
+if(iVar0 == -1)
+	return
+if_setitem(iVar0, -1, load_varc(1043))
+if_setspritescale(iVar0, 1600)
+if_setmodelanim(iVar0, 12554)
+return

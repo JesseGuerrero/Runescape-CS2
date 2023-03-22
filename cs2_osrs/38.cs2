@@ -1,0 +1,52 @@
+void script_38(Widget widget0, Widget widget1, string string2, int arg3, int arg4) {
+	int int4;
+	int int5;
+	int4 = 0;
+	int5 = 0;
+	if (VARC[1] < getClientCycle() + arg3) {
+		if (VARC[1] < getClientCycle()) {
+			VARC[1] = getClientCycle();
+		}
+		VARC[1] = VARC[1] + 2;
+		return;
+	}
+	VARC[1] = getClientCycle() + arg3 + 10;
+	if (VARC[2] == 0) {
+		if (arg4 > widget1.getLayer().getWidth()) {
+			arg4 = widget1.getLayer().getWidth();
+		}
+		arg4 = arg4 - 4;
+		widget1.setSize(4 + getMaxLineWidth(string2, arg4, 495), 4 + 13 * getLineCount(string2, arg4, 495), 0, 0);
+		int4 = widget0.getX() + 5;
+		int5 = widget0.getY() + widget0.getHeight() + 5;
+		if (widget1.getLayer() != null) {
+			if (int4 > widget1.getLayer().getWidth() - widget1.getWidth()) {
+				int4 = widget1.getLayer().getWidth() - widget1.getWidth();
+			}
+			if (int5 > widget1.getLayer().getHeight() - widget1.getHeight()) {
+				int5 = widget0.getY() - widget1.getHeight() - 5;
+			}
+		}
+		widget1.setPosition(int4, int5, 0, 0);
+		widget1.clearChildren();
+		CHILD.createChild(widget1, 3, 0);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setFilled(true);
+		CHILD.setRGB(0xFFFFA0);
+		CHILD.createChild(widget1, 3, 1);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setFilled(false);
+		CHILD.setRGB(0x000000);
+		CHILD.createChild(widget1, 4, 2);
+		CHILD.setSize(4, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setText(string2);
+		CHILD.setTextAlignment(0, 1, 0);
+		CHILD.setFont(495);
+		CHILD.setRGB(0x000000);
+		VARC[2] = 1;
+	}
+	return;
+}

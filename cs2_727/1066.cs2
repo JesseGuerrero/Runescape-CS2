@@ -1,0 +1,70 @@
+//script1066(1066)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = if_getwidth(arg0)
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+while(cc_find(iVar4, arg0) == 1) {
+	iVar3 = iVar3 + cc_getwidth()
+	iVar4 = iVar4 + 1
+}
+if(iVar3 <= iVar2) {
+	iVar4 = 0
+	iVar5 = 0
+	while(cc_find(iVar4, arg0) == 1) {
+		cc_sethide(0)
+		cc_setposition(0, 0, 0, iVar5)
+		if(cc_find(iVar4, if_gethash(137, 2)) == 1)
+			cc_setposition(0, 0, cc_gety(), cc_getx())
+		iVar5 = iVar5 + cc_getwidth()
+		iVar4 = iVar4 + 1
+	}
+	return
+}
+cc_create(arg1 + 1, 4, arg0)
+cc_setcolor(0)
+cc_settextfont(495)
+cc_settextalign(0, 1, 0)
+cc_settext(" ... " + "<img=2>")
+cc_settextshadow(0)
+cc_setsize(0, 0, if_getheight(arg0), parawidth(" ... " + "<img=2>", 495, iVar2))
+iVar3 = cc_getwidth()
+if(cc_find(arg1, arg0) == 1)
+	iVar3 = iVar3 + cc_getwidth()
+iVar4 = 0
+while(iVar4 < arg1) {
+	if(cc_find(iVar4, arg0) == 1)
+		if(iVar3 + cc_getwidth() <= iVar2) {
+			cc_sethide(0)
+			iVar3 = iVar3 + cc_getwidth()
+		} else 
+			cc_sethide(1)
+	iVar4 = iVar4 + 1
+}
+iVar4 = 0
+iVar5 = 0
+while(iVar4 < arg1) {
+	if(cc_find(iVar4, arg0) == 1)
+		if(cc_ishidden() == 0) {
+			cc_setposition(0, 0, 0, iVar5)
+			if(cc_find(iVar4, if_gethash(137, 2)) == 1)
+				cc_setposition(0, 0, cc_gety(), cc_getx())
+			iVar5 = iVar5 + cc_getwidth()
+		} else 
+			if(cc_find(iVar4, if_gethash(137, 2)) == 1)
+				cc_sethide(1)
+	iVar4 = iVar4 + 1
+}
+if(cc_find(arg1 + 1, arg0) == 1) {
+	cc_setposition(0, 0, 0, iVar5)
+	iVar5 = iVar5 + cc_getwidth()
+}
+if(cc_find(arg1, arg0) == 1) {
+	cc_setposition(0, 0, 0, iVar5)
+	if(cc_find(iVar4, if_gethash(137, 2)) == 1)
+		cc_setposition(0, 0, cc_gety(), cc_getx())
+}
+return

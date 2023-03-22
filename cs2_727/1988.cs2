@@ -1,0 +1,12 @@
+//script1988(1988)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = iVar0 + load_varpbit(8180)
+iVar0 = iVar0 + load_varpbit(8181)
+iVar0 = iVar0 + load_varpbit(8188)
+iVar0 = iVar0 + load_varpbit(8191)
+iVar0 = iVar0 + load_varpbit(8192)
+iVar0 = iVar0 + load_varpbit(8193)
+iVar0 = iVar0 + load_varpbit(8194)
+return iVar0
+return 0

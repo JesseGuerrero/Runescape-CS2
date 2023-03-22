@@ -1,0 +1,96 @@
+//script1063(1063)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+string sVar0
+iVar2 = enum(1550, 0, 'i', 'I')
+iVar3 = enum(1551, 0, 'i', 'I')
+cc_deleteall(iVar2)
+cc_deleteall(iVar3)
+cc_create(0, 4, arg0)
+cc_setcolor(0)
+cc_settextfont(495)
+cc_settextalign(0, 1, 0)
+cc_setposition(0, 0, 0, 0)
+sVar0 = instr6583(arg1)
+if(load_varc(126) == 1)
+	sVar0 = "From " + load_varc_string(27) + ": " + "<col=800000>" + sVar0
+else
+	if(load_varc(126) == 2)
+		sVar0 = "[" + "<col=0000ff>" + fc_getchatdisplayname() + "<col=000000>" + "] " + load_varc_string(27) + ": " + "<col=800000>" + sVar0
+	else
+		if(load_varc(126) == 8)
+			if(activeclanchannel_find_affined() == 1)
+				sVar0 = "[" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "] " + load_varc_string(27) + ": " + "<col=800000>" + sVar0
+		else
+			if(load_varc(126) == 10)
+				if(activeclanchannel_find_listened() == 1)
+					sVar0 = "[" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "] " + load_varc_string(27) + ": " + "<col=800000>" + sVar0
+			else
+				sVar0 = load_varc_string(27) + ": " + "<col=0000ff>" + sVar0
+cc_settext(sVar0)
+cc_settextshadow(0)
+cc_setsize(0, 0, if_getheight(arg0), parawidth(sVar0, 495, if_getwidth(arg0)))
+if_sethide(iVar2, 0)
+iVar4 = instr6584(arg1)
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = -1
+iVar10 = 0
+while(iVar5 < iVar4) {
+	cc_create(iVar6, 4, iVar2)
+	cc_setcolor(0)
+	cc_settextfont(495)
+	cc_settextalign(0, 1, 0)
+	iVar9 = instr6069(iVar5, arg1)
+	sVar0 = instr6583(iVar9)
+	instr6687(script_1070, "Iei", arg0, iVar9, 0)
+	cc_setopbase(sVar0)
+	cc_setop("Send: ", 1)
+	instr6091(script_1082, "iIi", 0, iVar3, iVar6)
+	instr6092(script_1083, "iIi", 0, iVar3, iVar6)
+	if(iVar5 < 10)
+		sVar0 = "<col=555555>" + to_string(modulo(10, iVar5 + 1)) + ". " + "<col=000000>" + sVar0
+	cc_settext(sVar0)
+	cc_settextshadow(0)
+	iVar7 = parawidth(sVar0, 495, if_getwidth(arg0))
+	if(iVar7 > iVar8)
+		iVar8 = iVar7
+	iVar5 = iVar5 + 1
+	iVar6 = iVar6 + 1
+}
+instr6248(iVar2, script_1059, "izIikei", -2147483640, -2147483639, arg0, 0, -1, arg1, iVar6)
+iVar5 = 0
+iVar11 = 0
+while(cc_find(iVar5, iVar2) == 1) {
+	if((iVar10 * 14) + 14 > if_getheight(iVar2)) {
+		iVar11 = (iVar11 + iVar8) + 4
+		iVar10 = 0
+	}
+	cc_setsize(0, 0, 14, iVar8)
+	cc_setposition(0, 0, iVar10 * 14, iVar11 + 2)
+	cc_create(iVar5, 3, iVar3)
+	cc_setsize(0, 0, cc_getheight(), cc_getwidth() + 4)
+	cc_setposition(0, 0, cc_gety(), cc_getx() - 2)
+	cc_setcolor(577e45)
+	cc_setfill(1)
+	cc_sethide(1)
+	iVar5 = iVar5 + 1
+	iVar10 = iVar10 + 1
+}
+iVar11 = (iVar11 + iVar8) + 4
+iVar12 = if_getlayer(iVar2)
+if_setsize(iVar2, 0, 0, if_getheight(iVar12), iVar11)
+if_setsize(iVar3, 0, 0, if_getheight(iVar12), iVar11)
+script_1068(arg0, 0)
+return

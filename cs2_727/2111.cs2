@@ -1,0 +1,21 @@
+//script2111(2111)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+if(arg0 != 1)
+	return
+iVar7 = 0
+iVar8 = 0
+sound_synth(0, 1, 4911)
+if(arg1 == 1) {
+	iVar7 = script_686(modulo(4, load_varpbit(693) + arg2), 4)
+	iVar8 = load_varpbit(5851)
+} else 
+	if(arg1 == 2) {
+		iVar7 = script_686(modulo(4, load_varpbit(694) + arg2), 4)
+		iVar8 = load_varpbit(5852)
+	} else  {
+		iVar7 = script_686(modulo(4, load_varpbit(695) + arg2), 4)
+		iVar8 = load_varpbit(5853)
+	}
+script_2112(arg3, arg4, arg5, arg6, iVar7, iVar8)
+return

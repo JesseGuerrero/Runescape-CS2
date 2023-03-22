@@ -1,0 +1,8 @@
+//script1726(1726)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(modulo(40, client_clock()) > 20)
+	if_settrans(arg0, 0)
+else
+	if_settrans(arg0, 255)
+return

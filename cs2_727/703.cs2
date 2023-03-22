@@ -1,0 +1,13 @@
+//script703(703)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+iVar4 = 0
+iVar5 = 0
+if(cc_find(arg1, arg0) == 1)
+	if(cc_find(arg3, arg2) == 1) {
+		iVar4 = cc_getx()
+		iVar5 = cc_gety()
+		cc_setposition(0, 0, cc_gety(), cc_getx())
+		cc_setposition(0, 0, iVar5, iVar4)
+	}
+return

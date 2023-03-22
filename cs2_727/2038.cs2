@@ -1,0 +1,3 @@
+//script2038(2038)()(int)
+return (((((((((load_varpbit(5811) + load_varpbit(5806)) + load_varpbit(5810)) + load_varpbit(5809)) + load_varpbit(5807)) + load_varpbit(5808)) + load_varpbit(5812)) + load_varpbit(5814)) + load_varpbit(5815)) + load_varpbit(5816)) + load_varpbit(5813)
+return 0

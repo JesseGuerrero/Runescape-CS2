@@ -1,0 +1,13 @@
+void script_504(Widget arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget arg8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, int arg13, int arg14) {
+	if (arg13 != 1) {
+		return;
+	}
+	if (arg14 >= 0 && arg14 <= 9) {
+		if (arg14 != VARPBIT[4150]) {
+			playSoundEffect(2266, 1, 0);
+		}
+		VARPBIT[4150] = arg14;
+		script_277(arg0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, arg8, widget9, widget10, widget11, widget12);
+	}
+	return;
+}

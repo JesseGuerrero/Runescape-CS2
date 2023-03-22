@@ -1,0 +1,74 @@
+//script5140(5140)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 71827938:
+		store_varc(1576, -1)
+		break
+	case 71827988:
+		store_varc(1572, -1)
+		break
+	case 71828001:
+		store_varc(1574, -1)
+		break
+	case 71828193:
+		store_varc(1573, -1)
+		break
+	case 71828206:
+		store_varc(1575, -1)
+		break
+	case 71828102:
+		store_varc(1577, -1)
+		break
+	case 71828113:
+		store_varc(1578, -1)
+		break
+	case 71828125:
+		store_varc(1579, -1)
+		break
+	case 71828138:
+		store_varc(1580, -1)
+		break
+	case 71828150:
+		store_varc(1581, -1)
+		break
+	case 71828247:
+		store_varc(1582, -1)
+		break
+	case 71828046:
+		store_varc(1583, -1)
+		break
+	case 71828035:
+		store_varc(1584, -1)
+		break
+	case 71828079:
+		store_varc(1585, -1)
+		break
+	case 71828057:
+		store_varc(1586, -1)
+		break
+	case 71828068:
+		store_varc(1587, -1)
+		break
+	case 71828090:
+		store_varc(1588, -1)
+		break
+	case 71828258:
+		store_varc(1792, -1)
+		break
+	case 71828269:
+		store_varc(1793, -1)
+		break
+	case 71828162:
+		store_varc(1589, -1)
+		break
+	case 71828236:
+		store_varc(1649, -1)
+		break
+	case 71828174:
+		store_varc(1590, -1)
+		break
+
+}
+script_5141(arg0)
+return

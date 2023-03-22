@@ -1,0 +1,17 @@
+//script1408(1408)()(void)
+if_setgraphic(if_gethash(756, 12), 180)
+if_setgraphic(if_gethash(756, 13), 180)
+if_setgraphic(if_gethash(756, 15), 180)
+if_setgraphic(if_gethash(756, 16), 180)
+if(load_varpbit(49) == 0)
+	if_setgraphic(if_gethash(756, 12), 181)
+else
+	if(load_varpbit(49) == 1)
+		if_setgraphic(if_gethash(756, 13), 181)
+	else
+		if(load_varpbit(49) == 2)
+			if_setgraphic(if_gethash(756, 15), 181)
+		else
+			if(load_varpbit(49) == 3)
+				if_setgraphic(if_gethash(756, 16), 181)
+return

@@ -1,0 +1,72 @@
+int script_166(int arg0) {
+	if (arg0 == 1) {
+		return VARPBIT[3851];
+	}
+	if (arg0 == 2) {
+		return VARPBIT[3852];
+	}
+	if (arg0 == 3) {
+		return VARPBIT[3853];
+	}
+	if (arg0 == 4) {
+		return VARPBIT[3854];
+	}
+	if (arg0 == 5) {
+		return VARPBIT[3855];
+	}
+	if (arg0 == 6) {
+		return VARPBIT[3856];
+	}
+	if (arg0 == 7) {
+		return VARPBIT[3857];
+	}
+	if (arg0 == 8) {
+		return VARPBIT[3858];
+	}
+	if (arg0 == 9) {
+		return VARPBIT[3859];
+	}
+	if (arg0 == 10) {
+		return VARPBIT[3860];
+	}
+	if (arg0 == 11) {
+		return VARPBIT[3861];
+	}
+	if (arg0 == 12) {
+		return VARPBIT[3862];
+	}
+	if (arg0 == 13) {
+		return VARPBIT[3863];
+	}
+	if (arg0 == 14) {
+		return VARPBIT[3864];
+	}
+	if (arg0 == 15) {
+		return VARPBIT[3865];
+	}
+	if (arg0 == 16) {
+		return VARPBIT[3866];
+	}
+	if (arg0 == 17) {
+		return VARPBIT[3867];
+	}
+	if (arg0 == 18) {
+		return VARPBIT[3868];
+	}
+	if (arg0 == 19) {
+		return VARPBIT[3869];
+	}
+	if (arg0 == 20) {
+		return VARPBIT[3870];
+	}
+	if (arg0 == 23) {
+		return VARPBIT[3871];
+	}
+	if (arg0 == 24) {
+		return VARPBIT[3872];
+	}
+	if (arg0 == 25) {
+		return VARPBIT[3964];
+	}
+	return 0;
+}

@@ -1,0 +1,21 @@
+//script786(786)(int arg0)(void)
+if(arg0 == 70254793)
+	if_setcolor(70254645, 0xFFFFFF)
+else
+	if(arg0 == 70254805) {
+		if_setcolor(70254645, 0xFFFFFF)
+		if_setcolor(70254641, 0xFFFFFF)
+	} else 
+		if(arg0 == 70254817) {
+			if_setcolor(70254649, 0xFFFFFF)
+			if_setcolor(70254641, 0xFFFFFF)
+		} else 
+			if(arg0 == 70254829) {
+				if_setcolor(70254653, 0xFFFFFF)
+				if_setcolor(70254641, 0xFFFFFF)
+			} else 
+				if(arg0 == 70254841) {
+					if_setcolor(70254657, 0xFFFFFF)
+					if_setcolor(70254641, 0xFFFFFF)
+				}
+return

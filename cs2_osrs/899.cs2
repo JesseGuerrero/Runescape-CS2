@@ -1,0 +1,10 @@
+void script_899(Widget widget0, Widget widget1) {
+	if (isBitFlagged(VARP[309], 2) == true) {
+		widget0.setRGB(0x220000);
+		widget1.setRGB(0x00FF00);
+	} else {
+		widget0.setRGB(0xFF0000);
+		widget1.setRGB(0x002200);
+	}
+	return;
+}

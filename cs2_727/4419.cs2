@@ -1,0 +1,14 @@
+//script4419(4419)(int arg0)(void)
+if(if_getheight(if_getlayer(arg0)) > 69) {
+	script_4544(arg0, -1, -1, -1, 14, 70, 3, 1)
+	if_setgraphic(if_gethash(1107, 58), 6169)
+	if_setgraphic(if_gethash(1107, 59), 6169)
+	if_setnoclickthrough(72548392, 0)
+} else 
+	if(if_getheight(if_getlayer(arg0)) == 14) {
+		script_4544(arg0, -1, -1, -1, 14, 70, 3, 1)
+		if_setgraphic(if_gethash(1107, 58), 6168)
+		if_setgraphic(if_gethash(1107, 59), 6168)
+		if_setnoclickthrough(72548392, 1)
+	}
+return

@@ -1,0 +1,58 @@
+void script_21(Widget widget0, Sprite sprite1, Sprite sprite2, int arg3, Item item4, int arg5, Item item6, int arg7, Item item8, int arg9, Item item10, int arg11) {
+	if (widget0 == widget(218, 134) || widget0 == widget(218, 133)) {
+		if (VARPBIT[2451] == 1) {
+			widget0.setTrans(150);
+		} else {
+			widget0.setTrans(0);
+		}
+	} else if (widget0 == widget(218, 119)) {
+		if (VARPBIT[5438] > 0) {
+			widget0.setTrans(150);
+		} else {
+			widget0.setTrans(0);
+		}
+	}
+	if (getSkillCurrentLvl(6) < arg3) {
+		widget0.setSprite(sprite2);
+		widget0.setTrans(0);
+		return;
+	}
+	if (widget0 == widget(218, 14) && (getItemAmtInContainer(93, 13125) > 0 || getItemAmtInContainer(93, 13126) > 0 || getItemAmtInContainer(93, 13127) > 0 || getItemAmtInContainer(94, 13125) > 0 || getItemAmtInContainer(94, 13126) > 0 || getItemAmtInContainer(94, 13127) > 0 || getItemAmtInContainer(93, 13128) > 0 || getItemAmtInContainer(94, 13128) > 0) && isMember() == true && VARPBIT[4554] < 30) {
+		widget0.setSprite(sprite1);
+		return;
+	}
+	if (widget0 == widget(218, 35) && (getItemAmtInContainer(93, 13128) > 0 || getItemAmtInContainer(94, 13128) > 0) && isMember() == true && VARPBIT[4554] < 30) {
+		widget0.setSprite(sprite1);
+		return;
+	}
+	if (item4 != null && script_19(item4) < arg5) {
+		widget0.setSprite(sprite2);
+		widget0.setTrans(0);
+		return;
+	}
+	if (item6 != null && script_19(item6) < arg7) {
+		widget0.setSprite(sprite2);
+		widget0.setTrans(0);
+		return;
+	}
+	if (item8 != null && script_19(item8) < arg9) {
+		widget0.setSprite(sprite2);
+		widget0.setTrans(0);
+		return;
+	}
+	if (item10 != null && script_19(item10) < arg11) {
+		widget0.setSprite(sprite2);
+		widget0.setTrans(0);
+		return;
+	}
+	if (widget0 == widget(218, 4) && isMember() == false) {
+		widget0.setSprite(sprite2);
+		return;
+	}
+	if ((widget0 == widget(218, 63) || widget0 == widget(218, 92) || widget0 == widget(218, 123)) && (VARPBIT[2010] == 0 || VARPBIT[5604] >= 5)) {
+		widget0.setSprite(sprite2);
+		return;
+	}
+	widget0.setSprite(sprite1);
+	return;
+}

@@ -1,0 +1,19 @@
+//script6298(6298)()(string)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = script_6304()
+iVar1 = random(iVar0)
+iVar2 = 0
+iVar3 = 0
+while(iVar3 <= iVar1) {
+	if(string_length(script_6302(iVar2)) > 0) {
+		if(iVar3 == iVar1)
+			return script_6302(iVar2)
+		iVar3 = iVar3 + 1
+	}
+	iVar2 = iVar2 + 1
+}
+return "When the “earn free spin” button appears on your claim screen, spare a moment to watch a short video ad for a free spin!"
+return ""

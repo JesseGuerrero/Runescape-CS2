@@ -1,0 +1,6 @@
+//script3377(3377)()(void)
+if(if_gethide(if_gethash(744, 48)) == 0 || if_gethide(if_gethash(744, 49)) == 0)
+	script_2206()
+else
+	instr6653()
+return

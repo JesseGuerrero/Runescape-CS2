@@ -1,0 +1,37 @@
+//script1068(1068)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = arg1 + 1
+iVar3 = enum(1550, iVar2, 'i', 'I')
+iVar4 = enum(1551, iVar2, 'i', 'I')
+while(iVar3 != -1) {
+	cc_deleteall(iVar3)
+	cc_deleteall(iVar4)
+	if_sethide(iVar3, 1)
+	instr6248(iVar3, None, "")
+	iVar3 = enum(1550, iVar2, 'i', 'I')
+	iVar4 = enum(1551, iVar2, 'i', 'I')
+	iVar2 = iVar2 + 1
+}
+iVar2 = arg1 + 1
+while(cc_find(iVar2, arg0) == 1) {
+	cc_delete()
+	if(cc_find(iVar2, if_gethash(137, 2)) == 1)
+		cc_delete()
+	iVar2 = iVar2 + 1
+}
+iVar2 = 0
+iVar3 = enum(1550, arg1, 'i', 'I')
+iVar4 = enum(1551, arg1, 'i', 'I')
+while(cc_find(iVar2, iVar3) == 1) {
+	instr6091(script_1082, "iIi", arg1, iVar4, iVar2)
+	instr6092(script_1083, "iIi", arg1, iVar4, iVar2)
+	if(cc_find(iVar2, iVar4) == 1)
+		cc_sethide(1)
+	iVar2 = iVar2 + 1
+}
+store_varc(128, -1)
+script_1064(arg1)
+script_1066(arg0, arg1)
+return

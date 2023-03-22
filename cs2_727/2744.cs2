@@ -1,0 +1,70 @@
+//script2744(2744)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 < 31) {
+	cc_create(iVar0, 4, 13369430)
+	cc_setsize(0, 0, 20, 46)
+	cc_setposition(0, 0, iVar0 * 20, 4)
+	cc_settextfont(496)
+	cc_settextalign(0, 1, 1)
+	cc_settext(to_string(iVar0 + 1))
+	cc_setcolor(ffffff)
+	cc_setop("Select", 1)
+	instr6687(script_2748, "i", iVar0)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 16723968)
+	instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+	iVar0 = iVar0 + 1
+}
+if_setscrollsize(13369430, iVar0 * 20, 0)
+script_31(13369431, 13369430, 792, 789, 790, 791, 773, 788)
+iVar0 = 0
+while(iVar0 < 12) {
+	cc_create(iVar0, 4, 13369442)
+	cc_setsize(0, 0, 20, 158)
+	cc_setposition(0, 0, iVar0 * 20, 4)
+	cc_settextfont(496)
+	cc_settextalign(0, 1, 1)
+	cc_settext(enum(950, iVar0, 'i', 's'))
+	cc_setcolor(ffffff)
+	cc_setop("Select", 1)
+	instr6687(script_2749, "i", iVar0)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 16723968)
+	instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+	iVar0 = iVar0 + 1
+}
+if_setscrollsize(13369442, iVar0 * 20, 0)
+script_31(13369443, 13369442, 792, 789, 790, 791, 773, 788)
+iVar0 = 0
+while(iVar0 < 90) {
+	cc_create(iVar0, 4, 13369454)
+	cc_setsize(0, 0, 20, 70)
+	cc_setposition(0, 0, (iVar0 * 20) + 1, 6)
+	cc_settextfont(496)
+	cc_settextalign(0, 1, 1)
+	cc_settext(to_string(2009 - iVar0))
+	cc_setcolor(ffffff)
+	cc_setop("Select", 1)
+	instr6687(script_2750, "i", iVar0)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 16723968)
+	instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+	iVar0 = iVar0 + 1
+}
+if_setscrollsize(13369454, iVar0 * 20, 0)
+script_31(13369455, 13369454, 792, 789, 790, 791, 773, 788)
+if_sethide(if_gethash(204, 86), 1)
+if_sethide(if_gethash(204, 77), 1)
+if_sethide(if_gethash(204, 87), 1)
+if_sethide(if_gethash(204, 98), 1)
+if_sethide(if_gethash(204, 89), 1)
+if_sethide(if_gethash(204, 99), 1)
+if_sethide(if_gethash(204, 110), 1)
+if_sethide(if_gethash(204, 111), 1)
+if_sethide(if_gethash(204, 101), 1)
+if_sethide(if_gethash(204, 26), 1)
+if_sethide(if_gethash(204, 27), 1)
+if_sethide(if_gethash(204, 28), 1)
+if_sethide(if_gethash(204, 29), 0)
+if_sethide(if_gethash(204, 45), 0)
+if_sethide(if_gethash(204, 61), 0)
+if_sethide(if_gethash(204, 113), 1)
+return

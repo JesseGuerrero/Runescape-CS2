@@ -1,0 +1,7 @@
+//script609(609)()(void)
+if(load_varc(83) <= 0)
+	store_varc(83, 100)
+else
+	store_varc(83, load_varc(83) + 10)
+instr6342(if_gethash(105, 153), script_610, "")
+return

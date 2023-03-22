@@ -1,0 +1,43 @@
+//script1664(1664)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+if(client_clock() < arg0)
+	return
+else
+	instr6342(if_gethash(762, 95), None, "")
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = inv_size(if_gethash(0, 95))
+script_41(49938531)
+iVar1 = script_1467(load_varpbit(4893)).get(0)
+while(iVar3 < iVar5) {
+	if(cc_find(iVar3, if_gethash(762, 95)) == 1) {
+		cc_sethide(1)
+		if(inv_getitem(iVar3, 95) != -1)
+			script_1453(iVar3)
+		else {
+			cc_setitem(-1, -1)
+			cc_resetopname()
+		}
+	}
+	iVar3 = iVar3 + 1
+}
+if(load_varpbit(4893) == 0) {
+	if(load_varc(5) == 11)
+		store_varc_string(138, load_varc_string(22))
+	pop_int()
+} else 
+	if(load_varpbit(4893) == 1)
+		script_1456()
+	else
+		script_1457(script_1467(load_varpbit(4893)).get(0), script_1467(load_varpbit(4893)).get(1))
+if(load_varpbit(4893) != 0)
+	if(load_varc(188) == 1)
+		script_1474()
+script_1459()
+return

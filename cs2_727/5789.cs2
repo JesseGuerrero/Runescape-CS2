@@ -1,0 +1,10 @@
+//script5789(5789)()(void)
+int iVar0
+iVar0 = script_5795(load_varpbit(8576))
+if(iVar0 == -1)
+	return
+script_5796(load_varpbit(8576), 0, 79953940, 79953939, 79953938, -1, -1, -1)
+if_setsize(if_gethash(746, 9), 0, 0, 277, 190)
+script_5791()
+script_5871(load_varpbit(8576), load_varpbit(8578))
+return

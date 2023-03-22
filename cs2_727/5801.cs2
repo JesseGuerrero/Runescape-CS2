@@ -1,0 +1,10 @@
+//script5801(5801)()(void)
+int iVar0
+int iVar1
+iVar0 = if_getwidth(if_gethash(746, 10))
+iVar1 = if_getheight(if_gethash(746, 9))
+if_setposition(if_gethash(746, 8), 0, 0, if_gety(if_gethash(746, 10)), if_getx(if_gethash(746, 10)))
+if_setsize(if_gethash(746, 8), 0, 0, iVar1, iVar0)
+if_sethide(if_gethash(746, 8), 0)
+instr6342(if_gethash(746, 8), script_5802, "")
+return

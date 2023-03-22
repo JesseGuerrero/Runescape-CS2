@@ -1,0 +1,11 @@
+//script273(273)()(void)
+if_setsize(if_gethash(919, 47), 0, 0, 200, if_getwidth(if_gethash(919, 47)))
+script_31(60227642, 60227643, 5666, 5663, 5664, 5665, 5686, 5685)
+if_setvflip(if_gethash(919, 68), 0)
+if_setvflip(if_gethash(919, 69), 0)
+if_sethide(if_gethash(919, 48), 0)
+if_sethide(if_gethash(919, 53), 0)
+if_sethide(if_gethash(919, 56), 0)
+if_sethide(if_gethash(919, 86), 1)
+if_setposition(if_gethash(919, 55), 2, 0, 13, 180)
+return

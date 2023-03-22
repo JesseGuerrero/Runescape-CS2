@@ -1,0 +1,25 @@
+//script439(439)(int arg0)(void)
+switch(load_varpbit(8087)) {
+	case default:
+		break
+	case 0:
+		if_settext(arg0, "0:30")
+		break
+	case 1:
+		if_settext(arg0, "1:00")
+		break
+	case 2:
+		if_settext(arg0, "1:30")
+		break
+	case 3:
+		if_settext(arg0, "2:00")
+		break
+	case 4:
+		if_settext(arg0, "2:30")
+		break
+	case 5:
+		if_settext(arg0, "3:00")
+		break
+
+}
+return

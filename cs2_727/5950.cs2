@@ -1,0 +1,8 @@
+//script5950(5950)()(void)
+if(load_varc(1791) == 0) {
+	store_varc(1791, 1)
+	store_varc(1795, client_clock())
+	instr6342(if_gethash(906, 236), script_6032, "")
+}
+return
+return

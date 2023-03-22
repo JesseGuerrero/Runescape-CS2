@@ -1,0 +1,7 @@
+void script_591() {
+	VAR_GE_CURR_BOX = -1;
+	VAR_GE_IS_SELLING = -1;
+	VAR_GE_CURR_ITEM = -1;
+	script_621();
+	return;
+}

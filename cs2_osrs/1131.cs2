@@ -1,0 +1,9 @@
+void script_1131(Widget widget0, Widget widget1) {
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1246, VARP[1107]));
+	}
+	if (CHILD.setChild(widget1, 4) == true) {
+		CHILD.setText(datamap('i', 's', 1246, VARP[1306]));
+	}
+	return;
+}

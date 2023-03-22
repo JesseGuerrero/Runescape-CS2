@@ -1,0 +1,13 @@
+//script4058(4058)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 5
+if(if_gety(arg0) > 1 - if_getheight(arg0))
+	if_setposition(arg0, 0, 1, if_gety(arg0) - iVar3, 0)
+else {
+	instr6342(arg2, None, "")
+	if_sethide(arg0, 1)
+	if_sethide(arg1, 0)
+	if_setposition(arg1, 0, 1, 1 - if_getheight(arg1), 0)
+	instr6342(arg2, script_4059, "II", arg1, arg2)
+}
+return

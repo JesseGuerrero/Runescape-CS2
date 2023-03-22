@@ -1,0 +1,7 @@
+void script_1087(Widget widget0, string string1, string string2) {
+	script_1086(-1, 0, widget0, string1, string2);
+	widget0.hookFrame(&script_1088(getClientCycle() + 20, widget0, string1, string2));
+	playSoundEffect(2266, 1, 0);
+	cs2method31113(string2, 1);
+	return;
+}

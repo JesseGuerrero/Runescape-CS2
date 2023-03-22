@@ -1,0 +1,3 @@
+//script5925(5925)(int arg0)(int)
+return enum(arg0, random(enum_getoutputcount(arg0)), 'i', '«')
+return -1

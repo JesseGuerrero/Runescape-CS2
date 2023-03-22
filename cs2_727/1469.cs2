@@ -1,0 +1,27 @@
+//script1469(1469)()(int)
+if(load_varpbit(4885) == 0)
+	return 2
+else
+	if(load_varpbit(4886) == 0)
+		return 3
+	else
+		if(load_varpbit(4887) == 0)
+			return 4
+		else
+			if(load_varpbit(4888) == 0)
+				return 5
+			else
+				if(load_varpbit(4889) == 0)
+					return 6
+				else
+					if(load_varpbit(4890) == 0)
+						return 7
+					else
+						if(load_varpbit(4891) == 0)
+							return 8
+						else
+							if(load_varpbit(4892) == 0)
+								return 9
+							else
+								return -1
+return 0

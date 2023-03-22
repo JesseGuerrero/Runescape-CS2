@@ -1,0 +1,16 @@
+//script1927(1927)(int arg0)(void)
+int iVar1
+iVar1 = 1
+while(iVar1 <= 6) {
+	if(iVar1 == enum(2027, arg0, 'I', 'i') || iVar1 == load_varc(544)) {
+		if_sethide(enum(2031, iVar1, 'i', 'I'), 0)
+		if_setcolor(enum(2030, iVar1, 'i', 'I'), 0xFFFFFF)
+		if_setcolor(enum(2029, iVar1, 'i', 'I'), 0xFFFFFF)
+	} else  {
+		if_sethide(enum(2031, iVar1, 'i', 'I'), 1)
+		if_setcolor(enum(2030, iVar1, 'i', 'I'), 0xC8AA64)
+		if_setcolor(enum(2029, iVar1, 'i', 'I'), 0xC8AA64)
+	}
+	iVar1 = iVar1 + 1
+}
+return

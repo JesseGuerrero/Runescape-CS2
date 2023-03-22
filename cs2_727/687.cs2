@@ -1,0 +1,63 @@
+//script687(687)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+string sVar0
+cc_deleteall(arg3)
+iVar7 = 0
+while(iVar7 <= 27) {
+	if(cc_find(iVar7 * 6, arg1) == 1)
+		cc_settrans(200)
+	iVar7 = iVar7 + 1
+}
+if(cc_find(arg2, arg1) == 1)
+	cc_settrans(150)
+if_settext(arg5, enum(1099, arg0, 'i', 's'))
+iVar8 = enum(1098, arg0, 'i', 'n')
+iVar9 = 0
+iVar10 = 0
+sVar0 = enum(1100, arg0, 'i', 's')
+if(iVar7 < 0)
+	return iVar8
+if(iVar7 == 0)
+	sVar0 = "(No charge)"
+else
+	if(iVar7 == 1)
+		if(iVar11 > 0)
+			sVar0 = "1 coin"
+		else
+			sVar0 = "<col=ff0000>" + "1 coin" + "</col>"
+	else
+		if(iVar11 >= iVar7) {
+			sVar0 = tostring_localized(1, iVar7) + " coins"
+			if(parawidth(sVar0, 496, if_getwidth(arg4)) > if_getwidth(arg4) - 5)
+				sVar0 = tostring_localized(1, iVar7) + "<br>" + "coins"
+		} else  {
+			sVar0 = "<col=ff0000>" + tostring_localized(1, iVar7) + " coins" + "</col>"
+			if(parawidth(sVar0, 496, if_getwidth(arg4)) > if_getwidth(arg4) - 5)
+				sVar0 = "<col=ff0000>" + tostring_localized(1, iVar7) + "</col>" + "<br>" + "<col=ff0000>" + "coins" + "</col>"
+		}
+if_settext(arg4, append(sVar0, "Confirm:" + "<br>"))
+iVar7 = 0
+iVar12 = -1
+while(iVar7 <= 27) {
+	cc_create(iVar7, 5, arg3)
+	cc_setposition(0, 0, 0, 0)
+	cc_setsize(0, 0, if_getheight(arg3), if_getwidth(arg3))
+	if(iVar7 == arg0) {
+		cc_setgraphic(833)
+		cc_sethide(0)
+		iVar12 = 834
+		instr6091(script_688, "Iid", -2147483645, -2147483643, iVar12)
+		iVar12 = 833
+		instr6092(script_688, "Iid", -2147483645, -2147483643, iVar12)
+		cc_setop("Confirm:", 1)
+		cc_setopbase("<col=ff9040>" + enum(1099, arg0, 'i', 's') + "</col>")
+	} else 
+		cc_sethide(1)
+	iVar7 = iVar7 + 1
+}
+return

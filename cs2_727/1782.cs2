@@ -1,0 +1,24 @@
+//script1782(1782)()(void)
+if(load_varp(1149) != -1) {
+	script_1801()
+	if(load_varc(258) == 0) {
+		script_1363(51839119)
+		if_setonmouseover(if_gethash(791, 143), script_95, "I", -2147483645)
+		hook_mouse_exit(if_gethash(791, 143), script_97, "I", -2147483645)
+		if(load_varc(259) == 0) {
+			if_settext(if_gethash(791, 146), "Accept")
+			if_settextfont(if_gethash(791, 146), 496)
+		} else  {
+			if_settext(if_gethash(791, 146), "Accept -" + "<br>" + "Opponent has accepted.")
+			if_settextfont(if_gethash(791, 146), 494)
+		}
+	} else  {
+		script_1360(51839119)
+		if_setonmouseover(if_gethash(791, 143), None, "")
+		hook_mouse_exit(if_gethash(791, 143), None, "")
+		if_settext(if_gethash(791, 146), "Waiting for opponent...")
+		if_settextfont(if_gethash(791, 146), 495)
+	}
+} else 
+	script_1802()
+return

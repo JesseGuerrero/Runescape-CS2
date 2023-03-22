@@ -1,0 +1,122 @@
+//script336(336)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = 0
+if(load_varc(1756) == 0) {
+	if_sethide(if_gethash(1216, 11), 1)
+	return
+}
+if_setposition(if_gethash(1216, 11), 0, 1, 0, 0)
+if_setgraphic(if_gethash(1216, 15), enum(745, load_varc(1756), 'i', 'd'))
+if_settrans(if_gethash(1216, 15), 0)
+if_settrans(if_gethash(1216, 5), 0)
+if_settrans(if_gethash(1216, 6), 0)
+if_settrans(if_gethash(1216, 4), 0)
+if_settrans(if_gethash(1216, 7), 0)
+if_settrans(if_gethash(1216, 12), 255)
+if_settrans(if_gethash(1216, 14), 255)
+if_settrans(if_gethash(1216, 13), 255)
+if_settrans(if_gethash(1216, 9), 0)
+if_settrans(if_gethash(1216, 8), 0)
+if_sethide(if_gethash(1216, 2), 1)
+if_sethide(if_gethash(1216, 17), 1)
+if_sethide(if_gethash(1216, 1), 1)
+iVar1 = 0
+iVar2 = enum(681, load_varc(1756), 'i', 'S')
+if_setgraphic(if_gethash(1216, 8), 9233)
+if_setgraphic(if_gethash(1216, 4), 9240)
+if_setgraphic(if_gethash(1216, 5), 9239)
+if_setgraphic(if_gethash(1216, 6), 9241)
+if_set2dangle(if_gethash(1216, 9), 0)
+switch(world_language()) {
+	case default:
+		break
+	case 1:
+		if_setsize(if_gethash(1216, 10), 0, 0, 33, 240)
+		if_setgraphic(if_gethash(1216, 7), 9242)
+		break
+	case 2:
+		if_setsize(if_gethash(1216, 10), 0, 0, 33, 240)
+		if_setgraphic(if_gethash(1216, 7), 9243)
+		break
+	case 3:
+		if_setsize(if_gethash(1216, 10), 0, 0, 33, 220)
+		if_setgraphic(if_gethash(1216, 7), 9244)
+		if_setsize(if_gethash(1216, 10), 0, 0, 33, 150)
+		if_setgraphic(if_gethash(1216, 7), 9245)
+		break
+
+}
+if(enum(744, iVar2, 'S', 'S') == -1) {
+	if_setgraphic(if_gethash(1216, 8), 9263)
+	if_setgraphic(if_gethash(1216, 4), 9257)
+	if_setgraphic(if_gethash(1216, 5), 9256)
+	if_setgraphic(if_gethash(1216, 6), 9258)
+	switch(world_language()) {
+		case default:
+			break
+		case 1:
+			if_setsize(if_gethash(1216, 10), 0, 0, 33, 240)
+			if_setgraphic(if_gethash(1216, 7), 9259)
+			break
+		case 2:
+			if_setsize(if_gethash(1216, 10), 0, 0, 33, 240)
+			if_setgraphic(if_gethash(1216, 7), 9260)
+			break
+		case 3:
+			if_setsize(if_gethash(1216, 10), 0, 0, 33, 220)
+			if_setgraphic(if_gethash(1216, 7), 9261)
+			if_setsize(if_gethash(1216, 10), 0, 0, 33, 150)
+			if_setgraphic(if_gethash(1216, 7), 9262)
+			break
+
+	}
+}
+iVar3 = stat_base(iVar2)
+if_sethide(if_gethash(1216, 12), 0)
+if_sethide(if_gethash(1216, 13), 0)
+if_sethide(if_gethash(1216, 14), 0)
+if(iVar3 < 10) {
+	if_setposition(if_gethash(1216, 12), 0, 1, 45, 0)
+	if_sethide(if_gethash(1216, 14), 1)
+	if_sethide(if_gethash(1216, 13), 1)
+	script_517(iVar3, 79691788)
+} else 
+	if(iVar3 < 100) {
+		if_setposition(if_gethash(1216, 12), 0, 1, 45, -10)
+		if_setposition(if_gethash(1216, 14), 0, 1, 45, 10)
+		script_517(iVar3 / 10, 79691788)
+		script_517(modulo(10, iVar3), 79691790)
+		if_sethide(if_gethash(1216, 13), 1)
+	} else  {
+		if_setposition(if_gethash(1216, 12), 0, 1, 45, -20)
+		if_setposition(if_gethash(1216, 13), 0, 1, 45, 0)
+		if_setposition(if_gethash(1216, 14), 0, 1, 45, 20)
+		script_517(iVar3 / 100, 79691788)
+		script_517((iVar3 - 100) / 10, 79691789)
+		script_517(modulo(10, iVar3), 79691790)
+	}
+if(iVar3 == 99 || iVar3 == 120) {
+	if_sethide(if_gethash(1216, 2), 0)
+	if_setmodel(if_gethash(1216, 1), 32143)
+	iVar0 = 8
+} else 
+	if_setmodel(if_gethash(1216, 1), 32167)
+if(enum(744, iVar2, 'S', 'S') == -1)
+	iVar1 = 1
+instr6342(if_gethash(1216, 16), script_3336, "iiii", client_clock() + 100, client_clock() + 200, client_clock() + 500, load_varc(1756))
+if_sethide(if_gethash(1216, 11), 0)
+if_sethide(if_gethash(1213, 2), 1)
+if_sethide(if_gethash(1213, 4), 1)
+iVar4 = random(150)
+iVar5 = random(50)
+if(modulo(10, iVar3) == 0)
+	iVar0 = 4
+if(iVar0 > 0)
+	instr6342(if_gethash(1216, 8), script_337, "ii", iVar0, client_clock() + 25)
+store_varc(1756, 0)
+return

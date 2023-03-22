@@ -1,0 +1,73 @@
+//script2581(2581)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 830:
+		return script_42(detailget_remove_roofs())
+
+	case 831:
+		return script_42(detailget_ground_decor())
+
+	case 833:
+		return detailget_idle_animations()
+
+	case 834:
+		return script_42(detailget_flickering_effects())
+
+	case 836:
+		return script_42(detailget_character_shadows())
+
+	case 837:
+		return detailget_scenery_shadows()
+
+	case 838:
+		return script_42(detailget_light_detail())
+
+	case 839:
+		return script_42(detailget_waterdetail_high())
+
+	case 840:
+		return script_42(detailget_fog())
+
+	case 841:
+		return instr6938()
+
+	case 842:
+		return instr5975()
+
+	case 843:
+		return script_42(instr5954())
+
+	case 844:
+		return script_42(load_varc(987))
+
+	case 845:
+		return load_varc(178)
+
+	case 908:
+		return detailget_cpu()
+
+	case 963:
+		return script_42(detailget_textures())
+
+	case 1009:
+		return detailget_maxscreensize()
+
+	case 2430:
+		if(detailcanmod_skyboxes() == 1)
+			return detailget_skyboxes()
+		return -1
+
+	case 2858:
+		return detailget_bloom()
+
+	case 2840:
+		return script_42(load_varc(1686))
+
+	case 2841:
+		return load_varc(1701)
+		return -1
+
+
+}
+return 0

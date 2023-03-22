@@ -1,0 +1,10 @@
+//script5038(5038)(int arg0)(void)
+sound_vorbis_volume(200, 0, 1, 6185)
+if(arg0 == 1) {
+	if_sethide(if_gethash(1111, 6), 1)
+	if_sethide(if_gethash(1111, 1), 0)
+} else  {
+	if_sethide(if_gethash(1111, 6), 0)
+	if_sethide(if_gethash(1111, 1), 1)
+}
+return

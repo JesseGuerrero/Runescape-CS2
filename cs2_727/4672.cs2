@@ -1,0 +1,24 @@
+//script4672(4672)(int arg0)(void)
+int iVar1
+iVar1 = -1
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		iVar1 = 1823
+		break
+	case 2:
+		iVar1 = 55612
+		if_setmodelanim(if_gethash(102, 55), 9804)
+		break
+	case 6:
+		iVar1 = 55626
+		break
+	case 3:
+		iVar1 = 69006
+		if_setmodelanim(if_gethash(102, 55), 9804)
+		break
+
+}
+if_setmodel(if_gethash(102, 55), iVar1)
+return

@@ -1,0 +1,89 @@
+//script2373(2373)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+cc_deleteall(if_gethash(667, 9))
+iVar2 = 0
+iVar3 = -1
+iVar4 = -1
+sVar0 = ""
+while(iVar2 < inv_size(if_gethash(0, 94))) {
+	switch(iVar2) {
+		case default:
+			break
+		case 0:
+			iVar3 = 43712522
+			break
+		case 1:
+			iVar3 = 43712524
+			break
+		case 2:
+			iVar3 = 43712525
+			break
+		case 3:
+			iVar3 = 43712527
+			break
+		case 4:
+			iVar3 = 43712528
+			break
+		case 5:
+			iVar3 = 43712529
+			break
+		case 7:
+			iVar3 = 43712530
+			break
+		case 9:
+			iVar3 = 43712532
+			break
+		case 10:
+			iVar3 = 43712531
+			break
+		case 12:
+			iVar3 = 43712533
+			break
+		case 13:
+			iVar3 = 43712526
+			break
+		case 14:
+			iVar3 = 43712523
+			iVar3 = -1
+			break
+
+	}
+	cc_create(iVar2, 5, 43712521)
+	if(iVar3 != -1) {
+		iVar4 = inv_getitem(iVar2, 94)
+		if(iVar4 != -1) {
+			cc_setsize(0, 0, 32, 36)
+			cc_setposition(0, 0, script_788(iVar3, 2, 2).get(1), script_788(iVar3, 2, 2).get(0))
+			cc_setitem(inv_getnum(iVar2, 94), iVar4)
+			cc_setopbase(append(item_name(iVar4), "<col=ff9040>"))
+			cc_setop("Remove", 1)
+			cc_setop("Stats", 9)
+			cc_setuseop("Compare")
+			cc_setop("Examine", 10)
+			cc_setgraphicshadow(3153952)
+			if(arg1 == iVar2)
+				cc_setoutline(2)
+			else
+				cc_setoutline(1)
+			instr6687(script_1620, "Iiiii", -2147483645, -2147483643, 100, 0, 8)
+			instr6103(script_2372, "Ii", arg0, iVar2)
+			instr6094(script_2372, "Ii", arg0, -1)
+			cc_setonmouseover(script_5495, "o", iVar4)
+			instr6092(script_5495, "o", -1)
+		} else  {
+			cc_setsize(0, 0, 32, 32)
+			cc_setposition(0, 0, script_788(iVar3, 2, 2).get(1), script_788(iVar3, 2, 2).get(0))
+			cc_setgraphic(enum(796, iVar2, 'i', 'd'))
+		}
+	} else 
+		cc_sethide(1)
+	iVar2 = iVar2 + 1
+}
+if(arg1 != -1)
+	if(inv_getitem(arg1, 94) == -1)
+		arg1 = -1
+if_setonmouseleave(arg0, script_2372, "IiY", 1, 94, -2147483645, arg1)
+return

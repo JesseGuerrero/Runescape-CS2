@@ -1,0 +1,13 @@
+//script5537(5537)()(void)
+int iVar0
+iVar0 = 0
+if(load_varc(1808) < 1)
+	store_varc(1808, 1)
+store_varc(1808, script_5540(load_varc(1808), 77201425, 77201426, 77201427))
+store_varc(1807, script_5540(load_varc(1808) - 1, 77201422, 77201423, 77201424))
+store_varc(1806, script_5540(load_varc(1807) - 1, 77201419, 77201420, 77201421))
+store_varc(1805, script_5540(load_varc(1806) - 1, 77201416, 77201417, 77201418))
+store_varc(1809, script_5540(load_varc(1808) + 1, 77201428, 77201429, 77201430))
+store_varc(1810, script_5540(load_varc(1809) + 1, 77201431, 77201432, 77201433))
+store_varc(1811, script_5540(load_varc(1810) + 1, 77201434, 77201435, 77201436))
+return

@@ -1,0 +1,12 @@
+//script5649(5649)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(instr6644() >= 2)
+	iVar1 = if_gethide(if_gethash(746, 202))
+else
+	iVar1 = if_gethide(if_gethash(548, 50))
+if(iVar1 == 0)
+	if_setposition(if_gethash(381, 0), 0, 2, 80, 8)
+else
+	if_setposition(if_gethash(381, 0), 0, 2, 7, 8)
+return

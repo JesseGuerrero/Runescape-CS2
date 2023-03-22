@@ -1,0 +1,59 @@
+void script_1592(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	Item item7;
+	int int8;
+	int3 = 0;
+	int4 = 0;
+	int5 = 0;
+	widget0.clearChildren();
+	int6 = 0;
+	item7 = datamap('i', 'o', 1666, int6);
+	while (item7 != null) {
+		CHILD.createChild(widget0, 5, int6);
+		int4 = getItemAmtInInspectingContainer(582, item7);
+		if (int4 > 0) {
+			CHILD.setSize(36, 32, 0, 0);
+			int5 = int3 / 10 * (32 + 8);
+			CHILD.setPosition(2 + int3 % 10 * (36 + 8), int5, 0, 0);
+			CHILD.setOutlineThickness(1);
+			CHILD.setTrans(0);
+			CHILD.setShadowColor(0x333333);
+			CHILD.setItem(item7, int4);
+			CHILD.setContextMenuOption(1, "Withdraw");
+			CHILD.setContextMenuOption(2, "Withdraw-5");
+			CHILD.setContextMenuOption(3, "Withdraw-10");
+			CHILD.setContextMenuOption(4, "Withdraw-All");
+			CHILD.setContextMenuOption(5, "Withdraw-X");
+			CHILD.setContextMenuOption(10, "Examine");
+			CHILD.setOptionBase("<col=ff9040>" + getItemName(item7) + "</col>");
+			CHILD.hookOptionClick(&script_177(CTX_MENU_OPTION, CTX_WIDGET, CTX_WIDGET_CHILD));
+			int3 = int3 + 1;
+		} else {
+			CHILD.setHidden(true);
+		}
+		int6 = int6 + 1;
+		item7 = datamap('i', 'o', 1666, int6);
+	}
+	int8 = 0;
+	int5 = int5 + 32;
+	if (int5 > widget0.getHeight()) {
+		int8 = getScrollY(widget0);
+		widget0.setScrollMax(0, int5);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	script_72(widget1, widget0, int8);
+	int3 = 0;
+	int6 = getItemContainerLength(582);
+	while (int6 > 0) {
+		int6 = int6 - 1;
+		if (getItemAmtInInspectingSlot(582, int6) > 0) {
+			int3 = int3 + 1;
+		}
+	}
+	widget2.setText(str(int3));
+	return;
+}

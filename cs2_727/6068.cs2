@@ -1,0 +1,11 @@
+//script6068(6068)(int arg0, int arg1, int arg2, int arg3)(void)
+if(world_language() == 0)
+	if(arg0 == 37 || world_language() == 1 || arg0 == 54 || world_language() == 2 || arg0 == 40 || world_language() == 3 || arg0 == 49) {
+		if_settrans(if_gethash(1183, 1), 0)
+		if_resume_pausebutton(arg2)
+	}
+if(arg0 == 69) {
+	if_settrans(if_gethash(1183, 24), 0)
+	if_resume_pausebutton(arg3)
+}
+return

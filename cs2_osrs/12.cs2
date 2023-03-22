@@ -1,0 +1,38 @@
+void script_12(Widget widget0, Widget widget1, Widget widget2, Widget widget3) {
+	Item item4;
+	if (VARPBIT[1538] == 0) {
+		widget1.setText("---");
+		widget0.setSprite(1095);
+		widget2.setItemOnWidgetMethod2205(12746, 1);
+		widget2.setTrans(120);
+		widget3.setText("");
+		return;
+	}
+	if (VARPBIT[1538] == 1) {
+		widget1.setText("Wealth: V. Low");
+		widget0.setSprite(1096);
+	} else if (VARPBIT[1538] == 2) {
+		widget1.setText("Wealth: Low");
+		widget0.setSprite(528);
+	} else if (VARPBIT[1538] == 3) {
+		widget1.setText("Wealth: Medium");
+		widget0.setSprite(527);
+	} else if (VARPBIT[1538] == 4) {
+		widget1.setText("Wealth: High");
+		widget0.setSprite(526);
+	} else {
+		widget1.setText("Wealth: V. High!");
+		widget0.setSprite(525);
+	}
+	item4 = datamap('i', 'O', 1701, VARPBIT[4162]);
+	if (item4 != null) {
+		widget2.setItemOnWidgetMethod2205(item4, 1);
+		widget2.setTrans(0);
+		widget3.setText(str(VARPBIT[4162]));
+	} else {
+		widget2.setItemOnWidgetMethod2205(12746, 1);
+		widget2.setTrans(120);
+		widget3.setText("---");
+	}
+	return;
+}

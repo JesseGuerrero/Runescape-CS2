@@ -1,0 +1,68 @@
+//script2954(2954)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+iVar0 = 39059462
+iVar1 = 39059463
+iVar2 = 39059469
+iVar3 = 39059468
+iVar4 = 39059470
+iVar5 = 39059517
+iVar6 = 39059471
+iVar7 = 39059472
+iVar8 = 39059473
+iVar9 = 39059518
+iVar10 = 39059519
+iVar11 = 39059520
+iVar12 = 39059474
+iVar13 = 39059521
+if(instr6710() == 1) {
+	iVar0 = 63897626
+	iVar1 = 63897601
+	iVar2 = 63897604
+	iVar3 = 63897603
+	iVar4 = 63897605
+	iVar5 = 63897606
+	iVar6 = 63897611
+	iVar7 = 63897612
+	iVar8 = 63897613
+	iVar9 = 63897607
+	iVar10 = 63897608
+	iVar11 = 63897609
+	iVar12 = 63897614
+	iVar13 = 63897610
+}
+hook_mouse_press(iVar4, None, "")
+hook_mouse_press(iVar5, None, "")
+hook_mouse_enter(iVar5, None, "")
+hook_mouse_exit(iVar5, None, "")
+hook_mouse_enter(iVar4, None, "")
+hook_mouse_exit(iVar4, None, "")
+if_setposition(iVar4, 2, 0, 5, 6)
+if_setposition(iVar5, 2, 0, 5, 6)
+if_settext(iVar12, "")
+if_settext(iVar13, "")
+if_sethide(iVar4, 1)
+if_sethide(iVar5, 1)
+if_settext(iVar2, "")
+store_varc(1092, 0)
+if_setgraphic(iVar3, -1)
+instr6342(iVar3, None, "")
+if_sethide(iVar0, 1)
+if_sethide(iVar1, 1)
+if(instr6710() == 1)
+	return
+else
+	script_2940(11)
+return

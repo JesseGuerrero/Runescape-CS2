@@ -1,0 +1,12 @@
+void script_1543(int arg0, string arg1, Widget widget2) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	script_1542(1, "<col=ffffff>" + "---" + "</col>", widget2);
+	widget2.hookMouseHover(null);
+	widget2.hookMouseExit(null);
+	widget2.hookOptionClick(null);
+	widget2.hookFrame(&script_1544(getClientCycle() + 50, arg1, widget2));
+	return;
+}

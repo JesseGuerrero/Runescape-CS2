@@ -1,0 +1,19 @@
+//script2502(2502)()(void)
+switch(load_varc(838)) {
+	case default:
+		break
+	case 1:
+		if_sethide(if_gethash(291, 58), 0)
+		break
+	case 2:
+		if_sethide(if_gethash(291, 55), 0)
+		break
+	case 3:
+		if_sethide(if_gethash(291, 57), 0)
+		break
+	case 4:
+		if_sethide(if_gethash(291, 56), 0)
+		break
+
+}
+return

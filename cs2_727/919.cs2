@@ -1,0 +1,43 @@
+//script919(919)()(void)
+int iVar0
+int iVar1
+int iVar2
+string sVar0
+iVar0 = inv_total(load_varc(743), 93)
+iVar1 = inv_total(load_varc(743), 623)
+sVar0 = "Cost:"
+iVar2 = -1
+if(load_varc(744) == 0)
+	sVar0 = "None available"
+else
+	if(load_varc(744) == -1)
+		sVar0 = "Free sample!"
+	else
+		iVar2 = load_varc(744)
+if_settext(if_gethash(449, 24), sVar0)
+if((2147483647 - iVar0) - iVar1 > 0)
+	iVar0 = iVar0 + iVar1
+else
+	iVar0 = 2147483647
+if(iVar2 > iVar0)
+	if_setcolor(29425689, 0xFF0000)
+else
+	if_setcolor(29425689, load_varc(1241))
+if(iVar2 > -1)
+	instr6129(29425687, iVar2, load_varc(743))
+else
+	instr6879(if_gethash(449, 23), -1, -1)
+if(load_varc(744) == -1) {
+	if_settext(if_gethash(449, 22), "Take")
+	instr6213(if_gethash(449, 21), 1, "Take 1")
+	instr6213(if_gethash(449, 21), 2, "Take 5")
+	instr6213(if_gethash(449, 21), 3, "Take 10")
+	instr6213(if_gethash(449, 21), 4, "Take 50")
+} else  {
+	if_settext(if_gethash(449, 22), "Buy")
+	instr6213(if_gethash(449, 21), 1, "Buy 1")
+	instr6213(if_gethash(449, 21), 2, "Buy 5")
+	instr6213(if_gethash(449, 21), 3, "Buy 10")
+	instr6213(if_gethash(449, 21), 4, "Buy 50")
+}
+return

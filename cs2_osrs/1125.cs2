@@ -1,0 +1,71 @@
+void script_1125(Widget widget0, Widget widget1, Widget arg2, Widget widget3, Widget arg4, Widget arg5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget arg11, Widget widget12) {
+	int int13;
+	int int14;
+	Widget widget15;
+	int int16;
+	int int17;
+	int int18;
+	int int19;
+	string str0;
+	playSoundEffect(2266, 1, 0);
+	widget12.setIsHidden(true);
+	script_41(widget12);
+	script_1014(widget0);
+	widget6.setIsHidden(false);
+	int13 = widget0.getX();
+	int14 = widget0.getY();
+	widget15 = widget0.getLayer();
+	while (widget15 != widget3) {
+		int13, int14 = int13 + widget15.getX() - getScrollX(widget15), int14 + widget15.getY() - getScrollY(widget15);
+		widget15 = widget15.getLayer();
+	}
+	int14 = int14 + widget0.getHeight() - 1;
+	widget7.setPosition(int13, int14, 0, 0);
+	widget1.clearChildren();
+	_CHILD.createChild(widget1, 3, 0);
+	_CHILD.setSize(0, 15, 1, 0);
+	_CHILD.setFilled(true);
+	_CHILD.setRGB(0xFFFFFF);
+	_CHILD.setTrans(200);
+	_CHILD.setHidden(true);
+	int16 = 0;
+	str0 = datamap('i', 's', 1246, int16);
+	while (length(str0) > 0) {
+		CHILD.createChild(widget1, 4, int16 + 1);
+		CHILD.setSize(0, 13, 1, 0);
+		CHILD.setPosition(0, int16 * 13, 1, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setText(str0);
+		CHILD.setContextMenuOption(1, "Select");
+		CHILD.hookMouseEnter(&script_1126(true, CTX_WIDGET, CTX_WIDGET_CHILD, getChildId()));
+		CHILD.hookMouseExit(&script_1126(false, CTX_WIDGET, CTX_WIDGET_CHILD, getChildId()));
+		CHILD.hookOptionClick(&script_1127(CTX_MENU_OPTION, CTX_WIDGET, CTX_WIDGET_CHILD, widget6, widget12, arg4, widget8, arg5, widget9));
+		int16 = int16 + 1;
+		str0 = datamap('i', 's', 1246, int16);
+	}
+	widget1.setIsHidden(false);
+	if (widget1 != widget8) {
+		widget8.setIsHidden(true);
+	}
+	if (widget1 != widget9) {
+		widget9.setIsHidden(true);
+	}
+	int17 = int16 * 13 + 2;
+	int18 = int17 + 4;
+	int19 = widget3.getHeight() - int14;
+	if (int18 > int19) {
+		widget7.setSize(widget0.getWidth(), int19, 0, 0);
+		widget1.setScrollPos(0, 0);
+		widget1.setScrollMax(0, int17);
+	} else {
+		widget7.setSize(widget0.getWidth(), int18, 0, 0);
+		widget1.setScrollPos(0, 0);
+		widget1.setScrollMax(0, 0);
+	}
+	widget10.clearChildren();
+	script_31(widget10, widget1, 792, 789, 790, 791, 773, 788);
+	return;
+}

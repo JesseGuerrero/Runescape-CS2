@@ -1,0 +1,7 @@
+//script2899(2899)()(void)
+int iVar0
+if_sethide(if_gethash(476, 58), 0)
+if_settrans(if_gethash(476, 58), 0)
+iVar0 = client_clock()
+instr6342(if_gethash(476, 58), script_2900, "i", iVar0)
+return

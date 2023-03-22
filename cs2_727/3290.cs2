@@ -1,0 +1,73 @@
+//script3290(3290)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+iVar9 = if_getscrollheight(arg1)
+iVar10 = if_getheight(arg0)
+iVar11 = iVar10 - 32
+iVar12 = 0
+if(iVar9 > 0)
+	iVar12 = scale(iVar11, iVar9, iVar10)
+else
+	iVar12 = iVar11
+iVar12 = max(10, iVar12)
+iVar13 = if_getscrolly(arg1)
+iVar14 = 0
+iVar15 = 0
+if(iVar13 > 0) {
+	iVar14 = iVar9 - if_getheight(arg1)
+	if(iVar14 == 0)
+		iVar14 = 1
+	if(iVar13 > iVar14) {
+		if_setscrollpos(arg1, iVar14, 0)
+		if_setscrollpos(arg2, iVar14, 0)
+		iVar13 = iVar14
+	}
+	iVar15 = scale(iVar11 - iVar12, iVar14, iVar13)
+	iVar15 = min(iVar11 - iVar12, max(0, iVar15))
+}
+cc_create(0, 5, arg0)
+cc_setposition(0, 0, 16, 0)
+cc_setsize(1, 0, 32, 16)
+cc_setgraphic(arg3)
+cc_settiling(1)
+instr6088(script_3293, "IIIi", arg0, arg1, arg2, -2147483646)
+cc_create(1, 5, arg0)
+cc_setposition(0, 0, 16 + iVar15, 0)
+cc_setgraphic(arg5)
+cc_settiling(1)
+instr6676(0, arg0)
+instr6073(1)
+cc_setsize(0, 0, iVar12, 16)
+instr6224(script_3294, "IIIi1", arg0, arg1, arg2, -2147483646, 0)
+instr6499(script_3294, "IIIi1", arg0, arg1, arg2, -2147483646, 1)
+cc_create(2, 5, arg0)
+cc_setposition(0, 0, 16 + iVar15, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg4)
+cc_settiling(0)
+cc_create(3, 5, arg0)
+cc_setposition(0, 0, ((16 + iVar15) + iVar12) - 5, 0)
+cc_setsize(0, 0, 5, 16)
+cc_setgraphic(arg6)
+cc_settiling(0)
+cc_create(4, 5, arg0)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, 16, 16)
+cc_setgraphic(arg7)
+cc_settiling(0)
+instr5957(script_3291, "III", arg0, arg1, arg2)
+cc_create(5, 5, arg0)
+cc_setposition(2, 0, 0, 0)
+cc_setsize(0, 0, 16, 16)
+cc_setgraphic(arg8)
+cc_settiling(0)
+instr5957(script_3292, "III", arg0, arg1, arg2)
+instr6246(arg0, script_3295, "IIIi", arg0, arg1, arg2, -2147483646)
+instr6246(arg1, script_3295, "IIIi", arg0, arg1, arg2, -2147483646)
+instr6246(arg2, script_3295, "IIIi", arg0, arg1, arg2, -2147483646)
+return

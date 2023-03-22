@@ -1,0 +1,9 @@
+//script1156(1156)()(void)
+if(detailget_mono_stereo() == 0) {
+	if_setgraphic(if_gethash(429, 16), 1134)
+	if_setgraphic(if_gethash(429, 14), 1135)
+} else  {
+	if_setgraphic(if_gethash(429, 14), 1134)
+	if_setgraphic(if_gethash(429, 16), 1135)
+}
+return

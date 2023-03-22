@@ -1,0 +1,587 @@
+//script2193(2193)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 147:
+		return script_2157(load_varp(281), 1000)
+
+	case 159:
+		return script_2157(load_varp(130), 4)
+
+	case 1:
+		return script_2157(load_varp(29), 2)
+
+	case 2:
+		return script_2157(load_varpbit(2561), 3)
+
+	case 3:
+		return script_2157(load_varp(31), 100)
+
+	case 4:
+		return script_2157(load_varp(176), 10)
+
+	case 5:
+		return script_2157(load_varp(32), 3)
+
+	case 6:
+		return script_2157(load_varpbit(2378), 6)
+
+	case 7:
+		return script_2157(load_varp(160), 2)
+
+	case 8:
+		return script_2157(load_varp(122), 7)
+
+	case 9:
+		return script_2157(load_varp(71), 4)
+
+	case 10:
+		return script_2157(load_varp(273), 110)
+
+	case 11:
+		return script_2157(load_varp(107), 5)
+
+	case 13:
+		return script_2157(load_varp(63), 6)
+
+	case 15:
+		return script_2159(load_varp(145), 7, load_varp(146), 4)
+
+	case 16:
+		return script_2157(load_varpbit(6914), 3)
+
+	case 18:
+		return script_2157(load_varpbit(3185), 240)
+
+	case 19:
+		return script_2157(load_varpbit(299), 110)
+
+	case 20:
+		return script_2157(load_varp(293), 65)
+
+	case 21:
+		return script_2157(load_varp(68), 16)
+
+	case 22:
+		return script_2157(load_varp(655), 140)
+
+	case 23:
+		return script_2157(load_varp(10), 8)
+
+	case 24:
+		return script_2157(load_varpbit(3274), 130)
+
+	case 25:
+		return script_2157(load_varpbit(487), 14)
+
+	case 26:
+		if(load_varp(399) > 6)
+			return 2
+		if(load_varp(399) == 0)
+			if(load_varpbit(203) == 0)
+				return 0
+		return 1
+
+	case 27:
+		return script_2157(load_varpbit(2573), 320)
+
+	case 28:
+		return script_2157(load_varpbit(2258), 13)
+
+	case 29:
+		if(load_varp(314) >= 80)
+			return 2
+		else
+			return script_2157(load_varpbit(10761), 65)
+		break
+	case 30:
+		return script_2157(load_varpbit(358), 15)
+
+	case 31:
+		return script_2157(load_varpbit(1465), 80)
+
+	case 32:
+		return script_2157(load_varp(131), 9)
+
+	case 33:
+		if(load_varp(80) >= 4)
+			return 2
+		else
+			return script_2157(load_varpbit(10776), 8)
+		break
+	case 34:
+		return script_2157(load_varp(0), 11)
+
+	case 35:
+		return script_2157(load_varp(335), 110)
+
+	case 36:
+		return script_2157(load_varpbit(2780), 40)
+
+	case 37:
+		if(bit_flagged(20, load_varp(299)) == 1)
+			return 2
+		else
+			if(bit_flagged(1, load_varp(299)) == 0)
+				return 0
+			else
+				return 1
+		break
+	case 38:
+		return script_2157(load_varpbit(2639), 11)
+
+	case 39:
+		return script_2157(load_varpbit(1560), 70)
+
+	case 40:
+		return script_2157(load_varpbit(2866), 200)
+
+	case 41:
+		return script_2157(load_varpbit(2497), 60)
+
+	case 42:
+		return script_2157(load_varpbit(1803), 90)
+
+	case 43:
+		return script_2157(load_varpbit(2326), 90)
+
+	case 44:
+		return script_2157(load_varp(148), 11)
+
+	case 45:
+		return script_2157(load_varpbit(334), 28)
+
+	case 46:
+		return script_2157(load_varp(17), 14)
+
+	case 47:
+		return script_2157(load_varp(11), 5)
+
+	case 48:
+		return script_2157(load_varpbit(822), 140)
+
+	case 49:
+		return script_2157(load_varp(347), 10)
+
+	case 50:
+		return script_2157(load_varp(65), 10)
+
+	case 51:
+		return script_2157(load_varpbit(961), 60)
+
+	case 52:
+		return script_2157(load_varp(180), 6)
+
+	case 53:
+		return script_2157(load_varpbit(217), 8)
+
+	case 54:
+		return script_2157(load_varpbit(571), 50)
+
+	case 55:
+		return script_2157(load_varpbit(346), 10)
+
+	case 56:
+		return script_2157(load_varp(150), 160)
+
+	case 57:
+		return script_2157(load_varpbit(1527), 160)
+
+	case 58:
+		return script_2157(load_varp(382), 11)
+
+	case 59:
+		return script_2157(load_varp(223), 9)
+
+	case 60:
+		return script_2157(load_varp(188), 15)
+
+	case 61:
+		return script_2157(load_varp(5), 10)
+
+	case 62:
+		return script_2157(load_varpbit(34), 10)
+
+	case 63:
+		return script_2157(load_varpbit(418), 26)
+
+	case 64:
+		return script_2157(load_varpbit(1990), 430)
+
+	case 65:
+		return script_2157(load_varp(387), 105)
+
+	case 66:
+		return script_2157(load_varp(175), 12)
+
+	case 67:
+		return script_2157(load_varp(139), 75)
+
+	case 68:
+		return script_2157(load_varp(147), 6)
+
+	case 69:
+		return script_2157(load_varpbit(532), 11)
+
+	case 70:
+		return script_2157(load_varpbit(2448), 190)
+
+	case 71:
+		return script_2157(load_varpbit(1383), 4)
+
+	case 72:
+		return script_2157(load_varp(14), 7)
+
+	case 73:
+		return script_2158(load_varp(365), 1, 9)
+
+	case 74:
+		return script_2157(load_varp(30), 80)
+
+	case 75:
+		return script_2157(load_varpbit(260), 70)
+
+	case 76:
+		return script_2157(load_varp(517), 8)
+
+	case 77:
+		return script_2158(load_varpbit(1103), 9, 60)
+
+	case 78:
+		return script_2157(load_varp(192), 2)
+
+	case 79:
+		return script_2157(load_varpbit(2790), 320)
+
+	case 80:
+		return script_2157(load_varp(307), 110)
+
+	case 81:
+		return script_2157(load_varp(112), 7)
+
+	case 82:
+		return script_2157(load_varp(416), 280)
+
+	case 83:
+		return script_2157(load_varp(165), 29)
+
+	case 84:
+		return script_2157(load_varp(302), 60)
+
+	case 85:
+		return script_2157(load_varpbit(6178), 4)
+
+	case 86:
+		return script_2157(load_varpbit(1404), 127)
+
+	case 87:
+		return script_2157(load_varpbit(1850), 5)
+
+	case 88:
+		return script_2157(load_varpbit(657), 2)
+
+	case 89:
+		return script_2157(load_varp(328), 15)
+
+	case 90:
+		return script_2157(load_varp(402), 6)
+
+	case 91:
+		return script_2157(load_varpbit(2140), 30)
+
+	case 92:
+		return script_2157(load_varp(600), 19)
+
+	case 93:
+		return script_2157(load_varp(76), 6)
+
+	case 94:
+		return script_2157(load_varp(159), 12)
+
+	case 95:
+		return script_2157(load_varpbit(2610), 14)
+
+	case 96:
+		return script_2157(load_varp(339), 85)
+
+	case 97:
+		return script_2157(load_varpbit(1372), 125)
+
+	case 98:
+		return script_2157(load_varp(60), 3)
+
+	case 99:
+		return script_2157(load_varp(116), 15)
+
+	case 100:
+		return script_2157(load_varpbit(2011), 13)
+
+	case 101:
+		return script_2157(load_varpbit(1444), 60)
+
+	case 102:
+		return script_2157(load_varpbit(2098), 200)
+
+	case 103:
+		return script_2158(load_varp(320), 3, 6)
+
+	case 104:
+		return script_2157(load_varpbit(1028), 70)
+
+	case 105:
+		return script_2157(load_varpbit(451), 2)
+
+	case 106:
+		return script_2157(load_varp(26), 80)
+
+	case 107:
+		return script_2157(load_varp(359), 100)
+
+	case 108:
+		return script_2157(load_varp(197), 30)
+
+	case 109:
+		return script_2157(load_varp(226), 7)
+
+	case 110:
+		return script_2157(load_varp(111), 9)
+
+	case 111:
+		return script_2157(load_varp(200), 5)
+
+	case 112:
+		return script_2157(load_varp(385), 45)
+
+	case 113:
+		return script_2157(load_varp(317), 50)
+
+	case 114:
+		if(load_varp(161) == 10)
+			return 2
+		if(bit_flagged(11, load_varp(162)) == 0)
+			return 0
+		return 1
+
+	case 115:
+		return script_2157(load_varpbit(1051), 11)
+
+	case 116:
+		return script_2157(load_varp(212), 13)
+
+	case 117:
+		return script_2157(load_varpbit(3293), 135)
+
+	case 118:
+		return script_2157(load_varpbit(3311), 340)
+
+	case 119:
+		return script_2157(load_varpbit(3337), 18)
+
+	case 120:
+		return script_2157(load_varp(980), 130)
+
+	case 121:
+		return script_2157(load_varpbit(3523), 150)
+
+	case 122:
+		return script_2157(load_varpbit(3534), 80)
+
+	case 123:
+		return script_2157(load_varpbit(3550), 11)
+
+	case 124:
+		return script_2157(load_varpbit(3618), 28)
+
+	case 125:
+		return script_2157(load_varpbit(2783), 60)
+
+	case 126:
+		return script_2157(load_varpbit(3888), 90)
+
+	case 127:
+		return script_2157(load_varpbit(3954), 200)
+
+	case 128:
+		return script_2157(load_varpbit(4055), 65)
+
+	case 129:
+		return script_2157(load_varpbit(4105), 18)
+
+	case 130:
+		return script_2157(load_varpbit(4230), 700)
+
+	case 131:
+		if(load_varpbit(4302) >= 110)
+			return 2
+		else
+			return script_2157(load_varpbit(10733), 35)
+		break
+	case 132:
+		return script_2158(load_varpbit(4321), 10, 200)
+
+	case 133:
+		return script_2157(load_varpbit(4396), 60)
+
+	case 134:
+		return script_2157(load_varpbit(4505), 100)
+
+	case 135:
+		return script_2157(load_varpbit(4569), 500)
+
+	case 136:
+		return script_2157(load_varpbit(4684), 150)
+
+	case 137:
+		return script_2157(load_varpbit(4700), 63)
+
+	case 138:
+		return script_2157(load_varpbit(4764), 250)
+
+	case 139:
+		return script_2157(load_varpbit(4797), 100)
+
+	case 140:
+		return script_2157(load_varpbit(5032), 80)
+
+	case 141:
+		return script_2157(load_varpbit(5075), 20)
+
+	case 142:
+		return script_2157(load_varpbit(5133), 90)
+
+	case 143:
+		return script_2157(load_varpbit(5331), 35)
+
+	case 144:
+		return script_2157(load_varpbit(5387), 250)
+
+	case 145:
+		return script_2157(load_varpbit(5491), 910)
+
+	case 146:
+		return script_2157(load_varpbit(5761), 30)
+
+	case 148:
+		return script_2157(load_varpbit(5733), 60)
+
+	case 149:
+		return script_2158(load_varpbit(6001), 3, 45)
+
+	case 150:
+		return script_2158(load_varpbit(6048), 10, 250)
+
+	case 155:
+		return script_2157(load_varpbit(6112), 60)
+
+	case 156:
+		return script_2157(load_varpbit(6289), 240)
+
+	case 157:
+		return script_2157(load_varpbit(6775), 90)
+
+	case 151:
+		return script_2158(load_varpbit(6180), 2, 140)
+
+	case 152:
+		return script_2157(load_varpbit(1938), 110)
+
+	case 153:
+		return script_2157(load_varpbit(5448), 50)
+
+	case 154:
+		return script_2158(load_varpbit(6307), 2, 5)
+
+	case 158:
+		return script_2158(load_varpbit(7826), 10, 180)
+
+	case 160:
+		return script_2157(load_varpbit(6471), 90)
+
+	case 161:
+		return script_2157(load_varpbit(6553), 46)
+
+	case 162:
+		return script_2157(load_varpbit(6962), 12)
+
+	case 163:
+		return script_2158(load_varpbit(6883), 3, 147)
+
+	case 165:
+		return script_2157(load_varpbit(7050), 35)
+
+	case 167:
+		return script_2157(load_varpbit(7793), 30)
+
+	case 168:
+		return script_2157(load_varpbit(8045), 150)
+
+	case 170:
+		return script_2157(load_varpbit(7238), 60)
+
+	case 171:
+		return script_2157(load_varpbit(7958), 90)
+
+	case 172:
+		return script_2157(load_varpbit(7871), 5)
+
+	case 173:
+		return script_2158(load_varpbit(7451), 2, 63)
+
+	case 14:
+		return script_2157(load_varpbit(8704), 90)
+
+	case 174:
+		return script_2157(load_varpbit(8248), 40)
+
+	case 17:
+		return script_2157(load_varpbit(5730), 100)
+
+	case 176:
+		return script_2157(load_varpbit(9829), 400)
+
+	case 179:
+		return script_2158(load_varpbit(8605), 10, 315)
+
+	case 12:
+		return script_2157(load_varpbit(5332), 120)
+
+	case 180:
+		return script_2157(load_varpbit(998), 9)
+
+	case 181:
+		return script_2158(load_varpbit(8961), 10, 210)
+
+	case 182:
+		return script_2157(load_varpbit(9369), 50)
+
+	case 183:
+		return script_2158(load_varpbit(9491), 5, 250)
+
+	case 184:
+		return script_2157(load_varpbit(9757), 170)
+
+	case 187:
+		return script_2157(load_varpbit(10138), 100)
+
+	case 188:
+		return script_2157(load_varpbit(10747), 40)
+
+	case 190:
+		return script_2157(load_varpbit(10809), 170)
+
+	case 191:
+		return script_2157(load_varpbit(10383), 270)
+
+	case 178:
+		return script_2158(load_varpbit(11402), 5, 100)
+
+	case 164:
+		return 2
+
+	case 192:
+		return script_2157(load_varpbit(11169), 75)
+		return 0
+
+
+}
+return 0

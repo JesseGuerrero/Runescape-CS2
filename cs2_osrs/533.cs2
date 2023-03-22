@@ -1,0 +1,14 @@
+void script_533(boolean arg0, Widget widget1, Widget arg2) {
+	if (getClientCycle() % 10 != 0) {
+		return;
+	}
+	if (isHideRoofs() == 1) {
+		if (arg0 == true) {
+			return;
+		}
+	} else if (arg0 == false) {
+		return;
+	}
+	script_534(widget1, arg2);
+	return;
+}

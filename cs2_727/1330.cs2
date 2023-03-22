@@ -1,0 +1,11 @@
+//script1330(1330)()(void)
+if(if_gethide(if_gethash(1180, 11)) == 1) {
+	if_setgraphic(if_gethash(1180, 30), 3302)
+	if_sethide(if_gethash(1180, 11), 0)
+	store_varc(1733, 0)
+} else  {
+	if_setgraphic(if_gethash(1180, 30), 3303)
+	if_sethide(if_gethash(1180, 11), 1)
+	store_varc(1733, 1)
+}
+return

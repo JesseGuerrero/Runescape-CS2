@@ -1,0 +1,74 @@
+//script1135(1135)(int arg0)(void)
+int iVar1
+iVar1 = script_284(coord())
+switch(load_varc(1007)) {
+	case default:
+		cc_deleteall(arg0)
+		instr6236()
+		break
+	case 1:
+		script_2766(16777215, 50, arg0)
+		sound_synth(0, 1, 3641)
+		break
+	case 2:
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 750, script_1145(25, 25, iVar1), 750, script_1145(25, 25, iVar1), 0, 0)
+		instr6651(0, 750, script_1145(25, 26, iVar1), 750, script_1145(25, 26, iVar1), 1, 0)
+		instr6651(0, 600, script_1145(25, 29, iVar1), 600, script_1145(25, 29, iVar1), 0, 1)
+		instr6651(0, 600, script_1145(25, 30, iVar1), 600, script_1145(25, 30, iVar1), 1, 1)
+		instr6677(0, 1, 0, 100, 0, 0)
+		script_2768(45, arg0)
+		sound_synth(0, 1, 3641)
+		break
+	case 3:
+		instr6650(7, 0)
+		instr6650(7, 1)
+		instr6651(0, 1200, script_1145(25, 26, iVar1), 750, script_1145(25, 26, iVar1), 0, 0)
+		instr6651(0, 2175, script_1145(18, 11, iVar1), 2175, script_1145(16, 9, iVar1), 1, 0)
+		instr6651(0, 2450, script_1145(31, 9, iVar1), 2275, script_1145(31, 9, iVar1), 2, 0)
+		instr6651(0, 1950, script_1145(39, 20, iVar1), 1950, script_1145(39, 20, iVar1), 3, 0)
+		instr6651(0, 1550, script_1145(40, 34, iVar1), 1550, script_1145(40, 34, iVar1), 4, 0)
+		instr6651(0, 1125, script_1145(31, 40, iVar1), 1125, script_1145(31, 40, iVar1), 5, 0)
+		instr6651(0, 900, script_1145(24, 38, iVar1), 900, script_1145(24, 38, iVar1), 6, 0)
+		instr6651(0, 600, script_1145(25, 30, iVar1), 600, script_1145(25, 30, iVar1), 0, 1)
+		instr6651(0, 1150, script_1145(25, 23, iVar1), 1150, script_1145(25, 23, iVar1), 1, 1)
+		instr6651(0, 1150, script_1145(25, 23, iVar1), 1150, script_1145(25, 23, iVar1), 2, 1)
+		instr6651(0, 950, script_1145(25, 23, iVar1), 950, script_1145(25, 23, iVar1), 3, 1)
+		instr6651(0, 950, script_1145(25, 23, iVar1), 950, script_1145(25, 23, iVar1), 4, 1)
+		instr6651(0, 850, script_1145(25, 23, iVar1), 850, script_1145(25, 23, iVar1), 5, 1)
+		instr6651(0, 725, script_1145(26, 23, iVar1), 725, script_1145(26, 23, iVar1), 6, 1)
+		instr6677(0, 1, 400, 800, 0, 0)
+		break
+	case 4:
+		if(instr6652(0) == 7)
+			instr6677(1, 1, 400, 400, 1, 0)
+		else
+			instr6236()
+		break
+	case 5:
+		if(instr6652(0) == 7)
+			instr6677(2, 1, 400, 400, 2, 0)
+		else
+			instr6236()
+		break
+	case 6:
+		if(instr6652(0) == 7)
+			instr6677(3, 1, 400, 400, 3, 0)
+		else
+			instr6236()
+		break
+	case 7:
+		if(instr6652(0) == 7) {
+			instr6677(4, 1, 600, 400, 4, 0)
+			instr6255(arg0, script_1144, "I", arg0)
+		} else 
+			instr6236()
+		break
+	case 8:
+		script_2768(50, arg0)
+		sound_synth(0, 1, 3641)
+		break
+
+}
+return

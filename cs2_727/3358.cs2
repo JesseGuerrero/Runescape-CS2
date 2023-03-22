@@ -1,0 +1,38 @@
+//script3358(3358)()(int, int, string)
+switch(load_varp(448)) {
+	case default:
+		return 18037, 2, "Poisonous Shot (Tier 1)"
+
+	case 17985:
+		return 18037, 2, "Poisonous Shot (Tier 1)"
+
+	case 17986:
+		return 18038, 12, "Poisonous Shot (Tier 2)"
+
+	case 17987:
+		return 18039, 22, "Poisonous Shot (Tier 3)"
+
+	case 17988:
+		return 18040, 32, "Poisonous Shot (Tier 4)"
+
+	case 17989:
+		return 18041, 42, "Poisonous Shot (Tier 5)"
+
+	case 17990:
+		return 18042, 52, "Poisonous Shot (Tier 6)"
+
+	case 17991:
+		return 18043, 62, "Poisonous Shot (Tier 7)"
+
+	case 17992:
+		return 18044, 72, "Poisonous Shot (Tier 8)"
+
+	case 17993:
+		return 18045, 82, "Poisonous Shot (Tier 9)"
+
+	case 17994:
+		return 18046, 92, "Poisonous Shot (Tier 10)"
+
+
+}
+return -1, 0, ""

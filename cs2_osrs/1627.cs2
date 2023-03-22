@@ -1,0 +1,7 @@
+void script_1627(Widget widget0, int arg1) {
+	widget0.hookMouseExit(&script_40(widget(arg1)));
+	script_1630(widget0, arg1);
+	widget0.hookVARP(&script_1628(widget0, widget(arg1)), 1055);
+	widget0.hookOptionClick(&script_1629(CTX_MENU_OPTION, widget0, widget(arg1)));
+	return;
+}

@@ -1,0 +1,23 @@
+int script_1432() {
+	int meleeBased;
+	int rangeBased;
+	int magicBased;
+	int realBase;
+	meleeBased = getSkillActualLvl(0) + getSkillActualLvl(2);
+	rangeBased = getSkillActualLvl(4) * 3 / 2;
+	magicBased = getSkillActualLvl(6) * 3 / 2;
+	realBase = meleeBased;
+	if (rangeBased > realBase) {
+		realBase = rangeBased;
+	}
+	if (magicBased > realBase) {
+		realBase = magicBased;
+	}
+	realBase = realBase * 13 / 10;
+	if (isMember()) {
+		realBase = (realBase + getSkillActualLvl(1) + getSkillActualLvl(3) + getSkillActualLvl(5) / 2 + getSkillActualLvl(23) / 2) / 4;
+	} else {
+		realBase = (realBase + getSkillActualLvl(1) + getSkillActualLvl(3) + getSkillActualLvl(5) / 2) / 4;
+	}
+	return realBase;
+}

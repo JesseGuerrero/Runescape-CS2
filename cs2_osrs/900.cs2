@@ -1,0 +1,15 @@
+DataMap script_900() {
+	if (cs2method2706() == 161) {
+		return 1130;
+	}
+	if (cs2method2706() == 164) {
+		return 1131;
+	}
+	if (cs2method2706() == 548) {
+		return 1129;
+	}
+	if (cs2method2706() == 165) {
+		return 1132;
+	}
+	return null;
+}

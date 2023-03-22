@@ -1,0 +1,28 @@
+//script2703(2703)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+iVar5 = arg0 - client_clock()
+if(iVar5 <= 0) {
+	script_2705(0, arg1, arg2, 1, arg3, arg4)
+	return
+}
+iVar6 = instr6644()
+if(bit_flagged(1, arg1) == 1)
+	if(iVar6 != 3) {
+		script_2705(0, arg1, arg2, 1, arg3, arg4)
+		return
+	}
+iVar7 = 48889891
+if(arg2 == 1) {
+	if(iVar6 == 1)
+		iVar7 = 35913774
+	if(if_isopen(iVar7) == 0)
+		script_2701(arg1, arg3, arg4)
+	if_settext(if_gethash(883, 16), "Reverting in: " + to_string(iVar5 / 50))
+} else 
+	if(arg2 == 2)
+		if_settext(if_gethash(906, 141), "Reverting in: " + to_string(iVar5 / 50))
+	else
+		if_settext(if_gethash(744, 54), "Reverting in: " + to_string(iVar5 / 50))
+return

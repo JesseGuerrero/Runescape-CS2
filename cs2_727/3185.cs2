@@ -1,0 +1,30 @@
+//script3185(3185)(int arg0, int arg1, int arg2)(void)
+switch(arg0) {
+	case default:
+		break
+	case 84:
+		script_3183()
+		return
+
+	case 13:
+		script_3180()
+		return
+
+	case 103:
+		store_varc(1097, script_1553(arg0, load_varc(1097), load_varc_string(277)))
+		script_1879(59899931, 59899932, load_varc_string(277))
+		return
+
+	case 101:
+		if(char_isprintable(arg1) == 1 || arg0 == 85 || arg0 == 101) {
+			if(arg0 == -1)
+				if(string_length(removetags(append_char("", arg1))) == 0)
+					return
+			store_varc_string(277, script_802(load_varc(1097), 2, arg0, arg1, load_varc_string(277)).get(1))
+			if_settext(arg2, load_varc_string(277))
+			script_1879(59899931, 59899932, load_varc_string(277))
+		}
+		break
+
+}
+return

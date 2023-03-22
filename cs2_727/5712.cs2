@@ -1,0 +1,82 @@
+//script5712(5712)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		store_varc(1469, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 2:
+		store_varc(1470, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 5:
+		store_varc(1471, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 3:
+		store_varc(1472, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 7:
+		store_varc(1473, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 4:
+		store_varc(1474, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 6:
+		store_varc(1475, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 8:
+		store_varc(1476, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 9:
+		store_varc(1477, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 10:
+		store_varc(1478, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 11:
+		store_varc(1479, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 19:
+		store_varc(1480, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 13:
+		store_varc(1481, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 14:
+		store_varc(1482, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 15:
+		store_varc(1483, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 16:
+		store_varc(1484, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 17:
+		store_varc(1485, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 18:
+		store_varc(1486, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 12:
+		store_varc(1487, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 20:
+		store_varc(1488, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 21:
+		store_varc(1489, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 22:
+		store_varc(1490, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 23:
+		store_varc(1491, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 24:
+		store_varc(1492, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+	case 25:
+		store_varc(1493, stat_base(enum(681, arg0, 'i', 'S')))
+		break
+
+}
+return

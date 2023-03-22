@@ -1,0 +1,28 @@
+//script3284(3284)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = 61 + (10 * (arg0 - 1))
+sound_synth(0, 1, 8809)
+if_setposition(arg1, 0, 0, iVar4, 0)
+if_settext(arg2, to_string(arg0))
+switch(enum(1264, arg0, 'i', 'i')) {
+	case default:
+		break
+	case 1:
+		if_settext(arg3, "Frozen")
+		break
+	case 2:
+		if_settext(arg3, "Abandoned")
+		break
+	case 3:
+		if_settext(arg3, "Furnished")
+		break
+	case 4:
+		if_settext(arg3, "Occult")
+		break
+	case 5:
+		if_settext(arg3, "Warped")
+		if_settext(arg3, "Dungeon")
+		break
+
+}
+return

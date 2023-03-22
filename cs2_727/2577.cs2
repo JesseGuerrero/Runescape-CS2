@@ -1,0 +1,9 @@
+//script2577(2577)(int arg0, int arg1, int arg2)(void)
+if(script_5567(995, arg1) == 0)
+	if_setcolor(arg0, 0xCC0000)
+else
+	if(stat_base(22) < arg2)
+		if_setcolor(arg0, 0xCCCC00)
+	else
+		if_setcolor(arg0, 0xCC00)
+return

@@ -1,0 +1,13 @@
+void script_1636(Widget widget0) {
+	string str0;
+	str0 = "";
+	if (script_1942() == 1 && VARPBIT[5703] == 0) {
+		str0 = "<col=00ff00>" + "When the timer hits 0:00 You will be safe here" + "</col>";
+	} else if (script_1942() == 0 && VARPBIT[4991] == 0) {
+		str0 = "<col=00ff00>" + "When the timer hits 0:00 You will be safe here" + "</col>";
+	} else {
+		str0 = "<col=ff981f>" + "When the timer hits 0:00 YOU'LL " + "</col>" + "<col=ff0000>" + "DIE" + "</col>" + "<col=ff981f>" + " -  Get to safety" + "</col>";
+	}
+	widget0.setText(str0);
+	return;
+}

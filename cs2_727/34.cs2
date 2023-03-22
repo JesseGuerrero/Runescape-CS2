@@ -1,0 +1,4 @@
+//script34(34)(int arg0, int arg1, int arg2)(void)
+if(cc_find(1, arg0) == 1)
+	cc_dragpickup(cc_getheight() / 2, 0)
+return

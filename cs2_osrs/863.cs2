@@ -1,0 +1,12 @@
+void script_863(Widget widget0, int arg1) {
+	if (getClientCycle() < arg1) {
+		return;
+	}
+	widget0.clearChildren();
+	_ = script_835(widget0, 0);
+	widget(127, 13).setRGB(0xA6A692);
+	widget(127, 12).hookMouseHover(&script_45(widget(127, 13), 16777215));
+	widget(127, 12).hookMouseExit(&script_45(widget(127, 13), 10921618));
+	widget0.hookFrame(null);
+	return;
+}

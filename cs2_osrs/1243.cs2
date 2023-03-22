@@ -1,0 +1,46 @@
+void script_1243(int arg0) {
+	if (arg0 == 1) {
+		widget(248, 27).setIsHidden(true);
+		widget(248, 28).setIsHidden(true);
+		widget(248, 29).setIsHidden(true);
+		widget(248, 30).setIsHidden(true);
+		widget(248, 31).setIsHidden(true);
+		widget(248, 32).setIsHidden(true);
+		widget(248, 33).setIsHidden(true);
+		widget(248, 34).setIsHidden(true);
+	} else if (arg0 == 2) {
+		widget(244, 35).setIsHidden(true);
+		widget(244, 36).setIsHidden(true);
+		widget(244, 37).setIsHidden(true);
+		widget(244, 38).setIsHidden(true);
+		widget(244, 39).setIsHidden(true);
+		widget(244, 40).setIsHidden(true);
+		widget(244, 41).setIsHidden(true);
+		widget(244, 42).setIsHidden(true);
+		widget(244, 43).setIsHidden(true);
+		widget(244, 44).setIsHidden(true);
+		widget(244, 45).setIsHidden(true);
+		widget(244, 46).setIsHidden(true);
+	} else if (arg0 == 3) {
+		widget(247, 49).setIsHidden(true);
+		widget(247, 50).setIsHidden(true);
+		widget(247, 51).setIsHidden(true);
+		widget(247, 52).setIsHidden(true);
+		widget(247, 53).setIsHidden(true);
+		widget(247, 54).setIsHidden(true);
+		widget(247, 55).setIsHidden(true);
+		widget(247, 56).setIsHidden(true);
+		widget(247, 57).setIsHidden(true);
+		widget(247, 58).setIsHidden(true);
+		widget(247, 59).setIsHidden(true);
+		widget(247, 60).setIsHidden(true);
+		widget(247, 61).setIsHidden(true);
+		widget(247, 62).setIsHidden(true);
+		widget(247, 63).setIsHidden(true);
+		widget(247, 64).setIsHidden(true);
+		widget(247, 65).setIsHidden(true);
+		widget(247, 66).setIsHidden(true);
+		widget(247, 67).setIsHidden(true);
+	}
+	return;
+}

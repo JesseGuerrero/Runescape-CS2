@@ -1,0 +1,113 @@
+//script2596(2596)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar5 = -1
+iVar6 = -1
+switch(arg4) {
+	case default:
+		break
+	case 1:
+		if_settext(if_gethash(742, 19), "Graphics Options")
+		if_opensubclient(978, 48627718)
+		iVar5 = 48627716
+		iVar6 = 48627732
+		if_setsize(if_gethash(978, 5), 1, 1, 0, 0)
+		if_setsize(if_gethash(742, 4), 0, 0, 304, if_getwidth(if_gethash(742, 4)))
+		hook_mouse_press(if_gethash(742, 18), script_29, "")
+		instr6213(if_gethash(742, 18), 1, "Close")
+		break
+	case 0:
+		if_opensubclient(978, 57802780)
+		if_setgraphic(if_gethash(882, 11), 4129)
+		if_setgraphic(if_gethash(882, 12), 4129)
+		if_setgraphic(if_gethash(882, 14), 4129)
+		iVar5 = 57802756
+		iVar6 = 57802757
+		script_1217(57802809, 57802810)
+		script_1216(57802802, 57802803)
+		script_1218(57802817, 57802818)
+		script_5868(57802840, 57802841)
+		script_1220(57802836, 57802834)
+		if_setposition(if_gethash(978, 0), 0, 1, 5, 0)
+		if_setposition(if_gethash(978, 5), 0, 1, 5, 0)
+		if_setsize(if_gethash(882, 28), 0, 0, (((if_gety(if_gethash(978, 0)) + if_gety(if_gethash(978, 8))) + if_getheight(if_gethash(978, 0))) + 5) + if_getheight(if_gethash(882, 29)), if_getwidth(if_gethash(882, 28)))
+		if_setsize(if_gethash(882, 22), 0, 0, if_getheight(if_gethash(882, 28)), if_getwidth(if_gethash(882, 28)))
+		if_setsize(if_gethash(882, 8), 0, 0, if_getheight(if_gethash(882, 22)) + 47, if_getwidth(if_gethash(882, 8)))
+		if_setposition(if_gethash(882, 22), 0, 1, if_gety(if_gethash(882, 8)) + 33, 0)
+		if_setposition(if_gethash(882, 28), 1, 1, 0, 0)
+		if_setposition(if_gethash(882, 29), 1, 1, 100, 0)
+		if_setposition(if_gethash(978, 2), 1, 1, -5, 0)
+		if_sethide(if_gethash(882, 29), 0)
+		if_sethide(if_gethash(882, 23), 1)
+		script_2918(0)
+		instr6256(if_gethash(882, 4), script_2917, "1", 0)
+		instr6256(if_gethash(744, 50), script_2919, "1i", 0, arg4)
+		break
+	case 2:
+		if_opensubclient(978, 59703299)
+		iVar5 = 59703297
+		iVar6 = 59703370
+		if_setposition(if_gethash(978, 0), 0, 1, 5, 0)
+		if_setposition(if_gethash(978, 5), 0, 1, 0, 0)
+		if_setsize(if_gethash(911, 3), 0, 0, (((if_gety(if_gethash(978, 0)) + if_gety(if_gethash(978, 8))) + if_getheight(if_gethash(978, 0))) + 5) + if_getheight(if_gethash(911, 6)), if_getwidth(if_gethash(911, 3)))
+		if_sethide(if_gethash(911, 6), 0)
+		if_sethide(if_gethash(911, 4), 1)
+		if_sethide(if_gethash(911, 0), 1)
+		if_setscrollpos(if_gethash(911, 2), 0, 0)
+		if_setscrollsize(59703298, 0, 0)
+		instr6256(if_gethash(906, 0), script_2919, "1i", 0, arg4)
+		script_4041()
+		break
+
+}
+hook_mouse_press(if_gethash(978, 1), script_3383, "i", arg4)
+script_1149(1, arg1, 64094220, 64094229, 64094230, arg2, arg3, arg0, arg4)
+script_1149(2, arg1, 64094221, 64094227, 64094228, arg2, arg3, arg0, arg4)
+script_1149(3, arg1, 64094222, 64094225, 64094226, arg2, arg3, arg0, arg4)
+if_sethide(iVar6, 1)
+hook_mouse_press(iVar5, None, "")
+if(load_varc(178) < 0)
+	store_varc(178, max(0, instr6643()))
+if(load_varc(178) >= instr6704())
+	store_varc(178, 0)
+iVar7 = 64094224
+cc_deleteall(iVar7)
+cc_create(if_getnextsubid(iVar7), 3, iVar7)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+cc_setfill(1)
+cc_setcolor(2e2b26)
+cc_create(if_getnextsubid(iVar7), 3, iVar7)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(0, 1, 0, 0)
+cc_setfill(0)
+cc_setcolor(5f5b52)
+iVar8 = instr6151()
+cc_create(if_getnextsubid(iVar7), 4, iVar7)
+cc_settextfont(494)
+cc_settextalign(0, 1, 1)
+if(instr6704() <= 0) {
+	cc_setsize(1, 1, 0, 0)
+	cc_setposition(1, 1, 0, 0)
+	cc_setcolor(ebe0bc)
+	cc_settext("N/A")
+} else  {
+	cc_setsize(1, 1, 0, 21)
+	cc_setposition(1, 0, 0, 2)
+	if(load_varc(178) < instr6704() - 1)
+		cc_setcolor(ebe0bc)
+	else
+		cc_setcolor(b1e1)
+	cc_settext(script_2693(load_varc(178)))
+	cc_create(if_getnextsubid(iVar7), 5, iVar7)
+	cc_setsize(0, 0, 16, 16)
+	cc_setposition(1, 2, 0, 1)
+	cc_setgraphic(2554)
+	instr6091(script_2691, "Ii1ii1", -2147483645, instr6151(), 1, iVar8, 8419437, 1)
+	instr6092(script_2691, "Ii1ii1", -2147483645, instr6151(), 0, iVar8, 6249298, 1)
+	instr6088(script_2695, "IiiiiJiiiii", -2147483645, -2147483643, instr6151(), iVar8, -1, 845, arg2, arg3, arg0, arg1, arg4)
+}
+script_3451(arg4, 0)
+return

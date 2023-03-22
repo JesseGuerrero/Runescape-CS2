@@ -1,0 +1,46 @@
+//script5080(5080)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = enum_getoutputcount(3921)
+iVar3 = -1
+while(iVar1 < iVar2) {
+	iVar3 = enum(3921, iVar1, 'i', 'g')
+	if(iVar3 != -1)
+		if(cc_find((iVar1 * 10) + 9, arg0) == 1)
+			cc_settext(enum(iVar3, script_5089(iVar3), 'i', 's'))
+	iVar1 = iVar1 + 1
+}
+switch(load_varpbit(9539)) {
+	case default:
+		break
+	case 1:
+		if(load_varc(1095) == 1)
+			if_settext(if_gethash(1114, 8), "Press 'Confirm' when you've made your choices.")
+		else
+			if_settext(if_gethash(1114, 8), "Waiting for the battle's initiator to choose the rules...")
+		break
+	case 2:
+		if(load_varc(1095) == 1)
+			if_settext(if_gethash(1114, 8), "Press 'Confirm' when you've made your choices.")
+		else
+			if_settext(if_gethash(1114, 8), "Waiting for " + load_varc_string(129) + " to choose the rules...")
+		break
+	case 3:
+		if_settext(if_gethash(1114, 8), "Loading elements...")
+		break
+	case 4:
+		if_settext(if_gethash(1114, 8), "Building elements...")
+		break
+	case 5:
+		if_settext(if_gethash(1114, 8), "Failed to build battlefield.")
+		break
+	case 6:
+		if_settext(if_gethash(1114, 8), "Initialising build mode.")
+		if_settext(if_gethash(1114, 8), "Loading...")
+		break
+
+}
+script_5085(arg0)
+return

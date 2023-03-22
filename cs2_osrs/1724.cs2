@@ -1,0 +1,25 @@
+void script_1724(Widget widget0, int arg1, Color color2, string string3) {
+	int int3;
+	widget0.clearChildren();
+	int3 = 0;
+	if (arg1 == 1) {
+		int3 = script_198(widget0);
+	} else {
+		int3 = script_208(widget0);
+	}
+	CHILD.createChild(widget0, 5, int3);
+	int3 = int3 + 1;
+	_CHILD.createChild(widget0, 4, int3);
+	int3 = int3 + 1;
+	CHILD.setPosition(-1, -1, 1, 1);
+	_CHILD.setPosition(-1, -1, 1, 1);
+	CHILD.setSize(29, 22, 0, 0);
+	_CHILD.setSize(0, 0, 1, 1);
+	CHILD.setSprite(1043);
+	_CHILD.setRGB(color2);
+	_CHILD.setTextAntiMacro(false);
+	_CHILD.setFont(495);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setText(string3);
+	return;
+}

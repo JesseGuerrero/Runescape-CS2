@@ -1,0 +1,6 @@
+//script306(306)(int arg0, int arg1)(void)
+if(client_clock() - arg0 < 15)
+	return
+instr6342(arg1, None, "")
+if_setcolor(arg1, 0xFFFFFF)
+return

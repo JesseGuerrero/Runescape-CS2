@@ -1,0 +1,64 @@
+//script2155(2155)(int arg0)(int)
+int iVar1
+iVar1 = struct_param(859, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(860, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(861, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(862, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(863, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(864, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(865, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(866, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(867, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(868, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(869, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+iVar1 = struct_param(870, arg0)
+if(iVar1 == -1)
+	return 1
+if(script_2156(iVar1) == 0)
+	return 0
+return 1
+return -1

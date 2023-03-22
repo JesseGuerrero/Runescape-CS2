@@ -1,0 +1,58 @@
+void script_1171() {
+	Container container0;
+	int int1;
+	int int2;
+	Item item3;
+	int int4;
+	boolean boolean5;
+	int int6;
+	container0 = null;
+	int1 = 0;
+	int2 = 0;
+	item3 = null;
+	int4 = 0;
+	boolean5 = false;
+	int6 = 0;
+	while (int1 < 5) {
+		container0 = datamap('i', 'v', 1243, int1);
+		while (int2 < 28) {
+			if (CHILD.setChild(widget(234, 15), int1 * 28 + int2) == true) {
+				item3 = getItemIdInSlot(container0, int2);
+				if (item3 != null && int1 == VARPBIT[4842]) {
+					CHILD.setItem(item3, getItemAmtInSlot(container0, int2));
+					CHILD.setOptionBase("<col=ff981f>" + getItemName(item3));
+					if (int1 == VARPBIT[4842]) {
+						CHILD.setHidden(false);
+					}
+					boolean5 = true;
+				} else {
+					CHILD.setItemNoNum(6512, 1);
+					CHILD.setOptionBase("");
+					CHILD.setHidden(true);
+				}
+			}
+			int2 = int2 + 1;
+		}
+		if (boolean5 == true && CHILD.setChild(widget(234, 14), int1) == true && length(getOption(1)) == 0 && getItemAmtInContainer(93, datamap('i', 'O', 1244, int1)) > 0) {
+			int6 = 1;
+		}
+		if (int1 == VARPBIT[4842]) {
+			widget(234, 16).setIsHidden(boolean5);
+			widget(234, 46).setIsHidden(boolean5);
+			if (CHILD.setChild(widget(234, 14), 5 + int1) == true) {
+				if (getItemAmtInContainer(93, datamap('i', 'O', 1244, int1)) <= 0) {
+					CHILD.setHidden(true);
+				} else {
+					CHILD.setHidden(false);
+				}
+			}
+		}
+		int1 = int1 + 1;
+		int2 = 0;
+		boolean5 = false;
+	}
+	if (int6 == 1) {
+		script_1175();
+	}
+	return;
+}

@@ -1,0 +1,36 @@
+void script_1181(int arg0) {
+	int int1;
+	ARRAY0 = new Widget[4];
+	ARRAY0[0] = 34209797;
+	ARRAY0[1] = 34209800;
+	ARRAY0[2] = 34209803;
+	ARRAY0[3] = 34209806;
+	ARRAY1 = new Widget[4];
+	ARRAY1[0] = 34209811;
+	ARRAY1[1] = 34209813;
+	ARRAY1[2] = 34209815;
+	ARRAY1[3] = 34209817;
+	ARRAY2 = new Widget[4];
+	ARRAY2[0] = 34209798;
+	ARRAY2[1] = 34209801;
+	ARRAY2[2] = 34209804;
+	ARRAY2[3] = 34209807;
+	int1 = 0;
+	while (int1 < 4) {
+		if (ARRAY0[int1] == arg0) {
+			widget(ARRAY1[int1]).setIsHidden(false);
+			widget(ARRAY2[int1]).setSprite(1079);
+			if (widget(ARRAY1[int1]).getHeight() > widget(522, 18).getHeight()) {
+				widget(522, 27).setIsHidden(false);
+				script_31(widget(522, 27), widget(ARRAY1[int1]), 792, 789, 790, 791, 773, 788);
+			} else {
+				widget(522, 27).setIsHidden(true);
+			}
+		} else {
+			widget(ARRAY1[int1]).setIsHidden(true);
+			widget(ARRAY2[int1]).setSprite(1077);
+		}
+		int1 = int1 + 1;
+	}
+	return;
+}

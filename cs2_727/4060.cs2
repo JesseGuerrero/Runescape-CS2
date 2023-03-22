@@ -1,0 +1,16 @@
+//script4060(4060)()(void)
+if(load_varpbit(8669) == 1)
+	if(load_varpbit(8662) < 30 || load_varpbit(8663) < 30 || load_varpbit(8664) < 30 || load_varpbit(8665) < 30 || load_varpbit(8666) < 30)
+		script_4061()
+	else
+		script_4062()
+else
+	if(load_varpbit(8662) < 200)
+		if(load_varpbit(8663) < 200)
+			if(load_varpbit(8664) < 200)
+				if(load_varpbit(8665) < 200)
+					if(load_varpbit(8666) < 200)
+						script_4061()
+					else
+						script_4062()
+return

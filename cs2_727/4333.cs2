@@ -1,0 +1,4 @@
+//script4333(4333)(int arg0, int arg1)(void)
+if(activeclansettings_find_listened() == 1)
+	script_4334(arg0, arg1)
+return

@@ -1,0 +1,4 @@
+//script1617(1617)()(void)
+if_settext(if_gethash(63, 7), to_string(load_varp(620)) + " Constitution XP")
+if_settext(if_gethash(63, 6), to_string(load_varp(621)) + " Slayer XP")
+return

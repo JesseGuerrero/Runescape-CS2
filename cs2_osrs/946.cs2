@@ -1,0 +1,18 @@
+void script_946(int arg0, Widget widget1, Widget widget2) {
+	if (arg0 == 1) {
+		if (widget1 != null) {
+			widget1.setRGB(0xDBDBB7);
+		}
+		if (widget2 != null) {
+			widget2.setRGB(0xDBDBB7);
+		}
+	} else {
+		if (widget1 != null) {
+			widget1.setRGB(0xD4B082);
+		}
+		if (widget2 != null) {
+			widget2.setRGB(0xD4B082);
+		}
+	}
+	return;
+}

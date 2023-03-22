@@ -1,0 +1,11 @@
+//script1317(1317)()(void)
+if_setmodel(if_gethash(262, 0), 18789)
+if_setmodel(if_gethash(262, 28), 18813)
+if_setmodel(if_gethash(262, 29), 18814)
+if(load_varpbit(4835) < 1)
+	if_setmodel(if_gethash(262, 29), -1)
+if(load_varpbit(4835) < 2)
+	if_setmodel(if_gethash(262, 28), -1)
+if(load_varpbit(4835) < 3)
+	if_setmodel(if_gethash(262, 0), -1)
+return

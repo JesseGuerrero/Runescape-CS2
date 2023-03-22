@@ -1,0 +1,10 @@
+//script2448(2448)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+if(arg1 != -1)
+	if(arg1 == load_varp(1439))
+		store_varp(1439, -1)
+	else
+		store_varp(1439, arg1)
+script_2449(1)
+return

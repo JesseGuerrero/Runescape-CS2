@@ -1,0 +1,37 @@
+void script_916(int arg0, DataMap datamap1) {
+	Widget widget2;
+	Widget widget3;
+	Widget widget4;
+	int int5;
+	Widget widget6;
+	widget2 = null;
+	widget3 = null;
+	widget4 = null;
+	int5 = 0;
+	widget6 = datamap('i', 'I', 1138, int5);
+	while (widget6 != null) {
+		widget6 = datamap('I', 'I', datamap1, widget6);
+		if (widget6 != null) {
+			widget6.setSprite(null);
+			widget2 = datamap('i', 'I', 1137, int5);
+			widget2 = datamap('I', 'I', datamap1, widget2);
+			widget2.setIsHidden(true);
+			if (int5 == arg0) {
+				widget3, widget4 = widget2, widget6;
+			}
+		}
+		int5 = int5 + 1;
+		widget6 = datamap('i', 'I', 1138, int5);
+	}
+	if (widget3 != null && widget4 != null) {
+		VARC[171] = arg0;
+		if (hasChild(widget3) == true) {
+			widget3.setIsHidden(false);
+			widget4.setSprite(datamap('I', 'd', 1133, widget4));
+		}
+	} else {
+		VARC[171] = -1;
+	}
+	script_919(datamap1);
+	return;
+}

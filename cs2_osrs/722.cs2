@@ -1,0 +1,5 @@
+void script_722() {
+	widget(64, 10).setItem(13192, -1);
+	widget(64, 17).setItem(995, getItemAmtInContainer(93, 995));
+	return;
+}

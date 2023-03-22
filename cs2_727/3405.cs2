@@ -1,0 +1,24 @@
+//script3405(3405)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar3 = script_3406().get(0)
+script_3054(arg0)
+script_3173(arg1)
+script_4567(arg2)
+if(if_gethide(if_gethash(906, 210)) == 1)
+	if(iVar3 > load_varc(1275))
+		instr6342(if_gethash(906, 216), script_3407, "iII", client_clock(), if_gethash(906, 210), -2147483645)
+if(if_gethide(if_gethash(906, 212)) == 1)
+	if(iVar4 > load_varc(1276))
+		instr6342(if_gethash(906, 218), script_3407, "iII", client_clock(), if_gethash(906, 212), -2147483645)
+if(if_gethide(if_gethash(906, 211)) == 1)
+	if(iVar5 > load_varc(1510))
+		instr6342(if_gethash(906, 217), script_3407, "iII", client_clock(), if_gethash(906, 211), -2147483645)
+store_varc(1275, iVar3)
+store_varc(1276, iVar4)
+store_varc(1510, iVar5)
+return

@@ -1,0 +1,7 @@
+//script5610(5610)()(void)
+if(load_varc(1750) < 0)
+	store_varc(1750, 0)
+if(load_varc(1750) > 100)
+	store_varc(1750, 100)
+script_5611(load_varc(1750), 78315537)
+return

@@ -1,0 +1,47 @@
+//script6074(6074)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = load_varp(2564)
+iVar2 = 2147483647
+iVar3 = -1
+iVar4 = 0
+if(load_varp(2561) != -1)
+	if(load_varp(2563) != -1) {
+		iVar3 = inv_getitem(load_varp(2563), load_varp(2561))
+		if(load_varp(2561) == 93) {
+			iVar2 = 500
+			iVar4 = script_6077(iVar3)
+		} else 
+			iVar4 = script_2720(iVar3)
+		if(load_varp(118) == 600)
+			if(iVar3 == 1391)
+				iVar2 = script_2002()
+			else
+				if(iVar3 != -1) {
+					iVar2 = min(inv_total(iVar3, load_varp(2561)), iVar2)
+					if(item_stackable(iVar3) == 0)
+						if(load_varp(2561) != 93)
+							iVar2 = min(container_free_space(93), iVar2)
+				} else 
+					iVar2 = 1
+	}
+if(iVar4 > 0)
+	iVar2 = min(2147483647 / iVar4, iVar2)
+if(arg0 > 0) {
+	if(arg0 > iVar2) {
+		iVar1 = iVar2
+		if_settext(if_gethash(1265, 67), script_940(iVar1))
+		return
+	}
+	if(2147483647 - iVar1 < arg0) {
+		iVar1 = iVar2
+		if_settext(if_gethash(1265, 67), script_940(iVar1))
+		return
+	} else 
+		iVar1 = min(iVar2, iVar1 + arg0)
+} else 
+	iVar1 = min(max(iVar1 + arg0, 1), iVar2)
+if_settext(if_gethash(1265, 67), script_940(iVar1))
+return

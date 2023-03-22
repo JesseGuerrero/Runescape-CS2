@@ -1,0 +1,17 @@
+void script_687(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12) {
+	_ = script_228(widget1, strForGender("Iron Man", "Iron Woman") + " Setup", 0);
+	widget2.setText(strForGender("Iron Man", "Iron Woman") + " Mode");
+	widget3.setText("<col=ffffff>" + "Standard " + strForGender("Iron Man", "Iron Woman") + "</col>" + "<br>" + "An " + strForGender("Iron Man", "Iron Woman") + " cannot trade, stake, receive PK loot, scavenge dropped items, nor play certain multiplayer minigames.");
+	widget4.setText("<col=ffffff>" + "Hardcore " + strForGender("Iron Man", "Iron Woman") + "</col>" + "<br>" + "In addition to the standard " + strForGender("Iron Man", "Iron Woman") + " rules, a Hardcore " + strForGender("Iron Man", "Iron Woman") + " only has 1 life. A dangerous death will result in being downgraded to a standard " + strForGender("Iron Man", "Iron Woman") + ".");
+	widget5.setText("<col=ffffff>" + "Ultimate " + strForGender("Iron Man", "Iron Woman") + "</col>" + "<br>" + "In addition to the standard " + strForGender("Iron Man", "Iron Woman") + " rules, an Ultimate " + strForGender("Iron Man", "Iron Woman") + " cannot use banks, nor retain any items on death in dangerous areas.");
+	widget6.setText("<col=ffffff>" + "None" + "</col>" + " - No " + strForGender("Iron Man", "Iron Woman") + " restrictions will apply to this account.");
+	widget7.setText("<col=ffffff>" + "PIN" + "</col>" + "<br>" + "You must enter your Bank PIN to request that " + strForGender("Iron Man", "Iron Woman") + " restrictions be removed. Changes take effect after a " + 7 + "-day delay, in case you change your mind.");
+	widget8.setText("<col=ffffff>" + "Permanent" + "</col>" + " - The " + strForGender("Iron Man", "Iron Woman") + " restrictions can never be removed.");
+	widget11.setText("<col=ffffff>" + "Deactivation settings" + "</col>" + "<br>" + "Set restrictions on deactivating or downgrading your " + strForGender("Iron Man", "Iron Woman") + " status.");
+	if (VARPBIT[1777] == 0) {
+		widget12.setText("<col=ffffff>" + "Selected" + "</col>" + " - None.");
+	}
+	script_689(widget0, widget9, widget10);
+	widget0.hookVARP(&script_688(widget0, widget9, widget10), 499, 281, 1425);
+	return;
+}

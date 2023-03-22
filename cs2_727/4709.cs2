@@ -1,0 +1,49 @@
+//script4709(4709)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22)(void)
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+string sVar0
+iVar23 = 0
+iVar24 = 0
+iVar24 = script_4710(arg1, arg2, arg5, arg6, arg7, arg8, 897, 788, 788, 16777215, 16776960, 494).get(0)
+cc_create(if_getnextsubid(arg6), 5, arg6)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, if_getheight(arg6), if_getwidth(arg6))
+cc_setgraphic(arg12)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg6), 3, arg6)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, if_getheight(arg6), if_getwidth(arg6))
+cc_setcolor(0)
+if_setscrollsize(arg7, arg4 * 15, if_getwidth(arg7))
+iVar25 = arg3
+iVar26 = -1
+sVar0 = ""
+while(iVar25 <= arg4) {
+	iVar26 = if_getnextsubid(arg7)
+	sVar0 = enum(arg1, iVar25, 'i', 's')
+	cc_create(iVar26, 4, arg7)
+	cc_settext(sVar0)
+	cc_settextalign(0, 1, 0)
+	cc_setposition(0, 0, iVar26 * 15, 5)
+	cc_setsize(0, 0, 15, if_getwidth(arg7) - 16)
+	cc_settextshadow(0)
+	cc_settextfont(arg16)
+	cc_setop("Select", 1)
+	instr6687(script_4713, "gi", arg0, -2147483643)
+	if(iVar25 > arg4) {
+		cc_setcolor(0)
+		instr6092(script_1354, "Iii", arg7, iVar26, arg14)
+		instr6088(script_4715, "IIIIiisi", arg6, arg7, arg8, arg5, iVar23, iVar24, sVar0, arg14)
+	} else  {
+		cc_setcolor(0)
+		instr6092(script_1354, "Iii", arg7, iVar26, arg13)
+		instr6088(script_4715, "IIIIiisi", arg6, arg7, arg8, arg5, iVar23, iVar24, sVar0, arg13)
+	}
+	instr6091(script_1353, "Iii", arg7, iVar26, arg15)
+	iVar25 = iVar25 + 1
+}
+if(arg8 != -1)
+	script_31(arg8, arg7, arg17, arg18, arg19, arg20, arg21, arg22)
+return

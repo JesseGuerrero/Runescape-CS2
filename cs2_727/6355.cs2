@@ -1,0 +1,11 @@
+//script6355(6355)()(int)
+int iVar0
+int iVar1
+iVar0 = cc_getx()
+iVar1 = cc_getparentlayer()
+while(iVar1 != -1) {
+	iVar0 = (iVar0 + if_getx(iVar1)) - if_getscrollx(iVar1)
+	iVar1 = if_getparentlayer(iVar1)
+}
+return iVar0
+return 0

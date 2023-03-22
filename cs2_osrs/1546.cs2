@@ -1,0 +1,11 @@
+void script_1546(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	if (arg0 == 1) {
+		playSoundEffect(2266, 1, 0);
+	}
+	widget2.setIsHidden(true);
+	widget3.setIsHidden(true);
+	widget4.setIsHidden(true);
+	widget6.setIsHidden(true);
+	widget5.setIsHidden(false);
+	return;
+}

@@ -1,0 +1,21 @@
+//script2974(2974)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar1 = instr6280(arg0)
+iVar2 = instr6292(arg0)
+iVar3 = instr6279(arg0)
+iVar4 = instr6277(arg0)
+iVar5 = if_getoffsetx(arg0)
+iVar6 = if_getoffsety(arg0)
+iVar7 = 0
+if(iVar1 == 2047)
+	iVar7 = 0
+else
+	iVar7 = iVar1 + 1
+if_setmodelangle(arg0, iVar4, iVar3, iVar7, iVar2, iVar6, iVar5)
+return

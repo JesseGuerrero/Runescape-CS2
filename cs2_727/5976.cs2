@@ -1,0 +1,6 @@
+//script5976(5976)(int arg0, int arg1)(void)
+store_varpbit(9548, arg0)
+store_varpbit(9549, arg1)
+script_5974()
+script_5975()
+return

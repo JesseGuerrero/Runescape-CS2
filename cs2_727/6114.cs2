@@ -1,0 +1,4 @@
+//script6114(6114)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg1, arg0) == 1)
+	cc_sethide(arg2)
+return

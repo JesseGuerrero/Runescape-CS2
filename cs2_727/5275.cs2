@@ -1,0 +1,139 @@
+//script5275(5275)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+string sVar0
+iVar1 = 0
+iVar2 = -1
+iVar3 = -1
+iVar4 = 1
+sVar0 = ""
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+switch(load_varpbit(9828)) {
+	case default:
+		break
+	case 0:
+		return
+
+	case 1:
+		iVar5 = 52948
+		iVar6 = 808
+		iVar7 = 5138
+		iVar8 = 5139
+		break
+	case 2:
+		iVar5 = 52954
+		iVar6 = 808
+		iVar7 = 5134
+		iVar8 = 5135
+		break
+	case 3:
+		iVar5 = 52984
+		iVar6 = 808
+		iVar7 = 5136
+		iVar8 = 5137
+		break
+
+}
+cc_deleteall(if_gethash(1138, 31))
+cc_create(if_getnextsubid(if_gethash(1138, 31)), 6, 74579999)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+cc_setmodel(iVar5)
+cc_setmodelangle(375, 0, 0, 0, 125, 0)
+cc_setmodelanim(iVar6)
+script_2647(74579999)
+cc_deleteall(if_gethash(1138, 33))
+while(iVar1 < inv_size(if_gethash(0, 94))) {
+	iVar4 = 1
+	switch(iVar1) {
+		case default:
+			break
+		case 0:
+			iVar2 = 74580002
+			break
+		case 1:
+			iVar2 = 74580004
+			break
+		case 2:
+			iVar2 = 74580005
+			break
+		case 3:
+			iVar2 = 74580007
+			break
+		case 4:
+			iVar2 = 74580008
+			break
+		case 5:
+			iVar2 = 74580009
+			break
+		case 7:
+			iVar2 = 74580010
+			break
+		case 9:
+			iVar2 = 74580012
+			break
+		case 10:
+			iVar2 = 74580011
+			break
+		case 12:
+			iVar2 = 74580013
+			break
+		case 13:
+			iVar2 = 74580006
+			iVar4 = 900
+			break
+		case 14:
+			iVar2 = 74580003
+			iVar2 = -1
+			break
+
+	}
+	cc_create(iVar1, 5, 74580001)
+	if(iVar2 != -1) {
+		iVar3 = enum(iVar8, iVar1, 'i', 'o')
+		if(iVar3 != -1) {
+			cc_setsize(0, 0, 32, 36)
+			cc_setposition(0, 0, script_788(iVar2, 2, 2).get(1), script_788(iVar2, 2, 2).get(0))
+			cc_setitem(iVar4, iVar3)
+			cc_setopbase(append(item_name(iVar3), "<col=ff9040>"))
+			cc_setop("Information", 1)
+			cc_setgraphicshadow(3153952)
+			cc_setoutline(1)
+			instr6687(script_1620, "Iiiii", -2147483645, -2147483643, 100, 0, 8)
+		} else  {
+			cc_setsize(0, 0, 32, 32)
+			cc_setposition(0, 0, script_788(iVar2, 2, 2).get(1), script_788(iVar2, 2, 2).get(0))
+			cc_setgraphic(enum(796, iVar1, 'i', 'd'))
+		}
+	} else 
+		cc_sethide(1)
+	iVar1 = iVar1 + 1
+}
+if_settext(if_gethash(1138, 50), append_signnum("Stab: ", enum(iVar7, 0, 'i', 'i')))
+if_settext(if_gethash(1138, 51), append_signnum("Slash: ", enum(iVar7, 1, 'i', 'i')))
+if_settext(if_gethash(1138, 52), append_signnum("Crush: ", enum(iVar7, 2, 'i', 'i')))
+if_settext(if_gethash(1138, 53), append_signnum("Magic: ", enum(iVar7, 3, 'i', 'i')))
+if_settext(if_gethash(1138, 54), append_signnum("Ranged: ", enum(iVar7, 4, 'i', 'i')))
+if_settext(if_gethash(1138, 55), append_signnum("Stab: ", enum(iVar7, 5, 'i', 'i')))
+if_settext(if_gethash(1138, 56), append_signnum("Slash: ", enum(iVar7, 6, 'i', 'i')))
+if_settext(if_gethash(1138, 57), append_signnum("Crush: ", enum(iVar7, 7, 'i', 'i')))
+if_settext(if_gethash(1138, 59), append_signnum("Ranged: ", enum(iVar7, 9, 'i', 'i')))
+if_settext(if_gethash(1138, 60), append_signnum("Summoning: ", enum(iVar7, 10, 'i', 'i')))
+if_settext(if_gethash(1138, 58), append_signnum("Magic: ", enum(iVar7, 8, 'i', 'i')))
+if_settext(if_gethash(1138, 61), append("%", append_signnum("Absorb Melee: ", enum(iVar7, 11, 'i', 'i'))))
+if_settext(if_gethash(1138, 62), append("%", append_signnum("Absorb Magic: ", enum(iVar7, 12, 'i', 'i'))))
+if_settext(if_gethash(1138, 63), append("%", append_signnum("Absorb Ranged: ", enum(iVar7, 13, 'i', 'i'))))
+if_settext(if_gethash(1138, 64), append_signnum("Strength: ", enum(iVar7, 14, 'i', 'i')))
+if_settext(if_gethash(1138, 65), append_signnum("Ranged Strength: ", enum(iVar7, 15, 'i', 'i')))
+if_settext(if_gethash(1138, 66), append_signnum("Prayer: ", enum(iVar7, 16, 'i', 'i')))
+if_settext(if_gethash(1138, 67), append("%", append_signnum("Magic Damage: ", enum(iVar7, 17, 'i', 'i'))))
+return

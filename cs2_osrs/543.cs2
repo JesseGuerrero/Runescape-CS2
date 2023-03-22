@@ -1,0 +1,8 @@
+void script_543(Widget widget0, string string1, int arg2) {
+	if (getClientCycle() < arg2) {
+		return;
+	}
+	widget0.hookFrame(null);
+	script_541(widget0, string1, 0);
+	return;
+}

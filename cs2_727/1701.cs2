@@ -1,0 +1,11 @@
+//script1701(1701)()(void)
+if(load_varc(1052) == 1) {
+	sound_synth(0, 1, 8123)
+	store_varc(1052, 0)
+} else  {
+	sound_synth(0, 1, 8096)
+	store_varc(1052, 1)
+}
+instr6342(if_gethash(271, 9), script_1702, "i", 0)
+script_1700()
+return

@@ -1,0 +1,40 @@
+//script1436(1436)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20)(void)
+int iVar21
+int iVar22
+cc_deleteall(arg3)
+cc_create(0, 5, arg3)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, if_getheight(arg3), if_getwidth(arg3))
+cc_setgraphic(arg7)
+cc_settiling(1)
+cc_create(if_getnextsubid(arg3), 3, arg3)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, if_getheight(arg3), if_getwidth(arg3))
+cc_setcolor(0)
+iVar21 = 1
+cc_create(iVar21, 5, arg3)
+cc_setposition(0, 0, 0, if_getwidth(arg3) - 16)
+cc_setsize(0, 0, if_getheight(arg3), 16)
+cc_setgraphic(arg8)
+cc_settiling(0)
+instr6091(script_1351, "Iid", arg3, iVar21, arg9)
+instr6092(script_1352, "Iid", arg3, iVar21, arg8)
+iVar22 = if_getnextsubid(arg3)
+instr6088(script_1347, "giIdIIIiiidiidddddd", arg0, arg2, arg4, arg10, arg5, arg6, arg3, arg11, arg12, arg13, arg14, iVar22, iVar21, arg15, arg16, arg17, arg18, arg19, arg20)
+cc_create(iVar22, 4, arg3)
+cc_settext(enum(arg0, arg1, 'i', 's'))
+cc_setposition(0, 0, 0, 5)
+cc_setsize(0, 0, if_getheight(arg3), if_getwidth(arg3) - 22)
+cc_settextshadow(0)
+cc_settextfont(arg14)
+cc_settextalign(0, 1, 0)
+if(arg1 >= arg2) {
+	cc_setcolor(0)
+	instr6092(script_1354, "Iii", arg3, iVar22, arg12)
+} else  {
+	cc_setcolor(0)
+	instr6092(script_1354, "Iii", arg3, iVar22, arg11)
+}
+instr6091(script_1353, "Iii", arg3, iVar22, arg13)
+instr6088(script_1347, "giIdIIIiiidiidddddd", arg0, arg2, arg4, arg10, arg5, arg6, arg3, arg11, arg12, arg13, arg14, iVar22, iVar21, arg15, arg16, arg17, arg18, arg19, arg20)
+return

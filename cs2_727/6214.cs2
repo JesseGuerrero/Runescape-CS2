@@ -1,0 +1,32 @@
+//script6214(6214)()(void)
+if(load_varp(2611) == 1) {
+	switch(world_language()) {
+		case default:
+			break
+		case 0:
+			if_setgraphic(if_gethash(906, 388), 10948)
+			break
+		case 1:
+			if_setgraphic(if_gethash(906, 388), 10950)
+			break
+		case 2:
+			if_setgraphic(if_gethash(906, 388), 10949)
+			break
+		case 3:
+			if_setgraphic(if_gethash(906, 388), 10951)
+			break
+
+	}
+	if_setposition(if_gethash(906, 395), 0, 0, 130, if_getx(if_gethash(906, 395)))
+	if_setposition(if_gethash(906, 398), 0, 0, 345, if_getx(if_gethash(906, 398)))
+	if_setposition(if_gethash(906, 396), 0, 0, 185, if_getx(if_gethash(906, 396)))
+	if_setposition(if_gethash(906, 397), 0, 0, 232, if_getx(if_gethash(906, 397)))
+	if_setposition(if_gethash(906, 403), 0, 0, 302, if_getx(if_gethash(906, 403)))
+	if_setposition(if_gethash(906, 390), 0, 0, 372, if_getx(if_gethash(906, 390)))
+	if_settext(if_gethash(906, 395), "An email from noreply@email.runescape.com has been sent to your inbox.")
+	if_settext(if_gethash(906, 396), "In addition to all the members' benefits, you'll also receive these great rewards so hurry and check your inbox!")
+	if_sethide(if_gethash(906, 404), 1)
+	if_setsize(if_gethash(906, 390), 0, 0, if_getheight(if_gethash(906, 390)), 300)
+	instr6237(if_gethash(906, 382), None, "")
+}
+return

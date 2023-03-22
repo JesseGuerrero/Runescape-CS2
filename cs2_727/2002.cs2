@@ -1,0 +1,34 @@
+//script2002(2002)()(int)
+int iVar0
+iVar0 = 0
+if(load_varpbit(8150) == 1)
+	if(load_varpbit(4069) > 79)
+		iVar0 = 0
+	else
+		iVar0 = 80 - load_varpbit(4069)
+else
+	if(load_varpbit(3976) == 1)
+		if(load_varpbit(4069) > 63)
+			iVar0 = 0
+		else
+			iVar0 = 64 - load_varpbit(4069)
+	else
+		if(load_varpbit(3975) == 1)
+			if(load_varpbit(4069) > 31)
+				iVar0 = 0
+			else
+				iVar0 = 32 - load_varpbit(4069)
+		else
+			if(load_varpbit(3974) == 1)
+				if(load_varpbit(4069) > 15)
+					iVar0 = 0
+				else
+					iVar0 = 16 - load_varpbit(4069)
+			else
+				if(load_varpbit(3974) == 0)
+					if(load_varpbit(4069) > 7)
+						iVar0 = 0
+					else
+						iVar0 = 8 - load_varpbit(4069)
+return iVar0
+return 0

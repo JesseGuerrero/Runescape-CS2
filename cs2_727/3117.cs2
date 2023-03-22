@@ -1,0 +1,121 @@
+//script3117(3117)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6)(int, int, int, int, int, int, string, string, string)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+string sVar0
+string sVar1
+string sVar2
+iVar5 = -1
+iVar6 = -1
+iVar7 = 0
+iVar8 = 0
+sVar0 = ""
+iVar9 = -1
+iVar10 = -1
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+sVar1 = ""
+sVar2 = ""
+if(bit_flagged(0, arg1) == 1)
+	iVar11 = 1
+else
+	iVar11 = 0
+if(bit_flagged(1, arg1) == 1)
+	iVar12 = 1
+else
+	iVar12 = 0
+if(bit_flagged(2, arg1) == 1)
+	iVar13 = 1
+else
+	iVar13 = 0
+if(bit_flagged(3, arg1) == 1)
+	iVar14 = 1
+else
+	iVar14 = 0
+if(bit_flagged(4, arg1) == 1)
+	iVar15 = 1
+else
+	iVar15 = 0
+if(world_language() == 0)
+	if(iVar15 == 1) {
+		iVar9 = enum(730, 1, 'i', 'd')
+		sVar0 = arg0
+	} else 
+		if(string_length(arg0) > 1) {
+			iVar9 = enum(730, 1, 'i', 'd')
+			sVar0 = arg0
+		} else  {
+			iVar9 = enum(1810, arg4, 'i', 'd')
+			sVar0 = arg1
+		}
+else {
+	if(world_language() == 1)
+		iVar9 = 1517
+	else
+		if(world_language() == 2)
+			iVar9 = enum(1810, 74, 'i', 'd')
+		else
+			if(world_language() == 3)
+				iVar9 = enum(1810, 31, 'i', 'd')
+	if(iVar15 == 1)
+		sVar0 = arg0
+	else
+		if(string_length(arg0) > 1)
+			sVar0 = arg0
+		else
+			if(world_language() == 1)
+				sVar0 = "German"
+			else
+				if(world_language() == 2)
+					sVar0 = "French"
+				else
+					if(world_language() == 3)
+						sVar0 = "Portuguese"
+}
+if(iVar11 == 0) {
+	iVar5 = 1532
+	iVar8 = 16579836
+	sVar1 = "Free"
+} else  {
+	iVar5 = 1531
+	iVar8 = 16579684
+	sVar1 = "Members"
+}
+if(iVar14 == 1)
+	iVar10 = 699
+else
+	iVar10 = 698
+if(arg0 == load_varc(998)) {
+	iVar7 = 2109969
+	iVar6 = 1541
+} else 
+	if(arg0 == load_varc(999)) {
+		iVar7 = 2112529
+		iVar6 = 1541
+	} else  {
+		if(modulo(2, arg2) == 0)
+			iVar7 = 2103569
+		else
+			iVar7 = 2695190
+		iVar6 = 1545
+	}
+if(arg3 >= 1980)
+	sVar2 = "FULL"
+else
+	if(arg3 >= 0)
+		sVar2 = to_string(arg3)
+	else
+		sVar2 = "OFFLINE"
+return iVar6, iVar7, iVar10, iVar8, iVar5, iVar9, sVar2, sVar1, sVar0
+return -1, 0, -1, 0, -1, -1, "", "", ""

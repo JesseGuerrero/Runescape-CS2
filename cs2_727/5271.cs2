@@ -1,0 +1,34 @@
+//script5271(5271)(int arg0, int arg1, int arg2, int arg3, string arg4)(int)
+string sVar0
+string sVar1
+string sVar2
+sVar0 = ""
+if(arg1 == -1)
+	sVar0 = "Your coord"
+else
+	if(arg1 == -2)
+		sVar0 = "Safe Clanwars"
+	else
+		sVar0 = script_2055(arg1)
+sVar1 = " - "
+if(if_getwidth(arg0) < 260)
+	sVar1 = "<br>"
+sVar2 = "max"
+if(arg2 >= 0)
+	sVar2 = to_string(arg2)
+cc_create(arg3, 4, arg0)
+cc_settext(arg0 + sVar1 + "@ " + sVar0 + " - Max: " + sVar2)
+cc_settextshadow(1)
+cc_setcolor(cccccc)
+cc_settextalign(0, 1, 1)
+instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+instr6092(script_1356, "Iii", -2147483645, -2147483643, 13421772)
+cc_setop("Spawn", 1)
+cc_setop("Pick spawn number", 2)
+cc_setop("Kill", 3)
+cc_create(arg3 + 1, 3, arg0)
+cc_setcolor(ffffff)
+cc_settrans(226)
+cc_setfill(1)
+return arg3 + 2
+return 0

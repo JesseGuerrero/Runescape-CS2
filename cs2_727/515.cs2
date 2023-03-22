@@ -1,0 +1,5 @@
+//script515(515)()(void)
+store_varc(51, 300)
+store_varc(50, 0)
+store_varc(52, 0)
+return

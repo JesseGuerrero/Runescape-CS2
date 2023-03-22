@@ -1,0 +1,3 @@
+//script6154(6154)()(void)
+sound_vorbis_volume(200, 0, 1, 14279)
+return

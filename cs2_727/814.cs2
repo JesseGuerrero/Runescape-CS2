@@ -1,0 +1,50 @@
+//script814(814)(int arg0)(int, int, int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return enum(1696, load_varpbit(5146), 'i', 'm'), 37683203, load_varpbit(5146)
+
+	case 2:
+		return enum(1696, load_varpbit(5147), 'i', 'm'), 37683204, load_varpbit(5147)
+
+	case 3:
+		return enum(1696, load_varpbit(5148), 'i', 'm'), 37683205, load_varpbit(5148)
+
+	case 4:
+		return enum(1696, load_varpbit(5149), 'i', 'm'), 37683206, load_varpbit(5149)
+
+	case 5:
+		return enum(1696, load_varpbit(5150), 'i', 'm'), 37683207, load_varpbit(5150)
+
+	case 6:
+		return enum(1696, load_varpbit(5151), 'i', 'm'), 37683208, load_varpbit(5151)
+
+	case 7:
+		return enum(1696, load_varpbit(5152), 'i', 'm'), 37683209, load_varpbit(5152)
+
+	case 8:
+		return enum(1696, load_varpbit(5153), 'i', 'm'), 37683210, load_varpbit(5153)
+
+	case 9:
+		return enum(1696, load_varpbit(5154), 'i', 'm'), 37683211, load_varpbit(5154)
+
+	case 10:
+		return enum(1696, load_varpbit(5155), 'i', 'm'), 37683212, load_varpbit(5155)
+
+	case 11:
+		return enum(1696, load_varpbit(5156), 'i', 'm'), 37683213, load_varpbit(5156)
+
+	case 12:
+		return enum(1696, load_varpbit(5157), 'i', 'm'), 37683214, load_varpbit(5157)
+
+	case 13:
+		return enum(1696, load_varpbit(5158), 'i', 'm'), 37683215, load_varpbit(5158)
+
+	case 14:
+		return enum(1696, load_varpbit(5159), 'i', 'm'), 37683216, load_varpbit(5159)
+		return -1, -1, -1
+
+
+}
+return -1, -1, 0

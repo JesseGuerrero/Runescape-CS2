@@ -1,0 +1,15 @@
+//script4504(4504)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = if_getlayer(arg0)
+if(iVar1 == -1)
+	return
+iVar2 = if_getnextsubid(iVar1) - 1
+while(iVar2 >= 0) {
+	if(cc_find(iVar2, iVar1) == 1)
+		cc_resetopname()
+	iVar2 = iVar2 - 1
+}
+if_sethide(iVar1, 1)
+script_6364(iVar1)
+return

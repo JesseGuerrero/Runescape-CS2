@@ -1,0 +1,15 @@
+//script1100(1100)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = iVar0 + load_varpbit(3600)
+iVar0 = iVar0 + load_varpbit(3601)
+iVar0 = iVar0 + load_varpbit(3602)
+iVar0 = iVar0 + load_varpbit(3603)
+iVar0 = iVar0 + load_varpbit(3604)
+iVar0 = iVar0 + load_varpbit(3605)
+iVar0 = iVar0 + load_varpbit(3606)
+iVar0 = iVar0 + load_varpbit(3607)
+iVar0 = iVar0 + load_varpbit(3608)
+iVar0 = iVar0 + load_varpbit(3609)
+return iVar0
+return 0

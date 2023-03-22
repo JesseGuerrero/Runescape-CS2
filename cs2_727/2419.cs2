@@ -1,0 +1,43 @@
+//script2419(2419)()(void)
+if(load_varc(806) > 0)
+	if_sethide(if_gethash(765, 11), 1)
+if(load_varc(806) > 1)
+	if_setmodel(if_gethash(765, 5), 46964)
+if(load_varc(806) > 2)
+	if(load_varpbit(6180) == 75) {
+		if_setmodel(if_gethash(765, 5), 46956)
+		if_sethide(if_gethash(765, 15), 1)
+	} else  {
+		if_setmodel(if_gethash(765, 5), 46966)
+		if_sethide(if_gethash(765, 36), 1)
+	}
+if(load_varc(806) > 3)
+	if(load_varpbit(6180) == 75) {
+		if_setmodel(if_gethash(765, 5), 46965)
+		if_sethide(if_gethash(765, 17), 1)
+	} else  {
+		if_setmodel(if_gethash(765, 5), 46957)
+		if_sethide(if_gethash(765, 37), 1)
+		instr6213(if_gethash(765, 5), 1, "Inspect")
+	}
+if(load_varpbit(6194) == 0)
+	if_setmodelanim(if_gethash(765, 10), 11762)
+else
+	if(load_varpbit(6194) == 1)
+		if_setmodelanim(if_gethash(765, 10), 11761)
+	else
+		if(load_varpbit(6194) == 2)
+			if_setmodelanim(if_gethash(765, 10), 11760)
+		else
+			if(load_varpbit(6194) == 3)
+				if_setmodelanim(if_gethash(765, 10), 11759)
+			else
+				if(load_varpbit(6194) == 4)
+					if_setmodelanim(if_gethash(765, 10), 11763)
+				else
+					if(load_varpbit(6194) == 5)
+						if_setmodelanim(if_gethash(765, 10), 11764)
+					else
+						if(load_varpbit(6194) == 6)
+							if_setmodelanim(if_gethash(765, 10), 11765)
+return

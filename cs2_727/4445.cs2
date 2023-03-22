@@ -1,0 +1,16 @@
+//script4445(4445)()(void)
+string sVar0
+cc_deleteall(if_gethash(1110, 5))
+cc_deleteall(if_gethash(1110, 8))
+cc_deleteall(if_gethash(1110, 6))
+cc_deleteall(if_gethash(1110, 7))
+cc_deleteall(if_gethash(1110, 4))
+instr6213(if_gethash(1110, 91), 1, "Join chat")
+if_setgraphic(if_gethash(1110, 92), 6256)
+if_sethide(if_gethash(1110, 39), 1)
+if_sethide(if_gethash(1110, 64), 0)
+if_settext(if_gethash(1110, 65), "")
+sVar0 = "Join another" + "<br>" + "clan's clanchat."
+if_setonmouseover(if_gethash(1110, 91), script_4538, "IIisifdiiiiii", if_gethash(1110, 124), -2147483645, -1, sVar0, 120, 3793, 3793, 16101953, 13, 4, 0, -2147483647, -2147483646)
+instr6213(if_gethash(1110, 91), 1, "Join Clan Chat channel")
+return

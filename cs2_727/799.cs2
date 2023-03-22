@@ -1,0 +1,5 @@
+//script799(799)(int arg0)(int)
+if(inv_total(12526, 93) < 1)
+	return 0
+return 1
+return 0

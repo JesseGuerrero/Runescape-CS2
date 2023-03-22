@@ -1,0 +1,9 @@
+//script5957(5957)()(void)
+if(if_getspriteid(if_gethash(1260, 87)) == 5917)
+	if_setgraphic(if_gethash(1260, 87), 5919)
+else
+	if(if_getspriteid(if_gethash(1260, 87)) == 5919) {
+		if_setgraphic(if_gethash(1260, 87), 5917)
+		if_setgraphic(if_gethash(1260, 89), 5919)
+	}
+return

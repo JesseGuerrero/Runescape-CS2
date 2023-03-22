@@ -1,0 +1,8 @@
+//script738(738)()(void)
+string sVar0
+string sVar1
+sVar0 = to_string(load_varc(105) / 10)
+sVar1 = to_string(modulo(10, load_varc(105)))
+if_settext(if_gethash(269, 48), sVar0)
+if_settext(if_gethash(269, 49), sVar1)
+return

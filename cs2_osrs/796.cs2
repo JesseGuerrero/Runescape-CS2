@@ -1,0 +1,31 @@
+void script_796(int arg0, int arg1, Widget widget2, int arg3, int arg4, int arg5) {
+	Sprite sprite6;
+	int int7;
+	sprite6 = 812;
+	int7 = 813;
+	if (script_708() == 1) {
+		if (CHILD.setChild(widget2, arg3) == true) {
+			CHILD.setHidden(false);
+			CHILD.setSprite(sprite6);
+			CHILD.hookMouseHover(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, (Sprite)int7, null));
+			CHILD.hookMouseExit(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite6, null));
+		}
+		if (CHILD.setChild(widget2, arg4) == true) {
+			CHILD.setHidden(false);
+		}
+		if (CHILD.setChild(widget2, arg5) == true) {
+			CHILD.setSize(arg0 - 85, arg1, 0, 0);
+		}
+	} else {
+		if (CHILD.setChild(widget2, arg3) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget2, arg4) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget2, arg5) == true) {
+			CHILD.setSize(arg0, arg1, 0, 0);
+		}
+	}
+	return;
+}

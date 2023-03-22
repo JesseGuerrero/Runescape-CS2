@@ -1,0 +1,11 @@
+void script_1443(Widget widget0, int arg1) {
+	if (getClientCycle() < arg1) {
+		return;
+	}
+	widget0.setText("Accept");
+	widget0.setRGB(script_1444(3394560));
+	widget0.hookMouseEnter(&script_45(CTX_WIDGET, script_1444(10087936)));
+	widget0.hookMouseExit(&script_45(CTX_WIDGET, script_1444(3394560)));
+	widget0.hookFrame(null);
+	return;
+}

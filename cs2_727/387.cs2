@@ -1,0 +1,112 @@
+//script387(387)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+sVar0 = ""
+sVar1 = ""
+iVar1 = 0
+iVar2 = 0
+sVar0 = if_getoptionname(if_gethash(1028, 62), 1)
+iVar3 = enum_getoutputcount(3280)
+iVar4 = 0
+iVar5 = 73
+iVar6 = 3278
+iVar2 = iVar1 + 20
+iVar1 = max(stringwidth(495, sVar1), stringwidth(495, sVar0)) + 30
+iVar7 = 1
+sVar2 = ""
+if(load_varpbit(8093) == 1)
+	iVar7 = 0
+script_2719(67371070, iVar1, iVar7, sVar0, sVar2)
+instr6239(if_gethash(1028, 62), script_2718, "Isis1", if_gethash(1028, 62), sVar0, iVar1, sVar2, 1)
+iVar2 = (iVar2 + iVar1) + 10
+iVar8 = 0
+if(iVar7 == 0)
+	iVar8 = 1
+script_2719(67371071, iVar1, iVar8, sVar1, sVar2)
+instr6239(if_gethash(1028, 63), script_2718, "Isis1", if_gethash(1028, 63), sVar1, iVar1, sVar2, 1)
+iVar4 = min(enum_getoutputcount(iVar6), iVar3)
+iVar1 = max(scale(765, 5, 4), ((iVar4 + 1) * iVar5) + (89 - iVar5))
+iVar1 = (iVar4 * iVar5) + (89 - iVar5)
+if_setsize(if_gethash(1028, 59), 1, 0, 26, iVar1)
+if_setsize(if_gethash(1028, 67), 0, 1, 180, 0)
+if_setposition(if_gethash(1028, 91), 0, 1, 237, 0)
+script_389()
+iVar9 = load_varc(197) - 1
+if(iVar9 <= -1) {
+	if_sethide(if_gethash(1028, 139), 1)
+	if_sethide(if_gethash(1028, 138), 1)
+	if_sethide(if_gethash(1028, 133), 1)
+	if_sethide(if_gethash(1028, 134), 1)
+} else  {
+	if_sethide(if_gethash(1028, 139), 0)
+	if(load_varpbit(8246) == 1)
+		if(load_varpbit(8247) == 0)
+			if_sethide(if_gethash(1028, 138), 1)
+		else
+			if_sethide(if_gethash(1028, 138), 0)
+	if_sethide(if_gethash(1028, 133), 0)
+	if_sethide(if_gethash(1028, 134), 0)
+}
+iVar10 = -1
+sVar3 = ""
+iVar11 = -1
+iVar12 = 0
+iVar13 = 1
+iVar14 = enum(iVar6, iVar9, 'i', 'J')
+script_385(iVar14)
+iVar2 = if_getheight(if_gethash(1028, 67)) - (89 + 17)
+while(iVar12 < iVar4) {
+	iVar10 = enum(3280, iVar12, 'i', 'I')
+	if(iVar10 != -1) {
+		if(iVar12 == iVar9)
+			if_setposition(iVar10, 0, 0, 0, iVar5 * iVar12)
+		else
+			if_setposition(iVar10, 2, 0, iVar2, iVar5 * iVar12)
+		if(iVar12 <= iVar9 || iVar9 <= -1)
+			if_sendtofront(iVar10)
+		else
+			if_sendtoback(iVar10)
+		if_setsize(iVar10, 0, 0, 89, 89)
+		iVar14 = enum(iVar6, iVar12, 'i', 'J')
+		if(iVar14 != -1) {
+			if(arg0 == 1)
+				iVar11 = struct_param(1162, iVar14)
+			else
+				iVar11 = struct_param(1161, iVar14)
+			if(iVar12 == iVar9)
+				iVar13 = 1
+			else
+				iVar13 = 0
+			script_363(iVar10, iVar9, 3280, iVar11, 1, 89, 89, 2, iVar13, "", "")
+			instr6239(iVar10, script_351, "ii", -2147483644, iVar12 + 1)
+		} else 
+			script_363(iVar10, -1, -1, -1, 0, 0, 0, 0, 0, "", "")
+	}
+	iVar12 = iVar12 + 1
+}
+while(iVar12 < iVar3) {
+	iVar10 = enum(3280, iVar12, 'i', 'I')
+	if(iVar10 != -1)
+		if_sethide(iVar10, 1)
+	iVar12 = iVar12 + 1
+}
+iVar10 = enum(3280, iVar9, 'i', 'I')
+if(iVar10 != -1)
+	if_sendtofront(iVar10)
+return

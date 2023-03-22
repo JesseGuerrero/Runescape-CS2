@@ -1,0 +1,9 @@
+//script251(251)(int arg0)(void)
+if(script_133(42996800, 849335423, coord()) == 1)
+	if(detailget_flickering_effects() == 1)
+		if(if_gethide(arg0) == 1)
+			if_sethide(arg0, 0)
+	else
+		if(if_gethide(arg0) == 0)
+			if_sethide(arg0, 1)
+return

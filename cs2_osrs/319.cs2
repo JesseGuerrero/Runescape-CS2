@@ -1,0 +1,17 @@
+void script_319(boolean arg0, int arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	if (arg1 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	widget5.clearChildren();
+	widget6.hookOptionClick(null);
+	if (arg0 == true) {
+		widget4.setText("Requesting...");
+		widget5.hookFrame(&script_320(getClientCycle() + 45, widget2, widget3, widget5, widget6));
+		return;
+	}
+	widget4.setText("");
+	widget2.setIsHidden(false);
+	widget3.setIsHidden(true);
+	return;
+}

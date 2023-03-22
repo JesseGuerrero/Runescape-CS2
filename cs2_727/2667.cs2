@@ -1,0 +1,63 @@
+//script2667(2667)()(void)
+int iVar0
+int iVar1
+iVar0 = enum(2566, load_varpbit(6297), 'i', 'I')
+iVar1 = enum(2565, load_varpbit(6297), 'i', 'I')
+if(if_getx(iVar0) < 17 || if_getx(iVar0) > 57)
+	return
+else
+	if(if_gety(iVar0) > 12)
+		if(if_gety(iVar0) < 32) {
+			if_setposition(iVar0, 0, 0, 22, 37)
+			if_setposition(iVar1, 0, 0, 22, 37)
+			return
+		} else 
+			if(if_gety(iVar0) > 38)
+				if(if_gety(iVar0) < 58) {
+					if_setposition(iVar0, 0, 0, 48, 37)
+					if_setposition(iVar1, 0, 0, 48, 37)
+					return
+				} else 
+					if(if_gety(iVar0) > 70)
+						if(if_gety(iVar0) < 90) {
+							if_setposition(iVar0, 0, 0, 80, 37)
+							if_setposition(iVar1, 0, 0, 80, 37)
+							return
+						} else 
+							if(if_gety(iVar0) > 98)
+								if(if_gety(iVar0) < 118) {
+									if_setposition(iVar0, 0, 0, 108, 37)
+									if_setposition(iVar1, 0, 0, 108, 37)
+									return
+								} else 
+									if(if_gety(iVar0) > 128)
+										if(if_gety(iVar0) < 148) {
+											if_setposition(iVar0, 0, 0, 138, 37)
+											if_setposition(iVar1, 0, 0, 138, 37)
+											return
+										} else 
+											if(if_gety(iVar0) > 156)
+												if(if_gety(iVar0) < 176) {
+													if_setposition(iVar0, 0, 0, 166, 37)
+													if_setposition(iVar1, 0, 0, 166, 37)
+													return
+												} else 
+													if(if_gety(iVar0) > 184)
+														if(if_gety(iVar0) < 204) {
+															if_setposition(iVar0, 0, 0, 194, 37)
+															if_setposition(iVar1, 0, 0, 194, 37)
+															return
+														} else 
+															if(if_gety(iVar0) > 214)
+																if(if_gety(iVar0) < 234) {
+																	if_setposition(iVar0, 0, 0, 224, 37)
+																	if_setposition(iVar1, 0, 0, 224, 37)
+																	return
+																} else 
+																	if(if_gety(iVar0) > 242)
+																		if(if_gety(iVar0) < 262) {
+																			if_setposition(iVar0, 0, 0, 252, 37)
+																			if_setposition(iVar1, 0, 0, 252, 37)
+																			return
+																		}
+return

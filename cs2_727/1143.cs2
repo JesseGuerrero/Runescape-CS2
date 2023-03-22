@@ -1,0 +1,65 @@
+//script1143(1143)(int arg0, int arg1, int arg2, int arg3, string arg4, string arg5, string arg6, string arg7, string arg8, string arg9, string arg10, string arg11)(void)
+int iVar4
+string sVar0
+iVar4 = 0
+if(compare("", arg0) != 0)
+	if(arg0 != -1) {
+		if_setgraphic(if_gethash(884, 25), arg0)
+		if_settext(if_gethash(884, 26), arg0)
+		if_sethide(if_gethash(884, 7), 0)
+		instr6213(if_gethash(884, 7), 1, arg0)
+		if_setonmouseover(if_gethash(884, 7), script_38, "IIsii", if_gethash(884, 7), if_gethash(884, 14), arg1, 25, 190)
+		hook_mouse_exit(if_gethash(884, 7), script_40, "I", if_gethash(884, 14))
+		iVar4 = iVar4 + 1
+		if_setposition(if_gethash(884, 7), 0, 0, script_6031(iVar4).get(1), script_6031(iVar4).get(0))
+	} else  {
+		instr6220(if_gethash(884, 7))
+		if_sethide(if_gethash(884, 7), 1)
+	}
+if(compare("", arg2) != 0)
+	if(arg1 != -1) {
+		if_setgraphic(if_gethash(884, 23), arg1)
+		if_settext(if_gethash(884, 22), arg2)
+		if_sethide(if_gethash(884, 8), 0)
+		instr6213(if_gethash(884, 8), 1, arg2)
+		if_setonmouseover(if_gethash(884, 8), script_38, "IIsii", if_gethash(884, 8), if_gethash(884, 14), arg3, 25, 190)
+		hook_mouse_exit(if_gethash(884, 8), script_40, "I", if_gethash(884, 14))
+		iVar4 = iVar4 + 1
+		if_setposition(if_gethash(884, 8), 0, 0, script_6031(iVar4).get(1), script_6031(iVar4).get(0))
+	} else  {
+		instr6220(if_gethash(884, 8))
+		if_sethide(if_gethash(884, 8), 1)
+	}
+if(compare("", arg4) != 0)
+	if(arg2 != -1) {
+		if_setgraphic(if_gethash(884, 19), arg2)
+		if_settext(if_gethash(884, 20), arg4)
+		if_sethide(if_gethash(884, 9), 0)
+		instr6213(if_gethash(884, 9), 1, arg4)
+		if_setonmouseover(if_gethash(884, 9), script_38, "IIsii", if_gethash(884, 9), if_gethash(884, 14), arg5, 25, 190)
+		hook_mouse_exit(if_gethash(884, 9), script_40, "I", if_gethash(884, 14))
+		iVar4 = iVar4 + 1
+		if_setposition(if_gethash(884, 9), 0, 0, script_6031(iVar4).get(1), script_6031(iVar4).get(0))
+	} else  {
+		instr6220(if_gethash(884, 9))
+		if_sethide(if_gethash(884, 9), 1)
+	}
+if(compare("", arg6) != 0)
+	if(arg3 != -1) {
+		if_setgraphic(if_gethash(884, 16), arg3)
+		if_settext(if_gethash(884, 17), arg6)
+		if_sethide(if_gethash(884, 10), 0)
+		instr6213(if_gethash(884, 10), 1, arg6)
+		if_setonmouseover(if_gethash(884, 10), script_38, "IIsii", if_gethash(884, 10), if_gethash(884, 14), arg7, 25, 190)
+		hook_mouse_exit(if_gethash(884, 10), script_40, "I", if_gethash(884, 14))
+		iVar4 = iVar4 + 1
+		if_setposition(if_gethash(884, 10), 0, 0, script_6031(iVar4).get(1), script_6031(iVar4).get(0))
+	} else  {
+		instr6220(if_gethash(884, 10))
+		if_sethide(if_gethash(884, 10), 1)
+	}
+sVar0 = "When active, you will automatically fight back if attacked."
+if_setonmouseover(if_gethash(884, 11), script_38, "IIsii", if_gethash(884, 11), if_gethash(884, 14), sVar0, 25, 190)
+hook_mouse_exit(if_gethash(884, 11), script_40, "I", if_gethash(884, 14))
+hook_mouse_exit(if_gethash(884, 4), script_40, "I", if_gethash(884, 14))
+return

@@ -1,0 +1,6 @@
+void script_1518(int arg0, int arg1, int arg2, int arg3) {
+	script_1520(arg0, arg1, arg2, arg3);
+	CHILD.hookClanList(&script_1519(CTX_WIDGET, CTX_WIDGET_CHILD, arg0, arg1, arg2, (boolean)arg3));
+	CHILD.hookVARP(&script_1519(CTX_WIDGET, CTX_WIDGET_CHILD, arg0, arg1, arg2, (boolean)arg3), 1430);
+	return;
+}

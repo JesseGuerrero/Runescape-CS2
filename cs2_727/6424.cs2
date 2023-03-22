@@ -1,0 +1,3 @@
+//script6424(6424)()(void)
+if_settext(if_gethash(1309, 36), "Cancel pending invitation")
+return

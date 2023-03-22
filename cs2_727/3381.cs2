@@ -1,0 +1,9 @@
+//script3381(3381)(int arg0, int arg1)(void)
+arg1 = arg1 + 1
+instr6342(arg0, script_3381, "Ii", arg0, arg1)
+if(arg1 > 1) {
+	store_varc(1273, 1)
+	instr6342(arg0, None, "")
+	script_2945()
+}
+return

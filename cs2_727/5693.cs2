@@ -1,0 +1,18 @@
+//script5693(5693)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+string sVar0
+iVar2 = 0
+iVar3 = 0
+sVar0 = "Members only"
+if(cc_find(arg0, if_gethash(1218, 72)) == 1) {
+	if_setposition(if_gethash(1218, 81), 0, 0, cc_gety(), cc_getx())
+	if(arg1 == 1)
+		sVar0 = "Level up to unlock this item!"
+	iVar2 = stringwidth(3793, sVar0) + 10
+	iVar3 = (paramheight(sVar0, 3793, iVar2) * 15) + 10
+	if_setsize(if_gethash(1218, 81), 0, 0, iVar3, iVar2)
+	if_settext(if_gethash(1218, 195), sVar0)
+	if_sethide(if_gethash(1218, 81), 0)
+}
+return

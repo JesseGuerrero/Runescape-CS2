@@ -1,0 +1,17 @@
+//script749(749)(int arg0)(void)
+if(arg0 == 1) {
+	if(cc_find(0, if_gethash(18, 29)) == 1)
+		cc_setgraphic(6135)
+	if(cc_find(1, if_gethash(18, 29)) == 1)
+		cc_setgraphic(6134)
+	if(cc_find(2, if_gethash(18, 29)) == 1)
+		cc_setgraphic(6136)
+} else  {
+	if(cc_find(0, if_gethash(18, 29)) == 1)
+		cc_setgraphic(6132)
+	if(cc_find(1, if_gethash(18, 29)) == 1)
+		cc_setgraphic(6131)
+	if(cc_find(2, if_gethash(18, 29)) == 1)
+		cc_setgraphic(6133)
+}
+return

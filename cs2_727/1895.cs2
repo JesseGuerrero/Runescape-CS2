@@ -1,0 +1,131 @@
+//script1895(1895)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+cc_deleteall(arg0)
+iVar2 = friend_count()
+if(iVar2 == -2) {
+	cc_create(0, 4, arg0)
+	cc_settextfont(496)
+	cc_settext("Loading Friends List - Please wait...")
+	cc_setposition(0, 0, 0, 0)
+	cc_setsize(0, 0, 100, 138)
+	cc_setcolor(ffff64)
+	cc_settextshadow(1)
+	return
+} else 
+	if(iVar2 == -1) {
+		cc_create(0, 4, arg0)
+		cc_settextfont(496)
+		cc_settext("Connecting to Friend Server - Please wait...")
+		cc_setposition(0, 0, 0, 0)
+		cc_setsize(0, 0, 100, 138)
+		cc_setcolor(ffff64)
+		cc_settextshadow(1)
+		return
+	}
+iVar3 = 0
+iVar4 = (((if_getx(if_gethash(1108, 21)) + if_getx(if_gethash(1108, 29))) + 14) - parawidth(" ", 496, 2147483647)) - if_getx(if_gethash(1108, 22))
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+iVar5 = 0
+sVar3 = ""
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+while(iVar3 < iVar2) {
+	iVar8 = iVar3 * 3
+	iVar9 = (iVar3 * 16) + 2
+	sVar0 = friend_getnames(iVar3).get(0)
+	if(compare("", sVar3) != 0)
+		iVar6 = 1
+	else
+		iVar6 = 0
+	if(iVar6 == 1)
+		sVar1 = "    " + sVar0
+	else
+		sVar1 = sVar0
+	cc_create(iVar8, 4, arg0)
+	cc_settextfont(496)
+	cc_setposition(0, 0, iVar9, 0)
+	cc_setsize(0, 0, 15, iVar4)
+	cc_setcolor(ffff64)
+	cc_settextshadow(1)
+	if(parawidth(sVar1, 496, 2147483647) > iVar4) {
+		if(parawidth(sVar1 + "...", 496, 2147483647) > iVar4)
+			while(string_length(sVar1) > 0)
+				sVar1 = substring(sVar1, string_length(sVar1) - 1, 0)
+		cc_settext(sVar1 + "...")
+		if(iVar6 == 1) {
+			iVar5 = parawidth("Last known as: " + sVar3, 496, 2147483647) + 8
+			if(iVar5 > if_getwidth(arg0))
+				sVar2 = sVar0 + "<br>" + "Last known as:" + "<br>" + sVar3
+			else
+				sVar2 = sVar0 + "<br>" + "Last known as: " + sVar3
+		} else 
+			sVar2 = sVar0
+		cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1108, 25), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		instr6092(script_40, "I", if_gethash(1108, 25))
+	} else 
+		if(iVar6 == 1) {
+			cc_settext(sVar1)
+			iVar5 = parawidth("Last known as: " + sVar3, 496, 2147483647) + 8
+			if(iVar5 > if_getwidth(arg0))
+				sVar2 = "Last known as:" + "<br>" + sVar3
+			else
+				sVar2 = "Last known as: " + sVar3
+			cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1108, 25), -2147483645, iVar3, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			instr6092(script_40, "I", if_gethash(1108, 25))
+		} else 
+			cc_settext(sVar0)
+	cc_create(iVar8 + 1, 5, arg0)
+	cc_setgraphic(2313)
+	cc_setsize(0, 0, 14, 14)
+	cc_setposition(0, 0, iVar9, 0)
+	if(iVar6 == 0)
+		cc_sethide(1)
+	cc_create(iVar8 + 2, 4, arg0)
+	cc_settextfont(496)
+	cc_settext(enum(5853, friend_getrank(iVar3), 'i', 's'))
+	cc_setposition(0, 0, iVar9, 137)
+	cc_setsize(0, 0, 15, 131)
+	cc_setcolor(ffffff)
+	cc_settextshadow(1)
+	cc_setop(enum(5853, 0, 'i', 's'), 1)
+	cc_setop(enum(5853, 1, 'i', 's'), 2)
+	cc_setop(enum(5853, 2, 'i', 's'), 3)
+	cc_setop(enum(5853, 3, 'i', 's'), 4)
+	cc_setop(enum(5853, 4, 'i', 's'), 5)
+	cc_setop(enum(5853, 5, 'i', 's'), 6)
+	cc_setop(enum(5853, 6, 'i', 's'), 7)
+	instr6687(script_197, "ii", iVar3, -2147483644)
+	iVar3 = iVar3 + 1
+}
+iVar10 = 0
+iVar11 = 0
+if(iVar3 > 12) {
+	iVar10 = if_getscrolly(arg0)
+	iVar11 = (iVar3 * 16) + 4
+	if_setscrollsize(arg0, iVar11, 0)
+	if(iVar10 > iVar11)
+		iVar10 = iVar11
+	script_72(arg1, arg0, iVar10)
+} else  {
+	if_setscrollsize(arg0, 0, 0)
+	if_setscrollpos(arg0, 0, 0)
+	script_72(arg1, arg0, 0)
+}
+return

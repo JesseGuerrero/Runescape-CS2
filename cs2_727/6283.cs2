@@ -1,0 +1,5 @@
+//script6283(6283)()(void)
+if_sethide(if_gethash(1294, 38), 1)
+if_setposition(if_gethash(1294, 39), 0, 1, 10, 0)
+if_setposition(if_gethash(1294, 40), 0, 1, 157, 0)
+return

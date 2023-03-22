@@ -1,0 +1,10 @@
+//script2625(2625)(int arg0, int arg1)(void)
+if(arg0 == 84)
+	script_2621()
+else
+	if(if_gethide(if_gethash(850, 1)) == 0)
+		if(string_indexof_char("abcdefghijklmnopqrst", 0, char_tolowercase(arg1)) != -1)
+			script_2621()
+		else
+			return
+return

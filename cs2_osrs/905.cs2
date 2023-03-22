@@ -1,0 +1,26 @@
+void script_905(int arg0, DataMap datamap1, boolean arg2) {
+	Widget widget3;
+	Widget widget4;
+	int int5;
+	Widget widget6;
+	if (script_1701(-1, -1) == 0) {
+		return;
+	}
+	widget3 = datamap('I', 'I', datamap1, widget(161, 13));
+	widget4 = datamap('i', 'I', 1137, 3);
+	widget4 = datamap('I', 'I', datamap1, widget4);
+	if (widget3 != null && arg0 == 13 && VARPBIT[4681] == 1 && hasChild(widget4) == true && hasChild(widget3) == true) {
+		sendCloseWidgetPacket();
+		return;
+	}
+	int5 = script_986(arg0);
+	if (int5 == -1 || int5 == VARPBIT[3756] - 1) {
+		return;
+	}
+	widget6 = datamap('i', 'I', 1137, int5);
+	widget6 = datamap('I', 'I', datamap1, widget6);
+	if (hasChild(widget6) == true) {
+		script_71(datamap1, int5, arg2);
+	}
+	return;
+}

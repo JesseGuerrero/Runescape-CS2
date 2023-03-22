@@ -1,0 +1,494 @@
+//script4724(4724)(int arg0)(int, int, int, int, int, int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+if(clan_vars_enabled() == 1) {
+	switch(arg0) {
+		case default:
+			break
+		case 1:
+			iVar3 = load_clan_varbit(2148)
+			iVar1 = load_clan_varbit(2139)
+			iVar2 = load_clan_varbit(2140)
+			iVar4 = load_clan_varbit(2145)
+			iVar5 = load_clan_varbit(2146)
+			iVar6 = load_clan_varbit(2147)
+			break
+		case 2:
+			iVar3 = load_clan_varbit(2165)
+			iVar1 = load_clan_varbit(2156)
+			iVar2 = load_clan_varbit(2157)
+			iVar4 = load_clan_varbit(2162)
+			iVar5 = load_clan_varbit(2163)
+			iVar6 = load_clan_varbit(2164)
+			break
+		case 3:
+			iVar3 = load_clan_varbit(2182)
+			iVar1 = load_clan_varbit(2173)
+			iVar2 = load_clan_varbit(2174)
+			iVar4 = load_clan_varbit(2179)
+			iVar5 = load_clan_varbit(2180)
+			iVar6 = load_clan_varbit(2181)
+			break
+
+	}
+	switch(iVar3) {
+		case default:
+			break
+		case 21:
+			iVar7 = load_clan_varbit(2330)
+			iVar8 = load_clan_varbit(2331)
+			iVar10 = load_clan_varbit(2336)
+			iVar11 = load_clan_varbit(2337)
+			iVar12 = load_clan_varbit(2338)
+			break
+		case 22:
+			iVar7 = load_clan_varbit(2340)
+			iVar8 = load_clan_varbit(2341)
+			iVar10 = load_clan_varbit(2346)
+			iVar11 = load_clan_varbit(2347)
+			iVar12 = load_clan_varbit(2348)
+			break
+		case 23:
+			iVar7 = load_clan_varbit(2350)
+			iVar8 = load_clan_varbit(2351)
+			iVar10 = load_clan_varbit(2356)
+			iVar11 = load_clan_varbit(2357)
+			iVar12 = load_clan_varbit(2358)
+			break
+		case 24:
+			iVar7 = load_clan_varbit(2360)
+			iVar8 = load_clan_varbit(2361)
+			iVar10 = load_clan_varbit(2366)
+			iVar11 = load_clan_varbit(2367)
+			iVar12 = load_clan_varbit(2368)
+			break
+		case 25:
+			iVar7 = load_clan_varbit(2370)
+			iVar8 = load_clan_varbit(2371)
+			iVar10 = load_clan_varbit(2376)
+			iVar11 = load_clan_varbit(2377)
+			iVar12 = load_clan_varbit(2378)
+			break
+		case 26:
+			iVar7 = load_clan_varbit(2380)
+			iVar8 = load_clan_varbit(2381)
+			iVar10 = load_clan_varbit(2386)
+			iVar11 = load_clan_varbit(2387)
+			iVar12 = load_clan_varbit(2388)
+			break
+		case 27:
+			iVar7 = load_clan_varbit(2390)
+			iVar8 = load_clan_varbit(2391)
+			iVar10 = load_clan_varbit(2396)
+			iVar11 = load_clan_varbit(2397)
+			iVar12 = load_clan_varbit(2398)
+			break
+		case 28:
+			iVar7 = load_clan_varbit(2400)
+			iVar8 = load_clan_varbit(2401)
+			iVar10 = load_clan_varbit(2406)
+			iVar11 = load_clan_varbit(2407)
+			iVar12 = load_clan_varbit(2408)
+			break
+		case 31:
+			iVar7 = load_clan_varbit(2460)
+			iVar8 = load_clan_varbit(2461)
+			iVar10 = load_clan_varbit(2466)
+			iVar11 = load_clan_varbit(2467)
+			iVar12 = load_clan_varbit(2468)
+			break
+		case 32:
+			iVar7 = load_clan_varbit(2470)
+			iVar8 = load_clan_varbit(2471)
+			iVar10 = load_clan_varbit(2476)
+			iVar11 = load_clan_varbit(2477)
+			iVar12 = load_clan_varbit(2478)
+			break
+		case 33:
+			iVar7 = load_clan_varbit(2480)
+			iVar8 = load_clan_varbit(2481)
+			iVar10 = load_clan_varbit(2486)
+			iVar11 = load_clan_varbit(2487)
+			iVar12 = load_clan_varbit(2488)
+			break
+		case 34:
+			iVar7 = load_clan_varbit(2490)
+			iVar8 = load_clan_varbit(2491)
+			iVar10 = load_clan_varbit(2496)
+			iVar11 = load_clan_varbit(2497)
+			iVar12 = load_clan_varbit(2498)
+			break
+		case 35:
+			iVar7 = load_clan_varbit(2500)
+			iVar8 = load_clan_varbit(2501)
+			iVar10 = load_clan_varbit(2506)
+			iVar11 = load_clan_varbit(2507)
+			iVar12 = load_clan_varbit(2508)
+			break
+		case 41:
+			iVar7 = load_clan_varbit(2410)
+			iVar8 = load_clan_varbit(2411)
+			iVar10 = load_clan_varbit(2416)
+			iVar11 = load_clan_varbit(2417)
+			iVar12 = load_clan_varbit(2418)
+			break
+		case 42:
+			iVar7 = load_clan_varbit(2420)
+			iVar8 = load_clan_varbit(2421)
+			iVar10 = load_clan_varbit(2426)
+			iVar11 = load_clan_varbit(2427)
+			iVar12 = load_clan_varbit(2428)
+			break
+		case 43:
+			iVar7 = load_clan_varbit(2430)
+			iVar8 = load_clan_varbit(2431)
+			iVar10 = load_clan_varbit(2436)
+			iVar11 = load_clan_varbit(2437)
+			iVar12 = load_clan_varbit(2438)
+			break
+		case 44:
+			iVar7 = load_clan_varbit(2440)
+			iVar8 = load_clan_varbit(2441)
+			iVar10 = load_clan_varbit(2446)
+			iVar11 = load_clan_varbit(2447)
+			iVar12 = load_clan_varbit(2448)
+			break
+		case 45:
+			iVar7 = load_clan_varbit(2450)
+			iVar8 = load_clan_varbit(2451)
+			iVar10 = load_clan_varbit(2456)
+			iVar11 = load_clan_varbit(2457)
+			iVar12 = load_clan_varbit(2458)
+			break
+		case 51:
+			iVar7 = load_clan_varbit(2510)
+			iVar8 = load_clan_varbit(2511)
+			iVar10 = load_clan_varbit(2516)
+			iVar11 = load_clan_varbit(2517)
+			iVar12 = load_clan_varbit(2518)
+			break
+		case 100:
+			iVar7 = load_clan_varbit(2210)
+			iVar8 = load_clan_varbit(2211)
+			iVar10 = load_clan_varbit(2216)
+			iVar11 = load_clan_varbit(2217)
+			iVar12 = load_clan_varbit(2218)
+			break
+		case 101:
+			iVar7 = load_clan_varbit(2220)
+			iVar8 = load_clan_varbit(2221)
+			iVar10 = load_clan_varbit(2226)
+			iVar11 = load_clan_varbit(2227)
+			iVar12 = load_clan_varbit(2228)
+			break
+		case 102:
+			iVar7 = load_clan_varbit(2240)
+			iVar8 = load_clan_varbit(2241)
+			iVar10 = load_clan_varbit(2246)
+			iVar11 = load_clan_varbit(2247)
+			iVar12 = load_clan_varbit(2248)
+			break
+		case 103:
+			iVar7 = load_clan_varbit(2190)
+			iVar8 = load_clan_varbit(2191)
+			iVar10 = load_clan_varbit(2196)
+			iVar11 = load_clan_varbit(2197)
+			iVar12 = load_clan_varbit(2198)
+			break
+		case 104:
+			iVar7 = load_clan_varbit(2230)
+			iVar8 = load_clan_varbit(2231)
+			iVar10 = load_clan_varbit(2236)
+			iVar11 = load_clan_varbit(2237)
+			iVar12 = load_clan_varbit(2238)
+			break
+		case 105:
+			iVar7 = load_clan_varbit(2200)
+			iVar8 = load_clan_varbit(2201)
+			iVar10 = load_clan_varbit(2206)
+			iVar11 = load_clan_varbit(2207)
+			iVar12 = load_clan_varbit(2208)
+			break
+		case 106:
+			iVar7 = load_clan_varbit(2260)
+			iVar8 = load_clan_varbit(2261)
+			iVar10 = load_clan_varbit(2266)
+			iVar11 = load_clan_varbit(2267)
+			iVar12 = load_clan_varbit(2268)
+			break
+		case 107:
+			iVar7 = load_clan_varbit(2270)
+			iVar8 = load_clan_varbit(2271)
+			iVar10 = load_clan_varbit(2276)
+			iVar11 = load_clan_varbit(2277)
+			iVar12 = load_clan_varbit(2278)
+			break
+		case 108:
+			iVar7 = load_clan_varbit(2280)
+			iVar8 = load_clan_varbit(2281)
+			iVar10 = load_clan_varbit(2286)
+			iVar11 = load_clan_varbit(2287)
+			iVar12 = load_clan_varbit(2288)
+			break
+		case 109:
+			iVar7 = load_clan_varbit(2250)
+			iVar8 = load_clan_varbit(2251)
+			iVar10 = load_clan_varbit(2256)
+			iVar11 = load_clan_varbit(2257)
+			iVar12 = load_clan_varbit(2258)
+			break
+		case 110:
+			iVar7 = load_clan_varbit(2290)
+			iVar8 = load_clan_varbit(2291)
+			iVar10 = load_clan_varbit(2296)
+			iVar11 = load_clan_varbit(2297)
+			iVar12 = load_clan_varbit(2298)
+			break
+		case 111:
+			iVar7 = load_clan_varbit(2300)
+			iVar8 = load_clan_varbit(2301)
+			iVar10 = load_clan_varbit(2306)
+			iVar11 = load_clan_varbit(2307)
+			iVar12 = load_clan_varbit(2308)
+			break
+		case 112:
+			iVar7 = load_clan_varbit(2310)
+			iVar8 = load_clan_varbit(2311)
+			iVar10 = load_clan_varbit(2316)
+			iVar11 = load_clan_varbit(2317)
+			iVar12 = load_clan_varbit(2318)
+			break
+		case 113:
+			iVar7 = load_clan_varbit(2320)
+			iVar8 = load_clan_varbit(2321)
+			iVar10 = load_clan_varbit(2326)
+			iVar11 = load_clan_varbit(2327)
+			iVar12 = load_clan_varbit(2328)
+			break
+
+	}
+}
+iVar13 = 1
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = -1
+iVar27 = -1
+iVar28 = -1
+iVar29 = -1
+iVar28 = enum(4043, iVar1, 'i', 'g')
+if(iVar28 == -1)
+	return 0, 0, 0, 0, 0, 0
+iVar29 = enum(iVar28, iVar2, 'i', 'g')
+if(iVar29 == -1)
+	return 0, 0, 0, 0, 0, 0
+while(iVar13 <= 3) {
+	iVar26 = enum(iVar29, iVar13, 'i', 'g')
+	if(iVar26 != -1) {
+		switch(iVar13) {
+			case default:
+				break
+			case 1:
+				iVar27 = enum(iVar26, iVar4, 'i', 'J')
+				break
+			case 2:
+				iVar27 = enum(iVar26, iVar5, 'i', 'J')
+				break
+			case 3:
+				iVar27 = enum(iVar26, iVar6, 'i', 'J')
+				break
+
+		}
+		if(iVar27 != -1) {
+			if(struct_param(1571, iVar27) == 1)
+				iVar14 = iVar14 + struct_param(1573, iVar27)
+			else
+				if(struct_param(1571, iVar27) == 2)
+					iVar15 = iVar15 + struct_param(1573, iVar27)
+				else
+					if(struct_param(1571, iVar27) == 5)
+						iVar16 = iVar16 + struct_param(1573, iVar27)
+					else
+						if(struct_param(1571, iVar27) == 9)
+							iVar17 = iVar17 + struct_param(1573, iVar27)
+						else
+							if(struct_param(1571, iVar27) == 8)
+								iVar18 = iVar18 + struct_param(1573, iVar27)
+							else
+								if(struct_param(1571, iVar27) == 7)
+									iVar19 = iVar19 + struct_param(1573, iVar27)
+			if(struct_param(1575, iVar27) == 1)
+				iVar14 = iVar14 + struct_param(1577, iVar27)
+			else
+				if(struct_param(1575, iVar27) == 2)
+					iVar15 = iVar15 + struct_param(1577, iVar27)
+				else
+					if(struct_param(1575, iVar27) == 5)
+						iVar16 = iVar16 + struct_param(1577, iVar27)
+					else
+						if(struct_param(1575, iVar27) == 9)
+							iVar17 = iVar17 + struct_param(1577, iVar27)
+						else
+							if(struct_param(1575, iVar27) == 8)
+								iVar18 = iVar18 + struct_param(1577, iVar27)
+							else
+								if(struct_param(1575, iVar27) == 7)
+									iVar19 = iVar19 + struct_param(1577, iVar27)
+			if(struct_param(1579, iVar27) == 1)
+				iVar14 = iVar14 + struct_param(1581, iVar27)
+			else
+				if(struct_param(1579, iVar27) == 2)
+					iVar15 = iVar15 + struct_param(1581, iVar27)
+				else
+					if(struct_param(1579, iVar27) == 5)
+						iVar16 = iVar16 + struct_param(1581, iVar27)
+					else
+						if(struct_param(1579, iVar27) == 9)
+							iVar17 = iVar17 + struct_param(1581, iVar27)
+						else
+							if(struct_param(1579, iVar27) == 8)
+								iVar18 = iVar18 + struct_param(1581, iVar27)
+							else
+								if(struct_param(1579, iVar27) == 7)
+									iVar19 = iVar19 + struct_param(1581, iVar27)
+		}
+	}
+	iVar26 = -1
+	iVar13 = iVar13 + 1
+}
+iVar13 = 1
+if(iVar7 == iVar1)
+	if(iVar8 == iVar2) {
+		iVar28 = enum(4043, iVar7, 'i', 'g')
+		iVar29 = enum(iVar28, iVar8, 'i', 'g')
+		while(iVar13 <= 3) {
+			iVar26 = enum(iVar29, iVar13, 'i', 'g')
+			if(iVar26 != -1) {
+				switch(iVar13) {
+					case default:
+						break
+					case 1:
+						iVar27 = enum(iVar26, iVar10, 'i', 'J')
+						break
+					case 2:
+						iVar27 = enum(iVar26, iVar11, 'i', 'J')
+						break
+					case 3:
+						iVar27 = enum(iVar26, iVar12, 'i', 'J')
+						break
+
+				}
+				if(iVar27 != -1) {
+					if(struct_param(1571, iVar27) == 1)
+						iVar20 = iVar20 + struct_param(1573, iVar27)
+					else
+						if(struct_param(1571, iVar27) == 2)
+							iVar21 = iVar21 + struct_param(1573, iVar27)
+						else
+							if(struct_param(1571, iVar27) == 5)
+								iVar22 = iVar22 + struct_param(1573, iVar27)
+							else
+								if(struct_param(1571, iVar27) == 9)
+									iVar23 = iVar23 + struct_param(1573, iVar27)
+								else
+									if(struct_param(1571, iVar27) == 8)
+										iVar24 = iVar24 + struct_param(1573, iVar27)
+									else
+										if(struct_param(1571, iVar27) == 7)
+											iVar25 = iVar25 + struct_param(1573, iVar27)
+					if(struct_param(1575, iVar27) == 1)
+						iVar20 = iVar20 + struct_param(1577, iVar27)
+					else
+						if(struct_param(1575, iVar27) == 2)
+							iVar21 = iVar21 + struct_param(1577, iVar27)
+						else
+							if(struct_param(1575, iVar27) == 5)
+								iVar22 = iVar22 + struct_param(1577, iVar27)
+							else
+								if(struct_param(1575, iVar27) == 9)
+									iVar23 = iVar23 + struct_param(1577, iVar27)
+								else
+									if(struct_param(1575, iVar27) == 8)
+										iVar24 = iVar24 + struct_param(1577, iVar27)
+									else
+										if(struct_param(1575, iVar27) == 7)
+											iVar25 = iVar25 + struct_param(1577, iVar27)
+					if(struct_param(1579, iVar27) == 1)
+						iVar20 = iVar20 + struct_param(1581, iVar27)
+					else
+						if(struct_param(1579, iVar27) == 2)
+							iVar21 = iVar21 + struct_param(1581, iVar27)
+						else
+							if(struct_param(1579, iVar27) == 5)
+								iVar22 = iVar22 + struct_param(1581, iVar27)
+							else
+								if(struct_param(1579, iVar27) == 9)
+									iVar23 = iVar23 + struct_param(1581, iVar27)
+								else
+									if(struct_param(1579, iVar27) == 8)
+										iVar24 = iVar24 + struct_param(1581, iVar27)
+									else
+										if(struct_param(1579, iVar27) == 7)
+											iVar25 = iVar25 + struct_param(1581, iVar27)
+				}
+			}
+			iVar26 = -1
+			iVar13 = iVar13 + 1
+		}
+	}
+iVar14 = max(iVar14 - iVar20, 0)
+iVar15 = max(iVar15 - iVar21, 0)
+iVar16 = max(iVar16 - iVar22, 0)
+iVar17 = max(iVar17 - iVar23, 0)
+iVar18 = max(iVar18 - iVar24, 0)
+iVar19 = max(iVar19 - iVar25, 0)
+return iVar19, iVar18, iVar17, iVar16, iVar15, iVar14
+return 0, 0, 0, 0, 0, 0

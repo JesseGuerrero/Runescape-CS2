@@ -1,0 +1,14 @@
+void script_619(int arg0, int arg1, string string2) {
+	int int2;
+	boolean boolean3;
+	int int4;
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	int2 = arg0 / 256;
+	boolean3 = script_633(isBitFlagged(arg0, 1));
+	int4 = bitAnd(arg0, 252) / 4;
+	script_601(int2, string2);
+	script_621(int2, boolean3, string2, int4, arg1);
+	return;
+}

@@ -1,0 +1,21 @@
+//script6054(6054)()(void)
+int iVar0
+int iVar1
+iVar0 = 82116692
+sound_vorbis_rate(255, 50, 0, 1, 14351)
+iVar1 = 1
+if(load_varc(1803) == 1) {
+	store_varc(1803, 0)
+	iVar1 = 1
+	if_sethflip(if_gethash(1253, 96), 0)
+	if_sethflip(if_gethash(1253, 97), 0)
+	if_sethflip(if_gethash(1253, 98), 0)
+} else  {
+	store_varc(1803, 1)
+	iVar1 = 0
+	if_sethflip(if_gethash(1253, 96), 1)
+	if_sethflip(if_gethash(1253, 97), 1)
+	if_sethflip(if_gethash(1253, 98), 1)
+}
+instr6342(iVar0, script_6055, "Ii", -2147483645, iVar1)
+return

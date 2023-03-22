@@ -1,0 +1,3 @@
+//script6379(6379)(int arg0)(int)
+return arg0
+return -1

@@ -1,0 +1,8 @@
+//script74(74)(int arg0, int arg1, int arg2, string arg3)(string)
+int iVar3
+string sVar0
+sVar0 = ""
+iVar3 = -1
+sVar0 = script_802(iVar3, arg0, arg1, arg2, arg0).get(1)
+return sVar0
+return ""

@@ -1,0 +1,8 @@
+//script4336(4336)(int arg0)(void)
+if(load_clan_setting_varbit(9) == 0)
+	if(activeclansettings_getaffinedcount() >= 5) {
+		if_settext(arg0, removetags(load_clan_setting_var_string(1)))
+		return
+	}
+if_settext(arg0, "")
+return

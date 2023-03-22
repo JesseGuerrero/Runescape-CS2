@@ -1,0 +1,17 @@
+int script_484(int arg0, Widget widget1, int arg2, Item item3, int arg4) {
+	CHILD.createChild(widget1, 6, arg2);
+	arg2 = arg2 + 1;
+	_CHILD.createChild(widget1, 4, arg2);
+	arg2 = arg2 + 1;
+	CHILD.setPosition(arg0, 74, 0, 0);
+	_CHILD.setPosition(arg0, 102, 0, 0);
+	CHILD.setSize(28, 28, 0, 0);
+	_CHILD.setSize(28, 13, 0, 0);
+	_CHILD.setFont(494);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setTextAntiMacro(true);
+	script_241(1, item3, arg4);
+	CHILD.hookContainer(&script_240(true, item3, arg4, CTX_WIDGET, getChildId(), getChildId()), 93, 94);
+	CHILD.hookVARP(&script_240(true, item3, arg4, CTX_WIDGET, getChildId(), getChildId()), 638, 375, 1139, 1140);
+	return arg2;
+}

@@ -1,0 +1,44 @@
+//script495(495)(int arg0)(void)
+int iVar1
+iVar1 = 0
+switch(arg0) {
+	case default:
+		return
+
+	case 66519184:
+		iVar1 = load_varpbit(7520)
+		break
+	case 66519186:
+		iVar1 = load_varpbit(7521)
+		break
+	case 66519188:
+		iVar1 = load_varpbit(7526)
+		break
+	case 66519190:
+		iVar1 = load_varpbit(7527)
+		break
+	case 66519192:
+		iVar1 = load_varpbit(7530)
+		break
+	case 66519194:
+		iVar1 = load_varpbit(7531)
+		break
+	case 66519196:
+		iVar1 = load_varpbit(7532)
+		break
+	case 66519198:
+		iVar1 = load_varpbit(7533)
+		break
+	case 66519200:
+		iVar1 = load_varpbit(7534)
+		break
+	case 66519202:
+		iVar1 = load_varpbit(7535)
+		break
+
+}
+if(iVar1 == 0)
+	if_setcolor(arg0, 0x585042)
+else
+	if_setcolor(arg0, 0xE6CA98)
+return

@@ -1,0 +1,12 @@
+//script5520(5520)()(void)
+script_5522()
+if(load_varc(1661) == 0) {
+	if_settext(if_gethash(906, 252), "Please wait. Validating...")
+	email_validation_submit_code(if_gettext(if_gethash(906, 306)))
+} else 
+	if(load_varc(1661) == 1) {
+		if_settext(if_gethash(906, 252), "Please wait. Setting email address...")
+		email_validation_change_address(if_gettext(if_gethash(906, 306)), if_gettext(if_gethash(906, 306)))
+	}
+store_varc(1661, -1)
+return

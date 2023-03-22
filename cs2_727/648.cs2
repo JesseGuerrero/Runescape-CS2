@@ -1,0 +1,12 @@
+//script648(648)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(void)
+int iVar5
+iVar5 = 0
+if(load_varc(2) == 1)
+	while(iVar5 < 6) {
+		script_41(script_626(iVar5))
+		iVar5 = iVar5 + 1
+	}
+if(if_gethide(if_gethash(105, 17)) == 1)
+	return
+script_569(arg0, arg1, arg2, arg3, arg4, arg0)
+return

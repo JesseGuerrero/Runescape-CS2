@@ -1,0 +1,102 @@
+boolean script_702(int arg0) {
+	int int1;
+	Skill skill2;
+	if (arg0 == 22 || arg0 == 23) {
+		if (VARPBIT[532] >= 7) {
+			return 1;
+		}
+		return 0;
+	}
+	if (arg0 == 24) {
+		return script_633(VARPBIT[1368]);
+	}
+	if (arg0 == 25) {
+		return script_633(VARPBIT[1369]);
+	}
+	if (arg0 == 26) {
+		return script_633(VARPBIT[1370]);
+	}
+	if (arg0 == 27) {
+		return script_633(VARPBIT[1367]);
+	}
+	if (arg0 == 28) {
+		return script_633(VARPBIT[2311]);
+	}
+	if (arg0 == 29) {
+		return script_633(VARPBIT[2312]);
+	}
+	if (arg0 == 30) {
+		return script_633(VARPBIT[2309]);
+	}
+	if (arg0 == 31) {
+		return script_633(VARPBIT[2310]);
+	}
+	if (arg0 == 32) {
+		return script_633(VARPBIT[1921]);
+	}
+	if (arg0 == 33) {
+		return script_633(VARPBIT[1920]);
+	}
+	if (arg0 == 34) {
+		return script_633(VARPBIT[1371]);
+	}
+	if (arg0 == 35) {
+		return script_633(VARPBIT[2055]);
+	}
+	int1 = 1;
+	skill2 = null;
+	if (arg0 == 42) {
+		if (VARP[101] >= VARPBIT[1782] && VARPBIT[1782] > 0) {
+			return true;
+		}
+		if (VARPBIT[4797] == 1) {
+			return true;
+		}
+		if (VARPBIT[5003] >= 3) {
+			return true;
+		}
+		skill2 = datamap('i', 'S', 681, int1);
+		while (skill2 != null) {
+			if (getSkillActualLvl(skill2) >= 99) {
+				return true;
+			}
+			int1 = int1 + 1;
+			skill2 = datamap('i', 'S', 681, int1);
+		}
+		return false;
+	}
+	if (arg0 == 40) {
+		return script_633(VARPBIT[1000]);
+	}
+	if (arg0 == 43) {
+		if (VARPBIT[4673] == 1) {
+			return true;
+		}
+		return false;
+	}
+	if (arg0 == 36) {
+		return script_633(VARPBIT[4732]);
+	}
+	if (arg0 == 37) {
+		return script_633(VARPBIT[4732]);
+	}
+	if (arg0 == 38) {
+		return script_633(VARPBIT[4732]);
+	}
+	if (arg0 == 39) {
+		return script_633(VARPBIT[4732]);
+	}
+	if (arg0 == 41) {
+		return script_633(VARPBIT[4802]);
+	}
+	if (arg0 == 44) {
+		return script_633(VARPBIT[5104]);
+	}
+	if (arg0 == 45) {
+		return script_633(VARPBIT[5597]);
+	}
+	if (arg0 == 46) {
+		return script_633(VARPBIT[5598]);
+	}
+	return true;
+}

@@ -1,0 +1,10 @@
+//script2947(2947)()(void)
+store_varc_string(321, "")
+store_varc_string(322, "")
+store_varc_string(323, "")
+store_varc_string(324, "")
+store_varc_string(325, "")
+if_sethide(if_gethash(667, 49), 1)
+if_sethide(if_gethash(670, 1), 1)
+if_sethide(if_gethash(763, 3), 1)
+return

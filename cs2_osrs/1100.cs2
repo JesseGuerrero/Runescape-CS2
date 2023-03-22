@@ -1,0 +1,4 @@
+void script_1100(boolean arg0, Widget widget1, string string2) {
+	script_1101(arg0, widget1, string2);
+	return;
+}

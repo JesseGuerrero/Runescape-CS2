@@ -1,0 +1,114 @@
+int, string, int, int, int, int, int, int, int, int script_242(int arg0) {
+	if (arg0 == 1) {
+		return 1, "A basic Air missile", 556, 1, 558, 1, -1, 0, -1, 0;
+	}
+	if (arg0 == 2) {
+		return 5, "A basic Water missile", 555, 1, 556, 1, 558, 1, -1, 0;
+	}
+	if (arg0 == 3) {
+		return 9, "A basic Earth missile", 557, 2, 556, 1, 558, 1, -1, 0;
+	}
+	if (arg0 == 4) {
+		return 13, "A basic Fire missile", 554, 3, 556, 2, 558, 1, -1, 0;
+	}
+	if (arg0 == 5) {
+		return 17, "A low level Air missile", 556, 2, 562, 1, -1, 0, -1, 0;
+	}
+	if (arg0 == 6) {
+		return 23, "A low level Water missile", 555, 2, 556, 2, 562, 1, -1, 0;
+	}
+	if (arg0 == 7) {
+		return 29, "A low level Earth missile", 557, 3, 556, 2, 562, 1, -1, 0;
+	}
+	if (arg0 == 8) {
+		return 35, "A low level Fire missile", 554, 4, 556, 3, 562, 1, -1, 0;
+	}
+	if (arg0 == 9) {
+		return 41, "A medium level Air missile", 556, 3, 560, 1, -1, 0, -1, 0;
+	}
+	if (arg0 == 10) {
+		return 47, "A medium level Water missile", 555, 3, 556, 3, 560, 1, -1, 0;
+	}
+	if (arg0 == 11) {
+		return 53, "A medium level Earth missile", 557, 4, 556, 3, 560, 1, -1, 0;
+	}
+	if (arg0 == 12) {
+		return 59, "A medium level Fire missile", 554, 5, 556, 4, 560, 1, -1, 0;
+	}
+	if (arg0 == 13) {
+		return 62, "A high level Air missile", 556, 5, 565, 1, -1, 0, -1, 0;
+	}
+	if (arg0 == 14) {
+		return 65, "A high level Water missile", 555, 7, 556, 5, 565, 1, -1, 0;
+	}
+	if (arg0 == 15) {
+		return 70, "A high level Earth missile", 557, 7, 556, 5, 565, 1, -1, 0;
+	}
+	if (arg0 == 16) {
+		return 75, "A high level Fire missile", 554, 7, 556, 5, 565, 1, -1, 0;
+	}
+	if (arg0 == 17) {
+		return 39, "Hits skeletons, ghosts, shades & zombies hard", 557, 2, 556, 2, 562, 1, -1, 0;
+	}
+	if (arg0 == 18) {
+		return 50, "A magic dart of slaying", 4170, 1, 560, 1, 558, 4, -1, 0;
+	}
+	if (arg0 == 19) {
+		return 60, "Summons the power of Guthix", 554, 1, 565, 2, 556, 4, 8843, 1;
+	}
+	if (arg0 == 20) {
+		return 60, "Summons the power of Zamorak", 554, 4, 565, 2, 556, 1, 2417, 1;
+	}
+	if (arg0 == 31) {
+		return 50, "A single target smoke attack", 562, 2, 560, 2, 554, 1, 556, 1;
+	}
+	if (arg0 == 32) {
+		return 52, "A single target shadow attack", 562, 2, 560, 2, 556, 1, 566, 1;
+	}
+	if (arg0 == 33) {
+		return 56, "A single target blood attack", 562, 2, 560, 2, 565, 1, -1, 0;
+	}
+	if (arg0 == 34) {
+		return 58, "A single target ice attack", 562, 2, 560, 2, 555, 2, -1, 0;
+	}
+	if (arg0 == 35) {
+		return 62, "A multi-target smoke attack", 562, 4, 560, 2, 554, 2, 556, 2;
+	}
+	if (arg0 == 36) {
+		return 64, "A multi-target shadow attack", 562, 4, 560, 2, 556, 1, 566, 2;
+	}
+	if (arg0 == 37) {
+		return 68, "A multi-target blood attack", 562, 4, 560, 2, 565, 2, -1, 0;
+	}
+	if (arg0 == 38) {
+		return 70, "A multi-target ice attack", 562, 4, 560, 2, 555, 4, -1, 0;
+	}
+	if (arg0 == 39) {
+		return 74, "A single target strong smoke attack", 560, 2, 565, 2, 554, 2, 556, 2;
+	}
+	if (arg0 == 40) {
+		return 76, "A single target strong shadow attack", 560, 2, 565, 2, 556, 2, 566, 2;
+	}
+	if (arg0 == 41) {
+		return 80, "A single target strong blood attack", 560, 2, 565, 4, -1, 0, -1, 0;
+	}
+	if (arg0 == 42) {
+		return 82, "A single target strong ice attack", 560, 2, 565, 2, 555, 3, -1, 0;
+	}
+	if (arg0 == 43) {
+		return 86, "A multi-target strong smoke attack", 560, 4, 565, 2, 554, 4, 556, 4;
+	}
+	if (arg0 == 44) {
+		return 88, "A multi-target strong shadow attack", 560, 4, 565, 2, 556, 3, 566, 3;
+	}
+	if (arg0 == 45) {
+		return 92, "A multi-target strong blood attack", 560, 4, 565, 4, 566, 1, -1, 0;
+	}
+	if (arg0 == 46) {
+		return 94, "A multi-target strong ice attack", 560, 4, 565, 2, 555, 6, -1, 0;
+	}
+	if (arg0 == 47) {
+		return 50, "Summons the wrath of Iban", 554, 5, 560, 1, 1409, 1, -1, 0;
+	}
+	return 0, "", -1, 0, -1, 0, -1, 0, -1, 0;
+}

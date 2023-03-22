@@ -1,0 +1,9 @@
+//script2579(2579)()(void)
+if_setcolor(19136629, 0x666666)
+instr6220(if_gethash(292, 102))
+instr6220(if_gethash(292, 104))
+instr6220(if_gethash(292, 103))
+hook_mouse_press(if_gethash(292, 102), script_2606, "I", -2147483645)
+hook_mouse_press(if_gethash(292, 104), script_2606, "I", -2147483645)
+hook_mouse_press(if_gethash(292, 103), script_2606, "I", -2147483645)
+return

@@ -1,0 +1,4 @@
+void script_880(Widget widget0) {
+	widget0.setText("Rank: " + VARP[649]);
+	return;
+}

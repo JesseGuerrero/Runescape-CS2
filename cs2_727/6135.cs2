@@ -1,0 +1,59 @@
+//script6135(6135)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+if(load_varc(1893) == 1)
+	return
+store_varc(1893, 1)
+iVar0 = -1
+iVar1 = -1
+iVar2 = 0
+iVar3 = 0
+if(if_gethide(if_gethash(1270, 107)) == 0)
+	iVar3 = iVar3 + 1
+if(if_gethide(if_gethash(1270, 111)) == 0)
+	iVar3 = iVar3 + 1
+if(if_gethide(if_gethash(1270, 115)) == 0)
+	iVar3 = iVar3 + 1
+switch(iVar3) {
+	case default:
+		break
+	case 0:
+		iVar2 = load_varc(1900)
+		break
+	case 1:
+		iVar2 = load_varc(1901)
+		break
+	case 2:
+		iVar2 = load_varc(1902)
+		return
+
+
+}
+iVar0 = script_6139(iVar2)
+if_sethide(iVar0, 0)
+iVar4 = 0
+iVar5 = 0
+iVar6 = 256
+if(cc_find(0, iVar0) == 1) {
+	iVar4 = load_varc(1889) - if_getx(iVar0)
+	iVar5 = load_varc(1890) - if_gety(iVar0)
+	iVar4 = iVar4 - (if_getwidth(iVar0) / 2)
+	iVar5 = iVar5 - (if_getheight(iVar0) / 2)
+	cc_setposition(1, 1, iVar5, iVar4)
+	iVar6 = cc_getwidth()
+}
+instr6342(iVar0, script_6141, "Iiiiiiiiiii", -2147483645, iVar2, iVar4, iVar5, 0, 0, 0, 0, 0, 0, 0)
+iVar3 = iVar3 + 1
+if(iVar3 > 0)
+	if_setgraphic(if_gethash(1270, 42), 10576)
+if(iVar3 > 1)
+	if_setgraphic(if_gethash(1270, 43), 10576)
+if(iVar3 > 2)
+	if_setgraphic(if_gethash(1270, 44), 10576)
+sound_vorbis_volume(120, 0, 1, 14660)
+return

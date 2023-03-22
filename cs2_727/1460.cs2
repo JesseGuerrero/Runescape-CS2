@@ -1,0 +1,19 @@
+//script1460(1460)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+string sVar0
+iVar2 = enum(1614, arg0, 'i', 'I')
+iVar3 = enum(1615, arg0, 'i', 'I')
+if_sethide(iVar2, 0)
+if_sethide(iVar3, 0)
+instr6879(iVar3, inv_getnum(arg1, 95), inv_getitem(arg1, 95))
+if_setborderthickness(iVar3, 1)
+if_setspriteshadow(iVar3, 3355443)
+instr6220(iVar2)
+instr6213(iVar2, 1, "View tab " + to_string(arg0))
+instr6213(iVar2, 2, "Collapse tab " + to_string(arg0))
+hook_mouse_press(iVar2, None, "")
+sVar0 = "Click here to select tab " + to_string(arg0)
+if_setonmouseover(iVar2, script_38, "IIsii", -2147483645, if_gethash(762, 121), sVar0, 25, 150)
+hook_mouse_exit(iVar2, script_40, "I", if_gethash(762, 121))
+return

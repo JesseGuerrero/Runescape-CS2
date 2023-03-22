@@ -1,0 +1,23 @@
+//script6337(6337)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = enum_getoutputcount(5918)
+if_setonmouseleave(arg0, script_6338, "IiY", 1, 93, arg0, iVar1)
+instr6237(arg0, script_6338, "IiY", 2, 2644, 2645, arg0, iVar1)
+cc_deleteall(arg0)
+iVar2 = 0
+iVar3 = -1
+while(iVar2 < iVar1) {
+	cc_create(iVar2, 5, arg0)
+	cc_setsize(0, 0, 32, 36)
+	cc_setgraphicshadow(3153952)
+	instr6687(script_1620, "Iiiii", arg0, iVar2, 100, 0, 8)
+	cc_setop("Take", 1)
+	cc_setop("Examine", 10)
+	iVar3 = enum(5918, iVar2, 'i', 'o')
+	cc_setopbase(script_4033(iVar3) + item_name(iVar3))
+	iVar2 = iVar2 + 1
+}
+script_6339(arg0, iVar1)
+return

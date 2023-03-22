@@ -1,0 +1,7 @@
+//script2361(2361)(int arg0)(void)
+int iVar1
+if(load_varpbit(8271) == 0)
+	return
+iVar1 = enum(2352, load_varpbit(8271), 'i', 'I')
+if_setparam_int(iVar1, arg0, 1224)
+return

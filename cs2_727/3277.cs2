@@ -1,0 +1,9 @@
+//script3277(3277)()(void)
+store_varc(1149, 0)
+store_varc(1150, 0)
+store_varc(1151, 0)
+store_varc(1152, 0)
+cc_deleteall(if_gethash(942, 3))
+cc_deleteall(if_gethash(942, 5))
+cc_deleteall(if_gethash(942, 4))
+return

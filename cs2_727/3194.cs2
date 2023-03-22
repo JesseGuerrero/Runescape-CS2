@@ -1,0 +1,8 @@
+//script3194(3194)()(void)
+if_closesubclient(59375703)
+if_sethide(if_gethash(906, 70), 1)
+instr6248(if_gethash(915, 18), None, "")
+store_varc(1094, 0)
+if(if_gethide(enum(941, 5, 'i', 'I')) == 0)
+	script_3161(1)
+return

@@ -1,0 +1,25 @@
+//script2354(2354)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = detailget_soundeffect_volume()
+iVar1 = detailget_music_volume()
+iVar2 = detailget_ambientsound_volume()
+iVar3 = detailget_voiceover_volume()
+iVar4 = instr6783()
+if(load_varpbit(10242) == 0)
+	return
+if(load_varpbit(10242) == 2) {
+	if_sethide(if_gethash(906, 40), 0)
+	if_sethide(if_gethash(906, 32), 1)
+	instr6237(if_gethash(906, 40), script_5521, "Y", 1, 2411)
+} else 
+	if(load_varpbit(10242) == 1) {
+		if_sethide(if_gethash(906, 40), 1)
+		if_sethide(if_gethash(906, 32), 0)
+		if_sethide(if_gethash(906, 56), 1)
+		instr6237(if_gethash(906, 0), None, "")
+	}
+return

@@ -1,0 +1,12 @@
+int script_922() {
+	if (getDisplayMode() == 1) {
+		return 0;
+	}
+	if (hasChild(widget(162, 546)) == true || hasChild(widget(162, 545)) == true) {
+		return 0;
+	}
+	if (widget(162, 31).isHidden() == false) {
+		return 0;
+	}
+	return 1;
+}

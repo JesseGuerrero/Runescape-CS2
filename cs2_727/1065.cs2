@@ -1,0 +1,25 @@
+//script1065(1065)(int arg0, int arg1)(void)
+if(if_getscrollx(arg0) > arg1) {
+	if_setscrollsize(arg0, 0, if_getscrollwidth(arg0) - 10)
+	if_setscrollpos(arg0, 0, if_getscrollx(arg0) - 10)
+	if(if_getscrollx(arg0) < arg1) {
+		if_setscrollsize(arg0, 0, arg1 + if_getwidth(arg0))
+		if_setscrollpos(arg0, 0, arg1)
+		instr6342(arg0, None, "")
+		return
+	}
+} else 
+	if(if_getscrollx(arg0) < arg1) {
+		if_setscrollsize(arg0, 0, if_getscrollwidth(arg0) + 10)
+		if_setscrollpos(arg0, 0, if_getscrollx(arg0) + 10)
+		if(if_getscrollx(arg0) > arg1) {
+			if_setscrollsize(arg0, 0, arg1 + if_getwidth(arg0))
+			if_setscrollpos(arg0, 0, arg1)
+			instr6342(arg0, None, "")
+			return
+		}
+	} else  {
+		instr6342(arg0, None, "")
+		return
+	}
+return

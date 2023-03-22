@@ -1,0 +1,45 @@
+//script3094(3094)()(void)
+int iVar0
+iVar0 = instr6305()
+if(iVar0 != -3)
+	if(load_varc(1322) == 0) {
+		instr6342(if_gethash(906, 251), None, "")
+		return
+	}
+if(load_varc(1322) == 1)
+	if(iVar0 == -3)
+		store_varc(1322, 0)
+if(client_clock() < load_varc(1092))
+	return
+store_varc(1092, client_clock() + 5)
+switch(if_getspriteid(if_gethash(906, 251))) {
+	case default:
+		break
+	case 4107:
+		if_setgraphic(if_gethash(906, 251), 4108)
+		break
+	case 4108:
+		if_setgraphic(if_gethash(906, 251), 4109)
+		break
+	case 4109:
+		if_setgraphic(if_gethash(906, 251), 4110)
+		break
+	case 4110:
+		if_setgraphic(if_gethash(906, 251), 4111)
+		break
+	case 4111:
+		if_setgraphic(if_gethash(906, 251), 4112)
+		break
+	case 4112:
+		if_setgraphic(if_gethash(906, 251), 4113)
+		break
+	case 4113:
+		if_setgraphic(if_gethash(906, 251), 4114)
+		break
+	case 4114:
+		if_setgraphic(if_gethash(906, 251), 4107)
+		if_setgraphic(if_gethash(906, 251), 4107)
+		break
+
+}
+return

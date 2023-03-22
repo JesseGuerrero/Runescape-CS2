@@ -1,0 +1,6 @@
+//script4328(4328)(int arg0)(void)
+if(load_clan_setting_varbit(11) == 0)
+	if_setgraphic(arg0, enum(3721, load_clan_setting_varbit(7), 'i', 'd'))
+else
+	if_setgraphic(arg0, enum(3721, 0, 'i', 'd'))
+return

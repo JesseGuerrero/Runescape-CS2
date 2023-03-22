@@ -1,0 +1,42 @@
+void script_231(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	if (CHILD.setChild(widget0, 4) == true) {
+		CHILD.setPosition(0, 0, 1, 0);
+		CHILD.setSize(0, 16, 1, 0);
+	}
+	if (CHILD.setChild(widget0, 5) == true) {
+		CHILD.setPosition(0, 0, 1, 2);
+		CHILD.setSize(0, 16, 1, 0);
+	}
+	if (CHILD.setChild(widget0, 0) == true) {
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(0, 32, 1, 1);
+	}
+	int2 = 0;
+	int3 = 0;
+	if (CHILD.setChild(widget0, 1) == true) {
+		CHILD.setPosition(0, 16, 1, 0);
+		int2 = getScrollMaxV(widget1);
+		if (int2 <= 0) {
+			int2 = widget1.getHeight();
+		}
+		if (int2 > 0) {
+			int3 = (widget0.getHeight() - 32) * widget1.getHeight() / int2;
+		} else {
+			int3 = widget0.getHeight() - 32;
+		}
+		if (int3 < 10) {
+			int3 = 10;
+		}
+		CHILD.setSize(0, int3, 1, 0);
+		if (_CHILD.setChild(widget0, 2) == true) {
+			_CHILD.setSize(0, 5, 1, 0);
+		}
+		if (_CHILD.setChild(widget0, 3) == true) {
+			_CHILD.setSize(0, 5, 1, 0);
+		}
+		script_740(widget0, widget1);
+	}
+	return;
+}

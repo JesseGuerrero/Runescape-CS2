@@ -1,0 +1,4 @@
+//script4389(4389)(int arg0, int arg1)(void)
+if_setcolor(arg0, hsvtorgb(load_varp(2096)))
+if_setcolor(arg1, hsvtorgb(load_varp(2097)))
+return

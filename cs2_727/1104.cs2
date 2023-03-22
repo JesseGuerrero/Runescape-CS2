@@ -1,0 +1,8 @@
+//script1104(1104)()(void)
+if_settext(if_gethash(182, 1), "When you have finished playing" + "<br>" + "RuneScape, always use a" + "<br>" + "button below to exit the game and logout safely.")
+if_settext(if_gethash(182, 6), "Exit to Lobby")
+instr6213(if_gethash(182, 6), 1, "Exit to Lobby")
+if_sethide(if_gethash(182, 7), 0)
+if_settext(if_gethash(182, 13), "Exit to Login")
+instr6213(if_gethash(182, 13), 1, "Exit to Login")
+return

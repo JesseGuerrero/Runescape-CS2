@@ -1,0 +1,53 @@
+//script4319(4319)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar2 = 0
+iVar3 = 0
+iVar4 = 71827508
+iVar5 = 71827507
+iVar6 = 71827532
+iVar7 = 71827607
+iVar8 = 71827503
+iVar9 = 71827534
+if(arg0 > 0)
+	iVar2 = arg0 - 1
+else {
+	iVar2 = 0
+	iVar3 = if_getheight(iVar4)
+	if(arg1 == 0) {
+		iVar3 = iVar3 + 6
+		if_setvflip(iVar6, 0)
+		if_setvflip(iVar7, 0)
+		instr6213(iVar8, 1, "Hide")
+		instr6239(iVar8, script_4319, "ii", 0, 1)
+	} else  {
+		if_sethide(if_gethash(1096, 70), 1)
+		iVar3 = iVar3 - 6
+		if_setvflip(iVar6, 1)
+		if_setvflip(iVar7, 1)
+		instr6213(iVar8, 1, "Show")
+		instr6239(iVar8, script_4319, "ii", 0, 0)
+	}
+	iVar3 = min(224, iVar3)
+	iVar3 = max(115, iVar3)
+	if_setsize(iVar4, 0, 0, iVar3, if_getwidth(iVar4))
+	if_setsize(iVar5, 1, 0, iVar3 - 62, if_getwidth(iVar5))
+	if(arg1 == 0)
+		if(iVar3 >= 224) {
+			if_sethide(if_gethash(1096, 70), 0)
+			instr6342(iVar4, None, "")
+		} else 
+			if(arg1 == 1)
+				if(iVar3 <= 115)
+					instr6342(iVar4, None, "")
+				else
+					instr6342(iVar4, script_4319, "ii", iVar2, arg1)
+	script_4302()
+}
+return

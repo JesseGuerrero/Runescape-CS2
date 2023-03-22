@@ -1,0 +1,6 @@
+//script494(494)(int arg0, int arg1)(void)
+if(arg1 == 1)
+	if_setgraphic(arg0, 786)
+else
+	if_setgraphic(arg0, 785)
+return

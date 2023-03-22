@@ -1,0 +1,54 @@
+//script4849(4849)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = 82444487
+iVar1 = 82444486
+iVar2 = 82444490
+iVar3 = 82444491
+iVar4 = 82444488
+iVar5 = 82444489
+if_sethide(if_gethash(1258, 227), 1)
+if_sethide(if_gethash(1258, 218), 1)
+if_sethide(if_gethash(1258, 209), 1)
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		if_sethide(if_gethash(1258, 227), 0)
+		if(load_varpbit(9570) == 0) {
+			script_4940()
+			script_4850(iVar0, iVar1, iVar2, iVar3, iVar4, iVar5)
+		} else  {
+			script_4942()
+			script_4851(iVar0, iVar1, iVar2, iVar3, iVar4, iVar5)
+		}
+		break
+	case 2:
+		if_sethide(if_gethash(1258, 218), 0)
+		if(load_varpbit(9579) == 0) {
+			script_4940()
+			script_4850(iVar0, iVar1, iVar2, iVar3, iVar4, iVar5)
+		} else  {
+			script_4942()
+			script_4851(iVar0, iVar1, iVar2, iVar3, iVar4, iVar5)
+		}
+		break
+	case 3:
+		if_sethide(if_gethash(1258, 209), 0)
+		if(load_varpbit(9588) == 0) {
+			script_4940()
+			script_4850(iVar0, iVar1, iVar2, iVar3, iVar4, iVar5)
+		} else  {
+			script_4942()
+			script_4851(iVar0, iVar1, iVar2, iVar3, iVar4, iVar5)
+		}
+		break
+
+}
+script_4804()
+script_4852()
+return

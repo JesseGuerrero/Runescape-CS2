@@ -1,0 +1,26 @@
+void script_737(int arg0, Widget widget1, Widget widget2, int arg3, Widget widget4, Widget widget5, Widget widget6) {
+	int int7;
+	int int8;
+	int7 = widget(596, 0).getWidth();
+	int8 = 1 * int7 / 4;
+	int8 = script_1045(int8, 150);
+	int8 = script_1046(int8, 500);
+	if (arg0 == int8) {
+		return;
+	}
+	widget1.setSize(int8, 38, 0, 0);
+	if (VARPBIT[4692] == 2) {
+		widget1.setPosition(0, 5, 1, 0);
+		widget4.setTextAlignment(1, 1, 0);
+		widget4.setPosition(0, 0, 1, 1);
+		widget2.setPosition(0, 0, 1, 0);
+	} else {
+		widget1.setPosition(5, 22, 0, 0);
+		widget4.setTextAlignment(0, 1, 0);
+		widget4.setPosition(10, 0, 0, 1);
+		widget2.setPosition(0, 0, 0, 0);
+	}
+	widget(596, 0).hookFrame(&script_736(int8, widget1, widget2, widget(arg3), widget4, widget5, widget6));
+	script_739(widget5, widget6);
+	return;
+}

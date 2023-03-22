@@ -1,0 +1,2 @@
+//script4392(4392)(int arg0)(int, int, int, int)
+return if_recolour(arg0, load_varp(2097), 17358, 4), if_recolour(arg0, load_varp(2096), 55246, 3), if_recolour(arg0, load_varp(2095), 60362, 1), if_recolour(arg0, load_varp(2094), 31690, 0)

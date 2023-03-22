@@ -1,0 +1,17 @@
+void script_1533(int arg0, string arg1) {
+	int int1;
+	int1 = 0;
+	if (arg0 == 33226764) {
+		int1 = VARPBIT[5433];
+	} else if (arg0 == 33226768) {
+		int1 = VARPBIT[5426];
+	} else if (arg0 == 33226772) {
+		int1 = VARPBIT[5427];
+	}
+	if (int1 > 0) {
+		CHILD.setText(arg1 + ": " + "<col=ffffff>" + int1 + "</col>");
+	} else {
+		CHILD.setText(arg1 + ": ---");
+	}
+	return;
+}

@@ -1,0 +1,29 @@
+//script126(126)(int arg0, int arg1, string arg2)(void)
+string sVar0
+if(load_varc(1413) == 0)
+	return
+sVar0 = removetags(arg0)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		store_varc(1650, 1)
+		store_varc_string(23, sVar0)
+		script_1558(0)
+		return
+
+	case 2:
+		if(friend_platform(arg1) == 0)
+			script_1050(1, sVar0)
+		else
+			script_1050(3, sVar0)
+		break
+	case 4:
+		send_message("That player is currently offline.")
+		break
+	case 5:
+		friend_del(sVar0)
+		break
+
+}
+return

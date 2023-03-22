@@ -1,0 +1,20 @@
+void script_429(Item item0, Item item1, Item item2, Widget widget3, int arg4) {
+	if (arg4 == 1) {
+		widget3.hookContainer(&script_429(item0, item1, item2, CTX_WIDGET, false), 93);
+	}
+	if (item0 == 4155 && getItemAmtInContainer(93, 21270) > 0) {
+		item0, item1 = 21270, 21268;
+	}
+	if ((item0 == null || getItemAmtInContainer(93, item0) > 0) && (getItemAmtInContainer(93, 2357) > 0 || getItemAmtInContainer(93, 2365) > 0)) {
+		widget3.setItem(item1, 1);
+		widget3.setOptionBase("<col=ff9040>" + getItemName(item1));
+		widget3.setContextMenuOption(1, "Make-1");
+		widget3.setContextMenuOption(2, "Make-5");
+		widget3.setContextMenuOption(3, "Make-10");
+		widget3.setContextMenuOption(4, "Make-X");
+	} else {
+		widget3.setItem(item2, 1);
+		widget3.setNoOptions();
+	}
+	return;
+}

@@ -1,0 +1,17 @@
+//script6456(6456)(int arg0)(int)
+switch(arg0) {
+	case default:
+		return 0
+
+	case 2:
+		return load_varpbit(11485)
+
+	case 3:
+		return load_varpbit(11486)
+
+	case 4:
+		return load_varpbit(11487)
+
+
+}
+return 0

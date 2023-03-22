@@ -1,0 +1,22 @@
+//script2454(2454)(int arg0)(int)
+int iVar1
+iVar1 = 16777215
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		iVar1 = 16777215
+		break
+	case 1:
+		iVar1 = 65280
+		break
+	case 2:
+		iVar1 = 14064640
+		break
+	case 3:
+		iVar1 = 16727871
+		break
+
+}
+return iVar1
+return 0

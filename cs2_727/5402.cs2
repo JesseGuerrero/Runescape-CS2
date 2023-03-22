@@ -1,0 +1,89 @@
+//script5402(5402)(int arg0)(void)
+int iVar1
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+iVar1 = -1
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+if_setcolor(76677181, 0xF5B241)
+if_setcolor(76677182, 0xF5B241)
+if_setcolor(76677183, 0xF5B241)
+if_setcolor(76677184, 0xF5B241)
+if_setcolor(76677185, 0xF5B241)
+if_setcolor(76677186, 0xF5B241)
+if_setcolor(76677187, 0xF5B241)
+if_setcolor(76677188, 0xF5B241)
+if_setcolor(76677287, 0xF5B241)
+if_setcolor(76677366, 0xF5B241)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setcolor(76677181, 0xFFFFFF)
+		break
+	case 2:
+		if_setcolor(76677182, 0xFFFFFF)
+		break
+	case 3:
+		if_setcolor(76677183, 0xFFFFFF)
+		break
+	case 4:
+		if_setcolor(76677184, 0xFFFFFF)
+		break
+	case 5:
+		if_setcolor(76677185, 0xFFFFFF)
+		break
+	case 6:
+		if_setcolor(76677186, 0xFFFFFF)
+		break
+	case 7:
+		if_setcolor(76677187, 0xFFFFFF)
+		break
+	case 8:
+		if_setcolor(76677188, 0xFFFFFF)
+		break
+	case 9:
+		if_setcolor(76677287, 0xFFFFFF)
+		break
+	case 10:
+		if_setcolor(76677366, 0xFFFFFF)
+		break
+
+}
+iVar1 = enum(5332, arg0, 'i', 'J')
+if(iVar1 == 7335 || iVar1 == 7336)
+	if(cc_find(0, if_gethash(1170, 141)) == 0) {
+		cc_create(0, 5, 76677261)
+		cc_setsize(0, 0, 96, 274)
+		cc_setposition(0, 0, 6, 4)
+		cc_setgraphic(9723)
+	}
+else
+	if(cc_find(0, if_gethash(1170, 141)) == 1)
+		cc_delete()
+sVar1 = struct_param(2184, iVar1)
+sVar2 = "If you win you'll get a dominion factor of: " + "<col=f5b241>" + to_string(enum(5224, arg0, 'i', 'i')) + "</col>" + ". You will get no dominion factor for dying."
+if(struct_param(2097, iVar1) == 1)
+	sVar3 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat."
+else
+	if(struct_param(2097, iVar1) == 2)
+		sVar3 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat."
+	else
+		if(struct_param(2097, iVar1) == 3)
+			sVar3 = "<col=f5b241>" + "Arena" + "</col>" + ": Single-way combat with small blocking pillars."
+		else
+			if(struct_param(2097, iVar1) == 4)
+				sVar3 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with large blocking pillars."
+			else
+				if(struct_param(2097, iVar1) == 5)
+					sVar3 = "<col=f5b241>" + "Arena" + "</col>" + ": Multi-way combat with podiums and small blocking pillars"
+if_settext(if_gethash(1170, 142), sVar1 + "<br>" + "<br>" + sVar3 + "<br>" + "<br>" + sVar2)
+script_5475(76677262, 76677261, 76677260, sVar1 + "<br>" + "<br>" + sVar3 + "<br>" + "<br>" + sVar2)
+sVar0 = struct_param(2095, iVar1)
+if_settext(if_gethash(1170, 38), sVar0)
+sound_vorbis_volume(255, 0, 1, 8088)
+return

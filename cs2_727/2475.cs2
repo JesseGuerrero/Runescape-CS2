@@ -1,0 +1,39 @@
+//script2475(2475)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = 1093
+if(gender() == 1)
+	iVar4 = 3872
+iVar5 = 0
+iVar6 = 0
+while(iVar5 <= enum_getoutputcount(iVar4)) {
+	cc_create(iVar5, 4, arg0)
+	if(iVar5 == 0 || iVar5 >= arg2 || iVar5 <= arg3) {
+		if(iVar5 == 0)
+			cc_settext("No Prefix")
+		else
+			cc_settext(enum(iVar4, iVar5, 'i', 's'))
+		cc_setposition(0, 0, iVar6, 0)
+		cc_setsize(0, 0, 17, 165)
+		cc_settextshadow(0)
+		cc_settextfont(495)
+		cc_settextalign(0, 1, 0)
+		cc_setop("Select", 1)
+		instr6687(script_2143, "Ii", -2147483645, -2147483643)
+		if(script_2476(iVar5) == 1)
+			cc_setcolor(11ff00)
+		else
+			cc_setcolor(ff1100)
+		iVar6 = iVar6 + 19
+	} else 
+		cc_sethide(1)
+	iVar5 = 1 + iVar5
+}
+if(iVar6 > if_getheight(arg0)) {
+	if_setscrollsize(arg0, 25 + iVar6, 0)
+	if_sethide(arg1, 0)
+	script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+} else 
+	if_sethide(arg1, 1)
+return

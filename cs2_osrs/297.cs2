@@ -1,0 +1,34 @@
+void script_297(Item item0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6) {
+	string str0;
+	str0 = "";
+	if (item0 != null) {
+		CHILD.setTrans(0);
+		CHILD.setItem(item0, arg1);
+		CHILD.setNoOptions();
+		if (item0 == 11941 && arg4 == 1) {
+			CHILD.setContextMenuOption(1, "View");
+			CHILD.hookOptionClick(&script_490(CTX_MENU_OPTION, widget(arg5), widget(arg6), 1));
+		}
+		CHILD.setContextMenuOption(2, "Deposit-1");
+		CHILD.setContextMenuOption(3, "Deposit-5");
+		CHILD.setContextMenuOption(4, "Deposit-10");
+		if (VARPBIT[3960] > 0) {
+			CHILD.setContextMenuOption(5, "Deposit-" + VARPBIT[3960]);
+		}
+		CHILD.setContextMenuOption(6, "Deposit-X");
+		CHILD.setContextMenuOption(7, "Deposit-All");
+		str0 = datamap('o', 's', 995, item0);
+		if (length(str0) > 0) {
+			CHILD.setContextMenuOption(9, str0);
+		}
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setOptionBase("<col=ff9040>" + getItemName(item0) + "</col>");
+		CHILD.hookDragRelease(&script_298(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET_CHILD, widget(arg3), widget(arg5), widget(arg6)));
+	} else {
+		CHILD.setTrans(255);
+		CHILD.setItem(6512, 1);
+		CHILD.setNoOptions();
+		CHILD.hookDragRelease(null);
+	}
+	return;
+}

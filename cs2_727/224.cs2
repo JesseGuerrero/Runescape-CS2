@@ -1,0 +1,117 @@
+//script224(224)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+iVar0 = if_gethide(if_gethash(594, 61))
+sVar0 = removetags(instr6574())
+sVar1 = ""
+if(iVar0 == 1)
+	if_sethide(if_gethash(594, 61), 0)
+iVar1 = 100
+sVar2 = ""
+iVar2 = 0
+iVar3 = 0
+iVar4 = 1
+sVar3 = ""
+iVar5 = 0
+iVar6 = 0
+cc_deleteall(if_gethash(594, 94))
+cc_deleteall(if_gethash(594, 93))
+cc_deleteall(if_gethash(594, 92))
+if_setscrollsize(38928478, 0, 0)
+if_setscrollpos(if_gethash(594, 94), 0, 0)
+while(iVar1 >= 0) {
+	iVar3 = chatline_gettype(iVar1)
+	if(iVar3 != 0)
+		if(iVar3 != 4)
+			if(iVar3 != 27)
+				if(iVar3 != 28)
+					if(iVar3 != 29)
+						if(iVar3 != 43)
+							if(iVar3 != 103)
+								if(iVar3 != 104)
+									if(iVar3 != 26)
+										if(iVar3 != 30)
+											if(iVar3 != 31)
+												if(compare("", chat_getcrownedname(iVar1)) != 0)
+													if(compare("", chat_getmessage(iVar1)) != 0) {
+														if(iVar3 != 6)
+															if(iVar3 != 19)
+																if(iVar3 == 41 || iVar3 == 44 || iVar3 == 9) {
+																	if(compare(sVar1, sVar0) != 0)
+																		if(iVar3 != 6)
+																			if(iVar3 != 19)
+																				iVar5 = 0
+																			else
+																				iVar5 = 14798
+																	sVar3 = "<col=$text_colour>" + "[" + "</col>" + "<col=0000ff>" + chat_getclan(iVar1) + "</col>" + "<col=$text_colour>" + "]" + chat_getcrownedname(iVar1) + ": " + chat_getmessage(iVar1)
+																} else 
+																	sVar3 = " " + chat_getcrownedname(iVar1) + ": " + chat_getmessage(iVar1)
+															else
+																sVar3 = "To " + chat_getcrownedname(iVar1) + ": " + chat_getmessage(iVar1)
+														iVar4 = paramheight(sVar3, 495, if_getwidth(if_gethash(594, 94)) - 5)
+														if(compare(chat_playername(), removetags(chat_getcrownedname(iVar1))) != 0)
+															if(iVar3 != 6)
+																if(iVar3 != 19) {
+																	iVar6 = 1
+																	cc_create(if_getnextsubid(if_gethash(594, 93)), 3, 38928477)
+																	cc_setposition(0, 0, (iVar2 * 15) + 2, 0)
+																	cc_setsize(0, 0, iVar4 * 15, 451)
+																	cc_setcolor(678ab0)
+																	cc_settrans(255)
+																	cc_setfill(1)
+																	instr6091(script_237, "i", -2147483643)
+																	instr6092(script_238, "i", -2147483643)
+																	cc_create(if_getnextsubid(if_gethash(594, 92)), 3, 38928476)
+																	cc_setposition(0, 0, (iVar2 * 15) + 2, 0)
+																	cc_setsize(0, 0, iVar4 * 15, 450)
+																	cc_setcolor(678ab0)
+																	cc_settrans(255)
+																	cc_setfill(1)
+																	instr6091(script_239, "i", -2147483643)
+																}
+														cc_create(if_getnextsubid(if_gethash(594, 94)), 4, 38928478)
+														cc_setposition(0, 0, iVar2 * 15, 5)
+														cc_setsize(0, 1, 15 * iVar4, 5)
+														cc_settext(sVar3)
+														cc_setcolor(777777)
+														sVar1 = removetags(instr6573(iVar1))
+														if(compare(sVar1, sVar0) != 0)
+															if(iVar3 != 6)
+																if(iVar3 != 19) {
+																	cc_setopbase(sVar1)
+																	cc_setop("Report", 1)
+																	instr6687(script_234, "i", -2147483643)
+																	cc_setcolor(0)
+																}
+														cc_settextfont(495)
+														cc_settextalign(15, 0, 0)
+														iVar2 = iVar2 + iVar4
+													}
+	iVar1 = iVar1 - 1
+}
+if(iVar6 == 0) {
+	cc_create(if_getnextsubid(if_gethash(594, 94)), 4, 38928478)
+	cc_setposition(0, 0, iVar2 * 15, 5)
+	cc_setsize(0, 2, 15, 16384)
+	cc_settext("There is no chat to report at the moment.")
+	cc_setcolor(99)
+	cc_settextfont(495)
+	cc_settextalign(15, 0, 0)
+	iVar2 = iVar2 + 1
+}
+if_setscrollsize(38928475, 2 + (iVar2 * 15), if_getwidth(if_gethash(594, 91)))
+script_31(38928470, 38928475, 792, 789, 790, 791, 773, 788)
+if(cc_find(1, if_gethash(594, 86)) == 1)
+	script_37(38928470, 38928475, if_getscrollheight(38928475), 1)
+if(iVar0 == 1)
+	if_sethide(if_gethash(594, 61), 1)
+return

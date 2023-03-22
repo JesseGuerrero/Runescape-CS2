@@ -1,0 +1,10 @@
+//script4679(4679)()(void)
+if(enum(3839, load_varc(1535), 'i', 'i') < 1) {
+	if_setposition(if_gethash(302, 23), 0, 0, 26, 10)
+	if_sethide(if_gethash(302, 24), 1)
+	if_settext(if_gethash(302, 11), "Difficulty: " + to_string(load_varc(1535)) + "/10")
+} else  {
+	if_sethide(if_gethash(302, 24), 0)
+	if_settext(if_gethash(302, 11), "Difficulty: " + to_string(load_varc(1535)) + "/10")
+}
+return

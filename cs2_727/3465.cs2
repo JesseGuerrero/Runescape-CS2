@@ -1,0 +1,32 @@
+//script3465(3465)(int arg0, int arg1)(void)
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 11:
+		cc_deleteall(arg0)
+		script_2766(0, 75, arg0)
+		break
+	case 12:
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 850, script_3460(30, 30, arg1), 800, script_3460(30, 27, arg1), 0, 0)
+		instr6651(0, 300, script_3460(35, 40, arg1), 300, script_3460(35, 30, arg1), 0, 1)
+		instr6651(0, 950, script_3460(40, 40, arg1), 1000, script_3460(40, 40, arg1), 1, 0)
+		instr6651(0, 200, script_3460(28, 46, arg1), 200, script_3460(28, 52, arg1), 1, 1)
+		instr6677(0, 1, 200, 100, 0, 0)
+		script_2768(25, arg0)
+		break
+	case 13:
+		instr6236()
+		cam_setangle(644, 268)
+		break
+	case 14:
+		script_2766(0, 25, arg0)
+		break
+	case 15:
+		script_2768(25, arg0)
+		instr6236()
+		break
+
+}
+return

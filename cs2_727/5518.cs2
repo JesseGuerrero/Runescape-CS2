@@ -1,0 +1,7 @@
+//script5518(5518)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1) {
+	cc_settrans(min(cc_gettransparency() + 15, 255))
+	if(cc_gettransparency() == 255)
+		instr6556(None, "")
+}
+return

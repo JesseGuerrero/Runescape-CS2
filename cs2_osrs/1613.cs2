@@ -1,0 +1,7 @@
+void script_1613(Widget widget0, string string1, Sprite sprite2, int arg3) {
+	if (getClientCycle() < arg3) {
+		return;
+	}
+	script_1611(string1, widget0, sprite2);
+	return;
+}

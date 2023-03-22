@@ -1,0 +1,14 @@
+void script_214(string string0, int arg1) {
+	if (arg1 == 6 && script_1942() == 0) {
+		script_215(string0);
+	} else if (arg1 == 7) {
+		cs2method3605(string0);
+	} else if (arg1 == 8) {
+		cs2method3607(string0);
+	} else if (arg1 == 9) {
+		cs2method3606(string0);
+	} else if (arg1 == 10) {
+		cs2method3608(string0);
+	}
+	return;
+}

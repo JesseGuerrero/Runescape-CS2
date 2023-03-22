@@ -1,0 +1,4 @@
+//script395(395)()(int)
+if(stat_base(0) + stat_base(2) == 130)
+	return 1
+return 0

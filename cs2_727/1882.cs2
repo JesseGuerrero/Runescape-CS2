@@ -1,0 +1,4 @@
+//script1882(1882)(int arg0)(void)
+if(arg0 == 1)
+	script_2172(1)
+return

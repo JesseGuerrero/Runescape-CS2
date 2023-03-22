@@ -1,0 +1,30 @@
+//script5910(5910)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 9959
+iVar2 = 9931
+iVar3 = script_5907(arg0, load_varpbit(10865))
+if(load_varpbit(10861) > 0) {
+	switch(iVar3) {
+		case default:
+			break
+		case 0:
+			iVar1 = 9957
+			iVar2 = 9943
+			break
+		case 1:
+			iVar1 = 9958
+			iVar2 = 9935
+			break
+		case 2:
+			iVar1 = 9959
+			iVar2 = 9931
+			break
+
+	}
+	if_setgraphic(if_gethash(1253, 163), script_6267(iVar1))
+	if_setgraphic(if_gethash(1253, 334), script_5860(iVar3))
+	if_setgraphic(if_gethash(1253, 335), script_5949(iVar3))
+}
+return

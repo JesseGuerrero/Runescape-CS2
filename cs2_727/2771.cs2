@@ -1,0 +1,23 @@
+//script2771(2771)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = client_clock() - arg1
+if(iVar2 >= 181 || load_varc(1007) != 1) {
+	instr6342(arg0, None, "")
+	return
+}
+if(modulo(25, iVar2) == 0)
+	switch(random_inclusive(2)) {
+		case default:
+			break
+		case 0:
+			sound_synth(0, 1, 6645)
+			break
+		case 1:
+			sound_synth(0, 1, 6644)
+			break
+		case 2:
+			sound_synth(0, 1, 6643)
+			break
+
+	}
+return

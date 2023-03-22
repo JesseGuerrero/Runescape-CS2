@@ -1,0 +1,16 @@
+//script3271(3271)()(void)
+if(load_varc(1202) == 1)
+	if_setsize(if_gethash(933, 296), 0, 2, if_getheight(if_gethash(933, 296)) - 1, 16384)
+else
+	if(load_varc(1201) == 1)
+		if_setsize(if_gethash(933, 286), 0, 2, if_getheight(if_gethash(933, 286)) - 1, 16384)
+	else
+		if(load_varc(1200) == 1)
+			if_setsize(if_gethash(933, 276), 0, 2, if_getheight(if_gethash(933, 276)) - 1, 16384)
+		else
+			if(load_varc(1199) == 1)
+				if_setsize(if_gethash(933, 266), 0, 2, if_getheight(if_gethash(933, 266)) - 1, 16384)
+			else
+				if(load_varc(1198) == 1)
+					if_setsize(if_gethash(933, 265), 0, 2, if_getheight(if_gethash(933, 265)) - 1, 16384)
+return

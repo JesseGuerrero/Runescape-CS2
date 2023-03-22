@@ -1,0 +1,17 @@
+//script6348(6348)(int arg0)(int, int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+iVar1 = script_6380(arg0).get(0)
+if(iVar1 == -1)
+	return -1, -1
+iVar4 = -1
+iVar5 = -1
+iVar4 = script_6349(iVar1, iVar2, iVar3).get(0)
+return iVar5, iVar4
+return 0, -1

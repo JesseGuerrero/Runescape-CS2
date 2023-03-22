@@ -1,0 +1,10 @@
+//script1624(1624)()(void)
+if(world_language() == 1)
+	if_setgraphic(if_gethash(518, 6), 7668)
+else
+	if(world_language() == 2)
+		if_setgraphic(if_gethash(518, 6), 7667)
+	else
+		if(world_language() == 3)
+			if_setgraphic(if_gethash(518, 6), 7669)
+return

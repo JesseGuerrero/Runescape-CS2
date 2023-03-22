@@ -1,0 +1,56 @@
+void script_1621(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	Item item4;
+	Item item5;
+	int int6;
+	int2 = 0;
+	int3 = 0;
+	item4 = null;
+	item5 = null;
+	int6 = 0;
+	while (int6 < arg1) {
+		if (CHILD.setChild(widget0, int6) == true) {
+			CHILD.setNoOptions();
+			item5 = getItemIdInSlot(93, int6);
+			if (VARPBIT[3459] == 1) {
+				CHILD.setHidden(false);
+				script_1622(item5, getItemAmtInSlot(93, int6));
+				CHILD.setDragDeadZone(10);
+				CHILD.setDragDeadTime(10);
+			} else if (item5 != null) {
+				CHILD.setHidden(false);
+				CHILD.setItem(item5, getItemAmtInSlot(93, int6));
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item5) + "</col>");
+				int2, int3 = 0, 0;
+				item4 = datamap('i', 'o', 1666, int3);
+				while (int2 == 0 && item4 != null) {
+					if (item4 == item5) {
+						int2 = 1;
+					}
+					int3 = int3 + 1;
+					item4 = datamap('i', 'o', 1666, int3);
+				}
+				if (int2 == 1) {
+					CHILD.setContextMenuOption(1, "Donate");
+					CHILD.setContextMenuOption(2, "Donate-5");
+					CHILD.setContextMenuOption(3, "Donate-10");
+					CHILD.setContextMenuOption(4, "Donate-All");
+					CHILD.setContextMenuOption(5, "Donate-X");
+					CHILD.setContextMenuOption(10, "Examine");
+					CHILD.setTrans(0);
+					CHILD.hookOptionClick(&script_177(CTX_MENU_OPTION, CTX_WIDGET, CTX_WIDGET_CHILD));
+				} else {
+					CHILD.setContextMenuOption(10, "Donate");
+					CHILD.setTrans(150);
+					CHILD.hookOptionClick(null);
+				}
+			} else {
+				CHILD.setHidden(true);
+				CHILD.hookOptionClick(null);
+			}
+		}
+		int6 = int6 + 1;
+	}
+	return;
+}

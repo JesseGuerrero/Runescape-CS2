@@ -1,0 +1,34 @@
+int, int script_1688(Widget widget0, int arg1, string string2, int arg3, int arg4, int arg5, int arg6, int arg7) {
+	string str1;
+	string str2;
+	_CHILD.createChild(widget(590, 0), 3, arg7);
+	_CHILD.setSize(1, 1, 0, 0);
+	_CHILD.setPosition(0, 0, 0, 0);
+	if (arg4 < arg1) {
+		return arg5, arg6;
+	}
+	CHILD.createChild(widget0, 4, arg5);
+	CHILD.setSize(80, arg3, 1, 0);
+	CHILD.setPosition(5, arg6, 2, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.hookMouseHover(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+	CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16750623));
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setContextMenuOption(1, removeTags(string2));
+	str1 = "";
+	str2 = "";
+	if (arg7 < 9) {
+		str1 = str(arg7 + 1);
+		string2 = "<col=ccccff>" + str1 + ":" + "</col>" + " " + string2;
+		_CHILD.hookKey(&script_1689(KEY_PRESSED, CTX_WIDGET_CHILD, widget0, arg5, string2, str1, str2));
+	} else if (arg7 < 35) {
+		str1, str2 = datamap('i', 's', 1401, arg7 - 8), datamap('i', 's', 1402, arg7 - 8);
+		string2 = "<col=ccccff>" + str1 + ":" + "</col>" + " " + string2;
+		_CHILD.hookKey(&script_1689(KEY_PRESSED, CTX_WIDGET_CHILD, widget0, arg5, string2, str1, str2));
+	}
+	CHILD.setText(string2);
+	CHILD.hookOptionClick(&script_1690(CTX_MENU_OPTION, arg7, widget0, arg5, string2, str1, str2));
+	return arg5 + 1, arg6 + arg3;
+}

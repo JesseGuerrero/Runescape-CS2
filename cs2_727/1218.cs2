@@ -1,0 +1,8 @@
+//script1218(1218)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+instr6214(arg1, -1, arg0)
+iVar2 = if_getwidth(arg0) - if_getwidth(arg1)
+iVar3 = scale(iVar2, 127, detailget_ambientsound_volume())
+if_setposition(arg1, 0, 0, 0, iVar3)
+return

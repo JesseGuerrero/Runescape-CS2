@@ -1,0 +1,112 @@
+void script_1116(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	Widget widget4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int3 = 0;
+	while (int3 <= 5) {
+		if (CHILD.setChild(widget0, int3 * 2) == true && _CHILD.setChild(widget0, int3 * 2 + 1) == true) {
+			_CHILD.setRGB(0xFF981F);
+			if (VARPBIT[4776] == int3) {
+				CHILD.setSprite(296);
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+				CHILD.hookOptionClick(&script_489(0, 0));
+			} else {
+				CHILD.setSprite(295);
+				CHILD.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+				CHILD.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+				CHILD.hookOptionClick(&script_1114(CTX_MENU_OPTION, int3, widget0, widget1, widget2));
+			}
+		}
+		int3 = int3 + 1;
+	}
+	widget4 = datamap('i', 'I', 1235, 8);
+	int5 = widget4.getWidth();
+	int6 = widget4.getHeight();
+	widget4 = datamap('i', 'I', 1236, 8);
+	int7 = widget4.getWidth();
+	int8 = widget4.getHeight();
+	int9 = 0;
+	int9 = script_1117(8, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(9, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(27, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(10, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(11, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(28, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(12, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(13, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(29, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(14, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(15, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(30, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(51, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(52, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(53, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(142, 0, int5, int6, int7, int8, int9);
+	int9 = script_1117(43, 1, int5, int6, int7, int8, int9);
+	int9 = script_1117(44, 1, int5, int6, int7, int8, int9);
+	int9 = script_1117(45, 1, int5, int6, int7, int8, int9);
+	int9 = script_1117(46, 1, int5, int6, int7, int8, int9);
+	int9 = script_1117(143, 1, int5, int6, int7, int8, int9);
+	int9 = script_1117(47, 1, int5, int6, int7, int8, int9);
+	int9 = script_1117(54, 1, int5, int6, int7, int8, int9);
+	int9 = script_1117(16, 2, int5, int6, int7, int8, int9);
+	int9 = script_1117(17, 2, int5, int6, int7, int8, int9);
+	int9 = script_1117(18, 2, int5, int6, int7, int8, int9);
+	int9 = script_1117(19, 2, int5, int6, int7, int8, int9);
+	int9 = script_1117(20, 3, int5, int6, int7, int8, int9);
+	int9 = script_1117(21, 3, int5, int6, int7, int8, int9);
+	int9 = script_1117(22, 3, int5, int6, int7, int8, int9);
+	int9 = script_1117(23, 3, int5, int6, int7, int8, int9);
+	int9 = script_1117(4, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(5, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(6, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(7, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(49, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(0, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(1, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(2, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(3, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(48, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(24, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(25, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(26, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(50, 4, int5, int6, int7, int8, int9);
+	int9 = script_1117(37, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(56, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(57, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(36, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(58, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(59, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(38, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(60, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(61, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(31, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(62, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(63, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(39, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(64, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(65, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(40, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(66, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(67, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(42, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(41, 5, int5, int6, int7, int8, int9);
+	int9 = script_1117(55, 5, int5, int6, int7, int8, int9);
+	int10 = (int9 + 2) / 3;
+	if (int10 > 0) {
+		int10 = int10 * int6 + (int10 - 1) * 2;
+	}
+	if (int10 > widget1.getHeight()) {
+		widget1.setScrollMax(0, int10);
+	} else {
+		widget1.setScrollMax(0, 0);
+	}
+	script_72(widget2, widget1, VARC[77]);
+	return;
+}

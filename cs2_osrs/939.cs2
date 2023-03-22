@@ -1,0 +1,22 @@
+void script_939(Widget widget0, int arg1, int arg2, Widget widget3) {
+	int int4;
+	int int5;
+	int4 = widget0.getWidth();
+	int5 = widget0.getHeight();
+	if (int4 == arg1 && int5 == arg2) {
+		return;
+	}
+	if (int4 > 700) {
+		if (int5 > 500) {
+			widget3.setSize(700, 500, 0, 0);
+		} else {
+			widget3.setSize(700, 0, 0, 1);
+		}
+	} else if (int5 > 500) {
+		widget3.setSize(0, 500, 1, 0);
+	} else {
+		widget3.setSize(0, 0, 1, 1);
+	}
+	widget0.hookFrame(&script_938(widget0, int4, int5, widget3));
+	return;
+}

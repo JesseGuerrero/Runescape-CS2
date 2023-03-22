@@ -1,0 +1,107 @@
+//script5065(5065)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar1 = if_getheight(if_gethash(1111, 65))
+if_setsize(if_gethash(1111, 66), 0, 1, iVar1, 0)
+if_setsize(if_gethash(1111, 67), 0, 1, iVar1, 0)
+if_setsize(if_gethash(1111, 68), 0, 1, iVar1, 0)
+iVar2 = if_getheight(if_gethash(1111, 52))
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+switch(load_varc(768)) {
+	case default:
+		store_varc(768, 1)
+		iVar3 = iVar2 - (iVar1 * 3)
+		iVar4 = iVar2 - (iVar1 * 2)
+		iVar5 = iVar2 - iVar1
+		script_5056(72810561, 1)
+		script_5056(72810562, 0)
+		script_5056(72810563, 0)
+		script_5056(72810564, 0)
+		break
+	case 2:
+		iVar3 = iVar1
+		iVar4 = iVar2 - (iVar1 * 2)
+		iVar5 = iVar2 - iVar1
+		script_5056(72810561, 0)
+		script_5056(72810562, 1)
+		script_5056(72810563, 0)
+		script_5056(72810564, 0)
+		break
+	case 3:
+		iVar3 = iVar1
+		iVar4 = iVar1 * 2
+		iVar5 = iVar2 - iVar1
+		script_5056(72810561, 0)
+		script_5056(72810562, 0)
+		script_5056(72810563, 1)
+		script_5056(72810564, 0)
+		break
+	case 4:
+		iVar3 = iVar1
+		iVar4 = iVar1 * 2
+		iVar5 = iVar1 * 3
+		script_5056(72810561, 0)
+		script_5056(72810562, 0)
+		script_5056(72810563, 0)
+		script_5056(72810564, 1)
+		break
+
+}
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+if(arg0 == 1)
+	iVar6 = iVar3
+else {
+	iVar9 = if_gety(if_gethash(1111, 66))
+	if(iVar9 != iVar3) {
+		iVar6 = iVar9 + max(-3, min(3, iVar3 - iVar9))
+		iVar10 = 1
+	} else 
+		iVar6 = iVar3
+	iVar9 = if_gety(if_gethash(1111, 67))
+	if(iVar9 != iVar4) {
+		iVar7 = iVar9 + max(-3, min(3, iVar4 - iVar9))
+		iVar10 = 1
+	} else 
+		iVar7 = iVar4
+	iVar9 = if_gety(if_gethash(1111, 68))
+	if(iVar9 != iVar5) {
+		iVar8 = iVar9 + max(-3, min(3, iVar5 - iVar9))
+		iVar10 = 1
+	} else 
+		iVar8 = iVar5
+}
+if_setposition(if_gethash(1111, 65), 0, 1, 0, 0)
+if_setposition(if_gethash(1111, 66), 0, 1, iVar6, 0)
+if_setposition(if_gethash(1111, 67), 0, 1, iVar7, 0)
+if_setposition(if_gethash(1111, 68), 0, 1, iVar8, 0)
+if_setposition(if_gethash(1111, 53), 0, 1, iVar1, 0)
+if_setposition(if_gethash(1111, 56), 0, 1, iVar6 + iVar1, 0)
+if_setposition(if_gethash(1111, 59), 0, 1, iVar7 + iVar1, 0)
+if_setposition(if_gethash(1111, 62), 0, 1, iVar8 + iVar1, 0)
+if_setsize(if_gethash(1111, 53), 0, 1, iVar6 - iVar1, 0)
+if_setsize(if_gethash(1111, 56), 0, 1, iVar7 - (iVar6 + iVar1), 0)
+if_setsize(if_gethash(1111, 59), 0, 1, iVar8 - (iVar7 + iVar1), 0)
+if_setsize(if_gethash(1111, 62), 1, 1, iVar8 + iVar1, 0)
+script_72(72810551, 72810550, if_getscrolly(72810550))
+script_72(72810554, 72810553, if_getscrolly(72810553))
+script_72(72810557, 72810556, if_getscrolly(72810556))
+script_72(72810560, 72810559, if_getscrolly(72810559))
+if(iVar10 == 1)
+	instr6342(if_gethash(1111, 52), script_5064, "i", -1)
+else
+	instr6342(if_gethash(1111, 52), None, "")
+return

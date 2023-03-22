@@ -1,0 +1,181 @@
+//script4243(4243)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+string sVar0
+string sVar1
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+sVar0 = ""
+sVar1 = ""
+iVar5 = 0
+iVar6 = 0
+iVar7 = -1
+iVar8 = -1
+iVar9 = 0
+iVar10 = 0
+iVar11 = -1
+iVar12 = -1
+iVar13 = 0
+iVar14 = 20
+iVar15 = 23
+iVar16 = 0
+iVar17 = -1
+while(iVar1 < enum_getoutputcount(arg0)) {
+	iVar2 = enum(arg0, iVar1, 'i', 'i')
+	iVar4 = enum(3483, iVar2, 'i', 'J')
+	if(world_members() == 1)
+		if(load_varpbit(9030) == 1)
+			iVar17 = enum(5483, iVar4, 'J', 'J')
+	if(iVar17 != -1)
+		iVar4 = iVar17
+	if(iVar4 != -1)
+		if(script_3227(iVar2) != 2) {
+			sVar0 = struct_param(1266, iVar4)
+			if(struct_param(1270, iVar4) != 4094)
+				iVar7 = struct_param(952, enum(2252, struct_param(1270, iVar4), 'i', 'J'))
+			else
+				iVar7 = struct_param(1271, iVar4)
+			cc_create(iVar9, 5, 60096579)
+			iVar12 = 4041
+			iVar11 = 4042
+			cc_setgraphic(iVar12)
+			instr6091(script_4013, "id", -2147483643, iVar11)
+			instr6092(script_4013, "id", -2147483643, iVar12)
+			cc_setsize(0, 0, 56 + 1, 70 + 2)
+			cc_setposition(0, 0, iVar15 - 1, iVar14 - 1)
+			cc_setop("Summary for", 1)
+			if(load_varpbit(9030) == 0)
+				if(load_varpbit(8576) == iVar2)
+					cc_setop("Unpin", 2)
+				else
+					cc_setop("Pin", 2)
+			cc_setopbase(sVar0)
+			instr6687(script_3990, "iii", iVar2, -2147483643, -2147483644)
+			if(script_3999(iVar2) == 0) {
+				sVar1 = " -" + "<br>"
+				sVar1 = append(sVar1, struct_param(1266, iVar4))
+				sVar1 = append(struct_param(1273, iVar4), sVar1)
+				cc_setonmouseover(script_3998, "iiisIi", cc_gety(), -2147483647, -2147483646, sVar1, -2147483645, -2147483643)
+			}
+			if(script_3994(iVar2) == 1)
+				if(iVar2 != 4094)
+					store_varc(1422, iVar9)
+			cc_create(iVar9 + 1, 5, 60096579)
+			cc_setsize(0, 0, 50, 50)
+			cc_setgraphic(iVar7)
+			cc_setposition(0, 0, iVar15 + 2, iVar14 + 2)
+			cc_settrans(iVar16)
+			cc_create(iVar9 + 2, 5, 60096579)
+			cc_setsize(0, 0, 18, 14)
+			if(script_3996(iVar2) == 0) {
+				iVar8 = 4346
+				cc_setsize(0, 0, 11, 11)
+			} else 
+				iVar8 = -1
+			cc_setgraphic(iVar8)
+			cc_setposition(0, 0, iVar15 + 4, (iVar14 + 70) - 16)
+			cc_create(iVar9 + 3, 5, 60096579)
+			cc_setsize(0, 0, 11, 11)
+			cc_setposition(0, 0, iVar15 + 39, (iVar14 + 70) - 17)
+			if(script_3994(iVar2) == 1)
+				cc_setgraphic(4296)
+			iVar10 = iVar10 + 1
+			iVar9 = iVar10 * 4
+			iVar14 = (iVar14 + 70) + 20
+			iVar13 = modulo(5, iVar13 + 1)
+			if(iVar13 == 0) {
+				iVar15 = (iVar15 + 56) + 23
+				iVar14 = 20
+			}
+		}
+	iVar1 = iVar1 + 1
+}
+iVar1 = 0
+while(iVar1 < enum_getoutputcount(arg0)) {
+	iVar2 = enum(arg0, iVar1, 'i', 'i')
+	iVar4 = enum(3483, iVar2, 'i', 'J')
+	if(world_members() == 1)
+		if(load_varpbit(9030) == 1)
+			iVar17 = enum(5483, iVar4, 'J', 'J')
+	if(iVar17 != -1)
+		iVar4 = iVar17
+	if(iVar4 != -1)
+		if(script_3227(iVar2) == 2) {
+			sVar0 = struct_param(1266, iVar4)
+			if(struct_param(1270, iVar4) != 4094)
+				iVar7 = struct_param(952, enum(2252, struct_param(1270, iVar4), 'i', 'J'))
+			else
+				iVar7 = struct_param(1271, iVar4)
+			cc_create(iVar9, 5, 60096579)
+			iVar12 = 4043
+			iVar11 = 4043
+			cc_setgraphic(iVar12)
+			instr6091(script_4013, "id", -2147483643, iVar11)
+			instr6092(script_4013, "id", -2147483643, iVar12)
+			cc_setsize(0, 0, 56 + 1, 70 + 2)
+			cc_setposition(0, 0, iVar15 - 1, iVar14 - 1)
+			cc_setop("Summary for", 1)
+			cc_setopbase(sVar0)
+			instr6687(script_3990, "iii", iVar2, -2147483643, -2147483644)
+			if(script_3999(iVar2) == 0) {
+				sVar1 = " -" + "<br>"
+				sVar1 = append(sVar1, struct_param(1266, iVar4))
+				sVar1 = append(struct_param(1273, iVar4), sVar1)
+				cc_setonmouseover(script_3998, "iiisIi", cc_gety(), -2147483647, -2147483646, sVar1, -2147483645, -2147483643)
+			}
+			if(script_3994(iVar2) == 1)
+				if(iVar2 != 4094)
+					store_varc(1422, iVar9)
+			cc_create(iVar9 + 1, 5, 60096579)
+			cc_setsize(0, 0, 50, 50)
+			cc_setgraphic(iVar7)
+			cc_setposition(0, 0, iVar15 + 2, iVar14 + 2)
+			cc_settrans(iVar16)
+			cc_create(iVar9 + 2, 5, 60096579)
+			cc_setsize(0, 0, 18, 14)
+			if(script_3996(iVar2) == 0) {
+				iVar8 = 4346
+				cc_setsize(0, 0, 11, 11)
+			} else 
+				iVar8 = -1
+			cc_setgraphic(iVar8)
+			cc_setposition(0, 0, iVar15 + 4, (iVar14 + 70) - 16)
+			cc_create(iVar9 + 3, 5, 60096579)
+			cc_setsize(0, 0, 11, 11)
+			cc_setposition(0, 0, iVar15 + 39, (iVar14 + 70) - 17)
+			if(script_3994(iVar2) == 1)
+				cc_setgraphic(4296)
+			iVar10 = iVar10 + 1
+			iVar9 = iVar10 * 4
+			iVar14 = (iVar14 + 70) + 20
+			iVar13 = modulo(5, iVar13 + 1)
+			if(iVar13 == 0) {
+				iVar15 = (iVar15 + 56) + 23
+				iVar14 = 20
+			}
+		}
+	iVar1 = iVar1 + 1
+}
+if(iVar13 != 0)
+	iVar15 = iVar15 + 56
+else
+	iVar15 = iVar15 - 23
+return iVar15
+return 0

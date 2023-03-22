@@ -1,0 +1,15 @@
+void script_811(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	int int6;
+	int5 = (getClientCycle() - arg2) % 100;
+	if (int5 >= 50) {
+		int5 = 100 - int5;
+	}
+	int6 = arg3 + mathMethod4006(0, int5, 0, 50, arg4 - arg3);
+	if (arg1 == -1) {
+		widget0.setTrans(int6);
+	} else if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setTrans(int6);
+	}
+	return;
+}

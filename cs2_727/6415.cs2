@@ -1,0 +1,58 @@
+//script6415(6415)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+switch(arg0) {
+	case default:
+		break
+	case 85721111:
+		iVar1 = 85721112
+		iVar2 = 85721135
+		iVar3 = 85721134
+		iVar4 = 85721136
+		break
+	case 85721113:
+		iVar1 = 85721114
+		iVar2 = 85721453
+		iVar3 = 85721452
+		iVar4 = 85721454
+		break
+	case 85721115:
+		iVar1 = 85721116
+		iVar2 = 85721466
+		iVar3 = 85721465
+		iVar4 = 85721467
+		break
+	case 85721117:
+		iVar1 = 85721118
+		iVar2 = 85721479
+		iVar3 = 85721478
+		iVar4 = 85721480
+		break
+	case 85721119:
+		iVar1 = 85721120
+		iVar2 = 85721492
+		iVar3 = 85721491
+		iVar4 = 85721493
+		break
+	case 85721121:
+		iVar1 = 85721122
+		iVar2 = 85721505
+		iVar3 = 85721504
+		iVar4 = 85721506
+		break
+
+}
+if(iVar1 == -1 || iVar2 == -1 || iVar3 == -1)
+	return
+if_setcolor(iVar2, 0x5B5959)
+if_sethide(iVar3, 1)
+if_sethide(iVar1, 0)
+if_settext(iVar2, "Nothing")
+if_sethide(iVar4, 1)
+return

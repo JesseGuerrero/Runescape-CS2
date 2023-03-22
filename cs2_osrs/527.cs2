@@ -1,0 +1,11 @@
+void script_527(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	int5 = (190 - 160) / 5;
+	widget0.clearChildren();
+	script_528(0, widget1, "Display", 1084, int5, widget0, widget1, widget2, widget3, widget4);
+	script_528(1, widget2, "Audio", 661, int5, widget0, widget1, widget2, widget3, widget4);
+	script_528(2, widget3, "Chat", 1085, int5, widget0, widget1, widget2, widget3, widget4);
+	script_528(3, widget4, "Controls", 1088, int5, widget0, widget1, widget2, widget3, widget4);
+	script_530(0, widget1, widget0, widget1, widget2, widget3, widget4);
+	return;
+}

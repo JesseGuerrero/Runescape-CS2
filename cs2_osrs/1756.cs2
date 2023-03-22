@@ -1,0 +1,11 @@
+void script_1756(int arg0, Location arg1, boolean arg2) {
+	if (arg0 == 1 && arg1 != null) {
+		playSoundEffect(2266, 1, 0);
+		if (arg2 == false) {
+			cs2method6608(arg1);
+		} else {
+			cs2method6606(arg1);
+		}
+	}
+	return;
+}

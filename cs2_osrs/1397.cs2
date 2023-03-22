@@ -1,0 +1,190 @@
+void script_1397(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, int arg14) {
+	int int15;
+	int int16;
+	Widget widget17;
+	Item item18;
+	Sprite sprite19;
+	int int20;
+	int int21;
+	int15 = pow(7 + 2, 2) * 3;
+	int16 = int15;
+	if (VARPBIT[5330] > int15) {
+		while (int16 > 0) {
+			int16 = int16 - 1;
+			if (CHILD.setChild(widget(422, 5), int16) == true) {
+				CHILD.setNoOptions();
+				CHILD.setContextMenuOption(1, "Select");
+				CHILD.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+				CHILD.setRGB(0x8F8F8F);
+				CHILD.hookMouseHover(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+				CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 9408399));
+			}
+		}
+	} else if (VARPBIT[5332] == 0 && VARPBIT[5330] == 0) {
+		while (int16 > 0) {
+			int16 = int16 - 1;
+			if (CHILD.setChild(widget(422, 5), int16) == true) {
+				CHILD.setNoOptions();
+				CHILD.setContextMenuOption(6, "Add room");
+				CHILD.hookOptionClick(&script_489(CTX_MENU_OPTION, 64));
+				CHILD.setRGB(0xAFAFAF);
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+			}
+		}
+	} else {
+		while (int16 > 0) {
+			int16 = int16 - 1;
+			if (CHILD.setChild(widget(422, 5), int16) == true) {
+				CHILD.setNoOptions();
+				CHILD.hookOptionClick(null);
+				CHILD.setRGB(0xAFAFAF);
+				CHILD.hookMouseHover(null);
+				CHILD.hookMouseExit(null);
+			}
+		}
+	}
+	widget17 = datamap('i', 'I', 1424, -1);
+	if (VARPBIT[5333] <= 0) {
+		widget0.setText("---");
+		widget1.setSprite(null);
+		widget1.set2DAngle(0);
+		if (CHILD.setChild(widget17, 0) == true) {
+			CHILD.setSprite(null);
+			CHILD.set2DAngle(0);
+		}
+		widget2.setTrans(255);
+		widget3.setTrans(255);
+		widget4.setTrans(255);
+		widget5.setTrans(255);
+		widget6.setText("Select a room on the map.");
+		script_1398(widget7, "Move", 0);
+		script_1398(widget8, "Rotate", 0);
+		script_1400(widget9, 1366);
+		script_1400(widget10, 1367);
+		script_1398(widget11, "Delete", 0);
+		script_1398(widget12, "Cancel", 0);
+		script_1398(widget13, "Done", 0);
+		return;
+	}
+	item18 = datamap('i', 'o', 250, VARPBIT[5333]);
+	widget0.setText(getItemName(item18));
+	sprite19 = datamap('i', 'd', 1423, VARPBIT[5333]);
+	widget1.setSprite(sprite19);
+	int20 = 16384 * (4 - VARPBIT[5331]) % 65536;
+	widget1.set2DAngle(int20);
+	if (CHILD.setChild(widget17, 0) == true) {
+		if (VARPBIT[5330] != 0) {
+			CHILD.setSprite(sprite19);
+			CHILD.set2DAngle(int20);
+		} else {
+			CHILD.setSprite(null);
+			CHILD.set2DAngle(0);
+		}
+	}
+	int21 = 255;
+	if (isBitFlagged(VARPBIT[5335], 0) == true) {
+		int21 = 150;
+		if (VARPBIT[5331] == 1) {
+			if (isBitFlagged(VARPBIT[5334], 3) == true) {
+				int21 = 0;
+			}
+		} else if (VARPBIT[5331] == 2) {
+			int21 = 0;
+		} else if (VARPBIT[5331] == 3) {
+			if (isBitFlagged(VARPBIT[5334], 1) == true) {
+				int21 = 0;
+			}
+		} else if (isBitFlagged(VARPBIT[5334], 0) == true) {
+			int21 = 0;
+		}
+	}
+	widget2.setTrans(int21);
+	int21 = 255;
+	if (isBitFlagged(VARPBIT[5335], 2) == true) {
+		int21 = 150;
+		if (VARPBIT[5331] == 1) {
+			if (isBitFlagged(VARPBIT[5334], 1) == true) {
+				int21 = 0;
+			}
+		} else if (VARPBIT[5331] == 2) {
+			if (isBitFlagged(VARPBIT[5334], 0) == true) {
+				int21 = 0;
+			}
+		} else if (VARPBIT[5331] == 3) {
+			if (isBitFlagged(VARPBIT[5334], 3) == true) {
+				int21 = 0;
+			}
+		} else {
+			int21 = 0;
+		}
+	}
+	widget3.setTrans(int21);
+	int21 = 255;
+	if (isBitFlagged(VARPBIT[5335], 1) == true) {
+		int21 = 150;
+		if (VARPBIT[5331] == 1) {
+			if (isBitFlagged(VARPBIT[5334], 0) == true) {
+				int21 = 0;
+			}
+		} else if (VARPBIT[5331] == 2) {
+			if (isBitFlagged(VARPBIT[5334], 3) == true) {
+				int21 = 0;
+			}
+		} else if (VARPBIT[5331] == 3) {
+			int21 = 0;
+		} else if (isBitFlagged(VARPBIT[5334], 1) == true) {
+			int21 = 0;
+		}
+	}
+	widget4.setTrans(int21);
+	int21 = 255;
+	if (isBitFlagged(VARPBIT[5335], 3) == true) {
+		int21 = 150;
+		if (VARPBIT[5331] == 1) {
+			int21 = 0;
+		} else if (VARPBIT[5331] == 2) {
+			if (isBitFlagged(VARPBIT[5334], 1) == true) {
+				int21 = 0;
+			}
+		} else if (VARPBIT[5331] == 3) {
+			if (isBitFlagged(VARPBIT[5334], 0) == true) {
+				int21 = 0;
+			}
+		} else if (isBitFlagged(VARPBIT[5334], 3) == true) {
+			int21 = 0;
+		}
+	}
+	widget5.setTrans(int21);
+	if (VARPBIT[5330] > int15) {
+		widget6.setText("Use the map to select a position for the room.");
+		script_1398(widget7, "Move", 1);
+		script_1398(widget8, "Rotate", 0);
+		script_1400(widget9, 1366);
+		script_1400(widget10, 1367);
+		script_1398(widget11, "Delete", 0);
+		script_1399(widget12, "Cancel", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+		script_1398(widget13, "Done", 0);
+		return;
+	}
+	if (VARPBIT[5332] == 1) {
+		widget6.setText("Choose an orientation for the room, then select 'Done'.");
+		script_1398(widget7, "Move", 0);
+		script_1398(widget8, "Rotate", 1);
+		script_1401(widget9, "Clockwise", 1366, widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+		script_1401(widget10, "Counter-clockwise", 1367, widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+		script_1398(widget11, "Delete", 0);
+		script_1399(widget12, "Cancel", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+		script_1399(widget13, "Done", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+		return;
+	}
+	widget6.setText("Use the options to edit the room.");
+	script_1399(widget7, "Move", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+	script_1399(widget8, "Rotate", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+	script_1400(widget9, 1366);
+	script_1400(widget10, 1367);
+	script_1399(widget11, "Delete", widget0, widget1, widget2, widget3, widget4, widget5, widget6, widget7, widget8, widget9, widget10, widget11, widget12, widget13, arg14);
+	script_1398(widget12, "Cancel", 0);
+	script_1398(widget13, "Done", 0);
+	return;
+}

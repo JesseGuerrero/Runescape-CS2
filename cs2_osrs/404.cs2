@@ -1,0 +1,11 @@
+void script_404(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	script_1611("Withdraw all", widget4, 495);
+	script_1611("Bank all", widget5, 495);
+	script_1611("Shared", widget7, 494);
+	script_1605(widget4, widget5, widget6);
+	widget6.hookVARP(&script_1604(widget4, widget5, widget6), 1431);
+	script_31(widget2, widget1, 792, 789, 790, 791, 773, 788);
+	script_1607(widget1, widget2, widget3);
+	widget0.hookContainer(&script_1606(widget1, widget2, widget3), 583);
+	return;
+}

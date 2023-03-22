@@ -1,0 +1,14 @@
+void script_1721(int arg0, Widget widget1, Widget widget2) {
+	cs2method6604(arg0);
+	if (arg0 >= 200) {
+		script_1722(widget2, "", 1, widget1, widget2);
+	} else {
+		script_1722(widget2, "Zoom in", 1, widget1, widget2);
+	}
+	if (arg0 <= 25) {
+		script_1722(widget1, "", 0, widget1, widget2);
+	} else {
+		script_1722(widget1, "Zoom out", 0, widget1, widget2);
+	}
+	return;
+}

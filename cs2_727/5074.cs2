@@ -1,0 +1,27 @@
+//script5074(5074)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+if(cc_find(arg1, arg0) == 1) {
+	if(load_varc(1065) == -1) {
+		cc_sethide(1)
+		return
+	}
+	iVar2 = coordx(coord()) - coordx(load_varc(1065))
+	if(iVar2 < 0 || iVar2 >= 112 || iVar3 < 0 || iVar3 >= 112) {
+		cc_sethide(1)
+		return
+	}
+	iVar4 = load_varc(1396) + 1
+	cc_sethide(0)
+	cc_setposition(0, 0, if_getscrollheight(arg0) - (((iVar3 + 2) * load_varc(1396)) + iVar4), ((iVar2 + 2) * load_varc(1396)) - 1)
+	cc_setsize(0, 0, iVar4, iVar4)
+	if(modulo(40, client_clock()) < 20)
+		cc_setcolor(8f8f8f)
+	else
+		cc_setcolor(dddd00)
+}
+return

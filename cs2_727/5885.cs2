@@ -1,0 +1,18 @@
+//script5885(5885)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 82116690
+iVar3 = instr6072(iVar2)
+iVar4 = script_669(iVar3, 65535, 360)
+if(iVar4 >= arg0)
+	if(iVar4 <= arg1) {
+		instr6342(if_gethash(1253, 82), script_5883, "iiii", 1, 0, 0, iVar4)
+		instr6342(if_gethash(1253, 52), None, "")
+	} else 
+		if(iVar4 + 360 >= arg0)
+			if(iVar4 + 360 <= arg1) {
+				instr6342(if_gethash(1253, 82), script_5883, "iiii", 1, 0, 0, iVar4)
+				instr6342(if_gethash(1253, 52), None, "")
+			}
+return

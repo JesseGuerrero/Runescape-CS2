@@ -1,0 +1,69 @@
+string script_212(string string0) {
+	int int0;
+	int int1;
+	int int2;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	str1 = str(2147483647);
+	int0 = length(string0);
+	if (int0 <= 0) {
+		return "0";
+	}
+	if (int0 > 10) {
+		return str1;
+	}
+	string0 = lower(string0);
+	int1 = 0;
+	str2 = "";
+	str3 = "";
+	str4 = "";
+	while (int1 < int0) {
+		str2 = substr(string0, int1, int1 + 1);
+		if (compare(str2, "k") == 0) {
+			if (int0 > 8) {
+				return str1;
+			}
+			str3 = substr(string0, 0, int1);
+			if (int0 > int1 + 1) {
+				str4 = substr(string0, int1 + 1, int0);
+			} else {
+				str4 = "";
+			}
+			string0 = concat(concat(str3, "000"), str4);
+			int0 = int0 + 2;
+			str2 = "0";
+		} else if (compare(str2, "m") == 0) {
+			if (int0 > 5) {
+				return str1;
+			}
+			str3 = substr(string0, 0, int1);
+			if (int0 > int1 + 1) {
+				str4 = substr(string0, int1 + 1, int0);
+			} else {
+				str4 = "";
+			}
+			string0 = concat(concat(str3, "000000"), str4);
+			int0 = int0 + 5;
+			str2 = "0";
+		}
+		int1 = int1 + 1;
+	}
+	if (int0 < 10) {
+		return string0;
+	}
+	int2 = 0;
+	int1 = 0;
+	while (int1 < int0) {
+		int2 = compare(substr(string0, int1, int1 + 1), substr(str1, int1, int1 + 1));
+		if (int2 > 0) {
+			return str1;
+		}
+		if (int2 < 0) {
+			return string0;
+		}
+		int1 = int1 + 1;
+	}
+	return string0;
+}

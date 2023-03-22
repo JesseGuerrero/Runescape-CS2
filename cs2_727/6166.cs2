@@ -1,0 +1,21 @@
+//script6166(6166)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = enum_getoutputcount(5838)
+if_sethide(if_gethash(1273, 14), 0)
+while(iVar0 < enum_getoutputcount(5838)) {
+	cc_create(iVar0, 5, 83427342)
+	iVar0 = iVar0 + 1
+}
+iVar1 = script_6173(iVar1, 83427342)
+iVar0 = 0
+while(iVar0 < enum_getoutputcount(5838) / 2) {
+	if(cc_find(iVar0, if_gethash(1273, 14)) == 1) {
+		cc_sendtofront()
+		iVar1 = script_6172(iVar0, iVar1)
+	}
+	iVar0 = iVar0 + 1
+}
+instr6342(if_gethash(1273, 14), script_6167, "ii", 0, iVar1)
+return

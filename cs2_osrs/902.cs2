@@ -1,0 +1,4 @@
+void script_902(Widget widget0, DataMap datamap1) {
+	script_907(widget0, datamap1);
+	return;
+}

@@ -1,0 +1,67 @@
+void script_1404(int arg0, Item item1, int arg2, int arg3, string string4) {
+	Widget widget4;
+	string str1;
+	widget4 = datamap('i', 'I', 1461, arg0);
+	if (widget4 == null) {
+		return;
+	}
+	widget4.clearChildren();
+	CHILD.createChild(widget4, 4, 0);
+	CHILD.setHidden(true);
+	CHILD.setFont(494);
+	CHILD.setText(script_47(arg2) + script_47(arg0));
+	CHILD.createChild(widget4, 4, 1);
+	CHILD.setSize(56, 32, 0, 1);
+	CHILD.setPosition(0, 0, 0, 2);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(1, 0, 0);
+	CHILD.setText("Level " + arg2);
+	CHILD.createChild(widget4, 4, 2);
+	CHILD.setSize(56, 12, 1, 0);
+	CHILD.setPosition(0, 0, 2, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 0, 0);
+	str1 = "";
+	str1, string4 = script_632(string4);
+	CHILD.setText(str1);
+	CHILD.createChild(widget4, 4, 3);
+	CHILD.setSize(56, 12, 1, 1);
+	CHILD.setPosition(0, 0, 2, 2);
+	CHILD.setRGB(0xCCCCFF);
+	CHILD.setFont(494);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setText(string4);
+	CHILD.createChild(widget4, 5, 4);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(10, 0, 0, 0);
+	CHILD.setItemNoNum(item1, 1);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	widget4.setContextMenuOption(1, "Build");
+	widget4.setContextMenuOption(10, "Examine");
+	widget4.setOptionBase("<col=ff9040>" + getItemName(item1) + "</col>");
+	widget4.hookOptionClick(&script_1405(CTX_MENU_OPTION, arg0, item1, CTX_WIDGET, getChildId()));
+	CHILD.createChild(widget4, 5, 5);
+	CHILD.setSize(16, 16, 0, 0);
+	CHILD.setPosition(12, 0, 0, 0);
+	CHILD.setSprite(520);
+	if (arg3 == 1) {
+		CHILD.setHidden(true);
+		CHILD.createChild(widget4, 4, 6);
+		CHILD.setSize(56, 32, 0, 0);
+		CHILD.setPosition(0, 0, 0, 0);
+		CHILD.setRGB(0xCCCCFF);
+		CHILD.setFont(494);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setTextAlignment(0, 0, 0);
+		CHILD.setText("");
+	} else {
+		CHILD.setHidden(false);
+	}
+	return;
+}

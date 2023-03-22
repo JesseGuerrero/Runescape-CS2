@@ -1,0 +1,33 @@
+void script_136() {
+	DataMap datamap0;
+	Widget widget1;
+	datamap0 = script_900();
+	if (datamap0 == null) {
+		return;
+	}
+	widget1 = datamap('I', 'I', datamap0, widget(161, 3));
+	if (widget1 == null) {
+		return;
+	}
+	widget1.clearChildren();
+	CHILD.createChild(widget1, 3, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFilled(true);
+	CHILD.createChild(widget1, 6, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setModel(7427);
+	CHILD.set3DRotation(0, 120, 0, 0, 0, 2000);
+	CHILD.setAnimation(2260);
+	CHILD.createChild(widget1, 6, 2);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setModel(7428);
+	CHILD.set3DRotation(0, 120, 0, 0, 0, 2000);
+	CHILD.setAnimation(2260);
+	CHILD.hookFrame(&script_137(CTX_WIDGET, getClientCycle()));
+	script_1106(widget1, 0);
+	return;
+}

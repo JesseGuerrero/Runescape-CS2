@@ -1,0 +1,378 @@
+//script5351(5351)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10)(int, int, int, int, int)
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+int iVar42
+string sVar0
+string sVar1
+iVar11 = 0
+iVar12 = 0
+iVar13 = 74907653
+iVar14 = 74907724
+iVar15 = 74907714
+iVar16 = 74907715
+iVar17 = 74907716
+iVar18 = 74907717
+iVar19 = 74907718
+iVar20 = 74907719
+iVar21 = 74907708
+iVar22 = 74907709
+iVar23 = 74907710
+iVar24 = 74907711
+iVar25 = 74907712
+iVar26 = 74907713
+iVar27 = -1
+iVar28 = 0
+iVar29 = -1
+iVar30 = 0
+iVar31 = -1
+iVar32 = -1
+sVar0 = ""
+iVar33 = 0
+iVar34 = 7874
+iVar35 = 7875
+iVar36 = 7877
+iVar37 = 7877
+iVar38 = 7875
+iVar39 = 7877
+iVar40 = 7874
+iVar41 = 15122040
+iVar42 = 0
+sVar1 = "Over"
+if(arg0 != -1) {
+	if(arg1 >= 3) {
+		arg2 = arg5
+		arg3 = (arg3 + arg4) + arg5
+		arg1 = 0
+	}
+	switch(struct_param(1937, arg0)) {
+		case default:
+			break
+		case 1:
+			iVar27 = iVar15
+			iVar29 = 5182
+			break
+		case 9:
+			iVar27 = iVar16
+			iVar29 = 5724
+			break
+		case 2:
+			iVar27 = iVar17
+			iVar29 = 3875
+			break
+		case 3:
+			iVar27 = iVar18
+			if(gender() == 0)
+				iVar29 = 5189
+			else
+				iVar29 = 5188
+			break
+		case 4:
+			iVar27 = iVar19
+			iVar29 = 5184
+			break
+		case 5:
+			iVar27 = iVar20
+			iVar29 = 5183
+			break
+
+	}
+	iVar28 = 0
+	if(arg0 != enum(iVar29, iVar28, 'i', 'J'))
+		while(iVar28 < enum_getoutputcount(iVar29))
+			iVar28 = iVar28 + 1
+	iVar33 = iVar28
+	cc_create(arg6, 5, iVar14)
+	arg6 = arg6 + 1
+	cc_setposition(0, 0, arg3, arg2)
+	cc_setgraphic(arg8)
+	iVar12 = 58
+	arg4 = 68
+	arg2 = arg2 + iVar12
+	cc_setsize(0, 0, arg4, iVar12)
+	cc_create(arg6, 4, iVar14)
+	arg6 = arg6 + 1
+	cc_setposition(0, 0, arg3, arg2 - iVar12)
+	cc_setsize(0, 0, arg4, iVar12 * 3)
+	instr6091(script_5359, "IiJ1", iVar14, -2147483643, arg0, 1)
+	instr6092(script_5359, "IiJ1", iVar14, -2147483643, arg0, 0)
+	cc_create(arg6, 5, iVar14)
+	arg6 = arg6 + 1
+	cc_setposition(0, 0, arg3, arg2)
+	arg2 = arg2 + iVar12
+	cc_setgraphic(arg9)
+	cc_setsize(0, 0, arg4, iVar12)
+	cc_create(arg6, 5, iVar14)
+	arg6 = arg6 + 1
+	cc_setposition(0, 0, arg3, arg2)
+	arg2 = arg2 + iVar12
+	arg2 = arg2 + arg5
+	cc_setgraphic(arg10)
+	cc_setsize(0, 0, arg4, iVar12)
+	switch(struct_param(1937, arg0)) {
+		case default:
+			break
+		case 1:
+			if(iVar33 <= 31)
+				iVar30 = bit_flagged(iVar33, load_varp(2229))
+			else
+				if(iVar33 <= 62)
+					iVar30 = bit_flagged(iVar33 - 31, load_varp(2443))
+				else
+					iVar30 = bit_flagged(iVar33 - 62, load_varp(2539))
+			break
+		case 9:
+			iVar30 = bit_flagged(iVar33, load_varp(2540))
+			break
+		case 2:
+			iVar30 = bit_flagged(iVar33, load_varp(2230))
+			iVar42 = 1
+			break
+		case 3:
+			iVar30 = bit_flagged(iVar33, load_varp(2231))
+			break
+		case 4:
+			if(iVar33 < 16)
+				iVar30 = bit_flagged(iVar33, load_varp(2232))
+			else
+				iVar30 = bit_flagged(iVar33 - 16, load_varp(2447))
+			break
+		case 5:
+			iVar30 = bit_flagged(iVar33 + 16, load_varp(2232))
+			iVar42 = 1
+			break
+
+	}
+	if(iVar30 == 0) {
+		iVar31 = 7891
+		iVar32 = 7893
+		sVar0 = "Buy"
+	} else  {
+		iVar31 = 7892
+		iVar32 = 7894
+		sVar0 = "Reclaim"
+		if(iVar42 == 1)
+			sVar0 = "Unlocked"
+	}
+	cc_create(arg6, 5, iVar14)
+	cc_setposition(0, 0, arg3 + 50, arg2 - 103)
+	cc_setgraphic(iVar31)
+	cc_setsize(0, 0, 23, 90)
+	if(iVar30 == 1)
+		if(iVar42 == 1)
+		else {
+			instr6091(script_5336, "Iid", iVar14, arg6, iVar32)
+			instr6092(script_5336, "Iid", iVar14, arg6, iVar31)
+		}
+	arg6 = arg6 + 1
+	iVar28 = 0
+	while(iVar28 < iVar33) {
+		if(cc_find(iVar28, iVar27) == 0) {
+			cc_create(iVar28, 4, iVar27)
+			cc_sethide(1)
+		}
+		iVar28 = iVar28 + 1
+	}
+	cc_create(iVar33, 4, iVar27)
+	cc_setposition(0, 0, arg3 + 50, arg2 - 103)
+	cc_settext(sVar0)
+	cc_settextfont(3793)
+	cc_settextshadow(1)
+	cc_setcolor(0)
+	cc_settextalign(0, 1, 1)
+	cc_setsize(0, 0, 23, 90)
+	if(iVar30 == 1)
+		if(iVar42 == 1)
+		else
+			cc_setop(sVar0, 1)
+	cc_create(arg6, 4, iVar14)
+	arg6 = arg6 + 1
+	cc_setposition(0, 0, arg3 + 10, arg2 - 120)
+	if(struct_param(1937, arg0) == 4) {
+		iVar11 = enum(5185, arg0, 'J', 'i')
+		if(gender() == 0)
+			cc_settext(enum(3886, iVar11, 'i', 's'))
+		else
+			cc_settext(enum(3887, iVar11, 'i', 's'))
+		cc_settext(substring(cc_gettext(), string_length(cc_gettext()) - 1, 0))
+	} else 
+		cc_settext(struct_param(1930, arg0))
+	cc_settextfont(3793)
+	cc_settextshadow(1)
+	cc_setcolor(0)
+	cc_settextalign(12, 1, 1)
+	cc_setsize(0, 0, 24, 107)
+	if(paramheight(cc_gettext(), instr6148(), cc_getwidth()) > 1)
+		arg7 = 0
+	else
+		arg7 = -5
+	cc_create(arg6, 4, iVar14)
+	arg6 = arg6 + 1
+	cc_setposition(0, 0, (arg3 + 34) + arg7, arg2 - 117)
+	cc_settextfont(4040)
+	cc_settextshadow(1)
+	if(struct_param(1933, arg0) > 0) {
+		cc_settext(append(" Points", tostring_localized(1, struct_param(1933, arg0))))
+		cc_setcolor(56a5cc)
+	} else  {
+		cc_settext(append(" Points", tostring_localized(1, struct_param(1932, arg0))))
+		cc_setcolor(db9000)
+	}
+	cc_settextalign(13, 1, 1)
+	cc_setsize(0, 0, 19, 79)
+	switch(struct_param(1937, arg0)) {
+		case default:
+			break
+		case 1:
+			iVar27 = iVar21
+			break
+		case 9:
+			iVar27 = iVar22
+			break
+		case 2:
+			iVar27 = iVar23
+			break
+		case 3:
+			iVar27 = iVar24
+			break
+		case 4:
+			iVar27 = iVar25
+			break
+		case 5:
+			iVar27 = iVar26
+			break
+
+	}
+	switch(struct_param(1937, arg0)) {
+		case default:
+			break
+		case 1:
+			if(iVar33 <= 31)
+				iVar30 = bit_flagged(iVar33, load_varp(2391))
+			else
+				if(iVar33 <= 62)
+					iVar30 = bit_flagged(iVar33 - 31, load_varp(2444))
+				else
+					iVar30 = bit_flagged(iVar33 - 62, load_varp(2541))
+			break
+		case 9:
+			iVar30 = bit_flagged(iVar33, load_varp(2542))
+			break
+		case 2:
+			iVar30 = bit_flagged(iVar33, load_varp(2392))
+			break
+		case 3:
+			iVar30 = bit_flagged(iVar33, load_varp(2393))
+			break
+		case 4:
+			if(iVar33 < 16)
+				iVar30 = bit_flagged(iVar33, load_varp(2394))
+			else
+				iVar30 = bit_flagged(iVar33 - 16, load_varp(2445))
+			break
+		case 5:
+			iVar30 = bit_flagged(iVar33 + 16, load_varp(2394))
+			break
+
+	}
+	iVar28 = 0
+	while(iVar28 < iVar33) {
+		if(cc_find(iVar28, iVar27) == 0) {
+			cc_create(iVar28, 4, iVar27)
+			cc_sethide(1)
+		}
+		iVar28 = iVar28 + 1
+	}
+	cc_create(iVar33, 5, iVar27)
+	cc_setposition(0, 0, (arg3 + 33) + arg7, arg2 - 36)
+	if(iVar30 == 0) {
+		iVar34 = iVar40
+		iVar35 = iVar38
+		iVar36 = iVar37
+		cc_setop("Add to Favourites", 1)
+		if(load_varpbit(9487) != 8)
+			instr6687(script_5354, "Iiddddd", iVar27, iVar33, iVar36, iVar37, iVar39, iVar38, iVar40)
+	} else  {
+		iVar34 = iVar39
+		iVar35 = iVar37
+		iVar36 = iVar38
+		cc_setop("Remove from Favourites", 1)
+		if(load_varpbit(9487) != 8)
+			instr6687(script_5354, "Iiddddd", iVar27, iVar33, iVar36, iVar37, iVar39, iVar38, iVar40)
+	}
+	cc_setgraphic(iVar34)
+	cc_setsize(0, 0, 21, 21)
+	instr6091(script_5343, "Iid", iVar27, iVar33, iVar35)
+	instr6092(script_5343, "Iid", iVar27, iVar33, iVar34)
+	iVar33 = iVar33 + 1
+	cc_create(arg6, 5, iVar14)
+	arg6 = arg6 + 1
+	if(struct_param(1937, arg0) == 1) {
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, arg3 + 18, arg2 - 162)
+		cc_setitem(-1, struct_param(1935, arg0))
+	} else 
+		if(struct_param(1937, arg0) == 9) {
+			cc_setgraphic(struct_param(2283, arg0))
+			cc_setsize(0, 0, 43, 42)
+			cc_setposition(0, 0, arg3 + 12, arg2 - 166)
+		} else 
+			if(struct_param(1937, arg0) == 2) {
+				cc_setgraphic(struct_param(1420, arg0))
+				cc_setsize(0, 0, 48, 48)
+				cc_setposition(0, 0, arg3 + 11, arg2 - 170)
+			} else 
+				if(struct_param(1937, arg0) == 3) {
+					cc_setgraphic(struct_param(1441, arg0))
+					cc_setsize(0, 0, 50, 40)
+					cc_setposition(0, 0, arg3 + 10, arg2 - 166)
+				} else 
+					if(struct_param(1937, arg0) == 4) {
+						cc_setgraphic(7883)
+						cc_setsize(0, 0, 42, 42)
+						cc_setposition(0, 0, arg3 + 14, arg2 - 166)
+					} else 
+						if(struct_param(1937, arg0) == 5) {
+							cc_setsize(0, 0, 32, 36)
+							cc_setposition(0, 0, arg3 + 18, arg2 - 161)
+							cc_setitem(-1, struct_param(1935, arg0))
+						}
+	if(struct_param(1933, arg0) > 0) {
+		cc_create(arg6, 5, iVar14)
+		arg6 = arg6 + 1
+		cc_setposition(0, 0, arg3 + 5, arg2 - 175)
+		cc_setgraphic(6348)
+		cc_setsize(0, 0, 34, 40)
+	}
+	arg1 = arg1 + 1
+}
+return arg6, arg4, arg3, arg2, arg1
+return 0, 0, 0, 0, 0

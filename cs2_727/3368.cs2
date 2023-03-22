@@ -1,0 +1,13 @@
+//script3368(3368)(int arg0, int arg1, string arg2)(void)
+if(cc_find(arg0, if_gethash(1216, 3)) == 1)
+	if(string_length(cc_gettext()) == 0)
+		if(client_clock() > arg1) {
+			arg0 = append(arg0, "New: ")
+			cc_settext(arg0)
+			cc_settextfont(3795)
+			cc_settextshadow(1)
+			cc_setcolor(f5b241)
+			cc_settextalign(15, 1, 1)
+		}
+script_3370(arg0, arg1)
+return

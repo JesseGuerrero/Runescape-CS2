@@ -1,0 +1,12 @@
+//script4671(4671)(int arg0)(void)
+store_varc(1526, 0)
+store_varc(1527, 0)
+store_varc(1528, 0)
+store_varc(1529, 0)
+store_varc(1530, 0)
+store_varc(1531, 0)
+script_4672(load_varpbit(9306))
+script_4677()
+script_4673(load_varpbit(9306))
+instr6342(if_gethash(102, 62), script_4675, "")
+return

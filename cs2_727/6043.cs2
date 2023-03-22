@@ -1,0 +1,22 @@
+//script6043(6043)(int arg0, int arg1, int arg2)(void)
+int iVar3
+cc_deleteall(arg0)
+if(enum(681, load_varc(1796), 'i', 'S') == -1) {
+	if_sethide(arg1, 0)
+	script_6046(arg2, 50, "Choose a skill...")
+	return
+}
+if_sethide(arg1, 1)
+iVar3 = 0
+while(iVar3 < load_varc(1796)) {
+	cc_create(iVar3, 3, arg0)
+	cc_sethide(1)
+	iVar3 = iVar3 + 1
+}
+cc_create(iVar3, 3, arg0)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+cc_settrans(255)
+cc_setopname("Confirm: " + enum(108, load_varc(1796), 'i', 's'))
+script_6046(arg2, 50, script_6036(enum(681, load_varc(1796), 'i', 'S'), load_varc(1797), load_varc(1799)))
+return

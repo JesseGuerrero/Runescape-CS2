@@ -1,0 +1,9 @@
+//script5217(5217)(int arg0, int arg1, int arg2, int arg3)(void)
+script_5981(arg0)
+script_4161(arg0, 255)
+hook_mouse_enter(arg0, None, "")
+hook_mouse_enter(arg3, None, "")
+hook_mouse_enter(arg2, script_5218, "IIiiI", arg0, arg3, 0, 0, arg2)
+hook_mouse_exit(arg0, script_5218, "IIiiI", arg0, arg3, 1, 0, arg2)
+if_sethide(if_getparentlayer(arg3), 1)
+return

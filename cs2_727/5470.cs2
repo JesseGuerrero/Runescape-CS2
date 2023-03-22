@@ -1,0 +1,14 @@
+//script5470(5470)()(void)
+int iVar0
+iVar0 = script_284(coord())
+instr6650(3, 0)
+instr6650(3, 1)
+instr6651(0, 1800, movecoord(41, 2, 26, iVar0), 1800, movecoord(39, 2, 23, iVar0), 0, 0)
+instr6651(0, 1300, movecoord(35, 2, 27, iVar0), 1300, movecoord(35, 2, 25, iVar0), 0, 1)
+instr6651(0, 1700, movecoord(34, 2, 32, iVar0), 1700, movecoord(36, 2, 31, iVar0), 1, 0)
+instr6651(0, 1300, movecoord(33, 2, 28, iVar0), 1300, movecoord(34, 2, 28, iVar0), 1, 1)
+instr6651(0, 1500, movecoord(30, 2, 27, iVar0), 1500, movecoord(31, 2, 29, iVar0), 2, 0)
+instr6651(0, 1300, movecoord(31, 2, 26, iVar0), 1300, movecoord(32, 2, 27, iVar0), 2, 1)
+instr6677(0, 1, 400, 400, 0, 0)
+instr6255(if_gethash(1172, 9), script_5474, "ii", 0, 400)
+return

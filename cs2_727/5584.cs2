@@ -1,0 +1,8 @@
+//script5584(5584)(int arg0, int arg1, int arg2, int arg3)(void)
+if_settrans(arg1, 255)
+instr6248(arg0, script_5585, "izII", -2147483640, -2147483639, arg0, arg1)
+if(arg2 != -1) {
+	if_setsize(arg2, 0, 0, 30, 250)
+	instr6342(arg2, script_5586, "II", arg2, arg3)
+}
+return

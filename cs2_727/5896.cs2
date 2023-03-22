@@ -1,0 +1,47 @@
+//script5896(5896)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = 82116691
+if(arg1 < 0) {
+	arg1 = arg1 + 1
+	instr6342(iVar2, script_5895, "ii", arg0, arg1)
+	return
+}
+instr6342(iVar2, script_5895, "ii", arg0, 0)
+iVar3 = script_669(instr6072(iVar2), 65535, 360)
+iVar4 = 0
+if(iVar3 == 359)
+	if(arg0 == 2) {
+		instr6342(iVar2, None, "")
+		return
+	} else 
+		iVar4 = 355
+else
+	if(iVar3 == 357)
+		if(arg0 == 2)
+			iVar4 = 359
+		else
+			iVar4 = 355
+	else
+		if(iVar3 == 355)
+			if(arg0 == 2)
+				iVar4 = 357
+			else
+				iVar4 = 354
+		else
+			if(iVar3 == 354)
+				if(arg0 == 2)
+					iVar4 = 355
+				else
+					iVar4 = 353
+			else
+				if(iVar3 == 353) {
+					iVar4 = 354
+					arg0 = 2
+					instr6342(if_gethash(1253, 83), script_5895, "ii", arg0, 0)
+				}
+iVar5 = script_669(iVar4, 360, 65535)
+if_set2dangle(iVar2, iVar5)
+return

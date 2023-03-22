@@ -1,0 +1,34 @@
+//script2477(2477)()(void)
+if(load_varpbit(6348) == 28)
+	if_setcolor(55967745, 0xFFFF33)
+else
+	if_setcolor(55967745, 0xFF00)
+if(load_varpbit(6348) < 30)
+	if_setcolor(55967746, 0xFF0000)
+else
+	if(load_varpbit(6348) == 30)
+		if_setcolor(55967746, 0xFFFF33)
+	else
+		if_setcolor(55967746, 0xFF00)
+if(load_varpbit(6348) < 32)
+	if_setcolor(55967747, 0xFF0000)
+else
+	if(load_varpbit(6348) == 32)
+		if_setcolor(55967747, 0xFFFF33)
+	else
+		if_setcolor(55967747, 0xFF00)
+if(load_varpbit(6348) < 34)
+	if_setcolor(55967748, 0xFF0000)
+else
+	if(load_varpbit(6348) == 34)
+		if_setcolor(55967748, 0xFFFF33)
+	else
+		if_setcolor(55967748, 0xFF00)
+if(load_varpbit(6348) < 36)
+	if_setcolor(55967749, 0xFF0000)
+else
+	if(load_varpbit(6348) == 36)
+		if_setcolor(55967749, 0xFFFF33)
+	else
+		if_setcolor(55967749, 0xFF00)
+return

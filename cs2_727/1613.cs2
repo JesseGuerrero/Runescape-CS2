@@ -1,0 +1,76 @@
+//script1613(1613)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+if(arg1 == 1) {
+	store_varc(1031, 0)
+	instr6237(arg0, script_1613, "I1Y", 1, 2083, -2147483645, 0)
+}
+iVar2 = inv_size(if_gethash(0, 93))
+iVar3 = (iVar2 * 2) - 1
+iVar4 = 0
+while(iVar4 <= iVar3) {
+	if(cc_find(iVar4, arg0) == 0) {
+		cc_create(iVar4, 5, arg0)
+		cc_setsize(0, 0, 32, 36)
+		if(iVar4 < iVar2) {
+			cc_setgraphicshadow(3153952)
+			instr6103(script_1615, "1Ii", 1, -2147483645, -2147483643)
+			instr6094(script_1615, "1Ii", 0, -2147483645, -2147483643)
+			instr6073(2)
+			instr6443(5)
+			instr6075(5)
+			instr6499(script_1616, "IiIi", -2147483645, -2147483643, if_gethash(-32768, 6), -2147483641)
+			instr6687(script_1620, "Iiiii", -2147483645, -2147483643, 100, 0, 8)
+		} else  {
+			cc_setcolor(0)
+			cc_settrans(255)
+			cc_sethide(0)
+		}
+	}
+	iVar4 = iVar4 + 1
+}
+iVar5 = iVar2 / 4
+iVar6 = (if_getwidth(arg0) - (4 * 36)) / 3
+iVar7 = (if_getheight(arg0) - (iVar5 * 32)) / 6
+iVar8 = -1
+iVar3 = load_varc(1031) - 1
+iVar4 = 0
+while(iVar4 < iVar2) {
+	if(cc_find(iVar4, arg0) == 1) {
+		cc_resetopname()
+		cc_setposition(0, 0, (iVar4 / 4) * (32 + iVar7), modulo(4, iVar4) * (36 + iVar6))
+		iVar8 = inv_getitem(iVar4, 93)
+		if(iVar8 != -1) {
+			cc_sethide(0)
+			cc_setitem(inv_getnum(iVar4, 93), iVar8)
+			if(iVar4 == iVar3)
+				cc_setoutline(2)
+			else
+				cc_setoutline(1)
+			script_2833(iVar8)
+			instr6676(-1, arg0)
+			cc_setonmouseover(script_5495, "o", iVar8)
+			instr6092(script_5495, "o", -1)
+		} else  {
+			cc_sethide(1)
+			instr6095(None, "")
+			cc_setitem(0, -1)
+			cc_setoutline(1)
+			if(iVar4 == iVar3)
+				store_varc(1031, 0)
+		}
+	}
+	iVar4 = iVar4 + 1
+}
+iVar4 = 0
+while(iVar4 < iVar2) {
+	if(cc_find(iVar2 + iVar4, arg0) == 1)
+		cc_setposition(0, 0, (iVar4 / 4) * (32 + iVar7), modulo(4, iVar4) * (36 + iVar6))
+	iVar4 = iVar4 + 1
+}
+return

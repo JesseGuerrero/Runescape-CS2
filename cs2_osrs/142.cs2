@@ -1,0 +1,20 @@
+void script_142(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int5 = widget3.getWidth();
+	int6 = int5 * 2;
+	int7 = int5 / 2;
+	widget1.setSize(int6, widget1.getHeight(), 0, 0);
+	widget2.setSize(int6, widget2.getHeight(), 0, 0);
+	int8 = widget3.getX();
+	widget2.setPosition(int8 - int7, widget2.getY(), 0, 0);
+	widget1.setPosition(int8 - (int5 + 6) - int7, widget1.getY(), 0, 0);
+	int9 = getItemContainerLength(90);
+	script_768(int9, int5, int7, widget1, widget2, widget3, widget4);
+	widget0.hookContainer(&script_767(int9, int5, int7, widget1, widget2, widget3, widget4), 90);
+	widget0.hookVARP(&script_767(int9, int5, int7, widget1, widget2, widget3, widget4), 1042);
+	return;
+}

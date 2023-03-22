@@ -1,0 +1,12 @@
+//script2271(2271)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, string arg14, string arg15)(void)
+item_useonname(arg0, "<col=00ff00>" + arg0)
+script_2273(arg0, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13)
+if_setonmouseover(arg0, script_2274, "IIissoioioioi", arg0, arg1, arg4, arg0, arg1, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13)
+hook_mouse_exit(arg0, script_11, "I", arg1)
+if(instr6296(arg0) != 0) {
+	instr6376(arg0, script_17, "I", arg0)
+	instr6527(arg0, script_18, "I", arg0)
+}
+if_setonmouseleave(arg0, script_2272, "Iddi1oioioioiY", 1, 93, arg0, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13)
+instr6393(arg0, script_2272, "Iddi1oioioioiY", 1, 6, arg0, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11, arg12, arg13)
+return

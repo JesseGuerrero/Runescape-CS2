@@ -1,0 +1,26 @@
+//script5583(5583)(int arg0, int arg1)(void)
+if(arg0 == 16)
+	if(if_gethide(if_gethash(1193, 3)) == 0) {
+		if_setcolor(78184451, 0xDB9000)
+		if_setcolor(78184460, 0xDB9000)
+		if_resume_pausebutton(if_gethash(1193, 11))
+	} else 
+		if(arg0 == 17)
+			if(if_gethide(if_gethash(1193, 23)) == 0) {
+				if_setcolor(78184471, 0xDB9000)
+				if_setcolor(78184472, 0xDB9000)
+				if_resume_pausebutton(if_gethash(1193, 13))
+			} else 
+				if(arg0 == 18)
+					if(if_gethide(if_gethash(1193, 28)) == 0) {
+						if_setcolor(78184476, 0xDB9000)
+						if_setcolor(78184477, 0xDB9000)
+						if_resume_pausebutton(if_gethash(1193, 14))
+					} else 
+						if(arg0 == 19)
+							if(if_gethide(if_gethash(1193, 33)) == 0) {
+								if_setcolor(78184481, 0xDB9000)
+								if_setcolor(78184482, 0xDB9000)
+								if_resume_pausebutton(if_gethash(1193, 15))
+							}
+return

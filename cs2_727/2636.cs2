@@ -1,0 +1,12 @@
+//script2636(2636)()(void)
+if(load_varpbit(6357) == 2) {
+	if_setuseoptionstring(if_gethash(859, 16), "Attack wall")
+	if_setuseoptionstring(if_gethash(859, 17), "Collect")
+} else 
+	if(load_varpbit(6357) == 4) {
+		if_setuseoptionstring(if_gethash(859, 16), "Rescue")
+		if_setuseoptionstring(if_gethash(859, 17), "Steal")
+	} else 
+		if(load_varpbit(6357) == 3)
+			if_setuseoptionstring(if_gethash(859, 16), "Collect gold")
+return

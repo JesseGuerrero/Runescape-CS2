@@ -1,0 +1,12 @@
+//script553(553)()(void)
+int iVar0
+if(load_varpbit(4111) == 15) {
+	sound_synth(0, 1, 4020)
+	return
+}
+store_varpbit(4111, load_varpbit(4111) + 1)
+iVar0 = (15 - load_varpbit(4111)) * 6
+if_setposition(if_gethash(624, 19), 0, 0, iVar0, 0)
+if_settext(if_gethash(624, 72), to_string(load_varpbit(4111)))
+sound_synth(0, 1, 4026)
+return

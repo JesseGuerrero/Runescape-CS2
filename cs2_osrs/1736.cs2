@@ -1,0 +1,13 @@
+void script_1736(Widget widget0, int arg1, int arg2) {
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		playSoundEffect(2266, 1, 0);
+		CHILD.setSprite(297);
+		CHILD.hookMouseHover(null);
+		CHILD.hookMouseExit(null);
+		CHILD.setContextMenuOption(1, "Quit");
+		CHILD.hookOptionClick(&script_1734(widget0, getChildId(), getChildId()));
+		STRING[138] = "";
+		script_1738("", widget0);
+	}
+	return;
+}

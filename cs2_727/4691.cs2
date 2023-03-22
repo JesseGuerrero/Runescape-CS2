@@ -1,0 +1,4 @@
+//script4691(4691)(int arg0)(void)
+if_sethide(if_gethash(551, 23), 1)
+if_setcolor(arg0, 0x282425)
+return

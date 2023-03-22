@@ -1,0 +1,12 @@
+void script_457(int arg0, Widget widget1, Widget widget2) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (VARP[173] <= 0) {
+		VARP[173] = 1;
+	} else {
+		VARP[173] = 0;
+	}
+	script_454(widget1, widget2);
+	return;
+}

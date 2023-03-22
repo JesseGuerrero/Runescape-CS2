@@ -1,0 +1,34 @@
+void script_1229(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int1 = 0;
+	if (arg0 == 3) {
+		int1 = VARPBIT[4896];
+	} else if (arg0 == 2) {
+		int1 = VARPBIT[4895];
+	} else if (arg0 == 4) {
+		int1 = VARPBIT[4898];
+	} else if (arg0 == 5) {
+		int1 = VARPBIT[4899];
+	} else {
+		if (!(arg0 == 1)) {
+			return;
+		}
+		int1 = VARPBIT[4894];
+	}
+	CHILD.setSize(mathMethod4006(0, int1, 0, 1000, 16384), 0, 2, 1);
+	if (int1 > 0 && CHILD.getWidth() < 1) {
+		CHILD.setSize(1, 0, 0, 1);
+	}
+	int2 = mathMethod4006(0, int1, 0, 1000, 1000);
+	_CHILD.setText(int2 / 10 + "." + int2 % 10 + "%");
+	int3 = 0;
+	int4 = 0;
+	int5 = 0;
+	int3, int4, int5 = script_2(16750623);
+	_CHILD.setRGB(script_246(int3 + mathMethod4006(0, int1, 0, 1000, 255 - int3), int4 + mathMethod4006(0, int1, 0, 1000, 255 - int4), int5 + mathMethod4006(0, int1, 0, 1000, 255 - int5)));
+	return;
+}

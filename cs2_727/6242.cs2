@@ -1,0 +1,12 @@
+//script6242(6242)()(void)
+int iVar0
+iVar0 = if_gettrans(if_gethash(1285, 27))
+if(iVar0 >= 243) {
+	if_sethide(if_gethash(1285, 25), 1)
+	instr6342(if_gethash(1285, 5), None, "")
+} else  {
+	if_settrans(if_gethash(1285, 26), iVar0 + 11)
+	if_settrans(if_gethash(1285, 27), iVar0 + 11)
+	if_settrans(if_gethash(1285, 28), iVar0 + 11)
+}
+return

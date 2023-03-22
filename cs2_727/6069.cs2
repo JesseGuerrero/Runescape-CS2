@@ -1,0 +1,9 @@
+//script6069(6069)()(void)
+if_setitem(if_gethash(1178, 10), -1, -1)
+if_setitem(if_gethash(1178, 13), -1, -1)
+if_setitem(if_gethash(1178, 16), -1, -1)
+if_setitem(if_gethash(1178, 19), -1, -1)
+if_setitem(if_gethash(1178, 22), -1, -1)
+if_setitem(if_gethash(1178, 25), -1, -1)
+if_setitem(if_gethash(1178, 28), -1, -1)
+return

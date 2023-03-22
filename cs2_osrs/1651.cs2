@@ -1,0 +1,22 @@
+void script_1651(int arg0, char char1, Widget widget2, string arg3, int arg4, string string5, int arg6) {
+	if (arg0 == 1 || char1 != '\uffff' && indexOf(string5, char1) != -1) {
+		if (arg0 != 1 && script_1701(584, -1) == 0) {
+			return;
+		}
+		playSoundEffect(2266, 1, 0);
+		if (CHILD.setChild(widget2, arg6) == true) {
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setText("...");
+		}
+		widget2.hookMouseHover(null);
+		widget2.hookMouseExit(null);
+		widget2.setNoOptions();
+		widget2.hookOptionClick(null);
+		widget2.hookKey(null);
+		widget2.hookFrame(&script_1652(widget2, arg3, arg4, string5, getClientCycle() + 40));
+		if (CHILD.setChild(widget(584, 0), arg4) == true) {
+			CHILD.cs2method1121_packet();
+		}
+	}
+	return;
+}

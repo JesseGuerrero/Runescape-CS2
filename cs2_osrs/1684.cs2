@@ -1,0 +1,5 @@
+void script_1684() {
+	playSoundEffect(2266, 1, 0);
+	msg("Unfortunately sorting is unavailable for a list with over " + 200 + " entries.");
+	return;
+}

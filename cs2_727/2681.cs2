@@ -1,0 +1,3 @@
+//script2681(2681)()(void)
+if_settext(if_gethash(398, 18), "Number of rooms: " + to_string(load_varc(944)))
+return

@@ -1,0 +1,41 @@
+void script_16(Widget widget0, Sprite sprite1, Sprite sprite2, int arg3, Item item4, int arg5, Item item6, int arg7, Item item8, int arg9, Item item10, int arg11) {
+	script_21(widget0, sprite1, sprite2, arg3, item4, arg5, item6, arg7, item8, arg9, item10, arg11);
+	if (widget0 == widget(218, 1) || widget0 == widget(218, 93) || widget0 == widget(218, 95) || widget0 == widget(218, 141)) {
+		if (VARPBIT[1771] == 1) {
+			widget0.setContextMenuOption(10, "Animation");
+		} else {
+			widget0.setContextMenuOption(10, "");
+		}
+	} else if (widget0 == widget(218, 16)) {
+		if (VARPBIT[4585] == 1 && isMember() == true) {
+			widget0.setContextMenuOption(1, "");
+			widget0.setContextMenuOption(3, "Cast");
+		} else {
+			widget0.setContextMenuOption(1, "Cast");
+			widget0.setContextMenuOption(3, "");
+		}
+	} else if (widget0 == widget(218, 27)) {
+		if (VARPBIT[4560] == 1 && isMember() == true) {
+			widget0.setContextMenuOption(1, "");
+			widget0.setContextMenuOption(3, "Cast");
+		} else {
+			widget0.setContextMenuOption(1, "Cast");
+			widget0.setContextMenuOption(3, "");
+		}
+	} else if (widget0 == widget(218, 38)) {
+		if (VARPBIT[4548] == 1 && isMember() == true) {
+			widget0.setContextMenuOption(1, "");
+			widget0.setContextMenuOption(3, "Cast");
+		} else {
+			widget0.setContextMenuOption(1, "Cast");
+			widget0.setContextMenuOption(3, "");
+		}
+	} else if (widget0 == widget(218, 99)) {
+		if (VARPBIT[5006] == 10 && VARPBIT[5037] == 1) {
+			widget0.setContextMenuOption(2, "Steve");
+		} else {
+			widget0.setContextMenuOption(2, datamap('i', 's', 1702, VARPBIT[5006]));
+		}
+	}
+	return;
+}

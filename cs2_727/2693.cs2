@@ -1,0 +1,8 @@
+//script2693(2693)(int arg0)(string)
+int iVar1
+int iVar2
+iVar1 = 0
+iVar2 = 0
+iVar1 = instr6404(arg0).get(0)
+return to_string(iVar1) + "x" + to_string(iVar2)
+return ""

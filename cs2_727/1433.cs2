@@ -1,0 +1,12 @@
+//script1433(1433)()(void)
+script_6382()
+if(instr6644() >= 1) {
+	instr6257(if_gethash(746, 11), script_1434, "Y", 1, 184)
+	instr6257(if_gethash(548, 3), script_1434, "Y", 1, 184)
+}
+instr6257(if_gethash(752, 3), script_1547, "Y", 1, 5)
+instr6256(if_gethash(746, 52), script_721, "")
+if(load_varc(1694) == -1)
+	store_varc(1694, 100)
+script_51()
+return

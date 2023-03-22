@@ -1,0 +1,28 @@
+//script6127(6127)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+sVar0 = "- Place probes in the mind of your victim to invade their consciousness and steal their memories." + "<br>" + "- Place each in a perfect position to obtain a clear memory." + "<br>" + "- Use the flashing hint circle to find the ideal positions. A faster flash is better." + "<br>" + "- You may also make use of audio hints to help find the ideal positions." + "<br>" + "- You have three probes to place." + "<br>" + "- Click the screen to add a probe in place." + "<br>" + "- You will exit the mind of your victim when you have placed all three probes."
+iVar1 = 10
+iVar2 = 16
+iVar3 = if_getwidth(if_gethash(1270, 76)) - (iVar1 * 2)
+iVar4 = paramheight(sVar0, 495, iVar3)
+if_settextalign(if_gethash(1270, 77), iVar2, 0, 0)
+iVar5 = iVar2 * iVar4
+if_setposition(if_gethash(1270, 77), 0, 0, iVar1, iVar1)
+if_setsize(if_gethash(1270, 77), 0, 0, iVar5, iVar3)
+if_settext(if_gethash(1270, 77), sVar0)
+iVar6 = (iVar5 + iVar1) + iVar1
+if(iVar6 < if_getheight(if_gethash(1270, 76)))
+	iVar6 = if_getheight(if_gethash(1270, 76))
+if_setscrollsize(83230796, iVar6, if_getwidth(if_gethash(1270, 76)))
+script_31(83230795, 83230796, 5666, 5663, 5664, 5665, 5686, 5685)
+if(arg0 == 1)
+	if_sethide(if_gethash(1270, 71), 0)
+else
+	if_sethide(if_gethash(1270, 71), 1)
+return

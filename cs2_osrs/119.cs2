@@ -1,0 +1,5 @@
+void script_119(Widget widget0) {
+	widget0.setIsHidden(false);
+	widget0.hookFrame(&script_122(widget0));
+	return;
+}

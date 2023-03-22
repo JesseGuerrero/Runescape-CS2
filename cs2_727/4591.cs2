@@ -1,0 +1,31 @@
+//script4591(4591)(string arg0)(string)
+int iVar0
+int iVar1
+arg0 = removetags(arg0).toLowerCase()
+iVar0 = string_length(arg0)
+iVar1 = 0
+arg0 = script_2332(arg0, "_", " ")
+arg0 = script_2332(arg0, "-", " ")
+arg0 = script_2332(arg0, " ", " ")
+if(string_indexof_string(" ", arg0, 0) == 0)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0, 1)
+		iVar0 = string_length(arg0)
+	}
+if(string_indexof_string(" ", arg0, iVar0 - 1) == iVar0 - 1)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0 - 1, 0)
+		iVar0 = string_length(arg0)
+	}
+if(string_indexof_string(" ", arg0, 0) == 0)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0, 1)
+		iVar0 = string_length(arg0)
+	}
+if(string_indexof_string(" ", arg0, iVar0 - 1) == iVar0 - 1)
+	while(iVar0 > 0) {
+		arg0 = substring(arg0, iVar0 - 1, 0)
+		iVar0 = string_length(arg0)
+	}
+return arg0
+return ""

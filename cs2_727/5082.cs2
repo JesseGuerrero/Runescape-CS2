@@ -1,0 +1,28 @@
+//script5082(5082)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+if(load_varc(160) != -1)
+	if(cc_find((load_varc(160) * 10) + 2, arg0) == 1) {
+		iVar1 = (script_4405() + cc_getheight()) - script_3366(73007126)
+		if(iVar1 >= if_getheight(arg0))
+			if_sethide(if_gethash(1114, 23), 1)
+		else
+			if(iVar1 <= 0)
+				if_sethide(if_gethash(1114, 23), 1)
+			else {
+				if_sethide(if_gethash(1114, 23), 0)
+				if_setposition(if_gethash(1114, 23), 0, 0, iVar1, script_1815() - script_3365(73007126))
+				if(instr6004(if_gethash(1114, 23)) == 1) {
+					iVar3 = instr6771(1477) + 8
+					iVar2 = max(0, min(if_getheight(if_gethash(1114, 22)) - iVar1, iVar3))
+					cc_setsize(0, 0, iVar2, instr6771(1476))
+				}
+				instr6342(if_gethash(1114, 23), script_5083, "Iii", -2147483645, load_varc(160), client_clock() + 2)
+			}
+	} else 
+		if_sethide(if_gethash(1114, 23), 1)
+return

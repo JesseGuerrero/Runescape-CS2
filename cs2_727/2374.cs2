@@ -1,0 +1,4 @@
+//script2374(2374)(int arg0, int arg1)(void)
+if_setnpchead(arg0, arg1)
+if_setmodelanim(arg0, 9806)
+return

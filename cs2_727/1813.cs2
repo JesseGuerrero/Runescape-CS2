@@ -1,0 +1,6 @@
+//script1813(1813)(int arg0, int arg1)(void)
+if(client_clock() >= arg0) {
+	if_settext(arg1, "")
+	instr6342(arg1, None, "")
+}
+return

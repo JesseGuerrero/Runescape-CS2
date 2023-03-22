@@ -1,0 +1,8 @@
+//script2237(2237)()(void)
+sound_synth(0, 1, 8729)
+if(load_varc(1132) == 0)
+	store_varc(1132, 1)
+else
+	store_varc(1132, 0)
+script_2220()
+return

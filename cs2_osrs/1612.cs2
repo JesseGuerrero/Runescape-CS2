@@ -1,0 +1,23 @@
+void script_1612(int arg0, Widget widget1, string arg2, Sprite sprite3) {
+	int int3;
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	widget1.clearChildren();
+	int3 = script_836(widget1, 0);
+	CHILD.createChild(widget1, 4, int3);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(sprite3);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText("---");
+	widget1.hookMouseHover(null);
+	widget1.hookMouseExit(null);
+	widget1.setNoOptions();
+	widget1.hookOptionClick(null);
+	widget1.hookFrame(&script_1613(widget1, arg2, sprite3, getClientCycle() + 20));
+	return;
+}

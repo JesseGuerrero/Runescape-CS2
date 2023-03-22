@@ -1,0 +1,5 @@
+//script6149(6149)(int arg0, int arg1)(int)
+int iVar2
+iVar2 = script_284(coord())
+return movecoord(arg1, 0, arg0, iVar2)
+return -1

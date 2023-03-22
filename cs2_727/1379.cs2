@@ -1,0 +1,37 @@
+//script1379(1379)()(void)
+switch(load_varpbit(5389)) {
+	case default:
+		break
+	case 1:
+		if_setmodelanim(if_gethash(796, 10), 10439)
+		break
+	case 2:
+		if_sethide(if_gethash(796, 11), 1)
+		if_sethide(if_gethash(796, 7), 0)
+		break
+	case 3:
+		if_setmodelanim(if_gethash(796, 6), 10439)
+		break
+	case 4:
+		if_sethide(if_gethash(796, 7), 1)
+		if_sethide(if_gethash(796, 9), 0)
+		break
+	case 5:
+		if_setmodelanim(if_gethash(796, 8), 10443)
+		break
+	case 6:
+		if_sethide(if_gethash(796, 9), 1)
+		if_sethide(if_gethash(796, 5), 0)
+		break
+	case 7:
+		if_setmodelanim(if_gethash(796, 4), 10437)
+		break
+	case 8:
+		if_sethide(if_gethash(796, 5), 1)
+		if_sethide(if_gethash(796, 3), 1)
+		if_sethide(if_gethash(796, 30), 0)
+		if_sethide(if_gethash(796, 1), 0)
+		break
+
+}
+return

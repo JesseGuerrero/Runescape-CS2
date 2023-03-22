@@ -1,0 +1,15 @@
+//script4988(4988)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+if(clan_vars_enabled() == 1) {
+	iVar1 = script_4957(arg0).get(0)
+	script_4981(arg0, iVar1, iVar3, iVar4, iVar2)
+	script_4937()
+}
+return

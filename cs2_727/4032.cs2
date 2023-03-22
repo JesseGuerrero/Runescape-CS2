@@ -1,0 +1,3 @@
+//script4032(4032)()(string)
+return get_col_tag(item_minimenu_colour(23106))
+return ""

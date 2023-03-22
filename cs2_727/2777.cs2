@@ -1,0 +1,8 @@
+//script2777(2777)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = 255 - script_1210(200, 75, arg0, 0)
+if(arg1 != -1)
+	if_settrans(arg1, iVar3)
+if(arg2 != -1)
+	if_settrans(arg2, iVar3)
+return

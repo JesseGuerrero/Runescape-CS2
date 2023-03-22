@@ -1,0 +1,45 @@
+void script_493(Widget widget0) {
+	int int1;
+	Item item2;
+	int int3;
+	int int4;
+	widget0.clearChildren();
+	int1 = getItemContainerLength(516);
+	item2 = null;
+	int3 = 0;
+	int4 = 0;
+	while (int4 < int1) {
+		CHILD.createChild(widget0, 5, int4);
+		item2 = getItemIdInSlot(516, int4);
+		if (item2 != null) {
+			int3 = int3 + 1;
+			CHILD.setHidden(false);
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(int4 % 4 * (36 + 8), int4 / 4 * (32 + 1), 0, 0);
+			CHILD.setOutlineThickness(1);
+			CHILD.setShadowColor(0x333333);
+			CHILD.setItem(item2, getItemAmtInSlot(516, int4));
+			CHILD.setTrans(0);
+			CHILD.setContextMenuOption(1, "Deposit-1");
+			CHILD.setContextMenuOption(2, "Deposit-5");
+			CHILD.setContextMenuOption(3, "Deposit-All");
+			CHILD.setContextMenuOption(4, "Deposit-X");
+			CHILD.setContextMenuOption(10, "Examine");
+			CHILD.setOptionBase("<col=ff9040>" + getItemName(item2) + "</col>");
+		} else {
+			CHILD.setHidden(true);
+		}
+		int4 = int4 + 1;
+	}
+	if (int3 <= 0) {
+		CHILD.createChild(widget0, 4, int4);
+		CHILD.setPosition(0, 0, 0, 0);
+		CHILD.setSize(widget0.getWidth(), widget0.getHeight(), 0, 0);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(495);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setText("The bag is empty.");
+	}
+	return;
+}

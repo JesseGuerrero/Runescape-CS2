@@ -1,0 +1,7 @@
+//script5710(5710)(int arg0, int arg1)(void)
+if_sethide(if_gethash(1218, 161), 1)
+store_varc(1754, arg1)
+if(cc_find(arg1, if_gethash(1218, 161)) == 1)
+	if_settext(if_gethash(1218, 172), cc_gettext())
+script_5691(arg0)
+return

@@ -1,0 +1,21 @@
+void script_997(Widget widget0, Widget widget1, Widget widget2, Widget widget3) {
+	int int4;
+	int int5;
+	int int6;
+	widget1.setIsHidden(false);
+	widget2.setIsHidden(false);
+	widget3.setIsHidden(false);
+	int4 = 0;
+	int5 = 0;
+	int6 = datamap('i', 'i', 1167, VARPBIT[4694]);
+	if (int6 > 0) {
+		int4 = VARC[71] + datamap('i', 'i', 1171, VARPBIT[4722]);
+		if (int4 > getClientCycle()) {
+			int5 = int4 - getClientCycle();
+		}
+		widget0.hookFrame(&script_998(widget0, widget1, widget2, widget3, getClientCycle() + int5 + int6));
+	} else {
+		widget0.hookFrame(null);
+	}
+	return;
+}

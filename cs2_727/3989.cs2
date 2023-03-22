@@ -1,0 +1,133 @@
+//script3989(3989)(int arg0, int arg1, int arg2)(int)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+string sVar0
+string sVar1
+iVar3 = -1
+iVar4 = 0
+iVar5 = 0
+sVar0 = ""
+sVar1 = ""
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = -1
+iVar10 = -1
+iVar11 = 0
+iVar12 = 0
+iVar13 = -1
+iVar14 = -1
+iVar15 = 0
+iVar16 = 20
+iVar17 = 0
+iVar18 = 23
+iVar19 = 0
+if(arg0 != 1120)
+	while(arg0 != 4094) {
+		iVar3 = enum(3483, arg0, 'i', 'J')
+		if(iVar3 != -1) {
+			iVar4 = script_3227(arg0)
+			iVar5 = struct_param(1293, iVar3)
+			if(iVar4 != 2 || arg1 == 0)
+				if(iVar5 != 63 || arg2 == 0) {
+					sVar0 = struct_param(1266, iVar3)
+					iVar7 = struct_param(1267, iVar3)
+					iVar8 = struct_param(1272, iVar3)
+					if(struct_param(1270, iVar3) != 4094)
+						iVar9 = struct_param(952, enum(2252, struct_param(1270, iVar3), 'i', 'J'))
+					else
+						iVar9 = struct_param(1271, iVar3)
+					cc_create(iVar11, 5, 60096579)
+					if(iVar4 == 2) {
+						iVar14 = 4043
+						iVar13 = 4043
+					} else  {
+						iVar14 = 4041
+						iVar13 = 4042
+					}
+					cc_setgraphic(iVar14)
+					instr6091(script_4013, "id", -2147483643, iVar13)
+					instr6092(script_4013, "id", -2147483643, iVar14)
+					cc_setsize(0, 0, 56 + 1, 70 + 2)
+					cc_setposition(0, 0, iVar18 - 1, iVar16 - 1)
+					cc_setop("Summary for", 1)
+					if(load_varpbit(9030) == 0)
+						if(load_varpbit(8576) == arg0)
+							cc_setop("Unpin", 2)
+						else
+							if(script_3227(arg0) != 2)
+								cc_setop("Pin", 2)
+					cc_setopbase(sVar0)
+					instr6687(script_3990, "iii", arg0, -2147483643, -2147483644)
+					if(script_3999(arg0) == 0) {
+						sVar1 = " -" + "<br>"
+						sVar1 = append(sVar1, struct_param(1266, iVar3))
+						sVar1 = append(struct_param(1273, iVar3), sVar1)
+						cc_setonmouseover(script_3998, "iiisIi", cc_gety(), -2147483647, -2147483646, sVar1, -2147483645, -2147483643)
+					}
+					if(script_3994(arg0) == 1)
+						if(arg0 != 4094)
+							store_varc(1422, iVar11)
+					cc_create(iVar11 + 1, 5, 60096579)
+					cc_setsize(0, 0, 50, 50)
+					cc_setgraphic(iVar9)
+					cc_setposition(0, 0, iVar18 + 2, iVar16 + 3)
+					cc_settrans(iVar19)
+					cc_create(iVar11 + 2, 5, 60096579)
+					if(iVar5 != 0)
+						if(iVar5 != 63) {
+							iVar10 = 4272
+							cc_setsize(0, 0, 13, 13)
+							cc_setgraphic(iVar10)
+							cc_setposition(0, 0, iVar18 + 4, (iVar16 + 70) - 16)
+						}
+					cc_create(iVar11 + 3, 5, 60096579)
+					if(script_3994(arg0) == 1) {
+						iVar10 = 4296
+						cc_setsize(0, 0, 11, 11)
+						iVar17 = 16
+					} else 
+						if(script_3996(arg0) == 0) {
+							iVar10 = 4346
+							cc_setsize(0, 0, 11, 11)
+							iVar17 = 15
+						} else  {
+							iVar10 = enum(3492, iVar8, 'i', 'd')
+							cc_setsize(0, 0, 11, 9)
+							iVar17 = 14
+						}
+					cc_setgraphic(iVar10)
+					cc_setposition(0, 0, iVar18 + 39, (iVar16 + 70) - iVar17)
+					iVar12 = iVar12 + 1
+					iVar11 = iVar12 * 4
+					iVar16 = (iVar16 + 70) + 20
+					iVar15 = modulo(5, iVar15 + 1)
+					if(iVar15 == 0) {
+						iVar18 = (iVar18 + 56) + 23
+						iVar16 = 20
+					}
+				}
+		}
+		arg0 = struct_param(1269, iVar3)
+	}
+if(iVar15 != 0)
+	iVar18 = iVar18 + 56
+else
+	iVar18 = iVar18 - 23
+return iVar18
+return 0

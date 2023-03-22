@@ -1,0 +1,31 @@
+//script1636(1636)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+cc_deleteall(arg0)
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+while(iVar4 < 50) {
+	iVar3 = script_1637(arg0, iVar3, iVar2, script_1638(iVar4)).get(0)
+	iVar4 = iVar4 + 1
+}
+if(iVar3 == 0)
+	pop_int()
+iVar5 = 0
+iVar6 = 0
+if(iVar2 > 15) {
+	iVar5 = if_getscrolly(arg0)
+	iVar6 = (iVar2 * 15) + 8
+	if_setscrollsize(arg0, iVar6, 0)
+	if(iVar5 > iVar6)
+		iVar5 = iVar6
+	script_72(arg1, arg0, iVar5)
+} else  {
+	if_setscrollsize(arg0, 0, 0)
+	if_setscrollpos(arg0, 0, 0)
+	script_72(arg1, arg0, 0)
+}
+return

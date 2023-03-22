@@ -1,0 +1,28 @@
+//script2295(2295)(int arg0)(int)
+int iVar1
+if(world_members() == 0)
+	if(script_2294(arg0) == 1)
+		return 0
+if(script_5256() == 0) {
+	sound_synth(0, 1, 2673)
+	return 0
+}
+iVar1 = 2279
+if(load_varpbit(6840) == 1)
+	iVar1 = 863
+if(stat_base(5) < struct_param(737, enum(iVar1, arg0, 'i', 'J'))) {
+	sound_synth(0, 1, 2673)
+	return 0
+}
+if(arg0 == 25)
+	if(stat_base(1) < 55 || load_varpbit(3909) != 8) {
+		sound_synth(0, 1, 2673)
+		return 0
+	}
+if(arg0 == 26)
+	if(stat_base(1) < 70 || load_varpbit(3909) != 8) {
+		sound_synth(0, 1, 2673)
+		return 0
+	}
+return 1
+return 0

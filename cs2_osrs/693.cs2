@@ -1,0 +1,8 @@
+void script_693(Widget widget0) {
+	if (VARPBIT[999] >= 9000) {
+		widget0.setText("Damage: Over 9000!");
+		return;
+	}
+	widget0.setText("Damage: " + VARPBIT[999]);
+	return;
+}

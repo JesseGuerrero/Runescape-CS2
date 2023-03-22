@@ -1,0 +1,4 @@
+//script6044(6044)()(void)
+send_message("You must choose a skill first.")
+sound_synth(0, 1, 2277)
+return

@@ -1,0 +1,8 @@
+void script_248(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	script_308(widget1, widget2, widget3, widget4, widget2);
+	script_302(widget2, widget4);
+	widget0.hookContainer(&script_301(widget2, widget4), 464, 108);
+	script_306(widget3);
+	widget3.hookContainer(&script_305(widget3), 93, 464, 108);
+	return;
+}

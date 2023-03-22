@@ -1,0 +1,8 @@
+//script217(217)()(void)
+if_settext(if_gethash(594, 106), "Reporting: " + load_varc_string(24))
+if_settext(if_gethash(594, 71), load_varc_string(24))
+if(compare("", load_varc_string(24)) != 0)
+	if_sethide(if_gethash(594, 81), 1)
+else
+	if_sethide(if_gethash(594, 81), 0)
+return

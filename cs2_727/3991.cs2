@@ -1,0 +1,95 @@
+//script3991(3991)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+if(arg0 == 4095)
+	arg0 = 4094
+iVar1 = script_5795(arg0)
+if(iVar1 == -1)
+	return
+script_5796(arg0, 1, 60096549, 60096546, 60096563, 60096548, 60096551, -1)
+iVar2 = script_3227(arg0)
+if(iVar2 != 2)
+	if(load_varpbit(9030) == 0)
+		if_sethide(if_gethash(917, 41), 0)
+	else
+		if_sethide(if_gethash(917, 41), 1)
+sVar0 = append(enum(3488, struct_param(1272, iVar1), 'i', 's'), "Difficulty : ")
+sVar1 = append(enum(3487, struct_param(1267, iVar1), 'i', 's'), "Area : ")
+if_settext(if_gethash(917, 35), sVar0)
+if_settext(if_gethash(917, 38), sVar1)
+if_sethide(if_gethash(917, 86), 1)
+if_sethide(if_gethash(917, 87), 1)
+if_sethide(if_gethash(917, 88), 1)
+if_sethide(if_gethash(917, 89), 1)
+if_sethide(if_gethash(917, 90), 1)
+if_sethide(if_gethash(917, 91), 1)
+if_sethide(if_gethash(917, 92), 1)
+if_sethide(if_gethash(917, 93), 1)
+if_sethide(if_gethash(917, 94), 1)
+if_sethide(if_gethash(917, 95), 1)
+if_sethide(if_gethash(917, 96), 1)
+if_sethide(if_gethash(917, 99), 1)
+iVar3 = 0
+sVar2 = ""
+iVar4 = 0
+iVar3 = script_3995(arg0).get(0)
+if_settext(if_gethash(917, 13), sVar2)
+if_setcolor(60096525, iVar4)
+if_setsize(if_gethash(917, 13), 0, 0, paramheight(sVar2, 3793, if_getwidth(if_gethash(917, 13))), if_getwidth(if_gethash(917, 13)))
+if_setposition(if_gethash(917, 13), 0, 0, 16, 9)
+iVar5 = 34
+iVar6 = iVar5
+iVar7 = 0
+while(iVar7 < 12) {
+	iVar6 = script_3222(iVar5, arg0, iVar7, enum(3493, iVar7, 'i', 'I'))
+	if(iVar6 == iVar5)
+		iVar7 = 12
+	else
+		iVar7 = iVar7 + 1
+	iVar5 = iVar6
+}
+if_setscrollsize(60096576, max(if_getheight(if_gethash(917, 64)), iVar5), 0)
+script_31(60096577, 60096576, 4343, 4340, 4341, 4342, 4337, 4336)
+if(iVar5 > if_getheight(if_gethash(917, 64)))
+	if_sethide(if_gethash(917, 65), 0)
+else
+	if_sethide(if_gethash(917, 65), 1)
+if_setscrollpos(if_gethash(917, 49), 0, 0)
+iVar5 = script_5797(arg0, -1, 8, 1, 9, 104, 60096609, 60096610, 60096562, 60096561, 60096623)
+iVar8 = ((struct_param(1293, iVar1) - 1) * 5) + struct_param(1272, iVar1)
+sVar3 = ""
+if(struct_param(1270, iVar1) != 4094)
+	sVar3 = struct_param(951, enum(2252, struct_param(1270, iVar1), 'i', 'J'))
+else
+	sVar3 = struct_param(1292, iVar1)
+iVar9 = enum(3494, iVar8, 'i', 'J')
+sVar4 = ""
+if(compare("", sVar3) == 0)
+	if(struct_param(1322, iVar1) == 0)
+		sVar3 = "Completing this Task will earn you a sum of coins based on how many Tasks you have already done."
+cc_deleteall(if_gethash(917, 60))
+iVar5 = script_5798(4094, iVar9, 0, 5, 60096572, -1, 60096623, sVar3)
+if_setscrollpos(if_gethash(917, 59), 0, 0)
+if(iVar9 != -1)
+	if(iVar9 != 1645) {
+		iVar5 = script_5798(4094, iVar9, 0, iVar5, 60096572, -1, 60096623, struct_param(1273, iVar9))
+		iVar5 = script_5798(4094, iVar9, 0, iVar5, 60096572, -1, 60096623, struct_param(1292, iVar9))
+		pop_int()
+	}
+if(script_3999(arg0) == 0) {
+	if_sethide(if_gethash(917, 11), 0)
+	script_4019(0)
+}
+return

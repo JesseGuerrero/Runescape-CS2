@@ -1,0 +1,12 @@
+void script_607(boolean arg0, Widget widget1, int arg2, int arg3) {
+	if (CHILD.setChild(widget1, arg2) == true && _CHILD.setChild(widget1, arg3) == true) {
+		if (arg0 == true) {
+			CHILD.setSprite(813);
+			_CHILD.setRGB(0xFFFFFF);
+		} else {
+			CHILD.setSprite(812);
+			_CHILD.setRGB(0xFF981F);
+		}
+	}
+	return;
+}

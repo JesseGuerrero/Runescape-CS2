@@ -1,0 +1,10 @@
+//script3994(3994)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = enum(3483, arg0, 'i', 'J')
+iVar2 = struct_param(1268, iVar1)
+if(iVar2 == load_varpbit(8576))
+	return 1
+else
+	return 0
+return 0

@@ -1,0 +1,21 @@
+//script5367(5367)(int arg0, int arg1)(void)
+if(cc_find(arg0, if_gethash(951, 24)) == 1)
+	switch(arg1) {
+		case default:
+			break
+		case 0:
+			cc_sethide(1)
+			instr6556(None, "")
+			break
+		case 1:
+			cc_sethide(0)
+			instr6556(script_5368, "i", -2147483643)
+			break
+		case 2:
+			cc_sethide(0)
+			instr6556(None, "")
+			cc_settrans(0)
+			break
+
+	}
+return

@@ -1,0 +1,234 @@
+//script973(973)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+string sVar0
+string sVar1
+string sVar2
+iVar0 = load_varpbit(4729)
+if(load_varpbit(4729) < 1 || load_varpbit(4729) > 25)
+	return
+sVar0 = enum_string(iVar0, 1477)
+iVar1 = enum(681, iVar0, 'i', 'S')
+iVar2 = enum(1478, iVar0, 'i', 'd')
+iVar3 = 1
+iVar4 = 1
+switch(iVar0) {
+	case default:
+		break
+	case 1:
+		iVar4 = load_varc(1469)
+		break
+	case 2:
+		iVar4 = load_varc(1470)
+		break
+	case 5:
+		iVar4 = load_varc(1471)
+		break
+	case 3:
+		iVar4 = load_varc(1472)
+		break
+	case 7:
+		iVar4 = load_varc(1473)
+		break
+	case 4:
+		iVar4 = load_varc(1474)
+		break
+	case 6:
+		iVar4 = load_varc(1475)
+		break
+	case 8:
+		iVar4 = load_varc(1476)
+		break
+	case 9:
+		iVar4 = load_varc(1477)
+		break
+	case 10:
+		iVar4 = load_varc(1478)
+		break
+	case 11:
+		iVar4 = load_varc(1479)
+		break
+	case 19:
+		iVar4 = load_varc(1480)
+		break
+	case 13:
+		iVar4 = load_varc(1481)
+		break
+	case 14:
+		iVar4 = load_varc(1482)
+		break
+	case 15:
+		iVar4 = load_varc(1483)
+		break
+	case 16:
+		iVar4 = load_varc(1484)
+		break
+	case 17:
+		iVar4 = load_varc(1485)
+		break
+	case 18:
+		iVar4 = load_varc(1486)
+		break
+	case 12:
+		iVar4 = load_varc(1487)
+		break
+	case 20:
+		iVar4 = load_varc(1488)
+		break
+	case 21:
+		iVar4 = load_varc(1489)
+		break
+	case 22:
+		iVar4 = load_varc(1490)
+		break
+	case 23:
+		iVar4 = load_varc(1491)
+		break
+	case 24:
+		iVar4 = load_varc(1492)
+		break
+	case 25:
+		iVar4 = load_varc(1493)
+		break
+
+}
+if(iVar4 + 1 != stat_base(iVar1))
+	sVar0 = enum_string(iVar0, 3644) + to_string(stat_base(iVar1) - iVar4) + enum_string(iVar0, 3645)
+if_settext(if_gethash(741, 3), sVar0)
+if_settext(if_gethash(741, 5), "You have now reached level " + to_string(stat_base(iVar1)) + ".")
+if_setgraphic(if_gethash(741, 6), iVar2)
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+sVar1 = ""
+iVar8 = 0
+iVar9 = -1
+iVar10 = 2287
+iVar11 = iVar10
+iVar12 = 0
+cc_deleteall(if_gethash(741, 1))
+cc_deleteall(if_gethash(741, 2))
+if(load_varp(281) < 1000)
+	if(stat_base(iVar1) == 3) {
+		sVar1 = "<col=000080>" + "You've now reached the highest skill level that you can achieve during the tutorial. Once you finish the tutorial, you can advance this skill even further!"
+		iVar7 = script_974(iVar5, iVar6, 7620, iVar10, 0, 0, sVar1)
+		cc_settext(sVar1)
+		iVar6 = script_975(iVar6, iVar7)
+		iVar5 = 2 + iVar5
+	}
+if(load_varpbit(4730) == 1) {
+	sVar1 = "<col=800000>" + "Well done! You've reached the total level " + to_string(enum(1475, load_varpbit(4728), 'i', 'i')) + " milestone!"
+	iVar7 = script_974(iVar5, iVar6, 7620, iVar10, 0, 0, sVar1)
+	cc_settext(sVar1)
+	iVar6 = script_975(iVar6, iVar7)
+	iVar5 = 2 + iVar5
+}
+iVar8 = 0
+sVar1 = "null"
+iVar9 = 7620
+if(iVar0 == 1 || iVar0 == 2 || iVar0 == 5 || iVar0 == 3 || iVar0 == 7 || iVar0 == 4 || iVar0 == 6 || iVar0 == 24) {
+	if(load_varpbit(4731) == 1) {
+		sVar1 = "<col=800000>" + "Well done! You've reached the Combat level " + to_string(enum(1473, load_varpbit(4727), 'i', 'i')) + " milestone!"
+		iVar7 = script_974(iVar5, iVar6, 7620, iVar10, 0, 0, sVar1)
+		cc_settext(sVar1)
+		iVar6 = script_975(iVar6, iVar7)
+		iVar5 = 2 + iVar5
+	}
+	if(load_varpbit(5395) == 1)
+		while(iVar9 != -1) {
+			iVar12 = script_976(iVar8).get(0)
+			if(iVar12 == script_1432()) {
+				iVar7 = script_974(iVar5, iVar6, iVar9, iVar10, 0, 0, sVar1)
+				cc_settext(sVar1)
+				iVar6 = script_975(iVar6, iVar7)
+				iVar5 = 2 + iVar5
+			}
+			iVar8 = iVar8 + 1
+		}
+}
+sVar1 = ""
+iVar9 = 7620
+iVar13 = 0
+iVar8 = 0
+while(iVar13 != -1) {
+	iVar13 = 0
+	sVar1 = script_1023(iVar1, iVar8).get(2)
+	if(iVar13 == 1) {
+		iVar7 = script_974(iVar5, iVar6, iVar9, iVar10, 0, 0, sVar1)
+		cc_settext(sVar1)
+		iVar6 = script_975(iVar6, iVar7)
+		iVar5 = 2 + iVar5
+		iVar3 = 0
+	}
+	iVar8 = iVar8 + 1
+}
+iVar11 = iVar10
+iVar9 = 7620
+sVar1 = ""
+iVar8 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+sVar2 = ""
+sVar0 = script_12(iVar0).get(1)
+while(iVar8 < iVar14) {
+	sVar0 = script_13(iVar0, iVar8).get(1)
+	iVar16 = 0
+	iVar9 = 7620
+	iVar11 = iVar10
+	if(script_1566(iVar0, iVar8) == 1) {
+		while(iVar11 != -1) {
+			iVar12 = script_1567(iVar0, iVar8, iVar16).get(0)
+			if(iVar12 <= stat_base(iVar1))
+				if(iVar12 > iVar4) {
+					iVar7 = script_974(iVar5, iVar6, iVar9, iVar11, iVar0, iVar8, sVar1)
+					cc_settext(sVar1)
+					iVar6 = script_975(iVar6, iVar7)
+					iVar5 = 2 + iVar5
+					iVar3 = 0
+				}
+			iVar16 = iVar16 + 1
+		}
+		iVar8 = iVar8 + 1
+	} else  {
+		while(iVar9 != -1) {
+			iVar12 = script_14(iVar0, iVar8, iVar16).get(0)
+			if(iVar12 <= stat_base(iVar1))
+				if(iVar12 > iVar4) {
+					iVar7 = script_974(iVar5, iVar6, iVar9, iVar11, iVar0, iVar8, sVar1)
+					cc_settext(sVar1)
+					iVar6 = script_975(iVar6, iVar7)
+					iVar5 = 2 + iVar5
+					iVar3 = 0
+				}
+			iVar16 = iVar16 + 1
+		}
+		iVar8 = iVar8 + 1
+	}
+}
+if(iVar3 == 1) {
+	sVar1 = append("Check out the skill advance guide to see what you'll be able to do when you reach even higher levels...", script_4242(iVar0))
+	iVar7 = script_974(iVar5, iVar6, 7620, iVar10, 0, 0, sVar1)
+	cc_settext(sVar1)
+	iVar6 = script_975(iVar6, iVar7)
+}
+if_setscrollpos(if_gethash(741, 1), 0, 0)
+if_setscrollsize(48562177, iVar6, 296)
+if(iVar6 > 160)
+	script_31(48562178, 48562177, 798, 795, 796, 797, 793, 794)
+return

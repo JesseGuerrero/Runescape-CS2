@@ -1,0 +1,37 @@
+//script1917(1917)(int arg0)(void)
+if(arg0 == 53280867) {
+	if(load_varc(583) > 0) {
+		if_setcolor(arg0, 0xC8AA64)
+		return
+	}
+	if_setcolor(arg0, 0x333333)
+}
+if(arg0 == 53280869) {
+	if(load_varc(584) > 0) {
+		if_setcolor(arg0, 0xC8AA64)
+		return
+	}
+	if_setcolor(arg0, 0x333333)
+}
+if(arg0 == 53280871) {
+	if(load_varc(585) > 0) {
+		if_setcolor(arg0, 0xC8AA64)
+		return
+	}
+	if_setcolor(arg0, 0x333333)
+}
+if(arg0 == 53280873) {
+	if(load_varc(586) > 0) {
+		if_setcolor(arg0, 0xC8AA64)
+		return
+	}
+	if_setcolor(arg0, 0x333333)
+}
+if(arg0 == 53280875) {
+	if(load_varc(587) > 0) {
+		if_setcolor(arg0, 0xC8AA64)
+		return
+	}
+	if_setcolor(arg0, 0x333333)
+}
+return

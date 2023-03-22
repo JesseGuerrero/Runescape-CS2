@@ -1,0 +1,7 @@
+//script6131(6131)(int arg0, int arg1)(void)
+store_varc(1889, arg0)
+store_varc(1890, arg1)
+store_varc(1892, 50)
+instr6342(if_gethash(1270, 34), None, "")
+instr6342(if_gethash(1270, 34), script_6140, "ii", arg0, arg1)
+return

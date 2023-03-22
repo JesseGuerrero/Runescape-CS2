@@ -1,0 +1,5 @@
+void script_1136(int arg0, int arg1, Widget widget2, Widget widget3) {
+	widget2.setTrans(arg0);
+	widget3.setTrans(arg1);
+	return;
+}

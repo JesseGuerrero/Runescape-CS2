@@ -1,0 +1,11 @@
+void script_1711(int arg0, Map arg1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	script_1710(widget2, widget3);
+	if ((Map)cs2method6616() != arg1 && CHILD.setChild(widget2, 4) == true) {
+		script_1712(arg1, location(VARC[188]), widget2, widget3, widget4, widget5, widget6, widget7, widget8);
+	}
+	return;
+}

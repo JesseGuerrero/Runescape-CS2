@@ -1,0 +1,19 @@
+//script3960(3960)(int arg0)(void)
+int iVar1
+iVar1 = if_getspriteid(arg0)
+switch(iVar1) {
+	case default:
+		return
+
+	case 4122:
+		if_setgraphic(arg0, 4117)
+		break
+	case 4123:
+		if_setgraphic(arg0, 4118)
+		break
+	case 4124:
+		if_setgraphic(arg0, 4119)
+		break
+
+}
+return

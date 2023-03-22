@@ -1,0 +1,12 @@
+//script2416(2416)(int arg0)(void)
+if(load_varc(805) == 2 || load_varc(805) == 8)
+	instr6213(arg0, 1, "Cut wire")
+else
+	if(load_varc(805) == 3 || load_varc(805) == 9)
+		instr6213(arg0, 1, "Replace wire")
+	else
+		if(load_varc(805) == 4 || load_varc(805) == 10)
+			instr6213(arg0, 1, "Repair wire")
+		else
+			instr6213(arg0, 1, "Inspect")
+return

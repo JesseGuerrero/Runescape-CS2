@@ -1,0 +1,4 @@
+//script1863(1863)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1)
+	cc_settrans(0)
+return

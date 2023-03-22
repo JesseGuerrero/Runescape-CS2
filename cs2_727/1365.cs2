@@ -1,0 +1,4 @@
+//script1365(1365)(int arg0)(void)
+if_sethide(arg0, 0)
+instr6342(arg0, script_122, "I", arg0)
+return

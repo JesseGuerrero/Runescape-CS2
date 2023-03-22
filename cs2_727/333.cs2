@@ -1,0 +1,41 @@
+//script333(333)(int arg0, int arg1, int arg2, int arg3, int arg4)(int)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar5 = script_2413(arg1).get(0)
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar8 = script_2413(arg2).get(0)
+iVar11 = iVar8 - iVar5
+iVar12 = iVar9 - iVar6
+iVar13 = iVar10 - iVar7
+iVar14 = if_getheight(arg0) - arg4
+arg3 = arg3 * 2
+iVar15 = arg4
+iVar16 = 0
+iVar17 = iVar14 - iVar15
+while(iVar15 < iVar14) {
+	cc_create(if_getnextsubid(arg0), 3, arg0)
+	cc_setsize(0, 1, 1, arg3)
+	cc_setfill(1)
+	cc_setposition(0, 1, iVar15, 0)
+	cc_setcolor(0)
+	iVar16 = iVar16 + 1
+	iVar15 = iVar15 + 1
+}
+return iVar16
+return 0

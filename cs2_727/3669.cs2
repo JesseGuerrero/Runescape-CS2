@@ -1,0 +1,20 @@
+//script3669(3669)(int arg0)(int)
+switch(arg0) {
+	case default:
+		return 3125
+
+	case 2:
+		return 3128
+
+	case 3:
+		return 3131
+
+	case 4:
+		return 3134
+
+	case 5:
+		return 3137
+
+
+}
+return -1

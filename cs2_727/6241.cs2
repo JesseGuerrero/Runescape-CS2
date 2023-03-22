@@ -1,0 +1,20 @@
+//script6241(6241)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = if_getwidth(if_gethash(1285, 5))
+iVar1 = max(100 - scale(100, 7500, load_varc(1923)), 1)
+script_4542(iVar1, 84213765, -1)
+iVar2 = if_getwidth(if_gethash(1285, 5))
+iVar3 = iVar0 - iVar2
+if(iVar3 > 0) {
+	if_setsize(if_gethash(1285, 25), 0, 0, if_getheight(if_gethash(1285, 25)), iVar3)
+	if_settrans(if_gethash(1285, 26), 0)
+	if_settrans(if_gethash(1285, 27), 0)
+	if_settrans(if_gethash(1285, 28), 0)
+	if_setposition(if_gethash(1285, 25), 0, 0, if_gety(if_gethash(1285, 25)), if_getwidth(if_gethash(1285, 5)))
+	if_sethide(if_gethash(1285, 25), 0)
+	instr6342(if_gethash(1285, 5), script_6242, "")
+}
+return

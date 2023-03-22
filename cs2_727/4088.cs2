@@ -1,0 +1,6 @@
+//script4088(4088)(int arg0)(void)
+if(load_varpbit(8701) == 1)
+	if_setgraphic(arg0, 3012)
+else
+	if_setgraphic(arg0, 3010)
+return

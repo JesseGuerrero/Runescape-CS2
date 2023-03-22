@@ -1,0 +1,32 @@
+void script_1665(int arg0, Widget widget1, int arg2, int arg3, string arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10) {
+	widget1.clearChildren();
+	CHILD.createChild(widget1, 5, 0);
+	CHILD.setSize(7, 5, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	if (VARC[186] == arg3) {
+		CHILD.setSprite(1051);
+		CHILD.setTrans(0);
+		if (arg0 == 1) {
+			widget1.hookMouseHover(&script_1528(CTX_WIDGET, getChildId(), 120, widget(arg10), arg4));
+			widget1.hookMouseExit(&script_244(CTX_WIDGET, getChildId(), 0, widget(arg10)));
+			widget1.hookMousePress(&script_1666(arg2, widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10)));
+		}
+	} else if (VARC[186] == arg2) {
+		CHILD.setSprite(1050);
+		CHILD.setTrans(0);
+		if (arg0 == 1) {
+			widget1.hookMouseHover(&script_1528(CTX_WIDGET, getChildId(), 120, widget(arg10), arg4));
+			widget1.hookMouseExit(&script_244(CTX_WIDGET, getChildId(), 0, widget(arg10)));
+			widget1.hookMousePress(&script_1666(arg3, widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10)));
+		}
+	} else {
+		CHILD.setSprite(1050);
+		CHILD.setTrans(100);
+		if (arg0 == 1) {
+			widget1.hookMouseHover(&script_1528(CTX_WIDGET, getChildId(), 200, widget(arg10), arg4));
+			widget1.hookMouseExit(&script_244(CTX_WIDGET, getChildId(), 100, widget(arg10)));
+			widget1.hookMousePress(&script_1666(arg2, widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10)));
+		}
+	}
+	return;
+}

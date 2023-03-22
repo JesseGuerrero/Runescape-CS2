@@ -1,0 +1,17 @@
+//script5539(5539)()(void)
+switch(if_getspriteid(if_gethash(1178, 17))) {
+	case default:
+		break
+	case 8755:
+		if_setgraphic(if_gethash(1178, 29), 8751)
+		if_sethide(if_gethash(1178, 30), 0)
+		if_setgraphic(if_gethash(1178, 30), script_5552(if_getspriteid(if_gethash(1178, 18))))
+		break
+	case 8757:
+		if_setgraphic(if_gethash(1178, 29), 8752)
+		if_sethide(if_gethash(1178, 30), 0)
+		if_setgraphic(if_gethash(1178, 30), script_5552(if_getspriteid(if_gethash(1178, 18))))
+		break
+
+}
+return

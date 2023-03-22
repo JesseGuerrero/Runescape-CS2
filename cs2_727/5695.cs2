@@ -1,0 +1,7 @@
+//script5695(5695)(int arg0)(void)
+if(cc_find(arg0, if_gethash(1218, 30)) == 1)
+	if(cc_getspriteid() == 9308)
+		cc_setgraphic(9309)
+	else
+		cc_setgraphic(9311)
+return

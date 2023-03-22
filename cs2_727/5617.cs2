@@ -1,0 +1,6 @@
+//script5617(5617)(int arg0)(void)
+if(if_getwidth(if_gethash(1198, 3)) >= arg0)
+	instr6342(if_gethash(1198, 10), None, "")
+else
+	if_setsize(if_gethash(1198, 3), 0, 0, if_getheight(if_gethash(1198, 3)), if_getwidth(if_gethash(1198, 3)) + 1)
+return

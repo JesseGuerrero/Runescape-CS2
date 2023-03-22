@@ -1,0 +1,7 @@
+//script5183(5183)(int arg0, int arg1, int arg2, int arg3)(int)
+store_varp(2347, arg0)
+store_varpbit(9642, min(max(load_varpbit(9642) + arg1, 0), 63))
+store_varpbit(9643, min(max(load_varpbit(9643) + arg2, 0), 7))
+store_varpbit(9644, min(max(load_varpbit(9644) + arg3, 0), 127))
+return load_varp(2347)
+return 0

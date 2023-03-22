@@ -1,0 +1,22 @@
+int, int script_1008() {
+	int int0;
+	int int1;
+	int int2;
+	int int3;
+	Skill skill4;
+	int0 = 0;
+	int1 = 0;
+	int2 = pow(10, 9);
+	int3 = 1;
+	skill4 = datamap('i', 'S', 681, int3);
+	while (skill4 != null) {
+		int0 = int0 + getSkillXp(skill4);
+		while (int0 >= int2) {
+			int0 = int0 - int2;
+			int1 = int1 + 1;
+		}
+		int3 = int3 + 1;
+		skill4 = datamap('i', 'S', 681, int3);
+	}
+	return int1, int0;
+}

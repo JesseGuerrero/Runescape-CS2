@@ -1,0 +1,45 @@
+//script6147(6147)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+iVar5 = load_varc(1904)
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = -1
+iVar12 = -1
+iVar13 = -1
+iVar14 = -1
+iVar6 = 300 + random(250)
+iVar7 = 2 + random(6)
+iVar8 = 0
+iVar9 = (load_varc(1906) + 250) + random(300)
+instr6650(iVar7, 0)
+instr6650(iVar7, 1)
+while(iVar8 < iVar7) {
+	iVar11 = script_6150(arg1, arg4, movecoord(1, 0, 1, iVar5)).get(0)
+	iVar10 = arg2 + scale(iVar9 - arg2, iVar7 - 1, iVar8)
+	instr6651(0, iVar10, iVar12, iVar10, iVar11, iVar8, 0)
+	instr6651(0, 400 + load_varc(1906), iVar5, 400 + load_varc(1906), iVar5, iVar8, 1)
+	arg1 = arg1 + arg4
+	iVar8 = iVar8 + 1
+}
+if(arg3 == -1)
+	arg3 = iVar6
+instr6677(0, 1, iVar6, arg3, 0, 0)
+arg1 = arg1 - arg4
+while(arg1 < 0)
+	arg1 = arg1 + 8
+while(arg1 > 7)
+	arg1 = arg1 - 8
+instr6255(arg0, script_6148, "Iiiiii", arg0, arg1, iVar9, arg4, iVar6, 0)
+return

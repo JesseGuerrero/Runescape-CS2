@@ -1,0 +1,12 @@
+//script5591(5591)(int arg0, int arg1)(void)
+if(arg0 == 16) {
+	if_setcolor(77660180, 0xDB9000)
+	if_setcolor(77660181, 0xDB9000)
+	if_resume_pausebutton(if_gethash(1185, 15))
+} else 
+	if(arg0 == 17) {
+		if_setcolor(77660185, 0xDB9000)
+		if_setcolor(77660186, 0xDB9000)
+		if_resume_pausebutton(if_gethash(1185, 16))
+	}
+return

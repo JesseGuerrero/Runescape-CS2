@@ -1,0 +1,16 @@
+//script5795(5795)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = enum(3483, arg0, 'i', 'J')
+iVar2 = -1
+if(enum(5479, arg0, 'i', 'i') == 1)
+	if(if_isopenwithid2(1222, 48889866) == 0)
+		iVar2 = enum(5911, iVar1, 'J', 'J')
+	else
+		if(world_members() == 1)
+			if(load_varpbit(9030) == 1 || load_varpbit(10700) == arg0)
+				iVar2 = enum(5483, iVar1, 'J', 'J')
+if(iVar2 != -1)
+	iVar1 = iVar2
+return iVar1
+return -1

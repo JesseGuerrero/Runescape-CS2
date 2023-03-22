@@ -1,0 +1,9 @@
+void script_1286(Widget widget0, Widget widget1, Widget widget2, Widget widget3) {
+	script_1288(widget1, widget2, widget3);
+	widget0.hookVARP(&script_1287(widget1, widget2, widget3), 153, 416, 1339);
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 6, 0);
+	script_1290();
+	CHILD.hookVARP(&script_1289(CTX_WIDGET, CTX_WIDGET_CHILD), 153);
+	return;
+}

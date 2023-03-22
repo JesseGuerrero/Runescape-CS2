@@ -1,0 +1,4 @@
+void script_135(Widget widget0, Sprite sprite1) {
+	widget0.setFont(sprite1);
+	return;
+}

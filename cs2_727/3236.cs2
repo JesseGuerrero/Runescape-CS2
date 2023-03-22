@@ -1,0 +1,17 @@
+//script3236(3236)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+string sVar0
+sVar0 = ""
+switch(arg3) {
+	case default:
+		break
+	case 3:
+		sVar0 = load_varc_string(32)
+		break
+	case 4:
+		sVar0 = script_2949(load_varc_string(33))
+		break
+
+}
+store_varc(1099, script_1401(arg0, 3793, 0, sVar0))
+script_3237(arg4, arg1, arg2, arg3, sVar0)
+return

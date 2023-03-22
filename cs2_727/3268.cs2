@@ -1,0 +1,332 @@
+//script3268(3268)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar0 = 1
+iVar1 = 18
+iVar2 = 255
+iVar3 = (((load_varc(1198) + load_varc(1199)) + load_varc(1200)) + load_varc(1201)) + load_varc(1202)
+iVar4 = iVar2 - (iVar3 * iVar1)
+iVar4 = min(105, iVar4)
+iVar5 = 4
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar6 = script_3269(load_varc(1184), iVar5, iVar1, iVar4).get(0)
+switch(load_varc(1184)) {
+	case default:
+		break
+	case 0:
+		if_setposition(if_gethash(933, 265), 0, 0, script_3270(if_gety(if_gethash(933, 265)), iVar5), iVar0)
+		if(load_varc(1198) == 1) {
+			if_sethide(if_gethash(933, 265), 0)
+			instr6213(if_gethash(933, 265), 1, "Expand")
+			if_setgraphic(if_gethash(933, 317), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 265), 1)
+			instr6213(if_gethash(933, 265), 1, "")
+		}
+		if_setposition(if_gethash(933, 266), 0, 0, script_3270(if_gety(if_gethash(933, 266)), iVar6), iVar0)
+		if(load_varc(1199) == 1) {
+			if_sethide(if_gethash(933, 266), 0)
+			instr6213(if_gethash(933, 266), 1, "Expand")
+			if_setgraphic(if_gethash(933, 275), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 266), 1)
+			if_sethide(if_gethash(933, 316), 1)
+			instr6213(if_gethash(933, 266), 1, "")
+		}
+		if_setposition(if_gethash(933, 276), 0, 0, script_3270(if_gety(if_gethash(933, 276)), iVar7), iVar0)
+		if(load_varc(1200) == 1) {
+			if_sethide(if_gethash(933, 276), 0)
+			instr6213(if_gethash(933, 276), 1, "Expand")
+			if_setgraphic(if_gethash(933, 285), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 276), 1)
+			if_sethide(if_gethash(933, 274), 1)
+			instr6213(if_gethash(933, 276), 1, "")
+		}
+		if_setposition(if_gethash(933, 286), 0, 0, script_3270(if_gety(if_gethash(933, 286)), iVar8), iVar0)
+		if(load_varc(1201) == 1) {
+			if_sethide(if_gethash(933, 286), 0)
+			instr6213(if_gethash(933, 286), 1, "Expand")
+			if_setgraphic(if_gethash(933, 295), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 286), 1)
+			if_sethide(if_gethash(933, 284), 1)
+			instr6213(if_gethash(933, 286), 1, "")
+		}
+		if_setposition(if_gethash(933, 296), 0, 0, script_3270(if_gety(if_gethash(933, 296)), iVar9), iVar0)
+		if(load_varc(1202) == 1) {
+			if_sethide(if_gethash(933, 296), 0)
+			instr6213(if_gethash(933, 296), 1, "Expand")
+			if_setgraphic(if_gethash(933, 308), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 296), 1)
+			if_sethide(if_gethash(933, 294), 1)
+			instr6213(if_gethash(933, 296), 1, "")
+		}
+		if_setsize(if_gethash(933, 265), 0, 2, script_3270(if_getheight(if_gethash(933, 265)), (if_gety(if_gethash(933, 266)) - if_gety(if_gethash(933, 265))) - 5), 16384)
+		if_setsize(if_gethash(933, 266), 0, 2, script_3270(if_getheight(if_gethash(933, 266)), (if_gety(if_gethash(933, 276)) - if_gety(if_gethash(933, 266))) - 5), 16384)
+		if_setsize(if_gethash(933, 276), 0, 2, script_3270(if_getheight(if_gethash(933, 276)), (if_gety(if_gethash(933, 286)) - if_gety(if_gethash(933, 276))) - 5), 16384)
+		if_setsize(if_gethash(933, 286), 0, 2, script_3270(if_getheight(if_gethash(933, 286)), (if_gety(if_gethash(933, 296)) - if_gety(if_gethash(933, 286))) - 5), 16384)
+		if_setsize(if_gethash(933, 296), 0, 2, script_3270(if_getheight(if_gethash(933, 296)), (iVar2 - if_gety(if_gethash(933, 296))) - 5), 16384)
+		break
+	case 1:
+		if_setposition(if_gethash(933, 265), 0, 0, script_3270(if_gety(if_gethash(933, 265)), iVar5), iVar0)
+		instr6213(if_gethash(933, 265), 1, "Shrink")
+		if_setgraphic(if_gethash(933, 317), 2852)
+		if_setposition(if_gethash(933, 266), 0, 0, script_3270(if_gety(if_gethash(933, 266)), iVar6), iVar0)
+		if(load_varc(1199) == 1) {
+			if_sethide(if_gethash(933, 266), 0)
+			instr6213(if_gethash(933, 266), 1, "Expand")
+			if_setgraphic(if_gethash(933, 275), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 266), 1)
+			if_sethide(if_gethash(933, 316), 1)
+			instr6213(if_gethash(933, 266), 1, "")
+		}
+		if_setposition(if_gethash(933, 276), 0, 0, script_3270(if_gety(if_gethash(933, 276)), iVar7), iVar0)
+		if(load_varc(1200) == 1) {
+			if_sethide(if_gethash(933, 276), 0)
+			instr6213(if_gethash(933, 276), 1, "Expand")
+			if_setgraphic(if_gethash(933, 285), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 276), 1)
+			if_sethide(if_gethash(933, 274), 1)
+			instr6213(if_gethash(933, 276), 1, "")
+		}
+		if_setposition(if_gethash(933, 286), 0, 0, script_3270(if_gety(if_gethash(933, 286)), iVar8), iVar0)
+		if(load_varc(1201) == 1) {
+			if_sethide(if_gethash(933, 286), 0)
+			instr6213(if_gethash(933, 286), 1, "Expand")
+			if_setgraphic(if_gethash(933, 295), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 286), 1)
+			if_sethide(if_gethash(933, 284), 1)
+			instr6213(if_gethash(933, 286), 1, "")
+		}
+		if_setposition(if_gethash(933, 296), 0, 0, script_3270(if_gety(if_gethash(933, 296)), iVar9), iVar0)
+		if(load_varc(1202) == 1) {
+			if_sethide(if_gethash(933, 296), 0)
+			instr6213(if_gethash(933, 296), 1, "Expand")
+			if_setgraphic(if_gethash(933, 308), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 296), 1)
+			if_sethide(if_gethash(933, 294), 1)
+			instr6213(if_gethash(933, 296), 1, "")
+		}
+		if_setsize(if_gethash(933, 265), 0, 2, script_3270(if_getheight(if_gethash(933, 265)), (if_gety(if_gethash(933, 266)) - if_gety(if_gethash(933, 265))) - 2), 16384)
+		if_setsize(if_gethash(933, 266), 0, 2, script_3270(if_getheight(if_gethash(933, 266)), (if_gety(if_gethash(933, 276)) - if_gety(if_gethash(933, 266))) - 2), 16384)
+		if_setsize(if_gethash(933, 276), 0, 2, script_3270(if_getheight(if_gethash(933, 276)), (if_gety(if_gethash(933, 286)) - if_gety(if_gethash(933, 276))) - 2), 16384)
+		if_setsize(if_gethash(933, 286), 0, 2, script_3270(if_getheight(if_gethash(933, 286)), (if_gety(if_gethash(933, 296)) - if_gety(if_gethash(933, 286))) - 2), 16384)
+		if_setsize(if_gethash(933, 296), 0, 2, script_3270(if_getheight(if_gethash(933, 296)), (iVar2 - if_gety(if_gethash(933, 296))) - 2), 16384)
+		break
+	case 2:
+		if_setposition(if_gethash(933, 265), 0, 0, script_3270(if_gety(if_gethash(933, 265)), iVar5), iVar0)
+		if(load_varc(1198) == 1) {
+			if_sethide(if_gethash(933, 265), 0)
+			instr6213(if_gethash(933, 265), 1, "Expand")
+			if_setgraphic(if_gethash(933, 317), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 265), 1)
+			instr6213(if_gethash(933, 265), 1, "")
+		}
+		if_setposition(if_gethash(933, 266), 0, 0, script_3270(if_gety(if_gethash(933, 266)), iVar6), iVar0)
+		instr6213(if_gethash(933, 266), 1, "Shrink")
+		if_setgraphic(if_gethash(933, 275), 2852)
+		if_setposition(if_gethash(933, 276), 0, 0, script_3270(if_gety(if_gethash(933, 276)), iVar7), iVar0)
+		if(load_varc(1200) == 1) {
+			if_sethide(if_gethash(933, 276), 0)
+			instr6213(if_gethash(933, 276), 1, "Expand")
+			if_setgraphic(if_gethash(933, 285), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 276), 1)
+			if_sethide(if_gethash(933, 274), 1)
+			instr6213(if_gethash(933, 276), 1, "")
+		}
+		if_setposition(if_gethash(933, 286), 0, 0, script_3270(if_gety(if_gethash(933, 286)), iVar8), iVar0)
+		if(load_varc(1201) == 1) {
+			if_sethide(if_gethash(933, 286), 0)
+			instr6213(if_gethash(933, 286), 1, "Expand")
+			if_setgraphic(if_gethash(933, 295), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 286), 1)
+			if_sethide(if_gethash(933, 284), 1)
+			instr6213(if_gethash(933, 286), 1, "")
+		}
+		if_setposition(if_gethash(933, 296), 0, 0, script_3270(if_gety(if_gethash(933, 296)), iVar9), iVar0)
+		if(load_varc(1202) == 1) {
+			if_sethide(if_gethash(933, 296), 0)
+			instr6213(if_gethash(933, 296), 1, "Expand")
+			if_setgraphic(if_gethash(933, 308), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 296), 1)
+			if_sethide(if_gethash(933, 294), 1)
+			instr6213(if_gethash(933, 296), 1, "")
+		}
+		if_setsize(if_gethash(933, 265), 0, 2, script_3270(if_getheight(if_gethash(933, 265)), (if_gety(if_gethash(933, 266)) - if_gety(if_gethash(933, 265))) - 2), 16384)
+		if_setsize(if_gethash(933, 266), 0, 2, script_3270(if_getheight(if_gethash(933, 266)), (if_gety(if_gethash(933, 276)) - if_gety(if_gethash(933, 266))) - 2), 16384)
+		if_setsize(if_gethash(933, 276), 0, 2, script_3270(if_getheight(if_gethash(933, 276)), (if_gety(if_gethash(933, 286)) - if_gety(if_gethash(933, 276))) - 2), 16384)
+		if_setsize(if_gethash(933, 286), 0, 2, script_3270(if_getheight(if_gethash(933, 286)), (if_gety(if_gethash(933, 296)) - if_gety(if_gethash(933, 286))) - 2), 16384)
+		if_setsize(if_gethash(933, 296), 0, 2, script_3270(if_getheight(if_gethash(933, 296)), (iVar2 - if_gety(if_gethash(933, 296))) - 2), 16384)
+		break
+	case 3:
+		if_setposition(if_gethash(933, 265), 0, 0, script_3270(if_gety(if_gethash(933, 265)), iVar5), iVar0)
+		if(load_varc(1198) == 1) {
+			if_sethide(if_gethash(933, 265), 0)
+			instr6213(if_gethash(933, 265), 1, "Expand")
+			if_setgraphic(if_gethash(933, 317), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 265), 1)
+			instr6213(if_gethash(933, 265), 1, "")
+		}
+		if_setposition(if_gethash(933, 266), 0, 0, script_3270(if_gety(if_gethash(933, 266)), iVar6), iVar0)
+		if(load_varc(1199) == 1) {
+			if_sethide(if_gethash(933, 266), 0)
+			instr6213(if_gethash(933, 266), 1, "Expand")
+			if_setgraphic(if_gethash(933, 275), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 266), 1)
+			if_sethide(if_gethash(933, 316), 1)
+			instr6213(if_gethash(933, 266), 1, "")
+		}
+		if_setposition(if_gethash(933, 276), 0, 0, script_3270(if_gety(if_gethash(933, 276)), iVar7), iVar0)
+		instr6213(if_gethash(933, 276), 1, "Shrink")
+		if_setgraphic(if_gethash(933, 285), 2852)
+		if_setposition(if_gethash(933, 286), 0, 0, script_3270(if_gety(if_gethash(933, 286)), iVar8), iVar0)
+		if(load_varc(1201) == 1) {
+			if_sethide(if_gethash(933, 286), 0)
+			instr6213(if_gethash(933, 286), 1, "Expand")
+			if_setgraphic(if_gethash(933, 295), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 286), 1)
+			if_sethide(if_gethash(933, 284), 1)
+			instr6213(if_gethash(933, 286), 1, "")
+		}
+		if_setposition(if_gethash(933, 296), 0, 0, script_3270(if_gety(if_gethash(933, 296)), iVar9), iVar0)
+		if(load_varc(1202) == 1) {
+			if_sethide(if_gethash(933, 296), 0)
+			instr6213(if_gethash(933, 296), 1, "Expand")
+			if_setgraphic(if_gethash(933, 308), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 296), 1)
+			if_sethide(if_gethash(933, 294), 1)
+			instr6213(if_gethash(933, 296), 1, "")
+		}
+		if_setsize(if_gethash(933, 265), 0, 2, script_3270(if_getheight(if_gethash(933, 265)), (if_gety(if_gethash(933, 266)) - if_gety(if_gethash(933, 265))) - 2), 16384)
+		if_setsize(if_gethash(933, 266), 0, 2, script_3270(if_getheight(if_gethash(933, 266)), (if_gety(if_gethash(933, 276)) - if_gety(if_gethash(933, 266))) - 2), 16384)
+		if_setsize(if_gethash(933, 276), 0, 2, script_3270(if_getheight(if_gethash(933, 276)), (if_gety(if_gethash(933, 286)) - if_gety(if_gethash(933, 276))) - 2), 16384)
+		if_setsize(if_gethash(933, 286), 0, 2, script_3270(if_getheight(if_gethash(933, 286)), (if_gety(if_gethash(933, 296)) - if_gety(if_gethash(933, 286))) - 2), 16384)
+		if_setsize(if_gethash(933, 296), 0, 2, script_3270(if_getheight(if_gethash(933, 296)), (iVar2 - if_gety(if_gethash(933, 296))) - 2), 16384)
+		break
+	case 4:
+		if_setposition(if_gethash(933, 265), 0, 0, script_3270(if_gety(if_gethash(933, 265)), iVar5), iVar0)
+		if(load_varc(1198) == 1) {
+			if_sethide(if_gethash(933, 265), 0)
+			instr6213(if_gethash(933, 265), 1, "Expand")
+			if_setgraphic(if_gethash(933, 317), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 265), 1)
+			instr6213(if_gethash(933, 265), 1, "")
+		}
+		if_setposition(if_gethash(933, 266), 0, 0, script_3270(if_gety(if_gethash(933, 266)), iVar6), iVar0)
+		if(load_varc(1199) == 1) {
+			if_sethide(if_gethash(933, 266), 0)
+			instr6213(if_gethash(933, 266), 1, "Expand")
+			if_setgraphic(if_gethash(933, 275), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 266), 1)
+			if_sethide(if_gethash(933, 316), 1)
+			instr6213(if_gethash(933, 266), 1, "")
+		}
+		if_setposition(if_gethash(933, 276), 0, 0, script_3270(if_gety(if_gethash(933, 276)), iVar7), iVar0)
+		if(load_varc(1200) == 1) {
+			if_sethide(if_gethash(933, 276), 0)
+			instr6213(if_gethash(933, 276), 1, "Expand")
+			if_setgraphic(if_gethash(933, 285), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 276), 1)
+			if_sethide(if_gethash(933, 274), 1)
+			instr6213(if_gethash(933, 276), 1, "")
+		}
+		if_setposition(if_gethash(933, 286), 0, 0, script_3270(if_gety(if_gethash(933, 286)), iVar8), iVar0)
+		instr6213(if_gethash(933, 286), 1, "Shrink")
+		if_setgraphic(if_gethash(933, 295), 2852)
+		if_setposition(if_gethash(933, 296), 0, 0, script_3270(if_gety(if_gethash(933, 296)), iVar9), iVar0)
+		if(load_varc(1202) == 1) {
+			if_sethide(if_gethash(933, 296), 0)
+			instr6213(if_gethash(933, 296), 1, "Expand")
+			if_setgraphic(if_gethash(933, 308), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 296), 1)
+			if_sethide(if_gethash(933, 294), 1)
+			instr6213(if_gethash(933, 296), 1, "")
+		}
+		if_setsize(if_gethash(933, 265), 0, 2, script_3270(if_getheight(if_gethash(933, 265)), (if_gety(if_gethash(933, 266)) - if_gety(if_gethash(933, 265))) - 2), 16384)
+		if_setsize(if_gethash(933, 266), 0, 2, script_3270(if_getheight(if_gethash(933, 266)), (if_gety(if_gethash(933, 276)) - if_gety(if_gethash(933, 266))) - 2), 16384)
+		if_setsize(if_gethash(933, 276), 0, 2, script_3270(if_getheight(if_gethash(933, 276)), (if_gety(if_gethash(933, 286)) - if_gety(if_gethash(933, 276))) - 2), 16384)
+		if_setsize(if_gethash(933, 286), 0, 2, script_3270(if_getheight(if_gethash(933, 286)), (if_gety(if_gethash(933, 296)) - if_gety(if_gethash(933, 286))) - 2), 16384)
+		if_setsize(if_gethash(933, 296), 0, 2, script_3270(if_getheight(if_gethash(933, 296)), (iVar2 - if_gety(if_gethash(933, 296))) - 2), 16384)
+		break
+	case 5:
+		if_setposition(if_gethash(933, 265), 0, 0, script_3270(if_gety(if_gethash(933, 265)), iVar5), iVar0)
+		if(load_varc(1198) == 1) {
+			if_sethide(if_gethash(933, 265), 0)
+			instr6213(if_gethash(933, 265), 1, "Expand")
+			if_setgraphic(if_gethash(933, 317), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 265), 1)
+			instr6213(if_gethash(933, 265), 1, "")
+		}
+		if_setposition(if_gethash(933, 266), 0, 0, script_3270(if_gety(if_gethash(933, 266)), iVar6), iVar0)
+		if(load_varc(1199) == 1) {
+			if_sethide(if_gethash(933, 266), 0)
+			instr6213(if_gethash(933, 266), 1, "Expand")
+			if_setgraphic(if_gethash(933, 275), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 266), 1)
+			if_sethide(if_gethash(933, 316), 1)
+			instr6213(if_gethash(933, 266), 1, "")
+		}
+		if_setposition(if_gethash(933, 276), 0, 0, script_3270(if_gety(if_gethash(933, 276)), iVar7), iVar0)
+		if(load_varc(1200) == 1) {
+			if_sethide(if_gethash(933, 276), 0)
+			instr6213(if_gethash(933, 276), 1, "Expand")
+			if_setgraphic(if_gethash(933, 285), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 276), 1)
+			if_sethide(if_gethash(933, 274), 1)
+			instr6213(if_gethash(933, 276), 1, "")
+		}
+		if_setposition(if_gethash(933, 286), 0, 0, script_3270(if_gety(if_gethash(933, 286)), iVar8), iVar0)
+		if(load_varc(1201) == 1) {
+			if_sethide(if_gethash(933, 286), 0)
+			instr6213(if_gethash(933, 286), 1, "Expand")
+			if_setgraphic(if_gethash(933, 295), 2851)
+		} else  {
+			if_sethide(if_gethash(933, 286), 1)
+			if_sethide(if_gethash(933, 284), 1)
+			instr6213(if_gethash(933, 286), 1, "")
+		}
+		if_setposition(if_gethash(933, 296), 0, 0, script_3270(if_gety(if_gethash(933, 296)), iVar9), iVar0)
+		instr6213(if_gethash(933, 296), 1, "Shrink")
+		if_setgraphic(if_gethash(933, 308), 2852)
+		if_setsize(if_gethash(933, 265), 0, 2, script_3270(if_getheight(if_gethash(933, 265)), (if_gety(if_gethash(933, 266)) - if_gety(if_gethash(933, 265))) - 2), 16384)
+		if_setsize(if_gethash(933, 266), 0, 2, script_3270(if_getheight(if_gethash(933, 266)), (if_gety(if_gethash(933, 276)) - if_gety(if_gethash(933, 266))) - 2), 16384)
+		if_setsize(if_gethash(933, 276), 0, 2, script_3270(if_getheight(if_gethash(933, 276)), (if_gety(if_gethash(933, 286)) - if_gety(if_gethash(933, 276))) - 2), 16384)
+		if_setsize(if_gethash(933, 286), 0, 2, script_3270(if_getheight(if_gethash(933, 286)), (if_gety(if_gethash(933, 296)) - if_gety(if_gethash(933, 286))) - 2), 16384)
+		if_setsize(if_gethash(933, 296), 0, 2, script_3270(if_getheight(if_gethash(933, 296)), (iVar2 - if_gety(if_gethash(933, 296))) - 2), 16384)
+		break
+
+}
+script_3271()
+return

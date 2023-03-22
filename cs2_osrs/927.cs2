@@ -1,0 +1,8 @@
+void script_927(int arg0) {
+	if (arg0 == 1) {
+		widget(162, 0).hookKey(&script_73(KEY_TYPED, KEY_PRESSED));
+	} else {
+		widget(162, 0).hookKey(null);
+	}
+	return;
+}

@@ -1,0 +1,51 @@
+void script_453(Widget widget0, Widget widget1, Widget widget2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	widget1.clearChildren();
+	int3 = 7;
+	CHILD.createChild(widget1, 5, 0);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(int3, 25, 0, 0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	CHILD.setDragDeadZone(5);
+	CHILD.setDragDeadTime(5);
+	int3 = int3 + 36 + 20;
+	CHILD.createChild(widget1, 5, 1);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(int3, 25, 0, 0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	CHILD.setDragDeadZone(5);
+	CHILD.setDragDeadTime(5);
+	int3 = int3 + 36 + 20;
+	CHILD.createChild(widget1, 5, 2);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(int3, 25, 0, 0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	CHILD.setDragDeadZone(5);
+	CHILD.setDragDeadTime(5);
+	script_666(widget1);
+	widget0.hookVARP(&script_665(widget1), 1139, 1140);
+	widget2.clearChildren();
+	int3 = (widget2.getWidth() - (10 + 7 * 36)) / 6 + 36;
+	int4 = (widget2.getHeight() - (30 + 4 * 32)) / 3 + 32;
+	int5 = getItemContainerLength(93);
+	int6 = 0;
+	while (int6 < int5) {
+		CHILD.createChild(widget2, 5, int6);
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(5 + int6 % 7 * int3, 25 + int6 / 7 * int4, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		CHILD.setDragDeadZone(5);
+		CHILD.setDragDeadTime(5);
+		int6 = int6 + 1;
+	}
+	script_670(widget2);
+	widget0.hookContainer(&script_669(widget2), 93);
+	return;
+}

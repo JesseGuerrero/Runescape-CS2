@@ -1,0 +1,9 @@
+//script47(47)(int arg0)(string)
+if(arg0 > 99)
+	return to_string(arg0)
+if(arg0 > 9)
+	return "0" + to_string(arg0)
+if(arg0 >= 0)
+	return "00" + to_string(arg0)
+return to_string(arg0)
+return ""

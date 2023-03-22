@@ -1,0 +1,6 @@
+//script6436(6436)(int arg0)(void)
+if(load_varp(2663) != -1)
+	script_5335(arg0, -1, 85786624, 60, 200, 1, "Cancel your pending invitation.")
+else
+	script_5335(arg0, -1, 85786624, 60, 200, 1, "Invite a player to join your group.")
+return

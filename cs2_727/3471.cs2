@@ -1,0 +1,9 @@
+//script3471(3471)(int arg0, int arg1)(void)
+if(arg1 < instr6652(0) - 1) {
+	instr6677(arg1, 1, 700, 700, arg1, 0)
+	instr6255(arg0, script_3471, "Ii", arg0, arg1 + 1)
+} else  {
+	instr6255(arg0, None, "")
+	instr6236()
+}
+return

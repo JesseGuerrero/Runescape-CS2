@@ -1,0 +1,35 @@
+//script524(524)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 0
+if(load_varpbit(4103) >= 300000) {
+	if_setcolor(arg0, 0xFF0000)
+	return
+}
+if(arg0 == 19726381)
+	iVar2 = load_varpbit(4090)
+if(arg0 == 19726383)
+	iVar2 = load_varpbit(4091)
+if(arg0 == 19726385)
+	iVar2 = load_varpbit(4093)
+if(arg0 == 19726387)
+	iVar2 = load_varpbit(4095)
+if(arg0 == 19726389)
+	iVar2 = load_varpbit(4096)
+if(arg0 == 19726391)
+	iVar2 = load_varpbit(4098)
+if(arg0 == 19726393)
+	iVar2 = load_varpbit(4100)
+if(arg0 == 19726395)
+	iVar2 = load_varpbit(4101)
+if(arg0 == 19726397)
+	iVar2 = load_varpbit(4102)
+if(arg0 == 19726419 || arg0 == 19726420)
+	iVar2 = 1
+if(iVar2 == 1) {
+	if_setcolor(arg0, 0xFAB432)
+	if_setcolor(arg1, 0xFAB432)
+} else  {
+	if_setcolor(arg0, 0x606060)
+	if_setcolor(arg1, 0x606060)
+}
+return

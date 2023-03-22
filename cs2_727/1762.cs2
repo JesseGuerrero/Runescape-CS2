@@ -1,0 +1,9 @@
+//script1762(1762)(int arg0)(void)
+if(load_varc(231) > 6)
+	if_settext(arg0, "Time Left : " + to_string(load_varc(231) - 5) + " mins")
+else
+	if(load_varc(231) == 6)
+		if_settext(arg0, "Time Left : 1 min")
+	else
+		if_settext(arg0, "Time Left : 0 mins")
+return

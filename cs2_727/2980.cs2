@@ -1,0 +1,11 @@
+//script2980(2980)(int arg0)(void)
+int iVar1
+iVar1 = script_284(coord())
+instr6650(2, 0)
+instr6650(2, 1)
+instr6651(0, 900, movecoord(28, 0, 19, iVar1), 900, movecoord(28, 0, 19, iVar1), 0, 0)
+instr6651(0, 400, movecoord(29, 0, 27, iVar1), 400, movecoord(29, 0, 27, iVar1), 0, 1)
+instr6651(0, 1000, movecoord(28, 0, 19, iVar1), 1000, movecoord(28, 0, 19, iVar1), 1, 0)
+instr6651(0, 300, movecoord(29, 0, 25, iVar1), 300, movecoord(29, 0, 25, iVar1), 1, 1)
+instr6677(0, 1, 450, 450, 0, 0)
+return

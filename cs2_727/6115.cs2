@@ -1,0 +1,29 @@
+//script6115(6115)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 1
+iVar2 = 255
+if(arg0 == 1) {
+	iVar1 = 0
+	iVar2 = 0
+}
+switch(load_varc(1884)) {
+	case default:
+		break
+	case 2:
+		script_6116(68812807, 0, 40)
+		script_6116(68812808, 10, 40)
+		script_6116(68812809, 20, 40)
+		script_6116(68812810, 30, 40)
+		script_6116(68812811, 40, 40)
+		break
+	case 3:
+		script_6116(68812812, 0, 40)
+		script_6116(68812813, 10, 40)
+		script_6116(68812814, 20, 40)
+		script_6116(68812815, 30, 40)
+		script_6116(68812816, 40, 40)
+		break
+
+}
+return

@@ -1,0 +1,12 @@
+//script6332(6332)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg0 == 1) {
+	if_setgraphic(arg1, 11512)
+	if_sethide(arg2, 0)
+	if_settrans(arg3, 255)
+	instr6342(arg3, script_6333, "I", -2147483645)
+	return
+}
+if_setgraphic(arg1, 11511)
+if_sethide(arg2, 1)
+instr6342(arg3, None, "")
+return

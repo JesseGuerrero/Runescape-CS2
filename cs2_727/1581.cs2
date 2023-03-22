@@ -1,0 +1,69 @@
+//script1581(1581)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+string sVar1
+sVar0 = ""
+iVar1 = 494
+iVar2 = 32243761
+switch(arg0) {
+	case default:
+		break
+	case 31981571:
+		sVar0 = load_varc_string(212)
+		break
+	case 31981576:
+		sVar0 = load_varc_string(213)
+		break
+	case 31981581:
+		sVar0 = load_varc_string(214)
+		break
+	case 31981586:
+		sVar0 = load_varc_string(215)
+		break
+	case 32309279:
+		sVar0 = load_varc_string(216)
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 32309279:
+		iVar1 = 495
+		iVar2 = 32309304
+		break
+	case 31981586:
+		iVar1 = 495
+		iVar2 = 31981595
+		break
+
+}
+sVar1 = sVar0
+iVar3 = if_getwidth(arg0)
+if(parawidth(sVar1 + " ", iVar1, 2147483647) > iVar3) {
+	while(parawidth(sVar1 + "... ", iVar1, 2147483647) > iVar3)
+		sVar1 = substring(sVar1, string_length(sVar1) - 1, 0)
+	if_setonmouseover(arg0, script_38, "IIsii", -2147483645, iVar2, sVar0, 25, 5000)
+	hook_mouse_exit(arg0, script_40, "I", iVar2)
+	sVar0 = sVar1 + "..."
+} else  {
+	if_setonmouseover(arg0, None, "")
+	hook_mouse_exit(arg0, None, "")
+}
+switch(arg0) {
+	case default:
+		break
+	case 32309279:
+		if(compare("", sVar0) == 0 || compare("null", sVar0) == 0)
+			sVar0 = "none set"
+		break
+	case 31981586:
+		if(compare("", sVar0) == 0 || compare("null", sVar0) == 0)
+			sVar0 = "---"
+		break
+
+}
+if_settext(arg0, sVar0)
+return

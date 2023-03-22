@@ -1,0 +1,90 @@
+//script1049(1049)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar1 = script_4590().get(0)
+if(arg0 == 1) {
+	store_varc(1651, 0)
+	set_chat_type(0)
+	script_1558(0)
+	return
+} else 
+	if(arg0 == 2)
+		script_1050(0, "")
+	else
+		if(arg0 == 3) {
+			store_varc(1651, 1)
+			set_chat_type(1)
+			script_1558(0)
+			return
+		} else 
+			if(arg0 == 4)
+				if(fc_getchatcount() > 0)
+					script_1050(2, "")
+				else {
+					store_varc(41, 0)
+					script_181(0)
+					script_178()
+					script_84()
+					script_89()
+					send_message("You aren't in a Friends Chat channel.")
+					return
+				}
+			else
+				if(arg0 == 5) {
+					store_varc(1651, 2)
+					set_chat_type(2)
+					script_1558(0)
+					return
+				} else 
+					if(arg0 == 6)
+						if(iVar1 >= 0)
+							if(iVar2 >= iVar3)
+								script_1050(8, "")
+							else {
+								mes_typed(0, 43, "Your rank is not high enough to chat in the Clan Chat.")
+								return
+							}
+						else {
+							store_varc(41, 0)
+							script_181(0)
+							script_178()
+							script_84()
+							script_89()
+							send_message("You aren't in a Clan Chat channel.")
+							return
+						}
+					else
+						if(arg0 == 7) {
+							store_varc(1651, 3)
+							set_chat_type(3)
+							script_1558(0)
+							return
+						} else 
+							if(arg0 == 8)
+								if(iVar4 >= 0)
+									if(iVar5 >= iVar6)
+										script_1050(10, "")
+									else {
+										mes_typed(0, 43, "Guests cannot chat in this visited Clan channel.")
+										return
+									}
+								else {
+									store_varc(41, 0)
+									script_181(0)
+									script_178()
+									script_84()
+									script_89()
+									send_message("You aren't a guest in a Clan Chat channel.")
+									return
+								}
+return

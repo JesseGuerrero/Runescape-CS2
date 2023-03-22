@@ -1,0 +1,10 @@
+void script_518(Widget widget0, int arg1, string string2, int arg3) {
+	CHILD.createChild(widget0, 4, arg1);
+	CHILD.setPosition(4, 4 + (arg1 + 1) * 17, 0, 0);
+	CHILD.setSize(arg3, 17, 0, 0);
+	CHILD.setContextMenuOption(1, string2);
+	CHILD.hookMouseHover(&script_85(CTX_WIDGET, arg1 + 8, 16777215));
+	CHILD.hookMouseExit(&script_85(CTX_WIDGET, arg1 + 8, 16750623));
+	CHILD.hookOptionClick(&script_521(CTX_MENU_OPTION, CTX_WIDGET, arg1));
+	return;
+}

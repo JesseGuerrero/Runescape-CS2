@@ -1,0 +1,8 @@
+//script1350(1350)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, string arg7)(void)
+if(cc_find(arg4, arg3) == 1) {
+	cc_settext(arg0)
+	cc_setcolor(0)
+	instr6092(script_1354, "Iii", arg3, arg4, arg6)
+}
+script_1349(arg3, arg0, arg1, arg2, arg5)
+return

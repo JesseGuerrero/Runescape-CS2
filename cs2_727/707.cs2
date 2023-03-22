@@ -1,0 +1,8 @@
+//script707(707)()(void)
+if(instr6644() >= 2)
+	if_setposition(if_gethash(680, 19), 0, 2, 11, 220)
+else
+	if_setposition(if_gethash(680, 19), 0, 2, 11, 12)
+store_varc(215, 255)
+store_varc(216, 0)
+return

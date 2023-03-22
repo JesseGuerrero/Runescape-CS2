@@ -1,0 +1,53 @@
+//script6143(6143)(int arg0, int arg1)(void)
+int iVar2
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_sethide(if_gethash(1270, 122), 1)
+		break
+	case 2:
+		if_sethide(if_gethash(1270, 123), 1)
+		break
+	case 3:
+		if_sethide(if_gethash(1270, 124), 1)
+		break
+
+}
+iVar2 = 0
+if(if_gethide(if_gethash(1270, 7)) == 0)
+	iVar2 = iVar2 + 1
+if(if_gethide(if_gethash(1270, 48)) == 0)
+	iVar2 = iVar2 + 1
+if(if_gethide(if_gethash(1270, 50)) == 0)
+	iVar2 = iVar2 + 1
+switch(iVar2) {
+	case default:
+		break
+	case 0:
+		if_sethide(if_gethash(1270, 7), 0)
+		if(arg1 == 1) {
+			if_sethide(if_gethash(1270, 61), 0)
+			if_sethide(if_gethash(1270, 8), 0)
+		} else 
+			if_sethide(if_gethash(1270, 58), 0)
+		break
+	case 1:
+		if_sethide(if_gethash(1270, 48), 0)
+		if(arg1 == 1) {
+			if_sethide(if_gethash(1270, 62), 0)
+			if_sethide(if_gethash(1270, 49), 0)
+		} else 
+			if_sethide(if_gethash(1270, 59), 0)
+		break
+	case 2:
+		if_sethide(if_gethash(1270, 50), 0)
+		if(arg1 == 1) {
+			if_sethide(if_gethash(1270, 63), 0)
+			if_sethide(if_gethash(1270, 51), 0)
+		} else 
+			if_sethide(if_gethash(1270, 60), 0)
+		break
+
+}
+return

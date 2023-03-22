@@ -1,0 +1,120 @@
+//script5171(5171)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = script_4827(arg0)
+if(iVar1 == -1)
+	return -1
+iVar2 = -1
+iVar3 = 0
+switch(arg0) {
+	case default:
+		break
+	case 21:
+		iVar3 = load_clan_varbit(2330)
+		break
+	case 22:
+		iVar3 = load_clan_varbit(2340)
+		break
+	case 23:
+		iVar3 = load_clan_varbit(2350)
+		break
+	case 24:
+		iVar3 = load_clan_varbit(2360)
+		break
+	case 25:
+		iVar3 = load_clan_varbit(2370)
+		break
+	case 26:
+		iVar3 = load_clan_varbit(2380)
+		break
+	case 27:
+		iVar3 = load_clan_varbit(2390)
+		break
+	case 28:
+		iVar3 = load_clan_varbit(2400)
+		break
+	case 31:
+		iVar3 = load_clan_varbit(2460)
+		break
+	case 32:
+		iVar3 = load_clan_varbit(2470)
+		break
+	case 33:
+		iVar3 = load_clan_varbit(2480)
+		break
+	case 34:
+		iVar3 = load_clan_varbit(2490)
+		break
+	case 35:
+		iVar3 = load_clan_varbit(2500)
+		break
+	case 41:
+		iVar3 = load_clan_varbit(2410)
+		break
+	case 42:
+		iVar3 = load_clan_varbit(2420)
+		break
+	case 43:
+		iVar3 = load_clan_varbit(2430)
+		break
+	case 44:
+		iVar3 = load_clan_varbit(2440)
+		break
+	case 45:
+		iVar3 = load_clan_varbit(2450)
+		break
+	case 51:
+		iVar3 = load_clan_varbit(2510)
+		break
+	case 100:
+		iVar3 = load_clan_varbit(2210)
+		break
+	case 101:
+		iVar3 = load_clan_varbit(2220)
+		break
+	case 102:
+		iVar3 = load_clan_varbit(2240)
+		break
+	case 103:
+		iVar3 = load_clan_varbit(2190)
+		break
+	case 104:
+		iVar3 = load_clan_varbit(2230)
+		break
+	case 105:
+		iVar3 = load_clan_varbit(2200)
+		break
+	case 106:
+		iVar3 = load_clan_varbit(2260)
+		break
+	case 107:
+		iVar3 = load_clan_varbit(2270)
+		break
+	case 108:
+		iVar3 = load_clan_varbit(2280)
+		break
+	case 109:
+		iVar3 = load_clan_varbit(2250)
+		break
+	case 110:
+		iVar3 = load_clan_varbit(2290)
+		break
+	case 111:
+		iVar3 = load_clan_varbit(2300)
+		break
+	case 112:
+		iVar3 = load_clan_varbit(2310)
+		break
+	case 113:
+		iVar3 = load_clan_varbit(2320)
+		break
+
+}
+if(iVar3 <= 0)
+	return -1
+if(iVar1 == -1)
+	return -1
+iVar2 = enum(iVar1, iVar3, 'i', 'd')
+return iVar2
+return -1

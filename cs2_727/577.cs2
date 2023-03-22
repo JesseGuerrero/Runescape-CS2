@@ -1,0 +1,54 @@
+//script577(577)(string arg0)(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = item_find(arg0, 1)
+iVar1 = if_getwidth(if_gethash(389, 4))
+iVar2 = iVar1 - 8
+if(iVar0 == -1) {
+	cc_create(0, 4, 25493508)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 16, iVar1)
+	cc_settextfont(494)
+	cc_settext("Too many results. Please refine your search.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(a05a00)
+	cc_settextshadow(0)
+	if_setscrollsize(25493508, 15, 0)
+	script_578()
+	return
+}
+if(iVar0 == 0) {
+	cc_create(0, 4, 25493508)
+	cc_setposition(0, 0, 48, 0)
+	cc_setsize(0, 0, 16, iVar1)
+	cc_settextfont(494)
+	cc_settext("No matching items found.")
+	cc_settextalign(0, 1, 1)
+	cc_setcolor(a05a00)
+	cc_settextshadow(0)
+	if_setscrollsize(25493508, 15, 0)
+	script_578()
+	return
+}
+iVar3 = 1
+iVar4 = item_findnext()
+cc_create(0, 3, 25493508)
+while(iVar4 != -1) {
+	cc_create(iVar3, 4, 25493508)
+	cc_setposition(0, 0, 15 * (iVar3 - 1), 4)
+	cc_setsize(0, 0, 15, iVar2)
+	cc_setcolor(a05a00)
+	cc_settext(item_name(iVar4))
+	cc_settextfont(495)
+	cc_settextshadow(0)
+	instr6091(script_579, "io", iVar3, iVar4)
+	instr6088(script_580, "o", iVar4)
+	iVar4 = item_findnext()
+	iVar3 = iVar3 + 1
+}
+if_setscrollsize(25493508, 15 * (iVar3 - 1), 0)
+script_578()
+return

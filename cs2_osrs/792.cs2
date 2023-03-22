@@ -1,0 +1,41 @@
+void script_792(int arg0, Container container1, Widget widget2, int arg3) {
+	Sprite sprite4;
+	int int5;
+	Item item6;
+	int int7;
+	sprite4 = 1120;
+	int5 = 1121;
+	if (_CHILD.setChild(widget2, arg3) == true) {
+		_CHILD.setSprite(sprite4);
+	}
+	item6 = getItemIdInSlot(container1, arg0);
+	int7 = 0;
+	if (item6 != null) {
+		int7 = getItemAmtInSlot(container1, arg0);
+		CHILD.setHidden(false);
+		CHILD.setNoOptions();
+		CHILD.hookMouseHover(&script_229(CTX_WIDGET, arg3, (Sprite)int5, null));
+		CHILD.hookMouseExit(&script_229(CTX_WIDGET, arg3, sprite4, null));
+		if (getNotedItem(item6) != item6) {
+			if (int7 == 1) {
+				CHILD.setContextMenuOption(1, "Collect-item");
+				CHILD.setContextMenuOption(2, "Collect-note");
+			} else {
+				CHILD.setContextMenuOption(1, "Collect-notes");
+				CHILD.setContextMenuOption(2, "Collect-items");
+			}
+		} else {
+			CHILD.setContextMenuOption(2, "Collect");
+		}
+		CHILD.setContextMenuOption(3, "Bank");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setItem(item6, int7);
+		CHILD.setOptionBase("<col=ff9040>" + getItemName(item6) + "</col>");
+	} else {
+		CHILD.setHidden(true);
+		CHILD.setNoOptions();
+		CHILD.hookMouseHover(null);
+		CHILD.hookMouseExit(null);
+	}
+	return;
+}

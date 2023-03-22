@@ -1,0 +1,35 @@
+//script4835(4835)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		iVar0 = script_4817(load_varpbit(9563), 1)
+		iVar1 = script_4817(load_varpbit(9563), 2)
+		iVar2 = script_4817(load_varpbit(9563), 3)
+		break
+	case 2:
+		iVar0 = script_4817(load_varpbit(9572), 1)
+		iVar1 = script_4817(load_varpbit(9572), 2)
+		iVar2 = script_4817(load_varpbit(9572), 3)
+		break
+	case 3:
+		iVar0 = script_4817(load_varpbit(9581), 1)
+		iVar1 = script_4817(load_varpbit(9581), 2)
+		iVar2 = script_4817(load_varpbit(9581), 3)
+		break
+
+}
+iVar3 = if_getnextsubid(iVar0) - 1
+while(iVar3 >= 0) {
+	if(cc_find(iVar3, iVar0) == 1)
+		cc_setgraphic(6009)
+	iVar3 = iVar3 - 1
+}
+return

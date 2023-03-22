@@ -1,0 +1,3 @@
+//script3547(3547)(int arg0)(int)
+return enum(script_3550(load_varpbit(7392)), modulo(enum_getoutputcount(script_3550(load_varpbit(7392))), arg0 + load_varpbit(7390)), 'i', 'i')
+return 0

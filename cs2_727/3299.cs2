@@ -1,0 +1,4 @@
+//script3299(3299)(int arg0, int arg1)(void)
+if(invother_getitem(arg1, arg0) != -1)
+	send_message(item_name(invother_getitem(arg1, arg0)))
+return

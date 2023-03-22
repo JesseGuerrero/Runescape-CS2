@@ -1,0 +1,21 @@
+void script_1454(int arg0, string string1, string string2) {
+	Widget widget1;
+	Widget widget2;
+	Widget widget3;
+	widget1 = widget(106, 1);
+	widget2 = widget(106, 2);
+	widget3 = widget(106, 17);
+	_ = script_228(widget1, string1, 0);
+	widget2.hookVARP(&script_1455(widget(widget2), -1, (boolean)arg0), 1139, 1140);
+	widget2.hookContainer(&script_1455(widget2, -1, (boolean)arg0), 93);
+	script_1456(widget2, -1, arg0);
+	CHILD.createChild(widget3, 4, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 4, 4);
+	CHILD.setText(string2);
+	CHILD.setFont(496);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(1, 1, 0);
+	return;
+}

@@ -1,0 +1,35 @@
+void script_1435(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4, string string5, string string6) {
+	int int5;
+	string str2;
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 3, 0);
+	_CHILD.createChild(widget0, 3, 1);
+	CHILD.setHidden(true);
+	_CHILD.setHidden(true);
+	script_1436(widget1, string5);
+	widget1.hookOptionClick(&script_1437(widget0, 1));
+	script_1436(widget2, string6);
+	widget2.hookOptionClick(&script_1437(widget0, 0));
+	widget3.clearChildren();
+	CHILD.createChild(widget3, 3, 0);
+	int5 = getChildId();
+	CHILD.setHidden(true);
+	str2 = "Don't ask me this again";
+	CHILD.createChild(widget3, 5, 1);
+	CHILD.setSize(19, 19, 0, 0);
+	CHILD.setPosition(0, 0, 0, 1);
+	_CHILD.createChild(widget3, 4, 2);
+	_CHILD.setSize(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 2, 1);
+	_CHILD.setRGB(0xFF981F);
+	_CHILD.setFont(495);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setTextAlignment(2, 1, 0);
+	_CHILD.setText(str2);
+	widget3.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget3.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+	widget3.setSize(getMaxLineWidth(str2, widget0.getWidth(), 495) + 26, widget3.getHeight(), 0, 0);
+	script_1439(widget3, arg4, int5, script_166(arg4));
+	widget3.hookVARP(&script_1438(widget3, getChildId(), arg4, int5), 1045, 1046, 1047);
+	return;
+}

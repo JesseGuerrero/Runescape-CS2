@@ -1,0 +1,209 @@
+void script_1566(int arg0, string string1) {
+	Widget widget1;
+	int int2;
+	int int3;
+	Widget widget4;
+	int int5;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	string str5;
+	string str6;
+	string str7;
+	string str8;
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	widget1 = datamap('i', 'I', 1537, arg0);
+	if (widget1 == null) {
+		return;
+	}
+	widget1.clearChildren();
+	str1 = "";
+	str2 = "";
+	str3 = "";
+	str4 = "";
+	str5 = "";
+	str6 = "";
+	str7 = "";
+	str8 = "";
+	int2 = 0;
+	int3 = 0;
+	if (length(string1) > 0) {
+		str1, string1 = script_632(string1);
+		CHILD.createChild(widget1, 3, 0);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setFilled(true);
+		script_1567(VARC[178], widget1, arg0, str1);
+		widget1.setContextMenuOption(1, "View party:");
+		widget1.setOptionBase("<col=ff9040>" + removeTags(str1) + "</col>");
+		str2, string1 = script_632(string1);
+		str3, string1 = script_632(string1);
+		str4, str5 = script_1503(str2, 3), script_1503(str3, 3);
+		int3 = widget(499, 7).getWidth();
+		CHILD.createChild(widget1, 4, 1);
+		CHILD.setPosition(int2, 0, 0, 1);
+		CHILD.setSize(int3, 0, 0, 1);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str2);
+		int2 = int2 + int3;
+		int3 = widget(499, 8).getWidth();
+		_CHILD.createChild(widget1, 4, 2);
+		_CHILD.setPosition(int2, 0, 0, 1);
+		_CHILD.setSize(int3, 0, 0, 1);
+		_CHILD.setFont(495);
+		_CHILD.setTextAlignment(1, 1, 0);
+		_CHILD.setTextAntiMacro(true);
+		if (compare(str3, "0") != 0) {
+			_CHILD.setText("/ " + str3);
+			if (compare(str4, str5) >= 0) {
+				CHILD.setRGB(0xFF0000);
+				_CHILD.setRGB(0xFF0000);
+			} else {
+				CHILD.setRGB(0xFF981F);
+				_CHILD.setRGB(0xFF981F);
+			}
+		} else {
+			CHILD.setRGB(0xFF981F);
+			_CHILD.setRGB(0xFF981F);
+			_CHILD.setText("<col=9f9f9f>" + "-" + "</col>");
+		}
+		int2 = int2 + int3;
+		int3 = widget(499, 9).getWidth();
+		CHILD.createChild(widget1, 4, 3);
+		CHILD.setPosition(int2, 0, 0, 1);
+		CHILD.setSize(int3, 0, 0, 1);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str1);
+		int2 = int2 + int3;
+		str6, string1 = script_632(string1);
+		int3 = widget(499, 10).getWidth();
+		CHILD.createChild(widget1, 4, 4);
+		CHILD.setPosition(int2, 0, 0, 1);
+		CHILD.setSize(int3, 0, 0, 1);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		if (compare(str6, "0") != 0) {
+			CHILD.setText(str6);
+		} else {
+			CHILD.setText("<col=9f9f9f>" + "-" + "</col>");
+		}
+		int2 = int2 + int3;
+		str7, string1 = script_632(string1);
+		int3 = widget(499, 11).getWidth();
+		CHILD.createChild(widget1, 4, 5);
+		CHILD.setPosition(int2, 0, 0, 1);
+		CHILD.setSize(int3, 0, 0, 1);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(495);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		if (compare(str7, "0") != 0) {
+			CHILD.setText(str7);
+		} else {
+			CHILD.setText("<col=9f9f9f>" + "-" + "</col>");
+		}
+		int2 = int2 + int3;
+		str8, string1 = script_632(string1);
+		CHILD.createChild(widget1, 4, 6);
+		CHILD.setPosition(0, 0, 2, 1);
+		CHILD.setSize(int2, 0, 1, 1);
+		CHILD.setRGB(0x9F9F9F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		script_1574(str8, VARC[59]);
+		CHILD.createChild(widget1, 4, 7);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(concat(str4, arg0));
+		CHILD.createChild(widget1, 4, 8);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(concat(str5, arg0));
+		CHILD.createChild(widget1, 4, 9);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(concat(script_1503(str6, 3), arg0));
+		CHILD.createChild(widget1, 4, 10);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(concat(script_1503(str7, 4), arg0));
+		CHILD.createChild(widget1, 4, 11);
+		CHILD.setHidden(true);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(script_1503(str8, 10));
+		widget1.setSize(0, 18, 1, 0);
+		widget1.setPosition(0, VARC[178] * 18, 1, 0);
+		VARC[178] = VARC[178] + 1;
+	} else {
+		widget1.setSize(0, 0, 1, 0);
+		widget1.setPosition(0, 0, 1, 0);
+		widget1.hookOptionClick(null);
+		widget1.setNoOptions();
+	}
+	widget1.hookFrame(null);
+	widget4 = null;
+	int5 = 0;
+	if (arg0 >= 40 - 1) {
+		if (VARC[180] != 0 && VARC[180] != 1 && VARC[180] != 2 && VARC[180] != 3 && VARC[180] != 4 && VARC[180] != 5 && VARC[180] != 6 && VARC[180] != 7 && VARC[180] != 8 && VARC[180] != 9 && VARC[180] != 10 && VARC[180] != 11) {
+			VARC[180] = 1;
+		}
+		script_1570();
+		widget4 = widget1.getLayer();
+		int5 = VARC[178] * 18;
+		if (int5 > widget4.getHeight()) {
+			widget4.setScrollMax(0, int5);
+			script_72(widget(499, 54), widget4, VARC[179]);
+		} else {
+			widget4.setScrollMax(0, 0);
+			script_72(widget(499, 54), widget4, 0);
+			VARC[179] = 0;
+		}
+		widget4.clearChildren();
+		arg0 = 0;
+		while (arg0 < 40) {
+			datamap('i', 'I', 1537, arg0).setIsHidden(false);
+			CHILD.createChild(widget4, 4, arg0);
+			CHILD.setHidden(true);
+			arg0 = arg0 + 1;
+		}
+		if (VARC[178] <= 0) {
+			CHILD.createChild(widget4, 4, 40);
+			CHILD.setPosition(0, 0, 1, 1);
+			CHILD.setSize(0, 0, 1, 1);
+			CHILD.setRGB(0xFF981F);
+			CHILD.setFont(495);
+			CHILD.setTextAlignment(1, 1, 0);
+			CHILD.setTextAntiMacro(true);
+			CHILD.setText("No parties are currently listed.");
+		}
+		widget(499, 55).setIsHidden(false);
+		widget(499, 57).setIsHidden(false);
+	}
+	return;
+}

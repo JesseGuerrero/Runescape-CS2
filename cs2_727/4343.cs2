@@ -1,0 +1,73 @@
+//script4343(4343)(int arg0)(void)
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+string sVar6
+string sVar7
+string sVar8
+string sVar9
+string sVar10
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = ""
+sVar5 = ""
+sVar6 = ""
+sVar7 = ""
+sVar8 = ""
+sVar9 = ""
+sVar10 = ""
+sVar0 = script_4721().get(0)
+if(compare("", sVar0) != 0)
+	sVar10 = sVar0
+if(compare("", sVar1) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar1, sVar10)
+}
+if(compare("", sVar2) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar2, sVar10)
+}
+if(compare("", sVar3) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar3, sVar10)
+}
+if(compare("", sVar4) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar4, sVar10)
+}
+if(compare("", sVar5) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar5, sVar10)
+}
+if(compare("", sVar6) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar6, sVar10)
+}
+if(compare("", sVar7) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar7, sVar10)
+}
+if(compare("", sVar8) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar8, sVar10)
+}
+if(compare("", sVar9) != 0) {
+	if(string_length(sVar10) > 0)
+		sVar10 = append(", ", sVar10)
+	sVar10 = append(sVar9, sVar10)
+}
+if_settext(arg0, sVar10)
+return

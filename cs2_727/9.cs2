@@ -1,0 +1,17 @@
+//script9(9)(int arg0, int arg1, int arg2)(void)
+if(load_varc(169) == 1) {
+	if_sethide(arg0, 0)
+	if_sethide(arg1, 0)
+	if_sethide(arg2, 0)
+	script_680(arg0)
+	hook_mouse_enter(arg0, script_95, "I", arg0)
+	hook_mouse_exit(arg0, script_93, "I", arg0)
+} else  {
+	cc_deleteall(arg0)
+	if_sethide(arg0, 1)
+	if_sethide(arg1, 1)
+	if_sethide(arg2, 1)
+	hook_mouse_enter(arg0, None, "")
+	hook_mouse_exit(arg0, None, "")
+}
+return

@@ -1,0 +1,17 @@
+void script_534(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Always hide roofs (currently on)";
+	if (isHideRoofs() == 1) {
+		widget0.setSprite(762);
+		widget0.hookOptionClick(&script_532(false, widget0, widget(arg1)));
+		widget0.hookFrame(&script_533(true, widget0, widget(arg1)));
+	} else {
+		str0 = "Always hide roofs (currently off)";
+		widget0.setSprite(761);
+		widget0.hookOptionClick(&script_532(true, widget0, widget(arg1)));
+		widget0.hookFrame(&script_533(false, widget0, widget(arg1)));
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 512));
+	VARC[2] = 0;
+	return;
+}

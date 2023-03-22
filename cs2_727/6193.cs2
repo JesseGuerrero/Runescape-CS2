@@ -1,0 +1,5 @@
+//script6193(6193)()(void)
+store_varc_string(363, "")
+store_varc_string(364, "")
+script_6190()
+return

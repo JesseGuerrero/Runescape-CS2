@@ -1,0 +1,11 @@
+//script3219(3219)(int arg0, int arg1, int arg2)(void)
+if(load_varc(174) == arg2)
+	if(modulo(40, client_clock() - arg0) < 20)
+		if(instr6323() != -3)
+			if(instr6702() != -3)
+				if(instr6703() != -3)
+					if(applet_hasfocus() == 1)
+						if_sethide(arg1, 0)
+					else
+						if_sethide(arg1, 1)
+return

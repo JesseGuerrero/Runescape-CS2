@@ -1,0 +1,38 @@
+//script6427(6427)(int arg0, int arg1, int arg2, int arg3)(void)
+switch(arg3) {
+	case default:
+		break
+	case 85786644:
+		script_41(85786624)
+		break
+	case 85786646:
+		script_41(85786625)
+		break
+	case 85786648:
+		script_41(85786626)
+		break
+	case 85721555:
+		script_41(85721088)
+		break
+	case 85721576:
+		script_41(85721633)
+		break
+	case 85721423:
+		script_41(85721635)
+		break
+	case 85721599:
+		script_41(85721637)
+		break
+	case 85721618:
+		script_41(85721639)
+		break
+	case 85721385:
+		script_41(85721641)
+		return
+
+
+}
+if_setgraphic(arg0, 7920)
+if_setgraphic(arg1, 7921)
+if_setgraphic(arg2, 7922)
+return

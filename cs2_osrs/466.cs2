@@ -1,0 +1,73 @@
+void script_466(int arg0, Widget widget1, Widget widget2) {
+	int int3;
+	int int4;
+	Widget widget5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	widget2.setSprite(812);
+	widget2.hookFrame(null);
+	widget1.clearChildren();
+	ARRAY0 = new int[28 + 1];
+	int3 = 0;
+	int4 = 0;
+	widget5 = null;
+	while (int4 <= 28) {
+		widget5 = datamap('i', 'I', 859, int4);
+		if (widget5 != null) {
+			CHILD.createChild(widget1, 5, int4);
+			CHILD.setHidden(false);
+			CHILD.setTrans(255);
+			CHILD.setSize(34, 34, 0, 0);
+			ARRAY0[int3] = int4;
+			int3 = int3 + 1;
+		} else {
+			CHILD.createChild(widget1, 5, int4);
+			CHILD.setHidden(true);
+			CHILD.setSize(0, 0, 0, 0);
+		}
+		int4 = int4 + 1;
+	}
+	if (int3 > 0) {
+		script_465(0, 0, int3 - 1);
+	}
+	int6 = 28 + 1;
+	int7 = 0;
+	int8 = 0;
+	int9 = 0;
+	while (int9 < int3) {
+		int7, int8 = int9 % 5 * 37, int9 / 5 * 37;
+		if (CHILD.setChild(widget1, ARRAY0[int9]) == true) {
+			CHILD.setPosition(int7, int8, 0, 0);
+			CHILD.setContextMenuOption(1, "Toggle");
+			CHILD.setOptionBase("<col=ff9040>" + datamap('i', 's', 860, ARRAY0[int9]));
+			_CHILD.createChild(widget1, 5, int6);
+			int6 = int6 + 1;
+			_CHILD.setSize(30, 30, 0, 0);
+			_CHILD.setPosition(int7 + 2, int8 + 2, 0, 0);
+			script_468(ARRAY0[int9]);
+			if (ARRAY0[int9] == 25 || ARRAY0[int9] == 26) {
+				_CHILD.hookSkill(&script_467(ARRAY0[int9], CTX_WIDGET, CTX_WIDGET_CHILD), 5, 1);
+				_CHILD.hookVARP(&script_467(ARRAY0[int9], CTX_WIDGET, CTX_WIDGET_CHILD), 1050);
+			} else if (ARRAY0[int9] == 24 || ARRAY0[int9] == 27 || ARRAY0[int9] == 28) {
+				_CHILD.hookSkill(&script_467(ARRAY0[int9], CTX_WIDGET, CTX_WIDGET_CHILD), 5, 1);
+				_CHILD.hookVARP(&script_467(ARRAY0[int9], CTX_WIDGET, CTX_WIDGET_CHILD), 1429);
+			} else {
+				_CHILD.hookSkill(&script_467(ARRAY0[int9], CTX_WIDGET, CTX_WIDGET_CHILD), 5);
+			}
+			_CHILD.setTrans(50);
+			CHILD.hookMouseEnter(&script_244(CTX_WIDGET, getChildId(), 0, null));
+			CHILD.hookMouseExit(&script_244(CTX_WIDGET, getChildId(), 50, null));
+			_CHILD.createChild(widget1, 5, int6);
+			int6 = int6 + 1;
+			_CHILD.setSize(36, 36, 0, 0);
+			_CHILD.setPosition(int7, int8, 0, 0);
+			script_471(ARRAY0[int9]);
+			CHILD.hookVARP(&script_470(ARRAY0[int9], CTX_WIDGET, getChildId()), 84);
+			CHILD.hookOptionClick(&script_469(CTX_MENU_OPTION, ARRAY0[int9], CTX_WIDGET, getChildId()));
+		}
+		int9 = int9 + 1;
+	}
+	return;
+}

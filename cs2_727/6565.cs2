@@ -1,0 +1,8 @@
+//script6565(6565)(int arg0)(void)
+if(world_language() == 1)
+	if_setgraphic(arg0, 11742)
+if(world_language() == 2)
+	if_setgraphic(arg0, 11743)
+if(world_language() == 3)
+	if_setgraphic(arg0, 11741)
+return

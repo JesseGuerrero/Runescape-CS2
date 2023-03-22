@@ -1,0 +1,37 @@
+//script1792(1792)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+if(load_varpbit(5283) == 0) {
+	if_setcolor(arg3, 0xFF981F)
+	if_setcolor(arg4, 0xFF981F)
+	if_setgraphic(arg1, 444)
+	if_settext(arg4, "ITEMS ARE" + "<br>" + "SAFE")
+} else  {
+	if_setcolor(arg3, 0xFFFF00)
+	if_setcolor(arg4, 0xFFFF00)
+	if_setgraphic(arg1, 445)
+	if_settext(arg4, "ITEMS ARE" + "<br>" + "DROPPED")
+}
+if_settiling(arg1, 1)
+iVar6 = parawidth(if_gettext(arg3), 494, 512)
+iVar6 = max(iVar6, parawidth(if_gettext(arg4), 494, 512))
+iVar6 = iVar6 + 6
+iVar7 = 5
+if_setposition(arg3, 0, 0, iVar7, 0)
+iVar8 = paramheight(if_gettext(arg3), 494, iVar6)
+iVar8 = (iVar8 * 10) + 3
+if_setsize(arg3, 0, 0, iVar8, iVar6)
+iVar7 = (iVar7 + iVar8) - 1
+if_setposition(arg2, 0, 0, iVar7, (iVar6 - if_getwidth(arg2)) / 2)
+iVar7 = (iVar7 + if_getheight(arg2)) - 1
+if_setposition(arg4, 0, 0, iVar7, 0)
+iVar9 = paramheight(if_gettext(arg4), 494, iVar6)
+iVar9 = (iVar9 * 10) + 3
+if_setsize(arg4, 0, 0, iVar8, iVar6)
+iVar7 = (iVar7 + iVar9) + 3
+if_setsize(arg0, 0, 0, iVar7, iVar6)
+if_setsize(arg1, 0, 0, iVar7, iVar6)
+script_1086(arg0, 0, 0, 0)
+return

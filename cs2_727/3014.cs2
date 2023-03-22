@@ -1,0 +1,42 @@
+//script3014(3014)()(void)
+int iVar0
+string sVar0
+string sVar1
+sVar0 = "news"
+sVar1 = "mad-may-and-wild-weekends"
+iVar0 = random(100)
+if_sethide(if_gethash(908, 15), 1)
+if_sethide(if_gethash(908, 30), 0)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		if(iVar0 < 50)
+			if_setgraphic(if_gethash(908, 31), 11955)
+		else
+			if_setgraphic(if_gethash(908, 31), 11910)
+		break
+	case 1:
+		if_setgraphic(if_gethash(908, 31), 11957)
+		break
+	case 2:
+		if_setgraphic(if_gethash(908, 31), 11956)
+		break
+	case 3:
+		if_setgraphic(if_gethash(908, 31), 11958)
+		break
+
+}
+if_setgraphic(if_gethash(908, 35), -1)
+if_settext(if_gethash(908, 33), "")
+if_setsize(if_gethash(908, 33), 0, 0, 35, 345)
+if_setposition(if_gethash(908, 33), 0, 0, 5, 231)
+if_setcolor(59506721, 0xE1903)
+if_settextfont(if_gethash(908, 33), 473)
+if_settextalign(if_gethash(908, 33), 0, 2, 1)
+if_settext(if_gethash(908, 32), "")
+if_setposition(if_gethash(908, 32), 0, 0, 46, 231)
+if_setsize(if_gethash(908, 32), 0, 0, 70, 345)
+if_setcolor(59506720, 0xE1903)
+if_settextalign(if_gethash(908, 32), 0, 1, 1)
+return

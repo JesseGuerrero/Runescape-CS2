@@ -1,0 +1,11 @@
+//script6095(6095)(int arg0)(int, int)
+int iVar1
+int iVar2
+iVar1 = 0
+iVar2 = (52 + 2) + 2
+if(arg0 == 0)
+	iVar1 = (48 + 2) + 2
+else
+	iVar1 = (151 + 2) + 2
+return iVar2, iVar1
+return 0, 0

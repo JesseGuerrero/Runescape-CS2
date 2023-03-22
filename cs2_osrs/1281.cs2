@@ -1,0 +1,11 @@
+void script_1281() {
+	CHILD.createChild(widget(257, 0), 3, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 0, 2);
+	CHILD.setFilled(true);
+	CHILD.setRGB(0x000000);
+	CHILD.cs2method1123(0);
+	CHILD.cs2method1125(4);
+	CHILD.hookFrame(&script_1283(getClientCycle(), getClientCycle() + 60));
+	return;
+}

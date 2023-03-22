@@ -1,0 +1,46 @@
+void script_1244(int arg0) {
+	if (arg0 == 1) {
+		script_1245(VARPBIT[842], widget(248, 27), widget(248, 43), 8429, 8430, widget(248, 10), 8398, 8397, widget(248, 11), 8400, 8399);
+		script_1245(VARPBIT[843], widget(248, 28), widget(248, 44), 8431, 8432, widget(248, 12), 8402, 8401, widget(248, 13), 8404, 8403);
+		script_1245(VARPBIT[844], widget(248, 29), widget(248, 45), 8433, 8434, widget(248, 14), 8406, 8405, widget(248, 15), 8408, 8407);
+		script_1245(VARPBIT[845], widget(248, 30), widget(248, 46), 8435, 8436, widget(248, 16), 8410, 8409, widget(248, 17), 8412, 8411);
+		script_1245(VARPBIT[846], widget(248, 31), widget(248, 47), 8437, 8438, widget(248, 18), 8414, 8413, widget(248, 19), 8416, 8415);
+		script_1245(VARPBIT[847], widget(248, 32), widget(248, 48), 8441, 8442, widget(248, 20), 8418, 8417, widget(248, 21), 8420, 8419);
+		script_1245(VARPBIT[848], widget(248, 33), widget(248, 49), 8439, 8440, widget(248, 22), 8422, 8421, widget(248, 23), 8424, 8423);
+		script_1245(VARPBIT[849], widget(248, 34), widget(248, 50), 8443, 8444, widget(248, 24), 8426, 8425, widget(248, 25), 8428, 8427);
+	} else if (arg0 == 2) {
+		script_1245(VARPBIT[842], widget(244, 35), widget(244, 59), 8495, 8496, widget(244, 10), 8448, 8447, widget(244, 11), 8450, 8449);
+		script_1245(VARPBIT[843], widget(244, 36), widget(244, 60), 8497, 8498, widget(244, 12), 8452, 8451, widget(244, 13), 8454, 8453);
+		script_1245(VARPBIT[844], widget(244, 37), widget(244, 61), 8499, 8500, widget(244, 14), 8456, 8455, widget(244, 15), 8458, 8457);
+		script_1245(VARPBIT[845], widget(244, 38), widget(244, 62), 8501, 8502, widget(244, 16), 8460, 8459, widget(244, 17), 8462, 8461);
+		script_1245(VARPBIT[846], widget(244, 39), widget(244, 63), 8503, 8504, widget(244, 18), 8464, 8463, widget(244, 19), 8466, 8465);
+		script_1245(VARPBIT[847], widget(244, 40), widget(244, 64), 8505, 8506, widget(244, 20), 8468, 8467, widget(244, 21), 8470, 8469);
+		script_1245(VARPBIT[848], widget(244, 41), widget(244, 65), 8507, 8508, widget(244, 22), 8472, 8471, widget(244, 23), 8474, 8473);
+		script_1245(VARPBIT[849], widget(244, 42), widget(244, 66), 8509, 8510, widget(244, 24), 8476, 8475, widget(244, 25), 8478, 8477);
+		script_1245(VARPBIT[850], widget(244, 43), widget(244, 67), 8511, 8512, widget(244, 26), 8480, 8479, widget(244, 27), 8482, 8481);
+		script_1245(VARPBIT[851], widget(244, 44), widget(244, 68), 8513, 8514, widget(244, 28), 8484, 8483, widget(244, 29), 8486, 8485);
+		script_1245(VARPBIT[852], widget(244, 45), widget(244, 69), 8515, 8516, widget(244, 30), 8488, 8487, widget(244, 31), 8490, 8489);
+		script_1245(VARPBIT[853], widget(244, 46), widget(244, 70), 8517, 8518, widget(244, 32), 8492, 8491, widget(244, 33), 8494, 8493);
+	} else if (arg0 == 3) {
+		script_1245(VARPBIT[842], widget(247, 49), widget(247, 87), 8597, 8598, widget(247, 10), 8522, 8521, widget(247, 11), 8524, 8523);
+		script_1245(VARPBIT[843], widget(247, 50), widget(247, 88), 8599, 8600, widget(247, 12), 8526, 8525, widget(247, 13), 8528, 8527);
+		script_1245(VARPBIT[844], widget(247, 51), widget(247, 89), 8601, 8602, widget(247, 14), 8530, 8529, widget(247, 15), 8532, 8531);
+		script_1245(VARPBIT[845], widget(247, 52), widget(247, 90), 8603, 8604, widget(247, 16), 8534, 8533, widget(247, 17), 8536, 8535);
+		script_1245(VARPBIT[846], widget(247, 53), widget(247, 91), 8605, 8606, widget(247, 18), 8538, 8537, widget(247, 19), 8540, 8539);
+		script_1245(VARPBIT[847], widget(247, 54), widget(247, 92), 8607, 8608, widget(247, 20), 8542, 8541, widget(247, 21), 8544, 8543);
+		script_1245(VARPBIT[848], widget(247, 55), widget(247, 93), 8609, 8610, widget(247, 22), 8546, 8545, widget(247, 23), 8548, 8547);
+		script_1245(VARPBIT[849], widget(247, 56), widget(247, 94), 8611, 8612, widget(247, 24), 8550, 8549, widget(247, 25), 8552, 8551);
+		script_1245(VARPBIT[850], widget(247, 57), widget(247, 95), 8613, 8614, widget(247, 26), 8554, 8553, widget(247, 27), 8556, 8555);
+		script_1245(VARPBIT[851], widget(247, 58), widget(247, 96), 8615, 8616, widget(247, 28), 8558, 8557, widget(247, 29), 8560, 8559);
+		script_1245(VARPBIT[852], widget(247, 59), widget(247, 97), 8617, 8618, widget(247, 30), 8562, 8561, widget(247, 31), 8564, 8563);
+		script_1245(VARPBIT[853], widget(247, 60), widget(247, 98), 8619, 8620, widget(247, 32), 8566, 8565, widget(247, 33), 8568, 8567);
+		script_1245(VARPBIT[854], widget(247, 61), widget(247, 99), 8621, 8622, widget(247, 34), 8570, 8569, widget(247, 35), 8572, 8571);
+		script_1245(VARPBIT[855], widget(247, 62), widget(247, 100), 8623, 8624, widget(247, 36), 8574, 8573, widget(247, 37), 8576, 8575);
+		script_1245(VARPBIT[856], widget(247, 63), widget(247, 101), 8625, 8626, widget(247, 38), 8578, 8577, widget(247, 39), 8580, 8579);
+		script_1245(VARPBIT[857], widget(247, 64), widget(247, 102), 8627, 8628, widget(247, 40), 8582, 8581, widget(247, 41), 8584, 8583);
+		script_1245(VARPBIT[858], widget(247, 65), widget(247, 103), 8629, 8630, widget(247, 42), 8586, 8585, widget(247, 43), 8588, 8587);
+		script_1245(VARPBIT[859], widget(247, 66), widget(247, 104), 8631, 8632, widget(247, 44), 8590, 8589, widget(247, 45), 8592, 8591);
+		script_1245(VARPBIT[860], widget(247, 67), widget(247, 105), 8633, 8634, widget(247, 46), 8594, 8593, widget(247, 47), 8596, 8595);
+	}
+	return;
+}

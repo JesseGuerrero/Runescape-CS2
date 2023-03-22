@@ -1,0 +1,110 @@
+//script166(166)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return load_varpbit(3851)
+
+	case 2:
+		return load_varpbit(3852)
+
+	case 3:
+		return load_varpbit(3853)
+
+	case 4:
+		return load_varpbit(3854)
+
+	case 5:
+		return load_varpbit(3855)
+
+	case 6:
+		return load_varpbit(3856)
+
+	case 7:
+		return load_varpbit(3857)
+
+	case 8:
+		return load_varpbit(3858)
+
+	case 9:
+		return load_varpbit(3859)
+
+	case 10:
+		return load_varpbit(3860)
+
+	case 11:
+		return load_varpbit(3861)
+
+	case 12:
+		return load_varpbit(3862)
+
+	case 13:
+		return load_varpbit(3863)
+
+	case 14:
+		return load_varpbit(3864)
+
+	case 15:
+		return load_varpbit(3865)
+
+	case 16:
+		return load_varpbit(3866)
+
+	case 17:
+		return load_varpbit(3867)
+
+	case 18:
+		return load_varpbit(3868)
+
+	case 19:
+		return load_varpbit(3869)
+
+	case 20:
+		return load_varpbit(3870)
+
+	case 22:
+		if(load_varpbit(5294) == 1)
+			return 7
+		return 0
+
+	case 23:
+		return load_varpbit(3871)
+
+	case 24:
+		return load_varpbit(3872)
+
+	case 25:
+		return load_varpbit(3946)
+
+	case 26:
+		return load_varpbit(4132)
+
+	case 27:
+		return load_varpbit(4307)
+
+	case 28:
+		return load_varpbit(4308)
+
+	case 29:
+		return load_varpbit(4309)
+
+	case 30:
+		return load_varpbit(5366)
+
+	case 31:
+		if(load_varpbit(5295) == 1)
+			return 7
+		return 0
+
+	case 33:
+		return load_varpbit(6500)
+
+	case 34:
+		return load_varpbit(10935)
+
+	case 35:
+		return load_varpbit(11392)
+
+
+}
+return 0

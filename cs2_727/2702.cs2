@@ -1,0 +1,9 @@
+//script2702(2702)(int arg0, int arg1, int arg2)(void)
+if(arg0 == 1) {
+	script_1166(arg1)
+	if_setcolor(arg2, 0xFFFFFF)
+} else  {
+	script_1151(arg1)
+	if_setcolor(arg2, 0xFF981F)
+}
+return

@@ -1,0 +1,27 @@
+//script1182(1182)(int arg0)(void)
+int iVar1
+int iVar2
+string sVar0
+string sVar1
+if(instr6803() == 0) {
+	instr6342(if_gethash(909, 14), script_1181, "i", arg0)
+	return
+} else 
+	instr6342(if_gethash(909, 14), None, "")
+iVar1 = 0
+sVar0 = ""
+iVar2 = 0
+sVar1 = ""
+iVar2 = worldlist_getinfo(arg0).get(0)
+if(iVar2 == -1)
+	send_message("Sorry, you can't join that person.")
+else
+	if(worldlist_setworld(arg0, sVar1) == 1) {
+		store_varc(547, 0)
+		script_3143(0, "Switched to game world " + to_string(arg0))
+		script_3062(59375802)
+	} else  {
+		script_3143(1, "Sorry, we couldn't contact world " + to_string(arg0) + "." + "<br>" + "Please choose a different world.")
+		send_message("Sorry, we couldn't contact world " + to_string(arg0) + ". Please choose a different world.")
+	}
+return

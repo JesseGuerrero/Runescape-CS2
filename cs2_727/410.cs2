@@ -1,0 +1,57 @@
+//script410(410)(int arg0)(void)
+if(load_varc(1361) == arg0)
+	return
+instr6257(if_gethash(1010, 6), script_410, "iY", 1, 1361, load_varc(1361))
+if(load_varc(1363) == load_varpbit(7510)) {
+	if_sethide(if_gethash(1010, 33), 0)
+	if_sethide(if_gethash(1010, 24), 1)
+}
+if(load_varc(1361) == 0) {
+	if_setcolor(66191372, 0xFF981F)
+	if_setgraphic(if_gethash(1010, 13), 3745)
+	if_setcolor(66191374, 0x969664)
+	if_setgraphic(if_gethash(1010, 15), 3745)
+	if_setcolor(66191376, 0x969664)
+	if_setgraphic(if_gethash(1010, 17), 3745)
+	if_setcolor(66191378, 0x969664)
+	if_setgraphic(if_gethash(1010, 19), 3745)
+} else 
+	if(load_varc(1361) == 1) {
+		if(load_varpbit(7511) == 1)
+			if(random(2) == 0)
+				sound_vorbis_volume(255, 0, 1, 3436)
+			else
+				sound_vorbis_volume(255, 0, 1, 3438)
+		if_setcolor(66191372, 0xC800)
+		if_setgraphic(if_gethash(1010, 13), 3746)
+		if_setcolor(66191374, 0xFF981F)
+		if_setgraphic(if_gethash(1010, 15), 3745)
+		if_setcolor(66191376, 0x969664)
+		if_setgraphic(if_gethash(1010, 17), 3745)
+		if_setcolor(66191378, 0x969664)
+		if_setgraphic(if_gethash(1010, 19), 3745)
+	} else 
+		if(load_varc(1361) == 2) {
+			if(load_varpbit(7511) == 1)
+				sound_vorbis_volume(255, 0, 1, 3437)
+			if_setcolor(66191372, 0xC800)
+			if_setgraphic(if_gethash(1010, 13), 3746)
+			if_setcolor(66191374, 0xC800)
+			if_setgraphic(if_gethash(1010, 15), 3746)
+			if_setcolor(66191376, 0xFF981F)
+			if_setgraphic(if_gethash(1010, 17), 3745)
+			if_setcolor(66191378, 0x969664)
+			if_setgraphic(if_gethash(1010, 19), 3745)
+		} else  {
+			if(load_varpbit(7511) == 1)
+				sound_vorbis_volume(255, 0, 1, 3441)
+			if_setcolor(66191372, 0xC800)
+			if_setgraphic(if_gethash(1010, 13), 3746)
+			if_setcolor(66191374, 0xC800)
+			if_setgraphic(if_gethash(1010, 15), 3746)
+			if_setcolor(66191376, 0xC800)
+			if_setgraphic(if_gethash(1010, 17), 3746)
+			if_setcolor(66191378, 0xFF981F)
+			if_setgraphic(if_gethash(1010, 19), 3745)
+		}
+return

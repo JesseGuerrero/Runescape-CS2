@@ -1,0 +1,11 @@
+//script1458(1458)(int arg0)(void)
+int iVar1
+iVar1 = (arg0 / 10) * 44
+if(modulo(10, arg0) != 0)
+	iVar1 = iVar1 + 44
+if_setscrollsize(49938527, iVar1, if_getwidth(if_gethash(762, 95)))
+cc_deleteall(if_gethash(762, 116))
+if(iVar1 > if_getheight(if_gethash(762, 95)))
+	script_31(49938548, 49938527, 792, 789, 790, 791, 773, 788)
+script_157(49938548, 49938527, if_getscrolly(49938527), 1)
+return

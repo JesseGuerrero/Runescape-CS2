@@ -1,0 +1,5 @@
+//script1263(1263)(int arg0, int arg1)(void)
+if_setcolor(arg0, 0x2D2406)
+if(arg1 != -1)
+	if_setcolor(arg1, 0x2D2406)
+return

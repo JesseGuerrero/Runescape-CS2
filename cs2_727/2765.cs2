@@ -1,0 +1,19 @@
+//script2765(2765)(int arg0)(void)
+if(load_varc(1007) <= 0) {
+	instr6236()
+	return
+}
+if(load_varc(1007) <= 100) {
+	script_2770(arg0, script_284(coord()))
+	return
+}
+if(load_varc(1007) <= 200) {
+	script_2762(arg0, script_284(coord()))
+	return
+}
+if(load_varc(1007) <= 300) {
+	script_2763(arg0, script_284(coord()))
+	return
+}
+script_2826(arg0, script_284(coord()))
+return

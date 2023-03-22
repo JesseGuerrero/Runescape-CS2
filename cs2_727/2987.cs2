@@ -1,0 +1,6 @@
+//script2987(2987)(int arg0, int arg1, int arg2, int arg3)(void)
+if_sethide(arg0, 0)
+if_sethide(arg1, 0)
+if_sethide(arg3, 0)
+if_sethide(arg2, 1)
+return

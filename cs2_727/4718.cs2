@@ -1,0 +1,432 @@
+//script4718(4718)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1817:
+		if(load_varpbit(1368) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1818:
+		if(load_varpbit(1369) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1819:
+		if(load_varpbit(1370) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1806:
+		if(load_varpbit(1367) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1832:
+		if(load_varpbit(1371) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1837:
+		if(load_varpbit(2310) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1839:
+		if(load_varpbit(2312) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1836:
+		if(load_varpbit(2309) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1838:
+		if(load_varpbit(2311) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1834:
+		if(load_varpbit(1921) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1833:
+		if(load_varpbit(1920) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1840:
+		if(load_varpbit(2055) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1855:
+		if(load_varpbit(2787) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1835:
+		if(load_varpbit(4075) != 12)
+			return 0
+		else
+			return 1
+		break
+	case 1841:
+		if(load_varpbit(4202) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1842:
+		if(load_varpbit(4394) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1843:
+		if(load_varpbit(4476) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1844:
+		if(load_varpbit(4884) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1845:
+		if(load_varpbit(5490) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1846:
+		if(load_varpbit(5732) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1847:
+		if(load_varpbit(5641) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1849:
+		if(load_varpbit(6936) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1850:
+		if(load_varpbit(6095) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1851:
+		if(load_varpbit(8300) != 20)
+			return 0
+		else
+			return 1
+		break
+	case 1852:
+		if(load_varpbit(8688) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 1853:
+		if(load_varpbit(8601) != 534)
+			return 0
+		else
+			return 1
+		break
+	case 1830:
+		if(load_varpbit(532) < 7)
+			return 0
+		else
+			return 1
+		break
+	case 1848:
+		if(load_varpbit(6014) < 85)
+			if(load_varpbit(7322) < 18)
+				if(load_varpbit(9194) == 0)
+					if(load_varpbit(11036) == 0)
+						return 0
+					else
+						return 1
+		break
+	case 1854:
+		if(load_varpbit(9194) == 0)
+			if(load_varpbit(11036) == 0)
+				return 0
+			else
+				return 1
+		break
+	case 2812:
+		if(load_varpbit(10138) < 100)
+			return 0
+		else
+			return 1
+		break
+	case 2658:
+		if(bit_flagged(0, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2654:
+		if(bit_flagged(1, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2651:
+		if(bit_flagged(2, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2652:
+		if(bit_flagged(3, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2657:
+		if(bit_flagged(4, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2661:
+		if(bit_flagged(5, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2653:
+		if(bit_flagged(6, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2650:
+		if(bit_flagged(7, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2659:
+		if(bit_flagged(8, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2660:
+		if(bit_flagged(9, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2655:
+		if(bit_flagged(10, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2656:
+		if(bit_flagged(11, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2749:
+		if(load_varpbit(9930) != 15)
+			return 0
+		else
+			return 1
+		break
+	case 2662:
+		if(bit_flagged(12, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2663:
+		if(bit_flagged(13, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2664:
+		if(bit_flagged(14, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2665:
+		if(bit_flagged(15, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2666:
+		if(bit_flagged(16, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2667:
+		if(bit_flagged(17, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2935:
+		if(bit_flagged(18, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2936:
+		if(bit_flagged(19, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2937:
+		if(bit_flagged(20, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2938:
+		if(bit_flagged(21, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2939:
+		if(bit_flagged(22, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2940:
+		if(bit_flagged(23, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2941:
+		if(bit_flagged(24, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2942:
+		if(bit_flagged(25, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 9780:
+		if(bit_flagged(26, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 9781:
+		if(bit_flagged(27, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 9782:
+		if(bit_flagged(28, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 9783:
+		if(bit_flagged(29, load_varp(2230)) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 2943:
+		if(load_varpbit(10340) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11187:
+		if(load_varpbit(11633) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11188:
+		if(load_varpbit(11634) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11189:
+		if(load_varpbit(11635) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11190:
+		if(load_varpbit(11636) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11191:
+		if(load_varpbit(11637) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11192:
+		if(load_varpbit(11638) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11387:
+		if(load_varpbit(11677) == 0)
+			return 0
+		else
+			return 1
+		break
+	case 11388:
+		if(load_varpbit(11678) == 0)
+			return 0
+		else
+			return 1
+		return 1
+
+
+}
+return -1

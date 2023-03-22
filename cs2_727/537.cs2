@@ -1,0 +1,30 @@
+//script537(537)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = arg1 + 25
+iVar4 = client_clock() - arg0
+if(client_clock() >= arg1)
+	if(client_clock() < iVar3) {
+		iVar2 = 255 / (iVar3 - arg1)
+		iVar2 = 255 - (iVar2 * (client_clock() - arg1))
+		if_settrans(if_gethash(745, 2), iVar2)
+		return
+	} else  {
+		instr6342(if_gethash(745, 2), None, "")
+		if_settrans(if_gethash(745, 2), 0)
+		return
+	}
+else
+	if(iVar4 <= 5)
+		if_settrans(if_gethash(745, 2), 0)
+	else
+		if(iVar4 <= 10)
+			if_settrans(if_gethash(745, 2), 85)
+		else
+			if(iVar4 <= 15)
+				if_settrans(if_gethash(745, 2), 200)
+			else
+				if_settrans(if_gethash(745, 2), 85)
+return

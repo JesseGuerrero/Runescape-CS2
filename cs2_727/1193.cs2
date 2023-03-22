@@ -1,0 +1,4 @@
+//script1193(1193)(int arg0)(void)
+if(arg0 == 1 || modulo(50, client_clock()) == 0)
+	script_1194()
+return

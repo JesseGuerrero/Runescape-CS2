@@ -1,0 +1,138 @@
+//script2059(2059)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+iVar1 = -1
+iVar2 = 0
+if(script_1119() == 1) {
+	iVar1 = enum(728, load_varpbit(357), 'i', 'J')
+	iVar2 = 1
+} else 
+	iVar1 = enum(2162, load_varpbit(357), 'i', 'J')
+iVar3 = 0
+globalArrays[0] = [4, 105]
+switch(load_varpbit(357)) {
+	case default:
+		break
+	case 0:
+		iVar3 = load_varpbit(5822)
+		globalArrays[0][0] = load_varpbit(6459)
+		globalArrays[0][1] = load_varpbit(6460)
+		globalArrays[0][2] = load_varpbit(6461)
+		globalArrays[0][3] = load_varpbit(6462)
+		break
+	case 1:
+		iVar3 = load_varpbit(5823)
+		globalArrays[0][0] = load_varpbit(6466)
+		globalArrays[0][1] = 0
+		globalArrays[0][2] = 0
+		globalArrays[0][3] = load_varpbit(6467)
+		break
+	case 2:
+		iVar3 = load_varpbit(5824)
+		globalArrays[0][0] = load_varpbit(6463)
+		globalArrays[0][1] = 0
+		globalArrays[0][2] = load_varpbit(6464)
+		globalArrays[0][3] = load_varpbit(6465)
+		break
+	case 3:
+		iVar3 = load_varpbit(7347)
+		globalArrays[0][0] = load_varpbit(7348)
+		globalArrays[0][1] = load_varpbit(7349)
+		globalArrays[0][2] = load_varpbit(7350)
+		globalArrays[0][3] = load_varpbit(7351)
+		break
+
+}
+if(arg0 != -1) {
+	if(iVar3 != arg0)
+		sound_synth(0, 1, 5845)
+	iVar3 = arg0
+}
+store_varc(631, iVar3)
+iVar4 = enum(struct_param(662, iVar1), iVar3, 'i', 'g')
+iVar5 = struct_param(654, iVar1)
+iVar6 = struct_param(655, iVar1)
+iVar7 = enum_getoutputcount(iVar4)
+iVar8 = 0
+iVar9 = 0
+iVar10 = -1
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = -1
+iVar15 = -1
+iVar16 = -1
+while(iVar9 < iVar7) {
+	iVar10 = enum(iVar4, iVar9, 'i', 'g')
+	if(iVar10 != -1) {
+		iVar8 = enum_getoutputcount(iVar10)
+		iVar11 = 0
+		iVar13 = 0
+		while(iVar11 < iVar8) {
+			iVar14 = enum(iVar10, iVar13, 'i', 'I')
+			if(iVar14 != -1) {
+				iVar11 = iVar11 + 1
+				iVar15 = enum(727, iVar14, 'I', 'i')
+				if(iVar15 == -1 || globalArrays[0][iVar15] == 0)
+					if(world_members() == 1 || enum(743, iVar14, 'I', 'i') == 0) {
+						iVar12 = iVar12 + 1
+						if_setposition(iVar14, 0, 0, iVar5, iVar6)
+						if_sethide(iVar14, 0)
+						iVar6 = iVar6 + (struct_param(657, iVar1) + struct_param(658, iVar1))
+						if(modulo(struct_param(660, iVar1), iVar12) == 0) {
+							iVar5 = iVar5 + (struct_param(656, iVar1) + struct_param(659, iVar1))
+							iVar6 = struct_param(655, iVar1)
+						}
+						iVar16 = enum(209, iVar14, 'I', '@')
+						if(iVar16 != -1)
+							if_settargetcursor(iVar14, 36, iVar16)
+					} else 
+						if_sethide(iVar14, 1)
+			}
+			iVar13 = iVar13 + 1
+			if(iVar13 > 997)
+				return
+		}
+	}
+	iVar9 = iVar9 + 1
+}
+if(iVar2 == 1) {
+	if_setscrollsize(struct_param(316, iVar1), (iVar5 + struct_param(656, iVar1)) + struct_param(654, iVar1), if_getwidth(struct_param(316, iVar1)))
+	script_31(struct_param(684, iVar1), struct_param(316, iVar1), 792, 789, 790, 791, 773, 788)
+} else 
+	if(instr6004(struct_param(316, iVar1)) == 1) {
+		cc_setscrollpos(0, 0)
+		cc_deleteall(struct_param(684, iVar1))
+	}
+iVar17 = struct_param(663, iVar1)
+iVar18 = 0
+if(iVar17 != -1) {
+	iVar18 = enum_getoutputcount(iVar17)
+	iVar13 = 0
+	while(iVar13 < iVar18) {
+		if(iVar13 == iVar3)
+			if_setgraphic(enum(iVar17, iVar13, 'i', 'I'), 1703)
+		else
+			if_setgraphic(enum(iVar17, iVar13, 'i', 'I'), 1701)
+		iVar13 = iVar13 + 1
+	}
+}
+script_1121()
+cc_deleteall(struct_param(688, iVar1))
+return

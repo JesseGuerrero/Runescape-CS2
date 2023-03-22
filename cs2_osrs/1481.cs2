@@ -1,0 +1,35 @@
+void script_1481(Widget arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	widget(493, 4).setIsHidden(true);
+	widget(493, 5).setIsHidden(true);
+	widget(493, 6).setIsHidden(true);
+	widget(493, 7).setIsHidden(true);
+	widget(493, 8).setIsHidden(true);
+	widget(493, 9).setIsHidden(true);
+	widget(493, 10).setIsHidden(true);
+	widget(493, 11).setIsHidden(true);
+	widget(493, 12).setIsHidden(true);
+	widget(493, 13).setIsHidden(true);
+	if (arg0 == widget2) {
+		widget(493, 6).setIsHidden(false);
+		widget(493, 7).setIsHidden(false);
+	} else if (arg0 == widget3) {
+		widget(493, 8).setIsHidden(false);
+		widget(493, 9).setIsHidden(false);
+	} else if (arg0 == widget4) {
+		widget(493, 10).setIsHidden(false);
+		widget(493, 11).setIsHidden(false);
+	} else if (arg0 == widget5) {
+		widget(493, 12).setIsHidden(false);
+		widget(493, 13).setIsHidden(false);
+	} else {
+		arg0 = widget1;
+		widget(493, 4).setIsHidden(false);
+		widget(493, 5).setIsHidden(false);
+	}
+	script_1482(widget1, "Easy", arg0, widget1, widget2, widget3, widget4, widget5);
+	script_1482(widget2, "Medium", arg0, widget1, widget2, widget3, widget4, widget5);
+	script_1482(widget3, "Hard", arg0, widget1, widget2, widget3, widget4, widget5);
+	script_1482(widget4, "Elite", arg0, widget1, widget2, widget3, widget4, widget5);
+	script_1482(widget5, "Master", arg0, widget1, widget2, widget3, widget4, widget5);
+	return;
+}

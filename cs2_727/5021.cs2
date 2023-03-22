@@ -1,0 +1,3 @@
+//script5021(5021)(int arg0)(int)
+return max(1, (arg0 / (2 ^ 7)) & 127)
+return 0

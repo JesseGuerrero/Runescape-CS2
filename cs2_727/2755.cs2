@@ -1,0 +1,29 @@
+//script2755(2755)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+if(cc_find(arg1, arg0) == 1 || arg1 == -1 || instr6004(arg0) == 1) {
+	iVar3 = script_1743()
+	if(iVar3 < scale(if_getwidth(if_gethash(746, 52)), 3, 1))
+		if(iVar4 < scale(if_getheight(if_gethash(746, 52)), 3, 1)) {
+			if_setmodelangle(arg2, 1000, 0, 768, 512, 0, 0)
+			script_6295(iVar3 + cc_getwidth(), iVar4 + cc_getheight(), arg2)
+		} else  {
+			if_setmodelangle(arg2, 1000, 0, 256, 512, 0, 0)
+			script_6295(iVar3 + cc_getwidth(), iVar4 - if_getheight(arg2), arg2)
+		}
+	else
+		if(iVar4 < scale(if_getheight(if_gethash(746, 52)), 3, 1)) {
+			if_setmodelangle(arg2, 1000, 0, 1280, 512, 0, 0)
+			script_6295(iVar3 - if_getwidth(arg2), iVar4 + cc_getheight(), arg2)
+		} else  {
+			if_setmodelangle(arg2, 1000, 0, 1792, 512, 0, 0)
+			script_6295(iVar3 - if_getwidth(arg2), iVar4 - if_getheight(arg2), arg2)
+		}
+}
+return

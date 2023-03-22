@@ -1,0 +1,10 @@
+//script4307(4307)()(void)
+store_varc(1500, -1)
+store_varc(1501, -1)
+store_varpbit(9591, -1)
+store_varpbit(9593, -1)
+store_varpbit(9592, -1)
+store_varpbit(9594, -1)
+store_varc_string(347, "")
+store_varc(1568, -1)
+return

@@ -1,0 +1,8 @@
+//script3682(3682)()(void)
+if(string_length(load_varc_string(196)) == 0)
+	if(load_varc(5) != 14) {
+		if_setgraphic(if_gethash(187, 18), 3246)
+		script_3685()
+	} else 
+		script_3683()
+return

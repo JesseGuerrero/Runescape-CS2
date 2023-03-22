@@ -1,0 +1,3 @@
+//script1396(1396)(int arg0, string arg1, string arg2)(void)
+hook_mouse_press(if_gethash(445, 2), script_1338, "ss1", arg0, arg1, arg0)
+return

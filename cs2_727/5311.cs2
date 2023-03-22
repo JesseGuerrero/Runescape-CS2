@@ -1,0 +1,47 @@
+//script5311(5311)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar4 = 0
+iVar5 = enum_getoutputcount(5177)
+iVar6 = enum_getoutputcount(5176)
+globalArrays[0] = [min(iVar6, iVar5), 105]
+iVar7 = 0
+while(iVar4 < min(iVar6, iVar5)) {
+	if(cc_find(iVar4, arg1) == 1)
+		if(string_length(cc_gettext()) > 0) {
+			globalArrays[0][iVar7] = iVar4
+			iVar7 = iVar7 + 1
+		}
+	iVar4 = iVar4 + 1
+}
+if(iVar7 > 1)
+	if(load_varc(1607) == 1) {
+		script_4425(0, arg1, 0, iVar7 - 1)
+		store_varc(1607, -1)
+	} else  {
+		script_4424(0, arg1, 0, iVar7 - 1)
+		store_varc(1607, 1)
+	}
+iVar8 = 15
+iVar4 = 0
+while(iVar4 < iVar7) {
+	if(cc_find(globalArrays[0][iVar4], arg1) == 1) {
+		cc_setposition(0, 0, iVar8 * iVar4, 2)
+		if(cc_find(globalArrays[0][iVar4], arg2) == 1)
+			cc_setposition(0, 0, (iVar8 * iVar4) + 1, 140)
+		if(cc_find(globalArrays[0][iVar4], arg3) == 1)
+			cc_setposition(0, 0, (iVar8 * iVar4) + 1, 152)
+		if(cc_find(globalArrays[0][iVar4], arg0) == 1) {
+			cc_setposition(0, 0, iVar8 * iVar4, 0)
+			if(modulo(2, iVar4) == 0)
+				cc_setcolor(222222)
+			else
+				cc_setcolor(111111)
+		}
+	}
+	iVar4 = iVar4 + 1
+}
+return

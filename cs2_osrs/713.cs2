@@ -1,0 +1,37 @@
+int script_713(Widget widget0, int arg1, int arg2) {
+	if (arg1 == 1) {
+		script_98(widget0, arg2, 824, 0, 0, 0, 0, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 825, 0, 0, 2, 0, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 826, 0, 0, 0, 2, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 827, 0, 0, 2, 2, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 820, 0, -13, 1, 0, 64, 32, 1, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 822, 0, -12, 1, 2, 64, 32, 1, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 821, -13, 0, 0, 1, 32, 64, 0, 1);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 823, -12, 0, 2, 1, 32, 64, 0, 1);
+	} else {
+		script_98(widget0, arg2, 846, 0, 0, 0, 0, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 847, 0, 0, 2, 0, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 848, 0, 0, 0, 2, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 849, 0, 0, 2, 2, 32, 32, 0, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 828, 0, -14, 1, 0, 64, 32, 1, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 828, 0, -12, 1, 2, 64, 32, 1, 0);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 841, -14, 0, 0, 1, 32, 64, 0, 1);
+		arg2 = arg2 + 1;
+		script_98(widget0, arg2, 841, -12, 0, 2, 1, 32, 64, 0, 1);
+	}
+	arg2 = arg2 + 1;
+	return arg2;
+}

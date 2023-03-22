@@ -1,0 +1,30 @@
+//script2906(2906)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = if_getlayer(arg0)
+iVar4 = 0
+if(arg1 == 10010) {
+	iVar4 = inv_total(11259, 94) + inv_total(11259, 93)
+	if(iVar4 > 0)
+		arg1 = 11259
+}
+switch(arg1) {
+	case default:
+		break
+	case 11259:
+		if(iVar4 == 0)
+			iVar4 = inv_total(10010, 93) + inv_total(10010, 94)
+		break
+
+}
+iVar4 = inv_total(arg1, 93)
+if_settext(arg2, item_name(arg1))
+if(iVar4 > 0) {
+	if_setcolor(arg2, 0xFFFF00)
+	if_setitem(arg0, iVar4, arg1)
+} else  {
+	if_setcolor(arg2, 0xCC0000)
+	if_setitem(arg0, -1, arg1)
+}
+if_setborderthickness(arg0, 1)
+return

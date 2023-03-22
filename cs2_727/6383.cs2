@@ -1,0 +1,16 @@
+//script6383(6383)(int arg0, int arg1, int arg2, int arg3)(void)
+if_sethide(arg1, arg0)
+if(arg2 != -1)
+	if(arg0 == 1)
+		if_setgraphic(arg2, 10154)
+	else
+		if_setgraphic(arg2, 10155)
+if(arg3 != -1)
+	if(arg0 == 1) {
+		if_setgraphic(arg3, 10154)
+		if_sethflip(arg3, 0)
+	} else  {
+		if_setgraphic(arg3, 10155)
+		if_sethflip(arg3, 1)
+	}
+return

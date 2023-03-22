@@ -1,0 +1,9 @@
+//script4147(4147)(int arg0, int arg1, int arg2, string arg3)(void)
+if_sethide(arg0, 0)
+if_setoptionname(arg0, arg0)
+if_setsize(arg0, 0, 1, arg1, 16)
+if_setposition(arg0, 1, 1, arg2, 0)
+script_4149(arg0, 0, arg0)
+if_setonmouseover(arg0, script_4148, "Is1", arg0, arg0, 1)
+hook_mouse_exit(arg0, script_4148, "Is1", arg0, arg0, 0)
+return

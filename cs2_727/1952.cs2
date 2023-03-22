@@ -1,0 +1,16 @@
+//script1952(1952)()(void)
+int iVar0
+int iVar1
+iVar0 = -1
+iVar1 = -1
+if(instr6644() < 2) {
+	iVar0 = 35913769
+	iVar1 = 35913925
+} else  {
+	iVar0 = 48889873
+	iVar1 = 48890043
+}
+if_settext(iVar1, "")
+if_sethide(iVar0, 1)
+store_varc(2, 0)
+return

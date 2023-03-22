@@ -1,0 +1,42 @@
+void script_446(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	int int8;
+	if (widget0 != null) {
+		widget6.setNoClickThrough(1);
+		widget0.hookSkill(&script_446(null, widget1, widget2, widget3, widget4, widget5, widget6, widget7), 3);
+		widget0.hookVARP(&script_446(null, widget1, widget2, widget3, widget4, widget5, widget6, widget7), 102, 456);
+		widget0.hookWidgetsOpenClose(&script_446(null, widget1, widget2, widget3, widget4, widget5, widget6, widget7));
+	}
+	script_449(widget1, widget2, getSkillCurrentLvl(3), getSkillActualLvl(3));
+	if (VARP[456] > 0) {
+		widget3.setSprite(1062);
+	} else if (VARP[102] >= 1000000) {
+		widget3.setSprite(1102);
+	} else if (VARP[102] > 0) {
+		widget3.setSprite(1061);
+	} else {
+		widget3.setSprite(1060);
+	}
+	if (VARP[102] > 0) {
+		if (VARP[102] >= 1000000) {
+			widget5.setSprite(1102);
+		} else {
+			widget5.setSprite(1061);
+		}
+		widget4.setIsHidden(false);
+	} else {
+		widget4.setIsHidden(true);
+	}
+	int8 = 1072;
+	if ((VARP[102] > 0 || VARP[456] > 0) && script_918(3) == true) {
+		widget7.hookMouseHover(&script_44(widget6, (Sprite)int8));
+		int8 = 1071;
+		widget7.hookMouseExit(&script_44(widget6, (Sprite)int8));
+		widget7.setIsHidden(false);
+	} else {
+		widget6.setSprite(1071);
+		widget7.hookMouseHover(null);
+		widget7.hookMouseExit(null);
+		widget7.setIsHidden(true);
+	}
+	return;
+}

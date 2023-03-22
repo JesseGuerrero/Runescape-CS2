@@ -1,0 +1,164 @@
+void script_802(Container container0, int arg1, int arg2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	Item item7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	widget(237, 2).clearChildren();
+	int3 = 0;
+	while (int3 < arg1) {
+		CHILD.createChild(widget(237, 2), 5, int3);
+		int3 = int3 + 1;
+	}
+	int4 = widget(237, 2).getWidth();
+	int5 = 0;
+	int6 = arg1;
+	item7 = null;
+	int8 = 0;
+	int9 = 0;
+	int10 = 0;
+	int11 = 0;
+	int12 = 0;
+	int13 = 0;
+	int14 = 0;
+	int15 = -1;
+	int16 = -1;
+	int3 = 0;
+	if (VARPBIT[4440] == 1) {
+		if (CHILD.setChild(widget(237, 4), arg2) == true) {
+			CHILD.setSprite(697);
+		}
+		int9, int10 = 36 + 10, 32 + 10;
+		int11, int12 = (int4 - 5 * int9) / 6, int10 + 35;
+		int13 = int11 + int9;
+		while (int3 < arg1) {
+			item7 = getItemIdInSlot(container0, int3);
+			if (item7 != null) {
+				int14, int15 = int11 + int3 % 5 * int13, int3 / 5 * int12 + 20;
+				if (CHILD.setChild(widget(237, 2), int3) == true) {
+					CHILD.setHidden(false);
+					CHILD.setSize(36, 32, 0, 0);
+					CHILD.setPosition(int14 + 5, int15 + 5, 0, 0);
+					CHILD.setItemNoNum(item7, 1);
+					CHILD.setContextMenuOption(10, "Examine");
+					CHILD.setOptionBase("<col=ff9040>" + getItemName(item7) + "</col>");
+				}
+				int6 = script_771(widget(237, 2), int6, int14, int15, int9, int10);
+				CHILD.createChild(widget(237, 2), 5, int6);
+				int6 = int6 + 1;
+				CHILD.setSize(36, 32, 0, 0);
+				CHILD.setPosition(int14 + 5, int15 + 5, 0, 0);
+				CHILD.setShadowColor(0x333333);
+				CHILD.setOutlineThickness(1);
+				CHILD.setItemNoNum(item7, 1);
+				int8 = getItemAmtInSlot(container0, int3);
+				CHILD.createChild(widget(237, 2), 4, int6);
+				int6 = int6 + 1;
+				CHILD.setSize(int13, 22, 0, 0);
+				CHILD.setPosition(int14 - int11 / 2, int15 + int10 + 2, 0, 0);
+				CHILD.setRGB(0xFF981F);
+				CHILD.setFont(494);
+				CHILD.setTextAntiMacro(true);
+				CHILD.setTextAlignment(1, 1, 0);
+				if (int8 == 1) {
+					CHILD.setText("1 coin");
+				} else {
+					CHILD.setText(script_46(int8, ",") + " coins");
+				}
+			} else if (CHILD.setChild(widget(237, 2), int3) == true) {
+				CHILD.setHidden(true);
+			}
+			int3 = int3 + 1;
+		}
+	} else {
+		if (CHILD.setChild(widget(237, 4), arg2) == true) {
+			CHILD.setSprite(699);
+		}
+		int5 = int4 / 2;
+		int13 = int5 - 36;
+		int12 = 32 + 4;
+		while (int3 < arg1) {
+			item7 = getItemIdInSlot(container0, int3);
+			if (item7 != null) {
+				int15 = int3 / 2 * int12;
+				if (int3 % 2 == 0) {
+					int14 = 0;
+					CHILD.createChild(widget(237, 2), 5, int6);
+					int6 = int6 + 1;
+					CHILD.setSize(int4, int12, 0, 0);
+					CHILD.setSprite(1040);
+					CHILD.setSpriteTiling(true);
+					if (int3 % 4 < 2) {
+						CHILD.setTrans(0);
+					} else {
+						CHILD.setTrans(125);
+					}
+					CHILD.setPosition(int14, int15, 0, 0);
+				} else {
+					int14 = int5;
+				}
+				int16 = int15 + 2;
+				if (CHILD.setChild(widget(237, 2), int3) == true) {
+					CHILD.setHidden(false);
+					CHILD.setSize(36, 32, 0, 0);
+					CHILD.setPosition(int14, int16, 0, 0);
+					CHILD.setItemNoNum(item7, 1);
+					CHILD.setContextMenuOption(10, "Examine");
+					CHILD.setOptionBase("<col=ff9040>" + getItemName(item7) + "</col>");
+				}
+				CHILD.createChild(widget(237, 2), 5, int6);
+				int6 = int6 + 1;
+				CHILD.setSize(36, 32, 0, 0);
+				CHILD.setPosition(int14, int16, 0, 0);
+				CHILD.setShadowColor(0x333333);
+				CHILD.setOutlineThickness(1);
+				CHILD.setItemNoNum(item7, 1);
+				CHILD.createChild(widget(237, 2), 4, int6);
+				int6 = int6 + 1;
+				CHILD.setSize(int13, 32 - 2, 0, 0);
+				CHILD.setPosition(int14 + 36, int16 + 1, 0, 0);
+				CHILD.setRGB(0xFF981F);
+				CHILD.setFont(494);
+				CHILD.setTextAntiMacro(true);
+				CHILD.setTextAlignment(0, 0, 0);
+				CHILD.setText(getItemName(item7));
+				int8 = getItemAmtInSlot(container0, int3);
+				CHILD.createChild(widget(237, 2), 4, int6);
+				int6 = int6 + 1;
+				CHILD.setSize(int13, 32 - 2, 0, 0);
+				CHILD.setPosition(int14 + 36, int16 + 1, 0, 0);
+				CHILD.setRGB(0xFF981F);
+				CHILD.setFont(495);
+				CHILD.setTextAntiMacro(true);
+				CHILD.setTextAlignment(0, 2, 0);
+				if (int8 == 1) {
+					CHILD.setText("<col=ffffff>" + "1 coin" + "</col>");
+				} else {
+					CHILD.setText("<col=ffffff>" + script_46(int8, ",") + " coins" + "</col>");
+				}
+			} else if (CHILD.setChild(widget(237, 2), int3) == true) {
+				CHILD.setHidden(true);
+			}
+			int3 = int3 + 1;
+		}
+	}
+	if (int15 >= 0) {
+		int15 = int15 + int12;
+	}
+	if (int15 > widget(237, 2).getHeight()) {
+		widget(237, 2).setScrollMax(0, int15);
+	} else {
+		widget(237, 2).setScrollMax(0, 0);
+	}
+	script_72(widget(237, 3), widget(237, 2), getScrollY(widget(237, 2)));
+	return;
+}

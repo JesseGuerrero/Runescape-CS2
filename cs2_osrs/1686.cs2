@@ -1,0 +1,37 @@
+int script_1686(Widget widget0, int arg1, string string2, Item item3, int arg4) {
+	int int4;
+	widget0.clearChildren();
+	int4 = 0;
+	CHILD.createChild(widget0, 5, int4);
+	int4 = int4 + 1;
+	CHILD.setSize(2, 2, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSpriteTiling(true);
+	if (arg4 >= arg1) {
+		CHILD.setSprite(1040);
+	} else {
+		CHILD.setSprite(897);
+	}
+	int4 = script_715(widget0, int4);
+	CHILD.createChild(widget0, 4, int4);
+	int4 = int4 + 1;
+	CHILD.setSize(70, 30, 0, 0);
+	CHILD.setPosition(5, 5, 0, 2);
+	if (arg4 >= arg1) {
+		CHILD.setRGB(0xFFFFFF);
+	} else {
+		CHILD.setRGB(0x7F7F7F);
+	}
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string2);
+	CHILD.createChild(widget0, 5, int4);
+	int4 = int4 + 1;
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(7 + (70 - 36) / 2, 35, 0, 2);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	CHILD.setItemNoNum(item3, 1);
+	return int4;
+}

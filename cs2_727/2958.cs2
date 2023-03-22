@@ -1,0 +1,13 @@
+//script2958(2958)()(void)
+int iVar0
+int iVar1
+iVar0 = 1019
+iVar1 = 1020
+if(instr6644() >= 2) {
+	iVar0 = 8558
+	iVar1 = 8560
+	if_setgraphic(if_gethash(751, 15), 8558)
+}
+hook_mouse_enter(if_gethash(751, 15), script_44, "Id", -2147483645, iVar1)
+hook_mouse_exit(if_gethash(751, 15), script_44, "Id", -2147483645, iVar0)
+return

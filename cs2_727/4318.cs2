@@ -1,0 +1,22 @@
+//script4318(4318)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = 71827533
+iVar1 = 71827534
+iVar2 = 23
+iVar3 = max(((load_varc(1517) / 2) + 1) * iVar2, if_getheight(iVar1))
+iVar4 = if_getscrolly(iVar1)
+if(iVar3 > if_getheight(if_gethash(1096, 78))) {
+	if_setscrollsize(iVar1, iVar3, if_getwidth(iVar1))
+	if_setscrollpos(iVar1, iVar4, 0)
+	if_sethide(iVar0, 0)
+	script_31(iVar0, iVar1, 5666, 5663, 5664, 5665, 5686, 5685)
+} else  {
+	if_setscrollsize(iVar1, if_getheight(iVar1), if_getwidth(iVar1))
+	if_setscrollpos(iVar1, 0, 0)
+	script_31(iVar0, iVar1, 5666, 5663, 5664, 5665, 5686, 5685)
+}
+return

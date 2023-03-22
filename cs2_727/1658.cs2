@@ -1,0 +1,15 @@
+//script1658(1658)()(void)
+if(load_varc(1734) == 1) {
+	if_set2dangle(if_gethash(1180, 43), 0)
+	if_sethide(if_gethash(1180, 41), 0)
+	if_setsize(if_gethash(1180, 6), 0, 0, 179, 172)
+	instr6213(if_gethash(1180, 43), 1, "Hide")
+	store_varc(1734, 0)
+} else  {
+	if_set2dangle(if_gethash(1180, 43), 32768)
+	if_sethide(if_gethash(1180, 41), 1)
+	if_setsize(if_gethash(1180, 6), 0, 0, 50, 172)
+	instr6213(if_gethash(1180, 43), 1, "Unhide")
+	store_varc(1734, 1)
+}
+return

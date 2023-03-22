@@ -1,0 +1,7 @@
+//script5588(5588)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if_setgraphic(arg0, 9059)
+if_setgraphic(arg1, 9060)
+if_setgraphic(arg2, 9061)
+if_setcolor(arg3, 0xC8C8C8)
+if_setcolor(arg4, 0xC8C8C8)
+return

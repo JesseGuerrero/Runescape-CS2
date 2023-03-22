@@ -1,0 +1,8 @@
+void script_1153(Widget widget0, Sprite sprite1, int arg2) {
+	if (getClientCycle() < arg2) {
+		return;
+	}
+	widget0.setSprite(sprite1);
+	widget0.hookFrame(null);
+	return;
+}

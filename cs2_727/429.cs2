@@ -1,0 +1,124 @@
+//script429(429)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar1 = 0
+iVar2 = 0
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar7 = 0
+iVar8 = -1
+switch(arg0) {
+	case default:
+		return
+
+	case 67108940:
+		if(load_varc(1388) == 1)
+			iVar1 = 1
+		else
+			iVar1 = load_varpbit(7539)
+		iVar3 = 67108941
+		iVar4 = 67108943
+		iVar5 = 67108939
+		iVar6 = 67108940
+		iVar8 = 67108942
+		break
+	case 67108923:
+		if(load_varc(1388) == 1)
+			iVar1 = 3
+		else
+			iVar1 = load_varpbit(7540)
+		iVar3 = 67108924
+		iVar4 = 67108926
+		iVar5 = 67108922
+		iVar6 = 67108923
+		iVar8 = 67108925
+		break
+	case 67108906:
+		if(load_varc(1388) == 1)
+			iVar1 = 5
+		else
+			iVar1 = load_varpbit(7541)
+		iVar3 = 67108907
+		iVar4 = 67108909
+		iVar5 = 67108905
+		iVar6 = 67108906
+		iVar8 = 67108908
+		break
+	case 67108889:
+		if(load_varc(1388) == 1)
+			iVar1 = 6
+		else
+			iVar1 = load_varpbit(7542)
+		iVar3 = 67108890
+		iVar4 = 67108892
+		iVar5 = 67108888
+		iVar6 = 67108889
+		iVar8 = 67108891
+		break
+
+}
+switch(iVar1) {
+	case default:
+		return
+
+	case 1:
+		iVar2 = load_varc(1378)
+		iVar7 = struct_param(1154, 293)
+		break
+	case 2:
+		iVar2 = load_varc(1379)
+		iVar7 = struct_param(1154, 299)
+		break
+	case 3:
+		iVar2 = load_varc(1380)
+		iVar7 = struct_param(1154, 300)
+		break
+	case 4:
+		iVar2 = load_varc(1386)
+		iVar7 = struct_param(1154, 301)
+		break
+	case 5:
+		iVar2 = load_varc(1381)
+		iVar7 = struct_param(1154, 305)
+		break
+	case 6:
+		iVar2 = load_varc(1383)
+		iVar7 = struct_param(1154, 1044)
+		break
+	case 7:
+		iVar2 = load_varc(1384)
+		iVar7 = struct_param(1154, 1045)
+		break
+	case 8:
+		iVar2 = load_varc(1385)
+		iVar7 = struct_param(1154, 1046)
+		break
+	case 9:
+		iVar2 = load_varc(1382)
+		iVar7 = struct_param(1154, 1047)
+		break
+
+}
+if(iVar2 > 0 || load_varpbit(7514) < iVar7) {
+	if(iVar2 > 0)
+		if_settext(iVar8, to_string(iVar2))
+	if_setcolor(iVar3, 0x282828)
+	if_sethide(iVar4, 0)
+	if_setcolor(iVar5, 0x7D7D7D)
+	if_setcolor(iVar6, 0x7D7D7D)
+} else  {
+	if_settext(iVar8, "")
+	if_setcolor(iVar3, 0x0)
+	if_sethide(iVar4, 1)
+	if_setcolor(iVar5, 0xFF981F)
+	if_setcolor(iVar6, 0xFF981F)
+}
+return

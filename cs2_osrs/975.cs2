@@ -1,0 +1,18 @@
+void script_975(int arg0) {
+	if (arg0 <= 5) {
+		if (VARPBIT[4289] == 1) {
+			CHILD.setRGB(0xFF3F3F);
+		} else if (VARPBIT[4289] == 2) {
+			CHILD.setRGB(0x5F5FFF);
+		} else {
+			CHILD.setRGB(0xFF981F);
+		}
+	} else if (VARPBIT[4289] == 2) {
+		CHILD.setRGB(0xFF3F3F);
+	} else if (VARPBIT[4289] == 1) {
+		CHILD.setRGB(0x3F3FFF);
+	} else {
+		CHILD.setRGB(0xFF981F);
+	}
+	return;
+}

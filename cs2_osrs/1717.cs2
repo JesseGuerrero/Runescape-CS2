@@ -1,0 +1,25 @@
+int, int script_1717(int arg0, Widget widget1, int arg2, int arg3, Widget widget4, Widget widget5, Widget widget6) {
+	string str0;
+	CHILD.createChild(widget1, 4, arg2);
+	arg2 = arg2 + 1;
+	CHILD.setSize(25, 21, 1, 0);
+	CHILD.setPosition(0, arg0 * 21, 2, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 1, 0);
+	str0 = datamap('i', 's', 1704, arg0);
+	CHILD.setText(str0);
+	CHILD.createChild(widget1, 5, arg2);
+	CHILD.setSize(17, 17, 0, 0);
+	CHILD.setPosition(1, arg0 * 21 + 2, 0, 0);
+	CHILD.setSprite(1435);
+	if (_CHILD.setChild(widget1, arg0) == true) {
+		_CHILD.setOptionBase("<col=ff9040>" + str0 + "</col>");
+		_CHILD.hookOptionClick(&script_1718(CTX_MENU_OPTION, widget1, arg0, arg2, widget4, widget5, widget6));
+		_CHILD.hookVARP(&script_1719(widget1, arg0, arg2, widget4, widget5, widget6), 1568);
+		script_1720(widget1, arg0, widget4, widget5, widget6);
+	}
+	arg2 = arg2 + 1;
+	return arg2, script_1045(arg3, 25 + getMaxLineWidth(str0, 512, 495));
+}

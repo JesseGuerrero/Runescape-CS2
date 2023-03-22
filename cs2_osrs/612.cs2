@@ -1,0 +1,9 @@
+void script_612(int arg0, int arg1, int arg2, string string3, string arg4) {
+	_CHILD.setRGB(0xFFA82F);
+	_CHILD.setText(string3);
+	CHILD.hookMousePress(&script_613(widget(arg0), arg1, arg2, string3, arg4));
+	CHILD.hookMouseExit(&script_599(widget(arg0), arg2, string3));
+	string3 = "<u=ffa82f>" + string3 + "</u>";
+	CHILD.hookMouseEnter(&script_599(widget(arg0), arg2, string3));
+	return;
+}

@@ -1,0 +1,32 @@
+//script5218(5218)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+iVar5 = 0
+iVar6 = 0
+if_sethide(if_getparentlayer(arg0), 0)
+if(arg3 > 0) {
+	instr6342(arg4, script_5218, "IIiiI", arg0, arg1, arg2, arg3 - 1, arg4)
+	return
+}
+if(cc_find(0, arg0) == 1) {
+	iVar5 = cc_gettransparency()
+	if(arg2 == 0)
+		iVar6 = iVar5 - 22
+	else
+		iVar6 = iVar5 + 22
+	iVar6 = max(0, iVar6)
+	iVar6 = min(255, iVar6)
+}
+script_4161(arg0, iVar6)
+script_4161(arg1, iVar6)
+if(iVar6 == 0)
+	if(arg2 == 0)
+		instr6342(arg4, None, "")
+	else
+		if(iVar6 == 255)
+			if(arg2 == 1) {
+				instr6342(arg4, None, "")
+				if_sethide(if_getparentlayer(arg0), 1)
+			} else 
+				instr6342(arg4, script_5218, "IIiiI", arg0, arg1, arg2, 0, arg4)
+return

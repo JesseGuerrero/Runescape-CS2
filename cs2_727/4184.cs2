@@ -1,0 +1,8 @@
+//script4184(4184)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+store_varpbit(8877, max(1, min(28, load_varpbit(8877) + arg1)))
+if_settext(if_gethash(1072, 33), to_string(load_varpbit(8877)))
+instr6342(if_gethash(1072, 83), script_4187, "i", client_clock() + 15)
+if_sethide(if_gethash(1072, 83), 0)
+return

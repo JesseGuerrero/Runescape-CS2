@@ -1,0 +1,329 @@
+//script4864(4864)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+int iVar42
+int iVar43
+int iVar44
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+iVar3 = 1
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = 0
+iVar28 = 0
+iVar29 = 0
+iVar30 = 0
+iVar31 = 0
+iVar32 = -1
+sVar0 = ""
+iVar33 = 0
+iVar34 = 0
+iVar35 = 0
+iVar36 = 0
+iVar37 = 0
+iVar38 = 0
+iVar39 = 0
+iVar40 = 0
+sVar1 = ""
+sVar2 = "You do not have permission from your clan to set the primary resource target."
+sVar3 = "Toggle whether this resource is the primary resource target."
+sVar4 = "You do not have permission from your clan to set resource target amounts."
+sVar5 = "Set a target amount of this resource to be collected."
+iVar41 = -1
+globalArrays[0] = [10, 105]
+iVar42 = 0
+iVar43 = 0
+iVar44 = 0
+if(clan_vars_enabled() == 1) {
+	iVar12 = script_4797().get(0)
+	while(iVar3 <= 31) {
+		iVar4 = script_4790(iVar3)
+		if(iVar4 > 0) {
+			iVar32 = script_4791(iVar4).get(0)
+			iVar6 = script_4792(iVar4, iVar33).get(0)
+			iVar5 = script_4975(iVar4)
+			if(iVar5 == 3) {
+				iVar18 = iVar18 + iVar6
+				iVar19 = iVar19 + iVar7
+				iVar20 = iVar20 + iVar8
+				iVar22 = iVar22 + iVar10
+				iVar23 = iVar23 + iVar11
+				iVar21 = iVar21 + iVar9
+				iVar6 = script_4793(iVar36, iVar37).get(0)
+				iVar26 = iVar26 + iVar6
+				iVar27 = iVar27 + iVar7
+				iVar28 = iVar28 + iVar8
+				iVar30 = iVar30 + iVar10
+				iVar31 = iVar31 + iVar11
+				iVar29 = iVar29 + iVar9
+			}
+		}
+		iVar3 = iVar3 + 1
+	}
+	iVar18 = iVar18 - iVar26
+	iVar19 = iVar19 - iVar27
+	iVar20 = iVar20 - iVar28
+	iVar23 = iVar23 - iVar31
+	iVar22 = iVar22 - iVar30
+	iVar21 = iVar21 - iVar29
+	iVar39 = load_clan_var(2744)
+	if(iVar39 > 0) {
+		switch(load_clan_var(2744)) {
+			case default:
+				break
+			case 1:
+				iVar24 = load_clan_var(2734)
+				break
+			case 2:
+				iVar24 = load_clan_var(2735)
+				break
+			case 3:
+				iVar24 = load_clan_var(2736)
+				break
+			case 4:
+				iVar24 = load_clan_var(2737)
+				break
+			case 5:
+				iVar24 = load_clan_var(2738)
+				break
+			case 6:
+				iVar24 = load_clan_var(2739)
+				break
+			case 7:
+				iVar24 = load_clan_var(2740)
+				break
+			case 9:
+				iVar24 = load_clan_var(2742)
+				break
+			case 8:
+				iVar24 = load_clan_var(2741)
+				break
+			case 10:
+				iVar24 = load_clan_var(2743)
+				break
+
+		}
+		sVar1 = to_string(iVar24) + " " + enum(4285, iVar39, 'i', 's')
+	} else 
+		sVar1 = "No target set"
+	globalArrays[0][0] = max(iVar12 + iVar18, load_clan_var(2724) / 100)
+	globalArrays[0][1] = max(iVar13 + iVar19, load_clan_var(2725) / 100)
+	globalArrays[0][2] = max(iVar14 + iVar20, load_clan_var(2728) / 100)
+	globalArrays[0][3] = max(iVar15 + iVar21, load_clan_var(2730) / 100)
+	globalArrays[0][4] = max(iVar16 + iVar22, load_clan_var(2732) / 100)
+	globalArrays[0][5] = max(iVar17 + iVar23, load_clan_var(2731) / 100)
+	globalArrays[0][6] = max(load_clan_var(2736), load_clan_var(2726) / 100)
+	globalArrays[0][7] = max(load_clan_var(2737), load_clan_var(2727) / 100)
+	globalArrays[0][8] = max(load_clan_var(2739), load_clan_var(2729) / 100)
+	globalArrays[0][9] = max(load_clan_var(2743), load_clan_var(2733) / 100)
+	while(iVar42 < 10) {
+		if(globalArrays[0][iVar42] > iVar43)
+			iVar43 = globalArrays[0][iVar42]
+		iVar42 = iVar42 + 1
+	}
+	script_4866(1, load_clan_var(2724), iVar12, iVar18, iVar26, iVar43)
+	script_4866(2, load_clan_var(2725), iVar13, iVar19, iVar27, iVar43)
+	script_4866(3, load_clan_var(2726), 0, 0, 0, iVar43)
+	script_4866(4, load_clan_var(2727), 0, 0, 0, iVar43)
+	script_4866(5, load_clan_var(2728), iVar14, iVar20, iVar28, iVar43)
+	script_4866(6, load_clan_var(2729), 0, 0, 0, iVar43)
+	script_4866(7, load_clan_var(2730), iVar15, iVar21, iVar29, iVar43)
+	script_4866(8, load_clan_var(2731), iVar17, iVar23, iVar31, iVar43)
+	script_4866(9, load_clan_var(2732), iVar16, iVar22, iVar30, iVar43)
+	script_4866(10, load_clan_var(2733), 0, 0, 0, iVar43)
+	if_settext(if_gethash(1260, 280), sVar1)
+	switch(load_varpbit(9553)) {
+		case default:
+			break
+		case 1:
+			if_setgraphic(if_gethash(1260, 298), 7381)
+			break
+		case 2:
+			if_setgraphic(if_gethash(1260, 298), 7380)
+			break
+		case 3:
+			if_setgraphic(if_gethash(1260, 298), 7384)
+			break
+		case 4:
+			if_setgraphic(if_gethash(1260, 298), 7378)
+			break
+		case 5:
+			if_setgraphic(if_gethash(1260, 298), 7377)
+			break
+		case 6:
+			if_setgraphic(if_gethash(1260, 298), 7379)
+			break
+		case 7:
+			if_setgraphic(if_gethash(1260, 298), 7376)
+			break
+		case 8:
+			if_setgraphic(if_gethash(1260, 298), 7383)
+			break
+		case 9:
+			if_setgraphic(if_gethash(1260, 298), 7382)
+			break
+		case 10:
+			if_setgraphic(if_gethash(1260, 298), 7385)
+			if_setgraphic(if_gethash(1260, 298), -1)
+			break
+
+	}
+	switch(load_varpbit(9553)) {
+		case default:
+			break
+		case 1:
+			iVar40 = load_clan_var(2734)
+			break
+		case 2:
+			iVar40 = load_clan_var(2735)
+			break
+		case 3:
+			iVar40 = load_clan_var(2736)
+			break
+		case 4:
+			iVar40 = load_clan_var(2737)
+			break
+		case 5:
+			iVar40 = load_clan_var(2738)
+			break
+		case 6:
+			iVar40 = load_clan_var(2739)
+			break
+		case 7:
+			iVar40 = load_clan_var(2740)
+			break
+		case 8:
+			iVar40 = load_clan_var(2741)
+			break
+		case 9:
+			iVar40 = load_clan_var(2742)
+			break
+		case 10:
+			iVar40 = load_clan_var(2743)
+			break
+
+	}
+	if(iVar40 > 0)
+		sVar1 = to_string(iVar40)
+	else
+		sVar1 = "No target set"
+	if(load_varpbit(9553) > 0) {
+		if_settext(if_gethash(1260, 85), enum(4285, load_varpbit(9553), 'i', 's'))
+		if_settext(if_gethash(1260, 294), sVar1)
+		if(script_5956(load_varpbit(9553)) == 1 || script_5956(load_varpbit(9553)) == 2) {
+			if_setgraphic(if_gethash(1260, 87), 5917)
+			if_setgraphic(if_gethash(1260, 89), 5919)
+		}
+		if(script_5956(load_varpbit(9553)) == 3) {
+			if_setgraphic(if_gethash(1260, 89), 5917)
+			if_setgraphic(if_gethash(1260, 87), 5919)
+		}
+		if(script_5956(load_varpbit(9553)) == 0) {
+			if_setgraphic(if_gethash(1260, 89), 5919)
+			if_setgraphic(if_gethash(1260, 87), 5919)
+		}
+		sVar3 = "Toggle whether this skill plot will lock when the resource target is reached. It will automatically unlock once all resource targets are hit."
+		if_setonmouseover(if_gethash(1260, 87), script_4538, "IIisifdiiiiii", if_gethash(1260, 324), -2147483645, -1, sVar3, 180, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+		hook_mouse_exit(if_gethash(1260, 87), script_40, "I", if_gethash(1260, 324))
+		sVar3 = "Toggle whether this skill plot is locked. If this is checked, the plot will stay locked until manually unlocked."
+		if_setonmouseover(if_gethash(1260, 89), script_4538, "IIisifdiiiiii", if_gethash(1260, 324), -2147483645, -1, sVar3, 180, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+		hook_mouse_exit(if_gethash(1260, 89), script_40, "I", if_gethash(1260, 324))
+		if_sethide(if_gethash(1260, 288), 0)
+		if_setonmouseover(if_gethash(1260, 287), script_4538, "IIisifdiiiiii", if_gethash(1260, 324), -2147483645, -1, sVar5, 180, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		hook_mouse_exit(if_gethash(1260, 287), script_40, "I", if_gethash(1260, 324))
+		if(script_5224(-1) == 1)
+			if(script_5214(load_varpbit(9553)) <= load_clan_varbit(2580))
+				if_sethide(if_gethash(1260, 288), 1)
+			else {
+				if_sethide(if_gethash(1260, 288), 0)
+				sVar4 = "This resource will become available at citadel tier " + to_string(script_5214(load_varpbit(9553))) + "."
+			}
+		else {
+			if_sethide(if_gethash(1260, 288), 0)
+			sVar4 = "You do not have permission from your clan to set resource targets."
+		}
+		if_setonmouseover(if_gethash(1260, 288), script_4538, "IIisifdiiiiii", if_gethash(1260, 324), -2147483645, -1, sVar4, 180, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		hook_mouse_exit(if_gethash(1260, 288), script_40, "I", if_gethash(1260, 324))
+	} else  {
+		if_settext(if_gethash(1260, 85), "Select a resource for more information.")
+		if_setgraphic(if_gethash(1260, 91), 5921)
+		if_sethide(if_gethash(1260, 288), 0)
+		sVar4 = "Please select a resource from the left to view options."
+		if_setonmouseover(if_gethash(1260, 288), script_4538, "IIisifdiiiiii", if_gethash(1260, 324), -2147483645, -1, sVar4, 180, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		hook_mouse_exit(if_gethash(1260, 288), script_40, "I", if_gethash(1260, 324))
+		if_setgraphic(if_gethash(1260, 91), 5923)
+		sVar3 = "Please select a resource from the left to view options."
+		instr6213(if_gethash(1260, 91), 1, "")
+		if_setonmouseover(if_gethash(1260, 91), script_4538, "IIisifdiiiiii", if_gethash(1260, 324), -2147483645, -1, sVar3, 180, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		hook_mouse_exit(if_gethash(1260, 91), script_40, "I", if_gethash(1260, 324))
+	}
+}
+return

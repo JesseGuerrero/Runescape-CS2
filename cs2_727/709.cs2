@@ -1,0 +1,6 @@
+//script709(709)(int arg0)(void)
+if(instr6644() >= 2)
+	if_setsize(arg0, 0, 0, if_getheight(if_gethash(746, 11)), if_getwidth(if_gethash(746, 11)))
+else
+	if_setsize(arg0, 0, 0, if_getheight(if_gethash(548, 28)), if_getwidth(if_gethash(548, 28)))
+return

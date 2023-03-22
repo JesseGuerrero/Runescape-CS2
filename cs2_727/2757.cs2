@@ -1,0 +1,8 @@
+//script2757(2757)(int arg0)(void)
+if(load_varc(173) == 1 || load_varpbit(542) == 1 || arg0 != 1)
+	return
+if(cam_getanglex() < 150)
+	cam_setangle(0, 150)
+else
+	cam_setangle(0, 149)
+return

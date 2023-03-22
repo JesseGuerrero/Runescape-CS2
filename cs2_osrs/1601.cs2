@@ -1,0 +1,150 @@
+void script_1601(int arg0, string string1, int arg2, int arg3, int arg4, string string5) {
+	int int4;
+	int int5;
+	Item item6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	string str2;
+	widget(4, 23).setText(string5);
+	int4 = 0;
+	int5 = 0;
+	item6 = null;
+	int7 = 0;
+	str2 = "";
+	int8 = 0;
+	int9 = 0;
+	int10 = 0;
+	ARRAY0 = new Item[arg2];
+	int11 = 0;
+	int12 = 0;
+	if (arg0 == 0) {
+		if (getItemAmtInContainer(93, 13190) > 0 || getItemAmtInContainer(93, 13192) > 0) {
+			int9 = 1;
+		}
+		while (int10 < arg2) {
+			item6 = getItemIdInSlot(584, int10);
+			if (item6 != null) {
+				int7 = getItemAmtInSlot(584, int10);
+				while (int10 < arg2 && int7 > 0) {
+					ARRAY0[int10] = item6;
+					int7 = int7 - 1;
+					int10 = int10 + 1;
+				}
+			} else {
+				int10 = arg2;
+			}
+		}
+		while (int4 < arg2) {
+			CHILD.createChild(widget(4, 18), 5, int4);
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(5 + int4 * 40, 25, 0, 0);
+			item6 = (Item)ARRAY0[int4];
+			if (item6 != null) {
+				CHILD.setItem(item6, 1);
+				CHILD.setOptionBase("<col=ff981f>" + getItemName(item6));
+				CHILD.setContextMenuOption(1, "Item:");
+				CHILD.hookOptionClick(&script_1603(true, 1, getItemName(item6)));
+				CHILD.setShadowColor(0x111111);
+				CHILD.setOutlineThickness(1);
+				int4 = int4 + 1;
+			} else {
+				int4 = arg2;
+			}
+		}
+		int4 = 0;
+		while (int4 < getItemContainerLength(468)) {
+			item6 = getItemIdInSlot(468, int4);
+			if (item6 != null) {
+				CHILD.createChild(widget(4, 21), 5, int5);
+				CHILD.setSize(36, 32, 0, 0);
+				CHILD.setPosition(5 + int5 % 8 * 38, 25 + 38 * (int5 / 8), 0, 0);
+				CHILD.setItem(item6, getItemAmtInSlot(468, int4));
+				CHILD.setOptionBase("<col=ff981f>" + getItemName(item6));
+				CHILD.setContextMenuOption(1, "Item:");
+				CHILD.hookOptionClick(&script_1603(false, getItemAmtInSlot(468, int4), getItemName(item6)));
+				CHILD.setShadowColor(0x111111);
+				if (datamap('o', '1', 879, item6) == true) {
+					CHILD.setOutlineThickness(2);
+					int8 = 1;
+				} else {
+					CHILD.setOutlineThickness(1);
+				}
+				int5 = int5 + 1;
+				if (itemIsStackable(item6) == true) {
+					int10 = 0;
+					int12 = 0;
+					while (int10 < arg2) {
+						if ((Item)ARRAY0[int10] == item6) {
+							int12 = int12 + 1;
+						}
+						int10 = int10 + 1;
+					}
+					int11 = 2147483647 - getItemAmtInContainer(94, item6) - getItemAmtInContainer(93, item6) + int12;
+					int11 = 0 - int11;
+					if (int11 > 0) {
+						CHILD.createChild(widget(4, 21), 5, int5);
+						CHILD.setSize(36, 32, 0, 0);
+						CHILD.setPosition(5 + int5 % 8 * 38, 25 + 38 * (int5 / 8), 0, 0);
+						CHILD.setItem(item6, int11);
+						CHILD.setOptionBase("<col=ff981f>" + getItemName(item6));
+						CHILD.setContextMenuOption(1, "Item:");
+						CHILD.hookOptionClick(&script_1603(false, int11, getItemName(item6)));
+						CHILD.setShadowColor(0x111111);
+						if (datamap('o', '1', 879, item6) == true) {
+							CHILD.setOutlineThickness(2);
+							int8 = 1;
+						} else {
+							CHILD.setOutlineThickness(1);
+						}
+						int5 = int5 + 1;
+					}
+				}
+			}
+			int4 = int4 + 1;
+		}
+		str2 = "The normal amount of items kept is " + "three" + "." + "<br>" + "<br>";
+		if (arg4 == 1) {
+			str2 = concat(str2, "You're an " + "<col=ff3333>" + "Ultimate Iron Man" + "<col=ff981f>" + ", so you will always keep zero items.");
+		} else if (arg2 == 0) {
+			str2 = concat(str2, "You're marked with a " + "<col=ff3333>" + "PK skull" + "<col=ff981f>" + ". This reduces the items you keep from " + "three" + " to zero!");
+		} else if (arg2 == 1) {
+			str2 = concat(str2, "You're marked with a " + "<col=ff3333>" + "PK skull" + "<col=ff981f>" + ". This reduces the items you keep from " + "three" + " to zero!" + "<br>" + "<br>" + "However, you also have the " + "<col=ff3333>" + "Protect Items" + "<col=ff981f>" + " prayer active, which saves you one extra item!");
+		} else if (arg2 == 3) {
+			str2 = concat(str2, "You have no factors affecting the items you keep.");
+		} else if (arg2 == 3 + 1) {
+			str2 = concat(str2, "You have the " + "<col=ff3333>" + "Protect Items" + "<col=ff981f>" + " prayer active, which saves you one extra item!");
+		}
+		if (int8 == 1 || int9 == 1) {
+			if (int8 == 1 && int9 == 1) {
+				str2 = concat(str2, "<br>" + "<br>" + "Items with a " + "<col=ffffff>" + "white outline" + "<col=ff981f>" + " will always be lost." + "<br>" + "<col=00ff00>" + "Bonds" + "</col>" + " are always protected.");
+			} else if (int8 == 1) {
+				str2 = concat(str2, "<br>" + "<br>" + "Items with a " + "<col=ffffff>" + "white outline" + "<col=ff981f>" + " will always be lost.");
+			} else {
+				str2 = concat(str2, "<br>" + "<br>" + "<col=00ff00>" + "Bonds" + "</col>" + " are always protected, so are not shown here.");
+			}
+		}
+		widget(4, 29).setText(str2);
+		widget(4, 30).setText("<col=ffcc33>" + "Max items kept on death :" + "<br>" + "<br>" + "<col=ffcc33>" + "~ " + arg2 + " ~");
+		if (arg3 > 0) {
+			widget(4, 17).setText("Items you will keep on death:");
+			widget(4, 20).setText("Items you will lose on death:");
+		} else {
+			widget(4, 17).setText("Items you will keep on death if not skulled:");
+			widget(4, 20).setText("Items you will lose on death if not skulled:");
+		}
+	} else {
+		widget(4, 21).setIsHidden(true);
+		widget(4, 18).setIsHidden(true);
+		widget(4, 31).setIsHidden(false);
+		widget(4, 32).setText(string1);
+		str2 = "The normal amount of items kept is " + "three" + "." + "<br>" + "<br>";
+		str2 = concat(str2, "You're in a " + "<col=ff3333>" + "safe area" + "<col=ff981f>" + ". See information to the left for a more detailed description.");
+		widget(4, 29).setText(str2);
+		widget(4, 30).setText("<col=ffcc33>" + "Max items kept on death :" + "<br>" + "<br>" + "<col=ffcc33>" + "All items!");
+	}
+	return;
+}

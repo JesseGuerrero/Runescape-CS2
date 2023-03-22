@@ -1,0 +1,38 @@
+//script5245(5245)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+if(if_getspriteid(if_gethash(1128, 4)) == 6007) {
+	iVar0 = iVar0 + 20
+	iVar1 = iVar1 + 20
+}
+if(if_getspriteid(if_gethash(1128, 106)) == 6007) {
+	iVar0 = iVar0 + 20
+	iVar1 = iVar1 + 20
+}
+if(if_getspriteid(if_gethash(1128, 144)) == 6007) {
+	iVar0 = iVar0 + 30
+	iVar1 = iVar1 + 20
+}
+if(if_getspriteid(if_gethash(1128, 181)) == 6007) {
+	iVar0 = iVar0 + 28
+	iVar1 = iVar1 + 20
+}
+if(if_getspriteid(if_gethash(1128, 218)) == 6007) {
+	iVar0 = iVar0 + 24
+	iVar1 = iVar1 + 20
+}
+if(if_getspriteid(if_gethash(1128, 255)) == 6007) {
+	iVar0 = iVar0 + 26
+	iVar1 = iVar1 + 20
+}
+if(if_getspriteid(if_gethash(1128, 292)) == 6007) {
+	iVar0 = iVar0 + 200
+	iVar1 = iVar1 + 200
+}
+if(load_varpbit(5505) < iVar0 || load_varpbit(5505) < iVar1)
+	if_setcolor(73924621, 0xFF0000)
+else
+	if_setcolor(73924621, 0xA88D65)
+return

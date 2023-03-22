@@ -1,0 +1,6 @@
+//script307(307)()(void)
+if(load_varpbit(6176) == 1)
+	instr6632(1, 950)
+else
+	instr6632(0, 950)
+return

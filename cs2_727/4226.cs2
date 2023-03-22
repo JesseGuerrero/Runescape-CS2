@@ -1,0 +1,7 @@
+//script4226(4226)(int arg0, int arg1, int arg2)(void)
+if(cc_find(arg0, if_gethash(1216, 3)) == 1)
+	if(cc_getspriteid() == -1)
+		if(client_clock() > arg2)
+			cc_setgraphic(arg1)
+script_3370(arg0, arg2)
+return

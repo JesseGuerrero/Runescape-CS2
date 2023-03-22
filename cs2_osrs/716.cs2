@@ -1,0 +1,18 @@
+void script_716(int arg0, int arg1) {
+	int int2;
+	int2 = script_56(arg1);
+	if (int2 == 2) {
+		CHILD.setRGB(0x0DC10D);
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 901389));
+	} else if (int2 == 0) {
+		CHILD.setRGB(0xFF0000);
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16711680));
+	} else {
+		CHILD.setRGB(0xFFFF00);
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16776960));
+	}
+	return;
+}

@@ -1,0 +1,28 @@
+//script6132(6132)()(void)
+int iVar0
+int iVar1
+if(load_varc(1892) == 0)
+	return
+store_varc(1892, load_varc(1892) - 1)
+if(load_varc(1892) == 0) {
+	if_sethide(if_gethash(1270, 35), 1)
+	return
+}
+if(load_varc(1893) == 0)
+	if_sethide(if_gethash(1270, 35), 0)
+if_setposition(if_gethash(1270, 35), 0, 0, load_varc(1890) - (if_getheight(if_gethash(1270, 35)) / 2), load_varc(1889) - (if_getwidth(if_gethash(1270, 35)) / 2))
+iVar0 = 9999
+if(if_gethide(if_gethash(1270, 122)) == 0)
+	iVar0 = min(iVar0, script_6133(load_varc(1889), load_varc(1890), load_varc(1894), load_varc(1895)))
+if(if_gethide(if_gethash(1270, 123)) == 0)
+	iVar0 = min(iVar0, script_6133(load_varc(1889), load_varc(1890), load_varc(1896), load_varc(1897)))
+if(if_gethide(if_gethash(1270, 124)) == 0)
+	iVar0 = min(iVar0, script_6133(load_varc(1889), load_varc(1890), load_varc(1898), load_varc(1899)))
+iVar1 = 4
+if(iVar0 < 400)
+	iVar1 = 12
+else
+	if(iVar0 < 1600)
+		iVar1 = 8
+instr6342(if_gethash(1270, 35), script_6134, "i", iVar1)
+return

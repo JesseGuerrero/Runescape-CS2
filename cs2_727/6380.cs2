@@ -1,0 +1,32 @@
+//script6380(6380)(int arg0)(int, int, int)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varpbit(11447) - 1, load_varc(1948), load_varc(1947)
+
+	case 1:
+		return load_varpbit(11448) - 1, load_varc(1950), load_varc(1949)
+
+	case 2:
+		return load_varpbit(11449) - 1, load_varc(1952), load_varc(1951)
+
+	case 3:
+		return load_varpbit(11450) - 1, load_varc(1954), load_varc(1953)
+
+	case 4:
+		return load_varpbit(11451) - 1, load_varc(1956), load_varc(1955)
+
+	case 5:
+		return load_varpbit(11452) - 1, load_varc(1958), load_varc(1957)
+
+	case 6:
+		return load_varpbit(11453) - 1, load_varc(1960), load_varc(1959)
+
+	case 7:
+		return load_varpbit(11454) - 1, load_varc(1962), load_varc(1961)
+		return -1, -1, -1
+
+
+}
+return 0, 0, -1

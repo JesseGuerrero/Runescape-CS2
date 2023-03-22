@@ -1,0 +1,58 @@
+int, int script_1064(int arg0) {
+	int int1;
+	int int2;
+	Item item3;
+	int int4;
+	Item item5;
+	if (arg0 == 5341) {
+		return getItemAmtInContainer(93, 5341), 5341;
+	}
+	if (arg0 == 5343) {
+		return getItemAmtInContainer(93, 5343), 5343;
+	}
+	if (arg0 == 952) {
+		return getItemAmtInContainer(93, 952), 952;
+	}
+	int1 = 0;
+	if (arg0 == 5329) {
+		int1 = getItemAmtInContainer(93, 7409);
+		if (int1 > 0) {
+			return int1 + getItemAmtInContainer(93, 5329), 7409;
+		}
+		return getItemAmtInContainer(93, 5329), 5329;
+	}
+	int2 = 0;
+	item3 = null;
+	int4 = 0;
+	item5 = null;
+	if (arg0 == 6797) {
+		int2 = 15;
+		while (int2 >= 0) {
+			item3 = datamap('i', 'O', 136, int2);
+			if (item3 != null) {
+				int4 = getItemAmtInContainer(93, item3);
+				if (int4 > 0) {
+					int1 = int1 + int4;
+					if (item5 == null) {
+						item5 = item3;
+					}
+				}
+			}
+			int2 = int2 - 1;
+		}
+		return int1, item5;
+	}
+	if (arg0 == 5325) {
+		return getItemAmtInContainer(93, 5325), 5325;
+	}
+	if (arg0 == 1925) {
+		return getItemAmtInContainer(93, 1925), 1925;
+	}
+	if (arg0 == 6032) {
+		return getItemAmtInContainer(93, 6032), 6032;
+	}
+	if (arg0 == 6034) {
+		return getItemAmtInContainer(93, 6034), 6034;
+	}
+	return 0, -1;
+}

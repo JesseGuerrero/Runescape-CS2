@@ -1,0 +1,12 @@
+void script_121(boolean arg0, Widget widget1) {
+	if (CHILD.setChild(widget1, 0) == true && _CHILD.setChild(widget1, 1) == true) {
+		if (arg0 == true) {
+			CHILD.setRGB(0xFFB82F);
+			_CHILD.setRGB(0xFFB82F);
+		} else {
+			CHILD.setRGB(0xFF981F);
+			_CHILD.setRGB(0xFF981F);
+		}
+	}
+	return;
+}

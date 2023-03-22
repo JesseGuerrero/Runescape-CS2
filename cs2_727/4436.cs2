@@ -1,0 +1,205 @@
+//script4436(4436)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+if(load_varc(1512) != 1)
+	store_varc(1512, 1)
+iVar2 = 72744974
+iVar3 = 72744975
+iVar4 = 72744977
+iVar5 = 72744978
+iVar6 = 72744988
+iVar7 = 72744979
+iVar8 = 72744986
+iVar9 = 72744990
+iVar10 = 72744976
+iVar11 = if_getwidth(iVar6)
+if(arg1 <= -1)
+	arg1 = if_getx(iVar6)
+arg1 = max(0, min(if_getwidth(iVar7) - iVar11, arg1))
+store_varc(1035, arg1)
+if_setposition(iVar6, 1, 0, 0, arg1)
+if(iVar24 == -1)
+	return if_setmouseovercursor(iVar6, 149)
+iVar25 = activeclanchannel_getuserrank(iVar24)
+iVar14 = activeclanchannel_getusercount()
+iVar12 = 0
+while(iVar12 < iVar14) {
+	iVar13 = iVar12 * iVar15
+	sVar2 = removetags(activeclanchannel_getuserdisplayname(iVar12))
+	iVar20 = activeclanchannel_getuserrank(iVar12)
+	cc_create(if_getnextsubid(iVar2), 4, iVar2)
+	cc_settextalign(0, 1, 0)
+	cc_setposition(0, 0, iVar13, 0)
+	cc_setsize(0, 0, iVar15, iVar22)
+	cc_setcolor(a4997d)
+	cc_settextfont(3793)
+	cc_settextshadow(1)
+	if(compare(removetags(instr6574()), sVar2) != 0) {
+		cc_setopbase(sVar2)
+		if(friend_test(sVar2) == 1) {
+			cc_setop("Message", 1)
+			cc_setop("Remove friend", 7)
+		} else 
+			if(ignore_test(sVar2) == 1)
+				cc_setop("Remove ignore", 8)
+			else {
+				cc_setop("Add friend", 5)
+				cc_setop("Add ignore", 6)
+			}
+		if(iVar25 >= 100)
+			cc_setop("Temp-ban", 9)
+		instr6687(script_4472, "sii", sVar2, -2147483644, iVar12)
+	}
+	sVar1 = "   " + sVar2
+	if(stringwidth(3793, sVar1) > iVar22) {
+		if(stringwidth(3793, sVar1 + "...") > iVar22)
+			while(string_length(sVar1) > 0)
+				sVar1 = substring(sVar1, string_length(sVar1) - 1, 0)
+		sVar1 = sVar1 + "..."
+		cc_setonmouseover(script_1594, "IIisii", if_gethash(1110, 124), -2147483645, -2147483643, sVar2, -2147483647, -2147483646)
+		instr6092(script_40, "I", if_gethash(1110, 124))
+	}
+	cc_settext(sVar1)
+	cc_settextshadow(1)
+	iVar17 = activeclanchannel_getuserworld(iVar12)
+	if(iVar17 >= 1100)
+		if(iVar17 < 5001) {
+			sVar3 = "Lobby"
+			sVar4 = "Lobby"
+			iVar18 = 0
+		} else 
+			if(iVar17 >= 5001)
+				if(iVar17 < 6000) {
+					sVar3 = "Classic " + to_string(iVar17 - 5000)
+					sVar4 = "Classic " + to_string(iVar17 - 5000)
+					iVar18 = 0
+				} else  {
+					sVar3 = to_string(iVar17)
+					sVar4 = "World " + to_string(iVar17)
+					iVar18 = (2 + 24) + 2
+				}
+	iVar19 = stringwidth(3793, sVar3)
+	cc_create(if_getnextsubid(iVar5), 5, iVar5)
+	if(iVar23 >= iVar19 + iVar18)
+		if(iVar18 > 0) {
+			if(iVar17 > 199)
+				cc_setgraphic(11435)
+			else
+				cc_setgraphic(11434)
+			cc_setsize(0, 0, 12, 24)
+			cc_setposition(0, 0, iVar13 + 1, 2)
+			cc_setonmouseover(script_1594, "IIisii", if_gethash(1110, 124), -2147483645, -2147483643, sVar4, -2147483647, -2147483646)
+			instr6092(script_40, "I", if_gethash(1110, 124))
+		}
+	else
+		iVar18 = 0
+	if(iVar23 >= iVar19)
+	else {
+		cc_setonmouseover(script_1594, "IIisii", if_gethash(1110, 124), -2147483645, -2147483643, sVar4, -2147483647, -2147483646)
+		instr6092(script_40, "I", if_gethash(1110, 124))
+		sVar3 = "..."
+	}
+	cc_create(if_getnextsubid(iVar4), 4, iVar4)
+	cc_setsize(0, 0, iVar15, iVar23)
+	cc_setposition(0, 0, iVar13, iVar18 + 2)
+	cc_settextfont(3793)
+	cc_settextshadow(1)
+	cc_settextalign(0, 1, 0)
+	cc_settext(sVar3)
+	if(iVar17 == world_id())
+		cc_setcolor(3cb71e)
+	else
+		cc_setcolor(ffff64)
+	cc_setonmouseover(script_1594, "IIisii", if_gethash(1110, 124), -2147483645, -2147483643, sVar4, -2147483647, -2147483646)
+	instr6092(script_40, "I", if_gethash(1110, 124))
+	cc_create(if_getnextsubid(iVar3), 5, iVar3)
+	if(iVar20 == 127) {
+		cc_setposition(0, 0, 3, 3)
+		cc_setsize(0, 0, 9, 9)
+	} else  {
+		cc_setposition(0, 0, 0, 0)
+		cc_setsize(0, 0, 15, 15)
+	}
+	cc_setgraphic(enum(3712, iVar20, 'i', 'd'))
+	cc_create(if_getnextsubid(iVar10), 5, iVar10)
+	cc_setposition(0, 2, 0, 0)
+	cc_setsize(0, 0, iVar15, 9)
+	cc_setgraphic(6032)
+	instr6687(script_4317, "Ii", -2147483645, -2147483643)
+	cc_setop("Show options", 1)
+	iVar12 = iVar12 + 1
+}
+iVar12 = 0
+iVar26 = 0
+while(iVar12 < iVar14) {
+	iVar26 = activeclanchannel_getsorteduserslot(iVar12)
+	if(cc_find(iVar26, iVar2) == 1)
+		if(compare("", cc_gettext()) != 0) {
+			iVar13 = iVar12 * iVar15
+			cc_setposition(0, 0, iVar13, cc_getx())
+			if(cc_find(iVar26, iVar3) == 1)
+				cc_setposition(0, 0, (cc_gety() + iVar13) + 3, cc_getx())
+			if(cc_find(iVar26, iVar4) == 1)
+				cc_setposition(0, 0, iVar13, cc_getx())
+			if(cc_find(iVar26, iVar5) == 1)
+				cc_setposition(0, 0, iVar13 + 5, cc_getx())
+			if(cc_find(iVar26, iVar10) == 1)
+				cc_setposition(0, 0, iVar13 + 2, cc_getx())
+		}
+	iVar12 = iVar12 + 1
+}
+iVar27 = 0
+iVar28 = -1
+if(load_varc(1518) >= 0) {
+	iVar28 = activeclanchannel_getuserslot(load_varc_string(126))
+	if(iVar28 >= 0) {
+		store_varc(1518, iVar28)
+		if(cc_find(load_varc(1518), iVar10) == 1) {
+			iVar27 = cc_gety()
+			if_setposition(if_gethash(1110, 20), 0, 2, iVar27, 0)
+			if_setposition(if_gethash(1110, 13), 0, 2, iVar27, 0)
+		}
+	} else  {
+		store_varc(1518, -1)
+		store_varc_string(126, "")
+		if_sethide(if_gethash(1110, 13), 0)
+		script_4628()
+	}
+}
+iVar29 = if_getscrolly(iVar8)
+if_setscrollsize(iVar8, iVar15 * max(iVar16, iVar14), if_getwidth(iVar8))
+iVar29 = min(if_getscrollheight(iVar8), iVar29)
+if_setscrollpos(iVar8, iVar29, 0)
+script_31(72744990, iVar8, 5666, 5663, 5664, 5665, 5686, 5685)
+return

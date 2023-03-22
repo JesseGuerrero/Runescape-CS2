@@ -1,0 +1,58 @@
+//script6418(6418)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+switch(arg0) {
+	case default:
+		break
+	case 85721111:
+		if(load_varpbit(4785) == 0)
+			return
+		iVar1 = 85721135
+		iVar2 = 85721136
+		iVar3 = load_varpbit(4785)
+		break
+	case 85721113:
+		if(load_varpbit(4783) == 0)
+			return
+		iVar1 = 85721453
+		iVar2 = 85721454
+		iVar3 = load_varpbit(4783)
+		break
+	case 85721115:
+		if(load_varpbit(4786) == 0)
+			return
+		iVar1 = 85721466
+		iVar2 = 85721467
+		iVar3 = load_varpbit(4786)
+		break
+	case 85721117:
+		if(load_varpbit(4787) == 0)
+			return
+		iVar1 = 85721479
+		iVar2 = 85721480
+		iVar3 = load_varpbit(4787)
+		break
+	case 85721119:
+		if(load_varpbit(7234) == 0)
+			return
+		iVar1 = 85721492
+		iVar2 = 85721493
+		iVar3 = load_varpbit(7234)
+		break
+	case 85721121:
+		if(load_varpbit(10241) == 0)
+			return
+		iVar1 = 85721505
+		iVar2 = 85721506
+		iVar3 = load_varpbit(10241)
+		break
+
+}
+if_settext(iVar1, enum(1563, iVar3, 'i', 's'))
+if_sethide(iVar2, 0)
+script_6410()
+return

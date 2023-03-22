@@ -1,0 +1,47 @@
+void script_1595(Widget widget0, string arg1, int arg2, int arg3) {
+	int int3;
+	string str1;
+	str1 = "";
+	if (arg2 == 1) {
+		str1 = arg1 + "<br>" + "1 ticket";
+	} else {
+		str1 = arg1 + "<br>" + script_46(arg2, ",") + " tickets";
+	}
+	widget0.clearChildren();
+	int3 = 0;
+	if (getItemAmtInContainer(93, 2996) < arg2) {
+		int3 = script_134(widget0);
+		CHILD.createChild(widget0, 4, int3);
+		CHILD.setPosition(0, 0, 1, 0);
+		CHILD.setSize(0, 25, 1, 0);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 2, 0);
+		CHILD.setRGB(0xFF0000);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str1);
+		widget0.hookOptionClick(null);
+	} else if (arg3 == 1) {
+		int3 = script_198(widget0);
+		CHILD.createChild(widget0, 4, int3);
+		CHILD.setPosition(0, 0, 1, 0);
+		CHILD.setSize(0, 25, 1, 0);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 2, 0);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str1);
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	} else {
+		int3 = script_208(widget0);
+		CHILD.createChild(widget0, 4, int3);
+		CHILD.setPosition(0, 0, 1, 0);
+		CHILD.setSize(0, 25, 1, 0);
+		CHILD.setFont(494);
+		CHILD.setTextAlignment(1, 2, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setText(str1);
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	}
+	return;
+}

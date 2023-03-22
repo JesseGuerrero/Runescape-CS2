@@ -1,0 +1,39 @@
+//script4358(4358)(int arg0)(void)
+if_sethide(if_gethash(1098, 244), 1)
+if_sethide(if_gethash(1098, 251), 1)
+if_sethide(if_gethash(1098, 258), 1)
+if_sethide(if_gethash(1098, 265), 1)
+if_sethide(if_gethash(1098, 272), 1)
+if_sethide(if_gethash(1098, 279), 1)
+if_sethide(if_gethash(1098, 286), 1)
+if_sethide(if_gethash(1098, 293), 1)
+switch(arg0) {
+	case default:
+		break
+	case 71958773:
+		if_sethide(if_gethash(1098, 244), 0)
+		break
+	case 71958780:
+		if_sethide(if_gethash(1098, 251), 0)
+		break
+	case 71958787:
+		if_sethide(if_gethash(1098, 258), 0)
+		break
+	case 71958794:
+		if_sethide(if_gethash(1098, 265), 0)
+		break
+	case 71958801:
+		if_sethide(if_gethash(1098, 272), 0)
+		break
+	case 71958808:
+		if_sethide(if_gethash(1098, 279), 0)
+		break
+	case 71958815:
+		if_sethide(if_gethash(1098, 286), 0)
+		break
+	case 71958822:
+		if_sethide(if_gethash(1098, 293), 0)
+		break
+
+}
+return

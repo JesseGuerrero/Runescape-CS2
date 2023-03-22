@@ -1,0 +1,11 @@
+//script2046(2046)(int arg0)(void)
+instr6342(arg0, script_2045, "IIiii", arg0, if_gethash(755, 28), 0, 0, 0)
+cc_deleteall(arg0)
+cc_deleteall(if_gethash(755, 36))
+cc_deleteall(if_gethash(755, 37))
+cc_deleteall(if_gethash(755, 38))
+cc_deleteall(if_gethash(755, 39))
+cc_deleteall(if_gethash(755, 40))
+cc_deleteall(if_gethash(755, 41))
+cc_deleteall(if_gethash(755, 42))
+return

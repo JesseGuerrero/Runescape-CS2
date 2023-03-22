@@ -1,0 +1,55 @@
+//script2138(2138)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar3 = load_varpbit(5861) + 95
+iVar4 = load_varpbit(5859) + 85
+iVar5 = load_varpbit(5855) + 29
+iVar6 = 0
+iVar7 = 0
+if(cc_find(arg1, arg0) == 1) {
+	if(arg2 < 150) {
+		arg2 = arg2 + 10
+		cc_settrans(arg2)
+		instr6556(script_2138, "Iii", -2147483645, -2147483643, arg2)
+	} else 
+		if(arg2 <= 225) {
+			arg2 = arg2 + 2
+			cc_settrans(arg2)
+			instr6556(script_2138, "Iii", -2147483645, -2147483643, arg2)
+		} else 
+			if(arg2 < 300) {
+				arg2 = arg2 + 2
+				cc_settrans(450 - arg2)
+				instr6556(script_2138, "Iii", -2147483645, -2147483643, arg2)
+			} else  {
+				arg2 = 150
+				cc_settrans(150)
+				instr6556(script_2138, "Iii", -2147483645, -2147483643, arg2)
+			}
+	iVar6 = scale(100, 255, cc_gettransparency())
+	iVar7 = iVar6 / 2
+	switch(load_varpbit(5863)) {
+		case default:
+			break
+		case 0:
+			iVar4 = iVar4 + iVar6
+			iVar3 = iVar3 + iVar7
+			break
+		case 1:
+			iVar5 = iVar5 + iVar6
+			iVar3 = iVar3 + iVar7
+			break
+		case 2:
+			iVar5 = iVar5 + iVar6
+			iVar4 = iVar4 + iVar7
+			iVar4 = iVar4 + iVar6
+			iVar5 = iVar5 + iVar7
+			break
+
+	}
+	cc_setcolor(0)
+}
+return

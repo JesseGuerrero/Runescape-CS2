@@ -1,0 +1,3 @@
+//script404(404)(int arg0)(void)
+if_settext(arg0, "Conquest Ranking: " + to_string(load_varp(1875)))
+return

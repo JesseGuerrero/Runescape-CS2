@@ -1,0 +1,6 @@
+//script5447(5447)(int arg0, int arg1)(void)
+if(load_varc(1682) == arg1)
+	if_setcolor(arg0, 0xFFFFFF)
+else
+	if_setcolor(arg0, 0xF5B241)
+return

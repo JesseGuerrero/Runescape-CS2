@@ -1,0 +1,7 @@
+void script_1730(int arg0, int arg1, int arg2) {
+	CHILD.setTrans(255);
+	CHILD.hookOptionClick(&script_1728(CTX_MENU_OPTION, (Category)arg0, CTX_WIDGET, CTX_WIDGET_CHILD));
+	CHILD.hookMouseHover(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 220, null));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 255, null));
+	return;
+}

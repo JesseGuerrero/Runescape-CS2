@@ -1,0 +1,48 @@
+//script2951(2951)()(void)
+int iVar0
+int iVar1
+store_varc(1882, 1)
+iVar0 = 39059468
+if(instr6710() == 1)
+	iVar0 = 63897603
+iVar1 = script_2948()
+if(iVar1 != -3)
+	if(iVar1 != 42)
+		if(iVar1 != 43) {
+			instr6342(iVar0, None, "")
+			return
+		}
+if(client_clock() < load_varc(1092))
+	return
+store_varc(1092, client_clock() + 5)
+switch(if_getspriteid(iVar0)) {
+	case default:
+		break
+	case 4107:
+		if_setgraphic(iVar0, 4108)
+		break
+	case 4108:
+		if_setgraphic(iVar0, 4109)
+		break
+	case 4109:
+		if_setgraphic(iVar0, 4110)
+		break
+	case 4110:
+		if_setgraphic(iVar0, 4111)
+		break
+	case 4111:
+		if_setgraphic(iVar0, 4112)
+		break
+	case 4112:
+		if_setgraphic(iVar0, 4113)
+		break
+	case 4113:
+		if_setgraphic(iVar0, 4114)
+		break
+	case 4114:
+		if_setgraphic(iVar0, 4107)
+		if_setgraphic(iVar0, 4107)
+		break
+
+}
+return

@@ -1,0 +1,76 @@
+void script_1235(Container container0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, int arg24, int arg25, int arg26, int arg27, int arg28) {
+	int int29;
+	string str0;
+	VARC[81] = arg1;
+	VARC[82] = arg2;
+	VARC[83] = arg3;
+	VARC[84] = arg4;
+	VARC[85] = arg5;
+	VARC[86] = arg6;
+	VARC[87] = arg7;
+	VARC[88] = arg8;
+	VARC[89] = arg9;
+	VARC[90] = arg10;
+	VARC[91] = arg11;
+	VARC[92] = arg12;
+	VARC[93] = arg13;
+	VARC[94] = arg14;
+	VARC[95] = arg15;
+	VARC[96] = arg16;
+	VARC[97] = arg17;
+	VARC[98] = arg18;
+	VARC[99] = arg19;
+	VARC[100] = arg20;
+	VARC[101] = arg21;
+	VARC[102] = arg22;
+	VARC[104] = arg23;
+	VARC[105] = arg24;
+	VARC[106] = arg25;
+	VARC[107] = arg26;
+	VARC[108] = arg27;
+	VARC[109] = arg28;
+	int29 = getItemContainerLength(container0);
+	ARRAY0 = new int[int29];
+	ARRAY0[0] = arg1;
+	ARRAY0[1] = arg2;
+	ARRAY0[2] = arg3;
+	ARRAY0[3] = arg4;
+	ARRAY0[4] = arg5;
+	ARRAY0[5] = arg6;
+	ARRAY0[6] = arg7;
+	ARRAY0[7] = arg8;
+	ARRAY0[8] = arg9;
+	ARRAY0[9] = arg10;
+	ARRAY0[10] = arg11;
+	ARRAY0[11] = arg12;
+	ARRAY0[12] = arg13;
+	ARRAY0[13] = arg14;
+	ARRAY0[14] = arg15;
+	ARRAY0[15] = arg16;
+	ARRAY0[16] = arg17;
+	ARRAY0[17] = arg18;
+	ARRAY0[18] = arg19;
+	ARRAY0[19] = arg20;
+	ARRAY0[20] = arg21;
+	ARRAY0[21] = arg22;
+	ARRAY0[22] = arg23;
+	ARRAY0[23] = arg24;
+	ARRAY0[24] = arg25;
+	ARRAY0[25] = arg26;
+	ARRAY0[26] = arg27;
+	ARRAY0[27] = arg28;
+	str0 = "Invalid item.";
+	while (int29 > 0) {
+		int29 = int29 - 1;
+		if (CHILD.setChild(widget(81, 5), int29) == true) {
+			if (container0 == 93 && ARRAY0[int29] <= -1 && getItemIdInSlot(93, int29) != null) {
+				CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(81, 7), str0, 25, 512));
+				CHILD.hookMouseExit(&script_40(widget(81, 7)));
+			} else {
+				script_1234(getItemAmtInSlot(container0, int29), ARRAY0[int29], 5308423);
+			}
+		}
+	}
+	script_41(widget(81, 7));
+	return;
+}

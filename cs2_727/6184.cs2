@@ -1,0 +1,104 @@
+//script6184(6184)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+iVar1 = enum(2162, load_varpbit(357), 'i', 'J')
+iVar2 = struct_param(654, iVar1)
+iVar3 = struct_param(655, iVar1)
+iVar4 = struct_param(660, iVar1) - 1
+iVar5 = 0
+iVar6 = -1
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = -1
+iVar11 = -1
+iVar12 = 0
+iVar13 = 83558404
+iVar14 = 83558405
+if(arg0 == 1) {
+	iVar13 = 83623940
+	iVar14 = 83623941
+}
+switch(load_varpbit(357)) {
+	case default:
+		break
+	case 0:
+		if(arg0 == 0) {
+			iVar6 = 5767
+			if_sethide(if_gethash(1275, 3), 0)
+			iVar11 = 83558403
+		} else  {
+			iVar6 = 5768
+			if_sethide(if_gethash(1276, 3), 0)
+			iVar11 = 83623939
+		}
+		break
+	case 1:
+		if(arg0 == 0) {
+			iVar6 = 5773
+			if_sethide(if_gethash(1275, 1), 0)
+			iVar11 = 83558401
+		} else  {
+			iVar6 = 5774
+			if_sethide(if_gethash(1276, 1), 0)
+			iVar11 = 83623937
+		}
+		break
+	case 2:
+		if(arg0 == 0) {
+			iVar6 = 5770
+			if_sethide(if_gethash(1275, 2), 0)
+			iVar11 = 83558402
+		} else  {
+			iVar6 = 5771
+			if_sethide(if_gethash(1276, 2), 0)
+			iVar11 = 83623938
+		}
+		return
+
+
+}
+iVar5 = enum_getoutputcount(iVar6)
+if(modulo(iVar4, iVar5) != 0)
+	iVar12 = 1
+if(iVar2 + (((iVar5 / iVar4) + iVar12) * (struct_param(656, iVar1) + struct_param(659, iVar1))) > if_getheight(iVar11)) {
+	iVar4 = iVar4 - 1
+	if(iVar5 / iVar4 != 0)
+		iVar12 = 1
+	if_setscrollsize(iVar11, iVar2 + (((iVar5 / iVar4) + iVar12) * (struct_param(656, iVar1) + struct_param(659, iVar1))), if_getwidth(iVar11))
+	if_setposition(iVar14, 0, 2, 5, 20)
+	script_31(iVar13, iVar11, 792, 789, 790, 791, 773, 788)
+}
+while(iVar7 < iVar5) {
+	iVar10 = enum(iVar6, iVar9, 'i', 'I')
+	if(iVar10 != -1) {
+		iVar7 = iVar7 + 1
+		if(world_members() == 1) {
+			iVar8 = iVar8 + 1
+			if_setposition(iVar10, 0, 0, iVar2, iVar3)
+			if_sethide(iVar10, 0)
+			iVar3 = (iVar3 + struct_param(657, iVar1)) + struct_param(658, iVar1)
+			if(modulo(iVar4, iVar8) == 0) {
+				iVar2 = (iVar2 + struct_param(656, iVar1)) + struct_param(659, iVar1)
+				iVar3 = struct_param(655, iVar1)
+			}
+		} else 
+			if_sethide(iVar10, 1)
+	}
+	iVar9 = iVar9 + 1
+	if(iVar9 > 997)
+		return
+}
+return

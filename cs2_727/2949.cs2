@@ -1,0 +1,10 @@
+//script2949(2949)(string arg0)(string)
+int iVar0
+iVar0 = string_length(arg0)
+arg0 = ""
+while(iVar0 > 0) {
+	arg0 = arg0 + "*"
+	iVar0 = iVar0 - 1
+}
+return arg0
+return ""

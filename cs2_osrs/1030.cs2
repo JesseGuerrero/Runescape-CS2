@@ -1,0 +1,126 @@
+void script_1030(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget arg7, Widget widget8, Widget arg9, Widget widget10, Widget arg11, Widget widget12, Widget arg13, Widget widget14, Widget arg15, Widget widget16, Widget arg17, Widget widget18, Widget arg19, Widget widget20, Widget arg21, Widget widget22) {
+	int int23;
+	int int24;
+	Widget widget25;
+	int int26;
+	int int27;
+	int int28;
+	int int29;
+	playSoundEffect(2266, 1, 0);
+	widget6.setIsHidden(true);
+	script_41(widget6);
+	script_1014(widget0);
+	widget3.setIsHidden(false);
+	int23 = widget0.getX();
+	int24 = widget0.getY();
+	widget25 = widget0.getLayer();
+	while (widget25 != widget2) {
+		int23, int24 = int23 + widget25.getX() - getScrollX(widget25), int24 + widget25.getY() - getScrollY(widget25);
+		widget25 = widget25.getLayer();
+	}
+	int24 = int24 + widget0.getHeight() - 1;
+	widget4.setPosition(int23, int24, 0, 0);
+	_CHILD.createChild(widget1, 3, 0);
+	_CHILD.setSize(0, 17, 1, 0);
+	_CHILD.setFilled(true);
+	_CHILD.setRGB(0xFFFFFF);
+	_CHILD.setTrans(200);
+	_CHILD.setHidden(true);
+	int26 = 0;
+	if (widget1 == widget8) {
+		widget8.setIsHidden(false);
+		widget10.setIsHidden(true);
+		widget12.setIsHidden(true);
+		widget14.setIsHidden(true);
+		widget16.setIsHidden(true);
+		widget18.setIsHidden(true);
+		widget20.setIsHidden(true);
+		widget22.setIsHidden(true);
+		int26 = script_1031(widget1, 1164, 3, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	} else if (widget1 == widget10) {
+		widget8.setIsHidden(true);
+		widget10.setIsHidden(false);
+		widget12.setIsHidden(true);
+		widget14.setIsHidden(true);
+		widget16.setIsHidden(true);
+		widget18.setIsHidden(true);
+		widget20.setIsHidden(true);
+		widget22.setIsHidden(true);
+		int26 = script_1031(widget1, 1165, 3, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	} else if (widget1 == widget12) {
+		widget8.setIsHidden(true);
+		widget10.setIsHidden(true);
+		widget12.setIsHidden(false);
+		widget14.setIsHidden(true);
+		widget16.setIsHidden(true);
+		widget18.setIsHidden(true);
+		widget20.setIsHidden(true);
+		widget22.setIsHidden(true);
+		int26 = script_1031(widget1, 1166, 4, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	} else if (widget1 == widget14) {
+		widget8.setIsHidden(true);
+		widget10.setIsHidden(true);
+		widget12.setIsHidden(true);
+		widget14.setIsHidden(false);
+		widget16.setIsHidden(true);
+		widget18.setIsHidden(true);
+		widget20.setIsHidden(true);
+		widget22.setIsHidden(true);
+		int26 = script_1032(widget1, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	} else if (widget1 == widget16) {
+		widget8.setIsHidden(true);
+		widget10.setIsHidden(true);
+		widget12.setIsHidden(true);
+		widget14.setIsHidden(true);
+		widget16.setIsHidden(false);
+		widget18.setIsHidden(true);
+		widget20.setIsHidden(true);
+		widget22.setIsHidden(true);
+		int26 = script_1032(widget1, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	} else if (widget1 == widget18) {
+		widget8.setIsHidden(true);
+		widget10.setIsHidden(true);
+		widget12.setIsHidden(true);
+		widget14.setIsHidden(true);
+		widget16.setIsHidden(true);
+		widget18.setIsHidden(false);
+		widget20.setIsHidden(true);
+		widget22.setIsHidden(true);
+		int26 = script_1031(widget1, 1168, 8, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	} else if (widget1 == widget20) {
+		widget8.setIsHidden(true);
+		widget10.setIsHidden(true);
+		widget12.setIsHidden(true);
+		widget14.setIsHidden(true);
+		widget16.setIsHidden(true);
+		widget18.setIsHidden(true);
+		widget20.setIsHidden(false);
+		widget22.setIsHidden(true);
+		int26 = script_1031(widget1, 1170, 2, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	} else if (widget1 == widget22) {
+		widget8.setIsHidden(true);
+		widget10.setIsHidden(true);
+		widget12.setIsHidden(true);
+		widget14.setIsHidden(true);
+		widget16.setIsHidden(true);
+		widget18.setIsHidden(true);
+		widget20.setIsHidden(true);
+		widget22.setIsHidden(false);
+		int26 = script_1031(widget1, 1140, 3, widget3, widget6, arg7, widget8, arg9, widget10, arg11, widget12, arg13, widget14, arg15, widget16, arg17, widget18, arg19, widget20, arg21, widget22);
+	}
+	int27 = int26 * 15 + 2;
+	int28 = int27 + 4;
+	int29 = widget2.getHeight() - int24;
+	if (int28 > int29) {
+		widget4.setSize(widget0.getWidth(), int29, 0, 0);
+		widget1.setScrollPos(0, 0);
+		widget1.setScrollMax(0, int27);
+	} else {
+		widget4.setSize(widget0.getWidth(), int28, 0, 0);
+		widget1.setScrollPos(0, 0);
+		widget1.setScrollMax(0, 0);
+	}
+	widget5.clearChildren();
+	script_31(widget5, widget1, 792, 789, 790, 791, 773, 788);
+	return;
+}

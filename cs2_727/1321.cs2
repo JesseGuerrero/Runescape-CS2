@@ -1,0 +1,6 @@
+//script1321(1321)(int arg0, int arg1)(void)
+if(arg1 == 1)
+	if_setgraphic(arg0, 181)
+else
+	if_setgraphic(arg0, 180)
+return

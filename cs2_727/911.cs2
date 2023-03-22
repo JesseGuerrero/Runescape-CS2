@@ -1,0 +1,12 @@
+//script911(911)()(void)
+if(load_varpbit(4532) == 1)
+	if(load_varc(118) < 253) {
+		store_varc(118, load_varc(118) + 3)
+		if_settrans(if_gethash(721, 3), 255 - load_varc(118))
+	} else 
+		if(load_varpbit(4532) == 0)
+			if(load_varc(118) > 3) {
+				store_varc(118, load_varc(118) - 3)
+				if_settrans(if_gethash(721, 3), 255 - load_varc(118))
+			}
+return

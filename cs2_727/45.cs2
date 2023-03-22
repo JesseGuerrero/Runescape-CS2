@@ -1,0 +1,3 @@
+//script45(45)(int arg0, int arg1)(void)
+if_setcolor(arg0, arg1)
+return

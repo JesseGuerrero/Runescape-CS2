@@ -1,0 +1,24 @@
+//script487(487)()(void)
+if_setgraphic(if_gethash(1015, 95), 3263)
+if_setgraphic(if_gethash(1015, 89), 3263)
+if_setgraphic(if_gethash(1015, 83), 3263)
+if_setgraphic(if_gethash(1015, 77), 3263)
+switch(load_varpbit(7515)) {
+	case default:
+		return
+
+	case 1:
+		if_setgraphic(if_gethash(1015, 95), 3265)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1015, 89), 3265)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1015, 83), 3265)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1015, 77), 3265)
+		break
+
+}
+return

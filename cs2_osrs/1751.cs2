@@ -1,0 +1,6 @@
+void script_1751(Widget widget0, Widget widget1) {
+	widget0.hookFrame(&script_1750(widget0, widget1, -1, -1, -1, -1, null));
+	widget0.clearChildren();
+	widget1.clearChildren();
+	return;
+}

@@ -1,0 +1,7 @@
+//script1508(1508)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+base_color(arg1, 3)
+store_varc(1018, arg1)
+script_1506()
+return

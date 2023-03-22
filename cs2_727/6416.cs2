@@ -1,0 +1,6 @@
+//script6416(6416)()(void)
+if(if_getspriteid(if_gethash(1308, 140)) == 8352)
+	if_settext(if_gethash(1308, 342), to_string(load_varpbit(11473)))
+else
+	if_settext(if_gethash(1308, 342), to_string(load_varpbit(4781)))
+return

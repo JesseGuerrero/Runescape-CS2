@@ -1,0 +1,25 @@
+//script3008(3008)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar7 = 4677
+iVar8 = 4678
+iVar9 = 4679
+iVar10 = 4680
+if_setsize(arg1, 0, 0, 30, 13)
+if_setgraphic(arg1, iVar7)
+if_setsize(arg2, 0, 1, 30, 26)
+if_setgraphic(arg2, iVar8)
+if_setsize(arg3, 0, 0, 30, 13)
+if_setgraphic(arg3, iVar10)
+if_setgraphic(arg5, 2670)
+if_setsize(arg6, 0, 0, 30, 13)
+if_setgraphic(arg6, iVar9)
+hook_mouse_exit(arg0, script_4164, "IdIdIdId", arg1, iVar7, arg2, iVar8, arg6, iVar9, arg3, iVar10)
+iVar7 = 4673
+iVar8 = 4674
+iVar9 = 4675
+iVar10 = 4676
+hook_mouse_enter(arg0, script_4164, "IdIdIdId", arg1, iVar7, arg2, iVar8, arg6, iVar9, arg3, iVar10)
+return

@@ -1,0 +1,4 @@
+//script5289(5289)()(void)
+sound_vorbis_rate(random_sound_pitch(20, 20), 200, 0, 1, 7557)
+script_675()
+return

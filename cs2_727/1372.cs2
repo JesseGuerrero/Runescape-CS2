@@ -1,0 +1,4 @@
+//script1372(1372)()(void)
+instr6607(load_varc(172))
+if_settext(if_gethash(755, 14), to_string(load_varc(172)) + "%")
+return

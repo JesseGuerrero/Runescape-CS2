@@ -1,0 +1,7 @@
+//script2152(2152)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+iVar2 = enum(169, arg0, 'i', 'J')
+iVar3 = enum(struct_param(61, iVar2), arg1, 'i', 'J')
+return script_2153(iVar3)
+return -1

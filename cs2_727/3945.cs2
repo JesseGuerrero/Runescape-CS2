@@ -1,0 +1,55 @@
+//script3945(3945)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+if(arg2 == 1)
+	store_varc(1412, 1)
+switch(arg0) {
+	case default:
+		if(arg2 == 1)
+			resume_stringdialog(load_varc_string(330))
+		break
+	case 1:
+		if(arg2 == 1)
+			resume_stringdialog(load_varc_string(331))
+		store_varc_string(330, load_varc_string(331))
+		break
+	case 2:
+		if(arg2 == 1)
+			resume_stringdialog(load_varc_string(332))
+		store_varc_string(330, load_varc_string(332))
+		break
+	case 3:
+		if(arg2 == 1)
+			resume_stringdialog(load_varc_string(333))
+		store_varc_string(330, load_varc_string(333))
+		break
+	case 4:
+		if(arg2 == 1)
+			resume_stringdialog(load_varc_string(334))
+		store_varc_string(330, load_varc_string(334))
+		break
+	case 5:
+		if(arg2 == 1)
+			resume_stringdialog(load_varc_string(335))
+		store_varc_string(330, load_varc_string(335))
+		break
+	case 6:
+		if(arg2 == 1)
+			resume_stringdialog(load_varc_string(336))
+		store_varc_string(330, load_varc_string(336))
+		break
+
+}
+iVar3 = 67371197
+iVar4 = 67371198
+iVar5 = 67371199
+if(arg1 == 0) {
+	iVar3 = 58327084
+	iVar4 = 58327085
+	iVar5 = 58327086
+}
+if_settext(iVar4, load_varc_string(330))
+store_varc(1099, string_length(load_varc_string(330)))
+script_3218(iVar3, iVar4, iVar5, 16, load_varc_string(330))
+return

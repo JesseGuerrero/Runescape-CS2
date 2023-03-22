@@ -1,0 +1,96 @@
+//script324(324)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar3 = min(500, load_varpbit(2375))
+if_setsize(arg0, 2, 1, scale(16384, 500, 500 - iVar3), 0)
+iVar4 = 164 + scale(91, 500, iVar3)
+iVar5 = 164 - scale(164, 500, iVar3)
+iVar6 = 41 - scale(41, 500, iVar3)
+iVar7 = script_693(iVar4, iVar5, iVar6)
+if_setcolor(arg0, iVar7)
+if_setcolor(arg1, iVar7)
+switch(scale(25, 500, iVar3 + 5)) {
+	case default:
+		break
+	case 0:
+		if_setmodel(arg2, 16353)
+		break
+	case 1:
+		if_setmodel(arg2, 16354)
+		break
+	case 2:
+		if_setmodel(arg2, 16355)
+		break
+	case 3:
+		if_setmodel(arg2, 16356)
+		break
+	case 4:
+		if_setmodel(arg2, 16357)
+		break
+	case 5:
+		if_setmodel(arg2, 16358)
+		break
+	case 6:
+		if_setmodel(arg2, 16359)
+		break
+	case 7:
+		if_setmodel(arg2, 16360)
+		break
+	case 8:
+		if_setmodel(arg2, 16361)
+		break
+	case 9:
+		if_setmodel(arg2, 16362)
+		break
+	case 10:
+		if_setmodel(arg2, 16363)
+		break
+	case 11:
+		if_setmodel(arg2, 16364)
+		break
+	case 12:
+		if_setmodel(arg2, 16365)
+		break
+	case 13:
+		if_setmodel(arg2, 16366)
+		break
+	case 14:
+		if_setmodel(arg2, 16367)
+		break
+	case 15:
+		if_setmodel(arg2, 16368)
+		break
+	case 16:
+		if_setmodel(arg2, 16369)
+		break
+	case 17:
+		if_setmodel(arg2, 16370)
+		break
+	case 18:
+		if_setmodel(arg2, 16371)
+		break
+	case 19:
+		if_setmodel(arg2, 16372)
+		break
+	case 20:
+		if_setmodel(arg2, 16373)
+		break
+	case 21:
+		if_setmodel(arg2, 16374)
+		break
+	case 22:
+		if_setmodel(arg2, 16375)
+		break
+	case 23:
+		if_setmodel(arg2, 16376)
+		break
+	case 24:
+		if_setmodel(arg2, 16377)
+		if_setmodel(arg2, 16378)
+		break
+
+}
+return

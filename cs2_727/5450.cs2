@@ -1,0 +1,4 @@
+//script5450(5450)(int arg0, int arg1)(void)
+if(load_varc(1681) != arg1)
+	if_setgraphic(arg0, 8430)
+return

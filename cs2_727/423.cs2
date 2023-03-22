@@ -1,0 +1,7 @@
+//script423(423)()(void)
+if(load_varc(1353) != -1)
+	instr6627(load_varc(1353))
+else
+	if(load_varc(1354) != -1)
+		instr6627(load_varc(1354))
+return

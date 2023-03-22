@@ -1,0 +1,3 @@
+//script900(900)()(void)
+if_sethide(if_gethash(717, 35), 1)
+return

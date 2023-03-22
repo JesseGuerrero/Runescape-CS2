@@ -1,0 +1,10 @@
+//script2001(2001)(int arg0)(string)
+int iVar1
+int iVar2
+iVar1 = load_varc(1878)
+iVar2 = iVar1 / 1000
+iVar1 = iVar1 - (iVar2 * 1000)
+if(iVar1 < 0)
+	iVar1 = 0 - iVar1
+return to_string(iVar2) + "." + to_string(iVar1 / 100) + "kg"
+return ""

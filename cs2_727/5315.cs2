@@ -1,0 +1,71 @@
+//script5315(5315)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar5 = 0
+iVar6 = 15
+iVar7 = enum_getoutputcount(5177)
+iVar8 = enum_getoutputcount(5176)
+iVar9 = 0
+iVar10 = -1
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+cc_deleteall(arg4)
+while(iVar5 < 40) {
+	iVar9 = script_5319(iVar5) - 1
+	cc_create(iVar5, 3, arg1)
+	cc_setsize(0, 0, iVar6, if_getwidth(arg0))
+	cc_setposition(0, 0, iVar5 * iVar6, 0)
+	if(modulo(2, iVar5) == 0)
+		cc_setcolor(222222)
+	else
+		cc_setcolor(111111)
+	cc_setfill(1)
+	cc_create(iVar5, 5, arg3)
+	cc_setgraphic(7712)
+	cc_setop("Play", 1)
+	cc_setsize(0, 0, 13, 12)
+	cc_setposition(0, 0, 1 + (iVar5 * iVar6), 138)
+	iVar10 = 7713
+	instr6091(script_5336, "Iid", -2147483645, -2147483643, iVar10)
+	iVar10 = 7712
+	instr6092(script_5336, "Iid", -2147483645, -2147483643, iVar10)
+	if(iVar9 < 0)
+		cc_sethide(1)
+	cc_create(iVar5, 5, arg4)
+	cc_setgraphic(7718)
+	cc_setop("Remove", 1)
+	cc_setsize(0, 0, 13, 12)
+	cc_setposition(0, 0, 1 + (iVar5 * iVar6), 151)
+	iVar10 = 7719
+	instr6091(script_5336, "Iid", -2147483645, -2147483643, iVar10)
+	iVar10 = 7718
+	instr6092(script_5336, "Iid", -2147483645, -2147483643, iVar10)
+	if(iVar9 < 0)
+		cc_sethide(1)
+	cc_create(iVar5, 4, arg2)
+	cc_settextfont(494)
+	cc_setposition(0, 0, iVar5 * iVar6, 2)
+	cc_setsize(0, 0, 15, if_getwidth(arg0) - 24)
+	cc_setcolor(dddddd)
+	cc_settextalign(0, 1, 0)
+	cc_settextshadow(0)
+	if(iVar9 >= 0)
+		cc_settext(enum(5177, iVar9, 'i', 's'))
+	else
+		cc_settext("")
+	instr6676(-1, arg2)
+	instr6073(1)
+	instr6443(3)
+	instr6075(20)
+	instr6499(script_5316, "Iii", -2147483645, -2147483643, -2147483641)
+	iVar5 = iVar5 + 1
+}
+if_setscrollpos(arg0, 0, 0)
+if_setscrollsize(arg0, 2 + (iVar5 * iVar6), 0)
+script_31(20905993, arg0, 792, 789, 790, 791, 773, 788)
+return

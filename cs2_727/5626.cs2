@@ -1,0 +1,3 @@
+//script5626(5626)(int arg0)(void)
+if_setmodelanim(arg0, 15701)
+return

@@ -1,0 +1,6 @@
+//script2941(2941)()(void)
+instr6256(if_gethash(744, 26), None, "")
+store_varc_string(33, "")
+store_varc(1099, 0)
+instr6694()
+return

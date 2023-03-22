@@ -1,0 +1,15 @@
+//script1512(1512)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+switch(arg1) {
+	case default:
+		break
+	case 2:
+		if(script_361(load_varc(1010), 3) != -1)
+			return
+		break
+
+}
+store_varc(778, arg1)
+script_1513()
+return

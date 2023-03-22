@@ -1,0 +1,9 @@
+//script1424(1424)()(void)
+if(load_varpbit(4456) == 0) {
+	if_setcolor(327683, 0x2300)
+	if_setcolor(327682, 0xFF0000)
+} else  {
+	if_setcolor(327683, 0xFF00)
+	if_setcolor(327682, 0x230000)
+}
+return

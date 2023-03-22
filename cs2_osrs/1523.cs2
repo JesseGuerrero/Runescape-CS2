@@ -1,0 +1,16 @@
+void script_1523() {
+	widget(507, 26).setIsHidden(true);
+	widget(507, 26).clearChildren();
+	widget(507, 26).hookMousePress(null);
+	script_41(widget(507, 33));
+	widget(507, 25).setIsHidden(false);
+	widget(507, 25).clearChildren();
+	CHILD.createChild(widget(507, 25), 6, 0);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setModel(4612);
+	CHILD.set3DRotation(0, 190, 0, 0, 0, 2500);
+	CHILD.setAnimation(7385);
+	CHILD.hookFrame(&script_139(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle() + 520));
+	return;
+}

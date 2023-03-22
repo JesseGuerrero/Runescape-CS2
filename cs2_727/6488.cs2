@@ -1,0 +1,296 @@
+//script6488(6488)(int arg0)(int)
+switch(arg0) {
+	case default:
+		return 1
+
+	case 11113:
+		return load_varpbit(11560)
+
+	case 11114:
+		return load_varpbit(11561)
+
+	case 11115:
+		return load_varpbit(11562)
+
+	case 11116:
+		return load_varpbit(11563)
+
+	case 11117:
+		return load_varpbit(11564)
+
+	case 11118:
+		return load_varpbit(11565)
+
+	case 11119:
+		return load_varpbit(11566)
+
+	case 11120:
+		return load_varpbit(11567)
+
+	case 11121:
+		return load_varpbit(11568)
+
+	case 11122:
+		return load_varpbit(11569)
+
+	case 11123:
+		return load_varpbit(11570)
+
+	case 11124:
+		return load_varpbit(11571)
+
+	case 11125:
+		return load_varpbit(11572)
+
+	case 11126:
+		return load_varpbit(11573)
+
+	case 11127:
+		return load_varpbit(11574)
+
+	case 11128:
+		return load_varpbit(11575)
+
+	case 11129:
+		return load_varpbit(11576)
+
+	case 11130:
+		return load_varpbit(11577)
+
+	case 11131:
+		return load_varpbit(11578)
+
+	case 11132:
+		return load_varpbit(11579)
+
+	case 11133:
+		return load_varpbit(11580)
+
+	case 11134:
+		return load_varpbit(11581)
+
+	case 11135:
+		return load_varpbit(11582)
+
+	case 11136:
+		return load_varpbit(11583)
+
+	case 11137:
+		return load_varpbit(11584)
+
+	case 11138:
+		return load_varpbit(11585)
+
+	case 11139:
+		return load_varpbit(11586)
+
+	case 11140:
+		return load_varpbit(11587)
+
+	case 11141:
+		return load_varpbit(11588)
+
+	case 11142:
+		return load_varpbit(11589)
+
+	case 11143:
+		return load_varpbit(11590)
+
+	case 11144:
+		return load_varpbit(11591)
+
+	case 11145:
+		return load_varpbit(11592)
+
+	case 11146:
+		return load_varpbit(11593)
+
+	case 11147:
+		return load_varpbit(11594)
+
+	case 11148:
+		return load_varpbit(11595)
+
+	case 11149:
+		return load_varpbit(11596)
+
+	case 11150:
+		return load_varpbit(11597)
+
+	case 11151:
+		return load_varpbit(11598)
+
+	case 11152:
+		return load_varpbit(11599)
+
+	case 11153:
+		return load_varpbit(11600)
+
+	case 11154:
+		return load_varpbit(11601)
+
+	case 11080:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11081:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11082:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11083:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11084:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11085:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11086:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11087:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11088:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11089:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11090:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11091:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11092:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11093:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11094:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11095:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11096:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11097:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11098:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11099:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11100:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11101:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11102:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11103:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11104:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11105:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11106:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11107:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11108:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11109:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11110:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11111:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11112:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11155:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11156:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11157:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11158:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11159:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11160:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11161:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11162:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11163:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11164:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11165:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11166:
+		return script_2476(struct_param(2543, arg0))
+
+	case 11167:
+		return load_varpbit(11615)
+
+	case 11168:
+		return load_varpbit(11617)
+
+	case 11169:
+		return load_varpbit(11619)
+
+	case 11170:
+		return load_varpbit(11621)
+
+	case 11171:
+		return load_varpbit(11623)
+
+	case 11172:
+		return load_varpbit(11625)
+
+	case 11173:
+		return load_varpbit(11627)
+
+	case 11174:
+		return load_varpbit(11629)
+
+	case 11175:
+		return load_varpbit(11631)
+
+
+}
+return 0

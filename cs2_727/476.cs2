@@ -1,0 +1,4 @@
+//script476(476)()(void)
+if_setsize(if_gethash(1011, 386), 0, 0, (paramheight(if_gettext(if_gethash(1011, 387)), 494, if_getwidth(if_gethash(1011, 386)) - 10) * 10) + 10, if_getwidth(if_gethash(1011, 386)))
+if_sethide(if_gethash(1011, 386), 1)
+return

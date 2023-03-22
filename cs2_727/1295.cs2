@@ -1,0 +1,7 @@
+//script1295(1295)()(void)
+if_setcolor(9437331, 0xFF0000)
+hook_mouse_exit(if_gethash(144, 147), script_45, "Ii", -2147483645, 16711680)
+if_sethide(if_gethash(144, 186), 1)
+if_setmodel(if_gethash(144, 187), 4910)
+if_setmodelanim(if_gethash(144, 187), 1453)
+return

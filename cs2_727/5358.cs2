@@ -1,0 +1,47 @@
+//script5358(5358)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		arg0 = 1
+		break
+	case 1:
+		arg0 = 4
+		break
+	case 2:
+		arg0 = 7
+		break
+	case 3:
+		arg0 = 10
+		break
+	case 4:
+		arg0 = 13
+		return
+
+
+}
+if(cc_find(1, arg1) == 1) {
+	cc_setgraphic(7766)
+	instr6092(script_5357, "iI", 1, arg1)
+}
+if(cc_find(4, arg1) == 1) {
+	cc_setgraphic(7766)
+	instr6092(script_5357, "iI", 4, arg1)
+}
+if(cc_find(7, arg1) == 1) {
+	cc_setgraphic(7766)
+	instr6092(script_5357, "iI", 7, arg1)
+}
+if(cc_find(10, arg1) == 1) {
+	cc_setgraphic(7766)
+	instr6092(script_5357, "iI", 10, arg1)
+}
+if(cc_find(13, arg1) == 1) {
+	cc_setgraphic(7766)
+	instr6092(script_5357, "iI", 13, arg1)
+}
+if(cc_find(arg0, arg1) == 1) {
+	cc_setgraphic(7767)
+	instr6092(None, "")
+}
+return

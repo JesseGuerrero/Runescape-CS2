@@ -1,0 +1,9 @@
+//script2070(2070)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg0 != 1)
+	return
+if(arg1 >= load_varc(657) || arg1 < 0)
+	return
+store_varc(656, arg1)
+sound_vorbis_volume(100, 0, 1, 3550)
+script_1439(arg2, arg3, arg4)
+return

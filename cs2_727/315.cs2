@@ -1,0 +1,20 @@
+//script315(315)()(void)
+int iVar0
+iVar0 = -1
+if(load_varpbit(8093) != load_varc(196) || load_varc(197) != load_varpbit(8089)) {
+	iVar0 = script_734(load_varpbit(8093))
+	store_varc(196, load_varpbit(8093))
+	store_varc(197, load_varpbit(8089))
+	script_387(iVar0)
+	store_varc(86, load_varpbit(8090))
+	script_390(iVar0)
+} else 
+	if(load_varc(86) != load_varpbit(8090)) {
+		store_varc(86, load_varpbit(8090))
+		script_390(script_734(load_varc(196)))
+	}
+if(load_varc(1020) != load_varpbit(6501)) {
+	store_varc(1020, load_varpbit(6501))
+	script_391()
+}
+return

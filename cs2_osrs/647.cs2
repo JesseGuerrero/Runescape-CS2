@@ -1,0 +1,65 @@
+void script_647(string string0) {
+	int int0;
+	int int1;
+	int int2;
+	Item item3;
+	int int4;
+	int int5;
+	int int6;
+	string str1;
+	widget(210, 3).clearChildren();
+	widget(210, 4).clearChildren();
+	int0 = 0;
+	int1 = (40 - 32) / 2;
+	int2 = 0;
+	item3 = null;
+	while (int2 <= 36) {
+		CHILD.createChild(widget(210, 3), 5, int0);
+		int0 = int0 + 1;
+		CHILD.setSize(36, 32, 0, 0);
+		CHILD.setPosition(5, int2 * 40 + int1, 0, 0);
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		item3 = datamap('i', 'O', 985, int2);
+		if (item3 != null) {
+			CHILD.setItem(item3, 1);
+			CHILD.setContextMenuOption(10, "Examine");
+			CHILD.setOptionBase("<col=ff9040>" + getItemName(item3) + "</col>");
+		}
+		int2 = int2 + 1;
+	}
+	str1 = "";
+	int4 = widget(210, 3).getWidth();
+	int5 = int4 - (36 + 10);
+	int2 = 0;
+	while (int2 <= 36) {
+		CHILD.createChild(widget(210, 3), 4, int0);
+		int0 = int0 + 1;
+		CHILD.setSize(int5, 40, 0, 0);
+		CHILD.setPosition(36 + 5, int2 * 40, 0, 0);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setFont(495);
+		str1, string0 = script_632(string0);
+		CHILD.setText(str1);
+		if (int2 < 36) {
+			CHILD.createChild(widget(210, 3), 5, int0);
+			int0 = int0 + 1;
+			CHILD.setSprite(297);
+			CHILD.setSpriteTiling(true);
+			CHILD.setSize(int4, 1, 0, 0);
+			CHILD.setPosition(0, int2 * 40 + 39, 0, 0);
+		}
+		int2 = int2 + 1;
+	}
+	int6 = 40 * (36 + 1);
+	if (int6 > widget(210, 3).getHeight()) {
+		widget(210, 3).setScrollMax(0, int6);
+	} else {
+		widget(210, 3).setScrollMax(0, 0);
+	}
+	widget(210, 3).setScrollPos(0, 0);
+	script_31(widget(210, 4), widget(210, 3), 792, 789, 790, 791, 773, 788);
+	return;
+}

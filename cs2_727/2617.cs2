@@ -1,0 +1,27 @@
+//script2617(2617)()(int)
+int iVar0
+iVar0 = cam_getangley()
+if(iVar0 < 128 || iVar0 >= 1920)
+	return 0
+if(iVar0 < 384)
+	if(iVar0 >= 128)
+		return 7
+if(iVar0 >= 384)
+	if(iVar0 < 650)
+		return 6
+if(iVar0 < 896)
+	if(iVar0 >= 650)
+		return 5
+if(iVar0 >= 896)
+	if(iVar0 < 1152)
+		return 4
+if(iVar0 < 1408)
+	if(iVar0 >= 1152)
+		return 3
+if(iVar0 >= 1408)
+	if(iVar0 < 1664)
+		return 2
+if(iVar0 < 1920)
+	if(iVar0 >= 1664)
+		return 1
+return 0

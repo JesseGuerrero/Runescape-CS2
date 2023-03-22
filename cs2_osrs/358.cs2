@@ -1,0 +1,40 @@
+void script_358(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	if (arg0 == 4) {
+		widget1.setSprite(687);
+		widget2.setSprite(693);
+		widget3.setSprite(694);
+		widget4.setSprite(695);
+		widget5.setSprite(696);
+	} else if (arg0 == 3) {
+		widget1.setSprite(692);
+		widget2.setSprite(688);
+		widget3.setSprite(694);
+		widget4.setSprite(695);
+		widget5.setSprite(696);
+	} else if (arg0 == 2) {
+		widget1.setSprite(692);
+		widget2.setSprite(693);
+		widget3.setSprite(689);
+		widget4.setSprite(695);
+		widget5.setSprite(696);
+	} else if (arg0 == 1) {
+		widget1.setSprite(692);
+		widget2.setSprite(693);
+		widget3.setSprite(694);
+		widget4.setSprite(690);
+		widget5.setSprite(696);
+	} else if (arg0 == 0) {
+		widget1.setSprite(692);
+		widget2.setSprite(693);
+		widget3.setSprite(694);
+		widget4.setSprite(695);
+		widget5.setSprite(691);
+	} else {
+		widget1.setSprite(692);
+		widget2.setSprite(693);
+		widget3.setSprite(694);
+		widget4.setSprite(695);
+		widget5.setSprite(696);
+	}
+	return;
+}

@@ -1,0 +1,146 @@
+//script1212(1212)(int arg0, int arg1, string arg2)(void)
+int iVar2
+cc_deleteall(if_gethash(746, 46))
+cc_deleteall(if_gethash(1177, 0))
+iVar2 = 0
+cc_create(iVar2, 5, 48889902)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(1, 1, 22, 20)
+cc_settiling(1)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(1, 0, 22, 10)
+cc_setposition(1, 0, 0, 0)
+cc_settiling(1)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(1, 0, 22, 10)
+cc_setposition(1, 2, 0, 0)
+cc_settiling(1)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(0, 1, 11, 20)
+cc_setposition(0, 1, 0, 0)
+cc_settiling(1)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(0, 1, 11, 20)
+cc_setposition(2, 1, 0, 0)
+cc_settiling(1)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(0, 2, 0, 0)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(0, 0, 0, 0)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(2, 0, 0, 0)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 5, 48889902)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(2, 2, 0, 0)
+iVar2 = iVar2 + 1
+cc_create(iVar2, 4, 48889902)
+cc_setsize(1, 1, 20, 22)
+cc_setposition(1, 1, 0, 0)
+cc_settextfont(496)
+cc_setcolor(ebe0bc)
+cc_settextalign(15, 1, 1)
+cc_settextshadow(0)
+cc_settext(arg0)
+iVar2 = iVar2 + 1
+iVar2 = 0
+while(iVar2 < 9)
+	if(load_varc(1700) == -1 || load_varc(1700) == 0) {
+		switch(iVar2) {
+			case default:
+				break
+			case 0:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8515)
+				break
+			case 1:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8514)
+				break
+			case 2:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8516)
+				break
+			case 3:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8512)
+				break
+			case 4:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8518)
+				break
+			case 5:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8513)
+				break
+			case 6:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8511)
+				break
+			case 7:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8517)
+				break
+			case 8:
+				if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+					cc_setgraphic(8519)
+				break
+
+		}
+		iVar2 = iVar2 + 1
+	} else 
+		if(load_varc(1700) == 1) {
+			switch(iVar2) {
+				case default:
+					break
+				case 0:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8524)
+					break
+				case 1:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8523)
+					break
+				case 2:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8525)
+					break
+				case 3:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8521)
+					break
+				case 4:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8527)
+					break
+				case 5:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8522)
+					break
+				case 6:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8520)
+					break
+				case 7:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8526)
+					break
+				case 8:
+					if(cc_find(iVar2, if_gethash(746, 46)) == 1)
+						cc_setgraphic(8528)
+					break
+
+			}
+			iVar2 = iVar2 + 1
+		}
+return

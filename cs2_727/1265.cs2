@@ -1,0 +1,17 @@
+//script1265(1265)()(void)
+string sVar0
+sVar0 = "null"
+if(load_varp(171) == 1) {
+	if_setgraphic(if_gethash(261, 12), 761)
+	sVar0 = "Chat effects" + "<br>" + "(currently off)"
+	if_setonmouseover(if_gethash(261, 12), script_5332, "IIsii", -2147483645, if_gethash(261, 31), sVar0, 25, 180)
+	store_varc(2, 0)
+} else 
+	if(load_varp(171) == 0) {
+		if_setgraphic(if_gethash(261, 12), 762)
+		sVar0 = "Chat effects" + "<br>" + "(currently on)"
+		if_setonmouseover(if_gethash(261, 12), script_5332, "IIsii", -2147483645, if_gethash(261, 31), sVar0, 25, 180)
+		store_varc(2, 0)
+	}
+script_5641(17104908, modulo(2, load_varp(171) + 1))
+return

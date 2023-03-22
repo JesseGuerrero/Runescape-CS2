@@ -1,0 +1,4 @@
+//script2783(2783)()(void)
+sound_synth(0, 1, 2266)
+script_2947()
+return

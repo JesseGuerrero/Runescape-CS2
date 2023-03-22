@@ -1,0 +1,9 @@
+//script822(822)(int arg0, int arg1, string arg2)(string)
+int iVar2
+iVar2 = arg0
+if(arg1 == 1)
+	arg0 = script_823(iVar2, arg0)
+else
+	arg0 = script_824(iVar2, arg0)
+return arg0
+return ""

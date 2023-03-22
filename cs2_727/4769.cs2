@@ -1,0 +1,117 @@
+//script4769(4769)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(int, int, int, int, int, int, int, int)
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+int iVar42
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = -1
+iVar14 = -1
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = 0
+iVar28 = 0
+iVar29 = 0
+iVar30 = 0
+iVar31 = 0
+iVar32 = 0
+iVar33 = 0
+iVar34 = 0
+iVar35 = 0
+iVar36 = 0
+iVar37 = 0
+iVar38 = 0
+iVar39 = 0
+iVar40 = 0
+if(arg0 == 1) {
+	iVar11 = 300
+	iVar13 = 73072707
+	iVar14 = 73072706
+} else 
+	if(arg0 == 2) {
+		iVar11 = 600
+		iVar13 = 73072705
+		iVar14 = 73072704
+	} else  {
+		iVar11 = 900
+		iVar13 = 73072703
+		iVar14 = 73072702
+		store_varc(1561, 0)
+		store_varc(1562, 0)
+	}
+if(arg1 <= 31)
+	while(iVar12 == 0) {
+		iVar10 = script_4790(arg1)
+		if(iVar10 > iVar11 || iVar10 == 0)
+			iVar12 = 1
+		else {
+			arg2 = script_4795(arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8).get(0)
+			if(((((iVar15 + iVar16) + iVar17) + iVar18) + iVar19) + iVar20 == 0)
+				iVar40 = 0
+			else
+				if(((((iVar33 + iVar34) + iVar35) + iVar36) + iVar37) + iVar38 > 0)
+					iVar40 = 3
+				else
+					if(((((iVar27 + iVar28) + iVar29) + iVar30) + iVar31) + iVar32 > 0)
+						iVar40 = 2
+					else
+						if(((((iVar21 + iVar22) + iVar23) + iVar24) + iVar25) + iVar26 > 0)
+							iVar40 = 1
+			iVar9 = script_4770(iVar13, iVar9, iVar10, iVar39, iVar40, arg1)
+			if(iVar9 == 0)
+				return arg8, arg7, arg6, arg5, arg4, arg3, arg2, 0
+			arg1 = arg1 + 1
+		}
+	}
+iVar41 = 38
+iVar42 = (iVar9 / 8) * iVar41
+if(iVar9 > 0)
+	iVar9 = script_4771(iVar13, iVar9)
+iVar42 = iVar42 + 10
+if_setscrollsize(iVar13, iVar42, if_getwidth(iVar13))
+if_setscrollpos(iVar13, 0, 0)
+script_31(iVar14, iVar13, 5666, 5663, 5664, 5665, 5686, 5685)
+return arg8, arg7, arg6, arg5, arg4, arg3, arg2, arg1
+return 0, 0, 0, 0, 0, 0, 0, 0

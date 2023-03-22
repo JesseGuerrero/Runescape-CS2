@@ -1,0 +1,9 @@
+//script2439(2439)()(void)
+if(load_varc(818) == 1) {
+	if_settext(if_gethash(15, 16), "Net: Ripped!")
+	if_setcolor(983056, 0xE12323)
+} else  {
+	if_settext(if_gethash(15, 16), "Net: OK")
+	if_setcolor(983056, 0xFF9900)
+}
+return

@@ -1,0 +1,32 @@
+void script_1352(int arg0, int arg1, int arg2, DataMap datamap3, int arg4) {
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int5 = (arg1 + arg2) / 2;
+	int6 = ARRAY0[int5];
+	ARRAY0[int5] = ARRAY0[arg2];
+	ARRAY0[arg2] = int6;
+	int7 = arg1;
+	int8 = arg1;
+	int9 = -1;
+	while (int8 < arg2) {
+		if (compare(ARRAY0[int8] / arg4 + datamap('i', 's', datamap3, ARRAY0[int8] % arg4), int6 / arg4 + datamap('i', 's', datamap3, int6 % arg4)) <= 0) {
+			int9 = ARRAY0[int8];
+			ARRAY0[int8] = ARRAY0[int7];
+			ARRAY0[int7] = int9;
+			int7 = int7 + 1;
+		}
+		int8 = int8 + 1;
+	}
+	ARRAY0[arg2] = ARRAY0[int7];
+	ARRAY0[int7] = int6;
+	if (arg1 < int7 - 1) {
+		script_1352(0, arg1, int7 - 1, datamap3, arg4);
+	}
+	if (int7 + 1 < arg2) {
+		script_1352(0, int7 + 1, arg2, datamap3, arg4);
+	}
+	return;
+}

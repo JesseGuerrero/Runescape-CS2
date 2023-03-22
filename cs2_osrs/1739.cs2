@@ -1,0 +1,8 @@
+void script_1739(int arg0) {
+	if (getMaxLineWidth(getText(), 4000, 494) > arg0 - 4) {
+		_CHILD.setTextAlignment(2, 1, 0);
+	} else {
+		_CHILD.setTextAlignment(1, 1, 0);
+	}
+	return;
+}

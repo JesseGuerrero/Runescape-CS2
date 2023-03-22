@@ -1,0 +1,157 @@
+//script3466(3466)(int arg0, int arg1)(void)
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 101:
+		cc_deleteall(arg0)
+		script_2766(0, 50, arg0)
+		break
+	case 102:
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 1000, script_3460(8, 54, arg1), 1000, script_3460(7, 54, arg1), 0, 0)
+		instr6651(0, 450, script_3460(13, 50, arg1), 450, script_3460(13, 50, arg1), 0, 1)
+		instr6651(0, 800, script_3460(13, 52, arg1), 800, script_3460(13, 51, arg1), 1, 0)
+		instr6651(0, 550, script_3460(14, 44, arg1), 550, script_3460(14, 44, arg1), 1, 1)
+		instr6677(0, 1, 100, 100, 0, 0)
+		script_2768(75, arg0)
+		break
+	case 103:
+		cc_deleteall(arg0)
+		instr6342(arg0, script_3467, "Iii", arg0, client_clock(), 100)
+		break
+	case 104:
+		instr6342(arg0, None, "")
+		if(cc_find(0, arg0) == 1) {
+			cc_settrans(0)
+			instr6556(None, "")
+		} else 
+			script_2766(0, 0, arg0)
+		break
+	case 105:
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 600, script_3460(31, 23, arg1), 600, script_3460(31, 22, arg1), 0, 0)
+		instr6651(0, 50, script_3460(32, 30, arg1), 50, script_3460(32, 29, arg1), 0, 1)
+		instr6651(0, 500, script_3460(35, 32, arg1), 500, script_3460(35, 33, arg1), 1, 0)
+		instr6651(0, 50, script_3460(30, 36, arg1), 50, script_3460(29, 36, arg1), 1, 1)
+		instr6677(0, 1, 450, 500, 0, 0)
+		script_2768(50, arg0)
+		break
+	case 106:
+		instr6675(100, 1000, 475, script_3460(33, 38, arg1))
+		instr6162(100, 1000, 50, script_3460(29, 33, arg1))
+		break
+	case 107:
+		instr6675(100, 1000, 450, script_3460(32, 37, arg1))
+		instr6162(100, 1000, 50, script_3460(31, 31, arg1))
+		break
+	case 108:
+		instr6675(100, 1000, 600, script_3460(35, 38, arg1))
+		instr6162(100, 1000, 50, script_3460(29, 36, arg1))
+		break
+	case 109:
+		instr6675(100, 1000, 500, script_3460(35, 37, arg1))
+		instr6162(100, 1000, 50, script_3460(31, 31, arg1))
+		break
+	case 110:
+		instr6675(100, 1000, 400, script_3460(35, 36, arg1))
+		instr6162(100, 1000, 50, script_3460(28, 34, arg1))
+		break
+	case 111:
+		instr6675(100, 1000, 800, script_3460(36, 35, arg1))
+		instr6162(100, 1000, 50, script_3460(29, 36, arg1))
+		break
+	case 112:
+		script_2766(0, 50, arg0)
+		break
+	case 113:
+		instr6650(7, 0)
+		instr6650(7, 1)
+		instr6651(0, 400, script_3460(42, 79, arg1), 400, script_3460(42, 82, arg1), 0, 0)
+		instr6651(0, 250, script_3460(42, 58, arg1), 250, script_3460(42, 58, arg1), 0, 1)
+		instr6651(0, 1500, script_3460(40, 55, arg1), 1500, script_3460(42, 59, arg1), 1, 0)
+		instr6651(0, 600, script_3460(41, 46, arg1), 600, script_3460(41, 46, arg1), 1, 1)
+		instr6651(0, 1800, script_3460(25, 47, arg1), 1800, script_3460(29, 50, arg1), 2, 0)
+		instr6651(0, 600, script_3460(35, 43, arg1), 600, script_3460(36, 43, arg1), 2, 1)
+		instr6651(0, 2100, script_3460(24, 34, arg1), 2100, script_3460(24, 40, arg1), 3, 0)
+		instr6651(0, 600, script_3460(36, 41, arg1), 600, script_3460(36, 42, arg1), 3, 1)
+		instr6651(0, 2400, script_3460(45, 26, arg1), 2400, script_3460(37, 26, arg1), 4, 0)
+		instr6651(0, 500, script_3460(38, 43, arg1), 500, script_3460(37, 42, arg1), 4, 1)
+		instr6651(0, 1700, script_3460(55, 39, arg1), 1700, script_3460(52, 35, arg1), 5, 0)
+		instr6651(0, 400, script_3460(38, 41, arg1), 400, script_3460(38, 42, arg1), 5, 1)
+		instr6651(0, 600, script_3460(43, 55, arg1), 600, script_3460(47, 52, arg1), 6, 0)
+		instr6651(0, 325, script_3460(37, 49, arg1), 325, script_3460(37, 48, arg1), 6, 1)
+		instr6255(arg0, script_3468, "Iiiiiiiiiiii", arg0, 1, 900, 1300, 1300, 1600, 1600, 1600, 1600, 1200, 1200, 200)
+		instr6677(0, 1, 900, 100, 0, 0)
+		script_2768(50, arg0)
+		break
+	case 114:
+		instr6650(3, 0)
+		instr6650(3, 1)
+		instr6651(0, 800, script_3460(43, 59, arg1), 800, script_3460(43, 59, arg1), 0, 0)
+		instr6651(0, 10, script_3460(37, 37, arg1), 10, script_3460(37, 37, arg1), 0, 1)
+		instr6651(0, 800, script_3460(35, 59, arg1), 800, script_3460(35, 59, arg1), 1, 0)
+		instr6651(0, 10, script_3460(39, 38, arg1), 10, script_3460(39, 38, arg1), 1, 1)
+		instr6651(0, 1000, script_3460(33, 60, arg1), 1000, script_3460(33, 60, arg1), 2, 0)
+		instr6651(0, 10, script_3460(39, 38, arg1), 10, script_3460(39, 38, arg1), 2, 1)
+		instr6255(arg0, script_3468, "Iiiiiiiiiiii", arg0, 1, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+		instr6677(0, 1, 100, 150, 0, 0)
+		break
+	case 115:
+		instr6255(arg0, None, "")
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 800, script_3460(36, 48, arg1), 800, script_3460(35, 49, arg1), 0, 0)
+		instr6651(0, 200, script_3460(42, 52, arg1), 200, script_3460(42, 52, arg1), 0, 1)
+		instr6651(0, 800, script_3460(39, 48, arg1), 800, script_3460(39, 48, arg1), 1, 0)
+		instr6651(0, 200, script_3460(41, 52, arg1), 200, script_3460(41, 52, arg1), 1, 1)
+		instr6677(0, 1, 0, 150, 0, 0)
+		break
+	case 116:
+		instr6650(15, 0)
+		instr6650(15, 1)
+		instr6651(0, 275, script_3460(41, 55, arg1), 275, script_3460(41, 55, arg1), 0, 0)
+		instr6651(0, 10, script_3460(39, 47, arg1), 10, script_3460(39, 47, arg1), 0, 1)
+		instr6651(250, 280, script_3460(42, 55, arg1), 280, script_3460(42, 55, arg1), 1, 0)
+		instr6651(0, 20, script_3460(39, 47, arg1), 20, script_3460(39, 47, arg1), 1, 1)
+		instr6651(-500, 285, script_3460(41, 55, arg1), 285, script_3460(41, 55, arg1), 2, 0)
+		instr6651(0, 30, script_3460(39, 47, arg1), 30, script_3460(39, 47, arg1), 2, 1)
+		instr6651(500, 290, script_3460(42, 55, arg1), 290, script_3460(42, 55, arg1), 3, 0)
+		instr6651(0, 40, script_3460(39, 47, arg1), 40, script_3460(39, 47, arg1), 3, 1)
+		instr6651(-500, 295, script_3460(41, 55, arg1), 295, script_3460(41, 55, arg1), 4, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 4, 1)
+		instr6651(750, 350, script_3460(42, 55, arg1), 350, script_3460(42, 55, arg1), 5, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 5, 1)
+		instr6651(-750, 425, script_3460(40, 55, arg1), 425, script_3460(40, 55, arg1), 6, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 6, 1)
+		instr6651(750, 550, script_3460(42, 55, arg1), 550, script_3460(42, 55, arg1), 7, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 7, 1)
+		instr6651(-750, 675, script_3460(41, 55, arg1), 675, script_3460(41, 55, arg1), 8, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 8, 1)
+		instr6651(500, 850, script_3460(43, 55, arg1), 850, script_3460(43, 55, arg1), 9, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 9, 1)
+		instr6651(-500, 1000, script_3460(41, 55, arg1), 1000, script_3460(41, 55, arg1), 10, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 10, 1)
+		instr6651(250, 1150, script_3460(42, 55, arg1), 1150, script_3460(42, 55, arg1), 11, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 11, 1)
+		instr6651(-250, 1300, script_3460(41, 55, arg1), 1300, script_3460(41, 55, arg1), 12, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 12, 1)
+		instr6651(125, 1450, script_3460(42, 55, arg1), 1450, script_3460(42, 55, arg1), 13, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 13, 1)
+		instr6651(0, 1500, script_3460(41, 55, arg1), 1500, script_3460(41, 55, arg1), 14, 0)
+		instr6651(0, 50, script_3460(39, 47, arg1), 50, script_3460(39, 47, arg1), 14, 1)
+		instr6255(arg0, script_3469, "Ii", arg0, 1)
+		instr6677(0, 1, 3200, 2500, 0, 0)
+		break
+	case 117:
+		instr6255(arg0, None, "")
+		script_2766(0, 50, arg0)
+		break
+	case 118:
+		script_2768(50, arg0)
+		instr6236()
+		break
+
+}
+return

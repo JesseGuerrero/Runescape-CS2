@@ -1,0 +1,74 @@
+//script4000(4000)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+sVar0 = ""
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if_sethide(if_gethash(1056, 89), 1)
+		if_sethide(if_gethash(1056, 90), 1)
+		if_sethide(if_gethash(1056, 120), 0)
+		if(compare(struct_param(1266, 1753), if_gettext(if_gethash(1056, 88))) == 0 || compare(struct_param(1266, 1752), if_gettext(if_gethash(1056, 88))) == 0 || load_varp(281) == 1000)
+			sVar0 = "Click on the Hints tab for more on how to complete this Task."
+		else
+			if(compare(struct_param(1266, 1754), if_gettext(if_gethash(1056, 88))) == 0 || compare(struct_param(1266, 1518), if_gettext(if_gethash(1056, 88))) == 0)
+				sVar0 = "Remember, the Hints tab provides more details about a Task."
+		if(instr6644() >= 2) {
+			iVar1 = 196
+			iVar2 = 183
+			iVar3 = 1
+			if(if_getwidth(if_gethash(746, 1)) < 997)
+				iVar2 = iVar2 + 40
+		} else  {
+			iVar1 = 217
+			iVar2 = 177
+		}
+		break
+	case 1:
+		if_sethide(if_gethash(1056, 89), 1)
+		if_sethide(if_gethash(1056, 90), 0)
+		if_sethide(if_gethash(1056, 120), 1)
+		if(compare(struct_param(1266, 1753), if_gettext(if_gethash(1056, 88))) == 0 || compare(struct_param(1266, 1752), if_gettext(if_gethash(1056, 88))) == 0 || load_varp(281) == 1000)
+			sVar0 = "Click on the Hints tab for more on how to complete this Task."
+		else
+			if(compare(struct_param(1266, 1754), if_gettext(if_gethash(1056, 88))) == 0 || compare(struct_param(1266, 1518), if_gettext(if_gethash(1056, 88))) == 0)
+				sVar0 = "Remember, the Hints tab provides more details about a Task."
+		if(instr6644() >= 2) {
+			iVar1 = 196
+			iVar2 = 183
+			iVar3 = 1
+			if(if_getwidth(if_gethash(746, 1)) < 997)
+				iVar2 = iVar2 + 40
+		} else  {
+			iVar1 = 217
+			iVar2 = 177
+		}
+		break
+	case 2:
+		if_sethide(if_gethash(1056, 89), 0)
+		if_sethide(if_gethash(1056, 90), 1)
+		if_sethide(if_gethash(1056, 120), 1)
+		if(compare(struct_param(1266, 1753), if_gettext(if_gethash(1056, 88))) == 0 || compare(struct_param(1266, 1754), if_gettext(if_gethash(1056, 88))) == 0)
+			sVar0 = "The '?' icon will add an arrow to the screen which points to your destination."
+		if(instr6644() >= 2) {
+			iVar1 = 196
+			iVar2 = 87
+			iVar3 = 1
+			if(if_getwidth(if_gethash(746, 1)) < 997)
+				iVar2 = iVar2 + 40
+		} else  {
+			iVar1 = 208
+			iVar2 = 78
+		}
+		break
+
+}
+if(load_varpbit(9030) == 0)
+	sVar0 = ""
+return

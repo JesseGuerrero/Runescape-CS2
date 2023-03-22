@@ -1,0 +1,52 @@
+//script3966(3966)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+iVar7 = 0
+store_varc(1883, arg0)
+iVar8 = script_693(arg1, arg2, arg3)
+iVar9 = script_693(arg4, arg5, arg6)
+if_setmaxtextlines(if_gethash(1050, 2), 4)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		script_6118(iVar8, iVar9)
+		if_setgraphic(if_gethash(1050, 1), 7526)
+		if_settext(if_gethash(1050, 2), "And so Thok made good on his word and made Bone Face pay for getting in the way of his next adventure.")
+		break
+	case 1:
+		script_6118(iVar8, iVar9)
+		if_setgraphic(if_gethash(1050, 1), 7526)
+		if_settext(if_gethash(1050, 2), "Thok returned Mini-Marm and Mrs Mini-Marm to their pool, where they made a start on building a mighty crab army.")
+		break
+	case 2:
+		script_6118(iVar8, iVar9)
+		iVar7 = load_varpbit(11074) - load_varpbit(11075)
+		if(iVar7 > 0) {
+			if_setgraphic(if_gethash(1050, 1), 7526)
+			if_settext(if_gethash(1050, 2), "Thok triumphed over his brother Marmaros, beating him by a mighty " + to_string(load_varpbit(11074)) + " kills to Marmaros's " + to_string(load_varpbit(11075)) + "." + "<br>" + "Thok is the greatest brother! Marmaros never stood a chance.")
+		} else 
+			if(iVar7 < 0) {
+				if_setgraphic(if_gethash(1050, 1), 7526)
+				if_settext(if_gethash(1050, 2), "Marmaros defeated his brother Thok, barely beating him with " + to_string(load_varpbit(11075)) + " kills to Thok's " + to_string(load_varpbit(11074)) + "." + "<br>" + "Marmaros is the greatest brother! Play again; maybe you can defeat him next time.")
+			} else  {
+				if_setgraphic(if_gethash(1050, 1), 7526)
+				if_settext(if_gethash(1050, 2), "Thok and Marmaros both killed the same number of enemies, each with a kill count of " + to_string(load_varpbit(11075)) + "." + "<br>" + "Who can be the better brother? Play again to find out!")
+			}
+		break
+	case 3:
+		script_6118(iVar8, iVar9)
+		if_setgraphic(if_gethash(1050, 1), 7526)
+		if_settext(if_gethash(1050, 2), "Pretty Lass is quietly waiting for Thok to ask her out on a date.")
+		break
+	case 4:
+		script_6118(iVar8, iVar9)
+		if_setgraphic(if_gethash(1050, 1), 7526)
+		if_settext(if_gethash(1050, 2), "Bone Face still hasn't woken up yet.")
+		break
+
+}
+store_varc(1884, modulo(4, load_varc(1884) + 1))
+script_6115(1)
+return

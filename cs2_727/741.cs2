@@ -1,0 +1,21 @@
+//script741(741)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = load_varp(1163)
+if(iVar0 == 0)
+	return
+iVar1 = script_739(iVar0)
+iVar2 = enum(1151, iVar1, 'i', 'm')
+if(bit_flagged(iVar1, load_varc(104)) == 1)
+	return
+if(iVar0 == load_varc(99) || iVar0 == load_varc(100) || iVar0 == load_varc(101))
+	return
+if_setmodel(enum(1153, iVar0, 'i', 'I'), iVar2)
+script_737(iVar0)
+if(load_varc(102) == 12)
+if(load_varc(105) == 0) {
+	send_message("The mechanism issues forth a whine and shuts down.")
+	script_675()
+}
+return

@@ -1,0 +1,9 @@
+//script4916(4916)()(void)
+if(clan_vars_enabled() == 1) {
+	instr6898(if_gethash(1259, 51), None, "")
+	instr6898(if_gethash(1261, 145), None, "")
+	instr6898(if_gethash(1258, 139), None, "")
+	instr6898(if_gethash(1260, 106), None, "")
+	script_4917()
+}
+return

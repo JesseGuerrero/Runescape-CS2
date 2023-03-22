@@ -1,0 +1,14 @@
+//script2283(2283)(int arg0, int arg1)(void)
+store_varc_string(123, load_varc_string(122))
+if(string_length(load_varc_string(122)) <= 0) {
+	script_3213(44105821, "Please enter your Email address here.")
+	return
+}
+if(script_3936(load_varc_string(122)) == 0) {
+	script_3213(44105821, "Please enter a valid Email address.")
+	return
+}
+script_3208(1)
+send_verify_email_packet(load_varc_string(122))
+instr6342(if_gethash(673, 20), script_2284, "11", arg0, arg1)
+return

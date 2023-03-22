@@ -1,0 +1,24 @@
+void script_1104(int arg0, string arg1) {
+	if (arg0 == 1) {
+		STRING[24] = arg1;
+	}
+	widget(553, 7).hookKey(&script_133(KEY_TYPED, KEY_PRESSED));
+	widget(553, 7).setText(escape(STRING[24]) + "<col=ffff00>" + "|");
+	VARC[11], VARC[6], VARC[140] = 1, 0, 1;
+	if (m3323() == 1 || getClientRights() > 0) {
+		VARC[140] = 0;
+		widget(553, 14).setRGB(0xFFFFFF);
+		script_1326(widget(553, 15), VARC[6]);
+	} else {
+		widget(553, 15).setSprite(1215);
+		widget(553, 14).setRGB(0xBBBBBB);
+		widget(553, 15).setNoOptions();
+		widget(553, 14).setNoOptions();
+	}
+	script_1326(widget(553, 12), VARC[140]);
+	if (widget(162, 31).isHidden() == false) {
+		script_299(1, 1);
+	}
+	script_927(0);
+	return;
+}

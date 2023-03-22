@@ -1,0 +1,51 @@
+//script1799(1799)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+while(iVar2 <= 4) {
+	iVar4 = enum(1604, iVar2, 'i', 'J')
+	cc_create(iVar2 * 4, 5, arg0)
+	cc_setposition(0, 0, iVar3, 4)
+	cc_setsize(0, 0, 17, 17)
+	if(world_members() == 0)
+		if(struct_param(557, iVar4) == 1)
+			cc_setgraphic(698)
+		else
+			if(iVar2 == 0)
+				cc_setgraphic(699)
+			else
+				cc_setgraphic(697)
+	cc_create((iVar2 * 4) + 1, 4, arg0)
+	cc_setposition(0, 0, iVar3, 25)
+	cc_setsize(0, 1, 17, 25)
+	cc_settext(struct_param(555, iVar4))
+	cc_settextfont(495)
+	cc_settextalign(0, 0, 0)
+	cc_setcolor(c8aa64)
+	cc_settextshadow(1)
+	cc_create((iVar2 * 4) + 2, 4, arg0)
+	cc_setposition(0, 0, iVar3 + 17, 4)
+	cc_setsize(0, 1, (paramheight(struct_param(556, iVar4), 494, if_getwidth(arg0) - 8) * 10) + 3, 8)
+	cc_settext(struct_param(556, iVar4))
+	cc_settextfont(494)
+	cc_settextalign(0, 0, 0)
+	cc_setcolor(c8aa64)
+	cc_settextshadow(1)
+	cc_create((iVar2 * 4) + 3, 3, arg0)
+	cc_setposition(0, 0, iVar3, 4)
+	cc_setsize(0, 1, 17 + cc_getheight(), 8)
+	cc_settrans(255)
+	cc_setop(struct_param(555, iVar4), 1)
+	instr6687(script_1833, "ii", -2147483644, iVar2)
+	iVar3 = iVar3 + cc_getheight()
+	if(iVar2 < 4)
+		iVar3 = iVar3 + 3
+	iVar2 = iVar2 + 1
+}
+if_setscrollsize(arg0, iVar3, 0)
+if_setscrollpos(arg0, 0, 0)
+script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+return

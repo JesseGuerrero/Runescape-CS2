@@ -1,0 +1,20 @@
+//script529(529)(int arg0)(void)
+int iVar1
+string sVar0
+string sVar1
+sVar0 = "null"
+iVar1 = 0
+sVar1 = "null"
+if(arg0 == 19726347) {
+	sVar0 = "This is the total XP you have gained through the Assist System in the past 24 hours. There is a limit to the XP you can gain within 24 hours, but this amount gets reset once the day has passed."
+	script_39(arg0, 19726421, 25, 180, sVar0)
+	return
+}
+iVar1 = script_530(arg0).get(0)
+if(iVar1 == 1)
+	sVar0 = "Assist with " + sVar1 + " while using the Assist System (ON)."
+else
+	sVar0 = "Assist with " + sVar1 + " while using the Assist System (OFF)."
+script_39(arg0, 19726421, 25, 180, sVar0)
+store_varc(2, 0)
+return

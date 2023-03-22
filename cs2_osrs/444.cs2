@@ -1,0 +1,63 @@
+void script_444(int arg0, int arg1, int arg2, int arg3, int arg4) {
+	Model model5;
+	string str0;
+	if (arg4 != 10) {
+		arg3 = 0;
+	}
+	if (arg0 <= 0 && arg1 <= 0 && arg2 <= 0 && arg3 <= 0) {
+		widget(495, 0).setIsHidden(false);
+		widget(495, 1).setIsHidden(true);
+		return;
+	}
+	widget(495, 0).setIsHidden(true);
+	widget(495, 1).setIsHidden(false);
+	model5 = 20542;
+	if (arg0 > 0) {
+		model5 = 20544;
+	}
+	widget(495, 3).setModel(model5);
+	widget(495, 10).setModel(model5);
+	widget(495, 17).setModel(model5);
+	widget(495, 24).setModel(model5);
+	if (arg1 > 0) {
+		model5 = 20545;
+	} else {
+		model5 = 20542;
+	}
+	widget(495, 5).setModel(model5);
+	widget(495, 12).setModel(model5);
+	widget(495, 19).setModel(model5);
+	widget(495, 26).setModel(model5);
+	if (arg2 > 0) {
+		model5 = 20543;
+	} else {
+		model5 = 20542;
+	}
+	widget(495, 7).setModel(model5);
+	widget(495, 14).setModel(model5);
+	widget(495, 21).setModel(model5);
+	widget(495, 28).setModel(model5);
+	if (arg3 > 0) {
+		model5 = 20572;
+	} else {
+		model5 = 20542;
+	}
+	widget(495, 31).setModel(model5);
+	str0 = str(arg0);
+	widget(495, 4).setText(str0);
+	widget(495, 11).setText(str0);
+	widget(495, 18).setText(str0);
+	widget(495, 25).setText(str0);
+	str0 = str(arg1);
+	widget(495, 6).setText(str0);
+	widget(495, 13).setText(str0);
+	widget(495, 20).setText(str0);
+	widget(495, 27).setText(str0);
+	str0 = str(arg2);
+	widget(495, 8).setText(str0);
+	widget(495, 15).setText(str0);
+	widget(495, 22).setText(str0);
+	widget(495, 29).setText(str0);
+	widget(495, 32).setText(str(arg3));
+	return;
+}

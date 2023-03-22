@@ -1,0 +1,16 @@
+void script_528(int arg0, int arg1, string string2, Sprite sprite3, int arg4, Widget widget5, int arg6, int arg7, int arg8, int arg9) {
+	CHILD.createChild(widget5, 5, arg0 * 2);
+	_CHILD.createChild(widget5, 5, arg0 * 2 + 1);
+	CHILD.setPosition(arg4 + arg0 * (40 + arg4), 0, 0, 0);
+	_CHILD.setPosition(CHILD.getX() + 4, 4, 0, 0);
+	CHILD.setSize(40, 40, 0, 0);
+	_CHILD.setSize(32, 32, 0, 0);
+	CHILD.setSprite(761);
+	_CHILD.setSprite(sprite3);
+	_CHILD.setTrans(0);
+	CHILD.hookMouseEnter(&script_244(CTX_WIDGET, getChildId(), 100, null));
+	CHILD.hookMouseExit(&script_244(CTX_WIDGET, getChildId(), 0, null));
+	CHILD.setContextMenuOption(1, string2);
+	CHILD.hookOptionClick(&script_529(arg0, widget(arg1), widget5, widget(arg6), widget(arg7), widget(arg8), widget(arg9)));
+	return;
+}

@@ -1,0 +1,70 @@
+//script4717(4717)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+string sVar0
+string sVar1
+cc_deleteall(arg0)
+iVar4 = 48
+iVar5 = 48
+iVar6 = 0
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+sVar0 = ""
+sVar1 = ""
+iVar10 = 1
+iVar11 = -1
+iVar12 = 0
+if_settext(if_gethash(590, 20), "1")
+switch(arg3) {
+	case default:
+		break
+	case 3874:
+		iVar11 = 3873
+		break
+
+}
+iVar11 = 3873
+while(iVar6 < enum_getoutputcount(arg3)) {
+	iVar7 = enum(arg3, iVar6, 'i', 'J')
+	iVar8 = struct_param(1420, iVar7)
+	iVar10 = script_4718(iVar7)
+	sVar0 = struct_param(1419, iVar7)
+	cc_create(iVar6, 5, arg0)
+	cc_setsize(0, 0, iVar5, iVar4)
+	cc_setposition(0, 0, 0, 0)
+	if(iVar10 == 0)
+		iVar8 = struct_param(1421, iVar7)
+	if(iVar7 == 1783)
+		if(gender() > 0) {
+			iVar7 = 1789
+			iVar8 = struct_param(1420, iVar7)
+			sVar0 = struct_param(1419, iVar7)
+			sVar1 = "Curtsy"
+			cc_setop("Curtsy", 1)
+			cc_setop("Bow", 2)
+			cc_setonmouseover(script_568, "IiIsii", -2147483645, -2147483643, arg2, sVar1, 25, 190)
+		} else  {
+			cc_setop("Bow", 1)
+			cc_setop("Curtsy", 2)
+			sVar1 = "Bow"
+			cc_setonmouseover(script_568, "IiIsii", -2147483645, -2147483643, arg2, sVar1, 25, 190)
+		}
+	else {
+		cc_setop(sVar0, 1)
+		cc_setonmouseover(script_568, "IiIsii", -2147483645, -2147483643, arg2, sVar0, 25, 190)
+	}
+	cc_setgraphic(iVar8)
+	instr6092(script_40, "I", arg2)
+	iVar6 = iVar6 + 1
+}
+script_4716(38666248, 38666247, arg3, -5, 10, iVar12)
+script_4709(arg3, iVar11, iVar12, 0, enum_getoutputcount(iVar11), 38666254, 38666252, 38666253, 38666255, 897, 788, 788, 1040, 16777215, 16711680, 16776960, 494, 792, 789, 790, 791, 773, 788)
+return

@@ -1,0 +1,13 @@
+//script5886(5886)(int arg0)(int, int)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = -1
+iVar2 = -1
+iVar3 = script_5936(arg0)
+if(iVar3 == -1)
+	return -1, -1
+iVar1 = struct_param(2266, iVar3) + 3
+iVar2 = struct_param(2267, iVar3) - 3
+return iVar2 + 127, iVar1 + 127
+return 0, 0

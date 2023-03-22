@@ -1,0 +1,16 @@
+//script6061(6061)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = 10285
+iVar5 = 10286
+iVar6 = 10287
+if(arg3 == 1) {
+	iVar4 = 10288
+	iVar5 = 10289
+	iVar6 = 10290
+}
+if_setgraphic(arg0, iVar4)
+if_setgraphic(arg1, iVar5)
+if_setgraphic(arg2, iVar6)
+return

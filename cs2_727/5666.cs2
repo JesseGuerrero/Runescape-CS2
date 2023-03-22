@@ -1,0 +1,23 @@
+//script5666(5666)()(void)
+switch(load_varp(2478)) {
+	case default:
+		if(load_varpbit(10444) == 0)
+			if_setgraphic(if_gethash(1214, 19), 4084)
+		else
+			if_setgraphic(if_gethash(1214, 19), 4086)
+		break
+	case 2:
+		if(load_varpbit(10445) == 0)
+			if_setgraphic(if_gethash(1214, 19), 4084)
+		else
+			if_setgraphic(if_gethash(1214, 19), 4086)
+		break
+	case 3:
+		if(load_varpbit(10446) == 0)
+			if_setgraphic(if_gethash(1214, 19), 4084)
+		else
+			if_setgraphic(if_gethash(1214, 19), 4086)
+		break
+
+}
+return

@@ -1,0 +1,5 @@
+//script2426(2426)(int arg0, int arg1, int arg2, int arg3)(void)
+if_settext(arg0, load_varc_string(143))
+if_settext(arg1, load_varc_string(144))
+script_1585(arg2, arg3, load_varc_string(145))
+return

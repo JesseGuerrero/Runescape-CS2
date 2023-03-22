@@ -1,0 +1,29 @@
+//script6048(6048)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = if_gettrans(arg0)
+if(arg1 == 0) {
+	iVar3 = max(iVar3 - 20, 0)
+	if(iVar3 == 0) {
+		arg1 = -1
+		arg2 = 0
+	}
+} else 
+	if(arg1 == 1) {
+		iVar3 = min(iVar3 + 20, 255)
+		if(iVar3 == 255) {
+			if(if_getspriteid(arg0) == 10245)
+				if_setgraphic(arg0, script_6267(10246))
+			else
+				if_setgraphic(arg0, script_6267(10245))
+			arg1 = 0
+		}
+	} else  {
+		arg2 = arg2 + 1
+		if(arg2 >= 20) {
+			arg1 = 1
+			arg2 = 0
+		}
+	}
+instr6342(arg0, script_6048, "Iii", -2147483645, arg1, arg2)
+if_settrans(arg0, iVar3)
+return

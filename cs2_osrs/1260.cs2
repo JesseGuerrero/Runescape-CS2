@@ -1,0 +1,12 @@
+int script_1260(int arg0, int arg1, int arg2) {
+	if (arg2 < 30) {
+		if (isBitFlagged(arg0, arg2) == true) {
+			return 1;
+		}
+		return 0;
+	}
+	if (arg2 < 60 && isBitFlagged(arg1, arg2 - 30) == true) {
+		return 1;
+	}
+	return 0;
+}

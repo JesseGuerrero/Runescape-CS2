@@ -1,0 +1,37 @@
+int script_657(int arg0, Item item1, string string2, Widget widget3, Widget widget4, int arg5, int arg6, int arg7, int arg8) {
+	int int8;
+	CHILD.createChild(widget3, 4, arg7 * 2);
+	CHILD.setSize(26, 32, 0, 0);
+	CHILD.setPosition(0, arg8, 0, 0);
+	CHILD.setTextAlignment(2, 0, 0);
+	CHILD.setRGB(0x46320A);
+	CHILD.setFont(497);
+	CHILD.setTextAntiMacro(false);
+	if (arg0 > 0) {
+		CHILD.setText(str(arg0));
+	} else {
+		CHILD.setText("");
+	}
+	CHILD.createChild(widget4, 5, arg7);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(28, arg8, 0, 0);
+	CHILD.setOutlineThickness(1);
+	CHILD.setShadowColor(0x604E32);
+	CHILD.setItem(item1, -1);
+	if (VARPBIT[4371] == 22 && arg6 >= 1 && arg6 <= 11) {
+		CHILD.setContextMenuOption(1, "Check materials");
+	}
+	CHILD.createChild(widget3, 4, arg7 * 2 + 1);
+	int8 = getLineCount(string2, arg5, 495) * 15;
+	if (int8 < 32) {
+		int8 = 32;
+	}
+	CHILD.setSize(arg5, int8, 0, 0);
+	CHILD.setPosition(widget3.getWidth() - arg5, arg8, 0, 0);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setRGB(0x46320A);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(false);
+	CHILD.setText(string2);
+	return arg8 + int8;
+}

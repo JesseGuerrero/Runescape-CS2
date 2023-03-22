@@ -1,0 +1,32 @@
+void script_387(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int1 = 15;
+	if (VARC[53] == 1) {
+		int1 = int1 + arg0;
+	}
+	int2 = VARC[52] - int1;
+	int3 = VARC[52] + int1;
+	if (script_1138() == 1) {
+		if (VARPBIT[4965] > 0) {
+			widget(90, 45).setIsHidden(true);
+			return;
+		}
+		int2 = 3;
+		int3 = 126;
+		if (VARC[78] == 2) {
+			widget(90, 45).setText("");
+			return;
+		}
+	} else {
+		if (int2 < 3) {
+			int2 = 3;
+		}
+		if (int3 > 126) {
+			int3 = 126;
+		}
+	}
+	widget(90, 45).setText(int2 + "-" + int3);
+	return;
+}

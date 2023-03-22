@@ -1,0 +1,13 @@
+void script_964(boolean arg0, Widget widget1, Widget widget2, Widget widget3, int arg4, int arg5) {
+	playSoundEffect(2266, 1, 0);
+	if (arg0 == true) {
+		script_300();
+		script_966(widget1, widget2, widget3, arg4, arg5);
+	} else {
+		if (VARC[5] == 11) {
+			script_299(1, 1);
+		}
+		script_965(widget1, widget2, widget3, arg4, arg5);
+	}
+	return;
+}

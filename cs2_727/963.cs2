@@ -1,0 +1,55 @@
+//script963(963)(int arg0)(void)
+store_varc(157, 1)
+if(load_varc(125) >= client_clock() - 5)
+	return
+if(arg0 == 48103425)
+	switch(load_varc(122)) {
+		case default:
+			break
+		case 0:
+			store_varc(122, 512)
+			break
+		case 512:
+			store_varc(122, 1024)
+			break
+		case 1024:
+			store_varc(122, 1536)
+			store_varc(122, 0)
+			break
+
+	}
+else
+	if(arg0 == 48103430)
+		switch(load_varc(123)) {
+			case default:
+				break
+			case 0:
+				store_varc(123, 512)
+				break
+			case 512:
+				store_varc(123, 1024)
+				break
+			case 1024:
+				store_varc(123, 1536)
+				store_varc(123, 0)
+				break
+
+		}
+	else
+		if(arg0 == 48103435)
+			switch(load_varc(124)) {
+				case default:
+					break
+				case 0:
+					store_varc(124, 512)
+					break
+				case 512:
+					store_varc(124, 1024)
+					break
+				case 1024:
+					store_varc(124, 1536)
+					store_varc(124, 0)
+					break
+
+			}
+return

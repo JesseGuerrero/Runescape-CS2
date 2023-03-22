@@ -1,0 +1,21 @@
+//script2918(2918)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 0
+iVar2 = 33
+if(arg0 == 0)
+	return
+iVar2 = 30
+if(if_getheight(if_gethash(882, 4)) < if_getheight(if_gethash(882, 22)) + 146) {
+	if_setposition(if_gethash(882, 8), 1, 1, 0, 0)
+	if_setposition(if_gethash(882, 22), 0, 1, if_gety(if_gethash(882, 8)) + iVar2, 0)
+	if_sethide(if_gethash(744, 23), 1)
+} else  {
+	iVar1 = if_gety(if_gethash(744, 23)) + if_getheight(if_gethash(744, 23))
+	if_setposition(if_gethash(882, 8), 1, 1, 0, 0)
+	if(if_gety(if_gethash(882, 8)) - 2 < iVar1)
+		if_setposition(if_gethash(882, 8), 0, 1, iVar1 + 2, 0)
+	if_setposition(if_gethash(882, 22), 0, 1, if_gety(if_gethash(882, 8)) + iVar2, 0)
+	if_sethide(if_gethash(744, 23), 0)
+}
+return

@@ -1,0 +1,31 @@
+//script4701(4701)(int arg0, int arg1, int arg2, string arg3)(void)
+store_varc(1553, arg1)
+store_varc(1554, arg2)
+store_varc_string(128, arg0)
+if(arg0 == 1) {
+	if(load_varc(1100) == 43 || load_varc(1100) == 42) {
+		script_2190(0, 12, 1, "Leave queue", "Are you sure you wish to leave the queue, you will lose your position if you do.", "", "")
+		return
+	}
+	script_3141(arg2, arg0)
+	if(arg1 > -1)
+		if(cc_find(arg1, if_gethash(910, 64)) == 1) {
+			if_sethide(if_gethash(910, 67), 0)
+			if_setposition(if_gethash(910, 67), 0, 0, cc_gety(), 0)
+		}
+	if(world_id() == load_varc(998))
+		if(cc_find(3, if_gethash(910, 21)) == 1)
+			cc_sethide(0)
+	else
+		if(cc_find(3, if_gethash(910, 21)) == 1)
+			cc_sethide(1)
+	if(world_id() == load_varc(999))
+		if(cc_find(3, if_gethash(910, 22)) == 1)
+			cc_sethide(0)
+	else
+		if(cc_find(3, if_gethash(910, 22)) == 1)
+			cc_sethide(1)
+	script_3064(1)
+}
+return
+return

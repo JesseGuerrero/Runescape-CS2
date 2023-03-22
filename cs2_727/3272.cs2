@@ -1,0 +1,42 @@
+//script3272(3272)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 61145353:
+		if(load_varc(1184) != 1)
+			if(load_varc(1198) == 1)
+				store_varc(1184, 1)
+			else
+				store_varc(1184, 0)
+		break
+	case 61145354:
+		if(load_varc(1184) != 2)
+			if(load_varc(1199) == 1)
+				store_varc(1184, 2)
+			else
+				store_varc(1184, 0)
+		break
+	case 61145364:
+		if(load_varc(1184) != 3)
+			if(load_varc(1200) == 1)
+				store_varc(1184, 3)
+			else
+				store_varc(1184, 0)
+		break
+	case 61145374:
+		if(load_varc(1184) != 4)
+			if(load_varc(1201) == 1)
+				store_varc(1184, 4)
+			else
+				store_varc(1184, 0)
+		break
+	case 61145384:
+		if(load_varc(1184) != 5)
+			if(load_varc(1202) == 1)
+				store_varc(1184, 5)
+			else
+				store_varc(1184, 0)
+		break
+
+}
+return

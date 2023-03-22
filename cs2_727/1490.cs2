@@ -1,0 +1,15 @@
+//script1490(1490)()(void)
+string sVar0
+sVar0 = ""
+if(load_varp(304) == 0) {
+	if_setgraphic(if_gethash(762, 15), 1431)
+	if_setgraphic(if_gethash(762, 16), 1425)
+	sVar0 = "Switch to insert items mode"
+} else  {
+	if_setgraphic(if_gethash(762, 15), 1433)
+	if_setgraphic(if_gethash(762, 16), 1426)
+	sVar0 = "Switch to swap items mode"
+}
+instr6213(if_gethash(762, 15), 1, sVar0)
+if_setonmouseover(if_gethash(762, 15), script_38, "IIsii", -2147483645, if_gethash(762, 121), sVar0, 25, 150)
+return

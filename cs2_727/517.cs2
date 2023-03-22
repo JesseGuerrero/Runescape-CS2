@@ -1,0 +1,37 @@
+//script517(517)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(arg1, 9246)
+		break
+	case 1:
+		if_setgraphic(arg1, 9247)
+		break
+	case 2:
+		if_setgraphic(arg1, 9248)
+		break
+	case 3:
+		if_setgraphic(arg1, 9249)
+		break
+	case 4:
+		if_setgraphic(arg1, 9250)
+		break
+	case 5:
+		if_setgraphic(arg1, 9251)
+		break
+	case 6:
+		if_setgraphic(arg1, 9252)
+		break
+	case 7:
+		if_setgraphic(arg1, 9253)
+		break
+	case 8:
+		if_setgraphic(arg1, 9254)
+		break
+	case 9:
+		if_setgraphic(arg1, 9255)
+		break
+
+}
+return

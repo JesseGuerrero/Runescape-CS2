@@ -1,0 +1,103 @@
+//script2145(2145)(int arg0, int arg1, int arg2)(int, int, string)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+iVar3 = enum(169, arg1, 'i', 'J')
+iVar4 = enum(struct_param(61, iVar3), arg2, 'i', 'J')
+iVar5 = stat_base(arg0)
+sVar0 = "null"
+iVar6 = -1
+iVar7 = 0
+if(iVar4 == -1)
+	return 0, iVar6, sVar0
+if(arg1 == 1)
+	if(script_2193(arg2) == 2)
+		return 0, iVar6, sVar0
+if(struct_param(871, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(871, iVar4) == arg0)
+	if(iVar5 == struct_param(872, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(873, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(873, iVar4) == arg0)
+	if(iVar5 == struct_param(874, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(875, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(875, iVar4) == arg0)
+	if(iVar5 == struct_param(876, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(877, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(877, iVar4) == arg0)
+	if(iVar5 == struct_param(878, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(879, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(879, iVar4) == arg0)
+	if(iVar5 == struct_param(880, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(881, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(881, iVar4) == arg0)
+	if(iVar5 == struct_param(882, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(883, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(883, iVar4) == arg0)
+	if(iVar5 == struct_param(884, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(885, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(885, iVar4) == arg0)
+	if(iVar5 == struct_param(886, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(887, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(887, iVar4) == arg0)
+	if(iVar5 == struct_param(888, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(889, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(889, iVar4) == arg0)
+	if(iVar5 == struct_param(890, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(891, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(891, iVar4) == arg0)
+	if(iVar5 == struct_param(892, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+if(struct_param(893, iVar4) == -1)
+	return 0, iVar6, sVar0
+if(struct_param(893, iVar4) == arg0)
+	if(iVar5 == struct_param(894, iVar4)) {
+		sVar0 = script_2146(arg0, arg1, iVar5, arg2, struct_param(845, iVar4)).get(2)
+		return iVar7, iVar6, sVar0
+	}
+return 0, -1, ""

@@ -1,0 +1,22 @@
+//script5242(5242)(int arg0)(void)
+sound_vorbis_volume(127, 0, 1, 6185)
+if(arg0 == 73793723) {
+	if_setcolor(73793728, 0x99917A)
+	if_setcolor(73793723, 0xEBE0BC)
+	if_setgraphic(if_gethash(1126, 189), 459)
+	if_setgraphic(if_gethash(1126, 190), 460)
+	if_setgraphic(if_gethash(1126, 191), 459)
+	if_setgraphic(if_gethash(1126, 0), 454)
+	if_setgraphic(if_gethash(1126, 1), 456)
+	if_setgraphic(if_gethash(1126, 186), 454)
+} else  {
+	if_setcolor(73793723, 0x99917A)
+	if_setcolor(73793728, 0xEBE0BC)
+	if_setgraphic(if_gethash(1126, 189), 454)
+	if_setgraphic(if_gethash(1126, 190), 456)
+	if_setgraphic(if_gethash(1126, 191), 454)
+	if_setgraphic(if_gethash(1126, 0), 459)
+	if_setgraphic(if_gethash(1126, 1), 460)
+	if_setgraphic(if_gethash(1126, 186), 459)
+}
+return

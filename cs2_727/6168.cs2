@@ -1,0 +1,14 @@
+//script6168(6168)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 10
+if_sethide(if_gethash(1273, 15), 0)
+script_6177(83427343)
+iVar1 = script_6178(iVar1, 83427343)
+while(iVar0 < 10) {
+	if(cc_find(iVar0, if_gethash(1273, 15)) == 1)
+		cc_sendtofront()
+	iVar0 = iVar0 + 1
+}
+return

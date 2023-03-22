@@ -1,0 +1,29 @@
+void script_1062(Widget widget0, int arg1, string string2) {
+	int int2;
+	Item item3;
+	Color color4;
+	int2 = 0;
+	item3 = null;
+	int2, item3 = script_1064(arg1);
+	color4 = 0x7F2000;
+	if (int2 > 0) {
+		color4 = 0x20DF20;
+	}
+	if (arg1 == 6797) {
+		if (item3 == null) {
+			item3 = 6797;
+		}
+		string2 = getItemName(item3);
+	}
+	if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, 1) == true) {
+		CHILD.setText(string2);
+		CHILD.setRGB(color4);
+		_CHILD.setRGB(color4);
+		_CHILD.setText(str(int2));
+	}
+	if (CHILD.setChild(widget0, 2) == true) {
+		CHILD.setItemNoNum(item3, int2);
+	}
+	widget0.setOptionBase("<col=ff9040>" + getItemName(item3) + "</col>");
+	return;
+}

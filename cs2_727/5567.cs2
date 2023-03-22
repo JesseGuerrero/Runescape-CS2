@@ -1,0 +1,13 @@
+//script5567(5567)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+if(arg0 != 995)
+	return -1
+if(inv_total(arg0, 93) >= arg1)
+	return 1
+iVar2 = inv_total(arg0, 93)
+iVar3 = inv_total(arg0, 623)
+if(iVar3 >= arg1 - iVar2)
+	return 2
+return 0
+return 0

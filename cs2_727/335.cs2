@@ -1,0 +1,9 @@
+//script335(335)(int arg0, int arg1, int arg2, int arg3)(int, int)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = script_338(arg3)
+iVar5 = (arg2 * 1000) / iVar4
+iVar6 = arg2 - iVar5
+return arg1 + iVar6, arg0 + iVar5
+return 0, 0

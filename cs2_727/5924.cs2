@@ -1,0 +1,19 @@
+//script5924(5924)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = 200
+iVar2 = 6
+iVar3 = if_getwidth(arg0)
+iVar4 = if_getheight(arg0)
+iVar5 = min(200, iVar4 + iVar2)
+if_setsize(arg0, 0, 0, iVar5, iVar3)
+if(iVar5 == 200) {
+	instr6342(arg0, None, "")
+	if_sethide(arg0, 1)
+	if_sethide(if_gethash(1253, 37), 0)
+	store_varc(1784, 0)
+}
+return

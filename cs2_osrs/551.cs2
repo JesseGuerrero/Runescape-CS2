@@ -1,0 +1,8 @@
+void script_551() {
+	if (length(STRING[22]) > 0) {
+		widget(162, 32).setText("Send autochat: " + "<col=0000ff>" + escape(STRING[22]) + "</col>");
+	} else {
+		widget(162, 32).setText("Send autochat: " + "<col=7f0000>" + "[off]" + "</col>");
+	}
+	return;
+}

@@ -1,0 +1,12 @@
+void script_1033(int arg0, int arg1, Color color2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20) {
+	CHILD.setSize(0, 15, 1, 0);
+	CHILD.setRGB(color2);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setContextMenuOption(1, "Select");
+	CHILD.hookMouseEnter(&script_1035(true, CTX_WIDGET, CTX_WIDGET_CHILD, getChildId(), color2));
+	CHILD.hookMouseExit(&script_1035(false, CTX_WIDGET, CTX_WIDGET_CHILD, getChildId(), color2));
+	CHILD.hookOptionClick(&script_1036(CTX_MENU_OPTION, widget(arg0), CTX_WIDGET_CHILD, arg1, widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10), widget(arg11), widget(arg12), widget(arg13), widget(arg14), widget(arg15), widget(arg16), widget(arg17), widget(arg18), widget(arg19), widget(arg20)));
+	return;
+}

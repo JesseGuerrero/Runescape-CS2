@@ -1,0 +1,47 @@
+//script2450(2450)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+iVar3 = 0
+iVar4 = 0
+if(cc_find(arg1, arg0) == 1) {
+	if_sethide(if_gethash(34, 14), 1)
+	if_sethide(if_gethash(34, 10), 0)
+	iVar4 = cc_getheight()
+	if_setposition(if_gethash(34, 10), 0, 0, arg2, cc_getx())
+	if_setsize(if_gethash(34, 10), 0, 0, iVar4, cc_getwidth())
+	iVar3 = arg2 + (iVar4 / 2)
+}
+iVar5 = if_gety(if_gethash(34, 11))
+iVar6 = iVar5 + if_getheight(if_gethash(34, 11))
+if(iVar3 >= iVar5)
+	if(iVar3 <= iVar6)
+		if_setgraphic(if_gethash(34, 8), 1846)
+	else
+		if_setgraphic(if_gethash(34, 8), 1845)
+iVar7 = 0
+iVar8 = if_gety(if_gethash(34, 9))
+iVar9 = iVar8 + iVar4
+iVar10 = iVar8 + if_getheight(if_gethash(34, 9))
+iVar11 = iVar10 - iVar4
+if(iVar3 >= iVar8)
+	if(iVar3 <= iVar9)
+		iVar7 = -4
+	else
+		if(iVar3 >= iVar11)
+			if(iVar3 <= iVar10)
+				iVar7 = 4
+			else {
+				store_varc(821, 0)
+				return
+			}
+store_varc(821, load_varc(821) + 1)
+if(load_varc(821) > 5)
+	script_157(2228239, 2228233, if_getscrolly(2228233) + iVar7, 1)
+return

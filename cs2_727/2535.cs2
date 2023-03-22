@@ -1,0 +1,10 @@
+//script2535(2535)()(void)
+if(load_varc(911) == 1)
+	if_setgraphic(if_gethash(39, 36), 1949)
+else
+	if(load_varc(911) == 2)
+		if_setgraphic(if_gethash(39, 36), 1946)
+	else
+		if(load_varc(911) == 3)
+			if_setgraphic(if_gethash(39, 36), 1947)
+return

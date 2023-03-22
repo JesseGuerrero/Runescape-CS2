@@ -1,0 +1,7 @@
+//script575(575)()(void)
+store_varc(81, load_varc(81) - 1)
+if(load_varc(81) > 0)
+	return
+instr6342(if_gethash(389, 9), None, "")
+script_576()
+return

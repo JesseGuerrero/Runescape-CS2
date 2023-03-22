@@ -1,0 +1,387 @@
+//script4268(4268)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_settext(if_gethash(1083, 85), "Teleport to South Falador")
+		break
+	case 2:
+		if_settext(if_gethash(1083, 85), "Repair Rune Pouch")
+		break
+	case 3:
+		if_settext(if_gethash(1083, 85), "Teleport to North Ardougne")
+		break
+	case 4:
+		if_settext(if_gethash(1083, 85), "Remote Farming")
+		break
+	case 5:
+		if_settext(if_gethash(1083, 85), "Spiritualise Food")
+		break
+	case 6:
+		if_settext(if_gethash(1083, 85), "Make Leather")
+		break
+	case 7:
+		if_settext(if_gethash(1083, 85), "Disruption Shield")
+		break
+	case 8:
+		if_settext(if_gethash(1083, 85), "Vengeance Group")
+		break
+	case 9:
+		if_settext(if_gethash(1083, 85), "Let it Rain Seeds!")
+		break
+	case 10:
+		if_settext(if_gethash(1083, 85), "Gimme Herbs!")
+		break
+	case 11:
+		if_settext(if_gethash(1083, 85), "Vial My Herbs!")
+		break
+	case 12:
+		if_settext(if_gethash(1083, 85), "Turn Lunar Lumber into Runes!")
+		break
+	case 13:
+		if_settext(if_gethash(1083, 85), "Reduce the Fish I Burn!")
+		break
+	case 14:
+		if_settext(if_gethash(1083, 85), "More Planks, Please!")
+		break
+	case 15:
+		if_settext(if_gethash(1083, 85), "Teleport to Trollheim")
+		break
+	case 16:
+		if_settext(if_gethash(1083, 85), "Teleport Group to Trollheim")
+		break
+	case 17:
+		if_settext(if_gethash(1083, 85), "Borrowed Power")
+		break
+	case 18:
+		if_settext(if_gethash(1083, 85), "Let it Rain Awesome Seeds!")
+		break
+	case 19:
+		if_settext(if_gethash(1083, 85), "I'd Like a New Patch!")
+		break
+	case 20:
+		if_settext(if_gethash(1083, 85), "Give Me An Arcane Capacitor!")
+		break
+	case 21:
+		if_settext(if_gethash(1083, 85), "Protect A Patch For Me!")
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_settext(if_gethash(1083, 87), "Teleports you to the south of Falador.")
+		break
+	case 2:
+		if_settext(if_gethash(1083, 87), "Use on a degraded pouch to repair it and improve its strength, so it takes longer to degrade.")
+		break
+	case 3:
+		if_settext(if_gethash(1083, 87), "Teleports you to the north of Ardougne.")
+		break
+	case 4:
+		if_settext(if_gethash(1083, 87), "View the status of farming patches and cure any disease from a distance.")
+		break
+	case 5:
+		if_settext(if_gethash(1083, 87), "Cast on ordinary food and feed it to your familiar to heal it, boost its combat stats and extend its timer.")
+		break
+	case 6:
+		if_settext(if_gethash(1083, 87), "Cast on hides to turn them into leather. This will convert 5 hides at a time.")
+		break
+	case 7:
+		if_settext(if_gethash(1083, 87), "Nullifies the next hit you receive from another player. This works against players only, not against monsters.")
+		break
+	case 8:
+		if_settext(if_gethash(1083, 87), "When cast, those nearby get to rebound damage.")
+		break
+	case 9:
+		if_settext(if_gethash(1083, 87), "Seeds will appear on the floor. Be quick to pick up the ones you want.")
+		break
+	case 10:
+		if_settext(if_gethash(1083, 87), "Puts a load of grimy herbs in your inventory.")
+		break
+	case 11:
+		if_settext(if_gethash(1083, 87), "Takes all the clean herbs in your inventory and turns them into unfinished potions of that herb type. This will work on noted herbs of up to 50 at a time.")
+		break
+	case 12:
+		if_settext(if_gethash(1083, 87), "Turns all lunar lumber in your inventory into runes. You'll need a full inventory of logs.")
+		break
+	case 13:
+		if_settext(if_gethash(1083, 87), "For the next thirty minutes, you'll find that you burn fewer fish.")
+		break
+	case 14:
+		if_settext(if_gethash(1083, 87), "This will be active for the next twenty minutes: when casting Plank Make, you will have a chance of receiving additional planks.")
+		break
+	case 15:
+		if_settext(if_gethash(1083, 87), "Teleports you to the farming patch in Trollheim.")
+		break
+	case 16:
+		if_settext(if_gethash(1083, 87), "Teleports you and those nearby to the farming patch in Trollheim.")
+		break
+	case 17:
+		if_settext(if_gethash(1083, 87), "Allows you to store and cast certain spells from the standard spellbook." + "<br>" + "After learning this last spell, your current produce will be reduced by " + script_46(enum(3674, 10, 'i', 'i') * 10, ",") + " and the remainder can be spent on wishes.")
+		break
+	case 18:
+		if_settext(if_gethash(1083, 87), "High value seeds will appear on the floor. Be quick to pick up the ones you want.")
+		break
+	case 19:
+		if_settext(if_gethash(1083, 87), "A new allotment patch will become available nearby. It will vanish if the patch is cleared.")
+		break
+	case 20:
+		if_settext(if_gethash(1083, 87), "You'll be given an Arcane Capacitor, for use with the Borrowed Power spell.")
+		break
+	case 21:
+		if(load_varpbit(9067) < 11)
+			if_settext(if_gethash(1083, 87), "Gives you a scroll which, when used on a fruit tree or tree patch, will protect that patch for the next 10 growths in that patch. ")
+		else
+			if_settext(if_gethash(1083, 87), "Gives you a scroll which, when used on a fruit tree or tree patch, will protect that patch for the next 10 growths in that patch. You will need to use the scroll on a patch that is currently growing something and you must have the produce in your inventory that would cover the cost of protecting that patch normally.")
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(9067) < 1)
+			if_settext(if_gethash(1083, 89), "Requires level 72 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 2:
+		if(load_varpbit(9067) < 2)
+			if_settext(if_gethash(1083, 89), "Requires level 75 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 3:
+		if(load_varpbit(9067) < 3)
+			if_settext(if_gethash(1083, 89), "Requires level 76 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 4:
+		if(load_varpbit(9067) < 4)
+			if_settext(if_gethash(1083, 89), "Requires level 78 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 5:
+		if(load_varpbit(9067) < 5)
+			if_settext(if_gethash(1083, 89), "Requires level 80 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 6:
+		if(load_varpbit(9067) < 6)
+			if_settext(if_gethash(1083, 89), "Requires level 83 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 7:
+		if(load_varpbit(9067) < 7)
+			if_settext(if_gethash(1083, 89), "Requires level 90 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 8:
+		if(load_varpbit(9067) < 8)
+			if_settext(if_gethash(1083, 89), "Requires level 95 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 15:
+		if(load_varpbit(9067) < 9)
+			if_settext(if_gethash(1083, 89), "Requires level 92 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 16:
+		if(load_varpbit(9067) < 10)
+			if_settext(if_gethash(1083, 89), "Requires level 93 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		break
+	case 17:
+		if(load_varpbit(9067) < 11)
+			if_settext(if_gethash(1083, 89), "Requires level 99 Magic to cast. You must unlock the spells in order.")
+		else
+			if_settext(if_gethash(1083, 89), "Learned!")
+		if(load_varpbit(9067) < 11)
+			if_settext(if_gethash(1083, 89), "You must unlock all the spells before you can use wishes.")
+		break
+
+}
+if(arg0 < 9 || arg0 > 14 || arg0 < 18)
+	if_sethide(if_gethash(1083, 90), 0)
+else
+	if_sethide(if_gethash(1083, 90), 1)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1083, 93), 4585)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1083, 93), 4586)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1083, 93), 4587)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1083, 93), 4588)
+		break
+	case 5:
+		if_setgraphic(if_gethash(1083, 93), 4590)
+		break
+	case 6:
+		if_setgraphic(if_gethash(1083, 93), 4589)
+		break
+	case 7:
+		if_setgraphic(if_gethash(1083, 93), 4591)
+		break
+	case 8:
+		if_setgraphic(if_gethash(1083, 93), 4592)
+		break
+	case 15:
+		if_setgraphic(if_gethash(1083, 93), 7685)
+		break
+	case 16:
+		if_setgraphic(if_gethash(1083, 93), 7686)
+		break
+	case 17:
+		if_setgraphic(if_gethash(1083, 93), 7687)
+		break
+
+}
+if_sethide(if_gethash(1083, 94), 1)
+if_sethide(if_gethash(1083, 95), 1)
+if_sethide(if_gethash(1083, 96), 1)
+if_sethide(if_gethash(1083, 97), 1)
+if_sethide(if_gethash(1083, 98), 1)
+if_sethide(if_gethash(1083, 99), 1)
+if_sethide(if_gethash(1083, 100), 1)
+if_sethide(if_gethash(1083, 101), 1)
+if_sethide(if_gethash(1083, 102), 1)
+if_sethide(if_gethash(1083, 103), 1)
+if_sethide(if_gethash(1083, 104), 1)
+if_sethide(if_gethash(1083, 105), 1)
+if_sethide(if_gethash(1083, 106), 1)
+if_sethide(if_gethash(1083, 107), 1)
+if_sethide(if_gethash(1083, 460), 1)
+if_sethide(if_gethash(1083, 470), 1)
+if_sethide(if_gethash(1083, 480), 1)
+if_sethide(if_gethash(1083, 518), 1)
+if_sethide(if_gethash(1083, 528), 1)
+if_sethide(if_gethash(1083, 538), 1)
+if_sethide(if_gethash(1083, 558), 1)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(9067) < 1)
+			if_sethide(if_gethash(1083, 94), 0)
+		break
+	case 2:
+		if(load_varpbit(9067) < 2)
+			if_sethide(if_gethash(1083, 95), 0)
+		break
+	case 3:
+		if(load_varpbit(9067) < 3)
+			if_sethide(if_gethash(1083, 96), 0)
+		break
+	case 4:
+		if(load_varpbit(9067) < 4)
+			if_sethide(if_gethash(1083, 97), 0)
+		break
+	case 5:
+		if(load_varpbit(9067) < 5)
+			if_sethide(if_gethash(1083, 98), 0)
+		break
+	case 6:
+		if(load_varpbit(9067) < 6)
+			if_sethide(if_gethash(1083, 99), 0)
+		break
+	case 7:
+		if(load_varpbit(9067) < 7)
+			if_sethide(if_gethash(1083, 100), 0)
+		break
+	case 8:
+		if(load_varpbit(9067) < 8)
+			if_sethide(if_gethash(1083, 101), 0)
+		break
+	case 9:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 102), 0)
+		break
+	case 10:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 103), 0)
+		break
+	case 11:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 104), 0)
+		break
+	case 12:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 105), 0)
+		break
+	case 13:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 106), 0)
+		break
+	case 14:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 107), 0)
+		break
+	case 15:
+		if(load_varpbit(9067) < 9)
+			if_sethide(if_gethash(1083, 460), 0)
+		break
+	case 16:
+		if(load_varpbit(9067) < 10)
+			if_sethide(if_gethash(1083, 470), 0)
+		break
+	case 17:
+		if(load_varpbit(9067) < 11)
+			if_sethide(if_gethash(1083, 480), 0)
+		break
+	case 18:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 518), 0)
+		break
+	case 19:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 528), 0)
+		break
+	case 20:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 538), 0)
+		break
+	case 21:
+		if(load_varpbit(9067) > 10)
+			if_sethide(if_gethash(1083, 558), 0)
+		break
+
+}
+if_sethide(if_gethash(1083, 385), 1)
+if_sethide(if_gethash(1083, 72), 1)
+if_sethide(if_gethash(1083, 67), 1)
+if_sethide(if_gethash(1083, 62), 1)
+if_sethide(if_gethash(1083, 57), 1)
+if_sethide(if_gethash(1083, 52), 1)
+if_sethide(if_gethash(1083, 47), 1)
+if_sethide(if_gethash(1083, 42), 1)
+if_sethide(if_gethash(1083, 37), 1)
+if_sethide(if_gethash(1083, 32), 1)
+if_sethide(if_gethash(1083, 27), 1)
+if_sethide(if_gethash(1083, 22), 1)
+if_sethide(if_gethash(1083, 17), 1)
+if_sethide(if_gethash(1083, 12), 1)
+if_sethide(if_gethash(1083, 431), 1)
+if_sethide(if_gethash(1083, 442), 1)
+if_sethide(if_gethash(1083, 453), 1)
+if_sethide(if_gethash(1083, 493), 1)
+if_sethide(if_gethash(1083, 502), 1)
+if_sethide(if_gethash(1083, 512), 1)
+if_sethide(if_gethash(1083, 552), 1)
+return

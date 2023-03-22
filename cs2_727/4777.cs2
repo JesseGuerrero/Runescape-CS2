@@ -1,0 +1,476 @@
+//script4777(4777)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+int iVar42
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+iVar3 = -1
+sVar0 = ""
+sVar1 = ""
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = load_clan_var(2724) / 100
+iVar8 = load_clan_var(2725) / 100
+iVar9 = load_clan_var(2728) / 100
+iVar10 = load_clan_var(2732) / 100
+iVar11 = load_clan_var(2731) / 100
+iVar12 = load_clan_var(2730) / 100
+iVar13 = load_clan_var(2733) / 100
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = 0
+iVar28 = 0
+iVar29 = 0
+iVar30 = 0
+iVar31 = 0
+iVar32 = 0
+iVar33 = 0
+iVar34 = 0
+iVar35 = 0
+iVar36 = 0
+iVar37 = 0
+iVar38 = arg0
+iVar39 = 0
+iVar40 = 0
+iVar41 = 0
+sVar2 = ""
+sVar3 = ""
+iVar42 = if_getwidth(if_gethash(1115, 8)) - 2
+if(arg0 < 1 || arg0 > 900)
+	return
+if(clan_vars_enabled() == 1) {
+	script_41(73072826)
+	if_sethide(if_gethash(1115, 34), 0)
+	iVar3 = script_4791(arg0).get(0)
+	iVar14 = script_4794(arg2, iVar7, iVar8, iVar9, iVar10, iVar11, iVar12, iVar13).get(0)
+	if(arg0 > 300)
+		if(arg0 < 600)
+			iVar4 = iVar4 - iVar5
+	if(iVar39 == 5)
+		if(iVar4 == 1)
+			sVar3 = "(Basic)"
+		else
+			if(iVar4 == 2)
+				sVar3 = "(Medium)"
+			else
+				if(iVar4 == 3)
+					sVar3 = "(Grand)"
+	else
+		sVar3 = "(Tier " + to_string(iVar4) + ")"
+	if(paramheight(sVar0, 3793, if_getwidth(if_gethash(1115, 37))) > 1)
+		if_settext(if_gethash(1115, 37), sVar0 + " " + sVar3)
+	else
+		if_settext(if_gethash(1115, 37), sVar0 + "<br>" + sVar3)
+	if_setgraphic(if_gethash(1115, 36), iVar3)
+	if(arg0 > 600) {
+		sVar1 = "Upgrade"
+		if_sethide(if_gethash(1115, 80), 1)
+		if_sethide(if_gethash(1115, 42), 1)
+		if_sethide(if_gethash(1115, 41), 0)
+		if_sethide(if_gethash(1115, 119), 0)
+		if(iVar14 == 0) {
+			if_sethide(if_gethash(1115, 8), 1)
+			if_sethide(if_gethash(1115, 9), 0)
+		} else  {
+			if_sethide(if_gethash(1115, 8), 0)
+			if_sethide(if_gethash(1115, 9), 1)
+		}
+		if(iVar15 == 0) {
+			if_sethide(if_gethash(1115, 45), 1)
+			if_sethide(if_gethash(1115, 46), 0)
+		} else  {
+			if_sethide(if_gethash(1115, 45), 0)
+			if_sethide(if_gethash(1115, 46), 1)
+		}
+		if(iVar16 == 0) {
+			if_sethide(if_gethash(1115, 82), 1)
+			if_sethide(if_gethash(1115, 83), 0)
+		} else  {
+			if_sethide(if_gethash(1115, 82), 0)
+			if_sethide(if_gethash(1115, 83), 1)
+		}
+		if(iVar17 == 0) {
+			if_sethide(if_gethash(1115, 86), 1)
+			if_sethide(if_gethash(1115, 87), 0)
+		} else  {
+			if_sethide(if_gethash(1115, 86), 0)
+			if_sethide(if_gethash(1115, 87), 1)
+		}
+		if(iVar18 == 0) {
+			if_sethide(if_gethash(1115, 90), 1)
+			if_sethide(if_gethash(1115, 91), 0)
+		} else  {
+			if_sethide(if_gethash(1115, 90), 0)
+			if_sethide(if_gethash(1115, 91), 1)
+		}
+		if(iVar19 == 0) {
+			if_sethide(if_gethash(1115, 117), 1)
+			if_sethide(if_gethash(1115, 118), 0)
+		} else  {
+			if_sethide(if_gethash(1115, 117), 0)
+			if_sethide(if_gethash(1115, 118), 1)
+		}
+		if_setsize(if_gethash(1115, 12), 0, 0, if_getheight(if_gethash(1115, 12)), (iVar20 * iVar42) / max(iVar14, 1))
+		sVar2 = to_string(iVar20) + "<br>" + "of" + "<br>" + to_string(iVar14)
+		if_setonmouseover(if_gethash(1115, 12), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 98), 0, 0, if_getheight(if_gethash(1115, 98)), (iVar21 * iVar42) / max(iVar15, 1))
+		sVar2 = to_string(iVar21) + "<br>" + "of" + "<br>" + to_string(iVar15)
+		if_setonmouseover(if_gethash(1115, 98), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 103), 0, 0, if_getheight(if_gethash(1115, 103)), (iVar22 * iVar42) / max(iVar16, 1))
+		sVar2 = to_string(iVar22) + "<br>" + "of" + "<br>" + to_string(iVar16)
+		if_setonmouseover(if_gethash(1115, 103), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 108), 0, 0, if_getheight(if_gethash(1115, 108)), (iVar23 * iVar42) / max(iVar17, 1))
+		sVar2 = to_string(iVar23) + "<br>" + "of" + "<br>" + to_string(iVar17)
+		if_setonmouseover(if_gethash(1115, 108), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 113), 0, 0, if_getheight(if_gethash(1115, 113)), (iVar24 * iVar42) / max(iVar18, 1))
+		sVar2 = to_string(iVar24) + "<br>" + "of" + "<br>" + to_string(iVar18)
+		if_setonmouseover(if_gethash(1115, 113), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 121), 0, 0, if_getheight(if_gethash(1115, 121)), (iVar25 * iVar42) / max(iVar19, 1))
+		sVar2 = to_string(iVar25) + "<br>" + "of" + "<br>" + to_string(iVar19)
+		if_setonmouseover(if_gethash(1115, 121), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setposition(if_gethash(1115, 94), 1, 0, 0, (if_getx(if_gethash(1115, 12)) + if_getwidth(if_gethash(1115, 12))) + 1)
+		if_setposition(if_gethash(1115, 99), 1, 0, 0, (if_getx(if_gethash(1115, 98)) + if_getwidth(if_gethash(1115, 98))) + 1)
+		if_setposition(if_gethash(1115, 104), 1, 0, 0, (if_getx(if_gethash(1115, 103)) + if_getwidth(if_gethash(1115, 103))) + 1)
+		if_setposition(if_gethash(1115, 109), 1, 0, 0, (if_getx(if_gethash(1115, 108)) + if_getwidth(if_gethash(1115, 108))) + 1)
+		if_setposition(if_gethash(1115, 114), 1, 0, 0, (if_getx(if_gethash(1115, 113)) + if_getwidth(if_gethash(1115, 113))) + 1)
+		if_setposition(if_gethash(1115, 122), 1, 0, 0, (if_getx(if_gethash(1115, 121)) + if_getwidth(if_gethash(1115, 121))) + 1)
+		if_setsize(if_gethash(1115, 94), 0, 0, if_getheight(if_gethash(1115, 94)), (iVar26 * iVar42) / max(iVar14, 1))
+		sVar2 = to_string(iVar26) + "<br>" + "of" + "<br>" + to_string(iVar14)
+		if_setonmouseover(if_gethash(1115, 94), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 99), 0, 0, if_getheight(if_gethash(1115, 99)), (iVar27 * iVar42) / max(iVar15, 1))
+		sVar2 = to_string(iVar27) + "<br>" + "of" + "<br>" + to_string(iVar15)
+		if_setonmouseover(if_gethash(1115, 99), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 104), 0, 0, if_getheight(if_gethash(1115, 104)), (iVar28 * iVar42) / max(iVar16, 1))
+		sVar2 = to_string(iVar28) + "<br>" + "of" + "<br>" + to_string(iVar16)
+		if_setonmouseover(if_gethash(1115, 104), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 109), 0, 0, if_getheight(if_gethash(1115, 109)), (iVar29 * iVar42) / max(iVar17, 1))
+		sVar2 = to_string(iVar29) + "<br>" + "of" + "<br>" + to_string(iVar17)
+		if_setonmouseover(if_gethash(1115, 109), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 114), 0, 0, if_getheight(if_gethash(1115, 114)), (iVar30 * iVar42) / max(iVar18, 1))
+		sVar2 = to_string(iVar30) + "<br>" + "of" + "<br>" + to_string(iVar18)
+		if_setonmouseover(if_gethash(1115, 114), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 122), 0, 0, if_getheight(if_gethash(1115, 122)), (iVar31 * iVar42) / max(iVar19, 1))
+		sVar2 = to_string(iVar31) + "<br>" + "of" + "<br>" + to_string(iVar19)
+		if_setonmouseover(if_gethash(1115, 122), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setposition(if_gethash(1115, 95), 1, 0, 0, (if_getx(if_gethash(1115, 94)) + if_getwidth(if_gethash(1115, 94))) + 1)
+		if_setposition(if_gethash(1115, 100), 1, 0, 0, (if_getx(if_gethash(1115, 99)) + if_getwidth(if_gethash(1115, 99))) + 1)
+		if_setposition(if_gethash(1115, 105), 1, 0, 0, (if_getx(if_gethash(1115, 104)) + if_getwidth(if_gethash(1115, 104))) + 1)
+		if_setposition(if_gethash(1115, 110), 1, 0, 0, (if_getx(if_gethash(1115, 109)) + if_getwidth(if_gethash(1115, 109))) + 1)
+		if_setposition(if_gethash(1115, 115), 1, 0, 0, (if_getx(if_gethash(1115, 114)) + if_getwidth(if_gethash(1115, 114))) + 1)
+		if_setposition(if_gethash(1115, 123), 1, 0, 0, (if_getx(if_gethash(1115, 122)) + if_getwidth(if_gethash(1115, 122))) + 1)
+		if_setsize(if_gethash(1115, 95), 0, 0, if_getheight(if_gethash(1115, 95)), (iVar32 * iVar42) / max(iVar14, 1))
+		sVar2 = to_string(iVar32) + "<br>" + "of" + "<br>" + to_string(iVar14) + "<br>" + "1:1 ratio"
+		if_setonmouseover(if_gethash(1115, 95), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 100), 0, 0, if_getheight(if_gethash(1115, 100)), (iVar33 * iVar42) / max(iVar15, 1))
+		sVar2 = to_string(iVar33) + "<br>" + "of" + "<br>" + to_string(iVar15) + "<br>" + "1:1 ratio"
+		if_setonmouseover(if_gethash(1115, 100), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 105), 0, 0, if_getheight(if_gethash(1115, 105)), (iVar34 * iVar42) / max(iVar16, 1))
+		sVar2 = to_string(iVar34) + "<br>" + "of" + "<br>" + to_string(iVar16) + "<br>" + "3:1 ratio"
+		if_setonmouseover(if_gethash(1115, 105), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 110), 0, 0, if_getheight(if_gethash(1115, 110)), (iVar35 * iVar42) / max(iVar17, 1))
+		sVar2 = to_string(iVar35) + "<br>" + "of" + "<br>" + to_string(iVar17) + "<br>" + "1:1 ratio"
+		if_setonmouseover(if_gethash(1115, 110), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 115), 0, 0, if_getheight(if_gethash(1115, 115)), (iVar36 * iVar42) / max(iVar18, 1))
+		sVar2 = to_string(iVar36) + "<br>" + "of" + "<br>" + to_string(iVar18) + "<br>" + "1:1 ratio"
+		if_setonmouseover(if_gethash(1115, 115), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 123), 0, 0, if_getheight(if_gethash(1115, 123)), (iVar37 * iVar42) / max(iVar19, 1))
+		sVar2 = to_string(iVar37) + "<br>" + "of" + "<br>" + to_string(iVar19) + "<br>" + "3:1 ratio"
+		if_setonmouseover(if_gethash(1115, 123), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setposition(if_gethash(1115, 96), 1, 0, 0, (if_getx(if_gethash(1115, 95)) + if_getwidth(if_gethash(1115, 95))) + 1)
+		if_setposition(if_gethash(1115, 101), 1, 0, 0, (if_getx(if_gethash(1115, 100)) + if_getwidth(if_gethash(1115, 100))) + 1)
+		if_setposition(if_gethash(1115, 106), 1, 0, 0, (if_getx(if_gethash(1115, 105)) + if_getwidth(if_gethash(1115, 105))) + 1)
+		if_setposition(if_gethash(1115, 111), 1, 0, 0, (if_getx(if_gethash(1115, 110)) + if_getwidth(if_gethash(1115, 110))) + 1)
+		if_setposition(if_gethash(1115, 116), 1, 0, 0, (if_getx(if_gethash(1115, 115)) + if_getwidth(if_gethash(1115, 115))) + 1)
+		if_setposition(if_gethash(1115, 124), 1, 0, 0, (if_getx(if_gethash(1115, 123)) + if_getwidth(if_gethash(1115, 123))) + 1)
+		if_setsize(if_gethash(1115, 96), 0, 0, if_getheight(if_gethash(1115, 96)), ((iVar42 - (if_getwidth(if_gethash(1115, 12)) + 1)) - (if_getwidth(if_gethash(1115, 94)) + 1)) - (if_getwidth(if_gethash(1115, 95)) + 1))
+		sVar2 = to_string(iVar14 - ((iVar20 + iVar26) + iVar32)) + "<br>" + "of" + "<br>" + to_string(iVar14)
+		if_setonmouseover(if_gethash(1115, 96), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 101), 0, 0, if_getheight(if_gethash(1115, 101)), ((iVar42 - (if_getwidth(if_gethash(1115, 98)) + 1)) - (if_getwidth(if_gethash(1115, 99)) + 1)) - (if_getwidth(if_gethash(1115, 100)) + 1))
+		sVar2 = to_string(iVar15 - ((iVar21 + iVar27) + iVar33)) + "<br>" + "of" + "<br>" + to_string(iVar15)
+		if_setonmouseover(if_gethash(1115, 101), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 106), 0, 0, if_getheight(if_gethash(1115, 106)), ((iVar42 - (if_getwidth(if_gethash(1115, 103)) + 1)) - (if_getwidth(if_gethash(1115, 104)) + 1)) - (if_getwidth(if_gethash(1115, 105)) + 1))
+		sVar2 = to_string(iVar16 - ((iVar22 + iVar28) + iVar34)) + "<br>" + "of" + "<br>" + to_string(iVar16)
+		if_setonmouseover(if_gethash(1115, 106), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 111), 0, 0, if_getheight(if_gethash(1115, 111)), ((iVar42 - (if_getwidth(if_gethash(1115, 108)) + 1)) - (if_getwidth(if_gethash(1115, 109)) + 1)) - (if_getwidth(if_gethash(1115, 110)) + 1))
+		sVar2 = to_string(iVar17 - ((iVar23 + iVar29) + iVar35)) + "<br>" + "of" + "<br>" + to_string(iVar17)
+		if_setonmouseover(if_gethash(1115, 111), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 116), 0, 0, if_getheight(if_gethash(1115, 116)), ((iVar42 - (if_getwidth(if_gethash(1115, 113)) + 1)) - (if_getwidth(if_gethash(1115, 114)) + 1)) - (if_getwidth(if_gethash(1115, 115)) + 1))
+		sVar2 = to_string(iVar18 - ((iVar24 + iVar30) + iVar36)) + "<br>" + "of" + "<br>" + to_string(iVar18)
+		if_setonmouseover(if_gethash(1115, 116), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		if_setsize(if_gethash(1115, 124), 0, 0, if_getheight(if_gethash(1115, 124)), ((iVar42 - (if_getwidth(if_gethash(1115, 121)) + 1)) - (if_getwidth(if_gethash(1115, 122)) + 1)) - (if_getwidth(if_gethash(1115, 123)) + 1))
+		sVar2 = to_string(iVar19 - ((iVar25 + iVar31) + iVar37)) + "<br>" + "of" + "<br>" + to_string(iVar19)
+		if_setonmouseover(if_gethash(1115, 124), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		sVar2 = to_string(iVar20) + " paid" + "<br>" + to_string(iVar26) + " available" + "<br>" + to_string(iVar32) + " from wildcard" + "<br>" + to_string(iVar14 - ((iVar20 + iVar26) + iVar32)) + " shortfall"
+		if(iVar14 == 0)
+			if_setonmouseover(if_gethash(1115, 7), None, "")
+		else
+			if_setonmouseover(if_gethash(1115, 7), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		sVar2 = to_string(iVar21) + " paid" + "<br>" + to_string(iVar27) + " available" + "<br>" + to_string(iVar33) + " from wildcard" + "<br>" + to_string(iVar15 - ((iVar21 + iVar27) + iVar33)) + " shortfall"
+		if(iVar15 == 0)
+			if_setonmouseover(if_gethash(1115, 44), None, "")
+		else
+			if_setonmouseover(if_gethash(1115, 44), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		sVar2 = to_string(iVar22) + " paid" + "<br>" + to_string(iVar28) + " available" + "<br>" + to_string(iVar34) + " from wildcard" + "<br>" + to_string(iVar16 - ((iVar22 + iVar28) + iVar34)) + " shortfall"
+		if(iVar16 == 0)
+			if_setonmouseover(if_gethash(1115, 81), None, "")
+		else
+			if_setonmouseover(if_gethash(1115, 81), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+		sVar2 = to_string(iVar23) + " paid" + "<br>" + to_string(iVar29) + " available" + "<br>" + to_string(iVar35) + " from wildcard" + "<br>" + to_string(iVar17 - ((iVar23 + iVar29) + iVar35)) + " shortfall"
+		if(iVar17 == 0)
+			if_setonmouseover(if_gethash(1115, 85), None, "")
+		else
+			if_setonmouseover(if_gethash(1115, 85), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		sVar2 = to_string(iVar24) + " paid" + "<br>" + to_string(iVar30) + " available" + "<br>" + to_string(iVar36) + " from wildcard" + "<br>" + to_string(iVar18 - ((iVar24 + iVar30) + iVar36)) + " shortfall"
+		if(iVar18 == 0)
+			if_setonmouseover(if_gethash(1115, 89), None, "")
+		else
+			if_setonmouseover(if_gethash(1115, 89), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		sVar2 = to_string(iVar25) + " paid" + "<br>" + to_string(iVar31) + " available" + "<br>" + to_string(iVar37) + " from wildcard" + "<br>" + to_string(iVar19 - ((iVar25 + iVar31) + iVar37)) + " shortfall"
+		if(iVar19 == 0)
+			if_setonmouseover(if_gethash(1115, 93), None, "")
+		else
+			if_setonmouseover(if_gethash(1115, 93), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+	} else 
+		if(arg0 < 300) {
+			sVar1 = "Downgrade -" + to_string(iVar5)
+			if_sethide(if_gethash(1115, 80), 0)
+			if_sethide(if_gethash(1115, 42), 0)
+			if_sethide(if_gethash(1115, 41), 1)
+			if_sethide(if_gethash(1115, 119), 1)
+			if_settext(if_gethash(1115, 137), to_string(iVar14))
+			if_settext(if_gethash(1115, 139), to_string(iVar15))
+			if_settext(if_gethash(1115, 141), to_string(iVar16))
+			if_settext(if_gethash(1115, 143), to_string(iVar17))
+			if_settext(if_gethash(1115, 145), to_string(iVar18))
+			if_settext(if_gethash(1115, 147), to_string(iVar19))
+			iVar14 = script_4792(arg0, max(0, iVar4 - iVar5)).get(0)
+			if_settext(if_gethash(1115, 138), to_string(iVar14))
+			if_settext(if_gethash(1115, 140), to_string(iVar15))
+			if_settext(if_gethash(1115, 142), to_string(iVar16))
+			if_settext(if_gethash(1115, 144), to_string(iVar17))
+			if_settext(if_gethash(1115, 146), to_string(iVar18))
+			if_settext(if_gethash(1115, 148), to_string(iVar19))
+		} else  {
+			sVar1 = "Upkeep"
+			if_sethide(if_gethash(1115, 80), 1)
+			if_sethide(if_gethash(1115, 42), 1)
+			if_sethide(if_gethash(1115, 41), 0)
+			if_sethide(if_gethash(1115, 119), 1)
+			if(iVar14 == 0) {
+				if_sethide(if_gethash(1115, 8), 1)
+				if_sethide(if_gethash(1115, 9), 0)
+			} else  {
+				if_sethide(if_gethash(1115, 8), 0)
+				if_sethide(if_gethash(1115, 9), 1)
+			}
+			if(iVar15 == 0) {
+				if_sethide(if_gethash(1115, 45), 1)
+				if_sethide(if_gethash(1115, 46), 0)
+			} else  {
+				if_sethide(if_gethash(1115, 45), 0)
+				if_sethide(if_gethash(1115, 46), 1)
+			}
+			if(iVar16 == 0) {
+				if_sethide(if_gethash(1115, 82), 1)
+				if_sethide(if_gethash(1115, 83), 0)
+			} else  {
+				if_sethide(if_gethash(1115, 82), 0)
+				if_sethide(if_gethash(1115, 83), 1)
+			}
+			if(iVar17 == 0) {
+				if_sethide(if_gethash(1115, 86), 1)
+				if_sethide(if_gethash(1115, 87), 0)
+			} else  {
+				if_sethide(if_gethash(1115, 86), 0)
+				if_sethide(if_gethash(1115, 87), 1)
+			}
+			if(iVar18 == 0) {
+				if_sethide(if_gethash(1115, 90), 1)
+				if_sethide(if_gethash(1115, 91), 0)
+			} else  {
+				if_sethide(if_gethash(1115, 90), 0)
+				if_sethide(if_gethash(1115, 91), 1)
+			}
+			if(iVar19 == 0) {
+				if_sethide(if_gethash(1115, 117), 1)
+				if_sethide(if_gethash(1115, 118), 0)
+			} else  {
+				if_sethide(if_gethash(1115, 117), 0)
+				if_sethide(if_gethash(1115, 118), 1)
+			}
+			if_setsize(if_gethash(1115, 12), 0, 0, if_getheight(if_gethash(1115, 12)), (iVar20 * iVar42) / max(iVar14, 1))
+			sVar2 = to_string(iVar20) + "<br>" + "of" + "<br>" + to_string(iVar14)
+			if_setonmouseover(if_gethash(1115, 12), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 98), 0, 0, if_getheight(if_gethash(1115, 98)), (iVar21 * iVar42) / max(iVar15, 1))
+			sVar2 = to_string(iVar21) + "<br>" + "of" + "<br>" + to_string(iVar15)
+			if_setonmouseover(if_gethash(1115, 98), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 103), 0, 0, if_getheight(if_gethash(1115, 103)), (iVar22 * iVar42) / max(iVar16, 1))
+			sVar2 = to_string(iVar22) + "<br>" + "of" + "<br>" + to_string(iVar16)
+			if_setonmouseover(if_gethash(1115, 103), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 108), 0, 0, if_getheight(if_gethash(1115, 108)), (iVar23 * iVar42) / max(iVar17, 1))
+			sVar2 = to_string(iVar23) + "<br>" + "of" + "<br>" + to_string(iVar17)
+			if_setonmouseover(if_gethash(1115, 108), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 113), 0, 0, if_getheight(if_gethash(1115, 113)), (iVar24 * iVar42) / max(iVar18, 1))
+			sVar2 = to_string(iVar24) + "<br>" + "of" + "<br>" + to_string(iVar18)
+			if_setonmouseover(if_gethash(1115, 113), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 121), 0, 0, if_getheight(if_gethash(1115, 121)), (iVar25 * iVar42) / max(iVar19, 1))
+			sVar2 = to_string(iVar25) + "<br>" + "of" + "<br>" + to_string(iVar19)
+			if_setonmouseover(if_gethash(1115, 121), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setposition(if_gethash(1115, 94), 1, 0, 0, (if_getx(if_gethash(1115, 12)) + if_getwidth(if_gethash(1115, 12))) + 1)
+			if_setposition(if_gethash(1115, 99), 1, 0, 0, (if_getx(if_gethash(1115, 98)) + if_getwidth(if_gethash(1115, 98))) + 1)
+			if_setposition(if_gethash(1115, 104), 1, 0, 0, (if_getx(if_gethash(1115, 103)) + if_getwidth(if_gethash(1115, 103))) + 1)
+			if_setposition(if_gethash(1115, 109), 1, 0, 0, (if_getx(if_gethash(1115, 108)) + if_getwidth(if_gethash(1115, 108))) + 1)
+			if_setposition(if_gethash(1115, 114), 1, 0, 0, (if_getx(if_gethash(1115, 113)) + if_getwidth(if_gethash(1115, 113))) + 1)
+			if_setposition(if_gethash(1115, 122), 1, 0, 0, (if_getx(if_gethash(1115, 121)) + if_getwidth(if_gethash(1115, 121))) + 1)
+			if_setsize(if_gethash(1115, 94), 0, 0, if_getheight(if_gethash(1115, 94)), (iVar26 * iVar42) / max(iVar14, 1))
+			sVar2 = to_string(iVar26) + "<br>" + "of" + "<br>" + to_string(iVar14)
+			if_setonmouseover(if_gethash(1115, 94), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 99), 0, 0, if_getheight(if_gethash(1115, 99)), (iVar27 * iVar42) / max(iVar15, 1))
+			sVar2 = to_string(iVar27) + "<br>" + "of" + "<br>" + to_string(iVar15)
+			if_setonmouseover(if_gethash(1115, 99), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 104), 0, 0, if_getheight(if_gethash(1115, 104)), (iVar28 * iVar42) / max(iVar16, 1))
+			sVar2 = to_string(iVar28) + "<br>" + "of" + "<br>" + to_string(iVar16)
+			if_setonmouseover(if_gethash(1115, 104), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 109), 0, 0, if_getheight(if_gethash(1115, 109)), (iVar29 * iVar42) / max(iVar17, 1))
+			sVar2 = to_string(iVar29) + "<br>" + "of" + "<br>" + to_string(iVar17)
+			if_setonmouseover(if_gethash(1115, 109), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 114), 0, 0, if_getheight(if_gethash(1115, 114)), (iVar30 * iVar42) / max(iVar18, 1))
+			sVar2 = to_string(iVar30) + "<br>" + "of" + "<br>" + to_string(iVar18)
+			if_setonmouseover(if_gethash(1115, 114), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 122), 0, 0, if_getheight(if_gethash(1115, 122)), (iVar31 * iVar42) / max(iVar19, 1))
+			sVar2 = to_string(iVar31) + "<br>" + "of" + "<br>" + to_string(iVar19)
+			if_setonmouseover(if_gethash(1115, 122), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setposition(if_gethash(1115, 95), 1, 0, 0, (if_getx(if_gethash(1115, 94)) + if_getwidth(if_gethash(1115, 94))) + 1)
+			if_setposition(if_gethash(1115, 100), 1, 0, 0, (if_getx(if_gethash(1115, 99)) + if_getwidth(if_gethash(1115, 99))) + 1)
+			if_setposition(if_gethash(1115, 105), 1, 0, 0, (if_getx(if_gethash(1115, 104)) + if_getwidth(if_gethash(1115, 104))) + 1)
+			if_setposition(if_gethash(1115, 110), 1, 0, 0, (if_getx(if_gethash(1115, 109)) + if_getwidth(if_gethash(1115, 109))) + 1)
+			if_setposition(if_gethash(1115, 115), 1, 0, 0, (if_getx(if_gethash(1115, 114)) + if_getwidth(if_gethash(1115, 114))) + 1)
+			if_setposition(if_gethash(1115, 123), 1, 0, 0, (if_getx(if_gethash(1115, 122)) + if_getwidth(if_gethash(1115, 122))) + 1)
+			if_setsize(if_gethash(1115, 95), 0, 0, if_getheight(if_gethash(1115, 95)), (iVar32 * iVar42) / max(iVar14, 1))
+			sVar2 = to_string(iVar32) + "<br>" + "of" + "<br>" + to_string(iVar14) + "<br>" + "1:1 ratio"
+			if_setonmouseover(if_gethash(1115, 95), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 100), 0, 0, if_getheight(if_gethash(1115, 100)), (iVar33 * iVar42) / max(iVar15, 1))
+			sVar2 = to_string(iVar33) + "<br>" + "of" + "<br>" + to_string(iVar15) + "<br>" + "1:1 ratio"
+			if_setonmouseover(if_gethash(1115, 100), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 105), 0, 0, if_getheight(if_gethash(1115, 105)), (iVar34 * iVar42) / max(iVar16, 1))
+			sVar2 = to_string(iVar34) + "<br>" + "of" + "<br>" + to_string(iVar16) + "<br>" + "3:1 ratio"
+			if_setonmouseover(if_gethash(1115, 105), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 110), 0, 0, if_getheight(if_gethash(1115, 110)), (iVar35 * iVar42) / max(iVar17, 1))
+			sVar2 = to_string(iVar35) + "<br>" + "of" + "<br>" + to_string(iVar17) + "<br>" + "1:1 ratio"
+			if_setonmouseover(if_gethash(1115, 110), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 115), 0, 0, if_getheight(if_gethash(1115, 115)), (iVar36 * iVar42) / max(iVar18, 1))
+			sVar2 = to_string(iVar36) + "<br>" + "of" + "<br>" + to_string(iVar18) + "<br>" + "1:1 ratio"
+			if_setonmouseover(if_gethash(1115, 115), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 123), 0, 0, if_getheight(if_gethash(1115, 123)), (iVar37 * iVar42) / max(iVar19, 1))
+			sVar2 = to_string(iVar37) + "<br>" + "of" + "<br>" + to_string(iVar19) + "<br>" + "3:1 ratio"
+			if_setonmouseover(if_gethash(1115, 123), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setposition(if_gethash(1115, 96), 1, 0, 0, (if_getx(if_gethash(1115, 95)) + if_getwidth(if_gethash(1115, 95))) + 1)
+			if_setposition(if_gethash(1115, 101), 1, 0, 0, (if_getx(if_gethash(1115, 100)) + if_getwidth(if_gethash(1115, 100))) + 1)
+			if_setposition(if_gethash(1115, 106), 1, 0, 0, (if_getx(if_gethash(1115, 105)) + if_getwidth(if_gethash(1115, 105))) + 1)
+			if_setposition(if_gethash(1115, 111), 1, 0, 0, (if_getx(if_gethash(1115, 110)) + if_getwidth(if_gethash(1115, 110))) + 1)
+			if_setposition(if_gethash(1115, 116), 1, 0, 0, (if_getx(if_gethash(1115, 115)) + if_getwidth(if_gethash(1115, 115))) + 1)
+			if_setposition(if_gethash(1115, 124), 1, 0, 0, (if_getx(if_gethash(1115, 123)) + if_getwidth(if_gethash(1115, 123))) + 1)
+			if_setsize(if_gethash(1115, 96), 0, 0, if_getheight(if_gethash(1115, 96)), ((iVar42 - (if_getwidth(if_gethash(1115, 12)) + 1)) - (if_getwidth(if_gethash(1115, 94)) + 1)) - (if_getwidth(if_gethash(1115, 95)) + 1))
+			sVar2 = to_string(iVar14 - ((iVar20 + iVar26) + iVar32)) + "<br>" + "of" + "<br>" + to_string(iVar14)
+			if_setonmouseover(if_gethash(1115, 96), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 101), 0, 0, if_getheight(if_gethash(1115, 101)), ((iVar42 - (if_getwidth(if_gethash(1115, 98)) + 1)) - (if_getwidth(if_gethash(1115, 99)) + 1)) - (if_getwidth(if_gethash(1115, 100)) + 1))
+			sVar2 = to_string(iVar15 - ((iVar21 + iVar27) + iVar33)) + "<br>" + "of" + "<br>" + to_string(iVar15)
+			if_setonmouseover(if_gethash(1115, 101), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 106), 0, 0, if_getheight(if_gethash(1115, 106)), ((iVar42 - (if_getwidth(if_gethash(1115, 103)) + 1)) - (if_getwidth(if_gethash(1115, 104)) + 1)) - (if_getwidth(if_gethash(1115, 105)) + 1))
+			sVar2 = to_string(iVar16 - ((iVar22 + iVar28) + iVar34)) + "<br>" + "of" + "<br>" + to_string(iVar16)
+			if_setonmouseover(if_gethash(1115, 106), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 111), 0, 0, if_getheight(if_gethash(1115, 111)), ((iVar42 - (if_getwidth(if_gethash(1115, 108)) + 1)) - (if_getwidth(if_gethash(1115, 109)) + 1)) - (if_getwidth(if_gethash(1115, 110)) + 1))
+			sVar2 = to_string(iVar17 - ((iVar23 + iVar29) + iVar35)) + "<br>" + "of" + "<br>" + to_string(iVar17)
+			if_setonmouseover(if_gethash(1115, 111), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 116), 0, 0, if_getheight(if_gethash(1115, 116)), ((iVar42 - (if_getwidth(if_gethash(1115, 113)) + 1)) - (if_getwidth(if_gethash(1115, 114)) + 1)) - (if_getwidth(if_gethash(1115, 115)) + 1))
+			sVar2 = to_string(iVar18 - ((iVar24 + iVar30) + iVar36)) + "<br>" + "of" + "<br>" + to_string(iVar18)
+			if_setonmouseover(if_gethash(1115, 116), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			if_setsize(if_gethash(1115, 124), 0, 0, if_getheight(if_gethash(1115, 124)), ((iVar42 - (if_getwidth(if_gethash(1115, 121)) + 1)) - (if_getwidth(if_gethash(1115, 122)) + 1)) - (if_getwidth(if_gethash(1115, 123)) + 1))
+			sVar2 = to_string(iVar19 - ((iVar25 + iVar31) + iVar37)) + "<br>" + "of" + "<br>" + to_string(iVar19)
+			if_setonmouseover(if_gethash(1115, 124), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			sVar2 = to_string(iVar26) + " available" + "<br>" + to_string(iVar32) + " from wildcard" + "<br>" + to_string(iVar14 - (iVar26 + iVar32)) + " shortfall"
+			if(iVar14 == 0)
+				if_setonmouseover(if_gethash(1115, 7), None, "")
+			else
+				if_setonmouseover(if_gethash(1115, 7), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			sVar2 = to_string(iVar27) + " available" + "<br>" + to_string(iVar33) + " from wildcard" + "<br>" + to_string(iVar15 - (iVar27 + iVar33)) + " shortfall"
+			if(iVar15 == 0)
+				if_setonmouseover(if_gethash(1115, 44), None, "")
+			else
+				if_setonmouseover(if_gethash(1115, 44), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			sVar2 = to_string(iVar28) + " available" + "<br>" + to_string(iVar34) + " from wildcard" + "<br>" + to_string(iVar16 - (iVar28 + iVar34)) + " shortfall"
+			if(iVar16 == 0)
+				if_setonmouseover(if_gethash(1115, 81), None, "")
+			else
+				if_setonmouseover(if_gethash(1115, 81), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 2, -2147483647, -2147483646)
+			sVar2 = to_string(iVar29) + " available" + "<br>" + to_string(iVar35) + " from wildcard" + "<br>" + to_string(iVar17 - (iVar29 + iVar35)) + " shortfall"
+			if(iVar17 == 0)
+				if_setonmouseover(if_gethash(1115, 85), None, "")
+			else
+				if_setonmouseover(if_gethash(1115, 85), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			sVar2 = to_string(iVar30) + " available" + "<br>" + to_string(iVar36) + " from wildcard" + "<br>" + to_string(iVar18 - (iVar30 + iVar36)) + " shortfall"
+			if(iVar18 == 0)
+				if_setonmouseover(if_gethash(1115, 89), None, "")
+			else
+				if_setonmouseover(if_gethash(1115, 89), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+			sVar2 = to_string(iVar31) + " available" + "<br>" + to_string(iVar37) + " from wildcard" + "<br>" + to_string(iVar19 - (iVar31 + iVar37)) + " shortfall"
+			if(iVar19 == 0)
+				if_setonmouseover(if_gethash(1115, 93), None, "")
+			else
+				if_setonmouseover(if_gethash(1115, 93), script_4538, "IIisifdiiiiii", if_gethash(1115, 186), -2147483645, -1, sVar2, 120, 3793, 3793, 16777215, 13, 4, 0, -2147483647, -2147483646)
+		}
+	if_settext(if_gethash(1115, 79), sVar1)
+}
+return
+return

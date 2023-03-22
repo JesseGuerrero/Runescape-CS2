@@ -1,0 +1,6 @@
+//script6397(6397)()(void)
+if_sethide(if_gethash(1307, 42), 0)
+if_sethide(if_gethash(1307, 72), 0)
+if_settext(if_gethash(1307, 108), "Rewards Locked")
+if_settext(if_gethash(1307, 109), "You need to purchase the 'Unlock Gold Tier' reward to buy this item.")
+return

@@ -1,0 +1,64 @@
+void script_1421(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9) {
+	if (arg1 == 0) {
+		widget(396, 19).setSize(0, 0, 0, 1);
+		widget(396, 21).setText("Wintertodt's Energy: 0%");
+	} else if (arg1 != -1) {
+		widget(396, 19).setSize(mathMethod4006(1, 16384, 0, 3500, arg1), 0, 2, 1);
+		widget(396, 21).setText("Wintertodt's Energy: " + mathMethod4006(1, 100, 0, 3500, arg1) + "%");
+	}
+	widget(396, 7).setText("Points" + "<br>" + arg0);
+	if (arg0 < 500) {
+		widget(396, 7).setRGB(0xFF0000);
+	} else {
+		widget(396, 7).setRGB(0xFFFFFF);
+	}
+	if (arg2 == 1) {
+		widget(396, 8).setSprite(null);
+	} else {
+		widget(396, 8).setSprite(1400);
+	}
+	if (arg3 == 1) {
+		widget(396, 9).setSprite(null);
+	} else {
+		widget(396, 9).setSprite(1400);
+	}
+	if (arg4 == 1) {
+		widget(396, 10).setSprite(null);
+	} else {
+		widget(396, 10).setSprite(1400);
+	}
+	if (arg5 == 1) {
+		widget(396, 11).setSprite(null);
+	} else {
+		widget(396, 11).setSprite(1400);
+	}
+	if (arg6 == 0) {
+		widget(396, 12).setSprite(1397);
+	} else if (arg6 == 1) {
+		widget(396, 12).setSprite(1398);
+	} else if (arg6 == 2) {
+		widget(396, 12).setSprite(1399);
+	}
+	if (arg7 == 0) {
+		widget(396, 13).setSprite(1397);
+	} else if (arg7 == 1) {
+		widget(396, 13).setSprite(1398);
+	} else if (arg7 == 2) {
+		widget(396, 13).setSprite(1399);
+	}
+	if (arg8 == 0) {
+		widget(396, 14).setSprite(1397);
+	} else if (arg8 == 1) {
+		widget(396, 14).setSprite(1398);
+	} else if (arg8 == 2) {
+		widget(396, 14).setSprite(1399);
+	}
+	if (arg9 == 0) {
+		widget(396, 15).setSprite(1397);
+	} else if (arg9 == 1) {
+		widget(396, 15).setSprite(1398);
+	} else if (arg9 == 2) {
+		widget(396, 15).setSprite(1399);
+	}
+	return;
+}

@@ -1,0 +1,30 @@
+//script1603(1603)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+if(instr6621() == 0)
+	return
+iVar2 = 15 + max(0, load_varc(1030) - client_clock())
+store_varc(1030, min(client_clock() + 25, max(client_clock() + 2, load_varc(1030) + 2)))
+switch(load_varc(172)) {
+	case default:
+		break
+	case 37:
+		iVar2 = iVar2 * 5
+		break
+	case 50:
+		iVar2 = iVar2 * 4
+		break
+	case 75:
+		iVar2 = iVar2 * 3
+		break
+	case 100:
+		iVar2 = iVar2 * 2
+		break
+
+}
+iVar3 = 0
+iVar4 = 0
+iVar3 = instr6849().get(0)
+instr6439(movecoord(max(0, iVar4 + (arg1 * iVar2)), 0, max(0, iVar3 + (arg0 * iVar2)), 0))
+return

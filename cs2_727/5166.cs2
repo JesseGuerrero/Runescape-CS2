@@ -1,0 +1,4 @@
+//script5166(5166)()(void)
+store_varc(1591, max(min(65535, load_varc(1591)), 0))
+resume_hsldialog(load_varc(1591))
+return

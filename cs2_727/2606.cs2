@@ -1,0 +1,70 @@
+//script2606(2606)(int arg0)(void)
+int iVar1
+sound_vorbis_volume(255, 0, 1, 10046)
+iVar1 = -1
+switch(load_varc(929)) {
+	case default:
+		break
+	case 0:
+		if(load_varc(930) != -1)
+			iVar1 = inv_getitem(load_varc(930), 93)
+		break
+	case 1:
+		if(load_varc(931) != -1)
+			iVar1 = inv_getitem(load_varc(931), 93)
+		break
+	case 2:
+		if(load_varc(932) != -1)
+			iVar1 = inv_getitem(load_varc(932), 93)
+		break
+	case 3:
+		if(load_varc(933) != -1)
+			iVar1 = inv_getitem(load_varc(933), 93)
+		break
+	case 4:
+		if(load_varc(934) != -1)
+			iVar1 = inv_getitem(load_varc(934), 93)
+		break
+	case 5:
+		if(load_varc(935) != -1)
+			iVar1 = inv_getitem(load_varc(935), 93)
+		break
+	case 6:
+		if(load_varc(936) != -1)
+			iVar1 = inv_getitem(load_varc(936), 93)
+		break
+	case 7:
+		if(load_varc(937) != -1)
+			iVar1 = inv_getitem(load_varc(937), 93)
+		break
+	case 8:
+		if(load_varc(938) != -1)
+			iVar1 = inv_getitem(load_varc(938), 93)
+		break
+	case 9:
+		if(load_varc(939) != -1)
+			iVar1 = inv_getitem(load_varc(939), 93)
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 19136631:
+		if(container_total_param(803, 93) == 0)
+			send_message("You have no squads that need resupplying.")
+		else
+			send_message("You do not have sufficient investment credits to resupply all your squads.")
+		break
+	case 19136634:
+		send_message("You do not have sufficient investment credits to apply the selected changes.")
+		break
+	case 19136623:
+		send_message("You must resupply this squad first.")
+		break
+	case 19136625:
+		send_message("This squad does not need resupplying.")
+		break
+
+}
+return

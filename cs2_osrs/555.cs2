@@ -1,0 +1,9 @@
+void script_555(Widget widget0, Widget widget1, int arg2) {
+	if (getClientCycle() < arg2) {
+		return;
+	}
+	widget0.hookFrame(null);
+	widget1.setIsHidden(false);
+	script_558(widget1);
+	return;
+}

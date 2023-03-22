@@ -1,0 +1,6 @@
+//script2525(2525)(int arg0)(void)
+if(load_varpbit(6378) == 1)
+	if_setgraphic(arg0, 1135)
+else
+	if_setgraphic(arg0, 1134)
+return

@@ -1,0 +1,10 @@
+int script_775(Widget widget0, int arg1, Sprite sprite2, int arg3) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		_CHILD.createChild(widget0, 5, arg3);
+		arg3 = arg3 + 1;
+		_CHILD.setSize(20, 18, 0, 0);
+		_CHILD.setPosition(CHILD.getX() + 8, CHILD.getY() + 8, 0, 0);
+		_CHILD.setSprite(sprite2);
+	}
+	return arg3;
+}

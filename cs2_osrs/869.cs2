@@ -1,0 +1,9 @@
+void script_869(int arg0, Widget widget1) {
+	DataMap datamap2;
+	datamap2 = script_900();
+	if (datamap2 == null) {
+		return;
+	}
+	widget1.setSize(datamap('g', 'i', 1135, datamap2), datamap('g', 'i', 1136, datamap2), 1, 1);
+	return;
+}

@@ -1,0 +1,56 @@
+//script4738(4738)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar2 = 36 / 4
+iVar3 = 0
+iVar4 = -1
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = enum(3879, load_varpbit(9903), 'i', 'v')
+iVar9 = 0
+while(iVar3 < inv_size(iVar8)) {
+	if(cc_find(iVar3, arg0) == 1) {
+		iVar4 = inv_getitem(iVar3, iVar8)
+		iVar5 = inv_total(iVar4, iVar8)
+		if(iVar4 != -1)
+			if(script_4733(iVar3) == 1)
+				if(iVar5 > 0) {
+					iVar9 = iVar9 + iVar5
+					if(iVar7 + 36 >= if_getwidth(arg0)) {
+						iVar7 = 0
+						iVar6 = (iVar6 + iVar2) + 36
+					}
+					cc_setsize(0, 0, 32, 36)
+					cc_setposition(0, 0, iVar6, iVar7)
+					cc_sethide(0)
+					cc_setitem(iVar5, iVar4)
+					cc_setgraphicshadow(3355443)
+					cc_setoutline(1)
+					cc_setop("Delete", 1)
+					cc_setop("Examine", 10)
+					cc_setopbase("<col=ff9040>" + item_name(iVar4))
+					iVar7 = (iVar7 + iVar2) + 36
+					instr6687(script_4739, "Iii", -2147483645, -2147483643, -2147483644)
+					instr6091(script_4745, "Ii", -2147483645, -2147483643)
+					instr6092(script_4746, "Ii", -2147483645, -2147483643)
+				} else  {
+					cc_setsize(0, 0, 0, 0)
+					cc_setposition(0, 0, 0, 0)
+					cc_sethide(1)
+					instr6687(None, "")
+				}
+	}
+	iVar3 = iVar3 + 1
+}
+iVar10 = 0
+if(iVar9 == 1)
+	iVar10 = 1
+return iVar10

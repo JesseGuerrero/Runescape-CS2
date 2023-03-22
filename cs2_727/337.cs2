@@ -1,0 +1,31 @@
+//script337(337)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = arg1 + (arg0 * 25)
+if(client_clock() > iVar2 + 50) {
+	cc_deleteall(if_gethash(1216, 0))
+	instr6342(if_gethash(1216, 8), None, "")
+	return
+}
+iVar3 = 0
+iVar4 = random(150)
+iVar5 = random(50)
+while(iVar3 < arg0) {
+	if(client_clock() == arg1 + (iVar3 * 25)) {
+		cc_deleteall(if_gethash(1216, 0))
+		cc_create(if_getnextsubid(if_gethash(1216, 0)), 6, 79691776)
+		cc_setsize(0, 0, 114, 121)
+		cc_setmodel(32150)
+		cc_setmodelanim(15754)
+		cc_setmodelangle(900 + random(1000), 0, 0, 512, 0, 0)
+		iVar4 = random(150)
+		iVar5 = random(50)
+		if(random(2) == 1)
+			iVar4 = iVar4 * -1
+		cc_setposition(0, 1, iVar5, iVar4)
+	}
+	iVar3 = iVar3 + 1
+}
+return

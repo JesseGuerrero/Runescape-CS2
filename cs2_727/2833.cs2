@@ -1,0 +1,55 @@
+//script2833(2833)(int arg0)(void)
+cc_setopbase(script_4033(arg0) + item_name(arg0))
+switch(arg0) {
+	case default:
+		break
+	case 6102:
+		script_2411(arg0)
+		return
+
+	case 13562:
+		script_2431(arg0)
+		return
+
+	case 18339:
+		script_1273(arg0)
+		return
+
+	case 5509:
+		script_5862(5509)
+		return
+
+	case 5511:
+		script_5862(5510)
+		return
+
+	case 5513:
+		script_5862(5512)
+		return
+
+	case 5515:
+		script_5862(5514)
+		return
+
+	case 24202:
+		script_2431(arg0)
+		return
+
+	case 19866:
+		script_2431(arg0)
+		return
+
+	case 24205:
+		script_6186(arg0)
+		return
+
+
+}
+if(item_uncert(arg0) != arg0)
+	if(load_varpbit(9030) == 1) {
+		script_2410(50, oc_icursor(2, arg0), oc_icursor(3, arg0), oc_icursor(4, arg0), oc_icursor(5, arg0), "Read", item_iop(2, arg0), item_iop(3, arg0), item_iop(4, arg0), item_iop(5, arg0), item_name(arg0))
+		return
+	}
+instr6095(None, "")
+script_2410(oc_icursor(1, arg0), oc_icursor(2, arg0), oc_icursor(3, arg0), oc_icursor(4, arg0), oc_icursor(5, arg0), item_iop(1, arg0), item_iop(2, arg0), item_iop(3, arg0), item_iop(4, arg0), item_iop(5, arg0), item_name(arg0))
+return

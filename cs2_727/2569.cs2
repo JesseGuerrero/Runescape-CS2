@@ -1,0 +1,8 @@
+//script2569(2569)()(void)
+if_sethide(if_gethash(292, 130), 1)
+if(world_language() == 0)
+	if_settextfont(if_gethash(292, 124), 496)
+else
+	if_settextfont(if_gethash(292, 124), 494)
+script_2570()
+return

@@ -1,0 +1,6 @@
+//script2243(2243)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+if_settext(if_gethash(935, 80), to_string(arg6))
+if_settext(if_gethash(935, 85), to_string(arg7))
+if_settext(if_gethash(935, 101), to_string(arg8 / 100) + "." + to_string(modulo(100, arg8)))
+instr6342(if_gethash(935, 0), script_2244, "iiiiiiiiiiii", 0, arg0, arg1, 0, arg2, arg3, 0, arg4, arg5, arg6, arg7, arg8)
+return

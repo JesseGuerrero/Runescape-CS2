@@ -1,0 +1,61 @@
+//script192(192)()(void)
+int iVar0
+int iVar1
+if(load_varp(281) < 1000)
+	return
+iVar0 = instr6225()
+iVar1 = 0
+if(iVar0 > load_varc(43)) {
+	if(load_varc(41) == 0) {
+		store_varc(43, iVar0)
+		return
+	}
+	iVar0 = (iVar0 - load_varc(43)) - 1
+	if(iVar0 >= 100)
+		iVar0 = 99
+	while(iVar0 >= 0) {
+		iVar1 = chatline_gettype(iVar0)
+		if(script_90(iVar0, 0) == 1)
+			if(script_506(iVar0) == 0)
+				switch(iVar1) {
+					case default:
+						break
+					case 117:
+						script_180(1)
+						break
+					case 116:
+						script_180(2)
+						break
+					case 31:
+						script_180(3)
+						break
+					case 20:
+						script_180(4)
+						break
+					case 119:
+						script_180(5)
+						break
+					case 104:
+						script_180(6)
+						break
+					case 42:
+						script_180(7)
+						break
+					case 45:
+						script_180(7)
+						break
+					case 115:
+						if(string_length(chat_getmessage(iVar0)) > 1)
+							script_180(1)
+						break
+					case 120:
+						if(load_varc(41) == -1)
+							script_180(1)
+						break
+
+				}
+		iVar0 = iVar0 - 1
+	}
+	store_varc(43, instr6225())
+}
+return

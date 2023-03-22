@@ -1,0 +1,23 @@
+void script_1737(int arg0, char char1, Widget widget2, int arg3, int arg4, Location arg5) {
+	if (script_1701(-1, 595) == 0) {
+		return;
+	}
+	if (VARC[190] == 1 && CHILD.setChild(widget2, arg3) == true && _CHILD.setChild(widget2, arg4) == true) {
+		if (arg0 == 84) {
+			if (arg5 != null) {
+				playSoundEffect(2266, 1, 0);
+				cs2method6606(arg5);
+				script_1735(widget2);
+			}
+			return;
+		}
+		if (arg0 == 13) {
+			playSoundEffect(2266, 1, 0);
+			script_1735(widget2);
+			return;
+		}
+		STRING[138] = script_74(STRING[138], 4, arg0, char1);
+		script_1738("", widget2);
+	}
+	return;
+}

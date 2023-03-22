@@ -1,0 +1,45 @@
+//script4634(4634)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+if(instr6703() == 2)
+	instr6623()
+iVar1 = -1
+script_1174(11)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		iVar1 = 0
+		break
+
+}
+store_varc(1100, -1)
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+store_varc(200, 0)
+store_varc(201, 0)
+iVar6 = 39059514
+iVar7 = 39059500
+if(instr6710() == 1) {
+	iVar6 = 63897649
+	iVar7 = 63897644
+}
+if_settext(iVar6, "Logging in...")
+hook_mouse_press(iVar7, None, "")
+script_2950(-3, 0, 1, -1, 1, 1, 0, "Logging In - Please Wait", "Abort Login", "")
+hook_mouse_press(if_gethash(596, 14), script_4635, "")
+if_sethide(if_gethash(596, 8), 0)
+store_varc(1100, -3)
+instr6719(iVar1)
+if(instr6710() == 1)
+	instr6342(if_gethash(975, 26), script_2946, "i", arg0)
+else
+	instr6342(if_gethash(596, 6), script_2946, "i", arg0)
+return

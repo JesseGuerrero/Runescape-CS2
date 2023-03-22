@@ -1,0 +1,11 @@
+//script1960(1960)()(void)
+if(load_varc(1279) != 0)
+	sound_synth(0, 1, 9445)
+store_varc(1279, 0)
+if_sethide(if_gethash(60, 45), 0)
+if_sethide(if_gethash(60, 46), 1)
+if_sethide(if_gethash(60, 87), 1)
+if_sethide(if_gethash(60, 20), 0)
+if_sethide(if_gethash(60, 17), 1)
+if_sethide(if_gethash(60, 14), 1)
+return

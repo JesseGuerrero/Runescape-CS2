@@ -1,0 +1,27 @@
+void script_329(Widget widget0, int arg1, int arg2, Widget widget3, int arg4) {
+	int int5;
+	int int6;
+	Sprite sprite7;
+	int5 = 32;
+	int6 = 36;
+	sprite7 = 780;
+	if (VARPBIT[276] != 0) {
+		sprite7 = datamap('i', 'd', 796, VARPBIT[276]);
+		if (sprite7 != null) {
+			int5, int6 = 24, 24;
+		} else {
+			sprite7 = 780;
+		}
+		if (VARPBIT[2668] == arg4) {
+			widget3.setSprite(654);
+		} else {
+			widget3.setSprite(653);
+		}
+	} else {
+		widget3.setSprite(653);
+	}
+	widget0.setSize(int5, int6, 0, 0);
+	widget0.setSprite(sprite7);
+	widget0.setPosition(arg1 - int5 / 2, arg2 - int6 / 2, 0, 0);
+	return;
+}

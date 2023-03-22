@@ -1,0 +1,9 @@
+//script801(801)(int arg0, int arg1)(void)
+if_setcolor(arg0, script_805(arg1))
+if(arg1 == 5)
+	if_settext(arg0, to_string(load_varpbit(9816)))
+else
+	if_settext(arg0, to_string(stat(arg1)))
+if(arg1 == 23)
+	script_810()
+return

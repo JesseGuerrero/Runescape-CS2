@@ -1,0 +1,31 @@
+//script700(700)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return load_varpbit(1000)
+
+	case 2:
+		return load_varpbit(1001)
+
+	case 3:
+		return load_varpbit(1002)
+
+	case 4:
+		return load_varpbit(1003)
+
+	case 5:
+		return load_varpbit(1004)
+
+	case 6:
+		return load_varpbit(1005)
+
+	case 7:
+		return load_varpbit(1006)
+
+	case 8:
+		return load_varpbit(1009)
+
+
+}
+return 0

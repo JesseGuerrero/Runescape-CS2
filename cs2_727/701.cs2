@@ -1,0 +1,28 @@
+//script701(701)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+while(iVar0 < inv_size(if_gethash(0, 93))) {
+	cc_create(iVar0, 5, 31326222)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, 40 * iVar2, 40 * iVar1)
+	if(inv_getitem(iVar0, 93) != -1) {
+		cc_setitem(inv_getnum(iVar0, 93), inv_getitem(iVar0, 93))
+		cc_setopbase(item_name(inv_getitem(iVar0, 93)))
+		cc_setop("Deposit", 1)
+		cc_setop("Examine", 2)
+		instr6499(script_703, "IiIi", -2147483645, -2147483643, if_gethash(-32768, 6), -2147483641)
+		instr6443(5)
+		instr6075(10)
+	}
+	iVar0 = iVar0 + 1
+	iVar1 = iVar1 + 1
+	if(iVar1 == 8) {
+		iVar1 = 0
+		iVar2 = iVar2 + 1
+	}
+}
+return

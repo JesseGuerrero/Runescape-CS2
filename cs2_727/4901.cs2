@@ -1,0 +1,27 @@
+//script4901(4901)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = 1
+if(clan_vars_enabled() == 1) {
+	iVar4 = load_clan_varbit(2580)
+	iVar0 = script_4904(0, 0, iVar4)
+	if(iVar0 != -1)
+		if_setgraphic(if_gethash(1259, 24), iVar0)
+	iVar1 = script_4904(0, 1, iVar4)
+	if(iVar1 != -1)
+		if_setgraphic(if_gethash(1259, 23), iVar1)
+	iVar2 = script_4904(0, 2, iVar4)
+	if(iVar2 != -1)
+		if_setgraphic(if_gethash(1259, 22), iVar2)
+	iVar3 = script_4904(0, 3, iVar4)
+	if(iVar3 != -1)
+		if_setgraphic(if_gethash(1259, 21), iVar3)
+}
+return

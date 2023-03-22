@@ -1,0 +1,13 @@
+//script4092(4092)(int arg0)(void)
+int iVar1
+iVar1 = if_gettrans(if_gethash(1202, 0))
+if(iVar1 < 30 + (arg0 - 1)) {
+	if_settrans(if_gethash(1202, 0), 30)
+	if_settrans(if_gethash(1202, 2), 20)
+	instr6342(if_gethash(1202, 0), None, "")
+	return
+} else  {
+	if_settrans(if_gethash(1202, 0), iVar1 - arg0)
+	if_settrans(if_gethash(1202, 2), (iVar1 - arg0) / 2)
+}
+return

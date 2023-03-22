@@ -1,0 +1,7 @@
+//script526(526)(int arg0, int arg1, int arg2)(void)
+if_sethide(arg1, arg0)
+if(arg0 == 1)
+	if_setfill(arg2, 0)
+script_41(19726421)
+store_varc(1, 0)
+return

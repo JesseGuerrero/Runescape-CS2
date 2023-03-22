@@ -1,0 +1,14 @@
+//script5048(5048)()(void)
+int iVar0
+int iVar1
+iVar0 = load_varc(1396) * ((112 + 2) + 2)
+iVar1 = 0
+while(iVar1 < 200) {
+	if(cc_find(iVar1, if_gethash(1111, 15)) == 1) {
+		cc_setsize(0, 0, (load_varc(1396) * instr6771(1477)) - 1, (load_varc(1396) * instr6771(1476)) - 1)
+		cc_setposition(0, 0, iVar0 - ((((instr6771(1475) + 2) * load_varc(1396)) + 1) + cc_getheight()), (instr6771(1474) + 2) * load_varc(1396))
+	}
+	iVar1 = iVar1 + 1
+}
+if_setposition(if_gethash(1111, 48), 1, 0, 0, scale(if_getwidth(if_getlayer(if_gethash(1111, 48))) - if_getwidth(if_gethash(1111, 48)), max(1, 21 - 3), max(0, load_varc(1396) - 3)))
+return

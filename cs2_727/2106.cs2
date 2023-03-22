@@ -1,0 +1,6 @@
+//script2106(2106)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+arg4 = max(-5, min(5, (arg4 + random_inclusive(1)) - random_inclusive(1)))
+arg5 = max(-5, min(5, (arg5 + random_inclusive(1)) - random_inclusive(1)))
+if_setposition(arg1, 0, 0, arg3 + arg5, arg2 + arg4)
+instr6342(arg0, script_2106, "IIiiii", arg0, arg1, arg2, arg3, arg4, arg5)
+return

@@ -1,0 +1,9 @@
+//script2629(2629)(int arg0)(void)
+if(load_varc(905) == arg0)
+	if(load_varc(904) == 1) {
+		script_2635()
+		return
+	}
+script_2635()
+script_2630(arg0)
+return

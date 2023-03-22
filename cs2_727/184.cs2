@@ -1,0 +1,31 @@
+//script184(184)(int arg0, int arg1)(void)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(arg1 > 0)
+			store_varpbit(6161, 1)
+		else
+			store_varpbit(6161, 0)
+		break
+	case 2:
+		chat_setfilter(chat_getfilter_trade(), chat_getfilter_private(), arg1)
+		break
+	case 3:
+		chat_setfilter(chat_getfilter_trade(), arg1, chat_getfilter_public())
+		break
+	case 4:
+		store_varp(2159, arg1)
+		break
+	case 5:
+		chat_setfilter(arg1, chat_getfilter_private(), chat_getfilter_public())
+		break
+	case 6:
+		store_varp(1055, arg1)
+		break
+	case 7:
+		store_varp(1054, arg1)
+		break
+
+}
+return

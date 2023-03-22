@@ -1,0 +1,142 @@
+//script5078(5078)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+script_4762(73007128, 1788)
+cc_deleteall(if_gethash(1114, 5))
+iVar1 = 0
+iVar2 = enum_getoutputcount(3921)
+iVar3 = -1
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+globalArrays[0] = [iVar2 + 1, 105]
+iVar7 = 1
+while(iVar1 < iVar2) {
+	iVar3 = enum(3921, iVar1, 'i', 'g')
+	if(iVar3 != -1) {
+		iVar4 = 0
+		while(iVar4 < iVar5) {
+			iVar6 = max(stringwidth(494, enum(iVar3, iVar4, 'i', 's')), iVar6)
+			iVar4 = iVar4 + 1
+		}
+		globalArrays[0][iVar7] = globalArrays[0][iVar7 - 1] + iVar5
+		iVar7 = iVar7 + 1
+	}
+	iVar1 = iVar1 + 1
+}
+iVar8 = iVar6 + 28
+iVar1 = 0
+iVar9 = 0
+iVar10 = 0
+while(iVar1 < iVar2) {
+	iVar3 = enum(3921, iVar1, 'i', 'g')
+	if(iVar3 != -1) {
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 3, 73007109)
+		cc_setsize(0, 1, 33, 0)
+		cc_setposition(0, 0, iVar9, 0)
+		cc_setfill(1)
+		if(modulo(2, iVar1) == 0)
+			cc_setcolor(211f1c)
+		else
+			cc_setcolor(181715)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 4, 73007109)
+		cc_setsize(0, 1, 33, iVar8 + 15)
+		cc_setposition(0, 0, iVar9, 5)
+		cc_settextfont(494)
+		cc_settextalign(0, 1, 0)
+		cc_setcolor(e9e2b4)
+		cc_settextshadow(1)
+		cc_settext(enum(iVar3, -1, 'i', 's'))
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 3, 73007109)
+		cc_setsize(0, 0, 21, iVar8)
+		cc_setposition(0, 2, iVar9 + 6, 6)
+		cc_settrans(255)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 5, 73007109)
+		cc_setsize(0, 0, cc_getheight(), cc_getwidth() - 40)
+		cc_setposition(0, 2, cc_gety(), 26)
+		if(load_varc(1095) == 1)
+			cc_setgraphic(6132)
+		else
+			cc_setgraphic(6141)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 5, 73007109)
+		cc_setsize(0, 0, cc_getheight(), cc_getwidth() - 40)
+		cc_setposition(0, 2, cc_gety(), 26)
+		if(load_varc(1095) == 1) {
+			cc_setgraphic(6135)
+			cc_settrans(255)
+		} else 
+			cc_sethide(1)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 5, 73007109)
+		cc_setsize(0, 0, cc_getheight(), 20)
+		cc_setposition(0, 0, cc_gety(), cc_getx())
+		if(load_varc(1095) == 1)
+			cc_setgraphic(6131)
+		else
+			cc_setgraphic(6140)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 5, 73007109)
+		cc_setsize(0, 0, cc_getheight(), 20)
+		cc_setposition(0, 0, cc_gety(), cc_getx())
+		if(load_varc(1095) == 1) {
+			cc_setgraphic(6134)
+			cc_settrans(255)
+		} else 
+			cc_sethide(1)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 5, 73007109)
+		cc_setsize(0, 0, cc_getheight(), 20)
+		cc_setposition(0, 2, cc_gety(), 6)
+		if(load_varc(1095) == 1)
+			cc_setgraphic(6133)
+		else
+			cc_setgraphic(6142)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 5, 73007109)
+		cc_setsize(0, 0, cc_getheight(), 20)
+		cc_setposition(0, 2, cc_gety(), 6)
+		if(load_varc(1095) == 1) {
+			cc_setgraphic(6136)
+			cc_settrans(255)
+		} else 
+			cc_sethide(1)
+		cc_create(if_getnextsubid(if_gethash(1114, 5)), 4, 73007109)
+		cc_setsize(0, 0, 21, iVar6)
+		cc_setposition(0, 2, cc_gety(), 30)
+		cc_settextfont(494)
+		cc_settextalign(0, 1, 1)
+		cc_setcolor(efb063)
+		cc_settextshadow(0)
+		cc_settext("")
+		iVar9 = iVar9 + 33
+		if(load_varc(1095) == 1) {
+			instr6091(script_5086, "Iii", -2147483645, iVar1, 0)
+			instr6092(script_5086, "Iii", -2147483645, iVar1, 1)
+			instr6450(script_5086, "Iii", -2147483645, iVar1, 255)
+			if(iVar3 == 3922)
+				instr6088(script_5081, "Iigiiii", -2147483645, iVar1, iVar3, globalArrays[0][iVar1], min(load_varpbit(9544), globalArrays[0][iVar1 + 1] - globalArrays[0][iVar1]), iVar10, iVar8)
+			else
+				instr6088(script_5081, "Iigiiii", -2147483645, iVar1, iVar3, globalArrays[0][iVar1], globalArrays[0][iVar1 + 1] - globalArrays[0][iVar1], iVar10, iVar8)
+		}
+	}
+	iVar1 = iVar1 + 1
+}
+if(iVar9 > if_getheight(if_gethash(1114, 5))) {
+	if_setscrollsize(73007109, iVar9, 0)
+	if_setscrollpos(if_gethash(1114, 5), if_getscrolly(73007109), 0)
+} else  {
+	if_setscrollsize(73007109, 0, 0)
+	if_setscrollpos(if_gethash(1114, 5), 0, 0)
+}
+script_31(73007110, 73007109, 6507, 6504, 6505, 6506, 6499, 6498)
+script_5080(73007109)
+hook_mouse_press(if_gethash(1114, 22), script_5084, "I", if_gethash(1114, 5))
+instr6257(arg0, script_5078, "IY", 1, 1095, -2147483645)
+instr6237(arg0, script_5078, "IY", 1, 1734, -2147483645)
+instr6237(if_gethash(1114, 5), script_5079, "IY", 1, 1736, -2147483645)
+instr6507(if_gethash(1114, 5), script_5079, "IY", 1, 129, -2147483645)
+return

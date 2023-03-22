@@ -1,0 +1,378 @@
+//script5350(5350)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+string sVar0
+string sVar1
+string sVar2
+iVar2 = 5181
+sVar0 = "Home"
+iVar3 = 0
+if(load_varpbit(9487) == 1) {
+	iVar2 = 5182
+	sVar0 = "Auras"
+	iVar3 = 1
+} else 
+	if(load_varpbit(9487) == 9) {
+		iVar2 = 5724
+		sVar0 = "Cosmetic Auras"
+		iVar3 = 9
+	} else 
+		if(load_varpbit(9487) == 2) {
+			iVar2 = 3875
+			sVar0 = "Emotes"
+			iVar3 = 2
+		} else 
+			if(load_varpbit(9487) == 3) {
+				if(gender() == 0)
+					iVar2 = 5189
+				else
+					iVar2 = 5188
+				sVar0 = "Costumes"
+				iVar3 = 3
+			} else 
+				if(load_varpbit(9487) == 4) {
+					iVar2 = 5184
+					sVar0 = "Titles"
+					iVar3 = 4
+				} else 
+					if(load_varpbit(9487) == 5) {
+						iVar2 = 5183
+						sVar0 = "Re-colour"
+						iVar3 = 5
+					} else 
+						if(load_varpbit(9487) == 6) {
+							sVar0 = "Special Offers"
+							iVar3 = 6
+						} else 
+							if(load_varpbit(9487) == 7) {
+								sVar0 = "Limited Edition"
+								iVar3 = 7
+							} else 
+								if(load_varpbit(9487) == 8) {
+									sVar0 = "My Favourites"
+									iVar3 = 8
+								}
+iVar4 = 74907653
+iVar5 = if_getscrolly(iVar4)
+iVar6 = 74907725
+iVar7 = 74907726
+iVar8 = 74907724
+iVar9 = 74907714
+iVar10 = 74907715
+iVar11 = 74907716
+iVar12 = 74907717
+iVar13 = 74907718
+iVar14 = 74907719
+iVar15 = 74907708
+iVar16 = 74907709
+iVar17 = 74907710
+iVar18 = 74907711
+iVar19 = 74907712
+iVar20 = 74907713
+cc_deleteall(iVar4)
+cc_deleteall(iVar6)
+cc_deleteall(iVar7)
+cc_deleteall(iVar8)
+cc_deleteall(iVar9)
+cc_deleteall(iVar10)
+cc_deleteall(iVar11)
+cc_deleteall(iVar12)
+cc_deleteall(iVar13)
+cc_deleteall(iVar14)
+cc_deleteall(iVar15)
+cc_deleteall(iVar16)
+cc_deleteall(iVar17)
+cc_deleteall(iVar18)
+cc_deleteall(iVar19)
+cc_deleteall(iVar20)
+if_sethide(if_gethash(1143, 79), 1)
+if_settext(if_gethash(1143, 80), append(sVar0, "Now Viewing: "))
+iVar21 = 0
+iVar22 = 6
+iVar23 = iVar22
+iVar24 = iVar22
+iVar25 = 0
+iVar26 = -1
+iVar27 = 7835
+iVar28 = 7836
+iVar29 = 7837
+iVar30 = 0
+iVar31 = 0
+iVar32 = 0
+iVar33 = 0
+iVar34 = 0
+sVar1 = ""
+iVar35 = -1
+iVar36 = 0
+iVar37 = 0
+sVar2 = "See More"
+iVar38 = 0
+if(iVar3 == 0) {
+	iVar27 = 7826
+	iVar28 = 7827
+	iVar29 = 7828
+	iVar22 = 20
+	iVar23 = 0
+	iVar24 = iVar22
+	cc_create(iVar21, 5, iVar8)
+	iVar21 = iVar21 + 1
+	cc_setposition(0, 0, 24, 17)
+	cc_setgraphic(7803)
+	iVar36 = 311
+	iVar37 = 311
+	cc_setsize(0, 0, iVar37, iVar36)
+	cc_setop(sVar2, 1)
+	cc_create(iVar21, 5, iVar8)
+	iVar21 = iVar21 + 1
+	cc_setgraphic(10133)
+	cc_setsize(0, 0, 219, 219)
+	cc_setposition(0, 0, 24, 17)
+	cc_setposition(0, 0, (cc_gety() + 20) + ((iVar37 - cc_getheight()) / 2), cc_getx() + ((iVar36 - cc_getwidth()) / 2))
+	cc_create(iVar21, 5, iVar8)
+	iVar21 = iVar21 + 1
+	cc_setposition(0, 0, 62, 0)
+	cc_setsize(0, 0, 34, 348)
+	switch(world_language()) {
+		case default:
+			cc_setgraphic(7806)
+			break
+		case 1:
+			cc_setgraphic(7808)
+			break
+		case 2:
+			cc_setgraphic(7807)
+			break
+		case 3:
+			cc_setgraphic(7809)
+			break
+
+	}
+	cc_create(iVar21, 4, iVar8)
+	iVar21 = iVar21 + 1
+	cc_setposition(0, 0, 275, 165)
+	cc_settext(sVar2)
+	cc_settextfont(4040)
+	cc_settextshadow(1)
+	cc_setcolor(e5bd59)
+	cc_settextalign(13, 1, 2)
+	cc_setsize(0, 0, 24, 122)
+	while(iVar38 < enum_getoutputcount(iVar2)) {
+		iVar26 = enum(iVar2, iVar38, 'i', 'J')
+		cc_create(iVar21, 5, iVar8)
+		iVar21 = iVar21 + 1
+		cc_setposition(0, 2, iVar24, iVar23)
+		cc_setgraphic(iVar29)
+		iVar30 = 68
+		iVar31 = 92
+		iVar23 = iVar23 + iVar30
+		cc_setsize(0, 0, iVar31, iVar30)
+		switch(struct_param(1937, iVar26)) {
+			case default:
+				break
+			case 1:
+				iVar35 = iVar9
+				break
+			case 9:
+				iVar35 = iVar10
+				break
+			case 2:
+				iVar35 = iVar11
+				break
+			case 3:
+				iVar35 = iVar12
+				break
+			case 4:
+				iVar35 = iVar13
+				break
+			case 5:
+				iVar35 = iVar14
+				break
+
+		}
+		cc_create(if_getnextsubid(iVar35), 4, iVar35)
+		cc_setposition(0, 2, iVar24, iVar23 - iVar30)
+		cc_setsize(0, 0, iVar31, iVar30 * 3)
+		cc_setop(sVar2, 1)
+		instr6091(script_5360, "Iiii1", iVar8, iVar21 + 1, iVar21, iVar21 - 1, 1)
+		instr6092(script_5360, "Iiii1", iVar8, iVar21 + 1, iVar21, iVar21 - 1, 0)
+		cc_create(iVar21, 5, iVar8)
+		iVar21 = iVar21 + 1
+		cc_setposition(0, 2, iVar24, iVar23)
+		iVar23 = iVar23 + iVar30
+		cc_setgraphic(iVar28)
+		cc_setsize(0, 0, iVar31, iVar30)
+		cc_create(iVar21, 5, iVar8)
+		iVar21 = iVar21 + 1
+		cc_setposition(0, 2, iVar24, iVar23)
+		iVar23 = iVar23 + iVar30
+		cc_setgraphic(iVar27)
+		cc_setsize(0, 0, iVar31, iVar30)
+		cc_create(iVar21, 5, iVar8)
+		iVar21 = iVar21 + 1
+		if(struct_param(1937, iVar26) == 1) {
+			cc_setitem(-1, struct_param(1935, iVar26))
+			cc_setsize(0, 0, 32, 36)
+			cc_setposition(0, 2, iVar24 + 29, iVar23 - 63)
+		} else 
+			if(struct_param(1937, iVar26) == 9) {
+				cc_setitem(-1, struct_param(1935, iVar26))
+				cc_setsize(0, 0, 32, 36)
+				cc_setposition(0, 2, iVar24 + 29, iVar23 - 63)
+			} else 
+				if(struct_param(1937, iVar26) == 2) {
+					cc_setgraphic(struct_param(1420, iVar26))
+					cc_setsize(0, 0, 48, 48)
+					cc_setposition(0, 2, iVar24 + 21, iVar23 - 65)
+				} else 
+					if(struct_param(1937, iVar26) == 3) {
+						cc_setgraphic(struct_param(1441, iVar26))
+						cc_setsize(0, 0, 50, 40)
+						cc_setposition(0, 2, iVar24 + 20, iVar23 - 61)
+					} else 
+						if(struct_param(1937, iVar26) == 4) {
+							cc_setgraphic(7883)
+							cc_setsize(0, 0, 42, 42)
+							cc_setposition(0, 2, iVar24 + 25, iVar23 - 63)
+						} else 
+							if(struct_param(1937, iVar26) == 5) {
+								cc_setitem(-1, struct_param(1935, iVar26))
+								cc_setsize(0, 0, 32, 36)
+								cc_setposition(0, 2, iVar24 + 29, iVar23 - 62)
+							}
+		if(struct_param(1933, iVar26) > 0) {
+			cc_create(iVar21, 5, iVar8)
+			iVar21 = iVar21 + 1
+			cc_setposition(0, 2, iVar24 + 4, iVar23 - 44)
+			cc_setgraphic(6348)
+			cc_setsize(0, 0, 34, 40)
+		}
+		cc_create(iVar21, 4, iVar8)
+		iVar21 = iVar21 + 1
+		cc_setposition(0, 2, iVar24 + 13, 13)
+		if(struct_param(1937, iVar26) == 4) {
+			iVar34 = enum(5185, iVar26, 'J', 'i')
+			if(gender() == 0)
+				cc_settext(enum(3886, iVar34, 'i', 's'))
+			else
+				cc_settext(enum(3887, iVar34, 'i', 's'))
+			cc_settext(substring(cc_gettext(), string_length(cc_gettext()) - 1, 0))
+		} else 
+			cc_settext(struct_param(1930, iVar26))
+		if(struct_param(1933, iVar26) > 0)
+			cc_settext(append("<br>" + tostring_localized(1, struct_param(1933, iVar26)) + " Points", cc_gettext()))
+		else
+			cc_settext(append("<br>" + tostring_localized(1, struct_param(1932, iVar26)) + " Points", cc_gettext()))
+		cc_settextfont(4040)
+		cc_settextshadow(1)
+		cc_setcolor(e6be78)
+		cc_settextalign(13, 1, 1)
+		cc_setsize(0, 0, 60, 122)
+		cc_create(iVar21, 4, iVar8)
+		iVar21 = iVar21 + 1
+		cc_setposition(0, 2, ((iVar24 + 13) + 24) + 24, 13)
+		cc_settext(sVar2)
+		cc_settextfont(3793)
+		cc_settextshadow(1)
+		cc_setcolor(e6be78)
+		cc_settextalign(12, 1, 2)
+		cc_setsize(0, 0, 24, 122)
+		iVar24 = (iVar24 + iVar31) + iVar22
+		iVar23 = 0
+		iVar38 = iVar38 + 1
+	}
+} else 
+	if(iVar3 == 6) {
+		iVar32 = script_5352(iVar32, iVar23, iVar24, iVar31, iVar22, iVar21, iVar33, iVar27, iVar28, iVar29).get(0)
+		sVar1 = "There Are No Items Currently On Special Offer"
+		iVar25 = (iVar24 + iVar31) + iVar22
+	} else 
+		if(iVar3 == 7) {
+			iVar32 = script_5353(iVar32, iVar23, iVar24, iVar31, iVar22, iVar21, iVar33, iVar27, iVar28, iVar29).get(0)
+			sVar1 = "There Are No Limited Edition Items Currently Available"
+			iVar25 = (iVar24 + iVar31) + iVar22
+		} else 
+			if(iVar3 == 8) {
+				iVar32 = script_4727(iVar32, iVar23, iVar24, iVar31, iVar22, iVar21, iVar33, iVar27, iVar28, iVar29).get(0)
+				sVar1 = "Your Favourites List Is Currently Empty"
+				iVar25 = (iVar24 + iVar31) + iVar22
+			} else 
+				if(iVar3 == 1) {
+					iVar32 = script_4344(iVar32, iVar23, iVar24, iVar31, iVar22, iVar21, iVar33, iVar27, iVar28, iVar29).get(0)
+					sVar1 = "There Are No Items Currently Available In This Category"
+					iVar25 = (iVar24 + iVar31) + iVar22
+				} else 
+					if(iVar3 == 9) {
+						iVar32 = script_6000(iVar32, iVar23, iVar24, iVar31, iVar22, iVar21, iVar33, iVar27, iVar28, iVar29).get(0)
+						sVar1 = "There Are No Items Currently Available In This Category"
+						iVar25 = (iVar24 + iVar31) + iVar22
+					} else  {
+						iVar32 = script_4726(iVar2, iVar32, iVar23, iVar24, iVar31, iVar22, iVar21, iVar33, iVar27, iVar28, iVar29).get(0)
+						sVar1 = "There Are No Items Currently Available In This Category"
+						iVar25 = (iVar24 + iVar31) + iVar22
+					}
+if(iVar21 == 0) {
+	cc_create(iVar21, 4, iVar8)
+	iVar21 = iVar21 + 1
+	cc_setposition(1, 1, 0, 0)
+	cc_settext(sVar1)
+	cc_settextfont(4040)
+	cc_settextshadow(1)
+	cc_setcolor(e6be78)
+	cc_settextalign(13, 1, 1)
+	cc_setsize(1, 1, 0, 0)
+}
+if(iVar25 > if_getheight(iVar4)) {
+	if_setscrollsize(iVar4, iVar25, if_getwidth(iVar4))
+	if(load_varpbit(9487) == arg0)
+		if_setscrollpos(iVar4, iVar5, 0)
+	else
+		if_setscrollpos(iVar4, 0, 0)
+	if_setsize(iVar6, 0, 0, iVar25, if_getwidth(iVar4))
+	if_setsize(iVar7, 0, 0, iVar25, if_getwidth(iVar4))
+	if_setsize(iVar8, 0, 0, iVar25, if_getwidth(iVar4))
+	script_31(74907654, iVar4, 7900, 7897, 7898, 7899, 7902, 7901)
+} else  {
+	if_setscrollsize(iVar4, if_getheight(iVar4), if_getwidth(iVar4))
+	if_setscrollpos(iVar4, 0, 0)
+	if_setsize(iVar6, 0, 0, if_getheight(iVar4), if_getwidth(iVar4))
+	if_setsize(iVar7, 0, 0, if_getheight(iVar4), if_getwidth(iVar4))
+	if_setsize(iVar8, 0, 0, if_getheight(iVar4), if_getwidth(iVar4))
+	cc_deleteall(if_gethash(1143, 6))
+}
+instr6237(arg1, script_5349, "iIY", 9, 2226, 2391, 2444, 2541, 2392, 2393, 2394, 2445, 2542, iVar3, arg1)
+return

@@ -1,0 +1,3 @@
+//script3459(3459)(int arg0, int arg1)(int)
+return movecoord((24 + coordz(arg0)) - coordz(61871680), 0, (24 + coordx(arg0)) - coordx(61871680), arg1)
+return -1

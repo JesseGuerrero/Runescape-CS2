@@ -1,0 +1,8 @@
+//script670(670)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 < 6) {
+	script_673(iVar0, 0, 0, 0, 0, -1, 0, 1, 0, -1)
+	iVar0 = iVar0 + 1
+}
+return

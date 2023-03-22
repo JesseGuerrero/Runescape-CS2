@@ -1,0 +1,19 @@
+void script_1264(Widget widget0) {
+	int int1;
+	widget0.clearChildren();
+	int1 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 4, int1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText("Refresh");
+	widget0.hookMouseEnter(&script_85(CTX_WIDGET, int1, 16777215));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, int1, 16750623));
+	widget0.setContextMenuOption(1, "Refresh");
+	widget0.hookOptionClick(&script_1265(CTX_MENU_OPTION, CTX_WIDGET));
+	widget0.hookFrame(null);
+	return;
+}

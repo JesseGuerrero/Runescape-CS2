@@ -1,0 +1,9 @@
+//script5500(5500)()(void)
+cc_deleteall(if_gethash(1177, 0))
+cc_deleteall(if_gethash(746, 46))
+cc_deleteall(if_gethash(746, 2))
+instr6342(if_gethash(1177, 0), None, "")
+instr6342(if_gethash(746, 46), None, "")
+instr6342(if_gethash(746, 2), None, "")
+store_varc(1696, -1)
+return

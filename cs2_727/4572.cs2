@@ -1,0 +1,12 @@
+//script4572(4572)(int arg0, int arg1)(void)
+if(fc_getchatcount() <= 0) {
+	if_settext(if_gethash(589, 27), "")
+	if_sethide(arg1, 1)
+	return
+}
+if(modulo(40, client_clock() - arg0) < 20)
+	if(applet_hasfocus() == 1)
+		if_sethide(arg1, 0)
+	else
+		if_sethide(arg1, 1)
+return

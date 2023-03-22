@@ -1,0 +1,8 @@
+void script_1141(Widget widget0, int arg1) {
+	if (isBitFlagged(VARP[1295], arg1 - 1) == true) {
+		script_1145(widget0, arg1);
+	} else {
+		script_1146(widget0, arg1);
+	}
+	return;
+}

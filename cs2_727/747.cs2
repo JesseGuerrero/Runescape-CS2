@@ -1,0 +1,8 @@
+//script747(747)(int arg0, int arg1, string arg2)(void)
+if(arg0 != 1)
+	return
+if(script_5767() == 1)
+	return
+if(cc_find(arg1, if_gethash(18, 29)) == 1)
+	cc_settext(arg0)
+return

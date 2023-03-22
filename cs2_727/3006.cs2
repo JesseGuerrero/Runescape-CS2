@@ -1,0 +1,32 @@
+//script3006(3006)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+if_setsize(arg1, 0, 1, 88, 0)
+if(if_getspriteid(arg5) == 2669)
+	script_3007(arg1, arg2, arg3, arg4, arg5, arg6, arg7)
+else
+	script_3009(arg1, arg2, arg3, arg4, arg5, arg6, arg7)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if_setposition(if_gethash(907, 4), 0, 0, 88, 0)
+		if_setposition(if_gethash(907, 5), 0, 0, 88 + 30, 0)
+		if_setposition(if_gethash(907, 43), 0, 0, 88 + (30 * 2), 0)
+		break
+	case 1:
+		if_setposition(if_gethash(907, 4), 0, 0, 30, 0)
+		if_setposition(if_gethash(907, 5), 0, 0, 88 + 30, 0)
+		if_setposition(if_gethash(907, 43), 0, 0, 88 + (30 * 2), 0)
+		break
+	case 2:
+		if_setposition(if_gethash(907, 4), 0, 0, 30, 0)
+		if_setposition(if_gethash(907, 5), 0, 0, 30 * 2, 0)
+		if_setposition(if_gethash(907, 43), 0, 0, 88 + (30 * 2), 0)
+		break
+	case 3:
+		if_setposition(if_gethash(907, 4), 0, 0, 30, 0)
+		if_setposition(if_gethash(907, 5), 0, 0, 30 * 2, 0)
+		if_setposition(if_gethash(907, 43), 0, 0, 30 * 3, 0)
+		break
+
+}
+return

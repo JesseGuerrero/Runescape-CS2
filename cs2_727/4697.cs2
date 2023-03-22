@@ -1,0 +1,113 @@
+//script4697(4697)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+iVar1 = client_clock()
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+sVar3 = ""
+sVar4 = ""
+sVar5 = ""
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 1
+if(iVar1 >= arg0 + 200 || arg0 == 0) {
+	arg0 = iVar1
+	if(load_varc(1540) < 1)
+		sVar0 = "Destroyed"
+	else
+		if(load_varc(1540) < 5 / 2)
+			sVar0 = "Under attack"
+		else
+			if(load_varc(1540) < 5)
+				sVar0 = "Unlit ammo"
+			else
+				sVar0 = "Fine"
+	if(load_varc(1541) < 1)
+		sVar1 = "Empty"
+	else
+		if(load_varc(1541) < 10 / 2)
+			sVar1 = "Low"
+		else
+			if(load_varc(1541) < 10)
+				sVar1 = "Almost full"
+			else
+				sVar1 = "Full"
+	if(load_varc(1542) == 1)
+		sVar2 = "1 broken"
+	else
+		if(load_varc(1542) > 0)
+			sVar2 = to_string(load_varc(1542)) + " broken"
+		else
+			sVar2 = "Repaired"
+	if(load_varc(1543) == 1)
+		sVar3 = to_string(iVar5) + " broken"
+	else
+		if(load_varc(1543) > 0)
+			sVar3 = to_string(load_varc(1543)) + " broken"
+		else
+			sVar3 = "Repaired"
+	iVar2 = load_varc(1545) / 2
+	if_setsize(if_gethash(500, 12), 0, 2, if_getheight(if_gethash(500, 12)), (iVar2 * 16384) / 100)
+	if(iVar2 < 97)
+		if_sethide(if_gethash(500, 13), 1)
+	sVar4 = to_string(load_varc(1544) * 10)
+	if_settext(if_gethash(500, 29), to_string(load_varc(1546)) + " min")
+	if(load_varc(1547) != 0) {
+		if_sethide(if_gethash(500, 10), 0)
+		if_setsize(if_gethash(500, 2), 0, 0, 253, if_getwidth(if_gethash(500, 2)))
+		switch(load_varc(1547)) {
+			case default:
+				break
+			case 1:
+				sVar5 = "Clobbering Time!"
+				break
+			case 2:
+				sVar5 = "Slow-mo"
+				break
+			case 3:
+				sVar5 = "No Well"
+				break
+			case 4:
+				sVar5 = "Oil Spill"
+				break
+			case 5:
+				sVar5 = "Fire in the Hole!"
+				break
+			case 6:
+				sVar5 = "Armoured Trolls"
+				break
+
+		}
+	} else  {
+		if_sethide(if_gethash(500, 10), 1)
+		if_setsize(if_gethash(500, 2), 0, 0, 225, if_getwidth(if_gethash(500, 2)))
+	}
+	iVar3 = script_4699(32768008, 32768021, 32768022, "Ballista", sVar0)
+	iVar4 = script_4699(32768005, 32768019, 32768020, "Oil", sVar1)
+	iVar3 = max(iVar4, iVar3)
+	iVar4 = script_4699(32768006, 32768039, 32768040, "Barricades", sVar2)
+	iVar3 = max(iVar4, iVar3)
+	iVar4 = script_4699(32768007, 32768017, 32768018, "Walls", sVar3)
+	iVar3 = max(iVar4, iVar3)
+	iVar4 = script_4699(32768009, 32768041, 32768042, "Trolls", sVar4)
+	iVar3 = max(iVar4, iVar3)
+	if(load_varc(1547) != 0) {
+		iVar4 = script_4699(32768010, 32768015, 32768016, "Troll Attack", sVar5)
+		iVar3 = max(iVar4, iVar3)
+	}
+	if(iVar3 + 15 > if_getwidth(if_gethash(500, 2)))
+		if_setsize(if_gethash(500, 2), 0, 0, if_getheight(if_gethash(500, 2)), iVar3 + 15)
+}
+instr6342(if_gethash(500, 8), script_4697, "i", arg0)
+return

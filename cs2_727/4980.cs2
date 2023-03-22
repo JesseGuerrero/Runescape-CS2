@@ -1,0 +1,70 @@
+//script4980(4980)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = 0
+iVar3 = 1
+if(clan_vars_enabled() == 1) {
+	iVar1 = script_4948(arg0)
+	if(iVar1 <= 0)
+		return 0
+	iVar2 = script_4959(iVar1)
+	if(iVar2 == 0)
+		return 0
+	switch(iVar1) {
+		case default:
+			break
+		case 1:
+			iVar3 = load_clan_varbit(2600)
+			break
+		case 2:
+			iVar3 = load_clan_varbit(2596)
+			break
+		case 3:
+			iVar3 = load_clan_varbit(2597)
+			break
+		case 4:
+			iVar3 = load_clan_varbit(2584)
+			break
+		case 5:
+			iVar3 = load_clan_varbit(2585)
+			break
+		case 6:
+			iVar3 = load_clan_varbit(2586)
+			break
+		case 7:
+			iVar3 = load_clan_varbit(2587)
+			break
+		case 8:
+			iVar3 = load_clan_varbit(2588)
+			break
+		case 9:
+			iVar3 = load_clan_varbit(2589)
+			break
+		case 10:
+			iVar3 = load_clan_varbit(2590)
+			break
+		case 11:
+			iVar3 = load_clan_varbit(2591)
+			break
+		case 12:
+			iVar3 = load_clan_varbit(2592)
+			break
+		case 13:
+			iVar3 = load_clan_varbit(2593)
+			break
+		case 14:
+			iVar3 = load_clan_varbit(2594)
+			break
+		case 15:
+			iVar3 = load_clan_varbit(2595)
+			break
+
+	}
+	if(iVar3 > 0)
+		return 4
+	else
+		return 3
+}
+return 0

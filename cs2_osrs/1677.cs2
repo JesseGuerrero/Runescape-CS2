@@ -1,0 +1,18 @@
+void script_1677(Widget widget0, string string1) {
+	int int1;
+	int1 = script_198(widget0);
+	CHILD.createChild(widget0, 4, int1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0x7F7F7F);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string1);
+	widget0.setNoOptions();
+	widget0.hookMouseHover(null);
+	widget0.hookMouseExit(null);
+	widget0.hookOptionClick(null);
+	widget0.hookFrame(null);
+	return;
+}

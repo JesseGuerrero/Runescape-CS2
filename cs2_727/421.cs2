@@ -1,0 +1,76 @@
+//script421(421)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar3 = 0
+iVar4 = 0
+iVar5 = 5
+iVar6 = 5
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+if(cam_getanglex() < arg0)
+	iVar9 = arg0 - cam_getanglex()
+else
+	if(cam_getanglex() > arg0)
+		iVar9 = cam_getanglex() - arg0
+if(cam_getangley() < arg1) {
+	iVar8 = arg1 - cam_getangley()
+	iVar7 = (2047 - arg1) + cam_getangley()
+	if(iVar7 > iVar8) {
+		iVar10 = iVar8
+		iVar5 = script_422(iVar9, iVar10).get(0)
+		cam_setangle(min(arg1, cam_getangley() + iVar6), cam_getanglex())
+	} else  {
+		iVar10 = iVar7
+		iVar5 = script_422(iVar9, iVar10).get(0)
+		if(arg2 == 0)
+			cam_setangle(max(0, cam_getangley() - iVar6), cam_getanglex())
+		else
+			cam_setangle(max(arg1, cam_getangley() - iVar6), cam_getanglex())
+		if(cam_getangley() == 0)
+			if(arg2 == 0) {
+				cam_setangle(2047, cam_getanglex())
+				instr6342(if_gethash(1013, 0), script_421, "iii", arg0, arg1, 1)
+			}
+	}
+} else 
+	if(cam_getangley() > arg1) {
+		iVar8 = (2047 - cam_getangley()) + arg1
+		iVar7 = cam_getangley() - arg1
+		if(iVar7 > iVar8) {
+			iVar10 = iVar8
+			iVar5 = script_422(iVar9, iVar10).get(0)
+			if(arg2 == 0)
+				cam_setangle(min(2047, cam_getangley() + iVar6), cam_getanglex())
+			else
+				cam_setangle(min(arg1, cam_getangley() + iVar6), cam_getanglex())
+			if(cam_getangley() == 2047)
+				if(arg2 == 0) {
+					cam_setangle(0, cam_getanglex())
+					instr6342(if_gethash(1013, 0), script_421, "iii", arg0, arg1, 1)
+				}
+		} else  {
+			iVar10 = iVar7
+			iVar5 = script_422(iVar9, iVar10).get(0)
+			cam_setangle(max(arg1, cam_getangley() - iVar6), cam_getanglex())
+		}
+	} else 
+		iVar4 = 1
+if(cam_getanglex() < arg0)
+	cam_setangle(cam_getangley(), min(arg0, cam_getanglex() + iVar5))
+else
+	if(cam_getanglex() > arg0)
+		cam_setangle(cam_getangley(), max(arg0, cam_getanglex() - iVar5))
+	else
+		iVar3 = 1
+if(iVar3 == 1)
+	if(iVar4 == 1)
+		instr6342(if_gethash(1013, 0), None, "")
+return

@@ -1,0 +1,32 @@
+void script_1700(Widget widget0) {
+	DataMap datamap1;
+	Sprite sprite2;
+	Sprite sprite3;
+	datamap1 = script_900();
+	if (datamap1 == null) {
+		return;
+	}
+	sprite2 = 1439;
+	sprite3 = 1440;
+	if (hasChild(datamap('I', 'I', datamap1, widget(161, 14))) == true) {
+		widget0.setTrans(125);
+		widget0.setSprite(sprite3);
+		widget0.hookMouseHover(&script_273(CTX_WIDGET, 0));
+		widget0.hookMouseExit(&script_273(CTX_WIDGET, 125));
+		widget0.setNoOptions();
+		widget0.setContextMenuOption(1, "Close");
+		widget0.setOptionBase("<col=ff9040>" + "Floating panel" + "</col>");
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	} else {
+		widget0.setTrans(0);
+		widget0.setSprite(sprite2);
+		widget0.hookMouseHover(&script_44(CTX_WIDGET, sprite3));
+		widget0.hookMouseExit(&script_44(CTX_WIDGET, sprite2));
+		widget0.setNoOptions();
+		widget0.setContextMenuOption(1, "Floating");
+		widget0.setContextMenuOption(2, "Fullscreen");
+		widget0.setOptionBase("<col=ff9040>" + "World Map" + "</col>");
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 6));
+	}
+	return;
+}

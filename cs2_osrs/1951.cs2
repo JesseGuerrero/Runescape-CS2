@@ -1,0 +1,25 @@
+void script_1951() {
+	int int0;
+	int int1;
+	int int2;
+	int int3;
+	string str0;
+	int0 = widget(599, 43).getWidth();
+	int1 = widget(599, 43).getHeight();
+	int2 = int0;
+	int3 = VARP[1603];
+	str0 = int3 + "/99";
+	int2 = int3 * int2 / 99;
+	if (int2 == 0 && int3 > 0) {
+		int2 = 1;
+	}
+	if (int2 == int0 && int3 < 99) {
+		int2 = int2 - 1;
+	}
+	if (int2 > int0) {
+		int2 = int0;
+	}
+	widget(599, 53).setText(str0);
+	widget(599, 48).setSize(int2, int1, 0, 0);
+	return;
+}

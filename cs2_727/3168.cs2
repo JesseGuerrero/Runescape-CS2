@@ -1,0 +1,21 @@
+//script3168(3168)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5)(void)
+int iVar5
+int iVar6
+iVar5 = 0
+iVar6 = 0
+if(client_clock() > arg2)
+	if(cc_find(arg1, arg0) == 1) {
+		if_sethide(if_gethash(912, 30), 0)
+		if_settext(if_gethash(912, 34), arg0)
+		if_setsize(if_gethash(912, 30), 0, 0, if_getheight(if_gethash(912, 30)), (if_getx(if_gethash(912, 34)) * 2) + stringwidth(495, arg0))
+		iVar5 = ((cc_getx() + arg3) + 3) - if_getscrollx(arg0)
+		iVar6 = (((((cc_gety() + arg4) + if_gety(if_gethash(912, 36))) + if_gety(if_gethash(912, 45))) - 3) - if_getheight(if_gethash(912, 30))) - if_getscrolly(59768877)
+		if(iVar5 + if_getwidth(if_gethash(912, 30)) > if_getwidth(if_gethash(912, 29)))
+			iVar5 = if_getwidth(if_gethash(912, 29)) - if_getwidth(if_gethash(912, 30))
+		if(iVar6 < 0)
+			iVar6 = 0
+		if_setposition(if_gethash(912, 30), 0, 0, iVar6, iVar5)
+		cc_setonmouseover(None, "")
+	}
+return
+return

@@ -1,0 +1,53 @@
+//script5949(5949)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		iVar1 = 9943
+		iVar2 = 9939
+		iVar3 = 9935
+		iVar4 = 9931
+		break
+	case 1:
+		iVar1 = 9940
+		iVar2 = 9936
+		iVar3 = 9932
+		iVar4 = 9928
+		break
+	case 2:
+		iVar1 = 9942
+		iVar2 = 9938
+		iVar3 = 9934
+		iVar4 = 9930
+		break
+	case 3:
+		iVar1 = 9941
+		iVar2 = 9937
+		iVar3 = 9933
+		iVar4 = 9929
+		break
+
+}
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return iVar1
+
+	case 1:
+		return iVar3
+
+	case 2:
+		return iVar4
+
+
+}
+return -1

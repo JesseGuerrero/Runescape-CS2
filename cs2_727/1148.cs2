@@ -1,0 +1,6 @@
+//script1148(1148)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg4 == 1)
+	if_setgraphic(arg1, arg3)
+else
+	if_setgraphic(arg1, arg2)
+return

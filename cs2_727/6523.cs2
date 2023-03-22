@@ -1,0 +1,23 @@
+//script6523(6523)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return 11630
+
+	case 2:
+		return 11633
+
+	case 3:
+		return 11627
+
+	case 4:
+		return 11636
+
+	case 5:
+		return 11639
+		return 11642
+
+
+}
+return -1

@@ -1,0 +1,152 @@
+//script5792(5792)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+string sVar0
+string sVar1
+iVar1 = script_5795(arg0)
+sVar0 = ""
+if(iVar1 == -1)
+	return
+script_5796(arg0, 0, 79888394, 79888384, 79888385, -1, -1, -1)
+iVar2 = 1
+iVar3 = 0
+if(iVar2 < 8)
+	while(iVar3 == 0) {
+		switch(iVar2) {
+			case default:
+				break
+			case 1:
+				if(struct_param(1283, iVar1) == -1)
+					iVar3 = 1
+				break
+			case 2:
+				if(struct_param(1284, iVar1) == -1)
+					iVar3 = 1
+				break
+			case 3:
+				if(struct_param(1285, iVar1) == -1)
+					iVar3 = 1
+				break
+			case 4:
+				if(struct_param(1286, iVar1) == -1)
+					iVar3 = 1
+				break
+			case 5:
+				if(struct_param(1287, iVar1) == -1)
+					iVar3 = 1
+				break
+			case 6:
+				if(struct_param(1288, iVar1) == -1)
+					iVar3 = 1
+				break
+			case 7:
+				if(struct_param(1289, iVar1) == -1)
+					iVar3 = 1
+				break
+
+		}
+		if(iVar3 == 0)
+			iVar2 = iVar2 + 1
+	}
+cc_deleteall(if_gethash(1219, 6))
+cc_deleteall(if_gethash(1219, 5))
+cc_deleteall(if_gethash(1219, 14))
+cc_deleteall(if_gethash(1219, 12))
+cc_deleteall(if_gethash(1219, 13))
+iVar4 = script_5797(arg0, -1, iVar2 - 1, 1, 2, 97, 79888390, 79888389, 79888391, 79888388, 79888399)
+switch(iVar2) {
+	case default:
+		break
+	case 1:
+		sVar0 = struct_param(1274, iVar1)
+		break
+	case 2:
+		sVar0 = struct_param(1275, iVar1)
+		break
+	case 3:
+		sVar0 = struct_param(1276, iVar1)
+		break
+	case 4:
+		sVar0 = struct_param(1277, iVar1)
+		break
+	case 5:
+		sVar0 = struct_param(1278, iVar1)
+		break
+	case 6:
+		sVar0 = struct_param(1279, iVar1)
+		break
+	case 7:
+		sVar0 = struct_param(1280, iVar1)
+		break
+	case 8:
+		sVar0 = struct_param(1281, iVar1)
+		break
+
+}
+iVar5 = script_5798(arg0, iVar1, 0, 0, 79888398, 79888396, 79888399, sVar0)
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 16777215
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+sVar1 = ""
+if(cc_find(0, if_gethash(1219, 14)) == 1) {
+	cc_setop("Toggle-hint", 1)
+	cc_setcolor(f7edb7)
+	cc_setopcursor(172, 1)
+	iVar6 = cc_getheight()
+	iVar9 = cc_getwidth()
+	sVar1 = cc_gettext()
+	iVar7 = cc_getx()
+	iVar8 = cc_gety()
+	while(iVar11 < 4) {
+		if(iVar11 < 2)
+			iVar12 = iVar7 - 1
+		else
+			iVar12 = iVar7 + 1
+		if(modulo(2, iVar11) == 0)
+			iVar13 = iVar8 - 1
+		else
+			iVar13 = iVar8 + 1
+		cc_create(iVar11, 4, 79888397)
+		cc_setsize(0, 0, iVar6, iVar9)
+		cc_settext(sVar1)
+		cc_settextfont(3793)
+		cc_setcolor(0)
+		cc_settextalign(13, 1, 0)
+		cc_setposition(0, 0, iVar13, iVar12)
+		iVar11 = iVar11 + 1
+	}
+}
+cc_create(0, 5, 79888396)
+cc_sethide(0)
+cc_setop("Toggle-hint", 1)
+cc_setopcursor(172, 1)
+cc_setsize(0, 0, 18, 17)
+cc_setposition(0, 3, (iVar6 - cc_getheight()) / 2, 0)
+if(load_varpbit(8578) == iVar2)
+	if(load_varpbit(8594) == arg0) {
+		cc_setgraphic(9615)
+		script_5779(1, iVar2, 79888396)
+	} else  {
+		cc_setgraphic(9618)
+		script_5779(0, iVar2, 79888396)
+	}
+if_setscrollpos(if_gethash(1219, 4), 0, 0)
+if_setsize(if_gethash(1219, 3), 0, 0, 306, if_getwidth(if_gethash(1219, 3)))
+if_setsize(if_gethash(746, 9), 0, 0, 310, 200)
+return

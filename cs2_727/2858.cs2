@@ -1,0 +1,4 @@
+//script2858(2858)()(void)
+if(load_varc(1069) < 5000)
+	store_varc(1069, load_varc(1069) + 50)
+return

@@ -1,0 +1,38 @@
+//script976(976)(int arg0)(int, int, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return 4155, 3, "Members now have the Combat level required to request Slayer tasks from the Burthorpe Slayer Master."
+
+	case 1:
+		return 4155, 20, "Members now have the Combat level required to request Slayer tasks from Mazchna."
+
+	case 2:
+		return 4155, 40, "Members now have the Combat level required to request Slayer tasks from Vannaka."
+
+	case 3:
+		return 11673, 40, "Members now have the Combat level required to board the novice lander in Pest Control."
+
+	case 4:
+		return 4155, 70, "Members now have the Combat level required to request Slayer tasks from Chaeldar."
+
+	case 5:
+		return 11673, 70, "Members now have the Combat level required to board the intermediate lander in Pest Control."
+
+	case 6:
+		return 6513, 85, "Members now have the Combat level required to start Dream Mentor."
+
+	case 7:
+		return 6513, 85, "Members now have the Combat level required to start Smoking Kills."
+
+	case 8:
+		return 4155, 100, "Members now have the Combat level required to request Slayer tasks from the Shilo Village Slayer Master. (Level 50 Slayer is also required.)"
+
+	case 9:
+		return 11673, 100, "Members now have the Combat level required to board the veteran lander in Pest Control."
+		return -1, -1, ""
+
+
+}
+return -1, 0, ""

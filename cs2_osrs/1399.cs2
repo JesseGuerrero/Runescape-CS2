@@ -1,0 +1,18 @@
+void script_1399(Widget widget0, string string1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16) {
+	int int16;
+	widget0.clearChildren();
+	int16 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 4, int16);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string1);
+	widget0.hookMouseHover(&script_85(CTX_WIDGET, int16, 16777215));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, int16, 16750623));
+	widget0.hookOptionClick(&script_1402(CTX_MENU_OPTION, CTX_WIDGET, widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10), widget(arg11), widget(arg12), widget(arg13), widget(arg14), widget(arg15), widget(arg16)));
+	widget0.setContextMenuOption(1, string1);
+	return;
+}

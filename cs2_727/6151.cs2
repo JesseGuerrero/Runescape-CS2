@@ -1,0 +1,5 @@
+//script6151(6151)(string arg0)(void)
+if_settext(if_gethash(1268, 1), arg0)
+store_varc(1888, 0)
+instr6342(if_gethash(1268, 0), script_6152, "i", 1)
+return

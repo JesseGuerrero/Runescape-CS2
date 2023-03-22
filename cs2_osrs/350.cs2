@@ -1,0 +1,4 @@
+void script_350(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	script_358(VARP[168], widget0, widget1, widget2, widget3, widget4);
+	return;
+}

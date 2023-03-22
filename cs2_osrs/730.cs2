@@ -1,0 +1,7 @@
+void script_730() {
+	widget(64, 40).setIsHidden(true);
+	widget(64, 43).setIsHidden(false);
+	widget(64, 44).setText("___");
+	widget(64, 44).setRGB(0xFF981F);
+	return;
+}

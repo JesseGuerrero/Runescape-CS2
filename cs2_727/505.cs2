@@ -1,0 +1,12 @@
+//script505(505)()(void)
+if_settext(if_gethash(1017, 156), script_483(load_varpbit(7520)))
+if_settext(if_gethash(1017, 157), script_483(load_varpbit(7521)))
+if_settext(if_gethash(1017, 158), script_483(load_varpbit(7526)))
+if_settext(if_gethash(1017, 159), script_483(load_varpbit(7527)))
+if_settext(if_gethash(1017, 160), script_483(load_varpbit(7530)))
+if_settext(if_gethash(1017, 161), script_483(load_varpbit(7531)))
+if_settext(if_gethash(1017, 162), script_483(load_varpbit(7532)))
+if_settext(if_gethash(1017, 163), script_483(load_varpbit(7533)))
+if_settext(if_gethash(1017, 164), script_483(load_varpbit(7534)))
+if_settext(if_gethash(1017, 165), script_483(load_varpbit(7535)))
+return

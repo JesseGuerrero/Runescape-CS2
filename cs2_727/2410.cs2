@@ -1,0 +1,41 @@
+//script2410(2410)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9, string arg10)(void)
+if(string_length(arg0) > 0) {
+	cc_setop(arg0, 1)
+	if(arg0 != -1)
+		cc_setopcursor(arg0, 1)
+	else
+		cc_setopcursor(36, 1)
+}
+if(string_length(arg1) > 0) {
+	cc_setop(arg1, 2)
+	if(arg1 != -1)
+		cc_setopcursor(arg1, 2)
+	else
+		cc_setopcursor(36, 2)
+}
+if(string_length(arg2) > 0) {
+	cc_setop(arg2, 3)
+	if(arg2 != -1)
+		cc_setopcursor(arg2, 3)
+	else
+		cc_setopcursor(36, 3)
+}
+cc_setuseop("Use")
+instr6737(46)
+instr6218(36, 46)
+cc_setop("Examine", 10)
+if(string_length(arg3) > 0) {
+	cc_setop(arg3, 7)
+	if(arg3 != -1)
+		cc_setopcursor(arg3, 7)
+	else
+		cc_setopcursor(36, 7)
+}
+if(string_length(arg4) > 0) {
+	cc_setop(arg4, 8)
+	if(arg4 != -1)
+		cc_setopcursor(arg4, 8)
+	else
+		cc_setopcursor(36, 8)
+}
+return

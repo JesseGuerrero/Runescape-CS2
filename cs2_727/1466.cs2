@@ -1,0 +1,6 @@
+//script1466(1466)()(int)
+if(playermember() == 1)
+	return script_1248()
+else
+	return script_1329()
+return 0

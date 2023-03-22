@@ -1,0 +1,19 @@
+//script6065(6065)()(int)
+switch(world_language()) {
+	case default:
+		break
+	case 0:
+		return 10297
+
+	case 1:
+		return 10294
+
+	case 2:
+		return 10296
+
+	case 3:
+		return 10295
+
+
+}
+return -1

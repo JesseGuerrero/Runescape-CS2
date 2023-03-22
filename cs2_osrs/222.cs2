@@ -1,0 +1,24 @@
+void script_222(string arg0) {
+	int int0;
+	string str1;
+	str1 = escape(STRING[22]);
+	int0 = 12;
+	if (VARC[5] == 6 || VARC[5] == 9 || VARC[5] == 11 || VARC[5] == 13) {
+		int0 = 80;
+	} else if (VARC[5] == 7 || VARC[5] == 12) {
+		int0 = 10;
+	} else if (VARC[5] == 14) {
+		int0 = 25;
+		str1, VARC[66] = concat("<col=000000>" + arg0 + "</col>" + " ", str1), 20;
+	}
+	if (length(STRING[22]) < int0) {
+		str1 = concat(str1, "*");
+	}
+	if (getMaxLineWidth(str1, 2147483647, 496) > widget(162, 33).getWidth()) {
+		widget(162, 33).setTextAlignment(2, 1, 0);
+	} else {
+		widget(162, 33).setTextAlignment(1, 1, 0);
+	}
+	widget(162, 33).setText(str1);
+	return;
+}

@@ -1,0 +1,28 @@
+void script_259(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	string str0;
+	str0 = ",";
+	str0 = "Points:" + "<br>" + script_46(arg1, str0);
+	int2 = getMaxLineWidth(str0, 512, 494) + 8;
+	int3 = getLineCount(str0, 512, 494) * 10 + 2 + 8;
+	if (CHILD.setChild(widget0, 0) == true) {
+		CHILD.setPosition(5, 15, 2, 0);
+		CHILD.setSize(int2, int3, 0, 0);
+	}
+	if (CHILD.setChild(widget0, 1) == true) {
+		CHILD.setPosition(5, 15, 2, 0);
+		CHILD.setSize(int2, int3, 0, 0);
+	}
+	if (CHILD.setChild(widget0, 2) == true) {
+		CHILD.setPosition(6, 16, 2, 0);
+		CHILD.setSize(int2 - 2, int3 - 2, 0, 0);
+	}
+	if (CHILD.setChild(widget0, 3) == true) {
+		CHILD.setPosition(5, 15, 2, 0);
+		CHILD.setSize(int2, int3, 0, 0);
+		CHILD.setText(str0);
+		CHILD.hookVARP(&script_257(CTX_WIDGET, CTX_WIDGET_CHILD, arg1), 1059);
+	}
+	return;
+}

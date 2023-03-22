@@ -1,0 +1,55 @@
+//script2446(2446)(string arg0)(string)
+string sVar0
+sVar0 = arg0.toLowerCase()
+if(compare("all your base are belong to us", sVar0) == 0)
+	return "orly?"
+else
+	if(compare("orly", sVar0) == 0)
+		return "yarly"
+	else
+		if(compare("bangin'", sVar0) == 0)
+			return "donk"
+		else
+			if(compare("murder", sVar0) == 0 || compare("redrum", sVar0) == 0)
+				return "All rest and no play makes Guthix a dull boy."
+			else
+				if(compare("humperdinck", sVar0) == 0 || compare("humperdink", sVar0) == 0)
+					return "Have fun storming the castle!"
+				else
+					if(compare("i am your father", sVar0) == 0)
+						return "Nooooooooooooooooooooooooo!"
+					else
+						if(compare("i'll be back", sVar0) == 0)
+							return "Come with me if you want to live."
+						else
+							if(compare("there is no spoon", sVar0) == 0)
+								return "Then you will see, it is not the spoon that bends, it is only yourself."
+							else
+								if(compare("milton waddams", sVar0) == 0)
+									return "The ratio of people to cake is too big."
+								else
+									if(compare("you fight like a dairy farmer", sVar0) == 0)
+										return "How appropriate. You fight like a cow."
+									else
+										if(compare("finish the fight", sVar0) == 0)
+											return "They must love the smell of hero."
+										else
+											if(compare("r.i.p. runescape", sVar0) == 0)
+												return "Wanna bet?"
+											else
+												if(compare("penso, logo existo", sVar0) == 0)
+													return "Borboletas salpicadas de goiabada..."
+												else
+													if(compare("le temps passe", sVar0) == 0)
+														return "L'œuf dur."
+													else
+														if(compare("paul", sVar0) == 0)
+															return "Rargh, I'm a lava monster!"
+														else
+															if(compare("andrew", sVar0) == 0)
+																return "Cabbage."
+															else
+																if(compare("sevga", sVar0) == 0)
+																	return "Marmaros had a close encounter with a prayer-eating behemoth."
+return arg0
+return ""

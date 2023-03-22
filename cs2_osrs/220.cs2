@@ -1,0 +1,10 @@
+void script_220(int arg0, Widget widget1, Widget widget2) {
+	if (getDisplayMode() == 2) {
+		widget1.setPosition(3, 0, 0, 0);
+		widget2.setPosition(0, 10, 1, 0);
+	} else {
+		widget1.setPosition(6, 102, 2, 2);
+		widget2.setPosition(3, 35, 2, 2);
+	}
+	return;
+}

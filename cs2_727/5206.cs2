@@ -1,0 +1,124 @@
+//script5206(5206)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+iVar0 = 60
+iVar1 = if_getwidth(if_gethash(1122, 87)) - (iVar0 * 4)
+iVar2 = iVar1 / 5
+iVar3 = iVar2 + ((iVar1 - (iVar2 * 5)) / 2)
+iVar4 = 0
+iVar5 = 0
+iVar6 = 5523
+iVar7 = 5524
+iVar8 = 5525
+iVar9 = 5526
+iVar10 = 5527
+iVar11 = if_getscrollx(if_gethash(1122, 87))
+iVar12 = if_getscrolly(73531479)
+cc_deleteall(if_gethash(1122, 87))
+iVar13 = 0
+iVar14 = 0
+iVar15 = enum_getoutputcount(4850)
+iVar16 = -1
+iVar17 = -1
+iVar18 = 0
+while(iVar13 < iVar15) {
+	iVar16 = enum(4850, iVar13, 'i', 'J')
+	if(iVar13 != 0)
+		if(iVar16 == -1)
+			return
+	iVar17 = enum(4849, struct_param(1885, iVar16), 'i', 'J')
+	if(iVar17 != -1)
+		if(struct_param(2196, iVar17) == 1)
+			if(script_5200(struct_param(1885, iVar16)) == 0) {
+				iVar13 = iVar13 + 1
+				iVar18 = 0
+				while(iVar18 < 3) {
+					cc_create(iVar14, 3, 73531479)
+					cc_setposition(0, 0, 0, 0)
+					cc_setsize(0, 0, 1, 1)
+					cc_sethide(1)
+					iVar14 = iVar14 + 1
+					iVar18 = iVar18 + 1
+				}
+			} else  {
+				iVar4 = iVar3 + (modulo(4, iVar13) * (iVar2 + iVar0))
+				iVar5 = iVar2 + ((iVar13 / 4) * (iVar2 + iVar0))
+				cc_create(iVar14, 5, 73531479)
+				cc_setposition(0, 0, iVar5, iVar4)
+				cc_setsize(0, 0, iVar0, iVar0)
+				if(load_varpbit(9675) == iVar13) {
+					cc_setgraphic(iVar9)
+					iVar14 = iVar14 + 1
+					cc_create(iVar14, 5, 73531479)
+					cc_setposition(0, 0, iVar5, iVar4)
+					cc_setsize(0, 0, iVar0, iVar0)
+					cc_setgraphic(struct_param(1883, iVar16))
+					iVar14 = iVar14 + 1
+					cc_create(iVar14, 5, 73531479)
+					cc_setposition(0, 0, iVar5, iVar4)
+					cc_setsize(0, 0, iVar0, iVar0)
+					cc_setgraphic(-1)
+				} else 
+					if(struct_param(1885, iVar16) == 0 || script_5200(struct_param(1885, iVar16)) == 1) {
+						cc_setgraphic(iVar6)
+						instr6091(script_688, "Iid", -2147483645, -2147483643, iVar7)
+						instr6092(script_688, "Iid", -2147483645, -2147483643, iVar6)
+						instr6088(script_688, "Iid", -2147483645, -2147483643, iVar8)
+						instr6450(script_688, "Iid", -2147483645, -2147483643, iVar6)
+						cc_setop("Select crest", 1)
+						instr6687(script_5207, "Iii", -2147483645, -2147483643, iVar13)
+						iVar14 = iVar14 + 1
+						cc_create(iVar14, 5, 73531479)
+						cc_setposition(0, 0, iVar5, iVar4)
+						cc_setsize(0, 0, iVar0, iVar0)
+						cc_setgraphic(struct_param(1883, iVar16))
+						iVar14 = iVar14 + 1
+						cc_create(iVar14, 5, 73531479)
+						cc_setposition(0, 0, iVar5, iVar4)
+						cc_setsize(0, 0, iVar0, iVar0)
+						cc_setgraphic(-1)
+					} else  {
+						cc_setgraphic(iVar10)
+						iVar14 = iVar14 + 1
+						cc_create(iVar14, 5, 73531479)
+						cc_setposition(0, 0, iVar5, iVar4)
+						cc_setsize(0, 0, iVar0, iVar0)
+						cc_setgraphic(struct_param(1883, iVar16))
+						cc_settrans(196)
+						iVar14 = iVar14 + 1
+						cc_create(iVar14, 5, 73531479)
+						cc_setposition(0, 0, iVar5, iVar4)
+						cc_setsize(0, 0, iVar0, iVar0)
+						cc_setgraphic(7454)
+					}
+				iVar14 = iVar14 + 1
+				iVar13 = iVar13 + 1
+			}
+}
+iVar19 = iVar15 / 4
+if(modulo(4, iVar15) != 0)
+	iVar19 = iVar19 + 1
+iVar20 = (iVar19 * (iVar0 + iVar2)) + iVar2
+if_setscrollsize(73531479, iVar20, if_getwidth(if_gethash(1122, 87)))
+if_setscrollpos(if_gethash(1122, 87), iVar12, iVar11)
+script_31(73531480, 73531479, 5666, 5663, 5664, 5665, 5686, 5685)
+return

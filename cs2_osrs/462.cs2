@@ -1,0 +1,24 @@
+void script_462(int arg0, int arg1, Widget widget2, int arg3, int arg4, Widget arg5) {
+	if (arg0 != 1) {
+		return;
+	}
+	if (CHILD.setChild(widget2, arg3) == true && _CHILD.setChild(widget2, arg4) == true) {
+		if (isBitFlagged(VARPBIT[4101], arg1) == true) {
+			VARPBIT[4101] = unflagBit(VARPBIT[4101], arg1);
+			script_463(arg1, widget2, arg5);
+			return;
+		}
+		if (script_464(arg1) == 0) {
+			playSoundEffect(2673, 1, 0);
+			return;
+		}
+		if (getSkillCurrentLvl(5) <= 0) {
+			playSoundEffect(2673, 1, 0);
+			msg("You need to recharge your Prayer at an altar.");
+			return;
+		}
+		VARPBIT[4101] = flagBit(VARPBIT[4101], arg1);
+		script_463(arg1, widget2, arg5);
+	}
+	return;
+}

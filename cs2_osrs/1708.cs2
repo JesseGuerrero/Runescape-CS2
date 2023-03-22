@@ -1,0 +1,24 @@
+void script_1708(Widget widget0, Widget widget1, Widget widget2, int arg3) {
+	int int4;
+	Map map5;
+	playSoundEffect(2266, 1, 0);
+	script_1014(widget0);
+	widget1.setIsHidden(false);
+	int4 = 0;
+	map5 = null;
+	while (int4 <= 29) {
+		map5 = datamap('i', '`', 1697, int4);
+		if (map5 != null && CHILD.setChild(widget2, int4 + 1) == true && arg3 != -1 && script_1715(map5, location(VARC[188])) != null) {
+			if (_CHILD.setChild(widget2, arg3) == true) {
+				_CHILD.setHidden(false);
+				_CHILD.setPosition(1, CHILD.getY() - 1, 0, 0);
+			}
+			arg3 = -1;
+		}
+		int4 = int4 + 1;
+	}
+	if (arg3 != -1 && CHILD.setChild(widget2, arg3) == true) {
+		CHILD.setHidden(true);
+	}
+	return;
+}

@@ -1,0 +1,17 @@
+//script6288(6288)(int arg0)(void)
+cc_create(0, 4, 84934658)
+cc_setsize(0, 0, 12, 65)
+cc_setposition(0, 0, 0, 0)
+cc_settextfont(494)
+cc_settextalign(0, 1, 2)
+store_varc(1932, 0)
+if(arg0 < 1) {
+	cc_settext("- all rank pts")
+	cc_setcolor(ff0000)
+} else  {
+	cc_settext("+ " + to_string(arg0) + " rank pt")
+	cc_setcolor(ff00)
+}
+cc_settextshadow(1)
+instr6342(if_gethash(1296, 2), script_6289, "")
+return

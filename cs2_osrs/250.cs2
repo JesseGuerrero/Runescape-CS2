@@ -1,0 +1,48 @@
+void script_250(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5) {
+	int int6;
+	int int7;
+	int int8;
+	widget1.clearChildren();
+	widget1.setScrollPos(0, 0);
+	widget1.hookVARP(&script_313(CTX_WIDGET), 20, 21, 22, 23, 24, 25, 298, 311, 346, 414, 464, 568, 598, 662, 721, 906, 1009, 1338);
+	ARRAY0 = new int[535];
+	int6 = 0;
+	int7 = 0;
+	int8 = 0;
+	while (int8 <= 535) {
+		CHILD.createChild(widget1, 4, int8);
+		CHILD.setHidden(true);
+		int7 = datamap('i', 'i', 818, int8);
+		if (int7 != 0) {
+			ARRAY0[int6] = int7;
+			int6 = int6 + 1;
+		}
+		int8 = int8 + 1;
+	}
+	widget1.setScrollMax(0, 32 + int6 * 15 + 3);
+	if (int6 > 0) {
+		int6 = int6 - 1;
+	}
+	script_1360(0, 0, int6, 817);
+	int8 = 0;
+	while (int8 <= int6) {
+		int7 = ARRAY0[int8];
+		if (CHILD.setChild(widget1, int7) == true) {
+			CHILD.setHidden(false);
+			CHILD.setSize(1, 1, 0, 0);
+			CHILD.setPosition(1, 1, 0, 0);
+			CHILD.hookFrame(&script_252(CTX_WIDGET, CTX_WIDGET_CHILD, int8));
+		}
+		int8 = int8 + 1;
+	}
+	widget0.clearChildren();
+	_ = script_249(widget0, 0);
+	script_318(widget3, widget4, widget5);
+	widget0.hookVARP(&script_317(widget3, widget4, widget5), 18, 19);
+	widget3.hookOptionClick(&script_315(CTX_MENU_OPTION, 1, widget3, widget4, widget5));
+	widget4.hookOptionClick(&script_315(CTX_MENU_OPTION, 0, widget3, widget4, widget5));
+	widget5.hookOptionClick(&script_316(CTX_MENU_OPTION, widget3, widget4, widget5));
+	widget2.clearChildren();
+	script_31(widget2, widget1, 792, 789, 790, 791, 773, 788);
+	return;
+}

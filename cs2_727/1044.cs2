@@ -1,0 +1,87 @@
+//script1044(1044)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+string sVar0
+store_varc(128, -1)
+sVar0 = instr6583(arg0)
+if(load_varc(126) == 1)
+	sVar0 = "To " + load_varc_string(27) + ": " + "<col=800000>" + sVar0
+else
+	if(load_varc(126) == 2)
+		sVar0 = "[" + "<col=0000ff>" + fc_getchatdisplayname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0
+	else
+		if(load_varc(126) == 8)
+			if(activeclanchannel_find_affined() == 1)
+				sVar0 = "[" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0
+		else
+			if(load_varc(126) == 10)
+				if(activeclanchannel_find_listened() == 1)
+					sVar0 = "[" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0
+			else
+				sVar0 = "<col=0000ff>" + sVar0
+if_sethide(if_gethash(137, 50), 1)
+instr6248(if_gethash(137, 55), None, "")
+if_sethide(if_gethash(137, 0), 0)
+if_sethide(if_gethash(137, 7), 1)
+if_sethide(if_gethash(137, 9), 0)
+if_sethide(if_gethash(137, 13), 1)
+if_sethide(if_gethash(137, 17), 1)
+if_sethide(if_gethash(137, 1), 1)
+if_sethide(if_gethash(137, 3), 0)
+if_setcolor(8978435, 0x0)
+if_settextfont(if_gethash(137, 3), 495)
+if_settextalign(if_gethash(137, 3), 0, 1, 0)
+if_settext(if_gethash(137, 3), sVar0)
+if_settextshadow(if_gethash(137, 3), 0)
+cc_deleteall(if_gethash(137, 12))
+iVar1 = instr6598(0, load_varc(134), arg0)
+cc_create(0, 3, 8978444)
+iVar2 = if_getwidth(if_gethash(137, 12))
+iVar3 = iVar2 - 8
+iVar4 = 1
+iVar5 = 0
+globalArrays[0] = [250, 105]
+iVar6 = 0
+sVar0 = enum(iVar1, 0, 'i', 's')
+if(compare(sVar0, "") != 0)
+	while(iVar4 < 250) {
+		cc_create(iVar4, 4, 8978444)
+		cc_setposition(0, 0, 14 * iVar5, 4)
+		cc_setsize(0, 0, 14, iVar3)
+		cc_setcolor(0)
+		cc_settext(sVar0)
+		cc_settextfont(495)
+		cc_settextshadow(0)
+		instr6091(script_1045, "iIi", iVar4, if_gethash(137, 12), iVar5)
+		instr6088(script_1073, "Iei", if_gethash(137, 1), arg0, iVar4 - 1)
+		globalArrays[0][iVar5] = iVar5
+		sVar0 = enum(iVar1, iVar4, 'i', 's')
+		iVar4 = iVar4 + 1
+		iVar5 = iVar5 + 1
+	}
+iVar6 = iVar5 - 1
+if(compare("non-alpha", enum(iVar1, 1000, 'i', 's')) != 0) {
+	script_520(0, 0, iVar6, iVar1)
+	iVar5 = 0
+	while(iVar5 <= iVar6) {
+		if(cc_find(globalArrays[0][iVar5] + 1, if_gethash(137, 12)) == 1) {
+			cc_setposition(0, 0, 14 * iVar5, 4)
+			instr6091(script_1045, "iIi", globalArrays[0][iVar5] + 1, if_gethash(137, 12), iVar5)
+		}
+		iVar5 = iVar5 + 1
+	}
+}
+iVar5 = 0
+while(iVar5 < 250) {
+	script_1384(iVar5, globalArrays[0][iVar5])
+	iVar5 = iVar5 + 1
+}
+instr6248(if_gethash(137, 12), script_1046, "izIIIei", -2147483640, -2147483639, if_gethash(137, 1), if_gethash(137, 12), if_gethash(137, 11), arg0, iVar4 - 1)
+if_setscrollsize(8978444, 14 * (iVar4 - 1), 0)
+script_31(8978443, 8978444, 792, 789, 790, 791, 773, 788)
+script_72(8978443, 8978444, 0)
+return

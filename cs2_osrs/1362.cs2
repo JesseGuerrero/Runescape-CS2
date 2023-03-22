@@ -1,0 +1,7 @@
+void script_1362(int arg0, Widget widget1) {
+	if (arg0 == 1) {
+		playSoundEffect(2266, 1, 0);
+		script_1361(widget1, 1);
+	}
+	return;
+}

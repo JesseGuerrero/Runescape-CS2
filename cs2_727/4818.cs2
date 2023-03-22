@@ -1,0 +1,168 @@
+//script4818(4818)(int arg0, int arg1)(int, int, int, int, int, int, int, int, int, int, int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 1:
+				iVar2 = 82444706
+				iVar3 = 82444717
+				iVar4 = 82444716
+				iVar5 = -1
+				iVar6 = -1
+				iVar7 = 82444715
+				iVar8 = -1
+				iVar9 = -1
+				iVar10 = 82444714
+				iVar11 = 82444708
+				iVar12 = 82444679
+				break
+			case 2:
+				iVar2 = 82444694
+				iVar3 = 82444705
+				iVar4 = 82444704
+				iVar5 = -1
+				iVar6 = -1
+				iVar7 = 82444703
+				iVar8 = -1
+				iVar9 = -1
+				iVar10 = 82444702
+				iVar11 = 82444696
+				iVar12 = 82444680
+				break
+			case 3:
+				iVar2 = 82444682
+				iVar3 = 82444693
+				iVar4 = 82444692
+				iVar5 = -1
+				iVar6 = -1
+				iVar7 = 82444691
+				iVar8 = -1
+				iVar9 = -1
+				iVar10 = 82444690
+				iVar11 = 82444684
+				iVar12 = 82444681
+				break
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 1:
+				iVar2 = 82444638
+				iVar3 = 82444651
+				iVar4 = 82444650
+				iVar5 = 82444648
+				iVar6 = -1
+				iVar7 = 82444649
+				iVar8 = 82444647
+				iVar9 = -1
+				iVar10 = 82444646
+				iVar11 = 82444640
+				iVar12 = 82444607
+				break
+			case 2:
+				iVar2 = 82444624
+				iVar3 = 82444637
+				iVar4 = 82444636
+				iVar5 = 82444634
+				iVar6 = -1
+				iVar7 = 82444635
+				iVar8 = 82444633
+				iVar9 = -1
+				iVar10 = 82444632
+				iVar11 = 82444626
+				iVar12 = 82444608
+				break
+			case 3:
+				iVar2 = 82444610
+				iVar3 = 82444623
+				iVar4 = 82444622
+				iVar5 = 82444620
+				iVar6 = -1
+				iVar7 = 82444621
+				iVar8 = 82444619
+				iVar9 = -1
+				iVar10 = 82444618
+				iVar11 = 82444612
+				iVar12 = 82444609
+				break
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 1:
+				iVar2 = 82444564
+				iVar3 = 82444579
+				iVar4 = 82444578
+				iVar5 = 82444576
+				iVar6 = 82444574
+				iVar7 = 82444577
+				iVar8 = 82444575
+				iVar9 = 82444573
+				iVar10 = 82444572
+				iVar11 = 82444566
+				iVar12 = 82444529
+				break
+			case 2:
+				iVar2 = 82444548
+				iVar3 = 82444563
+				iVar4 = 82444562
+				iVar5 = 82444560
+				iVar6 = 82444558
+				iVar7 = 82444561
+				iVar8 = 82444559
+				iVar9 = 82444557
+				iVar10 = 82444556
+				iVar11 = 82444550
+				iVar12 = 82444530
+				break
+			case 3:
+				iVar2 = 82444532
+				iVar3 = 82444547
+				iVar4 = 82444546
+				iVar5 = 82444544
+				iVar6 = 82444542
+				iVar7 = 82444545
+				iVar8 = 82444543
+				iVar9 = 82444541
+				iVar10 = 82444540
+				iVar11 = 82444534
+				iVar12 = 82444531
+				break
+
+		}
+		break
+
+}
+return iVar12, iVar11, iVar10, iVar9, iVar8, iVar7, iVar6, iVar5, iVar4, iVar3, iVar2
+return -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1

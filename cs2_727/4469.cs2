@@ -1,0 +1,11 @@
+//script4469(4469)()(void)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+if(script_4467() == 1) {
+	if_sethide(if_gethash(1110, 22), 0)
+	if_sethide(if_gethash(1110, 104), 1)
+} else 
+	script_4471()
+return

@@ -1,0 +1,9 @@
+//script2909(2909)(int arg0, int arg1)(void)
+if(load_varpbit(7191) == 0)
+	if_sethide(arg0, 1)
+else
+	if(load_varpbit(7191) < 5)
+		if_settext(arg1, "<lt>" + "1 min")
+	else
+		if_settext(arg1, to_string((load_varpbit(7191) + 4) / 5) + " min")
+return

@@ -1,0 +1,17 @@
+//script3976(3976)(int arg0, int arg1, int arg2)(void)
+if(arg2 != 1)
+	return
+script_41(69206174)
+store_varc(1416, arg1)
+if_sethide(if_gethash(1056, 89), 1)
+if_sethide(if_gethash(1056, 90), 1)
+if_sethide(if_gethash(1056, 120), 0)
+if_sethide(if_gethash(1056, 117), 0)
+if(script_3999(arg0) == 1)
+	if(load_varpbit(8588) == 4094)
+		script_3977(load_varpbit(8587))
+	else
+		return
+else
+	script_3977(arg0)
+return

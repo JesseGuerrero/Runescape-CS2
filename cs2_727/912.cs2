@@ -1,0 +1,28 @@
+//script912(912)(int arg0)(string)
+string sVar0
+sVar0 = enum(1440, arg0, 'o', 's')
+if(compare("", sVar0) != 0)
+	return "<br>" + sVar0
+switch(load_varc(746)) {
+	case default:
+		break
+	case 0:
+		if(item_param(1047, arg0) != 1)
+			return "<br>" + enum(1437, item_param(23, arg0), 'i', 's')
+		break
+	case 1:
+		return "<br>" + enum(1439, item_param(23, arg0), 'i', 's')
+
+	case 5:
+		return "<br>" + enum(1436, item_param(23, arg0), 'i', 's')
+
+	case 3:
+		return "<br>" + enum(1438, item_param(23, arg0), 'i', 's')
+
+	case 4:
+		return "<br>" + "Requires an ogre composite bow."
+
+
+}
+return ""
+return ""

@@ -1,0 +1,3 @@
+//script4390(4390)(int arg0)(int, int, int, int)
+script_4391(arg0)
+return script_4392(arg0).get(3), script_4392(arg0).get(2), script_4392(arg0).get(1), script_4392(arg0).get(0)

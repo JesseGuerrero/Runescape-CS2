@@ -1,0 +1,9 @@
+//script2352(2352)()(void)
+if(world_language() == 2 || world_language() == 3) {
+	if_settextfont(if_gethash(433, 16), 494)
+	if_settextfont(if_gethash(433, 17), 494)
+	if_settextfont(if_gethash(433, 18), 494)
+	if_settextfont(if_gethash(433, 19), 494)
+	if_settextfont(if_gethash(433, 20), 494)
+}
+return

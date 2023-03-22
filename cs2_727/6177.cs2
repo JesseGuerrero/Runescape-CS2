@@ -1,0 +1,134 @@
+//script6177(6177)(int arg0)(void)
+int iVar1
+iVar1 = -1
+cc_create(0, 5, arg0)
+if(load_varc(1910) < 1) {
+	cc_setgraphic(10695)
+	iVar1 = 10685
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10695
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 0, arg0)
+} else 
+	cc_setgraphic(10685)
+cc_setposition(0, 0, 258, 28)
+cc_setsize(0, 0, 75, 75)
+cc_create(1, 5, arg0)
+if(load_varc(1910) < 2) {
+	cc_setgraphic(10696)
+	iVar1 = 10686
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10696
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 1, arg0)
+} else 
+	cc_setgraphic(10686)
+cc_setposition(0, 0, 258, 174)
+cc_setsize(0, 0, 75, 75)
+cc_create(2, 5, arg0)
+if(load_varc(1910) < 3) {
+	cc_setgraphic(10697)
+	iVar1 = 10687
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10697
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 2, arg0)
+} else 
+	cc_setgraphic(10687)
+cc_setposition(0, 0, 258, 314)
+cc_setsize(0, 0, 75, 75)
+cc_create(3, 5, arg0)
+if(load_varc(1910) < 4) {
+	cc_setgraphic(10698)
+	iVar1 = 10688
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10698
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 3, arg0)
+} else 
+	cc_setgraphic(10688)
+cc_setposition(0, 0, 258, 453)
+cc_setsize(0, 0, 75, 75)
+cc_create(4, 5, arg0)
+if(load_varc(1910) < 5) {
+	cc_setgraphic(10699)
+	iVar1 = 10689
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10699
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 4, arg0)
+} else 
+	cc_setgraphic(10689)
+cc_setposition(0, 0, 177, 99)
+cc_setsize(0, 0, 75, 75)
+cc_create(5, 5, arg0)
+if(load_varc(1910) < 6) {
+	cc_setgraphic(10700)
+	iVar1 = 10690
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10700
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 5, arg0)
+} else 
+	cc_setgraphic(10690)
+cc_setposition(0, 0, 177, 243)
+cc_setsize(0, 0, 75, 75)
+cc_create(6, 5, arg0)
+if(load_varc(1910) < 7) {
+	cc_setgraphic(10701)
+	iVar1 = 10691
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10701
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 6, arg0)
+} else 
+	cc_setgraphic(10691)
+cc_setposition(0, 0, 177, 382)
+cc_setsize(0, 0, 75, 75)
+cc_create(7, 5, arg0)
+if(load_varc(1910) < 8) {
+	cc_setgraphic(10702)
+	iVar1 = 10692
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10702
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 7, arg0)
+} else 
+	cc_setgraphic(10692)
+cc_setposition(0, 0, 88, 159)
+cc_setsize(0, 0, 75, 75)
+cc_create(8, 5, arg0)
+if(load_varc(1910) < 9) {
+	cc_setgraphic(10703)
+	iVar1 = 10693
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10703
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 8, arg0)
+} else 
+	cc_setgraphic(10693)
+cc_setposition(0, 0, 88, 323)
+cc_setsize(0, 0, 75, 75)
+cc_create(9, 5, arg0)
+if(load_varc(1910) < 10) {
+	cc_setgraphic(10704)
+	iVar1 = 10694
+	instr6091(script_5343, "Iid", -2147483645, -2147483643, iVar1)
+	iVar1 = 10704
+	instr6092(script_6176, "Iid", -2147483645, -2147483643, iVar1)
+	cc_setop("Buy Rank", 1)
+	instr6687(script_6175, "iI", 9, arg0)
+} else 
+	cc_setgraphic(10694)
+cc_setposition(0, 0, 13, 243)
+cc_setsize(0, 0, 75, 75)
+return

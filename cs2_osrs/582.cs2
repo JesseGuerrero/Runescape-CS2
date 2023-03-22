@@ -1,0 +1,46 @@
+void script_582(DataMap datamap0, Widget widget1, Widget widget2, Widget widget3, int arg4, string string5) {
+	DataMap datamap5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	string str1;
+	datamap5 = datamap('g', 'g', 373, datamap0);
+	widget1.clearChildren();
+	widget3.clearChildren();
+	script_577(widget2, widget3, string5);
+	int6 = widget3.getWidth();
+	int7 = 0;
+	str1 = "";
+	int8 = 0;
+	int9 = datamap('i', 'i', datamap0, int8);
+	while (int9 != -1) {
+		str1 = datamap('i', 's', 934, int9);
+		CHILD.createChild(widget3, 3, int8 * 3);
+		CHILD.setPosition(0, int7, 0, 0);
+		CHILD.setSize(int6, 17, 0, 0);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setFilled(true);
+		CHILD.setTrans(255);
+		CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 220, null));
+		CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg4), datamap('i', 's', datamap5, int8), 25, 512));
+		CHILD.hookMouseExit(&script_586(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg4)));
+		CHILD.setContextMenuOption(1, str1);
+		CHILD.hookOptionClick(&script_583(CTX_MENU_OPTION, widget3, CTX_WIDGET_CHILD, int9));
+		CHILD.hookVARP(&script_584(widget3, CTX_WIDGET_CHILD, int9), 92);
+		CHILD.createChild(widget3, 5, int8 * 3 + 1);
+		CHILD.setPosition(0, int7, 0, 0);
+		CHILD.setSize(17, 17, 0, 0);
+		_CHILD.createChild(widget3, 4, int8 * 3 + 2);
+		_CHILD.setPosition(17, int7 + 1, 0, 0);
+		_CHILD.setSize(int6 - 17, 16, 0, 0);
+		_CHILD.setTextAntiMacro(true);
+		_CHILD.setFont(495);
+		_CHILD.setTextAlignment(0, 1, 0);
+		_CHILD.setText(str1);
+		script_585(widget3, int9);
+		int8, int7 = int8 + 1, int7 + 17;
+		int9 = datamap('i', 'i', datamap0, int8);
+	}
+	return;
+}

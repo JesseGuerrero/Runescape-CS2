@@ -1,0 +1,8 @@
+//script5793(5793)(int arg0)(void)
+int iVar1
+script_5796(arg0, 1, 80019466, 80019465, 80019464, -1, -1, -1)
+iVar1 = 303
+iVar1 = 141 + (13 * paramheight(if_gettext(if_gethash(1221, 8)), 3793, 334))
+if_setsize(if_gethash(1221, 0), 0, 0, iVar1, if_getwidth(if_gethash(1221, 0)))
+if_setsize(if_gethash(746, 10), 0, 0, iVar1, 363)
+return

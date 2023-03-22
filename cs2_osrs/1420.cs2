@@ -1,0 +1,11 @@
+void script_1420(int arg0, string string1, Widget widget2, int arg3) {
+	if (getClientCycle() < arg0) {
+		return;
+	}
+	sendNameInput(string1);
+	if (CHILD.setChild(widget2, arg3) == true) {
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.hookFrame(null);
+	}
+	return;
+}

@@ -1,0 +1,45 @@
+//script2303(2303)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = 1245
+iVar1 = 1209
+iVar2 = 782
+iVar3 = 1198
+if(instr6644() >= 2) {
+	iVar0 = 8645
+	iVar1 = 8642
+	iVar2 = 8646
+	iVar3 = 8654
+	if(if_getspriteid(if_gethash(749, 4)) != 8625)
+		if(if_getspriteid(if_gethash(749, 4)) != 8624)
+			if_setgraphic(if_gethash(749, 4), 8625)
+	if_setsize(if_gethash(749, 3), 0, 0, 34, 67)
+	if_setposition(if_gethash(749, 5), 0, 2, 1, 2)
+	if_setposition(if_gethash(749, 6), 0, 0, 15, 3)
+	if_setsize(if_gethash(749, 6), 0, 0, 14, 34)
+} else  {
+	if(if_getspriteid(if_gethash(749, 4)) != 1206)
+		if(if_getspriteid(if_gethash(749, 4)) != 784)
+			if_setgraphic(if_gethash(749, 4), 1206)
+	if_setsize(if_gethash(749, 3), 0, 0, 34, 57)
+	if_setposition(if_gethash(749, 5), 0, 0, 1, 1)
+	if_setposition(if_gethash(749, 6), 0, 0, 15, 31)
+	if_setsize(if_gethash(749, 6), 0, 0, 14, 24)
+}
+if_setgraphic(if_gethash(749, 2), iVar3)
+if(script_42(load_varc(182)) == 1) {
+	if_setgraphic(if_gethash(749, 0), iVar2)
+	if(load_varpbit(6840) == 1)
+		instr6213(if_gethash(749, 4), 1, "Turn curses off")
+	else
+		instr6213(if_gethash(749, 4), 1, "Turn prayers off")
+} else  {
+	if_setgraphic(if_gethash(749, 0), iVar1)
+	if(load_varpbit(6840) == 1)
+		instr6213(if_gethash(749, 4), 1, "Turn quick curses on")
+	else
+		instr6213(if_gethash(749, 4), 1, "Turn quick prayers on")
+}
+return

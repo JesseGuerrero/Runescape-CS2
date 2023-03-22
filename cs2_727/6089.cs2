@@ -1,0 +1,190 @@
+//script6089(6089)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+string sVar0
+iVar4 = 82903060
+iVar5 = 82903065
+iVar6 = 82903066
+iVar7 = 82903064
+iVar8 = 82903063
+iVar9 = 82903067
+if(arg0 == load_varp(1496)) {
+	iVar4 = 82903061
+	iVar5 = 82903136
+	iVar6 = 82903137
+	iVar7 = -1
+	iVar8 = 82903135
+	iVar9 = 82903138
+}
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar10 = script_6095(arg3).get(0)
+iVar12 = if_getwidth(iVar4) / iVar10
+iVar14 = (arg2 / iVar12) * iVar11
+iVar13 = modulo(iVar12, arg2) * iVar10
+cc_create(arg1, 5, iVar4)
+iVar15 = 0
+iVar16 = -1
+iVar17 = -1
+iVar18 = inv_getitem(arg1, arg0)
+sVar0 = script_2706(iVar18)
+if(arg3 == 0) {
+	iVar15 = 48
+	iVar16 = 10448
+	iVar17 = 10451
+} else  {
+	iVar15 = 151
+	iVar16 = 10453
+	iVar17 = 10456
+}
+cc_setsize(0, 0, 52, iVar15)
+if(arg0 == load_varp(2561))
+	if(arg1 == load_varp(2563)) {
+		cc_setgraphic(iVar17)
+		instr6091(script_6100, "iiiIi", arg3, 1, 1, -2147483645, -2147483643)
+		instr6092(script_6100, "iiiIi", arg3, 1, 0, -2147483645, -2147483643)
+	} else  {
+		cc_setgraphic(iVar16)
+		instr6091(script_6100, "iiiIi", arg3, 0, 1, -2147483645, -2147483643)
+		instr6092(script_6100, "iiiIi", arg3, 0, 0, -2147483645, -2147483643)
+	}
+cc_setposition(0, 0, iVar14 + 2, iVar13 + 2)
+cc_setopbase("<col=ff981f>" + item_name(iVar18) + "</col>")
+cc_setop("Info", 1)
+if(arg0 == load_varp(1496)) {
+	instr6687(script_6105, "vi", load_varp(1496), arg1)
+	cc_setop("Take 1", 2)
+	cc_setop("Take 5", 3)
+	if(iVar18 == 36)
+		cc_setop("Take 4", 3)
+	cc_setop("Take 10", 4)
+	cc_setop("Take 50", 5)
+	cc_setop("Take 500", 6)
+	cc_setop("Take All", 7)
+} else 
+	if(arg0 == 93) {
+		instr6687(script_6105, "vi", 93, arg1)
+		cc_setop("Sell 1", 2)
+		cc_setop("Sell 5", 3)
+		if(iVar18 == 36)
+			cc_setop("Sell 4", 3)
+		cc_setop("Sell 10", 4)
+		cc_setop("Sell 50", 5)
+		cc_setop("Sell 500", 6)
+		cc_setop("", 7)
+	} else  {
+		instr6687(script_6105, "vi", load_varp(118), arg1)
+		cc_setop("Buy 1", 2)
+		cc_setop("Buy 5", 3)
+		if(iVar18 == 36)
+			cc_setop("Buy 4", 3)
+		cc_setop("Buy 10", 4)
+		cc_setop("Buy 50", 5)
+		cc_setop("Buy 500", 6)
+		cc_setop("Buy All", 7)
+	}
+if(arg3 == 0) {
+	if(compare("", sVar0) != 0)
+		sVar0 = item_name(iVar18) + "<br>" + "(Requirements not met)"
+	else
+		sVar0 = item_name(iVar18)
+	if(load_varp(1496) == -1 || arg0 == load_varp(1496) || arg0 == 93)
+		cc_setonmouseover(script_6090, "iiisIi", cc_gety(), -2147483647, -2147483646, sVar0, -2147483645, arg1)
+	else
+		cc_setonmouseover(script_6090, "iiisIi", cc_gety() + 28, -2147483647, -2147483646, sVar0, -2147483645, arg1)
+	cc_create(arg1, 4, iVar5)
+} else  {
+	cc_create(arg1, 4, iVar5)
+	cc_setcolor(f7edb7)
+	cc_setsize(0, 0, 52 - 18, 151 - 53)
+	cc_setposition(0, 0, iVar14 + 3, iVar13 + 47)
+	cc_settextfont(3793)
+	cc_settextalign(13, 1, 2)
+	cc_settext(item_name(iVar18))
+}
+cc_create(arg1, 5, iVar6)
+cc_setsize(0, 0, 32, 36)
+if(arg3 == 0)
+	cc_setposition(0, 0, iVar14 + ((52 - 38) / 2), iVar13 + 10)
+else
+	cc_setposition(0, 0, iVar14 + ((52 - 22) / 2), iVar13 + 10)
+iVar19 = 0
+if(item_param(258, iVar18) == 1 || item_param(259, iVar18) == 1)
+	iVar19 = 1
+if(iVar19 == 1)
+	cc_setitem_nonum(inv_getnum(arg1, arg0), iVar18)
+else
+	cc_setitem_alwaysnum(inv_getnum(arg1, arg0), iVar18)
+cc_setgraphicshadow(3153952)
+cc_setoutline(1)
+cc_create(arg1, 4, iVar8)
+cc_setcolor(e5b051)
+cc_setsize(0, 0, 12, 31)
+cc_setposition(0, 0, iVar14 + 40, (iVar13 + iVar15) - 33)
+cc_settextfont(494)
+cc_settextalign(0, 1, 2)
+iVar20 = script_2720(iVar18)
+if(iVar20 == -1)
+	cc_settext("N/A")
+else
+	if(arg0 == load_varp(1496))
+		cc_settext("Free!")
+	else
+		if(arg0 == 93)
+			if(bit_flagged(arg1, load_varc(1879)) == 0) {
+				iVar20 = -1
+				cc_settext("N/A")
+			} else  {
+				iVar20 = script_6077(iVar18)
+				cc_settext(script_940(iVar20))
+			}
+		else
+			cc_settext(script_940(iVar20))
+if(arg0 != load_varp(1496))
+	if(iVar20 > 100000)
+		cc_setcolor(ffffff)
+	else
+		if(iVar20 > 10000000)
+			cc_setcolor(ff88)
+if(iVar7 != -1) {
+	cc_setposition(0, 0, iVar14 + 40, (iVar13 + iVar15) - 45)
+	cc_create(arg1, 5, iVar7)
+	cc_setsize(0, 0, 12, 12)
+	cc_setposition(0, 0, iVar14 + 39, (iVar13 + iVar15) - 12)
+	if(arg0 == 93)
+		if(bit_flagged(arg1, load_varc(1879)) == 0)
+			cc_setgraphic(2180)
+		else
+			cc_setgraphic(enum(200, load_varp(532), 'o', 'd'))
+}
+cc_create(arg1, 5, iVar9)
+cc_setsize(0, 0, 12, 12)
+cc_setposition(0, 0, iVar14 + 6, iVar13 + 36)
+cc_setgraphic(2180)
+script_812(iVar18)
+sVar0 = script_2706(iVar18)
+if(load_varp(1496) == -1 || arg0 == load_varp(1496) || arg0 == 93)
+	cc_setonmouseover(script_6090, "iiisIi", cc_gety(), -2147483647, -2147483646, sVar0, -2147483645, arg1)
+else
+	cc_setonmouseover(script_6090, "iiisIi", cc_gety() + 28, -2147483647, -2147483646, sVar0, -2147483645, arg1)
+instr6092(script_40, "I", if_gethash(1265, 89))
+return
+return

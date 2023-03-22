@@ -1,0 +1,3 @@
+//script690(690)()(void)
+if_settext(if_gethash(667, 22), to_string(runweight_visible()) + " kg")
+return

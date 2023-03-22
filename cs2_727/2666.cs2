@@ -1,0 +1,11 @@
+//script2666(2666)()(void)
+int iVar0
+int iVar1
+iVar0 = enum(2566, load_varpbit(6297), 'i', 'I')
+iVar1 = enum(2565, load_varpbit(6297), 'i', 'I')
+if(if_gety(iVar0) < 293) {
+	sound_vorbis_volume(50, 0, 1, 7570)
+	if_setposition(iVar0, 0, 0, if_gety(iVar0) + 2, if_getx(iVar0))
+	if_setposition(iVar1, 0, 0, if_gety(iVar1) + 2, if_getx(iVar1))
+}
+return

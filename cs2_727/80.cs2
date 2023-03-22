@@ -1,0 +1,28 @@
+//script80(80)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+while(iVar1 < inv_size(if_gethash(0, 140))) {
+	cc_create(iVar1, 6, arg0)
+	cc_setsize(0, 0, 49, 49)
+	cc_setposition(0, 0, 56 * iVar3, 56 * iVar2)
+	if(inv_getitem(iVar1, 140) != -1) {
+		cc_setitem(inv_getnum(iVar1, 140), inv_getitem(iVar1, 140))
+		cc_setmodelangle(1340, 0, 0, 512, 0, 0)
+		cc_setmodelorthog(1)
+		cc_setopbase(item_name(inv_getitem(iVar1, 140)))
+		cc_setop("Move", 1)
+		instr6687(script_106, "Iii", -2147483645, iVar1, -2147483644)
+	} else 
+		cc_sethide(1)
+	iVar1 = iVar1 + 1
+	iVar2 = iVar2 + 1
+	if(iVar2 == 5) {
+		iVar2 = 0
+		iVar3 = iVar3 + 1
+	}
+}
+return

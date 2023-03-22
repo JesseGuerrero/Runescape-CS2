@@ -1,0 +1,6 @@
+//script1714(1714)(int arg0, int arg1)(int)
+if(stat_base(arg0) != 0)
+	return (arg1 * 100) / stat_base(arg0)
+else
+	return 0
+return 0

@@ -1,0 +1,234 @@
+void script_601(int arg0, string arg1) {
+	if (arg0 < 50) {
+		if (arg0 < 25) {
+			if (arg0 < 13) {
+				if (arg0 < 6) {
+					if (arg0 <= 0) {
+						STRING[26] = arg1;
+					} else if (arg0 == 1) {
+						STRING[29] = arg1;
+					} else if (arg0 == 2) {
+						STRING[30] = arg1;
+					} else if (arg0 == 3) {
+						STRING[31] = arg1;
+					} else if (arg0 == 4) {
+						STRING[32] = arg1;
+					} else {
+						STRING[33] = arg1;
+					}
+				} else if (arg0 == 6) {
+					STRING[34] = arg1;
+				} else if (arg0 == 7) {
+					STRING[35] = arg1;
+				} else if (arg0 == 8) {
+					STRING[36] = arg1;
+				} else if (arg0 == 9) {
+					STRING[37] = arg1;
+				} else if (arg0 == 10) {
+					STRING[38] = arg1;
+				} else if (arg0 == 11) {
+					STRING[39] = arg1;
+				} else {
+					STRING[40] = arg1;
+				}
+			} else if (arg0 < 19) {
+				if (arg0 == 13) {
+					STRING[41] = arg1;
+				} else if (arg0 == 14) {
+					STRING[42] = arg1;
+				} else if (arg0 == 15) {
+					STRING[43] = arg1;
+				} else if (arg0 == 16) {
+					STRING[44] = arg1;
+				} else if (arg0 == 17) {
+					STRING[45] = arg1;
+				} else {
+					STRING[46] = arg1;
+				}
+			} else if (arg0 == 19) {
+				STRING[47] = arg1;
+			} else if (arg0 == 20) {
+				STRING[48] = arg1;
+			} else if (arg0 == 21) {
+				STRING[49] = arg1;
+			} else if (arg0 == 22) {
+				STRING[50] = arg1;
+			} else if (arg0 == 23) {
+				STRING[51] = arg1;
+			} else {
+				STRING[52] = arg1;
+			}
+		} else if (arg0 < 38) {
+			if (arg0 < 32) {
+				if (arg0 == 25) {
+					STRING[53] = arg1;
+				} else if (arg0 == 26) {
+					STRING[54] = arg1;
+				} else if (arg0 == 27) {
+					STRING[55] = arg1;
+				} else if (arg0 == 28) {
+					STRING[56] = arg1;
+				} else if (arg0 == 29) {
+					STRING[57] = arg1;
+				} else if (arg0 == 30) {
+					STRING[58] = arg1;
+				} else {
+					STRING[59] = arg1;
+				}
+			} else if (arg0 == 32) {
+				STRING[60] = arg1;
+			} else if (arg0 == 33) {
+				STRING[61] = arg1;
+			} else if (arg0 == 34) {
+				STRING[62] = arg1;
+			} else if (arg0 == 35) {
+				STRING[63] = arg1;
+			} else if (arg0 == 36) {
+				STRING[64] = arg1;
+			} else {
+				STRING[65] = arg1;
+			}
+		} else if (arg0 < 44) {
+			if (arg0 == 38) {
+				STRING[66] = arg1;
+			} else if (arg0 == 39) {
+				STRING[67] = arg1;
+			} else if (arg0 == 40) {
+				STRING[68] = arg1;
+			} else if (arg0 == 41) {
+				STRING[69] = arg1;
+			} else if (arg0 == 42) {
+				STRING[70] = arg1;
+			} else {
+				STRING[71] = arg1;
+			}
+		} else if (arg0 == 44) {
+			STRING[72] = arg1;
+		} else if (arg0 == 45) {
+			STRING[73] = arg1;
+		} else if (arg0 == 46) {
+			STRING[74] = arg1;
+		} else if (arg0 == 47) {
+			STRING[75] = arg1;
+		} else if (arg0 == 48) {
+			STRING[76] = arg1;
+		} else {
+			STRING[77] = arg1;
+		}
+	} else if (arg0 < 75) {
+		if (arg0 < 63) {
+			if (arg0 < 56) {
+				if (arg0 == 50) {
+					STRING[78] = arg1;
+				} else if (arg0 == 51) {
+					STRING[79] = arg1;
+				} else if (arg0 == 52) {
+					STRING[80] = arg1;
+				} else if (arg0 == 53) {
+					STRING[81] = arg1;
+				} else if (arg0 == 54) {
+					STRING[82] = arg1;
+				} else {
+					STRING[83] = arg1;
+				}
+			} else if (arg0 == 56) {
+				STRING[84] = arg1;
+			} else if (arg0 == 57) {
+				STRING[85] = arg1;
+			} else if (arg0 == 58) {
+				STRING[86] = arg1;
+			} else if (arg0 == 59) {
+				STRING[87] = arg1;
+			} else if (arg0 == 60) {
+				STRING[88] = arg1;
+			} else if (arg0 == 61) {
+				STRING[89] = arg1;
+			} else {
+				STRING[90] = arg1;
+			}
+		} else if (arg0 < 69) {
+			if (arg0 == 63) {
+				STRING[91] = arg1;
+			} else if (arg0 == 64) {
+				STRING[92] = arg1;
+			} else if (arg0 == 65) {
+				STRING[93] = arg1;
+			} else if (arg0 == 66) {
+				STRING[94] = arg1;
+			} else if (arg0 == 67) {
+				STRING[95] = arg1;
+			} else {
+				STRING[96] = arg1;
+			}
+		} else if (arg0 == 69) {
+			STRING[97] = arg1;
+		} else if (arg0 == 70) {
+			STRING[98] = arg1;
+		} else if (arg0 == 71) {
+			STRING[99] = arg1;
+		} else if (arg0 == 72) {
+			STRING[100] = arg1;
+		} else if (arg0 == 73) {
+			STRING[101] = arg1;
+		} else {
+			STRING[102] = arg1;
+		}
+	} else if (arg0 < 88) {
+		if (arg0 < 82) {
+			if (arg0 == 75) {
+				STRING[103] = arg1;
+			} else if (arg0 == 76) {
+				STRING[104] = arg1;
+			} else if (arg0 == 77) {
+				STRING[105] = arg1;
+			} else if (arg0 == 78) {
+				STRING[106] = arg1;
+			} else if (arg0 == 79) {
+				STRING[107] = arg1;
+			} else if (arg0 == 80) {
+				STRING[108] = arg1;
+			} else {
+				STRING[109] = arg1;
+			}
+		} else if (arg0 == 82) {
+			STRING[110] = arg1;
+		} else if (arg0 == 83) {
+			STRING[111] = arg1;
+		} else if (arg0 == 84) {
+			STRING[112] = arg1;
+		} else if (arg0 == 85) {
+			STRING[113] = arg1;
+		} else if (arg0 == 86) {
+			STRING[114] = arg1;
+		} else {
+			STRING[115] = arg1;
+		}
+	} else if (arg0 < 94) {
+		if (arg0 == 88) {
+			STRING[116] = arg1;
+		} else if (arg0 == 89) {
+			STRING[117] = arg1;
+		} else if (arg0 == 90) {
+			STRING[118] = arg1;
+		} else if (arg0 == 91) {
+			STRING[119] = arg1;
+		} else if (arg0 == 92) {
+			STRING[120] = arg1;
+		} else {
+			STRING[121] = arg1;
+		}
+	} else if (arg0 == 94) {
+		STRING[122] = arg1;
+	} else if (arg0 == 95) {
+		STRING[123] = arg1;
+	} else if (arg0 == 96) {
+		STRING[124] = arg1;
+	} else if (arg0 == 97) {
+		STRING[125] = arg1;
+	} else if (arg0 == 98) {
+		STRING[126] = arg1;
+	} else if (arg0 == 99) {
+		STRING[127] = arg1;
+	}
+	return;
+}

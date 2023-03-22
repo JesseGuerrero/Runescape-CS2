@@ -1,0 +1,25 @@
+//script6269(6269)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = 0
+iVar3 = 255
+iVar4 = 4
+iVar5 = if_gettrans(arg0)
+if(arg1 == 255) {
+	iVar5 = iVar5 + iVar4
+	if(iVar5 >= iVar3) {
+		iVar5 = iVar3
+		arg1 = 0
+	}
+} else  {
+	iVar5 = iVar5 - iVar4
+	if(iVar5 <= iVar2) {
+		iVar5 = iVar2
+		arg1 = 255
+	}
+}
+if_settrans(arg0, iVar5)
+instr6342(arg0, script_6269, "Ii", -2147483645, arg1)
+return

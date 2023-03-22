@@ -1,0 +1,26 @@
+//script1796(1796)(int arg0)(void)
+store_varc(246, 0)
+store_varc(247, 0)
+store_varc(248, 0)
+store_varc(249, 0)
+store_varc(250, 0)
+store_varc(251, 0)
+if(world_members() == 0) {
+	store_varc(252, 1)
+	store_varc(253, 0)
+	script_1775()
+	script_1778()
+} else  {
+	store_varc(252, 0)
+	store_varc(253, 0)
+}
+store_varc(254, 0)
+store_varc(255, 0)
+store_varc(256, 0)
+store_varc(257, 0)
+store_varc(258, 0)
+store_varc(259, 0)
+instr6237(arg0, script_1836, "Y", 2, 1305, 1149)
+instr6257(arg0, script_1837, "Y", 1, 259)
+instr6507(arg0, script_1838, "IY", 1, 37, arg0)
+return

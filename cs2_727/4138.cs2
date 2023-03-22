@@ -1,0 +1,10 @@
+//script4138(4138)(int arg0, int arg1, int arg2)(void)
+cc_create(0, 3, arg2)
+cc_settrans(255)
+cc_setfill(1)
+cc_setcolor(0)
+cc_setsize(1, 1, 0, 0)
+cc_setposition(1, 1, 0, 0)
+arg1 = min(250, arg1)
+instr6556(script_4139, "iI", client_clock() + arg1, arg2)
+return

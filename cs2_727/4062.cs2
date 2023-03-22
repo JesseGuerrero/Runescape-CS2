@@ -1,0 +1,4 @@
+//script4062(4062)()(void)
+if_settext(if_gethash(1058, 45), "Accept Token Options")
+if_setcolor(69337133, 0xD0000)
+return

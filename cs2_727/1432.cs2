@@ -1,0 +1,20 @@
+//script1432(1432)()(int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = stat_base(0) + stat_base(2)
+iVar1 = (stat_base(4) * 3) / 2
+iVar2 = (stat_base(6) * 3) / 2
+iVar3 = iVar0
+if(iVar1 > iVar3)
+	iVar3 = iVar1
+if(iVar2 > iVar3)
+	iVar3 = iVar2
+iVar3 = (iVar3 * 13) / 10
+if(world_members() == 1)
+	iVar3 = ((((iVar3 + stat_base(1)) + stat_base(3)) + (stat_base(5) / 2)) + (stat_base(23) / 2)) / 4
+else
+	iVar3 = (((iVar3 + stat_base(1)) + stat_base(3)) + (stat_base(5) / 2)) / 4
+return iVar3
+return 0

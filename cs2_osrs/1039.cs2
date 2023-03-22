@@ -1,0 +1,6 @@
+void script_1039(Widget widget0) {
+	widget0.setOptionBase("<col=ff9040>" + "XP drops" + "</col>");
+	script_1042(widget0);
+	widget0.hookVARP(&script_1041(CTX_WIDGET), 1055);
+	return;
+}

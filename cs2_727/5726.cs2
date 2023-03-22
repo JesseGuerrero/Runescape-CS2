@@ -1,0 +1,40 @@
+//script5726(5726)(int arg0)(void)
+int iVar1
+iVar1 = script_284(coord())
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 1:
+		script_2766(0, 50, arg0)
+		break
+	case 2:
+		script_2768(50, arg0)
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 300, movecoord(52, 0, 34, iVar1), 300, movecoord(52, 0, 34, iVar1), 0, 0)
+		instr6651(0, 300, movecoord(52, 0, 34, iVar1), 300, movecoord(52, 0, 34, iVar1), 1, 0)
+		instr6651(0, 150, movecoord(51, 0, 30, iVar1), 150, movecoord(51, 0, 30, iVar1), 0, 1)
+		instr6651(0, 150, movecoord(51, 0, 30, iVar1), 150, movecoord(51, 0, 30, iVar1), 1, 1)
+		instr6677(0, 1, 0, 50, 0, 0)
+		break
+	case 5:
+		script_2768(50, arg0)
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 400, movecoord(47, 0, 32, iVar1), 350, movecoord(47, 0, 32, iVar1), 0, 0)
+		instr6651(0, 400, movecoord(47, 0, 32, iVar1), 350, movecoord(47, 0, 32, iVar1), 1, 0)
+		instr6651(0, 200, movecoord(52, 0, 32, iVar1), 200, movecoord(52, 0, 32, iVar1), 0, 1)
+		instr6651(0, 200, movecoord(52, 0, 32, iVar1), 200, movecoord(52, 0, 32, iVar1), 1, 1)
+		instr6677(0, 1, 0, 50, 0, 0)
+		break
+	case 99:
+		script_2766(0, 50, arg0)
+		break
+	case 100:
+		instr6236()
+		script_2768(50, arg0)
+		instr6236()
+		break
+
+}
+return

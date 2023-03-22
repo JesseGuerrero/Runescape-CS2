@@ -1,0 +1,32 @@
+//script4910(4910)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = 0
+iVar2 = 24
+iVar3 = 24
+if(if_getwidth(arg0) < iVar2)
+	if_setsize(arg0, 0, 0, if_getheight(arg0), iVar2)
+if(if_getheight(arg0) < iVar3)
+	if_setsize(arg0, 0, 0, iVar3, if_getwidth(arg0))
+cc_deleteall(arg0)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(0, 0, iVar3, iVar2)
+cc_setgraphic(7599)
+iVar1 = if_getnextsubid(arg0)
+cc_create(iVar1, 5, arg0)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(0, 0, iVar3, iVar2)
+cc_setgraphic(7600)
+instr6091(script_4410, "Iii", arg0, iVar1, 0)
+instr6092(script_4410, "Iii", arg0, iVar1, 1)
+cc_settrans(255)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(0, 0, iVar3, iVar2)
+cc_setgraphic(7601)
+instr6088(script_4207, "Ii", -2147483645, 0)
+instr6450(script_4207, "Ii", -2147483645, 1)
+cc_settrans(255)
+return

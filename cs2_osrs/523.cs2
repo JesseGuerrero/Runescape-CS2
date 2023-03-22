@@ -1,0 +1,40 @@
+void script_523(Widget widget0) {
+	if (VARPBIT[4170] == 1) {
+		script_524(widget0, 0);
+		script_525(widget0, 1);
+		script_524(widget0, 2);
+	} else if (VARPBIT[4170] == 2) {
+		script_524(widget0, 0);
+		script_524(widget0, 1);
+		script_525(widget0, 2);
+	} else if (VARPBIT[4170] == 3) {
+		script_524(widget0, 0);
+		script_524(widget0, 1);
+		script_524(widget0, 2);
+	} else {
+		script_525(widget0, 0);
+		script_524(widget0, 1);
+		script_524(widget0, 2);
+	}
+	if (VARPBIT[4171] > 0 || VARPBIT[4172] > 0 || VARPBIT[4173] > 0 || VARPBIT[4174] > 0 || VARPBIT[4175] > 0 || VARPBIT[4176] > 0 || VARPBIT[4177] > 0 || VARPBIT[4178] > 0 || VARPBIT[4179] > 0) {
+		if (CHILD.setChild(widget0, 3) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, 7) == true) {
+			CHILD.setSprite(698);
+		}
+		if (CHILD.setChild(widget0, 11) == true) {
+			CHILD.setText("<str>" + "Hide tab bar" + "</str>");
+		}
+	} else {
+		if (CHILD.setChild(widget0, 11) == true) {
+			CHILD.setText("Hide tab bar");
+		}
+		if (VARPBIT[4170] == 3) {
+			script_525(widget0, 3);
+		} else {
+			script_524(widget0, 3);
+		}
+	}
+	return;
+}

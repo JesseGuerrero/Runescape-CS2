@@ -1,0 +1,6 @@
+//script5424(5424)()(void)
+if_sethide(if_gethash(1159, 28), 0)
+instr6342(if_gethash(1159, 30), script_5425, "")
+store_varc(1685, -60)
+if_setposition(if_gethash(1159, 28), 1, 0, 0, load_varc(1685))
+return

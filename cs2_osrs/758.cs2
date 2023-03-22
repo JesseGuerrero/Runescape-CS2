@@ -1,0 +1,9 @@
+void script_758(int arg0) {
+	if (isBitFlagged(VARP[286], arg0) == false) {
+		VARP[286] = flagBit(VARP[286], arg0);
+	} else {
+		VARP[286] = unflagBit(VARP[286], arg0);
+	}
+	script_759();
+	return;
+}

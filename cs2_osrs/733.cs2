@@ -1,0 +1,68 @@
+void script_733(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7) {
+	int int8;
+	int int9;
+	if (arg0 > 0) {
+		widget(65, 13).setIsHidden(false);
+		widget(65, 13).setText(str(arg0));
+	} else {
+		widget(65, 13).setIsHidden(true);
+	}
+	widget(65, 17).setText(str(arg1));
+	widget(65, 21).setText(str(arg2));
+	if (arg4 > 0) {
+		widget(65, 33).setIsHidden(false);
+		widget(65, 33).setText(str(arg4));
+	} else {
+		widget(65, 33).setIsHidden(true);
+	}
+	widget(65, 37).setText(str(arg5));
+	widget(65, 41).setText(str(arg6));
+	int8 = arg0 + arg1 + arg2;
+	int9 = arg4 + arg5 + arg6;
+	widget(65, 10).setText(str(int8));
+	widget(65, 30).setText(str(int9));
+	if (arg0 > 0) {
+		widget(65, 11).setIsHidden(false);
+	} else {
+		widget(65, 11).setIsHidden(true);
+	}
+	if (arg4 > 0) {
+		widget(65, 31).setIsHidden(false);
+	} else {
+		widget(65, 31).setIsHidden(true);
+	}
+	if (int9 > 0) {
+		widget(65, 49).setIsHidden(false);
+	} else {
+		widget(65, 49).setIsHidden(true);
+	}
+	if (arg3 > 0 || arg7 > 0) {
+		widget(65, 55).setIsHidden(true);
+		widget(65, 58).setIsHidden(false);
+		widget(65, 59).setText("Redemption in progress");
+		widget(65, 59).setRGB(0xFF981F);
+		widget(65, 82).setIsHidden(true);
+		widget(65, 85).setIsHidden(false);
+		widget(65, 86).setText("Redemption in progress");
+		widget(65, 86).setRGB(0xFF981F);
+	} else if (int8 + int9 > 0) {
+		widget(65, 55).setIsHidden(false);
+		widget(65, 58).setIsHidden(true);
+		widget(65, 59).setText("Redeem now...");
+		widget(65, 59).setRGB(0xFFFFFF);
+		widget(65, 82).setIsHidden(false);
+		widget(65, 85).setIsHidden(true);
+		widget(65, 86).setText("Redeem now...");
+		widget(65, 86).setRGB(0xFFFFFF);
+	} else {
+		widget(65, 55).setIsHidden(true);
+		widget(65, 58).setIsHidden(false);
+		widget(65, 59).setText("Nothing to redeem");
+		widget(65, 59).setRGB(0xFF981F);
+		widget(65, 82).setIsHidden(true);
+		widget(65, 85).setIsHidden(false);
+		widget(65, 86).setText("Nothing to redeem");
+		widget(65, 86).setRGB(0xFF981F);
+	}
+	return;
+}

@@ -1,0 +1,14 @@
+//script6354(6354)(int arg0)(int)
+int iVar1
+if(arg0 == -1)
+	return 0
+iVar1 = 48889904
+if(instr6644() < 2)
+	iVar1 = 35913932
+while(arg0 != -1) {
+	if(arg0 == iVar1)
+		return 1
+	arg0 = if_getparentlayer(arg0)
+}
+return 0
+return -1

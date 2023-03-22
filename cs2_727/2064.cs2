@@ -1,0 +1,87 @@
+//script2064(2064)(int arg0)(void)
+int iVar1
+if_sethide(if_gethash(138, 28), 1)
+if_sethide(if_gethash(138, 37), 1)
+if_sethide(if_gethash(138, 36), 1)
+if_sethide(if_gethash(138, 31), 1)
+if_sethide(if_gethash(138, 39), 1)
+if_sethide(if_gethash(138, 38), 1)
+if_sethide(if_gethash(138, 35), 1)
+if_sethide(if_gethash(138, 34), 1)
+if_sethide(if_gethash(138, 33), 1)
+if_sethide(if_gethash(138, 32), 1)
+if_sethide(if_gethash(138, 29), 1)
+if_sethide(if_gethash(138, 30), 1)
+if_sethide(if_gethash(138, 41), 1)
+if_sethide(if_gethash(138, 40), 1)
+iVar1 = 0
+if(load_varpbit(5332) < 120)
+	iVar1 = 1
+if_sethide(if_gethash(138, 6), iVar1)
+if_sethide(if_gethash(138, 7), iVar1)
+if_sethide(if_gethash(138, 8), iVar1)
+if_sethide(if_gethash(138, 19), iVar1)
+if_sethide(if_gethash(138, 20), iVar1)
+if_sethide(if_gethash(138, 21), iVar1)
+if_sethide(if_gethash(138, 12), iVar1)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		if_sethide(if_gethash(138, 28), 0)
+		break
+	case 1:
+		if_sethide(if_gethash(138, 37), 0)
+		if_setmodelanim(if_gethash(138, 37), 786)
+		break
+	case 2:
+		if_sethide(if_gethash(138, 36), 0)
+		if_setmodelanim(if_gethash(138, 36), 786)
+		break
+	case 3:
+		if_sethide(if_gethash(138, 31), 0)
+		if_setmodelanim(if_gethash(138, 31), 785)
+		break
+	case 4:
+		if_sethide(if_gethash(138, 39), 0)
+		if_setmodelanim(if_gethash(138, 39), 785)
+		break
+	case 5:
+		if_sethide(if_gethash(138, 38), 0)
+		if_setmodelanim(if_gethash(138, 38), 785)
+		break
+	case 6:
+		if_sethide(if_gethash(138, 35), 0)
+		if_setmodelanim(if_gethash(138, 35), 785)
+		break
+	case 7:
+		if_sethide(if_gethash(138, 34), 0)
+		if_setmodelanim(if_gethash(138, 34), 785)
+		break
+	case 8:
+		if_sethide(if_gethash(138, 32), 0)
+		if_setmodelanim(if_gethash(138, 32), 785)
+		break
+	case 9:
+		if_sethide(if_gethash(138, 33), 0)
+		if_setmodelanim(if_gethash(138, 33), 785)
+		break
+	case 10:
+		if_sethide(if_gethash(138, 29), 0)
+		if_setmodelanim(if_gethash(138, 29), 785)
+		break
+	case 11:
+		if_sethide(if_gethash(138, 30), 0)
+		if_setmodelanim(if_gethash(138, 30), 785)
+		break
+	case 12:
+		if_sethide(if_gethash(138, 41), 0)
+		if_setmodelanim(if_gethash(138, 41), 786)
+		break
+	case 13:
+		if_sethide(if_gethash(138, 40), 0)
+		if_setmodelanim(if_gethash(138, 40), 786)
+		break
+
+}
+return

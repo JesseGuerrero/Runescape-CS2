@@ -1,0 +1,59 @@
+//script2952(2952)(int arg0, int arg1, int arg2)(void)
+string sVar0
+string sVar1
+sVar0 = ""
+sVar1 = ""
+switch(arg2) {
+	case default:
+		break
+	case 3:
+		sVar0 = "accountappeal"
+		sVar1 = "passwordchoice.ws"
+		hook_mouse_press(arg0, script_2931, "ss1", sVar0, sVar1, 1)
+		hook_mouse_press(arg1, script_2953, "")
+		break
+	case 4:
+		sVar0 = "www"
+		sVar1 = "account_settings.ws?mod=messages"
+		hook_mouse_press(arg0, script_2931, "ss1", sVar0, sVar1, 1)
+		hook_mouse_press(arg1, script_2953, "")
+		break
+	case 11:
+		sVar0 = "www"
+		sVar1 = "account_settings.ws?mod=security"
+		hook_mouse_press(arg0, script_2931, "ss1", sVar0, sVar1, 1)
+		hook_mouse_press(arg1, script_2953, "")
+		break
+	case 18:
+		sVar0 = "accountappeal"
+		sVar1 = "lockchoice.ws"
+		hook_mouse_press(arg0, script_2931, "ss1", sVar0, sVar1, 1)
+		hook_mouse_press(arg1, script_2953, "")
+		break
+	case 30:
+		sVar0 = "dob"
+		sVar1 = "set_members_dob.ws"
+		hook_mouse_press(arg0, script_2931, "ss1", sVar0, sVar1, 1)
+		hook_mouse_press(arg1, script_2953, "")
+		break
+	case 31:
+		sVar0 = "www"
+		sVar1 = "account_settings.ws?mod=charname"
+		hook_mouse_press(arg0, script_2931, "ss1", sVar0, sVar1, 1)
+		hook_mouse_press(arg1, script_2953, "")
+		break
+	case 40:
+		sVar0 = "dob"
+		sVar1 = "set_members_dob.ws"
+		hook_mouse_press(arg0, script_2931, "ss1", sVar0, sVar1, 1)
+		hook_mouse_press(arg1, script_2953, "")
+		break
+	case 21:
+		hook_mouse_press(arg0, script_3234, "")
+		hook_mouse_press(arg1, None, "")
+		hook_mouse_press(arg0, None, "")
+		hook_mouse_press(arg1, script_2953, "")
+		break
+
+}
+return

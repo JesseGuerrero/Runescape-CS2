@@ -1,0 +1,26 @@
+//script1064(1064)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = enum(1550, arg0, 'i', 'I')
+iVar2 = if_getlayer(iVar1)
+if(if_getscrollwidth(iVar2) == 0)
+	if_setscrollsize(iVar2, 0, if_getwidth(iVar2))
+iVar3 = if_getwidth(iVar1)
+iVar4 = if_getx(iVar1)
+while(arg0 > 0) {
+	arg0 = arg0 - 1
+	iVar1 = enum(1550, arg0, 'i', 'I')
+	if(if_gethide(iVar1) == 0)
+		if(iVar3 + if_getwidth(iVar1) <= if_getwidth(iVar2)) {
+			iVar3 = iVar3 + if_getwidth(iVar1)
+			iVar4 = if_getx(iVar1)
+		} else 
+			arg0 = -1
+}
+if(if_getscrollx(iVar2) == iVar4)
+	instr6342(iVar2, None, "")
+else
+	instr6342(iVar2, script_1065, "Ii", iVar2, iVar4)
+return

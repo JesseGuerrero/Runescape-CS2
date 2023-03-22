@@ -1,0 +1,37 @@
+string script_225(string string0, int arg1, int arg2) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	string str1;
+	string str2;
+	int2 = 0;
+	int3 = length(string0);
+	str1 = "";
+	int4 = 0;
+	int5 = 0;
+	if (int3 > 0) {
+		if (int3 > 4) {
+			int3 = 4;
+		}
+		while (int5 < int3) {
+			str1 = substr(string0, int5, int5 + 1);
+			int4 = indexOf("0123456789", str1, 0);
+			if (int4 != -1) {
+				int2 = int2 + int4 * pow(10, int3 - 1 - int5);
+			} else {
+				int2 = int2 / 10;
+			}
+			int5 = int5 + 1;
+		}
+	} else {
+		int2 = 1;
+	}
+	int6 = x(getMyLocation()) + int2 * arg1;
+	int7 = y(getMyLocation()) + int2 * arg2;
+	str2 = "::tele " + z(getMyLocation()) + "," + int6 / 64 + "," + int7 / 64 + "," + int6 % 64 + "," + int7 % 64;
+	msg(str2);
+	return str2;
+}

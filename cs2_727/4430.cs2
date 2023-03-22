@@ -1,0 +1,5 @@
+//script4430(4430)(int arg0, int arg1)(void)
+if_setgraphic(arg1, 6242)
+instr6527(arg0, None, "")
+if_sethide(if_gethash(1110, 86), 1)
+return

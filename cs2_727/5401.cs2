@@ -1,0 +1,65 @@
+//script5401(5401)()(void)
+if(load_varpbit(9987) == 0) {
+	if_sethide(if_gethash(1170, 160), 1)
+	if_sethide(if_gethash(1170, 161), 0)
+} else  {
+	if_sethide(if_gethash(1170, 160), 0)
+	if_sethide(if_gethash(1170, 161), 1)
+}
+if(load_varpbit(10849) == 0) {
+	if_sethide(if_gethash(1170, 233), 1)
+	if_sethide(if_gethash(1170, 234), 0)
+} else  {
+	if_sethide(if_gethash(1170, 233), 0)
+	if_sethide(if_gethash(1170, 234), 1)
+}
+if(load_varpbit(10850) == 0) {
+	if_sethide(if_gethash(1170, 236), 1)
+	if_sethide(if_gethash(1170, 237), 0)
+} else  {
+	if_sethide(if_gethash(1170, 236), 0)
+	if_sethide(if_gethash(1170, 237), 1)
+}
+store_varc(2, 0)
+if_sethide(if_gethash(1170, 140), 1)
+if(load_varpbit(10020) == 1)
+	if_sethide(if_gethash(1170, 50), 0)
+else
+	if_sethide(if_gethash(1170, 50), 1)
+if(load_varpbit(10021) == 1)
+	if_sethide(if_gethash(1170, 52), 0)
+else
+	if_sethide(if_gethash(1170, 52), 1)
+if(load_varpbit(10022) == 1)
+	if_sethide(if_gethash(1170, 53), 0)
+else
+	if_sethide(if_gethash(1170, 53), 1)
+if(load_varpbit(10023) == 1)
+	if_sethide(if_gethash(1170, 54), 0)
+else
+	if_sethide(if_gethash(1170, 54), 1)
+if(load_varpbit(10024) == 1)
+	if_sethide(if_gethash(1170, 55), 0)
+else
+	if_sethide(if_gethash(1170, 55), 1)
+if(load_varpbit(10025) == 1)
+	if_sethide(if_gethash(1170, 56), 0)
+else
+	if_sethide(if_gethash(1170, 56), 1)
+if(load_varpbit(10026) == 1)
+	if_sethide(if_gethash(1170, 57), 0)
+else
+	if_sethide(if_gethash(1170, 57), 1)
+if(load_varpbit(10027) == 1)
+	if_sethide(if_gethash(1170, 58), 0)
+else
+	if_sethide(if_gethash(1170, 58), 1)
+if(load_varpbit(10848) == 1)
+	if_sethide(if_gethash(1170, 59), 0)
+else
+	if_sethide(if_gethash(1170, 59), 1)
+if(load_varpbit(10852) == 1)
+	if_sethide(if_gethash(1170, 60), 0)
+else
+	if_sethide(if_gethash(1170, 60), 1)
+return

@@ -1,0 +1,91 @@
+//script1382(1382)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+string sVar0
+string sVar1
+switch(arg0) {
+	case default:
+		break
+	case 84:
+		if(arg3 != -1)
+			instr6439(arg3)
+		store_varc_string(31, "")
+		script_308(arg2)
+		return
+
+	case 96:
+		script_1603(-1, 0)
+		return
+
+	case 97:
+		script_1603(1, 0)
+		return
+
+	case 98:
+		script_1603(0, 1)
+		return
+
+	case 99:
+		script_1603(0, -1)
+		return
+
+
+}
+sVar0 = removetags(script_74(4, arg0, arg1, load_varc_string(31)))
+if(string_indexof_string("  ", sVar0, 0) != -1)
+	return
+if(compare(" ", sVar0) == 0)
+	return
+if(paramheight(sVar0, 494, if_getwidth(arg2)) > 1)
+	return
+store_varc_string(31, sVar0.toLowerCase())
+iVar4 = string_length(load_varc_string(31))
+if(iVar4 <= 0) {
+	script_308(arg2)
+	return
+}
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = 0
+sVar1 = ""
+iVar9 = -1
+iVar10 = 2147483647
+iVar11 = 2147483647
+iVar5 = instr6616().get(0)
+while(iVar5 != -1) {
+	sVar0 = removetags(script_2332(mec_text(iVar5), "<br>", " "))
+	iVar7 = string_indexof_string(load_varc_string(31), sVar0.toLowerCase(), 0)
+	if(iVar7 != -1)
+		if(iVar7 <= iVar10) {
+			iVar8 = string_length(sVar0)
+			if(iVar8 < iVar11) {
+				sVar1 = sVar0
+				iVar10 = iVar7
+			}
+		}
+	iVar5 = instr6617().get(0)
+}
+if(iVar9 == -1) {
+	instr6248(arg2, script_1382, "izIc", -2147483640, -2147483639, arg2, -1)
+	if(parawidth(load_varc_string(31), 494, if_getwidth(arg2)) > if_getwidth(arg2))
+		if_settextalign(arg2, 0, 1, 2)
+	else
+		if_settextalign(arg2, 0, 1, 0)
+	if_settext(arg2, "<col=ff0000>" + load_varc_string(31) + "</col>")
+	return
+}
+sVar0 = ""
+if(iVar10 > 0)
+	sVar0 = substring(sVar1, iVar10, 0)
+sVar0 = append("<col=ffffff>" + substring(sVar1, iVar10 + iVar4, iVar10) + "</col>", sVar0)
+sVar0 = append(substring(sVar1, string_length(sVar1), iVar10 + iVar4), sVar0)
+if_settext(arg2, sVar0)
+instr6248(arg2, script_1382, "izIc", -2147483640, -2147483639, arg2, iVar9)
+return

@@ -1,0 +1,9 @@
+//script727(727)(int arg0, int arg1)(void)
+if(if_isopen(arg1) == 1)
+	if(load_varc(199) != -1)
+		return
+cc_deleteall(arg0)
+store_varc(199, -1)
+instr6342(arg0, None, "")
+instr6256(arg0, None, "")
+return

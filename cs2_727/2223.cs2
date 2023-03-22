@@ -1,0 +1,66 @@
+//script2223(2223)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+if_opensubclient(669, 48758833)
+if_setgraphic(if_gethash(669, 27), 4088)
+if_setgraphic(if_gethash(669, 28), 4063)
+if_setvflip(if_gethash(669, 28), 0)
+if_sethflip(if_gethash(669, 28), 1)
+if_setgraphic(if_gethash(669, 29), 4063)
+if_setvflip(if_gethash(669, 29), 0)
+if_sethflip(if_gethash(669, 29), 0)
+if_setgraphic(if_gethash(669, 21), 4065)
+if_setvflip(if_gethash(669, 21), 0)
+if_sethflip(if_gethash(669, 21), 1)
+if_setgraphic(if_gethash(669, 26), 4065)
+if_setvflip(if_gethash(669, 26), 0)
+if_sethflip(if_gethash(669, 26), 0)
+sVar0 = ""
+iVar0 = stringwidth(3793, if_gettext(if_gethash(669, 47)))
+if_setsize(if_gethash(669, 7), 0, 0, if_getheight(if_gethash(669, 7)), iVar0)
+iVar1 = stringwidth(3793, if_gettext(if_gethash(669, 48)))
+if_setsize(if_gethash(669, 9), 0, 0, if_getheight(if_gethash(669, 9)), iVar1)
+iVar2 = stringwidth(3793, if_gettext(if_gethash(669, 8)))
+if_setsize(if_gethash(669, 8), 0, 0, if_getheight(if_gethash(669, 8)), iVar2)
+sVar1 = if_gettext(if_gethash(669, 8))
+if_settext(if_gethash(669, 8), append(if_gettext(if_gethash(669, 48)), append(append(append(" ", if_gettext(if_gethash(669, 8))), " "), if_gettext(if_gethash(669, 47)))))
+if_setposition(if_gethash(669, 8), 0, 1, if_gety(if_gethash(669, 8)), 0)
+if_setsize(if_gethash(669, 8), 0, 0, if_getheight(if_gethash(669, 8)), stringwidth(3793, if_gettext(if_gethash(669, 8))))
+if_setposition(if_gethash(669, 7), 0, 0, if_gety(if_gethash(669, 7)), if_getx(if_gethash(669, 8)))
+if_settext(if_gethash(669, 8), sVar1)
+if_setsize(if_gethash(669, 8), 0, 0, if_getheight(if_gethash(669, 8)), iVar2)
+if_setposition(if_gethash(669, 8), 0, 0, if_gety(if_gethash(669, 8)), (if_getx(if_gethash(669, 7)) + if_getwidth(if_gethash(669, 7))) + stringwidth(3793, " "))
+if_setposition(if_gethash(669, 9), 0, 0, if_gety(if_gethash(669, 9)), (if_getx(if_gethash(669, 8)) + if_getwidth(if_gethash(669, 8))) + stringwidth(3793, " "))
+iVar3 = 0
+iVar4 = 0
+iVar4 = instr6711().get(0)
+if(load_varc(1407) < 13) {
+	if_sethide(if_gethash(669, 14), 1)
+	if_sethide(if_gethash(669, 27), 1)
+	if_sethide(if_gethash(669, 13), 0)
+	script_5637()
+} else  {
+	if_sethide(if_gethash(669, 14), 0)
+	if_sethide(if_gethash(669, 27), 0)
+	if_sethide(if_gethash(669, 13), 1)
+	script_5637()
+}
+sVar2 = "dob"
+sVar3 = "set_members_dob.ws"
+if(load_varc(1088) == 1) {
+	sVar0 = "Continue To Buy"
+	hook_mouse_press(if_gethash(669, 39), script_5634, "ss", sVar2, sVar3)
+} else  {
+	sVar0 = "Continue"
+	hook_mouse_press(if_gethash(669, 39), script_5636, "")
+}
+instr6698(15)
+script_1174(8)
+return

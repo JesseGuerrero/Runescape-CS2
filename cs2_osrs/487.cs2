@@ -1,0 +1,7 @@
+void script_487(Widget widget0, int arg1, int arg2, int arg3) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setTrans(arg2);
+		CHILD.hookFrame(&script_488(CTX_WIDGET, CTX_WIDGET_CHILD, arg3, getClientCycle() + 10));
+	}
+	return;
+}

@@ -1,0 +1,13 @@
+void script_362(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Mouse buttons" + "<br>" + "(currently 2)";
+	if (VARP[170] <= 0) {
+		widget0.setSprite(762);
+	} else {
+		str0 = "Mouse buttons" + "<br>" + "(currently 1)";
+		widget0.setSprite(761);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

@@ -1,0 +1,9 @@
+//script6313(6313)(int arg0, int arg1, string arg2)(string)
+if(arg1 <= 0 || arg0 == -1)
+	return arg0
+if(string_length(arg0) > 0)
+	arg0 = append("<br>", arg0)
+if(arg0 == 1539)
+	return append("Nails: " + to_string(arg1), arg0)
+return append(item_name(arg0) + ": " + to_string(arg1), arg0)
+return ""

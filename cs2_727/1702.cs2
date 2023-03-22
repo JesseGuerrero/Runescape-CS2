@@ -1,0 +1,40 @@
+//script1702(1702)(int arg0)(void)
+int iVar1
+string sVar0
+iVar1 = if_getheight(if_gethash(271, 9))
+sVar0 = "This is the effect that prayers and curses have during combat. It includes curses that have been used against you. The adjustment has no effect outside of combat. The percentage shown is relative to your skill level, and may vary depending on the enemy you are fighting, and the prayers or curses used. Partial percentages are not shown."
+if(arg0 >= 0)
+	if(load_varc(1052) == 1) {
+		if(iVar1 < 63) {
+			iVar1 = min(63, iVar1 + 3)
+			instr6342(if_gethash(271, 9), script_1702, "i", 0)
+			if_setsize(if_gethash(271, 9), 0, 2, iVar1, 16384)
+			if_setsize(if_gethash(271, 5), 1, 2, iVar1 + if_getheight(if_gethash(271, 0)), 16384)
+			if_setsize(if_gethash(271, 6), 1, 0, (iVar1 + if_getheight(if_gethash(271, 0))) + 2, 16)
+		}
+		if(if_getheight(if_gethash(271, 9)) >= 63) {
+			instr6342(if_gethash(271, 9), None, "")
+			script_1704()
+			if_sethide(if_gethash(271, 24), 0)
+			if_setonmouseover(if_gethash(271, 13), script_38, "IIsii", if_gethash(271, 13), if_gethash(271, 49), sVar0, 25, 190)
+			hook_mouse_exit(if_gethash(271, 13), script_40, "I", if_gethash(271, 49))
+		}
+	} else  {
+		if(iVar1 > 19) {
+			iVar1 = max(19, iVar1 - 3)
+			instr6342(if_gethash(271, 9), script_1702, "i", 0)
+			if_setsize(if_gethash(271, 9), 0, 2, iVar1, 16384)
+			if_setsize(if_gethash(271, 5), 1, 2, iVar1 + if_getheight(if_gethash(271, 0)), 16384)
+			if_setsize(if_gethash(271, 6), 1, 0, (iVar1 + if_getheight(if_gethash(271, 0))) + 2, 16)
+			if_setonmouseover(if_gethash(271, 13), None, "")
+			hook_mouse_exit(if_gethash(271, 13), None, "")
+		}
+		if(if_getheight(if_gethash(271, 9)) <= 19) {
+			instr6342(if_gethash(271, 9), None, "")
+			script_1704()
+			if_sethide(if_gethash(271, 24), 1)
+		}
+	}
+else
+	instr6342(if_gethash(271, 9), script_1702, "i", arg0 + 1)
+return

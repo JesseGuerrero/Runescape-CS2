@@ -1,0 +1,85 @@
+//script5747(5747)(int arg0, int arg1, int arg2, int arg3, int arg4)(int, int)
+int iVar5
+string sVar0
+cc_create(arg3, 5, 81199112)
+if(arg2 == 1)
+	cc_setgraphic(7635)
+else
+	cc_setgraphic(7629)
+cc_setsize(0, 0, 51, 12)
+cc_setposition(0, 0, (51 + 3) * (arg4 / 1), ((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5)
+arg3 = arg3 + 1
+cc_create(arg3, 5, 81199112)
+if(arg2 == 1)
+	cc_setgraphic(7636)
+else
+	cc_setgraphic(7630)
+cc_setsize(0, 0, 51, 434)
+cc_setposition(0, 0, (51 + 3) * (arg4 / 1), (((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5) + 12)
+arg3 = arg3 + 1
+cc_create(arg3, 5, 81199112)
+if(arg2 == 1)
+	cc_setgraphic(7637)
+else
+	cc_setgraphic(7631)
+cc_setsize(0, 0, 51, 12)
+cc_setposition(0, 0, (51 + 3) * (arg4 / 1), ((((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5) + 12) + 434)
+arg3 = arg3 + 1
+cc_create(arg3, 4, 81199112)
+cc_settext(struct_param(1266, arg0))
+cc_settextfont(4040)
+cc_setcolor(ebe0bc)
+cc_setsize(0, 0, 13, 330)
+cc_setposition(0, 0, ((51 + 3) * (arg4 / 1)) + 1, (((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5) + 70)
+arg3 = arg3 + 1
+cc_create(arg3, 4, 81199112)
+cc_settext(struct_param(1273, arg0))
+cc_settextfont(5631)
+cc_setcolor(d7d6b2)
+cc_setsize(0, 0, 30, 330)
+cc_setposition(0, 0, ((51 + 3) * (arg4 / 1)) + 16, (((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5) + 70)
+arg3 = arg3 + 1
+cc_create(arg3, 5, 81199112)
+if(struct_param(1270, arg0) != 4094)
+	cc_setgraphic(struct_param(952, enum(2252, struct_param(1270, arg0), 'i', 'J')))
+else
+	cc_setgraphic(struct_param(1271, arg0))
+cc_setsize(0, 0, 40, 40)
+cc_setposition(0, 0, ((51 + 3) * (arg4 / 1)) + 5, (((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5) + 7)
+arg3 = arg3 + 1
+sVar0 = ""
+iVar5 = 3
+cc_create(arg3, 5, 81199112)
+if(arg2 == 1)
+	cc_setgraphic(9603)
+else
+	if(arg1 == 1)
+		cc_setgraphic(9601)
+	else
+		cc_setgraphic(9602)
+cc_setsize(0, 0, 34, 34)
+cc_setposition(0, 0, ((51 + 3) * (arg4 / 1)) + ((51 - 34) / 2), ((((((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5) + 12) + 434) - 34) - 4)
+if(arg2 == 1)
+	sVar0 = "Task Complete"
+else
+	if(arg1 == 1)
+		sVar0 = "Requirements met."
+	else
+		sVar0 = "Requirements not met."
+cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1239, 10), if_gethash(1239, 8), arg3, sVar0, 175, -1, -1, -1, 12, 3, iVar5, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(1239, 10))
+arg3 = arg3 + 1
+cc_create(arg3, 5, 81199112)
+cc_setsize(0, 0, 51, 456)
+cc_setposition(0, 0, (51 + 3) * (arg4 / 1), ((((2 * 12) + 434) + 5) * modulo(1, arg4)) + 5)
+cc_setop("Select", 1)
+cc_setopbase(append(struct_param(1266, arg0), "<col=00ff00>"))
+instr6091(script_5748, "i", -2147483643)
+if(arg2 == 0)
+	instr6092(script_5749, "i", -2147483643)
+else
+	instr6092(script_5750, "i", -2147483643)
+arg3 = arg3 + 1
+arg4 = arg4 + 1
+return arg4, arg3
+return 0, 0

@@ -1,0 +1,20 @@
+//script5509(5509)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar3 = if_getscrollheight(arg1)
+iVar4 = if_getheight(arg0)
+iVar5 = iVar4 - 32
+iVar6 = 0
+if(iVar3 > 0)
+	iVar6 = (iVar5 * iVar4) / iVar3
+else
+	iVar6 = iVar5
+if(iVar6 < 20)
+	iVar6 = 20
+if(cc_find(3, arg0) == 1) {
+	cc_setsize(0, 0, iVar6 - 10, 16)
+	script_5507(arg0, arg1, arg2, 1)
+}
+return

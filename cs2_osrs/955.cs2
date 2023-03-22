@@ -1,0 +1,8 @@
+void script_955(int arg0, Widget widget1) {
+	DataMap datamap2;
+	datamap2 = script_900();
+	if (datamap2 != null) {
+		widget1.setPosition(datamap('g', 'i', 1135, datamap2), datamap('g', 'i', 1136, datamap2), 2, 2);
+	}
+	return;
+}

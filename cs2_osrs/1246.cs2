@@ -1,0 +1,9 @@
+void script_1246(Widget widget0, string string1) {
+	widget0.setIsHidden(false);
+	widget0.hookFrame(null);
+	script_1248(0, widget0, string1);
+	widget0.hookMouseEnter(&script_1247(true, widget0, string1));
+	widget0.hookMouseExit(&script_1247(false, widget0, string1));
+	widget0.hookMousePress(&script_1249(widget0, string1));
+	return;
+}

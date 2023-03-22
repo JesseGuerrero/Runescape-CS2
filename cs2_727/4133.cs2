@@ -1,0 +1,24 @@
+//script4133(4133)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8)(void)
+int iVar9
+int iVar10
+iVar9 = 0
+iVar10 = 0
+if(arg1 == -1)
+	if(instr6004(arg0) == 1 || cc_find(arg1, arg0) == 1) {
+		if(arg7 > 0) {
+			instr6556(script_4133, "Iiiiiiii«", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7 - 1, arg8)
+			return
+		}
+		iVar9 = cc_gettransparency()
+		iVar10 = min(arg5, max(arg4, iVar9 + arg2))
+		if(iVar10 == arg4 || iVar10 == arg5) {
+			if(iVar10 == arg5)
+				arg7 = arg6
+			if(iVar10 == arg4)
+				if(arg8 != -1)
+					sound_vorbis_volume(255, 50, 1, arg8)
+			instr6556(script_4133, "Iiiiiiii«", arg0, arg1, arg3, arg2, arg4, arg5, arg6, arg7, arg8)
+		}
+		cc_settrans(iVar10)
+	}
+return

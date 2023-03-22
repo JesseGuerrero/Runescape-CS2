@@ -1,0 +1,7 @@
+void script_731() {
+	widget(64, 40).setIsHidden(false);
+	widget(64, 43).setIsHidden(true);
+	widget(64, 44).setText("Confirm");
+	widget(64, 44).setRGB(0xFFFFFF);
+	return;
+}

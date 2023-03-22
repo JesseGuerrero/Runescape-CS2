@@ -1,0 +1,35 @@
+//script6183(6183)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = load_varc(1910)
+if(load_varpbit(11105) == 0) {
+	if_settext(if_gethash(1273, 68), "0")
+	return
+}
+if(load_varpbit(11104) == 1) {
+	while(iVar1 < load_varpbit(11105)) {
+		iVar0 = iVar0 + enum(5842, iVar1, 'i', 'i')
+		iVar1 = iVar1 + 1
+	}
+	if_settext(if_gethash(1273, 68), "Rank " + to_string(11 - load_varpbit(11105)) + " Esteem = " + to_string(iVar0) + " points")
+	return
+}
+if(load_varpbit(11104) == 2) {
+	if_settext(if_gethash(1273, 68), "Recolour = " + to_string(2000) + " points")
+	return
+}
+iVar2 = enum(5838, load_varpbit(11105) - 1, 'i', 'J')
+if(iVar2 == -1)
+	return
+iVar0 = struct_param(2379, iVar2)
+iVar0 = iVar0 * load_varpbit(11106)
+if(struct_param(2378, iVar2) == 0)
+	if_settext(if_gethash(1273, 68), to_string(load_varpbit(11106)) + " x " + struct_param(2376, iVar2) + " = " + to_string(iVar0))
+else
+	if(world_language() == 3 || world_language() == 2)
+		if_settext(if_gethash(1273, 68), to_string(load_varpbit(11106)) + " x " + struct_param(2377, iVar2) + " " + struct_param(2376, iVar2) + " = " + to_string(iVar0))
+	else
+		if_settext(if_gethash(1273, 68), to_string(load_varpbit(11106)) + " x " + struct_param(2376, iVar2) + " " + struct_param(2377, iVar2) + " = " + to_string(iVar0))
+return

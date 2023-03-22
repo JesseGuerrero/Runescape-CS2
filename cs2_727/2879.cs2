@@ -1,0 +1,43 @@
+//script2879(2879)(int arg0, int arg1, int arg2)(int)
+string sVar0
+sVar0 = "Remove from Playlist"
+if(cc_find(arg0, if_gethash(187, 9)) == 1)
+	if(cc_find(arg0 + 12, if_gethash(187, 9)) == 1) {
+		if(arg1 == 32767) {
+			cc_sethide(1)
+			cc_sethide(1)
+			return arg2
+		}
+		cc_setposition(0, 0, arg2, 15)
+		cc_settextalign(0, 1, 0)
+		if(load_varpbit(4388) == arg1)
+			if(load_varpbit(7078) == 1) {
+				cc_setcolor(ffff66)
+				instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777062)
+			} else  {
+				cc_setcolor(ffff)
+				instr6092(script_1356, "Iii", -2147483645, -2147483643, 65535)
+			}
+		instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+		cc_settext(enum_string(arg1, 1345))
+		cc_setsize(0, 0, 15, 150)
+		cc_setop("Play", 1)
+		cc_setop("Remove", 2)
+		cc_setopbase(enum_string(arg1, 1345))
+		cc_setopbase(enum_string(arg1, 1345))
+		cc_settextshadow(0)
+		cc_settextfont(494)
+		instr6676(-1, if_gethash(187, 9))
+		instr6676(-1, if_gethash(-1, 65535))
+		instr6073(2)
+		cc_setsize(0, 0, 12, 12)
+		cc_setposition(0, 0, arg2 + 1, 2)
+		cc_setop("Remove", 2)
+		cc_setgraphic(2430)
+		instr6687(script_2885, "Iiiiii", -2147483645, -2147483643, 150, 0, 20, -2147483644)
+		cc_setonmouseover(script_1160, "IiIsii", if_gethash(187, 9), -2147483643, if_gethash(187, 17), sVar0, 25, 189)
+		instr6092(script_40, "I", if_gethash(187, 17))
+		instr6088(script_40, "I", if_gethash(187, 17))
+	}
+return arg2 + 15
+return 0

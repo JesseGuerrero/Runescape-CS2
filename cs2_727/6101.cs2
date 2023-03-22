@@ -1,0 +1,27 @@
+//script6101(6101)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg2 == 0)
+	script_41(82903129)
+if(cc_find(arg4, arg3) == 1)
+	if(arg0 == 0)
+		if(arg1 == 1)
+			if(arg2 == 1)
+				cc_setgraphic(10451)
+			else
+				cc_setgraphic(10451)
+		else
+			if(arg2 == 1)
+				cc_setgraphic(10449)
+			else
+				cc_setgraphic(10448)
+	else
+		if(arg1 == 1)
+			if(arg2 == 1)
+				cc_setgraphic(10456)
+			else
+				cc_setgraphic(10456)
+		else
+			if(arg2 == 1)
+				cc_setgraphic(10454)
+			else
+				cc_setgraphic(10453)
+return

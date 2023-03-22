@@ -1,0 +1,50 @@
+//script1294(1294)()(void)
+if(bit_flagged(1, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 134), 4912)
+if(bit_flagged(2, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 135), 4912)
+if(bit_flagged(3, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 136), 4913)
+if(bit_flagged(4, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 137), 4912)
+if(bit_flagged(5, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 138), 4912)
+if(bit_flagged(6, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 139), 4913)
+if(bit_flagged(7, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 140), 4913)
+if(bit_flagged(8, load_varp(383)) == 1)
+	if_setmodel(if_gethash(144, 141), 4912)
+if(load_varp(383) > 8191) {
+	if_sethide(if_gethash(144, 186), 1)
+	if_setgraphic(if_gethash(144, 146), 296)
+}
+if(bit_flagged(14, load_varp(383)) == 1) {
+	if_setmodel(if_gethash(144, 174), 4910)
+	if_setmodelanim(if_gethash(144, 174), 1456)
+}
+if(bit_flagged(15, load_varp(383)) == 1) {
+	if_setmodel(if_gethash(144, 172), 4910)
+	if_setmodelanim(if_gethash(144, 172), 1456)
+}
+if(bit_flagged(16, load_varp(383)) == 1) {
+	if_setmodel(if_gethash(144, 176), 4910)
+	if_setmodelanim(if_gethash(144, 176), 1456)
+}
+if(bit_flagged(17, load_varp(383)) == 1) {
+	if_setmodel(if_gethash(144, 178), 4910)
+	if_setmodelanim(if_gethash(144, 178), 1455)
+}
+if(bit_flagged(18, load_varp(383)) == 1) {
+	if_setmodel(if_gethash(144, 180), 4910)
+	if_setmodelanim(if_gethash(144, 180), 1455)
+}
+if(bit_flagged(19, load_varp(383)) == 1) {
+	if_setmodel(if_gethash(144, 183), 4910)
+	if_setmodelanim(if_gethash(144, 183), 1453)
+}
+if(bit_flagged(20, load_varp(383)) == 1) {
+	if_setmodel(if_gethash(144, 185), 4910)
+	if_setmodelanim(if_gethash(144, 185), 1453)
+}
+return

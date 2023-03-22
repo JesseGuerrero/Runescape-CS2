@@ -1,0 +1,11 @@
+//script5908(5908)(int arg0)(string)
+string sVar0
+sVar0 = ""
+if(world_members() == 0)
+	sVar0 = " (Member's item)"
+if(item_members(arg0) == 0)
+	return item_name(arg0)
+if(world_members() == 1)
+	return item_name(arg0) + sVar0
+return enum(5703, arg0, 'o', 's') + sVar0
+return ""

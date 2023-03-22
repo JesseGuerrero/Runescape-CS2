@@ -1,0 +1,19 @@
+void script_344(Widget widget0, int arg1) {
+	int int2;
+	int2 = getClientCycle() - arg1;
+	if (int2 < 90) {
+		widget0.setTrans(255 - mathMethod4006(0, int2, 0, 90, 255));
+		return;
+	}
+	if (int2 < 195) {
+		widget0.setTrans(0);
+		return;
+	}
+	if (int2 < 255) {
+		widget0.setTrans(255 - mathMethod4006(0, 255 - int2, 0, 60, 255));
+		return;
+	}
+	widget0.setTrans(255);
+	widget0.hookFrame(null);
+	return;
+}

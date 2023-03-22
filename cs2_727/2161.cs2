@@ -1,0 +1,10 @@
+//script2161(2161)(int arg0)(void)
+if_sethide(if_gethash(906, 35), 1)
+if_sethide(if_gethash(906, 38), 1)
+if(arg0 == 1) {
+	if_sethide(if_gethash(906, 36), 0)
+	if_sendtofront(if_gethash(906, 36))
+	store_varc(1773, 0)
+	instr6342(if_gethash(906, 466), script_2829, "")
+}
+return

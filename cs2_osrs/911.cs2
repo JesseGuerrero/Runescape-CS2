@@ -1,0 +1,16 @@
+void script_911(Widget widget0, int arg1, Color color2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11) {
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setRGB(color2);
+		CHILD.setTrans(arg3);
+		CHILD.setPosition(arg4, arg5, arg6, arg7);
+		CHILD.setSize(arg8, arg9, arg10, arg11);
+	} else {
+		CHILD.createChild(widget0, 3, arg1);
+		CHILD.setFilled(true);
+		CHILD.setRGB(color2);
+		CHILD.setTrans(arg3);
+		CHILD.setPosition(arg4, arg5, arg6, arg7);
+		CHILD.setSize(arg8, arg9, arg10, arg11);
+	}
+	return;
+}

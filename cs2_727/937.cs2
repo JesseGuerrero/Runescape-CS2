@@ -1,0 +1,33 @@
+//script937(937)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+cc_deleteall(if_gethash(335, 34))
+iVar0 = 0
+iVar1 = 0
+iVar2 = 4
+iVar3 = 7
+if(if_getscrollwidth(if_gethash(335, 34)) > 0)
+	iVar0 = (if_getscrollwidth(if_gethash(335, 34)) - (36 * iVar2)) / (iVar2 - 1)
+else
+	iVar0 = (if_getwidth(if_gethash(335, 34)) - (36 * iVar2)) / (iVar2 - 1)
+if(if_getscrollheight(21954594) > 0)
+	iVar1 = (if_getscrollheight(21954594) - (32 * iVar3)) / (iVar3 - 1)
+else
+	iVar1 = (if_getheight(if_gethash(335, 34)) - (32 * iVar3)) / (iVar3 - 1)
+iVar4 = 0
+iVar5 = -1
+while(iVar4 < inv_size(if_gethash(0, 90))) {
+	cc_create(iVar4, 3, 21954594)
+	cc_setsize(0, 0, 32, 36)
+	cc_setposition(0, 0, (iVar4 / iVar2) * (32 + iVar1), (36 + iVar0) * modulo(iVar2, iVar4))
+	cc_setfill(1)
+	cc_setcolor(ff0000)
+	cc_settrans(255)
+	iVar4 = iVar4 + 1
+}
+if_setonmouseleave(if_gethash(335, 34), script_938, "Y", 1, 90)
+return

@@ -1,0 +1,7 @@
+//script6136(6136)(string arg0)(void)
+cc_setfill(1)
+cc_settrans(255)
+instr6687(script_6135, "")
+cc_setop(arg0, 1)
+cc_setnoclickthrough(1)
+return

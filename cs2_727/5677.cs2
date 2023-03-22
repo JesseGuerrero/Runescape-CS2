@@ -1,0 +1,100 @@
+//script5677(5677)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+string sVar0
+iVar1 = -1
+switch(arg0) {
+	case default:
+		if_sethide(if_gethash(1213, 4), 1)
+		return
+
+	case 79495198:
+		iVar1 = 0
+		break
+	case 79495199:
+		iVar1 = 2
+		break
+	case 79495200:
+		iVar1 = 1
+		break
+	case 79495201:
+		iVar1 = 4
+		break
+	case 79495202:
+		iVar1 = 5
+		break
+	case 79495203:
+		iVar1 = 6
+		break
+	case 79495204:
+		iVar1 = 3
+		break
+	case 79495205:
+		iVar1 = 16
+		break
+	case 79495206:
+		iVar1 = 15
+		break
+	case 79495207:
+		iVar1 = 17
+		break
+	case 79495208:
+		iVar1 = 12
+		break
+	case 79495209:
+		iVar1 = 9
+		break
+	case 79495210:
+		iVar1 = 14
+		break
+	case 79495211:
+		iVar1 = 13
+		break
+	case 79495212:
+		iVar1 = 10
+		break
+	case 79495213:
+		iVar1 = 7
+		break
+	case 79495214:
+		iVar1 = 11
+		break
+	case 79495215:
+		iVar1 = 8
+		break
+	case 79495216:
+		iVar1 = 20
+		break
+	case 79495217:
+		iVar1 = 18
+		break
+	case 79495218:
+		iVar1 = 19
+		break
+	case 79495219:
+		iVar1 = 21
+		break
+	case 79495220:
+		iVar1 = 22
+		break
+	case 79495221:
+		iVar1 = 23
+		break
+	case 79495222:
+		iVar1 = 24
+		break
+
+}
+sVar0 = append(": " + to_string(stat(iVar1)) + "/" + to_string(stat_base(iVar1)) + "<br>", enum(680, iVar1, 'S', 's'))
+sVar0 = append("Current Xp: " + tostring_localized(1, stat_visible_xp(iVar1)) + "<br>", sVar0)
+sVar0 = append("Next level: " + tostring_localized(1, enum(716, stat_base(iVar1) + 1, 'i', 'i')) + "<br>", sVar0)
+sVar0 = append("Remainder: " + tostring_localized(1, enum(716, stat_base(iVar1) + 1, 'i', 'i') - stat_visible_xp(iVar1)), sVar0)
+iVar2 = parawidth(sVar0, instr6289(if_gethash(1213, 6)), 512) + 8
+iVar3 = (paramheight(sVar0, instr6289(if_gethash(1213, 6)), 512) * 12) + 8
+if_setsize(if_gethash(1213, 4), 0, 0, iVar3, iVar2)
+if_settext(if_gethash(1213, 6), sVar0)
+if_sethide(if_gethash(1213, 4), 0)
+if_setposition(if_gethash(1213, 4), 0, 0, if_gety(arg0) + if_getheight(arg0), (if_getx(if_gethash(1213, 2)) + if_getx(arg0)) + if_getwidth(arg0))
+instr6342(if_gethash(1213, 4), script_5679, "II", -2147483645, arg0)
+return

@@ -1,0 +1,19 @@
+void script_1611(string string0, Widget widget1, Sprite sprite2) {
+	int int2;
+	widget1.clearChildren();
+	int2 = script_835(widget1, 0);
+	CHILD.createChild(widget1, 4, int2);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(sprite2);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(string0);
+	widget1.hookMouseHover(&script_85(CTX_WIDGET, int2, 16777215));
+	widget1.hookMouseExit(&script_85(CTX_WIDGET, int2, 16750623));
+	widget1.setContextMenuOption(1, string0);
+	widget1.hookOptionClick(&script_1612(CTX_MENU_OPTION, widget1, string0, sprite2));
+	widget1.hookFrame(null);
+	return;
+}

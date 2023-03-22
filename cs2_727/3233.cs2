@@ -1,0 +1,7 @@
+//script3233(3233)(string arg0)(void)
+int iVar0
+iVar0 = 39059469
+if(instr6710() == 1)
+	iVar0 = 63897604
+if_settext(iVar0, arg0)
+return

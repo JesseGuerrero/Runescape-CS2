@@ -1,0 +1,11 @@
+//script2760(2760)(int arg0)(void)
+if(load_varc(173) == 1 || load_varpbit(542) == 1) {
+	instr6220(arg0)
+	instr6239(arg0, None, "")
+	if_setnoclickthrough(arg0, 0)
+} else  {
+	instr6213(arg0, 1, "Face North")
+	instr6239(arg0, script_2757, "i", -2147483644)
+	if_setnoclickthrough(arg0, 1)
+}
+return

@@ -1,0 +1,83 @@
+string script_224(string string0) {
+	int int0;
+	int int1;
+	string str1;
+	string str2;
+	str1 = lower(string0);
+	int0 = length(str1);
+	str2 = "::tele n ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", 0, 1);
+		}
+		return script_225(substr(str1, int1, int0), 0, 1);
+	}
+	str2 = "::tele s ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", 0, -1);
+		}
+		return script_225(substr(str1, int1, int0), 0, -1);
+	}
+	str2 = "::tele e ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", 1, 0);
+		}
+		return script_225(substr(str1, int1, int0), 1, 0);
+	}
+	str2 = "::tele w ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", -1, 0);
+		}
+		return script_225(substr(str1, int1, int0), -1, 0);
+	}
+	str2 = "::tele nw ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", -1, 1);
+		}
+		return script_225(substr(str1, int1, int0), -1, 1);
+	}
+	str2 = "::tele sw ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", -1, -1);
+		}
+		return script_225(substr(str1, int1, int0), -1, -1);
+	}
+	str2 = "::tele ne ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", 1, 1);
+		}
+		return script_225(substr(str1, int1, int0), 1, 1);
+	}
+	str2 = "::tele se ";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		if (int0 <= int1) {
+			return script_225("", 1, -1);
+		}
+		return script_225(substr(str1, int1, int0), 1, -1);
+	}
+	str2 = "::tele up";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		return script_1410(1);
+	}
+	str2 = "::tele down";
+	int1 = length(str2);
+	if (int0 >= int1 && compare(substr(str1, 0, int1), str2) == 0) {
+		return script_1410(-1);
+	}
+	return string0;
+}

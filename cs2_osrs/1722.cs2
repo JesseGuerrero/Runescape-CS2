@@ -1,0 +1,21 @@
+void script_1722(Widget widget0, string string1, int arg2, int arg3, int arg4) {
+	string str1;
+	str1 = "-";
+	if (arg2 == 1) {
+		str1 = "+";
+	}
+	if (length(string1) > 0) {
+		script_1724(widget0, 0, 0x000000, str1);
+		widget0.hookMouseHover(&script_1723(widget0, true, 0, str1));
+		widget0.hookMouseExit(&script_1723(widget0, false, 0, str1));
+		widget0.setContextMenuOption(1, string1);
+		widget0.hookOptionClick(&script_1726((boolean)arg2, widget(arg3), widget(arg4)));
+	} else {
+		script_1724(widget0, 1, 0xFF0000, str1);
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.setNoOptions();
+		widget0.hookOptionClick(null);
+	}
+	return;
+}

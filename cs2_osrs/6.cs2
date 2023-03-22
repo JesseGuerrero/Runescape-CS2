@@ -1,0 +1,14 @@
+void script_6(Widget widget0, int arg1, Sprite sprite2, Sprite sprite3, int arg4, Item item5, int arg6, Item item7, int arg8, Item item9, int arg10, Item item11, int arg12, string arg13, string arg14) {
+	widget0.setOptionBase("<col=00ff00>" + arg13);
+	script_21(widget0, sprite2, sprite3, arg4, item5, arg6, item7, arg8, item9, arg10, item11, arg12);
+	widget0.hookMouseHover(&script_10(widget0, widget(arg1), arg4, arg13, arg14, item5, arg6, item7, arg8, item9, arg10, item11, arg12));
+	widget0.hookMouseExit(&script_11(widget(arg1)));
+	if (getTargetMask(widget0) != 0) {
+		widget0.hookOnUse(&script_17(widget0));
+		widget0.hookUseWith(&script_18(widget0));
+	}
+	widget0.hookVARP(&script_16(widget0, sprite2, sprite3, arg4, item5, arg6, item7, arg8, item9, arg10, item11, arg12), 638, 375, 1139, 1140, 1141, 439, 318, 635, 1377, 1339, 1429);
+	widget0.hookContainer(&script_16(widget0, sprite2, sprite3, arg4, item5, arg6, item7, arg8, item9, arg10, item11, arg12), 93);
+	widget0.hookSkill(&script_16(widget0, sprite2, sprite3, arg4, item5, arg6, item7, arg8, item9, arg10, item11, arg12), 6);
+	return;
+}

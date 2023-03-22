@@ -1,0 +1,33 @@
+//script4782(4782)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = -1
+iVar4 = -1
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		iVar3 = 7541
+		iVar4 = 7537
+		break
+	case 2:
+		iVar3 = 7540
+		iVar4 = 7536
+		break
+	case 3:
+		iVar3 = 7539
+		iVar4 = 7535
+		break
+	case 4:
+		iVar3 = 7538
+		iVar4 = 7534
+		break
+
+}
+if(arg2 == 1)
+	if_setgraphic(arg0, iVar3)
+else {
+	if_setgraphic(arg0, iVar4)
+	script_41(73072826)
+}
+return

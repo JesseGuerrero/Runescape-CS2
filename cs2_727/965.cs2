@@ -1,0 +1,29 @@
+//script965(965)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16)(void)
+script_966(arg0, load_varc(122))
+script_966(arg1, load_varc(122))
+script_966(arg2, load_varc(122))
+script_966(arg3, load_varc(122))
+script_966(arg4, load_varc(122))
+script_966(arg5, load_varc(123))
+script_966(arg6, load_varc(123))
+script_966(arg7, load_varc(123))
+script_966(arg8, load_varc(123))
+script_966(arg9, load_varc(123))
+script_966(arg10, load_varc(124))
+script_966(arg11, load_varc(124))
+script_966(arg12, load_varc(124))
+script_966(arg13, load_varc(124))
+script_966(arg14, load_varc(124))
+if(load_varc(125) < client_clock()) {
+	if_sethide(arg15, 0)
+	if_sethide(arg16, 1)
+} else  {
+	if(load_varc(156) <= client_clock())
+		if(load_varc(157) == 1) {
+			sound_vorbis_rate(random_sound_pitch(15, 15), 100, 0, 1, 7540)
+			store_varc(156, client_clock() + 30)
+		}
+	if_sethide(arg15, 1)
+	if_sethide(arg16, 0)
+}
+return

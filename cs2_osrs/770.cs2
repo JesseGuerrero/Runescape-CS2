@@ -1,0 +1,36 @@
+int script_770(int arg0, Widget widget1, int arg2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int3 = widget1.getWidth();
+	int4 = widget1.getHeight();
+	int5 = int3 - 32;
+	int6 = int4 - 32;
+	script_98(widget1, arg2, 987, 16, -13, 0, 0, int5, 32, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 989, 16, int4 - 20, 0, 0, int5, 32, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 988, -14, 16, 0, 0, 32, int6, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 990, int3 - 20, 16, 0, 0, 32, int6, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 991, 0, 0, 0, 0, 32, 32, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 992, int5, 0, 0, 0, 32, 32, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 993, 0, int6, 0, 0, 32, 32, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 994, int5, int6, 0, 0, 32, 32, 0, 0);
+	arg2 = arg2 + 1;
+	if (arg0 < 6) {
+		return arg2;
+	}
+	script_98(widget1, arg2, 995, 0, arg0 - 20, 0, 0, int3, 32, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 996, 0, arg0 - 18, 0, 0, 32, 32, 0, 0);
+	arg2 = arg2 + 1;
+	script_98(widget1, arg2, 997, int5, arg0 - 18, 0, 0, 32, 32, 0, 0);
+	arg2 = arg2 + 1;
+	return arg2;
+}

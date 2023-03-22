@@ -1,0 +1,16 @@
+//script4332(4332)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = -1
+iVar3 = -1
+iVar2 = script_4384(load_clan_setting_varbit(14), load_clan_setting_varbit(15), 1).get(0)
+if_setgraphic(arg0, iVar2)
+if_setgraphic(arg1, iVar3)
+if(activeclansettings_getaffinedcount() >= 5) {
+	if_setcolor(arg0, hsvtorgb(load_clan_setting_var(16)))
+	if_setcolor(arg1, hsvtorgb(load_clan_setting_var(17)))
+} else  {
+	if_setcolor(arg0, hsvtorgb(6716))
+	if_setcolor(arg1, hsvtorgb(6716))
+}
+return

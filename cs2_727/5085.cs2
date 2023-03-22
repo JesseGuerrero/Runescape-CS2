@@ -1,0 +1,27 @@
+//script5085(5085)(int arg0)(void)
+int iVar1
+int iVar2
+if_sethide(if_gethash(1114, 22), 1)
+store_varc(160, -1)
+cc_deleteall(if_gethash(1114, 26))
+iVar1 = 0
+iVar2 = enum_getoutputcount(3921)
+while(iVar1 < iVar2) {
+	if(load_varc(1095) == 1) {
+		if(cc_find((iVar1 * 10) + 3, arg0) == 1)
+			cc_setgraphic(6132)
+		if(cc_find((iVar1 * 10) + 5, arg0) == 1)
+			cc_setgraphic(6131)
+		if(cc_find((iVar1 * 10) + 7, arg0) == 1)
+			cc_setgraphic(6133)
+	} else  {
+		if(cc_find((iVar1 * 10) + 3, arg0) == 1)
+			cc_setgraphic(6141)
+		if(cc_find((iVar1 * 10) + 5, arg0) == 1)
+			cc_setgraphic(6140)
+		if(cc_find((iVar1 * 10) + 7, arg0) == 1)
+			cc_setgraphic(6142)
+	}
+	iVar1 = iVar1 + 1
+}
+return

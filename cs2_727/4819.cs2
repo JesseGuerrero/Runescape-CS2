@@ -1,0 +1,16 @@
+//script4819(4819)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return script_4821(load_varpbit(9570))
+
+	case 2:
+		return script_4821(load_varpbit(9579))
+
+	case 3:
+		return script_4821(load_varpbit(9588))
+
+
+}
+return -1

@@ -1,0 +1,9 @@
+void script_1565() {
+	string str0;
+	str0 = "Make party";
+	if (VARP[1427] != -1) {
+		str0 = "<col=ffff00>" + "My party" + "</col>";
+	}
+	script_1558(widget(499, 57), str0, 32702467, 1538, -1);
+	return;
+}

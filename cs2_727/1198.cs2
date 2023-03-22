@@ -1,0 +1,30 @@
+//script1198(1198)()(void)
+if(inv_total(15249, 93) > 0 || inv_total(15249, 95) > 0 || load_varpbit(6471) >= 44)
+	if_sethide(if_gethash(887, 5), 1)
+else
+	if_sethide(if_gethash(887, 5), 0)
+if(inv_total(15253, 93) > 0 || inv_total(15253, 95) > 0)
+	if_sethide(if_gethash(887, 6), 1)
+else
+	if_sethide(if_gethash(887, 6), 0)
+if(inv_total(15248, 93) > 0 || inv_total(15248, 95) > 0 || load_varpbit(6471) == 42)
+	if_sethide(if_gethash(887, 2), 1)
+else
+	if_sethide(if_gethash(887, 2), 0)
+if(inv_total(15247, 93) > 0 || inv_total(15247, 95) > 0)
+	if_sethide(if_gethash(887, 4), 1)
+else
+	if_sethide(if_gethash(887, 4), 0)
+if(inv_total(15251, 93) > 0 || inv_total(15251, 95) > 0 || load_varpbit(6471) >= 52 || load_varpbit(6481) == 1)
+	if_sethide(if_gethash(887, 8), 1)
+else
+	if_sethide(if_gethash(887, 8), 0)
+if(inv_total(15250, 93) > 0 || inv_total(15250, 95) > 0 || load_varpbit(6471) >= 52 || load_varpbit(6481) == 2)
+	if_sethide(if_gethash(887, 7), 1)
+else
+	if_sethide(if_gethash(887, 7), 0)
+if(inv_total(15252, 93) > 0 || inv_total(15252, 95) > 0)
+	if_sethide(if_gethash(887, 3), 1)
+else
+	if_sethide(if_gethash(887, 3), 0)
+return

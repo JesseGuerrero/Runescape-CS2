@@ -1,0 +1,16 @@
+//script685(685)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+arg3 = modulo(arg4 * 4, arg3 + arg5)
+if(cc_find(arg1, arg0) == 1) {
+	if(arg3 <= arg4)
+		cc_setmodelangle(cc_getspritescale(), cc_getspriteyaw(), modulo(2048, arg2 + arg3), cc_getspritepitch(), 0, 0)
+	else
+		if(arg3 <= arg4 * 2)
+			cc_setmodelangle(cc_getspritescale(), cc_getspriteyaw(), modulo(2048, (arg2 + arg4) - (arg3 - arg4)), cc_getspritepitch(), 0, 0)
+		else
+			if(arg3 <= arg4 * 3)
+				cc_setmodelangle(cc_getspritescale(), cc_getspriteyaw(), script_686(arg2 - (arg3 - (arg4 * 2)), 2048), cc_getspritepitch(), 0, 0)
+			else
+				cc_setmodelangle(cc_getspritescale(), cc_getspriteyaw(), script_686((arg2 - arg4) + (arg3 - (arg4 * 3)), 2048), cc_getspritepitch(), 0, 0)
+	instr6556(script_685, "Iiiiii", -2147483645, -2147483643, arg2, arg3, arg4, arg5)
+}
+return

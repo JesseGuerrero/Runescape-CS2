@@ -1,0 +1,4 @@
+void script_343(Widget widget0) {
+	widget0.hookFrame(&script_344(widget0, getClientCycle()));
+	return;
+}

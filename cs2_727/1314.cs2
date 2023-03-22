@@ -1,0 +1,133 @@
+//script1314(1314)(int arg0)(int)
+if(instr6644() >= 2)
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			return if_gethide(if_gethash(746, 112))
+
+		case 1:
+			return if_gethide(if_gethash(746, 113))
+
+		case 2:
+			return if_gethide(if_gethash(746, 114))
+
+		case 3:
+			return if_gethide(if_gethash(746, 115))
+
+		case 4:
+			return if_gethide(if_gethash(746, 116))
+
+		case 5:
+			return if_gethide(if_gethash(746, 117))
+
+		case 6:
+			return if_gethide(if_gethash(746, 118))
+
+		case 7:
+			return if_gethide(if_gethash(746, 119))
+
+		case 8:
+			return if_gethide(if_gethash(746, 120))
+
+		case 9:
+			return if_gethide(if_gethash(746, 121))
+
+		case 10:
+			return if_gethide(if_gethash(746, 122))
+
+		case 11:
+			return if_gethide(if_gethash(746, 123))
+
+		case 12:
+			return if_gethide(if_gethash(746, 124))
+
+		case 13:
+			return if_gethide(if_gethash(746, 125))
+
+		case 14:
+			return if_gethide(if_gethash(746, 126))
+
+		case 15:
+			return if_gethide(if_gethash(746, 127))
+
+		case 95:
+			return if_gethide(if_gethash(746, 129))
+
+		case 99:
+			return if_gethide(if_gethash(746, 130))
+
+		case 98:
+			if(if_isopen(48889966) == 1)
+				return if_gethide(if_gethash(746, 110))
+			return 1
+
+
+	}
+else
+	switch(arg0) {
+		case default:
+			break
+		case 0:
+			return if_gethide(if_gethash(548, 176))
+
+		case 1:
+			return if_gethide(if_gethash(548, 177))
+
+		case 2:
+			return if_gethide(if_gethash(548, 178))
+
+		case 3:
+			return if_gethide(if_gethash(548, 179))
+
+		case 4:
+			return if_gethide(if_gethash(548, 180))
+
+		case 5:
+			return if_gethide(if_gethash(548, 181))
+
+		case 6:
+			return if_gethide(if_gethash(548, 182))
+
+		case 7:
+			return if_gethide(if_gethash(548, 183))
+
+		case 8:
+			return if_gethide(if_gethash(548, 184))
+
+		case 9:
+			return if_gethide(if_gethash(548, 185))
+
+		case 10:
+			return if_gethide(if_gethash(548, 186))
+
+		case 11:
+			return if_gethide(if_gethash(548, 187))
+
+		case 12:
+			return if_gethide(if_gethash(548, 188))
+
+		case 13:
+			return if_gethide(if_gethash(548, 189))
+
+		case 14:
+			return if_gethide(if_gethash(548, 190))
+
+		case 15:
+			return if_gethide(if_gethash(548, 191))
+
+		case 95:
+			return if_gethide(if_gethash(548, 193))
+
+		case 99:
+			return if_gethide(if_gethash(548, 194))
+
+		case 98:
+			if(if_isopen(35913901) == 1)
+				return if_gethide(if_gethash(548, 173))
+			return 1
+
+
+	}
+return -1
+return -1

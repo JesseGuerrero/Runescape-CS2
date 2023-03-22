@@ -1,0 +1,10 @@
+void script_614(Widget widget0, int arg1, int arg2, string string3, string string4, int arg5) {
+	if (getClientCycle() < arg5) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		CHILD.hookFrame(null);
+		script_612(widget0, arg1, arg2, string3, string4);
+	}
+	return;
+}

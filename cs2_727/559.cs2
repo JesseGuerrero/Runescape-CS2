@@ -1,0 +1,16 @@
+//script559(559)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = if_getwidth(arg0)
+iVar2 = if_getheight(arg0)
+iVar3 = iVar1 - 2
+iVar4 = iVar2 - 2
+iVar5 = if_getnextsubid(arg0)
+script_98(arg0, iVar5, 1076, 0, 0, iVar1, 2)
+script_98(arg0, iVar5 + 1, 1076, 1, iVar4, iVar1 - 1, 2)
+script_98(arg0, iVar5 + 2, 1077, 0, 1, 2, iVar2 - 3)
+script_98(arg0, iVar5 + 3, 1077, iVar3, 1, 2, iVar2 - 2)
+return

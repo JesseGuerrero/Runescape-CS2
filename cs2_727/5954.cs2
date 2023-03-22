@@ -1,0 +1,10 @@
+//script5954(5954)(int arg0)(void)
+int iVar1
+iVar1 = if_gettrans(arg0)
+if(iVar1 < 253)
+	if_settrans(arg0, iVar1 + 2)
+else {
+	if_settrans(arg0, 255)
+	instr6342(if_gethash(906, 335), None, "")
+}
+return

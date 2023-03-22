@@ -1,0 +1,17 @@
+//script5193(5193)()(int)
+switch(load_varpbit(9646)) {
+	case default:
+		break
+	case 1:
+		return load_varpbit(9647)
+
+	case 2:
+		return load_varpbit(9648)
+
+	case 3:
+		return load_varpbit(9649)
+
+
+}
+return -1
+return 0

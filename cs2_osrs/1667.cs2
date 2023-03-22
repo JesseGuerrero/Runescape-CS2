@@ -1,0 +1,14 @@
+void script_1667(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	string str0;
+	string str1;
+	int5 = arg4 - 1;
+	str0 = "";
+	str1 = "";
+	str0, str1 = getFriendName(arg3);
+	cs2method3604(str0, int5);
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		script_1668(int5, arg3);
+	}
+	return;
+}

@@ -1,0 +1,7 @@
+//script708(708)(int arg0)(void)
+if(load_varpbit(5032) < 80)
+	instr6342(arg0, script_709, "I", arg0)
+else
+	if(load_varpbit(5331) < 35)
+		instr6342(arg0, script_709, "I", arg0)
+return

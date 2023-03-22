@@ -1,0 +1,32 @@
+//script6449(6449)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = random(enum_getoutputcount(5963))
+iVar5 = enum(5963, iVar4, 'i', 'A')
+iVar6 = enum(5964, iVar4, 'i', 'i')
+if(arg3 == 1) {
+	iVar5 = enum(5967, iVar4, 'i', 'A')
+	iVar6 = enum(5968, iVar4, 'i', 'i')
+}
+if(arg2 >= 500) {
+	if(cc_find(0, arg1) == 1) {
+		cc_setmodelanim(iVar5)
+		instr6096(None, "")
+	}
+	instr6342(arg0, script_6452, "IIiii", arg0, arg1, 0, iVar6, arg3)
+} else 
+	if(arg2 == 0) {
+		if(arg3 == 1) {
+			if(cc_find(0, arg1) == 1)
+				cc_setmodelanim(12287)
+			script_6443(0, 0, 0)
+		} else  {
+			if(cc_find(0, arg1) == 1)
+				cc_setmodelanim(bas_getanim_ready(load_varc(779)))
+			script_6443(0, 0, 0)
+		}
+		instr6342(arg0, script_6449, "IIii", arg0, arg1, arg2 + 1, arg3)
+	} else 
+		instr6342(arg0, script_6449, "IIii", arg0, arg1, arg2 + 1, arg3)
+return

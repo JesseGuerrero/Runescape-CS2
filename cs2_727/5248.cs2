@@ -1,0 +1,4 @@
+//script5248(5248)()(void)
+if_settext(if_gethash(1128, 13), to_string(load_varpbit(5505)))
+script_5389()
+return

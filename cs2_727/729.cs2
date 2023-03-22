@@ -1,0 +1,176 @@
+//script729(729)()(void)
+script_730(1438, 51052561, 51052560)
+script_730(1448, 51052575, 51052574)
+script_730(1444, 51052579, 51052578)
+script_730(1440, 51052569, 51052568)
+script_730(1442, 51052571, 51052570)
+script_730(1446, 51052563, 51052562)
+script_730(1452, 51052565, 51052564)
+script_730(1458, 51052573, 51052572)
+script_730(1462, 51052577, 51052576)
+script_730(1454, 51052567, 51052566)
+script_730(13625, 51052597, 51052596)
+script_730(13624, 51052603, 51052602)
+script_730(13627, 51052609, 51052608)
+script_730(13628, 51052615, 51052614)
+script_730(13615, 51052599, 51052598)
+script_730(13614, 51052605, 51052604)
+script_730(13617, 51052611, 51052610)
+script_730(13618, 51052617, 51052616)
+script_730(13620, 51052601, 51052600)
+script_730(13619, 51052607, 51052606)
+script_730(13622, 51052613, 51052612)
+script_730(13623, 51052619, 51052618)
+script_730(13599, 51052635, 51052634)
+script_730(13602, 51052645, 51052644)
+script_730(13601, 51052657, 51052656)
+script_730(13603, 51052647, 51052646)
+script_730(13600, 51052651, 51052650)
+script_730(13604, 51052637, 51052636)
+script_730(13608, 51052649, 51052648)
+script_730(13606, 51052639, 51052638)
+script_730(13605, 51052641, 51052640)
+script_730(13607, 51052653, 51052652)
+script_730(13609, 51052643, 51052642)
+script_730(13610, 51052659, 51052658)
+script_730(13598, 51052661, 51052660)
+script_730(13611, 51052655, 51052654)
+script_730(13629, 51052665, 51052664)
+script_730(1437, 51052667, 51052666)
+if_settext(if_gethash(779, 123), "1 token each")
+script_730(21517, 51052714, 51052713)
+script_730(21516, 51052716, 51052715)
+script_730(21518, 51052718, 51052717)
+script_730(21519, 51052720, 51052719)
+switch(load_varp(1278)) {
+	case default:
+		break
+	case 1438:
+		if_setcolor(51052560, 0xFFFFFF)
+		break
+	case 1440:
+		if_setcolor(51052568, 0xFFFFFF)
+		break
+	case 1442:
+		if_setcolor(51052570, 0xFFFFFF)
+		break
+	case 1444:
+		if_setcolor(51052578, 0xFFFFFF)
+		break
+	case 1448:
+		if_setcolor(51052574, 0xFFFFFF)
+		break
+	case 1446:
+		if_setcolor(51052562, 0xFFFFFF)
+		break
+	case 1458:
+		if_setcolor(51052572, 0xFFFFFF)
+		break
+	case 1452:
+		if_setcolor(51052564, 0xFFFFFF)
+		break
+	case 1462:
+		if_setcolor(51052576, 0xFFFFFF)
+		break
+	case 1454:
+		if_setcolor(51052566, 0xFFFFFF)
+		break
+	case 13625:
+		if_setcolor(51052596, 0xFFFFFF)
+		break
+	case 13624:
+		if_setcolor(51052602, 0xFFFFFF)
+		break
+	case 13627:
+		if_setcolor(51052608, 0xFFFFFF)
+		break
+	case 13628:
+		if_setcolor(51052614, 0xFFFFFF)
+		break
+	case 13615:
+		if_setcolor(51052598, 0xFFFFFF)
+		break
+	case 13614:
+		if_setcolor(51052604, 0xFFFFFF)
+		break
+	case 13617:
+		if_setcolor(51052610, 0xFFFFFF)
+		break
+	case 13618:
+		if_setcolor(51052616, 0xFFFFFF)
+		break
+	case 13620:
+		if_setcolor(51052600, 0xFFFFFF)
+		break
+	case 13619:
+		if_setcolor(51052606, 0xFFFFFF)
+		break
+	case 13622:
+		if_setcolor(51052612, 0xFFFFFF)
+		break
+	case 13623:
+		if_setcolor(51052618, 0xFFFFFF)
+		break
+	case 13599:
+		if_setcolor(51052634, 0xFFFFFF)
+		break
+	case 13601:
+		if_setcolor(51052656, 0xFFFFFF)
+		break
+	case 13602:
+		if_setcolor(51052644, 0xFFFFFF)
+		break
+	case 13603:
+		if_setcolor(51052646, 0xFFFFFF)
+		break
+	case 13600:
+		if_setcolor(51052650, 0xFFFFFF)
+		break
+	case 13604:
+		if_setcolor(51052636, 0xFFFFFF)
+		break
+	case 13608:
+		if_setcolor(51052648, 0xFFFFFF)
+		break
+	case 13606:
+		if_setcolor(51052638, 0xFFFFFF)
+		break
+	case 13607:
+		if_setcolor(51052652, 0xFFFFFF)
+		break
+	case 13605:
+		if_setcolor(51052640, 0xFFFFFF)
+		break
+	case 13609:
+		if_setcolor(51052642, 0xFFFFFF)
+		break
+	case 13610:
+		if_setcolor(51052658, 0xFFFFFF)
+		break
+	case 13598:
+		if_setcolor(51052660, 0xFFFFFF)
+		break
+	case 13611:
+		if_setcolor(51052654, 0xFFFFFF)
+		break
+	case 13629:
+		if_setcolor(51052664, 0xFFFFFF)
+		break
+	case 1437:
+		if_setcolor(51052666, 0xFFFFFF)
+		break
+	case 21517:
+		if_setcolor(51052713, 0xFFFFFF)
+		break
+	case 21516:
+		if_setcolor(51052715, 0xFFFFFF)
+		break
+	case 21518:
+		if_setcolor(51052717, 0xFFFFFF)
+		break
+	case 21519:
+		if_setcolor(51052719, 0xFFFFFF)
+		break
+
+}
+return

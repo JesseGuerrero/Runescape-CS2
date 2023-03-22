@@ -1,0 +1,133 @@
+//script1059(1059)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+if(if_gethide(enum(1550, arg3 + 1, 'i', 'I')) == 0)
+	return
+iVar7 = enum(1551, arg3, 'i', 'I')
+if(arg0 == 104) {
+	if(arg6 == 0)
+		return
+	if(cc_find(load_varc(128), iVar7) == 1)
+		cc_sethide(1)
+	if(load_varc(128) <= 0)
+		store_varc(128, arg6 - 1)
+	else
+		store_varc(128, load_varc(128) - 1)
+	if(cc_find(load_varc(128), iVar7) == 1)
+		if(cc_ishidden() == 1) {
+			cc_sethide(0)
+			cc_setcolor(577e45)
+		}
+	return
+}
+if(arg0 == 105) {
+	if(arg6 == 0)
+		return
+	if(cc_find(load_varc(128), iVar7) == 1)
+		cc_sethide(1)
+	if(load_varc(128) == arg6 - 1)
+		store_varc(128, 0)
+	else
+		store_varc(128, load_varc(128) + 1)
+	if(cc_find(load_varc(128), iVar7) == 1)
+		if(cc_ishidden() == 1) {
+			cc_sethide(0)
+			cc_setcolor(577e45)
+		}
+	return
+}
+iVar8 = 0
+iVar9 = 0
+if(arg0 == 84) {
+	if(load_varc(128) < 0)
+		if(arg4 != 32769)
+			if(arg3 == 0)
+				script_1900(enum(1550, arg3, 'i', 'I'), enum(1551, arg3, 'i', 'I'), load_varc(128), arg3 + 1)
+	else
+		if(arg4 != -1) {
+			iVar8 = instr6202(arg4)
+			iVar9 = instr6581(arg4)
+			if(load_varc(128) == iVar8 + iVar9)
+				if(arg3 == 0)
+					if(script_1036() != -1)
+						if(cc_find(load_varc(128), enum(1550, arg3, 'i', 'I')) == 1)
+							script_1061(enum(1550, arg3, 'i', 'I'), enum(1551, arg3, 'i', 'I'), load_varc(128), arg2, arg3 + 1, script_1036())
+			else
+				if(load_varc(128) < iVar8)
+					script_1061(enum(1550, arg3, 'i', 'I'), enum(1551, arg3, 'i', 'I'), load_varc(128), arg2, arg3 + 1, instr6030(load_varc(128), arg4))
+				else
+					if(load_varc(128) < iVar8 + iVar9)
+						script_1071(arg2, qc_getmessage(load_varc(128) - iVar8, arg4), arg3)
+					else
+						script_1900(enum(1550, arg3, 'i', 'I'), enum(1551, arg3, 'i', 'I'), load_varc(128), arg3 + 1)
+		} else 
+			if(arg5 != -1) {
+				iVar8 = 0
+				iVar9 = instr6584(arg5)
+				script_1071(arg2, instr6069(load_varc(128), arg5), arg3)
+			}
+	return
+}
+if(arg0 == 102) {
+	script_1050(load_varc(126), load_varc_string(27))
+	return
+}
+if(arg0 == 13) {
+	script_1054()
+	return
+}
+if(arg0 == 85)
+	if(arg3 > 0) {
+		script_1068(arg2, arg3 - 1)
+		return
+	}
+if(char_isalphanumeric(arg1) == 0)
+	return
+arg1 = char_touppercase(arg1)
+iVar10 = 0
+iVar11 = 0
+iVar12 = -1
+if(arg4 != -1) {
+	iVar8 = instr6202(arg4)
+	iVar9 = instr6581(arg4)
+	if(arg3 == 0)
+		if(compare(append_char("", arg1), "X") == 0)
+			if(script_1036() != -1) {
+				iVar10 = iVar8 + iVar9
+				if(cc_find(iVar10, enum(1550, arg3, 'i', 'I')) == 1)
+					script_1061(enum(1550, arg3, 'i', 'I'), enum(1551, arg3, 'i', 'I'), iVar10, arg2, arg3 + 1, script_1036())
+				return
+			}
+	iVar10 = 0
+	while(iVar11 < iVar8) {
+		iVar12 = char_touppercase(qc_getsubhotkey(iVar11, arg4))
+		if(iVar12 == arg1) {
+			script_1061(enum(1550, arg3, 'i', 'I'), enum(1551, arg3, 'i', 'I'), iVar10, arg2, arg3 + 1, instr6030(iVar10, arg4))
+			return
+		}
+		iVar10 = iVar10 + 1
+		iVar11 = iVar11 + 1
+	}
+} else  {
+	iVar8 = 0
+	iVar9 = instr6584(arg5)
+}
+if(char_isnumeric(arg1) == 0)
+	return
+iVar13 = string_indexof_char("0123456789", 0, arg1)
+if(iVar13 == 0)
+	iVar13 = 10
+if(iVar13 > iVar9)
+	return
+iVar10 = iVar13 - 1
+if(arg4 != -1)
+	script_1071(arg2, qc_getmessage(iVar10, arg4), arg3)
+else
+	if(arg5 != -1)
+		script_1071(arg2, instr6069(iVar10, arg5), arg3)
+return

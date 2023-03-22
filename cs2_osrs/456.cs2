@@ -1,0 +1,12 @@
+void script_456(Widget widget0, Widget widget1, Widget widget2) {
+	if (VARPBIT[4103] == 1) {
+		widget0.setSprite(1066);
+		widget1.setSprite(1058);
+		widget2.setContextMenuOption(1, "Deactivate");
+	} else {
+		widget0.setSprite(1063);
+		widget1.setSprite(1068);
+		widget2.setContextMenuOption(1, "Activate");
+	}
+	return;
+}

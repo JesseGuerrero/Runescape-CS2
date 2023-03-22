@@ -1,0 +1,7 @@
+//script2511(2511)()(void)
+if_settext(if_gethash(654, 8), enum(2385, 1, 'i', 's'))
+if_settext(if_gethash(654, 57), enum(2385, 2, 'i', 's'))
+if_settext(if_gethash(654, 49), enum(2385, 3, 'i', 's'))
+if_settext(if_gethash(654, 41), enum(2385, 4, 'i', 's'))
+if_settext(if_gethash(654, 66), enum(2385, 5, 'i', 's'))
+return

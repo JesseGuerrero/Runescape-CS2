@@ -1,0 +1,9 @@
+void script_215(string string0) {
+	if (script_1942() == 1) {
+		msg("You can't kick players from your team during Wilderness Wars.");
+		return;
+	}
+	script_96("-Attempting to kick player from friends chat...", 2);
+	clanmethod3617(string0);
+	return;
+}

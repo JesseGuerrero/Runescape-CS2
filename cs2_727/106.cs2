@@ -1,0 +1,58 @@
+//script106(106)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+if(arg2 != 1)
+	return
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+while(iVar3 < inv_size(if_gethash(0, 140))) {
+	if(cc_find(iVar3, arg0) == 1)
+		if(cc_ishidden() == 1)
+			iVar4 = iVar3
+	iVar3 = iVar3 + 1
+}
+iVar6 = arg1 / 5
+iVar5 = arg1 - (iVar6 * 5)
+if(iVar4 == arg1 - 1)
+	if(iVar5 > 0)
+		if(cc_find(arg1, arg0) == 1)
+			if(cc_find(iVar4, arg0) == 1) {
+				sound_synth(0, 1, 1859)
+				cc_setposition(0, 0, 56 * iVar6, 56 * (iVar5 - 1))
+				cc_setposition(0, 0, 56 * iVar6, 56 * iVar5)
+				return
+			}
+if(iVar4 == arg1 + 1)
+	if(iVar5 < 5)
+		if(cc_find(arg1, arg0) == 1)
+			if(cc_find(iVar4, arg0) == 1) {
+				sound_synth(0, 1, 1859)
+				cc_setposition(0, 0, 56 * iVar6, 56 * (iVar5 + 1))
+				cc_setposition(0, 0, 56 * iVar6, 56 * iVar5)
+				return
+			}
+if(iVar4 == arg1 - 5)
+	if(iVar6 > 0)
+		if(cc_find(arg1, arg0) == 1)
+			if(cc_find(iVar4, arg0) == 1) {
+				sound_synth(0, 1, 1859)
+				cc_setposition(0, 0, 56 * (iVar6 - 1), 56 * iVar5)
+				cc_setposition(0, 0, 56 * iVar6, 56 * iVar5)
+				return
+			}
+if(iVar4 == arg1 + 5)
+	if(iVar6 < 5)
+		if(cc_find(arg1, arg0) == 1)
+			if(cc_find(iVar4, arg0) == 1) {
+				sound_synth(0, 1, 1859)
+				cc_setposition(0, 0, 56 * (iVar6 + 1), 56 * iVar5)
+				cc_setposition(0, 0, 56 * iVar6, 56 * iVar5)
+				return
+			}
+return

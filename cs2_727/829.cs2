@@ -1,0 +1,5 @@
+//script829(829)(int arg0, int arg1)(int)
+if(arg0 == 845)
+	return instr6704() - 1
+return enum_getoutputcount(arg1) - 1
+return 0

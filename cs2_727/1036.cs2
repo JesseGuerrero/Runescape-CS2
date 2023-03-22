@@ -1,0 +1,10 @@
+//script1036(1036)()(int)
+int iVar0
+iVar0 = -1
+if(enum(1548, load_varpbit(4758), 'i', 'i') > 0) {
+	iVar0 = enum(1549, load_varpbit(4758), 'i', 'k')
+	if(iVar0 != -1)
+		return iVar0
+}
+return enum(1483, load_varpbit(4759), 'i', 'k')
+return -1

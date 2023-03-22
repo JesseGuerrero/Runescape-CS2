@@ -1,0 +1,60 @@
+//script2707(2707)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, string arg7)(void)
+int iVar7
+int iVar8
+int iVar9
+if(arg0 == -1 || arg2 == -1 || compare("", arg0) == 0)
+	return
+if(load_varc(1) < client_clock() + arg3) {
+	if(load_varc(1) < client_clock())
+		store_varc(1, client_clock())
+	store_varc(1, load_varc(1) + 2)
+	return
+}
+if(cc_find(arg1, arg0) == 1) {
+	arg5 = arg5 + script_1743()
+	arg6 = arg6 + script_1744()
+}
+store_varc(1, (client_clock() + arg3) + 10)
+iVar7 = 0
+iVar8 = 0
+iVar9 = -1
+if(load_varc(2) != 1) {
+	iVar9 = if_getlayer(arg2)
+	if(iVar9 != -1)
+		if(arg4 >= if_getwidth(iVar9))
+			arg4 = if_getwidth(iVar9)
+	iVar7 = 6 + parawidth(arg0, 495, arg4 - 6)
+	iVar8 = 6 + (16 * paramheight(arg0, 495, arg4 - 6))
+	if_setsize(arg2, 0, 0, iVar8, iVar7)
+	arg5 = (arg5 - 5) - iVar7
+	arg6 = (arg6 - 3) - iVar8
+	if(iVar9 != -1) {
+		if(arg5 + iVar7 > if_getwidth(iVar9))
+			arg5 = if_getwidth(iVar9) - iVar7
+		if(arg6 + iVar8 > if_getheight(iVar9))
+			arg6 = if_getheight(iVar9) - iVar8
+	}
+	if(arg5 < 0)
+		arg5 = 0
+	if(arg6 < 0)
+		arg6 = 0
+	if_setposition(arg2, 0, 0, arg6, arg5)
+	cc_deleteall(arg2)
+	cc_create(0, 3, arg2)
+	cc_setsize(0, 0, iVar8, iVar7)
+	cc_setfill(1)
+	cc_setcolor(e0e0e)
+	cc_create(1, 3, arg2)
+	cc_setsize(0, 0, iVar8, iVar7)
+	cc_setfill(0)
+	cc_setcolor(ebece6)
+	cc_create(2, 4, arg2)
+	cc_setsize(0, 0, iVar8, arg4 - 6)
+	cc_setposition(1, 1, 0, 0)
+	cc_settext(arg0)
+	cc_settextalign(16, 1, 1)
+	cc_settextfont(495)
+	cc_setcolor(f5b241)
+	store_varc(2, 1)
+}
+return

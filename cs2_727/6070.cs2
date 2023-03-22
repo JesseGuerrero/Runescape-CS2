@@ -1,0 +1,207 @@
+//script6070(6070)()(int)
+int iVar0
+int iVar1
+iVar0 = 64
+iVar1 = 0
+while(iVar0 != 0) {
+	switch(iVar0) {
+		case default:
+			break
+		case 1:
+			iVar1 = iVar1 + load_varc(1812)
+			break
+		case 2:
+			iVar1 = iVar1 + load_varc(1813)
+			break
+		case 3:
+			iVar1 = iVar1 + load_varc(1814)
+			break
+		case 4:
+			iVar1 = iVar1 + load_varc(1815)
+			break
+		case 5:
+			iVar1 = iVar1 + load_varc(1816)
+			break
+		case 6:
+			iVar1 = iVar1 + load_varc(1817)
+			break
+		case 7:
+			iVar1 = iVar1 + load_varc(1818)
+			break
+		case 8:
+			iVar1 = iVar1 + load_varc(1819)
+			break
+		case 9:
+			iVar1 = iVar1 + load_varc(1820)
+			break
+		case 10:
+			iVar1 = iVar1 + load_varc(1821)
+			break
+		case 11:
+			iVar1 = iVar1 + load_varc(1822)
+			break
+		case 12:
+			iVar1 = iVar1 + load_varc(1823)
+			break
+		case 13:
+			iVar1 = iVar1 + load_varc(1824)
+			break
+		case 14:
+			iVar1 = iVar1 + load_varc(1825)
+			break
+		case 15:
+			iVar1 = iVar1 + load_varc(1826)
+			break
+		case 16:
+			iVar1 = iVar1 + load_varc(1827)
+			break
+		case 17:
+			iVar1 = iVar1 + load_varc(1828)
+			break
+		case 18:
+			iVar1 = iVar1 + load_varc(1829)
+			break
+		case 19:
+			iVar1 = iVar1 + load_varc(1830)
+			break
+		case 20:
+			iVar1 = iVar1 + load_varc(1831)
+			break
+		case 21:
+			iVar1 = iVar1 + load_varc(1832)
+			break
+		case 22:
+			iVar1 = iVar1 + load_varc(1833)
+			break
+		case 23:
+			iVar1 = iVar1 + load_varc(1834)
+			break
+		case 24:
+			iVar1 = iVar1 + load_varc(1835)
+			break
+		case 25:
+			iVar1 = iVar1 + load_varc(1836)
+			break
+		case 26:
+			iVar1 = iVar1 + load_varc(1837)
+			break
+		case 27:
+			iVar1 = iVar1 + load_varc(1838)
+			break
+		case 28:
+			iVar1 = iVar1 + load_varc(1839)
+			break
+		case 29:
+			iVar1 = iVar1 + load_varc(1840)
+			break
+		case 30:
+			iVar1 = iVar1 + load_varc(1841)
+			break
+		case 31:
+			iVar1 = iVar1 + load_varc(1842)
+			break
+		case 32:
+			iVar1 = iVar1 + load_varc(1843)
+			break
+		case 33:
+			iVar1 = iVar1 + load_varc(1844)
+			break
+		case 34:
+			iVar1 = iVar1 + load_varc(1845)
+			break
+		case 35:
+			iVar1 = iVar1 + load_varc(1846)
+			break
+		case 36:
+			iVar1 = iVar1 + load_varc(1847)
+			break
+		case 37:
+			iVar1 = iVar1 + load_varc(1848)
+			break
+		case 38:
+			iVar1 = iVar1 + load_varc(1849)
+			break
+		case 39:
+			iVar1 = iVar1 + load_varc(1850)
+			break
+		case 40:
+			iVar1 = iVar1 + load_varc(1851)
+			break
+		case 41:
+			iVar1 = iVar1 + load_varc(1852)
+			break
+		case 42:
+			iVar1 = iVar1 + load_varc(1853)
+			break
+		case 43:
+			iVar1 = iVar1 + load_varc(1854)
+			break
+		case 44:
+			iVar1 = iVar1 + load_varc(1855)
+			break
+		case 45:
+			iVar1 = iVar1 + load_varc(1856)
+			break
+		case 46:
+			iVar1 = iVar1 + load_varc(1857)
+			break
+		case 47:
+			iVar1 = iVar1 + load_varc(1858)
+			break
+		case 48:
+			iVar1 = iVar1 + load_varc(1859)
+			break
+		case 49:
+			iVar1 = iVar1 + load_varc(1860)
+			break
+		case 50:
+			iVar1 = iVar1 + load_varc(1861)
+			break
+		case 51:
+			iVar1 = iVar1 + load_varc(1862)
+			break
+		case 52:
+			iVar1 = iVar1 + load_varc(1863)
+			break
+		case 53:
+			iVar1 = iVar1 + load_varc(1864)
+			break
+		case 54:
+			iVar1 = iVar1 + load_varc(1865)
+			break
+		case 55:
+			iVar1 = iVar1 + load_varc(1866)
+			break
+		case 56:
+			iVar1 = iVar1 + load_varc(1867)
+			break
+		case 57:
+			iVar1 = iVar1 + load_varc(1868)
+			break
+		case 58:
+			iVar1 = iVar1 + load_varc(1869)
+			break
+		case 59:
+			iVar1 = iVar1 + load_varc(1870)
+			break
+		case 60:
+			iVar1 = iVar1 + load_varc(1871)
+			break
+		case 61:
+			iVar1 = iVar1 + load_varc(1872)
+			break
+		case 62:
+			iVar1 = iVar1 + load_varc(1873)
+			break
+		case 63:
+			iVar1 = iVar1 + load_varc(1874)
+			break
+		case 64:
+			iVar1 = iVar1 + load_varc(1875)
+			break
+
+	}
+	iVar0 = iVar0 - 1
+}
+return iVar1
+return 0

@@ -1,0 +1,10 @@
+//script5743(5743)(int arg0, string arg1)(void)
+if(arg0 == 81068081) {
+	if_settext(if_gethash(1237, 57), arg0)
+	script_4211(81068089, 3793, 14929103, 2564623)
+} else 
+	if(arg0 == 81068090) {
+		if_settext(if_gethash(1237, 66), arg0)
+		script_4211(81068098, 3793, 14929103, 2564623)
+	}
+return

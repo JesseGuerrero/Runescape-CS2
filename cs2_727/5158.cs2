@@ -1,0 +1,24 @@
+//script5158(5158)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+if_setcolor(arg2, hsvtorgb(load_varp(2347)))
+iVar3 = if_getheight(arg1)
+iVar4 = 1
+if(load_varpbit(9642) > 0)
+	iVar4 = max(0, min(iVar3, iVar3 - (load_varpbit(9642) * 2)))
+script_5168(iVar4)
+iVar5 = if_getheight(arg0)
+iVar6 = 0
+if(load_varpbit(9643) > 0) {
+	iVar6 = max(0, min(iVar5, iVar5 - (load_varpbit(9643) * (iVar5 / 8))))
+	iVar6 = max(0, min(iVar5, iVar6 - (iVar5 / 16)))
+}
+iVar7 = 0
+if(load_varpbit(9644) > 0)
+	iVar7 = max(0, min(iVar5, load_varpbit(9644) * (iVar5 / 128)))
+if_setcolor(arg0, load_varpbit(9642))
+script_5167(iVar7, iVar6)
+return

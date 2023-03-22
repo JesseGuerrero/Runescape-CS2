@@ -1,0 +1,55 @@
+//script5227(5227)()(void)
+int iVar0
+int iVar1
+string sVar0
+script_5228(4)
+script_5228(5)
+script_5228(6)
+script_5228(7)
+script_5228(8)
+script_5228(9)
+script_5228(10)
+script_5228(11)
+script_5228(12)
+script_5228(13)
+script_5228(14)
+script_5228(15)
+iVar0 = if_getparentlayer(82509998)
+if(iVar0 == -1)
+	return
+iVar1 = 2
+if(if_gety(if_gethash(1259, 174)) > if_getheight(iVar0) / 2)
+	iVar1 = 0
+sVar0 = "Teleport to the keep."
+if_setonmouseover(if_gethash(1259, 174), script_4538, "IIisifdiiiiii", if_gethash(1259, 57), if_gethash(1259, 174), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, iVar1, -2147483647, -2147483646)
+hook_mouse_exit(if_gethash(1259, 174), script_40, "I", if_gethash(1259, 57))
+instr6213(if_gethash(1259, 174), 1, "Teleport to keep")
+iVar1 = 2
+if(if_gety(if_gethash(1259, 177)) > if_getheight(iVar0) / 2)
+	iVar1 = 0
+sVar0 = "Teleport to the town square."
+if_setonmouseover(if_gethash(1259, 177), script_4538, "IIisifdiiiiii", if_gethash(1259, 57), if_gethash(1259, 177), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, iVar1, -2147483647, -2147483646)
+hook_mouse_exit(if_gethash(1259, 177), script_40, "I", if_gethash(1259, 57))
+instr6213(if_gethash(1259, 177), 1, "Teleport to town square")
+iVar1 = 2
+if(if_gety(if_gethash(1259, 175)) > if_getheight(iVar0) / 2)
+	iVar1 = 0
+sVar0 = "Teleport to the portal."
+if_setonmouseover(if_gethash(1259, 175), script_4538, "IIisifdiiiiii", if_gethash(1259, 57), if_gethash(1259, 175), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, iVar1, -2147483647, -2147483646)
+hook_mouse_exit(if_gethash(1259, 175), script_40, "I", if_gethash(1259, 57))
+instr6213(if_gethash(1259, 175), 1, "Teleport to portal")
+iVar1 = 2
+if(if_gety(if_gethash(1259, 176)) > if_getheight(iVar0) / 2)
+	iVar1 = 0
+sVar0 = "Teleport to the welcome area."
+if_setonmouseover(if_gethash(1259, 176), script_4538, "IIisifdiiiiii", if_gethash(1259, 57), if_gethash(1259, 176), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, iVar1, -2147483647, -2147483646)
+hook_mouse_exit(if_gethash(1259, 176), script_40, "I", if_gethash(1259, 57))
+instr6213(if_gethash(1259, 176), 1, "Teleport to welcome area")
+iVar1 = 2
+if(if_gety(if_gethash(1259, 178)) > if_getheight(iVar0) / 2)
+	iVar1 = 0
+sVar0 = "Teleport to the battlefield."
+if_setonmouseover(if_gethash(1259, 178), script_4538, "IIisifdiiiiii", if_gethash(1259, 57), if_gethash(1259, 178), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, iVar1, -2147483647, -2147483646)
+hook_mouse_exit(if_gethash(1259, 178), script_40, "I", if_gethash(1259, 57))
+instr6213(if_gethash(1259, 176), 1, "Teleport to welcome area")
+return

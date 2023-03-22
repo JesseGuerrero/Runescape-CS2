@@ -1,0 +1,11 @@
+void script_177(int arg0, Widget widget1, int arg2) {
+	if (arg0 == 10) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (CHILD.setChild(widget1, arg2) == true) {
+		CHILD.setTrans(125);
+		CHILD.hookFrame(&script_488(CTX_WIDGET, CTX_WIDGET_CHILD, 0, getClientCycle() + 10));
+	}
+	return;
+}

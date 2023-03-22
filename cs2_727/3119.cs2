@@ -1,0 +1,5 @@
+//script3119(3119)(int arg0, int arg1)(void)
+cc_deleteall(arg0)
+if_sethide(arg0, 1)
+return
+return

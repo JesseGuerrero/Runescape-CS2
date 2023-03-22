@@ -1,0 +1,12 @@
+void script_271() {
+	int int0;
+	if (VARPBIT[3957] == 0) {
+		CHILD.hookOptionClick(&script_272(-1));
+		_CHILD.setItem(76, 1);
+		return;
+	}
+	int0 = VARPBIT[3948] * 1000;
+	CHILD.hookOptionClick(&script_272(int0));
+	_CHILD.setItem(995, int0);
+	return;
+}

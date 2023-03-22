@@ -1,0 +1,238 @@
+void script_798(Container container0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, Widget widget8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, int arg24, int arg25, int arg26, int arg27) {
+	Item item28;
+	int int29;
+	int int30;
+	int int31;
+	Sprite sprite32;
+	Sprite sprite33;
+	Sprite sprite34;
+	Sprite sprite35;
+	int int36;
+	int int37;
+	int int38;
+	int int39;
+	int int40;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	item28 = null;
+	int29 = 0;
+	int30 = 0;
+	int31 = 0;
+	str0 = "Cancelled";
+	sprite32 = 1108;
+	sprite33 = 1109;
+	sprite34 = 1106;
+	sprite35 = 1107;
+	str1 = "Offer to BUY items.";
+	int36 = 0;
+	int37 = 0;
+	if (script_1138() == 1) {
+		if (arg9 < 8) {
+			int37 = 1;
+		}
+	} else if (arg9 < 3 || VARC[103] == 1) {
+		int37 = 1;
+	}
+	if (getGENotStarted(arg9) == true) {
+		item28 = getItemIdInSlot(container0, 0);
+		if (item28 == null) {
+			item28 = getItemIdInSlot(container0, 1);
+		}
+		if (item28 == null) {
+			if (CHILD.setChild(widget8, arg15) == true) {
+				CHILD.setText("Empty");
+			}
+			if (CHILD.setChild(widget8, arg12) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg16) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg17) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg18) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg19) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg20) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg21) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg22) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg23) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg24) == true) {
+				CHILD.setHidden(true);
+			}
+			if (CHILD.setChild(widget8, arg10) == true) {
+				CHILD.setHidden(false);
+			}
+			if (CHILD.setChild(widget8, arg11) == true) {
+				CHILD.setHidden(false);
+			}
+			if (CHILD.setChild(widget8, arg13) == true && _CHILD.setChild(widget8, arg14) == true) {
+				CHILD.setHidden(false);
+				_CHILD.setHidden(false);
+				if (int37 == 1) {
+					CHILD.setContextMenuOption(1, "Create " + "<col=ff9040>" + "Buy" + "</col>" + " offer");
+					_CHILD.setContextMenuOption(1, "Create " + "<col=ff9040>" + "Sell" + "</col>" + " offer");
+					CHILD.hookOptionClick(&script_805(CTX_MENU_OPTION, arg9, 0, widget(arg2), arg3, widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg27)));
+					_CHILD.hookOptionClick(&script_805(CTX_MENU_OPTION, arg9, 1, widget(arg2), arg3, widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg27)));
+					CHILD.hookMouseEnter(&script_229(widget8, arg25, (Sprite)sprite33, null));
+					_CHILD.hookMouseEnter(&script_229(widget8, arg26, (Sprite)sprite35, null));
+					CHILD.hookMouseExit(&script_229(widget8, arg25, (Sprite)sprite32, widget(arg27)));
+					_CHILD.hookMouseExit(&script_229(widget8, arg26, (Sprite)sprite34, widget(arg27)));
+					CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg27), str1, 25, 512));
+					str1 = "Offer to SELL items.";
+					_CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg27), str1, 25, 512));
+					if (CHILD.setChild(widget8, arg25) == true && _CHILD.setChild(widget8, arg26) == true) {
+						CHILD.setHidden(false);
+						_CHILD.setHidden(false);
+						CHILD.setSprite(sprite32);
+						_CHILD.setSprite(sprite34);
+					}
+				} else {
+					CHILD.setNoOptions();
+					_CHILD.setNoOptions();
+					CHILD.hookOptionClick(null);
+					_CHILD.hookOptionClick(null);
+					CHILD.hookMouseEnter(null);
+					_CHILD.hookMouseEnter(null);
+					CHILD.hookMouseExit(null);
+					_CHILD.hookMouseExit(null);
+					CHILD.hookMouseHover(null);
+					_CHILD.hookMouseHover(null);
+					if (CHILD.setChild(widget8, arg25) == true && _CHILD.setChild(widget8, arg26) == true) {
+						CHILD.setHidden(false);
+						_CHILD.setHidden(false);
+						CHILD.setSprite(sprite33);
+						_CHILD.setSprite(sprite35);
+					}
+				}
+			}
+			return;
+		}
+		int36, int29 = 1, getItemAmtInContainer(container0, item28);
+	} else {
+		item28, int29 = getGEItem(arg9), getGEItemAmt(arg9);
+		int30, int31 = getGEItemAmtTransfered(arg9), getGEItemPrice(arg9);
+		if (getGEIsSelling(arg9) == 1) {
+			str0 = "Sell";
+		} else {
+			str0 = "Buy";
+		}
+	}
+	if (CHILD.setChild(widget8, arg15) == true) {
+		CHILD.setText(str0);
+	}
+	if (CHILD.setChild(widget8, arg10) == true) {
+		CHILD.setHidden(true);
+	}
+	if (CHILD.setChild(widget8, arg11) == true) {
+		CHILD.setHidden(true);
+	}
+	if (CHILD.setChild(widget8, arg13) == true) {
+		CHILD.setHidden(true);
+	}
+	if (CHILD.setChild(widget8, arg14) == true) {
+		CHILD.setHidden(true);
+	}
+	if (CHILD.setChild(widget8, arg25) == true) {
+		CHILD.setHidden(true);
+	}
+	if (CHILD.setChild(widget8, arg26) == true) {
+		CHILD.setHidden(true);
+	}
+	str2 = ",";
+	if (CHILD.setChild(widget8, arg12) == true) {
+		CHILD.setHidden(false);
+		CHILD.setTrans(255);
+		CHILD.hookMouseEnter(&script_244(widget8, arg12, 245, null));
+		CHILD.hookMouseExit(&script_244(widget8, arg12, 255, widget(arg27)));
+		CHILD.setNoOptions();
+		CHILD.setContextMenuOption(1, "View offer");
+		if (int36 == 1) {
+			str1 = "Collect your items.";
+		} else if (getGEIsSelling(arg9) == 1) {
+			if (getGEIsDone(arg9) == true) {
+				str1 = "Sold: " + getItemName(item28) + "<br>" + script_46(int30, str2) + " / " + script_46(int29, str2);
+			} else {
+				str1 = "Selling: " + getItemName(item28) + "<br>" + script_46(int30, str2) + " / " + script_46(int29, str2);
+				CHILD.setContextMenuOption(2, "Abort offer");
+			}
+		} else if (getGEIsDone(arg9) == true) {
+			str1 = "Bought: " + getItemName(item28) + "<br>" + script_46(int30, str2) + " / " + script_46(int29, str2);
+		} else {
+			str1 = "Buying: " + getItemName(item28) + "<br>" + script_46(int30, str2) + " / " + script_46(int29, str2);
+			CHILD.setContextMenuOption(2, "Abort offer");
+		}
+		CHILD.hookMouseHover(&script_526(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg27), str1, 25, 512));
+	}
+	if (CHILD.setChild(widget8, arg16) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget8, arg17) == true) {
+		CHILD.setHidden(false);
+		CHILD.setItem(item28, int29);
+	}
+	int38 = 0;
+	str3 = "";
+	int39 = 0;
+	int40 = 0;
+	str4 = "";
+	if (CHILD.setChild(widget8, arg18) == true) {
+		CHILD.setHidden(false);
+		int38, str3 = CHILD.getWidth(), getItemName(item28);
+		int39 = length(str3);
+		if (int39 > 0 && getMaxLineWidth(str3, int38, 494) > int38) {
+			while (int39 > 1 && int40 == 0) {
+				int39 = int39 - 1;
+				str4 = concat(substr(str3, 0, int39), "...");
+				if (getMaxLineWidth(str4, int38, 494) <= int38) {
+					str3, int40 = str4, 1;
+				}
+			}
+		}
+		CHILD.setText(str3);
+	}
+	if (CHILD.setChild(widget8, arg19) == true) {
+		if (int31 > 0) {
+			CHILD.setHidden(false);
+			if (int31 == 1) {
+				CHILD.setText("1 coin");
+			} else {
+				CHILD.setText(script_46(int31, ",") + " coins");
+			}
+		} else {
+			CHILD.setHidden(true);
+		}
+	}
+	if (CHILD.setChild(widget8, arg20) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget8, arg21) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget8, arg23) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget8, arg24) == true) {
+		CHILD.setHidden(false);
+	}
+	if (CHILD.setChild(widget8, arg22) == true) {
+		CHILD.setHidden(false);
+		script_812(arg9, int29, int30, int36, arg1);
+	}
+	return;
+}

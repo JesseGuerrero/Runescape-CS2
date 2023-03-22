@@ -1,0 +1,7 @@
+void script_735(Widget widget0, Widget widget1, int arg2, Widget widget3, Widget widget4, Widget widget5) {
+	widget(596, 0).hookVARP(&script_736(0, widget0, widget1, widget(arg2), widget5, widget3, widget4), 1227);
+	widget3.hookVARP(&script_738(widget3, widget4), 1575);
+	script_737(0, widget0, widget1, arg2, widget5, widget3, widget4);
+	script_739(widget3, widget4);
+	return;
+}

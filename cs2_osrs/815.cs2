@@ -1,0 +1,17 @@
+void script_815(Widget widget0, string string1, int arg2, string arg3) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 4, 0);
+	CHILD.setSize(40, 0, 1, 1);
+	CHILD.setPosition(0, 0, 2, 1);
+	CHILD.setRGB(0x000000);
+	CHILD.setFont(497);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setText(string1);
+	widget0.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 0));
+	widget0.setContextMenuOption(1, string1);
+	widget0.hookOptionClick(&script_1651(CTX_MENU_OPTION, '\uffff', widget0, string1, arg2, arg3, getChildId()));
+	widget0.hookKey(&script_1651(-1, KEY_PRESSED, widget0, string1, arg2, arg3, getChildId()));
+	widget0.hookFrame(null);
+	return;
+}

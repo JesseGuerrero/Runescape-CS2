@@ -1,0 +1,8 @@
+void script_963(Widget widget0, Widget widget1, Widget widget2, string string3, int arg4, int arg5) {
+	if (script_514() == 0) {
+		script_965(widget0, widget1, widget2, arg4, arg5);
+	} else if (compare(STRING[22], string3) != 0) {
+		script_966(widget0, widget1, widget2, arg4, arg5);
+	}
+	return;
+}

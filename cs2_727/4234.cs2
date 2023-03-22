@@ -1,0 +1,22 @@
+//script4234(4234)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+iVar5 = 0
+iVar6 = 65353 / arg4
+iVar5 = max(arg4 - (client_clock() - arg3), 0)
+if(iVar5 >= arg4 / 2)
+	if(iVar5 <= arg4) {
+		if_set2dangle(arg2, min(65353, iVar5 * iVar6))
+		if_set2dangle(arg1, 0)
+	} else 
+		if(iVar5 > 0)
+			if(iVar5 < arg4 / 2) {
+				if_set2dangle(arg2, 32768)
+				if_set2dangle(arg1, min(65353, 32768 + (iVar5 * iVar6)))
+			} else  {
+				if_set2dangle(arg2, 32768)
+				if_set2dangle(arg1, 32768)
+				instr6239(arg0, script_4233, "IIIi", arg0, arg1, arg2, arg4)
+				instr6342(arg0, None, "")
+			}
+return

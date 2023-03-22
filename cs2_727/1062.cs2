@@ -1,0 +1,179 @@
+//script1062(1062)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+string sVar0
+iVar5 = enum(1550, arg1, 'i', 'I')
+iVar6 = enum(1551, arg1, 'i', 'I')
+cc_deleteall(iVar5)
+cc_deleteall(iVar6)
+if(iVar5 == -1)
+	return
+cc_create(arg1, 4, arg0)
+cc_setcolor(0)
+cc_settextfont(495)
+cc_settextalign(0, 1, 1)
+sVar0 = qc_getname(arg2)
+cc_setopbase(sVar0)
+instr6687(script_1067, "Ii", arg0, arg1)
+cc_setop("Return to: ", 1)
+if(arg1 > 0)
+	sVar0 = " " + "<col=0000ff>" + sVar0 + " " + "<img=2>"
+else
+	if(load_varc(126) == 1)
+		sVar0 = " To " + load_varc_string(27) + ": " + "<col=800000>" + sVar0 + " " + "<img=2>"
+	else
+		if(load_varc(126) == 2)
+			sVar0 = " [" + "<col=0000ff>" + fc_getchatdisplayname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0 + " " + "<img=2>"
+		else
+			if(load_varc(126) == 8)
+				if(activeclanchannel_find_affined() == 1)
+					sVar0 = " [" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0 + " " + "<img=2>"
+			else
+				if(load_varc(126) == 10)
+					if(activeclanchannel_find_listened() == 1)
+						sVar0 = " [" + "<col=0000ff>" + activeclanchannel_getclanname() + "<col=000000>" + "]: " + "<col=800000>" + sVar0 + " " + "<img=2>"
+				else
+					sVar0 = " " + "<col=0000ff>" + sVar0 + " " + "<img=2>"
+cc_settext(sVar0)
+cc_settextshadow(0)
+cc_setsize(0, 0, if_getheight(arg0), parawidth(sVar0, 495, if_getwidth(arg0)) + 4)
+instr6091(script_1080, "Ii", if_gethash(137, 2), arg1)
+instr6092(script_1081, "Ii", if_gethash(137, 2), arg1)
+cc_create(arg1, 3, 8978434)
+cc_setsize(0, 0, cc_getheight(), cc_getwidth())
+cc_setcolor(577e45)
+cc_setfill(1)
+cc_sethide(1)
+if_sethide(iVar5, 0)
+iVar7 = instr6202(arg2)
+iVar8 = instr6581(arg2)
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = -1
+iVar14 = -1
+iVar15 = -1
+iVar16 = 0
+while(iVar9 < iVar7) {
+	cc_create(iVar10, 4, iVar5)
+	cc_setcolor(0)
+	cc_settextfont(495)
+	cc_settextalign(0, 1, 0)
+	iVar13 = instr6030(iVar9, arg2)
+	sVar0 = qc_getname(iVar13)
+	instr6687(script_1060, "IIiIik", iVar5, iVar6, iVar10, arg0, arg1 + 1, iVar13)
+	cc_setopbase(sVar0)
+	cc_setop("Select: ", 1)
+	instr6091(script_1082, "iIi", arg1, iVar6, iVar10)
+	instr6092(script_1083, "iIi", arg1, iVar6, iVar10)
+	iVar15 = char_touppercase(qc_getsubhotkey(iVar9, arg2))
+	if(char_isalphanumeric(iVar15) == 1)
+		sVar0 = "<col=555555>" + append_char("", iVar15) + ". " + "<col=000000>" + sVar0 + " " + "<img=2>"
+	else
+		sVar0 = sVar0 + " " + "<img=2>"
+	cc_settext(sVar0)
+	cc_settextshadow(0)
+	iVar11 = parawidth(sVar0, 495, if_getwidth(arg0))
+	if(iVar11 > iVar12)
+		iVar12 = iVar11
+	iVar9 = iVar9 + 1
+	iVar10 = iVar10 + 1
+}
+iVar9 = 0
+while(iVar9 < iVar8) {
+	cc_create(iVar10, 4, iVar5)
+	cc_setcolor(0)
+	cc_settextfont(495)
+	cc_settextalign(0, 1, 0)
+	iVar14 = qc_getmessage(iVar9, arg2)
+	sVar0 = instr6583(iVar14)
+	instr6687(script_1070, "Iei", arg0, iVar14, arg1)
+	cc_setopbase(sVar0)
+	cc_setop("Send: ", 1)
+	instr6091(script_1082, "iIi", arg1, iVar6, iVar10)
+	instr6092(script_1083, "iIi", arg1, iVar6, iVar10)
+	if(iVar9 < 10)
+		sVar0 = "<col=555555>" + to_string(modulo(10, iVar9 + 1)) + ". " + "<col=000000>" + sVar0
+	cc_settext(sVar0)
+	cc_settextshadow(0)
+	iVar11 = parawidth(sVar0, 495, if_getwidth(arg0))
+	if(iVar11 > iVar12)
+		iVar12 = iVar11
+	iVar9 = iVar9 + 1
+	iVar10 = iVar10 + 1
+}
+if(arg3 != -1) {
+	cc_create(iVar10, 4, iVar5)
+	cc_setcolor(0)
+	cc_settextfont(495)
+	cc_settextalign(0, 1, 0)
+	sVar0 = qc_getname(arg3)
+	instr6687(script_1060, "IIiIik", iVar5, iVar6, iVar10, arg0, arg1 + 1, arg3)
+	cc_setopbase(sVar0)
+	cc_setop("Select: ", 1)
+	instr6091(script_1082, "iIi", arg1, iVar6, iVar10)
+	instr6092(script_1083, "iIi", arg1, iVar6, iVar10)
+	sVar0 = "<col=555555>" + "X. " + "<col=000000>" + sVar0 + " " + "<img=2>"
+	cc_settext(sVar0)
+	cc_settextshadow(0)
+	iVar11 = parawidth(sVar0, 495, if_getwidth(arg0))
+	if(iVar11 > iVar12)
+		iVar12 = iVar11
+	iVar10 = iVar10 + 1
+}
+if(arg4 == 1) {
+	cc_create(iVar10, 4, iVar5)
+	cc_setcolor(0)
+	cc_settextfont(495)
+	cc_settextalign(0, 1, 0)
+	instr6687(script_1877, "IIii", iVar5, iVar6, iVar10, arg1)
+	cc_setopbase("Search phrases")
+	cc_setop("Select: ", 1)
+	instr6091(script_1082, "iIi", arg1, iVar6, iVar10)
+	instr6092(script_1083, "iIi", arg1, iVar6, iVar10)
+	cc_settext("<col=555555>" + "Enter. " + "<col=000000>" + "Search " + "<img=2>")
+	cc_settextshadow(0)
+	iVar11 = parawidth(sVar0, 495, if_getwidth(arg0))
+	if(iVar11 > iVar12)
+		iVar12 = iVar11
+	iVar10 = iVar10 + 1
+}
+instr6248(iVar5, script_1059, "izIikei", -2147483640, -2147483639, arg0, arg1, arg2, -1, iVar10)
+iVar9 = 0
+iVar17 = 0
+while(cc_find(iVar9, iVar5) == 1) {
+	if((iVar16 * 14) + 14 > if_getheight(iVar5)) {
+		iVar17 = (iVar17 + iVar12) + 4
+		iVar16 = 0
+	}
+	cc_setsize(0, 0, 14, iVar12)
+	cc_setposition(0, 0, iVar16 * 14, iVar17 + 2)
+	cc_create(iVar9, 3, iVar6)
+	cc_setsize(0, 0, cc_getheight(), cc_getwidth() + 4)
+	cc_setposition(0, 0, cc_gety(), cc_getx() - 2)
+	cc_setcolor(577e45)
+	cc_setfill(1)
+	cc_sethide(1)
+	iVar9 = iVar9 + 1
+	iVar16 = iVar16 + 1
+}
+iVar17 = (iVar17 + iVar12) + 4
+iVar18 = if_getlayer(iVar5)
+if_setsize(iVar5, 0, 0, if_getheight(iVar18), iVar17)
+if_setsize(iVar6, 0, 0, if_getheight(iVar18), iVar17)
+if_setposition(enum(1550, arg1 + 1, 'i', 'I'), 0, 0, 0, if_getx(iVar5) + iVar17)
+script_1068(arg0, arg1)
+return

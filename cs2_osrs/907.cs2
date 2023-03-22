@@ -1,0 +1,103 @@
+void script_907(Widget widget0, DataMap datamap1) {
+	Widget widget2;
+	Widget widget3;
+	int int4;
+	int int5;
+	int int6;
+	Widget widget7;
+	Widget widget8;
+	if (VARPBIT[4611] == 1) {
+		widget0.hookKey(&script_905(KEY_TYPED, datamap1, false));
+	} else {
+		widget0.hookKey(&script_905(KEY_TYPED, datamap1, true));
+	}
+	script_909(widget0, datamap1);
+	widget2 = datamap('I', 'I', datamap1, widget(161, 17));
+	if (widget2 != null) {
+		widget2.setIsHidden(script_633(VARPBIT[542]));
+	}
+	widget2 = datamap('I', 'I', datamap1, widget(161, 26));
+	if (widget2 != null) {
+		if (VARPBIT[542] == 1 || VARPBIT[4606] != 0) {
+			widget2.setIsHidden(true);
+		} else {
+			widget2.setIsHidden(false);
+		}
+	}
+	widget3 = datamap('I', 'I', datamap1, widget(161, 3));
+	int4 = 0;
+	int5 = 0;
+	int5, int4 = cs2method6204UNUSED();
+	if (VARC[73] > 0 && VARC[74] > 0 && (int5 != VARC[73] || int4 != VARC[74])) {
+		script_42(VARC[73], VARC[74]);
+	}
+	widget3.hookScroll(&script_39(MOUSE_Y));
+	int6 = VARPBIT[3756] - 1;
+	widget7 = datamap('i', 'I', 1139, int6);
+	if (widget7 != null) {
+		widget7 = datamap('I', 'I', datamap1, widget7);
+		if (widget7 != null) {
+			widget0.hookFrame(&script_906(widget7));
+		} else {
+			widget0.hookFrame(null);
+		}
+	} else {
+		widget0.hookFrame(null);
+	}
+	script_912(datamap1);
+	widget8 = datamap('i', 'I', 1138, 2);
+	widget7 = datamap('i', 'I', 1139, 2);
+	widget8, widget7 = datamap('I', 'I', datamap1, widget8), datamap('I', 'I', datamap1, widget7);
+	if (widget8 != null && widget7 != null) {
+		if (VARPBIT[5432] == 1) {
+			widget8.setContextMenuOption(1, "Raiding Party");
+			widget7.setSprite(1414);
+		} else if (VARPBIT[618] == 1) {
+			widget8.setContextMenuOption(1, "Kourend Tasks");
+			widget7.setSprite(1299);
+		} else if (VARPBIT[3217] == 1) {
+			widget8.setContextMenuOption(1, "Minigames");
+			widget7.setSprite(1052);
+		} else if (VARPBIT[3612] == 1) {
+			widget8.setContextMenuOption(1, "Achievement Diaries");
+			widget7.setSprite(1053);
+		} else {
+			widget8.setContextMenuOption(1, "Quest List");
+			widget7.setSprite(776);
+		}
+	}
+	widget7 = datamap('I', 'I', datamap1, widget(161, 30));
+	if (widget7 != null) {
+		if (VARPBIT[4609] == 1) {
+			widget7.setSprite(897);
+			widget7.setTrans(0);
+		} else {
+			widget7.setSprite(1040);
+			widget7.setTrans(150);
+		}
+	}
+	widget7 = datamap('I', 'I', datamap1, widget(161, 16));
+	if (widget7 != null) {
+		if (VARPBIT[4605] == 1 && VARPBIT[542] == 0) {
+			widget7.setIsHidden(false);
+		} else {
+			widget7.setIsHidden(true);
+		}
+	}
+	if (VARPBIT[4134] == 1) {
+		cs2method3110(0);
+	} else {
+		cs2method3110(1);
+	}
+	if (VARPBIT[5542] == 1) {
+		m3117(true);
+	} else {
+		m3117(false);
+	}
+	if (VARPBIT[5599] == 1) {
+		m6512(true);
+	} else {
+		m6512(false);
+	}
+	return;
+}

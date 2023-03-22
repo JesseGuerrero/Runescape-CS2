@@ -1,0 +1,5 @@
+//script5139(5139)(int arg0, string arg1)(void)
+int iVar1
+iVar1 = if_getx(arg0) + (if_getwidth(arg0) / 2)
+script_4539(71827562, arg0, -1, 150, -1, -1, -1, 13, 4, 0, iVar1, if_gety(arg0), arg0)
+return

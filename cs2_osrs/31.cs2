@@ -1,0 +1,60 @@
+void script_31(Widget widget0, Widget widget1, Sprite sprite2, Sprite sprite3, Sprite sprite4, Sprite sprite5, Sprite sprite6, Sprite sprite7) {
+	int int8;
+	int int9;
+	CHILD.createChild(widget0, 5, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSize(0, 32, 1, 1);
+	CHILD.setSprite(sprite2);
+	CHILD.setSpriteTiling(false);
+	CHILD.hookMousePress(&script_34(widget0, widget1, MOUSE_Y));
+	CHILD.setNoClickThrough(1);
+	_CHILD.createChild(widget0, 5, 1);
+	_CHILD.setPosition(0, 16, 1, 0);
+	int8 = getScrollMaxV(widget1);
+	if (int8 <= 0) {
+		int8 = widget1.getHeight();
+	}
+	int9 = 0;
+	if (int8 > 0) {
+		int9 = (widget0.getHeight() - 32) * widget1.getHeight() / int8;
+	} else {
+		int9 = widget0.getHeight() - 32;
+	}
+	if (int9 < 10) {
+		int9 = 10;
+	}
+	_CHILD.setSize(0, int9, 1, 0);
+	_CHILD.setSprite(sprite4);
+	_CHILD.setSpriteTiling(false);
+	_CHILD.setDraggable(widget0, 0);
+	_CHILD.hookDragStart(&script_35(widget0, widget1, MOUSE_Y, false));
+	_CHILD.hookDragRelease(&script_35(widget0, widget1, MOUSE_Y, true));
+	_CHILD.setDragRenderBehaviour(1);
+	CHILD.createChild(widget0, 5, 2);
+	CHILD.setPosition(0, _CHILD.getY(), 1, 0);
+	CHILD.setSize(0, 5, 1, 0);
+	CHILD.setSprite(sprite3);
+	CHILD.setSpriteTiling(false);
+	CHILD.createChild(widget0, 5, 3);
+	CHILD.setPosition(0, _CHILD.getY() + _CHILD.getHeight() - 5, 1, 0);
+	CHILD.setSize(0, 5, 1, 0);
+	CHILD.setSprite(sprite5);
+	CHILD.setSpriteTiling(false);
+	CHILD.createChild(widget0, 5, 4);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setSize(0, 16, 1, 0);
+	CHILD.setSprite(sprite6);
+	CHILD.setSpriteTiling(false);
+	CHILD.hookDraggedOver(&script_32(widget0, widget1));
+	CHILD.setNoClickThrough(1);
+	CHILD.createChild(widget0, 5, 5);
+	CHILD.setPosition(0, 0, 1, 2);
+	CHILD.setSize(0, 16, 1, 0);
+	CHILD.setSprite(sprite7);
+	CHILD.setSpriteTiling(false);
+	CHILD.hookDraggedOver(&script_33(widget0, widget1));
+	CHILD.setNoClickThrough(1);
+	widget0.hookScroll(&script_36(widget0, widget1, MOUSE_Y));
+	widget1.hookScroll(&script_36(widget0, widget1, MOUSE_Y));
+	return;
+}

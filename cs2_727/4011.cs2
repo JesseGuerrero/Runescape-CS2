@@ -1,0 +1,68 @@
+//script4011(4011)()(void)
+int iVar0
+int iVar1
+string sVar0
+if(load_varc(699) == -1)
+	return
+iVar0 = script_2193(struct_param(847, load_varc(699)))
+if(iVar0 == 2)
+	if_settext(if_gethash(1243, 66), "Quest complete!")
+else
+	if(iVar0 == 1)
+		if_settext(if_gethash(1243, 66), "Started")
+	else
+		if_settext(if_gethash(1243, 66), "Not started")
+sVar0 = struct_param(845, load_varc(699))
+iVar1 = stringwidth(instr6289(if_gethash(1243, 6)), sVar0)
+if_setsize(if_gethash(1243, 2), 0, 0, if_getheight(if_gethash(1243, 2)), iVar1 + 30)
+if_settext(if_gethash(1243, 6), sVar0)
+if_setgraphic(if_gethash(1243, 67), struct_param(952, load_varc(699)))
+iVar1 = script_4249(81461265, 81461266, 81461267, -1, -1, iVar0, 0, "<col=ebe076>" + "Start point:" + "</col>", struct_param(948, load_varc(699)))
+iVar1 = script_4249(81461268, 81461269, 81461270, -1, -1, iVar0, iVar1, "<col=ebe076>" + "Requirements:" + "</col>", load_varc_string(359))
+iVar1 = script_4249(81461271, 81461272, 81461273, 81461274, 81461279, iVar0, iVar1, "<col=ebe076>" + "Required items:" + "</col>", struct_param(949, load_varc(699)))
+iVar1 = script_4249(81461280, 81461281, 81461282, -1, -1, iVar0, iVar1, "<col=ebe076>" + "Combat:" + "</col>", struct_param(950, load_varc(699)))
+switch(load_varc(699)) {
+	case default:
+		break
+	case 658:
+		if(load_varp(179) >= 21)
+			if(load_varpbit(7997) == 0)
+				sVar0 = struct_param(1212, load_varc(699))
+			else
+				sVar0 = struct_param(951, load_varc(699))
+		break
+	case 659:
+		if(load_varp(67) >= 3)
+			if(load_varpbit(7998) == 0)
+				sVar0 = struct_param(1212, load_varc(699))
+			else
+				sVar0 = struct_param(951, load_varc(699))
+		break
+	case 1137:
+		if(load_varp(144) == 100)
+			sVar0 = struct_param(1212, load_varc(699))
+		else
+			sVar0 = struct_param(951, load_varc(699))
+		break
+	case 10527:
+		if_settext(if_gethash(1243, 50), "Offer")
+		instr6220(if_gethash(1243, 46))
+		if_setoptionname(if_gethash(1243, 46), "Offer")
+		if_setposition(if_gethash(1243, 46), 0, 1, if_gety(if_gethash(1243, 46)), 0)
+		if_sethide(if_gethash(1243, 51), 1)
+		if_sethide(if_gethash(1243, 56), 1)
+		if_sethide(if_gethash(1243, 57), 1)
+		sVar0 = load_varc_string(376)
+		sVar0 = struct_param(951, load_varc(699))
+		break
+
+}
+iVar1 = script_4249(81461283, 81461284, 81461285, 81461286, 81461291, iVar0, iVar1, "<col=ebe076>" + "Rewards:" + "</col>", sVar0)
+if(iVar1 > if_getheight(if_gethash(1243, 16))) {
+	if_setscrollsize(81461264, iVar1, 0)
+	script_31(81461292, 81461264, 5666, 5663, 5664, 5665, 5686, 5685)
+} else  {
+	if_setscrollsize(81461264, 0, 0)
+	cc_deleteall(if_gethash(1243, 44))
+}
+return

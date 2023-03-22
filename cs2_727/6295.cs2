@@ -1,0 +1,23 @@
+//script6295(6295)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar3 = max(((if_getwidth(if_getparentlayer(arg2)) / 2) - arg0) * -1, (if_getwidth(if_getparentlayer(arg2)) / 2) - arg0)
+iVar4 = max(((if_getheight(if_getparentlayer(arg2)) / 2) - arg1) * -1, (if_getheight(if_getparentlayer(arg2)) / 2) - arg1)
+iVar5 = max(((if_getwidth(if_getparentlayer(arg2)) / 2) - if_getx(arg2)) * -1, (if_getwidth(if_getparentlayer(arg2)) / 2) - if_getx(arg2))
+iVar6 = max(((if_getheight(if_getparentlayer(arg2)) / 2) - if_gety(arg2)) * -1, (if_getheight(if_getparentlayer(arg2)) / 2) - if_gety(arg2))
+if(iVar5 >= iVar3 || iVar6 >= iVar4) {
+	if_setposition(arg2, 0, 0, arg1, arg0)
+	return
+}
+iVar7 = arg0 - if_getx(arg2)
+iVar8 = arg1 - if_gety(arg2)
+iVar9 = pow_inverse(2, (iVar7 ^ 2) + (iVar8 ^ 2))
+iVar7 = (((iVar7 * 100) / iVar9) * 25) / 100
+iVar8 = (((iVar8 * 100) / iVar9) * 25) / 100
+if_setposition(arg2, 0, 0, if_gety(arg2) + iVar8, if_getx(arg2) + iVar7)
+return

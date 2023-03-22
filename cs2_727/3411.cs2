@@ -1,0 +1,15 @@
+//script3411(3411)()(void)
+store_varc(1240, 3)
+store_varc(1277, 0)
+if(instr6710() == 1) {
+	script_1174(5)
+	if(load_varc(1273) == 1)
+		return
+	else
+		instr6342(if_gethash(975, 44), script_3381, "Ii", if_gethash(975, 44), 0)
+} else 
+	if(script_3487(3) == 1)
+		script_1174(7)
+	else
+		script_1174(11)
+return

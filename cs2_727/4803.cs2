@@ -1,0 +1,47 @@
+//script4803(4803)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = script_4819(load_varpbit(9558))
+iVar2 = enum(iVar1, arg0, 'i', 'i')
+switch(load_varpbit(9558)) {
+	case default:
+		break
+	case 1:
+		if(iVar2 != load_varpbit(9562)) {
+			store_varpbit(9562, iVar2)
+			store_varpbit(9563, 1)
+			store_varpbit(9567, 0)
+			store_varpbit(9568, 0)
+			store_varpbit(9569, 0)
+		}
+		break
+	case 2:
+		if(iVar2 != load_varpbit(9571)) {
+			store_varpbit(9571, iVar2)
+			store_varpbit(9572, 1)
+			store_varpbit(9576, 0)
+			store_varpbit(9577, 0)
+			store_varpbit(9578, 0)
+		}
+		break
+	case 3:
+		if(iVar2 != load_varpbit(9580)) {
+			store_varpbit(9580, iVar2)
+			store_varpbit(9581, 1)
+			store_varpbit(9585, 0)
+			store_varpbit(9586, 0)
+			store_varpbit(9587, 0)
+		}
+		break
+
+}
+iVar3 = 0
+if(script_4828(load_varpbit(9558)) == 0) {
+	iVar3 = 28 * (arg0 - 1)
+	if_sethide(if_gethash(1258, 201), 0)
+	if_setposition(if_gethash(1258, 201), 0, 0, iVar3, 0)
+}
+script_4846(1)
+script_4804()
+return

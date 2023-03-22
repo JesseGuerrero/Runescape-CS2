@@ -1,0 +1,14 @@
+void script_180(int arg0) {
+	if (arg0 == VARC[41]) {
+		return;
+	}
+	if (arg0 == 3 && VARP[287] == 1 && (VARC[41] != -1 || VARPBIT[4089] == 0)) {
+		return;
+	}
+	if (script_179(arg0) > 24) {
+		return;
+	}
+	script_183(arg0, 249);
+	datamap('i', 'I', 683, arg0).hookFrame(&script_182(arg0));
+	return;
+}

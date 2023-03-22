@@ -1,0 +1,5 @@
+//script1169(1169)(int arg0, int arg1, string arg2)(void)
+int iVar2
+iVar2 = enum(737, arg1, 'i', 'I')
+instr6342(iVar2, script_1168, "isI", arg0, arg0, iVar2)
+return

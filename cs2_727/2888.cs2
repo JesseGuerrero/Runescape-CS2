@@ -1,0 +1,9 @@
+//script2888(2888)()(void)
+if(instr6644() >= 2) {
+	if_setposition(if_gethash(476, 56), 0, 0, 287, 0)
+	if_setposition(if_gethash(476, 55), 0, 0, 254, 0)
+} else  {
+	if_setposition(if_gethash(476, 56), 0, 2, 40, 18)
+	if_setposition(if_gethash(476, 55), 0, 2, 7, 18)
+}
+return

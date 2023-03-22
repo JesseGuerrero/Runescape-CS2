@@ -1,0 +1,12 @@
+//script114(114)()(void)
+instr6257(if_gethash(548, 14), script_1302, "Y", 2, 168, 747)
+instr6257(if_gethash(746, 32), script_1302, "Y", 2, 168, 747)
+if(instr6644() >= 2) {
+	instr6237(if_gethash(746, 57), script_117, "Y", 1, 1021)
+	script_1309(1)
+} else  {
+	instr6237(if_gethash(548, 111), script_117, "Y", 1, 1021)
+	script_2756()
+	script_1312(1)
+}
+return

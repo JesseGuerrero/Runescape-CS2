@@ -1,0 +1,14 @@
+void script_1333(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9, Widget widget10, Widget widget11, Widget widget12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17) {
+	_ = script_228(widget0, "Light box", 0);
+	widget1.hookVARP(&script_1338(widget1), 1356);
+	script_1339(widget1);
+	script_1334(widget2, widget10, "A");
+	script_1334(widget3, widget11, "B");
+	script_1334(widget4, widget12, "C");
+	script_1334(widget5, widget13, "D");
+	script_1334(widget6, widget14, "E");
+	script_1334(widget7, widget15, "F");
+	script_1334(widget8, widget16, "G");
+	script_1334(widget9, widget17, "H");
+	return;
+}

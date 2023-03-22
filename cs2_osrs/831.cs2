@@ -1,0 +1,15 @@
+void script_831(Widget widget0, Widget widget1, Widget widget2, int arg3, Widget widget4, int arg5) {
+	string str0;
+	widget2.setIsHidden((boolean)VARC[75]);
+	widget4.hookDragStart(&script_833(widget4, widget(arg3), MOUSE_X));
+	widget4.hookDragRelease(&script_1043(widget4, widget(arg3), MOUSE_X));
+	str0 = "Click here to enable zooming using the mouse scroll wheel.";
+	if (VARC[75] == 1) {
+		str0 = "Click here to disable zooming using the mouse scroll wheel.";
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg5), str0, 25, 190));
+	widget0.hookMouseExit(&script_40(widget(arg5)));
+	widget1.hookMouseEnter(&script_832(1, widget1));
+	widget1.hookMouseExit(&script_832(0, widget1));
+	return;
+}

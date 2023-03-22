@@ -1,0 +1,126 @@
+//script2582(2582)(int arg0, int arg1, int arg2)(int)
+switch(arg0) {
+	case default:
+		break
+	case 830:
+		instr6609(script_734(arg1))
+		break
+	case 831:
+		detailset_ground_decor(script_734(arg1))
+		break
+	case 833:
+		detailset_idle_animations(arg1)
+		break
+	case 834:
+		detailset_flickering_effects(script_734(arg1))
+		break
+	case 836:
+		detailset_character_shadows(script_734(arg1))
+		break
+	case 837:
+		if(arg1 > 0)
+			if(detailget_textures() == 0)
+				detailset_textures(1)
+		detailset_scenery_shadows(arg1)
+		break
+	case 838:
+		detailset_lightdetail_high(script_734(arg1))
+		break
+	case 839:
+		detailset_waterdetail_high(script_734(arg1))
+		break
+	case 840:
+		if(arg1 == 0)
+			if(detailget_currenttoolkit() == 0 || detailget_currenttoolkit() == 2) {
+				detailset_waterdetail_high(0)
+				detailset_fog(0)
+			} else  {
+				if(instr5954() == 0)
+					detailset_ground_blending(1)
+				detailset_fog(script_734(arg1))
+			}
+		break
+	case 841:
+		instr6674(arg1)
+		if(arg1 > 0)
+			if(detailget_currenttoolkit() != 0)
+				if(detailget_currenttoolkit() != 2) {
+					script_2700(4, arg2, 0, 1)
+					return 2
+				}
+		detailset_antialiasing_default(arg1)
+		break
+	case 842:
+		if(detailcanmod_particles() == 0 || detailcanset_particles() == 0)
+			return 0, arg1
+		detailset_particles(arg1)
+		return 1
+
+	case 843:
+		if(arg1 == 0)
+			if(detailget_currenttoolkit() == 0 || detailget_currenttoolkit() == 2) {
+				detailset_waterdetail_high(0)
+				detailset_fog(0)
+				detailset_textures(0)
+				detailset_ground_blending(0)
+			} else 
+				detailset_ground_blending(script_734(arg1))
+		break
+	case 844:
+		store_varc(987, script_734(arg1))
+		detailset_customcursor(load_varc(987))
+		break
+	case 845:
+		store_varc(178, arg1)
+		if(instr6644() == 3) {
+			if(instr6639(instr6404(arg1).get(1), instr6404(arg1).get(0)) == 1) {
+				script_2700(2, arg2, 0, 0)
+				return 2
+			}
+			return 0
+		}
+		break
+	case 908:
+		detailset_cpu(arg1)
+		break
+	case 963:
+		if(arg1 == 0)
+			detailset_scenery_shadows(0)
+		else
+			if(instr5954() == 0)
+				detailset_ground_blending(1)
+		detailset_textures(script_734(arg1))
+		break
+	case 1009:
+		if(detailcanmod_maxscreensize() == 1)
+			if(detailcanset_maxscreensize() == 1)
+				return 1, arg1
+			else
+				return 0
+		break
+	case 2430:
+		if(detailcanmod_skyboxes() == 1) {
+			if(detailcanset_skyboxes() == 3)
+				return 0, arg1
+			detailset_skybox(arg1)
+		} else 
+			return 0
+		break
+	case 2858:
+		detailset_bloom(arg1)
+		break
+	case 2840:
+		store_varc(1686, script_734(arg1))
+		break
+	case 2841:
+		store_varc(1701, arg1)
+		if(arg1 == 1)
+			if_setnoclickthrough(48889878, 0)
+		else
+			if_setnoclickthrough(48889878, 1)
+		return 0
+
+
+}
+return 1
+return 0

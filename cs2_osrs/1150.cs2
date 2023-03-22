@@ -1,0 +1,18 @@
+void script_1150(Widget widget0, string arg1, int arg2, int arg3, boolean arg4) {
+	int int4;
+	int int5;
+	int4 = arg3 - (getClientCycle() - arg2);
+	int5 = (49 + int4) / 50;
+	if (int4 <= 0) {
+		widget0.hookFrame(null);
+		if (arg4 == true) {
+			cancelLogin();
+		}
+		widget(228, 4).cs2method2121_packet();
+	} else if (int5 == 1) {
+		widget(228, 2).setText("There is 1 second remaining " + arg1);
+	} else {
+		widget(228, 2).setText("There are " + int5 + " seconds remaining " + arg1);
+	}
+	return;
+}

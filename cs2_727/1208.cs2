@@ -1,0 +1,7 @@
+//script1208(1208)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg3 == 1)
+	if_setscrollsize(arg1, arg2 + if_getheight(arg1), 0)
+else
+	if_setscrollsize(arg1, arg2, 0)
+script_72(arg0, arg1, if_getscrolly(arg1))
+return

@@ -1,0 +1,27 @@
+//script812(812)(int arg0)(void)
+cc_sethide(1)
+if(arg0 == -1)
+	return
+if(item_param(740, arg0) > 1) {
+	if(script_925(arg0) == 1)
+		if(script_926(arg0) == 1)
+			return
+	cc_sethide(0)
+	return
+}
+if(item_param(740, arg0) == 1) {
+	if(script_925(arg0) == 1)
+		return
+	cc_sethide(0)
+	return
+}
+if(script_928(arg0) == 1) {
+	if(script_926(arg0) == 1)
+		return
+	cc_sethide(0)
+	return
+}
+if(script_925(arg0) == 1)
+	return
+cc_sethide(0)
+return

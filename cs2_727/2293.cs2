@@ -1,0 +1,4 @@
+//script2293(2293)(int arg0, int arg1)(void)
+if_setgraphic(arg1, 938)
+if_setcolor(arg0, 0xFF981F)
+return

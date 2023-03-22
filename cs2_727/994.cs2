@@ -1,0 +1,112 @@
+//script994(994)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "Your Constitution tells you how healthy your character can be. A character with low Constitution will only have a small number of life points when they're fully healed, whereas a character with high Constitution can have many more life points."
+
+			case 1:
+				return 7620, -1, "", "If you see any " + "<col=800000>" + "red 'hitsplats'" + "</col>" + " during combat, the number shown corresponds to the number of life points lost as a result of that strike."
+
+			case 2:
+				return 7620, -1, "", "<col=800000>" + "Blue hitsplats" + "</col>" + " mean no damage has been dealt."
+
+			case 3:
+				return 7620, -1, "", "<col=800000>" + "Green hitsplats" + "</col>" + " are poison damage (members)."
+
+			case 4:
+				return 7620, -1, "", "<col=800000>" + "Yellow hitsplats" + "</col>" + " are disease damage (members)."
+
+			case 5:
+				return 7620, -1, "", "<col=800000>" + "Pink hitsplats" + "</col>" + " show life points restored through healing (while in Daemonheim)."
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14936, 35, "Members now have the Constitution level required to wear " + "<col=000080>" + "agile tops" + "</col>" + ". (They also need level 35 Defence.)", "Members: Agile top (with 35 Defence)"
+
+			case 1:
+				return 14938, 35, "Members now have the Constitution level required to wear " + "<col=000080>" + "agile legs" + "</col>" + ". (They also need level 35 Defence.)", "Members: Agile legs (with 35 Defence)"
+
+			case 2:
+				return 11665, 42, "Members now have the Constitution level required to wear " + "<col=000080>" + "Void melee helms" + "</col>" + ".", "Members: Void melee helm"
+
+			case 3:
+				return 11664, 42, "Members now have the Constitution level required to wear " + "<col=000080>" + "Void ranger helms" + "</col>" + ".", "Members: Void ranger helm"
+
+			case 4:
+				return 11663, 42, "Members now have the Constitution level required to wear " + "<col=000080>" + "Void mage helms" + "</col>" + ".", "Members: Void mage helm"
+
+			case 5:
+				return 8839, 42, "Members now have the Constitution level required to wear " + "<col=000080>" + "Void knight tops" + "</col>" + ".", "Members: Void knight top"
+
+			case 6:
+				return 8840, 42, "Members now have the Constitution level required to wear " + "<col=000080>" + "Void knight robes" + "</col>" + ".", "Members: Void knight robe"
+
+			case 7:
+				return 8842, 42, "Members now have the Constitution level required to wear " + "<col=000080>" + "Void knight gloves" + "</col>" + ".", "Members: Void knight gloves"
+
+			case 8:
+				return 19712, 42, "Members now have the Constitution level required to wear " + "<col=000080>" + "Void knight deflectors" + "</col>" + ".", "Members: Void knight deflector"
+
+			case 9:
+				return 8841, 42, "Members now have the Constitution level required to wield " + "<col=000080>" + "Void knight maces" + "</col>" + ".", "Members: Void knight mace"
+
+			case 10:
+				return 7620, 42, "<col=000080>" + "Void knight equipment" + "</col>" + " requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer.", "Void knight equipment requires 42 Attack, Defence, Strength, Ranged, Magic and Constitution and 22 Prayer."
+
+			case 11:
+				return 20135, 80, "Members can now wear " + "<col=000080>" + "torva full helms" + "</col>" + ". (They also need level 80 Strength and Defence)", "Members: Torva full helm" + "<br>" + " (with 80 Strength and Defence)"
+
+			case 12:
+				return 20139, 80, "Members can now wear " + "<col=000080>" + "torva platebodies" + "</col>" + ". (They also need level 80 Strength and Defence)", "Members: Torva platebody" + "<br>" + " (with 80 Strength and Defence)"
+
+			case 13:
+				return 20143, 80, "Members can now wear " + "<col=000080>" + "torva platelegs" + "</col>" + ". (They also need level 80 Strength and Defence)", "Members: Torva platelegs" + "<br>" + " (with 80 Strength and Defence)"
+
+			case 14:
+				return 20159, 80, "Members can now wear " + "<col=000080>" + "virtus masks" + "</col>" + ". (They also need level 80 Magic and Defence)", "Members: Virtus mask" + "<br>" + " (with 80 Magic and Defence)"
+
+			case 15:
+				return 20163, 80, "Members can now wear " + "<col=000080>" + "virtus robe tops" + "</col>" + ". (They also need level 80 Magic and Defence)", "Members: Virtus robe top" + "<br>" + " (with 80 Magic and Defence)"
+
+			case 16:
+				return 20167, 80, "Members can now wear " + "<col=000080>" + "virtus robe legs" + "</col>" + ". (They also need level 80 Magic and Defence)", "Members: Virtus robe legs" + "<br>" + " (with 80 Magic and Defence)"
+
+			case 17:
+				return 20147, 80, "Members can now wear " + "<col=000080>" + "pernix cowls" + "</col>" + ". (They also need level 80 Ranged and Defence)", "Members: Pernix cowl" + "<br>" + " (with 80 Ranged and Defence)"
+
+			case 18:
+				return 20151, 80, "Members can now wear " + "<col=000080>" + "pernix bodies" + "</col>" + ". (They also need level 80 Ranged and Defence)", "Members: Pernix body" + "<br>" + " (with 80 Ranged and Defence)"
+
+			case 19:
+				return 20155, 80, "Members can now wear " + "<col=000080>" + "pernix chaps" + "</col>" + ". (They also need level 80 Ranged and Defence)", "Members: Pernix chaps" + "<br>" + " (with 80 Ranged and Defence)"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 8122, 70, "Members can now access the " + "<col=000080>" + "Zamorak Fortress" + "</col>" + " in the " + "<col=000080>" + "God Wars Dungeon" + "</col>" + ".", "Members: Zamorak's Fortress in the God Wars Dungeon"
+
+			case 1:
+				return 9768, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Constitution" + "<col=000080>" + ". Members can visit " + "<col=800000>" + "Surgeon General Tafani" + "<col=000080>" + " at the " + "<col=800000>" + "Duel Arena Hospital" + "<col=000080>" + ". She has something special that is only available to true masters of the " + "<col=800000>" + "Constitution" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

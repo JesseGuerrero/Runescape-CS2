@@ -1,0 +1,5 @@
+//script308(308)(int arg0)(void)
+instr6248(arg0, script_1382, "izIc", -2147483640, -2147483639, arg0, -1)
+if_settext(arg0, "Search the map by typing here.")
+if_settextalign(arg0, 0, 1, 0)
+return

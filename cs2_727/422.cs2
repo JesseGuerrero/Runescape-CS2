@@ -1,0 +1,14 @@
+//script422(422)(int arg0, int arg1)(int, int)
+int iVar2
+int iVar3
+iVar2 = 5
+iVar3 = 5
+if(arg0 <= iVar2 || arg1 <= iVar3)
+	return iVar3, iVar2
+if(arg0 > arg1)
+	iVar2 = iVar2 * (arg0 / arg1)
+else
+	if(arg1 > arg0)
+		iVar3 = iVar3 * (arg1 / arg0)
+return iVar3, iVar2
+return 0, 0

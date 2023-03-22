@@ -1,0 +1,13 @@
+//script2911(2911)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+iVar5 = 10
+arg3 = arg3 + 1
+if(arg0 == 0)
+	if_setsize(arg4, 0, 0, arg1 + ((arg2 * (iVar5 - arg3)) / iVar5), if_getwidth(arg4))
+else
+	if_setsize(arg4, 0, 0, arg1 + ((arg2 * arg3) / iVar5), if_getwidth(arg4))
+if(arg3 == iVar5)
+	instr6342(arg4, None, "")
+else
+	instr6342(arg4, script_2911, "1iiiI", arg0, arg1, arg2, arg3, arg4)
+return

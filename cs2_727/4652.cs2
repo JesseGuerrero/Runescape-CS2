@@ -1,0 +1,109 @@
+//script4652(4652)()(void)
+if_sethide(if_gethash(173, 1), 1)
+if_sethide(if_gethash(173, 2), 1)
+if_sethide(if_gethash(173, 3), 0)
+if_sethide(if_gethash(173, 4), 1)
+if_sethide(if_gethash(173, 8), 1)
+if_sethide(if_gethash(173, 9), 0)
+if_sethide(if_gethash(173, 10), 0)
+if_sethide(if_gethash(173, 33), 0)
+if(bit_flagged(0, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 11), 0)
+else
+	if_sethide(if_gethash(173, 11), 1)
+if(bit_flagged(1, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 12), 0)
+else
+	if_sethide(if_gethash(173, 12), 1)
+if(bit_flagged(2, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 15), 0)
+else
+	if_sethide(if_gethash(173, 15), 1)
+if(bit_flagged(3, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 16), 0)
+else
+	if_sethide(if_gethash(173, 16), 1)
+if(bit_flagged(4, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 17), 0)
+else
+	if_sethide(if_gethash(173, 17), 1)
+if(bit_flagged(5, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 18), 0)
+else
+	if_sethide(if_gethash(173, 18), 1)
+if(bit_flagged(6, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 19), 0)
+else
+	if_sethide(if_gethash(173, 19), 1)
+if(bit_flagged(7, load_varp(2194)) == 1) {
+	if_sethide(if_gethash(173, 20), 0)
+	if_sethide(if_gethash(173, 34), 0)
+} else  {
+	if_sethide(if_gethash(173, 20), 1)
+	if_sethide(if_gethash(173, 34), 1)
+}
+if(bit_flagged(8, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 21), 0)
+else
+	if_sethide(if_gethash(173, 21), 1)
+if(bit_flagged(9, load_varp(2194)) == 1) {
+	if_sethide(if_gethash(173, 22), 0)
+	if_sethide(if_gethash(173, 35), 0)
+} else  {
+	if_sethide(if_gethash(173, 22), 1)
+	if_sethide(if_gethash(173, 35), 1)
+}
+if(bit_flagged(10, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 23), 0)
+else
+	if_sethide(if_gethash(173, 23), 1)
+if(bit_flagged(11, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 24), 0)
+else
+	if_sethide(if_gethash(173, 24), 1)
+if(bit_flagged(12, load_varp(2194)) == 1) {
+	if_sethide(if_gethash(173, 25), 0)
+	if_sethide(if_gethash(173, 26), 0)
+} else  {
+	if_sethide(if_gethash(173, 25), 1)
+	if_sethide(if_gethash(173, 26), 1)
+}
+if(bit_flagged(13, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 27), 0)
+else
+	if_sethide(if_gethash(173, 27), 1)
+if(bit_flagged(14, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 28), 0)
+else
+	if_sethide(if_gethash(173, 28), 1)
+if(bit_flagged(15, load_varp(2194)) == 1) {
+	if_sethide(if_gethash(173, 31), 0)
+	if_sethide(if_gethash(173, 36), 0)
+} else  {
+	if_sethide(if_gethash(173, 31), 1)
+	if_sethide(if_gethash(173, 36), 1)
+}
+if(bit_flagged(16, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 29), 0)
+else
+	if_sethide(if_gethash(173, 29), 1)
+if(bit_flagged(17, load_varp(2194)) == 1) {
+	if_sethide(if_gethash(173, 30), 0)
+	if_sethide(if_gethash(173, 37), 0)
+} else  {
+	if_sethide(if_gethash(173, 30), 1)
+	if_sethide(if_gethash(173, 37), 1)
+}
+if(bit_flagged(18, load_varp(2194)) == 1)
+	if_sethide(if_gethash(173, 13), 0)
+else
+	if_sethide(if_gethash(173, 13), 1)
+if(bit_flagged(19, load_varp(2194)) == 1) {
+	if_sethide(if_gethash(173, 14), 0)
+	if_sethide(if_gethash(173, 32), 0)
+} else  {
+	if_sethide(if_gethash(173, 14), 1)
+	if_sethide(if_gethash(173, 32), 1)
+}
+script_4653()
+return

@@ -1,0 +1,18 @@
+//script5705(5705)(int arg0)(void)
+if(load_varc(1752) == 1)
+	return
+if(arg0 == 1)
+	if(if_gety(if_gethash(1218, 32)) == 0)
+		return
+	else {
+		store_varc(1752, 1)
+		instr6342(if_gethash(1218, 74), script_5706, "Ii", if_gethash(1218, 32), if_gety(if_gethash(1218, 32)) + 320)
+	}
+else
+	if(if_gety(if_gethash(1218, 32)) <= -960)
+		return
+	else {
+		store_varc(1752, 1)
+		instr6342(if_gethash(1218, 74), script_5706, "Ii", if_gethash(1218, 32), if_gety(if_gethash(1218, 32)) - 320)
+	}
+return

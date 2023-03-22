@@ -1,0 +1,12 @@
+void script_1055(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9) {
+	script_1057(widget1, 5341, "Farming rake", 1);
+	script_1057(widget2, 5343, "Seed dibber", 1);
+	script_1057(widget3, 952, "All-purpose spade", 1);
+	script_1057(widget4, 5329, "Secateurs", 1);
+	script_1057(widget5, 6797, "Watering Can", 1);
+	script_1057(widget6, 5325, "Gardening trowel", 1);
+	script_1057(widget7, 1925, "Empty buckets", 255);
+	script_1057(widget8, 6032, "Normal Compost", 255);
+	script_1057(widget9, 6034, "Supercompost", 255);
+	return;
+}

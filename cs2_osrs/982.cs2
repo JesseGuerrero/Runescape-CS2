@@ -1,0 +1,26 @@
+void script_982(Widget widget0, int arg1, Widget widget2, int arg3) {
+	int int4;
+	int int5;
+	widget2.clearChildren();
+	int4 = 0;
+	int5 = 5;
+	while (int4 == 0 || datamap('i', 'i', 1160, int4) != 0) {
+		CHILD.createChild(widget2, 4, int4);
+		CHILD.setText(datamap('i', 's', 1159, int4));
+		CHILD.setSize(40, 15, 0, 0);
+		CHILD.setPosition(5 + int4 % 2 * 40, int5, 0, 0);
+		CHILD.setFont(495);
+		CHILD.setTextAntiMacro(false);
+		CHILD.setRGB(0xFF981F);
+		CHILD.setContextMenuOption(1, "Select");
+		CHILD.hookMouseEnter(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, CTX_WIDGET_CHILD, 16747039));
+		CHILD.hookOptionClick(&script_983(CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg1)));
+		int4 = int4 + 1;
+		if (int4 != 0 && int4 % 2 == 0) {
+			int5 = int5 + 15;
+		}
+	}
+	widget0.setSize(100, int5 + 5, 0, 0);
+	return;
+}

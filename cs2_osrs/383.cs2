@@ -1,0 +1,8 @@
+int script_383() {
+	int int0;
+	int0 = m3224();
+	if (isBitFlagged(int0, 2) == true) {
+		return 1;
+	}
+	return 0;
+}

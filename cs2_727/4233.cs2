@@ -1,0 +1,4 @@
+//script4233(4233)(int arg0, int arg1, int arg2, int arg3)(void)
+instr6342(arg0, script_4234, "IIIii", arg0, arg1, arg2, client_clock(), arg3)
+instr6239(arg0, None, "")
+return

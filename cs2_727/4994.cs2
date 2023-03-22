@@ -1,0 +1,133 @@
+//script4994(4994)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+iVar10 = -1
+iVar11 = -1
+iVar12 = -1
+iVar13 = -1
+iVar14 = -1
+iVar15 = -1
+iVar16 = -1
+iVar17 = -1
+iVar18 = -1
+iVar19 = -1
+iVar20 = -1
+iVar21 = -1
+iVar22 = -1
+iVar23 = -1
+iVar24 = -1
+iVar25 = -1
+iVar26 = -1
+iVar27 = -1
+if(clan_vars_enabled() == 1) {
+	iVar0 = script_4948(1)
+	iVar1 = script_4948(2)
+	iVar2 = script_4948(3)
+	iVar3 = script_4948(4)
+	iVar4 = script_4948(7)
+	iVar5 = script_4948(6)
+	iVar6 = script_4948(5)
+	iVar7 = script_4959(iVar0)
+	iVar8 = script_4959(iVar1)
+	iVar9 = script_4959(iVar2)
+	iVar10 = script_4959(iVar3)
+	iVar11 = script_4959(iVar4)
+	iVar12 = script_4959(iVar5)
+	iVar13 = script_4959(iVar6)
+	iVar14 = script_4961(iVar0, 3)
+	iVar15 = script_4961(iVar1, 3)
+	iVar16 = script_4961(iVar2, 3)
+	iVar17 = script_4961(iVar3, 3)
+	iVar18 = script_4961(iVar4, 3)
+	iVar19 = script_4961(iVar5, 3)
+	iVar20 = script_4961(iVar6, 3)
+	iVar21 = script_4953(iVar14)
+	iVar22 = script_4953(iVar15)
+	iVar23 = script_4953(iVar16)
+	iVar24 = script_4953(iVar17)
+	iVar25 = script_4953(iVar18)
+	iVar26 = script_4953(iVar19)
+	iVar27 = script_4953(iVar20)
+	if_settext(if_gethash(1261, 187), "Tier " + to_string(load_clan_varbit(2580)))
+	if_settext(if_gethash(1261, 195), "Tier " + to_string(load_clan_varbit(2581)))
+	if_settext(if_gethash(1261, 203), "Tier " + to_string(load_clan_varbit(2582)))
+	if_settext(if_gethash(1261, 211), "Tier " + to_string(iVar7))
+	if_settext(if_gethash(1261, 219), "Tier " + to_string(iVar8))
+	if_settext(if_gethash(1261, 227), "Tier " + to_string(iVar9))
+	if_settext(if_gethash(1261, 235), "Tier " + to_string(iVar10))
+	if_settext(if_gethash(1261, 251), "Tier " + to_string(iVar11))
+	if_settext(if_gethash(1261, 243), "Tier " + to_string(iVar12))
+	if_settext(if_gethash(1261, 260), "Tier " + to_string(iVar13))
+	if(iVar7 == 0)
+		if(iVar21 > 0)
+			if_settext(if_gethash(1261, 211), "Building")
+		else
+			if_settext(if_gethash(1261, 211), "Buy")
+	if(iVar8 == 0)
+		if(iVar22 > 0)
+			if_settext(if_gethash(1261, 219), "Building")
+		else
+			if_settext(if_gethash(1261, 219), "Buy")
+	if(iVar9 == 0)
+		if(iVar23 > 0)
+			if_settext(if_gethash(1261, 227), "Building")
+		else
+			if_settext(if_gethash(1261, 227), "Buy")
+	if(iVar10 == 0)
+		if(iVar24 > 0)
+			if_settext(if_gethash(1261, 235), "Building")
+		else
+			if_settext(if_gethash(1261, 235), "Buy")
+	if(iVar11 == 0)
+		if(iVar25 > 0)
+			if_settext(if_gethash(1261, 251), "Building")
+		else
+			if_settext(if_gethash(1261, 251), "Buy")
+	if(iVar12 == 0)
+		if(iVar26 > 0)
+			if_settext(if_gethash(1261, 243), "Building")
+		else
+			if_settext(if_gethash(1261, 243), "Buy")
+	if(iVar13 == 0)
+		if(iVar27 > 0)
+			if_settext(if_gethash(1261, 260), "Building")
+		else
+			if_settext(if_gethash(1261, 260), "Buy")
+}
+return

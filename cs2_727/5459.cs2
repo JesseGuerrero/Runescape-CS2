@@ -1,0 +1,27 @@
+//script5459(5459)(int arg0)(int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+if(arg0 == 1) {
+	iVar1 = enum(5222, load_varpbit(9983), 'i', 'i')
+	iVar2 = enum(5225, load_varpbit(9984), 'i', 'i')
+	iVar3 = script_5460()
+	iVar3 = iVar3 + 150
+	iVar4 = (iVar1 + iVar2) + iVar3
+	iVar4 = load_varpbit(9990) + iVar4
+} else  {
+	iVar1 = enum(5223, load_varpbit(9983), 'i', 'i')
+	if(load_varpbit(9985) < 30)
+		iVar2 = enum(5226, load_varpbit(9985), 'i', 'i')
+	else
+		iVar2 = enum(5226, 15, 'i', 'i')
+	iVar4 = (iVar1 + iVar2) + iVar3
+	iVar4 = load_varpbit(9990) + iVar4
+}
+return iVar4
+return 0

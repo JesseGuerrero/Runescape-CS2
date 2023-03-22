@@ -1,0 +1,125 @@
+void script_621(int arg0, int arg1, string string2, int arg3, int arg4) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	string str1;
+	string str2;
+	int4 = widget(400, 10).getWidth();
+	int5 = int4 - 4 * 2;
+	int6 = VARC[43];
+	int7 = VARC[49];
+	CHILD.createChild(widget(400, 10), 3, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(0, int7, 0, 0);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFilled(true);
+	CHILD.setTrans(225);
+	CHILD.createChild(widget(400, 10), 3, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(0, int7, 0, 0);
+	CHILD.setRGB(0x777775);
+	CHILD.setFilled(false);
+	CHILD.createChild(widget(400, 10), 3, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(1, int7 + 1, 0, 0);
+	CHILD.setRGB(0x474745);
+	CHILD.setFilled(false);
+	VARC[49] = VARC[49] + 4;
+	str1 = "";
+	str1, string2 = script_632(string2);
+	int8 = getLineCount(str1, int5, 494) * 10 + 2;
+	if (int8 < 15) {
+		int8 = 15;
+	}
+	CHILD.createChild(widget(400, 10), 4, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(4, VARC[49], 0, 0);
+	CHILD.setSize(int5, int8, 0, 0);
+	VARC[49] = VARC[49] + int8;
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str1);
+	str1, string2 = script_632(string2);
+	int8 = getLineCount(str1, int5, 495) * 12 + 5;
+	CHILD.createChild(widget(400, 10), 4, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(4, VARC[49], 0, 0);
+	CHILD.setSize(int5, int8, 0, 0);
+	VARC[49] = VARC[49] + int8;
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str1);
+	str2 = "";
+	str1, string2 = script_632(string2);
+	str2, string2 = script_632(string2);
+	script_611(str1, str2, widget(400, 10), int5, 4, 494, 494, 10, 2);
+	int9 = 4 + 17 + 4;
+	int10 = int5 - (4 + int9);
+	int11 = 0;
+	while (int11 < arg3) {
+		str1, string2 = script_632(string2);
+		int8 = getLineCount(str1, int10, 494) * 10 + 2;
+		if (int8 < 17) {
+			int8 = 17;
+		}
+		CHILD.createChild(widget(400, 10), 3, VARC[43]);
+		CHILD.setTrans(255);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setFilled(true);
+		VARC[43] = VARC[43] + 1;
+		_CHILD.createChild(widget(400, 10), 4, VARC[43]);
+		VARC[43] = VARC[43] + 1;
+		CHILD.setPosition(4, VARC[49], 0, 0);
+		_CHILD.setPosition(int9, VARC[49], 0, 0);
+		CHILD.setSize(int5, int8, 0, 0);
+		_CHILD.setSize(int10, int8, 0, 0);
+		_CHILD.setFont(494);
+		_CHILD.setTextAlignment(0, 1, 0);
+		_CHILD.setTextAntiMacro(true);
+		_CHILD.setRGB(0xFF981F);
+		CHILD.hookMouseHover(&script_85(CTX_WIDGET, getChildId(), 16777215));
+		CHILD.hookMouseExit(&script_85(CTX_WIDGET, getChildId(), 16750623));
+		_CHILD.setText(str1);
+		_CHILD.createChild(widget(400, 10), 5, VARC[43]);
+		VARC[43] = VARC[43] + 1;
+		_CHILD.setPosition(4, VARC[49] + (int8 - 17) / 2, 0, 0);
+		_CHILD.setSize(17, 17, 0, 0);
+		if (isBitFlagged(arg4, int11) == true) {
+			_CHILD.setSprite(699);
+		} else if (arg1 == 1) {
+			_CHILD.setSprite(698);
+		} else {
+			_CHILD.setSprite(697);
+		}
+		_CHILD.setSpriteTiling(false);
+		if (arg1 == 1 && isBitFlagged(arg4, int11) == true) {
+			CHILD.setContextMenuOption(1, "De-select");
+		} else {
+			CHILD.setContextMenuOption(1, "Select");
+		}
+		CHILD.hookOptionClick(&script_623(CTX_WIDGET, CTX_WIDGET_CHILD, arg0, int11));
+		int11, VARC[49] = int11 + 1, VARC[49] + int8;
+	}
+	VARC[49] = VARC[49] + 4;
+	int8 = VARC[49] - int7;
+	if (CHILD.setChild(widget(400, 10), int6) == true) {
+		CHILD.setSize(int4, int8, 0, 0);
+	}
+	if (CHILD.setChild(widget(400, 10), int6 + 1) == true) {
+		CHILD.setSize(int4, int8, 0, 0);
+	}
+	if (CHILD.setChild(widget(400, 10), int6 + 2) == true) {
+		CHILD.setSize(int4 - 2, int8 - 2, 0, 0);
+	}
+	VARC[49] = VARC[49] + 4;
+	return;
+}

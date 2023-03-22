@@ -1,0 +1,8 @@
+//script1519(1519)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = ((load_varpbit(6658) + load_varpbit(6659)) + load_varpbit(6660)) + load_varpbit(6661)
+if(load_varpbit(6662) == 63)
+	iVar0 = iVar0 + 1
+return iVar0
+return 0

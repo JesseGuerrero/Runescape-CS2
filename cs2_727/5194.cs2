@@ -1,0 +1,21 @@
+//script5194(5194)()(int)
+int iVar0
+int iVar1
+iVar0 = -1
+iVar1 = -1
+switch(load_varpbit(9646)) {
+	case default:
+		break
+	case 1:
+		iVar0 = script_5172().get(0)
+		break
+	case 2:
+		iVar0 = script_5173().get(0)
+		break
+	case 3:
+		iVar0 = script_5174().get(0)
+		break
+
+}
+return iVar0
+return 0

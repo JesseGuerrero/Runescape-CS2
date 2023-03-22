@@ -1,0 +1,13 @@
+void script_1458(int arg0, int arg1, Widget widget2, Widget widget3, int arg4, boolean arg5) {
+	if (getClientCycle() < arg1) {
+		return;
+	}
+	if (_CHILD.setChild(widget3, arg4) == true && _CHILD.isHidden() == true) {
+		_CHILD.setHidden(false);
+	}
+	if (getClientCycle() < arg0) {
+		return;
+	}
+	script_1456(widget2, -1, arg5);
+	return;
+}

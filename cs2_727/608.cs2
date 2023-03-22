@@ -1,0 +1,14 @@
+//script608(608)()(void)
+if(cc_find(0, if_gethash(662, 74)) == 1) {
+	cc_setopbase("<col=00ff00>" + load_varc_string(204))
+	cc_setuseop("Cast")
+	if(load_varc(1436) == 1)
+		cc_setop("Cast", 1)
+}
+if(cc_find(0, if_gethash(747, 18)) == 1) {
+	cc_setopbase("<col=00ff00>" + load_varc_string(204))
+	cc_setuseop("Cast")
+	if(load_varc(1436) == 1)
+		cc_setop("Cast", 1)
+}
+return

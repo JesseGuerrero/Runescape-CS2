@@ -1,0 +1,5 @@
+//script3684(3684)()(void)
+if(load_varpbit(4393) == 1 || load_varpbit(542) == 1)
+	return
+script_39(12255243, 12255249, 25, 189, "Click here to search for a song")
+return

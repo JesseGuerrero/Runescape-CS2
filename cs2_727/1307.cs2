@@ -1,0 +1,4 @@
+//script1307(1307)(int arg0)(void)
+if(load_varpbit(7912) == 0 || load_varpbit(7904) == 8 || load_varpbit(7921) == 1 || load_varpbit(7916) == 0)
+	if_setmodel(if_gethash(986, 3), if_getmodeltype(arg0))
+return

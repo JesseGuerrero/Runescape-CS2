@@ -1,0 +1,62 @@
+//script2444(2444)()(void)
+int iVar0
+int iVar1
+int iVar2
+string sVar0
+if(load_varp(1437) == 0)
+	return
+if(if_gethide(if_gethash(34, 10)) == 0) {
+	instr6342(if_gethash(34, 9), script_2443, "")
+	return
+} else 
+	instr6342(if_gethash(34, 9), None, "")
+script_1548(13)
+if_sethide(if_gethash(34, 16), 1)
+store_varc(821, 0)
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+sVar0 = ""
+cc_deleteall(if_gethash(34, 9))
+if(userdetail_quickchat() == 1) {
+	if_settext(if_gethash(34, 13), "The notes system is not available for users restricted to quick-chat.")
+	if_sethide(if_gethash(34, 13), 0)
+	return
+} else  {
+	if_settext(if_gethash(34, 13), "")
+	if_sethide(if_gethash(34, 13), 1)
+}
+while(iVar1 < 30) {
+	sVar0 = script_2452(iVar1)
+	if(compare("", sVar0) != 0) {
+		iVar0 = script_2445(iVar0, iVar2, script_2453(iVar1), sVar0)
+		iVar2 = iVar2 + 1
+	}
+	iVar1 = iVar1 + 1
+}
+if(iVar2 <= 0) {
+	if_settext(if_gethash(34, 13), "No notes")
+	if_sethide(if_gethash(34, 13), 0)
+	if_settext(if_gethash(34, 1), "Notes")
+} else 
+	if(iVar2 > 0)
+		if(iVar2 <= 30)
+			if_settext(if_gethash(34, 1), "Notes (" + to_string(iVar2) + "/" + "30" + ")")
+		else
+			if_settext(if_gethash(34, 1), "Notes")
+if(iVar0 > 0)
+	if(iVar0 < 13)
+		if(cc_find(iVar2 - 1, if_gethash(34, 9)) == 1) {
+			if_setsize(if_gethash(34, 12), 0, 0, if_getheight(if_gethash(34, 9)) - (cc_gety() + cc_getheight()), cc_getwidth())
+			if_setposition(if_gethash(34, 12), 0, 0, cc_gety() + cc_getheight(), cc_getx())
+			if_sethide(if_gethash(34, 12), 0)
+		}
+	else
+		if_sethide(if_gethash(34, 12), 1)
+if(iVar0 < 1)
+	if_setscrollsize(2228233, 0, 0)
+else
+	if_setscrollsize(2228233, (iVar0 * 15) + 10, 0)
+script_72(2228239, 2228233, if_getscrolly(2228233))
+if_sethide(if_gethash(34, 44), 1)
+return

@@ -1,0 +1,74 @@
+void script_1517(int arg0, string string1) {
+	int int1;
+	int int2;
+	int int3;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 13))) == false) {
+		return;
+	}
+	if (length(string1) <= 0) {
+		return;
+	}
+	str1 = "";
+	str1, string1 = script_632(string1);
+	str2 = "";
+	str2, string1 = script_632(string1);
+	str3 = "";
+	str3, string1 = script_632(string1);
+	int1 = VARC[178] * 14;
+	CHILD.createChild(widget(507, 10), 3, VARC[178] * 6);
+	CHILD.setSize(0, 14, 1, 0);
+	CHILD.setPosition(0, int1, 1, 0);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFilled(true);
+	script_1518(VARC[178], VARC[178], -1, 0);
+	str4 = removeTags(str1);
+	CHILD.setOptionBase("<col=ff9040>" + str4 + "</col>");
+	CHILD.hookOptionClick(&script_1521(CTX_MENU_OPTION, VARC[178], str4, string1));
+	int2 = widget(507, 7).getWidth();
+	CHILD.createChild(widget(507, 10), 4, VARC[178] * 6 + 1);
+	CHILD.setSize(int2, 14, 0, 0);
+	CHILD.setPosition(0, int1, 0, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str1);
+	int3 = int2;
+	int2 = widget(507, 8).getWidth();
+	CHILD.createChild(widget(507, 10), 4, VARC[178] * 6 + 2);
+	CHILD.setSize(int2, 14, 0, 0);
+	CHILD.setPosition(int3, int1, 0, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str2);
+	CHILD.createChild(widget(507, 10), 4, VARC[178] * 6 + 3);
+	CHILD.setSize(int3 + int2, 14, 1, 0);
+	CHILD.setPosition(0, int1, 2, 0);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str3);
+	CHILD.createChild(widget(507, 10), 4, VARC[178] * 6 + 4);
+	CHILD.setHidden(true);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(concat(script_1503(str2, 3), VARC[178]));
+	CHILD.createChild(widget(507, 10), 4, VARC[178] * 6 + 5);
+	CHILD.setHidden(true);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(concat(script_1503(str3, 4), VARC[178]));
+	VARC[178] = VARC[178] + 1;
+	return;
+}

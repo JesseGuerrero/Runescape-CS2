@@ -1,0 +1,14 @@
+//script6368(6368)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+iVar1 = script_6357(arg0)
+iVar2 = -1
+iVar3 = -1
+iVar2 = script_6348(arg0).get(0)
+if(iVar2 != -1) {
+	if_setsize(script_6358(iVar1), 0, 0, 0, 0)
+	instr6342(iVar1, script_6369, "iI", arg0, -2147483645)
+} else 
+	script_6371(arg0, iVar1)
+return

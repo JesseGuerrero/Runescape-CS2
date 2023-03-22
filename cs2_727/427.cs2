@@ -1,0 +1,183 @@
+//script427(427)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar1 = 0
+iVar2 = 0
+iVar3 = -1
+iVar4 = load_varpbit(7539)
+iVar5 = load_varpbit(7540)
+iVar6 = load_varpbit(7541)
+iVar7 = load_varpbit(7542)
+if(arg0 == 1) {
+	iVar4 = 1
+	iVar5 = 3
+	iVar6 = 5
+	iVar7 = 6
+}
+if(iVar4 == 0) {
+	if_sethide(if_gethash(1024, 8), 1)
+	iVar1 = iVar1 + 1
+} else  {
+	iVar3 = script_488(iVar4)
+	if(iVar3 != -1) {
+		if_sethide(if_gethash(1024, 8), 0)
+		item_useonname(67108872, struct_param(1150, iVar3))
+		if_settext(if_gethash(1024, 75), struct_param(1150, iVar3))
+		if_setgraphic(if_gethash(1024, 77), struct_param(1153, iVar3))
+		if_settext(if_gethash(1024, 76), to_string(struct_param(1154, iVar3)))
+	}
+	if(iVar4 == 9)
+		instr6213(if_gethash(1024, 8), 1, "Cast")
+}
+if(iVar5 == 0) {
+	if_sethide(if_gethash(1024, 9), 1)
+	iVar1 = iVar1 + 1
+} else  {
+	iVar3 = script_488(iVar5)
+	if(iVar3 != -1) {
+		if_sethide(if_gethash(1024, 9), 0)
+		item_useonname(67108873, struct_param(1150, iVar3))
+		if_settext(if_gethash(1024, 58), struct_param(1150, iVar3))
+		if_setgraphic(if_gethash(1024, 60), struct_param(1153, iVar3))
+		if_settext(if_gethash(1024, 59), to_string(struct_param(1154, iVar3)))
+	}
+	if(iVar5 == 9)
+		instr6213(if_gethash(1024, 9), 1, "Cast")
+}
+if(iVar6 == 0) {
+	if_sethide(if_gethash(1024, 10), 1)
+	iVar1 = iVar1 + 1
+} else  {
+	iVar3 = script_488(iVar6)
+	if(iVar3 != -1) {
+		if_sethide(if_gethash(1024, 10), 0)
+		item_useonname(67108874, struct_param(1150, iVar3))
+		if_settext(if_gethash(1024, 41), struct_param(1150, iVar3))
+		if_setgraphic(if_gethash(1024, 43), struct_param(1153, iVar3))
+		if_settext(if_gethash(1024, 42), to_string(struct_param(1154, iVar3)))
+	}
+	if(iVar6 == 9)
+		instr6213(if_gethash(1024, 10), 1, "Cast")
+}
+if(iVar7 == 0) {
+	if_sethide(if_gethash(1024, 11), 1)
+	iVar1 = iVar1 + 1
+} else  {
+	iVar3 = script_488(iVar7)
+	if(iVar3 != -1) {
+		if_sethide(if_gethash(1024, 11), 0)
+		item_useonname(67108875, struct_param(1150, iVar3))
+		if_settext(if_gethash(1024, 24), struct_param(1150, iVar3))
+		if_setgraphic(if_gethash(1024, 26), struct_param(1153, iVar3))
+		if_settext(if_gethash(1024, 25), to_string(struct_param(1154, iVar3)))
+	}
+	if(iVar7 == 9)
+		instr6213(if_gethash(1024, 11), 1, "Cast")
+}
+if(iVar1 == 4) {
+	if_sethide(if_gethash(1024, 1), 1)
+	if_sethide(if_gethash(1024, 2), 0)
+} else 
+	if(iVar1 == 3) {
+		if_sethide(if_gethash(1024, 1), 0)
+		if_sethide(if_gethash(1024, 2), 1)
+		if(iVar4 != 0) {
+			if_setposition(if_gethash(1024, 8), 0, 0, 102, if_getx(if_gethash(1024, 8)))
+			if_setonmouseover(if_gethash(1024, 65), script_432, "Ii", -2147483645, 6)
+		} else 
+			if(iVar5 != 0) {
+				if_setposition(if_gethash(1024, 9), 0, 0, 102, if_getx(if_gethash(1024, 9)))
+				if_setonmouseover(if_gethash(1024, 48), script_432, "Ii", -2147483645, 6)
+			} else 
+				if(iVar6 != 0) {
+					if_setposition(if_gethash(1024, 10), 0, 0, 102, if_getx(if_gethash(1024, 10)))
+					if_setonmouseover(if_gethash(1024, 31), script_432, "Ii", -2147483645, 6)
+				} else 
+					if(iVar7 != 0) {
+						if_setposition(if_gethash(1024, 11), 0, 0, 102, if_getx(if_gethash(1024, 11)))
+						if_setonmouseover(if_gethash(1024, 14), script_432, "Ii", -2147483645, 6)
+					}
+	} else 
+		if(iVar1 == 2) {
+			if_sethide(if_gethash(1024, 1), 0)
+			if_sethide(if_gethash(1024, 2), 1)
+			if(iVar4 != 0) {
+				if_setposition(if_gethash(1024, 8), 0, 0, 60, if_getx(if_gethash(1024, 8)))
+				if_setonmouseover(if_gethash(1024, 65), script_432, "Ii", -2147483645, 111)
+				iVar2 = iVar2 + 1
+			}
+			if(iVar5 != 0) {
+				if(iVar2 == 0) {
+					if_setposition(if_gethash(1024, 9), 0, 0, 60, if_getx(if_gethash(1024, 9)))
+					if_setonmouseover(if_gethash(1024, 48), script_432, "Ii", -2147483645, 111)
+				} else  {
+					if_setposition(if_gethash(1024, 9), 0, 0, 145, if_getx(if_gethash(1024, 9)))
+					if_setonmouseover(if_gethash(1024, 48), script_432, "Ii", -2147483645, 49)
+				}
+				iVar2 = iVar2 + 1
+			}
+			if(iVar6 != 0) {
+				if(iVar2 == 0) {
+					if_setposition(if_gethash(1024, 10), 0, 0, 60, if_getx(if_gethash(1024, 10)))
+					if_setonmouseover(if_gethash(1024, 31), script_432, "Ii", -2147483645, 111)
+				} else  {
+					if_setposition(if_gethash(1024, 10), 0, 0, 145, if_getx(if_gethash(1024, 10)))
+					if_setonmouseover(if_gethash(1024, 31), script_432, "Ii", -2147483645, 49)
+				}
+				iVar2 = iVar2 + 1
+			}
+			if(iVar7 != 0) {
+				if_setposition(if_gethash(1024, 11), 0, 0, 145, if_getx(if_gethash(1024, 11)))
+				if_setonmouseover(if_gethash(1024, 14), script_432, "Ii", -2147483645, 49)
+			}
+		} else 
+			if(iVar1 == 1) {
+				if_sethide(if_gethash(1024, 1), 0)
+				if_sethide(if_gethash(1024, 2), 1)
+				if(iVar4 != 0) {
+					if_setposition(if_gethash(1024, 8), 0, 0, 41, if_getx(if_gethash(1024, 8)))
+					if_setonmouseover(if_gethash(1024, 65), script_432, "Ii", -2147483645, 92)
+					iVar2 = iVar2 + 1
+				}
+				if(iVar5 != 0) {
+					if(iVar2 == 0) {
+						if_setposition(if_gethash(1024, 9), 0, 0, 41, if_getx(if_gethash(1024, 9)))
+						if_setonmouseover(if_gethash(1024, 48), script_432, "Ii", -2147483645, 92)
+					} else  {
+						if_setposition(if_gethash(1024, 9), 0, 0, 102, if_getx(if_gethash(1024, 9)))
+						if_setonmouseover(if_gethash(1024, 48), script_432, "Ii", -2147483645, 6)
+					}
+					iVar2 = iVar2 + 1
+				}
+				if(iVar6 != 0) {
+					if(iVar2 == 1) {
+						if_setposition(if_gethash(1024, 10), 0, 0, 102, if_getx(if_gethash(1024, 10)))
+						if_setonmouseover(if_gethash(1024, 31), script_432, "Ii", -2147483645, 6)
+					} else  {
+						if_setposition(if_gethash(1024, 10), 0, 0, 163, if_getx(if_gethash(1024, 10)))
+						if_setonmouseover(if_gethash(1024, 31), script_432, "Ii", -2147483645, 67)
+					}
+					iVar2 = iVar2 + 1
+				}
+				if(iVar7 != 0) {
+					if_setposition(if_gethash(1024, 11), 0, 0, 163, if_getx(if_gethash(1024, 11)))
+					if_setonmouseover(if_gethash(1024, 31), script_432, "Ii", -2147483645, 67)
+				}
+			} else  {
+				if_sethide(if_gethash(1024, 1), 0)
+				if_sethide(if_gethash(1024, 2), 1)
+				if_setposition(if_gethash(1024, 8), 0, 0, 29, if_getx(if_gethash(1024, 8)))
+				if_setonmouseover(if_gethash(1024, 65), script_432, "Ii", -2147483645, 80)
+				if_setposition(if_gethash(1024, 9), 0, 0, 78, if_getx(if_gethash(1024, 9)))
+				if_setonmouseover(if_gethash(1024, 48), script_432, "Ii", -2147483645, 129)
+				if_setposition(if_gethash(1024, 10), 0, 0, 127, if_getx(if_gethash(1024, 10)))
+				if_setonmouseover(if_gethash(1024, 31), script_432, "Ii", -2147483645, 31)
+				if_setposition(if_gethash(1024, 11), 0, 0, 176, if_getx(if_gethash(1024, 11)))
+				if_setonmouseover(if_gethash(1024, 14), script_432, "Ii", -2147483645, 80)
+			}
+return

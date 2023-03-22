@@ -1,0 +1,43 @@
+//script789(789)()(string)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+iVar0 = random(3)
+sVar0 = "Did you know that most monsters can drop bonus spins?"
+iVar1 = 0
+iVar2 = 0
+switch(playercountry()) {
+	case default:
+		break
+	case 225:
+		iVar1 = 1
+		break
+
+}
+if(script_6304() > 0)
+	iVar2 = 1
+iVar3 = 1
+if(iVar1 == 1)
+	iVar3 = iVar3 + 1
+if(iVar2 == 1)
+	iVar3 = iVar3 + 1
+iVar4 = random(iVar3)
+if(iVar4 == 0)
+	return script_6299()
+if(iVar4 == 1)
+	if(iVar1 == 1)
+		return script_6297()
+	else
+		if(iVar2 == 1)
+			return script_6298()
+if(iVar4 == 2)
+	if(iVar2 == 1)
+		return script_6298()
+	else
+		if(iVar1 == 1)
+			return script_6297()
+return sVar0
+return ""

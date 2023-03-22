@@ -1,0 +1,5 @@
+//script1950(1950)(int arg0)(void)
+if_setgraphic(arg0, 3153)
+hook_mouse_press(arg0, script_1242, "I", -2147483645)
+instr6236()
+return

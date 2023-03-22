@@ -1,0 +1,11 @@
+void script_507(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13) {
+	CHILD.setContextMenuOption(1, "View tab");
+	CHILD.setContextMenuOption(6, "Collapse tab");
+	CHILD.setContextMenuOption(7, "Remove placeholders");
+	CHILD.setOptionBase("<col=ff9040>" + arg13 + "</col>");
+	CHILD.hookOptionClick(&script_504(widget(arg0), widget(arg1), widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10), widget(arg11), widget(arg12), CTX_MENU_OPTION, arg13));
+	CHILD.setDragDeadZone(5);
+	CHILD.setDragDeadTime(5);
+	CHILD.hookDragStart(&script_515(widget(arg0), widget(arg1), widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget(arg9), widget(arg10), widget(arg11), widget(arg12)));
+	return;
+}

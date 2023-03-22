@@ -1,0 +1,8 @@
+void script_1440(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg3) == true) {
+		playSoundEffect(2266, 1, 0);
+		script_1439(widget0, arg2, arg3, arg4);
+		_CHILD.cs2method1121_packet();
+	}
+	return;
+}

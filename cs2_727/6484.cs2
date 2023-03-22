@@ -1,0 +1,8 @@
+//script6484(6484)(int arg0)(void)
+int iVar1
+iVar1 = if_gettrans(arg0)
+if(iVar1 > 0) {
+	iVar1 = max(iVar1 - 10, 0)
+	if_settrans(arg0, iVar1)
+}
+return

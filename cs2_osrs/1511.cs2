@@ -1,0 +1,21 @@
+void script_1511(Widget widget0) {
+	int int1;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	str0 = "Total:";
+	str1 = script_46(VARPBIT[5431], ",");
+	str2 = m5015() + ":";
+	str3 = "";
+	if (VARPBIT[5422] < 131071) {
+		str3 = script_46(VARPBIT[5422], ",");
+	} else {
+		str3 = "<col=ffa82f>" + "Lots!" + "</col>";
+	}
+	int1 = script_1045(getMaxLineWidth(str0, 512, 495) + 3 + getMaxLineWidth(str1, 512, 495), getMaxLineWidth(str2, 512, 495) + 3 + getMaxLineWidth(str3, 512, 495));
+	widget0.setSize(int1 + 8, 37, 0, 0);
+	CHILD.setText(str0 + "<br>" + str2);
+	_CHILD.setText(str1 + "<br>" + str3);
+	return;
+}

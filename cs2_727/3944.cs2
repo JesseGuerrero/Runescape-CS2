@@ -1,0 +1,41 @@
+//script3944(3944)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+int iVar5
+if(load_varc(1412) == 1)
+	return
+iVar3 = 67371197
+iVar4 = 67371198
+iVar5 = 67371199
+if(arg2 == 0) {
+	iVar3 = 58327084
+	iVar4 = 58327085
+	iVar5 = 58327086
+}
+switch(arg0) {
+	case default:
+		break
+	case 13:
+		return
+
+	case 84:
+		store_varc(1412, 1)
+		return
+
+	case 103:
+		store_varc(1099, script_1553(arg0, load_varc(1099), load_varc_string(330)))
+		script_3218(iVar3, iVar4, iVar5, 16, load_varc_string(330))
+		return
+
+
+}
+if(string_length(load_varc_string(330)) >= 12)
+	if(arg0 != 85)
+		if(arg0 != 101)
+			return
+if(string_indexof_char("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 _-", 0, arg1) != -1 || arg0 == 85 || arg0 == 101) {
+	store_varc_string(330, script_802(load_varc(1099), 2, arg0, arg1, load_varc_string(330)).get(1))
+	if_settext(iVar4, load_varc_string(330))
+	script_3218(iVar3, iVar4, iVar5, 16, load_varc_string(330))
+}
+return

@@ -1,0 +1,12 @@
+void script_1605(Widget widget0, Widget widget1, Widget widget2) {
+	if (VARPBIT[5432] == 1) {
+		widget2.setText("Items stored here " + "<col=ff0000>" + "cannot" + "</col>" + " be taken by other players." + "<br>" + "Any " + "<col=ff0000>" + "non-raiding" + "</col>" + " items left in here " + "<col=ff0000>" + "can" + "</col>" + " be retrieved outside.");
+		widget0.setPosition(0, 45, 1, 2);
+		widget1.setIsHidden(true);
+	} else {
+		widget2.setText("You must retrieve " + "<col=ff0000>" + "all your items" + "</col>" + " from the private storage" + "<br>" + "before you can re-enter the Chambers of Xeric.");
+		widget0.setPosition(30, 45, 0, 2);
+		widget1.setIsHidden(false);
+	}
+	return;
+}

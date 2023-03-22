@@ -1,0 +1,7 @@
+//script287(287)(int arg0, int arg1, int arg2, int arg3)(void)
+cc_create(arg0, 5, arg2)
+cc_setsize(0, 0, 17, 17)
+cc_setposition(0, 0, arg3 + 4, 4)
+cc_sethide(arg1)
+cc_setgraphic(1726)
+return

@@ -1,0 +1,15 @@
+//script924(924)(int arg0, int arg1, int arg2, int arg3, string arg4)(void)
+int iVar4
+iVar4 = 6 + (load_varc(742) * 11)
+if(compare("", arg0) != 0) {
+	cc_create(if_getnextsubid(if_gethash(449, 8)), 4, 29425672)
+	cc_setposition(0, 0, iVar4, 0)
+	cc_setsize(0, 2, 11 * arg0, 16384)
+	cc_settextfont(arg3)
+	cc_setcolor(4da)
+	cc_settext(arg0)
+	cc_settextalign(0, 0, arg1)
+	if(arg2 == 1)
+		store_varc(742, load_varc(742) + arg0)
+}
+return

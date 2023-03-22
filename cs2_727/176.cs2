@@ -1,0 +1,4 @@
+//script176(176)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+script_2732(arg0, arg1, load_varp(287), 4)
+instr6239(arg0, script_3417, "iiIIIIII", -2147483644, arg1, arg2, arg3, arg4, arg5, arg6, arg7)
+return

@@ -1,0 +1,25 @@
+//script5737(5737)()(int)
+int iVar0
+int iVar1
+iVar0 = load_varp(2501)
+if_sethide(if_gethash(1237, 35), 1)
+if_sethide(if_gethash(1237, 36), 1)
+if_sethide(if_gethash(1237, 37), 1)
+if_sethide(if_gethash(1237, 38), 1)
+if_sethide(if_gethash(1237, 39), 1)
+if_sethide(if_gethash(1237, 40), 1)
+iVar1 = if_getheight(if_gethash(1237, 34))
+if(compare("", struct_param(1274, iVar0)) != 0)
+	iVar1 = script_5739(1, iVar1, 81068067, 81068065, struct_param(1274, iVar0))
+if(compare("", struct_param(1275, iVar0)) != 0)
+	iVar1 = script_5739(2, iVar1, 81068068, 81068065, struct_param(1275, iVar0))
+if(compare("", struct_param(1276, iVar0)) != 0)
+	iVar1 = script_5739(3, iVar1, 81068069, 81068065, struct_param(1276, iVar0))
+if(compare("", struct_param(1277, iVar0)) != 0)
+	iVar1 = script_5739(4, iVar1, 81068070, 81068065, struct_param(1277, iVar0))
+if(compare("", struct_param(1278, iVar0)) != 0)
+	iVar1 = script_5739(5, iVar1, 81068071, 81068065, struct_param(1278, iVar0))
+if(compare("", struct_param(1279, iVar0)) != 0)
+	iVar1 = script_5739(6, iVar1, 81068072, 81068065, struct_param(1279, iVar0))
+return iVar1
+return 0

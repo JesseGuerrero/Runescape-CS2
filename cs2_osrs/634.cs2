@@ -1,0 +1,31 @@
+void script_634(Widget widget0, Widget widget1, Widget widget2) {
+	if (VARPBIT[5605] == 1) {
+		script_1594(widget0);
+		script_1672(widget1, "Look up name");
+		script_1677(widget2, "---");
+	} else if (VARPBIT[5605] == 2) {
+		widget0.hookFrame(&script_1593(widget0));
+		script_1677(widget1, "Look up name");
+		script_1677(widget2, "---");
+	} else if (VARPBIT[5605] == 4) {
+		script_1594(widget0);
+		script_1672(widget1, "Another name");
+		if (VARPBIT[5606] == 1 && VARPBIT[5607] == 0) {
+			if (length(STRING[137]) <= 0) {
+				STRING[137] = "-";
+			}
+			script_1672(widget2, "<col=00ff00>" + STRING[137] + "</col>");
+		} else {
+			script_1677(widget2, "---");
+		}
+	} else if (VARPBIT[5605] == 5) {
+		widget0.hookFrame(&script_1593(widget0));
+		script_1677(widget1, "Another name");
+		script_1677(widget2, "---");
+	} else {
+		widget0.hookFrame(&script_1593(widget0));
+		script_1677(widget1, "Look up name");
+		script_1677(widget2, "---");
+	}
+	return;
+}

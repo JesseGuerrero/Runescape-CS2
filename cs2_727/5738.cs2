@@ -1,0 +1,21 @@
+//script5738(5738)()(void)
+int iVar0
+int iVar1
+string sVar0
+string sVar1
+iVar0 = if_gety(if_gethash(1237, 5))
+iVar1 = 0
+sVar0 = ""
+sVar1 = ""
+if(load_varp(2502) != -1)
+	if(script_3999(struct_param(1268, load_varp(2502))) == 0 || load_varp(2502) == 6879) {
+		if_sethide(if_gethash(1237, 48), 0)
+		if(load_varp(2502) != 6879) {
+			iVar1 = script_5755(load_varp(2504), load_varp(2502)).get(0)
+			sVar1 = "Get your " + sVar0 + " level to " + to_string(iVar1) + " to unlock: "
+		}
+		sVar1 = append(struct_param(1273, load_varp(2502)), sVar1)
+		iVar0 = script_5739(1, iVar0, 81068037, 81068080, sVar1)
+	} else 
+		iVar0 = script_5739(1, iVar0, 81068037, 81068080, "Explore the world of Runescape for new and exciting adventures!")
+return

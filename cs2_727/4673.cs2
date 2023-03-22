@@ -1,0 +1,15 @@
+//script4673(4673)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 6:
+		if_sethide(if_gethash(102, 61), 1)
+		if_sethide(if_gethash(102, 60), 0)
+		instr6342(if_gethash(102, 60), script_4674, "")
+		break
+
+}
+if_sethide(if_gethash(102, 60), 1)
+if_sethide(if_gethash(102, 61), 0)
+instr6342(if_gethash(102, 61), script_4674, "")
+return

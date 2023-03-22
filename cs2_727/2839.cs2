@@ -1,0 +1,5 @@
+//script2839(2839)()(void)
+store_varc(1068, 2)
+instr6677(load_varc(1068), 1, 400, 350, load_varc(1068), 0)
+instr6255(if_gethash(384, 0), script_2840, "")
+return

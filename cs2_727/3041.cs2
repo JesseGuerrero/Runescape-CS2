@@ -1,0 +1,116 @@
+//script3041(3041)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+if(instr6661(-1, arg2) == 1) {
+	instr6342(arg3, script_3040, "IIIII", arg0, arg1, arg2, arg3, arg4)
+	return
+} else 
+	instr6342(arg3, None, "")
+cc_deleteall(arg0)
+cc_deleteall(arg1)
+cc_deleteall(arg2)
+iVar5 = ignore_count()
+iVar6 = 0
+iVar7 = 0
+sVar0 = ""
+sVar1 = ""
+sVar2 = ""
+iVar8 = 0
+iVar9 = 0
+iVar10 = 15
+iVar11 = 0
+iVar12 = 5
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+sVar3 = ""
+if(iVar5 == -2) {
+	if_settext(if_gethash(909, 89), "Name")
+	script_3038(arg2, "Loading Ignore List." + "<br>" + "<br>" + "Please wait.")
+} else 
+	if(iVar5 == -1) {
+		if_settext(if_gethash(909, 89), "Name")
+		script_3038(arg2, "Connecting to server." + "<br>" + "<br>" + "Please wait.")
+	} else 
+		if(iVar5 > 0) {
+			if_settext(if_gethash(909, 89), "Name (" + to_string(iVar5) + "/100)")
+			while(iVar6 < iVar5) {
+				sVar0 = ignore_getnames(iVar6).get(0)
+				script_2996(arg2, iVar6, if_getwidth(arg2), iVar10, 0, iVar7, 0, 1, 0)
+				if(modulo(2, iVar6) == 0)
+					cc_setcolor(201911)
+				else
+					cc_setcolor(292016)
+				instr6091(script_3031, "Ii", arg2, iVar6)
+				instr6092(script_3036, "")
+				if(string_length(sVar1) > 0) {
+					iVar15 = stringwidth(494, "Last known as: " + sVar1) + 8
+					if(iVar15 > if_getwidth(if_gethash(909, 76)))
+						sVar3 = "Last known as:" + "<br>" + sVar1
+					else
+						sVar3 = "Last known as: " + sVar1
+					cc_setonmouseover(script_2467, "IisiiIIIf", -2147483645, -2147483643, sVar3, -2147483647, -2147483646, if_gethash(909, 78), if_gethash(909, 80), if_gethash(909, 83), 494)
+				}
+				cc_setopbase(sVar0)
+				cc_setop("Delete", 1)
+				instr6687(script_3042, "is", -2147483644, sVar0)
+				script_2994(arg1, iVar6, 14, 14, 5, iVar7 + 1, -1, 0, 0, 0, 0)
+				if(compare("", sVar1) != 0) {
+					cc_setgraphic(2313)
+					iVar12 = 20
+				} else  {
+					cc_setgraphic(-1)
+					iVar12 = 5
+				}
+				sVar2 = sVar0
+				script_2995(arg0, iVar6, 0, iVar10, iVar12, iVar7, 16777215, 494, 0, 1, 0, 1, sVar2)
+				cc_setsize(0, 1, iVar10, iVar12)
+				cc_setmaxlines(1)
+				iVar7 = iVar7 + iVar10
+				iVar6 = iVar6 + 1
+			}
+			iVar9 = (if_getheight(arg3) / iVar10) + 1
+			if(iVar9 > iVar5) {
+				while(iVar6 < iVar9) {
+					script_2996(arg2, iVar6, if_getwidth(arg2), iVar10, 0, iVar7, 0, 1, 0)
+					if(modulo(2, iVar6) == 0)
+						cc_setcolor(201911)
+					else
+						cc_setcolor(292016)
+					iVar7 = iVar7 + iVar10
+					iVar6 = iVar6 + 1
+				}
+				iVar11 = if_getheight(arg3)
+			} else 
+				iVar11 = iVar7
+			if(iVar9 <= iVar5) {
+				iVar14 = if_getscrolly(59572302)
+				if_setscrollsize(59572302, iVar11, 0)
+				if(iVar14 > iVar11)
+					iVar14 = iVar11
+				script_72(59572303, 59572302, iVar14)
+			} else  {
+				if_setscrollsize(59572302, 0, 0)
+				if_setscrollpos(if_gethash(909, 78), 0, 0)
+				script_72(59572303, 59572302, 0)
+			}
+		} else 
+			if(iVar5 == 0) {
+				if_settext(if_gethash(909, 89), "Name")
+				script_3038(arg2, "You are not ignoring any players.")
+			}
+return
+return

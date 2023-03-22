@@ -1,0 +1,4 @@
+//script5252(5252)()(void)
+if_setcolor(51052681, 0xFFFFFF)
+if_sethide(if_gethash(779, 136), 0)
+return

@@ -1,0 +1,3 @@
+//script1357(1357)(int arg0, int arg1)(void)
+if_settrans(arg0, arg1)
+return

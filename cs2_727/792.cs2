@@ -1,0 +1,3 @@
+//script792(792)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9)(void)
+script_793(arg0, arg1, arg2, arg3, arg4, arg0, arg1, arg2, arg3, arg4)
+return

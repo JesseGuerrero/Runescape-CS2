@@ -1,0 +1,281 @@
+//script5660(5660)()(void)
+if_setposition(if_gethash(1215, 5), 0, 2, if_gety(if_gethash(1215, 5)), 2)
+if_setposition(if_gethash(1215, 7), 0, 2, if_gety(if_gethash(1215, 7)), 2)
+if_setposition(if_gethash(1215, 9), 0, 2, if_gety(if_gethash(1215, 9)), 2)
+if_setsize(if_gethash(1215, 5), 0, 0, 25, 25)
+if_setsize(if_gethash(1215, 7), 0, 0, 25, 25)
+if_setsize(if_gethash(1215, 9), 0, 0, 25, 25)
+switch(load_varpbit(10440)) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1215, 5), 197)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1215, 5), 198)
+		break
+	case 5:
+		if_setgraphic(if_gethash(1215, 5), 199)
+		break
+	case 6:
+		if_setgraphic(if_gethash(1215, 5), 203)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1215, 5), 200)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1215, 5), 202)
+		break
+	case 7:
+		if_setgraphic(if_gethash(1215, 5), 201)
+		break
+	case 12:
+		if_setgraphic(if_gethash(1215, 5), 215)
+		break
+	case 11:
+		if_setgraphic(if_gethash(1215, 5), 207)
+		break
+	case 13:
+		if_setgraphic(if_gethash(1215, 5), 209)
+		break
+	case 14:
+		if_setgraphic(if_gethash(1215, 5), 210)
+		break
+	case 15:
+		if_setgraphic(if_gethash(1215, 5), 211)
+		break
+	case 16:
+		if_setgraphic(if_gethash(1215, 5), 212)
+		break
+	case 17:
+		if_setgraphic(if_gethash(1215, 5), 213)
+		break
+	case 18:
+		if_setgraphic(if_gethash(1215, 5), 214)
+		break
+	case 8:
+		if_setgraphic(if_gethash(1215, 5), 204)
+		break
+	case 9:
+		if_setgraphic(if_gethash(1215, 5), 205)
+		break
+	case 10:
+		if_setgraphic(if_gethash(1215, 5), 206)
+		break
+	case 19:
+		if_setgraphic(if_gethash(1215, 5), 208)
+		break
+	case 20:
+		if_setgraphic(if_gethash(1215, 5), 216)
+		break
+	case 21:
+		if_setgraphic(if_gethash(1215, 5), 217)
+		break
+	case 22:
+		if_setgraphic(if_gethash(1215, 5), 221)
+		break
+	case 23:
+		if_setgraphic(if_gethash(1215, 5), 220)
+		break
+	case 24:
+		if_setgraphic(if_gethash(1215, 5), 222)
+		break
+	case 25:
+		if_setgraphic(if_gethash(1215, 5), 3028)
+		break
+	case 30:
+		if_setgraphic(if_gethash(1215, 5), 1817)
+		if_setposition(if_gethash(1215, 5), 0, 2, if_gety(if_gethash(1215, 5)), 4)
+		if_setsize(if_gethash(1215, 5), 0, 0, 22, 22)
+		break
+	case 31:
+		if_setgraphic(if_gethash(1215, 5), 1818)
+		if_setposition(if_gethash(1215, 5), 0, 2, if_gety(if_gethash(1215, 5)), 4)
+		if_setsize(if_gethash(1215, 5), 0, 0, 22, 22)
+		if_setgraphic(if_gethash(1215, 5), -1)
+		break
+
+}
+switch(load_varpbit(10441)) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1215, 7), 197)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1215, 7), 198)
+		break
+	case 5:
+		if_setgraphic(if_gethash(1215, 7), 199)
+		break
+	case 6:
+		if_setgraphic(if_gethash(1215, 7), 203)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1215, 7), 200)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1215, 7), 202)
+		break
+	case 7:
+		if_setgraphic(if_gethash(1215, 7), 201)
+		break
+	case 12:
+		if_setgraphic(if_gethash(1215, 7), 215)
+		break
+	case 11:
+		if_setgraphic(if_gethash(1215, 7), 207)
+		break
+	case 13:
+		if_setgraphic(if_gethash(1215, 7), 209)
+		break
+	case 14:
+		if_setgraphic(if_gethash(1215, 7), 210)
+		break
+	case 15:
+		if_setgraphic(if_gethash(1215, 7), 211)
+		break
+	case 16:
+		if_setgraphic(if_gethash(1215, 7), 212)
+		break
+	case 17:
+		if_setgraphic(if_gethash(1215, 7), 213)
+		break
+	case 18:
+		if_setgraphic(if_gethash(1215, 7), 214)
+		break
+	case 8:
+		if_setgraphic(if_gethash(1215, 7), 204)
+		break
+	case 9:
+		if_setgraphic(if_gethash(1215, 7), 205)
+		break
+	case 10:
+		if_setgraphic(if_gethash(1215, 7), 206)
+		break
+	case 19:
+		if_setgraphic(if_gethash(1215, 7), 208)
+		break
+	case 20:
+		if_setgraphic(if_gethash(1215, 7), 216)
+		break
+	case 21:
+		if_setgraphic(if_gethash(1215, 7), 217)
+		break
+	case 22:
+		if_setgraphic(if_gethash(1215, 7), 221)
+		break
+	case 23:
+		if_setgraphic(if_gethash(1215, 7), 220)
+		break
+	case 24:
+		if_setgraphic(if_gethash(1215, 7), 222)
+		break
+	case 25:
+		if_setgraphic(if_gethash(1215, 7), 3028)
+		break
+	case 30:
+		if_setgraphic(if_gethash(1215, 7), 1817)
+		if_setposition(if_gethash(1215, 7), 0, 2, if_gety(if_gethash(1215, 7)), 4)
+		if_setsize(if_gethash(1215, 7), 0, 0, 22, 22)
+		break
+	case 31:
+		if_setgraphic(if_gethash(1215, 7), 1818)
+		if_setposition(if_gethash(1215, 7), 0, 2, if_gety(if_gethash(1215, 7)), 4)
+		if_setsize(if_gethash(1215, 7), 0, 0, 22, 22)
+		if_setgraphic(if_gethash(1215, 7), -1)
+		break
+
+}
+switch(load_varpbit(10442)) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1215, 9), 197)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1215, 9), 198)
+		break
+	case 5:
+		if_setgraphic(if_gethash(1215, 9), 199)
+		break
+	case 6:
+		if_setgraphic(if_gethash(1215, 9), 203)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1215, 9), 200)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1215, 9), 202)
+		break
+	case 7:
+		if_setgraphic(if_gethash(1215, 9), 201)
+		break
+	case 12:
+		if_setgraphic(if_gethash(1215, 9), 215)
+		break
+	case 11:
+		if_setgraphic(if_gethash(1215, 9), 207)
+		break
+	case 13:
+		if_setgraphic(if_gethash(1215, 9), 209)
+		break
+	case 14:
+		if_setgraphic(if_gethash(1215, 9), 210)
+		break
+	case 15:
+		if_setgraphic(if_gethash(1215, 9), 211)
+		break
+	case 16:
+		if_setgraphic(if_gethash(1215, 9), 212)
+		break
+	case 17:
+		if_setgraphic(if_gethash(1215, 9), 213)
+		break
+	case 18:
+		if_setgraphic(if_gethash(1215, 9), 214)
+		break
+	case 8:
+		if_setgraphic(if_gethash(1215, 9), 204)
+		break
+	case 9:
+		if_setgraphic(if_gethash(1215, 9), 205)
+		break
+	case 10:
+		if_setgraphic(if_gethash(1215, 9), 206)
+		break
+	case 19:
+		if_setgraphic(if_gethash(1215, 9), 208)
+		break
+	case 20:
+		if_setgraphic(if_gethash(1215, 9), 216)
+		break
+	case 21:
+		if_setgraphic(if_gethash(1215, 9), 217)
+		break
+	case 22:
+		if_setgraphic(if_gethash(1215, 9), 221)
+		break
+	case 23:
+		if_setgraphic(if_gethash(1215, 9), 220)
+		break
+	case 24:
+		if_setgraphic(if_gethash(1215, 9), 222)
+		break
+	case 25:
+		if_setgraphic(if_gethash(1215, 9), 3028)
+		break
+	case 30:
+		if_setgraphic(if_gethash(1215, 9), 1817)
+		if_setposition(if_gethash(1215, 9), 0, 2, if_gety(if_gethash(1215, 9)), 4)
+		if_setsize(if_gethash(1215, 9), 0, 0, 22, 22)
+		break
+	case 31:
+		if_setgraphic(if_gethash(1215, 9), 1818)
+		if_setposition(if_gethash(1215, 9), 0, 2, if_gety(if_gethash(1215, 9)), 4)
+		if_setsize(if_gethash(1215, 9), 0, 0, 22, 22)
+		if_setgraphic(if_gethash(1215, 9), -1)
+		break
+
+}
+return

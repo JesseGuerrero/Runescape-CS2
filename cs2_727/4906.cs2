@@ -1,0 +1,218 @@
+//script4906(4906)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+iVar1 = -1
+iVar2 = -1
+iVar3 = 0
+iVar4 = script_4968(arg0)
+iVar5 = -1
+iVar6 = -1
+iVar7 = 1
+if(load_varc(1794) == 1)
+	iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = -1
+if(clan_vars_enabled() == 1) {
+	if(load_varc(1794) == 0) {
+		iVar1 = script_5116(load_clan_varbit(2598), load_clan_varbit(2580))
+		iVar2 = script_5117(load_clan_varbit(2598), load_clan_varbit(2580))
+	} else  {
+		iVar1 = script_5116(load_clan_varbit(2074), load_clan_varbit(2580))
+		iVar2 = script_5117(load_clan_varbit(2074), load_clan_varbit(2580))
+	}
+	if(iVar1 == -1)
+		return
+	if(iVar2 == -1)
+		return
+	iVar8 = script_4978(arg0)
+	if(iVar8 < 4)
+		iVar8 = arg0
+	if(iVar7 == 1)
+		iVar9 = arg0
+	else
+		iVar9 = iVar8
+	switch(iVar9) {
+		case default:
+			break
+		case 4:
+			iVar5 = struct_param(1655, iVar1)
+			iVar6 = struct_param(1656, iVar1)
+			break
+		case 5:
+			iVar5 = struct_param(1661, iVar1)
+			iVar6 = struct_param(1662, iVar1)
+			break
+		case 6:
+			iVar5 = struct_param(1667, iVar1)
+			iVar6 = struct_param(1668, iVar1)
+			break
+		case 7:
+			iVar5 = struct_param(1673, iVar1)
+			iVar6 = struct_param(1674, iVar1)
+			break
+		case 8:
+			iVar5 = struct_param(1679, iVar1)
+			iVar6 = struct_param(1680, iVar1)
+			break
+		case 9:
+			iVar5 = struct_param(1685, iVar1)
+			iVar6 = struct_param(1686, iVar1)
+			break
+		case 10:
+			iVar5 = struct_param(1691, iVar1)
+			iVar6 = struct_param(1692, iVar1)
+			break
+		case 11:
+			iVar5 = struct_param(1697, iVar1)
+			iVar6 = struct_param(1698, iVar1)
+			break
+		case 12:
+			iVar5 = struct_param(1703, iVar1)
+			iVar6 = struct_param(1704, iVar1)
+			break
+		case 13:
+			iVar5 = struct_param(1709, iVar1)
+			iVar6 = struct_param(1710, iVar1)
+			break
+		case 14:
+			iVar5 = struct_param(1715, iVar1)
+			iVar6 = struct_param(1716, iVar1)
+			break
+		case 15:
+			iVar5 = struct_param(1721, iVar1)
+			iVar6 = struct_param(1722, iVar1)
+			break
+		case 3:
+			iVar5 = struct_param(1649, iVar1)
+			iVar6 = struct_param(1650, iVar1)
+			break
+		case 2:
+			iVar5 = struct_param(1627, iVar1) + 14
+			iVar6 = struct_param(1628, iVar1)
+			break
+		case 1:
+			iVar5 = struct_param(1627, iVar1) - 14
+			iVar6 = struct_param(1628, iVar1)
+			break
+		case 16:
+			iVar3 = struct_param(1723, iVar2)
+			break
+		case 17:
+			iVar3 = struct_param(1726, iVar2)
+			break
+		case 18:
+			iVar3 = struct_param(1729, iVar2)
+			break
+		case 19:
+			iVar3 = struct_param(1732, iVar2)
+			break
+		case 20:
+			iVar3 = struct_param(1735, iVar2)
+			break
+		case 21:
+			iVar3 = struct_param(1738, iVar2)
+			break
+		case 22:
+			iVar3 = struct_param(1741, iVar2)
+			break
+		case 23:
+			iVar3 = struct_param(1744, iVar2)
+			break
+		case 24:
+			iVar3 = struct_param(1747, iVar2)
+			break
+		case 25:
+			iVar3 = struct_param(1750, iVar2)
+			break
+		case 26:
+			iVar3 = struct_param(1753, iVar2)
+			break
+		case 27:
+			iVar3 = struct_param(1756, iVar2)
+			break
+		case 28:
+			iVar3 = struct_param(1759, iVar2)
+			break
+		case 29:
+			iVar3 = struct_param(1762, iVar2)
+			break
+		case 30:
+			iVar3 = struct_param(1765, iVar2)
+			break
+		case 31:
+			iVar3 = struct_param(1768, iVar2)
+			break
+		case 32:
+			iVar3 = struct_param(1771, iVar2)
+			break
+		case 33:
+			iVar3 = struct_param(1772, iVar2)
+			break
+		case 34:
+			iVar3 = struct_param(1775, iVar2)
+			break
+		case 35:
+			iVar3 = struct_param(1778, iVar2)
+			break
+		case 36:
+			iVar3 = struct_param(1779, iVar2)
+			break
+		case 37:
+			iVar3 = struct_param(1780, iVar2)
+			break
+		case 38:
+			iVar3 = struct_param(1781, iVar2)
+			break
+		case 39:
+			iVar3 = struct_param(1782, iVar2)
+			break
+		case 40:
+			iVar3 = struct_param(1783, iVar2)
+			break
+		case 41:
+			iVar3 = struct_param(1784, iVar2)
+			break
+		case 42:
+			iVar3 = struct_param(1785, iVar2)
+			break
+		case 43:
+			iVar3 = struct_param(1786, iVar2)
+			break
+		case 44:
+			iVar3 = struct_param(1787, iVar2)
+			break
+		case 45:
+			iVar3 = struct_param(1788, iVar2)
+			break
+		case 46:
+			iVar3 = struct_param(1789, iVar2)
+			break
+		case 47:
+			iVar3 = struct_param(1790, iVar2)
+			break
+		case 48:
+			iVar3 = struct_param(1791, iVar2)
+			break
+
+	}
+	if(iVar3 != 0)
+		if(iVar3 != -1) {
+			iVar5 = script_4909(iVar3).get(0)
+			iVar5 = iVar5 + 14
+			iVar6 = iVar6 + 3
+		}
+	if_setposition(iVar4, 0, 0, iVar6, iVar5)
+	iVar10 = script_5213(arg0)
+	if(iVar10 != -1)
+		if_setposition(iVar10, 0, 0, iVar6, iVar5)
+}
+return

@@ -1,0 +1,8 @@
+void script_432(Widget widget0) {
+	script_31(widget(76, 16), widget(76, 15), 792, 789, 790, 791, 773, 788);
+	script_31(widget(76, 22), widget(76, 21), 792, 789, 790, 791, 773, 788);
+	widget0.hookFriendList(&script_434());
+	widget0.hookClanList(&script_434());
+	script_435();
+	return;
+}

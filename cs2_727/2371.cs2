@@ -1,0 +1,6 @@
+//script2371(2371)()(void)
+if(load_varpbit(4894) == 1)
+	if_sethide(if_gethash(667, 46), 0)
+else
+	if_sethide(if_gethash(667, 46), 1)
+return

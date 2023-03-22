@@ -1,0 +1,4 @@
+//script85(85)(int arg0)(void)
+if_settext(arg0, "")
+instr6220(arg0)
+return

@@ -1,0 +1,7 @@
+void script_124(int arg0) {
+	playSoundEffect(2266, 1, 0);
+	widget(76, 17).setIsHidden(true);
+	VARC[64] = arg0;
+	script_435();
+	return;
+}

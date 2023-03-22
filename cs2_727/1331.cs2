@@ -1,0 +1,47 @@
+//script1331(1331)(int arg0)(void)
+int iVar1
+iVar1 = 1777
+if(load_varpbit(6090) == 2) {
+	if_setgraphic(arg0, 7435)
+	hook_mouse_enter(arg0, script_5115, "Ii", -2147483645, 1)
+	hook_mouse_exit(arg0, script_5115, "Ii", -2147483645, 0)
+	instr6220(arg0)
+	instr6213(arg0, 1, "Citadel Interface")
+} else 
+	if(load_varpbit(6090) == 1) {
+		if(instr6644() >= 2)
+			iVar1 = 8663
+		else
+			iVar1 = 3047
+		hook_mouse_enter(arg0, script_44, "Id", -2147483645, iVar1)
+		if(instr6644() >= 2)
+			iVar1 = 8662
+		else
+			iVar1 = 3046
+		if_setgraphic(arg0, iVar1)
+		hook_mouse_exit(arg0, script_44, "Id", -2147483645, iVar1)
+		instr6220(arg0)
+		if(load_varpbit(10304) > 0)
+			instr6213(arg0, 1, "Factory Layout")
+		else
+			instr6213(arg0, 1, "Daemonheim Map")
+	} else  {
+		if(instr6644() >= 2) {
+			iVar1 = 8660
+			if_setgraphic(arg0, iVar1)
+			hook_mouse_exit(arg0, script_44, "Id", -2147483645, iVar1)
+			iVar1 = 8661
+			hook_mouse_enter(arg0, script_44, "Id", -2147483645, iVar1)
+		} else  {
+			if_setgraphic(arg0, 1776)
+			hook_mouse_enter(arg0, script_44, "Id", -2147483645, iVar1)
+			iVar1 = 1776
+			hook_mouse_exit(arg0, script_44, "Id", -2147483645, iVar1)
+		}
+		instr6220(arg0)
+		instr6213(arg0, 1, "World Map")
+		if(load_varp(1159) != -1)
+			if(load_varp(1159) != 0)
+				instr6213(arg0, 2, "Clear your marker")
+	}
+return

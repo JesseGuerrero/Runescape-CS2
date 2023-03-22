@@ -1,0 +1,13 @@
+void script_1502(Widget widget0, int arg1, int arg2) {
+	if (getClientCycle() < arg2) {
+		return;
+	}
+	if (VARC[5] == 7) {
+		widget0.hookFrame(&script_1502(widget0, arg1, getClientCycle() + 100));
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		script_1500(widget0);
+	}
+	return;
+}

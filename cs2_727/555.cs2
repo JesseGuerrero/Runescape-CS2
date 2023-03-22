@@ -1,0 +1,12 @@
+//script555(555)()(void)
+int iVar0
+iVar0 = (15 - load_varpbit(4109)) * 6
+if_setposition(if_gethash(624, 15), 0, 0, iVar0, 0)
+if_settext(if_gethash(624, 70), to_string(load_varpbit(4109)))
+iVar0 = (15 - load_varpbit(4110)) * 6
+if_setposition(if_gethash(624, 17), 0, 0, iVar0, 0)
+if_settext(if_gethash(624, 71), to_string(load_varpbit(4110)))
+iVar0 = (15 - load_varpbit(4111)) * 6
+if_setposition(if_gethash(624, 19), 0, 0, iVar0, 0)
+if_settext(if_gethash(624, 72), to_string(load_varpbit(4111)))
+return

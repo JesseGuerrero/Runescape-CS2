@@ -1,0 +1,10 @@
+//script2638(2638)()(void)
+if(load_varc(903) == 0) {
+	if_setgraphic(if_gethash(859, 26), 2023)
+	if_settext(if_gethash(859, 10), "Light")
+} else 
+	if(load_varc(903) == 1) {
+		if_setgraphic(if_gethash(859, 26), 2022)
+		if_settext(if_gethash(859, 10), "Heavy")
+	}
+return

@@ -1,0 +1,6 @@
+//script4711(4711)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(if_gethide(arg1) == 1)
+	script_4712(arg0, arg1, arg2, arg3, arg4)
+else
+	script_4714(arg0, arg1, arg2, arg3, arg4)
+return

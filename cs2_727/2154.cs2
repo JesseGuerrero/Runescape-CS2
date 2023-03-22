@@ -1,0 +1,5 @@
+//script2154(2154)(int arg0)(int)
+int iVar1
+iVar1 = enum(2252, arg0, 'i', 'J')
+return script_2155(iVar1)
+return -1

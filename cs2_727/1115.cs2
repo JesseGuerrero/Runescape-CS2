@@ -1,0 +1,18 @@
+//script1115(1115)()(int)
+int iVar0
+iVar0 = 0
+iVar0 = iVar0 + load_varpbit(4028)
+iVar0 = iVar0 + load_varpbit(4027)
+iVar0 = iVar0 + load_varpbit(4029)
+iVar0 = iVar0 + load_varpbit(4030)
+iVar0 = iVar0 + load_varpbit(4031)
+iVar0 = iVar0 + load_varpbit(4032)
+iVar0 = iVar0 + load_varpbit(4033)
+iVar0 = iVar0 + load_varpbit(4034)
+iVar0 = iVar0 + load_varpbit(4035)
+iVar0 = iVar0 + load_varpbit(4036)
+iVar0 = iVar0 + load_varpbit(4037)
+iVar0 = iVar0 + load_varpbit(4038)
+iVar0 = iVar0 + load_varpbit(4039)
+return iVar0
+return 0

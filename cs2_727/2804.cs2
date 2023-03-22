@@ -1,0 +1,5 @@
+//script2804(2804)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if_setcolor(arg0, arg5)
+if_settrans(arg0, arg4)
+instr6342(arg0, script_2805, "Iiiii", arg0, 0 - arg2, arg1, arg3, arg4)
+return

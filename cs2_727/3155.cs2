@@ -1,0 +1,7 @@
+//script3155(3155)(int arg0)(void)
+script_2994(arg0, 0, 16, 16, 0, 0, 1547, 0, 0, 0, 0)
+instr6091(script_3156, "I", arg0)
+instr6092(script_3157, "I", arg0)
+script_2994(arg0, 1, 16, 16, 0, 0, 1548, 0, 0, 0, 0)
+cc_sethide(1)
+return

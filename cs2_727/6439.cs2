@@ -1,0 +1,4 @@
+//script6439(6439)()(void)
+store_varc(1968, modulo(2, max(load_varc(1968), 0) + 1))
+script_6443(0, 0, 1)
+return

@@ -1,0 +1,13 @@
+//script3453(3453)()(void)
+if(load_varc(1281) == 8)
+	return
+if(load_varc(1074) == 0)
+	script_3454(load_varc(1281) + 1, load_varc(1070), load_varc(1069), script_2865(load_varc(1070), load_varc(1071)), load_varc(1073))
+else
+	if(load_varc(1074) == 1)
+		script_3454(load_varc(1281) + 1, load_varc(1070), load_varc(1069), load_varc(1072), 50)
+	else
+		return
+store_varc(1281, load_varc(1281) + 1)
+if_settext(if_gethash(475, 78), to_string(load_varc(1281)))
+return

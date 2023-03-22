@@ -1,0 +1,4 @@
+//script3106(3106)(int arg0)(void)
+if_setcolor(arg0, 0xFAFAFA)
+return
+return

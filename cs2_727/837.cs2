@@ -1,0 +1,113 @@
+//script837(837)(int arg0)(int)
+switch(arg0 / 32) {
+	case default:
+		break
+	case 0:
+		return bit_flagged(arg0 & 31, load_varp(20))
+
+	case 1:
+		return bit_flagged(arg0 & 31, load_varp(21))
+
+	case 2:
+		return bit_flagged(arg0 & 31, load_varp(22))
+
+	case 3:
+		return bit_flagged(arg0 & 31, load_varp(23))
+
+	case 4:
+		return bit_flagged(arg0 & 31, load_varp(24))
+
+	case 5:
+		return bit_flagged(arg0 & 31, load_varp(25))
+
+	case 6:
+		return bit_flagged(arg0 & 31, load_varp(298))
+
+	case 7:
+		return bit_flagged(arg0 & 31, load_varp(311))
+
+	case 8:
+		return bit_flagged(arg0 & 31, load_varp(346))
+
+	case 9:
+		return bit_flagged(arg0 & 31, load_varp(414))
+
+	case 10:
+		return bit_flagged(arg0 & 31, load_varp(464))
+
+	case 11:
+		return bit_flagged(arg0 & 31, load_varp(598))
+
+	case 12:
+		return bit_flagged(arg0 & 31, load_varp(662))
+
+	case 13:
+		return bit_flagged(arg0 & 31, load_varp(721))
+
+	case 14:
+		return bit_flagged(arg0 & 31, load_varp(906))
+
+	case 15:
+		return bit_flagged(arg0 & 31, load_varp(1009))
+
+	case 16:
+		return bit_flagged(arg0 & 31, load_varp(1104))
+
+	case 17:
+		return bit_flagged(arg0 & 31, load_varp(1136))
+
+	case 18:
+		return bit_flagged(arg0 & 31, load_varp(1180))
+
+	case 19:
+		return bit_flagged(arg0 & 31, load_varp(1202))
+
+	case 20:
+		return bit_flagged(arg0 & 31, load_varp(1381))
+
+	case 21:
+		return bit_flagged(arg0 & 31, load_varp(1394))
+
+	case 22:
+		return bit_flagged(arg0 & 31, load_varp(1434))
+
+	case 23:
+		return bit_flagged(arg0 & 31, load_varp(1596))
+
+	case 24:
+		return bit_flagged(arg0 & 31, load_varp(1618))
+
+	case 25:
+		return bit_flagged(arg0 & 31, load_varp(1619))
+
+	case 26:
+		return bit_flagged(arg0 & 31, load_varp(1620))
+
+	case 27:
+		return 1
+
+	case 28:
+		return bit_flagged(arg0 & 31, load_varp(1864))
+
+	case 29:
+		return bit_flagged(arg0 & 31, load_varp(1865))
+
+	case 30:
+		return bit_flagged(arg0 & 31, load_varp(2019))
+
+	case 31:
+		return bit_flagged(arg0 & 31, load_varp(2246))
+
+	case 32:
+		return bit_flagged(arg0 & 31, load_varp(2430))
+
+	case 33:
+		return bit_flagged(arg0 & 31, load_varp(2559))
+
+	case 34:
+		return bit_flagged(arg0 & 31, load_varp(2632))
+
+
+}
+return -1
+return 0

@@ -1,0 +1,10 @@
+//script4659(4659)(int arg0)(void)
+int iVar1
+iVar1 = load_varp(2202) / 3
+script_4542(iVar1, 1441856, 1441861)
+if_settext(arg0, to_string(load_varp(2202)))
+if(load_varp(2202) <= 100)
+	if_setmodelanim(if_gethash(22, 70), 9777)
+else
+	if_setmodelanim(if_gethash(22, 70), 9804)
+return

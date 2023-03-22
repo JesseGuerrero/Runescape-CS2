@@ -1,0 +1,4 @@
+void script_718(Widget widget0, Item item1, int arg2) {
+	widget0.setItem(item1, arg2);
+	return;
+}

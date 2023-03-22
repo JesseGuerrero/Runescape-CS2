@@ -1,0 +1,24 @@
+//script1190(1190)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+while(iVar0 < inv_size(if_gethash(0, 482))) {
+	cc_create(iVar0, 5, 31260698)
+	cc_setsize(0, 0, 32, 36)
+	iVar1 = script_1425(iVar0)
+	iVar2 = script_1426(iVar0)
+	cc_setposition(0, 0, iVar2, iVar1)
+	if(inv_getitem(iVar0, 482) != -1) {
+		cc_setitem(inv_getnum(iVar0, 482), inv_getitem(iVar0, 482))
+		cc_setopbase(item_name(inv_getitem(iVar0, 482)))
+		cc_setop("Value", 1)
+		cc_setop("Buy 1", 2)
+		cc_setop("Buy 5", 3)
+		cc_setop("Buy 10", 4)
+	}
+	iVar0 = iVar0 + 1
+}
+return

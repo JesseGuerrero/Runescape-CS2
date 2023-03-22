@@ -1,0 +1,6 @@
+//script543(543)(int arg0)(int)
+if(arg0 == 0)
+	return 1
+else
+	return 0
+return 0

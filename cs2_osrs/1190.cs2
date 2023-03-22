@@ -1,0 +1,12 @@
+void script_1190(Widget widget0, Widget widget1) {
+	script_31(widget1, widget0, 792, 789, 790, 791, 773, 788);
+	if (CHILD.setChild(widget1, 1) == true) {
+		if (VARC[80] < 0 || VARC[80] >= getScrollMaxV(widget0)) {
+			VARC[80] = 0;
+		}
+		script_37(widget1, widget0, VARC[80], 1);
+	} else {
+		VARC[80] = 0;
+	}
+	return;
+}

@@ -1,0 +1,42 @@
+//script502(502)(int arg0, int arg1)(void)
+if(arg0 == 66650268)
+	if(load_varpbit(7520) == 0)
+		return
+if(arg0 == 66650269)
+	if(load_varpbit(7521) == 0)
+		return
+if(arg0 == 66650270)
+	if(load_varpbit(7526) == 0)
+		return
+if(arg0 == 66650271)
+	if(load_varpbit(7527) == 0)
+		return
+if(arg0 == 66650272)
+	if(load_varpbit(7530) == 0)
+		return
+if(arg0 == 66650273)
+	if(load_varpbit(7531) == 0)
+		return
+if(arg0 == 66650274)
+	if(load_varpbit(7532) == 0)
+		return
+if(arg0 == 66650275)
+	if(load_varpbit(7533) == 0)
+		return
+if(arg0 == 66650276)
+	if(load_varpbit(7534) == 0)
+		return
+if(arg0 == 66650277)
+	if(load_varpbit(7535) == 0)
+		return
+switch(arg1) {
+	case default:
+		return
+
+	case 66650337:
+		if_sethide(arg0, 1)
+		store_varc(1387, 1)
+		break
+
+}
+return

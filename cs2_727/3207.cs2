@@ -1,0 +1,25 @@
+//script3207(3207)(int arg0)(void)
+int iVar1
+script_3205()
+iVar1 = 0
+if(if_gethide(enum(941, 5, 'i', 'I')) == 0)
+	iVar1 = 1
+if(arg0 == 1)
+	if(string_length(load_varc_string(279)) > 0)
+		if(friend_test(load_varc_string(279)) == 1)
+			if(iVar1 == 0)
+				mes_typed(0, 26, "Sorry, you cannot ignore players in your Friends List.")
+			else
+				mes_typed(0, 26, "Sorry, you cannot ignore players in your Friends List.")
+		else {
+			ignore_add_temp(load_varc_string(279))
+			if(iVar1 == 0)
+				mes_typed(0, 26, "You are ignoring " + load_varc_string(279) + " until you log out.")
+			else
+				mes_typed(0, 26, "You are ignoring " + load_varc_string(279) + " until you log out.")
+		}
+if(load_varc(1094) == 1) {
+	script_3015(6, "", "Open a bug report form?" + "<br>" + "(opens a new window)", "", "")
+	store_varc(1094, 0)
+}
+return

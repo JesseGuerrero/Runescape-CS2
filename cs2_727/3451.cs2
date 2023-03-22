@@ -1,0 +1,29 @@
+//script3451(3451)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar2 = 64094244
+iVar3 = 64094245
+iVar4 = 64094246
+iVar5 = 64094247
+iVar6 = 64094248
+iVar7 = 64094209
+if(arg1 == 1) {
+	iVar2 = 64028682
+	iVar3 = 64028683
+	iVar4 = 64028684
+	iVar5 = 64028685
+	iVar6 = 64028686
+}
+script_3932(arg0, arg1, iVar2, 1, stringwidth(3793, "MIN") + 30, "MIN", "")
+script_3932(arg0, arg1, iVar3, 2, stringwidth(3793, "LOW") + 30, "LOW", "")
+script_3932(arg0, arg1, iVar4, 3, stringwidth(3793, "MID") + 30, "MID", "")
+script_3932(arg0, arg1, iVar5, 4, stringwidth(3793, "HIGH") + 30, "HIGH", "")
+script_3932(arg0, arg1, iVar6, 0, stringwidth(3793, "CUSTOM") + 30, "CUSTOM", "")
+if(arg1 == 0)
+	script_3932(arg0, arg1, iVar7, -1, stringwidth(3793, "RE-RUN AUTO SETUP") + 30, "RE-RUN AUTO SETUP", "")
+return
+return

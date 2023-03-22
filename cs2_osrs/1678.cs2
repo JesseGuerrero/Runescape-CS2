@@ -1,0 +1,8 @@
+void script_1678(Widget widget0) {
+	script_1682(widget0, 0);
+	widget0.hookMouseHover(&script_1681(CTX_WIDGET, true));
+	widget0.hookMouseExit(&script_1681(CTX_WIDGET, false));
+	widget0.hookOptionClick(&script_1679(CTX_MENU_OPTION, CTX_WIDGET));
+	widget0.hookFrame(null);
+	return;
+}

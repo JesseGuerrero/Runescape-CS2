@@ -1,0 +1,11 @@
+string script_1029(int arg0) {
+	string str0;
+	if (arg0 < 0) {
+		return "";
+	}
+	if (arg0 <= 0) {
+		return str(0);
+	}
+	str0 = ",";
+	return script_46(arg0, str0) + str0 + "000";
+}

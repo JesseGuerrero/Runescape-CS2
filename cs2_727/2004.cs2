@@ -1,0 +1,12 @@
+//script2004(2004)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = instr6783()
+if(iVar2 == 0)
+	if(load_varc(1394) > 0)
+		if(load_varc(1394) <= 255)
+			instr6629(load_varc(1394))
+		else
+			if(iVar2 > 0)
+				instr6629(0)
+script_2007(arg0, arg1, 0, 1)
+return

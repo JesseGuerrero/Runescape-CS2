@@ -1,0 +1,5 @@
+//script4014(4014)(int arg0, int arg1)(void)
+if(cc_find(arg0, if_gethash(917, 67)) == 1)
+	cc_setgraphic(arg1)
+script_41(60096623)
+return

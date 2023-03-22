@@ -1,0 +1,9 @@
+//script2056(2056)()(void)
+int iVar0
+iVar0 = 20054023
+store_varc(762, enum(208, random(enum_getoutputcount(208)), 'i', 'm'))
+if(load_varc(762) != -1)
+	if_setmodel(iVar0, load_varc(762))
+if_setposition(iVar0, 0, 0, 120, 0 - if_getwidth(iVar0))
+instr6342(if_gethash(306, 20), None, "")
+return

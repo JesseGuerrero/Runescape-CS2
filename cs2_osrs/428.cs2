@@ -1,0 +1,13 @@
+void script_428(Item item0, Widget widget1, Widget widget2, Widget widget3, int arg4) {
+	if (arg4 == 1) {
+		widget1.hookContainer(&script_428(item0, CTX_WIDGET, widget2, widget3, false), 93);
+	}
+	if (getItemAmtInContainer(93, item0) > 0) {
+		widget3.setIsHidden(false);
+		widget2.setIsHidden(true);
+	} else {
+		widget3.setIsHidden(true);
+		widget2.setIsHidden(false);
+	}
+	return;
+}

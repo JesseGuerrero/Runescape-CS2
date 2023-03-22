@@ -1,0 +1,8 @@
+//script5532(5532)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = if_getscrollx(if_gethash(1179, 10))
+if_setscrollpos(if_gethash(1179, 10), 0, if_getscrollx(if_gethash(1179, 10)) + arg2)
+if(iVar3 != if_getscrollx(if_gethash(1179, 10)))
+	if_setgraphic(arg0, arg1)
+script_5533()
+return

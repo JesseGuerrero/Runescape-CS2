@@ -1,0 +1,9 @@
+//script284(284)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = coordx(arg0)
+iVar2 = coordz(arg0)
+iVar1 = iVar1 - modulo(64, iVar1)
+iVar2 = iVar2 - modulo(64, iVar2)
+return movecoord(iVar2, 0, iVar1, 0)
+return -1

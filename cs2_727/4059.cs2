@@ -1,0 +1,12 @@
+//script4059(4059)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 5
+if(if_gety(arg0) >= 0) {
+	if_setposition(arg0, 0, 1, 0, 0)
+	store_varc(1432, 0)
+	instr6213(if_gethash(1058, 2), 1, "Select")
+	instr6213(if_gethash(1058, 3), 1, "Select")
+	instr6342(arg1, None, "")
+} else 
+	if_setposition(arg0, 0, 1, if_gety(arg0) + iVar2, 0)
+return

@@ -1,0 +1,14 @@
+int script_708() {
+	int int0;
+	Container container1;
+	int0 = 0;
+	container1 = datamap('i', 'v', 150, int0);
+	while (container1 != null) {
+		if (getItemAmtInSlot(container1, 0) > 0 || getItemAmtInSlot(container1, 1) > 0) {
+			return 1;
+		}
+		int0 = int0 + 1;
+		container1 = datamap('i', 'v', 150, int0);
+	}
+	return 0;
+}

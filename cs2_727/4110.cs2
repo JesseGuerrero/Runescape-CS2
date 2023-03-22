@@ -1,0 +1,26 @@
+//script4110(4110)()(void)
+switch(load_varp(1108)) {
+	case default:
+		if_sethide(if_gethash(106, 126), 0)
+		if_sethide(if_gethash(106, 131), 1)
+		if_sethide(if_gethash(106, 140), 1)
+		script_670()
+		if_settext(if_gethash(106, 124), "First, you will see a selection of boxes. You can make several offers simultaneously, one in each box.")
+		break
+	case 2:
+		if_sethide(if_gethash(106, 126), 1)
+		if_sethide(if_gethash(106, 131), 0)
+		if_sethide(if_gethash(106, 140), 1)
+		script_671()
+		if_settext(if_gethash(106, 124), "Each box has two buttons. One button is for offering to buy items, the other is for offering to sell items.")
+		break
+	case 5:
+		if_sethide(if_gethash(106, 126), 1)
+		if_sethide(if_gethash(106, 131), 1)
+		if_sethide(if_gethash(106, 140), 0)
+		script_672()
+		if_settext(if_gethash(106, 124), "Now the offer is placed! You can return to the Grand Exchange at any time to check on the progress of your offers.")
+		break
+
+}
+return

@@ -1,0 +1,24 @@
+//script5941(5941)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = -1
+iVar2 = script_5939(arg0)
+switch(iVar2) {
+	case default:
+		break
+	case 0:
+		iVar1 = 9868
+		break
+	case 1:
+		iVar1 = 9869
+		break
+	case 2:
+		iVar1 = 9870
+		break
+	case 3:
+		iVar1 = 9871
+		break
+
+}
+return iVar1
+return -1

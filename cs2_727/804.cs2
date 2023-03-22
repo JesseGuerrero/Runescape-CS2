@@ -1,0 +1,22 @@
+//script804(804)()(void)
+int iVar0
+if_setmodel(if_gethash(575, 3), enum(1696, load_varpbit(5146), 'i', 'm'))
+if_setmodel(if_gethash(575, 4), enum(1696, load_varpbit(5147), 'i', 'm'))
+if_setmodel(if_gethash(575, 5), enum(1696, load_varpbit(5148), 'i', 'm'))
+if_setmodel(if_gethash(575, 6), enum(1696, load_varpbit(5149), 'i', 'm'))
+if_setmodel(if_gethash(575, 7), enum(1696, load_varpbit(5150), 'i', 'm'))
+if_setmodel(if_gethash(575, 8), enum(1696, load_varpbit(5151), 'i', 'm'))
+if_setmodel(if_gethash(575, 9), enum(1696, load_varpbit(5152), 'i', 'm'))
+if_setmodel(if_gethash(575, 10), enum(1696, load_varpbit(5153), 'i', 'm'))
+if_setmodel(if_gethash(575, 11), enum(1696, load_varpbit(5154), 'i', 'm'))
+if_setmodel(if_gethash(575, 12), enum(1696, load_varpbit(5155), 'i', 'm'))
+if_setmodel(if_gethash(575, 13), enum(1696, load_varpbit(5156), 'i', 'm'))
+if_setmodel(if_gethash(575, 14), enum(1696, load_varpbit(5157), 'i', 'm'))
+if_setmodel(if_gethash(575, 15), enum(1696, load_varpbit(5158), 'i', 'm'))
+if_setmodel(if_gethash(575, 16), enum(1696, load_varpbit(5159), 'i', 'm'))
+iVar0 = 14
+while(iVar0 > 0) {
+	script_1421(iVar0)
+	iVar0 = iVar0 - 1
+}
+return

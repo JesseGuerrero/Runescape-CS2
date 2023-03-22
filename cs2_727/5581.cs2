@@ -1,0 +1,8 @@
+//script5581(5581)()(void)
+if_setsize(if_gethash(1193, 5), 0, 0, 30, 250)
+instr6342(if_gethash(1193, 11), script_5582, "II", if_gethash(1193, 11), if_gethash(1193, 3))
+instr6342(if_gethash(1193, 13), script_5582, "II", if_gethash(1193, 13), if_gethash(1193, 23))
+instr6342(if_gethash(1193, 14), script_5582, "II", if_gethash(1193, 14), if_gethash(1193, 28))
+instr6342(if_gethash(1193, 15), script_5582, "II", if_gethash(1193, 15), if_gethash(1193, 33))
+instr6248(if_gethash(1193, 4), script_5583, "iz", -2147483640, -2147483639)
+return

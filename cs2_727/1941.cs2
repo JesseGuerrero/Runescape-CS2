@@ -1,0 +1,33 @@
+//script1941(1941)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+iVar0 = ((load_varp(1332) + load_varp(1334)) + load_varp(1337)) + (2 * (load_varp(1333) - load_varp(1335)))
+if_settext(if_gethash(809, 17), "Score: " + to_string(iVar0))
+if(load_varc(556) == 0)
+	return
+iVar1 = load_varc(556) - client_clock()
+iVar2 = iVar1 / 3000
+iVar3 = modulo(60, iVar1 / 50)
+if(iVar2 < 0 || iVar3 < 0) {
+	if_settext(if_gethash(809, 15), "Game ending")
+	if_settextshadow(if_gethash(809, 15), 1)
+	script_1942()
+} else 
+	if(iVar2 == 0)
+		if(iVar3 == 0)
+			if_settext(if_gethash(809, 15), "Game ending")
+		else
+			if(iVar3 < 10)
+				if_settext(if_gethash(809, 15), to_string(iVar2) + ":0" + to_string(iVar3))
+			else
+				if_settext(if_gethash(809, 15), to_string(iVar2) + ":" + to_string(iVar3))
+if(iVar2 < 1) {
+	if_setcolor(53018639, 0xFF0000)
+	if_settextshadow(if_gethash(809, 15), 1)
+	script_1942()
+} else 
+	if(if_gethide(if_gethash(809, 18)) == 0)
+		if_sethide(if_gethash(809, 18), 1)
+return

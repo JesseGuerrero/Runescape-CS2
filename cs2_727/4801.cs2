@@ -1,0 +1,23 @@
+//script4801(4801)(int arg0)(void)
+switch(arg0) {
+	case default:
+		store_varc(1659, 0)
+		if_settext(if_gethash(1143, 31), "Price: Low-High")
+		break
+	case 1:
+		store_varc(1659, 1)
+		if_settext(if_gethash(1143, 31), "Price: High-Low")
+		break
+	case 2:
+		store_varc(1659, 2)
+		if_settext(if_gethash(1143, 31), "Name: A-Z")
+		break
+	case 3:
+		store_varc(1659, 3)
+		if_settext(if_gethash(1143, 31), "Name: Z-A")
+		break
+
+}
+if_sethide(if_gethash(1143, 26), 1)
+script_5350(load_varpbit(9487), 74907653)
+return

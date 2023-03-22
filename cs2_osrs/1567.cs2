@@ -1,0 +1,16 @@
+void script_1567(int arg0, Widget widget1, int arg2, string arg3) {
+	Color color3;
+	int int4;
+	color3 = 0xFFFFFF;
+	int4 = 235;
+	if (arg0 % 2 == 0) {
+		color3, int4 = 0, 255;
+	}
+	CHILD.setRGB(color3);
+	CHILD.setTrans(int4);
+	widget1.hookMouseHover(&script_1015(CTX_WIDGET, getChildId(), 16777215, 220));
+	widget1.hookMouseExit(&script_1015(CTX_WIDGET, getChildId(), color3, int4));
+	widget1.hookOptionClick(&script_1568(CTX_MENU_OPTION, CTX_WIDGET, getChildId(), color3, int4, 16777215, 220, arg2, arg3));
+	widget1.hookFrame(null);
+	return;
+}

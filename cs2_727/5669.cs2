@@ -1,0 +1,4 @@
+//script5669(5669)()(void)
+if_setcolor(79560765, 0xD8690F)
+if_settext(if_gethash(1214, 61), "<u=d8690f>" + removetags(if_gettext(if_gethash(1214, 61))))
+return

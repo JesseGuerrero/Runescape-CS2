@@ -1,0 +1,10 @@
+//script5293(5293)(int arg0, int arg1, int arg2)(void)
+if(arg0 != 1)
+	return
+sound_vorbis_volume(200, 0, 1, 6185)
+if(arg2 == 1)
+	store_varpbit(9896, arg1)
+else
+	store_varpbit(9887, arg1)
+script_5291()
+return

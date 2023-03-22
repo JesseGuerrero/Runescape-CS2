@@ -1,0 +1,46 @@
+void script_1571(int arg0, int arg1, int arg2, int arg3) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	string str0;
+	string str1;
+	int4 = (arg1 + arg2) / 2;
+	int5 = ARRAY0[int4];
+	ARRAY0[int4] = ARRAY0[arg2];
+	ARRAY0[arg2] = int5;
+	int6 = arg1;
+	int7 = arg1;
+	int8 = -1;
+	str0 = "";
+	str1 = "";
+	while (int7 < arg2) {
+		if (CHILD.setChild(datamap('i', 'I', 1537, ARRAY0[int7]), arg3) == true) {
+			str0 = removeTags(getText());
+		} else {
+			str0 = "";
+		}
+		if (CHILD.setChild(datamap('i', 'I', 1537, int5), arg3) == true) {
+			str1 = removeTags(getText());
+		} else {
+			str1 = "";
+		}
+		if (compare(str0, str1) <= 0) {
+			int8 = ARRAY0[int7];
+			ARRAY0[int7] = ARRAY0[int6];
+			ARRAY0[int6] = int8;
+			int6 = int6 + 1;
+		}
+		int7 = int7 + 1;
+	}
+	ARRAY0[arg2] = ARRAY0[int6];
+	ARRAY0[int6] = int5;
+	if (arg1 < int6 - 1) {
+		script_1571(0, arg1, int6 - 1, arg3);
+	}
+	if (int6 + 1 < arg2) {
+		script_1571(0, int6 + 1, arg2, arg3);
+	}
+	return;
+}

@@ -1,0 +1,16 @@
+//script6452(6452)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+if(arg2 >= arg3) {
+	instr6342(arg0, script_6449, "IIii", arg0, arg1, 0, arg4)
+	if(cc_find(0, arg1) == 1)
+		if(arg4 == 1)
+			cc_setmodelanim(12287)
+		else {
+			if(load_varc(779) != -1)
+				cc_setmodelanim(bas_getanim_ready(load_varc(779)))
+			else
+				cc_setmodelanim(bas_getanim_ready(1426))
+			instr6096(script_1517, "IiY", 1, 779, -2147483645, -2147483643)
+		}
+} else 
+	instr6342(arg0, script_6452, "IIiii", arg0, arg1, arg2 + 1, arg3, arg4)
+return

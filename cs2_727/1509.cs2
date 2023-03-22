@@ -1,0 +1,34 @@
+//script1509(1509)()(void)
+string sVar0
+cc_deleteall(if_gethash(729, 1))
+script_1088(47775745, 22)
+cc_deleteall(if_gethash(729, 11))
+pop_int()
+script_2647(47775755)
+cc_deleteall(if_gethash(729, 14))
+pop_int()
+script_1516(47775758, 380, 100)
+script_2647(47775758)
+cc_deleteall(if_gethash(729, 16))
+script_2647(47775760)
+store_varc(778, load_varpbit(6091))
+script_1513()
+instr6237(if_gethash(729, 1), script_1510, "Y", 1, 1057)
+instr6257(if_gethash(729, 1), script_1511, "Y", 6, 1010, 1011, 1012, 1013, 1016, 1017)
+instr6239(if_gethash(729, 6), script_1512, "ii", -2147483644, 0)
+instr6239(if_gethash(729, 7), script_1512, "ii", -2147483644, 1)
+instr6239(if_gethash(729, 8), script_1512, "ii", -2147483644, 2)
+instr6239(if_gethash(729, 9), script_1512, "ii", -2147483644, 3)
+sVar0 = "Choose a top"
+if_setonmouseover(if_gethash(729, 6), script_1160, "IiIsii", -2147483645, -1, if_gethash(729, 23), sVar0, 25, 512)
+hook_mouse_exit(if_gethash(729, 6), script_40, "I", if_gethash(729, 23))
+sVar0 = "Choose some sleeves"
+if_setonmouseover(if_gethash(729, 7), script_1160, "IiIsii", -2147483645, -1, if_gethash(729, 23), sVar0, 25, 512)
+hook_mouse_exit(if_gethash(729, 7), script_40, "I", if_gethash(729, 23))
+sVar0 = "Decorate your wrists"
+if_setonmouseover(if_gethash(729, 8), script_1160, "IiIsii", -2147483645, -1, if_gethash(729, 23), sVar0, 25, 512)
+hook_mouse_exit(if_gethash(729, 8), script_40, "I", if_gethash(729, 23))
+sVar0 = "Choose some leggings"
+if_setonmouseover(if_gethash(729, 9), script_1160, "IiIsii", -2147483645, -1, if_gethash(729, 23), sVar0, 25, 512)
+hook_mouse_exit(if_gethash(729, 9), script_40, "I", if_gethash(729, 23))
+return

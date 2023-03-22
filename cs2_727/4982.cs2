@@ -1,0 +1,254 @@
+//script4982(4982)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = arg2 - arg4
+iVar23 = max(0, iVar23)
+if(clan_vars_enabled() == 1) {
+	switch(arg2) {
+		case default:
+			break
+		case 0:
+			iVar17 = struct_param(1483, arg0)
+			iVar18 = struct_param(1490, arg0)
+			iVar19 = struct_param(1497, arg0)
+			iVar20 = struct_param(1504, arg0)
+			iVar21 = struct_param(1511, arg0)
+			iVar22 = struct_param(1518, arg0)
+			break
+		case 1:
+			iVar17 = struct_param(1484, arg0)
+			iVar18 = struct_param(1491, arg0)
+			iVar19 = struct_param(1498, arg0)
+			iVar20 = struct_param(1505, arg0)
+			iVar21 = struct_param(1512, arg0)
+			iVar22 = struct_param(1519, arg0)
+			break
+		case 2:
+			iVar17 = struct_param(1485, arg0)
+			iVar18 = struct_param(1492, arg0)
+			iVar19 = struct_param(1499, arg0)
+			iVar20 = struct_param(1506, arg0)
+			iVar21 = struct_param(1513, arg0)
+			iVar22 = struct_param(1520, arg0)
+			break
+		case 3:
+			iVar17 = struct_param(1486, arg0)
+			iVar18 = struct_param(1493, arg0)
+			iVar19 = struct_param(1500, arg0)
+			iVar20 = struct_param(1507, arg0)
+			iVar21 = struct_param(1514, arg0)
+			iVar22 = struct_param(1521, arg0)
+			break
+		case 4:
+			iVar17 = struct_param(1487, arg0)
+			iVar18 = struct_param(1494, arg0)
+			iVar19 = struct_param(1501, arg0)
+			iVar20 = struct_param(1508, arg0)
+			iVar21 = struct_param(1515, arg0)
+			iVar22 = struct_param(1522, arg0)
+			break
+		case 5:
+			iVar17 = struct_param(1488, arg0)
+			iVar18 = struct_param(1495, arg0)
+			iVar19 = struct_param(1502, arg0)
+			iVar20 = struct_param(1509, arg0)
+			iVar21 = struct_param(1516, arg0)
+			iVar22 = struct_param(1523, arg0)
+			break
+		case 6:
+			iVar17 = struct_param(1489, arg0)
+			iVar18 = struct_param(1496, arg0)
+			iVar19 = struct_param(1503, arg0)
+			iVar20 = struct_param(1510, arg0)
+			iVar21 = struct_param(1517, arg0)
+			iVar22 = struct_param(1524, arg0)
+			break
+
+	}
+	switch(arg2) {
+		case default:
+			break
+		case 1:
+			iVar5 = struct_param(1483, arg1)
+			iVar6 = struct_param(1490, arg1)
+			iVar7 = struct_param(1497, arg1)
+			iVar8 = struct_param(1504, arg1)
+			iVar9 = struct_param(1511, arg1)
+			iVar10 = struct_param(1518, arg1)
+			break
+		case 2:
+			iVar5 = struct_param(1484, arg1)
+			iVar6 = struct_param(1491, arg1)
+			iVar7 = struct_param(1498, arg1)
+			iVar8 = struct_param(1505, arg1)
+			iVar9 = struct_param(1512, arg1)
+			iVar10 = struct_param(1519, arg1)
+			break
+		case 3:
+			iVar5 = struct_param(1485, arg1)
+			iVar6 = struct_param(1492, arg1)
+			iVar7 = struct_param(1499, arg1)
+			iVar8 = struct_param(1506, arg1)
+			iVar9 = struct_param(1513, arg1)
+			iVar10 = struct_param(1520, arg1)
+			break
+		case 4:
+			iVar5 = struct_param(1486, arg1)
+			iVar6 = struct_param(1493, arg1)
+			iVar7 = struct_param(1500, arg1)
+			iVar8 = struct_param(1507, arg1)
+			iVar9 = struct_param(1514, arg1)
+			iVar10 = struct_param(1521, arg1)
+			break
+		case 5:
+			iVar5 = struct_param(1487, arg1)
+			iVar6 = struct_param(1494, arg1)
+			iVar7 = struct_param(1501, arg1)
+			iVar8 = struct_param(1508, arg1)
+			iVar9 = struct_param(1515, arg1)
+			iVar10 = struct_param(1522, arg1)
+			break
+		case 6:
+			iVar5 = struct_param(1488, arg1)
+			iVar6 = struct_param(1495, arg1)
+			iVar7 = struct_param(1502, arg1)
+			iVar8 = struct_param(1509, arg1)
+			iVar9 = struct_param(1516, arg1)
+			iVar10 = struct_param(1523, arg1)
+			break
+		case 7:
+			iVar5 = struct_param(1489, arg1)
+			iVar6 = struct_param(1496, arg1)
+			iVar7 = struct_param(1503, arg1)
+			iVar8 = struct_param(1510, arg1)
+			iVar9 = struct_param(1517, arg1)
+			iVar10 = struct_param(1524, arg1)
+			break
+
+	}
+	if(iVar23 > 0)
+		switch(iVar23) {
+			case default:
+				break
+			case 1:
+				iVar11 = struct_param(1483, arg1)
+				iVar12 = struct_param(1490, arg1)
+				iVar13 = struct_param(1497, arg1)
+				iVar14 = struct_param(1504, arg1)
+				iVar15 = struct_param(1511, arg1)
+				iVar16 = struct_param(1518, arg1)
+				break
+			case 2:
+				iVar11 = struct_param(1484, arg1)
+				iVar12 = struct_param(1491, arg1)
+				iVar13 = struct_param(1498, arg1)
+				iVar14 = struct_param(1505, arg1)
+				iVar15 = struct_param(1512, arg1)
+				iVar16 = struct_param(1519, arg1)
+				break
+			case 3:
+				iVar11 = struct_param(1485, arg1)
+				iVar12 = struct_param(1492, arg1)
+				iVar13 = struct_param(1499, arg1)
+				iVar14 = struct_param(1506, arg1)
+				iVar15 = struct_param(1513, arg1)
+				iVar16 = struct_param(1520, arg1)
+				break
+			case 4:
+				iVar11 = struct_param(1486, arg1)
+				iVar12 = struct_param(1493, arg1)
+				iVar13 = struct_param(1500, arg1)
+				iVar14 = struct_param(1507, arg1)
+				iVar15 = struct_param(1514, arg1)
+				iVar16 = struct_param(1521, arg1)
+				break
+			case 5:
+				iVar11 = struct_param(1487, arg1)
+				iVar12 = struct_param(1494, arg1)
+				iVar13 = struct_param(1501, arg1)
+				iVar14 = struct_param(1508, arg1)
+				iVar15 = struct_param(1515, arg1)
+				iVar16 = struct_param(1522, arg1)
+				break
+			case 6:
+				iVar11 = struct_param(1488, arg1)
+				iVar12 = struct_param(1495, arg1)
+				iVar13 = struct_param(1502, arg1)
+				iVar14 = struct_param(1509, arg1)
+				iVar15 = struct_param(1516, arg1)
+				iVar16 = struct_param(1523, arg1)
+				break
+
+		}
+	else {
+		iVar11 = 0
+		iVar12 = 0
+		iVar13 = 0
+		iVar14 = 0
+		iVar15 = 0
+		iVar16 = 0
+	}
+	if(arg3 == 1)
+		if(arg2 == 1) {
+			iVar5 = iVar5 * 2
+			iVar6 = iVar6 * 2
+			iVar7 = iVar7 * 2
+			iVar8 = iVar8 * 2
+			iVar9 = iVar9 * 2
+			iVar10 = iVar10 * 2
+		}
+	if_settext(if_gethash(1261, 58), to_string(iVar5))
+	if_settext(if_gethash(1261, 59), to_string(iVar6))
+	if_settext(if_gethash(1261, 60), to_string(iVar7))
+	if_settext(if_gethash(1261, 61), to_string(iVar8))
+	if_settext(if_gethash(1261, 62), to_string(iVar9))
+	if_settext(if_gethash(1261, 63), to_string(iVar10))
+	if_settext(if_gethash(1261, 66), to_string(iVar17))
+	if_settext(if_gethash(1261, 67), to_string(iVar18))
+	if_settext(if_gethash(1261, 68), to_string(iVar19))
+	if_settext(if_gethash(1261, 69), to_string(iVar20))
+	if_settext(if_gethash(1261, 70), to_string(iVar21))
+	if_settext(if_gethash(1261, 71), to_string(iVar22))
+	if_settext(if_gethash(1261, 73), to_string(iVar11))
+	if_settext(if_gethash(1261, 74), to_string(iVar12))
+	if_settext(if_gethash(1261, 75), to_string(iVar13))
+	if_settext(if_gethash(1261, 76), to_string(iVar14))
+	if_settext(if_gethash(1261, 77), to_string(iVar15))
+	if_settext(if_gethash(1261, 78), to_string(iVar16))
+}
+return

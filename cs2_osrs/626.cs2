@@ -1,0 +1,251 @@
+void script_626(int arg0, string string1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20, int arg21, int arg22, int arg23, int arg24, int arg25, int arg26, int arg27, int arg28, int arg29, int arg30, int arg31, int arg32, int arg33, int arg34, int arg35) {
+	int int35;
+	int int36;
+	int int37;
+	int int38;
+	int int39;
+	int int40;
+	int int41;
+	int int42;
+	int int43;
+	int int44;
+	int int45;
+	string str1;
+	string str2;
+	string str3;
+	int35 = widget(345, 11).getWidth();
+	int36 = int35 - 3 * 2;
+	int37 = VARC[43];
+	int38 = VARC[49];
+	CHILD.createChild(widget(345, 11), 3, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(0, int38, 0, 0);
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFilled(true);
+	CHILD.setTrans(225);
+	CHILD.createChild(widget(345, 11), 3, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(0, int38, 0, 0);
+	CHILD.setRGB(0x777775);
+	CHILD.setFilled(false);
+	CHILD.createChild(widget(345, 11), 3, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(1, int38 + 1, 0, 0);
+	CHILD.setRGB(0x474745);
+	CHILD.setFilled(false);
+	VARC[49] = VARC[49] + 3;
+	str1 = "";
+	str1, string1 = script_632(string1);
+	int39 = getLineCount(str1, int36, 494) * 10 + 2;
+	if (int39 < 15) {
+		int39 = 15;
+	}
+	CHILD.createChild(widget(345, 11), 4, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(3, VARC[49], 0, 0);
+	CHILD.setSize(int36, int39, 0, 0);
+	VARC[49] = VARC[49] + int39;
+	CHILD.setRGB(0xFF981F);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str1);
+	str1, string1 = script_632(string1);
+	int39 = getLineCount(str1, int36, 495) * 12 + 5;
+	CHILD.createChild(widget(345, 11), 4, VARC[43]);
+	VARC[43] = VARC[43] + 1;
+	CHILD.setPosition(3, VARC[49], 0, 0);
+	CHILD.setSize(int36, int39, 0, 0);
+	VARC[49] = VARC[49] + int39;
+	CHILD.setRGB(0xFFFFFF);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str1);
+	str2 = "";
+	str1, string1 = script_632(string1);
+	str2, string1 = script_632(string1);
+	script_611(str1, str2, widget(345, 11), int36, 3, 494, 494, 10, 2);
+	str3 = string1;
+	ARRAY0 = new int[40 + 1];
+	ARRAY0[0] = arg4;
+	ARRAY0[1] = arg5;
+	ARRAY0[2] = arg6;
+	ARRAY0[3] = arg7;
+	ARRAY0[4] = arg8;
+	ARRAY0[5] = arg9;
+	ARRAY0[6] = arg10;
+	ARRAY0[7] = arg11;
+	ARRAY0[8] = arg12;
+	ARRAY0[9] = arg13;
+	ARRAY0[10] = arg14;
+	ARRAY0[11] = arg15;
+	ARRAY0[12] = arg16;
+	ARRAY0[13] = arg17;
+	ARRAY0[14] = arg18;
+	ARRAY0[15] = arg19;
+	ARRAY0[16] = arg20;
+	ARRAY0[17] = arg21;
+	ARRAY0[18] = arg22;
+	ARRAY0[19] = arg23;
+	ARRAY0[20] = arg24;
+	ARRAY0[21] = arg25;
+	ARRAY0[22] = arg26;
+	ARRAY0[23] = arg27;
+	ARRAY0[24] = arg28;
+	ARRAY0[25] = arg29;
+	ARRAY0[26] = arg30;
+	ARRAY0[27] = arg31;
+	ARRAY0[28] = arg32;
+	ARRAY0[29] = arg33;
+	ARRAY0[30] = arg34;
+	ARRAY0[31] = arg35;
+	ARRAY0[38] = 0;
+	ARRAY0[39] = 100;
+	ARRAY0[40] = -1;
+	int40 = 0;
+	int41 = 0;
+	while (int41 < arg2) {
+		str1, string1 = script_632(string1);
+		ARRAY0[38] = getMaxLineWidth(str1, int36, 494);
+		if (ARRAY0[38] > ARRAY0[39]) {
+			ARRAY0[39] = ARRAY0[38];
+		}
+		if (arg0 == -1) {
+			if (compare(lower(str1), "skip question") == 0) {
+				ARRAY0[40] = int41;
+			} else {
+				int40 = int40 + ARRAY0[int41];
+			}
+		}
+		int41 = int41 + 1;
+	}
+	if (arg0 != -1) {
+		int40 = arg0;
+	}
+	if (int40 <= 0) {
+		int40 = 1;
+	}
+	ARRAY1 = new int[arg2];
+	int42 = 1000;
+	ARRAY0[32] = 2147483647;
+	ARRAY0[33] = -1;
+	ARRAY0[34] = -1;
+	ARRAY0[35] = -2147483648;
+	ARRAY0[36] = -1;
+	ARRAY0[37] = -1;
+	int41 = 0;
+	while (int41 < arg2) {
+		if (int41 != ARRAY0[40]) {
+			ARRAY1[int41] = mathMethod4006(0, ARRAY0[int41], 0, int40, 2000);
+			if (ARRAY1[int41] % 2 == 1 && (arg0 != -1 || arg2 != 3 || int41 != 0 || ARRAY1[int41] != 75 * 20 - 1)) {
+				ARRAY1[int41] = ARRAY1[int41] + 1;
+			}
+			ARRAY1[int41] = ARRAY1[int41] / 2;
+			if (ARRAY0[int41] > 0) {
+				if (arg0 == -1) {
+					int42 = int42 - ARRAY1[int41];
+					if (ARRAY0[int41] < ARRAY0[32]) {
+						ARRAY0[32] = ARRAY0[int41];
+						ARRAY0[33] = int41;
+						ARRAY0[34] = -1;
+					} else if (ARRAY0[int41] == ARRAY0[32]) {
+						ARRAY0[34] = int41;
+					}
+				}
+				if (ARRAY0[int41] > ARRAY0[35]) {
+					ARRAY0[35] = ARRAY0[int41];
+					ARRAY0[36] = int41;
+					ARRAY0[37] = -1;
+				} else if (ARRAY0[int41] == ARRAY0[35]) {
+					ARRAY0[37] = int41;
+				}
+			}
+		}
+		int41 = int41 + 1;
+	}
+	if (arg0 == -1 && int42 > 0 && ARRAY0[33] != -1 && ARRAY0[34] == -1) {
+		ARRAY1[ARRAY0[33]] = ARRAY1[ARRAY0[33]] + int42;
+	}
+	if (ARRAY0[37] != -1) {
+		ARRAY0[36] = -1;
+	}
+	if (ARRAY0[39] > 230) {
+		ARRAY0[39] = 230;
+	}
+	int43 = int35 - (3 + 95);
+	int44 = 3 + ARRAY0[39] + 5;
+	int45 = int43 - int44 - 5;
+	string1 = str3;
+	int41 = 0;
+	while (int41 < arg2) {
+		str1, string1 = script_632(string1);
+		if (int41 == 0) {
+			str2 = str1;
+		} else if (int41 == 1 && (arg2 == 2 || arg2 == 3 && ARRAY0[40] == 2) && arg0 == -1 && compare(lower(str2), "yes") == 0 && compare(lower(str1), "no") == 0 && ARRAY1[0] >= 75 * 10 && CHILD.setChild(widget(345, 11), int37) == true) {
+			CHILD.setRGB(0x00FF00);
+		}
+		int39 = getLineCount(str1, ARRAY0[39], 494) * 10 + 2;
+		if (int39 < 15) {
+			int39 = 15;
+		}
+		CHILD.createChild(widget(345, 11), 4, VARC[43]);
+		VARC[43] = VARC[43] + 1;
+		_CHILD.createChild(widget(345, 11), 4, VARC[43]);
+		VARC[43] = VARC[43] + 1;
+		CHILD.setPosition(3, VARC[49], 0, 0);
+		_CHILD.setPosition(int43, VARC[49], 0, 0);
+		CHILD.setSize(ARRAY0[39], int39, 0, 0);
+		_CHILD.setSize(95, int39, 0, 0);
+		if (isBitFlagged(arg3, int41) == true) {
+			CHILD.setRGB(0xFFFF7F);
+			_CHILD.setRGB(0xFFFF7F);
+		} else if (int41 == ARRAY0[40]) {
+			CHILD.setRGB(0xAFAFAF);
+			_CHILD.setRGB(0xAFAFAF);
+		} else if (int41 % 2 == 0) {
+			CHILD.setRGB(0xFFA82F);
+			_CHILD.setRGB(0xFFA82F);
+		} else {
+			CHILD.setRGB(0xFF981F);
+			_CHILD.setRGB(0xFF981F);
+		}
+		CHILD.setFont(494);
+		_CHILD.setFont(494);
+		CHILD.setTextAlignment(0, 1, 0);
+		_CHILD.setTextAlignment(1, 1, 0);
+		CHILD.setTextAntiMacro(true);
+		_CHILD.setTextAntiMacro(true);
+		CHILD.setText(str1);
+		str1 = ",";
+		if (int41 != ARRAY0[40]) {
+			_CHILD.setText(ARRAY1[int41] / 10 + "." + ARRAY1[int41] % 10 + "% (" + script_46(ARRAY0[int41], str1) + ")");
+			CHILD.createChild(widget(345, 11), 5, VARC[43]);
+			VARC[43] = VARC[43] + 1;
+			CHILD.setPosition(int44, VARC[49] + (int39 - 11) / 2, 0, 0);
+			CHILD.setSize(mathMethod4006(0, ARRAY0[int41], 0, int40, int45), 11, 0, 0);
+			if (int41 == ARRAY0[36]) {
+				CHILD.setSprite(897);
+			} else {
+				CHILD.setSprite(297);
+			}
+			CHILD.setSpriteTiling(true);
+		} else {
+			_CHILD.setText("(" + script_46(ARRAY0[int41], str1) + ")");
+		}
+		int41, VARC[49] = int41 + 1, VARC[49] + int39;
+	}
+	VARC[49] = VARC[49] + 3;
+	int39 = VARC[49] - int38;
+	if (CHILD.setChild(widget(345, 11), int37) == true) {
+		CHILD.setSize(int35, int39, 0, 0);
+	}
+	if (CHILD.setChild(widget(345, 11), int37 + 1) == true) {
+		CHILD.setSize(int35, int39, 0, 0);
+	}
+	if (CHILD.setChild(widget(345, 11), int37 + 2) == true) {
+		CHILD.setSize(int35 - 2, int39 - 2, 0, 0);
+	}
+	VARC[49] = VARC[49] + 3;
+	return;
+}

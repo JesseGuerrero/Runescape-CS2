@@ -1,0 +1,6 @@
+//script6516(6516)(int arg0)(void)
+if(instr6644() == 1)
+	if_setposition(arg0, 2, 1, 0, 0)
+else
+	if_setposition(arg0, 2, 1, 70, 0)
+return

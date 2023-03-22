@@ -1,0 +1,47 @@
+//script5249(5249)()(void)
+if_sethide(if_gethash(1127, 64), 1)
+if_sethide(if_gethash(1127, 65), 1)
+if_sethide(if_gethash(1127, 66), 1)
+if_sethide(if_gethash(1127, 9), 1)
+if_sethide(if_gethash(1127, 10), 1)
+if_sethide(if_gethash(1127, 11), 1)
+if_sethide(if_gethash(1127, 61), 1)
+if_sethide(if_gethash(1127, 62), 1)
+if_sethide(if_gethash(1127, 63), 1)
+if_sethide(if_gethash(1127, 67), 1)
+if_sethide(if_gethash(1127, 68), 1)
+if_sethide(if_gethash(1127, 69), 1)
+if_sethide(if_gethash(1127, 70), 1)
+if_sethide(if_gethash(1127, 71), 1)
+if_sethide(if_gethash(1127, 72), 1)
+switch(load_varp(2373)) {
+	case default:
+		break
+	case 1:
+		if_sethide(if_gethash(1127, 64), 0)
+		if_sethide(if_gethash(1127, 65), 0)
+		if_sethide(if_gethash(1127, 66), 0)
+		break
+	case 2:
+		if_sethide(if_gethash(1127, 9), 0)
+		if_sethide(if_gethash(1127, 10), 0)
+		if_sethide(if_gethash(1127, 11), 0)
+		break
+	case 3:
+		if_sethide(if_gethash(1127, 61), 0)
+		if_sethide(if_gethash(1127, 62), 0)
+		if_sethide(if_gethash(1127, 63), 0)
+		break
+	case 5:
+		if_sethide(if_gethash(1127, 67), 0)
+		if_sethide(if_gethash(1127, 68), 0)
+		if_sethide(if_gethash(1127, 69), 0)
+		break
+	case 4:
+		if_sethide(if_gethash(1127, 70), 0)
+		if_sethide(if_gethash(1127, 71), 0)
+		if_sethide(if_gethash(1127, 72), 0)
+		break
+
+}
+return

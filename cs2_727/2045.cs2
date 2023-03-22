@@ -1,0 +1,49 @@
+//script2045(2045)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+if(instr6621() == 0) {
+	script_2046(arg0)
+	return
+}
+iVar5 = if_getwidth(arg1)
+if(iVar5 <= 0)
+	return
+iVar6 = 0
+iVar7 = 0
+iVar6 = instr6612().get(0)
+if(iVar6 <= 0)
+	return
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar12 = instr6849().get(0)
+iVar8 = iVar13 + (iVar7 / 2)
+iVar9 = iVar13 - (iVar7 / 2)
+iVar10 = iVar12 + (iVar6 / 2)
+iVar11 = iVar12 - (iVar6 / 2)
+iVar11 = iVar11 + scale(iVar5 - if_getwidth(arg0), iVar5, iVar6)
+if(iVar12 != arg2 || iVar13 != arg3 || iVar7 != arg4) {
+	instr6342(arg0, script_2045, "IIiii", arg0, arg1, iVar12, iVar13, iVar7)
+	script_295(arg0, iVar8, iVar9, iVar10, iVar11)
+}
+if(load_varpbit(6174) == 0)
+	script_4(49479716, load_varc(674), 280, arg0, iVar8, iVar9, iVar10, iVar11, "You are here")
+else
+	cc_deleteall(if_gethash(755, 36))
+script_4(49479717, load_varc(623), load_varc(624), arg0, iVar8, iVar9, iVar10, iVar11, load_varc_string(53))
+script_4(49479718, load_varc(625), load_varc(626), arg0, iVar8, iVar9, iVar10, iVar11, load_varc_string(54))
+script_4(49479719, load_varc(627), load_varc(628), arg0, iVar8, iVar9, iVar10, iVar11, load_varc_string(55))
+script_4(49479720, load_varc(629), load_varc(630), arg0, iVar8, iVar9, iVar10, iVar11, load_varc_string(56))
+script_4(49479721, load_varc(940), load_varc(941), arg0, iVar8, iVar9, iVar10, iVar11, load_varc_string(190))
+script_4(49479722, load_varp(1159), 972, arg0, iVar8, iVar9, iVar10, iVar11, "Your marker")
+return

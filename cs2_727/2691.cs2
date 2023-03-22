@@ -1,0 +1,18 @@
+//script2691(2691)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if(arg5 == 1)
+	if(cc_find(arg3, arg0) == 1)
+		cc_setcolor(0)
+if(cc_find(arg1, arg0) == 1)
+	if(arg2 == 1)
+		if(cc_getspriteid() == 2554)
+			cc_setgraphic(2555)
+		else
+			if(cc_getspriteid() == 2556)
+				cc_setgraphic(2557)
+	else
+		if(cc_getspriteid() == 2555)
+			cc_setgraphic(2554)
+		else
+			if(cc_getspriteid() == 2557)
+				cc_setgraphic(2556)
+return

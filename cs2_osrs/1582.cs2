@@ -1,0 +1,14 @@
+void script_1582(Item item0, int arg1, int arg2) {
+	CHILD.setHidden(false);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(0, arg2 * (32 + 5), 1, 0);
+	CHILD.setOutlineThickness(1);
+	CHILD.setTrans(0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setItem(item0, arg1);
+	CHILD.setContextMenuOption(1, "Take");
+	CHILD.setContextMenuOption(10, "Examine");
+	CHILD.setOptionBase("<col=ff9040>" + getItemName(item0) + "</col>");
+	CHILD.hookOptionClick(&script_1583(CTX_MENU_OPTION, CTX_WIDGET, CTX_WIDGET_CHILD));
+	return;
+}

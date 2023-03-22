@@ -1,0 +1,10 @@
+//script2896(2896)(int arg0)(void)
+if(modulo(5, client_clock()) == 0)
+	if(scale(200, 2000, load_varc(1078)) > scale(200, 2000, load_varpbit(7189))) {
+		if_setsize(arg0, 0, 0, scale(200, 2000, load_varc(1078)), 20)
+		store_varc(1078, load_varc(1078) - 1)
+	} else  {
+		instr6342(arg0, None, "")
+		store_varc(1079, 0)
+	}
+return

@@ -1,0 +1,10 @@
+//script2165(2165)()(void)
+int iVar0
+iVar0 = max(stringwidth(instr6289(if_gethash(190, 10)), if_gettext(if_gethash(190, 10))), stringwidth(instr6289(if_gethash(190, 6)), if_gettext(if_gethash(190, 6))))
+iVar0 = (iVar0 + if_getwidth(if_gethash(190, 3))) + 1
+if_setsize(if_gethash(190, 2), 0, 0, if_getheight(if_gethash(190, 2)), iVar0)
+if_setsize(if_gethash(190, 26), 0, 1, if_getheight(if_gethash(190, 26)), (iVar0 + 1) + (if_getx(if_gethash(190, 26)) * 2))
+script_2160(1)
+instr6237(if_gethash(190, 15), script_2169, "Y", 1, 1384)
+instr6257(if_gethash(190, 15), script_2169, "Y", 1, 695)
+return

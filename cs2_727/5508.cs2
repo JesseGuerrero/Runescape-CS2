@@ -1,0 +1,22 @@
+//script5508(5508)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+iVar4 = if_getscrollheight(arg1) - if_getheight(arg1)
+if(iVar4 == 0)
+	iVar4 = 3
+if(arg2 < 0)
+	arg2 = 0
+if(arg2 > iVar4)
+	arg2 = iVar4
+if_setscrollpos(arg1, arg2, 0)
+iVar5 = 0
+if(cc_find(3, arg0) == 1)
+	if(arg3 == 1) {
+		iVar5 = (if_getheight(arg0) - 32) - (cc_getheight() + 10)
+		cc_setposition(0, 0, 21 + scale(iVar5, iVar4, arg2), 0)
+		if(cc_find(4, arg0) == 1)
+			cc_setposition(0, 0, cc_gety() - 5, 0)
+		if(cc_find(5, arg0) == 1)
+			cc_setposition(0, 0, cc_gety() + cc_getheight(), 0)
+	}
+return

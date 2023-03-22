@@ -1,0 +1,11 @@
+//script1534(1534)(int arg0, int arg1)(void)
+if(arg1 != 1)
+	return
+if(load_varc(1413) == 0)
+	return
+if(load_varc(119) == 1)
+	store_varc(119, 0)
+else
+	store_varc(119, 1)
+script_1741(arg0)
+return

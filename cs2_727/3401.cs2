@@ -1,0 +1,9 @@
+//script3401(3401)()(void)
+if(load_varc(1274) < 0 || load_varc(1274) > if_getheight(if_gethash(909, 61)) - if_getheight(if_gethash(909, 62)))
+	script_3404()
+else
+	script_3403(load_varc(1274), 1)
+instr6214(if_gethash(909, 62), -1, 59572285)
+instr6235(if_gethash(909, 62), script_3402, "i1", -2147483646, 0)
+instr6240(if_gethash(909, 62), script_3402, "i1", -2147483646, 1)
+return

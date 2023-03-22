@@ -1,0 +1,69 @@
+void script_482(Widget widget0, Widget widget1, int arg2) {
+	int int3;
+	int3 = mathMethod4006(0, arg2, 0, 500, 182);
+	if (int3 > 182) {
+		int3 = 182;
+	} else if (int3 < 0) {
+		int3 = 0;
+	}
+	widget0.setSize(int3, widget0.getHeight(), 0, 0);
+	if (arg2 < 500 - 1) {
+		int3 = mathMethod4006(0, arg2, 0, 500, 25);
+	} else {
+		int3 = 25;
+	}
+	if (int3 == 25) {
+		widget1.setModel(16378);
+	} else if (int3 == 24) {
+		widget1.setModel(16377);
+	} else if (int3 == 23) {
+		widget1.setModel(16376);
+	} else if (int3 == 22) {
+		widget1.setModel(16375);
+	} else if (int3 == 21) {
+		widget1.setModel(16374);
+	} else if (int3 == 20) {
+		widget1.setModel(16373);
+	} else if (int3 == 19) {
+		widget1.setModel(16372);
+	} else if (int3 == 18) {
+		widget1.setModel(16371);
+	} else if (int3 == 17) {
+		widget1.setModel(16370);
+	} else if (int3 == 16) {
+		widget1.setModel(16369);
+	} else if (int3 == 15) {
+		widget1.setModel(16368);
+	} else if (int3 == 14) {
+		widget1.setModel(16367);
+	} else if (int3 == 13) {
+		widget1.setModel(16366);
+	} else if (int3 == 12) {
+		widget1.setModel(16365);
+	} else if (int3 == 11) {
+		widget1.setModel(16364);
+	} else if (int3 == 10) {
+		widget1.setModel(16363);
+	} else if (int3 == 9) {
+		widget1.setModel(16362);
+	} else if (int3 == 8) {
+		widget1.setModel(16361);
+	} else if (int3 == 7) {
+		widget1.setModel(16360);
+	} else if (int3 == 6) {
+		widget1.setModel(16359);
+	} else if (int3 == 5) {
+		widget1.setModel(16358);
+	} else if (int3 == 4) {
+		widget1.setModel(16357);
+	} else if (int3 == 3) {
+		widget1.setModel(16356);
+	} else if (int3 == 2) {
+		widget1.setModel(16355);
+	} else if (int3 == 1) {
+		widget1.setModel(16354);
+	} else {
+		widget1.setModel(16353);
+	}
+	return;
+}

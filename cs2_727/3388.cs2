@@ -1,0 +1,58 @@
+//script3388(3388)(int arg0, int arg1, int arg2)(void)
+int iVar3
+int iVar4
+iVar3 = 4
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(detailget_graphics() != 1)
+			autosetup_setmin()
+		else
+			return
+		break
+	case 2:
+		if(iVar3 >= 2)
+			if(detailget_graphics() != 2)
+				autosetup_setlow()
+			else
+				return
+		else
+			script_3413(arg1)
+		break
+	case 3:
+		if(iVar3 >= 3)
+			if(detailget_graphics() != 3)
+				autosetup_setmedium()
+			else
+				return
+		else
+			script_3413(arg1)
+		break
+	case 4:
+		if(iVar3 >= 4)
+			if(detailget_graphics() != 4)
+				autosetup_sethigh()
+			else
+				return
+		else
+			script_3413(arg1)
+		break
+	case 0:
+		if(arg2 == 1)
+			if(detailget_graphics() != 0)
+				instr6857()
+			else
+				return
+		break
+	case -1:
+		script_3384(arg1)
+		break
+
+}
+iVar4 = detailget_currenttoolkit()
+if(arg0 == 0 || arg2 == 1)
+	script_3387(iVar4, instr6644(), script_2692(iVar4).get(0), script_2692(iVar4).get(1), arg1)
+else
+	script_2596(iVar4, instr6644(), script_2692(iVar4).get(0), script_2692(iVar4).get(1), arg1)
+return

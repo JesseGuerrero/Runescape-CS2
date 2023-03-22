@@ -1,0 +1,18 @@
+//script4529(4529)(int arg0, int arg1, int arg2)(int)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+if(arg0 == -1 || arg2 == -1)
+	return
+iVar3 = struct_param(1346, arg2)
+iVar4 = struct_param(1388, arg2)
+iVar5 = struct_param(1389, arg2)
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+return 4163

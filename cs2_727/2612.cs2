@@ -1,0 +1,23 @@
+//script2612(2612)(int arg0, int arg1)(void)
+instr6627(movecoord(16, 0, 16, arg0))
+switch(arg1) {
+	case default:
+		break
+	case 0:
+		instr6764(180, 144)
+		break
+	case 1:
+		instr6764(220, 176)
+		break
+	case 2:
+		instr6764(260, 208)
+		break
+	case 3:
+		instr6764(300, 240)
+		break
+	case 4:
+		instr6764(340, 272)
+		break
+
+}
+return

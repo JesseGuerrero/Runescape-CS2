@@ -1,0 +1,8 @@
+void script_1442(Widget widget0, int arg1) {
+	widget0.setText("Wait...");
+	widget0.setRGB(script_1444(16750879));
+	widget0.hookMouseEnter(null);
+	widget0.hookMouseExit(null);
+	widget0.hookFrame(&script_1443(widget0, getClientCycle() + arg1 * 30));
+	return;
+}

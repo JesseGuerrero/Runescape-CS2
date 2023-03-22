@@ -1,0 +1,5 @@
+//script1865(1865)(int arg0, int arg1)(void)
+if(arg0 != 1)
+	return
+send_message(enum(2024, arg1, 'o', 's'))
+return

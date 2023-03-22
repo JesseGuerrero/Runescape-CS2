@@ -1,0 +1,3 @@
+//script1993(1993)()(int)
+return (((load_varpbit(8205) + load_varpbit(8212)) + load_varpbit(8217)) + load_varpbit(8221)) + load_varpbit(8224)
+return 0

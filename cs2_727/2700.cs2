@@ -1,0 +1,20 @@
+//script2700(2700)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = client_clock() + 750
+if(arg1 == 1) {
+	instr6342(if_gethash(746, 35), script_2703, "iii11", iVar4, arg0, arg1, arg2, arg3)
+	instr6342(if_gethash(548, 46), script_2703, "iii11", iVar4, arg0, arg1, arg2, arg3)
+	script_2701(arg0, arg2, arg3)
+} else 
+	if(arg1 == 2) {
+		instr6342(if_gethash(906, 0), script_2703, "iii11", iVar4, arg0, arg1, arg2, arg3)
+		script_3090()
+		instr6239(if_gethash(906, 142), script_2704, "1ii11", 1, arg0, arg1, arg2, arg3)
+		instr6239(if_gethash(906, 144), script_2704, "1ii11", 0, arg0, arg1, arg2, arg3)
+	} else  {
+		instr6342(if_gethash(744, 17), script_2703, "iii11", iVar4, arg0, arg1, arg2, arg3)
+		script_1174(10)
+		hook_mouse_press(if_gethash(744, 56), script_2704, "1ii11", 1, arg0, arg1, arg2, arg3)
+		hook_mouse_press(if_gethash(744, 57), script_2704, "1ii11", 0, arg0, arg1, arg2, arg3)
+	}
+return

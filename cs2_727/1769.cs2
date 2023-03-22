@@ -1,0 +1,6 @@
+//script1769(1769)(int arg0)(void)
+if_setmodel(arg0, struct_param(581, load_varc(269)))
+if_setmodelangle(arg0, struct_param(583, load_varc(269)), struct_param(586, load_varc(269)), struct_param(585, load_varc(269)), struct_param(584, load_varc(269)), 160, 0)
+if_setmodelanim(arg0, struct_param(582, load_varc(269)))
+if_setposition(arg0, 0, 1, struct_param(587, load_varc(269)), 0)
+return

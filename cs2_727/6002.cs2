@@ -1,0 +1,79 @@
+//script6002(6002)(int arg0, string arg1)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = if_getx(arg0) - 101
+iVar2 = if_gety(arg0)
+iVar3 = script_6003(if_getspriteid(arg0))
+iVar1 = max(20, iVar1)
+iVar1 = min(230, iVar1)
+if(iVar2 <= 150)
+	iVar2 = iVar2 + 40
+else
+	iVar2 = iVar2 - 50
+iVar4 = 0
+switch(arg0) {
+	case default:
+		break
+	case 71565319:
+		if(load_varpbit(358) == 15)
+			iVar4 = 1
+		break
+	case 71565351:
+		if(load_varpbit(2448) == 190)
+			iVar4 = 1
+		break
+	case 71565352:
+		iVar4 = load_varpbit(10900)
+		break
+	case 71565353:
+		iVar4 = load_varpbit(10901)
+		break
+	case 71565354:
+		iVar4 = load_varpbit(10902)
+		break
+	case 71565355:
+		iVar4 = load_varpbit(10903)
+		break
+	case 71565356:
+		iVar4 = load_varpbit(10904)
+		break
+	case 71565357:
+		iVar4 = load_varpbit(10905)
+		break
+	case 71565358:
+		iVar4 = load_varpbit(10906)
+		break
+	case 71565359:
+		iVar4 = load_varpbit(10907)
+		break
+	case 71565360:
+		iVar4 = load_varpbit(10908)
+		break
+	case 71565361:
+		iVar4 = load_varpbit(10909)
+		break
+	case 71565362:
+		iVar4 = load_varpbit(10910)
+		break
+	case 71565363:
+		iVar4 = load_varpbit(10911)
+		break
+	case 71565364:
+		iVar4 = load_varpbit(10912)
+		break
+
+}
+if(iVar4 == 1)
+	if_settext(if_gethash(1092, 66), "Click to teleport" + "<br>" + "to this lodestone.")
+else
+	if_settext(if_gethash(1092, 66), "This lodestone" + "<br>" + "is not yet active.")
+if_setgraphic(if_gethash(1092, 64), iVar3)
+if_settext(if_gethash(1092, 65), arg0)
+if_setposition(if_gethash(1092, 55), 0, 0, iVar2, iVar1)
+if_sethide(if_gethash(1092, 55), 0)
+if_setgraphic(if_gethash(1092, 54), iVar3)
+if_setposition(if_gethash(1092, 53), 0, 0, if_gety(arg0) - 5, if_getx(arg0) - 5)
+if_sethide(if_gethash(1092, 53), 0)
+return

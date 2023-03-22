@@ -1,0 +1,12 @@
+void script_197(Widget widget0, int arg1, string string2) {
+	if (arg1 == 1) {
+		widget0.setContextMenuOption(1, "Buy for 1 ticket");
+	} else {
+		widget0.setContextMenuOption(1, "Buy for " + script_46(arg1, ",") + " tickets");
+	}
+	script_1595(widget0, string2, arg1, 0);
+	widget0.hookContainer(&script_1459(widget0, string2, arg1, false), 93);
+	widget0.hookMouseHover(&script_1459(widget0, string2, arg1, true));
+	widget0.hookMouseExit(&script_1459(widget0, string2, arg1, false));
+	return;
+}

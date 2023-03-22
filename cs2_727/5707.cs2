@@ -1,0 +1,7 @@
+//script5707(5707)()(void)
+if(load_varc(1753) > 0)
+	if(if_gethide(if_gethash(1218, 161)) == 1)
+		if_sethide(if_gethash(1218, 161), 0)
+	else
+		if_sethide(if_gethash(1218, 161), 1)
+return

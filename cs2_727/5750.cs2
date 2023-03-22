@@ -1,0 +1,8 @@
+//script5750(5750)(int arg0)(void)
+if(cc_find(arg0 - (8 - 1), if_gethash(1239, 8)) == 1)
+	cc_setgraphic(7635)
+if(cc_find(arg0 - (8 - 2), if_gethash(1239, 8)) == 1)
+	cc_setgraphic(7636)
+if(cc_find(arg0 - (8 - 3), if_gethash(1239, 8)) == 1)
+	cc_setgraphic(7637)
+return

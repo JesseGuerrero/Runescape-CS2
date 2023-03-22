@@ -1,0 +1,5 @@
+//script3679(3679)(int arg0, int arg1)(void)
+instr6220(arg0)
+instr6213(arg0, 5, "Examine" + "<col=ff9040>")
+item_useonname(arg0, "<col=ff981f>" + enum(3274, arg1, 'i', 's') + " Piece")
+return

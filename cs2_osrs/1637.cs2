@@ -1,0 +1,8 @@
+void script_1637(Widget widget0) {
+	if (script_1942() == 1) {
+		script_1638(widget0, VARPBIT[5710], getClientCycle());
+	} else {
+		script_1638(widget0, VARPBIT[4164], getClientCycle());
+	}
+	return;
+}

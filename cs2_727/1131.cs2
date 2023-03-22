@@ -1,0 +1,6 @@
+//script1131(1131)(int arg0)(void)
+if(load_varc(1000) > comlevel_active())
+	if_settext(arg0, "Combat Lvl: " + to_string(comlevel_active()) + "+" + to_string(load_varc(1000) - comlevel_active()))
+else
+	if_settext(arg0, "Combat Lvl: " + to_string(comlevel_active()))
+return

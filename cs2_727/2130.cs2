@@ -1,0 +1,3 @@
+//script2130(2130)(int arg0, int arg1)(void)
+if_setposition(arg0, 0, 0, if_gety(arg1), if_getx(arg1))
+return

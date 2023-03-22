@@ -1,0 +1,24 @@
+//script143(143)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+if(if_getscrollwidth(arg0) > 0)
+	iVar6 = (if_getscrollwidth(arg0) - (36 * arg1)) / (arg1 - 1)
+else
+	iVar6 = (if_getwidth(arg0) - (36 * arg1)) / (arg1 - 1)
+if(if_getscrollheight(arg0) > 0)
+	iVar7 = (if_getscrollheight(arg0) - (32 * arg2)) / (arg2 - 1)
+else
+	iVar7 = (if_getheight(arg0) - (32 * arg2)) / (arg2 - 1)
+cc_create(if_getnextsubid(arg0), 5, arg0)
+cc_setgraphic(937)
+cc_setsize(0, 0, 32, 10)
+cc_setposition(0, 0, (arg3 / arg1) * (32 + iVar7), ((36 + iVar6) * modulo(arg1, arg3)) + 13)
+cc_sethide(0)
+instr6556(script_144, "Iiii", arg0, -2147483643, client_clock(), client_clock() + 750)
+return

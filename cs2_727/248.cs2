@@ -1,0 +1,6 @@
+//script248(248)(int arg0)(void)
+if(string_length(load_varc_string(24)) > 0)
+	chat_sendabusereport("", load_varc_string(24), load_varc(6), arg0)
+script_675()
+store_varc(11, 0)
+return

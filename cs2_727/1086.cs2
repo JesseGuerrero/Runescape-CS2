@@ -1,0 +1,59 @@
+//script1086(1086)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+cc_deleteall(arg0)
+iVar4 = if_getwidth(arg0)
+iVar5 = if_getheight(arg0)
+iVar6 = 0
+if(arg1 > 0) {
+	cc_create(iVar6, 5, arg0)
+	cc_setposition(0, 0, arg1, 0)
+	cc_setsize(0, 0, 32, iVar4)
+	cc_setgraphic(1076)
+	cc_settiling(1)
+	iVar6 = iVar6 + 1
+}
+if(arg2 > 0) {
+	cc_create(iVar6, 5, arg0)
+	cc_setposition(0, 0, arg2, 0)
+	cc_setsize(0, 0, 32, iVar4)
+	cc_setgraphic(1076)
+	cc_settiling(1)
+	iVar6 = iVar6 + 1
+}
+if(arg3 > 0) {
+	cc_create(iVar6, 5, arg0)
+	cc_setposition(0, 0, arg3, 0)
+	cc_setsize(0, 0, 32, iVar4)
+	cc_setgraphic(1076)
+	cc_settiling(1)
+	iVar6 = iVar6 + 1
+}
+cc_create(iVar6, 5, arg0)
+cc_setposition(0, 0, 0, 0)
+cc_setsize(0, 0, 32, iVar4)
+cc_setgraphic(1076)
+cc_settiling(1)
+iVar6 = iVar6 + 1
+cc_create(iVar6, 5, arg0)
+cc_setposition(0, 0, iVar5 - 32, 0)
+cc_setsize(0, 0, 32, iVar4)
+cc_setgraphic(1076)
+cc_settiling(1)
+cc_setvflip(1)
+iVar6 = iVar6 + 1
+cc_create(iVar6, 5, arg0)
+cc_setposition(0, 0, 1, 0)
+cc_setsize(0, 0, iVar5 - 2, 32)
+cc_setgraphic(1077)
+cc_settiling(1)
+iVar6 = iVar6 + 1
+cc_create(iVar6, 5, arg0)
+cc_setposition(0, 0, 1, iVar4 - 32)
+cc_setsize(0, 0, iVar5 - 2, 32)
+cc_setgraphic(1077)
+cc_settiling(1)
+cc_sethflip(1)
+iVar6 = iVar6 + 1
+return

@@ -1,0 +1,7 @@
+//script3986(3986)()(void)
+int iVar0
+iVar0 = 0
+if(load_varpbit(8580) == 0)
+	iVar0 = 1
+script_3987(999, 999, iVar0)
+return

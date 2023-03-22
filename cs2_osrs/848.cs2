@@ -1,0 +1,10 @@
+void script_848(Widget widget0, Widget widget1, int arg2) {
+	widget0.hookMouseExit(&script_40(widget(arg2)));
+	widget0.setContextMenuOption(1, "Side-stones arrangement");
+	widget1.setContextMenuOption(1, "Hotkeys Behaviour");
+	script_120(widget1, "Side-panels...", "Can be closed by the hotkeys.", "In resizable mode, if the stone buttons are arranged along the bottom of the screen, should it be possible to shut a side-panel by pressing its hotkey?", arg2);
+	script_851(widget0, widget1, arg2);
+	widget0.hookVARP(&script_849(widget0, widget1, widget(arg2)), 1055);
+	widget0.hookOptionClick(&script_850(CTX_MENU_OPTION, false, widget0, widget1, widget(arg2)));
+	return;
+}

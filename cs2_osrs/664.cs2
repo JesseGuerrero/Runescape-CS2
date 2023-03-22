@@ -1,0 +1,19 @@
+void script_664(boolean arg0) {
+	int int1;
+	int int2;
+	int1 = getClientCycle();
+	int2 = -1;
+	if (arg0 == true || int1 == VARC[65] || int1 % 25 == 0) {
+		int2 = script_553();
+		if (int1 == VARC[65]) {
+			script_84(int2);
+		}
+		script_89(int2);
+		if (VARC[65] > int1 || getSystemUpdateTimer() > 0 || VARC[55] > int1 - 3000) {
+			widget(162, 0).hookFrame(&script_664(false));
+		} else {
+			widget(162, 0).hookFrame(null);
+		}
+	}
+	return;
+}

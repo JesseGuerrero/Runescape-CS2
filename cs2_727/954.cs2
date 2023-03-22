@@ -1,0 +1,3 @@
+//script954(954)()(void)
+if_setsize(if_gethash(730, 29), 0, 0, 6, scale(182, 1000, 1000 - load_varpbit(4564)))
+return

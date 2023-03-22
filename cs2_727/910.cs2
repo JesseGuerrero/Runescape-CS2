@@ -1,0 +1,6 @@
+//script910(910)()(void)
+if(load_varc(116) == 1 || load_varc(117) == 1)
+	if_setborderthickness(46923807, 2)
+else
+	if_setborderthickness(46923807, 0)
+return

@@ -1,0 +1,3 @@
+//script1739(1739)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6, string arg7, string arg8, string arg9, string arg10, string arg11, string arg12, string arg13, string arg14)(void)
+if_setonmouseleave(arg0, script_151, "IviiiIsssssssssY", 1, arg1, arg0, arg1, arg2, arg3, arg4, arg5, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8)
+return

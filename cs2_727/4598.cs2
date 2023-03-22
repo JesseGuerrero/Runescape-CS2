@@ -1,0 +1,10 @@
+//script4598(4598)(int arg0)(int, int, int)
+int iVar1
+string sVar0
+cc_deleteall(if_gethash(16, 20))
+script_4534(1048596)
+cc_deleteall(if_gethash(16, 39))
+script_4534(1048615)
+cc_deleteall(if_gethash(16, 59))
+script_4535(1048635)
+return script_4510(1048645, 1737), script_4510(1048644, 1736), script_4513(1048584, 1746)

@@ -1,0 +1,279 @@
+void script_420() {
+	Sprite sprite0;
+	Sprite sprite1;
+	Sprite sprite2;
+	Sprite sprite3;
+	Sprite sprite4;
+	Sprite sprite5;
+	int int6;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	string str4;
+	string str5;
+	string str6;
+	string str7;
+	ARRAY0 = new int[4];
+	ARRAY1 = new int[4];
+	sprite0 = 653;
+	sprite1 = 654;
+	if (VARPBIT[357] == 18 || VARPBIT[357] == 21) {
+		widget(593, 19).setIsHidden(false);
+		ARRAY0[0] = 20;
+		ARRAY0[1] = 20;
+		ARRAY0[2] = 20;
+		ARRAY0[3] = 20;
+		ARRAY1[0] = 45;
+		ARRAY1[1] = 80;
+		ARRAY1[2] = 115;
+		ARRAY1[3] = 150;
+		widget(593, 3).setSize(72, 36, 0, 0);
+		widget(593, 7).setSize(72, 36, 0, 0);
+		widget(593, 11).setSize(72, 36, 0, 0);
+		widget(593, 15).setSize(72, 36, 0, 0);
+		widget(593, 4).setSize(72, 36, 0, 0);
+		widget(593, 8).setSize(72, 36, 0, 0);
+		widget(593, 12).setSize(72, 36, 0, 0);
+		widget(593, 16).setSize(72, 36, 0, 0);
+		widget(593, 5).setPosition(20, 5, 0, 0);
+		widget(593, 9).setPosition(20, 5, 0, 0);
+		widget(593, 13).setPosition(20, 5, 0, 0);
+		widget(593, 17).setPosition(20, 5, 0, 0);
+		widget(593, 5).setSize(34, 24, 0, 0);
+		widget(593, 6).setPosition(0, 21, 0, 0);
+		widget(593, 10).setPosition(0, 21, 0, 0);
+		widget(593, 14).setPosition(0, 21, 0, 0);
+		widget(593, 18).setPosition(0, 21, 0, 0);
+		sprite0, sprite1 = 293, 294;
+	} else {
+		widget(593, 19).setIsHidden(true);
+		ARRAY0[0] = 20;
+		ARRAY0[1] = 104;
+		ARRAY0[2] = 20;
+		ARRAY0[3] = 104;
+		ARRAY1[0] = 45;
+		ARRAY1[1] = 45;
+		ARRAY1[2] = 98;
+		ARRAY1[3] = 98;
+		widget(593, 3).setSize(70, 46, 0, 0);
+		widget(593, 7).setSize(70, 46, 0, 0);
+		widget(593, 11).setSize(70, 46, 0, 0);
+		widget(593, 15).setSize(70, 46, 0, 0);
+		widget(593, 4).setSize(70, 46, 0, 0);
+		widget(593, 8).setSize(70, 46, 0, 0);
+		widget(593, 12).setSize(70, 46, 0, 0);
+		widget(593, 16).setSize(70, 46, 0, 0);
+		if (VARPBIT[357] == 8) {
+			widget(593, 5).setPosition(22, 2, 0, 0);
+			widget(593, 5).setSize(30, 30, 0, 0);
+		} else {
+			widget(593, 5).setPosition(20, 5, 0, 0);
+			widget(593, 5).setSize(34, 24, 0, 0);
+		}
+		widget(593, 9).setPosition(20, 5, 0, 0);
+		widget(593, 13).setPosition(20, 5, 0, 0);
+		widget(593, 17).setPosition(20, 5, 0, 0);
+		widget(593, 6).setPosition(0, 30, 0, 0);
+		widget(593, 10).setPosition(0, 30, 0, 0);
+		widget(593, 14).setPosition(0, 30, 0, 0);
+		widget(593, 18).setPosition(0, 30, 0, 0);
+	}
+	str0 = "";
+	str1 = "";
+	str2 = "";
+	str3 = "";
+	str4 = "";
+	str5 = "";
+	str6 = "";
+	str7 = "";
+	sprite2 = null;
+	sprite3 = null;
+	sprite4 = null;
+	sprite5 = null;
+	if (VARPBIT[357] == 1) {
+		str0, str4, sprite2 = "Chop", "(Accurate)" + "<br>" + "(Slash)" + "<br>" + "(Attack XP)", 234;
+		str1, str5, sprite3 = "Hack", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 235;
+		str2, str6, sprite4 = "Smash", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 236;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Slash)" + "<br>" + "(Defence XP)", 233;
+	} else if (VARPBIT[357] == 2) {
+		str0, str4, sprite2 = "Pound", "(Accurate)" + "<br>" + "(Crush)" + "<br>" + "(Attack XP)", 255;
+		str1, str5, sprite3 = "Pummel", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 256;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Crush)" + "<br>" + "(Defence XP)", 253;
+	} else if (VARPBIT[357] == 26) {
+		str0, str4, sprite2 = "Pound", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 255;
+		str1, str5, sprite3 = "Pummel", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 256;
+		str3, str7, sprite5 = "Smash", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 253;
+	} else if (VARPBIT[357] == 3) {
+		str0, str4, sprite2 = "Accurate", "(Accurate)" + "<br>" + "(Ranged XP)", 268;
+		str1, str5, sprite3 = "Rapid", "(Rapid)" + "<br>" + "(Ranged XP)", 269;
+		str3, str7, sprite5 = "Longrange", "(Longrange)" + "<br>" + "(Ranged XP)" + "<br>" + "(Defence XP)", 270;
+	} else if (VARPBIT[357] == 4) {
+		str0, str4, sprite2 = "Chop", "(Accurate)" + "<br>" + "(Slash)" + "<br>" + "(Attack XP)", 279;
+		str1, str5, sprite3 = "Slash", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 278;
+		str2, str6, sprite4 = "Lunge", "(Controlled)" + "<br>" + "(Stab)" + "<br>" + "(Shared XP)", 277;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Slash)" + "<br>" + "(Defence XP)", 280;
+	} else if (VARPBIT[357] == 5) {
+		str0, str4, sprite2 = "Accurate", "(Accurate)" + "<br>" + "(Ranged XP)", 258;
+		str1, str5, sprite3 = "Rapid", "(Rapid)" + "<br>" + "(Ranged XP)", 259;
+		str3, str7, sprite5 = "Longrange", "(Longrange)" + "<br>" + "(Ranged XP)" + "<br>" + "(Defence XP)", 260;
+	} else if (VARPBIT[357] == 6) {
+		str0, str4, sprite2 = "Scorch", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 289;
+		str1, str5, sprite3 = "Flare", "(Accurate)" + "<br>" + "(Ranged)" + "<br>" + "(Ranged XP)", 290;
+		str2, str6, sprite4 = "Blaze", "(Defensive)" + "<br>" + "(Magic)" + "<br>" + "(Magic XP)", 291;
+	} else if (VARPBIT[357] == 7) {
+		str0, str4, sprite2 = "Short fuse", "(Short fuse)" + "<br>" + "(Ranged XP)", 288;
+		str1, str5, sprite3 = "Medium fuse", "(Medium fuse)" + "<br>" + "(Ranged XP)", 282;
+		str3, str7, sprite5 = "Long fuse", "(Long fuse)" + "<br>" + "(Ranged XP)" + "<br>" + "(Defence XP)", 281;
+	} else if (VARPBIT[357] == 8) {
+		str0, str4, sprite2 = "Aim and Fire", "(Aim and Fire)", 128;
+		str1, str5, sprite3 = "Kick", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 248;
+	} else if (VARPBIT[357] == 9) {
+		str0, str4, sprite2 = "Chop", "(Accurate)" + "<br>" + "(Slash)" + "<br>" + "(Attack XP)", 239;
+		str1, str5, sprite3 = "Slash", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 238;
+		str2, str6, sprite4 = "Lunge", "(Controlled)" + "<br>" + "(Stab)" + "<br>" + "(Shared XP)", 240;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Slash)" + "<br>" + "(Defence XP)", 237;
+	} else if (VARPBIT[357] == 10) {
+		str0, str4, sprite2 = "Chop", "(Accurate)" + "<br>" + "(Slash)" + "<br>" + "(Attack XP)", 239;
+		str1, str5, sprite3 = "Slash", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 238;
+		str2, str6, sprite4 = "Smash", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 238;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Slash)" + "<br>" + "(Defence XP)", 237;
+	} else if (VARPBIT[357] == 22) {
+		str0, str4, sprite2 = "Chop", "(Accurate)" + "<br>" + "(Slash)" + "<br>" + "(Attack XP)", 239;
+		str1, str5, sprite3 = "Slash", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 238;
+		str2, str6, sprite4 = "Smash", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 238;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Slash)" + "<br>" + "(Defence XP)", 237;
+	} else if (VARPBIT[357] == 11) {
+		str0, str4, sprite2 = "Spike", "(Accurate)" + "<br>" + "(Stab)" + "<br>" + "(Attack XP)", 274;
+		str1, str5, sprite3 = "Impale", "(Aggressive)" + "<br>" + "(Stab)" + "<br>" + "(Strength XP)", 276;
+		str2, str6, sprite4 = "Smash", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 275;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Stab)" + "<br>" + "(Defence XP)", 273;
+	} else if (VARPBIT[357] == 12) {
+		str0, str4, sprite2 = "Jab", "(Controlled)" + "<br>" + "(Stab)" + "<br>" + "(Shared XP)", 284;
+		str1, str5, sprite3 = "Swipe", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 285;
+		str3, str7, sprite5 = "Fend", "(Defensive)" + "<br>" + "(Stab)" + "<br>" + "(Defence XP)", 283;
+	} else if (VARPBIT[357] == 25) {
+		str0, str4, sprite2 = "Jab", "(Controlled)" + "<br>" + "(Stab)" + "<br>" + "(Shared XP)", 284;
+		str1, str5, sprite3 = "Swipe", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 285;
+		str3, str7, sprite5 = "Fend", "(Defensive)" + "<br>" + "(Stab)" + "<br>" + "(Defence XP)", 283;
+	} else if (VARPBIT[357] == 13) {
+		str0, str4, sprite2 = "Bash", "(Accurate)" + "<br>" + "(Crush)" + "<br>" + "(Attack XP)", 266;
+		str1, str5, sprite3 = "Pound", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 267;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Crush)" + "<br>" + "(Defence XP)", 252;
+	} else if (VARPBIT[357] == 14) {
+		str0, str4, sprite2 = "Reap", "(Accurate)" + "<br>" + "(Slash)" + "<br>" + "(Attack XP)", 272;
+		str1, str5, sprite3 = "Chop", "(Aggressive)" + "<br>" + "(Stab)" + "<br>" + "(Strength XP)", 262;
+		str2, str6, sprite4 = "Jab", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 271;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Slash)" + "<br>" + "(Defence XP)", 261;
+	} else if (VARPBIT[357] == 15) {
+		str0, str4, sprite2 = "Lunge", "(Controlled)" + "<br>" + "(Stab)" + "<br>" + "(Shared XP)", 241;
+		str1, str5, sprite3 = "Swipe", "(Controlled)" + "<br>" + "(Slash)" + "<br>" + "(Shared XP)", 251;
+		str2, str6, sprite4 = "Pound", "(Controlled)" + "<br>" + "(Crush)" + "<br>" + "(Shared XP)", 242;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Stab)" + "<br>" + "(Defence XP)", 250;
+	} else if (VARPBIT[357] == 24) {
+		str0, str4, sprite2 = "Lunge", "(Accurate)" + "<br>" + "(Stab)" + "<br>" + "(Attack XP)", 241;
+		str1, str5, sprite3 = "Swipe", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 251;
+		str2, str6, sprite4 = "Pound", "(Controlled)" + "<br>" + "(Crush)" + "<br>" + "(Shared XP)", 242;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Stab)" + "<br>" + "(Defence XP)", 250;
+	} else if (VARPBIT[357] == 16) {
+		str0, str4, sprite2 = "Pound", "(Accurate)" + "<br>" + "(Crush)" + "<br>" + "(Attack XP)", 246;
+		str1, str5, sprite3 = "Pummel", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 244;
+		str2, str6, sprite4 = "Spike", "(Controlled)" + "<br>" + "(Stab)" + "<br>" + "(Shared XP)", 245;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Crush)" + "<br>" + "(Defence XP)", 243;
+	} else if (VARPBIT[357] == 17) {
+		str0, str4, sprite2 = "Stab", "(Accurate)" + "<br>" + "(Stab)" + "<br>" + "(Attack XP)", 240;
+		str1, str5, sprite3 = "Lunge", "(Aggressive)" + "<br>" + "(Stab)" + "<br>" + "(Strength XP)", 239;
+		str2, str6, sprite4 = "Slash", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 238;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Stab)" + "<br>" + "(Defence XP)", 237;
+	} else if (VARPBIT[357] == 18) {
+		str0, str4, sprite2 = "Bash", "(Accurate)" + "<br>" + "(Crush)" + "<br>" + "(Attack XP)", 266;
+		str1, str5, sprite3 = "Pound", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 267;
+		str3, str7, sprite5 = "Focus", "(Defensive)" + "<br>" + "(Crush)" + "<br>" + "(Defence XP)", 252;
+	} else if (VARPBIT[357] == 21) {
+		str0, str4, sprite2 = "Jab", "(Accurate)" + "<br>" + "(Stab)" + "<br>" + "(Attack XP)", 266;
+		str1, str5, sprite3 = "Swipe", "(Aggressive)" + "<br>" + "(Slash)" + "<br>" + "(Strength XP)", 267;
+		str3, str7, sprite5 = "Fend", "(Defensive)" + "<br>" + "(Crush)" + "<br>" + "(Defence XP)", 252;
+	} else if (VARPBIT[357] == 19) {
+		str0, str4, sprite2 = "Accurate", "(Accurate)" + "<br>" + "(Ranged XP)", 263;
+		str1, str5, sprite3 = "Rapid", "(Rapid)" + "<br>" + "(Ranged XP)", 264;
+		str3, str7, sprite5 = "Longrange", "(Longrange)" + "<br>" + "(Ranged XP)" + "<br>" + "(Defence XP)", 265;
+	} else if (VARPBIT[357] == 20) {
+		str0, str4, sprite2 = "Flick", "(Accurate)" + "<br>" + "(Slash)" + "<br>" + "(Attack XP)", 286;
+		str1, str5, sprite3 = "Lash", "(Controlled)" + "<br>" + "(Slash)" + "<br>" + "(Shared XP)", 287;
+		str3, str7, sprite5 = "Deflect", "(Defensive)" + "<br>" + "(Slash)" + "<br>" + "(Defence XP)", 286;
+	} else if (VARPBIT[357] == 23) {
+		str0, str4, sprite2 = "Accurate", "(Accurate)" + "<br>" + "(Magic XP)", 263;
+		str1, str5, sprite3 = "Accurate", "(Accurate)" + "<br>" + "(Magic XP)", 263;
+		str3, str7, sprite5 = "Longrange", "(Longrange)" + "<br>" + "(Magic XP)" + "<br>" + "(Defence XP)", 265;
+	} else if (VARPBIT[357] == 27) {
+		str0, str4, sprite2 = "Pummel", "(Accurate)" + "<br>" + "(Crush)" + "<br>" + "(Attack XP)", 254;
+		str3, str7, sprite5 = "Block", "No attacking!", 253;
+	} else {
+		str0, str4, sprite2 = "Punch", "(Accurate)" + "<br>" + "(Crush)" + "<br>" + "(Attack XP)", 247;
+		str1, str5, sprite3 = "Kick", "(Aggressive)" + "<br>" + "(Crush)" + "<br>" + "(Strength XP)", 248;
+		str3, str7, sprite5 = "Block", "(Defensive)" + "<br>" + "(Crush)" + "<br>" + "(Defence XP)", 249;
+	}
+	script_324(sprite2, sprite3, sprite4, sprite5, sprite0, sprite1);
+	int6 = 0;
+	if (sprite2 != null) {
+		widget(593, 3).setIsHidden(false);
+		widget(593, 3).setPosition(ARRAY0[int6], ARRAY1[int6], 0, 0);
+		int6 = int6 + 1;
+		widget(593, 5).setSprite(sprite2);
+		widget(593, 6).setText(str0);
+		widget(593, 3).setContextMenuOption(1, str0);
+		widget(593, 3).hookOptionClick(&script_323(sprite2, (Sprite)sprite3, (Sprite)sprite4, (Sprite)sprite5, sprite0, sprite1, CTX_MENU_OPTION, 0));
+		widget(593, 3).hookMouseExit(&script_40(widget(593, 35)));
+		if (length(str4) > 0) {
+			widget(593, 3).hookMouseHover(&script_526(CTX_WIDGET, -1, widget(593, 35), str4, 25, 140));
+		}
+	} else {
+		widget(593, 3).setIsHidden(true);
+	}
+	if (sprite3 != null) {
+		widget(593, 7).setIsHidden(false);
+		widget(593, 7).setPosition(ARRAY0[int6], ARRAY1[int6], 0, 0);
+		int6 = int6 + 1;
+		widget(593, 9).setSprite(sprite3);
+		widget(593, 10).setText(str1);
+		widget(593, 7).setContextMenuOption(1, str1);
+		widget(593, 7).hookOptionClick(&script_323(sprite2, sprite3, (Sprite)sprite4, (Sprite)sprite5, sprite0, sprite1, CTX_MENU_OPTION, 1));
+		widget(593, 7).hookMouseExit(&script_40(widget(593, 35)));
+		if (length(str5) > 0) {
+			widget(593, 7).hookMouseHover(&script_526(CTX_WIDGET, -1, widget(593, 35), str5, 25, 140));
+		}
+	} else {
+		widget(593, 7).setIsHidden(true);
+	}
+	if (sprite4 != null) {
+		widget(593, 11).setIsHidden(false);
+		widget(593, 11).setPosition(ARRAY0[int6], ARRAY1[int6], 0, 0);
+		int6 = int6 + 1;
+		widget(593, 13).setSprite(sprite4);
+		widget(593, 14).setText(str2);
+		widget(593, 11).setContextMenuOption(1, str2);
+		widget(593, 11).hookOptionClick(&script_323(sprite2, sprite3, sprite4, (Sprite)sprite5, sprite0, sprite1, CTX_MENU_OPTION, 2));
+		widget(593, 11).hookMouseExit(&script_40(widget(593, 35)));
+		if (length(str6) > 0) {
+			widget(593, 11).hookMouseHover(&script_526(CTX_WIDGET, -1, widget(593, 35), str6, 25, 140));
+		}
+	} else {
+		widget(593, 11).setIsHidden(true);
+	}
+	if (sprite5 != null) {
+		widget(593, 15).setIsHidden(false);
+		widget(593, 15).setPosition(ARRAY0[int6], ARRAY1[int6], 0, 0);
+		int6 = int6 + 1;
+		widget(593, 17).setSprite(sprite5);
+		widget(593, 18).setText(str3);
+		widget(593, 15).setContextMenuOption(1, str3);
+		widget(593, 15).hookOptionClick(&script_323(sprite2, sprite3, sprite4, sprite5, sprite0, sprite1, CTX_MENU_OPTION, 3));
+		widget(593, 15).hookMouseExit(&script_40(widget(593, 35)));
+		if (length(str7) > 0) {
+			widget(593, 15).hookMouseHover(&script_526(CTX_WIDGET, -1, widget(593, 35), str7, 25, 140));
+		}
+	} else {
+		widget(593, 15).setIsHidden(true);
+	}
+	return;
+}

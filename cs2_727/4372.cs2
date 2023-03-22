@@ -1,0 +1,6 @@
+//script4372(4372)(int arg0)(void)
+if(arg0 == 1)
+	resume_clanforumqfcdialog(load_varc_string(346))
+else
+	resume_clanforumqfcdialog("")
+return

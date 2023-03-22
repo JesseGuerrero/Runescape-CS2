@@ -1,0 +1,72 @@
+void script_641(Widget widget0, Widget widget1, int arg2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	DataMap datamap8;
+	int int9;
+	Item item10;
+	int int11;
+	int int12;
+	widget0.clearChildren();
+	int3 = widget0.getWidth();
+	int4 = widget0.getHeight();
+	int5 = (int3 - 36 * 6) / 5 + 36;
+	int6 = 0;
+	int7 = 0;
+	datamap8 = null;
+	int9 = 0;
+	while (int9 <= 36) {
+		CHILD.createChild(widget0, 5, int9);
+		if (int9 < 32 && isBitFlagged(VARP[864], int9) == true || int9 >= 32 && isBitFlagged(VARP[1416], int9 - 32) == true) {
+			if (int9 == 11) {
+				datamap8 = 1686;
+			} else if (int9 == 15) {
+				datamap8 = 1687;
+			} else if (int9 == 19) {
+				datamap8 = 1688;
+			} else if (int9 == 25) {
+				datamap8 = 1691;
+			} else if (int9 == 27) {
+				datamap8 = 1689;
+			} else if (int9 == 31) {
+				datamap8 = 1690;
+			} else {
+				datamap8 = null;
+			}
+			int7 = script_642(datamap('i', 'O', 985, int9), datamap8, int5, int6);
+			int6 = int6 + 1;
+		} else {
+			CHILD.setHidden(true);
+		}
+		int9 = int9 + 1;
+	}
+	item10 = null;
+	int11 = 0;
+	int12 = getItemContainerLength(517);
+	while (int11 < int12) {
+		CHILD.createChild(widget0, 5, int9);
+		item10 = getItemIdInSlot(517, int11);
+		if (item10 != null) {
+			int7 = script_642(item10, null, int5, int6);
+			int6 = int6 + 1;
+		} else {
+			CHILD.setHidden(true);
+		}
+		int9, int11 = int9 + 1, int11 + 1;
+	}
+	if (int6 > 0) {
+		int7 = int7 + 32;
+	}
+	if (int7 > int4) {
+		widget0.setScrollMax(0, int7);
+		widget0.setScrollPos(0, arg2);
+	} else {
+		int7 = 0;
+		widget0.setScrollMax(0, 0);
+		widget0.setScrollPos(0, 0);
+	}
+	script_72(widget1, widget0, int7);
+	return;
+}

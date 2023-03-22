@@ -1,0 +1,22 @@
+//script221(221)()(void)
+if(compare("", load_varc_string(24)) == 0) {
+	script_675()
+	return
+}
+store_varc(790, 3)
+if_sethide(if_gethash(594, 33), 1)
+if_sethide(if_gethash(594, 34), 1)
+if_sethide(if_gethash(594, 61), 1)
+if_sethide(if_gethash(594, 148), 1)
+if_sethide(if_gethash(594, 149), 1)
+if_sethide(if_gethash(594, 150), 1)
+if_sethide(if_gethash(594, 151), 1)
+if_sethide(if_gethash(594, 165), 1)
+if_sethide(if_gethash(594, 166), 1)
+if_sethide(if_gethash(594, 104), 1)
+if_sethide(if_gethash(594, 120), 0)
+if_sethide(if_gethash(594, 62), 1)
+if_sethide(if_gethash(594, 117), 1)
+if_sethide(if_gethash(594, 121), 1)
+if_settext(if_gethash(594, 135), "Ignore " + load_varc_string(24) + "?")
+return

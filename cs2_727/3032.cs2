@@ -1,0 +1,17 @@
+//script3032(3032)(int arg0, int arg1, int arg2)(void)
+int iVar3
+iVar3 = -1
+if(arg2 == 1)
+	iVar3 = 59572267
+else
+	if(arg2 == 0)
+		iVar3 = 59572309
+if(cc_find(arg1, arg0) == 1) {
+	if_sethide(iVar3, 0)
+	if_setposition(iVar3, 0, 0, cc_gety(), if_getx(iVar3))
+}
+if(arg2 == 1)
+	script_2470(59572256, 59572259)
+else
+	script_2470(59572304, 59572307)
+return

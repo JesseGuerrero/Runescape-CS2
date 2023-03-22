@@ -1,0 +1,12 @@
+void script_1679(int arg0, Widget widget1) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	script_1682(widget1, 1);
+	widget1.hookMouseHover(null);
+	widget1.hookMouseExit(null);
+	widget1.hookOptionClick(null);
+	widget1.hookFrame(&script_1680(CTX_WIDGET, getClientCycle() + 40));
+	return;
+}

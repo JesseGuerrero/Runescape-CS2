@@ -1,0 +1,6 @@
+//script2114(2114)(int arg0, int arg1)(void)
+if_sethide(arg0, 0)
+if_sethide(arg1, 1)
+store_varc(679, 0)
+instr6257(arg0, script_2115, "IIY", 1, 679, arg0, arg1)
+return

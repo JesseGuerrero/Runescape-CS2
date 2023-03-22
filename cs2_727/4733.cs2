@@ -1,0 +1,96 @@
+//script4733(4733)(int arg0)(int)
+int iVar1
+int iVar2
+iVar1 = arg0 / 32
+iVar2 = modulo(32, arg0)
+switch(iVar1) {
+	case default:
+		break
+	case 0:
+		return bit_flagged(iVar2, load_varc(700))
+
+	case 1:
+		return bit_flagged(iVar2, load_varc(701))
+
+	case 2:
+		return bit_flagged(iVar2, load_varc(702))
+
+	case 3:
+		return bit_flagged(iVar2, load_varc(703))
+
+	case 4:
+		return bit_flagged(iVar2, load_varc(704))
+
+	case 5:
+		return bit_flagged(iVar2, load_varc(705))
+
+	case 6:
+		return bit_flagged(iVar2, load_varc(706))
+
+	case 7:
+		return bit_flagged(iVar2, load_varc(707))
+
+	case 8:
+		return bit_flagged(iVar2, load_varc(708))
+
+	case 9:
+		return bit_flagged(iVar2, load_varc(709))
+
+	case 10:
+		return bit_flagged(iVar2, load_varc(710))
+
+	case 11:
+		return bit_flagged(iVar2, load_varc(711))
+
+	case 12:
+		return bit_flagged(iVar2, load_varc(712))
+
+	case 13:
+		return bit_flagged(iVar2, load_varc(713))
+
+	case 14:
+		return bit_flagged(iVar2, load_varc(714))
+
+	case 15:
+		return bit_flagged(iVar2, load_varc(715))
+
+	case 16:
+		return bit_flagged(iVar2, load_varc(716))
+
+	case 17:
+		return bit_flagged(iVar2, load_varc(717))
+
+	case 18:
+		return bit_flagged(iVar2, load_varc(718))
+
+	case 19:
+		return bit_flagged(iVar2, load_varc(719))
+
+	case 20:
+		return bit_flagged(iVar2, load_varc(720))
+
+	case 21:
+		return bit_flagged(iVar2, load_varc(721))
+
+	case 22:
+		return bit_flagged(iVar2, load_varc(722))
+
+	case 23:
+		return bit_flagged(iVar2, load_varc(723))
+
+	case 24:
+		return bit_flagged(iVar2, load_varc(724))
+
+	case 25:
+		return bit_flagged(iVar2, load_varc(725))
+
+	case 26:
+		return bit_flagged(iVar2, load_varc(726))
+
+	case 27:
+		return bit_flagged(iVar2, load_varc(727))
+
+
+}
+return 0
+return 0

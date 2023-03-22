@@ -1,0 +1,9 @@
+//script2078(2078)()(void)
+int iVar0
+iVar0 = 0
+iVar0 = 20 - load_varc(636)
+if(iVar0 == 1)
+	if_settext(if_gethash(836, 27), to_string(iVar0) + " min")
+else
+	if_settext(if_gethash(836, 27), to_string(iVar0) + " mins")
+return

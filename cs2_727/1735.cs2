@@ -1,0 +1,6 @@
+//script1735(1735)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1) {
+	cc_sethide(0)
+	instr6556(script_1736, "Ii", arg0, arg1)
+}
+return

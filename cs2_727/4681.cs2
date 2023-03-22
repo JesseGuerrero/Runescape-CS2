@@ -1,0 +1,9 @@
+//script4681(4681)()(void)
+int iVar0
+iVar0 = 0
+iVar0 = (((((((((((((((((((((((((load_varpbit(9436) + load_varpbit(9437)) + load_varpbit(9438)) + load_varpbit(9439)) + load_varpbit(9440)) + load_varpbit(9441)) + load_varpbit(9442)) + load_varpbit(9443)) + load_varpbit(9444)) + load_varpbit(9445)) + load_varpbit(9446)) + load_varpbit(9447)) + load_varpbit(9448)) + load_varpbit(9449)) + load_varpbit(9450)) + load_varpbit(9451)) + load_varpbit(9452)) + load_varpbit(9453)) + load_varpbit(9454)) + load_varpbit(9455)) + load_varpbit(9456)) + load_varpbit(9457)) + load_varpbit(9458)) + load_varpbit(9459)) + load_varpbit(9460)) + load_varpbit(9461)) + load_varpbit(9462)
+if(iVar0 == 26)
+	if_settext(if_gethash(314, 13), "Final wreck to loot!")
+else
+	if_settext(if_gethash(314, 13), "Wrecks looted: " + to_string(iVar0) + "/27")
+return

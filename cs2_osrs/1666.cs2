@@ -1,0 +1,6 @@
+void script_1666(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget arg6) {
+	playSoundEffect(2266, 1, 0);
+	VARC[186] = arg0;
+	script_1664(widget1, widget2, widget3, widget4, widget5, arg6);
+	return;
+}

@@ -1,0 +1,5 @@
+void script_1668(int arg0, int arg1) {
+	CHILD.setText(datamap('i', 's', 170, arg0));
+	_CHILD.setText(concat(script_1503(str(arg0), 3), arg1));
+	return;
+}

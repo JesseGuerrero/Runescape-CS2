@@ -1,0 +1,12 @@
+//script1913(1913)()(void)
+if_sethide(if_gethash(813, 16), 1)
+if_sethide(if_gethash(813, 76), 1)
+if_sethide(if_gethash(813, 17), 1)
+if_sethide(if_gethash(813, 77), 1)
+if_sethide(if_gethash(813, 18), 1)
+if_sethide(if_gethash(813, 78), 1)
+if_sethide(if_gethash(813, 19), 0)
+if_sethide(if_gethash(813, 79), 0)
+if_sethide(if_gethash(813, 75), 1)
+store_varc(582, 0)
+return

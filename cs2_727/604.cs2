@@ -1,0 +1,7 @@
+//script604(604)()(void)
+if(load_varp(1109) == -1)
+	return
+store_varc(85, max(1, load_varc(85) - 1))
+if_settext(if_gethash(105, 153), tostring_localized(1, load_varc(85)) + " gp")
+script_609()
+return

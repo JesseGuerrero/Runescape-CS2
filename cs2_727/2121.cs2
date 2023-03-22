@@ -1,0 +1,11 @@
+//script2121(2121)(int arg0, int arg1)(void)
+script_2122(1, arg0, "Mime outfit")
+script_2122(11, arg0, "Frog kit")
+script_2122(21, arg0, "Zombie outfit (Gravedigger reward)")
+script_2122(31, arg0, "Camo kit (Drill Demon reward)")
+script_2122(41, arg0, "Lederhosen outfit (Freaky Forester reward)")
+if_setscrollsize(arg0, 320, 0)
+script_31(arg1, arg0, 792, 789, 790, 791, 773, 788)
+if(cc_find(1, arg1) == 1)
+	script_37(arg1, arg0, if_getscrolly(arg0), 1)
+return

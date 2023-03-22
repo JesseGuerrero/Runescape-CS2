@@ -1,0 +1,85 @@
+void script_656(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7) {
+	int int8;
+	int int9;
+	int int10;
+	Widget widget11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	Item item16;
+	string str0;
+	widget0.setText(datamap('i', 's', 108, VARPBIT[4371]));
+	int8 = 0;
+	int9 = 0;
+	int10 = 0;
+	str0 = "";
+	widget11 = datamap('i', 'I', 990, int9);
+	str0, int10 = script_660(VARPBIT[4371], int9);
+	while (widget11 != null && length(str0) > 0) {
+		widget11.setText(str0);
+		if (VARPBIT[4372] == int9) {
+			if (int10 == 1) {
+				widget1.setText(concat(str0, " - Members Only"));
+			} else {
+				widget1.setText(str0);
+			}
+			int8 = int9;
+		}
+		int9 = int9 + 1;
+		widget11 = datamap('i', 'I', 990, int9);
+		str0, int10 = script_660(VARPBIT[4371], int9);
+	}
+	int12 = int9;
+	int9 = 0;
+	if (int12 >= 2) {
+		widget5.setIsHidden(false);
+		widget6.setIsHidden(false);
+		widget7.setIsHidden(false);
+		widget6.setModel(datamap('i', 'm', 991, int12));
+		widget7.setPosition(widget7.getX(), datamap('i', 'i', 992, int12), 0, 0);
+		widget11 = datamap('i', 'I', 990, int9);
+		while (widget11 != null) {
+			if (int9 < int12) {
+				widget11.setIsHidden(false);
+			} else {
+				widget11.setIsHidden(true);
+			}
+			int9 = int9 + 1;
+			widget11 = datamap('i', 'I', 990, int9);
+		}
+	} else {
+		widget5.setIsHidden(true);
+		widget6.setIsHidden(true);
+		widget7.setIsHidden(true);
+		widget11 = datamap('i', 'I', 990, int9);
+		while (widget11 != null) {
+			widget11.setIsHidden(true);
+			int9 = int9 + 1;
+			widget11 = datamap('i', 'I', 990, int9);
+		}
+	}
+	widget2.clearChildren();
+	widget3.clearChildren();
+	widget4.clearChildren();
+	int13 = widget2.getWidth() - (28 + 36 + 3);
+	int14 = 3;
+	int9 = 0;
+	int15 = 0;
+	item16 = null;
+	int15, item16, str0 = script_661(VARPBIT[4371], int8, int9);
+	while (item16 != null) {
+		int14 = script_657(int15, item16, str0, widget2, widget3, int13, int8, int9, int14);
+		int9 = int9 + 1;
+		int15, item16, str0 = script_661(VARPBIT[4371], int8, int9);
+	}
+	widget3.setSize(widget2.getWidth(), int14, 0, 0);
+	widget2.setScrollPos(0, 0);
+	if (int14 > widget2.getHeight()) {
+		widget2.setScrollMax(0, int14);
+		script_31(widget4, widget2, 798, 795, 796, 797, 793, 794);
+	} else {
+		widget2.setScrollMax(0, 0);
+	}
+	return;
+}

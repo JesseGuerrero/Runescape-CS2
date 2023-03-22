@@ -1,0 +1,27 @@
+//script1930(1930)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return 20
+
+	case 2:
+		return 20
+
+	case 3:
+		return 30
+
+	case 4:
+		return 28
+
+	case 5:
+		return 24
+
+	case 6:
+		return 26
+		return -1
+
+
+}
+return -1
+return 0

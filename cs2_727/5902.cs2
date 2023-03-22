@@ -1,0 +1,14 @@
+//script5902(5902)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = -1
+iVar2 = 0
+iVar1 = script_6188(arg0).get(0)
+iVar3 = script_5934(arg0)
+iVar4 = script_5936(arg0)
+iVar5 = struct_param(2268, iVar4)
+if_setitem(iVar3, iVar2, iVar1)
+return

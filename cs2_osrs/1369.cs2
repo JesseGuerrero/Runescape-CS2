@@ -1,0 +1,63 @@
+int script_1369() {
+	int int0;
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int0 = 0;
+	int1 = script_1371();
+	int2 = script_1374();
+	int3 = script_1372();
+	int4 = script_1373();
+	int5 = 200;
+	int5 = datamap('i', 'i', 1408, VARPBIT[3251]);
+	if (int1 >= int5 && int5 > 0) {
+		int0 = flagBit(int0, 0);
+	}
+	int5 = datamap('i', 'i', 1408, VARPBIT[3254]);
+	if (int2 >= int5 && int5 > 0) {
+		int0 = flagBit(int0, 1);
+	}
+	int5 = datamap('i', 'i', 1408, VARPBIT[3253]);
+	if (int3 >= int5 && int5 > 0) {
+		int0 = flagBit(int0, 2);
+	}
+	int5 = datamap('i', 'i', 1408, VARPBIT[3255]);
+	if (int4 >= int5 && int5 > 0) {
+		int0 = flagBit(int0, 3);
+	}
+	int6 = script_1046(script_1046(int1, int2), script_1046(int3, int4));
+	int7 = script_1045(script_1045(int1, int2), script_1045(int3, int4));
+	if (int6 >= 375) {
+		int0 = flagBit(int0, 8);
+		int0 = flagBit(int0, 9);
+	}
+	if (int6 >= 275) {
+		int0 = flagBit(int0, 4);
+		int0 = flagBit(int0, 5);
+		int0 = flagBit(int0, 6);
+		int0 = flagBit(int0, 7);
+	}
+	if (int6 >= 150) {
+		int0 = flagBit(int0, 11);
+	}
+	if (int6 >= 100) {
+		int0 = flagBit(int0, 10);
+	}
+	if (int7 >= 500) {
+		int0 = flagBit(int0, 15);
+	}
+	if (int7 >= 400 && VARP[262] > 5) {
+		int0 = flagBit(int0, 14);
+	}
+	if (int7 >= 200 && VARP[262] > 2) {
+		int0 = flagBit(int0, 13);
+	}
+	if (getItemAmtInContainer(93, 995) >= 95000) {
+		int0 = flagBit(int0, 12);
+	}
+	return int0;
+}

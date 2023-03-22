@@ -1,0 +1,9 @@
+//script1034(1034)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, string arg6)(void)
+cc_create(arg0, 4, 10289177)
+cc_setposition(0, 0, arg2, arg1)
+cc_setsize(0, 0, arg4, arg3)
+cc_setcolor(0)
+cc_settextshadow(1)
+cc_settextfont(495)
+cc_settext(arg0)
+return

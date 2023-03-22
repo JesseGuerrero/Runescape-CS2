@@ -1,0 +1,47 @@
+void script_1098(int arg0, char char1, Widget widget2, Widget widget3, Widget arg4, Widget arg5, Widget arg6, Widget widget7) {
+	int int8;
+	int int9;
+	string str0;
+	if (script_1701(156, -1) == 0) {
+		return;
+	}
+	str0 = "";
+	if (widget2 == arg5) {
+		STRING[27] = script_74(STRING[27], 5, arg0, char1);
+		str0 = STRING[27];
+		if (length(STRING[27]) > 0) {
+			widget7.setContextMenuOption(1, "Submit");
+			widget7.hookOptionClick(&script_1103());
+			widget7.hookMousePress(null);
+		} else {
+			widget7.setNoOptions();
+			widget7.hookOptionClick(null);
+			widget7.hookMousePress(&script_1103());
+		}
+	} else {
+		if (!(widget2 == arg6)) {
+			return;
+		}
+		STRING[130] = script_74(STRING[130], 5, arg0, char1);
+		str0 = STRING[130];
+	}
+	str0 = script_1099(str0);
+	str0 = concat(str0, "<col=ffffff>" + "*" + "</col>");
+	int8 = getLineCount(str0, widget2.getWidth(), 495) * 12 + 5;
+	int9 = widget2.getHeight();
+	if (int8 < int9) {
+		int8 = int9;
+	}
+	if (CHILD.setChild(widget2, 0) == true && _CHILD.setChild(widget2, 1) == true) {
+		CHILD.setSize(0, int8, 1, 0);
+		_CHILD.setSize(0, int8, 1, 0);
+		_CHILD.setText(str0);
+	}
+	if (int8 > int9) {
+		widget2.setScrollMax(0, int8);
+	} else {
+		widget2.setScrollMax(0, 0);
+	}
+	script_72(widget3, widget2, int8);
+	return;
+}

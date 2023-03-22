@@ -1,0 +1,5 @@
+//script2595(2595)(int arg0)(void)
+int iVar1
+iVar1 = detailget_currenttoolkit()
+script_2596(iVar1, instr6644(), script_2692(iVar1).get(0), script_2692(iVar1).get(1), arg0)
+return

@@ -1,0 +1,17 @@
+//script232(232)()(void)
+if_sethide(if_gethash(594, 62), 1)
+if_sethide(if_gethash(594, 117), 1)
+if_sethide(if_gethash(594, 121), 1)
+if_sethide(if_gethash(594, 34), 1)
+if(if_gethide(if_gethash(594, 61)) == 0)
+	if_sethide(if_gethash(594, 62), 0)
+else
+	if(if_gethide(if_gethash(594, 104)) == 0)
+		if_sethide(if_gethash(594, 117), 0)
+	else
+		if(if_gethide(if_gethash(594, 120)) == 0)
+			if_sethide(if_gethash(594, 121), 0)
+		else
+			if(if_gethide(if_gethash(594, 33)) == 0)
+				if_sethide(if_gethash(594, 34), 0)
+return

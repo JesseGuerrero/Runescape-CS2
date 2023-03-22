@@ -1,0 +1,13 @@
+void script_1960(int arg0, Widget widget1, Widget arg2) {
+	if (arg0 != 1) {
+		return;
+	}
+	playSoundEffect(2266, 1, 0);
+	if (VARPBIT[5711] == 0) {
+		VARPBIT[5711] = 1;
+	} else {
+		VARPBIT[5711] = 0;
+	}
+	script_1961(widget1, arg2);
+	return;
+}

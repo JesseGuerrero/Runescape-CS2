@@ -1,0 +1,23 @@
+void script_980(Widget widget0) {
+	int int1;
+	widget0.clearChildren();
+	if (VARP[211] == 0) {
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+		return;
+	}
+	int1 = script_835(widget0, 0);
+	CHILD.createChild(widget0, 4, int1);
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFont(495);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText("Stop");
+	CHILD.setRGB(0xFF981F);
+	widget0.hookMouseHover(&script_85(CTX_WIDGET, int1, 16777215));
+	widget0.hookMouseExit(&script_85(CTX_WIDGET, int1, 16750623));
+	widget0.hookOptionClick(&script_978(CTX_MENU_OPTION, widget0));
+	return;
+}

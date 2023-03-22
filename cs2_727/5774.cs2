@@ -1,0 +1,8 @@
+//script5774(5774)(int arg0, int arg1)(void)
+if(arg0 == 1)
+	if_setgraphic(arg1, 9615)
+else
+	if_setgraphic(arg1, 9618)
+hook_mouse_enter(arg1, script_4009, "iiIi", 1, arg0, -2147483645, -1)
+hook_mouse_exit(arg1, script_4009, "iiIi", 0, arg0, -2147483645, -1)
+return

@@ -1,0 +1,6 @@
+void script_1638(Widget widget0, int arg1, int arg2) {
+	int int3;
+	int3 = arg1 * 30 - (getClientCycle() - arg2);
+	script_1640(widget0, int3);
+	return;
+}

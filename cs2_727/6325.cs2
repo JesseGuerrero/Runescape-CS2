@@ -1,0 +1,27 @@
+//script6325(6325)()(void)
+int iVar0
+string sVar0
+sVar0 = "<col=c8c8c8>"
+iVar0 = 11504
+if(load_varc(1936) == 2) {
+	script_6326(1, 85458957, 85458958)
+	script_6326(0, 85458960, 85458961)
+	script_6326(0, 85458963, 85458964)
+	iVar0 = 11505
+} else 
+	if(load_varc(1936) == 1) {
+		script_6326(0, 85458957, 85458958)
+		script_6326(1, 85458960, 85458961)
+		script_6326(0, 85458963, 85458964)
+	} else  {
+		script_6326(0, 85458957, 85458958)
+		script_6326(0, 85458960, 85458961)
+		script_6326(1, 85458963, 85458964)
+		sVar0 = "<col=787878>"
+	}
+if_setgraphic(if_gethash(1304, 12), iVar0)
+if(load_varc(1935) > 0)
+	if_settext(if_gethash(1304, 6), sVar0 + to_string(min(999999999, load_varc(1935))) + "</col>")
+else
+	if_settext(if_gethash(1304, 6), sVar0 + "None" + "</col>")
+return

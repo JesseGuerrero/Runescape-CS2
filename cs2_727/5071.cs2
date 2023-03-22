@@ -1,0 +1,23 @@
+//script5071(5071)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg0 != 1 || arg3 == -1)
+	return
+if(arg2 >= min(256, enum_getoutputcount(arg3)))
+	return
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		store_varpbit(9517, arg2)
+		break
+	case 2:
+		store_varpbit(9518, arg2)
+		break
+	case 3:
+		store_varpbit(9519, arg2)
+		return
+
+
+}
+sound_vorbis_volume(200, 0, 1, 6185)
+script_5067()
+return

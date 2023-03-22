@@ -1,0 +1,10 @@
+//script2895(2895)(int arg0)(void)
+if(load_varc(1078) > load_varpbit(7189))
+	if(load_varc(1079) != 1) {
+		instr6342(arg0, script_2896, "I", arg0)
+		store_varc(1079, 1)
+	}
+else
+	if(load_varc(1078) == 0)
+		store_varc(1078, load_varpbit(7189))
+return

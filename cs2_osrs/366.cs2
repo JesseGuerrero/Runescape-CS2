@@ -1,0 +1,13 @@
+void script_366(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Chat effects" + "<br>" + "(currently on)";
+	if (VARP[171] <= 0) {
+		widget0.setSprite(762);
+	} else {
+		str0 = "Chat effects" + "<br>" + "(currently off)";
+		widget0.setSprite(761);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

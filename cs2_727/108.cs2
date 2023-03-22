@@ -1,0 +1,13 @@
+//script108(108)(string arg0)(int)
+if(instr6644() >= 2)
+	if_sethide(if_gethash(746, 22), 0)
+if_sethide(if_gethash(752, 3), 0)
+if_sethide(if_gethash(752, 7), 1)
+if_sethide(if_gethash(752, 8), 1)
+if_settext(if_gethash(752, 4), arg0)
+store_varc(5, 7)
+script_1564("")
+hook_mouse_press(if_gethash(752, 3), None, "")
+script_2026()
+instr6248(if_gethash(752, 5), script_112, "iz", -2147483640, -2147483639)
+return 138

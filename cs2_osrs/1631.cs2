@@ -1,0 +1,19 @@
+void script_1631(int arg0, int arg1, Widget widget2) {
+	string str0;
+	string str1;
+	if (arg0 < 1 || widget2 == null || arg0 > 31) {
+		return;
+	}
+	str0 = "";
+	str1 = "";
+	if (CHILD.setChild(widget2, 6) == true) {
+		if (arg0 <= 9) {
+			str0 = str(arg0);
+		} else {
+			str0, str1 = datamap('i', 's', 1401, arg0 - 9), datamap('i', 's', 1402, arg0 - 9);
+		}
+		CHILD.setText(str0 + ":");
+		widget2.hookKey(&script_1632(KEY_PRESSED, arg1, CTX_WIDGET, str0, str1, 0));
+	}
+	return;
+}

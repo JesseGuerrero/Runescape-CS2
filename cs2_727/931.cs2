@@ -1,0 +1,34 @@
+//script931(931)(int arg0)(int)
+int iVar1
+iVar1 = item_param(770, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < item_param(771, arg0))
+	return 0
+iVar1 = item_param(772, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < item_param(773, arg0))
+	return 0
+iVar1 = item_param(774, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < item_param(775, arg0))
+	return 0
+iVar1 = item_param(776, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < item_param(777, arg0))
+	return 0
+iVar1 = item_param(778, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < item_param(779, arg0))
+	return 0
+iVar1 = item_param(780, arg0)
+if(iVar1 == -1)
+	return 1
+if(stat_base(iVar1) < item_param(781, arg0))
+	return 0
+return 1
+return -1

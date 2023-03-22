@@ -1,0 +1,46 @@
+//script4420(4420)()(void)
+if_settext(if_gethash(1107, 60), "Event")
+if_sethide(if_gethash(1107, 58), 0)
+if_sethide(if_gethash(1107, 59), 0)
+switch(load_clan_setting_varbit(130)) {
+	case default:
+		break
+	case 1:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(98), load_clan_setting_varbit(106), load_clan_setting_varbit(82), load_clan_setting_varbit(90), load_clan_setting_varbit(74), load_clan_setting_varbit(114), load_clan_setting_var(65), load_clan_setting_varbit(132), load_clan_setting_var_long(122))
+		break
+	case 2:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(99), load_clan_setting_varbit(107), load_clan_setting_varbit(83), load_clan_setting_varbit(91), load_clan_setting_varbit(75), load_clan_setting_varbit(115), load_clan_setting_var(66), load_clan_setting_varbit(133), load_clan_setting_var_long(123))
+		break
+	case 3:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(100), load_clan_setting_varbit(108), load_clan_setting_varbit(84), load_clan_setting_varbit(92), load_clan_setting_varbit(76), load_clan_setting_varbit(116), load_clan_setting_var(67), load_clan_setting_varbit(134), load_clan_setting_var_long(124))
+		break
+	case 4:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(101), load_clan_setting_varbit(109), load_clan_setting_varbit(85), load_clan_setting_varbit(93), load_clan_setting_varbit(77), load_clan_setting_varbit(117), load_clan_setting_var(68), load_clan_setting_varbit(135), load_clan_setting_var_long(125))
+		break
+	case 5:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(102), load_clan_setting_varbit(110), load_clan_setting_varbit(86), load_clan_setting_varbit(94), load_clan_setting_varbit(78), load_clan_setting_varbit(118), load_clan_setting_var(69), load_clan_setting_varbit(136), load_clan_setting_var_long(126))
+		break
+	case 6:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(103), load_clan_setting_varbit(111), load_clan_setting_varbit(87), load_clan_setting_varbit(95), load_clan_setting_varbit(79), load_clan_setting_varbit(119), load_clan_setting_var(70), load_clan_setting_varbit(137), load_clan_setting_var_long(127))
+		break
+	case 7:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(104), load_clan_setting_varbit(112), load_clan_setting_varbit(88), load_clan_setting_varbit(96), load_clan_setting_varbit(80), load_clan_setting_varbit(120), load_clan_setting_var(71), load_clan_setting_varbit(138), load_clan_setting_var_long(128))
+		break
+	case 8:
+		script_4421(72548402, 72548403, load_clan_setting_varbit(105), load_clan_setting_varbit(113), load_clan_setting_varbit(89), load_clan_setting_varbit(97), load_clan_setting_varbit(81), load_clan_setting_varbit(121), load_clan_setting_var(72), load_clan_setting_varbit(139), load_clan_setting_var_long(129))
+		hook_mouse_enter(if_gethash(1107, 54), None, "")
+		hook_mouse_exit(if_gethash(1107, 54), None, "")
+		hook_mouse_enter(if_gethash(1107, 56), None, "")
+		hook_mouse_exit(if_gethash(1107, 55), None, "")
+		hook_mouse_enter(if_gethash(1107, 56), None, "")
+		hook_mouse_exit(if_gethash(1107, 56), None, "")
+		if_settext(if_gethash(1107, 60), "Events (none)")
+		if_sethide(if_gethash(1107, 58), 1)
+		if_sethide(if_gethash(1107, 59), 1)
+		if_settext(if_gethash(1107, 50), "")
+		if_settext(if_gethash(1107, 51), "")
+		hook_mouse_press(if_gethash(1107, 57), None, "")
+		break
+
+}
+return

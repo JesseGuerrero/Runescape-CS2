@@ -1,0 +1,5 @@
+//script2916(2916)()(int)
+if(load_varc(1533) == 1)
+	return max(0, stat(3)) * 10
+return max(1, stat_base(3)) * 10
+return 0

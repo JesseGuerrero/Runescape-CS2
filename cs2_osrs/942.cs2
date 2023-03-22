@@ -1,0 +1,48 @@
+void script_942(Widget widget0, int arg1, int arg2, Widget widget3) {
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int4 = arg2;
+	if (int4 < 334) {
+		int4 = 334;
+	} else if (int4 > 1000) {
+		int4 = 1000;
+	}
+	int5 = root(int4 - 334, 2);
+	int6 = root(1000 - 334, 2);
+	widget3.set3DRotation(0, 0, 0, 0, 0, 245 - mathMethod4006(0, int5, 0, int6, 180));
+	int7 = 0;
+	int8 = 334;
+	if (int4 > int8) {
+		int8 = int4;
+	}
+	if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, 1) == true) {
+		if (arg2 < int8) {
+			CHILD.setHidden(true);
+			_CHILD.setHidden(true);
+		} else {
+			CHILD.setHidden(false);
+			_CHILD.setHidden(false);
+			int7 = (arg2 - int8) / 2;
+			CHILD.setSize(0, int7, 1, 0);
+			_CHILD.setSize(0, int7, 1, 0);
+		}
+	}
+	if (CHILD.setChild(widget0, 2) == true && _CHILD.setChild(widget0, 3) == true) {
+		int8 = mathMethod4006(0, 512, 0, 334, int8);
+		if (arg1 < int8) {
+			CHILD.setHidden(true);
+			_CHILD.setHidden(true);
+		} else {
+			CHILD.setHidden(false);
+			_CHILD.setHidden(false);
+			int7 = (arg1 - int8) / 2;
+			CHILD.setSize(int7, 0, 0, 1);
+			_CHILD.setSize(int7, 0, 0, 1);
+		}
+	}
+	widget0.hookFrame(&script_941(widget0, arg1, arg2, widget3));
+	return;
+}

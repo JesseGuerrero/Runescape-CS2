@@ -1,0 +1,46 @@
+//script2716(2716)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = 85917750
+iVar7 = 0
+iVar8 = 0
+if(arg0 != -1) {
+	iVar1 = struct_param(2535, arg0)
+	iVar2 = struct_param(2536, arg0)
+	iVar3 = struct_param(2537, arg0)
+	iVar4 = struct_param(2538, arg0)
+	iVar5 = struct_param(2539, arg0)
+	iVar7 = struct_param(2540, arg0)
+	iVar8 = struct_param(2541, arg0)
+}
+script_6443(iVar7, iVar8, 1)
+if(iVar1 == -1) {
+	if(load_varc(779) != -1)
+		iVar1 = bas_getanim_ready(load_varc(779))
+	else
+		iVar1 = bas_getanim_ready(1426)
+	instr6342(if_gethash(1311, 134), script_6449, "IIii", -2147483645, iVar6, 0, 0)
+} else 
+	instr6342(if_gethash(1311, 134), None, "")
+if(cc_find(0, iVar6) == 1) {
+	instr6096(None, "")
+	cc_setmodelanim(iVar1)
+}
+if(iVar2 != -1)
+	if(iVar3 != -1)
+		script_6446(iVar6, 300, iVar7, cc_getspriteroll(), iVar8, iVar3, iVar2)
+if(iVar4 != -1)
+	if(iVar5 != -1)
+		script_6446(iVar6, 300, iVar7, cc_getspriteroll(), iVar8, iVar5, iVar4)
+return

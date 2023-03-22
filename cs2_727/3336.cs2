@@ -1,0 +1,63 @@
+//script3336(3336)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+iVar4 = instr6072(if_gethash(1216, 9))
+iVar4 = iVar4 - 800
+if(iVar4 < 0)
+	iVar4 = 65000
+if_set2dangle(if_gethash(1216, 9), iVar4)
+iVar5 = max(arg1 - arg0, 1)
+iVar6 = (255 / iVar5) + 1
+if(if_gethide(if_gethash(1216, 1)) == 1)
+	if(detailget_currenttoolkit() != 0)
+		if_sethide(if_gethash(1216, 1), 0)
+if(if_gethide(if_gethash(1216, 17)) == 1)
+	if(detailget_currenttoolkit() != 0)
+		if_sethide(if_gethash(1216, 17), 0)
+if(client_clock() < arg1)
+	if(client_clock() > arg0) {
+		if_settrans(if_gethash(1216, 15), min(if_gettrans(if_gethash(1216, 15)) + iVar6, 175))
+		if_settrans(if_gethash(1216, 12), max(if_gettrans(if_gethash(1216, 12)) - iVar6, 0))
+		if_settrans(if_gethash(1216, 14), max(if_gettrans(if_gethash(1216, 12)) - iVar6, 0))
+		if_settrans(if_gethash(1216, 13), max(if_gettrans(if_gethash(1216, 12)) - iVar6, 0))
+		return
+	} else 
+		if(client_clock() < arg2)
+			if(client_clock() >= arg1) {
+				if(client_clock() >= arg1 + 25) {
+					if_sethide(if_gethash(1216, 1), 1)
+					if_sethide(if_gethash(1216, 2), 1)
+					if_sethide(if_gethash(1216, 17), 1)
+				}
+				if(client_clock() == arg1)
+					script_3337(arg3, arg2 - arg1)
+			} else 
+				if(client_clock() >= arg2) {
+					if(if_gethide(if_gethash(1216, 1)) == 0)
+						if_sethide(if_gethash(1216, 1), 1)
+					if(if_gethide(if_gethash(1216, 2)) == 0)
+						if_sethide(if_gethash(1216, 2), 1)
+					if(if_gethide(if_gethash(1216, 17)) == 0)
+						if_sethide(if_gethash(1216, 17), 1)
+					if(if_gettrans(if_gethash(1216, 8)) < 255) {
+						if_settrans(if_gethash(1216, 15), min(if_gettrans(if_gethash(1216, 15)) + 10, 255))
+						if_settrans(if_gethash(1216, 5), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 6), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 4), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 7), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 12), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 14), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 13), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 9), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+						if_settrans(if_gethash(1216, 8), min(if_gettrans(if_gethash(1216, 8)) + 10, 255))
+					} else  {
+						cc_deleteall(if_gethash(1216, 3))
+						cc_deleteall(if_gethash(1216, 0))
+						instr6342(if_gethash(1216, 16), None, "")
+						if_sethide(if_gethash(1216, 11), 1)
+						if(load_varpbit(10443) == 0)
+							if_sethide(if_gethash(1213, 2), 0)
+					}
+				}
+return

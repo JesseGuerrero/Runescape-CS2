@@ -1,0 +1,23 @@
+//script3490(3490)(int arg0)(void)
+int iVar1
+iVar1 = arg0
+switch(arg0) {
+	case default:
+		break
+	case 65077432:
+		iVar1 = 65077505
+		break
+	case 65077433:
+		iVar1 = 65077490
+		break
+	case 65077434:
+		iVar1 = 65077475
+		break
+	case 65077435:
+		iVar1 = 65077460
+		break
+
+}
+if(if_gettrans(iVar1) > 220)
+	if_settrans(iVar1, if_gettrans(iVar1) - 2)
+return

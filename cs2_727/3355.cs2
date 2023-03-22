@@ -1,0 +1,508 @@
+//script3355(3355)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18619, 1, "You can now fight " + "<col=000080>" + "gluttonous behemoths" + "</col>" + " in Daemonheim.", "Gluttonous behemoth"
+
+			case 1:
+				return 18617, 1, "You can now fight " + "<col=000080>" + "Astea Frostweb" + "</col>" + " in Daemonheim.", "Astea Frostweb"
+
+			case 2:
+				return 18625, 1, "You can now fight " + "<col=000080>" + "Icy Bones" + "</col>" + " in Daemonheim.", "Icy Bones"
+
+			case 3:
+				return 18628, 5, "You can now fight " + "<col=000080>" + "luminescent icefiends" + "</col>" + " in Daemonheim.", "Luminescent icefiend"
+
+			case 4:
+				return 18621, 11, "You can now fight " + "<col=000080>" + "Plane-freezer Lakhrahnaz" + "</col>" + " in Daemonheim.", "Plane-freezer Lakhrahnaz"
+
+			case 5:
+				return 18623, 17, "You can now fight " + "<col=000080>" + "To'Kash the Bloodchiller" + "</col>" + " in Daemonheim.", "To'Kash the Bloodchiller"
+
+			case 6:
+				return 18618, 23, "You can now fight " + "<col=000080>" + "skeletal hordes" + "</col>" + " in Daemonheim.", "Skeletal Horde"
+
+			case 7:
+				return 18624, 23, "You can now fight the " + "<col=000080>" + "Geomancer Shaman" + "</col>" + " in Daemonheim.", "Hobgoblin Geomancer"
+
+			case 8:
+				return 19699, 23, "You can now fight " + "<col=000080>" + "bulwark beasts" + "</col>" + " in Daemonheim.", "Bulwark beast"
+
+			case 9:
+				return 18632, 29, "You can now fight " + "<col=000080>" + "unholy cursebearers" + "</col>" + " in Daemonheim.", "Unholy cursebearer"
+
+			case 10:
+				return 18622, 35, "You can now fight " + "<col=000080>" + "rammernauts" + "</col>" + " in Daemonheim.", "Rammernaut"
+
+			case 11:
+				return 18633, 35, "You can now fight " + "<col=000080>" + "stomps" + "</col>" + " in Daemonheim.", "Stomp"
+
+			case 12:
+				return 19697, 35, "You can now fight " + "<col=000080>" + "Har'Lakk the Riftsplitter" + "</col>" + " in Daemonheim.", "Har'Lakk the Riftsplitter"
+
+			case 13:
+				return 18627, 39, "You can now fight " + "<col=000080>" + "Lexicus Runewright" + "</col>" + " in Daemonheim.", "Lexicus Runewright"
+
+			case 14:
+				return 18630, 45, "You can now fight " + "<col=000080>" + "sagittares" + "</col>" + " in Daemonheim.", "Sagittare"
+
+			case 15:
+				return 18631, 51, "You can now fight " + "<col=000080>" + "Night-gazer Khighorahk" + "</col>" + " in Daemonheim.", "Night-gazer Khighorahk"
+
+			case 16:
+				return 18626, 59, "You can now fight " + "<col=000080>" + "Shadow-forger Ihlakhizan" + "</col>" + " in Daemonheim.", "Shadow-forger Ihlakhizan"
+
+			case 17:
+				return 19696, 65, "You can now fight " + "<col=000080>" + "Bal'Lak the Pummeller" + "</col>" + " in Daemonheim.", "Bal'Lak the Pummeller"
+
+			case 18:
+				return 19694, 71, "Members can now fight the " + "<col=000080>" + "skeletal trio" + "</col>" + " in Daemonheim.", "Members: Skeletal trio"
+
+			case 19:
+				return 19695, 71, "Members can now fight " + "<col=000080>" + "runebound behemoths" + "</col>" + " in Daemonheim.", "Members: Runebound behemoth"
+
+			case 20:
+				return 19692, 71, "Members can now fight " + "<col=000080>" + "Grave Creeper" + "</col>" + " in Daemonheim.", "Members: Gravecreeper"
+
+			case 21:
+				return 19691, 77, "Members can now fight " + "<col=000080>" + "necrolords" + "</col>" + " in Daemonheim.", "Members: Necrolord"
+
+			case 22:
+				return 19693, 83, "Members can now fight " + "<col=000080>" + "Flesh-spoiler Haasghenahk" + "</col>" + " in Daemonheim.", "Members: Flesh-spoiler Haasghenahk"
+
+			case 23:
+				return 19698, 89, "Members can now fight " + "<col=000080>" + "Yk'Lagor the Thunderous" + "</col>" + " in Daemonheim.", "Members: Yk'Lagor the Thunderous"
+
+			case 24:
+				return 19885, 95, "Members can now fight " + "<col=000080>" + "Blink" + "</col>" + " in Daemonheim.", "Members: Blink"
+
+			case 25:
+				return 19883, 95, "Members can now fight " + "<col=000080>" + "warped gulega" + "</col>" + " in Daemonheim.", "Members: Warped gulega"
+
+			case 26:
+				return 19884, 95, "Members can now fight " + "<col=000080>" + "dreadnauts" + "</col>" + " in Daemonheim.", "Members: Dreadnaut"
+
+			case 27:
+				return 19882, 101, "Members can now fight " + "<col=000080>" + "hope devourers" + "</col>" + " in Daemonheim.", "Members: Hope devourer"
+
+			case 28:
+				return 19881, 107, "Members can now fight " + "<col=000080>" + "World-gorger Shukarhazh" + "</col>" + " in Daemonheim.", "Members: World-gorger Shukarhazh"
+
+			case 29:
+				return 19880, 113, "Members can now fight " + "<col=000080>" + "Kal'Ger the Warmonger" + "</col>" + " in Daemonheim.", "Members: Kal'Ger the Warmonger"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18579, 1, "You can now access floor " + "<col=000080>" + "1" + "</col>" + " of Daemonheim.", "Floor 1"
+
+			case 1:
+				return 18579, 3, "You can now access floor " + "<col=000080>" + "2" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 2"
+
+			case 2:
+				return 18579, 5, "You can now access floor " + "<col=000080>" + "3" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 3"
+
+			case 3:
+				return 18579, 7, "You can now access floor " + "<col=000080>" + "4" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 4"
+
+			case 4:
+				return 18579, 9, "You can now access floor " + "<col=000080>" + "5" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 5"
+
+			case 5:
+				return 18579, 11, "You can now access floor " + "<col=000080>" + "6" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 6"
+
+			case 6:
+				return 18579, 13, "You can now access floor " + "<col=000080>" + "7" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 7"
+
+			case 7:
+				return 18579, 15, "You can now access floor " + "<col=000080>" + "8" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 8"
+
+			case 8:
+				return 18579, 17, "You can now access floor " + "<col=000080>" + "9" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 9"
+
+			case 9:
+				return 18579, 19, "You can now access floor " + "<col=000080>" + "10" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 10"
+
+			case 10:
+				return 18579, 21, "You can now access floor " + "<col=000080>" + "11" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 11"
+
+			case 11:
+				return 18578, 23, "You can now access floor " + "<col=000080>" + "12" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 12"
+
+			case 12:
+				return 18578, 25, "You can now access floor " + "<col=000080>" + "13" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 13"
+
+			case 13:
+				return 18578, 27, "You can now access floor " + "<col=000080>" + "14" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 14"
+
+			case 14:
+				return 18578, 29, "You can now access floor " + "<col=000080>" + "15" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 15"
+
+			case 15:
+				return 18578, 31, "You can now access floor " + "<col=000080>" + "16" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 16"
+
+			case 16:
+				return 18578, 33, "You can now access floor " + "<col=000080>" + "17" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 17"
+
+			case 17:
+				return 18577, 35, "You can now access floor " + "<col=000080>" + "18" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 18"
+
+			case 18:
+				return 18577, 37, "You can now access floor " + "<col=000080>" + "19" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 19"
+
+			case 19:
+				return 18577, 39, "You can now access floor " + "<col=000080>" + "20" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 20"
+
+			case 20:
+				return 18577, 41, "You can now access floor " + "<col=000080>" + "21" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 21"
+
+			case 21:
+				return 18577, 43, "You can now access floor " + "<col=000080>" + "22" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 22"
+
+			case 22:
+				return 18577, 45, "You can now access floor " + "<col=000080>" + "23" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 23"
+
+			case 23:
+				return 18577, 47, "You can now access floor " + "<col=000080>" + "24" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 24"
+
+			case 24:
+				return 18577, 49, "You can now access floor " + "<col=000080>" + "25" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 25"
+
+			case 25:
+				return 18577, 51, "You can now access floor " + "<col=000080>" + "26" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 26"
+
+			case 26:
+				return 18577, 53, "You can now access floor " + "<col=000080>" + "27" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 27"
+
+			case 27:
+				return 18577, 55, "You can now access floor " + "<col=000080>" + "28" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 28"
+
+			case 28:
+				return 18577, 57, "You can now access floor " + "<col=000080>" + "29" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 29"
+
+			case 29:
+				return 18578, 59, "You can now access floor " + "<col=000080>" + "30" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 30"
+
+			case 30:
+				return 18578, 61, "You can now access floor " + "<col=000080>" + "31" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 31"
+
+			case 31:
+				return 18578, 63, "You can now access floor " + "<col=000080>" + "32" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 32"
+
+			case 32:
+				return 18578, 65, "You can now access floor " + "<col=000080>" + "33" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 33"
+
+			case 33:
+				return 18578, 67, "You can now access floor " + "<col=000080>" + "34" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 34"
+
+			case 34:
+				return 18578, 69, "You can now access floor " + "<col=000080>" + "35" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Floor 35"
+
+			case 35:
+				return 19690, 71, "Members can now access floor " + "<col=000080>" + "36" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 36"
+
+			case 36:
+				return 19690, 73, "Members can now access floor " + "<col=000080>" + "37" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 37"
+
+			case 37:
+				return 19690, 75, "Members can now access floor " + "<col=000080>" + "38" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 38"
+
+			case 38:
+				return 19690, 77, "Members can now access floor " + "<col=000080>" + "39" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 39"
+
+			case 39:
+				return 19690, 79, "Members can now access floor " + "<col=000080>" + "40" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 40"
+
+			case 40:
+				return 19690, 81, "Members can now access floor " + "<col=000080>" + "41" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 41"
+
+			case 41:
+				return 19690, 83, "Members can now access floor " + "<col=000080>" + "42" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 42"
+
+			case 42:
+				return 19690, 85, "Members can now access floor " + "<col=000080>" + "43" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 43"
+
+			case 43:
+				return 19690, 87, "Members can now access floor " + "<col=000080>" + "44" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 44"
+
+			case 44:
+				return 19690, 89, "Members can now access floor " + "<col=000080>" + "45" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 45"
+
+			case 45:
+				return 19690, 91, "Members can now access floor " + "<col=000080>" + "46" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 46"
+
+			case 46:
+				return 19690, 93, "Members can now access floor " + "<col=000080>" + "47" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 47"
+
+			case 47:
+				return 19896, 95, "Members can now access floor " + "<col=000080>" + "48" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 48"
+
+			case 48:
+				return 19896, 97, "Members can now access floor " + "<col=000080>" + "49" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 49"
+
+			case 49:
+				return 19896, 99, "Members can now access floor " + "<col=000080>" + "50" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 50"
+
+			case 50:
+				return 19896, 101, "Members can now access floor " + "<col=000080>" + "51" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 51"
+
+			case 51:
+				return 19896, 103, "Members can now access floor " + "<col=000080>" + "52" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 52"
+
+			case 52:
+				return 19896, 105, "Members can now access floor " + "<col=000080>" + "53" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 53"
+
+			case 53:
+				return 19896, 107, "Members can now access floor " + "<col=000080>" + "54" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 54"
+
+			case 54:
+				return 19896, 109, "Members can now access floor " + "<col=000080>" + "55" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 55"
+
+			case 55:
+				return 19896, 111, "Members can now access floor " + "<col=000080>" + "56" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 56"
+
+			case 56:
+				return 19896, 113, "Members can now access floor " + "<col=000080>" + "57" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 57"
+
+			case 57:
+				return 19896, 115, "Members can now access floor " + "<col=000080>" + "58" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 58"
+
+			case 58:
+				return 19896, 117, "Members can now access floor " + "<col=000080>" + "59" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 59"
+
+			case 59:
+				return 19896, 119, "Members can now access floor " + "<col=000080>" + "60" + "</col>" + " of Daemonheim (once the previous floors are complete).", "Members: Floor 60"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 16405, 1, "You can now bind " + "<col=000080>" + "one item" + "</col>" + " within Daemonheim.", "Bind one item"
+
+			case 1:
+				return 16405, 1, "You can now bind " + "<col=000080>" + "up to 125 of one type of rune or ammunition" + "</col>" + " within Daemonheim.", "Bind rune or ammo item"
+
+			case 2:
+				return 16415, 50, "You can now bind " + "<col=000080>" + "two items" + "</col>" + " within Daemonheim.", "Bind two items"
+
+			case 3:
+				return 16423, 100, "You can now bind " + "<col=000080>" + "three items" + "</col>" + " within Daemonheim.", "Bind three items"
+
+			case 4:
+				return 16425, 120, "You can now bind " + "<col=000080>" + "four items" + "</col>" + " within Daemonheim.", "Bind four items"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18337, 21, "Members can now use " + "<col=000080>" + "bonecrushers" + "</col>" + ". (They also need level 21 Prayer.)", "Members: Bonecrusher" + "<br>" + " (with 21 Prayer)"
+
+			case 1:
+				return 19675, 21, "Members can now use " + "<col=000080>" + "herbicide" + "</col>" + ". (They also need level 21 Herblore.)", "Members: Herbicide" + "<br>" + " (with 21 Herblore)"
+
+			case 2:
+				return 18338, 25, "You can now use " + "<col=000080>" + "gem bags" + "</col>" + ". (You also need level 25 Crafting.)", "Gem bag" + "<br>" + " (with 25 Crafting)"
+
+			case 3:
+				return 18336, 25, "Members can now use the " + "<col=000080>" + "scroll of life" + "</col>" + ". (They also need level 25 Farming.)", "Members: Scroll of life" + "<br>" + " (with 25 Farming)"
+
+			case 4:
+				return 18333, 30, "You can now wear " + "<col=000080>" + "arcane pulse necklaces" + "</col>" + ". (You also need level 30 Magic.)", "Arcane pulse necklace" + "<br>" + " (with 30 Magic)"
+
+			case 5:
+				return 19671, 30, "You can now use " + "<col=000080>" + "magical blastboxes" + "</col>" + ". (You also need level 30 Magic and 30 Runecrafting.)", "Magical blastbox" + "<br>" + " (with 30 Magic and 30 Runecrafting)"
+
+			case 6:
+				return 19886, 30, "You can now wear " + "<col=000080>" + "twisted bird skull necklaces" + "</col>" + ". (You also need level 30 Prayer.)", "Twisted bird skull necklace" + "<br>" + " (with 30 Prayer)"
+
+			case 7:
+				return 18339, 35, "You can now use " + "<col=000080>" + "coal bags" + "</col>" + ". (You also need level 35 Mining.)", "Coal bag" + "<br>" + " (with 35 Mining)"
+
+			case 8:
+				return 18330, 45, "You can now use " + "<col=000080>" + "longbow sights" + "</col>" + ". (You also need level 45 Ranged.)", "Longbow sight" + "<br>" + " (with 45 Ranged)"
+
+			case 9:
+				return 18367, 45, "You can now wield " + "<col=000080>" + "gravite longswords" + "</col>" + ". (You also need level 45 Attack.)", "Gravite longsword" + "<br>" + " (with 45 Attack)"
+
+			case 10:
+				return 18365, 45, "You can now wield " + "<col=000080>" + "gravite rapiers" + "</col>" + ". (You also need level 45 Attack.)", "Gravite rapier" + "<br>" + " (with 45 Attack)"
+
+			case 11:
+				return 18373, 45, "You can now wield " + "<col=000080>" + "gravite shortbows" + "</col>" + ". (You also need level 45 Ranged.)", "Gravite shortbow" + "<br>" + " Ammo: Arrows up to rune" + "<br>" + " (with 45 Ranged)"
+
+			case 12:
+				return 18371, 45, "You can now wield " + "<col=000080>" + "gravite staves" + "</col>" + ". (You also need level 45 Magic.)", "Gravite staff" + "<br>" + " (with 45 Magic)"
+
+			case 13:
+				return 18369, 45, "You can now wield " + "<col=000080>" + "gravite two-handed swords" + "</col>" + ". (You also need level 45 Attack.)", "Gravite two-handed sword" + "<br>" + " (with 45 Attack)"
+
+			case 14:
+				return 18342, 45, "You can now use " + "<col=000080>" + "law staves" + "</col>" + ". (You also need level 40 Attack and level 45 Magic.)", "Law staff" + "<br>" + " (with 40 Attack and 45 Magic)"
+
+			case 15:
+				return 18346, 48, "You can now use " + "<col=000080>" + "tomes of frost" + "</col>" + ". (You also need level 48 Magic.)", "Tome of frost" + "<br>" + " (with 48 Magic)"
+
+			case 16:
+				return 19892, 48, "You now have the Dungeoneering level required to wear " + "<col=000080>" + "Amulet of zealots" + "</col>" + ". (You also need level 48 Prayer.)", "Amulet of zealots" + "<br>" + " (with 48 Prayer)"
+
+			case 17:
+				return 19890, 49, "Members can now learn the " + "<col=000080>" + "wasteless herblore" + "</col>" + " ability (you also need 49 Herblore.)", "Members: Wasteless Herblore" + "<br>" + " (with 49 Herblore)"
+
+			case 18:
+				return 18334, 50, "You can now wear " + "<col=000080>" + "arcane blast necklaces" + "</col>" + ". (You also need level 50 Magic.)", "Arcane blast necklace" + "<br>" + " (with 50 Magic)"
+
+			case 19:
+				return 19893, 50, "Members can now wear " + "<col=000080>" + "spirit capes" + "</col>" + " (You also need level 50 Defence and 50 Summoning.)", "Members: Spirit cape" + "<br>" + " (with 50 Defence and 50 Summoning)"
+
+			case 20:
+				return 18341, 53, "You can now use " + "<col=000080>" + "nature staves" + "</col>" + ". (You also need level 40 Attack and level 53 Magic.)", "Nature staff" + "<br>" + " (with 40 Attack and 53 Magic)"
+
+			case 21:
+				return 19670, 55, "You can now use " + "<col=000080>" + "scrolls of efficiency" + "</col>" + ". (You also need level 55 Smithing.)", "Scroll of efficiency" + "<br>" + " (with 55 Smithing)"
+
+			case 22:
+				return 18340, 60, "Members can now wield " + "<col=000080>" + "anti-poison totems" + "</col>" + ". (They also need level 60 Defence and level 70 Herblore.)", "Members: Anti-poison totem" + "<br>" + " (with 60 Defence and 70 Herblore)"
+
+			case 23:
+				return 19887, 60, "Members now have the Dungeoneering level required to wear " + "<col=000080>" + "Split dragon tooth necklaces" + "</col>" + ". (They also need level 60 Prayer.)", "Members: Split dragon tooth necklace" + "<br>" + " (with 60 Prayer)"
+
+			case 24:
+				return 19669, 62, "Members can now wear " + "<col=000080>" + "rings of vigour" + "</col>" + ". (They also need level 62 Attack.)", "Members: Ring of vigour" + "<br>" + " (with 62 Attack)"
+
+			case 25:
+				return 18343, 65, "Members can now use the " + "<col=000080>" + "Rapid Renewal" + "</col>" + " prayer (bought from Daemonheim). (They also need level 65 Prayer.)", "Members: Rapid Renewal" + "<br>" + " (with 65 Prayer)"
+
+			case 26:
+				return 18335, 70, "Members can now wear " + "<col=000080>" + "arcane stream necklaces" + "</col>" + ". (They also need level 70 Magic.)", "Members: Arcane stream necklace" + "<br>" + " (with 70 Magic)"
+
+			case 27:
+				return 19889, 70, "Members can now use " + "<col=000080>" + "celestial surgeboxes" + "</col>" + ". (They also need level 70 Magic and level 70 Runecrafting.)", "Members: Celestial surgebox" + "<br>" + " (with 70 Magic and 70 Runecrafting)"
+
+			case 28:
+				return 18347, 73, "Members can now wear " + "<col=000080>" + "mercenary's gloves" + "</col>" + ". (They also need level 73 Ranged.)", "Members: Mercenary's gloves" + "<br>" + " (with 73 Ranged)"
+
+			case 29:
+				return 18839, 74, "Members can now use the " + "<col=000080>" + "Rigour" + "</col>" + " prayer (bought from Daemonheim). (They also need level 74 Prayer.)", "Members: Rigour" + "<br>" + " (with 74 Prayer)"
+
+			case 30:
+				return 18344, 77, "Members can now use the " + "<col=000080>" + "Augury" + "</col>" + " prayer (bought from Daemonheim). (They also need level 77 Prayer.)", "Members: Augury" + "<br>" + " (with 77 Prayer)"
+
+			case 31:
+				return 18358, 80, "Members can now wield " + "<col=000080>" + "chaotic crossbows" + "</col>" + ". (They also need level 80 Ranged.)", "Members: Chaotic crossbow" + "<br>" + "  Ammo: Bolts up to rune" + "<br>" + " (with 80 Ranged)"
+
+			case 32:
+				return 18359, 80, "Members can now wield " + "<col=000080>" + "chaotic kiteshields" + "</col>" + ". (They also need level 80 Defence.)", "Members: Chaotic kiteshield" + "<br>" + " (with 80 Defence)"
+
+			case 33:
+				return 18351, 80, "Members can now wield " + "<col=000080>" + "chaotic longswords" + "</col>" + ". (They also need level 80 Attack.)", "Members: Chaotic longsword" + "<br>" + " (with 80 Attack)"
+
+			case 34:
+				return 18353, 80, "Members can now wield " + "<col=000080>" + "chaotic mauls" + "</col>" + ". (They also need level 80 Attack.)", "Members: Chaotic maul" + "<br>" + " (with 80 Attack)"
+
+			case 35:
+				return 18349, 80, "Members can now wield " + "<col=000080>" + "chaotic rapiers" + "</col>" + ". (They also need level 80 Attack.)", "Members: Chaotic rapier" + "<br>" + " (with 80 Attack)"
+
+			case 36:
+				return 18355, 80, "Members can now wield " + "<col=000080>" + "chaotic staves" + "</col>" + ". (They also need level 80 Magic.)", "Members: Chaotic staff" + "<br>" + " (with 80 Magic)"
+
+			case 37:
+				return 18361, 80, "Members can now wield " + "<col=000080>" + "eagle-eye kiteshields" + "</col>" + ". (They also need level 80 Defence.)", "Members: Eagle-eye kiteshield" + "<br>" + " (with 80 Defence)"
+
+			case 38:
+				return 18363, 80, "Members can now wield " + "<col=000080>" + "farseer kiteshields" + "</col>" + ". (They also need level 80 Defence.)", "Members: Farseer kiteshield" + "<br>" + " (with 80 Defence)"
+
+			case 39:
+				return 19894, 80, "Members can now raise " + "<col=000080>" + "Seekers" + "</col>" + ". (They also need level 80 Summoning.)", "Members: Seeker pet" + "<br>" + " (with 80 Summoning)"
+
+			case 40:
+				return 19888, 90, "Members now have the Dungeoneering level required to wear " + "<col=000080>" + "Demon horn necklaces" + "</col>" + ". (They also need level 90 Prayer.)", "Members: Demon horn necklace" + "<br>" + " (with 90 Prayer)"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 562, 10, "Members can now pass the mysterious entrance in Edgeville Dungeon to reach the chaos druids.", "Members: Edgeville Dungeon chaos druids"
+
+			case 1:
+				return 453, 15, "You can now pass the mysterious entrance in the Dwarven Mine to reach the hidden mine.", "Dwarven Mine hidden mine"
+
+			case 2:
+				return 532, 20, "You can now pass the mysterious entrance in Edgeville Dungeon to reach the hill giants.", "Edgeville Dungeon hill giants"
+
+			case 3:
+				return 9952, 25, "You can now pass the mysterious entrance in Karamja Volcano to reach the lesser demons.", "Karamja Volcano lesser demons"
+
+			case 4:
+				return 1517, 30, "You can now pass the mysterious entrance in Daemonheim to reach the woodcutting island.", "Daemonheim woodcutting island"
+
+			case 5:
+				return 554, 35, "Members can now pass the Baxtorian Waterfall mysterious entrance to reach the fire giants.", "Members: Waterfall fire giants"
+
+			case 6:
+				return 451, 45, "You can now pass the mysterious entrance in the Mining Guild to reach the hidden mine.", "Mining Guild hidden mine"
+
+			case 7:
+				return 8137, 55, "Members can now pass the mysterious entrance in Taverley Dungeon to reach the hellhounds.", "Members: Taverley hellhounds"
+
+			case 8:
+				return 1751, 60, "Members can now pass the mysterious entrance in Taverley Dungeon to reach the blue dragons.", "Members: Taverley blue dragons"
+
+			case 9:
+				return 8179, 65, "Members can now pass the mysterious entrance in Varrock Sewers to reach the moss giants.", "Members: Varrock moss giants"
+
+			case 10:
+				return 592, 70, "Members can now pass the mysterious entrance in the Chaos Tunnels to reach the black demons.", "Members: Chaos Tunnels black demons"
+
+			case 11:
+				return 11254, 75, "Members can now pass the mysterious entrance in Al Kharid scorpion pit to reach the hidden mine.", "Members: Al Kharid hidden mine"
+
+			case 12:
+				return 8142, 80, "Members can now pass the mysterious entrance in Brimhaven Dungeon to reach the metal dragons.", "Members: Brimhaven metal dragons"
+
+			case 13:
+				return 3244, 82, "Members can now pass the mysterious entrance in the Polypore dungeon.", "Members: Polypore dungeon"
+
+			case 14:
+				return 18796, 85, "Members can now pass the mysterious entrance in the Asgarnian Ice Dungeon to reach the frost dragons.", "Members: Ice Dungeon frost dragons"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18508, 99, "You have achieved " + "<col=000080>" + "level 99" + "</col>" + " in the " + "<col=000080>" + "Dungeoneering" + "</col>" + " skill." + "<br>" + "What are you waiting for? Keep going!", "Skill Mastery"
+
+			case 1:
+				return 18509, 120, "You have achieved " + "<col=000080>" + "level 120" + "</col>" + " in the " + "<col=000080>" + "Dungeoneering" + "</col>" + " skill." + "<br>" + "This is the highest level for this skill: for real, this time!", "True Skill Mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

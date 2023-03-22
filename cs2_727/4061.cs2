@@ -1,0 +1,4 @@
+//script4061(4061)()(void)
+if_settext(if_gethash(1058, 45), "Not Enough Tokens")
+if_setcolor(69337133, 0xFF0000)
+return

@@ -1,0 +1,10 @@
+//script4292(4292)()(int)
+int iVar0
+iVar0 = -1
+if(activeclanchannel_find_affined() == 1) {
+	iVar0 = activeclanchannel_getuserslot(removetags(instr6574()))
+	if(activeclanchannel_getuserrank(iVar0) >= 100)
+		return 1
+}
+return 0
+return 0

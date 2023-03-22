@@ -1,0 +1,13 @@
+//script2593(2593)(int arg0)(void)
+if(arg0 == 0 || arg0 == 2)
+	if(instr5954() == 0) {
+		detailset_waterdetail_high(0)
+		detailset_fog(0)
+		detailset_textures(0)
+	} else 
+		if(detailget_fog() == 0)
+			detailset_waterdetail_high(0)
+if(arg0 == 2)
+	if(detailget_textures() == 0)
+		detailset_scenery_shadows(0)
+return

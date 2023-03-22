@@ -1,0 +1,64 @@
+//script79(79)(int arg0)(string)
+if(arg0 < 10)
+	if(arg0 < 5)
+		if(arg0 == 0)
+			return load_varc_string(2)
+		else
+			if(arg0 == 1)
+				return load_varc_string(3)
+			else
+				if(arg0 == 2)
+					return load_varc_string(4)
+				else
+					if(arg0 == 3)
+						return load_varc_string(5)
+					else
+						if(arg0 == 4)
+							return load_varc_string(6)
+	else
+		if(arg0 == 5)
+			return load_varc_string(7)
+		else
+			if(arg0 == 6)
+				return load_varc_string(8)
+			else
+				if(arg0 == 7)
+					return load_varc_string(9)
+				else
+					if(arg0 == 8)
+						return load_varc_string(10)
+					else
+						if(arg0 == 9)
+							return load_varc_string(11)
+else
+	if(arg0 < 15)
+		if(arg0 == 10)
+			return load_varc_string(12)
+		else
+			if(arg0 == 11)
+				return load_varc_string(13)
+			else
+				if(arg0 == 12)
+					return load_varc_string(14)
+				else
+					if(arg0 == 13)
+						return load_varc_string(15)
+					else
+						if(arg0 == 14)
+							return load_varc_string(16)
+	else
+		if(arg0 == 15)
+			return load_varc_string(17)
+		else
+			if(arg0 == 16)
+				return load_varc_string(18)
+			else
+				if(arg0 == 17)
+					return load_varc_string(19)
+				else
+					if(arg0 == 18)
+						return load_varc_string(20)
+					else
+						if(arg0 == 19)
+							return load_varc_string(21)
+return ""

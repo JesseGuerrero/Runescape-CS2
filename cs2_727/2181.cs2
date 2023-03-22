@@ -1,0 +1,8 @@
+//script2181(2181)()(void)
+int iVar0
+iVar0 = 0
+while(iVar0 <= load_varc(273)) {
+	script_2180(iVar0)
+	iVar0 = iVar0 + 1
+}
+return

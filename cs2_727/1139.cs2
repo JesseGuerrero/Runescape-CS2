@@ -1,0 +1,6 @@
+//script1139(1139)(int arg0)(void)
+if(load_varp(172) == 1)
+	if_settext(arg0, "Auto Retaliate " + "<br>" + "(Off)")
+else
+	if_settext(arg0, "Auto Retaliate " + "<br>" + "(On)")
+return

@@ -1,0 +1,83 @@
+//script12(12)(int arg0)(int, string)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return 15, "Attack"
+
+	case 2:
+		return 8, "Strength"
+
+	case 5:
+		return 15, "Defence"
+
+	case 3:
+		return 11, "Ranged"
+
+	case 7:
+		return 4, "Prayer"
+
+	case 4:
+		return 11, "Magic"
+
+	case 6:
+		return 3, "Constitution"
+
+	case 8:
+		return 10, "Agility"
+
+	case 9:
+		return 8, "Herblore"
+
+	case 10:
+		return 9, "Thieving"
+
+	case 11:
+		return 13, "Crafting"
+
+	case 19:
+		return 9, "Fletching"
+
+	case 13:
+		return 7, "Mining"
+
+	case 14:
+		return 16, "Smithing"
+
+	case 15:
+		return 8, "Fishing"
+
+	case 16:
+		return 16, "Cooking"
+
+	case 17:
+		return 9, "Firemaking"
+
+	case 18:
+		return 8, "Woodcutting"
+
+	case 12:
+		return 7, "Runecrafting"
+
+	case 20:
+		return 5, "Slayer"
+
+	case 21:
+		return 13, "Farming"
+
+	case 22:
+		return 16, "Construction"
+
+	case 23:
+		return 16, "Hunter"
+
+	case 24:
+		return 8, "Summoning"
+
+	case 25:
+		return 6, "Dungeoneering"
+		return -1, ""
+
+
+}
+return 0, ""

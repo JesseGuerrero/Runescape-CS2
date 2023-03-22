@@ -1,0 +1,32 @@
+//script2992(2992)()(void)
+if(load_varpbit(8386) == 0) {
+	if_sethide(if_gethash(311, 25), 1)
+	if_sethide(if_gethash(311, 26), 0)
+	if_sethide(if_gethash(311, 57), 1)
+	if_sethide(if_gethash(311, 59), 1)
+}
+if(load_varpbit(8388) == 0) {
+	if_sethide(if_gethash(311, 9), 1)
+	if_sethide(if_gethash(311, 10), 0)
+}
+if(load_varpbit(8390) == 0) {
+	if_sethide(if_gethash(311, 5), 1)
+	if_sethide(if_gethash(311, 6), 0)
+}
+if(load_varpbit(8392) == 0) {
+	if_sethide(if_gethash(311, 1), 1)
+	if_sethide(if_gethash(311, 2), 0)
+}
+if(load_varpbit(8387) == 0) {
+	if_sethide(if_gethash(311, 13), 1)
+	if_sethide(if_gethash(311, 14), 0)
+}
+if(load_varpbit(8395) == 0) {
+	if_sethide(if_gethash(311, 21), 1)
+	if_sethide(if_gethash(311, 22), 0)
+}
+if(load_varpbit(8391) == 0) {
+	if_sethide(if_gethash(311, 17), 1)
+	if_sethide(if_gethash(311, 18), 0)
+}
+return

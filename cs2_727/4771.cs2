@@ -1,0 +1,28 @@
+//script4771(4771)(int arg0, int arg1)(int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar2 = 38
+iVar3 = arg1 / 8
+iVar4 = 5470
+cc_create(arg1, 3, arg0)
+cc_setposition(0, 0, iVar2 * iVar3, 2)
+cc_setsize(0, 1, 10, 4)
+if(modulo(2, iVar3) == 0)
+	cc_setcolor(181715)
+else
+	cc_setcolor(211f1c)
+cc_setfill(1)
+iVar5 = arg1 + 1
+instr6091(script_4779, "Iii", arg0, iVar5, 1)
+instr6092(script_4779, "Iii", arg0, iVar5, 0)
+arg1 = arg1 + 1
+cc_create(arg1, 5, arg0)
+cc_setgraphic(iVar4)
+cc_setsize(0, 1, 10, 4)
+cc_setposition(0, 0, iVar2 * iVar3, 2)
+cc_sethide(1)
+arg1 = arg1 + 1
+return arg1
+return 0

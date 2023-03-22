@@ -1,0 +1,15 @@
+void script_256(Widget widget0, Location location1) {
+	int int2;
+	int int3;
+	int2 = x(getMyLocation());
+	int3 = x(location1);
+	if (int2 >= int3 && int2 < int3 + 128) {
+		int2, int3 = y(getMyLocation()), y(location1);
+		if (int2 >= int3 && int2 < int3 + 128) {
+			widget0.setIsHidden(false);
+			return;
+		}
+	}
+	widget0.setIsHidden(true);
+	return;
+}

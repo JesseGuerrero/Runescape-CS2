@@ -1,0 +1,6 @@
+//script2084(2084)()(void)
+if(load_varc(640) > 0)
+	if_settext(if_gethash(836, 15), to_string(load_varc(640)) + "%")
+else
+	if_settext(if_gethash(836, 15), "---")
+return

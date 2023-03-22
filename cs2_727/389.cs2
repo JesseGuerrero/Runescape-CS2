@@ -1,0 +1,40 @@
+//script389(389)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+cc_deleteall(if_gethash(1028, 65))
+iVar0 = if_getwidth(if_gethash(1028, 65))
+iVar1 = enum_getoutputcount(748)
+iVar2 = (iVar0 - 22) / iVar1
+iVar3 = ((iVar0 - (iVar1 * iVar2)) / 2) + 1
+iVar4 = iVar1 + 6
+iVar5 = 0
+iVar6 = -1
+iVar7 = -1
+while(iVar5 < iVar1) {
+	cc_create(iVar5, 3, 67371073)
+	cc_setsize(1, 0, 6, iVar2 - 2)
+	cc_setposition(2, 0, 3, iVar3 + (iVar5 * iVar2))
+	cc_setfill(1)
+	cc_setcolor(0)
+	cc_setop(enum(747, iVar5, 'i', 's'), 1)
+	iVar6 = enum(748, iVar5, 'i', 'i')
+	if(load_varc(1019) == iVar6)
+		iVar7 = iVar5
+	else {
+		instr6687(script_357, "iii", -2147483644, iVar6, 4)
+		instr6091(script_375, "IIiiiii", -2147483645, -2147483645, -2147483643, 12559689, 12559689, 1, iVar4)
+		instr6092(script_377, "Ii", -2147483645, iVar4)
+	}
+	iVar5 = iVar5 + 1
+}
+if(iVar7 != -1)
+	script_376(67371073, 67371073, iVar7, 14662200, 12811264, 1, iVar1)
+else
+	script_376(67371073, -1, -1, 0, 0, 1, iVar1)
+return

@@ -1,0 +1,12 @@
+//script5373(5373)(int arg0, int arg1)(void)
+if(arg1 == -1) {
+	sound_vorbis_volume(100, 0, 45, 7715)
+	instr6342(arg0, script_5369, "I", arg0)
+} else  {
+	instr6342(arg0, None, "")
+	if(arg1 == -2)
+		if_settext(arg0, "-")
+	else
+		if_settext(arg0, to_string(arg1))
+}
+return

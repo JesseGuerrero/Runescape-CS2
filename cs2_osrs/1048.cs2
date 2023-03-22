@@ -1,0 +1,21 @@
+void script_1048(Widget widget0, Widget widget1, int arg2) {
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	if (VARPBIT[4606] != 0) {
+		return;
+	}
+	int3 = 320;
+	int4 = 256;
+	int5 = widget1.getWidth() - widget0.getWidth();
+	arg2 = script_1045(0, arg2);
+	arg2 = script_1046(widget1.getWidth() - widget0.getWidth(), arg2);
+	int6 = 715 - 175;
+	int7 = 700 - 195;
+	int3 = arg2 * int6 / int5 + 175;
+	int4 = arg2 * int7 / int5 + 195;
+	script_42(int4, int3);
+	return;
+}

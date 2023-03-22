@@ -1,0 +1,7 @@
+//script6205(6205)()(void)
+store_varc_string(363, "")
+store_varc_string(364, "")
+if_sethide(if_gethash(906, 382), 1)
+if_sethide(if_gethash(906, 338), 0)
+script_5940()
+return

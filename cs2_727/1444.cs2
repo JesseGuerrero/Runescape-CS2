@@ -1,0 +1,8 @@
+//script1444(1444)()(void)
+script_1447(0)
+script_1665(50266153, 50266154, 50266155, 50266156)
+script_2957(50266164)
+instr6257(if_gethash(767, 13), script_1445, "IIIIY", 3, 192, 1038, 1324, if_gethash(767, 41), if_gethash(767, 42), if_gethash(767, 43), if_gethash(767, 44))
+instr6237(if_gethash(767, 13), script_1655, "Y", 1, 638)
+script_1656()
+return

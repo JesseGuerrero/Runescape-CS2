@@ -1,0 +1,5 @@
+//script6520(6520)()(void)
+if_sethide(if_gethash(1302, 34), 0)
+if_sethide(if_gethash(1302, 35), 1)
+sound_vorbis_volume(100, 0, 1, 6185)
+return

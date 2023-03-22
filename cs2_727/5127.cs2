@@ -1,0 +1,5 @@
+//script5127(5127)()(void)
+if_sethide(if_gethash(1096, 35), 1)
+if_sethide(if_gethash(1096, 373), 0)
+if_settext(if_gethash(1096, 381), "Loading, please wait.")
+return

@@ -1,0 +1,3 @@
+//script2307(2307)(int arg0)(void)
+script_2309(arg0, load_varc(119))
+return

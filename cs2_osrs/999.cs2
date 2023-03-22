@@ -1,0 +1,247 @@
+void script_999(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6) {
+	Skill skill7;
+	Skill skill8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	Widget widget19;
+	int int20;
+	int int21;
+	int int22;
+	int int23;
+	int int24;
+	int int25;
+	int int26;
+	string str0;
+	string str1;
+	string str2;
+	string str3;
+	VARC[2] = 0;
+	skill7 = null;
+	if (VARPBIT[4697] == 31) {
+		skill7 = (Skill)VARC[72];
+	} else if (VARPBIT[4697] == 30) {
+		skill7 = null;
+	} else {
+		skill7 = datamap('i', 'S', 681, VARPBIT[4697]);
+	}
+	skill8 = null;
+	if (VARPBIT[4698] == 31) {
+		skill8 = (Skill)VARC[72];
+	} else if (VARPBIT[4698] == 30) {
+		skill8 = null;
+	} else {
+		skill8 = datamap('i', 'S', 681, VARPBIT[4698]);
+	}
+	int9 = 0;
+	str0 = ",";
+	str1 = "";
+	str2 = "";
+	str3 = "";
+	int10 = 0;
+	int11 = 0;
+	int12 = 0;
+	int13 = 0;
+	int14 = 0;
+	int15 = 0;
+	int16 = 0;
+	int17 = 0;
+	int18 = 0;
+	if (skill7 != null) {
+		int9 = 1;
+		widget1.setSprite(datamap('S', 'd', 255, skill7));
+		int10, int11 = script_1002(skill7);
+		int12 = getSkillXp(skill7);
+		if (int11 == -1) {
+			int15 = int12 - int10;
+			if (int15 >= 0) {
+				str3 = script_46(int15, str0);
+				widget2.setText("+" + str3);
+				str1 = datamap('S', 's', 680, skill7) + " tracker:|Tracking from:|Total XP:";
+				str2 = str3 + "|" + script_46(int10, str0) + "|" + script_46(int12, str0);
+			} else {
+				widget2.setText("N/A");
+				str1 = "Your " + datamap('S', 's', 680, skill7) + " tracker is invalid." + "<br>" + "Set a lower starting point.";
+			}
+		} else {
+			str3 = script_46(int12, str0);
+			widget2.setText(str3);
+			int13 = getSkillActualLvl(skill7);
+			if (int13 < 99) {
+				int14 = datamap('i', 'i', 256, int13 + 1);
+				str1 = datamap('S', 's', 680, skill7) + " XP:|" + "<col=7f7f7f>" + "Next level:" + "</col>" + "|Remaining:";
+				str2 = str3 + "|" + "<col=7f7f7f>" + script_46(int14, str0) + "</col>" + "|" + script_46(int14 - int12, str0);
+			} else {
+				str1 = datamap('S', 's', 680, skill7) + " XP:";
+				str2 = str3;
+			}
+		}
+	} else if (VARPBIT[4697] == 30) {
+		widget1.setSprite(null);
+		widget2.setText("");
+		str1, str2 = "", "";
+		script_41(widget6);
+	} else {
+		int9 = 1;
+		widget1.setSprite(222);
+		int17, int16 = script_1008();
+		if (VARP[1252] == -1) {
+			int15 = int16 % 1000;
+			int18 = int17 * pow(10, 6) + int16 / 1000;
+			if (int18 > VARP[1228]) {
+				str3 = script_46(int18 - VARP[1228], str0) + str0 + script_47(int15);
+				widget2.setText("+" + str3);
+				str1 = "Total XP tracker:|Tracking from:|Total XP:";
+				if (VARP[1228] > 0) {
+					str2 = str3 + "|" + script_46(VARP[1228], str0) + str0 + "000|" + script_1009(int17, int16);
+				} else {
+					str2 = str3 + "|0|" + script_1009(int17, int16);
+				}
+			} else if (int18 == VARP[1228] && int15 >= 0) {
+				str3 = str(int15);
+				widget2.setText("+" + str3);
+				str1 = "Total XP tracker:|Tracking from:|Total XP:";
+				if (VARP[1228] > 0) {
+					str2 = str3 + "|" + script_46(VARP[1228], str0) + str0 + "000|" + script_1009(int17, int16);
+				} else {
+					str2 = str3 + "|0|" + script_1009(int17, int16);
+				}
+			} else {
+				widget2.setText("N/A");
+				str1 = "Your Total XP tracker is invalid." + "<br>" + "Set a lower starting point.";
+			}
+		} else {
+			str3 = script_1009(int17, int16);
+			widget2.setText(str3);
+			str1 = "Total XP:";
+			str2 = str3;
+		}
+	}
+	widget19 = widget2.getLayer();
+	if (length(str2) > 0) {
+		widget19.hookMouseHover(&script_992(CTX_WIDGET, -1, widget6, str1, str2, 495, 0));
+	} else if (length(str1) > 0) {
+		widget19.hookMouseHover(&script_526(CTX_WIDGET, -1, widget6, str1, 0, 512));
+	} else {
+		widget19.hookMouseHover(null);
+	}
+	widget19.hookMouseExit(&script_40(widget6));
+	int20 = 0;
+	int21 = 0;
+	int22 = 0;
+	int23 = 0;
+	int24 = 0;
+	int25 = 0;
+	int26 = 0;
+	if (skill8 != null) {
+		int20 = 1;
+		int12 = getSkillXp(skill8);
+		int10, int11 = script_1002(skill8);
+		if (int11 != -1 && int11 > int10) {
+			int21 = script_1000(widget4, int10, int12, int11, 1);
+			str1 = datamap('S', 's', 680, skill8) + " goal|" + "<col=7f7f7f>" + "Start:" + "</col>" + "|Current:|" + "<col=7f7f7f>" + "End:" + "</col>";
+			str2 = script_1001(int21) + "|" + "<col=7f7f7f>" + script_46(int10, str0) + "</col>" + "|" + script_46(int12, str0) + "|" + "<col=7f7f7f>" + script_46(int11, str0) + "</col>";
+			if (int12 < int11) {
+				str1 = concat(str1, "|Remaining:");
+				str2 = concat(str2, "|" + script_46(int11 - int12, str0));
+			}
+		} else {
+			int13 = getSkillActualLvl(skill8);
+			int22 = int13 + 1;
+			if (int22 > 99) {
+				int22 = 99;
+			}
+			int14 = datamap('i', 'i', 256, int22);
+			int21 = script_1000(widget4, datamap('i', 'i', 256, int13), int12, int14, 0);
+			if (int13 < 99) {
+				str1 = datamap('S', 's', 680, skill8) + "|Current XP:|" + "<col=7f7f7f>" + "Next level:" + "</col>" + "|Remaining:";
+				str2 = script_1001(int21) + "|" + script_46(int12, str0) + "|" + "<col=7f7f7f>" + script_46(int14, str0) + "</col>" + "|" + script_46(int14 - int12, str0);
+			} else {
+				str1 = datamap('S', 's', 680, skill8) + " XP:";
+				str2 = script_46(int12, str0);
+			}
+		}
+	} else if (VARPBIT[4698] == 30) {
+		int20 = 1;
+		int17, int16 = script_1008();
+		if (VARP[1252] != -1 && VARP[1252] > VARP[1228]) {
+			if (int17 < 2 && VARP[1252] <= 2147483647 / 1000) {
+				int21 = script_1000(widget4, VARP[1228] * 1000, int17 * pow(10, 9) + int16, VARP[1252] * 1000, 1);
+				int24 = VARP[1252] * 1000 - (int17 * pow(10, 9) + int16);
+			} else {
+				int25 = int17 * pow(10, 6) + int16 / 1000;
+				int21 = script_1000(widget4, VARP[1228], int25, VARP[1252], 1);
+				if (int25 < VARP[1252]) {
+					int24 = VARP[1252] - int25;
+					int26 = int16 % 1000;
+					if (int26 > 0) {
+						int24 = int24 - 1;
+						int23 = int24 / pow(10, 6);
+						int24 = int24 % pow(10, 6) * 1000;
+						int24 = int24 + (1000 - int26);
+					} else {
+						int23 = int24 / pow(10, 6);
+						int24 = int24 % pow(10, 6) * 1000;
+					}
+				}
+			}
+			str1 = "Total XP goal|" + "<col=7f7f7f>" + "Start:" + "</col>" + "|Current:|" + "<col=7f7f7f>" + "End:" + "</col>";
+			if (VARP[1228] > 0) {
+				str2 = script_1001(int21) + "|" + "<col=7f7f7f>" + script_46(VARP[1228], str0) + str0 + "000" + "</col>" + "|" + script_1009(int17, int16) + "|" + "<col=7f7f7f>" + script_46(VARP[1252], str0) + str0 + "000" + "</col>";
+			} else {
+				str2 = script_1001(int21) + "|" + "<col=7f7f7f>" + "0" + "</col>" + "|" + script_1009(int17, int16) + "|" + "<col=7f7f7f>" + script_46(VARP[1252], str0) + str0 + "000" + "</col>";
+			}
+			if (int23 > 0 || int24 > 0) {
+				str1 = concat(str1, "|Remaining:");
+				str2 = concat(str2, "|" + script_1009(int23, int24));
+			}
+		} else {
+			widget4.setSize(0, 0, 1, 1);
+			widget4.setRGB(0x606060);
+			str1, str2 = "Use the setup menu to set a Total XP goal.", "";
+		}
+	} else {
+		str1, str2 = "", "";
+		script_41(widget6);
+	}
+	if (length(str2) > 0) {
+		widget3.hookMouseHover(&script_992(CTX_WIDGET, -1, widget6, str1, str2, 495, 0));
+	} else if (length(str1) > 0) {
+		widget3.hookMouseHover(&script_526(CTX_WIDGET, -1, widget6, str1, 0, 512));
+	} else {
+		widget3.hookMouseHover(null);
+	}
+	widget3.hookMouseExit(&script_40(widget6));
+	if (int9 == 1) {
+		widget19.setIsHidden(false);
+		widget19.setPosition(0, 0, 1, 0);
+		widget19.setSize(0, 29, 1, 0);
+		if (int20 == 1) {
+			widget3.setIsHidden(false);
+			widget3.setPosition(0, 28, 1, 0);
+			widget5.setPosition(0, widget0.getY() + 38, 1, 0);
+		} else {
+			widget3.setIsHidden(true);
+			widget5.setPosition(0, widget0.getY() + 29, 1, 0);
+		}
+	} else if (int20 == 1) {
+		widget19.setIsHidden(false);
+		widget19.setPosition(0, 5, 1, 0);
+		widget19.setSize(0, 4, 1, 0);
+		widget3.setIsHidden(false);
+		widget3.setPosition(0, 7, 1, 0);
+		widget5.setPosition(0, widget0.getY() + 17, 1, 0);
+	} else {
+		widget19.setIsHidden(true);
+		widget3.setIsHidden(true);
+		widget5.setPosition(0, widget0.getY(), 1, 0);
+	}
+	return;
+}

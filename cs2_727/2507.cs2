@@ -1,0 +1,4 @@
+//script2507(2507)(int arg0)(void)
+store_varc(840, load_varpbit(6427))
+if_settext(arg0, script_46(load_varc(840), ","))
+return

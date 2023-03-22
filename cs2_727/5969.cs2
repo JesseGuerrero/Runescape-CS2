@@ -1,0 +1,8 @@
+//script5969(5969)(int arg0)(void)
+if(clan_vars_enabled() == 1) {
+	store_varpbit(9548, load_clan_varbit(2074))
+	store_varpbit(9549, load_clan_varbit(2075))
+}
+store_varc(1794, 0)
+script_5971(arg0)
+return

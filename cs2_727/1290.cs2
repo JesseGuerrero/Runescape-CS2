@@ -1,0 +1,270 @@
+//script1290(1290)()(void)
+if_settext(if_gethash(130, 81), to_string(load_varpbit(861)))
+if_settext(if_gethash(130, 80), to_string(load_varpbit(862)))
+if(load_varpbit(842) == 2) {
+	if_setmodel(if_gethash(130, 0), 8522)
+	if_setmodel(if_gethash(130, 1), 8523)
+	if_setmodel(if_gethash(130, 40), 8598)
+} else 
+	if(load_varpbit(842) == 1) {
+		if_setmodel(if_gethash(130, 0), 8521)
+		if_setmodel(if_gethash(130, 1), 8524)
+		if_setmodel(if_gethash(130, 40), 8597)
+	} else  {
+		if_setmodel(if_gethash(130, 40), -1)
+		if_setmodel(if_gethash(130, 0), 8522)
+		if_setmodel(if_gethash(130, 1), 8524)
+	}
+if(load_varpbit(843) == 2) {
+	if_setmodel(if_gethash(130, 2), 8526)
+	if_setmodel(if_gethash(130, 3), 8527)
+	if_setmodel(if_gethash(130, 41), 8600)
+} else 
+	if(load_varpbit(843) == 1) {
+		if_setmodel(if_gethash(130, 2), 8525)
+		if_setmodel(if_gethash(130, 3), 8528)
+		if_setmodel(if_gethash(130, 41), 8599)
+	} else  {
+		if_setmodel(if_gethash(130, 41), -1)
+		if_setmodel(if_gethash(130, 2), 8526)
+		if_setmodel(if_gethash(130, 3), 8528)
+	}
+if(load_varpbit(844) == 2) {
+	if_setmodel(if_gethash(130, 4), 8530)
+	if_setmodel(if_gethash(130, 5), 8531)
+	if_setmodel(if_gethash(130, 42), 8602)
+} else 
+	if(load_varpbit(844) == 1) {
+		if_setmodel(if_gethash(130, 4), 8529)
+		if_setmodel(if_gethash(130, 5), 8532)
+		if_setmodel(if_gethash(130, 42), 8601)
+	} else  {
+		if_setmodel(if_gethash(130, 42), -1)
+		if_setmodel(if_gethash(130, 4), 8530)
+		if_setmodel(if_gethash(130, 5), 8532)
+	}
+if(load_varpbit(845) == 2) {
+	if_setmodel(if_gethash(130, 6), 8534)
+	if_setmodel(if_gethash(130, 7), 8535)
+	if_setmodel(if_gethash(130, 43), 8604)
+} else 
+	if(load_varpbit(845) == 1) {
+		if_setmodel(if_gethash(130, 6), 8533)
+		if_setmodel(if_gethash(130, 7), 8536)
+		if_setmodel(if_gethash(130, 43), 8603)
+	} else  {
+		if_setmodel(if_gethash(130, 43), -1)
+		if_setmodel(if_gethash(130, 6), 8534)
+		if_setmodel(if_gethash(130, 7), 8536)
+	}
+if(load_varpbit(846) == 2) {
+	if_setmodel(if_gethash(130, 8), 8538)
+	if_setmodel(if_gethash(130, 9), 8539)
+	if_setmodel(if_gethash(130, 44), 8606)
+} else 
+	if(load_varpbit(846) == 1) {
+		if_setmodel(if_gethash(130, 8), 8537)
+		if_setmodel(if_gethash(130, 9), 8540)
+		if_setmodel(if_gethash(130, 44), 8605)
+	} else  {
+		if_setmodel(if_gethash(130, 44), -1)
+		if_setmodel(if_gethash(130, 8), 8538)
+		if_setmodel(if_gethash(130, 9), 8540)
+	}
+if(load_varpbit(847) == 2) {
+	if_setmodel(if_gethash(130, 10), 8542)
+	if_setmodel(if_gethash(130, 11), 8543)
+	if_setmodel(if_gethash(130, 45), 8608)
+} else 
+	if(load_varpbit(847) == 1) {
+		if_setmodel(if_gethash(130, 10), 8541)
+		if_setmodel(if_gethash(130, 11), 8544)
+		if_setmodel(if_gethash(130, 45), 8607)
+	} else  {
+		if_setmodel(if_gethash(130, 45), -1)
+		if_setmodel(if_gethash(130, 10), 8542)
+		if_setmodel(if_gethash(130, 11), 8544)
+	}
+if(load_varpbit(848) == 2) {
+	if_setmodel(if_gethash(130, 12), 8546)
+	if_setmodel(if_gethash(130, 13), 8547)
+	if_setmodel(if_gethash(130, 46), 8610)
+} else 
+	if(load_varpbit(848) == 1) {
+		if_setmodel(if_gethash(130, 12), 8545)
+		if_setmodel(if_gethash(130, 13), 8548)
+		if_setmodel(if_gethash(130, 46), 8609)
+	} else  {
+		if_setmodel(if_gethash(130, 46), -1)
+		if_setmodel(if_gethash(130, 12), 8546)
+		if_setmodel(if_gethash(130, 13), 8548)
+	}
+if(load_varpbit(849) == 2) {
+	if_setmodel(if_gethash(130, 14), 8550)
+	if_setmodel(if_gethash(130, 15), 8551)
+	if_setmodel(if_gethash(130, 47), 8612)
+} else 
+	if(load_varpbit(849) == 1) {
+		if_setmodel(if_gethash(130, 14), 8549)
+		if_setmodel(if_gethash(130, 15), 8552)
+		if_setmodel(if_gethash(130, 47), 8611)
+	} else  {
+		if_setmodel(if_gethash(130, 47), -1)
+		if_setmodel(if_gethash(130, 14), 8550)
+		if_setmodel(if_gethash(130, 15), 8552)
+	}
+if(load_varpbit(850) == 2) {
+	if_setmodel(if_gethash(130, 16), 8554)
+	if_setmodel(if_gethash(130, 17), 8555)
+	if_setmodel(if_gethash(130, 48), 8614)
+} else 
+	if(load_varpbit(850) == 1) {
+		if_setmodel(if_gethash(130, 16), 8553)
+		if_setmodel(if_gethash(130, 17), 8556)
+		if_setmodel(if_gethash(130, 48), 8613)
+	} else  {
+		if_setmodel(if_gethash(130, 48), -1)
+		if_setmodel(if_gethash(130, 16), 8554)
+		if_setmodel(if_gethash(130, 17), 8556)
+	}
+if(load_varpbit(851) == 2) {
+	if_setmodel(if_gethash(130, 18), 8558)
+	if_setmodel(if_gethash(130, 19), 8559)
+	if_setmodel(if_gethash(130, 49), 8616)
+} else 
+	if(load_varpbit(851) == 1) {
+		if_setmodel(if_gethash(130, 18), 8557)
+		if_setmodel(if_gethash(130, 19), 8560)
+		if_setmodel(if_gethash(130, 49), 8615)
+	} else  {
+		if_setmodel(if_gethash(130, 49), -1)
+		if_setmodel(if_gethash(130, 18), 8558)
+		if_setmodel(if_gethash(130, 19), 8560)
+	}
+if(load_varpbit(852) == 2) {
+	if_setmodel(if_gethash(130, 20), 8562)
+	if_setmodel(if_gethash(130, 21), 8563)
+	if_setmodel(if_gethash(130, 50), 8618)
+} else 
+	if(load_varpbit(852) == 1) {
+		if_setmodel(if_gethash(130, 20), 8561)
+		if_setmodel(if_gethash(130, 21), 8564)
+		if_setmodel(if_gethash(130, 50), 8617)
+	} else  {
+		if_setmodel(if_gethash(130, 50), -1)
+		if_setmodel(if_gethash(130, 20), 8562)
+		if_setmodel(if_gethash(130, 21), 8564)
+	}
+if(load_varpbit(853) == 2) {
+	if_setmodel(if_gethash(130, 22), 8566)
+	if_setmodel(if_gethash(130, 23), 8567)
+	if_setmodel(if_gethash(130, 51), 8620)
+} else 
+	if(load_varpbit(853) == 1) {
+		if_setmodel(if_gethash(130, 22), 8565)
+		if_setmodel(if_gethash(130, 23), 8568)
+		if_setmodel(if_gethash(130, 51), 8619)
+	} else  {
+		if_setmodel(if_gethash(130, 51), -1)
+		if_setmodel(if_gethash(130, 22), 8566)
+		if_setmodel(if_gethash(130, 23), 8568)
+	}
+if(load_varpbit(854) == 2) {
+	if_setmodel(if_gethash(130, 24), 8570)
+	if_setmodel(if_gethash(130, 25), 8571)
+	if_setmodel(if_gethash(130, 52), 8622)
+} else 
+	if(load_varpbit(854) == 1) {
+		if_setmodel(if_gethash(130, 24), 8569)
+		if_setmodel(if_gethash(130, 25), 8572)
+		if_setmodel(if_gethash(130, 52), 8621)
+	} else  {
+		if_setmodel(if_gethash(130, 52), -1)
+		if_setmodel(if_gethash(130, 24), 8570)
+		if_setmodel(if_gethash(130, 25), 8572)
+	}
+if(load_varpbit(855) == 2) {
+	if_setmodel(if_gethash(130, 26), 8574)
+	if_setmodel(if_gethash(130, 27), 8575)
+	if_setmodel(if_gethash(130, 53), 8624)
+} else 
+	if(load_varpbit(855) == 1) {
+		if_setmodel(if_gethash(130, 26), 8573)
+		if_setmodel(if_gethash(130, 27), 8576)
+		if_setmodel(if_gethash(130, 53), 8623)
+	} else  {
+		if_setmodel(if_gethash(130, 53), -1)
+		if_setmodel(if_gethash(130, 26), 8574)
+		if_setmodel(if_gethash(130, 27), 8576)
+	}
+if(load_varpbit(856) == 2) {
+	if_setmodel(if_gethash(130, 28), 8578)
+	if_setmodel(if_gethash(130, 29), 8579)
+	if_setmodel(if_gethash(130, 54), 8626)
+} else 
+	if(load_varpbit(856) == 1) {
+		if_setmodel(if_gethash(130, 28), 8577)
+		if_setmodel(if_gethash(130, 29), 8580)
+		if_setmodel(if_gethash(130, 54), 8625)
+	} else  {
+		if_setmodel(if_gethash(130, 54), -1)
+		if_setmodel(if_gethash(130, 28), 8578)
+		if_setmodel(if_gethash(130, 29), 8580)
+	}
+if(load_varpbit(857) == 2) {
+	if_setmodel(if_gethash(130, 30), 8582)
+	if_setmodel(if_gethash(130, 31), 8583)
+	if_setmodel(if_gethash(130, 55), 8628)
+} else 
+	if(load_varpbit(857) == 1) {
+		if_setmodel(if_gethash(130, 30), 8581)
+		if_setmodel(if_gethash(130, 31), 8584)
+		if_setmodel(if_gethash(130, 55), 8627)
+	} else  {
+		if_setmodel(if_gethash(130, 55), -1)
+		if_setmodel(if_gethash(130, 30), 8582)
+		if_setmodel(if_gethash(130, 31), 8584)
+	}
+if(load_varpbit(858) == 2) {
+	if_setmodel(if_gethash(130, 32), 8586)
+	if_setmodel(if_gethash(130, 33), 8587)
+	if_setmodel(if_gethash(130, 56), 8630)
+} else 
+	if(load_varpbit(858) == 1) {
+		if_setmodel(if_gethash(130, 32), 8585)
+		if_setmodel(if_gethash(130, 33), 8588)
+		if_setmodel(if_gethash(130, 56), 8629)
+	} else  {
+		if_setmodel(if_gethash(130, 56), -1)
+		if_setmodel(if_gethash(130, 32), 8586)
+		if_setmodel(if_gethash(130, 33), 8588)
+	}
+if(load_varpbit(859) == 2) {
+	if_setmodel(if_gethash(130, 34), 8590)
+	if_setmodel(if_gethash(130, 35), 8591)
+	if_setmodel(if_gethash(130, 57), 8632)
+} else 
+	if(load_varpbit(859) == 1) {
+		if_setmodel(if_gethash(130, 34), 8589)
+		if_setmodel(if_gethash(130, 35), 8592)
+		if_setmodel(if_gethash(130, 57), 8631)
+	} else  {
+		if_setmodel(if_gethash(130, 57), -1)
+		if_setmodel(if_gethash(130, 34), 8590)
+		if_setmodel(if_gethash(130, 35), 8592)
+	}
+if(load_varpbit(860) == 2) {
+	if_setmodel(if_gethash(130, 36), 8594)
+	if_setmodel(if_gethash(130, 37), 8595)
+	if_setmodel(if_gethash(130, 58), 8634)
+} else 
+	if(load_varpbit(860) == 1) {
+		if_setmodel(if_gethash(130, 36), 8593)
+		if_setmodel(if_gethash(130, 37), 8596)
+		if_setmodel(if_gethash(130, 58), 8633)
+	} else  {
+		if_setmodel(if_gethash(130, 58), -1)
+		if_setmodel(if_gethash(130, 36), 8594)
+		if_setmodel(if_gethash(130, 37), 8596)
+	}
+return

@@ -1,0 +1,158 @@
+//script1638(1638)(int arg0)(string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		return load_varc_string(224)
+
+	case 1:
+		return load_varc_string(225)
+
+	case 2:
+		return load_varc_string(226)
+
+	case 3:
+		return load_varc_string(227)
+
+	case 4:
+		return load_varc_string(228)
+
+	case 5:
+		return load_varc_string(229)
+
+	case 6:
+		return load_varc_string(230)
+
+	case 7:
+		return load_varc_string(231)
+
+	case 8:
+		return load_varc_string(232)
+
+	case 9:
+		return load_varc_string(233)
+
+	case 10:
+		return load_varc_string(234)
+
+	case 11:
+		return load_varc_string(235)
+
+	case 12:
+		return load_varc_string(236)
+
+	case 13:
+		return load_varc_string(237)
+
+	case 14:
+		return load_varc_string(238)
+
+	case 15:
+		return load_varc_string(239)
+
+	case 16:
+		return load_varc_string(240)
+
+	case 17:
+		return load_varc_string(241)
+
+	case 18:
+		return load_varc_string(242)
+
+	case 19:
+		return load_varc_string(243)
+
+	case 20:
+		return load_varc_string(244)
+
+	case 21:
+		return load_varc_string(245)
+
+	case 22:
+		return load_varc_string(246)
+
+	case 23:
+		return load_varc_string(247)
+
+	case 24:
+		return load_varc_string(248)
+
+	case 25:
+		return load_varc_string(249)
+
+	case 26:
+		return load_varc_string(250)
+
+	case 27:
+		return load_varc_string(251)
+
+	case 28:
+		return load_varc_string(252)
+
+	case 29:
+		return load_varc_string(253)
+
+	case 30:
+		return load_varc_string(254)
+
+	case 31:
+		return load_varc_string(255)
+
+	case 32:
+		return load_varc_string(256)
+
+	case 33:
+		return load_varc_string(257)
+
+	case 34:
+		return load_varc_string(258)
+
+	case 35:
+		return load_varc_string(259)
+
+	case 36:
+		return load_varc_string(260)
+
+	case 37:
+		return load_varc_string(261)
+
+	case 38:
+		return load_varc_string(262)
+
+	case 39:
+		return load_varc_string(263)
+
+	case 40:
+		return load_varc_string(264)
+
+	case 41:
+		return load_varc_string(265)
+
+	case 42:
+		return load_varc_string(266)
+
+	case 43:
+		return load_varc_string(267)
+
+	case 44:
+		return load_varc_string(268)
+
+	case 45:
+		return load_varc_string(269)
+
+	case 46:
+		return load_varc_string(270)
+
+	case 47:
+		return load_varc_string(271)
+
+	case 48:
+		return load_varc_string(272)
+
+	case 49:
+		return load_varc_string(273)
+		return ""
+
+
+}
+return ""

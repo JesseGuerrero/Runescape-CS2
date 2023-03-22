@@ -1,0 +1,34 @@
+//script2847(2847)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+iVar1 = 308
+iVar2 = 55
+iVar3 = 0
+iVar4 = enum_getoutputcount(903)
+globalArrays[0] = [iVar4, 105]
+globalArrays[0][0] = 5
+globalArrays[0][1] = 8
+globalArrays[0][2] = 2
+globalArrays[0][3] = 0
+globalArrays[0][4] = 4
+globalArrays[0][5] = 1
+globalArrays[0][6] = 3
+globalArrays[0][7] = 7
+globalArrays[0][8] = 6
+while(iVar3 < iVar4) {
+	if(cc_find(globalArrays[0][iVar3], arg0) == 1)
+		cc_setposition(0, 0, iVar2, iVar1)
+	iVar3 = iVar3 + 1
+	if(iVar3 == 3) {
+		iVar1 = 308 + 48
+		iVar2 = 55
+	} else 
+		if(iVar3 == 6) {
+			iVar1 = 308 + 96
+			iVar2 = 55
+		} else 
+			iVar2 = 48 + iVar2
+}
+return

@@ -1,0 +1,22 @@
+//script663(663)(int arg0, int arg1)(void)
+if_settextfont(arg1, 764)
+if_settextalign(arg1, 0, 1, 1)
+if(load_varpbit(4191) == 0) {
+	if_setmodel(arg0, 30184)
+	if_setmodelangle(arg0, 365, 0, 0, 0, 0, 0)
+	if_setposition(arg0, 0, 0, 84, 2)
+	if_setsize(arg0, 0, 0, 156, 509)
+	if_setposition(arg1, 0, 0, 89, 15)
+	if_setsize(arg1, 0, 0, 143, 487)
+	if_setcolor(arg1, script_693(43, 26, 11))
+} else 
+	if(load_varpbit(4191) == 1) {
+		if_setmodel(arg0, 30183)
+		if_setmodelangle(arg0, 344, 0, 0, 0, 0, 0)
+		if_setposition(arg0, 0, 0, 90, 3)
+		if_setsize(arg0, 0, 0, 156, 509)
+		if_setposition(arg1, 0, 0, 88, 4)
+		if_setsize(arg1, 0, 0, 139, 506)
+		if_setcolor(arg1, script_693(85, 85, 65))
+	}
+return

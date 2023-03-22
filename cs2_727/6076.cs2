@@ -1,0 +1,3 @@
+//script6076(6076)(int arg0, int arg1)(int)
+return script_6077(arg0) * arg1
+return 0

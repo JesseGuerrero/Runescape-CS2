@@ -1,0 +1,23 @@
+//script4745(4745)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+string sVar0
+iVar2 = -1
+iVar3 = -1
+sVar0 = "null"
+if(load_varpbit(9903) != 0) {
+	iVar2 = enum(3879, load_varpbit(9903), 'i', 'v')
+	if(arg1 < inv_size(iVar2)) {
+		iVar3 = inv_getitem(arg1, iVar2)
+		if(iVar3 != -1) {
+			sVar0 = script_4747(iVar3)
+			if(string_length(sVar0) > 0) {
+				if_settext(if_gethash(1144, 23), sVar0)
+				if_sethide(if_gethash(1144, 23), 0)
+				if_sethide(if_gethash(1144, 22), 1)
+			}
+		}
+	}
+}
+return
+return

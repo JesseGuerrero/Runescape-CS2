@@ -1,0 +1,24 @@
+void script_1483(boolean arg0, Widget widget1) {
+	if (arg0 == true) {
+		if (CHILD.setChild(widget1, 0) == true) {
+			CHILD.setSprite(998);
+		}
+		if (CHILD.setChild(widget1, 1) == true) {
+			CHILD.setSprite(999);
+		}
+		if (CHILD.setChild(widget1, 2) == true) {
+			CHILD.setSprite(1000);
+		}
+	} else {
+		if (CHILD.setChild(widget1, 0) == true) {
+			CHILD.setSprite(1001);
+		}
+		if (CHILD.setChild(widget1, 1) == true) {
+			CHILD.setSprite(1002);
+		}
+		if (CHILD.setChild(widget1, 2) == true) {
+			CHILD.setSprite(1003);
+		}
+	}
+	return;
+}

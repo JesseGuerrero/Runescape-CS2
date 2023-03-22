@@ -1,0 +1,5 @@
+//script768(768)(int arg0, int arg1)(int)
+if(inv_total(arg1, 93) < 1)
+	return 0
+return 1
+return 0

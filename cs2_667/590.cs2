@@ -1,0 +1,13 @@
+void script_590(int arg0, int arg1) {
+	if (arg1 == 1) {
+		VAR_GE_CURR_BOX = arg0;
+		VAR_GE_CURR_ITEM = -1;
+		if (getGENotStarted(arg0)) {
+			VAR_GE_IS_SELLING = -1;
+			VAR_GE_TOTAL_PRICE = 1;
+			VAR_GE_CURR_ITEM_AMT = 0;
+		}
+		script_621();
+	}
+	return;
+}

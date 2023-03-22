@@ -1,0 +1,5 @@
+//script4264(4264)(int arg0)(void)
+if_setcolor(arg0, 0xFF0000)
+hook_mouse_enter(arg0, script_4265, "Ii", arg0, 14516095)
+hook_mouse_exit(arg0, script_4265, "Ii", arg0, 16711680)
+return

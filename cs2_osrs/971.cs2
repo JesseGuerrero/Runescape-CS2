@@ -1,0 +1,7 @@
+void script_971(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	script_220(widget0, widget1, widget2);
+	widget0.hookWidgetsOpenClose(&script_181(widget0, widget1, widget2));
+	script_480(widget0, widget3, widget4);
+	widget0.hookVARP(&script_479(widget0, widget3, widget4), 821);
+	return;
+}

@@ -1,0 +1,200 @@
+//script4301(4301)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+string sVar0
+string sVar1
+iVar0 = 71827494
+iVar1 = 71827495
+iVar2 = 71827496
+iVar3 = 71827497
+iVar4 = 71827533
+iVar5 = 71827534
+iVar6 = 71827795
+iVar7 = 71828215
+iVar8 = 218
+iVar9 = 16384 / 2
+iVar10 = 3
+iVar11 = 4
+iVar12 = 200
+iVar13 = 3
+iVar14 = 16
+iVar15 = 23
+iVar16 = 177
+iVar17 = 4
+iVar18 = 157
+iVar19 = 4
+iVar20 = 137
+iVar21 = 4
+iVar22 = 15
+iVar23 = 15
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = 0
+sVar0 = "0"
+iVar28 = 9
+iVar29 = 23
+iVar30 = 0
+iVar31 = if_getheight(iVar0) / iVar15
+iVar32 = iVar31 * 2
+iVar33 = -1
+iVar34 = -1
+iVar35 = 0
+iVar36 = 0
+cc_deleteall(iVar0)
+cc_deleteall(iVar1)
+cc_deleteall(iVar2)
+cc_deleteall(iVar3)
+cc_deleteall(iVar6)
+cc_deleteall(iVar7)
+sVar1 = ""
+iVar37 = -1
+iVar27 = activeclansettings_getaffinedcount()
+while(iVar26 < iVar27) {
+	iVar25 = (iVar37 / 2) * iVar15
+	sVar0 = activeclansettings_getaffineddisplayname(iVar26)
+	iVar34 = activeclansettings_getaffinedrank(iVar26)
+	if(load_varc(1516) - 1 != iVar34) {
+		iVar36 = 1
+		if(load_varc(1516) == 0 || load_varc(1516) == -1)
+			iVar36 = 0
+	} else 
+		iVar36 = 0
+	cc_create(iVar26, 4, iVar0)
+	if(iVar36 == 0) {
+		cc_settextfont(3793)
+		cc_setsize(0, 2, iVar15, iVar9)
+		iVar33 = -1
+		if(activeclanchannel_find_affined() == 1)
+			if(activeclanchannel_getuserslot(sVar0) > -1)
+				iVar33 = activeclanchannel_getuserworld(activeclanchannel_getuserslot(sVar0))
+		if(iVar33 == world_id())
+			cc_setcolor(3cb71e)
+		else
+			if(iVar33 > 0)
+				cc_setcolor(ffff64)
+			else
+				cc_setcolor(beb28c)
+		cc_settextshadow(1)
+		cc_settext(sVar0)
+	}
+	cc_create(iVar26, 5, iVar2)
+	if(iVar36 == 0) {
+		cc_setsize(0, 0, iVar23, iVar22)
+		cc_setgraphic(enum(3712, iVar34, 'i', 'd'))
+		sVar1 = enum(3714, iVar34, 'i', 's')
+		cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1096, 106), iVar2, iVar26, sVar1, 120, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+		instr6092(script_40, "I", if_gethash(1096, 106))
+	}
+	cc_create(iVar26, 5, iVar6)
+	if(iVar36 == 0) {
+		cc_setsize(0, 0, iVar23, iVar22)
+		switch(iVar34) {
+			case default:
+				break
+			case 0:
+				iVar35 = load_clan_setting_varbit(178)
+				break
+			case 1:
+				iVar35 = load_clan_setting_varbit(179)
+				break
+			case 2:
+				iVar35 = load_clan_setting_varbit(180)
+				break
+			case 3:
+				iVar35 = load_clan_setting_varbit(181)
+				break
+			case 4:
+				iVar35 = load_clan_setting_varbit(182)
+				break
+			case 5:
+				iVar35 = load_clan_setting_varbit(183)
+				break
+
+		}
+		if(iVar35 == 1 || iVar34 >= 100) {
+			cc_setgraphic(6235)
+			sVar1 = "Rated Clan" + "<br>" + "Wars Leader"
+			cc_setonmouseover(script_4538, "IIisifdiiiiii", if_gethash(1096, 106), iVar6, iVar26, sVar1, 120, 3793, 3793, 16777215, 13, 4, 3, -2147483647, -2147483646)
+			instr6092(script_40, "I", if_gethash(1096, 106))
+		}
+	}
+	cc_create(iVar26, 5, iVar7)
+	if(iVar36 == 0)
+		cc_setsize(0, 0, iVar23, iVar22)
+	cc_create(iVar26, 5, iVar3)
+	if(iVar36 == 0) {
+		cc_setsize(0, 0, iVar29, iVar28)
+		cc_setgraphic(6034)
+		cc_setop("Show details", 1)
+		instr6687(script_4303, "")
+	}
+	iVar26 = iVar26 + 1
+}
+iVar38 = 0
+iVar26 = 0
+iVar39 = 0
+while(iVar26 < iVar27) {
+	iVar39 = activeclansettings_getsortedaffinedslot(iVar26)
+	if(cc_find(iVar39, iVar0) == 1)
+		if(compare("", cc_gettext()) != 0) {
+			if(modulo(2, iVar38) != 0)
+				iVar24 = iVar8
+			else
+				iVar24 = 0
+			iVar25 = (iVar38 / 2) * iVar15
+			cc_setposition(0, 0, iVar11 + iVar25, iVar10 + iVar24)
+			if(cc_find(iVar39, iVar2) == 1)
+				cc_setposition(0, 0, iVar17 + iVar25, iVar16 + iVar24)
+			if(cc_find(iVar39, iVar3) == 1)
+				cc_setposition(0, 0, iVar25, iVar12 + iVar24)
+			if(cc_find(iVar39, iVar6) == 1)
+				cc_setposition(0, 0, iVar19 + iVar25, iVar18 + iVar24)
+			if(cc_find(iVar39, iVar7) == 1)
+				cc_setposition(0, 0, iVar21 + iVar25, iVar20 + iVar24)
+			iVar38 = iVar38 + 1
+		}
+	iVar26 = iVar26 + 1
+}
+store_varc(1517, iVar38)
+script_4318()
+return
+return

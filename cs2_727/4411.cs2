@@ -1,0 +1,31 @@
+//script4411(4411)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+if(arg0 == -1)
+	return
+iVar4 = 0
+iVar5 = 0
+if(cc_find(arg1, arg0) == 1) {
+	iVar4 = cc_gettransparency()
+	if(arg3 == 0) {
+		if(arg2 == 1)
+			iVar5 = iVar4 + 22
+		else
+			if(arg2 == 0)
+				iVar5 = iVar4 - 22
+			else {
+				instr6556(None, "")
+				return
+			}
+		iVar5 = max(0, iVar5)
+		iVar5 = min(255, iVar5)
+		cc_settrans(iVar5)
+		if(arg2 == 1)
+			if(iVar5 == 255 || arg2 == 0 || iVar5 == 0)
+				instr6556(None, "")
+			else
+				instr6556(script_4411, "Iiii", arg0, arg1, arg2, 0)
+	} else 
+		instr6342(arg0, script_4411, "Iiii", arg0, arg1, arg2, arg3 - 1)
+}
+return

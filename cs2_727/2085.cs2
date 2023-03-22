@@ -1,0 +1,9 @@
+//script2085(2085)()(void)
+if(load_varc(645) <= 5)
+	if_setcolor(54788125, 0x3366FF)
+else
+	if(load_varc(645) >= 25)
+		if_setcolor(54788125, 0xE12323)
+	else
+		if_setcolor(54788125, 0x666666)
+return

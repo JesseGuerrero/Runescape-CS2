@@ -1,0 +1,30 @@
+//script4199(4199)(int arg0)(void)
+if_setgraphic(arg0, 5416)
+if_sethide(if_gethash(891, 76), 0)
+if_sethide(if_gethash(891, 65), 0)
+if(arg0 == 58392632) {
+	if_settext(if_gethash(891, 75), "Cannon Room")
+	if_settext(if_gethash(891, 77), "62+")
+	if_settext(if_gethash(891, 78), "(Members only) Fix up broken cannons. This offers fast XP, for medium resource costs.")
+}
+if(arg0 == 58392633) {
+	if_settext(if_gethash(891, 75), "Burial Armour Room")
+	if_settext(if_gethash(891, 77), "30-70")
+	if_settext(if_gethash(891, 78), "Forge burial armour in line with the taskmaster's orders. Different XP rates at a range of resource costs.")
+}
+if(arg0 == 58392634) {
+	if_settext(if_gethash(891, 75), "Ceremonial Sword Room")
+	if_settext(if_gethash(891, 77), "70+")
+	if_settext(if_gethash(891, 78), "(Members Only) Smith beautiful ceremonial swords. High XP rate, for reasonably high resource costs.")
+}
+if(arg0 == 58392635) {
+	if_settext(if_gethash(891, 75), "Track Room")
+	if_settext(if_gethash(891, 77), "1-30")
+	if_settext(if_gethash(891, 78), "Build up sections of mine cart tracks. Low XP rate, no resource costs.")
+}
+if(arg0 == 58392636) {
+	if_settext(if_gethash(891, 75), "Reward Shop")
+	if_settext(if_gethash(891, 77), "--")
+	if_settext(if_gethash(891, 78), "Purchase unique rewards using respect earned in the workshop.")
+}
+return

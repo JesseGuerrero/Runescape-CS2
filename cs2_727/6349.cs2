@@ -1,0 +1,59 @@
+//script6349(6349)(int arg0, int arg1, int arg2)(int, int)
+switch(arg2) {
+	case default:
+		break
+	case 16:
+		arg0 = script_6350(arg2)
+		arg1 = -1
+		break
+	case 20:
+		if(script_1314(4) == 1 || arg1 == -1) {
+			arg0 = script_6350(4)
+			arg1 = -1
+		}
+		break
+	case 21:
+		if(script_1314(5) == 1) {
+			arg0 = script_6350(5)
+			arg1 = -1
+		}
+		break
+	case 23:
+		if(load_varp(2565) == 1) {
+			arg0 = 82903068
+			arg1 = -1
+		}
+		break
+	case 24:
+		if(instr6644() >= 2) {
+			if(if_isopenwithid(1266, 48889965) == 0)
+				arg0 = -1
+			arg1 = -1
+		} else  {
+			if(if_isopenwithid(1266, 35913900) == 0)
+				arg0 = -1
+			arg1 = -1
+		}
+		break
+	case 25:
+		if(script_1314(6) == 1 || arg1 == -1) {
+			arg0 = script_6350(6)
+			arg1 = -1
+		}
+		break
+	case 26:
+		if(if_gethide(if_gethash(79, 16)) == 1) {
+			arg0 = 5177370
+			arg1 = -1
+		}
+		break
+	case 27:
+		if(script_1314(5) == 1) {
+			arg0 = script_6350(5)
+			arg1 = -1
+		}
+		break
+
+}
+return arg1, arg0
+return 0, -1

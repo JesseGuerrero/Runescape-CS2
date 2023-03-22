@@ -1,0 +1,27 @@
+//script4590(4590)()(int, int, int, int, int, int)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar0 = -1
+iVar1 = -1
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+if(activeclanchannel_find_affined() == 1) {
+	iVar2 = activeclanchannel_getranktalk()
+	iVar0 = activeclanchannel_getuserslot(removetags(instr6574()))
+	if(iVar0 >= 0)
+		iVar1 = activeclanchannel_getuserrank(iVar0)
+}
+if(activeclanchannel_find_listened() == 1) {
+	iVar5 = activeclanchannel_getranktalk()
+	iVar3 = activeclanchannel_getuserslot(removetags(instr6574()))
+	if(iVar3 >= 0)
+		iVar4 = activeclanchannel_getuserrank(iVar3)
+}
+return iVar5, iVar4, iVar3, iVar2, iVar1, iVar0
+return 0, 0, 0, 0, 0, 0

@@ -1,0 +1,107 @@
+//script4889(4889)()(void)
+string sVar0
+sVar0 = ""
+if_sethide(if_gethash(1258, 558), 1)
+if_sethide(if_gethash(1258, 566), 1)
+if_sethide(if_gethash(1258, 562), 1)
+if_sethide(if_gethash(1258, 570), 1)
+if_sethide(if_gethash(1258, 574), 1)
+if_sethide(if_gethash(1258, 578), 1)
+if_sethide(if_gethash(1258, 582), 1)
+if_sethide(if_gethash(1258, 586), 1)
+if_sethide(if_gethash(1258, 590), 1)
+if_sethide(if_gethash(1258, 594), 1)
+if_sethide(if_gethash(1258, 598), 1)
+if_sethide(if_gethash(1258, 602), 1)
+if_sethide(if_gethash(1258, 606), 1)
+if(load_clan_varbit(2580) > 1) {
+	if_sethide(if_gethash(1258, 594), 0)
+	if_sethide(if_gethash(1258, 570), 0)
+	if_sethide(if_gethash(1258, 595), 1)
+	if_sethide(if_gethash(1258, 571), 1)
+} else  {
+	if_sethide(if_gethash(1258, 595), 0)
+	if_sethide(if_gethash(1258, 571), 0)
+	sVar0 = "You need at least a tier 2 citadel to customise the keep fireplace."
+	if_setonmouseover(if_gethash(1258, 595), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 595), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 595), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 2 citadel to customise the potted plants."
+	if_setonmouseover(if_gethash(1258, 571), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 571), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 571), script_40, "I", if_gethash(1258, 119))
+}
+if(load_clan_varbit(2580) > 2) {
+	if_sethide(if_gethash(1258, 558), 0)
+	if_sethide(if_gethash(1258, 566), 0)
+	if_sethide(if_gethash(1258, 574), 0)
+	if_sethide(if_gethash(1258, 582), 0)
+	if_sethide(if_gethash(1258, 586), 0)
+	if_sethide(if_gethash(1258, 606), 0)
+	if_sethide(if_gethash(1258, 559), 1)
+	if_sethide(if_gethash(1258, 567), 1)
+	if_sethide(if_gethash(1258, 575), 1)
+	if_sethide(if_gethash(1258, 579), 1)
+	if_sethide(if_gethash(1258, 583), 1)
+	if_sethide(if_gethash(1258, 587), 1)
+	if_sethide(if_gethash(1258, 607), 1)
+} else  {
+	if_sethide(if_gethash(1258, 559), 0)
+	if_sethide(if_gethash(1258, 567), 0)
+	if_sethide(if_gethash(1258, 575), 0)
+	if_sethide(if_gethash(1258, 583), 0)
+	if_sethide(if_gethash(1258, 587), 0)
+	if_sethide(if_gethash(1258, 607), 0)
+	sVar0 = "You need at least a tier 3 citadel to customise the party room chairs."
+	if_setonmouseover(if_gethash(1258, 559), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 559), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 559), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 3 citadel to customise the party room tables."
+	if_setonmouseover(if_gethash(1258, 567), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 567), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 567), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 3 citadel to customise the sundials."
+	if_setonmouseover(if_gethash(1258, 575), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 575), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 575), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 3 citadel to customise the keep tapestry."
+	if_setonmouseover(if_gethash(1258, 583), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 583), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 583), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 3 citadel to customise the keep banners."
+	if_setonmouseover(if_gethash(1258, 587), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 587), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 587), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 3 citadel to customise the keep door."
+	if_setonmouseover(if_gethash(1258, 607), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 607), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 607), script_40, "I", if_gethash(1258, 119))
+}
+if(load_clan_varbit(2580) > 3) {
+	if_sethide(if_gethash(1258, 598), 0)
+	if_sethide(if_gethash(1258, 602), 0)
+	if_sethide(if_gethash(1258, 562), 0)
+	if_sethide(if_gethash(1258, 590), 0)
+	if_sethide(if_gethash(1258, 599), 1)
+	if_sethide(if_gethash(1258, 603), 1)
+	if_sethide(if_gethash(1258, 563), 1)
+	if_sethide(if_gethash(1258, 591), 1)
+} else  {
+	if_sethide(if_gethash(1258, 599), 0)
+	if_sethide(if_gethash(1258, 603), 0)
+	if_sethide(if_gethash(1258, 563), 0)
+	if_sethide(if_gethash(1258, 591), 0)
+	sVar0 = "You need at least a tier 4 citadel to customise the keep lower windows."
+	if_setonmouseover(if_gethash(1258, 599), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 599), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 599), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 4 citadel to customise the keep upper windows."
+	if_setonmouseover(if_gethash(1258, 603), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 603), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 603), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 4 citadel to customise the citadel flags."
+	if_setonmouseover(if_gethash(1258, 563), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 563), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 563), script_40, "I", if_gethash(1258, 119))
+	sVar0 = "You need at least a tier 4 citadel to customise the keep shields."
+	if_setonmouseover(if_gethash(1258, 591), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 591), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 591), script_40, "I", if_gethash(1258, 119))
+}
+if(load_clan_varbit(2580) > 4)
+	if_sethide(if_gethash(1258, 578), 0)
+else {
+	if_sethide(if_gethash(1258, 579), 0)
+	sVar0 = "You need at least a tier 5 citadel to customise the keep flag."
+	if_setonmouseover(if_gethash(1258, 579), script_4538, "IIisifdiiiiii", if_gethash(1258, 119), if_gethash(1258, 579), -1, sVar0, 120, 3793, 3793, 16777215, 13, 4, 1, -2147483647, -2147483646)
+	hook_mouse_exit(if_gethash(1258, 579), script_40, "I", if_gethash(1258, 119))
+}
+return

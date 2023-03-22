@@ -1,0 +1,61 @@
+void script_230(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	DataMap datamap5;
+	DataMap datamap6;
+	int int7;
+	widget1.clearChildren();
+	widget2.clearChildren();
+	widget3.clearChildren();
+	widget4.clearChildren();
+	datamap5 = 789;
+	datamap6 = 790;
+	if (VARPBIT[3945] == 1) {
+		widget0.setIsHidden(true);
+		widget3.setIsHidden(false);
+		datamap5 = 791;
+		datamap6 = 792;
+		if (VARPBIT[3944] == 1) {
+			script_499(widget3, 787, 788, null, null, 800, 60, 0, 1, 1);
+		} else {
+			script_499(widget3, 778, 779, null, null, 720, 60, 0, 1, 1);
+		}
+	} else {
+		widget0.setIsHidden(false);
+		widget3.setIsHidden(true);
+		if (VARPBIT[3944] == 1) {
+			script_499(widget1, 781, 782, null, 332, 600, 135, 0, 1, 0);
+			script_499(widget2, 784, 785, null, 456, 650, 135, 0, 2, 0);
+		} else {
+			script_499(widget1, 771, 772, 773, 151, 780, 135, 0, 1, 1);
+			script_499(widget2, 775, 776, null, 292, 780, 135, 0, 2, 1);
+		}
+	}
+	int7 = 0;
+	while (int7 < 29) {
+		CHILD.createChild(widget4, 3, int7);
+		CHILD.setSize(25, 25, 0, 0);
+		if (int7 < 15) {
+			CHILD.setPosition(int7 * 25, 0, 0, 0);
+		} else {
+			CHILD.setPosition((int7 - 15) * 25 + 12, 26, 0, 0);
+		}
+		CHILD.setFilled(true);
+		CHILD.setRGB(datamap('i', 'i', datamap5, int7));
+		CHILD.setContextMenuOption(1, datamap('i', 's', datamap6, int7));
+		int7 = int7 + 1;
+	}
+	int7 = 0;
+	while (int7 < 29) {
+		CHILD.createChild(widget4, 5, int7 + 29);
+		CHILD.setSize(25, 25, 0, 0);
+		if (int7 < 15) {
+			CHILD.setPosition(int7 * 25, 0, 0, 0);
+		} else {
+			CHILD.setPosition((int7 - 15) * 25 + 12, 26, 0, 0);
+		}
+		CHILD.setSprite(442);
+		script_501(int7, 3);
+		CHILD.hookVARP(&script_500(CTX_WIDGET, CTX_WIDGET_CHILD, int7, 3), 263);
+		int7 = int7 + 1;
+	}
+	return;
+}

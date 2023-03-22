@@ -1,0 +1,52 @@
+//script265(265)()(void)
+string sVar0
+if_sethide(if_gethash(923, 5), 1)
+if_sethide(if_gethash(923, 0), 1)
+if_sethide(if_gethash(923, 7), 1)
+if_sethide(if_gethash(923, 9), 1)
+if_sethide(if_gethash(923, 11), 1)
+if_sethide(if_gethash(923, 13), 1)
+if_sethide(if_gethash(923, 6), 1)
+if_sethide(if_gethash(923, 1), 1)
+if_sethide(if_gethash(923, 8), 1)
+if_sethide(if_gethash(923, 10), 1)
+if_sethide(if_gethash(923, 12), 1)
+if_sethide(if_gethash(923, 14), 1)
+sVar0 = "Hook: None"
+switch(load_varc(1110)) {
+	case default:
+		break
+	case 2:
+		sVar0 = "Hook: slim"
+		if_sethide(if_gethash(923, 6), 0)
+		break
+	case 1:
+		sVar0 = "Hook: standard"
+		if_sethide(if_gethash(923, 1), 0)
+		break
+	case 3:
+		sVar0 = "Hook: large"
+		if_sethide(if_gethash(923, 8), 0)
+		break
+	case 6:
+		sVar0 = "Hook: double"
+		if_sethide(if_gethash(923, 10), 0)
+		break
+	case 4:
+		sVar0 = "Hook: bone"
+		if_sethide(if_gethash(923, 12), 0)
+		break
+	case 5:
+		sVar0 = "Hook: wooden"
+		if_sethide(if_gethash(923, 14), 0)
+		break
+
+}
+if_settext(if_gethash(923, 103), sVar0)
+if(load_varc(1110) == 0)
+	instr6342(if_gethash(923, 107), script_6255, "")
+else {
+	instr6342(if_gethash(923, 107), None, "")
+	if_sethide(if_gethash(923, 106), 0)
+}
+return

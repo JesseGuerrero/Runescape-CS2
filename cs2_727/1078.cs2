@@ -1,0 +1,37 @@
+//script1078(1078)(int arg0)(void)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		instr6596(load_varc(135), 0)
+		break
+	case 1:
+		instr6596(load_varc(136), 1)
+		break
+	case 2:
+		instr6596(load_varc(137), 2)
+		break
+	case 3:
+		instr6596(load_varc(138), 3)
+		break
+	case 4:
+		instr6596(load_varc(139), 4)
+		break
+	case 5:
+		instr6596(load_varc(140), 5)
+		break
+	case 6:
+		instr6596(load_varc(141), 6)
+		break
+	case 7:
+		instr6596(load_varc(142), 7)
+		break
+	case 8:
+		instr6596(load_varc(143), 8)
+		break
+	case 9:
+		instr6596(load_varc(144), 9)
+		break
+
+}
+return

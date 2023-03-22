@@ -1,0 +1,26 @@
+//script1323(1323)(int arg0, int arg1, int arg2, int arg3)(void)
+if(inv_getitem(0, 439) != -1) {
+	if_sethide(arg0, 0)
+	instr6879(arg0, 1, inv_getitem(0, 439))
+	item_useonname(arg0, "<col=ff9040>" + item_name(inv_getitem(0, 439)))
+} else 
+	if_sethide(arg0, 1)
+if(inv_getitem(1, 439) != -1) {
+	if_sethide(arg1, 0)
+	instr6879(arg1, 1, inv_getitem(1, 439))
+	item_useonname(arg1, "<col=ff9040>" + item_name(inv_getitem(1, 439)))
+} else 
+	if_sethide(arg1, 1)
+if(inv_getitem(2, 439) != -1) {
+	if_sethide(arg2, 0)
+	instr6879(arg2, 1, inv_getitem(2, 439))
+	item_useonname(arg2, "<col=ff9040>" + item_name(inv_getitem(2, 439)))
+} else 
+	if_sethide(arg2, 1)
+if(inv_getitem(3, 439) != -1) {
+	if_sethide(arg3, 0)
+	instr6879(arg3, 1, inv_getitem(3, 439))
+	item_useonname(arg3, "<col=ff9040>" + item_name(inv_getitem(3, 439)))
+} else 
+	if_sethide(arg3, 1)
+return

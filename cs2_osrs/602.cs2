@@ -1,0 +1,236 @@
+string script_602(int arg0) {
+	string str0;
+	str0 = "";
+	if (arg0 < 50) {
+		if (arg0 < 25) {
+			if (arg0 < 13) {
+				if (arg0 < 6) {
+					if (arg0 <= 0) {
+						str0 = STRING[26];
+					} else if (arg0 == 1) {
+						str0 = STRING[29];
+					} else if (arg0 == 2) {
+						str0 = STRING[30];
+					} else if (arg0 == 3) {
+						str0 = STRING[31];
+					} else if (arg0 == 4) {
+						str0 = STRING[32];
+					} else {
+						str0 = STRING[33];
+					}
+				} else if (arg0 == 6) {
+					str0 = STRING[34];
+				} else if (arg0 == 7) {
+					str0 = STRING[35];
+				} else if (arg0 == 8) {
+					str0 = STRING[36];
+				} else if (arg0 == 9) {
+					str0 = STRING[37];
+				} else if (arg0 == 10) {
+					str0 = STRING[38];
+				} else if (arg0 == 11) {
+					str0 = STRING[39];
+				} else {
+					str0 = STRING[40];
+				}
+			} else if (arg0 < 19) {
+				if (arg0 == 13) {
+					str0 = STRING[41];
+				} else if (arg0 == 14) {
+					str0 = STRING[42];
+				} else if (arg0 == 15) {
+					str0 = STRING[43];
+				} else if (arg0 == 16) {
+					str0 = STRING[44];
+				} else if (arg0 == 17) {
+					str0 = STRING[45];
+				} else {
+					str0 = STRING[46];
+				}
+			} else if (arg0 == 19) {
+				str0 = STRING[47];
+			} else if (arg0 == 20) {
+				str0 = STRING[48];
+			} else if (arg0 == 21) {
+				str0 = STRING[49];
+			} else if (arg0 == 22) {
+				str0 = STRING[50];
+			} else if (arg0 == 23) {
+				str0 = STRING[51];
+			} else {
+				str0 = STRING[52];
+			}
+		} else if (arg0 < 38) {
+			if (arg0 < 32) {
+				if (arg0 == 25) {
+					str0 = STRING[53];
+				} else if (arg0 == 26) {
+					str0 = STRING[54];
+				} else if (arg0 == 27) {
+					str0 = STRING[55];
+				} else if (arg0 == 28) {
+					str0 = STRING[56];
+				} else if (arg0 == 29) {
+					str0 = STRING[57];
+				} else if (arg0 == 30) {
+					str0 = STRING[58];
+				} else {
+					str0 = STRING[59];
+				}
+			} else if (arg0 == 32) {
+				str0 = STRING[60];
+			} else if (arg0 == 33) {
+				str0 = STRING[61];
+			} else if (arg0 == 34) {
+				str0 = STRING[62];
+			} else if (arg0 == 35) {
+				str0 = STRING[63];
+			} else if (arg0 == 36) {
+				str0 = STRING[64];
+			} else {
+				str0 = STRING[65];
+			}
+		} else if (arg0 < 44) {
+			if (arg0 == 38) {
+				str0 = STRING[66];
+			} else if (arg0 == 39) {
+				str0 = STRING[67];
+			} else if (arg0 == 40) {
+				str0 = STRING[68];
+			} else if (arg0 == 41) {
+				str0 = STRING[69];
+			} else if (arg0 == 42) {
+				str0 = STRING[70];
+			} else {
+				str0 = STRING[71];
+			}
+		} else if (arg0 == 44) {
+			str0 = STRING[72];
+		} else if (arg0 == 45) {
+			str0 = STRING[73];
+		} else if (arg0 == 46) {
+			str0 = STRING[74];
+		} else if (arg0 == 47) {
+			str0 = STRING[75];
+		} else if (arg0 == 48) {
+			str0 = STRING[76];
+		} else {
+			str0 = STRING[77];
+		}
+	} else if (arg0 < 75) {
+		if (arg0 < 63) {
+			if (arg0 < 56) {
+				if (arg0 == 50) {
+					str0 = STRING[78];
+				} else if (arg0 == 51) {
+					str0 = STRING[79];
+				} else if (arg0 == 52) {
+					str0 = STRING[80];
+				} else if (arg0 == 53) {
+					str0 = STRING[81];
+				} else if (arg0 == 54) {
+					str0 = STRING[82];
+				} else {
+					str0 = STRING[83];
+				}
+			} else if (arg0 == 56) {
+				str0 = STRING[84];
+			} else if (arg0 == 57) {
+				str0 = STRING[85];
+			} else if (arg0 == 58) {
+				str0 = STRING[86];
+			} else if (arg0 == 59) {
+				str0 = STRING[87];
+			} else if (arg0 == 60) {
+				str0 = STRING[88];
+			} else if (arg0 == 61) {
+				str0 = STRING[89];
+			} else {
+				str0 = STRING[90];
+			}
+		} else if (arg0 < 69) {
+			if (arg0 == 63) {
+				str0 = STRING[91];
+			} else if (arg0 == 64) {
+				str0 = STRING[92];
+			} else if (arg0 == 65) {
+				str0 = STRING[93];
+			} else if (arg0 == 66) {
+				str0 = STRING[94];
+			} else if (arg0 == 67) {
+				str0 = STRING[95];
+			} else {
+				str0 = STRING[96];
+			}
+		} else if (arg0 == 69) {
+			str0 = STRING[97];
+		} else if (arg0 == 70) {
+			str0 = STRING[98];
+		} else if (arg0 == 71) {
+			str0 = STRING[99];
+		} else if (arg0 == 72) {
+			str0 = STRING[100];
+		} else if (arg0 == 73) {
+			str0 = STRING[101];
+		} else {
+			str0 = STRING[102];
+		}
+	} else if (arg0 < 88) {
+		if (arg0 < 82) {
+			if (arg0 == 75) {
+				str0 = STRING[103];
+			} else if (arg0 == 76) {
+				str0 = STRING[104];
+			} else if (arg0 == 77) {
+				str0 = STRING[105];
+			} else if (arg0 == 78) {
+				str0 = STRING[106];
+			} else if (arg0 == 79) {
+				str0 = STRING[107];
+			} else if (arg0 == 80) {
+				str0 = STRING[108];
+			} else {
+				str0 = STRING[109];
+			}
+		} else if (arg0 == 82) {
+			str0 = STRING[110];
+		} else if (arg0 == 83) {
+			str0 = STRING[111];
+		} else if (arg0 == 84) {
+			str0 = STRING[112];
+		} else if (arg0 == 85) {
+			str0 = STRING[113];
+		} else if (arg0 == 86) {
+			str0 = STRING[114];
+		} else {
+			str0 = STRING[115];
+		}
+	} else if (arg0 < 94) {
+		if (arg0 == 88) {
+			str0 = STRING[116];
+		} else if (arg0 == 89) {
+			str0 = STRING[117];
+		} else if (arg0 == 90) {
+			str0 = STRING[118];
+		} else if (arg0 == 91) {
+			str0 = STRING[119];
+		} else if (arg0 == 92) {
+			str0 = STRING[120];
+		} else {
+			str0 = STRING[121];
+		}
+	} else if (arg0 == 94) {
+		str0 = STRING[122];
+	} else if (arg0 == 95) {
+		str0 = STRING[123];
+	} else if (arg0 == 96) {
+		str0 = STRING[124];
+	} else if (arg0 == 97) {
+		str0 = STRING[125];
+	} else if (arg0 == 98) {
+		str0 = STRING[126];
+	} else if (arg0 == 99) {
+		str0 = STRING[127];
+	}
+	return str0;
+}

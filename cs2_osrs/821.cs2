@@ -1,0 +1,156 @@
+void script_821(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, Widget widget8, int arg9, int arg10, int arg11, int arg12) {
+	int int13;
+	Container container14;
+	int int15;
+	Item item16;
+	int int17;
+	int int18;
+	int int19;
+	int int20;
+	boolean boolean21;
+	int int22;
+	Sprite sprite23;
+	Sprite sprite24;
+	string str0;
+	int13 = VARPBIT[4439] - 1;
+	container14 = datamap('i', 'v', 150, int13);
+	if (container14 == null || getGENotStarted(int13) == true) {
+		if (CHILD.setChild(widget0, arg1) == true) {
+			CHILD.setText("No offer");
+		}
+		if (CHILD.setChild(widget0, arg2) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget0, arg3) == true) {
+			CHILD.setItemNoNum(6512, 1);
+		}
+		if (CHILD.setChild(widget0, arg4) == true) {
+			CHILD.setText("No offer");
+		}
+		if (CHILD.setChild(widget0, arg5) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget0, arg6) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget0, arg7) == true) {
+			CHILD.setText("");
+		}
+		if (CHILD.setChild(widget8, arg9) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget8, arg10) == true) {
+			CHILD.setText("No offer found for this slot.");
+		}
+		if (CHILD.setChild(widget8, arg11) == true) {
+			script_812(-1, -1, -1, 1, arg12);
+		}
+		return;
+	}
+	int15 = getGEIsSelling(int13);
+	item16 = getGEItem(int13);
+	if (item16 == null) {
+		item16 = 6512;
+	}
+	int17 = getGEItemAmt(int13);
+	if (int17 <= 0) {
+		int17 = 1;
+	}
+	int18 = getGEItemAmtTransfered(int13);
+	int19 = getGEItemPrice(int13);
+	int20 = getGECashTransfered(int13);
+	boolean21 = getGEIsDone(int13);
+	str0 = ",";
+	if (CHILD.setChild(widget0, arg1) == true && _CHILD.setChild(widget0, arg2) == true) {
+		_CHILD.setHidden(false);
+		if (int15 == 1) {
+			CHILD.setText("Sell offer");
+			_CHILD.setSprite(1119);
+		} else {
+			CHILD.setText("Buy offer");
+			_CHILD.setSprite(1118);
+		}
+	}
+	if (CHILD.setChild(widget0, arg3) == true) {
+		CHILD.setItemNoNum(item16, int17);
+	}
+	if (CHILD.setChild(widget0, arg4) == true) {
+		CHILD.setText(getItemName(item16));
+	}
+	if (CHILD.setChild(widget0, arg5) == true) {
+		CHILD.setText(script_46(int17, str0));
+	}
+	if (CHILD.setChild(widget0, arg6) == true) {
+		if (int19 == 1) {
+			CHILD.setText("1 coin");
+		} else {
+			CHILD.setText(script_46(int19, str0) + " coins");
+		}
+	}
+	int22 = 0;
+	if (CHILD.setChild(widget0, arg7) == true) {
+		if (2147483647 / int17 < int19) {
+			CHILD.setText("Lots of money");
+		} else {
+			int22 = int17 * int19;
+			if (int22 == 1) {
+				CHILD.setText("1 coin");
+			} else {
+				CHILD.setText(script_46(int22, str0) + " coins");
+			}
+		}
+	}
+	sprite23 = 1126;
+	sprite24 = 1127;
+	if (CHILD.setChild(widget8, arg10) == true) {
+		if (boolean21 == true) {
+			if (int15 == 1) {
+				if (int20 == 1) {
+					CHILD.setText("You sold a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + "<br>" + "for a total price of " + "<col=ffb83f>" + "one" + "</col>" + " coin.");
+				} else {
+					CHILD.setText("You sold a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + "<br>" + "for a total price of " + "<col=ffb83f>" + script_46(int20, str0) + "</col>" + " coins.");
+				}
+			} else if (int20 == 1) {
+				CHILD.setText("You bought a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + "<br>" + "for a total price of " + "<col=ffb83f>" + "one" + "</col>" + " coin.");
+			} else {
+				CHILD.setText("You bought a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + "<br>" + "for a total price of " + "<col=ffb83f>" + script_46(int20, str0) + "</col>" + " coins.");
+			}
+			if (CHILD.setChild(widget8, arg9) == true) {
+				CHILD.setHidden(true);
+			}
+		} else {
+			if (int15 == 1) {
+				if (int20 == 1) {
+					CHILD.setText("You have sold a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=ffb83f>" + "one" + "</col>" + " coin.");
+				} else {
+					CHILD.setText("You have sold a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=ffb83f>" + script_46(int20, str0) + "</col>" + " coins.");
+				}
+			} else if (int20 == 1) {
+				CHILD.setText("You have bought a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=ffb83f>" + "one" + "</col>" + " coin.");
+			} else {
+				CHILD.setText("You have bought a total of " + "<col=ffb83f>" + script_46(int18, str0) + "</col>" + " so far" + "<br>" + "for a total price of " + "<col=ffb83f>" + script_46(int20, str0) + "</col>" + " coins.");
+			}
+			if (CHILD.setChild(widget8, arg9) == true) {
+				CHILD.setHidden(false);
+				if (getGEIsStatus2(int13) == true) {
+					CHILD.setTrans(0);
+					CHILD.setSprite(sprite23);
+					CHILD.hookMouseHover(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, (Sprite)sprite24, null));
+					CHILD.hookMouseExit(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite23, null));
+					CHILD.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+				} else {
+					CHILD.setTrans(120);
+					CHILD.setSprite(sprite24);
+					CHILD.hookMouseHover(null);
+					CHILD.hookMouseExit(null);
+					CHILD.hookOptionClick(null);
+				}
+			}
+		}
+	}
+	if (CHILD.setChild(widget8, arg11) == true) {
+		CHILD.setHidden(false);
+		script_812(int13, int17, int18, 0, arg12);
+	}
+	return;
+}

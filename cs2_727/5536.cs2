@@ -1,0 +1,51 @@
+//script5536(5536)(int arg0)(void)
+store_varc(1725, arg0)
+store_varc(1724, 1)
+store_varc(1808, 1)
+if(arg0 >= 1)
+	if(arg0 <= 4)
+		script_6071(0)
+	else
+		if(arg0 >= 11)
+			if(arg0 <= 12)
+				script_6071(1)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1178, 49), 10422)
+		if_settext(if_gethash(1178, 77), "Tool Belt - General")
+		if_sethide(if_gethash(1178, 79), 0)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1178, 50), 10423)
+		if_settext(if_gethash(1178, 77), "Tool Belt - Fishing")
+		if_sethide(if_gethash(1178, 79), 0)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1178, 51), 10424)
+		if_settext(if_gethash(1178, 77), "Tool Belt - Crafting")
+		if_sethide(if_gethash(1178, 79), 0)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1178, 52), 10425)
+		if_settext(if_gethash(1178, 77), "Tool Belt - Farming")
+		if_sethide(if_gethash(1178, 79), 0)
+		break
+	case 11:
+		if_setgraphic(if_gethash(1178, 53), 10426)
+		if_settext(if_gethash(1178, 77), "Dungeoneering - Tools")
+		if_sethide(if_gethash(1178, 79), 0)
+		break
+	case 12:
+		if_setgraphic(if_gethash(1178, 54), 10427)
+		if_settext(if_gethash(1178, 77), "Dungeoneering - Keys")
+		if_sethide(if_gethash(1178, 79), 1)
+		break
+
+}
+script_6069()
+script_5537()
+script_5539()
+script_5544()
+return

@@ -1,0 +1,6 @@
+//script4563(4563)(int arg0, int arg1)(void)
+if_sethide(if_gethash(589, 54), 1)
+if_sethide(if_gethash(589, 34), 1)
+if(cc_find(arg1, arg0) == 1)
+	cc_setonmouseover(None, "")
+return

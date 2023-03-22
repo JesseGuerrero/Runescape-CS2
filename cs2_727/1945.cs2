@@ -1,0 +1,5 @@
+//script1945(1945)()(void)
+int iVar0
+iVar0 = ((load_varp(1332) + load_varp(1334)) + load_varp(1337)) + (2 * (load_varp(1333) - load_varp(1335)))
+if_settext(if_gethash(802, 8), "Score: " + to_string(iVar0))
+return

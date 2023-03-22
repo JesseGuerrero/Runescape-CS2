@@ -1,0 +1,7 @@
+//script2592(2592)(int arg0)(void)
+sound_synth(0, 1, 6784)
+if(if_getspriteid(arg0) == 941)
+	if_setgraphic(arg0, 942)
+else
+	if_setgraphic(arg0, 941)
+return

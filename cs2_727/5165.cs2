@@ -1,0 +1,4 @@
+//script5165(5165)()(void)
+store_varp(2347, max(min(65535, load_varp(2347)), 0))
+resume_hsldialog(load_varp(2347))
+return

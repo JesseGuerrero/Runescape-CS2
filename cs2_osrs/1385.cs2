@@ -1,0 +1,80 @@
+void script_1385(int arg0, int arg1, int arg2, int arg3) {
+	if (arg0 < 8) {
+		if (arg0 == 1) {
+			VARC[141] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 2) {
+			VARC[142] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 3) {
+			VARC[143] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 4) {
+			VARC[144] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 5) {
+			VARC[145] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 6) {
+			VARC[146] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 7) {
+			VARC[147] = script_1386(arg1, arg2, arg3);
+		} else {
+			msg("The menu could not draw room " + arg0 + ".");
+		}
+	} else if (arg0 < 16) {
+		if (arg0 == 8) {
+			VARC[148] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 9) {
+			VARC[149] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 10) {
+			VARC[150] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 11) {
+			VARC[151] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 12) {
+			VARC[152] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 13) {
+			VARC[153] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 14) {
+			VARC[154] = script_1386(arg1, arg2, arg3);
+		} else {
+			VARC[155] = script_1386(arg1, arg2, arg3);
+		}
+	} else if (arg0 < 24) {
+		if (arg0 == 16) {
+			VARC[156] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 17) {
+			VARC[157] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 18) {
+			VARC[158] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 19) {
+			VARC[159] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 20) {
+			VARC[160] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 21) {
+			VARC[161] = script_1386(arg1, arg2, arg3);
+		} else if (arg0 == 22) {
+			VARC[162] = script_1386(arg1, arg2, arg3);
+		} else {
+			VARC[163] = script_1386(arg1, arg2, arg3);
+		}
+	} else if (arg0 == 24) {
+		VARC[164] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 25) {
+		VARC[165] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 26) {
+		VARC[166] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 27) {
+		VARC[167] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 28) {
+		VARC[168] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 29) {
+		VARC[169] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 30) {
+		VARC[170] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 31) {
+		VARC[174] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 32) {
+		VARC[176] = script_1386(arg1, arg2, arg3);
+	} else if (arg0 == 33) {
+		VARC[177] = script_1386(arg1, arg2, arg3);
+	} else {
+		msg("The menu could not draw room " + arg0 + ".");
+	}
+	return;
+}

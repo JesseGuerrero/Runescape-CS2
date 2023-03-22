@@ -1,0 +1,6 @@
+//script4187(4187)(int arg0)(void)
+if(client_clock() < arg0)
+	return
+instr6342(if_gethash(1072, 83), None, "")
+if_sethide(if_gethash(1072, 83), 1)
+return

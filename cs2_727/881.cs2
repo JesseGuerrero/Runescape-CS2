@@ -1,0 +1,5 @@
+//script881(881)(int arg0)(void)
+if_setmodel(arg0, 32408)
+hook_mouse_exit(arg0, None, "")
+if_sethide(if_gethash(699, 4), 1)
+return

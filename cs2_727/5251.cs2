@@ -1,0 +1,4 @@
+//script5251(5251)()(void)
+if_settext(if_gethash(1127, 18), "You have received a piece of Hybrid Armour!")
+if_settext(if_gethash(1127, 17), "Select which reward you would prefer")
+return

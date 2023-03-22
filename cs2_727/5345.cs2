@@ -1,0 +1,21 @@
+//script5345(5345)()(void)
+if_sethide(if_gethash(622, 6), 1)
+if_sethide(if_gethash(622, 7), 1)
+if_sethide(if_gethash(622, 9), 1)
+if_sethide(if_gethash(622, 8), 1)
+switch(world_language()) {
+	case default:
+		if_sethide(if_gethash(622, 6), 0)
+		break
+	case 1:
+		if_sethide(if_gethash(622, 9), 0)
+		break
+	case 2:
+		if_sethide(if_gethash(622, 7), 0)
+		break
+	case 3:
+		if_sethide(if_gethash(622, 8), 0)
+		break
+
+}
+return

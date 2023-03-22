@@ -1,0 +1,25 @@
+//script1628(1628)()(void)
+int iVar0
+int iVar1
+int iVar2
+store_varc(1033, 0)
+iVar0 = coordx(coord()) - modulo(64, coordx(coord()))
+iVar1 = coordz(coord()) - modulo(64, coordz(coord()))
+iVar2 = movecoord(iVar1, 0, iVar0, 0)
+instr6650(6, 0)
+instr6651(0, 400, movecoord(9, 0, 22, iVar2), 450, movecoord(9, 0, 22, iVar2), 0, 0)
+instr6651(0, 400, movecoord(7, 0, 13, iVar2), 450, movecoord(17, 0, 13, iVar2), 1, 0)
+instr6651(0, 600, movecoord(20, 0, 17, iVar2), 550, movecoord(20, 0, 17, iVar2), 2, 0)
+instr6651(0, 700, movecoord(20, 0, 17, iVar2), 650, movecoord(20, 0, 17, iVar2), 3, 0)
+instr6651(0, 500, movecoord(19, 0, 24, iVar2), 450, movecoord(19, 0, 24, iVar2), 4, 0)
+instr6651(0, 500, movecoord(12, 0, 26, iVar2), 450, movecoord(12, 0, 26, iVar2), 5, 0)
+instr6650(6, 1)
+instr6651(0, 300, movecoord(12, 0, 8, iVar2), 300, movecoord(12, 0, 8, iVar2), 0, 1)
+instr6651(0, 300, movecoord(20, 0, 8, iVar2), 300, movecoord(20, 0, 8, iVar2), 1, 1)
+instr6651(0, 300, movecoord(12, 0, 8, iVar2), 300, movecoord(12, 0, 8, iVar2), 2, 1)
+instr6651(0, 300, movecoord(28, 0, 8, iVar2), 300, movecoord(28, 0, 8, iVar2), 3, 1)
+instr6651(0, 300, movecoord(16, 0, 30, iVar2), 300, movecoord(16, 0, 30, iVar2), 4, 1)
+instr6651(0, 400, movecoord(16, 0, 30, iVar2), 400, movecoord(16, 0, 30, iVar2), 5, 1)
+instr6255(if_gethash(75, 0), script_1631, "")
+instr6677(0, 1, 200, 200, 0, 0)
+return

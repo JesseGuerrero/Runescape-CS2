@@ -1,0 +1,10 @@
+//script329(329)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(gender() == 1)
+	iVar1 = enum_getoutputcount(2363)
+else
+	iVar1 = enum_getoutputcount(2132)
+script_332(load_varc(785))
+script_2366(arg0, load_varc(785), iVar1)
+return

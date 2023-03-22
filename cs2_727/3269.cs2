@@ -1,0 +1,43 @@
+//script3269(3269)(int arg0, int arg1, int arg2, int arg3)(int, int, int, int)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+if(arg0 == 0) {
+	arg2 = 48
+	arg3 = 48
+}
+iVar4 = arg1
+if(load_varc(1198) == 1) {
+	iVar4 = iVar4 + 2
+	if(arg0 == 1)
+		iVar4 = iVar4 + arg3
+	else
+		iVar4 = iVar4 + arg2
+}
+iVar5 = iVar4
+if(load_varc(1199) == 1) {
+	iVar5 = iVar5 + 2
+	if(arg0 == 2)
+		iVar5 = iVar5 + arg3
+	else
+		iVar5 = iVar5 + arg2
+}
+iVar6 = iVar5
+if(load_varc(1200) == 1) {
+	iVar6 = iVar6 + 2
+	if(arg0 == 3)
+		iVar6 = iVar6 + arg3
+	else
+		iVar6 = iVar6 + arg2
+}
+iVar7 = iVar6
+if(load_varc(1201) == 1) {
+	iVar7 = iVar7 + 2
+	if(arg0 == 4)
+		iVar7 = iVar7 + arg3
+	else
+		iVar7 = iVar7 + arg2
+}
+return iVar7, iVar6, iVar5, iVar4
+return 0, 0, 0, 0

@@ -1,0 +1,6 @@
+//script203(203)(int arg0)(int)
+if(instr6661(-1, if_gethash(1109, 5)) == 1) {
+	instr6342(if_gethash(1109, 5), script_204, "")
+	return
+}
+return script_518()

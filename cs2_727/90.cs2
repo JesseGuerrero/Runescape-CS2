@@ -1,0 +1,114 @@
+//script90(90)(int arg0, int arg1)(int)
+switch(chatline_gettype(arg0)) {
+	case default:
+		break
+	case -1:
+		return 0
+
+	case 120:
+		return 1
+
+	case 109:
+		if(load_varpbit(6161) == 1)
+			return 0
+		return 1
+
+	case 17:
+		if(chat_getfilter_public() == 0)
+			return 1
+		if(chat_getfilter_public() == 1)
+			if(friend_test(instr6573(arg0)) == 1)
+				return 1
+		return 0
+
+	case 18:
+		if(load_varp(287) > 0)
+			if(load_varc(41) >= 0)
+				if(arg1 == 0)
+					if(script_506(arg0) == 0)
+						return 0
+		if(chat_getfilter_private() == 0)
+			return 1
+		if(chat_getfilter_private() == 1)
+			if(friend_test(instr6573(arg0)) == 1)
+				return 1
+		return 0
+
+	case 118:
+		if(chat_getfilter_trade() == 0)
+			return 1
+		if(chat_getfilter_trade() == 1)
+			if(friend_test(instr6573(arg0)) == 1)
+				return 1
+		return 0
+
+	case 19:
+		if(load_varp(287) > 0)
+			if(load_varc(41) >= 0)
+				if(arg1 == 0)
+					if(script_506(arg0) == 0)
+						return 0
+		if(chat_getfilter_private() < 2)
+			return 1
+		return 0
+
+	case 7:
+		if(load_varp(287) > 0)
+			if(load_varc(41) >= 0)
+				if(arg1 == 0)
+					if(script_506(arg0) == 0)
+						return 0
+		return 1
+
+	case 45:
+		if(load_varp(1054) == 0)
+			return 1
+		if(load_varp(1054) == 1)
+			if(friend_test(instr6573(arg0)) == 1)
+				return 1
+		return 0
+
+	case 20:
+		if(load_varp(2159) == 0)
+			return 1
+		if(load_varp(2159) == 1)
+			if(friend_test(instr6573(arg0)) == 1)
+				return 1
+		return 0
+
+	case 102:
+		if(load_varp(1055) == 0)
+			return 1
+		if(load_varp(1055) == 1)
+			if(friend_test(instr6573(arg0)) == 1)
+				return 1
+		return 0
+
+	case 11:
+		if(load_varp(2159) < 2)
+			return 1
+		return 0
+
+	case 46:
+		if(load_varp(1054) < 2)
+			return 1
+		return 0
+
+	case 103:
+		if(chat_getfilter_trade() < 2)
+			return 1
+		return 0
+
+	case 119:
+		if(chat_getfilter_trade() >= 2 || ignore_test(chat_getcrownedname(arg0)) == 1)
+			return 0
+		break
+	case 104:
+		if(load_varp(1055) < 2)
+			return 1
+		return 0
+
+
+}
+return 1
+return -1

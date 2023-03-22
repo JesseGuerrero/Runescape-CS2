@@ -1,0 +1,130 @@
+void script_1296(Widget widget0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11, int arg12, Widget widget13, Widget widget14, Widget widget15, Widget widget16, Widget widget17, Widget widget18, Widget widget19, Widget widget20, Widget widget21) {
+	int int22;
+	ARRAY0 = new Item[4];
+	ARRAY1 = new int[4];
+	int22 = 0;
+	widget13.setItem(null, 0);
+	widget14.setItem(null, 0);
+	widget15.setItem(null, 0);
+	widget16.setItem(null, 0);
+	widget0.clearChildren();
+	ARRAY0[int22] = 13446;
+	ARRAY1[int22] = 1;
+	int22 = int22 + 1;
+	if (arg2 > 0) {
+		ARRAY0[int22] = 556;
+		ARRAY1[int22] = arg2;
+		int22 = int22 + 1;
+	}
+	if (arg3 > 0) {
+		ARRAY0[int22] = 555;
+		ARRAY1[int22] = arg3;
+		int22 = int22 + 1;
+	}
+	if (int22 <= 3 && arg4 > 0) {
+		ARRAY0[int22] = 557;
+		ARRAY1[int22] = arg4;
+		int22 = int22 + 1;
+	}
+	if (int22 <= 3 && arg5 > 0) {
+		ARRAY0[int22] = 554;
+		ARRAY1[int22] = arg5;
+		int22 = int22 + 1;
+	}
+	if (int22 <= 3 && arg7 > 0) {
+		ARRAY0[int22] = arg6;
+		ARRAY1[int22] = arg7;
+		int22 = int22 + 1;
+	}
+	if (int22 <= 3 && arg9 > 0) {
+		ARRAY0[int22] = arg8;
+		ARRAY1[int22] = arg9;
+		int22 = int22 + 1;
+	}
+	if (int22 <= 3 && arg11 > 0) {
+		ARRAY0[int22] = arg10;
+		ARRAY1[int22] = arg11;
+		int22 = int22 + 1;
+	}
+	widget17.setText("Magic level: " + arg12);
+	if (getSkillCurrentLvl(6) >= arg12) {
+		widget17.setRGB(0xFF981F);
+	} else {
+		widget17.setRGB(0xC80000);
+	}
+	if (ARRAY0[0] != -1 && ARRAY1[0] > 0) {
+		widget18.setText(getItemAmtInContainer(93, 13446) + "/1");
+		widget13.setItemOnWidgetMethod2205((Item)ARRAY0[0], ARRAY1[0]);
+		if (getItemAmtInContainer(93, (Item)ARRAY0[0]) < ARRAY1[0]) {
+			CHILD.createChild(widget0, 5, 0);
+			CHILD.setSize(16, 16, 0, 0);
+			CHILD.setPosition(widget13.getX() + 20, widget13.getY() + 16, 0, 0);
+			CHILD.setSprite(299);
+			widget18.setRGB(0xC80000);
+		} else {
+			CHILD.createChild(widget0, 5, 0);
+			CHILD.setSize(17, 17, 0, 0);
+			CHILD.setPosition(widget13.getX() + 20, widget13.getY() + 16, 0, 0);
+			CHILD.setSprite(1210);
+			widget18.setRGB(0xFF981F);
+		}
+	}
+	if (ARRAY0[1] != -1 && ARRAY1[1] > 0) {
+		widget19.setText(script_20(script_19((Item)ARRAY0[1])) + "/" + ARRAY1[1]);
+		widget14.setItemOnWidgetMethod2205((Item)ARRAY0[1], ARRAY1[1]);
+		if (script_19((Item)ARRAY0[1]) < ARRAY1[1]) {
+			CHILD.createChild(widget0, 5, 1);
+			CHILD.setSize(16, 16, 0, 0);
+			CHILD.setPosition(widget14.getX() + 20, widget14.getY() + 16, 0, 0);
+			CHILD.setSprite(299);
+			widget19.setRGB(0xC80000);
+		} else {
+			CHILD.createChild(widget0, 5, 1);
+			CHILD.setSize(17, 17, 0, 0);
+			CHILD.setPosition(widget14.getX() + 20, widget14.getY() + 16, 0, 0);
+			CHILD.setSprite(1210);
+			widget19.setRGB(0xFF981F);
+		}
+	} else {
+		widget19.setText("");
+	}
+	if (ARRAY0[2] != -1 && ARRAY1[2] > 0) {
+		widget20.setText(script_20(script_19((Item)ARRAY0[2])) + "/" + ARRAY1[2]);
+		widget15.setItemOnWidgetMethod2205((Item)ARRAY0[2], ARRAY1[2]);
+		if (script_19((Item)ARRAY0[2]) < ARRAY1[2]) {
+			CHILD.createChild(widget0, 5, 2);
+			CHILD.setSize(16, 16, 0, 0);
+			CHILD.setPosition(widget15.getX() + 20, widget15.getY() + 16, 0, 0);
+			CHILD.setSprite(299);
+			widget20.setRGB(0xC80000);
+		} else {
+			CHILD.createChild(widget0, 5, 2);
+			CHILD.setSize(17, 17, 0, 0);
+			CHILD.setPosition(widget15.getX() + 20, widget15.getY() + 16, 0, 0);
+			CHILD.setSprite(1210);
+			widget20.setRGB(0xFF981F);
+		}
+	} else {
+		widget20.setText("");
+	}
+	if (ARRAY0[3] != -1 && ARRAY1[3] > 0) {
+		widget21.setText(script_20(script_19((Item)ARRAY0[3])) + "/" + ARRAY1[3]);
+		widget16.setItemOnWidgetMethod2205((Item)ARRAY0[3], ARRAY1[3]);
+		if (script_19((Item)ARRAY0[3]) < ARRAY1[3]) {
+			CHILD.createChild(widget0, 5, 3);
+			CHILD.setSize(16, 16, 0, 0);
+			CHILD.setPosition(widget16.getX() + 20, widget16.getY() + 16, 0, 0);
+			CHILD.setSprite(299);
+			widget21.setRGB(0xC80000);
+		} else {
+			CHILD.createChild(widget0, 5, 3);
+			CHILD.setSize(17, 17, 0, 0);
+			CHILD.setPosition(widget16.getX() + 20, widget16.getY() + 16, 0, 0);
+			CHILD.setSprite(1210);
+			widget21.setRGB(0xFF981F);
+		}
+	} else {
+		widget21.setText("");
+	}
+	return;
+}

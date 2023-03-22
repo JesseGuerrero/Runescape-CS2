@@ -1,0 +1,6 @@
+//script53(53)(int arg0, int arg1, int arg2)(void)
+if_settext(arg0, to_string(script_5256()) + " / " + to_string(script_5255()))
+if_setsize(arg0, 0, 0, if_getheight(arg0), stringwidth(495, if_gettext(arg0)))
+if(arg2 == 1)
+	script_5264(arg0, arg1)
+return

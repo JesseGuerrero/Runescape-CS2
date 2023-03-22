@@ -1,0 +1,60 @@
+void script_783(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	Item item7;
+	int2 = VARPBIT[4439] - 1;
+	int3 = 0;
+	if (datamap('i', 'v', 150, int2) == null) {
+		int3 = 1;
+	} else if (getGENotStarted(int2) == true) {
+		if (VARPBIT[4397] == 1) {
+			int3 = 1;
+		}
+	} else {
+		int3 = 1;
+	}
+	int4 = 0;
+	while (int4 < 4) {
+		if (CHILD.setChild(widget1, int4) == true) {
+			if (int3 == 1) {
+				CHILD.setTrans(240);
+				CHILD.hookFrame(&script_811(CTX_WIDGET, CTX_WIDGET_CHILD, getClientCycle() + 3 - int4 * 2, 240, 250));
+				CHILD.setHidden(false);
+			} else {
+				CHILD.setHidden(true);
+			}
+		}
+		int4 = int4 + 1;
+	}
+	int5 = (42 - 36) * 3 - 2;
+	int6 = (36 - 32) * 2;
+	item7 = null;
+	int4 = getItemContainerLength(93);
+	while (int4 > 0) {
+		int4 = int4 - 1;
+		if (CHILD.setChild(widget0, int4) == true) {
+			CHILD.setNoOptions();
+			CHILD.setPosition(int5 + int4 % 4 * 42, int6 + int4 / 4 * 36, 0, 0);
+			item7 = getItemIdInSlot(93, int4);
+			if (item7 != null) {
+				CHILD.setHidden(false);
+				CHILD.setItem(item7, getItemAmtInSlot(93, int4));
+				if (int3 == 1) {
+					CHILD.setContextMenuOption(1, "Offer");
+					CHILD.hookOptionClick(&script_487(CTX_WIDGET, CTX_WIDGET_CHILD, 100, 0));
+				} else {
+					CHILD.hookOptionClick(null);
+				}
+				CHILD.setContextMenuOption(10, "Examine");
+				CHILD.setOptionBase("<col=ff9040>" + getItemName(item7) + "</col>");
+			} else {
+				CHILD.setHidden(true);
+				CHILD.setItem(6512, 1);
+			}
+		}
+	}
+	return;
+}

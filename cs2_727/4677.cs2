@@ -1,0 +1,57 @@
+//script4677(4677)()(void)
+switch(load_varpbit(9306)) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(9298) == 10)
+			if(stat_base(6) >= 30)
+				if(stat_base(4) >= 30)
+					if(stat_base(0) >= 30)
+						if_settext(if_gethash(102, 54), "Carn is no more, his behemoth has been dealt with, and Linza has her ore. The tales of Great Ozan can continue!")
+					else
+						if_settext(if_gethash(102, 54), "Carn has been defeated and Linza appreciates her new ore. The story still feels incomplete, somehow.")
+		else
+			if_settext(if_gethash(102, 54), "Carn's defeated, but the story still feels incomplete somehow.")
+		break
+	case 2:
+		if(load_varpbit(9298) == 10)
+			if(stat_base(16) >= 55)
+				if(stat_base(17) >= 55)
+					if_settext(if_gethash(102, 54), "I have become Vengeance: death to those who callously disregard life. They, and everyone like them, will pay for what they have done.")
+				else
+					if_settext(if_gethash(102, 54), "Am I done now? No, there's more that must be done. Vengeance has not yet been satisfied.")
+		else
+			if_settext(if_gethash(102, 54), "I killed them...but in doing so I never thought to check for survivors. Am I a monster?")
+		break
+	case 4:
+		if(load_varpbit(9298) == 10)
+			if(stat_base(2) >= 70)
+				if_settext(if_gethash(102, 54), "Ha! Thok stronger than squishy monsters in dungeon! None are as mighty as Thok.")
+			else
+				if_settext(if_gethash(102, 54), "Odd... Thok remember being much stronger in dungeon.")
+		else
+			if_settext(if_gethash(102, 54), "Thok save Marm, but Thok not show how mighty Thok is. Thok need to do more.")
+		break
+	case 3:
+		if(stat_base(0) >= 60)
+			if(stat_base(17) >= 45)
+				if(stat_base(24) >= 55)
+					if(load_varpbit(9298) == 10)
+						if_settext(if_gethash(102, 54), "I finally completed my task; the perfect spy, the perfect assassin.")
+					else
+						if_settext(if_gethash(102, 54), "I completed my task, but...I made mistakes, left things undone...")
+				else
+					if_settext(if_gethash(102, 54), "My task is incomplete, this story still unfinished. I remember there was...more...")
+		break
+	case 6:
+		if(stat_base(2) >= 75)
+			if(load_varpbit(9298) == 10)
+				if_settext(if_gethash(102, 54), "A mighty adventure for Thok and Marmaros! Thok have best adventures.")
+			else
+				if_settext(if_gethash(102, 54), "Thok smash bone face good...but Thok still have more to do!")
+		else
+			if_settext(if_gethash(102, 54), "Thok enjoy smashing foes...but Thok remember being stronger before.")
+		break
+
+}
+return

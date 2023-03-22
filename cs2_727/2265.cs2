@@ -1,0 +1,48 @@
+//script2265(2265)(int arg0)(void)
+if_sethide(arg0, 0)
+switch(arg0) {
+	case default:
+		break
+	case 61866061:
+		if(load_varc(755) != -1)
+			instr6207(arg0, -1, load_varc(755))
+		break
+	case 61866008:
+		if(load_varc(756) != -1)
+			instr6207(arg0, -1, load_varc(756))
+		break
+	case 61866014:
+		if(load_varc(757) != -1)
+			instr6207(arg0, -1, load_varc(757))
+		break
+	case 61866020:
+		if(load_varc(758) != -1)
+			instr6207(arg0, -1, load_varc(758))
+		break
+	case 61866026:
+		if(load_varc(759) != -1)
+			instr6207(arg0, -1, load_varc(759))
+		break
+	case 61866032:
+		if(load_varc(760) != -1)
+			instr6207(arg0, -1, load_varc(760))
+		break
+	case 61866038:
+		if(load_varc(1139) != -1)
+			instr6207(arg0, -1, load_varc(1139))
+		break
+	case 61866044:
+		if(load_varc(1140) != -1)
+			instr6207(arg0, -1, load_varc(1140))
+		break
+	case 61866050:
+		if(load_varc(1141) != -1)
+			instr6207(arg0, -1, load_varc(1141))
+		break
+	case 61866056:
+		if(load_varc(1142) != -1)
+			instr6207(arg0, -1, load_varc(1142))
+		break
+
+}
+return

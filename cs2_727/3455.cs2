@@ -1,0 +1,5 @@
+//script3455(3455)()(void)
+store_varc(1281, 0)
+if_settext(if_gethash(475, 78), to_string(load_varc(1281)))
+return
+return

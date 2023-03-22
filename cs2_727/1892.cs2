@@ -1,0 +1,11 @@
+//script1892(1892)(int arg0, int arg1)(void)
+instr6708(arg0, script_1893, "II", arg0, arg1)
+if_setscrollsize(arg0, 0, 0)
+if_setscrollpos(arg0, 0, 0)
+script_31(arg1, arg0, 5666, 5663, 5664, 5665, 5686, 5685)
+script_1895(arg0, arg1)
+if(userdetail_quickchat() == 1) {
+	if_settext(if_gethash(1108, 0), "Friends Chat channel:")
+	instr6213(if_gethash(1108, 1), 1, "Enable")
+}
+return

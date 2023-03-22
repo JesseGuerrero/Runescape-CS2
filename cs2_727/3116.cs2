@@ -1,0 +1,37 @@
+//script3116(3116)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+if(world_id() == -1) {
+	if_sethide(if_gethash(910, 12), 1)
+	if_settext(if_gethash(910, 11), "World: Auto")
+	return
+}
+iVar0 = 0
+sVar0 = ""
+iVar1 = 0
+sVar1 = ""
+iVar2 = 0
+iVar3 = 0
+sVar2 = ""
+iVar0 = worldlist_getinfo(world_id()).get(0)
+iVar4 = 0
+if(bit_flagged(0, iVar0) == 1)
+	iVar4 = 1
+else
+	iVar4 = 0
+sVar3 = "World " + to_string(world_id())
+if_settext(if_gethash(910, 11), sVar3)
+if_setposition(if_gethash(910, 12), 2, 2, 0, stringwidth(3793, sVar3) + 5)
+if(iVar4 == 1)
+	if_setgraphic(if_gethash(910, 12), 1531)
+else
+	if_setgraphic(if_gethash(910, 12), 1532)
+return
+return

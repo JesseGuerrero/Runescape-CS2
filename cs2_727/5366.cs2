@@ -1,0 +1,31 @@
+//script5366(5366)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 100 / 8
+iVar1 = load_varc(1655) / iVar0
+if(modulo(iVar0, load_varc(1655)) == 0)
+	iVar1 = iVar1 - 1
+iVar2 = 0
+while(iVar2 < 8) {
+	if(iVar2 > iVar1) {
+		script_5367((iVar2 * 6) + 3, 0)
+		script_5367((iVar2 * 6) + 4, 0)
+		script_5367((iVar2 * 6) + 5, 0)
+	} else 
+		if(iVar2 < iVar1) {
+			script_5367((iVar2 * 6) + 3, 2)
+			script_5367((iVar2 * 6) + 4, 2)
+			script_5367((iVar2 * 6) + 5, 2)
+		} else 
+			if(iVar2 == iVar1)
+				if(iVar2 != load_varc(1657)) {
+					store_varc(1658, 0)
+					store_varc(1657, iVar2)
+					script_5367((iVar2 * 6) + 3, 1)
+					script_5367((iVar2 * 6) + 4, 1)
+					script_5367((iVar2 * 6) + 5, 1)
+				}
+	iVar2 = iVar2 + 1
+}
+return

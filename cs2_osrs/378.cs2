@@ -1,0 +1,13 @@
+void script_378(Widget widget0, int arg1) {
+	string str0;
+	str0 = "Accept Aid (currently off)";
+	if (VARPBIT[4180] == 0) {
+		widget0.setSprite(761);
+	} else {
+		str0 = "Accept Aid (currently on)";
+		widget0.setSprite(762);
+	}
+	widget0.hookMouseHover(&script_526(widget0, -1, widget(arg1), str0, 25, 190));
+	VARC[2] = 0;
+	return;
+}

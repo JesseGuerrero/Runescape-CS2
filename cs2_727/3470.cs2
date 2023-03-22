@@ -1,0 +1,29 @@
+//script3470(3470)(int arg0, int arg1)(void)
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 1:
+		cc_deleteall(arg0)
+		script_2766(0, 75, arg0)
+		break
+	case 2:
+		instr6650(5, 0)
+		instr6650(5, 1)
+		instr6651(0, 715, script_3459(62035526, arg1), 510, script_3459(62019146, arg1), 0, 0)
+		instr6651(0, 170, script_3459(62051920, arg1), 170, script_3459(62117455, arg1), 0, 1)
+		instr6651(0, 1430, script_3459(62772815, arg1), 1035, script_3459(62658120, arg1), 1, 0)
+		instr6651(0, 170, script_3459(62576213, arg1), 170, script_3459(62527055, arg1), 1, 1)
+		instr6651(0, 2095, script_3459(62363249, arg1), 2095, script_3459(62527082, arg1), 2, 0)
+		instr6651(0, 170, script_3459(62264928, arg1), 170, script_3459(62379614, arg1), 2, 1)
+		instr6651(0, 965, script_3459(61920865, arg1), 1565, script_3459(62035560, arg1), 3, 0)
+		instr6651(0, 170, script_3459(62101084, arg1), 170, script_3459(62183006, arg1), 3, 1)
+		instr6651(0, 435, script_3459(62051906, arg1), 470, script_3459(62019146, arg1), 4, 0)
+		instr6651(0, 170, script_3459(62133836, arg1), 170, script_3459(62117455, arg1), 4, 1)
+		script_2768(150, arg0)
+		instr6255(arg0, script_3471, "Ii", arg0, 1)
+		instr6677(0, 1, 700, 100, 0, 0)
+		instr6236()
+		break
+
+}
+return

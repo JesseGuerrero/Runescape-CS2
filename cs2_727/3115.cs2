@@ -1,0 +1,379 @@
+//script3115(3115)()(void)
+int iVar0
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+int iVar33
+int iVar34
+int iVar35
+int iVar36
+int iVar37
+int iVar38
+int iVar39
+int iVar40
+int iVar41
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+string sVar5
+string sVar6
+iVar0 = script_1851()
+iVar1 = script_1852()
+if(iVar1 == iVar0)
+	if(iVar1 != 0) {
+		iVar1 = 0
+		script_1856(0)
+	}
+switch(iVar0) {
+	case default:
+		break
+	case 4:
+		iVar0 = iVar0 + 2
+		break
+	case 5:
+		iVar0 = iVar0 + 2
+		break
+	case 6:
+		iVar0 = iVar0 + 2
+		break
+	case 7:
+		iVar0 = iVar0 + 2
+		break
+	case 8:
+		iVar0 = iVar0 + 6
+		break
+	case 9:
+		iVar0 = iVar0 + 6
+		break
+	case 10:
+		iVar0 = iVar0 + 6
+		break
+	case 11:
+		iVar0 = iVar0 + 6
+		break
+
+}
+switch(iVar1) {
+	case default:
+		break
+	case 4:
+		iVar1 = iVar1 + 2
+		break
+	case 5:
+		iVar1 = iVar1 + 2
+		break
+	case 6:
+		iVar1 = iVar1 + 2
+		break
+	case 7:
+		iVar1 = iVar1 + 2
+		break
+	case 8:
+		iVar1 = iVar1 + 6
+		break
+	case 9:
+		iVar1 = iVar1 + 6
+		break
+	case 10:
+		iVar1 = iVar1 + 6
+		break
+	case 11:
+		iVar1 = iVar1 + 6
+		break
+
+}
+instr6808(script_734(modulo(2, iVar1)), iVar1 / 2, script_734(modulo(2, iVar0)), iVar0 / 2)
+iVar2 = 0
+if(instr6803() == 0)
+	return
+else
+	instr6342(if_gethash(910, 0), script_3114, "i", client_clock() + 500)
+iVar3 = 0
+if(load_varc(998) > 0)
+	iVar3 = if_getheight(if_gethash(910, 21))
+if(load_varc(999) > 0)
+	iVar3 = iVar3 + if_getheight(if_gethash(910, 22))
+if(iVar3 == 0) {
+	if_sethide(if_gethash(910, 24), 1)
+	if_sethide(if_gethash(910, 18), 1)
+	if_sethide(if_gethash(910, 23), 1)
+} else  {
+	if_setsize(if_gethash(910, 23), 0, 0, iVar3, if_getwidth(if_gethash(910, 23)))
+	if_sethide(if_gethash(910, 24), 0)
+	if_sethide(if_gethash(910, 18), 0)
+	if_sethide(if_gethash(910, 23), 0)
+	iVar3 = iVar3 + if_getheight(if_gethash(910, 18))
+	if_setposition(if_gethash(910, 24), 0, 0, iVar3, 0)
+	iVar3 = iVar3 + if_getheight(if_gethash(910, 24))
+}
+if_setposition(if_gethash(910, 25), 0, 0, iVar3, 0)
+iVar3 = iVar3 + if_getheight(if_gethash(910, 25))
+if_setsize(if_gethash(910, 62), 1, 1, iVar3, 16)
+if_setposition(if_gethash(910, 62), 0, 0, iVar3, 0)
+if_setsize(if_gethash(910, 86), 1, 0, iVar3, 16)
+if_setposition(if_gethash(910, 86), 0, 2, iVar3, 0)
+iVar4 = 59637824
+iVar5 = 59637828
+iVar6 = 59637829
+iVar7 = 59637830
+iVar8 = 59637831
+iVar9 = 59637832
+iVar10 = 59637833
+iVar11 = 59637834
+iVar12 = 59637835
+iVar13 = 59637836
+iVar14 = 59637837
+iVar15 = 59637838
+iVar16 = 59637846
+cc_deleteall(iVar4)
+cc_deleteall(iVar5)
+cc_deleteall(iVar6)
+cc_deleteall(iVar7)
+cc_deleteall(iVar8)
+cc_deleteall(iVar9)
+cc_deleteall(iVar10)
+cc_deleteall(iVar11)
+cc_deleteall(iVar12)
+cc_deleteall(iVar13)
+cc_deleteall(iVar14)
+cc_deleteall(iVar15)
+iVar17 = 0
+iVar18 = 0
+sVar0 = ""
+iVar19 = 0
+sVar1 = ""
+iVar20 = 0
+iVar21 = 0
+iVar22 = -1
+iVar23 = -1
+iVar24 = -1
+iVar25 = -1
+iVar26 = 0
+iVar27 = 0
+sVar2 = ""
+sVar3 = ""
+iVar28 = -1
+iVar29 = -1
+iVar30 = 0
+iVar31 = 0
+iVar32 = 0
+iVar33 = 0
+iVar34 = 0
+sVar4 = ""
+sVar5 = ""
+iVar35 = -1
+iVar36 = -1
+iVar17 = instr6227().get(0)
+if(iVar17 == -1) {
+	script_3143(1, "Unable to load list.")
+	if_settext(if_gethash(910, 1), "The world list could not be loaded." + "<br>" + "<br>" + "Please accept our apologies for the" + "<br>" + "inconvenience, and try again later.")
+	return
+}
+iVar37 = 0
+iVar38 = 0
+iVar39 = 0
+sVar6 = ""
+iVar40 = 0
+iVar41 = 0
+iVar2 = 0
+while(iVar2 == 0)
+	if(iVar17 == -1)
+		iVar2 = 1
+	else
+		if(iVar17 >= 170)
+			if(iVar20 < 0)
+				iVar17 = instr6829().get(0)
+			else
+				if(bit_flagged(12, iVar18) == 1)
+					iVar17 = instr6829().get(0)
+				else {
+					iVar28 = script_3117(iVar17, iVar18, iVar37, iVar20, iVar19, sVar0, sVar1).get(0)
+					if(iVar17 == load_varc(998))
+						iVar40 = 1
+					else
+						if(iVar17 == load_varc(999))
+							iVar41 = 1
+					script_2996(iVar4, iVar37, if_getwidth(iVar4), 20, 0, iVar38, iVar26, 1, 0)
+					script_2994(iVar5, iVar37, 13, 12, 0, iVar38 + 4, iVar25, 0, 0, 0, 0)
+					cc_setposition(0, 1, iVar38 + 4, 0)
+					script_2994(iVar7, iVar37, 19, 18, 2, iVar38 + 1, iVar22, 0, 0, 0, 0)
+					script_2995(iVar6, iVar37, if_getwidth(iVar6) - 25, 20, 25, iVar38, iVar27, 494, 0, 1, 0, 1, to_string(iVar17))
+					script_2995(iVar8, iVar37, if_getwidth(iVar8) - 6, 20, 3, iVar38, iVar27, 494, 0, 1, 0, 1, sVar5)
+					script_2994(iVar10, iVar37, 24, 12, 4, iVar38 + 4, iVar28, 0, 0, 0, 0)
+					script_2995(iVar9, iVar37, 30, 20, 30, iVar38, iVar27, 494, 0, 1, 0, 1, sVar3)
+					cc_setsize(0, 1, 20, 30)
+					script_2995(iVar11, iVar37, if_getwidth(iVar11) - 10, 20, 5, iVar38, iVar27, 494, 0, 1, 0, 1, sVar4)
+					script_2994(iVar12, iVar37, 17, 17, 0, iVar38 + 1, iVar29, 0, 0, 0, 0)
+					cc_setposition(0, 1, iVar38 + 1, 0)
+					if(iVar21 == -1)
+						sVar6 = "-"
+					else
+						if(iVar21 >= 1000)
+							sVar6 = "N/A"
+						else
+							sVar6 = to_string(iVar21)
+					script_2995(iVar13, iVar37, if_getwidth(iVar13) - 10, 20, 5, iVar38, iVar27, 494, 0, 1, 0, 1, sVar6)
+					script_2995(iVar14, iVar37, if_getwidth(iVar14), 20, 0, iVar38, 0, 494, 0, 1, 0, 1, "")
+					instr6091(script_3131, "Iii", iVar14, iVar37, iVar17)
+					instr6092(script_3133, "")
+					cc_setop("Select", 1)
+					cc_setopbase("World " + to_string(iVar17))
+					instr6687(script_3129, "iiis", -2147483644, iVar37, iVar17, sVar2)
+					script_2995(iVar15, iVar37, if_getwidth(iVar15), 20, 0, iVar38, 0, 494, 0, 1, 0, 1, "")
+					instr6091(script_3130, "IIii", iVar5, iVar15, iVar37, iVar17)
+					instr6092(script_3132, "Iii", iVar5, iVar37, iVar17)
+					cc_setop("Alter", 1)
+					cc_setopbase("Favourite")
+					instr6687(script_3128, "iii", -2147483644, iVar37, iVar17)
+					if(iVar17 == world_id()) {
+						if_sethide(if_gethash(910, 67), 0)
+						if_setposition(if_gethash(910, 67), 0, 0, iVar38, 0)
+					}
+					if(iVar17 == load_varc(998))
+						iVar35 = iVar37
+					if(iVar17 == load_varc(999))
+						iVar36 = iVar37
+					iVar17 = instr6829().get(0)
+					iVar38 = iVar38 + 20
+					iVar39 = iVar39 + 1
+					iVar37 = iVar37 + 1
+				}
+if_setscrollsize(59637822, iVar38 + if_gety(if_gethash(910, 63)), 0)
+script_31(iVar16, 59637822, 792, 789, 790, 791, 773, 788)
+if(load_varc(998) > 0)
+	script_3118(load_varc(998), 59637781, iVar35, iVar40)
+else
+	script_3119(59637781, 1)
+if(load_varc(999) > 0)
+	script_3118(load_varc(999), 59637782, iVar36, iVar41)
+else
+	script_3119(59637782, 0)
+if(load_varc(998) > 0)
+	if(load_varc(999) > 0)
+		if(iVar40 == 0)
+			if(iVar41 == 0)
+				if_sethide(if_gethash(910, 23), 1)
+			else
+				if(iVar40 == 1)
+					if(iVar41 == 0) {
+						if_setposition(if_gethash(910, 56), 0, 0, 0, if_getx(if_gethash(910, 56)))
+						if_setposition(if_gethash(910, 57), 0, 0, 0, if_getx(if_gethash(910, 57)))
+						if_setposition(if_gethash(910, 58), 0, 0, 0, if_getx(if_gethash(910, 58)))
+						if_setposition(if_gethash(910, 59), 0, 0, 0, if_getx(if_gethash(910, 59)))
+						if_setposition(if_gethash(910, 60), 0, 0, 0, if_getx(if_gethash(910, 60)))
+						if_setposition(if_gethash(910, 61), 0, 0, 0, if_getx(if_gethash(910, 61)))
+						if_setsize(if_gethash(910, 56), 0, 0, 20, if_getwidth(if_gethash(910, 56)))
+						if_setsize(if_gethash(910, 57), 0, 0, 20, if_getwidth(if_gethash(910, 57)))
+						if_setsize(if_gethash(910, 58), 0, 0, 20, if_getwidth(if_gethash(910, 58)))
+						if_setsize(if_gethash(910, 59), 0, 0, 20, if_getwidth(if_gethash(910, 59)))
+						if_setsize(if_gethash(910, 60), 0, 0, 20, if_getwidth(if_gethash(910, 60)))
+						if_setsize(if_gethash(910, 61), 0, 0, 20, if_getwidth(if_gethash(910, 61)))
+						if_sethide(if_gethash(910, 23), 0)
+					} else 
+						if(iVar40 == 0)
+							if(iVar41 == 1) {
+								if_setposition(if_gethash(910, 56), 0, 0, 20, if_getx(if_gethash(910, 56)))
+								if_setposition(if_gethash(910, 57), 0, 0, 20, if_getx(if_gethash(910, 57)))
+								if_setposition(if_gethash(910, 58), 0, 0, 20, if_getx(if_gethash(910, 58)))
+								if_setposition(if_gethash(910, 59), 0, 0, 20, if_getx(if_gethash(910, 59)))
+								if_setposition(if_gethash(910, 60), 0, 0, 20, if_getx(if_gethash(910, 60)))
+								if_setposition(if_gethash(910, 61), 0, 0, 20, if_getx(if_gethash(910, 61)))
+								if_setsize(if_gethash(910, 56), 0, 0, 20, if_getwidth(if_gethash(910, 56)))
+								if_setsize(if_gethash(910, 57), 0, 0, 20, if_getwidth(if_gethash(910, 57)))
+								if_setsize(if_gethash(910, 58), 0, 0, 20, if_getwidth(if_gethash(910, 58)))
+								if_setsize(if_gethash(910, 59), 0, 0, 20, if_getwidth(if_gethash(910, 59)))
+								if_setsize(if_gethash(910, 60), 0, 0, 20, if_getwidth(if_gethash(910, 60)))
+								if_setsize(if_gethash(910, 61), 0, 0, 20, if_getwidth(if_gethash(910, 61)))
+								if_sethide(if_gethash(910, 23), 0)
+							} else  {
+								if_setposition(if_gethash(910, 56), 0, 0, 0, if_getx(if_gethash(910, 56)))
+								if_setposition(if_gethash(910, 57), 0, 0, 0, if_getx(if_gethash(910, 57)))
+								if_setposition(if_gethash(910, 58), 0, 0, 0, if_getx(if_gethash(910, 58)))
+								if_setposition(if_gethash(910, 59), 0, 0, 0, if_getx(if_gethash(910, 59)))
+								if_setposition(if_gethash(910, 60), 0, 0, 0, if_getx(if_gethash(910, 60)))
+								if_setposition(if_gethash(910, 61), 0, 0, 0, if_getx(if_gethash(910, 61)))
+								if_setsize(if_gethash(910, 56), 1, 0, 0, if_getwidth(if_gethash(910, 56)))
+								if_setsize(if_gethash(910, 57), 1, 0, 0, if_getwidth(if_gethash(910, 57)))
+								if_setsize(if_gethash(910, 58), 1, 0, 0, if_getwidth(if_gethash(910, 58)))
+								if_setsize(if_gethash(910, 59), 1, 0, 0, if_getwidth(if_gethash(910, 59)))
+								if_setsize(if_gethash(910, 60), 1, 0, 0, if_getwidth(if_gethash(910, 60)))
+								if_setsize(if_gethash(910, 61), 1, 0, 0, if_getwidth(if_gethash(910, 61)))
+								if_sethide(if_gethash(910, 23), 0)
+							}
+	else
+		if(load_varc(998) > 0)
+			if(load_varc(999) <= 0)
+				if(iVar40 == 0)
+					if_sethide(if_gethash(910, 23), 1)
+				else {
+					if_setposition(if_gethash(910, 56), 0, 0, 0, if_getx(if_gethash(910, 56)))
+					if_setposition(if_gethash(910, 57), 0, 0, 0, if_getx(if_gethash(910, 57)))
+					if_setposition(if_gethash(910, 58), 0, 0, 0, if_getx(if_gethash(910, 58)))
+					if_setposition(if_gethash(910, 59), 0, 0, 0, if_getx(if_gethash(910, 59)))
+					if_setposition(if_gethash(910, 60), 0, 0, 0, if_getx(if_gethash(910, 60)))
+					if_setposition(if_gethash(910, 61), 0, 0, 0, if_getx(if_gethash(910, 61)))
+					if_setsize(if_gethash(910, 56), 1, 0, 0, if_getwidth(if_gethash(910, 56)))
+					if_setsize(if_gethash(910, 57), 1, 0, 0, if_getwidth(if_gethash(910, 57)))
+					if_setsize(if_gethash(910, 58), 1, 0, 0, if_getwidth(if_gethash(910, 58)))
+					if_setsize(if_gethash(910, 59), 1, 0, 0, if_getwidth(if_gethash(910, 59)))
+					if_setsize(if_gethash(910, 60), 1, 0, 0, if_getwidth(if_gethash(910, 60)))
+					if_setsize(if_gethash(910, 61), 1, 0, 0, if_getwidth(if_gethash(910, 61)))
+					if_sethide(if_gethash(910, 23), 0)
+				}
+			else
+				if(load_varc(998) <= 0)
+					if(load_varc(999) > 0)
+						if(iVar41 == 0)
+							if_sethide(if_gethash(910, 23), 1)
+						else {
+							if_setposition(if_gethash(910, 56), 0, 0, 0, if_getx(if_gethash(910, 56)))
+							if_setposition(if_gethash(910, 57), 0, 0, 0, if_getx(if_gethash(910, 57)))
+							if_setposition(if_gethash(910, 58), 0, 0, 0, if_getx(if_gethash(910, 58)))
+							if_setposition(if_gethash(910, 59), 0, 0, 0, if_getx(if_gethash(910, 59)))
+							if_setposition(if_gethash(910, 60), 0, 0, 0, if_getx(if_gethash(910, 60)))
+							if_setposition(if_gethash(910, 61), 0, 0, 0, if_getx(if_gethash(910, 61)))
+							if_setsize(if_gethash(910, 56), 1, 0, 0, if_getwidth(if_gethash(910, 56)))
+							if_setsize(if_gethash(910, 57), 1, 0, 0, if_getwidth(if_gethash(910, 57)))
+							if_setsize(if_gethash(910, 58), 1, 0, 0, if_getwidth(if_gethash(910, 58)))
+							if_setsize(if_gethash(910, 59), 1, 0, 0, if_getwidth(if_gethash(910, 59)))
+							if_setsize(if_gethash(910, 60), 1, 0, 0, if_getwidth(if_gethash(910, 60)))
+							if_setsize(if_gethash(910, 61), 1, 0, 0, if_getwidth(if_gethash(910, 61)))
+							if_sethide(if_gethash(910, 23), 0)
+						}
+					else
+						if_sethide(if_gethash(910, 23), 1)
+if_sethide(if_gethash(910, 1), 1)
+if_sethide(if_gethash(910, 13), 0)
+return
+return

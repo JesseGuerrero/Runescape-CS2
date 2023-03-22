@@ -1,0 +1,38 @@
+//script5215(5215)(int arg0)(int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return load_clan_var(2734)
+
+	case 2:
+		return load_clan_var(2735)
+
+	case 3:
+		return load_clan_var(2736)
+
+	case 4:
+		return load_clan_var(2737)
+
+	case 5:
+		return load_clan_var(2738)
+
+	case 6:
+		return load_clan_var(2739)
+
+	case 7:
+		return load_clan_var(2740)
+
+	case 8:
+		return load_clan_var(2741)
+
+	case 10:
+		return load_clan_var(2743)
+
+	case 9:
+		return load_clan_var(2742)
+
+
+}
+return -1
+return 0

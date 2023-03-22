@@ -1,0 +1,15 @@
+//script1783(1783)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+if(arg2 == -1) {
+	if(cc_find(1, arg1) == 1)
+		script_157(arg1, arg0, 0, 1)
+	return
+}
+iVar4 = 0
+if(cc_find(arg3, arg2) == 1 || arg3 == -1 || instr6004(arg2) == 1) {
+	iVar4 = cc_gety() + (cc_getheight() / 2)
+	iVar4 = iVar4 - (if_getheight(arg0) / 2)
+	if(cc_find(1, arg1) == 1)
+		script_157(arg1, arg0, iVar4, 1)
+}
+return

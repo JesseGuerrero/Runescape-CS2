@@ -1,0 +1,286 @@
+//script498(498)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = -1
+if(arg0 == load_varc(1372))
+	if(arg1 == load_varc(1373))
+		if(arg2 == load_varc(1374))
+			if(arg3 == load_varc(1375))
+				if(arg4 == load_varc(1376))
+					if(arg5 == load_varc(1377))
+						return
+					else
+						instr6257(if_gethash(1012, 0), script_498, "iiiiiiY", 6, 1372, 1373, 1374, 1375, 1376, 1377, load_varc(1372), load_varc(1373), load_varc(1374), load_varc(1375), load_varc(1376), load_varc(1377))
+if(load_varc(1367) != -1) {
+	iVar6 = ((((load_varc(1372) + load_varc(1373)) + load_varc(1374)) + load_varc(1375)) + load_varc(1376)) + load_varc(1377)
+	if(iVar6 == 0) {
+		if_sethide(if_gethash(1012, 14), 1)
+		if_sethide(if_gethash(1012, 29), 0)
+	} else  {
+		if_sethide(if_gethash(1012, 14), 0)
+		if_sethide(if_gethash(1012, 29), 1)
+	}
+	if(iVar6 == 1) {
+		if_sethide(if_gethash(1012, 15), 0)
+		if_setposition(if_gethash(1012, 15), 0, 0, if_gety(if_gethash(1012, 15)), 82)
+		if(load_varc(1372) == 1)
+			iVar13 = 293
+		else
+			if(load_varc(1373) == 1)
+				iVar13 = 299
+			else
+				if(load_varc(1374) == 1)
+					iVar13 = 305
+				else
+					if(load_varc(1375) == 1)
+						iVar13 = 1044
+					else
+						if(load_varc(1376) == 1)
+							iVar13 = 1045
+						else
+							iVar13 = 1046
+		if_setgraphic(if_gethash(1012, 15), struct_param(1153, iVar13))
+		if_setonmouseover(if_gethash(1012, 15), script_499, "i", struct_param(1149, iVar13))
+		if_sethide(if_gethash(1012, 16), 1)
+		if_sethide(if_gethash(1012, 17), 1)
+		if_sethide(if_gethash(1012, 18), 1)
+		if_sethide(if_gethash(1012, 19), 1)
+	} else 
+		if(iVar6 == 2) {
+			if_sethide(if_gethash(1012, 15), 0)
+			if_setposition(if_gethash(1012, 15), 0, 0, if_gety(if_gethash(1012, 15)), 50)
+			if(load_varc(1372) == 1)
+				iVar13 = 293
+			else
+				if(load_varc(1373) == 1) {
+					iVar13 = 299
+					iVar8 = 1
+				} else 
+					if(load_varc(1374) == 1) {
+						iVar13 = 305
+						iVar9 = 1
+					} else 
+						if(load_varc(1375) == 1) {
+							iVar13 = 1044
+							iVar10 = 1
+						} else  {
+							iVar13 = 1045
+							iVar11 = 1
+						}
+			if_setgraphic(if_gethash(1012, 15), struct_param(1153, iVar13))
+			if_setonmouseover(if_gethash(1012, 15), script_499, "i", struct_param(1149, iVar13))
+			if_sethide(if_gethash(1012, 16), 0)
+			if_setposition(if_gethash(1012, 16), 0, 0, if_gety(if_gethash(1012, 16)), 115)
+			if(load_varc(1373) == 1)
+				if(iVar8 == 0)
+					iVar13 = 299
+				else
+					if(load_varc(1374) == 1)
+						if(iVar9 == 0)
+							iVar13 = 305
+						else
+							if(load_varc(1375) == 1)
+								if(iVar10 == 0)
+									iVar13 = 1044
+								else
+									if(load_varc(1376) == 1)
+										if(iVar11 == 0)
+											iVar13 = 1045
+										else
+											iVar13 = 1046
+			if_setgraphic(if_gethash(1012, 16), struct_param(1153, iVar13))
+			if_setonmouseover(if_gethash(1012, 16), script_499, "i", struct_param(1149, iVar13))
+			if_sethide(if_gethash(1012, 17), 1)
+			if_sethide(if_gethash(1012, 18), 1)
+			if_sethide(if_gethash(1012, 19), 1)
+		} else 
+			if(iVar6 == 3) {
+				if_sethide(if_gethash(1012, 15), 0)
+				if_setposition(if_gethash(1012, 15), 0, 0, if_gety(if_gethash(1012, 15)), 30)
+				if(load_varc(1372) == 1)
+					iVar13 = 293
+				else
+					if(load_varc(1373) == 1) {
+						iVar13 = 299
+						iVar8 = 1
+					} else 
+						if(load_varc(1374) == 1) {
+							iVar13 = 305
+							iVar9 = 1
+						} else  {
+							iVar13 = 1044
+							iVar10 = 1
+						}
+				if_setgraphic(if_gethash(1012, 15), struct_param(1153, iVar13))
+				if_setonmouseover(if_gethash(1012, 15), script_499, "i", struct_param(1149, iVar13))
+				if_sethide(if_gethash(1012, 16), 0)
+				if_setposition(if_gethash(1012, 16), 0, 0, if_gety(if_gethash(1012, 16)), 80)
+				if(load_varc(1373) == 1)
+					if(iVar8 == 0)
+						iVar13 = 299
+					else
+						if(load_varc(1374) == 1)
+							if(iVar9 == 0) {
+								iVar13 = 305
+								iVar9 = 1
+							} else 
+								if(load_varc(1375) == 1)
+									if(iVar10 == 0) {
+										iVar13 = 1044
+										iVar10 = 1
+									} else  {
+										iVar13 = 1045
+										iVar11 = 1
+									}
+				if_setgraphic(if_gethash(1012, 16), struct_param(1153, iVar13))
+				if_setonmouseover(if_gethash(1012, 16), script_499, "i", struct_param(1149, iVar13))
+				if_sethide(if_gethash(1012, 17), 0)
+				if_setposition(if_gethash(1012, 17), 0, 0, if_gety(if_gethash(1012, 17)), 130)
+				if(load_varc(1374) == 1)
+					if(iVar9 == 0)
+						iVar13 = 305
+					else
+						if(load_varc(1375) == 1)
+							if(iVar10 == 0)
+								iVar13 = 1044
+							else
+								if(load_varc(1376) == 1)
+									if(iVar11 == 0)
+										iVar13 = 1045
+									else
+										iVar13 = 1046
+				if_setgraphic(if_gethash(1012, 17), struct_param(1153, iVar13))
+				if_setonmouseover(if_gethash(1012, 17), script_499, "i", struct_param(1149, iVar13))
+				if_sethide(if_gethash(1012, 18), 1)
+				if_sethide(if_gethash(1012, 19), 1)
+			} else 
+				if(iVar6 == 4) {
+					if_sethide(if_gethash(1012, 15), 0)
+					if_setposition(if_gethash(1012, 15), 0, 0, if_gety(if_gethash(1012, 15)), 18)
+					if(load_varc(1372) == 1)
+						iVar13 = 293
+					else
+						if(load_varc(1373) == 1) {
+							iVar13 = 299
+							iVar8 = 1
+						} else  {
+							iVar13 = 305
+							iVar9 = 1
+						}
+					if_setgraphic(if_gethash(1012, 15), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 15), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 16), 0)
+					if_setposition(if_gethash(1012, 16), 0, 0, if_gety(if_gethash(1012, 16)), 61)
+					if(load_varc(1373) == 1)
+						if(iVar8 == 0)
+							iVar13 = 299
+						else
+							if(load_varc(1374) == 1)
+								if(iVar9 == 0) {
+									iVar13 = 305
+									iVar9 = 1
+								} else  {
+									iVar13 = 1044
+									iVar10 = 1
+								}
+					if_setgraphic(if_gethash(1012, 16), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 16), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 17), 0)
+					if_setposition(if_gethash(1012, 17), 0, 0, if_gety(if_gethash(1012, 17)), 104)
+					if(load_varc(1374) == 1)
+						if(iVar9 == 0)
+							iVar13 = 305
+						else
+							if(load_varc(1375) == 1)
+								if(iVar10 == 0) {
+									iVar13 = 1044
+									iVar10 = 1
+								} else  {
+									iVar13 = 1045
+									iVar11 = 1
+								}
+					if_setgraphic(if_gethash(1012, 17), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 17), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 18), 0)
+					if_setposition(if_gethash(1012, 18), 0, 0, if_gety(if_gethash(1012, 18)), 147)
+					if(load_varc(1375) == 1)
+						if(iVar10 == 0)
+							iVar13 = 1044
+						else
+							if(load_varc(1376) == 1)
+								if(iVar11 == 0)
+									iVar13 = 1045
+								else
+									iVar13 = 1046
+					if_setgraphic(if_gethash(1012, 18), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 18), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 19), 1)
+				} else  {
+					if_sethide(if_gethash(1012, 15), 0)
+					if_setposition(if_gethash(1012, 15), 0, 0, if_gety(if_gethash(1012, 15)), 11)
+					if(load_varc(1372) == 1)
+						iVar13 = 293
+					else {
+						iVar13 = 299
+						iVar8 = 1
+					}
+					if_setgraphic(if_gethash(1012, 15), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 15), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 16), 0)
+					if_setposition(if_gethash(1012, 16), 0, 0, if_gety(if_gethash(1012, 16)), 47)
+					if(load_varc(1373) == 1)
+						if(iVar8 == 0)
+							iVar13 = 299
+						else {
+							iVar13 = 305
+							iVar9 = 1
+						}
+					if_setgraphic(if_gethash(1012, 16), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 16), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 17), 0)
+					if_setposition(if_gethash(1012, 17), 0, 0, if_gety(if_gethash(1012, 17)), 83)
+					if(load_varc(1374) == 1)
+						if(iVar9 == 0)
+							iVar13 = 305
+						else {
+							iVar13 = 1044
+							iVar10 = 1
+						}
+					if_setgraphic(if_gethash(1012, 17), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 17), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 18), 0)
+					if_setposition(if_gethash(1012, 18), 0, 0, if_gety(if_gethash(1012, 18)), 119)
+					if(load_varc(1375) == 1)
+						if(iVar10 == 0)
+							iVar13 = 1044
+						else {
+							iVar13 = 1045
+							iVar11 = 1
+						}
+					if_setgraphic(if_gethash(1012, 18), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 18), script_499, "i", struct_param(1149, iVar13))
+					if_sethide(if_gethash(1012, 19), 0)
+					if_setposition(if_gethash(1012, 19), 0, 0, if_gety(if_gethash(1012, 19)), 155)
+					if(load_varc(1376) == 1)
+						if(iVar11 == 0)
+							iVar13 = 1045
+						else
+							iVar13 = 1046
+					if_setgraphic(if_gethash(1012, 19), struct_param(1153, iVar13))
+					if_setonmouseover(if_gethash(1012, 19), script_499, "i", struct_param(1149, iVar13))
+				}
+}
+return

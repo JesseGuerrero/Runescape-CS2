@@ -1,0 +1,6 @@
+void script_947(Widget widget0, Widget widget1, Widget widget2) {
+	widget0.setText(VARP[343] + "%");
+	widget1.setText(VARP[344] + "%");
+	widget2.setText(VARP[345] + "%");
+	return;
+}

@@ -1,0 +1,36 @@
+//script5909(5909)(int arg0, int arg1, int arg2, int arg3)(string)
+string sVar0
+sVar0 = ""
+switch(script_5907(arg0, arg1)) {
+	case default:
+		break
+	case 0:
+		if(arg3 > 1)
+			sVar0 = "You won: " + to_string(arg3) + " x " + script_5908(arg2)
+		else
+			sVar0 = "You won: " + script_5908(arg2) + "<br>"
+		if(item_members(arg2) == 1)
+			if(world_members() == 0)
+				sVar0 = sVar0 + " This is a members item. Subscribe now to claim it!"
+		break
+	case 1:
+		if(arg3 > 1)
+			sVar0 = "Not bad! You won: " + to_string(arg3) + " x " + script_5908(arg2) + "<br>"
+		else
+			sVar0 = "Not bad! You won: " + script_5908(arg2) + "<br>"
+		if(item_members(arg2) == 1 || arg0 == 1 || arg0 == 2 || arg0 == 4)
+			if(world_members() == 0)
+				sVar0 = sVar0 + " This is a members item. Subscribe now to claim it!"
+		break
+	case 2:
+		if(arg3 > 1)
+			sVar0 = "Congratulations! You won: " + to_string(arg3) + " x " + script_5908(arg2) + "<br>" + enum(5704, arg2, 'o', 's')
+		else
+			sVar0 = "Congratulations! You won: " + script_5908(arg2) + "<br>" + enum(5704, arg2, 'o', 's')
+		if(world_members() == 0)
+			sVar0 = sVar0 + " This is a members item. Subscribe now to claim it!"
+		break
+
+}
+return sVar0
+return ""

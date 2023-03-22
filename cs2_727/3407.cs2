@@ -1,0 +1,21 @@
+//script3407(3407)(int arg0, int arg1, int arg2)(void)
+if(if_gethide(arg1) == 0) {
+	cc_deleteall(arg2)
+	instr6342(arg2, None, "")
+	return
+}
+if(modulo(40, client_clock() - arg0) < 20)
+	if(cc_find(0, arg2) == 1)
+		cc_sethide(0)
+	else {
+		cc_create(0, 3, arg2)
+		cc_setsize(1, 1, 2, 4)
+		cc_setposition(2, 1, 0, 0)
+		cc_setfill(1)
+		cc_settrans(225)
+		cc_setcolor(ffffff)
+	}
+else
+	if(cc_find(0, arg2) == 1)
+		cc_sethide(1)
+return

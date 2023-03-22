@@ -1,0 +1,45 @@
+//script5262(5262)(int arg0, int arg1, int arg2)(void)
+if(arg1 == 50)
+	if(arg0 == 1)
+		switch(arg2) {
+			case default:
+				break
+			case 74186762:
+				if_sethide(if_gethash(1132, 22), 1)
+				if_sethide(if_gethash(1132, 23), 1)
+				instr6342(arg2, None, "")
+				break
+			case 74186763:
+				if_sethide(if_gethash(1132, 27), 1)
+				if_sethide(if_gethash(1132, 28), 1)
+				instr6342(arg2, None, "")
+				break
+
+		}
+	else
+		switch(arg2) {
+			case default:
+				break
+			case 74186762:
+				if_settext(if_gethash(1132, 23), to_string(arg0 - 1))
+				instr6342(arg2, script_5262, "iiI", arg0 - 1, 0, arg2)
+				break
+			case 74186763:
+				if_settext(if_gethash(1132, 28), to_string(arg0 - 1))
+				instr6342(arg2, script_5262, "iiI", arg0 - 1, 0, arg2)
+				break
+
+		}
+else
+	switch(arg2) {
+		case default:
+			break
+		case 74186762:
+			instr6342(arg2, script_5262, "iiI", arg0, arg1 + 1, if_gethash(1132, 10))
+			break
+		case 74186763:
+			instr6342(arg2, script_5262, "iiI", arg0, arg1 + 1, if_gethash(1132, 11))
+			break
+
+	}
+return

@@ -1,0 +1,47 @@
+//script6152(6152)(int arg0)(void)
+store_varc(1888, load_varc(1888) + 1)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if(load_varc(1888) > 50) {
+			store_varc(1888, 0)
+			if_settrans(if_gethash(1268, 2), 255)
+			instr6342(if_gethash(1268, 0), script_6152, "i", 2)
+		} else  {
+			instr6342(if_gethash(1268, 0), script_6152, "i", 1)
+			if_settrans(if_gethash(1268, 2), scale(255, 50, load_varc(1888)))
+		}
+		break
+	case 2:
+		if(load_varc(1888) > 150) {
+			store_varc(1888, 0)
+			instr6342(if_gethash(1268, 0), script_6152, "i", 3)
+		} else 
+			instr6342(if_gethash(1268, 0), script_6152, "i", 2)
+		break
+	case 3:
+		if(load_varc(1888) > 50) {
+			store_varc(1888, 0)
+			if_settrans(if_gethash(1268, 2), 0)
+			instr6342(if_gethash(1268, 0), script_6152, "i", 4)
+			if_sethide(if_gethash(1268, 2), 1)
+			if_sethide(if_gethash(1268, 1), 1)
+		} else  {
+			instr6342(if_gethash(1268, 0), script_6152, "i", 3)
+			if_settrans(if_gethash(1268, 2), 255 - scale(255, 50, load_varc(1888)))
+		}
+		break
+	case 4:
+		if(load_varc(1888) > 150) {
+			store_varc(1888, 0)
+			if_settrans(if_gethash(1268, 0), 255)
+			instr6342(if_gethash(1268, 0), None, "")
+		} else  {
+			instr6342(if_gethash(1268, 0), script_6152, "i", 4)
+			if_settrans(if_gethash(1268, 0), scale(255, 150, load_varc(1888)))
+		}
+		break
+
+}
+return

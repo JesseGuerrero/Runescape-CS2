@@ -1,0 +1,13 @@
+void script_476(Widget widget0, Model model1, Model model2, int arg3, int arg4) {
+	if (VARP[261] >= arg3 && VARP[262] >= arg4) {
+		widget0.setModel(model2);
+		widget0.setContextMenuOption(1, "Make-1");
+		widget0.setContextMenuOption(2, "Make-5");
+		widget0.setContextMenuOption(3, "Make-All");
+		widget0.setContextMenuOption(4, "Make-X");
+	} else {
+		widget0.setModel(model1);
+		widget0.setNoOptions();
+	}
+	return;
+}

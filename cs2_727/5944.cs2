@@ -1,0 +1,5 @@
+//script5944(5944)()(void)
+int iVar0
+iVar0 = 82051072
+script_5945(if_getx(iVar0), if_gety(iVar0))
+return

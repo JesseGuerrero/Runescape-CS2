@@ -1,0 +1,10 @@
+//script2127(2127)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7)(void)
+script_2128(arg0, load_varpbit(5893))
+script_2128(arg1, load_varpbit(5894))
+script_2128(arg2, load_varpbit(5895))
+script_2128(arg3, load_varpbit(5896))
+script_2128(arg4, load_varpbit(5897))
+script_2128(arg5, load_varpbit(5898))
+script_2128(arg6, load_varpbit(5899))
+script_2128(arg7, load_varpbit(5900))
+return

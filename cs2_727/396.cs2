@@ -1,0 +1,22 @@
+//script396(396)()(void)
+if_settext(if_gethash(433, 11), to_string(load_varpbit(2469)))
+if_settext(if_gethash(433, 12), to_string(load_varpbit(2470)))
+if_settext(if_gethash(433, 13), to_string(load_varpbit(2471)))
+if_settext(if_gethash(433, 14), to_string(load_varpbit(2472)))
+if(load_varpbit(2469) == 0)
+	if_setcolor(28377099, 0xFF0033)
+else
+	if_setcolor(28377099, 0xC000)
+if(load_varpbit(2470) == 0)
+	if_setcolor(28377100, 0xFF0033)
+else
+	if_setcolor(28377100, 0xC000)
+if(load_varpbit(2471) == 0)
+	if_setcolor(28377101, 0xFF0033)
+else
+	if_setcolor(28377101, 0xC000)
+if(load_varpbit(2472) == 0)
+	if_setcolor(28377102, 0xFF0033)
+else
+	if_setcolor(28377102, 0xC000)
+return

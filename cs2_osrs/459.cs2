@@ -1,0 +1,4 @@
+void script_459(Widget widget0) {
+	widget0.setText(getSkillCurrentLvl(5) + " / " + getSkillActualLvl(5));
+	return;
+}

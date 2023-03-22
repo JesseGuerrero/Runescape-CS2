@@ -1,0 +1,43 @@
+//script724(724)(int arg0, int arg1, int arg2, string arg3)(void)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+if(arg0 == 48824321)
+	if(load_varc(616) == 0)
+		return
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+if(load_varc(1) < client_clock() + 25) {
+	if(load_varc(1) < client_clock())
+		store_varc(1, client_clock())
+	store_varc(1, load_varc(1) + 2)
+	return
+}
+store_varc(1, (client_clock() + 25) + 10)
+if(load_varc(2) != 1) {
+	iVar5 = parawidth(arg0, 495, 1000) + 8
+	if(instr6644() < 2) {
+		iVar6 = 35913769
+		iVar8 = 35913925
+		iVar7 = 35913768
+	} else  {
+		iVar6 = 48889873
+		iVar8 = 48890043
+		iVar7 = 48889872
+	}
+	iVar3 = ((if_getx(iVar7) + if_getx(arg0)) + arg1) - iVar5
+	iVar4 = (if_gety(iVar7) + if_gety(arg0)) + arg2
+	if_sethide(iVar6, 0)
+	if_setsize(iVar6, 0, 0, 17, iVar5)
+	if_setposition(iVar6, 0, 0, iVar4, iVar3)
+	if_settext(iVar8, arg0)
+	store_varc(2, 1)
+}
+return

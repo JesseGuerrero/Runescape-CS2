@@ -1,0 +1,4 @@
+//script1316(1316)(int arg0)(void)
+store_varc(119, load_varp(173))
+script_1741(arg0)
+return

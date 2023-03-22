@@ -1,0 +1,101 @@
+//script6138(6138)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+iVar1 = 30
+iVar2 = 180
+iVar3 = 0
+iVar4 = 14
+iVar5 = (iVar2 - iVar1) / iVar4
+iVar6 = if_getwidth(if_gethash(1270, 34)) + iVar1
+iVar7 = if_getheight(if_gethash(1270, 34)) + iVar1
+iVar8 = -1
+iVar9 = -1
+iVar10 = iVar6 / 2
+iVar11 = iVar7 / 2
+iVar12 = 0
+iVar13 = 0
+iVar14 = 0
+iVar15 = 212
+iVar16 = 324
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 1
+iVar21 = 1
+while(iVar3 <= iVar4) {
+	iVar8 = script_6139(iVar3)
+	if_setsize(iVar8, 0, 0, iVar7, iVar6)
+	if(random(2) == 0)
+		iVar9 = 10556
+	else
+		iVar9 = 10557
+	iVar14 = iVar15 + scale(iVar16 - iVar15, iVar4, iVar3)
+	iVar14 = scale(iVar14, 100, 75 + random(50))
+	iVar17 = iVar14 - (iVar14 / 20)
+	iVar18 = iVar14 + (iVar14 / 20)
+	iVar19 = 4 + random(4)
+	if(random(2) == 0)
+		iVar19 = 0 - iVar19
+	if(random(2) == 1)
+		iVar20 = 0
+	if(random(2) == 1)
+		iVar21 = 0
+	switch(iVar3) {
+		case default:
+			break
+		case 0:
+			cc_create(0, 5, iVar8)
+			cc_setsize(0, 0, 512, 768)
+			cc_setposition(0, 0, 0, 0)
+			cc_setgraphic(10560)
+			break
+		case 12:
+			cc_create(0, 5, iVar8)
+			cc_setsize(0, 0, iVar14, iVar14)
+			cc_setgraphic(10558)
+			if_sethide(iVar8, 1)
+			cc_create(0, 5, iVar8)
+			cc_setsize(0, 0, iVar14, iVar14)
+			iVar12 = iVar10 - random(iVar6)
+			iVar13 = iVar11 - random(iVar7)
+			cc_setposition(1, 1, iVar13, iVar12)
+			instr6342(iVar8, script_6141, "Iiiiiiiiiii", -2147483645, iVar3, iVar12, iVar13, 0, 0, 0, 0, 0, 0, arg0)
+			if(arg0 == 1)
+				cc_setcolor(0)
+			cc_sethflip(iVar20)
+			cc_setvflip(iVar21)
+			cc_setgraphic(iVar9)
+			break
+
+	}
+	iVar6 = iVar6 + iVar5
+	iVar7 = iVar7 + iVar5
+	iVar10 = iVar6 / 2
+	iVar11 = iVar7 / 2
+	iVar3 = iVar3 + 1
+}
+iVar10 = if_getwidth(if_gethash(1270, 34)) / 2
+iVar11 = if_getheight(if_gethash(1270, 34)) / 2
+script_6142(iVar10, iVar11)
+store_varc(1886, iVar10 * 100)
+store_varc(1887, iVar11 * 100)
+return

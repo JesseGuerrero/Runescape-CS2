@@ -1,0 +1,31 @@
+//script2326(2326)(int arg0)(void)
+int iVar1
+iVar1 = client_clock()
+switch(arg0) {
+	case default:
+		break
+	case 32820:
+		store_varc(767, 0)
+		if_sethide(if_gethash(306, 25), 0)
+		if_settext(if_gethash(306, 26), "Incorrect")
+		sound_synth(0, 1, 6424)
+		if_setcolor(20054042, 0xFF0000)
+		instr6342(if_gethash(306, 25), script_2327, "i", iVar1)
+		break
+
+}
+store_varc(767, load_varc(767) + 1)
+if(load_varc(767) == 10) {
+	if_sethide(if_gethash(306, 27), 0)
+	instr6213(if_gethash(306, 29), 1, "Train")
+	hook_mouse_press(if_gethash(306, 23), None, "")
+} else  {
+	if_sethide(if_gethash(306, 25), 0)
+	if_settext(if_gethash(306, 26), "Correct")
+	sound_synth(0, 1, 6423)
+	if_setcolor(20054042, 0xFF00)
+	instr6342(if_gethash(306, 25), script_2327, "i", iVar1)
+}
+if_settext(if_gethash(306, 3), "Correct: " + to_string(load_varc(767)) + "/" + to_string(10))
+sound_synth(0, 1, 6423)
+return

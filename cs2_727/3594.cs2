@@ -1,0 +1,8 @@
+//script3594(3594)()(void)
+if_setitem(if_gethash(1002, 161), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3619(9) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1002, 162), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3621(6) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1002, 163), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3619(14) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1002, 164), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3620(1) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1002, 165), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3620(9) + load_varpbit(7387)), 'i', 'o'))
+if_setitem(if_gethash(1002, 166), -1, enum(3170, modulo(enum_getoutputcount(3170), script_3621(1) + load_varpbit(7387)), 'i', 'o'))
+return

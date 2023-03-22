@@ -1,0 +1,60 @@
+//script2740(2740)(int arg0)(void)
+int iVar1
+iVar1 = script_284(coord())
+switch(load_varc(1007)) {
+	case default:
+		break
+	case 1:
+		script_2766(0, 50, arg0)
+		break
+	case 2:
+		script_2768(50, arg0)
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 900, movecoord(37, 0, 31, iVar1), 900, movecoord(37, 0, 31, iVar1), 0, 0)
+		instr6651(0, 750, movecoord(39, 0, 31, iVar1), 750, movecoord(39, 0, 31, iVar1), 1, 0)
+		instr6651(0, 700, movecoord(43, 0, 31, iVar1), 700, movecoord(43, 0, 31, iVar1), 0, 1)
+		instr6651(0, 700, movecoord(43, 0, 31, iVar1), 700, movecoord(43, 0, 31, iVar1), 1, 1)
+		instr6677(0, 1, 0, 50, 0, 0)
+		break
+	case 3:
+		script_2768(50, arg0)
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 900, movecoord(27, 0, 31, iVar1), 900, movecoord(27, 0, 31, iVar1), 0, 0)
+		instr6651(0, 1000, movecoord(27, 0, 31, iVar1), 1000, movecoord(27, 0, 31, iVar1), 1, 0)
+		instr6651(0, 750, movecoord(33, 0, 31, iVar1), 750, movecoord(33, 0, 31, iVar1), 0, 1)
+		instr6651(0, 750, movecoord(33, 0, 31, iVar1), 750, movecoord(33, 0, 31, iVar1), 1, 1)
+		instr6677(0, 1, 0, 50, 0, 0)
+		break
+	case 40:
+		script_2768(50, arg0)
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 850, movecoord(29, 0, 36, iVar1), 850, movecoord(29, 0, 36, iVar1), 0, 0)
+		instr6651(0, 800, movecoord(29, 0, 36, iVar1), 800, movecoord(29, 0, 36, iVar1), 1, 0)
+		instr6651(0, 700, movecoord(36, 0, 33, iVar1), 700, movecoord(36, 0, 33, iVar1), 0, 1)
+		instr6651(0, 600, movecoord(36, 0, 33, iVar1), 600, movecoord(36, 0, 33, iVar1), 1, 1)
+		instr6677(0, 1, 0, 50, 0, 0)
+		break
+	case 50:
+		script_2768(50, arg0)
+		instr6650(2, 0)
+		instr6650(2, 1)
+		instr6651(0, 1000, movecoord(23, 0, 39, iVar1), 1000, movecoord(23, 0, 39, iVar1), 0, 0)
+		instr6651(0, 950, movecoord(23, 0, 39, iVar1), 950, movecoord(23, 0, 39, iVar1), 1, 0)
+		instr6651(0, 750, movecoord(28, 0, 36, iVar1), 750, movecoord(28, 0, 36, iVar1), 0, 1)
+		instr6651(0, 650, movecoord(28, 0, 36, iVar1), 650, movecoord(28, 0, 36, iVar1), 1, 1)
+		instr6677(0, 1, 0, 50, 0, 0)
+		break
+	case 99:
+		script_2766(0, 50, arg0)
+		break
+	case 100:
+		instr6236()
+		script_2768(50, arg0)
+		instr6236()
+		break
+
+}
+return

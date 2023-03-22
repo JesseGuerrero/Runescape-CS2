@@ -1,0 +1,11 @@
+//script415(415)()(void)
+if_sethide(if_gethash(1013, 19), 1)
+if_sethide(if_gethash(1013, 18), 1)
+if_sethide(if_gethash(1013, 20), 1)
+if_sethide(if_gethash(1013, 21), 1)
+if_sethide(if_gethash(1013, 17), 1)
+if_sethide(if_gethash(1013, 15), 1)
+if_sethide(if_gethash(1013, 16), 1)
+if_sethide(if_gethash(1013, 14), 1)
+store_varc(1360, 0)
+return

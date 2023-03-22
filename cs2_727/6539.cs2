@@ -1,0 +1,2 @@
+//script6539(6539)()(int, int, int, int)
+return script_6556(9).get(3), script_6556(9).get(2), script_6556(9).get(1), script_6556(9).get(0)

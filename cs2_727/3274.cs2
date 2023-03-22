@@ -1,0 +1,23 @@
+//script3274(3274)()(int)
+switch(load_varc(1320)) {
+	case default:
+		break
+	case 1:
+		return 5000
+
+	case 2:
+		return 5500
+
+	case 3:
+		return 6000
+
+	case 4:
+		return 6500
+
+	case 5:
+		return 7000
+		return 10000
+
+
+}
+return 0

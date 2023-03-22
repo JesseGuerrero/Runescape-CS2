@@ -1,0 +1,44 @@
+//script4644(4644)(int arg0)(int, int)
+switch(arg0) {
+	case default:
+		return 0, 0
+
+	case 1:
+		if(load_varpbit(9315) == 1)
+			if(load_varpbit(9314) == 1)
+				return 1, 1
+			else
+				return 0, 1
+		break
+	case 2:
+		if(load_varpbit(9317) == 1)
+			if(load_varpbit(9316) == 1)
+				return 1, 1
+			else
+				return 0, 1
+		break
+	case 4:
+		if(load_varpbit(9319) == 1)
+			if(load_varpbit(9318) == 1)
+				return 1, 1
+			else
+				return 0, 1
+		break
+	case 3:
+		if(load_varpbit(11061) == 1)
+			if(load_varpbit(11060) == 1)
+				return 1, 1
+			else
+				return 0, 1
+		break
+	case 6:
+		if(load_varpbit(11063) == 1)
+			if(load_varpbit(11062) == 1)
+				return 1, 1
+			else
+				return 0, 1
+		break
+
+}
+return 0, 0
+return 0, 0

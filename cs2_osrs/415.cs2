@@ -1,0 +1,7 @@
+void script_415(Widget widget0) {
+	script_430();
+	widget0.hookVARP(&script_416(), 210, 281, 197, 314, 1317, 1318);
+	widget0.hookSkill(&script_416(), 13);
+	widget0.hookContainer(&script_416(), 93);
+	return;
+}

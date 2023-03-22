@@ -1,0 +1,75 @@
+//script390(390)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+string sVar0
+iVar1 = enum_getoutputcount(3281)
+iVar2 = -1
+iVar3 = iVar1 - 1
+while(iVar3 >= 0) {
+	iVar2 = enum(3281, iVar3, 'i', 'I')
+	if(iVar2 != -1)
+		if_sethide(iVar2, 1)
+	iVar3 = iVar3 - 1
+}
+cc_deleteall(if_gethash(1028, 102))
+iVar4 = enum(3278, load_varc(197) - 1, 'i', 'J')
+cc_deleteall(if_gethash(1028, 91))
+sVar0 = "Please choose your character." + "<br>" + "<br>" + "Your choice will not affect your abilities." + "<br>" + "You can modify features like your hair style and clothing once you have chosen your character."
+if(iVar4 == -1) {
+	iVar1 = if_getwidth(if_gethash(1028, 102)) - 16
+	iVar1 = parawidth(sVar0, 495, iVar1)
+	if_setsize(if_gethash(1028, 91), 0, 0, iVar3 + 50, iVar1 + 16)
+	cc_create(if_getnextsubid(if_gethash(1028, 91)), 4, 67371099)
+	cc_setsize(0, 0, iVar3, iVar1)
+	cc_setposition(0, 1, 22, 0)
+	cc_settextfont(3793)
+	cc_setcolor(0)
+	cc_settextshadow(0)
+	cc_settextalign(20, 1, 1)
+	cc_settext(sVar0)
+	if_sethide(if_gethash(1028, 91), 0)
+	return
+}
+if_sethide(if_gethash(1028, 91), 1)
+iVar5 = 0
+iVar3 = 0
+iVar6 = script_384(0, iVar4, arg0)
+iVar7 = load_varc(86) - 1
+iVar2 = enum(3281, 0, 'i', 'I')
+if(iVar6 != -1)
+	while(iVar2 != -1) {
+		if_setsize(iVar2, 1, 0, 17, 98)
+		if(iVar3 == iVar7)
+			iVar5 = 1
+		else
+			iVar5 = 0
+		script_363(iVar2, iVar7, 3281, struct_param(1181, iVar6), 1, 85, 181, 1, iVar5, "", "")
+		instr6213(iVar2, 1, "Select outfit")
+		instr6239(iVar2, script_352, "ii", -2147483644, iVar3 + 1)
+		iVar3 = iVar3 + 1
+		iVar6 = script_384(iVar3, iVar4, arg0)
+		iVar2 = enum(3281, iVar3, 'i', 'I')
+	}
+iVar8 = iVar3
+iVar9 = min(scale(89, 40, 33), (390 - 98) / max(1, iVar8 - 1))
+iVar3 = 0
+while(iVar3 < iVar8) {
+	iVar2 = enum(3281, iVar3, 'i', 'I')
+	if(iVar3 == iVar7)
+		if_setposition(iVar2, 0, 0, 0, iVar3 * iVar9)
+	else
+		if_setposition(iVar2, 2, 0, 0, iVar3 * iVar9)
+	if(iVar3 <= iVar7)
+		if_sendtofront(iVar2)
+	else
+		if_sendtoback(iVar2)
+	iVar3 = iVar3 + 1
+}
+return

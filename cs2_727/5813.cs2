@@ -1,0 +1,23 @@
+//script5813(5813)(int arg0)(int, int)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+iVar1 = enum(3482, arg0, 'i', 'i')
+iVar2 = enum(5478, arg0, 'i', 'i')
+iVar3 = 0
+iVar4 = 0
+iVar5 = -1
+while(iVar1 != iVar2) {
+	iVar5 = enum(3483, iVar1, 'i', 'J')
+	if(struct_param(1267, iVar5) == arg0)
+		if(struct_param(1322, iVar5) == 0) {
+			iVar4 = iVar4 + 1
+			if(script_3227(iVar1) == 2)
+				iVar3 = iVar3 + 1
+		}
+	iVar1 = struct_param(1269, iVar5)
+}
+return iVar4, iVar3
+return 0, 0

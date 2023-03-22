@@ -1,0 +1,6 @@
+//script4295(4295)()(int)
+int iVar0
+int iVar1
+iVar0 = 0
+iVar1 = 0
+return script_4329(71827760)

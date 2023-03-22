@@ -1,0 +1,8 @@
+//script399(399)(int arg0)(void)
+if(if_getx(arg0) < if_getwidth(if_gethash(306, 1)) - 1 || if_gety(arg0) - if_getheight(arg0) > 110) {
+	if(if_getx(arg0) == 140 + if_getwidth(arg0))
+		instr6342(if_gethash(306, 20), script_1550, "I", if_gethash(306, 7))
+	if_setposition(arg0, 0, 0, if_gety(arg0), 1 + if_getx(arg0))
+} else 
+	script_1411()
+return

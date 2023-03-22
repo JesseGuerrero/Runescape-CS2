@@ -1,0 +1,104 @@
+//script1117(1117)(int arg0)(void)
+int iVar1
+string sVar0
+iVar1 = -1
+sVar0 = ""
+switch(arg0) {
+	case default:
+		break
+	case 12582919:
+		if(load_varpbit(6459) == 0)
+			sVar0 = "Hide combat spells."
+		else
+			sVar0 = "Show combat spells."
+		iVar1 = 12583008
+		break
+	case 12582921:
+		if(load_varpbit(6462) == 0)
+			sVar0 = "Hide teleport spells."
+		else
+			sVar0 = "Show teleport spells."
+		iVar1 = 12583008
+		break
+	case 12582923:
+		if(load_varpbit(6461) == 0)
+			sVar0 = "Hide miscellaneous spells."
+		else
+			sVar0 = "Show miscellaneous spells."
+		iVar1 = 12583008
+		break
+	case 12582925:
+		if(load_varpbit(6460) == 0)
+			sVar0 = "Hide skill spells."
+		else
+			sVar0 = "Show skill spells."
+		iVar1 = 12583008
+		break
+	case 28180485:
+		if(load_varpbit(6463) == 0)
+			sVar0 = "Hide combat spells."
+		else
+			sVar0 = "Show combat spells."
+		iVar1 = 28180545
+		break
+	case 28180489:
+		if(load_varpbit(6464) == 0)
+			sVar0 = "Hide miscellaneous spells."
+		else
+			sVar0 = "Show miscellaneous spells."
+		iVar1 = 28180545
+		break
+	case 28180487:
+		if(load_varpbit(6465) == 0)
+			sVar0 = "Hide teleport spells."
+		else
+			sVar0 = "Show teleport spells."
+		iVar1 = 28180545
+		break
+	case 12648453:
+		if(load_varpbit(6466) == 0)
+			sVar0 = "Hide combat spells."
+		else
+			sVar0 = "Show combat spells."
+		iVar1 = 12648501
+		break
+	case 12648455:
+		if(load_varpbit(6467) == 0)
+			sVar0 = "Hide teleport spells."
+		else
+			sVar0 = "Show teleport spells."
+		iVar1 = 12648501
+		break
+	case 62259207:
+		if(load_varpbit(7348) == 0)
+			sVar0 = "Hide combat spells."
+		else
+			sVar0 = "Show combat spells."
+		iVar1 = 62259272
+		break
+	case 62259209:
+		if(load_varpbit(7351) == 0)
+			sVar0 = "Hide teleport spells."
+		else
+			sVar0 = "Show teleport spells."
+		iVar1 = 62259272
+		break
+	case 62259211:
+		if(load_varpbit(7350) == 0)
+			sVar0 = "Hide miscellaneous spells."
+		else
+			sVar0 = "Show miscellaneous spells."
+		iVar1 = 62259272
+		break
+	case 62259213:
+		if(load_varpbit(7349) == 0)
+			sVar0 = "Hide skill spells."
+		else
+			sVar0 = "Show skill spells."
+		iVar1 = 62259272
+		return
+
+
+}
+script_39(arg0, iVar1, 25, if_getwidth(if_getlayer(iVar1)), sVar0)
+return

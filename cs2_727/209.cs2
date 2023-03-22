@@ -1,0 +1,27 @@
+//script209(209)()(void)
+if(load_varpbit(6101) < 8)
+	if_setgraphic(if_gethash(591, 10), 1785)
+else
+	if(load_varpbit(6101) < 15)
+		if_setgraphic(if_gethash(591, 10), 1786)
+	else
+		if(load_varpbit(6101) < 23)
+			if_setgraphic(if_gethash(591, 10), 1787)
+		else
+			if(load_varpbit(6101) < 30)
+				if_setgraphic(if_gethash(591, 10), 1788)
+			else
+				if(load_varpbit(6101) < 38)
+					if_setgraphic(if_gethash(591, 10), 1789)
+				else
+					if(load_varpbit(6101) < 45)
+						if_setgraphic(if_gethash(591, 10), 1790)
+					else
+						if(load_varpbit(6101) < 53)
+							if_setgraphic(if_gethash(591, 10), 1791)
+						else
+							if(load_varpbit(6101) < 60)
+								if_setgraphic(if_gethash(591, 10), 1792)
+							else
+								if_setgraphic(if_gethash(591, 10), 1793)
+return

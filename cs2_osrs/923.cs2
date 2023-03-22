@@ -1,0 +1,76 @@
+void script_923() {
+	boolean boolean0;
+	int int1;
+	int int2;
+	int int3;
+	boolean0 = false;
+	if (VARC[41] == -1) {
+		if (script_922() == 1) {
+			boolean0 = true;
+		} else if (getDisplayMode() == 1) {
+			VARC[41] = 0;
+			script_183(0, 0);
+		}
+	}
+	widget(162, 29).setIsHidden(boolean0);
+	widget(162, 30).clearChildren();
+	widget(162, 41).clearChildren();
+	if (script_921() == 0) {
+		widget(162, 30).setNoClickThrough(1);
+		CHILD.createChild(widget(162, 30), 5, 0);
+		CHILD.setSize(0, 0, 1, 1);
+		CHILD.setPosition(0, 0, 1, 1);
+		CHILD.setSprite(1017);
+		CHILD.setSpriteTiling(false);
+		CHILD.setTrans(0);
+		CHILD.createChild(widget(162, 41), 3, 0);
+		CHILD.setSize(0, 1, 1, 0);
+		CHILD.setPosition(0, 15, 1, 2);
+		CHILD.setRGB(0x807660);
+		CHILD.setFilled(true);
+		script_838(widget(162, 544), 792, 789, 790, 791, 773, 788, 0);
+		if (boolean0 == true) {
+			widget(162, 2).setTrans(255);
+		} else {
+			widget(162, 2).setTrans(0);
+		}
+		return;
+	}
+	int1 = 16384 / 25;
+	int2 = 16384;
+	if (VARPBIT[2570] == 1) {
+		widget(162, 30).setNoClickThrough(1);
+	} else {
+		widget(162, 30).setNoClickThrough(0);
+		widget(162, 30).m2006(true);
+	}
+	int3 = 0;
+	while (int3 < 20) {
+		CHILD.createChild(widget(162, 30), 3, int3);
+		CHILD.setSize(0, int2, 1, 2);
+		CHILD.setPosition(0, 0, 1, 2);
+		CHILD.setRGB(0x000000);
+		CHILD.setFilled(true);
+		CHILD.setTrans(254);
+		CHILD.createChild(widget(162, 41), 3, int3 * 2);
+		_CHILD.createChild(widget(162, 41), 3, int3 * 2 + 1);
+		CHILD.setSize(int2, 1, 2, 0);
+		_CHILD.setSize(int2, 1, 2, 0);
+		CHILD.setPosition(0, 0, 0, 0);
+		_CHILD.setPosition(0, 15, 0, 2);
+		CHILD.setRGB(0xFFFFFF);
+		_CHILD.setRGB(0xFFFFFF);
+		CHILD.setFilled(true);
+		_CHILD.setFilled(true);
+		CHILD.setTrans(251);
+		_CHILD.setTrans(250);
+		int3, int2 = int3 + 1, int2 - int1;
+	}
+	script_838(widget(162, 544), 1190, 1187, 1188, 1189, 1185, 1186, 1);
+	if (boolean0 == true) {
+		widget(162, 2).setTrans(255);
+	} else {
+		widget(162, 2).setTrans(155);
+	}
+	return;
+}

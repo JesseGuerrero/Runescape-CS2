@@ -1,0 +1,9 @@
+//script5465(5465)()(void)
+int iVar0
+int iVar1
+iVar0 = if_getwidth(if_gethash(1159, 33))
+iVar1 = 0
+iVar1 = iVar0 - 33
+iVar1 = scale(load_varc(1673), 100, iVar1)
+if_setsize(if_gethash(1159, 35), 0, 0, if_getheight(if_gethash(1159, 35)), iVar1)
+return

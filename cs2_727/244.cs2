@@ -1,0 +1,5 @@
+//script244(244)()(void)
+script_132()
+store_varc(11, 0)
+store_varc_string(24, "")
+return

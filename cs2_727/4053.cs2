@@ -1,0 +1,25 @@
+//script4053(4053)()(void)
+switch(load_varpbit(8661)) {
+	case default:
+		break
+	case 0:
+		if_settext(if_gethash(1057, 26), "Using multiple token types")
+		break
+	case 1:
+		if_settext(if_gethash(1057, 26), "Using attack tokens")
+		break
+	case 2:
+		if_settext(if_gethash(1057, 26), "Using defence tokens")
+		break
+	case 3:
+		if_settext(if_gethash(1057, 26), "Using strength tokens")
+		break
+	case 4:
+		if_settext(if_gethash(1057, 26), "Using combat tokens")
+		break
+	case 5:
+		if_settext(if_gethash(1057, 26), "Using balance tokens")
+		break
+
+}
+return

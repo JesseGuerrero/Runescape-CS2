@@ -1,0 +1,11 @@
+//script4532(4532)(int arg0)(void)
+int iVar1
+iVar1 = if_getlayer(arg0)
+if(iVar1 == -1)
+	return
+if(instr6004(iVar1) == 1) {
+	cc_setposition(0, 1, 4, 0)
+	cc_setsize(0, 2, 23, 16384)
+}
+script_4211(arg0, 5419, 15458492, 0)
+return

@@ -1,0 +1,73 @@
+void script_321(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4, int arg5, int arg6, int arg7, int arg8) {
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	Item item18;
+	widget1.clearChildren();
+	widget2.clearChildren();
+	int9 = widget0.getWidth();
+	int10 = int9 / 5;
+	int11 = 32 + 35;
+	int12 = (int10 - 36) / 2;
+	int13 = 0;
+	int14 = 0;
+	int15 = 0;
+	int16 = 0;
+	int17 = 0;
+	item18 = datamap('i', 'O', 840, int17);
+	while (item18 != null) {
+		int13, int14 = int17 % 5 * int10, int17 / 5 * int11;
+		CHILD.createChild(widget1, 5, int17);
+		_CHILD.createChild(widget2, 4, int17);
+		CHILD.setPosition(int13 + int12, int14, 0, 0);
+		_CHILD.setPosition(int13, int14 + 32, 0, 0);
+		CHILD.setSize(36, 32, 0, 0);
+		_CHILD.setSize(int10, 15, 0, 0);
+		int15 = int14 + 32 + 15;
+		CHILD.setShadowColor(0x333333);
+		CHILD.setOutlineThickness(1);
+		int16 = datamap('o', 'i', 841, item18);
+		CHILD.setItem(item18, int16);
+		CHILD.setTrans(0);
+		_CHILD.setRGB(0xFF981F);
+		_CHILD.setFont(495);
+		_CHILD.setTextAntiMacro(true);
+		_CHILD.setTextAlignment(1, 1, 0);
+		_CHILD.setText(script_46(datamap('o', 'i', 842, item18), ","));
+		if (int16 == 1) {
+			CHILD.setContextMenuOption(2, "Buy 1");
+			CHILD.setContextMenuOption(3, "Buy 5");
+			CHILD.setContextMenuOption(4, "Buy 10");
+		} else {
+			CHILD.setContextMenuOption(2, "Buy 1 set");
+			CHILD.setContextMenuOption(3, "Buy 5 sets");
+			CHILD.setContextMenuOption(4, "Buy 10 sets");
+		}
+		if (item18 == 13226) {
+			CHILD.setNoOptions();
+			CHILD.setContextMenuOption(2, "Buy 1");
+		}
+		CHILD.setContextMenuOption(1, "Info");
+		CHILD.setContextMenuOption(10, "Examine");
+		CHILD.setOptionBase("<col=ff9040>" + getItemName(item18));
+		CHILD.hookOptionClick(&script_322(CTX_MENU_OPTION, CTX_WIDGET, CTX_WIDGET_CHILD, widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg8)));
+		int17 = int17 + 1;
+		item18 = datamap('i', 'O', 840, int17);
+	}
+	widget0.setScrollPos(0, 0);
+	widget1.setSize(int9, int15, 0, 0);
+	widget2.setSize(int9, int15, 0, 0);
+	if (int15 > widget0.getHeight()) {
+		widget0.setScrollMax(0, int15);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	script_31(widget3, widget0, 792, 789, 790, 791, 773, 788);
+	return;
+}

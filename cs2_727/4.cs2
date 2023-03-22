@@ -1,0 +1,262 @@
+//script4(4)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, string arg8)(void)
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+int iVar28
+int iVar29
+int iVar30
+int iVar31
+int iVar32
+string sVar0
+string sVar1
+if(arg1 == -1 || arg1 == 0) {
+	cc_deleteall(arg0)
+	if_sethide(arg0, 1)
+	return
+}
+iVar8 = 0
+iVar9 = 0
+iVar8 = instr6212(arg1).get(0)
+if(iVar8 < 0 || iVar9 < 0) {
+	arg1 = movecoord(coordz(arg1), script_686(coordy(arg1) - 1, 4), coordx(arg1), 0)
+	iVar8 = instr6212(arg1).get(0)
+	if(iVar8 < 0 || iVar9 < 0) {
+		arg1 = movecoord(coordz(arg1), script_686(coordy(arg1) - 1, 4), coordx(arg1), 0)
+		iVar8 = instr6212(arg1).get(0)
+		if(iVar8 < 0 || iVar9 < 0) {
+			arg1 = movecoord(coordz(arg1), script_686(coordy(arg1) - 1, 4), coordx(arg1), 0)
+			iVar8 = instr6212(arg1).get(0)
+			if(iVar8 < 0 || iVar9 < 0) {
+				cc_deleteall(arg0)
+				if_sethide(arg0, 1)
+				return
+			}
+		}
+	}
+}
+if_sethide(arg0, 0)
+iVar10 = if_getwidth(arg3)
+iVar11 = if_getheight(arg3)
+if(arg2 == -1)
+	arg2 = 280
+iVar8 = scale(iVar8 - arg7, arg6 - arg7, iVar10)
+iVar9 = scale(iVar9 - arg5, arg4 - arg5, iVar11)
+iVar8 = max(0, min(iVar10, iVar8))
+iVar9 = max(0, min(iVar11, iVar9))
+iVar8 = iVar8 - (iVar10 / 2)
+iVar9 = (iVar11 / 2) - iVar9
+if_setposition(arg0, 1, 1, iVar9, iVar8)
+iVar12 = struct_param(132, arg2)
+iVar13 = struct_param(133, arg2)
+iVar14 = -1
+if(iVar8 <= 0 - (iVar10 / 2))
+	if(iVar9 <= 0 - (iVar11 / 2))
+		iVar14 = 3
+	else
+		if(iVar9 >= iVar11 / 2)
+			iVar14 = 1
+		else
+			iVar14 = 2
+else
+	if(iVar8 >= iVar10 / 2)
+		if(iVar9 <= 0 - (iVar11 / 2))
+			iVar14 = 5
+		else
+			if(iVar9 >= iVar11 / 2)
+				iVar14 = 7
+			else
+				iVar14 = 6
+	else
+		if(iVar9 <= 0 - (iVar11 / 2))
+			iVar14 = 4
+		else
+			if(iVar9 >= iVar11 / 2)
+				iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+sVar0 = "Scroll map"
+sVar1 = ""
+if(string_length(arg0) > 0) {
+	if(arg0 == 49479716)
+		sVar1 = "Your position"
+	else
+		sVar1 = removetags(script_2332(arg0, "<br>", " "))
+	sVar0 = "Scroll map:"
+}
+if(iVar14 == -1) {
+	script_2048(arg0, 0, struct_param(130, arg2), iVar12, iVar13, 0, 0, 0, 0, 0, 0, 0, arg1, sVar1, sVar0)
+	iVar15 = iVar13 / 2
+	iVar16 = iVar13 / 2
+	iVar17 = iVar12 / 2
+	iVar18 = iVar12 / 2
+	script_2048(arg0, 1, struct_param(131, arg2), iVar12, iVar13, 0, 0, 0, 0, 0, 0, 1, -1, "", "")
+} else  {
+	iVar12 = struct_param(136, arg2)
+	iVar13 = struct_param(645, arg2)
+	switch(iVar14) {
+		case default:
+			break
+		case 0:
+			script_2048(arg0, 0, struct_param(134, arg2), iVar12, iVar13, 0, 0 - (iVar13 / 2), 49152, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = iVar13
+			iVar16 = 0
+			iVar17 = iVar12 / 2
+			iVar18 = iVar12 / 2
+			break
+		case 1:
+			script_2048(arg0, 0, struct_param(135, arg2), iVar12, iVar13, iVar12 / 2, 0 - (iVar13 / 2), 32768, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = iVar13
+			iVar16 = 0
+			iVar17 = 0
+			iVar18 = iVar12
+			break
+		case 2:
+			script_2048(arg0, 0, struct_param(134, arg2), iVar12, iVar13, iVar12 / 2, 0, 32768, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = iVar13 / 2
+			iVar16 = iVar13 / 2
+			iVar17 = 0
+			iVar18 = iVar12
+			break
+		case 3:
+			script_2048(arg0, 0, struct_param(135, arg2), iVar12, iVar13, iVar12 / 2, iVar13 / 2, 16384, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = 0
+			iVar16 = iVar13
+			iVar17 = 0
+			iVar18 = iVar12
+			break
+		case 4:
+			script_2048(arg0, 0, struct_param(134, arg2), iVar12, iVar13, 0, iVar13 / 2, 16384, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = 0
+			iVar16 = iVar13
+			iVar17 = iVar12 / 2
+			iVar18 = iVar12 / 2
+			break
+		case 5:
+			script_2048(arg0, 0, struct_param(135, arg2), iVar12, iVar13, 0 - (iVar12 / 2), iVar13 / 2, 0, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = 0
+			iVar16 = iVar13
+			iVar17 = iVar12
+			iVar18 = 0
+			break
+		case 6:
+			script_2048(arg0, 0, struct_param(134, arg2), iVar12, iVar13, 0 - (iVar12 / 2), 0, 0, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = iVar13 / 2
+			iVar16 = iVar13 / 2
+			iVar17 = iVar12
+			iVar18 = 0
+			break
+		case 7:
+			script_2048(arg0, 0, struct_param(135, arg2), iVar12, iVar13, 0 - (iVar12 / 2), 0 - (iVar13 / 2), 49152, 0, 0, 0, 0, arg1, sVar1, sVar0)
+			iVar15 = iVar13
+			iVar16 = 0
+			iVar17 = iVar12
+			iVar18 = 0
+			break
+
+	}
+	script_2050(arg0, 1)
+}
+iVar19 = 0
+iVar20 = 0
+iVar21 = 0
+iVar22 = 0
+iVar23 = 0
+iVar24 = 0
+iVar25 = 0
+iVar26 = 0
+iVar27 = -1
+iVar28 = -1
+iVar29 = -1
+iVar30 = 0
+if(string_length(arg0) > 0) {
+	iVar23 = struct_param(650, arg2)
+	iVar24 = struct_param(651, arg2)
+	iVar27 = struct_param(647, arg2)
+	iVar28 = struct_param(648, arg2)
+	iVar29 = struct_param(649, arg2)
+	iVar19 = (parawidth(arg0, 591, iVar10) + iVar23) + iVar23
+	iVar20 = (((paramheight(arg0, 591, iVar19) * 13) + 2) + iVar24) + iVar24
+	if(iVar15 + iVar20 < iVar9 + (iVar11 / 2))
+		iVar22 = 0 - (iVar15 + (iVar20 / 2))
+	else
+		iVar22 = iVar16 + (iVar20 / 2)
+	iVar30 = (iVar8 + (iVar10 / 2)) - (iVar19 / 2)
+	if(iVar30 <= 0)
+		iVar21 = 0 - iVar30
+	else {
+		iVar30 = (iVar8 + (iVar10 / 2)) + (iVar19 / 2)
+		if(iVar30 >= iVar10)
+			iVar21 = iVar10 - iVar30
+	}
+	iVar25 = (iVar19 - iVar23) / 2
+	iVar26 = (iVar20 - iVar24) / 2
+	script_2048(arg0, 2, struct_param(646, arg2), iVar19 - (iVar23 * 2), iVar20 - (iVar24 * 2), iVar21, iVar22, 0, 1, 0, 0, 0, -1, "", "")
+	script_2048(arg0, 3, iVar28, iVar19 - (iVar23 * 2), iVar24, iVar21, iVar22 - iVar26, 0, 1, 0, 0, 0, -1, "", "")
+	script_2048(arg0, 4, iVar28, iVar19 - (iVar23 * 2), iVar24, iVar21, iVar22 + iVar26, 0, 1, 0, 1, 0, -1, "", "")
+	script_2048(arg0, 5, iVar29, iVar23, iVar20 - (iVar24 * 2), iVar21 - iVar25, iVar22, 0, 1, 0, 0, 0, -1, "", "")
+	script_2048(arg0, 6, iVar29, iVar23, iVar20 - (iVar24 * 2), iVar21 + iVar25, iVar22, 0, 1, 1, 0, 0, -1, "", "")
+	script_2048(arg0, 7, iVar27, iVar23, iVar24, iVar21 - iVar25, iVar22 - iVar26, 0, 0, 0, 0, 0, -1, "", "")
+	script_2048(arg0, 8, iVar27, iVar23, iVar24, iVar21 + iVar25, iVar22 - iVar26, 0, 0, 1, 0, 0, -1, "", "")
+	script_2048(arg0, 9, iVar27, iVar23, iVar24, iVar21 - iVar25, iVar22 + iVar26, 0, 0, 0, 1, 0, -1, "", "")
+	script_2048(arg0, 10, iVar27, iVar23, iVar24, iVar21 + iVar25, iVar22 + iVar26, 0, 0, 1, 1, 0, -1, "", "")
+	script_2051(arg0, 11, iVar19, iVar20, iVar21 + 1, iVar22 + 1, struct_param(653, arg2), -1, arg0, "", "")
+	script_2051(arg0, 12, iVar19, iVar20, iVar21, iVar22, struct_param(652, arg2), arg1, arg0, sVar1, sVar0)
+} else  {
+	if(cc_find(2, arg0) == 1)
+		cc_delete()
+	if(cc_find(3, arg0) == 1)
+		cc_delete()
+	if(cc_find(4, arg0) == 1)
+		cc_delete()
+	if(cc_find(5, arg0) == 1)
+		cc_delete()
+	if(cc_find(6, arg0) == 1)
+		cc_delete()
+	if(cc_find(7, arg0) == 1)
+		cc_delete()
+	if(cc_find(8, arg0) == 1)
+		cc_delete()
+	if(cc_find(9, arg0) == 1)
+		cc_delete()
+	if(cc_find(10, arg0) == 1)
+		cc_delete()
+	if(cc_find(11, arg0) == 1)
+		cc_delete()
+	if(cc_find(12, arg0) == 1)
+		cc_delete()
+}
+iVar31 = 0
+iVar32 = 0
+if(iVar21 < 0)
+	iVar31 = max(iVar17, 0 - (iVar21 - (iVar19 / 2)))
+else
+	if(iVar19 > 0)
+		iVar31 = max(iVar18, iVar21 + (iVar19 / 2))
+	else
+		iVar31 = max(iVar18, iVar17)
+if(iVar22 <= 0)
+	iVar32 = max(iVar16, iVar15 + iVar20)
+else
+	iVar32 = iVar16 + iVar20
+iVar31 = (iVar31 * 2) + 2
+if_setsize(arg0, 0, 0, iVar32, iVar31)
+return

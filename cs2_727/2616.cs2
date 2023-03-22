@@ -1,0 +1,43 @@
+//script2616(2616)()(void)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 0
+iVar1 = 0
+iVar2 = 0
+switch(script_2617()) {
+	case default:
+		break
+	case 0:
+		iVar2 = movecoord(0, 0, 5, load_varc(834))
+		break
+	case 7:
+		iVar2 = movecoord(4, 0, 4, load_varc(834))
+		break
+	case 6:
+		iVar2 = movecoord(5, 0, 0, load_varc(834))
+		break
+	case 5:
+		iVar2 = movecoord(4, 0, -4, load_varc(834))
+		break
+	case 4:
+		iVar2 = movecoord(0, 0, -5, load_varc(834))
+		break
+	case 3:
+		iVar2 = movecoord(-4, 0, -4, load_varc(834))
+		break
+	case 2:
+		iVar2 = movecoord(-5, 0, 0, load_varc(834))
+		break
+	case 1:
+		iVar2 = movecoord(-4, 0, 4, load_varc(834))
+		break
+
+}
+iVar0 = coordx(iVar2) / 64
+iVar1 = coordz(iVar2) / 64
+if(load_varc(835) != iVar0 || load_varc(836) != iVar1)
+	return
+store_varc(834, iVar2)
+script_2612(load_varc(834), load_varc(833))
+return

@@ -1,0 +1,106 @@
+//script493(493)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+iVar2 = 0
+iVar3 = 0
+iVar4 = -1
+switch(arg0) {
+	case default:
+		return
+
+	case 66519098:
+		iVar2 = 1
+		break
+	case 66519100:
+		iVar2 = 2
+		break
+	case 66519102:
+		iVar2 = 3
+		break
+	case 66519104:
+		iVar2 = 4
+		break
+	case 66519108:
+		iVar2 = 5
+		break
+	case 66519110:
+		iVar2 = 6
+		break
+	case 66519112:
+		iVar2 = 7
+		break
+	case 66519114:
+		iVar2 = 8
+		break
+	case 66519106:
+		iVar2 = 9
+		break
+
+}
+if(arg1 == 1)
+	iVar3 = 16777215
+else
+	iVar3 = 16750623
+if(load_varpbit(7539) != iVar2)
+	if(load_varpbit(7540) != iVar2)
+		if(load_varpbit(7541) != iVar2)
+			if(load_varpbit(7542) != iVar2) {
+				if_setcolor(arg0, iVar3)
+				if(arg1 == 1) {
+					iVar4 = script_488(iVar2)
+					if(iVar4 != -1) {
+						if_sethide(if_gethash(1015, 49), 1)
+						if_sethide(if_gethash(1015, 50), 0)
+						if_sethide(if_gethash(1015, 51), 0)
+						if_sethide(if_gethash(1015, 52), 0)
+						if_sethide(if_gethash(1015, 53), 0)
+						if_sethide(if_gethash(1015, 54), 0)
+						if_settext(if_gethash(1015, 51), struct_param(1150, iVar4))
+						if_setgraphic(if_gethash(1015, 50), struct_param(1153, iVar4))
+						if_settext(if_gethash(1015, 52), struct_param(1151, iVar4))
+						if_settext(if_gethash(1015, 53), append(to_string(struct_param(1155, iVar4)), "Cooldown: "))
+						if_settext(if_gethash(1015, 54), append(to_string(struct_param(1154, iVar4)), "Cost: "))
+					}
+				} else  {
+					switch(load_varpbit(7515)) {
+						case default:
+							iVar4 = -1
+							break
+						case 1:
+							iVar4 = script_488(load_varpbit(7539))
+							break
+						case 2:
+							iVar4 = script_488(load_varpbit(7540))
+							break
+						case 3:
+							iVar4 = script_488(load_varpbit(7541))
+							break
+						case 4:
+							iVar4 = script_488(load_varpbit(7542))
+							break
+
+					}
+					if(iVar4 == -1) {
+						if_sethide(if_gethash(1015, 49), 0)
+						if_sethide(if_gethash(1015, 50), 1)
+						if_sethide(if_gethash(1015, 51), 1)
+						if_sethide(if_gethash(1015, 52), 1)
+						if_sethide(if_gethash(1015, 53), 1)
+						if_sethide(if_gethash(1015, 54), 1)
+					} else  {
+						if_sethide(if_gethash(1015, 49), 1)
+						if_sethide(if_gethash(1015, 50), 0)
+						if_sethide(if_gethash(1015, 51), 0)
+						if_sethide(if_gethash(1015, 52), 0)
+						if_sethide(if_gethash(1015, 53), 0)
+						if_sethide(if_gethash(1015, 54), 0)
+						if_settext(if_gethash(1015, 51), struct_param(1150, iVar4))
+						if_setgraphic(if_gethash(1015, 50), struct_param(1153, iVar4))
+						if_settext(if_gethash(1015, 52), struct_param(1151, iVar4))
+						if_settext(if_gethash(1015, 53), append(to_string(struct_param(1155, iVar4)), "Cooldown: "))
+						if_settext(if_gethash(1015, 54), append(to_string(struct_param(1154, iVar4)), "Cost: "))
+					}
+				}
+			}
+return

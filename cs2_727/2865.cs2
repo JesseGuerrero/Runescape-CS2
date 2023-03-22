@@ -1,0 +1,70 @@
+//script2865(2865)(int arg0, int arg1)(int)
+int iVar2
+iVar2 = arg0
+switch(arg1) {
+	case default:
+		break
+	case 0:
+		iVar2 = movecoord(4, 0, 0, arg0)
+		break
+	case 1:
+		iVar2 = movecoord(4, 0, 1, arg0)
+		break
+	case 2:
+		iVar2 = movecoord(3, 0, 2, arg0)
+		break
+	case 3:
+		iVar2 = movecoord(2, 0, 3, arg0)
+		break
+	case 4:
+		iVar2 = movecoord(1, 0, 4, arg0)
+		break
+	case 5:
+		iVar2 = movecoord(0, 0, 4, arg0)
+		break
+	case 6:
+		iVar2 = movecoord(-1, 0, 4, arg0)
+		break
+	case 7:
+		iVar2 = movecoord(-2, 0, 3, arg0)
+		break
+	case 8:
+		iVar2 = movecoord(-3, 0, 2, arg0)
+		break
+	case 9:
+		iVar2 = movecoord(-4, 0, 1, arg0)
+		break
+	case 10:
+		iVar2 = movecoord(-4, 0, 0, arg0)
+		break
+	case 11:
+		iVar2 = movecoord(-4, 0, -1, arg0)
+		break
+	case 12:
+		iVar2 = movecoord(-3, 0, -2, arg0)
+		break
+	case 13:
+		iVar2 = movecoord(-2, 0, -3, arg0)
+		break
+	case 14:
+		iVar2 = movecoord(-1, 0, -4, arg0)
+		break
+	case 15:
+		iVar2 = movecoord(0, 0, -4, arg0)
+		break
+	case 16:
+		iVar2 = movecoord(1, 0, -4, arg0)
+		break
+	case 17:
+		iVar2 = movecoord(2, 0, -3, arg0)
+		break
+	case 18:
+		iVar2 = movecoord(3, 0, -2, arg0)
+		break
+	case 19:
+		iVar2 = movecoord(4, 0, -1, arg0)
+		break
+
+}
+return iVar2
+return -1

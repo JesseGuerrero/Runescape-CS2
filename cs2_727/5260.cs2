@@ -1,0 +1,9 @@
+//script5260(5260)(int arg0)(void)
+int iVar1
+iVar1 = 74252290
+if(if_getheight(iVar1) >= arg0) {
+	if_setsize(iVar1, 0, 0, arg0, if_getwidth(iVar1))
+	instr6342(iVar1, None, "")
+} else 
+	if_setsize(iVar1, 0, 0, if_getheight(iVar1) + 1, if_getwidth(iVar1))
+return

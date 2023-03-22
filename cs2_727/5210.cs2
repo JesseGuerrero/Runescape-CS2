@@ -1,0 +1,8 @@
+//script5210(5210)(int arg0)(void)
+if(load_varpbit(6448) == 1) {
+	script_5211(1)
+	return
+}
+script_5211(0)
+instr6237(arg0, None, "")
+return

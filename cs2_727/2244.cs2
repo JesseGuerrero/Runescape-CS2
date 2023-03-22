@@ -1,0 +1,17 @@
+//script2244(2244)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11)(void)
+int iVar12
+arg0 = script_2245(arg1, arg2, arg0, 61276214, 61276209)
+arg3 = script_2245(arg4, arg5, arg3, 61276224, 61276219)
+arg6 = script_2245(arg7, arg8, arg6, 61276234, 61276229)
+iVar12 = (arg0 + arg3) + arg6
+if_setsize(if_gethash(935, 95), 0, 0, 10, 1 + ((223 * iVar12) / ((arg2 + arg5) + arg8)))
+iVar12 = (iVar12 + arg9) + arg10
+if_settext(if_gethash(935, 90), to_string(iVar12))
+if_settext(if_gethash(935, 107), to_string((iVar12 * arg11) / 100))
+if(arg0 == arg1)
+	if(arg3 == arg4)
+		if(arg6 == arg7)
+			instr6342(if_gethash(935, 0), None, "")
+		else
+			instr6342(if_gethash(935, 0), script_2244, "iiiiiiiiiiii", arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11)
+return

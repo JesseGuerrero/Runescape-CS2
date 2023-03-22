@@ -1,0 +1,11 @@
+void script_320(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	if (getClientCycle() < arg0) {
+		return;
+	}
+	widget3.hookFrame(null);
+	widget3.clearChildren();
+	widget4.hookOptionClick(null);
+	widget1.setIsHidden(false);
+	widget2.setIsHidden(true);
+	return;
+}

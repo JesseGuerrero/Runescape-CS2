@@ -1,0 +1,61 @@
+void script_1097(Widget widget0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, int arg5, int arg6, int arg7) {
+	int int8;
+	int int9;
+	string str0;
+	string str1;
+	str0 = "";
+	str1 = "";
+	if (widget0 == widget(arg5)) {
+		str0, str1 = STRING[27], STRING[130];
+	} else {
+		if (!(widget0 == widget(arg6))) {
+			return;
+		}
+		str0, str1 = STRING[130], STRING[27];
+	}
+	str0 = script_1099(str0);
+	str1 = script_1099(str1);
+	int8 = getLineCount(str1, widget2.getWidth(), 495) * 12 + 5;
+	int9 = widget2.getHeight();
+	if (int8 < int9) {
+		int8 = int9;
+	}
+	if (CHILD.setChild(widget2, 0) == true && _CHILD.setChild(widget2, 1) == true) {
+		CHILD.setSize(0, int8, 1, 0);
+		_CHILD.setSize(0, int8, 1, 0);
+		CHILD.setTrans(255);
+		widget2.hookMouseEnter(&script_244(widget2, getChildId(), 100, null));
+		widget2.hookMouseExit(&script_244(widget2, getChildId(), 255, null));
+		_CHILD.setText(str1);
+	}
+	if (int8 > int9) {
+		widget2.setScrollMax(0, int8);
+	} else {
+		widget2.setScrollMax(0, 0);
+	}
+	script_72(widget3, widget2, getScrollY(widget2));
+	widget2.hookMousePress(&script_1096(widget2, widget3, widget0, widget1, widget4, widget(arg5), widget(arg6), widget(arg7)));
+	str0 = concat(str0, "<col=ffffff>" + "*" + "</col>");
+	int8 = getLineCount(str0, widget0.getWidth(), 495) * 12 + 5;
+	int9 = widget0.getHeight();
+	if (int8 < int9) {
+		int8 = int9;
+	}
+	if (CHILD.setChild(widget0, 0) == true && _CHILD.setChild(widget0, 1) == true) {
+		CHILD.setSize(0, int8, 1, 0);
+		_CHILD.setSize(0, int8, 1, 0);
+		CHILD.setTrans(0);
+		widget0.hookMouseEnter(null);
+		widget0.hookMouseExit(null);
+		_CHILD.setText(str0);
+	}
+	if (int8 > int9) {
+		widget0.setScrollMax(0, int8);
+	} else {
+		widget0.setScrollMax(0, 0);
+	}
+	script_72(widget1, widget0, int8);
+	widget0.hookMousePress(null);
+	widget4.hookKey(&script_1098(KEY_TYPED, KEY_PRESSED, widget0, widget1, widget4, widget(arg5), widget(arg6), widget(arg7)));
+	return;
+}

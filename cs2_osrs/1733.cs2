@@ -1,0 +1,42 @@
+void script_1733(int arg0, int arg1, Widget widget2, Widget widget3, Widget widget4) {
+	int int5;
+	widget4.clearChildren();
+	int5 = 0;
+	if (arg0 == 1) {
+		widget3.setIsHidden(false);
+		widget2.setSize(arg1 + 12, 50, 1, 1);
+		int5 = script_198(widget4);
+		widget4.setContextMenuOption(1, "Hide");
+		widget4.hookOptionClick(&script_1732(false, arg1, widget2, widget3, widget4));
+	} else {
+		widget3.setIsHidden(true);
+		widget2.setSize(12, 50, 1, 1);
+		int5 = script_208(widget4);
+		widget4.setContextMenuOption(1, "Show");
+		widget4.hookOptionClick(&script_1732(true, arg1, widget2, widget3, widget4));
+	}
+	widget4.setOptionBase("<col=ff9040>" + "Menu" + "</col>");
+	CHILD.createChild(widget4, 6, int5);
+	int5 = int5 + 1;
+	CHILD.setSize(0, 0, 1, 1);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setModel(2600);
+	CHILD.set3DRotation(0, 2, 512, 0, 0, 1100);
+	CHILD.createChild(widget4, 3, int5);
+	int5 = int5 + 1;
+	_CHILD.createChild(widget4, 3, int5);
+	int5 = int5 + 1;
+	CHILD.setSize(14, 7, 0, 0);
+	_CHILD.setSize(12, 5, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setFilled(true);
+	_CHILD.setFilled(true);
+	CHILD.setRGB(0xFFFF7F);
+	_CHILD.setRGB(0xFFFF7F);
+	CHILD.setTrans(255);
+	_CHILD.setTrans(255);
+	widget4.hookMouseHover(&script_1744(CTX_WIDGET, getChildId(), getChildId(), 240));
+	widget4.hookMouseExit(&script_1744(CTX_WIDGET, getChildId(), getChildId(), 255));
+	return;
+}

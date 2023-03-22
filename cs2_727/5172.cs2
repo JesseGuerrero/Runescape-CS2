@@ -1,0 +1,19 @@
+//script5172(5172)()(int, int)
+int iVar0
+iVar0 = ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((load_varpbit(4949) + load_varpbit(4950)) + load_varpbit(4951)) + load_varpbit(4952)) + load_varpbit(4953)) + load_varpbit(4954)) + load_varpbit(4955)) + load_varpbit(4956)) + load_varpbit(4957)) + load_varpbit(4958)) + load_varpbit(4959)) + load_varpbit(4960)) + load_varpbit(4961)) + load_varpbit(4962)) + load_varpbit(4963)) + load_varpbit(4964)) + load_varpbit(4965)) + load_varpbit(4966)) + load_varpbit(4967)) + load_varpbit(4968)) + load_varpbit(4969)) + load_varpbit(4970)) + load_varpbit(4971)) + load_varpbit(4972)) + load_varpbit(4973)) + load_varpbit(4974)) + load_varpbit(4975)) + load_varpbit(4976)) + load_varpbit(4977)) + load_varpbit(4978)) + load_varpbit(4979)) + load_varpbit(4980)) + load_varpbit(4981)) + load_varpbit(4982)) + load_varpbit(4983)) + load_varpbit(4984)) + load_varpbit(4985)) + load_varpbit(4986)) + load_varpbit(4987)) + load_varpbit(4988)) + load_varpbit(4989)) + load_varpbit(4991)) + load_varpbit(4992)) + load_varpbit(4993)) + load_varpbit(4994)) + load_varpbit(4995)) + load_varpbit(4996)) + load_varpbit(4997)) + load_varpbit(4998)) + load_varpbit(4999)) + load_varpbit(5998)) + load_varpbit(5001)) + load_varpbit(5002)) + load_varpbit(5003)) + load_varpbit(8180)) + load_varpbit(8181)) + load_varpbit(8188)) + load_varpbit(8191)) + load_varpbit(8192)) + load_varpbit(8193)) + load_varpbit(8194)) + load_varpbit(8517)) + load_varpbit(8518)) + load_varpbit(8519)) + load_varpbit(8520)) + load_varpbit(8521)) + load_varpbit(8522)) + load_varpbit(8523)) + load_varpbit(8524)) + load_varpbit(8525)) + load_varpbit(8526)) + load_varpbit(8527)) + load_varpbit(8528)) + load_varpbit(8529)) + load_varpbit(8530)) + load_varpbit(8531)) + load_varpbit(8532)) + load_varpbit(8533)) + load_varpbit(8534)) + load_varpbit(8535)) + load_varpbit(8536)) + load_varpbit(8537)) + load_varpbit(8538)) + load_varpbit(8539)) + load_varpbit(8540)) + load_varpbit(8541)) + load_varpbit(8542)) + load_varpbit(8543)) + load_varpbit(8544)) + load_varpbit(8545)) + load_varpbit(8546)) + load_varpbit(8547)) + load_varpbit(8548)) + load_varpbit(8549)) + load_varpbit(8550)) + load_varpbit(8551)) + load_varpbit(8552)) + load_varpbit(8553)) + load_varpbit(8554)) + load_varpbit(8555)) + load_varpbit(8556)) + load_varpbit(8557)) + load_varpbit(8558)) + load_varpbit(8559)) + load_varpbit(8560)) + load_varpbit(8561)) + load_varpbit(8562)) + load_varpbit(8563)) + load_varpbit(8564)) + load_varpbit(8565)) + load_varpbit(8566)) + load_varpbit(8567)) + load_varpbit(8568)) + load_varpbit(8569)) + load_varpbit(8570)) + load_varpbit(8571)) + load_varpbit(8572)) + load_varpbit(8573)) + load_varpbit(8574)) + load_varpbit(8781)) + load_varpbit(9010)) + load_varpbit(9015)) + load_varpbit(9016)) + load_varpbit(9018)) + load_varpbit(9019)) + load_varpbit(9027)
+if(load_varpbit(9011) == 3)
+	iVar0 = iVar0 + 1
+if(load_varpbit(9013) == 3)
+	iVar0 = iVar0 + 1
+if(load_varpbit(7238) == 60)
+	iVar0 = iVar0 + 1
+if(load_varp(107) == 5)
+	iVar0 = iVar0 + 1
+if(load_varpbit(5733) > 59)
+	iVar0 = iVar0 + 1
+if(load_varp(63) == 6)
+	iVar0 = iVar0 + 1
+if(load_varp(29) == 2)
+	iVar0 = iVar0 + 1
+return 133, iVar0
+return 0, 0

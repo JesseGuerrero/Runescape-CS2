@@ -1,0 +1,20 @@
+void script_1741(Widget widget0, Widget widget1, Widget widget2, Widget widget3, int arg4, int arg5, Widget widget6, Widget widget7, int arg8, int arg9, Widget widget10, int arg11) {
+	int int12;
+	int int13;
+	int int14;
+	int12 = widget1.getWidth();
+	int13 = widget1.getHeight();
+	if (int12 == arg4 && int13 == arg5) {
+		return;
+	}
+	script_1745(widget0, widget1, widget2, widget3, arg9);
+	int12, int13 = widget1.getWidth(), widget1.getHeight();
+	script_231(widget7, widget6);
+	int14 = script_1046(200, (int12 - arg8) / 2 - 54);
+	widget10.setSize(int14, 20, 0, 0);
+	if (_CHILD.setChild(widget10, arg11) == true) {
+		script_1739(int14);
+	}
+	widget0.hookFrame(&script_1740(widget0, widget1, widget2, widget3, int12, int13, widget6, widget7, arg8, arg9, widget10, arg11));
+	return;
+}

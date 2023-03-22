@@ -1,0 +1,75 @@
+//script291(291)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+if_settext(if_gethash(755, 20), instr6611(instr6671()))
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+if(arg0 == 0) {
+	if_sethide(arg1, 1)
+	if_setgraphic(if_gethash(755, 21), 773)
+	hook_mouse_press(if_gethash(755, 21), script_290, "1IIIII", 1, arg1, arg2, arg3, arg4, arg5)
+	hook_mouse_press(if_gethash(755, 20), script_290, "1IIIII", 1, arg1, arg2, arg3, arg4, arg5)
+	return
+}
+if_sethide(arg1, 0)
+if_setgraphic(if_gethash(755, 21), 788)
+hook_mouse_press(if_gethash(755, 21), script_290, "1IIIII", 0, arg1, arg2, arg3, arg4, arg5)
+hook_mouse_press(if_gethash(755, 20), script_290, "1IIIII", 0, arg1, arg2, arg3, arg4, arg5)
+globalArrays[0] = [35 + 1, 105]
+globalArrays[0][0] = 0
+iVar6 = 1
+iVar7 = 1
+iVar8 = -1
+while(iVar6 <= 35) {
+	iVar8 = enum(708, iVar6, 'i', '`')
+	if(iVar8 != -1) {
+		globalArrays[0][iVar7] = iVar6
+		iVar7 = iVar7 + 1
+	}
+	iVar6 = iVar6 + 1
+}
+script_293(0, 1, iVar7 - 1)
+cc_create(if_getnextsubid(arg2), 4, arg2)
+cc_setposition(0, 1, 0, 0)
+cc_setsize(0, 1, 20, 0)
+cc_settextfont(496)
+cc_settextalign(0, 1, 0)
+cc_setcolor(ffffff)
+instr6091(script_1356, "Iii", -2147483645, -2147483643, 11513775)
+instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+iVar8 = enum(708, globalArrays[0][0], 'i', '`')
+cc_settext(instr6611(iVar8))
+instr6088(script_294, "`IIIII", iVar8, arg1, arg2, arg3, arg4, arg5)
+script_309(iVar8, arg2, 0)
+iVar9 = cc_getheight()
+iVar10 = 0
+iVar6 = 1
+while(iVar6 < iVar7) {
+	cc_create(if_getnextsubid(arg2), 4, arg2)
+	cc_setposition(0, 1, iVar9, 0)
+	cc_setsize(0, 1, 20, 0)
+	cc_settextfont(495)
+	cc_settextalign(0, 1, 0)
+	cc_setcolor(ffffff)
+	instr6091(script_1356, "Iii", -2147483645, -2147483643, 11513775)
+	instr6092(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+	iVar8 = enum(708, globalArrays[0][iVar6], 'i', '`')
+	cc_settext(instr6611(iVar8))
+	instr6088(script_294, "`IIIII", iVar8, arg1, arg2, arg3, arg4, arg5)
+	if(iVar8 == instr6671())
+		iVar10 = iVar9
+	script_309(iVar8, arg2, iVar9)
+	iVar9 = iVar9 + cc_getheight()
+	iVar6 = iVar6 + 1
+}
+if_setscrollsize(arg2, iVar9, 0)
+iVar9 = max(20, iVar9)
+iVar9 = iVar9 + 3
+iVar9 = min(150, iVar9)
+if_setsize(arg1, 0, 0, iVar9, if_getwidth(arg1))
+script_31(arg3, arg2, 792, 789, 790, 791, 773, 788)
+script_157(arg3, arg2, iVar10, 1)
+return

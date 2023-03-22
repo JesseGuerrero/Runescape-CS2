@@ -1,0 +1,16 @@
+void script_1515(int arg0, int arg1, int arg2, Widget widget3) {
+	if (arg2 >= 25) {
+		widget3.setTrans(arg1);
+		widget3.hookFrame(null);
+		if (arg1 >= 255) {
+			widget3.setIsHidden(true);
+		} else {
+			widget3.setIsHidden(false);
+		}
+		return;
+	}
+	widget3.setIsHidden(false);
+	widget3.setTrans(arg0 + mathMethod4006(0, arg2, 0, 25, arg1 - arg0));
+	widget3.hookFrame(&script_1514(arg0, arg1, arg2 + 1, widget3));
+	return;
+}

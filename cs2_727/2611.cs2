@@ -1,0 +1,7 @@
+//script2611(2611)(int arg0, int arg1)(void)
+if(arg1 == 1) {
+	instr6764(320, 256)
+	cam_setangle(0, 383)
+}
+script_2612(movecoord(-16, 0, -16, coord()), arg0)
+return

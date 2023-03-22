@@ -1,0 +1,50 @@
+//script486(486)(int arg0)(int)
+switch(arg0) {
+	case default:
+		return -1
+
+	case 1:
+		if(load_varpbit(7510) == 0)
+			return 12200
+		else
+			return 12197
+		break
+	case 2:
+		if(load_varpbit(7510) == 0)
+			return 12205
+		else
+			return 12202
+		break
+	case 3:
+		if(load_varpbit(7510) == 0)
+			return 12210
+		else
+			return 12207
+		break
+	case 4:
+		if(load_varpbit(7510) == 0)
+			return 12215
+		else
+			return 12212
+		break
+	case 5:
+		if(load_varpbit(7510) == 0)
+			return 12219
+		else
+			return 12216
+		break
+	case 6:
+		if(load_varpbit(7510) == 0)
+			return 12223
+		else
+			return 12220
+		break
+	case 7:
+		if(load_varpbit(7510) == 0)
+			return 12227
+		else
+			return 12224
+		break
+
+}
+return -1

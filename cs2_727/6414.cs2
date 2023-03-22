@@ -1,0 +1,216 @@
+//script6414(6414)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar2 = -1
+iVar3 = -1
+iVar4 = -1
+iVar5 = -1
+iVar6 = -1
+iVar7 = -1
+iVar8 = -1
+iVar9 = -1
+switch(arg0) {
+	case default:
+		break
+	case 85721102:
+		iVar2 = 85721103
+		iVar3 = 85721150
+		iVar4 = 85721151
+		iVar5 = 85721154
+		iVar6 = 85721155
+		iVar7 = 85721156
+		iVar8 = 85721157
+		iVar9 = 85721088
+		break
+	case 85721158:
+		iVar2 = 85721159
+		iVar3 = 85721277
+		iVar4 = 85721278
+		iVar5 = 85721144
+		iVar6 = 85721145
+		iVar7 = 85721146
+		iVar8 = 85721281
+		iVar9 = 85721633
+		break
+	case 85721160:
+		iVar2 = 85721161
+		iVar3 = 85721282
+		iVar4 = 85721283
+		iVar5 = 85721286
+		iVar6 = 85721287
+		iVar7 = 85721288
+		iVar8 = 85721289
+		iVar9 = 85721635
+		break
+	case 85721162:
+		iVar2 = 85721163
+		iVar3 = 85721290
+		iVar4 = 85721291
+		iVar5 = 85721294
+		iVar6 = 85721295
+		iVar7 = 85721296
+		iVar8 = 85721297
+		iVar9 = 85721637
+		break
+	case 85721164:
+		iVar2 = 85721165
+		iVar3 = 85721298
+		iVar4 = 85721299
+		iVar5 = 85721302
+		iVar6 = 85721303
+		iVar7 = 85721304
+		iVar8 = 85721305
+		iVar9 = 85721639
+		break
+	case 85721124:
+		iVar2 = 85721125
+		iVar3 = 85721317
+		iVar4 = 85721318
+		iVar5 = 85721321
+		iVar6 = 85721322
+		iVar7 = 85721323
+		iVar8 = 85721324
+		iVar9 = 85721088
+		break
+	case 85721126:
+		iVar2 = 85721127
+		iVar3 = 85721401
+		iVar4 = 85721402
+		iVar5 = 85721405
+		iVar6 = 85721406
+		iVar7 = 85721407
+		iVar8 = 85721408
+		iVar9 = 85721633
+		break
+	case 85721128:
+		iVar2 = 85721129
+		iVar3 = 85721420
+		iVar4 = 85721421
+		iVar5 = 85721424
+		iVar6 = 85721425
+		iVar7 = 85721426
+		iVar8 = 85721427
+		iVar9 = 85721635
+		break
+	case 85721325:
+		iVar2 = 85721326
+		iVar3 = 85721341
+		iVar4 = 85721342
+		iVar5 = 85721345
+		iVar6 = 85721346
+		iVar7 = 85721347
+		iVar8 = 85721348
+		iVar9 = 85721637
+		break
+	case 85721328:
+		iVar2 = 85721329
+		iVar3 = 85721363
+		iVar4 = 85721364
+		iVar5 = 85721367
+		iVar6 = 85721368
+		iVar7 = 85721369
+		iVar8 = 85721370
+		iVar9 = 85721639
+		break
+	case 85721330:
+		iVar2 = 85721331
+		iVar3 = 85721382
+		iVar4 = 85721383
+		iVar5 = 85721386
+		iVar6 = 85721387
+		iVar7 = 85721388
+		iVar8 = 85721389
+		iVar9 = 85721641
+		break
+	case 85721107:
+		iVar2 = 85721108
+		iVar3 = 85721508
+		iVar4 = 85721509
+		iVar5 = 85721520
+		iVar6 = 85721521
+		iVar7 = 85721522
+		iVar8 = 85721523
+		iVar9 = 85721624
+		break
+	case 85721109:
+		iVar2 = 85721110
+		iVar3 = 85721534
+		iVar4 = 85721535
+		iVar5 = 85721537
+		iVar6 = 85721538
+		iVar7 = 85721539
+		iVar8 = 85721540
+		iVar9 = 85721626
+		break
+	case 85721100:
+		iVar2 = 85721101
+		iVar3 = 85721552
+		iVar4 = 85721553
+		iVar5 = 85721556
+		iVar6 = 85721557
+		iVar7 = 85721558
+		iVar8 = 85721559
+		iVar9 = 85721088
+		break
+	case 85721560:
+		iVar2 = 85721561
+		iVar3 = 85721573
+		iVar4 = 85721574
+		iVar5 = 85721577
+		iVar6 = 85721578
+		iVar7 = 85721579
+		iVar8 = 85721580
+		iVar9 = 85721633
+		break
+	case 85721581:
+		iVar2 = 85721582
+		iVar3 = 85721596
+		iVar4 = 85721597
+		iVar5 = 85721600
+		iVar6 = 85721601
+		iVar7 = 85721602
+		iVar8 = 85721603
+		iVar9 = 85721637
+		break
+	case 85721583:
+		iVar2 = 85721584
+		iVar3 = 85721615
+		iVar4 = 85721616
+		iVar5 = 85721619
+		iVar6 = 85721620
+		iVar7 = 85721621
+		iVar8 = 85721622
+		iVar9 = 85721639
+		return
+
+
+}
+if(iVar2 == -1 || iVar3 == -1 || iVar4 == -1 || iVar5 == -1 || iVar6 == -1 || iVar7 == -1 || iVar8 == -1)
+	return
+if_setcolor(iVar3, 0x5B5959)
+if_setcolor(iVar4, 0x863928)
+if_setgraphic(iVar5, 7932)
+if_setgraphic(iVar6, 7933)
+if_setgraphic(iVar7, 7934)
+if_setcolor(iVar8, 0x5B5959)
+if_sethide(iVar2, 0)
+if(arg0 != 85721107)
+	if(arg0 != 85721109)
+		if(arg1 == 1)
+			if(arg0 == 85721560 || arg0 == 85721583)
+				if_settext(iVar4, "Already owned")
+			else
+				if_settext(iVar4, "Already learned")
+	else {
+		if_settext(if_gethash(1308, 420), "Cancel current task.")
+		if_settext(if_gethash(1308, 446), "Never assign task again.")
+	}
+if(iVar9 != -1)
+	script_41(iVar9)
+return

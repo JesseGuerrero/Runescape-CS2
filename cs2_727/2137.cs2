@@ -1,0 +1,4 @@
+//script2137(2137)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(void)
+if(cc_find(arg6, arg5) == 1)
+	cc_setmodelangle(cc_getspritescale(), (cc_getspriteyaw() + arg2) & 2047, (cc_getspriteroll() + arg1) & 2047, (cc_getspritepitch() + arg0) & 2047, arg4, arg3)
+return

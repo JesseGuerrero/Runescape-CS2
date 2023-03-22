@@ -1,0 +1,9 @@
+//script1136(1136)(int arg0)(void)
+if(world_members() == 1)
+	if(item_param(687, inv_getitem(3, 94)) != 0) {
+		if_sethide(arg0, 0)
+		return
+	}
+if_sethide(arg0, 1)
+script_41(57933838)
+return

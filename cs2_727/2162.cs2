@@ -1,0 +1,267 @@
+//script2162(2162)(int arg0, int arg1, int arg2, int arg3, int arg4)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+int iVar23
+int iVar24
+int iVar25
+int iVar26
+int iVar27
+string sVar0
+string sVar1
+if(arg1 == -1 || arg2 == -1 || arg3 == -1 || arg4 == -1)
+	return
+globalArrays[0] = [load_varc(273) + 1, 105]
+globalArrays[1] = [load_varc(273) + 1, 105]
+iVar5 = enum(169, arg0, 'i', 'J')
+if(iVar5 == -1)
+	return
+iVar6 = struct_param(61, iVar5)
+iVar7 = struct_param(152, iVar5)
+iVar8 = struct_param(153, iVar5)
+iVar9 = struct_param(670, iVar5)
+store_varc(698, script_1432())
+iVar10 = 0
+iVar11 = 0
+iVar12 = 1
+iVar13 = 0
+iVar14 = 1
+iVar15 = enum(struct_param(673, iVar5), arg1, 'i', 'g')
+iVar16 = enum(struct_param(676, iVar5), arg1, 'i', 'g')
+iVar17 = enum(struct_param(675, iVar5), arg1, 'i', 'g')
+if(iVar17 == -1)
+	iVar17 = 223
+if(iVar15 == -1)
+	return
+iVar18 = enum_getoutputcount(iVar15)
+iVar19 = if_getscrolly(iVar7)
+iVar20 = if_getscrollheight(iVar7)
+iVar21 = 0
+iVar22 = 0
+sVar0 = ""
+script_2164(arg0)
+while(iVar10 <= load_varc(273)) {
+	globalArrays[0][iVar10] = iVar10
+	iVar10 = iVar10 + 1
+}
+iVar10 = 0
+script_2163(0, iVar6, 0, load_varc(273))
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		while(iVar10 <= load_varc(273)) {
+			globalArrays[1][iVar10] = script_2193(globalArrays[0][iVar10])
+			iVar10 = iVar10 + 1
+		}
+		break
+	case 3:
+		while(iVar10 <= load_varc(273)) {
+			globalArrays[1][iVar10] = 0
+			iVar10 = iVar10 + 1
+		}
+		break
+
+}
+iVar10 = 0
+iVar23 = 0
+if(arg2 == 1)
+	iVar23 = iVar18 - 1
+iVar24 = 5
+iVar25 = 0
+iVar26 = -1
+if(arg0 == 1)
+	iVar26 = load_varpbit(6913)
+else
+	if(struct_param(693, iVar5) > 0)
+		iVar26 = load_varpbit(697) - (1000 * (struct_param(693, iVar5) - 1))
+	else
+		iVar26 = load_varpbit(697) - (1000 * (arg0 - 1))
+iVar27 = -1
+if(arg2 == 0)
+	while(iVar23 < iVar18 || arg2 == 1 || iVar23 >= 0) {
+		iVar21 = enum(iVar17, iVar23, 'i', 'i')
+		if(cc_find((load_varc(273) + iVar23) + 1, iVar7) == 1) {
+			cc_setposition(0, 0, iVar24, 0)
+			sVar0 = enum(iVar15, iVar21, 'i', 's')
+			cc_settext(sVar0)
+			cc_sethide(0)
+			iVar24 = iVar24 + cc_getheight()
+		}
+		iVar13 = 0
+		while(iVar11 < load_varc(272)) {
+			iVar27 = enum(iVar6, globalArrays[0][iVar10], 'i', 'J')
+			if(iVar27 != -1) {
+				iVar11 = iVar11 + 1
+				switch(arg1) {
+					case default:
+						break
+					case 0:
+						iVar22 = struct_param(856, iVar27)
+						if(iVar22 == 4)
+							if(load_varp(281) == 1000)
+								iVar22 = 0
+						break
+					case 1:
+						switch(arg0) {
+							case default:
+								break
+							case 1:
+								iVar22 = globalArrays[1][iVar10]
+								break
+							case 3:
+								iVar22 = struct_param(677, iVar27)
+								break
+
+						}
+						break
+					case 2:
+						switch(arg0) {
+							case default:
+								break
+							case 1:
+								iVar22 = struct_param(848, iVar27)
+								break
+							case 3:
+								iVar22 = struct_param(678, iVar27)
+								break
+
+						}
+						break
+
+				}
+				if(iVar22 != iVar21)
+					iVar14 = 0
+				if(iVar14 == 1)
+					if(arg3 == 0)
+						if(globalArrays[1][iVar10] == 0) {
+							iVar12 = script_2149(iVar27)
+							if(iVar12 == 0)
+								iVar14 = 0
+						}
+				if(iVar14 == 1)
+					if(arg4 == 1)
+						if(globalArrays[1][iVar10] == 2)
+							iVar14 = 0
+				if(iVar14 == 1)
+					if(cc_find(globalArrays[0][iVar10], iVar7) == 1) {
+						cc_setposition(0, 0, iVar24, 10)
+						cc_sethide(0)
+						if(struct_param(694, iVar27) == 1)
+							if(globalArrays[1][iVar10] == 0) {
+								cc_setop("View Quest Overview", 1)
+								cc_setop("View Quest Journal", 2)
+								cc_setop("Toggle Map Hint", 3)
+							} else 
+								if(globalArrays[1][iVar10] == 1) {
+									cc_setop("View Quest Journal", 1)
+									cc_setop("View Quest Overview", 2)
+									cc_setop("Toggle Map Hints", 3)
+								} else  {
+									cc_setop("View Quest Journal", 1)
+									cc_setop("View Quest Overview", 2)
+									cc_setop("", 3)
+								}
+						else {
+							cc_setop("View Quest Journal", 1)
+							cc_setop("", 3)
+							if(globalArrays[1][iVar10] == 0)
+								cc_setop("Toggle Map Hint", 2)
+							else
+								cc_setop("", 2)
+						}
+						instr6091(script_1356, "Iii", -2147483645, -2147483643, 16777215)
+						if(globalArrays[0][iVar10] == iVar26) {
+							cc_setcolor(ffff)
+							instr6092(script_1949, "IiiI", -2147483645, -2147483643, 65535, iVar9)
+						} else 
+							if(globalArrays[1][iVar10] == 0) {
+								cc_setcolor(ff0000)
+								instr6092(script_1949, "IiiI", -2147483645, -2147483643, 16711680, iVar9)
+							} else 
+								if(globalArrays[1][iVar10] == 1) {
+									cc_setcolor(ffff00)
+									instr6092(script_1949, "IiiI", -2147483645, -2147483643, 16776960, iVar9)
+								} else  {
+									cc_setcolor(ff00)
+									instr6092(script_1949, "IiiI", -2147483645, -2147483643, 65280, iVar9)
+								}
+						iVar24 = iVar24 + cc_getheight()
+						iVar13 = iVar13 + 1
+						if(enum(iVar16, iVar21, 'i', 'i') == 1)
+							if(compare("", struct_param(857, iVar27)) != 0)
+								if(cc_find((load_varc(273) + iVar23) + 1, iVar7) == 1)
+									cc_settext(struct_param(857, iVar27))
+						iVar25 = iVar25 + 1
+					}
+				iVar14 = 1
+			}
+			iVar10 = iVar10 + 1
+		}
+		if(iVar13 != 0)
+			iVar24 = iVar24 + 10
+		else {
+			if(cc_find((load_varc(273) + iVar23) + 1, iVar7) == 1) {
+				cc_settext("")
+				cc_sethide(1)
+			}
+			iVar24 = iVar24 - 20
+		}
+		iVar10 = 0
+		iVar11 = 0
+		if(arg2 == 0)
+			iVar23 = iVar23 + 1
+		else
+			iVar23 = iVar23 - 1
+	}
+sVar1 = ""
+if(arg0 == 1) {
+	if(iVar25 == load_varc(272))
+		sVar1 = "Showing all " + to_string(load_varc(272)) + " items"
+	else
+		sVar1 = "Showing " + to_string(iVar25) + " of " + to_string(load_varc(272)) + " items"
+	if_settext(if_gethash(190, 12), sVar1)
+}
+if(load_varc(695) == 1 || iVar20 != iVar24 + 5 || arg2 == 1 || load_varc(694) == 0 || arg2 == 0 || load_varc(694) == 1) {
+	if_setscrollsize(iVar7, iVar24 + 5, if_getwidth(iVar7))
+	iVar20 = iVar24
+	if_setscrollpos(iVar7, 0, 0)
+	script_31(iVar8, iVar7, 5666, 5663, 5664, 5665, 5686, 5685)
+} else 
+	if_setscrollpos(iVar7, iVar19, 0)
+if(arg0 == 1) {
+	store_varc(692, arg3)
+	store_varc(1103, arg4)
+	store_varc(694, arg2)
+	if(load_varc(692) == 1) {
+		if_sethide(if_gethash(190, 4), 1)
+		if_sethide(if_gethash(190, 5), 0)
+	} else  {
+		if_sethide(if_gethash(190, 4), 0)
+		if_sethide(if_gethash(190, 5), 1)
+	}
+	if(load_varc(1103) == 0) {
+		if_sethide(if_gethash(190, 8), 1)
+		if_sethide(if_gethash(190, 9), 0)
+	} else  {
+		if_sethide(if_gethash(190, 8), 0)
+		if_sethide(if_gethash(190, 9), 1)
+	}
+}
+store_varc(695, 0)
+return

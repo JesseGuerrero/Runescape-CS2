@@ -1,0 +1,55 @@
+//script4356(4356)(int arg0)(void)
+switch(load_varp(2128)) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(9141) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+	case 2:
+		if(load_varpbit(9142) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+	case 3:
+		if(load_varpbit(9143) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+	case 4:
+		if(load_varpbit(9144) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+	case 5:
+		if(load_varpbit(9145) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+	case 6:
+		if(load_varpbit(9146) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+	case 7:
+		if(load_varpbit(9147) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+	case 8:
+		if(load_varpbit(9148) == 0)
+			if_setgraphic(arg0, 5920)
+		else
+			if_setgraphic(arg0, 5916)
+		break
+
+}
+return

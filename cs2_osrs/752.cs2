@@ -1,0 +1,117 @@
+void script_752(int arg0, DataMap datamap1) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	int int10;
+	int int11;
+	int int12;
+	int int13;
+	int int14;
+	int int15;
+	int int16;
+	int int17;
+	int int18;
+	Item item19;
+	VARC[66] = 0;
+	widget(162, 38).clearChildren();
+	int2 = widget(162, 38).getWidth();
+	int3 = widget(162, 38).getHeight();
+	if (length(STRING[22]) <= 0) {
+		script_753(int2, int3, "Start typing the name of an item to search for it.");
+		return;
+	}
+	int4 = searchItem(STRING[22], arg0);
+	if (int4 < 0) {
+		script_753(int2, int3, "Too many matches found. Please refine your search.");
+		return;
+	}
+	if (int4 == 0) {
+		script_753(int2, int3, "No matches found.");
+		return;
+	}
+	int5 = int2 / 3;
+	int6 = 0;
+	int7 = int2 - int5;
+	int8 = int7 - int5;
+	int9 = int8 - int5;
+	int10 = int5 - 40;
+	int11 = int7 + 40;
+	int12 = int8 + 40;
+	int13 = int9 + 40;
+	int14 = 0;
+	int15 = 0;
+	int16 = 0;
+	int17 = 0;
+	int18 = 0;
+	item19 = nextSearchResult();
+	while (item19 != null) {
+		if (datamap1 == null || datamap('o', '1', datamap1, item19) == true) {
+			int14 = int18 % 3;
+			if (int14 == 0) {
+				int15, int16 = int9, int13;
+			} else if (int14 == 1) {
+				int15, int16 = int8, int12;
+			} else {
+				int15, int16 = int7, int11;
+			}
+			CHILD.createChild(widget(162, 38), 3, int6);
+			if (int6 == 0) {
+				CHILD.hookKey(&script_754(item19, KEY_TYPED));
+			}
+			int6 = int6 + 1;
+			CHILD.setSize(int5, 32, 0, 0);
+			CHILD.setPosition(int15, int17, 0, 0);
+			CHILD.setRGB(0xFFFFFF);
+			CHILD.setFilled(true);
+			CHILD.setTrans(255);
+			CHILD.hookMouseEnter(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 200, null));
+			CHILD.hookMouseExit(&script_244(CTX_WIDGET, CTX_WIDGET_CHILD, 255, null));
+			CHILD.hookMousePress(&script_754(item19, 84));
+			CHILD.createChild(widget(162, 38), 4, int6);
+			int6 = int6 + 1;
+			CHILD.setSize(int10, 32, 0, 0);
+			CHILD.setPosition(int16, int17, 0, 0);
+			CHILD.setFont(495);
+			CHILD.setTextAntiMacro(false);
+			CHILD.setTextAlignment(0, 1, 0);
+			CHILD.setRGB(0x000000);
+			CHILD.setText(getItemName(item19));
+			CHILD.createChild(widget(162, 38), 5, int6);
+			int6 = int6 + 1;
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(int15, int17, 0, 0);
+			CHILD.setOutlineThickness(1);
+			CHILD.setShadowColor(0x555555);
+			if (itemIsStackable(item19) == true) {
+				CHILD.setItemNoNum(item19, 100);
+			} else {
+				CHILD.setItemNoNum(item19, 1);
+			}
+			int18 = int18 + 1;
+			if (int14 >= 2) {
+				int17 = int17 + 32;
+			}
+		}
+		item19 = nextSearchResult();
+	}
+	if (int18 <= 0) {
+		script_753(int2, int3, "No matches found.");
+		return;
+	}
+	if (int14 < 2) {
+		int17 = int17 + 32;
+	}
+	if (int17 > int3) {
+		widget(162, 38).setScrollMax(0, int17);
+	} else {
+		widget(162, 38).setScrollPos(0, 0);
+		widget(162, 38).setScrollMax(0, 0);
+	}
+	script_72(widget(162, 39), widget(162, 38), getScrollY(widget(162, 38)));
+	return;
+}

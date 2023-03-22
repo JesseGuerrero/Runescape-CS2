@@ -1,0 +1,23 @@
+void script_757(Widget widget0, int arg1) {
+	int int2;
+	int int3;
+	int int4;
+	int2 = 0;
+	int3 = 0;
+	int4 = 0;
+	if (CHILD.setChild(widget0) == true) {
+		int3 = getClientCycle();
+		int4 = int3 - arg1;
+		if (int4 >= 750) {
+			CHILD.setTrans(255);
+			CHILD.hookFrame(null);
+			return;
+		}
+		if (int3 % 40 >= 20) {
+			CHILD.setTrans(255);
+			return;
+		}
+		CHILD.setTrans(mathMethod4006(0, int4, 0, 750, 255));
+	}
+	return;
+}

@@ -1,0 +1,17 @@
+//script3275(3275)()(int)
+if(load_varc(1196) == 1)
+	switch(load_varc(1188)) {
+		case default:
+			break
+		case 3:
+			return 9500
+
+		case 2:
+			return 9500
+			return 9500
+
+
+	}
+else
+	return 10000
+return 0

@@ -1,0 +1,12 @@
+//script975(975)(int arg0, int arg1)(int)
+cc_setposition(0, 0, arg0, 50)
+cc_settextalign(16, 0, 0)
+cc_setcolor(46320a)
+cc_settextfont(495)
+cc_settextshadow(0)
+if(arg1 * 16 < 32)
+	arg0 = arg0 + 32
+else
+	arg0 = arg0 + ((arg1 * 16) + 5)
+return arg0
+return 0

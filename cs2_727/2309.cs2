@@ -1,0 +1,6 @@
+//script2309(2309)(int arg0, int arg1)(void)
+if(instr6644() >= 2)
+	if_setgraphic(arg0, 8625)
+else
+	if_setgraphic(arg0, 1206)
+return

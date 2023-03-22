@@ -1,0 +1,7 @@
+void script_1626() {
+	CHILD.setModel(16238);
+	CHILD.setSize(1, 1, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setAnimation(null);
+	return;
+}

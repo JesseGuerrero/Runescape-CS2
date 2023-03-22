@@ -1,0 +1,8 @@
+void script_1578(Widget widget0) {
+	int int1;
+	int int2;
+	int1 = VARPBIT[457] + VARPBIT[458] + VARPBIT[459] + VARPBIT[460] + VARPBIT[461] + VARPBIT[462];
+	int2 = VARPBIT[463] + int1 * 2;
+	widget0.setText("Rewards potential: " + mathMethod4006(0, 100, 0, 1012, int2) + "%");
+	return;
+}

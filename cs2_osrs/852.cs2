@@ -1,0 +1,10 @@
+void script_852(Widget widget0, Widget widget1, int arg2) {
+	widget0.hookMouseExit(&script_40(widget(arg2)));
+	widget0.setContextMenuOption(1, "Transparent Chatbox");
+	widget1.setContextMenuOption(1, "Click through chatbox");
+	script_120(widget1, "Transparent chatbox...", "Can be clicked through.", "In resizable mode, if the chatbox is transparent, should it be possible to click through the chatbox on the ground beneath?", arg2);
+	script_855(widget0, widget1, arg2);
+	widget0.hookVARP(&script_853(widget0, widget1, widget(arg2)), 1055);
+	widget0.hookOptionClick(&script_854(CTX_MENU_OPTION, false, widget0, widget1, widget(arg2)));
+	return;
+}

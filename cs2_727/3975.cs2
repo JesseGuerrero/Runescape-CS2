@@ -1,0 +1,36 @@
+//script3975(3975)()(void)
+int iVar0
+script_41(69206174)
+iVar0 = -1
+if_sethide(if_gethash(1056, 60), 1)
+if_sethide(if_gethash(1056, 138), 1)
+if_sethide(if_gethash(1056, 143), 1)
+if_sethide(if_gethash(1056, 148), 1)
+if_sethide(if_gethash(1056, 153), 1)
+if_sethide(if_gethash(1056, 159), 1)
+switch(load_varpbit(8577)) {
+	case default:
+		break
+	case 1:
+		iVar0 = 69206076
+		break
+	case 2:
+		iVar0 = 69206154
+		break
+	case 3:
+		iVar0 = 69206159
+		break
+	case 4:
+		iVar0 = 69206164
+		break
+	case 5:
+		iVar0 = 69206169
+		break
+	case 6:
+		iVar0 = 69206175
+		break
+
+}
+if(iVar0 != -1)
+	if_sethide(iVar0, 0)
+return

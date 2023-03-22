@@ -1,0 +1,11 @@
+//script4391(4391)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = -1
+iVar2 = -1
+if(activeclansettings_find_affined() == 1) {
+	iVar1 = script_4383(load_varpbit(9086), load_varpbit(9087), 0).get(0)
+	if_retexture(arg0, iVar1, 1024, 0)
+	if_retexture(arg0, iVar2, 1057, 1)
+}
+return

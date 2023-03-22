@@ -1,0 +1,9 @@
+void script_742(string string0) {
+	widget(66, 88).setIsHidden(false);
+	widget(66, 91).setIsHidden(true);
+	widget(66, 84).setText("The relevant Old School bonds will be taken from your account." + "<br>" + "Click the 'Confirm' button to continue.");
+	widget(66, 92).setText("Confirm");
+	widget(66, 92).setRGB(0xFFFFFF);
+	widget(66, 88).setOptionBase(string0);
+	return;
+}

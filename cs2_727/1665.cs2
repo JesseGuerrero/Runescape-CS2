@@ -1,0 +1,26 @@
+//script1665(1665)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+iVar4 = script_1329()
+iVar5 = script_1248() - iVar4
+iVar6 = load_varc(1038)
+iVar7 = load_varc(192) - iVar6
+iVar8 = (iVar4 - iVar6) * -1
+iVar9 = iVar7 - (713 - 1)
+if(iVar9 > 0) {
+	iVar6 = iVar6 + iVar9
+	iVar7 = 713 - 1
+} else 
+	if(iVar8 > 0) {
+		iVar7 = iVar7 + iVar8
+		iVar6 = iVar4
+	}
+if_settext(arg0, to_string(iVar6))
+if_settext(arg2, to_string(iVar7))
+if_settext(arg1, to_string(iVar4))
+if_settext(arg3, to_string(iVar5))
+return

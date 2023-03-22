@@ -1,0 +1,43 @@
+//script1463(1463)(int arg0)(void)
+if_setgraphic(if_gethash(762, 64), 1421)
+if_setgraphic(if_gethash(762, 62), 1421)
+if_setgraphic(if_gethash(762, 60), 1421)
+if_setgraphic(if_gethash(762, 58), 1421)
+if_setgraphic(if_gethash(762, 56), 1421)
+if_setgraphic(if_gethash(762, 54), 1421)
+if_setgraphic(if_gethash(762, 52), 1421)
+if_setgraphic(if_gethash(762, 50), 1421)
+if_setgraphic(if_gethash(762, 48), 1421)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(762, 64), 1419)
+		break
+	case 2:
+		if_setgraphic(if_gethash(762, 62), 1419)
+		break
+	case 3:
+		if_setgraphic(if_gethash(762, 60), 1419)
+		break
+	case 4:
+		if_setgraphic(if_gethash(762, 58), 1419)
+		break
+	case 5:
+		if_setgraphic(if_gethash(762, 56), 1419)
+		break
+	case 6:
+		if_setgraphic(if_gethash(762, 54), 1419)
+		break
+	case 7:
+		if_setgraphic(if_gethash(762, 52), 1419)
+		break
+	case 8:
+		if_setgraphic(if_gethash(762, 50), 1419)
+		break
+	case 9:
+		if_setgraphic(if_gethash(762, 48), 1419)
+		break
+
+}
+return

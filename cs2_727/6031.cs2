@@ -1,0 +1,19 @@
+//script6031(6031)(int arg0)(int, int)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		return 5, 16
+
+	case 2:
+		return 5, 100
+
+	case 3:
+		return 58, 16
+
+	case 4:
+		return 58, 100
+
+
+}
+return 0, 0

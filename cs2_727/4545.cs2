@@ -1,0 +1,29 @@
+//script4545(4545)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if(arg2 == 0 || arg2 == 1)
+	if(if_getwidth(arg0) + arg5 >= arg1) {
+		if_setsize(arg0, 0, 0, if_getheight(arg0), arg1)
+		if(arg4 != -1)
+			if_setgraphic(arg3, arg4)
+		instr6342(arg0, None, "")
+		return
+	}
+if(arg2 == 2 || arg2 == 3)
+	if(if_getheight(arg0) + arg5 >= arg1) {
+		if_setsize(arg0, 0, 0, arg1, if_getwidth(arg0))
+		if(arg4 != -1)
+			if_setgraphic(arg3, arg4)
+		instr6342(arg0, None, "")
+		return
+	}
+switch(arg2) {
+	case default:
+		break
+	case 1:
+		if_setsize(arg0, 0, 0, if_getheight(arg0), if_getwidth(arg0) + arg5)
+		break
+	case 3:
+		if_setsize(arg0, 0, 0, if_getheight(arg0) + arg5, if_getwidth(arg0))
+		break
+
+}
+return

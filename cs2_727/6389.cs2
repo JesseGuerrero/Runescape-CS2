@@ -1,0 +1,152 @@
+//script6389(6389)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+if(load_varpbit(11465) < 18) {
+	iVar4 = iVar4 + item_param(2525, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar5 = iVar5 + item_param(2530, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar6 = iVar6 + item_param(2529, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar7 = iVar7 + item_param(2528, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar8 = iVar8 + item_param(2527, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar9 = iVar9 + item_param(2526, enum(5933, load_varpbit(11465), 'i', 'o'))
+}
+if(load_varpbit(11466) < 18) {
+	iVar4 = iVar4 + item_param(2525, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar5 = iVar5 + item_param(2530, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar6 = iVar6 + item_param(2529, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar7 = iVar7 + item_param(2528, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar8 = iVar8 + item_param(2527, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar9 = iVar9 + item_param(2526, enum(5933, load_varpbit(11466), 'i', 'o'))
+}
+if(load_varpbit(11467) < 18) {
+	iVar4 = iVar4 + item_param(2525, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar5 = iVar5 + item_param(2530, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar6 = iVar6 + item_param(2529, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar7 = iVar7 + item_param(2528, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar8 = iVar8 + item_param(2527, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar9 = iVar9 + item_param(2526, enum(5933, load_varpbit(11467), 'i', 'o'))
+}
+if(load_varpbit(11468) < 18) {
+	iVar4 = iVar4 + item_param(2525, enum(5933, load_varpbit(11468), 'i', 'o'))
+	iVar5 = iVar5 + item_param(2530, enum(5933, load_varpbit(11468), 'i', 'o'))
+	iVar6 = iVar6 + item_param(2529, enum(5933, load_varpbit(11468), 'i', 'o'))
+	iVar7 = iVar7 + item_param(2528, enum(5933, load_varpbit(11468), 'i', 'o'))
+	iVar8 = iVar8 + item_param(2527, enum(5933, load_varpbit(11468), 'i', 'o'))
+	iVar9 = iVar9 + item_param(2526, enum(5933, load_varpbit(11468), 'i', 'o'))
+}
+cc_deleteall(if_gethash(396, 13))
+iVar10 = 392
+iVar11 = 342
+iVar12 = 200
+cc_create(0, 9, 25952269)
+cc_setsize(0, 0, (iVar4 * iVar10) / 100, 0)
+cc_setposition(1, 1, (0 - ((iVar4 * iVar10) / 100)) / 2, 0)
+cc_setcolor(4f9900)
+cc_setlinewidth(4)
+cc_setlinedirection(0)
+cc_create(1, 9, 25952269)
+cc_setsize(0, 0, (iVar7 * iVar10) / 100, 0)
+cc_setposition(1, 1, ((iVar7 * iVar10) / 100) / 2, 0)
+cc_setcolor(4f9900)
+cc_setlinewidth(4)
+cc_setlinedirection(0)
+cc_create(2, 9, 25952269)
+cc_setsize(0, 0, (iVar5 * iVar12) / 100, (iVar5 * iVar11) / 100)
+cc_setposition(1, 1, 0 - (((iVar5 * iVar12) / 100) / 2), ((iVar5 * iVar11) / 100) / 2)
+cc_setcolor(4f9900)
+cc_setlinewidth(3)
+cc_setlinedirection(1)
+cc_create(3, 9, 25952269)
+cc_setsize(0, 0, (iVar6 * iVar12) / 100, (iVar6 * iVar11) / 100)
+cc_setposition(1, 1, ((iVar6 * iVar12) / 100) / 2, ((iVar6 * iVar11) / 100) / 2)
+cc_setcolor(4f9900)
+cc_setlinewidth(3)
+cc_setlinedirection(0)
+cc_create(4, 9, 25952269)
+cc_setsize(0, 0, (iVar8 * iVar12) / 100, (iVar8 * iVar11) / 100)
+cc_setposition(1, 1, ((iVar8 * iVar12) / 100) / 2, 0 - (((iVar8 * iVar11) / 100) / 2))
+cc_setcolor(4f9900)
+cc_setlinewidth(3)
+cc_setlinedirection(1)
+cc_create(5, 9, 25952269)
+cc_setsize(0, 0, (iVar9 * iVar12) / 100, (iVar9 * iVar11) / 100)
+cc_setposition(1, 1, 0 - (((iVar9 * iVar12) / 100) / 2), 0 - (((iVar9 * iVar11) / 100) / 2))
+cc_setcolor(4f9900)
+cc_setlinewidth(3)
+cc_setlinedirection(0)
+cc_create(6, 5, 25952269)
+cc_setposition(1, 1, 0 - ((iVar4 * iVar10) / 100), 0)
+cc_setsize(0, 0, 13, 13)
+cc_setgraphic(11626)
+cc_create(7, 5, 25952269)
+cc_setposition(1, 1, (iVar7 * iVar10) / 100, 0)
+cc_setsize(0, 0, 13, 13)
+cc_setgraphic(11626)
+cc_create(8, 5, 25952269)
+cc_setposition(1, 1, 0 - ((iVar5 * iVar12) / 100), (iVar5 * iVar11) / 100)
+cc_setsize(0, 0, 13, 13)
+cc_setgraphic(11626)
+cc_create(9, 5, 25952269)
+cc_setposition(1, 1, (iVar6 * iVar12) / 100, (iVar6 * iVar11) / 100)
+cc_setsize(0, 0, 13, 13)
+cc_setgraphic(11626)
+cc_create(10, 5, 25952269)
+cc_setposition(1, 1, (iVar8 * iVar12) / 100, 0 - ((iVar8 * iVar11) / 100))
+cc_setsize(0, 0, 13, 13)
+cc_setgraphic(11626)
+cc_create(11, 5, 25952269)
+cc_setposition(1, 1, 0 - ((iVar9 * iVar12) / 100), 0 - ((iVar9 * iVar11) / 100))
+cc_setsize(0, 0, 13, 13)
+cc_setgraphic(11626)
+iVar13 = 0
+if(load_varpbit(11457) == 0 || load_varpbit(11458) == 0 || load_varpbit(11459) == 0) {
+	iVar13 = iVar13 + item_param(2525, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2525, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2525, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2525, enum(5933, load_varpbit(11468), 'i', 'o'))
+}
+if(load_varpbit(11457) == 1 || load_varpbit(11458) == 1 || load_varpbit(11459) == 1) {
+	iVar13 = iVar13 + item_param(2526, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2526, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2526, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2526, enum(5933, load_varpbit(11468), 'i', 'o'))
+}
+if(load_varpbit(11457) == 2 || load_varpbit(11458) == 2 || load_varpbit(11459) == 2) {
+	iVar13 = iVar13 + item_param(2527, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2527, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2527, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2527, enum(5933, load_varpbit(11468), 'i', 'o'))
+}
+if(load_varpbit(11457) == 3 || load_varpbit(11458) == 3 || load_varpbit(11459) == 3) {
+	iVar13 = iVar13 + item_param(2528, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2528, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2528, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2528, enum(5933, load_varpbit(11468), 'i', 'o'))
+}
+if(load_varpbit(11457) == 4 || load_varpbit(11458) == 4 || load_varpbit(11459) == 4) {
+	iVar13 = iVar13 + item_param(2529, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2529, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2529, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2529, enum(5933, load_varpbit(11468), 'i', 'o'))
+}
+if(load_varpbit(11457) == 5 || load_varpbit(11458) == 5 || load_varpbit(11459) == 5) {
+	iVar13 = iVar13 + item_param(2530, enum(5933, load_varpbit(11465), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2530, enum(5933, load_varpbit(11466), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2530, enum(5933, load_varpbit(11467), 'i', 'o'))
+	iVar13 = iVar13 + item_param(2530, enum(5933, load_varpbit(11468), 'i', 'o'))
+}
+if_settext(if_gethash(396, 12), to_string(iVar13))
+return

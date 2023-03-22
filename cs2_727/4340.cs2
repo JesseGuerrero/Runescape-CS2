@@ -1,0 +1,26 @@
+//script4340(4340)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+string sVar1
+iVar4 = (arg0 / 60) / 24
+iVar5 = arg0 - ((iVar4 * 24) * 60)
+iVar6 = iVar5 / 60
+iVar7 = modulo(60, iVar5)
+sVar0 = ""
+if(iVar6 < 10)
+	sVar0 = "0" + to_string(iVar6)
+else
+	sVar0 = to_string(iVar6)
+sVar1 = ""
+if(iVar7 < 10)
+	sVar1 = "0" + to_string(iVar7)
+else
+	sVar1 = to_string(iVar7)
+if_settext(arg2, sVar0 + ":" + sVar1)
+instr6342(arg2, script_4342, "iiiII", iVar6, iVar7, arg1, arg2, arg3)
+sVar0 = script_4341(arg1, iVar6, iVar7).get(0)
+if_settext(arg3, sVar0 + ":" + sVar1)
+return

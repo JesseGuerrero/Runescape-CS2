@@ -1,0 +1,11 @@
+//script4345(4345)(int arg0, int arg1)(string)
+int iVar2
+iVar2 = -1
+if(arg0 > 0)
+	if(arg1 > 0) {
+		iVar2 = enum(3703, arg0, 'i', 'g')
+		if(iVar2 != -1)
+			return enum(iVar2, arg1, 'i', 's')
+	}
+return ""
+return ""

@@ -1,0 +1,89 @@
+int, int script_506(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, Widget widget9, int arg10, int arg11, int arg12, int arg13, int arg14, int arg15, int arg16, int arg17, int arg18, int arg19, int arg20) {
+	Item item21;
+	int int22;
+	string str0;
+	item21 = null;
+	str0 = "";
+	int22 = 0;
+	if (_CHILD.setChild(widget9, arg13) == true) {
+		if (arg13 == 0) {
+			CHILD.createChild(widget9, 5, arg13 + 9 + 1);
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(arg13 * 40 + arg17 + arg18, arg19, 0, 0);
+			CHILD.setSprite(1081);
+			CHILD.setTrans(20);
+			CHILD.setContextMenuOption(1, "View all items");
+			CHILD.setContextMenuOption(7, "Remove placeholders");
+			CHILD.hookOptionClick(&script_504(widget(arg0), widget(arg1), widget(arg2), widget(arg3), widget(arg4), widget(arg5), widget(arg6), widget(arg7), widget(arg8), widget9, widget(arg10), widget(arg11), widget(arg12), CTX_MENU_OPTION, arg13));
+			script_508(arg13);
+		} else if (arg14 > 0) {
+			if (VARPBIT[4170] == 1) {
+				str0 = str(arg13);
+				CHILD.createChild(widget9, 4, arg13 + 9 + 1);
+				CHILD.setSize(41, 40, 0, 0);
+				CHILD.setPosition(arg13 * 40 + arg17, 0, 0, 0);
+				CHILD.setTextAlignment(1, 1, 0);
+				CHILD.setFont(645);
+				CHILD.setTextAntiMacro(true);
+				CHILD.setRGB(0xE4D8A2);
+				CHILD.setText(str0);
+				CHILD.hookDragRelease(&script_511(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET, DRAG_WIDGET_CHILD, arg20));
+				script_507(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, widget9, arg10, arg11, arg12, arg13);
+				script_508(arg13);
+			} else if (VARPBIT[4170] == 2) {
+				str0 = datamap('i', 's', 207, arg13);
+				CHILD.createChild(widget9, 4, arg13 + 9 + 1);
+				CHILD.setSize(41, 35, 0, 0);
+				CHILD.setPosition(arg13 * 40 + arg17, 0, 0, 0);
+				CHILD.setTextAlignment(1, 1, 0);
+				CHILD.setFont(764);
+				CHILD.setTextAntiMacro(true);
+				CHILD.setRGB(0xE4D8A2);
+				CHILD.setText(str0);
+				CHILD.hookDragRelease(&script_511(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET, DRAG_WIDGET_CHILD, arg20));
+				script_507(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, widget9, arg10, arg11, arg12, arg13);
+				script_508(arg13);
+			} else {
+				item21 = getItemIdInSlot(95, arg15);
+				CHILD.createChild(widget9, 5, arg13 + 9 + 1);
+				CHILD.setSize(36, 32, 0, 0);
+				CHILD.setPosition(arg13 * 40 + arg17 + arg18 + 1, arg19, 0, 0);
+				CHILD.setShadowColor(0x333333);
+				CHILD.setOutlineThickness(1);
+				if (item21 != null) {
+					CHILD.setItemNoNum(item21, getItemAmtInSlot(95, arg15));
+					if ((Item)m4209(item21) != item21) {
+						CHILD.setTrans(120);
+						CHILD.hookDragRelease(&script_512(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET, DRAG_WIDGET_CHILD, arg20, 120));
+					} else {
+						CHILD.setTrans(0);
+						CHILD.hookDragRelease(&script_512(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET, DRAG_WIDGET_CHILD, arg20, 0));
+					}
+				} else {
+					CHILD.setItemNoNum(6512, 1);
+					CHILD.setTrans(0);
+					CHILD.hookDragRelease(&script_512(CTX_WIDGET, CTX_WIDGET_CHILD, DRAG_WIDGET, DRAG_WIDGET_CHILD, arg20, 0));
+				}
+				script_507(arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, widget9, arg10, arg11, arg12, arg13);
+				script_508(arg13);
+			}
+		} else if (arg16 == 0) {
+			CHILD.createChild(widget9, 5, arg13 + 9 + 1);
+			CHILD.setSize(36, 32, 0, 0);
+			CHILD.setPosition(arg13 * 40 + arg17 + arg18, arg19, 0, 0);
+			CHILD.setSprite(1082);
+			CHILD.setTrans(20);
+			CHILD.setContextMenuOption(1, "New tab");
+			CHILD.hookOptionClick(&script_489(CTX_MENU_OPTION, 1));
+			CHILD.setDragDeadZone(512);
+			CHILD.setDragDeadTime(2147483647);
+			_CHILD.setSprite(1080);
+			arg16 = 1;
+		} else {
+			CHILD.createChild(widget9, 5, arg13 + 9 + 1);
+			CHILD.setHidden(true);
+			_CHILD.setHidden(true);
+		}
+	}
+	return arg15 + arg14, arg16;
+}

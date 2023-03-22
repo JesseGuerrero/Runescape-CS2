@@ -1,0 +1,6 @@
+//script6296(6296)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6)(int, int, int, int)
+cc_deleteall(arg2)
+cc_deleteall(arg3)
+cc_deleteall(arg4)
+cc_deleteall(arg6)
+return script_4513(arg6, 1750), script_4513(arg4, 1748), script_4513(arg3, 1747), script_4513(arg2, 1746)

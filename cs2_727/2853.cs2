@@ -1,0 +1,23 @@
+//script2853(2853)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+iVar2 = client_clock() - arg1
+iVar3 = 0
+if(iVar2 <= 30) {
+	if(iVar2 == 5)
+		sound_synth(0, 1, 2871)
+	iVar3 = (11 * iVar2) - 325
+	if_setposition(if_gethash(475, 8), 0, 0, 5, iVar3)
+	return
+}
+if(iVar2 < 170)
+	return
+if(iVar2 < 201) {
+	if(iVar2 == 5)
+		sound_synth(0, 1, 2871)
+	iVar3 = 5 - (11 * (iVar2 - 170))
+	if_setposition(if_gethash(475, 8), 0, 0, 5, iVar3)
+	return
+}
+instr6342(arg0, None, "")
+return

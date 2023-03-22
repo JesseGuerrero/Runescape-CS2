@@ -1,0 +1,56 @@
+//script4354(4354)(int arg0)(void)
+switch(load_varp(2128)) {
+	case default:
+		break
+	case 1:
+		if(load_varpbit(9141) == 0)
+			store_varpbit(9141, 1)
+		else
+			store_varpbit(9141, 0)
+		break
+	case 2:
+		if(load_varpbit(9142) == 0)
+			store_varpbit(9142, 1)
+		else
+			store_varpbit(9142, 0)
+		break
+	case 3:
+		if(load_varpbit(9143) == 0)
+			store_varpbit(9143, 1)
+		else
+			store_varpbit(9143, 0)
+		break
+	case 4:
+		if(load_varpbit(9144) == 0)
+			store_varpbit(9144, 1)
+		else
+			store_varpbit(9144, 0)
+		break
+	case 5:
+		if(load_varpbit(9145) == 0)
+			store_varpbit(9145, 1)
+		else
+			store_varpbit(9145, 0)
+		break
+	case 6:
+		if(load_varpbit(9146) == 0)
+			store_varpbit(9146, 1)
+		else
+			store_varpbit(9146, 0)
+		break
+	case 7:
+		if(load_varpbit(9147) == 0)
+			store_varpbit(9147, 1)
+		else
+			store_varpbit(9147, 0)
+		break
+	case 8:
+		if(load_varpbit(9148) == 0)
+			store_varpbit(9148, 1)
+		else
+			store_varpbit(9148, 0)
+		break
+
+}
+script_4356(arg0)
+return

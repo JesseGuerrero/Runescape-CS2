@@ -1,0 +1,43 @@
+//script1775(1775)()(void)
+switch(load_varc(252)) {
+	case default:
+		break
+	case 0:
+		if_setgraphic(if_gethash(791, 127), 699)
+		if_sethide(if_gethash(791, 125), 0)
+		if_sethide(if_gethash(791, 126), 0)
+		if_sethide(if_gethash(791, 124), 0)
+		if_sethide(if_gethash(791, 123), 0)
+		if_settrans(if_gethash(791, 122), 0)
+		break
+	case 1:
+		if_setgraphic(if_gethash(791, 127), 699)
+		if_sethide(if_gethash(791, 125), 1)
+		if_sethide(if_gethash(791, 126), 1)
+		if_sethide(if_gethash(791, 124), 0)
+		if_sethide(if_gethash(791, 123), 0)
+		if(world_members() == 1)
+			if_settrans(if_gethash(791, 122), 225)
+		else
+			if_settrans(if_gethash(791, 122), 0)
+		break
+	case 2:
+		if_setgraphic(if_gethash(791, 127), 699)
+		if_sethide(if_gethash(791, 125), 1)
+		if_sethide(if_gethash(791, 126), 1)
+		if_sethide(if_gethash(791, 124), 1)
+		if_sethide(if_gethash(791, 123), 0)
+		if_settrans(if_gethash(791, 122), 225)
+		break
+	case 3:
+		if_setgraphic(if_gethash(791, 127), 698)
+		if_sethide(if_gethash(791, 125), 1)
+		if_sethide(if_gethash(791, 126), 1)
+		if_sethide(if_gethash(791, 124), 1)
+		if_sethide(if_gethash(791, 123), 1)
+		if_settrans(if_gethash(791, 122), 225)
+		break
+
+}
+script_1784()
+return

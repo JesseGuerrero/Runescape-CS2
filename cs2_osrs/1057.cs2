@@ -1,0 +1,23 @@
+void script_1057(Widget widget0, int arg1, string string2, int arg3) {
+	widget0.clearChildren();
+	CHILD.createChild(widget0, 4, 0);
+	CHILD.setPosition(0, 0, 1, 0);
+	CHILD.setSize(0, 30, 1, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 2, 0);
+	CHILD.createChild(widget0, 4, 1);
+	CHILD.setPosition(0, 0, 0, 2);
+	CHILD.setSize(50, 30, 0, 1);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.createChild(widget0, 5, 2);
+	CHILD.setPosition(50, 30, 0, 0);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	script_1060(widget0, arg1, string2, arg3);
+	widget0.hookVARP(&script_1059(widget0, (Item)arg1, string2, arg3), 615, 439);
+	return;
+}

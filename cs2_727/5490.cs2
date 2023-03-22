@@ -1,0 +1,123 @@
+//script5490(5490)(int arg0, int arg1, int arg2, string arg3)(void)
+int iVar3
+cc_deleteall(arg0)
+if_setsize(arg0, 0, 0, arg2, arg1)
+iVar3 = 0
+cc_create(iVar3, 5, arg0)
+cc_setposition(1, 1, 0, 0)
+cc_setsize(1, 1, 22, 20)
+cc_settiling(1)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(1, 0, 22, 10)
+cc_setposition(1, 0, 0, 0)
+cc_settiling(1)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(1, 0, 22, 10)
+cc_setposition(1, 2, 0, 0)
+cc_settiling(1)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(0, 1, 11, 20)
+cc_setposition(0, 1, 0, 0)
+cc_settiling(1)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(0, 1, 11, 20)
+cc_setposition(2, 1, 0, 0)
+cc_settiling(1)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(0, 2, 0, 0)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(0, 0, 0, 0)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(2, 0, 0, 0)
+iVar3 = iVar3 + 1
+cc_create(iVar3, 5, arg0)
+cc_setsize(0, 0, 11, 10)
+cc_setposition(2, 2, 0, 0)
+iVar3 = iVar3 + 1
+if(load_varc(1692) != -1) {
+	cc_create(iVar3, 4, arg0)
+	cc_setsize(0, 1, 30, 15)
+	cc_setposition(0, 1, 0, 0)
+	cc_settextfont(496)
+	cc_setcolor(ebe0bc)
+	cc_settextalign(15, 1, 1)
+	cc_settextshadow(0)
+	cc_settext(arg0)
+	cc_settextantimacro(1)
+	iVar3 = iVar3 + 1
+	cc_create(iVar3, 4, arg0)
+	cc_setsize(0, 1, 30, 15)
+	cc_setposition(0, 1, 15, 0)
+	cc_settextfont(496)
+	cc_setcolor(ebe0bc)
+	cc_settextalign(15, 1, 1)
+	cc_settextshadow(0)
+	cc_settext("Cost : " + script_940(load_varc(1692)))
+	iVar3 = iVar3 + 1
+} else  {
+	cc_create(iVar3, 4, arg0)
+	cc_setsize(1, 1, 0, 15)
+	cc_setposition(1, 1, 1, 0)
+	cc_settextfont(496)
+	cc_setcolor(ebe0bc)
+	cc_settextalign(15, 1, 1)
+	cc_settextshadow(0)
+	cc_settext(arg0)
+	iVar3 = iVar3 + 1
+}
+iVar3 = 0
+while(iVar3 < 9) {
+	switch(iVar3) {
+		case default:
+			break
+		case 0:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8515)
+			break
+		case 1:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8514)
+			break
+		case 2:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8516)
+			break
+		case 3:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8512)
+			break
+		case 4:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8518)
+			break
+		case 5:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8513)
+			break
+		case 6:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8511)
+			break
+		case 7:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8517)
+			break
+		case 8:
+			if(cc_find(iVar3, arg0) == 1)
+				cc_setgraphic(8519)
+			break
+
+	}
+	iVar3 = iVar3 + 1
+}
+return

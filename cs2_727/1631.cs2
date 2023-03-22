@@ -1,0 +1,16 @@
+//script1631(1631)()(void)
+if(load_varc(1033) <= instr6652(0)) {
+	store_varc(1033, load_varc(1033) + 1)
+	switch(load_varc(1033)) {
+		case default:
+			instr6255(if_gethash(75, 0), None, "")
+			break
+		case 4:
+			instr6255(if_gethash(75, 0), script_1631, "")
+			instr6677(load_varc(1033), 1, 200, 200, load_varc(1033), 0)
+			break
+
+	}
+} else 
+	store_varc(1033, 0)
+return

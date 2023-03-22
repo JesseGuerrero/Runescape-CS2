@@ -1,0 +1,12 @@
+void script_1714(int arg0, int arg1, int arg2, Widget widget3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9, int arg10, int arg11) {
+	int int12;
+	int int13;
+	if (cs2method6605() == 0 || getClientCycle() < arg2) {
+		return;
+	}
+	int12 = arg8 + arg0 * arg6 / arg4;
+	int13 = arg11 - arg1 * arg7 / arg5;
+	cs2method6606(shiftLocation(location(0, 0, 0), int12, 0, int13));
+	widget3.hookDrag(&script_1714(MOUSE_X, MOUSE_Y, getClientCycle() + 10, CTX_WIDGET, arg4, arg5, arg6, arg7, arg8, arg9, arg10, arg11));
+	return;
+}

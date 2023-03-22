@@ -1,0 +1,38 @@
+//script1215(1215)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+iVar4 = max(1, if_getwidth(arg0) - if_getwidth(arg1))
+arg2 = min(iVar4, max(0, arg2))
+switch(arg3) {
+	case default:
+		break
+	case 0:
+		detailset_soundvol(scale(127, iVar4, arg2))
+		script_1217(arg0, arg1)
+		break
+	case 1:
+		detailset_musicvol(scale(255, iVar4, arg2))
+		script_1216(arg0, arg1)
+		break
+	case 2:
+		detailset_bgsoundvol(scale(127, iVar4, arg2))
+		script_1218(arg0, arg1)
+		break
+	case 5:
+		detailset_voiceovervolume(scale(127, iVar4, arg2))
+		script_5868(arg0, arg1)
+		break
+	case 3:
+		detailset_brightness(min(3, scale(4, iVar4, arg2)) + 1)
+		script_1185(arg0, arg1)
+		break
+	case 4:
+		instr6629(scale(255, iVar4, arg2))
+		script_2007(arg0, arg1, 1, 1)
+		break
+	case 6:
+		script_6502(arg2, iVar4)
+		script_6503(arg0, arg1)
+		break
+
+}
+return

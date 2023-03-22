@@ -1,0 +1,4 @@
+//script3000(3000)()(void)
+if(modulo(50, client_clock()) == 0)
+	script_3001()
+return

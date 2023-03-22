@@ -1,0 +1,11 @@
+//script4367(4367)()(void)
+string sVar0
+sVar0 = escape(getclipboard())
+if(string_length(sVar0) <= 13) {
+	store_varc_string(346, sVar0)
+	store_varc(1498, string_length(load_varc_string(346)))
+	store_varc(1498, script_1552(load_varc(1498), 5631, 72089638, -1, load_varc_string(346)))
+	if_setposition(if_gethash(1100, 39), 0, 0, if_gety(if_gethash(1100, 39)), load_varc(1498))
+	if_settext(if_gethash(1100, 38), load_varc_string(346))
+}
+return

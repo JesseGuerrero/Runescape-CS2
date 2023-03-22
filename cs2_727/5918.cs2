@@ -1,0 +1,33 @@
+//script5918(5918)(int arg0, int arg1)(void)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+iVar2 = if_getwidth(arg0)
+iVar3 = 150
+iVar4 = 18
+iVar5 = 15
+iVar6 = iVar3 - iVar4
+iVar7 = iVar6 / iVar5
+if(arg1 == 0) {
+	iVar2 = min(iVar3, iVar2 + iVar7)
+	if(iVar2 == iVar3) {
+		arg1 = 1
+		instr6342(arg0, script_5918, "Ii", -2147483645, arg1)
+		script_5914()
+		if(load_varc(1928) == 0)
+			sound_vorbis_volume(255, 0, 1, 4282)
+		else
+			if(load_varc(1928) == 1)
+				sound_vorbis_volume(255, 0, 1, 15762)
+		sound_vorbis_volume(50, 0, 1, script_5925(5712))
+	}
+} else  {
+	iVar2 = max(iVar4, iVar2 - iVar7)
+	if(iVar2 == iVar4)
+		instr6342(arg0, None, "")
+}
+if_setsize(arg0, 0, 0, if_getheight(arg0), iVar2)
+return

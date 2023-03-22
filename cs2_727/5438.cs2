@@ -1,0 +1,193 @@
+//script5438(5438)()(void)
+int iVar0
+string sVar0
+sVar0 = ""
+iVar0 = 0
+if(script_2158(load_varpbit(7451), 2, 63) == 2) {
+	sVar0 = "<str=f5af44>" + "<col=f5af44>" + "A Void Dance" + "<br>"
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = "A Void Dance" + "<br>"
+if(script_2157(load_varpbit(1938), 110) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Chosen Commander" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Chosen Commander" + "<br>", sVar0)
+if(script_2157(load_varpbit(299), 110) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Between a Rock" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Between a Rock" + "<br>", sVar0)
+if(script_2158(load_varpbit(6883), 3, 147) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Blood Runs Deep" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Blood Runs Deep" + "<br>", sVar0)
+if(script_2157(load_varpbit(3274), 130) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Contact!" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Contact!" + "<br>", sVar0)
+if(script_2157(load_varpbit(6289), 240) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Curse of Arrav" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Curse of Arrav" + "<br>", sVar0)
+if(script_2157(load_varpbit(2561), 3) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Demon Slayer" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Demon Slayer" + "<br>", sVar0)
+if(script_2157(load_varpbit(358), 15) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Desert Treasure" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Desert Treasure" + "<br>", sVar0)
+if(script_2158(load_varpbit(8605), 10, 315) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Do No Evil" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Do No Evil" + "<br>", sVar0)
+if(script_2157(load_varp(176), 10) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Dragon Slayer" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Dragon Slayer" + "<br>", sVar0)
+if(script_2157(load_varpbit(3618), 28) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Dream Mentor" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Dream Mentor" + "<br>", sVar0)
+if(script_2157(load_varp(148), 11) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Family Crest" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Family Crest" + "<br>", sVar0)
+if(script_2157(load_varp(17), 14) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Fight Arena" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Fight Arena" + "<br>", sVar0)
+if(script_2157(load_varp(347), 10) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Fremennik Trials" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Fremennik Trials" + "<br>", sVar0)
+if(script_2157(load_varp(382), 11) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Haunted Mine" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Haunted Mine" + "<br>", sVar0)
+if(script_2157(load_varp(5), 10) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Holy Grail" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Holy Grail" + "<br>", sVar0)
+if(script_2157(load_varpbit(34), 10) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Horror from the Deep" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Horror from the Deep" + "<br>", sVar0)
+if(script_2157(load_varp(139), 75) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Legend's Quest" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Legend's Quest" + "<br>", sVar0)
+if(script_2157(load_varp(147), 6) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Lost City" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Lost City" + "<br>", sVar0)
+if(script_2157(load_varpbit(8045), 150) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Love Story" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Love Story" + "<br>", sVar0)
+if(script_2157(load_varpbit(6112), 60) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Missing my Mummy" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Missing my Mummy" + "<br>", sVar0)
+if(script_2158(load_varp(365), 1, 9) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Monkey Madness" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Monkey Madness" + "<br>", sVar0)
+if(script_2157(load_varpbit(260), 70) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Mountain Daughter" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Mountain Daughter" + "<br>", sVar0)
+if(script_2157(load_varpbit(2790), 320) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "My Arm's Big Adventure" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("My Arm's Big Adventure" + "<br>", sVar0)
+if(script_2157(load_varpbit(6962), 12) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Nomad's Requiem" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Nomad's Requiem" + "<br>", sVar0)
+if(script_2157(load_varpbit(1850), 5) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Recipe for Disaster" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Recipe for Disaster" + "<br>", sVar0)
+if(script_2157(load_varpbit(1372), 125) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Shadow of the Storm" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Shadow of the Storm" + "<br>", sVar0)
+if(script_2157(load_varpbit(1444), 60) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Spirits of Elid" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Spirits of Elid" + "<br>", sVar0)
+if(script_2157(load_varp(980), 130) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "The Great Brain Robbery" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("The Great Brain Robbery" + "<br>", sVar0)
+if(script_2157(load_varpbit(6775), 90) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "The Temple at Senntisten" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("The Temple at Senntisten" + "<br>", sVar0)
+if(script_2157(load_varpbit(8248), 40) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "The Void Stares Back" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("The Void Stares Back" + "<br>", sVar0)
+if(script_2157(load_varpbit(4700), 63) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "TokTz-Ket-Dill" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("TokTz-Ket-Dill" + "<br>", sVar0)
+if(script_2157(load_varp(385), 45) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Troll Romance" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Troll Romance" + "<br>", sVar0)
+if(script_2157(load_varp(317), 50) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Troll Stronghold" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Troll Stronghold" + "<br>", sVar0)
+if(script_2157(load_varpbit(6914), 3) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Vampyre Slayer" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Vampyre Slayer" + "<br>", sVar0)
+if(script_2157(load_varpbit(1051), 11) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "Wanted" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("Wanted" + "<br>", sVar0)
+if(script_2157(load_varpbit(5491), 910) == 2) {
+	sVar0 = append("<str=f5af44>" + "<col=f5af44>" + "While Guthix Sleeps" + "<br>", sVar0)
+	iVar0 = iVar0 + 1
+} else 
+	sVar0 = append("While Guthix Sleeps" + "<br>", sVar0)
+if_settext(if_gethash(1166, 1), sVar0)
+if_settext(if_gethash(1166, 2), "Quests completed: " + to_string(iVar0) + ". You need at least: " + to_string(20))
+return

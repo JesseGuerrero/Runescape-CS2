@@ -1,0 +1,7 @@
+void script_1343() {
+	widget(65, 81).setIsHidden(true);
+	widget(65, 87).setIsHidden(false);
+	widget(65, 80).setText("Spend " + 1 + " bond?");
+	widget(65, 89).setOptionBase("Early name change");
+	return;
+}

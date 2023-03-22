@@ -1,0 +1,10 @@
+//script2658(2658)()(void)
+store_varpbit(6302, load_varpbit(6302) + 1)
+if(load_varpbit(6302) >= instr6652(0) - 1) {
+	store_varpbit(6302, 0)
+	instr6255(if_gethash(876, 0), None, "")
+	return
+}
+instr6677(load_varpbit(6302), 1, 400, 600, load_varpbit(6302), 0)
+instr6255(if_gethash(876, 0), script_2658, "")
+return

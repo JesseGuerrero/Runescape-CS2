@@ -1,0 +1,3 @@
+//script3445(3445)(int arg0)(void)
+if_setspritescale(arg0, 2600)
+return

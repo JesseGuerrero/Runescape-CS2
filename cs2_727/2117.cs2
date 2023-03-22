@@ -1,0 +1,86 @@
+//script2117(2117)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+iVar6 = arg2 + ((arg1 / 2) * (64 + arg2))
+iVar7 = arg2 + (modulo(2, arg1) * (160 + arg2))
+cc_create(arg0 * 7, 3, arg3)
+cc_setsize(0, 0, 64, 160)
+cc_setposition(0, 0, iVar6, iVar7)
+cc_setcolor(0)
+cc_settrans(200)
+cc_setfill(1)
+cc_setop("Choose", 1)
+if(arg0 == 26) {
+	cc_setop("Explain", 10)
+	cc_setopbase("<col=ff9040>" + "Emote" + "</col>")
+} else 
+	if(arg0 == 27) {
+		cc_setop("Explain", 10)
+		cc_setopbase("<col=ff9040>" + "Costume point" + "</col>")
+	} else  {
+		cc_setop("Examine", 10)
+		cc_setopbase("<col=ff9040>" + item_name(inv_getitem(arg0, 307)) + "</col>")
+	}
+instr6687(script_2120, "iIiII", -2147483644, arg3, arg0, arg4, arg5)
+cc_create((arg0 * 7) + 1, 5, arg3)
+cc_setsize(0, 0, 32, 159)
+cc_settiling(1)
+cc_setgraphic(1074)
+cc_setposition(0, 0, iVar6 - 17, iVar7)
+cc_create((arg0 * 7) + 2, 5, arg3)
+cc_setsize(0, 0, 32, 160)
+cc_settiling(1)
+cc_setgraphic(1074)
+cc_setvflip(1)
+cc_setposition(0, 0, iVar6 + 49, iVar7)
+cc_create((arg0 * 7) + 3, 5, arg3)
+cc_setsize(0, 0, 63, 32)
+cc_settiling(1)
+cc_setgraphic(1075)
+cc_setposition(0, 0, iVar6, iVar7 - 14)
+cc_create((arg0 * 7) + 4, 5, arg3)
+cc_setsize(0, 0, 63, 32)
+cc_settiling(1)
+cc_setgraphic(1075)
+cc_sethflip(1)
+cc_setposition(0, 0, iVar6, iVar7 + 142)
+cc_create((arg0 * 7) + 5, 5, arg3)
+if(arg0 == 26) {
+	cc_setsize(0, 0, 22, 22)
+	cc_setposition(0, 0, iVar6 + 20, iVar7 + 15)
+	cc_setoutline(0)
+	cc_setgraphic(1830)
+} else 
+	if(arg0 == 27) {
+		cc_setsize(0, 0, 42, 42)
+		cc_setposition(0, 0, iVar6 + 12, iVar7 + 5)
+		cc_setoutline(0)
+		cc_setgraphic(1044)
+	} else  {
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, iVar6 + 16, iVar7 + 8)
+		cc_setoutline(1)
+		cc_setgraphicshadow(3153952)
+		if(inv_getnum(arg0, 307) > 1)
+			if(item_stackable(inv_getitem(arg0, 307)) == 1)
+				cc_setitem(inv_getnum(arg0, 307), inv_getitem(arg0, 307))
+			else
+				cc_setitem(-1, inv_getitem(arg0, 307))
+	}
+cc_create((arg0 * 7) + 6, 4, arg3)
+cc_settextfont(496)
+cc_setcolor(ff981f)
+cc_settextalign(0, 1, 1)
+cc_setsize(0, 0, 64, 160 - (((cc_getx() - iVar7) + cc_getwidth()) + 4))
+cc_setposition(0, 0, iVar6, ((iVar7 + 160) - cc_getwidth()) - 2)
+if(arg0 == 26)
+	cc_settext("Unlock emote!")
+else
+	if(arg0 == 27)
+		cc_settext("Save up for a costume!")
+	else
+		if(inv_getnum(arg0, 307) == 1)
+			cc_settext(enum(2238, arg0, 'i', 's') + ":" + "<br>" + item_name(inv_getitem(arg0, 307)))
+		else
+			cc_settext(enum(2238, arg0, 'i', 's') + ":" + "<br>" + to_string(inv_getnum(arg0, 307)) + " x " + item_name(inv_getitem(arg0, 307)))
+return

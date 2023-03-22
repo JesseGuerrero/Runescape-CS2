@@ -1,0 +1,8 @@
+//script1723(1723)(int arg0, int arg1, int arg2, int arg3)(void)
+if(client_clock() < arg3)
+	return
+if(cc_find(arg1, arg0) == 1 || arg1 == -1 || instr6004(arg0) == 1) {
+	cc_setgraphic(arg2)
+	instr6556(None, "")
+}
+return

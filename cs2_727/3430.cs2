@@ -1,0 +1,233 @@
+//script3430(3430)()(void)
+if_setfill(if_gethash(54, 25), 0)
+if_setfill(if_gethash(54, 27), 0)
+if_setfill(if_gethash(54, 29), 0)
+if_setfill(if_gethash(54, 31), 0)
+if_setfill(if_gethash(54, 33), 0)
+if_setfill(if_gethash(54, 35), 0)
+if_setfill(if_gethash(54, 37), 0)
+if_setfill(if_gethash(54, 39), 0)
+if_setfill(if_gethash(54, 41), 0)
+if_setfill(if_gethash(54, 43), 0)
+if_setfill(if_gethash(54, 45), 0)
+if_setfill(if_gethash(54, 47), 0)
+if_setfill(if_gethash(54, 49), 0)
+if_setfill(if_gethash(54, 51), 0)
+if_setfill(if_gethash(54, 53), 0)
+if_setfill(if_gethash(54, 55), 0)
+if_setfill(if_gethash(54, 57), 0)
+if_setfill(if_gethash(54, 59), 0)
+if_setfill(if_gethash(54, 61), 0)
+if_setfill(if_gethash(54, 63), 0)
+if_setfill(if_gethash(54, 65), 0)
+if_setfill(if_gethash(54, 67), 0)
+if_setfill(if_gethash(54, 69), 0)
+if_setfill(if_gethash(54, 71), 0)
+if_setfill(if_gethash(54, 73), 0)
+if_setfill(if_gethash(54, 75), 0)
+if_setfill(if_gethash(54, 77), 0)
+if_setfill(if_gethash(54, 79), 0)
+if_setfill(if_gethash(54, 81), 0)
+if_setfill(if_gethash(54, 83), 0)
+if_setfill(if_gethash(54, 85), 0)
+if_setfill(if_gethash(54, 87), 0)
+if_setfill(if_gethash(54, 89), 0)
+if_setfill(if_gethash(54, 91), 0)
+if_setfill(if_gethash(54, 93), 0)
+if_setfill(if_gethash(54, 95), 0)
+if_setfill(if_gethash(54, 97), 0)
+if_setfill(if_gethash(54, 99), 0)
+if_setfill(if_gethash(54, 101), 0)
+if_setfill(if_gethash(54, 103), 0)
+if_setfill(if_gethash(54, 105), 0)
+if_setfill(if_gethash(54, 107), 0)
+if_setfill(if_gethash(54, 109), 0)
+if_setfill(if_gethash(54, 111), 0)
+if_setfill(if_gethash(54, 113), 0)
+if_setfill(if_gethash(54, 115), 0)
+if_setfill(if_gethash(54, 117), 0)
+if_setfill(if_gethash(54, 119), 0)
+if_setfill(if_gethash(54, 121), 0)
+if_setfill(if_gethash(54, 123), 0)
+if_setfill(if_gethash(54, 125), 0)
+if_setfill(if_gethash(54, 127), 0)
+if_setfill(if_gethash(54, 129), 0)
+if_setfill(if_gethash(54, 131), 0)
+if_setfill(if_gethash(54, 133), 0)
+if_setfill(if_gethash(54, 135), 0)
+if(load_varpbit(157) == 1)
+	if(load_varpbit(156) == 3)
+		if_setfill(if_gethash(54, 25), 1)
+	else
+		if(load_varpbit(156) == 4)
+			if_setfill(if_gethash(54, 27), 1)
+		else
+			if(load_varpbit(156) == 5)
+				if_setfill(if_gethash(54, 29), 1)
+			else
+				if(load_varpbit(156) == 6)
+					if_setfill(if_gethash(54, 31), 1)
+				else
+					if(load_varpbit(156) == 7)
+						if_setfill(if_gethash(54, 33), 1)
+					else
+						if(load_varpbit(156) == 8)
+							if_setfill(if_gethash(54, 35), 1)
+else
+	if(load_varpbit(157) == 2)
+		if(load_varpbit(156) == 3)
+			if_setfill(if_gethash(54, 37), 1)
+		else
+			if(load_varpbit(156) == 4)
+				if_setfill(if_gethash(54, 39), 1)
+			else
+				if(load_varpbit(156) == 5)
+					if_setfill(if_gethash(54, 41), 1)
+				else
+					if(load_varpbit(156) == 6)
+						if_setfill(if_gethash(54, 43), 1)
+					else
+						if(load_varpbit(156) == 7)
+							if_setfill(if_gethash(54, 45), 1)
+						else
+							if(load_varpbit(156) == 8)
+								if_setfill(if_gethash(54, 47), 1)
+	else
+		if(load_varpbit(157) == 3)
+			if(load_varpbit(156) == 1)
+				if_setfill(if_gethash(54, 49), 1)
+			else
+				if(load_varpbit(156) == 2)
+					if_setfill(if_gethash(54, 51), 1)
+				else
+					if(load_varpbit(156) == 3)
+						if_setfill(if_gethash(54, 53), 1)
+					else
+						if(load_varpbit(156) == 4)
+							if_setfill(if_gethash(54, 55), 1)
+						else
+							if(load_varpbit(156) == 5)
+								if_setfill(if_gethash(54, 57), 1)
+							else
+								if(load_varpbit(156) == 6)
+									if_setfill(if_gethash(54, 59), 1)
+								else
+									if(load_varpbit(156) == 7)
+										if_setfill(if_gethash(54, 61), 1)
+									else
+										if(load_varpbit(156) == 8)
+											if_setfill(if_gethash(54, 63), 1)
+		else
+			if(load_varpbit(157) == 4)
+				if(load_varpbit(156) == 1)
+					if_setfill(if_gethash(54, 65), 1)
+				else
+					if(load_varpbit(156) == 2)
+						if_setfill(if_gethash(54, 67), 1)
+					else
+						if(load_varpbit(156) == 3)
+							if_setfill(if_gethash(54, 69), 1)
+						else
+							if(load_varpbit(156) == 4)
+								if_setfill(if_gethash(54, 71), 1)
+							else
+								if(load_varpbit(156) == 5)
+									if_setfill(if_gethash(54, 73), 1)
+								else
+									if(load_varpbit(156) == 6)
+										if_setfill(if_gethash(54, 75), 1)
+									else
+										if(load_varpbit(156) == 7)
+											if_setfill(if_gethash(54, 77), 1)
+										else
+											if(load_varpbit(156) == 8)
+												if_setfill(if_gethash(54, 79), 1)
+			else
+				if(load_varpbit(157) == 5)
+					if(load_varpbit(156) == 1)
+						if_setfill(if_gethash(54, 81), 1)
+					else
+						if(load_varpbit(156) == 2)
+							if_setfill(if_gethash(54, 83), 1)
+						else
+							if(load_varpbit(156) == 3)
+								if_setfill(if_gethash(54, 85), 1)
+							else
+								if(load_varpbit(156) == 4)
+									if_setfill(if_gethash(54, 87), 1)
+								else
+									if(load_varpbit(156) == 5)
+										if_setfill(if_gethash(54, 89), 1)
+									else
+										if(load_varpbit(156) == 6)
+											if_setfill(if_gethash(54, 91), 1)
+										else
+											if(load_varpbit(156) == 7)
+												if_setfill(if_gethash(54, 93), 1)
+											else
+												if(load_varpbit(156) == 8)
+													if_setfill(if_gethash(54, 95), 1)
+				else
+					if(load_varpbit(157) == 6)
+						if(load_varpbit(156) == 1)
+							if_setfill(if_gethash(54, 97), 1)
+						else
+							if(load_varpbit(156) == 2)
+								if_setfill(if_gethash(54, 99), 1)
+							else
+								if(load_varpbit(156) == 3)
+									if_setfill(if_gethash(54, 101), 1)
+								else
+									if(load_varpbit(156) == 4)
+										if_setfill(if_gethash(54, 103), 1)
+									else
+										if(load_varpbit(156) == 5)
+											if_setfill(if_gethash(54, 105), 1)
+										else
+											if(load_varpbit(156) == 6)
+												if_setfill(if_gethash(54, 107), 1)
+											else
+												if(load_varpbit(156) == 7)
+													if_setfill(if_gethash(54, 109), 1)
+												else
+													if(load_varpbit(156) == 8)
+														if_setfill(if_gethash(54, 111), 1)
+					else
+						if(load_varpbit(157) == 7)
+							if(load_varpbit(156) == 1)
+								if_setfill(if_gethash(54, 113), 1)
+							else
+								if(load_varpbit(156) == 2)
+									if_setfill(if_gethash(54, 115), 1)
+								else
+									if(load_varpbit(156) == 3)
+										if_setfill(if_gethash(54, 117), 1)
+									else
+										if(load_varpbit(156) == 4)
+											if_setfill(if_gethash(54, 119), 1)
+										else
+											if(load_varpbit(156) == 5)
+												if_setfill(if_gethash(54, 121), 1)
+											else
+												if(load_varpbit(156) == 6)
+													if_setfill(if_gethash(54, 123), 1)
+						else
+							if(load_varpbit(157) == 8)
+								if(load_varpbit(156) == 1)
+									if_setfill(if_gethash(54, 125), 1)
+								else
+									if(load_varpbit(156) == 2)
+										if_setfill(if_gethash(54, 127), 1)
+									else
+										if(load_varpbit(156) == 3)
+											if_setfill(if_gethash(54, 129), 1)
+										else
+											if(load_varpbit(156) == 4)
+												if_setfill(if_gethash(54, 131), 1)
+											else
+												if(load_varpbit(156) == 5)
+													if_setfill(if_gethash(54, 133), 1)
+												else
+													if(load_varpbit(156) == 6)
+														if_setfill(if_gethash(54, 135), 1)
+return

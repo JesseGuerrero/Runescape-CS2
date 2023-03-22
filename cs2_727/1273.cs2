@@ -1,0 +1,4 @@
+//script1273(1273)(int arg0)(void)
+script_2410(oc_icursor(1, arg0), oc_icursor(2, arg0), oc_icursor(3, arg0), -1, oc_icursor(5, arg0), item_iop(1, arg0), item_iop(2, arg0), item_iop(3, arg0), "", item_iop(5, arg0), item_name(arg0))
+instr6095(None, "")
+return

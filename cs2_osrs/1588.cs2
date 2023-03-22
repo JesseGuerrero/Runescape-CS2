@@ -1,0 +1,6 @@
+void script_1588(int arg0) {
+	if (CHILD.setChild(widget(549, 15), arg0) == true) {
+		CHILD.setText("0");
+	}
+	return;
+}

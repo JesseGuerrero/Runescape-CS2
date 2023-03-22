@@ -1,0 +1,17 @@
+void script_1127(int arg0, Widget arg1, int arg2, Widget widget3, Widget widget4, Widget widget5, Widget arg6, Widget widget7, Widget arg8) {
+	if (arg0 != 1) {
+		return;
+	}
+	arg2 = arg2 - 1;
+	if (length(datamap('i', 's', 1246, arg2)) <= 0) {
+		return;
+	}
+	if (arg1 == arg6) {
+		VARP[1107] = arg2;
+	} else if (arg1 == arg8) {
+		VARP[1306] = arg2;
+	}
+	script_1131(widget5, widget7);
+	script_1129(widget3, widget4, widget5, widget7);
+	return;
+}

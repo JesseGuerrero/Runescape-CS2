@@ -1,0 +1,101 @@
+//script1111(1111)()(string)
+switch(load_varc(754)) {
+	case default:
+		break
+	case 17:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Make All"
+		return "Make " + to_string(load_varpbit(8095))
+
+	case 18:
+		if(load_varpbit(8095) == 1)
+			return "Make 1 set"
+		return "Make " + to_string(load_varpbit(8095)) + " sets"
+
+	case 2:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Cook All"
+		return "Cook " + to_string(load_varpbit(8095))
+
+	case 3:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Roast All"
+		return "Roast " + to_string(load_varpbit(8095))
+
+	case 4:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Offer All"
+		return "Offer " + to_string(load_varpbit(8095))
+
+	case 5:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Sell All"
+		return "Sell " + to_string(load_varpbit(8095))
+
+	case 20:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Bake All"
+		return "Bake " + to_string(load_varpbit(8095))
+
+	case 7:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Cut All"
+		return "Cut " + to_string(load_varpbit(8095))
+
+	case 8:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Deposit All"
+		return "Deposit " + to_string(load_varpbit(8095))
+
+	case 10:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Teleport All"
+		return "Teleport " + to_string(load_varpbit(8095))
+
+	case 19:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Select All"
+		break
+	case 12:
+		if(load_varpbit(8095) == 1)
+			return "Make 1 set"
+		return "Make " + to_string(load_varpbit(8095)) + " sets"
+
+	case 13:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Take All"
+		return "Take " + to_string(load_varpbit(8095))
+
+	case 14:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Return All"
+		return "Return " + to_string(load_varpbit(8095))
+
+	case 15:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Heat All"
+		return "Heat " + to_string(load_varpbit(8095))
+
+	case 16:
+		if(script_1103() == 1)
+			if(load_varpbit(8095) >= load_varpbit(8094))
+				return "Add All"
+		return "Add " + to_string(load_varpbit(8095))
+
+
+}
+return "Select"
+return ""

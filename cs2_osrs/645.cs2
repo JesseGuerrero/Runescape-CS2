@@ -1,0 +1,9 @@
+void script_645(Widget widget0) {
+	if (VARPBIT[2013] == 1) {
+		CHILD.setSprite(698);
+	} else {
+		CHILD.setSprite(699);
+	}
+	widget0.hookFrame(null);
+	return;
+}

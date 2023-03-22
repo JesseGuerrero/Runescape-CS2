@@ -1,0 +1,14 @@
+void script_304(int arg0) {
+	if (arg0 == 11725) {
+		CHILD.setText("(" + VARPBIT[3951] + ")");
+	} else if (arg0 == 11729) {
+		CHILD.setText("(" + VARPBIT[3952] + ")");
+	} else if (arg0 == 11733) {
+		CHILD.setText("(" + VARPBIT[3953] + ")");
+	} else if (arg0 == 11737) {
+		CHILD.setText("(" + VARPBIT[3954] + ")");
+	} else {
+		CHILD.setText("");
+	}
+	return;
+}

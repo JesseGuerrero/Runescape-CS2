@@ -1,0 +1,65 @@
+void script_431(Widget widget0, string string1, Item item2, int arg3, Item item4) {
+	int int4;
+	int int5;
+	int int6;
+	widget0.clearChildren();
+	if (item2 == null) {
+		widget0.setIsHidden(true);
+		return;
+	}
+	widget0.setIsHidden(false);
+	if (script_247(location(3072, 9472, 0), location(3135, 9535, 0), getMyLocation()) == 1 && item2 != 1205) {
+		arg3 = 1;
+	}
+	int4 = widget0.getWidth();
+	CHILD.createChild(widget0, 4, 0);
+	CHILD.setSize(int4, 13, 0, 0);
+	CHILD.setPosition(0, 32 - 1, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(0, 0, 0);
+	if (arg3 == 1 || getSkillCurrentLvl(13) < datamap('o', 'i', 846, item2)) {
+		CHILD.setRGB(0x000000);
+		CHILD.setTextAntiMacro(false);
+	} else {
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTextAntiMacro(true);
+	}
+	CHILD.setText(string1);
+	int5 = datamap('o', 'i', 845, item2);
+	CHILD.createChild(widget0, 4, 1);
+	CHILD.setSize(int4, 13, 0, 0);
+	CHILD.setPosition(0, 32 + 11, 0, 0);
+	CHILD.setFont(494);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	if (getItemAmtInContainer(93, item4) < int5) {
+		CHILD.setRGB(0xFF981F);
+	} else {
+		CHILD.setRGB(0x00FF00);
+	}
+	if (int5 == 1) {
+		CHILD.setText("1 bar");
+	} else {
+		CHILD.setText(int5 + " bars");
+	}
+	CHILD.createChild(widget0, 5, 2);
+	CHILD.setSize(36, 32, 0, 0);
+	CHILD.setPosition(6, 0, 0, 0);
+	CHILD.setShadowColor(0x333333);
+	CHILD.setOutlineThickness(1);
+	int6 = datamap('o', 'i', 844, item2);
+	CHILD.setItem(item2, int6);
+	if (int6 > 1) {
+		widget0.setContextMenuOption(1, "Smith 1 set");
+		widget0.setContextMenuOption(2, "Smith 5 sets");
+		widget0.setContextMenuOption(3, "Smith 10 sets");
+		widget0.setContextMenuOption(4, "Smith X sets");
+	} else {
+		widget0.setContextMenuOption(1, "Smith 1");
+		widget0.setContextMenuOption(2, "Smith 5");
+		widget0.setContextMenuOption(3, "Smith 10");
+		widget0.setContextMenuOption(4, "Smith X");
+	}
+	widget0.setOptionBase("<col=ff9040>" + getItemName(item2));
+	return;
+}

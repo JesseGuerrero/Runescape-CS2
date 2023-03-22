@@ -1,0 +1,8 @@
+//script944(944)(int arg0)(void)
+int iVar1
+iVar1 = 0
+if(load_varp(2521) > 0)
+	iVar1 = (load_varp(2521) / 200) * 10
+if_settext(arg0, to_string(load_varp(2521)))
+script_4542(iVar1, 81133605, 81133610)
+return

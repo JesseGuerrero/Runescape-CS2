@@ -1,0 +1,19 @@
+void script_720(Widget widget0, int arg1, int arg2, int arg3, int arg4) {
+	int int5;
+	if (arg4 == 0) {
+		return;
+	}
+	if (arg3 < 0) {
+		arg3 = 0;
+	} else if (arg3 > 255) {
+		arg3 = 255;
+	}
+	int5 = arg1;
+	while (int5 <= arg2) {
+		if (CHILD.setChild(widget0, int5) == true) {
+			CHILD.hookFrame(&script_721(CTX_WIDGET, CTX_WIDGET_CHILD, arg3, arg4));
+		}
+		int5 = int5 + 1;
+	}
+	return;
+}

@@ -1,0 +1,37 @@
+//script3979(3979)(int arg0, int arg1)(void)
+int iVar2
+string sVar0
+store_varpbit(8576, arg0)
+iVar2 = script_5795(arg0)
+sVar0 = " -" + "<br>"
+sVar0 = append(sVar0, struct_param(1266, iVar2))
+sVar0 = append(struct_param(1273, iVar2), sVar0)
+if(script_3999(arg0) == 0)
+	if_setonmouseover(arg1, script_3981, "Is", arg1, sVar0)
+else
+	if_setonmouseover(arg1, None, "")
+switch(arg1) {
+	case default:
+		break
+	case 69206077:
+		store_varpbit(8577, 1)
+		break
+	case 69206155:
+		store_varpbit(8577, 2)
+		break
+	case 69206160:
+		store_varpbit(8577, 3)
+		break
+	case 69206165:
+		store_varpbit(8577, 4)
+		break
+	case 69206170:
+		store_varpbit(8577, 5)
+		break
+	case 69206176:
+		store_varpbit(8577, 6)
+		break
+
+}
+script_3975()
+return

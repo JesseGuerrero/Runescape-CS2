@@ -1,0 +1,19 @@
+//script819(819)()(void)
+if(load_varp(1174) != -1)
+	if(load_varp(1174) != 0)
+		if_setnpchead(43450371, load_varp(1174))
+	else
+		if_setmodel(if_gethash(663, 3), -1)
+if(load_varpbit(1049) == 1)
+	if_settext(if_gethash(663, 25), script_821())
+else
+	if(load_varp(448) != -1)
+		if_settext(if_gethash(663, 25), item_name(load_varp(448)))
+	else
+		if_settext(if_gethash(663, 25), "")
+if(load_varpbit(4282) > 50) {
+	store_varpbit(4282, load_varpbit(4282) - 50)
+	if_setmodelanim(if_gethash(663, 3), enum(1275, load_varpbit(4282), 'i', 'A'))
+} else 
+	if_setmodelanim(if_gethash(663, 3), enum(1276, load_varpbit(4282), 'i', 'A'))
+return

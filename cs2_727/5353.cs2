@@ -1,0 +1,255 @@
+//script5353(5353)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, int arg7, int arg8, int arg9)(int, int, int, int, int)
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+string sVar0
+string sVar1
+iVar10 = -1
+iVar11 = -1
+iVar12 = 0
+iVar13 = -1
+iVar14 = 0
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+while(iVar16 < 6) {
+	switch(iVar16) {
+		case default:
+			break
+		case 0:
+			iVar10 = 5182
+			break
+		case 1:
+			iVar10 = 3875
+			break
+		case 2:
+			if(gender() == 0)
+				iVar10 = 5189
+			else
+				iVar10 = 5188
+			break
+		case 3:
+			iVar10 = 5184
+			break
+		case 4:
+			iVar10 = 5183
+			break
+
+	}
+	iVar14 = 0
+	while(iVar14 < enum_getoutputcount(iVar10)) {
+		iVar11 = enum(iVar10, iVar14, 'i', 'J')
+		if(struct_param(1934, iVar11) == 1)
+			iVar15 = iVar15 + 1
+		iVar14 = iVar14 + 1
+	}
+	iVar16 = iVar16 + 1
+}
+if(iVar15 < 1)
+	return arg5, arg3, arg2, arg1, arg0
+globalArrays[0] = [iVar15, 74]
+iVar17 = iVar15 - 1
+iVar16 = 0
+while(iVar16 < 6) {
+	switch(iVar16) {
+		case default:
+			break
+		case 0:
+			iVar10 = 5182
+			break
+		case 1:
+			iVar10 = 3875
+			break
+		case 2:
+			if(gender() == 0)
+				iVar10 = 5189
+			else
+				iVar10 = 5188
+			break
+		case 3:
+			iVar10 = 5184
+			break
+		case 4:
+			iVar10 = 5183
+			break
+
+	}
+	iVar14 = 0
+	while(iVar14 < enum_getoutputcount(iVar10)) {
+		iVar11 = enum(iVar10, iVar14, 'i', 'J')
+		if(struct_param(1934, iVar11) == 1) {
+			globalArrays[0][iVar17] = iVar11
+			iVar17 = max(0, iVar17 - 1)
+		}
+		iVar14 = iVar14 + 1
+	}
+	iVar16 = iVar16 + 1
+}
+iVar14 = 0
+iVar12 = 1
+iVar18 = 0
+iVar19 = 0
+sVar0 = ""
+sVar1 = ""
+iVar20 = 0
+iVar21 = 0
+switch(load_varc(1659)) {
+	case default:
+		while(iVar12 == 1) {
+			iVar12 = 0
+			iVar14 = iVar15 - 1
+			while(iVar14 > 0) {
+				if(struct_param(1933, globalArrays[0][iVar14]) > 0)
+					iVar18 = struct_param(1933, globalArrays[0][iVar14])
+				else
+					iVar18 = struct_param(1932, globalArrays[0][iVar14])
+				if(struct_param(1933, globalArrays[0][iVar14 - 1]) > 0)
+					iVar19 = struct_param(1933, globalArrays[0][iVar14 - 1])
+				else
+					iVar19 = struct_param(1932, globalArrays[0][iVar14 - 1])
+				if(iVar18 < iVar19) {
+					iVar12 = 1
+					iVar13 = globalArrays[0][iVar14 - 1]
+					globalArrays[0][iVar14 - 1] = globalArrays[0][iVar14]
+					globalArrays[0][iVar14] = iVar13
+				}
+				iVar14 = iVar14 - 1
+			}
+		}
+		break
+	case 1:
+		while(iVar12 == 1) {
+			iVar12 = 0
+			iVar14 = iVar15 - 1
+			while(iVar14 > 0) {
+				if(struct_param(1933, globalArrays[0][iVar14]) > 0)
+					iVar18 = struct_param(1933, globalArrays[0][iVar14])
+				else
+					iVar18 = struct_param(1932, globalArrays[0][iVar14])
+				if(struct_param(1933, globalArrays[0][iVar14 - 1]) > 0)
+					iVar19 = struct_param(1933, globalArrays[0][iVar14 - 1])
+				else
+					iVar19 = struct_param(1932, globalArrays[0][iVar14 - 1])
+				if(iVar18 > iVar19) {
+					iVar12 = 1
+					iVar13 = globalArrays[0][iVar14 - 1]
+					globalArrays[0][iVar14 - 1] = globalArrays[0][iVar14]
+					globalArrays[0][iVar14] = iVar13
+				}
+				iVar14 = iVar14 - 1
+			}
+		}
+		break
+	case 2:
+		while(iVar12 == 1) {
+			iVar12 = 0
+			iVar14 = iVar15 - 1
+			while(iVar14 > 0) {
+				if(struct_param(1937, globalArrays[0][iVar14]) == 4) {
+					iVar20 = 0
+					iVar21 = 0
+					if(iVar20 < enum_getoutputcount(5184))
+						while(iVar21 == 0) {
+							if(enum(5184, iVar20, 'i', 'J') == globalArrays[0][iVar14]) {
+								if(gender() == 0)
+									sVar0 = enum(5186, iVar20, 'i', 's')
+								else
+									sVar0 = enum(5187, iVar20, 'i', 's')
+								iVar21 = 1
+							}
+							iVar20 = iVar20 + 1
+						}
+				} else 
+					sVar0 = struct_param(1930, globalArrays[0][iVar14])
+				if(struct_param(1937, globalArrays[0][iVar14 - 1]) == 4) {
+					iVar20 = 0
+					iVar21 = 0
+					if(iVar20 < enum_getoutputcount(5184))
+						while(iVar21 == 0) {
+							if(enum(5184, iVar20, 'i', 'J') == globalArrays[0][iVar14 - 1]) {
+								if(gender() == 0)
+									sVar1 = enum(5186, iVar20, 'i', 's')
+								else
+									sVar1 = enum(5187, iVar20, 'i', 's')
+								iVar21 = 1
+							}
+							iVar20 = iVar20 + 1
+						}
+				} else 
+					sVar1 = struct_param(1930, globalArrays[0][iVar14 - 1])
+				if(compare(sVar1, sVar0) < 0) {
+					iVar12 = 1
+					iVar13 = globalArrays[0][iVar14 - 1]
+					globalArrays[0][iVar14 - 1] = globalArrays[0][iVar14]
+					globalArrays[0][iVar14] = iVar13
+				}
+				iVar14 = iVar14 - 1
+			}
+		}
+		break
+	case 3:
+		while(iVar12 == 1) {
+			iVar12 = 0
+			iVar14 = iVar15 - 1
+			while(iVar14 > 0) {
+				if(struct_param(1937, globalArrays[0][iVar14]) == 4) {
+					iVar20 = 0
+					iVar21 = 0
+					if(iVar20 < enum_getoutputcount(5184))
+						while(iVar21 == 0) {
+							if(enum(5184, iVar20, 'i', 'J') == globalArrays[0][iVar14]) {
+								if(gender() == 0)
+									sVar0 = enum(5186, iVar20, 'i', 's')
+								else
+									sVar0 = enum(5187, iVar20, 'i', 's')
+								iVar21 = 1
+							}
+							iVar20 = iVar20 + 1
+						}
+				} else 
+					sVar0 = struct_param(1930, globalArrays[0][iVar14])
+				if(struct_param(1937, globalArrays[0][iVar14 - 1]) == 4) {
+					iVar20 = 0
+					iVar21 = 0
+					if(iVar20 < enum_getoutputcount(5184))
+						while(iVar21 == 0) {
+							if(enum(5184, iVar20, 'i', 'J') == globalArrays[0][iVar14 - 1]) {
+								if(gender() == 0)
+									sVar1 = enum(5186, iVar20, 'i', 's')
+								else
+									sVar1 = enum(5187, iVar20, 'i', 's')
+								iVar21 = 1
+							}
+							iVar20 = iVar20 + 1
+						}
+				} else 
+					sVar1 = struct_param(1930, globalArrays[0][iVar14 - 1])
+				if(compare(sVar1, sVar0) > 0) {
+					iVar12 = 1
+					iVar13 = globalArrays[0][iVar14 - 1]
+					globalArrays[0][iVar14 - 1] = globalArrays[0][iVar14]
+					globalArrays[0][iVar14] = iVar13
+				}
+				iVar14 = iVar14 - 1
+			}
+		}
+		break
+
+}
+iVar14 = 0
+while(iVar14 < iVar15) {
+	iVar11 = globalArrays[0][iVar14]
+	arg0 = script_5351(iVar11, arg0, arg1, arg2, arg3, arg4, arg5, arg6, arg7, arg8, arg9).get(0)
+	iVar14 = iVar14 + 1
+}
+return arg5, arg3, arg2, arg1, arg0
+return 0, 0, 0, 0, 0

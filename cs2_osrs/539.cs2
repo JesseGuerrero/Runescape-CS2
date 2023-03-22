@@ -1,0 +1,10 @@
+void script_539(Widget widget0, int arg1, Widget widget2, Widget widget3, Widget widget4, int arg5, int arg6, int arg7, int arg8, Widget widget9, int arg10) {
+	script_1124(widget2, arg6, "Player 'Attack' options:", widget0, arg1, widget2, widget3, widget4, arg5, arg6, arg7, arg8, widget9, arg10);
+	script_1124(widget3, arg7, "NPC 'Attack' options:", widget0, arg1, widget2, widget3, widget4, arg5, arg6, arg7, arg8, widget9, arg10);
+	script_1131(widget2, widget3);
+	widget0.hookVARP(&script_1130(widget2, widget3), 1107, 1306);
+	widget4.setIsHidden(true);
+	widget9.setNoClickThrough(1);
+	widget9.hookMousePress(&script_1128(widget4, widget(arg10), widget2, widget3));
+	return;
+}

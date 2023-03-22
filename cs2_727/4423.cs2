@@ -1,0 +1,4 @@
+//script4423(4423)()(void)
+if_sethide(if_gethash(1107, 90), 0)
+if_setsize(if_gethash(1107, 85), 0, 0, if_getheight(if_gethash(1107, 85)), 332)
+return

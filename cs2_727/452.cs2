@@ -1,0 +1,6 @@
+//script452(452)()(void)
+if(load_varpbit(7537) == 0)
+	if_setgraphic(if_gethash(1008, 31), 3745)
+else
+	if_setgraphic(if_gethash(1008, 31), 3746)
+return

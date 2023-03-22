@@ -1,0 +1,33 @@
+//script1377(1377)(int arg0, int arg1)(int)
+int iVar2
+iVar2 = -1
+if(load_varpbit(7516) == arg1)
+	iVar2 = script_486(load_varpbit(7520))
+else
+	if(load_varpbit(7517) == arg1)
+		iVar2 = script_486(load_varpbit(7521))
+	else
+		if(load_varpbit(7518) == arg1)
+			iVar2 = script_486(load_varpbit(7526))
+		else
+			if(load_varpbit(7519) == arg1)
+				iVar2 = script_486(load_varpbit(7527))
+			else
+				if(load_varpbit(7522) == arg1)
+					iVar2 = script_486(load_varpbit(7530))
+				else
+					if(load_varpbit(7523) == arg1)
+						iVar2 = script_486(load_varpbit(7531))
+					else
+						if(load_varpbit(7524) == arg1)
+							iVar2 = script_486(load_varpbit(7532))
+						else
+							if(load_varpbit(7525) == arg1)
+								iVar2 = script_486(load_varpbit(7533))
+							else
+								if(load_varpbit(7528) == arg1)
+									iVar2 = script_486(load_varpbit(7534))
+								else
+									if(load_varpbit(7529) == arg1)
+										iVar2 = script_486(load_varpbit(7535))
+return iVar2

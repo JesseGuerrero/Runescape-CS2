@@ -1,0 +1,9 @@
+//script5914(5914)()(void)
+int iVar0
+iVar0 = 82116654
+if_setposition(iVar0, 1, 1, 93, 181)
+instr6342(iVar0, script_5915, "Ii", -2147483645, 0)
+if_setgraphic(iVar0, script_6267(9890))
+if_setsize(iVar0, 0, 0, 120, 108)
+if_sethide(if_gethash(1253, 37), 1)
+return

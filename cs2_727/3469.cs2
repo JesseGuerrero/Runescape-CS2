@@ -1,0 +1,23 @@
+//script3469(3469)(int arg0, int arg1)(void)
+switch(random_inclusive(2)) {
+	case default:
+		break
+	case 0:
+		sound_synth(random(15), 1, 6645)
+		break
+	case 1:
+		sound_synth(random(15), 1, 6644)
+		break
+	case 2:
+		sound_synth(random(15), 1, 6643)
+		break
+
+}
+if(arg1 < instr6652(0) - 2) {
+	instr6677(arg1, 1, 3300, 3100, arg1, 0)
+	instr6255(arg0, script_3469, "Ii", arg0, arg1 + 1)
+	return
+}
+instr6677(arg1, 1, 0, 1000, arg1, 0)
+instr6255(arg0, None, "")
+return

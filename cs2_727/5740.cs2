@@ -1,0 +1,7 @@
+//script5740(5740)(int arg0)(void)
+if_settext(arg0, "")
+if_setonmouseover(arg0, None, "")
+hook_mouse_exit(arg0, None, "")
+instr6220(arg0)
+if_sethide(arg0, 1)
+return

@@ -1,0 +1,11 @@
+//script5564(5564)(int arg0)(int, string)
+string sVar0
+sVar0 = script_940(arg0)
+if(arg0 < 100000)
+	return 16776960, sVar0
+else
+	if(arg0 >= 10000000)
+		return 65408, sVar0
+	else
+		return 16777215, sVar0
+return 0, ""

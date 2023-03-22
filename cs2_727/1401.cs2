@@ -1,0 +1,41 @@
+//script1401(1401)(int arg0, int arg1, int arg2, string arg3)(int)
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+arg0 = script_1602(arg0)
+iVar3 = string_length(arg0)
+arg0 = arg0 - arg2
+if(arg0 <= 0)
+	return 0
+if(arg0 >= stringwidth(arg1, arg0))
+	return iVar3
+iVar4 = 0
+iVar5 = string_length(arg0)
+iVar6 = -1
+iVar7 = 0
+iVar8 = 0
+while(iVar4 != iVar5) {
+	iVar6 = ((iVar5 - iVar4) / 2) + iVar4
+	if(iVar6 == iVar4) {
+		iVar7 = stringwidth(arg1, substring(arg0, iVar5, 0))
+		if(iVar5 > 1)
+			iVar8 = stringwidth(arg1, substring(arg0, iVar5 - 1, 0))
+		if(iVar7 - arg0 < arg0 - iVar8)
+			return iVar5
+		return iVar5 - 1
+	}
+	if(arg0 <= stringwidth(arg1, substring(arg0, iVar6, 0)))
+		iVar4 = iVar4
+	else
+		iVar4 = iVar6
+}
+iVar7 = stringwidth(arg1, substring(arg0, iVar5, 0))
+if(iVar5 > 1)
+	iVar8 = stringwidth(arg1, substring(arg0, iVar5 - 1, 0))
+if(iVar7 - arg0 < arg0 - iVar8)
+	return iVar5
+return iVar5 - 1
+return 0

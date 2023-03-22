@@ -1,0 +1,9 @@
+//script122(122)(int arg0)(void)
+int iVar1
+iVar1 = 0
+iVar1 = modulo(100, client_clock())
+if(iVar1 > 50)
+	iVar1 = 100 - iVar1
+iVar1 = 255 - iVar1
+if_settrans(arg0, iVar1)
+return

@@ -1,0 +1,22 @@
+void script_920(Widget widget0, DataMap datamap1) {
+	int int2;
+	int int3;
+	int2 = 0;
+	int3 = 0;
+	if (datamap1 == 1131) {
+		int2 = widget(164, 33).getWidth();
+		int3 = widget(164, 33).getHeight();
+		if (widget0.getWidth() - datamap('I', 'I', datamap1, widget(161, 29)).getWidth() < 429) {
+			widget(164, 62).setPosition(0, int3 + widget(164, 47).getHeight(), 2, 2);
+			widget(164, 47).setPosition(0, int3, 2, 2);
+			widget(164, 46).setPosition(0, int3, 2, 2);
+		} else {
+			widget(164, 62).setPosition(0, int3, 2, 2);
+			widget(164, 47).setPosition(int2, 0, 2, 2);
+			widget(164, 46).setPosition(int2, 0, 2, 2);
+		}
+	} else if (datamap1 == 1129) {
+		widget(548, 7).cs2method2122(1200);
+	}
+	return;
+}

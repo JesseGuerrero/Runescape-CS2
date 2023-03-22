@@ -1,0 +1,10 @@
+//script1229(1229)(int arg0, int arg1, int arg2, int arg3)(void)
+if(arg0 != 1)
+	return
+instr6239(arg2, None, "")
+instr6342(arg1, None, "")
+instr6220(arg2)
+if_sethide(arg2, 1)
+if_sethide(arg3, 1)
+if_sethide(arg1, 1)
+return

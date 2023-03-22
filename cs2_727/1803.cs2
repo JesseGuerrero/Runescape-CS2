@@ -1,0 +1,4 @@
+//script1803(1803)(int arg0, int arg1)(void)
+if_setscrollpos(arg0, 0, 0)
+script_1784()
+return

@@ -1,0 +1,363 @@
+//script2946(2946)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+string sVar0
+string sVar1
+string sVar2
+string sVar3
+string sVar4
+iVar1 = script_2948()
+iVar2 = 39059514
+iVar3 = 39059513
+iVar4 = 39059500
+iVar5 = 39059462
+if(instr6710() == 1) {
+	iVar2 = 63897649
+	iVar4 = 63897644
+	iVar5 = 63897626
+}
+if(iVar1 == 42) {
+	if_setgraphic(if_gethash(744, 97), 6297)
+	if_sethide(if_gethash(744, 103), 0)
+	if_settext(if_gethash(744, 130), to_string(world_id()))
+	if_settext(if_gethash(744, 131), to_string(instr6101()))
+	store_varc(1100, 42)
+	return
+} else 
+	if(iVar1 == 43) {
+		if_settext(if_gethash(744, 130), to_string(world_id()))
+		if_settext(if_gethash(744, 131), to_string(instr6101()))
+		store_varc(1100, 43)
+		return
+	} else  {
+		if_sethide(if_gethash(744, 103), 1)
+		if_setgraphic(if_gethash(744, 97), 4129)
+	}
+if(iVar1 == -3) {
+	if_settext(iVar2, "Logging in...")
+	if_settext(iVar3, "Logging in...")
+	hook_mouse_press(iVar4, None, "")
+	script_2950(iVar1, 0, 1, -1, 0, -1, 0, "Logging In - Please Wait", "", "")
+	store_varc(1100, -3)
+	return
+}
+if(load_varc(1100) == -3)
+	script_2954()
+iVar6 = 0
+sVar0 = ""
+if(iVar1 == 21) {
+	store_varc(1100, 21)
+	if_settext(iVar2, "Logging in...")
+	if_settext(iVar3, "Logging in...")
+	hook_mouse_press(iVar4, None, "")
+	if(load_varc(200) == 0)
+		store_varc(200, instr6700())
+	store_varc(200, load_varc(200) - 1)
+	if(load_varc(200) <= 0) {
+		instr6342(iVar4, None, "")
+		if(arg0 == 0)
+			script_2945()
+		else
+			script_4634(arg0)
+		return
+	}
+	iVar6 = load_varc(200) / 50
+	if(iVar6 == 1)
+		sVar0 = "You have only just left another world. Your profile will be transferred in" + "<br>" + "1 second."
+	else
+		sVar0 = "You have only just left another world. Your profile will be transferred in" + "<br>" + to_string(iVar6) + " seconds."
+	if(if_gethide(iVar5) == 1)
+		script_2950(iVar1, 0, 0, 2611, 1, 1, 0, sVar0, "Abort Login", "")
+	else
+		script_3233(sVar0)
+	return
+}
+script_2954()
+iVar7 = 0
+sVar1 = ""
+if(iVar1 == 1) {
+	if_settext(iVar2, "Logging in...")
+	if_settext(iVar3, "Logging in...")
+	hook_mouse_press(iVar4, None, "")
+	iVar7 = (500 - load_varc(201)) / 50
+	if(load_varc(202) == 0)
+		if(iVar7 == 1)
+			sVar1 = "Could not display video advertisement. Login will continue in 1 second."
+		else
+			sVar1 = "Could not display video advertisement. Login will continue in " + to_string(iVar7) + " seconds"
+	else
+		if(load_varc(201) < 500)
+			if(iVar7 == 1)
+				sVar1 = "Displaying video advertisement. Login will continue in 1 second."
+			else
+				sVar1 = "Displaying video advertisement. Login will continue in " + to_string(iVar7) + " seconds."
+		else
+			sVar1 = "Displaying video advertisement. Login will continue in 0 seconds."
+	script_2950(iVar1, 0, 0, 2611, 0, -1, 0, sVar1, "", "")
+	store_varc(201, load_varc(201) + 1)
+	script_2954()
+	instr6204()
+	return
+}
+script_2954()
+if(instr6710() == 1) {
+	if_settext(iVar2, "Play Game")
+	if_settext(iVar3, "Play Game")
+} else  {
+	if_settext(iVar2, "Log In")
+	if_settext(iVar3, "Log In")
+}
+hook_mouse_press(iVar4, script_2944, "")
+if(instr6710() == 1)
+	instr6342(if_gethash(975, 26), None, "")
+else
+	instr6342(if_gethash(596, 6), None, "")
+sVar2 = ""
+iVar8 = 1
+iVar9 = 0
+iVar10 = 2608
+iVar11 = 0
+iVar12 = 0
+sVar3 = ""
+iVar13 = 1
+sVar4 = "Back"
+switch(iVar1) {
+	case default:
+		break
+	case -2:
+		script_2954()
+		if(instr6710() == 1)
+			return
+		else
+			script_2940(11)
+		return
+
+	case 29:
+		switch(instr6774()) {
+			case default:
+				break
+			case 0:
+				sVar2 = "You must have a Combat Level of at least 20 (not including Summoning) to enter a PvP world."
+				break
+			case 1:
+				sVar2 = "You are currently carrying lent items and cannot enter a PvP world."
+				break
+			case 2:
+				sVar2 = "You must be standing in the Wilderness or Edgeville to enter this bounty world."
+				break
+			case 3:
+				sVar2 = "You must have a total skill level of 1,000 or greater to enter this world."
+				break
+			case 5:
+				sVar2 = "You must have a total skill level of 1,500 or greater to enter this world."
+				break
+			case 4:
+				sVar2 = "You must move to a safe area before you can log in to a PvP or bounty world."
+				sVar2 = "Unexpected server response. Please try using a different world."
+				break
+
+		}
+		break
+	case 46:
+		sVar2 = "This instance is marked for deletion/rebuild. Please try using a different world."
+		break
+	case 45:
+		switch(instr6720()) {
+			case default:
+				break
+			case 0:
+				switch(instr6774()) {
+					case default:
+						break
+					case 0:
+						sVar2 = "You must be near the TzHaar Fight Pits entrance to enter a global match."
+						break
+
+				}
+				sVar2 = "Unable to log in. Please try using a different world."
+				break
+			case 1:
+				switch(instr6774()) {
+					case default:
+						break
+					case 1:
+						sVar2 = "There was an error connecting to your meeting room. Please try again."
+						break
+					case 2:
+						sVar2 = "You need a higher rank to enter that private tent."
+						break
+					case 3:
+						sVar2 = "You need an invitation to enter that private room."
+						sVar2 = "Unable to log in. Please try using a different world."
+						break
+
+				}
+				sVar2 = "Unexpected server response. Please try using a different world."
+				break
+
+		}
+		break
+	case -5:
+		sVar2 = "Connection timed out. Please try using a different world."
+		break
+	case -4:
+		sVar2 = "Error connecting to server."
+		break
+	case -1:
+		sVar2 = "No response from server. Please try using a different world."
+		break
+	case 5:
+		sVar2 = "Your account has not logged out from its last session. Try again in a few minutes."
+		break
+	case 7:
+		sVar2 = "This world is full. Please use a different world."
+		break
+	case 8:
+		sVar2 = "Unable to connect: login server offline."
+		break
+	case 9:
+		sVar2 = "Login limit exceeded: too many connections from your address."
+		break
+	case 10:
+		sVar2 = "Unable to connect: bad session id."
+		break
+	case 13:
+		sVar2 = "Could not complete login. Please try using a different world."
+		break
+	case 16:
+		sVar2 = "Too many incorrect logins from your address. Please wait 5 minutes before trying again."
+		break
+	case 17:
+		sVar2 = "You are standing in a members-only area. To play on this world, move to a free area first."
+		break
+	case 20:
+		sVar2 = "Invalid loginserver requested. Please try using a different world."
+		break
+	case 22:
+		sVar2 = "Malformed login packet. Please try again."
+		break
+	case 23:
+		sVar2 = "No reply from login server. Please wait a minute and try again."
+		break
+	case 24:
+		sVar2 = "Error loading your profile. Please contact customer support."
+		break
+	case 25:
+		sVar2 = "Unexpected loginserver response. Please try using a different world."
+		break
+	case 26:
+		sVar2 = "This computer's address has been blocked, as it was used to break our rules."
+		break
+	case 27:
+		sVar2 = "Service unavailable."
+		break
+	case 36:
+		sVar2 = "Unable to connect: authentication server offline."
+		break
+	case 37:
+		sVar2 = "Your account is currently inaccessible. Please try again in a few minutes."
+		break
+	case 39:
+		sVar2 = "The instance you tried to join no longer exists. Please try using a different world."
+		break
+	case 41:
+		sVar2 = "The instance you tried to join is full. Please try back later or try using a different world."
+		break
+	case 44:
+		sVar2 = "Our systems are currently unavailable. Please try again in a few minutes."
+		break
+	case 35:
+		sVar2 = "Your session has expired. Please click 'Back' in your browser to renew it."
+		sVar4 = "Close"
+		break
+	case 14:
+		iVar8 = 0
+		iVar10 = 2610
+		sVar2 = "The server is being updated. Please wait a few minutes and try again."
+		break
+	case 6:
+		iVar8 = 0
+		iVar10 = 2610
+		sVar2 = "RuneScape has been updated! Please reload this page."
+		break
+	case 3:
+		if(load_varc(1414) == 1)
+			sVar2 = "Invalid username or password." + "<br>" + "<br>" + "For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username."
+		else
+			if(load_varc(1414) == 2)
+				sVar2 = "Invalid email or password." + "<br>" + "<br>" + "For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username."
+			else
+				sVar2 = "Invalid login or password." + "<br>" + "<br>" + "For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username."
+		sVar4 = "Try Again"
+		iVar11 = 1
+		sVar3 = "Forgotten your password?"
+		break
+	case 4:
+		sVar2 = "Your account has been disabled. Check your message centre for details."
+		iVar11 = 1
+		sVar3 = "Message Centre"
+		break
+	case 11:
+		sVar2 = "Your password is an extremely common choice, and is not secure. You must change it before you can login."
+		iVar11 = 1
+		sVar3 = "Change Password"
+		break
+	case 18:
+		iVar10 = 2612
+		sVar2 = "Your account has been locked. If you have not received an account recovery email, please select 'Recover Account'."
+		iVar11 = 1
+		sVar3 = "Recover Account"
+		break
+	case 30:
+		sVar2 = "This is not a member's account; please choose a 'free' world from the website to play on this account."
+		iVar11 = 1
+		sVar3 = "Subscribe"
+		break
+	case 31:
+		sVar2 = "You must change your account's display name before you can login."
+		iVar11 = 1
+		sVar3 = "Change Display Name"
+		break
+	case 19:
+		sVar2 = "Fullscreen is currently a members-only feature. To log in, exit fullscreen via the options menu or use a member's account."
+		iVar11 = 1
+		sVar3 = "Subscribe"
+		break
+	case 12:
+		sVar2 = "You need a member's account to log in to this world. Please subscribe or use a different world."
+		iVar11 = 1
+		sVar3 = "Subscribe"
+		break
+	case 40:
+		sVar2 = "You need a member's account to log in to this world. Please subscribe or use a different world."
+		iVar11 = 1
+		sVar3 = "Subscribe"
+		break
+	case 32:
+		sVar2 = "Your account has negative membership credit. Please log into the billing system to add credit to your account."
+		iVar11 = 1
+		sVar3 = "Add Credit"
+		break
+	case 47:
+		sVar2 = "You need to validate your email address to log in."
+		break
+	case 48:
+		sVar2 = "Your game session has now ended." + "<br>" + "<br>" + "To play again, please close your browser tab/window and wait 5 minutes before reloading the game. "
+		sVar2 = "Unexpected server response. Please try using a different world."
+		break
+
+}
+script_2950(iVar1, iVar8, iVar9, iVar10, iVar11, iVar12, iVar13, sVar2, sVar3, sVar4)
+instr6694()
+return

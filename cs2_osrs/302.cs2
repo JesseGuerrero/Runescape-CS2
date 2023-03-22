@@ -1,0 +1,62 @@
+void script_302(Widget widget0, Widget widget1) {
+	int int2;
+	int int3;
+	int int4;
+	int int5;
+	int int6;
+	Item item7;
+	int int8;
+	string str0;
+	widget0.clearChildren();
+	widget1.clearChildren();
+	int2 = widget0.getWidth();
+	int3 = int2 / 7;
+	int4 = (int3 - 36) / 2;
+	int5 = 32 + 20;
+	int6 = 0;
+	item7 = datamap('i', 'O', 709, int6);
+	while (item7 != null) {
+		CHILD.createChild(widget0, 5, int6 * 2);
+		_CHILD.createChild(widget0, 4, int6 * 2 + 1);
+		CHILD.setPosition(int4 + int6 % 7 * int3, int6 / 7 * int5, 0, 0);
+		_CHILD.setPosition(CHILD.getX(), CHILD.getY() + 32, 0, 0);
+		script_303(item7);
+		int6 = int6 + 1;
+		item7 = datamap('i', 'O', 709, int6);
+	}
+	str0 = "These items will give you a benefit in future Nightmare Zone dreams, and cannot be used elsewhere." + "<br>" + "<br>" + "Dominic's potions are sold by the dose. When you purchase a dose, it is automatically stored in Dominic's barrels until you collect it." + "<br>" + "<br>" + "The figures in " + "<col=ffffff>" + "white" + "</col>" + " show the number of doses you've got stored already.";
+	int2 = widget1.getWidth();
+	int8 = getLineCount(str0, int2, 495) * 12 + 5;
+	int3 = int2 / 7;
+	int4 = (int3 - 36) / 2;
+	int5 = 32 + 40;
+	int6 = 0;
+	item7 = datamap('i', 'O', 814, int6);
+	while (item7 != null) {
+		CHILD.createChild(widget1, 5, int6 * 3);
+		_CHILD.createChild(widget1, 4, int6 * 3 + 1);
+		CHILD.setPosition(int4 + int6 % 7 * int3, int8 + int6 / 7 * int5, 0, 0);
+		_CHILD.setPosition(CHILD.getX(), CHILD.getY() + 32, 0, 0);
+		script_303(item7);
+		CHILD.createChild(widget1, 4, int6 * 3 + 2);
+		CHILD.setSize(36, 20, 0, 0);
+		CHILD.setPosition(_CHILD.getX(), _CHILD.getY() + _CHILD.getHeight(), 0, 0);
+		CHILD.setFont(495);
+		CHILD.setRGB(0xFFFFFF);
+		CHILD.setTextAntiMacro(true);
+		CHILD.setTextAlignment(1, 0, 0);
+		script_304(item7);
+		CHILD.hookVARP(&script_251(CTX_WIDGET, CTX_WIDGET_CHILD, item7), 1066);
+		int6 = int6 + 1;
+		item7 = datamap('i', 'O', 814, int6);
+	}
+	CHILD.createChild(widget1, 4, int6 * 3);
+	CHILD.setSize(int2, int8, 0, 0);
+	CHILD.setPosition(0, 0, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(0, 0, 0);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str0);
+	return;
+}

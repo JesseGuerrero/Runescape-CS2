@@ -1,0 +1,60 @@
+//script328(328)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+string sVar0
+cc_deleteall(arg0)
+iVar1 = 5
+iVar2 = 5
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+sVar0 = " "
+iVar7 = -1
+if(gender() == 1) {
+	iVar4 = enum_getoutputcount(2363)
+	if(load_varc(783) == 0)
+		iVar7 = 2362
+	else
+		iVar7 = 2361
+} else  {
+	iVar4 = enum_getoutputcount(2132)
+	if(load_varc(783) == 0)
+		iVar7 = 2129
+	else
+		iVar7 = 1609
+}
+iVar5 = iVar4 * 2
+while(iVar3 < iVar4) {
+	cc_create(iVar3, 5, arg0)
+	cc_setsize(0, 0, 36, 36)
+	cc_setposition(0, 0, iVar2, iVar1)
+	cc_setgraphic(180)
+	cc_setop("Select" + "<col=ff9040>", 1)
+	instr6687(script_331, "Ii", -2147483645, -2147483643)
+	iVar3 = iVar3 + 1
+	iVar2 = 28 + iVar2
+}
+iVar2 = 5
+while(iVar3 < iVar5) {
+	sVar0 = enum(iVar7, iVar6, 'i', 's')
+	cc_create(iVar3, 4, arg0)
+	cc_settext(sVar0)
+	cc_setsize(0, 0, 16, 124)
+	cc_setposition(0, 0, iVar2, iVar1 + 20)
+	cc_setcolor(ffffff)
+	cc_settextfont(494)
+	cc_settextshadow(0)
+	cc_settextalign(0, 1, 0)
+	cc_setop("Select" + "<col=ff9040>", 1)
+	instr6687(script_331, "Ii", -2147483645, iVar3 - iVar4)
+	iVar3 = iVar3 + 1
+	iVar6 = iVar6 + 1
+	iVar2 = 28 + iVar2
+}
+return

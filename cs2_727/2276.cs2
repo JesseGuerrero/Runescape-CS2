@@ -1,0 +1,22 @@
+//script2276(2276)(int arg0, int arg1, int arg2)(void)
+int iVar3
+string sVar0
+string sVar1
+sVar0 = enum(2857, arg1, 'i', 's')
+iVar3 = enum(2858, arg1, 'i', 'i')
+sVar1 = enum(2859, arg1, 'i', 's')
+if(arg0 == 1) {
+	if_settext(arg2, sVar0)
+	if(iVar3 == 2)
+		if_setcolor(arg2, 0xA000)
+	else
+		if(iVar3 == 1)
+			if_setcolor(arg2, 0x909000)
+		else
+			if(iVar3 == 0)
+				if_setcolor(arg2, 0xA00000)
+	if_setonmouseover(arg2, script_38, "IIsii", -2147483645, if_gethash(933, 254), sVar1, 25, 200)
+	hook_mouse_exit(arg2, script_40, "I", if_gethash(933, 254))
+} else 
+	if_settext(arg2, "")
+return

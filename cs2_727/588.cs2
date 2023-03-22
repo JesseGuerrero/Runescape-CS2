@@ -1,0 +1,5 @@
+//script588(588)()(void)
+store_varc(82, 0)
+store_varc(83, 0)
+script_621()
+return

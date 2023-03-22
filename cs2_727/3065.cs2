@@ -1,0 +1,4 @@
+//script3065(3065)(int arg0)(void)
+script_3066(load_varc(998), 1, 59375807, 59375809, arg0)
+script_3066(load_varc(999), 2, 59375808, 59375810, arg0)
+return

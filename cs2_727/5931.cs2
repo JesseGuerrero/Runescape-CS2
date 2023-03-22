@@ -1,0 +1,11 @@
+//script5931(5931)(int arg0, int arg1)(void)
+int iVar2
+iVar2 = 9865
+arg1 = arg1 + 1
+if(arg1 >= 50)
+	arg1 = 0
+instr6342(arg0, script_5931, "Ii", -2147483645, arg1)
+if(arg1 >= 25)
+	iVar2 = 9866
+if_setgraphic(arg0, script_6267(iVar2))
+return

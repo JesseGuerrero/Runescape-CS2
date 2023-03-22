@@ -1,0 +1,55 @@
+void script_1390(int arg0, int arg1, int arg2, int arg3, int arg4) {
+	Widget widget5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	widget5 = datamap('i', 'I', 1424, arg0);
+	if (widget5 == null) {
+		return;
+	}
+	int6 = 0;
+	int7 = 0;
+	int8 = 0;
+	int6, int7, int8 = script_1387(arg1);
+	if (int7 == 3) {
+		widget5.setIsHidden(true);
+		widget5.setNoOptions();
+		widget5.hookOptionClick(null);
+		return;
+	}
+	int9 = -1;
+	if (int7 == arg2) {
+		widget5.setIsHidden(false);
+		widget5.setContextMenuOption(1, "View");
+		widget5.hookOptionClick(&script_1379(CTX_MENU_OPTION, CTX_WIDGET, arg0));
+		if (CHILD.setChild(widget(422, 5), arg2 * arg4 + int8 * arg3 + int6) == true) {
+			CHILD.setHidden(true);
+		}
+		if (CHILD.setChild(widget5, 1) == true) {
+			CHILD.setHidden(true);
+		}
+	} else if (int7 == 1 && arg2 == 2) {
+		int9 = script_1386(int6, 2, int8);
+		if (VARC[141] != int9 && VARC[142] != int9 && VARC[143] != int9 && VARC[144] != int9 && VARC[145] != int9 && VARC[146] != int9 && VARC[147] != int9 && VARC[148] != int9 && VARC[149] != int9 && VARC[150] != int9 && VARC[151] != int9 && VARC[152] != int9 && VARC[153] != int9 && VARC[154] != int9 && VARC[155] != int9 && VARC[156] != int9 && VARC[157] != int9 && VARC[158] != int9 && VARC[159] != int9 && VARC[160] != int9 && VARC[161] != int9 && VARC[162] != int9 && VARC[163] != int9 && VARC[164] != int9 && VARC[165] != int9 && VARC[166] != int9 && VARC[167] != int9 && VARC[168] != int9 && VARC[169] != int9 && VARC[170] != int9 && VARC[174] != int9 && VARC[176] != int9 && VARC[177] != int9) {
+			widget5.setIsHidden(false);
+			widget5.setNoOptions();
+			widget5.hookOptionClick(null);
+			if (CHILD.setChild(widget(422, 5), arg2 * arg4 + int8 * arg3 + int6) == true) {
+				CHILD.setHidden(false);
+			}
+			if (CHILD.setChild(widget5, 1) == true) {
+				CHILD.setHidden(false);
+			}
+		} else {
+			widget5.setIsHidden(true);
+			widget5.setNoOptions();
+			widget5.hookOptionClick(null);
+		}
+	} else {
+		widget5.setIsHidden(true);
+		widget5.setNoOptions();
+		widget5.hookOptionClick(null);
+	}
+	return;
+}

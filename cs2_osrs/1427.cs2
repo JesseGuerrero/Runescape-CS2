@@ -1,0 +1,21 @@
+void script_1427(int arg0) {
+	int int1;
+	int int2;
+	int int3;
+	int int4;
+	int1 = arg0 - getClientCycle();
+	if (int1 <= 0) {
+		widget(396, 3).setText("");
+		widget(396, 3).hookFrame(null);
+		return;
+	}
+	int2 = int1 / 50;
+	int3 = int2 / 60;
+	int4 = int2 % 60;
+	if (int3 > 0) {
+		widget(396, 3).setText("The Wintertodt returns in: " + int3 + "min " + int4 + "sec");
+	} else {
+		widget(396, 3).setText("The Wintertodt returns in: " + int4 + "sec");
+	}
+	return;
+}

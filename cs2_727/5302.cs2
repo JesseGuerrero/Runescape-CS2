@@ -1,0 +1,11 @@
+//script5302(5302)(int arg0, int arg1)(void)
+if(if_gethide(arg0) == 1) {
+	script_5306()
+	if_sethide(arg0, 0)
+	if_setgraphic(arg1, 6169)
+} else  {
+	if_sethide(arg0, 1)
+	if_setgraphic(arg1, 6168)
+	script_5219(54001697)
+}
+return

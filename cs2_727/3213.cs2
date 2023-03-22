@@ -1,0 +1,122 @@
+//script3213(3213)(int arg0, string arg1)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+string sVar0
+string sVar1
+iVar1 = 0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+sVar0 = "accountappeal"
+sVar1 = "passwordchoice.ws"
+switch(arg0) {
+	case default:
+		if_sethide(if_gethash(673, 30), 1)
+		return
+
+	case 44105821:
+		if(string_length(arg0) > 0) {
+			if_setgraphic(if_gethash(673, 93), 4061)
+			if_sethide(if_gethash(673, 98), 0)
+			if_settext(if_gethash(673, 29), arg0)
+			if_settext(if_gethash(673, 136), arg0)
+		} else 
+			if(if_getspriteid(arg0) == 4061)
+				if_settext(if_gethash(673, 29), if_gettext(if_gethash(673, 136)))
+			else
+				if(if_getspriteid(arg0) == 4059)
+					if_settext(if_gethash(673, 29), "This email address is available for use.")
+				else
+					if_settext(if_gethash(673, 29), "Please enter your email address here.")
+		if_setsize(if_gethash(673, 30), 0, 0, (paramheight(if_gettext(if_gethash(673, 29)), 3793, 110 - 20) * 12) + 10, 110)
+		iVar2 = 99
+		iVar4 = 450
+		break
+	case 44105840:
+		if(string_length(arg0) > 0) {
+			if_setgraphic(if_gethash(673, 112), 4061)
+			if_sethide(if_gethash(673, 117), 0)
+			if_settext(if_gethash(673, 29), arg0)
+			if_settext(if_gethash(673, 137), arg0)
+		} else 
+			if(if_getspriteid(arg0) == 4061)
+				if_settext(if_gethash(673, 29), if_gettext(if_gethash(673, 137)))
+			else
+				if(if_getspriteid(arg0) == 4059)
+					if_settext(if_gethash(673, 29), "Both email addresses match.")
+				else
+					if_settext(if_gethash(673, 29), "Please enter your email address again here.")
+		if_setsize(if_gethash(673, 30), 0, 0, (paramheight(if_gettext(if_gethash(673, 29)), 3793, 110 - 20) * 12) + 10, 110)
+		iVar2 = 128
+		iVar4 = 450
+		break
+	case 44105811:
+		if(string_length(arg0) > 0) {
+			if_setgraphic(if_gethash(673, 83), 4061)
+			if_sethide(if_gethash(673, 88), 0)
+			if_settext(if_gethash(673, 29), arg0)
+			if_settext(if_gethash(673, 138), arg0)
+		} else 
+			if(if_getspriteid(arg0) == 4061)
+				if_settext(if_gethash(673, 29), if_gettext(if_gethash(673, 138)))
+			else
+				if(if_getspriteid(arg0) == 4059)
+					if_settext(if_gethash(673, 29), "You have entered your password.")
+				else
+					if_settext(if_gethash(673, 29), "Please enter your desired password here.")
+		if_setsize(if_gethash(673, 30), 0, 0, (paramheight(if_gettext(if_gethash(673, 29)), 3793, 110 - 20) * 12) + 10, 110)
+		iVar2 = 161
+		iVar4 = 450
+		break
+	case 44105801:
+		if(string_length(arg0) > 0) {
+			if_setgraphic(if_gethash(673, 73), 4061)
+			if_sethide(if_gethash(673, 78), 0)
+			if_settext(if_gethash(673, 29), arg0)
+			if_settext(if_gethash(673, 139), arg0)
+		} else 
+			if(if_getspriteid(arg0) == 4061)
+				if_settext(if_gethash(673, 29), if_gettext(if_gethash(673, 139)))
+			else
+				if(if_getspriteid(arg0) == 4059)
+					if_settext(if_gethash(673, 29), "Both passwords match.")
+				else
+					if_settext(if_gethash(673, 29), "Please enter your desired password again here.")
+		if_setsize(if_gethash(673, 30), 0, 0, (paramheight(if_gettext(if_gethash(673, 29)), 3793, 110 - (10 * 2)) * 12) + 10, 110)
+		iVar2 = 190
+		iVar4 = 450
+		break
+	case 44105776:
+		if(string_length(arg0) > 0) {
+			if_setgraphic(if_gethash(673, 48), 4061)
+			if_sethide(if_gethash(673, 124), 0)
+			if_settext(if_gethash(673, 29), arg0)
+			if_settext(if_gethash(673, 140), arg0)
+		} else 
+			if(if_getspriteid(arg0) == 4061)
+				if_settext(if_gethash(673, 29), if_gettext(if_gethash(673, 140)))
+			else
+				if(if_getspriteid(arg0) == 4059)
+					if_settext(if_gethash(673, 29), "You have entered your age.")
+				else
+					if_settext(if_gethash(673, 29), "Please enter your age, in years, here.")
+		iVar5 = if_getwidth(if_gethash(673, 37)) - 277
+		if_setsize(if_gethash(673, 30), 0, 0, 30, min(iVar5, parawidth(if_gettext(if_gethash(673, 29)), 3793, (stringwidth(3793, if_gettext(if_gethash(673, 29))) / 4) * 3) + (10 * 2)))
+		iVar2 = 223
+		iVar4 = 277
+		break
+
+}
+iVar1 = if_getheight(if_gethash(673, 30)) / 2
+iVar3 = iVar2 - iVar1
+if_setposition(if_gethash(673, 30), 0, 0, iVar3, iVar4)
+if_sethide(if_gethash(673, 30), 0)
+if(compare("Email already in use. Try a different email or click " + "<u=ebe0bc>" + "here" + "</u>" + " to recover this account.", if_gettext(if_gethash(673, 29))) == 0)
+	hook_mouse_press(if_gethash(673, 31), script_2931, "ss1", sVar0, sVar1, 1)
+else
+	hook_mouse_press(if_gethash(673, 31), None, "")
+return

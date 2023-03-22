@@ -1,0 +1,19 @@
+void script_707(Widget widget0) {
+	Sprite sprite1;
+	int int2;
+	sprite1 = 812;
+	int2 = 813;
+	CHILD.setSprite(sprite1);
+	if (script_708() == 1) {
+		_CHILD.setRGB(0xFF981F);
+		widget0.hookMouseHover(&script_229(CTX_WIDGET, getChildId(), (Sprite)int2, null));
+		widget0.hookMouseExit(&script_229(CTX_WIDGET, getChildId(), sprite1, null));
+		widget0.hookOptionClick(&script_489(CTX_MENU_OPTION, 2));
+	} else {
+		_CHILD.setRGB(0x7F7F7F);
+		widget0.hookMouseHover(null);
+		widget0.hookMouseExit(null);
+		widget0.hookOptionClick(null);
+	}
+	return;
+}

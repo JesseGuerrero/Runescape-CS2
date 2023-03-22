@@ -1,0 +1,30 @@
+//script5655(5655)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+int iVar5
+if(arg3 < 5) {
+	arg3 = arg3 + 1
+	instr6342(arg0, script_5655, "IIii", arg0, arg1, arg2, arg3)
+	return
+} else  {
+	arg3 = 0
+	instr6342(arg0, script_5655, "IIii", arg0, arg1, arg2, arg3)
+}
+iVar4 = scale(100, 45, if_getheight(arg0))
+iVar5 = scale(100, 45, if_getheight(arg1))
+if(arg2 <= 50) {
+	if_setsize(arg1, 0, 0, 0, if_getwidth(arg1))
+	arg2 = arg2 * 2
+	if(iVar4 < arg2)
+		if_setsize(arg0, 0, 0, min(45, if_getheight(arg0) + 1), if_getwidth(arg0))
+	else
+		instr6342(arg0, None, "")
+} else 
+	if(iVar4 < 100)
+		if_setsize(arg0, 0, 0, min(45, if_getheight(arg0) + 1), if_getwidth(arg0))
+	else {
+		if(iVar5 < (arg2 - 50) * 2)
+			if_setsize(arg1, 0, 0, min(45, if_getheight(arg1) + 1), if_getwidth(arg1))
+		if(iVar5 >= (arg2 - 50) * 2)
+			instr6342(arg0, None, "")
+	}
+return

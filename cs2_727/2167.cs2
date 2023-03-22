@@ -1,0 +1,10 @@
+//script2167(2167)()(void)
+if(compare("#", substring(instr6574(), 1, 0)) == 0)
+	return
+if(load_varp(2522) == 2) {
+	if_sethide(if_gethash(906, 36), 1)
+	instr6342(if_gethash(906, 466), None, "")
+	if_sethide(if_gethash(906, 37), 0)
+	if_sendtofront(if_gethash(906, 37))
+}
+return

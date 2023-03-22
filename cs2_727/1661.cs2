@@ -1,0 +1,13 @@
+//script1661(1661)(int arg0, int arg1, int arg2)(void)
+cc_deleteall(arg2)
+if(load_varpbit(4895) != 3 || load_varp(281) != 55) {
+	instr6342(arg2, None, "")
+	return
+}
+cc_create(0, 6, arg2)
+cc_setmodel(41760)
+cc_setmodelanim(10221)
+cc_setsize(0, 0, 43, 43)
+script_1663(arg0, arg1, arg2)
+instr6342(arg2, script_1662, "IiI", arg0, arg1, arg2)
+return

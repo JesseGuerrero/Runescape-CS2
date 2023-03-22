@@ -1,0 +1,43 @@
+void script_1473(int arg0, boolean arg1, int arg2, Widget widget3, int arg4) {
+	if (arg1 == true) {
+		if (arg0 == 1) {
+			playSoundEffect(2266, 1, 0);
+			VARPBIT[5399], VARPBIT[5400] = 0, 0;
+			if (CHILD.setChild(widget3, arg4) == true) {
+				script_1472(widget3);
+			}
+		} else if (arg0 == 2) {
+			playSoundEffect(2266, 1, 0);
+			if (CHILD.setChild(widget3, arg4) == true) {
+				CHILD.setRGB(0xFFFFFF);
+				CHILD.setText("Set a value...");
+				widget3.hookMouseHover(null);
+				widget3.hookMouseExit(null);
+				widget3.hookOptionClick(null);
+				widget3.hookFrame(&script_1474(widget3, getChildId(), getClientCycle() + 100));
+			}
+		}
+	} else if (arg0 == 1) {
+		if (arg2 > 0) {
+			playSoundEffect(2266, 1, 0);
+			if (arg2 > 500000000) {
+				arg2 = 500000000;
+			}
+			VARPBIT[5399], VARPBIT[5400] = 1, arg2;
+			if (CHILD.setChild(widget3, arg4) == true) {
+				script_1472(widget3);
+			}
+		} else {
+			playSoundEffect(2266, 1, 0);
+			if (CHILD.setChild(widget3, arg4) == true) {
+				CHILD.setRGB(0xFFFFFF);
+				CHILD.setText("Set a value...");
+				widget3.hookMouseHover(null);
+				widget3.hookMouseExit(null);
+				widget3.hookOptionClick(null);
+				widget3.hookFrame(&script_1474(widget3, getChildId(), getClientCycle() + 100));
+			}
+		}
+	}
+	return;
+}

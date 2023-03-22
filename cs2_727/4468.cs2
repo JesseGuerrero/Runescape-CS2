@@ -1,0 +1,13 @@
+//script4468(4468)()(int)
+int iVar0
+int iVar1
+iVar0 = -1
+iVar1 = -1
+iVar1 = activeclanchannel_getuserslot(removetags(instr6574()))
+if(iVar1 >= 0) {
+	iVar0 = activeclanchannel_getuserrank(iVar1)
+	if(iVar0 >= activeclanchannel_getrankkick())
+		return 1
+}
+return 0
+return 0

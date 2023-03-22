@@ -1,0 +1,43 @@
+//script398(398)()(void)
+instr6220(if_gethash(306, 29))
+store_varc(767, 0)
+store_varc(761, -1)
+store_varc(762, -1)
+store_varc(763, -1)
+store_varc(764, -1)
+store_varc(765, 0)
+store_varc(766, 0)
+instr6342(if_gethash(306, 19), None, "")
+instr6342(if_gethash(306, 20), None, "")
+instr6342(if_gethash(306, 21), None, "")
+instr6342(if_gethash(306, 22), None, "")
+instr6342(if_gethash(306, 10), None, "")
+instr6342(if_gethash(306, 25), None, "")
+if_settext(if_gethash(306, 3), "Correct: " + to_string(load_varc(767)) + "/" + to_string(10))
+store_varc(761, enum(208, 1, 'i', 'm'))
+if(load_varc(761) != -1) {
+	if_setmodel(if_gethash(306, 6), load_varc(761))
+	if_setmodelangle(if_gethash(306, 6), 800, 0, 0, 512, 0, 0)
+}
+store_varc(762, enum(208, 2, 'i', 'm'))
+if(load_varc(762) != -1) {
+	if_setmodel(if_gethash(306, 7), load_varc(762))
+	if_setmodelangle(if_gethash(306, 7), 800, 0, 0, 512, 0, 0)
+}
+store_varc(763, enum(208, 3, 'i', 'm'))
+if(load_varc(763) != -1) {
+	if_setmodel(if_gethash(306, 8), load_varc(763))
+	if_setmodelangle(if_gethash(306, 8), 800, 0, 0, 512, 0, 0)
+}
+store_varc(764, enum(208, 4, 'i', 'm'))
+if(load_varc(764) != -1) {
+	if_setmodel(if_gethash(306, 9), load_varc(764))
+	if_setmodelangle(if_gethash(306, 9), 800, 0, 0, 512, 0, 0)
+}
+if_setposition(if_gethash(306, 6), 0, 0, if_gety(if_gethash(306, 6)), 0 - if_getwidth(if_gethash(306, 6)))
+if_setposition(if_gethash(306, 7), 0, 0, if_gety(if_gethash(306, 7)), 0 - if_getwidth(if_gethash(306, 7)))
+if_setposition(if_gethash(306, 8), 0, 0, if_gety(if_gethash(306, 8)), 0 - if_getwidth(if_gethash(306, 8)))
+if_setposition(if_gethash(306, 9), 0, 0, if_gety(if_gethash(306, 9)), 0 - if_getwidth(if_gethash(306, 9)))
+if_setposition(if_gethash(306, 10), 0, 0, 200, if_getx(if_gethash(306, 5)))
+instr6342(if_gethash(306, 19), script_399, "I", if_gethash(306, 6))
+return

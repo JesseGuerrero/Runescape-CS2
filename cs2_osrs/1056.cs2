@@ -1,0 +1,12 @@
+void script_1056(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8, Widget widget9) {
+	script_1058(widget1, 5341, "Rake");
+	script_1058(widget2, 5343, "Dibber");
+	script_1058(widget3, 952, "Spade");
+	script_1058(widget4, 5329, "Secateurs");
+	script_1058(widget5, 6797, "Watering Can");
+	script_1058(widget6, 5325, "Trowel");
+	script_1058(widget7, 1925, "Buckets");
+	script_1058(widget8, 6032, "Compost");
+	script_1058(widget9, 6034, "Supercompost");
+	return;
+}

@@ -1,0 +1,38 @@
+//script482(482)()(void)
+switch(load_varpbit(7512)) {
+	case default:
+		return
+
+	case 1:
+		if_setgraphic(if_gethash(1015, 143), 3257)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1015, 145), 3257)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1015, 147), 3257)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1015, 149), 3257)
+		break
+	case 5:
+		if_setgraphic(if_gethash(1015, 151), 3257)
+		break
+	case 6:
+		if_setgraphic(if_gethash(1015, 153), 3257)
+		break
+	case 7:
+		if_setgraphic(if_gethash(1015, 155), 3257)
+		break
+	case 8:
+		if_setgraphic(if_gethash(1015, 157), 3257)
+		break
+	case 9:
+		if_setgraphic(if_gethash(1015, 159), 3257)
+		break
+	case 10:
+		if_setgraphic(if_gethash(1015, 161), 3257)
+		break
+
+}
+return

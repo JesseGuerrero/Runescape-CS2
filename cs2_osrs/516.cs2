@@ -1,0 +1,40 @@
+int script_516(int arg0) {
+	int int1;
+	int1 = VARPBIT[4171];
+	if (arg0 < int1) {
+		return 1;
+	}
+	int1 = int1 + VARPBIT[4172];
+	if (arg0 < int1) {
+		return 2;
+	}
+	int1 = int1 + VARPBIT[4173];
+	if (arg0 < int1) {
+		return 3;
+	}
+	int1 = int1 + VARPBIT[4174];
+	if (arg0 < int1) {
+		return 4;
+	}
+	int1 = int1 + VARPBIT[4175];
+	if (arg0 < int1) {
+		return 5;
+	}
+	int1 = int1 + VARPBIT[4176];
+	if (arg0 < int1) {
+		return 6;
+	}
+	int1 = int1 + VARPBIT[4177];
+	if (arg0 < int1) {
+		return 7;
+	}
+	int1 = int1 + VARPBIT[4178];
+	if (arg0 < int1) {
+		return 8;
+	}
+	int1 = int1 + VARPBIT[4179];
+	if (arg0 < int1) {
+		return 9;
+	}
+	return 0;
+}

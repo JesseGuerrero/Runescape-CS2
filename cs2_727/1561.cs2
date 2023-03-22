@@ -1,0 +1,26 @@
+//script1561(1561)()(void)
+int iVar0
+int iVar1
+string sVar0
+string sVar1
+sVar0 = chat_getmessage(0)
+iVar0 = 1
+iVar1 = 0
+sVar1 = ""
+if(iVar1 == 0)
+	while(iVar0 < instr6225()) {
+		sVar1 = chat_getmessage(iVar0)
+		if(enum(370, chatline_gettype(iVar0), 'i', '1') == 0)
+			iVar1 = 1
+		else
+			if(chatline_getcycles20ms(iVar0) <= load_varc(1269))
+				iVar1 = 1
+			else
+				if(string_length(removetags(sVar1)) > 0)
+					sVar0 = append(sVar0, append("<br>", sVar1))
+				else
+					sVar0 = append(sVar0, "<br>")
+		iVar0 = iVar0 + 1
+	}
+script_102(sVar0)
+return

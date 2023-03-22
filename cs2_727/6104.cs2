@@ -1,0 +1,8 @@
+//script6104(6104)()(void)
+if(load_varp(2561) != -1)
+	if(load_varp(2563) != -1) {
+		script_6108(load_varp(2561), load_varp(2563))
+		script_6111()
+	} else 
+		script_6107()
+return

@@ -1,0 +1,6 @@
+//script4865(4865)(int arg0, int arg1)(void)
+if(cc_find(arg1, arg0) == 1 || arg1 == -1 || instr6004(arg0) == 1) {
+	cc_setsize(2, 4, scale(16384, 10, 9), 0)
+	cc_setaspect(336, 214)
+}
+return

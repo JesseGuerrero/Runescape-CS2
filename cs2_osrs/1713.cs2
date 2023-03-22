@@ -1,0 +1,44 @@
+void script_1713(Map arg0, Widget widget1, int arg2, Widget widget3, Widget widget4, Widget widget5, Widget widget6, Widget widget7, Widget widget8) {
+	Location location9;
+	Location location10;
+	int int11;
+	Map map12;
+	location9 = location(VARC[189]);
+	VARC[189] = -1;
+	if ((Map)cs2method6616() != arg0) {
+		script_1710(widget1, widget3);
+		if (cs2method6605() == 0) {
+			return;
+		}
+		if (CHILD.setChild(widget1, arg2) == true) {
+			script_1712(cs2method6616(), null, widget1, widget3, widget4, widget5, widget6, widget7, widget8);
+		}
+		return;
+	}
+	if (location9 == null) {
+		return;
+	}
+	script_1710(widget1, widget3);
+	if (cs2method6605() == 0) {
+		return;
+	}
+	location10 = null;
+	int11 = 0;
+	map12 = datamap('i', '`', 1697, int11);
+	while (map12 != null) {
+		location10 = script_1715(map12, location9);
+		if (location10 != null) {
+			if ((Map)cs2method6616() != map12) {
+				if (CHILD.setChild(widget1, arg2) == true) {
+					script_1712(map12, location10, widget1, widget3, widget4, widget5, widget6, widget7, widget8);
+				}
+			} else {
+				cs2method6608(location10);
+			}
+			return;
+		}
+		int11 = int11 + 1;
+		map12 = datamap('i', '`', 1697, int11);
+	}
+	return;
+}

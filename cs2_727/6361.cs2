@@ -1,0 +1,16 @@
+//script6361(6361)(int arg0)(void)
+int iVar1
+int iVar2
+iVar1 = 0
+iVar2 = 8 - 1
+while(arg0 < iVar2) {
+	iVar1 = max(iVar1, arg0 + 1)
+	while(script_6352(script_6362(arg0)) == 0) {
+		script_6367(arg0, iVar1)
+		iVar1 = iVar1 + 1
+		if(iVar1 == 8)
+			return
+	}
+	arg0 = arg0 + 1
+}
+return

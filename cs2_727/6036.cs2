@@ -1,0 +1,48 @@
+//script6036(6036)(int arg0, int arg1, int arg2)(string)
+int iVar3
+int iVar4
+if(arg0 == -1)
+	return "N/A"
+iVar3 = 0
+iVar4 = 0
+if(item_param(2549, arg2) > -1)
+	return enum(680, arg0, 'S', 's') + " XP"
+switch(arg2) {
+	case default:
+		iVar3 = arg1 / 10
+		break
+	case 24151:
+		return enum(680, arg0, 'S', 's') + " XP"
+
+	case 18767:
+		iVar3 = stat_base(arg0) * 10
+		break
+	case 11640:
+		iVar3 = stat_base(arg0) * 15
+		break
+	case 13463:
+		iVar4 = stat_base(arg0)
+		if(iVar4 <= 18)
+			iVar3 = enum(716, iVar4 + 1, 'i', 'i') - enum(716, iVar4, 'i', 'i')
+		else
+			iVar3 = stat_base(arg0) * 25
+		break
+	case 18782:
+		iVar4 = stat_base(arg0)
+		if(iVar4 < 30)
+			iVar3 = enum(716, iVar4 + 1, 'i', 'i') - enum(716, iVar4, 'i', 'i')
+		else {
+			iVar3 = ((iVar4 * iVar4) - (2 * iVar4)) + 100
+			iVar3 = iVar3 * ((iVar4 * 10000) / 20)
+			iVar3 = iVar3 / 10000
+		}
+		break
+	case 20708:
+		iVar4 = stat_base(arg0)
+		iVar3 = iVar4 ^ 2
+		iVar3 = (iVar3 - (2 * iVar4)) + 100
+		break
+
+}
+return enum(680, arg0, 'S', 's') + ": " + tostring_localized(1, iVar3) + " XP"
+return ""

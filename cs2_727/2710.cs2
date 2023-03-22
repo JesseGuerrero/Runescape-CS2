@@ -1,0 +1,44 @@
+//script2710(2710)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+if_settrans(arg2, 0)
+instr6342(arg2, None, "")
+if_sethide(arg2, 0)
+instr6342(arg0, None, "")
+instr6255(arg0, None, "")
+if_sethide(arg0, 1)
+detailset_removeroofs_option_override(1)
+instr6342(arg1, None, "")
+if_setcolor(arg1, 0x0)
+if_settrans(arg1, 0)
+if_sethide(arg1, 0)
+if(load_varc(994) == 1)
+	store_varc(986, 1)
+else
+	if(load_varc(994) != 2)
+		if(profile_cpu() > 400) {
+			store_varc(994, 1)
+			store_varc(986, 1)
+			if(instr6644() > 1)
+				instr6645(1)
+			if(instr6406() > 1)
+				instr6647(1)
+		} else 
+			store_varc(994, 2)
+hook_mouse_press(arg3, script_2713, "IIIIII", arg0, arg1, arg2, arg3, arg4, arg5)
+if_setonmouseover(arg3, script_2961, "II1", arg4, arg5, 1)
+hook_mouse_exit(arg3, script_2961, "II1", arg4, arg5, 0)
+store_varc(986, 1)
+if(load_varc(986) == 1) {
+	if_setgraphic(arg4, 2700)
+	return
+}
+iVar6 = -1
+iVar7 = 0
+iVar6 = script_1239(0).get(0)
+instr6675(100, 100, 1000, iVar6)
+instr6162(100, 100, 0, iVar6)
+if_setgraphic(arg4, 2703)
+store_varc(177, (client_clock() + 30) + 30)
+instr6342(arg2, script_2712, "III", arg0, arg2, arg1)
+return

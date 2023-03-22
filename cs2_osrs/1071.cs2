@@ -1,0 +1,14 @@
+int script_1071(string string0, int arg1, Widget widget2) {
+	CHILD.createChild(widget2, 4, arg1 * 2);
+	_CHILD.createChild(widget2, 5, arg1 * 2 + 1);
+	CHILD.setSize(20, 17, 1, 0);
+	_CHILD.setSize(17, 17, 0, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setTextAlignment(0, 1, 0);
+	CHILD.setText(string0);
+	CHILD.hookVARP(&script_1072(CTX_WIDGET, arg1), 453);
+	_CHILD.setSprite(1210);
+	script_1073(arg1);
+	return getMaxLineWidth(string0, 512, 495);
+}

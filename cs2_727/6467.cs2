@@ -1,0 +1,17 @@
+//script6467(6467)()(int)
+int iVar0
+int iVar1
+int iVar2
+iVar0 = 5960
+iVar1 = 0
+iVar2 = 0
+iVar1 = script_6468(16, iVar1)
+iVar1 = script_6468(15, iVar1)
+while(iVar2 < enum_getoutputcount(iVar0) - 2) {
+	iVar1 = script_6468(iVar2, iVar1)
+	iVar2 = iVar2 + 1
+}
+if_setscrollsize(85917770, max(if_getheight(if_gethash(1311, 74)), iVar1), 0)
+script_31(85917774, 85917770, 4343, 4340, 4341, 4342, 4337, 4336)
+script_6481(load_varc(1964), load_varc(1965))
+return 0

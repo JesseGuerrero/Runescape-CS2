@@ -1,0 +1,21 @@
+//script3957(3957)(int arg0)(void)
+int iVar1
+iVar1 = if_getspriteid(arg0)
+switch(iVar1) {
+	case default:
+		return
+
+	case 4117:
+		if_setgraphic(arg0, 4122)
+		break
+	case 4118:
+		if_setgraphic(arg0, 4123)
+		break
+	case 4119:
+		if_setgraphic(arg0, 4124)
+		break
+
+}
+if_setsize(if_gethash(744, 81), 0, 0, 16, 133)
+instr6342(if_gethash(744, 7), script_3961, "iI", 0, if_gethash(744, 7))
+return

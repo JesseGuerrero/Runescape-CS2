@@ -1,0 +1,156 @@
+//script1221(1221)(int arg0, int arg1)(void)
+int iVar2
+if(load_varc(174) == 11)
+	return
+iVar2 = script_2948()
+switch(load_varc(174)) {
+	case default:
+		break
+	case 12:
+		return
+
+	case 2:
+		switch(iVar2) {
+			case default:
+				break
+			case 1:
+				return
+
+
+		}
+		if(arg0 == 13) {
+			script_1174(11)
+			return
+		}
+		return
+
+	case 3:
+		switch(iVar2) {
+			case default:
+				break
+			case 1:
+				return
+
+
+		}
+		switch(arg0) {
+			case default:
+				break
+			case 13:
+				script_1174(11)
+				return
+
+			case 80:
+				if(load_varc(175) >= client_clock())
+					return
+				store_varc(174, 4)
+				store_varc(175, client_clock())
+				store_varc(1099, string_length(script_2949(load_varc_string(33))))
+				script_3237(39059531, 39059532, 39059533, 4, script_2949(load_varc_string(33)))
+				return
+
+			case 103:
+				store_varc(1099, script_1553(arg0, load_varc(1099), load_varc_string(32)))
+				script_3237(39059525, 39059526, 39059527, 3, load_varc_string(32))
+				return
+
+
+		}
+		if(string_length(load_varc_string(32)) >= 320)
+			if(arg0 != 85)
+				if(arg0 != 101 || string_length(removetags(append_char("", arg1))) == 0)
+					return
+		store_varc_string(32, script_802(load_varc(1099), 0, arg0, arg1, load_varc_string(32)).get(1))
+		if_settext(if_gethash(596, 70), load_varc_string(32))
+		script_3237(39059525, 39059526, 39059527, 3, load_varc_string(32))
+		return
+
+	case 4:
+		switch(iVar2) {
+			case default:
+				break
+			case 1:
+				return
+
+
+		}
+		switch(arg0) {
+			case default:
+				break
+			case 13:
+				script_1174(11)
+				return
+
+			case 80:
+				if(load_varc(175) >= client_clock())
+					return
+				if(arg0 == 84)
+					if(string_length(load_varc_string(32)) > 0) {
+						script_2945()
+						return
+					}
+				store_varc(174, 3)
+				store_varc(175, client_clock())
+				store_varc(1099, string_length(load_varc_string(32)))
+				script_3237(39059525, 39059526, 39059527, 3, load_varc_string(32))
+				return
+
+			case 103:
+				store_varc(1099, script_1553(arg0, load_varc(1099), script_2949(load_varc_string(33))))
+				script_3237(39059531, 39059532, 39059533, 4, script_2949(load_varc_string(33)))
+				return
+
+
+		}
+		if(string_length(load_varc_string(33)) >= 20)
+			if(arg0 != 85)
+				if(arg0 != 101)
+					return
+		store_varc_string(33, script_802(load_varc(1099), 0, arg0, arg1, load_varc_string(33)).get(1))
+		if_settext(if_gethash(596, 76), script_2949(load_varc_string(33)))
+		script_3237(39059531, 39059532, 39059533, 4, script_2949(load_varc_string(33)))
+		return
+
+	case 5:
+		switch(iVar2) {
+			case default:
+				break
+			case 1:
+				return
+
+
+		}
+		if(iVar2 == 21)
+			if(arg0 == 13) {
+				script_3235()
+				return
+			} else 
+				if(arg0 == 13) {
+					script_2954()
+					return
+				}
+		return
+
+	case 10:
+		script_2222(arg0)
+		return
+
+	case 15:
+		script_3216(arg0, arg1)
+		return
+
+	case 13:
+		if(arg0 == 13) {
+			script_1174(load_varc(1091))
+			return
+		}
+		return
+
+	case 17:
+		if(arg0 == 84)
+			script_2206()
+		return
+
+
+}
+return

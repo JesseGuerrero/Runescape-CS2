@@ -1,0 +1,4 @@
+//script2424(2424)(int arg0, int arg1, int arg2)(void)
+script_1583(arg0, arg2, load_varc_string(130))
+script_1583(arg1, arg2, load_varc_string(142))
+return

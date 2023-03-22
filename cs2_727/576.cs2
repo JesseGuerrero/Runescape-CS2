@@ -1,0 +1,12 @@
+//script576(576)()(void)
+if_setitem(if_gethash(389, 15), -1, -1)
+cc_deleteall(if_gethash(389, 4))
+if(string_length(load_varc_string(22)) > 0) {
+	if_sethide(if_gethash(389, 5), 1)
+	script_577(load_varc_string(22))
+} else  {
+	if_sethide(if_gethash(389, 5), 0)
+	if_setscrollsize(25493508, 15, 0)
+	script_578()
+}
+return

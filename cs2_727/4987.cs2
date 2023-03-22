@@ -1,0 +1,33 @@
+//script4987(4987)(int arg0)(void)
+int iVar1
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+iVar1 = 0
+iVar2 = 0
+iVar3 = -1
+iVar4 = -1
+iVar5 = 0
+iVar6 = script_4966(arg0)
+if(clan_vars_enabled() == 1) {
+	iVar1 = script_4949(iVar6)
+	store_varpbit(9550, iVar1)
+}
+if(load_varpbit(9552) == 1 || load_varpbit(9552) == 2) {
+	iVar1 = script_4958(iVar6).get(0)
+	script_4988(load_varpbit(9550))
+	script_4937()
+} else 
+	if(load_varpbit(9552) == 4 || load_varpbit(9552) == 3) {
+		store_varpbit(9550, script_4949(iVar6))
+		script_4988(load_varpbit(9550))
+		script_4937()
+		script_4905()
+		script_4907()
+		store_varpbit(9552, 1)
+		script_4899(1)
+	}
+return
+return

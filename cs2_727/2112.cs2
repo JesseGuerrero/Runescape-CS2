@@ -1,0 +1,33 @@
+//script2112(2112)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+if_setmodelangle(arg0, (395 + arg5) + arg5, instr6279(arg0), instr6280(arg0), instr6292(arg0), 0, 0)
+if_setmodelangle(arg1, (395 + arg5) + arg5, instr6279(arg1), instr6280(arg1), instr6292(arg1), 0, 0)
+if_setmodelangle(arg2, (395 + arg5) + arg5, instr6279(arg2), instr6280(arg2), instr6292(arg2), 0, 0)
+if_setmodelangle(arg3, (395 + arg5) + arg5, instr6279(arg3), instr6280(arg3), instr6292(arg3), 0, 0)
+switch(arg4) {
+	case default:
+		break
+	case 0:
+		if_setposition(arg0, 0, 1, 43, 0)
+		if_setposition(arg1, 0, 1, 126, 0)
+		if_setposition(arg2, 0, 1, 210, 0)
+		if_setposition(arg3, 0, 1, -70, 0)
+		break
+	case 1:
+		if_setposition(arg1, 0, 1, 43, 0)
+		if_setposition(arg2, 0, 1, 126, 0)
+		if_setposition(arg3, 0, 1, 210, 0)
+		if_setposition(arg0, 0, 1, -70, 0)
+		break
+	case 2:
+		if_setposition(arg2, 0, 1, 43, 0)
+		if_setposition(arg3, 0, 1, 126, 0)
+		if_setposition(arg0, 0, 1, 210, 0)
+		if_setposition(arg1, 0, 1, -70, 0)
+		if_setposition(arg3, 0, 1, 43, 0)
+		if_setposition(arg0, 0, 1, 126, 0)
+		if_setposition(arg1, 0, 1, 210, 0)
+		if_setposition(arg2, 0, 1, -70, 0)
+		break
+
+}
+return

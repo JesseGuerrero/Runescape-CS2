@@ -1,0 +1,97 @@
+//script765(765)(int arg0, int arg1, int arg2, int arg3, int arg4, string arg5, string arg6, string arg7, string arg8, string arg9)(void)
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+string sVar0
+cc_deleteall(arg0)
+iVar5 = 0
+iVar6 = 0
+if_setscrollsize(arg0, (((arg4 - arg3) / arg1) + 1) * 57, 0)
+iVar7 = 0
+iVar8 = arg3
+iVar9 = 0
+iVar10 = arg4
+iVar11 = 0
+iVar12 = -1
+iVar13 = -1
+iVar14 = -1
+sVar0 = "hello"
+iVar15 = 0
+iVar16 = 0
+iVar17 = 9722
+iVar18 = 2205
+while(iVar7 <= arg4 - arg3) {
+	if(load_varpbit(8701) == 0 || inv_total(enum(1182, iVar8, 'i', 'o'), 93) > 0) {
+		iVar5 = (16 + (modulo(arg1, iVar9) * 48)) + (modulo(arg1, iVar9) * 5)
+		iVar6 = ((iVar9 / arg1) * 52) + ((iVar9 / arg1) * 5)
+		cc_create(iVar16, 5, arg0)
+		cc_setsize(0, 0, 52, 48)
+		cc_setposition(0, 0, iVar6, iVar5)
+		cc_setgraphic(2205)
+		cc_setonmouseover(script_5336, "Iid", -2147483645, iVar16, iVar17)
+		instr6092(script_5336, "Iid", -2147483645, iVar16, iVar18)
+		iVar16 = iVar16 + 1
+		cc_create(iVar16, 5, arg0)
+		iVar16 = iVar16 + 1
+		cc_setsize(0, 0, 52, 48)
+		cc_setposition(0, 0, iVar6, iVar5)
+		cc_setgraphic(2206)
+		iVar13 = enum(1277, iVar8, 'i', 'o')
+		iVar14 = enum(1188, iVar8, 'i', 'o')
+		if(script_768(iVar14, iVar13) == 1)
+			if(stat_base(23) >= enum(1185, iVar13, 'o', 'i'))
+				cc_sethide(0)
+			else
+				cc_sethide(1)
+		cc_create(iVar16, 5, arg0)
+		cc_setsize(0, 0, 32, 36)
+		cc_setposition(0, 0, iVar6 + 4, iVar5 + 6)
+		if(iVar14 == 12421)
+			script_760(iVar14, iVar14, arg0, iVar16, arg0, arg1, arg2, arg3, arg4, "")
+		else
+			if(script_768(iVar14, iVar13) == 1)
+				if(stat_base(23) >= enum(1185, iVar13, 'o', 'i'))
+					script_760(iVar14, iVar14, arg0, iVar16, arg0, arg1, arg2, arg3, arg4, "")
+				else
+					script_760(enum(1184, iVar8, 'i', 'o'), iVar14, arg0, iVar16, arg0, arg1, arg2, arg3, arg4, "")
+		if(iVar14 == 12421) {
+			cc_setonmouseover(script_782, "iIIis", -2147483643, if_gethash(79, 31), if_gethash(79, 17), iVar15, sVar0)
+			instr6092(script_40, "I", if_gethash(79, 31))
+		} else  {
+			sVar0 = enum(1187, iVar14, 'o', 's')
+			iVar15 = enum(1185, iVar13, 'o', 'i')
+			cc_setonmouseover(script_770, "iIIisoioioioioioioioioioi", -2147483643, if_gethash(79, 31), if_gethash(79, 17), iVar15, sVar0, iVar13, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1, -1, 1)
+			instr6092(script_40, "I", if_gethash(79, 31))
+		}
+		iVar16 = iVar16 + 1
+		cc_create(iVar16, 5, arg0)
+		iVar16 = iVar16 + 1
+		cc_setsize(0, 0, 12, 12)
+		cc_setposition(0, 0, iVar6 + 38, iVar5 + 2)
+		cc_setitem_nonum(1, iVar13)
+		cc_create(iVar16, 4, arg0)
+		iVar16 = iVar16 + 1
+		cc_setsize(0, 0, 12, 31)
+		cc_setposition(0, 0, iVar6 + 39, iVar5 + 13)
+		cc_settextfont(494)
+		cc_setcolor(ffffff)
+		cc_settextalign(0, 1, 2)
+		cc_settext("1")
+		cc_settextshadow(1)
+		iVar9 = iVar9 + 1
+	}
+	iVar7 = iVar7 + 1
+	iVar8 = iVar8 + 1
+}
+return

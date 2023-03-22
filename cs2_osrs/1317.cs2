@@ -1,0 +1,140 @@
+void script_1317(int arg0, Widget widget1, Widget widget2, Widget widget3, Widget widget4) {
+	Item item5;
+	int int6;
+	int int7;
+	int int8;
+	int int9;
+	Sprite sprite10;
+	int int11;
+	string str0;
+	string str1;
+	item5 = getItemIdInSlot(95, arg0);
+	if (item5 == null) {
+		return;
+	}
+	if ((Item)m4209(item5) != item5) {
+		playSoundEffect(2277, 1, 0);
+		msg("You can release placeholders by clicking on them.");
+		return;
+	}
+	script_41(widget4);
+	if (_CHILD.setChild(widget2, 1) == true) {
+		_CHILD.setHidden(true);
+	}
+	widget3.setIsHidden(false);
+	widget3.clearChildren();
+	int6 = 0;
+	int7 = getItemAmtInSlot(95, arg0);
+	str0 = script_46(int7, ",") + " " + "<col=ffffff>" + "x" + "</col>" + " " + getItemName(item5);
+	str1 = "Are you " + "<col=ffffff>" + "sure" + "</col>" + " you" + "<br>" + "want to destroy it?";
+	if (int7 > 1) {
+		str1 = "Are you " + "<col=ffffff>" + "sure" + "</col>" + " you want" + "<br>" + "to destroy " + "<col=ffffff>" + "all of them" + "</col>" + "?";
+	}
+	int8 = getMaxLineWidth(str0, 512, 495) + 67;
+	int9 = getMaxLineWidth(str1, 512, 495) + 170;
+	if (int8 < int9) {
+		int8 = int9;
+	}
+	int9 = widget1.getLayer().getWidth();
+	if (int8 > int9) {
+		int8 = int9;
+	}
+	CHILD.createChild(widget3, 5, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(int8, 120, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setSprite(1040);
+	CHILD.setSpriteTiling(true);
+	while (int6 <= arg0) {
+		CHILD.createChild(widget3, 3, int6);
+		int6 = int6 + 1;
+		CHILD.setHidden(true);
+	}
+	CHILD.createChild(widget3, 4, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(85, 22, 0, 0);
+	CHILD.setPosition(0, 40, 1, 1);
+	CHILD.setItem(item5, int7);
+	CHILD.setOptionBase("<col=ff9040>" + getItemName(item5) + "</col>");
+	_CHILD.createChild(widget3, 5, int6);
+	int6 = int6 + 1;
+	_CHILD.setSize(85, 22, 0, 0);
+	_CHILD.setPosition(0, 40, 1, 1);
+	_CHILD.setSprite(812);
+	_CHILD.createChild(widget3, 4, int6);
+	int6 = int6 + 1;
+	_CHILD.setSize(85, 22, 0, 0);
+	_CHILD.setPosition(0, 40, 1, 1);
+	_CHILD.setTextAlignment(1, 1, 0);
+	_CHILD.setFont(494);
+	_CHILD.setTextAntiMacro(true);
+	_CHILD.setText("Wait");
+	_CHILD.setRGB(0x8F8F8F);
+	CHILD.hookFrame(&script_1318(int7, widget3, getChildId(), getChildId(), getClientCycle() + 100));
+	CHILD.createChild(widget3, 4, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(int8, 20, 0, 0);
+	CHILD.setPosition(0, -45, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(1, 2, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str0);
+	CHILD.createChild(widget3, 5, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(16, 16, 0, 0);
+	CHILD.setPosition(int8 / 2 - 18, -44, 1, 1);
+	sprite10 = 831;
+	CHILD.setSprite(sprite10);
+	CHILD.hookMouseExit(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite10, null));
+	sprite10 = 832;
+	CHILD.hookMouseEnter(&script_229(CTX_WIDGET, CTX_WIDGET_CHILD, sprite10, null));
+	CHILD.setContextMenuOption(1, "Close");
+	CHILD.hookOptionClick(&script_1319(1, widget3));
+	int11 = int8 / 2 - 42;
+	CHILD.createChild(widget3, 6, int6);
+	int6 = int6 + 1;
+	_CHILD.createChild(widget3, 6, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(80, 120, 0, 0);
+	_CHILD.setSize(80, 120, 0, 0);
+	CHILD.setPosition(int11, 0, 1, 1);
+	_CHILD.setPosition(int11, 0, 1, 1);
+	CHILD.setModel(9037);
+	_CHILD.setModel(9056);
+	CHILD.set3DRotation(15, 400, 141, 220, 0, 2500);
+	_CHILD.set3DRotation(15, 400, 141, 220, 0, 2500);
+	_CHILD.setAnimation(2439);
+	CHILD.createChild(widget3, 6, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(40, 40, 0, 0);
+	CHILD.setPosition(0 - (int8 / 2 - 42), 0, 1, 1);
+	if ((item5 == 995 || item5 == 10476) && int7 > 10) {
+		CHILD.setItem(item5, 10);
+	} else {
+		CHILD.setItem(getRealItem(item5), int7);
+	}
+	CHILD.createChild(widget3, 4, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(int8, 120, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0xFF981F);
+	CHILD.setTextAlignment(1, 1, 0);
+	CHILD.setFont(495);
+	CHILD.setTextAntiMacro(true);
+	CHILD.setText(str1);
+	CHILD.createChild(widget3, 3, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(int8, 120, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0x0E0E0C);
+	CHILD.setFilled(false);
+	CHILD.createChild(widget3, 3, int6);
+	int6 = int6 + 1;
+	CHILD.setSize(int8 - 2, 118, 0, 0);
+	CHILD.setPosition(0, 0, 1, 1);
+	CHILD.setRGB(0x474745);
+	CHILD.setFilled(false);
+	playSoundEffect(2266, 1, 0);
+	return;
+}

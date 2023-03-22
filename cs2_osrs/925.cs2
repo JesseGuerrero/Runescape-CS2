@@ -1,0 +1,42 @@
+void script_925() {
+	int int0;
+	Widget widget1;
+	script_927(1);
+	widget(162, 0).hookVARP(&script_924(), 1054, 1055, 499);
+	widget(162, 0).hookWidgetsOpenClose(&script_80(CTX_WIDGET, getDisplayMode(), hasChild(widget(162, 546)), hasChild(widget(162, 545)), script_900()));
+	widget(162, 0).hookMsg(&script_663());
+	widget(162, 0).hookFriendList(&script_663());
+	widget(162, 0).hookClanList(&script_216());
+	widget(162, 0).hookMiscData(&script_664(true));
+	STRING[1] = "";
+	VARC[41], VARC[42] = 0, -1;
+	VARC[3], VARC[4] = -1, 0;
+	STRING[2], STRING[3], STRING[4], STRING[5], STRING[6], STRING[7], STRING[8], STRING[9], STRING[10], STRING[11], STRING[12], STRING[13], STRING[14], STRING[15], STRING[16], STRING[17], STRING[18], STRING[19], STRING[20], STRING[21] = "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "";
+	STRING[0], STRING[25] = "", "";
+	VARC[55] = -2147483648;
+	STRING[28], VARC[62] = "", 0;
+	int0 = 0;
+	widget1 = datamap('i', 'I', 579, int0);
+	while (widget1 != null) {
+		CHILD.createChild(widget(162, 43), 4, int0 * 2);
+		_CHILD.createChild(widget(162, 43), 4, int0 * 2 + 1);
+		CHILD.setRGB(0x000000);
+		_CHILD.setRGB(0x000000);
+		CHILD.setFont(495);
+		_CHILD.setFont(495);
+		CHILD.setTextAlignment(0, 0, 14);
+		_CHILD.setTextAlignment(0, 0, 14);
+		CHILD.setHidden(true);
+		_CHILD.setHidden(true);
+		int0 = int0 + 1;
+		widget1 = datamap('i', 'I', 579, int0);
+	}
+	widget(162, 43).setScrollPos(0, 0);
+	script_31(widget(162, 544), widget(162, 43), null, null, null, null, null, null);
+	script_923();
+	m5021("");
+	script_223();
+	script_178();
+	script_84(script_553());
+	return;
+}

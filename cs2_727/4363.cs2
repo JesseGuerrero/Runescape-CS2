@@ -1,0 +1,58 @@
+//script4363(4363)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, string arg7, long arg8)(void)
+if_settext(if_gethash(1099, 109), arg0)
+if_setgraphic(arg1, 5933)
+if(arg0 != -2L) {
+	instr6239(if_gethash(1099, 155), script_4330, "§", arg0)
+	if_sethide(if_gethash(1099, 158), 1)
+} else  {
+	instr6220(if_gethash(1099, 155))
+	if_sethide(if_gethash(1099, 158), 0)
+}
+if(activeclansettings_find_listened() == 1) {
+	if(script_4616(arg2, arg3) > 0)
+		if(arg4 > 0)
+			if(arg5 > 0)
+				if(arg6 > 0)
+					if_sethide(if_gethash(1099, 110), 0)
+	script_4621(72024064)
+} else 
+	if_sethide(if_gethash(1099, 110), 1)
+store_varp(2128, arg0)
+switch(arg0) {
+	case default:
+		break
+	case 1:
+		if_setgraphic(if_gethash(1099, 6), 5935)
+		break
+	case 2:
+		if_setgraphic(if_gethash(1099, 125), 5935)
+		break
+	case 3:
+		if_setgraphic(if_gethash(1099, 128), 5935)
+		break
+	case 4:
+		if_setgraphic(if_gethash(1099, 131), 5935)
+		break
+	case 5:
+		if_setgraphic(if_gethash(1099, 134), 5935)
+		break
+	case 6:
+		if_setgraphic(if_gethash(1099, 137), 5935)
+		break
+	case 7:
+		if_setgraphic(if_gethash(1099, 140), 5935)
+		break
+	case 8:
+		if_setgraphic(if_gethash(1099, 143), 5935)
+		break
+
+}
+script_4624(72024070, 1)
+script_4624(72024189, 2)
+script_4624(72024192, 3)
+script_4624(72024195, 4)
+script_4624(72024198, 5)
+script_4624(72024201, 6)
+script_4624(72024204, 7)
+script_4624(72024207, 8)
+return

@@ -1,0 +1,14 @@
+//script6040(6040)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+if(script_6035(arg0, load_varc(1798), load_varc(1799), 1) == 0)
+	return
+store_varc(1796, arg1)
+iVar4 = enum_getoutputcount(5727) - 1
+while(iVar4 >= 0) {
+	arg2 = enum(5727, iVar4, 'i', 'I')
+	if(arg2 != -1)
+		instr6299(arg2)
+	iVar4 = iVar4 - 1
+}
+instr6299(arg3)
+return

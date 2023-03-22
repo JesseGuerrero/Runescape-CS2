@@ -1,0 +1,15 @@
+void script_1199(Widget widget0, Widget widget1, Widget widget2, int arg3, Item item4) {
+	widget0.setItemOnWidgetMethod2205(item4, 1);
+	widget1.clearChildren();
+	widget2.clearChildren();
+	CHILD.createChild(widget1, 3, 0);
+	_CHILD.createChild(widget2, 3, 0);
+	CHILD.setFilled(false);
+	_CHILD.setFilled(true);
+	CHILD.setPosition(0, 0, 1, 1);
+	_CHILD.setPosition(0, 0, 0, 1);
+	CHILD.setSize(0, 0, 1, 1);
+	script_1201(widget0, widget1, widget2, arg3, item4);
+	widget0.hookContainer(&script_1200(widget0, widget1, widget2, widget(arg3), item4, getChildId(), getChildId()), 173);
+	return;
+}

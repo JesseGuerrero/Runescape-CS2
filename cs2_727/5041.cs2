@@ -1,0 +1,79 @@
+//script5041(5041)(int arg0, int arg1, int arg2, int arg3)(void)
+int iVar4
+string sVar0
+cc_setop("Delete", 6)
+cc_setparam_int(arg1, 1474)
+cc_setparam_int(arg2, 1475)
+sVar0 = struct_param(1463, arg0)
+cc_setopbase("<col=ff9040>" + sVar0)
+iVar4 = -1
+switch(struct_param(1466, arg0)) {
+	case default:
+		break
+	case 1:
+		cc_setparam_int(script_5020(arg3), 1476)
+		cc_setparam_int(script_5021(arg3), 1477)
+		iVar4 = struct_param(1470, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5022(arg3), 'i', 's'), sVar0)
+		break
+	case 2:
+		iVar4 = struct_param(1470, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5023(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1471, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5024(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1472, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5025(arg3), 'i', 's'), sVar0)
+		break
+	case 3:
+		iVar4 = struct_param(1470, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5026(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1471, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5027(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1472, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5028(arg3), 'i', 's'), sVar0)
+		break
+	case 4:
+		iVar4 = struct_param(1470, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5029(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1471, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5030(arg3), 'i', 's'), sVar0)
+		break
+	case 5:
+		iVar4 = struct_param(1470, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5031(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1471, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5032(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1472, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5033(arg3), 'i', 's'), sVar0)
+		break
+	case 6:
+		iVar4 = struct_param(1470, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5034(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1471, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5035(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1472, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, script_5036(arg3), 'i', 's'), sVar0)
+		iVar4 = struct_param(1470, arg0)
+		if(iVar4 != -1)
+			sVar0 = append("<br>" + enum(iVar4, -1, 'i', 's') + " " + enum(iVar4, arg3, 'i', 's'), sVar0)
+		break
+
+}
+cc_setonmouseover(script_5077, "Iisii", -2147483645, -2147483643, sVar0, -2147483647, -2147483646)
+instr6092(script_40, "I", if_gethash(1111, 119))
+return

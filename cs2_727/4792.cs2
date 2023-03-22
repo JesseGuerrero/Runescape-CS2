@@ -1,0 +1,121 @@
+//script4792(4792)(int arg0, int arg1)(int, int, int, int, int, int)
+int iVar2
+int iVar3
+int iVar4
+int iVar5
+int iVar6
+int iVar7
+int iVar8
+int iVar9
+int iVar10
+int iVar11
+int iVar12
+int iVar13
+int iVar14
+int iVar15
+int iVar16
+int iVar17
+int iVar18
+int iVar19
+int iVar20
+int iVar21
+int iVar22
+string sVar0
+iVar2 = 0
+iVar3 = 0
+iVar4 = 0
+iVar5 = 0
+iVar6 = 0
+iVar7 = 0
+iVar8 = 0
+iVar9 = 0
+iVar10 = 0
+iVar11 = 0
+iVar12 = 0
+iVar13 = 0
+iVar14 = enum(4008, arg0, 'i', 'J')
+iVar15 = 0
+iVar16 = 0
+iVar17 = 0
+iVar18 = 0
+iVar19 = 0
+iVar20 = 0
+iVar21 = -1
+sVar0 = ""
+if(arg0 < 1 || arg0 > 900) {
+	send_message("Clan Build Tick : Attempting to look up build cost for invalid job " + to_string(arg0) + ".")
+	return 0, 0, 0, 0, 0, 0
+}
+iVar21 = script_4791(arg0).get(0)
+iVar22 = -1
+if(arg0 < 600)
+	switch(iVar8) {
+		case default:
+			break
+		case 1:
+			iVar22 = 2021
+			break
+		case 2:
+			iVar22 = 2022
+			break
+		case 3:
+			iVar22 = 2023
+			break
+		case 4:
+			iVar22 = enum(4010, iVar10, 'i', 'J')
+			break
+		case 5:
+			iVar22 = iVar14
+			break
+
+	}
+else
+	switch(iVar8) {
+		case default:
+			break
+		case 1:
+			iVar22 = 2031
+			break
+		case 2:
+			iVar22 = 2032
+			break
+		case 3:
+			iVar22 = 2033
+			break
+		case 4:
+			iVar22 = enum(4009, iVar10, 'i', 'J')
+			break
+		case 5:
+			iVar22 = iVar14
+			break
+
+	}
+if(arg1 == 0)
+	return 0, 0, 0, 0, 0, 0
+switch(arg1) {
+	case default:
+		break
+	case 1:
+		return struct_param(1518, iVar22), struct_param(1511, iVar22), struct_param(1504, iVar22), struct_param(1497, iVar22), struct_param(1490, iVar22), struct_param(1483, iVar22)
+
+	case 2:
+		return struct_param(1519, iVar22), struct_param(1512, iVar22), struct_param(1505, iVar22), struct_param(1498, iVar22), struct_param(1491, iVar22), struct_param(1484, iVar22)
+
+	case 3:
+		return struct_param(1520, iVar22), struct_param(1513, iVar22), struct_param(1506, iVar22), struct_param(1499, iVar22), struct_param(1492, iVar22), struct_param(1485, iVar22)
+
+	case 4:
+		return struct_param(1521, iVar22), struct_param(1514, iVar22), struct_param(1507, iVar22), struct_param(1500, iVar22), struct_param(1493, iVar22), struct_param(1486, iVar22)
+
+	case 5:
+		return struct_param(1522, iVar22), struct_param(1515, iVar22), struct_param(1508, iVar22), struct_param(1501, iVar22), struct_param(1494, iVar22), struct_param(1487, iVar22)
+
+	case 6:
+		return struct_param(1523, iVar22), struct_param(1516, iVar22), struct_param(1509, iVar22), struct_param(1502, iVar22), struct_param(1495, iVar22), struct_param(1488, iVar22)
+
+	case 7:
+		return struct_param(1524, iVar22), struct_param(1517, iVar22), struct_param(1510, iVar22), struct_param(1503, iVar22), struct_param(1496, iVar22), struct_param(1489, iVar22)
+
+
+}
+return 0, 0, 0, 0, 0, 0

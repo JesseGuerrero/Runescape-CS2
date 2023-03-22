@@ -1,0 +1,24 @@
+//script4756(4756)(int arg0)(void)
+int iVar1
+iVar1 = scale(load_varp(2244), 1200, 16384)
+iVar1 = min(16384, max(0, iVar1))
+if_setsize(if_gethash(642, 90), 1, 2, 0, iVar1)
+if_settext(arg0, to_string(load_varp(2244)))
+if(load_varp(2244) >= 700) {
+	if_setcolor(42074203, 0xFFFFFF)
+	if_setcolor(42074205, 0xFFFFFF)
+	if_setcolor(42074204, 0xFFFFFF)
+	if_setmodelanim(if_gethash(642, 96), 2602)
+} else 
+	if(load_varp(2244) <= 300) {
+		if_setcolor(42074203, 0xFF2266)
+		if_setcolor(42074205, 0xFF2266)
+		if_setcolor(42074204, 0xFF2266)
+		if_setmodelanim(if_gethash(642, 96), 2601)
+	} else  {
+		if_setcolor(42074203, 0xFFFFFF)
+		if_setcolor(42074205, 0xFFFFFF)
+		if_setcolor(42074204, 0xFFFFFF)
+		if_setmodelanim(if_gethash(642, 96), 9804)
+	}
+return

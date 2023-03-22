@@ -1,0 +1,6 @@
+//script1483(1483)(int arg0, int arg1)(void)
+if(client_clock() >= arg0) {
+	instr6342(arg1, None, "")
+	script_1463(load_varpbit(4893))
+}
+return

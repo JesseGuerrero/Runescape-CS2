@@ -1,0 +1,15 @@
+void script_1553(int arg0) {
+	if (hasChild(datamap('I', 'I', script_900(), widget(161, 70))) == false) {
+		return;
+	}
+	widget(500, 10).setIsHidden(false);
+	widget(500, 11).setIsHidden(false);
+	widget(500, 2).setIsHidden(false);
+	widget(500, 6).setIsHidden(false);
+	widget(500, 5).setIsHidden(true);
+	if (VARC[181] != 0 && VARC[181] != 1 && VARC[181] != 2 && VARC[181] != 3 && VARC[181] != 4 && VARC[181] != 5) {
+		VARC[181] = 0;
+	}
+	script_1554(arg0);
+	return;
+}

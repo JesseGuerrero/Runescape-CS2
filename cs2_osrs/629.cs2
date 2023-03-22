@@ -1,0 +1,10 @@
+void script_629(Widget widget0, int arg1, string string2, int arg3) {
+	if (getClientCycle() < arg3) {
+		return;
+	}
+	if (CHILD.setChild(widget0, arg1) == true) {
+		CHILD.setText(string2);
+		CHILD.hookFrame(null);
+	}
+	return;
+}

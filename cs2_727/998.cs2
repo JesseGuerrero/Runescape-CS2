@@ -1,0 +1,318 @@
+//script998(998)(int arg0, int arg1)(int, int, string, string)
+switch(arg0) {
+	case default:
+		break
+	case 0:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 303, 1, "You can now fish with a " + "<col=000080>" + "small net" + "</col>" + ".", "Small net"
+
+			case 1:
+				return 13431, 1, "You can now fish with a " + "<col=000080>" + "crayfish cage" + "</col>" + ".", "Crayfish cage"
+
+			case 2:
+				return 307, 5, "You can now fish with " + "<col=000080>" + "fishing rods" + "</col>" + " and bait" + "</col>" + ".", "Bait fishing"
+
+			case 3:
+				return 305, 16, "Members can now fish with " + "<col=000080>" + "big nets" + "</col>" + ".", "Members: Big net"
+
+			case 4:
+				return 309, 20, "You can now fish with " + "<col=000080>" + "fly fishing rods" + "</col>" + " and " + "<col=000080>" + "feathers" + "</col>" + ".", "Fly fishing rod"
+
+			case 5:
+				return 311, 35, "You can now fish with " + "<col=000080>" + "harpoons" + "</col>" + ".", "Harpoon"
+
+			case 6:
+				return 301, 40, "You can now fish with " + "<col=000080>" + "lobster pots" + "</col>" + ".", "Lobster pot"
+
+			case 7:
+				return 14109, 40, "Members can now use " + "<col=000080>" + "sacred clay harpoons" + "</col>" + ".", "Members: Sacred clay harpoon"
+
+			case 8:
+				return 14101, 40, "Members can now use " + "<col=000080>" + "volatile harpoons" + "</col>" + ".", "Members: Volatile harpoon"
+
+			case 9:
+				return 11323, 48, "Members who are versed in the art of barbarian fishing now have the Fishing level required to fish with " + "<col=000080>" + "heavy rods" + "</col>" + ". (They also need level 15 Agility and level 15 Strength.)", "Members: Heavy rod" + "<br>" + " (with 15 Agility and 15 Strength)"
+
+			case 10:
+				return 3157, 65, "Members now have the Fishing level required to use " + "<col=000080>" + "karambwan vessels" + "</col>" + " to fish for " + "<col=000080>" + "karambwan" + "</col>" + " (after starting Tai Bwo Wannai Trio).", "Members: Vessel fishing" + "<br>" + " (after starting Tai Bwo Wannai Trio)"
+
+			case 11:
+				return 12860, 65, "You can now wear " + "<col=000080>" + "swordfish gloves" + "</col>" + ".", "Swordfish gloves"
+
+			case 12:
+				return 20891, 70, "You can now fish with " + "<col=000080>" + "small cast nets" + "</col>" + " (after completing Deadliest Catch).", "Members: Small cast net (after completing Deadliest Catch)"
+
+			case 13:
+				return 20892, 70, "Members can now fish with " + "<col=000080>" + "big cast nets" + "</col>" + " (after completing Deadliest Catch).", "Members: Big cast net (after completing Deadliest Catch)"
+
+			case 14:
+				return 12861, 90, "Members can now wear " + "<col=000080>" + "shark gloves" + "</col>" + ".", "Members: Shark gloves"
+
+
+		}
+		break
+	case 1:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 317, 1, "You can now catch " + "<col=000080>" + "shrimp" + "</col>" + " with a net.", "Shrimp - Net fishing"
+
+			case 1:
+				return 13435, 1, "You can now catch " + "<col=000080>" + "crayfish" + "</col>" + " with a crayfish cage.", "Crayfish - Crayfish cage"
+
+			case 2:
+				return 327, 5, "You can now catch " + "<col=000080>" + "sardines" + "</col>" + " with a fishing rod.", "Sardine - Sea bait fishing"
+
+			case 3:
+				return 3150, 5, "Members can now catch " + "<col=000080>" + "karabwanji" + "</col>" + " with a net.", "Members: Karambwanji - Net fishing"
+
+			case 4:
+				return 345, 10, "You can now catch " + "<col=000080>" + "herring" + "</col>" + " with a fishing rod.", "Herring - Sea bait fishing"
+
+			case 5:
+				return 321, 15, "You can now catch " + "<col=000080>" + "anchovies" + "</col>" + " with a net.", "Anchovies - Net fishing"
+
+			case 6:
+				return 353, 16, "Members can now catch " + "<col=000080>" + "mackerel" + "</col>" + " with a big net.", "Members: Mackerel - Big net fishing"
+
+			case 7:
+				return 407, 16, "Members can now catch " + "<col=000080>" + "oysters" + "</col>" + " with a big net.", "Members: Oyster - Big net fishing"
+
+			case 8:
+				return 405, 16, "Members can now catch " + "<col=000080>" + "caskets" + "</col>" + " with a big net.", "Members: Casket - Big net fishing"
+
+			case 9:
+				return 401, 16, "Members can now catch " + "<col=000080>" + "seaweed" + "</col>" + " with a big net.", "Members: Seaweed - Big net fishing"
+
+			case 10:
+				return 335, 20, "You can now catch " + "<col=000080>" + "trout" + "</col>" + " with a fly-fishing rod.", "Trout - Fly-fishing"
+
+			case 11:
+				return 341, 23, "Members can now catch " + "<col=000080>" + "cod" + "</col>" + " with a big net.", "Members: Cod - Big net fishing"
+
+			case 12:
+				return 349, 25, "You can now catch " + "<col=000080>" + "pike" + "</col>" + " with a fishing rod.", "Pike - River bait fishing"
+
+			case 13:
+				return 3379, 28, "Members can now catch " + "<col=000080>" + "slimy eels" + "</col>" + " with a fishing rod.", "Members: Slimy eel - River bait fishing"
+
+			case 14:
+				return 331, 30, "You can now catch " + "<col=000080>" + "salmon" + "</col>" + " with a fly-fishing rod.", "Salmon - Fly-fishing"
+
+			case 15:
+				return 5004, 33, "Members can now catch " + "<col=000080>" + "giant frogspawn" + "</col>" + " with a net.", "Members: Giant frogspawn - Net fishing"
+
+			case 16:
+				return 359, 35, "You can now catch " + "<col=000080>" + "tuna" + "</col>" + " with a harpoon.", "Tuna - Harpoon fishing"
+
+			case 17:
+				return 10138, 38, "Members can now catch " + "<col=000080>" + "rainbow fish" + "</col>" + " with a fly-fishing rod.", "Members: Rainbow fish - Stripy fly-fishing"
+
+			case 18:
+				return 5001, 38, "Members can now catch " + "<col=000080>" + "cave eels" + "</col>" + " with a fishing rod.", "Members: Cave eel - River bait fishing"
+
+			case 19:
+				return 377, 40, "You can now catch " + "<col=000080>" + "lobsters" + "</col>" + " with a lobster pot.", "Lobster - Lobster pot fishing"
+
+			case 20:
+				return 363, 46, "Members can now catch " + "<col=000080>" + "bass" + "</col>" + " with a big net.", "Members: Bass - Big net fishing"
+
+			case 21:
+				return 371, 50, "You can now catch " + "<col=000080>" + "swordfish" + "</col>" + " with a harpoon.", "Swordfish - Harpoon fishing"
+
+			case 22:
+				return 2148, 53, "Members can now catch " + "<col=000080>" + "lava eels" + "</col>" + " with an oily fishing rod.", "Members: Lava eel - Bait fishing (oily fishing rod)"
+
+			case 23:
+				return 7944, 62, "Members can now catch " + "<col=000080>" + "monkfish" + "</col>" + " with a net.", "Members: Monkfish - Net fishing"
+
+			case 24:
+				return 3142, 65, "Members can now catch " + "<col=000080>" + "karambwan" + "</col>" + " with a karambwan vessel in Karamja.", "Members: Karambwan - Vessel fishing"
+
+			case 25:
+				return 383, 76, "Members can now catch " + "<col=000080>" + "sharks" + "</col>" + " with a harpoon.", "Members: Shark - Harpoon fishing"
+
+			case 26:
+				return 395, 79, "Members can now catch " + "<col=000080>" + "sea turtles" + "</col>" + " in Fishing Trawler.", "Members: Sea turtle - Fishing Trawler"
+
+			case 27:
+				return 389, 81, "Members can now catch " + "<col=000080>" + "manta rays" + "</col>" + " in Fishing Trawler.", "Members: Manta ray - Fishing Trawler"
+
+			case 28:
+				return 15264, 85, "Members can now catch " + "<col=000080>" + "cavefish" + "</col>" + " with a fishing rod.", "Members: Cavefish - Cave bait fishing"
+
+			case 29:
+				return 15270, 90, "Members can now catch " + "<col=000080>" + "rocktails" + "</col>" + " with a fishing rod.", "Members: Rocktail - Living minerals cave bait fishing"
+
+			case 30:
+				return 21520, 95, "Members can now catch " + "<col=000080>" + "tiger sharks" + "</col>" + " in Fishing Trawler.", "Members: Tiger shark - Fishing Trawler"
+
+
+		}
+		break
+	case 2:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 7620, -1, "", "To start fishing like a barbarian, talk to Otto Godblessed when you have at least level 48 Fishing, level 15 Agility and level 15 Strength."
+
+			case 1:
+				return 11328, 48, "Members who are versed in the art of barbarian fishing now have the Fishing level required to catch " + "<col=000080>" + "leaping trout" + "</col>" + " with a heavy rod. (They also need level 15 Agility and level 15 Strength.)", "Members: Leaping trout" + "<br>" + " (with 15 Strength and 15 Agility)"
+
+			case 2:
+				return 359, 55, "Members who are versed in the art of barbarian fishing now have the Fishing level required to catch " + "<col=000080>" + "tuna" + "</col>" + " without a harpoon. (They also need level 35 Strength.)", "Members: Tuna" + "<br>" + " (with 35 Strength)"
+
+			case 3:
+				return 359, 55, "Members who are versed in the art of barbarian fishing now have the Fishing level required to potentially catch two " + "<col=000080>" + "tuna" + "</col>" + " in one attempt without a harpoon. (They also need level 35 Strength and 35 Agility.)", "Members: Possibility of catching two tuna in one fishing attempt" + "<br>" + " (with 35 Strength and 35 Agility)"
+
+			case 4:
+				return 11330, 58, "Members who are versed in the art of barbarian fishing now have the Fishing level required to catch " + "<col=000080>" + "leaping salmon" + "</col>" + " with a heavy rod. (They also need level 30 Agility and level 30 Strength.)", "Members: Leaping salmon" + "<br>" + " (with 30 Strength and 30 Agility)"
+
+			case 5:
+				return 371, 70, "Members who are versed in the art of barbarian fishing now have the Fishing level required to catch " + "<col=000080>" + "swordfish" + "</col>" + " without a harpoon. (They also need level 50 Strength.)", "Members: Swordfish" + "<br>" + " (with 50 Strength)"
+
+			case 6:
+				return 371, 70, "Members who are versed in the art of barbarian fishing now have the Fishing level required to catch two " + "<col=000080>" + "swordfish" + "</col>" + " without a harpoon. (They also need level 50 Strength and 50 Agility.)", "Members: Possibility of catching two swordfish in one fishing attempt" + "<br>" + " (with 50 Strength and 50 Agility)"
+
+			case 7:
+				return 11332, 70, "Members who are versed in the art of barbarian fishing now have the Fishing level required to catch " + "<col=000080>" + "leaping sturgeon" + "</col>" + " with a heavy rod. (They also need level 45 Agility and level 45 Strength.)", "Members: Leaping sturgeon" + "<br>" + " (with 45 Strength and 45 Agility)"
+
+			case 8:
+				return 383, 96, "Members who are versed in the art of barbarian fishing now have the Fishing level required to catch " + "<col=000080>" + "sharks" + "</col>" + " without a harpoon. (They also need level 76 Strength.)", "Members: Shark" + "<br>" + " (with 76 Strength)"
+
+			case 9:
+				return 383, 96, "Members who are versed in the art of barbarian fishing now have the Fishing level required to potentially catch two " + "<col=000080>" + "sharks" + "</col>" + " in one attempt without a harpoon. (They also need level 76 Strength and 76 Agility.)", "Members: Possibility of catching two sharks in one fishing attempt" + "<br>" + " (with 76 Strength and 76 Agility)"
+
+
+		}
+		break
+	case 3:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 359, 35, "You now have the Fishing level required to potentially catch two " + "<col=000080>" + "tuna" + "</col>" + " in one fishing attempt. (You also need level 35 Agility.)", "Possibility of catching two tuna in one fishing attempt" + "<br>" + " (with 35 Agility)"
+
+			case 1:
+				return 371, 50, "You now have the Fishing level required to potentially catch two " + "<col=000080>" + "swordfish" + "</col>" + " in one fishing attempt. (You also need level 50 Agility.)", "Possibility of catching two swordfish in one fishing attempt" + "<br>" + " (with 50 Agility)"
+
+			case 2:
+				return 383, 76, "You now have the Fishing level required to potentially catch two " + "<col=000080>" + "sharks" + "</col>" + " in one fishing attempt. (You also need level 76 Agility.)", "Possibility of catching two sharks in one fishing attempt" + "<br>" + " (with 76 Agility)"
+
+
+		}
+		break
+	case 4:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 18778, 91, "Members can now investigate " + "<col=000080>" + "starved ancient effigies" + "</col>" + " using their knowledge of Fishing.", "Members: Starved ancient effigies"
+
+			case 1:
+				return 18779, 93, "Members can now investigate " + "<col=000080>" + "nourished ancient effigies" + "</col>" + " using their knowledge of Fishing.", "Members: Nourished ancient effigies"
+
+			case 2:
+				return 18780, 95, "Members can now investigate " + "<col=000080>" + "sated ancient effigies" + "</col>" + " using their knowledge of Fishing.", "Members: Sated ancient effigies"
+
+			case 3:
+				return 18781, 97, "Members can now investigate " + "<col=000080>" + "gorged ancient effigies" + "</col>" + " using their knowledge of Fishing.", "Members: Gorged ancient effigies"
+
+
+		}
+		break
+	case 5:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 14142, 1, "Members can now use " + "<col=000080>" + "class 1 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 1 harpoon"
+
+			case 1:
+				return 14184, 20, "Members can now catch " + "<col=000080>" + "class 2 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - catch class 2 sacred clay"
+
+			case 2:
+				return 14144, 20, "Members can now use " + "<col=000080>" + "class 2 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 2 harpoon"
+
+			case 3:
+				return 14186, 40, "Members can now catch " + "<col=000080>" + "class 3 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - catch class 3 sacred clay"
+
+			case 4:
+				return 14146, 40, "Members can now use " + "<col=000080>" + "class 3 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 3 harpoon"
+
+			case 5:
+				return 14188, 60, "Members can now catch " + "<col=000080>" + "class 4 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - catch class 4 sacred clay"
+
+			case 6:
+				return 14148, 60, "Members can now use " + "<col=000080>" + "class 4 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 4 harpoon"
+
+			case 7:
+				return 14190, 80, "Members can now catch " + "<col=000080>" + "class 5 sacred clay" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - catch class 5 sacred clay"
+
+			case 8:
+				return 14150, 80, "Members can now use " + "<col=000080>" + "class 5 harpoons" + "</col>" + " in Stealing Creation.", "Members: Stealing Creation - class 5 harpoon"
+
+
+		}
+		break
+	case 6:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 15707, -1, "", "Dungeoneering skill tasks" + "<br>" + "As your Fishing level increases, you will be able to attempt higher-level fishing tasks within Daemonheim. You will also be more likely to succeed when attempting fishing tasks within Daemonheim."
+
+			case 1:
+				return 17797, 1, "You can now catch " + "<col=000080>" + "heim crabs" + "</col>" + " within Daemonheim.", "Heim crab (Tier 1)"
+
+			case 2:
+				return 17799, 10, "You can now catch " + "<col=000080>" + "red-eye" + "</col>" + " within Daemonheim.", "Red-eye (Tier 2)"
+
+			case 3:
+				return 17801, 20, "You can now catch " + "<col=000080>" + "dusk eels" + "</col>" + " within Daemonheim.", "Dusk eel (Tier 3)"
+
+			case 4:
+				return 17803, 30, "You can now catch " + "<col=000080>" + "giant flatfish" + "</col>" + " within Daemonheim.", "Giant flatfish (Tier 4)"
+
+			case 5:
+				return 17805, 40, "You can now catch " + "<col=000080>" + "short-finned eels" + "</col>" + " within Daemonheim.", "Short-finned eel (Tier 5)"
+
+			case 6:
+				return 17807, 50, "Members can now catch " + "<col=000080>" + "web snippers" + "</col>" + " within Daemonheim.", "Members: Web snipper (Tier 6)"
+
+			case 7:
+				return 17809, 60, "Members can now catch " + "<col=000080>" + "bouldabass" + "</col>" + " within Daemonheim.", "Members: Bouldabass (Tier 7)"
+
+			case 8:
+				return 17811, 70, "Members can now catch " + "<col=000080>" + "salve eels" + "</col>" + " within Daemonheim.", "Members: Salve eel (Tier 8)"
+
+			case 9:
+				return 17813, 80, "Members can now catch " + "<col=000080>" + "blue crabs" + "</col>" + " within Daemonheim.", "Members: Blue crab (Tier 9)"
+
+			case 10:
+				return 17815, 90, "Members can now catch " + "<col=000080>" + "cave morays" + "</col>" + " within Daemonheim.", "Members: Cave moray (Tier 10)"
+
+
+		}
+		break
+	case 7:
+		switch(arg1) {
+			case default:
+				break
+			case 0:
+				return 383, 68, "Members can now enter the " + "<col=000080>" + "Fishing Guild" + "</col>" + ".", "Members: Fishing Guild"
+
+			case 1:
+				return 9798, 99, "<col=000080>" + "Congratulations! You are now a master of " + "<col=800000>" + "Fishing" + "<col=000080>" + ". Members can visit the " + "<col=800000>" + "Master Fisherman" + "<col=000080>" + " at the " + "<col=800000>" + "Fishing Guild" + "<col=000080>" + ". He has something special that is only available to true masters of the " + "<col=800000>" + "Fishing" + "<col=000080>" + " skill!", "Skill mastery"
+
+
+		}
+		break
+
+}
+return -1, 0, "", ""

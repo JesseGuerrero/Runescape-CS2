@@ -1,0 +1,12 @@
+//script180(180)(int arg0)(void)
+if(arg0 == load_varc(41))
+	return
+if(arg0 == 3)
+	if(load_varp(287) > 0)
+		if(load_varc(41) != -1)
+			return
+if(script_179(arg0) > 24)
+	return
+script_183(arg0, 249)
+instr6342(enum(683, arg0, 'i', 'I'), script_182, "i", arg0)
+return

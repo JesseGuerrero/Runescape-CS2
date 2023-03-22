@@ -1,0 +1,36 @@
+//script2923(2923)(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)(void)
+int iVar6
+int iVar7
+int iVar8
+if(load_varp(102) > 0) {
+	if_sethide(arg0, 1)
+	if_sethide(arg1, 0)
+	instr6213(arg1, 1, "Use cure (p)")
+} else 
+	if(load_varp(456) > 0) {
+		if_sethide(arg0, 1)
+		if_sethide(arg1, 0)
+		instr6213(arg1, 1, "Use cure (d)")
+	} else  {
+		if_sethide(arg0, 0)
+		if_sethide(arg1, 1)
+		instr6220(arg1)
+	}
+iVar6 = 3
+iVar7 = 24
+if_setsize(arg3, 0, 1, iVar6 + (iVar7 - scale(iVar7, script_2916(), load_varpbit(7198))), 0)
+if_setsize(arg4, 0, 1, iVar6 + (iVar7 - scale(iVar7, script_2916(), script_2915())), 0)
+if_settext(arg5, to_string(load_varpbit(7198)))
+iVar8 = scale(100, script_2916(), load_varpbit(7198))
+if(iVar8 > 75)
+	if_setcolor(arg5, 0xFF00)
+else
+	if(iVar8 > 50)
+		if_setcolor(arg5, 0xFFFF00)
+	else
+		if(iVar8 > 25)
+			if_setcolor(arg5, 0xFF981F)
+		else
+			if_setcolor(arg5, 0xFF0000)
+script_2654()
+return
